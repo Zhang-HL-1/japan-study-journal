@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="记录日本留学项目、学习笔记与准备过程的个人网站。"
+    />
+    <meta name="theme-color" content="#f5f2ea" />
+    <title>留日手记｜日本留学与学习记录</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="留日手记首页">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>留日手记</span>
+      </a>
+      <nav class="main-nav" aria-label="主要导航">
+        <a class="is-active" href="#top">首页</a>
+        <a href="#topics">项目</a>
+        <a href="#topics">学习</a>
+        <a href="#about">关于</a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="sr-only">打开导航</span>
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
+      <a href="#top">首页</a>
+      <a href="#topics">项目与学习</a>
+      <a href="#about">关于</a>
+    </nav>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          Japan Study Journal
+        </div>
+        <h1>把日本留学这件事，<br /><em>慢慢整理成答案。</em></h1>
+        <div class="hero-footer">
+          <p>
+            这里将记录我的留学项目、学习过程与真实经验。现在它刚刚开始，之后会随着每一次探索逐渐生长。
+          </p>
+          <a class="text-link" href="#topics">
+            看看未来会有什么
+            <span aria-hidden="true">↘</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="topics" id="topics" aria-labelledby="topics-title">
+        <div class="section-heading">
+          <p>接下来会在这里</p>
+          <h2 id="topics-title">收集、理解，再分享。</h2>
+        </div>
+
+        <div class="topic-grid">
+          <article class="topic-card topic-card--dark">
+            <span class="card-index">01</span>
+            <div>
+              <p class="card-kicker">Projects</p>
+              <h3>留学项目</h3>
+              <p>学校与专业调研、申请方案，以及每个重要选择背后的思考。</p>
+            </div>
+            <span class="card-status">待添加</span>
+          </article>
+
+          <article class="topic-card">
+            <span class="card-index">02</span>
+            <div>
+              <p class="card-kicker">Learning</p>
+              <h3>学习记录</h3>
+              <p>语言学习、课程笔记和阶段复盘，把零散的进步留存下来。</p>
+            </div>
+            <span class="card-status">待添加</span>
+          </article>
+
+          <article class="topic-card topic-card--accent">
+            <span class="card-index">03</span>
+            <div>
+              <p class="card-kicker">Field Notes</p>
+              <h3>经验手记</h3>
+              <p>申请准备、生活观察与踩坑记录，希望让后来的人少一点慌张。</p>
+            </div>
+            <span class="card-status">待添加</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <p class="about-label">About this place</p>
+        <div class="about-copy">
+          <h2 id="about-title">一个仍在生长的数字书桌。</h2>
+          <p>
+            它暂时很安静，因为真正重要的内容还在路上。未来的文章、项目和学习资料会从这里展开，并保持简单、清楚、易于查找。
+          </p>
+        </div>
+        <div class="seal" aria-hidden="true">
+          <span>留日</span>
+          <small>EST. 2026</small>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand--footer" href="#top">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>留日手记</span>
+      </a>
+      <p>关于日本留学、学习与成长的长期记录。</p>
+      <p class="copyright">© <span id="year">2026</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
