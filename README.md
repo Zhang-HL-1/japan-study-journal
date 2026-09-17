@@ -1,5 +1,7 @@
 # 留日手记
 
+## 🌐 [点击进入日本修考网站](https://zhang-hl-1.github.io/japan-study-journal/)
+
 一个用于记录日本留学项目、学习过程与经验的个人网站。
 
 ## 当前内容
