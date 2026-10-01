@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="日本修士备考基础练习：微积分、线性代数、电路、信号与系统、电磁学与数字电子。分类刷题、答案解析、错题重练。" />
+    <meta name="theme-color" content="#f5f2ea" />
+    <title>修考练习室｜留日手记</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="practice.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E" />
+    <script src="questions.js" defer></script>
+    <script src="practice-core.js" defer></script>
+    <script src="practice.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#question-card">跳到题目</a>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
+      <nav class="main-nav" aria-label="主要导航">
+        <a href="index.html">首页</a><a class="is-active" aria-current="page" href="practice.html">修考练习</a><a href="index.html#topics">学习记录</a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">打开导航</span><span></span><span></span></button>
+    </header>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden><a href="index.html">首页</a><a href="practice.html" aria-current="page">修考练习</a><a href="index.html#topics">学习记录</a></nav>
+    <main class="practice-main">
+      <section class="practice-intro" aria-labelledby="practice-title">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span>Practice / 修士入試の準備</div>
+          <h1 id="practice-title">把理解，<em>练成答案。</em></h1>
+          <p>一次一道题。先尝试，再对照解析，把不确定的地方留给下一次进步。</p>
+        </div>
+        <div class="edition"><span>修考练习室</span><strong id="bank-size">0</strong><small id="bank-caption">道题 · 等待添加题库</small></div>
+      </section>
+      <div class="notice" id="bank-notice">刷题功能已就绪，题库暂为空，后续加入你的题目后即可练习。解答题需对照解析自评，不是官方评分。</div>
+      <section class="stats-grid" aria-label="学习概况">
+        <div><span>已练习 / 总题数</span><strong id="stat-attempted">0 / 0</strong></div>
+        <div><span>最近一次作答正确率</span><strong id="stat-accuracy">—</strong></div>
+        <div><span>待复习错题</span><strong id="stat-wrong">0</strong></div>
+        <div><span>已记录练习天数</span><strong id="stat-days">0</strong></div>
+      </section>
+      <div class="practice-layout">
+        <aside class="filter-panel" aria-label="练习筛选">
+          <div class="panel-heading"><h2>选择练习</h2><button id="reset-filters" class="plain-button" type="button">重置筛选</button></div>
+          <div class="scope-tabs" aria-label="题目范围">
+            <button type="button" data-scope="all" aria-pressed="true">全部题目</button>
+            <button type="button" data-scope="unanswered" aria-pressed="false">未作答</button>
+            <button type="button" data-scope="wrong" aria-pressed="false">错题本 <span id="wrong-count">0</span></button>
+            <button type="button" data-scope="bookmarked" aria-pressed="false">收藏 <span id="bookmark-count">0</span></button>
+          </div>
+          <label class="filter-label" for="subject">学科 / 科目</label><select id="subject"><option value="all">全部学科</option></select>
+          <label class="filter-label" for="chapter">章节</label><select id="chapter"><option value="all">全部章节</option></select>
+          <div class="filter-pair">
+            <div><label class="filter-label" for="difficulty">难度</label><select id="difficulty"><option value="all">全部</option><option>基础</option><option>进阶</option></select></div>
+            <div><label class="filter-label" for="type">题型</label><select id="type"><option value="all">全部</option><option value="choice">单选</option><option value="numeric">数值</option><option value="written">解答</option></select></div>
+          </div>
+          <label class="filter-label" for="search">搜索知识点</label><input id="search" type="search" placeholder="例如：运放、特征值、卷积" maxlength="100" />
+          <label class="filter-label" for="order">练习顺序</label><select id="order"><option value="sequential">顺序练习</option><option value="random">随机练习</option></select>
+          <button id="refresh-list" type="button" class="secondary-button full-width">更新题单 / 重新随机</button>
+          <p class="filter-help">错题答对后会移出错题本。当前题单保持不变，点击「更新题单」刷新。</p>
+          <div class="storage-tools">
+            <h3>我的练习记录</h3>
+            <p>自动保存在当前浏览器，换设备不会同步。可导出备份，在其他设备导入继续练习。</p>
+            <div class="backup-buttons"><button id="export-progress" type="button" class="plain-button">导出记录 ↗</button><button id="import-progress" type="button" class="plain-button">导入记录 ↙</button></div>
+            <input id="import-file" type="file" accept="application/json,.json" hidden />
+          </div>
+        </aside>
+        <section class="workspace" aria-label="刷题区">
+          <div class="session-bar"><span id="list-count">正在加载题库…</span><span id="session-progress">本题单已完成 0 / 0</span></div>
+          <progress id="progress" max="1" value="0" aria-label="当前题单完成进度"></progress>
+          <article class="question-card" id="question-card" tabindex="-1" hidden>
+            <div class="question-topline"><div id="question-tags" class="question-tags"></div><button id="bookmark" class="bookmark-button" type="button" aria-pressed="false">☆ 收藏</button></div>
+            <p id="question-source" class="question-source"></p>
+            <h2 id="question-title"></h2>
+            <p id="question-prompt" class="math-text"></p>
+            <form id="answer-form" novalidate>
+              <div id="answer-inputs"></div>
+              <p id="input-help" class="input-help"></p>
+              <div class="answer-actions"><button id="submit-answer" class="primary-button" type="submit">提交答案</button><button id="show-answer" class="secondary-button" type="button">查看答案</button><button id="show-explanation" class="plain-button" type="button">查看解析 ↗</button></div>
+            </form>
+            <p id="feedback" class="feedback" role="status" hidden></p>
+            <section id="reference-answer" class="reference-answer" aria-label="参考答案" hidden><h3>参考答案</h3><p id="answer-text" class="math-text"></p></section>
+            <section id="explanation" class="explanation" aria-label="解题解析" hidden><h3>一步一步，理解它。</h3><ol id="explanation-steps"></ol><p id="hint" class="hint"></p></section>
+            <div id="self-grade" class="self-grade" hidden><p>解答题不自动判分，请对照推导自评：</p><button id="mark-correct" type="button" class="secondary-button">我做对了 ✓</button><button id="mark-wrong" type="button" class="secondary-button">还需复习 ↺</button></div>
+            <button id="retry" class="plain-button retry-button" type="button" hidden>重新作答（保留历史记录） ↺</button>
+            <details class="note-details"><summary>学习笔记 / 易错点</summary><label class="sr-only" for="question-note">本题学习笔记</label><textarea id="question-note" rows="3" maxlength="6000" placeholder="例如：负反馈成立时才可以使用虚短……"></textarea><small>输入后自动保存，仅自己在此浏览器中可见。</small></details>
+            <div class="question-navigation"><button id="previous" type="button" class="secondary-button">← 上一题</button><span id="position">0 / 0</span><button id="next" type="button" class="primary-button">下一题 →</button></div>
+          </article>
+          <div id="empty-state" class="empty-state"><span aria-hidden="true">◎</span><h2 id="empty-title">题库正在等你。</h2><p id="empty-copy">功能已经准备好。加入你的题目后，便可以按学科、章节练习和复习。</p><a id="empty-home" href="index.html" class="secondary-button">先回首页看看 ↗</a><button id="empty-reset" type="button" class="primary-button" hidden>查看全部题目</button></div>
+          <details id="question-map" class="question-map" open hidden><summary>题号导航 <small>✓ 已答对 · × 待复习 · ☆ 收藏</small></summary><div id="question-grid" class="question-grid"></div></details>
+          <p id="storage-status" class="storage-status" role="status">练习记录保存在当前浏览器。</p>
+        </section>
+      </div>
+      <noscript><p class="notice">刷题需要启用 JavaScript。请在浏览器中启用后刷新页面。</p></noscript>
+    </main>
+    <footer class="site-footer"><a class="brand brand--footer" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a><p>从基础出发，朝修士考试前进。</p><p class="copyright">© <span id="year">2026</span></p></footer>
+  </body>
+</html>
