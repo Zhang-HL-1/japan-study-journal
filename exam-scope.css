@@ -106,3 +106,6 @@
   .scope-detail { padding: 1rem; }
   .scope-source iframe { height: 32rem; }
 }
+
+.scope-record-status { color: #9b482f; font-weight: 600; font-size: .83rem; }
+.scope-route-note { font-size: .85rem; color: #5b6255; line-height: 1.7; }

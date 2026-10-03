@@ -15,10 +15,13 @@
       ['general', 'international'].includes(record.admissionType) && ['graduateSchool', 'department', 'selectionName', 'entryYear', 'verifiedAt'].every(key => typeof record[key] === 'string' && record[key].trim()) &&
       Array.isArray(record.sources) && record.sources.length && record.sources.every(source => source && typeof source.label === 'string' && source.label.trim() && ['pdf', 'page'].includes(source.kind) && sourceURL(source)));
   }
+  function matchesAdmission(record, admissionType) {
+    return record.admissionType === admissionType || (admissionType === 'international' && record.admissionType === 'general' && record.internationalGeneral === true);
+  }
   function filter(records, universities, state) {
     const terms = normalize(state.query).split(' ').filter(Boolean);
     return records.filter(record => {
-      if (record.admissionType !== state.admissionType || (state.universityId !== 'all' && record.universityId !== state.universityId) ||
+      if (!matchesAdmission(record, state.admissionType) || (state.universityId !== 'all' && record.universityId !== state.universityId) ||
         (state.graduateSchool !== 'all' && record.graduateSchool !== state.graduateSchool) || (state.department !== 'all' && record.department !== state.department) ||
         (state.entryYear !== 'all' && record.entryYear !== state.entryYear)) return false;
       const university = universities.find(u => u.id === record.universityId);
@@ -27,7 +30,7 @@
       return terms.every(term => text.includes(term));
     });
   }
-  const api = { normalize, sourceURL, validRecord, filter };
+  const api = { normalize, sourceURL, validRecord, matchesAdmission, filter };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.ExamScopeCore = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
