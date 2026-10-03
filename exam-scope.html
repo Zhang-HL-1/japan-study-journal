@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="日本大学院修士考试科目与范围：按学校、研究科和专攻查阅官方募集要项，一般入试与留学生入试分别收录。学校资料待添加。" />
+    <meta name="theme-color" content="#f5f2ea" />
+    <title>考试科目与范围｜留日手记</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="exam-scope.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E" />
+    <script src="exam-scope-data.js" defer></script>
+    <script src="exam-scope-core.js" defer></script>
+    <script src="exam-scope.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#scope-search">跳到资料筛选</a>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
+      <nav class="main-nav" aria-label="主要导航">
+        <a href="index.html">首页</a><a class="is-active" aria-current="page" href="exam-scope.html">考试科目与范围</a><a href="practice.html">修考练习</a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">打开导航</span><span></span><span></span></button>
+    </header>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden><a href="index.html">首页</a><a href="exam-scope.html" aria-current="page">考试科目与范围</a><a href="practice.html">修考练习</a></nav>
+    <main class="scope-main">
+      <section class="scope-hero" aria-labelledby="scope-title">
+        <div class="scope-hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span>Admissions / 修士入試</div>
+          <h1 id="scope-title">考试科目<br /><em>与范围。</em></h1>
+          <p>先了解要考什么，再安排自己的准备。<br />从学校、研究科到专攻，查阅募集要项中的官方原文。</p>
+          <a class="scope-jump" href="#scope-search">查阅考试资料 <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="scope-art">
+          <img src="assets/exam-guide.webp" alt="一只手用放大镜仔细阅读打开的招生册，黑色手绘线条与浅绿色背景。" width="1536" height="1024" fetchpriority="high" />
+          <figcaption><span>从募集要项开始。</span><span lang="ja">募集要項を読む</span></figcaption>
+        </figure>
+      </section>
+      <div class="scope-principles" aria-label="资料收录方式"><span>全称展示</span><span>一般入试 / 留学生入试</span><span>科目与范围保留原文</span><span>附官方出处与适用年度</span></div>
+      <section class="scope-catalog" id="scope-search" aria-labelledby="catalog-title">
+        <div class="scope-section-heading"><div><p class="scope-kicker">01 / 查阅资料</p><h2 id="catalog-title">找到你的考试范围。</h2></div><p id="catalog-total">已收录 <strong>0</strong> 条资料</p></div>
+        <div class="scope-status" id="data-status"><span class="status-dot" aria-hidden="true"></span><p><strong>学校资料待添加</strong><br />一般入试与留学生入试将分别收录；学校、研究科和专攻均使用官方全称。</p></div>
+        <div class="school-bar" id="school-buttons" role="group" aria-label="学校筛选"><button type="button" data-university="all" aria-pressed="true">全部学校</button></div>
+        <div class="scope-layout">
+          <aside class="scope-filters" aria-label="考试资料筛选">
+            <div class="scope-filter-heading"><h3>筛选资料</h3><button class="scope-plain" id="scope-reset" type="button">重置</button></div>
+            <fieldset class="admission-switch"><legend>入试类型</legend><div><button type="button" data-admission="general" aria-pressed="true">一般入试</button><button type="button" data-admission="international" aria-pressed="false">留学生入试</button></div></fieldset>
+            <p class="scope-filter-note">留学生栏目将按学校实际公布的选拔名称区分。</p>
+            <label for="scope-school">学校</label><select id="scope-school"><option value="all">全部学校</option></select>
+            <label for="scope-graduate">研究科 / 学院</label><select id="scope-graduate" disabled><option value="all">等待添加研究科资料</option></select>
+            <label for="scope-department">专攻 / 系 / 课程</label><select id="scope-department" disabled><option value="all">等待添加专攻资料</option></select>
+            <label for="scope-year">适用入学年度</label><select id="scope-year" disabled><option value="all">等待添加年度资料</option></select>
+            <label for="scope-query">关键词</label><input id="scope-query" type="search" maxlength="100" placeholder="学校、专攻或考试科目" autocomplete="off" />
+            <a class="scope-practice-link" href="practice.html"><span>准备好范围之后</span><strong>进入修考练习室 ↗</strong></a>
+          </aside>
+          <div class="scope-workspace">
+            <div class="scope-result-bar"><p id="result-context">全部学校 · 一般入试</p><p id="scope-result-count" role="status" aria-live="polite">0 条资料</p></div>
+            <div class="scope-empty" id="scope-empty"><div class="empty-book" aria-hidden="true"><span></span><span></span></div><p class="scope-kicker">下一页，正在等待内容。</p><h3 id="scope-empty-title">从这里开始，读懂考试。</h3><p id="scope-empty-copy">学校资料尚未添加。之后可以在这里按学校、研究科、专攻及入试类型查阅考试科目与范围。</p><div class="empty-pills"><span>一般入试</span><span>留学生入试</span><span>官方原文</span></div><button id="scope-empty-reset" class="scope-secondary" type="button" hidden>清除筛选</button></div>
+            <div id="scope-results" class="scope-results" hidden></div>
+            <article id="scope-detail" class="scope-detail" tabindex="-1" aria-label="考试科目与范围原文" hidden></article>
+            <p class="scope-data-error" id="scope-data-error" role="alert" hidden></p>
+          </div>
+        </div>
+      </section>
+      <section class="scope-reading" aria-labelledby="reading-title"><div><p class="scope-kicker">02 / 阅读方式</p><h2 id="reading-title">学校怎么写，<br />就怎么读。</h2><p>科目、范围与选答条件保留官方表述，<br />长表格和完整要求通过官方原文件阅读。</p></div><ol><li><span>01</span><div><h3>选对入试方式</h3><p>一般入试、外国人留学生选拔与英语项目，按照各校官方名称分别标注。</p></div></li><li><span>02</span><div><h3>确认年度与专攻全称</h3><p>研究科名称、专攻名称与资料年度一同显示，便于核对改组或选拔变化。</p></div></li><li><span>03</span><div><h3>阅读科目、范围和条件原文</h3><p>查阅官方对应页，保留必答、选答及免试等条件，并可打开学校原始文件。</p></div></li></ol></section>
+      <noscript><p class="scope-status">请启用 JavaScript 后使用筛选和原文阅读功能。当前尚未添加学校考试资料。</p></noscript>
+    </main>
+    <footer class="site-footer"><a class="brand brand--footer" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a><p>从官方原文开始，准备下一步。</p><p class="copyright">© <span id="year">2026</span></p></footer>
+  </body>
+</html>
