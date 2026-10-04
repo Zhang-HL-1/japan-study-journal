@@ -20,10 +20,11 @@
   }
   function filter(records, universities, state) {
     const terms = normalize(state.query).split(' ').filter(Boolean);
+    const namedSchools = terms.map(term => universities.filter(university => [university.name, ...(university.aliases || [])].some(name => normalize(name) === term)).map(university => university.id)).filter(ids => ids.length);
     return records.filter(record => {
       if (!matchesAdmission(record, state.admissionType) || (state.universityId !== 'all' && record.universityId !== state.universityId) ||
         (state.graduateSchool !== 'all' && record.graduateSchool !== state.graduateSchool) || (state.department !== 'all' && record.department !== state.department) ||
-        (state.entryYear !== 'all' && record.entryYear !== state.entryYear)) return false;
+        (state.entryYear !== 'all' && record.entryYear !== state.entryYear) || namedSchools.some(ids => !ids.includes(record.universityId))) return false;
       const university = universities.find(u => u.id === record.universityId);
       const text = normalize([university?.name, ...(university?.aliases || []), record.graduateSchool, record.department, record.course, record.selectionName,
         record.subjectsOriginal, record.scopeOriginal, record.conditionsOriginal, record.entryYear].join(' '));

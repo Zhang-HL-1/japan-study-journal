@@ -33,8 +33,11 @@
     get('school-buttons').append(button);
   }
   get('catalog-total').replaceChildren(document.createTextNode('已收录 '), element('strong', String(records.length)), document.createTextNode(' 条资料'));
-  if (records.length) {
-    get('data-status').replaceChildren(element('span', '', 'status-dot'), element('p', data.catalog?.utokyo?.note || '按适用年度与学校官方选拔名称查阅。每条资料附核验日期和官方出处。'));
+  const addedSchools = universities.filter(university => records.some(record => record.universityId === university.id)).map(university => university.name);
+  function publicationLabel(record, short = false) {
+    if (record.publicationStatus === 'notice') return short ? '变更预告 · 完整要项待公布' : '已公布变更预告；完整募集要项待公布';
+    if (record.publicationStatus === 'pending') return short ? '要项／案内待公布' : '募集要项／专攻案内待公布';
+    return short ? '科目与范围待核验' : '专攻科目与范围待核验';
   }
   function options(id, values, current, empty) {
     const select = get(id);
@@ -57,7 +60,7 @@
     const university = universities.find(u => u.id === record.universityId);
     detail.replaceChildren(element('p', university.name + ' · ' + record.graduateSchool, 'scope-kicker'), element('h3', record.department + (record.course ? ' · ' + record.course : '')),
       element('p', record.selectionName + ' / ' + record.entryYear), element('p', '资料核对日期：' + record.verifiedAt, 'scope-kicker'));
-    if (record.publicationStatus) detail.append(element('p', record.publicationStatus === 'pending' ? '专攻案内待公布' : '专攻科目与范围待核验', 'scope-record-status'));
+    if (record.publicationStatus) detail.append(element('p', publicationLabel(record), 'scope-record-status'));
     if (record.internationalGeneral && state.admissionType === 'international') detail.append(element('p', '一般选拔入口：学校出愿资格包括符合条件的海外学历申请者。请先阅读官方资格与在留身份条件。', 'scope-route-note'));
     if (record.editorialNote) detail.append(element('p', record.editorialNote, 'scope-route-note'));
     for (const [key, title] of [['subjectsOriginal','考试科目 · 官方原文'],['scopeOriginal','考试范围 · 官方原文'],['conditionsOriginal','选答及其他条件 · 官方原文']]) {
@@ -89,6 +92,9 @@
   }
   function render() {
     updateOptions();
+    const statusNote = data.catalog?.[state.universityId]?.note || data.catalog?.note || '按适用年度与学校官方选拔名称查阅。每条资料附核验日期和官方出处。';
+    const statusDot = element('span', '', 'status-dot'); statusDot.setAttribute('aria-hidden', 'true');
+    get('data-status').replaceChildren(statusDot, element('p', statusNote));
     get('scope-school').value = state.universityId;
     document.querySelectorAll('[data-university]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.university === state.universityId)));
     document.querySelectorAll('[data-admission]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.admission === state.admissionType)));
@@ -102,12 +108,12 @@
     get('scope-empty-reset').hidden = !records.length;
     const schoolPending = state.universityId !== 'all' && !records.some(record => record.universityId === state.universityId);
     get('scope-empty-title').textContent = schoolPending ? school + '的资料待添加。' : '暂时没有匹配的资料。';
-    get('scope-empty-copy').textContent = schoolPending ? '目前已添加東京大学。其他学校之后逐校核验并添加。' : '试试其他研究科、专攻、入试类型或关键词，也可以清除筛选查看资料。';
+    get('scope-empty-copy').textContent = schoolPending ? '目前已添加' + addedSchools.join('、') + '。其他学校之后逐校核验并添加。' : '试试其他研究科、专攻、入试类型或关键词，也可以清除筛选查看资料。';
     for (const record of matches) {
       const button = element('button', undefined, 'scope-result'); button.type = 'button'; button.dataset.id = record.id;
       button.setAttribute('aria-pressed', String(record.id === selectedId));
       button.append(element('span', universities.find(u => u.id === record.universityId).name + ' · ' + record.graduateSchool), element('strong', record.department + (record.course ? ' · ' + record.course : '')), element('span', record.selectionName + ' / ' + record.entryYear));
-      if (record.publicationStatus) button.append(element('span', record.publicationStatus === 'pending' ? '案内待公布' : '科目与范围待核验', 'scope-record-status'));
+      if (record.publicationStatus) button.append(element('span', publicationLabel(record, true), 'scope-record-status'));
       else if (record.internationalGeneral && state.admissionType === 'international') button.append(element('span', '一般选拔 · 含海外学历出愿资格', 'scope-route-note'));
       button.addEventListener('click', () => showDetail(record, true)); list.append(button);
     }
