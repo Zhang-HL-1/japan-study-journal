@@ -1,4 +1,4 @@
-/* 東京大学核验日期 2026-10-03；京都大学、早稲田大学核验日期 2026-10-04。官方原文与对应PDF页保留；预告及募集停止单独标识。 */
+/* 東京大学核验日期 2026-10-03；京都大学、早稲田大学、東京理科大学核验日期 2026-10-04。官方原文与对应PDF页保留；预告及募集停止单独标识。 */
 (function (root) {
   'use strict';
   const data = {
@@ -72,7 +72,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学与早稲田大学的修士资料。按官方选拔名称和适用入学年度查阅；一般选拔、留学生相关项目、变更预告、待公布案内与募集停止分别标注。東京科学大学与東京理科大学之后逐校核验添加。",
+    "note": "已添加東京大学、京都大学、早稲田大学与東京理科大学的修士资料。按官方选拔名称和适用入学年度查阅；一般选拔、留学生相关项目、变更预告、待公布案内与募集停止分别标注。東京科学大学之后核验添加。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -84,6 +84,18 @@
         "情報生産システム研究科"
       ],
       "note": "早稲田大学：已收录五个研究科的修士资料，共42条科目／选考要求和1条修士募集停止通知。三个理工学研究科一般入试19专攻、英语AO修士15专攻分别核验；環境・エネルギー研究科的一般／AO／海外協定校外国人特別選考、情報生産システム研究科2027年4月／9月一般入试分别保存。ナノ理工学専攻自2027年4月入学起停止修士招生。长表格及完整条件通过官方PDF对应页原文阅读；年度不表示仍在报名。"
+    },
+    "tus": {
+      "verifiedAt": "2026-10-04",
+      "degree": "修士課程",
+      "graduateSchools": [
+        "理学研究科",
+        "工学研究科",
+        "創域理工学研究科",
+        "先進工学研究科",
+        "生命科学研究科"
+      ],
+      "note": "東京理科大学：已收录理学、工学、創域理工学、先進工学、生命科学五个研究科，26个现行专攻，共54条科目／选考要求和2条旧专攻募集停止通知。一般入试与外国人留学生试验分别核验；国際火災科学使用独立修士留学生募集要项，夏期／冬期分别保存。2027年4月新设情報理工学専攻，不沿用停止招生的旧专攻名称。外语受付按选拔核对，2028年度预告不套用到2027年度；适用年度不表示仍在报名。"
     }
   },
   "records": [
@@ -7361,6 +7373,2390 @@
       "conditionsOriginal": "2027 年 4 月入学の入学試験以降の募集を停止します。",
       "publicationStatus": "closed",
       "editorialNote": "修士招生停止通知，不能作为可报考的考试要求。2026年9月旧题目不套用到2027年4月；博士后期继续招生也不能当作修士招生。"
+    },
+    {
+      "id": "tus-sci-math",
+      "universityId": "tus",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：数学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "一般入試：数学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門基礎科目、専門科目\n口頭試問\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "専門基礎科目：微分積分、線形代数、集合と位相\n専門科目：\n代数系：群、環、体、加群、ガロア理論\n幾何系：曲線・曲面論、微分幾何、位相幾何\n解析系（確率解析を含む）：無限級数、関数論、微分方程式、関数解析など\n口頭試問：筆記試験の出題範囲全体、志望研究室の研究分野",
+      "conditionsOriginal": "専門基礎科目：全ての問題を解答\n専門科目：希望する指導教員が属する系の問題を２題選択して解答\nTOEIC：TOEIC IPも可、TOEIC Bridgeは不可\nTOEFL：TOEFL iBT、ITPのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "口頭試問及び面接対象者は笔试当天公布，详见PDF第8页。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-sci-physics",
+      "universityId": "tus",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：物理学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "一般入試：物理学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：物理数学、力学、電磁気学、熱・統計力学、量子力学\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "物理数学、力学、電磁気学：線形代数、微分・積分の計算、微分方程式、ベクトル解析、フーリエ級数、複素関数、特殊関数、質点の運動、剛体の運動、解析力学、マクスウェル方程式、電場・磁場の計算、電場・磁場中での電荷の運動、定常電流、電磁誘導、電磁波など\n熱・統計力学、量子力学：熱力学の法則、カルノーサイクル、気体分子運動論、カノニカル・グランドカノニカル分布、量子統計、シュレーディンガー方程式、波動関数、演算子の性質、角運動量、スピン、摂動論など",
+      "conditionsOriginal": "TOEIC：TOEIC IPも可、TOEIC Bridgeは不可\nTOEFL：TOEFL iBT、ITPのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "面接対象者は笔试当天公布，详见PDF第8页。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-sci-chemistry",
+      "universityId": "tus",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：化学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "一般入試：化学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "物理化学、無機及び分析化学、有機化学",
+      "conditionsOriginal": "TOEIC：TOEIC IPも可、TOEIC Bridgeは不可\nTOEFL：TOEFL iBT、ITPのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-sci-applied-math",
+      "universityId": "tus",
+      "graduateSchool": "理学研究科",
+      "department": "応用数学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：応用数学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "一般入試：応用数学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門基礎科目、専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "専門基礎科目：微積分、線形代数\n専門科目：数理統計学、計算数学、微分方程式、最適化理論、代数学など",
+      "conditionsOriginal": "専門基礎科目：全ての問題を解答\n専門科目：計４題以上の中から２題選択\nTOEIC：TOEIC IPも可、TOEIC Bridgeは不可\nTOEFL：TOEFL iBT、ITPのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "面接対象者は笔试当天公布，详见PDF第8页。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-sci-education",
+      "universityId": "tus",
+      "graduateSchool": "理学研究科",
+      "department": "科学教育専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試［卒業見込者（含既卒者）対象］",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：科学教育専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "一般入試：科学教育専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "口頭試問\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "事前に課した小論文についての面接",
+      "conditionsOriginal": "TOEIC：TOEIC IPも可、TOEIC Bridgeは不可\nTOEFL：TOEFL iBT、ITPのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "此条收录卒業見込者（含既卒者）対象选拔；现职教员选拔另有条件，不能套用此条。小论文课题须向志望指導教员／专攻主任获取，不虚构统一范围。科学教育专攻追加资格条件见PDF第6页；外国人留学生试验募集名单未列此专攻。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-eng-architecture",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "建築学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：建築学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "一般入試：建築学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEICのスコア",
+      "scopeOriginal": "「建築計画、建築環境、建築構造、即日設計」の４科目（４科目のうち３科目を出願時に選択）",
+      "conditionsOriginal": "専門科目Aは４科目の中から「建築計画」、「建築環境」、「建築構造」の３科目を選択\n専門科目Bは「即日設計」と即日設計以外の３科目から２科目を選択\nTOEICはListening & Reading Testに限る",
+      "internationalGeneral": true,
+      "editorialNote": "一般入试A／B与外国人留学生试验的志望研究分野一科目选拔不同。试验科目选择须在出愿时申报。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-eng-chemistry",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "工業化学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：工業化学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "一般入試：工業化学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEICのスコア",
+      "scopeOriginal": "物理化学、無機及び分析化学、有機化学、化学工学",
+      "conditionsOriginal": "物理化学２問、無機及び分析化学２問、有機化学２問、化学工学２問の計８問のうちから６問を選択\nTOEICはListening & Reading Testに限る",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-eng-electrical",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "電気工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：電気工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "一般入試：電気工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：電磁気学、電気回路、電子回路\n面接\nTOEICのスコア",
+      "scopeOriginal": "電磁気学：静電界、静磁界、静電容量、インダクタンス、電磁誘導、電磁波\n電気回路：直流回路全般、交流回路全般、過渡現象全般、分布定数回路全般\n電子回路：アナログ回路、ディジタル回路",
+      "conditionsOriginal": "TOEICはListening & Reading Test、Listening & Reading Test IPテストに限る",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-eng-information",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "情報工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：情報工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "一般入試：情報工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：数学、専門科目\n面接\nTOEICのスコア",
+      "scopeOriginal": "数学：微積分、線形代数、離散数学\n専門科目：（1）確率統計、（2）論理回路・情報ネットワーク、（3）データ構造とアルゴリズム・プログラミング",
+      "conditionsOriginal": "左記（1）～（3）からそれぞれ１問（計３問）を出題する\nTOEICはListening & Reading Test、Listening & Reading Test IPテストに限る",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-eng-mechanical",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：機械工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "一般入試：機械工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEICのスコア",
+      "scopeOriginal": "材料力学、熱力学\n機械力学、流体力学",
+      "conditionsOriginal": "TOEICはListening & Reading Test、Listening & Reading Test IPテストに限る",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-math",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "数理科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：数理科学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "一般入試：数理科学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：数学Ⅰ、数学Ⅱ\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "数学Ⅰ：線形代数、微積分、集合と位相\n数学Ⅱ：代数学、幾何学、解析学",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-physics",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "先端物理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：先端物理学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "一般入試：先端物理学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：物理学Ⅰ、物理学Ⅱ\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "物理学Ⅰ：力学、電磁気学\n物理学Ⅱ：量子力学、熱・統計力学",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-biology",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "生命生物科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：生命生物科学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "一般入試：生命生物科学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "細胞生物学、分子生物学、生化学を中心とした生物科学分野",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-architecture",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "建築学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：建築学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "一般入試：建築学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "建築計画学、建築設計学、建築史学、都市計画学、建築構造学、建築構造力学、建築材料学、建築防災安全工学、建築環境工学",
+      "conditionsOriginal": "1. ９科目の中から専攻する研究分野の１科目を必須問題とする\n2. ９科目の中から２科目を選択問題とする\n｢建築設計学｣以外は上記第１項と第２項での重複受験を認める\nTOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "建築設計学的作品、携带用品及时间安排请同时阅读原表。不得套用工学研究科建築学専攻的A／B规则。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-chemistry",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "先端化学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：先端化学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "一般入試：先端化学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "無機化学、分析化学、有機化学、物理化学",
+      "conditionsOriginal": "左記のうち、専攻部門の科目（第一志望）を含む３科目を選択\nTOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-electrical",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "電気電子情報工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：電気電子情報工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "一般入試：電気電子情報工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：電気数学、電磁気学、電気回路、電子回路\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "電気数学：線形代数、ベクトル解析、微分積分、微分方程式、複素関数、フーリエ級数、フーリエ／ラプラス変換\n電磁気学：電界・磁界、静電容量、インダクタンス、電磁誘導、マクスウェルの方程式、電磁波\n電気回路：直流回路、交流回路、回路に関する諸定理、回路の過渡現象、交流電力、二端子対回路、三相交流回路、ひずみ波交流回路、ラプラス変換を用いた回路解析（伝達関数、極と応答、周波数応答）\n電子回路：能動素子・等価回路、線形回路・非線形回路、増幅回路・演算増幅器、負帰還回路・正帰還回路、周波数特性・伝達関数・過渡応答特性",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-mechanical",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "機械航空宇宙工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：機械航空宇宙工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "一般入試：機械航空宇宙工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目Ⅰ、専門科目Ⅱ、専門科目Ⅲ、専門科目Ⅳ\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "専門科目Ⅰ：材料力学\n専門科目Ⅱ：機械力学\n専門科目Ⅲ：熱力学\n専門科目Ⅳ：流体力学",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "四个专业科目按一般入试日程实施，不能沿用留学生选拔的四科选二规则。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-civil",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "社会基盤工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：社会基盤工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "一般入試：社会基盤工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：数学、専門科目、小論文\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "数学：微分積分学、代数学",
+      "conditionsOriginal": "数学、専門科目の出題範囲に記載している科目は全て必須\n土木技術検定試験の結果が分かる「スコアレポート」の画面のコピーを出願時に提出することにより、数学および専門科目の受験に代えることができる。\nTOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "专业范围的測量学、コンクリート工学、環境工学、土木計画学、材料力学、土質力学、水理学完整单元表保留在PDF第17页原表。土木技術検定的替代仅对应数学与专业科目，不扩大为全部试验免除。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-information",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "情報理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：情報理工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "一般入試：情報理工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "線形代数、微分積分、確率統計、分子生物学、分子細胞生物学、情報数学（測度、代数）、統計数学（統計学、確率論）、計算機システム（データベースシステム、情報通信ネットワーク）、基礎理論（アルゴリズムとデータ構造、論理数学）、社会システム工学、情報システム工学、生産システム工学、管理システム工学",
+      "conditionsOriginal": "13科目の中から４科目を選択\nTOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "2027年4月新设专攻；不沿用已停止招生的情報計算科学／経営システム工学旧名称。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-fire-summer",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（夏期日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：国際火災科学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "一般入試：国際火災科学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：数学、小論文\n面接\nTOEIC、TOEFL又はIELTSのスコア",
+      "scopeOriginal": "数学：１．式と証明・高次方程式、２．集合と論理、３．図形と方程式・不等式、４．いろいろな関数、５．微分と積分（多項式関数に限る）、６．場合の数と確率、７．数列、８．ベクトル・行列\n小論文：火災科学に関する課題に対して論理的な思考能力・表現力を問う",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可\nIELTS：IELTSアカデミック・モジュールに限る",
+      "internationalGeneral": true,
+      "editorialNote": "2027年度的微分积分范围限定多项式函数；2028年度预告不应用于此年度。冬期一般入试2027年2月20日实施，与冬期留学生试验2027年1月7日不同。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-creative-fire-winter",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（冬期日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：国際火災科学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "一般入試：国際火災科学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2026年8月3日通知：冬期一般入試のTOEFL iBTスコア証明書提出方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/TOEFLiBT_GraduateAdmission_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "筆記試験：数学、小論文\n面接\nTOEIC、TOEFL又はIELTSのスコア",
+      "scopeOriginal": "数学：１．式と証明・高次方程式、２．集合と論理、３．図形と方程式・不等式、４．いろいろな関数、５．微分と積分（多項式関数に限る）、６．場合の数と確率、７．数列、８．ベクトル・行列\n小論文：火災科学に関する課題に対して論理的な思考能力・表現力を問う",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る。ただし、TOEIC IPオンラインは不可\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可\nIELTS：IELTSアカデミック・モジュールに限る",
+      "internationalGeneral": true,
+      "editorialNote": "2027年度的微分积分范围限定多项式函数；2028年度预告不应用于此年度。冬期一般入试2027年2月20日实施，与冬期留学生试验2027年1月7日不同。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-advanced-electronic",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "電子システム工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：電子システム工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "一般入試：電子システム工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：電気回路・電磁気学、応用数学\n面接\nTOEICのスコア",
+      "scopeOriginal": "電気回路・電磁気学（直流回路、交流回路、回路に関する諸定理、回路の過渡現象、二端子対回路、静電場、定常電流、静磁場、電磁誘導、マクスウェルの方程式）\n応用数学（積分、微分、線形代数、微分方程式、ベクトル解析、複素関数、フーリエ解析（フーリエ級数・積分・変換、ラプラス変換））",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-advanced-materials",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "マテリアル創成工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：マテリアル創成工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "一般入試：マテリアル創成工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEICのスコア",
+      "scopeOriginal": "物理（力学、電磁気学、熱・統計力学、量子力学）、化学（有機化学、無機化学、物理化学、高分子化学）",
+      "conditionsOriginal": "物理より３題、化学より３題の計６題から４題選択\nTOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-advanced-life",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "生命システム工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：生命システム工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "一般入試：生命システム工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEICのスコア",
+      "scopeOriginal": "有機化学、物理化学、分子生物学・生化学",
+      "conditionsOriginal": "有機化学、物理化学、分子生物学・生化学からの計７題中３題選択\nTOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-advanced-physics",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "物理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：物理工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般入試：物理工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "口頭試問：専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "力学・解析力学、電磁気学、量子力学、熱・統計力学",
+      "conditionsOriginal": "力学・解析力学から１題、電磁気学から１題、量子力学、熱・統計力学から１題を試問する\nTOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る\nTOEFL：TOEFL iBT（Home Editionは不可）、ITPのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "专业评价为口头试问，不虚构专业笔试，也不套用2026年度的实验题选项。 英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-advanced-design",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "機能デザイン工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：機能デザイン工学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般入試：機能デザイン工学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "物理（質点力学、電磁気学）、化学（物質化学、有機・無機化学）、生物（基礎生物学、生化学）",
+      "conditionsOriginal": "物理より２題、化学より２題、生物より２題の計６題から４題選択\nTOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る\nTOEFL：TOEFL iBT（Home Editionは不可）、ITPのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-life-summer",
+      "universityId": "tus",
+      "graduateSchool": "生命科学研究科",
+      "department": "生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（夏期日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：生命科学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般入試：生命科学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "生命科学（分子細胞生物学、免疫学、遺伝学、生化学）の基礎知識および考察力",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-life-winter",
+      "universityId": "tus",
+      "graduateSchool": "生命科学研究科",
+      "department": "生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（冬期日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：生命科学専攻 試験科目・出題範囲等",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般入試：生命科学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2026年8月3日通知：冬期一般入試のTOEFL iBTスコア証明書提出方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/TOEFLiBT_GraduateAdmission_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\nTOEIC、TOEFLのスコア",
+      "scopeOriginal": "生命科学（分子細胞生物学、免疫学、遺伝学、生化学）の基礎知識および考察力",
+      "conditionsOriginal": "TOEIC：Listening & Reading Test（公開テストまたはIPテスト）に限る\nTOEFL：iBTテスト（Home Editionは不可）、ITPテストのいずれも可",
+      "internationalGeneral": true,
+      "editorialNote": "英语评价使用外部成绩，受付与提交条件按本专攻原表核对；不补写未公布的最低分数。一般入试资格包含符合条件的海外学历者；事前联系志望教员要求见PDF第6页。资料适用2027年4月入学，不表示该日程仍在报名。"
+    },
+    {
+      "id": "tus-sci-math-foreign",
+      "universityId": "tus",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 数学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：理学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目：数学\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "未用一般入试的两题选答规则补写本试验要求。 第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-sci-physics-foreign",
+      "universityId": "tus",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 物理学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：理学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目：物理数学、力学、熱・統計力学、電磁気学、量子力学\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-sci-chemistry-foreign",
+      "universityId": "tus",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 化学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：理学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目：物理化学、無機及び分析化学、有機化学\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "conditionsOriginal": "筆記試験は免除することがある。",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-sci-applied-math-foreign",
+      "universityId": "tus",
+      "graduateSchool": "理学研究科",
+      "department": "応用数学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 応用数学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：理学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目：数学\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-eng-architecture-foreign",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "建築学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 建築学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目\n英語（筆記）\n面接",
+      "scopeOriginal": "建築計画・設計製図、建築環境、建築構造のうち、希望する指導教員の研究分野に関する１科目",
+      "conditionsOriginal": "選択科目はあらかじめ出願時に届け出る。\n試験場において選択科目の変更はできない。",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。此专攻采用校内英语笔试，未改写为外部成绩评价。"
+    },
+    {
+      "id": "tus-eng-chemistry-foreign",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "工業化学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 工業化学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目：一般化学及び希望専攻分野に関連する専門科目\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-eng-electrical-foreign",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "電気工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 電気工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目：電磁気学、電気回路、電子回路（ディジタル回路を含む）\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-eng-information-foreign",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "情報工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 情報工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n数学、専門科目\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "scopeOriginal": "１．数学：微積分、線形代数、離散数学\n２．専門科目：⑴確率統計、⑵論理回路・情報ネットワーク、⑶データ構造とアルゴリズム・プログラミング",
+      "conditionsOriginal": "⑴～⑶からそれぞれ１問（計３問）を出題する。",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-eng-mechanical-foreign",
+      "universityId": "tus",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 機械工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n小論文、専門科目\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "scopeOriginal": "材料力学、流体力学、熱力学、機械力学のうち希望する指導教員の研究分野に関する１科目",
+      "conditionsOriginal": "選択科目はあらかじめ出願時に届け出る。\n試験場において選択科目の変更はできない。",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-math-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "数理科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 数理科学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：創域理工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目：数学\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-physics-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "先端物理学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 先端物理学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：創域理工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目：物理学\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-biology-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "生命生物科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 生命生物科学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：創域理工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n希望専攻分野に関連する基礎及び専攻科目の筆記試験と口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-architecture-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "建築学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 建築学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：創域理工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n１．筆記試験\n２．口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "scopeOriginal": "筆記試験：希望専攻分野の科目及び小論文\n口頭試問：希望専攻分野に関連する事項",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-chemistry-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "先端化学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 先端化学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：創域理工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "scopeOriginal": "無機化学、分析化学、有機化学、物理化学のうち第一志望の専攻部門の科目を含む３科目選択",
+      "conditionsOriginal": "選択科目はあらかじめ出願時に届け出る。\n試験場において選択科目の変更はできない。",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-electrical-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "電気電子情報工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 電気電子情報工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：創域理工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n希望専攻分野に関連する基礎及び専門科目の筆記試験と口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-mechanical-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "機械航空宇宙工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 機械航空宇宙工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：創域理工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n専門科目\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "scopeOriginal": "材料力学、流体力学、熱力学、機械力学のうちから２科目選択",
+      "conditionsOriginal": "選択科目はあらかじめ出願時に届け出る。試験場において選択科目の変更はできない。",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-civil-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "社会基盤工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 社会基盤工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：創域理工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n希望専攻分野に関連する基礎及び専門科目の筆記試験と口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-information-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "情報理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 情報理工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：創域理工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n希望専攻分野に関する口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "专业评价为口头试问；一般入试的13科目选4不能套用到本选拔。 第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-advanced-electronic-foreign",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "電子システム工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 電子システム工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：先進工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n希望専攻分野に関する口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "专业与面试使用日本语；日本语沟通能力的评价见原表。 第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-advanced-materials-foreign",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "マテリアル創成工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 マテリアル創成工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：先進工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n希望専攻分野に関する口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-advanced-life-foreign",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "生命システム工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 生命システム工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：先進工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n希望専攻分野に関する口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "专业与面试使用日本语；日本语沟通能力的评价见原表。 第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-advanced-physics-foreign",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "物理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 物理工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：先進工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "scopeOriginal": "力学・解析力学から１題、電磁気学から１題、量子力学、熱・統計力学から１題を口頭試問する。",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-advanced-design-foreign",
+      "universityId": "tus",
+      "graduateSchool": "先進工学研究科",
+      "department": "機能デザイン工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 機能デザイン工学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：先進工学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "scopeOriginal": "物理（質点力学、電磁気学）、化学（物質化学、有機・無機化学）、生物（基礎生物学、生化学）",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-life-foreign",
+      "universityId": "tus",
+      "graduateSchool": "生命科学研究科",
+      "department": "生命科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 生命科学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外国人留学生試験：生命科学研究科 修士課程 外部英語試験の受付・提出条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：\n生命科学分野に関する口頭試問\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "editorialNote": "第一次文件审查通过后方可申请第二次。一般入试的题数、范围和外语受付条件不套用于此选拔；完整资格及专业／面试使用语言保留在官方对应页。2027年度留学生试验不接受TOEIC IP／TOEFL ITP；不设未经官方公布的分数门槛。"
+    },
+    {
+      "id": "tus-creative-fire-summer-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験（夏期日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "国際火災科学専攻修士外国人留学生入試：夏期／冬期日程・出題範囲",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_foreign_student_shushi_globalfire.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "国際火災科学専攻修士外国人留学生入試：語学スコアの受付",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_foreign_student_shushi_globalfire.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "国際火災科学専攻修士外国人留学生入試：出願資格",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_foreign_student_shushi_globalfire.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "国際火災科学専攻修士外国人留学生入試：TOEFLスコア提出方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_foreign_student_shushi_globalfire.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "数学、小論文、面接\n提出書類の審査\nTOEIC、TOEFL又はIELTSのスコアによる英語能力の評価",
+      "scopeOriginal": "数学出題範囲：１．式と証明・高次方程式、２．集合と論理、３．図形と方程式・不等式、４．いろいろな関数、５．微分・積分（多項式関数に限る）、６．場合の数と確率、７．数列、８．ベクトル・行列\n小論文出題範囲：火災科学に関する課題に対して論理的な思考能力・表現力を問う。",
+      "conditionsOriginal": "TOEIC：Listening & Reading Testは公開テストに限る。IPテストは不可\nTOEFL：iBTテストに限る。ただしiBT Home Editionは不可。また、ITPテストは不可\nIELTS：IELTSアカデミック・モジュールに限る",
+      "editorialNote": "本专攻修士留学生选拔使用独立募集要项，不能读取共通外国人要项中的国際火災科学博士条目。冬期留学生试验2027年1月7日实施，与一般入试冬期2027年2月20日不同。2027年度数学微分积分仍限定多项式函数；2028年度预告不应用于此年度。"
+    },
+    {
+      "id": "tus-creative-fire-winter-foreign",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験（冬期日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "国際火災科学専攻修士外国人留学生入試：夏期／冬期日程・出題範囲",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_foreign_student_shushi_globalfire.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "国際火災科学専攻修士外国人留学生入試：語学スコアの受付",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_foreign_student_shushi_globalfire.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "国際火災科学専攻修士外国人留学生入試：出願資格",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_foreign_student_shushi_globalfire.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "国際火災科学専攻修士外国人留学生入試：TOEFLスコア提出方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_foreign_student_shushi_globalfire.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "数学、小論文、面接\n提出書類の審査\nTOEIC、TOEFL又はIELTSのスコアによる英語能力の評価",
+      "scopeOriginal": "数学出題範囲：１．式と証明・高次方程式、２．集合と論理、３．図形と方程式・不等式、４．いろいろな関数、５．微分・積分（多項式関数に限る）、６．場合の数と確率、７．数列、８．ベクトル・行列\n小論文出題範囲：火災科学に関する課題に対して論理的な思考能力・表現力を問う。",
+      "conditionsOriginal": "TOEIC：Listening & Reading Testは公開テストに限る。IPテストは不可\nTOEFL：iBTテストに限る。ただしiBT Home Editionは不可。また、ITPテストは不可\nIELTS：IELTSアカデミック・モジュールに限る",
+      "editorialNote": "本专攻修士留学生选拔使用独立募集要项，不能读取共通外国人要项中的国際火災科学博士条目。冬期留学生试验2027年1月7日实施，与一般入试冬期2027年2月20日不同。2027年度数学微分积分仍限定多项式函数；2028年度预告不应用于此年度。"
+    },
+    {
+      "id": "tus-creative-computing-closed",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "情報計算科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 募集停止",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試：旧2専攻の募集停止・現行専攻名",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "conditionsOriginal": "創域理工学研究科情報計算科学専攻および経営システム工学専攻は、2026 年度入学者を最後に募集を停止します。",
+      "publicationStatus": "closed",
+      "editorialNote": "2027年度不列为可报考专攻。新設「情報理工学専攻」使用独立条目和2027年度要项；不沿用旧专攻的科目。"
+    },
+    {
+      "id": "tus-creative-management-closed",
+      "universityId": "tus",
+      "graduateSchool": "創域理工学研究科",
+      "department": "経営システム工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 募集停止",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試：旧2専攻の募集停止・現行専攻名",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "conditionsOriginal": "創域理工学研究科情報計算科学専攻および経営システム工学専攻は、2026 年度入学者を最後に募集を停止します。",
+      "publicationStatus": "closed",
+      "editorialNote": "2027年度不列为可报考专攻。新設「情報理工学専攻」使用独立条目和2027年度要项；不沿用旧专攻的科目。"
     }
   ]
 };

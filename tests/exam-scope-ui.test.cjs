@@ -36,7 +36,7 @@ test('school filters switch coverage notes, graduate options and pending school 
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学与早稲田大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、早稲田大学与東京理科大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);
@@ -45,9 +45,45 @@ test('school filters switch coverage notes, graduate options and pending school 
  assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.utokyo.note);
  await school(a,'science-tokyo').click();
  assert.equal(a.ids['scope-results'].hidden,true);
- assert.match(a.ids['scope-empty-copy'].textContent,/東京大学、京都大学、早稲田大学/);
+ assert.match(a.ids['scope-empty-copy'].textContent,/東京大学、京都大学、早稲田大学、東京理科大学/);
  await a.ids['scope-empty-reset'].click();
  assert.equal(a.ids['scope-results'].children.length,generalCount);
+});
+test('TUS filters retain original scope and PDF pages while distinguishing general and foreign information selections',async()=>{
+ const a=boot(catalog.records);await school(a,'tus').click();
+ assert.match(a.ids['data-status'].children[1].textContent,/東京理科大学：/);
+ assert.equal(a.ids['scope-graduate'].options.length,6);
+ assert.equal(a.ids['scope-results'].children.length,30);
+ a.ids['scope-department'].value='情報理工学専攻';await a.ids['scope-department'].fire('change');
+ assert.equal(a.ids['scope-results'].children.length,1);await a.ids['scope-results'].children[0].click();
+ const record=catalog.records.find(record=>record.id==='tus-creative-information');
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===record.scopeOriginal&&e.lang==='ja'));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');
+ await source.children.find(e=>e.tag==='button').click();
+ assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=17'));
+ await a.tabs[1].click();
+ assert.equal(a.ids['scope-results'].children.length,54);
+ const foreign=a.ids['scope-results'].children.find(e=>e.dataset.id==='tus-creative-information-foreign');assert.ok(foreign);
+ await foreign.click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('希望専攻分野に関する口頭試問')));
+ assert.ok(!a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('13科目')));
+});
+test('TUS graduate school filters separate the two architecture departments and closed programs have no invented scope',async()=>{
+ const a=boot(catalog.records);await school(a,'tus').click();
+ a.ids['scope-department'].value='建築学専攻';await a.ids['scope-department'].fire('change');
+ assert.equal(a.ids['scope-results'].children.length,2);
+ a.ids['scope-graduate'].value='工学研究科';await a.ids['scope-graduate'].fire('change');
+ a.ids['scope-department'].value='建築学専攻';await a.ids['scope-department'].fire('change');
+ assert.deepEqual(a.ids['scope-results'].children.map(e=>e.dataset.id),['tus-eng-architecture']);
+ await school(a,'tus').click();
+ const closed=a.ids['scope-results'].children.filter(e=>e.dataset.id.endsWith('-closed'));assert.equal(closed.length,2);
+ for(const entry of closed){
+  assert.equal(entry.children.find(e=>e.className==='scope-record-status').textContent,'修士募集停止');
+  await entry.click();
+  assert.ok(!a.ids['scope-detail'].children.some(e=>e.tag==='h4'&&e.textContent==='考试范围 · 官方原文'));
+ }
+ await a.tabs[1].click();
+ assert.ok(!a.ids['scope-results'].children.some(e=>e.dataset.id.endsWith('-closed')));
 });
 test('Kyoto original strings and actual PDF pages render without alteration',async()=>{
  const a=boot(catalog.records); await school(a,'kyoto').click();
