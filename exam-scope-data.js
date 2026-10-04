@@ -1,4 +1,4 @@
-/* 東京大学核验日期 2026-10-03；京都大学核验日期 2026-10-04。原文与对应PDF页保留；变更预告单独标识。 */
+/* 東京大学核验日期 2026-10-03；京都大学、早稲田大学核验日期 2026-10-04。官方原文与对应PDF页保留；预告及募集停止单独标识。 */
 (function (root) {
   'use strict';
   const data = {
@@ -72,7 +72,19 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学与京都大学的修士资料。按学校、专攻、入学年度及官方选拔名称查阅；募集要项／案内待公布、待核验与已公布的变更预告分别标注。"
+    "note": "已添加東京大学、京都大学与早稲田大学的修士资料。按官方选拔名称和适用入学年度查阅；一般选拔、留学生相关项目、变更预告、待公布案内与募集停止分别标注。東京科学大学与東京理科大学之后逐校核验添加。",
+    "waseda": {
+      "verifiedAt": "2026-10-04",
+      "degree": "修士課程",
+      "graduateSchools": [
+        "基幹理工学研究科",
+        "創造理工学研究科",
+        "先進理工学研究科",
+        "環境・エネルギー研究科",
+        "情報生産システム研究科"
+      ],
+      "note": "早稲田大学：已收录五个研究科的修士资料，共42条科目／选考要求和1条修士募集停止通知。三个理工学研究科一般入试19专攻、英语AO修士15专攻分别核验；環境・エネルギー研究科的一般／AO／海外協定校外国人特別選考、情報生産システム研究科2027年4月／9月一般入试分别保存。ナノ理工学専攻自2027年4月入学起停止修士招生。长表格及完整条件通过官方PDF对应页原文阅读；年度不表示仍在报名。"
+    }
   },
   "records": [
     {
@@ -5475,6 +5487,1880 @@
       "course": "国際エネルギー科学コース",
       "subjectsOriginal": "First Screening Stage (Document Screening)\nSecond Screening Stage (Online Interview)",
       "editorialNote": "本条只录入文件MASTER’S PROGRAM段落。2027年度IESC修士只由这三个专攻提供；エネルギー応用科学専攻的博士招生不作为修士项目添加。学校该段没有公布专业笔试的细分范围。完整两阶段选考及资格条件可读官方PDF第5页，英语成绩的有效期、送达和免除条件请阅读第5—6页。"
+    },
+    {
+      "id": "waseda-math",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "数学応用数理専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：数学応用数理専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)微分積分\n(2)線形代数\n(3)基礎数理\n(4)専門科目\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "(1)微分積分、(2)線形代数および(3)基礎数理の 3 題を必須とし、(4)専門科目から 1 題を選択してください。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-mechanics",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "機械科学・航空宇宙専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：機械科学・航空宇宙専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "共通科目：(1)数学、(2)力学\n選択科目：(1)熱力学、(2)流体力学、(3)材料力学、(4)制御工学\n面接選考（口述試験を含む）",
+      "scopeOriginal": "数学（微分積分、線形代数、複素関数、ベクトル解析、微分方程式、及び、これらを基礎とした応用数学）\n力学（静力学、質点及び質点系の力学、剛体の運動と力学、ダランベールの原理、エネルギーと変分原理、振動と安定性）\n熱力学（熱力学の第 1 法則と第 2 法則、熱力学サイクル、熱力学関数と平衡系のエネルギー保存則、伝熱の基礎）\n流体力学（静止流体の力学、ポテンシャル流れ、粘性流れ、圧縮性流れ、流体機械と管内流れ）\n材料力学（応力、ひずみ、材料の力学的性質、断面力、引張り、圧縮、ねじり、曲げ、組合せ応力、エネルギー原理、座屈）\n制御工学（制御理論、回路論、工学系のダイナミクス、モデリング、アナロジー、安定判別、補償、状態方程式などの基礎）",
+      "conditionsOriginal": "「共通科目」は 2 題全てを解答してください。\n「選択科目」は、各科目 1 題ずつ出題されます。合計 2 科目 2 題を選択して解答してください。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-electronic-physical",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "電子物理システム学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：電子物理システム学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)力学\n(2)電磁気学\n(3)回路理論\n面接選考（口述試験を含む）",
+      "scopeOriginal": "力学［解析力学：ラグランジュ形式（ラグランジアン、オイラー－ラグランジュ方程式）、ハミルトン形式（ハミルトニアン、正準方程式、ポアソン括弧）、極座標、球座標、量子力学：1 次元系に限定し、スピン自由度は含まない］\n電磁気学［電荷、静電界、導体系、誘電体、電流、磁界、電磁誘導、電磁界］\n回路理論［交流回路、回路に関する諸定理、二端子対網、分布定数回路、回路の過渡現象］",
+      "conditionsOriginal": "出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-intermedia",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "表現工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：表現工学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "共通科目（60 分）：小論文（表現工学に関すること）\n選択科目（90 分）\n【インターメディア芸術部門】デジタル映像表現、音楽表現、生命表現、環境アート表現、映像・映画表現\n【インターメディア工学部門】音響学、先端メディアと人間工学、知能システム、認知科学、メディア・コンテンツテクノロジー\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "・「インターメディア工学部門」2 問と「インターメディア芸術部門」1 問解答\n・「インターメディア芸術部門」2 問と「インターメディア工学部門」1 問解答\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "完整科目范围及跨部門选答条件保留在官方PDF第4页原表；必须跨芸術与工学两个部門，不能仅答一个部門。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-computer-communications",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "情報理工・情報通信専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：情報理工・情報通信専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)情報基礎\n(2)計算機システム\n(3)回路\n(4)情報通信ネットワーク\n面接選考（口述試験を含む）",
+      "scopeOriginal": "情報基礎：プログラミング、情報数学、離散数学\n計算機システム：オペレーティングシステム、コンピュータアーキテクチャ\n回路：回路理論、電子回路、論理回路\n情報通信ネットワーク：情報通信ネットワーク",
+      "conditionsOriginal": "試験時間は 150 分\n全 4 題を全問解答してください。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-materials",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "材料科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：材料科学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)数学\n(2)物理\n(3)化学\n(4)物質の構造\n(5)材料熱力学\n(6)材料電子論\n(7)機械材料学\n(8)材料力学\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "(1)から(8)の中から 3 題選択して解答すること。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "8科目的完整范围保留在官方PDF第6页原表；不将英语AO博士募集误作本专攻的英语AO修士募集。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-architecture",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "建築学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：建築学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "問題一覧：建築学専攻（続き）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)建築歴史学\n(2)建築計画学\n(3)都市計画学\n(4)環境工学\n(5)建築構造学\n(6)建築生産学\n(7)設計製図\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "前記 7 科目の中から 5 科目を選択してください。ただし、以下の通り志望研究指導ごとに必ず受験する科目、及び選択する科目が定められています。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "必须按志望研究指導核对PDF第7页的必考／选考对应表；設計製図的作品提交条件在第8页，不能理解为任意七选五。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-modern-mechanical",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "総合機械工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：総合機械工学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "共通科目（60 分）：小論文（機械工学に関すること）\n選択科目（90 分）：(1)熱と流れの工学、(2)材料の力学、(3)メカトロニクスとコントロール、(4)材料工学の基礎\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "解答する 2 題は同一科目でも可ですし、異なる科目から 1 題ずつでも可ですが、3 題以上解答した場合は採点の対象外とします。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "各选考科目的完整范围保留在官方PDF第9页原表。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-industrial-systems",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "経営システム工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：経営システム工学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "問題一覧：経営システム工学専攻（続き）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "数理基礎：(1)微積分、(2)線形代数、(3)統計\n経営システム工学：情報数理応用、統計数理工学、システム論、経営数理工学、計画数理学、生産システム工学、ソフトウェア工学\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "数理基礎全问作答；経営システム工学选答两题且一题须对应第一志望研究指導。完整原文范围、配点与选答关系请阅读PDF第10—11页原表。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-civil",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "建設工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：建設工学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)構造力学\n(2)コンクリート構造学（コンクリート工学を含む）\n(3)水理学\n(4)水工学\n(5)水環境工学（環境工学を含む）\n(6)土質力学\n(7)都市・地域計画\n(8)交通計画\n(9)景観・デザイン\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "前記のうち 3 科目（6 題）を解答するものとします。ただし、以下の通り各自が志望する部門に該当する科目のうち 1 科目（2 題）は必ず選択してください。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "社会基盤部門、環境・防災部門、計画・マネジメント部門的必选科目对应关系请阅读PDF第12页原表。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-earth-resources",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "地球・環境資源理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：地球・環境資源理工学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "資源地球科学、資源素材物質科学、鉱物学、火山学、地球化学、変成岩岩石学、構造地質学、堆積学、進化古生物学、物理探査工学、岩盤・石油生産工学、貯留層工学、環境資源修復工学、環境資源処理工学、素材プロセス工学、大気水圏環境化学、地圏環境科学、ライフサイクル環境評価学\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "前記のうち 4 題を解答するものとしますが、各自が志望する研究指導科目は必ず選択してください。（願書に第 2, 3 志望を記入した場合は第 2, 3 志望の科目も選択すること）\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "「試験科目に包含される教科」「出題の対象となる各教科の単元」完整对应表保留在PDF第13页。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-business-design",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "経営デザイン専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：経営デザイン専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)統計学\n(2)オペレーションズリサーチ\n(3)生産マネジメント\n(4)品質・信頼性マネジメント\n(5)経済性マネジメント\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "全 5 題を全問解答してください。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "各科目的「出題内容」完整原表保留在PDF第14页。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-physics",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "物理学及応用物理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：物理学及応用物理学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)数学一般（線形代数、複素解析、フーリエ解析、微分方程式など）\n(2)力学および電磁気学（回路を含む）\n(3)量子力学および熱・統計力学\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "各科目 2 題ずつ、合計 6 題が出題されます。\n前記の 6 題より 4 題を選択し解答してください。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-chemistry-biochemistry",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "化学・生命化学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：化学・生命化学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)物理化学\n(2)有機化学\n(3)無機・分析化学\n(4)生命化学\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "4 科目のうち 2 科目を選択し、解答してください。ただし、研究指導を希望する担当教員が所属する部門の試験科目は必ず選択してください。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "各科目范围及教材说明保留在官方PDF第16页完整原表，不摘写或补充教材范围。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-applied-chemistry",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "応用化学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：応用化学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)無機化学\n(2)有機化学\n(3)物理化学\n(4)化学工学\n(5)生物化学\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "前記の 5 科目より 3 科目を選択して解答してください。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "完整「出題範囲」保留在PDF第17页；生物化学的范围栏原文为「－」，不补写范围。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-medical-bioscience",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "生命医科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：生命医科学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "(1)基礎工学\n(2)生命科学\n面接選考（口述試験を含む）",
+      "scopeOriginal": "基礎工学：物理化学、分析化学（2 題出題）\n生命科学：分子生物学、細胞生物学（2 題出題）",
+      "conditionsOriginal": "前記の 4 題より 2 題を選択して解答してください。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "口述试验的研究发表与质疑安排请阅读PDF第18页。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-electrical-bioscience",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "電気・情報生命専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：電気・情報生命専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "問題一覧：電気・情報生命専攻（続き）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "電磁気学、回路理論、情報工学、細胞生物学、分子生物学\n面接選考（口述試験を含む）",
+      "scopeOriginal": "電磁気学：真空中の静電界、電流と電力、真空中の静磁界（定常磁界）、誘電体中の静電界、磁性体中の静磁界（定常磁界）、電磁誘導の法則とインダクタンス、Maxwell 方程式と電磁波\n回路理論：交流回路、回路に関する諸定理、二端子対網、分布定数回路、回路の過渡現象、フーリエ解析\n情報工学：情報量とエントロピー、情報源符号化と通信路符号化、フーリエ解析、統計的信号処理、動的システムの表現、安定性と応答特性、フィードバック制御系\n細胞生物学：細胞と細胞内器官、細胞を構成する分子、細胞内の反応、生体膜、細胞情報伝達、細胞分裂と細胞周期、細胞骨格と細胞運動\n分子生物学：生体分子（DNA、RNA、タンパク質）、染色体、DNA 複製、DNA 損傷と修復、DNA 組換え、転写と翻訳\n・キーワードは試験科目のおおよその内容を表します。",
+      "conditionsOriginal": "前記の 5 科目より 2 科目を選択して解答してください。解答する科目を事前に届け出る必要はありません。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-integrative-bioscience",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "生命理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：生命理工学専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "問題一覧：生命理工学専攻（続き）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "①生命理工学専攻以外の専攻の試験問題で生命理工学専攻を受験\n②生命理工学専攻の試験問題で受験\n(1)細胞生物学、(2)分子生物学、(3)動物生理学、(4)発生生物学、(5)生態学、(6)進化生物学、(7)植物生理学、(8)生物物理学・生化学\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "②生命理工学専攻の試験問題で受験\n試験時間は 90 分\n8 科目の試験問題から 2 科目を選択して受験\n出願後の変更は認めません。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "①的可选其他专攻及排除专攻请阅读PDF第21页原表；②的八科目规则不能套用到①。第2次口述与研究发表要求在第22页。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-nuclear",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "共同原子力専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程一般入試（日本語学位プログラム）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士課程一般・飛び級／一貫制博士課程一般入試 問題一覧：共同原子力専攻",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "問題一覧：共同原子力専攻（続き）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/02/9a2bb6110cacc859ff936b3240f82ee8.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "修士課程一般・飛び級入試要項：募集専攻・一般入試出願資格",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "一般入試：英語外部試験の出願条件・スコア提出方法",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般入試：筆記選考・面接選考（口述試験を含む）",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/12/826800a47141627813e63bbc65b8189b.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "subjectsOriginal": "①共同原子力専攻以外の専攻の試験問題で受験\n②共同原子力専攻の試験問題で受験\n(1)数学一般（微積分、微分方程式、変分法）\n(2)力学\n(3)電磁気学\n面接選考（口述試験を含む）",
+      "conditionsOriginal": "②共同原子力専攻の試験問題で受験\n各科目 2 題ずつ、合計 6 題が出題されます。この 6 題より 4 題を選択し解答してください。\n出願後の変更は認めません。\n\n出願開始日の 2 年前以降\nTOEIC L&R：550 以上\nTOEFL iBT：57 以上 または スコアバンド 3.5 以上\nIELTS Academic：5.5 以上",
+      "internationalGeneral": true,
+      "editorialNote": "①的可选其他专攻名单保留在PDF第24页原表；不能把②的科目套用到①。口述课题请继续阅读第25页。 共通の面接選考（口述試験を含む）と、英語外部試験の出愿条件は募集要项对应页参照。英语成绩是出愿条件，未列为校内英语笔试。此版一般入试已于2026年7月实施；资料年度不表示仍在报名。"
+    },
+    {
+      "id": "waseda-math-ao",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "数学応用数理専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Pure and Applied Mathematics。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-mechanics-ao",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "機械科学・航空宇宙専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Applied Mechanics and Aerospace Engineering。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-electronic-physical-ao",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "電子物理システム学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Electronic and Physical Systems。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-intermedia-ao",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "表現工学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Intermedia Studies。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-computer-communications-ao",
+      "universityId": "waseda",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "情報理工・情報通信専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Computer Science and Communications Engineering。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-architecture-ao",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "建築学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Architecture。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-modern-mechanical-ao",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "総合機械工学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Modern Mechanical Engineering。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-civil-ao",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "建設工学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Civil and Environmental Engineering。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-earth-resources-ao",
+      "universityId": "waseda",
+      "graduateSchool": "創造理工学研究科",
+      "department": "地球・環境資源理工学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Earth Sciences, Resources and Environmental Engineering。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-physics-ao",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "物理学及応用物理学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Pure and Applied Physics。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-chemistry-biochemistry-ao",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "化学・生命化学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Chemistry and Biochemistry。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-applied-chemistry-ao",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "応用化学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Applied Chemistry。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-medical-bioscience-ao",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "生命医科学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Life Science and Medical Bioscience。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-electrical-bioscience-ao",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "電気・情報生命専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Electrical Engineering and Bioscience。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-integrative-bioscience-ao",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "生命理工学専攻",
+      "admissionType": "international",
+      "selectionName": "AO Admission to English-based Graduate Program (Master’s Degree Program)",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "Application Guidelines：Screening Method",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Number of Students to be Admitted：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Applicant Qualifications：Master’s Degree Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English Language Test Score accepted for AO Admissions to English-based Program",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2026/08/ApplicationGuidelines_20260818-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        }
+      ],
+      "subjectsOriginal": "document review\nInterviews may be conducted as supplementary.",
+      "conditionsOriginal": "TOEIC Listening &Reading (Above 800 recommended)\nTOEFL iBT (Above 79 or score band 4.5 recommended)\nIELTS Academic (Above 6.5 recommended)",
+      "editorialNote": "英语学位修士项目，并非仅限外国籍的特别入试。官方英文专攻全称：Department of Integrative Bioscience and Biomedical Engineering。原则上文件审查，面试是否实施取决于志望教员／专攻；此处英语分数为推荐值，不是一般入试的最低出愿分数。出愿资格、英语证明的豁免和提交方法须阅读原文件；不收录博士或非学位研究生募集。"
+    },
+    {
+      "id": "waseda-environment",
+      "universityId": "waseda",
+      "graduateSchool": "環境・エネルギー研究科",
+      "department": "環境・エネルギー専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士一般入学試験要項：選考方法・選答条件",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/bccfd0f33f14bc832e01eb5afde6a1f1.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "修士一般入学試験要項：出題範囲・内容",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/bccfd0f33f14bc832e01eb5afde6a1f1.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "一般入学試験：出願資格",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/bccfd0f33f14bc832e01eb5afde6a1f1.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "英語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/bccfd0f33f14bc832e01eb5afde6a1f1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語・日本語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/bccfd0f33f14bc832e01eb5afde6a1f1.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "環境・エネルギー研究科要項2026：専攻正式名称",
+          "url": "https://fsci-wu.w.waseda.jp/handbooks/2026/WEEE/pageindices/index47.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "第１次試験（筆記）\n（１）工業熱学（主に理系出身者用）\n（２）環境・エネルギー政策等（主に文系出身者用）\n第２次試験（面接）",
+      "scopeOriginal": "（１）工業熱学：熱力学の第一法則と第二法則、各種熱力学サイクル、定常流れ系のエネルギー・エクセルギーバランス、蒸気・伝熱の基礎\n（２）環境・エネルギー政策等：環境・エネルギー政策及びそれに関連する法制度、持続可能な発展のための企業・NPO・市民等の環境取組及びその普及に係る規格や認証システム 等",
+      "conditionsOriginal": "２科目４題を出題します。４題の中から自由に２題を選択してください。\n\n英語能力証明書（全員）\nTOEIC L&R、TOEFL-iBT、IELTS Academic\n日本語能力証明書（外国籍者のみ）\n日本語能力試験（JLPT）N2 合格以上\n日本留学試験（EJU）の「日本留学試験成績通知書」",
+      "internationalGeneral": true,
+      "editorialNote": "一般入试允许符合条件的海外学历者申请。外国籍申请者的日语证明可使用JLPT或EJU；无法参加这两项考试时的替代证明与完整提交要求保留在PDF第12—13页。英语证明没有套用三理工研究科的最低分数。"
+    },
+    {
+      "id": "waseda-environment-ao-7",
+      "universityId": "waseda",
+      "graduateSchool": "環境・エネルギー研究科",
+      "department": "環境・エネルギー専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 ＡＯ入学試験（7月入試）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士ＡＯ入学試験：選考方法・プレゼンテーション",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "修士ＡＯ入学試験：入学時期・国内／国外出願の条件",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "修士ＡＯ入学試験：出願資格",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "英語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語能力証明書（続き）",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "日本語能力証明書（外国籍者のみ）",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "環境・エネルギー研究科要項2026：専攻正式名称",
+          "url": "https://fsci-wu.w.waseda.jp/handbooks/2026/WEEE/pageindices/index47.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "第１次試験（書類審査）\n第２次試験（口述試験）\nプレゼンテーション",
+      "scopeOriginal": "「活動実績概要書」、「志望理由および自己アピール」、「入学後の研究計画」",
+      "conditionsOriginal": "発表時間は10分以内\n英語能力証明書（全員）\nTOEIC L&R、TOEFL-iBT、IELTS Academic\n日本語能力証明書（外国籍者のみ）\n日本語能力試験（JLPT）N2 合格以上\n日本留学試験（EJU）の「日本留学試験成績通知書」",
+      "internationalGeneral": true,
+      "editorialNote": "此为日语AO选拔，与三个理工学研究科的英语AO项目不同。7月、11月、2月只可选一次出愿；2月不接受日本国外居住者。外国籍申请者的JLPT／EJU与替代证明须阅读原文件。"
+    },
+    {
+      "id": "waseda-environment-ao-11",
+      "universityId": "waseda",
+      "graduateSchool": "環境・エネルギー研究科",
+      "department": "環境・エネルギー専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 ＡＯ入学試験（11月入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士ＡＯ入学試験：選考方法・プレゼンテーション",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "修士ＡＯ入学試験：入学時期・国内／国外出願の条件",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "修士ＡＯ入学試験：出願資格",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "英語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語能力証明書（続き）",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "日本語能力証明書（外国籍者のみ）",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "環境・エネルギー研究科要項2026：専攻正式名称",
+          "url": "https://fsci-wu.w.waseda.jp/handbooks/2026/WEEE/pageindices/index47.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "第１次試験（書類審査）\n第２次試験（口述試験）\nプレゼンテーション",
+      "scopeOriginal": "「活動実績概要書」、「志望理由および自己アピール」、「入学後の研究計画」",
+      "conditionsOriginal": "発表時間は10分以内\n英語能力証明書（全員）\nTOEIC L&R、TOEFL-iBT、IELTS Academic\n日本語能力証明書（外国籍者のみ）\n日本語能力試験（JLPT）N2 合格以上\n日本留学試験（EJU）の「日本留学試験成績通知書」",
+      "internationalGeneral": true,
+      "editorialNote": "此为日语AO选拔，与三个理工学研究科的英语AO项目不同。7月、11月、2月只可选一次出愿；2月不接受日本国外居住者。外国籍申请者的JLPT／EJU与替代证明须阅读原文件。"
+    },
+    {
+      "id": "waseda-environment-ao-2",
+      "universityId": "waseda",
+      "graduateSchool": "環境・エネルギー研究科",
+      "department": "環境・エネルギー専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 ＡＯ入学試験（2月入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "修士ＡＯ入学試験：選考方法・プレゼンテーション",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "修士ＡＯ入学試験：入学時期・国内／国外出願の条件",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "修士ＡＯ入学試験：出願資格",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "英語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語能力証明書（続き）",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "日本語能力証明書（外国籍者のみ）",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/03/f4a87a430f2215cfde2d2c92afbd3bd8.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "環境・エネルギー研究科要項2026：専攻正式名称",
+          "url": "https://fsci-wu.w.waseda.jp/handbooks/2026/WEEE/pageindices/index47.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "第１次試験（書類審査）\n第２次試験（口述試験）\nプレゼンテーション",
+      "scopeOriginal": "「活動実績概要書」、「志望理由および自己アピール」、「入学後の研究計画」",
+      "conditionsOriginal": "発表時間は10分以内\n日本国外在住者は、2月入試には出願できません。\n英語能力証明書（全員）\nTOEIC L&R、TOEFL-iBT、IELTS Academic\n日本語能力証明書（外国籍者のみ）\n日本語能力試験（JLPT）N2 合格以上\n日本留学試験（EJU）の「日本留学試験成績通知書」",
+      "internationalGeneral": true,
+      "editorialNote": "此为日语AO选拔，与三个理工学研究科的英语AO项目不同。7月、11月、2月只可选一次出愿；2月不接受日本国外居住者。外国籍申请者的JLPT／EJU与替代证明须阅读原文件。"
+    },
+    {
+      "id": "waseda-environment-foreign-5",
+      "universityId": "waseda",
+      "graduateSchool": "環境・エネルギー研究科",
+      "department": "環境・エネルギー専攻",
+      "admissionType": "international",
+      "selectionName": "外国人特別選考入学試験（5月入試）",
+      "entryYear": "2026年9月・2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "外国人特別選考：選考方法・入学時期",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "外国人特別選考：修士課程の出願資格（海外協定校）",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "外国人特別選考：5月／11月入試の期間",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外国人特別選考：英語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "外国人特別選考：英語・日本語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "環境・エネルギー研究科要項2026：専攻正式名称",
+          "url": "https://fsci-wu.w.waseda.jp/handbooks/2026/WEEE/pageindices/index47.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "提出された出願書類を基に合否判定を行います。",
+      "conditionsOriginal": "出願時に日本国外に在住の外国人\n出願時に早稲田大学の海外協定校に在学\n日本語能力試験 N1 以上の語学能力",
+      "editorialNote": "使用2026年5月27日更新第二版，仅收录修士段落。海外协定校条件与N1要求不能沿用通常一般／AO入试的N2条件；两次试验只能申请一次。英语证明和完整资格条件请阅读原文件。"
+    },
+    {
+      "id": "waseda-environment-foreign-11",
+      "universityId": "waseda",
+      "graduateSchool": "環境・エネルギー研究科",
+      "department": "環境・エネルギー専攻",
+      "admissionType": "international",
+      "selectionName": "外国人特別選考入学試験（11月入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "外国人特別選考：選考方法・入学時期",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "外国人特別選考：修士課程の出願資格（海外協定校）",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "外国人特別選考：5月／11月入試の期間",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外国人特別選考：英語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "外国人特別選考：英語・日本語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gweee/assets/uploads/2026/05/dcaa7c5fd7e3d47afb4438ea8da113f4.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "環境・エネルギー研究科要項2026：専攻正式名称",
+          "url": "https://fsci-wu.w.waseda.jp/handbooks/2026/WEEE/pageindices/index47.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "提出された出願書類を基に合否判定を行います。",
+      "conditionsOriginal": "出願時に日本国外に在住の外国人\n出願時に早稲田大学の海外協定校に在学\n日本語能力試験 N1 以上の語学能力",
+      "editorialNote": "使用2026年5月27日更新第二版，仅收录修士段落。海外协定校条件与N1要求不能沿用通常一般／AO入试的N2条件；两次试验只能申请一次。英语证明和完整资格条件请阅读原文件。"
+    },
+    {
+      "id": "waseda-ips-apr",
+      "universityId": "waseda",
+      "graduateSchool": "情報生産システム研究科",
+      "department": "情報生産システム工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（国内出願・国外出願）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "入学試験要項：国内／国外出願・選考方法",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/03/d55c85c4d265fbcad8c91e7e3425ab6e.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "入学試験要項：修士課程出願資格・一般入試",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/03/d55c85c4d265fbcad8c91e7e3425ab6e.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "入学試験要項：募集専攻・入学日程",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/03/d55c85c4d265fbcad8c91e7e3425ab6e.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "英語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/03/d55c85c4d265fbcad8c91e7e3425ab6e.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語外部試験の受付・提出条件",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/03/d55c85c4d265fbcad8c91e7e3425ab6e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "第2次選考（面接試問）実施方法",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/03/d55c85c4d265fbcad8c91e7e3425ab6e.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        }
+      ],
+      "subjectsOriginal": "第 1 次選考：書類審査\n第 2 次選考：面接試問",
+      "conditionsOriginal": "第 2 次選考（面接試問）は、第 1 次選考において面接が必要と判断された者を対象に実施します。\n面接試問は、原則としてオンラインにて実施します。\n使用する言語は日本語または英語とします。",
+      "internationalGeneral": true,
+      "editorialNote": "国内／国外出愿按居住地划分，均没有国籍限制；同为一般入试，不另造外国人入试。文件审查可直接最终合格，面试仅针对被要求面试者。英语外部成绩、豁免与提交方式请阅读PDF第12—13页；TOEIC只接受日本国内受验成绩。研究分野没有误写为三个独立专攻。"
+    },
+    {
+      "id": "waseda-ips-sep",
+      "universityId": "waseda",
+      "graduateSchool": "情報生産システム研究科",
+      "department": "情報生産システム工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（国内出願・国外出願）",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "入学試験要項：国内／国外出願・選考方法",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/02/a7cf39913e02c53c022cd2ae9bda6c2e.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "入学試験要項：修士課程出願資格・一般入試",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/02/a7cf39913e02c53c022cd2ae9bda6c2e.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "入学試験要項：募集専攻・入学日程",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/02/a7cf39913e02c53c022cd2ae9bda6c2e.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "英語能力証明書",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/02/a7cf39913e02c53c022cd2ae9bda6c2e.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語外部試験の受付・提出条件",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/02/a7cf39913e02c53c022cd2ae9bda6c2e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "第2次選考（面接試問）実施方法",
+          "url": "https://www.waseda.jp/fsci/gips/assets/uploads/2026/02/a7cf39913e02c53c022cd2ae9bda6c2e.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        }
+      ],
+      "subjectsOriginal": "第 1 次選考：書類審査\n第 2 次選考：面接試問",
+      "conditionsOriginal": "第 2 次選考（面接試問）は、第 1 次選考において面接が必要と判断された者を対象に実施します。\n面接試問は、原則としてオンラインにて実施します。\n使用する言語は日本語または英語とします。",
+      "internationalGeneral": true,
+      "editorialNote": "国内／国外出愿按居住地划分，均没有国籍限制；同为一般入试，不另造外国人入试。文件审查可直接最终合格，面试仅针对被要求面试者。英语外部成绩、豁免与提交方式请阅读PDF第12—13页；TOEIC只接受日本国内受验成绩。研究分野没有误写为三个独立专攻。"
+    },
+    {
+      "id": "waseda-nano-closed",
+      "universityId": "waseda",
+      "graduateSchool": "先進理工学研究科",
+      "department": "ナノ理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 募集停止",
+      "entryYear": "2027年4月入学以降",
+      "verifiedAt": "2026-10-04",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "大学院先進理工学研究科ナノ理工学専攻 修士課程の募集停止について",
+          "url": "https://www.waseda.jp/fsci/assets/uploads/2025/10/65c76a4b3f4ece578aeaf5d1ceaf3ff4.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "conditionsOriginal": "2027 年 4 月入学の入学試験以降の募集を停止します。",
+      "publicationStatus": "closed",
+      "editorialNote": "修士招生停止通知，不能作为可报考的考试要求。2026年9月旧题目不套用到2027年4月；博士后期继续招生也不能当作修士招生。"
     }
   ]
 };

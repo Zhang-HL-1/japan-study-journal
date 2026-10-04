@@ -11,14 +11,15 @@ const makeRecord = overrides => ({ id: 'qa-general', universityId: 'fixture', ad
   sources: [{ label: 'Official fixture URL', kind: 'pdf', url: 'https://www.t.u-tokyo.ac.jp/fixture.pdf', pdfPage: 3 }], ...overrides });
 const initial = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', entryYear: 'all', query: '' };
 
-test('Tokyo and Kyoto catalogs have unique validated records and other schools remain pending', () => {
+test('Tokyo, Kyoto and Waseda catalogs have unique validated records and other schools remain pending', () => {
   assert.equal(data.universities.length, 5);
   assert.equal(new Set(data.universities.map(u => u.id)).size, 5);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
-  assert.ok(data.records.every(record => ['utokyo', 'kyoto'].includes(record.universityId) && core.validRecord(record, data.universities)));
+  assert.ok(data.records.every(record => ['utokyo', 'kyoto', 'waseda'].includes(record.universityId) && core.validRecord(record, data.universities)));
   assert.equal(new Set(data.records.filter(record => record.universityId === 'utokyo').map(record => record.graduateSchool)).size, 5);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'kyoto').map(record => record.graduateSchool)).size, 4);
+  assert.equal(new Set(data.records.filter(record => record.universityId === 'waseda').map(record => record.graduateSchool)).size, 5);
   const pending = data.records.filter(record => ['pending', 'unverified'].includes(record.publicationStatus));
   assert.ok(pending.every(record => !record.subjectsOriginal && !record.scopeOriginal && record.editorialNote));
   for (const record of data.records) for (const source of record.sources) {
@@ -65,6 +66,48 @@ test('Kyoto uses current official departments, separate selection rules and mast
   assert.ok(iesc.every(record => record.department !== 'エネルギー応用科学専攻' && record.entryYear === '2027年10月'));
   const aliasMatches = core.filter(data.records, data.universities, {...initial, query: '京大 電磁気学'});
   assert.ok(aliasMatches.length && aliasMatches.every(record => record.universityId === 'kyoto'));
+});
+test('Waseda keeps master eligibility, examination options and distinct AO rules', () => {
+  const records = data.records.filter(record => record.universityId === 'waseda');
+  const find = id => records.find(record => record.id === 'waseda-' + id);
+  const ao = records.filter(record => record.id.endsWith('-ao'));
+  assert.equal(ao.length, 15);
+  assert.ok(!ao.some(record => ['材料科学専攻', '経営システム工学専攻', '経営デザイン専攻', '共同原子力専攻', 'ナノ理工学専攻'].includes(record.department)));
+  assert.ok(!records.some(record => ['先進理工学専攻', '共同先端生命医科学専攻', '共同先進健康科学専攻'].includes(record.department)));
+  assert.match(find('electronic-physical').scopeOriginal, /1 次元系に限定し、スピン自由度は含まない/);
+  assert.match(find('electronic-physical').scopeOriginal, /回路の過渡現象/);
+  assert.doesNotMatch(find('electronic-physical').subjectsOriginal, /英語|数学/);
+  assert.match(find('electronic-physical').conditionsOriginal, /550 以上/);
+  assert.match(find('electronic-physical-ao').conditionsOriginal, /800 recommended/);
+  assert.match(find('electronic-physical-ao').subjectsOriginal, /Interviews may be conducted/);
+  assert.doesNotMatch(find('electronic-physical-ao').subjectsOriginal, /力学|電磁気学|回路理論/);
+  assert.match(find('intermedia').conditionsOriginal, /工学部門」2 問と「インターメディア芸術部門」1 問/);
+  assert.match(find('modern-mechanical').conditionsOriginal, /同一科目でも可/);
+  assert.match(find('architecture').conditionsOriginal, /志望研究指導ごと/);
+  assert.match(find('computer-communications').conditionsOriginal, /全 4 題を全問/);
+  assert.match(find('integrative-bioscience').subjectsOriginal, /①生命理工学専攻以外/);
+  assert.match(find('integrative-bioscience').conditionsOriginal, /②生命理工学専攻の試験問題/);
+  assert.match(find('nuclear').conditionsOriginal, /6 題より 4 題/);
+  assert.match(find('environment-ao-2').conditionsOriginal, /日本国外在住者は、2月入試には出願できません/);
+  assert.equal(find('environment-ao-2').entryYear, '2027年4月');
+  assert.match(find('environment').conditionsOriginal, /N2 合格以上/);
+  assert.match(find('environment-foreign-11').conditionsOriginal, /N1 以上/);
+  assert.match(find('environment-foreign-11').conditionsOriginal, /海外協定校/);
+  assert.match(find('environment-foreign-11').subjectsOriginal, /出願書類を基に/);
+  assert.doesNotMatch(find('environment-foreign-11').subjectsOriginal, /口述|面接|筆記/);
+  assert.ok(find('environment-ao-2').sources.some(source => source.pdfPage === 14 && source.label.includes('日本語')));
+  for (const id of ['ips-apr', 'ips-sep']) {
+    assert.equal(find(id).department, '情報生産システム工学専攻');
+    assert.equal(find(id).admissionType, 'general');
+    assert.match(find(id).conditionsOriginal, /面接が必要と判断された者/);
+    assert.doesNotMatch(find(id).subjectsOriginal, /数学|筆記|物理/);
+  }
+  assert.equal(find('ips-sep').entryYear, '2027年9月');
+  assert.equal(find('nano-closed').publicationStatus, 'closed');
+  assert.equal(find('nano-closed').entryYear, '2027年4月入学以降');
+  assert.ok(!find('nano-closed').subjectsOriginal && !find('nano-closed').scopeOriginal && !find('nano-closed').internationalGeneral);
+  const matches = core.filter(data.records, data.universities, { ...initial, query: '早大 電磁気学' });
+  assert.ok(matches.length && matches.every(record => record.universityId === 'waseda'));
 });
 test('general and international admissions remain separate even for same department', () => {
   const general = makeRecord(); const international = makeRecord({ id: 'qa-int', admissionType: 'international', selectionName: 'Fixture international route', subjectsOriginal: '口述試験' });

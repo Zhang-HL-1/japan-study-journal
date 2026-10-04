@@ -35,6 +35,7 @@
   get('catalog-total').replaceChildren(document.createTextNode('已收录 '), element('strong', String(records.length)), document.createTextNode(' 条资料'));
   const addedSchools = universities.filter(university => records.some(record => record.universityId === university.id)).map(university => university.name);
   function publicationLabel(record, short = false) {
+    if (record.publicationStatus === 'closed') return short ? '修士募集停止' : '修士課程募集停止 · 请阅读官方通知';
     if (record.publicationStatus === 'notice') return short ? '变更预告 · 完整要项待公布' : '已公布变更预告；完整募集要项待公布';
     if (record.publicationStatus === 'pending') return short ? '要项／案内待公布' : '募集要项／专攻案内待公布';
     return short ? '科目与范围待核验' : '专攻科目与范围待核验';
@@ -69,7 +70,7 @@
         detail.append(element('h4', title), copy);
       }
     }
-    if (!record.subjectsOriginal && !record.scopeOriginal) detail.append(element('p', '考试科目、范围与选答条件请阅读下面的官方对应页。'));
+    if (!record.subjectsOriginal && !record.scopeOriginal) detail.append(element('p', record.publicationStatus === 'closed' ? '此条为修士招生停止通知。' : '考试科目、范围与选答条件请阅读下面的官方对应页。'));
     for (const source of record.sources) {
       const section = element('section', undefined, 'scope-source');
       const url = core.sourceURL(source);
