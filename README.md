@@ -70,3 +70,9 @@
 ## 发布
 
 网站通过 GitHub Pages 发布。推送到默认分支后，GitHub 会自动更新线上页面。
+
+## 视觉版本与备份
+
+2026-10-05 更新：统一首页、考试资料与练习室的暖白编辑式视觉，加入手绘插图与适配减少动态效果的轻动画。
+
+[查看改版前的完整备份](https://github.com/Zhang-HL-1/japan-study-journal/tree/backup/pre-claude-redesign-20261005) · [回滚说明与插图信息](docs/visual-redesign.md)。需要恢复时可撤销视觉改版提交，保留之后新增的学校资料。

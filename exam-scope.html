@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="日本大学院修士考试科目与范围：按学校、研究科和专攻查阅官方募集要项，一般入试与留学生入试分别收录。已添加東京大学、京都大学、東京科学大学、早稲田大学与東京理科大学，附官方原文与对应页。" />
-    <meta name="theme-color" content="#f5f2ea" />
+    <meta name="theme-color" content="#faf9f5" />
     <title>考试科目与范围｜留日手记</title>
-    <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="exam-scope.css" />
+    <link rel="stylesheet" href="editorial.css" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E" />
     <script src="exam-scope-data.js?v=20261005-science-tokyo" defer></script>
     <script src="exam-scope-core.js?v=20261005-science-tokyo" defer></script>
@@ -57,7 +58,8 @@
           <div class="scope-workspace">
             <div class="scope-result-bar"><p id="result-context">全部学校 · 一般入试</p><p id="scope-result-count" role="status" aria-live="polite">0 条资料</p></div>
             <div class="scope-empty" id="scope-empty"><div class="empty-book" aria-hidden="true"><span></span><span></span></div><p class="scope-kicker">换个条件，再找一找。</p><h3 id="scope-empty-title">选择学校，查阅考试资料。</h3><p id="scope-empty-copy">可按学校、研究科／学院、专攻／系及入试类型查阅。暂时没有匹配结果时，可以清除筛选。</p><div class="empty-pills"><span>一般入试</span><span>留学生入试</span><span>官方原文</span></div><button id="scope-empty-reset" class="scope-secondary" type="button" hidden>清除筛选</button></div>
-            <div id="scope-results" class="scope-results" hidden></div>
+            <p class="scope-list-hint">点选资料，在下方阅读科目、范围与官方出处。列表可滚动浏览。</p>
+            <div id="scope-results" class="scope-results" role="region" aria-label="考试资料列表" tabindex="0" hidden></div>
             <article id="scope-detail" class="scope-detail" tabindex="-1" aria-label="考试科目与范围原文" hidden></article>
             <p class="scope-data-error" id="scope-data-error" role="alert" hidden></p>
           </div>
