@@ -11,16 +11,18 @@ const makeRecord = overrides => ({ id: 'qa-general', universityId: 'fixture', ad
   sources: [{ label: 'Official fixture URL', kind: 'pdf', url: 'https://www.t.u-tokyo.ac.jp/fixture.pdf', pdfPage: 3 }], ...overrides });
 const initial = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', entryYear: 'all', query: '' };
 
-test('Tokyo, Kyoto, Waseda and TUS catalogs have unique validated records and Science Tokyo remains pending', () => {
+test('all five university catalogs have unique validated records and clear pending entry rules', () => {
   assert.equal(data.universities.length, 5);
   assert.equal(new Set(data.universities.map(u => u.id)).size, 5);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
-  assert.ok(data.records.every(record => ['utokyo', 'kyoto', 'waseda', 'tus'].includes(record.universityId) && core.validRecord(record, data.universities)));
+  assert.ok(data.records.every(record => core.validRecord(record, data.universities)));
+  assert.ok(data.universities.every(university => data.records.some(record => record.universityId === university.id)));
   assert.equal(new Set(data.records.filter(record => record.universityId === 'utokyo').map(record => record.graduateSchool)).size, 5);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'kyoto').map(record => record.graduateSchool)).size, 4);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'waseda').map(record => record.graduateSchool)).size, 5);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'tus').map(record => record.graduateSchool)).size, 5);
+  assert.equal(new Set(data.records.filter(record => record.universityId === 'science-tokyo').map(record => record.graduateSchool)).size, 6);
   const pending = data.records.filter(record => ['pending', 'unverified'].includes(record.publicationStatus));
   assert.ok(pending.every(record => !record.subjectsOriginal && !record.scopeOriginal && record.editorialNote));
   for (const record of data.records) for (const source of record.sources) {
@@ -28,6 +30,75 @@ test('Tokyo, Kyoto, Waseda and TUS catalogs have unique validated records and Sc
   }
   assert.ok(core.filter(data.records, data.universities, initial).length);
   assert.ok(core.filter(data.records, data.universities, { ...initial, admissionType: 'international' }).length);
+});
+test('Science Tokyo distinguishes A and B schedules, English examinations, electives and Earth-Life admission conditions', () => {
+  const records = data.records.filter(record => record.universityId === 'science-tokyo');
+  const find = id => records.find(record => record.id === 'science-' + id);
+  assert.equal(new Set(records.map(record => record.graduateSchool + '/' + record.department)).size, 18);
+  assert.ok(records.every(record => record.department.endsWith('系') && !record.graduateSchool.includes('研究科')));
+  for (const key of ['math','phys','shs']) assert.ok(!find(key + '-a'));
+  assert.match(find('math-b').subjectsOriginal, /英語筆答試験/);
+  assert.match(find('math-b').conditionsOriginal, /免除は行いません/);
+  assert.doesNotMatch(find('math-b').subjectsOriginal, /英語外部試験/);
+  assert.match(find('shs-b').subjectsOriginal, /口頭試問/);
+  assert.doesNotMatch(find('shs-b').subjectsOriginal, /筆答試験/);
+  assert.match(find('shs-b').conditionsOriginal, /筆答試験 実施しません/);
+  assert.match(find('phys-b').scopeOriginal, /物理学実験/);
+  assert.match(find('phys-b').conditionsOriginal, /筆答試験当日に持参/);
+  assert.match(find('chem-b').scopeOriginal, /計６題から２題/);
+  assert.match(find('ee-b').scopeOriginal, /数学（微分方程式/);
+  assert.match(find('ee-b').scopeOriginal, /二分野より 1 つ/);
+  assert.match(find('ee-b').scopeOriginal, /量子力学\/物性基礎/);
+  assert.doesNotMatch(find('ee-a').scopeOriginal, /選択専門科目/);
+  assert.match(find('mat-b').scopeOriginal, /各ブロックから、それぞれ 2 問/);
+  assert.match(find('cap-b').conditionsOriginal, /同じ科目を選択しても、違う科目/);
+  assert.match(find('cap-b').scopeOriginal, /それぞれの時間枠/);
+  assert.match(find('is-b').scopeOriginal, /数問の選択/);
+  assert.doesNotMatch(find('is-b').scopeOriginal, /12問|１２問|6問|６問/);
+  assert.match(find('cs-b').scopeOriginal, /各 1 問、合計 3 問/);
+  assert.match(find('cs-b').conditionsOriginal, /日本語で解答すること/);
+  assert.match(find('bio-b').scopeOriginal, /合計 8 題中 4 題/);
+  assert.match(find('arch-b').scopeOriginal, /計 12 問を出題 全問必答/);
+  assert.match(find('arch-b').conditionsOriginal, /全ての指導教員が共通して指定/);
+  assert.ok(find('arch-b').sources.some(source => source.pdfPage === 61));
+  assert.ok(find('arch-b').sources.some(source => source.pdfPage === 62));
+  assert.match(find('tse-b').scopeOriginal, /午前（90 分）：問題 A\n以下の３科目/);
+  assert.match(find('tse-b').scopeOriginal, /午後（90 分）：問題 B\n以下の２科目/);
+  assert.match(find('eps-earth-life').conditionsOriginal, /A 日程試験で合格する必要/);
+  assert.match(find('bio-earth-life').conditionsOriginal, /必要に応じて/);
+  assert.match(find('cap-earth-life').conditionsOriginal, /別途英語による選考会/);
+  for (const record of records.filter(record => record.admissionType === 'general' && !record.course)) {
+    assert.match(record.conditionsOriginal, /志願者は選択できません/);
+    if (record.department !== '数学系') {
+      assert.match(record.conditionsOriginal, /TOEFL iBT Home Edition/);
+      assert.match(record.conditionsOriginal, /TOEFL-ITPやTOEIC-IP.*有効ではありません/);
+    }
+  }
+  const matches = core.filter(data.records, data.universities, { ...initial, query: '东科 電磁気学' });
+  assert.ok(matches.length && matches.every(record => record.universityId === 'science-tokyo'));
+});
+test('Science Tokyo international routes follow current master and integrated program tables rather than doctoral-only descriptions', () => {
+  const records = data.records.filter(record => record.universityId === 'science-tokyo' && record.admissionType === 'international');
+  const find = id => records.find(record => record.id === 'science-' + id);
+  assert.equal(records.length, 34);
+  assert.ok(!records.some(record => /IGP\(B\)|Program \(B\)/.test(record.selectionName)));
+  assert.ok(!records.some(record => /igpc/.test(record.id) && ['数学系','化学系','社会・人間科学系'].includes(record.department)));
+  assert.ok(!records.some(record => /igpa/.test(record.id) && record.graduateSchool === '情報理工学院'));
+  assert.equal(records.filter(record => /igpa-m$/.test(record.id)).length, 2);
+  for (const key of ['arch','cv']) assert.equal(find(key+'-igpa-m').degreeProgram, 'master');
+  for (const key of ['math','phys','chem','eps','mech','sc','ee','ict','iee','mat','cap','bio']) {
+    assert.ok(!find(key+'-igpa-m'));
+    assert.equal(find(key+'-igpa-md').degreeProgram, 'integrated');
+  }
+  assert.deepEqual(records.filter(record => /igpc-md$/.test(record.id)).map(record => record.department).sort(), ['応用化学系','地球惑星科学系','生命理工学系'].sort());
+  assert.ok(records.filter(record => /igpc-md$/.test(record.id)).every(record => record.course.includes('Earth-Life Science')));
+  for (const record of records) {
+    assert.equal(record.originalLanguage, 'en');
+    assert.match(record.scopeOriginal, /format and content vary by department/);
+    assert.doesNotMatch(record.subjectsOriginal, /TOEIC|TOEFL|数学|電磁気学/);
+    assert.equal(record.entryYear, record.id.includes('-igpa-') ? '2027年秋' : '2027年4月');
+    if (record.degreeProgram === 'integrated') assert.match(record.selectionName, /Integrated Doctoral Education Program/);
+  }
 });
 test('TUS uses current departments and master-only foreign routes without inheriting general examination choices', () => {
   const records = data.records.filter(record => record.universityId === 'tus');

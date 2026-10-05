@@ -32,11 +32,11 @@ function boot(records=[]) {
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
-test('school filters switch coverage notes, graduate options and pending school text',async()=>{
+test('school filters switch all five coverage notes and unmatched results remain usable',async()=>{
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、早稲田大学与東京理科大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学与東京理科大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);
@@ -44,10 +44,32 @@ test('school filters switch coverage notes, graduate options and pending school 
  await school(a,'utokyo').click();
  assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.utokyo.note);
  await school(a,'science-tokyo').click();
+ assert.equal(a.ids['scope-graduate'].options.length,7);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京科学大学：/);
+ assert.equal(a.ids['scope-results'].children.length,36);
+ a.ids['scope-query'].value='没有这一项';await a.ids['scope-query'].fire('input');
  assert.equal(a.ids['scope-results'].hidden,true);
- assert.match(a.ids['scope-empty-copy'].textContent,/東京大学、京都大学、早稲田大学、東京理科大学/);
+ assert.equal(a.ids['scope-empty-title'].textContent,'暂时没有匹配的资料。');
+ assert.match(a.ids['scope-empty-copy'].textContent,/清除筛选/);
  await a.ids['scope-empty-reset'].click();
  assert.equal(a.ids['scope-results'].children.length,generalCount);
+});
+test('Science Tokyo original elective scope opens its actual PDF page and English programs retain degree labels',async()=>{
+ const a=boot(catalog.records);await school(a,'science-tokyo').click();
+ a.ids['scope-department'].value='電気電子系';await a.ids['scope-department'].fire('change');
+ assert.equal(a.ids['scope-results'].children.length,2);
+ const entry=a.ids['scope-results'].children.find(e=>e.dataset.id==='science-ee-b');await entry.click();
+ const record=catalog.records.find(r=>r.id==='science-ee-b');
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===record.scopeOriginal));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');
+ await source.children.find(e=>e.tag==='button').click();
+ assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=34'));
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,70);
+ const igp=a.ids['scope-results'].children.find(e=>e.dataset.id==='science-ee-igpa-md');assert.ok(igp);
+ await igp.click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.tag==='p'&&e.textContent.includes('Integrated Doctoral Education Program')&&e.textContent.includes('2027年秋')));
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='en'));
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='scope-route-note'&&e.textContent.includes('不能称作独立两年修士')));
 });
 test('TUS filters retain original scope and PDF pages while distinguishing general and foreign information selections',async()=>{
  const a=boot(catalog.records);await school(a,'tus').click();

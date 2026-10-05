@@ -1,4 +1,4 @@
-/* 東京大学核验日期 2026-10-03；京都大学、早稲田大学、東京理科大学核验日期 2026-10-04。官方原文与对应PDF页保留；预告及募集停止单独标识。 */
+/* 東京大学核验日期 2026-10-03；京都大学、早稲田大学、東京理科大学核验日期 2026-10-04；東京科学大学核验日期 2026-10-05。官方原文与对应PDF页保留，选拔与学位区分分别标明。 */
 (function (root) {
   'use strict';
   const data = {
@@ -72,7 +72,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、早稲田大学与東京理科大学的修士资料。按官方选拔名称和适用入学年度查阅；一般选拔、留学生相关项目、变更预告、待公布案内与募集停止分别标注。東京科学大学之后核验添加。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学与東京理科大学的修士及修士相关选拔资料。使用学校、研究科／学院、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -96,6 +96,19 @@
         "生命科学研究科"
       ],
       "note": "東京理科大学：已收录理学、工学、創域理工学、先進工学、生命科学五个研究科，26个现行专攻，共54条科目／选考要求和2条旧专攻募集停止通知。一般入试与外国人留学生试验分别核验；国際火災科学使用独立修士留学生募集要项，夏期／冬期分别保存。2027年4月新设情報理工学専攻，不沿用停止招生的旧专攻名称。外语受付按选拔核对，2028年度预告不套用到2027年度；适用年度不表示仍在报名。"
+    },
+    "science-tokyo": {
+      "verifiedAt": "2026-10-05",
+      "degree": "修士課程／修士から入学する一貫制",
+      "graduateSchools": [
+        "理学院",
+        "工学院",
+        "物質理工学院",
+        "情報理工学院",
+        "生命理工学院",
+        "環境・社会理工学院"
+      ],
+      "note": "東京科学大学：已收录理工学系六个学院、18个系，共70条科目／选考与课程条件：通常修士一般入试33条（A／B分别保存）、地球生命一贯制课程条件3条，以及IGP(C)2027年4月／IGP(A)2027年秋34条英语项目入口。修士与修士＋博士一贯制分别标明；仅招博士的系／项目未作为修士添加。数学系有校内英语笔试，社会・人間科学系无专业笔答，具体范围与例外保留官方对应页。通常修士资料适用2027年4月入学，不表示仍在报名。"
     }
   },
   "records": [
@@ -9757,6 +9770,3649 @@
       "conditionsOriginal": "創域理工学研究科情報計算科学専攻および経営システム工学専攻は、2026 年度入学者を最後に募集を停止します。",
       "publicationStatus": "closed",
       "editorialNote": "2027年度不列为可报考专攻。新設「情報理工学専攻」使用独立条目和2027年度要项；不沿用旧专攻的科目。"
+    },
+    {
+      "id": "science-math-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：理学院 数学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "数学系：募集要項が参照するシラバス",
+          "url": "https://www.math.titech.ac.jp/top/~jimu/Syllabus/syllabus.html",
+          "kind": "page"
+        },
+        {
+          "label": "数学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/math/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語筆答試験",
+      "scopeOriginal": "第 12 クォーターまでの数学系の講義と同程度の内容を基本とします（シラバス https://www.math.titech.ac.jp/top/~jimu/Syllabus/syllabus.html 参照）。\n数学の基礎学力、専門的な知識やセミナーを適切な形で行うためのコミュニケーション能力などを判断します。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\n英語外部試験のスコアシート提出は不要です。\n英語筆答試験は全員受験して下さい。英語外部試験のスコアシートの提出による英語筆答試験の免除は行いません。\n本英語筆答試験においては英語辞書は持ち込み可（電子辞書は不可）です。\nこの試験では、数学の文献を読むために必要な基礎的な英文読解力を問い、合格か不合格で判定します。\n英語筆答試験に合格することは、本選抜試験合格のための必要条件です。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 本系不实施A日程。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-phys-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "物理学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：理学院 物理学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "物理学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/phys/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "共通問題：力学、電磁気学、物理数学、量子力学、統計力学、物理学実験に関する基礎的な知識 および理解を問う問題\n選択問題：なし\n口頭試問：物理学の知識および理解を問う",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは出願時に提出しないでください。提出は以下の通りとします。\n①提出方法について 必ずオンライン版スコアシートを印刷したものを提出してください。\n②提出時期について スコアシートは出願時に提出せず、筆答試験当日に持参してください。筆答試験時に提出がない場合は\n不合格となります。\n③その他 一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 本系不实施A日程。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-chem-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "化学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：理学院 化学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "化学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/chem/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "化学に関連する知識・理解力、研究能力・適性、本学化学系を志望する動機、および学士論文研究の内容などを問う",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは必ず出願時に提出してください。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-chem-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "化学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：理学院 化学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "化学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/chem/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "共通問題：物理化学、無機・分析化学、有機化学に関する基礎的な知識および理解を問う問題\n選択問題：物理化学２題、無機・分析化学２題、有機化学２題の計６題から２題を選択する。\nそれぞれ該当する分野の知識および理解を問う問題",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは必ず出願時に提出してください。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 使用2026年夏季起的共通问题＋六题选二的新题型。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-eps-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "地球惑星科学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：理学院 地球惑星科学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "地球惑星科学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/eps/admissions/",
+          "kind": "page"
+        },
+        {
+          "label": "地球生命コース：通常系入試之外的履修・追加選考条件",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "専門的知識、学士論文研究等の内容および修士課程での研究計画を中心とした試問（英語で行います）。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n・ 出願時に必ずスコアシートを提出してください。\n・ 出願受付締切後の提出は一切認めません。\n・ 一度提出したスコアシートの差し替えは認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 地球生命コース是一贯制修士／博士项目，另有独立条件条目；地球惑星科学系只有A日程合格者可选择该课程。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-eps-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "地球惑星科学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：理学院 地球惑星科学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "地球惑星科学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/eps/admissions/",
+          "kind": "page"
+        },
+        {
+          "label": "地球生命コース：通常系入試之外的履修・追加選考条件",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "次の（１）から 1 問、（２）から 2 問、（３）から 3 問出題。計６問のうち３問を選択し解答。\n（１）数学\n線形代数、微分積分、ベクトル解析、フーリエ解析、微分方程式、複素関数、特殊関数、確率・統計など\n（２）物理\n力学・解析力学、熱・統計力学、電磁気学、流体力学、量子力学など\n（３）化学・地球科学\n物理化学、熱力学、分析化学、無機化学、年代学、宇宙化学、大気化学、海洋化学、有機地球化学、地質学、岩石学、鉱物学、地震学、火山学など",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n・ 出願時に必ずスコアシートを提出してください。\n・ 出願受付締切後の提出は一切認めません。\n・ 一度提出したスコアシートの差し替えは認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 地球生命コース是一贯制修士／博士项目，另有独立条件条目；地球惑星科学系只有A日程合格者可选择该课程。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-mech-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "機械系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 機械系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "機械系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/mech/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "学力ならびに適性に関する試問\n（オンラインで実施することがあります）",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n出願時に必ずスコアシートを提出してください。出願受付締切後の提出は一切認めません。\nまた提出したスコアシートの差し替えは一切認めません。なおスコアシートは返却しません。\n試験は日本語でのみ実施",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-mech-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "機械系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 機械系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "機械系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/mech/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "専門科目（３時間）\n材料力学、機械力学、熱力学、流体力学に関する基礎的な知識および理解を問う問題",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n出願時に必ずスコアシートを提出してください。出願受付締切後の提出は一切認めません。\nまた提出したスコアシートの差し替えは一切認めません。なおスコアシートは返却しません。\n試験は日本語でのみ実施",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-sc-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "システム制御系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 システム制御系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 31
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "システム制御系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/sc/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "学士課程で身につけた学力、研究能力ならびに適性に関する試問を行います。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは必ず出願時に提出してください。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-sc-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "システム制御系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 システム制御系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 31
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "システム制御系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/sc/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "数学（120分）\n（応用数学一般「微分積分、線形代数、フーリエ／ラプラス変換、微分方程式、確率統計など」から出題）",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは必ず出願時に提出してください。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。\nあらかじめ受験者が準備した資料を用いた発表に基づき、工学の基礎学力、研究能力ならびに適性に関する試問を行います。なお、発表内容は現在行っている卒業研究またはそれに準じたものとなります。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-ee-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 電気電子系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 34
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "電気電子系：外部英語スコア・出願条件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "電気電子系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/ee/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "基礎・専門学力及び適性などに関する試問（日本語でオンライン実施）",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートを出願時に提出すること。出願時にスコアシート提出がない場合、受験資格なしと判断します。\nまた、出願後におけるスコアシートの提出は一切認めません。\n33",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-ee-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 電気電子系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 34
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "電気電子系：外部英語スコア・出願条件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "電気電子系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/ee/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "筆答専門試験科目\n・数学（微分方程式、複素関数、ラプラス変換、フーリエ変換、確率統計、ベクトル解析など）\n・電磁気学（静電界、静磁界、電磁誘導、電磁界の法則など）\nおよび\n選択専門科目 以下の二分野より 1 つを選択\n・電気回路（交流回路、分布定数回路、回路解析、回路の諸定理、電子回路など）\n・量子力学/物性基礎（ポテンシャルと波動関数、光の吸収と放出、電気伝導、エネルギーバンド、結晶構造など）",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートを出願時に提出すること。出願時にスコアシート提出がない場合、受験資格なしと判断します。\nまた、出願後におけるスコアシートの提出は一切認めません。\n33",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-ict-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "情報通信系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 情報通信系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 37
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "情報通信系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/ict/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "学力ならびに適性に関する試問を個人面接の形式で行う。\n合否は、出願書類および口述試験の結果を総合的に評価し決定する。\n（口述試問は日本語で行いますが、回答する言語は日本語・英語どちらでも可）",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは必ず出願時に提出してください。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-ict-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "情報通信系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 情報通信系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 37
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "情報通信系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/ict/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "数学(9:30～11:00)：微分積分、線形代数の 1 問\n論述(11:30～12:30)：情報通信分野に関する論述問題 1 問",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは必ず出願時に提出してください。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。\n出題は日本語のみです。解答は日本語または英語で記述してください。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-iee-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "経営工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 経営工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 40
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "経営工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/iee/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "専門的知識及び学士論文研究の内容等についての口述試験",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートを出願時に必ず提出して下さい。直接持参するなど、これ以外の方法での提出は一切認めません。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-iee-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "経営工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：工学院 経営工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 40
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "令和8年3月：経営工学系 筆答専門科目の参考文献（保証された出題範囲ではない）",
+          "url": "https://educ.titech.ac.jp/iee/admissions/file/iee_sankou_20260319.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "経営工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/iee/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "専門科目 80 分\n数理分野より 1 問出題される。\n数理：線形代数、微積分 、基礎数理、数理工学、確率・統計",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートを出願時に必ず提出して下さい。直接持参するなど、これ以外の方法での提出は一切認めません。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 学校列出的书目是参考文献，不能改写为保证出题的范围。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-mat-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "材料系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：物質理工学院 材料系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 42
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "材料系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/mat/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "対面で実施する。詳細は受験資格者への個別通知により案内する。\n専門的知識、学士論文研究の内容、適性等についての試問を行う。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n必ずオンライン版スコアシートを印刷したものを出願時に提出して下さい。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えは、一切認めません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-mat-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "材料系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：物質理工学院 材料系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 42
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "材料系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/mat/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "第 I ブロック(数学、力学、物理化学、有機化学１、材料力学、無機固体物性学、高分子化学)および第 II ブロック(電磁気学、熱力学、量子力学、有機化学２、金属組織学、無機化学)の各ブロックから、それぞれ 2 問ずつ選択し、合計 4 問に対して解答する。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n必ずオンライン版スコアシートを印刷したものを出願時に提出して下さい。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えは、一切認めません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-cap-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "応用化学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：物質理工学院 応用化学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 46
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "応用化学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/cap/admissions/",
+          "kind": "page"
+        },
+        {
+          "label": "地球生命コース：通常系入試之外的履修・追加選考条件",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "オンラインで実施。応用化学分野の専門的内容に関する試問。例えば、学士論文研究や修士課程で行いたい研究等。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n①提出方法について\n必ずオンライン版スコアシートを印刷したものを提出してください。\n一度提出したスコアシートの差し替えは、一切認めません。また、スコアシートは返却いたしません。\n②提出時期について\nスコアシートは、出願時に提出して下さい。出願締切後に提出されたスコアシートは受理しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 地球生命コース是一贯制修士／博士项目，另有独立条件条目；地球惑星科学系只有A日程合格者可选择该课程。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-cap-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "応用化学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：物質理工学院 応用化学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 46
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "応用化学系：2026年度Ｂ日程試験・第Ⅰ限／第Ⅱ限の選択科目",
+          "url": "https://educ.titech.ac.jp/cap/news/2026_08/069977.html",
+          "kind": "page"
+        },
+        {
+          "label": "応用化学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/cap/admissions/",
+          "kind": "page"
+        },
+        {
+          "label": "地球生命コース：通常系入試之外的履修・追加選考条件",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "試験は、以下の２つの時間枠に分けて実施。それぞれの時間枠において、有機化学、無機化学、物理化学、化学工学、高分子科学の選択科目の中から２科目を解答。詳細は応用化学系の入学案内ホームページ（https://educ.titech.ac.jp/cap/admissions/）を参照。\n第 I 限 13:30～14:40（70 分）\n第 II 限 14:55～16:05（70 分）",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n①提出方法について\n必ずオンライン版スコアシートを印刷したものを提出してください。\n一度提出したスコアシートの差し替えは、一切認めません。また、スコアシートは返却いたしません。\n②提出時期について\nスコアシートは、出願時に提出して下さい。出願締切後に提出されたスコアシートは受理しません。\n選択科目は、第Ⅰ限と第Ⅱ限で同じ科目を選択しても、違う科目を選択しても構いません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 地球生命コース是一贯制修士／博士项目，另有独立条件条目；地球惑星科学系只有A日程合格者可选择该课程。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-is-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "情報理工学院",
+      "department": "数理・計算科学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：情報理工学院 数理・計算科学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 50
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "数理・計算科学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/is/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "卒業研究、志望する研究分野や入学後の研究テーマ、さらに専門的知識等についての試問を行います。学部成績等の出願書類及び口述試験の結果を総合的に評価し、合否を判定します。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは出願時に提出してください。提出したスコアシートの差し替えはできません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 原表仅写从数学／计算机科学问题中选答数问，未虚构题数或更细范围。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-is-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "情報理工学院",
+      "department": "数理・計算科学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：情報理工学院 数理・計算科学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 50
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "数理・計算科学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/is/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "数学、計算機科学に関する複数の問題を出題します。そのうち数問の選択・解答を求めます。\n口頭試問：数学、計算機科学等の学力および研究能力に関する試問を行います。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは出願時に提出してください。提出したスコアシートの差し替えはできません。\n出題は日本語のみです。答案は日本語または英語で記述してください。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 原表仅写从数学／计算机科学问题中选答数问，未虚构题数或更细范围。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-cs-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "情報理工学院",
+      "department": "情報工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：情報理工学院 情報工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 52
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "情報工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/cs/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "卒業研究、志望する研究分野や入学後の研究テーマ、さらに専門的知識等についての試問を行います。\n学部成績等の出願書類及び口述試験の結果を総合的に評価し、合否を判定します。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートを必ず出願時に提出してください。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えも一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-cs-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "情報理工学院",
+      "department": "情報工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：情報理工学院 情報工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 52
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "情報工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/cs/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "以下の A 群、B 群、C 群から各 1 問、合計 3 問出題します。（150 分）\nA) 微積分学、線形代数学、確率統計\nB) 数理論理学、オートマトンと形式言語\nC) データ構造とアルゴリズム、プログラミング",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートを必ず出願時に提出してください。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えも一切認めません。また、スコアシートは返却しません。\n筆答専門試験では日本語で解答すること。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-bio-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "生命理工学院",
+      "department": "生命理工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：生命理工学院 生命理工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 55
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "生命理工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/bio/admissions/",
+          "kind": "page"
+        },
+        {
+          "label": "地球生命コース：通常系入試之外的履修・追加選考条件",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "専門的知識、英語力、学士論文研究等の内容及び修士課程での研究計画を中心とした試問。\n試験は日本語で行います。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは必ず出願時に提出してください。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 地球生命コース是一贯制修士／博士项目，另有独立条件条目；地球惑星科学系只有A日程合格者可选择该课程。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-bio-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "生命理工学院",
+      "department": "生命理工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：生命理工学院 生命理工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 55
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "生命理工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/bio/admissions/",
+          "kind": "page"
+        },
+        {
+          "label": "地球生命コース：通常系入試之外的履修・追加選考条件",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "専門科目：\n生化学 2 題、生物学 2 題、有機化学 2 題、物理化学 2 題の合計 8 題中 4 題選択し解答する。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは必ず出願時に提出してください。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 地球生命コース是一贯制修士／博士项目，另有独立条件条目；地球惑星科学系只有A日程合格者可选择该课程。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-arch-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "建築学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：環境・社会理工学院 建築学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 60
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "建築学系：口頭試問・ポートフォリオ・指導教員指定科目表（続き）",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 61
+        },
+        {
+          "label": "建築学系：指導教員指定科目表（続き）",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 62
+        },
+        {
+          "label": "建築学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/arch/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "専門的知識ならびに大学院における研究計画、持参した資料についての試問",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n・スコアシートは出願時に提出してください。出願受付締切後の提出は一切認めません。 一度提出したスコアシートの差し替えは一\n切認めません。また、スコアシートは原則として返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 专业科目选择必须符合所有志望教员共同指定科目；跨页教员表与作品集要求保留原页。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-arch-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "建築学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：環境・社会理工学院 建築学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 60
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "建築学系：口頭試問・ポートフォリオ・指導教員指定科目表（続き）",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 61
+        },
+        {
+          "label": "建築学系：指導教員指定科目表（続き）",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 62
+        },
+        {
+          "label": "建築学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/arch/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "共通科目：\n「建築計画」、「都市・まちづくり」、「建築構造・構造力学」、「建築環境・設備工学」、「建築材料・施工」、「建築歴史・意匠」の６分野より分野ごとに小問 2 問、計 12 問を出題 全問必答\n専門科目：出願時の指定により指導教員の指定する科目の内 1 科目を選択\nA：即日設計\nB：建築学科目\n「建築計画」、「都市・まちづくり」、「建築構造・構造力学」、「建築環境・設備工学」、「建築材料・施工」、「建築歴史・意匠(小論文)」の６分野より１分野を選択",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n・スコアシートは出願時に提出してください。出願受付締切後の提出は一切認めません。 一度提出したスコアシートの差し替えは一\n切認めません。また、スコアシートは原則として返却しません。\n選択する筆答専門試験科目には、あなたが志望する全ての指導教員が共通して指定している試験科目を選んでください。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 专业科目选择必须符合所有志望教员共同指定科目；跨页教员表与作品集要求保留原页。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-cv-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "土木・環境工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：環境・社会理工学院 土木・環境工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 63
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "土木・環境工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/cv/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "専門的知識ならびに大学院における研究計画について試問する。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは出願時に提出することを原則とします。ただし、A 日程口述試験の受験を希望しない場合は、7 月 29 日必着で土\n木・環境工学系【記載内容及び入試に関する問合わせ先】まで簡易書留郵便にて郵送してください。一度提出したスコアシートの\n差し替えは一切認めません。また、スコアシートは原則として返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-cv-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "土木・環境工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：環境・社会理工学院 土木・環境工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 63
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "土木・環境工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/cv/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "基礎科目（常微分方程式、線形代数、偏微分方程式、確率・統計）\n専門科目（構造力学、水理学、土質力学、コンクリート工学、土木計画学）",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは出願時に提出することを原則とします。ただし、A 日程口述試験の受験を希望しない場合は、7 月 29 日必着で土\n木・環境工学系【記載内容及び入試に関する問合わせ先】まで簡易書留郵便にて郵送してください。一度提出したスコアシートの\n差し替えは一切認めません。また、スコアシートは原則として返却しません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-tse-a",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "融合理工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ａ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：環境・社会理工学院 融合理工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 66
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2027年4月・2026年9月：融合理工学系オンライン面接の最新通知",
+          "url": "https://educ.titech.ac.jp/tse/admissions/file/20260702_tse_admissions_information.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "融合理工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/tse/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口述試験\n英語（英語外部試験）",
+      "scopeOriginal": "専門的知識及び学士論文・学士特定課題研究の内容等についての試問\n（口述試験で使用する言語は日本語・英語どちらでも可）",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n・スコアシートは出願時に提出してください。\n・出願受付締切後の提出は一切認めません。また、一度提出したスコアシートの差し替えは一切認めません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-tse-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "融合理工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：環境・社会理工学院 融合理工学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 66
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2027年4月・2026年9月：融合理工学系オンライン面接の最新通知",
+          "url": "https://educ.titech.ac.jp/tse/admissions/file/20260702_tse_admissions_information.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "融合理工学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/tse/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "午前（90 分）：問題 A\n以下の３科目から１科目選択\n物理：複数設問から選択解答\n化学・生物：複数設問から選択解答\n小論文・読解：全問解答\n午後（90 分）：問題 B\n以下の２科目から１科目選択\n数学：複数設問から選択解答\n数的推理：全問解答\n筆答試験への解答は日本語とします。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\n・スコアシートは出願時に提出してください。\n・出願受付締切後の提出は一切認めません。また、一度提出したスコアシートの差し替えは一切認めません。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 以2027年4月入学要项的上午問題A／下午問題B为准，不用旧通知互换标签。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-shs-b",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "社会・人間科学系",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（Ｂ日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年4月入学・2026年9月入学：環境・社会理工学院 社会・人間科学系 試験科目・内容",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 70
+        },
+        {
+          "label": "全般：Ａ／Ｂ日程の決定・選抜方法",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "全般：海外学历等の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "全般：外部英語試験の種類・スコアシート要件",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "社会・人間科学系 入学案内：追加・修正・通知",
+          "url": "https://educ.titech.ac.jp/shs/admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口頭試問\n英語（英語外部試験）",
+      "scopeOriginal": "修士課程で予定している学修や研究の目的・内容・計画、研究に関連する専門分野の基礎学力、研究を遂行するうえでの問題解決力やビジョンについて質疑応答を行います。",
+      "conditionsOriginal": "Ａ日程とＢ日程のいずれの受験資格者になるかは系等が出願書類によって決定し、7 月 2 日（木）正午 12 時頃にインターネット出願サイトのマイページに通知します。志願者は選択できません。\nTOEIC L&R\nTOEFL iBT\nTOEFL iBT Home Edition\nTOEFL-ITPやTOEIC-IP等の団体特別受験制度による試験は有効ではありません。\nスコアシートは必ず出願時に提出してください。出願受付締切後の提出は一切認めません。\n一度提出したスコアシートの差し替えは一切認めません。また、スコアシートは返却しません。\n出願書類をもとに評価し、口頭試問受験資格者を選抜する可能性があります。\n筆答試験 実施しません\n試験はオンラインにて、日本語で行います。",
+      "internationalGeneral": true,
+      "editorialNote": "官方组织名称为「学院／系」，按系实施入试。A／B由学校决定，不能自行选择；本条适用2027年4月入学，对应2026年夏季实施的通常修士选拔，不表示仍在报名。完整科目、选答、配点、口述／口头试问与外语提交条件保留在官方对应页，不补写未公布的范围或门槛。 本系不实施A日程。",
+      "degreeProgram": "master"
+    },
+    {
+      "id": "science-eps-earth-life",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "地球惑星科学系",
+      "admissionType": "general",
+      "selectionName": "修士課程・博士後期課程一貫プログラム 地球生命コース",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度 地球生命コース：地球惑星科学系 選抜方式・履修条件",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "地球惑星科学系 通常修士入試：基礎となる選抜試験",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "通常修士入試：出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "conditionsOriginal": "地球生命コースは，修士課程・博士後期課程一貫プログラム（博士後期課程への進学を前提とした修士課程のプログラム）である．\n地球生命コースを履修するためには A 日程試験で合格する必要がある.地球生命コースを主担当とする２名\nの教員(Hernlund，玄田)を第 1 志望とする者は，地球生命コース，地球惑星科学コースのいずれも履修を希\n望することができる.地球生命コースを主担当とする 3 名の教員(関根，Melwani Daswani，Martin-Torres)を第\n1 志望とする者は，地球生命コースのみ履修を希望することができる.地球生命コースの履修を希望する場合\nには，出願者は出願の前に，第 1 志望の指導教員と予め相談してから出願し，その希望する理由を志望理\n由書に記載のこと.",
+      "internationalGeneral": true,
+      "course": "地球生命コース",
+      "degreeProgram": "integrated",
+      "editorialNote": "此条是进入地球生命一贯制课程的追加／履修条件，不能把英语选考单独当作通常修士入试或忽略所属系的基础选拔。地球惑星科学系须A日程合格；生命理工学／応用化学以学部与大学院入试成绩综合判断，并可另行实施英语选考。此课程以博士后期进学为前提。"
+    },
+    {
+      "id": "science-bio-earth-life",
+      "universityId": "science-tokyo",
+      "graduateSchool": "生命理工学院",
+      "department": "生命理工学系",
+      "admissionType": "general",
+      "selectionName": "修士課程・博士後期課程一貫プログラム 地球生命コース",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度 地球生命コース：生命理工学系 選抜方式・履修条件",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "生命理工学系 通常修士入試：基礎となる選抜試験",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 55
+        },
+        {
+          "label": "通常修士入試：出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "conditionsOriginal": "地球生命コースは，修士課程・博士後期課程一貫プログラム（博士後期課程への進学を前提とした修士課程のプログラム）である．\n地球生命コースを主担当とする教員（松浦，藤島，McGlynn）を第一志望とする者は，地球生命コース，生命\n理工学コースのいずれも履修を希望することができる．地球生命コースの履修を希望する場合には，出願者\nは出願の前に，第 1 志望の指導教員と予め相談してから出願し，希望するコースとその理由を志望理由書に\n記載のこと．学部および大学院入試の成績を総合的に判断し，必要に応じて，別途英語による選考会を実施\nし，本コースの履修の可否を決定する．選考会においては，博士後期課程への進学の意思の確認，専門的\n知識，英語力，学士論文研究等の内容及び修士課程での研究計画を中心とした試問を行う．",
+      "internationalGeneral": true,
+      "course": "地球生命コース",
+      "degreeProgram": "integrated",
+      "editorialNote": "此条是进入地球生命一贯制课程的追加／履修条件，不能把英语选考单独当作通常修士入试或忽略所属系的基础选拔。地球惑星科学系须A日程合格；生命理工学／応用化学以学部与大学院入试成绩综合判断，并可另行实施英语选考。此课程以博士后期进学为前提。"
+    },
+    {
+      "id": "science-cap-earth-life",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "応用化学系",
+      "admissionType": "general",
+      "selectionName": "修士課程・博士後期課程一貫プログラム 地球生命コース",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "ja",
+      "sources": [
+        {
+          "label": "2027年度 地球生命コース：応用化学系 選抜方式・履修条件",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "応用化学系 通常修士入試：基礎となる選抜試験",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 46
+        },
+        {
+          "label": "通常修士入試：出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3176&contentsId=&contentsDataId=&prevId=&key=8abbc5a7699f4e7ac9984fc481dab614.pdf&fileName=2027_4_2026_9_master",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ],
+      "conditionsOriginal": "地球生命コースは，修士課程・博士後期課程一貫プログラム（博士後期課程への進学を前提とした修士課程のプログラム）である．\n地球生命コースを主担当もしくは副担当とする教員（中村，大河内，Park）を第一志望とする者は，地球生命\nコース，応用化学コースのいずれも履修を希望することができる．地球生命コースの履修を希望する場合に\nは，出願者は出願の前に，第 1 志望の指導教員と予め相談してから出願し，その希望する理由を志望理由\n書に記載のこと．学部および大学院入試の成績を総合的に判断し，必要に応じて，別途英語による選考会を\n実施し，本コースの履修の可否を決定する．選考会においては，博士後期課程への進学の意思の確認，専\n門的知識，英語力，学士論文研究等の内容及び修士課程での研究計画を中心とした試問を行う．",
+      "internationalGeneral": true,
+      "course": "地球生命コース",
+      "degreeProgram": "integrated",
+      "editorialNote": "此条是进入地球生命一贯制课程的追加／履修条件，不能把英语选考单独当作通常修士入试或忽略所属系的基础选拔。地球惑星科学系须A日程合格；生命理工学／応用化学以学部与大学院入试成绩综合判断，并可另行实施英语选考。此课程以博士后期进学为前提。"
+    },
+    {
+      "id": "science-phys-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "物理学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-eps-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "地球惑星科学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-mech-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "機械系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-sc-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "システム制御系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-ee-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-ict-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "情報通信系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-iee-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "経営工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-mat-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "材料系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-cap-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "応用化学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-is-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "情報理工学院",
+      "department": "数理・計算科学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-cs-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "情報理工学院",
+      "department": "情報工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-bio-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "生命理工学院",
+      "department": "生命理工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-arch-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "建築学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-cv-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "土木・環境工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-tse-igpc-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "融合理工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Master’s Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。"
+    },
+    {
+      "id": "science-eps-igpc-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "地球惑星科学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Integrated Doctoral Education Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        },
+        {
+          "label": "IGP(C): 一貫制仅限Graduate Major in Earth-Life Science",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "地球生命コース：一貫制课程性质（日本語）",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "地球生命コース / Graduate Major in Earth-Life Science"
+    },
+    {
+      "id": "science-cap-igpc-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "応用化学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Integrated Doctoral Education Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        },
+        {
+          "label": "IGP(C): 一貫制仅限Graduate Major in Earth-Life Science",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "地球生命コース：一貫制课程性质（日本語）",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "地球生命コース / Graduate Major in Earth-Life Science"
+    },
+    {
+      "id": "science-bio-igpc-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "生命理工学院",
+      "department": "生命理工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (C) — Integrated Doctoral Education Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(C) Spring 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "IGP(C): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(C): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(C): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(C): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(C): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering/igp-c",
+          "kind": "page"
+        },
+        {
+          "label": "IGP(C): 一貫制仅限Graduate Major in Earth-Life Science",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=5837&contentsId=&contentsDataId=&prevId=&key=8c14c37a165da34e08cbe525e60a22ba.pdf&fileName=Application%20Guide_IGP%28C%29_2027%20spring",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "地球生命コース：一貫制课程性质（日本語）",
+          "url": "https://education.elsi.ifs.isct.ac.jp/admission2027_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an online interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(C)适用2027年4月入学；数学、化学、社会・人間科学本次仅招博士，未建立这些系的IGP(C)修士条目。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "地球生命コース / Graduate Major in Earth-Life Science"
+    },
+    {
+      "id": "science-math-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "International Graduate Program in Science for Fostering Innovative Leaders in Quantum Technology (PSIL)"
+    },
+    {
+      "id": "science-phys-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "物理学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "International Graduate Program in Science for Fostering Innovative Leaders in Quantum Technology (PSIL)"
+    },
+    {
+      "id": "science-chem-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "化学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "International Graduate Program in Science for Fostering Innovative Leaders in Quantum Technology (PSIL)"
+    },
+    {
+      "id": "science-eps-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "理学院",
+      "department": "地球惑星科学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "International Graduate Program in Science for Fostering Innovative Leaders in Quantum Technology (PSIL)"
+    },
+    {
+      "id": "science-mech-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "機械系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Interdisciplinary program for super-smart society (IPSSS)"
+    },
+    {
+      "id": "science-sc-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "システム制御系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Interdisciplinary program for super-smart society (IPSSS)"
+    },
+    {
+      "id": "science-ee-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Interdisciplinary program for super-smart society (IPSSS)"
+    },
+    {
+      "id": "science-ict-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "情報通信系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Interdisciplinary program for super-smart society (IPSSS)"
+    },
+    {
+      "id": "science-iee-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "工学院",
+      "department": "経営工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Interdisciplinary program for super-smart society (IPSSS)"
+    },
+    {
+      "id": "science-mat-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "材料系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Graduate Program to Foster Global Leaders for the Development of Materials with Innovative Functions (eMAT)"
+    },
+    {
+      "id": "science-cap-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "物質理工学院",
+      "department": "応用化学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Graduate Program to Foster Global Leaders for the Development of Materials with Innovative Functions (eMAT)"
+    },
+    {
+      "id": "science-bio-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "生命理工学院",
+      "department": "生命理工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Graduate Program to Foster Global Leaders for Sustainable Bio-Economy"
+    },
+    {
+      "id": "science-arch-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "建築学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Postgraduate Program for Environmental Designers Contributing to Resilient Cities"
+    },
+    {
+      "id": "science-arch-igpa-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "建築学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Master’s Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。",
+      "course": "Postgraduate Program for Environmental Designers Contributing to Resilient Cities"
+    },
+    {
+      "id": "science-cv-igpa-md",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "土木・環境工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Integrated Doctoral Education Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "integrated",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。 此条为修士＋博士一贯制，需从修士阶段入学，不能称作独立两年修士项目。",
+      "course": "Postgraduate Program for Environmental Designers Contributing to Resilient Cities"
+    },
+    {
+      "id": "science-cv-igpa-m",
+      "universityId": "science-tokyo",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "土木・環境工学系",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program (A) — Master’s Program",
+      "entryYear": "2027年秋",
+      "verifiedAt": "2026-10-05",
+      "originalLanguage": "en",
+      "sources": [
+        {
+          "label": "IGP(A) Fall 2027: admissions process・interview/examination",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "IGP(A): participating departments・M／D／M+D募集区分",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "IGP(A): Master’s／Integrated Doctoral Education Program",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IGP(A): 修士・一貫制の出願資格",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "IGP(A): consent letter・application documents",
+          "url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=6209&contentsId=&contentsDataId=&prevId=&key=dc9a7fe9209122106ae26a29bf81b85e.pdf&fileName=Application%20Guide_IGP%28A%29_2027%20fall",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP(A): latest application guide・official department table",
+          "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Interviews and/or examinations in English take place",
+      "scopeOriginal": "Interviews and examinations are conducted in English and may include oral questioning or problem-solving exercises to assess applicants’ subject knowledge and academic ability. The format and content vary by department.",
+      "conditionsOriginal": "Interviews and examinations are held online in principle but may be conducted in person depending on the applicant’s place of residence.\nThe admission decision will be made based on the application documents and screening and interview processes including an internet-based interview.",
+      "degreeProgram": "master",
+      "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。",
+      "course": "Postgraduate Program for Environmental Designers Contributing to Resilient Cities"
     }
   ]
 };
