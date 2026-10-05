@@ -215,3 +215,11 @@ button, a, input, select { -webkit-tap-highlight-color: #e9c5b566; }
 }
 
 .hero h1, .scope-hero h1, .practice-intro h1, .section-heading h2, .about h2, .topic-card h3, .scope-section-heading h2, .scope-reading h2, .scope-detail h3, .question-card h2 { font-family: var(--serif); }
+
+/* Keep the right-hand school list level with the left filter panel. */
+@media (min-width: 701px) {
+  .scope-results {
+    height: var(--scope-results-height, 32rem);
+    max-height: var(--scope-results-height, 32rem);
+  }
+}
