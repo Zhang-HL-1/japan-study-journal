@@ -32,11 +32,11 @@ function boot(records=[]) {
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
-test('school filters switch all five coverage notes and unmatched results remain usable',async()=>{
+test('school filters switch all six coverage notes and unmatched results remain usable',async()=>{
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学与東京理科大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学与大阪大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);
@@ -53,6 +53,20 @@ test('school filters switch all five coverage notes and unmatched results remain
  assert.match(a.ids['scope-empty-copy'].textContent,/清除筛选/);
  await a.ids['scope-empty-reset'].click();
  assert.equal(a.ids['scope-results'].children.length,generalCount);
+});
+test('Osaka school and admission filters show the valid records and open the winter original page',async()=>{
+ const a=boot(catalog.records);await school(a,'osaka').click();
+ assert.equal(a.ids['scope-graduate'].options.length,5);
+ assert.equal(a.ids['scope-results'].children.length,38);
+ assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.osaka.note);
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,83);
+ assert.ok(!a.ids['scope-results'].children.some(e=>e.dataset.id==='osaka-eng-environment-general'));
+ const entry=a.ids['scope-results'].children.find(e=>e.dataset.id==='osaka-eng-environment-foreign-winter');assert.ok(entry);await entry.click();
+ const record=catalog.records.find(r=>r.id===entry.dataset.id);
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===record.subjectsOriginal&&e.lang==='ja'));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');
+ await source.children.find(e=>e.tag==='button').click();
+ assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=4'));
 });
 test('Science Tokyo original elective scope opens its actual PDF page and English programs retain degree labels',async()=>{
  const a=boot(catalog.records);await school(a,'science-tokyo').click();

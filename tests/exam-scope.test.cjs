@@ -11,9 +11,9 @@ const makeRecord = overrides => ({ id: 'qa-general', universityId: 'fixture', ad
   sources: [{ label: 'Official fixture URL', kind: 'pdf', url: 'https://www.t.u-tokyo.ac.jp/fixture.pdf', pdfPage: 3 }], ...overrides });
 const initial = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', entryYear: 'all', query: '' };
 
-test('all five university catalogs have unique validated records and clear pending entry rules', () => {
-  assert.equal(data.universities.length, 5);
-  assert.equal(new Set(data.universities.map(u => u.id)).size, 5);
+test('all six university catalogs have unique validated records and clear pending entry rules', () => {
+  assert.equal(data.universities.length, 6);
+  assert.equal(new Set(data.universities.map(u => u.id)).size, 6);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
   assert.ok(data.records.every(record => core.validRecord(record, data.universities)));
@@ -23,6 +23,7 @@ test('all five university catalogs have unique validated records and clear pendi
   assert.equal(new Set(data.records.filter(record => record.universityId === 'waseda').map(record => record.graduateSchool)).size, 5);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'tus').map(record => record.graduateSchool)).size, 5);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'science-tokyo').map(record => record.graduateSchool)).size, 6);
+  assert.equal(new Set(data.records.filter(record => record.universityId === 'osaka').map(record => record.graduateSchool)).size, 4);
   const pending = data.records.filter(record => ['pending', 'unverified'].includes(record.publicationStatus));
   assert.ok(pending.every(record => !record.subjectsOriginal && !record.scopeOriginal && record.editorialNote));
   for (const record of data.records) for (const source of record.sources) {
@@ -30,6 +31,56 @@ test('all five university catalogs have unique validated records and clear pendi
   }
   assert.ok(core.filter(data.records, data.universities, initial).length);
   assert.ok(core.filter(data.records, data.universities, { ...initial, admissionType: 'international' }).length);
+});
+test('Osaka keeps actual seasonal routes and the distinct winter subjects', () => {
+  const records = data.records.filter(record => record.universityId === 'osaka');
+  const find = id => records.find(record => record.id === 'osaka-' + id);
+  assert.equal(records.length, 108);
+  assert.equal(new Set(records.map(record => record.graduateSchool + '/' + record.department)).size, 20);
+  const winter = records.filter(record => record.graduateSchool === '工学研究科' && record.selectionName === '外国人留学生特別選抜（冬季入学試験）');
+  assert.equal(winter.length, 5);
+  assert.match(find('eng-environment-foreign-summer').subjectsOriginal, /小論文/);
+  assert.doesNotMatch(find('eng-environment-foreign-winter').subjectsOriginal, /小論文/);
+  assert.match(find('eng-ap-foreign-winter').scopeOriginal, /微分方程式/);
+  assert.match(find('eng-ap-foreign-summer').scopeOriginal, /解析学/);
+  assert.ok(!find('eng-ee-english-october-winter'));
+  assert.ok(!find('eng-earth-english-october-winter'));
+  assert.ok(!find('eng-mech-english-october-spring'));
+  assert.ok(find('eng-ee-english-october-spring'));
+  assert.ok(find('eng-mech-english-october-winter'));
+  assert.match(find('eng-phys-english-october-spring').editorialNote, /Department of Applied Physics/);
+  assert.ok(records.filter(record => record.graduateSchool === '工学研究科' && record.admissionType === 'general').every(record => !core.matchesAdmission(record, 'international')));
+  assert.equal(core.sourceURL({url:'https://www.eng.osaka-u.ac.jp/a.pdf',kind:'pdf',pdfPage:4}), 'https://www.eng.osaka-u.ac.jp/a.pdf#page=4');
+  assert.equal(core.sourceURL({url:'https://osaka-u.ac.jp.example.com/a.pdf',kind:'pdf',pdfPage:4}), null);
+});
+test('Osaka retains the 2027 reorganization, cross-field choice and independent special selection conditions', () => {
+  const records = data.records.filter(record => record.universityId === 'osaka');
+  const find = id => records.find(record => record.id === 'osaka-' + id);
+  assert.deepEqual([...new Set(records.filter(record => record.graduateSchool === '情報科学研究科').map(record => record.department))].sort(), ['情報基礎数学専攻','情報科学専攻'].sort());
+  assert.match(find('ist-information-general').scopeOriginal, /以下の5科目から2科目選択/);
+  assert.match(find('ist-information-general').scopeOriginal, /必須問題.*1 アルゴリズムとプログラミング／2 計算機システム/s);
+  assert.match(find('ist-math-general').subjectsOriginal, /数学、英語/);
+  assert.match(find('ist-math-general').conditionsOriginal, /提出する必要はありません/);
+  assert.ok(!find('ist-information-foreign-winter').scopeOriginal);
+  assert.ok(!find('ist-math-english'));
+  assert.match(find('es-materials-general').conditionsOriginal, /志望専攻領域に関係なく/);
+  assert.match(find('es-materials-general').scopeOriginal, /３問すべてを解答/);
+  assert.match(find('es-materials-general').scopeOriginal, /３問から２問を選択/);
+  assert.ok(!find('es-materials-foreign').scopeOriginal);
+  assert.match(find('es-materials-foreign').editorialNote, /研究生.*N1／N2/);
+  assert.equal(find('es-materials-english-april').degreeProgram, 'master');
+});
+test('Osaka Science separates the second admission and the master columns of English programs', () => {
+  const find = id => data.records.find(record => record.id === 'osaka-' + id);
+  assert.match(find('sci-earth-general').subjectsOriginal, /物理/);
+  assert.match(find('sci-earth-second').subjectsOriginal, /口頭試問/);
+  assert.doesNotMatch(find('sci-earth-second').subjectsOriginal, /物理|筆記/);
+  assert.equal(find('sci-biology-second-notice').publicationStatus, 'notice');
+  assert.ok(!find('sci-biology-second-notice').subjectsOriginal && !find('sci-biology-second-notice').scopeOriginal);
+  assert.match(find('sci-physics-ipc').scopeOriginal, /classical mechanics.*quantum mechanics/);
+  assert.match(find('sci-chemistry-sisc').subjectsOriginal, /paper-based tests/);
+  assert.equal(find('sci-chemistry-sisc').degreeProgram, 'master');
+  assert.ok(find('sci-math-general').sources.some(source => source.url.endsWith('01.MC202704youkou-new.pdf')));
 });
 test('Science Tokyo distinguishes A and B schedules, English examinations, electives and Earth-Life admission conditions', () => {
   const records = data.records.filter(record => record.universityId === 'science-tokyo');

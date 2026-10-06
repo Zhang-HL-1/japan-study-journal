@@ -1,4 +1,4 @@
-/* 東京大学核验日期 2026-10-03；京都大学、早稲田大学、東京理科大学核验日期 2026-10-04；東京科学大学核验日期 2026-10-05。官方原文与对应PDF页保留，选拔与学位区分分别标明。 */
+/* 東京大学核验日期 2026-10-03；京都大学、早稲田大学、東京理科大学核验日期 2026-10-04；東京科学大学核验日期 2026-10-05。大阪大学核验日期2026-10-06。官方原文与对应PDF页保留，选拔与学位区分分别标明。 */
 (function (root) {
   'use strict';
   const data = {
@@ -46,6 +46,16 @@
         "東理",
         "东京理科大学"
       ]
+    },
+    {
+      "id": "osaka",
+      "name": "大阪大学",
+      "aliases": [
+        "阪大",
+        "大阪大",
+        "Osaka University",
+        "The University of Osaka"
+      ]
     }
   ],
   "catalog": {
@@ -72,7 +82,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学与東京理科大学的修士及修士相关选拔资料。使用学校、研究科／学院、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学与大阪大学的修士及修士相关选拔资料。使用学校、研究科／学院、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -109,6 +119,17 @@
         "環境・社会理工学院"
       ],
       "note": "東京科学大学：已收录理工学系六个学院、18个系，共70条科目／选考与课程条件：通常修士一般入试33条（A／B分别保存）、地球生命一贯制课程条件3条，以及IGP(C)2027年4月／IGP(A)2027年秋34条英语项目入口。修士与修士＋博士一贯制分别标明；仅招博士的系／项目未作为修士添加。数学系有校内英语笔试，社会・人間科学系无专业笔答，具体范围与例外保留官方对应页。通常修士资料适用2027年4月入学，不表示仍在报名。"
+    },
+    "osaka": {
+      "verifiedAt": "2026-10-06",
+      "degree": "博士前期課程（修士）",
+      "graduateSchools": [
+        "工学研究科",
+        "基礎工学研究科",
+        "情報科学研究科",
+        "理学研究科"
+      ],
+      "note": "大阪大学：已核对四个研究科、20个专攻，共108条资料。一般／外国人特别选拔／英语学位课程分别保存；工学一般选拔不接受留学生，冬季修士特选仅5课程实施。情報科学研究科采用2027年改组后的2专攻全称；理学宇宙地球第2次与合同第1次分开，生物科学第2次完整要项待公布。英语项目仅提取修士；未明示统一考纲的选拔保留官方说明，不套用一般笔试范围。"
     }
   },
   "records": [
@@ -13413,6 +13434,4549 @@
       "degreeProgram": "master",
       "editorialNote": "英语项目按本次官方募集表核对学位区分；不套用一般入试A／B的笔试科目、题数或外语成绩规则。面试／考试的具体方式和内容依系／志望教员通知，完整资格与材料要求阅读官方原页。 IGP(A)适用2027年秋入学，未擅自改写为具体月份。",
       "course": "Postgraduate Program for Environmental Designers Contributing to Resilient Cities"
+    },
+    {
+      "id": "osaka-eng-bio-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "生物工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "生物工学コース",
+      "subjectsOriginal": "専門科目：生物工学Ⅰ、生物工学Ⅱ\n口頭試問",
+      "scopeOriginal": "生物工学Ⅰ：［基礎生物化学、生物化学工学］1科目選択\n生物工学Ⅱ：生物化学・分子細胞生物学・微生物学",
+      "conditionsOriginal": "生物化学工学：本学工学部応用自然科学科応用生物工学科目応用生物工学コース在籍生、又は同コース卒業生は必修\n※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-bio-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "生物工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "生物工学コース",
+      "subjectsOriginal": "専門科目：生物工学Ⅰ、生物工学Ⅱ\n口頭試問",
+      "scopeOriginal": "生物工学Ⅰ：［基礎生物化学、生物化学工学］1科目選択\n生物工学Ⅱ：生物化学・分子細胞生物学・微生物学",
+      "conditionsOriginal": "生物化学工学：本学工学部応用自然科学科応用生物工学科目応用生物工学コース在籍生、又は同コース卒業生は必修",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-chem-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "応用化学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "外国語：専門英語\n専門科目：化学Ⅰ（必修）、化学Ⅱ\n口頭試問",
+      "scopeOriginal": "化学Ⅱ（試験時に問題を選択（願書に記入不要））",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-chem-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "応用化学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "外国語：専門英語\n専門科目：化学Ⅰ（必修）、化学Ⅱ\n口頭試問",
+      "scopeOriginal": "化学Ⅱ（試験時に問題を選択（願書に記入不要））",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-precision-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "精密工学コース",
+      "subjectsOriginal": "専門科目：数学、物理学\n口頭試問",
+      "scopeOriginal": "（力学、熱・統計力学、量子力学、電磁気学）から3科目選択\n（材料力学、光学、固体物性）から1科目選択",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-precision-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "精密工学コース",
+      "subjectsOriginal": "専門科目：数学、物理学\n口頭試問",
+      "scopeOriginal": "（力学、熱・統計力学、量子力学、電磁気学）から3科目選択\n（材料力学、光学、固体物性）から1科目選択",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-ap-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "応用物理学コース",
+      "subjectsOriginal": "数学\n論述問題\n口頭試問",
+      "scopeOriginal": "数学：線形代数、解析学など大学基礎レベル\n論述問題：論理的思考力や解析力を問う内容",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-ap-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "応用物理学コース",
+      "subjectsOriginal": "数学\n論述問題\n口頭試問",
+      "scopeOriginal": "数学：線形代数、解析学など大学基礎レベル\n論述問題：論理的思考力や解析力を問う内容",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-mech-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "機械工学コース",
+      "subjectsOriginal": "力学と機械力学\n数学\n専門科目：材料力学、熱力学、流体力学、制御工学\n口頭試問",
+      "scopeOriginal": "力学と機械力学：質点の力学、質点系の力学、剛体の力学、多自由度振動系の力学、回転機械の力学\n数学：線形代数、微積分、微分方程式、複素関数論、ベクトル解析、フーリエ解析、確率・統計\n専門科目：（1）～（4）を45分ずつで解答",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-mech-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "機械工学コース",
+      "subjectsOriginal": "力学と機械力学\n数学\n専門科目：材料力学、熱力学、流体力学、制御工学\n口頭試問",
+      "scopeOriginal": "力学と機械力学：質点の力学、質点系の力学、剛体の力学、多自由度振動系の力学、回転機械の力学\n数学：線形代数、微積分、微分方程式、複素関数論、ベクトル解析、フーリエ解析、確率・統計\n専門科目：（1）～（4）を45分ずつで解答",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-materials-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "マテリアル科学コース",
+      "subjectsOriginal": "数学\n専門科目\n口頭試問",
+      "scopeOriginal": "数学：線形代数、微分・積分、フーリエ解析、複素関数、微分方程式、確率・統計\n専門科目：熱力学、材料組織学、材料強度学、材料の力学、固体物性論、化学反応論・輸送現象論",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-materials-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "マテリアル科学コース",
+      "subjectsOriginal": "数学\n専門科目\n口頭試問",
+      "scopeOriginal": "数学：線形代数、微分・積分、フーリエ解析、複素関数、微分方程式、確率・統計\n専門科目：熱力学、材料組織学、材料強度学、材料の力学、固体物性論、化学反応論・輸送現象論",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-manufacturing-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "生産科学コース",
+      "subjectsOriginal": "数学\n専門科目：金属・無機材料学、電気・電子工学、材料力学\n口頭試問",
+      "scopeOriginal": "数学：線形代数、微分・積分、フーリエ解析、複素関数、微分方程式、確率・統計\n金属・無機材料学：材料熱力学、材料物理学、金属組織学、金属材料学、無機材料学など\n電気・電子工学：直流・交流回路、過渡現象、半導体工学、論理回路、電子回路など\n材料力学：応力とひずみ、一般化されたフックの法則、はりの変形、円筒、熱応力など",
+      "conditionsOriginal": "（1）～（3）の内2科目を選択し、入学願書に記入\n※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-manufacturing-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "生産科学コース",
+      "subjectsOriginal": "数学\n専門科目：金属・無機材料学、電気・電子工学、材料力学\n口頭試問",
+      "scopeOriginal": "数学：線形代数、微分・積分、フーリエ解析、複素関数、微分方程式、確率・統計\n金属・無機材料学：材料熱力学、材料物理学、金属組織学、金属材料学、無機材料学など\n電気・電子工学：直流・交流回路、過渡現象、半導体工学、論理回路、電子回路など\n材料力学：応力とひずみ、一般化されたフックの法則、はりの変形、円筒、熱応力など",
+      "conditionsOriginal": "（1）～（3）の内2科目を選択",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-electrical-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "電気工学コース",
+      "subjectsOriginal": "数学・専門科目\n口頭試問",
+      "scopeOriginal": "（1）数学：線形代数、微分方程式、複素関数論、フーリエ解析、ラプラス変換（3題出題）\n（2）電磁理論：静電界、静磁界、時間的に変化する電磁界の基礎、電磁界中の荷電粒子の運動（2題出題）\n（3）電気電子回路：線形回路の定常解析、線形回路の過渡解析、回路理論の諸定理、電子回路の基礎（増幅回路、フィルタ回路）（2題出題）",
+      "conditionsOriginal": "（1）数学3題、（2）電磁理論及び（3）電気電子回路から試験時に選択した2題、合計5題を解答\n※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-electrical-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "電気工学コース",
+      "subjectsOriginal": "数学・専門科目\n口頭試問",
+      "scopeOriginal": "（1）数学：線形代数、微分方程式、複素関数論、フーリエ解析、ラプラス変換（3題出題）\n（2）電磁理論：静電界、静磁界、時間的に変化する電磁界の基礎、電磁界中の荷電粒子の運動（2題出題）\n（3）電気電子回路：線形回路の定常解析、線形回路の過渡解析、回路理論の諸定理、電子回路の基礎（増幅回路、フィルタ回路）（2題出題）",
+      "conditionsOriginal": "（1）数学3題、（2）電磁理論及び（3）電気電子回路から試験時に選択した2題、合計5題を解答",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-ict-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "情報通信工学コース",
+      "subjectsOriginal": "数学・専門科目\n口頭試問",
+      "scopeOriginal": "（1）数学：線形代数、微分方程式、複素関数論、フーリエ解析、ラプラス変換（3題出題）\n（2）電磁理論：静電界、静磁界、時間的に変化する電磁界の基礎、電磁界中の荷電粒子の運動（2題出題）\n（3）電気電子回路：線形回路の定常解析、線形回路の過渡解析、回路理論の諸定理、電子回路の基礎（増幅回路、フィルタ回路）（2題出題）\n（4）情報理論（1題出題）\n（5）データ構造とアルゴリズム（1題出題）",
+      "conditionsOriginal": "（1）～（5）から5題を試験時に選択し解答\n※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-ict-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "情報通信工学コース",
+      "subjectsOriginal": "数学・専門科目\n口頭試問",
+      "scopeOriginal": "（1）数学：線形代数、微分方程式、複素関数論、フーリエ解析、ラプラス変換（3題出題）\n（2）電磁理論：静電界、静磁界、時間的に変化する電磁界の基礎、電磁界中の荷電粒子の運動（2題出題）\n（3）電気電子回路：線形回路の定常解析、線形回路の過渡解析、回路理論の諸定理、電子回路の基礎（増幅回路、フィルタ回路）（2題出題）\n（4）情報理論（1題出題）\n（5）データ構造とアルゴリズム（1題出題）",
+      "conditionsOriginal": "（1）～（5）から5題を試験時に選択し解答",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-quantum-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "量子情報エレクトロニクスコース",
+      "subjectsOriginal": "数学・専門科目\n口頭試問",
+      "scopeOriginal": "（1）数学：線形代数、微分方程式、複素関数論、フーリエ解析、ラプラス変換（3題出題）\n（2）電磁理論：静電界、静磁界、時間的に変化する電磁界の基礎、電磁界中の荷電粒子の運動（2題出題）\n（3）電気電子回路：線形回路の定常解析、線形回路の過渡解析、回路理論の諸定理、電子回路の基礎（増幅回路、フィルタ回路）（2題出題）",
+      "conditionsOriginal": "（1）数学3題、（2）電磁理論及び（3）電気電子回路から試験時に選択した2題、合計5題を解答\n※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-quantum-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "量子情報エレクトロニクスコース",
+      "subjectsOriginal": "数学・専門科目\n口頭試問",
+      "scopeOriginal": "（1）数学：線形代数、微分方程式、複素関数論、フーリエ解析、ラプラス変換（3題出題）\n（2）電磁理論：静電界、静磁界、時間的に変化する電磁界の基礎、電磁界中の荷電粒子の運動（2題出題）\n（3）電気電子回路：線形回路の定常解析、線形回路の過渡解析、回路理論の諸定理、電子回路の基礎（増幅回路、フィルタ回路）（2題出題）",
+      "conditionsOriginal": "（1）数学3題、（2）電磁理論及び（3）電気電子回路から試験時に選択した2題、合計5題を解答",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-environment-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "環境エネルギー工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 28
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "環境工学コース",
+      "subjectsOriginal": "小論文\n基礎科目\n専門科目：環境工学\n口頭試問",
+      "scopeOriginal": "基礎科目：（1）～（3）の内1科目を試験時に選択\n（1）数学：解析学、線形代数学、確率・統計\n（2）物理：力学の基本法則、熱力学の基本法則、電磁気学の基本法則\n（3）化学：物理化学の基礎、無機化学の基礎\n環境工学：（都市計画、土木建築情報学、水環境の科学と水質工学、大気科学、都市エネルギーシステム、環境システム）から6題出題\n（ ）内から2題を試験時に選択",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-environment-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "環境エネルギー工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "環境工学コース",
+      "subjectsOriginal": "小論文\n基礎科目\n専門科目：環境工学\n口頭試問",
+      "scopeOriginal": "基礎科目：（1）～（3）の内1科目を試験時に選択\n（1）数学：解析学、線形代数学、確率・統計\n（2）物理：力学の基本法則、熱力学の基本法則、電磁気学の基本法則\n（3）化学：物理化学の基礎、無機化学の基礎\n環境工学：（都市計画、土木建築情報学、水環境の科学と水質工学、大気科学、都市エネルギーシステム、環境システム）から6題出題\n（ ）内から2題を試験時に選択",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-energy-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "環境エネルギー工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 28
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "エネルギー量子工学コース",
+      "subjectsOriginal": "基礎科目：数学、物理、化学\n口頭試問",
+      "scopeOriginal": "数学：（解析学、線形代数学、確率・統計）より出題される3題から2題選択\n物理：（力学の基本法則、熱力学の基本法則、電磁気学の基本法則）より出題される3題から2題選択\n化学：（物理化学の基礎、無機化学の基礎）より出題される3題から2題選択",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-energy-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "環境エネルギー工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "エネルギー量子工学コース",
+      "subjectsOriginal": "基礎科目：数学、物理、化学\n口頭試問",
+      "scopeOriginal": "数学：（解析学、線形代数学、確率・統計）より出題される3題から2題選択\n物理：（力学の基本法則、熱力学の基本法則、電磁気学の基本法則）より出題される3題から2題選択\n化学：（物理化学の基礎、無機化学の基礎）より出題される3題から2題選択",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-naval-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 28
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "船舶海洋工学コース",
+      "subjectsOriginal": "基礎科目：数学、力学\n専門科目：材料力学、流体力学\n口頭試問",
+      "scopeOriginal": "数学：線形代数、微積分、ベクトル解析、フーリエ解析、ラプラス変換、複素関数、確率・統計\n力学：質点・質点系の力学、剛体の力学、多自由度振動系の力学\n材料力学：応力とひずみ、棒の伸縮、丸棒のねじり、はりの曲げ、座屈、二次元応力状態、エネルギ法\n流体力学：非圧縮性流体の流れ（質量保存則、運動量保存則、粘性流れ、管内流れ、境界層、渦糸、ポテンシャル流れ、等角写像、二次元翼理論）",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-naval-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "船舶海洋工学コース",
+      "subjectsOriginal": "基礎科目：数学、力学\n専門科目：材料力学、流体力学\n口頭試問",
+      "scopeOriginal": "数学：線形代数、微積分、ベクトル解析、フーリエ解析、ラプラス変換、複素関数、確率・統計\n力学：質点・質点系の力学、剛体の力学、多自由度振動系の力学\n材料力学：応力とひずみ、棒の伸縮、丸棒のねじり、はりの曲げ、座屈、二次元応力状態、エネルギ法\n流体力学：非圧縮性流体の流れ（質量保存則、運動量保存則、粘性流れ、管内流れ、境界層、渦糸、ポテンシャル流れ、等角写像、二次元翼理論）",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-civil-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 28
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "社会基盤工学コース",
+      "subjectsOriginal": "数学\n専門科目\n口頭試問",
+      "scopeOriginal": "数学：微積分、線形代数、微分方程式、フーリエ解析、確率・統計\n専門科目：（1）～（4）の内5題を試験時に選択\n（1）構造力学・コンクリート工学（2題出題）\n（2）流体力学・水理学（2題出題）\n（3）土質力学（2題出題）\n（4）土木計画学（2題出題）",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-civil-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "社会基盤工学コース",
+      "subjectsOriginal": "数学\n専門科目\n口頭試問",
+      "scopeOriginal": "数学：微積分、線形代数、微分方程式、フーリエ解析、確率・統計\n専門科目：（1）～（4）の内5題を試験時に選択\n（1）構造力学・コンクリート工学（2題出題）\n（2）流体力学・水理学（2題出題）\n（3）土質力学（2題出題）\n（4）土木計画学（2題出題）",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-architecture-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 28
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "建築工学コース",
+      "subjectsOriginal": "構造力学\n建築構造学（各種構造、材料、振動）\n建築計画学\n建築環境工学\n建築設計製図\n口頭試問",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-architecture-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "建築工学コース",
+      "subjectsOriginal": "構造力学\n建築構造学（各種構造、材料、振動）\n建築計画学\n建築環境工学\n建築設計製図\n口頭試問",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-business-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "ビジネスエンジニアリング専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 28
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "ビジネスエンジニアリングコース",
+      "subjectsOriginal": "基礎科目\n小論文\n一般工学\n口頭試問",
+      "scopeOriginal": "基礎科目：（1）数学（2）物理学（3）化学（4）科学技術論基礎\n（1）～（4）の内1科目を選択し入学願書に記入\n一般工学：（1）材料力学（2）電気・電子工学（3）金属・無機材料学（4）都市計画学（5）物性科学（6）工業化学\n（1）～（6）の内1科目を選択し、入学願書に記入",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-business-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "ビジネスエンジニアリング専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "ビジネスエンジニアリングコース",
+      "subjectsOriginal": "基礎科目\n小論文\n一般工学\n口頭試問",
+      "scopeOriginal": "基礎科目：（1）数学（2）物理学（3）化学（4）科学技術論基礎\n（1）～（4）の内1科目を選択 選択科目出願時選択\n一般工学：（1）材料力学（2）電気・電子工学（3）金属・無機材料学（4）都市計画学（5）物性科学（6）工業化学\n（1）～（6）の内1科目を選択 選択科目出願時選択",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。此专攻的夏季时间表列「基礎科目(数学)」，范围表仍列四科选一；保留两处原表，实际受验科目请向专攻确认。"
+    },
+    {
+      "id": "osaka-eng-business-cocreation-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "ビジネスエンジニアリング専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 28
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "subjectsOriginal": "基礎科目\n小論文\n一般工学\n口頭試問",
+      "scopeOriginal": "基礎科目：（1）数学（2）物理学（3）化学（4）科学技術論基礎\n（1）～（4）の内1科目を選択し入学願書に記入\n一般工学：（1）材料力学（2）電気・電子工学（3）金属・無機材料学（4）都市計画学（5）物性科学（6）工業化学（7）起業・事業化計画\n（1）～（7）の内1科目を選択し、入学願書に記入",
+      "conditionsOriginal": "※留学生は出願できません",
+      "editorialNote": "一般选拔不接受留学生。外部英语成绩、免除条件、完整范围和携带品按对应官方原表查阅；资料适用2027年4月入学，不表示仍在报名。"
+    },
+    {
+      "id": "osaka-eng-business-cocreation-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "ビジネスエンジニアリング専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学 博士前期課程募集要項：筆記試験科目・出題範囲",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "学力試験・口頭試問／時間割",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語能力証明書（専攻・コース別指定／免除条件）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "出願資格／在留資格",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報・最新通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "subjectsOriginal": "基礎科目\n小論文\n一般工学\n口頭試問",
+      "scopeOriginal": "基礎科目：（1）数学（2）物理学（3）化学（4）科学技術論基礎\n（1）～（4）の内1科目を選択 選択科目出願時選択\n一般工学：（1）材料力学（2）電気・電子工学（3）金属・無機材料学（4）都市計画学（5）物性科学（6）工業化学\n（1）～（6）の内1科目を選択 選択科目出願時選択",
+      "conditionsOriginal": "",
+      "editorialNote": "夏季留学生入试使用2026年9月修订版。英语成绩、受验语言及免除条件阅读原表；不把夏季科目移用到冬季。资料适用2027年4月入学，不表示仍在报名。此专攻的夏季时间表列「基礎科目(数学)」，范围表仍列四科选一；保留两处原表，实际受验科目请向专攻确认。"
+    },
+    {
+      "id": "osaka-eng-bio-cocreation-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "生物工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。一般选拔不接受留学生。"
+    },
+    {
+      "id": "osaka-eng-bio-cocreation-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "生物工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。此条仅对应夏季留学生选拔。"
+    },
+    {
+      "id": "osaka-eng-chem-cocreation-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "応用化学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。一般选拔不接受留学生。"
+    },
+    {
+      "id": "osaka-eng-chem-cocreation-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "応用化学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。此条仅对应夏季留学生选拔。"
+    },
+    {
+      "id": "osaka-eng-phys-cocreation-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。一般选拔不接受留学生。"
+    },
+    {
+      "id": "osaka-eng-phys-cocreation-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。此条仅对应夏季留学生选拔。"
+    },
+    {
+      "id": "osaka-eng-mech-cocreation-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。一般选拔不接受留学生。"
+    },
+    {
+      "id": "osaka-eng-mech-cocreation-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。此条仅对应夏季留学生选拔。"
+    },
+    {
+      "id": "osaka-eng-mms-cocreation-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。一般选拔不接受留学生。"
+    },
+    {
+      "id": "osaka-eng-mms-cocreation-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。此条仅对应夏季留学生选拔。"
+    },
+    {
+      "id": "osaka-eng-env-cocreation-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "環境エネルギー工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。一般选拔不接受留学生。"
+    },
+    {
+      "id": "osaka-eng-env-cocreation-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "環境エネルギー工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。此条仅对应夏季留学生选拔。"
+    },
+    {
+      "id": "osaka-eng-earth-cocreation-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。一般选拔不接受留学生。"
+    },
+    {
+      "id": "osaka-eng-earth-cocreation-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "産学官共創コース",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。此条仅对应夏季留学生选拔。"
+    },
+    {
+      "id": "osaka-eng-innovation-cocreation-general",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "電気電子情報通信工学専攻：コース別試験科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/g_admissions/R9MC_ippan_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "イノベーションデザインコース（産学官共創コース）",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。一般选拔不接受留学生。"
+    },
+    {
+      "id": "osaka-eng-innovation-cocreation-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（夏季入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "産学官共創コース：受験科目の参照先",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "募集コース／出願コースと受験選択科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "電気電子情報通信工学専攻：コース別試験科目",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学研究科 公式入試情報",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "イノベーションデザインコース（産学官共創コース）",
+      "conditionsOriginal": "産学官共創コースの志願者は、入学後に配属を希望する研究室が所属するコースを参照してください。",
+      "editorialNote": "本课程没有独立统一的专业课试卷，按所属研究室的课程核对科目和选答表。出愿志愿顺序、事前咨询及英语要求阅读原文。此条仅对应夏季留学生选拔。"
+    },
+    {
+      "id": "osaka-eng-ap-foreign-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（冬季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：冬季留学生修士 試験時間割表・通知事項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_timetable_mc.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "冬季入学試験 試験実施一覧表（博士前期課程欄）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_examinationlist2.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "外国人留学生特別選抜：冬季入試要項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "最新冬季入試通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "応用物理学コース",
+      "subjectsOriginal": "数学\n論述問題\n口頭試問",
+      "scopeOriginal": "1.数学（線形代数、微分方程式など大学基礎レベル）\n2.論述問題（論理的思考力や解析力を問う内容）",
+      "editorialNote": "冬季独立核对，不套用要项中标为「夏季入試筆記試験科目」的范围。完整科目、语言、携带品及未列明的具体范围，阅读此课程冬季时间表并向受入教员确认。環境工学冬季时间表未列小论文本试，不能添加夏季的小论文。"
+    },
+    {
+      "id": "osaka-eng-electrical-foreign-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（冬季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：冬季留学生修士 試験時間割表・通知事項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_timetable_mc.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "冬季入学試験 試験実施一覧表（博士前期課程欄）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_examinationlist2.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "外国人留学生特別選抜：冬季入試要項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "最新冬季入試通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "電気工学コース",
+      "subjectsOriginal": "数学・専門科目\n口頭試問",
+      "editorialNote": "冬季独立核对，不套用要项中标为「夏季入試筆記試験科目」的范围。完整科目、语言、携带品及未列明的具体范围，阅读此课程冬季时间表并向受入教员确认。環境工学冬季时间表未列小论文本试，不能添加夏季的小论文。"
+    },
+    {
+      "id": "osaka-eng-environment-foreign-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "環境エネルギー工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（冬季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：冬季留学生修士 試験時間割表・通知事項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_timetable_mc.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "冬季入学試験 試験実施一覧表（博士前期課程欄）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_examinationlist2.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "外国人留学生特別選抜：冬季入試要項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "最新冬季入試通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "環境工学コース",
+      "subjectsOriginal": "基礎科目・専門科目\n口頭試問",
+      "editorialNote": "冬季独立核对，不套用要项中标为「夏季入試筆記試験科目」的范围。完整科目、语言、携带品及未列明的具体范围，阅读此课程冬季时间表并向受入教员确认。環境工学冬季时间表未列小论文本试，不能添加夏季的小论文。"
+    },
+    {
+      "id": "osaka-eng-energy-foreign-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "環境エネルギー工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（冬季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：冬季留学生修士 試験時間割表・通知事項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_timetable_mc.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "冬季入学試験 試験実施一覧表（博士前期課程欄）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_examinationlist2.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "外国人留学生特別選抜：冬季入試要項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "最新冬季入試通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "エネルギー量子工学コース",
+      "subjectsOriginal": "基礎科目\n口頭試問",
+      "editorialNote": "冬季独立核对，不套用要项中标为「夏季入試筆記試験科目」的范围。完整科目、语言、携带品及未列明的具体范围，阅读此课程冬季时间表并向受入教员确认。環境工学冬季时间表未列小论文本试，不能添加夏季的小论文。"
+    },
+    {
+      "id": "osaka-eng-architecture-foreign-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜（冬季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：冬季留学生修士 試験時間割表・通知事項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_timetable_mc.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "冬季入学試験 試験実施一覧表（博士前期課程欄）",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/pdf/entrance/f_admissions/202704winter_examinationlist2.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "外国人留学生特別選抜：冬季入試要項",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/09/1.202704_ryuMC_Jpn_revised.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "最新冬季入試通知",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "建築工学コース",
+      "subjectsOriginal": "専門科目\n口頭試問",
+      "editorialNote": "冬季独立核对，不套用要项中标为「夏季入試筆記試験科目」的范围。完整科目、语言、携带品及未列明的具体范围，阅读此课程冬季时间表并向受入教员确认。環境工学冬季时间表未列小论文本试，不能添加夏季的小论文。"
+    },
+    {
+      "id": "osaka-eng-bio-english-april-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "生物工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Summer Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Industrial Biotechnology Global Leadership Program Based on Advanced Science and Technology",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-bio-english-april-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "生物工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Winter Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Industrial Biotechnology Global Leadership Program Based on Advanced Science and Technology",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-phys-english-april-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Summer Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Priority Graduate Program on Applied and Engineering Physics",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-phys-english-april-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Winter Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Priority Graduate Program on Applied and Engineering Physics",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-mech-english-april-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Summer Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Program of Mechanical Engineering",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-mech-english-april-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Winter Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Program of Mechanical Engineering",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-mms-english-april-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Summer Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Program of Materials and Manufacturing Science",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-mms-english-april-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Winter Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Program of Materials and Manufacturing Science",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-ee-english-april-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Summer Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Global Science and Engineering Course on Electrical, Electronic and Infocommunications Engineering",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-env-english-april-summer",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "環境エネルギー工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Summer Exam）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Winter Exam：実施しないプログラム",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "English proficiency：scores／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/03/202704MC_English_guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "英語による学位取得コース：公式募集要項",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Program of Sustainable Energy and Environmental Engineering",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "英语学位课程修士选拔。日本国外申请者原则材料审查，必要时追加面试／学力考试；日本在住申请者以面试／学力考试选拔，完整原文和专攻例外见对应页。未套用日语一般入试的专业笔试范围。电气及环境能源课程不实施冬季；机械课程的停止预告适用2028年入学，此处仍为2027年。"
+    },
+    {
+      "id": "osaka-eng-bio-english-october-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "生物工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Winter Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Industrial Biotechnology Global Leadership Program Based on Advanced Science and Technology",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-bio-english-october-spring",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "生物工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Spring Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Industrial Biotechnology Global Leadership Program Based on Advanced Science and Technology",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-chem-english-october-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "応用化学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Winter Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Chemical Science Course",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-chem-english-october-spring",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "応用化学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Spring Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Chemical Science Course",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-phys-english-october-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Winter Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Priority Graduate Program on Applied and Engineering Physics",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-phys-english-october-spring",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Spring Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Priority Graduate Program on Applied and Engineering Physics",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-mech-english-october-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Winter Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Program of Mechanical Engineering",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-mms-english-october-winter",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Winter Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Program of Materials and Manufacturing Science",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-mms-english-october-spring",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "マテリアル生産科学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Spring Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Program of Materials and Manufacturing Science",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-ee-english-october-spring",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Spring Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Global Science and Engineering Course on Electrical, Electronic and Infocommunications Engineering",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-eng-earth-english-october-spring",
+      "universityId": "osaka",
+      "graduateSchool": "工学研究科",
+      "department": "地球総合工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Degree Programs Conducted in English（Spring Exam）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection and Announcement of the Results：実施しないプログラム／研究室",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program Description／Special Notes",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Certificate of English proficiency／exemptions",
+          "url": "https://www.eng.osaka-u.ac.jp/wp-content/uploads/2026/08/2027-10_eng_guideline2_MC.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年10月入学 英語による学位取得コース",
+          "url": "https://www.eng.osaka-u.ac.jp/ja/entrance/f_admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Program of Maritime and Urban Engineering",
+      "subjectsOriginal": "interview and / or academic examination",
+      "editorialNote": "2027年10月入学的英语修士项目，冬季／春季分别保存。电气与海事都市项目不设冬季，机械项目不设春季；应用物理的春季不接受Department of Applied Physics所属研究室，须事前向受入教员确认。居住地所对应的材料审查、面试和学力考试按选考原页；专攻未列具体考纲时不填一般入试范围。机械课程整体停止预告对应2028年10月入学，不用于2027年度。"
+    },
+    {
+      "id": "osaka-es-materials-general",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "物質創成専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程（修士）一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "専門科目及び出題範囲（8科目共通選択）",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "選抜方法・筆答試験・面接",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "専攻・領域の出願／出願資格",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "英語能力・日本語能力の証明",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "基礎工学研究科 公式募集要項",
+          "url": "https://www.es.osaka-u.ac.jp/ja/examinee/graduate-school-of-engineering-science/entrance-exam/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験（専門科目Ⅰ及びⅡ）\n面接試験\nTOEFL又はTOEICの成績",
+      "scopeOriginal": "電子光科学：専門Ⅰ：数学、情報理論、量子力学、電磁気・電磁波、光エレクトロニクス\n専門Ⅱ：回路理論・電子回路、固体電子工学、統計力学\n物性物理科学：力学、電磁気学、量子力学、統計力学と「物性物理100問集」で扱っている（半導体、金属、光物性、磁性、実験など）\n化学：専門Ⅰ：物理化学、有機化学、無機化学\n専門Ⅱ：物理化学、有機化学、無機化学、高分子化学\n化学工学：化学工学に関連する科目\n機械科学：数学、熱工学、材料力学、流体力学、機械力学、機械工学一般\n知能システム学：専門Ⅰでは、以下の３問すべてを解答してください。\n数学（2問）：微分積分（微分方程式を含む）、線形代数／計算機プログラミング（1問）：プログラミングの基礎、アルゴリズムとデータ構造\n専門Ⅱでは、以下の３問から２問を選択解答してください。\n（1）制御工学：古典制御、現代制御（2）コンピュータ科学：情報理論と符号理論、コンピュータネットワーク、人工知能（3）最適化：線形計画法、非線形計画法、離散最適化\n生体システム工学：数学、物理学（力学、電磁気学、熱力学）、情報・システム工学（信号処理論、情報処理論、制御工学）、生物物理学、生体計測工学\n数理科学：数学と統計学。ただし、専門Ⅰは基礎的共通問題（必答２問程度）と自由選択問題からなり、専門Ⅱは全問選択です。",
+      "conditionsOriginal": "専門科目は、志望専攻領域に関係なく下記の8専門科目のうちから一つを選択できます。\nただし、専門科目ⅠとⅡは同一科目としてください。",
+      "editorialNote": "8科目共通选择，不把某个科目固定绑定本专攻。知能システム学、数理科学的必答／选答数和各领域面试对象见原表；允许符合资格的海外学历者走一般入试。"
+    },
+    {
+      "id": "osaka-es-materials-foreign",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "物質創成専攻",
+      "admissionType": "international",
+      "selectionName": "博士前期課程 外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "留学生特別選抜：選抜方法・日時",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/2027MC_ryugakusei_Application_Guide.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "出願資格・研究生在籍・日本語／英語能力",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/2027MC_ryugakusei_Application_Guide.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "留学生選抜：最新出願条件",
+          "url": "https://www.es.osaka-u.ac.jp/ja/examinee/graduate-school-of-engineering-science/entrance-exam/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "書類審査および筆記試験・口頭試問",
+      "editorialNote": "此选拔要求出愿时为基礎工学部研究生，或满足规定指导教员条件的其他研究生，并符合JLPT N1／N2等资格。特选未列统一专业笔试范围；不得直接标成一般8科同卷。考试日時・場所须向志望领域主任确认，细节保留官方原页。"
+    },
+    {
+      "id": "osaka-es-materials-english-april",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "物質創成専攻",
+      "admissionType": "international",
+      "selectionName": "Special Program of “Engineering Science 21st Century” for Master’s Course in English",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Screening：Overseas／Domestic application",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2026_Winter_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Departments／Application Requirements／Language ability",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2026_Winter_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Master’s Program：公式英語募集要項",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Engineering Science 21st Century",
+      "subjectsOriginal": "application documents and internet interview\noral/paper examination",
+      "conditionsOriginal": "The details of the exams for both overseas as well as domestic application will be provided by the host professor or the division (section) supervisor.",
+      "editorialNote": "独立修士募集要项；海外出愿和日本国内出愿的选考方式分别按原页。官方建议修士后继续博士，不将本修士选拔改称五年一贯制；未公布统一专业课考纲，不移用日语一般入试范围。英语门槛与免除条件见第3、5页。"
+    },
+    {
+      "id": "osaka-es-materials-english-october",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "物質創成専攻",
+      "admissionType": "international",
+      "selectionName": "Special Program of “Engineering Science 21st Century” for Master’s Course in English",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Screening：Overseas／Domestic application",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2027_Summer_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Departments／Application Requirements／Language ability",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2027_Summer_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Master’s Program：公式英語募集要項",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Engineering Science 21st Century",
+      "subjectsOriginal": "application documents and internet interview\noral/paper examination",
+      "conditionsOriginal": "The details of the exams for both overseas as well as domestic application will be provided by the host professor or the division (section) supervisor.",
+      "editorialNote": "独立修士募集要项；海外出愿和日本国内出愿的选考方式分别按原页。官方建议修士后继续博士，不将本修士选拔改称五年一贯制；未公布统一专业课考纲，不移用日语一般入试范围。英语门槛与免除条件见第3、5页。"
+    },
+    {
+      "id": "osaka-es-mechanical-general",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機能創成専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程（修士）一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "専門科目及び出題範囲（8科目共通選択）",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "選抜方法・筆答試験・面接",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "専攻・領域の出願／出願資格",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "英語能力・日本語能力の証明",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "基礎工学研究科 公式募集要項",
+          "url": "https://www.es.osaka-u.ac.jp/ja/examinee/graduate-school-of-engineering-science/entrance-exam/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験（専門科目Ⅰ及びⅡ）\n面接試験\nTOEFL又はTOEICの成績",
+      "scopeOriginal": "電子光科学：専門Ⅰ：数学、情報理論、量子力学、電磁気・電磁波、光エレクトロニクス\n専門Ⅱ：回路理論・電子回路、固体電子工学、統計力学\n物性物理科学：力学、電磁気学、量子力学、統計力学と「物性物理100問集」で扱っている（半導体、金属、光物性、磁性、実験など）\n化学：専門Ⅰ：物理化学、有機化学、無機化学\n専門Ⅱ：物理化学、有機化学、無機化学、高分子化学\n化学工学：化学工学に関連する科目\n機械科学：数学、熱工学、材料力学、流体力学、機械力学、機械工学一般\n知能システム学：専門Ⅰでは、以下の３問すべてを解答してください。\n数学（2問）：微分積分（微分方程式を含む）、線形代数／計算機プログラミング（1問）：プログラミングの基礎、アルゴリズムとデータ構造\n専門Ⅱでは、以下の３問から２問を選択解答してください。\n（1）制御工学：古典制御、現代制御（2）コンピュータ科学：情報理論と符号理論、コンピュータネットワーク、人工知能（3）最適化：線形計画法、非線形計画法、離散最適化\n生体システム工学：数学、物理学（力学、電磁気学、熱力学）、情報・システム工学（信号処理論、情報処理論、制御工学）、生物物理学、生体計測工学\n数理科学：数学と統計学。ただし、専門Ⅰは基礎的共通問題（必答２問程度）と自由選択問題からなり、専門Ⅱは全問選択です。",
+      "conditionsOriginal": "専門科目は、志望専攻領域に関係なく下記の8専門科目のうちから一つを選択できます。\nただし、専門科目ⅠとⅡは同一科目としてください。",
+      "editorialNote": "8科目共通选择，不把某个科目固定绑定本专攻。知能システム学、数理科学的必答／选答数和各领域面试对象见原表；允许符合资格的海外学历者走一般入试。"
+    },
+    {
+      "id": "osaka-es-mechanical-foreign",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機能創成専攻",
+      "admissionType": "international",
+      "selectionName": "博士前期課程 外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "留学生特別選抜：選抜方法・日時",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/2027MC_ryugakusei_Application_Guide.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "出願資格・研究生在籍・日本語／英語能力",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/2027MC_ryugakusei_Application_Guide.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "留学生選抜：最新出願条件",
+          "url": "https://www.es.osaka-u.ac.jp/ja/examinee/graduate-school-of-engineering-science/entrance-exam/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "書類審査および筆記試験・口頭試問",
+      "editorialNote": "此选拔要求出愿时为基礎工学部研究生，或满足规定指导教员条件的其他研究生，并符合JLPT N1／N2等资格。特选未列统一专业笔试范围；不得直接标成一般8科同卷。考试日時・場所须向志望领域主任确认，细节保留官方原页。"
+    },
+    {
+      "id": "osaka-es-mechanical-english-april",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機能創成専攻",
+      "admissionType": "international",
+      "selectionName": "Special Program of “Engineering Science 21st Century” for Master’s Course in English",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Screening：Overseas／Domestic application",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2026_Winter_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Departments／Application Requirements／Language ability",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2026_Winter_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Master’s Program：公式英語募集要項",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Engineering Science 21st Century",
+      "subjectsOriginal": "application documents and internet interview\noral/paper examination",
+      "conditionsOriginal": "The details of the exams for both overseas as well as domestic application will be provided by the host professor or the division (section) supervisor.",
+      "editorialNote": "独立修士募集要项；海外出愿和日本国内出愿的选考方式分别按原页。官方建议修士后继续博士，不将本修士选拔改称五年一贯制；未公布统一专业课考纲，不移用日语一般入试范围。英语门槛与免除条件见第3、5页。"
+    },
+    {
+      "id": "osaka-es-mechanical-english-october",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機能創成専攻",
+      "admissionType": "international",
+      "selectionName": "Special Program of “Engineering Science 21st Century” for Master’s Course in English",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Screening：Overseas／Domestic application",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2027_Summer_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Departments／Application Requirements／Language ability",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2027_Summer_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Master’s Program：公式英語募集要項",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Engineering Science 21st Century",
+      "subjectsOriginal": "application documents and internet interview\noral/paper examination",
+      "conditionsOriginal": "The details of the exams for both overseas as well as domestic application will be provided by the host professor or the division (section) supervisor.",
+      "editorialNote": "独立修士募集要项；海外出愿和日本国内出愿的选考方式分别按原页。官方建议修士后继续博士，不将本修士选拔改称五年一贯制；未公布统一专业课考纲，不移用日语一般入试范围。英语门槛与免除条件见第3、5页。"
+    },
+    {
+      "id": "osaka-es-systems-general",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "システム創成専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程（修士）一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "専門科目及び出題範囲（8科目共通選択）",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "選抜方法・筆答試験・面接",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "専攻・領域の出願／出願資格",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "英語能力・日本語能力の証明",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/MC_ippan_Application_Guide2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "基礎工学研究科 公式募集要項",
+          "url": "https://www.es.osaka-u.ac.jp/ja/examinee/graduate-school-of-engineering-science/entrance-exam/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験（専門科目Ⅰ及びⅡ）\n面接試験\nTOEFL又はTOEICの成績",
+      "scopeOriginal": "電子光科学：専門Ⅰ：数学、情報理論、量子力学、電磁気・電磁波、光エレクトロニクス\n専門Ⅱ：回路理論・電子回路、固体電子工学、統計力学\n物性物理科学：力学、電磁気学、量子力学、統計力学と「物性物理100問集」で扱っている（半導体、金属、光物性、磁性、実験など）\n化学：専門Ⅰ：物理化学、有機化学、無機化学\n専門Ⅱ：物理化学、有機化学、無機化学、高分子化学\n化学工学：化学工学に関連する科目\n機械科学：数学、熱工学、材料力学、流体力学、機械力学、機械工学一般\n知能システム学：専門Ⅰでは、以下の３問すべてを解答してください。\n数学（2問）：微分積分（微分方程式を含む）、線形代数／計算機プログラミング（1問）：プログラミングの基礎、アルゴリズムとデータ構造\n専門Ⅱでは、以下の３問から２問を選択解答してください。\n（1）制御工学：古典制御、現代制御（2）コンピュータ科学：情報理論と符号理論、コンピュータネットワーク、人工知能（3）最適化：線形計画法、非線形計画法、離散最適化\n生体システム工学：数学、物理学（力学、電磁気学、熱力学）、情報・システム工学（信号処理論、情報処理論、制御工学）、生物物理学、生体計測工学\n数理科学：数学と統計学。ただし、専門Ⅰは基礎的共通問題（必答２問程度）と自由選択問題からなり、専門Ⅱは全問選択です。",
+      "conditionsOriginal": "専門科目は、志望専攻領域に関係なく下記の8専門科目のうちから一つを選択できます。\nただし、専門科目ⅠとⅡは同一科目としてください。",
+      "editorialNote": "8科目共通选择，不把某个科目固定绑定本专攻。知能システム学、数理科学的必答／选答数和各领域面试对象见原表；允许符合资格的海外学历者走一般入试。"
+    },
+    {
+      "id": "osaka-es-systems-foreign",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "システム創成専攻",
+      "admissionType": "international",
+      "selectionName": "博士前期課程 外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "留学生特別選抜：選抜方法・日時",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/2027MC_ryugakusei_Application_Guide.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "出願資格・研究生在籍・日本語／英語能力",
+          "url": "https://www.es.osaka-u.ac.jp/ja/files/2027MC_ryugakusei_Application_Guide.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "留学生選抜：最新出願条件",
+          "url": "https://www.es.osaka-u.ac.jp/ja/examinee/graduate-school-of-engineering-science/entrance-exam/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "書類審査および筆記試験・口頭試問",
+      "editorialNote": "此选拔要求出愿时为基礎工学部研究生，或满足规定指导教员条件的其他研究生，并符合JLPT N1／N2等资格。特选未列统一专业笔试范围；不得直接标成一般8科同卷。考试日時・場所须向志望领域主任确认，细节保留官方原页。"
+    },
+    {
+      "id": "osaka-es-systems-english-april",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "システム創成専攻",
+      "admissionType": "international",
+      "selectionName": "Special Program of “Engineering Science 21st Century” for Master’s Course in English",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Screening：Overseas／Domestic application",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2026_Winter_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Departments／Application Requirements／Language ability",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2026_Winter_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Master’s Program：公式英語募集要項",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Engineering Science 21st Century",
+      "subjectsOriginal": "application documents and internet interview\noral/paper examination",
+      "conditionsOriginal": "The details of the exams for both overseas as well as domestic application will be provided by the host professor or the division (section) supervisor.",
+      "editorialNote": "独立修士募集要项；海外出愿和日本国内出愿的选考方式分别按原页。官方建议修士后继续博士，不将本修士选拔改称五年一贯制；未公布统一专业课考纲，不移用日语一般入试范围。英语门槛与免除条件见第3、5页。"
+    },
+    {
+      "id": "osaka-es-systems-english-october",
+      "universityId": "osaka",
+      "graduateSchool": "基礎工学研究科",
+      "department": "システム創成専攻",
+      "admissionType": "international",
+      "selectionName": "Special Program of “Engineering Science 21st Century” for Master’s Course in English",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Screening：Overseas／Domestic application",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2027_Summer_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Departments／Application Requirements／Language ability",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/images/Application_Guideline_2027_Summer_M.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Master’s Program：公式英語募集要項",
+          "url": "https://www.es.osaka-u.ac.jp/en/admission-aid/graduate-admissions/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Engineering Science 21st Century",
+      "subjectsOriginal": "application documents and internet interview\noral/paper examination",
+      "conditionsOriginal": "The details of the exams for both overseas as well as domestic application will be provided by the host professor or the division (section) supervisor.",
+      "editorialNote": "独立修士募集要项；海外出愿和日本国内出愿的选考方式分别按原页。官方建议修士后继续博士，不将本修士选拔改称五年一贯制；未公布统一专业课考纲，不移用日语一般入试范围。英语门槛与免除条件见第3、5页。"
+    },
+    {
+      "id": "osaka-ist-information-general",
+      "universityId": "osaka",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "別紙Ⅰ：試験科目・出題範囲",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/11_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "別紙Ⅰ続き：選択問題／情報基礎数学",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/11_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2027年4月改組／出願資格",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/11_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC・TOEFL成績の提出／情報基礎数学の英語試験",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/11_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "情報科学研究科 2027年度公式募集要項",
+          "url": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/guidelines2027.php",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆記試験：（Ａ）情報数理学（Ｂ）情報工学（Ｃ）生物情報\n口頭試問",
+      "scopeOriginal": "情報数理学：情報基礎、数理基礎、数学解析、情報物理\n専門科目［選択問題］以下の4分野から2分野を試験時に選択\n情報工学：専門科目［必須問題］1 アルゴリズムとプログラミング／2 計算機システムとシステムプログラム\n専門科目［選択問題］以下の5科目から2科目選択\n1 離散構造／2 計算理論／3 ネットワーク／4 電子回路と論理設計／5 数学解析と信号処理\n生物情報：基礎生物学（Essential細胞生物学（南江堂）の内容）",
+      "conditionsOriginal": "受験者は、次の（Ａ）、（Ｂ）、（Ｃ）から一つの科目を選択してください。",
+      "editorialNote": "2027年4月改组后使用正式专攻名。信息科学3种受验科目所对应的配属讲座、详细范围与条件见跨页原表；情報基礎数学有校内英语笔试。2028年起「情報工学」改为3道必答题的预告不套用本条。"
+    },
+    {
+      "id": "osaka-ist-information-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生対象特別選抜（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "別紙Ⅰ：試験科目・出題範囲",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/14_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "別紙Ⅰ続き：選択問題／情報基礎数学",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/14_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年4月改組／出願資格",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/14_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC・TOEFL成績の提出／情報基礎数学の英語試験",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/14_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "情報科学研究科 2027年度公式募集要項",
+          "url": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/guidelines2027.php",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆記試験：（Ａ）情報数理学（Ｂ）情報工学（Ｃ）生物情報\n口頭試問",
+      "scopeOriginal": "情報数理学：情報基礎、数理基礎、数学解析、情報物理\n専門科目［選択問題］以下の4分野から2分野を試験時に選択\n情報工学：専門科目［必須問題］1 アルゴリズムとプログラミング／2 計算機システムとシステムプログラム\n専門科目［選択問題］以下の5科目から2科目選択\n1 離散構造／2 計算理論／3 ネットワーク／4 電子回路と論理設計／5 数学解析と信号処理\n生物情報：基礎生物学（Essential細胞生物学（南江堂）の内容）",
+      "conditionsOriginal": "受験者は、次の（Ａ）、（Ｂ）、（Ｃ）から一つの科目を選択してください。",
+      "editorialNote": "2027年4月改组后使用正式专攻名。信息科学3种受验科目所对应的配属讲座、详细范围与条件见跨页原表；情報基礎数学有校内英语笔试。2028年起「情報工学」改为3道必答题的预告不套用本条。"
+    },
+    {
+      "id": "osaka-ist-information-foreign-winter",
+      "universityId": "osaka",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生対象特別選抜（12月）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "選抜方法／英語成績",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/15_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "筆記試験・口頭試問／専攻の定める科目",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/15_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "出願資格・予備審査",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/15_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "12月外国人留学生選抜：最新募集要項",
+          "url": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/guidelines2027.php",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆記試験や口頭試問（志望する研究分野によって異なります）\n筆記試験：専門科目及びその他専攻が定める科目",
+      "editorialNote": "12月特别选拔未发布统一出题范围，按研究领域通知；不复制一般／夏季的选答表。全员预备审查、日语资格及英语成绩按本轮募集要项核对；情報基礎数学不计TOEIC等成绩，但也不能擅自添加夏季英语笔试。"
+    },
+    {
+      "id": "osaka-ist-math-general",
+      "universityId": "osaka",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "別紙Ⅰ：試験科目・出題範囲",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/11_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "別紙Ⅰ続き：選択問題／情報基礎数学",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/11_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2027年4月改組／出願資格",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/11_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC・TOEFL成績の提出／情報基礎数学の英語試験",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/11_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "情報科学研究科 2027年度公式募集要項",
+          "url": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/guidelines2027.php",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆記試験：数学、英語\n口頭試問",
+      "conditionsOriginal": "英語の試験を実施しますので、提出する必要はありません。",
+      "editorialNote": "2027年4月改组后使用正式专攻名。信息科学3种受验科目所对应的配属讲座、详细范围与条件见跨页原表；情報基礎数学有校内英语笔试。2028年起「情報工学」改为3道必答题的预告不套用本条。"
+    },
+    {
+      "id": "osaka-ist-math-foreign-summer",
+      "universityId": "osaka",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生対象特別選抜（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "別紙Ⅰ：試験科目・出題範囲",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/14_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "別紙Ⅰ続き：選択問題／情報基礎数学",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/14_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年4月改組／出願資格",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/14_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC・TOEFL成績の提出／情報基礎数学の英語試験",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/14_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "情報科学研究科 2027年度公式募集要項",
+          "url": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/guidelines2027.php",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆記試験：数学、英語\n口頭試問",
+      "conditionsOriginal": "英語の試験を実施しますので、提出する必要はありません。",
+      "editorialNote": "2027年4月改组后使用正式专攻名。信息科学3种受验科目所对应的配属讲座、详细范围与条件见跨页原表；情報基礎数学有校内英语笔试。2028年起「情報工学」改为3道必答题的预告不套用本条。"
+    },
+    {
+      "id": "osaka-ist-math-foreign-winter",
+      "universityId": "osaka",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生対象特別選抜（12月）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "選抜方法／英語成績",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/15_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "筆記試験・口頭試問／専攻の定める科目",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/15_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "出願資格・予備審査",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/15_a_JA2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "12月外国人留学生選抜：最新募集要項",
+          "url": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/guidelines2027.php",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "筆記試験や口頭試問（志望する研究分野によって異なります）\n筆記試験：専門科目及びその他専攻が定める科目",
+      "editorialNote": "12月特别选拔未发布统一出题范围，按研究领域通知；不复制一般／夏季的选答表。全员预备审查、日语资格及英语成绩按本轮募集要项核对；情報基礎数学不计TOEIC等成绩，但也不能擅自添加夏季英语笔试。"
+    },
+    {
+      "id": "osaka-ist-information-english",
+      "universityId": "osaka",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "Selection for Information Technology Special Course in English (ITSCE), December",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Selection Methods：interview test／research plan／English score",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/16_a_EN2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "Enrollment Limits／2027 department reorganization",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/16_a_EN2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Master Course／Doctoral Course in sequence",
+          "url": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2027/16_a_EN2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "ITSCE：公式募集要項",
+          "url": "https://www.ist.osaka-u.ac.jp/english/examinees/admission/guidelines2027.php",
+          "kind": "page"
+        }
+      ],
+      "course": "Information Technology Special Course in English (ITSCE)",
+      "subjectsOriginal": "interview test (online or offline)",
+      "editorialNote": "ITSCE修士只募集改组后的情報科学専攻，不包含情報基礎数学専攻。综合面试、研究计划、成绩和英语成绩选拔；建议连续攻读2年修士＋3年博士。本条为修士募集，不改称独立外国人12月笔试或一贯制。2027年10月版尚待公布。"
+    },
+    {
+      "id": "osaka-sci-math-general",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜（第1次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：専攻別試験科目・口頭試問",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "専攻別英語成績・免除条件",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "専攻公式：入試詳細・最新案内",
+          "url": "https://www-test.math.sci.osaka-u.ac.jp/inshi/",
+          "kind": "page"
+        },
+        {
+          "label": "理学研究科 公式募集要項",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/admissions/admissions_d/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "数学Ａ\n数学Ｂ\n英語\n口頭試問",
+      "editorialNote": "使用官方入口当前链接的2027年度更新版。数学有校内英语笔试及达标成绩免除制度；其他专攻使用各自外部英语要求。专攻主页中的课程内容、研究领域和旧年度真题不当作本年度完整考纲；官方未明示更细范围时不扩写。物理／宇宙地球为合同第1次入试。"
+    },
+    {
+      "id": "osaka-sci-physics-general",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜（第1次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：専攻別試験科目・口頭試問",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "専攻別英語成績・免除条件",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "専攻公式：入試詳細・最新案内",
+          "url": "https://www.phys.sci.osaka-u.ac.jp/ja/grad/undergraduate_exam.html",
+          "kind": "page"
+        },
+        {
+          "label": "理学研究科 公式募集要項",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/admissions/admissions_d/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "物理\n口頭試問\n英語検定試験（TOEFL又はTOEIC）",
+      "editorialNote": "使用官方入口当前链接的2027年度更新版。数学有校内英语笔试及达标成绩免除制度；其他专攻使用各自外部英语要求。专攻主页中的课程内容、研究领域和旧年度真题不当作本年度完整考纲；官方未明示更细范围时不扩写。物理／宇宙地球为合同第1次入试。"
+    },
+    {
+      "id": "osaka-sci-chemistry-general",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜（第1次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：専攻別試験科目・口頭試問",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "専攻別英語成績・免除条件",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "専攻公式：入試詳細・最新案内",
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/chem/admission/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "理学研究科 公式募集要項",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/admissions/admissions_d/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "化学\n口頭試問\n英語検定試験（TOEFL又はTOEIC）",
+      "scopeOriginal": "問4、5、6：無機化学・分析化学、物理化学、有機化学・生物化学",
+      "conditionsOriginal": "問1～3：必修問題\n問4～6：選択問題（2問を選択）",
+      "editorialNote": "使用官方入口当前链接的2027年度更新版。数学有校内英语笔试及达标成绩免除制度；其他专攻使用各自外部英语要求。专攻主页中的课程内容、研究领域和旧年度真题不当作本年度完整考纲；官方未明示更细范围时不扩写。物理／宇宙地球为合同第1次入试。"
+    },
+    {
+      "id": "osaka-sci-biology-general",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "生物科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜（第1次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：専攻別試験科目・口頭試問",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "専攻別英語成績・免除条件",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専攻公式：入試詳細・最新案内",
+          "url": "https://www.bio.sci.osaka-u.ac.jp/admission-graduate-school/",
+          "kind": "page"
+        },
+        {
+          "label": "理学研究科 公式募集要項",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/admissions/admissions_d/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "生物学等\n口頭試問\n英語検定試験（TOEFL又はTOEIC）",
+      "editorialNote": "使用官方入口当前链接的2027年度更新版。数学有校内英语笔试及达标成绩免除制度；其他专攻使用各自外部英语要求。专攻主页中的课程内容、研究领域和旧年度真题不当作本年度完整考纲；官方未明示更细范围时不扩写。物理／宇宙地球为合同第1次入试。"
+    },
+    {
+      "id": "osaka-sci-macromolecular-general",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "高分子科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜（第1次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：専攻別試験科目・口頭試問",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "専攻別英語成績・免除条件",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専攻公式：入試詳細・最新案内",
+          "url": "https://www.chem.sci.osaka-u.ac.jp/graduate/mms/exam/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "理学研究科 公式募集要項",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/admissions/admissions_d/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "化学Ⅰ\n化学Ⅱ\n口頭試問\n英語検定試験（TOEFL又はTOEIC）",
+      "editorialNote": "使用官方入口当前链接的2027年度更新版。数学有校内英语笔试及达标成绩免除制度；其他专攻使用各自外部英语要求。专攻主页中的课程内容、研究领域和旧年度真题不当作本年度完整考纲；官方未明示更细范围时不扩写。物理／宇宙地球为合同第1次入试。"
+    },
+    {
+      "id": "osaka-sci-earth-general",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "宇宙地球科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜（第1次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月入学：専攻別試験科目・口頭試問",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "専攻別英語成績・免除条件",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704youkou-new.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "専攻公式：入試詳細・最新案内",
+          "url": "https://www.ess.sci.osaka-u.ac.jp/admissions/examination.html",
+          "kind": "page"
+        },
+        {
+          "label": "理学研究科 公式募集要項",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/admissions/admissions_d/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "物理\n口頭試問\n英語検定試験（TOEFL又はTOEIC）",
+      "editorialNote": "使用官方入口当前链接的2027年度更新版。数学有校内英语笔试及达标成绩免除制度；其他专攻使用各自外部英语要求。专攻主页中的课程内容、研究领域和旧年度真题不当作本年度完整考纲；官方未明示更细范围时不扩写。物理／宇宙地球为合同第1次入试。"
+    },
+    {
+      "id": "osaka-sci-earth-second",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "宇宙地球科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士前期課程 一般選抜第2次募集",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜第2次募集：試験科目・選抜方法",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704-youkou-2-.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "出願資格／前期合同入試合格者の制限",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/wp-content/uploads/2020/08/01.MC202704-youkou-2-.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027年度第2次募集：最新情報",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/admissions/admissions_d/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "口頭試問\n学業成績証明書\n英語外部試験の成績\n研究分野等希望調書",
+      "editorialNote": "第2次募集为口头试问，不套用合同第1次募集的物理笔试。已在2027年4月物理／宇宙地球合同入试合格者不可出愿，完整规则和出愿时限按本要项。"
+    },
+    {
+      "id": "osaka-sci-biology-second-notice",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "生物科学専攻",
+      "admissionType": "general",
+      "selectionName": "一般入試（第2次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：第2次募集制度・試験予定",
+          "url": "https://www.bio.sci.osaka-u.ac.jp/admission-graduate-school/",
+          "kind": "page"
+        },
+        {
+          "label": "第2次募集の募集要項公表状況",
+          "url": "https://www.sci.osaka-u.ac.jp/ja/admissions/admissions_d/",
+          "kind": "page"
+        }
+      ],
+      "publicationStatus": "notice",
+      "internationalGeneral": true,
+      "editorialNote": "专攻官网已预告2027年2月6日的第2次一般入试，出愿日期、受入研究室等仍为未定，完整募集要项尚未链接。此条为预告入口，不把第1次专业笔试要求移用到第2次。"
+    },
+    {
+      "id": "osaka-sci-physics-ipc",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "admissionType": "international",
+      "selectionName": "International Physics Course (IPC) — Master’s Program",
+      "entryYear": "2027年4月・10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Master’s Program：Selection Procedure／Step 1",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/01-IPC-Application-Guidelines-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "Master’s Program：Physics examination scope／Step 2",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/01-IPC-Application-Guidelines-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Master’s Program：Eligibility／departments",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/01-IPC-Application-Guidelines-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IPC：2027年度最新募集要項",
+          "url": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Physics Course (IPC)",
+      "subjectsOriginal": "Step 1: Written examination in physics\nStep 2: Interview",
+      "scopeOriginal": "classical mechanics, electromagnetism, quantum mechanics, and statistical physics",
+      "editorialNote": "仅提取修士列。GRE Physics成绩或IPC物理笔试两种方式，部分教员可向提交GRE者要求补充IPC考试；英语面试原则线上。宇宙地球科学仅限官方IPC参加研究组，不表示全专攻研究室均开放。完整条件和3小时笔试规则见原表。"
+    },
+    {
+      "id": "osaka-sci-earth-ipc",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "宇宙地球科学専攻",
+      "admissionType": "international",
+      "selectionName": "International Physics Course (IPC) — Master’s Program",
+      "entryYear": "2027年4月・10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Master’s Program：Selection Procedure／Step 1",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/01-IPC-Application-Guidelines-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "Master’s Program：Physics examination scope／Step 2",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/01-IPC-Application-Guidelines-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Master’s Program：Eligibility／departments",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/01-IPC-Application-Guidelines-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "IPC：2027年度最新募集要項",
+          "url": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Physics Course (IPC)",
+      "subjectsOriginal": "Step 1: Written examination in physics\nStep 2: Interview",
+      "scopeOriginal": "classical mechanics, electromagnetism, quantum mechanics, and statistical physics",
+      "editorialNote": "仅提取修士列。GRE Physics成绩或IPC物理笔试两种方式，部分教员可向提交GRE者要求补充IPC考试；英语面试原则线上。宇宙地球科学仅限官方IPC参加研究组，不表示全专攻研究室均开放。完整条件和3小时笔试规则见原表。"
+    },
+    {
+      "id": "osaka-sci-chemistry-sisc",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "admissionType": "international",
+      "selectionName": "Special Integrated Science Course (SISC) — Master’s Program",
+      "entryYear": "2027年4月・10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Master’s Program：Selection Procedure／paper-based tests・interview",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "Master’s Program：Eligibility／fields",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "Master’s Program：Examination Information",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "SISC：2027年度最新募集要項／非指定国オンライン申請",
+          "url": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Special Integrated Science Course (SISC)",
+      "subjectsOriginal": "paper-based tests in chemistry and/or biology\ninterview",
+      "editorialNote": "按修士列核对，不采用博士列只有口头发表／面试的要求。材料审查后，化学／生物学笔试及英语面试；通常在官方指定会场考试，非指定国家或在线受验须按额外官方申请规则和指导教员同意办理，不能默认全部远程。SISC名称中的Integrated不表示本条为五年一贯制。"
+    },
+    {
+      "id": "osaka-sci-biology-sisc",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "生物科学専攻",
+      "admissionType": "international",
+      "selectionName": "Special Integrated Science Course (SISC) — Master’s Program",
+      "entryYear": "2027年4月・10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Master’s Program：Selection Procedure／paper-based tests・interview",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "Master’s Program：Eligibility／fields",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "Master’s Program：Examination Information",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "SISC：2027年度最新募集要項／非指定国オンライン申請",
+          "url": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Special Integrated Science Course (SISC)",
+      "subjectsOriginal": "paper-based tests in chemistry and/or biology\ninterview",
+      "editorialNote": "按修士列核对，不采用博士列只有口头发表／面试的要求。材料审查后，化学／生物学笔试及英语面试；通常在官方指定会场考试，非指定国家或在线受验须按额外官方申请规则和指导教员同意办理，不能默认全部远程。SISC名称中的Integrated不表示本条为五年一贯制。"
+    },
+    {
+      "id": "osaka-sci-macromolecular-sisc",
+      "universityId": "osaka",
+      "graduateSchool": "理学研究科",
+      "department": "高分子科学専攻",
+      "admissionType": "international",
+      "selectionName": "Special Integrated Science Course (SISC) — Master’s Program",
+      "entryYear": "2027年4月・10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Master’s Program：Selection Procedure／paper-based tests・interview",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "Master’s Program：Eligibility／fields",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "Master’s Program：Examination Information",
+          "url": "https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "SISC：2027年度最新募集要項／非指定国オンライン申請",
+          "url": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Special Integrated Science Course (SISC)",
+      "subjectsOriginal": "paper-based tests in chemistry and/or biology\ninterview",
+      "editorialNote": "按修士列核对，不采用博士列只有口头发表／面试的要求。材料审查后，化学／生物学笔试及英语面试；通常在官方指定会场考试，非指定国家或在线受验须按额外官方申请规则和指导教员同意办理，不能默认全部远程。SISC名称中的Integrated不表示本条为五年一贯制。"
     }
   ]
 };
