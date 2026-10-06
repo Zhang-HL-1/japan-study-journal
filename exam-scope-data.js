@@ -66,6 +66,15 @@
         "东北大",
         "Tohoku University"
       ]
+    },
+    {
+      "id": "kyushu",
+      "name": "九州大学",
+      "aliases": [
+        "九大",
+        "九州大",
+        "Kyushu University"
+      ]
     }
   ],
   "catalog": {
@@ -92,7 +101,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学与東北大学的修士及修士相关选拔资料。使用学校、研究科／学院、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学与九州大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -153,6 +162,20 @@
         "生命科学研究科"
       ],
       "note": "東北大学：已核对六个理工相关研究科、34个正式专攻，共100条资料。一般与外国人等特别选拔分别收录，信息科学七考试群按正式专攻映射；生命科学Ⅰ／Ⅱ期要求分开。英语项目按实际修士募集与2027年4月／10月入学收录；IMAC-G四专攻待公布，情報科学SDTM仅参加预告。工学、医工学的2027外国人特别选拔，环境春季及生命Ⅲ期等新要项未公布时不沿用旧版。IMSE当前仅2026版，NIFS官网预告可能改为后继项目，2027规则均未套用。"
+    },
+    "kyushu": {
+      "verifiedAt": "2026-10-06",
+      "degree": "修士課程",
+      "graduateSchools": [
+        "工学府",
+        "システム情報科学府",
+        "総合理工学府",
+        "理学府",
+        "数理学府",
+        "芸術工学府",
+        "システム生命科学府"
+      ],
+      "note": "九州大学：已核对七个理工相关学府、20个正式专攻，共119条资料。一般84条、外国人特别／英语项目35条，适用2027年4月或10月入学；均保留当年原文科目与来源。工学11专攻，系统信息按2027新要项的2专攻5课程，总合理工为1专攻3考试类而非旧5专攻。地球惑星按19研究组的指定1～2科目，旧八科选二已废止；芸術工学为1专攻6课程。一般、口述免除路线、外国人特别、英语课程和二次募集分别保存。系统生命按2027PDF修士课程和夏／秋不同要求；指导教员指定范围未公开时不推测。未公布的2027外国人特别／后续期次不沿用2026规则；英语课程接收实验室名单须再查当年更新。"
     }
   },
   "records": [
@@ -22061,6 +22084,5247 @@
       ],
       "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、質疑応答）\n英語外部検定試験スコア",
       "editorialNote": "Ⅱ期：10分钟发表、约10分钟问答；不套Ⅰ期九科任选一的单列基础学力试问。受入实验室依Ⅰ期合格情况调整，以官网Ⅱ期名单为准。英语外检与面接共同评价；Ⅲ期完整2027要项尚未公布，旧2026参考版不作为新考纲。"
+    },
+    {
+      "id": "kyushu-eng-materials-general",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "材料工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "材料工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "材料工学Ⅰ\n材料工学Ⅱ\n材料工学Ⅲ\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "材料工学Ⅰ：材料物理化学，化学熱力学，移動現象論，材料反応工学，材料電気化学\n材料工学Ⅱ：凝固現象論，材料組織学，材料強度物性学\n材料工学Ⅲ：固体物理学，固体化学，半導体工学",
+      "conditionsOriginal": "材料工学Ⅰ，Ⅱ，Ⅲの設問には数学的内容も含まれる。",
+      "editorialNote": "英语仅以外部成绩评价，未另设本专攻英语笔试；材料题内含数学。"
+    },
+    {
+      "id": "kyushu-eng-applied-chemistry-general-functional",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "応用化学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "応用化学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（筆記試験及びTOEIC・TOEFL等）\n専門科目",
+      "scopeOriginal": "物理化学，無機化学，有機化学，分析化学，高分子化学",
+      "editorialNote": "两个课程列出的科目相同，但试题内容不同，按愿书所选受验。英语笔试和外部成绩综合评价，不能标成仅外部英语。",
+      "course": "機能物質化学コース"
+    },
+    {
+      "id": "kyushu-eng-applied-chemistry-general-molecular",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "応用化学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "応用化学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（筆記試験及びTOEIC・TOEFL等）\n専門科目",
+      "scopeOriginal": "物理化学，無機化学，有機化学，分析化学，高分子化学",
+      "editorialNote": "两个课程列出的科目相同，但试题内容不同，按愿书所选受验。英语笔试和外部成绩综合评价，不能标成仅外部英语。",
+      "course": "分子生命工学コース"
+    },
+    {
+      "id": "kyushu-eng-chemical-engineering-general",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "化学工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "化学工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "数学\n化学工学Ⅰ\n化学工学Ⅱ\n化学工学Ⅲ\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "化学工学Ⅰ：化学熱力学，基礎化学，生物工学基礎\n化学工学Ⅱ：流動，熱移動，物質移動\n化学工学Ⅲ：プロセス制御，反応工学，生物化学工学",
+      "conditionsOriginal": "TOEIC及びTOEFLの両方提出も可。",
+      "editorialNote": "英语只用外部成绩，不另设英语笔试。"
+    },
+    {
+      "id": "kyushu-eng-mechanical-general",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "機械工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "2027年4月：試験科目・公式キーワード",
+          "url": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2026/04/kw_2027.04_mech_mc.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "材料力学\n機械力学\n熱工学\n流体工学\n数学\n英語（TOEIC又はTOEFL）\n口頭試問",
+      "scopeOriginal": "材料力学：平衡条件，フックの法則，応力の座標変換，トラス，梁の曲げ，ねじり，薄肉円筒容器，座屈\n機械力学：質点の力学，質点系の力学，剛体の力学，解析力学，1自由度系の振動，多自由度系の振動，回転体の力学\n熱工学：閉じた系および開いた系の熱力学第一法則，理想気体の状態変化，エントロピーと熱力学第二法則，ガスサイクル，気液相変化，蒸気動力サイクル，冷凍・ヒートポンプサイクル，熱伝導，対流熱伝達，ふく射伝熱，熱交換器\n流体工学：流体の性質，静水力学，流体の運動，質量保存則（連続の式），運動量保存則，角運動量保存則，エネルギー保存則，管内流れと損失，次元解析と相似則，層流，準定常流れ\n数学：微分積分学，微分方程式，線形代数学，ベクトル解析，数値解析，複素関数，応用数学一般",
+      "editorialNote": "专业及数学关键词采用明确适用2027年4月一般／外国人特别选拔的现行PDF；同文件列口头试问，具体安排按专攻通知。可申请机械／水素互为第二志望。"
+    },
+    {
+      "id": "kyushu-eng-hydrogen-general",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "水素エネルギーシステム専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "水素エネルギーシステム専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "2027年4月：試験科目・公式キーワード",
+          "url": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2026/04/kw_2027.04_mech_mc.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "材料力学\n機械力学\n熱工学\n流体工学\n数学\n英語（TOEIC又はTOEFL）\n口頭試問",
+      "scopeOriginal": "材料力学：平衡条件，フックの法則，応力の座標変換，トラス，梁の曲げ，ねじり，薄肉円筒容器，座屈\n機械力学：質点の力学，質点系の力学，剛体の力学，解析力学，1自由度系の振動，多自由度系の振動，回転体の力学\n熱工学：閉じた系および開いた系の熱力学第一法則，理想気体の状態変化，エントロピーと熱力学第二法則，ガスサイクル，気液相変化，蒸気動力サイクル，冷凍・ヒートポンプサイクル，熱伝導，対流熱伝達，ふく射伝熱，熱交換器\n流体工学：流体の性質，静水力学，流体の運動，質量保存則（連続の式），運動量保存則，角運動量保存則，エネルギー保存則，管内流れと損失，次元解析と相似則，層流，準定常流れ\n数学：微分積分学，微分方程式，線形代数学，ベクトル解析，数値解析，複素関数，応用数学一般",
+      "editorialNote": "专业及数学关键词采用明确适用2027年4月一般／外国人特别选拔的现行PDF；同文件列口头试问，具体安排按专攻通知。可申请机械／水素互为第二志望。"
+    },
+    {
+      "id": "kyushu-eng-aerospace-general",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "航空宇宙工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "航空宇宙工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "流体力学\n熱工学\n固体力学\n力学及び制御\n英語（TOEIC又はTOEFL）",
+      "editorialNote": "英语仅外部成绩；学业成绩特别优秀者可获学科试验免除，以学校通知为准。"
+    },
+    {
+      "id": "kyushu-eng-quantum-general",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "量子物理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "量子物理工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "数学\n英語（筆記試験及びTOEIC又はTOEFL）\n専門科目\n小論文",
+      "scopeOriginal": "数学（必須）：線形代数，微積分・微分方程式\n数学（選択）：複素関数論，フーリエ・ラプラス変換\n専門科目：力学，物理化学，熱力学／統計力学，電磁気学，量子力学，輸送現象論，固体物理学，現代物理学（特殊相対性理論，原子物理学を含む）\n小論文：量子物理工学専攻に関わる専門分野",
+      "conditionsOriginal": "数学（選択）：1題選択\n専門科目：8科目から3科目選択",
+      "editorialNote": "英语笔试与外部成绩按同一比例综合评价，小论文单独保留。"
+    },
+    {
+      "id": "kyushu-eng-naval-general-type1",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "船舶海洋工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "船舶海洋工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "数学\n英語（TOEIC又はTOEFL）\n専門科目",
+      "scopeOriginal": "数学：微分方程式，関数論，線形代数\n専門科目：材料力学，流体力学，船舶海洋構造力学（船体強度，船体振動），船舶海洋流体力学（船舶計算法，運動，抵抗・推進）",
+      "conditionsOriginal": "数学：3科目から2科目選択（3科目解答時は得点上位2科目）\nTOEIC IPも可（日本国内受験のみ）。",
+      "editorialNote": "本校船舶海洋学科在籍者／毕业者必须类型Ⅰ，其他考生可选Ⅰ或Ⅱ；Ⅱ须提交约400字小论文并面接。外部英语接受规定的日本国内IP成绩，与工学共同总则的例外分开保存。",
+      "course": "タイプⅠ"
+    },
+    {
+      "id": "kyushu-eng-naval-general-type2",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "船舶海洋工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "船舶海洋工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "数学\n英語（TOEIC又はTOEFL）\n専門科目\n小論文\n面接",
+      "scopeOriginal": "数学：微分方程式，関数論，線形代数\n専門科目：材料力学，流体力学，力学，制御工学，構造金属材料\n小論文：志望動機及び修了後のキャリア",
+      "conditionsOriginal": "数学：3科目から2科目選択（3科目解答時は得点上位2科目）\n専門科目：出願時に1科目を選択\nTOEIC IPも可（日本国内受験のみ）。",
+      "editorialNote": "本校船舶海洋学科在籍者／毕业者必须类型Ⅰ，其他考生可选Ⅰ或Ⅱ；Ⅱ须提交约400字小论文并面接。外部英语接受规定的日本国内IP成绩，与工学共同总则的例外分开保存。",
+      "course": "タイプⅡ"
+    },
+    {
+      "id": "kyushu-eng-earth-resources-general",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "地球資源システム工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "地球資源システム工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目\n数学\n英語（TOEIC，TOEFL又はIELTS）\n作文",
+      "scopeOriginal": "専門科目：鉱床学，物理探査学，地熱工学，開発工学，岩盤工学，資源処理工学，エネルギー資源工学\n数学：微積分・微分方程式，複素関数論\n作文：当専攻の志望理由（1000字程度）",
+      "conditionsOriginal": "専門科目：7科目から3科目選択",
+      "editorialNote": "本校地球资源学科以外者可按既往履修另选相关三科，须出愿时咨询。可能按成绩免除学科试验，不将英语项目的专业七选一复制到一般。"
+    },
+    {
+      "id": "kyushu-eng-cooperative-resources-general",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "共同資源工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "共同資源工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目\n数学\n英語（TOEIC，TOEFL又はIELTS）\n作文",
+      "scopeOriginal": "専門科目：鉱床学，物理探査学，地熱工学，開発工学，岩盤工学，資源処理工学，エネルギー資源工学\n数学：微積分・微分方程式，複素関数論\n作文：当専攻の志望理由（1000字程度）",
+      "conditionsOriginal": "専門科目：7科目から3科目選択",
+      "editorialNote": "本校地球资源学科以外者可按既往履修另选相关三科，须出愿时咨询。可能按成绩免除学科试验，不将英语项目的专业七选一复制到一般。"
+    },
+    {
+      "id": "kyushu-eng-civil-general",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "土木工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "土木工学専攻：試験科目・選答",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "11正式専攻・併願対象",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "英語資格試験の種類と証明書",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "工学府：最新募集要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "土木基礎\n数学\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "数学：線形代数，微積分，微分方程式，確率統計\n土木基礎：構造力学（2問），水理学（2問），地盤力学（2問），コンクリート工学（1問），計画学（2問），環境システム工学（2問）",
+      "conditionsOriginal": "土木基礎：11問から6問選択／構造力学，水理学，地盤力学の6問から少なくとも3問",
+      "editorialNote": "土木选答两项限制须同时满足，英语只用外部成绩。"
+    },
+    {
+      "id": "kyushu-eng-hydrogen-self",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "水素エネルギーシステム専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 自己推薦型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "自己推薦型：事前小論文・口頭試問",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式専攻",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "小論文・成績証明書・英語資格試験スコアによる事前審査\n口頭試問",
+      "scopeOriginal": "卒業研究テーマもしくは関心のある研究テーマ，志望動機，受験者の専門分野",
+      "editorialNote": "面向机械系以外背景，须事先咨询教员；7分钟研究发表＋3分钟志望发表＋约25分钟专业问答，不复制一般四力及数学笔试。"
+    },
+    {
+      "id": "kyushu-eng-naval-self",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "船舶海洋工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 自己推薦型入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "自己推薦型：事前小論文・口頭試問",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "正式専攻",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/05/50be6d16fe74efbeb3de84ec1d88b8e8.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新要項",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "小論文・成績証明書・英語資格試験スコアによる事前審査\n口頭試問",
+      "scopeOriginal": "卒業研究テーマもしくは関心のある研究テーマ，志望動機，受験者の専門分野",
+      "editorialNote": "面向本校船舶海洋学科在籍者／毕业者以外；10分钟发表＋20分钟专业问答。事先小论文A4约两页；未通过可按要项继续一般试验。"
+    },
+    {
+      "id": "kyushu-eng-materials-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "材料工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目\n日本語\n英語\n口頭試問",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。专业、日语、英语与口头试问的具体方式和范围向专攻确认。 不复制一般的选答数或固定科目范围。"
+    },
+    {
+      "id": "kyushu-eng-applied-chemistry-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "応用化学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目\n日本語（口頭試問により判断）\n英語（総合英語資格試験スコアにより判断）\n口頭試問",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。此专攻日语以口头判断、英语以外检替代笔试。 不复制一般的选答数或固定科目范围。"
+    },
+    {
+      "id": "kyushu-eng-chemical-engineering-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "化学工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目\n日本語\n英語\n口頭試問",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。专业、日语、英语与口头试问的具体方式和范围向专攻确认。 不复制一般的选答数或固定科目范围。"
+    },
+    {
+      "id": "kyushu-eng-mechanical-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "2027年1月外国人特別：公式キーワード",
+          "url": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2026/04/kw_2027.04_mech_mc.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目（数学を含む）\n日本語（口頭試問により判断）\n英語（総合英語資格試験スコアにより判断）\n口頭試問",
+      "scopeOriginal": "材料力学：平衡条件，フックの法則，応力の座標変換，トラス，梁の曲げ，ねじり，薄肉円筒容器，座屈\n機械力学：質点の力学，質点系の力学，剛体の力学，解析力学，1自由度系の振動，多自由度系の振動，回転体の力学\n熱工学：閉じた系および開いた系の熱力学第一法則，理想気体の状態変化，エントロピーと熱力学第二法則，ガスサイクル，気液相変化，蒸気動力サイクル，冷凍・ヒートポンプサイクル，熱伝導，対流熱伝達，ふく射伝熱，熱交換器\n流体工学：流体の性質，静水力学，流体の運動，質量保存則（連続の式），運動量保存則，角運動量保存則，エネルギー保存則，管内流れと損失，次元解析と相似則，層流，準定常流れ\n数学：微分積分学，微分方程式，線形代数学，ベクトル解析，数値解析，複素関数，応用数学一般",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。此专攻日语以口头判断、英语以外检替代笔试。 专业关键词采用明确包含2027外国人特别选拔的新版文件，不从旧网页扩加B群。"
+    },
+    {
+      "id": "kyushu-eng-hydrogen-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "水素エネルギーシステム専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "2027年1月外国人特別：公式キーワード",
+          "url": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2026/04/kw_2027.04_mech_mc.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目（数学を含む）\n日本語（口頭試問により判断）\n英語（総合英語資格試験スコアにより判断）\n口頭試問",
+      "scopeOriginal": "材料力学：平衡条件，フックの法則，応力の座標変換，トラス，梁の曲げ，ねじり，薄肉円筒容器，座屈\n機械力学：質点の力学，質点系の力学，剛体の力学，解析力学，1自由度系の振動，多自由度系の振動，回転体の力学\n熱工学：閉じた系および開いた系の熱力学第一法則，理想気体の状態変化，エントロピーと熱力学第二法則，ガスサイクル，気液相変化，蒸気動力サイクル，冷凍・ヒートポンプサイクル，熱伝導，対流熱伝達，ふく射伝熱，熱交換器\n流体工学：流体の性質，静水力学，流体の運動，質量保存則（連続の式），運動量保存則，角運動量保存則，エネルギー保存則，管内流れと損失，次元解析と相似則，層流，準定常流れ\n数学：微分積分学，微分方程式，線形代数学，ベクトル解析，数値解析，複素関数，応用数学一般",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。此专攻日语以口头判断、英语以外检替代笔试。 专业关键词采用明确包含2027外国人特别选拔的新版文件，不从旧网页扩加B群。"
+    },
+    {
+      "id": "kyushu-eng-aerospace-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "航空宇宙工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目\n日本語（口頭試問により判断）\n英語（総合英語資格試験スコアにより判断）\n口頭試問",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。此专攻日语以口头判断、英语以外检替代笔试。 不复制一般的选答数或固定科目范围。"
+    },
+    {
+      "id": "kyushu-eng-quantum-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "量子物理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目\n日本語（口頭試問により判断）\n英語（総合英語資格試験スコアにより判断）\n口頭試問",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。此专攻日语以口头判断、英语以外检替代笔试。 不复制一般的选答数或固定科目范围。"
+    },
+    {
+      "id": "kyushu-eng-naval-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "船舶海洋工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目（数学を含む）\n日本語（口頭試問により判断）\n英語（総合英語資格試験スコアにより判断）\n口頭試問",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。此专攻日语以口头判断、英语以外检替代笔试。 不复制一般的选答数或固定科目范围。"
+    },
+    {
+      "id": "kyushu-eng-earth-resources-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "地球資源システム工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目\n日本語\n英語\n口頭試問",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。专业、日语、英语与口头试问的具体方式和范围向专攻确认。 不复制一般的选答数或固定科目范围。"
+    },
+    {
+      "id": "kyushu-eng-cooperative-resources-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "共同資源工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目\n日本語\n英語\n口頭試問",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。专业、日语、英语与口头试问的具体方式和范围向专攻确认。 不复制一般的选答数或固定科目范围。"
+    },
+    {
+      "id": "kyushu-eng-civil-foreign",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "土木工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月外国人特別：科目・言語評価・数学",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "11専攻と試験案内",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/1cf01476382783ab10d260436103a558.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "最新外国人特別選抜",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "専門科目（数学を含む）\n日本語\n英語\n口頭試問",
+      "editorialNote": "2026年10月版、2027年1月6～13日の一日に試験、4月入学。专业、日语、英语与口头试问的具体方式和范围向专攻确认。 不复制一般的选答数或固定科目范围。"
+    },
+    {
+      "id": "kyushu-eng-materials-english",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "材料工学専攻",
+      "admissionType": "international",
+      "selectionName": "International Master’s Program (グローバルコース)",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：Materials subjects",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Written／Oral examination",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Participating programs／supervisor consent",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "Current International Master’s Programs",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Materials",
+      "subjectsOriginal": "Materials Engineering I, II, III\nInterview (English Speaking)",
+      "scopeOriginal": "Materials Engineering I: Materials Physical Chemistry, Chemical Thermodynamics, Transport Phenomena, Materials Reaction Engineering, Materials Electrochemistry\nMaterials Engineering II: Solidification Theory, Microstructure and Phase Transformation, Mechanical Properties of Materials\nMaterials Engineering III: Solid State Physics, Solid State Chemistry, Semiconductor Engineering",
+      "conditionsOriginal": "Score certificate of qualification examination of English is not required.",
+      "editorialNote": "2026年10月版、2027年1月试验／4月入学，须事先取得指导教员同意。材料英语能力通过面试评价，不强加TOEIC／TOEFL证明。 2027年4月本文件未募集航空宇宙、量子物理或土木全球课程，不扩展到全11专攻。"
+    },
+    {
+      "id": "kyushu-eng-applied-chemistry-english",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "応用化学専攻",
+      "admissionType": "international",
+      "selectionName": "International Master’s Program (グローバルコース)",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：Applied Chemistry subjects",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Written／Oral examination",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Participating programs／supervisor consent",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "Current International Master’s Programs",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Applied Chemistry",
+      "subjectsOriginal": "Organic Chemistry, Inorganic Chemistry, Physical Chemistry\nEnglish proficiency score and oral examination",
+      "scopeOriginal": "Organic Chemistry, Inorganic Chemistry, Physical Chemistry",
+      "editorialNote": "2026年10月版、2027年1月试验／4月入学，须事先取得指导教员同意。专业只列有机／无机／物理三类，与一般五类专业及独立英语笔试区分。 2027年4月本文件未募集航空宇宙、量子物理或土木全球课程，不扩展到全11专攻。"
+    },
+    {
+      "id": "kyushu-eng-chemical-engineering-english",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "化学工学専攻",
+      "admissionType": "international",
+      "selectionName": "International Master’s Program (グローバルコース)",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：Chemical Engineering subjects",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "Written／Oral examination",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Participating programs／supervisor consent",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "Current International Master’s Programs",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Chemical Engineering",
+      "subjectsOriginal": "Mathematics\nChemical Engineering I, II, III\nEnglish (TOEIC or TOEFL)\nOral Examination",
+      "scopeOriginal": "Chemical Engineering I: Chemical Thermodynamics, Basic Chemistry, Fundamentals of Bioengineering\nChemical Engineering II: Fluid Dynamics, Heat Transfer, Mass Transfer\nChemical Engineering III: Process Control, Chemical Reaction Engineering, Biochemical Engineering",
+      "editorialNote": "2026年10月版、2027年1月试验／4月入学，须事先取得指导教员同意。英语仅外部成绩，可同时交TOEIC／TOEFL。 2027年4月本文件未募集航空宇宙、量子物理或土木全球课程，不扩展到全11专攻。"
+    },
+    {
+      "id": "kyushu-eng-mechanical-english",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "selectionName": "International Master’s Program (グローバルコース)",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：Mechanical Engineering subjects",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "January 2027／April 2027：Key Words",
+          "url": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2026/04/kw_2026.10-2027.4_mech_mcgc.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "Written／Oral examination",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Participating programs／supervisor consent",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "Current International Master’s Programs",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Mechanical Engineering",
+      "subjectsOriginal": "Mechanics of Materials, Dynamics of Machinery, Thermal Engineering, Fluids Engineering\nMathematics\nEnglish\nOral examination",
+      "scopeOriginal": "Mechanics of Materials: Equilibrium Condition, Hooke's Law, Coordinate Transformation of Stress, Truss, Bending of Beam, Torsion, Thin Walled Pressurized Cylindrical Vessel, Buckling of Column\nDynamics of Machinery: Dynamics of Point Mass, Dynamics of System of Particles, Dynamics of Rigid Body, Analytical Dynamics, Vibration of Single Degree-of-Freedom System, Vibration of Multiple Degree-of-Freedom System, Rotordynamics\nThermal Engineering: The First Law of Thermodynamics in Closed and Open Systems, Change of State of Ideal Gas, Entropy and the Second Law of Thermodynamics, Gas Cycle, Liquid-Vapor Phase Change, Steam Power Cycle, Refrigeration Cycle, Heat Pump Cycle, Conductive Heat Transfer, Convective Heat Transfer, Radiative Heat Transfer, Heat Exchanger\nFluids Engineering: Characteristics of Fluids, Fluid Statics, Fluid Kinematics, Continuity Equation, Momentum Equation, Angular Momentum Equation, Energy Equation, Pipe Flow and Losses, Dimensional Analysis and Similitude, Laminar Flow, Quasi-Steady Flow\nMathematics: Differential and Integral Calculus, Differential Equations, Linear Algebra, Vector Calculus, Numerical Analysis, Geometry, Complex Function, General Applied Mathematics",
+      "editorialNote": "2026年10月版、2027年1月试验／4月入学，须事先取得指导教员同意。采用2027年4月英语项目专用关键词。 2027年4月本文件未募集航空宇宙、量子物理或土木全球课程，不扩展到全11专攻。"
+    },
+    {
+      "id": "kyushu-eng-hydrogen-english-a",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "水素エネルギーシステム専攻",
+      "admissionType": "international",
+      "selectionName": "International Master’s Program (グローバルコース)",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：Hydrogen Energy Systems — Group A subjects",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "January 2027／April 2027：Key Words",
+          "url": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2026/04/kw_2026.10-2027.4_mech_mcgc.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "Written／Oral examination",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Participating programs／supervisor consent",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "Current International Master’s Programs",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Hydrogen Energy Systems — Group A",
+      "subjectsOriginal": "Mechanics of Materials, Dynamics of Machinery, Thermal Engineering, Fluids Engineering\nMathematics\nEnglish\nOral examination",
+      "scopeOriginal": "Mechanics of Materials: Equilibrium Condition, Hooke's Law, Coordinate Transformation of Stress, Truss, Bending of Beam, Torsion, Thin Walled Pressurized Cylindrical Vessel, Buckling of Column\nDynamics of Machinery: Dynamics of Point Mass, Dynamics of System of Particles, Dynamics of Rigid Body, Analytical Dynamics, Vibration of Single Degree-of-Freedom System, Vibration of Multiple Degree-of-Freedom System, Rotordynamics\nThermal Engineering: The First Law of Thermodynamics in Closed and Open Systems, Change of State of Ideal Gas, Entropy and the Second Law of Thermodynamics, Gas Cycle, Liquid-Vapor Phase Change, Steam Power Cycle, Refrigeration Cycle, Heat Pump Cycle, Conductive Heat Transfer, Convective Heat Transfer, Radiative Heat Transfer, Heat Exchanger\nFluids Engineering: Characteristics of Fluids, Fluid Statics, Fluid Kinematics, Continuity Equation, Momentum Equation, Angular Momentum Equation, Energy Equation, Pipe Flow and Losses, Dimensional Analysis and Similitude, Laminar Flow, Quasi-Steady Flow\nMathematics: Differential and Integral Calculus, Differential Equations, Linear Algebra, Vector Calculus, Numerical Analysis, Geometry, Complex Function, General Applied Mathematics",
+      "conditionsOriginal": "Take one of the following subject groups: Group A, Group B.",
+      "editorialNote": "2026年10月版、2027年1月试验／4月入学，须事先取得指导教员同意。A群与机械四科相同。 2027年4月本文件未募集航空宇宙、量子物理或土木全球课程，不扩展到全11专攻。"
+    },
+    {
+      "id": "kyushu-eng-hydrogen-english-b",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "水素エネルギーシステム専攻",
+      "admissionType": "international",
+      "selectionName": "International Master’s Program (グローバルコース)",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：Hydrogen Energy Systems — Group B subjects",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "January 2027／April 2027：Key Words",
+          "url": "https://www.mech.kyushu-u.ac.jp/wp/wp-content/uploads/2026/04/kw_2026.10-2027.4_mech_mcgc.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "Written／Oral examination",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Participating programs／supervisor consent",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "Current International Master’s Programs",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Hydrogen Energy Systems — Group B",
+      "subjectsOriginal": "Mechanics of Materials, Mechanics and Materials Science, Physical Chemistry, Electrochemistry\nMathematics\nEnglish\nOral examination",
+      "scopeOriginal": "Mechanics of Materials: Equilibrium Condition, Hooke's Law, Coordinate Transformation of Stress, Truss, Bending of Beam, Torsion, Thin Walled Pressurized Cylindrical Vessel, Buckling of Column\nMechanics: Newton's Laws of Motion, Motion of a Particle, Work and Energy, Relative Motion, Dynamics of Particles, Planer Motion of a Rigid Body\nMaterials Science: Chemical Bond of Materials, Solid-State Structure of Materials, Crystal and Amorphous, Physical Properties of Materials, Process Technology of Materials, Energy Conversion Materials, Composite Materials\nPhysical Chemistry: The Properties of Gases, Chemical Thermodynamics, Physical Transformations of Pure Substances, Simple Mixtures, Phase Diagrams, Chemical Equilibrium, Molecules in Motion, The Rates of Chemical Reactions\nElectrochemistry: Equilibrium Electrochemistry, Nernst Equation and Electromotive Force, Components of Electrochemical System, Reference Electrode and Standard Potentials, Electrochemical Kinetics, Faraday's Law (of Electrolysis), Charge Transfer Process, Mass Transfer Process, Fuel Cells and Water Electrolyzers\nMathematics: Differential and Integral Calculus, Differential Equations, Linear Algebra, Vector Calculus, Numerical Analysis, Geometry, Complex Function, General Applied Mathematics",
+      "conditionsOriginal": "Take one of the following subject groups: Group A, Group B.",
+      "editorialNote": "2026年10月版、2027年1月试验／4月入学，须事先取得指导教员同意。B群另考力学材料、物理化学、电化学，不套A群机械动力／热／流体。 2027年4月本文件未募集航空宇宙、量子物理或土木全球课程，不扩展到全11专攻。"
+    },
+    {
+      "id": "kyushu-eng-naval-english",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "船舶海洋工学専攻",
+      "admissionType": "international",
+      "selectionName": "International Master’s Program (グローバルコース)",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：Naval Architecture and Ocean Engineering subjects",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Written／Oral examination",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Participating programs／supervisor consent",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "Current International Master’s Programs",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Naval Architecture and Ocean Engineering",
+      "subjectsOriginal": "Mathematics\nSpecialized subject\nEnglish (TOEIC or TOEFL)\nOral Examination",
+      "scopeOriginal": "Mathematics: Differential Equation, Functional Theory, Linear Algebra\nSpecialized subject: Hydrodynamics, Strength of Materials, Mechanics",
+      "conditionsOriginal": "Mathematics: Choose two subjects\nSpecialized subject: Choose one subject",
+      "editorialNote": "2026年10月版、2027年1月试验／4月入学，须事先取得指导教员同意。数学三选二、专业三选一，不套一般Ⅰ／Ⅱ或特别选拔专业不公开表。 2027年4月本文件未募集航空宇宙、量子物理或土木全球课程，不扩展到全11专攻。"
+    },
+    {
+      "id": "kyushu-eng-earth-resources-english",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "地球資源システム工学専攻",
+      "admissionType": "international",
+      "selectionName": "International Master’s Program (グローバルコース)",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：Earth Resources Engineering subjects",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Written／Oral examination",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Participating programs／supervisor consent",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "Current International Master’s Programs",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Earth Resources Engineering",
+      "subjectsOriginal": "Mathematics\nEnglish\nSpecialized subject\nOral Examination",
+      "scopeOriginal": "Mathematics: Calculus Differential Equation, Complex Functional Theory\nSpecialized subject: Economic Geology, Exploration Geophysics, Geothermics, Resources Development and Production Engineering, Rock Engineering, Mineral Processing, Energy Resources Engineering",
+      "conditionsOriginal": "Specialized subject: Choose a specific area",
+      "editorialNote": "2026年10月版、2027年1月试验／4月入学，须事先取得指导教员同意。专业七选一；英语交TOEIC／TOEFL等，必要时另课专攻英语试验。成绩可获学科免除，通知期限为出愿截止后两周。 2027年4月本文件未募集航空宇宙、量子物理或土木全球课程，不扩展到全11专攻。"
+    },
+    {
+      "id": "kyushu-eng-cooperative-resources-english",
+      "universityId": "kyushu",
+      "graduateSchool": "工学府",
+      "department": "共同資源工学専攻",
+      "admissionType": "international",
+      "selectionName": "Cooperative Program for Resources Engineering — Master’s Course",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年4月：Cooperative Program for Resources Engineering subjects",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Written／Oral examination",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Participating programs／supervisor consent",
+          "url": "https://www.eng.kyushu-u.ac.jp/_cms_dir/uploads/2026/09/9ec628c050c13916b8201e60121ece7e.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "Current International Master’s Programs",
+          "url": "https://www.eng.kyushu-u.ac.jp/admissions/graduate-admissions/",
+          "kind": "page"
+        }
+      ],
+      "course": "Cooperative Program for Resources Engineering",
+      "subjectsOriginal": "Mathematics\nEnglish\nSpecialized subject\nOral Examination",
+      "scopeOriginal": "Mathematics: Calculus Differential Equation, Complex Functional Theory\nSpecialized subject: Economic Geology, Exploration Geophysics, Geothermics, Resources Development and Production Engineering, Rock Engineering, Mineral Processing, Energy Resources Engineering",
+      "conditionsOriginal": "Specialized subject: Choose a specific area",
+      "editorialNote": "2026年10月版、2027年1月试验／4月入学，须事先取得指导教员同意。本文件同时募集的共同资源专攻，专业七选一。必要时另课英语试验；免除通知期限为截止后一周。 2027年4月本文件未募集航空宇宙、量子物理或土木全球课程，不扩展到全11专攻。"
+    },
+    {
+      "id": "kyushu-isee-architecture-general-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報アーキテクチャ・セキュリティコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-architecture-general-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 特別試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報アーキテクチャ・セキュリティコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-architecture-global-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 一般試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報アーキテクチャ・セキュリティコース",
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-architecture-global-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 特別試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報アーキテクチャ・セキュリティコース",
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-data-science-general-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "データサイエンスコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-data-science-general-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 特別試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "データサイエンスコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-data-science-global-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 一般試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "データサイエンスコース",
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-data-science-global-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 特別試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "データサイエンスコース",
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-ai-robotics-general-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "AI・ロボティクスコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-ai-robotics-general-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 特別試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "AI・ロボティクスコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-ai-robotics-global-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 一般試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "AI・ロボティクスコース",
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-ai-robotics-global-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 特別試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "AI・ロボティクスコース",
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，情報理論，オートマトンと言語，電磁気学，アルゴリズム，計算機アーキテクチャ",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：6分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-information-devices-general-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報デバイス・システムコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，電子回路，制御工学，電磁気学，半導体デバイス",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：5分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-information-devices-general-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 特別試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報デバイス・システムコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，電子回路，制御工学，電磁気学，半導体デバイス",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：5分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-information-devices-global-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 一般試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報デバイス・システムコース",
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，電子回路，制御工学，電磁気学，半導体デバイス",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：5分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-information-devices-global-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 特別試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報デバイス・システムコース",
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，電子回路，制御工学，電磁気学，半導体デバイス",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：5分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-energy-devices-general-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "エネルギーデバイス・システムコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，電子回路，制御工学，電磁気学，半導体デバイス",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：5分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-energy-devices-general-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 特別試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027mc_general_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "エネルギーデバイス・システムコース",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，電子回路，制御工学，電磁気学，半導体デバイス",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：5分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本普通募集出愿者不得再报同年度全球课程，即便改报另一专攻。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-energy-devices-global-written",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 一般試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "エネルギーデバイス・システムコース",
+      "subjectsOriginal": "英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，電子回路，制御工学，電磁気学，半導体デバイス",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：5分野から2分野選択",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。一般试验为学科笔试，未列全员口述。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-isee-energy-devices-global-special",
+      "universityId": "kyushu",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 グローバルコース 特別試験",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学・専攻別専門科目と選答",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般／特別の実施方法",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式2専攻・5コース",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "TOEIC／TOEFL Home Edition／IELTS",
+          "url": "https://www.isee.kyushu-u.ac.jp/wp/wp-content/uploads/2027oct_mc_global_guidelines_20260420.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年最新要項",
+          "url": "https://www.isee.kyushu-u.ac.jp/admissions_master.html",
+          "kind": "page"
+        }
+      ],
+      "course": "エネルギーデバイス・システムコース",
+      "subjectsOriginal": "口述試験\n（免除されない場合）学科試験：\n英語（TOEIC，TOEFL又はIELTS）\n数学\n専門科目",
+      "scopeOriginal": "数学：線形代数，解析学・微積分，ベクトル解析，確率・統計\n解析学・微積分：微分積分，微分方程式，複素関数論\n専門科目：電気回路，電子回路，制御工学，電磁気学，半導体デバイス",
+      "conditionsOriginal": "数学：線形代数，解析学・微積分は必須／ベクトル解析又は確率・統計から1分野選択\n専門科目：5分野から2分野選択\n口述試験合格者は学科試験を免除",
+      "editorialNote": "2027年要项采用两个正式专攻、五课程。特別試験为成绩等材料筛选后口述，非国籍专用留学生考试；未获口述资格或未通过者再考学科。 本全球课程确为2027年10月入学，试验在2026年6／8月实施；保留官方所写入学年，勿将试验年当入学年。 TOEFL Home Edition可用，与芸術工学的禁用区分；所有出身学校均须事先联系指导教员。"
+    },
+    {
+      "id": "kyushu-iges-group1-general-written",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（筆答試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "類別科目・選答・研究室条件",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "数学・力学・熱・流体・電磁のキーワード",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/20260428_%E7%AD%86%E7%AD%94%E5%87%BA%E9%A1%8C%E7%AF%84%E5%9B%B2%20_%E5%A4%89%E6%9B%B4.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "固体物性・電気回路・物理化学・無機",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/20260428_%E7%AD%86%E7%AD%94%E5%87%BA%E9%A1%8C%E7%AF%84%E5%9B%B2%20_%E5%A4%89%E6%9B%B4.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "有機・基盤化学・金属材料",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/20260428_%E7%AD%86%E7%AD%94%E5%87%BA%E9%A1%8C%E7%AF%84%E5%9B%B2%20_%E5%A4%89%E6%9B%B4.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "筆記試験・面接・日本語実施",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "1正式専攻・6メジャー",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "最新一般募集",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "Ⅰ類（物質科学）",
+      "subjectsOriginal": "筆記試験：数学・専門科目\n面接\n英語能力認定証（TOEIC又はTOEFL）",
+      "scopeOriginal": "数学Ⅰ：線形代数，微分方程式\n線形代数：行列の演算，連立一次方程式，逆行列，ベクトル空間，行列式，線形写像，固有値，固有ベクトル\n微分方程式：常微分方程式，連立常微分方程式\n専門科目：固体物性学，力学，物理化学，無機化学，有機化学，基盤化学，金属材料学，電磁気学，電気回路論\n固体物性学：固体内の結合，結晶構造，構造因子と回折，格子振動と熱的性質，金属と半導体の電気的性質\n電気回路論：直流回路，交流回路，重要な諸定理，二端子対回路，過渡現象，三相交流回路，電子回路の基礎（基礎的なトランジスタ，オペアンプ回路）\n物理化学：化学熱力学，化学平衡論，反応速度論（平衡電気化学・電極反応の速度論は除く）\n無機化学：化学結合，分子の構造，単純な固体の構造，錯体化学，無機化合物と元素\n有機化学：有機化合物の立体化学・反応機構・合成，ペリ環状反応，生体分子化学，高次構造・機能・酵素反応，遺伝子の発現，糖質代謝\n基盤化学：原子構造と周期表，酸と塩基，酸化還元・電気化学，溶液の濃度と化学平衡，有機分子の構造・物性・機能，機器分析の基礎\n金属材料学：結晶構造，格子欠陥，状態図，凝固，拡散，相変態，熱処理，微細組織，弾性変形，塑性変形，転位の運動，強化機構\n力学：質点・質点系の力学，剛体の力学\n電磁気学：静電界，定常電流，静磁界，定常電流と磁界，電磁誘導",
+      "conditionsOriginal": "数学Ⅰ・専門9題の合計10題から3題選択\nⅠ類のみ志望：数学Ⅰは必須ではない／Ⅱ・Ⅲ類の研究室を含む：数学Ⅰ必須\n有機化学：有機3小問＋生化学1小問から3小問／基盤化学：3小問から2小問",
+      "editorialNote": "一学府一专攻，Ⅰ／Ⅱ／Ⅲ是考试区分，六メジャー是修了专业领域，不当作六专攻。笔试及面接日语实施。跨类志望须至少解答一题相应共同专业，否则该类研究室不列配属对象；完整交叉表见实际第19页。 化学工学仅口述対応。 按2026年4月28日修订范围，不沿用旧化学范围。"
+    },
+    {
+      "id": "kyushu-iges-group1-general-oral",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（口述試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "口述方式",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "対象・事前面談・類の一致",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "日本語実施・選抜",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "正式専攻とメジャー",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "最新募集",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "Ⅰ類（物質科学）",
+      "subjectsOriginal": "口頭試問\n英語能力認定証（TOEIC又はTOEFL）",
+      "scopeOriginal": "専門科目，卒業研究，志望動機，入学後の研究計画",
+      "editorialNote": "材料决定口述对象，须事前面谈，第一志望研究室类与受验类一致；口述不课笔记，未合格者可参加笔答。日语实施，不将一般的10选3或数学必答标为本口述必考笔试。"
+    },
+    {
+      "id": "kyushu-iges-group1-second",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第2次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "二次募集：科目・固定申告・入学年",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2026年12月5日：筆答・面接",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "英語認定証",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "正式専攻・類",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2026年9月24日公開：第2次募集",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "Ⅰ類（物質科学）",
+      "subjectsOriginal": "筆答試験\n面接\n英語能力認定証（TOEIC又はTOEFL）",
+      "scopeOriginal": "金属材料学，無機化学，物理化学，有機化学",
+      "conditionsOriginal": "4科目から1科目を出願時に選択・申告／申告後の変更不可",
+      "editorialNote": "2027年4月入学、2026年12月5日试验；Ⅰ类四选一，Ⅱ／Ⅲ只考一门数学加面接，不沿用7月首轮数学Ⅱ和专业选答。研究室是否募集按当次名单。"
+    },
+    {
+      "id": "kyushu-iges-group1-international-written",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生特別選抜・国際コース（筆答試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Program：category-specific subjects",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "Written examination and Interview in English",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Department／participating laboratories",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "April 2027：current International Program",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/master_apr.php",
+          "kind": "page"
+        }
+      ],
+      "course": "Ⅰ類（物質科学）",
+      "subjectsOriginal": "Written examination\nInterview",
+      "scopeOriginal": "Metallurgy, Inorganic Chemistry, Physical Chemistry, Organic Chemistry",
+      "conditionsOriginal": "Available Subjects (Select one)",
+      "editorialNote": "2027年4月英语国际课程；2026年12月5日笔试与面接全英语，Ⅰ类出愿时四选一且不可更改，Ⅱ／Ⅲ数学两题全答。另须按要项提交英语能力证明。接收实验室名单预计2026年10月中旬公布，不能沿用入口上的2025旧名单。"
+    },
+    {
+      "id": "kyushu-iges-group2-general-written",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（筆答試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "類別科目・選答・研究室条件",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "数学・力学・熱・流体・電磁のキーワード",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/20260428_%E7%AD%86%E7%AD%94%E5%87%BA%E9%A1%8C%E7%AF%84%E5%9B%B2%20_%E5%A4%89%E6%9B%B4.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "固体物性・電気回路・物理化学・無機",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/20260428_%E7%AD%86%E7%AD%94%E5%87%BA%E9%A1%8C%E7%AF%84%E5%9B%B2%20_%E5%A4%89%E6%9B%B4.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "筆記試験・面接・日本語実施",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "1正式専攻・6メジャー",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "最新一般募集",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "Ⅱ類（エネルギー科学）",
+      "subjectsOriginal": "筆記試験：数学・専門科目\n面接\n英語能力認定証（TOEIC又はTOEFL）",
+      "scopeOriginal": "数学Ⅰ：線形代数，微分方程式\n線形代数：行列の演算，連立一次方程式，逆行列，ベクトル空間，行列式，線形写像，固有値，固有ベクトル\n微分方程式：常微分方程式，連立常微分方程式\n数学Ⅱ：微分積分学，ベクトル解析，複素関数\n級数，極限，多変数関数の微積分，ベクトルの内積・外積，勾配・発散・回転，曲率・法線，ガウスの定理・ストークスの定理，線積分・面積分・体積積分，ド・モアブルの定理，正則関数，調和関数，コーシー・リーマンの方程式，複素変数の関数の積分，コーシーの定理，テイラー展開・ローラン展開，留数定理\n専門科目：固体物性学，力学，熱力学，流体力学，電磁気学，電気回路論\n力学：質点・質点系の力学，剛体の力学\n熱力学：熱力学第1法則・第2法則，理想気体，実在気体，気液相変化，熱力学サイクル\n流体力学：静水力学，ベルヌーイの定理，連続の式，運動量保存則，管内流れと損失，粘性流体の流れ（層流），完全流体（理想流体）の流れ，次元解析と相似則（圧縮性流体は出題範囲に含まない）\n電磁気学：静電界，定常電流，静磁界，定常電流と磁界，電磁誘導\n固体物性学：固体内の結合，結晶構造，構造因子と回折，格子振動と熱的性質，金属と半導体の電気的性質\n電気回路論：直流回路，交流回路，重要な諸定理，二端子対回路，過渡現象，三相交流回路，電子回路の基礎（基礎的なトランジスタ，オペアンプ回路）",
+      "conditionsOriginal": "数学Ⅰは必須\n数学Ⅱ・専門6題の合計7題から2題選択",
+      "editorialNote": "一学府一专攻，Ⅰ／Ⅱ／Ⅲ是考试区分，六メジャー是修了专业领域，不当作六专攻。笔试及面接日语实施。跨类志望须至少解答一题相应共同专业，否则该类研究室不列配属对象；完整交叉表见实际第19页。 流体范围明确排除压缩流。 按2026年4月28日修订范围，不沿用旧化学范围。"
+    },
+    {
+      "id": "kyushu-iges-group2-general-oral",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（口述試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "口述方式",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "対象・事前面談・類の一致",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "日本語実施・選抜",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "正式専攻とメジャー",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "最新募集",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "Ⅱ類（エネルギー科学）",
+      "subjectsOriginal": "口頭試問\n英語能力認定証（TOEIC又はTOEFL）",
+      "scopeOriginal": "専門科目，卒業研究，志望動機，入学後の研究計画",
+      "editorialNote": "材料决定口述对象，须事前面谈，第一志望研究室类与受验类一致；口述不课笔记，未合格者可参加笔答。日语实施，不将一般的10选3或数学必答标为本口述必考笔试。"
+    },
+    {
+      "id": "kyushu-iges-group2-second",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第2次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "二次募集：科目・固定申告・入学年",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2026年12月5日：筆答・面接",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "英語認定証",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "正式専攻・類",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2026年9月24日公開：第2次募集",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "Ⅱ類（エネルギー科学）",
+      "subjectsOriginal": "筆答試験\n面接\n英語能力認定証（TOEIC又はTOEFL）",
+      "scopeOriginal": "数学：線形代数，微分方程式",
+      "conditionsOriginal": "線形代数・微分方程式から各1題／両方解答",
+      "editorialNote": "2027年4月入学、2026年12月5日试验；Ⅰ类四选一，Ⅱ／Ⅲ只考一门数学加面接，不沿用7月首轮数学Ⅱ和专业选答。研究室是否募集按当次名单。"
+    },
+    {
+      "id": "kyushu-iges-group2-international-written",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生特別選抜・国際コース（筆答試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Program：category-specific subjects",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "Written examination and Interview in English",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Department／participating laboratories",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "April 2027：current International Program",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/master_apr.php",
+          "kind": "page"
+        }
+      ],
+      "course": "Ⅱ類（エネルギー科学）",
+      "subjectsOriginal": "Written examination\nInterview",
+      "scopeOriginal": "Mathematics: Linear Algebra, Differential Equations",
+      "conditionsOriginal": "Both questions must be answered.",
+      "editorialNote": "2027年4月英语国际课程；2026年12月5日笔试与面接全英语，Ⅰ类出愿时四选一且不可更改，Ⅱ／Ⅲ数学两题全答。另须按要项提交英语能力证明。接收实验室名单预计2026年10月中旬公布，不能沿用入口上的2025旧名单。"
+    },
+    {
+      "id": "kyushu-iges-group2-international-oral",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生特別選抜・国際コース（口述試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Oral option only for Categories II and III",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Oral examination in English／November 7, 2026",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "Unsuccessful oral candidates may take written exam",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Participating laboratories",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Current call",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/master_apr.php",
+          "kind": "page"
+        }
+      ],
+      "course": "Ⅱ類（エネルギー科学）",
+      "subjectsOriginal": "Oral examination",
+      "scopeOriginal": "specialized subjects, graduation research, reasons for application, research plans after admission",
+      "editorialNote": "只限Ⅱ／Ⅲ类，有符合相应学力者时才实施；Ⅰ类无口述入口。2026年11月7日英语口述，可线上；须出愿前面谈，未合格可再考12月笔答。具体实验室依10月中旬预计公布的当年名单。"
+    },
+    {
+      "id": "kyushu-iges-group3-general-written",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（筆答試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "類別科目・選答・研究室条件",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "数学・力学・熱・流体・電磁のキーワード",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/20260428_%E7%AD%86%E7%AD%94%E5%87%BA%E9%A1%8C%E7%AF%84%E5%9B%B2%20_%E5%A4%89%E6%9B%B4.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "筆記試験・面接・日本語実施",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "1正式専攻・6メジャー",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "最新一般募集",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "Ⅲ類（環境システム科学）",
+      "subjectsOriginal": "筆記試験：数学・専門科目\n面接\n英語能力認定証（TOEIC又はTOEFL）",
+      "scopeOriginal": "数学Ⅰ：線形代数，微分方程式\n線形代数：行列の演算，連立一次方程式，逆行列，ベクトル空間，行列式，線形写像，固有値，固有ベクトル\n微分方程式：常微分方程式，連立常微分方程式\n数学Ⅱ：微分積分学，ベクトル解析，複素関数\n級数，極限，多変数関数の微積分，ベクトルの内積・外積，勾配・発散・回転，曲率・法線，ガウスの定理・ストークスの定理，線積分・面積分・体積積分，ド・モアブルの定理，正則関数，調和関数，コーシー・リーマンの方程式，複素変数の関数の積分，コーシーの定理，テイラー展開・ローラン展開，留数定理\n専門科目：力学，熱力学，流体力学，電磁気学\n力学：質点・質点系の力学，剛体の力学\n熱力学：熱力学第1法則・第2法則，理想気体，実在気体，気液相変化，熱力学サイクル\n流体力学：静水力学，ベルヌーイの定理，連続の式，運動量保存則，管内流れと損失，粘性流体の流れ（層流），完全流体（理想流体）の流れ，次元解析と相似則（圧縮性流体は出題範囲に含まない）\n電磁気学：静電界，定常電流，静磁界，定常電流と磁界，電磁誘導",
+      "conditionsOriginal": "数学Ⅰは必須\n数学Ⅱ・専門4題の合計5題から2題選択",
+      "editorialNote": "一学府一专攻，Ⅰ／Ⅱ／Ⅲ是考试区分，六メジャー是修了专业领域，不当作六专攻。笔试及面接日语实施。跨类志望须至少解答一题相应共同专业，否则该类研究室不列配属对象；完整交叉表见实际第19页。 流体范围明确排除压缩流。 按2026年4月28日修订范围，不沿用旧化学范围。"
+    },
+    {
+      "id": "kyushu-iges-group3-general-oral",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（口述試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "口述方式",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "対象・事前面談・類の一致",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "日本語実施・選抜",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "正式専攻とメジャー",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/files/A01_2027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850416.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "最新募集",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "Ⅲ類（環境システム科学）",
+      "subjectsOriginal": "口頭試問\n英語能力認定証（TOEIC又はTOEFL）",
+      "scopeOriginal": "専門科目，卒業研究，志望動機，入学後の研究計画",
+      "editorialNote": "材料决定口述对象，须事前面谈，第一志望研究室类与受验类一致；口述不课笔记，未合格者可参加笔答。日语实施，不将一般的10选3或数学必答标为本口述必考笔试。"
+    },
+    {
+      "id": "kyushu-iges-group3-second",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第2次募集）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "二次募集：科目・固定申告・入学年",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2026年12月5日：筆答・面接",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "英語認定証",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "正式専攻・類",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/file/I00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E4%B8%80%E8%88%AC2%E6%AC%A1_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2026年9月24日公開：第2次募集",
+          "url": "https://www.tj.kyushu-u.ac.jp/exam/master/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "Ⅲ類（環境システム科学）",
+      "subjectsOriginal": "筆答試験\n面接\n英語能力認定証（TOEIC又はTOEFL）",
+      "scopeOriginal": "数学：線形代数，微分方程式",
+      "conditionsOriginal": "線形代数・微分方程式から各1題／両方解答",
+      "editorialNote": "2027年4月入学、2026年12月5日试验；Ⅰ类四选一，Ⅱ／Ⅲ只考一门数学加面接，不沿用7月首轮数学Ⅱ和专业选答。研究室是否募集按当次名单。"
+    },
+    {
+      "id": "kyushu-iges-group3-international-written",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生特別選抜・国際コース（筆答試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Program：category-specific subjects",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "Written examination and Interview in English",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Department／participating laboratories",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "April 2027：current International Program",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/master_apr.php",
+          "kind": "page"
+        }
+      ],
+      "course": "Ⅲ類（環境システム科学）",
+      "subjectsOriginal": "Written examination\nInterview",
+      "scopeOriginal": "Mathematics: Linear Algebra, Differential Equations",
+      "conditionsOriginal": "Both questions must be answered.",
+      "editorialNote": "2027年4月英语国际课程；2026年12月5日笔试与面接全英语，Ⅰ类出愿时四选一且不可更改，Ⅱ／Ⅲ数学两题全答。另须按要项提交英语能力证明。接收实验室名单预计2026年10月中旬公布，不能沿用入口上的2025旧名单。"
+    },
+    {
+      "id": "kyushu-iges-group3-international-oral",
+      "universityId": "kyushu",
+      "graduateSchool": "総合理工学府",
+      "department": "総合理工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生特別選抜・国際コース（口述試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Oral option only for Categories II and III",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Oral examination in English／November 7, 2026",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "Unsuccessful oral candidates may take written exam",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "Participating laboratories",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/file/H00-%EF%BC%88%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%892027_%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E5%9B%BD%E9%9A%9B%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%BB4%E6%9C%88%E5%85%A5%E5%AD%A6%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Current call",
+          "url": "https://www.tj.kyushu-u.ac.jp/en/exam/master/master_apr.php",
+          "kind": "page"
+        }
+      ],
+      "course": "Ⅲ類（環境システム科学）",
+      "subjectsOriginal": "Oral examination",
+      "scopeOriginal": "specialized subjects, graduation research, reasons for application, research plans after admission",
+      "editorialNote": "只限Ⅱ／Ⅲ类，有符合相应学力者时才实施；Ⅰ类无口述入口。2026年11月7日英语口述，可线上；须出愿前面谈，未合格可再考12月笔答。具体实验室依10月中旬预计公布的当年名单。"
+    },
+    {
+      "id": "kyushu-sci-physics-general",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "物理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "物理：学力検査・口頭試問",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "TOEIC L&R／S&W／TOEFL",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "要項指定：物理の主な出題範囲",
+          "url": "https://www.phys.kyushu-u.ac.jp/graduate/info_problem.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新入試案内",
+          "url": "https://www.phys.kyushu-u.ac.jp/graduate/info.html",
+          "kind": "page"
+        },
+        {
+          "label": "当年一次要項の公式保管",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/daigakuin_past.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "物理\n英語（TOEIC又はTOEFL）\n口頭試問",
+      "scopeOriginal": "力学および解析力学：振動（単振動，減衰振動，強制振動，連成振動，剛体振子），剛体の平面運動，拘束のある運動，保存則，質点及び質点系の運動（基本的にラグランジュ形式）\n電磁気学：静電場，静磁場，電磁誘導，変位電流，マックスウェル方程式，電磁波\n量子力学：シュレディンガー方程式と波動関数，確率密度と確率の流れの密度，反射と透過，固有値方程式と固有関数，3次元中心力と角運動量，状態ベクトルと物理量演算子，スピン，摂動論および種々の近似\n熱・統計力学：ミクロカノニカル集団，カノニカル集団，グランドカノニカル集団，分配関数，熱力学第一法則と第二法則，平衡，熱機関，自由エネルギー，ルジャンドル変換，マクスウェル関係式，相転移\n物理数学：上記の問題を解くのに必要とされる基礎的部分",
+      "editorialNote": "一般笔试后按学力成绩决定口头受验资格；英语可TOEIC L&R或S&W或TOEFL iBT，不复制生命科学禁S&W规则。2027一次要项考后移到官方过去要项页，仍按实际2027年4月要求保存。"
+    },
+    {
+      "id": "kyushu-sci-chemistry-general",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "化学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "化学：6科目から3科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "化学：TOEFL対象外",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "事前相談・志望",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "化学：最新入試案内",
+          "url": "https://www.scc.kyushu-u.ac.jp/application/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "化学\n英語（TOEIC）\n口頭試問",
+      "scopeOriginal": "無機化学，有機化学，物理化学，分析化学，構造化学，生物化学",
+      "conditionsOriginal": "化学：6科目から任意に3科目選択\nTOEFL試験は対象外。\n口頭試問：九州大学理学部化学科に在籍していない受験者全員",
+      "editorialNote": "TOEIC L&R或S&W均可，TOEFL不认可；外校考生须事先咨询志望研究室。未把当年过去题当作保证出题范围。"
+    },
+    {
+      "id": "kyushu-sci-physics-self",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "物理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 自己推薦方式による選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "自己推薦：書類・面接・免除方式",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "専攻別要件",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "専攻別英語評価・日程",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "専攻別最新案内",
+          "url": "https://www.phys.kyushu-u.ac.jp/graduate/info.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "提出書類\n面接試験（口頭試問）\n英語（TOEIC又はTOEFL）",
+      "editorialNote": "须入学确约；材料选口头对象，合格免一般笔试，未获免除可继续一般。本校理学部物理学科物理学课程毕业／预毕业者不得受验本自荐，须一般。 不将一般固定笔试科目表当作自荐必考。"
+    },
+    {
+      "id": "kyushu-sci-chemistry-self",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "化学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 自己推薦方式による選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "自己推薦：書類・面接・免除方式",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "専攻別要件",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "専攻別英語評価・日程",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "専攻別最新案内",
+          "url": "https://www.scc.kyushu-u.ac.jp/application/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "提出書類\n面接試験（口頭試問）\n英語（TOEIC）",
+      "editorialNote": "须入学确约；材料选口头对象，合格免一般笔试，未获免除可继续一般。英语只评TOEIC。 不将一般固定笔试科目表当作自荐必考。"
+    },
+    {
+      "id": "kyushu-sci-physics-second",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "物理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 第2次募集",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "二次：学力科目・英語・総合選抜",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mphy260908.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "考査方法：口頭試問／入学日",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mphy260908.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "二次募集可能な研究グループ",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mphy260908.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "最新物理入試",
+          "url": "https://www.phys.kyushu-u.ac.jp/graduate/info.html",
+          "kind": "page"
+        },
+        {
+          "label": "第2次当年要項",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/daigakuin_master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "力学，電磁気学，量子力学，熱・統計力学，物理数学などの基礎的な事項",
+      "editorialNote": "当年方法表实际第7页为2026年11月21日口头试问；第6页总则仍写口头或笔试及面接，保留差异并以当轮通知确认，不设夏季两天物理笔试。只限非★募集组，本学府已合格者限制按资格页。"
+    },
+    {
+      "id": "kyushu-sci-earth-group1",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "太陽地球系物理学",
+      "subjectsOriginal": "指定科目（筆記試験）：電磁気学，物理数学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "電磁気学：電場・磁場，電荷・電流，荷電粒子に働く力と運動，ポテンシャル，電磁誘導，電気回路，物質の分極・磁化，マクスウェル方程式，電磁場のエネルギーとポインティングベクトル，電磁波の伝搬\n物理数学：線形代数（行列・行列式，固有値と固有ベクトル），常微分方程式，ベクトル解析（微分・積分・勾配・発散・回転），フーリエ級数",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group2",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "宇宙地球電磁気学",
+      "subjectsOriginal": "指定科目（筆記試験）：電磁気学，物理数学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "電磁気学：電場・磁場，電荷・電流，荷電粒子に働く力と運動，ポテンシャル，電磁誘導，電気回路，物質の分極・磁化，マクスウェル方程式，電磁場のエネルギーとポインティングベクトル，電磁波の伝搬\n物理数学：線形代数（行列・行列式，固有値と固有ベクトル），常微分方程式，ベクトル解析（微分・積分・勾配・発散・回転），フーリエ級数",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group3",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "大気圏電離圏融合宇宙天気科学",
+      "subjectsOriginal": "指定科目（筆記試験）：電磁気学，力学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "電磁気学：電場・磁場，電荷・電流，荷電粒子に働く力と運動，ポテンシャル，電磁誘導，電気回路，物質の分極・磁化，マクスウェル方程式，電磁場のエネルギーとポインティングベクトル，電磁波の伝搬\n力学：力と運動の法則，エネルギーと運動量，単振動，放物運動，円運動，単振り子，角運動量，質点による万有引力",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group4",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "大気流体力学",
+      "subjectsOriginal": "指定科目（筆記試験）：物理数学，力学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "物理数学：線形代数（行列・行列式，固有値と固有ベクトル），常微分方程式，ベクトル解析（微分・積分・勾配・発散・回転），フーリエ級数\n力学：力と運動の法則，エネルギーと運動量，単振動，放物運動，円運動，単振り子，角運動量，質点による万有引力",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group5",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "大気流体モデリング",
+      "subjectsOriginal": "指定科目（筆記試験）：力学，物理数学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "力学：力と運動の法則，エネルギーと運動量，単振動，放物運動，円運動，単振り子，角運動量，質点による万有引力\n物理数学：線形代数（行列・行列式，固有値と固有ベクトル），常微分方程式，ベクトル解析（微分・積分・勾配・発散・回転），フーリエ級数",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group6",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "気象学・気候力学",
+      "subjectsOriginal": "指定科目（筆記試験）：物理数学，力学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "物理数学：線形代数（行列・行列式，固有値と固有ベクトル），常微分方程式，ベクトル解析（微分・積分・勾配・発散・回転），フーリエ級数\n力学：力と運動の法則，エネルギーと運動量，単振動，放物運動，円運動，単振り子，角運動量，質点による万有引力",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group7",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "地球深部物理学",
+      "subjectsOriginal": "指定科目（筆記試験）：電磁気学，物理数学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "電磁気学：電場・磁場，電荷・電流，荷電粒子に働く力と運動，ポテンシャル，電磁誘導，電気回路，物質の分極・磁化，マクスウェル方程式，電磁場のエネルギーとポインティングベクトル，電磁波の伝搬\n物理数学：線形代数（行列・行列式，固有値と固有ベクトル），常微分方程式，ベクトル解析（微分・積分・勾配・発散・回転），フーリエ級数",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group8",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "地球内部ダイナミクス",
+      "subjectsOriginal": "指定科目（筆記試験）：物理数学，力学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "物理数学：線形代数（行列・行列式，固有値と固有ベクトル），常微分方程式，ベクトル解析（微分・積分・勾配・発散・回転），フーリエ級数\n力学：力と運動の法則，エネルギーと運動量，単振動，放物運動，円運動，単振り子，角運動量，質点による万有引力",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group9",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "地球進化史",
+      "subjectsOriginal": "指定科目（筆記試験）：地質学，古環境学・古生物学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "地質学：層序，地質年代，堆積岩の性質と成因，プレートテクトニクス，地質構造，変形機構\n古環境学・古生物学：化石生物の系統進化，絶滅，古環境復元の方法，地球環境の変動",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group10",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "古環境学",
+      "subjectsOriginal": "指定科目（筆記試験）：古環境学・古生物学，地質学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "古環境学・古生物学：化石生物の系統進化，絶滅，古環境復元の方法，地球環境の変動\n地質学：層序，地質年代，堆積岩の性質と成因，プレートテクトニクス，地質構造，変形機構",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group11",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "岩石循環科学",
+      "subjectsOriginal": "指定科目（筆記試験）：岩石学・鉱物学，熱力学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "岩石学・鉱物学：鉱物の結晶構造と分類，主要造岩鉱物の特徴，相律，火成岩と変成岩の分類，2成分系および3成分系のマグマを含む相平衡図\n熱力学：状態方程式，熱と仕事，熱力学第1法則，熱力学第2法則，エントロピー，熱力学関数，平衡条件，熱力学不等式，相平衡，化学平衡",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group12",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "火山科学",
+      "subjectsOriginal": "指定科目（筆記試験）：岩石学・鉱物学，熱力学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "岩石学・鉱物学：鉱物の結晶構造と分類，主要造岩鉱物の特徴，相律，火成岩と変成岩の分類，2成分系および3成分系のマグマを含む相平衡図\n熱力学：状態方程式，熱と仕事，熱力学第1法則，熱力学第2法則，エントロピー，熱力学関数，平衡条件，熱力学不等式，相平衡，化学平衡",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group13",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "観測地震・火山学",
+      "subjectsOriginal": "指定科目（筆記試験）：物理数学，力学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "物理数学：線形代数（行列・行列式，固有値と固有ベクトル），常微分方程式，ベクトル解析（微分・積分・勾配・発散・回転），フーリエ級数\n力学：力と運動の法則，エネルギーと運動量，単振動，放物運動，円運動，単振り子，角運動量，質点による万有引力",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group14",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "理論宇宙進化学",
+      "subjectsOriginal": "指定科目（筆記試験）：力学，物理数学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "力学：力と運動の法則，エネルギーと運動量，単振動，放物運動，円運動，単振り子，角運動量，質点による万有引力\n物理数学：線形代数（行列・行列式，固有値と固有ベクトル），常微分方程式，ベクトル解析（微分・積分・勾配・発散・回転），フーリエ級数",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group15",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "物質宇宙進化学",
+      "subjectsOriginal": "指定科目（筆記試験）：岩石学・鉱物学，化学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "岩石学・鉱物学：鉱物の結晶構造と分類，主要造岩鉱物の特徴，相律，火成岩と変成岩の分類，2成分系および3成分系のマグマを含む相平衡図\n化学：原子の構造と電子軌道，電子配置と元素の性質，化学結合，分子の構造，化学平衡，安定同位体比と分別係数，放射性核種，大気水圏の化学成分",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group16",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "有機宇宙地球化学",
+      "subjectsOriginal": "指定科目（筆記試験）：化学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "化学：原子の構造と電子軌道，電子配置と元素の性質，化学結合，分子の構造，化学平衡，安定同位体比と分別係数，放射性核種，大気水圏の化学成分",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group17",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "地球システム化学",
+      "subjectsOriginal": "指定科目（筆記試験）：化学，岩石学・鉱物学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "化学：原子の構造と電子軌道，電子配置と元素の性質，化学結合，分子の構造，化学平衡，安定同位体比と分別係数，放射性核種，大気水圏の化学成分\n岩石学・鉱物学：鉱物の結晶構造と分類，主要造岩鉱物の特徴，相律，火成岩と変成岩の分類，2成分系および3成分系のマグマを含む相平衡図",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group18",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "地球内部物質学",
+      "subjectsOriginal": "指定科目（筆記試験）：岩石学・鉱物学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "岩石学・鉱物学：鉱物の結晶構造と分類，主要造岩鉱物の特徴，相律，火成岩と変成岩の分類，2成分系および3成分系のマグマを含む相平衡図",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-sci-earth-group19",
+      "universityId": "kyushu",
+      "graduateSchool": "理学府",
+      "department": "地球惑星科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜（第1次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "書類審査・研究グループの指定科目",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "指定科目続表・時間",
+          "url": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2027_mippan_260617.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年：19研究グループと指定範囲",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/examination_subjects/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年：旧八科選択廃止・新方式",
+          "url": "https://www.geo.kyushu-u.ac.jp/graduate_school/admission/for_undergraduate_students/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "地球惑星博物学",
+      "subjectsOriginal": "指定科目（筆記試験）：古環境学・古生物学，地質学\n口頭試問\n英語（TOEIC又はTOEFL）",
+      "scopeOriginal": "古環境学・古生物学：化石生物の系統進化，絶滅，古環境復元の方法，地球環境の変動\n地質学：層序，地質年代，堆積岩の性質と成因，プレートテクトニクス，地質構造，変形機構",
+      "conditionsOriginal": "第1志望の研究グループの指定科目\n筆記試験：60分（指定2科目の場合も60分）／口頭試問：30～40分程度",
+      "editorialNote": "2027年起一般与自荐整合，旧“全八科选二”废止；科目按第一志望研究组指定，不可任选。书审A免笔试及口头，B受验，C不得受验。英语接受TOEIC L&R或S&W或TOEFL，出愿未交英语证明时书审英语0分；教科书指定章及排除部分详见官方范围网页。研究组只作course，不当正式专攻。"
+    },
+    {
+      "id": "kyushu-math-mathematics-general",
+      "universityId": "kyushu",
+      "graduateSchool": "数理学府",
+      "department": "数理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年：コース別出題科目・選答",
+          "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2026/05/R9%E6%95%B0%E7%90%86%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88HP%E6%8E%B2%E8%BC%89_%E4%B8%A1%E9%9D%A2%E5%8D%B0%E5%88%B7%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "学力考査・数理学口頭",
+          "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2026/05/R9%E6%95%B0%E7%90%86%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88HP%E6%8E%B2%E8%BC%89_%E4%B8%A1%E9%9D%A2%E5%8D%B0%E5%88%B7%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "数理学専攻・2コース",
+          "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2026/05/R9%E6%95%B0%E7%90%86%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88HP%E6%8E%B2%E8%BC%89_%E4%B8%A1%E9%9D%A2%E5%8D%B0%E5%88%B7%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "最新修士要項",
+          "url": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "数理学コース",
+      "subjectsOriginal": "基礎科目\n専門科目\n口頭試問",
+      "scopeOriginal": "微分積分学：数列・関数列の極限，級数，1変数・多変数関数の連続性，微分・積分（テイラー展開，極値問題，陰関数定理，広義積分，面積分と線積分）\n線形代数学：行列の基本変形と連立一次方程式，行列式，線形空間と線形写像，固有値と固有ベクトル，内積，行列の標準化（Jordan標準形）\n専門科目：群・環・体，集合と位相，曲線・曲面の微分幾何，多様体論，位相幾何学（複体とホモロジー），複素関数論，常微分方程式論，測度論・ルベーグ積分論，数理統計，計算機数学",
+      "conditionsOriginal": "基礎科目：4問全問解答\n専門科目：10問程度から2問選択",
+      "editorialNote": "两个课程分别选拔且不得互相併愿，全部考生各课程口头。2027要项未设独立英语成绩科目，不强加TOEFL；2028专业三题变更不提前套用。2027数理一般二次募集官网明确不实施，旧外国人特别要项不作为当年范围。"
+    },
+    {
+      "id": "kyushu-math-mma-general",
+      "universityId": "kyushu",
+      "graduateSchool": "数理学府",
+      "department": "数理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年：コース別出題科目・選答",
+          "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2026/05/R9%E6%95%B0%E7%90%86%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88HP%E6%8E%B2%E8%BC%89_%E4%B8%A1%E9%9D%A2%E5%8D%B0%E5%88%B7%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "学力考査・数理学口頭",
+          "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2026/05/R9%E6%95%B0%E7%90%86%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88HP%E6%8E%B2%E8%BC%89_%E4%B8%A1%E9%9D%A2%E5%8D%B0%E5%88%B7%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "MMA口頭試問",
+          "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2026/05/R9%E6%95%B0%E7%90%86%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88HP%E6%8E%B2%E8%BC%89_%E4%B8%A1%E9%9D%A2%E5%8D%B0%E5%88%B7%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "数理学専攻・2コース",
+          "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2026/05/R9%E6%95%B0%E7%90%86%E4%BF%AE%E5%A3%AB%E8%AA%B2%E7%A8%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88HP%E6%8E%B2%E8%BC%89_%E4%B8%A1%E9%9D%A2%E5%8D%B0%E5%88%B7%EF%BC%89.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "最新修士要項",
+          "url": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "ＭＭＡコース",
+      "subjectsOriginal": "学力考査\n口頭試問",
+      "scopeOriginal": "微分積分学，線形代数学，常微分方程式，確率・統計，複素関数論，フーリエ変換・フーリエ級数・ラプラス変換",
+      "conditionsOriginal": "7問程度から3問選択",
+      "editorialNote": "两个课程分别选拔且不得互相併愿，全部考生各课程口头。2027要项未设独立英语成绩科目，不强加TOEFL；2028专业三题变更不提前套用。2027数理一般二次募集官网明确不实施，旧外国人特别要项不作为当年范围。"
+    },
+    {
+      "id": "kyushu-design-strategic-4",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "ストラテジックデザインコース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "ストラテジックデザインコース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "ストラテジックデザイン：インダストリアルデザイン，プロダクトデザイン，インタラクションデザイン，メディアコンテンツデザイン，デザインマネジメント，知的財産法，サービスデザイン，ソサエタルデザイン，インクルーシブデザイン，サスティナブルデザイン，コミュニティデザイン",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。A1海报一张，5分钟内研究发表后相关专业口头。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-strategic-10",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "ストラテジックデザインコース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "ストラテジックデザインコース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "ストラテジックデザイン：インダストリアルデザイン，プロダクトデザイン，インタラクションデザイン，メディアコンテンツデザイン，デザインマネジメント，知的財産法，サービスデザイン，ソサエタルデザイン，インクルーシブデザイン，サスティナブルデザイン，コミュニティデザイン",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。A1海报一张，5分钟内研究发表后相关专业口头。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-environment-4",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "環境設計コース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "環境設計コース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "建築工学及び環境化学：環境設計一般，環境化学，環境工学，建築構造，建築材料\n都市・建築デザイン：環境設計一般，建築計画，都市デザイン，建築環境計画，建築構法，建築意匠\nランドスケープアーキテクチャ：環境設計一般，自然環境保全，緑地景観デザイン\n環境社会・文化論：環境設計一般，文化財学，建築史",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。专业四科选一；作品资料可带可传阅册或纸张。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-environment-10",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "環境設計コース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "環境設計コース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "建築工学及び環境化学：環境設計一般，環境化学，環境工学，建築構造，建築材料\n都市・建築デザイン：環境設計一般，建築計画，都市デザイン，建築環境計画，建築構法，建築意匠\nランドスケープアーキテクチャ：環境設計一般，自然環境保全，緑地景観デザイン\n環境社会・文化論：環境設計一般，文化財学，建築史",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。专业四科选一；作品资料可带可传阅册或纸张。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-human-4",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "人間生活デザインコース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "人間生活デザインコース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "人間生活デザイン：生活人間科学，人間工学，生活環境生理学，感性行動科学，創造理工学，人間数理工学，デザイン認知論，機能工学，社会システムデザイン，ライフスケープデザイン，コミュニケーションデザイン，インダストリアルデザイン，パブリックデザイン，インテリアデザイン，広告・広報，クリエイティブディレクション",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。面接3分钟内说明志望及研究计划后问答。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-human-10",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "人間生活デザインコース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "人間生活デザインコース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "人間生活デザイン：生活人間科学，人間工学，生活環境生理学，感性行動科学，創造理工学，人間数理工学，デザイン認知論，機能工学，社会システムデザイン，ライフスケープデザイン，コミュニケーションデザイン，インダストリアルデザイン，パブリックデザイン，インテリアデザイン，広告・広報，クリエイティブディレクション",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。面接3分钟内说明志望及研究计划后问答。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-future-4",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "未来共生デザインコース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "未来共生デザインコース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "数理生命情報学：数理生命情報学\nデザイン・アート実践論：デザイン・アート実践論\n文化環境論：デザイン哲学，美学・芸術学，教育における多様性，文化政策・アーツマネジメント",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。专业三科选一；面接5分钟内研究发表后问答。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-future-10",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "未来共生デザインコース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "未来共生デザインコース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "数理生命情報学：数理生命情報学\nデザイン・アート実践論：デザイン・アート実践論\n文化環境論：デザイン哲学，美学・芸術学，教育における多様性，文化政策・アーツマネジメント",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。专业三科选一；面接5分钟内研究发表后问答。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-media-4",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "メディアデザインコース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "メディア表現・社会文化学の続表",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "メディアデザインコース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "メディアサイエンス：視覚心理学，心理学的思考法，色彩学\nメディア工学：画像情報処理，画像解析工学，ウェブ情報学，コンピュータグラフィックス，バーチャルリアリティ，メカニクスデザイン\nメディア表現：芸術表現学，グラフィックデザイン，映像デザイン\nメディア社会文化学：演劇学，メディア応用言語学",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。专业四科选一；面接可带作品与演示设备。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-media-10",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "メディアデザインコース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "メディア表現・社会文化学の続表",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "メディアデザインコース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "メディアサイエンス：視覚心理学，心理学的思考法，色彩学\nメディア工学：画像情報処理，画像解析工学，ウェブ情報学，コンピュータグラフィックス，バーチャルリアリティ，メカニクスデザイン\nメディア表現：芸術表現学，グラフィックデザイン，映像デザイン\nメディア社会文化学：演劇学，メディア応用言語学",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。专业四科选一；面接可带作品与演示设备。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-acoustic-4",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "音響設計コース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "音響設計コース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "聴覚心理学：聴覚心理学，聴覚生理学，心理測定法\n音響環境評価：音響学基礎，心理測定法，騒音および環境音の評価，サウンドスケープ\n音響工学・信号処理：基礎音響理論，室内音響学，音響信号処理，ディジタル信号処理，電気音響\n音文化：聴覚文化論，メディアアート，音楽理論・分析，西洋音楽史，音楽文化論，作曲，日本音楽史",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。专业四科选一；口头说明研究计划后问答。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-design-acoustic-10",
+      "universityId": "kyushu",
+      "graduateSchool": "芸術工学府",
+      "department": "芸術工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "音響設計コース：専門科目と出題分野",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "専門・面接は日本語又は英語",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "外部英語：最低スコア・会場受験限定",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻・6コース・入学時期",
+          "url": "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/7bbd51cd03f09b8ef81b8017465ca5bd.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.design.kyushu-u.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "音響設計コース",
+      "subjectsOriginal": "英語（TOEFL-iBT又はIELTSアカデミック・モジュール）\n専門科目\n面接",
+      "scopeOriginal": "聴覚心理学：聴覚心理学，聴覚生理学，心理測定法\n音響環境評価：音響学基礎，心理測定法，騒音および環境音の評価，サウンドスケープ\n音響工学・信号処理：基礎音響理論，室内音響学，音響信号処理，ディジタル信号処理，電気音響\n音文化：聴覚文化論，メディアアート，音楽理論・分析，西洋音楽史，音楽文化論，作曲，日本音楽史",
+      "conditionsOriginal": "志望コースが設定する専門科目から1科目を受験\nTOEFL-iBT：バンドスコア3以上（44点以上）又はIELTS：バンドスコア4以上\n自宅受験TOEFL-iBT，TOEFL-ITP，IELTS Online，One Skill Retakeは対象外。",
+      "editorialNote": "当年正式六课程，17专业科目按课程可选项保存。2026年8月28日试验，出愿时选2027年4月或10月且不可更改；专业与面接可选日语或英语，这仍是一般入试，不改标外国人专用。专业四科选一；口头说明研究计划后问答。 不接受TOEIC；外部英语规则与系统信息的Home Edition可用区分。"
+    },
+    {
+      "id": "kyushu-sls-informatics-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生命情報科学：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命情報科学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。详细专业笔试范围向希望指导教员咨询，不按名称扩写算法／数学。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-process-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生命工学／生命プロセス工学：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命工学／生命プロセス工学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "scopeOriginal": "生命プロセス工学",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。按该教育组专业科目，不套其他组生化学三科。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-biomedical-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生命工学／生体医工学：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命工学／生体医工学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "scopeOriginal": "生化学，有機化学，分析化学",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。三类专业笔试。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-biophysics-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生命工学／生命物理工学：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "生命物理工学：免除条件の続き",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命工学／生命物理工学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。详细专业范围须咨询教员；按成绩可能免专业笔试，免除者个别通知。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-function-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生命工学／生体機能工学：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命工学／生体機能工学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "scopeOriginal": "機械工学基礎",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。按成绩可能免专业笔试，免除者个别通知。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-device-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生命工学／先端医療デバイス：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命工学／先端医療デバイス",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "scopeOriginal": "機械工学基礎",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。按成绩可能免专业笔试，免除者个别通知。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-cell-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生命工学／細胞制御工学：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命工学／細胞制御工学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "scopeOriginal": "細胞制御工学",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。教育组专业笔试。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-structural-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生命工学／構造分子生物学：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命工学／構造分子生物学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "scopeOriginal": "生化学，分子生物学",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。两类专业笔试。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-medical-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生命医科学：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命医科学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "scopeOriginal": "生化学，分子遺伝学，情報生物学，細胞生物学，植物生理学，発生生物学，神経生物学，遺伝学及び集団遺伝学，生態学，数理生物学",
+      "conditionsOriginal": "10科目から約15問／任意の4問選択",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。十科约十五问选四，专业每题50分，英语150分。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-biology-general",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入学試験（夏季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "生物科学：筆記・英語・口述",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "生命分野選答・英語条件",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年：修士課程・正式専攻",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/3fbea7495b11e403b400504de3088b72.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新一般／秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生物科学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "scopeOriginal": "生化学，分子遺伝学，情報生物学，細胞生物学，植物生理学，発生生物学，神経生物学，遺伝学及び集団遺伝学，生態学，数理生物学",
+      "conditionsOriginal": "10科目から約15問／任意の4問選択",
+      "editorialNote": "以2027原PDF明确标明的“修士課程”为准，未按部分旧网页的一贯制说明套五年制。与生命医科学同表，十科约十五问选四。 所有组另有口述；英语不接受IP／ITP／S&W，未按规定提交成绩的受验与合否规则见实际第4页。"
+    },
+    {
+      "id": "kyushu-sls-informatics-autumn",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 入学試験（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "秋季：生命情報専門／生命工学小論文",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/06c3f75cc9fa5700a799e542e5603c0d.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027修士・只募集2専門分野",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/06c3f75cc9fa5700a799e542e5603c0d.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命情報科学",
+      "subjectsOriginal": "専門科目（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "editorialNote": "2026年9月28日试验，2027年4月修士入学。专业笔试详细范围仍须询问教员，不填推测考纲。 只募集生命信息和生命工学，不虚构生命医科／生物秋季记录。"
+    },
+    {
+      "id": "kyushu-sls-bioengineering-autumn",
+      "universityId": "kyushu",
+      "graduateSchool": "システム生命科学府",
+      "department": "システム生命科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 入学試験（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "秋季：生命情報専門／生命工学小論文",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/06c3f75cc9fa5700a799e542e5603c0d.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027修士・只募集2専門分野",
+          "url": "https://www.sls.kyushu-u.ac.jp/userfiles/page_contents/06c3f75cc9fa5700a799e542e5603c0d.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "最新秋季要項",
+          "url": "https://www.sls.kyushu-u.ac.jp/examinee/entrance_exam/applicationguide/applicationguide2/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生命工学",
+      "subjectsOriginal": "小論文（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
+      "editorialNote": "2026年9月28日试验，2027年4月修士入学。秋季生命工学为小论文，不复制夏季七教育组各自的专业试卷；生体医工／细胞制御是否募集取决于夏季满额情况，须先咨询。 只募集生命信息和生命工学，不虚构生命医科／生物秋季记录。"
     }
   ]
 };

@@ -11,9 +11,95 @@ const makeRecord = overrides => ({ id: 'qa-general', universityId: 'fixture', ad
   sources: [{ label: 'Official fixture URL', kind: 'pdf', url: 'https://www.t.u-tokyo.ac.jp/fixture.pdf', pdfPage: 3 }], ...overrides });
 const initial = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', entryYear: 'all', query: '' };
 
-test('all seven university catalogs have unique validated records and clear pending entry rules', () => {
-  assert.equal(data.universities.length, 7);
-  assert.equal(new Set(data.universities.map(u => u.id)).size, 7);
+test('Kyushu keeps seven official faculties and 20 departments with year-specific sources and safe aliases',()=>{
+ const records=data.records.filter(r=>r.universityId==='kyushu');
+ assert.equal(records.length,119);assert.equal(new Set(records.map(r=>r.graduateSchool)).size,7);
+ assert.equal(new Set(records.map(r=>r.graduateSchool+'/'+r.department)).size,20);
+ assert.equal(records.filter(r=>r.admissionType==='general').length,84);
+ assert.equal(records.filter(r=>r.admissionType==='international').length,35);
+ assert.ok(records.every(r=>r.degreeProgram==='master'&&r.verifiedAt==='2026-10-06'&&['2027年4月','2027年10月'].includes(r.entryYear)));
+ assert.ok(records.every(r=>r.sources.every(s=>new URL(s.url).hostname.endsWith('.kyushu-u.ac.jp'))));
+ assert.equal(core.sourceURL({url:'https://www.isee.kyushu-u.ac.jp/a.pdf',kind:'pdf',pdfPage:10}),'https://www.isee.kyushu-u.ac.jp/a.pdf#page=10');
+ for(const url of ['https://kyushu-u.ac.jp.evil.test/x','https://evil-kyushu-u.ac.jp/x','http://www.eng.kyushu-u.ac.jp/x'])assert.equal(core.sourceURL({url,kind:'page'}),null);
+ const matches=core.filter(data.records,data.universities,{...initial,query:'九大 半導体デバイス'});
+ assert.equal(matches.length,4);assert.ok(matches.every(r=>r.universityId==='kyushu'));
+});
+test('Kyushu engineering distinguishes general types and English or foreign-specific papers',()=>{
+ const f=id=>data.records.find(r=>r.id==='kyushu-'+id);
+ assert.match(f('eng-applied-chemistry-general-functional').subjectsOriginal,/筆記試験/);
+ assert.match(f('eng-quantum-general').conditionsOriginal,/8科目から3科目/);
+ assert.match(f('eng-quantum-general').subjectsOriginal,/小論文/);
+ assert.match(f('eng-civil-general').conditionsOriginal,/11問から6問.*少なくとも3問/s);
+ assert.doesNotMatch(f('eng-naval-general-type1').subjectsOriginal,/小論文|面接/);
+ assert.match(f('eng-naval-general-type2').subjectsOriginal,/小論文.*面接/s);
+ assert.match(f('eng-earth-resources-general').conditionsOriginal,/7科目から3/);
+ assert.match(f('eng-earth-resources-english').conditionsOriginal,/a specific area/);
+ assert.match(f('eng-materials-english').conditionsOriginal,/not required/);
+ assert.doesNotMatch(f('eng-hydrogen-english-b').subjectsOriginal,/Dynamics of Machinery|Thermal Engineering|Fluids Engineering/);
+ assert.match(f('eng-hydrogen-english-b').scopeOriginal,/Nernst Equation/);
+ assert.ok(!f('eng-aerospace-foreign').scopeOriginal);
+ assert.match(f('eng-civil-foreign').subjectsOriginal,/数学/);
+ assert.ok(!data.records.some(r=>r.universityId==='kyushu'&&r.id.startsWith('kyushu-eng-aerospace-english')));
+});
+test('Kyushu ISEE uses 2027 two-department reorganization and elective rules across five courses',()=>{
+ const rs=data.records.filter(r=>r.universityId==='kyushu'&&r.graduateSchool==='システム情報科学府');
+ assert.equal(rs.length,20);assert.deepEqual([...new Set(rs.map(r=>r.department))],['情報理工学専攻','電気電子工学専攻']);
+ assert.equal(new Set(rs.map(r=>r.course)).size,5);
+ const f=id=>data.records.find(r=>r.id==='kyushu-'+id);
+ assert.match(f('isee-ai-robotics-general-written').conditionsOriginal,/6分野から2/);
+ assert.match(f('isee-energy-devices-general-written').conditionsOriginal,/5分野から2/);
+ assert.doesNotMatch(f('isee-ai-robotics-general-written').subjectsOriginal,/口述/);
+ assert.match(f('isee-ai-robotics-general-special').subjectsOriginal,/口述/);
+ assert.equal(f('isee-ai-robotics-global-written').entryYear,'2027年10月');
+ assert.ok(f('isee-ai-robotics-general-written').sources.some(s=>s.url.endsWith('2027mc_general_guidelines_20260420.pdf')&&s.pdfPage===10));
+});
+test('Kyushu IGSES keeps first, second and international examinations separate',()=>{
+ const f=id=>data.records.find(r=>r.id==='kyushu-'+id);
+ const rs=data.records.filter(r=>r.universityId==='kyushu'&&r.graduateSchool==='総合理工学府');
+ assert.equal(new Set(rs.map(r=>r.department)).size,1);
+ assert.match(f('iges-group1-general-written').conditionsOriginal,/10題から3題.*必須ではない/s);
+ assert.match(f('iges-group2-general-written').scopeOriginal,/数学Ⅱ.*圧縮性流体は出題範囲に含まない/s);
+ assert.doesNotMatch(f('iges-group2-second').scopeOriginal,/数学Ⅱ|流体力学|電磁気学/);
+ assert.match(f('iges-group1-second').conditionsOriginal,/1科目.*変更不可/);
+ assert.doesNotMatch(f('iges-group2-general-oral').subjectsOriginal,/筆記|筆答/);
+ assert.ok(!f('iges-group1-international-oral'));
+ assert.match(f('iges-group2-international-written').conditionsOriginal,/Both questions/);
+ assert.ok(f('iges-group2-international-written').sources.some(s=>s.pdfPage===17));
+});
+test('Kyushu Earth and Planetary Sciences require 2027 supervisor-group designated subjects',()=>{
+ const rs=data.records.filter(r=>r.id.startsWith('kyushu-sci-earth-group'));
+ assert.equal(rs.length,19);assert.ok(rs.every(r=>r.department==='地球惑星科学専攻'));
+ assert.equal(rs.filter(r=>r.subjectsOriginal.split('指定科目（筆記試験）：')[1].split('\n')[0].split('，').length===1).length,2);
+ assert.match(rs.find(r=>r.course==='有機宇宙地球化学').subjectsOriginal,/指定科目（筆記試験）：化学\n/);
+ assert.match(rs.find(r=>r.course==='地球深部物理学').subjectsOriginal,/電磁気学，物理数学/);
+ assert.ok(rs.every(r=>!r.conditionsOriginal.includes('選択')&&r.conditionsOriginal.includes('60分')));
+ const chem=data.records.find(r=>r.id==='kyushu-sci-chemistry-general');
+ assert.match(chem.conditionsOriginal,/TOEFL試験は対象外/);
+ assert.match(chem.conditionsOriginal,/6科目から任意に3/);
+ const second=data.records.find(r=>r.id==='kyushu-sci-physics-second');
+ assert.doesNotMatch(second.subjectsOriginal,/筆記/);
+});
+test('Kyushu math, design and life sciences preserve course, English and seasonal distinctions',()=>{
+ const f=id=>data.records.find(r=>r.id==='kyushu-'+id);
+ assert.match(f('math-mathematics-general').conditionsOriginal,/4問全問.*2問選択/s);
+ assert.match(f('math-mma-general').conditionsOriginal,/3問選択/);
+ assert.doesNotMatch(f('math-mma-general').subjectsOriginal,/英語|TOEFL/);
+ const design=data.records.filter(r=>r.universityId==='kyushu'&&r.graduateSchool==='芸術工学府');
+ assert.equal(new Set(design.map(r=>r.course)).size,6);assert.equal(design.length,12);
+ assert.match(f('design-acoustic-10').scopeOriginal,/ディジタル信号処理/);
+ assert.match(f('design-media-4').conditionsOriginal,/3以上（44点以上）/);
+ assert.equal(f('design-media-10').entryYear,'2027年10月');
+ assert.match(f('sls-biomedical-general').scopeOriginal,/生化学，有機化学，分析化学/);
+ assert.match(f('sls-medical-general').conditionsOriginal,/4問選択/);
+ assert.match(f('sls-bioengineering-autumn').subjectsOriginal,/小論文/);
+ assert.ok(!f('sls-bioengineering-autumn').scopeOriginal);
+ assert.ok(!f('sls-informatics-general').scopeOriginal&&!f('sls-biophysics-general').scopeOriginal);
+ assert.ok(!data.records.some(r=>r.universityId==='kyushu'&&r.id.startsWith('kyushu-sls')&&r.degreeProgram==='integrated'));
+});
+
+test('all eight university catalogs have unique validated records and clear pending entry rules', () => {
+  assert.equal(data.universities.length, 8);
+  assert.equal(new Set(data.universities.map(u => u.id)).size, 8);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
   assert.ok(data.records.every(record => core.validRecord(record, data.universities)));
