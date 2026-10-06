@@ -32,11 +32,38 @@ function boot(records=[]) {
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
-test('school filters switch all six coverage notes and unmatched results remain usable',async()=>{
+test('Tohoku school, graduate and foreign filters retain original subjects and actual PDF page',async()=>{
+ const a=boot(catalog.records);await school(a,'tohoku').click();
+ assert.equal(a.ids['scope-graduate'].options.length,7);
+ assert.equal(a.ids['scope-results'].children.length,56);
+ assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.tohoku.note);
+ a.ids['scope-graduate'].value='工学研究科';await a.ids['scope-graduate'].fire('change');
+ a.ids['scope-department'].value='電子工学専攻';await a.ids['scope-department'].fire('change');
+ assert.equal(a.ids['scope-results'].children.length,1);await a.ids['scope-results'].children[0].click();
+ const r=catalog.records.find(r=>r.id==='tohoku-eng-electronics-general');
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===r.scopeOriginal&&e.lang==='ja'));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');
+ await source.children.find(e=>e.tag==='button').click();
+ assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=15'));
+ await school(a,'tohoku').click();await a.tabs[1].click();
+ assert.equal(a.ids['scope-results'].children.length,100);
+ a.ids['scope-query'].value='东北大学 微生物学';await a.ids['scope-query'].fire('input');
+ assert.ok(a.ids['scope-results'].children.length);
+ assert.ok(a.ids['scope-results'].children.every(e=>e.dataset.id.startsWith('tohoku-life-')&&e.dataset.id.endsWith('-1')));
+});
+test('Tohoku pending English call and SDTM participation render without invented subjects',async()=>{
+ const a=boot(catalog.records);await school(a,'tohoku').click();await a.tabs[1].click();
+ for(const id of ['tohoku-eng-mechanical-imac-pending','tohoku-ist-sdtm-notice']){
+  const entry=a.ids['scope-results'].children.find(e=>e.dataset.id===id);assert.ok(entry);await entry.click();
+  assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='scope-record-status'));
+  assert.ok(!a.ids['scope-detail'].children.some(e=>e.tag==='h4'&&e.textContent==='考试范围 · 官方原文'));
+ }
+});
+test('school filters switch all seven coverage notes and unmatched results remain usable',async()=>{
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学与大阪大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学与東北大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);

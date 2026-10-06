@@ -11,9 +11,9 @@ const makeRecord = overrides => ({ id: 'qa-general', universityId: 'fixture', ad
   sources: [{ label: 'Official fixture URL', kind: 'pdf', url: 'https://www.t.u-tokyo.ac.jp/fixture.pdf', pdfPage: 3 }], ...overrides });
 const initial = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', entryYear: 'all', query: '' };
 
-test('all six university catalogs have unique validated records and clear pending entry rules', () => {
-  assert.equal(data.universities.length, 6);
-  assert.equal(new Set(data.universities.map(u => u.id)).size, 6);
+test('all seven university catalogs have unique validated records and clear pending entry rules', () => {
+  assert.equal(data.universities.length, 7);
+  assert.equal(new Set(data.universities.map(u => u.id)).size, 7);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
   assert.ok(data.records.every(record => core.validRecord(record, data.universities)));
@@ -31,6 +31,105 @@ test('all six university catalogs have unique validated records and clear pendin
   }
   assert.ok(core.filter(data.records, data.universities, initial).length);
   assert.ok(core.filter(data.records, data.universities, { ...initial, admissionType: 'international' }).length);
+});
+test('Tohoku uses six official graduate schools and 34 departments with actual 2027 sources', () => {
+  const records=data.records.filter(r=>r.universityId==='tohoku');
+  assert.equal(records.length,100);
+  assert.equal(new Set(records.map(r=>r.graduateSchool)).size,6);
+  assert.equal(new Set(records.map(r=>r.graduateSchool+'/'+r.department)).size,34);
+  assert.equal(records.filter(r=>r.admissionType==='general').length,56);
+  assert.equal(records.filter(r=>r.publicationStatus==='pending').length,4);
+  assert.equal(records.filter(r=>r.publicationStatus==='notice').length,1);
+  assert.ok(records.every(r=>r.verifiedAt==='2026-10-06'&&['2027年4月','2027年10月'].includes(r.entryYear)));
+  assert.ok(records.every(r=>r.sources.every(s=>new URL(s.url).hostname.endsWith('.tohoku.ac.jp'))));
+  assert.equal(core.sourceURL({url:'https://www.eng.tohoku.ac.jp/a.pdf',kind:'pdf',pdfPage:15}),'https://www.eng.tohoku.ac.jp/a.pdf#page=15');
+  for(const url of ['https://tohoku.ac.jp.evil.test/x','https://evil-tohoku.ac.jp/x','http://www.eng.tohoku.ac.jp/x'])assert.equal(core.sourceURL({url,kind:'page'}),null);
+  const matches=core.filter(data.records,data.universities,{...initial,query:'东北大学 電磁気学'});
+  assert.ok(matches.length&&matches.every(r=>r.universityId==='tohoku'));
+});
+test('Tohoku mechanical mathematics and material choice follow the current general tables', () => {
+  const find=id=>data.records.find(r=>r.id==='tohoku-'+id);
+  for(const id of ['mechanical','finemechanics','robotics','aerospace']){
+    const r=find('eng-'+id+'-general');assert.match(r.subjectsOriginal,/数学Ａ.*数学Ｂ/s);
+    assert.doesNotMatch(r.subjectsOriginal,/材料力学|熱力学|流体力学|面接/);
+    assert.match(r.conditionsOriginal,/原則として面接は実施しない/);
+    assert.ok(core.matchesAdmission(r,'international'));
+  }
+  assert.match(find('eng-quantum-general').scopeOriginal,/放射線基礎/);
+  assert.match(find('eng-quantum-general').conditionsOriginal,/5科目から2科目/);
+  assert.match(find('eng-metallurgy-general').conditionsOriginal,/5科目5題.*3題/);
+  assert.match(find('env-materials-dept1-general').conditionsOriginal,/5科目5題.*3題/);
+  assert.match(find('eng-applied-physics-general').scopeOriginal,/基礎科目：力学.*量子力学の3問.*専門科目：統計力学、物性物理の2問/s);
+  assert.doesNotMatch(find('eng-technology-social-general').subjectsOriginal,/数学/);
+});
+test('Tohoku electrical subjects preserve graduate school choice and English score differences', () => {
+  const find=id=>data.records.find(r=>r.id==='tohoku-'+id);
+  assert.match(find('eng-electronics-general').conditionsOriginal,/6題から3題/);
+  assert.match(find('eng-electronics-general').conditionsOriginal,/Home Edition.*認めない/);
+  assert.match(find('eng-electronics-general').scopeOriginal,/Maxwell方程式.*計算機ソフトウェア.*ラプラス変換/s);
+  assert.match(find('ist-group2-dept0-general').conditionsOriginal,/6題から2題.*3題から2題/s);
+  assert.match(find('bme-electrical-general').conditionsOriginal,/6題から3題/);
+  assert.match(find('bme-electrical-general').editorialNote,/Home Edition/);
+  assert.match(find('ist-group2-dept0-general').editorialNote,/未列单独口述日程/);
+  assert.match(find('ist-group2-dept0-foreign').subjectsOriginal,/口述試験/);
+});
+test('Tohoku information groups retain department mapping and different foreign examinations', () => {
+  const find=id=>data.records.find(r=>r.id==='tohoku-'+id);
+  const records=data.records.filter(r=>r.universityId==='tohoku'&&r.graduateSchool==='情報科学研究科');
+  assert.equal(records.filter(r=>r.admissionType==='general').length,14);
+  assert.equal(records.filter(r=>r.admissionType==='international'&&!r.publicationStatus).length,14);
+  assert.equal(find('ist-group6-dept3-general').department,'応用情報科学専攻');
+  assert.equal(find('ist-group4-dept2-general').department,'人間社会情報科学専攻');
+  assert.doesNotMatch(find('ist-group1-dept0-general').subjectsOriginal,/TOEFL|TOEIC/);
+  assert.match(find('ist-group1-dept0-foreign').subjectsOriginal,/TOEFL/);
+  assert.doesNotMatch(find('ist-group3-dept0-general').conditionsOriginal,/79|730/);
+  assert.match(find('ist-group3-dept0-foreign').conditionsOriginal,/79.*730/);
+  assert.match(find('ist-group4-dept2-general').subjectsOriginal,/小論文/);
+  assert.doesNotMatch(find('ist-group4-dept2-foreign').subjectsOriginal,/小論文/);
+  assert.match(find('ist-group5-dept2-general').conditionsOriginal,/3問/);
+  assert.match(find('ist-group5-dept2-foreign').conditionsOriginal,/2問/);
+  assert.match(find('ist-group6-dept2-general').conditionsOriginal,/4題/);
+  assert.match(find('ist-group6-dept2-foreign').conditionsOriginal,/3題/);
+});
+test('Tohoku life sciences distinguish first round foundational oral topics from second round', () => {
+  const find=id=>data.records.find(r=>r.id==='tohoku-'+id);
+  assert.match(find('life-brain-general-1').subjectsOriginal,/基礎学力試問/);
+  assert.match(find('life-brain-general-1').scopeOriginal,/有機化学.*生態学.*微生物学/s);
+  assert.match(find('life-brain-foreign-1').conditionsOriginal,/第一志望分野/);
+  for(const id of ['life-brain-general-2','life-brain-foreign-2']){
+    assert.ok(!find(id).scopeOriginal);
+    assert.doesNotMatch(find(id).subjectsOriginal,/基礎学力試問|筆記/);
+  }
+  assert.ok(!data.records.some(r=>r.universityId==='tohoku'&&r.graduateSchool==='理学研究科'&&r.department.includes('生物')));
+});
+test('Tohoku English programs retain independent masters, actual subject choices and announcement status', () => {
+  const find=id=>data.records.find(r=>r.id==='tohoku-'+id);
+  assert.equal(find('eng-iceec').entryYear,'2027年10月');
+  assert.equal(find('eng-iceec').degreeProgram,'master');
+  assert.match(find('eng-iceec').subjectsOriginal,/oral examination/);
+  assert.match(find('eng-sdtm-architecture').scopeOriginal,/Structural Engineering for Building/);
+  assert.equal(find('ist-sdtm-notice').publicationStatus,'notice');
+  assert.ok(!find('ist-sdtm-notice').subjectsOriginal&&!find('ist-sdtm-notice').scopeOriginal);
+  assert.ok(!find('eng-mechanical-imac-pending').subjectsOriginal&&!find('eng-mechanical-imac-pending').scopeOriginal);
+  assert.match(find('sci-astronomy-igpas').conditionsOriginal,/Physics/);
+  assert.match(find('sci-geophysics-igpas').conditionsOriginal,/Mathematics or Physics/);
+  assert.ok(!find('sci-physics-igpas').scopeOriginal);
+  assert.ok(!find('sci-physics-foreign').scopeOriginal);
+  assert.match(find('sci-math-general').scopeOriginal,/集合と位相.*読解/s);
+  assert.ok(find('sci-math-general').sources.some(s=>s.url.endsWith('/mc2027_math.docx')));
+  assert.ok(!find('sci-math-general').sources.some(s=>s.url.includes('r3-4mc_math.pdf')));
+});
+test('Tohoku environmental and biomedical selections do not inherit unrelated general or doctoral papers', () => {
+  const find=id=>data.records.find(r=>r.id==='tohoku-'+id);
+  assert.match(find('env-energy-dept0-general').conditionsOriginal,/合計6題.*4題/);
+  assert.ok(find('env-energy-dept0-general').sources.some(s=>s.pdfPage===1&&s.url.endsWith('/202604_energy_kwe.pdf')));
+  assert.equal(find('env-human-security-disaster').department,'先端環境創成学専攻');
+  assert.doesNotMatch(find('env-human-security-disaster').subjectsOriginal,/written/);
+  assert.ok(!find('env-ieslp-dept0').subjectsOriginal&&!find('env-ieslp-dept0').scopeOriginal);
+  assert.ok(!find('env-comprehensive-dept0-general').scopeOriginal);
+  assert.match(find('bme-medical-general').conditionsOriginal,/7科目.*2科目/);
+  assert.match(find('bme-medical-general').scopeOriginal,/確率統計学/);
+  assert.doesNotMatch(find('bme-medical-general').subjectsOriginal,/面接|口述/);
 });
 test('Osaka keeps actual seasonal routes and the distinct winter subjects', () => {
   const records = data.records.filter(record => record.universityId === 'osaka');

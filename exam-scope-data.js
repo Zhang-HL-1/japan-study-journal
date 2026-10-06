@@ -56,6 +56,16 @@
         "Osaka University",
         "The University of Osaka"
       ]
+    },
+    {
+      "id": "tohoku",
+      "name": "東北大学",
+      "aliases": [
+        "东北大学",
+        "東北大",
+        "东北大",
+        "Tohoku University"
+      ]
     }
   ],
   "catalog": {
@@ -82,7 +92,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学与大阪大学的修士及修士相关选拔资料。使用学校、研究科／学院、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学与東北大学的修士及修士相关选拔资料。使用学校、研究科／学院、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -130,6 +140,19 @@
         "理学研究科"
       ],
       "note": "大阪大学：已核对四个研究科、20个专攻，共108条资料。一般／外国人特别选拔／英语学位课程分别保存；工学一般选拔不接受留学生，冬季修士特选仅5课程实施。情報科学研究科采用2027年改组后的2专攻全称；理学宇宙地球第2次与合同第1次分开，生物科学第2次完整要项待公布。英语项目仅提取修士；未明示统一考纲的选拔保留官方说明，不套用一般笔试范围。"
+    },
+    "tohoku": {
+      "verifiedAt": "2026-10-06",
+      "degree": "博士課程前期2年の課程（修士）",
+      "graduateSchools": [
+        "工学研究科",
+        "理学研究科",
+        "情報科学研究科",
+        "環境科学研究科",
+        "医工学研究科",
+        "生命科学研究科"
+      ],
+      "note": "東北大学：已核对六个理工相关研究科、34个正式专攻，共100条资料。一般与外国人等特别选拔分别收录，信息科学七考试群按正式专攻映射；生命科学Ⅰ／Ⅱ期要求分开。英语项目按实际修士募集与2027年4月／10月入学收录；IMAC-G四专攻待公布，情報科学SDTM仅参加预告。工学、医工学的2027外国人特别选拔，环境春季及生命Ⅲ期等新要项未公布时不沿用旧版。IMSE当前仅2026版，NIFS官网预告可能改为后继项目，2027规则均未套用。"
     }
   },
   "records": [
@@ -17977,6 +18000,4067 @@
       "course": "Special Integrated Science Course (SISC)",
       "subjectsOriginal": "paper-based tests in chemistry and/or biology\ninterview",
       "editorialNote": "按修士列核对，不采用博士列只有口头发表／面试的要求。材料审查后，化学／生物学笔试及英语面试；通常在官方指定会场考试，非指定国家或在线受验须按额外官方申请规则和指导教员同意办理，不能默认全部远程。SISC名称中的Integrated不表示本条为五年一贯制。"
+    },
+    {
+      "id": "tohoku-eng-mechanical-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "機械機能創成専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系：数学Ａ／Ｂ・英語・面接対象",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "専攻一覧・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "機械・知能系：最新出題範囲",
+          "url": "https://www.mech.tohoku.ac.jp/examination/",
+          "kind": "page"
+        },
+        {
+          "label": "工学研究科：最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学Ａ\n数学Ｂ",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "数学Ａ、数学Ｂ：必答\n原則として面接は実施しない。",
+      "editorialNote": "按2027年4月要项，不添加旧版专业力学笔试。需要研究室配属调整等情形者另行通知线上面接；TOEFL iBT Home Edition可用。非规定本校机械系毕业生等需核对指导教员承诺书。一般选拔允许符合要项的海外学历者；2027年4月外国人特别选拔要项预计2026年10月下旬公布。"
+    },
+    {
+      "id": "tohoku-eng-finemechanics-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "ファインメカニクス専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系：数学Ａ／Ｂ・英語・面接対象",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "専攻一覧・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "機械・知能系：最新出題範囲",
+          "url": "https://www.mech.tohoku.ac.jp/examination/",
+          "kind": "page"
+        },
+        {
+          "label": "工学研究科：最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学Ａ\n数学Ｂ",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "数学Ａ、数学Ｂ：必答\n原則として面接は実施しない。",
+      "editorialNote": "按2027年4月要项，不添加旧版专业力学笔试。需要研究室配属调整等情形者另行通知线上面接；TOEFL iBT Home Edition可用。非规定本校机械系毕业生等需核对指导教员承诺书。一般选拔允许符合要项的海外学历者；2027年4月外国人特别选拔要项预计2026年10月下旬公布。"
+    },
+    {
+      "id": "tohoku-eng-robotics-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "ロボティクス専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系：数学Ａ／Ｂ・英語・面接対象",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "専攻一覧・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "機械・知能系：最新出題範囲",
+          "url": "https://www.mech.tohoku.ac.jp/examination/",
+          "kind": "page"
+        },
+        {
+          "label": "工学研究科：最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学Ａ\n数学Ｂ",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "数学Ａ、数学Ｂ：必答\n原則として面接は実施しない。",
+      "editorialNote": "按2027年4月要项，不添加旧版专业力学笔试。需要研究室配属调整等情形者另行通知线上面接；TOEFL iBT Home Edition可用。非规定本校机械系毕业生等需核对指导教员承诺书。一般选拔允许符合要项的海外学历者；2027年4月外国人特别选拔要项预计2026年10月下旬公布。"
+    },
+    {
+      "id": "tohoku-eng-aerospace-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系：数学Ａ／Ｂ・英語・面接対象",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "専攻一覧・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "機械・知能系：最新出題範囲",
+          "url": "https://www.mech.tohoku.ac.jp/examination/",
+          "kind": "page"
+        },
+        {
+          "label": "工学研究科：最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学Ａ\n数学Ｂ",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "数学Ａ、数学Ｂ：必答\n原則として面接は実施しない。",
+      "editorialNote": "按2027年4月要项，不添加旧版专业力学笔试。需要研究室配属调整等情形者另行通知线上面接；TOEFL iBT Home Edition可用。非规定本校机械系毕业生等需核对指导教员承诺书。一般选拔允许符合要项的海外学历者；2027年4月外国人特别选拔要项预计2026年10月下旬公布。"
+    },
+    {
+      "id": "tohoku-eng-quantum-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "量子エネルギー：数学・専門科目・面接",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL、TOEIC又はIELTS）\n数学Ａ\n数学Ｂ\n専門科目\n面接",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など\n専門科目：流体力学、電磁気学、量子力学、材料力学、放射線基礎",
+      "conditionsOriginal": "専門科目：5科目から2科目選択",
+      "editorialNote": "量子能源保留专业五选二和面接，与机械四专攻区分。英语成绩有效期、IELTS类别与出愿承诺按原页。"
+    },
+    {
+      "id": "tohoku-eng-electrical-energy-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "電気エネルギーシステム専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "電気・通信・電子：基礎専門6題から3題",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "電気・情報系：科目別キーワード・参考書",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "専攻・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎専門科目：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎",
+      "scopeOriginal": "電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "基礎専門科目：6題から3題選択\nTOEFL iBT Home Editionのスコアは認めない。",
+      "editorialNote": "科目关键词取自要项指定的电气信息系页面；完整例示与参考书见该原表。教材只作理解范围的参考，不保证按教材出题。与情報科学2群的六选二、医工学允许Home Edition分别保存；此一般科目表未列面接。"
+    },
+    {
+      "id": "tohoku-eng-communication-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "通信工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "電気・通信・電子：基礎専門6題から3題",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "電気・情報系：科目別キーワード・参考書",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "専攻・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎専門科目：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎",
+      "scopeOriginal": "電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "基礎専門科目：6題から3題選択\nTOEFL iBT Home Editionのスコアは認めない。",
+      "editorialNote": "科目关键词取自要项指定的电气信息系页面；完整例示与参考书见该原表。教材只作理解范围的参考，不保证按教材出题。与情報科学2群的六选二、医工学允许Home Edition分别保存；此一般科目表未列面接。"
+    },
+    {
+      "id": "tohoku-eng-electronics-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "電子工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "電気・通信・電子：基礎専門6題から3題",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "電気・情報系：科目別キーワード・参考書",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "専攻・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎専門科目：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎",
+      "scopeOriginal": "電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "基礎専門科目：6題から3題選択\nTOEFL iBT Home Editionのスコアは認めない。",
+      "editorialNote": "科目关键词取自要项指定的电气信息系页面；完整例示与参考书见该原表。教材只作理解范围的参考，不保证按教材出题。与情報科学2群的六选二、医工学允许Home Edition分别保存；此一般科目表未列面接。"
+    },
+    {
+      "id": "tohoku-eng-applied-physics-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "応用物理学：基礎科目・専門科目",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL、TOEIC又はIELTS-Academic）\n基礎科目\n専門科目",
+      "scopeOriginal": "基礎科目：力学、電磁気学、量子力学の3問\n専門科目：統計力学、物性物理の2問",
+      "editorialNote": "采用2027年4月表的基础三问、专业两问；该表未列面接。TOEFL iBT Home Edition不认可。"
+    },
+    {
+      "id": "tohoku-eng-applied-chemistry-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "応用化学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "化学・バイオ：基礎／専門選答・面接",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "専攻・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎科目\n専門科目\n面接",
+      "scopeOriginal": "基礎科目：無機・物理化学（化学結合論、平衡と速度）、有機化学（構造、物性、反応）、生物化学（構造、機能、代謝）、化学工学（量論、移動現象論）\n専門科目：①無機・物理化学（結合・構造論、反応論、物性論）3題、②有機化学（物理有機化学、有機合成化学、高分子化学）3題、③生物化学（生体機能化学、応用生物化学、生体情報化学、生物物理化学）4題、④化学工学（反応工学、機械的単位操作（レオロジーも含む。）、分離工学、プロセスシステム（制御も含む。））4題",
+      "conditionsOriginal": "基礎科目：本学工学部化学・バイオ工学科卒業（見込）の者：4題必答／それ以外：4題のうちから3題選択\n専門科目：4分野14題の中から4題選択。ただし、2分野以上から選択",
+      "editorialNote": "基础题按本校规定学科与其他考生区分；专业十四选四且跨至少两个领域。TOEFL iBT Home Edition不认可。"
+    },
+    {
+      "id": "tohoku-eng-chemical-engineering-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "化学工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "化学・バイオ：基礎／専門選答・面接",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "専攻・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎科目\n専門科目\n面接",
+      "scopeOriginal": "基礎科目：無機・物理化学（化学結合論、平衡と速度）、有機化学（構造、物性、反応）、生物化学（構造、機能、代謝）、化学工学（量論、移動現象論）\n専門科目：①無機・物理化学（結合・構造論、反応論、物性論）3題、②有機化学（物理有機化学、有機合成化学、高分子化学）3題、③生物化学（生体機能化学、応用生物化学、生体情報化学、生物物理化学）4題、④化学工学（反応工学、機械的単位操作（レオロジーも含む。）、分離工学、プロセスシステム（制御も含む。））4題",
+      "conditionsOriginal": "基礎科目：本学工学部化学・バイオ工学科卒業（見込）の者：4題必答／それ以外：4題のうちから3題選択\n専門科目：4分野14題の中から4題選択。ただし、2分野以上から選択",
+      "editorialNote": "基础题按本校规定学科与其他考生区分；专业十四选四且跨至少两个领域。TOEFL iBT Home Edition不认可。"
+    },
+    {
+      "id": "tohoku-eng-bioengineering-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "バイオ工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "化学・バイオ：基礎／専門選答・面接",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "専攻・出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎科目\n専門科目\n面接",
+      "scopeOriginal": "基礎科目：無機・物理化学（化学結合論、平衡と速度）、有機化学（構造、物性、反応）、生物化学（構造、機能、代謝）、化学工学（量論、移動現象論）\n専門科目：①無機・物理化学（結合・構造論、反応論、物性論）3題、②有機化学（物理有機化学、有機合成化学、高分子化学）3題、③生物化学（生体機能化学、応用生物化学、生体情報化学、生物物理化学）4題、④化学工学（反応工学、機械的単位操作（レオロジーも含む。）、分離工学、プロセスシステム（制御も含む。））4題",
+      "conditionsOriginal": "基礎科目：本学工学部化学・バイオ工学科卒業（見込）の者：4題必答／それ以外：4題のうちから3題選択\n専門科目：4分野14題の中から4題選択。ただし、2分野以上から選択",
+      "editorialNote": "基础题按本校规定学科与其他考生区分；专业十四选四且跨至少两个领域。TOEFL iBT Home Edition不认可。"
+    },
+    {
+      "id": "tohoku-eng-metallurgy-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "金属フロンティア工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "マテリアル・開発系：数学・専門5題から3題・面接",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "材料系：最新入試案内",
+          "url": "https://www.material.tohoku.ac.jp/admission/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学\n専門科目\n面接",
+      "scopeOriginal": "数学：微分・積分、常微分方程式、線形代数（ベクトル・行列・行列式）、ベクトル解析、複素関数論、フーリエ級数・フーリエ変換、ラプラス変換など\n物理：質点・剛体の力学、電磁気学、振動・波動など\n化学：原子・分子の構造、化学結合、化学反応、化学熱力学、有機化学基礎など\n材料化学：材料物理化学、材料電気化学、移動現象論、金属精錬・精製学、応用材料化学、材料プロセス工学など\n材料物性学：結晶回折学、固体物性学、材料強度学、材料組織学、電子材料、磁性・誘電材料、材料設計など\n材料加工学：材料力学、連続体力学、材料試験、鋳造・粉体・塑性加工、溶接・接合、材料評価学、加工解析学など",
+      "conditionsOriginal": "専門科目：5科目5題（各科目1題）から任意に3題を選択",
+      "editorialNote": "按2026年度实施、2027年4月入学新版五选三。TOEFL iBT Home Edition不认可；考试时间及免除条件见当年原表。"
+    },
+    {
+      "id": "tohoku-eng-intelligent-materials-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "知能デバイス材料学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "マテリアル・開発系：数学・専門5題から3題・面接",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "材料系：最新入試案内",
+          "url": "https://www.material.tohoku.ac.jp/admission/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学\n専門科目\n面接",
+      "scopeOriginal": "数学：微分・積分、常微分方程式、線形代数（ベクトル・行列・行列式）、ベクトル解析、複素関数論、フーリエ級数・フーリエ変換、ラプラス変換など\n物理：質点・剛体の力学、電磁気学、振動・波動など\n化学：原子・分子の構造、化学結合、化学反応、化学熱力学、有機化学基礎など\n材料化学：材料物理化学、材料電気化学、移動現象論、金属精錬・精製学、応用材料化学、材料プロセス工学など\n材料物性学：結晶回折学、固体物性学、材料強度学、材料組織学、電子材料、磁性・誘電材料、材料設計など\n材料加工学：材料力学、連続体力学、材料試験、鋳造・粉体・塑性加工、溶接・接合、材料評価学、加工解析学など",
+      "conditionsOriginal": "専門科目：5科目5題（各科目1題）から任意に3題を選択",
+      "editorialNote": "按2026年度实施、2027年4月入学新版五选三。TOEFL iBT Home Edition不认可；考试时间及免除条件见当年原表。"
+    },
+    {
+      "id": "tohoku-eng-materials-systems-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "材料システム工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "マテリアル・開発系：数学・専門5題から3題・面接",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "材料系：最新入試案内",
+          "url": "https://www.material.tohoku.ac.jp/admission/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学\n専門科目\n面接",
+      "scopeOriginal": "数学：微分・積分、常微分方程式、線形代数（ベクトル・行列・行列式）、ベクトル解析、複素関数論、フーリエ級数・フーリエ変換、ラプラス変換など\n物理：質点・剛体の力学、電磁気学、振動・波動など\n化学：原子・分子の構造、化学結合、化学反応、化学熱力学、有機化学基礎など\n材料化学：材料物理化学、材料電気化学、移動現象論、金属精錬・精製学、応用材料化学、材料プロセス工学など\n材料物性学：結晶回折学、固体物性学、材料強度学、材料組織学、電子材料、磁性・誘電材料、材料設計など\n材料加工学：材料力学、連続体力学、材料試験、鋳造・粉体・塑性加工、溶接・接合、材料評価学、加工解析学など",
+      "conditionsOriginal": "専門科目：5科目5題（各科目1題）から任意に3題を選択",
+      "editorialNote": "按2026年度实施、2027年4月入学新版五选三。TOEFL iBT Home Edition不认可；考试时间及免除条件见当年原表。"
+    },
+    {
+      "id": "tohoku-eng-civil-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "土木工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "土木：小論文・基礎・専門・面接",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n小論文\n基礎科目\n専門科目\n面接",
+      "scopeOriginal": "小論文：土木工学関連のテーマ\n基礎科目：微分積分、線形代数、確率統計、生物・生態学\n社会基盤デザイン学：構造工学、コンクリート工学、地盤工学\n水環境デザイン学：水理学、河川工学、水質工学、環境計画\n都市システム計画学：計画数理、交通計画、交通工学",
+      "conditionsOriginal": "基礎科目：4問から2問を選択\n専門科目：3科目から1科目を選択し、選択した科目内の2問を選択",
+      "editorialNote": "一般入试保留小论文。英语不接受Home Edition；专业分支和分支内选答须同时满足。"
+    },
+    {
+      "id": "tohoku-eng-architecture-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "都市・建築学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "都市・建築：共通科目・講座別専門科目",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n共通科目\n専門科目",
+      "scopeOriginal": "共通科目：都市・建築デザイン、都市・建築計画、建築史、建築環境・設備工学、建築材料、建築構造\n都市・建築デザイン学講座：設計製図\n都市・建築計画学講座：建築計画、都市計画、建築史\nサステナブル空間構成学講座：建築環境・設備工学、建築材料学、建築構造学\n建築構造工学講座：建築構造力学、鉄骨造、RC造、振動論、建築防災工学",
+      "conditionsOriginal": "共通科目：基礎知識を問う4問",
+      "editorialNote": "专业科目按志望讲座确定，讲座保留在范围字段，不当作正式专攻。此表未列面接；英语不接受Home Edition。"
+    },
+    {
+      "id": "tohoku-eng-technology-social-general",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "技術社会システム専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "技術社会システム：小論文・口頭試問",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.eng.tohoku.ac.jp/media/files/pdf/admission/grad/1_m1_r0904.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.eng.tohoku.ac.jp/admission/grad/master.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n小論文\n口頭試問",
+      "editorialNote": "小论文为按指定主题及期限事先提交，口头试问含论文发表与问答，约30分钟；不添加数学或工程专业笔试。Home Edition可用。"
+    },
+    {
+      "id": "tohoku-eng-iceec",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "土木工学専攻",
+      "admissionType": "international",
+      "selectionName": "International Civil and Environmental Engineering Course (I-CEEC) — Master’s Degree Program",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Examination and Selection：oral examination／special subjects",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/I-CEEC_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program outline／participating departments",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/I-CEEC_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Master’s Degree Program：qualifications",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/I-CEEC_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年10月：最新募集要項",
+          "url": "https://iceec.civil.tohoku.ac.jp/admission/admission.html",
+          "kind": "page"
+        }
+      ],
+      "course": "International Civil and Environmental Engineering Course (I-CEEC)",
+      "subjectsOriginal": "oral examination: mathematics, special subjects, research plan",
+      "scopeOriginal": "Structural Engineering, Concrete Engineering, Geotechnical Engineering, Hydraulics, River Engineering, Water Quality Engineering, Environmental Planning, Operations Research, Transportation Planning, Transportation Engineering",
+      "editorialNote": "2026年9月28日公布的2027年10月修士要项。专业十选二。综合口试、语言能力和材料；不套用日语一般的笔试及小论文。独立修士招生，后续可衔接博士。具体数学范围、地点及线上安排由学校另行通知。"
+    },
+    {
+      "id": "tohoku-eng-sdtm-civil",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "土木工学専攻",
+      "admissionType": "international",
+      "selectionName": "Social Digital Twin Management Course (SDTM) — Master’s Degree Program",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Examination and Selection：oral examination／special subjects",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/SDTM_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program outline／participating departments",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/SDTM_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Master’s Degree Program：qualifications",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/SDTM_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年10月：最新募集要項",
+          "url": "https://iceec.civil.tohoku.ac.jp/admission/admission.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Social Digital Twin Management Course (SDTM)",
+      "subjectsOriginal": "oral examination: mathematics, special subjects, research plan",
+      "scopeOriginal": "Structural Engineering, Concrete Engineering, Geotechnical Engineering, Hydraulics, River Engineering, Water Quality Engineering, Environmental Planning, Operations Research, Transportation Planning, Transportation Engineering",
+      "editorialNote": "2026年9月28日公布的2027年10月修士要项。土木专业十选二。综合口试、语言能力和材料；不套用日语一般的笔试及小论文。独立修士招生，后续可衔接博士。具体数学范围、地点及线上安排由学校另行通知。"
+    },
+    {
+      "id": "tohoku-eng-sdtm-architecture",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "都市・建築学専攻",
+      "admissionType": "international",
+      "selectionName": "Social Digital Twin Management Course (SDTM) — Master’s Degree Program",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Examination and Selection：oral examination／special subjects",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/SDTM_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "Program outline／participating departments",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/SDTM_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Master’s Degree Program：qualifications",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/SDTM_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年10月：最新募集要項",
+          "url": "https://iceec.civil.tohoku.ac.jp/admission/admission.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Social Digital Twin Management Course (SDTM)",
+      "subjectsOriginal": "oral examination: mathematics, special subjects, research plan",
+      "scopeOriginal": "Structural Engineering for Building, Sustainable Architecture and Building Science, Architecture and Urban Planning",
+      "editorialNote": "2026年9月28日公布的2027年10月修士要项。建筑专业三选一。综合口试、语言能力和材料；不套用日语一般的笔试及小论文。独立修士招生，后续可衔接博士。具体数学范围、地点及线上安排由学校另行通知。"
+    },
+    {
+      "id": "tohoku-eng-mechanical-imac-pending",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "機械機能創成専攻",
+      "admissionType": "international",
+      "selectionName": "International Mechanical and Aerospace Engineering Course (IMAC-G) — 2027 call",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年10月募集予告／4参加専攻",
+          "url": "https://www.imac.mech.tohoku.ac.jp/outline/g_description.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新募集要項の公表状況",
+          "url": "https://www.imac.mech.tohoku.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Mechanical and Aerospace Engineering Course (IMAC-G)",
+      "publicationStatus": "pending",
+      "editorialNote": "官网预告2027年10月入学（2027年1月选拔）要项于2026年10月前后公布。此条仅为当前官方四参加专攻的待公布入口，最终2027条件以新要项为准；不沿用已截止2026版或一般数学A／B。"
+    },
+    {
+      "id": "tohoku-eng-finemechanics-imac-pending",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "ファインメカニクス専攻",
+      "admissionType": "international",
+      "selectionName": "International Mechanical and Aerospace Engineering Course (IMAC-G) — 2027 call",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年10月募集予告／4参加専攻",
+          "url": "https://www.imac.mech.tohoku.ac.jp/outline/g_description.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新募集要項の公表状況",
+          "url": "https://www.imac.mech.tohoku.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Mechanical and Aerospace Engineering Course (IMAC-G)",
+      "publicationStatus": "pending",
+      "editorialNote": "官网预告2027年10月入学（2027年1月选拔）要项于2026年10月前后公布。此条仅为当前官方四参加专攻的待公布入口，最终2027条件以新要项为准；不沿用已截止2026版或一般数学A／B。"
+    },
+    {
+      "id": "tohoku-eng-robotics-imac-pending",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "ロボティクス専攻",
+      "admissionType": "international",
+      "selectionName": "International Mechanical and Aerospace Engineering Course (IMAC-G) — 2027 call",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年10月募集予告／4参加専攻",
+          "url": "https://www.imac.mech.tohoku.ac.jp/outline/g_description.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新募集要項の公表状況",
+          "url": "https://www.imac.mech.tohoku.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Mechanical and Aerospace Engineering Course (IMAC-G)",
+      "publicationStatus": "pending",
+      "editorialNote": "官网预告2027年10月入学（2027年1月选拔）要项于2026年10月前后公布。此条仅为当前官方四参加专攻的待公布入口，最终2027条件以新要项为准；不沿用已截止2026版或一般数学A／B。"
+    },
+    {
+      "id": "tohoku-eng-aerospace-imac-pending",
+      "universityId": "tohoku",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "admissionType": "international",
+      "selectionName": "International Mechanical and Aerospace Engineering Course (IMAC-G) — 2027 call",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2027年10月募集予告／4参加専攻",
+          "url": "https://www.imac.mech.tohoku.ac.jp/outline/g_description.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新募集要項の公表状況",
+          "url": "https://www.imac.mech.tohoku.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Mechanical and Aerospace Engineering Course (IMAC-G)",
+      "publicationStatus": "pending",
+      "editorialNote": "官网预告2027年10月入学（2027年1月选拔）要项于2026年10月前后公布。此条仅为当前官方四参加专攻的待公布入口，最终2027条件以新要项为准；不沿用已截止2026版或一般数学A／B。"
+    },
+    {
+      "id": "tohoku-ist-group1-dept0-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "数学群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目\n口述試験",
+      "scopeOriginal": "微分積分、線形代数",
+      "conditionsOriginal": "専門科目：4題を解答",
+      "editorialNote": "一般数学群未设独立外部英语成绩；部分数学题英文出题，日文作答可。口述约10分钟，资料语言和份数按本轮原表。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group1-dept0-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "数学群",
+      "subjectsOriginal": "専門科目\n英語（TOEFL又はTOEIC）\n口述試験",
+      "scopeOriginal": "微分積分、線形代数",
+      "conditionsOriginal": "専門科目：4題を解答",
+      "editorialNote": "外国人数学群要求外部英语成绩，不能沿用一般群无英语成绩的规则。数学四题，口述约10分钟；Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group1-dept1-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "システム情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "数学群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目\n口述試験",
+      "scopeOriginal": "微分積分、線形代数",
+      "conditionsOriginal": "専門科目：4題を解答",
+      "editorialNote": "一般数学群未设独立外部英语成绩；部分数学题英文出题，日文作答可。口述约10分钟，资料语言和份数按本轮原表。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group1-dept1-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "システム情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "数学群",
+      "subjectsOriginal": "専門科目\n英語（TOEFL又はTOEIC）\n口述試験",
+      "scopeOriginal": "微分積分、線形代数",
+      "conditionsOriginal": "専門科目：4題を解答",
+      "editorialNote": "外国人数学群要求外部英语成绩，不能沿用一般群无英语成绩的规则。数学四题，口述约10分钟；Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group1-dept3-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "応用情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "数学群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目\n口述試験",
+      "scopeOriginal": "微分積分、線形代数",
+      "conditionsOriginal": "専門科目：4題を解答",
+      "editorialNote": "一般数学群未设独立外部英语成绩；部分数学题英文出题，日文作答可。口述约10分钟，资料语言和份数按本轮原表。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group1-dept3-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "応用情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "数学群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "数学群",
+      "subjectsOriginal": "専門科目\n英語（TOEFL又はTOEIC）\n口述試験",
+      "scopeOriginal": "微分積分、線形代数",
+      "conditionsOriginal": "専門科目：4題を解答",
+      "editorialNote": "外国人数学群要求外部英语成绩，不能沿用一般群无英语成绩的规则。数学四题，口述约10分钟；Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group2-dept0-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "情報・生命系群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "選考方法総則：筆答・口述",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "物理・情報系：公式科目キーワード・当輪口述通知",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報・生命系群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n基礎専門科目",
+      "scopeOriginal": "物理・情報系：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎\n医学・生物系：バイオインフォマティクス、分子生物学、健康科学\n物理・情報系キーワード：\n電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "物理・情報系：6題から2題選択\n医学・生物系：3題から2題選択",
+      "editorialNote": "要项第9页总则规定笔答和口述，第14页一般2群科目表未列单独口述日程；须核对系官网的当轮口述通知。不可据此断定免口述；医学・生物系更细范围向负责教务确认。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group2-dept0-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "情報・生命系群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "選考方法総則：筆答・口述",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "物理・情報系：公式科目キーワード・当輪口述通知",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報・生命系群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n基礎専門科目\n口述試験",
+      "scopeOriginal": "物理・情報系：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎\n医学・生物系：バイオインフォマティクス、分子生物学、健康科学\n物理・情報系キーワード：\n電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "物理・情報系：6題から2題選択\n医学・生物系：3題から2題選択",
+      "editorialNote": "留学生2群明确列口述约10分钟；物理信息六选二或医学生物三选二，不复制工学／医工学六选三。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group2-dept1-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "システム情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "情報・生命系群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "選考方法総則：筆答・口述",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "物理・情報系：公式科目キーワード・当輪口述通知",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報・生命系群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n基礎専門科目",
+      "scopeOriginal": "物理・情報系：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎\n医学・生物系：バイオインフォマティクス、分子生物学、健康科学\n物理・情報系キーワード：\n電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "物理・情報系：6題から2題選択\n医学・生物系：3題から2題選択",
+      "editorialNote": "要项第9页总则规定笔答和口述，第14页一般2群科目表未列单独口述日程；须核对系官网的当轮口述通知。不可据此断定免口述；医学・生物系更细范围向负责教务确认。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group2-dept1-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "システム情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "情報・生命系群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "選考方法総則：筆答・口述",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "物理・情報系：公式科目キーワード・当輪口述通知",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報・生命系群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n基礎専門科目\n口述試験",
+      "scopeOriginal": "物理・情報系：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎\n医学・生物系：バイオインフォマティクス、分子生物学、健康科学\n物理・情報系キーワード：\n電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "物理・情報系：6題から2題選択\n医学・生物系：3題から2題選択",
+      "editorialNote": "留学生2群明确列口述约10分钟；物理信息六选二或医学生物三选二，不复制工学／医工学六选三。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group2-dept3-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "応用情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "情報・生命系群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "選考方法総則：筆答・口述",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "物理・情報系：公式科目キーワード・当輪口述通知",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報・生命系群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n基礎専門科目",
+      "scopeOriginal": "物理・情報系：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎\n医学・生物系：バイオインフォマティクス、分子生物学、健康科学\n物理・情報系キーワード：\n電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "物理・情報系：6題から2題選択\n医学・生物系：3題から2題選択",
+      "editorialNote": "要项第9页总则规定笔答和口述，第14页一般2群科目表未列单独口述日程；须核对系官网的当轮口述通知。不可据此断定免口述；医学・生物系更细范围向负责教务确认。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group2-dept3-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "応用情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "情報・生命系群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "選考方法総則：筆答・口述",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "物理・情報系：公式科目キーワード・当輪口述通知",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報・生命系群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n基礎専門科目\n口述試験",
+      "scopeOriginal": "物理・情報系：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎\n医学・生物系：バイオインフォマティクス、分子生物学、健康科学\n物理・情報系キーワード：\n電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "物理・情報系：6題から2題選択\n医学・生物系：3題から2題選択",
+      "editorialNote": "留学生2群明确列口述约10分钟；物理信息六选二或医学生物三选二，不复制工学／医工学六选三。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group3-dept0-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "機械・知能系群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n数学Ａ\n数学Ｂ",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "原則として口述試験は実施しない。",
+      "editorialNote": "一般口述原则不实施，配属调整等对象另行通知线上面接；英语未提交的受理与判定规则见原页。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group3-dept0-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "機械・知能系群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n数学Ａ\n数学Ｂ\n口述試験",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "TOEFL-iBT 79点またはTOEIC 730点\n筆答試験で合格した者のみ面接試問を行う。",
+      "editorialNote": "仅此外国人机械群有79／730英语最低分；不套到一般群或工学／医工学。笔答合格后口述，发表约10分钟；原表按Test Date成绩判断，2026年新TOEFL尺度须另向学校确认，不自行换算。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group3-dept1-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "システム情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "機械・知能系群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n数学Ａ\n数学Ｂ",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "原則として口述試験は実施しない。",
+      "editorialNote": "一般口述原则不实施，配属调整等对象另行通知线上面接；英语未提交的受理与判定规则见原页。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group3-dept1-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "システム情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "機械・知能系群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n数学Ａ\n数学Ｂ\n口述試験",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "TOEFL-iBT 79点またはTOEIC 730点\n筆答試験で合格した者のみ面接試問を行う。",
+      "editorialNote": "仅此外国人机械群有79／730英语最低分；不套到一般群或工学／医工学。笔答合格后口述，发表约10分钟；原表按Test Date成绩判断，2026年新TOEFL尺度须另向学校确认，不自行换算。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group3-dept3-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "応用情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "機械・知能系群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n数学Ａ\n数学Ｂ",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "原則として口述試験は実施しない。",
+      "editorialNote": "一般口述原则不实施，配属调整等对象另行通知线上面接；英语未提交的受理与判定规则见原页。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group3-dept3-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "応用情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "機械・知能系群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "機械・知能系群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n数学Ａ\n数学Ｂ\n口述試験",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "TOEFL-iBT 79点またはTOEIC 730点\n筆答試験で合格した者のみ面接試問を行う。",
+      "editorialNote": "仅此外国人机械群有79／730英语最低分；不套到一般群或工学／医工学。笔答合格后口述，发表约10分钟；原表按Test Date成绩判断，2026年新TOEFL尺度须另向学校确认，不自行换算。Home Edition可用。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group4-dept2-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "人間社会情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "土木工学群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "土木工学群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n小論文\n基礎科目\n専門科目\n口述試験",
+      "scopeOriginal": "小論文：土木工学関連のテーマ\n基礎科目：微分積分、線形代数、確率統計、生物・生態学\n社会基盤デザイン学：構造工学、コンクリート工学、地盤工学\n水環境デザイン学：水理学、河川工学、水質工学、環境計画\n都市システム計画学：計画数理、交通計画、交通工学",
+      "conditionsOriginal": "基礎科目：4問から2問を選択\n専門科目：3科目から1科目を選択し、選択した科目内の2問を選択",
+      "editorialNote": "一般土木群有小论文；Home Edition不认可。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group4-dept2-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "人間社会情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "土木工学群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "土木工学群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n基礎科目\n専門科目\n口述試験",
+      "scopeOriginal": "基礎科目：微分積分、線形代数、確率統計、生物・生態学\n社会基盤デザイン学：構造工学、コンクリート工学、地盤工学\n水環境デザイン学：水理学、河川工学、水質工学、環境計画\n都市システム計画学：計画数理、交通計画、交通工学",
+      "conditionsOriginal": "基礎科目：4問から2問を選択\n専門科目：3科目から1科目を選択し、選択した科目内の2問を選択",
+      "editorialNote": "留学生土木群不列一般小论文；口述另评价日语能力。Home Edition不认可。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group5-dept2-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "人間社会情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "言語・メディア群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "言語・メディア群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n専門科目\n口述試験",
+      "scopeOriginal": "言語系：統語論・形態論、意味論、歴史言語学、計算言語学\nメディア系：メディア研究、文化研究、情報リテラシー論、教育工学",
+      "conditionsOriginal": "1つの学系を選択／3問を選択解答",
+      "editorialNote": "一般语言／媒体三题，发表约15分钟加问答约10分钟。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group5-dept2-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "人間社会情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "言語・メディア群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "言語・メディア群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n専門科目\n口述試験",
+      "scopeOriginal": "言語系：統語論・形態論、意味論、歴史言語学、計算言語学\nメディア系：メディア研究、文化研究、情報リテラシー論、教育工学",
+      "conditionsOriginal": "1つの学系を選択／2問を選択解答",
+      "editorialNote": "留学生语言／媒体二题，与一般三题不同；发表约15分钟加问答约10分钟。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group6-dept2-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "人間社会情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "心理・哲学群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "心理・哲学群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n専門科目\n口述試験",
+      "scopeOriginal": "心理学：神経・生理、感覚・知覚、認知、学習・記憶、言語・思考、心理統計\n哲学：哲学史",
+      "conditionsOriginal": "12題の中から4題選択／志望群に指定された問題から少なくとも3問",
+      "editorialNote": "一般心理／哲学十二选四，其中至少三题须来自志望群指定问题；发表约20分钟。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group6-dept2-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "人間社会情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "心理・哲学群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "心理・哲学群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n専門科目\n口述試験",
+      "scopeOriginal": "心理学：神経・生理、感覚・知覚、認知、学習・記憶、言語・思考、心理統計\n哲学：哲学史",
+      "conditionsOriginal": "12題の中から3題選択／志望群に指定された問題から選択",
+      "editorialNote": "留学生心理／哲学十二选三，须从志望群指定问题选；不复制一般四题规则。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group6-dept3-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "応用情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "心理・哲学群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "心理・哲学群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n専門科目\n口述試験",
+      "scopeOriginal": "心理学：神経・生理、感覚・知覚、認知、学習・記憶、言語・思考、心理統計\n哲学：哲学史",
+      "conditionsOriginal": "12題の中から4題選択／志望群に指定された問題から少なくとも3問",
+      "editorialNote": "一般心理／哲学十二选四，其中至少三题须来自志望群指定问题；发表约20分钟。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group6-dept3-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "応用情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "心理・哲学群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "心理・哲学群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n専門科目\n口述試験",
+      "scopeOriginal": "心理学：神経・生理、感覚・知覚、認知、学習・記憶、言語・思考、心理統計\n哲学：哲学史",
+      "conditionsOriginal": "12題の中から3題選択／志望群に指定された問題から選択",
+      "editorialNote": "留学生心理／哲学十二选三，须从志望群指定问题选；不复制一般四题规则。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group7-dept2-general",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "人間社会情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "社会科学群：一般選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "社会科学群",
+      "internationalGeneral": true,
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n専門科目\n口述試験",
+      "scopeOriginal": "社会学系：社会学理論、地域社会学、市民社会論、社会調査法\n政治学系：現代政治論、政治学方法論、比較政治学、政治意識論\n経済学系：ミクロ経済学、応用経済学、統計学、経済数学",
+      "conditionsOriginal": "1つの学系を選択／4問題から2問題選択",
+      "editorialNote": "学系出愿后不可改变；发表约20分钟加问答约10分钟。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-group7-dept2-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "人間社会情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等選抜（秋季）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "社会科学群：外国人留学生等選抜",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "正式専攻と7科目群の対応表",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "出願資格・専攻",
+          "url": "https://www.is.tohoku.ac.jp/media/files/entrance/summary/first202704_0605_ja.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027年4月：最新募集要項",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        }
+      ],
+      "course": "社会科学群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC）\n専門科目\n口述試験",
+      "scopeOriginal": "社会学系：社会学理論、地域社会学、市民社会論、社会調査法\n政治学系：現代政治論、政治学方法論、比較政治学、政治意識論\n経済学系：ミクロ経済学、応用経済学、統計学、経済数学",
+      "conditionsOriginal": "1つの学系を選択／4問題から2問題選択",
+      "editorialNote": "留学生社会科学四选二，可用英语作答及发表；学系须出愿时确定。 7群为考试群，不作为专攻；志望研究室与群对应须查表。春季2027要项待公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-ist-sdtm-notice",
+      "universityId": "tohoku",
+      "graduateSchool": "情報科学研究科",
+      "department": "人間社会情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "Social Digital Twin Management Course (SDTM) — program announcement",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "SDTM：2027年開始／参加研究科・専攻",
+          "url": "https://iceec.civil.tohoku.ac.jp/media/files/admission/2026/SDTM_AdmissionGuideline_2027enrollment_20260928.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "情報科学研究科：募集要項の公表状況",
+          "url": "https://www.is.tohoku.ac.jp/jp/entrance/exam.html",
+          "kind": "page"
+        },
+        {
+          "label": "SDTM：工学研究科2027要項",
+          "url": "https://iceec.civil.tohoku.ac.jp/admission/admission.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Social Digital Twin Management Course (SDTM)",
+      "publicationStatus": "notice",
+      "editorialNote": "2027年新设项目介绍列出情報科学研究科人間社会情報科学専攻参加，但现有工学募集要项的专业选答表只列工学土木／建筑。本条为参加预告；情報科学专攻自身的选拔方式、科目与报名条件待其正式案内，不复制工学口试。"
+    },
+    {
+      "id": "tohoku-sci-math-general",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：専攻別科目・選答・面接",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2027数学専攻別紙3：筆記試験の出題範囲目安（Word）",
+          "url": "https://www.sci.tohoku.ac.jp/docs/world-wide2026/mc2027_math.docx",
+          "kind": "page"
+        },
+        {
+          "label": "専攻別提出書類・英語証明",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専攻・一般／外国人資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        },
+        {
+          "label": "2026・2027：専攻別紙",
+          "url": "https://www.sci.tohoku.ac.jp/juken/application.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語：英語\n専門科目：数学\n面接試験",
+      "scopeOriginal": "共通問題：微分積分学、線形代数学、集合と位相\n選択問題：群・環・体の理論、ベクトル解析、曲線・曲面の幾何、多様体論、位相幾何学、測度論・ルベーグ積分論、常微分方程式論、複素関数論、関数解析、数理統計、集合論（ツォルンの補題を含む）、計算機数学\n英語：数学に関する英語の文章の読解と、数学に関する短い英作文",
+      "conditionsOriginal": "基礎科目4題すべてに解答／選択問題8題程度から3題を選択",
+      "editorialNote": "全员面接；详细概念清单见当年入口链接的数学别纸3。英语采用当前2027版读解及短作文，不沿用旧版10行和译。"
+    },
+    {
+      "id": "tohoku-sci-math-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等特別選考",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生等特別選考：方法・日程",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "事前相談・受入承諾等",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外国人留学生・帰国学生の資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "書類選考\n必要により実施する専門科目、外国語、日本語についての筆記試験・面接試験",
+      "editorialNote": "2027年4月外国人／归国学生专门选考，具体日程及方法另行通知，须先完成规定咨询与受入承诺；不复制一般入试的固定笔试范围或题数。"
+    },
+    {
+      "id": "tohoku-sci-math-igpas",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program for Advanced Science (IGPAS) — Master’s admission",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "IGPAS 2027：written examination／interview／GRE",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/application.html",
+          "kind": "page"
+        },
+        {
+          "label": "IGPAS：Master’s admission available separately",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Graduate Program for Advanced Science (IGPAS)",
+      "subjectsOriginal": "written examination and an interview",
+      "editorialNote": "项目整体介绍为修士两年＋博士三年，也允许单独修士入学，本条只录修士。2027年度为笔试加面试，具体科目、方法及时间由专攻邮件通知；海外居住考生线上。不复制日语一般的笔记考纲。"
+    },
+    {
+      "id": "tohoku-sci-physics-general",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：専攻別科目・選答・面接",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専攻別提出書類・英語証明",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専攻・一般／外国人資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        },
+        {
+          "label": "2026・2027：専攻別紙",
+          "url": "https://www.sci.tohoku.ac.jp/juken/application.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語：英語\n専門科目\n面接試験",
+      "scopeOriginal": "基礎数学、力学、電磁気学、量子力学、熱・統計力学",
+      "editorialNote": "笔记为到场考试；笔记合格者按志望领域线上面接。"
+    },
+    {
+      "id": "tohoku-sci-physics-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等特別選考",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生等特別選考：方法・日程",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "事前相談・受入承諾等",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外国人留学生・帰国学生の資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "書類選考\n必要により実施する専門科目、外国語、日本語についての筆記試験・面接試験",
+      "editorialNote": "2027年4月外国人／归国学生专门选考，具体日程及方法另行通知，须先完成规定咨询与受入承诺；不复制一般入试的固定笔试范围或题数。"
+    },
+    {
+      "id": "tohoku-sci-physics-igpas",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program for Advanced Science (IGPAS) — Master’s admission",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "IGPAS 2027：written examination／interview／GRE",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/application.html",
+          "kind": "page"
+        },
+        {
+          "label": "IGPAS：Master’s admission available separately",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Graduate Program for Advanced Science (IGPAS)",
+      "subjectsOriginal": "written examination and an interview",
+      "editorialNote": "项目整体介绍为修士两年＋博士三年，也允许单独修士入学，本条只录修士。2027年度为笔试加面试，具体科目、方法及时间由专攻邮件通知；海外居住考生线上。不复制日语一般的笔记考纲。"
+    },
+    {
+      "id": "tohoku-sci-astronomy-general",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "天文学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：専攻別科目・選答・面接",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専攻別提出書類・英語証明",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専攻・一般／外国人資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        },
+        {
+          "label": "2026・2027：専攻別紙",
+          "url": "https://www.sci.tohoku.ac.jp/juken/application.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語：英語\n専門科目：物理学\n面接試験",
+      "scopeOriginal": "物理学",
+      "editorialNote": "笔记合格者面接；不将理学物理专攻细分科目擅自复制到天文。"
+    },
+    {
+      "id": "tohoku-sci-astronomy-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "天文学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等特別選考",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生等特別選考：方法・日程",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "事前相談・受入承諾等",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外国人留学生・帰国学生の資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "書類選考\n必要により実施する専門科目、外国語、日本語についての筆記試験・面接試験",
+      "editorialNote": "2027年4月外国人／归国学生专门选考，具体日程及方法另行通知，须先完成规定咨询与受入承诺；不复制一般入试的固定笔试范围或题数。"
+    },
+    {
+      "id": "tohoku-sci-astronomy-igpas",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "天文学専攻",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program for Advanced Science (IGPAS) — Master’s admission",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "IGPAS 2027：written examination／interview／GRE",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/application.html",
+          "kind": "page"
+        },
+        {
+          "label": "IGPAS：Master’s admission available separately",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Graduate Program for Advanced Science (IGPAS)",
+      "subjectsOriginal": "written examination and an interview",
+      "conditionsOriginal": "GRE Subject Test in Physics",
+      "editorialNote": "项目整体介绍为修士两年＋博士三年，也允许单独修士入学，本条只录修士。2027年度为笔试加面试，具体科目、方法及时间由专攻邮件通知；海外居住考生线上。天文须提交GRE Physics。不复制日语一般的笔记考纲。"
+    },
+    {
+      "id": "tohoku-sci-geophysics-general",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "地球物理学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：専攻別科目・選答・面接",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専攻別提出書類・英語証明",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専攻・一般／外国人資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        },
+        {
+          "label": "2026・2027：専攻別紙",
+          "url": "https://www.sci.tohoku.ac.jp/juken/application.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "数物系科目\n語学力認定証\n面接試験",
+      "scopeOriginal": "力学、統計熱力学、流体力学、電磁気学、量子力学、弾性体力学、数学",
+      "conditionsOriginal": "7問から4問を選択",
+      "editorialNote": "笔记及语言证明审查合格后按志望A／B／C领域面接，含约5分钟材料说明。"
+    },
+    {
+      "id": "tohoku-sci-geophysics-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "地球物理学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等特別選考",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生等特別選考：方法・日程",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "事前相談・受入承諾等",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外国人留学生・帰国学生の資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "書類選考\n必要により実施する専門科目、外国語、日本語についての筆記試験・面接試験",
+      "editorialNote": "2027年4月外国人／归国学生专门选考，具体日程及方法另行通知，须先完成规定咨询与受入承诺；不复制一般入试的固定笔试范围或题数。"
+    },
+    {
+      "id": "tohoku-sci-geophysics-igpas",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "地球物理学専攻",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program for Advanced Science (IGPAS) — Master’s admission",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "IGPAS 2027：written examination／interview／GRE",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/application.html",
+          "kind": "page"
+        },
+        {
+          "label": "IGPAS：Master’s admission available separately",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Graduate Program for Advanced Science (IGPAS)",
+      "subjectsOriginal": "written examination and an interview",
+      "conditionsOriginal": "GRE Subject Test in Mathematics or Physics",
+      "editorialNote": "项目整体介绍为修士两年＋博士三年，也允许单独修士入学，本条只录修士。2027年度为笔试加面试，具体科目、方法及时间由专攻邮件通知；海外居住考生线上。地球物理须提交GRE Mathematics或Physics。不复制日语一般的笔记考纲。"
+    },
+    {
+      "id": "tohoku-sci-chemistry-general",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：専攻別科目・選答・面接",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専攻別提出書類・英語証明",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専攻・一般／外国人資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        },
+        {
+          "label": "2026・2027：専攻別紙",
+          "url": "https://www.sci.tohoku.ac.jp/juken/application.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目：化学\n語学力認定証\n面接試験（必要と判断された者）",
+      "scopeOriginal": "化学",
+      "conditionsOriginal": "必修問題6問／選択問題8問中の6問",
+      "editorialNote": "面接只对需要者实施；英语为专攻指定语言证明，详见原别纸。"
+    },
+    {
+      "id": "tohoku-sci-chemistry-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等特別選考",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生等特別選考：方法・日程",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "事前相談・受入承諾等",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外国人留学生・帰国学生の資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "書類選考\n必要により実施する専門科目、外国語、日本語についての筆記試験・面接試験",
+      "editorialNote": "2027年4月外国人／归国学生专门选考，具体日程及方法另行通知，须先完成规定咨询与受入承诺；不复制一般入试的固定笔试范围或题数。"
+    },
+    {
+      "id": "tohoku-sci-chemistry-igpas",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program for Advanced Science (IGPAS) — Master’s admission",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "IGPAS 2027：written examination／interview／GRE",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/application.html",
+          "kind": "page"
+        },
+        {
+          "label": "IGPAS：Master’s admission available separately",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Graduate Program for Advanced Science (IGPAS)",
+      "subjectsOriginal": "written examination and an interview",
+      "editorialNote": "项目整体介绍为修士两年＋博士三年，也允许单独修士入学，本条只录修士。2027年度为笔试加面试，具体科目、方法及时间由专攻邮件通知；海外居住考生线上。不复制日语一般的笔记考纲。"
+    },
+    {
+      "id": "tohoku-sci-earth-general",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "地学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：専攻別科目・選答・面接",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "専攻別提出書類・英語証明",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "専攻・一般／外国人資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        },
+        {
+          "label": "2026・2027：専攻別紙",
+          "url": "https://www.sci.tohoku.ac.jp/juken/application.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目：地球科学・地理学\n英語スコアシート\n面接試験",
+      "conditionsOriginal": "全分野共通問題1問（必須）と各分野の問題1問（選択）の合計2問",
+      "editorialNote": "专业题必须从志望分野选择；所有考生面接，英语成绩按地学别纸3。范围未细列处不从研究课题扩写。"
+    },
+    {
+      "id": "tohoku-sci-earth-foreign",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "地学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生等特別選考",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生等特別選考：方法・日程",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "事前相談・受入承諾等",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外国人留学生・帰国学生の資格",
+          "url": "https://www.sci.tohoku.ac.jp/202627mc_20260521.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.sci.tohoku.ac.jp/juken/graduate-admission.html",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "書類選考\n必要により実施する専門科目、外国語、日本語についての筆記試験・面接試験",
+      "editorialNote": "2027年4月外国人／归国学生专门选考，具体日程及方法另行通知，须先完成规定咨询与受入承诺；不复制一般入试的固定笔试范围或题数。"
+    },
+    {
+      "id": "tohoku-sci-earth-igpas",
+      "universityId": "tohoku",
+      "graduateSchool": "理学研究科",
+      "department": "地学専攻",
+      "admissionType": "international",
+      "selectionName": "International Graduate Program for Advanced Science (IGPAS) — Master’s admission",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "IGPAS 2027：written examination／interview／GRE",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/application.html",
+          "kind": "page"
+        },
+        {
+          "label": "IGPAS：Master’s admission available separately",
+          "url": "https://www.sci.tohoku.ac.jp/english/igpas/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Graduate Program for Advanced Science (IGPAS)",
+      "subjectsOriginal": "written examination and an interview",
+      "editorialNote": "项目整体介绍为修士两年＋博士三年，也允许单独修士入学，本条只录修士。2027年度为笔试加面试，具体科目、方法及时间由专攻邮件通知；海外居住考生线上。不复制日语一般的笔记考纲。"
+    },
+    {
+      "id": "tohoku-env-humanities-dept0-general",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先進社会環境学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：人文・社会科学系群科目・選答",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "正式専攻と入試群の対応",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新募集要項・春季公表予定",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "人文・社会科学系群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n専門科目・口述試験",
+      "conditionsOriginal": "志望する研究分野の専門知識及び卒業研究・研究計画等",
+      "editorialNote": "线上专业／口述，事先提交专业性报告；任务及细节由受验案内通知。 群与专攻按2027募集要项；具体实验室可选群仍须核对当年名单。2027年4月春季一般及外国人留学生等特别选拔要项预计2026年11月中旬公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-env-humanities-dept1-general",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先端環境創成学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：人文・社会科学系群科目・選答",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "正式専攻と入試群の対応",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新募集要項・春季公表予定",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "人文・社会科学系群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n専門科目・口述試験",
+      "conditionsOriginal": "志望する研究分野の専門知識及び卒業研究・研究計画等",
+      "editorialNote": "线上专业／口述，事先提交专业性报告；任务及细节由受验案内通知。 群与专攻按2027募集要项；具体实验室可选群仍须核对当年名单。2027年4月春季一般及外国人留学生等特别选拔要项预计2026年11月中旬公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-env-geography-dept1-general",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先端環境創成学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：環境・地理群科目・選答",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "正式専攻と入試群の対応",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新募集要項・春季公表予定",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "環境・地理群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n専門科目\n口述試験",
+      "scopeOriginal": "専門科目：志望する研究分野の問題\n口述試験：卒業研究・研究計画等",
+      "editorialNote": "按2027要项的先端文化环境／灾害科学课程收录，不把群说明中的四种毕业背景改成四门必考。 群与专攻按2027募集要项；具体实验室可选群仍须核对当年名单。2027年4月春季一般及外国人留学生等特别选拔要项预计2026年11月中旬公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-env-energy-dept0-general",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先進社会環境学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：エネルギー環境群科目・選答",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "2026年4月：基礎科目・小論文のキーワード",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/202604_energy_kwe.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "正式専攻と入試群の対応",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新募集要項・春季公表予定",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "エネルギー環境群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎科目\n小論文\n面接",
+      "scopeOriginal": "数学：微分、積分、級数、偏微分、二重積分、常微分方程式、行列、ベクトル、行列式、固有値\n物理学：質点および質点系の運動、剛体の運動、波動\n化学：元素の性質、化学熱力学、化学平衡、化学結合論、結晶構造、電気化学、定性・定量分析、分子の運動、反応速度、反応機構\n小論文：環境科学に関わる2題",
+      "conditionsOriginal": "数学2題、物理学2題、化学2題、合計6題のうちから4題を選択",
+      "editorialNote": "基础范围附2026年4月官方关键词表，书籍仅为参考。 群与专攻按2027募集要项；具体实验室可选群仍须核对当年名单。2027年4月春季一般及外国人留学生等特别选拔要项预计2026年11月中旬公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-env-chem-bio-dept1-general",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先端環境創成学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：化学・バイオ群科目・選答",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "正式専攻と入試群の対応",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新募集要項・春季公表予定",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "化学・バイオ群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎科目\n専門科目\n面接",
+      "scopeOriginal": "基礎科目：無機・物理化学（化学結合論、平衡と速度）、有機化学（構造、物性、反応）、生物化学（構造、機能、代謝）、化学工学（量論、移動現象論）\n専門科目：①無機・物理化学（結合・構造論、反応論、物性論）3題、②有機化学（物理有機化学、有機合成化学、高分子化学）3題、③生物化学（生体機能化学、応用生物化学、生体情報化学、生物物理化学）4題、④化学工学（反応工学、機械的単位操作（レオロジーも含む。）、分離工学、プロセスシステム（制御も含む。））4題",
+      "conditionsOriginal": "基礎科目：本学工学部化学・バイオ工学科卒業（見込）の者：4題必答／それ以外：4題のうちから3題選択\n専門科目：4分野14題の中から4題選択。ただし、2分野以上から選択",
+      "editorialNote": "按基础四必答／四选三区分学历，专业十四选四且至少两领域。 群与专攻按2027募集要项；具体实验室可选群仍须核对当年名单。2027年4月春季一般及外国人留学生等特别选拔要项预计2026年11月中旬公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-env-materials-dept1-general",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先端環境創成学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：マテリアル群科目・選答",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "正式専攻と入試群の対応",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新募集要項・春季公表予定",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "マテリアル群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学\n専門科目\n面接",
+      "scopeOriginal": "数学：微分・積分、常微分方程式、線形代数（ベクトル・行列・行列式）、ベクトル解析、複素関数論、フーリエ級数・フーリエ変換、ラプラス変換など\n物理：質点・剛体の力学、電磁気学、振動・波動など\n化学：原子・分子の構造、化学結合、化学反応、化学熱力学、有機化学基礎など\n材料化学：材料物理化学、材料電気化学、移動現象論、金属精錬・精製学、応用材料化学、材料プロセス工学など\n材料物性学：結晶回折学、固体物性学、材料強度学、材料組織学、電子材料、磁性・誘電材料、材料設計など\n材料加工学：材料力学、連続体力学、材料試験、鋳造・粉体・塑性加工、溶接・接合、材料評価学、加工解析学など",
+      "conditionsOriginal": "専門科目：5科目5題（各科目1題）から任意に3題を選択",
+      "editorialNote": "一般入试按2026实施、2027年4月新版五选三；此变更不套到外国人等特别选拔。 群与专攻按2027募集要项；具体实验室可选群仍须核对当年名单。2027年4月春季一般及外国人留学生等特别选拔要项预计2026年11月中旬公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-env-comprehensive-dept0-general",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先進社会環境学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：環境総合群科目・選答",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "正式専攻と入試群の対応",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新募集要項・春季公表予定",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "環境総合群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎科目\n専門科目\n口述試験\n面接",
+      "editorialNote": "面向教育背景与既有群不充分匹配者，须事先咨询并得到接收；基础／专业实际科目逐人确认，不假设统一考纲。 群与专攻按2027募集要项；具体实验室可选群仍须核对当年名单。2027年4月春季一般及外国人留学生等特别选拔要项预计2026年11月中旬公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-env-comprehensive-dept1-general",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先端環境創成学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（秋季入学試験）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：環境総合群科目・選答",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "正式専攻と入試群の対応",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願資格",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026Mb.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "最新募集要項・春季公表予定",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "環境総合群",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎科目\n専門科目\n口述試験\n面接",
+      "editorialNote": "面向教育背景与既有群不充分匹配者，须事先咨询并得到接收；基础／专业实际科目逐人确认，不假设统一考纲。 群与专攻按2027募集要项；具体实验室可选群仍须核对当年名单。2027年4月春季一般及外国人留学生等特别选拔要项预计2026年11月中旬公布，不移用本秋季表。"
+    },
+    {
+      "id": "tohoku-env-human-security-environment",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先端環境創成学専攻",
+      "admissionType": "international",
+      "selectionName": "International Post-graduate Program in Human Security — Master’s Course",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Master’s Course：department／oral exam／presentation",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026HSb.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "Two-year Master’s Course／Cultural Environmental Studies・Disaster Science",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026HSb.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Master’s Course：qualifications",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026HSb.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "Human Security：2027年4月要項",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Human Security and Environment",
+      "subjectsOriginal": "oral examination (interview)",
+      "editorialNote": "两年修士，限先端環境創成学専攻文化环境学／灾害科学。远程面试：过去及计划研究发表15分钟、问答25分钟，结合语言成绩和材料。只取修士列；不复制环境一般基础笔试。"
+    },
+    {
+      "id": "tohoku-env-human-security-disaster",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先端環境創成学専攻",
+      "admissionType": "international",
+      "selectionName": "International Post-graduate Program in Human Security — Master’s Course",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "Master’s Course：department／oral exam／presentation",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026HSb.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "Two-year Master’s Course／Cultural Environmental Studies・Disaster Science",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026HSb.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Master’s Course：qualifications",
+          "url": "https://www.kankyo.tohoku.ac.jp/adm/2026HSb.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "Human Security：2027年4月要項",
+          "url": "https://www.kankyo.tohoku.ac.jp/newstudent/nittei-yoko.html",
+          "kind": "page"
+        }
+      ],
+      "course": "Human Security and Disaster Risk Reduction",
+      "subjectsOriginal": "oral examination (interview)",
+      "editorialNote": "两年修士，限先端環境創成学専攻文化环境学／灾害科学。远程面试：过去及计划研究发表15分钟、问答25分钟，结合语言成绩和材料。只取修士列；不复制环境一般基础笔试。"
+    },
+    {
+      "id": "tohoku-env-ieslp-dept0",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先進社会環境学専攻",
+      "admissionType": "international",
+      "selectionName": "International Environmental Security Leadership Program (IESLP) — Master’s Course",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "IESLP 2027：Selection／English score／October intake",
+          "url": "https://www.kankyo.tohoku.ac.jp/ielp/application/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "2027年10月：prospective supervisors",
+          "url": "https://www.kankyo.tohoku.ac.jp/ielp/application/listofprofs.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "Master’s course：eligibility",
+          "url": "https://www.kankyo.tohoku.ac.jp/ielp/eligibility/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Environmental Security Leadership Program (IESLP)",
+      "conditionsOriginal": "The examiner of the IESLP committee will inform you of the detailed method and schedule for the examination via e-mail",
+      "editorialNote": "只限官网列明的2027可接收指导教员，须事先取得同意；不是全专攻所有实验室。项目未统一公开笔试／口试科目，由审查委员会邮件通知具体方式，不扩写数学、专业或面试。英语有效期和MEXT四技能／B2额外要求按官网分开核对，不将奖学金资格套成全员统一最低线。"
+    },
+    {
+      "id": "tohoku-env-ieslp-dept1",
+      "universityId": "tohoku",
+      "graduateSchool": "環境科学研究科",
+      "department": "先端環境創成学専攻",
+      "admissionType": "international",
+      "selectionName": "International Environmental Security Leadership Program (IESLP) — Master’s Course",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "IESLP 2027：Selection／English score／October intake",
+          "url": "https://www.kankyo.tohoku.ac.jp/ielp/application/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "2027年10月：prospective supervisors",
+          "url": "https://www.kankyo.tohoku.ac.jp/ielp/application/listofprofs.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "Master’s course：eligibility",
+          "url": "https://www.kankyo.tohoku.ac.jp/ielp/eligibility/",
+          "kind": "page"
+        }
+      ],
+      "course": "International Environmental Security Leadership Program (IESLP)",
+      "conditionsOriginal": "The examiner of the IESLP committee will inform you of the detailed method and schedule for the examination via e-mail",
+      "editorialNote": "只限官网列明的2027可接收指导教员，须事先取得同意；不是全专攻所有实验室。项目未统一公开笔试／口试科目，由审查委员会邮件通知具体方式，不扩写数学、专业或面试。英语有效期和MEXT四技能／B2额外要求按官网分开核对，不将奖学金资格套成全员统一最低线。"
+    },
+    {
+      "id": "tohoku-bme-medical-general",
+      "universityId": "tohoku",
+      "graduateSchool": "医工学研究科",
+      "department": "医工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：医学系試験科目・内容",
+          "url": "https://www.bme.tohoku.ac.jp/admission/files/2026/zenki2/zenki2_2027_04.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "医工学専攻・3教育コース・出願資格",
+          "url": "https://www.bme.tohoku.ac.jp/admission/files/2026/zenki2/zenki2_2027_04.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.bme.tohoku.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "医学系",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n専門科目\n数学基礎",
+      "scopeOriginal": "専門科目：細胞・分子生物学、生化学、解剖学、生理学、免疫学、公衆衛生学、病理学\n数学基礎：解析学（微分積分、常微分方程式）、線形代数学、確率統計学",
+      "conditionsOriginal": "専門科目：7科目のうちから2科目を選択",
+      "editorialNote": "专业七选二须按愿书预先确定；数学基础另考，按生命／保健／药学等大学通识程度。 此处四类是受验系，与教育课程三类分开；当前一般试验表未列面接，不从招生方针推断。四系均接受TOEFL iBT Home Edition，未提交英语成绩按0分处理，勿套用情報科学外国人机械群最低分。2027年4月外国人特别选拔完整要项尚未链接，不沿用2026版。"
+    },
+    {
+      "id": "tohoku-bme-mechanical-general",
+      "universityId": "tohoku",
+      "graduateSchool": "医工学研究科",
+      "department": "医工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：工学系（機械）試験科目・内容",
+          "url": "https://www.bme.tohoku.ac.jp/admission/files/2026/zenki2/zenki2_2027_04.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "医工学専攻・3教育コース・出願資格",
+          "url": "https://www.bme.tohoku.ac.jp/admission/files/2026/zenki2/zenki2_2027_04.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.bme.tohoku.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "工学系（機械）",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学Ａ\n数学Ｂ",
+      "scopeOriginal": "数学Ａ：微積分、線形代数、ベクトル解析、など\n数学Ｂ：常微分方程式、偏微分方程式、フーリエ変換・級数、ラプラス変換、など",
+      "conditionsOriginal": "数学Ａ、数学Ｂ：必答",
+      "editorialNote": "机械系只列数学A／B，专业力学不沿用旧版。 此处四类是受验系，与教育课程三类分开；当前一般试验表未列面接，不从招生方针推断。四系均接受TOEFL iBT Home Edition，未提交英语成绩按0分处理，勿套用情報科学外国人机械群最低分。2027年4月外国人特别选拔完整要项尚未链接，不沿用2026版。"
+    },
+    {
+      "id": "tohoku-bme-electrical-general",
+      "universityId": "tohoku",
+      "graduateSchool": "医工学研究科",
+      "department": "医工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：工学系（電気・情報）試験科目・内容",
+          "url": "https://www.bme.tohoku.ac.jp/admission/files/2026/zenki2/zenki2_2027_04.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "電気・情報：公式キーワード",
+          "url": "https://www.ecei.tohoku.ac.jp/ecei_web/admission/",
+          "kind": "page"
+        },
+        {
+          "label": "医工学専攻・3教育コース・出願資格",
+          "url": "https://www.bme.tohoku.ac.jp/admission/files/2026/zenki2/zenki2_2027_04.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.bme.tohoku.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "工学系（電気・情報）",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n基礎専門科目：電磁気学、電気回路、計算機ハードウェア、計算機ソフトウェア、物理、数学基礎",
+      "scopeOriginal": "電磁気学：真空中の静電界、真空中の静磁界、誘電体中の静電界、磁性体中の静磁界、電磁誘導の法則とインダクタンス、変位電流とMaxwell方程式、平面電磁波\n電気回路：回路素子および回路網理論、回路に関する諸定理、二端子対網、分布定数線路、回路の伝達関数、回路の過渡現象\n計算機ハードウェア：論理関数、論理式（標準形、最簡形）、ブール代数、組合せ回路、順序回路、有限オートマトン、正規表現\n計算機ソフトウェア：アルゴリズムの基本、基本的なデータ構造、初等離散数学、プログラミング言語の基本的概念、構文論・初等的意味論、プログラムの基本的実行方式\n物理：シュレディンガー方程式、ポテンシャルの中の粒子、ボルツマン分布、自由電子フェルミ気体\n数学基礎：行列・行列式、固有値と固有ベクトル、線形空間、フーリエ解析、複素関数、ラプラス変換",
+      "conditionsOriginal": "基礎専門科目：6題から3題選択",
+      "editorialNote": "与工学六选三相同，与信息2群六选二不同。 此处四类是受验系，与教育课程三类分开；当前一般试验表未列面接，不从招生方针推断。四系均接受TOEFL iBT Home Edition，未提交英语成绩按0分处理，勿套用情報科学外国人机械群最低分。2027年4月外国人特别选拔完整要项尚未链接，不沿用2026版。"
+    },
+    {
+      "id": "tohoku-bme-materials-general",
+      "universityId": "tohoku",
+      "graduateSchool": "医工学研究科",
+      "department": "医工学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：工学系（材料）試験科目・内容",
+          "url": "https://www.bme.tohoku.ac.jp/admission/files/2026/zenki2/zenki2_2027_04.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "医工学専攻・3教育コース・出願資格",
+          "url": "https://www.bme.tohoku.ac.jp/admission/files/2026/zenki2/zenki2_2027_04.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "最新募集要項",
+          "url": "https://www.bme.tohoku.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "工学系（材料）",
+      "subjectsOriginal": "英語（TOEFL又はTOEIC公開テスト）\n数学\n専門科目",
+      "scopeOriginal": "数学：微分・積分、常微分方程式、線形代数（ベクトル・行列・行列式）、ベクトル解析、複素関数論、フーリエ級数・フーリエ変換、ラプラス変換など\n物理：質点・剛体の力学、電磁気学、振動・波動など\n化学：原子・分子の構造、化学結合、化学反応、化学熱力学、有機化学基礎など\n材料化学：材料物理化学、材料電気化学、移動現象論、金属精錬・精製学、応用材料化学、材料プロセス工学など\n材料物性学：結晶回折学、固体物性学、材料強度学、材料組織学、電子材料、磁性・誘電材料、材料設計など\n材料加工学：材料力学、連続体力学、材料試験、鋳造・粉体・塑性加工、溶接・接合、材料評価学、加工解析学など",
+      "conditionsOriginal": "専門科目：5科目5題（各科目1題）から任意に3題を選択",
+      "editorialNote": "按当年五选三；不能套用工学材料的英语Home Edition禁用。 此处四类是受验系，与教育课程三类分开；当前一般试验表未列面接，不从招生方针推断。四系均接受TOEFL iBT Home Edition，未提交英语成绩按0分处理，勿套用情報科学外国人机械群最低分。2027年4月外国人特别选拔完整要项尚未链接，不沿用2026版。"
+    },
+    {
+      "id": "tohoku-life-brain-general-1",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "脳生命統御科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（第Ⅰ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅰ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "第Ⅰ期：生態学・微生物学の続き",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、基礎学力試問、質疑応答）\n英語外部検定試験スコア",
+      "scopeOriginal": "有機化学：有機化合物の構造、反応、合成\n生化学（生物物理化学を含む）：生体分子の構造と性質、タンパク質と酵素、代謝と生体エネルギー生産、酵素反応速度論\n分子・細胞生物学：遺伝子の複製・発現調節、遺伝子工学、細胞分裂・周期、細胞の構造、膜輸送、シグナル伝達\n動物発生学：生殖細胞と受精、体軸形成、発生運命決定、形態形成、細胞分化と組織維持機構、比較・進化発生学\n植物発生・生理学：発生・成長・分化、生殖、植物ホルモン、環境応答\n脳・神経科学：神経情報の伝達と統合、感覚の受容と運動の発現、神経系の発生と可塑性、高次脳機能と認知科学\n進化生物学：集団内・集団間の遺伝的変異、集団内の遺伝子頻度変化、自然選択と遺伝的浮動、自然選択による適応進化、分子系統、種分化と交雑\n生態学：生態系、群集、個体群動態、生物間相互作用、物質生産、物質循環、資源利用、環境変化\n微生物学：微生物の構造・分類・遺伝・ゲノム・代謝・生態・利用",
+      "conditionsOriginal": "基礎学力試問：出題項目から一科目を選択し、第一志望分野の指導教員の了承を得る",
+      "editorialNote": "Ⅰ期：7分钟研究／学业及计划发表，约5分钟基础学力试问、约8分钟问答；基础科目任选一并事先取得第一志望指导教员同意，大学学部程度。英语外检与面接共同评价，不添加独立生物笔试。"
+    },
+    {
+      "id": "tohoku-life-brain-foreign-1",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "脳生命統御科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生特別選抜（第Ⅰ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅰ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "第Ⅰ期：生態学・微生物学の続き",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、基礎学力試問、質疑応答）\n英語外部検定試験スコア",
+      "scopeOriginal": "有機化学：有機化合物の構造、反応、合成\n生化学（生物物理化学を含む）：生体分子の構造と性質、タンパク質と酵素、代謝と生体エネルギー生産、酵素反応速度論\n分子・細胞生物学：遺伝子の複製・発現調節、遺伝子工学、細胞分裂・周期、細胞の構造、膜輸送、シグナル伝達\n動物発生学：生殖細胞と受精、体軸形成、発生運命決定、形態形成、細胞分化と組織維持機構、比較・進化発生学\n植物発生・生理学：発生・成長・分化、生殖、植物ホルモン、環境応答\n脳・神経科学：神経情報の伝達と統合、感覚の受容と運動の発現、神経系の発生と可塑性、高次脳機能と認知科学\n進化生物学：集団内・集団間の遺伝的変異、集団内の遺伝子頻度変化、自然選択と遺伝的浮動、自然選択による適応進化、分子系統、種分化と交雑\n生態学：生態系、群集、個体群動態、生物間相互作用、物質生産、物質循環、資源利用、環境変化\n微生物学：微生物の構造・分類・遺伝・ゲノム・代謝・生態・利用",
+      "conditionsOriginal": "基礎学力試問：出題項目から一科目を選択し、第一志望分野の指導教員の了承を得る",
+      "editorialNote": "Ⅰ期：7分钟研究／学业及计划发表，约5分钟基础学力试问、约8分钟问答；基础科目任选一并事先取得第一志望指导教员同意，大学学部程度。英语外检与面接共同评价，不添加独立生物笔试。"
+    },
+    {
+      "id": "tohoku-life-brain-general-2",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "脳生命統御科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（第Ⅱ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅱ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、質疑応答）\n英語外部検定試験スコア",
+      "editorialNote": "Ⅱ期：10分钟发表、约10分钟问答；不套Ⅰ期九科任选一的单列基础学力试问。受入实验室依Ⅰ期合格情况调整，以官网Ⅱ期名单为准。英语外检与面接共同评价；Ⅲ期完整2027要项尚未公布，旧2026参考版不作为新考纲。"
+    },
+    {
+      "id": "tohoku-life-brain-foreign-2",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "脳生命統御科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生特別選抜（第Ⅱ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅱ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、質疑応答）\n英語外部検定試験スコア",
+      "editorialNote": "Ⅱ期：10分钟发表、约10分钟问答；不套Ⅰ期九科任选一的单列基础学力试问。受入实验室依Ⅰ期合格情况调整，以官网Ⅱ期名单为准。英语外检与面接共同评价；Ⅲ期完整2027要项尚未公布，旧2026参考版不作为新考纲。"
+    },
+    {
+      "id": "tohoku-life-ecology-general-1",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "生態発生適応科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（第Ⅰ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅰ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "第Ⅰ期：生態学・微生物学の続き",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、基礎学力試問、質疑応答）\n英語外部検定試験スコア",
+      "scopeOriginal": "有機化学：有機化合物の構造、反応、合成\n生化学（生物物理化学を含む）：生体分子の構造と性質、タンパク質と酵素、代謝と生体エネルギー生産、酵素反応速度論\n分子・細胞生物学：遺伝子の複製・発現調節、遺伝子工学、細胞分裂・周期、細胞の構造、膜輸送、シグナル伝達\n動物発生学：生殖細胞と受精、体軸形成、発生運命決定、形態形成、細胞分化と組織維持機構、比較・進化発生学\n植物発生・生理学：発生・成長・分化、生殖、植物ホルモン、環境応答\n脳・神経科学：神経情報の伝達と統合、感覚の受容と運動の発現、神経系の発生と可塑性、高次脳機能と認知科学\n進化生物学：集団内・集団間の遺伝的変異、集団内の遺伝子頻度変化、自然選択と遺伝的浮動、自然選択による適応進化、分子系統、種分化と交雑\n生態学：生態系、群集、個体群動態、生物間相互作用、物質生産、物質循環、資源利用、環境変化\n微生物学：微生物の構造・分類・遺伝・ゲノム・代謝・生態・利用",
+      "conditionsOriginal": "基礎学力試問：出題項目から一科目を選択し、第一志望分野の指導教員の了承を得る",
+      "editorialNote": "Ⅰ期：7分钟研究／学业及计划发表，约5分钟基础学力试问、约8分钟问答；基础科目任选一并事先取得第一志望指导教员同意，大学学部程度。英语外检与面接共同评价，不添加独立生物笔试。"
+    },
+    {
+      "id": "tohoku-life-ecology-foreign-1",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "生態発生適応科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生特別選抜（第Ⅰ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅰ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "第Ⅰ期：生態学・微生物学の続き",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、基礎学力試問、質疑応答）\n英語外部検定試験スコア",
+      "scopeOriginal": "有機化学：有機化合物の構造、反応、合成\n生化学（生物物理化学を含む）：生体分子の構造と性質、タンパク質と酵素、代謝と生体エネルギー生産、酵素反応速度論\n分子・細胞生物学：遺伝子の複製・発現調節、遺伝子工学、細胞分裂・周期、細胞の構造、膜輸送、シグナル伝達\n動物発生学：生殖細胞と受精、体軸形成、発生運命決定、形態形成、細胞分化と組織維持機構、比較・進化発生学\n植物発生・生理学：発生・成長・分化、生殖、植物ホルモン、環境応答\n脳・神経科学：神経情報の伝達と統合、感覚の受容と運動の発現、神経系の発生と可塑性、高次脳機能と認知科学\n進化生物学：集団内・集団間の遺伝的変異、集団内の遺伝子頻度変化、自然選択と遺伝的浮動、自然選択による適応進化、分子系統、種分化と交雑\n生態学：生態系、群集、個体群動態、生物間相互作用、物質生産、物質循環、資源利用、環境変化\n微生物学：微生物の構造・分類・遺伝・ゲノム・代謝・生態・利用",
+      "conditionsOriginal": "基礎学力試問：出題項目から一科目を選択し、第一志望分野の指導教員の了承を得る",
+      "editorialNote": "Ⅰ期：7分钟研究／学业及计划发表，约5分钟基础学力试问、约8分钟问答；基础科目任选一并事先取得第一志望指导教员同意，大学学部程度。英语外检与面接共同评价，不添加独立生物笔试。"
+    },
+    {
+      "id": "tohoku-life-ecology-general-2",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "生態発生適応科学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（第Ⅱ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅱ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、質疑応答）\n英語外部検定試験スコア",
+      "editorialNote": "Ⅱ期：10分钟发表、约10分钟问答；不套Ⅰ期九科任选一的单列基础学力试问。受入实验室依Ⅰ期合格情况调整，以官网Ⅱ期名单为准。英语外检与面接共同评价；Ⅲ期完整2027要项尚未公布，旧2026参考版不作为新考纲。"
+    },
+    {
+      "id": "tohoku-life-ecology-foreign-2",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "生態発生適応科学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生特別選抜（第Ⅱ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅱ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、質疑応答）\n英語外部検定試験スコア",
+      "editorialNote": "Ⅱ期：10分钟发表、约10分钟问答；不套Ⅰ期九科任选一的单列基础学力试问。受入实验室依Ⅰ期合格情况调整，以官网Ⅱ期名单为准。英语外检与面接共同评价；Ⅲ期完整2027要项尚未公布，旧2026参考版不作为新考纲。"
+    },
+    {
+      "id": "tohoku-life-molecular-general-1",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "分子化学生物学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（第Ⅰ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅰ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "第Ⅰ期：生態学・微生物学の続き",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、基礎学力試問、質疑応答）\n英語外部検定試験スコア",
+      "scopeOriginal": "有機化学：有機化合物の構造、反応、合成\n生化学（生物物理化学を含む）：生体分子の構造と性質、タンパク質と酵素、代謝と生体エネルギー生産、酵素反応速度論\n分子・細胞生物学：遺伝子の複製・発現調節、遺伝子工学、細胞分裂・周期、細胞の構造、膜輸送、シグナル伝達\n動物発生学：生殖細胞と受精、体軸形成、発生運命決定、形態形成、細胞分化と組織維持機構、比較・進化発生学\n植物発生・生理学：発生・成長・分化、生殖、植物ホルモン、環境応答\n脳・神経科学：神経情報の伝達と統合、感覚の受容と運動の発現、神経系の発生と可塑性、高次脳機能と認知科学\n進化生物学：集団内・集団間の遺伝的変異、集団内の遺伝子頻度変化、自然選択と遺伝的浮動、自然選択による適応進化、分子系統、種分化と交雑\n生態学：生態系、群集、個体群動態、生物間相互作用、物質生産、物質循環、資源利用、環境変化\n微生物学：微生物の構造・分類・遺伝・ゲノム・代謝・生態・利用",
+      "conditionsOriginal": "基礎学力試問：出題項目から一科目を選択し、第一志望分野の指導教員の了承を得る",
+      "editorialNote": "Ⅰ期：7分钟研究／学业及计划发表，约5分钟基础学力试问、约8分钟问答；基础科目任选一并事先取得第一志望指导教员同意，大学学部程度。英语外检与面接共同评价，不添加独立生物笔试。"
+    },
+    {
+      "id": "tohoku-life-molecular-foreign-1",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "分子化学生物学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生特別選抜（第Ⅰ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅰ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "第Ⅰ期：生態学・微生物学の続き",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、基礎学力試問、質疑応答）\n英語外部検定試験スコア",
+      "scopeOriginal": "有機化学：有機化合物の構造、反応、合成\n生化学（生物物理化学を含む）：生体分子の構造と性質、タンパク質と酵素、代謝と生体エネルギー生産、酵素反応速度論\n分子・細胞生物学：遺伝子の複製・発現調節、遺伝子工学、細胞分裂・周期、細胞の構造、膜輸送、シグナル伝達\n動物発生学：生殖細胞と受精、体軸形成、発生運命決定、形態形成、細胞分化と組織維持機構、比較・進化発生学\n植物発生・生理学：発生・成長・分化、生殖、植物ホルモン、環境応答\n脳・神経科学：神経情報の伝達と統合、感覚の受容と運動の発現、神経系の発生と可塑性、高次脳機能と認知科学\n進化生物学：集団内・集団間の遺伝的変異、集団内の遺伝子頻度変化、自然選択と遺伝的浮動、自然選択による適応進化、分子系統、種分化と交雑\n生態学：生態系、群集、個体群動態、生物間相互作用、物質生産、物質循環、資源利用、環境変化\n微生物学：微生物の構造・分類・遺伝・ゲノム・代謝・生態・利用",
+      "conditionsOriginal": "基礎学力試問：出題項目から一科目を選択し、第一志望分野の指導教員の了承を得る",
+      "editorialNote": "Ⅰ期：7分钟研究／学业及计划发表，约5分钟基础学力试问、约8分钟问答；基础科目任选一并事先取得第一志望指导教员同意，大学学部程度。英语外检与面接共同评价，不添加独立生物笔试。"
+    },
+    {
+      "id": "tohoku-life-molecular-general-2",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "分子化学生物学専攻",
+      "admissionType": "general",
+      "selectionName": "博士課程前期2年の課程 一般選抜（第Ⅱ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅱ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、質疑応答）\n英語外部検定試験スコア",
+      "editorialNote": "Ⅱ期：10分钟发表、约10分钟问答；不套Ⅰ期九科任选一的单列基础学力试问。受入实验室依Ⅰ期合格情况调整，以官网Ⅱ期名单为准。英语外检与面接共同评价；Ⅲ期完整2027要项尚未公布，旧2026参考版不作为新考纲。"
+    },
+    {
+      "id": "tohoku-life-molecular-foreign-2",
+      "universityId": "tohoku",
+      "graduateSchool": "生命科学研究科",
+      "department": "分子化学生物学専攻",
+      "admissionType": "international",
+      "selectionName": "博士課程前期2年の課程 外国人留学生特別選抜（第Ⅱ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-06",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "第Ⅱ期：オンライン面接・英語評価",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "正式3専攻",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般／外国人留学生資格・事前連絡",
+          "url": "https://www.lifesci.tohoku.ac.jp/media/files/02-1_2027%E5%B9%B44%E6%9C%88%E2%85%A0%E6%9C%9F%E2%85%A1%E6%9C%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%850430(1).pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "最新要項・第Ⅱ期受入分野・第Ⅲ期公表状況",
+          "url": "https://www.lifesci.tohoku.ac.jp/admission/schedule/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "出願書類等の審査\nオンライン面接試験（発表、質疑応答）\n英語外部検定試験スコア",
+      "editorialNote": "Ⅱ期：10分钟发表、约10分钟问答；不套Ⅰ期九科任选一的单列基础学力试问。受入实验室依Ⅰ期合格情况调整，以官网Ⅱ期名单为准。英语外检与面接共同评价；Ⅲ期完整2027要项尚未公布，旧2026参考版不作为新考纲。"
     }
   ]
 };
