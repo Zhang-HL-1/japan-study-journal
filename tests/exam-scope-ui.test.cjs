@@ -32,6 +32,18 @@ function boot(records=[]) {
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
+test('Kobe filters the formal fields, renders foreign systems subjects, and opens the real exam-table page',async()=>{
+ const a=boot(catalog.records);await school(a,'kobe').click();assert.equal(a.ids['scope-results'].children.length,6);
+ assert.equal(a.ids['scope-graduate'].options.length,5);assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.kobe.note);
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,14);
+ const row=a.ids['scope-results'].children.find(e=>e.dataset.id==='kobe-systems-international');assert.ok(row);await row.click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===catalog.records.find(r=>r.id===row.dataset.id).subjectsOriginal));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();
+ assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('x_master_ippan_202608.pdf#page=33'));
+ await a.ids['scope-results'].children.find(e=>e.dataset.id==='kobe-ee-foreign-second-pending').click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.tag==='p'&&e.textContent.includes('待公布')));
+ assert.ok(!a.ids['scope-detail'].children.some(e=>e.className==='original-text'));
+});
 test('Sophia school filters expose one formal engineering department, three divisions and the independent data science program',async()=>{
  const a=boot(catalog.records);await school(a,'sophia').click();
  assert.equal(a.ids['scope-results'].children.length,20);assert.equal(a.ids['scope-graduate'].options.length,3);
@@ -212,11 +224,11 @@ test('Tohoku pending English call and SDTM participation render without invented
   assert.ok(!a.ids['scope-detail'].children.some(e=>e.tag==='h4'&&e.textContent==='考试范围 · 官方原文'));
  }
 });
-test('school filters switch all eleven coverage notes and unmatched results remain usable',async()=>{
+test('school filters switch all twelve coverage notes and unmatched results remain usable',async()=>{
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学与上智大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学与神戸大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);
@@ -363,3 +375,4 @@ test('Waseda closed master admission is clearly labeled and has no fabricated ex
  await a.tabs[1].click();
  assert.ok(!a.ids['scope-results'].children.some(e=>e.dataset.id==='waseda-nano-closed'));
 });
+

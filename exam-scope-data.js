@@ -108,6 +108,16 @@
         "Sophia",
         "Sophia University"
       ]
+    },
+    {
+      "id": "kobe",
+      "name": "神戸大学",
+      "aliases": [
+        "神户大学",
+        "神大",
+        "神戸大",
+        "Kobe University"
+      ]
     }
   ],
   "catalog": {
@@ -134,7 +144,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学与上智大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学与神戸大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -295,6 +305,17 @@
         "応用データサイエンス学位プログラム"
       ],
       "note": "上智大学：已核验2027年4月入学的理工学専攻（機械工学・電気・電子工学・情報学3領域）及独立応用データサイエンス修士项目，共20条一般、社会人及9月笔试免除要求。9月／2月分别保存；2026年9月轮次已结束，2月仅国内出愿。理工学笔试7科选1在报名时确定，数据科学在考试中选答；理工学外国人N2、数据科学N1及免交条件分开。无目标理工方向独立外国人特别选拔，符合条件的一般入口在留学生栏目显示17条。按后续专业筛选跳过纯数学、纯物理、化学等；环境主体混合GSE英语项目未纳入，不称覆盖全校。本科DGTech和博士专用7月入试不收录。核对日期2026-10-09。"
+    },
+    "kobe": {
+      "verifiedAt": "2026-10-09",
+      "degree": "修士（博士課程前期課程）",
+      "graduateSchools": [
+        "工学研究科",
+        "システム情報学研究科",
+        "科学技術イノベーション研究科",
+        "海事科学研究科"
+      ],
+      "note": "神戸大学：2027年4月修士首批14条入口，12条科目要求、2条工学第二期外国人入试待公布入口。覆盖工学电气电子（电子物理／电子信息两题群）与机械、系统信息学、科学技术创新先端IT，以及海洋应用科学课程中的电气电子信息正式教育研究分野；一般与外国人分别保存。仅根据官网、募集要项及官方范围附件，不收社会人、SGU／英语项目或已排除专业。夏季考试已结束，完整工学第二期要项预计11月中旬公布。电气电子专攻官网的更细出题范围本次访问失败，尚未核验；先端IT共通题已核实官网公布的三份指定资料书目，全文须申请阅览。保留已核实科目与官方实际页链接，不称覆盖全校或全部详细章节。"
     }
   },
   "records": [
@@ -36605,6 +36626,724 @@
           "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
           "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
           "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-physics-general",
+      "universityId": "kobe",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "course": "電子物理",
+      "searchAliases": [
+        "电气电子",
+        "电子信息",
+        "電気電子工学",
+        "Electrical and Electronic Engineering"
+      ],
+      "subjectsOriginal": "専門科目（一）：数学，電気回路・電子回路\n専門科目（二）：電子物理\n外国語：英語\n口頭試問",
+      "scopeOriginal": "数学（線形代数，微積分，常微分方程式，複素関数論，フーリエ解析）\n電子物理（電磁気学，量子物性工学，半導体デバイス工学の3分野）",
+      "conditionsOriginal": "口頭試問は合・否で判定します。",
+      "editorialNote": "专业科目（一）数学100分、电气回路／电子回路60分；专业科目（二）180分，英语100分，总计440分。第一志望教育研究分野1—5指定电子物理，6—10指定电子信息；不能任意跨组。一般入试电气电子的TOEIC要求单独列在PDF实际第7页：日本实施的L&R公开考试，接受2023年4月1日起成绩；2024年8月25日前的成绩须提交打印的数字认定证，之后用公开考试成绩确认服务。该行未另列TOEFL说明，英语可接受形式请核对原表，不套用机械或外国人入试。数学范围和专业题群以本版募集要项为准。要项另指向电气电子专攻官网的详细出题范围，但该入口本次访问失败；更细章节及参考书尚未完成核验，不用旧通知、课程表或过去问补写。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "2027年度工学研究科一般入試募集要項：科目、范围与选答表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/05/master_eng_ippan_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年度工学研究科一般入試募集要項：外部英语成绩原表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/05/master_eng_ippan_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年度工学研究科一般入試募集要項：出愿资格",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/05/master_eng_ippan_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "工学研究科当前前期课招生入口",
+          "url": "https://www.eng.kobe-u.ac.jp/examinee/master_202604.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-information-general",
+      "universityId": "kobe",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "course": "電子情報",
+      "searchAliases": [
+        "电气电子",
+        "电子信息",
+        "電気電子工学",
+        "Electrical and Electronic Engineering"
+      ],
+      "subjectsOriginal": "専門科目（一）：数学，電気回路・電子回路\n専門科目（二）：電子情報\n外国語：英語\n口頭試問",
+      "scopeOriginal": "数学（線形代数，微積分，常微分方程式，複素関数論，フーリエ解析）\n電子情報（論理回路，情報通信工学，データ構造とアルゴリズム，データサイエンスの4分野から3分野を選択）",
+      "conditionsOriginal": "口頭試問は合・否で判定します。",
+      "editorialNote": "专业科目（一）数学100分、电气回路／电子回路60分；专业科目（二）180分，英语100分，总计440分。第一志望教育研究分野1—5指定电子物理，6—10指定电子信息；不能任意跨组。一般入试电气电子的TOEIC要求单独列在PDF实际第7页：日本实施的L&R公开考试，接受2023年4月1日起成绩；2024年8月25日前的成绩须提交打印的数字认定证，之后用公开考试成绩确认服务。该行未另列TOEFL说明，英语可接受形式请核对原表，不套用机械或外国人入试。数学范围和专业题群以本版募集要项为准。要项另指向电气电子专攻官网的详细出题范围，但该入口本次访问失败；更细章节及参考书尚未完成核验，不用旧通知、课程表或过去问补写。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "2027年度工学研究科一般入試募集要項：科目、范围与选答表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/05/master_eng_ippan_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年度工学研究科一般入試募集要項：外部英语成绩原表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/05/master_eng_ippan_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年度工学研究科一般入試募集要項：出愿资格",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/05/master_eng_ippan_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "工学研究科当前前期课招生入口",
+          "url": "https://www.eng.kobe-u.ac.jp/examinee/master_202604.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-mechanical-general",
+      "universityId": "kobe",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "机械工程",
+        "机械",
+        "Mechanical Engineering"
+      ],
+      "subjectsOriginal": "数学\n基礎力学（質点・剛体の力学）\n材料力学\n流体力学\n熱力学\n機械力学（振動工学）・制御工学\n英語\n書面審査及び口頭試問",
+      "scopeOriginal": "数学（線形代数，微積分，常微分方程式，複素関数論，フーリエ解析）\n基礎力学（質点・剛体の力学）\n機械力学（振動工学）・制御工学",
+      "conditionsOriginal": "書面審査及び口頭試問は合・否で判定します。",
+      "editorialNote": "一般入试：数学100分、基础力学和材料／流体／热力学及机械力学・控制工学共五科各100分，英语100分，总计700分；不能套用留学生的四科选二。先进行书面审查，再进行口头试问，部分考生可因书面审查结果免口试。外部英语接受日本实施的TOEIC L&R公开考试或TOEFL iBT，成绩自2024年8月25日起有效；不接受海外实施TOEIC、IP、ITP或Home Edition。详细提交办法见所附原表。要项没有列出材料、流体、热力学的更细章节，不自行扩写。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "2027年度工学研究科一般入試募集要項：机械科目与选答表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/05/master_eng_ippan_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "2027年度工学研究科一般入試募集要項：外部英语成绩原表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/05/master_eng_ippan_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年度工学研究科一般入試募集要項：出愿资格",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/05/master_eng_ippan_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-physics-international",
+      "universityId": "kobe",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "course": "電子物理",
+      "searchAliases": [
+        "电气电子",
+        "电子信息",
+        "電気電子工学",
+        "Electrical and Electronic Engineering"
+      ],
+      "subjectsOriginal": "専門科目（一）：数学，電気回路・電子回路\n専門科目（二）：電子物理\n外国語：英語\n口頭試問",
+      "scopeOriginal": "数学（線形代数，微積分，常微分方程式，複素関数論，フーリエ解析）\n電子物理（電磁気学，量子物性工学，半導体デバイス工学の3分野）",
+      "conditionsOriginal": "口頭試問は合・否で判定します。",
+      "editorialNote": "专业科目（一）数学100分、电气回路／电子回路60分；专业科目（二）180分，英语100分，总计440分。第一志望教育研究分野1—5指定电子物理，6—10指定电子信息；不能任意跨组。外国人入试接受日本实施的TOEIC L&R公开考试（2023年4月1日起），或TOEFL iBT（2024年8月25日起），拒绝TOEIC IP、海外实施TOEIC、TOEFL ITP及Home Edition。须取得指导教员受入内诺；若调查表选择英语题卷，只发英语题卷。数学范围和专业题群以本版募集要项为准。要项另指向电气电子专攻官网的详细出题范围，但该入口本次访问失败；更细章节及参考书尚未完成核验，不用旧通知、课程表或过去问补写。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：科目、范围与选答表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：外部英语成绩原表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：出愿资格",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "工学研究科当前前期课招生入口",
+          "url": "https://www.eng.kobe-u.ac.jp/examinee/master_202604.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-information-international",
+      "universityId": "kobe",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "course": "電子情報",
+      "searchAliases": [
+        "电气电子",
+        "电子信息",
+        "電気電子工学",
+        "Electrical and Electronic Engineering"
+      ],
+      "subjectsOriginal": "専門科目（一）：数学，電気回路・電子回路\n専門科目（二）：電子情報\n外国語：英語\n口頭試問",
+      "scopeOriginal": "数学（線形代数，微積分，常微分方程式，複素関数論，フーリエ解析）\n電子情報（論理回路，情報通信工学，データ構造とアルゴリズム，データサイエンスの4分野から3分野を選択）",
+      "conditionsOriginal": "口頭試問は合・否で判定します。",
+      "editorialNote": "专业科目（一）数学100分、电气回路／电子回路60分；专业科目（二）180分，英语100分，总计440分。第一志望教育研究分野1—5指定电子物理，6—10指定电子信息；不能任意跨组。外国人入试接受日本实施的TOEIC L&R公开考试（2023年4月1日起），或TOEFL iBT（2024年8月25日起），拒绝TOEIC IP、海外实施TOEIC、TOEFL ITP及Home Edition。须取得指导教员受入内诺；若调查表选择英语题卷，只发英语题卷。数学范围和专业题群以本版募集要项为准。要项另指向电气电子专攻官网的详细出题范围，但该入口本次访问失败；更细章节及参考书尚未完成核验，不用旧通知、课程表或过去问补写。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：科目、范围与选答表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：外部英语成绩原表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：出愿资格",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "工学研究科当前前期课招生入口",
+          "url": "https://www.eng.kobe-u.ac.jp/examinee/master_202604.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-mechanical-international",
+      "universityId": "kobe",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "机械工程",
+        "机械",
+        "Mechanical Engineering"
+      ],
+      "subjectsOriginal": "数学\n基礎力学（質点・剛体の力学）\n材料力学\n流体力学\n熱力学\n機械力学（振動工学）・制御工学\n英語\n口頭試問",
+      "scopeOriginal": "数学（線形代数，微積分，常微分方程式，複素関数論，フーリエ解析）\n基礎力学（質点・剛体の力学）\n機械力学（振動工学）・制御工学",
+      "conditionsOriginal": "以上4科目から2科目選択\n口頭試問は合・否で判定します。",
+      "editorialNote": "外国人入试：数学100分、基础力学100分；材料力学、流体力学、热力学、机械力学・控制工学四科选二，各100分；英语100分，总计500分。须取得受入内诺；选择英语题卷时只发英语题卷。外部英语接受日本实施的TOEIC L&R公开考试或TOEFL iBT，成绩自2024年8月25日起有效；不接受海外实施TOEIC、IP、ITP或Home Edition。详细提交办法见所附原表。要项没有列出材料、流体、热力学的更细章节，不自行扩写。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：机械科目与选答表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：外部英语成绩原表",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：TOEFL及受入内诺",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：受入内诺书要求",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "2027年度工学研究科外国人留学生特別入試募集要項：出愿资格",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/04/master_eng_foreign_j_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        }
+      ]
+    },
+    {
+      "id": "kobe-systems-general",
+      "universityId": "kobe",
+      "graduateSchool": "システム情報学研究科",
+      "department": "システム情報学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "系统信息",
+        "系统信息学",
+        "计算机",
+        "计算机科学",
+        "信息工程",
+        "人工智能",
+        "控制",
+        "Systems Informatics"
+      ],
+      "subjectsOriginal": "数学（150）\n専門科目（150）\n英語（100）\n口頭試問",
+      "scopeOriginal": "数学（線形代数，微積分，常微分方程式，複素関数論）\n制御工学（定常特性，安定性，伝達関数，ボード線図，時間応答，線形性，ラプラス変換，など）\n数理計画（線形計画法，双対性，グラフ理論，ゲーム理論，階層分析法（AHP），在庫管理，動的計画法，など）\nコンピュータシステム（データ表現，論理演算，組み合わせ回路，順序回路，計算機アーキテクチャ，オペレーティングシステム，など）\nアルゴリズム・データ構造（計算量，データ構造，ハッシュ，ヒープ，探索木，整列，C言語，など）",
+      "conditionsOriginal": "以下の4分野のうち，2分野を選択して解答\n口頭試問は合・否で判定します。",
+      "editorialNote": "一般入试专业科目四领域选二，每个75分，笔试与英语合计400分。英语使用2024年8月24日起的TOEFL iBT或日本实施的TOEIC L&R公开考试；不接受TOEFL ITP、Home Edition、TOEIC IP或海外实施的TOEIC。数学80分钟，英语不设当天笔试；不添加工学电气电子的傅里叶分析。现行只有システム情報学専攻，不制造旧三专攻。2026年8月轮次已结束；2028年度通知仅改变推荐募集人数，不影响本条一般／外国人科目。",
+      "sources": [
+        {
+          "label": "2027系统信息学一般／外国人募集要項：考试表",
+          "url": "https://www.csi.kobe-u.ac.jp/exam/master/2026/x_master_ippan_202608.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "2027系统信息学募集要項：英语成绩要求",
+          "url": "https://www.csi.kobe-u.ac.jp/exam/master/2026/x_master_ippan_202608.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027系统信息学募集要項：英语及提交办法",
+          "url": "https://www.csi.kobe-u.ac.jp/exam/master/2026/x_master_ippan_202608.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "2027系统信息学募集要項：出愿资格",
+          "url": "https://www.csi.kobe-u.ac.jp/exam/master/2026/x_master_ippan_202608.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        }
+      ]
+    },
+    {
+      "id": "kobe-advanced-it-general",
+      "universityId": "kobe",
+      "graduateSchool": "科学技術イノベーション研究科",
+      "department": "科学技術イノベーション専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "course": "先端IT",
+      "searchAliases": [
+        "先端 IT",
+        "先进IT",
+        "集成电路",
+        "集積回路",
+        "半导体",
+        "先端情報",
+        "Advanced IT"
+      ],
+      "subjectsOriginal": "小論文：共通問題（50），選択問題（50）\n口頭試問（100）\n英語（100）",
+      "scopeOriginal": "共通問題の課題資料：\n『科学技術イノベーションとアントレプレナーシップ』\n『科学技術イノベーションの創出におけるシード・アクセラレーターの役割』\n『120分でゼロから学べるイノベーション理論』\n口頭試問：志望動機，研究計画の概要等",
+      "conditionsOriginal": "課題資料は試験当日の持ち込み不可",
+      "editorialNote": "仅保留官方教育研究分野「先端IT」（C1／C2指导教员群），不把导师研究关键词当考试范围。小论文共通问题必答；选择问题必须选第一志望指导教员群所属教育研究分野，本方向为先端IT，不是四领域自由任选。官网公开的课题资料构成文件列出三份共通题必读资料（见实际第2页），全文须通过表单申请阅览；本次只核实书目和指定范围，没有取得全文，不补写正文或章节。第一份见《季刊ビジネスインサイト》24卷1号pp.2—9，第二份25卷4号pp.49—61，第三份为2021年度研究科年次定例研讨会小册子。先端IT选择题未公布更细考纲。口试问志望动机与研究计划概要。一般入试不允许辞典或专业书。英语接受TOEIC L&R公开考试或TOEFL iBT，以考试日起回溯两年内成绩评价，没有当天英语笔试；拒绝TOEIC IP、S&W、Speaking、Bridge及TOEFL ITP。本要项未明确Home Edition和统一最低分，不自行补充。需事前联系并取得受入内诺。2026年7月轮次已结束。",
+      "sources": [
+        {
+          "label": "2027小论文共通题：课题资料构成与指定书目",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_kadaishiryo_kousei.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027科学技术创新一般募集要項：科目与选答规则",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ippan_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般募集要項：辞典限制",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ippan_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027科学技术创新募集要項：外部英语与内诺",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ippan_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027科学技术创新募集要項：正式教育研究分野",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ippan_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "2027科学技术创新募集要項：出愿资格",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ippan_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2027入试官网：共通题课题资料申请入口",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/2027m.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-maritime-electrical-general",
+      "universityId": "kobe",
+      "graduateSchool": "海事科学研究科",
+      "department": "海事科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "course": "電気電子情報工学",
+      "searchAliases": [
+        "海洋応用科学コース",
+        "电气电子信息",
+        "海事电子",
+        "机器人控制",
+        "パワーエレクトロニクス",
+        "信息通信"
+      ],
+      "subjectsOriginal": "必答問題：数学（微分積分学，線形代数学）\n専門問題：海洋応用科学\n英語：TOEICまたはTOEFL\n口頭試問",
+      "scopeOriginal": "海洋応用科学（材料力学／電気回路／工業熱力学／流体力学／情報処理／数学A／数学Bの7問から2問を受験時に選択）\n数学A：常微分方程式，ラプラス変換，複素関数論\n数学B：統計学（確率変数と確率分布，統計的推測，回帰分析）",
+      "editorialNote": "本条只适用于海洋応用科学コース内官方教育研究分野「電気電子情報工学」，不新建电气电子专攻，不收船舶海洋动力工学。一般与外国人选拔均为必答数学100分、专业题七选二共100分、英语100分及课程相关专业知识口试。必答数学和专业选择数学A／B是两个部分；该课程数学A和B可分别选择。信息处理详细范围见独立范围文件实际第2页：编程、数据结构、算法、逻辑、树与图、排序、搜索、复杂度等，参考书保留原页。电气回路、材料、工热、流体未另列章节，不猜测。英语接受TOEIC L&R公开考试或TOEFL iBT，受验日须在出愿截止前两年内，拒绝IP、ITP、Home Edition及Essentials；外国人另须日语修得证明。出愿前必须与志望导师商谈。仅保存2027年4月，普通2027年10月限乘船实习科进学预定者，外国人要项没有2027年10月。2026年8月考试已结束，二次募集官方已通知不实施。",
+      "sources": [
+        {
+          "label": "2026年度实施海事科学修士募集要項：考试科目",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海事科学募集要項：英语成绩与事前联系",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "海事科学募集要項：电气电子信息正式领域",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2026年度实施入学试验参考书与范围：信息处理",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_hani.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "海事科学募集要項：募集及出愿资格",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "海事科学修士官网：二次募集不实施通知",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/master.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-systems-international",
+      "universityId": "kobe",
+      "graduateSchool": "システム情報学研究科",
+      "department": "システム情報学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "系统信息",
+        "系统信息学",
+        "计算机",
+        "计算机科学",
+        "信息工程",
+        "人工智能",
+        "控制",
+        "Systems Informatics"
+      ],
+      "subjectsOriginal": "数学（150）\n英語（100）\n口頭試問",
+      "scopeOriginal": "数学（線形代数，微積分，常微分方程式，複素関数論）",
+      "conditionsOriginal": "口頭試問は合・否で判定します。",
+      "editorialNote": "外国人特别入试不设上述四领域专业笔试：数学150分、英语100分，口头试问按合否判断。口试考志望动机，并从本科所学和系统信息领域问及与入学后研究相关的基础知识，见实际第33页原表。须提交受入内诺，不能把一般入试专业笔试复制过来。英语使用2024年8月24日起的TOEFL iBT或日本实施的TOEIC L&R公开考试；不接受TOEFL ITP、Home Edition、TOEIC IP或海外实施的TOEIC。数学80分钟，英语不设当天笔试；不添加工学电气电子的傅里叶分析。现行只有システム情報学専攻，不制造旧三专攻。2026年8月轮次已结束；2028年度通知仅改变推荐募集人数，不影响本条一般／外国人科目。",
+      "sources": [
+        {
+          "label": "2027系统信息学一般／外国人募集要項：考试表",
+          "url": "https://www.csi.kobe-u.ac.jp/exam/master/2026/x_master_ippan_202608.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "2027系统信息学募集要項：英语成绩要求",
+          "url": "https://www.csi.kobe-u.ac.jp/exam/master/2026/x_master_ippan_202608.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "2027系统信息学募集要項：英语及提交办法",
+          "url": "https://www.csi.kobe-u.ac.jp/exam/master/2026/x_master_ippan_202608.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "2027系统信息学募集要項：出愿资格",
+          "url": "https://www.csi.kobe-u.ac.jp/exam/master/2026/x_master_ippan_202608.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "2027系统信息学外国人选拔：受入内诺书",
+          "url": "https://www.csi.kobe-u.ac.jp/exam/master/2026/x_master_ippan_202608.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        }
+      ]
+    },
+    {
+      "id": "kobe-advanced-it-international",
+      "universityId": "kobe",
+      "graduateSchool": "科学技術イノベーション研究科",
+      "department": "科学技術イノベーション専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "course": "先端IT",
+      "searchAliases": [
+        "先端 IT",
+        "先进IT",
+        "集成电路",
+        "集積回路",
+        "半导体",
+        "先端情報",
+        "Advanced IT"
+      ],
+      "subjectsOriginal": "小論文：共通問題（50），選択問題（50）\n口頭試問（100）\n英語（100）",
+      "scopeOriginal": "共通問題の課題資料：\n『科学技術イノベーションとアントレプレナーシップ』\n『科学技術イノベーションの創出におけるシード・アクセラレーターの役割』\n『120分でゼロから学べるイノベーション理論』\n口頭試問：志望動機，研究計画の概要等",
+      "conditionsOriginal": "課題資料は試験当日の持ち込み不可",
+      "editorialNote": "仅保留官方教育研究分野「先端IT」（C1／C2指导教员群），不把导师研究关键词当考试范围。小论文共通问题必答；选择问题必须选第一志望指导教员群所属教育研究分野，本方向为先端IT，不是四领域自由任选。官网公开的课题资料构成文件列出三份共通题必读资料（见实际第2页），全文须通过表单申请阅览；本次只核实书目和指定范围，没有取得全文，不补写正文或章节。第一份见《季刊ビジネスインサイト》24卷1号pp.2—9，第二份25卷4号pp.49—61，第三份为2021年度研究科年次定例研讨会小册子。先端IT选择题未公布更细考纲。口试问志望动机与研究计划概要。外国人入试小论文允许一本无解说、无笔记的日语至母语翻译词典，电子设备不允许；小论文原则日语作答，也允许英语，另须日本语修得证明。英语接受TOEIC L&R公开考试或TOEFL iBT，以考试日起回溯两年内成绩评价，没有当天英语笔试；拒绝TOEIC IP、S&W、Speaking、Bridge及TOEFL ITP。本要项未明确Home Edition和统一最低分，不自行补充。需事前联系并取得受入内诺。2026年7月轮次已结束。",
+      "sources": [
+        {
+          "label": "2027小论文共通题：课题资料构成与指定书目",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_kadaishiryo_kousei.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027科学技术创新外国人募集要項：科目与选答规则",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ryugaku_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2027科学技术创新募集要項：外部英语与内诺",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ryugaku_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "外国人募集要項：日语证明",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ryugaku_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027科学技术创新募集要項：正式教育研究分野",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ryugaku_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "2027科学技术创新募集要項：出愿资格",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/pdf/M_2027_ryugaku_bosyu-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2027入试官网：共通题课题资料申请入口",
+          "url": "https://www.stin.kobe-u.ac.jp/jyukensei/2027m.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-maritime-electrical-international",
+      "universityId": "kobe",
+      "graduateSchool": "海事科学研究科",
+      "department": "海事科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "course": "電気電子情報工学",
+      "searchAliases": [
+        "海洋応用科学コース",
+        "电气电子信息",
+        "海事电子",
+        "机器人控制",
+        "パワーエレクトロニクス",
+        "信息通信"
+      ],
+      "subjectsOriginal": "必答問題：数学（微分積分学，線形代数学）\n専門問題：海洋応用科学\n英語：TOEICまたはTOEFL\n口頭試問",
+      "scopeOriginal": "海洋応用科学（材料力学／電気回路／工業熱力学／流体力学／情報処理／数学A／数学Bの7問から2問を受験時に選択）\n数学A：常微分方程式，ラプラス変換，複素関数論\n数学B：統計学（確率変数と確率分布，統計的推測，回帰分析）",
+      "editorialNote": "本条只适用于海洋応用科学コース内官方教育研究分野「電気電子情報工学」，不新建电气电子专攻，不收船舶海洋动力工学。一般与外国人选拔均为必答数学100分、专业题七选二共100分、英语100分及课程相关专业知识口试。必答数学和专业选择数学A／B是两个部分；该课程数学A和B可分别选择。信息处理详细范围见独立范围文件实际第2页：编程、数据结构、算法、逻辑、树与图、排序、搜索、复杂度等，参考书保留原页。电气回路、材料、工热、流体未另列章节，不猜测。英语接受TOEIC L&R公开考试或TOEFL iBT，受验日须在出愿截止前两年内，拒绝IP、ITP、Home Edition及Essentials；外国人另须日语修得证明。出愿前必须与志望导师商谈。仅保存2027年4月，普通2027年10月限乘船实习科进学预定者，外国人要项没有2027年10月。2026年8月考试已结束，二次募集官方已通知不实施。",
+      "sources": [
+        {
+          "label": "2026年度实施海事科学修士募集要項：考试科目",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "海事科学外国人选拔：数学A／B选答说明",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "海事科学募集要項：英语成绩与事前联系",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "海事科学外国人选拔：日语证明",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "海事科学募集要項：电气电子信息正式领域",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2026年度实施入学试验参考书与范围：信息处理",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_hani.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "海事科学募集要項：募集及出愿资格",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/pdf/R8/R8_ms_ippan_for20261020270410.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "海事科学修士官网：二次募集不实施通知",
+          "url": "https://www.maritime.kobe-u.ac.jp/admission/master.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-foreign-second-pending",
+      "universityId": "kobe",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別入試（第二期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "publicationStatus": "pending",
+      "editorialNote": "官网2026年9月18日通知：第二期外国人入试于2027年1月20—21日实施，完整募集要项预计2026年11月中旬公布。本条仅为已确认的待公布入口，不套用夏季科目、范围及外语条件；一般二次募集和追加合格均不实施。",
+      "sources": [
+        {
+          "label": "2027工学研究科追加合格及入学试验等通知（9月18日）",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/09/tsuika_eng_20260918.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ]
+    },
+    {
+      "id": "kobe-mechanical-foreign-second-pending",
+      "universityId": "kobe",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別入試（第二期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "publicationStatus": "pending",
+      "editorialNote": "官网2026年9月18日通知：第二期外国人入试于2027年1月20—21日实施，完整募集要项预计2026年11月中旬公布。本条仅为已确认的待公布入口，不套用夏季科目、范围及外语条件；一般二次募集和追加合格均不实施。",
+      "sources": [
+        {
+          "label": "2027工学研究科追加合格及入学试验等通知（9月18日）",
+          "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/09/tsuika_eng_20260918.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ]
     }
