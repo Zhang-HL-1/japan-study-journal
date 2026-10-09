@@ -218,7 +218,7 @@
         "政策・メディア研究科",
         "メディアデザイン研究科"
       ],
-      "note": "慶應義塾大学：已对照10个常见方向补齐查找入口，新增数理科学、物理学及材料相关的分子・生物化学、創発理化学。共4研究科、7个正式专攻、71条2027年4月／9月入学资料：一般41条、IGP英语项目30条。理工学覆盖现行4専攻下10个教育研究分野，6月、8月、飞び級与IGP各期分别保存。2026年度已改组；旧専修名称与现行分野并非一对一，具体考试按希望导师所属确认。SDM仅研究型一般入试，SFC仅CI，KMD仅当前第Ⅱ期一般入试；生命システム情報及其他未核验项目不计为覆盖。核对日期2026-10-09。",
+      "note": "慶應義塾大学：已对照10个常见方向补齐查找入口，并补齐生命システム情報。共4研究科、7个正式专攻、77条2027年4月／9月入学资料：一般44条、IGP英语项目33条。理工学现行4専攻下11个教育研究分野均已收录，6月、8月、飛び級与IGP各期分别保存。2026年度已改组；旧専修名称与现行分野并非一对一，具体考试按希望导师所属确认。SDM仅研究型一般入试，SFC仅CI，KMD仅当前第Ⅱ期一般入试；其他未核验项目不计为覆盖。核对日期2026-10-09。",
       "directionGuides": [
         {
           "label": "電気電子工学",
@@ -269,6 +269,11 @@
           "label": "マルチディシプリナリ・デザイン科学",
           "query": "マルチディシプリナリ・デザイン科学",
           "note": "相关现行入口：機械工学、システムデザイン工学。旧专修与现行分野并非一对一，需按导师确认。"
+        },
+        {
+          "label": "生命システム情報",
+          "query": "生命システム情報",
+          "note": "现行化学・生命情報科学専攻的生命科学、计算机科学与工程交叉分野；6月、8月、飛び級与IGP分开查阅。"
         }
       ]
     }
@@ -34536,6 +34541,470 @@
         "マテリアルデザイン科学",
         "マテリアルデザイン科学専修",
         "Emerging Physico-Chemistry"
+      ]
+    },
+    {
+      "id": "keio-st-biosciences-informatics-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "现行正式分野为「化学・生命情報科学専攻／生命システム情報」，官方英文为Biosciences and Informatics。该分野融合生命科学、计算机科学与工程；按希望导师所属确认受验分野。6月对应2027年4月入学，按书类审查及必要口述选考；不能套用8月笔试科目。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "生命システム情報カリキュラム：正式名称与领域对应",
+          "url": "https://www.keio.ac.jp/ja/st/department/chem-life-science/bi/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：生命システム情報",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "生命系统信息",
+        "生命信息",
+        "生物信息",
+        "生物信息学",
+        "バイオインフォマティクス",
+        "Biosciences and Informatics"
+      ]
+    },
+    {
+      "id": "keio-st-biosciences-informatics-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：分子細胞生物学、生物有機化学および生化学、生物物理化学、情報の基礎およびバイオインフォマティクス\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "现行正式分野为「化学・生命情報科学専攻／生命システム情報」，官方英文为Biosciences and Informatics。该分野融合生命科学、计算机科学与工程；按希望导师所属确认受验分野。8月考试范围采用现行募集要项实际PDF第18页F行，全部作答；未公布更细的章节或统一英语最低分。完整考试表和英语成绩提交规定见原文件对应页。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "生命システム情報カリキュラム：正式名称与领域对应",
+          "url": "https://www.keio.ac.jp/ja/st/department/chem-life-science/bi/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：生命システム情報",
+      "scopeOriginal": "分子細胞生物学、生物有機化学および生化学、生物物理化学、情報の基礎およびバイオインフォマティクスの内容全般から出題する (全問解答)。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
+      "conditionsOriginal": "全問解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "生命系统信息",
+        "生命信息",
+        "生物信息",
+        "生物信息学",
+        "バイオインフォマティクス",
+        "Biosciences and Informatics"
+      ]
+    },
+    {
+      "id": "keio-st-biosciences-informatics-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "现行正式分野为「化学・生命情報科学専攻／生命システム情報」，官方英文为Biosciences and Informatics。该分野融合生命科学、计算机科学与工程；按希望导师所属确认受验分野。跳级入口仅限符合资格的大三学生，须事先资格认定；口述的事前课题或发表按个别通知。不能套用8月笔试，入学后不取得本科学士资格。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "生命システム情報カリキュラム：正式名称与领域对应",
+          "url": "https://www.keio.ac.jp/ja/st/department/chem-life-science/bi/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：生命システム情報",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "生命系统信息",
+        "生命信息",
+        "生物信息",
+        "生物信息学",
+        "バイオインフォマティクス",
+        "Biosciences and Informatics"
+      ]
+    },
+    {
+      "id": "keio-st-biosciences-informatics-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "现行正式分野为「化学・生命情報科学専攻／生命システム情報」，官方英文为Biosciences and Informatics。该分野融合生命科学、计算机科学与工程；按希望导师所属确认受验分野。IGP是独立英语修士入口，当前要项按申请材料审查，保留GRE和英语成绩要求及免除条件。GRE定量160为建议值，未规定统一专业笔试或必考面试。所选教员分野为“Curriculum of Biosciences and Informatics”，学生正式所属为专攻。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "生命システム情報カリキュラム：正式名称与领域对应",
+          "url": "https://www.keio.ac.jp/ja/st/department/chem-life-science/bi/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：生命システム情報",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "生命系统信息",
+        "生命信息",
+        "生物信息",
+        "生物信息学",
+        "バイオインフォマティクス",
+        "Biosciences and Informatics"
+      ]
+    },
+    {
+      "id": "keio-st-biosciences-informatics-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "现行正式分野为「化学・生命情報科学専攻／生命システム情報」，官方英文为Biosciences and Informatics。该分野融合生命科学、计算机科学与工程；按希望导师所属确认受验分野。IGP是独立英语修士入口，当前要项按申请材料审查，保留GRE和英语成绩要求及免除条件。GRE定量160为建议值，未规定统一专业笔试或必考面试。所选教员分野为“Curriculum of Biosciences and Informatics”，学生正式所属为专攻。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "生命システム情報カリキュラム：正式名称与领域对应",
+          "url": "https://www.keio.ac.jp/ja/st/department/chem-life-science/bi/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：生命システム情報",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "生命系统信息",
+        "生命信息",
+        "生物信息",
+        "生物信息学",
+        "バイオインフォマティクス",
+        "Biosciences and Informatics"
+      ]
+    },
+    {
+      "id": "keio-st-biosciences-informatics-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "现行正式分野为「化学・生命情報科学専攻／生命システム情報」，官方英文为Biosciences and Informatics。该分野融合生命科学、计算机科学与工程；按希望导师所属确认受验分野。IGP是独立英语修士入口，当前要项按申请材料审查，保留GRE和英语成绩要求及免除条件。GRE定量160为建议值，未规定统一专业笔试或必考面试。所选教员分野为“Curriculum of Biosciences and Informatics”，学生正式所属为专攻。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "生命システム情報カリキュラム：正式名称与领域对应",
+          "url": "https://www.keio.ac.jp/ja/st/department/chem-life-science/bi/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：生命システム情報",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "生命系统信息",
+        "生命信息",
+        "生物信息",
+        "生物信息学",
+        "バイオインフォマティクス",
+        "Biosciences and Informatics"
       ]
     }
   ]
