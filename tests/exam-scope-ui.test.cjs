@@ -50,6 +50,19 @@ test('Keio school and field filters render current papers at their actual PDF pa
  await a.ids['scope-results'].children[0].click();
  assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='en'&&e.textContent.includes('GRE General Test')));
 });
+test('Keio electrical Chinese and Japanese searches expose official names and the explanatory mapping',async()=>{
+ const a=boot(catalog.records);
+ a.ids['scope-query'].value='庆应 电气电子工学';await a.ids['scope-query'].fire('input');
+ assert.equal(a.ids['scope-results'].children.length,3);
+ const entry=a.ids['scope-results'].children.find(e=>e.dataset.id==='keio-st-electrical-august');assert.ok(entry);await entry.click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.tag==='h3'&&e.textContent==='総合デザイン工学専攻 · 教育研究分野：電気情報工学'));
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='scope-route-note'&&e.textContent.includes('电气电子方向对应当前正式招生分野')));
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('記述試問：電気回路、情報工学、物性工学、数学')));
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,5);
+ a.ids['scope-query'].value='慶應 電気電子工学';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,5);
+ await a.ids['scope-results'].children.find(e=>e.dataset.id==='keio-st-electrical-igp-i-4').click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='en'&&e.textContent.includes('GRE General Test')));
+});
 test('Keio SFC overseas and KMD keep their real general selections in both admission views',async()=>{
  const a=boot(catalog.records);await school(a,'keio').click();
  a.ids['scope-query'].value='慶應 海外出願';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,2);

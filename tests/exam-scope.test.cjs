@@ -171,6 +171,21 @@ test('Keio adds four graduate schools and six official departments with 2027 sou
  assert.equal(core.sourceURL({url:'https://www.kmd.keio.ac.jp/guide.pdf',kind:'pdf',pdfPage:8}),'https://www.kmd.keio.ac.jp/guide.pdf#page=8');
  for(const url of ['http://www.keio.ac.jp/a','https://keio.ac.jp.evil.test/a','https://evil-keio.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
 });
+test('Keio electrical common names find the existing official degree records in both admission views',()=>{
+ for(const query of ['庆应 电气电子工学','慶應 電気電子工学','Keio Electronics and Electrical Engineering']){
+  const general=core.filter(data.records,data.universities,{...initial,query});
+  const international=core.filter(data.records,data.universities,{...initial,query,admissionType:'international'});
+  assert.equal(general.length,3);assert.equal(international.length,5);
+  assert.ok([...general,...international].every(r=>r.id.startsWith('keio-st-electrical-')&&r.department==='総合デザイン工学専攻'&&r.course==='教育研究分野：電気情報工学'));
+  assert.equal(new Set([...general,...international].map(r=>r.id)).size,6);
+ }
+ const r=data.records.find(r=>r.id==='keio-st-electrical-august');
+ assert.match(r.editorialNote,/电气电子方向对应当前正式招生分野/);
+ assert.match(r.subjectsOriginal,/電気回路、情報工学、物性工学、数学/);
+ assert.ok(r.sources.some(s=>s.kind==='page'&&s.url==='https://www.keio.ac.jp/ja/st/department/design-engineering/elec/'));
+ assert.ok(core.validRecord(makeRecord({searchAliases:['电气电子工学']}),universities));
+ for(const bad of ['电气电子工学',null,[''],[3]])assert.equal(core.validRecord(makeRecord({searchAliases:bad}),universities),false);
+});
 test('Keio uses current four-school reorganization and retains six eligible advisor fields in three departments',()=>{
  const rs=data.records.filter(r=>r.universityId==='keio'&&r.graduateSchool==='理工学研究科');
  assert.equal(rs.length,36);

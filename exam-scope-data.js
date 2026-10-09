@@ -218,7 +218,7 @@
         "政策・メディア研究科",
         "メディアデザイン研究科"
       ],
-      "note": "慶應義塾大学：按2026年改组后的正式名称收录理工学3个保留专攻的6个工程／信息教育研究分野，以及SDM研究型一般入试、SFC的CI项目国内／海外出愿、KMD第Ⅱ期一般入试；共4研究科、6正式专攻、47条2027年4月／9月入学资料，一般29条、IGP英语项目18条。核对日期2026-10-09。理工学6月、8月、飞び級与IGP各期分别保存；IGP分野用于定位教员，不另造课程学籍。按后续学校偏好跳过医学、化学、药学、纯数学、纯物理及独立土木建筑、环境、社会学、教育、人文等方向；系统工程共通试卷中的建筑／环境选答科目保留原表。SFC仅CI，SDM仅リサーチインテンシブ一般入试，KMD仅当前第Ⅱ期一般入试，不代表覆盖全校或全部选拔。此前九校资料保持原样。"
+      "note": "慶應義塾大学：电气电子方向在「総合デザイン工学専攻／電気情報工学」下查阅，已收录6条；可搜索“电气电子工学／電気電子工学”。按2026年改组后的正式名称收录理工学3个保留专攻的6个工程／信息教育研究分野，以及SDM研究型一般入试、SFC的CI项目国内／海外出愿、KMD第Ⅱ期一般入试；共4研究科、6正式专攻、47条2027年4月／9月入学资料，一般29条、IGP英语项目18条。核对日期2026-10-09。理工学6月、8月、飞び級与IGP各期分别保存；IGP分野用于定位教员，不另造课程学籍。按后续学校偏好跳过医学、化学、药学、纯数学、纯物理及独立土木建筑、环境、社会学、教育、人文等方向；系统工程共通试卷中的建筑／环境选答科目保留原表。SFC仅CI，SDM仅リサーチインテンシブ一般入试，KMD仅当前第Ⅱ期一般入试，不代表覆盖全校或全部选拔。此前九校资料保持原样。"
     }
   },
   "records": [
@@ -29317,7 +29317,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
-      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
       "sources": [
         {
           "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
@@ -29347,12 +29347,28 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
+          "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
+          "kind": "page"
         }
       ],
       "course": "教育研究分野：電気情報工学",
       "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
       "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "电气电子工学",
+        "電気電子工学",
+        "电气电子工程",
+        "电子电气工学",
+        "电气信息工学",
+        "電気情報工学カリキュラム",
+        "Electronics and Electrical Engineering",
+        "Electrical and Electronic Engineering",
+        "EEE"
+      ]
     },
     {
       "id": "keio-st-electrical-august",
@@ -29366,7 +29382,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "記述試問：電気回路、情報工学、物性工学、数学\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
       "sources": [
         {
           "label": "8月入学試験：分野別試験科目・選択方法",
@@ -29408,12 +29424,28 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
+          "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
+          "kind": "page"
         }
       ],
       "course": "教育研究分野：電気情報工学",
       "scopeOriginal": "物性工学には量子力学の基礎を含む。電気回路、情報工学、物性工学、数学から各1問。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
       "conditionsOriginal": "各1問、全問解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "电气电子工学",
+        "電気電子工学",
+        "电气电子工程",
+        "电子电气工学",
+        "电气信息工学",
+        "電気情報工学カリキュラム",
+        "Electronics and Electrical Engineering",
+        "Electrical and Electronic Engineering",
+        "EEE"
+      ]
     },
     {
       "id": "keio-st-electrical-early",
@@ -29427,7 +29459,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
       "sources": [
         {
           "label": "飛び級入学試験：口述試問・総合評価",
@@ -29469,11 +29501,27 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
+          "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
+          "kind": "page"
         }
       ],
       "course": "教育研究分野：電気情報工学",
       "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
-      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "电气电子工学",
+        "電気電子工学",
+        "电气电子工程",
+        "电子电气工学",
+        "电气信息工学",
+        "電気情報工学カリキュラム",
+        "Electronics and Electrical Engineering",
+        "Electrical and Electronic Engineering",
+        "EEE"
+      ]
     },
     {
       "id": "keio-st-electrical-igp-i-4",
@@ -29487,7 +29535,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29529,11 +29577,27 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
+          "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
+          "kind": "page"
         }
       ],
       "course": "教育研究分野：電気情報工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "电气电子工学",
+        "電気電子工学",
+        "电气电子工程",
+        "电子电气工学",
+        "电气信息工学",
+        "電気情報工学カリキュラム",
+        "Electronics and Electrical Engineering",
+        "Electrical and Electronic Engineering",
+        "EEE"
+      ]
     },
     {
       "id": "keio-st-electrical-igp-i-9",
@@ -29547,7 +29611,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29589,11 +29653,27 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
+          "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
+          "kind": "page"
         }
       ],
       "course": "教育研究分野：電気情報工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "电气电子工学",
+        "電気電子工学",
+        "电气电子工程",
+        "电子电气工学",
+        "电气信息工学",
+        "電気情報工学カリキュラム",
+        "Electronics and Electrical Engineering",
+        "Electrical and Electronic Engineering",
+        "EEE"
+      ]
     },
     {
       "id": "keio-st-electrical-igp-ii-9",
@@ -29607,7 +29687,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29649,11 +29729,27 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
+          "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
+          "kind": "page"
         }
       ],
       "course": "教育研究分野：電気情報工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "电气电子工学",
+        "電気電子工学",
+        "电气电子工程",
+        "电子电气工学",
+        "电气信息工学",
+        "電気情報工学カリキュラム",
+        "Electronics and Electrical Engineering",
+        "Electrical and Electronic Engineering",
+        "EEE"
+      ]
     },
     {
       "id": "keio-st-system-design-june",

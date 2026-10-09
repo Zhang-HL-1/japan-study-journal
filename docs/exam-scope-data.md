@@ -25,6 +25,7 @@
 | `internationalGeneral` | 一般选拔明确允许符合条件的海外学历者时设为 `true`，留学生栏目显示一般选拔标识 |
 | `publicationStatus` | 可选，`pending` 案内待公布，`unverified` 范围待核验，`notice` 已公布变更预告但完整要项待公布，`closed` 修士招生停止通知 |
 | `editorialNote` | 中文编辑说明，与官方原文分开显示 |
+| `searchAliases` | 可选，非空字符串数组；经来源支持的专业常用称呼／中英文对应，只用于检索，不替代官方名称或考试原文 |
 | `sources` | 非空数组，官方文件与对应页 |
 
 每个 source 包含 `label`（原文件名/说明）、`url`（官方 HTTPS 地址）、`kind`（`pdf` 或 `page`），PDF 可增加从 1 开始的 `pdfPage`。`pdfPage` 使用 PDF 文件实际页序，不是纸面印刷页码。跨页表格应提供多条 source，或说明继续阅读相邻页。浏览器可能不支持 PDF 页码跳转；必须保留打开官方原文件的链接。
@@ -284,3 +285,12 @@ I-CEEC与SDTM采用2026年9月28日公布的2027年10月文件，独立修士入
 7份引用PDF及CI网页核对下载签名、SHA256、实际页数和全部引用页范围；理工学分野行、教员分野、IGP修士日程、SDM课程表、SFC选择流程、KMD月份表逐页视觉核验。新官方来源白名单`keio.ac.jp`包含st、sdm、kmd及SFC官方子域，HTTPS后缀边界不放宽。一般29条中23条有官方海外学历／出愿资格依据，可在留学生栏目显示，加18条IGP合计41条；不复制成外国人专用试验。
 
 添加前备份：[backup/pre-keio-exam-20261009](https://github.com/Zhang-HL-1/japan-study-journal/tree/backup/pre-keio-exam-20261009)。
+
+
+### 庆应电气电子名称复核（2026-10-09）
+
+当前修士一般要项实际PDF第18页H行、2026年教员所属表以及IGP实际PDF第5页一致指向「総合デザイン工学専攻／電気情報工学」，官方英文为Electronics and Electrical Engineering。[官方课程说明](https://www.keio.ac.jp/ja/st/department/design-engineering/elec/)明确其融合电气电子与信息工学。因此原有6条记录包含电气电子方向，但此前中文“电气电子工学”或日文“電気電子工学”无检索命中。
+
+仅为这6条增加`searchAliases`和独立编辑说明、课程对应来源，保留正式名称、各选拔科目／范围／选答条件不变；一般查询返回3条，留学生栏目返回2条符合海外学历资格的一般选拔与3条IGP共5条。复核未发现电气电子招生入口漏录，无新增记录，总量仍720。其余714条和旧九校校级资料保持原样。
+
+检索别名只补充名称映射；不能据别名新增虚构“电气电子工学专攻”、将本科名称当修士专攻，或用课程研究内容补写考纲。添加前备份：[backup/pre-keio-electrical-review-20261009](https://github.com/Zhang-HL-1/japan-study-journal/tree/backup/pre-keio-electrical-review-20261009)。

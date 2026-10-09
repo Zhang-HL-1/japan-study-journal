@@ -13,6 +13,7 @@
   function validRecord(record, universities) {
     return !!(record && typeof record.id === 'string' && record.id && universities.some(u => u.id === record.universityId) &&
       ['general', 'international'].includes(record.admissionType) && ['graduateSchool', 'department', 'selectionName', 'entryYear', 'verifiedAt'].every(key => typeof record[key] === 'string' && record[key].trim()) &&
+      (record.searchAliases === undefined || (Array.isArray(record.searchAliases) && record.searchAliases.every(alias => typeof alias === 'string' && alias.trim()))) &&
       Array.isArray(record.sources) && record.sources.length && record.sources.every(source => source && typeof source.label === 'string' && source.label.trim() && ['pdf', 'page'].includes(source.kind) && sourceURL(source)));
   }
   function matchesAdmission(record, admissionType) {
@@ -26,7 +27,7 @@
         (state.graduateSchool !== 'all' && record.graduateSchool !== state.graduateSchool) || (state.department !== 'all' && record.department !== state.department) ||
         (state.entryYear !== 'all' && record.entryYear !== state.entryYear) || namedSchools.some(ids => !ids.includes(record.universityId))) return false;
       const university = universities.find(u => u.id === record.universityId);
-      const text = normalize([university?.name, ...(university?.aliases || []), record.graduateSchool, record.department, record.course, record.selectionName,
+      const text = normalize([university?.name, ...(university?.aliases || []), ...(record.searchAliases || []), record.graduateSchool, record.department, record.course, record.selectionName,
         record.subjectsOriginal, record.scopeOriginal, record.conditionsOriginal, record.entryYear].join(' '));
       return terms.every(term => text.includes(term));
     });
