@@ -11,6 +11,87 @@ const makeRecord = overrides => ({ id: 'qa-general', universityId: 'fixture', ad
   sources: [{ label: 'Official fixture URL', kind: 'pdf', url: 'https://www.t.u-tokyo.ac.jp/fixture.pdf', pdfPage: 3 }], ...overrides });
 const initial = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', entryYear: 'all', query: '' };
 
+test('Sophia keeps the three formal engineering divisions and the independent applied data science master program',()=>{
+ const rs=data.records.filter(r=>r.universityId==='sophia');
+ assert.equal(rs.length,20);assert.ok(rs.every(r=>r.admissionType==='general'&&r.degreeProgram==='master'&&r.entryYear==='2027年4月'&&r.verifiedAt==='2026-10-09'&&!r.publicationStatus));
+ const st=rs.filter(r=>r.graduateSchool==='理工学研究科');assert.equal(st.length,15);
+ assert.deepEqual([...new Set(st.map(r=>r.department))],['理工学専攻']);
+ assert.deepEqual([...new Set(st.map(r=>r.course))].sort(),['機械工学領域','電気・電子工学領域','情報学領域'].sort());
+ const ds=rs.filter(r=>r.graduateSchool==='応用データサイエンス学位プログラム');assert.equal(ds.length,5);
+ assert.ok(ds.every(r=>r.department===r.graduateSchool&&!r.course));
+ for(const forbidden of ['化学領域','応用化学領域','数学領域','物理学領域','生物科学領域','グリーンサイエンス・エンジニアリング領域'])assert.ok(rs.every(r=>r.course!==forbidden));
+ assert.ok(rs.every(r=>!r.selectionName.includes('7月')&&!r.department.includes('デジタルグリーン')));
+ assert.match(data.catalog.sophia.note,/GSE英語|GSE英语/);assert.match(data.catalog.sophia.note,/未納入|未纳入/);
+});
+test('Sophia engineering preserves seven preselected written papers, oral scopes and real external English formats',()=>{
+ const rs=data.records.filter(r=>r.id.startsWith('sophia-st-')&&r.id.endsWith('-general'));assert.equal(rs.length,6);
+ for(const r of rs){
+  assert.match(r.scopeOriginal,/7科目から1科目を出願時に選択/);
+  for(const subject of ['機械工学基礎','電気・電子工学基礎','化学基礎','数学基礎','物理学基礎','生物科学基礎','情報学基礎'])assert.ok(r.scopeOriginal.includes(subject));
+  for(const term of ['電磁気学','電気回路','電子回路','信号処理','計算機ハードウェア','志望動機'])assert.ok(r.scopeOriginal.includes(term));
+  assert.ok(r.sources.some(s=>s.url.endsWith('9_rikougakukenkyuuka_2027.pdf')&&s.pdfPage===4));
+  for(const term of ['N2','L&R','Home Edition','MyBest','ITP','IP','Academic Module','4技能','2年以内'])assert.ok(r.conditionsOriginal.includes(term));
+  assert.match(r.conditionsOriginal,/卒業研究担当教員と同じ/);
+  assert.match(r.editorialNote,/未公布更细章节或统一外语最低分/);
+ }
+});
+test('Sophia keeps September internal waivers separate from February and from engineering working professionals',()=>{
+ for(const field of ['mechanical','electrical','information']){
+  const f=s=>data.records.find(r=>r.id==='sophia-st-'+field+'-'+s);
+  const waiver=f('september-waiver');assert.equal(waiver.internationalGeneral,undefined);
+  assert.match(waiver.conditionsOriginal,/本学理工学部卒業/);assert.match(waiver.conditionsOriginal,/外国語検定試験の成績提出も免除/);
+  assert.equal(waiver.scopeOriginal,'専門の研究内容と志望動機に関する口頭試問。');assert.doesNotMatch(waiver.subjectsOriginal,/筆記試験：/);
+  for(const period of ['september','february']){
+   const r=f(period+'-working');assert.match(r.scopeOriginal,/実務経験に関する口頭発表/);assert.match(r.scopeOriginal,/予備試問/);
+   assert.match(r.conditionsOriginal,/1年以上/);assert.match(r.conditionsOriginal,/開始1ヶ月前/);assert.match(r.conditionsOriginal,/不許可の場合は一般入試/);
+   assert.doesNotMatch(r.subjectsOriginal,/理工基礎/);
+  }
+  assert.equal(f('february-waiver'),undefined);
+ }
+});
+test('Sophia applied data science retains exam-time choices, N1 and the newly opened February general selection',()=>{
+ const f=s=>data.records.find(r=>r.id==='sophia-applied-ds-'+s);
+ for(const period of ['september','february']){
+  const r=f(period+'-general');assert.match(r.scopeOriginal,/指定の問題数を選択/);assert.match(r.scopeOriginal,/問題は試験中に選択/);
+  assert.match(r.conditionsOriginal,/N1合格/);assert.doesNotMatch(r.subjectsOriginal,/TOEFL|TOEIC|IELTS|TEAP/);
+  assert.match(r.conditionsOriginal,/1,000字/);assert.match(r.conditionsOriginal,/参考文献5点/);assert.match(r.conditionsOriginal,/13:00/);
+  assert.ok(r.sources.some(s=>s.url.endsWith('11_ouyoudsprogram_2027.pdf')&&s.pdfPage===3));
+ }
+ const feb=f('february-general');assert.match(feb.conditionsOriginal,/筆記試験免除制度はありません/);assert.match(feb.conditionsOriginal,/2027年1月7日/);assert.match(feb.conditionsOriginal,/2027年2月20日/);
+ assert.equal(f('february-waiver'),undefined);
+ const waiver=f('september-waiver');assert.equal(waiver.internationalGeneral,true);assert.match(waiver.conditionsOriginal,/①、②/);assert.match(waiver.conditionsOriginal,/インターン/);assert.match(waiver.scopeOriginal,/9:30/);
+ assert.ok(!waiver.conditionsOriginal.includes('本学理工学部卒業'));
+});
+test('Sophia applied data science working eligibility does not copy the engineering one-year employment rule',()=>{
+ for(const period of ['september','february']){
+  const r=data.records.find(r=>r.id==='sophia-applied-ds-'+period+'-working');
+  assert.doesNotMatch(r.subjectsOriginal,/筆記/);assert.doesNotMatch(r.conditionsOriginal,/実務経験が入学時点で1年以上/);
+  assert.match(r.conditionsOriginal,/就業経験がない者/);assert.match(r.conditionsOriginal,/学部卒業後2年未満/);assert.match(r.conditionsOriginal,/4月から正規雇用/);
+  assert.match(r.conditionsOriginal,/申請要件①から④/);assert.match(r.editorialNote,/第5页.*第6页/);
+  assert.deepEqual(r.sources.filter(s=>s.url.endsWith('11_ouyoudsprogram_2027.pdf')).map(s=>s.pdfPage),[7,5,6,1]);
+ }
+});
+test('Sophia foreign-educated general routes preserve residence restrictions, aliases and safe actual PDF pages',()=>{
+ const rs=data.records.filter(r=>r.universityId==='sophia');
+ const general=core.filter(data.records,data.universities,{...initial,universityId:'sophia'});
+ const international=core.filter(data.records,data.universities,{...initial,universityId:'sophia',admissionType:'international'});
+ assert.equal(general.length,20);assert.equal(international.length,17);assert.ok(international.every(r=>r.internationalGeneral&&r.admissionType==='general'));
+ for(const q of ['上智','上智大','Sophia','Sophia University'])assert.equal(core.filter(data.records,data.universities,{...initial,query:q}).length,20);
+ for(const r of rs){
+  if(r.id.includes('february'))assert.match(r.conditionsOriginal,/国内出願のみ/);
+  if(r.id.includes('september'))assert.match(r.editorialNote,/已结束/);
+  assert.ok(r.sources.some(s=>s.url.endsWith('0_kyotsu_2027.pdf')&&s.pdfPage===7));
+  assert.ok(r.sources.some(s=>s.url.endsWith('0_kyotsu_2027.pdf')&&s.pdfPage===6));
+  for(const s of r.sources){assert.ok(new URL(s.url).hostname.endsWith('.sophia.ac.jp'));if(s.kind==='pdf'){
+   const pages=s.url.endsWith('0_kyotsu_2027.pdf')?24:s.url.endsWith('9_rikougakukenkyuuka_2027.pdf')?14:8;
+   assert.ok(s.pdfPage>=1&&s.pdfPage<=pages);
+  }}
+ }
+ assert.equal(core.sourceURL({url:'https://adm.sophia.ac.jp/guide.pdf',kind:'pdf',pdfPage:6}),'https://adm.sophia.ac.jp/guide.pdf#page=6');
+ for(const url of ['http://adm.sophia.ac.jp/a','https://sophia.ac.jp.evil.test/a','https://evil-sophia.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
+ assert.equal(data.records.length,770);assert.equal(data.records.filter(r=>!r.publicationStatus).length,751);
+ const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>770<\/strong>/);assert.match(html,/20261009-sophia/);assert.match(html,/与上智大学/);
+});
 test('Kyushu keeps seven official faculties and 20 departments with year-specific sources and safe aliases',()=>{
  const records=data.records.filter(r=>r.universityId==='kyushu');
  assert.equal(records.length,119);assert.equal(new Set(records.map(r=>r.graduateSchool)).size,7);
@@ -274,9 +355,9 @@ test('Keio SFC overseas is a residence route with pre-interview and research vid
  const domestic=rs.filter(r=>r.selectionName.includes('国内出願'));assert.ok(domestic.every(r=>r.subjectsOriginal.includes('2次選考：面接')));
  assert.ok(rs.every(r=>!r.subjectsOriginal.includes('新規授業科目企画書')));
 });
-test('all ten university catalogs have unique validated records and clear pending entry rules', () => {
-  assert.equal(data.universities.length, 10);
-  assert.equal(new Set(data.universities.map(u => u.id)).size, 10);
+test('all eleven university catalogs have unique validated records and clear pending entry rules', () => {
+  assert.equal(data.universities.length, 11);
+  assert.equal(new Set(data.universities.map(u => u.id)).size, 11);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
   assert.ok(data.records.every(record => core.validRecord(record, data.universities)));

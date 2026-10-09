@@ -32,6 +32,37 @@ function boot(records=[]) {
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
+test('Sophia school filters expose one formal engineering department, three divisions and the independent data science program',async()=>{
+ const a=boot(catalog.records);await school(a,'sophia').click();
+ assert.equal(a.ids['scope-results'].children.length,20);assert.equal(a.ids['scope-graduate'].options.length,3);
+ assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.sophia.note);assert.equal(a.ids['scope-directions'].hidden,true);
+ a.ids['scope-graduate'].value='理工学研究科';await a.ids['scope-graduate'].fire('change');
+ assert.equal(a.ids['scope-department'].options.length,2);assert.equal(a.ids['scope-field'].options.length,4);assert.equal(a.ids['scope-results'].children.length,15);
+ a.ids['scope-field'].value='電気・電子工学領域';await a.ids['scope-field'].fire('change');assert.equal(a.ids['scope-results'].children.length,5);
+ await school(a,'sophia').click();await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,17);
+ a.ids['scope-query'].value='上智 电气电子';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,4);
+});
+test('Sophia electrical details keep official Japanese original text and open the actual written table page',async()=>{
+ const a=boot(catalog.records);await school(a,'sophia').click();
+ a.ids['scope-query'].value='電気・電子工学領域 2月 理工基礎';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,1);
+ await a.ids['scope-results'].children[0].click();
+ const r=catalog.records.find(r=>r.id==='sophia-st-electrical-february-general');
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===r.scopeOriginal&&e.lang==='ja'));
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===r.conditionsOriginal));
+ const s=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await s.children.find(e=>e.tag==='button').click();
+ assert.ok(s.children.find(e=>e.tag==='iframe').src.endsWith('9_rikougakukenkyuuka_2027.pdf#page=4'));
+});
+test('Sophia data science remains visible in the foreign view without a fabricated English or foreign-special selection',async()=>{
+ const a=boot(catalog.records);await school(a,'sophia').click();await a.tabs[1].click();
+ a.ids['scope-query'].value='Sophia 应用数据科学';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,5);
+ await a.ids['scope-results'].children[0].click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='scope-route-note'&&e.textContent.includes('一般选拔入口')));
+ a.ids['scope-query'].value='Sophia 应用数据科学 2月 一般入試';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,1);
+ await a.ids['scope-results'].children[0].click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('国内出願のみ')&&e.textContent.includes('N1合格')));
+ const s=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await s.children.find(e=>e.tag==='button').click();
+ assert.ok(s.children.find(e=>e.tag==='iframe').src.endsWith('11_ouyoudsprogram_2027.pdf#page=3'));
+});
 test('Keio direction entries replace stale filters and show current scopes in both admission views',async()=>{
  const a=boot(catalog.records);
  assert.equal(a.ids['scope-directions'].hidden,true);
@@ -181,11 +212,11 @@ test('Tohoku pending English call and SDTM participation render without invented
   assert.ok(!a.ids['scope-detail'].children.some(e=>e.tag==='h4'&&e.textContent==='考试范围 · 官方原文'));
  }
 });
-test('school filters switch all ten coverage notes and unmatched results remain usable',async()=>{
+test('school filters switch all eleven coverage notes and unmatched results remain usable',async()=>{
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学与慶應義塾大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学与上智大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);

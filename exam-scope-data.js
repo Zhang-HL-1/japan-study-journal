@@ -98,6 +98,16 @@
         "Keio",
         "Keio University"
       ]
+    },
+    {
+      "id": "sophia",
+      "name": "上智大学",
+      "aliases": [
+        "上智",
+        "上智大",
+        "Sophia",
+        "Sophia University"
+      ]
     }
   ],
   "catalog": {
@@ -124,7 +134,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学与慶應義塾大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学与上智大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -276,6 +286,15 @@
           "note": "现行化学・生命情報科学専攻的生命科学、计算机科学与工程交叉分野；6月、8月、飛び級与IGP分开查阅。"
         }
       ]
+    },
+    "sophia": {
+      "verifiedAt": "2026-10-09",
+      "degree": "博士前期課程・修士課程",
+      "graduateSchools": [
+        "理工学研究科",
+        "応用データサイエンス学位プログラム"
+      ],
+      "note": "上智大学：已核验2027年4月入学的理工学専攻（機械工学・電気・電子工学・情報学3領域）及独立応用データサイエンス修士项目，共20条一般、社会人及9月笔试免除要求。9月／2月分别保存；2026年9月轮次已结束，2月仅国内出愿。理工学笔试7科选1在报名时确定，数据科学在考试中选答；理工学外国人N2、数据科学N1及免交条件分开。无目标理工方向独立外国人特别选拔，符合条件的一般入口在留学生栏目显示17条。按后续专业筛选跳过纯数学、纯物理、化学等；环境主体混合GSE英语项目未纳入，不称覆盖全校。本科DGTech和博士专用7月入试不收录。核对日期2026-10-09。"
     }
   },
   "records": [
@@ -35005,6 +35024,1588 @@
         "生物信息学",
         "バイオインフォマティクス",
         "Biosciences and Informatics"
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "機械工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "机械工程",
+        "机械工学",
+        "機械工学",
+        "Mechanical Engineering"
+      ],
+      "id": "sophia-st-mechanical-september-general",
+      "selectionName": "一般入試（博士前期課程）— 9月入試（2026年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆記試験：理工基礎（選択科目）\n口述試験\n外国語検定試験：TOEFL®、TOEIC®、IELTS、TEAPのいずれか",
+      "scopeOriginal": "以下の7科目から1科目を出願時に選択：機械工学基礎、電気・電子工学基礎、化学基礎、数学基礎、物理学基礎、生物科学基礎、情報学基礎。\n機械工学基礎：機械工学に必要な分野（数学、力学、材料力学、機械力学、熱工学、流体工学、精密工学、制御工学、材料科学など）から基礎的な問題を出題する。\n電気・電子工学基礎：電気・電子工学に必要な数学、及び各専門分野（電磁気学、電気回路、電子回路など）の基礎から出題する。\n情報学基礎：人間情報・コミュニケーション情報・社会情報の基礎となる情報学（データ・プログラム・計算機ハードウェア・ソフトウェアなど）、電子情報（信号処理など）、数理情報等の分野から基礎知識を問う問題を出題する。\n口述試験：専門の研究内容と志望動機に関する口頭試問。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n筆記試験2026年9月9日、口述試験9月10日。\n必ず出願期間の開始前までに領域事務室を通して指導希望教員に連絡すること。事前連絡・相談に対応した教員名（1名）を「事前連絡教員」欄に入力すること。\nただし、本学理工学部卒業（見込み）者で筆記試験免除の認定を受けた者、および本学理工学部卒業（見込み）の筆記試験受験者で卒業研究担当教員と同じ指導教員を志望する者は、事前連絡および「事前連絡教員」欄の入力を不要とする。\n出願時にいずれかの領域を選択して専門とする分野を定める。入学後の領域の変更は認められない。第1希望の指導教員の入力は必須、第2・第3希望は任意。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。\n筆記試験9:30～12:00、口述試験10:00～。出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "正式所属为理工学専攻／機械工学領域，不是同名独立专攻。笔试是7科选1并在报名时锁定；本页摘录机械、电气电子、信息学三个题群原文，其余四题群及完整表见实际PDF第4页。要项未规定须选择与志望领域同名的试卷，不强行绑定。未公布更细章节或统一外语最低分。该轮报名与考试已结束，保留其2027年4月适用要求。",
+      "sources": [
+        {
+          "label": "一般入試：7科選1・各題群範囲・口述（実際PDF第4頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "修士日程・9領域・事前連絡・9月学内免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "N2・外国語スコア提出と免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "出願時に領域・選択科目・指導教員を登録",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "外部語学スコアの有効期間・TOEFL提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "TOEFL Home Edition／MyBest・TOEIC IP・IELTS・TEAP",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "機械工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "机械工程",
+        "机械工学",
+        "機械工学",
+        "Mechanical Engineering"
+      ],
+      "id": "sophia-st-mechanical-september-working",
+      "selectionName": "社会人入試（博士前期課程）— 9月入試（2026年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n研究計画書（A4判2枚以内）\n外国語検定試験の成績（提出免除認定者を除く）",
+      "scopeOriginal": "実務経験に関する口頭発表と関連事項・基礎的事項に関する口頭試問。\n領域によっては、口述試験の予備試問を行うことがある。希望する領域の連絡先に確認すること。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n口述試験2026年9月10日、10:00～。\n大学卒業、またはそれと同等以上の学力があり、社会における実務経験が入学時点で1年以上ある者。必ず出願期間の開始1ヶ月前までに領域事務室を通して指導希望教員に連絡すること。\n外国語検定試験の成績提出免除希望者は事前連絡の際に相談し、免除の認定を受けること。\n社会人入試が不許可の場合は一般入試枠の受験となる。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。",
+      "editorialNote": "社会人枠は実務経験の発表と関連・基礎事項の口頭試問。普通笔试不适用于获准的社会人枠；领域可能有预备试问。入学时须有1年以上实务经验，事前联系比普通一般入试更早；英语免交不是自动免除。该轮报名与考试已结束，保留其2027年4月适用要求。",
+      "sources": [
+        {
+          "label": "社会人入試：口頭発表・予備試問・研究計画・外国語免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "社会人適用基準：実務経験1年以上・事前連絡",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士・社会人試験日と領域",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "語学スコア有効期間",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "許可される語学試験方式",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "機械工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "机械工程",
+        "机械工学",
+        "機械工学",
+        "Mechanical Engineering"
+      ],
+      "id": "sophia-st-mechanical-september-waiver",
+      "selectionName": "一般入試（博士前期課程）— 9月入試・学内進学者免除認定者",
+      "subjectsOriginal": "口述試験（学内進学者免除認定者）",
+      "scopeOriginal": "専門の研究内容と志望動機に関する口頭試問。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n9月入試については本学理工学部卒業（見込）者に対する筆記試験免除制度があり、希望する領域の筆記試験免除の認定を受けた場合には、外国語検定試験の成績提出も免除となる。\n「学内進学者免除」を選択すること。不許可となった場合を想定して、必要事項は全て選択・記入すること。\n本学理工学部卒業（見込み）者で筆記試験免除の認定を受けた者は事前連絡不要。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n口述試験2026年9月10日、10:00～。",
+      "editorialNote": "仅适用于上智本校理工学部毕业（预定）且获得认定者，9月限定；不是海外大学毕业者的免笔试入口。不加入海外学历一般入口标记，2月不复制本制度。该轮报名与考试已结束。",
+      "sources": [
+        {
+          "label": "9月本学理工学部筆記免除・外国語成績免除・事前連絡例外",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "学内進学者免除の科目・申請と不許可時の取扱い",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "免除後も残る口述試験",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "外国人志願者N2と免除条件",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "機械工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "机械工程",
+        "机械工学",
+        "機械工学",
+        "Mechanical Engineering"
+      ],
+      "id": "sophia-st-mechanical-february-general",
+      "selectionName": "一般入試（博士前期課程）— 2月入試（2027年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆記試験：理工基礎（選択科目）\n口述試験\n外国語検定試験：TOEFL®、TOEIC®、IELTS、TEAPのいずれか",
+      "scopeOriginal": "以下の7科目から1科目を出願時に選択：機械工学基礎、電気・電子工学基礎、化学基礎、数学基礎、物理学基礎、生物科学基礎、情報学基礎。\n機械工学基礎：機械工学に必要な分野（数学、力学、材料力学、機械力学、熱工学、流体工学、精密工学、制御工学、材料科学など）から基礎的な問題を出題する。\n電気・電子工学基礎：電気・電子工学に必要な数学、及び各専門分野（電磁気学、電気回路、電子回路など）の基礎から出題する。\n情報学基礎：人間情報・コミュニケーション情報・社会情報の基礎となる情報学（データ・プログラム・計算機ハードウェア・ソフトウェアなど）、電子情報（信号処理など）、数理情報等の分野から基礎知識を問う問題を出題する。\n口述試験：専門の研究内容と志望動機に関する口頭試問。",
+      "conditionsOriginal": "2月入試（2027年4月入学）：国内出願のみ。\n国内出願（出願時に日本国内に居住している者 ※在留資格「短期滞在」の者を除く）。\nWeb出願期間：2026年11月27日（金）～12月9日（水）。出願書類提出期限：12月10日（木）消印有効。筆記試験2027年2月16日、口述試験2月17日。\n必ず出願期間の開始前までに領域事務室を通して指導希望教員に連絡すること。事前連絡・相談に対応した教員名（1名）を「事前連絡教員」欄に入力すること。\nただし、本学理工学部卒業（見込み）者で筆記試験免除の認定を受けた者、および本学理工学部卒業（見込み）の筆記試験受験者で卒業研究担当教員と同じ指導教員を志望する者は、事前連絡および「事前連絡教員」欄の入力を不要とする。\n出願時にいずれかの領域を選択して専門とする分野を定める。入学後の領域の変更は認められない。第1希望の指導教員の入力は必須、第2・第3希望は任意。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。\n筆記試験9:30～12:00、口述試験10:00～。出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "正式所属为理工学専攻／機械工学領域，不是同名独立专攻。笔试是7科选1并在报名时锁定；本页摘录机械、电气电子、信息学三个题群原文，其余四题群及完整表见实际PDF第4页。要项未规定须选择与志望领域同名的试卷，不强行绑定。未公布更细章节或统一外语最低分。2月仅国内出愿；外国籍申请者须在日本居住且非短期滞在，不是在海外直接报名的入口。",
+      "sources": [
+        {
+          "label": "一般入試：7科選1・各題群範囲・口述（実際PDF第4頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "修士日程・9領域・事前連絡・9月学内免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "N2・外国語スコア提出と免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "出願時に領域・選択科目・指導教員を登録",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "外部語学スコアの有効期間・TOEFL提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "TOEFL Home Edition／MyBest・TOEIC IP・IELTS・TEAP",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "機械工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "机械工程",
+        "机械工学",
+        "機械工学",
+        "Mechanical Engineering"
+      ],
+      "id": "sophia-st-mechanical-february-working",
+      "selectionName": "社会人入試（博士前期課程）— 2月入試（2027年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n研究計画書（A4判2枚以内）\n外国語検定試験の成績（提出免除認定者を除く）",
+      "scopeOriginal": "実務経験に関する口頭発表と関連事項・基礎的事項に関する口頭試問。\n領域によっては、口述試験の予備試問を行うことがある。希望する領域の連絡先に確認すること。",
+      "conditionsOriginal": "2月入試（2027年4月入学）：国内出願のみ。\n国内出願（出願時に日本国内に居住している者 ※在留資格「短期滞在」の者を除く）。\nWeb出願期間：2026年11月27日（金）～12月9日（水）。出願書類提出期限：12月10日（木）消印有効。口述試験2月17日。口述試験10:00～。\n大学卒業、またはそれと同等以上の学力があり、社会における実務経験が入学時点で1年以上ある者。必ず出願期間の開始1ヶ月前までに領域事務室を通して指導希望教員に連絡すること。\n外国語検定試験の成績提出免除希望者は事前連絡の際に相談し、免除の認定を受けること。\n社会人入試が不許可の場合は一般入試枠の受験となる。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。",
+      "editorialNote": "社会人枠は実務経験の発表と関連・基礎事項の口頭試問。普通笔试不适用于获准的社会人枠；领域可能有预备试问。入学时须有1年以上实务经验，事前联系比普通一般入试更早；英语免交不是自动免除。2月仅国内出愿；外国籍申请者须在日本居住且非短期滞在，不是在海外直接报名的入口。",
+      "sources": [
+        {
+          "label": "社会人入試：口頭発表・予備試問・研究計画・外国語免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "社会人適用基準：実務経験1年以上・事前連絡",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士・社会人試験日と領域",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "語学スコア有効期間",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "許可される語学試験方式",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "電気・電子工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "电气电子工学",
+        "电气电子",
+        "電気電子工学",
+        "電気・電子工学",
+        "Electrical and Electronics Engineering"
+      ],
+      "id": "sophia-st-electrical-september-general",
+      "selectionName": "一般入試（博士前期課程）— 9月入試（2026年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆記試験：理工基礎（選択科目）\n口述試験\n外国語検定試験：TOEFL®、TOEIC®、IELTS、TEAPのいずれか",
+      "scopeOriginal": "以下の7科目から1科目を出願時に選択：機械工学基礎、電気・電子工学基礎、化学基礎、数学基礎、物理学基礎、生物科学基礎、情報学基礎。\n機械工学基礎：機械工学に必要な分野（数学、力学、材料力学、機械力学、熱工学、流体工学、精密工学、制御工学、材料科学など）から基礎的な問題を出題する。\n電気・電子工学基礎：電気・電子工学に必要な数学、及び各専門分野（電磁気学、電気回路、電子回路など）の基礎から出題する。\n情報学基礎：人間情報・コミュニケーション情報・社会情報の基礎となる情報学（データ・プログラム・計算機ハードウェア・ソフトウェアなど）、電子情報（信号処理など）、数理情報等の分野から基礎知識を問う問題を出題する。\n口述試験：専門の研究内容と志望動機に関する口頭試問。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n筆記試験2026年9月9日、口述試験9月10日。\n必ず出願期間の開始前までに領域事務室を通して指導希望教員に連絡すること。事前連絡・相談に対応した教員名（1名）を「事前連絡教員」欄に入力すること。\nただし、本学理工学部卒業（見込み）者で筆記試験免除の認定を受けた者、および本学理工学部卒業（見込み）の筆記試験受験者で卒業研究担当教員と同じ指導教員を志望する者は、事前連絡および「事前連絡教員」欄の入力を不要とする。\n出願時にいずれかの領域を選択して専門とする分野を定める。入学後の領域の変更は認められない。第1希望の指導教員の入力は必須、第2・第3希望は任意。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。\n筆記試験9:30～12:00、口述試験10:00～。出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "正式所属为理工学専攻／電気・電子工学領域，不是同名独立专攻。笔试是7科选1并在报名时锁定；本页摘录机械、电气电子、信息学三个题群原文，其余四题群及完整表见实际PDF第4页。要项未规定须选择与志望领域同名的试卷，不强行绑定。未公布更细章节或统一外语最低分。该轮报名与考试已结束，保留其2027年4月适用要求。",
+      "sources": [
+        {
+          "label": "一般入試：7科選1・各題群範囲・口述（実際PDF第4頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "修士日程・9領域・事前連絡・9月学内免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "N2・外国語スコア提出と免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "出願時に領域・選択科目・指導教員を登録",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "外部語学スコアの有効期間・TOEFL提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "TOEFL Home Edition／MyBest・TOEIC IP・IELTS・TEAP",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "電気・電子工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "电气电子工学",
+        "电气电子",
+        "電気電子工学",
+        "電気・電子工学",
+        "Electrical and Electronics Engineering"
+      ],
+      "id": "sophia-st-electrical-september-working",
+      "selectionName": "社会人入試（博士前期課程）— 9月入試（2026年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n研究計画書（A4判2枚以内）\n外国語検定試験の成績（提出免除認定者を除く）",
+      "scopeOriginal": "実務経験に関する口頭発表と関連事項・基礎的事項に関する口頭試問。\n領域によっては、口述試験の予備試問を行うことがある。希望する領域の連絡先に確認すること。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n口述試験2026年9月10日、10:00～。\n大学卒業、またはそれと同等以上の学力があり、社会における実務経験が入学時点で1年以上ある者。必ず出願期間の開始1ヶ月前までに領域事務室を通して指導希望教員に連絡すること。\n外国語検定試験の成績提出免除希望者は事前連絡の際に相談し、免除の認定を受けること。\n社会人入試が不許可の場合は一般入試枠の受験となる。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。",
+      "editorialNote": "社会人枠は実務経験の発表と関連・基礎事項の口頭試問。普通笔试不适用于获准的社会人枠；领域可能有预备试问。入学时须有1年以上实务经验，事前联系比普通一般入试更早；英语免交不是自动免除。该轮报名与考试已结束，保留其2027年4月适用要求。",
+      "sources": [
+        {
+          "label": "社会人入試：口頭発表・予備試問・研究計画・外国語免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "社会人適用基準：実務経験1年以上・事前連絡",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士・社会人試験日と領域",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "語学スコア有効期間",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "許可される語学試験方式",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "電気・電子工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "电气电子工学",
+        "电气电子",
+        "電気電子工学",
+        "電気・電子工学",
+        "Electrical and Electronics Engineering"
+      ],
+      "id": "sophia-st-electrical-september-waiver",
+      "selectionName": "一般入試（博士前期課程）— 9月入試・学内進学者免除認定者",
+      "subjectsOriginal": "口述試験（学内進学者免除認定者）",
+      "scopeOriginal": "専門の研究内容と志望動機に関する口頭試問。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n9月入試については本学理工学部卒業（見込）者に対する筆記試験免除制度があり、希望する領域の筆記試験免除の認定を受けた場合には、外国語検定試験の成績提出も免除となる。\n「学内進学者免除」を選択すること。不許可となった場合を想定して、必要事項は全て選択・記入すること。\n本学理工学部卒業（見込み）者で筆記試験免除の認定を受けた者は事前連絡不要。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n口述試験2026年9月10日、10:00～。",
+      "editorialNote": "仅适用于上智本校理工学部毕业（预定）且获得认定者，9月限定；不是海外大学毕业者的免笔试入口。不加入海外学历一般入口标记，2月不复制本制度。该轮报名与考试已结束。",
+      "sources": [
+        {
+          "label": "9月本学理工学部筆記免除・外国語成績免除・事前連絡例外",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "学内進学者免除の科目・申請と不許可時の取扱い",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "免除後も残る口述試験",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "外国人志願者N2と免除条件",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "電気・電子工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "电气电子工学",
+        "电气电子",
+        "電気電子工学",
+        "電気・電子工学",
+        "Electrical and Electronics Engineering"
+      ],
+      "id": "sophia-st-electrical-february-general",
+      "selectionName": "一般入試（博士前期課程）— 2月入試（2027年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆記試験：理工基礎（選択科目）\n口述試験\n外国語検定試験：TOEFL®、TOEIC®、IELTS、TEAPのいずれか",
+      "scopeOriginal": "以下の7科目から1科目を出願時に選択：機械工学基礎、電気・電子工学基礎、化学基礎、数学基礎、物理学基礎、生物科学基礎、情報学基礎。\n機械工学基礎：機械工学に必要な分野（数学、力学、材料力学、機械力学、熱工学、流体工学、精密工学、制御工学、材料科学など）から基礎的な問題を出題する。\n電気・電子工学基礎：電気・電子工学に必要な数学、及び各専門分野（電磁気学、電気回路、電子回路など）の基礎から出題する。\n情報学基礎：人間情報・コミュニケーション情報・社会情報の基礎となる情報学（データ・プログラム・計算機ハードウェア・ソフトウェアなど）、電子情報（信号処理など）、数理情報等の分野から基礎知識を問う問題を出題する。\n口述試験：専門の研究内容と志望動機に関する口頭試問。",
+      "conditionsOriginal": "2月入試（2027年4月入学）：国内出願のみ。\n国内出願（出願時に日本国内に居住している者 ※在留資格「短期滞在」の者を除く）。\nWeb出願期間：2026年11月27日（金）～12月9日（水）。出願書類提出期限：12月10日（木）消印有効。筆記試験2027年2月16日、口述試験2月17日。\n必ず出願期間の開始前までに領域事務室を通して指導希望教員に連絡すること。事前連絡・相談に対応した教員名（1名）を「事前連絡教員」欄に入力すること。\nただし、本学理工学部卒業（見込み）者で筆記試験免除の認定を受けた者、および本学理工学部卒業（見込み）の筆記試験受験者で卒業研究担当教員と同じ指導教員を志望する者は、事前連絡および「事前連絡教員」欄の入力を不要とする。\n出願時にいずれかの領域を選択して専門とする分野を定める。入学後の領域の変更は認められない。第1希望の指導教員の入力は必須、第2・第3希望は任意。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。\n筆記試験9:30～12:00、口述試験10:00～。出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "正式所属为理工学専攻／電気・電子工学領域，不是同名独立专攻。笔试是7科选1并在报名时锁定；本页摘录机械、电气电子、信息学三个题群原文，其余四题群及完整表见实际PDF第4页。要项未规定须选择与志望领域同名的试卷，不强行绑定。未公布更细章节或统一外语最低分。2月仅国内出愿；外国籍申请者须在日本居住且非短期滞在，不是在海外直接报名的入口。",
+      "sources": [
+        {
+          "label": "一般入試：7科選1・各題群範囲・口述（実際PDF第4頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "修士日程・9領域・事前連絡・9月学内免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "N2・外国語スコア提出と免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "出願時に領域・選択科目・指導教員を登録",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "外部語学スコアの有効期間・TOEFL提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "TOEFL Home Edition／MyBest・TOEIC IP・IELTS・TEAP",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "電気・電子工学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "电气电子工学",
+        "电气电子",
+        "電気電子工学",
+        "電気・電子工学",
+        "Electrical and Electronics Engineering"
+      ],
+      "id": "sophia-st-electrical-february-working",
+      "selectionName": "社会人入試（博士前期課程）— 2月入試（2027年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n研究計画書（A4判2枚以内）\n外国語検定試験の成績（提出免除認定者を除く）",
+      "scopeOriginal": "実務経験に関する口頭発表と関連事項・基礎的事項に関する口頭試問。\n領域によっては、口述試験の予備試問を行うことがある。希望する領域の連絡先に確認すること。",
+      "conditionsOriginal": "2月入試（2027年4月入学）：国内出願のみ。\n国内出願（出願時に日本国内に居住している者 ※在留資格「短期滞在」の者を除く）。\nWeb出願期間：2026年11月27日（金）～12月9日（水）。出願書類提出期限：12月10日（木）消印有効。口述試験2月17日。口述試験10:00～。\n大学卒業、またはそれと同等以上の学力があり、社会における実務経験が入学時点で1年以上ある者。必ず出願期間の開始1ヶ月前までに領域事務室を通して指導希望教員に連絡すること。\n外国語検定試験の成績提出免除希望者は事前連絡の際に相談し、免除の認定を受けること。\n社会人入試が不許可の場合は一般入試枠の受験となる。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。",
+      "editorialNote": "社会人枠は実務経験の発表と関連・基礎事項の口頭試問。普通笔试不适用于获准的社会人枠；领域可能有预备试问。入学时须有1年以上实务经验，事前联系比普通一般入试更早；英语免交不是自动免除。2月仅国内出愿；外国籍申请者须在日本居住且非短期滞在，不是在海外直接报名的入口。",
+      "sources": [
+        {
+          "label": "社会人入試：口頭発表・予備試問・研究計画・外国語免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "社会人適用基準：実務経験1年以上・事前連絡",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士・社会人試験日と領域",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "語学スコア有効期間",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "許可される語学試験方式",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "情報学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "信息学",
+        "信息工程",
+        "计算机",
+        "情報工学",
+        "Information Science",
+        "Computer Science"
+      ],
+      "id": "sophia-st-information-september-general",
+      "selectionName": "一般入試（博士前期課程）— 9月入試（2026年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆記試験：理工基礎（選択科目）\n口述試験\n外国語検定試験：TOEFL®、TOEIC®、IELTS、TEAPのいずれか",
+      "scopeOriginal": "以下の7科目から1科目を出願時に選択：機械工学基礎、電気・電子工学基礎、化学基礎、数学基礎、物理学基礎、生物科学基礎、情報学基礎。\n機械工学基礎：機械工学に必要な分野（数学、力学、材料力学、機械力学、熱工学、流体工学、精密工学、制御工学、材料科学など）から基礎的な問題を出題する。\n電気・電子工学基礎：電気・電子工学に必要な数学、及び各専門分野（電磁気学、電気回路、電子回路など）の基礎から出題する。\n情報学基礎：人間情報・コミュニケーション情報・社会情報の基礎となる情報学（データ・プログラム・計算機ハードウェア・ソフトウェアなど）、電子情報（信号処理など）、数理情報等の分野から基礎知識を問う問題を出題する。\n口述試験：専門の研究内容と志望動機に関する口頭試問。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n筆記試験2026年9月9日、口述試験9月10日。\n必ず出願期間の開始前までに領域事務室を通して指導希望教員に連絡すること。事前連絡・相談に対応した教員名（1名）を「事前連絡教員」欄に入力すること。\nただし、本学理工学部卒業（見込み）者で筆記試験免除の認定を受けた者、および本学理工学部卒業（見込み）の筆記試験受験者で卒業研究担当教員と同じ指導教員を志望する者は、事前連絡および「事前連絡教員」欄の入力を不要とする。\n出願時にいずれかの領域を選択して専門とする分野を定める。入学後の領域の変更は認められない。第1希望の指導教員の入力は必須、第2・第3希望は任意。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。\n筆記試験9:30～12:00、口述試験10:00～。出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "正式所属为理工学専攻／情報学領域，不是同名独立专攻。笔试是7科选1并在报名时锁定；本页摘录机械、电气电子、信息学三个题群原文，其余四题群及完整表见实际PDF第4页。要项未规定须选择与志望领域同名的试卷，不强行绑定。未公布更细章节或统一外语最低分。该轮报名与考试已结束，保留其2027年4月适用要求。",
+      "sources": [
+        {
+          "label": "一般入試：7科選1・各題群範囲・口述（実際PDF第4頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "修士日程・9領域・事前連絡・9月学内免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "N2・外国語スコア提出と免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "出願時に領域・選択科目・指導教員を登録",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "外部語学スコアの有効期間・TOEFL提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "TOEFL Home Edition／MyBest・TOEIC IP・IELTS・TEAP",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "情報学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "信息学",
+        "信息工程",
+        "计算机",
+        "情報工学",
+        "Information Science",
+        "Computer Science"
+      ],
+      "id": "sophia-st-information-september-working",
+      "selectionName": "社会人入試（博士前期課程）— 9月入試（2026年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n研究計画書（A4判2枚以内）\n外国語検定試験の成績（提出免除認定者を除く）",
+      "scopeOriginal": "実務経験に関する口頭発表と関連事項・基礎的事項に関する口頭試問。\n領域によっては、口述試験の予備試問を行うことがある。希望する領域の連絡先に確認すること。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n口述試験2026年9月10日、10:00～。\n大学卒業、またはそれと同等以上の学力があり、社会における実務経験が入学時点で1年以上ある者。必ず出願期間の開始1ヶ月前までに領域事務室を通して指導希望教員に連絡すること。\n外国語検定試験の成績提出免除希望者は事前連絡の際に相談し、免除の認定を受けること。\n社会人入試が不許可の場合は一般入試枠の受験となる。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。",
+      "editorialNote": "社会人枠は実務経験の発表と関連・基礎事項の口頭試問。普通笔试不适用于获准的社会人枠；领域可能有预备试问。入学时须有1年以上实务经验，事前联系比普通一般入试更早；英语免交不是自动免除。该轮报名与考试已结束，保留其2027年4月适用要求。",
+      "sources": [
+        {
+          "label": "社会人入試：口頭発表・予備試問・研究計画・外国語免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "社会人適用基準：実務経験1年以上・事前連絡",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士・社会人試験日と領域",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "語学スコア有効期間",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "許可される語学試験方式",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "情報学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "信息学",
+        "信息工程",
+        "计算机",
+        "情報工学",
+        "Information Science",
+        "Computer Science"
+      ],
+      "id": "sophia-st-information-september-waiver",
+      "selectionName": "一般入試（博士前期課程）— 9月入試・学内進学者免除認定者",
+      "subjectsOriginal": "口述試験（学内進学者免除認定者）",
+      "scopeOriginal": "専門の研究内容と志望動機に関する口頭試問。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n9月入試については本学理工学部卒業（見込）者に対する筆記試験免除制度があり、希望する領域の筆記試験免除の認定を受けた場合には、外国語検定試験の成績提出も免除となる。\n「学内進学者免除」を選択すること。不許可となった場合を想定して、必要事項は全て選択・記入すること。\n本学理工学部卒業（見込み）者で筆記試験免除の認定を受けた者は事前連絡不要。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n口述試験2026年9月10日、10:00～。",
+      "editorialNote": "仅适用于上智本校理工学部毕业（预定）且获得认定者，9月限定；不是海外大学毕业者的免笔试入口。不加入海外学历一般入口标记，2月不复制本制度。该轮报名与考试已结束。",
+      "sources": [
+        {
+          "label": "9月本学理工学部筆記免除・外国語成績免除・事前連絡例外",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "学内進学者免除の科目・申請と不許可時の取扱い",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "免除後も残る口述試験",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "外国人志願者N2と免除条件",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "情報学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "信息学",
+        "信息工程",
+        "计算机",
+        "情報工学",
+        "Information Science",
+        "Computer Science"
+      ],
+      "id": "sophia-st-information-february-general",
+      "selectionName": "一般入試（博士前期課程）— 2月入試（2027年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆記試験：理工基礎（選択科目）\n口述試験\n外国語検定試験：TOEFL®、TOEIC®、IELTS、TEAPのいずれか",
+      "scopeOriginal": "以下の7科目から1科目を出願時に選択：機械工学基礎、電気・電子工学基礎、化学基礎、数学基礎、物理学基礎、生物科学基礎、情報学基礎。\n機械工学基礎：機械工学に必要な分野（数学、力学、材料力学、機械力学、熱工学、流体工学、精密工学、制御工学、材料科学など）から基礎的な問題を出題する。\n電気・電子工学基礎：電気・電子工学に必要な数学、及び各専門分野（電磁気学、電気回路、電子回路など）の基礎から出題する。\n情報学基礎：人間情報・コミュニケーション情報・社会情報の基礎となる情報学（データ・プログラム・計算機ハードウェア・ソフトウェアなど）、電子情報（信号処理など）、数理情報等の分野から基礎知識を問う問題を出題する。\n口述試験：専門の研究内容と志望動機に関する口頭試問。",
+      "conditionsOriginal": "2月入試（2027年4月入学）：国内出願のみ。\n国内出願（出願時に日本国内に居住している者 ※在留資格「短期滞在」の者を除く）。\nWeb出願期間：2026年11月27日（金）～12月9日（水）。出願書類提出期限：12月10日（木）消印有効。筆記試験2027年2月16日、口述試験2月17日。\n必ず出願期間の開始前までに領域事務室を通して指導希望教員に連絡すること。事前連絡・相談に対応した教員名（1名）を「事前連絡教員」欄に入力すること。\nただし、本学理工学部卒業（見込み）者で筆記試験免除の認定を受けた者、および本学理工学部卒業（見込み）の筆記試験受験者で卒業研究担当教員と同じ指導教員を志望する者は、事前連絡および「事前連絡教員」欄の入力を不要とする。\n出願時にいずれかの領域を選択して専門とする分野を定める。入学後の領域の変更は認められない。第1希望の指導教員の入力は必須、第2・第3希望は任意。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。\n筆記試験9:30～12:00、口述試験10:00～。出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "正式所属为理工学専攻／情報学領域，不是同名独立专攻。笔试是7科选1并在报名时锁定；本页摘录机械、电气电子、信息学三个题群原文，其余四题群及完整表见实际PDF第4页。要项未规定须选择与志望领域同名的试卷，不强行绑定。未公布更细章节或统一外语最低分。2月仅国内出愿；外国籍申请者须在日本居住且非短期滞在，不是在海外直接报名的入口。",
+      "sources": [
+        {
+          "label": "一般入試：7科選1・各題群範囲・口述（実際PDF第4頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "修士日程・9領域・事前連絡・9月学内免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "N2・外国語スコア提出と免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "出願時に領域・選択科目・指導教員を登録",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "外部語学スコアの有効期間・TOEFL提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "TOEFL Home Edition／MyBest・TOEIC IP・IELTS・TEAP",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "情報学領域",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "信息学",
+        "信息工程",
+        "计算机",
+        "情報工学",
+        "Information Science",
+        "Computer Science"
+      ],
+      "id": "sophia-st-information-february-working",
+      "selectionName": "社会人入試（博士前期課程）— 2月入試（2027年実施）",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n研究計画書（A4判2枚以内）\n外国語検定試験の成績（提出免除認定者を除く）",
+      "scopeOriginal": "実務経験に関する口頭発表と関連事項・基礎的事項に関する口頭試問。\n領域によっては、口述試験の予備試問を行うことがある。希望する領域の連絡先に確認すること。",
+      "conditionsOriginal": "2月入試（2027年4月入学）：国内出願のみ。\n国内出願（出願時に日本国内に居住している者 ※在留資格「短期滞在」の者を除く）。\nWeb出願期間：2026年11月27日（金）～12月9日（水）。出願書類提出期限：12月10日（木）消印有効。口述試験2月17日。口述試験10:00～。\n大学卒業、またはそれと同等以上の学力があり、社会における実務経験が入学時点で1年以上ある者。必ず出願期間の開始1ヶ月前までに領域事務室を通して指導希望教員に連絡すること。\n外国語検定試験の成績提出免除希望者は事前連絡の際に相談し、免除の認定を受けること。\n社会人入試が不許可の場合は一般入試枠の受験となる。\n外国人志願者：日本語能力検定試験（N2以上合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。日本の大学で主に日本語による授業を受けて学位を取得した（取得見込の）者は、日本語能力を証明する書類の提出を免除する。\n外国語検定試験（TOEFL®、TOEIC®、IELTS、TEAPのいずれか）の成績。TOEIC®はL&Rが必須。\n各入試の出願開始日より遡って2年以内に受験し、出願締切日までに試験結果の出ているもの。\nTOEFL®：Test Dateスコアのみ有効です（MyBestスコアは利用できません）。iBT（Home Editionを含む）のみ有効とし、ITPは認めません。\nTOEIC®：IP（Institutional Program）テスト除く。IELTS：Academic Moduleのみ有効。TEAPは4技能が必須。",
+      "editorialNote": "社会人枠は実務経験の発表と関連・基礎事項の口頭試問。普通笔试不适用于获准的社会人枠；领域可能有预备试问。入学时须有1年以上实务经验，事前联系比普通一般入试更早；英语免交不是自动免除。2月仅国内出愿；外国籍申请者须在日本居住且非短期滞在，不是在海外直接报名的入口。",
+      "sources": [
+        {
+          "label": "社会人入試：口頭発表・予備試問・研究計画・外国語免除",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "社会人適用基準：実務経験1年以上・事前連絡",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士・社会人試験日と領域",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/9_rikougakukenkyuuka_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "語学スコア有効期間",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "許可される語学試験方式",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "応用データサイエンス学位プログラム",
+      "department": "応用データサイエンス学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "应用数据科学",
+        "应用数据科学学位项目",
+        "应用数据科学学位课程",
+        "Applied Data Science",
+        "Data Science",
+        "データサイエンス"
+      ],
+      "id": "sophia-applied-ds-september-general",
+      "selectionName": "一般入試（修士課程）— 9月入試（2026年実施）",
+      "subjectsOriginal": "筆記試験：専門科目\n口述試験\n研究計画書",
+      "scopeOriginal": "社会科学や数学・情報科学分野等の基礎的問題から指定の問題数を選択して解答する。\n※問題は試験中に選択",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n試験2026年9月12日（土）。\n外国人志願者：日本語能力検定試験（N1合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。\n日本の大学（または大学院）で主に日本語による授業を受けて学位を取得した（取得見込）の者は、日本語能力を証明する書類の提出を免除する。\n研究計画書（所定フォーム）：「1．大学や社会でデータサイエンスを学んだ・学ぼうとした経緯」「2．今後取り組みたいデータサイエンスの研究課題」。合計1,000字程度。参考文献5点程度は1,000字に含めない。\n筆記試験9:30～11:30。筆記試験受験者は筆記試験終了後の13:00から口述試験。\n9月入試のみ筆記試験免除制度あり。\n出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "独立的修士学位项目，不虚构所属研究科或专攻；页面将官方项目名同时用作研究科相当层级和项目入口。题目在考试中选答，要项没有公布具体题数及更细章节，不推测。提交清单未列外部英语考试，不移用理工学英语条件。该轮报名与考试已结束。",
+      "sources": [
+        {
+          "label": "一般入試：当日選答・口述時刻・9月免除限定",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "修士日程・研究計画・併願条件",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "外国人N1・9月筆記免除資格",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年度入試要項公式案内",
+          "url": "https://ds.sophia.ac.jp/news/20260508/post-1290",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "応用データサイエンス学位プログラム",
+      "department": "応用データサイエンス学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "应用数据科学",
+        "应用数据科学学位项目",
+        "应用数据科学学位课程",
+        "Applied Data Science",
+        "Data Science",
+        "データサイエンス"
+      ],
+      "id": "sophia-applied-ds-september-working",
+      "selectionName": "社会人入試（修士課程）— 9月入試（2026年実施）",
+      "subjectsOriginal": "口述試験\n研究計画書\n社会人入試申請書・書類審査用の必要書類",
+      "scopeOriginal": "口述試験：9:30開始（出願者数によっては、午後まで要する場合があります。）",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n試験2026年9月12日（土）。\n外国人志願者：日本語能力検定試験（N1合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。\n日本の大学（または大学院）で主に日本語による授業を受けて学位を取得した（取得見込）の者は、日本語能力を証明する書類の提出を免除する。\n研究計画書（所定フォーム）：「1．大学や社会でデータサイエンスを学んだ・学ぼうとした経緯」「2．今後取り組みたいデータサイエンスの研究課題」。合計1,000字程度。参考文献5点程度は1,000字に含めない。\n学部卒業後、現職や前職もしくは将来の職業において、データサイエンスを活用した業務に携わる者もしくは携わる意欲のある者。出願資格を有する者は就業経験がない者であっても、社会人入試に出願することが可能。\n出願時に学部に在籍している者は除く。就業経験がなく、出願時に学部卒業後2年未満で、修士課程もしくは博士前期課程に在籍していない者は除く。ただし、4月から正規雇用が決まっており、働きながら学ぼうとする者は除く。\n申請要件①から④のいずれかを満たすこと。申請要件により提出物が異なる。社会人入試申請書は必須。\n出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "获准社会人枠仅口述，不复制普通笔试。资格与理工学的“1年以上实务经验”不同，允许符合条件的无就业经验者；须同时满足项目申请要件①～④之一。要项第5页概述与第6页详细条件的措辞略有差异，均附原页，尤其已获4月正式雇佣者例外应向招生方确认。未公布统一专业口述范围，不自行补写。该轮报名与考试已结束。",
+      "sources": [
+        {
+          "label": "社会人入試：口述のみ・必要書類",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "社会人適用条件・研究計画",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "社会人申請要件①～④・除外と雇用予定者の例外",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士各期試験日",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "応用データサイエンス学位プログラム",
+      "department": "応用データサイエンス学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "应用数据科学",
+        "应用数据科学学位项目",
+        "应用数据科学学位课程",
+        "Applied Data Science",
+        "Data Science",
+        "データサイエンス"
+      ],
+      "id": "sophia-applied-ds-september-waiver",
+      "selectionName": "一般入試（修士課程）— 9月入試・筆記試験免除認定者",
+      "subjectsOriginal": "口述試験（筆記試験免除認定者）\n研究計画書",
+      "scopeOriginal": "筆記試験免除者は、9:30開始。",
+      "conditionsOriginal": "9月入試（2027年4月入学）：国内出願／国外出願。\nWeb出願期間：2026年6月26日（金）～7月8日（水）。出願書類提出期限：7月9日（木）消印有効。\n試験2026年9月12日（土）。\n外国人志願者：日本語能力検定試験（N1合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。\n日本の大学（または大学院）で主に日本語による授業を受けて学位を取得した（取得見込）の者は、日本語能力を証明する書類の提出を免除する。\n研究計画書（所定フォーム）：「1．大学や社会でデータサイエンスを学んだ・学ぼうとした経緯」「2．今後取り組みたいデータサイエンスの研究課題」。合計1,000字程度。参考文献5点程度は1,000字に含めない。\n9月入試のみ。以下の①、②のいずれかを満たし、データサイエンスに携わる意欲のある者を対象とする。\n①学部における成績・単位修得状況が優秀であり、データサイエンスに係る一定以上の科目履修経験のある者。\n②データサイエンスに係るインターン等の経験、研究業績、資格取得のある者。\n免除申請者の筆記試験受験科目：なし。Web出願システムの「免除申請」欄で「その他試験免除」を選択すること。不許可の場合は筆記試験を受験する。",
+      "editorialNote": "9月限定的申请认定制度，未限制为上智本校理工学部毕业者；不与理工学学内免除混淆。按成绩／课程或实习／研究／资格经历提交指定材料，只有获准后免笔试；仍须研究计划及9:30口述。该轮报名与考试已结束。",
+      "sources": [
+        {
+          "label": "一般入試：当日選答・口述時刻・9月免除限定",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "修士日程・研究計画・併願条件",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "外国人N1・9月筆記免除資格",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年度入試要項公式案内",
+          "url": "https://ds.sophia.ac.jp/news/20260508/post-1290",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "応用データサイエンス学位プログラム",
+      "department": "応用データサイエンス学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "应用数据科学",
+        "应用数据科学学位项目",
+        "应用数据科学学位课程",
+        "Applied Data Science",
+        "Data Science",
+        "データサイエンス"
+      ],
+      "id": "sophia-applied-ds-february-general",
+      "selectionName": "一般入試（修士課程）— 2月入試（2027年実施）",
+      "subjectsOriginal": "筆記試験：専門科目\n口述試験\n研究計画書",
+      "scopeOriginal": "社会科学や数学・情報科学分野等の基礎的問題から指定の問題数を選択して解答する。\n※問題は試験中に選択",
+      "conditionsOriginal": "2月入試（2027年4月入学）：国内出願のみ。\n国内出願（出願時に日本国内に居住している者 ※在留資格「短期滞在」の者を除く）。\nWeb出願期間：2026年11月27日（金）～2027年1月7日（木）。出願書類提出期限：2027年1月8日（金）消印有効。試験2027年2月20日（土）。\n外国人志願者：日本語能力検定試験（N1合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。\n日本の大学（または大学院）で主に日本語による授業を受けて学位を取得した（取得見込）の者は、日本語能力を証明する書類の提出を免除する。\n研究計画書（所定フォーム）：「1．大学や社会でデータサイエンスを学んだ・学ぼうとした経緯」「2．今後取り組みたいデータサイエンスの研究課題」。合計1,000字程度。参考文献5点程度は1,000字に含めない。\n筆記試験9:30～11:30。筆記試験受験者は筆記試験終了後の13:00から口述試験。\n一般入試での筆記試験免除制度はありません。\n出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "独立的修士学位项目，不虚构所属研究科或专攻；页面将官方项目名同时用作研究科相当层级和项目入口。题目在考试中选答，要项没有公布具体题数及更细章节，不推测。提交清单未列外部英语考试，不移用理工学英语条件。2027年度新增2月一般入试；仅国内出愿，外国籍申请者须在日本居住且非短期滞在。2月一般入试没有笔试免除制度，不复制9月免除。",
+      "sources": [
+        {
+          "label": "一般入試：当日選答・口述時刻・9月免除限定",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "修士日程・研究計画・併願条件",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "外国人N1・9月筆記免除資格",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年度入試要項公式案内",
+          "url": "https://ds.sophia.ac.jp/news/20260508/post-1290",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "sophia",
+      "graduateSchool": "応用データサイエンス学位プログラム",
+      "department": "応用データサイエンス学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "应用数据科学",
+        "应用数据科学学位项目",
+        "应用数据科学学位课程",
+        "Applied Data Science",
+        "Data Science",
+        "データサイエンス"
+      ],
+      "id": "sophia-applied-ds-february-working",
+      "selectionName": "社会人入試（修士課程）— 2月入試（2027年実施）",
+      "subjectsOriginal": "口述試験\n研究計画書\n社会人入試申請書・書類審査用の必要書類",
+      "scopeOriginal": "口述試験：9:30開始（出願者数によっては、午後まで要する場合があります。）",
+      "conditionsOriginal": "2月入試（2027年4月入学）：国内出願のみ。\n国内出願（出願時に日本国内に居住している者 ※在留資格「短期滞在」の者を除く）。\nWeb出願期間：2026年11月27日（金）～2027年1月7日（木）。出願書類提出期限：2027年1月8日（金）消印有効。試験2027年2月20日（土）。\n外国人志願者：日本語能力検定試験（N1合格）の証明書。出願期間より遡って2年以内に受験し、出願締切日までに結果の出ている試験結果のみ有効とする。\n日本の大学（または大学院）で主に日本語による授業を受けて学位を取得した（取得見込）の者は、日本語能力を証明する書類の提出を免除する。\n研究計画書（所定フォーム）：「1．大学や社会でデータサイエンスを学んだ・学ぼうとした経緯」「2．今後取り組みたいデータサイエンスの研究課題」。合計1,000字程度。参考文献5点程度は1,000字に含めない。\n学部卒業後、現職や前職もしくは将来の職業において、データサイエンスを活用した業務に携わる者もしくは携わる意欲のある者。出願資格を有する者は就業経験がない者であっても、社会人入試に出願することが可能。\n出願時に学部に在籍している者は除く。就業経験がなく、出願時に学部卒業後2年未満で、修士課程もしくは博士前期課程に在籍していない者は除く。ただし、4月から正規雇用が決まっており、働きながら学ぼうとする者は除く。\n申請要件①から④のいずれかを満たすこと。申請要件により提出物が異なる。社会人入試申請書は必須。\n出願書類の作成において、ChatGPTなどの生成AIを用いてはいけません。",
+      "editorialNote": "获准社会人枠仅口述，不复制普通笔试。资格与理工学的“1年以上实务经验”不同，允许符合条件的无就业经验者；须同时满足项目申请要件①～④之一。要项第5页概述与第6页详细条件的措辞略有差异，均附原页，尤其已获4月正式雇佣者例外应向招生方确认。未公布统一专业口述范围，不自行补写。2月仅国内出愿，不是在海外直接报名的入口。",
+      "sources": [
+        {
+          "label": "社会人入試：口述のみ・必要書類",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "社会人適用条件・研究計画",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "社会人申請要件①～④・除外と雇用予定者の例外",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士各期試験日",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/11_ouyoudsprogram_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2027年4月入学：日程と国内／国外出願（実際PDF第6頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士出願資格：外国16年課程・学士等（実際PDF第7頁）",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "中国等の海外大学出身者の学歴認証提出",
+          "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/0_kyotsu_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027年度大学院入試：国籍にかかわらず一般入試等に出願",
+          "url": "https://adm.sophia.ac.jp/jpn/in_ad/innyushi/",
+          "kind": "page"
+        }
       ]
     }
   ]
