@@ -84,6 +84,20 @@
         "北海道大",
         "Hokkaido University"
       ]
+    },
+    {
+      "id": "keio",
+      "name": "慶應義塾大学",
+      "aliases": [
+        "庆应",
+        "慶應",
+        "庆应义塾大学",
+        "慶応",
+        "慶応義塾大学",
+        "慶大",
+        "Keio",
+        "Keio University"
+      ]
     }
   ],
   "catalog": {
@@ -110,7 +124,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学与北海道大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学与慶應義塾大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -194,6 +208,17 @@
         "情報科学院"
       ],
       "note": "北海道大学：首批工学院与情報科学院，7个正式专攻、情報科学専攻5课程，共28条入口：一般15条、外国人特别／e3英语项目13条，其中材料科学第二次募集1条待公布。适用2027年4月，保留官方日语／英语科目、选答条件及PDF实际页。工学院收录应用物理、材料、机械宇宙、人间机械、能源系统与量子工程；信息涵盖信息理工、电子、生体信息、媒体网络和系统信息。按用户偏好不收录医学、化学、土木建筑、纯数学、纯物理、环境学等方向；应用物理与量子工程属于工程培养，能源环境系统按机械／核能工程研究室群保留。材料考试中的化学科目仍保留。一般／口述替代、英语外国人入试与e3分别保存；机械网页旧关键词不冒作当年考纲。"
+    },
+    "keio": {
+      "verifiedAt": "2026-10-09",
+      "degree": "修士",
+      "graduateSchools": [
+        "理工学研究科",
+        "システムデザイン・マネジメント研究科",
+        "政策・メディア研究科",
+        "メディアデザイン研究科"
+      ],
+      "note": "慶應義塾大学：按2026年改组后的正式名称收录理工学3个保留专攻的6个工程／信息教育研究分野，以及SDM研究型一般入试、SFC的CI项目国内／海外出愿、KMD第Ⅱ期一般入试；共4研究科、6正式专攻、47条2027年4月／9月入学资料，一般29条、IGP英语项目18条。核对日期2026-10-09。理工学6月、8月、飞び級与IGP各期分别保存；IGP分野用于定位教员，不另造课程学籍。按后续学校偏好跳过医学、化学、药学、纯数学、纯物理及独立土木建筑、环境、社会学、教育、人文等方向；系统工程共通试卷中的建筑／环境选答科目保留原表。SFC仅CI，SDM仅リサーチインテンシブ一般入试，KMD仅当前第Ⅱ期一般入试，不代表覆盖全校或全部选拔。此前九校资料保持原样。"
     }
   },
   "records": [
@@ -28579,6 +28604,2759 @@
       "scopeOriginal": "システム情報科学コースの専門試験の各科目は、つぎのようなキーワードで代表されますので、参考にして下さい。\n１．専門科目１（2問選択）\n応用数学Ⅰ\n(1)線形代数、(2)ベクトル解析\n応用数学Ⅱ\n(1)常微分方程式、(2)ラプラス変換、(3)フーリエ級数とフーリエ変換\n情報学基礎\n(1)集合・写像、(2)数え挙げ、(3)グラフ理論、(4)論理\n２．専門科目２（２問選択）\n力学\n(1)運動の記述、(2)ニュートンの運動方程式、(3)仕事とエネルギー、(4)運動量と力積、(5)振動、(6)剛体の運動、(7)解析力学\n参考図書：\n阿部龍蔵、「岩波基礎物理シリーズ　力学・解析力学」、岩波書店\n電気回路\n(1) 直流回路\n(2) 交流回路(ひずみ波交流，三相交流を除く)\n(3) 回路の諸定理(重ね合せの理、テブナン・ノートン等価回路、相反定理、Δ-Ｙ変換、ブリッジ回路、整合)\n(4) 2端子対回路(Y行列とZ行列、H行列、F行列)\n(5) 過渡解析（微分方程式を解く一般的解法、ラプラス変換による計算法）\n参考図書：\n小澤孝夫、「電気回路を理解する」、昭晃堂\n電磁気学\n一様媒質中の電磁気学を範囲とします．\n(1) 静電界(電界、電束密度、電位、クーロンの法則、ガウスの法則、電界のエネルギー)\n(2) 静磁界(磁界、磁束密度、ベクトルポテンシャル、ビオ・サバールの法則、アンペールの法則、磁界のエネルギー)\n(3) 電磁力(クーロン力、ローレンツ力、仮想仕事の原理)、電磁誘導(インダクタンス、ファラデーの法則)\n(4) 電磁波(マクスウェルの方程式)\n参考図書：\n松原、坂口、山田、「工科系の電磁気学」、コロナ社、1章～3章、8.1～8.3節\n線形制御理論\n(1) 線形システムの表現 (伝達関数表現、 状態変数表現、システム変換、線形系の解、可制御・可観測性、正準形)\n(2) 安定判別 (安定条件、ラウス・フルビッツの判定法、リアプノフ関数)\n(3) 周波数応答 (正弦波入力に対する定常応答、ボード線図、安定余裕、ナイキスト線図)\n(4) フィードバック制御 (フィードバック変換、極配置、定常偏差、サーボ系、 最適レギュレータ、 オブザーバ)\n離散時間系、時間遅れ要素を含む系は出題範囲外とします。",
       "conditionsOriginal": "専門科目１：３問のうち２問\n専門科目２：４問のうち２問",
       "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。特别入试需受入教员推荐，不公开公募；仍有专业笔答与口头。外国籍者可选日语笔答，具B2相当以上日语证明者可能免该笔答，英语选择则用外部成绩。所选题目须事前照会，不按一般现场自由选题。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "keio-st-physico-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理情報工学",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-physico-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：電気・電子回路、電磁気学・量子力学、物理情報数学\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理情報工学",
+      "scopeOriginal": "電気・電子回路、電磁気学・量子力学、物理情報数学に関する学力ならびに論理的思考力を調査する論述問題。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
+      "conditionsOriginal": "全問解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-physico-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理情報工学",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+    },
+    {
+      "id": "keio-st-physico-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Applied Physics and Physico-Informatics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理情報工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-physico-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Applied Physics and Physico-Informatics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理情報工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-physico-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Applied Physics and Physico-Informatics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理情報工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-mechanical-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：機械工学",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-mechanical-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：機械力学・材料力学、熱力学・流体力学、卒業研究に関する論述問題\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：機械工学",
+      "scopeOriginal": "機械力学・材料力学分野および熱力学・流体力学分野の基礎学力。卒業研究の内容ならびに関連する学術分野に関する論述問題。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
+      "conditionsOriginal": "機械力学・材料力学分野または熱力学・流体力学分野のいずれか一方を選択して解答。さらに卒業研究に関する論述問題。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-mechanical-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：機械工学",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+    },
+    {
+      "id": "keio-st-mechanical-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mechanical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：機械工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-mechanical-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mechanical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：機械工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-mechanical-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mechanical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：機械工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-electrical-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：電気情報工学",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-electrical-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：電気回路、情報工学、物性工学、数学\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：電気情報工学",
+      "scopeOriginal": "物性工学には量子力学の基礎を含む。電気回路、情報工学、物性工学、数学から各1問。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
+      "conditionsOriginal": "各1問、全問解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-electrical-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：電気情報工学",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+    },
+    {
+      "id": "keio-st-electrical-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：電気情報工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-electrical-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：電気情報工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-electrical-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：電気情報工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-system-design-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：システムデザイン工学",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-system-design-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：材料力学・構造力学、熱・環境工学、電気回路、電磁気工学、建築計画、卒業研究に関する論述問題\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：システムデザイン工学",
+      "scopeOriginal": "各分野の基礎学力を問う記述問題。卒業研究に関連する学力ならびに論理的思考力を問う論述問題。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
+      "conditionsOriginal": "計5問から2問を選択して解答。さらに卒業研究に関する論述問題。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-system-design-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：システムデザイン工学",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+    },
+    {
+      "id": "keio-st-system-design-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of System Design Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：システムデザイン工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-system-design-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of System Design Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：システムデザイン工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-system-design-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "総合デザイン工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of System Design Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：システムデザイン工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-open-sciences-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：オープンサイエンス",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-open-sciences-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：これまでの専門分野・領域における経験、入学後の学修・研究の展望\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：オープンサイエンス",
+      "scopeOriginal": "これまでの専門分野・領域における経験、および入学後の学修・研究の展望に関する記述問題。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
+      "conditionsOriginal": "問題は英語で出題される場合がある。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-open-sciences-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：オープンサイエンス",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+    },
+    {
+      "id": "keio-st-open-sciences-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Open Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：オープンサイエンス",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-open-sciences-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Open Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：オープンサイエンス",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-open-sciences-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Open Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：オープンサイエンス",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-industrial-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：管理工学",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-industrial-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：数学、統計、オペレーションズ・リサーチ、経営、経済、情報、人間工学、インダストリアル・エンジニアリング\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：管理工学",
+      "scopeOriginal": "数学：線形代数・微積分・確率・凸解析の基礎など、管理工学に必要な数学分野。選択問題：統計、オペレーションズ・リサーチ、経営、経済、情報、人間工学、インダストリアル・エンジニアリング。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
+      "conditionsOriginal": "数学から解答必須の問題2問。7分野から各1問を出題する選択問題より3問を選択し、合計5問を解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-industrial-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：管理工学",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+    },
+    {
+      "id": "keio-st-industrial-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Industrial and Systems Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：管理工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-industrial-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Industrial and Systems Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：管理工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-st-industrial-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "人間・社会システム情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Industrial and Systems Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：管理工学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+    },
+    {
+      "id": "keio-sdm-general-i-4",
+      "universityId": "keio",
+      "graduateSchool": "システムデザイン・マネジメント研究科",
+      "department": "システムデザイン・マネジメント専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試（2026年度実施 I期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "1次選考：書類審査\n2次選考：小論文試験・口頭試問",
+      "editorialNote": "系统工程与系统设计的跨学科修士入口。本批录入研究型课程一般入试，未扩展为社会人或学习型课程。修士二次选拔同时有小论文与口头试问；N1为推荐条件，不写成报名硬门槛。",
+      "sources": [
+        {
+          "label": "修士課程：小論文・口頭試問・言語条件（実際PDF第11頁）",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士専攻・コース・一般入試と入学時期",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "修士出願資格・入学時期と授業言語",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2026年度 I・II・III期日程と事前コンタクト",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "SDM 公式入学試験案内",
+          "url": "https://www.sdm.keio.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "course": "リサーチインテンシブコース",
+      "scopeOriginal": "システム、デザイン、マネジメントへの理解を中心として、論理的かつ俯瞰的思考力をみる。",
+      "conditionsOriginal": "一般入試は学部新卒者・卒業者および実務経験3年未満の社会人を対象。出願にあたり、原則として教員への事前コンタクトが必須。2次選考：2026年6月21日。\n4月入学は日本語による受験が原則。日本語を母語としない者は日本語能力試験の結果を提出し、N1合格を推奨。日本語のみで学位取得する課程の修了・修了予定者は提出不要。小論文・口頭試問でも語学能力を確認する。日本国外に居住する者はオンライン（Zoom等）で小論文試験・口頭試問を受験できる。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-sdm-general-ii-4",
+      "universityId": "keio",
+      "graduateSchool": "システムデザイン・マネジメント研究科",
+      "department": "システムデザイン・マネジメント専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試（2026年度実施 II期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "1次選考：書類審査\n2次選考：小論文試験・口頭試問",
+      "editorialNote": "系统工程与系统设计的跨学科修士入口。本批录入研究型课程一般入试，未扩展为社会人或学习型课程。修士二次选拔同时有小论文与口头试问；N1为推荐条件，不写成报名硬门槛。",
+      "sources": [
+        {
+          "label": "修士課程：小論文・口頭試問・言語条件（実際PDF第11頁）",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士専攻・コース・一般入試と入学時期",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "修士出願資格・入学時期と授業言語",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2026年度 I・II・III期日程と事前コンタクト",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "SDM 公式入学試験案内",
+          "url": "https://www.sdm.keio.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "course": "リサーチインテンシブコース",
+      "scopeOriginal": "システム、デザイン、マネジメントへの理解を中心として、論理的かつ俯瞰的思考力をみる。",
+      "conditionsOriginal": "一般入試は学部新卒者・卒業者および実務経験3年未満の社会人を対象。出願にあたり、原則として教員への事前コンタクトが必須。2次選考：2026年10月25日。\n4月入学は日本語による受験が原則。日本語を母語としない者は日本語能力試験の結果を提出し、N1合格を推奨。日本語のみで学位取得する課程の修了・修了予定者は提出不要。小論文・口頭試問でも語学能力を確認する。日本国外に居住する者はオンライン（Zoom等）で小論文試験・口頭試問を受験できる。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-sdm-general-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "システムデザイン・マネジメント研究科",
+      "department": "システムデザイン・マネジメント専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試（2026年度実施 II期）",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "1次選考：書類審査\n2次選考：小論文試験・口頭試問",
+      "editorialNote": "系统工程与系统设计的跨学科修士入口。本批录入研究型课程一般入试，未扩展为社会人或学习型课程。修士二次选拔同时有小论文与口头试问；N1为推荐条件，不写成报名硬门槛。",
+      "sources": [
+        {
+          "label": "修士課程：小論文・口頭試問・言語条件（実際PDF第11頁）",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士専攻・コース・一般入試と入学時期",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "修士出願資格・入学時期と授業言語",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2026年度 I・II・III期日程と事前コンタクト",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "SDM 公式入学試験案内",
+          "url": "https://www.sdm.keio.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "course": "リサーチインテンシブコース",
+      "scopeOriginal": "システム、デザイン、マネジメントへの理解を中心として、論理的かつ俯瞰的思考力をみる。",
+      "conditionsOriginal": "一般入試は学部新卒者・卒業者および実務経験3年未満の社会人を対象。出願にあたり、原則として教員への事前コンタクトが必須。2次選考：2026年10月25日。\n9月入学は英語による受験が原則。英語を母語としない者はTOEFL、IELTS等の結果を提出。英語のみで学位取得する課程の修了・修了予定者は提出不要。小論文・口頭試問でも語学能力を確認する。日本国外に居住する者はオンライン（Zoom等）で小論文試験・口頭試問を受験できる。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-sdm-general-iii-4",
+      "universityId": "keio",
+      "graduateSchool": "システムデザイン・マネジメント研究科",
+      "department": "システムデザイン・マネジメント専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試（2026年度実施 III期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "1次選考：書類審査\n2次選考：小論文試験・口頭試問",
+      "editorialNote": "系统工程与系统设计的跨学科修士入口。本批录入研究型课程一般入试，未扩展为社会人或学习型课程。修士二次选拔同时有小论文与口头试问；N1为推荐条件，不写成报名硬门槛。",
+      "sources": [
+        {
+          "label": "修士課程：小論文・口頭試問・言語条件（実際PDF第11頁）",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士専攻・コース・一般入試と入学時期",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "修士出願資格・入学時期と授業言語",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2026年度 I・II・III期日程と事前コンタクト",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "SDM 公式入学試験案内",
+          "url": "https://www.sdm.keio.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "course": "リサーチインテンシブコース",
+      "scopeOriginal": "システム、デザイン、マネジメントへの理解を中心として、論理的かつ俯瞰的思考力をみる。",
+      "conditionsOriginal": "一般入試は学部新卒者・卒業者および実務経験3年未満の社会人を対象。出願にあたり、原則として教員への事前コンタクトが必須。2次選考：2027年2月6日。\n4月入学は日本語による受験が原則。日本語を母語としない者は日本語能力試験の結果を提出し、N1合格を推奨。日本語のみで学位取得する課程の修了・修了予定者は提出不要。小論文・口頭試問でも語学能力を確認する。日本国外に居住する者はオンライン（Zoom等）で小論文試験・口頭試問を受験できる。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-sdm-general-iii-9",
+      "universityId": "keio",
+      "graduateSchool": "システムデザイン・マネジメント研究科",
+      "department": "システムデザイン・マネジメント専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入試（2026年度実施 III期）",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "1次選考：書類審査\n2次選考：小論文試験・口頭試問",
+      "editorialNote": "系统工程与系统设计的跨学科修士入口。本批录入研究型课程一般入试，未扩展为社会人或学习型课程。修士二次选拔同时有小论文与口头试问；N1为推荐条件，不写成报名硬门槛。",
+      "sources": [
+        {
+          "label": "修士課程：小論文・口頭試問・言語条件（実際PDF第11頁）",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士専攻・コース・一般入試と入学時期",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "修士出願資格・入学時期と授業言語",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2026年度 I・II・III期日程と事前コンタクト",
+          "url": "https://www.sdm.keio.ac.jp/admission/guideline.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "SDM 公式入学試験案内",
+          "url": "https://www.sdm.keio.ac.jp/admission/",
+          "kind": "page"
+        }
+      ],
+      "course": "リサーチインテンシブコース",
+      "scopeOriginal": "システム、デザイン、マネジメントへの理解を中心として、論理的かつ俯瞰的思考力をみる。",
+      "conditionsOriginal": "一般入試は学部新卒者・卒業者および実務経験3年未満の社会人を対象。出願にあたり、原則として教員への事前コンタクトが必須。2次選考：2027年2月6日。\n9月入学は英語による受験が原則。英語を母語としない者はTOEFL、IELTS等の結果を提出。英語のみで学位取得する課程の修了・修了予定者は提出不要。小論文・口頭試問でも語学能力を確認する。日本国外に居住する者はオンライン（Zoom等）で小論文試験・口頭試問を受験できる。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-sfc-ci-domestic-ii-4",
+      "universityId": "keio",
+      "graduateSchool": "政策・メディア研究科",
+      "department": "政策・メディア専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "修士課程 国内出願（2026年度実施 Ⅱ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "1次選考：書類審査\n2次選考：面接（1次審査合格者）",
+      "editorialNote": "仅录入官方8项目中的CI信息技术方向；项目为专攻内所属，不新增虚构专攻。2026年9月16日修订的Ⅱ期要项。国内出愿并非内部推荐，留学生符合资格可申请；不填没有公布的固定笔试科目或面试题目。",
+      "sources": [
+        {
+          "label": "修士 国内・海外出願 選考フロー（実際PDF第24頁）",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "プログラム制度・研究計画討議・出願前面談",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士国内・海外の出願資格",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士志望理由書・研究計画書",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "研究指導引受書・修士評価調書",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Ⅱ期選考日程・2027年4月／9月入学",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "サイバーインフォマティクス（CI）公式プログラム説明",
+          "url": "https://www.keio.ac.jp/ja/sfc-pem/gsmg/program/ci/",
+          "kind": "page"
+        },
+        {
+          "label": "政策・メディア研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/gsmg/",
+          "kind": "page"
+        }
+      ],
+      "course": "プログラム：サイバーインフォマティクス（CI）",
+      "scopeOriginal": "提出資料から学力水準、研究意欲、研究能力等を総合的に判断。志望理由書、研究計画書、評価調書等を提出。",
+      "conditionsOriginal": "希望するプログラムの研究科委員と研究計画を討議し、研究指導引受書作成の内諾を得る。志望理由書はA4で1～5枚、研究計画書はA4で5枚以内。修士の評価調書は1通必須（3通まで提出可能）。\n1次合格者の面接は2026年11月28日、湘南藤沢キャンパスで実施。日本国内外の大学卒業者・卒業見込者等が出願可能。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-sfc-ci-domestic-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "政策・メディア研究科",
+      "department": "政策・メディア専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "修士課程 国内出願（2026年度実施 Ⅱ期）",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "1次選考：書類審査\n2次選考：面接（1次審査合格者）",
+      "editorialNote": "仅录入官方8项目中的CI信息技术方向；项目为专攻内所属，不新增虚构专攻。2026年9月16日修订的Ⅱ期要项。国内出愿并非内部推荐，留学生符合资格可申请；不填没有公布的固定笔试科目或面试题目。",
+      "sources": [
+        {
+          "label": "修士 国内・海外出願 選考フロー（実際PDF第24頁）",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "プログラム制度・研究計画討議・出願前面談",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士国内・海外の出願資格",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士志望理由書・研究計画書",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "研究指導引受書・修士評価調書",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Ⅱ期選考日程・2027年4月／9月入学",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "サイバーインフォマティクス（CI）公式プログラム説明",
+          "url": "https://www.keio.ac.jp/ja/sfc-pem/gsmg/program/ci/",
+          "kind": "page"
+        },
+        {
+          "label": "政策・メディア研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/gsmg/",
+          "kind": "page"
+        }
+      ],
+      "course": "プログラム：サイバーインフォマティクス（CI）",
+      "scopeOriginal": "提出資料から学力水準、研究意欲、研究能力等を総合的に判断。志望理由書、研究計画書、評価調書等を提出。",
+      "conditionsOriginal": "希望するプログラムの研究科委員と研究計画を討議し、研究指導引受書作成の内諾を得る。志望理由書はA4で1～5枚、研究計画書はA4で5枚以内。修士の評価調書は1通必須（3通まで提出可能）。\n1次合格者の面接は2026年11月28日、湘南藤沢キャンパスで実施。日本国内外の大学卒業者・卒業見込者等が出願可能。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-sfc-ci-overseas-ii-4",
+      "universityId": "keio",
+      "graduateSchool": "政策・メディア研究科",
+      "department": "政策・メディア専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "修士課程 海外出願（2026年度実施 Ⅱ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n出願前：教員とのオンライン面談（必須）\n研究計画に関するビデオ",
+      "editorialNote": "仅录入官方8项目中的CI信息技术方向；项目为专攻内所属，不新增虚构专攻。2026年9月16日修订的Ⅱ期要项。海外出愿按居住条件区分，不是外国国籍专用选拔；正式书审前仍有必需的教员面谈和研究视频。",
+      "sources": [
+        {
+          "label": "修士 国内・海外出願 選考フロー（実際PDF第24頁）",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "プログラム制度・研究計画討議・出願前面談",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士国内・海外の出願資格",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士志望理由書・研究計画書",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "研究指導引受書・修士評価調書",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Ⅱ期選考日程・2027年4月／9月入学",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "海外修士：2分以内研究計画ビデオ・教員交信記録",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "サイバーインフォマティクス（CI）公式プログラム説明",
+          "url": "https://www.keio.ac.jp/ja/sfc-pem/gsmg/program/ci/",
+          "kind": "page"
+        },
+        {
+          "label": "政策・メディア研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/gsmg/",
+          "kind": "page"
+        }
+      ],
+      "course": "プログラム：サイバーインフォマティクス（CI）",
+      "scopeOriginal": "提出資料から学力水準、研究意欲、研究能力等を総合的に判断。志望理由書、研究計画書、評価調書等を提出。",
+      "conditionsOriginal": "希望するプログラムの研究科委員と研究計画を討議し、研究指導引受書作成の内諾を得る。志望理由書はA4で1～5枚、研究計画書はA4で5枚以内。修士の評価調書は1通必須（3通まで提出可能）。\n国籍を問わず、出願開始日から合格発表までの期間を含め継続して日本国外に居住し、在学または在職している者。出願前に少なくとも1回のオンライン面談（直接討議でも可）が必須。研究計画ビデオは日本語または英語、2分以内・50MB以内のMP4、本人が顔を出して話す映像。研究科委員との交信記録を提出する。正式選考の面接は海外出願者を除く。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-sfc-ci-overseas-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "政策・メディア研究科",
+      "department": "政策・メディア専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "修士課程 海外出願（2026年度実施 Ⅱ期）",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n出願前：教員とのオンライン面談（必須）\n研究計画に関するビデオ",
+      "editorialNote": "仅录入官方8项目中的CI信息技术方向；项目为专攻内所属，不新增虚构专攻。2026年9月16日修订的Ⅱ期要项。海外出愿按居住条件区分，不是外国国籍专用选拔；正式书审前仍有必需的教员面谈和研究视频。",
+      "sources": [
+        {
+          "label": "修士 国内・海外出願 選考フロー（実際PDF第24頁）",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "プログラム制度・研究計画討議・出願前面談",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士国内・海外の出願資格",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "修士志望理由書・研究計画書",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "研究指導引受書・修士評価調書",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "Ⅱ期選考日程・2027年4月／9月入学",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "海外修士：2分以内研究計画ビデオ・教員交信記録",
+          "url": "https://www.keio.ac.jp/files/c5daec5ee8a5a33ab1f67386ab354520156930d76b13d1d3c01628c98c68dd88",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "サイバーインフォマティクス（CI）公式プログラム説明",
+          "url": "https://www.keio.ac.jp/ja/sfc-pem/gsmg/program/ci/",
+          "kind": "page"
+        },
+        {
+          "label": "政策・メディア研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/gsmg/",
+          "kind": "page"
+        }
+      ],
+      "course": "プログラム：サイバーインフォマティクス（CI）",
+      "scopeOriginal": "提出資料から学力水準、研究意欲、研究能力等を総合的に判断。志望理由書、研究計画書、評価調書等を提出。",
+      "conditionsOriginal": "希望するプログラムの研究科委員と研究計画を討議し、研究指導引受書作成の内諾を得る。志望理由書はA4で1～5枚、研究計画書はA4で5枚以内。修士の評価調書は1通必須（3通まで提出可能）。\n国籍を問わず、出願開始日から合格発表までの期間を含め継続して日本国外に居住し、在学または在職している者。出願前に少なくとも1回のオンライン面談（直接討議でも可）が必須。研究計画ビデオは日本語または英語、2分以内・50MB以内のMP4、本人が顔を出して話す映像。研究科委員との交信記録を提出する。正式選考の面接は海外出願者を除く。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-kmd-general-ii-4",
+      "universityId": "keio",
+      "graduateSchool": "メディアデザイン研究科",
+      "department": "メディアデザイン専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入学試験（2026年度実施 第Ⅱ期）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "1次選考：書類審査\n2次選考：口頭試問（英語・オンライン）\n回答書：Statement of Purpose（SoP）・実績・クリエイティブ・チャレンジ",
+      "editorialNote": "保留媒体技术、交互与原型开发相关的跨学科修士入口；专攻内没有按技术／设计拆分的正式入试课程，不虚构技术专攻。本批按当前第Ⅱ期完整要项录入，未将排除方向单列为专业；社会人、CEMS及其他期次未收录。春季和秋季均为英语口试；与SDM的4月日语规则不同。",
+      "sources": [
+        {
+          "label": "一般入学試験：書類審査・英語オンライン口頭試問",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "回答書：SoP・実績の内容とページ数",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "実績ペーパー・Creative Challenge 2060課題",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "Creative Challengeの言語・教員連絡は任意",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "TOEFL・IELTS・PTE条件と免除",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "第Ⅱ期：2027年4月／9月・選考日程",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "メディアデザイン専攻・一般入試・海外大学資格",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "KMD 修士課程 公式入試案内（2026年度言語変更）",
+          "url": "https://www.kmd.keio.ac.jp/ja/admissions/masters-program/",
+          "kind": "page"
+        }
+      ],
+      "scopeOriginal": "SoP：入学志望動機、修士課程で解決したい課題・成し遂げたいこと、修了後の希望進路。\n実績：学術系、作品ポートフォリオ、社会活動・ビジネス等の資料（組合せで最大5件）と、価値・本人の貢献を論じるペーパー。\nCreative Challenge: Dream-Driven Design — Future of a Sector or Topic; Your Experience, Wisdom, Knowledge, and Skills; Dream Futures in 2060; Actionable Project.",
+      "conditionsOriginal": "回答書は英語で作成。SoPは1ページ以内、実績に関するペーパーは2ページ以内、クリエイティブ・チャレンジは3ページ以内。2次選考は1次選考合格者を対象に英語で口頭試問、オンライン（Zoom）で実施。2026年10月17日・18日。\n英語を母語としない者はTOEFL、IELTS、PTEのスコアを提出（英語授業のみで学位を取得・取得予定の場合は免除）。TOEIC等は受け付けない。教員への出願前連絡は任意で、出願期間開始後は連絡できない。",
+      "internationalGeneral": true
+    },
+    {
+      "id": "keio-kmd-general-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "メディアデザイン研究科",
+      "department": "メディアデザイン専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入学試験（2026年度実施 第Ⅱ期）",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "1次選考：書類審査\n2次選考：口頭試問（英語・オンライン）\n回答書：Statement of Purpose（SoP）・実績・クリエイティブ・チャレンジ",
+      "editorialNote": "保留媒体技术、交互与原型开发相关的跨学科修士入口；专攻内没有按技术／设计拆分的正式入试课程，不虚构技术专攻。本批按当前第Ⅱ期完整要项录入，未将排除方向单列为专业；社会人、CEMS及其他期次未收录。春季和秋季均为英语口试；与SDM的4月日语规则不同。",
+      "sources": [
+        {
+          "label": "一般入学試験：書類審査・英語オンライン口頭試問",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "回答書：SoP・実績の内容とページ数",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "実績ペーパー・Creative Challenge 2060課題",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "Creative Challengeの言語・教員連絡は任意",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "TOEFL・IELTS・PTE条件と免除",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "第Ⅱ期：2027年4月／9月・選考日程",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "メディアデザイン専攻・一般入試・海外大学資格",
+          "url": "https://www.kmd.keio.ac.jp/kmd_cms/wp-content/uploads/2026/08/1.-2026-2_JPN_M_KMD_application_guidebook.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "KMD 修士課程 公式入試案内（2026年度言語変更）",
+          "url": "https://www.kmd.keio.ac.jp/ja/admissions/masters-program/",
+          "kind": "page"
+        }
+      ],
+      "scopeOriginal": "SoP：入学志望動機、修士課程で解決したい課題・成し遂げたいこと、修了後の希望進路。\n実績：学術系、作品ポートフォリオ、社会活動・ビジネス等の資料（組合せで最大5件）と、価値・本人の貢献を論じるペーパー。\nCreative Challenge: Dream-Driven Design — Future of a Sector or Topic; Your Experience, Wisdom, Knowledge, and Skills; Dream Futures in 2060; Actionable Project.",
+      "conditionsOriginal": "回答書は英語で作成。SoPは1ページ以内、実績に関するペーパーは2ページ以内、クリエイティブ・チャレンジは3ページ以内。2次選考は1次選考合格者を対象に英語で口頭試問、オンライン（Zoom）で実施。2026年10月17日・18日。\n英語を母語としない者はTOEFL、IELTS、PTEのスコアを提出（英語授業のみで学位を取得・取得予定の場合は免除）。TOEIC等は受け付けない。教員への出願前連絡は任意で、出願期間開始後は連絡できない。",
+      "internationalGeneral": true
     }
   ]
 };

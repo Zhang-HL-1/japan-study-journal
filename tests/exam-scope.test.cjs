@@ -155,9 +155,77 @@ test('Hokkaido skips excluded fields while retaining engineering and its require
  assert.ok(rs.some(r=>r.department==='エネルギー環境システム専攻'));
  assert.equal(rs.filter(r=>r.publicationStatus==='pending')[0].department,'材料科学専攻');
 });
-test('all nine university catalogs have unique validated records and clear pending entry rules', () => {
-  assert.equal(data.universities.length, 9);
-  assert.equal(new Set(data.universities.map(u => u.id)).size, 9);
+test('Keio adds four graduate schools and six official departments with 2027 sources and safe aliases',()=>{
+ const rs=data.records.filter(r=>r.universityId==='keio');
+ assert.equal(rs.length,47);assert.equal(new Set(rs.map(r=>r.graduateSchool)).size,4);
+ assert.equal(new Set(rs.map(r=>r.graduateSchool+'/'+r.department)).size,6);
+ assert.equal(rs.filter(r=>r.admissionType==='general').length,29);
+ assert.equal(rs.filter(r=>r.admissionType==='international').length,18);
+ assert.equal(rs.filter(r=>core.matchesAdmission(r,'international')).length,41);
+ assert.ok(rs.every(r=>r.degreeProgram==='master'&&r.verifiedAt==='2026-10-09'&&['2027年4月','2027年9月'].includes(r.entryYear)&&!r.publicationStatus));
+ assert.ok(rs.every(r=>r.sources.every(s=>new URL(s.url).hostname==='keio.ac.jp'||new URL(s.url).hostname.endsWith('.keio.ac.jp'))));
+ for(const q of ['庆应','慶應','慶応','慶大','Keio University']){
+  const hits=core.filter(data.records,data.universities,{...initial,query:q});
+  assert.equal(hits.length,29);assert.ok(hits.every(r=>r.universityId==='keio'));
+ }
+ assert.equal(core.sourceURL({url:'https://www.kmd.keio.ac.jp/guide.pdf',kind:'pdf',pdfPage:8}),'https://www.kmd.keio.ac.jp/guide.pdf#page=8');
+ for(const url of ['http://www.keio.ac.jp/a','https://keio.ac.jp.evil.test/a','https://evil-keio.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
+});
+test('Keio uses current four-school reorganization and retains six eligible advisor fields in three departments',()=>{
+ const rs=data.records.filter(r=>r.universityId==='keio'&&r.graduateSchool==='理工学研究科');
+ assert.equal(rs.length,36);
+ assert.deepEqual([...new Set(rs.map(r=>r.department))],['先端数物科学専攻','総合デザイン工学専攻','人間・社会システム情報科学専攻']);
+ assert.deepEqual([...new Set(rs.map(r=>r.course))],['教育研究分野：物理情報工学','教育研究分野：機械工学','教育研究分野：電気情報工学','教育研究分野：システムデザイン工学','教育研究分野：オープンサイエンス','教育研究分野：管理工学']);
+ assert.ok(!rs.some(r=>['基礎理工学専攻','開放環境科学専攻','化学・生命情報科学専攻'].includes(r.department)));
+ assert.ok(rs.filter(r=>r.admissionType==='general').every(r=>r.sources.some(s=>s.url.includes('5e762733d929fc4a6d26bd2e314e3a71')&&s.pdfPage===1)));
+ const system=rs.find(r=>r.id==='keio-st-system-design-august');
+ assert.match(system.subjectsOriginal,/建築計画/);assert.match(system.conditionsOriginal,/5問から2問/);
+});
+test('Keio June, August and early admission preserve actual selection and elective differences',()=>{
+ const f=id=>data.records.find(r=>r.id==='keio-st-'+id);
+ assert.doesNotMatch(f('electrical-june').subjectsOriginal,/記述試問|GRE|TOEFL|TOEIC/);
+ assert.match(f('electrical-june').conditionsOriginal,/書類審査のみ.*口述試問.*8月入学試験/s);
+ assert.match(f('mechanical-august').conditionsOriginal,/機械力学・材料力学.*または熱力学・流体力学.*一方/s);
+ assert.match(f('physico-august').conditionsOriginal,/全問解答/);
+ assert.match(f('electrical-august').conditionsOriginal,/各1問、全問解答/);
+ assert.match(f('industrial-august').conditionsOriginal,/必須.*2問.*7分野.*3問.*合計5問/s);
+ assert.match(f('open-sciences-august').conditionsOriginal,/英語で出題される場合/);
+ assert.match(f('electrical-august').conditionsOriginal,/2024年7月21日.*TOEIC L&R-IP/s);
+ assert.ok(f('electrical-august').sources.some(s=>s.pdfPage===18));
+ assert.doesNotMatch(f('electrical-early').subjectsOriginal,/記述試問|筆記/);
+ assert.match(f('electrical-early').conditionsOriginal,/大学3年次.*2027年2月19日.*2025年1月27日/s);
+ assert.ok(!f('electrical-early').internationalGeneral);
+});
+test('Keio IGP uses master document screening, GRE recommendations and actual period enrollment',()=>{
+ const rs=data.records.filter(r=>r.universityId==='keio'&&r.admissionType==='international');
+ assert.equal(rs.filter(r=>r.entryYear==='2027年4月').length,6);assert.equal(rs.filter(r=>r.entryYear==='2027年9月').length,12);
+ assert.ok(rs.every(r=>r.originalLanguage==='en'&&r.subjectsOriginal.includes('GRE General Test')&&!/口述|筆記|Written examination/.test(r.subjectsOriginal)));
+ assert.ok(rs.every(r=>/desirable score is 160 or higher/.test(r.scopeOriginal)&&/Subject Test: encouraged/.test(r.scopeOriginal)));
+ assert.ok(rs.every(r=>/within two years/.test(r.conditionsOriginal)&&/official certification/.test(r.conditionsOriginal)&&r.sources.some(s=>s.pdfPage===13)));
+ const second=rs.filter(r=>r.selectionName.endsWith('Period II'));assert.equal(second.length,6);
+ assert.ok(second.every(r=>r.entryYear==='2027年9月'&&r.conditionsOriginal.includes('February 1–March 31, 2027')));
+});
+test('Keio SDM essays and KMD English interviews preserve separate language and contact rules',()=>{
+ const sdm=data.records.filter(r=>r.universityId==='keio'&&r.graduateSchool==='システムデザイン・マネジメント研究科');
+ assert.equal(sdm.length,5);assert.ok(sdm.every(r=>r.course==='リサーチインテンシブコース'&&/小論文試験・口頭試問/.test(r.subjectsOriginal)&&r.sources.some(s=>s.pdfPage===11)));
+ assert.ok(sdm.filter(r=>r.entryYear==='2027年4月').every(r=>/日本語による受験が原則.*N1合格を推奨/s.test(r.conditionsOriginal)));
+ assert.ok(sdm.filter(r=>r.entryYear==='2027年9月').every(r=>/英語による受験が原則/.test(r.conditionsOriginal)));
+ const kmd=data.records.filter(r=>r.universityId==='keio'&&r.graduateSchool==='メディアデザイン研究科');
+ assert.equal(kmd.length,2);assert.ok(kmd.every(r=>/英語・オンライン/.test(r.subjectsOriginal)&&/TOEIC等は受け付けない.*出願前連絡は任意/s.test(r.conditionsOriginal)));
+ assert.ok(kmd.every(r=>/1ページ以内.*2ページ以内.*3ページ以内/s.test(r.conditionsOriginal)&&/Dream Futures in 2060/.test(r.scopeOriginal)&&r.sources.some(s=>s.pdfPage===8)));
+});
+test('Keio SFC overseas is a residence route with pre-interview and research video rather than foreign-only admission',()=>{
+ const rs=data.records.filter(r=>r.universityId==='keio'&&r.graduateSchool==='政策・メディア研究科');
+ assert.equal(rs.length,4);assert.ok(rs.every(r=>r.department==='政策・メディア専攻'&&r.course==='プログラム：サイバーインフォマティクス（CI）'&&r.admissionType==='general'&&r.internationalGeneral));
+ const overseas=rs.filter(r=>r.selectionName.includes('海外出願'));assert.equal(overseas.length,2);
+ assert.ok(overseas.every(r=>/国籍を問わず.*継続して日本国外.*オンライン面談.*必須.*2分以内.*50MB/s.test(r.conditionsOriginal)));
+ assert.ok(overseas.every(r=>r.subjectsOriginal.includes('出願前：教員とのオンライン面談（必須）')&&r.sources.some(s=>s.pdfPage===18)));
+ const domestic=rs.filter(r=>r.selectionName.includes('国内出願'));assert.ok(domestic.every(r=>r.subjectsOriginal.includes('2次選考：面接')));
+ assert.ok(rs.every(r=>!r.subjectsOriginal.includes('新規授業科目企画書')));
+});
+test('all ten university catalogs have unique validated records and clear pending entry rules', () => {
+  assert.equal(data.universities.length, 10);
+  assert.equal(new Set(data.universities.map(u => u.id)).size, 10);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
   assert.ok(data.records.every(record => core.validRecord(record, data.universities)));
