@@ -32,6 +32,16 @@ function boot(records=[]) {
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
+test('Nagoya filters retain general eligibility and open the actual AI exam table without filling foreign unknown scopes',async()=>{
+ const a=boot(catalog.records);await school(a,'nagoya').click();assert.equal(a.ids['scope-results'].children.length,29);
+ assert.equal(a.ids['scope-graduate'].options.length,3);assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.nagoya.note);
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,41);
+ await a.ids['scope-results'].children.find(e=>e.dataset.id==='nagoya-intelligent-systems-general').click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('Python 3')&&e.lang==='ja'));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('7c87fb3ffa6e880b002fdf3d65f61582.pdf#page=14'));
+ await a.ids['scope-results'].children.find(e=>e.dataset.id==='nagoya-electrical-1-international-unverified').click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.tag==='p'&&e.textContent.includes('待核验')));assert.ok(!a.ids['scope-detail'].children.some(e=>e.className==='original-text'));
+});
 test('Kobe filters the formal fields, renders foreign systems subjects, and opens the real exam-table page',async()=>{
  const a=boot(catalog.records);await school(a,'kobe').click();assert.equal(a.ids['scope-results'].children.length,6);
  assert.equal(a.ids['scope-graduate'].options.length,5);assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.kobe.note);
@@ -228,7 +238,7 @@ test('school filters switch all twelve coverage notes and unmatched results rema
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学与神戸大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学与名古屋大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);

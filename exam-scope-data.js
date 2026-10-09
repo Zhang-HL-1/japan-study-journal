@@ -118,6 +118,15 @@
         "神戸大",
         "Kobe University"
       ]
+    },
+    {
+      "id": "nagoya",
+      "name": "名古屋大学",
+      "aliases": [
+        "名大",
+        "Nagoya University",
+        "Nagoya"
+      ]
     }
   ],
   "catalog": {
@@ -144,7 +153,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学与神戸大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学与名古屋大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -316,6 +325,15 @@
         "海事科学研究科"
       ],
       "note": "神戸大学：2027年4月修士首批14条入口，12条科目要求、2条工学第二期外国人入试待公布入口。覆盖工学电气电子（电子物理／电子信息两题群）与机械、系统信息学、科学技术创新先端IT，以及海洋应用科学课程中的电气电子信息正式教育研究分野；一般与外国人分别保存。仅根据官网、募集要项及官方范围附件，不收社会人、SGU／英语项目或已排除专业。夏季考试已结束，完整工学第二期要项预计11月中旬公布。电气电子专攻官网的更细出题范围本次访问失败，尚未核验；先端IT共通题已核实官网公布的三份指定资料书目，全文须申请阅览。保留已核实科目与官方实际页链接，不称覆盖全校或全部详细章节。"
+    },
+    "nagoya": {
+      "verifiedAt": "2026-10-10",
+      "degree": "博士前期課程（修士）",
+      "graduateSchools": [
+        "工学研究科",
+        "情報学研究科"
+      ],
+      "note": "名古屋大学：工学研究科12个专攻、情報学研究科4个专攻，共41条入口：29条已核验一般考试／笔试免除或口述判定要求，12条工学外国人入试待核验。适用2027年4月；一般选拔已结束。工学外国语言与信息学外语规则不同，机械航空基礎仅数学、电气专业分组选答分别保存；长范围表链接官方实际页。工学外国人2027通知存在，但完整当年范围未核验，不套用一般或旧年度要项。信息学2027年2月募集要项待发布，尚未建立专攻别考纲。后续学校不收社会人／G30英语项目，保留专业中的必考数学、物理、化学不删。"
     }
   },
   "records": [
@@ -37346,6 +37364,1794 @@
           "pdfPage": 1
         }
       ]
+    },
+    {
+      "id": "nagoya-physics-1-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学，力学，電磁気学。専門部門：量子力学，熱・統計力学，物性物理学，応用数学。外国語（英語），口頭試問。",
+      "scopeOriginal": "数学：線形代数，常微分方程式，微分・積分，初等ベクトル解析。力学：質点系の力学，微小振動，剛体の運動。電磁気学：静電気学，定常電流，電流と磁界，静磁場，電磁誘導。専門部門：各科目1問，全4問から2問を選択。量子力学：波動方程式，固有値問題，角運動量，原子，摂動論および変分法。熱・統計力学：気体分子運動論，熱と仕事，熱力学関数，分配関数，ボルツマン統計，フェルミ統計とボーズ統計，相互作用する系。物性物理学：結晶構造，回析現象，格子振動，自由電子模型，周期場の電子，電気伝導，半導体の性質。応用数学：フーリエ解析，ラプラス変換，複素関数論，偏微分方程式。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。专业四题选二。基礎三科的范围保存于原文；口试未公布统一细目。工学应用方向按现行专攻名称收录。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 23,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-physics-1-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-physics-1-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-physics-2-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "物質科学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学，力学，電磁気学。専門部門：量子力学，熱・統計力学，物性物理学，応用数学。外国語（英語），口頭試問。",
+      "scopeOriginal": "数学：線形代数，常微分方程式，微分・積分，初等ベクトル解析。力学：質点系の力学，微小振動，剛体の運動。電磁気学：静電気学，定常電流，電流と磁界，静磁場，電磁誘導。専門部門：各科目1問，全4問から2問を選択。量子力学：波動方程式，固有値問題，角運動量，原子，摂動論および変分法。熱・統計力学：気体分子運動論，熱と仕事，熱力学関数，分配関数，ボルツマン統計，フェルミ統計とボーズ統計，相互作用する系。物性物理学：結晶構造，回析現象，格子振動，自由電子模型，周期場の電子，電気伝導，半導体の性質。応用数学：フーリエ解析，ラプラス変換，複素関数論，偏微分方程式。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。专业四题选二。基礎三科的范围保存于原文；口试未公布统一细目。工学应用方向按现行专攻名称收录。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 23,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-physics-2-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "物質科学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-physics-2-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "物質科学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-materials-1-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "材料デザイン工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学，物理化学。専門部門：固体物理学，流動と伝熱，反応工学，材料の力学。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：2科目全てを解答。数学：微分・積分，常微分方程式，線形代数，ベクトル解析。物理化学：熱力学の基本法則と熱力学諸量，相平衡（状態図を含む），化学平衡（酸化還元を含む）。専門部門：4分野各1問，4問中2問を解答。固体物理学：結晶構造，Ｘ線回析，シュレーディンガー方程式，フォノン，比熱・熱伝導，電子構造と物性。流動と伝熱：レオロジー，流動の基礎方程式，管内流動（層流と乱流，流速および流量の計測，圧力損失と流体輸送），伝熱（伝導，対流，熱放射），総括熱伝達，熱交換。反応工学：化学反応速度論，各種反応器（回分型，連続槽型と管型），物質移動が関与する不均一相系反応，固体触媒反応。材料の力学：材料力学（組合わせ応力，はりの曲げ），材料強度学（応力とひずみ，転位とすべり変形，金属の強化機構）。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎数学与物理化学均必答，专业四题选二。保留材料设计／制造应用方向；必考物理化学和可选反应工学不能省略。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 24,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.material.nagoya-u.ac.jp/bosyuu.html",
+          "kind": "page",
+          "label": "材料系官方入试入口"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-materials-1-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "材料デザイン工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-materials-1-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "材料デザイン工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-materials-2-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "物質プロセス工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学，物理化学。専門部門：固体物理学，流動と伝熱，反応工学，材料の力学。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：2科目全てを解答。数学：微分・積分，常微分方程式，線形代数，ベクトル解析。物理化学：熱力学の基本法則と熱力学諸量，相平衡（状態図を含む），化学平衡（酸化還元を含む）。専門部門：4分野各1問，4問中2問を解答。固体物理学：結晶構造，Ｘ線回析，シュレーディンガー方程式，フォノン，比熱・熱伝導，電子構造と物性。流動と伝熱：レオロジー，流動の基礎方程式，管内流動（層流と乱流，流速および流量の計測，圧力損失と流体輸送），伝熱（伝導，対流，熱放射），総括熱伝達，熱交換。反応工学：化学反応速度論，各種反応器（回分型，連続槽型と管型），物質移動が関与する不均一相系反応，固体触媒反応。材料の力学：材料力学（組合わせ応力，はりの曲げ），材料強度学（応力とひずみ，転位とすべり変形，金属の強化機構）。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎数学与物理化学均必答，专业四题选二。保留材料设计／制造应用方向；必考物理化学和可选反应工学不能省略。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 24,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.material.nagoya-u.ac.jp/bosyuu.html",
+          "kind": "page",
+          "label": "材料系官方入试入口"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-materials-2-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "物質プロセス工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-materials-2-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "物質プロセス工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-electrical-1-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "電気工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学，電磁気学。専門部門：電気回路，電子回路，論理回路，電気エネルギー，電子物性，情報理論。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：数学3問，電磁気学2問，計5問から3問を選択。数学：一変数関数の微積分，多変数関数の微積分，行列とベクトル空間，行列と連立一次方程式，固有値と対角化，常微分方程式，偏微分方程式。電磁気学：静電界と誘電体，静磁界と磁性体，定常電流，定常電流による静磁界，電磁誘導とインダクタンス，マクスウェルの方程式と電磁界，電磁波の伝搬と放射。専門部門：計6問から3問を選択。ただし，グループ1からの選択数は2問以下。グループ1：電気回路，電子回路，論理回路。グループ2：電気エネルギー，電子物性，情報理論。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎五题选三；专业六题选三，第一组最多选二，必须满足分组约束。六科详细关键词表见官方专攻案内实际第4页，不能把专业范围理解成只考科目名称。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 24,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.nuee.nagoya-u.ac.jp/g_admission/files/2027admission.pdf",
+          "kind": "pdf",
+          "pdfPage": 3,
+          "label": "电气系案内：基礎范围与分组选答"
+        },
+        {
+          "url": "https://www.nuee.nagoya-u.ac.jp/g_admission/files/2027admission.pdf",
+          "kind": "pdf",
+          "pdfPage": 4,
+          "label": "电气系专业六科详细范围"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-electrical-1-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "電気工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。电气电子信息三专攻在免除选拔出愿时不交英语成绩；未获免除时按7月29日17时补交规则处理。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "電気電子情報工学系3専攻の志願者は，筆記試験免除者選抜の出願時にTOEFL／TOEICスコアシート不要。"
+    },
+    {
+      "id": "nagoya-electrical-1-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "電気工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        },
+        {
+          "url": "https://www.nuee.nagoya-u.ac.jp/g_admission/foreign.html",
+          "kind": "page",
+          "label": "电气系2027外国人入试说明"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-electrical-2-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "電子工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学，電磁気学。専門部門：電気回路，電子回路，論理回路，電気エネルギー，電子物性，情報理論。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：数学3問，電磁気学2問，計5問から3問を選択。数学：一変数関数の微積分，多変数関数の微積分，行列とベクトル空間，行列と連立一次方程式，固有値と対角化，常微分方程式，偏微分方程式。電磁気学：静電界と誘電体，静磁界と磁性体，定常電流，定常電流による静磁界，電磁誘導とインダクタンス，マクスウェルの方程式と電磁界，電磁波の伝搬と放射。専門部門：計6問から3問を選択。ただし，グループ1からの選択数は2問以下。グループ1：電気回路，電子回路，論理回路。グループ2：電気エネルギー，電子物性，情報理論。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎五题选三；专业六题选三，第一组最多选二，必须满足分组约束。六科详细关键词表见官方专攻案内实际第4页，不能把专业范围理解成只考科目名称。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 24,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.nuee.nagoya-u.ac.jp/g_admission/files/2027admission.pdf",
+          "kind": "pdf",
+          "pdfPage": 3,
+          "label": "电气系案内：基礎范围与分组选答"
+        },
+        {
+          "url": "https://www.nuee.nagoya-u.ac.jp/g_admission/files/2027admission.pdf",
+          "kind": "pdf",
+          "pdfPage": 4,
+          "label": "电气系专业六科详细范围"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-electrical-2-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "電子工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。电气电子信息三专攻在免除选拔出愿时不交英语成绩；未获免除时按7月29日17时补交规则处理。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "電気電子情報工学系3専攻の志願者は，筆記試験免除者選抜の出願時にTOEFL／TOEICスコアシート不要。"
+    },
+    {
+      "id": "nagoya-electrical-2-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "電子工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        },
+        {
+          "url": "https://www.nuee.nagoya-u.ac.jp/g_admission/foreign.html",
+          "kind": "page",
+          "label": "电气系2027外国人入试说明"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-electrical-3-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "情報・通信工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学，電磁気学。専門部門：電気回路，電子回路，論理回路，電気エネルギー，電子物性，情報理論。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：数学3問，電磁気学2問，計5問から3問を選択。数学：一変数関数の微積分，多変数関数の微積分，行列とベクトル空間，行列と連立一次方程式，固有値と対角化，常微分方程式，偏微分方程式。電磁気学：静電界と誘電体，静磁界と磁性体，定常電流，定常電流による静磁界，電磁誘導とインダクタンス，マクスウェルの方程式と電磁界，電磁波の伝搬と放射。専門部門：計6問から3問を選択。ただし，グループ1からの選択数は2問以下。グループ1：電気回路，電子回路，論理回路。グループ2：電気エネルギー，電子物性，情報理論。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎五题选三；专业六题选三，第一组最多选二，必须满足分组约束。六科详细关键词表见官方专攻案内实际第4页，不能把专业范围理解成只考科目名称。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 24,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.nuee.nagoya-u.ac.jp/g_admission/files/2027admission.pdf",
+          "kind": "pdf",
+          "pdfPage": 3,
+          "label": "电气系案内：基礎范围与分组选答"
+        },
+        {
+          "url": "https://www.nuee.nagoya-u.ac.jp/g_admission/files/2027admission.pdf",
+          "kind": "pdf",
+          "pdfPage": 4,
+          "label": "电气系专业六科详细范围"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-electrical-3-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "情報・通信工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。电气电子信息三专攻在免除选拔出愿时不交英语成绩；未获免除时按7月29日17时补交规则处理。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "電気電子情報工学系3専攻の志願者は，筆記試験免除者選抜の出願時にTOEFL／TOEICスコアシート不要。"
+    },
+    {
+      "id": "nagoya-electrical-3-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "情報・通信工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        },
+        {
+          "url": "https://www.nuee.nagoya-u.ac.jp/g_admission/foreign.html",
+          "kind": "page",
+          "label": "电气系2027外国人入试说明"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-mechanical-1-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "機械システム工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学。専門部門：熱工学，流体力学，機械力学，制御工学，材料力学。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：数学（線形代数，常微分方程式，微分・積分，初等ベクトル解析），全問解答。専門部門：5科目から3科目を選択。熱工学：熱平衡，理想気体と実在気体，熱力学第1法則，熱力学第2法則，熱サイクル，熱力学関数，相平衡と化学平衡，伝導伝熱，対流熱伝達。流体力学：静水力学，質量保存則，運動量保存則，ベルヌーイの式，内部流れと損失，ナビエ−ストークス方程式とその層流解，境界層，揚力・抗力，次元解析と相似則。機械力学：自由振動と強制振動，1自由度系の振動，固有角振動数，多自由度系の振動，モードベクトル，動吸振器，モード解析，ラグランジュ方程式。制御工学：伝達関数および状態空間表現に基づく制御系の解析と設計。材料力学：応力とひずみ，引張と圧縮，熱応力，トラス，組合せ応力，主応力，はりの曲げ，棒のねじり，柱の座屈，ひずみエネルギー。口頭試問：これまで大学で学んだこと及び一般的事項。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎仅数学且全答；专业五科选三。按2027要项保存，未沿用旧年度基礎物理或电磁气学。口试范围见专攻补足说明实际第2页。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 25,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.mae.nagoya-u.ac.jp/download_file/view/594/164",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "机械航空2027：数学与五选三"
+        },
+        {
+          "url": "https://www.mae.nagoya-u.ac.jp/download_file/view/594/164",
+          "kind": "pdf",
+          "pdfPage": 2,
+          "label": "机械航空：口头试问范围与免笔试规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-mechanical-1-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "機械システム工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        },
+        {
+          "url": "https://www.mae.nagoya-u.ac.jp/download_file/view/594/164",
+          "kind": "pdf",
+          "pdfPage": 2,
+          "label": "机械航空口头试问范围"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-mechanical-1-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "機械システム工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-mechanical-2-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "マイクロ・ナノ機械理工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学。専門部門：熱工学，流体力学，機械力学，制御工学，材料力学。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：数学（線形代数，常微分方程式，微分・積分，初等ベクトル解析），全問解答。専門部門：5科目から3科目を選択。熱工学：熱平衡，理想気体と実在気体，熱力学第1法則，熱力学第2法則，熱サイクル，熱力学関数，相平衡と化学平衡，伝導伝熱，対流熱伝達。流体力学：静水力学，質量保存則，運動量保存則，ベルヌーイの式，内部流れと損失，ナビエ−ストークス方程式とその層流解，境界層，揚力・抗力，次元解析と相似則。機械力学：自由振動と強制振動，1自由度系の振動，固有角振動数，多自由度系の振動，モードベクトル，動吸振器，モード解析，ラグランジュ方程式。制御工学：伝達関数および状態空間表現に基づく制御系の解析と設計。材料力学：応力とひずみ，引張と圧縮，熱応力，トラス，組合せ応力，主応力，はりの曲げ，棒のねじり，柱の座屈，ひずみエネルギー。口頭試問：これまで大学で学んだこと及び一般的事項。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎仅数学且全答；专业五科选三。按2027要项保存，未沿用旧年度基礎物理或电磁气学。口试范围见专攻补足说明实际第2页。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 25,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.mae.nagoya-u.ac.jp/download_file/view/594/164",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "机械航空2027：数学与五选三"
+        },
+        {
+          "url": "https://www.mae.nagoya-u.ac.jp/download_file/view/594/164",
+          "kind": "pdf",
+          "pdfPage": 2,
+          "label": "机械航空：口头试问范围与免笔试规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-mechanical-2-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "マイクロ・ナノ機械理工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        },
+        {
+          "url": "https://www.mae.nagoya-u.ac.jp/download_file/view/594/164",
+          "kind": "pdf",
+          "pdfPage": 2,
+          "label": "机械航空口头试问范围"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-mechanical-2-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "マイクロ・ナノ機械理工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-mechanical-3-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学。専門部門：熱工学，流体力学，機械力学，制御工学，材料力学。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：数学（線形代数，常微分方程式，微分・積分，初等ベクトル解析），全問解答。専門部門：5科目から3科目を選択。熱工学：熱平衡，理想気体と実在気体，熱力学第1法則，熱力学第2法則，熱サイクル，熱力学関数，相平衡と化学平衡，伝導伝熱，対流熱伝達。流体力学：静水力学，質量保存則，運動量保存則，ベルヌーイの式，内部流れと損失，ナビエ−ストークス方程式とその層流解，境界層，揚力・抗力，次元解析と相似則。機械力学：自由振動と強制振動，1自由度系の振動，固有角振動数，多自由度系の振動，モードベクトル，動吸振器，モード解析，ラグランジュ方程式。制御工学：伝達関数および状態空間表現に基づく制御系の解析と設計。材料力学：応力とひずみ，引張と圧縮，熱応力，トラス，組合せ応力，主応力，はりの曲げ，棒のねじり，柱の座屈，ひずみエネルギー。口頭試問：これまで大学で学んだこと及び一般的事項。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎仅数学且全答；专业五科选三。按2027要项保存，未沿用旧年度基礎物理或电磁气学。口试范围见专攻补足说明实际第2页。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 25,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.mae.nagoya-u.ac.jp/download_file/view/594/164",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "机械航空2027：数学与五选三"
+        },
+        {
+          "url": "https://www.mae.nagoya-u.ac.jp/download_file/view/594/164",
+          "kind": "pdf",
+          "pdfPage": 2,
+          "label": "机械航空：口头试问范围与免笔试规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-mechanical-3-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        },
+        {
+          "url": "https://www.mae.nagoya-u.ac.jp/download_file/view/594/164",
+          "kind": "pdf",
+          "pdfPage": 2,
+          "label": "机械航空口头试问范围"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-mechanical-3-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-energy-1-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "エネルギー理工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学，物理，化学。専門部門：エネルギーに関する総合問題（小論文を含む），材料科学，原子核工学，機械工学，電気工学。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：数学2問，物理2問，化学1問，5問全てに解答。数学：微分積分，線形代数学，ベクトル解析，微分方程式。物理：質点系の力学，剛体の運動，静電界と静磁界，電流と磁界，電磁誘導。化学：無機化学の基礎（原子・分子・固体の構造），量子化学の基礎（分子・固体の化学結合），化学平衡，反応速度論。専門部門：（1）エネルギーに関する総合問題（小論文を含む）は必答。（2）材料科学（物性物理学，統計力学，量子力学），原子核工学（保健物理，放射線計測，原子核物理，原子炉物理，原子力工学），機械工学（材料力学，流体力学，熱工学，熱力学），電気工学（電気回路，電磁気学，プラズマ物理）の計4問から1問を選択。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎五题全答，包含一题化学。专业为能源综合题必答＋四科题选一。详细关键词表链接至2026-04-25专攻说明实际第2页；官方明确该表为主要关键词示例，未列内容也可能出题。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 25,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.energy.nagoya-u.ac.jp/wp/wp-content/themes/energy-nagoya-u/files/pdf/student/entrance-exam.pdf?ver=2026042674100",
+          "kind": "pdf",
+          "pdfPage": 2,
+          "label": "能源专业四科主要关键词（非穷尽表）"
+        },
+        {
+          "url": "https://www.energy.nagoya-u.ac.jp/wp/wp-content/themes/energy-nagoya-u/files/pdf/student/entrance-exam.pdf?ver=2026042674100",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "能源两专攻2027入试补足说明"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-energy-1-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "エネルギー理工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-energy-1-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "エネルギー理工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-energy-2-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "総合エネルギー工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "基礎部門：数学，物理，化学。専門部門：エネルギーに関する総合問題（小論文を含む），材料科学，原子核工学，機械工学，電気工学。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：数学2問，物理2問，化学1問，5問全てに解答。数学：微分積分，線形代数学，ベクトル解析，微分方程式。物理：質点系の力学，剛体の運動，静電界と静磁界，電流と磁界，電磁誘導。化学：無機化学の基礎（原子・分子・固体の構造），量子化学の基礎（分子・固体の化学結合），化学平衡，反応速度論。専門部門：（1）エネルギーに関する総合問題（小論文を含む）は必答。（2）材料科学（物性物理学，統計力学，量子力学），原子核工学（保健物理，放射線計測，原子核物理，原子炉物理，原子力工学），機械工学（材料力学，流体力学，熱工学，熱力学），電気工学（電気回路，電磁気学，プラズマ物理）の計4問から1問を選択。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎五题全答，包含一题化学。专业为能源综合题必答＋四科题选一。详细关键词表链接至2026-04-25专攻说明实际第2页；官方明确该表为主要关键词示例，未列内容也可能出题。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 25,
+          "label": "工学2027一般：笔试科目与范围"
+        },
+        {
+          "url": "https://www.energy.nagoya-u.ac.jp/wp/wp-content/themes/energy-nagoya-u/files/pdf/student/entrance-exam.pdf?ver=2026042674100",
+          "kind": "pdf",
+          "pdfPage": 2,
+          "label": "能源专业四科主要关键词（非穷尽表）"
+        },
+        {
+          "url": "https://www.energy.nagoya-u.ac.jp/wp/wp-content/themes/energy-nagoya-u/files/pdf/student/entrance-exam.pdf?ver=2026042674100",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "能源两专攻2027入试补足说明"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-energy-2-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "総合エネルギー工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-energy-2-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "総合エネルギー工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-math-information-general",
+      "universityId": "nagoya",
+      "graduateSchool": "情報学研究科",
+      "department": "数理情報学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般入試（令和8年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "線形代数，微分積分，代数学（初等的整数論を含む），数学基礎論，量子情報，離散最適化（アルゴリズム設計法，グラフ理論を含む）。英語（外部試験），口頭試問。",
+      "scopeOriginal": "出題された5〜6問程度から2問を選択して解答する。",
+      "editorialNote": "2027年4月入学、2026年8月一般考试，报名和考试已结束。外国学历者可按一般资格申请，保存真实一般入口；留学生专业笔试可英语作答，可带一本日语与另一语言互译的纸质辞典，电子辞典不可。英语必须提交TOEIC L&R公开考试／TOEFL iBT（含Home Edition）／IELTS／Duolingo English Test之一，2024年4月1日以后受验有效；缺交按英语缺席处理。专业约五至六题选二。按数理信息的算法／优化／量子信息方向保留正式专攻，未新建“纯数学课程”。口试仅对笔试后被判定需要参加者实施；不在口试名单上不代表不合格。",
+      "sources": [
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "信息学2027一般：专业科目与选答"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "各专攻选拔与口试对象"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "口试细目及留学生作答与辞典规定"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "知能系统留学生辞典规定"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 9,
+          "label": "英语种类与有效期"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "英语成绩提交与评价"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "英語外部試験の成績通知書を必ず提出すること。成績通知書は，2024年4月1日以降受験分を有効とする。"
+    },
+    {
+      "id": "nagoya-complex-general",
+      "universityId": "nagoya",
+      "graduateSchool": "情報学研究科",
+      "department": "複雑系科学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般入試（令和8年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "数学の基礎，物理学の基礎，化学の基礎，生物学の基礎，地球科学の基礎，情報学の基礎，工学の基礎。英語（外部試験），口頭試問。",
+      "scopeOriginal": "約15〜20問から3問を選択。数学：線形代数，微分積分。物理学：古典力学・量子力学の複合問題，電磁気学，熱統計力学。化学：有機化学，物理化学，量子化学。生物学：分子生物学，分子遺伝学，生化学。地球科学：地球科学，地理学。情報学：アルゴリズム，プログラミング，計算機基礎，複雑系基礎。工学：熱工学。",
+      "editorialNote": "2027年4月入学、2026年8月一般考试，报名和考试已结束。外国学历者可按一般资格申请，保存真实一般入口；留学生专业笔试可英语作答，可带一本日语与另一语言互译的纸质辞典，电子辞典不可。英语必须提交TOEIC L&R公开考试／TOEFL iBT（含Home Edition）／IELTS／Duolingo English Test之一，2024年4月1日以后受验有效；缺交按英语缺席处理。约十五至二十题选三，笔试与口试全员均须参加。为数据科学／复杂系统方向保留正式混合专攻，完整选项含自然科学，不把它们删掉。",
+      "sources": [
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "信息学2027一般：专业科目与选答"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "各专攻选拔与口试对象"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "口试细目及留学生作答与辞典规定"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "知能系统留学生辞典规定"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 9,
+          "label": "英语种类与有效期"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "英语成绩提交与评价"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "英語外部試験の成績通知書を必ず提出すること。成績通知書は，2024年4月1日以降受験分を有効とする。"
+    },
+    {
+      "id": "nagoya-information-systems-general",
+      "universityId": "nagoya",
+      "graduateSchool": "情報学研究科",
+      "department": "情報システム学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般入試（令和8年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "情報理論，プログラミング，離散数学，オートマトン・形式言語，アルゴリズム，論理学，論理設計，計算機アーキテクチャ，オペレーティングシステム，コンパイラ，情報ネットワーク，ソフトウェア設計法。英語（外部試験），口頭試問。",
+      "scopeOriginal": "以上の中から8問を出題，6問を選択して解答する。口頭試問：日本語で実施する。ただし，英語での解答は認める。",
+      "editorialNote": "2027年4月入学、2026年8月一般考试，报名和考试已结束。外国学历者可按一般资格申请，保存真实一般入口；留学生专业笔试可英语作答，可带一本日语与另一语言互译的纸质辞典，电子辞典不可。英语必须提交TOEIC L&R公开考试／TOEFL iBT（含Home Edition）／IELTS／Duolingo English Test之一，2024年4月1日以后受验有效；缺交按英语缺席处理。十二领域出八题，八题选六。口试日语实施、可英语回答；官方未给各领域更细章节考纲。口试仅对笔试后被判定需要参加者实施；不在口试名单上不代表不合格。",
+      "sources": [
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "信息学2027一般：专业科目与选答"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "各专攻选拔与口试对象"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "口试细目及留学生作答与辞典规定"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "知能系统留学生辞典规定"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 9,
+          "label": "英语种类与有效期"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "英语成绩提交与评价"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "英語外部試験の成績通知書を必ず提出すること。成績通知書は，2024年4月1日以降受験分を有効とする。"
+    },
+    {
+      "id": "nagoya-intelligent-systems-general",
+      "universityId": "nagoya",
+      "graduateSchool": "情報学研究科",
+      "department": "知能システム学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般入試（令和8年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "解析・線形代数，確率・統計，プログラミング。英語（外部試験），口頭試問。",
+      "scopeOriginal": "3科目を解答する。プログラミング科目はPython 3に基づいた内容。口頭試問：課題に関する説明（論理的な説明能力を問う）。資料はA4サイズ1枚（片面），手書き。課題は筆記試験終了後に配布。",
+      "editorialNote": "2027年4月入学、2026年8月一般考试，报名和考试已结束。外国学历者可按一般资格申请，保存真实一般入口；留学生专业笔试可英语作答，可带一本日语与另一语言互译的纸质辞典，电子辞典不可。英语必须提交TOEIC L&R公开考试／TOEFL iBT（含Home Edition）／IELTS／Duolingo English Test之一，2024年4月1日以后受验有效；缺交按英语缺席处理。三科均答，编程明确Python 3。口试使用笔试后发放的课题，准备A4单面一张手写材料，日语实施、可英语回答；未公布更细编程章节。口试仅对笔试后被判定需要参加者实施；不在口试名单上不代表不合格。",
+      "sources": [
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "信息学2027一般：专业科目与选答"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "各专攻选拔与口试对象"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "口试细目及留学生作答与辞典规定"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "知能系统留学生辞典规定"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 9,
+          "label": "英语种类与有效期"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "英语成绩提交与评价"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "英語外部試験の成績通知書を必ず提出すること。成績通知書は，2024年4月1日以降受験分を有効とする。"
+    },
+    {
+      "id": "nagoya-math-information-oral",
+      "universityId": "nagoya",
+      "graduateSchool": "情報学研究科",
+      "department": "数理情報学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般入試・口述試験（令和8年7月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験：数学，数理情報又は志望する分野の基礎。英語（外部試験）。",
+      "scopeOriginal": "一人30分程度，オンラインで実施。口述試験に合格すれば，筆記試験と口頭試問を受ける必要はない。不合格の者は筆記試験と口頭試問を受ける。",
+      "editorialNote": "2026年7月4日口述判定已结束。申请者须2026年度毕业／预计毕业，至2026年3月31日取得至少毕业所需3/4学分，并满足A以上至少3/8或GPA≥3.8等要项条件，且由学校筛选资格；不作为人人可选免笔试。英语类型与一般入试相同，缺交按缺席处理。",
+      "sources": [
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "数理信息口述时间与考试范围"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 11,
+          "label": "口述申请条件与通过／未通过规则"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 9,
+          "label": "英语必交与种类"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "英语成绩截止与缺席规则"
+        },
+        {
+          "url": "https://www.i.nagoya-u.ac.jp/wp-content/uploads/2017/03/7c87fb3ffa6e880b002fdf3d65f61582.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "英語外部試験の成績通知書を必ず提出すること。成績通知書は，2024年4月1日以降受験分を有効とする。"
     }
   ]
 };
