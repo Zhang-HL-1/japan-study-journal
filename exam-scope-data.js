@@ -75,6 +75,15 @@
         "九州大",
         "Kyushu University"
       ]
+    },
+    {
+      "id": "hokkaido",
+      "name": "北海道大学",
+      "aliases": [
+        "北大",
+        "北海道大",
+        "Hokkaido University"
+      ]
     }
   ],
   "catalog": {
@@ -101,7 +110,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学与九州大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学与北海道大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -176,6 +185,15 @@
         "システム生命科学府"
       ],
       "note": "九州大学：已核对七个理工相关学府、20个正式专攻，共119条资料。一般84条、外国人特别／英语项目35条，适用2027年4月或10月入学；均保留当年原文科目与来源。工学11专攻，系统信息按2027新要项的2专攻5课程，总合理工为1专攻3考试类而非旧5专攻。地球惑星按19研究组的指定1～2科目，旧八科选二已废止；芸術工学为1专攻6课程。一般、口述免除路线、外国人特别、英语课程和二次募集分别保存。系统生命按2027PDF修士课程和夏／秋不同要求；指导教员指定范围未公开时不推测。未公布的2027外国人特别／后续期次不沿用2026规则；英语课程接收实验室名单须再查当年更新。"
+    },
+    "hokkaido": {
+      "verifiedAt": "2026-10-09",
+      "degree": "修士課程",
+      "graduateSchools": [
+        "工学院",
+        "情報科学院"
+      ],
+      "note": "北海道大学：首批工学院与情報科学院，7个正式专攻、情報科学専攻5课程，共28条入口：一般15条、外国人特别／e3英语项目13条，其中材料科学第二次募集1条待公布。适用2027年4月，保留官方日语／英语科目、选答条件及PDF实际页。工学院收录应用物理、材料、机械宇宙、人间机械、能源系统与量子工程；信息涵盖信息理工、电子、生体信息、媒体网络和系统信息。按用户偏好不收录医学、化学、土木建筑、纯数学、纯物理、环境学等方向；应用物理与量子工程属于工程培养，能源环境系统按机械／核能工程研究室群保留。材料考试中的化学科目仍保留。一般／口述替代、英语外国人入试与e3分别保存；机械网页旧关键词不冒作当年考纲。"
     }
   },
   "records": [
@@ -27325,6 +27343,1242 @@
       "course": "生命工学",
       "subjectsOriginal": "小論文（筆記試験）\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）\n口述試験",
       "editorialNote": "2026年9月28日试验，2027年4月修士入学。秋季生命工学为小论文，不复制夏季七教育组各自的专业试卷；生体医工／细胞制御是否募集取决于夏季满额情况，须先咨询。 只募集生命信息和生命工学，不虚构生命医科／生物秋季记录。"
+    },
+    {
+      "id": "hokkaido-eng-applied-physics-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "応用物理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：応用物理学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "外部英語・専攻別最低点とIELTS制限",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻・研究室群による合同募集",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL iBT）",
+      "scopeOriginal": "応用数学Ⅰ（常微分方程式，フーリエ解析，ラプラス変換，偏微分方程式），力学，電磁気学\n応用数学Ⅱ（ベクトル解析，複素関数，行列），熱・統計力学，量子力学",
+      "conditionsOriginal": "応用物理学専攻ではIELTSのスコアの提出が認められません。",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。一般入试以日语实施；外部英语成绩有效期为试验日起过去两年，Home Edition可用，MyBest不可用。应物笔答与口头并列；另列符合资格者的口述替代路线。"
+    },
+    {
+      "id": "hokkaido-eng-applied-physics-general-oral",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "応用物理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（口述希望者）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：応用物理学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "外部英語・専攻別最低点とIELTS制限",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻・研究室群による合同募集",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL iBT）",
+      "scopeOriginal": "研究テーマ及びそれに関わる基礎学力",
+      "conditionsOriginal": "専門科目の筆答試験に代えて口述試験を希望することができます。\n合格した場合の入学を確約する者",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。一般入试以日语实施；外部英语成绩有效期为试验日起过去两年，Home Edition可用，MyBest不可用。口述替代有成绩推荐、其他学科背景或社会人等资格，经专攻审核通知；未获认可者须受笔答。原表正文“３項”与实际列（1）～（4）不一致，依四项及专攻确认。"
+    },
+    {
+      "id": "hokkaido-eng-materials-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "材料科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：材料科学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英語・専攻別最低点とIELTS制限",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻・研究室群による合同募集",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL iBT）",
+      "scopeOriginal": "材料物理化学，材料物性学，材料プロセス工学，材料組織学",
+      "conditionsOriginal": "それぞれの科目は，３題から構成され，２題を選択\n材料科学専攻ではIELTSのスコアの提出が認められません。",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。一般入试以日语实施；外部英语成绩有效期为试验日起过去两年，Home Edition可用，MyBest不可用。四科各三选二，不能理解为四科选二。另有口述替代及按成绩通知笔答免除。"
+    },
+    {
+      "id": "hokkaido-eng-materials-general-oral",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "材料科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（口述希望者）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：材料科学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英語・専攻別最低点とIELTS制限",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻・研究室群による合同募集",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "口述試験\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL iBT）",
+      "scopeOriginal": "材料科学及び工学に関する基礎学力と研究計画",
+      "conditionsOriginal": "北海道大学工学部応用理工系学科応用マテリアル工学コースを卒業後１年以内又は卒業見込みの者は選択できません。",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。一般入试以日语实施；外部英语成绩有效期为试验日起过去两年，Home Edition可用，MyBest不可用。口述替代仍另设口头试问；须附A4一页约1000字研究计划。"
+    },
+    {
+      "id": "hokkaido-eng-mechanical-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "機械宇宙工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：機械宇宙工学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外部英語・専攻別最低点とIELTS制限",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻・研究室群による合同募集",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "材料力学\n機械力学と制御工学\n流体力学\n熱力学\n口頭試問\n英語（TOEIC Listening & Reading Test，TOEFL iBT，IELTS アカデミック・モジュールのスコアによる判定）",
+      "conditionsOriginal": "材料力学（２問），機械力学と制御工学（各１問，計２問）を必答\n流体力学（２問），熱力学（２問）を必答\nTOEIC L&R 550点未満，TOEFL iBT 42点未満，IELTS 4.0点未満は「不合格」",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。一般入试以日语实施；外部英语成绩有效期为试验日起过去两年，Home Edition可用，MyBest不可用。四专攻联合募集，按志望研究室群受验，不能跨群併愿。机械群涵盖机械宇宙、人间机械及能源的部分研究室。机械页面明确仍以去年学科内容作参考，未把其旧关键词作为已核定2027考纲；当前科目和题数以本要项第18页为准。",
+      "course": "機械・宇宙航空工学系研究室群"
+    },
+    {
+      "id": "hokkaido-eng-human-mechanical-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "人間機械システムデザイン専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：人間機械システムデザイン専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外部英語・専攻別最低点とIELTS制限",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻・研究室群による合同募集",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "材料力学\n機械力学と制御工学\n流体力学\n熱力学\n口頭試問\n英語（TOEIC Listening & Reading Test，TOEFL iBT，IELTS アカデミック・モジュールのスコアによる判定）",
+      "conditionsOriginal": "材料力学（２問），機械力学と制御工学（各１問，計２問）を必答\n流体力学（２問），熱力学（２問）を必答\nTOEIC L&R 550点未満，TOEFL iBT 42点未満，IELTS 4.0点未満は「不合格」",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。一般入试以日语实施；外部英语成绩有效期为试验日起过去两年，Home Edition可用，MyBest不可用。四专攻联合募集，按志望研究室群受验，不能跨群併愿。机械群涵盖机械宇宙、人间机械及能源的部分研究室。机械页面明确仍以去年学科内容作参考，未把其旧关键词作为已核定2027考纲；当前科目和题数以本要项第18页为准。",
+      "course": "機械・宇宙航空工学系研究室群"
+    },
+    {
+      "id": "hokkaido-eng-energy-general-mechanical",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "エネルギー環境システム専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：エネルギー環境システム専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "外部英語・専攻別最低点とIELTS制限",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻・研究室群による合同募集",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "材料力学\n機械力学と制御工学\n流体力学\n熱力学\n口頭試問\n英語（TOEIC Listening & Reading Test，TOEFL iBT，IELTS アカデミック・モジュールのスコアによる判定）",
+      "conditionsOriginal": "材料力学（２問），機械力学と制御工学（各１問，計２問）を必答\n流体力学（２問），熱力学（２問）を必答\nTOEIC L&R 550点未満，TOEFL iBT 42点未満，IELTS 4.0点未満は「不合格」",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。一般入试以日语实施；外部英语成绩有效期为试验日起过去两年，Home Edition可用，MyBest不可用。四专攻联合募集，按志望研究室群受验，不能跨群併愿。机械群涵盖机械宇宙、人间机械及能源的部分研究室。机械页面明确仍以去年学科内容作参考，未把其旧关键词作为已核定2027考纲；当前科目和题数以本要项第18页为准。",
+      "course": "機械・宇宙航空工学系研究室群"
+    },
+    {
+      "id": "hokkaido-eng-energy-general-quantum",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "エネルギー環境システム専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：エネルギー環境システム専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "2027年4月：応用量子科学系キーワード",
+          "url": "https://mech-ise.eng.hokudai.ac.jp/info/qeent.html",
+          "kind": "page"
+        },
+        {
+          "label": "外部英語・専攻別最低点とIELTS制限",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻・研究室群による合同募集",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "応用数学\n電磁気学・電気回路\n材料科学・物理化学\n原子物理・原子炉工学\n口頭試問\n英語（TOEIC Listening & Reading Test，TOEFL iBT，IELTS アカデミック・モジュールのスコアによる判定）",
+      "scopeOriginal": "応用数学\n: 常微分方程式 (曲線群，1階微分方程式，線形微分方程式)，ベクトル解析 (ベクトル場とスカラー場の微分と積分，ストークスの定理，ガウスの定理)，複素関数 (写像，正則関数とその特性，ローラン展開，複素積分と留数定理および実積分への応用)，ラプラス変換とフーリエ解析 (フーリエ級数展開，フーリエ変換，ラプラス変換，微分方程式への応用)，偏微分方程式 (定数係数線形偏微分方程式の初期値・境界値問題)\n筆答試験２\n※ 電磁気学・電気回路 (3問)，材料科学・物理化学 (3問)，原子物理・原子炉工学 (3問) の計9問から３問を選択\n電磁気学・電気回路\n: 電界と電位，ガウスの法則，ポアソン方程式，誘電分極，静電誘導と静電容量， 静電界における境界条件，準定常電流界，オームの法則とジュールの法則， アンペアの法則，ビオ-サバールの法則，ベクトルポテンシャル， 電磁誘導とファラデーの法則， インダクタンス， ローレンツ力， 電磁界のエネルギー，変位電流，マックスウエルの方程式，線形受動回路，集中定数回路，電気回路の過渡現象\n材料科学・物理化学\n: 結晶構造，結合状態，面間隔，ブラッグ条件， ミラー指数，エネルギーバンド，フェルミ準位，半導体，太陽電池， 欠陥，転位，拡散，Fickの法則，相律，固溶体，合金， 冷却曲線，凝固組織，２成分系状態図，天秤の法則，共晶，核生成， 結晶構造因子・消滅則，相平衡，自由エネルギー，エントロピー，化学平衡，平衡定数，反応速度式，アレニウス式\n原子物理・原子炉工学\n: 原子の構造，原子核の構造，原子核の壊変，核反応と核分裂， 放射線の種類と基本的性質，電子線と物質の相互作用， 電磁放射線と物質の相互作用，陽子線・重荷電粒子線と物質の相互作用， 中性子線と物質の相互作用，臨界，中性子拡散方程式，中性子の減速， 原子炉の動特性， 軽水炉システム，伝熱工学 (定常・非定常熱伝導，対流熱伝達，熱通過，放射伝熱)，熱力学 (蒸気の性質，蒸気サイクル，ガスサイクル)",
+      "conditionsOriginal": "電磁気学・電気回路（３問），材料科学・物理化学（３問），原子物理・原子炉工学（３問）の計９問から３問を選択",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。一般入试以日语实施；外部英语成绩有效期为试验日起过去两年，Home Edition可用，MyBest不可用。能源专攻仅原子炉工学、原子力系统安全、原子力环境材料研究室归此群；量子理工归此群。关键词采用明确2027年4月适用的当年量子页面；不能把机械群英语550门槛套到量子群。",
+      "course": "応用量子科学系研究室群"
+    },
+    {
+      "id": "hokkaido-eng-quantum-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "量子理工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：量子理工学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "2027年4月：応用量子科学系キーワード",
+          "url": "https://mech-ise.eng.hokudai.ac.jp/info/qeent.html",
+          "kind": "page"
+        },
+        {
+          "label": "外部英語・専攻別最低点とIELTS制限",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻・研究室群による合同募集",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "応用数学\n電磁気学・電気回路\n材料科学・物理化学\n原子物理・原子炉工学\n口頭試問\n英語（TOEIC Listening & Reading Test，TOEFL iBT，IELTS アカデミック・モジュールのスコアによる判定）",
+      "scopeOriginal": "応用数学\n: 常微分方程式 (曲線群，1階微分方程式，線形微分方程式)，ベクトル解析 (ベクトル場とスカラー場の微分と積分，ストークスの定理，ガウスの定理)，複素関数 (写像，正則関数とその特性，ローラン展開，複素積分と留数定理および実積分への応用)，ラプラス変換とフーリエ解析 (フーリエ級数展開，フーリエ変換，ラプラス変換，微分方程式への応用)，偏微分方程式 (定数係数線形偏微分方程式の初期値・境界値問題)\n筆答試験２\n※ 電磁気学・電気回路 (3問)，材料科学・物理化学 (3問)，原子物理・原子炉工学 (3問) の計9問から３問を選択\n電磁気学・電気回路\n: 電界と電位，ガウスの法則，ポアソン方程式，誘電分極，静電誘導と静電容量， 静電界における境界条件，準定常電流界，オームの法則とジュールの法則， アンペアの法則，ビオ-サバールの法則，ベクトルポテンシャル， 電磁誘導とファラデーの法則， インダクタンス， ローレンツ力， 電磁界のエネルギー，変位電流，マックスウエルの方程式，線形受動回路，集中定数回路，電気回路の過渡現象\n材料科学・物理化学\n: 結晶構造，結合状態，面間隔，ブラッグ条件， ミラー指数，エネルギーバンド，フェルミ準位，半導体，太陽電池， 欠陥，転位，拡散，Fickの法則，相律，固溶体，合金， 冷却曲線，凝固組織，２成分系状態図，天秤の法則，共晶，核生成， 結晶構造因子・消滅則，相平衡，自由エネルギー，エントロピー，化学平衡，平衡定数，反応速度式，アレニウス式\n原子物理・原子炉工学\n: 原子の構造，原子核の構造，原子核の壊変，核反応と核分裂， 放射線の種類と基本的性質，電子線と物質の相互作用， 電磁放射線と物質の相互作用，陽子線・重荷電粒子線と物質の相互作用， 中性子線と物質の相互作用，臨界，中性子拡散方程式，中性子の減速， 原子炉の動特性， 軽水炉システム，伝熱工学 (定常・非定常熱伝導，対流熱伝達，熱通過，放射伝熱)，熱力学 (蒸気の性質，蒸気サイクル，ガスサイクル)",
+      "conditionsOriginal": "電磁気学・電気回路（３問），材料科学・物理化学（３問），原子物理・原子炉工学（３問）の計９問から３問を選択",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。一般入试以日语实施；外部英语成绩有效期为试验日起过去两年，Home Edition可用，MyBest不可用。能源专攻仅原子炉工学、原子力系统安全、原子力环境材料研究室归此群；量子理工归此群。关键词采用明确2027年4月适用的当年量子页面；不能把机械群英语550门槛套到量子群。",
+      "course": "応用量子科学系研究室群"
+    },
+    {
+      "id": "hokkaido-eng-applied-physics-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "応用物理学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 International Student Entrance Examination",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Student Entrance Examination：応用物理学専攻",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "External English tests and division-specific restrictions",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "工学院：日本語一般／英語外国人要項",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Written Examination\nInterview\nForeign Language Examination (TOEIC L&R, TOEFL iBT, IELTS Academic)",
+      "scopeOriginal": "Applied mathematics I (Ordinary differential equation, Partial differential equation, Fourier analysis, Laplace transform), Mechanics, Electromagnetism\nApplied mathematics II (Vector calculus, Matrix, Complex analysis), Thermodynamics and Statistical mechanics, Quantum mechanics",
+      "editorialNote": "2027年4月外国人留学生入试，2026年8月18～19日实施，考试以英语进行。本PDF只列九专攻，不按一般十三专攻自动补齐。依此项目实际专业表。 应物与材料不接受IELTS；环境フィールド／北方圏要求英语超过TOEIC460／TOEFL48／IELTS4.0，其他专攻不统一套此门槛。"
+    },
+    {
+      "id": "hokkaido-eng-materials-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "材料科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 International Student Entrance Examination",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Student Entrance Examination：材料科学専攻",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "External English tests and division-specific restrictions",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "工学院：日本語一般／英語外国人要項",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Oral examination\nInterview\nForeign Language Examination (TOEIC L&R, TOEFL iBT, IELTS Academic)",
+      "scopeOriginal": "basic knowledge of materials science, engineering and the research plan",
+      "editorialNote": "2027年4月外国人留学生入试，2026年8月18～19日实施，考试以英语进行。本PDF只列九专攻，不按一般十三专攻自动补齐。材料仅口述与面接，不套一般四科笔答。 应物与材料不接受IELTS；环境フィールド／北方圏要求英语超过TOEIC460／TOEFL48／IELTS4.0，其他专攻不统一套此门槛。"
+    },
+    {
+      "id": "hokkaido-eng-applied-physics-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "応用物理学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。文件同时列2027年10月CSC，但该CSC资格属于博士，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-materials-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "材料科学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。文件同时列2027年10月CSC，但该CSC资格属于博士，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-mechanical-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "機械宇宙工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。文件同时列2027年10月CSC，但该CSC资格属于博士，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-human-mechanical-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "人間機械システムデザイン専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。文件同时列2027年10月CSC，但该CSC资格属于博士，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-energy-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "エネルギー環境システム専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。文件同时列2027年10月CSC，但该CSC资格属于博士，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-quantum-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "量子理工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。文件同时列2027年10月CSC，但该CSC资格属于博士，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-materials-second-pending",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "材料科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試 第２次学生募集（速報）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2026年10月6日：第二次募集4専攻の速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/#inneray202701",
+          "kind": "page"
+        }
+      ],
+      "publicationStatus": "pending",
+      "editorialNote": "2026年10月6日官方预告只列材料、环境フィールド、北方圏、环境创生四修士专攻；完整要项预计11月上旬。预计2027年2月15～16日试验、2027年4月入学。此条只保存待公布入口，不把博士的其他专攻名单或夏季科目复制为第二次要求。"
+    },
+    {
+      "id": "hokkaido-ist-cs-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 ４月入学 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "情報理工学コース",
+      "subjectsOriginal": "専門科目１：基礎数学，情報数学，確率・統計，情報理論\n専門科目２：アルゴリズムとデータ構造，人工知能，コンピュータシステム，応用数学\n口頭試問\n外国語（英語：外部試験スコア）",
+      "scopeOriginal": "１．専門科目１\n以下から出題される４問のうち基礎数学と情報数学を含む３問を解答すること。\n基礎数学\n線形代数として、行列、連立一次方程式、行列式、逆行列、ベクトル空間、線形写像、固有値、固有ベクトルなど、微分積分として、極限、微分、偏微分、テイラーの定理、積分、重積分、変数変換、常微分方程式など\n情報数学\n集合と関係、写像、命題論理、順列・組合せ、ブール代数、言語理論、オートマトン理論など\n（選択）確率・統計\nデータの整理と記述、確率、確率変数と確率分布、標本分布、母数の推定、仮説検定など\n（選択）情報理論\n情報量、エントロピー、相互情報量、情報源、マルコフ情報源、情報源符号化、通信路、通信路符号化など\n２．専門科目２\n以下から出題される４問のうち２問を選択し解答すること。\nアルゴリズムとデータ構造\n漸近的評価、時間・空間計算量、リスト、キュー、スタック、ヒープ、探索木、ハッシュ表、整列、探索、再帰、動的計画法、分割統治法、グラフアルゴリズムなど\n人工知能\n機械学習、データマイニング、ニューラルネットワーク、進化型計算、探索と推論、ヒューマン・マシンインタラクション、マルチエージェントシステム、ゲーム理論など\nコンピュータシステム\nコンピュータアーキテクチャ、オペレーティングシステム、コンピュータネットワーク、クラウドコンピューティング、論理回路、データ表現、C 言語プログラミングなど\n応用数学\nベクトル解析、微分方程式（多変数）、ラプラス変換、フーリエ解析、複素解析など",
+      "conditionsOriginal": "専門科目１：４問のうち基礎数学と情報数学を含む３問\n専門科目２：４問のうち２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。英语不设当日笔答，接受TOEFL Home Edition、不用MyBest；外部成绩须2024年8月1日以后，TOEIC IP等不可。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-ist-cs-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 ４月入学 外国人特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報理工学コース",
+      "subjectsOriginal": "専門科目１：基礎数学，情報数学，確率・統計，情報理論\n専門科目２：アルゴリズムとデータ構造，人工知能，コンピュータシステム，応用数学\n口頭試問\n外国語（英語又は日本語）",
+      "scopeOriginal": "１．専門科目１\n基礎数学\n線形代数として、行列、連立一次方程式、行列式、逆行列、ベクトル空間、線形写像、固有値、固有ベクトルなど、微分積分として、極限、微分、偏微分、テイラーの定理、積分、重積分、変数変換、常微分方程式など\n情報数学\n集合と関係、写像、命題論理、順列・組合せ、ブール代数、言語理論、オートマトン理論など\n（選択）確率・統計\nデータの整理と記述、確率、確率変数と確率分布、標本分布、母数の推定、仮説検定など\n（選択）情報理論\n情報量、エントロピー、相互情報量、情報源、マルコフ情報源、情報源符号化、通信路、通信路符号化など\n２．専門科目２\nアルゴリズムとデータ構造\n漸近的評価、時間・空間計算量、リスト、キュー、スタック、ヒープ、探索木、ハッシュ表、整列、探索、再帰、動的計画法、分割統治法、グラフアルゴリズムなど\n人工知能\n機械学習、データマイニング、ニューラルネットワーク、進化型計算、探索と推論、ヒューマン・マシンインタラクション、マルチエージェントシステム、ゲーム理論など\nコンピュータシステム\nコンピュータアーキテクチャ、オペレーティングシステム、コンピュータネットワーク、クラウドコンピューティング、論理回路、データ表現、C 言語プログラミングなど\n応用数学\nベクトル解析、微分方程式（多変数）、ラプラス変換、フーリエ解析、複素解析など",
+      "conditionsOriginal": "専門科目１：４問のうち基礎数学と情報数学を含む３問\n専門科目２：４問のうち２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。特别入试需受入教员推荐，不公开公募；仍有专业笔答与口头。外国籍者可选日语笔答，具B2相当以上日语证明者可能免该笔答，英语选择则用外部成绩。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-ist-electronics-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 ４月入学 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "情報エレクトロニクスコース",
+      "subjectsOriginal": "専門科目１：応用数学，半導体デバイス工学，電磁気学，電気回路，電子回路\n専門科目２：ディジタル回路，量子力学，物性工学，情報通信工学，光エレクトロニクス\n口頭試問\n外国語（英語：外部試験スコア）",
+      "scopeOriginal": "１．専門科目１\n以下から出題される5問のうち3問選択して解答すること。\n応用数学\nベクトルと行列、一次変換、固有値問題、ベクトルの微分法・積分法、常微分方程式、偏微分方程式、ラプラス変換、フーリエ級数\n半導体デバイス工学\n半導体のバンド構造とキャリア統計、pn接合のバンド図と容量－電圧特性、pn接合の電流－電圧特性（整流特性）、MOS構造の表面ポテンシャルとしきい電圧、MOS電界効果トランジスタの電流－電圧特性、発光・受光素子の動作原理、太陽電池の動作原理、バイポーラトランジスタの動作原理、ショットキーバリア型電界効果トランジスタの動作原理\n電磁気学\n真空中の電磁気学（静電界、静磁界、電流と磁界、電磁誘導、マクスウェルの方程式）、物質中の電磁気学（誘電体、磁性体、導体）\n電気回路\n直流回路・交流回路（一端子対回路・二端子対回路、ブリッジ回路など）、線形回路の諸定理、正弦波交流と電気的諸量の複素表示、相互誘導回路、共振回路、過渡解析\n電子回路\nバイポーラトランジスタ・MOSFETによる回路、増幅回路と接地方式、演算増幅器の基礎と応用（反転増幅回路、 非反転増幅回路、 微分回路、 積分回路、加減算回路など）、発振回路、pn接合ダイオードによる回路（整流回路、波形整形回路など）\n２．専門科目２\n以下から出題される5問のうち2問選択して解答すること。\nディジタル回路\nCMOS論理ゲート（複合ゲートを含む）とそれらによる組み合わせ回路、算術演算回路（加減算器など）、順序回路（フリップフロップ、ラッチ、レジスタ、シフトレジスタ、カウンタなど）\n量子力学\n量子力学の基礎的概念（電子の二重性、重ね合わせの原理、不確定性関係など）、1次元の問題（ポテンシャルステップ、井戸型ポテンシャル、ポテンシャル障壁とトンネル効果）、調和振動子（エネルギーの量子化など）、角運動量演算子（交換関係など）\n物性工学\n結晶構造と逆格子、X線回折、格子振動と格子比熱、自由電子モデル（電気伝導特性、状態密度、フェルミ準位、ホール効果など）、電子のエネルギーバンドと有効質量、電子の熱統計分布、半導体の基本的な物性\n情報通信工学\n通信ネットワーク(通信プロトコルと階層表現、情報量と通信速度)、通信方式(デジタル変復調)、情報理論(通信路と通信路符号化・復号化、誤り訂正)、信号処理(伝達関数、スペクトル解析、サンプリング理論)\n光エレクトロニクス\n光の反射・屈折・透過、光波の伝搬・回折・干渉、レンズの特性、光共振器",
+      "conditionsOriginal": "専門科目１：５問のうち３問\n専門科目２：５問のうち２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。英语不设当日笔答，接受TOEFL Home Edition、不用MyBest；外部成绩须2024年8月1日以后，TOEIC IP等不可。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-ist-electronics-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 ４月入学 外国人特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "情報エレクトロニクスコース",
+      "subjectsOriginal": "専門科目１：応用数学，半導体デバイス工学，電磁気学，電気回路，電子回路\n専門科目２：ディジタル回路，量子力学，物性工学，情報通信工学，光エレクトロニクス\n口頭試問\n外国語（英語又は日本語）",
+      "scopeOriginal": "１．専門科目１\n応用数学\nベクトルと行列、一次変換、固有値問題、ベクトルの微分法・積分法、常微分方程式、偏微分方程式、ラプラス変換、フーリエ級数\n半導体デバイス工学\n半導体のバンド構造とキャリア統計、pn接合のバンド図と容量－電圧特性、pn接合の電流－電圧特性（整流特性）、MOS構造の表面ポテンシャルとしきい電圧、MOS電界効果トランジスタの電流－電圧特性、発光・受光素子の動作原理、太陽電池の動作原理、バイポーラトランジスタの動作原理、ショットキーバリア型電界効果トランジスタの動作原理\n電磁気学\n真空中の電磁気学（静電界、静磁界、電流と磁界、電磁誘導、マクスウェルの方程式）、物質中の電磁気学（誘電体、磁性体、導体）\n電気回路\n直流回路・交流回路（一端子対回路・二端子対回路、ブリッジ回路など）、線形回路の諸定理、正弦波交流と電気的諸量の複素表示、相互誘導回路、共振回路、過渡解析\n電子回路\nバイポーラトランジスタ・MOSFETによる回路、増幅回路と接地方式、演算増幅器の基礎と応用（反転増幅回路、 非反転増幅回路、 微分回路、 積分回路、加減算回路など）、発振回路、pn接合ダイオードによる回路（整流回路、波形整形回路など）\n２．専門科目２\nディジタル回路\nCMOS論理ゲート（複合ゲートを含む）とそれらによる組み合わせ回路、算術演算回路（加減算器など）、順序回路（フリップフロップ、ラッチ、レジスタ、シフトレジスタ、カウンタなど）\n量子力学\n量子力学の基礎的概念（電子の二重性、重ね合わせの原理、不確定性関係など）、1次元の問題（ポテンシャルステップ、井戸型ポテンシャル、ポテンシャル障壁とトンネル効果）、調和振動子（エネルギーの量子化など）、角運動量演算子（交換関係など）\n物性工学\n結晶構造と逆格子、X線回折、格子振動と格子比熱、自由電子モデル（電気伝導特性、状態密度、フェルミ準位、ホール効果など）、電子のエネルギーバンドと有効質量、電子の熱統計分布、半導体の基本的な物性\n情報通信工学\n通信ネットワーク(通信プロトコルと階層表現、情報量と通信速度)、通信方式(デジタル変復調)、情報理論(通信路と通信路符号化・復号化、誤り訂正)、信号処理(伝達関数、スペクトル解析、サンプリング理論)\n光エレクトロニクス\n光の反射・屈折・透過、光波の伝搬・回折・干渉、レンズの特性、光共振器",
+      "conditionsOriginal": "専門科目１：５問のうち３問\n専門科目２：５問のうち２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。特别入试需受入教员推荐，不公开公募；仍有专业笔答与口头。外国籍者可选日语笔答，具B2相当以上日语证明者可能免该笔答，英语选择则用外部成绩。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-ist-bio-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 ４月入学 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "生体情報工学コース",
+      "subjectsOriginal": "専門科目１：小論文，線形代数，電気・電子回路，細胞生物学\n専門科目２：微分方程式，電磁気学，生化学，分子遺伝学\n口頭試問\n外国語（英語：外部試験スコア）",
+      "scopeOriginal": "１．専門科目１\n生体情報工学に関する論文テーマに対して800字程度の小論文を作成するとともに、以下から出題される 3 問のうち 1 問を選択すること。\n●　線形代数\n行列、連立１次方程式、固有値問題、行列の対角化\n参考教科書：E. クライツィグ著（堀素夫訳）、「線形代数とベクトル解析（第８版）」、培風館、1、 2章\n●　電気・電子回路\n直流回路、交流回路、トランジスタと等価回路、増幅器、帰還回路と発振\n参考教科書：小澤孝夫　著、「電気回路を理解する 第2版」、森北出版、1、 2、 3、 4、 5、 6 章\n樋口英世著、「例題で学ぶアナログ電子回路入門」、森北出版、1、 2、 3、 4、 5、 6、 8章\n岩田聡編著、「新インターユニバーシティ　電子回路」、オーム社、5章\n●　細胞生物学\n生体膜・膜輸送、細胞区画・輸送、シグナル伝達、細胞骨格、細胞周期、有糸分裂・減数分裂、組織・癌\n参考教科書：Bruce Albertsら（中村桂子、松原謙一 監訳）　「Essential細胞生物学　原書第5版」、南江堂、11、 12、 15、 16、 17、 18、 19、 20章\n２．専門科目２\n以下から出題される 4 問のうち 2 問を選択すること。\n●　微分方程式\n常微分方程式、フーリエ級数、ラプラス変換、偏微分方程式\n参考教科書：阿部寛治 著、「図解による微分方程式」培風館 著\n●　電磁気学\n静電界、静磁界、電流と磁界、電磁誘導、マクスウェルの方程式\n参考教科書：松原三人、坂口浩一、山田博章 著、「工科系の電磁気学」、コロナ社、1、 2、 3、 4、 5、 7章\n●　生化学\nタンパク質の構造・機能、酵素、生体エネルギー、糖質代謝、脂質代謝、窒素代謝\n参考教科書：Danise R. Ferrier 著、「イラストレイテッド生化学　原書8版（リッピンコットシリーズ）」、　丸善出版、1~10、 15、 16、 19章\n●　分子遺伝学\nDNA、遺伝子、染色体、ゲノム、遺伝、連鎖、組換え、乗換え、転写、翻訳、複製、タンパク質、遺伝子発現、突然変異、DNA修復、分子進化\n参考教科書：\n日本語版:D. L. ハートル著、「エッセンシャル遺伝学・ゲノム科学 (原著第7版)」 化学同人、1~6、 8、 12、 14章\n英語版：D. L. Hartl著、「Essential Genetics and Genomics (7th Ed)」、Jones & Bartlett Learning、1~6、 8、 12、 14章",
+      "conditionsOriginal": "専門科目１：800字程度の小論文，３問のうち１問\n専門科目２：４問のうち２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。英语不设当日笔答，接受TOEFL Home Edition、不用MyBest；外部成绩须2024年8月1日以后，TOEIC IP等不可。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-ist-bio-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 ４月入学 外国人特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "生体情報工学コース",
+      "subjectsOriginal": "専門科目１：小論文，線形代数，電気・電子回路，細胞生物学\n専門科目２：微分方程式，電磁気学，生化学，分子遺伝学\n口頭試問\n外国語（英語又は日本語）",
+      "scopeOriginal": "１．専門科目１\n●　線形代数\n行列、連立１次方程式、固有値問題、行列の対角化\n参考教科書：E. クライツィグ著（堀素夫訳）、「線形代数とベクトル解析（第８版）」、培風館、1、 2章\n●　電気・電子回路\n直流回路、交流回路、トランジスタと等価回路、増幅器、帰還回路と発振\n参考教科書：小澤孝夫　著、「電気回路を理解する 第2版」、森北出版、1、 2、 3、 4、 5、 6 章\n樋口英世著、「例題で学ぶアナログ電子回路入門」、森北出版、1、 2、 3、 4、 5、 6、 8章\n岩田聡編著、「新インターユニバーシティ　電子回路」、オーム社、5章\n●　細胞生物学\n生体膜・膜輸送、細胞区画・輸送、シグナル伝達、細胞骨格、細胞周期、有糸分裂・減数分裂、組織・癌\n参考教科書：Bruce Albertsら（中村桂子、松原謙一 監訳）　「Essential細胞生物学　原書第5版」、南江堂、11、 12、 15、 16、 17、 18、 19、 20章\n２．専門科目２\n●　微分方程式\n常微分方程式、フーリエ級数、ラプラス変換、偏微分方程式\n参考教科書：阿部寛治 著、「図解による微分方程式」培風館 著\n●　電磁気学\n静電界、静磁界、電流と磁界、電磁誘導、マクスウェルの方程式\n参考教科書：松原三人、坂口浩一、山田博章 著、「工科系の電磁気学」、コロナ社、1、 2、 3、 4、 5、 7章\n●　生化学\nタンパク質の構造・機能、酵素、生体エネルギー、糖質代謝、脂質代謝、窒素代謝\n参考教科書：Danise R. Ferrier 著、「イラストレイテッド生化学　原書8版（リッピンコットシリーズ）」、　丸善出版、1~10、 15、 16、 19章\n●　分子遺伝学\nDNA、遺伝子、染色体、ゲノム、遺伝、連鎖、組換え、乗換え、転写、翻訳、複製、タンパク質、遺伝子発現、突然変異、DNA修復、分子進化\n参考教科書：\n日本語版:D. L. ハートル著、「エッセンシャル遺伝学・ゲノム科学 (原著第7版)」 化学同人、1~6、 8、 12、 14章\n英語版：D. L. Hartl著、「Essential Genetics and Genomics (7th Ed)」、Jones & Bartlett Learning、1~6、 8、 12、 14章",
+      "conditionsOriginal": "専門科目１：800字程度の小論文，受入教員が指定する１問以上の中から１問\n専門科目２：受入教員が指定する２問以上の中から２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。特别入试需受入教员推荐，不公开公募；仍有专业笔答与口头。外国籍者可选日语笔答，具B2相当以上日语证明者可能免该笔答，英语选择则用外部成绩。生体题目由教员指定，不按一般自由选题。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-ist-media-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 ４月入学 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "メディアネットワークコース",
+      "subjectsOriginal": "専門科目１：応用数学，コンピュータ工学，信号処理\n専門科目２：画像処理，言語メディア理解論，通信システム，光・電波理論\n口頭試問\n外国語（英語：外部試験スコア）",
+      "scopeOriginal": "１．専門科目１（2問選択）\n応用数学\n行列と行列式、連立一次方程式、逆行列、固有値、ベクトル解析など\nコンピュータ工学\nノイマン型計算機、アドレス方式、命令語、中央処理装置、演算装置、記憶装置、 入出力装置、制御装置など\n信号処理\n離散時間信号の処理、フーリエ変換、離散時間フーリエ変換、ｚ変換、離散時間システムなど\n２．専門科目２（2問選択）\n画像処理\n画像の標本化と量子化、画像の統計的特徴、画像の空間フィルタリング、画像の直交変換、画像圧縮、画像認識、画像生成など\n通信システム\n変調（振幅変調、角度変調）、復調（同期検波、包絡線検波）、狭帯域確率過程、ガウス雑音、ディジタル通信方式（OOK、 PSK）など\n光・電波理論\n分布定数回路、入力インピーダンスと反射係数、分布定数線路の整合回路・共振回路・行列表現、マクスウェルの方程式、波動の基本的な性質（反射・透過・干渉）など\n言語メディア理解論\n形態素・構文・意味解析、言語表現（辞書・ネットワーク・ベクトル）、類似度、分類、機械学習、大規模言語モデル、NLPの評価、音声言語処理、対話処理など",
+      "conditionsOriginal": "専門科目１：３問のうち２問\n専門科目２：４問のうち２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。英语不设当日笔答，接受TOEFL Home Edition、不用MyBest；外部成绩须2024年8月1日以后，TOEIC IP等不可。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-ist-media-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 ４月入学 外国人特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "メディアネットワークコース",
+      "subjectsOriginal": "専門科目１：応用数学，コンピュータ工学，信号処理\n専門科目２：画像処理，言語メディア理解論，通信システム，光・電波理論\n口頭試問\n外国語（英語又は日本語）",
+      "scopeOriginal": "１．専門科目１（2問選択）\n応用数学\n行列と行列式、連立一次方程式、逆行列、固有値、ベクトル解析など\nコンピュータ工学\nノイマン型計算機、アドレス方式、命令語、中央処理装置、演算装置、記憶装置、 入出力装置、制御装置など\n信号処理\n離散時間信号の処理、フーリエ変換、離散時間フーリエ変換、ｚ変換、離散時間システムなど\n２．専門科目２（2問選択）\n画像処理\n画像の標本化と量子化、画像の統計的特徴、画像の空間フィルタリング、画像の直交変換、画像圧縮、画像認識、画像生成など\n通信システム\n変調（振幅変調、角度変調）、復調（同期検波、包絡線検波）、狭帯域確率過程、ガウス雑音、ディジタル通信方式（OOK、 PSK）など\n光・電波理論\n分布定数回路、入力インピーダンスと反射係数、分布定数線路の整合回路・共振回路・行列表現、マクスウェルの方程式、波動の基本的な性質（反射・透過・干渉）など\n言語メディア理解論\n形態素・構文・意味解析、言語表現（辞書・ネットワーク・ベクトル）、類似度、分類、機械学習、大規模言語モデル、NLPの評価、音声言語処理、対話処理など",
+      "conditionsOriginal": "専門科目１：３問のうち２問\n専門科目２：４問のうち２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。特别入试需受入教员推荐，不公开公募；仍有专业笔答与口头。外国籍者可选日语笔答，具B2相当以上日语证明者可能免该笔答，英语选择则用外部成绩。所选题目须事前照会，不按一般现场自由选题。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-ist-system-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 ４月入学 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "course": "システム情報科学コース",
+      "subjectsOriginal": "専門科目１：応用数学Ⅰ，応用数学Ⅱ，情報学基礎\n専門科目２：力学，電気回路，電磁気学，線形制御理論\n口頭試問\n外国語（英語：外部試験スコア）",
+      "scopeOriginal": "システム情報科学コースの専門試験の各科目は、つぎのようなキーワードで代表されますので、参考にして下さい。\n１．専門科目１（2問選択）\n以下から出題される３問のうち２問を選択すること。\n応用数学Ⅰ\n(1)線形代数、(2)ベクトル解析\n応用数学Ⅱ\n(1)常微分方程式、(2)ラプラス変換、(3)フーリエ級数とフーリエ変換\n情報学基礎\n(1)集合・写像、(2)数え挙げ、(3)グラフ理論、(4)論理\n２．専門科目２（２問選択）\n以下から出題される４問のうち２問を選択すること。\n力学\n(1)運動の記述、(2)ニュートンの運動方程式、(3)仕事とエネルギー、(4)運動量と力積、(5)振動、(6)剛体の運動、(7)解析力学\n参考図書：\n阿部龍蔵、「岩波基礎物理シリーズ　力学・解析力学」、岩波書店\n電気回路\n(1) 直流回路\n(2) 交流回路(ひずみ波交流，三相交流を除く)\n(3) 回路の諸定理(重ね合せの理、テブナン・ノートン等価回路、相反定理、Δ-Ｙ変換、ブリッジ回路、整合)\n(4) 2端子対回路(Y行列とZ行列、H行列、F行列)\n(5) 過渡解析（微分方程式を解く一般的解法、ラプラス変換による計算法）\n参考図書：\n小澤孝夫、「電気回路を理解する」、昭晃堂\n電磁気学\n一様媒質中の電磁気学を範囲とします．\n(1) 静電界(電界、電束密度、電位、クーロンの法則、ガウスの法則、電界のエネルギー)\n(2) 静磁界(磁界、磁束密度、ベクトルポテンシャル、ビオ・サバールの法則、アンペールの法則、磁界のエネルギー)\n(3) 電磁力(クーロン力、ローレンツ力、仮想仕事の原理)、電磁誘導(インダクタンス、ファラデーの法則)\n(4) 電磁波(マクスウェルの方程式)\n参考図書：\n松原、坂口、山田、「工科系の電磁気学」、コロナ社、1章～3章、8.1～8.3節\n線形制御理論\n(1) 線形システムの表現 (伝達関数表現、 状態変数表現、システム変換、線形系の解、可制御・可観測性、正準形)\n(2) 安定判別 (安定条件、ラウス・フルビッツの判定法、リアプノフ関数)\n(3) 周波数応答 (正弦波入力に対する定常応答、ボード線図、安定余裕、ナイキスト線図)\n(4) フィードバック制御 (フィードバック変換、極配置、定常偏差、サーボ系、 最適レギュレータ、 オブザーバ)\n離散時間系、時間遅れ要素を含む系は出題範囲外とします。",
+      "conditionsOriginal": "専門科目１：３問のうち２問\n専門科目２：４問のうち２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。英语不设当日笔答，接受TOEFL Home Edition、不用MyBest；外部成绩须2024年8月1日以后，TOEIC IP等不可。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-ist-system-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 ４月入学 外国人特別入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "5コース：専門科目・選答",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "筆答・口頭と免除条件",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_exam_f_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "TOEIC／TOEFL／IELTSの評価・有効期間",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/files/R09_Apr_master_Adm_Jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "令和8年4月：専門試験キーワード",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/master.html",
+          "kind": "page"
+        },
+        {
+          "label": "最新2027一般・外国人特別要項",
+          "url": "https://www.ist.hokudai.ac.jp/examinfo/index.html",
+          "kind": "page"
+        }
+      ],
+      "course": "システム情報科学コース",
+      "subjectsOriginal": "専門科目１：応用数学Ⅰ，応用数学Ⅱ，情報学基礎\n専門科目２：力学，電気回路，電磁気学，線形制御理論\n口頭試問\n外国語（英語又は日本語）",
+      "scopeOriginal": "システム情報科学コースの専門試験の各科目は、つぎのようなキーワードで代表されますので、参考にして下さい。\n１．専門科目１（2問選択）\n応用数学Ⅰ\n(1)線形代数、(2)ベクトル解析\n応用数学Ⅱ\n(1)常微分方程式、(2)ラプラス変換、(3)フーリエ級数とフーリエ変換\n情報学基礎\n(1)集合・写像、(2)数え挙げ、(3)グラフ理論、(4)論理\n２．専門科目２（２問選択）\n力学\n(1)運動の記述、(2)ニュートンの運動方程式、(3)仕事とエネルギー、(4)運動量と力積、(5)振動、(6)剛体の運動、(7)解析力学\n参考図書：\n阿部龍蔵、「岩波基礎物理シリーズ　力学・解析力学」、岩波書店\n電気回路\n(1) 直流回路\n(2) 交流回路(ひずみ波交流，三相交流を除く)\n(3) 回路の諸定理(重ね合せの理、テブナン・ノートン等価回路、相反定理、Δ-Ｙ変換、ブリッジ回路、整合)\n(4) 2端子対回路(Y行列とZ行列、H行列、F行列)\n(5) 過渡解析（微分方程式を解く一般的解法、ラプラス変換による計算法）\n参考図書：\n小澤孝夫、「電気回路を理解する」、昭晃堂\n電磁気学\n一様媒質中の電磁気学を範囲とします．\n(1) 静電界(電界、電束密度、電位、クーロンの法則、ガウスの法則、電界のエネルギー)\n(2) 静磁界(磁界、磁束密度、ベクトルポテンシャル、ビオ・サバールの法則、アンペールの法則、磁界のエネルギー)\n(3) 電磁力(クーロン力、ローレンツ力、仮想仕事の原理)、電磁誘導(インダクタンス、ファラデーの法則)\n(4) 電磁波(マクスウェルの方程式)\n参考図書：\n松原、坂口、山田、「工科系の電磁気学」、コロナ社、1章～3章、8.1～8.3節\n線形制御理論\n(1) 線形システムの表現 (伝達関数表現、 状態変数表現、システム変換、線形系の解、可制御・可観測性、正準形)\n(2) 安定判別 (安定条件、ラウス・フルビッツの判定法、リアプノフ関数)\n(3) 周波数応答 (正弦波入力に対する定常応答、ボード線図、安定余裕、ナイキスト線図)\n(4) フィードバック制御 (フィードバック変換、極配置、定常偏差、サーボ系、 最適レギュレータ、 オブザーバ)\n離散時間系、時間遅れ要素を含む系は出題範囲外とします。",
+      "conditionsOriginal": "専門科目１：３問のうち２問\n専門科目２：４問のうち２問",
+      "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。特别入试需受入教员推荐，不公开公募；仍有专业笔答与口头。外国籍者可选日语笔答，具B2相当以上日语证明者可能免该笔答，英语选择则用外部成绩。所选题目须事前照会，不按一般现场自由选题。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
     }
   ]
 };

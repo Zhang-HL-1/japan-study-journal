@@ -97,9 +97,67 @@ test('Kyushu math, design and life sciences preserve course, English and seasona
  assert.ok(!data.records.some(r=>r.universityId==='kyushu'&&r.id.startsWith('kyushu-sls')&&r.degreeProgram==='integrated'));
 });
 
-test('all eight university catalogs have unique validated records and clear pending entry rules', () => {
-  assert.equal(data.universities.length, 8);
-  assert.equal(new Set(data.universities.map(u => u.id)).size, 8);
+test('Hokkaido adds two graduate schools and seven eligible departments with actual 2027 sources',()=>{
+ const rs=data.records.filter(r=>r.universityId==='hokkaido');
+ assert.equal(rs.length,28);assert.equal(new Set(rs.map(r=>r.graduateSchool)).size,2);
+ assert.equal(new Set(rs.map(r=>r.graduateSchool+'/'+r.department)).size,7);
+ assert.equal(rs.filter(r=>r.admissionType==='general').length,15);
+ assert.equal(rs.filter(r=>r.admissionType==='international').length,13);
+ const pending=rs.filter(r=>r.publicationStatus==='pending');assert.equal(pending.length,1);
+ assert.ok(pending.every(r=>!r.subjectsOriginal&&!r.scopeOriginal));
+ assert.ok(rs.every(r=>r.verifiedAt==='2026-10-09'&&r.entryYear==='2027年4月'&&r.degreeProgram==='master'));
+ assert.ok(rs.every(r=>r.sources.every(s=>new URL(s.url).hostname.endsWith('.hokudai.ac.jp'))));
+ for(const q of ['北大','北海道大']){
+  const hits=core.filter(data.records,data.universities,{...initial,query:q});
+  assert.equal(hits.length,15);assert.ok(hits.every(r=>r.universityId==='hokkaido'));
+ }
+ assert.equal(core.sourceURL({url:'https://www.eng.hokudai.ac.jp/a.pdf',kind:'pdf',pdfPage:18}),'https://www.eng.hokudai.ac.jp/a.pdf#page=18');
+ for(const url of ['http://www.eng.hokudai.ac.jp/a','https://hokudai.ac.jp.evil.test/a','https://evil-hokudai.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
+});
+test('Hokkaido Engineering keeps research-room groups, oral alternatives and foreign choices distinct',()=>{
+ const f=id=>data.records.find(r=>r.id==='hokkaido-eng-'+id);
+ const energy=data.records.filter(r=>r.universityId==='hokkaido'&&r.department==='エネルギー環境システム専攻'&&r.admissionType==='general');
+ assert.equal(energy.length,2);assert.equal(new Set(energy.map(r=>r.course)).size,2);
+ assert.match(f('mechanical-general').conditionsOriginal,/材料力学.*必答.*流体力学.*必答/s);
+ assert.match(f('mechanical-general').conditionsOriginal,/550点未満/);
+ assert.ok(!f('mechanical-general').scopeOriginal);
+ assert.match(f('quantum-general').scopeOriginal,/留数定理/);
+ assert.match(f('quantum-general').conditionsOriginal,/計９問から３問/);
+ assert.match(f('materials-general').conditionsOriginal,/それぞれの科目.*３題.*２題/s);
+ assert.doesNotMatch(f('materials-general-oral').subjectsOriginal,/筆答/);
+ assert.doesNotMatch(f('materials-foreign').subjectsOriginal,/Written/);
+ assert.ok(!f('mechanical-foreign'));
+ assert.equal(data.records.filter(r=>r.universityId==='hokkaido'&&r.selectionName==='Master’s Program e3 Special Selection').length,6);
+ const e3=f('mechanical-e3');assert.match(e3.conditionsOriginal,/January 21, 2026.*730/s);
+ assert.ok(e3.sources.some(s=>s.pdfPage===9)&&e3.sources.some(s=>s.pdfPage===20));
+ assert.doesNotMatch(e3.subjectsOriginal,/Written|CSC/);
+});
+test('Hokkaido Information Science retains five courses and supervisor-designated foreign questions',()=>{
+ const rs=data.records.filter(r=>r.universityId==='hokkaido'&&r.graduateSchool==='情報科学院');
+ assert.equal(new Set(rs.map(r=>r.department)).size,1);assert.equal(new Set(rs.map(r=>r.course)).size,5);
+ const f=id=>rs.find(r=>r.id==='hokkaido-ist-'+id);
+ assert.match(f('bio-general').conditionsOriginal,/３問のうち１問/);
+ assert.match(f('bio-foreign').conditionsOriginal,/受入教員が指定/);
+ assert.doesNotMatch(f('bio-foreign').scopeOriginal,/３.*問のうち.*１.*問を選択/);
+ assert.match(f('cs-general').conditionsOriginal,/基礎数学と情報数学を含む３問/);
+ assert.match(f('system-general').scopeOriginal,/離散時間系、時間遅れ要素を含む系は出題範囲外/);
+ assert.match(f('electronics-general').subjectsOriginal,/電子回路/);
+ assert.ok(f('bio-foreign').sources.some(s=>s.url.endsWith('R09_Apr_master_exam_f_Adm_Jp.pdf')&&s.pdfPage===4));
+});
+test('Hokkaido skips excluded fields while retaining engineering and its required chemistry subjects',()=>{
+ const rs=data.records.filter(r=>r.universityId==='hokkaido');
+ const allowed=new Set(['応用物理学専攻','材料科学専攻','機械宇宙工学専攻','人間機械システムデザイン専攻','エネルギー環境システム専攻','量子理工学専攻','情報科学専攻']);
+ assert.ok(rs.every(r=>allowed.has(r.department)));
+ assert.deepEqual(data.catalog.hokkaido.graduateSchools,['工学院','情報科学院']);
+ assert.ok(!rs.some(r=>['理学院','総合化学院','環境科学院','生命科学院'].includes(r.graduateSchool)));
+ const materials=rs.find(r=>r.id==='hokkaido-eng-materials-general');
+ assert.match(materials.scopeOriginal,/化学/);
+ assert.ok(rs.some(r=>r.department==='エネルギー環境システム専攻'));
+ assert.equal(rs.filter(r=>r.publicationStatus==='pending')[0].department,'材料科学専攻');
+});
+test('all nine university catalogs have unique validated records and clear pending entry rules', () => {
+  assert.equal(data.universities.length, 9);
+  assert.equal(new Set(data.universities.map(u => u.id)).size, 9);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
   assert.ok(data.records.every(record => core.validRecord(record, data.universities)));
