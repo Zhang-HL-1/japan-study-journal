@@ -17,7 +17,7 @@
     get('scope-data-error').textContent = '部分资料暂时无法显示，请以学校官方募集要项为准。';
     get('scope-data-error').hidden = false;
   }
-  const state = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', entryYear: 'all', query: '' };
+  const state = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '' };
   let selectedId = null;
   function element(tag, text, className) {
     const node = document.createElement(tag);
@@ -53,7 +53,9 @@
     state.graduateSchool = options('scope-graduate', unique(base.map(record => record.graduateSchool)), state.graduateSchool, '尚无研究科资料');
     const departments = base.filter(record => state.graduateSchool === 'all' || record.graduateSchool === state.graduateSchool);
     state.department = options('scope-department', unique(departments.map(record => record.department)), state.department, '尚无专攻资料');
-    state.entryYear = options('scope-year', unique(departments.filter(record => state.department === 'all' || record.department === state.department).map(record => record.entryYear)), state.entryYear, '尚无年度资料');
+    const fields = departments.filter(record => state.department === 'all' || record.department === state.department);
+    state.course = options('scope-field', unique(fields.map(record => record.course).filter(Boolean)), state.course, '尚无独立方向资料');
+    state.entryYear = options('scope-year', unique(fields.filter(record => state.course === 'all' || record.course === state.course).map(record => record.entryYear)), state.entryYear, '尚无年度资料');
   }
   function showDetail(record, focus) {
     selectedId = record.id;
@@ -93,6 +95,19 @@
   }
   function render() {
     updateOptions();
+    const guides = data.catalog?.[state.universityId]?.directionGuides || [];
+    get('scope-directions').hidden = !guides.length;
+    get('scope-direction-buttons').replaceChildren();
+    get('scope-direction-note').textContent = guides.find(guide => guide.query === state.query)?.note || '';
+    for (const guide of guides) {
+      const button = element('button', guide.label); button.type = 'button';
+      button.setAttribute('aria-pressed', String(guide.query === state.query));
+      button.addEventListener('click', () => {
+        Object.assign(state, {graduateSchool:'理工学研究科', department:'all', course:'all', entryYear:'all', query:guide.query});
+        get('scope-query').value = guide.query; render();
+      });
+      get('scope-direction-buttons').append(button);
+    }
     const statusNote = data.catalog?.[state.universityId]?.note || data.catalog?.note || '按适用年度与学校官方选拔名称查阅。每条资料附核验日期和官方出处。';
     const statusDot = element('span', '', 'status-dot'); statusDot.setAttribute('aria-hidden', 'true');
     get('data-status').replaceChildren(statusDot, element('p', statusNote));
@@ -122,15 +137,16 @@
     if (selected) showDetail(selected, false);
     else { selectedId = null; get('scope-detail').replaceChildren(); get('scope-detail').hidden = true; }
   }
-  function setSchool(id) { state.universityId = id; state.graduateSchool = 'all'; state.department = 'all'; state.entryYear = 'all'; render(); }
+  function setSchool(id) { state.universityId = id; state.graduateSchool = 'all'; state.department = 'all'; state.course = 'all'; state.entryYear = 'all'; render(); }
   document.querySelectorAll('[data-university]').forEach(button => button.addEventListener('click', () => setSchool(button.dataset.university)));
-  document.querySelectorAll('[data-admission]').forEach(button => button.addEventListener('click', () => { state.admissionType = button.dataset.admission; state.graduateSchool = 'all'; state.department = 'all'; state.entryYear = 'all'; render(); }));
+  document.querySelectorAll('[data-admission]').forEach(button => button.addEventListener('click', () => { state.admissionType = button.dataset.admission; state.graduateSchool = 'all'; state.department = 'all'; state.course = 'all'; state.entryYear = 'all'; render(); }));
   get('scope-school').addEventListener('change', event => setSchool(event.target.value));
-  get('scope-graduate').addEventListener('change', event => { state.graduateSchool = event.target.value; state.department = 'all'; state.entryYear = 'all'; render(); });
-  get('scope-department').addEventListener('change', event => { state.department = event.target.value; state.entryYear = 'all'; render(); });
+  get('scope-graduate').addEventListener('change', event => { state.graduateSchool = event.target.value; state.department = 'all'; state.course = 'all'; state.entryYear = 'all'; render(); });
+  get('scope-department').addEventListener('change', event => { state.department = event.target.value; state.course = 'all'; state.entryYear = 'all'; render(); });
+  get('scope-field').addEventListener('change', event => { state.course = event.target.value; state.entryYear = 'all'; render(); });
   get('scope-year').addEventListener('change', event => { state.entryYear = event.target.value; render(); });
   get('scope-query').addEventListener('input', event => { state.query = event.target.value; render(); });
-  function reset() { Object.assign(state, { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', entryYear: 'all', query: '' }); get('scope-query').value = ''; render(); }
+  function reset() { Object.assign(state, { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '' }); get('scope-query').value = ''; render(); }
   get('scope-reset').addEventListener('click', reset); get('scope-empty-reset').addEventListener('click', reset);
   render();
 })();

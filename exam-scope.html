@@ -40,9 +40,15 @@
       </section>
       <div class="scope-principles" aria-label="资料收录方式"><span>全称展示</span><span>一般入试 / 留学生入试</span><span>科目与范围保留原文</span><span>附官方出处与适用年度</span></div>
       <section class="scope-catalog" id="scope-search" aria-labelledby="catalog-title">
-        <div class="scope-section-heading"><div><p class="scope-kicker">01 / 查阅资料</p><h2 id="catalog-title">找到你的考试范围。</h2></div><p id="catalog-total">已收录 <strong>720</strong> 条资料</p></div>
+        <div class="scope-section-heading"><div><p class="scope-kicker">01 / 查阅资料</p><h2 id="catalog-title">找到你的考试范围。</h2></div><p id="catalog-total">已收录 <strong>744</strong> 条资料</p></div>
         <div class="scope-status" id="data-status"><span class="status-dot" aria-hidden="true"></span><p><strong>已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学与慶應義塾大学</strong><br />按官方选拔名称和适用入学年度查阅修士与修士相关资料；一贯制、变更预告、待公布案内与修士募集停止分别标注。</p></div>
         <div class="school-bar" id="school-buttons" role="group" aria-label="学校筛选"><button type="button" data-university="all" aria-pressed="true">全部学校</button></div>
+        <section class="scope-directions" id="scope-directions" aria-label="常见方向查找" hidden>
+          <h3>按熟悉的方向查找</h3>
+          <p>庆应自2026年度改组。以下包含旧専修名称，点击查看相关现行分野；具体考试需按希望导师所属确认。</p>
+          <div class="school-bar" id="scope-direction-buttons" role="group" aria-label="方向快捷入口"></div>
+          <p id="scope-direction-note" role="status" aria-live="polite"></p>
+        </section>
         <div class="scope-layout">
           <aside class="scope-filters" aria-label="考试资料筛选">
             <div class="scope-filter-heading"><h3>筛选资料</h3><button class="scope-plain" id="scope-reset" type="button">重置</button></div>
@@ -51,6 +57,7 @@
             <label for="scope-school">学校</label><select id="scope-school"><option value="all">全部学校</option></select>
             <label for="scope-graduate">研究科 / 学院</label><select id="scope-graduate" disabled><option value="all">等待添加研究科资料</option></select>
             <label for="scope-department">专攻 / 系 / 课程</label><select id="scope-department" disabled><option value="all">等待添加专攻资料</option></select>
+            <label for="scope-field">教育研究分野 / 方向</label><select id="scope-field" disabled><option value="all">等待添加方向资料</option></select>
             <label for="scope-year">适用入学年度</label><select id="scope-year" disabled><option value="all">等待添加年度资料</option></select>
             <label for="scope-query">关键词</label><input id="scope-query" type="search" maxlength="100" placeholder="学校、专攻或考试科目" autocomplete="off" />
             <a class="scope-practice-link" href="practice.html"><span>准备好范围之后</span><strong>进入修考练习室 ↗</strong></a>

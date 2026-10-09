@@ -218,7 +218,59 @@
         "政策・メディア研究科",
         "メディアデザイン研究科"
       ],
-      "note": "慶應義塾大学：电气电子方向在「総合デザイン工学専攻／電気情報工学」下查阅，已收录6条；可搜索“电气电子工学／電気電子工学”。按2026年改组后的正式名称收录理工学3个保留专攻的6个工程／信息教育研究分野，以及SDM研究型一般入试、SFC的CI项目国内／海外出愿、KMD第Ⅱ期一般入试；共4研究科、6正式专攻、47条2027年4月／9月入学资料，一般29条、IGP英语项目18条。核对日期2026-10-09。理工学6月、8月、飞び級与IGP各期分别保存；IGP分野用于定位教员，不另造课程学籍。按后续学校偏好跳过医学、化学、药学、纯数学、纯物理及独立土木建筑、环境、社会学、教育、人文等方向；系统工程共通试卷中的建筑／环境选答科目保留原表。SFC仅CI，SDM仅リサーチインテンシブ一般入试，KMD仅当前第Ⅱ期一般入试，不代表覆盖全校或全部选拔。此前九校资料保持原样。"
+      "note": "慶應義塾大学：已对照10个常见方向补齐查找入口，新增数理科学、物理学及材料相关的分子・生物化学、創発理化学。共4研究科、7个正式专攻、71条2027年4月／9月入学资料：一般41条、IGP英语项目30条。理工学覆盖现行4専攻下10个教育研究分野，6月、8月、飞び級与IGP各期分别保存。2026年度已改组；旧専修名称与现行分野并非一对一，具体考试按希望导师所属确认。SDM仅研究型一般入试，SFC仅CI，KMD仅当前第Ⅱ期一般入试；生命システム情報及其他未核验项目不计为覆盖。核对日期2026-10-09。",
+      "directionGuides": [
+        {
+          "label": "電気電子工学",
+          "query": "電気電子工学",
+          "note": "当前招生分野为電気情報工学；正式专攻为総合デザイン工学専攻。"
+        },
+        {
+          "label": "情報工学",
+          "query": "情報工学専修",
+          "note": "可先查人間・社会システム情報科学専攻／オープンサイエンス，具体受验分野按导师所属确认。"
+        },
+        {
+          "label": "数理科学",
+          "query": "数理科学専修",
+          "note": "已补入先端数物科学専攻／数理科学，6月、8月、飞び級及IGP分别列出。"
+        },
+        {
+          "label": "物理情報",
+          "query": "物理情報専修",
+          "note": "当前名称为先端数物科学専攻／物理情報工学。"
+        },
+        {
+          "label": "物理学",
+          "query": "物理学専修",
+          "note": "已补入先端数物科学専攻／物理学，按现行要项记录考试科目。"
+        },
+        {
+          "label": "応用力学・計算力学",
+          "query": "応用力学・計算力学",
+          "note": "相关现行入口：機械工学、システムデザイン工学。旧专修与现行分野并非一对一，需按导师确认。"
+        },
+        {
+          "label": "オープンシステムマネジメント",
+          "query": "オープンシステムマネジメント",
+          "note": "相关现行入口：管理工学、オープンサイエンス。需按导师所属选择受验分野。"
+        },
+        {
+          "label": "システム統合工学",
+          "query": "システム統合工学",
+          "note": "相关现行入口：機械工学、電気情報工学、システムデザイン工学。具体受验分野需按导师确认。"
+        },
+        {
+          "label": "マテリアルデザイン科学",
+          "query": "マテリアルデザイン科学",
+          "note": "已补入材料相关的分子・生物化学、創発理化学，并关联物理情報工学。材料设计跨分野，需按导师确认考试。"
+        },
+        {
+          "label": "マルチディシプリナリ・デザイン科学",
+          "query": "マルチディシプリナリ・デザイン科学",
+          "note": "相关现行入口：機械工学、システムデザイン工学。旧专修与现行分野并非一对一，需按导师确认。"
+        }
+      ]
     }
   },
   "records": [
@@ -28617,7 +28669,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
-      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
@@ -28647,12 +28699,38 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：物理情報工学",
       "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
       "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "物理情報専修",
+        "物理情報",
+        "物理信息",
+        "物理情報工学専修",
+        "材料设计",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修"
+      ]
     },
     {
       "id": "keio-st-physico-august",
@@ -28666,7 +28744,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "記述試問：電気・電子回路、電磁気学・量子力学、物理情報数学\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "8月入学試験：分野別試験科目・選択方法",
@@ -28708,12 +28786,38 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：物理情報工学",
       "scopeOriginal": "電気・電子回路、電磁気学・量子力学、物理情報数学に関する学力ならびに論理的思考力を調査する論述問題。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
       "conditionsOriginal": "全問解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "物理情報専修",
+        "物理情報",
+        "物理信息",
+        "物理情報工学専修",
+        "材料设计",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修"
+      ]
     },
     {
       "id": "keio-st-physico-early",
@@ -28727,7 +28831,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "飛び級入学試験：口述試問・総合評価",
@@ -28769,11 +28873,37 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：物理情報工学",
       "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
-      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "物理情報専修",
+        "物理情報",
+        "物理信息",
+        "物理情報工学専修",
+        "材料设计",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修"
+      ]
     },
     {
       "id": "keio-st-physico-igp-i-4",
@@ -28787,7 +28917,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Applied Physics and Physico-Informatics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Applied Physics and Physico-Informatics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -28829,11 +28959,37 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：物理情報工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "物理情報専修",
+        "物理情報",
+        "物理信息",
+        "物理情報工学専修",
+        "材料设计",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修"
+      ]
     },
     {
       "id": "keio-st-physico-igp-i-9",
@@ -28847,7 +29003,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Applied Physics and Physico-Informatics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Applied Physics and Physico-Informatics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -28889,11 +29045,37 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：物理情報工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "物理情報専修",
+        "物理情報",
+        "物理信息",
+        "物理情報工学専修",
+        "材料设计",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修"
+      ]
     },
     {
       "id": "keio-st-physico-igp-ii-9",
@@ -28907,7 +29089,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Applied Physics and Physico-Informatics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Applied Physics and Physico-Informatics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -28949,11 +29131,37 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：物理情報工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "物理情報専修",
+        "物理情報",
+        "物理信息",
+        "物理情報工学専修",
+        "材料设计",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修"
+      ]
     },
     {
       "id": "keio-st-mechanical-june",
@@ -28967,7 +29175,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
-      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
@@ -28997,12 +29205,51 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：機械工学",
       "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
       "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-mechanical-august",
@@ -29016,7 +29263,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "記述試問：機械力学・材料力学、熱力学・流体力学、卒業研究に関する論述問題\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "8月入学試験：分野別試験科目・選択方法",
@@ -29058,12 +29305,51 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：機械工学",
       "scopeOriginal": "機械力学・材料力学分野および熱力学・流体力学分野の基礎学力。卒業研究の内容ならびに関連する学術分野に関する論述問題。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
       "conditionsOriginal": "機械力学・材料力学分野または熱力学・流体力学分野のいずれか一方を選択して解答。さらに卒業研究に関する論述問題。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-mechanical-early",
@@ -29077,7 +29363,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "飛び級入学試験：口述試問・総合評価",
@@ -29119,11 +29405,50 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：機械工学",
       "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
-      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-mechanical-igp-i-4",
@@ -29137,7 +29462,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mechanical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mechanical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29179,11 +29504,50 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：機械工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-mechanical-igp-i-9",
@@ -29197,7 +29561,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mechanical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mechanical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29239,11 +29603,50 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：機械工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-mechanical-igp-ii-9",
@@ -29257,7 +29660,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mechanical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mechanical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29299,11 +29702,50 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：機械工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-electrical-june",
@@ -29317,7 +29759,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
-      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
@@ -29352,6 +29794,23 @@
           "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
           "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：電気情報工学",
@@ -29367,7 +29826,10 @@
         "電気情報工学カリキュラム",
         "Electronics and Electrical Engineering",
         "Electrical and Electronic Engineering",
-        "EEE"
+        "EEE",
+        "電気電子工学専修",
+        "システム統合工学",
+        "システム統合工学専修"
       ]
     },
     {
@@ -29382,7 +29844,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "記述試問：電気回路、情報工学、物性工学、数学\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "8月入学試験：分野別試験科目・選択方法",
@@ -29429,6 +29891,23 @@
           "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
           "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：電気情報工学",
@@ -29444,7 +29923,10 @@
         "電気情報工学カリキュラム",
         "Electronics and Electrical Engineering",
         "Electrical and Electronic Engineering",
-        "EEE"
+        "EEE",
+        "電気電子工学専修",
+        "システム統合工学",
+        "システム統合工学専修"
       ]
     },
     {
@@ -29459,7 +29941,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "飛び級入学試験：口述試問・総合評価",
@@ -29506,6 +29988,23 @@
           "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
           "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：電気情報工学",
@@ -29520,7 +30019,10 @@
         "電気情報工学カリキュラム",
         "Electronics and Electrical Engineering",
         "Electrical and Electronic Engineering",
-        "EEE"
+        "EEE",
+        "電気電子工学専修",
+        "システム統合工学",
+        "システム統合工学専修"
       ]
     },
     {
@@ -29535,7 +30037,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29582,6 +30084,23 @@
           "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
           "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：電気情報工学",
@@ -29596,7 +30115,10 @@
         "電気情報工学カリキュラム",
         "Electronics and Electrical Engineering",
         "Electrical and Electronic Engineering",
-        "EEE"
+        "EEE",
+        "電気電子工学専修",
+        "システム統合工学",
+        "システム統合工学専修"
       ]
     },
     {
@@ -29611,7 +30133,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29658,6 +30180,23 @@
           "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
           "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：電気情報工学",
@@ -29672,7 +30211,10 @@
         "電気情報工学カリキュラム",
         "Electronics and Electrical Engineering",
         "Electrical and Electronic Engineering",
-        "EEE"
+        "EEE",
+        "電気電子工学専修",
+        "システム統合工学",
+        "システム統合工学専修"
       ]
     },
     {
@@ -29687,7 +30229,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "editorialNote": "电气电子方向对应当前正式招生分野“電気情報工学”（官方英文 Electronics and Electrical Engineering），隶属総合デザイン工学専攻。可搜索“电气电子工学／電気電子工学”；这是名称对应说明，考试科目仍按该分野的官方要项。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Electronics and Electrical Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29734,6 +30276,23 @@
           "label": "電気情報工学カリキュラム：電気電子工学との名称・領域対応",
           "url": "https://www.keio.ac.jp/ja/st/department/design-engineering/elec/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：電気情報工学",
@@ -29748,7 +30307,10 @@
         "電気情報工学カリキュラム",
         "Electronics and Electrical Engineering",
         "Electrical and Electronic Engineering",
-        "EEE"
+        "EEE",
+        "電気電子工学専修",
+        "システム統合工学",
+        "システム統合工学専修"
       ]
     },
     {
@@ -29763,7 +30325,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
-      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
@@ -29793,12 +30355,51 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：システムデザイン工学",
       "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
       "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-system-design-august",
@@ -29812,7 +30413,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "記述試問：材料力学・構造力学、熱・環境工学、電気回路、電磁気工学、建築計画、卒業研究に関する論述問題\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "8月入学試験：分野別試験科目・選択方法",
@@ -29854,12 +30455,51 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：システムデザイン工学",
       "scopeOriginal": "各分野の基礎学力を問う記述問題。卒業研究に関連する学力ならびに論理的思考力を問う論述問題。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
       "conditionsOriginal": "計5問から2問を選択して解答。さらに卒業研究に関する論述問題。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-system-design-early",
@@ -29873,7 +30513,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "飛び級入学試験：口述試問・総合評価",
@@ -29915,11 +30555,50 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：システムデザイン工学",
       "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
-      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-system-design-igp-i-4",
@@ -29933,7 +30612,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of System Design Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of System Design Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -29975,11 +30654,50 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：システムデザイン工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-system-design-igp-i-9",
@@ -29993,7 +30711,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of System Design Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of System Design Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -30035,11 +30753,50 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：システムデザイン工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-system-design-igp-ii-9",
@@ -30053,7 +30810,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of System Design Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of System Design Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。本分野保留系统与机电工程入口；共通试卷的建筑计划和热／环境选答科目按原表保留，不据此新增建筑或环境学专业。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -30095,11 +30852,50 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧応用力学・計算力学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/33ACM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧マルチディシプリナリ・デザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/21MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧システム統合工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/22SIE.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：システムデザイン工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "応用力学・計算力学",
+        "应用力学",
+        "计算力学",
+        "マルチディシプリナリ・デザイン科学",
+        "システム統合工学",
+        "応用力学・計算力学専修",
+        "マルチディシプリナリ・デザイン科学専修",
+        "システム統合工学専修"
+      ]
     },
     {
       "id": "keio-st-open-sciences-june",
@@ -30113,7 +30909,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
-      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
@@ -30143,12 +30939,43 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧情報工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/34ICS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：オープンサイエンス",
       "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
       "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "情報工学専修",
+        "信息工学",
+        "信息工程",
+        "情報工学方向",
+        "オープンシステムマネジメント",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-open-sciences-august",
@@ -30162,7 +30989,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "記述試問：これまでの専門分野・領域における経験、入学後の学修・研究の展望\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "8月入学試験：分野別試験科目・選択方法",
@@ -30204,12 +31031,43 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧情報工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/34ICS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：オープンサイエンス",
       "scopeOriginal": "これまでの専門分野・領域における経験、および入学後の学修・研究の展望に関する記述問題。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
       "conditionsOriginal": "問題は英語で出題される場合がある。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "情報工学専修",
+        "信息工学",
+        "信息工程",
+        "情報工学方向",
+        "オープンシステムマネジメント",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-open-sciences-early",
@@ -30223,7 +31081,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "飛び級入学試験：口述試問・総合評価",
@@ -30265,11 +31123,42 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧情報工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/34ICS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：オープンサイエンス",
       "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
-      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "情報工学専修",
+        "信息工学",
+        "信息工程",
+        "情報工学方向",
+        "オープンシステムマネジメント",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-open-sciences-igp-i-4",
@@ -30283,7 +31172,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Open Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Open Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -30325,11 +31214,42 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧情報工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/34ICS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：オープンサイエンス",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "情報工学専修",
+        "信息工学",
+        "信息工程",
+        "情報工学方向",
+        "オープンシステムマネジメント",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-open-sciences-igp-i-9",
@@ -30343,7 +31263,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Open Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Open Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -30385,11 +31305,42 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧情報工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/34ICS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：オープンサイエンス",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "情報工学専修",
+        "信息工学",
+        "信息工程",
+        "情報工学方向",
+        "オープンシステムマネジメント",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-open-sciences-igp-ii-9",
@@ -30403,7 +31354,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Open Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Open Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。用于本分野内的信息与计算机研究方向；与导师确认实际研究主题。未将跨领域培养说明当作考试范围。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -30445,11 +31396,42 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧情報工学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/34ICS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：オープンサイエンス",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "情報工学専修",
+        "信息工学",
+        "信息工程",
+        "情報工学方向",
+        "オープンシステムマネジメント",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-industrial-june",
@@ -30463,7 +31445,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
-      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
@@ -30493,12 +31475,35 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：管理工学",
       "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
       "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "オープンシステムマネジメント",
+        "开放系统管理",
+        "開放系統管理",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-industrial-august",
@@ -30512,7 +31517,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "記述試問：数学、統計、オペレーションズ・リサーチ、経営、経済、情報、人間工学、インダストリアル・エンジニアリング\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "8月入学試験：分野別試験科目・選択方法",
@@ -30554,12 +31559,35 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：管理工学",
       "scopeOriginal": "数学：線形代数・微積分・確率・凸解析の基礎など、管理工学に必要な数学分野。選択問題：統計、オペレーションズ・リサーチ、経営、経済、情報、人間工学、インダストリアル・エンジニアリング。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
       "conditionsOriginal": "数学から解答必須の問題2問。7分野から各1問を出題する選択問題より3問を選択し、合計5問を解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
-      "internationalGeneral": true
+      "internationalGeneral": true,
+      "searchAliases": [
+        "オープンシステムマネジメント",
+        "开放系统管理",
+        "開放系統管理",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-industrial-early",
@@ -30573,7 +31601,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "ja",
       "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
-      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "飛び級入学試験：口述試問・総合評価",
@@ -30615,11 +31643,34 @@
           "label": "理工学研究科 修士課程 公式入試案内",
           "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：管理工学",
       "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
-      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。"
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "オープンシステムマネジメント",
+        "开放系统管理",
+        "開放系統管理",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-industrial-igp-i-4",
@@ -30633,7 +31684,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Industrial and Systems Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Industrial and Systems Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -30675,11 +31726,34 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：管理工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "オープンシステムマネジメント",
+        "开放系统管理",
+        "開放系統管理",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-industrial-igp-i-9",
@@ -30693,7 +31767,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Industrial and Systems Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Industrial and Systems Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -30735,11 +31809,34 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：管理工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "オープンシステムマネジメント",
+        "开放系统管理",
+        "開放系統管理",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-st-industrial-igp-ii-9",
@@ -30753,7 +31850,7 @@
       "verifiedAt": "2026-10-09",
       "originalLanguage": "en",
       "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
-      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Industrial and Systems Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Industrial and Systems Engineering”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。保留工业与系统工程、运筹、统计和信息应用方向；正式专攻名称中的“人間・社会”不改写成社会学专攻。 旧专修名称用于查找相关现行分野，不表示一对一改名。庆应自2026年度改组；旧专修说明仅适用于2025年度以前入学者。本条考试内容以现行募集要项及希望指导教员所属分野为准。",
       "sources": [
         {
           "label": "IGP Admissions Criteria: application-document screening",
@@ -30795,11 +31892,34 @@
           "label": "International Graduate Programs — Application",
           "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
           "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧オープンシステムマネジメント専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/35OSM.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
         }
       ],
       "course": "教育研究分野：管理工学",
       "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
-      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required."
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "オープンシステムマネジメント",
+        "开放系统管理",
+        "開放系統管理",
+        "オープンシステムマネジメント専修"
+      ]
     },
     {
       "id": "keio-sdm-general-i-4",
@@ -31453,6 +32573,1970 @@
       "scopeOriginal": "SoP：入学志望動機、修士課程で解決したい課題・成し遂げたいこと、修了後の希望進路。\n実績：学術系、作品ポートフォリオ、社会活動・ビジネス等の資料（組合せで最大5件）と、価値・本人の貢献を論じるペーパー。\nCreative Challenge: Dream-Driven Design — Future of a Sector or Topic; Your Experience, Wisdom, Knowledge, and Skills; Dream Futures in 2060; Actionable Project.",
       "conditionsOriginal": "回答書は英語で作成。SoPは1ページ以内、実績に関するペーパーは2ページ以内、クリエイティブ・チャレンジは3ページ以内。2次選考は1次選考合格者を対象に英語で口頭試問、オンライン（Zoom）で実施。2026年10月17日・18日。\n英語を母語としない者はTOEFL、IELTS、PTEのスコアを提出（英語授業のみで学位を取得・取得予定の場合は免除）。TOEIC等は受け付けない。教員への出願前連絡は任意で、出願期間開始後は連絡できない。",
       "internationalGeneral": true
+    },
+    {
+      "id": "keio-st-math-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行数理科学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/math/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：数理科学",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "数理科学専修",
+        "数学",
+        "数理科学课程",
+        "Mathematics and Mathematical Sciences"
+      ]
+    },
+    {
+      "id": "keio-st-math-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：微分積分、線形代数、集合と位相の基礎、代数学の基礎\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行数理科学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/math/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：数理科学",
+      "scopeOriginal": "微分積分、線形代数、集合と位相の基礎、代数学の基礎を中心に出題する (全問解答)。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
+      "conditionsOriginal": "全問解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "数理科学専修",
+        "数学",
+        "数理科学课程",
+        "Mathematics and Mathematical Sciences"
+      ]
+    },
+    {
+      "id": "keio-st-math-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行数理科学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/math/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：数理科学",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "数理科学専修",
+        "数学",
+        "数理科学课程",
+        "Mathematics and Mathematical Sciences"
+      ]
+    },
+    {
+      "id": "keio-st-math-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mathematics and Mathematical Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行数理科学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/math/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：数理科学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "数理科学専修",
+        "数学",
+        "数理科学课程",
+        "Mathematics and Mathematical Sciences"
+      ]
+    },
+    {
+      "id": "keio-st-math-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mathematics and Mathematical Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行数理科学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/math/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：数理科学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "数理科学専修",
+        "数学",
+        "数理科学课程",
+        "Mathematics and Mathematical Sciences"
+      ]
+    },
+    {
+      "id": "keio-st-math-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Mathematics and Mathematical Sciences”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行数理科学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/math/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：数理科学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "数理科学専修",
+        "数学",
+        "数理科学课程",
+        "Mathematics and Mathematical Sciences"
+      ]
+    },
+    {
+      "id": "keio-st-physics-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行物理学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/phys/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理学",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "物理学専修",
+        "物理学课程",
+        "Physics"
+      ]
+    },
+    {
+      "id": "keio-st-physics-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：力学・解析力学・電磁気学、熱力学・統計力学、量子力学\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行物理学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/phys/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理学",
+      "scopeOriginal": "物理学の諸分野、特に力学・解析力学・電磁気学、熱力学・統計力学、量子力学から出題する (全問解答)。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。",
+      "conditionsOriginal": "全問解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "物理学専修",
+        "物理学课程",
+        "Physics"
+      ]
+    },
+    {
+      "id": "keio-st-physics-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行物理学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/phys/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理学",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "物理学専修",
+        "物理学课程",
+        "Physics"
+      ]
+    },
+    {
+      "id": "keio-st-physics-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Physics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行物理学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/phys/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "物理学専修",
+        "物理学课程",
+        "Physics"
+      ]
+    },
+    {
+      "id": "keio-st-physics-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Physics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行物理学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/phys/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "物理学専修",
+        "物理学课程",
+        "Physics"
+      ]
+    },
+    {
+      "id": "keio-st-physics-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "先端数物科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Physics”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "现行物理学カリキュラム",
+          "url": "https://www.keio.ac.jp/ja/st/department/advanced-science/phys/",
+          "kind": "page"
+        }
+      ],
+      "course": "教育研究分野：物理学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "物理学専修",
+        "物理学课程",
+        "Physics"
+      ]
+    },
+    {
+      "id": "keio-st-molecular-chemical-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“分子・生物化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：分子・生物化学",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "分子化学",
+        "生物化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Molecular Chemistry and Chemical Biology"
+      ]
+    },
+    {
+      "id": "keio-st-molecular-chemical-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：物理化学、無機化学、有機化学\n卒業研究あるいは卒業研究に関連した内容（小論文形式）\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“分子・生物化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：分子・生物化学",
+      "scopeOriginal": "物理化学、無機化学および有機化学の各分野の基礎的な内容に関する学力を調査する問題、ならびに卒業研究あるいは卒業研究に関連した内容に関する小論文形式の問題を出題する (全問解答)。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。\n「卒業研究」は卒業研究に相当する科目（特別研究、課題研究、特別実験、卒業演習など）を含む。",
+      "conditionsOriginal": "全問解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "分子化学",
+        "生物化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Molecular Chemistry and Chemical Biology"
+      ]
+    },
+    {
+      "id": "keio-st-molecular-chemical-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“分子・生物化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：分子・生物化学",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "分子化学",
+        "生物化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Molecular Chemistry and Chemical Biology"
+      ]
+    },
+    {
+      "id": "keio-st-molecular-chemical-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“分子・生物化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Molecular Chemistry and Chemical Biology”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：分子・生物化学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "分子化学",
+        "生物化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Molecular Chemistry and Chemical Biology"
+      ]
+    },
+    {
+      "id": "keio-st-molecular-chemical-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“分子・生物化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Molecular Chemistry and Chemical Biology”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：分子・生物化学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "分子化学",
+        "生物化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Molecular Chemistry and Chemical Biology"
+      ]
+    },
+    {
+      "id": "keio-st-molecular-chemical-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“分子・生物化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Molecular Chemistry and Chemical Biology”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：分子・生物化学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "分子化学",
+        "生物化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Molecular Chemistry and Chemical Biology"
+      ]
+    },
+    {
+      "id": "keio-st-emerging-physico-chemistry-june",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "6月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査\n口述試問（書類審査で必要と判断された者）",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“創発理化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。6月是考试月份；本条对应2027年4月入学。没有固定笔试科目；不能复制8月试卷作为6月考纲。",
+      "sources": [
+        {
+          "label": "6月入学試験：書類審査・口述試問（実際PDF第12頁）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "6月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年度 4専攻・教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：創発理化学",
+      "scopeOriginal": "口述試問では勉学意欲と基礎ならびに専門分野の学力を審査する。",
+      "conditionsOriginal": "出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n書類審査のみで入学が許可される者、口述試問を受ける者、8月入学試験を改めて受験する必要がある者に選別。口述試問は2026年6月14日、原則日本語。板書での回答を求める場合がある。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "创发理化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Emerging Physico-Chemistry"
+      ]
+    },
+    {
+      "id": "keio-st-emerging-physico-chemistry-august",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "8月入学試験（2026年度実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "記述試問：物理化学、無機化学、有機化学\n卒業研究あるいは卒業研究に関連した学術分野（論理的説明力・思考力）\n口述試問\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“創発理化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。按实际PDF第18页的分野行保存选答规则；TOEFL／TOEIC提交方式及校内IP允许名单另见第19页和官方补足PDF。募集要项没有列本分野更细的章节或统一英语最低分。",
+      "sources": [
+        {
+          "label": "8月入学試験：分野別試験科目・選択方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "8月試験日・英語スコア・口述条件（4月12日更新）",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "8月入試 出願資格・2027年4月入学",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "指導教員・教育研究分野の選択",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "出願書類として有効な慶應義塾内のTOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：創発理化学",
+      "scopeOriginal": "物理化学、無機化学および有機化学の基礎的な内容に関する学力を調査する問題、ならびに卒業研究あるいは卒業研究に関連した学術分野に関する論理的説明力・思考力を調査する問題を出題する (全問解答)。\n口述試問：記述試問の範囲、志望する専門分野、適性・意欲等。板書での回答を求める場合がある。\n「卒業研究」は卒業研究に相当する科目（特別研究、課題研究、特別実験、卒業演習など）を含む。",
+      "conditionsOriginal": "全問解答。\n出願時に希望指導教員が所属する教育研究分野を選択する。教員が複数分野に所属する場合も受験できるのは1分野のみ。受験分野・研究計画・必要な基礎学力について必ず事前に希望指導教員に相談する。\n記述試問2026年8月26日（10:00～12:00）、口述試問8月28日。原則日本語。記述試問を未受験の場合は口述試問を受験できない。\n英語は2024年7月21日以降の受験スコアを出願時に提出。慶應義塾内で実施された特定のTOEIC L&R-IPは別表に記載された試験のみ使用可。",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "创发理化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Emerging Physico-Chemistry"
+      ]
+    },
+    {
+      "id": "keio-st-emerging-physico-chemistry-early",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "飛び級入学試験（2027年2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "入学志願者調書・口述試問等\n英語外部試験：TOEFL Test／TOEIC Listening & Reading Test／TOEIC Speaking & Writing Test",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“創発理化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。仅限符合资格的大三跳级入口，与普通毕业生6月／8月入试分开。要项未公布固定口试题单；不能套用8月笔试。跳级进入修士后不取得本科毕业资格。",
+      "sources": [
+        {
+          "label": "飛び級入学試験：口述試問・総合評価",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "飛び級入試 資格・日程・学士資格の注意",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "飛び級出願資格認定・英語有効期",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "飛び級が準用する英語スコア提出方法",
+          "url": "https://www.keio.ac.jp/files/eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "使用可能な慶應義塾内 TOEIC L&R-IP一覧",
+          "url": "https://www.keio.ac.jp/files/2d8565a1eb09e11bfcf7ee8e798654b7dbd8258b79ae329a2379cd90eb2b9008",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年度 教育研究分野 教員所属",
+          "url": "https://www.keio.ac.jp/files/5e762733d929fc4a6d26bd2e314e3a71bcc51b3926968ea9419bb226eac43660",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "理工学研究科 修士課程 公式入試案内",
+          "url": "https://www.keio.ac.jp/ja/admissions/grad/master/st/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：創発理化学",
+      "scopeOriginal": "学問的適性、研究遂行能力、志望動機の妥当性等を多面的・総合的に判断。",
+      "conditionsOriginal": "大学3年次に在籍する者を対象とし、出願前に出願資格認定審査が必要。認定申請2026年11月25日～27日。口述試問2027年2月19日、原則日本語、板書での回答を求める場合がある。事前課題提出やプレゼンテーションを課す場合は出願受付後に個別連絡。\n英語スコアは2025年1月27日以降の受験。提出方法と慶應義塾内の特定TOEIC L&R-IPの取扱いは8月入試に準じる。",
+      "searchAliases": [
+        "创发理化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Emerging Physico-Chemistry"
+      ]
+    },
+    {
+      "id": "keio-st-emerging-physico-chemistry-igp-i-4",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“創発理化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Emerging Physico-Chemistry”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：創発理化学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "创发理化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Emerging Physico-Chemistry"
+      ]
+    },
+    {
+      "id": "keio-st-emerging-physico-chemistry-igp-i-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period I",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“創発理化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Emerging Physico-Chemistry”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：創発理化学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: September 1–October 31, 2026. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "创发理化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Emerging Physico-Chemistry"
+      ]
+    },
+    {
+      "id": "keio-st-emerging-physico-chemistry-igp-ii-9",
+      "universityId": "keio",
+      "graduateSchool": "理工学研究科",
+      "department": "化学・生命情報科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "International Graduate Programs (IGP) — Master’s Application Period II",
+      "entryYear": "2027年9月",
+      "verifiedAt": "2026-10-09",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Application document screening\nGRE General Test\nTOEFL (iBT) or IELTS (Academic Module)",
+      "editorialNote": "材料设计相关入口：旧マテリアルデザイン科学専修包括化学、应用化学及物理信息教员。这里按现行“創発理化学”分野展示相关招生要求，属于查找指引，不能将旧专修与本分野视为一对一改名。具体受验分野必须依据2026教员所属表并与希望导师确认。IGP为独立英语项目修士入口，资格以海外本科学历或个别认定等为准。当前要项按申请材料审查，未列一般8月笔试或统一必考面试。GRE定量160是建议分，并非硬性合格线。所选教员分野的英文名称为“Curriculum of Emerging Physico-Chemistry”；分野用于定位导师，学生正式所属为专攻，不虚构固定课程学籍。",
+      "sources": [
+        {
+          "label": "IGP Admissions Criteria: application-document screening",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "IGP Master’s GRE and English official-score conditions",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "IGP Master’s Application Period I / II and enrollment",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IGP Master’s eligibility requirements",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Prior contact and advisor permission",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "Current four schools and curricula",
+          "url": "https://www.keio.ac.jp/files/6661c6208c81598bec436813613b966412cccc29c9da5a06f380ee09a764d8ef",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "International Graduate Programs — Application",
+          "url": "https://www.keio.ac.jp/en/st/admissions-en/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2026改组说明：旧専修适用于2025年度以前入学者",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "现行4専攻与カリキュラム：Emerging 2027",
+          "url": "https://www.keio.ac.jp/files/3198ec979233c12a6c58d7cfb1ef8374dc7438278895f56ce105009dcb4f283e",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "旧マテリアルデザイン科学専修：基本理念（2025以前入学者）",
+          "url": "https://www.students.keio.ac.jp/yg/gsst/class/registration/files/24MDS.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "course": "教育研究分野：創発理化学",
+      "scopeOriginal": "GRE General Test: Quantitative Reasoning is the main evaluation criterion; a desirable score is 160 or higher.\nGRE Subject Test: encouraged if available in a relevant field.",
+      "conditionsOriginal": "Application documents: February 1–March 31, 2027. Contact a prospective academic advisor, discuss the research plan and receive permission before applying.\nGRE General Test scores must be valid as of the application deadline. TOEFL (iBT) / IELTS scores must be taken within two years of the deadline. Official score reports must be sent directly by the testing organization, with copies uploaded by the applicant.\nEnglish-score requirement is waived for applicants with a degree taught entirely in English; official certification of the language of instruction is required.",
+      "searchAliases": [
+        "创发理化学",
+        "材料设计",
+        "材料設計",
+        "マテリアルデザイン科学",
+        "マテリアルデザイン科学専修",
+        "Emerging Physico-Chemistry"
+      ]
     }
   ]
 };

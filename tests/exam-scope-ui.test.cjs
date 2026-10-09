@@ -32,12 +32,38 @@ function boot(records=[]) {
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
+test('Keio ten direction entries replace stale filters and show current scopes in both admission views',async()=>{
+ const a=boot(catalog.records);
+ assert.equal(a.ids['scope-directions'].hidden,true);
+ await school(a,'keio').click();
+ assert.equal(a.ids['scope-directions'].hidden,false);
+ assert.equal(a.ids['scope-direction-buttons'].children.length,10);
+ a.ids['scope-department'].value='総合デザイン工学専攻';await a.ids['scope-department'].fire('change');
+ a.ids['scope-field'].value='教育研究分野：電気情報工学';await a.ids['scope-field'].fire('change');
+ assert.equal(a.ids['scope-results'].children.length,3);
+ await a.ids['scope-direction-buttons'].children.find(e=>e.textContent==='数理科学').click();
+ assert.equal(a.ids['scope-department'].value,'all');assert.equal(a.ids['scope-field'].value,'all');
+ assert.equal(a.ids['scope-results'].children.length,3);
+ assert.ok(a.ids['scope-results'].children.every(e=>e.dataset.id.startsWith('keio-st-math-')));
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,5);
+ for(const guide of catalog.catalog.keio.directionGuides) {
+  await a.ids['scope-direction-buttons'].children.find(e=>e.textContent===guide.label).click();
+  assert.ok(a.ids['scope-results'].children.length>0,guide.label);
+  assert.equal(a.ids['scope-direction-note'].textContent,guide.note);
+ }
+ await a.ids['scope-direction-buttons'].children.find(e=>e.textContent==='マテリアルデザイン科学').click();
+ assert.equal(a.ids['scope-results'].children.length,15);
+ await a.ids['scope-results'].children.find(e=>e.dataset.id==='keio-st-emerging-physico-chemistry-august').click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('論理的説明力・思考力')));
+ await a.ids['scope-reset'].click();assert.equal(a.ids['scope-directions'].hidden,true);
+ assert.equal(a.ids['scope-field'].value,'all');assert.equal(a.ids['scope-query'].value,'');
+});
 test('Keio school and field filters render current papers at their actual PDF page',async()=>{
  const a=boot(catalog.records);await school(a,'keio').click();
- assert.equal(a.ids['scope-graduate'].options.length,5);assert.equal(a.ids['scope-results'].children.length,29);
+ assert.equal(a.ids['scope-graduate'].options.length,5);assert.equal(a.ids['scope-results'].children.length,41);
  assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.keio.note);
  a.ids['scope-graduate'].value='理工学研究科';await a.ids['scope-graduate'].fire('change');
- assert.equal(a.ids['scope-department'].options.length,4);
+ assert.equal(a.ids['scope-department'].options.length,5);
  a.ids['scope-department'].value='総合デザイン工学専攻';await a.ids['scope-department'].fire('change');
  assert.equal(a.ids['scope-results'].children.length,9);
  const entry=a.ids['scope-results'].children.find(e=>e.dataset.id==='keio-st-mechanical-august');assert.ok(entry);await entry.click();
@@ -45,8 +71,8 @@ test('Keio school and field filters render current papers at their actual PDF pa
  assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===r.conditionsOriginal&&e.lang==='ja'));
  const s=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await s.children.find(e=>e.tag==='button').click();
  assert.ok(s.children.find(e=>e.tag==='iframe').src.endsWith('eabf02ff6d7086df662f583a7517435fc1fa8511d4b8709b5b64da204ac26a09#page=18'));
- await school(a,'keio').click();await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,41);
- a.ids['scope-query'].value='庆应 IGP';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,18);
+ await school(a,'keio').click();await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,61);
+ a.ids['scope-query'].value='庆应 IGP';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,30);
  await a.ids['scope-results'].children[0].click();
  assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='en'&&e.textContent.includes('GRE General Test')));
 });
