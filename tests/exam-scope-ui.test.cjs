@@ -249,7 +249,7 @@ test('school filters switch all twelve coverage notes and unmatched results rema
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学与横浜国立大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学与明治大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);
@@ -431,6 +431,20 @@ test('YNU UI separates national-funded oral selection and does not show closed s
  const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=7'));
 });
 
+test('Meiji school and subject multiselect keep real scopes, international rules and actual PDF pages',async()=>{
+ const a=boot(catalog.records);await school(a,'meiji').click();assert.equal(a.ids['scope-results'].children.length,12);
+ assert.equal(a.ids['scope-graduate'].options.length,3);assert.equal(a.ids['scope-department'].options.length,7);
+ const rows=a.ids['scope-subject-options'].querySelectorAll('input');
+ for(const id of ['information','circuit-theory']){const e=rows.find(e=>e.dataset.subject===id);e.checked=true;await e.fire('change');}
+ assert.equal(a.ids['scope-results'].children.length,2);assert.ok(a.ids['scope-results'].children.every(e=>e.dataset.id.includes('ams-network-general')));
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,4);
+ const r=a.ids['scope-results'].children.find(e=>e.dataset.id==='meiji-ams-network-international-ii');await r.click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='ja'&&e.textContent.includes('情報基礎・回路理論')));
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('解答を英語でも可')));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('a1778809689243.pdf#page=14'));
+ assert.equal(a.ids['scope-subject-mode'],undefined);
+ await a.ids['scope-subject-clear'].click();assert.equal(a.ids['scope-results'].children.length,24);
+});
 test('multi-select subjects preserve checkbox nodes, intersect filters, and support clear and reset',async()=>{
  const a=boot(catalog.records), rows=a.ids['scope-subject-options'].querySelectorAll('input');
  const find=id=>rows.find(e=>e.dataset.subject===id);

@@ -89,8 +89,8 @@ test('Sophia foreign-educated general routes preserve residence restrictions, al
  }
  assert.equal(core.sourceURL({url:'https://adm.sophia.ac.jp/guide.pdf',kind:'pdf',pdfPage:6}),'https://adm.sophia.ac.jp/guide.pdf#page=6');
  for(const url of ['http://adm.sophia.ac.jp/a','https://sophia.ac.jp.evil.test/a','https://evil-sophia.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
- assert.equal(data.records.length,907);assert.equal(data.records.filter(r=>!r.publicationStatus).length,871);
- const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>907<\/strong>/);assert.match(html,/20261010-subjects/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学与横浜国立大学/);
+ assert.equal(data.records.length,931);assert.equal(data.records.filter(r=>!r.publicationStatus).length,895);
+ const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>931<\/strong>/);assert.match(html,/20261010-meiji/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学与明治大学/);
 });
 test('Kyushu keeps seven official faculties and 20 departments with year-specific sources and safe aliases',()=>{
  const records=data.records.filter(r=>r.universityId==='kyushu');
@@ -355,9 +355,35 @@ test('Keio SFC overseas is a residence route with pre-interview and research vid
  const domestic=rs.filter(r=>r.selectionName.includes('国内出願'));assert.ok(domestic.every(r=>r.subjectsOriginal.includes('2次選考：面接')));
  assert.ok(rs.every(r=>!r.subjectsOriginal.includes('新規授業科目企画書')));
 });
-test('all seventeen university catalogs have unique validated records and clear pending entry rules', () => {
-  assert.equal(data.universities.length, 17);
-  assert.equal(new Set(data.universities.map(u => u.id)).size, 17);
+test('Meiji keeps actual masters subjects, selection rules and separate English deadlines',()=>{
+ const rs=data.records.filter(r=>r.universityId==='meiji');
+ assert.equal(rs.length,24);assert.equal(new Set(rs.map(r=>r.graduateSchool)).size,2);assert.equal(new Set(rs.map(r=>r.department)).size,6);
+ assert.equal(rs.filter(r=>r.admissionType==='general').length,12);assert.equal(rs.filter(r=>r.admissionType==='international').length,12);
+ assert.ok(rs.every(r=>r.degreeProgram==='master'&&r.entryYear==='2027年4月'&&r.verifiedAt==='2026-10-10'&&!r.publicationStatus));
+ assert.ok(rs.filter(r=>r.admissionType==='general').every(r=>r.internationalGeneral));
+ const f=id=>rs.find(r=>r.id==='meiji-'+id);
+ assert.match(f('sst-electrical-general-ii').scopeOriginal,/電気磁気学２題、電気回路２題.*４題全て/s);
+ assert.match(f('sst-information-general-ii').scopeOriginal,/６題のうち４題/);
+ assert.match(f('sst-mechanical-general-ii').scopeOriginal,/信頼性工学.*全て/s);
+ assert.match(f('sst-electrical-general-ii').conditionsOriginal,/出願締切日を起点.*0点/s);
+ assert.match(f('sst-electrical-general-ii').conditionsOriginal,/2027年2月22日/);
+ assert.match(f('ams-network-international-ii').scopeOriginal,/情報基礎・回路理論.*2題/);
+ assert.match(f('ams-network-international-ii').conditionsOriginal,/2027年1月15日.*入学試験日から.*5分間/s);
+ assert.match(f('ams-media-international-ii').scopeOriginal,/3題.*2題/);
+ assert.match(f('ams-media-international-ii').conditionsOriginal,/解答を英語でも可/);
+ assert.doesNotMatch(f('ams-phenomena-general-ii').subjectsOriginal,/プレゼンテーション/);
+ assert.ok(rs.every(r=>r.sources.some(s=>s.kind==='pdf'&&s.pdfPage===14)));
+ assert.ok(rs.every(r=>r.sources.every(s=>new URL(s.url).hostname==='www.meiji.ac.jp'&&(s.kind!=='pdf'||s.pdfPage<=(s.url.includes('a178303')?2:s.url.includes('/ams/')?40:44)))));
+ assert.equal(core.filter(data.records,data.universities,{...initial,universityId:'meiji',subjectIds:['electromagnetism','circuit-theory']}).length,2);
+ assert.equal(core.filter(data.records,data.universities,{...initial,universityId:'meiji',subjectIds:['information','circuit-theory']}).length,2);
+ assert.equal(core.filter(data.records,data.universities,{...initial,universityId:'meiji',subjectIds:['manufacturing','control']}).length,2);
+ for(const q of ['明治','明大','Meiji University'])assert.equal(core.filter(data.records,data.universities,{...initial,query:q}).length,12);
+ assert.equal(core.sourceURL({url:'https://www.meiji.ac.jp/guide.pdf',kind:'pdf',pdfPage:14}),'https://www.meiji.ac.jp/guide.pdf#page=14');
+ for(const url of ['https://meiji.ac.jp.evil.test/x','https://evil-meiji.ac.jp/x','http://www.meiji.ac.jp/x'])assert.equal(core.sourceURL({url,kind:'page'}),null);
+});
+test('all eighteen university catalogs have unique validated records and clear pending entry rules', () => {
+  assert.equal(data.universities.length, 18);
+  assert.equal(new Set(data.universities.map(u => u.id)).size, 18);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
   assert.ok(data.records.every(record => core.validRecord(record, data.universities)));

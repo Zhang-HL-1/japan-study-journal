@@ -40,7 +40,7 @@
     ['fluid-mechanics','流体力学／流体工学','机械土木','流体力学|流体工学|fluid mechanics|fluids? engineering'],
     ['mechanical-dynamics','机械力学／振动','机械土木','機械力学|振動工学|機械振動|mechanical dynamics|mechanical vibration|dynamics of machinery'],
     ['heat-transfer','传热／传热工学','机械土木','伝熱|heat transfer'],
-    ['manufacturing','机械设计／制造加工','机械土木','機械設計|機械工作|加工学|生産加工|manufacturing|mechanical design'],
+    ['manufacturing','机械设计／制造加工','机械土木','機械設計|機械工作|加工学|生産加工|設計[・･]生産工学|manufacturing|mechanical design'],
     ['structural','结构力学／结构工程','机械土木','構造力学|構造工学|structural mechanics|structural engineering'],
     ['geotechnical','土质力学／岩土工程','机械土木','土質力学|地盤工学|soil mechanics|geotechnical'],
     ['hydraulics','水理学／水文学','机械土木','水理学|水文学|hydraulics|hydrology'],

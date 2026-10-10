@@ -174,6 +174,16 @@
         "YNU",
         "Yokohama National University"
       ]
+    },
+    {
+      "id": "meiji",
+      "name": "明治大学",
+      "aliases": [
+        "明治",
+        "明大",
+        "Meiji",
+        "Meiji University"
+      ]
     }
   ],
   "catalog": {
@@ -200,7 +210,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学与横浜国立大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学与明治大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -416,6 +426,15 @@
         "先進実践学環"
       ],
       "note": "已核验横浜国立大学三学府／学环的38条科目／选拔要求及3条一般第二次不实施公告，共41条。理工学府保留机械、材料、航空航天、集积过程、半导体、信息系统、电气电子网络与集积电子正式教育分野，按考试单元分组：2027年4月一般及2026年10月限定国费外国人。環境情報学府保留情報学／情報学術程序的2027年4月第二次一般及限定国费外国人，口述／笔试差异分别记录。先進実践学環保留応用AI、社会データサイエンス、集積エレクトロニクスと社会展開的12个符合范围的导师应考区分，未将研究主题自创成专攻；一般第二次2027年4月不实施另有3条停止公告。严格使用当轮要项英语条件和PDF实际页，未公开细章节／选答题数不猜。该学环第一次与理工一般轮已结束；环境信息第二次仍按2026年10月16–22日申请、11月试验记录。不含排除专业、社会人、推荐或SGU，未声称覆盖全校；一般资格允许符合条件的海外学历者，国费专用条目不是私费通用入试。旧校保持原样。"
+    },
+    "meiji": {
+      "verifiedAt": "2026-10-10",
+      "degree": "修士（博士前期課程）",
+      "graduateSchools": [
+        "理工学研究科",
+        "先端数理科学研究科"
+      ],
+      "note": "已核对2027年4月博士前期一般／外国人留学生入学试验：理工学研究科电气、机械、信息科学；先端数理科学研究科现象数理、媒体科学、网络设计，共6专攻24条Ⅰ期／Ⅱ期要求。现象数理按官方建模、模拟与计算统计培养目标保留为应用数理。Ⅰ期已结束。理工2026年9月秋季的电气、机械、信息科学博士前期不募集，不沿用博士后期科目。按既定范围跳过应用化学、建筑都市、纯数学、纯物理及人文社会主体信息コミュニケーション；未收录社会人、学内推荐、飞入及SGU，不声称全校覆盖。"
     }
   },
   "records": [
@@ -45223,6 +45242,1506 @@
         {
           "label": "第二次不实施官方公告",
           "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-electrical-general-i",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "電気工学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：電気磁気学・電気回路。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "「電気磁気学」及び「電気回路」の分野から出題する。電気磁気学２題、電気回路２題、合計４題を出題する。４題全て解答すること。",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年6月4日～6月9日。試験日：2026年7月18日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "电磁学、电气电路各两题，共四题全部作答。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-electrical-international-i",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "電気工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：電気磁気学・電気回路。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "「電気磁気学」及び「電気回路」の分野から出題する。電気磁気学２題、電気回路２題、合計４題を出題する。４題全て解答すること。",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年6月4日～6月9日。試験日：2026年7月18日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "电磁学、电气电路各两题，共四题全部作答。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-electrical-general-ii",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "電気工学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：電気磁気学・電気回路。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "「電気磁気学」及び「電気回路」の分野から出題する。電気磁気学２題、電気回路２題、合計４題を出題する。４題全て解答すること。",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年11月27日～12月4日。試験日：2027年2月22日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "电磁学、电气电路各两题，共四题全部作答。Ⅱ期为2027年4月入学的后续轮次。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-electrical-international-ii",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "電気工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：電気磁気学・電気回路。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "「電気磁気学」及び「電気回路」の分野から出題する。電気磁気学２題、電気回路２題、合計４題を出題する。４題全て解答すること。",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年11月27日～12月4日。試験日：2027年2月22日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "电磁学、电气电路各两题，共四题全部作答。Ⅱ期为2027年4月入学的后续轮次。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-mechanical-general-i",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：材料力学・設計・生産工学（信頼性工学を含む）・熱・流体力学・機械力学・メカトロニクス・制御。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "「材料力学」「設計・生産工学（信頼性工学を含む）」「熱・流体力学」「機械力学」「メカトロニクス・制御」の各分野から出題する。全て解答すること。",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年6月4日～6月9日。試験日：2026年7月18日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "五个出题领域全部作答，设计与生产工学包含可靠性工学。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-mechanical-international-i",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：材料力学・設計・生産工学（信頼性工学を含む）・熱・流体力学・機械力学・メカトロニクス・制御。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "「材料力学」「設計・生産工学（信頼性工学を含む）」「熱・流体力学」「機械力学」「メカトロニクス・制御」の各分野から出題する。全て解答すること。",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年6月4日～6月9日。試験日：2026年7月18日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "五个出题领域全部作答，设计与生产工学包含可靠性工学。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-mechanical-general-ii",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：材料力学・設計・生産工学（信頼性工学を含む）・熱・流体力学・機械力学・メカトロニクス・制御。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "「材料力学」「設計・生産工学（信頼性工学を含む）」「熱・流体力学」「機械力学」「メカトロニクス・制御」の各分野から出題する。全て解答すること。",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年11月27日～12月4日。試験日：2027年2月22日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "五个出题领域全部作答，设计与生产工学包含可靠性工学。Ⅱ期为2027年4月入学的后续轮次。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-mechanical-international-ii",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "機械工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：材料力学・設計・生産工学（信頼性工学を含む）・熱・流体力学・機械力学・メカトロニクス・制御。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "「材料力学」「設計・生産工学（信頼性工学を含む）」「熱・流体力学」「機械力学」「メカトロニクス・制御」の各分野から出題する。全て解答すること。",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年11月27日～12月4日。試験日：2027年2月22日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "五个出题领域全部作答，设计与生产工学包含可靠性工学。Ⅱ期为2027年4月入学的后续轮次。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-information-general-i",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "情報科学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：数学・プログラミング・基礎・ソフトウェア・ハードウェア・応用。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "以下の６題のうち４題を選択して解答すること。「数学」「プログラミング」「基礎」「ソフトウェア」「ハードウェア」「応用」",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年6月4日～6月9日。試験日：2026年7月18日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "数学、编程、基础、软件、硬件、应用六题选四题；要项没有进一步列出各题的章节，不从样题推断固定范围。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-information-international-i",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：数学・プログラミング・基礎・ソフトウェア・ハードウェア・応用。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "以下の６題のうち４題を選択して解答すること。「数学」「プログラミング」「基礎」「ソフトウェア」「ハードウェア」「応用」",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年6月4日～6月9日。試験日：2026年7月18日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "数学、编程、基础、软件、硬件、应用六题选四题；要项没有进一步列出各题的章节，不从样题推断固定范围。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-information-general-ii",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "情報科学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：数学・プログラミング・基礎・ソフトウェア・ハードウェア・応用。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "以下の６題のうち４題を選択して解答すること。「数学」「プログラミング」「基礎」「ソフトウェア」「ハードウェア」「応用」",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年11月27日～12月4日。試験日：2027年2月22日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "数学、编程、基础、软件、硬件、应用六题选四题；要项没有进一步列出各题的章节，不从样题推断固定范围。Ⅱ期为2027年4月入学的后续轮次。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-sst-information-international-ii",
+      "universityId": "meiji",
+      "graduateSchool": "理工学研究科",
+      "department": "情報科学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（基礎科目・専門科目）：数学・プログラミング・基礎・ソフトウェア・ハードウェア・応用。外部英語試験スコア（TOEIC L&R／TOEFL iBT）、口頭試問、書類選考。",
+      "scopeOriginal": "以下の６題のうち４題を選択して解答すること。「数学」「プログラミング」「基礎」「ソフトウェア」「ハードウェア」「応用」",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年11月27日～12月4日。試験日：2027年2月22日。\n筆記試験：9:00～11:00（120分）、配点200点。外部英語試験スコア：配点100点。出願締切日を起点として過去2年以内に受験したものが有効。出願締切日までにスコアの提出（到着）が間に合わない場合、「英語」試験の点数を0点として扱います。TOEFL iBT Home Edition及びMyBestスコアは利用できません。ETSからのスコア直送と証明書番号等の連絡が必要。TOEIC L&Rは公式認定証の原本、または日本国内受験者のQRコード付きデジタル公式認定証PDFをA4用紙に印刷したものを提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "数学、编程、基础、软件、硬件、应用六题选四题；要项没有进一步列出各题的章节，不从样题推断固定范围。Ⅱ期为2027年4月入学的后续轮次。英语有效期按出愿截止日起算，逾期未到成绩按零分，不能套用先端数理的单独英语截止日。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期課程の選考方法・時間・配点",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "Ⅰ期・Ⅱ期の試験日程",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "外部英語試験スコアの有効期間・TOEFL提出",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "TOEIC L&R提出方法",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322750464.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "理工学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/sst/grad/examination/youkou.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-phenomena-general-i",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "現象数理学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：微分積分・線形代数。面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "微分積分・線形代数から出題される2題を解答",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年6月8日～6月12日。試験日：2026年7月18日。英語能力試験スコア提出期限：2026年6月26日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "微积分、线性代数两题均答；面接试问，没有另外列出的五分钟展示。该专攻以现象建模、模拟和计算统计为培养方向，按应用数理保留，不是理工学研究科的纯数学专攻。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "現象数理学専攻の人材養成・入学方針",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "現象数理学：モデリング・解析・シミュレーション",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "統計科学：計算統計等の教育方針",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-phenomena-international-i",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "現象数理学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：微分積分・線形代数。面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "微分積分・線形代数から出題される2題を解答",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年6月1日～6月12日。試験日：2026年7月18日。英語能力試験スコア提出期限：2026年6月26日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "微积分、线性代数两题均答；面接试问，没有另外列出的五分钟展示。该专攻以现象建模、模拟和计算统计为培养方向，按应用数理保留，不是理工学研究科的纯数学专攻。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "現象数理学専攻の人材養成・入学方針",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "現象数理学：モデリング・解析・シミュレーション",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "統計科学：計算統計等の教育方針",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-phenomena-general-ii",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "現象数理学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：微分積分・線形代数。面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "微分積分・線形代数から出題される2題を解答",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年11月30日～12月4日。試験日：2027年1月30日。英語能力試験スコア提出期限：2027年1月15日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "微积分、线性代数两题均答；面接试问，没有另外列出的五分钟展示。该专攻以现象建模、模拟和计算统计为培养方向，按应用数理保留，不是理工学研究科的纯数学专攻。Ⅱ期为2027年4月入学的后续轮次。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "現象数理学専攻の人材養成・入学方針",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "現象数理学：モデリング・解析・シミュレーション",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "統計科学：計算統計等の教育方針",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-phenomena-international-ii",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "現象数理学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：微分積分・線形代数。面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "微分積分・線形代数から出題される2題を解答",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年11月24日～12月4日。試験日：2027年1月30日。英語能力試験スコア提出期限：2027年1月15日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。",
+      "editorialNote": "微积分、线性代数两题均答；面接试问，没有另外列出的五分钟展示。该专攻以现象建模、模拟和计算统计为培养方向，按应用数理保留，不是理工学研究科的纯数学专攻。Ⅱ期为2027年4月入学的后续轮次。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "現象数理学専攻の人材養成・入学方針",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "現象数理学：モデリング・解析・シミュレーション",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "統計科学：計算統計等の教育方針",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-media-general-i",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "先端メディアサイエンス専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：数学・情報・プログラミング。プレゼンテーション及び面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "数学・情報・プログラミングの3題出題され、このうち2題を選択して解答",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年6月8日～6月12日。試験日：2026年7月18日。英語能力試験スコア提出期限：2026年6月26日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。\nこれまでの研究成果と今後の研究テーマについて、5分間のプレゼンテーションを行ってもらいます。先端メディアサイエンス専攻においてはデモンストレーションも可。パソコン及び変換アダプタ等は持参。ネットワーク接続は提供しません。",
+      "editorialNote": "数学、信息、编程三题选两题；研究成果及未来主题展示五分钟，可做演示，随后面接。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-media-international-i",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "先端メディアサイエンス専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：数学・情報・プログラミング。プレゼンテーション及び面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "数学・情報・プログラミングの3題出題され、このうち2題を選択して解答",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年6月1日～6月12日。試験日：2026年7月18日。英語能力試験スコア提出期限：2026年6月26日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。\nこれまでの研究成果と今後の研究テーマについて、5分間のプレゼンテーションを行ってもらいます。先端メディアサイエンス専攻においてはデモンストレーションも可。パソコン及び変換アダプタ等は持参。ネットワーク接続は提供しません。",
+      "editorialNote": "数学、信息、编程三题选两题；研究成果及未来主题展示五分钟，可做演示，随后面接。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-media-general-ii",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "先端メディアサイエンス専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：数学・情報・プログラミング。プレゼンテーション及び面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "数学・情報・プログラミングの3題出題され、このうち2題を選択して解答",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年11月30日～12月4日。試験日：2027年1月30日。英語能力試験スコア提出期限：2027年1月15日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。\nこれまでの研究成果と今後の研究テーマについて、5分間のプレゼンテーションを行ってもらいます。先端メディアサイエンス専攻においてはデモンストレーションも可。パソコン及び変換アダプタ等は持参。ネットワーク接続は提供しません。",
+      "editorialNote": "数学、信息、编程三题选两题；研究成果及未来主题展示五分钟，可做演示，随后面接。Ⅱ期为2027年4月入学的后续轮次。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-media-international-ii",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "先端メディアサイエンス専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：数学・情報・プログラミング。プレゼンテーション及び面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "数学・情報・プログラミングの3題出題され、このうち2題を選択して解答",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年11月24日～12月4日。試験日：2027年1月30日。英語能力試験スコア提出期限：2027年1月15日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。\nこれまでの研究成果と今後の研究テーマについて、5分間のプレゼンテーションを行ってもらいます。先端メディアサイエンス専攻においてはデモンストレーションも可。パソコン及び変換アダプタ等は持参。ネットワーク接続は提供しません。",
+      "editorialNote": "数学、信息、编程三题选两题；研究成果及未来主题展示五分钟，可做演示，随后面接。Ⅱ期为2027年4月入学的后续轮次。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-network-general-i",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "ネットワークデザイン専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：情報基礎・回路理論。プレゼンテーション及び面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "情報基礎・回路理論から出題される2題を解答",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年6月8日～6月12日。試験日：2026年7月18日。英語能力試験スコア提出期限：2026年6月26日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。\nこれまでの研究成果と今後の研究テーマについて、5分間のプレゼンテーションを行ってもらいます。先端メディアサイエンス専攻においてはデモンストレーションも可。パソコン及び変換アダプタ等は持参。ネットワーク接続は提供しません。",
+      "editorialNote": "信息基础、回路理论两题均答；研究成果及未来主题展示五分钟，随后面接。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-network-international-i",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "ネットワークデザイン専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅰ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：情報基礎・回路理論。プレゼンテーション及び面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "情報基礎・回路理論から出題される2題を解答",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年6月1日～6月12日。試験日：2026年7月18日。英語能力試験スコア提出期限：2026年6月26日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。\nこれまでの研究成果と今後の研究テーマについて、5分間のプレゼンテーションを行ってもらいます。先端メディアサイエンス専攻においてはデモンストレーションも可。パソコン及び変換アダプタ等は持参。ネットワーク接続は提供しません。",
+      "editorialNote": "信息基础、回路理论两题均答；研究成果及未来主题展示五分钟，随后面接。Ⅰ期考试已于2026年7月18日结束，作为2027年4月入学的当年考试要求保留。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-network-general-ii",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "ネットワークデザイン専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 一般入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：情報基礎・回路理論。プレゼンテーション及び面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "情報基礎・回路理論から出題される2題を解答",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者及び2027年3月31日までに修了見込みの者。外国の大学その他の外国の学校において、修業年限が3年以上の課程を修了することにより、学士の学位に相当する学位を授与された者及び2027年3月31日までに学位を授与される見込みの者。\n出願期間：2026年11月30日～12月4日。試験日：2027年1月30日。英語能力試験スコア提出期限：2027年1月15日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。\nこれまでの研究成果と今後の研究テーマについて、5分間のプレゼンテーションを行ってもらいます。先端メディアサイエンス専攻においてはデモンストレーションも可。パソコン及び変換アダプタ等は持参。ネットワーク接続は提供しません。",
+      "editorialNote": "信息基础、回路理论两题均答；研究成果及未来主题展示五分钟，随后面接。Ⅱ期为2027年4月入学的后续轮次。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "meiji-ams-network-international-ii",
+      "universityId": "meiji",
+      "graduateSchool": "先端数理科学研究科",
+      "department": "ネットワークデザイン専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程 外国人留学生入学試験（Ⅱ期）",
+      "entryYear": "2027年4月",
+      "subjectsOriginal": "筆記試験（専門科目）：情報基礎・回路理論。プレゼンテーション及び面接試問。英語能力試験スコア（TOEIC L&R／TOEFL iBT）。",
+      "scopeOriginal": "情報基礎・回路理論から出題される2題を解答",
+      "conditionsOriginal": "日本国以外の国籍を有し、初等・中等教育における全ての課程を外国の教育機関で修了した者で、所定の出願資格に該当する者。日本国外からの出願は、所定の期日までに日本に入国できる者でなければなりません。\n出願期間：2026年11月24日～12月4日。試験日：2027年1月30日。英語能力試験スコア提出期限：2027年1月15日（日付印有効）。\n筆記試験：9:30～11:00（90分）。外国人留学生は筆記試験（専門科目）の解答を英語でも可とします。英語能力試験スコアは必ず提出してください。入学試験日から過去2年以内に受験したものに限ります。TOEIC IPテスト、TOEFL iBT Home Edition及びMyBest scoresは対象外。TOEFLはETSからのInstitutional (Official) Score Report直送とTest Taker Score ReportのPDF印刷提出の両方が必要。TOEICは公式認定証原本とコピー、または国内受験のQRコード付きデジタル公式認定証PDFのA4印刷を提出。\nTOEIC L&R：満点730、零点230。TOEFL iBT：0–120の総合スコアは満点80、零点25；1–6の総合スコアは満点4.5、零点2。\nこれまでの研究成果と今後の研究テーマについて、5分間のプレゼンテーションを行ってもらいます。先端メディアサイエンス専攻においてはデモンストレーションも可。パソコン及び変換アダプタ等は持参。ネットワーク接続は提供しません。",
+      "editorialNote": "信息基础、回路理论两题均答；研究成果及未来主题展示五分钟，随后面接。Ⅱ期为2027年4月入学的后续轮次。英语有效期按考试日起算，另有英语成绩提交截止日。外国人可用英语回答专业笔试；A／B方式是博士后期制度，不用于本记录。TOEIC 730及TOEFL 80／4.5是满分换算值，不是报名最低分。",
+      "originalLanguage": "ja",
+      "verifiedAt": "2026-10-10",
+      "sources": [
+        {
+          "label": "2027年度募集要項：出題範囲・英語換算（実際14ページ）",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "入学試験・英語スコア提出日程",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "博士前期課程の出願資格",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "英語スコア有効期間・提出方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "TOEFL MyBest scores対象外・専攻コード",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1778809689243.pdf",
+          "kind": "pdf",
+          "pdfPage": 27
+        },
+        {
+          "label": "2027年度博士前期課程：合否判定方法",
+          "url": "https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "先端数理科学研究科：当年募集要項配布入口",
+          "url": "https://www.meiji.ac.jp/ams/exam/MDMix.html",
           "kind": "page"
         }
       ]
