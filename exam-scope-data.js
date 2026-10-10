@@ -162,6 +162,18 @@
         "Hitotsubashi",
         "Hitotsubashi University"
       ]
+    },
+    {
+      "id": "ynu",
+      "name": "横浜国立大学",
+      "aliases": [
+        "横滨国立大学",
+        "横国",
+        "横浜国立",
+        "横滨国立",
+        "YNU",
+        "Yokohama National University"
+      ]
     }
   ],
   "catalog": {
@@ -188,7 +200,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学与一橋大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学与横浜国立大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -394,6 +406,16 @@
         "ソーシャル・データサイエンス研究科"
       ],
       "note": "已核验ソーシャル・データサイエンス専攻2027年度的一般选考及独立外国人特别选考，共2条科目与选考要求。该正式数据科学专攻包含统计、信息与AI培养；两种选考均有统计／信息和社会科学笔试，保留完整跨领域选答规则及不同口述语言、日语证明条件。出题难度、参考书及社会科学范围遵循官网FAQ的明确指引，完整表格链接实际PDF页。该轮2026年8–9月选考已结束；未沿用旧资料新造冬季／2028年度入口。按后续学校筛选规则，本批聚焦数据科学，未收录经营、经济、法律、公共政策等非信息工程主体，跳过社会学、言语社会等排除方向；内部推荐、社会人及SGU项目不添加。未声称覆盖全校。"
+    },
+    "ynu": {
+      "verifiedAt": "2026-10-10",
+      "degree": "修士（博士課程前期・修士課程）",
+      "graduateSchools": [
+        "理工学府",
+        "環境情報学府",
+        "先進実践学環"
+      ],
+      "note": "已核验横浜国立大学三学府／学环的38条科目／选拔要求及3条一般第二次不实施公告，共41条。理工学府保留机械、材料、航空航天、集积过程、半导体、信息系统、电气电子网络与集积电子正式教育分野，按考试单元分组：2027年4月一般及2026年10月限定国费外国人。環境情報学府保留情報学／情報学術程序的2027年4月第二次一般及限定国费外国人，口述／笔试差异分别记录。先進実践学環保留応用AI、社会データサイエンス、集積エレクトロニクスと社会展開的12个符合范围的导师应考区分，未将研究主题自创成专攻；一般第二次2027年4月不实施另有3条停止公告。严格使用当轮要项英语条件和PDF实际页，未公开细章节／选答题数不猜。该学环第一次与理工一般轮已结束；环境信息第二次仍按2026年10月16–22日申请、11月试验记录。不含排除专业、社会人、推荐或SGU，未声称覆盖全校；一般资格允许符合条件的海外学历者，国费专用条目不是私费通用入试。旧校保持原样。"
     }
   },
   "records": [
@@ -42236,6 +42258,2972 @@
           "url": "https://www.sds.hit-u.ac.jp/pdf/admission-guide_master.pdf?v=1",
           "kind": "pdf",
           "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-1-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（機械工学ユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "機械工学教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：数学；熱力学；材料力学。 学科試験Ⅱ：機械力学；流体力学；制御工学。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "试卷Ⅰ：数学、热力学、材料力学各50分；试卷Ⅱ：机械力学、流体力学、控制工学各50分。每卷150分换算为200分，没有任选题说明。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-1-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（機械工学ユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "機械工学教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：数学；熱力学；材料力学。 学科試験Ⅱ：機械力学；流体力学；制御工学。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "试卷Ⅰ：数学、热力学、材料力学各50分；试卷Ⅱ：机械力学、流体力学、控制工学各50分。每卷150分换算为200分，没有任选题说明。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-2-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（機械工学ユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "航空宇宙工学教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：数学；熱力学；材料力学。 学科試験Ⅱ：機械力学；流体力学；制御工学。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "试卷Ⅰ：数学、热力学、材料力学各50分；试卷Ⅱ：机械力学、流体力学、控制工学各50分。每卷150分换算为200分，没有任选题说明。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-2-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（機械工学ユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "航空宇宙工学教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：数学；熱力学；材料力学。 学科試験Ⅱ：機械力学；流体力学；制御工学。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "试卷Ⅰ：数学、热力学、材料力学各50分；试卷Ⅱ：机械力学、流体力学、控制工学各50分。每卷150分换算为200分，没有任选题说明。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-3-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（機械工学ユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "集積プロセス工学教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：数学；熱力学；材料力学。 学科試験Ⅱ：機械力学；流体力学；制御工学。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "试卷Ⅰ：数学、热力学、材料力学各50分；试卷Ⅱ：机械力学、流体力学、控制工学各50分。每卷150分换算为200分，没有任选题说明。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-3-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（機械工学ユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "集積プロセス工学教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：数学；熱力学；材料力学。 学科試験Ⅱ：機械力学；流体力学；制御工学。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "试卷Ⅰ：数学、热力学、材料力学各50分；试卷Ⅱ：机械力学、流体力学、控制工学各50分。每卷150分换算为200分，没有任选题说明。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-4-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（材料科学フロンティアユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "材料工学教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分、積分、微分方程式）；線形代数学（行列とその応用、連立一次方程式）；力学；物理化学（熱力学）；統計物理学。 学科試験Ⅱ：材料力学；固体電子論；結晶塑性学；金属組織学I；金属組織学II。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "两卷各5题，每题40分，总计各200分。金属组织学Ⅰ为晶体、状态图及相关领域；Ⅱ为扩散、回复／再结晶、相变及相关领域。保留材料工程要求的物理化学与统计物理，不把它们删除，也没有把5题误写成任选。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "表格跨页补足",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-4-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（材料科学フロンティアユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "材料工学教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分、積分、微分方程式）；線形代数学（行列とその応用、連立一次方程式）；力学；物理化学（熱力学）；統計物理学。 学科試験Ⅱ：材料力学；固体電子論；結晶塑性学；金属組織学I；金属組織学II。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "两卷各5题，每题40分，总计各200分。金属组织学Ⅰ为晶体、状态图及相关领域；Ⅱ为扩散、回复／再结晶、相变及相关领域。保留材料工程要求的物理化学与统计物理，不把它们删除，也没有把5题误写成任选。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "表格跨页补足",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 34
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-5-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（材料科学フロンティアユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "航空宇宙工学教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分、積分、微分方程式）；線形代数学（行列とその応用、連立一次方程式）；力学；物理化学（熱力学）；統計物理学。 学科試験Ⅱ：材料力学；固体電子論；結晶塑性学；金属組織学I；金属組織学II。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "两卷各5题，每题40分，总计各200分。金属组织学Ⅰ为晶体、状态图及相关领域；Ⅱ为扩散、回复／再结晶、相变及相关领域。保留材料工程要求的物理化学与统计物理，不把它们删除，也没有把5题误写成任选。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "表格跨页补足",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-5-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（材料科学フロンティアユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "航空宇宙工学教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分、積分、微分方程式）；線形代数学（行列とその応用、連立一次方程式）；力学；物理化学（熱力学）；統計物理学。 学科試験Ⅱ：材料力学；固体電子論；結晶塑性学；金属組織学I；金属組織学II。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "两卷各5题，每题40分，总计各200分。金属组织学Ⅰ为晶体、状态图及相关领域；Ⅱ为扩散、回复／再结晶、相变及相关领域。保留材料工程要求的物理化学与统计物理，不把它们删除，也没有把5题误写成任选。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "表格跨页补足",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 34
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-6-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（材料科学フロンティアユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "集積プロセス工学教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分、積分、微分方程式）；線形代数学（行列とその応用、連立一次方程式）；力学；物理化学（熱力学）；統計物理学。 学科試験Ⅱ：材料力学；固体電子論；結晶塑性学；金属組織学I；金属組織学II。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "两卷各5题，每题40分，总计各200分。金属组织学Ⅰ为晶体、状态图及相关领域；Ⅱ为扩散、回复／再结晶、相变及相关领域。保留材料工程要求的物理化学与统计物理，不把它们删除，也没有把5题误写成任选。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "表格跨页补足",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-6-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（材料科学フロンティアユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "集積プロセス工学教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分、積分、微分方程式）；線形代数学（行列とその応用、連立一次方程式）；力学；物理化学（熱力学）；統計物理学。 学科試験Ⅱ：材料力学；固体電子論；結晶塑性学；金属組織学I；金属組織学II。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "两卷各5题，每题40分，总计各200分。金属组织学Ⅰ为晶体、状态图及相关领域；Ⅱ为扩散、回复／再结晶、相变及相关领域。保留材料工程要求的物理化学与统计物理，不把它们删除，也没有把5题误写成任选。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "表格跨页补足",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 34
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-7-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（海洋空間システムデザインユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "航空宇宙工学教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分・積分、微分方程式）；線形代数；剛体の力学。 学科試験Ⅱ：流体力学；材料力学；振動工学；船舶海洋工学（浮体静力学、復原性）；航空宇宙工学（飛行体・航行体の質点の力学）。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "试卷Ⅰ3题各50分，150分换算200分；试卷Ⅱ5题中选3题，各50分，150分换算200分。本条只保留正式航空宇宙工学教育分野经该入试单元报考的路径，没有收录海洋空间／船舶培养；原卷的船舶海洋题仍作为真实选答题保留。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-7-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "機械・材料・海洋系工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（海洋空間システムデザインユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "航空宇宙工学教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分・積分、微分方程式）；線形代数；剛体の力学。 学科試験Ⅱ：流体力学；材料力学；振動工学；船舶海洋工学（浮体静力学、復原性）；航空宇宙工学（飛行体・航行体の質点の力学）。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "试卷Ⅰ3题各50分，150分换算200分；试卷Ⅱ5题中选3题，各50分，150分换算200分。本条只保留正式航空宇宙工学教育分野经该入试单元报考的路径，没有收录海洋空间／船舶培养；原卷的船舶海洋题仍作为真实选答题保留。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 34
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-8-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "数物・電子情報系理工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（物理工学ユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "半導体物理工学教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：物理Ⅰ（物理数学、力学、電磁気学から出題する）。 学科試験Ⅱ：物理Ⅱ（量子力学、熱・統計力学から出題する）。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "两卷分别为物理Ⅰ（物理数学、力学、电磁学）与物理Ⅱ（量子力学、热／统计力学），各200分。半导体物理工程属于正式器件相关培养，本条没有导入物理工学教育分野的纯物理方向。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-8-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "数物・電子情報系理工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（物理工学ユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "半導体物理工学教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：物理Ⅰ（物理数学、力学、電磁気学から出題する）。 学科試験Ⅱ：物理Ⅱ（量子力学、熱・統計力学から出題する）。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "两卷分别为物理Ⅰ（物理数学、力学、电磁学）与物理Ⅱ（量子力学、热／统计力学），各200分。半导体物理工程属于正式器件相关培养，本条没有导入物理工学教育分野的纯物理方向。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 34
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-9-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "数物・電子情報系理工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（電子情報システムユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "情報システム教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：線形代数学；微分積分学。 学科試験Ⅱ：電磁気学；回路理論；論理回路；アルゴリズム。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "试卷Ⅰ线性代数与微积分各100分；试卷Ⅱ电磁学、回路理论、逻辑电路与算法各50分。两卷各200分，没有2选1或4选2规则；信息系统考生同样保留四个专业科目。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-9-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "数物・電子情報系理工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（電子情報システムユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "情報システム教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：線形代数学；微分積分学。 学科試験Ⅱ：電磁気学；回路理論；論理回路；アルゴリズム。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "试卷Ⅰ线性代数与微积分各100分；试卷Ⅱ电磁学、回路理论、逻辑电路与算法各50分。两卷各200分，没有2选1或4选2规则；信息系统考生同样保留四个专业科目。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 34
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-10-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "数物・電子情報系理工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（電子情報システムユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "電気電子ネットワーク教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：線形代数学；微分積分学。 学科試験Ⅱ：電磁気学；回路理論；論理回路；アルゴリズム。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "试卷Ⅰ线性代数与微积分各100分；试卷Ⅱ电磁学、回路理论、逻辑电路与算法各50分。两卷各200分，没有2选1或4选2规则；信息系统考生同样保留四个专业科目。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-10-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "数物・電子情報系理工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（電子情報システムユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "電気電子ネットワーク教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：線形代数学；微分積分学。 学科試験Ⅱ：電磁気学；回路理論；論理回路；アルゴリズム。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "试卷Ⅰ线性代数与微积分各100分；试卷Ⅱ电磁学、回路理论、逻辑电路与算法各50分。两卷各200分，没有2选1或4选2规则；信息系统考生同样保留四个专业科目。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 34
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-11-general",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "数物・電子情報系理工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（電子情報システムユニット）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "集積エレクトロニクス教育分野",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：線形代数学；微分積分学。 学科試験Ⅱ：電磁気学；回路理論；論理回路；アルゴリズム。",
+      "conditionsOriginal": "出願に際しては、あらかじめ志望指導教員あるいは問い合わせ担当教員とよく相談した上で願書を提出してください。",
+      "editorialNote": "试卷Ⅰ线性代数与微积分各100分；试卷Ⅱ电磁学、回路理论、逻辑电路与算法各50分。两卷各200分，没有2选1或4选2规则；信息系统考生同样保留四个专业科目。 一般选拔以英语、学科试验Ⅰ／Ⅱ、申请材料及面接综合判定，不能缺席任一专业卷或面接。两卷各120分钟（10:30–12:30、13:30–15:30），面接询问既往研究和教育项目适性，学科与面接可用日语或英语回答；仅专业笔试可带纸质语言字典。事先与志望导师或询问担当教员商谈后提出申请。一般资格包含符合条件的海外16年学历／学士，故显示在留学生栏目但保持一般选拔名称。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "事前导师商谈",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "id": "ynu-fse-11-international",
+      "universityId": "ynu",
+      "graduateSchool": "理工学府",
+      "department": "数物・電子情報系理工学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（電子情報システムユニット）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "集積エレクトロニクス教育分野",
+      "subjectsOriginal": "外国語（英語）；学科試験Ⅰ；学科試験Ⅱ；出願書類；面接。",
+      "scopeOriginal": "学科試験Ⅰ：線形代数学；微分積分学。 学科試験Ⅱ：電磁気学；回路理論；論理回路；アルゴリズム。",
+      "conditionsOriginal": "出願時に日本国政府（文部科学省）奨学金を研究留学生（学部留学生を除く）として受給している者、又は奨学金の受給が決定している者。",
+      "editorialNote": "试卷Ⅰ线性代数与微积分各100分；试卷Ⅱ电磁学、回路理论、逻辑电路与算法各50分。两卷各200分，没有2选1或4选2规则；信息系统考生同样保留四个专业科目。 本条为国費外国人留学生特別選抜，申请时必须已经领取或已决定领取文部科学省研究留学生奖学金（学部留学生除外），并满足所列学历资格；不适用于所有私费留学生。须提交导师签署受入内诺书和国费证明。专业笔试两卷、英语材料、申请材料和面接均保留，不能按国费身份推定免笔试；学科和面接允许日语或英语。 英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 本轮申请为2026年5月22日至6月2日、考试8月20–21日、结果9月3日，现已结束。ユニット是考试区分，教育分野才是入学所属；航空航天、集积过程工程须根据导师所属单元选择对应试卷，不是三个单元中自行任选试卷。未公布所收录科目的教材或章节，不用过去问推定。",
+      "sources": [
+        {
+          "label": "对应单元专业科目与范围",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 34
+        },
+        {
+          "label": "选拔方式、材料与面接",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "试验时间、语言及成绩提交",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "外部英语与有效期、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 35
+        },
+        {
+          "label": "正式教育分野与考试单元对应",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 29
+        },
+        {
+          "label": "海外学历／国费资格",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 30
+        },
+        {
+          "label": "该轮完整日程",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "当轮官方募集入口",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/index.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-eis-info-general",
+      "universityId": "ynu",
+      "graduateSchool": "環境情報学府",
+      "department": "情報環境専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（第二次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "情報学プログラム",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；筆記試験；口述試験；出願書類審査。",
+      "scopeOriginal": "教育分野（数学，情報学，数理情報学）に関する問題群の中から選択。希望する研究分野に関する口述試験。",
+      "conditionsOriginal": "事前に志望先の指導教員と相互確認の上、願書を提出してください。",
+      "editorialNote": "一般选拔须参加专业笔试（200分、120分钟）及研究领域口述（200分），外部英语100分；从该项目列出的题群选答，但本要项未公开必须答几题及更细章节，不能推定为3选1。笔试与口述允许英语回答；笔试可带纸质语言字典，不可带电子字典或计算器。 英语100分：TOEIC L&R公开考试、TOEFL iBT（含Home Edition）或IELTS。成绩须带照片、距试验当天两年以内，当天携带并按担当者指示提交；TOEIC原件，日本公开考试可交带QR数字证打印版；TOEFL以单次Test Date Score，不用My Best，2026年1月以后受验可下载PDF打印提交；IELTS原件，IELTS Online可提交结果画面的TRF打印版。TOEIC IP／Bridge／SW、TOEFL ITP不接受；交付原件在口述结束前返还。此处遵循当轮一般要项实际第9–10页，入口链接的旧英语单页未列IELTS和新TOEFL方式，不用于覆盖本轮规则；也不套用理工学府的ETS直送要求。官方给出得分换算，没有另外公开最低合格分，详细新旧TOEFL换算表保留官方页。 试验2026年11月12日笔试9:30–11:30、13:00起口述，申请人数多时口述延至11月13／14日。 两种都须事前与志望导师相互确认；研究计划预提交，日语1000字或英语500词以内。申请2026年10月16–22日，结果12月2日；须资格审查者的9月15–17日窗口已结束。本记录保留2027年4月标签，文件名R8指实施年，不误标为2026年4月。",
+      "sources": [
+        {
+          "label": "各程序笔试题群、配点与口述范围",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "笔试与口述时段、作答语言",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "当轮英语材料和TOEFL新旧得分",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IELTS得分及试验日程",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "选拔方式及研究计划材料",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "程序、海外学历与导师确认",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "申请日程",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "正式当轮入试入口",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/",
+          "kind": "page"
+        },
+        {
+          "label": "正式硕士项目定位",
+          "url": "https://www.eis.ynu.ac.jp/academic/introduction/educ_new/social/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-eis-info-international",
+      "universityId": "ynu",
+      "graduateSchool": "環境情報学府",
+      "department": "情報環境専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（第二次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "情報学プログラム",
+      "subjectsOriginal": "口述試験；出願書類審査。",
+      "scopeOriginal": "専攻科目、研究業績、研究（希望）計画書等。",
+      "conditionsOriginal": "日本国政府（文部科学省）国費外国人留学生。",
+      "editorialNote": "独立国费选拔只列口述及书审：口述涉及专攻科目、研究业绩、研究希望计划；没有专业笔试或统一外部英语成绩要求。仅限申请时已领取或已决定领取文部科学省研究留学生奖学金者，须国费证明。不是私费外国人通用入口，也不把一般选拔英语要求复制到此条。试验2026年11月8–14日由专攻指定一天，日期与场所10月29日寄发，未渡日但已有受入内诺者由导师另行通知。 两种都须事前与志望导师相互确认；研究计划预提交，日语1000字或英语500词以内。申请2026年10月16–22日，结果12月2日；须资格审查者的9月15–17日窗口已结束。本记录保留2027年4月标签，文件名R8指实施年，不误标为2026年4月。",
+      "sources": [
+        {
+          "label": "独立口述／书审及范围、日期",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_kokuhi_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "限定国费资格、程序与导师确认",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_kokuhi_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "申请日程与未渡日处理",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_kokuhi_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "正式当轮入试入口",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/",
+          "kind": "page"
+        },
+        {
+          "label": "正式硕士项目定位",
+          "url": "https://www.eis.ynu.ac.jp/academic/introduction/educ_new/social/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-eis-interdisciplinary-general",
+      "universityId": "ynu",
+      "graduateSchool": "環境情報学府",
+      "department": "情報環境専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（第二次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "情報学術プログラム",
+      "internationalGeneral": true,
+      "subjectsOriginal": "外国語（英語）；筆記試験；口述試験；出願書類審査。",
+      "scopeOriginal": "教育分野（数学，理論言語学，計算力学）に関する問題群の中から選択。希望する研究分野に関する口述試験。",
+      "conditionsOriginal": "事前に志望先の指導教員と相互確認の上、願書を提出してください。",
+      "editorialNote": "一般选拔须参加专业笔试（200分、120分钟）及研究领域口述（200分），外部英语100分；从该项目列出的题群选答，但本要项未公开必须答几题及更细章节，不能推定为3选1。笔试与口述允许英语回答；笔试可带纸质语言字典，不可带电子字典或计算器。 英语100分：TOEIC L&R公开考试、TOEFL iBT（含Home Edition）或IELTS。成绩须带照片、距试验当天两年以内，当天携带并按担当者指示提交；TOEIC原件，日本公开考试可交带QR数字证打印版；TOEFL以单次Test Date Score，不用My Best，2026年1月以后受验可下载PDF打印提交；IELTS原件，IELTS Online可提交结果画面的TRF打印版。TOEIC IP／Bridge／SW、TOEFL ITP不接受；交付原件在口述结束前返还。此处遵循当轮一般要项实际第9–10页，入口链接的旧英语单页未列IELTS和新TOEFL方式，不用于覆盖本轮规则；也不套用理工学府的ETS直送要求。官方给出得分换算，没有另外公开最低合格分，详细新旧TOEFL换算表保留官方页。 试验2026年11月12日笔试9:30–11:30、13:00起口述，申请人数多时口述延至11月13／14日。 两种都须事前与志望导师相互确认；研究计划预提交，日语1000字或英语500词以内。申请2026年10月16–22日，结果12月2日；须资格审查者的9月15–17日窗口已结束。本记录保留2027年4月标签，文件名R8指实施年，不误标为2026年4月。 信息学术是正式信息技术与数理模拟的跨领域修士项目，保留其真实理论语言学选答范围；未将其改写成纯计算机试卷。",
+      "sources": [
+        {
+          "label": "各程序笔试题群、配点与口述范围",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "笔试与口述时段、作答语言",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "当轮英语材料和TOEFL新旧得分",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "IELTS得分及试验日程",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "选拔方式及研究计划材料",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "程序、海外学历与导师确认",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "申请日程",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "正式当轮入试入口",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/",
+          "kind": "page"
+        },
+        {
+          "label": "正式硕士项目定位",
+          "url": "https://www.eis.ynu.ac.jp/academic/introduction/educ_new/social/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-eis-interdisciplinary-international",
+      "universityId": "ynu",
+      "graduateSchool": "環境情報学府",
+      "department": "情報環境専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "国費外国人留学生特別選抜（第二次）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "course": "情報学術プログラム",
+      "subjectsOriginal": "口述試験；出願書類審査。",
+      "scopeOriginal": "専攻科目、研究業績、研究（希望）計画書等。",
+      "conditionsOriginal": "日本国政府（文部科学省）国費外国人留学生。",
+      "editorialNote": "独立国费选拔只列口述及书审：口述涉及专攻科目、研究业绩、研究希望计划；没有专业笔试或统一外部英语成绩要求。仅限申请时已领取或已决定领取文部科学省研究留学生奖学金者，须国费证明。不是私费外国人通用入口，也不把一般选拔英语要求复制到此条。试验2026年11月8–14日由专攻指定一天，日期与场所10月29日寄发，未渡日但已有受入内诺者由导师另行通知。 两种都须事前与志望导师相互确认；研究计划预提交，日语1000字或英语500词以内。申请2026年10月16–22日，结果12月2日；须资格审查者的9月15–17日窗口已结束。本记录保留2027年4月标签，文件名R8指实施年，不误标为2026年4月。 信息学术是正式信息技术与数理模拟的跨领域修士项目，保留其真实理论语言学选答范围；未将其改写成纯计算机试卷。",
+      "sources": [
+        {
+          "label": "独立口述／书审及范围、日期",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_kokuhi_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "限定国费资格、程序与导师确认",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_kokuhi_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "申请日程与未渡日处理",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_kokuhi_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "正式当轮入试入口",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/",
+          "kind": "page"
+        },
+        {
+          "label": "正式硕士项目定位",
+          "url": "https://www.eis.ynu.ac.jp/academic/introduction/educ_new/social/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-ai-mechanical",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "応用AI（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（機械工学試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "学科試験Ⅰ：数学；熱力学；材料力学。 学科試験Ⅱ：機械力学；流体力学；制御工学。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 该应考区分限本主题实际列出的工程导师；◆标志教员当轮不能作为志愿导师，以原要项名单为准。 试卷Ⅰ：数学、热力学、材料力学各50分；试卷Ⅱ：机械力学、流体力学、控制工学各50分。每卷150分换算为200分，没有任选题说明。 两卷各120分钟、200分，英语100分；英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "指向理工当轮详细科目",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮英语材料、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-ai-materials",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "応用AI（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（材料科学フロンティア試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分、積分、微分方程式）；線形代数学（行列とその応用、連立一次方程式）；力学；物理化学（熱力学）；統計物理学。 学科試験Ⅱ：材料力学；固体電子論；結晶塑性学；金属組織学I；金属組織学II。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 该应考区分限本主题实际列出的工程导师；◆标志教员当轮不能作为志愿导师，以原要项名单为准。 两卷各5题，每题40分，总计各200分。金属组织学Ⅰ为晶体、状态图及相关领域；Ⅱ为扩散、回复／再结晶、相变及相关领域。保留材料工程要求的物理化学与统计物理，不把它们删除，也没有把5题误写成任选。 两卷各120分钟、200分，英语100分；英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "指向理工当轮详细科目",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮英语材料、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-ai-aero",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "応用AI（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（海洋空間システムデザイン試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分・積分、微分方程式）；線形代数；剛体の力学。 学科試験Ⅱ：流体力学；材料力学；振動工学；船舶海洋工学（浮体静力学、復原性）；航空宇宙工学（飛行体・航行体の質点の力学）。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 应考路径限定本主题名单中的航空机／卫星诱导控制导师（樋口丈浩），不纳入船舶海洋导师。专业卷本来包含船舶海洋题，保留5选3完整规则。 试卷Ⅰ3题各50分，150分换算200分；试卷Ⅱ5题中选3题，各50分，150分换算200分。本条只保留正式航空宇宙工学教育分野经该入试单元报考的路径，没有收录海洋空间／船舶培养；原卷的船舶海洋题仍作为真实选答题保留。 两卷各120分钟、200分，英语100分；英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "指向理工当轮详细科目",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮英语材料、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-ai-electronic",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "応用AI（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（電子情報システム試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "学科試験Ⅰ：線形代数学；微分積分学。 学科試験Ⅱ：電磁気学；回路理論；論理回路；アルゴリズム。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 该应考区分限本主题实际列出的工程导师；◆标志教员当轮不能作为志愿导师，以原要项名单为准。 试卷Ⅰ线性代数与微积分各100分；试卷Ⅱ电磁学、回路理论、逻辑电路与算法各50分。两卷各200分，没有2选1或4选2规则；信息系统考生同样保留四个专业科目。 两卷各120分钟、200分，英语100分；英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "指向理工当轮详细科目",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "当轮英语材料、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-ai-info",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "応用AI（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（情報学試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "教育分野（数学，情報学，数理情報学）に関する問題群の中から選択。希望する研究分野に関する口述試験。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 该应考区分限本主题实际列出的工程导师；◆标志教员当轮不能作为志愿导师，以原要项名单为准。 专业笔试120分钟200分，研究领域口述200分，英语100分；题群选答但未公布题数及细章节。英语100分：TOEIC L&R公开考试、TOEFL iBT（含Home Edition）或IELTS。成绩须带照片、距试验当天两年以内，当天携带并按担当者指示提交；TOEIC原件，日本公开考试可交带QR数字证打印版；TOEFL以单次Test Date Score，不用My Best，2026年1月以后受验可下载PDF打印提交；IELTS原件，IELTS Online可提交结果画面的TRF打印版。TOEIC IP／Bridge／SW、TOEFL ITP不接受；交付原件在口述结束前返还。此处遵循当轮一般要项实际第9–10页，入口链接的旧英语单页未列IELTS和新TOEFL方式，不用于覆盖本轮规则；也不套用理工学府的ETS直送要求。官方给出得分换算，没有另外公开最低合格分，详细新旧TOEFL换算表保留官方页。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "关联学府公开题群范围",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "最新指定英语提交方式",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "当前IELTS换算表",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-ai-quantum-algorithm",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "応用AI（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（数理科学試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "教育分野（数学、数理情報学、計算力学）に関する問題群の中から選択。希望する研究分野に関する口述試験。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 本主题该区分仅列瀨川悦生的量子探索算法方向，属于信息算法路径；不是导入其他主题或环境信息学府整个数理科学纯数学培养。 专业笔试120分钟200分，研究领域口述200分，英语100分；题群选答但未公布题数及细章节。英语100分：TOEIC L&R公开考试、TOEFL iBT（含Home Edition）或IELTS。成绩须带照片、距试验当天两年以内，当天携带并按担当者指示提交；TOEIC原件，日本公开考试可交带QR数字证打印版；TOEFL以单次Test Date Score，不用My Best，2026年1月以后受验可下载PDF打印提交；IELTS原件，IELTS Online可提交结果画面的TRF打印版。TOEIC IP／Bridge／SW、TOEFL ITP不接受；交付原件在口述结束前返还。此处遵循当轮一般要项实际第9–10页，入口链接的旧英语单页未列IELTS和新TOEFL方式，不用于覆盖本轮规则；也不套用理工学府的ETS直送要求。官方给出得分换算，没有另外公开最低合格分，详细新旧TOEFL换算表保留官方页。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "关联学府公开题群范围",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "最新指定英语提交方式",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "当前IELTS换算表",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-social-info",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "社会データサイエンス（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（情報学試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "教育分野（数学，情報学，数理情報学）に関する問題群の中から選択。希望する研究分野に関する口述試験。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 该应考区分限本主题实际列出的工程导师；◆标志教员当轮不能作为志愿导师，以原要项名单为准。 专业笔试120分钟200分，研究领域口述200分，英语100分；题群选答但未公布题数及细章节。英语100分：TOEIC L&R公开考试、TOEFL iBT（含Home Edition）或IELTS。成绩须带照片、距试验当天两年以内，当天携带并按担当者指示提交；TOEIC原件，日本公开考试可交带QR数字证打印版；TOEFL以单次Test Date Score，不用My Best，2026年1月以后受验可下载PDF打印提交；IELTS原件，IELTS Online可提交结果画面的TRF打印版。TOEIC IP／Bridge／SW、TOEFL ITP不接受；交付原件在口述结束前返还。此处遵循当轮一般要项实际第9–10页，入口链接的旧英语单页未列IELTS和新TOEFL方式，不用于覆盖本轮规则；也不套用理工学府的ETS直送要求。官方给出得分换算，没有另外公开最低合格分，详细新旧TOEFL换算表保留官方页。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 28
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "关联学府公开题群范围",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "最新指定英语提交方式",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "当前IELTS换算表",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-social-interdisciplinary",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "社会データサイエンス（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（情報学術試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "教育分野（数学，理論言語学，計算力学）に関する問題群の中から選択。希望する研究分野に関する口述試験。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 本主题信息学术区分保留计算力学／数值模拟路径（山田貴博、白崎実、松井和己），未将应考题群创造为招生专攻。 专业笔试120分钟200分，研究领域口述200分，英语100分；题群选答但未公布题数及细章节。英语100分：TOEIC L&R公开考试、TOEFL iBT（含Home Edition）或IELTS。成绩须带照片、距试验当天两年以内，当天携带并按担当者指示提交；TOEIC原件，日本公开考试可交带QR数字证打印版；TOEFL以单次Test Date Score，不用My Best，2026年1月以后受验可下载PDF打印提交；IELTS原件，IELTS Online可提交结果画面的TRF打印版。TOEIC IP／Bridge／SW、TOEFL ITP不接受；交付原件在口述结束前返还。此处遵循当轮一般要项实际第9–10页，入口链接的旧英语单页未列IELTS和新TOEFL方式，不用于覆盖本轮规则；也不套用理工学府的ETS直送要求。官方给出得分换算，没有另外公开最低合格分，详细新旧TOEFL换算表保留官方页。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 28
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "关联学府公开题群范围",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "最新指定英语提交方式",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "当前IELTS换算表",
+          "url": "https://www.eis.ynu.ac.jp/academic/admission/requirement/pdf/R8_M_2.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-electronics-mechanical",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "集積エレクトロニクスと社会展開（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（機械工学試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "学科試験Ⅰ：数学；熱力学；材料力学。 学科試験Ⅱ：機械力学；流体力学；制御工学。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 该应考区分限本主题实际列出的工程导师；◆标志教员当轮不能作为志愿导师，以原要项名单为准。 试卷Ⅰ：数学、热力学、材料力学各50分；试卷Ⅱ：机械力学、流体力学、控制工学各50分。每卷150分换算为200分，没有任选题说明。 两卷各120分钟、200分，英语100分；英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "指向理工当轮详细科目",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮英语材料、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-electronics-materials",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "集積エレクトロニクスと社会展開（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（材料科学フロンティア試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "学科試験Ⅰ：解析学（微分、積分、微分方程式）；線形代数学（行列とその応用、連立一次方程式）；力学；物理化学（熱力学）；統計物理学。 学科試験Ⅱ：材料力学；固体電子論；結晶塑性学；金属組織学I；金属組織学II。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 该应考区分限本主题实际列出的工程导师；◆标志教员当轮不能作为志愿导师，以原要项名单为准。 两卷各5题，每题40分，总计各200分。金属组织学Ⅰ为晶体、状态图及相关领域；Ⅱ为扩散、回复／再结晶、相变及相关领域。保留材料工程要求的物理化学与统计物理，不把它们删除，也没有把5题误写成任选。 两卷各120分钟、200分，英语100分；英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "指向理工当轮详细科目",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮英语材料、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-electronics-semiconductor",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "集積エレクトロニクスと社会展開（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（物理工学試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "学科試験Ⅰ：物理Ⅰ（物理数学、力学、電磁気学から出題する）。 学科試験Ⅱ：物理Ⅱ（量子力学、熱・統計力学から出題する）。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 本主题物理工学试验区分本次限定半导体器件、量子计算／通信等应用信息工程路径，未将名单中光量子物理理论当纯物理项目添加。 两卷分别为物理Ⅰ（物理数学、力学、电磁学）与物理Ⅱ（量子力学、热／统计力学），各200分。半导体物理工程属于正式器件相关培养，本条没有导入物理工学教育分野的纯物理方向。 两卷各200分，英语100分；英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。 官网8月19日更新标题注明物理工学试验时间已变更；详细表原需受验票附送密码且现已下架，本条不声称旧表时间仍有效，具体时段未重新核验。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "指向理工当轮详细科目",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "当轮英语材料、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "物理工学试验时段变更，详细表已结束公开",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2013/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-electronics-electronic",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "集積エレクトロニクスと社会展開（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（電子情報システム試験区分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "学力検査（外国語、筆記試験）；口述試験（面接）；出願書類。",
+      "scopeOriginal": "学科試験Ⅰ：線形代数学；微分積分学。 学科試験Ⅱ：電磁気学；回路理論；論理回路；アルゴリズム。",
+      "conditionsOriginal": "志願者は、志望指導教員と出願前に必ず連絡を取ってから出願してください。",
+      "editorialNote": "先進実践学環是独立修士入学项目；记录中的「研究テーマ」是官方正式招生研究主题，不是自造专攻。同一主题按导师名单指定的试验区分分条，各条只对应此卷；不能在学府或单元之间自行任选，也不表示同时报考另外学府。须预先联系导师，不可同时申请多个主题／教员。一般选拔综合笔试、口述及材料；口述确认文理／异领域研究意愿及研究计划妥当性。 该应考区分限本主题实际列出的工程导师；◆标志教员当轮不能作为志愿导师，以原要项名单为准。 试卷Ⅰ线性代数与微积分各100分；试卷Ⅱ电磁学、回路理论、逻辑电路与算法各50分。两卷各200分，没有2选1或4选2规则；信息系统考生同样保留四个专业科目。 两卷各120分钟、200分，英语100分；英语100分，采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）。TOEIC试验当天交官方认定证；在日本参加公开考试者可交带QR的数字认定证打印版。TOEFL须ETS直送Official Score Report（机构0410），并在试验当天交Test Taker Score Report；不采用My Best Scores。成绩须带照片，受验日距提交日两年以内；不接受TOEIC IP／Bridge／SW、TOEFL ITP／PBT。所收录单元未规定独自英语笔试替代；该替代仅用于未收录的数理科学单元。学校提供换算表而非最低合格分，完整表链接原PDF，不将满分换算阈值当申请门槛。 海外16年学历等合资格者可参加一般选拔，保留一般名称并在留学生栏显示。申请2026年6月1–5日，所收录理工／环境信息区分考试8月20–21日，结果9月30日，现已结束。2026年10月7日官网明确2027年4月一般第二次募集不实施，不能把当轮科目当作冬季可报考入口；单独停止条目仅针对第二次，不是整个学环或第一次招生停止。",
+      "sources": [
+        {
+          "label": "正式研究主题、报考限制与导师确认",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "一般选拔海外学历资格",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般选拔方式与口述目的",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "各学府试验时段（图像页）",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "官方规定该区分专业笔试范围",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "该区分英语材料与口述",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "当轮主题导师名单与应考区分",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 32
+        },
+        {
+          "label": "该轮日程",
+          "url": "https://ynuifgs.ynu.ac.jp/wordpress/wp-content/uploads/2023/02/2027_IFGSippan_yoko.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "官方现行及过去募集文件入口",
+          "url": "https://ynuifgs.ynu.ac.jp/admissions/application/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年4月一般第二次不实施公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        },
+        {
+          "label": "指向理工当轮详细科目",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "当轮英语材料、换算表",
+          "url": "https://www.fse.ynu.ac.jp/exam/exam/master/202610-202704-01/docs/application_guidelines.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-ai-second-closed",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "応用AI（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（第二次）実施なし",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "publicationStatus": "closed",
+      "conditionsOriginal": "令和９年度４月入学『一般選抜（第二次）募集』は実施しません。",
+      "editorialNote": "2026年10月7日官方公告：2027年4月一般选拔第二次不实施。仅该期次关闭；第一次已完成的修士科目另列，社会人选拔不在本批范围。没有把此条标成待公布或填入旧冬季科目。",
+      "sources": [
+        {
+          "label": "第二次不实施官方公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-social-second-closed",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "社会データサイエンス（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（第二次）実施なし",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "publicationStatus": "closed",
+      "conditionsOriginal": "令和９年度４月入学『一般選抜（第二次）募集』は実施しません。",
+      "editorialNote": "2026年10月7日官方公告：2027年4月一般选拔第二次不实施。仅该期次关闭；第一次已完成的修士科目另列，社会人选拔不在本批范围。没有把此条标成待公布或填入旧冬季科目。",
+      "sources": [
+        {
+          "label": "第二次不实施官方公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "ynu-ifgs-electronics-second-closed",
+      "universityId": "ynu",
+      "graduateSchool": "先進実践学環",
+      "department": "集積エレクトロニクスと社会展開（研究テーマ）",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜（第二次）実施なし",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "publicationStatus": "closed",
+      "conditionsOriginal": "令和９年度４月入学『一般選抜（第二次）募集』は実施しません。",
+      "editorialNote": "2026年10月7日官方公告：2027年4月一般选拔第二次不实施。仅该期次关闭；第一次已完成的修士科目另列，社会人选拔不在本批范围。没有把此条标成待公布或填入旧冬季科目。",
+      "sources": [
+        {
+          "label": "第二次不实施官方公告",
+          "url": "https://ynuifgs.ynu.ac.jp/news/news-2043/",
+          "kind": "page"
         }
       ]
     }

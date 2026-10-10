@@ -1,6 +1,6 @@
 (function (root) {
   'use strict';
-  const officialDomains = ['u-tokyo.ac.jp', 'kyoto-u.ac.jp', 'isct.ac.jp', 'titech.ac.jp', 'waseda.jp', 'tus.ac.jp', 'osaka-u.ac.jp', 'tohoku.ac.jp', 'kyushu-u.ac.jp', 'hokudai.ac.jp', 'keio.ac.jp', 'sophia.ac.jp', 'kobe-u.ac.jp', 'nagoya-u.ac.jp', 'uec.ac.jp', 'tsukuba.ac.jp', 'hit-u.ac.jp'];
+  const officialDomains = ['u-tokyo.ac.jp', 'kyoto-u.ac.jp', 'isct.ac.jp', 'titech.ac.jp', 'waseda.jp', 'tus.ac.jp', 'osaka-u.ac.jp', 'tohoku.ac.jp', 'kyushu-u.ac.jp', 'hokudai.ac.jp', 'keio.ac.jp', 'sophia.ac.jp', 'kobe-u.ac.jp', 'nagoya-u.ac.jp', 'uec.ac.jp', 'tsukuba.ac.jp', 'hit-u.ac.jp', 'ynu.ac.jp'];
   function normalize(value) { return String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/\s+/g, ' ').trim(); }
   function sourceURL(source) {
     try {
