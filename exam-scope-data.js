@@ -127,6 +127,18 @@
         "Nagoya University",
         "Nagoya"
       ]
+    },
+    {
+      "id": "uec",
+      "name": "電気通信大学",
+      "aliases": [
+        "電通大",
+        "电通大",
+        "电气通信大学",
+        "UEC",
+        "UEC Tokyo",
+        "The University of Electro-Communications"
+      ]
     }
   ],
   "catalog": {
@@ -153,7 +165,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学与名古屋大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学与電気通信大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -334,6 +346,14 @@
         "情報学研究科"
       ],
       "note": "名古屋大学：工学研究科12个专攻、情報学研究科4个专攻，共41条入口：29条已核验一般考试／笔试免除或口述判定要求，12条工学外国人入试待核验。适用2027年4月；一般选拔已结束。工学外国语言与信息学外语规则不同，机械航空基礎仅数学、电气专业分组选答分别保存；长范围表链接官方实际页。工学外国人2027通知存在，但完整当年范围未核验，不套用一般或旧年度要项。信息学2027年2月募集要项待发布，尚未建立专攻别考纲。后续学校不收社会人／G30英语项目，保留专业中的必考数学、物理、化学不删。"
+    },
+    "uec": {
+      "verifiedAt": "2026-10-10",
+      "degree": "博士前期課程（修士）",
+      "graduateSchools": [
+        "情報理工学研究科"
+      ],
+      "note": "電気通信大学：情報理工学研究科4个专攻、13个正式项目，共26条一般考试要求：2027年4月（含外国人）与2026年10月（仅外国人）各13条，考试已结束。学校明确10月准用4月一般选拔，分别保存真实名称、年度与对应页；两者均按一般入口显示在留学生栏目。信息学四选三、信息网络八选三、机械知能两科必答、基盘理工十一选四且第一组至少一科分别保存。一般没有社会人面试／小论文。社会人、英语项目、化学生命工学、经营社会方向及博士专用专攻未添加；不删保留专业的数学、物理、化学可选科目。英语提交以当年要项的2026起TOEFL打印新规则为准。"
     }
   },
   "records": [
@@ -39152,6 +39172,2112 @@
         }
       ],
       "conditionsOriginal": "英語外部試験の成績通知書を必ず提出すること。成績通知書は，2024年4月1日以降受験分を有効とする。"
+    },
+    {
+      "id": "uec-informatics-1-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "course": "メディア情報学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：「線形代数」および「微分積分」。選択：アルゴリズムとデータ構造，確率・オペレーションズリサーチ，離散数学，計算機工学。英語（外部試験）。",
+      "scopeOriginal": "必須（1科目計100点）：「線形代数」および「微分積分」。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：4科目から3科目（1科目100点×3科目，計300点）。アルゴリズムとデータ構造：アルゴリズムの計算量，データ探索・整列，再帰，文字列処理，データ構造の基礎（線形リスト，スタック，キュー，木構造など）。確率・オペレーションズリサーチ：確率計算（期待値計算など），確率分布（離散分布，連続分布），収束定理，線形計画法。離散数学：集合，写像，論理，数学的帰納法。計算機工学：システムソフトウェア，計算機アーキテクチャ。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "必答数学合为一科100分，另四科选三，每科100分。详细范围原页含集合／逻辑、系统软件／架构等细目；总专业400分。必答50分钟、选答130分钟。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/j/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-informatics-1-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "course": "メディア情報学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：「線形代数」および「微分積分」。選択：アルゴリズムとデータ構造，確率・オペレーションズリサーチ，離散数学，計算機工学。英語（外部試験）。",
+      "scopeOriginal": "必須（1科目計100点）：「線形代数」および「微分積分」。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：4科目から3科目（1科目100点×3科目，計300点）。アルゴリズムとデータ構造：アルゴリズムの計算量，データ探索・整列，再帰，文字列処理，データ構造の基礎（線形リスト，スタック，キュー，木構造など）。確率・オペレーションズリサーチ：確率計算（期待値計算など），確率分布（離散分布，連続分布），収束定理，線形計画法。離散数学：集合，写像，論理，数学的帰納法。計算機工学：システムソフトウェア，計算機アーキテクチャ。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "必答数学合为一科100分，另四科选三，每科100分。详细范围原页含集合／逻辑、系统软件／架构等细目；总专业400分。必答50分钟、选答130分钟。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/j/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-informatics-2-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "course": "セキュリティ情報学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：「線形代数」および「微分積分」。選択：アルゴリズムとデータ構造，確率・オペレーションズリサーチ，離散数学，計算機工学。英語（外部試験）。",
+      "scopeOriginal": "必須（1科目計100点）：「線形代数」および「微分積分」。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：4科目から3科目（1科目100点×3科目，計300点）。アルゴリズムとデータ構造：アルゴリズムの計算量，データ探索・整列，再帰，文字列処理，データ構造の基礎（線形リスト，スタック，キュー，木構造など）。確率・オペレーションズリサーチ：確率計算（期待値計算など），確率分布（離散分布，連続分布），収束定理，線形計画法。離散数学：集合，写像，論理，数学的帰納法。計算機工学：システムソフトウェア，計算機アーキテクチャ。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "必答数学合为一科100分，另四科选三，每科100分。详细范围原页含集合／逻辑、系统软件／架构等细目；总专业400分。必答50分钟、选答130分钟。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/j/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-informatics-2-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "course": "セキュリティ情報学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：「線形代数」および「微分積分」。選択：アルゴリズムとデータ構造，確率・オペレーションズリサーチ，離散数学，計算機工学。英語（外部試験）。",
+      "scopeOriginal": "必須（1科目計100点）：「線形代数」および「微分積分」。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：4科目から3科目（1科目100点×3科目，計300点）。アルゴリズムとデータ構造：アルゴリズムの計算量，データ探索・整列，再帰，文字列処理，データ構造の基礎（線形リスト，スタック，キュー，木構造など）。確率・オペレーションズリサーチ：確率計算（期待値計算など），確率分布（離散分布，連続分布），収束定理，線形計画法。離散数学：集合，写像，論理，数学的帰納法。計算機工学：システムソフトウェア，計算機アーキテクチャ。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "必答数学合为一科100分，另四科选三，每科100分。详细范围原页含集合／逻辑、系统软件／架构等细目；总专业400分。必答50分钟、选答130分钟。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/j/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-informatics-3-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "course": "デザイン思考・データサイエンスプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：「線形代数」および「微分積分」。選択：アルゴリズムとデータ構造，確率・オペレーションズリサーチ，離散数学，計算機工学。英語（外部試験）。",
+      "scopeOriginal": "必須（1科目計100点）：「線形代数」および「微分積分」。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：4科目から3科目（1科目100点×3科目，計300点）。アルゴリズムとデータ構造：アルゴリズムの計算量，データ探索・整列，再帰，文字列処理，データ構造の基礎（線形リスト，スタック，キュー，木構造など）。確率・オペレーションズリサーチ：確率計算（期待値計算など），確率分布（離散分布，連続分布），収束定理，線形計画法。離散数学：集合，写像，論理，数学的帰納法。計算機工学：システムソフトウェア，計算機アーキテクチャ。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "必答数学合为一科100分，另四科选三，每科100分。详细范围原页含集合／逻辑、系统软件／架构等细目；总专业400分。必答50分钟、选答130分钟。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/j/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-informatics-3-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "course": "デザイン思考・データサイエンスプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：「線形代数」および「微分積分」。選択：アルゴリズムとデータ構造，確率・オペレーションズリサーチ，離散数学，計算機工学。英語（外部試験）。",
+      "scopeOriginal": "必須（1科目計100点）：「線形代数」および「微分積分」。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：4科目から3科目（1科目100点×3科目，計300点）。アルゴリズムとデータ構造：アルゴリズムの計算量，データ探索・整列，再帰，文字列処理，データ構造の基礎（線形リスト，スタック，キュー，木構造など）。確率・オペレーションズリサーチ：確率計算（期待値計算など），確率分布（離散分布，連続分布），収束定理，線形計画法。離散数学：集合，写像，論理，数学的帰納法。計算機工学：システムソフトウェア，計算機アーキテクチャ。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "必答数学合为一科100分，另四科选三，每科100分。详细范围原页含集合／逻辑、系统软件／架构等细目；总专业400分。必答50分钟、选答130分钟。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/j/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-networks-1-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "course": "情報数理工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：線形代数，微分積分。選択：電気回路，電磁気学，確率統計，信号処理，アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。英語（外部試験）。",
+      "scopeOriginal": "必須：線形代数80点，微分積分80点，計160点。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：8科目から3科目（1科目80点×3科目，計240点）。電気回路：直流回路と交流回路，キルヒホッフの法則，回路解析法，回路に関する諸定理，フェーザ表示，インピーダンス整合，2ポート回路網，回路の伝達関数，回路の過渡現象，インパルス応答。電磁気学：静電界，クーロンの法則，ガウスの法則，電位，静電容量，定常電流，静磁界，ビオ・サバールの法則，アンペアの法則，インダクタンス，電磁誘導。確率統計：事象と確率，順列・組み合わせ，確率変数と確率分布，期待値・平均・分散，離散型確率分布，連続型確率分布，多変数の確率分布，パラメータの推定，信頼区間，仮説の検定。信号処理：アナログ信号とディジタル信号，サンプリング定理，線形時不変システム，インパルス応答と畳み込み，フーリエ解析，z変換，ディジタルフィルタ，相関関数，スペクトル推定，白色雑音。アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "必答数学两科各80分，另八科选三、各80分，总专业400分；必答90分钟、选答120分钟。后四科详细关键词以及全部完整范围直接见官方实际第15页；不把专攻试卷改成项目独立试卷。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/i/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-networks-1-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "course": "情報数理工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：線形代数，微分積分。選択：電気回路，電磁気学，確率統計，信号処理，アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。英語（外部試験）。",
+      "scopeOriginal": "必須：線形代数80点，微分積分80点，計160点。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：8科目から3科目（1科目80点×3科目，計240点）。電気回路：直流回路と交流回路，キルヒホッフの法則，回路解析法，回路に関する諸定理，フェーザ表示，インピーダンス整合，2ポート回路網，回路の伝達関数，回路の過渡現象，インパルス応答。電磁気学：静電界，クーロンの法則，ガウスの法則，電位，静電容量，定常電流，静磁界，ビオ・サバールの法則，アンペアの法則，インダクタンス，電磁誘導。確率統計：事象と確率，順列・組み合わせ，確率変数と確率分布，期待値・平均・分散，離散型確率分布，連続型確率分布，多変数の確率分布，パラメータの推定，信頼区間，仮説の検定。信号処理：アナログ信号とディジタル信号，サンプリング定理，線形時不変システム，インパルス応答と畳み込み，フーリエ解析，z変換，ディジタルフィルタ，相関関数，スペクトル推定，白色雑音。アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "必答数学两科各80分，另八科选三、各80分，总专业400分；必答90分钟、选答120分钟。后四科详细关键词以及全部完整范围直接见官方实际第15页；不把专攻试卷改成项目独立试卷。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/i/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-networks-2-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "course": "コンピュータサイエンスプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：線形代数，微分積分。選択：電気回路，電磁気学，確率統計，信号処理，アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。英語（外部試験）。",
+      "scopeOriginal": "必須：線形代数80点，微分積分80点，計160点。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：8科目から3科目（1科目80点×3科目，計240点）。電気回路：直流回路と交流回路，キルヒホッフの法則，回路解析法，回路に関する諸定理，フェーザ表示，インピーダンス整合，2ポート回路網，回路の伝達関数，回路の過渡現象，インパルス応答。電磁気学：静電界，クーロンの法則，ガウスの法則，電位，静電容量，定常電流，静磁界，ビオ・サバールの法則，アンペアの法則，インダクタンス，電磁誘導。確率統計：事象と確率，順列・組み合わせ，確率変数と確率分布，期待値・平均・分散，離散型確率分布，連続型確率分布，多変数の確率分布，パラメータの推定，信頼区間，仮説の検定。信号処理：アナログ信号とディジタル信号，サンプリング定理，線形時不変システム，インパルス応答と畳み込み，フーリエ解析，z変換，ディジタルフィルタ，相関関数，スペクトル推定，白色雑音。アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "必答数学两科各80分，另八科选三、各80分，总专业400分；必答90分钟、选答120分钟。后四科详细关键词以及全部完整范围直接见官方实际第15页；不把专攻试卷改成项目独立试卷。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/i/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-networks-2-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "course": "コンピュータサイエンスプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：線形代数，微分積分。選択：電気回路，電磁気学，確率統計，信号処理，アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。英語（外部試験）。",
+      "scopeOriginal": "必須：線形代数80点，微分積分80点，計160点。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：8科目から3科目（1科目80点×3科目，計240点）。電気回路：直流回路と交流回路，キルヒホッフの法則，回路解析法，回路に関する諸定理，フェーザ表示，インピーダンス整合，2ポート回路網，回路の伝達関数，回路の過渡現象，インパルス応答。電磁気学：静電界，クーロンの法則，ガウスの法則，電位，静電容量，定常電流，静磁界，ビオ・サバールの法則，アンペアの法則，インダクタンス，電磁誘導。確率統計：事象と確率，順列・組み合わせ，確率変数と確率分布，期待値・平均・分散，離散型確率分布，連続型確率分布，多変数の確率分布，パラメータの推定，信頼区間，仮説の検定。信号処理：アナログ信号とディジタル信号，サンプリング定理，線形時不変システム，インパルス応答と畳み込み，フーリエ解析，z変換，ディジタルフィルタ，相関関数，スペクトル推定，白色雑音。アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "必答数学两科各80分，另八科选三、各80分，总专业400分；必答90分钟、选答120分钟。后四科详细关键词以及全部完整范围直接见官方实际第15页；不把专攻试卷改成项目独立试卷。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/i/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-networks-3-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "course": "情報通信工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：線形代数，微分積分。選択：電気回路，電磁気学，確率統計，信号処理，アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。英語（外部試験）。",
+      "scopeOriginal": "必須：線形代数80点，微分積分80点，計160点。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：8科目から3科目（1科目80点×3科目，計240点）。電気回路：直流回路と交流回路，キルヒホッフの法則，回路解析法，回路に関する諸定理，フェーザ表示，インピーダンス整合，2ポート回路網，回路の伝達関数，回路の過渡現象，インパルス応答。電磁気学：静電界，クーロンの法則，ガウスの法則，電位，静電容量，定常電流，静磁界，ビオ・サバールの法則，アンペアの法則，インダクタンス，電磁誘導。確率統計：事象と確率，順列・組み合わせ，確率変数と確率分布，期待値・平均・分散，離散型確率分布，連続型確率分布，多変数の確率分布，パラメータの推定，信頼区間，仮説の検定。信号処理：アナログ信号とディジタル信号，サンプリング定理，線形時不変システム，インパルス応答と畳み込み，フーリエ解析，z変換，ディジタルフィルタ，相関関数，スペクトル推定，白色雑音。アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "必答数学两科各80分，另八科选三、各80分，总专业400分；必答90分钟、选答120分钟。后四科详细关键词以及全部完整范围直接见官方实际第15页；不把专攻试卷改成项目独立试卷。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/i/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-networks-3-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "course": "情報通信工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：線形代数，微分積分。選択：電気回路，電磁気学，確率統計，信号処理，アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。英語（外部試験）。",
+      "scopeOriginal": "必須：線形代数80点，微分積分80点，計160点。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：8科目から3科目（1科目80点×3科目，計240点）。電気回路：直流回路と交流回路，キルヒホッフの法則，回路解析法，回路に関する諸定理，フェーザ表示，インピーダンス整合，2ポート回路網，回路の伝達関数，回路の過渡現象，インパルス応答。電磁気学：静電界，クーロンの法則，ガウスの法則，電位，静電容量，定常電流，静磁界，ビオ・サバールの法則，アンペアの法則，インダクタンス，電磁誘導。確率統計：事象と確率，順列・組み合わせ，確率変数と確率分布，期待値・平均・分散，離散型確率分布，連続型確率分布，多変数の確率分布，パラメータの推定，信頼区間，仮説の検定。信号処理：アナログ信号とディジタル信号，サンプリング定理，線形時不変システム，インパルス応答と畳み込み，フーリエ解析，z変換，ディジタルフィルタ，相関関数，スペクトル推定，白色雑音。アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "必答数学两科各80分，另八科选三、各80分，总专业400分；必答90分钟、选答120分钟。后四科详细关键词以及全部完整范围直接见官方实际第15页；不把专攻试卷改成项目独立试卷。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/i/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-networks-4-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "course": "電子情報学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：線形代数，微分積分。選択：電気回路，電磁気学，確率統計，信号処理，アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。英語（外部試験）。",
+      "scopeOriginal": "必須：線形代数80点，微分積分80点，計160点。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：8科目から3科目（1科目80点×3科目，計240点）。電気回路：直流回路と交流回路，キルヒホッフの法則，回路解析法，回路に関する諸定理，フェーザ表示，インピーダンス整合，2ポート回路網，回路の伝達関数，回路の過渡現象，インパルス応答。電磁気学：静電界，クーロンの法則，ガウスの法則，電位，静電容量，定常電流，静磁界，ビオ・サバールの法則，アンペアの法則，インダクタンス，電磁誘導。確率統計：事象と確率，順列・組み合わせ，確率変数と確率分布，期待値・平均・分散，離散型確率分布，連続型確率分布，多変数の確率分布，パラメータの推定，信頼区間，仮説の検定。信号処理：アナログ信号とディジタル信号，サンプリング定理，線形時不変システム，インパルス応答と畳み込み，フーリエ解析，z変換，ディジタルフィルタ，相関関数，スペクトル推定，白色雑音。アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "必答数学两科各80分，另八科选三、各80分，总专业400分；必答90分钟、选答120分钟。后四科详细关键词以及全部完整范围直接见官方实际第15页；不把专攻试卷改成项目独立试卷。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/i/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-networks-4-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "course": "電子情報学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：線形代数，微分積分。選択：電気回路，電磁気学，確率統計，信号処理，アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。英語（外部試験）。",
+      "scopeOriginal": "必須：線形代数80点，微分積分80点，計160点。線形代数：行列，連立一次方程式，行列式，ベクトル空間，線形写像，固有値と固有ベクトル。微分積分：1変数関数の微分積分，偏微分，重積分。選択：8科目から3科目（1科目80点×3科目，計240点）。電気回路：直流回路と交流回路，キルヒホッフの法則，回路解析法，回路に関する諸定理，フェーザ表示，インピーダンス整合，2ポート回路網，回路の伝達関数，回路の過渡現象，インパルス応答。電磁気学：静電界，クーロンの法則，ガウスの法則，電位，静電容量，定常電流，静磁界，ビオ・サバールの法則，アンペアの法則，インダクタンス，電磁誘導。確率統計：事象と確率，順列・組み合わせ，確率変数と確率分布，期待値・平均・分散，離散型確率分布，連続型確率分布，多変数の確率分布，パラメータの推定，信頼区間，仮説の検定。信号処理：アナログ信号とディジタル信号，サンプリング定理，線形時不変システム，インパルス応答と畳み込み，フーリエ解析，z変換，ディジタルフィルタ，相関関数，スペクトル推定，白色雑音。アルゴリズムとデータ構造，計算機の基本原理，数値計算，離散数学とオートマトン。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "必答数学两科各80分，另八科选三、各80分，总专业400分；必答90分钟、选答120分钟。后四科详细关键词以及全部完整范围直接见官方实际第15页；不把专攻试卷改成项目独立试卷。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/i/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-mechanical-1-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "course": "計測・制御システムプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：数学基礎，物理学基礎。英語（外部試験）。",
+      "scopeOriginal": "必須：1科目200点×2科目，計400点。数学基礎：微分積分学（常微分方程式を含む），線形代数学。物理学基礎：力学（質点の運動，質点系の運動，剛体のつり合いと運動など），電磁気学（静電場，定常電流，電流と磁場，電磁誘導など）。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "数学基础和物理基础均必答，每科200分、120分钟。2027一般入试未列材料／热／流体／控制专业选考题，不能从旧年度或课程内容补出这些科目。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/m/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-mechanical-1-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "course": "計測・制御システムプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：数学基礎，物理学基礎。英語（外部試験）。",
+      "scopeOriginal": "必須：1科目200点×2科目，計400点。数学基礎：微分積分学（常微分方程式を含む），線形代数学。物理学基礎：力学（質点の運動，質点系の運動，剛体のつり合いと運動など），電磁気学（静電場，定常電流，電流と磁場，電磁誘導など）。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "数学基础和物理基础均必答，每科200分、120分钟。2027一般入试未列材料／热／流体／控制专业选考题，不能从旧年度或课程内容补出这些科目。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/m/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-mechanical-2-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "course": "先端ロボティクスプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：数学基礎，物理学基礎。英語（外部試験）。",
+      "scopeOriginal": "必須：1科目200点×2科目，計400点。数学基礎：微分積分学（常微分方程式を含む），線形代数学。物理学基礎：力学（質点の運動，質点系の運動，剛体のつり合いと運動など），電磁気学（静電場，定常電流，電流と磁場，電磁誘導など）。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "数学基础和物理基础均必答，每科200分、120分钟。2027一般入试未列材料／热／流体／控制专业选考题，不能从旧年度或课程内容补出这些科目。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/m/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-mechanical-2-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "course": "先端ロボティクスプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：数学基礎，物理学基礎。英語（外部試験）。",
+      "scopeOriginal": "必須：1科目200点×2科目，計400点。数学基礎：微分積分学（常微分方程式を含む），線形代数学。物理学基礎：力学（質点の運動，質点系の運動，剛体のつり合いと運動など），電磁気学（静電場，定常電流，電流と磁場，電磁誘導など）。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "数学基础和物理基础均必答，每科200分、120分钟。2027一般入试未列材料／热／流体／控制专业选考题，不能从旧年度或课程内容补出这些科目。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/m/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-mechanical-3-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "course": "機械システムプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：数学基礎，物理学基礎。英語（外部試験）。",
+      "scopeOriginal": "必須：1科目200点×2科目，計400点。数学基礎：微分積分学（常微分方程式を含む），線形代数学。物理学基礎：力学（質点の運動，質点系の運動，剛体のつり合いと運動など），電磁気学（静電場，定常電流，電流と磁場，電磁誘導など）。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "数学基础和物理基础均必答，每科200分、120分钟。2027一般入试未列材料／热／流体／控制专业选考题，不能从旧年度或课程内容补出这些科目。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/m/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-mechanical-3-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "course": "機械システムプログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "必須：数学基礎，物理学基礎。英語（外部試験）。",
+      "scopeOriginal": "必須：1科目200点×2科目，計400点。数学基礎：微分積分学（常微分方程式を含む），線形代数学。物理学基礎：力学（質点の運動，質点系の運動，剛体のつり合いと運動など），電磁気学（静電場，定常電流，電流と磁場，電磁誘導など）。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "数学基础和物理基础均必答，每科200分、120分钟。2027一般入试未列材料／热／流体／控制专业选考题，不能从旧年度或课程内容补出这些科目。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/m/index.html",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-engineering-science-1-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "course": "電子工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "選択群I：電気・電子回路，光波動工学，量子力学／統計力学，無機・有機化学，分子生物学／生物化学。選択群II：基礎数学，力学，電磁気学，光・電子デバイス基礎，物理化学，細胞・神経生物学。英語（外部試験）。",
+      "scopeOriginal": "選択：1科目100点×4科目，計400点。選択群I，IIの全11科目のうち，選択群Iから1科目以上を含む4科目を選択。選択群I：（1）電気・電子回路：線形回路，過渡現象，増幅回路，演算増幅器。（2）光波動工学：屈折，透過，反射，干渉，回折，偏光，波動方程式。（3）量子力学／統計力学：角運動量，摂動論を含む／グランドカノニカル分布，自由フェルミ粒子，自由ボーズ粒子を含む。（4）無機・有機化学。（5）分子生物学／生物化学。選択群II：（6）基礎数学：微分積分，線形代数，微分方程式，フーリエ級数，ベクトル解析。（7）力学：質点，質点系，剛体を含む。（8）電磁気学：静電場，導体と誘電体，定常電流，静磁場，電磁誘導，マクスウェル方程式。（9）光・電子デバイス基礎：固体物理の基礎，半導体の電気伝導，物質の光学的性質，pn接合。（10）物理化学。（11）細胞・神経生物学。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "11科选4，第一组选至少一科；180分钟，专业400分。保留电子、光学与材料／器件相关物理工程正式项目；共用试卷的化学／生命可选项完整保留，化学主体项目不收录。后三个化学／生命选项的完整关键词见原页。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.es.uec.ac.jp/course/",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-engineering-science-1-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "course": "電子工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "選択群I：電気・電子回路，光波動工学，量子力学／統計力学，無機・有機化学，分子生物学／生物化学。選択群II：基礎数学，力学，電磁気学，光・電子デバイス基礎，物理化学，細胞・神経生物学。英語（外部試験）。",
+      "scopeOriginal": "選択：1科目100点×4科目，計400点。選択群I，IIの全11科目のうち，選択群Iから1科目以上を含む4科目を選択。選択群I：（1）電気・電子回路：線形回路，過渡現象，増幅回路，演算増幅器。（2）光波動工学：屈折，透過，反射，干渉，回折，偏光，波動方程式。（3）量子力学／統計力学：角運動量，摂動論を含む／グランドカノニカル分布，自由フェルミ粒子，自由ボーズ粒子を含む。（4）無機・有機化学。（5）分子生物学／生物化学。選択群II：（6）基礎数学：微分積分，線形代数，微分方程式，フーリエ級数，ベクトル解析。（7）力学：質点，質点系，剛体を含む。（8）電磁気学：静電場，導体と誘電体，定常電流，静磁場，電磁誘導，マクスウェル方程式。（9）光・電子デバイス基礎：固体物理の基礎，半導体の電気伝導，物質の光学的性質，pn接合。（10）物理化学。（11）細胞・神経生物学。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "11科选4，第一组选至少一科；180分钟，专业400分。保留电子、光学与材料／器件相关物理工程正式项目；共用试卷的化学／生命可选项完整保留，化学主体项目不收录。后三个化学／生命选项的完整关键词见原页。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.es.uec.ac.jp/course/",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-engineering-science-2-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "course": "光工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "選択群I：電気・電子回路，光波動工学，量子力学／統計力学，無機・有機化学，分子生物学／生物化学。選択群II：基礎数学，力学，電磁気学，光・電子デバイス基礎，物理化学，細胞・神経生物学。英語（外部試験）。",
+      "scopeOriginal": "選択：1科目100点×4科目，計400点。選択群I，IIの全11科目のうち，選択群Iから1科目以上を含む4科目を選択。選択群I：（1）電気・電子回路：線形回路，過渡現象，増幅回路，演算増幅器。（2）光波動工学：屈折，透過，反射，干渉，回折，偏光，波動方程式。（3）量子力学／統計力学：角運動量，摂動論を含む／グランドカノニカル分布，自由フェルミ粒子，自由ボーズ粒子を含む。（4）無機・有機化学。（5）分子生物学／生物化学。選択群II：（6）基礎数学：微分積分，線形代数，微分方程式，フーリエ級数，ベクトル解析。（7）力学：質点，質点系，剛体を含む。（8）電磁気学：静電場，導体と誘電体，定常電流，静磁場，電磁誘導，マクスウェル方程式。（9）光・電子デバイス基礎：固体物理の基礎，半導体の電気伝導，物質の光学的性質，pn接合。（10）物理化学。（11）細胞・神経生物学。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "11科选4，第一组选至少一科；180分钟，专业400分。保留电子、光学与材料／器件相关物理工程正式项目；共用试卷的化学／生命可选项完整保留，化学主体项目不收录。后三个化学／生命选项的完整关键词见原页。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.es.uec.ac.jp/course/",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-engineering-science-2-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "course": "光工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "選択群I：電気・電子回路，光波動工学，量子力学／統計力学，無機・有機化学，分子生物学／生物化学。選択群II：基礎数学，力学，電磁気学，光・電子デバイス基礎，物理化学，細胞・神経生物学。英語（外部試験）。",
+      "scopeOriginal": "選択：1科目100点×4科目，計400点。選択群I，IIの全11科目のうち，選択群Iから1科目以上を含む4科目を選択。選択群I：（1）電気・電子回路：線形回路，過渡現象，増幅回路，演算増幅器。（2）光波動工学：屈折，透過，反射，干渉，回折，偏光，波動方程式。（3）量子力学／統計力学：角運動量，摂動論を含む／グランドカノニカル分布，自由フェルミ粒子，自由ボーズ粒子を含む。（4）無機・有機化学。（5）分子生物学／生物化学。選択群II：（6）基礎数学：微分積分，線形代数，微分方程式，フーリエ級数，ベクトル解析。（7）力学：質点，質点系，剛体を含む。（8）電磁気学：静電場，導体と誘電体，定常電流，静磁場，電磁誘導，マクスウェル方程式。（9）光・電子デバイス基礎：固体物理の基礎，半導体の電気伝導，物質の光学的性質，pn接合。（10）物理化学。（11）細胞・神経生物学。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "11科选4，第一组选至少一科；180分钟，专业400分。保留电子、光学与材料／器件相关物理工程正式项目；共用试卷的化学／生命可选项完整保留，化学主体项目不收录。后三个化学／生命选项的完整关键词见原页。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.es.uec.ac.jp/course/",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
+    },
+    {
+      "id": "uec-engineering-science-3-april-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "course": "物理工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生を含む）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "選択群I：電気・電子回路，光波動工学，量子力学／統計力学，無機・有機化学，分子生物学／生物化学。選択群II：基礎数学，力学，電磁気学，光・電子デバイス基礎，物理化学，細胞・神経生物学。英語（外部試験）。",
+      "scopeOriginal": "選択：1科目100点×4科目，計400点。選択群I，IIの全11科目のうち，選択群Iから1科目以上を含む4科目を選択。選択群I：（1）電気・電子回路：線形回路，過渡現象，増幅回路，演算増幅器。（2）光波動工学：屈折，透過，反射，干渉，回折，偏光，波動方程式。（3）量子力学／統計力学：角運動量，摂動論を含む／グランドカノニカル分布，自由フェルミ粒子，自由ボーズ粒子を含む。（4）無機・有機化学。（5）分子生物学／生物化学。選択群II：（6）基礎数学：微分積分，線形代数，微分方程式，フーリエ級数，ベクトル解析。（7）力学：質点，質点系，剛体を含む。（8）電磁気学：静電場，導体と誘電体，定常電流，静磁場，電磁誘導，マクスウェル方程式。（9）光・電子デバイス基礎：固体物理の基礎，半導体の電気伝導，物質の光学的性質，pn接合。（10）物理化学。（11）細胞・神経生物学。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。",
+      "editorialNote": "11科选4，第一组选至少一科；180分钟，专业400分。保留电子、光学与材料／器件相关物理工程正式项目；共用试卷的化学／生命可选项完整保留，化学主体项目不收录。后三个化学／生命选项的完整关键词见原页。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。4月一般入试明确包含外国人留学生，保留一般名称，不复制为另一外国人特别入试。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.es.uec.ac.jp/course/",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "4月一般外国学历资格"
+        }
+      ]
+    },
+    {
+      "id": "uec-engineering-science-3-october-general",
+      "universityId": "uec",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "course": "物理工学プログラム",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "degreeProgram": "master",
+      "selectionName": "一般入試（外国人留学生のみ対象）",
+      "entryYear": "2026年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "選択群I：電気・電子回路，光波動工学，量子力学／統計力学，無機・有機化学，分子生物学／生物化学。選択群II：基礎数学，力学，電磁気学，光・電子デバイス基礎，物理化学，細胞・神経生物学。英語（外部試験）。",
+      "scopeOriginal": "選択：1科目100点×4科目，計400点。選択群I，IIの全11科目のうち，選択群Iから1科目以上を含む4科目を選択。選択群I：（1）電気・電子回路：線形回路，過渡現象，増幅回路，演算増幅器。（2）光波動工学：屈折，透過，反射，干渉，回折，偏光，波動方程式。（3）量子力学／統計力学：角運動量，摂動論を含む／グランドカノニカル分布，自由フェルミ粒子，自由ボーズ粒子を含む。（4）無機・有機化学。（5）分子生物学／生物化学。選択群II：（6）基礎数学：微分積分，線形代数，微分方程式，フーリエ級数，ベクトル解析。（7）力学：質点，質点系，剛体を含む。（8）電磁気学：静電場，導体と誘電体，定常電流，静磁場，電磁誘導，マクスウェル方程式。（9）光・電子デバイス基礎：固体物理の基礎，半導体の電気伝導，物質の光学的性質，pn接合。（10）物理化学。（11）細胞・神経生物学。",
+      "conditionsOriginal": "英語：TOEIC L&R公開テスト，TOEFL-iBT（Home Editionを含む），TOEFL-ITP（本学実施に限る）のいずれか。2024年8月以降に受験したスコア。Test Date Scoreのみ，My Bestスコアは活用しない。10月入学：日本国以外の国籍を有する者。日本の大学を卒業（見込みを含む）の場合は，4月入学のみ出願できます。選抜方法は4月一般入試に準じます。",
+      "editorialNote": "11科选4，第一组选至少一科；180分钟，专业400分。保留电子、光学与材料／器件相关物理工程正式项目；共用试卷的化学／生命可选项完整保留，化学主体项目不收录。后三个化学／生命选项的完整关键词见原页。2026年8月18日实施的当年一般考试已结束。外部英语100分＋专业400分；一般选拔不设面试或小论文。须事前联系第一希望导师并获受入承诺。英语须随出愿提交，有效期为2024年8月以后；接受TOEIC L&R公开考试、TOEFL iBT（含Home Edition）、仅本校实施的TOEFL ITP。不收TOEIC IP／S&W、MyBest或考试机构直接寄给大学的成绩；IELTS仅博士后期可用。2026年1月以后受验的iBT可打印含旧0–120分标度的Test Taker Score Report PDF；2025年12月以前受验的PDF打印成绩无效，按当年要项优先于概要网页。10月入口只针对非日本国籍、符合外国学历条件者；日本大学毕业／预计毕业者只能报4月。学校明确10月选拔方法及日程准用4月一般规定，故引用同一专业范围表，另保留10月正式入口页；4月与10月不能同时出愿。",
+      "sources": [
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "一般专业科目与详细范围（实际页）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般选拔：仅外语与专业，不混入社会人面试"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "当年外部英语与2026起PDF打印规则"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "英语100分换算表（不是最低门槛）"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17,
+          "label": "四专攻一般笔试安排"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "现行专攻与正式项目名单"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "事前导师受入承诺"
+        },
+        {
+          "url": "https://www.es.uec.ac.jp/course/",
+          "kind": "page",
+          "label": "官方专攻／项目说明"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/request.html",
+          "kind": "page",
+          "label": "2027／2026当年募集入口"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 21,
+          "label": "10月仅外国人：资格与日本大学毕业者限制"
+        },
+        {
+          "url": "https://www.uec.ac.jp/education/graduate/admission/pdf/ie-p-gene-itn_2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "10月明确准用4月一般选拔与日程"
+        }
+      ]
     }
   ]
 };
