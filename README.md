@@ -103,3 +103,5 @@
 
 [查看改版前的完整备份](https://github.com/Zhang-HL-1/japan-study-journal/tree/backup/pre-claude-redesign-20261005) · [回滚说明与插图信息](docs/visual-redesign.md)。需要恢复时可撤销视觉改版提交，保留之后新增的学校资料。
 
+
+考试科目与范围页面支持科目多选（全部／任一所选）、同义名称归类与匹配学校统计。分类模块为 `exam-scope-subjects.js`，规则和边界见 `docs/exam-scope-data.md`；官方原文、选答条件及 PDF 页码保持原样。

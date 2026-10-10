@@ -116,3 +116,25 @@
 .scope-directions .school-bar { margin: .8rem 0; }
 .scope-directions button { overflow-wrap: anywhere; }
 .scope-directions #scope-direction-note:empty { display: none; }
+
+.scope-subject-filter { border-bottom: 1px solid var(--line); padding-bottom: .7rem; margin-bottom: 1.1rem; }
+.scope-subject-filter h4 { margin: 0; font-size: .85rem; font-weight: 600; }
+.scope-subject-filter .scope-filter-heading { gap: .4rem; margin-bottom: .6rem; }
+.scope-subject-filter .scope-plain { font-size: .72rem; white-space: nowrap; }
+.scope-subject-filter details { border: 1px solid var(--line); border-radius: .3rem; margin-bottom: .7rem; }
+.scope-subject-filter summary { padding: .7rem; font-size: .8rem; cursor: pointer; }
+.scope-subject-filter summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.scope-subject-filter #scope-subject-search { width: calc(100% - 1rem); margin: 0 .5rem .5rem; font-size: .78rem; }
+.scope-subject-options { max-height: 18rem; overflow-y: auto; padding: 0 .5rem .5rem; }
+.scope-subject-options h5 { margin: .5rem 0 .3rem; color: var(--muted); font-size: .72rem; font-weight: 500; }
+.scope-filters .scope-subject-option { display: flex; align-items: center; gap: .5rem; min-height: 2.5rem; margin: 0; padding: .3rem .2rem; font-size: .77rem; font-weight: 400; cursor: pointer; }
+.scope-filters .scope-subject-option input { flex: 0 0 1rem; width: 1rem; height: 1rem; min-height: 0; margin: 0; padding: 0; accent-color: var(--accent); }
+.scope-subject-option span { flex: 1; }
+.scope-subject-option small { color: var(--muted); font-size: .67rem; white-space: nowrap; }
+.scope-subject-option:hover { background: #f2efe6; }
+.scope-subject-option[hidden], .scope-subject-options section[hidden] { display: none; }
+.scope-subject-selected { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .7rem; }
+.scope-subject-selected:empty { display: none; }
+.scope-subject-selected button { border: 1px solid var(--line); border-radius: .3rem; padding: .4rem .5rem; background: #f2efe6; font-size: .72rem; text-align: left; cursor: pointer; }
+.scope-subject-evidence { color: var(--muted); font-size: .78rem; line-height: 1.8; overflow-wrap: anywhere; }
+#scope-subject-schools { margin: .2rem 0 1rem; }
