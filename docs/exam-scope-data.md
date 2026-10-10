@@ -713,3 +713,6 @@ ifgs-guide SHA256：`fd78b7af74f5540574e8f9b9f309017c4e836366995d19c12a9863661b5
 | [ams-criteria.pdf](https://www.meiji.ac.jp/ams/exam/6t5h7p00003fm90v-att/a1783037588270.pdf) | 1 | `602a5b86982bf81621c0ba6f538bf8cc701a70ea1ee65afe6bb4d1665fee6af6` |
 | [ams-guides.html](https://www.meiji.ac.jp/ams/exam/MDMix.html) | HTML | `9d1ded3752f6dfa1b69e482669d4d4e219ecb4d47c81b6d71d66ad7662a76005` |
 | [sst-autumn.pdf](https://www.meiji.ac.jp/sst/grad/examination/6t5h7p000000lcz2-att/a1774322789705.pdf) | 1, 4 | `9e0865deee5ddc9ee419cc58c57eb02c7c7db0e2bb24d4e364cda4821bfb1b63` |
+
+
+明治大学续查（2026-10-10）：官网及当年理工／先端数理募集PDF与已核验版本一致，6专攻24条科目与范围保留。补充[理工官网](https://www.meiji.ac.jp/sst/grad/examination/)今年取消考试当天交英语成绩；补充[先端数理入试官网](https://www.meiji.ac.jp/ams/exam/masterdoctor.html)TOEFL ETS直送「期限内必着」。AMS PDF实际11页日程表标「日付印有効」，但[配布官网](https://www.meiji.ac.jp/ams/exam/MDMix.html)要求逾期到达不认，记录保留这一来源差异并提示按到校期限提前安排，不将邮戳或直送申请日等同到校日。只补充明治提交条件、中文说明与来源，全部学校的科目、范围、选拔、入学年月和资料条数不变；其他17校完整保留。

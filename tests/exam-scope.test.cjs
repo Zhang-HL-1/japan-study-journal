@@ -367,8 +367,13 @@ test('Meiji keeps actual masters subjects, selection rules and separate English 
  assert.match(f('sst-mechanical-general-ii').scopeOriginal,/信頼性工学.*全て/s);
  assert.match(f('sst-electrical-general-ii').conditionsOriginal,/出願締切日を起点.*0点/s);
  assert.match(f('sst-electrical-general-ii').conditionsOriginal,/2027年2月22日/);
+ assert.match(f('sst-electrical-general-ii').conditionsOriginal,/試験当日に提出する方式は今年度から実施しません/);
+ assert.ok(f('sst-electrical-general-ii').sources.some(s=>s.kind==='page'&&s.url==='https://www.meiji.ac.jp/sst/grad/examination/'));
  assert.match(f('ams-network-international-ii').scopeOriginal,/情報基礎・回路理論.*2題/);
  assert.match(f('ams-network-international-ii').conditionsOriginal,/2027年1月15日.*入学試験日から.*5分間/s);
+ assert.match(f('ams-network-international-ii').conditionsOriginal,/英語能力試験スコア提出期限内必着/);
+ assert.match(f('ams-network-international-ii').editorialNote,/日付印有効.*期限内必着.*邮戳/s);
+ assert.ok(f('ams-network-international-ii').sources.some(s=>s.kind==='page'&&s.url==='https://www.meiji.ac.jp/ams/exam/masterdoctor.html'));
  assert.match(f('ams-media-international-ii').scopeOriginal,/3題.*2題/);
  assert.match(f('ams-media-international-ii').conditionsOriginal,/解答を英語でも可/);
  assert.doesNotMatch(f('ams-phenomena-general-ii').subjectsOriginal,/プレゼンテーション/);

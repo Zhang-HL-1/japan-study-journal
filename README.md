@@ -107,3 +107,6 @@
 
 
 考试科目与范围页面支持科目多选（包含全部所选）、同义名称归类与匹配学校统计。分类模块为 `exam-scope-subjects.js`，规则和边界见 `docs/exam-scope-data.md`；官方原文、选答条件及 PDF 页码保持原样。
+
+
+明治大学续查（2026-10-10）：官网及当年理工／先端数理募集PDF与已核验版本一致，6专攻24条科目与范围保留。补充[理工官网](https://www.meiji.ac.jp/sst/grad/examination/)今年取消考试当天交英语成绩；补充[先端数理入试官网](https://www.meiji.ac.jp/ams/exam/masterdoctor.html)TOEFL ETS直送「期限内必着」。AMS PDF实际11页日程表标「日付印有効」，但[配布官网](https://www.meiji.ac.jp/ams/exam/MDMix.html)要求逾期到达不认，记录保留这一来源差异并提示按到校期限提前安排，不将邮戳或直送申请日等同到校日。只补充明治提交条件、中文说明与来源，全部学校的科目、范围、选拔、入学年月和资料条数不变；其他17校完整保留。
