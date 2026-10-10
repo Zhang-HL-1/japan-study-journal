@@ -249,7 +249,7 @@ test('school filters switch all twelve coverage notes and unmatched results rema
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学与電気通信大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学与筑波大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);
@@ -397,3 +397,12 @@ test('Waseda closed master admission is clearly labeled and has no fabricated ex
  assert.ok(!a.ids['scope-results'].children.some(e=>e.dataset.id==='waseda-nano-closed'));
 });
 
+test('Tsukuba filters distinguish general and overseas scopes, entry months and English PDF originals',async()=>{
+ const a=boot(catalog.records);await school(a,'tsukuba').click();assert.equal(a.ids['scope-results'].children.length,11);
+ assert.equal(a.ids['scope-graduate'].options.length,3);assert.equal(a.ids['scope-department'].options.length,5);
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,13);
+ a.ids['scope-query'].value='Overseas';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,2);
+ a.ids['scope-year'].value='2027年10月';await a.ids['scope-year'].fire('change');assert.equal(a.ids['scope-results'].children.length,1);
+ await a.ids['scope-results'].children[0].click();assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='en'&&e.textContent.includes('related knowledge and skills')));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=6'));
+});

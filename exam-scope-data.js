@@ -139,6 +139,17 @@
         "UEC Tokyo",
         "The University of Electro-Communications"
       ]
+    },
+    {
+      "id": "tsukuba",
+      "name": "筑波大学",
+      "aliases": [
+        "筑波",
+        "筑波大",
+        "つくば大学",
+        "University of Tsukuba",
+        "Tsukuba"
+      ]
     }
   ],
   "catalog": {
@@ -165,7 +176,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学与電気通信大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学与筑波大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -354,6 +365,15 @@
         "情報理工学研究科"
       ],
       "note": "電気通信大学：情報理工学研究科4个专攻、13个正式项目，共26条一般考试要求：2027年4月（含外国人）与2026年10月（仅外国人）各13条，考试已结束。学校明确10月准用4月一般选拔，分别保存真实名称、年度与对应页；两者均按一般入口显示在留学生栏目。信息学四选三、信息网络八选三、机械知能两科必答、基盘理工十一选四且第一组至少一科分别保存。一般没有社会人面试／小论文。社会人、英语项目、化学生命工学、经营社会方向及博士专用专攻未添加；不删保留专业的数学、物理、化学可选科目。英语提交以当年要项的2026起TOEFL打印新规则为准。"
+    },
+    "tsukuba": {
+      "verifiedAt": "2026-10-10",
+      "degree": "修士・一貫制博士（1年次入学）",
+      "graduateSchools": [
+        "理工情報生命学術院／システム情報工学研究群",
+        "理工情報生命学術院／数理物質科学研究群"
+      ],
+      "note": "已核验2027年入学信息理工、知能机能系统、应用理工电子・物理工学三个修士方向，以及EMP一贯制博士1年次入口。一般夏冬期与实际4月／10月分别记录，共11条一般要求（包含外国学历），另有信息理工海外居住者特别选拔2条，共13条。以官网在线募集要项为正文，补充信息理工四领域、知能数学考纲及外部英语提交PDF。范围未细化的项目不推测章节。未添加推荐、社会人、SGU／MEXT英语项目及博士后期；跨土木／环境／人文／化学的混合项目本批省略，详见维护说明。"
     }
   },
   "records": [
@@ -41277,6 +41297,733 @@
           "pdfPage": 22,
           "label": "10月明确准用4月一般选拔与日程"
         }
+      ]
+    },
+    {
+      "id": "tsukuba-cs-august-april-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "情報理工学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "外国語（100点）：英語\n口述試験（400点）：個別面接",
+      "scopeOriginal": "1) 基礎学力（数学，情報基礎）について試問する。\n2) 専門分野及び本人の志望などについて試問する。\n受験生には、4つの分野から出題された問題の全てに解答してもらいます。\n解析学：関数と極限、数列の極限、無限級数、1変数関数の微分積分、多変数関数の微分積分（偏微分、重積分）\n線形代数：行列、行列式、ベクトル空間、1次写像、核と像、内積空間、固有値・固有ベクトルと対角化\n離散構造と論理：集合、命題論理、関数（全射，単射、像、合成関数など）、関係（半順序、全順序、同値関係、同値類など）、ブール代数、カルノー図、組合せ回路\nプログラミング基礎：制御構造（条件分岐、ループなど）、データ型（文字列、配列など）、データ構造（スタック、キュー、リスト、木など）、関数、再帰呼出し、C 言語、Python",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n全ての出願者は指導教員から事前に内諾を得る必要があります。\nTOEIC Listening & Reading Test、TOEFL iBT（TOEFL iBT Home Editionも有効）、IELTS Academic（ぺーバー版、又は、コンピューター版）。2024年7月以降に受験していること。受験者の写真が印刷されていること。TOEIC Institutional Program (IP)、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は対象外。\n入学後の研究計画を、日本語1000字程度、又は英語500語程度で入力。",
+      "editorialNote": "一般口述考核包含基础学力与专业志愿两部分。基础题先选择日语或英语，15分钟准备、2分钟口头回答；四领域全部必答，答案不能以展示笔记替代。没有一般专业笔试。 考试日期：2026年8月19日。夏季仅2027年4月，冬季可选2027年4月或10月入学；月份选项依据当年正式要项。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。系统信息研究群通常不用粘台纸，外国受验TOEIC等指定情况例外。",
+      "sources": [
+        {
+          "label": "2027年度博士前期／一貫制1年次・一般選抜科目",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "情報理工2027年度一般口述試験・出題範囲",
+          "url": "https://www.cs.tsukuba.ac.jp/admission.html#1",
+          "kind": "page"
+        },
+        {
+          "label": "入学年月・外国学历资格・导师内诺",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年外部英語種類・有効期・免除",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "计算机",
+        "计算机科学",
+        "コンピュータサイエンス",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "tsukuba-cs-winter-april-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "情報理工学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（1-2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "外国語（100点）：英語\n口述試験（400点）：個別面接",
+      "scopeOriginal": "1) 基礎学力（数学，情報基礎）について試問する。\n2) 専門分野及び本人の志望などについて試問する。\n受験生には、4つの分野から出題された問題の全てに解答してもらいます。\n解析学：関数と極限、数列の極限、無限級数、1変数関数の微分積分、多変数関数の微分積分（偏微分、重積分）\n線形代数：行列、行列式、ベクトル空間、1次写像、核と像、内積空間、固有値・固有ベクトルと対角化\n離散構造と論理：集合、命題論理、関数（全射，単射、像、合成関数など）、関係（半順序、全順序、同値関係、同値類など）、ブール代数、カルノー図、組合せ回路\nプログラミング基礎：制御構造（条件分岐、ループなど）、データ型（文字列、配列など）、データ構造（スタック、キュー、リスト、木など）、関数、再帰呼出し、C 言語、Python",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n全ての出願者は指導教員から事前に内諾を得る必要があります。\nTOEIC Listening & Reading Test、TOEFL iBT（TOEFL iBT Home Editionも有効）、IELTS Academic（ぺーバー版、又は、コンピューター版）。2024年7月以降に受験していること。受験者の写真が印刷されていること。TOEIC Institutional Program (IP)、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は対象外。\n入学後の研究計画を、日本語1000字程度、又は英語500語程度で入力。",
+      "editorialNote": "一般口述考核包含基础学力与专业志愿两部分。基础题先选择日语或英语，15分钟准备、2分钟口头回答；四领域全部必答，答案不能以展示笔记替代。没有一般专业笔试。 考试日期：2027年1月28日。夏季仅2027年4月，冬季可选2027年4月或10月入学；月份选项依据当年正式要项。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。系统信息研究群通常不用粘台纸，外国受验TOEIC等指定情况例外。",
+      "sources": [
+        {
+          "label": "2027年度博士前期／一貫制1年次・一般選抜科目",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "情報理工2027年度一般口述試験・出題範囲",
+          "url": "https://www.cs.tsukuba.ac.jp/admission.html#1",
+          "kind": "page"
+        },
+        {
+          "label": "入学年月・外国学历资格・导师内诺",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年外部英語種類・有効期・免除",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "计算机",
+        "计算机科学",
+        "コンピュータサイエンス",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "tsukuba-cs-winter-october-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "情報理工学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（1-2月実施）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "外国語（100点）：英語\n口述試験（400点）：個別面接",
+      "scopeOriginal": "1) 基礎学力（数学，情報基礎）について試問する。\n2) 専門分野及び本人の志望などについて試問する。\n受験生には、4つの分野から出題された問題の全てに解答してもらいます。\n解析学：関数と極限、数列の極限、無限級数、1変数関数の微分積分、多変数関数の微分積分（偏微分、重積分）\n線形代数：行列、行列式、ベクトル空間、1次写像、核と像、内積空間、固有値・固有ベクトルと対角化\n離散構造と論理：集合、命題論理、関数（全射，単射、像、合成関数など）、関係（半順序、全順序、同値関係、同値類など）、ブール代数、カルノー図、組合せ回路\nプログラミング基礎：制御構造（条件分岐、ループなど）、データ型（文字列、配列など）、データ構造（スタック、キュー、リスト、木など）、関数、再帰呼出し、C 言語、Python",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n全ての出願者は指導教員から事前に内諾を得る必要があります。\nTOEIC Listening & Reading Test、TOEFL iBT（TOEFL iBT Home Editionも有効）、IELTS Academic（ぺーバー版、又は、コンピューター版）。2024年7月以降に受験していること。受験者の写真が印刷されていること。TOEIC Institutional Program (IP)、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は対象外。\n入学後の研究計画を、日本語1000字程度、又は英語500語程度で入力。",
+      "editorialNote": "一般口述考核包含基础学力与专业志愿两部分。基础题先选择日语或英语，15分钟准备、2分钟口头回答；四领域全部必答，答案不能以展示笔记替代。没有一般专业笔试。 考试日期：2027年1月28日。夏季仅2027年4月，冬季可选2027年4月或10月入学；月份选项依据当年正式要项。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。系统信息研究群通常不用粘台纸，外国受验TOEIC等指定情况例外。",
+      "sources": [
+        {
+          "label": "2027年度博士前期／一貫制1年次・一般選抜科目",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "情報理工2027年度一般口述試験・出題範囲",
+          "url": "https://www.cs.tsukuba.ac.jp/admission.html#1",
+          "kind": "page"
+        },
+        {
+          "label": "入学年月・外国学历资格・导师内诺",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年外部英語種類・有効期・免除",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "计算机",
+        "计算机科学",
+        "コンピュータサイエンス",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "tsukuba-imis-august-april-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "知能機能システム学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "外国語（100点）：英語\n口述試験（300点）：個別面接",
+      "scopeOriginal": "1) 基礎学力（数学）について試問する。\n2) 現在の研究内容、志望理由及び研究計画のプレゼンテーションの後、関連事項について試問する。\n数学：\n線形代数：ベクトル，行列，行列式，線形空間，線形写像，内積空間，固有値と固有ベクトル\n解析学：数列・関数と極限，微分法，積分法，級数，微分方程式，複素解析",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n全ての出願者は指導教員から事前に内諾を得る必要があります。\nTOEIC Listening & Reading Test、TOEFL iBT（TOEFL iBT Home Editionも有効）、IELTS Academic（ぺーバー版、又は、コンピューター版）。2024年7月以降に受験していること。受験者の写真が印刷されていること。TOEIC Institutional Program (IP)、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は対象外。\n入学後の研究計画を、日本語1000字程度、又は英語500語程度で入力。\n知能機能システム及びエンパワーメント情報学の志願者に限り、英語を第一言語又は母国語とする者、英語を公用語とする国の出身者、英語で行われる学部課程を完全に修了した者は、申請により外部英語試験スコア票の提出が免除されます。",
+      "editorialNote": "一般入试为现场口述；在线规则针对社会人选拔，不能套用。数学包含微分方程式与复变解析，不缩写成仅微积分、线代；当年要项未在此处规定统一的个人报告分钟数。外部英语免除须申请，470／42／4.0为推荐条件，不作为一般门槛。 考试日期：2026年8月20日・21日。夏季仅2027年4月，冬季可选2027年4月或10月入学；月份选项依据当年正式要项。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。系统信息研究群通常不用粘台纸，外国受验TOEIC等指定情况例外。",
+      "sources": [
+        {
+          "label": "2027年度博士前期／一貫制1年次・一般選抜科目",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "博士前期一般口述試験の数学範囲（現行入口）",
+          "url": "https://www.imis.tsukuba.ac.jp/admission/admission-m/oral",
+          "kind": "page"
+        },
+        {
+          "label": "入学年月・外国学历资格・导师内诺",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年外部英語種類・有効期・免除",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "机器人",
+        "机械",
+        "控制",
+        "智能系统",
+        "IMIS"
+      ]
+    },
+    {
+      "id": "tsukuba-imis-winter-april-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "知能機能システム学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（1-2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "外国語（100点）：英語\n口述試験（300点）：個別面接",
+      "scopeOriginal": "1) 基礎学力（数学）について試問する。\n2) 現在の研究内容、志望理由及び研究計画のプレゼンテーションの後、関連事項について試問する。\n数学：\n線形代数：ベクトル，行列，行列式，線形空間，線形写像，内積空間，固有値と固有ベクトル\n解析学：数列・関数と極限，微分法，積分法，級数，微分方程式，複素解析",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n全ての出願者は指導教員から事前に内諾を得る必要があります。\nTOEIC Listening & Reading Test、TOEFL iBT（TOEFL iBT Home Editionも有効）、IELTS Academic（ぺーバー版、又は、コンピューター版）。2024年7月以降に受験していること。受験者の写真が印刷されていること。TOEIC Institutional Program (IP)、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は対象外。\n入学後の研究計画を、日本語1000字程度、又は英語500語程度で入力。\n知能機能システム及びエンパワーメント情報学の志願者に限り、英語を第一言語又は母国語とする者、英語を公用語とする国の出身者、英語で行われる学部課程を完全に修了した者は、申請により外部英語試験スコア票の提出が免除されます。",
+      "editorialNote": "一般入试为现场口述；在线规则针对社会人选拔，不能套用。数学包含微分方程式与复变解析，不缩写成仅微积分、线代；当年要项未在此处规定统一的个人报告分钟数。外部英语免除须申请，470／42／4.0为推荐条件，不作为一般门槛。 考试日期：2027年1月29日。夏季仅2027年4月，冬季可选2027年4月或10月入学；月份选项依据当年正式要项。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。系统信息研究群通常不用粘台纸，外国受验TOEIC等指定情况例外。",
+      "sources": [
+        {
+          "label": "2027年度博士前期／一貫制1年次・一般選抜科目",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "博士前期一般口述試験の数学範囲（現行入口）",
+          "url": "https://www.imis.tsukuba.ac.jp/admission/admission-m/oral",
+          "kind": "page"
+        },
+        {
+          "label": "入学年月・外国学历资格・导师内诺",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年外部英語種類・有効期・免除",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "机器人",
+        "机械",
+        "控制",
+        "智能系统",
+        "IMIS"
+      ]
+    },
+    {
+      "id": "tsukuba-imis-winter-october-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "知能機能システム学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（1-2月実施）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "外国語（100点）：英語\n口述試験（300点）：個別面接",
+      "scopeOriginal": "1) 基礎学力（数学）について試問する。\n2) 現在の研究内容、志望理由及び研究計画のプレゼンテーションの後、関連事項について試問する。\n数学：\n線形代数：ベクトル，行列，行列式，線形空間，線形写像，内積空間，固有値と固有ベクトル\n解析学：数列・関数と極限，微分法，積分法，級数，微分方程式，複素解析",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n全ての出願者は指導教員から事前に内諾を得る必要があります。\nTOEIC Listening & Reading Test、TOEFL iBT（TOEFL iBT Home Editionも有効）、IELTS Academic（ぺーバー版、又は、コンピューター版）。2024年7月以降に受験していること。受験者の写真が印刷されていること。TOEIC Institutional Program (IP)、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は対象外。\n入学後の研究計画を、日本語1000字程度、又は英語500語程度で入力。\n知能機能システム及びエンパワーメント情報学の志願者に限り、英語を第一言語又は母国語とする者、英語を公用語とする国の出身者、英語で行われる学部課程を完全に修了した者は、申請により外部英語試験スコア票の提出が免除されます。",
+      "editorialNote": "一般入试为现场口述；在线规则针对社会人选拔，不能套用。数学包含微分方程式与复变解析，不缩写成仅微积分、线代；当年要项未在此处规定统一的个人报告分钟数。外部英语免除须申请，470／42／4.0为推荐条件，不作为一般门槛。 考试日期：2027年1月29日。夏季仅2027年4月，冬季可选2027年4月或10月入学；月份选项依据当年正式要项。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。系统信息研究群通常不用粘台纸，外国受验TOEIC等指定情况例外。",
+      "sources": [
+        {
+          "label": "2027年度博士前期／一貫制1年次・一般選抜科目",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "博士前期一般口述試験の数学範囲（現行入口）",
+          "url": "https://www.imis.tsukuba.ac.jp/admission/admission-m/oral",
+          "kind": "page"
+        },
+        {
+          "label": "入学年月・外国学历资格・导师内诺",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年外部英語種類・有効期・免除",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "机器人",
+        "机械",
+        "控制",
+        "智能系统",
+        "IMIS"
+      ]
+    },
+    {
+      "id": "tsukuba-emp-august-april-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "エンパワーメント情報学プログラム",
+      "degreeProgram": "integrated",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（8月実施・1年次入学）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査（100点）\n口述試験（200点）：研究計画100点、キャリアプラン100点",
+      "scopeOriginal": "提出された出願書類に基づき審査をおこなう。\n口述試験（プレゼンテーション及び質疑応答）をおこなう。（研究計画5分、キャリアプラン5分、質疑応答10分）\nオンラインで実施します。",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n全ての出願者は指導教員から事前に内諾を得る必要があります。\nTOEIC Listening & Reading Test、TOEFL iBT（TOEFL iBT Home Editionも有効）、IELTS Academic（ぺーバー版、又は、コンピューター版）。2024年7月以降に受験していること。受験者の写真が印刷されていること。TOEIC Institutional Program (IP)、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は対象外。\n入学後の研究計画を、日本語1000字程度、又は英語500語程度で入力。\n知能機能システム及びエンパワーメント情報学の志願者に限り、英語を第一言語又は母国語とする者、英語を公用語とする国の出身者、英語で行われる学部課程を完全に修了した者は、申請により外部英語試験スコア票の提出が免除されます。\nキャリアプランを、日本語1000字程度、又は英語500語程度で入力。",
+      "editorialNote": "这是从1年次入学的一贯制博士课程，按修士阶段入口收录并明确标注integrated，未收3年次编入。外部英语计入书审，不能另造英语100分；研究计划与职业计划各5分钟、质疑10分钟，线上实施。 考试日期：2026年8月19日～21日。夏季仅2027年4月，冬季可选2027年4月或10月入学；月份选项依据当年正式要项。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。系统信息研究群通常不用粘台纸，外国受验TOEIC等指定情况例外。",
+      "sources": [
+        {
+          "label": "2027年度博士前期／一貫制1年次・一般選抜科目",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "1年次入学・研究計画とキャリアプラン",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#6-2",
+          "kind": "page"
+        },
+        {
+          "label": "入学年月・外国学历资格・导师内诺",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年外部英語種類・有効期・免除",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "EMP",
+        "Empowerment Informatics",
+        "一贯制"
+      ]
+    },
+    {
+      "id": "tsukuba-emp-winter-april-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "エンパワーメント情報学プログラム",
+      "degreeProgram": "integrated",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（1-2月実施・1年次入学）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査（100点）\n口述試験（200点）：研究計画100点、キャリアプラン100点",
+      "scopeOriginal": "提出された出願書類に基づき審査をおこなう。\n口述試験（プレゼンテーション及び質疑応答）をおこなう。（研究計画5分、キャリアプラン5分、質疑応答10分）\nオンラインで実施します。",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n全ての出願者は指導教員から事前に内諾を得る必要があります。\nTOEIC Listening & Reading Test、TOEFL iBT（TOEFL iBT Home Editionも有効）、IELTS Academic（ぺーバー版、又は、コンピューター版）。2024年7月以降に受験していること。受験者の写真が印刷されていること。TOEIC Institutional Program (IP)、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は対象外。\n入学後の研究計画を、日本語1000字程度、又は英語500語程度で入力。\n知能機能システム及びエンパワーメント情報学の志願者に限り、英語を第一言語又は母国語とする者、英語を公用語とする国の出身者、英語で行われる学部課程を完全に修了した者は、申請により外部英語試験スコア票の提出が免除されます。\nキャリアプランを、日本語1000字程度、又は英語500語程度で入力。",
+      "editorialNote": "这是从1年次入学的一贯制博士课程，按修士阶段入口收录并明确标注integrated，未收3年次编入。外部英语计入书审，不能另造英语100分；研究计划与职业计划各5分钟、质疑10分钟，线上实施。 考试日期：2027年1月28日～29日。夏季仅2027年4月，冬季可选2027年4月或10月入学；月份选项依据当年正式要项。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。系统信息研究群通常不用粘台纸，外国受验TOEIC等指定情况例外。",
+      "sources": [
+        {
+          "label": "2027年度博士前期／一貫制1年次・一般選抜科目",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "1年次入学・研究計画とキャリアプラン",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#6-2",
+          "kind": "page"
+        },
+        {
+          "label": "入学年月・外国学历资格・导师内诺",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年外部英語種類・有効期・免除",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "EMP",
+        "Empowerment Informatics",
+        "一贯制"
+      ]
+    },
+    {
+      "id": "tsukuba-emp-winter-october-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "エンパワーメント情報学プログラム",
+      "degreeProgram": "integrated",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（1-2月実施・1年次入学）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "書類審査（100点）\n口述試験（200点）：研究計画100点、キャリアプラン100点",
+      "scopeOriginal": "提出された出願書類に基づき審査をおこなう。\n口述試験（プレゼンテーション及び質疑応答）をおこなう。（研究計画5分、キャリアプラン5分、質疑応答10分）\nオンラインで実施します。",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n全ての出願者は指導教員から事前に内諾を得る必要があります。\nTOEIC Listening & Reading Test、TOEFL iBT（TOEFL iBT Home Editionも有効）、IELTS Academic（ぺーバー版、又は、コンピューター版）。2024年7月以降に受験していること。受験者の写真が印刷されていること。TOEIC Institutional Program (IP)、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は対象外。\n入学後の研究計画を、日本語1000字程度、又は英語500語程度で入力。\n知能機能システム及びエンパワーメント情報学の志願者に限り、英語を第一言語又は母国語とする者、英語を公用語とする国の出身者、英語で行われる学部課程を完全に修了した者は、申請により外部英語試験スコア票の提出が免除されます。\nキャリアプランを、日本語1000字程度、又は英語500語程度で入力。",
+      "editorialNote": "这是从1年次入学的一贯制博士课程，按修士阶段入口收录并明确标注integrated，未收3年次编入。外部英语计入书审，不能另造英语100分；研究计划与职业计划各5分钟、质疑10分钟，线上实施。 考试日期：2027年1月28日～29日。夏季仅2027年4月，冬季可选2027年4月或10月入学；月份选项依据当年正式要项。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。系统信息研究群通常不用粘台纸，外国受验TOEIC等指定情况例外。",
+      "sources": [
+        {
+          "label": "2027年度博士前期／一貫制1年次・一般選抜科目",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "1年次入学・研究計画とキャリアプラン",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#6-2",
+          "kind": "page"
+        },
+        {
+          "label": "入学年月・外国学历资格・导师内诺",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年外部英語種類・有効期・免除",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/sie/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "EMP",
+        "Empowerment Informatics",
+        "一贯制"
+      ]
+    },
+    {
+      "id": "tsukuba-applied-electronic-august-april-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／数理物質科学研究群",
+      "department": "応用理工学学位プログラム",
+      "course": "電子・物理工学サブプログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "専門科目（500点）：電子・物理工学\n外国語（200点）：英語\n口述試験（300点）：個別面接",
+      "scopeOriginal": "数学は必ず解答し、力学、電磁気学、量子力学、光学、半導体工学から3問を選択して解答すること。ただし、力学または電磁気学のどちらかは必ず選択すること。\n試験問題は英語表記（専門用語には日本語を併記）\n口述試験：個別面接。専門等に関して試問する。",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n受験生は、志望する分野の指導教員と事前に連絡をとってください。\nTOEIC、TOEFL iBT、TOEFL iBT Home Edition、IELTSの点数を評価。2024年7月以降に受験したものが有効。\n外国語（英語）の満点換算基準：TOEIC 860、TOEFL iBT／Home Edition 98、IELTS 7.0。\nTOEIC IP、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は認めません。",
+      "editorialNote": "数学必答，五门专业中选三题，至少含力学或电磁学；专业笔试10:00～13:00。考试日期：2026年8月20日（専門）・21日（口述）。2027年4月入学；当前数理物质要项未给该项目10月入口。860／98／7.0是英语满分折算值，不是申请最低分。未公开各科更细章节，不从样题补写。遵循当年成绩直送及打印规则；数理物质研究群要求贴指定台纸。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。",
+      "sources": [
+        {
+          "label": "2027年度応用理工・一般試験選答規則",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/pas/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "正式サブプログラム・入学年月・資格",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/pas/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年英語有効期限と提出方式",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/pas/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS One Skill Retake不可",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "电气电子",
+        "电子工程",
+        "应用物理工程",
+        "半导体",
+        "Applied Physics"
+      ]
+    },
+    {
+      "id": "tsukuba-applied-electronic-winter-april-general",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／数理物質科学研究群",
+      "department": "応用理工学学位プログラム",
+      "course": "電子・物理工学サブプログラム",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（1-2月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "専門科目（500点）：電子・物理工学\n外国語（200点）：英語\n口述試験（300点）：個別面接",
+      "scopeOriginal": "数学は必ず解答し、力学、電磁気学、量子力学、光学、半導体工学から3問を選択して解答すること。ただし、力学または電磁気学のどちらかは必ず選択すること。\n試験問題は英語表記（専門用語には日本語を併記）\n口述試験：個別面接。専門等に関して試問する。",
+      "conditionsOriginal": "外国において、学校教育における16年の課程を修了した者又は入学月の前月までに修了見込みの者。\n受験生は、志望する分野の指導教員と事前に連絡をとってください。\nTOEIC、TOEFL iBT、TOEFL iBT Home Edition、IELTSの点数を評価。2025年1月以降に受験したものが有効。\n外国語（英語）の満点換算基準：TOEIC 860、TOEFL iBT／Home Edition 98、IELTS 7.0。\nTOEIC IP、TOEFL ITP、IELTS General Training、IELTS Academic（オンライン版）は認めません。",
+      "editorialNote": "数学必答，五门专业中选三题，至少含力学或电磁学；专业笔试10:00～13:00。考试日期：2027年1月27日（専門）・28日（口述）。2027年4月入学；当前数理物质要项未给该项目10月入口。860／98／7.0是英语满分折算值，不是申请最低分。未公开各科更细章节，不从样题补写。遵循当年成绩直送及打印规则；数理物质研究群要求贴指定台纸。外部英语提交依2026年4月1日公告：TOEIC数码认证URL须录入并同时交打印件；TOEFL没有纸质原件时须ETS直送成绩数据并同时交PDF打印件（DI 9995／Department 99）；IELTS须直送数据并同时交TRF副本，One Skill Retake不接受。",
+      "sources": [
+        {
+          "label": "2027年度応用理工・一般試験選答規則",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/pas/first_all/#8_screening",
+          "kind": "page"
+        },
+        {
+          "label": "正式サブプログラム・入学年月・資格",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/pas/first_all/",
+          "kind": "page"
+        },
+        {
+          "label": "当年英語有効期限と提出方式",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/course/pas/first_all/#gaibu_eigo",
+          "kind": "page"
+        },
+        {
+          "label": "2026年4月改訂・英語成績提出方法",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "TOEFL直送コード・IELTS One Skill Retake不可",
+          "url": "https://www.ap-graduate.tsukuba.ac.jp/wp-content/pdf/testscore_jp.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ],
+      "searchAliases": [
+        "电气电子",
+        "电子工程",
+        "应用物理工程",
+        "半导体",
+        "Applied Physics"
+      ]
+    },
+    {
+      "id": "tsukuba-cs-winter-april-overseas",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "情報理工学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "Special Selection for Overseas Residents（January – February Selection Process）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Screening of the application documents and oral examination.",
+      "scopeOriginal": "The oral examination will be conducted via Skype, Zoom or other video conferencing tools.\nApplicants will be asked about their research plan, related knowledge and skills.\nResearch Plan: Summarize your research plans in approximately 1000 words in English.",
+      "conditionsOriginal": "Before applying, applicants must contact a faculty member and obtain consent to become their prospective supervisor.\nInternational students who will apply for the Master’s Program in Computer Science need a “reference number” to complete the application.\nExamination Period: January 28, 2027 – January 29, 2027.\nSuccessful applicants can choose their desired date of enrollment from either April 1, 2027 or October 1, 2027.",
+      "editorialNote": "独立的海外居住者特别选拔，按官方真实名称记录，不能改称所有外国人专用或按国籍推定资格。仅信息理工修士招生，书审与线上口述；该要项提交材料表没有要求独立TOEIC／TOEFL成绩票，未套用一般四领域考纲和英语100分。英文研究计划约1000词。11月30日开始申请，电子材料12月10日17:00、原件12月11日17:00（日本时间）截止。外国人须提前获取导师内诺和reference number；未混入MEXT推荐、AISIP、AIRB等英语项目。",
+      "sources": [
+        {
+          "label": "2027海外居住者修士選抜・科目とオンライン口述",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/wp-content/uploads/2027-Application-Guidelines-Masters-Special-Selection-for-Overseas-Residents.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "研究計画の言語・語数と提出書類",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/wp-content/uploads/2027-Application-Guidelines-Masters-Special-Selection-for-Overseas-Residents.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "正式修士対象・4月／10月・資格",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/wp-content/uploads/2027-Application-Guidelines-Masters-Special-Selection-for-Overseas-Residents.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "导师同意・reference number・出願期限",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/wp-content/uploads/2027-Application-Guidelines-Masters-Special-Selection-for-Overseas-Residents.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "海外居住者修士要項・2026年9月公開入口",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/exam/applicants/entra/",
+          "kind": "page"
+        }
+      ],
+      "searchAliases": [
+        "海外居住者",
+        "留学生",
+        "计算机",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "tsukuba-cs-winter-october-overseas",
+      "universityId": "tsukuba",
+      "graduateSchool": "理工情報生命学術院／システム情報工学研究群",
+      "department": "情報理工学位プログラム",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "Special Selection for Overseas Residents（January – February Selection Process）",
+      "entryYear": "2027年10月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "en",
+      "subjectsOriginal": "Screening of the application documents and oral examination.",
+      "scopeOriginal": "The oral examination will be conducted via Skype, Zoom or other video conferencing tools.\nApplicants will be asked about their research plan, related knowledge and skills.\nResearch Plan: Summarize your research plans in approximately 1000 words in English.",
+      "conditionsOriginal": "Before applying, applicants must contact a faculty member and obtain consent to become their prospective supervisor.\nInternational students who will apply for the Master’s Program in Computer Science need a “reference number” to complete the application.\nExamination Period: January 28, 2027 – January 29, 2027.\nSuccessful applicants can choose their desired date of enrollment from either April 1, 2027 or October 1, 2027.",
+      "editorialNote": "独立的海外居住者特别选拔，按官方真实名称记录，不能改称所有外国人专用或按国籍推定资格。仅信息理工修士招生，书审与线上口述；该要项提交材料表没有要求独立TOEIC／TOEFL成绩票，未套用一般四领域考纲和英语100分。英文研究计划约1000词。11月30日开始申请，电子材料12月10日17:00、原件12月11日17:00（日本时间）截止。外国人须提前获取导师内诺和reference number；未混入MEXT推荐、AISIP、AIRB等英语项目。",
+      "sources": [
+        {
+          "label": "2027海外居住者修士選抜・科目とオンライン口述",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/wp-content/uploads/2027-Application-Guidelines-Masters-Special-Selection-for-Overseas-Residents.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "研究計画の言語・語数と提出書類",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/wp-content/uploads/2027-Application-Guidelines-Masters-Special-Selection-for-Overseas-Residents.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "正式修士対象・4月／10月・資格",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/wp-content/uploads/2027-Application-Guidelines-Masters-Special-Selection-for-Overseas-Residents.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "导师同意・reference number・出願期限",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/wp-content/uploads/2027-Application-Guidelines-Masters-Special-Selection-for-Overseas-Residents.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "海外居住者修士要項・2026年9月公開入口",
+          "url": "https://www.sie.tsukuba.ac.jp/eng/exam/applicants/entra/",
+          "kind": "page"
+        }
+      ],
+      "searchAliases": [
+        "海外居住者",
+        "留学生",
+        "计算机",
+        "Computer Science"
       ]
     }
   ]
