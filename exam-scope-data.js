@@ -195,6 +195,17 @@
         "青山學院大學",
         "Aoyama Gakuin University"
       ]
+    },
+    {
+      "id": "rikkyo",
+      "name": "立教大学",
+      "aliases": [
+        "立教大",
+        "立教",
+        "Rikkyo University",
+        "Rikkyo",
+        "立教大學"
+      ]
     }
   ],
   "catalog": {
@@ -221,7 +232,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学与青山学院大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学与立教大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -454,6 +465,14 @@
         "理工学研究科"
       ],
       "note": "青山学院大学：已核对2027年4月理工学研究科／理工学専攻的5个正式课程，共10条：電気電子工学、機械創造、知能情報、マネジメントテクノロジー、機能物質創成的一般9月与私费外国人入试各5条。一般有校内英语、数学、专业笔试及口述，必答／选答和发表时限按课程保存。外国人仅公布专业笔试＋口述，详细范围未公开，不套用一般考纲；外部英语与N1／EJU证明按独立要项记录。采用官网当前链接的2026年7月更新PDF，实际页码已核验。一般2026年9月轮已结束；未添加社会人、学内进学、SGU、博士后期、基礎科学、化学、生命科学或人文社会主体项目，不称全校覆盖。"
+    },
+    "rikkyo": {
+      "verifiedAt": "2026-10-10",
+      "degree": "修士（人工知能科学）",
+      "graduateSchools": [
+        "人工知能科学研究科"
+      ],
+      "note": "立教大学：按现有专业规则收录人工知能科学研究科／人工知能科学専攻2027年4月博士課程前期課程的一般入学試験（秋季実施分）1条。综合笔试120分钟，考查数学、统计学、逻辑思考、英语基础及解决未知问题的应用能力；仅能用日语作答，禁带计算器。书类审查含约2000日文字符的课题エッセイ，面试发表10分钟＋问答10分钟＋交替5分钟。符合官方海外学历资格者通过一般选拔申请，留学生栏目显示同一一般入口；没有另造独立外国人选拔。该轮2026年8–9月已实施，未录自己推荐、社会人、指定企业推荐、博士后期或排除专业；未公开细化教材章号，不以课程介绍或历年试题补写当年范围。"
     }
   },
   "records": [
@@ -47421,6 +47440,88 @@
         {
           "label": "当年要項の公式配布入口",
           "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "rikkyo-artificial-intelligence-general-autumn-2027",
+      "universityId": "rikkyo",
+      "graduateSchool": "人工知能科学研究科",
+      "department": "人工知能科学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般入学試験（秋季実施分）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "人工智能",
+        "人工智能科学",
+        "AI",
+        "Artificial Intelligence",
+        "数据科学"
+      ],
+      "subjectsOriginal": "書類審査、筆記試験（総合問題）、面接試験。",
+      "scopeOriginal": "筆記試験（総合問題）は、数学・統計学・論理的思考・英語の基礎力と未知の問題を解決する応用力を問う出題とします。\nプレゼンテーションは出願時に提出したエッセイ（12ページ参照）について行っていただきます。",
+      "conditionsOriginal": "試験時間は120分です。解答にあたって使用できる言語は日本語のみとします。電卓の持ち込みはできません。\n面接試験の対象者は、書類審査と筆記試験の結果により決定します（第１次選考）。\n課題エッセイは日本語で2,000文字程度とし、フォーマットは自由ですが、必ずPDFファイルにしてアップロードしてください。\nプレゼンテーションは、発表時間10分、質疑応答時間10分、交代時間５分を厳守してください。",
+      "editorialNote": "综合笔试是一份120分钟的综合问题，数学、统计学、逻辑思考与英语属于同一卷的考查内容，不拆成四场考试。只允许日语作答，不能携带计算器；未公开具体题数、选答数量、细分章节或指定教材。一般区分的课题エッセイ需说明志望动机，关联本科已掌握及入学后希望掌握的专业知识，并解释未来职业规划如何运用本研究科所学；约2000日文字符。面试根据该エッセイ发表，10分钟发表、10分钟问答、5分钟交替；只有通过书审及笔试的对象参加，不能将第一阶段写成仅书审。适用2027年4月入学：笔试2026年8月29日，面试9月11日或13日，该轮已结束。官网列出的春季为博士后期，未当作修士春季入试；没有独立外国人区分，不要求两年工作经验作为一般资格。按AI、机器学习与数据科学技术培养目标保留该正式专攻，课程简介中的机器学习内容不当作笔试考纲。",
+      "sources": [
+        {
+          "label": "2027年度前期一般：総合問題・選考・日本語解答・電卓禁止（実際18ページ）",
+          "url": "https://www.rikkyo.ac.jp/admissions/graduate/mknpps000003n0nr-att/guidelines_ai_master.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "面接プレゼンテーション：10分発表・10分質疑・5分交代",
+          "url": "https://www.rikkyo.ac.jp/admissions/graduate/mknpps000003n0nr-att/guidelines_ai_master.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般区分の課題エッセイと2,000文字条件",
+          "url": "https://www.rikkyo.ac.jp/admissions/graduate/mknpps000003n0nr-att/guidelines_ai_master.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "海外16年課程の出願資格",
+          "url": "https://www.rikkyo.ac.jp/admissions/graduate/mknpps000003n0nr-att/guidelines_ai_master.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般の受験資格：社会人の2年経験条件と区別",
+          "url": "https://www.rikkyo.ac.jp/admissions/graduate/mknpps000003n0nr-att/guidelines_ai_master.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "正式専攻・前期課程・秋季の試験日程",
+          "url": "https://www.rikkyo.ac.jp/admissions/graduate/mknpps000003n0nr-att/guidelines_ai_master.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "2027年4月入学・前期秋季／後期春季の公式区分",
+          "url": "https://ai.rikkyo.ac.jp/examination/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "当年募集要項の公式配布入口",
+          "url": "https://www.rikkyo.ac.jp/admissions/graduate/guidelines.html",
+          "kind": "page"
+        },
+        {
+          "label": "AI・情報科学・機械学習の専門教育（試験範囲ではない）",
+          "url": "https://ai.rikkyo.ac.jp/curriculum/index.html",
+          "kind": "page"
+        },
+        {
+          "label": "修士（人工知能科学）の正式学位",
+          "url": "https://ai.rikkyo.ac.jp/about/index.html",
           "kind": "page"
         }
       ]
