@@ -249,7 +249,7 @@ test('school filters switch all twelve coverage notes and unmatched results rema
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学与筑波大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学与一橋大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);
@@ -405,4 +405,15 @@ test('Tsukuba filters distinguish general and overseas scopes, entry months and 
  a.ids['scope-year'].value='2027年10月';await a.ids['scope-year'].fire('change');assert.equal(a.ids['scope-results'].children.length,1);
  await a.ids['scope-results'].children[0].click();assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='en'&&e.textContent.includes('related knowledge and skills')));
  const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=6'));
+});
+
+test('Hitotsubashi general and foreign tabs preserve shared written requirements and different original languages',async()=>{
+ const a=boot(catalog.records);await school(a,'hitotsubashi').click();assert.equal(a.ids['scope-results'].children.length,1);
+ assert.equal(a.ids['scope-graduate'].options.length,2);assert.equal(a.ids['scope-department'].options.length,2);
+ await a.ids['scope-results'].children[0].click();assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='ja'&&e.textContent.includes('統計学・情報学')));
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,2);
+ a.ids['scope-query'].value='N2';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,1);
+ a.ids['scope-year'].value='2027年度';await a.ids['scope-year'].fire('change');assert.equal(a.ids['scope-results'].children.length,1);
+ await a.ids['scope-results'].children[0].click();assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='en'&&e.textContent.includes('written examination')));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=11'));
 });

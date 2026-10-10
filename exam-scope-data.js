@@ -150,6 +150,18 @@
         "University of Tsukuba",
         "Tsukuba"
       ]
+    },
+    {
+      "id": "hitotsubashi",
+      "name": "一橋大学",
+      "aliases": [
+        "一桥大学",
+        "一橋",
+        "一桥",
+        "一橋大",
+        "Hitotsubashi",
+        "Hitotsubashi University"
+      ]
     }
   ],
   "catalog": {
@@ -176,7 +188,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学与筑波大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学与一橋大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -374,6 +386,14 @@
         "理工情報生命学術院／数理物質科学研究群"
       ],
       "note": "已核验2027年入学信息理工、知能机能系统、应用理工电子・物理工学三个修士方向，以及EMP一贯制博士1年次入口。一般夏冬期与实际4月／10月分别记录，共11条一般要求（包含外国学历），另有信息理工海外居住者特别选拔2条，共13条。以官网在线募集要项为正文，补充信息理工四领域、知能数学考纲及外部英语提交PDF。范围未细化的项目不推测章节。未添加推荐、社会人、SGU／MEXT英语项目及博士后期；跨土木／环境／人文／化学的混合项目本批省略，详见维护说明。"
+    },
+    "hitotsubashi": {
+      "verifiedAt": "2026-10-10",
+      "degree": "修士（博士前期課程）",
+      "graduateSchools": [
+        "ソーシャル・データサイエンス研究科"
+      ],
+      "note": "已核验ソーシャル・データサイエンス専攻2027年度的一般选考及独立外国人特别选考，共2条科目与选考要求。该正式数据科学专攻包含统计、信息与AI培养；两种选考均有统计／信息和社会科学笔试，保留完整跨领域选答规则及不同口述语言、日语证明条件。出题难度、参考书及社会科学范围遵循官网FAQ的明确指引，完整表格链接实际PDF页。该轮2026年8–9月选考已结束；未沿用旧资料新造冬季／2028年度入口。按后续学校筛选规则，本批聚焦数据科学，未收录经营、经济、法律、公共政策等非信息工程主体，跳过社会学、言语社会等排除方向；内部推荐、社会人及SGU项目不添加。未声称覆盖全校。"
     }
   },
   "records": [
@@ -42024,6 +42044,199 @@
         "留学生",
         "计算机",
         "Computer Science"
+      ]
+    },
+    {
+      "universityId": "hitotsubashi",
+      "graduateSchool": "ソーシャル・データサイエンス研究科",
+      "department": "ソーシャル・データサイエンス専攻",
+      "degreeProgram": "master",
+      "entryYear": "2027年度",
+      "verifiedAt": "2026-10-10",
+      "searchAliases": [
+        "一桥",
+        "社会数据科学",
+        "社会数据科学专攻",
+        "社会データサイエンス",
+        "Social Data Science",
+        "SDS",
+        "数据科学",
+        "信息学",
+        "人工智能"
+      ],
+      "id": "hitotsubashi-sds-general-2027",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般選考",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "一次選考（書類審査）；二次選考（筆記試験）；三次選考（口述試験）。",
+      "scopeOriginal": "統計学・情報学（120分）；社会科学（60分）。",
+      "conditionsOriginal": "日本語能力を証明する書類（該当者）：日本語能力試験N1（旧試験の受験者は1級）。",
+      "editorialNote": "笔试的两部分均须参加：统计学・信息学120分钟，统计2题、信息2题，从这4题中任选2题（没有要求每领域各选1题）；社会科学60分钟，经营学、经济学、法学、政治学各1题，从4题中选1题。口述围绕预提交研究计划的问题意识、利用数据解决问题的理解，以及对商业和社会课题的思考能力。一次书审评价研究计划、成绩与语言能力材料；官方规定仅当志愿人数超过总定员约5倍（约180人）时作出一次选考的不合格决定。笔试与口述地点均为国立校区。 一般选考的口述使用日语。官方FAQ说明：统计／信息要求本科2–3年级专业知识及本科3–4年级知识运用能力；社会科学要求本科1–2年级通识知识及本科3–4年级论述能力。社会科学范围以FAQ明确指向的基本计划书中「ソーシャル・データサイエンス発展科目」概要为准，原表实际第10、11页；此处采用该官方指引，未将其他培养课程自动扩大为考纲。FAQ列的是代表性教科书与参考书，未指定必考章号：统计为竹村彰通《新装改訂版 現代数理統計学》（2020）、久保川達也《現代数理統計学の基礎》（2017）；信息为John V. Guttag《世界標準MIT教科書 Python言語によるプログラミングイントロダクション 第3版》（2023）及平井有三《はじめてのパターン認識》（2012）。经营、经济、法学和政治学的完整参考书清单亦链接同一FAQ。 英语材料为2024年9月以后实施的TOEFL iBT或IELTS Academic Module；TOEFL使用单次Test Date成绩，接受Home Edition，不用My Best或ITP。TOEFL须ETS直送（DI 0436／Department 99）并提交本人报告副本或网站打印PDF；IELTS同样需要机构直送及副本，不能只上传一份成绩。英语母语者提交国籍证明，完成全英语本科者提交授课语言证明，以相应证明替代英语成绩。官方申请Q&A未指定英语最低分；本要项未列TOEIC，也未给出IELTS其他变体的准用条件。 日语材料：在申请开始日同时满足「无日本国籍且无日本永住许可」和「在日本居住不满3年」者，须提交N1（旧1级）的认定结果及成绩证明；不把该提交条件简化成所有申请人均需N1合格。一般资格包含符合条件的海外16年学历／学士取得者，所以本条保留一般选考名称，并在留学生栏目显示。 本记录按原要项保存2027年度标签，不新增未经公告的秋季或下一年度入口。该轮申请为2026年7月27日至8月3日、笔试8月20日、口述9月4日（预备9月5日），最终结果9月11日公布；申请及选考现已结束。导师事前联系不是必需，事前咨询的有无不影响选考评价。完整原文和跨页语言条件请打开对应官方PDF，简短科目名称与中文说明分开保存。",
+      "sources": [
+        {
+          "label": "2027年度一般募集要项：全部三阶段选考、科目与口述语言",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E7%89%88_SDS%E7%A0%94%E7%A9%B6%E7%A7%91%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E4%B8%80%E8%88%AC%E9%81%B8%E8%80%83-.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2027年度一般：英语成绩与研究计划材料",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E7%89%88_SDS%E7%A0%94%E7%A9%B6%E7%A7%91%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E4%B8%80%E8%88%AC%E9%81%B8%E8%80%83-.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2027年度一般：英语例外及有条件N1材料",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E7%89%88_SDS%E7%A0%94%E7%A9%B6%E7%A7%91%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E4%B8%80%E8%88%AC%E9%81%B8%E8%80%83-.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027年度一般：海外学历资格",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E7%89%88_SDS%E7%A0%94%E7%A9%B6%E7%A7%91%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E4%B8%80%E8%88%AC%E9%81%B8%E8%80%83-.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "2027年度一般：本轮实施时间表",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E7%89%88_SDS%E7%A0%94%E7%A9%B6%E7%A7%91%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E4%B8%80%E8%88%AC%E9%81%B8%E8%80%83-.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "现行博士前期课程序言与2027年度募集入口",
+          "url": "https://www.sds.hit-u.ac.jp/admission/master/",
+          "kind": "page"
+        },
+        {
+          "label": "官方FAQ：笔试难度、出题范围与参考书",
+          "url": "https://www.sds.hit-u.ac.jp/faq/",
+          "kind": "page"
+        },
+        {
+          "label": "FAQ明确指定的社会科学范围：発展科目概要（前半）",
+          "url": "https://www.hit-u.ac.jp/guide/information/pdf/R4/hitotsubashi_sds_m_2208i_kihon.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "FAQ明确指定的社会科学范围：発展科目概要（后半）",
+          "url": "https://www.hit-u.ac.jp/guide/information/pdf/R4/hitotsubashi_sds_m_2208i_kihon.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "申请Q&A：事前联系并非必需",
+          "url": "https://www.sds.hit-u.ac.jp/pdf/admission-guide_master.pdf?v=1",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "申请Q&A：英语最低分未指定",
+          "url": "https://www.sds.hit-u.ac.jp/pdf/admission-guide_master.pdf?v=1",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
+      ]
+    },
+    {
+      "universityId": "hitotsubashi",
+      "graduateSchool": "ソーシャル・データサイエンス研究科",
+      "department": "ソーシャル・データサイエンス専攻",
+      "degreeProgram": "master",
+      "entryYear": "2027年度",
+      "verifiedAt": "2026-10-10",
+      "searchAliases": [
+        "一桥",
+        "社会数据科学",
+        "社会数据科学专攻",
+        "社会データサイエンス",
+        "Social Data Science",
+        "SDS",
+        "数据科学",
+        "信息学",
+        "人工智能"
+      ],
+      "id": "hitotsubashi-sds-international-2027",
+      "admissionType": "international",
+      "selectionName": "Special Selection for International Students",
+      "originalLanguage": "en",
+      "subjectsOriginal": "document review; written examination; oral examination",
+      "scopeOriginal": "statistics/information science; social science",
+      "conditionsOriginal": "both conditions A) and B) ... N1 or N2",
+      "editorialNote": "笔试的两部分均须参加：统计学・信息学120分钟，统计2题、信息2题，从这4题中任选2题（没有要求每领域各选1题）；社会科学60分钟，经营学、经济学、法学、政治学各1题，从4题中选1题。口述围绕预提交研究计划的问题意识、利用数据解决问题的理解，以及对商业和社会课题的思考能力。一次书审评价研究计划、成绩与语言能力材料；官方规定仅当志愿人数超过总定员约5倍（约180人）时作出一次选考的不合格决定。笔试与口述地点均为国立校区。 本条为独立外国人特别选考，要求非日本国籍及满足指定学历资格；不把英文募集要项误当SGU或免专业笔试项目。其笔试题提供英语与日语，口述可用英语或日语；不能把双语题目进一步推定为任意作答语言。官方FAQ说明：统计／信息要求本科2–3年级专业知识及本科3–4年级知识运用能力；社会科学要求本科1–2年级通识知识及本科3–4年级论述能力。社会科学范围以FAQ明确指向的基本计划书中「ソーシャル・データサイエンス発展科目」概要为准，原表实际第10、11页；此处采用该官方指引，未将其他培养课程自动扩大为考纲。FAQ列的是代表性教科书与参考书，未指定必考章号：统计为竹村彰通《新装改訂版 現代数理統計学》（2020）、久保川達也《現代数理統計学の基礎》（2017）；信息为John V. Guttag《世界標準MIT教科書 Python言語によるプログラミングイントロダクション 第3版》（2023）及平井有三《はじめてのパターン認識》（2012）。经营、经济、法学和政治学的完整参考书清单亦链接同一FAQ。 英语材料为2024年9月以后实施的TOEFL iBT或IELTS Academic Module；TOEFL使用单次Test Date成绩，接受Home Edition，不用My Best或ITP。TOEFL须ETS直送（DI 0436／Department 99）并提交本人报告副本或网站打印PDF；IELTS同样需要机构直送及副本，不能只上传一份成绩。英语母语者提交国籍证明，完成全英语本科者提交授课语言证明，以相应证明替代英语成绩。官方申请Q&A未指定英语最低分；本要项未列TOEIC，也未给出IELTS其他变体的准用条件。 日语材料：在申请开始日同时满足「无日本永住许可」和「在日本居住不满3年」者，须提交N1或N2（旧1级或2级）的认定结果及成绩证明；这里与一般选考的N1提交规定不同，也不是所有外国人无条件免日语。 本记录按原要项保存2027年度标签，不新增未经公告的秋季或下一年度入口。该轮申请为2026年7月27日至8月3日、笔试8月20日、口述9月4日（预备9月5日），最终结果9月11日公布；申请及选考现已结束。导师事前联系不是必需，事前咨询的有无不影响选考评价。完整原文和跨页语言条件请打开对应官方PDF，简短科目名称与中文说明分开保存。",
+      "sources": [
+        {
+          "label": "2027外国人特别选考：书审、笔试与双语题目",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/07/2027Application-Guidelines_Special-Selection-for-International-Students.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "2027外国人特别选考：口述范围及语言",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/07/2027Application-Guidelines_Special-Selection-for-International-Students.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "2027外国人特别选考：英语成绩",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/07/2027Application-Guidelines_Special-Selection-for-International-Students.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2027外国人特别选考：英语例外和有条件N1／N2材料",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/07/2027Application-Guidelines_Special-Selection-for-International-Students.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "2027外国人特别选考：国籍与海外学历资格",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/07/2027Application-Guidelines_Special-Selection-for-International-Students.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "2027外国人特别选考：本轮实施时间表",
+          "url": "https://www.sds.hit-u.ac.jp/_wp/wp-content/uploads/2026/07/2027Application-Guidelines_Special-Selection-for-International-Students.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "现行博士前期课程序言与2027年度募集入口",
+          "url": "https://www.sds.hit-u.ac.jp/admission/master/",
+          "kind": "page"
+        },
+        {
+          "label": "官方FAQ：笔试难度、出题范围与参考书",
+          "url": "https://www.sds.hit-u.ac.jp/faq/",
+          "kind": "page"
+        },
+        {
+          "label": "FAQ明确指定的社会科学范围：発展科目概要（前半）",
+          "url": "https://www.hit-u.ac.jp/guide/information/pdf/R4/hitotsubashi_sds_m_2208i_kihon.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "FAQ明确指定的社会科学范围：発展科目概要（后半）",
+          "url": "https://www.hit-u.ac.jp/guide/information/pdf/R4/hitotsubashi_sds_m_2208i_kihon.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "申请Q&A：事前联系并非必需",
+          "url": "https://www.sds.hit-u.ac.jp/pdf/admission-guide_master.pdf?v=1",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "申请Q&A：英语最低分未指定",
+          "url": "https://www.sds.hit-u.ac.jp/pdf/admission-guide_master.pdf?v=1",
+          "kind": "pdf",
+          "pdfPage": 2
+        }
       ]
     }
   ]

@@ -89,8 +89,8 @@ test('Sophia foreign-educated general routes preserve residence restrictions, al
  }
  assert.equal(core.sourceURL({url:'https://adm.sophia.ac.jp/guide.pdf',kind:'pdf',pdfPage:6}),'https://adm.sophia.ac.jp/guide.pdf#page=6');
  for(const url of ['http://adm.sophia.ac.jp/a','https://sophia.ac.jp.evil.test/a','https://evil-sophia.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
- assert.equal(data.records.length,864);assert.equal(data.records.filter(r=>!r.publicationStatus).length,831);
- const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>864<\/strong>/);assert.match(html,/20261010-tsukuba/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学与筑波大学/);
+ assert.equal(data.records.length,866);assert.equal(data.records.filter(r=>!r.publicationStatus).length,833);
+ const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>866<\/strong>/);assert.match(html,/20261010-hitotsubashi/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学与一橋大学/);
 });
 test('Kyushu keeps seven official faculties and 20 departments with year-specific sources and safe aliases',()=>{
  const records=data.records.filter(r=>r.universityId==='kyushu');
@@ -355,9 +355,9 @@ test('Keio SFC overseas is a residence route with pre-interview and research vid
  const domestic=rs.filter(r=>r.selectionName.includes('国内出願'));assert.ok(domestic.every(r=>r.subjectsOriginal.includes('2次選考：面接')));
  assert.ok(rs.every(r=>!r.subjectsOriginal.includes('新規授業科目企画書')));
 });
-test('all fifteen university catalogs have unique validated records and clear pending entry rules', () => {
-  assert.equal(data.universities.length, 15);
-  assert.equal(new Set(data.universities.map(u => u.id)).size, 15);
+test('all sixteen university catalogs have unique validated records and clear pending entry rules', () => {
+  assert.equal(data.universities.length, 16);
+  assert.equal(new Set(data.universities.map(u => u.id)).size, 16);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
   assert.ok(data.records.every(record => core.validRecord(record, data.universities)));
