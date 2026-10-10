@@ -270,7 +270,7 @@ test('school filters switch coverage notes and unmatched results remain usable',
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学与中央大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学与法政大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);
@@ -491,3 +491,14 @@ test('subject alias search only narrows choices and selected chips remove indivi
  await a.ids['scope-reset'].click();assert.equal(a.ids['scope-subject-search'].value,'');assert.equal(a.ids['scope-subject-search-empty'].hidden,true);
 });
 
+
+test('Hosei filters preserve engineering course choices, actual source pages and pending foreign status',async()=>{
+ const a=boot(catalog.records);await school(a,'hosei').click();assert.equal(a.ids['scope-results'].children.length,15);assert.equal(a.ids['scope-graduate'].options.length,4);
+ const r=a.ids['scope-results'].children.find(e=>e.dataset.id==='hosei-systems-management-second-general-2027');await r.click();
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('必須科目：経営システム基礎（数学）')));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=8'));
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,16);
+ a.ids['scope-graduate'].value='デザイン工学研究科';await a.ids['scope-graduate'].fire('change');assert.equal(a.ids['scope-results'].children.length,4);
+ const p=a.ids['scope-results'].children.find(e=>e.dataset.id==='hosei-system-design-february-international-pending-2027');await p.click();
+ assert.ok(!a.ids['scope-detail'].children.some(e=>e.tag==='h4'&&e.textContent==='考试范围 · 官方原文'));
+});

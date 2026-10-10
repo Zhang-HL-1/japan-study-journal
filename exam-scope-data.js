@@ -214,6 +214,17 @@
         "中大",
         "Chuo University"
       ]
+    },
+    {
+      "id": "hosei",
+      "name": "法政大学",
+      "aliases": [
+        "法政",
+        "法政大",
+        "Hosei University",
+        "Hosei",
+        "法政大學"
+      ]
     }
   ],
   "catalog": {
@@ -240,7 +251,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学与中央大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学与法政大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -490,6 +501,16 @@
         "国際情報研究科"
       ],
       "note": "中央大学：精密工学、电气电子信息通信工学、商业数据科学、信息工学，以及国際情報研究科的信息学受验入口。2027年4月一般8条、外国人4条待核验。夏／春、第2／3期分别保存；英语校内笔试与外部成绩、6选4及导师限定选科按要项保留。详细章目未公开核实时不推导；外国人PDF当前读取受阻，不移用一般范围。国際情報保留信息学与信息法交叉属性，不称独立工学课程。仅收录一般与外国人；夏季轮已结束。"
+    },
+    "hosei": {
+      "verifiedAt": "2026-10-10",
+      "degree": "修士課程",
+      "graduateSchools": [
+        "理工学研究科",
+        "情報科学研究科",
+        "デザイン工学研究科"
+      ],
+      "note": "法政大学：收录2027年4月入学理工学的机械、电气电子、应用信息、系统理工创生／管理系统两系，信息科学，以及设计工学系统设计，共7方向15条一般要求＋1条系统设计外国人特别待公布。理工120分钟：机械5选3、电气11选3、应用信息10选3、创生数学＋9选2、管理系统数学＋3选1；信息科学90分钟，口述7分发表＋8分问答；系统设计120分钟，出愿选1专业领域＋共通问题必答。英语外部成绩按大学入学后有效，IP限制分别保存；信息科学现行N2以上与2028年N1预告区分。海外学历可经一般入口申请；系统设计2027外国人要项未公开，不用2026旧版代替。未录化学、生命功能、建筑都市环境、人文社科／商经及推荐、社会人、IIST英语项目或博士后期。"
     }
   },
   "records": [
@@ -48049,6 +48070,852 @@
           "label": "国際情報研究科 当年要項・公式過去問題",
           "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/itl/",
           "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-mechanical-first-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "機械工学専攻",
+      "selectionName": "一般入試（第1回）",
+      "searchAliases": [
+        "机械工程",
+        "机械工学"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "下記の5分野の中から3分野を選択して解答すること。材料力学、熱力学・熱工学、水力学・流体工学、機械力学・制御工学、材料物性（各分野数学を含む）",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。",
+      "editorialNote": "5个领域选3；各领域包含数学，不另造共通数学试卷。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2026年7月5日，入学2027年4月；该轮已结束。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-mechanical-second-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "機械工学専攻",
+      "selectionName": "一般入試（第2回）",
+      "searchAliases": [
+        "机械工程",
+        "机械工学"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "下記の5分野の中から3分野を選択して解答すること。材料力学、熱力学・熱工学、水力学・流体工学、機械力学・制御工学、材料物性（各分野数学を含む）",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。",
+      "editorialNote": "5个领域选3；各领域包含数学，不另造共通数学试卷。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2027年2月19日，入学2027年4月；第二回尚未实施。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-electrical-first-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（第1回）",
+      "searchAliases": [
+        "电气电子",
+        "电气工程",
+        "电子工程"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "下記の11科目の中から3科目を選択し、解答すること。電磁気学、電気回路、電磁エネルギー工学、電子物性工学、集積回路工学、光伝送デバイス工学、制御工学、分布定数回路、プログラミング言語C、応用数学、半導体工学",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。",
+      "editorialNote": "11科选3；保留半导体、集积回路、光传输器件及C语言等全部官方选项。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2026年7月5日，入学2027年4月；该轮已结束。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-electrical-second-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（第2回）",
+      "searchAliases": [
+        "电气电子",
+        "电气工程",
+        "电子工程"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "下記の11科目の中から3科目を選択し、解答すること。電磁気学、電気回路、電磁エネルギー工学、電子物性工学、集積回路工学、光伝送デバイス工学、制御工学、分布定数回路、プログラミング言語C、応用数学、半導体工学",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。",
+      "editorialNote": "11科选3；保留半导体、集积回路、光传输器件及C语言等全部官方选项。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2027年2月19日，入学2027年4月；第二回尚未实施。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-applied-information-first-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "応用情報工学専攻",
+      "selectionName": "一般入試（第1回）",
+      "searchAliases": [
+        "应用信息工学",
+        "计算机",
+        "AI"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "下記の10科目の中から、3科目を選択し、解答すること。アルゴリズム、形式言語とオートマトン、ネットワークとセキュリティ、基礎電気回路、信号処理、情報理論、分散システム、センシング、ニューラルネットワーク、プログラミング",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。",
+      "editorialNote": "10科选3；与情報科学研究科的专业笔试范围和90分钟时长分别保存。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2026年7月5日，入学2027年4月；该轮已结束。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-applied-information-second-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "応用情報工学専攻",
+      "selectionName": "一般入試（第2回）",
+      "searchAliases": [
+        "应用信息工学",
+        "计算机",
+        "AI"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "下記の10科目の中から、3科目を選択し、解答すること。アルゴリズム、形式言語とオートマトン、ネットワークとセキュリティ、基礎電気回路、信号処理、情報理論、分散システム、センシング、ニューラルネットワーク、プログラミング",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。",
+      "editorialNote": "10科选3；与情報科学研究科的专业笔试范围和90分钟时长分别保存。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2027年2月19日，入学2027年4月；第二回尚未实施。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-systems-creative-first-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "システム理工学専攻",
+      "selectionName": "一般入試（第1回）",
+      "searchAliases": [
+        "创生科学",
+        "系统理工"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "①必須科目：創生科学基礎（数学）\n②下記の9科目の中から、2科目を選択し解答すること。制御工学、知能科学基礎、電気回路、電磁波科学、量子科学、力学、人間情報工学、離散科学基礎、行動科学",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。\n口述試験では、現在の研究、または、進学後に予定している研究を面接官に伝えるために、プレゼンテーション・ツールを使用してもよい。",
+      "editorialNote": "数学必答＋9科选2。作为系统理工的正式系保留，完整保留量子、力学、行为科学等可选考试科目；不由这些选项新造纯物理或社会学专业。口述可使用展示工具介绍当前或入学后拟开展研究，属于可选方式，不规定必须展示或固定时长。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2026年7月5日，入学2027年4月；该轮已结束。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ],
+      "course": "創生科学系"
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-systems-creative-second-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "システム理工学専攻",
+      "selectionName": "一般入試（第2回）",
+      "searchAliases": [
+        "创生科学",
+        "系统理工"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "①必須科目：創生科学基礎（数学）\n②下記の9科目の中から、2科目を選択し解答すること。制御工学、知能科学基礎、電気回路、電磁波科学、量子科学、力学、人間情報工学、離散科学基礎、行動科学",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。\n口述試験では、現在の研究、または、進学後に予定している研究を面接官に伝えるために、プレゼンテーション・ツールを使用してもよい。",
+      "editorialNote": "数学必答＋9科选2。作为系统理工的正式系保留，完整保留量子、力学、行为科学等可选考试科目；不由这些选项新造纯物理或社会学专业。口述可使用展示工具介绍当前或入学后拟开展研究，属于可选方式，不规定必须展示或固定时长。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2027年2月19日，入学2027年4月；第二回尚未实施。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ],
+      "course": "創生科学系"
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-systems-management-first-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "システム理工学専攻",
+      "selectionName": "一般入試（第1回）",
+      "searchAliases": [
+        "管理系统工程",
+        "经营系统",
+        "数据科学"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "①必須科目：経営システム基礎（数学）\n②下記の3科目の中から、1科目を選択し解答すること。データサイエンス（確率・統計）、計画数理、プログラミング",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。",
+      "editorialNote": "数学必答＋数据科学（概率统计）、计划数理、编程3选1；按管理系统工程保留，不等同商经研究科。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2026年7月5日，入学2027年4月；该轮已结束。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ],
+      "course": "経営システム系"
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-systems-management-second-general-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "システム理工学専攻",
+      "selectionName": "一般入試（第2回）",
+      "searchAliases": [
+        "管理系统工程",
+        "经营系统",
+        "数据科学"
+      ],
+      "subjectsOriginal": "筆記試験（専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "①必須科目：経営システム基礎（数学）\n②下記の3科目の中から、1科目を選択し解答すること。データサイエンス（確率・統計）、計画数理、プログラミング",
+      "conditionsOriginal": "専門科目 9:30～11:30。一般入試受験者の口述試験は14:30～。筆記試験と口述試験の両方を受験すること。口述試験は日本語で行う。筆記試験において英語は実施せず、外部英語試験スコアカードの提出となる。専攻によっては専門科目で電卓を使用可とすることがあるので、持参すること。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。",
+      "editorialNote": "数学必答＋数据科学（概率统计）、计划数理、编程3选1；按管理系统工程保留，不等同商经研究科。 专业笔试120分钟；口述日语进行，未公布统一口述时长。须携带计算器，是否可用由专攻决定。英语用外部成绩，大学入学后取得的成绩有效，不能改成统一两年有效期，未公布统一最低分。考试日2027年2月19日，入学2027年4月；第二回尚未实施。 事前须获指导希望教员受验许可；海外16年教育及学士资格者可经同一一般入口申请，不复制成独立外国人考试。未公开更细章节、题数或指定教材，不以培养课程或旧试题补写。",
+      "sources": [
+        {
+          "label": "修士専門科目・必答／選答（実際8ページ、印刷6ページ）",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "第1／2回日程・120分筆記・口述・電卓条件",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "外部英語スコア種類と大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "修士課程の海外学歴資格",
+          "url": "https://www.hosei.ac.jp/application/files/8517/9056/7119/1_riko2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ],
+      "course": "経営システム系"
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-information-science-first-general-2027",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報科学専攻",
+      "selectionName": "一般入試（第1回）",
+      "searchAliases": [
+        "信息科学",
+        "计算机科学",
+        "Computer Science"
+      ],
+      "subjectsOriginal": "筆記試験（情報科学関係専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "線形代数学、離散数学、微分積分学、形式言語、DB、データ構造とアルゴリズム、ディジタル信号処理。\n口述試験は卒業論文内容及び入学後の研究計画に関するプレゼンテーションを含む。",
+      "conditionsOriginal": "筆記試験9:30～11:00（予定）。口述試験13:00～（予定）、約15分間（プレゼンテーション7分、質疑応答8分）。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。\n外国籍の場合、JLPT（日本語能力試験）N2レベル以上を取得していること。但し、研究室によって、必要なレベルが異なるため、予め指導予定教員に確認すること。日本国内の大学・大学院で日本語による教育を受け卒業・修了している場合または卒業見込み・修了見込みの場合は、当該証明書の提出により、上記要件を免除する。",
+      "editorialNote": "笔试90分钟，7类专业范围；未公布题数、选答数量或细化教材章节。口述约15分钟为7分钟发表＋8分钟问答，依据毕业论文与未来研究计划，不套博士后期30分钟。第一回一般没有第二回专属的论文／抄录提交要求。 英语不设校内笔试，采用大学入学后外部成绩，不套两年期限。外国籍2027年要求N2以上，研究室可能要求更高；日本大学／大学院日语教育毕业或预计毕业者可凭证明免除。N1为2028年度起的预告，不作为2027年统一门槛。考试日2026年7月12日，入学2027年4月；该轮已结束。 须事前获希望导师了承；海外学历者通过一般入口申请，无独立外国人选拔。",
+      "sources": [
+        {
+          "label": "修士専門科目範囲・卒業論文発表・2028年N1予告",
+          "url": "https://www.hosei.ac.jp/application/files/7617/9056/7126/1_cis2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "修士一般第1／2回：90分筆記・7分発表＋8分質疑",
+          "url": "https://www.hosei.ac.jp/application/files/7617/9056/7126/1_cis2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2027年度外国籍の現行N2条件・日本語教育免除",
+          "url": "https://www.hosei.ac.jp/application/files/7617/9056/7126/1_cis2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "外部英語種類・大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/7617/9056/7126/1_cis2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-information-science-second-general-2027",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報科学専攻",
+      "selectionName": "一般入試（第2回）",
+      "searchAliases": [
+        "信息科学",
+        "计算机科学",
+        "Computer Science"
+      ],
+      "subjectsOriginal": "筆記試験（情報科学関係専門科目）、口述試験、英語外部試験スコア提出。",
+      "scopeOriginal": "線形代数学、離散数学、微分積分学、形式言語、DB、データ構造とアルゴリズム、ディジタル信号処理。\n口述試験は卒業論文内容及び入学後の研究計画に関するプレゼンテーションを含む。",
+      "conditionsOriginal": "筆記試験9:30～11:00（予定）。口述試験13:00～（予定）、約15分間（プレゼンテーション7分、質疑応答8分）。卒業論文または卒業論文抄録提出（出願時）。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学が実施したもの（入学時に実施されたものを含む）に限る。TOEFL iBT Home Editionは受付不可。全て大学入学後に受験したものを有効とする。\n外国籍の場合、JLPT（日本語能力試験）N2レベル以上を取得していること。但し、研究室によって、必要なレベルが異なるため、予め指導予定教員に確認すること。日本国内の大学・大学院で日本語による教育を受け卒業・修了している場合または卒業見込み・修了見込みの場合は、当該証明書の提出により、上記要件を免除する。",
+      "editorialNote": "笔试90分钟，7类专业范围；未公布题数、选答数量或细化教材章节。口述约15分钟为7分钟发表＋8分钟问答，依据毕业论文与未来研究计划，不套博士后期30分钟。第二回须在出愿时提交毕业论文或抄录。 英语不设校内笔试，采用大学入学后外部成绩，不套两年期限。外国籍2027年要求N2以上，研究室可能要求更高；日本大学／大学院日语教育毕业或预计毕业者可凭证明免除。N1为2028年度起的预告，不作为2027年统一门槛。考试日2027年2月19日，入学2027年4月；该轮尚未实施。 须事前获希望导师了承；海外学历者通过一般入口申请，无独立外国人选拔。",
+      "sources": [
+        {
+          "label": "修士専門科目範囲・卒業論文発表・2028年N1予告",
+          "url": "https://www.hosei.ac.jp/application/files/7617/9056/7126/1_cis2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "修士一般第1／2回：90分筆記・7分発表＋8分質疑",
+          "url": "https://www.hosei.ac.jp/application/files/7617/9056/7126/1_cis2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "2027年度外国籍の現行N2条件・日本語教育免除",
+          "url": "https://www.hosei.ac.jp/application/files/7617/9056/7126/1_cis2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "外部英語種類・大学入学後の有効期間",
+          "url": "https://www.hosei.ac.jp/application/files/7617/9056/7126/1_cis2027_boshuyoko_202609.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-system-design-july-general-2027",
+      "graduateSchool": "デザイン工学研究科",
+      "department": "システムデザイン専攻",
+      "selectionName": "一般入学制度（7月入試）",
+      "searchAliases": [
+        "系统设计",
+        "System Design",
+        "SD",
+        "机器人",
+        "智能机械"
+      ],
+      "subjectsOriginal": "筆記試験、面接試験（口述試験）、英語外部試験スコア提出。",
+      "scopeOriginal": "以下の①・②ともに解答する。\n①出願時に専門3分野（クリエーション、テクノロジー、マネジメント）から1分野を選択する。\n②共通問題",
+      "conditionsOriginal": "筆記試験9:30～11:30。面接試験（口述試験）12:30～。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学デザイン工学部が実施したものに限る。これらの英語外部試験のスコアは合否判定に使用されます。\n出願の前に希望する研究指導教員と面談を行い、出願の承諾を受けてください。",
+      "editorialNote": "专业3领域在出愿时选1＋共通问题，两部分都要回答，笔试120分钟、口述12:30开始；未公布细化科目章目、题数、面试时长或统一语言最低分。不能把三领域拆成3个正式课程，也不以机器人等培养内容补写考纲。考试日2026年7月5日，入学2027年4月；该轮已结束。 TOEIC IP仅限本校设计工学部实施，比理工／信息科学的本校实施条件更窄。要项写大学入学后成绩，不能套统一两年有效期；此页未明确Home Edition禁令，不从其他研究科移植。系统设计为跨创意、技术与管理的工学专攻，含智能机械、模拟与产品／系统工程，按工程方向保留。海外16年教育者可通过一般入口，独立外国人特别区分另记待公布。",
+      "sources": [
+        {
+          "label": "システムデザイン修士一般：専門3分野から1＋共通問題・英語条件",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 70
+        },
+        {
+          "label": "SD一般7／10／2月と外国人特別2月の公式日程表",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般修士の海外16年課程資格",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "4月入学のみ・秋季入学なし",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "システムデザイン専攻の工学系教育目標（試験範囲ではない）",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-system-design-october-general-2027",
+      "graduateSchool": "デザイン工学研究科",
+      "department": "システムデザイン専攻",
+      "selectionName": "一般入学制度（10月入試）",
+      "searchAliases": [
+        "系统设计",
+        "System Design",
+        "SD",
+        "机器人",
+        "智能机械"
+      ],
+      "subjectsOriginal": "筆記試験、面接試験（口述試験）、英語外部試験スコア提出。",
+      "scopeOriginal": "以下の①・②ともに解答する。\n①出願時に専門3分野（クリエーション、テクノロジー、マネジメント）から1分野を選択する。\n②共通問題",
+      "conditionsOriginal": "筆記試験9:30～11:30。面接試験（口述試験）12:30～。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学デザイン工学部が実施したものに限る。これらの英語外部試験のスコアは合否判定に使用されます。\n出願の前に希望する研究指導教員と面談を行い、出願の承諾を受けてください。",
+      "editorialNote": "专业3领域在出愿时选1＋共通问题，两部分都要回答，笔试120分钟、口述12:30开始；未公布细化科目章目、题数、面试时长或统一语言最低分。不能把三领域拆成3个正式课程，也不以机器人等培养内容补写考纲。考试日2026年10月10日，入学2027年4月；核验当天实施，不能标成未来轮次。 TOEIC IP仅限本校设计工学部实施，比理工／信息科学的本校实施条件更窄。要项写大学入学后成绩，不能套统一两年有效期；此页未明确Home Edition禁令，不从其他研究科移植。系统设计为跨创意、技术与管理的工学专攻，含智能机械、模拟与产品／系统工程，按工程方向保留。海外16年教育者可通过一般入口，独立外国人特别区分另记待公布。",
+      "sources": [
+        {
+          "label": "システムデザイン修士一般：専門3分野から1＋共通問題・英語条件",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 70
+        },
+        {
+          "label": "SD一般7／10／2月と外国人特別2月の公式日程表",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般修士の海外16年課程資格",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "4月入学のみ・秋季入学なし",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "システムデザイン専攻の工学系教育目標（試験範囲ではない）",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "id": "hosei-system-design-february-general-2027",
+      "graduateSchool": "デザイン工学研究科",
+      "department": "システムデザイン専攻",
+      "selectionName": "一般入学制度（2月入試）",
+      "searchAliases": [
+        "系统设计",
+        "System Design",
+        "SD",
+        "机器人",
+        "智能机械"
+      ],
+      "subjectsOriginal": "筆記試験、面接試験（口述試験）、英語外部試験スコア提出。",
+      "scopeOriginal": "以下の①・②ともに解答する。\n①出願時に専門3分野（クリエーション、テクノロジー、マネジメント）から1分野を選択する。\n②共通問題",
+      "conditionsOriginal": "筆記試験9:30～11:30。面接試験（口述試験）12:30～。\n大学入学後に受験したTOEIC、TOEIC IP、TOEFL PBT、TOEFL iBT、TOEFL iBT Paper Editionのスコアカード。TOEIC IPについては、本学デザイン工学部が実施したものに限る。これらの英語外部試験のスコアは合否判定に使用されます。\n出願の前に希望する研究指導教員と面談を行い、出願の承諾を受けてください。",
+      "editorialNote": "专业3领域在出愿时选1＋共通问题，两部分都要回答，笔试120分钟、口述12:30开始；未公布细化科目章目、题数、面试时长或统一语言最低分。不能把三领域拆成3个正式课程，也不以机器人等培养内容补写考纲。考试日2027年2月19日，入学2027年4月；该轮尚未实施。 TOEIC IP仅限本校设计工学部实施，比理工／信息科学的本校实施条件更窄。要项写大学入学后成绩，不能套统一两年有效期；此页未明确Home Edition禁令，不从其他研究科移植。系统设计为跨创意、技术与管理的工学专攻，含智能机械、模拟与产品／系统工程，按工程方向保留。海外16年教育者可通过一般入口，独立外国人特别区分另记待公布。",
+      "sources": [
+        {
+          "label": "システムデザイン修士一般：専門3分野から1＋共通問題・英語条件",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 70
+        },
+        {
+          "label": "SD一般7／10／2月と外国人特別2月の公式日程表",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般修士の海外16年課程資格",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "4月入学のみ・秋季入学なし",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 33
+        },
+        {
+          "label": "システムデザイン専攻の工学系教育目標（試験範囲ではない）",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "hosei",
+      "id": "hosei-system-design-february-international-pending-2027",
+      "graduateSchool": "デザイン工学研究科",
+      "department": "システムデザイン専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人学生特別入学制度（2月入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "publicationStatus": "pending",
+      "editorialNote": "2027年度官方统一日程表列SD修士外国人特别2月入试：2027年2月19日，第一次选考提出2026年11月30日至12月4日。官网当年募集公开明确除外国人特別，仅链接2026年过年度参考外国人要项。2027年完整外国人要项尚未公布，本条只保留已确认的入口与日程，不填科目、范围、语言成绩或面试时长，不借用一般考试或上一年度内容。",
+      "sources": [
+        {
+          "label": "2027年度募集要項の公式配布入口・外国人特別の公開状況",
+          "url": "https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年度SD修士外国人特別2月日程（科目未公布）",
+          "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
         }
       ]
     }
