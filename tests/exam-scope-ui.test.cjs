@@ -32,6 +32,17 @@ function boot(records=[]) {
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
+test('Chiba filters expose formal engineering courses and open the current electrical scope PDF page',async()=>{
+ const a=boot(catalog.records);await school(a,'chiba').click();assert.equal(a.ids['scope-results'].children.length,12);
+ assert.equal(a.ids['scope-graduate'].options.length,2);assert.equal(a.ids['scope-department'].options.length,5);assert.equal(a.ids['scope-field'].options.length,7);
+ a.ids['scope-field'].value='電気電子工学コース';await a.ids['scope-field'].fire('change');assert.equal(a.ids['scope-results'].children.length,2);
+ a.ids['scope-year'].value='2027年4月';await a.ids['scope-year'].fire('change');assert.equal(a.ids['scope-results'].children.length,1);
+ await a.ids['scope-results'].children[0].click();assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('分布定数回路')));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('info_s_2027_doctoralApplication_01.pdf#page=20'));
+ await school(a,'chiba').click();await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,36);
+ a.ids['scope-year'].value='2027年10月';await a.ids['scope-year'].fire('change');assert.equal(a.ids['scope-results'].children.length,6);
+ await a.ids['scope-results'].children[0].click();assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('基礎学力の確認')));
+});
 test('Rikkyo filters show the same eligible general entry in the foreign view and open actual PDF page 18',async()=>{
  const a=boot(catalog.records);await school(a,'rikkyo').click();assert.equal(a.ids['scope-results'].children.length,1);
  assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.rikkyo.note);
@@ -270,7 +281,7 @@ test('school filters switch coverage notes and unmatched results remain usable',
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学与法政大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学、法政大学与千葉大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);

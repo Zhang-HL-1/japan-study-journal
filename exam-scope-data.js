@@ -225,6 +225,18 @@
         "Hosei",
         "法政大學"
       ]
+    },
+    {
+      "id": "chiba",
+      "name": "千葉大学",
+      "aliases": [
+        "千叶大学",
+        "千叶",
+        "千葉",
+        "千葉大",
+        "Chiba",
+        "Chiba University"
+      ]
     }
   ],
   "catalog": {
@@ -251,7 +263,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学与法政大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学、法政大学与千葉大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -511,6 +523,14 @@
         "デザイン工学研究科"
       ],
       "note": "法政大学：收录2027年4月入学理工学的机械、电气电子、应用信息、系统理工创生／管理系统两系，信息科学，以及设计工学系统设计，共7方向15条一般要求＋1条系统设计外国人特别待公布。理工120分钟：机械5选3、电气11选3、应用信息10选3、创生数学＋9选2、管理系统数学＋3选1；信息科学90分钟，口述7分发表＋8分问答；系统设计120分钟，出愿选1专业领域＋共通问题必答。英语外部成绩按大学入学后有效，IP限制分别保存；信息科学现行N2以上与2028年N1预告区分。海外学历可经一般入口申请；系统设计2027外国人要项未公开，不用2026旧版代替。未录化学、生命功能、建筑都市环境、人文社科／商经及推荐、社会人、IIST英语项目或博士后期。"
+    },
+    "chiba": {
+      "verifiedAt": "2026-10-10",
+      "degree": "博士前期課程（修士）",
+      "graduateSchools": [
+        "融合理工学府"
+      ],
+      "note": "千葉大学：融合理工学府の情報科学、物質科学、イメージング科学、デザイン、機械工学、電気電子工学の6正式コース。一般は2026年10月・2027年4月入学12条：情報／物質／デザイン全員口試、機械／電気は免除希望者のみ、イメージングは専門口試のみ。国費特別24条は国費研究留学生等に限定し、基礎学力・研究計画口試を別記。一般は外国学歴者も対象、私費特別は理学5コースのみで今回の6方向は対象外。英語の種類・期限とイメージング例外、物質／機械の異なる電卓規則、物質10分中5分説明・デザイン約9分中3分説明を保存。2028年度変更予告を現行に混ぜない。情報・データサイエンス学府は博士後期のみの案内のため修士入口を捏造せず、既定除外専攻・社会人・推薦・英語学位・博士後期は未収録。"
     }
   },
   "records": [
@@ -48916,6 +48936,1926 @@
           "url": "https://www.hosei.ac.jp/application/files/7117/8547/1104/20270731.pdf",
           "kind": "pdf",
           "pdfPage": 19
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-information-2026-oct-general",
+      "department": "数学情報科学専攻",
+      "course": "情報科学コース",
+      "searchAliases": [
+        "信息科学",
+        "计算机",
+        "Computer Science"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2026年10月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記、口頭試問（全員）、英語外部試験スコア提出。",
+      "scopeOriginal": "【専門科目】おおむね以下の分野から出題します。\n・情報数学・応用数学〔離散数学、確率・統計、代数構造、フーリエ解析を含む〕\n・計算機・論理設計〔ブール代数、組合せ論理回路、順序回路、計算機構成、ネットワークを含む〕\n・プログラミング・アルゴリズム〔アルゴリズム設計、データ構造を含む〕\n【口頭試問】希望教育研究領域の志望理由、卒業研究内容、大学院での研究計画、修了後の予定などについての質疑応答。",
+      "conditionsOriginal": "専門科目 10:00～12:00（120分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は全員が対象。受験しないと失格。成績証明書、英語スコア及び口頭試問の結果により学力検査を免除することがあります。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "现行考纲为信息数学、计算机逻辑、编程算法3类，口试全员；未公布统一口试时长。2028年4月（含2027年10月）一般选拔另有数学笔试与选拔方式变更预告，不替换本条现行范围。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際18ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "2028年4月（2027年10月を含む）一般選抜の将来変更予告：現行範囲とは別",
+          "url": "https://www.se.chiba-u.jp/topics/files/20260827.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-information-2027-apr-general",
+      "department": "数学情報科学専攻",
+      "course": "情報科学コース",
+      "searchAliases": [
+        "信息科学",
+        "计算机",
+        "Computer Science"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記、口頭試問（全員）、英語外部試験スコア提出。",
+      "scopeOriginal": "【専門科目】おおむね以下の分野から出題します。\n・情報数学・応用数学〔離散数学、確率・統計、代数構造、フーリエ解析を含む〕\n・計算機・論理設計〔ブール代数、組合せ論理回路、順序回路、計算機構成、ネットワークを含む〕\n・プログラミング・アルゴリズム〔アルゴリズム設計、データ構造を含む〕\n【口頭試問】希望教育研究領域の志望理由、卒業研究内容、大学院での研究計画、修了後の予定などについての質疑応答。",
+      "conditionsOriginal": "専門科目 10:00～12:00（120分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は全員が対象。受験しないと失格。成績証明書、英語スコア及び口頭試問の結果により学力検査を免除することがあります。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "现行考纲为信息数学、计算机逻辑、编程算法3类，口试全员；未公布统一口试时长。2028年4月（含2027年10月）一般选拔另有数学笔试与选拔方式变更预告，不替换本条现行范围。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際18ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "2028年4月（2027年10月を含む）一般選抜の将来変更予告：現行範囲とは別",
+          "url": "https://www.se.chiba-u.jp/topics/files/20260827.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-information-2026-oct-mext",
+      "department": "数学情報科学専攻",
+      "course": "情報科学コース",
+      "searchAliases": [
+        "信息科学",
+        "计算机",
+        "Computer Science"
+      ],
+      "admissionType": "international",
+      "entryYear": "2026年10月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-information-2027-apr-first-mext",
+      "department": "数学情報科学専攻",
+      "course": "情報科学コース",
+      "searchAliases": [
+        "信息科学",
+        "计算机",
+        "Computer Science"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-information-2027-apr-second-mext",
+      "department": "数学情報科学専攻",
+      "course": "情報科学コース",
+      "searchAliases": [
+        "信息科学",
+        "计算机",
+        "Computer Science"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-information-2027-oct-mext",
+      "department": "数学情報科学専攻",
+      "course": "情報科学コース",
+      "searchAliases": [
+        "信息科学",
+        "计算机",
+        "Computer Science"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年10月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-materials-2026-oct-general",
+      "department": "先進理化学専攻",
+      "course": "物質科学コース",
+      "searchAliases": [
+        "物质科学",
+        "材料科学",
+        "材料工程",
+        "纳米器件"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2026年10月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記（物質科学I・II）、口頭試問（全員）、英語外部試験スコア提出。",
+      "scopeOriginal": "【物質科学I】3題すべてを解答：数学〔微積分学、線形代数〕、物理〔電磁気学、力学〕、化学〔一般化学（基礎有機化学を含む）〕から各1題。1、2年次の基礎的内容（学士課程教育の中級まで）。\n【物質科学II】1題だけ選択：物理〔主に量子力学、固体物性〕、化学〔主に物理化学、無機化学〕から各1題。\n【口頭試問】物質科学の基礎学力、論理的思考能力、卒業研究・関連内容、大学院研究計画などの質疑応答。",
+      "conditionsOriginal": "専門科目 9:00～12:00（180分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は全員が対象。受験しないと失格。卒業研究又は大学院研究計画の資料（A4用紙1枚を5部）を持参。一人当たり10分、そのうち5分間で研究経過の説明等を行い、5分で説明を打ち切ります。控室入室後から試問終了までPC、スマートホン等の使用は禁止。成績・英語・口頭試問により学力検査免除の場合があります。\n電卓は四則演算のみ（平方根・パーセントは可）。関数電卓は使用できません。AC電源は利用できません。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "物质科学按纳米器件、电子及图像材料等应用工程课程保留。I的数学、物理、化学3题全部必答，II物理／化学仅选1题，不能因排除化学专业而删本工程课程考试化学。口试10分钟中说明5分钟；四则计算器与机械的函数计算器规则不同。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際18ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "物質科学口頭試問：10分中研究説明5分・電子機器禁止",
+          "url": "https://www.se.chiba-u.jp/exam/files/20260717/material.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "物質科学の四則演算電卓条件（実際20ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-materials-2027-apr-general",
+      "department": "先進理化学専攻",
+      "course": "物質科学コース",
+      "searchAliases": [
+        "物质科学",
+        "材料科学",
+        "材料工程",
+        "纳米器件"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記（物質科学I・II）、口頭試問（全員）、英語外部試験スコア提出。",
+      "scopeOriginal": "【物質科学I】3題すべてを解答：数学〔微積分学、線形代数〕、物理〔電磁気学、力学〕、化学〔一般化学（基礎有機化学を含む）〕から各1題。1、2年次の基礎的内容（学士課程教育の中級まで）。\n【物質科学II】1題だけ選択：物理〔主に量子力学、固体物性〕、化学〔主に物理化学、無機化学〕から各1題。\n【口頭試問】物質科学の基礎学力、論理的思考能力、卒業研究・関連内容、大学院研究計画などの質疑応答。",
+      "conditionsOriginal": "専門科目 9:00～12:00（180分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は全員が対象。受験しないと失格。卒業研究又は大学院研究計画の資料（A4用紙1枚を5部）を持参。一人当たり10分、そのうち5分間で研究経過の説明等を行い、5分で説明を打ち切ります。控室入室後から試問終了までPC、スマートホン等の使用は禁止。成績・英語・口頭試問により学力検査免除の場合があります。\n電卓は四則演算のみ（平方根・パーセントは可）。関数電卓は使用できません。AC電源は利用できません。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "物质科学按纳米器件、电子及图像材料等应用工程课程保留。I的数学、物理、化学3题全部必答，II物理／化学仅选1题，不能因排除化学专业而删本工程课程考试化学。口试10分钟中说明5分钟；四则计算器与机械的函数计算器规则不同。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際18ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "物質科学口頭試問：10分中研究説明5分・電子機器禁止",
+          "url": "https://www.se.chiba-u.jp/exam/files/20260717/material.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "物質科学の四則演算電卓条件（実際20ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-materials-2026-oct-mext",
+      "department": "先進理化学専攻",
+      "course": "物質科学コース",
+      "searchAliases": [
+        "物质科学",
+        "材料科学",
+        "材料工程",
+        "纳米器件"
+      ],
+      "admissionType": "international",
+      "entryYear": "2026年10月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-materials-2027-apr-first-mext",
+      "department": "先進理化学専攻",
+      "course": "物質科学コース",
+      "searchAliases": [
+        "物质科学",
+        "材料科学",
+        "材料工程",
+        "纳米器件"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-materials-2027-apr-second-mext",
+      "department": "先進理化学専攻",
+      "course": "物質科学コース",
+      "searchAliases": [
+        "物质科学",
+        "材料科学",
+        "材料工程",
+        "纳米器件"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-materials-2027-oct-mext",
+      "department": "先進理化学専攻",
+      "course": "物質科学コース",
+      "searchAliases": [
+        "物质科学",
+        "材料科学",
+        "材料工程",
+        "纳米器件"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年10月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-imaging-2026-oct-general",
+      "department": "創成工学専攻",
+      "course": "イメージング科学コース",
+      "searchAliases": [
+        "图像科学",
+        "成像科学",
+        "影像工程",
+        "Imaging"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2026年10月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目は口頭試問（筆記試験なし）、英語外部試験スコア提出。",
+      "scopeOriginal": "専門科目の筆記試験はありません。卒業研究の概要及び大学院の研究計画について、事前に準備したスライド又はビデオなどを用いて説明し、質疑応答を行います。イメージング科学に関する基礎知識について、口頭試問による学力検査を行います。",
+      "conditionsOriginal": "専門科目 口頭による学力検査：2026年8月6日9:00～。\nTOEIC等のスコアシートは8月6日の口頭試問時に回収するため、必ず持参してください。2024年6月以降に受験したもので、8月の口頭試問による学力検査時に提出できるものを有効とします。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。",
+      "editorialNote": "专业仅口试，须用事先准备的幻灯片或视频说明毕业研究及大学院计划，并考成像基础知识；未公布统一发表／口试时长。英语是2024年6月以后取得、8月6日口试时交，不能套其他课程2026年5月底截止或出愿时提交。图像科学按信息处理与成像工程课程保留。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際19ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-imaging-2027-apr-general",
+      "department": "創成工学専攻",
+      "course": "イメージング科学コース",
+      "searchAliases": [
+        "图像科学",
+        "成像科学",
+        "影像工程",
+        "Imaging"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目は口頭試問（筆記試験なし）、英語外部試験スコア提出。",
+      "scopeOriginal": "専門科目の筆記試験はありません。卒業研究の概要及び大学院の研究計画について、事前に準備したスライド又はビデオなどを用いて説明し、質疑応答を行います。イメージング科学に関する基礎知識について、口頭試問による学力検査を行います。",
+      "conditionsOriginal": "専門科目 口頭による学力検査：2026年8月6日9:00～。\nTOEIC等のスコアシートは8月6日の口頭試問時に回収するため、必ず持参してください。2024年6月以降に受験したもので、8月の口頭試問による学力検査時に提出できるものを有効とします。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。",
+      "editorialNote": "专业仅口试，须用事先准备的幻灯片或视频说明毕业研究及大学院计划，并考成像基础知识；未公布统一发表／口试时长。英语是2024年6月以后取得、8月6日口试时交，不能套其他课程2026年5月底截止或出愿时提交。图像科学按信息处理与成像工程课程保留。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際19ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-imaging-2026-oct-mext",
+      "department": "創成工学専攻",
+      "course": "イメージング科学コース",
+      "searchAliases": [
+        "图像科学",
+        "成像科学",
+        "影像工程",
+        "Imaging"
+      ],
+      "admissionType": "international",
+      "entryYear": "2026年10月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-imaging-2027-apr-first-mext",
+      "department": "創成工学専攻",
+      "course": "イメージング科学コース",
+      "searchAliases": [
+        "图像科学",
+        "成像科学",
+        "影像工程",
+        "Imaging"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-imaging-2027-apr-second-mext",
+      "department": "創成工学専攻",
+      "course": "イメージング科学コース",
+      "searchAliases": [
+        "图像科学",
+        "成像科学",
+        "影像工程",
+        "Imaging"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-imaging-2027-oct-mext",
+      "department": "創成工学専攻",
+      "course": "イメージング科学コース",
+      "searchAliases": [
+        "图像科学",
+        "成像科学",
+        "影像工程",
+        "Imaging"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年10月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-design-2026-oct-general",
+      "department": "創成工学専攻",
+      "course": "デザインコース",
+      "searchAliases": [
+        "设计工程",
+        "设计",
+        "Design",
+        "产品设计"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2026年10月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記、口頭試問（全員）、英語外部試験スコア提出。",
+      "scopeOriginal": "【専門科目】デザインに関する展開力。次の①～⑧から、志望指導教員に指定された科目（指定科目）、及びその他の2科目（選択科目）を検査場で選択。\n①プロダクト・サービスデザイン ②構造・材料 ③コミュニケーションデザイン ④人間工学 ⑤環境デザイン ⑥デザイン論・デザイン史 ⑦サステナブルデザイン ⑧行動心理。\n【口頭試問】現在取り組む研究・制作（現在行っていなければ過去の代表的な研究・制作）について。",
+      "conditionsOriginal": "専門科目 10:00～12:00（120分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は全員が対象。受験しないと失格。研究報告書（A4縦1ページ・横書き）5部を持参。一人当たり約9分（交代時間を含めて10分）、冒頭3分で研究経過の説明を行い、3分で説明を打ち切ります。成績・英語・口頭試問により学力検査免除の場合があります。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "工程设计正式课程整体保留，覆盖产品服务、结构材料、人因工程；完整保存8个官方选项，不把环境设计或行为心理单独造为环境／社会专业。导师指定科目＋其他2科在考场选择，不写成任意8选3。口试约9分钟，含3分钟说明，10分钟含换人。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際19ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "デザイン口頭試問：約9分・冒頭3分説明・報告書5部",
+          "url": "https://www.se.chiba-u.jp/exam/files/20260717/design.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-design-2027-apr-general",
+      "department": "創成工学専攻",
+      "course": "デザインコース",
+      "searchAliases": [
+        "设计工程",
+        "设计",
+        "Design",
+        "产品设计"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記、口頭試問（全員）、英語外部試験スコア提出。",
+      "scopeOriginal": "【専門科目】デザインに関する展開力。次の①～⑧から、志望指導教員に指定された科目（指定科目）、及びその他の2科目（選択科目）を検査場で選択。\n①プロダクト・サービスデザイン ②構造・材料 ③コミュニケーションデザイン ④人間工学 ⑤環境デザイン ⑥デザイン論・デザイン史 ⑦サステナブルデザイン ⑧行動心理。\n【口頭試問】現在取り組む研究・制作（現在行っていなければ過去の代表的な研究・制作）について。",
+      "conditionsOriginal": "専門科目 10:00～12:00（120分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は全員が対象。受験しないと失格。研究報告書（A4縦1ページ・横書き）5部を持参。一人当たり約9分（交代時間を含めて10分）、冒頭3分で研究経過の説明を行い、3分で説明を打ち切ります。成績・英語・口頭試問により学力検査免除の場合があります。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "工程设计正式课程整体保留，覆盖产品服务、结构材料、人因工程；完整保存8个官方选项，不把环境设计或行为心理单独造为环境／社会专业。导师指定科目＋其他2科在考场选择，不写成任意8选3。口试约9分钟，含3分钟说明，10分钟含换人。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際19ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "デザイン口頭試問：約9分・冒頭3分説明・報告書5部",
+          "url": "https://www.se.chiba-u.jp/exam/files/20260717/design.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-design-2026-oct-mext",
+      "department": "創成工学専攻",
+      "course": "デザインコース",
+      "searchAliases": [
+        "设计工程",
+        "设计",
+        "Design",
+        "产品设计"
+      ],
+      "admissionType": "international",
+      "entryYear": "2026年10月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-design-2027-apr-first-mext",
+      "department": "創成工学専攻",
+      "course": "デザインコース",
+      "searchAliases": [
+        "设计工程",
+        "设计",
+        "Design",
+        "产品设计"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-design-2027-apr-second-mext",
+      "department": "創成工学専攻",
+      "course": "デザインコース",
+      "searchAliases": [
+        "设计工程",
+        "设计",
+        "Design",
+        "产品设计"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-design-2027-oct-mext",
+      "department": "創成工学専攻",
+      "course": "デザインコース",
+      "searchAliases": [
+        "设计工程",
+        "设计",
+        "Design",
+        "产品设计"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年10月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-mechanical-2026-oct-general",
+      "department": "基幹工学専攻",
+      "course": "機械工学コース",
+      "searchAliases": [
+        "机械工学",
+        "机械工程",
+        "Mechanical"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2026年10月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記、英語外部試験スコア提出。口頭試問は学力検査免除希望者のみ。",
+      "scopeOriginal": "以下の4科目を出題し、全問を解答。\n・機械力学（制御工学を含む）〔質点・質点系、剛体、解析力学、多自由度系振動、伝達関数と状態方程式、時間応答と周波数応答、線形フィードバック制御〕\n・材料力学〔棒の引張・圧縮・ねじり、はりの曲げ、組合せ応力、ひずみエネルギー、座屈〕\n・熱力学〔第一法則、第二法則、状態量、サイクル、エントロピー〕\n・流体力学〔ベルヌーイの定理、運動量法則、ポワズイユ流れ、ポテンシャル流れ、管路内の圧力損失、流体の静力学〕",
+      "conditionsOriginal": "専門科目 9:00～12:00（180分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は、卒業予定の大学等で優秀な学業成績を修めた者のうち、学力検査免除希望者のみ。出願時に所定の志望理由書を提出。第1志望教員に事前相談。免除が否でも学力検査を受験できます。\n電卓は四則演算及びべき乗、三角関数、逆三角関数、対数、指数などの初等関数計算に限定。プログラム機能は使用できません。AC電源は利用できません。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "机械4科全部必答，控制包含于机械力学；口试仅针对优秀成绩的毕业预计者申请笔试免除，不给普通笔试考生增加全员面试。口试统一时长未公布。计算器可用限定初等函数，不能使用程序功能。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際20ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "機械工学の電卓条件・配点（実際21ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-mechanical-2027-apr-general",
+      "department": "基幹工学専攻",
+      "course": "機械工学コース",
+      "searchAliases": [
+        "机械工学",
+        "机械工程",
+        "Mechanical"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記、英語外部試験スコア提出。口頭試問は学力検査免除希望者のみ。",
+      "scopeOriginal": "以下の4科目を出題し、全問を解答。\n・機械力学（制御工学を含む）〔質点・質点系、剛体、解析力学、多自由度系振動、伝達関数と状態方程式、時間応答と周波数応答、線形フィードバック制御〕\n・材料力学〔棒の引張・圧縮・ねじり、はりの曲げ、組合せ応力、ひずみエネルギー、座屈〕\n・熱力学〔第一法則、第二法則、状態量、サイクル、エントロピー〕\n・流体力学〔ベルヌーイの定理、運動量法則、ポワズイユ流れ、ポテンシャル流れ、管路内の圧力損失、流体の静力学〕",
+      "conditionsOriginal": "専門科目 9:00～12:00（180分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は、卒業予定の大学等で優秀な学業成績を修めた者のうち、学力検査免除希望者のみ。出願時に所定の志望理由書を提出。第1志望教員に事前相談。免除が否でも学力検査を受験できます。\n電卓は四則演算及びべき乗、三角関数、逆三角関数、対数、指数などの初等関数計算に限定。プログラム機能は使用できません。AC電源は利用できません。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "机械4科全部必答，控制包含于机械力学；口试仅针对优秀成绩的毕业预计者申请笔试免除，不给普通笔试考生增加全员面试。口试统一时长未公布。计算器可用限定初等函数，不能使用程序功能。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際20ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "機械工学の電卓条件・配点（実際21ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-mechanical-2026-oct-mext",
+      "department": "基幹工学専攻",
+      "course": "機械工学コース",
+      "searchAliases": [
+        "机械工学",
+        "机械工程",
+        "Mechanical"
+      ],
+      "admissionType": "international",
+      "entryYear": "2026年10月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-mechanical-2027-apr-first-mext",
+      "department": "基幹工学専攻",
+      "course": "機械工学コース",
+      "searchAliases": [
+        "机械工学",
+        "机械工程",
+        "Mechanical"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-mechanical-2027-apr-second-mext",
+      "department": "基幹工学専攻",
+      "course": "機械工学コース",
+      "searchAliases": [
+        "机械工学",
+        "机械工程",
+        "Mechanical"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-mechanical-2027-oct-mext",
+      "department": "基幹工学専攻",
+      "course": "機械工学コース",
+      "searchAliases": [
+        "机械工学",
+        "机械工程",
+        "Mechanical"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年10月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-electrical-2026-oct-general",
+      "department": "基幹工学専攻",
+      "course": "電気電子工学コース",
+      "searchAliases": [
+        "电气电子",
+        "电气工程",
+        "电子工程",
+        "Electrical"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2026年10月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記、英語外部試験スコア提出。口頭試問は学力検査免除希望者のみ。",
+      "scopeOriginal": "おおむね以下の内容を中心に出題。\n・数学〔行列とベクトル、線形写像、固有値、固有ベクトル、微分法、積分法、極値問題、微分方程式の基礎、フーリエ級数、ラプラス変換〕\n・電磁気学〔静電界、誘電体、電流、静磁界、磁性体、電磁誘導、電磁波〕\n・回路理論〔正弦波交流、集中定数回路、共振回路、二端子対回路、回路の諸定理、三相回路、過渡現象、分布定数回路〕",
+      "conditionsOriginal": "専門科目 9:00～12:00（180分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は学力検査免除希望者のみ。第1志望教員に必ず事前相談。口頭試問の結果により免除が否でも、学力検査を受験できます。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "数学、电磁、电路3类详细范围；未公布题数与选答数量，不套其他学校的几选几。7月口试仅笔试免除申请者，未另列8月普通考生面试。电气未列计算器许可，不移植机械的计算器条款。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際20ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-electrical-2027-apr-general",
+      "department": "基幹工学専攻",
+      "course": "電気電子工学コース",
+      "searchAliases": [
+        "电气电子",
+        "电气工程",
+        "电子工程",
+        "Electrical"
+      ],
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "entryYear": "2027年4月",
+      "selectionName": "一般選抜",
+      "subjectsOriginal": "専門科目筆記、英語外部試験スコア提出。口頭試問は学力検査免除希望者のみ。",
+      "scopeOriginal": "おおむね以下の内容を中心に出題。\n・数学〔行列とベクトル、線形写像、固有値、固有ベクトル、微分法、積分法、極値問題、微分方程式の基礎、フーリエ級数、ラプラス変換〕\n・電磁気学〔静電界、誘電体、電流、静磁界、磁性体、電磁誘導、電磁波〕\n・回路理論〔正弦波交流、集中定数回路、共振回路、二端子対回路、回路の諸定理、三相回路、過渡現象、分布定数回路〕",
+      "conditionsOriginal": "専門科目 9:00～12:00（180分）（筆記は2026年8月6日）。\n7月18日10:00～の口頭試問は学力検査免除希望者のみ。第1志望教員に必ず事前相談。口頭試問の結果により免除が否でも、学力検査を受験できます。\n外国語（英語）は筆記試験を行わず、TOEIC L&R又はTOEFL iBTのスコア提出に置き換えます。工学系コースはオンライン形式（Home Edition等）のスコアを認めません。TOEIC L&R-IP及びTOEFL-ITP Level1は利用できません。TOEFL iBTはTestDateスコアのみ（MyBestは利用しません）。\n2024年6月から2026年5月末までに受験したスコアを出願時に提出してください。TOEICはDigital Official Score CertificateをA4で印刷して提出。TOEFLは①郵送されたTest Taker Score Reportの原本及びA4コピー、又は②My TOEFL Homeから千葉大学に直接送信（Institution Code 9154、出願締切日までに本学で確認）及びPDF版Test Taker Score Reportの印刷物（右上に直送手続日を記入）を提出。②は両方の手続が必要です。",
+      "editorialNote": "数学、电磁、电路3类详细范围；未公布题数与选答数量，不套其他学校的几选几。7月口试仅笔试免除申请者，未另列8月普通考生面试。电气未列计算器许可，不移植机械的计算器条款。 2026年10月・2027年4月入学の同一一般選抜で、2026年7月18日口頭試問／8月6日専門検査は既に終了。外国の16年課程や3年以上の学士相当課程等の資格を満たす外国人も一般入口を利用できるため、留学生表示にも同じ一般記録を表示。私費外国人特別は公式に理学系5コースのみで、本コースの独立私費選抜は設けていない。未公布の題数・選答数・教材・一律の英語最低分やJLPT水準を補わない。",
+      "sources": [
+        {
+          "label": "工学系修士の専門科目・口頭試問範囲（実際20ページ）",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "一般選抜日程・全員口頭試問と免除希望者のみの区別",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "工学系外部英語・有効期間・イメージング提出時期例外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜の外国学歴出願資格",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/info_s_2027_doctoralApplication_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "現行一般選抜：日本人・外国人を対象",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_dr.html",
+          "kind": "page"
+        },
+        {
+          "label": "私費外国人特別の対象は理学系5コース",
+          "url": "https://www.se.chiba-u.jp/admission/first/1st_pf.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-electrical-2026-oct-mext",
+      "department": "基幹工学専攻",
+      "course": "電気電子工学コース",
+      "searchAliases": [
+        "电气电子",
+        "电气工程",
+        "电子工程",
+        "Electrical"
+      ],
+      "admissionType": "international",
+      "entryYear": "2026年10月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-electrical-2027-apr-first-mext",
+      "department": "基幹工学専攻",
+      "course": "電気電子工学コース",
+      "searchAliases": [
+        "电气电子",
+        "电气工程",
+        "电子工程",
+        "Electrical"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2026年8月4日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2026年8月4日考试已结束。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_01.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-electrical-2027-apr-second-mext",
+      "department": "基幹工学専攻",
+      "course": "電気電子工学コース",
+      "searchAliases": [
+        "电气电子",
+        "电气工程",
+        "电子工程",
+        "Electrical"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年4月",
+      "selectionName": "国費外国人留学生特別選抜（第2回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chiba",
+      "graduateSchool": "融合理工学府",
+      "degreeProgram": "master",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chiba-electrical-2027-oct-mext",
+      "department": "基幹工学専攻",
+      "course": "電気電子工学コース",
+      "searchAliases": [
+        "电气电子",
+        "电气工程",
+        "电子工程",
+        "Electrical"
+      ],
+      "admissionType": "international",
+      "entryYear": "2027年10月",
+      "selectionName": "国費外国人留学生特別選抜（第1回）",
+      "subjectsOriginal": "学力検査（口頭試問）及び成績証明書を総合して選抜。",
+      "scopeOriginal": "口頭試問：基礎学力の確認及び研究計画等について行います。",
+      "conditionsOriginal": "学力検査日時：2027年2月1日10時～。当日来学できない場合は事前学力検査の制度があります。出願前に志望指導教員へ問合せてください。\n出願時に文部科学省奨学金を研究留学生（学部留学生を除く）として受給、受給が決定、又は大使館推薦の国費外国人留学生（研究留学生）採用候補者で、外国の16年課程又は3年以上の学士相当課程等の出願資格に該当する者。ただし、日本の大学を卒業した者及び卒業見込みの者は出願できません。",
+      "editorialNote": "国费限定入口，不能作为普通私费留学生特别考试。依据本国费要项，只录基础学力与研究计划口试；要项未列一般专业笔试、外部英语分数要求、统一JLPT门槛、细分章目或口试时长，不借用一般选拔填充。事前学力检查须出愿前咨询导师，不自动等于网络面试。该轮2027年2月1日考试尚未实施。",
+      "sources": [
+        {
+          "label": "国費修士選抜：基礎学力・研究計画の口頭試問・実施日",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "国費受給／決定／大使館推薦候補者の限定資格・日本大学卒業者除外",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "正式専攻・コースと対象入学時期",
+          "url": "https://www.se.chiba-u.jp/admission/first/files/2027/mext_app_02.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "国費外国人留学生修士の当年度要項",
+          "url": "https://www.se.chiba-u.jp/admission/first/mext.html",
+          "kind": "page"
         }
       ]
     }
