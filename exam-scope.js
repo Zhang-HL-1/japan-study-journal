@@ -17,7 +17,7 @@
     get('scope-data-error').textContent = '部分资料暂时无法显示，请以学校官方募集要项为准。';
     get('scope-data-error').hidden = false;
   }
-  const state = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '', subjectIds: [], subjectMode: 'all' };
+  const state = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '', subjectIds: [] };
   let selectedId = null;
   function element(tag, text, className) {
     const node = document.createElement(tag);
@@ -96,7 +96,6 @@
       row.count.title = '按学校、入试类型等其他筛选统计；未叠加已选科目';
     }
     get('scope-subject-summary').textContent = state.subjectIds.length ? '已选 ' + state.subjectIds.length + ' 个科目 · 点击修改' : '选择考试科目';
-    get('scope-subject-mode').value = state.subjectMode;
     get('scope-subject-clear').disabled = !state.subjectIds.length;
     get('scope-subject-selected').replaceChildren();
     for (const id of state.subjectIds) {
@@ -202,10 +201,9 @@
   get('scope-field').addEventListener('change', event => { state.course = event.target.value; state.entryYear = 'all'; render(); });
   get('scope-year').addEventListener('change', event => { state.entryYear = event.target.value; render(); });
   get('scope-query').addEventListener('input', event => { state.query = event.target.value; render(); });
-  get('scope-subject-mode').addEventListener('change', event => { state.subjectMode = event.target.value; render(); });
   get('scope-subject-clear').addEventListener('click', () => { state.subjectIds = []; render(); });
   get('scope-subject-search').addEventListener('input', searchSubjects);
-  function reset() { Object.assign(state, { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '', subjectIds: [], subjectMode: 'all' }); get('scope-query').value = ''; get('scope-subject-search').value = ''; searchSubjects(); render(); }
+  function reset() { Object.assign(state, { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '', subjectIds: [] }); get('scope-query').value = ''; get('scope-subject-search').value = ''; searchSubjects(); render(); }
   get('scope-reset').addEventListener('click', reset); get('scope-empty-reset').addEventListener('click', reset);
   render();
 })();

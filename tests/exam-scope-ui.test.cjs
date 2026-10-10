@@ -431,7 +431,7 @@ test('YNU UI separates national-funded oral selection and does not show closed s
  const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=7'));
 });
 
-test('multi-select subjects preserve checkbox nodes, intersect filters, and support OR, clear and reset',async()=>{
+test('multi-select subjects preserve checkbox nodes, intersect filters, and support clear and reset',async()=>{
  const a=boot(catalog.records), rows=a.ids['scope-subject-options'].querySelectorAll('input');
  const find=id=>rows.find(e=>e.dataset.subject===id);
  const linear=find('linear-algebra'),circuit=find('circuits');linear.checked=true;await linear.fire('change');circuit.checked=true;await circuit.fire('change');
@@ -439,11 +439,11 @@ test('multi-select subjects preserve checkbox nodes, intersect filters, and supp
  assert.ok(allIds.length>0);assert.ok(allIds.every(id=>catalog.records.find(r=>r.id===id)&&require('../exam-scope-core.js').subjects.matches(catalog.records.find(r=>r.id===id),['linear-algebra','circuits'])));
  assert.match(a.ids['scope-result-count'].textContent,/所学校/);assert.equal(a.ids['scope-subject-selected'].children.length,2);
  assert.equal(a.ids['scope-subject-options'].querySelectorAll('input').find(e=>e.dataset.subject==='circuits'),circuit);
- a.ids['scope-subject-mode'].value='any';await a.ids['scope-subject-mode'].fire('change');assert.ok(a.ids['scope-results'].children.length>allIds.length);
+ assert.equal(a.ids['scope-subject-mode'],undefined);
  await school(a,'ynu').click();assert.equal(linear.checked,true);assert.equal(circuit.checked,true);assert.ok(a.ids['scope-results'].children.every(e=>e.dataset.id.startsWith('ynu-')));
  await a.tabs[1].click();assert.equal(circuit.checked,true);
  await a.ids['scope-subject-clear'].click();assert.equal(linear.checked,false);assert.equal(a.ids['scope-school'].value,'ynu');assert.equal(a.ids['scope-subject-schools'].hidden,true);
- circuit.checked=true;await circuit.fire('change');await a.ids['scope-reset'].click();assert.equal(circuit.checked,false);assert.equal(a.ids['scope-school'].value,'all');assert.equal(a.ids['scope-subject-mode'].value,'all');
+ circuit.checked=true;await circuit.fire('change');await a.ids['scope-reset'].click();assert.equal(circuit.checked,false);assert.equal(a.ids['scope-school'].value,'all');
 });
 test('subject alias search only narrows choices and selected chips remove individual subjects',async()=>{
  const a=boot(catalog.records),rows=a.ids['scope-subject-options'].querySelectorAll('input'),pick=id=>rows.find(e=>e.dataset.subject===id);

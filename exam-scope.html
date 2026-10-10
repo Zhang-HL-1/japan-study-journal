@@ -7,13 +7,13 @@
     <meta name="theme-color" content="#faf9f5" />
     <title>考试科目与范围｜留日手记</title>
 <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="exam-scope.css?v=20261010-subjects" />
+    <link rel="stylesheet" href="exam-scope.css?v=20261010-subjects-simple" />
     <link rel="stylesheet" href="editorial.css?v=20261005-align" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E" />
-    <script src="exam-scope-data.js?v=20261010-subjects" defer></script>
-    <script src="exam-scope-subjects.js?v=20261010-subjects" defer></script>
-    <script src="exam-scope-core.js?v=20261010-subjects" defer></script>
-    <script src="exam-scope.js?v=20261010-subjects" defer></script>
+    <script src="exam-scope-data.js?v=20261010-subjects-simple" defer></script>
+    <script src="exam-scope-subjects.js?v=20261010-subjects-simple" defer></script>
+    <script src="exam-scope-core.js?v=20261010-subjects-simple" defer></script>
+    <script src="exam-scope.js?v=20261010-subjects-simple" defer></script>
     <script src="script.js?v=20261005-align" defer></script>
   </head>
   <body>
@@ -63,8 +63,7 @@
                 <p id="scope-subject-search-empty" class="scope-filter-note" hidden>没有对应分类，试试其他科目名称。</p>
               </details>
               <div id="scope-subject-selected" class="scope-subject-selected" aria-label="已选考试科目"></div>
-              <label for="scope-subject-mode">多选匹配方式</label><select id="scope-subject-mode"><option value="all">包含全部所选科目</option><option value="any">包含任一所选科目</option></select>
-              <p class="scope-filter-note">按官方科目与范围归类，含选答及口述涉及的科目。电路总类下保留细类；是否必考及选答组合请看原文。</p>
+              <p class="scope-filter-note">多选需包含全部所选科目；必考、选答与免试条件请看原文。</p>
             </section>
             <label for="scope-school">学校</label><select id="scope-school"><option value="all">全部学校</option></select>
             <label for="scope-graduate">研究科 / 学院</label><select id="scope-graduate" disabled><option value="all">等待添加研究科资料</option></select>
