@@ -32,6 +32,18 @@ function boot(records=[]) {
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
+test('Aoyama course filters open the current official range and keep foreign scope unknown',async()=>{
+ const a=boot(catalog.records);await school(a,'aoyama').click();assert.equal(a.ids['scope-results'].children.length,5);
+ assert.equal(a.ids['scope-field'].options.length,6);assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.aoyama.note);
+ a.ids['scope-field'].value='機械創造コース';await a.ids['scope-field'].fire('change');assert.equal(a.ids['scope-results'].children.length,1);
+ await a.ids['scope-results'].children[0].click();assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('一つの系の全ての問題')));
+ const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('2027_in_riko_September-1.pdf#page=14'));
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,10);
+ a.ids['scope-field'].value='機械創造コース';await a.ids['scope-field'].fire('change');assert.equal(a.ids['scope-results'].children.length,2);
+ await a.ids['scope-results'].children.find(e=>e.dataset.id==='aoyama-mechanical-international-private-2027').click();
+ assert.ok(!a.ids['scope-detail'].children.some(e=>e.tag==='h4'&&e.textContent==='考试范围 · 官方原文'));
+ assert.ok(a.ids['scope-detail'].children.some(e=>e.tag==='p'&&e.textContent.includes('没有公布')));
+});
 test('UEC program and month filters retain real foreign general entries and open the detailed range page',async()=>{
  const a=boot(catalog.records);await school(a,'uec').click();assert.equal(a.ids['scope-results'].children.length,26);
  assert.equal(a.ids['scope-graduate'].options.length,2);assert.equal(a.ids['scope-department'].options.length,5);
@@ -245,11 +257,11 @@ test('Tohoku pending English call and SDTM participation render without invented
   assert.ok(!a.ids['scope-detail'].children.some(e=>e.tag==='h4'&&e.textContent==='考试范围 · 官方原文'));
  }
 });
-test('school filters switch all twelve coverage notes and unmatched results remain usable',async()=>{
+test('school filters switch coverage notes and unmatched results remain usable',async()=>{
  const a=boot(catalog.records);
  const generalCount=a.ids['scope-results'].children.length;
  assert.equal(a.ids['scope-data-error'].hidden,true);
- assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学与明治大学/);
+ assert.match(a.ids['data-status'].children[1].textContent,/東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学与青山学院大学/);
  await school(a,'kyoto').click();
  assert.match(a.ids['data-status'].children[1].textContent,/京都大学：/);
  assert.equal(a.ids['scope-graduate'].options.length,5);
@@ -469,3 +481,4 @@ test('subject alias search only narrows choices and selected chips remove indivi
  a.ids['scope-subject-search'].value='不存在的科目';await a.ids['scope-subject-search'].fire('input');assert.equal(a.ids['scope-subject-search-empty'].hidden,false);
  await a.ids['scope-reset'].click();assert.equal(a.ids['scope-subject-search'].value,'');assert.equal(a.ids['scope-subject-search-empty'].hidden,true);
 });
+

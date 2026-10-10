@@ -89,8 +89,8 @@ test('Sophia foreign-educated general routes preserve residence restrictions, al
  }
  assert.equal(core.sourceURL({url:'https://adm.sophia.ac.jp/guide.pdf',kind:'pdf',pdfPage:6}),'https://adm.sophia.ac.jp/guide.pdf#page=6');
  for(const url of ['http://adm.sophia.ac.jp/a','https://sophia.ac.jp.evil.test/a','https://evil-sophia.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
- assert.equal(data.records.length,931);assert.equal(data.records.filter(r=>!r.publicationStatus).length,895);
- const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>931<\/strong>/);assert.match(html,/20261010-meiji/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学与明治大学/);
+ assert.equal(data.records.length,941);assert.equal(data.records.filter(r=>!r.publicationStatus).length,905);
+ const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>941<\/strong>/);assert.match(html,/20261010-aoyama/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学与青山学院大学/);
 });
 test('Kyushu keeps seven official faculties and 20 departments with year-specific sources and safe aliases',()=>{
  const records=data.records.filter(r=>r.universityId==='kyushu');
@@ -387,8 +387,8 @@ test('Meiji keeps actual masters subjects, selection rules and separate English 
  for(const url of ['https://meiji.ac.jp.evil.test/x','https://evil-meiji.ac.jp/x','http://www.meiji.ac.jp/x'])assert.equal(core.sourceURL({url,kind:'page'}),null);
 });
 test('all eighteen university catalogs have unique validated records and clear pending entry rules', () => {
-  assert.equal(data.universities.length, 18);
-  assert.equal(new Set(data.universities.map(u => u.id)).size, 18);
+  assert.equal(data.universities.length, 19);
+  assert.equal(new Set(data.universities.map(u => u.id)).size, 19);
   assert.ok(data.records.length > 0);
   assert.equal(new Set(data.records.map(record => record.id)).size, data.records.length);
   assert.ok(data.records.every(record => core.validRecord(record, data.universities)));
@@ -809,4 +809,5 @@ test('all exam page assets and navigation targets exist with unique HTML ids', (
     assert.ok(html.includes('href="exam-scope.html"'));
   }
 });
+
 

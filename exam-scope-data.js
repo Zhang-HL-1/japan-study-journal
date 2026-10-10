@@ -184,6 +184,17 @@
         "Meiji",
         "Meiji University"
       ]
+    },
+    {
+      "id": "aoyama",
+      "name": "青山学院大学",
+      "aliases": [
+        "青山大学",
+        "青学",
+        "青山",
+        "青山學院大學",
+        "Aoyama Gakuin University"
+      ]
     }
   ],
   "catalog": {
@@ -210,7 +221,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学与明治大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学与青山学院大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -435,6 +446,14 @@
         "先端数理科学研究科"
       ],
       "note": "已核对2027年4月博士前期一般／外国人留学生入学试验：理工学研究科电气、机械、信息科学；先端数理科学研究科现象数理、媒体科学、网络设计，共6专攻24条Ⅰ期／Ⅱ期要求。现象数理按官方建模、模拟与计算统计培养目标保留为应用数理。Ⅰ期已结束。理工2026年9月秋季的电气、机械、信息科学博士前期不募集，不沿用博士后期科目。按既定范围跳过应用化学、建筑都市、纯数学、纯物理及人文社会主体信息コミュニケーション；未收录社会人、学内推荐、飞入及SGU，不声称全校覆盖。"
+    },
+    "aoyama": {
+      "verifiedAt": "2026-10-10",
+      "degree": "修士（博士前期課程）",
+      "graduateSchools": [
+        "理工学研究科"
+      ],
+      "note": "青山学院大学：已核对2027年4月理工学研究科／理工学専攻的5个正式课程，共10条：電気電子工学、機械創造、知能情報、マネジメントテクノロジー、機能物質創成的一般9月与私费外国人入试各5条。一般有校内英语、数学、专业笔试及口述，必答／选答和发表时限按课程保存。外国人仅公布专业笔试＋口述，详细范围未公开，不套用一般考纲；外部英语与N1／EJU证明按独立要项记录。采用官网当前链接的2026年7月更新PDF，实际页码已核验。一般2026年9月轮已结束；未添加社会人、学内进学、SGU、博士后期、基礎科学、化学、生命科学或人文社会主体项目，不称全校覆盖。"
     }
   },
   "records": [
@@ -46865,9 +46884,550 @@
           "kind": "page"
         }
       ]
+    },
+    {
+      "id": "aoyama-functional-materials-general-september-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "機能物質創成コース",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "博士前期課程（９月入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "共通科目：英語、数学。専門科目：筆記試験、口述試問。書類審査。",
+      "scopeOriginal": "共通科目：英語（長めの英文読解、英作文、イディオム、語彙力）。数学（線形代数、一変数及び二変数の微分・積分、微分方程式）。\n専門科目（筆記試験）：\n選択必須問題：物性物理学、固体化学、電子物性学から必ず１問を選択。\n選択問題：物理分野（力学、電磁気学、量子力学、熱・統計力学）、化学分野（有機化学、物理化学、無機・分析化学）、電気電子分野（電磁気学、電気回路、電波工学、情報・通信工学、電気電子計測、電子回路、制御工学、ﾊﾟﾜｰｴﾚｸﾄﾛﾆｸｽ）から合計２問選択。\n口述試問：受験者自身の卒業研究などに関する発表を課します。発表時間は１０分以内です。",
+      "conditionsOriginal": "英語：10:00～11:30。数学：13:00～14:30。専門筆記試験：10:00～12:00。口述試問：14:00～。\n出願資格：外国において、学校教育における16年の課程を修了した者及び2027年3月修了見込みの者。研究指導を希望する教員から予め承認を受けた後、出願してください。",
+      "editorialNote": "材料科学、电子物性与器件相关工程课程。专业笔试先从物性物理、固体化学、电子物性选1题，再从三类领域合计选2题；保留其可选化学科目。毕业研究发表不超过10分钟。 共通英语为校内90分钟笔试，数学90分钟、专业笔试120分钟。一般9月入试已于2026年9月4–5日实施，适用2027年4月入学；符合官方海外学历资格者可报一般选拔。未公开更细教材章号。",
+      "sources": [
+        {
+          "label": "2027年度９月入試：専門筆記範囲・選答（実際13ページ）",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "共通英語・数学範囲と試験時間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "コース別口述試問",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "博士前期課程・募集コース・海外学歴出願資格",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年9月試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "aoyama-functional-materials-international-private-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "機能物質創成コース",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "博士前期課程 外国人留学生（私費）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "第一次審査：書類審査。第二次審査：筆記試験（専門科目）・口述試問。英語資格・検定試験のスコア。",
+      "conditionsOriginal": "第二次審査は第一次審査合格者のみ。試験日：2026年11月21日。\n日本語能力：日本語能力試験N1合格、または日本留学試験（日本語・記述を除く）240点以上。２年以内に取得したもの。\n英語資格・検定試験：TOEIC L&R、IELTS、TOEFL iBTから１種類。英語を母国語とする者のみ不要。２年以内に取得したもの。\nTOEFL iBT：ETSからの公式成績証明書送付（DI Code：G314）と、Test Taker Score ReportのコピーまたはETSアカウント「Scores」から印刷した成績証明書の両方が必要。\n研究指導を希望する教員から、あらかじめ承認を受けた後、出願すること。在留資格「留学」を取得・更新できることが必須。",
+      "editorialNote": "私费外国人修士入试独立要项仅列专业笔试与口述试问，没有公布各课程详细科目、题数、考试时长或教材章号；本记录不套用一般9月入试的专业选答、共通数学／英语笔试及发表时限。语言成绩条件单独保存，英语未给统一最低分。只提取博士前期，博士后期的仅口述方式不适用于此记录。",
+      "sources": [
+        {
+          "label": "私費外国人：博士前期の筆記・口述と試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "第一次書類審査",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期の日本語・英語証明と有効期間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "修士募集コース・4月入学",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期資格・事前承認",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "aoyama-electrical-general-september-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "電気電子工学コース",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "博士前期課程（９月入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "共通科目：英語、数学。専門科目：筆記試験、口述試問。書類審査。",
+      "scopeOriginal": "共通科目：英語（長めの英文読解、英作文、イディオム、語彙力）。数学（線形代数、一変数及び二変数の微分・積分、微分方程式）。\n専門科目（筆記試験）：\n必須問題：電磁気学、電気回路の各１問。\n選択問題：電波工学、情報・通信工学、電気電子計測、電子回路、制御工学、ﾊﾟﾜｰｴﾚｸﾄﾛﾆｸｽ、高電圧工学、電気・電子物性学より３問選択。\n口述試問：大学院進学の目的、卒業研究の内容、大学院で取り組みたい研究の内容などに関する質疑応答を行います。",
+      "conditionsOriginal": "英語：10:00～11:30。数学：13:00～14:30。専門筆記試験：10:00～12:00。口述試問：14:00～。\n出願資格：外国において、学校教育における16年の課程を修了した者及び2027年3月修了見込みの者。研究指導を希望する教員から予め承認を受けた後、出願してください。",
+      "editorialNote": "电磁学、电气电路各1题必答，另从公布的8类科目中选3题；口述考查进学目的、毕业研究和拟开展研究。 共通英语为校内90分钟笔试，数学90分钟、专业笔试120分钟。一般9月入试已于2026年9月4–5日实施，适用2027年4月入学；符合官方海外学历资格者可报一般选拔。未公开更细教材章号。",
+      "sources": [
+        {
+          "label": "2027年度９月入試：専門筆記範囲・選答（実際14ページ）",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "共通英語・数学範囲と試験時間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "コース別口述試問",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "博士前期課程・募集コース・海外学歴出願資格",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年9月試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "aoyama-electrical-international-private-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "電気電子工学コース",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "博士前期課程 外国人留学生（私費）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "第一次審査：書類審査。第二次審査：筆記試験（専門科目）・口述試問。英語資格・検定試験のスコア。",
+      "conditionsOriginal": "第二次審査は第一次審査合格者のみ。試験日：2026年11月21日。\n日本語能力：日本語能力試験N1合格、または日本留学試験（日本語・記述を除く）240点以上。２年以内に取得したもの。\n英語資格・検定試験：TOEIC L&R、IELTS、TOEFL iBTから１種類。英語を母国語とする者のみ不要。２年以内に取得したもの。\nTOEFL iBT：ETSからの公式成績証明書送付（DI Code：G314）と、Test Taker Score ReportのコピーまたはETSアカウント「Scores」から印刷した成績証明書の両方が必要。\n研究指導を希望する教員から、あらかじめ承認を受けた後、出願すること。在留資格「留学」を取得・更新できることが必須。",
+      "editorialNote": "私费外国人修士入试独立要项仅列专业笔试与口述试问，没有公布各课程详细科目、题数、考试时长或教材章号；本记录不套用一般9月入试的专业选答、共通数学／英语笔试及发表时限。语言成绩条件单独保存，英语未给统一最低分。只提取博士前期，博士后期的仅口述方式不适用于此记录。",
+      "sources": [
+        {
+          "label": "私費外国人：博士前期の筆記・口述と試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "第一次書類審査",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期の日本語・英語証明と有効期間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "修士募集コース・4月入学",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期資格・事前承認",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "aoyama-mechanical-general-september-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "機械創造コース",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "博士前期課程（９月入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "共通科目：英語、数学。専門科目：筆記試験、口述試問。書類審査。",
+      "scopeOriginal": "共通科目：英語（長めの英文読解、英作文、イディオム、語彙力）。数学（線形代数、一変数及び二変数の微分・積分、微分方程式）。\n専門科目（筆記試験）：\n系ABCの中から一つの系の全ての問題を回答（括弧内は代表的科目名称）\n系A：材料力学系（材料、材料力学）\n系B：熱・流体系（熱力学、流体力学）\n系C：機械制御系（機械力学、制御工学）\n口述試問：受験者自身の卒業研究（または卒業製作など）に関する、プレゼンソフトを用いた発表を課します。発表時間は５分以内です。",
+      "conditionsOriginal": "英語：10:00～11:30。数学：13:00～14:30。専門筆記試験：10:00～12:00。口述試問：14:00～。\n出願資格：外国において、学校教育における16年の課程を修了した者及び2027年3月修了見込みの者。研究指導を希望する教員から予め承認を受けた後、出願してください。\n電卓（関数計算の機能を有するもので、式の記憶機能を持たないもの）を持参。",
+      "editorialNote": "必须选A、B、C中同一系的全部问题，不能跨系自行拼题。毕业研究／制作发表不超过5分钟。 共通英语为校内90分钟笔试，数学90分钟、专业笔试120分钟。一般9月入试已于2026年9月4–5日实施，适用2027年4月入学；符合官方海外学历资格者可报一般选拔。未公开更细教材章号。",
+      "sources": [
+        {
+          "label": "2027年度９月入試：専門筆記範囲・選答（実際14ページ）",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "共通英語・数学範囲と試験時間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "コース別口述試問",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "博士前期課程・募集コース・海外学歴出願資格",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年9月試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "aoyama-mechanical-international-private-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "機械創造コース",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "博士前期課程 外国人留学生（私費）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "第一次審査：書類審査。第二次審査：筆記試験（専門科目）・口述試問。英語資格・検定試験のスコア。",
+      "conditionsOriginal": "第二次審査は第一次審査合格者のみ。試験日：2026年11月21日。\n日本語能力：日本語能力試験N1合格、または日本留学試験（日本語・記述を除く）240点以上。２年以内に取得したもの。\n英語資格・検定試験：TOEIC L&R、IELTS、TOEFL iBTから１種類。英語を母国語とする者のみ不要。２年以内に取得したもの。\nTOEFL iBT：ETSからの公式成績証明書送付（DI Code：G314）と、Test Taker Score ReportのコピーまたはETSアカウント「Scores」から印刷した成績証明書の両方が必要。\n研究指導を希望する教員から、あらかじめ承認を受けた後、出願すること。在留資格「留学」を取得・更新できることが必須。",
+      "editorialNote": "私费外国人修士入试独立要项仅列专业笔试与口述试问，没有公布各课程详细科目、题数、考试时长或教材章号；本记录不套用一般9月入试的专业选答、共通数学／英语笔试及发表时限。语言成绩条件单独保存，英语未给统一最低分。只提取博士前期，博士后期的仅口述方式不适用于此记录。",
+      "sources": [
+        {
+          "label": "私費外国人：博士前期の筆記・口述と試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "第一次書類審査",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期の日本語・英語証明と有効期間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "修士募集コース・4月入学",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期資格・事前承認",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "aoyama-intelligent-information-general-september-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "知能情報コース",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "博士前期課程（９月入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "共通科目：英語、数学。専門科目：筆記試験、口述試問。書類審査。",
+      "scopeOriginal": "共通科目：英語（長めの英文読解、英作文、イディオム、語彙力）。数学（線形代数、一変数及び二変数の微分・積分、微分方程式）。\n専門科目（筆記試験）：\nネットワーク、ロボット工学、ヒューマンインタフェース、情報数学、数値計算法、ソフトウェア設計、データ構造とアルゴリズム、マルティメディア工学、デジタルメディア設計から２分野選択。\n口述試問：各自の研究内容に関する質疑応答などです。",
+      "conditionsOriginal": "英語：10:00～11:30。数学：13:00～14:30。専門筆記試験：10:00～12:00。口述試問：14:00～。\n出願資格：外国において、学校教育における16年の課程を修了した者及び2027年3月修了見込みの者。研究指導を希望する教員から予め承認を受けた後、出願してください。",
+      "editorialNote": "从官方列出的9个领域选2个；口述围绕本人研究内容。保留原文件的「マルティメディア」写法，不补造章节。 共通英语为校内90分钟笔试，数学90分钟、专业笔试120分钟。一般9月入试已于2026年9月4–5日实施，适用2027年4月入学；符合官方海外学历资格者可报一般选拔。未公开更细教材章号。",
+      "sources": [
+        {
+          "label": "2027年度９月入試：専門筆記範囲・選答（実際14ページ）",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "共通英語・数学範囲と試験時間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "コース別口述試問",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "博士前期課程・募集コース・海外学歴出願資格",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年9月試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "aoyama-intelligent-information-international-private-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "知能情報コース",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "博士前期課程 外国人留学生（私費）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "第一次審査：書類審査。第二次審査：筆記試験（専門科目）・口述試問。英語資格・検定試験のスコア。",
+      "conditionsOriginal": "第二次審査は第一次審査合格者のみ。試験日：2026年11月21日。\n日本語能力：日本語能力試験N1合格、または日本留学試験（日本語・記述を除く）240点以上。２年以内に取得したもの。\n英語資格・検定試験：TOEIC L&R、IELTS、TOEFL iBTから１種類。英語を母国語とする者のみ不要。２年以内に取得したもの。\nTOEFL iBT：ETSからの公式成績証明書送付（DI Code：G314）と、Test Taker Score ReportのコピーまたはETSアカウント「Scores」から印刷した成績証明書の両方が必要。\n研究指導を希望する教員から、あらかじめ承認を受けた後、出願すること。在留資格「留学」を取得・更新できることが必須。",
+      "editorialNote": "私费外国人修士入试独立要项仅列专业笔试与口述试问，没有公布各课程详细科目、题数、考试时长或教材章号；本记录不套用一般9月入试的专业选答、共通数学／英语笔试及发表时限。语言成绩条件单独保存，英语未给统一最低分。只提取博士前期，博士后期的仅口述方式不适用于此记录。",
+      "sources": [
+        {
+          "label": "私費外国人：博士前期の筆記・口述と試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "第一次書類審査",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期の日本語・英語証明と有効期間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "修士募集コース・4月入学",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期資格・事前承認",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "aoyama-management-technology-general-september-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "マネジメントテクノロジーコース",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "博士前期課程（９月入試）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "subjectsOriginal": "共通科目：英語、数学。専門科目：筆記試験、口述試問。書類審査。",
+      "scopeOriginal": "共通科目：英語（長めの英文読解、英作文、イディオム、語彙力）。数学（線形代数、一変数及び二変数の微分・積分、微分方程式）。\n専門科目（筆記試験）：\n３専門分野（データ分析技術、モデル化技術、最適化技術）の中から研究を希望する専門分野を含む２分野の問題を選択。\n口述試問：各自の研究内容に関する質疑応答などです。",
+      "conditionsOriginal": "英語：10:00～11:30。数学：13:00～14:30。専門筆記試験：10:00～12:00。口述試問：14:00～。\n出願資格：外国において、学校教育における16年の課程を修了した者及び2027年3月修了見込みの者。研究指導を希望する教員から予め承認を受けた後、出願してください。",
+      "editorialNote": "按数据分析、系统建模与优化的工程培养目标保留。3个领域选2个，必须包含希望研究的领域。 共通英语为校内90分钟笔试，数学90分钟、专业笔试120分钟。一般9月入试已于2026年9月4–5日实施，适用2027年4月入学；符合官方海外学历资格者可报一般选拔。未公开更细教材章号。",
+      "sources": [
+        {
+          "label": "2027年度９月入試：専門筆記範囲・選答（実際14ページ）",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "共通英語・数学範囲と試験時間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "コース別口述試問",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "博士前期課程・募集コース・海外学歴出願資格",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "2026年9月試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_riko_September-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "aoyama-management-technology-international-private-2027",
+      "universityId": "aoyama",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "course": "マネジメントテクノロジーコース",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "博士前期課程 外国人留学生（私費）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "subjectsOriginal": "第一次審査：書類審査。第二次審査：筆記試験（専門科目）・口述試問。英語資格・検定試験のスコア。",
+      "conditionsOriginal": "第二次審査は第一次審査合格者のみ。試験日：2026年11月21日。\n日本語能力：日本語能力試験N1合格、または日本留学試験（日本語・記述を除く）240点以上。２年以内に取得したもの。\n英語資格・検定試験：TOEIC L&R、IELTS、TOEFL iBTから１種類。英語を母国語とする者のみ不要。２年以内に取得したもの。\nTOEFL iBT：ETSからの公式成績証明書送付（DI Code：G314）と、Test Taker Score ReportのコピーまたはETSアカウント「Scores」から印刷した成績証明書の両方が必要。\n研究指導を希望する教員から、あらかじめ承認を受けた後、出願すること。在留資格「留学」を取得・更新できることが必須。",
+      "editorialNote": "私费外国人修士入试独立要项仅列专业笔试与口述试问，没有公布各课程详细科目、题数、考试时长或教材章号；本记录不套用一般9月入试的专业选答、共通数学／英语笔试及发表时限。语言成绩条件单独保存，英语未给统一最低分。只提取博士前期，博士后期的仅口述方式不适用于此记录。",
+      "sources": [
+        {
+          "label": "私費外国人：博士前期の筆記・口述と試験日",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "第一次書類審査",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "博士前期の日本語・英語証明と有効期間",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "修士募集コース・4月入学",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "博士前期資格・事前承認",
+          "url": "https://www.aoyama.ac.jp/wp-content/uploads/2026/07/2027_in_rikou_gairyuu_private.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "当年要項の公式配布入口",
+          "url": "https://www.aoyama.ac.jp/admission/graduate/request/",
+          "kind": "page"
+        }
+      ]
     }
   ]
 };
   if (typeof module !== 'undefined' && module.exports) module.exports = data;
   else root.EXAM_SCOPE_DATA = data;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
+
