@@ -206,6 +206,14 @@
         "Rikkyo",
         "立教大學"
       ]
+    },
+    {
+      "id": "chuo",
+      "name": "中央大学",
+      "aliases": [
+        "中大",
+        "Chuo University"
+      ]
     }
   ],
   "catalog": {
@@ -232,7 +240,7 @@
       ],
       "note": "京都大学：已添加工学研究科、理学研究科、情報学研究科、エネルギー科学研究科的2027年度修士资料，覆盖21个专攻及信息学七个课程，含国際霊長類学・野生動物コース。冬季外国人留学生入试目前只录入化学理工学／原子核工学已公布的变更预告，完整要项待公布；其他冬季特别选拔尚未收录。2028年度变更不混入2027年度范围。"
     },
-    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学与立教大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
+    "note": "已添加東京大学、京都大学、東京科学大学、早稲田大学、東京理科大学、大阪大学、東北大学、九州大学、北海道大学、慶應義塾大学、上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学与中央大学的修士及修士相关选拔资料。使用学校、研究科／学院／学府、专攻／系的官方全称，按选拔名称与适用年度查阅；一般选拔、留学生相关项目、一贯制、变更预告、待公布案内与募集停止分别标注。",
     "waseda": {
       "verifiedAt": "2026-10-04",
       "degree": "修士課程",
@@ -473,6 +481,15 @@
         "人工知能科学研究科"
       ],
       "note": "立教大学：按现有专业规则收录人工知能科学研究科／人工知能科学専攻2027年4月博士課程前期課程的一般入学試験（秋季実施分）1条。综合笔试120分钟，考查数学、统计学、逻辑思考、英语基础及解决未知问题的应用能力；仅能用日语作答，禁带计算器。书类审查含约2000日文字符的课题エッセイ，面试发表10分钟＋问答10分钟＋交替5分钟。符合官方海外学历资格者通过一般选拔申请，留学生栏目显示同一一般入口；没有另造独立外国人选拔。该轮2026年8–9月已实施，未录自己推荐、社会人、指定企业推荐、博士后期或排除专业；未公开细化教材章号，不以课程介绍或历年试题补写当年范围。"
+    },
+    "chuo": {
+      "verifiedAt": "2026-10-10",
+      "degree": "博士前期課程・修士課程",
+      "graduateSchools": [
+        "理工学研究科",
+        "国際情報研究科"
+      ],
+      "note": "中央大学：精密工学、电气电子信息通信工学、商业数据科学、信息工学，以及国際情報研究科的信息学受验入口。2027年4月一般8条、外国人4条待核验。夏／春、第2／3期分别保存；英语校内笔试与外部成绩、6选4及导师限定选科按要项保留。详细章目未公开核实时不推导；外国人PDF当前读取受阻，不移用一般范围。国際情報保留信息学与信息法交叉属性，不称独立工学课程。仅收录一般与外国人；夏季轮已结束。"
     }
   },
   "records": [
@@ -47522,6 +47539,515 @@
         {
           "label": "修士（人工知能科学）の正式学位",
           "url": "https://ai.rikkyo.ac.jp/about/index.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-precision-general-summer-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "精密工学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（夏季・博士前期課程）",
+      "subjectsOriginal": "専門：数学、力学（200点）。外国語：英語（100点、外部試験スコアで判定）。口述試験（100点）。",
+      "scopeOriginal": "数学、力学",
+      "conditionsOriginal": "TOEFL、TOEICの公式スコア、および本学で実施のTOEIC-IP（対面実施のみ）のスコアのいずれかで判定し、筆答試験は実施しない。\n専門：11:00～13:00（120分）。口述試験は筆答試験終了後（同日）、受験者全員に実施。\nスコアは入学試験実施日から過去5年以内に受験し、発行されたものを有効とします。TOEFL（iBT Special Home Edition、iBT Home Edition）、IELTS Onlineは提出不可。",
+      "editorialNote": "精密与机械工程方向。当年要项专业科目为数学、力学；官网2015年变更公告将两科列为必答，与当年200分专业卷一致。未找到2027年度更细章目，不能把旧制材料力学／控制工学选考写进现行科目。 夏季考试已结束；本条仅标2027年4月入学。符合要项海外学历资格者可通过一般选拔申请。",
+      "sources": [
+        {
+          "label": "2027年4月・2026年9月入学 一般要項：前期科目・時間・配点",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "前期課程・専攻構成・夏季／春季の実施対象",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "前期課程・海外学歴出願資格",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "前期英語方式・有効期間・不可スコア",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "当年一般要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science02/",
+          "kind": "page"
+        },
+        {
+          "label": "精密工学・専門科目変更公告（2015年公表、当年要項と併読）",
+          "url": "https://www.chuo-u.ac.jp/academics/graduateschool/news/2015/05/17504/?r=1",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-precision-international-2027-unverified",
+      "graduateSchool": "理工学研究科",
+      "department": "精密工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生入学試験（博士前期課程）",
+      "publicationStatus": "unverified",
+      "editorialNote": "2027年4月外国人留学生入试入口已公布，官网当年日程表确认本专攻实施。当前读取工具无法解析2027年4月募集PDF链接，专业科目、范围、选答及语言要求仍待核验。本条不填写推测科目，不移用一般入试或2026年9月仅都市人間環境学的外国人要项。",
+      "sources": [
+        {
+          "label": "2027年4月入学 外国人留学生要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science04/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年度公式日程表：前期外国人留学生実施専攻",
+          "url": "https://www.chuo-u.ac.jp/uploads/2026/02/academics_graduateschool_science_admission_schedule2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-electrical-general-summer-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（夏季・博士前期課程）",
+      "subjectsOriginal": "専門：電気電子情報通信工学（100点）。外国語：英語（100点、外部試験スコアで判定）。口述試験（100点）。",
+      "scopeOriginal": "電気電子情報通信工学",
+      "conditionsOriginal": "TOEFL、TOEIC、IELTSの公式スコア、および本学で実施のTOEIC-IP（対面実施のみ）のスコアのいずれかで判定し、筆答試験は実施しない。\n専門：11:00～13:00（120分）。口述試験は筆答試験終了後（同日）、受験者全員に実施。\nスコアは入学試験実施日から過去5年以内に受験し、発行されたものを有効とします。TOEFL（iBT Special Home Edition、iBT Home Edition）、IELTS Onlineは提出不可。",
+      "editorialNote": "电气、电子、信息通信方向。当年要项仅列专业科目名称，未公布可核验的详细分野、题数或选答规则；不从旧年真题或学部课程推导2027考纲。電気・情報系専攻为博士后期专攻，不混入修士。 夏季考试已结束；本条仅标2027年4月入学。符合要项海外学历资格者可通过一般选拔申请。",
+      "sources": [
+        {
+          "label": "2027年4月・2026年9月入学 一般要項：前期科目・時間・配点",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "前期課程・専攻構成・夏季／春季の実施対象",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "前期課程・海外学歴出願資格",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "前期英語方式・有効期間・不可スコア",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "当年一般要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science02/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-electrical-international-2027-unverified",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子情報通信工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生入学試験（博士前期課程）",
+      "publicationStatus": "unverified",
+      "editorialNote": "2027年4月外国人留学生入试入口已公布，官网当年日程表确认本专攻实施。当前读取工具无法解析2027年4月募集PDF链接，专业科目、范围、选答及语言要求仍待核验。本条不填写推测科目，不移用一般入试或2026年9月仅都市人間環境学的外国人要项。",
+      "sources": [
+        {
+          "label": "2027年4月入学 外国人留学生要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science04/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年度公式日程表：前期外国人留学生実施専攻",
+          "url": "https://www.chuo-u.ac.jp/uploads/2026/02/academics_graduateschool_science_admission_schedule2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-business-data-general-summer-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "ビジネスデータサイエンス専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（夏季・博士前期課程）",
+      "subjectsOriginal": "専門：数学、情報（６問中４問を選択、100点）。外国語：英語（100点、外部試験スコアで判定）。口述試験（100点）。",
+      "scopeOriginal": "数学、情報（６問中４問を選択）",
+      "conditionsOriginal": "TOEFL、TOEICの公式スコア、および本学で実施のTOEIC-IP（対面実施のみ）のスコアのいずれかで判定し、筆答試験は実施しない。\n専門：11:00～13:00（120分）。口述試験は筆答試験終了後（同日）、受験者全員に実施。\nスコアは入学試験実施日から過去5年以内に受験し、発行されたものを有効とします。TOEFL（iBT Special Home Edition、iBT Home Edition）、IELTS Onlineは提出不可。",
+      "editorialNote": "数据科学与信息方向。专业卷6题选4题；当年要项未列更细知识章目，不把培养目标或课程表当作笔试范围。 夏季考试已结束；本条仅标2027年4月入学。符合要项海外学历资格者可通过一般选拔申请。",
+      "sources": [
+        {
+          "label": "2027年4月・2026年9月入学 一般要項：前期科目・時間・配点",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "前期課程・専攻構成・夏季／春季の実施対象",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "前期課程・海外学歴出願資格",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "前期英語方式・有効期間・不可スコア",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "当年一般要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science02/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-business-data-general-spring-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "ビジネスデータサイエンス専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（春季・博士前期課程）",
+      "subjectsOriginal": "専門：数学、情報（６問中４問を選択、100点）。外国語：英語（100点、外部試験スコアで判定）。口述試験（100点）。",
+      "scopeOriginal": "数学、情報（６問中４問を選択）",
+      "conditionsOriginal": "TOEFL、TOEICの公式スコア、および本学で実施のTOEIC-IP（対面実施のみ）のスコアのいずれかで判定し、筆答試験は実施しない。\n専門：11:00～13:00（120分）。口述試験は筆答試験終了後（同日）、受験者全員に実施。\nスコアは入学試験実施日から過去5年以内に受験し、発行されたものを有効とします。TOEFL（iBT Special Home Edition、iBT Home Edition）、IELTS Onlineは提出不可。",
+      "editorialNote": "数据科学与信息方向。专业卷6题选4题；当年要项未列更细知识章目，不把培养目标或课程表当作笔试范围。 春季考试定于2027年2月1日；本条仅标2027年4月入学。符合要项海外学历资格者可通过一般选拔申请。",
+      "sources": [
+        {
+          "label": "2027年4月・2026年9月入学 一般要項：前期科目・時間・配点",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "前期課程・専攻構成・夏季／春季の実施対象",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "前期課程・海外学歴出願資格",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "前期英語方式・有効期間・不可スコア",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "当年一般要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science02/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-business-data-international-2027-unverified",
+      "graduateSchool": "理工学研究科",
+      "department": "ビジネスデータサイエンス専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生入学試験（博士前期課程）",
+      "publicationStatus": "unverified",
+      "editorialNote": "2027年4月外国人留学生入试入口已公布，官网当年日程表确认本专攻实施。当前读取工具无法解析2027年4月募集PDF链接，专业科目、范围、选答及语言要求仍待核验。本条不填写推测科目，不移用一般入试或2026年9月仅都市人間環境学的外国人要项。",
+      "sources": [
+        {
+          "label": "2027年4月入学 外国人留学生要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science04/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年度公式日程表：前期外国人留学生実施専攻",
+          "url": "https://www.chuo-u.ac.jp/uploads/2026/02/academics_graduateschool_science_admission_schedule2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-informatics-general-summer-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "情報工学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（夏季・博士前期課程）",
+      "subjectsOriginal": "専門：情報工学（150点）。外国語：英語（100点、筆答試験）。口述試験（100点）。",
+      "scopeOriginal": "情報工学",
+      "conditionsOriginal": "英語（2冊までの辞書利用可。ただし書籍に限る）。外国語で使用する辞書は電子辞書を除く（冊子体のみ）。\n専門：11:00～13:00（120分）。口述試験は筆答試験終了後（同日）、受験者全員に実施。\n外国語（英語）：9:00～10:30（90分）。",
+      "editorialNote": "信息工程方向。英语为校内90分钟笔试，可携带最多两本纸质辞书；不套用其他专攻的外部英语成绩替代方式。当年要项未细分专业知识范围与选答规则。 夏季考试已结束；本条仅标2027年4月入学。符合要项海外学历资格者可通过一般选拔申请。",
+      "sources": [
+        {
+          "label": "2027年4月・2026年9月入学 一般要項：前期科目・時間・配点",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "前期課程・専攻構成・夏季／春季の実施対象",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "前期課程・海外学歴出願資格",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "前期英語方式・有効期間・不可スコア",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "当年一般要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science02/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-informatics-general-spring-2027",
+      "graduateSchool": "理工学研究科",
+      "department": "情報工学専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（春季・博士前期課程）",
+      "subjectsOriginal": "専門：情報工学（150点）。外国語：英語（100点、筆答試験）。口述試験（100点）。",
+      "scopeOriginal": "情報工学",
+      "conditionsOriginal": "英語（2冊までの辞書利用可。ただし書籍に限る）。外国語で使用する辞書は電子辞書を除く（冊子体のみ）。\n専門：11:00～13:00（120分）。口述試験は筆答試験終了後（同日）、受験者全員に実施。\n外国語（英語）：9:00～10:30（90分）。",
+      "editorialNote": "信息工程方向。英语为校内90分钟笔试，可携带最多两本纸质辞书；不套用其他专攻的外部英语成绩替代方式。当年要项未细分专业知识范围与选答规则。 春季考试定于2027年2月1日；本条仅标2027年4月入学。符合要项海外学历资格者可通过一般选拔申请。",
+      "sources": [
+        {
+          "label": "2027年4月・2026年9月入学 一般要項：前期科目・時間・配点",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "前期課程・専攻構成・夏季／春季の実施対象",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "前期課程・海外学歴出願資格",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "前期英語方式・有効期間・不可スコア",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/science/science02/science02_01_20260515.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "当年一般要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science02/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-informatics-international-2027-unverified",
+      "graduateSchool": "理工学研究科",
+      "department": "情報工学専攻",
+      "admissionType": "international",
+      "selectionName": "外国人留学生入学試験（博士前期課程）",
+      "publicationStatus": "unverified",
+      "editorialNote": "2027年4月外国人留学生入试入口已公布，官网当年日程表确认本专攻实施。当前读取工具无法解析2027年4月募集PDF链接，专业科目、范围、选答及语言要求仍待核验。本条不填写推测科目，不移用一般入试或2026年9月仅都市人間環境学的外国人要项。",
+      "sources": [
+        {
+          "label": "2027年4月入学 外国人留学生要項の公式配布入口",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/science/science04/",
+          "kind": "page"
+        },
+        {
+          "label": "2027年度公式日程表：前期外国人留学生実施専攻",
+          "url": "https://www.chuo-u.ac.jp/uploads/2026/02/academics_graduateschool_science_admission_schedule2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-global-informatics-general-ii-2027",
+      "graduateSchool": "国際情報研究科",
+      "department": "国際情報専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（第２期）",
+      "subjectsOriginal": "専門（100点）、英語（100点、所定の英語能力に関する証明書類）、口述試験。",
+      "scopeOriginal": "理論情報学、実践情報学、情報法、メディア論のうち１科目を選択。\n希望指導教員により選択できる科目が異なります。",
+      "conditionsOriginal": "専門：１０：００～１１：３０（９０分）。参照物持込一切不可。\n英語：本学における個別試験は実施しません。所定の英語能力に関する証明書類（出願締切日時点２年以内の受験・取得有効）を提出。\nTOEFL iBT、IELTS（アカデミック・モジュール）、英検（実用英語技能検定試験）、TOEIC（Listening & Reading Test、IPテストを除く）。\n外国籍の者：日本語能力試験N1の合格または日本留学試験の日本語（記述を除く）の合計点数が260点以上。日本の大学・大学院を修了（見込み）している者および出願時に日本政府（文部科学省）奨学金留学生の者は任意。",
+      "editorialNote": "信息学与信息法交叉的正式修士专攻，保留可选择理論情報学／実践情報学的技术入口；不虚构独立信息工学课程。为完整保留选1关系，科目原文同时展示该专攻的四个选项，具体可选科目按希望导师对照表确认。要项将题型与范围指向官网公开真题，未提供章目表，不据真题推定未来范围。第2期已于2026年7月25日实施。 外国籍符合出愿资格者参加同一一般入试，没有独立外国人考试记录。",
+      "sources": [
+        {
+          "label": "2027年度要項：専門科目・英語・時間・配点",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "希望指導教員・専門科目対照表／口述試験",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "当年日程・一般入試出願資格",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "英語証明書類・日本語能力条件",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Q&A：外国籍者の一般入試受験",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "国際情報研究科 当年要項・公式過去問題",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/itl/",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "universityId": "chuo",
+      "degreeProgram": "master",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-10",
+      "originalLanguage": "ja",
+      "id": "chuo-global-informatics-general-iii-2027",
+      "graduateSchool": "国際情報研究科",
+      "department": "国際情報専攻",
+      "admissionType": "general",
+      "internationalGeneral": true,
+      "selectionName": "一般入学試験（第３期）",
+      "subjectsOriginal": "専門（100点）、英語（100点、所定の英語能力に関する証明書類）、口述試験。",
+      "scopeOriginal": "理論情報学、実践情報学、情報法、メディア論のうち１科目を選択。\n希望指導教員により選択できる科目が異なります。",
+      "conditionsOriginal": "専門：１０：００～１１：３０（９０分）。参照物持込一切不可。\n英語：本学における個別試験は実施しません。所定の英語能力に関する証明書類（出願締切日時点２年以内の受験・取得有効）を提出。\nTOEFL iBT、IELTS（アカデミック・モジュール）、英検（実用英語技能検定試験）、TOEIC（Listening & Reading Test、IPテストを除く）。\n外国籍の者：日本語能力試験N1の合格または日本留学試験の日本語（記述を除く）の合計点数が260点以上。日本の大学・大学院を修了（見込み）している者および出願時に日本政府（文部科学省）奨学金留学生の者は任意。",
+      "editorialNote": "信息学与信息法交叉的正式修士专攻，保留可选择理論情報学／実践情報学的技术入口；不虚构独立信息工学课程。为完整保留选1关系，科目原文同时展示该专攻的四个选项，具体可选科目按希望导师对照表确认。要项将题型与范围指向官网公开真题，未提供章目表，不据真题推定未来范围。第3期笔试为2027年1月30日，口述可能延至次日。 外国籍符合出愿资格者参加同一一般入试，没有独立外国人考试记录。",
+      "sources": [
+        {
+          "label": "2027年度要項：専門科目・英語・時間・配点",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "希望指導教員・専門科目対照表／口述試験",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "当年日程・一般入試出願資格",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "英語証明書類・日本語能力条件",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Q&A：外国籍者の一般入試受験",
+          "url": "https://www.chuo-u.ac.jp/media/admission/gschool/exam/itl/itl2027-01_01_20260430.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "国際情報研究科 当年要項・公式過去問題",
+          "url": "https://www.chuo-u.ac.jp/admission/gschool/exam/itl/",
           "kind": "page"
         }
       ]
