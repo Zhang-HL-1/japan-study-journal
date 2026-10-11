@@ -22,7 +22,7 @@
     }catch{return null;}
   }
   function validPaper(p,universities){
-    return !!(p&&typeof p.id==='string'&&p.id.trim()&&universities.some(u=>u.id===p.universityId)&&['title','graduateSchool','selectionName'].every(k=>typeof p[k]==='string'&&p[k].trim())&&Number.isInteger(yearOf(p))&&yearOf(p)>=1900&&yearOf(p)<=2200&&Array.isArray(p.files)&&p.files.length&&p.files.every(f=>f&&typeof f.label==='string'&&f.label.trim()&&['question','answer','other'].includes(f.kind)&&fileURL(f))&&(p.subjects===undefined||Array.isArray(p.subjects)&&p.subjects.every(s=>typeof s==='string')));
+    return !!(p&&typeof p.id==='string'&&p.id.trim()&&universities.some(u=>u.id===p.universityId)&&['title','graduateSchool','selectionName'].every(k=>typeof p[k]==='string'&&p[k].trim())&&Number.isInteger(yearOf(p))&&yearOf(p)>=1900&&yearOf(p)<=2200&&Array.isArray(p.files)&&p.files.length&&p.files.every(f=>f&&typeof f.label==='string'&&f.label.trim()&&['question','answer','other'].includes(f.kind)&&fileURL(f))&&(p.subjects===undefined||Array.isArray(p.subjects)&&p.subjects.every(s=>typeof s==='string'))&&(p.examDates===undefined||Array.isArray(p.examDates)&&p.examDates.every(d=>typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d))));
   }
   function schools(universities,query){const terms=normalize(query).split(' ').filter(Boolean);return universities.filter(u=>{const text=normalize([u.name,...(u.aliases||[])].join(' '));return terms.every(t=>text.includes(t));});}
   function filter(papers,universities,state){
@@ -30,7 +30,7 @@
     return papers.filter(p=>{
       if(state.school!=='all'&&p.universityId!==state.school||state.graduate!=='all'&&p.graduateSchool!==state.graduate||state.department&&state.department!=='all'&&p.department!==state.department||state.year!=='all'&&String(yearOf(p))!==state.year)return false;
       const school=universities.find(u=>u.id===p.universityId);
-      const text=normalize([school?.name,...(school?.aliases||[]),p.title,p.graduateSchool,p.department,p.selectionName,yearOf(p),p.originalYear,...(p.subjects||[])].join(' '));return terms.every(t=>text.includes(t));
+      const text=normalize([school?.name,...(school?.aliases||[]),p.title,p.graduateSchool,p.department,p.selectionName,yearOf(p),p.originalYear,...(p.examDates||[]),...(p.subjects||[])].join(' '));return terms.every(t=>text.includes(t));
     }).sort((a,b)=>yearOf(b)-yearOf(a)||a.title.localeCompare(b.title,'ja'));
   }
   const api={normalize,fileURL,validPaper,schools,filter,yearOf};

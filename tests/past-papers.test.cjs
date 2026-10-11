@@ -3,12 +3,27 @@ const core=require('../past-papers-core.js'),catalog=require('../campus-map-data
 const all={school:'all',graduate:'all',year:'all',query:''};
 // Synthetic metadata tests only; these are not past questions and never enter the production catalog.
 const sample=(changes={})=>({id:'test-paper-1',universityId:'utokyo',title:'Test metadata',graduateSchool:'工学系研究科',department:'テスト専攻',selectionName:'テスト選抜',examYear:2025,subjects:['電気回路'],files:[{label:'問題',kind:'question',url:'assets/past-papers/test-only.pdf'}],...changes});
-test('production publishes only Waseda originals while the quiz bank stays empty',()=>{assert.equal(production.version,2);assert.equal(production.papers.length,35);for(const p of production.papers){assert.equal(p.universityId,'waseda');assert.ok(core.validPaper(p,catalog.universities));}assert.equal(new Set(production.papers.flatMap(p=>p.files.map(f=>f.url))).size,41);assert.deepEqual(require('../questions.js'),[]);assert.equal(catalog.universities.length,23);});
+test('production publishes Waseda and TUS originals while the quiz bank stays empty',()=>{assert.equal(production.version,2);assert.equal(production.papers.length,96);for(const p of production.papers){assert.ok(['waseda','tus'].includes(p.universityId));assert.ok(core.validPaper(p,catalog.universities));}assert.equal(new Set(production.papers.flatMap(p=>p.files.map(f=>f.url))).size,162);assert.deepEqual(require('../questions.js'),[]);assert.equal(catalog.universities.length,23);});
 test('past-paper metadata requires known universities, valid years and actual document entries',()=>{
  assert.equal(core.validPaper(sample(),catalog.universities),true);
- for(const changes of [{id:''},{universityId:'unknown'},{title:''},{graduateSchool:''},{selectionName:''},{examYear:'2025'},{examYear:0},{files:[]},{files:[{label:'問題',kind:'question',url:'javascript:alert(1)'}]},{subjects:'電気回路'}])assert.equal(core.validPaper(sample(changes),catalog.universities),false);
+ for(const changes of [{id:''},{universityId:'unknown'},{title:''},{graduateSchool:''},{selectionName:''},{examYear:'2025'},{examYear:0},{files:[]},{files:[{label:'問題',kind:'question',url:'javascript:alert(1)'}]},{subjects:'電気回路'},{examDates:'2025-01-07'},{examDates:['2025']}])assert.equal(core.validPaper(sample(changes),catalog.universities),false);
  // Historical graduate-school names are allowed; existing campus labels must not rewrite an old paper.
  assert.equal(core.validPaper(sample({graduateSchool:'旧研究科名'}),catalog.universities),true);
+});
+test('TUS preserves source PDFs and distinguishes academic years, actual dates and handwritten references',()=>{
+ const crypto=require('node:crypto'),manifest=require('../assets/past-papers/tus-import-manifest.json'),papers=production.papers.filter(p=>p.universityId==='tus');
+ assert.equal(papers.length,61);assert.equal(manifest.sourceFiles,148);assert.equal(manifest.duplicateByteCopies,27);assert.equal(manifest.files.length,121);assert.equal(manifest.excluded.length,165);
+ assert.equal(new Set(papers.map(p=>p.department)).size,11);assert.equal(new Set(production.papers.map(p=>p.id)).size,production.papers.length);
+ for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);}
+ for(const p of papers){assert.equal(p.yearBasis,'academic');assert.ok(p.examDates.length);for(const date of p.examDates){assert.match(date,/^\d{4}-\d{2}-\d{2}$/);assert.equal(p.examYear,Number(date.slice(0,4)));}for(const f of p.files){assert.ok(f.startPage<=f.pages);if(f.kind==='answer'){assert.equal(f.answerProvenance,'unofficial-handwritten');assert.match(f.label,/非官方/);}}}
+ const general=papers.find(p=>p.department==='電気工学専攻'&&p.paperYear===2023);assert.deepEqual(general.examDates,['2022-07-22']);assert.equal(core.yearOf(general),2023);
+ const foreign=papers.find(p=>p.department==='電気電子情報工学専攻'&&p.paperYear===2024&&p.selectionName.includes('外国人'));assert.deepEqual(foreign.examDates,['2024-01-10']);
+ const h=papers.find(p=>p.paperYear===2004);assert.match(h.originalYear,/平成16/);assert.deepEqual(h.examDates,['2003-08-01']);assert.equal(h.files.find(f=>f.kind==='question').startPage,2);
+ const p2021=papers.find(p=>p.paperYear===2021);assert.deepEqual(p2021.examDates,['2020-07-23']);assert.ok(p2021.files.some(f=>f.originalName==='2020年夏入.pdf'));assert.equal(p2021.yearEvidence,'cover');assert.ok(!papers.some(p=>p.paperYear===2020));
+ const correction=papers.find(p=>p.department==='情報計算科学専攻'&&p.paperYear===2024&&p.selectionName.includes('一般'));assert.equal(correction.files.find(f=>f.kind==='question').startPage,2);assert.equal(correction.files.find(f=>f.kind==='other').startPage,1);
+ assert.equal(core.filter(papers,catalog.universities,{...all,school:'tus',query:'2024-01-10'}).length,3);
+ assert.deepEqual(core.schools(catalog.universities,'东理').map(u=>u.id),['tus']);
+ assert.ok(!papers.some(p=>/建築|社会基盤|国際火災|工業化学|数理科学|先端物理/.test(p.department)));
 });
 test('PDF links accept official university hosts and contained local files, preserving page anchors',()=>{
  assert.equal(core.fileURL({url:'assets/past-papers/2025/電気回路.pdf',startPage:3}),'assets/past-papers/2025/%E9%9B%BB%E6%B0%97%E5%9B%9E%E8%B7%AF.pdf#page=3');
@@ -38,9 +53,9 @@ test('room provides two peer entry cards, an independent PDF library, and existi
 
 
 test('Waseda preserves PDF bytes, original years and historical department names',()=>{
- const crypto=require('node:crypto'),manifest=require('../assets/past-papers/waseda-import-manifest.json');assert.equal(manifest.files.length,41);assert.equal(manifest.excluded.length,8);assert.equal(new Set(production.papers.map(p=>p.id)).size,35);
+ const papers=production.papers.filter(p=>p.universityId==='waseda');const crypto=require('node:crypto'),manifest=require('../assets/past-papers/waseda-import-manifest.json');assert.equal(manifest.files.length,41);assert.equal(manifest.excluded.length,8);assert.equal(new Set(papers.map(p=>p.id)).size,35);assert.equal(crypto.createHash('sha256').update(JSON.stringify(papers)).digest('hex'),'b30cc064bcffd216c4bea1ec55e082e3b07d6fc47865f1fa6ac3d055b2d45adc');
  for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);}
- for(const p of production.papers){assert.equal(p.yearBasis,'academic');assert.equal(p.examYear,undefined);assert.deepEqual(p.admissionYears,[p.paperYear,p.paperYear+1]);for(const f of p.files)assert.ok(f.startPage<=f.pages);}
- const ep=production.papers.filter(p=>p.department==='電子物理システム学専攻');assert.equal(ep.length,11);assert.ok(ep.some(p=>p.paperYear===2014));assert.ok(ep.some(p=>p.paperYear===2015));assert.ok(production.papers.some(p=>p.department==='経営デザイン専攻'&&p.paperYear===2023));
- const all={school:'all',graduate:'all',department:'all',year:'all',query:''};assert.equal(core.filter(production.papers,catalog.universities,{...all,department:'電子物理システム学専攻',year:'2014'}).length,1);
+ for(const p of papers){assert.equal(p.yearBasis,'academic');assert.equal(p.examYear,undefined);assert.deepEqual(p.admissionYears,[p.paperYear,p.paperYear+1]);for(const f of p.files)assert.ok(f.startPage<=f.pages);}
+ const ep=papers.filter(p=>p.department==='電子物理システム学専攻');assert.equal(ep.length,11);assert.ok(ep.some(p=>p.paperYear===2014));assert.ok(ep.some(p=>p.paperYear===2015));assert.ok(papers.some(p=>p.department==='経営デザイン専攻'&&p.paperYear===2023));
+ const all={school:'all',graduate:'all',department:'all',year:'all',query:''};assert.equal(core.filter(papers,catalog.universities,{...all,department:'電子物理システム学専攻',year:'2014'}).length,1);
 });

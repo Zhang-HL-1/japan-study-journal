@@ -36,7 +36,8 @@
   function openPaper(p){
     selected=p.id;const detail=get('paper-detail');detail.hidden=false;
     detail.replaceChildren(el('p',`${schoolName(p.universityId)} · ${core.yearOf(p)}年`),el('h3',p.title),el('p',[p.graduateSchool,p.department,p.selectionName].filter(Boolean).join(' / ')));
-    if(p.originalYear)detail.append(el('p','卷面入学年度：'+p.originalYear));
+    if(p.originalYear)detail.append(el('p',(p.yearEvidence==='source-directory'?'原目录年度：':'原卷入学年度：')+p.originalYear));
+    if(p.examDates?.length)detail.append(el('p','实际考试日期：'+p.examDates.join('、')));
     if(p.subjects?.length)detail.append(el('p','考试科目：'+p.subjects.join('、')));
     const files=el('div',undefined,'paper-files'),reader=el('div',undefined,'paper-reader');
     function read(file,index){
