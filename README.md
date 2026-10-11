@@ -6,10 +6,13 @@
 
 ## 📖 [点击进入考试科目与范围](https://zhang-hl-1.github.io/japan-study-journal/exam-scope.html)
 
+## 🗺️ [点击进入大学院地图](https://zhang-hl-1.github.io/japan-study-journal/campus-map.html)
+
 一个用于记录日本留学项目、学习过程与经验的个人网站。
 
 ## 当前内容
 
+- 大学院地图：23所大学、55处实际教学研究校区／研究基地，可缩放、拖动及双指缩放，按学校、研究科和地区筛选，附官网依据与考试范围跳转
 - 留学项目
 - 学习记录
 - 经验手记
@@ -122,3 +125,5 @@
 明治大学续查（2026-10-10）：官网及当年理工／先端数理募集PDF与已核验版本一致，6专攻24条科目与范围保留。补充[理工官网](https://www.meiji.ac.jp/sst/grad/examination/)今年取消考试当天交英语成绩；补充[先端数理入试官网](https://www.meiji.ac.jp/ams/exam/masterdoctor.html)TOEFL ETS直送「期限内必着」。AMS PDF实际11页日程表标「日付印有効」，但[配布官网](https://www.meiji.ac.jp/ams/exam/MDMix.html)要求逾期到达不认，记录保留这一来源差异并提示按到校期限提前安排，不将邮戳或直送申请日等同到校日。只补充明治提交条件、中文说明与来源，全部学校的科目、范围、选拔、入学年月和资料条数不变；其他17校完整保留。
 
 
+
+地图数据与底图来源说明见 [docs/campus-map-data.md](docs/campus-map-data.md)。地图校区为约略代表点，部分导师研究基地单独说明。

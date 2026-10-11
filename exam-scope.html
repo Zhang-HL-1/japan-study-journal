@@ -7,13 +7,13 @@
     <meta name="theme-color" content="#faf9f5" />
     <title>考试科目与范围｜留日手记</title>
 <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="exam-scope.css?v=20261010-chiba" />
+    <link rel="stylesheet" href="exam-scope.css?v=20261011-map" />
     <link rel="stylesheet" href="editorial.css?v=20261005-align" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E" />
-    <script src="exam-scope-data.js?v=20261010-chiba" defer></script>
-    <script src="exam-scope-subjects.js?v=20261010-chiba" defer></script>
-    <script src="exam-scope-core.js?v=20261010-chiba" defer></script>
-    <script src="exam-scope.js?v=20261010-chiba" defer></script>
+    <script src="exam-scope-data.js?v=20261011-map" defer></script>
+    <script src="exam-scope-subjects.js?v=20261011-map" defer></script>
+    <script src="exam-scope-core.js?v=20261011-map" defer></script>
+    <script src="exam-scope.js?v=20261011-map" defer></script>
     <script src="script.js?v=20261005-align" defer></script>
   </head>
   <body>
@@ -21,11 +21,13 @@
     <header class="site-header">
       <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
       <nav class="main-nav" aria-label="主要导航">
-        <a href="index.html">首页</a><a class="is-active" aria-current="page" href="exam-scope.html">考试科目与范围</a><a href="practice.html">修考练习</a>
+        <a href="index.html">首页</a><a class="is-active" aria-current="page" href="exam-scope.html">考试科目与范围</a><a href="campus-map.html">大学院地图</a>
+        <a href="practice.html">修考练习</a>
       </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">打开导航</span><span></span><span></span></button>
     </header>
-    <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden><a href="index.html">首页</a><a href="exam-scope.html" aria-current="page">考试科目与范围</a><a href="practice.html">修考练习</a></nav>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden><a href="index.html">首页</a><a href="exam-scope.html" aria-current="page">考试科目与范围</a><a href="campus-map.html">大学院地图</a>
+        <a href="practice.html">修考练习</a></nav>
     <main class="scope-main">
       <section class="scope-hero" aria-labelledby="scope-title">
         <div class="scope-hero-copy">
@@ -52,6 +54,7 @@
         </section>
         <div class="scope-layout">
           <aside class="scope-filters" aria-label="考试资料筛选">
+            <a class="scope-jump" id="scope-map-link" href="campus-map.html">查看大学院校区地图 ↗</a>
             <div class="scope-filter-heading"><h3>筛选资料</h3><button class="scope-plain" id="scope-reset" type="button">重置</button></div>
             <fieldset class="admission-switch"><legend>入试类型</legend><div><button type="button" data-admission="general" aria-pressed="true">一般入试</button><button type="button" data-admission="international" aria-pressed="false">留学生入试</button></div></fieldset>
             <p class="scope-filter-note">留学生栏目包含外国人特别选考、英语项目及有海外学历出愿资格的一般选拔，均标明学校实际选拔名称。</p>

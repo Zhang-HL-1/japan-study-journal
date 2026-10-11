@@ -18,6 +18,18 @@
     get('scope-data-error').hidden = false;
   }
   const state = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '', subjectIds: [] };
+  // Map links select only known catalog values; admission defaults remain unchanged.
+  if (window.location?.search) {
+    const params = new URL('https://local.invalid/' + window.location.search).searchParams;
+    const school = params.get('school'), graduate = params.get('graduate'), department = params.get('department');
+    if (universities.some(u => u.id === school)) {
+      state.universityId = school;
+      if (records.some(r => r.universityId === school && r.graduateSchool === graduate)) {
+        state.graduateSchool = graduate;
+        if (records.some(r => r.universityId === school && r.graduateSchool === graduate && r.department === department)) state.department = department;
+      }
+    }
+  }
   let selectedId = null;
   function element(tag, text, className) {
     const node = document.createElement(tag);
@@ -146,6 +158,13 @@
   }
   function render() {
     updateOptions();
+    const mapLink = get('scope-map-link');
+    if (mapLink) {
+      const url = new URL('https://local.invalid/campus-map.html');
+      if (state.universityId !== 'all') url.searchParams.set('school', state.universityId);
+      if (state.graduateSchool !== 'all') url.searchParams.set('graduate', state.graduateSchool);
+      mapLink.href = 'campus-map.html' + url.search;
+    }
     updateSubjects();
     const guides = data.catalog?.[state.universityId]?.directionGuides || [];
     get('scope-directions').hidden = !guides.length;
