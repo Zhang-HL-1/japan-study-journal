@@ -30,7 +30,7 @@ class Element {
   }
 }
 function boot(bank=fixtures,storageValue=null,blockStorage=false) {
-  const html=fs.readFileSync(path.join(root,'practice.html'),'utf8'); const ids={};
+  const html=fs.readFileSync(path.join(root,'drill.html'),'utf8'); const ids={};
   for(const m of html.matchAll(/<([a-z][a-z0-9]*)\b([^>]*\bid="([^"]+)"[^>]*)>/g)) { const el=new Element(m[1]); el.id=m[3]; el.hidden=/\bhidden\b/.test(m[2]); ids[el.id]=el; }
   for(const m of html.matchAll(/<select id="([^"]+)"[^>]*>([\s\S]*?)<\/select>/g)) {
     for(const o of m[2].matchAll(/<option(?: value="([^"]+)")?>([^<]*)<\/option>/g)) { const el=new Element('option'); el.value=o[1]||o[2];el.textContent=o[2]; ids[m[1]].append(el); }
@@ -100,7 +100,7 @@ test('corrupted existing storage is not overwritten; blocked saving is surfaced'
   const b=boot([],null,true);assert.match(b.ids['storage-status'].textContent,/无法保存/);
 });
 test('all local page assets and navigation destinations exist; IDs are unique',()=>{
-  for(const name of ['index.html','practice.html']) {
+  for(const name of ['index.html','practice.html','drill.html','past-papers.html']) {
     const html=fs.readFileSync(path.join(root,name),'utf8'); const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length);
     for(const m of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {if(/^(?:https?:|data:|#)/.test(m[1]))continue;assert.ok(fs.existsSync(path.join(root,m[1].split(/[?#]/)[0])),m[1]);}
   }

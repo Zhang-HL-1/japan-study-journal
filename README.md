@@ -2,7 +2,7 @@
 
 ## 🌐 [点击进入日本修考网站](https://zhang-hl-1.github.io/japan-study-journal/)
 
-## ✍️ [点击进入修考刷题练习室](https://zhang-hl-1.github.io/japan-study-journal/practice.html)
+## ✍️ [点击进入练习室（过去问题库／刷题）](https://zhang-hl-1.github.io/japan-study-journal/practice.html)
 
 ## 📖 [点击进入考试科目与范围](https://zhang-hl-1.github.io/japan-study-journal/exam-scope.html)
 
@@ -16,7 +16,7 @@
 - 留学项目
 - 学习记录
 - 经验手记
-- 修考练习室：分类刷题、自动判题、解答题自评、答案解析、错题本、收藏、学习笔记与记录备份
+- 练习室：过去问题库与刷题练习两个并列入口；原卷按大学、研究科和考试年份筛选与阅读，刷题保留自动判题、自评、错题、收藏、笔记与记录备份
 - 考试科目与范围：按学校、研究科、专攻和年度筛选，一般入试与留学生入试分别展示，附官方原文阅读入口
 
 文章与项目栏目仍是首版框架。刷题功能框架已就绪，按用户要求暂不预置题目，等待接入用户提供的题库。
@@ -127,3 +127,9 @@
 
 
 地图数据与底图来源说明见 [docs/campus-map-data.md](docs/campus-map-data.md)。地图校区为约略代表点，部分导师研究基地单独说明。
+
+## 过去问题库与刷题入口
+
+- [过去问题库](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html)：现有23所大学的学校索引；真题暂不添加。
+- [刷题练习](https://zhang-hl-1.github.io/japan-study-journal/drill.html)：原有刷题功能与浏览器学习记录继续使用。
+- 原卷添加格式、PDF存放位置和模块说明见 [docs/study-room.md](docs/study-room.md)。过去问目录位于 `past-papers-data.js`，独立于 `questions.js`，目前两者均为空。
