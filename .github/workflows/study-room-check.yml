@@ -15,7 +15,7 @@ on:
       - 'questions.js'
       - 'practice*.js'
       - 'assets/past-papers*'
-      - 'assets/drill-practice.svg'
+      - 'assets/drill-practice*'
       - 'tests/**'
       - '.github/workflows/study-room-check.yml'
 
