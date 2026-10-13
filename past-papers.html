@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="按大学、研究科和原卷年份查阅日本大学院过去问原卷。支持按研究科、专攻和原卷年份筛选，在线阅读与下载完整PDF。" />
+  <meta name="description" content="按大学、研究科和原卷年份查阅日本大学院过去问。支持在线阅读与下载PDF，历史部分资料明确标注覆盖范围。" />
   <meta name="theme-color" content="#faf9f5" />
   <title>过去问题库｜练习室 · 留日手记</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="editorial.css" />
   <link rel="stylesheet" href="study-room.css?v=20261011-tus" />
   <script src="campus-map-data.js?v=20261011" defer></script>
-  <script src="past-papers-data.js?v=20261011-tus" defer></script>
+  <script src="past-papers-data.js?v=20261013-science-tokyo" defer></script>
   <script src="past-papers-core.js?v=20261011-tus" defer></script>
-  <script src="past-papers.js?v=20261011-tus" defer></script>
+  <script src="past-papers.js?v=20261013-science-tokyo" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -38,6 +38,7 @@
           <label class="paper-keyword-label">关键词<input id="paper-query" type="search" placeholder="专攻、科目、试卷名称" maxlength="100" autocomplete="off" /></label>
         </form>
         <p id="paper-results-count" class="papers-footnote" role="status" aria-live="polite">真题尚未添加。</p>
+        <div id="paper-school-note" class="papers-footnote" hidden></div>
         <div class="paper-results" id="paper-results" role="group" aria-label="真题列表"></div>
         <section class="paper-empty" id="paper-empty" aria-labelledby="paper-empty-title">
           <img src="assets/past-papers-ink.webp" width="1240" height="564" alt="" aria-hidden="true" />
@@ -45,7 +46,7 @@
           <div class="paper-empty-actions"><a href="drill.html">去刷题练习 ↗</a><a href="exam-scope.html" id="paper-scope-link">查考试科目与范围 →</a></div>
         </section>
         <section class="paper-detail" id="paper-detail" aria-label="真题阅读区" tabindex="-1" hidden></section>
-        <p class="papers-footnote">这里保存整份过去问原卷；按知识点练习、错题与笔记，请进入刷题练习。</p>
+        <p class="papers-footnote">这里保存过去问原卷，历史部分资料在标题和说明中标注；按知识点练习、错题与笔记，请进入刷题练习。</p>
       </section>
     </div>
     <noscript><p class="paper-error">请开启JavaScript使用学校索引与真题阅读区。你可以<a href="practice.html">返回练习室</a>。</p></noscript>

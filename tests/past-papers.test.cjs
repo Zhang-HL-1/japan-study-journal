@@ -3,12 +3,28 @@ const core=require('../past-papers-core.js'),catalog=require('../campus-map-data
 const all={school:'all',graduate:'all',year:'all',query:''};
 // Synthetic metadata tests only; these are not past questions and never enter the production catalog.
 const sample=(changes={})=>({id:'test-paper-1',universityId:'utokyo',title:'Test metadata',graduateSchool:'工学系研究科',department:'テスト専攻',selectionName:'テスト選抜',examYear:2025,subjects:['電気回路'],files:[{label:'問題',kind:'question',url:'assets/past-papers/test-only.pdf'}],...changes});
-test('production publishes Waseda and TUS originals while the quiz bank stays empty',()=>{assert.equal(production.version,2);assert.equal(production.papers.length,96);for(const p of production.papers){assert.ok(['waseda','tus'].includes(p.universityId));assert.ok(core.validPaper(p,catalog.universities));}assert.equal(new Set(production.papers.flatMap(p=>p.files.map(f=>f.url))).size,162);assert.deepEqual(require('../questions.js'),[]);assert.equal(catalog.universities.length,23);});
+test('production publishes Waseda, TUS and Science Tokyo originals while the quiz bank stays empty',()=>{assert.equal(production.version,2);assert.equal(production.papers.length,129);for(const p of production.papers){assert.ok(['waseda','tus','science-tokyo'].includes(p.universityId));assert.ok(core.validPaper(p,catalog.universities));}assert.equal(new Set(production.papers.flatMap(p=>p.files.map(f=>f.url))).size,211);assert.deepEqual(require('../questions.js'),[]);assert.equal(catalog.universities.length,23);});
 test('past-paper metadata requires known universities, valid years and actual document entries',()=>{
  assert.equal(core.validPaper(sample(),catalog.universities),true);
  for(const changes of [{id:''},{universityId:'unknown'},{title:''},{graduateSchool:''},{selectionName:''},{examYear:'2025'},{examYear:0},{files:[]},{files:[{label:'問題',kind:'question',url:'javascript:alert(1)'}]},{subjects:'電気回路'},{examDates:'2025-01-07'},{examDates:['2025']}])assert.equal(core.validPaper(sample(changes),catalog.universities),false);
  // Historical graduate-school names are allowed; existing campus labels must not rewrite an old paper.
  assert.equal(core.validPaper(sample({graduateSchool:'旧研究科名'}),catalog.universities),true);
+});
+test('Science Tokyo preserves bytes and separates complete years, fragments and unverified photos',()=>{
+ const crypto=require('node:crypto'),manifest=require('../assets/past-papers/science-tokyo-import-manifest.json'),papers=production.papers.filter(p=>p.universityId==='science-tokyo');
+ assert.equal(papers.length,33);assert.equal(manifest.files.length,50);assert.equal(manifest.questionPDFs,48);
+ assert.deepEqual(papers.filter(p=>p.completeness==='complete').map(p=>p.examYear),[...Array.from({length:19},(_,i)=>2001+i),2021,2022,2023,2024,2025]);
+ assert.deepEqual(papers.filter(p=>p.completeness==='partial').map(p=>p.examYear),[1990,1993,1994,1995,1996,1997,1998,1999,2000]);
+ for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.repositoryPath));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.bytes);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.ok(f.source_url.startsWith('https://'));}
+ for(const p of papers){assert.equal(p.paperYear,p.examYear);assert.equal(p.yearBasis,'exam');assert.deepEqual(p.admissionYears,[p.examYear+1]);for(const f of p.files)assert.ok(f.startPage<=f.pages);}
+ for(const [year,start] of [[1990,1],[1993,6],[1994,13],[1995,18],[1996,22],[1997,29],[1998,34]])assert.equal(papers.find(p=>p.examYear===year).files[0].startPage,start);
+ assert.equal(new Set(papers.filter(p=>p.examYear<=1998).map(p=>p.files[0].url)).size,1);
+ assert.ok(!papers.some(p=>[1991,1992,2020,2026].includes(p.examYear)));
+ assert.match(papers.find(p=>p.examYear===2009).sourceNote,/平成20年8月18日/);
+ assert.equal(papers.find(p=>p.examYear===2009).yearEvidence,'entry-year-inference');
+ assert.ok(papers.find(p=>p.examYear===2025).files.some(f=>f.kind==='other'&&/非解答/.test(f.label)));
+ const supplement=production.schoolNotes['science-tokyo'].supplements[0];assert.match(supplement.label,/待核验/);assert.ok(core.fileURL(supplement));assert.ok(!papers.some(p=>p.files.some(f=>f.url===supplement.url)));
+ assert.match(production.schoolNotes['science-tokyo'].text,/2020.*未举行普通笔试/);
 });
 test('TUS preserves source PDFs and distinguishes academic years, actual dates and handwritten references',()=>{
  const crypto=require('node:crypto'),manifest=require('../assets/past-papers/tus-import-manifest.json'),papers=production.papers.filter(p=>p.universityId==='tus');

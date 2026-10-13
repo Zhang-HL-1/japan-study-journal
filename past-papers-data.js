@@ -1,6 +1,6 @@
 (function(root){'use strict';const data={
   "version": 2,
-  "importedAt": "2026-10-11",
+  "importedAt": "2026-10-13",
   "papers": [
     {
       "id": "waseda-de3870f916a18dec",
@@ -4653,6 +4653,1524 @@
       ],
       "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 合册内手写解答属于非官方参考。",
       "examYear": 1996
+    },
+    {
+      "id": "science-tokyo-ee-1990",
+      "universityId": "science-tokyo",
+      "title": "1990年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 1990,
+      "examYear": 1990,
+      "yearBasis": "exam",
+      "originalYear": "1991年度入学",
+      "admissionYears": [
+        1991
+      ],
+      "subjects": [
+        "早期上午卷／试题片段"
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "部分上午卷／试题片段 · PDF第1—3页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "originalName": "H03-11一部.pdf",
+          "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
+          "byteSize": 815153,
+          "pages": 37,
+          "sourcePaths": [
+            "early_partial/H03-11_partial.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 37页早期合集中的部分资料；本年度对应PDF第1—3页，原件仍保留其他年份。合集第4—5页无明示年度，不归入1991或1992。含手写批注，缺全年完整资料。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-1993",
+      "universityId": "science-tokyo",
+      "title": "1993年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 1993,
+      "examYear": 1993,
+      "yearBasis": "exam",
+      "originalYear": "1994年度入学",
+      "admissionYears": [
+        1994
+      ],
+      "subjects": [
+        "早期上午卷／试题片段"
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "部分上午卷／试题片段 · PDF第6—12页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "originalName": "H03-11一部.pdf",
+          "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
+          "byteSize": 815153,
+          "pages": 37,
+          "sourcePaths": [
+            "early_partial/H03-11_partial.pdf"
+          ],
+          "startPage": 6
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 37页早期合集中的部分资料；本年度对应PDF第6—12页，原件仍保留其他年份。合集第4—5页无明示年度，不归入1991或1992。含手写批注，缺全年完整资料。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-1994",
+      "universityId": "science-tokyo",
+      "title": "1994年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 1994,
+      "examYear": 1994,
+      "yearBasis": "exam",
+      "originalYear": "1995年度入学",
+      "admissionYears": [
+        1995
+      ],
+      "subjects": [
+        "早期上午卷／试题片段"
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "部分上午卷／试题片段 · PDF第13—17页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "originalName": "H03-11一部.pdf",
+          "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
+          "byteSize": 815153,
+          "pages": 37,
+          "sourcePaths": [
+            "early_partial/H03-11_partial.pdf"
+          ],
+          "startPage": 13
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 37页早期合集中的部分资料；本年度对应PDF第13—17页，原件仍保留其他年份。合集第4—5页无明示年度，不归入1991或1992。含手写批注，缺全年完整资料。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-1995",
+      "universityId": "science-tokyo",
+      "title": "1995年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 1995,
+      "examYear": 1995,
+      "yearBasis": "exam",
+      "originalYear": "1996年度入学",
+      "admissionYears": [
+        1996
+      ],
+      "subjects": [
+        "早期上午卷／试题片段"
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "部分上午卷／试题片段 · PDF第18—21页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "originalName": "H03-11一部.pdf",
+          "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
+          "byteSize": 815153,
+          "pages": 37,
+          "sourcePaths": [
+            "early_partial/H03-11_partial.pdf"
+          ],
+          "startPage": 18
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 37页早期合集中的部分资料；本年度对应PDF第18—21页，原件仍保留其他年份。合集第4—5页无明示年度，不归入1991或1992。含手写批注，缺全年完整资料。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-1996",
+      "universityId": "science-tokyo",
+      "title": "1996年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 1996,
+      "examYear": 1996,
+      "yearBasis": "exam",
+      "originalYear": "1997年度入学",
+      "admissionYears": [
+        1997
+      ],
+      "subjects": [
+        "早期上午卷／试题片段"
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "部分上午卷／试题片段 · PDF第22—28页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "originalName": "H03-11一部.pdf",
+          "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
+          "byteSize": 815153,
+          "pages": 37,
+          "sourcePaths": [
+            "early_partial/H03-11_partial.pdf"
+          ],
+          "startPage": 22
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 37页早期合集中的部分资料；本年度对应PDF第22—28页，原件仍保留其他年份。合集第4—5页无明示年度，不归入1991或1992。含手写批注，缺全年完整资料。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-1997",
+      "universityId": "science-tokyo",
+      "title": "1997年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 1997,
+      "examYear": 1997,
+      "yearBasis": "exam",
+      "originalYear": "1998年度入学",
+      "admissionYears": [
+        1998
+      ],
+      "subjects": [
+        "早期上午卷／试题片段"
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "部分上午卷／试题片段 · PDF第29—33页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "originalName": "H03-11一部.pdf",
+          "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
+          "byteSize": 815153,
+          "pages": 37,
+          "sourcePaths": [
+            "early_partial/H03-11_partial.pdf"
+          ],
+          "startPage": 29
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 37页早期合集中的部分资料；本年度对应PDF第29—33页，原件仍保留其他年份。合集第4—5页无明示年度，不归入1991或1992。含手写批注，缺全年完整资料。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-1998",
+      "universityId": "science-tokyo",
+      "title": "1998年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 1998,
+      "examYear": 1998,
+      "yearBasis": "exam",
+      "originalYear": "1999年度入学",
+      "admissionYears": [
+        1999
+      ],
+      "subjects": [
+        "早期上午卷／试题片段"
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "部分上午卷／试题片段 · PDF第34—37页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "originalName": "H03-11一部.pdf",
+          "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
+          "byteSize": 815153,
+          "pages": 37,
+          "sourcePaths": [
+            "early_partial/H03-11_partial.pdf"
+          ],
+          "startPage": 34
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 37页早期合集中的部分资料；本年度对应PDF第34—37页，原件仍保留其他年份。合集第4—5页无明示年度，不归入1991或1992。含手写批注，缺全年完整资料。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-1999",
+      "universityId": "science-tokyo",
+      "title": "1999年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 1999,
+      "examYear": 1999,
+      "yearBasis": "exam",
+      "originalYear": "2000年度入学",
+      "admissionYears": [
+        2000
+      ],
+      "subjects": [
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a53f7dc866d3c6f3eadb1d1f77344501d6bec3e95055c734c54b50c688c0519c.pdf",
+          "originalName": "H12 電気回路.pdf",
+          "sha256": "a53f7dc866d3c6f3eadb1d1f77344501d6bec3e95055c734c54b50c688c0519c",
+          "byteSize": 166156,
+          "pages": 1,
+          "sourcePaths": [
+            "early_partial/1999_H12_circuit_excerpt.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e.pdf",
+          "originalName": "H12 電磁気.pdf",
+          "sha256": "c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e",
+          "byteSize": 586293,
+          "pages": 1,
+          "sourcePaths": [
+            "early_partial/1999_H12_electromagnetism_excerpt.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 每个PDF仅1页扫描摘录；年份沿用仓库H入学年度，不按全年完整卷计。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions",
+      "yearEvidence": "source-directory"
+    },
+    {
+      "id": "science-tokyo-ee-2000",
+      "universityId": "science-tokyo",
+      "title": "2000年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2000,
+      "examYear": 2000,
+      "yearBasis": "exam",
+      "originalYear": "2001年度入学",
+      "admissionYears": [
+        2001
+      ],
+      "subjects": [
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919.pdf",
+          "originalName": "H13 電気回路.pdf",
+          "sha256": "27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919",
+          "byteSize": 328426,
+          "pages": 1,
+          "sourcePaths": [
+            "early_partial/2000_H13_circuit_excerpt.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe.pdf",
+          "originalName": "H13 電磁気.pdf",
+          "sha256": "1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe",
+          "byteSize": 388082,
+          "pages": 1,
+          "sourcePaths": [
+            "early_partial/2000_H13_electromagnetism_excerpt.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 每个PDF仅1页扫描摘录；年份沿用仓库H入学年度，不按全年完整卷计。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions",
+      "yearEvidence": "source-directory"
+    },
+    {
+      "id": "science-tokyo-ee-2001",
+      "universityId": "science-tokyo",
+      "title": "2001年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2001,
+      "examYear": 2001,
+      "yearBasis": "exam",
+      "originalYear": "2002年度入学",
+      "admissionYears": [
+        2002
+      ],
+      "subjects": [
+        "上午基础领域",
+        "下午专业领域"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "上午基础领域",
+          "kind": "question",
+          "url": "assets/past-papers/documents/751984e2ca47d4e821133fb4ee8c3ddf9d81ce2253afa70c68060dab32ec5ad3.pdf",
+          "originalName": "H14-am.pdf",
+          "sha256": "751984e2ca47d4e821133fb4ee8c3ddf9d81ce2253afa70c68060dab32ec5ad3",
+          "byteSize": 470451,
+          "pages": 7,
+          "sourcePaths": [
+            "2001_exam_2002_entry/H14-am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "下午专业领域",
+          "kind": "question",
+          "url": "assets/past-papers/documents/356b40c2da4d19ca002a1176fe1cd031444e1098c5217bf688d8f6ed999a6304.pdf",
+          "originalName": "H14-pm.pdf",
+          "sha256": "356b40c2da4d19ca002a1176fe1cd031444e1098c5217bf688d8f6ed999a6304",
+          "byteSize": 1086484,
+          "pages": 10,
+          "sourcePaths": [
+            "2001_exam_2002_entry/H14-pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 卷面标明H入学年度；旧官方页面也曾列出该文件。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2002",
+      "universityId": "science-tokyo",
+      "title": "2002年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2002,
+      "examYear": 2002,
+      "yearBasis": "exam",
+      "originalYear": "2003年度入学",
+      "admissionYears": [
+        2003
+      ],
+      "subjects": [
+        "上午基础领域",
+        "下午专业领域"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "上午基础领域",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805.pdf",
+          "originalName": "H15-am.pdf",
+          "sha256": "d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805",
+          "byteSize": 308663,
+          "pages": 6,
+          "sourcePaths": [
+            "2002_exam_2003_entry/H15-am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "下午专业领域",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906.pdf",
+          "originalName": "H15-pm.pdf",
+          "sha256": "7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906",
+          "byteSize": 675375,
+          "pages": 11,
+          "sourcePaths": [
+            "2002_exam_2003_entry/H15-pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 卷面标明H入学年度；旧官方页面也曾列出该文件。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2003",
+      "universityId": "science-tokyo",
+      "title": "2003年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2003,
+      "examYear": 2003,
+      "yearBasis": "exam",
+      "originalYear": "2004年度入学",
+      "admissionYears": [
+        2004
+      ],
+      "subjects": [
+        "上午基础领域",
+        "下午专业领域"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "上午基础领域",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0a2de6d034c9934d6bdf532600ca708fbb8919a98e109d9bce9c9cce8413c6df.pdf",
+          "originalName": "H16-am.pdf",
+          "sha256": "0a2de6d034c9934d6bdf532600ca708fbb8919a98e109d9bce9c9cce8413c6df",
+          "byteSize": 635838,
+          "pages": 7,
+          "sourcePaths": [
+            "2003_exam_2004_entry/H16-am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "下午专业领域",
+          "kind": "question",
+          "url": "assets/past-papers/documents/612e2efdf52bb5204ec2d7d74e6089321d6d1549b1dbbdae6d899997fd856047.pdf",
+          "originalName": "H16-pm.pdf",
+          "sha256": "612e2efdf52bb5204ec2d7d74e6089321d6d1549b1dbbdae6d899997fd856047",
+          "byteSize": 1080670,
+          "pages": 10,
+          "sourcePaths": [
+            "2003_exam_2004_entry/H16-pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 补齐此前缺失的下午卷；卷面16大修。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2004",
+      "universityId": "science-tokyo",
+      "title": "2004年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2004,
+      "examYear": 2004,
+      "yearBasis": "exam",
+      "originalYear": "2005年度入学",
+      "admissionYears": [
+        2005
+      ],
+      "subjects": [
+        "上午：基础领域",
+        "下午：专业领域"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "上午：基础领域",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9a9e5a662df3a2937e32045adb5388a1389f431c08d598685a2b906babaf7f94.pdf",
+          "originalName": "H17-am.pdf",
+          "sha256": "9a9e5a662df3a2937e32045adb5388a1389f431c08d598685a2b906babaf7f94",
+          "byteSize": 395539,
+          "pages": 8,
+          "sourcePaths": [
+            "2004_exam_2005_entry/H17-am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "下午：专业领域",
+          "kind": "question",
+          "url": "assets/past-papers/documents/955b338886b37f3d09bf67c41227fe5c7799340978699012755093a4885cd9f0.pdf",
+          "originalName": "H17-pm.pdf",
+          "sha256": "955b338886b37f3d09bf67c41227fe5c7799340978699012755093a4885cd9f0",
+          "byteSize": 486328,
+          "pages": 10,
+          "sourcePaths": [
+            "2004_exam_2005_entry/H17-pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2005",
+      "universityId": "science-tokyo",
+      "title": "2005年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2005,
+      "examYear": 2005,
+      "yearBasis": "exam",
+      "originalYear": "2006年度入学",
+      "admissionYears": [
+        2006
+      ],
+      "subjects": [
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436.pdf",
+          "originalName": "H18-am.pdf",
+          "sha256": "6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436",
+          "byteSize": 244972,
+          "pages": 3,
+          "sourcePaths": [
+            "2005_exam_2006_entry/H18-am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ca39480dd2dd28f1b0cf460e843b88d4e12323456dbb4640f041a452dc575b0d.pdf",
+          "originalName": "H18-pm.pdf",
+          "sha256": "ca39480dd2dd28f1b0cf460e843b88d4e12323456dbb4640f041a452dc575b0d",
+          "byteSize": 339014,
+          "pages": 4,
+          "sourcePaths": [
+            "2005_exam_2006_entry/H18-pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2006",
+      "universityId": "science-tokyo",
+      "title": "2006年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2006,
+      "examYear": 2006,
+      "yearBasis": "exam",
+      "originalYear": "2007年度入学",
+      "admissionYears": [
+        2007
+      ],
+      "subjects": [
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cb5ed8d897b969eb4b73016e34ae3e59b5ae0e269414628cb37b2185da3d816f.pdf",
+          "originalName": "H19-am.pdf",
+          "sha256": "cb5ed8d897b969eb4b73016e34ae3e59b5ae0e269414628cb37b2185da3d816f",
+          "byteSize": 159667,
+          "pages": 4,
+          "sourcePaths": [
+            "2006_exam_2007_entry/H19-am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/577818b2453313a6decd40f19711bd3e354994ee134c909e0a319224f616f959.pdf",
+          "originalName": "H19-pm.pdf",
+          "sha256": "577818b2453313a6decd40f19711bd3e354994ee134c909e0a319224f616f959",
+          "byteSize": 138606,
+          "pages": 3,
+          "sourcePaths": [
+            "2006_exam_2007_entry/H19-pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2007",
+      "universityId": "science-tokyo",
+      "title": "2007年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2007,
+      "examYear": 2007,
+      "yearBasis": "exam",
+      "originalYear": "2008年度入学",
+      "admissionYears": [
+        2008
+      ],
+      "subjects": [
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/296dec213d8501997c1cc3b6ee413b1dda72cf40ffa6373f6fbb90d220cb6b75.pdf",
+          "originalName": "H20-am.pdf",
+          "sha256": "296dec213d8501997c1cc3b6ee413b1dda72cf40ffa6373f6fbb90d220cb6b75",
+          "byteSize": 188615,
+          "pages": 5,
+          "sourcePaths": [
+            "2007_exam_2008_entry/H20-am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dece792d9731211ff9db765a57dc1b883c0a16122be2bbe4b88fe1405d977d81.pdf",
+          "originalName": "H20-pm.pdf",
+          "sha256": "dece792d9731211ff9db765a57dc1b883c0a16122be2bbe4b88fe1405d977d81",
+          "byteSize": 195314,
+          "pages": 4,
+          "sourcePaths": [
+            "2007_exam_2008_entry/H20-pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2008",
+      "universityId": "science-tokyo",
+      "title": "2008年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2008,
+      "examYear": 2008,
+      "yearBasis": "exam",
+      "originalYear": "2009年度入学",
+      "admissionYears": [
+        2009
+      ],
+      "subjects": [
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd.pdf",
+          "originalName": "H21-am.pdf",
+          "sha256": "d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd",
+          "byteSize": 157590,
+          "pages": 5,
+          "sourcePaths": [
+            "2008_exam_2009_entry/H21-am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/da6832a8567f30c986c7af7649f3b7d5b8bfc6d3512036634cb1374e765dfc63.pdf",
+          "originalName": "H21-pm.pdf",
+          "sha256": "da6832a8567f30c986c7af7649f3b7d5b8bfc6d3512036634cb1374e765dfc63",
+          "byteSize": 180985,
+          "pages": 3,
+          "sourcePaths": [
+            "2008_exam_2009_entry/H21-pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2009",
+      "universityId": "science-tokyo",
+      "title": "2009年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2009,
+      "examYear": 2009,
+      "yearBasis": "exam",
+      "originalYear": "2010年度入学",
+      "admissionYears": [
+        2010
+      ],
+      "subjects": [
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dac5afe7b2d24a5c7169d2aaec9991ede0574b5e9fc4e3f3862658cace8f0078.pdf",
+          "originalName": "H22-am.pdf",
+          "sha256": "dac5afe7b2d24a5c7169d2aaec9991ede0574b5e9fc4e3f3862658cace8f0078",
+          "byteSize": 220361,
+          "pages": 5,
+          "sourcePaths": [
+            "2009_exam_2010_entry/H22-am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c.pdf",
+          "originalName": "H22-pm.pdf",
+          "sha256": "b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c",
+          "byteSize": 309717,
+          "pages": 5,
+          "sourcePaths": [
+            "2009_exam_2010_entry/H22-pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 原PDF封面印作“平成20年8月18日”，与H22入学年度及“22大修”不一致；实施年按2010入学年度推定为2009。保留原件。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions",
+      "yearEvidence": "entry-year-inference"
+    },
+    {
+      "id": "science-tokyo-ee-2010",
+      "universityId": "science-tokyo",
+      "title": "2010年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2010,
+      "examYear": 2010,
+      "yearBasis": "exam",
+      "originalYear": "2011年度入学",
+      "admissionYears": [
+        2011
+      ],
+      "subjects": [
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3d75940be17d0a48f13cb610a21c972da7851205b95ebd6b994071cab4258671.pdf",
+          "originalName": "H23-amP.pdf",
+          "sha256": "3d75940be17d0a48f13cb610a21c972da7851205b95ebd6b994071cab4258671",
+          "byteSize": 1136874,
+          "pages": 5,
+          "sourcePaths": [
+            "2010_exam_2011_entry/H23-amP.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/369287650eb32981265e973381b86349e89ce6fdc7e7ab41ea7574412080dfa1.pdf",
+          "originalName": "H23-pmP.pdf",
+          "sha256": "369287650eb32981265e973381b86349e89ce6fdc7e7ab41ea7574412080dfa1",
+          "byteSize": 1336633,
+          "pages": 4,
+          "sourcePaths": [
+            "2010_exam_2011_entry/H23-pmP.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2011",
+      "universityId": "science-tokyo",
+      "title": "2011年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2011,
+      "examYear": 2011,
+      "yearBasis": "exam",
+      "originalYear": "2012年度入学",
+      "admissionYears": [
+        2012
+      ],
+      "subjects": [
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269.pdf",
+          "originalName": "H24-amP.pdf",
+          "sha256": "240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269",
+          "byteSize": 220682,
+          "pages": 4,
+          "sourcePaths": [
+            "2011_exam_2012_entry/H24-amP.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d5eb0179c8567543a5c96722e61f9c5d09129c3fa07e06d78c574c2e5ce77068.pdf",
+          "originalName": "H24-pmP.pdf",
+          "sha256": "d5eb0179c8567543a5c96722e61f9c5d09129c3fa07e06d78c574c2e5ce77068",
+          "byteSize": 259797,
+          "pages": 3,
+          "sourcePaths": [
+            "2011_exam_2012_entry/H24-pmP.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2012",
+      "universityId": "science-tokyo",
+      "title": "2012年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2012,
+      "examYear": 2012,
+      "yearBasis": "exam",
+      "originalYear": "2013年度入学",
+      "admissionYears": [
+        2013
+      ],
+      "subjects": [
+        "电气数学",
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/400165399d4f0ed5f6b756e4fce4c572ca672e26dd48ac5fe54f107a0df11d83.pdf",
+          "originalName": "H25-amP.pdf",
+          "sha256": "400165399d4f0ed5f6b756e4fce4c572ca672e26dd48ac5fe54f107a0df11d83",
+          "byteSize": 246066,
+          "pages": 4,
+          "sourcePaths": [
+            "2012_exam_2013_entry/H25-amP.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ae0024f5b185db733fab6d7033b3cfb4278361b05b4d9f4bcc290e98690de058.pdf",
+          "originalName": "H25-pmP1.pdf",
+          "sha256": "ae0024f5b185db733fab6d7033b3cfb4278361b05b4d9f4bcc290e98690de058",
+          "byteSize": 380197,
+          "pages": 5,
+          "sourcePaths": [
+            "2012_exam_2013_entry/H25-pmP1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3.pdf",
+          "originalName": "H25-pmP2.pdf",
+          "sha256": "7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3",
+          "byteSize": 339112,
+          "pages": 3,
+          "sourcePaths": [
+            "2012_exam_2013_entry/H25-pmP2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2013",
+      "universityId": "science-tokyo",
+      "title": "2013年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2013,
+      "examYear": 2013,
+      "yearBasis": "exam",
+      "originalYear": "2014年度入学",
+      "admissionYears": [
+        2014
+      ],
+      "subjects": [
+        "电气数学",
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/35af31c311bee20777e24e47adb516296d8cdcd3af6a7f7ebeb876dd14960b01.pdf",
+          "originalName": "H26-amP.pdf",
+          "sha256": "35af31c311bee20777e24e47adb516296d8cdcd3af6a7f7ebeb876dd14960b01",
+          "byteSize": 362325,
+          "pages": 5,
+          "sourcePaths": [
+            "2013_exam_2014_entry/H26-amP.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/17df41570186215669fca8f9f6828f3839b502370c1120b2dc7ff160270785da.pdf",
+          "originalName": "H26-pmP1.pdf",
+          "sha256": "17df41570186215669fca8f9f6828f3839b502370c1120b2dc7ff160270785da",
+          "byteSize": 333606,
+          "pages": 5,
+          "sourcePaths": [
+            "2013_exam_2014_entry/H26-pmP1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea.pdf",
+          "originalName": "H26-pmP2.pdf",
+          "sha256": "0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea",
+          "byteSize": 820490,
+          "pages": 6,
+          "sourcePaths": [
+            "2013_exam_2014_entry/H26-pmP2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2014",
+      "universityId": "science-tokyo",
+      "title": "2014年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2014,
+      "examYear": 2014,
+      "yearBasis": "exam",
+      "originalYear": "2015年度入学",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "电气数学",
+        "电气回路",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80.pdf",
+          "originalName": "H27-amP.pdf",
+          "sha256": "e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80",
+          "byteSize": 224419,
+          "pages": 4,
+          "sourcePaths": [
+            "2014_exam_2015_entry/H27-amP.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291.pdf",
+          "originalName": "H27-pmP1.pdf",
+          "sha256": "47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291",
+          "byteSize": 315226,
+          "pages": 4,
+          "sourcePaths": [
+            "2014_exam_2015_entry/H27-pmP1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3d4e19f0cce396e016cf2aab197694e78b932c44b87f0afce1b23b8d764aa3cd.pdf",
+          "originalName": "H27-pmP2.pdf",
+          "sha256": "3d4e19f0cce396e016cf2aab197694e78b932c44b87f0afce1b23b8d764aa3cd",
+          "byteSize": 276824,
+          "pages": 4,
+          "sourcePaths": [
+            "2014_exam_2015_entry/H27-pmP2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2015",
+      "universityId": "science-tokyo",
+      "title": "2015年实施 · 電気電子工学専攻・電子物理工学専攻 · 专业笔试",
+      "graduateSchool": "理工学研究科",
+      "department": "電気電子工学専攻・電子物理工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2015,
+      "examYear": 2015,
+      "yearBasis": "exam",
+      "originalYear": "2016年度入学",
+      "admissionYears": [
+        2016
+      ],
+      "subjects": [
+        "电气回路",
+        "电气数学",
+        "电磁气学"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "电气回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a94332beb49297f04b84d48a4f30fadce2d9db308d56e5de2dee5e0e875b27a4.pdf",
+          "originalName": "H28回路.pdf",
+          "sha256": "a94332beb49297f04b84d48a4f30fadce2d9db308d56e5de2dee5e0e875b27a4",
+          "byteSize": 203118,
+          "pages": 4,
+          "sourcePaths": [
+            "2015_exam_2016_entry/H28回路.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电气数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9.pdf",
+          "originalName": "H28数学.pdf",
+          "sha256": "75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9",
+          "byteSize": 347226,
+          "pages": 4,
+          "sourcePaths": [
+            "2015_exam_2016_entry/H28数学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁气学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e.pdf",
+          "originalName": "H28電磁気.pdf",
+          "sha256": "59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e",
+          "byteSize": 213006,
+          "pages": 4,
+          "sourcePaths": [
+            "2015_exam_2016_entry/H28電磁気.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 卷面28大修，与2016入学年度对应；并非H28实施/2017入学卷。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2016",
+      "universityId": "science-tokyo",
+      "title": "2016年实施 · 電気電子系 · 专业笔试",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2016,
+      "examYear": 2016,
+      "yearBasis": "exam",
+      "originalYear": "2017年度入学",
+      "admissionYears": [
+        2017
+      ],
+      "subjects": [
+        "专业科目合卷"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "专业科目合卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1.pdf",
+          "originalName": "ee_h28.pdf",
+          "sha256": "961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1",
+          "byteSize": 1695609,
+          "pages": 15,
+          "sourcePaths": [
+            "2016_exam_2017_entry/ee_h28.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 原页面H年度/R年度为实施年度；PDF封面为下一年入学年度。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2017",
+      "universityId": "science-tokyo",
+      "title": "2017年实施 · 電気電子系 · 专业笔试",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2017,
+      "examYear": 2017,
+      "yearBasis": "exam",
+      "originalYear": "2018年度入学",
+      "admissionYears": [
+        2018
+      ],
+      "subjects": [
+        "专业科目合卷"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "专业科目合卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba.pdf",
+          "originalName": "ee_h29.pdf",
+          "sha256": "835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba",
+          "byteSize": 722907,
+          "pages": 14,
+          "sourcePaths": [
+            "2017_exam_2018_entry/ee_h29.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 原页面H年度/R年度为实施年度；PDF封面为下一年入学年度。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2018",
+      "universityId": "science-tokyo",
+      "title": "2018年实施 · 電気電子系 · 专业笔试",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2018,
+      "examYear": 2018,
+      "yearBasis": "exam",
+      "originalYear": "2019年度入学",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "专业科目合卷"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "专业科目合卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8e0c507c5c821e492b92cc6bed747799e9d9813418f4a938dd9ea8b9acc9908c.pdf",
+          "originalName": "ee_h30.pdf",
+          "sha256": "8e0c507c5c821e492b92cc6bed747799e9d9813418f4a938dd9ea8b9acc9908c",
+          "byteSize": 804598,
+          "pages": 16,
+          "sourcePaths": [
+            "2018_exam_2019_entry/ee_h30.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 原页面H年度/R年度为实施年度；PDF封面为下一年入学年度。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2019",
+      "universityId": "science-tokyo",
+      "title": "2019年实施 · 電気電子系 · 专业笔试",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2019,
+      "examYear": 2019,
+      "yearBasis": "exam",
+      "originalYear": "2020年度入学",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "专业科目合卷"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "专业科目合卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/77395e7d54da336c129e8617e3c91d5f39456502e4b4366a1e1c65e4e7a8c2c0.pdf",
+          "originalName": "82-ee-r1.pdf",
+          "sha256": "77395e7d54da336c129e8617e3c91d5f39456502e4b4366a1e1c65e4e7a8c2c0",
+          "byteSize": 2258735,
+          "pages": 12,
+          "sourcePaths": [
+            "2019_exam_2020_entry/82-ee-r1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 原页面H年度/R年度为实施年度；PDF封面为下一年入学年度。",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2021",
+      "universityId": "science-tokyo",
+      "title": "2021年实施 · 電気電子系 · 专业笔试",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2021,
+      "examYear": 2021,
+      "yearBasis": "exam",
+      "originalYear": "2022年度入学",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "专业科目合卷"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "专业科目合卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291.pdf",
+          "originalName": "exam_ee_20218.pdf",
+          "sha256": "0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291",
+          "byteSize": 1254451,
+          "pages": 11,
+          "sourcePaths": [
+            "2021_exam_2022_entry/exam_ee_20218.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2022",
+      "universityId": "science-tokyo",
+      "title": "2022年实施 · 電気電子系 · 专业笔试",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2022,
+      "examYear": 2022,
+      "yearBasis": "exam",
+      "originalYear": "2023年度入学",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "专业科目合卷"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "专业科目合卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/91ca87178337c261e0e46befaf438d1b8455695cbed7961ab0192bcc5417a838.pdf",
+          "originalName": "exam_ee_20228.pdf",
+          "sha256": "91ca87178337c261e0e46befaf438d1b8455695cbed7961ab0192bcc5417a838",
+          "byteSize": 708559,
+          "pages": 11,
+          "sourcePaths": [
+            "2022_exam_2023_entry/exam_ee_20228.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2023",
+      "universityId": "science-tokyo",
+      "title": "2023年实施 · 電気電子系 · 专业笔试",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "examYear": 2023,
+      "yearBasis": "exam",
+      "originalYear": "2024年度入学",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "专业科目合卷"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "专业科目合卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1657f2c46e336697d407606542f9fd4822d6f3040259fcfc9b59dad3f951ea0e.pdf",
+          "originalName": "exam_ee_20238.pdf",
+          "sha256": "1657f2c46e336697d407606542f9fd4822d6f3040259fcfc9b59dad3f951ea0e",
+          "byteSize": 1681301,
+          "pages": 13,
+          "sourcePaths": [
+            "2023_exam_2024_entry/exam_ee_20238.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2024",
+      "universityId": "science-tokyo",
+      "title": "2024年实施 · 電気電子系 · 专业笔试",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "examYear": 2024,
+      "yearBasis": "exam",
+      "originalYear": "2025年度入学",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "专业科目合卷"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "专业科目合卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/655d886a6ab8a146f8dce78aa4b9290e3a5ab344f1744d0aa05c967720e6fae9.pdf",
+          "originalName": "exam_ee_20248.pdf",
+          "sha256": "655d886a6ab8a146f8dce78aa4b9290e3a5ab344f1744d0aa05c967720e6fae9",
+          "byteSize": 2516193,
+          "pages": 13,
+          "sourcePaths": [
+            "2024_exam_2025_entry/exam_ee_20248.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "science-tokyo-ee-2025",
+      "universityId": "science-tokyo",
+      "title": "2025年实施 · 電気電子系 · 专业笔试",
+      "graduateSchool": "工学院",
+      "department": "電気電子系",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2025,
+      "examYear": 2025,
+      "yearBasis": "exam",
+      "originalYear": "2026年度入学",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "专业科目合卷"
+      ],
+      "completeness": "complete",
+      "files": [
+        {
+          "label": "专业科目合卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f87484a3abc7423c64c609566774d93f4d74d4c6b4c14fae938319922619b272.pdf",
+          "originalName": "exam_ee_20258.pdf",
+          "sha256": "f87484a3abc7423c64c609566774d93f4d74d4c6b4c14fae938319922619b272",
+          "byteSize": 1549374,
+          "pages": 12,
+          "sourcePaths": [
+            "2025_exam_2026_entry/exam_ee_20258.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "2025年官方出题意图（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/ac464f094bc782eb68f51f9115044566f4a20fef5c00593b4d1f85b68e4806b6.pdf",
+          "originalName": "POQ_ee_20258.pdf",
+          "sha256": "ac464f094bc782eb68f51f9115044566f4a20fef5c00593b4d1f85b68e4806b6",
+          "byteSize": 536739,
+          "pages": 5,
+          "sourcePaths": [
+            "extras/POQ_ee_20258.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
+      "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
     }
-  ]
+  ],
+  "schoolNotes": {
+    "science-tokyo": {
+      "text": "按实际实施年整理：2001—2019、2021—2025共24年专业卷完整；1990、1993—2000共9年为部分资料。1991、1992尚未确认，1990以前及2026实施卷仍未取得。2020年历史官网说明未举行普通笔试，替代在线试验不公开。待核验R03照片没有学校／日期标识，不归入任何已确认年度。早期合卷保留其他年度，按PDF实际页码打开。",
+      "supplements": [
+        {
+          "label": "待核验R03照片 · 学校／年份未确认",
+          "kind": "other",
+          "url": "assets/past-papers/documents/709ac8d084b1efcbb34daffaa97a113e4bed324cecef6cf0ef950959377b305e.pdf",
+          "originalName": "R03_photos_unverified.pdf",
+          "sha256": "709ac8d084b1efcbb34daffaa97a113e4bed324cecef6cf0ef950959377b305e",
+          "byteSize": 540077,
+          "pages": 3,
+          "sourcePaths": [
+            "unverified/R03_photos_unverified.pdf"
+          ],
+          "startPage": 1
+        }
+      ]
+    }
+  }
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);

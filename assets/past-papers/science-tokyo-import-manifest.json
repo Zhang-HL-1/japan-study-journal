@@ -1,0 +1,940 @@
+{
+  "importedAt": "2026-10-13",
+  "scope": "電気電子系／旧電気電子工学・電子物理工学専攻、修士专业笔试",
+  "yearBasis": "exam",
+  "groups": 33,
+  "completeYears": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "partialYears": [
+    1990,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000
+  ],
+  "questionPDFs": 48,
+  "supplementPDFs": 2,
+  "coverageNote": "按实际实施年整理：2001—2019、2021—2025共24年专业卷完整；1990、1993—2000共9年为部分资料。1991、1992尚未确认，1990以前及2026实施卷仍未取得。2020年历史官网说明未举行普通笔试，替代在线试验不公开。待核验R03照片没有学校／日期标识，不归入任何已确认年度。早期合卷保留其他年度，按PDF实际页码打开。",
+  "files": [
+    {
+      "exam_year": null,
+      "entry_year": null,
+      "part": "早期上午卷／试题片段合集",
+      "original_filename": "H03-11一部.pdf",
+      "path": "early_partial/H03-11_partial.pdf",
+      "pages": 37,
+      "bytes": 815153,
+      "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H03-11%E4%B8%80%E9%83%A8.pdf",
+      "note": "可识别3、6、7、8、9、10、11大修；PDF第4—5页无明示年度，暂不归入1991/1992。保留手写批注与37页原件。",
+      "status": "部分资料",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        1990,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998
+      ],
+      "repositoryPath": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf"
+    },
+    {
+      "exam_year": 1999,
+      "entry_year": 2000,
+      "part": "电气回路",
+      "original_filename": "H12 電気回路.pdf",
+      "path": "early_partial/1999_H12_circuit_excerpt.pdf",
+      "pages": 1,
+      "bytes": 166156,
+      "sha256": "a53f7dc866d3c6f3eadb1d1f77344501d6bec3e95055c734c54b50c688c0519c",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H12%20%E9%9B%BB%E6%B0%97%E5%9B%9E%E8%B7%AF.pdf",
+      "note": "每个PDF仅1页扫描摘录；年份沿用仓库H入学年度，不按全年完整卷计。",
+      "status": "部分资料",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        1999
+      ],
+      "repositoryPath": "assets/past-papers/documents/a53f7dc866d3c6f3eadb1d1f77344501d6bec3e95055c734c54b50c688c0519c.pdf"
+    },
+    {
+      "exam_year": 1999,
+      "entry_year": 2000,
+      "part": "电磁气学",
+      "original_filename": "H12 電磁気.pdf",
+      "path": "early_partial/1999_H12_electromagnetism_excerpt.pdf",
+      "pages": 1,
+      "bytes": 586293,
+      "sha256": "c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H12%20%E9%9B%BB%E7%A3%81%E6%B0%97.pdf",
+      "note": "每个PDF仅1页扫描摘录；年份沿用仓库H入学年度，不按全年完整卷计。",
+      "status": "部分资料",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        1999
+      ],
+      "repositoryPath": "assets/past-papers/documents/c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e.pdf"
+    },
+    {
+      "exam_year": 2000,
+      "entry_year": 2001,
+      "part": "电气回路",
+      "original_filename": "H13 電気回路.pdf",
+      "path": "early_partial/2000_H13_circuit_excerpt.pdf",
+      "pages": 1,
+      "bytes": 328426,
+      "sha256": "27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H13%20%E9%9B%BB%E6%B0%97%E5%9B%9E%E8%B7%AF.pdf",
+      "note": "每个PDF仅1页扫描摘录；年份沿用仓库H入学年度，不按全年完整卷计。",
+      "status": "部分资料",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2000
+      ],
+      "repositoryPath": "assets/past-papers/documents/27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919.pdf"
+    },
+    {
+      "exam_year": 2000,
+      "entry_year": 2001,
+      "part": "电磁气学",
+      "original_filename": "H13 電磁気.pdf",
+      "path": "early_partial/2000_H13_electromagnetism_excerpt.pdf",
+      "pages": 1,
+      "bytes": 388082,
+      "sha256": "1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H13%20%E9%9B%BB%E7%A3%81%E6%B0%97.pdf",
+      "note": "每个PDF仅1页扫描摘录；年份沿用仓库H入学年度，不按全年完整卷计。",
+      "status": "部分资料",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2000
+      ],
+      "repositoryPath": "assets/past-papers/documents/1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe.pdf"
+    },
+    {
+      "exam_year": 2001,
+      "entry_year": 2002,
+      "part": "上午基础领域",
+      "original_filename": "H14-am.pdf",
+      "path": "2001_exam_2002_entry/H14-am.pdf",
+      "pages": 7,
+      "bytes": 470451,
+      "sha256": "751984e2ca47d4e821133fb4ee8c3ddf9d81ce2253afa70c68060dab32ec5ad3",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H14-am.pdf",
+      "note": "卷面标明H入学年度；旧官方页面也曾列出该文件。",
+      "status": "套卷组成",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2001
+      ],
+      "repositoryPath": "assets/past-papers/documents/751984e2ca47d4e821133fb4ee8c3ddf9d81ce2253afa70c68060dab32ec5ad3.pdf"
+    },
+    {
+      "exam_year": 2001,
+      "entry_year": 2002,
+      "part": "下午专业领域",
+      "original_filename": "H14-pm.pdf",
+      "path": "2001_exam_2002_entry/H14-pm.pdf",
+      "pages": 10,
+      "bytes": 1086484,
+      "sha256": "356b40c2da4d19ca002a1176fe1cd031444e1098c5217bf688d8f6ed999a6304",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H14-pm.pdf",
+      "note": "卷面标明H入学年度；旧官方页面也曾列出该文件。",
+      "status": "套卷组成",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2001
+      ],
+      "repositoryPath": "assets/past-papers/documents/356b40c2da4d19ca002a1176fe1cd031444e1098c5217bf688d8f6ed999a6304.pdf"
+    },
+    {
+      "exam_year": 2002,
+      "entry_year": 2003,
+      "part": "上午基础领域",
+      "original_filename": "H15-am.pdf",
+      "path": "2002_exam_2003_entry/H15-am.pdf",
+      "pages": 6,
+      "bytes": 308663,
+      "sha256": "d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H15-am.pdf",
+      "note": "卷面标明H入学年度；旧官方页面也曾列出该文件。",
+      "status": "套卷组成",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2002
+      ],
+      "repositoryPath": "assets/past-papers/documents/d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805.pdf"
+    },
+    {
+      "exam_year": 2002,
+      "entry_year": 2003,
+      "part": "下午专业领域",
+      "original_filename": "H15-pm.pdf",
+      "path": "2002_exam_2003_entry/H15-pm.pdf",
+      "pages": 11,
+      "bytes": 675375,
+      "sha256": "7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H15-pm.pdf",
+      "note": "卷面标明H入学年度；旧官方页面也曾列出该文件。",
+      "status": "套卷组成",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2002
+      ],
+      "repositoryPath": "assets/past-papers/documents/7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906.pdf"
+    },
+    {
+      "exam_year": 2003,
+      "entry_year": 2004,
+      "part": "上午基础领域",
+      "original_filename": "H16-am.pdf",
+      "path": "2003_exam_2004_entry/H16-am.pdf",
+      "pages": 7,
+      "bytes": 635838,
+      "sha256": "0a2de6d034c9934d6bdf532600ca708fbb8919a98e109d9bce9c9cce8413c6df",
+      "source_url": "https://web.archive.org/web/20110804232427id_/http://pe.titech.ac.jp/pdf/H16-am.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2003
+      ],
+      "repositoryPath": "assets/past-papers/documents/0a2de6d034c9934d6bdf532600ca708fbb8919a98e109d9bce9c9cce8413c6df.pdf"
+    },
+    {
+      "exam_year": 2003,
+      "entry_year": 2004,
+      "part": "下午专业领域",
+      "original_filename": "H16-pm.pdf",
+      "path": "2003_exam_2004_entry/H16-pm.pdf",
+      "pages": 10,
+      "bytes": 1080670,
+      "sha256": "612e2efdf52bb5204ec2d7d74e6089321d6d1549b1dbbdae6d899997fd856047",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H16-pm.pdf",
+      "note": "补齐此前缺失的下午卷；卷面16大修。",
+      "status": "套卷组成",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2003
+      ],
+      "repositoryPath": "assets/past-papers/documents/612e2efdf52bb5204ec2d7d74e6089321d6d1549b1dbbdae6d899997fd856047.pdf"
+    },
+    {
+      "exam_year": 2004,
+      "entry_year": 2005,
+      "part": "上午：基础领域",
+      "original_filename": "H17-am.pdf",
+      "path": "2004_exam_2005_entry/H17-am.pdf",
+      "pages": 8,
+      "bytes": 395539,
+      "sha256": "9a9e5a662df3a2937e32045adb5388a1389f431c08d598685a2b906babaf7f94",
+      "source_url": "https://web.archive.org/web/20110804232202id_/http://pe.titech.ac.jp/pdf/H17-am.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2004
+      ],
+      "repositoryPath": "assets/past-papers/documents/9a9e5a662df3a2937e32045adb5388a1389f431c08d598685a2b906babaf7f94.pdf"
+    },
+    {
+      "exam_year": 2004,
+      "entry_year": 2005,
+      "part": "下午：专业领域",
+      "original_filename": "H17-pm.pdf",
+      "path": "2004_exam_2005_entry/H17-pm.pdf",
+      "pages": 10,
+      "bytes": 486328,
+      "sha256": "955b338886b37f3d09bf67c41227fe5c7799340978699012755093a4885cd9f0",
+      "source_url": "https://web.archive.org/web/20110804232418id_/http://pe.titech.ac.jp/pdf/H17-pm.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2004
+      ],
+      "repositoryPath": "assets/past-papers/documents/955b338886b37f3d09bf67c41227fe5c7799340978699012755093a4885cd9f0.pdf"
+    },
+    {
+      "exam_year": 2005,
+      "entry_year": 2006,
+      "part": "电气回路",
+      "original_filename": "H18-am.pdf",
+      "path": "2005_exam_2006_entry/H18-am.pdf",
+      "pages": 3,
+      "bytes": 244972,
+      "sha256": "6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436",
+      "source_url": "https://web.archive.org/web/20120602004807id_/http://www.ee.titech.ac.jp:80/data/H18-am.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2005
+      ],
+      "repositoryPath": "assets/past-papers/documents/6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436.pdf"
+    },
+    {
+      "exam_year": 2005,
+      "entry_year": 2006,
+      "part": "电磁气学",
+      "original_filename": "H18-pm.pdf",
+      "path": "2005_exam_2006_entry/H18-pm.pdf",
+      "pages": 4,
+      "bytes": 339014,
+      "sha256": "ca39480dd2dd28f1b0cf460e843b88d4e12323456dbb4640f041a452dc575b0d",
+      "source_url": "https://web.archive.org/web/20120602005026id_/http://www.ee.titech.ac.jp:80/data/H18-pm.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2005
+      ],
+      "repositoryPath": "assets/past-papers/documents/ca39480dd2dd28f1b0cf460e843b88d4e12323456dbb4640f041a452dc575b0d.pdf"
+    },
+    {
+      "exam_year": 2006,
+      "entry_year": 2007,
+      "part": "电气回路",
+      "original_filename": "H19-am.pdf",
+      "path": "2006_exam_2007_entry/H19-am.pdf",
+      "pages": 4,
+      "bytes": 159667,
+      "sha256": "cb5ed8d897b969eb4b73016e34ae3e59b5ae0e269414628cb37b2185da3d816f",
+      "source_url": "https://web.archive.org/web/20120602005032id_/http://www.ee.titech.ac.jp:80/data/H19-am.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2006
+      ],
+      "repositoryPath": "assets/past-papers/documents/cb5ed8d897b969eb4b73016e34ae3e59b5ae0e269414628cb37b2185da3d816f.pdf"
+    },
+    {
+      "exam_year": 2006,
+      "entry_year": 2007,
+      "part": "电磁气学",
+      "original_filename": "H19-pm.pdf",
+      "path": "2006_exam_2007_entry/H19-pm.pdf",
+      "pages": 3,
+      "bytes": 138606,
+      "sha256": "577818b2453313a6decd40f19711bd3e354994ee134c909e0a319224f616f959",
+      "source_url": "https://web.archive.org/web/20120602005036id_/http://www.ee.titech.ac.jp:80/data/H19-pm.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2006
+      ],
+      "repositoryPath": "assets/past-papers/documents/577818b2453313a6decd40f19711bd3e354994ee134c909e0a319224f616f959.pdf"
+    },
+    {
+      "exam_year": 2007,
+      "entry_year": 2008,
+      "part": "电气回路",
+      "original_filename": "H20-am.pdf",
+      "path": "2007_exam_2008_entry/H20-am.pdf",
+      "pages": 5,
+      "bytes": 188615,
+      "sha256": "296dec213d8501997c1cc3b6ee413b1dda72cf40ffa6373f6fbb90d220cb6b75",
+      "source_url": "https://web.archive.org/web/20120602004813id_/http://www.ee.titech.ac.jp:80/data/H20-am.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2007
+      ],
+      "repositoryPath": "assets/past-papers/documents/296dec213d8501997c1cc3b6ee413b1dda72cf40ffa6373f6fbb90d220cb6b75.pdf"
+    },
+    {
+      "exam_year": 2007,
+      "entry_year": 2008,
+      "part": "电磁气学",
+      "original_filename": "H20-pm.pdf",
+      "path": "2007_exam_2008_entry/H20-pm.pdf",
+      "pages": 4,
+      "bytes": 195314,
+      "sha256": "dece792d9731211ff9db765a57dc1b883c0a16122be2bbe4b88fe1405d977d81",
+      "source_url": "https://web.archive.org/web/20120602004818id_/http://www.ee.titech.ac.jp:80/data/H20-pm.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2007
+      ],
+      "repositoryPath": "assets/past-papers/documents/dece792d9731211ff9db765a57dc1b883c0a16122be2bbe4b88fe1405d977d81.pdf"
+    },
+    {
+      "exam_year": 2008,
+      "entry_year": 2009,
+      "part": "电气回路",
+      "original_filename": "H21-am.pdf",
+      "path": "2008_exam_2009_entry/H21-am.pdf",
+      "pages": 5,
+      "bytes": 157590,
+      "sha256": "d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd",
+      "source_url": "https://web.archive.org/web/20120602005044id_/http://www.ee.titech.ac.jp:80/data/H21-am.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2008
+      ],
+      "repositoryPath": "assets/past-papers/documents/d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd.pdf"
+    },
+    {
+      "exam_year": 2008,
+      "entry_year": 2009,
+      "part": "电磁气学",
+      "original_filename": "H21-pm.pdf",
+      "path": "2008_exam_2009_entry/H21-pm.pdf",
+      "pages": 3,
+      "bytes": 180985,
+      "sha256": "da6832a8567f30c986c7af7649f3b7d5b8bfc6d3512036634cb1374e765dfc63",
+      "source_url": "https://web.archive.org/web/20120602004824id_/http://www.ee.titech.ac.jp:80/data/H21-pm.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2008
+      ],
+      "repositoryPath": "assets/past-papers/documents/da6832a8567f30c986c7af7649f3b7d5b8bfc6d3512036634cb1374e765dfc63.pdf"
+    },
+    {
+      "exam_year": 2009,
+      "entry_year": 2010,
+      "part": "电气回路",
+      "original_filename": "H22-am.pdf",
+      "path": "2009_exam_2010_entry/H22-am.pdf",
+      "pages": 5,
+      "bytes": 220361,
+      "sha256": "dac5afe7b2d24a5c7169d2aaec9991ede0574b5e9fc4e3f3862658cace8f0078",
+      "source_url": "https://web.archive.org/web/20120602004829id_/http://www.ee.titech.ac.jp:80/data/H22-am.pdf",
+      "note": "原PDF封面印作“平成20年8月18日”，与H22入学年度及“22大修”不一致；实施年按2010入学年度推定为2009。保留原件。",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2009
+      ],
+      "repositoryPath": "assets/past-papers/documents/dac5afe7b2d24a5c7169d2aaec9991ede0574b5e9fc4e3f3862658cace8f0078.pdf"
+    },
+    {
+      "exam_year": 2009,
+      "entry_year": 2010,
+      "part": "电磁气学",
+      "original_filename": "H22-pm.pdf",
+      "path": "2009_exam_2010_entry/H22-pm.pdf",
+      "pages": 5,
+      "bytes": 309717,
+      "sha256": "b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c",
+      "source_url": "https://web.archive.org/web/20120602005051id_/http://www.ee.titech.ac.jp:80/data/H22-pm.pdf",
+      "note": "原PDF封面印作“平成20年8月18日”，与H22入学年度及“22大修”不一致；实施年按2010入学年度推定为2009。保留原件。",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2009
+      ],
+      "repositoryPath": "assets/past-papers/documents/b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c.pdf"
+    },
+    {
+      "exam_year": 2010,
+      "entry_year": 2011,
+      "part": "电气回路",
+      "original_filename": "H23-amP.pdf",
+      "path": "2010_exam_2011_entry/H23-amP.pdf",
+      "pages": 5,
+      "bytes": 1136874,
+      "sha256": "3d75940be17d0a48f13cb610a21c972da7851205b95ebd6b994071cab4258671",
+      "source_url": "https://web.archive.org/web/20120602004846id_/http://www.ee.titech.ac.jp:80/data/H23-amP.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2010
+      ],
+      "repositoryPath": "assets/past-papers/documents/3d75940be17d0a48f13cb610a21c972da7851205b95ebd6b994071cab4258671.pdf"
+    },
+    {
+      "exam_year": 2010,
+      "entry_year": 2011,
+      "part": "电磁气学",
+      "original_filename": "H23-pmP.pdf",
+      "path": "2010_exam_2011_entry/H23-pmP.pdf",
+      "pages": 4,
+      "bytes": 1336633,
+      "sha256": "369287650eb32981265e973381b86349e89ce6fdc7e7ab41ea7574412080dfa1",
+      "source_url": "https://web.archive.org/web/20120602005057id_/http://www.ee.titech.ac.jp:80/data/H23-pmP.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2010
+      ],
+      "repositoryPath": "assets/past-papers/documents/369287650eb32981265e973381b86349e89ce6fdc7e7ab41ea7574412080dfa1.pdf"
+    },
+    {
+      "exam_year": 2011,
+      "entry_year": 2012,
+      "part": "电气回路",
+      "original_filename": "H24-amP.pdf",
+      "path": "2011_exam_2012_entry/H24-amP.pdf",
+      "pages": 4,
+      "bytes": 220682,
+      "sha256": "240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269",
+      "source_url": "https://web.archive.org/web/20130512050443id_/http://www.ee.titech.ac.jp:80/data/H24-amP.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2011
+      ],
+      "repositoryPath": "assets/past-papers/documents/240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269.pdf"
+    },
+    {
+      "exam_year": 2011,
+      "entry_year": 2012,
+      "part": "电磁气学",
+      "original_filename": "H24-pmP.pdf",
+      "path": "2011_exam_2012_entry/H24-pmP.pdf",
+      "pages": 3,
+      "bytes": 259797,
+      "sha256": "d5eb0179c8567543a5c96722e61f9c5d09129c3fa07e06d78c574c2e5ce77068",
+      "source_url": "https://web.archive.org/web/20130512050455id_/http://www.ee.titech.ac.jp:80/data/H24-pmP.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2011
+      ],
+      "repositoryPath": "assets/past-papers/documents/d5eb0179c8567543a5c96722e61f9c5d09129c3fa07e06d78c574c2e5ce77068.pdf"
+    },
+    {
+      "exam_year": 2012,
+      "entry_year": 2013,
+      "part": "电气数学",
+      "original_filename": "H25-amP.pdf",
+      "path": "2012_exam_2013_entry/H25-amP.pdf",
+      "pages": 4,
+      "bytes": 246066,
+      "sha256": "400165399d4f0ed5f6b756e4fce4c572ca672e26dd48ac5fe54f107a0df11d83",
+      "source_url": "https://web.archive.org/web/20160327235146id_/http://www.ee.titech.ac.jp:80/data/H25-amP.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2012
+      ],
+      "repositoryPath": "assets/past-papers/documents/400165399d4f0ed5f6b756e4fce4c572ca672e26dd48ac5fe54f107a0df11d83.pdf"
+    },
+    {
+      "exam_year": 2012,
+      "entry_year": 2013,
+      "part": "电气回路",
+      "original_filename": "H25-pmP1.pdf",
+      "path": "2012_exam_2013_entry/H25-pmP1.pdf",
+      "pages": 5,
+      "bytes": 380197,
+      "sha256": "ae0024f5b185db733fab6d7033b3cfb4278361b05b4d9f4bcc290e98690de058",
+      "source_url": "https://web.archive.org/web/20160328012135id_/http://www.ee.titech.ac.jp:80/data/H25-pmP1.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2012
+      ],
+      "repositoryPath": "assets/past-papers/documents/ae0024f5b185db733fab6d7033b3cfb4278361b05b4d9f4bcc290e98690de058.pdf"
+    },
+    {
+      "exam_year": 2012,
+      "entry_year": 2013,
+      "part": "电磁气学",
+      "original_filename": "H25-pmP2.pdf",
+      "path": "2012_exam_2013_entry/H25-pmP2.pdf",
+      "pages": 3,
+      "bytes": 339112,
+      "sha256": "7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3",
+      "source_url": "https://web.archive.org/web/20170428140912id_/http://www.ee.titech.ac.jp:80/data/H25-pmP2.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2012
+      ],
+      "repositoryPath": "assets/past-papers/documents/7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3.pdf"
+    },
+    {
+      "exam_year": 2013,
+      "entry_year": 2014,
+      "part": "电气数学",
+      "original_filename": "H26-amP.pdf",
+      "path": "2013_exam_2014_entry/H26-amP.pdf",
+      "pages": 5,
+      "bytes": 362325,
+      "sha256": "35af31c311bee20777e24e47adb516296d8cdcd3af6a7f7ebeb876dd14960b01",
+      "source_url": "https://web.archive.org/web/20160327235253id_/http://www.ee.titech.ac.jp:80/data/H26-amP.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2013
+      ],
+      "repositoryPath": "assets/past-papers/documents/35af31c311bee20777e24e47adb516296d8cdcd3af6a7f7ebeb876dd14960b01.pdf"
+    },
+    {
+      "exam_year": 2013,
+      "entry_year": 2014,
+      "part": "电气回路",
+      "original_filename": "H26-pmP1.pdf",
+      "path": "2013_exam_2014_entry/H26-pmP1.pdf",
+      "pages": 5,
+      "bytes": 333606,
+      "sha256": "17df41570186215669fca8f9f6828f3839b502370c1120b2dc7ff160270785da",
+      "source_url": "https://web.archive.org/web/20160327235256id_/http://www.ee.titech.ac.jp:80/data/H26-pmP1.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2013
+      ],
+      "repositoryPath": "assets/past-papers/documents/17df41570186215669fca8f9f6828f3839b502370c1120b2dc7ff160270785da.pdf"
+    },
+    {
+      "exam_year": 2013,
+      "entry_year": 2014,
+      "part": "电磁气学",
+      "original_filename": "H26-pmP2.pdf",
+      "path": "2013_exam_2014_entry/H26-pmP2.pdf",
+      "pages": 6,
+      "bytes": 820490,
+      "sha256": "0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea",
+      "source_url": "https://web.archive.org/web/20160327185049id_/http://www.ee.titech.ac.jp:80/data/H26-pmP2.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2013
+      ],
+      "repositoryPath": "assets/past-papers/documents/0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea.pdf"
+    },
+    {
+      "exam_year": 2014,
+      "entry_year": 2015,
+      "part": "电气数学",
+      "original_filename": "H27-amP.pdf",
+      "path": "2014_exam_2015_entry/H27-amP.pdf",
+      "pages": 4,
+      "bytes": 224419,
+      "sha256": "e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80",
+      "source_url": "https://web.archive.org/web/20160328012138id_/http://www.ee.titech.ac.jp:80/data/H27-amP.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2014
+      ],
+      "repositoryPath": "assets/past-papers/documents/e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80.pdf"
+    },
+    {
+      "exam_year": 2014,
+      "entry_year": 2015,
+      "part": "电气回路",
+      "original_filename": "H27-pmP1.pdf",
+      "path": "2014_exam_2015_entry/H27-pmP1.pdf",
+      "pages": 4,
+      "bytes": 315226,
+      "sha256": "47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291",
+      "source_url": "https://web.archive.org/web/20160327185052id_/http://www.ee.titech.ac.jp:80/data/H27-pmP1.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2014
+      ],
+      "repositoryPath": "assets/past-papers/documents/47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291.pdf"
+    },
+    {
+      "exam_year": 2014,
+      "entry_year": 2015,
+      "part": "电磁气学",
+      "original_filename": "H27-pmP2.pdf",
+      "path": "2014_exam_2015_entry/H27-pmP2.pdf",
+      "pages": 4,
+      "bytes": 276824,
+      "sha256": "3d4e19f0cce396e016cf2aab197694e78b932c44b87f0afce1b23b8d764aa3cd",
+      "source_url": "https://web.archive.org/web/20160328012143id_/http://www.ee.titech.ac.jp:80/data/H27-pmP2.pdf",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2014
+      ],
+      "repositoryPath": "assets/past-papers/documents/3d4e19f0cce396e016cf2aab197694e78b932c44b87f0afce1b23b8d764aa3cd.pdf"
+    },
+    {
+      "exam_year": 2015,
+      "entry_year": 2016,
+      "part": "电气回路",
+      "original_filename": "H28回路.pdf",
+      "path": "2015_exam_2016_entry/H28回路.pdf",
+      "pages": 4,
+      "bytes": 203118,
+      "sha256": "a94332beb49297f04b84d48a4f30fadce2d9db308d56e5de2dee5e0e875b27a4",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H28%E5%9B%9E%E8%B7%AF.pdf",
+      "note": "卷面28大修，与2016入学年度对应；并非H28实施/2017入学卷。",
+      "status": "套卷组成",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2015
+      ],
+      "repositoryPath": "assets/past-papers/documents/a94332beb49297f04b84d48a4f30fadce2d9db308d56e5de2dee5e0e875b27a4.pdf"
+    },
+    {
+      "exam_year": 2015,
+      "entry_year": 2016,
+      "part": "电气数学",
+      "original_filename": "H28数学.pdf",
+      "path": "2015_exam_2016_entry/H28数学.pdf",
+      "pages": 4,
+      "bytes": 347226,
+      "sha256": "75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H28%E6%95%B0%E5%AD%A6.pdf",
+      "note": "卷面28大修，与2016入学年度对应；并非H28实施/2017入学卷。",
+      "status": "套卷组成",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2015
+      ],
+      "repositoryPath": "assets/past-papers/documents/75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9.pdf"
+    },
+    {
+      "exam_year": 2015,
+      "entry_year": 2016,
+      "part": "电磁气学",
+      "original_filename": "H28電磁気.pdf",
+      "path": "2015_exam_2016_entry/H28電磁気.pdf",
+      "pages": 4,
+      "bytes": 213006,
+      "sha256": "59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/H28%E9%9B%BB%E7%A3%81%E6%B0%97.pdf",
+      "note": "卷面28大修，与2016入学年度对应；并非H28实施/2017入学卷。",
+      "status": "套卷组成",
+      "source_type": "公开资料库备份；核对卷面",
+      "coverage": [
+        2015
+      ],
+      "repositoryPath": "assets/past-papers/documents/59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e.pdf"
+    },
+    {
+      "exam_year": 2016,
+      "entry_year": 2017,
+      "part": "专业科目合卷",
+      "original_filename": "ee_h28.pdf",
+      "path": "2016_exam_2017_entry/ee_h28.pdf",
+      "pages": 15,
+      "bytes": 1695609,
+      "sha256": "961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1",
+      "source_url": "https://web.archive.org/web/20190619030942id_/https://www.titech.ac.jp/graduate_school/admissions/pdf/ee_h28.pdf",
+      "note": "原页面H年度/R年度为实施年度；PDF封面为下一年入学年度。",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2016
+      ],
+      "repositoryPath": "assets/past-papers/documents/961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1.pdf"
+    },
+    {
+      "exam_year": 2017,
+      "entry_year": 2018,
+      "part": "专业科目合卷",
+      "original_filename": "ee_h29.pdf",
+      "path": "2017_exam_2018_entry/ee_h29.pdf",
+      "pages": 14,
+      "bytes": 722907,
+      "sha256": "835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba",
+      "source_url": "https://web.archive.org/web/20210120014728id_/https://www.titech.ac.jp/graduate_school/admissions/pdf/ee_h29.pdf",
+      "note": "原页面H年度/R年度为实施年度；PDF封面为下一年入学年度。",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2017
+      ],
+      "repositoryPath": "assets/past-papers/documents/835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba.pdf"
+    },
+    {
+      "exam_year": 2018,
+      "entry_year": 2019,
+      "part": "专业科目合卷",
+      "original_filename": "ee_h30.pdf",
+      "path": "2018_exam_2019_entry/ee_h30.pdf",
+      "pages": 16,
+      "bytes": 804598,
+      "sha256": "8e0c507c5c821e492b92cc6bed747799e9d9813418f4a938dd9ea8b9acc9908c",
+      "source_url": "https://web.archive.org/web/20200927045652id_/https://www.titech.ac.jp/graduate_school/admissions/pdf/ee_h30.pdf",
+      "note": "原页面H年度/R年度为实施年度；PDF封面为下一年入学年度。",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2018
+      ],
+      "repositoryPath": "assets/past-papers/documents/8e0c507c5c821e492b92cc6bed747799e9d9813418f4a938dd9ea8b9acc9908c.pdf"
+    },
+    {
+      "exam_year": 2019,
+      "entry_year": 2020,
+      "part": "专业科目合卷",
+      "original_filename": "82-ee-r1.pdf",
+      "path": "2019_exam_2020_entry/82-ee-r1.pdf",
+      "pages": 12,
+      "bytes": 2258735,
+      "sha256": "77395e7d54da336c129e8617e3c91d5f39456502e4b4366a1e1c65e4e7a8c2c0",
+      "source_url": "https://web.archive.org/web/20211201162425id_/https://www.titech.ac.jp/admissions/pdf/82-ee-r1.pdf",
+      "note": "原页面H年度/R年度为实施年度；PDF封面为下一年入学年度。",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2019
+      ],
+      "repositoryPath": "assets/past-papers/documents/77395e7d54da336c129e8617e3c91d5f39456502e4b4366a1e1c65e4e7a8c2c0.pdf"
+    },
+    {
+      "exam_year": 2021,
+      "entry_year": 2022,
+      "part": "专业科目合卷",
+      "original_filename": "exam_ee_20218.pdf",
+      "path": "2021_exam_2022_entry/exam_ee_20218.pdf",
+      "pages": 11,
+      "bytes": 1254451,
+      "sha256": "0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291",
+      "source_url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3186&contentsId=&contentsDataId=&prevId=&key=cd5c2ecd3d4dc49c5c29e8de8374f19b.pdf&fileName=exam_ee_20218",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2021
+      ],
+      "repositoryPath": "assets/past-papers/documents/0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291.pdf"
+    },
+    {
+      "exam_year": 2022,
+      "entry_year": 2023,
+      "part": "专业科目合卷",
+      "original_filename": "exam_ee_20228.pdf",
+      "path": "2022_exam_2023_entry/exam_ee_20228.pdf",
+      "pages": 11,
+      "bytes": 708559,
+      "sha256": "91ca87178337c261e0e46befaf438d1b8455695cbed7961ab0192bcc5417a838",
+      "source_url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3186&contentsId=&contentsDataId=&prevId=&key=abfd9c7a6fd609823935c85161ab2abd.pdf&fileName=exam_ee_20228",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2022
+      ],
+      "repositoryPath": "assets/past-papers/documents/91ca87178337c261e0e46befaf438d1b8455695cbed7961ab0192bcc5417a838.pdf"
+    },
+    {
+      "exam_year": 2023,
+      "entry_year": 2024,
+      "part": "专业科目合卷",
+      "original_filename": "exam_ee_20238.pdf",
+      "path": "2023_exam_2024_entry/exam_ee_20238.pdf",
+      "pages": 13,
+      "bytes": 1681301,
+      "sha256": "1657f2c46e336697d407606542f9fd4822d6f3040259fcfc9b59dad3f951ea0e",
+      "source_url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3186&contentsId=&contentsDataId=&prevId=&key=3461b477e949262187dc4964e80871b3.pdf&fileName=exam_ee_20238",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2023
+      ],
+      "repositoryPath": "assets/past-papers/documents/1657f2c46e336697d407606542f9fd4822d6f3040259fcfc9b59dad3f951ea0e.pdf"
+    },
+    {
+      "exam_year": 2024,
+      "entry_year": 2025,
+      "part": "专业科目合卷",
+      "original_filename": "exam_ee_20248.pdf",
+      "path": "2024_exam_2025_entry/exam_ee_20248.pdf",
+      "pages": 13,
+      "bytes": 2516193,
+      "sha256": "655d886a6ab8a146f8dce78aa4b9290e3a5ab344f1744d0aa05c967720e6fae9",
+      "source_url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3186&contentsId=&contentsDataId=&prevId=&key=c1ddb69e09ea593f0985ed8f023a4c72.pdf&fileName=exam_ee_20248",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2024
+      ],
+      "repositoryPath": "assets/past-papers/documents/655d886a6ab8a146f8dce78aa4b9290e3a5ab344f1744d0aa05c967720e6fae9.pdf"
+    },
+    {
+      "exam_year": 2025,
+      "entry_year": 2026,
+      "part": "专业科目合卷",
+      "original_filename": "exam_ee_20258.pdf",
+      "path": "2025_exam_2026_entry/exam_ee_20258.pdf",
+      "pages": 12,
+      "bytes": 1549374,
+      "sha256": "f87484a3abc7423c64c609566774d93f4d74d4c6b4c14fae938319922619b272",
+      "source_url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3186&contentsId=&contentsDataId=&prevId=&key=f44db8ff1122f781452656fb2926718b.pdf&fileName=exam_ee_20258",
+      "note": "",
+      "status": "套卷组成／合卷",
+      "source_type": "官方现行PDF或官方历史快照",
+      "coverage": [
+        2025
+      ],
+      "repositoryPath": "assets/past-papers/documents/f87484a3abc7423c64c609566774d93f4d74d4c6b4c14fae938319922619b272.pdf"
+    },
+    {
+      "path": "extras/POQ_ee_20258.pdf",
+      "original_filename": "POQ_ee_20258.pdf",
+      "sha256": "ac464f094bc782eb68f51f9115044566f4a20fef5c00593b4d1f85b68e4806b6",
+      "bytes": 536739,
+      "pages": 5,
+      "part": "2025年官方出题意图（非解答）",
+      "status": "官方补充资料",
+      "source_url": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions",
+      "repositoryPath": "assets/past-papers/documents/ac464f094bc782eb68f51f9115044566f4a20fef5c00593b4d1f85b68e4806b6.pdf"
+    },
+    {
+      "path": "unverified/R03_photos_unverified.pdf",
+      "original_filename": "R03_photos_unverified.pdf",
+      "sha256": "709ac8d084b1efcbb34daffaa97a113e4bed324cecef6cf0ef950959377b305e",
+      "bytes": 540077,
+      "pages": 3,
+      "part": "待核验R03照片 · 学校／年份未确认",
+      "status": "待核验",
+      "source_url": "https://github.com/Natsume0129/jpCSEE_past_entrance_exam_paper/blob/84a9b04a8d5cf6220d673f049647ed3812e9a8d4/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/%E9%9B%BB%E6%B0%97%E9%9B%BB%E5%AD%90/R03.pdf",
+      "repositoryPath": "assets/past-papers/documents/709ac8d084b1efcbb34daffaa97a113e4bed324cecef6cf0ef950959377b305e.pdf"
+    }
+  ]
+}

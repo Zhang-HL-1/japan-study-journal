@@ -57,6 +57,8 @@
   }
   function render(){
     updateOptions();renderSchools();const matches=core.filter(papers,universities,state);
+    const note=get('paper-school-note'),schoolNote=data.schoolNotes?.[state.school];note.replaceChildren();note.hidden=!schoolNote;
+    if(schoolNote){note.append(el('p',schoolNote.text));(schoolNote.supplements||[]).forEach(file=>{const url=core.fileURL(file);if(url)note.append(link(file.label+' ↗',url));});}
     const heading=state.school==='all'?'全部学校':schoolName(state.school);get('paper-results-title').textContent=heading;
     get('paper-results-count').textContent=`${matches.length} 份真题${papers.length===0?' · 尚未添加真题':''}`;
     const results=get('paper-results');results.replaceChildren(...matches.map(p=>{const n=button('',()=>openPaper(p),'paper-result');n.dataset.paper=p.id;n.setAttribute('aria-pressed',String(selected===p.id));n.append(el('small',`${schoolName(p.universityId)} · ${core.yearOf(p)}年`),el('strong',p.title),el('span',[p.graduateSchool,p.department,p.selectionName].filter(Boolean).join(' / ')),el('small','阅读原卷 →'));return n;}));
