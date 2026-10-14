@@ -3,7 +3,22 @@ const core=require('../past-papers-core.js'),catalog=require('../campus-map-data
 const all={school:'all',graduate:'all',year:'all',query:''};
 // Synthetic metadata tests only; these are not past questions and never enter the production catalog.
 const sample=(changes={})=>({id:'test-paper-1',universityId:'utokyo',title:'Test metadata',graduateSchool:'工学系研究科',department:'テスト専攻',selectionName:'テスト選抜',examYear:2025,subjects:['電気回路'],files:[{label:'問題',kind:'question',url:'assets/past-papers/test-only.pdf'}],...changes});
-test('production publishes Waseda, TUS and Science Tokyo originals while the quiz bank stays empty',()=>{assert.equal(production.version,2);assert.equal(production.papers.length,129);for(const p of production.papers){assert.ok(['waseda','tus','science-tokyo'].includes(p.universityId));assert.ok(core.validPaper(p,catalog.universities));}assert.equal(new Set(production.papers.flatMap(p=>p.files.map(f=>f.url))).size,211);assert.deepEqual(require('../questions.js'),[]);assert.equal(catalog.universities.length,23);});
+test('production publishes four university archives while the quiz bank stays empty',()=>{assert.equal(production.version,2);assert.equal(production.papers.length,135);for(const p of production.papers){assert.ok(['waseda','tus','science-tokyo','sophia'].includes(p.universityId));assert.ok(core.validPaper(p,catalog.universities));}assert.equal(new Set(production.papers.flatMap(p=>p.files.map(f=>f.url))).size,215);assert.deepEqual(require('../questions.js'),[]);assert.equal(catalog.universities.length,23);});
+test('Sophia shares original combined PDFs with correct exam dates and question/answer offsets',()=>{
+ const crypto=require('node:crypto'),manifest=require('../assets/past-papers/sophia-import-manifest.json'),papers=production.papers.filter(p=>p.universityId==='sophia');
+ assert.equal(papers.length,6);assert.equal(manifest.files.length,4);assert.equal(manifest.sourceFiles,4);assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,4);
+ for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);if(f.kind==='answer'){assert.equal(f.officialByteMatch,true);assert.match(f.officialURL,/^https:\/\/adm\.sophia\.ac\.jp\//);}}
+ for(const p of papers){assert.equal(p.paperYear,2025);assert.equal(p.yearBasis,'academic');assert.deepEqual(p.admissionYears,[2025]);assert.equal(p.department,'理工学専攻');assert.equal(p.examYear,Number(p.examDates[0].slice(0,4)));assert.equal(p.files[1].answerProvenance,'official-published');for(const f of p.files){assert.ok(f.startPage<=f.endPage&&f.endPage<=f.pages);assert.match(core.fileURL(f),new RegExp('#page='+f.startPage+'$'));}}
+ for(const [key,date,questionStarts,answerStarts] of [['september','2024-09-11',[1,11,43],[1,11,34]],['february','2025-02-16',[1,11,38],[1,11,29]]]){
+  ['mechanical','electrical','information'].forEach((subject,i)=>{const p=papers.find(p=>p.id===`sophia-scitec-2025-${key}-${subject}`);assert.deepEqual(p.examDates,[date]);assert.equal(p.files[0].startPage,questionStarts[i]);assert.equal(p.files[1].startPage,answerStarts[i]);});
+ }
+ assert.match(papers.find(p=>p.id==='sophia-scitec-2025-february-mechanical').sourceNote,/第10页.*2024年度.*冲突/);
+ assert.equal(core.filter(papers,catalog.universities,{...all,school:'sophia',year:'2025',query:'电气电子'}).length,2);
+ assert.equal(core.filter(papers,catalog.universities,{...all,school:'sophia',query:'2024-09-11'}).length,3);
+ assert.match(production.schoolNotes.sophia.text,/共享4个完整原合册/);
+ // Protect all previously published records against changes during the next school import.
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(production.papers.filter(p=>['waseda','tus','science-tokyo'].includes(p.universityId)))).digest('hex'),'d1b2db63f10d58346a2a4a273e249f141420e807466d3884ce6008ad311833d6');
+});
 test('past-paper metadata requires known universities, valid years and actual document entries',()=>{
  assert.equal(core.validPaper(sample(),catalog.universities),true);
  for(const changes of [{id:''},{universityId:'unknown'},{title:''},{graduateSchool:''},{selectionName:''},{examYear:'2025'},{examYear:0},{files:[]},{files:[{label:'問題',kind:'question',url:'javascript:alert(1)'}]},{subjects:'電気回路'},{examDates:'2025-01-07'},{examDates:['2025']}])assert.equal(core.validPaper(sample(changes),catalog.universities),false);

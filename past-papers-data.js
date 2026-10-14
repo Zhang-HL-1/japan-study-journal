@@ -1,6 +1,6 @@
 (function(root){'use strict';const data={
   "version": 2,
-  "importedAt": "2026-10-13",
+  "importedAt": "2026-10-14",
   "papers": [
     {
       "id": "waseda-de3870f916a18dec",
@@ -6151,6 +6151,342 @@
       ],
       "sourceNote": "本校按实际考试实施年索引，入学年度另列。来源为学校官网／历史快照及公开资料库备份；PDF保留原件。 ",
       "sourceURL": "https://admissions.isct.ac.jp/ja/013/graduate/examination-questions"
+    },
+    {
+      "id": "sophia-scitec-2025-september-mechanical",
+      "universityId": "sophia",
+      "title": "2025年度 · 9月入試 · 機械工学基礎（机械工学基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 9月入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025年度大学院入学試験 · 9月入試",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-09-11"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "機械工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 機械工学基礎 · PDF第1—10页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "originalName": "2025_scitectest_sep.pdf",
+          "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
+          "byteSize": 4570287,
+          "pages": 50,
+          "sourcePaths": [
+            "上智大学/2025_scitectest_sep.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10
+        },
+        {
+          "label": "解答／解答例原合册 · 機械工学基礎 · PDF第1—10页",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "originalName": "scitec_kaitourei_25sep.pdf",
+          "sha256": "14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91",
+          "byteSize": 1648295,
+          "pages": 40,
+          "sourcePaths": [
+            "上智大学/scitec_kaitourei_25sep.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10,
+          "answerProvenance": "official-published"
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／上智大学”提供的完整原合册。2025年度为入学年度；实际笔试日期为2024-09-11。本题群问题见原合册PDF第1—10页，解答／解答例见对应合册PDF第1—10页。两个解答合册均与学校官方发布PDF逐字节一致。题群为理工基礎的选择科目，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。",
+      "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25sep.pdf"
+    },
+    {
+      "id": "sophia-scitec-2025-september-electrical",
+      "universityId": "sophia",
+      "title": "2025年度 · 9月入試 · 電気・電子工学基礎（电气电子基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 9月入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025年度大学院入学試験 · 9月入試",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-09-11"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11—17页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "originalName": "2025_scitectest_sep.pdf",
+          "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
+          "byteSize": 4570287,
+          "pages": 50,
+          "sourcePaths": [
+            "上智大学/2025_scitectest_sep.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 17
+        },
+        {
+          "label": "解答／解答例原合册 · 電気・電子工学基礎 · PDF第11—12页",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "originalName": "scitec_kaitourei_25sep.pdf",
+          "sha256": "14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91",
+          "byteSize": 1648295,
+          "pages": 40,
+          "sourcePaths": [
+            "上智大学/scitec_kaitourei_25sep.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 12,
+          "answerProvenance": "official-published"
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／上智大学”提供的完整原合册。2025年度为入学年度；实际笔试日期为2024-09-11。本题群问题见原合册PDF第11—17页，解答／解答例见对应合册PDF第11—12页。两个解答合册均与学校官方发布PDF逐字节一致。题群为理工基礎的选择科目，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。",
+      "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25sep.pdf"
+    },
+    {
+      "id": "sophia-scitec-2025-september-information",
+      "universityId": "sophia",
+      "title": "2025年度 · 9月入試 · 情報学基礎（信息学基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 9月入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025年度大学院入学試験 · 9月入試",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-09-11"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "情報学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 情報学基礎 · PDF第43—50页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "originalName": "2025_scitectest_sep.pdf",
+          "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
+          "byteSize": 4570287,
+          "pages": 50,
+          "sourcePaths": [
+            "上智大学/2025_scitectest_sep.pdf"
+          ],
+          "startPage": 43,
+          "endPage": 50
+        },
+        {
+          "label": "解答／解答例原合册 · 情報学基礎 · PDF第34—40页",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "originalName": "scitec_kaitourei_25sep.pdf",
+          "sha256": "14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91",
+          "byteSize": 1648295,
+          "pages": 40,
+          "sourcePaths": [
+            "上智大学/scitec_kaitourei_25sep.pdf"
+          ],
+          "startPage": 34,
+          "endPage": 40,
+          "answerProvenance": "official-published"
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／上智大学”提供的完整原合册。2025年度为入学年度；实际笔试日期为2024-09-11。本题群问题见原合册PDF第43—50页，解答／解答例见对应合册PDF第34—40页。两个解答合册均与学校官方发布PDF逐字节一致。题群为理工基礎的选择科目，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。",
+      "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25sep.pdf"
+    },
+    {
+      "id": "sophia-scitec-2025-february-mechanical",
+      "universityId": "sophia",
+      "title": "2025年度 · 2月入試 · 機械工学基礎（机械工学基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 2月入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025年度大学院入学試験 · 2月入試",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-02-16"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "機械工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 機械工学基礎 · PDF第1—10页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "originalName": "2025_scitectest_feb.pdf",
+          "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
+          "byteSize": 2640749,
+          "pages": 45,
+          "sourcePaths": [
+            "上智大学/2025_scitectest_feb.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10
+        },
+        {
+          "label": "解答／解答例原合册 · 機械工学基礎 · PDF第1—10页",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "originalName": "scitec_kaitourei_25feb.pdf",
+          "sha256": "0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d",
+          "byteSize": 1343146,
+          "pages": 34,
+          "sourcePaths": [
+            "上智大学/scitec_kaitourei_25feb.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10,
+          "answerProvenance": "official-published"
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／上智大学”提供的完整原合册。2025年度为入学年度；实际笔试日期为2025-02-16。本题群问题见原合册PDF第1—10页，解答／解答例见对应合册PDF第1—10页。两个解答合册均与学校官方发布PDF逐字节一致。题群为理工基礎的选择科目，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。 2月问题合册第10页页眉印作“2024年度／2024年2月16日”，与本题群封面及其余页的2025年度冲突；原印字保留，不据此另建2024年度条目。",
+      "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25feb.pdf"
+    },
+    {
+      "id": "sophia-scitec-2025-february-electrical",
+      "universityId": "sophia",
+      "title": "2025年度 · 2月入試 · 電気・電子工学基礎（电气电子基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 2月入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025年度大学院入学試験 · 2月入試",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-02-16"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11—17页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "originalName": "2025_scitectest_feb.pdf",
+          "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
+          "byteSize": 2640749,
+          "pages": 45,
+          "sourcePaths": [
+            "上智大学/2025_scitectest_feb.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 17
+        },
+        {
+          "label": "解答／解答例原合册 · 電気・電子工学基礎 · PDF第11—11页",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "originalName": "scitec_kaitourei_25feb.pdf",
+          "sha256": "0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d",
+          "byteSize": 1343146,
+          "pages": 34,
+          "sourcePaths": [
+            "上智大学/scitec_kaitourei_25feb.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 11,
+          "answerProvenance": "official-published"
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／上智大学”提供的完整原合册。2025年度为入学年度；实际笔试日期为2025-02-16。本题群问题见原合册PDF第11—17页，解答／解答例见对应合册PDF第11—11页。两个解答合册均与学校官方发布PDF逐字节一致。题群为理工基礎的选择科目，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。",
+      "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25feb.pdf"
+    },
+    {
+      "id": "sophia-scitec-2025-february-information",
+      "universityId": "sophia",
+      "title": "2025年度 · 2月入試 · 情報学基礎（信息学基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 2月入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025年度大学院入学試験 · 2月入試",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-02-16"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "情報学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 情報学基礎 · PDF第38—45页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "originalName": "2025_scitectest_feb.pdf",
+          "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
+          "byteSize": 2640749,
+          "pages": 45,
+          "sourcePaths": [
+            "上智大学/2025_scitectest_feb.pdf"
+          ],
+          "startPage": 38,
+          "endPage": 45
+        },
+        {
+          "label": "解答／解答例原合册 · 情報学基礎 · PDF第29—34页",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "originalName": "scitec_kaitourei_25feb.pdf",
+          "sha256": "0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d",
+          "byteSize": 1343146,
+          "pages": 34,
+          "sourcePaths": [
+            "上智大学/scitec_kaitourei_25feb.pdf"
+          ],
+          "startPage": 29,
+          "endPage": 34,
+          "answerProvenance": "official-published"
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／上智大学”提供的完整原合册。2025年度为入学年度；实际笔试日期为2025-02-16。本题群问题见原合册PDF第38—45页，解答／解答例见对应合册PDF第29—34页。两个解答合册均与学校官方发布PDF逐字节一致。题群为理工基礎的选择科目，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。",
+      "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25feb.pdf"
     }
   ],
   "schoolNotes": {
@@ -6171,6 +6507,9 @@
           "startPage": 1
         }
       ]
+    },
+    "sophia": {
+      "text": "收录2025入学年度9月、2月两次考试，实际笔试分别为2024-09-11、2025-02-16。机械、电气电子、信息学三个题群各设入口，共6组，共享4个完整原合册（2个问题、2个解答／解答例），不是6套不同试卷。选择题群不与志望领域强行绑定；整册其他题群原样保留。云盘此校没有更多年度资料，不声明连续年份完整覆盖。"
     }
   }
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);

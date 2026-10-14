@@ -1,0 +1,197 @@
+{
+  "importedAt": "2026-10-14",
+  "universityId": "sophia",
+  "sourceFolder": "Google Drive／过去问／上智大学",
+  "sourceFiles": 4,
+  "uniquePDFs": 4,
+  "groups": 6,
+  "academicYears": [
+    2025
+  ],
+  "examDates": [
+    "2024-09-11",
+    "2025-02-16"
+  ],
+  "indexedSubjects": [
+    "機械工学基礎",
+    "電気・電子工学基礎",
+    "情報学基礎"
+  ],
+  "coverageNote": "收录2025入学年度9月、2月两次考试，实际笔试分别为2024-09-11、2025-02-16。机械、电气电子、信息学三个题群各设入口，共6组，共享4个完整原合册（2个问题、2个解答／解答例），不是6套不同试卷。选择题群不与志望领域强行绑定；整册其他题群原样保留。云盘此校没有更多年度资料，不声明连续年份完整覆盖。",
+  "files": [
+    {
+      "originalName": "2025_scitectest_feb.pdf",
+      "path": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+      "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
+      "byteSize": 2640749,
+      "pages": 45,
+      "kind": "question",
+      "sourcePaths": [
+        "上智大学/2025_scitectest_feb.pdf"
+      ],
+      "sourceType": "用户Google Drive原件；核对卷面与对应题群"
+    },
+    {
+      "originalName": "2025_scitectest_sep.pdf",
+      "path": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+      "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
+      "byteSize": 4570287,
+      "pages": 50,
+      "kind": "question",
+      "sourcePaths": [
+        "上智大学/2025_scitectest_sep.pdf"
+      ],
+      "sourceType": "用户Google Drive原件；核对卷面与对应题群"
+    },
+    {
+      "originalName": "scitec_kaitourei_25feb.pdf",
+      "path": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+      "sha256": "0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d",
+      "byteSize": 1343146,
+      "pages": 34,
+      "kind": "answer",
+      "sourcePaths": [
+        "上智大学/scitec_kaitourei_25feb.pdf"
+      ],
+      "sourceType": "用户Google Drive原件；核对卷面与对应题群",
+      "officialURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25feb.pdf",
+      "officialByteMatch": true,
+      "answerProvenance": "official-published"
+    },
+    {
+      "originalName": "scitec_kaitourei_25sep.pdf",
+      "path": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+      "sha256": "14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91",
+      "byteSize": 1648295,
+      "pages": 40,
+      "kind": "answer",
+      "sourcePaths": [
+        "上智大学/scitec_kaitourei_25sep.pdf"
+      ],
+      "sourceType": "用户Google Drive原件；核对卷面与对应题群",
+      "officialURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25sep.pdf",
+      "officialByteMatch": true,
+      "answerProvenance": "official-published"
+    }
+  ],
+  "sections": [
+    {
+      "paperId": "sophia-scitec-2025-september-mechanical",
+      "examDate": "2024-09-11",
+      "subject": "機械工学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "kind": "question",
+          "startPage": 1,
+          "endPage": 10
+        },
+        {
+          "path": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "kind": "answer",
+          "startPage": 1,
+          "endPage": 10
+        }
+      ]
+    },
+    {
+      "paperId": "sophia-scitec-2025-september-electrical",
+      "examDate": "2024-09-11",
+      "subject": "電気・電子工学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "kind": "question",
+          "startPage": 11,
+          "endPage": 17
+        },
+        {
+          "path": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "kind": "answer",
+          "startPage": 11,
+          "endPage": 12
+        }
+      ]
+    },
+    {
+      "paperId": "sophia-scitec-2025-september-information",
+      "examDate": "2024-09-11",
+      "subject": "情報学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "kind": "question",
+          "startPage": 43,
+          "endPage": 50
+        },
+        {
+          "path": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "kind": "answer",
+          "startPage": 34,
+          "endPage": 40
+        }
+      ]
+    },
+    {
+      "paperId": "sophia-scitec-2025-february-mechanical",
+      "examDate": "2025-02-16",
+      "subject": "機械工学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "kind": "question",
+          "startPage": 1,
+          "endPage": 10
+        },
+        {
+          "path": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "kind": "answer",
+          "startPage": 1,
+          "endPage": 10
+        }
+      ]
+    },
+    {
+      "paperId": "sophia-scitec-2025-february-electrical",
+      "examDate": "2025-02-16",
+      "subject": "電気・電子工学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "kind": "question",
+          "startPage": 11,
+          "endPage": 17
+        },
+        {
+          "path": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "kind": "answer",
+          "startPage": 11,
+          "endPage": 11
+        }
+      ]
+    },
+    {
+      "paperId": "sophia-scitec-2025-february-information",
+      "examDate": "2025-02-16",
+      "subject": "情報学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "kind": "question",
+          "startPage": 38,
+          "endPage": 45
+        },
+        {
+          "path": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "kind": "answer",
+          "startPage": 29,
+          "endPage": 34
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2月问题合册第10页机械题群有2024年度旧页眉；按封面归于2025入学年度，并保留冲突说明。",
+    "其余题群包含在完整原合册内，不为化学、纯数学／物理等排除专业另建专攻条目。"
+  ]
+}
