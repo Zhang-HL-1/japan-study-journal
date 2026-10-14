@@ -6487,6 +6487,911 @@
       ],
       "sourceNote": "用户Google Drive“过去问／上智大学”提供的完整原合册。2025年度为入学年度；实际笔试日期为2025-02-16。本题群问题见原合册PDF第38—45页，解答／解答例见对应合册PDF第29—34页。两个解答合册均与学校官方发布PDF逐字节一致。题群为理工基礎的选择科目，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。",
       "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25feb.pdf"
+    },
+    {
+      "id": "kobe-ee-2024",
+      "universityId": "kobe",
+      "title": "2024年度 · 電気電子工学専攻 · 数学・专业科目",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "数学",
+        "電気回路・電子回路",
+        "電磁気学",
+        "量子物理学",
+        "物性工学",
+        "電力工学",
+        "自動制御",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2d95085f421b8906ef067024ec0d971e3efcf8913893e8b6fd47b9424913bd42.pdf",
+          "originalName": "math-2024.pdf",
+          "sha256": "2d95085f421b8906ef067024ec0d971e3efcf8913893e8b6fd47b9424913bd42",
+          "byteSize": 41446,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/電気電子工学/24/math-2024.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "電気回路・電子回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c7afa4197178df94a9c422201421825923f9b12b3d439764b3350b466012b010.pdf",
+          "originalName": "kairo-2024.pdf",
+          "sha256": "c7afa4197178df94a9c422201421825923f9b12b3d439764b3350b466012b010",
+          "byteSize": 62400,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/24/kairo-2024.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2594fda5a648e379cdd9dbc551e1667bb2e2bba5f4af5ca1a24a97486c3d2797.pdf",
+          "originalName": "denjiki-2024.pdf",
+          "sha256": "2594fda5a648e379cdd9dbc551e1667bb2e2bba5f4af5ca1a24a97486c3d2797",
+          "byteSize": 55804,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/24/denjiki-2024.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1b8a2484f56e08fffcaf04198dedb0de2f7fef41a331c3cd0afd0db40b9a8b64.pdf",
+          "originalName": "ryoushi-2024.pdf",
+          "sha256": "1b8a2484f56e08fffcaf04198dedb0de2f7fef41a331c3cd0afd0db40b9a8b64",
+          "byteSize": 71157,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/24/ryoushi-2024.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/24f0b6fa87f16c908f175ebd1925b1bf5065d3795110c96b7f3ea4e599df73e9.pdf",
+          "originalName": "bussei-2024.pdf",
+          "sha256": "24f0b6fa87f16c908f175ebd1925b1bf5065d3795110c96b7f3ea4e599df73e9",
+          "byteSize": 58310,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/24/bussei-2024.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電力工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0a9ff22f0e27f29382689a6e36613b092623719ae7ac03c374aee361fc74c1c1.pdf",
+          "originalName": "denryoku-2024.pdf",
+          "sha256": "0a9ff22f0e27f29382689a6e36613b092623719ae7ac03c374aee361fc74c1c1",
+          "byteSize": 69954,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/24/denryoku-2024.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/da37e87ca51f5a938c19cbd501f5f38a5251dcba0fa2f4bde610fee6de43971e.pdf",
+          "originalName": "seigyo-2024.pdf",
+          "sha256": "da37e87ca51f5a938c19cbd501f5f38a5251dcba0fa2f4bde610fee6de43971e",
+          "byteSize": 34117,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/24/seigyo-2024.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "論理回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/208b919e0cdf210989636a4de429041607d07458705174817310442ecdc19960.pdf",
+          "originalName": "ronri-2024.pdf",
+          "sha256": "208b919e0cdf210989636a4de429041607d07458705174817310442ecdc19960",
+          "byteSize": 40280,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/24/ronri-2024.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/58a9aa5686559bc9516c5b5156c34f3a5a72592b4b30b79cdb01ea2f2d784832.pdf",
+          "originalName": "it-2024.pdf",
+          "sha256": "58a9aa5686559bc9516c5b5156c34f3a5a72592b4b30b79cdb01ea2f2d784832",
+          "byteSize": 39462,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/24/it-2024.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 本年度收录9个科目PDF；按各年度原题科目名称区分，不把2024年的科目规则套入2025或2026。数学从实际PDF第2页打开；没有随卷解答。"
+    },
+    {
+      "id": "kobe-ee-2025",
+      "universityId": "kobe",
+      "title": "2025年度 · 電気電子工学専攻 · 数学・专业科目",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学",
+        "電気回路・電子回路",
+        "電磁気学",
+        "量子物性工学",
+        "半導体デバイス工学",
+        "論理回路",
+        "情報通信工学",
+        "データ構造とアルゴリズム",
+        "データサイエンス"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b39892093d35637cab7a91e425085e0c292e72325594d83b1d2a5bd9dafeec45.pdf",
+          "originalName": "math-2025.pdf",
+          "sha256": "b39892093d35637cab7a91e425085e0c292e72325594d83b1d2a5bd9dafeec45",
+          "byteSize": 205329,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/電気電子工学/25/math-2025.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "電気回路・電子回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ce6cdfd0e1c0eb1099d2623fed801c12146219f8761d2f1f210cf37741bcc37c.pdf",
+          "originalName": "kairo-2025.pdf",
+          "sha256": "ce6cdfd0e1c0eb1099d2623fed801c12146219f8761d2f1f210cf37741bcc37c",
+          "byteSize": 199778,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/25/kairo-2025.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/780b6fba2891e4c30572d4579a9d2947ba31ac3be406724333f03568413ca730.pdf",
+          "originalName": "denjiki-2025.pdf",
+          "sha256": "780b6fba2891e4c30572d4579a9d2947ba31ac3be406724333f03568413ca730",
+          "byteSize": 231391,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/25/denjiki-2025.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a6341e85a3ad7f55f683b7dd225e7a31c9751f28360447cf17a6af56709db9bb.pdf",
+          "originalName": "ryoushibussei-2025.pdf",
+          "sha256": "a6341e85a3ad7f55f683b7dd225e7a31c9751f28360447cf17a6af56709db9bb",
+          "byteSize": 266147,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/25/ryoushibussei-2025.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "半導体デバイス工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a03d3f91feb13d8e94e66c63280c6be774c7526d32b77808fb8421cdecc51aff.pdf",
+          "originalName": "device-2025.pdf",
+          "sha256": "a03d3f91feb13d8e94e66c63280c6be774c7526d32b77808fb8421cdecc51aff",
+          "byteSize": 94920,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/25/device-2025.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "論理回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/57d5353f3d41555fdc262fbbaa0e506df29ae860b258f4a0766a0160bf2c49ab.pdf",
+          "originalName": "ronri-2025.pdf",
+          "sha256": "57d5353f3d41555fdc262fbbaa0e506df29ae860b258f4a0766a0160bf2c49ab",
+          "byteSize": 107933,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/25/ronri-2025.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1cca79a1462b4a42ea467d9dfe81199fa3cecba4b0cf2c32f01b58bb5d9cc5ea.pdf",
+          "originalName": "joho-2025.pdf",
+          "sha256": "1cca79a1462b4a42ea467d9dfe81199fa3cecba4b0cf2c32f01b58bb5d9cc5ea",
+          "byteSize": 121876,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/25/joho-2025.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "データ構造とアルゴリズム",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e5fe9deddf4f6daac31f484b08d2db0bfb6664a8c4ef67cdd787af16ac8bd48a.pdf",
+          "originalName": "datakozo-2025.pdf",
+          "sha256": "e5fe9deddf4f6daac31f484b08d2db0bfb6664a8c4ef67cdd787af16ac8bd48a",
+          "byteSize": 272018,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/電気電子工学/25/datakozo-2025.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "データサイエンス",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bfb22b199e594486d3f6998effacaac1f034c5cadb54e9e9d7a9cc3b80d6737b.pdf",
+          "originalName": "data-2025.pdf",
+          "sha256": "bfb22b199e594486d3f6998effacaac1f034c5cadb54e9e9d7a9cc3b80d6737b",
+          "byteSize": 113086,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/25/data-2025.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 本年度收录9个科目PDF；按各年度原题科目名称区分，不把2024年的科目规则套入2025或2026。数学从实际PDF第2页打开；没有随卷解答。"
+    },
+    {
+      "id": "kobe-ee-2026",
+      "universityId": "kobe",
+      "title": "2026年度 · 電気電子工学専攻 · 数学・专业科目",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "数学",
+        "電気回路・電子回路",
+        "電磁気学",
+        "量子物性工学",
+        "半導体デバイス工学",
+        "論理回路",
+        "情報通信工学",
+        "データ構造とアルゴリズム",
+        "電子情報（データサイエンス）"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0959f48dbc8b6a03bf5088aeb2d3e2dea86a52afdd67045b2711b9e0d7e07c29.pdf",
+          "originalName": "math-2026.pdf",
+          "sha256": "0959f48dbc8b6a03bf5088aeb2d3e2dea86a52afdd67045b2711b9e0d7e07c29",
+          "byteSize": 46623,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/電気電子工学/26/math-2026.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "電気回路・電子回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1ae624e60c1097e45d64f7c4a99308caa65ffef0865734935ba684460cdcd9a6.pdf",
+          "originalName": "kairo-2026.pdf",
+          "sha256": "1ae624e60c1097e45d64f7c4a99308caa65ffef0865734935ba684460cdcd9a6",
+          "byteSize": 78056,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/電気電子工学/26/kairo-2026.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7e05a469fa6dcf58a99cc8d5ae31f2910663e3bcc455a64130103c6d409025e9.pdf",
+          "originalName": "denjiki-2026.pdf",
+          "sha256": "7e05a469fa6dcf58a99cc8d5ae31f2910663e3bcc455a64130103c6d409025e9",
+          "byteSize": 68279,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/26/denjiki-2026.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e92213fbfe15e82c6e5ffd2ca17b73bf93da1809c1b1721c5224de00a7bd8ad.pdf",
+          "originalName": "ryoushibussei-2026.pdf",
+          "sha256": "5e92213fbfe15e82c6e5ffd2ca17b73bf93da1809c1b1721c5224de00a7bd8ad",
+          "byteSize": 109966,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/26/ryoushibussei-2026.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "半導体デバイス工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/17e4d5edacc66b0dfff0f50afc9ac8c0df0c673ed40ce391ca2388fdd75c58d5.pdf",
+          "originalName": "device-2026.pdf",
+          "sha256": "17e4d5edacc66b0dfff0f50afc9ac8c0df0c673ed40ce391ca2388fdd75c58d5",
+          "byteSize": 44848,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/26/device-2026.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "論理回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/957f3d7cf7d1298d74e1818c3ae6cd2fc3dfa4df304268968a5bae1cee9657e1.pdf",
+          "originalName": "ronri-2026.pdf",
+          "sha256": "957f3d7cf7d1298d74e1818c3ae6cd2fc3dfa4df304268968a5bae1cee9657e1",
+          "byteSize": 33786,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/26/ronri-2026.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/def408a7a8910ec97d328271a87f8c340af4c69d8ed3487597bea9bd5ca82286.pdf",
+          "originalName": "joho-2026.pdf",
+          "sha256": "def408a7a8910ec97d328271a87f8c340af4c69d8ed3487597bea9bd5ca82286",
+          "byteSize": 49894,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/26/joho-2026.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "データ構造とアルゴリズム",
+          "kind": "question",
+          "url": "assets/past-papers/documents/afe4d20174ccef3063efd9426f04427e3f852054e27aab312b648487eab5c8fe.pdf",
+          "originalName": "datakozo-2026.pdf",
+          "sha256": "afe4d20174ccef3063efd9426f04427e3f852054e27aab312b648487eab5c8fe",
+          "byteSize": 62664,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/26/datakozo-2026.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子情報（データサイエンス）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/06092fbc0d68e9ba50e71ec097ccdb6acf1087e28f360b651314fba0b11adf15.pdf",
+          "originalName": "data-2026.pdf",
+          "sha256": "06092fbc0d68e9ba50e71ec097ccdb6acf1087e28f360b651314fba0b11adf15",
+          "byteSize": 55650,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/26/data-2026.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 本年度收录9个科目PDF；按各年度原题科目名称区分，不把2024年的科目规则套入2025或2026。数学从实际PDF第2页打开；没有随卷解答。"
+    },
+    {
+      "id": "kobe-mechanical-2019",
+      "universityId": "kobe",
+      "title": "2019年度 · 機械工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成31年度（2019年度）博士課程前期課程入学試験",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "数学",
+        "生産工学・制御工学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0fe19a2b0bba9b30c4ef73de46c35176143b0b22cc25b0a8894c82afa9d5f538.pdf",
+          "originalName": "1_H31_Math.pdf",
+          "sha256": "0fe19a2b0bba9b30c4ef73de46c35176143b0b22cc25b0a8894c82afa9d5f538",
+          "byteSize": 37504,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/机械工学/19/1_H31_Math.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "生産工学・制御工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7fef9cd310a2dba8c9a3133653676cb158a9c6dbd652dcd6b6224eb9b0b193ed.pdf",
+          "originalName": "6_H31_Manufacture.pdf",
+          "sha256": "7fef9cd310a2dba8c9a3133653676cb158a9c6dbd652dcd6b6224eb9b0b193ed",
+          "byteSize": 90129,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/机械工学/19/6_H31_Manufacture.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 云盘仅提供数学与生産工学・制御工学；其他机械专业科目未取得，不作为全部专业卷齐全。数学从实际PDF第2页打开，扫描及原印字保持，没有随卷解答。",
+      "completeness": "partial"
+    },
+    {
+      "id": "kobe-mechanical-2020",
+      "universityId": "kobe",
+      "title": "2020年度 · 機械工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2020年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "数学",
+        "生産工学・制御工学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e7652f308b1b7f770baedb554364fde247958f9688b04fdc9bbd6fc7f7c9cb8.pdf",
+          "originalName": "1_2020_Math.pdf",
+          "sha256": "5e7652f308b1b7f770baedb554364fde247958f9688b04fdc9bbd6fc7f7c9cb8",
+          "byteSize": 79044,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/机械工学/20/1_2020_Math.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "生産工学・制御工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/74733bcde7cb38f87b7a79565605886e8f4e64a308bc070409609196baee68e2.pdf",
+          "originalName": "6_2020_Manufacture.pdf",
+          "sha256": "74733bcde7cb38f87b7a79565605886e8f4e64a308bc070409609196baee68e2",
+          "byteSize": 244056,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/机械工学/20/6_2020_Manufacture.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 云盘仅提供数学与生産工学・制御工学；其他机械专业科目未取得，不作为全部专业卷齐全。数学从实际PDF第2页打开，扫描及原印字保持，没有随卷解答。",
+      "completeness": "partial"
+    },
+    {
+      "id": "kobe-mechanical-2021",
+      "universityId": "kobe",
+      "title": "2021年度 · 機械工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2021年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "数学",
+        "生産工学・制御工学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/40942b81cb355b54d43fa26e85b9a25402c8348ed18457ba457608f94d610a1a.pdf",
+          "originalName": "1_2021_Math.pdf",
+          "sha256": "40942b81cb355b54d43fa26e85b9a25402c8348ed18457ba457608f94d610a1a",
+          "byteSize": 48769,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/机械工学/21/1_2021_Math.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "生産工学・制御工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c4bef2a9a55f8d563a7a759536959e9705862e75cb036e309df1e2c725e4b28c.pdf",
+          "originalName": "6_2021_Manufacture.pdf",
+          "sha256": "c4bef2a9a55f8d563a7a759536959e9705862e75cb036e309df1e2c725e4b28c",
+          "byteSize": 99091,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/机械工学/21/6_2021_Manufacture.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 云盘仅提供数学与生産工学・制御工学；其他机械专业科目未取得，不作为全部专业卷齐全。数学从实际PDF第2页打开，扫描及原印字保持，没有随卷解答。",
+      "completeness": "partial"
+    },
+    {
+      "id": "kobe-mechanical-2023",
+      "universityId": "kobe",
+      "title": "2023年度 · 機械工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "数学",
+        "生産工学・制御工学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2fbc5a768a5f330cf0e496c89bc804ed256803343dbead7de6f307058b89f3e4.pdf",
+          "originalName": "1_2023_Math.pdf",
+          "sha256": "2fbc5a768a5f330cf0e496c89bc804ed256803343dbead7de6f307058b89f3e4",
+          "byteSize": 2730383,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/机械工学/23/1_2023_Math.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "生産工学・制御工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2e7e8da76b3ec45adae5f746083e4bc4b7f260da6e9666c103b0432fca4cd20f.pdf",
+          "originalName": "6_2023_Manufacture.pdf",
+          "sha256": "2e7e8da76b3ec45adae5f746083e4bc4b7f260da6e9666c103b0432fca4cd20f",
+          "byteSize": 5418085,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/机械工学/23/6_2023_Manufacture.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 云盘仅提供数学与生産工学・制御工学；其他机械专业科目未取得，不作为全部专业卷齐全。数学从实际PDF第2页打开，扫描及原印字保持，没有随卷解答。",
+      "completeness": "partial"
+    },
+    {
+      "id": "kobe-mechanical-2024",
+      "universityId": "kobe",
+      "title": "2024年度 · 機械工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "数学",
+        "生産工学・制御工学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/01cf95a617e14cbe9abf4401168a177874ba117d8cea6e0a37822fb8e2f44211.pdf",
+          "originalName": "1_2024_Math.pdf",
+          "sha256": "01cf95a617e14cbe9abf4401168a177874ba117d8cea6e0a37822fb8e2f44211",
+          "byteSize": 84747,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/机械工学/24/1_2024_Math.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "生産工学・制御工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a5cffc30c3b8426a62f54eeca4b743d89799f486d829308376ba2e21e47bcef0.pdf",
+          "originalName": "6_2024_Manufacture.pdf",
+          "sha256": "a5cffc30c3b8426a62f54eeca4b743d89799f486d829308376ba2e21e47bcef0",
+          "byteSize": 233319,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/机械工学/24/6_2024_Manufacture.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 云盘仅提供数学与生産工学・制御工学；其他机械专业科目未取得，不作为全部专业卷齐全。数学从实际PDF第2页打开，扫描及原印字保持，没有随卷解答。",
+      "completeness": "partial"
+    },
+    {
+      "id": "kobe-mechanical-2025",
+      "universityId": "kobe",
+      "title": "2025年度 · 機械工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "機械工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学",
+        "生産工学・制御工学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2a82238ec44b16667e4510b19c6826ce8692928e688dace10730e25ed5c4de59.pdf",
+          "originalName": "1_2025_Math.pdf",
+          "sha256": "2a82238ec44b16667e4510b19c6826ce8692928e688dace10730e25ed5c4de59",
+          "byteSize": 627534,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/机械工学/25/1_2025_Math.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "生産工学・制御工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/36b279253c5ce30a1b64249ddcf81c87a3a3643868a9a8cb86f12938078dc735.pdf",
+          "originalName": "6_2025_Manufacture.pdf",
+          "sha256": "36b279253c5ce30a1b64249ddcf81c87a3a3643868a9a8cb86f12938078dc735",
+          "byteSize": 596606,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/机械工学/25/6_2025_Manufacture.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 云盘仅提供数学与生産工学・制御工学；其他机械专业科目未取得，不作为全部专业卷齐全。数学从实际PDF第2页打开，扫描及原印字保持，没有随卷解答。",
+      "completeness": "partial"
+    },
+    {
+      "id": "kobe-systems-2025-1",
+      "universityId": "kobe",
+      "title": "2025年度 · システム情報学専攻 · 一般入試（2024年8月実施）",
+      "graduateSchool": "システム情報学研究科",
+      "department": "システム情報学専攻",
+      "selectionName": "一般入試（2024年8月実施）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学",
+        "専門科目",
+        "制御工学",
+        "数理計画",
+        "コンピュータシステム",
+        "アルゴリズム・データ構造"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c4c1e64c1c80fc92d9658edc26805e36ec237bcb96c8e32bab54b4c59a2a99f8.pdf",
+          "originalName": "2025_math.pdf",
+          "sha256": "c4c1e64c1c80fc92d9658edc26805e36ec237bcb96c8e32bab54b4c59a2a99f8",
+          "byteSize": 85839,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/系统情报工学/25/2025_math.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目（4分野）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3afc0e9a13d2fa303b5810643c418b257958dbe9195de2f589bb40260fedad16.pdf",
+          "originalName": "2025_expert.pdf",
+          "sha256": "3afc0e9a13d2fa303b5810643c418b257958dbe9195de2f589bb40260fedad16",
+          "byteSize": 379140,
+          "pages": 6,
+          "sourcePaths": [
+            "神户大学/系统情报工学/25/2025_expert.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 2025入学年度的独立期次；实际笔试日期据专业卷封面核对为2024-08-22。数学封面与期次分别配对，两个科目均从实际PDF第2页打开，完整封面保留。2023年4月已改组为システム情報学専攻，不沿用旧三专攻名；没有随卷解答。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-22"
+      ],
+      "dateEvidence": "professional-cover",
+      "sourceURL": "https://www.csi.kobe-u.ac.jp/exam/master/2024/20240708master_exam.html"
+    },
+    {
+      "id": "kobe-systems-2025-2",
+      "universityId": "kobe",
+      "title": "2025年度 · システム情報学専攻 · 第二期一般入試",
+      "graduateSchool": "システム情報学研究科",
+      "department": "システム情報学専攻",
+      "selectionName": "第二期一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学",
+        "専門科目",
+        "制御工学",
+        "数理計画",
+        "コンピュータシステム",
+        "アルゴリズム・データ構造"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9f3f221bb66e958807e48d6d479b8374cda1b43eed4c5858c7aa0d3fd64c67b4.pdf",
+          "originalName": "2025_2_math.pdf",
+          "sha256": "9f3f221bb66e958807e48d6d479b8374cda1b43eed4c5858c7aa0d3fd64c67b4",
+          "byteSize": 67484,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/系统情报工学/25/2025_2_math.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目（4分野）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6e5e2a05010814402bbabfe66cb6dddde02d27c7acd10eb229422f8bfd02c002.pdf",
+          "originalName": "2025_2_expert.pdf",
+          "sha256": "6e5e2a05010814402bbabfe66cb6dddde02d27c7acd10eb229422f8bfd02c002",
+          "byteSize": 365378,
+          "pages": 6,
+          "sourcePaths": [
+            "神户大学/系统情报工学/25/2025_2_expert.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 2025入学年度的独立期次；实际笔试日期据专业卷封面核对为2024-11-27。数学封面与期次分别配对，两个科目均从实际PDF第2页打开，完整封面保留。2023年4月已改组为システム情報学専攻，不沿用旧三专攻名；没有随卷解答。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-11-27"
+      ],
+      "dateEvidence": "professional-cover"
+    },
+    {
+      "id": "kobe-systems-2025-3",
+      "universityId": "kobe",
+      "title": "2025年度 · システム情報学専攻 · 第三期一般入試",
+      "graduateSchool": "システム情報学研究科",
+      "department": "システム情報学専攻",
+      "selectionName": "第三期一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学",
+        "専門科目",
+        "制御工学",
+        "数理計画",
+        "コンピュータシステム",
+        "アルゴリズム・データ構造"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/06e71703870545a4418737c455d85665f8d0d4bde693bbab6cf7b9da2bd0a34f.pdf",
+          "originalName": "2025_3_math.pdf",
+          "sha256": "06e71703870545a4418737c455d85665f8d0d4bde693bbab6cf7b9da2bd0a34f",
+          "byteSize": 69383,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/系统情报工学/25/2025_3_math.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目（4分野）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b6fe4f70ccffd90ffe90a9304ee6ff9cc23a5641ba32dd7950c22f36adc2c152.pdf",
+          "originalName": "2025_3_expert.pdf",
+          "sha256": "b6fe4f70ccffd90ffe90a9304ee6ff9cc23a5641ba32dd7950c22f36adc2c152",
+          "byteSize": 280914,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/系统情报工学/25/2025_3_expert.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。原卷年度按入学年度索引，与实际实施年分开；未印实际考试日期的文件不补推日期。 2025入学年度的独立期次；实际笔试日期据专业卷封面核对为2025-01-22。数学封面与期次分别配对，两个科目均从实际PDF第2页打开，完整封面保留。2023年4月已改组为システム情報学専攻，不沿用旧三专攻名；没有随卷解答。",
+      "examYear": 2025,
+      "examDates": [
+        "2025-01-22"
+      ],
+      "dateEvidence": "professional-cover",
+      "sourceURL": "https://www.csi.kobe-u.ac.jp/exam/master/2024/202501master_exam.html"
     }
   ],
   "schoolNotes": {
@@ -6510,6 +7415,9 @@
     },
     "sophia": {
       "text": "收录2025入学年度9月、2月两次考试，实际笔试分别为2024-09-11、2025-02-16。机械、电气电子、信息学三个题群各设入口，共6组，共享4个完整原合册（2个问题、2个解答／解答例），不是6套不同试卷。选择题群不与志望领域强行绑定；整册其他题群原样保留。云盘此校没有更多年度资料，不声明连续年份完整覆盖。"
+    },
+    "kobe": {
+      "text": "本校新增12组／45个试题PDF：电气电子2024—2026入学年度；机械2019（平成31）、2020、2021、2023—2025年度，仅数学与生産工学・制御工学；系统信息2025年度三期，实际笔试为2024-08-22、2024-11-27、2025-01-22。均保留原件，未提供解答。不声明机械全科目或所有年份齐全。学部「志」特别选拔及纯数学／纯物理专属目录不录入修士题库。"
     }
   }
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);
