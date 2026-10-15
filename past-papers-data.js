@@ -14635,6 +14635,2493 @@
         "マルチメディア工学専攻",
         "バイオ情報工学専攻"
       ]
+    },
+    {
+      "id": "tohoku-appphys-2014",
+      "universityId": "tohoku",
+      "title": "2014年8月実施 · 応用物理学専攻「基礎科目」",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "応用物理学専攻「基礎科目」",
+      "paperYear": 2014,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成26年8月27日",
+      "examYear": 2014,
+      "examDates": [
+        "2014-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0f2e622a367569732b3090a6e59e4638cb7db007a771356e4cfc6144d788e7f5.pdf",
+          "originalName": "h26.pdf",
+          "sha256": "0f2e622a367569732b3090a6e59e4638cb7db007a771356e4cfc6144d788e7f5",
+          "byteSize": 5689758,
+          "pages": 16,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/h26.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院工学研究科応用物理学専攻「基礎科目」問題冊子，只印实施日，不印「年度」或入学年月。paperYear与examYear按实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-appphys-2015",
+      "universityId": "tohoku",
+      "title": "2015年8月実施 · 応用物理学専攻「基礎科目」",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "応用物理学専攻「基礎科目」",
+      "paperYear": 2015,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成27年8月26日",
+      "examYear": 2015,
+      "examDates": [
+        "2015-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7ce27de15479374cecbb909080f203290fdd48a24c9c7b237b60529c3356136e.pdf",
+          "originalName": "h27.pdf",
+          "sha256": "7ce27de15479374cecbb909080f203290fdd48a24c9c7b237b60529c3356136e",
+          "byteSize": 1193564,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/h27.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院工学研究科応用物理学専攻「基礎科目」問題冊子，只印实施日，不印「年度」或入学年月。paperYear与examYear按实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-appphys-2016",
+      "universityId": "tohoku",
+      "title": "2016年8月実施 · 応用物理学専攻「基礎科目」",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "応用物理学専攻「基礎科目」",
+      "paperYear": 2016,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成28年8月29日",
+      "examYear": 2016,
+      "examDates": [
+        "2016-08-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8429112084392141bdcef4ca39f602d1bc3909a4b80889cd2352d4f1a54719b6.pdf",
+          "originalName": "h28.pdf",
+          "sha256": "8429112084392141bdcef4ca39f602d1bc3909a4b80889cd2352d4f1a54719b6",
+          "byteSize": 734848,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/h28.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院工学研究科応用物理学専攻「基礎科目」問題冊子，只印实施日，不印「年度」或入学年月。paperYear与examYear按实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-appphys-2017",
+      "universityId": "tohoku",
+      "title": "2017年8月実施 · 応用物理学専攻「基礎科目」",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "応用物理学専攻「基礎科目」",
+      "paperYear": 2017,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成29年8月29日",
+      "examYear": 2017,
+      "examDates": [
+        "2017-08-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/521f4961e84c94c3f7eafc4a2e34ddf804bd5efeb7b2f7a4dddd05a572b1aeed.pdf",
+          "originalName": "h29.pdf",
+          "sha256": "521f4961e84c94c3f7eafc4a2e34ddf804bd5efeb7b2f7a4dddd05a572b1aeed",
+          "byteSize": 700337,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/h29.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院工学研究科応用物理学専攻「基礎科目」問題冊子，只印实施日，不印「年度」或入学年月。paperYear与examYear按实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-appphys-2018",
+      "universityId": "tohoku",
+      "title": "2018年8月実施 · 応用物理学専攻「基礎科目」",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "応用物理学専攻「基礎科目」",
+      "paperYear": 2018,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成30年8月28日",
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e3168b37ba429b4722fe047c740992908b7055edac9ac7293dbad168464b83b9.pdf",
+          "originalName": "h30.pdf",
+          "sha256": "e3168b37ba429b4722fe047c740992908b7055edac9ac7293dbad168464b83b9",
+          "byteSize": 2764926,
+          "pages": 11,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/h30.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院工学研究科応用物理学専攻「基礎科目」問題冊子，只印实施日，不印「年度」或入学年月。paperYear与examYear按实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-appphys-2019",
+      "universityId": "tohoku",
+      "title": "2019年8月実施 · 応用物理学専攻「基礎科目」",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "応用物理学専攻「基礎科目」",
+      "paperYear": 2019,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2019年8月27日",
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a5223fa0a9061895fc40bb27f116085b9aebf0952fb50d24db0a2358aeffeb18.pdf",
+          "originalName": "R1.pdf",
+          "sha256": "a5223fa0a9061895fc40bb27f116085b9aebf0952fb50d24db0a2358aeffeb18",
+          "byteSize": 489097,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/R1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院工学研究科応用物理学専攻「基礎科目」問題冊子，只印实施日，不印「年度」或入学年月。paperYear与examYear按实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-appphys-2020",
+      "universityId": "tohoku",
+      "title": "2020年8月実施 · 応用物理学専攻「基礎科目」",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "応用物理学専攻「基礎科目」",
+      "paperYear": 2020,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2020年8月25日",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-25"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/41bc89c5789707697221cd4c3ec6e2d5c1eac878ad9c2d175f952105c2ee3e7c.pdf",
+          "originalName": "R2.pdf",
+          "sha256": "41bc89c5789707697221cd4c3ec6e2d5c1eac878ad9c2d175f952105c2ee3e7c",
+          "byteSize": 4178914,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/R2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院工学研究科応用物理学専攻「基礎科目」問題冊子，只印实施日，不印「年度」或入学年月。paperYear与examYear按实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-appphys-intention-2025",
+      "universityId": "tohoku",
+      "title": "令和7年度 · 応用物理学専攻【基礎科目】出題意図",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "博士課程前期２年の課程一般選抜",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和７年度",
+      "subjects": [
+        "基礎科目",
+        "出題意図"
+      ],
+      "files": [
+        {
+          "label": "出題意図（非试题／非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/8f1ab4fe38d1cb4c5654e8efacf0f12f9f6c8909cde140b7e991d5b06deb7d44.pdf",
+          "originalName": "R6年度応物大学院入試MC_出題意図.pdf",
+          "sha256": "8f1ab4fe38d1cb4c5654e8efacf0f12f9f6c8909cde140b7e991d5b06deb7d44",
+          "byteSize": 274624,
+          "pages": 1,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/R6年度応物大学院入試MC_出題意図.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面写「令和７年度 東北大学大学院工学研究科博士課程前期２年の課程一般選抜 応用物理学専攻【基礎科目】出題意図」。文件名含R6，与封面年度不一致，按封面令和7年度编目。这是出题意图，不是试题，也不是解答。不与无封面的应物册合并。"
+    },
+    {
+      "id": "tohoku-mech-2023",
+      "universityId": "tohoku",
+      "title": "令和5年度 · 機械系4専攻 · 数学A",
+      "graduateSchool": "工学研究科",
+      "department": "機械系4専攻",
+      "selectionName": "秋季募集入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A"
+      ],
+      "files": [
+        {
+          "label": "数学A（原册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f7ee4935e400e75cc29024412f43c652735fb54ab555c7b54e2b70bbde95ca00.pdf",
+          "originalName": "Problem_2023_j.pdf",
+          "sha256": "f7ee4935e400e75cc29024412f43c652735fb54ab555c7b54e2b70bbde95ca00",
+          "byteSize": 620894,
+          "pages": 19,
+          "sourcePaths": [
+            "东北大学/工学研究科/机械/Problem_2023_j.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为「機械系4専攻」試験問題冊子，只显示数学A。本册19页整册保留，不按页拆分，封面没有列出的内页科目不另建。四个专攻的名称封面未印，不补。封面未印「工学研究科」，按云盘文件夹归在工学研究科下。paperYear用封面令和年度，examDates用封面数学A的实施日。封面未印入学年月，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-mech-2024",
+      "universityId": "tohoku",
+      "title": "令和6年度 · 機械系4専攻 · 数学A",
+      "graduateSchool": "工学研究科",
+      "department": "機械系4専攻",
+      "selectionName": "秋季募集入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A"
+      ],
+      "files": [
+        {
+          "label": "数学A（原册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d552b34db91e6dcc96ef57c107b10b12741f6c6ec3544fef955efceff07b4178.pdf",
+          "originalName": "Problem_2024_j.pdf",
+          "sha256": "d552b34db91e6dcc96ef57c107b10b12741f6c6ec3544fef955efceff07b4178",
+          "byteSize": 751723,
+          "pages": 19,
+          "sourcePaths": [
+            "东北大学/工学研究科/机械/Problem_2024_j.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为「機械系4専攻」試験問題冊子，只显示数学A。本册19页整册保留，不按页拆分，封面没有列出的内页科目不另建。四个专攻的名称封面未印，不补。封面未印「工学研究科」，按云盘文件夹归在工学研究科下。paperYear用封面令和年度，examDates用封面数学A的实施日。封面未印入学年月，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-mech-2025",
+      "universityId": "tohoku",
+      "title": "令和7年度 · 機械系4専攻 · 数学A",
+      "graduateSchool": "工学研究科",
+      "department": "機械系4専攻",
+      "selectionName": "秋季募集入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A"
+      ],
+      "files": [
+        {
+          "label": "数学A（原册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/337ab5bf0c4a46dc9857e3d4559cb7112a349d64fff3e37236f74d64707f6dee.pdf",
+          "originalName": "Problem_2025_J.pdf",
+          "sha256": "337ab5bf0c4a46dc9857e3d4559cb7112a349d64fff3e37236f74d64707f6dee",
+          "byteSize": 777425,
+          "pages": 19,
+          "sourcePaths": [
+            "东北大学/工学研究科/机械/Problem_2025_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为「機械系4専攻」試験問題冊子，只显示数学A。本册19页整册保留，不按页拆分，封面没有列出的内页科目不另建。四个专攻的名称封面未印，不补。封面未印「工学研究科」，按云盘文件夹归在工学研究科下。paperYear用封面令和年度，examDates用封面数学A的实施日。封面未印入学年月，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-mech-scope-2026",
+      "universityId": "tohoku",
+      "title": "2026年春季実施 · 機械系出題範囲",
+      "graduateSchool": "工学研究科",
+      "department": "機械系",
+      "selectionName": "出題範囲（2026年春季実施）",
+      "paperYear": 2026,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2026年春季実施",
+      "examYear": 2026,
+      "subjects": [
+        "出題範囲"
+      ],
+      "files": [
+        {
+          "label": "出題範囲（非试题／非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/e368be27e0b1b3ba891cf860db5184c935150d92c802f1ea4fe11369ef5dbe02.pdf",
+          "originalName": "2026_february_march_J.pdf",
+          "sha256": "e368be27e0b1b3ba891cf860db5184c935150d92c802f1ea4fe11369ef5dbe02",
+          "byteSize": 110999,
+          "pages": 1,
+          "sourcePaths": [
+            "东北大学/工学研究科/机械/2026_february_march_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学機械系大学院入試出題範囲（２０２６年春季実施），1页出题范围，不是试题，也不是解答。封面未印公历日，不编examDates。封面写「機械系」，未写「機械系4専攻」。封面未印「工学研究科」，按云盘文件夹归在工学研究科下。"
+    },
+    {
+      "id": "tohoku-ee-2023-08",
+      "universityId": "tohoku",
+      "title": "2023年8月実施 · 電気エネルギーシステム／通信工学／電子工学（封面列情報・生命系群）",
+      "graduateSchool": "工学研究科",
+      "department": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面列情報科学研究科情報・生命系群・医工学研究科）",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-29",
+        "2023-08-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a51d81c5d43183790946e82bd7597df39380869469b53ac3bede2de0779142a5.pdf",
+          "originalName": "202308kiso.pdf",
+          "sha256": "a51d81c5d43183790946e82bd7597df39380869469b53ac3bede2de0779142a5",
+          "byteSize": 656697,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/202308kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4775def7406b16e2f9ac1709d48a36337f09e64a9c080173ff7b4b050fa3f547.pdf",
+          "originalName": "202308senmon.pdf",
+          "sha256": "4775def7406b16e2f9ac1709d48a36337f09e64a9c080173ff7b4b050fa3f547",
+          "byteSize": 791782,
+          "pages": 17,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/202308senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面列为工学研究科電気エネルギーシステム専攻、通信工学専攻、電子工学専攻，并列医工学研究科工学系コース電気・情報系。本场封面还列大学院情報科学研究科情報・生命系群。情報・生命系群不是专攻名，医工学研究科不在本次专业范围，都不另建入口，封面文字保留在选拔名称里。基礎科目与専門科目分册。 各分册实施日：202308kiso.pdf 2023-08-29、202308senmon.pdf 2023-08-30。paperYear按封面公历实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-ee-2024-02",
+      "universityId": "tohoku",
+      "title": "2024年2月実施 · 電気エネルギーシステム／通信工学／電子工学（封面列情報・生命系群）",
+      "graduateSchool": "工学研究科",
+      "department": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面列情報科学研究科情報・生命系群・医工学研究科）",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年",
+      "examYear": 2024,
+      "examDates": [
+        "2024-02-28",
+        "2024-02-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f48382d50986904cbd0956a7cc6a6b5a0d78426309af6d7324b6cdf06b426be5.pdf",
+          "originalName": "202403kiso.pdf",
+          "sha256": "f48382d50986904cbd0956a7cc6a6b5a0d78426309af6d7324b6cdf06b426be5",
+          "byteSize": 605609,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/202403kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cbf339da693ecab25ef68cfb91d6df7a8715c77d56e4189e7e66303633943d96.pdf",
+          "originalName": "202403senmon.pdf",
+          "sha256": "cbf339da693ecab25ef68cfb91d6df7a8715c77d56e4189e7e66303633943d96",
+          "byteSize": 810418,
+          "pages": 21,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/202403senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面列为工学研究科電気エネルギーシステム専攻、通信工学専攻、電子工学専攻，并列医工学研究科工学系コース電気・情報系。本场封面还列大学院情報科学研究科情報・生命系群。情報・生命系群不是专攻名，医工学研究科不在本次专业范围，都不另建入口，封面文字保留在选拔名称里。基礎科目与専門科目分册。 各分册实施日：202403kiso.pdf 2024-02-28、202403senmon.pdf 2024-02-29。paperYear按封面公历实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-ee-2024-08",
+      "universityId": "tohoku",
+      "title": "2024年8月実施 · 電気エネルギーシステム／通信工学／電子工学（封面未列情報科学研究科）",
+      "graduateSchool": "工学研究科",
+      "department": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面未列情報科学研究科；列医工学研究科）",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9136b1a5988d782684fd621da79a643e26d70a07cf8ac69f7b337f2aa5c321b9.pdf",
+          "originalName": "202408_kisosenmon.pdf",
+          "sha256": "9136b1a5988d782684fd621da79a643e26d70a07cf8ac69f7b337f2aa5c321b9",
+          "byteSize": 764127,
+          "pages": 17,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/202408_kisosenmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面列为工学研究科電気エネルギーシステム専攻、通信工学専攻、電子工学専攻，并列医工学研究科工学系コース電気・情報系。本场封面没有情報科学研究科一行。2024年8月起基礎与専門印在同一册「基礎専門科目」。医工学研究科仍印在封面，不另建入口。 各分册实施日：202408_kisosenmon.pdf 2024-08-27。paperYear按封面公历实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-ee-2025-03",
+      "universityId": "tohoku",
+      "title": "2025年3月実施 · 電気エネルギーシステム／通信工学／電子工学（封面未列情報科学研究科）",
+      "graduateSchool": "工学研究科",
+      "department": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面未列情報科学研究科；列医工学研究科）",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025年",
+      "examYear": 2025,
+      "examDates": [
+        "2025-03-04"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fa736b254a51cffa44e9776e989780bb8fbb78199c4d96654093c81b9a5a7c0d.pdf",
+          "originalName": "202503_kisosenmon.pdf",
+          "sha256": "fa736b254a51cffa44e9776e989780bb8fbb78199c4d96654093c81b9a5a7c0d",
+          "byteSize": 828207,
+          "pages": 19,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/202503_kisosenmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面列为工学研究科電気エネルギーシステム専攻、通信工学専攻、電子工学専攻，并列医工学研究科工学系コース電気・情報系。本场封面没有情報科学研究科一行。2024年8月起基礎与専門印在同一册「基礎専門科目」。医工学研究科仍印在封面，不另建入口。 各分册实施日：202503_kisosenmon.pdf 2025-03-04。paperYear按封面公历实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-ee-2025-08",
+      "universityId": "tohoku",
+      "title": "2025年8月実施 · 電気エネルギーシステム／通信工学／電子工学（封面未列情報科学研究科）",
+      "graduateSchool": "工学研究科",
+      "department": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面未列情報科学研究科；列医工学研究科）",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025年",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d2982164cee0a005e18bebbba1b8a801ab56d6f63a0425e15542f62687a32fa4.pdf",
+          "originalName": "202508_kisosenmon.pdf",
+          "sha256": "d2982164cee0a005e18bebbba1b8a801ab56d6f63a0425e15542f62687a32fa4",
+          "byteSize": 1136587,
+          "pages": 19,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/202508_kisosenmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面列为工学研究科電気エネルギーシステム専攻、通信工学専攻、電子工学専攻，并列医工学研究科工学系コース電気・情報系。本场封面没有情報科学研究科一行。2024年8月起基礎与専門印在同一册「基礎専門科目」。医工学研究科仍印在封面，不另建入口。 各分册实施日：202508_kisosenmon.pdf 2025-08-26。paperYear按封面公历实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-ee-2026-03",
+      "universityId": "tohoku",
+      "title": "2026年3月実施 · 電気エネルギーシステム／通信工学／電子工学（封面未列情報科学研究科）",
+      "graduateSchool": "工学研究科",
+      "department": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面未列情報科学研究科；列医工学研究科）",
+      "paperYear": 2026,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2026年",
+      "examYear": 2026,
+      "examDates": [
+        "2026-03-03"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/78e2fc204c0af9a8d6e225e4ed4c9d5a5ea428799ac148021b9e156a35aff858.pdf",
+          "originalName": "202603_kisosenmon.pdf",
+          "sha256": "78e2fc204c0af9a8d6e225e4ed4c9d5a5ea428799ac148021b9e156a35aff858",
+          "byteSize": 837947,
+          "pages": 20,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/202603_kisosenmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面列为工学研究科電気エネルギーシステム専攻、通信工学専攻、電子工学専攻，并列医工学研究科工学系コース電気・情報系。本场封面没有情報科学研究科一行。2024年8月起基礎与専門印在同一册「基礎専門科目」。医工学研究科仍印在封面，不另建入口。 各分册实施日：202603_kisosenmon.pdf 2026-03-03。paperYear按封面公历实施年，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-quantum-2018-autumn",
+      "universityId": "tohoku",
+      "title": "平成30年度 · 量子エネルギー工学専攻 · 秋季募集",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "秋季募集（平成31年4月入学）",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成30年度 (平成31年4月入学)",
+      "admissionYears": [
+        2019
+      ],
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A"
+      ],
+      "files": [
+        {
+          "label": "数学A（原册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c2c45ac822a2f2a31382d1adaff14ea09f376e335c5808c4a6fb6a700e3b566b.pdf",
+          "originalName": "h30sJ.pdf",
+          "sha256": "c2c45ac822a2f2a31382d1adaff14ea09f376e335c5808c4a6fb6a700e3b566b",
+          "byteSize": 900823,
+          "pages": 31,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/h30sJ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面只显示数学A，本册31页，整册保留不拆分，封面未列的内页科目不另建。封面同时印平成30年度秋季募集和平成31年4月入学。paperYear用平成30年度（2018），admissionYears为2019，考试日为封面的平成30年8月28日。"
+    },
+    {
+      "id": "tohoku-quantum-2019-autumn",
+      "universityId": "tohoku",
+      "title": "令和元年度 · 量子エネルギー工学専攻 · 秋季募集",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "秋季募集（令和2年4月入学）",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和元年度 (令和2年4月入学)",
+      "admissionYears": [
+        2020
+      ],
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A"
+      ],
+      "files": [
+        {
+          "label": "数学A（原册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f9a037e77445c1d45433f639a8184b25d10045fd664f31d4159461b738eaeed8.pdf",
+          "originalName": "r01sJ.pdf",
+          "sha256": "f9a037e77445c1d45433f639a8184b25d10045fd664f31d4159461b738eaeed8",
+          "byteSize": 901847,
+          "pages": 25,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r01sJ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面只显示数学A，本册25页，整册保留不拆分。封面印令和元年度秋季募集和令和2年4月入学。paperYear用令和元年度（2019），admissionYears为2020，考试日为令和元年8月27日。"
+    },
+    {
+      "id": "tohoku-quantum-2022-autumn",
+      "universityId": "tohoku",
+      "title": "令和4年度 · 量子エネルギー工学専攻 · 秋季募集",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "秋季募集（令和5年4月入学）",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度 (令和5年4月入学)；令和4年度",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-30",
+        "2022-08-31"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A",
+        "数学B",
+        "流体力学",
+        "電磁気学",
+        "量子力学",
+        "材料力学",
+        "機械材料学",
+        "化学基礎",
+        "放射化学",
+        "放射線工学",
+        "原子炉物理学"
+      ],
+      "files": [
+        {
+          "label": "数学A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e8efc401e8da299e17b6a6d195aa274aba1bda74520628bc6606a44752a21402.pdf",
+          "originalName": "r04Aug_MathA_J.pdf",
+          "sha256": "e8efc401e8da299e17b6a6d195aa274aba1bda74520628bc6606a44752a21402",
+          "byteSize": 155610,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r04Aug_MathA_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9339baf36be5666dda6c1c8c03b8ae93a1189478a3bc9450a94da746e25ace73.pdf",
+          "originalName": "r04Aug_MathB_J.pdf",
+          "sha256": "9339baf36be5666dda6c1c8c03b8ae93a1189478a3bc9450a94da746e25ace73",
+          "byteSize": 143899,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r04Aug_MathB_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7a19e3d37837045ddfb77c42e89d147ad046f246eaf82517a88caa329e6f6e8f.pdf",
+          "originalName": "r04Aug_SS_J.pdf",
+          "sha256": "7a19e3d37837045ddfb77c42e89d147ad046f246eaf82517a88caa329e6f6e8f",
+          "byteSize": 577120,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r04Aug_SS_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 文件名r04Aug不作为年度。数学A／数学B封面印令和4年度秋季募集和令和5年4月入学；専門科目封面摘录为令和4年度秋季募集9科目，未再印入学年月。科目名为封面列出的流体力学、電磁気学、量子力学、材料力学、機械材料学、化学基礎、放射化学、放射線工学、原子炉物理学。paperYear用令和4年度（2022），admissionYears取数学册上的令和5年4月入学。"
+    },
+    {
+      "id": "tohoku-quantum-2023-04-entry",
+      "universityId": "tohoku",
+      "title": "令和5年4月入学 · 量子エネルギー工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "令和5年4月入学",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年4月入学",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-02-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A",
+        "数学B"
+      ],
+      "files": [
+        {
+          "label": "数学A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c5ec4a17e22386f86d189d51b87b06c598c601d5a3c0f4d7a42a378db60b6730.pdf",
+          "originalName": "r04Feb_MathA_J.pdf",
+          "sha256": "c5ec4a17e22386f86d189d51b87b06c598c601d5a3c0f4d7a42a378db60b6730",
+          "byteSize": 219499,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r04Feb_MathA_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f0cc485040241f2cb29be0159994fe3e2482c1afd357e1e70bfd57be29659db7.pdf",
+          "originalName": "r04Feb_MathB_J.pdf",
+          "sha256": "f0cc485040241f2cb29be0159994fe3e2482c1afd357e1e70bfd57be29659db7",
+          "byteSize": 149511,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r04Feb_MathB_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 文件名r04Feb不作为年度。封面只写令和5年4月入学，考试日令和5年2月28日，没有「年度」或募集字样。paperYear按入学年2023，admissionYears为2023，examDates为2023-02-28。"
+    },
+    {
+      "id": "tohoku-quantum-2023-autumn",
+      "universityId": "tohoku",
+      "title": "令和5年度 · 量子エネルギー工学専攻 · 秋季募集",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "秋季募集",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-29",
+        "2023-08-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A",
+        "数学B",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "数学A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dafbcfea80e059e1c3e802b32747f81c9313d86e6dd485e10dfd25a565855aaa.pdf",
+          "originalName": "r05Aug_MathA_J.pdf",
+          "sha256": "dafbcfea80e059e1c3e802b32747f81c9313d86e6dd485e10dfd25a565855aaa",
+          "byteSize": 80244,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r05Aug_MathA_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fc9f01798b8d0697ae8771c083f9a8e6e09ddc938caaffb6febc5f8c425cc501.pdf",
+          "originalName": "r05Aug_MathB_J.pdf",
+          "sha256": "fc9f01798b8d0697ae8771c083f9a8e6e09ddc938caaffb6febc5f8c425cc501",
+          "byteSize": 47183,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r05Aug_MathB_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/54fb1d47c80e6dfacf391df3b9d15cdf23ebb2e216ff588791d8d44c97a3006f.pdf",
+          "originalName": "r05Aug_SS_J.pdf",
+          "sha256": "54fb1d47c80e6dfacf391df3b9d15cdf23ebb2e216ff588791d8d44c97a3006f",
+          "byteSize": 371152,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r05Aug_SS_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 文件名r05Aug不作为年度。封面为令和5年度秋季募集。専門科目封面写9科目；核对笔记仅注明与令和4年度列表相同，目录不把该对照扩写进科目栏。封面未印入学年月，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-quantum-2023-spring",
+      "universityId": "tohoku",
+      "title": "令和5年度 · 量子エネルギー工学専攻 · 春季募集",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "春季募集",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度",
+      "examYear": 2024,
+      "examDates": [
+        "2024-02-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A",
+        "数学B"
+      ],
+      "files": [
+        {
+          "label": "数学A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/170dbb9a7d7688ecbd33af4dd45cd6550ac457c326bf7c8b51ce86daf945745a.pdf",
+          "originalName": "r05Feb_MathA_J.pdf",
+          "sha256": "170dbb9a7d7688ecbd33af4dd45cd6550ac457c326bf7c8b51ce86daf945745a",
+          "byteSize": 60421,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r05Feb_MathA_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e03877e914fbd7e47b5789ab3c9f6efd214fff0b8fe7c0ad3e3864ce15e7f5bf.pdf",
+          "originalName": "r05Feb_MathB_J.pdf",
+          "sha256": "e03877e914fbd7e47b5789ab3c9f6efd214fff0b8fe7c0ad3e3864ce15e7f5bf",
+          "byteSize": 42507,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r05Feb_MathB_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 文件名r05Feb不作为年度。封面为令和5年度春季募集，考试日令和6年2月28日。paperYear用令和5年度（2023），examYear为2024。封面未印入学年月，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-quantum-2024-autumn",
+      "universityId": "tohoku",
+      "title": "令和6年度 · 量子エネルギー工学専攻 · 秋季募集",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "秋季募集（令和6年度実施）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-27",
+        "2024-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A",
+        "数学B",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "数学A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b96c6369f4e051354ce292fe6a2eb35b2a912b0f56cd34e5846be7209f4c6de5.pdf",
+          "originalName": "r06Aug_MathA_J.pdf",
+          "sha256": "b96c6369f4e051354ce292fe6a2eb35b2a912b0f56cd34e5846be7209f4c6de5",
+          "byteSize": 104586,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r06Aug_MathA_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/82de0c701559d04e6f19a00a7cc1b9f50702197afdc603449e3e75f2d1a88043.pdf",
+          "originalName": "r06Aug_MathB_J.pdf",
+          "sha256": "82de0c701559d04e6f19a00a7cc1b9f50702197afdc603449e3e75f2d1a88043",
+          "byteSize": 68664,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r06Aug_MathB_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/74fe08f7eab9c8aa27cbcae78c2b7d5d42cff8b582c08914ae6ba5cf5901a38b.pdf",
+          "originalName": "r06Aug_SS_J.pdf",
+          "sha256": "74fe08f7eab9c8aa27cbcae78c2b7d5d42cff8b582c08914ae6ba5cf5901a38b",
+          "byteSize": 483123,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/r06Aug_SS_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为秋季募集（令和6年度実施）。専門科目封面写9科目，核对笔记没有逐科抄录名称，科目栏只写専門科目。封面未印入学年月，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-quantum-2024-spring",
+      "universityId": "tohoku",
+      "title": "令和6年度 · 量子エネルギー工学専攻 · 春季募集",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "春季募集（令和6(2024)年度実施）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6(2024)年度",
+      "examYear": 2025,
+      "examDates": [
+        "2025-03-04"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A",
+        "数学B"
+      ],
+      "files": [
+        {
+          "label": "数学A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/75dfa828f7a09ba39a268a34641e1a664d65c0a8e19fab9fefd68205bb7be091.pdf",
+          "originalName": "2025Mar_MathA_J.pdf",
+          "sha256": "75dfa828f7a09ba39a268a34641e1a664d65c0a8e19fab9fefd68205bb7be091",
+          "byteSize": 89618,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/2025Mar_MathA_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/73b6bd20fec3e43309a6924c87957f5a37c34cff1551f161f6ef5331ed67afe1.pdf",
+          "originalName": "2025Mar_MathB_J.pdf",
+          "sha256": "73b6bd20fec3e43309a6924c87957f5a37c34cff1551f161f6ef5331ed67afe1",
+          "byteSize": 64670,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/2025Mar_MathB_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 文件名2025Mar不作为paperYear。封面为春季募集令和6(2024)年度実施，考试日2025年3月4日。paperYear为2024，examYear为2025。封面未印入学年月，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-quantum-2025-autumn",
+      "universityId": "tohoku",
+      "title": "令和7年度 · 量子エネルギー工学専攻 · 秋季募集",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "秋季募集（令和7(2025)年度実施）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7(2025)年度",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-26",
+        "2025-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A",
+        "数学B",
+        "流体力学",
+        "電磁気学",
+        "量子力学",
+        "材料力学",
+        "放射線基礎"
+      ],
+      "files": [
+        {
+          "label": "数学A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/249539826899c55d944fcf965c3ad1649899bdb08b4c54c7f50d3dca4448b83c.pdf",
+          "originalName": "2025Aug_MathA_J.pdf",
+          "sha256": "249539826899c55d944fcf965c3ad1649899bdb08b4c54c7f50d3dca4448b83c",
+          "byteSize": 104998,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/2025Aug_MathA_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0e21dc30733e443a69a7f5e836cd73ddd61a24d27c6c478aff8d935d135d65ab.pdf",
+          "originalName": "2025Aug_MathB_J.pdf",
+          "sha256": "0e21dc30733e443a69a7f5e836cd73ddd61a24d27c6c478aff8d935d135d65ab",
+          "byteSize": 72140,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/2025Aug_MathB_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8d74e8b0a7851a2a8459359d3c40b4cb0b787f1dada00eccb6839446fc144e49.pdf",
+          "originalName": "2025Aug_SS_J.pdf",
+          "sha256": "8d74e8b0a7851a2a8459359d3c40b4cb0b787f1dada00eccb6839446fc144e49",
+          "byteSize": 343545,
+          "pages": 7,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/2025Aug_SS_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为秋季募集令和7(2025)年度実施。専門科目封面列出5科：流体力学、電磁気学、量子力学、材料力学、放射線基礎。paperYear为2025。封面未印入学年月，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-quantum-2025-spring",
+      "universityId": "tohoku",
+      "title": "令和7年度 · 量子エネルギー工学専攻 · 春季募集",
+      "graduateSchool": "工学研究科",
+      "department": "量子エネルギー工学専攻",
+      "selectionName": "春季募集（令和7(2025)年度実施）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7(2025)年度",
+      "examYear": 2026,
+      "examDates": [
+        "2026-03-03"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学A",
+        "数学B"
+      ],
+      "files": [
+        {
+          "label": "数学A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b2140ceaddf3fd6b31849fb6c841bffab913d8311fb72ded8d041a4260d3a567.pdf",
+          "originalName": "2026Mar_MathA_J.pdf",
+          "sha256": "b2140ceaddf3fd6b31849fb6c841bffab913d8311fb72ded8d041a4260d3a567",
+          "byteSize": 78103,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/2026Mar_MathA_J.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2799f67b0fc6a992e9ab003928298f5b11d0b456560db13066950b29b7203216.pdf",
+          "originalName": "2026Mar_MathB_J.pdf",
+          "sha256": "2799f67b0fc6a992e9ab003928298f5b11d0b456560db13066950b29b7203216",
+          "byteSize": 48396,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/工学研究科/量子/2026Mar_MathB_J.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 文件名2026Mar不作为paperYear。封面为春季募集令和7(2025)年度実施，考试日2026年3月3日。paperYear为2025，examYear为2026。封面未印入学年月，不写admissionYears。"
+    },
+    {
+      "id": "tohoku-info-math-2000-02",
+      "universityId": "tohoku",
+      "title": "2000年2月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2000,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2000年2月",
+      "examYear": 2000,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1980c66d8ea8c2ebac0d01e05be0106fc66cc7d680968406a4653bd2915afe6b.pdf",
+          "originalName": "0002.pdf",
+          "sha256": "1980c66d8ea8c2ebac0d01e05be0106fc66cc7d680968406a4653bd2915afe6b",
+          "byteSize": 80922,
+          "pages": 6,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0002.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2000年2月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2000-09",
+      "universityId": "tohoku",
+      "title": "2000年9月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2000,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2000年9月",
+      "examYear": 2000,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b8cedd6352e955619284fb1ee7352568f2f396b455f9f8d00549fa84939f9715.pdf",
+          "originalName": "0009.pdf",
+          "sha256": "b8cedd6352e955619284fb1ee7352568f2f396b455f9f8d00549fa84939f9715",
+          "byteSize": 75156,
+          "pages": 7,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0009.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2000年9月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2001-03",
+      "universityId": "tohoku",
+      "title": "2001年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2001,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2001年3月",
+      "examYear": 2001,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f30c743a1d135285161752f94f3ee6f53a660bccc3b462e83bdc77520cf65cc0.pdf",
+          "originalName": "0103.pdf",
+          "sha256": "f30c743a1d135285161752f94f3ee6f53a660bccc3b462e83bdc77520cf65cc0",
+          "byteSize": 88065,
+          "pages": 6,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0103.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2001年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2001-09",
+      "universityId": "tohoku",
+      "title": "2001年9月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2001,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2001年9月",
+      "examYear": 2001,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/faee68b6888f4af09a130178ee0c52decc60373842da769fba15312de292959a.pdf",
+          "originalName": "0109.pdf",
+          "sha256": "faee68b6888f4af09a130178ee0c52decc60373842da769fba15312de292959a",
+          "byteSize": 87407,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0109.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2001年9月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2002-03",
+      "universityId": "tohoku",
+      "title": "2002年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2002,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2002年3月",
+      "examYear": 2002,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/87b58f52d78f099374e5a3bd343674994124d1ccbde9f844db4ec9e39b2af117.pdf",
+          "originalName": "0203.pdf",
+          "sha256": "87b58f52d78f099374e5a3bd343674994124d1ccbde9f844db4ec9e39b2af117",
+          "byteSize": 54339,
+          "pages": 6,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0203.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2002年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2002-09",
+      "universityId": "tohoku",
+      "title": "2002年9月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2002,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2002年9月",
+      "examYear": 2002,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e507f7b4d3a3d0cd3258bef4aa162030da0d20f2e290c3f0bb9eb21cef033ee.pdf",
+          "originalName": "0209.pdf",
+          "sha256": "5e507f7b4d3a3d0cd3258bef4aa162030da0d20f2e290c3f0bb9eb21cef033ee",
+          "byteSize": 63190,
+          "pages": 6,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0209.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2002年9月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2003-03",
+      "universityId": "tohoku",
+      "title": "2003年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2003,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2003年3月",
+      "examYear": 2003,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f28f931a92a88598333e30bdffeb49f3e9401022fb4630ee481fcf8bcb3c8236.pdf",
+          "originalName": "0303.pdf",
+          "sha256": "f28f931a92a88598333e30bdffeb49f3e9401022fb4630ee481fcf8bcb3c8236",
+          "byteSize": 59712,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0303.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2003年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2003-09",
+      "universityId": "tohoku",
+      "title": "2003年9月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2003,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2003年9月",
+      "examYear": 2003,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d2cccebe275b6cbb16d6223c68461c257bf3a724a602806af1459fcc59cc430e.pdf",
+          "originalName": "0309.pdf",
+          "sha256": "d2cccebe275b6cbb16d6223c68461c257bf3a724a602806af1459fcc59cc430e",
+          "byteSize": 65960,
+          "pages": 7,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0309.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2003年9月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2004-09",
+      "universityId": "tohoku",
+      "title": "2004年9月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2004,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2004年9月",
+      "examYear": 2004,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1bf6621e4d3d93828552cba67cd123256ec3449b47fa0cb1fead7ad467f5f8b6.pdf",
+          "originalName": "0409.pdf",
+          "sha256": "1bf6621e4d3d93828552cba67cd123256ec3449b47fa0cb1fead7ad467f5f8b6",
+          "byteSize": 68298,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0409.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2004年9月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。 该PDF文本层乱码，年度按已核对的渲染页眉「2004年9月」，不从文件名0409推断。"
+    },
+    {
+      "id": "tohoku-info-math-2005-03",
+      "universityId": "tohoku",
+      "title": "2005年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2005,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2005年3月",
+      "examYear": 2005,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/07bc1734070f052702887bb6a703cebde280012ec6a10b724508c01c3d61cd58.pdf",
+          "originalName": "0503.pdf",
+          "sha256": "07bc1734070f052702887bb6a703cebde280012ec6a10b724508c01c3d61cd58",
+          "byteSize": 52506,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0503.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2005年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2005-08",
+      "universityId": "tohoku",
+      "title": "2005年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2005,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2005年8月",
+      "examYear": 2005,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bfae3a7d7f2c18cae150d2dca44e11316714d9f03e50f641f1a2a40047550cd5.pdf",
+          "originalName": "0508.pdf",
+          "sha256": "bfae3a7d7f2c18cae150d2dca44e11316714d9f03e50f641f1a2a40047550cd5",
+          "byteSize": 88066,
+          "pages": 6,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0508.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2005年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2006-08",
+      "universityId": "tohoku",
+      "title": "2006年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2006,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2006年8月",
+      "examYear": 2006,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/443fcd47fb38f765fc3ec0082e13d032d2e3214e67cef4e7e75c688b212a03bf.pdf",
+          "originalName": "0608.pdf",
+          "sha256": "443fcd47fb38f765fc3ec0082e13d032d2e3214e67cef4e7e75c688b212a03bf",
+          "byteSize": 50358,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0608.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2006年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2007-08",
+      "universityId": "tohoku",
+      "title": "2007年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2007,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2007年8月",
+      "examYear": 2007,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e46be23ba37d6a2b1587b73ef2cc7cd2f6e89d48eae6a57083bf5a38d0996cef.pdf",
+          "originalName": "0708.pdf",
+          "sha256": "e46be23ba37d6a2b1587b73ef2cc7cd2f6e89d48eae6a57083bf5a38d0996cef",
+          "byteSize": 36971,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0708.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2007年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2008-02",
+      "universityId": "tohoku",
+      "title": "2008年2月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2008,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2008年2月",
+      "examYear": 2008,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a5d523b426928b585ccfecb504c56970f9e74140477f06d5b03907dea8131ece.pdf",
+          "originalName": "0802.pdf",
+          "sha256": "a5d523b426928b585ccfecb504c56970f9e74140477f06d5b03907dea8131ece",
+          "byteSize": 70760,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0802.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2008年2月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2009-08",
+      "universityId": "tohoku",
+      "title": "2009年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2009,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2009年8月",
+      "examYear": 2009,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2afc92d2e59f935ea16c69453b0df79681c26a2593a76b34a06d6e159ddea076.pdf",
+          "originalName": "0908.pdf",
+          "sha256": "2afc92d2e59f935ea16c69453b0df79681c26a2593a76b34a06d6e159ddea076",
+          "byteSize": 85671,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/0908.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2009年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2010-03",
+      "universityId": "tohoku",
+      "title": "2010年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2010,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2010年3月",
+      "examYear": 2010,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9508946141849e61b3cb9bcf48004e2bbf5c942883df3c5657d1bf6ddb323380.pdf",
+          "originalName": "1003.pdf",
+          "sha256": "9508946141849e61b3cb9bcf48004e2bbf5c942883df3c5657d1bf6ddb323380",
+          "byteSize": 87951,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1003.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2010年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2010-08",
+      "universityId": "tohoku",
+      "title": "2010年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2010,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2010年8月",
+      "examYear": 2010,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/53d9b274a67def45388d063fc5bc8c4308a193c4966885301f3405088beccf67.pdf",
+          "originalName": "1008.pdf",
+          "sha256": "53d9b274a67def45388d063fc5bc8c4308a193c4966885301f3405088beccf67",
+          "byteSize": 100270,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1008.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2010年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2011-03",
+      "universityId": "tohoku",
+      "title": "2011年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2011,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2011年3月",
+      "examYear": 2011,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/31f855064faf64bda1ed370f6aacec7ca15ef9854ad0a5b359c2542291e4ab76.pdf",
+          "originalName": "1103.pdf",
+          "sha256": "31f855064faf64bda1ed370f6aacec7ca15ef9854ad0a5b359c2542291e4ab76",
+          "byteSize": 88922,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1103.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2011年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2011-08",
+      "universityId": "tohoku",
+      "title": "2011年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2011,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2011年8月",
+      "examYear": 2011,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/09b3b1f8eedc5756935a5b79819429bb942db419c18ed0995f532cb0f87b5350.pdf",
+          "originalName": "1108.pdf",
+          "sha256": "09b3b1f8eedc5756935a5b79819429bb942db419c18ed0995f532cb0f87b5350",
+          "byteSize": 99923,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1108.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2011年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2012-02",
+      "universityId": "tohoku",
+      "title": "2012年2月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2012,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2012年2月",
+      "examYear": 2012,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/54b01a38d62a5a8f4022aacca2df941752c4c1fc299296df3f59320309086e9b.pdf",
+          "originalName": "1202.pdf",
+          "sha256": "54b01a38d62a5a8f4022aacca2df941752c4c1fc299296df3f59320309086e9b",
+          "byteSize": 126945,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1202.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2012年2月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2012-08",
+      "universityId": "tohoku",
+      "title": "2012年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2012,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2012年8月",
+      "examYear": 2012,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/90be0dbd507436fb4a8aae5f71f37333a05b6c9d86edef47cdabc702c9317ba0.pdf",
+          "originalName": "1208.pdf",
+          "sha256": "90be0dbd507436fb4a8aae5f71f37333a05b6c9d86edef47cdabc702c9317ba0",
+          "byteSize": 99119,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1208.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2012年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2013-03",
+      "universityId": "tohoku",
+      "title": "2013年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2013,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2013年3月",
+      "examYear": 2013,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ba74126dea67005124cca3e3325ddbe5a20e381bbc0484f23cc2afe9facb6253.pdf",
+          "originalName": "1303.pdf",
+          "sha256": "ba74126dea67005124cca3e3325ddbe5a20e381bbc0484f23cc2afe9facb6253",
+          "byteSize": 85388,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1303.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2013年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2013-08",
+      "universityId": "tohoku",
+      "title": "2013年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2013,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2013年8月",
+      "examYear": 2013,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1fa178e28c52a5005877509af49b60a8eec841626f23f7dd33cf0b4fbee80f10.pdf",
+          "originalName": "1308.pdf",
+          "sha256": "1fa178e28c52a5005877509af49b60a8eec841626f23f7dd33cf0b4fbee80f10",
+          "byteSize": 129922,
+          "pages": 6,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1308.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2013年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2014-03",
+      "universityId": "tohoku",
+      "title": "2014年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2014,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2014年3月",
+      "examYear": 2014,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/67a284eaf32b5846a83e58971ccd844176f2bce78411f59da50744f1d2b6b010.pdf",
+          "originalName": "1403.pdf",
+          "sha256": "67a284eaf32b5846a83e58971ccd844176f2bce78411f59da50744f1d2b6b010",
+          "byteSize": 32863,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1403.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2014年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2014-08",
+      "universityId": "tohoku",
+      "title": "2014年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2014,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2014年8月",
+      "examYear": 2014,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bfe7f6b65bedd4b5b2ae2f7a8860e2fb3655567e595bd45862914d5de870ac19.pdf",
+          "originalName": "1408.pdf",
+          "sha256": "bfe7f6b65bedd4b5b2ae2f7a8860e2fb3655567e595bd45862914d5de870ac19",
+          "byteSize": 122957,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1408.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2014年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2015-03",
+      "universityId": "tohoku",
+      "title": "2015年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2015,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2015年3月",
+      "examYear": 2015,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d25fbdc39fa66cfacaa795674ce137c95237baf76ef27db421d0422bb3749d97.pdf",
+          "originalName": "1503.pdf",
+          "sha256": "d25fbdc39fa66cfacaa795674ce137c95237baf76ef27db421d0422bb3749d97",
+          "byteSize": 29089,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1503.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2015年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2015-08",
+      "universityId": "tohoku",
+      "title": "2015年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2015,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2015年8月",
+      "examYear": 2015,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ca81df49082f5fc6028f2f6c761e4380a09a9b31d5a2b69e3165a3f27f2411e0.pdf",
+          "originalName": "1508.pdf",
+          "sha256": "ca81df49082f5fc6028f2f6c761e4380a09a9b31d5a2b69e3165a3f27f2411e0",
+          "byteSize": 34130,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1508.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2015年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2016-08",
+      "universityId": "tohoku",
+      "title": "2016年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2016,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2016年8月",
+      "examYear": 2016,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dde90486ab57d6a9f754a6bff115282b218846bf44c5526a852d607c2527eaa5.pdf",
+          "originalName": "1608.pdf",
+          "sha256": "dde90486ab57d6a9f754a6bff115282b218846bf44c5526a852d607c2527eaa5",
+          "byteSize": 108653,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1608.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2016年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2017-08",
+      "universityId": "tohoku",
+      "title": "2017年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2017,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2017年8月",
+      "examYear": 2017,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8040cb1f97e746bb41e128dcbdb14925c1bec1b8905d16ab4695dd921b5b5066.pdf",
+          "originalName": "1708.pdf",
+          "sha256": "8040cb1f97e746bb41e128dcbdb14925c1bec1b8905d16ab4695dd921b5b5066",
+          "byteSize": 93032,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1708.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2017年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2018-08",
+      "universityId": "tohoku",
+      "title": "2018年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2018,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2018年8月",
+      "examYear": 2018,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5cec429b2bd85a92bdcb7bd7dea37e2673273d273531a7f849507377d8e790af.pdf",
+          "originalName": "1808.pdf",
+          "sha256": "5cec429b2bd85a92bdcb7bd7dea37e2673273d273531a7f849507377d8e790af",
+          "byteSize": 111626,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1808.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2018年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2019-08",
+      "universityId": "tohoku",
+      "title": "2019年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2019,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2019年8月",
+      "examYear": 2019,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3d82dbbfbed41d1da219c89c4204cb55748238d05d80ca3899fcca532aab7857.pdf",
+          "originalName": "1908.pdf",
+          "sha256": "3d82dbbfbed41d1da219c89c4204cb55748238d05d80ca3899fcca532aab7857",
+          "byteSize": 114193,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/1908.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2019年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2020-08",
+      "universityId": "tohoku",
+      "title": "2020年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2020,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2020年8月",
+      "examYear": 2020,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0d0810a1a02691ba1bbfbc60004102052b97cc6ab6f44e22332cd179b2f5bc5e.pdf",
+          "originalName": "2008.pdf",
+          "sha256": "0d0810a1a02691ba1bbfbc60004102052b97cc6ab6f44e22332cd179b2f5bc5e",
+          "byteSize": 84915,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/2008.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2020年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2021-08",
+      "universityId": "tohoku",
+      "title": "2021年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2021年8月",
+      "examYear": 2021,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/df662c277a1c90945443964beecd231714f11b76e2c69391f0d2b31a90fcc4a5.pdf",
+          "originalName": "2108.pdf",
+          "sha256": "df662c277a1c90945443964beecd231714f11b76e2c69391f0d2b31a90fcc4a5",
+          "byteSize": 88695,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/2108.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2021年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2022-08",
+      "universityId": "tohoku",
+      "title": "2022年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2022年8月",
+      "examYear": 2022,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c876bec93c7071d1cca295a45268cb3f79b4985bd6182c3c08161196454e1636.pdf",
+          "originalName": "2208.pdf",
+          "sha256": "c876bec93c7071d1cca295a45268cb3f79b4985bd6182c3c08161196454e1636",
+          "byteSize": 87947,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/2208.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2022年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2023-08",
+      "universityId": "tohoku",
+      "title": "2023年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年8月",
+      "examYear": 2023,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f7edd396fdfb9ca0a0d0c75f3ab136727564ade4301290b594591ef77294377d.pdf",
+          "originalName": "2308.pdf",
+          "sha256": "f7edd396fdfb9ca0a0d0c75f3ab136727564ade4301290b594591ef77294377d",
+          "byteSize": 86926,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/2308.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2023年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2024-08",
+      "universityId": "tohoku",
+      "title": "2024年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月",
+      "examYear": 2024,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2069a84cea42189d66304499161d2e4a1d5bdb8a3276f8fb04548573a437072a.pdf",
+          "originalName": "2408.pdf",
+          "sha256": "2069a84cea42189d66304499161d2e4a1d5bdb8a3276f8fb04548573a437072a",
+          "byteSize": 46613,
+          "pages": 2,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/2408.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出題意図・解答例",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/748f541eebc9b5a6e430906eebaf3bb6ee354bba7e9b09e863ea0ffb3bb2a707.pdf",
+          "originalName": "2408comments.pdf",
+          "sha256": "748f541eebc9b5a6e430906eebaf3bb6ee354bba7e9b09e863ea0ffb3bb2a707",
+          "byteSize": 69100,
+          "pages": 1,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/2408comments.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「2024年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。 另附1页，封面为「2024年度実施上期入試筆答試験 出題意図・解答例」。试题页眉是2024年8月，解答页写2024年度実施上期，没有公历日。"
+    },
+    {
+      "id": "tohoku-info-math-1999-03",
+      "universityId": "tohoku",
+      "title": "1999年3月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 1999,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "1999年3月",
+      "examYear": 1999,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b335ceeaa950d9f75f9f4a476f9e2b3b6a61633632ceae5335b46452d390e010.pdf",
+          "originalName": "9903.pdf",
+          "sha256": "b335ceeaa950d9f75f9f4a476f9e2b3b6a61633632ceae5335b46452d390e010",
+          "byteSize": 72236,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/9903.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「1999年3月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-1999-08",
+      "universityId": "tohoku",
+      "title": "1999年8月 · 情報科学（数学）",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 1999,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "1999年8月",
+      "examYear": 1999,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/29bc7d692f66be62fe72aaccab04e8b48639ca35610eb70578019669de26f19f.pdf",
+          "originalName": "9908.pdf",
+          "sha256": "29bc7d692f66be62fe72aaccab04e8b48639ca35610eb70578019669de26f19f",
+          "byteSize": 85559,
+          "pages": 6,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/9908.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。页眉只有「1999年8月」和問題1，不声称属于情報科学研究科的某个专攻，也不把页眉月份补成公历日。"
+    },
+    {
+      "id": "tohoku-info-math-2025-comments",
+      "universityId": "tohoku",
+      "title": "2025年度実施上期 · 情報科学（数学） · 出題意図・解答例",
+      "graduateSchool": "情報科学（数学）",
+      "department": "情報科学（数学）",
+      "selectionName": "按云盘文件夹归类（封面无研究科／专攻名）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度実施上期",
+      "subjects": [
+        "出題意図・解答例"
+      ],
+      "files": [
+        {
+          "label": "出題意図・解答例",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/75639db8404755a6ac7452f4d5b6982bbb077fd6aacb93ea92de8d3ede8dbfe6.pdf",
+          "originalName": "2508comments (1).pdf",
+          "sha256": "75639db8404755a6ac7452f4d5b6982bbb077fd6aacb93ea92de8d3ede8dbfe6",
+          "byteSize": 319626,
+          "pages": 1,
+          "sourcePaths": [
+            "东北大学/情报科学/数学/2508comments (1).pdf",
+            "东北大学/情报科学/数学/2508comments.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。封面为「2025年度実施上期入試筆答試験 出題意図・解答例」，1页，不是试题。本文件夹没有2025年试题，不补造。2508comments.pdf与「2508comments (1).pdf」字节相同，两个sourcePaths都保留。"
     }
   ],
   "schoolNotes": {
@@ -14701,6 +17188,63 @@
     },
     "osaka": {
       "text": "大阪大学新增57组／95个PDF（94个问题原卷、1个科目参考书说明），无随卷解答。电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。年度按卷面入学年度，知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。基礎工学按考试科目分组，不把科目当专攻；乱码原名、封面和原页均保留。不声明全校、所有年度或缺少的科目齐全。"
+    },
+    "tohoku": {
+      "text": "本校67组／82个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。云盘本包87个路径、86个唯一PDF、664页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。yearBasis为mixed：封面印「〇〇年度」时paperYear用该年度（令和N＝2018+N，平成N＝1988+N），只有封面写明「N年4月入学」才记admissionYears；只印实施日或页眉「YYYY年M月」时paperYear与examYear用该年，不写admissionYears，也不从文件名补年度。没有公历日就不写examDates。応用物理学2014—2020年8月按实施日；文件名带R6的出题意图封面是令和7年度。机械系4専攻三册按令和年度整册收录，封面只显示数学A；2026年春季1页是出题范围。电气情报按封面公历年，2024年8月起基础与专门合一册；2023年8月和2024年2月封面列情報科学研究科情報・生命系群，其后没有。量子年度以封面为准，允许与文件名错开。情報科学（数学）按云盘文件夹归类，封面无研究科／专攻名，不声称属于情報科学研究科的某个专攻；2025年度只有出題意図・解答例，没有试题，不补。排除理学数学、理学物理、理学推荐募集要项和土木。不声明其他年度或全校齐全。",
+      "supplements": [
+        {
+          "label": "応用物理学（封面无年度，文件名2024秋季大学院入試_応物.pdf）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9091e500f027835330940297af70d7470ffbdf8b9875d04c6fa9aaedcc07b90f.pdf",
+          "originalName": "2024秋季大学院入試_応物.pdf",
+          "sha256": "9091e500f027835330940297af70d7470ffbdf8b9875d04c6fa9aaedcc07b90f",
+          "byteSize": 927943,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/2024秋季大学院入試_応物.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "応用物理学（封面无年度，文件名R3.pdf）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2275296cc1cce0c2387d767beb0820271c42f83c29ed70bd5fd7df52c73d09ba.pdf",
+          "originalName": "R3.pdf",
+          "sha256": "2275296cc1cce0c2387d767beb0820271c42f83c29ed70bd5fd7df52c73d09ba",
+          "byteSize": 791531,
+          "pages": 6,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/R3.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "応用物理学（封面无年度，文件名R4.pdf）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e7a8c4dd747bfd8fe9d0ff8c2a16566dcdb083988f3269ec03648d4ee356d34e.pdf",
+          "originalName": "R4.pdf",
+          "sha256": "e7a8c4dd747bfd8fe9d0ff8c2a16566dcdb083988f3269ec03648d4ee356d34e",
+          "byteSize": 684070,
+          "pages": 7,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/R4.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "応用物理学（封面无年度，文件名R5.pdf）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b94754d4d530f829478ee494d6b8c76cde8f005ab6bc287b2da60c2f8e0c1ef7.pdf",
+          "originalName": "R5.pdf",
+          "sha256": "b94754d4d530f829478ee494d6b8c76cde8f005ab6bc287b2da60c2f8e0c1ef7",
+          "byteSize": 605592,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/工学研究科/应用物理学/R5.pdf"
+          ],
+          "startPage": 1
+        }
+      ]
     }
   }
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);
