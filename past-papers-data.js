@@ -8237,6 +8237,1125 @@
       "examDates": [
         "2025-08-25"
       ]
+    },
+    {
+      "id": "uec-informatics-2024",
+      "universityId": "uec",
+      "title": "2024年8月実施 · 情報学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月16日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "アルゴリズムとデータ構造",
+        "確率・オペレーションズリサーチ",
+        "離散数学",
+        "計算機工学"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/baaed7405c39dd64ec97fc48d8bf3b517844c41cbd469aa62309257e06b022ab.pdf",
+          "originalName": "kako_1_j_mandatory202408.pdf",
+          "sha256": "baaed7405c39dd64ec97fc48d8bf3b517844c41cbd469aa62309257e06b022ab",
+          "byteSize": 74669,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/24.8/情报网络工学/kako_1_j_mandatory202408.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/82e75e851d7c4418bfbe90270d70fde6f598a3fad1ea117e0c82fa12fbc8af19.pdf",
+          "originalName": "kako_2_j_choice202408.pdf",
+          "sha256": "82e75e851d7c4418bfbe90270d70fde6f598a3fad1ea117e0c82fa12fbc8af19",
+          "byteSize": 659017,
+          "pages": 15,
+          "sourcePaths": [
+            "电气通讯大学/24.8/情报网络工学/kako_2_j_choice202408.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題封面科目为「線形代数」および「微分積分」，与選択問題同场，合计180分钟。選択是4科目中选3：アルゴリズムとデータ構造、確率・オペレーションズリサーチ、離散数学、計算機工学。封面写明計算機工学在4-1与4-2中择一，未印这两问的科目名。云盘24.8把本卷放在「情报网络工学」文件夹；文件名代号j与封面【情報学専攻】一致，按封面归入情報学専攻，来源路径仍记录实际文件夹。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-16"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-networks-2024",
+      "universityId": "uec",
+      "title": "2024年8月実施 · 情報・ネットワーク工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月16日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "電気回路",
+        "電磁気学",
+        "確率統計",
+        "信号処理",
+        "アルゴリズムとデータ構造",
+        "計算機の基本原理",
+        "数値計算",
+        "離散数学とオートマトン"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a7b2b662d4e4aa95b0014ca8d879b33bfb6829f089764199975fd7ab00b3b93c.pdf",
+          "originalName": "kako_3_i_mandatory202408.pdf",
+          "sha256": "a7b2b662d4e4aa95b0014ca8d879b33bfb6829f089764199975fd7ab00b3b93c",
+          "byteSize": 76991,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/24.8/情报学/kako_3_i_mandatory202408.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e3b3c75992aa419865e3203dda0ba87acebaf7c5fc6f9564760f0c1ac93e4b23.pdf",
+          "originalName": "kako_4_i_choice202408.pdf",
+          "sha256": "e3b3c75992aa419865e3203dda0ba87acebaf7c5fc6f9564760f0c1ac93e4b23",
+          "byteSize": 971048,
+          "pages": 12,
+          "sourcePaths": [
+            "电气通讯大学/24.8/情报学/kako_4_i_choice202408.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題为「線形代数」与「微分積分」各一问，必答90分钟。選択是8科目中选3，选答120分钟。云盘24.8把本卷放在「情报学」文件夹；文件名代号i与封面【情報・ネットワーク工学専攻】一致，按封面归入情報・ネットワーク工学専攻，来源路径仍记录实际文件夹。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-16"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-mechanical-2024",
+      "universityId": "uec",
+      "title": "2024年8月実施 · 機械知能システム学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月16日実施",
+      "subjects": [
+        "数学基礎",
+        "物理学基礎",
+        "材料力学",
+        "機械力学",
+        "熱力学",
+        "流体力学",
+        "制御工学",
+        "電気回路学",
+        "ディジタル信号処理",
+        "応用数学"
+      ],
+      "files": [
+        {
+          "label": "必須問題（数学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/11ffe3cff61ab77a0024aa90cbe549e66c6288e3aeaeeb0264d586c97150d9df.pdf",
+          "originalName": "kako_5_m_mandatory202408.pdf",
+          "sha256": "11ffe3cff61ab77a0024aa90cbe549e66c6288e3aeaeeb0264d586c97150d9df",
+          "byteSize": 93728,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/24.8/机械知能系统/kako_5_m_mandatory202408.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "必須問題（物理学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/98322cfb5ad26775289da86daf8caf515f4528568d0bf6eb4dd5ee3bc1eb71be.pdf",
+          "originalName": "kako_6_m_mandatory_buturi202408.pdf",
+          "sha256": "98322cfb5ad26775289da86daf8caf515f4528568d0bf6eb4dd5ee3bc1eb71be",
+          "byteSize": 661898,
+          "pages": 6,
+          "sourcePaths": [
+            "电气通讯大学/24.8/机械知能系统/kako_6_m_mandatory_buturi202408.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1d0f22a3e12d71065ddbef0455c6cd5d55882ed2d4a80d724f61d367f49e75d6.pdf",
+          "originalName": "kako_7_m_choice202408.pdf",
+          "sha256": "1d0f22a3e12d71065ddbef0455c6cd5d55882ed2d4a80d724f61d367f49e75d6",
+          "byteSize": 604593,
+          "pages": 16,
+          "sourcePaths": [
+            "电气通讯大学/24.8/机械知能系统/kako_7_m_choice202408.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題（数学）与必須問題（物理学）分册，各60分钟。選択是8科目中选2，选答90分钟。物理学册封面有問題訂正，PDF第6页为誤／正，原页保留。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-16"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-fundamental-2024",
+      "universityId": "uec",
+      "title": "2024年8月実施 · 基盤理工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月16日実施",
+      "subjects": [
+        "電気・電子回路",
+        "光波動工学",
+        "量子力学／統計力学",
+        "無機・有機化学",
+        "分子生物学／生物化学",
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "光・電子デバイス基礎",
+        "物理化学",
+        "細胞・神経生物学"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f0de9c248bf11cf049d3172fea97810cedfe94a72f7700875a27754e8e5c239f.pdf",
+          "originalName": "kako_8_s_choice202408.pdf",
+          "sha256": "f0de9c248bf11cf049d3172fea97810cedfe94a72f7700875a27754e8e5c239f",
+          "byteSize": 1522194,
+          "pages": 25,
+          "sourcePaths": [
+            "电气通讯大学/24.8/基础理工/kako_8_s_choice202408.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。专业科目只有選択群，没有必修分册。選択群I的5科目与選択群II的6科目共11科目中选4，且選択群I至少1科目，考试时间180分钟。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-16"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-informatics-2023",
+      "universityId": "uec",
+      "title": "2023年8月実施 · 情報学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年8月17日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "アルゴリズムとデータ構造",
+        "確率・オペレーションズリサーチ",
+        "離散数学",
+        "計算機工学"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f9636fd311eaa99bffa76cd5daa46641393b1fdd483a71519b9f8b821f4aa741.pdf",
+          "originalName": "kako_j_mandatory202308.pdf",
+          "sha256": "f9636fd311eaa99bffa76cd5daa46641393b1fdd483a71519b9f8b821f4aa741",
+          "byteSize": 65304,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/23.8/情报学/kako_j_mandatory202308.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/71f61333c83fd54c71a8f5ef230ea3ca0befe732867e113fc81fa3b781fdc74e.pdf",
+          "originalName": "kako_j_choice202308.pdf",
+          "sha256": "71f61333c83fd54c71a8f5ef230ea3ca0befe732867e113fc81fa3b781fdc74e",
+          "byteSize": 512774,
+          "pages": 14,
+          "sourcePaths": [
+            "电气通讯大学/23.8/情报学/kako_j_choice202308.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題封面科目为「線形代数」および「微分積分」，与選択問題同场，合计180分钟。選択是4科目中选3：アルゴリズムとデータ構造、確率・オペレーションズリサーチ、離散数学、計算機工学。封面写明計算機工学在4-1与4-2中择一，未印这两问的科目名。",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-networks-2023",
+      "universityId": "uec",
+      "title": "2023年8月実施 · 情報・ネットワーク工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年8月17日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "電気回路",
+        "電磁気学",
+        "確率統計",
+        "信号処理",
+        "アルゴリズムとデータ構造",
+        "計算機の基本原理",
+        "数値計算",
+        "離散数学とオートマトン"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6b18ed4704469eb2ecd7592f6dc2fa4427074688c19b8465cf1012013784f64e.pdf",
+          "originalName": "kako_i_mandatory202308.pdf",
+          "sha256": "6b18ed4704469eb2ecd7592f6dc2fa4427074688c19b8465cf1012013784f64e",
+          "byteSize": 78651,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/23.8/情报网络工学/kako_i_mandatory202308.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/60fb5bb24f2b960b4fb61a6827e603d594a693ed9dde305ce53710e9d52eeb0e.pdf",
+          "originalName": "kako_i_choice202308.pdf",
+          "sha256": "60fb5bb24f2b960b4fb61a6827e603d594a693ed9dde305ce53710e9d52eeb0e",
+          "byteSize": 518018,
+          "pages": 12,
+          "sourcePaths": [
+            "电气通讯大学/23.8/情报网络工学/kako_i_choice202308.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題为「線形代数」与「微分積分」各一问，必答90分钟。選択是8科目中选3，选答120分钟。",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-mechanical-2023",
+      "universityId": "uec",
+      "title": "2023年8月実施 · 機械知能システム学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年8月17日実施",
+      "subjects": [
+        "数学基礎",
+        "物理学基礎",
+        "材料力学",
+        "機械力学",
+        "熱力学",
+        "流体力学",
+        "制御工学",
+        "電気回路学",
+        "ディジタル信号処理",
+        "応用数学"
+      ],
+      "files": [
+        {
+          "label": "必須問題（数学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0bad6afba899ac9f4e2ae5324057366031a80cef0acdfde5da5c7bf7b25fce10.pdf",
+          "originalName": "kako_m_mandatory202308.pdf",
+          "sha256": "0bad6afba899ac9f4e2ae5324057366031a80cef0acdfde5da5c7bf7b25fce10",
+          "byteSize": 82794,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/23.8/机械知能系统/kako_m_mandatory202308.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "必須問題（物理学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ef1f3f3b6c3ef3195b61e80253ddf6f7bd94f61b768182fb240b2b6ee1330f7f.pdf",
+          "originalName": "kako_m_mandatory_buturi202308.pdf",
+          "sha256": "ef1f3f3b6c3ef3195b61e80253ddf6f7bd94f61b768182fb240b2b6ee1330f7f",
+          "byteSize": 487320,
+          "pages": 5,
+          "sourcePaths": [
+            "电气通讯大学/23.8/机械知能系统/kako_m_mandatory_buturi202308.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/57a6ed823e7939d5df7533b3fe6271df9ee21ffd68fcb8b44bf1b3069fe6cbfd.pdf",
+          "originalName": "kako_m_choice202308.pdf",
+          "sha256": "57a6ed823e7939d5df7533b3fe6271df9ee21ffd68fcb8b44bf1b3069fe6cbfd",
+          "byteSize": 627685,
+          "pages": 17,
+          "sourcePaths": [
+            "电气通讯大学/23.8/机械知能系统/kako_m_choice202308.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題（数学）与必須問題（物理学）分册，各60分钟。選択是8科目中选2，选答90分钟。",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-fundamental-2023",
+      "universityId": "uec",
+      "title": "2023年8月実施 · 基盤理工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年8月17日実施",
+      "subjects": [
+        "電気・電子回路",
+        "光波動工学",
+        "量子力学／統計力学",
+        "無機・有機化学",
+        "分子生物学／生物化学",
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "光・電子デバイス基礎",
+        "物理化学",
+        "細胞・神経生物学"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4ad3f6b96f7fd8685aad7895a62df2a49d35aad8381fcf6f0b04b5acf5cc8d2d.pdf",
+          "originalName": "kako_s_choice202308.pdf",
+          "sha256": "4ad3f6b96f7fd8685aad7895a62df2a49d35aad8381fcf6f0b04b5acf5cc8d2d",
+          "byteSize": 2077119,
+          "pages": 25,
+          "sourcePaths": [
+            "电气通讯大学/23.8/基础理工/kako_s_choice202308.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。专业科目只有選択群，没有必修分册。選択群I的5科目与選択群II的6科目共11科目中选4，且選択群I至少1科目，考试时间180分钟。",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-informatics-2022",
+      "universityId": "uec",
+      "title": "2022年8月実施 · 情報学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2022年8月17日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "アルゴリズムとデータ構造",
+        "確率・オペレーションズリサーチ",
+        "離散数学",
+        "計算機工学"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/05c2a3514d4d23d4e9b44b43410b45a8e1a1a5661c593dcf45a78edb83ba30f3.pdf",
+          "originalName": "kako_j_mandatory202208.pdf",
+          "sha256": "05c2a3514d4d23d4e9b44b43410b45a8e1a1a5661c593dcf45a78edb83ba30f3",
+          "byteSize": 66276,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/22.8/情报学/kako_j_mandatory202208.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d407703069b2f46c45c9d36835d453c9571f356fe03650aefa3552828d63bf66.pdf",
+          "originalName": "kako_j_choice202208.pdf",
+          "sha256": "d407703069b2f46c45c9d36835d453c9571f356fe03650aefa3552828d63bf66",
+          "byteSize": 577328,
+          "pages": 15,
+          "sourcePaths": [
+            "电气通讯大学/22.8/情报学/kako_j_choice202208.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題封面科目为「線形代数」および「微分積分」，与選択問題同场，合计180分钟。選択是4科目中选3：アルゴリズムとデータ構造、確率・オペレーションズリサーチ、離散数学、計算機工学。封面写明計算機工学在4-1［形式言語理論］与4-2［計算機アーキテクチャ］中择一。",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-networks-2022",
+      "universityId": "uec",
+      "title": "2022年8月実施 · 情報・ネットワーク工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2022年8月17日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "電気回路",
+        "電磁気学",
+        "確率統計",
+        "信号処理",
+        "アルゴリズムとデータ構造",
+        "計算機の基本原理",
+        "数値計算",
+        "離散数学とオートマトン"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a1b268be808be0a4cc89ecfabd5d3a8c2bf1e92dc0645a75eac2b5634bf43d9f.pdf",
+          "originalName": "kako_i_mandatory202208.pdf",
+          "sha256": "a1b268be808be0a4cc89ecfabd5d3a8c2bf1e92dc0645a75eac2b5634bf43d9f",
+          "byteSize": 71863,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/22.8/情报网络工学/kako_i_mandatory202208.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a6f1adca611272ff2b723de4cd8ebd47899172af15b858826f7354cc6f113363.pdf",
+          "originalName": "kako_i_choice202208.pdf",
+          "sha256": "a6f1adca611272ff2b723de4cd8ebd47899172af15b858826f7354cc6f113363",
+          "byteSize": 497159,
+          "pages": 12,
+          "sourcePaths": [
+            "电气通讯大学/22.8/情报网络工学/kako_i_choice202208.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題为「線形代数」与「微分積分」各一问，必答90分钟。選択是8科目中选3，选答120分钟。",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-mechanical-2022",
+      "universityId": "uec",
+      "title": "2022年8月実施 · 機械知能システム学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2022年8月17日実施",
+      "subjects": [
+        "数学基礎",
+        "物理学基礎",
+        "材料力学",
+        "機械力学",
+        "熱力学",
+        "流体力学",
+        "制御工学",
+        "電気回路学",
+        "ディジタル信号処理",
+        "応用数学"
+      ],
+      "files": [
+        {
+          "label": "必須問題（数学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a4ea4aa54ae9c5b3c04b5f8328e5461e25fd49f3ceedef10d1fc2e81450ed5d9.pdf",
+          "originalName": "kako_m_mandatory202208.pdf",
+          "sha256": "a4ea4aa54ae9c5b3c04b5f8328e5461e25fd49f3ceedef10d1fc2e81450ed5d9",
+          "byteSize": 104830,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/22.8/机械知能系统/kako_m_mandatory202208.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "必須問題（物理学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2a3f707ea7132930ac94670e4075d9b0c721812376b1e95c97dbf6fa4a2054ed.pdf",
+          "originalName": "kako_m_mandatory_buturi202208.pdf",
+          "sha256": "2a3f707ea7132930ac94670e4075d9b0c721812376b1e95c97dbf6fa4a2054ed",
+          "byteSize": 176318,
+          "pages": 5,
+          "sourcePaths": [
+            "电气通讯大学/22.8/机械知能系统/kako_m_mandatory_buturi202208.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bb1eeb50b20866b11a09db0be5b3cfcffd01e717e786088ed990374d7d30e9dc.pdf",
+          "originalName": "kako_m_choice202208.pdf",
+          "sha256": "bb1eeb50b20866b11a09db0be5b3cfcffd01e717e786088ed990374d7d30e9dc",
+          "byteSize": 599869,
+          "pages": 17,
+          "sourcePaths": [
+            "电气通讯大学/22.8/机械知能系统/kako_m_choice202208.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題（数学）与必須問題（物理学）分册，各60分钟。選択是8科目中选2，选答90分钟。選択封面印有「注）赤字は出題ミスを修正」，原页保留。",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-fundamental-2022",
+      "universityId": "uec",
+      "title": "2022年8月実施 · 基盤理工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2022年8月17日実施",
+      "subjects": [
+        "電気・電子回路",
+        "光波動工学",
+        "量子力学／統計力学",
+        "無機・有機化学",
+        "分子生物学／生物化学",
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "光・電子デバイス基礎",
+        "物理化学",
+        "細胞・神経生物学"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/614640bc9e8782a289fc0a1a3468751870e6a706a54c292b98588028179721ea.pdf",
+          "originalName": "kako_s_choice202208.pdf",
+          "sha256": "614640bc9e8782a289fc0a1a3468751870e6a706a54c292b98588028179721ea",
+          "byteSize": 1020232,
+          "pages": 24,
+          "sourcePaths": [
+            "电气通讯大学/22.8/基础理工/kako_s_choice202208.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。专业科目只有選択群，没有必修分册。選択群I的5科目与選択群II的6科目共11科目中选4，且選択群I至少1科目，考试时间180分钟。",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-informatics-2021",
+      "universityId": "uec",
+      "title": "2021年8月実施 · 情報学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2021年8月17日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "アルゴリズムとデータ構造",
+        "確率・オペレーションズリサーチ",
+        "離散数学",
+        "計算機工学"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9bd7e2f46d5db345f6aeb122e92997e64c303f861d69195fe5c225bb535f887a.pdf",
+          "originalName": "kako_j_mandatory202108.pdf",
+          "sha256": "9bd7e2f46d5db345f6aeb122e92997e64c303f861d69195fe5c225bb535f887a",
+          "byteSize": 68817,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/21.8/情报学/kako_j_mandatory202108.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ca64bc68c904dd7d612571ddaa8ae95d49c18130a0cbde7c13c06e7452e3b4b9.pdf",
+          "originalName": "kako_j_choice202108.pdf",
+          "sha256": "ca64bc68c904dd7d612571ddaa8ae95d49c18130a0cbde7c13c06e7452e3b4b9",
+          "byteSize": 454979,
+          "pages": 13,
+          "sourcePaths": [
+            "电气通讯大学/21.8/情报学/kako_j_choice202108.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題封面科目为「線形代数」および「微分積分」，与選択問題同场，合计180分钟。選択是4科目中选3：アルゴリズムとデータ構造、確率・オペレーションズリサーチ、離散数学、計算機工学。封面写明計算機工学在4-1［形式言語理論］与4-2［計算機アーキテクチャ］中择一。",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-networks-2021",
+      "universityId": "uec",
+      "title": "2021年8月実施 · 情報・ネットワーク工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2021年8月17日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "電気回路",
+        "電磁気学",
+        "確率統計",
+        "信号処理",
+        "アルゴリズムとデータ構造",
+        "計算機の基本原理",
+        "数値計算",
+        "離散数学とオートマトン"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ee36e3037483d0aa3740bd9505d44bca3f67e0a3c3a9c98b28c8c1649a77e587.pdf",
+          "originalName": "kako_i_mandatory202108.pdf",
+          "sha256": "ee36e3037483d0aa3740bd9505d44bca3f67e0a3c3a9c98b28c8c1649a77e587",
+          "byteSize": 74048,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/21.8/情报网络工学/kako_i_mandatory202108.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/36055e92b1a706045d276edb489842589ca81aaed79c68f9eb486a36d41d39cf.pdf",
+          "originalName": "kako_i_choice202108.pdf",
+          "sha256": "36055e92b1a706045d276edb489842589ca81aaed79c68f9eb486a36d41d39cf",
+          "byteSize": 501608,
+          "pages": 13,
+          "sourcePaths": [
+            "电气通讯大学/21.8/情报网络工学/kako_i_choice202108.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題为「線形代数」与「微分積分」各一问，必答90分钟。選択是8科目中选3，选答120分钟。",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-mechanical-2021",
+      "universityId": "uec",
+      "title": "2021年8月実施 · 機械知能システム学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2021年8月17日実施",
+      "subjects": [
+        "数学基礎",
+        "物理学基礎",
+        "材料力学",
+        "機械力学",
+        "熱力学",
+        "流体力学",
+        "制御工学",
+        "電気回路学",
+        "ディジタル信号処理",
+        "応用数学"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/18a10525b1d49f611f7e9c405665686053b327896a4bd3edef5810ba1499504e.pdf",
+          "originalName": "kako_m_mandatory202108.pdf",
+          "sha256": "18a10525b1d49f611f7e9c405665686053b327896a4bd3edef5810ba1499504e",
+          "byteSize": 200144,
+          "pages": 7,
+          "sourcePaths": [
+            "电气通讯大学/21.8/机械知能系统/kako_m_mandatory202108.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/81d8cd8a158320d8d4c212298e340b9f7be7414b882e41945ac8666f525c25b8.pdf",
+          "originalName": "kako_m_choice202108.pdf",
+          "sha256": "81d8cd8a158320d8d4c212298e340b9f7be7414b882e41945ac8666f525c25b8",
+          "byteSize": 672457,
+          "pages": 18,
+          "sourcePaths": [
+            "电气通讯大学/21.8/机械知能系统/kako_m_choice202108.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題一册含数学基礎2问与物理学基礎2问，必答90分钟。選択是8科目中选2，选答90分钟。",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-fundamental-2021",
+      "universityId": "uec",
+      "title": "2021年8月実施 · 基盤理工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2021年8月17日実施",
+      "subjects": [
+        "電気・電子回路",
+        "光波動工学",
+        "量子力学／統計力学",
+        "無機・有機化学",
+        "分子生物学／生物化学",
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "光・電子デバイス基礎",
+        "物理化学",
+        "細胞・神経生物学"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2c436344af044664602654492e3c5f18128cd0d50ef9b58d2e82ba328f3daf55.pdf",
+          "originalName": "kako_s_choice202108.pdf",
+          "sha256": "2c436344af044664602654492e3c5f18128cd0d50ef9b58d2e82ba328f3daf55",
+          "byteSize": 1555117,
+          "pages": 22,
+          "sourcePaths": [
+            "电气通讯大学/21.8/基础理工/kako_s_choice202108.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。专业科目只有選択群，没有必修分册。選択群I的5科目与選択群II的6科目共11科目中选4，且選択群I至少1科目，考试时间180分钟。",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-17"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-informatics-2020",
+      "universityId": "uec",
+      "title": "2020年8月実施 · 情報学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2020,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2020年8月18日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "アルゴリズムとデータ構造",
+        "確率・オペレーションズリサーチ",
+        "離散数学",
+        "計算機工学"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f9fa67f11c620689149864f5bde967b728ed74330c24e1b91b2997d74ec106dc.pdf",
+          "originalName": "kako_j_mandatory202008.pdf",
+          "sha256": "f9fa67f11c620689149864f5bde967b728ed74330c24e1b91b2997d74ec106dc",
+          "byteSize": 85009,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/20.8/情报学/kako_j_mandatory202008.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/71b700df15cc9fe651a346f88dbe2b08ac8c9a4bd1374c77856faf46818e848a.pdf",
+          "originalName": "kako_j_choice202008.pdf",
+          "sha256": "71b700df15cc9fe651a346f88dbe2b08ac8c9a4bd1374c77856faf46818e848a",
+          "byteSize": 594446,
+          "pages": 11,
+          "sourcePaths": [
+            "电气通讯大学/20.8/情报学/kako_j_choice202008.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題封面科目为「線形代数」および「微分積分」，与選択問題同场，合计180分钟。選択是4科目中选3：アルゴリズムとデータ構造、確率・オペレーションズリサーチ、離散数学、計算機工学。封面写明計算機工学在4-1［形式言語理論］与4-2［計算機アーキテクチャ］中择一。",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-18"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-networks-2020",
+      "universityId": "uec",
+      "title": "2020年8月実施 · 情報・ネットワーク工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "情報・ネットワーク工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2020,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2020年8月18日実施",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "電気回路",
+        "電磁気学",
+        "確率統計",
+        "信号処理",
+        "アルゴリズムとデータ構造",
+        "計算機の基本原理",
+        "数値計算",
+        "離散数学とオートマトン"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9afdfbb8339723c25d2268d24de5534e820bd363862785986cbefa4d94efb833.pdf",
+          "originalName": "kako_i_mandatory202008.pdf",
+          "sha256": "9afdfbb8339723c25d2268d24de5534e820bd363862785986cbefa4d94efb833",
+          "byteSize": 93947,
+          "pages": 4,
+          "sourcePaths": [
+            "电气通讯大学/20.8/情报网络工学/kako_i_mandatory202008.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3a9f63dc9bc5215c8682a812ecc5d43e9b304ab7ca3fc1ba38aa8cb0aada7ced.pdf",
+          "originalName": "kako_i_choice202008.pdf",
+          "sha256": "3a9f63dc9bc5215c8682a812ecc5d43e9b304ab7ca3fc1ba38aa8cb0aada7ced",
+          "byteSize": 612332,
+          "pages": 13,
+          "sourcePaths": [
+            "电气通讯大学/20.8/情报网络工学/kako_i_choice202008.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題为「線形代数」与「微分積分」各一问，必答90分钟。選択是8科目中选3，选答120分钟。",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-18"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-mechanical-2020",
+      "universityId": "uec",
+      "title": "2020年8月実施 · 機械知能システム学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "機械知能システム学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2020,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2020年8月18日実施",
+      "subjects": [
+        "数学基礎",
+        "物理学基礎",
+        "材料力学",
+        "機械力学",
+        "熱力学",
+        "流体力学",
+        "制御工学",
+        "電気回路学",
+        "ディジタル信号処理",
+        "応用数学"
+      ],
+      "files": [
+        {
+          "label": "必須問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/76460b18d28bad54a33344fd86bcf34b92b7931f559cd4ffcdb3a7962d176e88.pdf",
+          "originalName": "kako_m_mandatory202008.pdf",
+          "sha256": "76460b18d28bad54a33344fd86bcf34b92b7931f559cd4ffcdb3a7962d176e88",
+          "byteSize": 352872,
+          "pages": 8,
+          "sourcePaths": [
+            "电气通讯大学/20.8/机械知能/kako_m_mandatory202008.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e156a4ffd4fcbbacb0b1a74b537625e5652714a05a5fa6ddf5901e118ebf7aa.pdf",
+          "originalName": "kako_m_choice202008.pdf",
+          "sha256": "5e156a4ffd4fcbbacb0b1a74b537625e5652714a05a5fa6ddf5901e118ebf7aa",
+          "byteSize": 809197,
+          "pages": 15,
+          "sourcePaths": [
+            "电气通讯大学/20.8/机械知能/kako_m_choice202008.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。必須問題一册含数学基礎2问与物理学基礎2问，必答90分钟。選択是8科目中选2，选答90分钟。",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-18"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "uec-fundamental-2020",
+      "universityId": "uec",
+      "title": "2020年8月実施 · 基盤理工学専攻",
+      "graduateSchool": "情報理工学研究科",
+      "department": "基盤理工学専攻",
+      "selectionName": "博士前期課程一般入試",
+      "paperYear": 2020,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2020年8月18日実施",
+      "subjects": [
+        "電気・電子回路",
+        "光波動工学",
+        "量子力学／統計力学",
+        "無機・有機化学",
+        "分子生物学／生物化学",
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "光・電子デバイス基礎",
+        "物理化学",
+        "細胞・神経生物学"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f0bfee7990662ac5b51acada41ae7e577bc7632645df7c10ff2bea718f075c0d.pdf",
+          "originalName": "kako_s_choice202008.pdf",
+          "sha256": "f0bfee7990662ac5b51acada41ae7e577bc7632645df7c10ff2bea718f075c0d",
+          "byteSize": 1350804,
+          "pages": 21,
+          "sourcePaths": [
+            "电气通讯大学/20.8/基础理工/kako_s_choice202008.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／电气通讯大学”原件，完整PDF字节保持。封面为大学院情報理工学研究科・博士前期課程一般入試，只印实施日期，不印入学年度；paperYear与examYear均按实施年，不推定次年4月入学。各PDF第2页为扫描空白页，设问从第3页打开。未随卷提供解答。专业科目只有選択群，没有必修分册。選択群I的5科目与選択群II的6科目共11科目中选4，且選択群I至少1科目，考试时间180分钟。",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-18"
+      ],
+      "dateEvidence": "cover"
     }
   ],
   "schoolNotes": {
@@ -8266,6 +9385,10 @@
     },
     "hokkaido": {
       "text": "本校16组／29个PDF：26个问题原卷及3个出题意图（非解答），按2025、2026入学年度索引。工学院含応用物理学専攻、機械・宇宙航空工学系及応用量子科学系共通卷；两个研究室群跨4专攻，不视为独立专攻。情報科学院为情報科学専攻5课程，各有専門科目1／2；文件后缀2024、2025是实施年。云盘媒体网络内的2024系统信息卷已据封面归回系统信息。机械2026合册订正页完整保留。未提供解答，不声明其他年度或全校专业齐全；纯数学／纯物理、宇宙理学、自然史及环境专属目录按既定范围排除。"
+    },
+    "uec": {
+      "text": "本校20组／38个问题PDF，按2020—2024年8月实施日索引，无随卷解答。封面为情報理工学研究科博士前期課程一般入試，只印实施日期，不印入学年度，故不推定次年4月入学。情報学、情報・ネットワーク工学每年必須与選択各一册；機械知能2020—2021年数学与物理同册，2022年起分册，另有選択；基盤理工学只有選択群11科目。24.8云盘里情报学与情报网络工学文件夹和文件名代号相反，已按封面归类并保留原路径。各PDF第2页为空白扫描页，设问从第3页打开。2024年机械物理学保留問題訂正页。不声明其他年度或全校齐全。"
     }
+
   }
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);
