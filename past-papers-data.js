@@ -18263,6 +18263,902 @@
         }
       ],
       "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。封面为「2025年度実施上期入試筆答試験 出題意図・解答例」，1页，不是试题。本文件夹没有2025年试题，不补造。2508comments.pdf与「2508comments (1).pdf」字节相同，两个sourcePaths都保留。"
+    },
+    {
+      "id": "keio-j-material-2021",
+      "universityId": "keio",
+      "title": "2021年8月 · 教育研究分野：J マテリアルデザイン科学",
+      "graduateSchool": "理工学研究科",
+      "department": "J マテリアルデザイン科学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2021,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e63fb0dc714010e66dbbf9c98e00172bcc953578da840ab04abea34b1fbe48ad.pdf",
+          "originalName": "Jマテリアルデザイン科学2021.pdf",
+          "sha256": "e63fb0dc714010e66dbbf9c98e00172bcc953578da840ab04abea34b1fbe48ad",
+          "byteSize": 1560151,
+          "pages": 4,
+          "sourcePaths": [
+            "庆应义塾大学/マテリアルデザイン科学/Jマテリアルデザイン科学2021.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2021年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：J マテリアルデザイン科学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数は8ページ，实际PDF为4页（约为封面総ページ数的一半）。2021年扫描／双页拼版，封面页码与PDF页不是一对一，两数都记，页数以实际PDF为准，从第1页打开。扫描册的年度与分野以渲染封面为准，文字层不是完整封面。选修按渲染封面原样保留，不拆不删：J1为必須重点問題，全体解答；J2是「化学系分野」、J3是「物理情報工学系分野」，各组3问，从J2或J3中选一组再选2问。无解答。"
+    },
+    {
+      "id": "keio-j-material-2022",
+      "universityId": "keio",
+      "title": "2022年8月 · 教育研究分野：J マテリアルデザイン科学",
+      "graduateSchool": "理工学研究科",
+      "department": "J マテリアルデザイン科学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2022,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2694d7984d256002d156f159b059e39f914833be4622cc489c6a168acc5b5a1b.pdf",
+          "originalName": "Jマテリアルデザイン科学2022.pdf",
+          "sha256": "2694d7984d256002d156f159b059e39f914833be4622cc489c6a168acc5b5a1b",
+          "byteSize": 340028,
+          "pages": 6,
+          "sourcePaths": [
+            "庆应义塾大学/マテリアルデザイン科学/Jマテリアルデザイン科学2022.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2022年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：J マテリアルデザイン科学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为6页。封面写明问题自第2页起，从实际PDF第2页打开。封面文字层：J1为必須重点問題，全体解答；J2是「化学系分野」、J3是「物理情報工学系分野」，各组2问（J2-1、J2-2以及J3-1、J3-2），选J2或J3后该组2问都答。与2021年封面的「各组3问中选2」不同，不改写成同一规则，不拆册。无解答。"
+    },
+    {
+      "id": "keio-j-material-2023",
+      "universityId": "keio",
+      "title": "2023年8月 · 教育研究分野：J マテリアルデザイン科学",
+      "graduateSchool": "理工学研究科",
+      "department": "J マテリアルデザイン科学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2023,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e0b38107989b8a44ef652c322b392f8788c905a6692193c52d4f040db11b04ac.pdf",
+          "originalName": "Jマテリアルデザイン科学2023.pdf",
+          "sha256": "e0b38107989b8a44ef652c322b392f8788c905a6692193c52d4f040db11b04ac",
+          "byteSize": 478327,
+          "pages": 6,
+          "sourcePaths": [
+            "庆应义塾大学/マテリアルデザイン科学/Jマテリアルデザイン科学2023.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2023年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：J マテリアルデザイン科学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为6页。封面写明问题自第2页起，从实际PDF第2页打开。封面文字层：J1为必須重点問題，全体解答；J2是「化学系分野」、J3是「物理情報工学系分野」，各组2问（J2-1、J2-2以及J3-1、J3-2），选J2或J3后该组2问都答。与2021年封面的「各组3问中选2」不同，不改写成同一规则，不拆册。无解答。"
+    },
+    {
+      "id": "keio-j-material-2024",
+      "universityId": "keio",
+      "title": "2024年8月 · 教育研究分野：J マテリアルデザイン科学",
+      "graduateSchool": "理工学研究科",
+      "department": "J マテリアルデザイン科学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2024,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5230a5d3ff841862bb89090e8ad789e5a70a9abfad70b8bbf72ab598e799e34c.pdf",
+          "originalName": "Jマテリアルデザイン科学2024.pdf",
+          "sha256": "5230a5d3ff841862bb89090e8ad789e5a70a9abfad70b8bbf72ab598e799e34c",
+          "byteSize": 453366,
+          "pages": 6,
+          "sourcePaths": [
+            "庆应义塾大学/マテリアルデザイン科学/Jマテリアルデザイン科学2024.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2024年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：J マテリアルデザイン科学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为6页。封面写明问题自第2页起，从实际PDF第2页打开。封面文字层：J1为必須重点問題，全体解答；J2是「化学系分野」、J3是「物理情報工学系分野」，各组2问（J2-1、J2-2以及J3-1、J3-2），选J2或J3后该组2问都答。与2021年封面的「各组3问中选2」不同，不改写成同一规则，不拆册。无解答。"
+    },
+    {
+      "id": "keio-m-applied-mechanics-2021",
+      "universityId": "keio",
+      "title": "2021年8月 · 教育研究分野：M 応用力学・計算力学",
+      "graduateSchool": "理工学研究科",
+      "department": "M 応用力学・計算力学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2021,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b82157b9150638fda4135be8de93105f82d35ccb2cf955c0c35c5b32db936054.pdf",
+          "originalName": "M応用力学・計算力学2021.pdf",
+          "sha256": "b82157b9150638fda4135be8de93105f82d35ccb2cf955c0c35c5b32db936054",
+          "byteSize": 1505449,
+          "pages": 5,
+          "sourcePaths": [
+            "庆应义塾大学/応用力学・計算力学/M応用力学・計算力学2021.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2021年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：M 応用力学・計算力学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数は9ページ，实际PDF为5页（不是封面総ページ数的整齐一半）。2021年扫描／双页拼版，封面页码与PDF页不是一对一，两数都记，页数以实际PDF为准，从第1页打开。扫描册的年度与分野以渲染封面为准，文字层不是完整封面。封面写4问全部解答。无解答。"
+    },
+    {
+      "id": "keio-m-applied-mechanics-2022",
+      "universityId": "keio",
+      "title": "2022年8月 · 教育研究分野：M 応用力学・計算力学",
+      "graduateSchool": "理工学研究科",
+      "department": "M 応用力学・計算力学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2022,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e4b6402c274370561670a588dadc234ecb4079526c75dc0c1adb840198556706.pdf",
+          "originalName": "M応用力学・計算力学2022.pdf",
+          "sha256": "e4b6402c274370561670a588dadc234ecb4079526c75dc0c1adb840198556706",
+          "byteSize": 544485,
+          "pages": 9,
+          "sourcePaths": [
+            "庆应义塾大学/応用力学・計算力学/M応用力学・計算力学2022.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2022年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：M 応用力学・計算力学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为9页。封面写明问题自第2页起，从实际PDF第2页打开。封面写4问全部解答。无解答。"
+    },
+    {
+      "id": "keio-m-applied-mechanics-2023",
+      "universityId": "keio",
+      "title": "2023年8月 · 教育研究分野：M 応用力学・計算力学",
+      "graduateSchool": "理工学研究科",
+      "department": "M 応用力学・計算力学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2023,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8127b544d98204705cb1cfcecb1e111caee1377bacc5373e75d0fd848dd69dda.pdf",
+          "originalName": "M応用力学・計算力学2023.pdf",
+          "sha256": "8127b544d98204705cb1cfcecb1e111caee1377bacc5373e75d0fd848dd69dda",
+          "byteSize": 726625,
+          "pages": 9,
+          "sourcePaths": [
+            "庆应义塾大学/応用力学・計算力学/M応用力学・計算力学2023.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2023年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：M 応用力学・計算力学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为9页。封面写明问题自第2页起，从实际PDF第2页打开。封面写4问全部解答。无解答。"
+    },
+    {
+      "id": "keio-m-applied-mechanics-2024",
+      "universityId": "keio",
+      "title": "2024年8月 · 教育研究分野：M 応用力学・計算力学",
+      "graduateSchool": "理工学研究科",
+      "department": "M 応用力学・計算力学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2024,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9f97503c8e253a7f6475e523df5779b5775dbb91178faef665c285867d9aa2ee.pdf",
+          "originalName": "M応用力学・計算力学2024.pdf",
+          "sha256": "9f97503c8e253a7f6475e523df5779b5775dbb91178faef665c285867d9aa2ee",
+          "byteSize": 806983,
+          "pages": 9,
+          "sourcePaths": [
+            "庆应义塾大学/応用力学・計算力学/M応用力学・計算力学2024.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2024年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：M 応用力学・計算力学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为9页。封面写明问题自第2页起，从实际PDF第2页打开。封面写4问全部解答。无解答。"
+    },
+    {
+      "id": "keio-n-information-2021",
+      "universityId": "keio",
+      "title": "2021年8月 · 教育研究分野：N 情報工学",
+      "graduateSchool": "理工学研究科",
+      "department": "N 情報工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2021,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b462be2e14528991ca9900f2237011230a185dc3c77cfbe3d300ee4fb6797eae.pdf",
+          "originalName": "N情報工学2021.pdf",
+          "sha256": "b462be2e14528991ca9900f2237011230a185dc3c77cfbe3d300ee4fb6797eae",
+          "byteSize": 1070203,
+          "pages": 3,
+          "sourcePaths": [
+            "庆应义塾大学/情報工学/N情報工学2021.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2021年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：N 情報工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数は6ページ，实际PDF为3页（约为封面総ページ数的一半）。2021年扫描／双页拼版，封面页码与PDF页不是一对一，两数都记，页数以实际PDF为准，从第1页打开。扫描册的年度与分野以渲染封面为准，文字层不是完整封面。封面写4问全部解答。无解答。"
+    },
+    {
+      "id": "keio-n-information-2022",
+      "universityId": "keio",
+      "title": "2022年8月 · 教育研究分野：N 情報工学",
+      "graduateSchool": "理工学研究科",
+      "department": "N 情報工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2022,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f94fe0971a77787056df84f6538b92b2a458258bca63b5fb38a79e9343ff0837.pdf",
+          "originalName": "N情報工学2022.pdf",
+          "sha256": "f94fe0971a77787056df84f6538b92b2a458258bca63b5fb38a79e9343ff0837",
+          "byteSize": 256251,
+          "pages": 6,
+          "sourcePaths": [
+            "庆应义塾大学/情報工学/N情報工学2022.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2022年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：N 情報工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为6页。封面写明问题自第2页起，从实际PDF第2页打开。封面写4问全部解答。问题在第2–5页，第6页供计算，整册保留。无解答。"
+    },
+    {
+      "id": "keio-n-information-2023",
+      "universityId": "keio",
+      "title": "2023年8月 · 教育研究分野：N 情報工学",
+      "graduateSchool": "理工学研究科",
+      "department": "N 情報工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2023,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/98b3db6e9f042ce2c990204d87763917d6964e71bcf07b5744ea5402106e2a1e.pdf",
+          "originalName": "N情報工学2023.pdf",
+          "sha256": "98b3db6e9f042ce2c990204d87763917d6964e71bcf07b5744ea5402106e2a1e",
+          "byteSize": 422520,
+          "pages": 6,
+          "sourcePaths": [
+            "庆应义塾大学/情報工学/N情報工学2023.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2023年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：N 情報工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为6页。封面写明问题自第2页起，从实际PDF第2页打开。封面写4问全部解答。问题在第2–5页，第6页供计算，整册保留。无解答。"
+    },
+    {
+      "id": "keio-n-information-2024",
+      "universityId": "keio",
+      "title": "2024年8月 · 教育研究分野：N 情報工学",
+      "graduateSchool": "理工学研究科",
+      "department": "N 情報工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2024,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d5bc003a00334bc2f1f1a1339ce1e5452cbbeb44be11e9b1fbadaa2735131823.pdf",
+          "originalName": "N情報工学2024.pdf",
+          "sha256": "d5bc003a00334bc2f1f1a1339ce1e5452cbbeb44be11e9b1fbadaa2735131823",
+          "byteSize": 496883,
+          "pages": 6,
+          "sourcePaths": [
+            "庆应义塾大学/情報工学/N情報工学2024.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2024年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：N 情報工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为6页。封面写明问题自第2页起，从实际PDF第2页打开。封面写4问全部解答。问题在第2–5页，第6页供计算，整册保留。无解答。"
+    },
+    {
+      "id": "keio-d-physical-info-2021",
+      "universityId": "keio",
+      "title": "2021年8月 · 教育研究分野：D 物理情報",
+      "graduateSchool": "理工学研究科",
+      "department": "D 物理情報",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2021,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e1eac6029b96dcc9191830a0d8d2b5c9b9b4da2766192799a47767a51d4f2e6.pdf",
+          "originalName": "D物理情報2021.pdf",
+          "sha256": "5e1eac6029b96dcc9191830a0d8d2b5c9b9b4da2766192799a47767a51d4f2e6",
+          "byteSize": 604212,
+          "pages": 2,
+          "sourcePaths": [
+            "庆应义塾大学/物理情報/D物理情報2021.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2021年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：D 物理情報」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数は4ページ，实际PDF为2页（约为封面総ページ数的一半）。2021年扫描／双页拼版，封面页码与PDF页不是一对一，两数都记，页数以实际PDF为准，从第1页打开。扫描册的年度与分野以渲染封面为准，文字层不是完整封面。封面写D1–D3全部解答。无解答。"
+    },
+    {
+      "id": "keio-d-physical-info-2022",
+      "universityId": "keio",
+      "title": "2022年8月 · 教育研究分野：D 物理情報",
+      "graduateSchool": "理工学研究科",
+      "department": "D 物理情報",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2022,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3bf8cbb1d7a550f1478bc339dee035b6d6ccd397ff99d6e20e0320cddd43dc6d.pdf",
+          "originalName": "D物理情報2022.pdf",
+          "sha256": "3bf8cbb1d7a550f1478bc339dee035b6d6ccd397ff99d6e20e0320cddd43dc6d",
+          "byteSize": 91011,
+          "pages": 4,
+          "sourcePaths": [
+            "庆应义塾大学/物理情報/D物理情報2022.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2022年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：D 物理情報」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为4页。封面写「問題は片面のみに印刷」，未写「2ページから」；第1页为受験生への注意，核对第2页为设问，从实际PDF第2页打开。封面写D1–D3全部解答。无解答。"
+    },
+    {
+      "id": "keio-d-physical-info-2023",
+      "universityId": "keio",
+      "title": "2023年8月 · 教育研究分野：D 物理情報",
+      "graduateSchool": "理工学研究科",
+      "department": "D 物理情報",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2023,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/61c8c792debc08bf344db3141a8bc5bbd4ea7889d6c850975075b8e10e80bd5f.pdf",
+          "originalName": "D物理情報2023.pdf",
+          "sha256": "61c8c792debc08bf344db3141a8bc5bbd4ea7889d6c850975075b8e10e80bd5f",
+          "byteSize": 95454,
+          "pages": 4,
+          "sourcePaths": [
+            "庆应义塾大学/物理情報/D物理情報2023.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2023年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：D 物理情報」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为4页。封面写「問題は片面のみに印刷」，未写「2ページから」；第1页为受験生への注意，核对第2页为设问，从实际PDF第2页打开。封面写D1–D3全部解答。无解答。"
+    },
+    {
+      "id": "keio-d-physical-info-2024",
+      "universityId": "keio",
+      "title": "2024年8月 · 教育研究分野：D 物理情報",
+      "graduateSchool": "理工学研究科",
+      "department": "D 物理情報",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2024,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b444d1945ff4a6a5b05e16888b751d446b740b7cf6c72603c08a895c91f14635.pdf",
+          "originalName": "D物理情報2024.pdf",
+          "sha256": "b444d1945ff4a6a5b05e16888b751d446b740b7cf6c72603c08a895c91f14635",
+          "byteSize": 126864,
+          "pages": 4,
+          "sourcePaths": [
+            "庆应义塾大学/物理情報/D物理情報2024.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2024年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：D 物理情報」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为4页。封面写「問題は片面のみに印刷」，未写「2ページから」；第1页为受験生への注意，核对第2页为设问，从实际PDF第2页打开。封面写D1–D3全部解答。无解答。"
+    },
+    {
+      "id": "keio-i-electrical-2021",
+      "universityId": "keio",
+      "title": "2021年8月 · 教育研究分野：I 電気電子工学",
+      "graduateSchool": "理工学研究科",
+      "department": "I 電気電子工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2021,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c40b06f33ef1500825de2f60a592e469fbbbbdef7bb63f31ccca818bf9deb2fb.pdf",
+          "originalName": "I電気電子工学2021.pdf",
+          "sha256": "c40b06f33ef1500825de2f60a592e469fbbbbdef7bb63f31ccca818bf9deb2fb",
+          "byteSize": 1231115,
+          "pages": 3,
+          "sourcePaths": [
+            "庆应义塾大学/電気電子工学/I電気電子工学2021.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2021年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：I 電気電子工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数は5ページ，实际PDF为3页（不是封面総ページ数的整齐一半）。2021年扫描／双页拼版，封面页码与PDF页不是一对一，两数都记，页数以实际PDF为准，从第1页打开。扫描册的年度与分野以渲染封面为准，文字层不是完整封面。封面写I1–I4全部必须。无解答。"
+    },
+    {
+      "id": "keio-i-electrical-2022",
+      "universityId": "keio",
+      "title": "2022年8月 · 教育研究分野：I 電気電子工学",
+      "graduateSchool": "理工学研究科",
+      "department": "I 電気電子工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2022,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8cb82d8a6a0803b5a2f98531c19070620ef72746dd78ff728a7b229792a2070e.pdf",
+          "originalName": "I電気電子工学2022.pdf",
+          "sha256": "8cb82d8a6a0803b5a2f98531c19070620ef72746dd78ff728a7b229792a2070e",
+          "byteSize": 427418,
+          "pages": 5,
+          "sourcePaths": [
+            "庆应义塾大学/電気電子工学/I電気電子工学2022.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2022年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：I 電気電子工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为5页。封面写明问题自第2页起，从实际PDF第2页打开。封面写I1–I4全部必须。无解答。"
+    },
+    {
+      "id": "keio-i-electrical-2023",
+      "universityId": "keio",
+      "title": "2023年8月 · 教育研究分野：I 電気電子工学",
+      "graduateSchool": "理工学研究科",
+      "department": "I 電気電子工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2023,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2a1eb63e62a70840b4ed19b7de0c456814c37719412c01ed7c52e0f5fdce8a37.pdf",
+          "originalName": "I電気電子工学2023.pdf",
+          "sha256": "2a1eb63e62a70840b4ed19b7de0c456814c37719412c01ed7c52e0f5fdce8a37",
+          "byteSize": 501714,
+          "pages": 5,
+          "sourcePaths": [
+            "庆应义塾大学/電気電子工学/I電気電子工学2023.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2023年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：I 電気電子工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为5页。封面写明问题自第2页起，从实际PDF第2页打开。封面写I1–I4全部必须。无解答。"
+    },
+    {
+      "id": "keio-i-electrical-2024",
+      "universityId": "keio",
+      "title": "2024年8月 · 教育研究分野：I 電気電子工学",
+      "graduateSchool": "理工学研究科",
+      "department": "I 電気電子工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2024,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1ef828593d9f87532b5316b73d1eb077c7ba5f2ca500fdf5bfec98037c9e6946.pdf",
+          "originalName": "I電気電子工学2024.pdf",
+          "sha256": "1ef828593d9f87532b5316b73d1eb077c7ba5f2ca500fdf5bfec98037c9e6946",
+          "byteSize": 308743,
+          "pages": 5,
+          "sourcePaths": [
+            "庆应义塾大学/電気電子工学/I電気電子工学2024.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2024年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：I 電気電子工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为5页。封面写明问题自第2页起，从实际PDF第2页打开。封面写I1–I4全部必须。无解答。"
+    },
+    {
+      "id": "keio-c-physical-info-2025",
+      "universityId": "keio",
+      "title": "2025年8月 · 教育研究分野：C 物理情報工学",
+      "graduateSchool": "理工学研究科",
+      "department": "C 物理情報工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2025,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/35876835304e0b425951c202f49db40876d343299b39f4bfcd7457534a423dba.pdf",
+          "originalName": "C物理情報工学2025.pdf",
+          "sha256": "35876835304e0b425951c202f49db40876d343299b39f4bfcd7457534a423dba",
+          "byteSize": 104882,
+          "pages": 4,
+          "sourcePaths": [
+            "庆应义塾大学/C物理情報工学2025.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2025年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：C 物理情報工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为4页。封面写「問題は片面のみに印刷」，未写「2ページから」；第1页为受験生への注意，核对第2页为设问，从实际PDF第2页打开。封面写C1–C3全部解答。2025年字母为C、分野名为物理情報工学，与2021–2024年「D 物理情報」按封面分开，不合并。无解答。"
+    },
+    {
+      "id": "keio-g-mechanical-2025",
+      "universityId": "keio",
+      "title": "2025年8月 · 教育研究分野：G 機械工学",
+      "graduateSchool": "理工学研究科",
+      "department": "G 機械工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2025,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/99cdc73319407d875b3388f4c821c22cfa5edc74b48647c97f5f5783f1afcc60.pdf",
+          "originalName": "G機械工学2025.pdf",
+          "sha256": "99cdc73319407d875b3388f4c821c22cfa5edc74b48647c97f5f5783f1afcc60",
+          "byteSize": 728174,
+          "pages": 10,
+          "sourcePaths": [
+            "庆应义塾大学/G機械工学2025.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2025年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：G 機械工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为10页。封面写明问题自第2页起，从实际PDF第2页打开。封面：選択記述問題G1在「A: 機械力学・材料力学分野」与「B: 熱力学・流体力学分野」中择一，另有小論文問題G2。云盘无2021–2024年機械工学文件夹，不补。2025年字母G与2021–2024年「G マルチディシプリナリ・デザイン科学」不同，按封面分开。无解答。"
+    },
+    {
+      "id": "keio-h-electrical-info-2025",
+      "universityId": "keio",
+      "title": "2025年8月 · 教育研究分野：H 電気情報工学",
+      "graduateSchool": "理工学研究科",
+      "department": "H 電気情報工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2025,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7197b090742fc2ef4e087a219633b22792568b99c77db18c999ce6d21ea7a85c.pdf",
+          "originalName": "H電気情報工学2025.pdf",
+          "sha256": "7197b090742fc2ef4e087a219633b22792568b99c77db18c999ce6d21ea7a85c",
+          "byteSize": 734973,
+          "pages": 5,
+          "sourcePaths": [
+            "庆应义塾大学/H電気情報工学2025.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2025年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：H 電気情報工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。封面総ページ数与实际PDF均为5页。封面写明问题自第2页起，从实际PDF第2页打开。封面写H1–H4全部必须。2025年字母为H、分野名为電気情報工学，与2021–2024年「I 電気電子工学」以及「H システム統合工学」按封面分开，不合并。无解答。"
+    },
+    {
+      "id": "keio-h-system-integration-2021",
+      "universityId": "keio",
+      "title": "2021年8月 · 教育研究分野：H システム統合工学",
+      "graduateSchool": "理工学研究科",
+      "department": "H システム統合工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2021,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/91f6169938b612f5861a46f8db64810ff0d305076bf924de7dc2605ccc9e8f31.pdf",
+          "originalName": "Hシステム統合工学2021.pdf",
+          "sha256": "91f6169938b612f5861a46f8db64810ff0d305076bf924de7dc2605ccc9e8f31",
+          "byteSize": 1505149,
+          "pages": 4,
+          "sourcePaths": [
+            "庆应义塾大学/システム統合工学/Hシステム統合工学2021.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2021年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：H システム統合工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。边界／待确认：按封面分野单独收录，不并入其他分野，也不按字母沿革改名。封面総ページ数は8ページ，实际PDF为4页（约为封面総ページ数的一半）。2021年扫描／双页拼版，封面页码与PDF页不是一对一，两数都记，页数以实际PDF为准，从第1页打开。扫描册的年度与分野以渲染封面为准，文字层不是完整封面。渲染封面写总页数8页，问题在第2–7页，第8页为白紙。无解答。"
+    },
+    {
+      "id": "keio-h-system-integration-2022",
+      "universityId": "keio",
+      "title": "2022年8月 · 教育研究分野：H システム統合工学",
+      "graduateSchool": "理工学研究科",
+      "department": "H システム統合工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2022,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1a7cd9d54b4bbb6ba65c95d82d6fd2bd25c109be5781eb268b6cd083f3fa276e.pdf",
+          "originalName": "Hシステム統合工学2022.pdf",
+          "sha256": "1a7cd9d54b4bbb6ba65c95d82d6fd2bd25c109be5781eb268b6cd083f3fa276e",
+          "byteSize": 820516,
+          "pages": 8,
+          "sourcePaths": [
+            "庆应义塾大学/システム統合工学/Hシステム統合工学2022.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2022年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：H システム統合工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。边界／待确认：按封面分野单独收录，不并入其他分野，也不按字母沿革改名。封面総ページ数与实际PDF均为8页。封面写明问题自第2页起，从实际PDF第2页打开。封面写问题在第2–7页，第8页为白紙，整册保留。封面未列具体科目名。无解答。"
+    },
+    {
+      "id": "keio-h-system-integration-2023",
+      "universityId": "keio",
+      "title": "2023年8月 · 教育研究分野：H システム統合工学",
+      "graduateSchool": "理工学研究科",
+      "department": "H システム統合工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2023,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/600d09c3b268843d92ee87d2e6be0c99091c89abf7a12b87da78c843de8b2ba5.pdf",
+          "originalName": "Hシステム統合工学2023.pdf",
+          "sha256": "600d09c3b268843d92ee87d2e6be0c99091c89abf7a12b87da78c843de8b2ba5",
+          "byteSize": 1034755,
+          "pages": 8,
+          "sourcePaths": [
+            "庆应义塾大学/システム統合工学/Hシステム統合工学2023.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2023年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：H システム統合工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。边界／待确认：按封面分野单独收录，不并入其他分野，也不按字母沿革改名。封面総ページ数与实际PDF均为8页。封面写明问题自第2页起，从实际PDF第2页打开。封面写问题在第2–7页，第8页为白紙，整册保留。封面未列具体科目名。无解答。"
+    },
+    {
+      "id": "keio-h-system-integration-2024",
+      "universityId": "keio",
+      "title": "2024年8月 · 教育研究分野：H システム統合工学",
+      "graduateSchool": "理工学研究科",
+      "department": "H システム統合工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2024,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2588e5eb37e71d042fe707a4015256672e9e11f487d6d4daa2133341164e52a4.pdf",
+          "originalName": "Hシステム統合工学2024.pdf",
+          "sha256": "2588e5eb37e71d042fe707a4015256672e9e11f487d6d4daa2133341164e52a4",
+          "byteSize": 686600,
+          "pages": 8,
+          "sourcePaths": [
+            "庆应义塾大学/システム統合工学/Hシステム統合工学2024.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2024年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：H システム統合工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。边界／待确认：按封面分野单独收录，不并入其他分野，也不按字母沿革改名。封面総ページ数与实际PDF均为8页。封面写明问题自第2页起，从实际PDF第2页打开。封面写问题在第2–7页，第8页为白紙，整册保留。封面未列具体科目名。无解答。"
+    },
+    {
+      "id": "keio-g-multidisciplinary-2021",
+      "universityId": "keio",
+      "title": "2021年8月 · 教育研究分野：G マルチディシプリナリ・デザイン科学",
+      "graduateSchool": "理工学研究科",
+      "department": "G マルチディシプリナリ・デザイン科学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2021,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f5dcf9e671c27025cf9d26b127ed1fa2e7a9d64f3fba5cf445862e6593e79c27.pdf",
+          "originalName": "Gマルチディシプリナリデザイン科学2021.pdf",
+          "sha256": "f5dcf9e671c27025cf9d26b127ed1fa2e7a9d64f3fba5cf445862e6593e79c27",
+          "byteSize": 162298,
+          "pages": 1,
+          "sourcePaths": [
+            "庆应义塾大学/マルチディシプリナリ・デザイン科学/Gマルチディシプリナリデザイン科学2021.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2021年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：G マルチディシプリナリ・デザイン科学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。边界／待确认：按封面分野单独收录，不并入其他分野，也不按字母沿革改名。封面総ページ数は2ページ，实际PDF为1页（约为封面総ページ数的一半）。2021年扫描／双页拼版，封面页码与PDF页不是一对一，两数都记，页数以实际PDF为准，从第1页打开。扫描册的年度与分野以渲染封面为准，文字层不是完整封面。渲染封面的G1要求就卒業研究或入学后想做的研究，用機械工学与デザイン科学学过的术语、图和式说明。仍按封面分野收录，不改归機械工学。无解答。"
+    },
+    {
+      "id": "keio-g-multidisciplinary-2022",
+      "universityId": "keio",
+      "title": "2022年8月 · 教育研究分野：G マルチディシプリナリ・デザイン科学",
+      "graduateSchool": "理工学研究科",
+      "department": "G マルチディシプリナリ・デザイン科学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2022,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/06c9a5f3a52bbab6f23594f22f2d9e64c47771ff6c3a0957d19dc4afd0396f40.pdf",
+          "originalName": "Gマルチディシプリナリデザイン科学2022.pdf",
+          "sha256": "06c9a5f3a52bbab6f23594f22f2d9e64c47771ff6c3a0957d19dc4afd0396f40",
+          "byteSize": 329517,
+          "pages": 4,
+          "sourcePaths": [
+            "庆应义塾大学/マルチディシプリナリ・デザイン科学/Gマルチディシプリナリデザイン科学2022.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2022年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：G マルチディシプリナリ・デザイン科学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。边界／待确认：按封面分野单独收录，不并入其他分野，也不按字母沿革改名。封面総ページ数与实际PDF均为4页。封面写明问题自第2页起，从实际PDF第2页打开。文字层分野名为半角「ﾏﾙﾁﾃﾞｨｼﾌﾟﾘﾅﾘ･ﾃﾞｻﾞｲﾝ科学」，渲染封面为全角「マルチディシプリナリ・デザイン科学」，目录用全角。封面：G1在「A: 材料力学」与「B: 機械力学」中择一；G2在「A: 機械工学」与「B: デザイン科学」中择一。无解答。"
+    },
+    {
+      "id": "keio-g-multidisciplinary-2023",
+      "universityId": "keio",
+      "title": "2023年8月 · 教育研究分野：G マルチディシプリナリ・デザイン科学",
+      "graduateSchool": "理工学研究科",
+      "department": "G マルチディシプリナリ・デザイン科学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2023,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e919c5edb55a69819f5edbb2535dc39f15afb60dbdb5ac01d454103c25740cf.pdf",
+          "originalName": "Gマルチディシプリナリデザイン科学2023.pdf",
+          "sha256": "5e919c5edb55a69819f5edbb2535dc39f15afb60dbdb5ac01d454103c25740cf",
+          "byteSize": 336049,
+          "pages": 4,
+          "sourcePaths": [
+            "庆应义塾大学/マルチディシプリナリ・デザイン科学/Gマルチディシプリナリデザイン科学2023.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2023年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：G マルチディシプリナリ・デザイン科学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。边界／待确认：按封面分野单独收录，不并入其他分野，也不按字母沿革改名。封面総ページ数与实际PDF均为4页。封面写明问题自第2页起，从实际PDF第2页打开。文字层分野名为半角「ﾏﾙﾁﾃﾞｨｼﾌﾟﾘﾅﾘ･ﾃﾞｻﾞｲﾝ科学」，渲染封面为全角「マルチディシプリナリ・デザイン科学」，目录用全角。封面：G1在「A: 材料力学」与「B: 機械力学」中择一；G2在「A: 機械工学」与「B: デザイン科学」中择一。无解答。"
+    },
+    {
+      "id": "keio-g-multidisciplinary-2024",
+      "universityId": "keio",
+      "title": "2024年8月 · 教育研究分野：G マルチディシプリナリ・デザイン科学",
+      "graduateSchool": "理工学研究科",
+      "department": "G マルチディシプリナリ・デザイン科学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2024,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/28b5b7ce44ada68e5dece4ce802641c0d3f1dfe41d2ab8037d3037a33489edd8.pdf",
+          "originalName": "Gマルチディシプリナリデザイン科学2024.pdf",
+          "sha256": "28b5b7ce44ada68e5dece4ce802641c0d3f1dfe41d2ab8037d3037a33489edd8",
+          "byteSize": 435051,
+          "pages": 6,
+          "sourcePaths": [
+            "庆应义塾大学/マルチディシプリナリ・デザイン科学/Gマルチディシプリナリデザイン科学2024.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2024年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：G マルチディシプリナリ・デザイン科学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。边界／待确认：按封面分野单独收录，不并入其他分野，也不按字母沿革改名。封面総ページ数与实际PDF均为6页。封面写明问题自第2页起，从实际PDF第2页打开。文字层分野名为半角「ﾏﾙﾁﾃﾞｨｼﾌﾟﾘﾅﾘ･ﾃﾞｻﾞｲﾝ科学」，渲染封面为全角「マルチディシプリナリ・デザイン科学」，目录用全角。封面：G1在「A: 材料力学」与「B: 機械力学」中择一；G2在「A: 機械工学」与「B: デザイン科学」中择一。无解答。"
+    },
+    {
+      "id": "keio-i-system-design-2025",
+      "universityId": "keio",
+      "title": "2025年8月 · 教育研究分野：I システムデザイン工学",
+      "graduateSchool": "理工学研究科",
+      "department": "I システムデザイン工学",
+      "selectionName": "前期博士課程 入学試験問題",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2025,
+      "files": [
+        {
+          "label": "入学試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8e5952da9bea7ebe6e55b32b495e3e886c3f20e8a20dc475727a63500a9c8859.pdf",
+          "originalName": "Iシステムデザイン工学2025.pdf",
+          "sha256": "8e5952da9bea7ebe6e55b32b495e3e886c3f20e8a20dc475727a63500a9c8859",
+          "byteSize": 1354789,
+          "pages": 12,
+          "sourcePaths": [
+            "庆应义塾大学/Iシステムデザイン工学2025.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／庆应义塾大学”原件，完整PDF字节保持。封面为「2025年8月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題 教育研究分野：I システムデザイン工学」。封面无入学年度、无具体日，只有考试月；paperYear与examYear按该考试年，yearBasis为exam，不写admissionYears，也不写examDates。边界／待确认：按封面分野单独收录，不并入其他分野，也不按字母沿革改名。封面総ページ数与实际PDF均为12页。封面写明问题自第2页起，从实际PDF第2页打开。封面写问题在第2–10页，第11–12页为白紙，整册保留。I1（卒業研究について）必须；I2（基礎学力確認問題）从小问(1)–(5)中选2。封面未写与システム統合工学的关系，不合并。2025年字母为I，与2021–2024年「I 電気電子工学」按封面分开。无解答。"
     }
   ],
   "schoolNotes": {
@@ -18389,6 +19285,9 @@
           "startPage": 1
         }
       ]
+    },
+    "keio": {
+      "text": "本校32组／32个唯一PDF、181页，无解答，无字节重复。封面统一为「YYYY年 8月」「慶應義塾大学大学院 理工学研究科」「前期博士課程 入学試験問題」「教育研究分野：〈字母〉〈名称〉」。封面无入学年度、无具体日，只有考试月，故 yearBasis 为 exam：paperYear 与 examYear 用该年，不写 admissionYears，也不写 examDates。2021–2024年收录 J マテリアルデザイン科学、M 応用力学・計算力学、N 情報工学、D 物理情報、I 電気電子工学各4册。2025年根目录按封面为 C 物理情報工学、G 機械工学、H 電気情報工学。边界／待确认：H システム統合工学2021–2024、G マルチディシプリナリ・デザイン科学2021–2024、I システムデザイン工学2025，按封面单独建目录，不并入其他分野。2025年字母与2021–2024年不同（旧 D 物理情報／G マルチディシプリナリ・デザイン科学／H システム統合工学／I 電気電子工学），按封面记，不合并。云盘无2021–2024年機械工学文件夹，只有 G 機械工学2025，不补。2021年多为扫描／双页拼版，pdfinfo Pages 有的约为封面総ページ数的一半（Hシステム統合4/8、Jマテリアル4/8、Gマルチ1/2、N情報3/6、D物理情報2/4），M応用力学5/9与I電気電子3/5不是整齐的一半；两数都记，页数以实际PDF为准，这些册从第1页打开。页数一致且封面写明问题自第2页起的册从第2页打开；C物理情報工学2025与D物理情報2022–2024封面未写「2ページから」，核对第2页为设问后从第2页打开。J マテリアルデザイン科学的选修含化学系分野与物理情報工学系分野，按各年封面原样收录，不拆不删：2021年各组3问中选2，2022–2024年各组2问都答。排除数理科学、物理学、オープンシステムマネジメント（不在本附件）。不声明其他年度或全校齐全。"
     }
   }
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);
