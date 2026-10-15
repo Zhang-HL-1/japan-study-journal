@@ -14637,6 +14637,1147 @@
       ]
     },
     {
+      "id": "kyushu-isee-info-2025",
+      "universityId": "kyushu",
+      "title": "2025年度 · 情報理工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和７年度入学試験問題 · 令和６年９月１０日（火）・１１日（水）",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-09-10",
+        "2024-09-11"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第8页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/da8978840a193f8c940685e53d35e9717ae362457a8184692f0bcd86eb78ae61.pdf",
+          "originalName": "R07ist.pdf",
+          "sha256": "da8978840a193f8c940685e53d35e9717ae362457a8184692f0bcd86eb78ae61",
+          "byteSize": 1251155,
+          "pages": 46,
+          "sourcePaths": [
+            "九州大学/系统情报/情报理工学/R07ist.pdf"
+          ],
+          "startPage": 8,
+          "endPage": 46
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。第1页是封面。第2–7页为数学，与同年電気電子工学専攻册提取文本一致。专门科目从第8页打开（页眉印39ページ）。整册保留。"
+    },
+    {
+      "id": "kyushu-isee-info-2024",
+      "universityId": "kyushu",
+      "title": "2024年度 · 情報理工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度入学試験問題 · 令和5年8月29日（火）・30日（水）",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-29",
+        "2023-08-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第9页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d69ad22e7d37504fd2a8c60a14fa07c77dea0a4d07492f0f27e4aedd2030c6e7.pdf",
+          "originalName": "R06ist.pdf",
+          "sha256": "d69ad22e7d37504fd2a8c60a14fa07c77dea0a4d07492f0f27e4aedd2030c6e7",
+          "byteSize": 890857,
+          "pages": 35,
+          "sourcePaths": [
+            "九州大学/系统情报/情报理工学/R06ist.pdf"
+          ],
+          "startPage": 9,
+          "endPage": 35
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。封面与第2–8页数学的文字层字体乱码，封面经渲染读取为令和6年度、令和5年8月29日（火）、30日（水）。第9页起专门科目文字层可读，页眉为情報理工学専攻、実施日令和５年８月２９日。数学页与同年电气册的乱码提取文本一致。PDF字节未改。"
+    },
+    {
+      "id": "kyushu-isee-info-2023",
+      "universityId": "kyushu",
+      "title": "2023年度 · 情報理工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和５年度入学試験問題 · 令和４年８月２９日（月）・３０日（火）",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-29",
+        "2022-08-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第8页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f2765e443bbc626444665c1412d853526723cde8c1f4a6f5699e3fea04cf7fbe.pdf",
+          "originalName": "R05ist.pdf",
+          "sha256": "f2765e443bbc626444665c1412d853526723cde8c1f4a6f5699e3fea04cf7fbe",
+          "byteSize": 833823,
+          "pages": 34,
+          "sourcePaths": [
+            "九州大学/系统情报/情报理工学/R05ist.pdf"
+          ],
+          "startPage": 8,
+          "endPage": 34
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。第1页是封面。第2–7页为数学，与同年電気電子工学専攻册提取文本一致。专门科目从第8页打开，页眉实施日为令和４年８月２９日。整册保留。"
+    },
+    {
+      "id": "kyushu-isee-info-2022",
+      "universityId": "kyushu",
+      "title": "2022年度 · 情報理工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和４年度入学試験問題 · 令和３年８月３０日（月）・３１日（火）",
+      "admissionYears": [
+        2022
+      ],
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-30",
+        "2021-08-31"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第7页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f36b863e0debc809ab25d89393a894c403c6ca87fd1aac1f1e67243085ae7b65.pdf",
+          "originalName": "R04ist.pdf",
+          "sha256": "f36b863e0debc809ab25d89393a894c403c6ca87fd1aac1f1e67243085ae7b65",
+          "byteSize": 7584948,
+          "pages": 35,
+          "sourcePaths": [
+            "九州大学/系统情报/情报理工学/R04ist.pdf"
+          ],
+          "startPage": 7,
+          "endPage": 35
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。第1–6页有文字层：封面及数学（第6页为数学末页）。第7页起专门科目是扫描图像，无文字层；渲染后页眉为情報理工学専攻、実施日令和3年8月30日、専門科目。数学页与同年电气册提取文本一致。PDF字节未改。"
+    },
+    {
+      "id": "kyushu-isee-info-2021",
+      "universityId": "kyushu",
+      "title": "2021年度 · 情報理工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "情報理工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和３年度入学試験問題 · 令和２年１２月５日（土）・６日（日）",
+      "admissionYears": [
+        2021
+      ],
+      "examYear": 2020,
+      "examDates": [
+        "2020-12-05",
+        "2020-12-06"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第9页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3cee9ba2cd99fd1a010de33526fdea73cda7e42b23f392fd25902d4bc8de8b19.pdf",
+          "originalName": "R03ist.pdf",
+          "sha256": "3cee9ba2cd99fd1a010de33526fdea73cda7e42b23f392fd25902d4bc8de8b19",
+          "byteSize": 798142,
+          "pages": 37,
+          "sourcePaths": [
+            "九州大学/系统情报/情报理工学/R03ist.pdf"
+          ],
+          "startPage": 9,
+          "endPage": 37
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。封面年度是令和３年度入学，实施日是令和２年１２月５日、６日，paperYear为2021，examYear为2020。第2–8页为数学（6分野から3分野），与同年电气册提取文本一致。专门科目从第9页打开。整册保留。"
+    },
+    {
+      "id": "kyushu-isee-ee-2025",
+      "universityId": "kyushu",
+      "title": "2025年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和７年度入学試験問題 · 令和６年９月１０日（火）・１１日（水）",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-09-10",
+        "2024-09-11"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第8页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1133238d2b09d17763d4d141e98eadd78259f55af947eeb212e9edf28b88b9cc.pdf",
+          "originalName": "R07ee.pdf",
+          "sha256": "1133238d2b09d17763d4d141e98eadd78259f55af947eeb212e9edf28b88b9cc",
+          "byteSize": 1691807,
+          "pages": 32,
+          "sourcePaths": [
+            "九州大学/系统情报/电子电气/R07ee.pdf"
+          ],
+          "startPage": 8,
+          "endPage": 32
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。第1页是封面。第2–7页为数学，与同年情報理工学専攻册提取文本一致。专门科目从第8页打开（页眉印25ページ）。整册保留，不与情报册合并。"
+    },
+    {
+      "id": "kyushu-isee-ee-2024",
+      "universityId": "kyushu",
+      "title": "2024年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度入学試験問題 · 令和5年8月29日（火）・30日（水）",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-29",
+        "2023-08-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第9页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c3d064f803cfbbe64e005c6f08dffc59938f8c93c5fd30f779da76045b2426b9.pdf",
+          "originalName": "R06ee.pdf",
+          "sha256": "c3d064f803cfbbe64e005c6f08dffc59938f8c93c5fd30f779da76045b2426b9",
+          "byteSize": 1542082,
+          "pages": 33,
+          "sourcePaths": [
+            "九州大学/系统情报/电子电气/R06ee.pdf"
+          ],
+          "startPage": 9,
+          "endPage": 33
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。封面与第2–8页数学的文字层字体乱码，封面经渲染读取为令和6年度、令和5年8月29日（火）、30日（水）。第9页起专门科目文字层可读，页眉为電気電子工学専攻、実施日令和5年8月29日。数学页与同年情报册的乱码提取文本一致。PDF字节未改。"
+    },
+    {
+      "id": "kyushu-isee-ee-2023",
+      "universityId": "kyushu",
+      "title": "2023年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和５年度入学試験問題 · 令和４年８月２９日（月）・３０日（火）",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-29",
+        "2022-08-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第8页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b5857ede384cfc8fba20722799a64ae3361e9cb4da34af08ffb76351767055db.pdf",
+          "originalName": "R05ee.pdf",
+          "sha256": "b5857ede384cfc8fba20722799a64ae3361e9cb4da34af08ffb76351767055db",
+          "byteSize": 2411638,
+          "pages": 34,
+          "sourcePaths": [
+            "九州大学/系统情报/电子电气/R05ee.pdf"
+          ],
+          "startPage": 8,
+          "endPage": 34
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。第1页是封面。第2–7页为数学，与同年情報理工学専攻册提取文本一致。专门科目从第8页打开，页眉实施日为令和4年8月29日。整册保留。"
+    },
+    {
+      "id": "kyushu-isee-ee-2022",
+      "universityId": "kyushu",
+      "title": "2022年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和４年度入学試験問題 · 令和３年８月３０日（月）・３１日（火）",
+      "admissionYears": [
+        2022
+      ],
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-30",
+        "2021-08-31"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第7页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b440f419949f27911c79134c5f2c9d37eb1d695bbf04fdb67a735208c22528af.pdf",
+          "originalName": "R04ee.pdf",
+          "sha256": "b440f419949f27911c79134c5f2c9d37eb1d695bbf04fdb67a735208c22528af",
+          "byteSize": 3298539,
+          "pages": 31,
+          "sourcePaths": [
+            "九州大学/系统情报/电子电气/R04ee.pdf"
+          ],
+          "startPage": 7,
+          "endPage": 31
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。第1–6页有文字层：封面及数学。第7页起专门科目是扫描图像，无文字层；渲染后页眉为電気電子工学専攻、実施日令和3年8月30日、専門科目。数学页与同年情报册提取文本一致。PDF字节未改。"
+    },
+    {
+      "id": "kyushu-isee-ee-2021",
+      "universityId": "kyushu",
+      "title": "2021年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和３年度入学試験問題 · 令和２年１２月５日（土）・６日（日）",
+      "admissionYears": [
+        2021
+      ],
+      "examYear": 2020,
+      "examDates": [
+        "2020-12-05",
+        "2020-12-06"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門Ⅰ",
+        "専門Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "問題 · 専門科目（第9页起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/785098f51dc49562fe3303d37c089b5ea6aa72676afbcf51a3d62ecc83c93a39.pdf",
+          "originalName": "R03ee.pdf",
+          "sha256": "785098f51dc49562fe3303d37c089b5ea6aa72676afbcf51a3d62ecc83c93a39",
+          "byteSize": 2171544,
+          "pages": 36,
+          "sourcePaths": [
+            "九州大学/系统情报/电子电气/R03ee.pdf"
+          ],
+          "startPage": 9,
+          "endPage": 36
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整PDF字节保持。封面为九州大学大学院システム情報科学府修士課程入学試験。paperYear按封面令和入学年度（令和N＝2018+N），examYear与examDates只用封面实施日，不把文件名R0N或次年4月单独再推一次。无解答。封面年度是令和３年度入学，实施日是令和２年１２月５日、６日，paperYear为2021，examYear为2020。第2–8页为数学，与同年情报册提取文本一致。第9页起为専門Ⅰ（3分野から1分野：電気回路、電子回路、制御工学），第18页起为専門Ⅱ（3分野から1分野：電磁気学、半導体デバイス、計算機工学）。整册保留。"
+    },
+    {
+      "id": "kyushu-rikou-2025-09-mech",
+      "universityId": "kyushu",
+      "title": "2025年度9月 · 理工基礎（機械工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度大学院入試問題 · 2024年9月11日実施",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-09-11"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "機械工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "originalName": "2025年度9月　理工学.pdf",
+          "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
+          "byteSize": 4570287,
+          "pages": 50,
+          "sourcePaths": [
+            "九州大学/2025年度9月　理工学.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（機械工学基礎），PDF第1–10页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–31页）、物理学基礎（第32–38页）、生物科学基礎（第39–42页），不为这些题群建入口。本册与已收录的上智大学理工基礎问题册为同一SHA-256，不另存字节，不改上智记录；来源路径仍记九州大学云盘文件名。"
+    },
+    {
+      "id": "kyushu-rikou-2025-09-elec",
+      "universityId": "kyushu",
+      "title": "2025年度9月 · 理工基礎（電気・電子工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度大学院入試問題 · 2024年9月11日実施",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-09-11"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–17页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "originalName": "2025年度9月　理工学.pdf",
+          "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
+          "byteSize": 4570287,
+          "pages": 50,
+          "sourcePaths": [
+            "九州大学/2025年度9月　理工学.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 17
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（電気・電子工学基礎），PDF第11–17页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–31页）、物理学基礎（第32–38页）、生物科学基礎（第39–42页），不为这些题群建入口。本册与已收录的上智大学理工基礎问题册为同一SHA-256，不另存字节，不改上智记录；来源路径仍记九州大学云盘文件名。"
+    },
+    {
+      "id": "kyushu-rikou-2025-09-info",
+      "universityId": "kyushu",
+      "title": "2025年度9月 · 理工基礎（情報学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度大学院入試問題 · 2024年9月11日実施",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-09-11"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "情報学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 情報学基礎 · PDF第43–50页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "originalName": "2025年度9月　理工学.pdf",
+          "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
+          "byteSize": 4570287,
+          "pages": 50,
+          "sourcePaths": [
+            "九州大学/2025年度9月　理工学.pdf"
+          ],
+          "startPage": 43,
+          "endPage": 50
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（情報学基礎），PDF第43–50页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–31页）、物理学基礎（第32–38页）、生物科学基礎（第39–42页），不为这些题群建入口。本册与已收录的上智大学理工基礎问题册为同一SHA-256，不另存字节，不改上智记录；来源路径仍记九州大学云盘文件名。"
+    },
+    {
+      "id": "kyushu-rikou-2025-02-mech",
+      "universityId": "kyushu",
+      "title": "2025年度2月 · 理工基礎（機械工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度大学院入試問題 · 2025年2月16日実施",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-02-16"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "機械工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "originalName": "2025年度2月　理工学.pdf",
+          "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
+          "byteSize": 2640749,
+          "pages": 45,
+          "sourcePaths": [
+            "九州大学/2025年度2月　理工学.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（機械工学基礎），PDF第1–10页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–30页，页眉另有数学領域）、物理学基礎（第31–37页）。本册未见生物科学基礎页眉，不为这些题群建入口。第10页机械题群页眉印有2024年度／2024年2月16日，与封面2025年度／2025年2月16日冲突；按封面归2025年度，原页保留。本册与已收录的上智大学理工基礎问题册为同一SHA-256，不另存字节，不改上智记录；来源路径仍记九州大学云盘文件名。"
+    },
+    {
+      "id": "kyushu-rikou-2025-02-elec",
+      "universityId": "kyushu",
+      "title": "2025年度2月 · 理工基礎（電気・電子工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度大学院入試問題 · 2025年2月16日実施",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-02-16"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–17页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "originalName": "2025年度2月　理工学.pdf",
+          "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
+          "byteSize": 2640749,
+          "pages": 45,
+          "sourcePaths": [
+            "九州大学/2025年度2月　理工学.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 17
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（電気・電子工学基礎），PDF第11–17页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–30页，页眉另有数学領域）、物理学基礎（第31–37页）。本册未见生物科学基礎页眉，不为这些题群建入口。第10页机械题群页眉印有2024年度／2024年2月16日，与封面2025年度／2025年2月16日冲突；按封面归2025年度，原页保留。本册与已收录的上智大学理工基礎问题册为同一SHA-256，不另存字节，不改上智记录；来源路径仍记九州大学云盘文件名。"
+    },
+    {
+      "id": "kyushu-rikou-2025-02-info",
+      "universityId": "kyushu",
+      "title": "2025年度2月 · 理工基礎（情報学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度大学院入試問題 · 2025年2月16日実施",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-02-16"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "情報学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 情報学基礎 · PDF第38–45页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "originalName": "2025年度2月　理工学.pdf",
+          "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
+          "byteSize": 2640749,
+          "pages": 45,
+          "sourcePaths": [
+            "九州大学/2025年度2月　理工学.pdf"
+          ],
+          "startPage": 38,
+          "endPage": 45
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（情報学基礎），PDF第38–45页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–30页，页眉另有数学領域）、物理学基礎（第31–37页）。本册未见生物科学基礎页眉，不为这些题群建入口。第10页机械题群页眉印有2024年度／2024年2月16日，与封面2025年度／2025年2月16日冲突；按封面归2025年度，原页保留。本册与已收录的上智大学理工基礎问题册为同一SHA-256，不另存字节，不改上智记录；来源路径仍记九州大学云盘文件名。"
+    },
+    {
+      "id": "kyushu-rikou-2024-09-mech",
+      "universityId": "kyushu",
+      "title": "2024年度9月 · 理工基礎（機械工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度大学院入試問題 · 2023年9月13日実施",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-09-13"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "機械工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a.pdf",
+          "originalName": "2024年度9月　理工学.pdf",
+          "sha256": "a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a",
+          "byteSize": 3265277,
+          "pages": 53,
+          "sourcePaths": [
+            "九州大学/2024年度9月　理工学.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（機械工学基礎），PDF第1–10页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–31页）、物理学基礎（第32–41页）、生物科学基礎（第42–45页），不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2024-09-elec",
+      "universityId": "kyushu",
+      "title": "2024年度9月 · 理工基礎（電気・電子工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度大学院入試問題 · 2023年9月13日実施",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-09-13"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–17页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a.pdf",
+          "originalName": "2024年度9月　理工学.pdf",
+          "sha256": "a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a",
+          "byteSize": 3265277,
+          "pages": 53,
+          "sourcePaths": [
+            "九州大学/2024年度9月　理工学.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 17
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（電気・電子工学基礎），PDF第11–17页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–31页）、物理学基礎（第32–41页）、生物科学基礎（第42–45页），不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2024-09-info",
+      "universityId": "kyushu",
+      "title": "2024年度9月 · 理工基礎（情報学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度大学院入試問題 · 2023年9月13日実施",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-09-13"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "情報学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 情報学基礎 · PDF第46–53页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a.pdf",
+          "originalName": "2024年度9月　理工学.pdf",
+          "sha256": "a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a",
+          "byteSize": 3265277,
+          "pages": 53,
+          "sourcePaths": [
+            "九州大学/2024年度9月　理工学.pdf"
+          ],
+          "startPage": 46,
+          "endPage": 53
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（情報学基礎），PDF第46–53页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–31页）、物理学基礎（第32–41页）、生物科学基礎（第42–45页），不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2024-02-mech",
+      "universityId": "kyushu",
+      "title": "2024年度2月 · 理工基礎（機械工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度大学院入試問題 · 2024年2月17日実施",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-02-17"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "機械工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0.pdf",
+          "originalName": "2024年度2月　理工学.pdf",
+          "sha256": "5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0",
+          "byteSize": 2592255,
+          "pages": 42,
+          "sourcePaths": [
+            "九州大学/2024年度2月　理工学.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（機械工学基礎），PDF第1–10页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–31页）、生物科学基礎（第32–34页）。本册未见物理学基礎页眉，不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2024-02-elec",
+      "universityId": "kyushu",
+      "title": "2024年度2月 · 理工基礎（電気・電子工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度大学院入試問題 · 2024年2月17日実施",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-02-17"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–17页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0.pdf",
+          "originalName": "2024年度2月　理工学.pdf",
+          "sha256": "5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0",
+          "byteSize": 2592255,
+          "pages": 42,
+          "sourcePaths": [
+            "九州大学/2024年度2月　理工学.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 17
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（電気・電子工学基礎），PDF第11–17页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–31页）、生物科学基礎（第32–34页）。本册未见物理学基礎页眉，不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2024-02-info",
+      "universityId": "kyushu",
+      "title": "2024年度2月 · 理工基礎（情報学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度大学院入試問題 · 2024年2月17日実施",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-02-17"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "情報学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 情報学基礎 · PDF第35–42页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0.pdf",
+          "originalName": "2024年度2月　理工学.pdf",
+          "sha256": "5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0",
+          "byteSize": 2592255,
+          "pages": 42,
+          "sourcePaths": [
+            "九州大学/2024年度2月　理工学.pdf"
+          ],
+          "startPage": 35,
+          "endPage": 42
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（情報学基礎），PDF第35–42页。合册其余页眉还有化学基礎（第18–24页）、数学基礎（第25–31页）、生物科学基礎（第32–34页）。本册未见物理学基礎页眉，不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2023-09-mech",
+      "universityId": "kyushu",
+      "title": "2023年度9月 · 理工基礎（機械工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度大学院入試問題 · 2022年9月14日実施",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-09-14"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "機械工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f.pdf",
+          "originalName": "2023年度9月　理工学.pdf",
+          "sha256": "14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f",
+          "byteSize": 1433902,
+          "pages": 51,
+          "sourcePaths": [
+            "九州大学/2023年度9月　理工学.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（機械工学基礎），PDF第1–10页。合册其余页眉还有化学基礎（第19–25页）、数学基礎（第26–32页）、物理学基礎（第33–40页）、生物科学基礎（第41–43页），不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2023-09-elec",
+      "universityId": "kyushu",
+      "title": "2023年度9月 · 理工基礎（電気・電子工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度大学院入試問題 · 2022年9月14日実施",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-09-14"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–18页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f.pdf",
+          "originalName": "2023年度9月　理工学.pdf",
+          "sha256": "14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f",
+          "byteSize": 1433902,
+          "pages": 51,
+          "sourcePaths": [
+            "九州大学/2023年度9月　理工学.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 18
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（電気・電子工学基礎），PDF第11–18页。合册其余页眉还有化学基礎（第19–25页）、数学基礎（第26–32页）、物理学基礎（第33–40页）、生物科学基礎（第41–43页），不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2023-09-info",
+      "universityId": "kyushu",
+      "title": "2023年度9月 · 理工基礎（情報学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度大学院入試問題 · 2022年9月14日実施",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-09-14"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "情報学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 情報学基礎 · PDF第44–51页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f.pdf",
+          "originalName": "2023年度9月　理工学.pdf",
+          "sha256": "14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f",
+          "byteSize": 1433902,
+          "pages": 51,
+          "sourcePaths": [
+            "九州大学/2023年度9月　理工学.pdf"
+          ],
+          "startPage": 44,
+          "endPage": 51
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（情報学基礎），PDF第44–51页。合册其余页眉还有化学基礎（第19–25页）、数学基礎（第26–32页）、物理学基礎（第33–40页）、生物科学基礎（第41–43页），不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2023-02-mech",
+      "universityId": "kyushu",
+      "title": "2023年度2月 · 理工基礎（機械工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度大学院入試問題 · 2023年2月15日実施",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-02-15"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "機械工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f.pdf",
+          "originalName": "2023年度2月　理工学.pdf",
+          "sha256": "f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f",
+          "byteSize": 1444257,
+          "pages": 52,
+          "sourcePaths": [
+            "九州大学/2023年度2月　理工学.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 10
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（機械工学基礎），PDF第1–10页。合册其余页眉还有化学基礎（第19–25页）、数学基礎（第26–32页）、物理学基礎（第33–41页）、生物科学基礎（第42–44页），不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2023-02-elec",
+      "universityId": "kyushu",
+      "title": "2023年度2月 · 理工基礎（電気・電子工学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度大学院入試問題 · 2023年2月15日実施",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-02-15"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–18页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f.pdf",
+          "originalName": "2023年度2月　理工学.pdf",
+          "sha256": "f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f",
+          "byteSize": 1444257,
+          "pages": 52,
+          "sourcePaths": [
+            "九州大学/2023年度2月　理工学.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 18
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（電気・電子工学基礎），PDF第11–18页。合册其余页眉还有化学基礎（第19–25页）、数学基礎（第26–32页）、物理学基礎（第33–41页）、生物科学基礎（第42–44页），不为这些题群建入口。"
+    },
+    {
+      "id": "kyushu-rikou-2023-02-info",
+      "universityId": "kyushu",
+      "title": "2023年度2月 · 理工基礎（情報学基礎）",
+      "graduateSchool": "理工学専攻",
+      "selectionName": "博士前期／修士・博士後期・前後期共通",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度大学院入試問題 · 2023年2月15日実施",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-02-15"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "情報学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 情報学基礎 · PDF第45–52页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f.pdf",
+          "originalName": "2023年度2月　理工学.pdf",
+          "sha256": "f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f",
+          "byteSize": 1444257,
+          "pages": 52,
+          "sourcePaths": [
+            "九州大学/2023年度2月　理工学.pdf"
+          ],
+          "startPage": 45,
+          "endPage": 52
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／九州大学”原件，完整扫描PDF，无文字层，字节保持。封面印理工学専攻（博士前期／修士・博士後期・前後期共通），未印学府名或大学名，不记为総合理工学府，也不把理工基礎题群写成独立专攻。paperYear按封面的年度（入学年度标签），examYear与examDates只用封面实施日。无解答。本入口为理工基礎（情報学基礎），PDF第45–52页。合册其余页眉还有化学基礎（第19–25页）、数学基礎（第26–32页）、物理学基礎（第33–41页）、生物科学基礎（第42–44页），不为这些题群建入口。"
+    },
+    {
       "id": "tohoku-appphys-2014",
       "universityId": "tohoku",
       "title": "2014年8月実施 · 応用物理学専攻「基礎科目」",
@@ -17188,6 +18329,9 @@
     },
     "osaka": {
       "text": "大阪大学新增57组／95个PDF（94个问题原卷、1个科目参考书说明），无随卷解答。电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。年度按卷面入学年度，知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。基礎工学按考试科目分组，不把科目当专攻；乱码原名、封面和原页均保留。不声明全校、所有年度或缺少的科目齐全。"
+    },
+    "kyushu": {
+      "text": "本校28组／16个PDF、646页，无解答。システム情報科学府修士課程入学試験10册：情報理工学専攻与電気電子工学専攻各令和3–7年度入学（2021–2025），实施日按封面为2020-12-05至06、2021-08-30至31、2022-08-29至30、2023-08-29至30、2024-09-10至11。paperYear按封面令和入学年度，examYear按实施年；R03是2021年入学、2020年12月实施。第1页为封面，其后到专门科目前是两专攻共用的数学（同年两册该段提取文本一致），专门科目从R03第9页、R04第7页、R05第8页、R06第9页、R07第8页打开，整册不拆。R04专门科目为扫描图；R06封面与数学页文字层乱码，封面经渲染核对。另有理工学専攻合册6份：2023–2025年度的2月与9月，封面只印理工学専攻（博士前期／修士・博士後期・前後期共通）和理工基礎题群，未印学府名，不写成総合理工学府，也不把题群当成独立专攻。只为機械工学基礎、電気・電子工学基礎、情報学基礎设入口；化学基礎、数学基礎、物理学基礎、生物科学基礎留在原册。2025年2月册未见生物科学基礎页眉，2024年2月册未见物理学基礎页眉。2025年度9月、2月两册与已上线的上智大学问题册字节相同，不另存、不改上智记录。不声明其他年度或全校齐全。"
     },
     "tohoku": {
       "text": "本校67组／82个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。云盘本包87个路径、86个唯一PDF、664页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。yearBasis为mixed：封面印「〇〇年度」时paperYear用该年度（令和N＝2018+N，平成N＝1988+N），只有封面写明「N年4月入学」才记admissionYears；只印实施日或页眉「YYYY年M月」时paperYear与examYear用该年，不写admissionYears，也不从文件名补年度。没有公历日就不写examDates。応用物理学2014—2020年8月按实施日；文件名带R6的出题意图封面是令和7年度。机械系4専攻三册按令和年度整册收录，封面只显示数学A；2026年春季1页是出题范围。电气情报按封面公历年，2024年8月起基础与专门合一册；2023年8月和2024年2月封面列情報科学研究科情報・生命系群，其后没有。量子年度以封面为准，允许与文件名错开。情報科学（数学）按云盘文件夹归类，封面无研究科／专攻名，不声称属于情報科学研究科的某个专攻；2025年度只有出題意図・解答例，没有试题，不补。排除理学数学、理学物理、理学推荐募集要项和土木。不声明其他年度或全校齐全。",
