@@ -134,3 +134,6 @@
 - [刷题练习](https://zhang-hl-1.github.io/japan-study-journal/drill.html)：原有刷题功能与浏览器学习记录继续使用。
 - 原卷添加格式、PDF存放位置和模块说明见 [docs/study-room.md](docs/study-room.md)。过去问目录位于 `past-papers-data.js`，独立于 `questions.js`，原卷目录已加入早大、东理、东科、上智与神户资料，逐题刷题库仍为空。
 
+
+
+大阪大学过去问已添加57组／95个PDF（720页）：电气电子信息通信、精密工学、知能系统、电子光科学、机械科学、生体系统与信息工学共通原卷。缺少科目的年份已标记，未附解答；入口 [大阪大学过去问](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html?school=osaka)。
