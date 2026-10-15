@@ -1,0 +1,30 @@
+name: Assemble Osaka original PDF
+on:
+  push:
+    branches: [codex/osaka-large-pdf]
+    paths: ['.github/workflows/osaka-assemble.yml', '.osaka-transport/**']
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore and verify original PDF bytes
+        shell: bash
+        run: |
+          python - <<'PYCODE'
+          from pathlib import Path
+          import hashlib
+          b=Path('.osaka-transport/large-pdf.part1').read_bytes()+Path('.osaka-transport/large-pdf.part2').read_bytes()
+          assert len(b)==13866460
+          assert hashlib.sha256(b).hexdigest()=='813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10'
+          Path('assets/past-papers/documents/813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10.pdf').write_bytes(b)
+          PYCODE
+      - name: Commit original PDF to import branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/past-papers/documents/813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10.pdf
+          git commit -m 'Restore verified Osaka 2024 original PDF'
+          git push origin HEAD:codex/osaka-large-pdf
