@@ -1,0 +1,797 @@
+{
+  "importedAt": "2026-10-15",
+  "universityId": "nagoya",
+  "sourceFolder": "Google Drive／过去问／名古屋大学",
+  "inventoryPDFs": 182,
+  "sourceFiles": 57,
+  "uniquePDFs": 42,
+  "duplicateByteCopies": 15,
+  "groups": 52,
+  "catalogPDFs": 40,
+  "questionPDFs": 37,
+  "answerPDFs": 4,
+  "otherPDFs": 1,
+  "undatedPDFs": 2,
+  "totalPages": 614,
+  "excluded": [
+    {
+      "area": "理学/多元数理",
+      "count": 101,
+      "reason": "纯数学。不入库，不建目录。"
+    },
+    {
+      "area": "理学/物理科学",
+      "count": 19,
+      "reason": "纯物理。不入库，不建目录。"
+    },
+    {
+      "area": "工学/化学系统",
+      "count": 2,
+      "reason": "化学系统专属目录排除。材料共用册封面仍印化学システム工学専攻，不为该専攻建入口；化学系统文件夹路径不写入sourcePaths。"
+    },
+    {
+      "area": "工学/土木",
+      "count": 3,
+      "reason": "土木。不入库，不建目录。"
+    }
+  ],
+  "notEncountered": "纳入包中未见社会人、SGU、博士後期或学部专属卷。留学生入試f的日文封面是博士課程（前期課程），已收录；英文页眉另写Doctoral Programs，不另建博士後期。",
+  "yearBasis": "mixed",
+  "yearBasisNote": "封面以「令和N年度」或「YYYY年度」起首时，paperYear用该年度（令和N＝2018+N），examYear与examDates只用同一封面印出的实施日，admissionYears写该年度。机械航空夏季卷、応用物理学／物質科学、能源卷只印实施日、不印入学年度时，paperYear与examYear都用实施年，不写admissionYears，也不把文件名R8或次年4月入学写进年度。只印「令和6年実施」而无公历日时（材料令和7年度基础专业册）记examYear、不编examDates。各页都没有年度或实施日的两份能源册不编入年份目录。",
+  "groupingNote": "同一字节的共用册为范围内每个専攻各设一条目录，startPage相同；不按中文文件夹拆成多份PDF。化学システム虽印在材料册封面，不设入口。应用物理与物质科学的2024年册字节不同，各用各的文件；R8题册与解答是同一字节两目录共用。2024年机械既有機械航空系分册，也有工学／机械系统下的合冊，字节不同，都保留。工学／网络中的15.pdf、問題＿エネ与解答例按封面归入能源两専攻。",
+  "undated": [
+    {
+      "sha256": "48e55f932865dcd5339f3ad44837ced2b95f2e3cd4caabfe124ed09624fac326",
+      "originalName": "energy-kiso.pdf",
+      "reason": "energy-kiso各页无日期，且基礎V不是2024或2025已核验题目。"
+    },
+    {
+      "sha256": "e3fc0db59aafc3411ed17bc67d3a00a08fe6d1946615046e359237a1f56f9235",
+      "originalName": "energy-senmon.pdf",
+      "reason": "energy-senmon各页无日期，専門I与2024、2025已核验专业题都不同。"
+    }
+  ],
+  "coverageNote": "52组使用40个有年度PDF。另2个未印年份的能源册只在学校说明中提供。唯一PDF 42个、614页；云盘纳入57个文件，精确重复副本15个。不声明其他年度或全校齐全。口頭試問单页若夹在合冊末页，保留在原PDF中，不另建口试卷。",
+  "files": [
+    {
+      "path": "assets/past-papers/documents/b96bc5537ac7952bf51e770925bdaddb4a616e5744a1ff067ce6e3319e2ad8fa.pdf",
+      "originalName": "ae71f02839037f5b598d671555ed309b.pdf",
+      "sha256": "b96bc5537ac7952bf51e770925bdaddb4a616e5744a1ff067ce6e3319e2ad8fa",
+      "byteSize": 819475,
+      "pages": 28,
+      "sourcePaths": [
+        "名古屋大学/情报学/复杂系科学/ae71f02839037f5b598d671555ed309b.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "複雑系科学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2024-08-07"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/77dd3b43b9fcd9d7c6a40ba3c2dc0c5c3dfd725a1ecc25270a8b53a923d41874.pdf",
+      "originalName": "e430ba234e241d162a59ab76f6efe083.pdf",
+      "sha256": "77dd3b43b9fcd9d7c6a40ba3c2dc0c5c3dfd725a1ecc25270a8b53a923d41874",
+      "byteSize": 861857,
+      "pages": 28,
+      "sourcePaths": [
+        "名古屋大学/情报学/复杂系科学/e430ba234e241d162a59ab76f6efe083.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "複雑系科学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2023-08-02"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/e475353f4bb807041422a0ecd440ed359c36776a1b0760fa14cc3e8c61b2eb07.pdf",
+      "originalName": "153686fd38b76aec8fe63b4c47663818 (1).pdf",
+      "sha256": "e475353f4bb807041422a0ecd440ed359c36776a1b0760fa14cc3e8c61b2eb07",
+      "byteSize": 557574,
+      "pages": 29,
+      "sourcePaths": [
+        "名古屋大学/情报学/复杂系科学/153686fd38b76aec8fe63b4c47663818 (1).pdf",
+        "名古屋大学/情报学/复杂系科学/153686fd38b76aec8fe63b4c47663818.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "複雑系科学専攻",
+      "paperYear": 2023,
+      "examDates": [
+        "2022-08-08"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/9eeef8aaeb46c1e14ecd93ddd6cb8eb8f9474745aee818e710aec5cd2b11e486.pdf",
+      "originalName": "340fb55945f15626c7a3a89358d8992d.pdf",
+      "sha256": "9eeef8aaeb46c1e14ecd93ddd6cb8eb8f9474745aee818e710aec5cd2b11e486",
+      "byteSize": 657217,
+      "pages": 33,
+      "sourcePaths": [
+        "名古屋大学/情报学/复杂系科学/340fb55945f15626c7a3a89358d8992d.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "複雑系科学専攻",
+      "paperYear": 2022,
+      "examDates": [
+        "2021-08-05"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/3c9c30947fdfbd1a19df29672f4188dd330aecaae33a39a9fec3448061b81adb.pdf",
+      "originalName": "9452bf5c52a4e504caf5a437910d3930.pdf",
+      "sha256": "3c9c30947fdfbd1a19df29672f4188dd330aecaae33a39a9fec3448061b81adb",
+      "byteSize": 401276,
+      "pages": 15,
+      "sourcePaths": [
+        "名古屋大学/情报学/情报系统/9452bf5c52a4e504caf5a437910d3930.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "情報システム学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2024-08-07"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/479a2c0580640ca1ac82cec103f7f2a266aa7440c07eeb6ff26d0b636e66a954.pdf",
+      "originalName": "ebaa513ac4d89108fe34bc3220cd6ad3.pdf",
+      "sha256": "479a2c0580640ca1ac82cec103f7f2a266aa7440c07eeb6ff26d0b636e66a954",
+      "byteSize": 592092,
+      "pages": 14,
+      "sourcePaths": [
+        "名古屋大学/情报学/情报系统/ebaa513ac4d89108fe34bc3220cd6ad3.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "情報システム学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2023-08-02"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/0dc2adcd4ff1ae7539c3c4ce703a33231258c1ccaa91fb91533f49a7d2c54955.pdf",
+      "originalName": "02e75abcc32acb88cd7505bad377f983.pdf",
+      "sha256": "0dc2adcd4ff1ae7539c3c4ce703a33231258c1ccaa91fb91533f49a7d2c54955",
+      "byteSize": 380157,
+      "pages": 15,
+      "sourcePaths": [
+        "名古屋大学/情报学/情报系统/02e75abcc32acb88cd7505bad377f983.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "情報システム学専攻",
+      "paperYear": 2023,
+      "examDates": [
+        "2022-08-08"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/f4e8cbe495fc06d23633721b3f648e21f07f5a055093e8426716b0deb8cf1954.pdf",
+      "originalName": "69a578144b87a3810226b785c22e0a85.pdf",
+      "sha256": "f4e8cbe495fc06d23633721b3f648e21f07f5a055093e8426716b0deb8cf1954",
+      "byteSize": 392102,
+      "pages": 13,
+      "sourcePaths": [
+        "名古屋大学/情报学/情报系统/69a578144b87a3810226b785c22e0a85.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "情報システム学専攻",
+      "paperYear": 2022,
+      "examDates": [
+        "2021-08-05"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/07b67ee7c25d0a60d28d9576a763ee8a5408dab8235303294c424e0bf345f6b2.pdf",
+      "originalName": "22603be6c5f792ba497a10d9f551bd22.pdf",
+      "sha256": "07b67ee7c25d0a60d28d9576a763ee8a5408dab8235303294c424e0bf345f6b2",
+      "byteSize": 208160,
+      "pages": 6,
+      "sourcePaths": [
+        "名古屋大学/情报学/知能系统/22603be6c5f792ba497a10d9f551bd22.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "知能システム学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2024-08-07"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/9ef52108844f132b4984d61141ca5d9ddc2d3a4a0be5404a1ebf56b2e8a02b61.pdf",
+      "originalName": "17b639d81a91ac5dca245f353c6a2378.pdf",
+      "sha256": "9ef52108844f132b4984d61141ca5d9ddc2d3a4a0be5404a1ebf56b2e8a02b61",
+      "byteSize": 210567,
+      "pages": 7,
+      "sourcePaths": [
+        "名古屋大学/情报学/知能系统/17b639d81a91ac5dca245f353c6a2378.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "知能システム学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2023-08-02"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/929f99c4d1e1266240696d76cd41ba24a17f009485b31a228f0d5294778dd86b.pdf",
+      "originalName": "f74a837b8149f26fcb14a129d9e92fe2.pdf",
+      "sha256": "929f99c4d1e1266240696d76cd41ba24a17f009485b31a228f0d5294778dd86b",
+      "byteSize": 203103,
+      "pages": 9,
+      "sourcePaths": [
+        "名古屋大学/情报学/知能系统/f74a837b8149f26fcb14a129d9e92fe2.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "知能システム学専攻",
+      "paperYear": 2023,
+      "examDates": [
+        "2022-08-08"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/2c9ff62cf45521adb114a77641c202e0ac8df7020850acc1034d0a8c75483c9f.pdf",
+      "originalName": "28d2a398533d93636c3b15ef7f63681e.pdf",
+      "sha256": "2c9ff62cf45521adb114a77641c202e0ac8df7020850acc1034d0a8c75483c9f",
+      "byteSize": 225309,
+      "pages": 10,
+      "sourcePaths": [
+        "名古屋大学/情报学/知能系统/28d2a398533d93636c3b15ef7f63681e.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "知能システム学専攻",
+      "paperYear": 2022,
+      "examDates": [
+        "2021-08-05"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/f03bb96f7af8190f8db21ff876dd5bfce2868d4116ef4b0bae4a75ad8a33825a.pdf",
+      "originalName": "d967b794ab1b301941a0d27365512524.pdf",
+      "sha256": "f03bb96f7af8190f8db21ff876dd5bfce2868d4116ef4b0bae4a75ad8a33825a",
+      "byteSize": 676243,
+      "pages": 8,
+      "sourcePaths": [
+        "名古屋大学/情报学/数理情报学/d967b794ab1b301941a0d27365512524.pdf"
+      ],
+      "kind": "question",
+      "startPage": 1,
+      "department": "数理情報学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2024-08-07"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/af30dacc74e247f2f46f5cf649a34354432cf788a214ee37fc0509f72e047c4c.pdf",
+      "originalName": "e941e57b4dedbc7733954c79d527ed91.pdf",
+      "sha256": "af30dacc74e247f2f46f5cf649a34354432cf788a214ee37fc0509f72e047c4c",
+      "byteSize": 610661,
+      "pages": 8,
+      "sourcePaths": [
+        "名古屋大学/情报学/数理情报学/e941e57b4dedbc7733954c79d527ed91.pdf"
+      ],
+      "kind": "question",
+      "startPage": 1,
+      "department": "数理情報学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2023-08-02"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/c40ef6fd325db989970edc58c629967a563847870ca56376e45a18d1206637bf.pdf",
+      "originalName": "da3830e64e26208fd6d638e1e1e40a7b.pdf",
+      "sha256": "c40ef6fd325db989970edc58c629967a563847870ca56376e45a18d1206637bf",
+      "byteSize": 290953,
+      "pages": 16,
+      "sourcePaths": [
+        "名古屋大学/情报学/数理情报学/da3830e64e26208fd6d638e1e1e40a7b.pdf"
+      ],
+      "kind": "question",
+      "startPage": 1,
+      "department": "数理情報学専攻",
+      "paperYear": 2022,
+      "examDates": [
+        "2021-08-05"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/321b30a191b819f3fa1815a322f659616ad805e5d304a7fef655ee6592d70ab4.pdf",
+      "originalName": "2020_02_mi.pdf",
+      "sha256": "321b30a191b819f3fa1815a322f659616ad805e5d304a7fef655ee6592d70ab4",
+      "byteSize": 186234,
+      "pages": 5,
+      "sourcePaths": [
+        "名古屋大学/情报学/数理情报学/2020_02_mi.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "数理情報学専攻",
+      "paperYear": 2020,
+      "examDates": [
+        "2020-02-13"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
+      "originalName": "2025_MC夏入試 (1).pdf",
+      "sha256": "621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9",
+      "byteSize": 747520,
+      "pages": 13,
+      "sourcePaths": [
+        "名古屋大学/工学/机械理工/2025_MC夏入試 (1).pdf",
+        "名古屋大学/工学/机械系统/2025_MC夏入試.pdf",
+        "名古屋大学/工学/航空宇宙/2025_MC夏入試 (1).pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "機械システム工学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2025-08-19",
+        "2025-08-20"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
+      "originalName": "2025_MC夏入試_専門-2.pdf",
+      "sha256": "68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56",
+      "byteSize": 228478,
+      "pages": 7,
+      "sourcePaths": [
+        "名古屋大学/工学/机械理工/2025_MC夏入試_専門-2.pdf",
+        "名古屋大学/工学/机械系统/2025_MC夏入試_専門-2.pdf",
+        "名古屋大学/工学/航空宇宙/2025_MC夏入試_専門-2.pdf"
+      ],
+      "kind": "answer",
+      "startPage": 1,
+      "department": "機械システム工学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2025-08-19",
+        "2025-08-20"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
+      "originalName": "2024b.pdf",
+      "sha256": "d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502",
+      "byteSize": 318178,
+      "pages": 6,
+      "sourcePaths": [
+        "名古屋大学/機械航空系/2024b.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "機械システム工学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
+      "originalName": "2024b_teisei.pdf",
+      "sha256": "0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05",
+      "byteSize": 16668,
+      "pages": 1,
+      "sourcePaths": [
+        "名古屋大学/機械航空系/2024b_teisei.pdf"
+      ],
+      "kind": "other",
+      "startPage": 1,
+      "department": "機械システム工学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
+      "originalName": "2024s.pdf",
+      "sha256": "712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000",
+      "byteSize": 1219660,
+      "pages": 8,
+      "sourcePaths": [
+        "名古屋大学/機械航空系/2024s.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "機械システム工学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
+      "originalName": "12.pdf",
+      "sha256": "305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d",
+      "byteSize": 1578567,
+      "pages": 18,
+      "sourcePaths": [
+        "名古屋大学/工学/机械系统/12.pdf"
+      ],
+      "kind": "question",
+      "startPage": 3,
+      "department": "機械システム工学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
+      "originalName": "2023.pdf",
+      "sha256": "b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1",
+      "byteSize": 9945349,
+      "pages": 6,
+      "sourcePaths": [
+        "名古屋大学/機械航空系/2023.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "機械システム工学専攻",
+      "paperYear": 2023,
+      "examDates": [
+        "2023-08-22",
+        "2023-08-23"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
+      "originalName": "2023 (1).pdf",
+      "sha256": "19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891",
+      "byteSize": 16173325,
+      "pages": 8,
+      "sourcePaths": [
+        "名古屋大学/機械航空系/2023 (1).pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "機械システム工学専攻",
+      "paperYear": 2023,
+      "examDates": [
+        "2023-08-22",
+        "2023-08-23"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
+      "originalName": "2022_kiso.pdf",
+      "sha256": "932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9",
+      "byteSize": 1215473,
+      "pages": 6,
+      "sourcePaths": [
+        "名古屋大学/機械航空系/2022_kiso.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "機械システム工学専攻",
+      "paperYear": 2022,
+      "examDates": [
+        "2022-08-23",
+        "2022-08-24"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
+      "originalName": "2022_senmon.pdf",
+      "sha256": "62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f",
+      "byteSize": 1883143,
+      "pages": 7,
+      "sourcePaths": [
+        "名古屋大学/機械航空系/2022_senmon.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "機械システム工学専攻",
+      "paperYear": 2022,
+      "examDates": [
+        "2022-08-23",
+        "2022-08-24"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
+      "originalName": "2025_MC留学生入試f.pdf",
+      "sha256": "6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5",
+      "byteSize": 1990078,
+      "pages": 15,
+      "sourcePaths": [
+        "名古屋大学/工学/2025_MC留学生入試f.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "機械システム工学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2025-11-19"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
+      "originalName": "0_問題冊子-1.pdf",
+      "sha256": "5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816",
+      "byteSize": 995392,
+      "pages": 13,
+      "sourcePaths": [
+        "名古屋大学/工学/情报通讯/0_問題冊子-1.pdf",
+        "名古屋大学/工学/电子工学/0_問題冊子-1 (1).pdf",
+        "名古屋大学/工学/电气工学/0_問題冊子-1.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "電気工学専攻",
+      "paperYear": 2026,
+      "examDates": [
+        "2025-08-20"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
+      "originalName": "11.pdf",
+      "sha256": "ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88",
+      "byteSize": 1202221,
+      "pages": 23,
+      "sourcePaths": [
+        "名古屋大学/工学/情报通讯/11.pdf",
+        "名古屋大学/工学/电子工学/10.pdf",
+        "名古屋大学/工学/电气工学/09.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "電気工学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
+      "originalName": "正解・解答例-1 (1).pdf",
+      "sha256": "52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee",
+      "byteSize": 390272,
+      "pages": 7,
+      "sourcePaths": [
+        "名古屋大学/工学/情报通讯/正解・解答例-1 (1).pdf",
+        "名古屋大学/工学/电子工学/正解・解答例-1.pdf",
+        "名古屋大学/工学/电气工学/正解・解答例-1.pdf"
+      ],
+      "kind": "answer",
+      "startPage": 1,
+      "department": "電気工学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
+      "originalName": "09f.pdf",
+      "sha256": "16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f",
+      "byteSize": 564340,
+      "pages": 12,
+      "sourcePaths": [
+        "名古屋大学/工学/电子工学/09f.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "電気工学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2024-11-13"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/a831ebe02836b8f51fbc994bf0b4abeb1324c31a9c505b7dbab7444932a8f15a.pdf",
+      "originalName": "04.pdf",
+      "sha256": "a831ebe02836b8f51fbc994bf0b4abeb1324c31a9c505b7dbab7444932a8f15a",
+      "byteSize": 699272,
+      "pages": 20,
+      "sourcePaths": [
+        "名古屋大学/工学/应用物理学/04.pdf"
+      ],
+      "kind": "question",
+      "startPage": 3,
+      "department": "応用物理学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/ae583a57d0b9c934571bec17544bab1af8fcc5a6e2e3238f3565de80211edd21.pdf",
+      "originalName": "05.pdf",
+      "sha256": "ae583a57d0b9c934571bec17544bab1af8fcc5a6e2e3238f3565de80211edd21",
+      "byteSize": 700499,
+      "pages": 20,
+      "sourcePaths": [
+        "名古屋大学/工学/物质科学/05.pdf"
+      ],
+      "kind": "question",
+      "startPage": 3,
+      "department": "物質科学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95.pdf",
+      "originalName": "R8筆記試験-問題.pdf",
+      "sha256": "3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95",
+      "byteSize": 1480581,
+      "pages": 20,
+      "sourcePaths": [
+        "名古屋大学/工学/应用物理学/R8筆記試験-問題.pdf",
+        "名古屋大学/工学/物质科学/R8筆記試験-問題.pdf"
+      ],
+      "kind": "question",
+      "startPage": 3,
+      "department": "応用物理学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2025-08-19",
+        "2025-08-20"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2.pdf",
+      "originalName": "R8筆記試験-解答_公開用.pdf",
+      "sha256": "5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2",
+      "byteSize": 1051683,
+      "pages": 15,
+      "sourcePaths": [
+        "名古屋大学/工学/应用物理学/R8筆記試験-解答_公開用.pdf",
+        "名古屋大学/工学/物质科学/R8筆記試験-解答_公開用 (1).pdf"
+      ],
+      "kind": "answer",
+      "startPage": 1,
+      "department": "応用物理学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2025-08-19",
+        "2025-08-20"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
+      "originalName": "06.pdf",
+      "sha256": "6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e",
+      "byteSize": 659060,
+      "pages": 23,
+      "sourcePaths": [
+        "名古屋大学/工学/材料设计/06.pdf",
+        "名古屋大学/工学/物质工程/07.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "材料デザイン工学専攻",
+      "paperYear": 2025,
+      "examDates": null
+    },
+    {
+      "path": "assets/past-papers/documents/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
+      "originalName": "06f.pdf",
+      "sha256": "e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d",
+      "byteSize": 994430,
+      "pages": 14,
+      "sourcePaths": [
+        "名古屋大学/工学/材料设计/06f.pdf",
+        "名古屋大学/工学/物质科学/07.pdf"
+      ],
+      "kind": "question",
+      "startPage": 2,
+      "department": "材料デザイン工学専攻",
+      "paperYear": 2025,
+      "examDates": null
+    },
+    {
+      "path": "assets/past-papers/documents/8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75.pdf",
+      "originalName": "問題＿エネ.pdf",
+      "sha256": "8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75",
+      "byteSize": 2654529,
+      "pages": 25,
+      "sourcePaths": [
+        "名古屋大学/工学/网络/問題＿エネ.pdf"
+      ],
+      "kind": "question",
+      "startPage": 1,
+      "department": "エネルギー理工学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2025-08-20"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883.pdf",
+      "originalName": "解答例・出題の意図＿エネ.pdf",
+      "sha256": "4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883",
+      "byteSize": 1032606,
+      "pages": 16,
+      "sourcePaths": [
+        "名古屋大学/工学/网络/解答例・出題の意図＿エネ.pdf"
+      ],
+      "kind": "answer",
+      "startPage": 1,
+      "department": "エネルギー理工学専攻",
+      "paperYear": 2025,
+      "examDates": [
+        "2025-08-20"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233.pdf",
+      "originalName": "15.pdf",
+      "sha256": "d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233",
+      "byteSize": 1605459,
+      "pages": 39,
+      "sourcePaths": [
+        "名古屋大学/工学/网络/15.pdf"
+      ],
+      "kind": "question",
+      "startPage": 3,
+      "department": "エネルギー理工学専攻",
+      "paperYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/48e55f932865dcd5339f3ad44837ced2b95f2e3cd4caabfe124ed09624fac326.pdf",
+      "originalName": "energy-kiso.pdf",
+      "sha256": "48e55f932865dcd5339f3ad44837ced2b95f2e3cd4caabfe124ed09624fac326",
+      "byteSize": 481791,
+      "pages": 6,
+      "sourcePaths": [
+        "名古屋大学/エネルギー理工学専攻・総合エネルギー工学専攻/energy-kiso.pdf"
+      ],
+      "kind": "question",
+      "startPage": 1,
+      "department": null,
+      "paperYear": null,
+      "catalog": "supplement",
+      "note": "各页未印实施日、令和年度或専攻名。第6页为「基礎V（続き）」，内容是NaCl晶体，与2024年15.pdf的基礎V以及2025年問題＿エネ的苯题都不是同一题，故不编入上述年度。"
+    },
+    {
+      "path": "assets/past-papers/documents/e3fc0db59aafc3411ed17bc67d3a00a08fe6d1946615046e359237a1f56f9235.pdf",
+      "originalName": "energy-senmon.pdf",
+      "sha256": "e3fc0db59aafc3411ed17bc67d3a00a08fe6d1946615046e359237a1f56f9235",
+      "byteSize": 1528649,
+      "pages": 22,
+      "sourcePaths": [
+        "名古屋大学/エネルギー理工学専攻・総合エネルギー工学専攻/energy-senmon.pdf"
+      ],
+      "kind": "question",
+      "startPage": 1,
+      "department": null,
+      "paperYear": null,
+      "catalog": "supplement",
+      "note": "各页未印实施日或令和年度。首页是エネルギー白書2019／パリ協定的専門I，与2024年15.pdf専門I（气候与太阳辐射）和2025年専門I（电源成本）都不同，故不编入上述年度。"
+    }
+  ]
+}

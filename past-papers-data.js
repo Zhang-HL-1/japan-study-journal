@@ -9356,6 +9356,2606 @@
         "2020-08-18"
       ],
       "dateEvidence": "cover"
+    },
+    {
+      "id": "nagoya-complex-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 複雑系科学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "複雑系科学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度 · 令和6年8月7日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-07"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数1",
+        "数2",
+        "物1",
+        "物2",
+        "物3",
+        "化1",
+        "化2",
+        "化3",
+        "化4",
+        "生1",
+        "生2",
+        "生3",
+        "地1",
+        "地2",
+        "情1",
+        "情2",
+        "情3",
+        "工1",
+        "工2",
+        "工3"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b96bc5537ac7952bf51e770925bdaddb4a616e5744a1ff067ce6e3319e2ad8fa.pdf",
+          "originalName": "ae71f02839037f5b598d671555ed309b.pdf",
+          "sha256": "b96bc5537ac7952bf51e770925bdaddb4a616e5744a1ff067ce6e3319e2ad8fa",
+          "byteSize": 819475,
+          "pages": 28,
+          "sourcePaths": [
+            "名古屋大学/情报学/复杂系科学/ae71f02839037f5b598d671555ed309b.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。複雑系科学専攻。20科目中选3（化1–化4，无化5）。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-complex-2024",
+      "universityId": "nagoya",
+      "title": "2024年度 · 複雑系科学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "複雑系科学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度 · 令和5年8月2日",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-02"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数1",
+        "数2",
+        "物1",
+        "物2",
+        "物3",
+        "化1",
+        "化2",
+        "化3",
+        "化4",
+        "生1",
+        "生2",
+        "生3",
+        "地1",
+        "地2",
+        "情1",
+        "情2",
+        "情3",
+        "工1",
+        "工2",
+        "工3"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/77dd3b43b9fcd9d7c6a40ba3c2dc0c5c3dfd725a1ecc25270a8b53a923d41874.pdf",
+          "originalName": "e430ba234e241d162a59ab76f6efe083.pdf",
+          "sha256": "77dd3b43b9fcd9d7c6a40ba3c2dc0c5c3dfd725a1ecc25270a8b53a923d41874",
+          "byteSize": 861857,
+          "pages": 28,
+          "sourcePaths": [
+            "名古屋大学/情报学/复杂系科学/e430ba234e241d162a59ab76f6efe083.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。複雑系科学専攻。20科目中选3。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-complex-2023",
+      "universityId": "nagoya",
+      "title": "2023年度 · 複雑系科学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "複雑系科学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度 · 令和4年8月8日",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-08"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数1",
+        "数2",
+        "物1",
+        "物2",
+        "物3",
+        "化1",
+        "化2",
+        "化3",
+        "化4",
+        "化5",
+        "生1",
+        "生2",
+        "生3",
+        "地1",
+        "地2",
+        "情1",
+        "情2",
+        "情3",
+        "工1",
+        "工2",
+        "工3"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e475353f4bb807041422a0ecd440ed359c36776a1b0760fa14cc3e8c61b2eb07.pdf",
+          "originalName": "153686fd38b76aec8fe63b4c47663818 (1).pdf",
+          "sha256": "e475353f4bb807041422a0ecd440ed359c36776a1b0760fa14cc3e8c61b2eb07",
+          "byteSize": 557574,
+          "pages": 29,
+          "sourcePaths": [
+            "名古屋大学/情报学/复杂系科学/153686fd38b76aec8fe63b4c47663818 (1).pdf",
+            "名古屋大学/情报学/复杂系科学/153686fd38b76aec8fe63b4c47663818.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。複雑系科学専攻。21科目中选3，含化5。同一字节在复杂系科学目录有两份副本，只存一份。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-complex-2022",
+      "universityId": "nagoya",
+      "title": "2022年度 · 複雑系科学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "複雑系科学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度 · 令和3年8月5日",
+      "admissionYears": [
+        2022
+      ],
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-05"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数1",
+        "数2",
+        "物1",
+        "物2",
+        "物3",
+        "化1",
+        "化2",
+        "化3",
+        "化4",
+        "化5",
+        "生1",
+        "生2",
+        "生3",
+        "地1",
+        "地2",
+        "情1",
+        "情2",
+        "情3",
+        "工1",
+        "工2",
+        "工3"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9eeef8aaeb46c1e14ecd93ddd6cb8eb8f9474745aee818e710aec5cd2b11e486.pdf",
+          "originalName": "340fb55945f15626c7a3a89358d8992d.pdf",
+          "sha256": "9eeef8aaeb46c1e14ecd93ddd6cb8eb8f9474745aee818e710aec5cd2b11e486",
+          "byteSize": 657217,
+          "pages": 33,
+          "sourcePaths": [
+            "名古屋大学/情报学/复杂系科学/340fb55945f15626c7a3a89358d8992d.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。複雑系科学専攻。21科目中选3，含化5。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-isys-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 情報システム学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "情報システム学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度 · 令和6年8月7日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-07"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "専門"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3c9c30947fdfbd1a19df29672f4188dd330aecaae33a39a9fec3448061b81adb.pdf",
+          "originalName": "9452bf5c52a4e504caf5a437910d3930.pdf",
+          "sha256": "3c9c30947fdfbd1a19df29672f4188dd330aecaae33a39a9fec3448061b81adb",
+          "byteSize": 401276,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/情报学/情报系统/9452bf5c52a4e504caf5a437910d3930.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。情報システム学専攻。問1–8中选6，解答用紙6枚。封面未列各问科目名。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-isys-2024",
+      "universityId": "nagoya",
+      "title": "2024年度 · 情報システム学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "情報システム学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度 · 令和5年8月2日",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-02"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "専門"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/479a2c0580640ca1ac82cec103f7f2a266aa7440c07eeb6ff26d0b636e66a954.pdf",
+          "originalName": "ebaa513ac4d89108fe34bc3220cd6ad3.pdf",
+          "sha256": "479a2c0580640ca1ac82cec103f7f2a266aa7440c07eeb6ff26d0b636e66a954",
+          "byteSize": 592092,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/情报学/情报系统/ebaa513ac4d89108fe34bc3220cd6ad3.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。情報システム学専攻。問1–8中选6。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-isys-2023",
+      "universityId": "nagoya",
+      "title": "2023年度 · 情報システム学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "情報システム学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度 · 令和4年8月8日",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-08"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "専門"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0dc2adcd4ff1ae7539c3c4ce703a33231258c1ccaa91fb91533f49a7d2c54955.pdf",
+          "originalName": "02e75abcc32acb88cd7505bad377f983.pdf",
+          "sha256": "0dc2adcd4ff1ae7539c3c4ce703a33231258c1ccaa91fb91533f49a7d2c54955",
+          "byteSize": 380157,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/情报学/情报系统/02e75abcc32acb88cd7505bad377f983.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。情報システム学専攻。問1–8中选6。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-isys-2022",
+      "universityId": "nagoya",
+      "title": "2022年度 · 情報システム学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "情報システム学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度 · 令和3年8月5日",
+      "admissionYears": [
+        2022
+      ],
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-05"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "専門"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f4e8cbe495fc06d23633721b3f648e21f07f5a055093e8426716b0deb8cf1954.pdf",
+          "originalName": "69a578144b87a3810226b785c22e0a85.pdf",
+          "sha256": "f4e8cbe495fc06d23633721b3f648e21f07f5a055093e8426716b0deb8cf1954",
+          "byteSize": 392102,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/情报学/情报系统/69a578144b87a3810226b785c22e0a85.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。情報システム学専攻。問1–7中选5，解答用紙5枚。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-intel-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 知能システム学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "知能システム学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度 · 令和6年8月7日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-07"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "解析・線形代数",
+        "確率・統計",
+        "プログラミング"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/07b67ee7c25d0a60d28d9576a763ee8a5408dab8235303294c424e0bf345f6b2.pdf",
+          "originalName": "22603be6c5f792ba497a10d9f551bd22.pdf",
+          "sha256": "07b67ee7c25d0a60d28d9576a763ee8a5408dab8235303294c424e0bf345f6b2",
+          "byteSize": 208160,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/情报学/知能系统/22603be6c5f792ba497a10d9f551bd22.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。知能システム学専攻。三科目全答。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-intel-2024",
+      "universityId": "nagoya",
+      "title": "2024年度 · 知能システム学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "知能システム学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度 · 令和5年8月2日",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-02"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "解析・線形代数",
+        "確率・統計",
+        "プログラミング"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9ef52108844f132b4984d61141ca5d9ddc2d3a4a0be5404a1ebf56b2e8a02b61.pdf",
+          "originalName": "17b639d81a91ac5dca245f353c6a2378.pdf",
+          "sha256": "9ef52108844f132b4984d61141ca5d9ddc2d3a4a0be5404a1ebf56b2e8a02b61",
+          "byteSize": 210567,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/情报学/知能系统/17b639d81a91ac5dca245f353c6a2378.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。知能システム学専攻。三科目全答，每科答案纸1张。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-intel-2023",
+      "universityId": "nagoya",
+      "title": "2023年度 · 知能システム学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "知能システム学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度 · 令和4年8月8日",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-08"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "解析・線形代数",
+        "確率・統計",
+        "プログラミング"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/929f99c4d1e1266240696d76cd41ba24a17f009485b31a228f0d5294778dd86b.pdf",
+          "originalName": "f74a837b8149f26fcb14a129d9e92fe2.pdf",
+          "sha256": "929f99c4d1e1266240696d76cd41ba24a17f009485b31a228f0d5294778dd86b",
+          "byteSize": 203103,
+          "pages": 9,
+          "sourcePaths": [
+            "名古屋大学/情报学/知能系统/f74a837b8149f26fcb14a129d9e92fe2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。知能システム学専攻。三科目全答；プログラミング用答案纸2张，其余各1张。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-intel-2022",
+      "universityId": "nagoya",
+      "title": "2022年度 · 知能システム学専攻（解析・線形代数）",
+      "graduateSchool": "情報学研究科",
+      "department": "知能システム学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度 · 令和3年8月5日",
+      "admissionYears": [
+        2022
+      ],
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-05"
+      ],
+      "dateEvidence": "cover",
+      "completeness": "partial",
+      "subjects": [
+        "解析・線形代数"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2c9ff62cf45521adb114a77641c202e0ac8df7020850acc1034d0a8c75483c9f.pdf",
+          "originalName": "28d2a398533d93636c3b15ef7f63681e.pdf",
+          "sha256": "2c9ff62cf45521adb114a77641c202e0ac8df7020850acc1034d0a8c75483c9f",
+          "byteSize": 225309,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/情报学/知能系统/28d2a398533d93636c3b15ef7f63681e.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。本文件封面为「入学試験問題（解析・線形代数）」，不是三科目合册。確率・統計与プログラミング未收录，不补造。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-mi-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 数理情報学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "数理情報学専攻",
+      "selectionName": "博士前期課程入学試験（オンライン筆記試験）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度 · 令和6年8月7日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-07"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "代数学",
+        "数学基礎論",
+        "量子力学",
+        "離散最適化"
+      ],
+      "files": [
+        {
+          "label": "オンライン筆記試験",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f03bb96f7af8190f8db21ff876dd5bfce2868d4116ef4b0bae4a75ad8a33825a.pdf",
+          "originalName": "d967b794ab1b301941a0d27365512524.pdf",
+          "sha256": "f03bb96f7af8190f8db21ff876dd5bfce2868d4116ef4b0bae4a75ad8a33825a",
+          "byteSize": 676243,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/情报学/数理情报学/d967b794ab1b301941a0d27365512524.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。数理情報学専攻。封面为オンライン筆記試験，解答12:30–14:00，答案提交14:00–14:15。6问中选2。正文写博士前期課程。第1页即注意事项，从第1页打开。"
+    },
+    {
+      "id": "nagoya-mi-2024",
+      "universityId": "nagoya",
+      "title": "2024年度 · 数理情報学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "数理情報学専攻",
+      "selectionName": "博士前期課程入学試験（オンライン筆記試験）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度 · 令和5年8月2日",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-02"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "代数学",
+        "数学基礎論",
+        "量子力学",
+        "離散最適化"
+      ],
+      "files": [
+        {
+          "label": "オンライン筆記試験",
+          "kind": "question",
+          "url": "assets/past-papers/documents/af30dacc74e247f2f46f5cf649a34354432cf788a214ee37fc0509f72e047c4c.pdf",
+          "originalName": "e941e57b4dedbc7733954c79d527ed91.pdf",
+          "sha256": "af30dacc74e247f2f46f5cf649a34354432cf788a214ee37fc0509f72e047c4c",
+          "byteSize": 610661,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/情报学/数理情报学/e941e57b4dedbc7733954c79d527ed91.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。数理情報学専攻。オンライン筆記試験，解答12:30–14:00，提交14:00–14:15。6问中选2。正文写博士前期課程。从第1页打开。"
+    },
+    {
+      "id": "nagoya-mi-2022",
+      "universityId": "nagoya",
+      "title": "2022年度 · 数理情報学専攻（第1科目）",
+      "graduateSchool": "情報学研究科",
+      "department": "数理情報学専攻",
+      "selectionName": "博士前期課程入学試験（オンライン筆記試験・第1科目）",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度 · 令和3年8月5日",
+      "admissionYears": [
+        2022
+      ],
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-05"
+      ],
+      "dateEvidence": "cover",
+      "completeness": "partial",
+      "subjects": [
+        "線形代数",
+        "微分積分",
+        "代数学",
+        "グラフ理論",
+        "数学基礎論",
+        "量子力学",
+        "アルゴリズム設計法"
+      ],
+      "files": [
+        {
+          "label": "オンライン筆記試験 第1科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c40ef6fd325db989970edc58c629967a563847870ca56376e45a18d1206637bf.pdf",
+          "originalName": "da3830e64e26208fd6d638e1e1e40a7b.pdf",
+          "sha256": "c40ef6fd325db989970edc58c629967a563847870ca56376e45a18d1206637bf",
+          "byteSize": 290953,
+          "pages": 16,
+          "sourcePaths": [
+            "名古屋大学/情报学/数理情报学/da3830e64e26208fd6d638e1e1e40a7b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。封面写「オンライン筆記試験 第1科目」。7问中选3。解答12:30–14:00，提交14:00–14:15。第2科目不在本包，不补造。从第1页打开。"
+    },
+    {
+      "id": "nagoya-mi-2020",
+      "universityId": "nagoya",
+      "title": "2020年度 · 数理情報学専攻",
+      "graduateSchool": "情報学研究科",
+      "department": "数理情報学専攻",
+      "selectionName": "入学試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和2年度 · 令和2年2月13日",
+      "admissionYears": [
+        2020
+      ],
+      "examYear": 2020,
+      "examDates": [
+        "2020-02-13"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "専門"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/321b30a191b819f3fa1815a322f659616ad805e5d304a7fef655ee6592d70ab4.pdf",
+          "originalName": "2020_02_mi.pdf",
+          "sha256": "321b30a191b819f3fa1815a322f659616ad805e5d304a7fef655ee6592d70ab4",
+          "byteSize": 186234,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/情报学/数理情报学/2020_02_mi.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面首行是令和年度，其下印实施日。paperYear按令和年度（令和N＝2018+N），examYear与examDates用封面实施日，不把文件名当年度。入学年度按封面令和年度写入admissionYears。令和2年度与实施日同在2020年2月13日，paperYear与examYear都是2020。問題1–3中选2；問題3由I与II组成，只答一方。设问从第2页打开。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-mechsys-2025",
+      "universityId": "nagoya",
+      "title": "2025年8月実施 · 機械システム工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "機械システム工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025年8月19日・8月20日実施",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19",
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
+          "originalName": "2025_MC夏入試 (1).pdf",
+          "sha256": "621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9",
+          "byteSize": 747520,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/工学/机械理工/2025_MC夏入試 (1).pdf",
+            "名古屋大学/工学/机械系统/2025_MC夏入試.pdf",
+            "名古屋大学/工学/航空宇宙/2025_MC夏入試 (1).pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門解答例・出題意図",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
+          "originalName": "2025_MC夏入試_専門-2.pdf",
+          "sha256": "68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56",
+          "byteSize": 228478,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/工学/机械理工/2025_MC夏入試_専門-2.pdf",
+            "名古屋大学/工学/机械系统/2025_MC夏入試_専門-2.pdf",
+            "名古屋大学/工学/航空宇宙/2025_MC夏入試_専門-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。同一PDF含基礎（第1页封面，2025-08-19 14:30–16:30，数学4问全答，全5页）与専門（第6页封面，2025-08-20 9:00–12:00，封面写选择3问，页眉为問題1–5）。设问从第2页打开。另附専門-2：前部为解答式，第7页为五科出題意図；该册本身未印日期，按文件名与五科出題意図与本场専門对应，不另造年度。"
+    },
+    {
+      "id": "nagoya-micronano-2025",
+      "universityId": "nagoya",
+      "title": "2025年8月実施 · マイクロ・ナノ機械理工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "マイクロ・ナノ機械理工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025年8月19日・8月20日実施",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19",
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
+          "originalName": "2025_MC夏入試 (1).pdf",
+          "sha256": "621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9",
+          "byteSize": 747520,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/工学/机械理工/2025_MC夏入試 (1).pdf",
+            "名古屋大学/工学/机械系统/2025_MC夏入試.pdf",
+            "名古屋大学/工学/航空宇宙/2025_MC夏入試 (1).pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門解答例・出題意図",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
+          "originalName": "2025_MC夏入試_専門-2.pdf",
+          "sha256": "68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56",
+          "byteSize": 228478,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/工学/机械理工/2025_MC夏入試_専門-2.pdf",
+            "名古屋大学/工学/机械系统/2025_MC夏入試_専門-2.pdf",
+            "名古屋大学/工学/航空宇宙/2025_MC夏入試_専門-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。同一PDF含基礎（第1页封面，2025-08-19 14:30–16:30，数学4问全答，全5页）与専門（第6页封面，2025-08-20 9:00–12:00，封面写选择3问，页眉为問題1–5）。设问从第2页打开。另附専門-2：前部为解答式，第7页为五科出題意図；该册本身未印日期，按文件名与五科出題意図与本场専門对应，不另造年度。"
+    },
+    {
+      "id": "nagoya-aero-2025",
+      "universityId": "nagoya",
+      "title": "2025年8月実施 · 航空宇宙工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025年8月19日・8月20日実施",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19",
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
+          "originalName": "2025_MC夏入試 (1).pdf",
+          "sha256": "621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9",
+          "byteSize": 747520,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/工学/机械理工/2025_MC夏入試 (1).pdf",
+            "名古屋大学/工学/机械系统/2025_MC夏入試.pdf",
+            "名古屋大学/工学/航空宇宙/2025_MC夏入試 (1).pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門解答例・出題意図",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
+          "originalName": "2025_MC夏入試_専門-2.pdf",
+          "sha256": "68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56",
+          "byteSize": 228478,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/工学/机械理工/2025_MC夏入試_専門-2.pdf",
+            "名古屋大学/工学/机械系统/2025_MC夏入試_専門-2.pdf",
+            "名古屋大学/工学/航空宇宙/2025_MC夏入試_専門-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。同一PDF含基礎（第1页封面，2025-08-19 14:30–16:30，数学4问全答，全5页）与専門（第6页封面，2025-08-20 9:00–12:00，封面写选择3问，页眉为問題1–5）。设问从第2页打开。另附専門-2：前部为解答式，第7页为五科出題意図；该册本身未印日期，按文件名与五科出題意図与本场専門对应，不另造年度。"
+    },
+    {
+      "id": "nagoya-mechsys-2024",
+      "universityId": "nagoya",
+      "title": "2024年8月実施 · 機械システム工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "機械システム工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月20日・8月21日実施",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
+          "originalName": "2024b.pdf",
+          "sha256": "d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502",
+          "byteSize": 318178,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2024b.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "問題訂正",
+          "kind": "other",
+          "url": "assets/past-papers/documents/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
+          "originalName": "2024b_teisei.pdf",
+          "sha256": "0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05",
+          "byteSize": 16668,
+          "pages": 1,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2024b_teisei.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
+          "originalName": "2024s.pdf",
+          "sha256": "712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000",
+          "byteSize": 1219660,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2024s.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "合冊（訂正・出題意図を含む）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
+          "originalName": "12.pdf",
+          "sha256": "305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d",
+          "byteSize": 1578567,
+          "pages": 18,
+          "sourcePaths": [
+            "名古屋大学/工学/机械系统/12.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。基礎2024-08-20 13:30–16:30，数学4问与物理学1问全答。専門2024-08-21 9:00–12:00，5问中选3。問題訂正是基礎・力学（7）円板重心，与2024b第6页（7）对应；同一订正文也印在応用物理学／物質科学2024基础册第1页，此处只挂在机械2024组。合冊在工学／机械系统／12.pdf，字节与分册不同，含出題意図和末页口頭試問要点，从第3页设问打开。"
+    },
+    {
+      "id": "nagoya-micronano-2024",
+      "universityId": "nagoya",
+      "title": "2024年8月実施 · マイクロ・ナノ機械理工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "マイクロ・ナノ機械理工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月20日・8月21日実施",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
+          "originalName": "2024b.pdf",
+          "sha256": "d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502",
+          "byteSize": 318178,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2024b.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "問題訂正",
+          "kind": "other",
+          "url": "assets/past-papers/documents/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
+          "originalName": "2024b_teisei.pdf",
+          "sha256": "0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05",
+          "byteSize": 16668,
+          "pages": 1,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2024b_teisei.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
+          "originalName": "2024s.pdf",
+          "sha256": "712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000",
+          "byteSize": 1219660,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2024s.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "合冊（訂正・出題意図を含む）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
+          "originalName": "12.pdf",
+          "sha256": "305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d",
+          "byteSize": 1578567,
+          "pages": 18,
+          "sourcePaths": [
+            "名古屋大学/工学/机械系统/12.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。基礎2024-08-20 13:30–16:30，数学4问与物理学1问全答。専門2024-08-21 9:00–12:00，5问中选3。問題訂正是基礎・力学（7）円板重心，与2024b第6页（7）对应；同一订正文也印在応用物理学／物質科学2024基础册第1页，此处只挂在机械2024组。合冊在工学／机械系统／12.pdf，字节与分册不同，含出題意図和末页口頭試問要点，从第3页设问打开。"
+    },
+    {
+      "id": "nagoya-aero-2024",
+      "universityId": "nagoya",
+      "title": "2024年8月実施 · 航空宇宙工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月20日・8月21日実施",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
+          "originalName": "2024b.pdf",
+          "sha256": "d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502",
+          "byteSize": 318178,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2024b.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "問題訂正",
+          "kind": "other",
+          "url": "assets/past-papers/documents/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
+          "originalName": "2024b_teisei.pdf",
+          "sha256": "0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05",
+          "byteSize": 16668,
+          "pages": 1,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2024b_teisei.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
+          "originalName": "2024s.pdf",
+          "sha256": "712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000",
+          "byteSize": 1219660,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2024s.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "合冊（訂正・出題意図を含む）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
+          "originalName": "12.pdf",
+          "sha256": "305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d",
+          "byteSize": 1578567,
+          "pages": 18,
+          "sourcePaths": [
+            "名古屋大学/工学/机械系统/12.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。基礎2024-08-20 13:30–16:30，数学4问与物理学1问全答。専門2024-08-21 9:00–12:00，5问中选3。問題訂正是基礎・力学（7）円板重心，与2024b第6页（7）对应；同一订正文也印在応用物理学／物質科学2024基础册第1页，此处只挂在机械2024组。合冊在工学／机械系统／12.pdf，字节与分册不同，含出題意図和末页口頭試問要点，从第3页设问打开。"
+    },
+    {
+      "id": "nagoya-mechsys-2023",
+      "universityId": "nagoya",
+      "title": "2023年8月実施 · 機械システム工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "機械システム工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年8月22日・8月23日実施",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-22",
+        "2023-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
+          "originalName": "2023.pdf",
+          "sha256": "b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1",
+          "byteSize": 9945349,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2023.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
+          "originalName": "2023 (1).pdf",
+          "sha256": "19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891",
+          "byteSize": 16173325,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2023 (1).pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。基礎2023-08-22 13:30–16:30，数学4问与物理学1问全答。専門2023-08-23 9:00–12:00，5问中选3。两个文件名都是2023，按封面基础／专业区分。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-micronano-2023",
+      "universityId": "nagoya",
+      "title": "2023年8月実施 · マイクロ・ナノ機械理工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "マイクロ・ナノ機械理工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年8月22日・8月23日実施",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-22",
+        "2023-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
+          "originalName": "2023.pdf",
+          "sha256": "b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1",
+          "byteSize": 9945349,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2023.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
+          "originalName": "2023 (1).pdf",
+          "sha256": "19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891",
+          "byteSize": 16173325,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2023 (1).pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。基礎2023-08-22 13:30–16:30，数学4问与物理学1问全答。専門2023-08-23 9:00–12:00，5问中选3。两个文件名都是2023，按封面基础／专业区分。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-aero-2023",
+      "universityId": "nagoya",
+      "title": "2023年8月実施 · 航空宇宙工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年8月22日・8月23日実施",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-22",
+        "2023-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
+          "originalName": "2023.pdf",
+          "sha256": "b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1",
+          "byteSize": 9945349,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2023.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
+          "originalName": "2023 (1).pdf",
+          "sha256": "19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891",
+          "byteSize": 16173325,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2023 (1).pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。基礎2023-08-22 13:30–16:30，数学4问与物理学1问全答。専門2023-08-23 9:00–12:00，5问中选3。两个文件名都是2023，按封面基础／专业区分。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-mechsys-2022",
+      "universityId": "nagoya",
+      "title": "2022年8月実施 · 機械システム工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "機械システム工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2022年8月23日・8月24日実施",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-23",
+        "2022-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
+          "originalName": "2022_kiso.pdf",
+          "sha256": "932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9",
+          "byteSize": 1215473,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2022_kiso.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
+          "originalName": "2022_senmon.pdf",
+          "sha256": "62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f",
+          "byteSize": 1883143,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2022_senmon.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。基礎2022-08-23 13:30–16:30，数学4问与物理学1问全答。専門2022-08-24 9:00–12:00，5问中选3。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-micronano-2022",
+      "universityId": "nagoya",
+      "title": "2022年8月実施 · マイクロ・ナノ機械理工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "マイクロ・ナノ機械理工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2022年8月23日・8月24日実施",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-23",
+        "2022-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
+          "originalName": "2022_kiso.pdf",
+          "sha256": "932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9",
+          "byteSize": 1215473,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2022_kiso.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
+          "originalName": "2022_senmon.pdf",
+          "sha256": "62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f",
+          "byteSize": 1883143,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2022_senmon.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。基礎2022-08-23 13:30–16:30，数学4问与物理学1问全答。専門2022-08-24 9:00–12:00，5问中选3。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-aero-2022",
+      "universityId": "nagoya",
+      "title": "2022年8月実施 · 航空宇宙工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2022年8月23日・8月24日実施",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-23",
+        "2022-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学",
+        "熱工学",
+        "流体力学",
+        "機械力学",
+        "制御工学",
+        "材料力学"
+      ],
+      "files": [
+        {
+          "label": "基礎部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
+          "originalName": "2022_kiso.pdf",
+          "sha256": "932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9",
+          "byteSize": 1215473,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2022_kiso.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門部門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
+          "originalName": "2022_senmon.pdf",
+          "sha256": "62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f",
+          "byteSize": 1883143,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/機械航空系/2022_senmon.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为工学研究科博士前期課程，機械システム工学専攻・マイクロ・ナノ機械理工学専攻・航空宇宙工学専攻共用，不另造PDF。三専攻各设入口，阅读同一文件。paperYear按封面实施年，封面不印入学年度，不写admissionYears。云盘「机械理工」对应封面マイクロ・ナノ機械理工学専攻。基礎2022-08-23 13:30–16:30，数学4问与物理学1问全答。専門2022-08-24 9:00–12:00，5问中选3。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-mechsys-foreign-2025",
+      "universityId": "nagoya",
+      "title": "2025年11月19日実施 · 機械システム工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "機械システム工学専攻",
+      "selectionName": "博士課程（前期課程）語学・専門科目",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年11月19日",
+      "examYear": 2025,
+      "examDates": [
+        "2025-11-19"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "語学",
+        "解析",
+        "代数",
+        "力学"
+      ],
+      "files": [
+        {
+          "label": "語学・専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
+          "originalName": "2025_MC留学生入試f.pdf",
+          "sha256": "6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5",
+          "byteSize": 1990078,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/工学/2025_MC留学生入試f.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面日文为工学研究科博士課程（前期課程），三専攻共用。語学2025-11-19 10:00–11:40，全问作答，第2页打开；専門科目封面在第7页，同日13:00–15:30，页眉为解析、代数、力学。英文页眉写Master's and Doctoral Programs，日文标题是前期課程，不另建博士后期卷。文件名含留学生，封面未印「留学生」三字。语学第2页文本层有著作权未公开说明，PDF字节未改。"
+    },
+    {
+      "id": "nagoya-micronano-foreign-2025",
+      "universityId": "nagoya",
+      "title": "2025年11月19日実施 · マイクロ・ナノ機械理工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "マイクロ・ナノ機械理工学専攻",
+      "selectionName": "博士課程（前期課程）語学・専門科目",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年11月19日",
+      "examYear": 2025,
+      "examDates": [
+        "2025-11-19"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "語学",
+        "解析",
+        "代数",
+        "力学"
+      ],
+      "files": [
+        {
+          "label": "語学・専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
+          "originalName": "2025_MC留学生入試f.pdf",
+          "sha256": "6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5",
+          "byteSize": 1990078,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/工学/2025_MC留学生入試f.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面日文为工学研究科博士課程（前期課程），三専攻共用。語学2025-11-19 10:00–11:40，全问作答，第2页打开；専門科目封面在第7页，同日13:00–15:30，页眉为解析、代数、力学。英文页眉写Master's and Doctoral Programs，日文标题是前期課程，不另建博士后期卷。文件名含留学生，封面未印「留学生」三字。语学第2页文本层有著作权未公开说明，PDF字节未改。"
+    },
+    {
+      "id": "nagoya-aero-foreign-2025",
+      "universityId": "nagoya",
+      "title": "2025年11月19日実施 · 航空宇宙工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "航空宇宙工学専攻",
+      "selectionName": "博士課程（前期課程）語学・専門科目",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年11月19日",
+      "examYear": 2025,
+      "examDates": [
+        "2025-11-19"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "語学",
+        "解析",
+        "代数",
+        "力学"
+      ],
+      "files": [
+        {
+          "label": "語学・専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
+          "originalName": "2025_MC留学生入試f.pdf",
+          "sha256": "6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5",
+          "byteSize": 1990078,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/工学/2025_MC留学生入試f.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面日文为工学研究科博士課程（前期課程），三専攻共用。語学2025-11-19 10:00–11:40，全问作答，第2页打开；専門科目封面在第7页，同日13:00–15:30，页眉为解析、代数、力学。英文页眉写Master's and Doctoral Programs，日文标题是前期課程，不另建博士后期卷。文件名含留学生，封面未印「留学生」三字。语学第2页文本层有著作权未公开说明，PDF字节未改。"
+    },
+    {
+      "id": "nagoya-ee-2026",
+      "universityId": "nagoya",
+      "title": "2026年度 · 専門 · 電気工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "電気工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和8年度 · 令和7年8月20日",
+      "admissionYears": [
+        2026
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "completeness": "partial",
+      "subjects": [
+        "電気回路",
+        "電力系統",
+        "電子回路",
+        "電子物性",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
+          "originalName": "0_問題冊子-1.pdf",
+          "sha256": "5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816",
+          "byteSize": 995392,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/工学/情报通讯/0_問題冊子-1.pdf",
+            "名古屋大学/工学/电子工学/0_問題冊子-1 (1).pdf",
+            "名古屋大学/工学/电气工学/0_問題冊子-1.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。電気工学専攻／電子工学専攻／情報・通信工学専攻共用一册，三専攻各设入口，不拆PDF。paperYear按封面令和年度或西历年度，examDates用封面实施日。本包只有専門：令和8年度，令和7年8月20日9:00–12:00，6问中选3，問題1電気回路・問題3電子回路・問題5論理回路合计不超过2问。基礎册不在本包，不补造。第13页是「令和7年度実施」口頭試問要点，与封面令和8年度筆試标题不同，原页保留，不另建口试卷，也不把该页当成笔试日期。未附解答；同目录的正解・解答例按科目归入令和7年度。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-el-2026",
+      "universityId": "nagoya",
+      "title": "2026年度 · 専門 · 電子工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "電子工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和8年度 · 令和7年8月20日",
+      "admissionYears": [
+        2026
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "completeness": "partial",
+      "subjects": [
+        "電気回路",
+        "電力系統",
+        "電子回路",
+        "電子物性",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
+          "originalName": "0_問題冊子-1.pdf",
+          "sha256": "5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816",
+          "byteSize": 995392,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/工学/情报通讯/0_問題冊子-1.pdf",
+            "名古屋大学/工学/电子工学/0_問題冊子-1 (1).pdf",
+            "名古屋大学/工学/电气工学/0_問題冊子-1.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。電気工学専攻／電子工学専攻／情報・通信工学専攻共用一册，三専攻各设入口，不拆PDF。paperYear按封面令和年度或西历年度，examDates用封面实施日。本包只有専門：令和8年度，令和7年8月20日9:00–12:00，6问中选3，問題1電気回路・問題3電子回路・問題5論理回路合计不超过2问。基礎册不在本包，不补造。第13页是「令和7年度実施」口頭試問要点，与封面令和8年度筆試标题不同，原页保留，不另建口试卷，也不把该页当成笔试日期。未附解答；同目录的正解・解答例按科目归入令和7年度。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-ict-2026",
+      "universityId": "nagoya",
+      "title": "2026年度 · 専門 · 情報・通信工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "情報・通信工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和8年度 · 令和7年8月20日",
+      "admissionYears": [
+        2026
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "completeness": "partial",
+      "subjects": [
+        "電気回路",
+        "電力系統",
+        "電子回路",
+        "電子物性",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
+          "originalName": "0_問題冊子-1.pdf",
+          "sha256": "5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816",
+          "byteSize": 995392,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/工学/情报通讯/0_問題冊子-1.pdf",
+            "名古屋大学/工学/电子工学/0_問題冊子-1 (1).pdf",
+            "名古屋大学/工学/电气工学/0_問題冊子-1.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。電気工学専攻／電子工学専攻／情報・通信工学専攻共用一册，三専攻各设入口，不拆PDF。paperYear按封面令和年度或西历年度，examDates用封面实施日。本包只有専門：令和8年度，令和7年8月20日9:00–12:00，6问中选3，問題1電気回路・問題3電子回路・問題5論理回路合计不超过2问。基礎册不在本包，不补造。第13页是「令和7年度実施」口頭試問要点，与封面令和8年度筆試标题不同，原页保留，不另建口试卷，也不把该页当成笔试日期。未附解答；同目录的正解・解答例按科目归入令和7年度。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-ee-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 電気工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "電気工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度 · 令和6年8月20日・8月21日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎",
+        "電気回路",
+        "電気エネルギー",
+        "電子回路",
+        "電子物性",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
+          "originalName": "11.pdf",
+          "sha256": "ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88",
+          "byteSize": 1202221,
+          "pages": 23,
+          "sourcePaths": [
+            "名古屋大学/工学/情报通讯/11.pdf",
+            "名古屋大学/工学/电子工学/10.pdf",
+            "名古屋大学/工学/电气工学/09.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "正解・解答例",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
+          "originalName": "正解・解答例-1 (1).pdf",
+          "sha256": "52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee",
+          "byteSize": 390272,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/工学/情报通讯/正解・解答例-1 (1).pdf",
+            "名古屋大学/工学/电子工学/正解・解答例-1.pdf",
+            "名古屋大学/工学/电气工学/正解・解答例-1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。電気工学専攻／電子工学専攻／情報・通信工学専攻共用一册，三専攻各设入口，不拆PDF。paperYear按封面令和年度或西历年度，examDates用封面实施日。合冊第1页是基礎封面，令和6年8月20日13:30–16:30，5问中选3；第12页是専門封面，令和6年8月21日9:00–12:00，6问中选3并有组别上限。册内含出題意図。末页口頭試問要点保留，不另建口试卷。正解・解答例本身未印年度，六科为電気回路・電気エネルギー・電子回路・電子物性・論理回路・情報理論；令和8年度専門第2问是電力系統，本合冊専門第13页起是変圧器定格，与電気エネルギー一致，故只附在令和7年度。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-el-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 電子工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "電子工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度 · 令和6年8月20日・8月21日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎",
+        "電気回路",
+        "電気エネルギー",
+        "電子回路",
+        "電子物性",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
+          "originalName": "11.pdf",
+          "sha256": "ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88",
+          "byteSize": 1202221,
+          "pages": 23,
+          "sourcePaths": [
+            "名古屋大学/工学/情报通讯/11.pdf",
+            "名古屋大学/工学/电子工学/10.pdf",
+            "名古屋大学/工学/电气工学/09.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "正解・解答例",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
+          "originalName": "正解・解答例-1 (1).pdf",
+          "sha256": "52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee",
+          "byteSize": 390272,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/工学/情报通讯/正解・解答例-1 (1).pdf",
+            "名古屋大学/工学/电子工学/正解・解答例-1.pdf",
+            "名古屋大学/工学/电气工学/正解・解答例-1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。電気工学専攻／電子工学専攻／情報・通信工学専攻共用一册，三専攻各设入口，不拆PDF。paperYear按封面令和年度或西历年度，examDates用封面实施日。合冊第1页是基礎封面，令和6年8月20日13:30–16:30，5问中选3；第12页是専門封面，令和6年8月21日9:00–12:00，6问中选3并有组别上限。册内含出題意図。末页口頭試問要点保留，不另建口试卷。正解・解答例本身未印年度，六科为電気回路・電気エネルギー・電子回路・電子物性・論理回路・情報理論；令和8年度専門第2问是電力系統，本合冊専門第13页起是変圧器定格，与電気エネルギー一致，故只附在令和7年度。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-ict-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 情報・通信工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "情報・通信工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度 · 令和6年8月20日・8月21日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎",
+        "電気回路",
+        "電気エネルギー",
+        "電子回路",
+        "電子物性",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
+          "originalName": "11.pdf",
+          "sha256": "ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88",
+          "byteSize": 1202221,
+          "pages": 23,
+          "sourcePaths": [
+            "名古屋大学/工学/情报通讯/11.pdf",
+            "名古屋大学/工学/电子工学/10.pdf",
+            "名古屋大学/工学/电气工学/09.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "正解・解答例",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
+          "originalName": "正解・解答例-1 (1).pdf",
+          "sha256": "52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee",
+          "byteSize": 390272,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/工学/情报通讯/正解・解答例-1 (1).pdf",
+            "名古屋大学/工学/电子工学/正解・解答例-1.pdf",
+            "名古屋大学/工学/电气工学/正解・解答例-1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。電気工学専攻／電子工学専攻／情報・通信工学専攻共用一册，三専攻各设入口，不拆PDF。paperYear按封面令和年度或西历年度，examDates用封面实施日。合冊第1页是基礎封面，令和6年8月20日13:30–16:30，5问中选3；第12页是専門封面，令和6年8月21日9:00–12:00，6问中选3并有组别上限。册内含出題意図。末页口頭試問要点保留，不另建口试卷。正解・解答例本身未印年度，六科为電気回路・電気エネルギー・電子回路・電子物性・論理回路・情報理論；令和8年度専門第2问是電力系統，本合冊専門第13页起是変圧器定格，与電気エネルギー一致，故只附在令和7年度。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-ee-foreign-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 外国人留学生 · 基礎 · 電気工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "電気工学専攻",
+      "selectionName": "外国人留学生入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度 · 2024年11月13日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-11-13"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "基礎（数学・物理学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
+          "originalName": "09f.pdf",
+          "sha256": "16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f",
+          "byteSize": 564340,
+          "pages": 12,
+          "sourcePaths": [
+            "名古屋大学/工学/电子工学/09f.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。電気工学専攻／電子工学専攻／情報・通信工学専攻共用一册，三専攻各设入口，不拆PDF。paperYear按封面令和年度或西历年度，examDates用封面实施日。2025年度外国人留学生入学試験問題，基礎 Mathematics and Physics，2024年11月13日（水）9:00–12:00。日文日期与星期三一致；英文行与日文同为11月13日。5问中选3，日文或英文作答。册内后部有出題意図，末页为令和6年度実施外国人留学生口頭試問要点，不另建口试卷。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-el-foreign-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 外国人留学生 · 基礎 · 電子工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "電子工学専攻",
+      "selectionName": "外国人留学生入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度 · 2024年11月13日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-11-13"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "基礎（数学・物理学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
+          "originalName": "09f.pdf",
+          "sha256": "16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f",
+          "byteSize": 564340,
+          "pages": 12,
+          "sourcePaths": [
+            "名古屋大学/工学/电子工学/09f.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。電気工学専攻／電子工学専攻／情報・通信工学専攻共用一册，三専攻各设入口，不拆PDF。paperYear按封面令和年度或西历年度，examDates用封面实施日。2025年度外国人留学生入学試験問題，基礎 Mathematics and Physics，2024年11月13日（水）9:00–12:00。日文日期与星期三一致；英文行与日文同为11月13日。5问中选3，日文或英文作答。册内后部有出題意図，末页为令和6年度実施外国人留学生口頭試問要点，不另建口试卷。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-ict-foreign-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 外国人留学生 · 基礎 · 情報・通信工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "情報・通信工学専攻",
+      "selectionName": "外国人留学生入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度 · 2024年11月13日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-11-13"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "基礎（数学・物理学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
+          "originalName": "09f.pdf",
+          "sha256": "16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f",
+          "byteSize": 564340,
+          "pages": 12,
+          "sourcePaths": [
+            "名古屋大学/工学/电子工学/09f.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。電気工学専攻／電子工学専攻／情報・通信工学専攻共用一册，三専攻各设入口，不拆PDF。paperYear按封面令和年度或西历年度，examDates用封面实施日。2025年度外国人留学生入学試験問題，基礎 Mathematics and Physics，2024年11月13日（水）9:00–12:00。日文日期与星期三一致；英文行与日文同为11月13日。5问中选3，日文或英文作答。册内后部有出題意図，末页为令和6年度実施外国人留学生口頭試問要点，不另建口试卷。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-appphys-2024",
+      "universityId": "nagoya",
+      "title": "2024年8月実施 · 応用物理学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "博士前期課程一般選抜",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年8月20日・8月21日",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学①",
+        "数学②",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学",
+        "物性物理学",
+        "応用数学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a831ebe02836b8f51fbc994bf0b4abeb1324c31a9c505b7dbab7444932a8f15a.pdf",
+          "originalName": "04.pdf",
+          "sha256": "a831ebe02836b8f51fbc994bf0b4abeb1324c31a9c505b7dbab7444932a8f15a",
+          "byteSize": 699272,
+          "pages": 20,
+          "sourcePaths": [
+            "名古屋大学/工学/应用物理学/04.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。第2页封面为【応用物理学専攻】。基礎令和6年8月20日13:30–16:30，数学①、数学②、力学、電磁気学全答。専門封面在第9页，令和6年8月21日9:00–12:00，量子力学・熱・統計力学・物性物理学・応用数学4科中选2。第1页是基礎・力学（7）円板訂正，设问从第3页打开，请同时看第1页。两専攻各有自己的PDF，字节不同，内容结构相同。末页印令和6年度実施一般選抜口頭試問，故选拔名用一般選抜。paperYear按实施年，封面未印入学年度。"
+    },
+    {
+      "id": "nagoya-matsci-2024",
+      "universityId": "nagoya",
+      "title": "2024年8月実施 · 物質科学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "物質科学専攻",
+      "selectionName": "博士前期課程一般選抜",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年8月20日・8月21日",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学①",
+        "数学②",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学",
+        "物性物理学",
+        "応用数学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ae583a57d0b9c934571bec17544bab1af8fcc5a6e2e3238f3565de80211edd21.pdf",
+          "originalName": "05.pdf",
+          "sha256": "ae583a57d0b9c934571bec17544bab1af8fcc5a6e2e3238f3565de80211edd21",
+          "byteSize": 700499,
+          "pages": 20,
+          "sourcePaths": [
+            "名古屋大学/工学/物质科学/05.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。第2页封面为【物質科学専攻】。基礎令和6年8月20日13:30–16:30，数学①、数学②、力学、電磁気学全答。専門封面在第9页，令和6年8月21日9:00–12:00，量子力学・熱・統計力学・物性物理学・応用数学4科中选2。第1页是基礎・力学（7）円板訂正，设问从第3页打开，请同时看第1页。两専攻各有自己的PDF，字节不同，内容结构相同。末页印令和6年度実施一般選抜口頭試問，故选拔名用一般選抜。paperYear按实施年，封面未印入学年度。"
+    },
+    {
+      "id": "nagoya-appphys-2025",
+      "universityId": "nagoya",
+      "title": "2025年8月実施 · 応用物理学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "応用物理学専攻",
+      "selectionName": "筆記試験",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年8月19日・8月20日",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19",
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学①",
+        "数学②",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学",
+        "物性物理学",
+        "応用数学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95.pdf",
+          "originalName": "R8筆記試験-問題.pdf",
+          "sha256": "3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95",
+          "byteSize": 1480581,
+          "pages": 20,
+          "sourcePaths": [
+            "名古屋大学/工学/应用物理学/R8筆記試験-問題.pdf",
+            "名古屋大学/工学/物质科学/R8筆記試験-問題.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "基礎・専門解答",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2.pdf",
+          "originalName": "R8筆記試験-解答_公開用.pdf",
+          "sha256": "5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2",
+          "byteSize": 1051683,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/工学/应用物理学/R8筆記試験-解答_公開用.pdf",
+            "名古屋大学/工学/物质科学/R8筆記試験-解答_公開用 (1).pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。题册与解答为同一字节，同时放在応用物理学与物質科学两个目录。题册各页未印専攻名，也未印研究科名；2024年同格式分册封面分别是【応用物理学専攻】与【物質科学専攻】，因此两専攻各设入口，不把目录中文名写成专攻名以外的新名称。基礎封面即第1页，令和7年8月19日13:30–16:30，四科全答；第2页空白，设问从第3页打开。専門封面在第9页，令和7年8月20日9:00–12:00，四科中选2。文件名R8不作为入学年度，paperYear按封面实施年2025，不写admissionYears。解答册文本层未印年度，首页为基礎・数学①解答，与本题册同目录，故附在本组。"
+    },
+    {
+      "id": "nagoya-matsci-2025",
+      "universityId": "nagoya",
+      "title": "2025年8月実施 · 物質科学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "物質科学専攻",
+      "selectionName": "筆記試験",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年8月19日・8月20日",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19",
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学①",
+        "数学②",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学",
+        "物性物理学",
+        "応用数学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95.pdf",
+          "originalName": "R8筆記試験-問題.pdf",
+          "sha256": "3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95",
+          "byteSize": 1480581,
+          "pages": 20,
+          "sourcePaths": [
+            "名古屋大学/工学/应用物理学/R8筆記試験-問題.pdf",
+            "名古屋大学/工学/物质科学/R8筆記試験-問題.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "基礎・専門解答",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2.pdf",
+          "originalName": "R8筆記試験-解答_公開用.pdf",
+          "sha256": "5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2",
+          "byteSize": 1051683,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/工学/应用物理学/R8筆記試験-解答_公開用.pdf",
+            "名古屋大学/工学/物质科学/R8筆記試験-解答_公開用 (1).pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。题册与解答为同一字节，同时放在応用物理学与物質科学两个目录。题册各页未印専攻名，也未印研究科名；2024年同格式分册封面分别是【応用物理学専攻】与【物質科学専攻】，因此两専攻各设入口，不把目录中文名写成专攻名以外的新名称。基礎封面即第1页，令和7年8月19日13:30–16:30，四科全答；第2页空白，设问从第3页打开。専門封面在第9页，令和7年8月20日9:00–12:00，四科中选2。文件名R8不作为入学年度，paperYear按封面实施年2025，不写admissionYears。解答册文本层未印年度，首页为基礎・数学①解答，与本题册同目录，故附在本组。"
+    },
+    {
+      "id": "nagoya-mdesign-2025",
+      "universityId": "nagoya",
+      "title": "2025年度（令和6年実施） · 材料デザイン工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "材料デザイン工学専攻",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度（令和6年実施）",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "subjects": [
+        "数学",
+        "物理化学",
+        "固体物理学",
+        "流動と伝熱",
+        "反応工学",
+        "材料の力学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
+          "originalName": "06.pdf",
+          "sha256": "6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e",
+          "byteSize": 659060,
+          "pages": 23,
+          "sourcePaths": [
+            "名古屋大学/工学/材料设计/06.pdf",
+            "名古屋大学/工学/物质工程/07.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度（令和6年実施），マテリアル工学系専攻群：材料デザイン工学専攻、物質プロセス工学専攻、化学システム工学専攻。化学システム按排除范围不建入口，全册仍保留。基礎为数学与物理化学，全部作答；専門封面在第11页，固体物理学・流動と伝熱・反応工学・材料の力学4问中选2。封面未印公历日，不补examDates。册内含出題意図。设问从第2页打开。云盘路径在材料设计与物质工程，不在化学系统文件夹。"
+    },
+    {
+      "id": "nagoya-mprocess-2025",
+      "universityId": "nagoya",
+      "title": "2025年度（令和6年実施） · 物質プロセス工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "物質プロセス工学専攻",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度（令和6年実施）",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "subjects": [
+        "数学",
+        "物理化学",
+        "固体物理学",
+        "流動と伝熱",
+        "反応工学",
+        "材料の力学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
+          "originalName": "06.pdf",
+          "sha256": "6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e",
+          "byteSize": 659060,
+          "pages": 23,
+          "sourcePaths": [
+            "名古屋大学/工学/材料设计/06.pdf",
+            "名古屋大学/工学/物质工程/07.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度（令和6年実施），マテリアル工学系専攻群：材料デザイン工学専攻、物質プロセス工学専攻、化学システム工学専攻。化学システム按排除范围不建入口，全册仍保留。基礎为数学与物理化学，全部作答；専門封面在第11页，固体物理学・流動と伝熱・反応工学・材料の力学4问中选2。封面未印公历日，不补examDates。册内含出題意図。设问从第2页打开。云盘路径在材料设计与物质工程，不在化学系统文件夹。"
+    },
+    {
+      "id": "nagoya-mdesign-foreign-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 外国人留学生 · 材料デザイン工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "材料デザイン工学専攻",
+      "selectionName": "外国人留学生入学者選抜試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度／ACADEMIC YEAR 2025",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "英語",
+        "数学",
+        "物理学",
+        "化学"
+      ],
+      "files": [
+        {
+          "label": "英語・数学・物理学・化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
+          "originalName": "06f.pdf",
+          "sha256": "e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d",
+          "byteSize": 994430,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/工学/材料设计/06f.pdf",
+            "名古屋大学/工学/物质科学/07.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度外国人留学生入学者選抜、博士課程前期課程。英文系名为 Materials Design Innovation Eng.、Materials Process Eng.、Chemical Systems Eng.。化学系统不建入口。英语时间为10:30–12:00，封面未印公历日，不补examDates，也不把末页「令和6年度実施」口頭試問当成笔试日期。第5页起为数学、物理学、化学。同一字节还在工学／物质科学／07.pdf；封面没有物質科学専攻，不为物質科学另建本组。第2页文本层有著作权未公开说明，字节未改。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-mprocess-foreign-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 外国人留学生 · 物質プロセス工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "物質プロセス工学専攻",
+      "selectionName": "外国人留学生入学者選抜試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度／ACADEMIC YEAR 2025",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "英語",
+        "数学",
+        "物理学",
+        "化学"
+      ],
+      "files": [
+        {
+          "label": "英語・数学・物理学・化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
+          "originalName": "06f.pdf",
+          "sha256": "e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d",
+          "byteSize": 994430,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/工学/材料设计/06f.pdf",
+            "名古屋大学/工学/物质科学/07.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度外国人留学生入学者選抜、博士課程前期課程。英文系名为 Materials Design Innovation Eng.、Materials Process Eng.、Chemical Systems Eng.。化学系统不建入口。英语时间为10:30–12:00，封面未印公历日，不补examDates，也不把末页「令和6年度実施」口頭試問当成笔试日期。第5页起为数学、物理学、化学。同一字节还在工学／物质科学／07.pdf；封面没有物質科学専攻，不为物質科学另建本组。第2页文本层有著作权未公开说明，字节未改。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-enerim-2025",
+      "universityId": "nagoya",
+      "title": "2025年8月20日実施 · エネルギー理工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "エネルギー理工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025年8月20日実施",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "completeness": "partial",
+      "subjects": [
+        "基礎",
+        "専門I",
+        "専門II"
+      ],
+      "files": [
+        {
+          "label": "基礎V後半・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75.pdf",
+          "originalName": "問題＿エネ.pdf",
+          "sha256": "8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75",
+          "byteSize": 2654529,
+          "pages": 25,
+          "sourcePaths": [
+            "名古屋大学/工学/网络/問題＿エネ.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "解答例・出題意図",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883.pdf",
+          "originalName": "解答例・出題の意図＿エネ.pdf",
+          "sha256": "4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883",
+          "byteSize": 1032606,
+          "pages": 16,
+          "sourcePaths": [
+            "名古屋大学/工学/网络/解答例・出題の意図＿エネ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。文件在工学／网络目录，封面不是网络専攻。専門封面（第3页）印エネルギー理工学専攻・総合エネルギー工学専攻，2025年8月20日9:00–11:30。専門I必答，専門II-1至II-4中选1。第1–2页是基礎V后半（苯），未印基础场日期，不把前一日写成examDates。解答例首页即该苯题，后部与専門I（电源成本、太阳辐射、第7次エネルギー基本計画）及II-1至II-4一致，故附在本组；解答册本身未印年度。完整基礎分册未以可核对日期的形式出现。两専攻各设入口。"
+    },
+    {
+      "id": "nagoya-enesogo-2025",
+      "universityId": "nagoya",
+      "title": "2025年8月20日実施 · 総合エネルギー工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "総合エネルギー工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025年8月20日実施",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "completeness": "partial",
+      "subjects": [
+        "基礎",
+        "専門I",
+        "専門II"
+      ],
+      "files": [
+        {
+          "label": "基礎V後半・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75.pdf",
+          "originalName": "問題＿エネ.pdf",
+          "sha256": "8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75",
+          "byteSize": 2654529,
+          "pages": 25,
+          "sourcePaths": [
+            "名古屋大学/工学/网络/問題＿エネ.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "解答例・出題意図",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883.pdf",
+          "originalName": "解答例・出題の意図＿エネ.pdf",
+          "sha256": "4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883",
+          "byteSize": 1032606,
+          "pages": 16,
+          "sourcePaths": [
+            "名古屋大学/工学/网络/解答例・出題の意図＿エネ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。文件在工学／网络目录，封面不是网络専攻。専門封面（第3页）印エネルギー理工学専攻・総合エネルギー工学専攻，2025年8月20日9:00–11:30。専門I必答，専門II-1至II-4中选1。第1–2页是基礎V后半（苯），未印基础场日期，不把前一日写成examDates。解答例首页即该苯题，后部与専門I（电源成本、太阳辐射、第7次エネルギー基本計画）及II-1至II-4一致，故附在本组；解答册本身未印年度。完整基礎分册未以可核对日期的形式出现。两専攻各设入口。"
+    },
+    {
+      "id": "nagoya-enerim-2024",
+      "universityId": "nagoya",
+      "title": "2024年8月実施 · エネルギー理工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "エネルギー理工学専攻",
+      "selectionName": "博士前期課程一般選抜",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月20日・8月21日実施",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎",
+        "専門"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233.pdf",
+          "originalName": "15.pdf",
+          "sha256": "d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233",
+          "byteSize": 1605459,
+          "pages": 39,
+          "sourcePaths": [
+            "名古屋大学/工学/网络/15.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。文件在工学／网络。第1页是基礎V订正。基礎封面第2页，2024年8月20日13:30–16:30，基礎I–V全答，设问从第3页打开。専門封面第15页，2024年8月21日9:00–12:00；専門I必答，専門II-1至II-6中选2。末页口頭試問印「エネルギー理工学，総合エネルギー工学」和一般選抜；専攻名用与2025专业封面相同的「専攻」全称。题册内页未再印研究科名。不含2025年苯题那份解答例。"
+    },
+    {
+      "id": "nagoya-enesogo-2024",
+      "universityId": "nagoya",
+      "title": "2024年8月実施 · 総合エネルギー工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "総合エネルギー工学専攻",
+      "selectionName": "博士前期課程一般選抜",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月20日・8月21日実施",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20",
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎",
+        "専門"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233.pdf",
+          "originalName": "15.pdf",
+          "sha256": "d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233",
+          "byteSize": 1605459,
+          "pages": 39,
+          "sourcePaths": [
+            "名古屋大学/工学/网络/15.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。文件在工学／网络。第1页是基礎V订正。基礎封面第2页，2024年8月20日13:30–16:30，基礎I–V全答，设问从第3页打开。専門封面第15页，2024年8月21日9:00–12:00；専門I必答，専門II-1至II-6中选2。末页口頭試問印「エネルギー理工学，総合エネルギー工学」和一般選抜；専攻名用与2025专业封面相同的「専攻」全称。题册内页未再印研究科名。不含2025年苯题那份解答例。"
     }
   ],
   "schoolNotes": {
@@ -9388,7 +11988,37 @@
     },
     "uec": {
       "text": "本校20组／38个问题PDF，按2020—2024年8月实施日索引，无随卷解答。封面为情報理工学研究科博士前期課程一般入試，只印实施日期，不印入学年度，故不推定次年4月入学。情報学、情報・ネットワーク工学每年必須与選択各一册；機械知能2020—2021年数学与物理同册，2022年起分册，另有選択；基盤理工学只有選択群11科目。24.8云盘里情报学与情报网络工学文件夹和文件名代号相反，已按封面归类并保留原路径。各PDF第2页为空白扫描页，设问从第3页打开。2024年机械物理学保留問題訂正页。不声明其他年度或全校齐全。"
+    },
+    "nagoya": {
+      "text": "本校52组／40个有年度PDF，另2个未印年份的能源册不编入年度目录。云盘182个PDF中纳入57个，去重后42个唯一PDF、614页，重复副本15个。情報学研究科按封面令和年度索引，实施日另列。工学机械航空、应用物理／物质科学与能源按封面实施年，不把文件名R8写成入学年。电气／电子／情报通信、机械三専攻、材料两専攻（不含化学系统）、能源两専攻、R8应用物理与物质科学共用原册，各设入口。排除理学多元数理、物理科学、化学系统专属目录和土木。社会人、SGU、博士后期专属卷未出现。不声明其他年度或全校齐全。",
+      "supplements": [
+        {
+          "label": "エネルギー基礎（未印年度）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/48e55f932865dcd5339f3ad44837ced2b95f2e3cd4caabfe124ed09624fac326.pdf",
+          "originalName": "energy-kiso.pdf",
+          "sha256": "48e55f932865dcd5339f3ad44837ced2b95f2e3cd4caabfe124ed09624fac326",
+          "byteSize": 481791,
+          "pages": 6,
+          "sourcePaths": [
+            "名古屋大学/エネルギー理工学専攻・総合エネルギー工学専攻/energy-kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "エネルギー専門（未印年度）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e3fc0db59aafc3411ed17bc67d3a00a08fe6d1946615046e359237a1f56f9235.pdf",
+          "originalName": "energy-senmon.pdf",
+          "sha256": "e3fc0db59aafc3411ed17bc67d3a00a08fe6d1946615046e359237a1f56f9235",
+          "byteSize": 1528649,
+          "pages": 22,
+          "sourcePaths": [
+            "名古屋大学/エネルギー理工学専攻・総合エネルギー工学専攻/energy-senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ]
     }
-
   }
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);
