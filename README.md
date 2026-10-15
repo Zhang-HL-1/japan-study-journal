@@ -139,3 +139,5 @@
 大阪大学过去问已添加57组／95个PDF（720页）：电气电子信息通信、精密工学、知能系统、电子光科学、机械科学、生体系统与信息工学共通原卷。缺少科目的年份已标记，未附解答；入口 [大阪大学过去问](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html?school=osaka)。
 
 东北大学过去问已添加67组／82个有封面年度的PDF（另4个无封面年度册只在学校说明中），86个唯一PDF、664页：応用物理学、機械系、电气情报、量子エネルギー工学，以及按云盘文件夹归类的情報科学（数学）。封面没有研究科名称的数学册不记入情報科学研究科；入口 [东北大学过去问](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html?school=tohoku)。
+
+庆应义塾大学过去问已添加32组／32个PDF、181页：理工学研究科2021–2024年材料、应用力学、信息、物理信息、电气电子，以及2025年物理信息工学、机械工学、电气信息工学。系统统合、多学科设计科学、系统设计工学标为边界／待确认。封面只有考试月，按考试年索引；入口 [庆应义塾大学过去问](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html?school=keio)。

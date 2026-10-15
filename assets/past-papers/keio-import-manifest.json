@@ -1,0 +1,594 @@
+{
+  "importedAt": "2026-10-15",
+  "universityId": "keio",
+  "sourceFolder": "Google Drive／过去问／庆应义塾大学",
+  "inventoryPDFs": 47,
+  "sourceFiles": 32,
+  "uniquePDFs": 32,
+  "duplicateByteCopies": 0,
+  "groups": 32,
+  "questionPDFs": 32,
+  "answerPDFs": 0,
+  "totalPages": 181,
+  "yearBasis": "exam",
+  "sharedWithExistingSchools": [],
+  "boundaryGroups": 9,
+  "yearBasisNote": "封面只印「YYYY年 8月」，无入学年度、无具体日。paperYear与examYear用该年，yearBasis为exam。不写admissionYears，也不写examDates。不从文件名、文件夹或次年4月入学惯例补年度。",
+  "coverageNote": "本校32组／32个唯一PDF、181页，无解答，无字节重复。封面统一为「YYYY年 8月」「慶應義塾大学大学院 理工学研究科」「前期博士課程 入学試験問題」「教育研究分野：〈字母〉〈名称〉」。封面无入学年度、无具体日，只有考试月，故 yearBasis 为 exam：paperYear 与 examYear 用该年，不写 admissionYears，也不写 examDates。2021–2024年收录 J マテリアルデザイン科学、M 応用力学・計算力学、N 情報工学、D 物理情報、I 電気電子工学各4册。2025年根目录按封面为 C 物理情報工学、G 機械工学、H 電気情報工学。边界／待确认：H システム統合工学2021–2024、G マルチディシプリナリ・デザイン科学2021–2024、I システムデザイン工学2025，按封面单独建目录，不并入其他分野。2025年字母与2021–2024年不同（旧 D 物理情報／G マルチディシプリナリ・デザイン科学／H システム統合工学／I 電気電子工学），按封面记，不合并。云盘无2021–2024年機械工学文件夹，只有 G 機械工学2025，不补。2021年多为扫描／双页拼版，pdfinfo Pages 有的约为封面総ページ数的一半（Hシステム統合4/8、Jマテリアル4/8、Gマルチ1/2、N情報3/6、D物理情報2/4），M応用力学5/9与I電気電子3/5不是整齐的一半；两数都记，页数以实际PDF为准，这些册从第1页打开。页数一致且封面写明问题自第2页起的册从第2页打开；C物理情報工学2025与D物理情報2022–2024封面未写「2ページから」，核对第2页为设问后从第2页打开。J マテリアルデザイン科学的选修含化学系分野与物理情報工学系分野，按各年封面原样收录，不拆不删：2021年各组3问中选2，2022–2024年各组2问都答。排除数理科学、物理学、オープンシステムマネジメント（不在本附件）。不声明其他年度或全校齐全。",
+  "excluded": [
+    {
+      "area": "数理科学",
+      "count": 5,
+      "reason": "纯数学。文件夹4份（A…2021–2024）加根目录A数理科学2025.pdf。不在附件内，不入库，不建目录。"
+    },
+    {
+      "area": "物理学",
+      "count": 6,
+      "reason": "纯物理。文件夹5份（B…2021–2025）加根目录B物理学2025.pdf。不在附件内，不入库。根目录与文件夹内2025年文件大小同为316224字节，未下载，sha256未核对。"
+    },
+    {
+      "area": "オープンシステムマネジメント",
+      "count": 4,
+      "reason": "管理方向（O…2021–2024）。不在附件内，不入库，不建目录。"
+    }
+  ],
+  "ambiguities": [
+    "封面只有「YYYY年8月」，无入学年度、无具体日。yearBasis为exam，不写admissionYears和examDates，也不把次年4月入学写进去。",
+    "2025年字母重排，按封面分开、不合并：C物理情報工学（2021–2024为D物理情報）、G機械工学（2021–2024的G是マルチディシプリナリ・デザイン科学）、H電気情報工学（2021–2024的H是システム統合工学）、Iシステムデザイン工学（2021–2024的I是電気電子工学）。",
+    "边界／待确认：システム統合工学4册、マルチディシプリナリ・デザイン科学4册、システムデザイン工学2025。封面未写它们与机械、电气、信息的从属关系，不推断。",
+    "云盘无2021–2024年機械工学文件夹，只有G機械工学2025。不补。",
+    "2021年多为扫描／双页拼版。pdfinfo Pages与封面総ページ数：Hシステム統合4/8、Jマテリアル4/8、Gマルチ1/2、N情報3/6、D物理情報2/4约为一半；M応用力学5/9、I電気電子3/5不是整齐的一半。页数以实际PDF为准，这些册从第1页打开，不把封面页码换算成PDF页。",
+    "Jマテリアル2021渲染封面：J1必须；J2「化学系分野」与J3「物理情報工学系分野」各组3问，选一组再选2问。2022–2024文字层：各组2问，所选组两问都答。规则不同，不统一改写，不拆册。",
+    "Gマルチ2022–2024文字层分野名为半角「ﾏﾙﾁﾃﾞｨｼﾌﾟﾘﾅﾘ･ﾃﾞｻﾞｲﾝ科学」，渲染封面为全角「マルチディシプリナリ・デザイン科学」。目录用全角。2021年为扫描，文字层没有干净分野名。",
+    "C物理情報工学2025与D物理情報2022–2024封面写「問題は片面のみに印刷」，未写「2ページから」。核对PDF第2页为C1／D1后从第2页打开。",
+    "Gマルチ2021的G1要求用機械工学与デザイン科学的术语说明毕业研究，仍按封面分野收录，不改归机械。",
+    "根目录B物理学2025.pdf与物理学文件夹内B物理学2025.pdf大小同为316224，均已排除且未下载，不能确认是否同字节。",
+    "与已上线学校没有相同PDF字节。本包32个哈希各只有一条sourcePath。无解答册。"
+  ],
+  "files": [
+    {
+      "path": "assets/past-papers/documents/e63fb0dc714010e66dbbf9c98e00172bcc953578da840ab04abea34b1fbe48ad.pdf",
+      "originalName": "Jマテリアルデザイン科学2021.pdf",
+      "sha256": "e63fb0dc714010e66dbbf9c98e00172bcc953578da840ab04abea34b1fbe48ad",
+      "byteSize": 1560151,
+      "pages": 4,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/マテリアルデザイン科学/Jマテリアルデザイン科学2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-j-material-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": false,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/2694d7984d256002d156f159b059e39f914833be4622cc489c6a168acc5b5a1b.pdf",
+      "originalName": "Jマテリアルデザイン科学2022.pdf",
+      "sha256": "2694d7984d256002d156f159b059e39f914833be4622cc489c6a168acc5b5a1b",
+      "byteSize": 340028,
+      "pages": 6,
+      "pagesCoverClaim": 6,
+      "sourcePaths": [
+        "庆应义塾大学/マテリアルデザイン科学/Jマテリアルデザイン科学2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-j-material-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/e0b38107989b8a44ef652c322b392f8788c905a6692193c52d4f040db11b04ac.pdf",
+      "originalName": "Jマテリアルデザイン科学2023.pdf",
+      "sha256": "e0b38107989b8a44ef652c322b392f8788c905a6692193c52d4f040db11b04ac",
+      "byteSize": 478327,
+      "pages": 6,
+      "pagesCoverClaim": 6,
+      "sourcePaths": [
+        "庆应义塾大学/マテリアルデザイン科学/Jマテリアルデザイン科学2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-j-material-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/5230a5d3ff841862bb89090e8ad789e5a70a9abfad70b8bbf72ab598e799e34c.pdf",
+      "originalName": "Jマテリアルデザイン科学2024.pdf",
+      "sha256": "5230a5d3ff841862bb89090e8ad789e5a70a9abfad70b8bbf72ab598e799e34c",
+      "byteSize": 453366,
+      "pages": 6,
+      "pagesCoverClaim": 6,
+      "sourcePaths": [
+        "庆应义塾大学/マテリアルデザイン科学/Jマテリアルデザイン科学2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-j-material-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/b82157b9150638fda4135be8de93105f82d35ccb2cf955c0c35c5b32db936054.pdf",
+      "originalName": "M応用力学・計算力学2021.pdf",
+      "sha256": "b82157b9150638fda4135be8de93105f82d35ccb2cf955c0c35c5b32db936054",
+      "byteSize": 1505449,
+      "pages": 5,
+      "pagesCoverClaim": 9,
+      "sourcePaths": [
+        "庆应义塾大学/応用力学・計算力学/M応用力学・計算力学2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-m-applied-mechanics-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": false,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/e4b6402c274370561670a588dadc234ecb4079526c75dc0c1adb840198556706.pdf",
+      "originalName": "M応用力学・計算力学2022.pdf",
+      "sha256": "e4b6402c274370561670a588dadc234ecb4079526c75dc0c1adb840198556706",
+      "byteSize": 544485,
+      "pages": 9,
+      "pagesCoverClaim": 9,
+      "sourcePaths": [
+        "庆应义塾大学/応用力学・計算力学/M応用力学・計算力学2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-m-applied-mechanics-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/8127b544d98204705cb1cfcecb1e111caee1377bacc5373e75d0fd848dd69dda.pdf",
+      "originalName": "M応用力学・計算力学2023.pdf",
+      "sha256": "8127b544d98204705cb1cfcecb1e111caee1377bacc5373e75d0fd848dd69dda",
+      "byteSize": 726625,
+      "pages": 9,
+      "pagesCoverClaim": 9,
+      "sourcePaths": [
+        "庆应义塾大学/応用力学・計算力学/M応用力学・計算力学2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-m-applied-mechanics-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/9f97503c8e253a7f6475e523df5779b5775dbb91178faef665c285867d9aa2ee.pdf",
+      "originalName": "M応用力学・計算力学2024.pdf",
+      "sha256": "9f97503c8e253a7f6475e523df5779b5775dbb91178faef665c285867d9aa2ee",
+      "byteSize": 806983,
+      "pages": 9,
+      "pagesCoverClaim": 9,
+      "sourcePaths": [
+        "庆应义塾大学/応用力学・計算力学/M応用力学・計算力学2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-m-applied-mechanics-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/b462be2e14528991ca9900f2237011230a185dc3c77cfbe3d300ee4fb6797eae.pdf",
+      "originalName": "N情報工学2021.pdf",
+      "sha256": "b462be2e14528991ca9900f2237011230a185dc3c77cfbe3d300ee4fb6797eae",
+      "byteSize": 1070203,
+      "pages": 3,
+      "pagesCoverClaim": 6,
+      "sourcePaths": [
+        "庆应义塾大学/情報工学/N情報工学2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-n-information-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": false,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/f94fe0971a77787056df84f6538b92b2a458258bca63b5fb38a79e9343ff0837.pdf",
+      "originalName": "N情報工学2022.pdf",
+      "sha256": "f94fe0971a77787056df84f6538b92b2a458258bca63b5fb38a79e9343ff0837",
+      "byteSize": 256251,
+      "pages": 6,
+      "pagesCoverClaim": 6,
+      "sourcePaths": [
+        "庆应义塾大学/情報工学/N情報工学2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-n-information-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/98b3db6e9f042ce2c990204d87763917d6964e71bcf07b5744ea5402106e2a1e.pdf",
+      "originalName": "N情報工学2023.pdf",
+      "sha256": "98b3db6e9f042ce2c990204d87763917d6964e71bcf07b5744ea5402106e2a1e",
+      "byteSize": 422520,
+      "pages": 6,
+      "pagesCoverClaim": 6,
+      "sourcePaths": [
+        "庆应义塾大学/情報工学/N情報工学2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-n-information-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/d5bc003a00334bc2f1f1a1339ce1e5452cbbeb44be11e9b1fbadaa2735131823.pdf",
+      "originalName": "N情報工学2024.pdf",
+      "sha256": "d5bc003a00334bc2f1f1a1339ce1e5452cbbeb44be11e9b1fbadaa2735131823",
+      "byteSize": 496883,
+      "pages": 6,
+      "pagesCoverClaim": 6,
+      "sourcePaths": [
+        "庆应义塾大学/情報工学/N情報工学2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-n-information-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/5e1eac6029b96dcc9191830a0d8d2b5c9b9b4da2766192799a47767a51d4f2e6.pdf",
+      "originalName": "D物理情報2021.pdf",
+      "sha256": "5e1eac6029b96dcc9191830a0d8d2b5c9b9b4da2766192799a47767a51d4f2e6",
+      "byteSize": 604212,
+      "pages": 2,
+      "pagesCoverClaim": 4,
+      "sourcePaths": [
+        "庆应义塾大学/物理情報/D物理情報2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-d-physical-info-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": false,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/3bf8cbb1d7a550f1478bc339dee035b6d6ccd397ff99d6e20e0320cddd43dc6d.pdf",
+      "originalName": "D物理情報2022.pdf",
+      "sha256": "3bf8cbb1d7a550f1478bc339dee035b6d6ccd397ff99d6e20e0320cddd43dc6d",
+      "byteSize": 91011,
+      "pages": 4,
+      "pagesCoverClaim": 4,
+      "sourcePaths": [
+        "庆应义塾大学/物理情報/D物理情報2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-d-physical-info-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/61c8c792debc08bf344db3141a8bc5bbd4ea7889d6c850975075b8e10e80bd5f.pdf",
+      "originalName": "D物理情報2023.pdf",
+      "sha256": "61c8c792debc08bf344db3141a8bc5bbd4ea7889d6c850975075b8e10e80bd5f",
+      "byteSize": 95454,
+      "pages": 4,
+      "pagesCoverClaim": 4,
+      "sourcePaths": [
+        "庆应义塾大学/物理情報/D物理情報2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-d-physical-info-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/b444d1945ff4a6a5b05e16888b751d446b740b7cf6c72603c08a895c91f14635.pdf",
+      "originalName": "D物理情報2024.pdf",
+      "sha256": "b444d1945ff4a6a5b05e16888b751d446b740b7cf6c72603c08a895c91f14635",
+      "byteSize": 126864,
+      "pages": 4,
+      "pagesCoverClaim": 4,
+      "sourcePaths": [
+        "庆应义塾大学/物理情報/D物理情報2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-d-physical-info-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/c40b06f33ef1500825de2f60a592e469fbbbbdef7bb63f31ccca818bf9deb2fb.pdf",
+      "originalName": "I電気電子工学2021.pdf",
+      "sha256": "c40b06f33ef1500825de2f60a592e469fbbbbdef7bb63f31ccca818bf9deb2fb",
+      "byteSize": 1231115,
+      "pages": 3,
+      "pagesCoverClaim": 5,
+      "sourcePaths": [
+        "庆应义塾大学/電気電子工学/I電気電子工学2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-i-electrical-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": false,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/8cb82d8a6a0803b5a2f98531c19070620ef72746dd78ff728a7b229792a2070e.pdf",
+      "originalName": "I電気電子工学2022.pdf",
+      "sha256": "8cb82d8a6a0803b5a2f98531c19070620ef72746dd78ff728a7b229792a2070e",
+      "byteSize": 427418,
+      "pages": 5,
+      "pagesCoverClaim": 5,
+      "sourcePaths": [
+        "庆应义塾大学/電気電子工学/I電気電子工学2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-i-electrical-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/2a1eb63e62a70840b4ed19b7de0c456814c37719412c01ed7c52e0f5fdce8a37.pdf",
+      "originalName": "I電気電子工学2023.pdf",
+      "sha256": "2a1eb63e62a70840b4ed19b7de0c456814c37719412c01ed7c52e0f5fdce8a37",
+      "byteSize": 501714,
+      "pages": 5,
+      "pagesCoverClaim": 5,
+      "sourcePaths": [
+        "庆应义塾大学/電気電子工学/I電気電子工学2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-i-electrical-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/1ef828593d9f87532b5316b73d1eb077c7ba5f2ca500fdf5bfec98037c9e6946.pdf",
+      "originalName": "I電気電子工学2024.pdf",
+      "sha256": "1ef828593d9f87532b5316b73d1eb077c7ba5f2ca500fdf5bfec98037c9e6946",
+      "byteSize": 308743,
+      "pages": 5,
+      "pagesCoverClaim": 5,
+      "sourcePaths": [
+        "庆应义塾大学/電気電子工学/I電気電子工学2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-i-electrical-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/35876835304e0b425951c202f49db40876d343299b39f4bfcd7457534a423dba.pdf",
+      "originalName": "C物理情報工学2025.pdf",
+      "sha256": "35876835304e0b425951c202f49db40876d343299b39f4bfcd7457534a423dba",
+      "byteSize": 104882,
+      "pages": 4,
+      "pagesCoverClaim": 4,
+      "sourcePaths": [
+        "庆应义塾大学/C物理情報工学2025.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-c-physical-info-2025",
+      "paperYear": 2025,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/99cdc73319407d875b3388f4c821c22cfa5edc74b48647c97f5f5783f1afcc60.pdf",
+      "originalName": "G機械工学2025.pdf",
+      "sha256": "99cdc73319407d875b3388f4c821c22cfa5edc74b48647c97f5f5783f1afcc60",
+      "byteSize": 728174,
+      "pages": 10,
+      "pagesCoverClaim": 10,
+      "sourcePaths": [
+        "庆应义塾大学/G機械工学2025.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-g-mechanical-2025",
+      "paperYear": 2025,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/7197b090742fc2ef4e087a219633b22792568b99c77db18c999ce6d21ea7a85c.pdf",
+      "originalName": "H電気情報工学2025.pdf",
+      "sha256": "7197b090742fc2ef4e087a219633b22792568b99c77db18c999ce6d21ea7a85c",
+      "byteSize": 734973,
+      "pages": 5,
+      "pagesCoverClaim": 5,
+      "sourcePaths": [
+        "庆应义塾大学/H電気情報工学2025.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-h-electrical-info-2025",
+      "paperYear": 2025,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/91f6169938b612f5861a46f8db64810ff0d305076bf924de7dc2605ccc9e8f31.pdf",
+      "originalName": "Hシステム統合工学2021.pdf",
+      "sha256": "91f6169938b612f5861a46f8db64810ff0d305076bf924de7dc2605ccc9e8f31",
+      "byteSize": 1505149,
+      "pages": 4,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/システム統合工学/Hシステム統合工学2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-h-system-integration-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": true,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/1a7cd9d54b4bbb6ba65c95d82d6fd2bd25c109be5781eb268b6cd083f3fa276e.pdf",
+      "originalName": "Hシステム統合工学2022.pdf",
+      "sha256": "1a7cd9d54b4bbb6ba65c95d82d6fd2bd25c109be5781eb268b6cd083f3fa276e",
+      "byteSize": 820516,
+      "pages": 8,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/システム統合工学/Hシステム統合工学2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-h-system-integration-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": true,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/600d09c3b268843d92ee87d2e6be0c99091c89abf7a12b87da78c843de8b2ba5.pdf",
+      "originalName": "Hシステム統合工学2023.pdf",
+      "sha256": "600d09c3b268843d92ee87d2e6be0c99091c89abf7a12b87da78c843de8b2ba5",
+      "byteSize": 1034755,
+      "pages": 8,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/システム統合工学/Hシステム統合工学2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-h-system-integration-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": true,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/2588e5eb37e71d042fe707a4015256672e9e11f487d6d4daa2133341164e52a4.pdf",
+      "originalName": "Hシステム統合工学2024.pdf",
+      "sha256": "2588e5eb37e71d042fe707a4015256672e9e11f487d6d4daa2133341164e52a4",
+      "byteSize": 686600,
+      "pages": 8,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/システム統合工学/Hシステム統合工学2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-h-system-integration-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": true,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/f5dcf9e671c27025cf9d26b127ed1fa2e7a9d64f3fba5cf445862e6593e79c27.pdf",
+      "originalName": "Gマルチディシプリナリデザイン科学2021.pdf",
+      "sha256": "f5dcf9e671c27025cf9d26b127ed1fa2e7a9d64f3fba5cf445862e6593e79c27",
+      "byteSize": 162298,
+      "pages": 1,
+      "pagesCoverClaim": 2,
+      "sourcePaths": [
+        "庆应义塾大学/マルチディシプリナリ・デザイン科学/Gマルチディシプリナリデザイン科学2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-g-multidisciplinary-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": true,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/06c9a5f3a52bbab6f23594f22f2d9e64c47771ff6c3a0957d19dc4afd0396f40.pdf",
+      "originalName": "Gマルチディシプリナリデザイン科学2022.pdf",
+      "sha256": "06c9a5f3a52bbab6f23594f22f2d9e64c47771ff6c3a0957d19dc4afd0396f40",
+      "byteSize": 329517,
+      "pages": 4,
+      "pagesCoverClaim": 4,
+      "sourcePaths": [
+        "庆应义塾大学/マルチディシプリナリ・デザイン科学/Gマルチディシプリナリデザイン科学2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-g-multidisciplinary-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": true,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/5e919c5edb55a69819f5edbb2535dc39f15afb60dbdb5ac01d454103c25740cf.pdf",
+      "originalName": "Gマルチディシプリナリデザイン科学2023.pdf",
+      "sha256": "5e919c5edb55a69819f5edbb2535dc39f15afb60dbdb5ac01d454103c25740cf",
+      "byteSize": 336049,
+      "pages": 4,
+      "pagesCoverClaim": 4,
+      "sourcePaths": [
+        "庆应义塾大学/マルチディシプリナリ・デザイン科学/Gマルチディシプリナリデザイン科学2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-g-multidisciplinary-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": true,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/28b5b7ce44ada68e5dece4ce802641c0d3f1dfe41d2ab8037d3037a33489edd8.pdf",
+      "originalName": "Gマルチディシプリナリデザイン科学2024.pdf",
+      "sha256": "28b5b7ce44ada68e5dece4ce802641c0d3f1dfe41d2ab8037d3037a33489edd8",
+      "byteSize": 435051,
+      "pages": 6,
+      "pagesCoverClaim": 6,
+      "sourcePaths": [
+        "庆应义塾大学/マルチディシプリナリ・デザイン科学/Gマルチディシプリナリデザイン科学2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-g-multidisciplinary-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": true,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/8e5952da9bea7ebe6e55b32b495e3e886c3f20e8a20dc475727a63500a9c8859.pdf",
+      "originalName": "Iシステムデザイン工学2025.pdf",
+      "sha256": "8e5952da9bea7ebe6e55b32b495e3e886c3f20e8a20dc475727a63500a9c8859",
+      "byteSize": 1354789,
+      "pages": 12,
+      "pagesCoverClaim": 12,
+      "sourcePaths": [
+        "庆应义塾大学/Iシステムデザイン工学2025.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-i-system-design-2025",
+      "paperYear": 2025,
+      "startPage": 2,
+      "boundary": true,
+      "readMethod": "pdftotext-p1"
+    }
+  ]
+}
