@@ -1,6 +1,6 @@
 (function(root){'use strict';const data={
   "version": 2,
-  "importedAt": "2026-10-14",
+  "importedAt": "2026-10-15",
   "papers": [
     {
       "id": "waseda-de3870f916a18dec",
@@ -7392,6 +7392,851 @@
       ],
       "dateEvidence": "professional-cover",
       "sourceURL": "https://www.csi.kobe-u.ac.jp/exam/master/2024/202501master_exam.html"
+    },
+    {
+      "id": "hokkaido-applied-physics-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 応用物理学専攻",
+      "graduateSchool": "工学院",
+      "department": "応用物理学専攻",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年4月入学／2024年10月入学",
+      "admissionYears": [
+        2024,
+        2025
+      ],
+      "subjects": [
+        "応用数学Ⅰ",
+        "力学",
+        "電磁気学",
+        "応用数学Ⅱ",
+        "熱・統計力学",
+        "量子力学"
+      ],
+      "files": [
+        {
+          "label": "試験問題（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0fb9a6af1003425c27d5d2ab040d110a6afd9d97eeebf696992951ea797422c6.pdf",
+          "originalName": "exam2025a.pdf",
+          "sha256": "0fb9a6af1003425c27d5d2ab040d110a6afd9d97eeebf696992951ea797422c6",
+          "byteSize": 327317,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/工学研究科/应用物理学/exam2025a.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 问题Ⅰ见PDF第1—3页，问题Ⅱ见第4—6页。未随卷提供解答。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20"
+      ],
+      "sourceURL": "https://www.eng.hokudai.ac.jp/graduate/examinfo/test/"
+    },
+    {
+      "id": "hokkaido-mechanical-aerospace-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 機械・宇宙航空工学系研究室群（共通問題）",
+      "graduateSchool": "工学院",
+      "department": "機械・宇宙航空工学系研究室群（共通問題）",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "source-filename-and-exam-cover",
+      "originalYear": "2025年度（原文件exam2025c1；2024-08-20実施）",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "材料力学",
+        "機械力学・制御工学",
+        "流体力学",
+        "熱力学"
+      ],
+      "files": [
+        {
+          "label": "試験問題（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1610fc64a13a012f8f640f98c03b53f7a1870854cc6323f71f31e8a5b901c98d.pdf",
+          "originalName": "exam2025c1.pdf",
+          "sha256": "1610fc64a13a012f8f640f98c03b53f7a1870854cc6323f71f31e8a5b901c98d",
+          "byteSize": 468007,
+          "pages": 13,
+          "sourcePaths": [
+            "北海道大学/工学研究科/机械宇宙航空工学/exam2025c1.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 这是跨专攻的研究室群共通卷，封面列出機械宇宙工学専攻、人間機械システムデザイン専攻、エネルギー環境システム専攻、量子理工学専攻；不把研究室群当作独立专攻，也不为每个专攻重复建卷。2025年度原合册13页，下午卷封面在第8页。未随卷提供解答。机械共通卷封面只印考试日期，年度依据原文件及学校过去问年度目录；未从该封面补推10月入学。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20"
+      ],
+      "sourceURL": "https://www.eng.hokudai.ac.jp/graduate/examinfo/test/"
+    },
+    {
+      "id": "hokkaido-applied-quantum-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 応用量子科学系研究室群（共通問題）",
+      "graduateSchool": "工学院",
+      "department": "応用量子科学系研究室群（共通問題）",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年4月入学／2024年10月入学",
+      "admissionYears": [
+        2024,
+        2025
+      ],
+      "subjects": [
+        "応用数学",
+        "電磁気学",
+        "材料科学",
+        "原子物理・原子炉工学"
+      ],
+      "files": [
+        {
+          "label": "試験問題（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/17386a06c151f31c8088543857333cb9a503d5ad35e36202ab4cb75c4b98cbff.pdf",
+          "originalName": "exam2025c2.pdf",
+          "sha256": "17386a06c151f31c8088543857333cb9a503d5ad35e36202ab4cb75c4b98cbff",
+          "byteSize": 668904,
+          "pages": 20,
+          "sourcePaths": [
+            "北海道大学/工学研究科/应用量子科学/exam2025c2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 这是跨专攻的研究室群共通卷，封面列出機械宇宙工学専攻、人間機械システムデザイン専攻、エネルギー環境システム専攻、量子理工学専攻；不把研究室群当作独立专攻，也不为每个专攻重复建卷。応用数学题从第2页起，专业选择科目从第7页起；按2025年度原题保留電磁気学／材料科学科目名。未随卷提供解答。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20"
+      ],
+      "sourceURL": "https://www.eng.hokudai.ac.jp/graduate/examinfo/test/"
+    },
+    {
+      "id": "hokkaido-applied-physics-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 応用物理学専攻",
+      "graduateSchool": "工学院",
+      "department": "応用物理学専攻",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年4月入学／2025年10月入学",
+      "admissionYears": [
+        2025,
+        2026
+      ],
+      "subjects": [
+        "応用数学Ⅰ",
+        "力学",
+        "電磁気学",
+        "応用数学Ⅱ",
+        "熱・統計力学",
+        "量子力学"
+      ],
+      "files": [
+        {
+          "label": "試験問題（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/21f41c94132b3bb1c0b2d645baddf4d226cbe4f161c5739e4de59b7df9f21c78.pdf",
+          "originalName": "exam2026a_1.pdf",
+          "sha256": "21f41c94132b3bb1c0b2d645baddf4d226cbe4f161c5739e4de59b7df9f21c78",
+          "byteSize": 467879,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/工学研究科/应用物理学/exam2026a_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出题意图／出題の意図（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/fe7bcd64bb17138a2a651e5c27214d9c8729870774f41151e18fe8a63387e297.pdf",
+          "originalName": "exam2026a_2.pdf",
+          "sha256": "fe7bcd64bb17138a2a651e5c27214d9c8729870774f41151e18fe8a63387e297",
+          "byteSize": 154109,
+          "pages": 1,
+          "sourcePaths": [
+            "北海道大学/工学研究科/应用物理学/exam2026a_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 问题Ⅰ见PDF第1—3页，问题Ⅱ见第4—6页。另附1页出题意图，属于说明资料，不是解答。未随卷提供解答。",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19"
+      ],
+      "sourceURL": "https://www.eng.hokudai.ac.jp/graduate/examinfo/test/"
+    },
+    {
+      "id": "hokkaido-mechanical-aerospace-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 機械・宇宙航空工学系研究室群（共通問題）",
+      "graduateSchool": "工学院",
+      "department": "機械・宇宙航空工学系研究室群（共通問題）",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "source-filename-and-exam-cover",
+      "originalYear": "2026年度（原文件exam2026c1；2025-08-19実施）",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "材料力学",
+        "機械力学・制御工学",
+        "流体力学",
+        "熱力学"
+      ],
+      "files": [
+        {
+          "label": "試験問題（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/062f1bd2675880d33e0baa3da1a3eba862c0876bf02c367bda63cc573b6dacc2.pdf",
+          "originalName": "exam2026c1_1.pdf",
+          "sha256": "062f1bd2675880d33e0baa3da1a3eba862c0876bf02c367bda63cc573b6dacc2",
+          "byteSize": 492378,
+          "pages": 19,
+          "sourcePaths": [
+            "北海道大学/工学研究科/机械宇宙航空工学/exam2026c1_1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "出题意图／出題の意図（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/1c9ac2cd973eeee099ba1028da2b6420e561257b34c2862488bc91d224c1b781.pdf",
+          "originalName": "exam2026c1_2.pdf",
+          "sha256": "1c9ac2cd973eeee099ba1028da2b6420e561257b34c2862488bc91d224c1b781",
+          "byteSize": 154390,
+          "pages": 1,
+          "sourcePaths": [
+            "北海道大学/工学研究科/机械宇宙航空工学/exam2026c1_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 这是跨专攻的研究室群共通卷，封面列出機械宇宙工学専攻、人間機械システムデザイン専攻、エネルギー環境システム専攻、量子理工学専攻；不把研究室群当作独立专攻，也不为每个专攻重复建卷。2026年度原合册19页；下午卷封面在第7页。第13—19页为附带订正后的上午卷，第15页是「問題訂正」；全部保留，阅读时请同时核对订正。另附1页出题意图，属于说明资料，不是解答。未随卷提供解答。机械共通卷封面只印考试日期，年度依据原文件及学校过去问年度目录；未从该封面补推10月入学。",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19"
+      ],
+      "sourceURL": "https://www.eng.hokudai.ac.jp/graduate/examinfo/test/"
+    },
+    {
+      "id": "hokkaido-applied-quantum-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 応用量子科学系研究室群（共通問題）",
+      "graduateSchool": "工学院",
+      "department": "応用量子科学系研究室群（共通問題）",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年4月入学／2025年10月入学",
+      "admissionYears": [
+        2025,
+        2026
+      ],
+      "subjects": [
+        "応用数学",
+        "電磁気学・電気回路",
+        "材料科学・物理化学",
+        "原子物理・原子炉工学"
+      ],
+      "files": [
+        {
+          "label": "試験問題（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6db8e6735ae60ef4d56378e39a09d3f1da5cbadde185fc8079bc2da5817d9f34.pdf",
+          "originalName": "exam2026c2_1.pdf",
+          "sha256": "6db8e6735ae60ef4d56378e39a09d3f1da5cbadde185fc8079bc2da5817d9f34",
+          "byteSize": 517604,
+          "pages": 18,
+          "sourcePaths": [
+            "北海道大学/工学研究科/应用量子科学/exam2026c2_1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "出题意图／出題の意図（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/8d1365d0170f8628bd97e716d50706bd8161ea8f5ae075b15b20c643991c476a.pdf",
+          "originalName": "exam2026c2_2.pdf",
+          "sha256": "8d1365d0170f8628bd97e716d50706bd8161ea8f5ae075b15b20c643991c476a",
+          "byteSize": 154564,
+          "pages": 1,
+          "sourcePaths": [
+            "北海道大学/工学研究科/应用量子科学/exam2026c2_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 这是跨专攻的研究室群共通卷，封面列出機械宇宙工学専攻、人間機械システムデザイン専攻、エネルギー環境システム専攻、量子理工学専攻；不把研究室群当作独立专攻，也不为每个专攻重复建卷。応用数学题从第2页起，专业选择科目从第7页起；保留2026年度電磁気学・電気回路／材料科学・物理化学名称，第18页为科目选择票。另附1页出题意图，属于说明资料，不是解答。未随卷提供解答。",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19"
+      ],
+      "sourceURL": "https://www.eng.hokudai.ac.jp/graduate/examinfo/test/"
+    },
+    {
+      "id": "hokkaido-csit-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 情報科学専攻／情報理工学コース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報理工学コース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和7年度修士課程入学試験問題（令和6年8月実施）",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "基礎数学",
+        "アルゴリズムとデータ構造"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c7faa8408bd738a8a6e3641ac950cfe111cd17e74d021491d177043551ac3ccc.pdf",
+          "originalName": "csit01_2024.pdf",
+          "sha256": "c7faa8408bd738a8a6e3641ac950cfe111cd17e74d021491d177043551ac3ccc",
+          "byteSize": 1156205,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/情报科学院/情报理工学/csit01_2024.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/85c1f252539b5fa058bead40bda9e32017474f5ea6ad281a45a7824c8d5ea805.pdf",
+          "originalName": "csit02_2024.pdf",
+          "sha256": "85c1f252539b5fa058bead40bda9e32017474f5ea6ad281a45a7824c8d5ea805",
+          "byteSize": 1827315,
+          "pages": 10,
+          "sourcePaths": [
+            "北海道大学/情报科学院/情报理工学/csit02_2024.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2025入学年度。这两份封面未印具体考试日期，只记录由官方年度目录核对的实施年份与月份，不补推某一天。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2024,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_LY.html"
+    },
+    {
+      "id": "hokkaido-joele-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 情報科学専攻／情報エレクトロニクスコース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報エレクトロニクスコース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和7年度修士課程入学試験問題（令和6年8月実施）",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学",
+        "ディジタル回路"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8a9a35e29847ac6245edb1679206d9a38815e5ce8b3f1bda1b4f561c0ac0ed5d.pdf",
+          "originalName": "joele01_2024.pdf",
+          "sha256": "8a9a35e29847ac6245edb1679206d9a38815e5ce8b3f1bda1b4f561c0ac0ed5d",
+          "byteSize": 222253,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/情报科学院/情报电子/joele01_2024.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b1b4bfe11da537caf1af0e8e589e01112548d73160a9b6fbcca727e8fbc7ca36.pdf",
+          "originalName": "joele02_2024.pdf",
+          "sha256": "b1b4bfe11da537caf1af0e8e589e01112548d73160a9b6fbcca727e8fbc7ca36",
+          "byteSize": 232006,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/情报科学院/情报电子/joele02_2024.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2025入学年度。实际笔试日期据封面为2024-08-27。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2024,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_LY.html",
+      "examDates": [
+        "2024-08-27"
+      ]
+    },
+    {
+      "id": "hokkaido-seitai-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 情報科学専攻／生体情報工学コース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／生体情報工学コース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和7年度修士課程入学試験問題（令和6年8月実施）",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "小論文",
+        "微分方程式"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e1ddb9e1098c9f4a53f1b37a0932ee26b0c170fbc521a2a7f2cbc8b35d87dc04.pdf",
+          "originalName": "seitai01_2024.pdf",
+          "sha256": "e1ddb9e1098c9f4a53f1b37a0932ee26b0c170fbc521a2a7f2cbc8b35d87dc04",
+          "byteSize": 973288,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/情报科学院/生体情报工学/seitai01_2024.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5f18eb74f62e9be5a0307cef68e752286aa8b72e7ae854d219d0d6f5165c0355.pdf",
+          "originalName": "seitai02_2024.pdf",
+          "sha256": "5f18eb74f62e9be5a0307cef68e752286aa8b72e7ae854d219d0d6f5165c0355",
+          "byteSize": 1152425,
+          "pages": 9,
+          "sourcePaths": [
+            "北海道大学/情报科学院/生体情报工学/seitai02_2024.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2025入学年度。实际笔试日期据封面为2024-08-27。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2024,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_LY.html",
+      "examDates": [
+        "2024-08-27"
+      ]
+    },
+    {
+      "id": "hokkaido-mn-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 情報科学専攻／メディアネットワークコース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／メディアネットワークコース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和7年度修士課程入学試験問題（令和6年8月実施）",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学",
+        "コンピュータ工学",
+        "画像処理"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d49555c8ddc678370d821945587bfbbfdecb506d44853ef2c71cbede343f9722.pdf",
+          "originalName": "mn01_2024.pdf",
+          "sha256": "d49555c8ddc678370d821945587bfbbfdecb506d44853ef2c71cbede343f9722",
+          "byteSize": 465106,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/情报科学院/媒体网络/mn01_2024.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ef1e755390e6b5237f097f5defc2ce4e9206ec54a50a6209ee5d6846a794d8d3.pdf",
+          "originalName": "mn02_2024.pdf",
+          "sha256": "ef1e755390e6b5237f097f5defc2ce4e9206ec54a50a6209ee5d6846a794d8d3",
+          "byteSize": 805460,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/情报科学院/媒体网络/mn02_2024.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2025入学年度。实际笔试日期据封面为2024-08-27。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2024,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_LY.html",
+      "examDates": [
+        "2024-08-27"
+      ]
+    },
+    {
+      "id": "hokkaido-sys-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 情報科学専攻／システム情報科学コース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／システム情報科学コース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和7年度修士課程入学試験問題（令和6年8月実施）",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学",
+        "力学"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2923827d2ec61ea7244796db28f1baa2279b6716957e853ee450b14614d6322f.pdf",
+          "originalName": "sys01_2024.pdf",
+          "sha256": "2923827d2ec61ea7244796db28f1baa2279b6716957e853ee450b14614d6322f",
+          "byteSize": 758905,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/情报科学院/媒体网络/sys01_2024.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/df8251a00499435ef85576afefafe4e2be54e6c564d2408abe8520c528df0aca.pdf",
+          "originalName": "sys02_2024.pdf",
+          "sha256": "df8251a00499435ef85576afefafe4e2be54e6c564d2408abe8520c528df0aca",
+          "byteSize": 931283,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/情报科学院/媒体网络/sys02_2024.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2025入学年度。两份2024实施卷在云盘“媒体网络”目录中，但封面明确为システム情報科学コース，已按卷面归类；原路径保留。实际笔试日期据封面为2024-08-27。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2024,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_LY.html",
+      "examDates": [
+        "2024-08-27"
+      ]
+    },
+    {
+      "id": "hokkaido-csit-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 情報科学専攻／情報理工学コース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報理工学コース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和8年度修士課程入学試験問題（令和7年8月実施）",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "基礎数学",
+        "アルゴリズムとデータ構造"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/09c7ccf47b4086c0f9dcc7e1eedfcaa6d942b1e78bdcd29d00d110f8f342c986.pdf",
+          "originalName": "csit01_2025.pdf",
+          "sha256": "09c7ccf47b4086c0f9dcc7e1eedfcaa6d942b1e78bdcd29d00d110f8f342c986",
+          "byteSize": 208954,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/情报科学院/情报理工学/csit01_2025.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f94d81f5ef9489382a28651927c0fbc8eacba262a3e855a7d54e448410d991a1.pdf",
+          "originalName": "csit02_2025.pdf",
+          "sha256": "f94d81f5ef9489382a28651927c0fbc8eacba262a3e855a7d54e448410d991a1",
+          "byteSize": 500419,
+          "pages": 12,
+          "sourcePaths": [
+            "北海道大学/情报科学院/情报理工学/csit02_2025.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2026入学年度。这两份封面未印具体考试日期，只记录由官方年度目录核对的实施年份与月份，不补推某一天。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2025,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_TY.html"
+    },
+    {
+      "id": "hokkaido-joele-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 情報科学専攻／情報エレクトロニクスコース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報エレクトロニクスコース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和8年度修士課程入学試験問題（令和7年8月実施）",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学",
+        "ディジタル回路"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/08a48e4bb928d30a188332f6d673b55d793901d927ac90127b87b5c7d3ca9873.pdf",
+          "originalName": "joele01_2025.pdf",
+          "sha256": "08a48e4bb928d30a188332f6d673b55d793901d927ac90127b87b5c7d3ca9873",
+          "byteSize": 637789,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/情报科学院/情报电子/joele01_2025.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a87442185ce3b39407ad1125eacbf77a64dd92eb186e302827886ec19be222ba.pdf",
+          "originalName": "joele02_2025.pdf",
+          "sha256": "a87442185ce3b39407ad1125eacbf77a64dd92eb186e302827886ec19be222ba",
+          "byteSize": 720709,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/情报科学院/情报电子/joele02_2025.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2026入学年度。实际笔试日期据封面为2025-08-25。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2025,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_TY.html",
+      "examDates": [
+        "2025-08-25"
+      ]
+    },
+    {
+      "id": "hokkaido-seitai-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 情報科学専攻／生体情報工学コース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／生体情報工学コース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和8年度修士課程入学試験問題（令和7年8月実施）",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "小論文",
+        "微分方程式"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7079b692be7bf26f1d158b85724c4c963cdc3a26013e26b5e9c8ad27143cf49e.pdf",
+          "originalName": "seitai01_2025.pdf",
+          "sha256": "7079b692be7bf26f1d158b85724c4c963cdc3a26013e26b5e9c8ad27143cf49e",
+          "byteSize": 252447,
+          "pages": 12,
+          "sourcePaths": [
+            "北海道大学/情报科学院/生体情报工学/seitai01_2025.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/40a04d6c41e667a23e3836a76f277b18e1fc4c73381464fa9bd2acb4ef028cf6.pdf",
+          "originalName": "seitai02_2025.pdf",
+          "sha256": "40a04d6c41e667a23e3836a76f277b18e1fc4c73381464fa9bd2acb4ef028cf6",
+          "byteSize": 303370,
+          "pages": 12,
+          "sourcePaths": [
+            "北海道大学/情报科学院/生体情报工学/seitai02_2025.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2026入学年度。实际笔试日期据封面为2025-08-25。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2025,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_TY.html",
+      "examDates": [
+        "2025-08-25"
+      ]
+    },
+    {
+      "id": "hokkaido-mn-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 情報科学専攻／メディアネットワークコース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／メディアネットワークコース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和8年度修士課程入学試験問題（令和7年8月実施）",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学",
+        "コンピュータ工学",
+        "画像処理"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4d074e0340b6dc9182eb27d6ada314f9d3a8045dcab2d9e850cbfddfbd7679c1.pdf",
+          "originalName": "mn01_2025.pdf",
+          "sha256": "4d074e0340b6dc9182eb27d6ada314f9d3a8045dcab2d9e850cbfddfbd7679c1",
+          "byteSize": 450909,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/情报科学院/媒体网络/mn01_2025.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/265808a6b3c1f978969d9a1c9ed17c2795732e7ecedb691c2a8602c69abdfb95.pdf",
+          "originalName": "mn02_2025.pdf",
+          "sha256": "265808a6b3c1f978969d9a1c9ed17c2795732e7ecedb691c2a8602c69abdfb95",
+          "byteSize": 323643,
+          "pages": 8,
+          "sourcePaths": [
+            "北海道大学/情报科学院/媒体网络/mn02_2025.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2026入学年度。实际笔试日期据封面为2025-08-25。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2025,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_TY.html",
+      "examDates": [
+        "2025-08-25"
+      ]
+    },
+    {
+      "id": "hokkaido-sys-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 情報科学専攻／システム情報科学コース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／システム情報科学コース",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "official-year-index-and-cover",
+      "originalYear": "令和8年度修士課程入学試験問題（令和7年8月実施）",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学",
+        "力学"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/94010174d693a1637b68f2ae9355f073a553f8157e59fd334fd9f8fe33504ab3.pdf",
+          "originalName": "sys01_2025.pdf",
+          "sha256": "94010174d693a1637b68f2ae9355f073a553f8157e59fd334fd9f8fe33504ab3",
+          "byteSize": 174974,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/情报科学院/系统情报科学/sys01_2025.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/39330abe02b6f6c679b734d3a6b13dbba99b847adb05f1b5a1308dbe10107f66.pdf",
+          "originalName": "sys02_2025.pdf",
+          "sha256": "39330abe02b6f6c679b734d3a6b13dbba99b847adb05f1b5a1308dbe10107f66",
+          "byteSize": 224064,
+          "pages": 8,
+          "sourcePaths": [
+            "北海道大学/情报科学院/系统情报科学/sys02_2025.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 情報科学専攻下的课程，按课程分别配对専門科目1／2；科目标签仅列题群及已核对的部分题目名，完整选答规则见原卷。文件名后缀为实施年，官方过去问目录明确对应2026入学年度。实际笔试日期据封面为2025-08-25。完整封面、空白页和扫描内容保留；未随卷提供解答。",
+      "examYear": 2025,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/mondai_TY.html",
+      "examDates": [
+        "2025-08-25"
+      ]
     }
   ],
   "schoolNotes": {
@@ -7418,6 +8263,9 @@
     },
     "kobe": {
       "text": "本校新增12组／45个试题PDF：电气电子2024—2026入学年度；机械2019（平成31）、2020、2021、2023—2025年度，仅数学与生産工学・制御工学；系统信息2025年度三期，实际笔试为2024-08-22、2024-11-27、2025-01-22。均保留原件，未提供解答。不声明机械全科目或所有年份齐全。学部「志」特别选拔及纯数学／纯物理专属目录不录入修士题库。"
+    },
+    "hokkaido": {
+      "text": "本校16组／29个PDF：26个问题原卷及3个出题意图（非解答），按2025、2026入学年度索引。工学院含応用物理学専攻、機械・宇宙航空工学系及応用量子科学系共通卷；两个研究室群跨4专攻，不视为独立专攻。情報科学院为情報科学専攻5课程，各有専門科目1／2；文件后缀2024、2025是实施年。云盘媒体网络内的2024系统信息卷已据封面归回系统信息。机械2026合册订正页完整保留。未提供解答，不声明其他年度或全校专业齐全；纯数学／纯物理、宇宙理学、自然史及环境专属目录按既定范围排除。"
     }
   }
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);

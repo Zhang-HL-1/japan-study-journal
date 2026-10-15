@@ -130,7 +130,7 @@
 
 ## 过去问题库与刷题入口
 
-- [过去问题库](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html)：现有23所大学的学校索引；已收录早大35组／41个PDF、东理61组／121个PDF，加上东科33组、上智6个题群入口／4个PDF，再加神户12组／45个PDF，共147组／260个原卷及补充PDF（含早期部分资料），另附1个待核验照片PDF。
+- [过去问题库](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html)：现有23所大学的学校索引；已收录早大35组／41个PDF、东理61组／121个PDF，加上东科33组、上智6个题群入口／4个PDF，再加神户12组／45个PDF、北海道16组／29个PDF，共163组／289个原卷及补充PDF（含早期部分资料），另附1个待核验照片PDF。
 - [刷题练习](https://zhang-hl-1.github.io/japan-study-journal/drill.html)：原有刷题功能与浏览器学习记录继续使用。
 - 原卷添加格式、PDF存放位置和模块说明见 [docs/study-room.md](docs/study-room.md)。过去问目录位于 `past-papers-data.js`，独立于 `questions.js`，原卷目录已加入早大、东理、东科、上智与神户资料，逐题刷题库仍为空。
 
