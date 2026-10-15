@@ -7,9 +7,9 @@ test('Kyushu keeps 16 original PDFs and 28 groups without answers',()=>{
  assert.equal(manifest.files.reduce((n,f)=>n+f.pages,0),646);assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,16);
  for(const f of manifest.files){const b=fs.readFileSync(path.join(root,f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.equal(f.kind,'question');assert.ok(f.startPage<=f.pages);assert.ok(f.sourcePaths.every(p=>p.startsWith('九州大学/')));}
  for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.equal(p.yearBasis,'academic');assert.equal(p.yearEvidence,'cover');assert.equal(p.dateEvidence,'cover');assert.deepEqual(p.admissionYears,[p.paperYear]);assert.equal(p.examYear,Number(p.examDates[0].slice(0,4)));assert.ok(!p.files.some(f=>f.kind==='answer'));for(const f of p.files){assert.ok(f.startPage<=(f.endPage||f.pages)&&f.endPage<=f.pages);assert.match(core.fileURL(f),new RegExp('#page='+f.startPage+'$'));}}
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.universityId!=='kyushu'))).digest('hex'),'89c0ce98537ddc5d4cb5091e97ce8d34cbe36a5f5d702e4329a7d17644a68fba');
- const notes={...data.schoolNotes};delete notes.kyushu;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'520c255ea633ef9f0449333a4f53325296f7928b498e92e78dfe28f22cb5db61');
- const others=data.papers.filter(p=>p.universityId!=='kyushu');
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.universityId!=='kyushu'&&p.universityId!=='tohoku'))).digest('hex'),'89c0ce98537ddc5d4cb5091e97ce8d34cbe36a5f5d702e4329a7d17644a68fba');
+ const notes={...data.schoolNotes};delete notes.kyushu;delete notes.tohoku;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'520c255ea633ef9f0449333a4f53325296f7928b498e92e78dfe28f22cb5db61');
+ const others=data.papers.filter(p=>p.universityId!=='kyushu'&&p.universityId!=='tohoku');
  assert.equal(others.length,292);assert.ok(!others.some(p=>p.universityId==='kyushu'));
  assert.match(data.schoolNotes.kyushu.text,/28组／16个PDF/);assert.match(data.schoolNotes.kyushu.text,/システム情報科学府/);assert.match(data.schoolNotes.kyushu.text,/理工学専攻/);assert.match(data.schoolNotes.kyushu.text,/上智大学/);
 });
