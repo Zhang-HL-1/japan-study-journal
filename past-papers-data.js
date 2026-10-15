@@ -11958,6 +11958,2685 @@
       "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。文件在工学／网络。第1页是基礎V订正。基礎封面第2页，2024年8月20日13:30–16:30，基礎I–V全答，设问从第3页打开。専門封面第15页，2024年8月21日9:00–12:00；専門I必答，専門II-1至II-6中选2。末页口頭試問印「エネルギー理工学，総合エネルギー工学」和一般選抜；専攻名用与2025专业封面相同的「専攻」全称。题册内页未再印研究科名。不含2025年苯题那份解答例。"
     },
     {
+      "id": "osaka-ee-basic-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 電気電子情報通信工学専攻（基礎科目共通）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻（基礎科目共通）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度博士前期課程入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "基礎科目",
+        "数学",
+        "電磁理論",
+        "電気電子回路"
+      ],
+      "files": [
+        {
+          "label": "基礎科目（共通原卷）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4451d8fbdb4035756ed0091a44b204dc2854463afbe265ad61035870abe0a260.pdf",
+          "originalName": "2021 basic.pdf",
+          "sha256": "4451d8fbdb4035756ed0091a44b204dc2854463afbe265ad61035870abe0a260",
+          "byteSize": 2046089,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学/工学/電気電子情報通信工学専攻/2021 basic.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+      "completeness": "partial"
+    },
+    {
+      "id": "osaka-ee-basic-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 電気電子情報通信工学専攻（基礎科目共通）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻（基礎科目共通）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度博士前期課程入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "基礎科目",
+        "数学",
+        "電磁理論",
+        "電気電子回路"
+      ],
+      "files": [
+        {
+          "label": "基礎科目（共通原卷）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505.pdf",
+          "originalName": "2022 basic.pdf",
+          "sha256": "6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505",
+          "byteSize": 12541113,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学/工学/電気電子情報通信工学専攻/2022 basic.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+      "completeness": "partial"
+    },
+    {
+      "id": "osaka-ee-basic-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 電気電子情報通信工学専攻（基礎科目共通）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻（基礎科目共通）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度博士前期課程入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "基礎科目",
+        "数学",
+        "電磁理論",
+        "電気電子回路"
+      ],
+      "files": [
+        {
+          "label": "基礎科目（共通原卷）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1.pdf",
+          "originalName": "基礎科目.pdf",
+          "sha256": "4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1",
+          "byteSize": 3672237,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学/工学/電気電子情報通信工学専攻/基礎科目.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+      "completeness": "partial"
+    },
+    {
+      "id": "osaka-ee-basic-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 電気電子情報通信工学専攻（基礎科目共通）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻（基礎科目共通）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "基礎科目",
+        "数学",
+        "電磁理論",
+        "電気電子回路"
+      ],
+      "files": [
+        {
+          "label": "基礎科目（共通原卷）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6.pdf",
+          "originalName": "2024basic.pdf",
+          "sha256": "fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6",
+          "byteSize": 1624645,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/工学/電気電子情報通信工学専攻/2024basic.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+      "completeness": "partial"
+    },
+    {
+      "id": "osaka-ee-quantum-electronics-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士前期課程入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "数学・専門科目（课程原卷）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fb422705a21013b5afdd930b9b8f81ddf3492740bd7cad1c00654d1c8a2046c8.pdf",
+          "originalName": "数学・専門科目試験問題（量子情報エレクトロニクスコース）.pdf",
+          "sha256": "fb422705a21013b5afdd930b9b8f81ddf3492740bd7cad1c00654d1c8a2046c8",
+          "byteSize": 2098667,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/工学/電気電子情報通信工学専攻/数学・専門科目試験問題（量子情報エレクトロニクスコース）.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 2026年度三个课程分别发布的数学・専門科目原卷；即使部分数学相同，也保留各自完整文件，不混配专业题。未随卷提供解答。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
+    },
+    {
+      "id": "osaka-ee-electrical-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 電気電子情報通信工学専攻／電気工学コース",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻／電気工学コース",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士前期課程入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "数学・専門科目（课程原卷）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a.pdf",
+          "originalName": "数学・専門科目試験問題（電気工学コース）.pdf",
+          "sha256": "c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a",
+          "byteSize": 2091823,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/工学/電気電子情報通信工学専攻/数学・専門科目試験問題（電気工学コース）.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 2026年度三个课程分别发布的数学・専門科目原卷；即使部分数学相同，也保留各自完整文件，不混配专业题。未随卷提供解答。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
+    },
+    {
+      "id": "osaka-ee-communications-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 電気電子情報通信工学専攻／情報通信工学コース",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信工学専攻／情報通信工学コース",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士前期課程入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "数学・専門科目（课程原卷）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b5e75b0f6bcfd67250b847d91950fc6e22b3681a190dd169ee0e9853d33e28ae.pdf",
+          "originalName": "数学・専門科目試験問題（情報通信工学コース）.pdf",
+          "sha256": "b5e75b0f6bcfd67250b847d91950fc6e22b3681a190dd169ee0e9853d33e28ae",
+          "byteSize": 9576426,
+          "pages": 20,
+          "sourcePaths": [
+            "大阪大学/工学/電気電子情報通信工学専攻/数学・専門科目試験問題（情報通信工学コース）.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 2026年度三个课程分别发布的数学・専門科目原卷；即使部分数学相同，也保留各自完整文件，不混配专业题。未随卷提供解答。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
+    },
+    {
+      "id": "osaka-precision-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 物理学系専攻／精密工学コース",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻／精密工学コース",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度博士前期課程入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "力学",
+        "熱・統計力学",
+        "量子力学",
+        "電磁気学",
+        "材料力学",
+        "光学",
+        "固体物性"
+      ],
+      "files": [
+        {
+          "label": "数学・物理学（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1daa70581d75afd2da32be31b685539559607b81010ec949fea872489cb774ff.pdf",
+          "originalName": "2022擭搙丂夁嫀栤戣.pdf",
+          "sha256": "1daa70581d75afd2da32be31b685539559607b81010ec949fea872489cb774ff",
+          "byteSize": 345191,
+          "pages": 17,
+          "sourcePaths": [
+            "大阪大学/工学/物理工学精密工学/2022擭搙丂夁嫀栤戣.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 精密工学目录提供的数学／物理学合册，保留共通数学、物理学封面及各选择题，按当年科目规则查阅。原文件名含乱码，页面使用可读名称并保留原下载名；2026附1页科目与参考书配点表，属于说明资料，不计作解答。未随卷提供解答。",
+      "sourceURL": "https://prec.eng.osaka-u.ac.jp/psthomepage/exam.html"
+    },
+    {
+      "id": "osaka-precision-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 物理学系専攻／精密工学コース",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻／精密工学コース",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度博士前期課程入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "力学",
+        "熱・統計力学",
+        "量子力学",
+        "電磁気学",
+        "材料力学",
+        "光学",
+        "固体物性"
+      ],
+      "files": [
+        {
+          "label": "数学・物理学（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/305efd04845ef5948de09338b83acc6ebf3c10d06f6a4b1502f57a99313b241f.pdf",
+          "originalName": "2023擭搙丂夁嫀栤戣.pdf",
+          "sha256": "305efd04845ef5948de09338b83acc6ebf3c10d06f6a4b1502f57a99313b241f",
+          "byteSize": 474481,
+          "pages": 19,
+          "sourcePaths": [
+            "大阪大学/工学/物理工学精密工学/2023擭搙丂夁嫀栤戣.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 精密工学目录提供的数学／物理学合册，保留共通数学、物理学封面及各选择题，按当年科目规则查阅。原文件名含乱码，页面使用可读名称并保留原下载名；2026附1页科目与参考书配点表，属于说明资料，不计作解答。未随卷提供解答。",
+      "sourceURL": "https://prec.eng.osaka-u.ac.jp/psthomepage/exam.html"
+    },
+    {
+      "id": "osaka-precision-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 物理学系専攻／精密工学コース",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻／精密工学コース",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度博士前期課程入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "力学",
+        "熱・統計力学",
+        "量子力学",
+        "電磁気学",
+        "材料力学",
+        "光学",
+        "固体物性"
+      ],
+      "files": [
+        {
+          "label": "数学・物理学（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bc9399f1fb133811bdcaabc3c9b46043f711edf2ebd6ab52a2275cd2239a4821.pdf",
+          "originalName": "2024擭搙丂夁嫀栤戣.pdf",
+          "sha256": "bc9399f1fb133811bdcaabc3c9b46043f711edf2ebd6ab52a2275cd2239a4821",
+          "byteSize": 410090,
+          "pages": 19,
+          "sourcePaths": [
+            "大阪大学/工学/物理工学精密工学/2024擭搙丂夁嫀栤戣.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 精密工学目录提供的数学／物理学合册，保留共通数学、物理学封面及各选择题，按当年科目规则查阅。原文件名含乱码，页面使用可读名称并保留原下载名；2026附1页科目与参考书配点表，属于说明资料，不计作解答。未随卷提供解答。",
+      "sourceURL": "https://prec.eng.osaka-u.ac.jp/psthomepage/exam.html"
+    },
+    {
+      "id": "osaka-precision-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 物理学系専攻／精密工学コース",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻／精密工学コース",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "力学",
+        "熱・統計力学",
+        "量子力学",
+        "電磁気学",
+        "材料力学",
+        "光学",
+        "固体物性"
+      ],
+      "files": [
+        {
+          "label": "数学・物理学（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1293c41ad387eb7c2861e5183f1a4c3f31c42a8df06ce082fc5378ec107222e8.pdf",
+          "originalName": "2025擭搙丂夁嫀栤戣.pdf",
+          "sha256": "1293c41ad387eb7c2861e5183f1a4c3f31c42a8df06ce082fc5378ec107222e8",
+          "byteSize": 407696,
+          "pages": 19,
+          "sourcePaths": [
+            "大阪大学/工学/物理工学精密工学/2025擭搙丂夁嫀栤戣.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 精密工学目录提供的数学／物理学合册，保留共通数学、物理学封面及各选择题，按当年科目规则查阅。原文件名含乱码，页面使用可读名称并保留原下载名；2026附1页科目与参考书配点表，属于说明资料，不计作解答。未随卷提供解答。",
+      "sourceURL": "https://prec.eng.osaka-u.ac.jp/psthomepage/exam.html"
+    },
+    {
+      "id": "osaka-precision-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 物理学系専攻／精密工学コース",
+      "graduateSchool": "工学研究科",
+      "department": "物理学系専攻／精密工学コース",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士前期課程入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "力学",
+        "熱・統計力学",
+        "量子力学",
+        "電磁気学",
+        "材料力学",
+        "光学",
+        "固体物性"
+      ],
+      "files": [
+        {
+          "label": "数学・物理学（原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c9c0c7c47f94e769da3004cca88069a5d57bbf8822ff0efeb172d414e562392c.pdf",
+          "originalName": "2026擭搙丂夁嫀栤戣.pdf",
+          "sha256": "c9c0c7c47f94e769da3004cca88069a5d57bbf8822ff0efeb172d414e562392c",
+          "byteSize": 357577,
+          "pages": 17,
+          "sourcePaths": [
+            "大阪大学/工学/物理工学精密工学/2026擭搙丂夁嫀栤戣.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "入试科目・参考书・配点说明（非试题／非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/e94e58042881f2b636f77ef4c8b10ac4015396fd66b638774fd7291c5cacdd2a.pdf",
+          "originalName": "2026擭搙丂壢栚昞.pdf",
+          "sha256": "e94e58042881f2b636f77ef4c8b10ac4015396fd66b638774fd7291c5cacdd2a",
+          "byteSize": 29328,
+          "pages": 1,
+          "sourcePaths": [
+            "大阪大学/工学/物理工学精密工学/2026擭搙丂壢栚昞.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 精密工学目录提供的数学／物理学合册，保留共通数学、物理学封面及各选择题，按当年科目规则查阅。原文件名含乱码，页面使用可读名称并保留原下载名；2026附1页科目与参考书配点表，属于说明资料，不计作解答。未随卷提供解答。",
+      "sourceURL": "https://prec.eng.osaka-u.ac.jp/psthomepage/exam.html"
+    },
+    {
+      "id": "osaka-intelligent-2021",
+      "universityId": "osaka",
+      "title": "2021年度 · 知能システム学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "知能システム学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2021年度博士前期課程入学試験",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "知能システム学Ⅰ",
+        "知能システム学Ⅱ",
+        "数学",
+        "計算機プログラミング",
+        "制御工学",
+        "コンピュータ科学",
+        "最適化"
+      ],
+      "files": [
+        {
+          "label": "知能システム学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/92575879a1a58920c18aa4543dd72274a40ff2e14244a9b87cd90e4dae39d1cd.pdf",
+          "originalName": "R2-1.pdf",
+          "sha256": "92575879a1a58920c18aa4543dd72274a40ff2e14244a9b87cd90e4dae39d1cd",
+          "byteSize": 113168,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R2-1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "知能システム学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f861745c462eaec6c2f2d1245da5285672cf8b3de8d0e949c5ac957e2e20de2a.pdf",
+          "originalName": "R2-2.pdf",
+          "sha256": "f861745c462eaec6c2f2d1245da5285672cf8b3de8d0e949c5ac957e2e20de2a",
+          "byteSize": 251530,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R2-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。文件名R2—R7依次对应卷面2021—2026入学年度；已依据官方过去问年度目录和卷面核对。",
+      "sourceURL": "https://sys.es.osaka-u.ac.jp/exam-questions/"
+    },
+    {
+      "id": "osaka-intelligent-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 知能システム学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "知能システム学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度博士前期課程入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "知能システム学Ⅰ",
+        "知能システム学Ⅱ",
+        "数学",
+        "計算機プログラミング",
+        "制御工学",
+        "コンピュータ科学",
+        "最適化"
+      ],
+      "files": [
+        {
+          "label": "知能システム学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c1a6531e124f2e139d7649e9df58d40d15eabf95242569b18c89e8a05f8af6ab.pdf",
+          "originalName": "R3-1.pdf",
+          "sha256": "c1a6531e124f2e139d7649e9df58d40d15eabf95242569b18c89e8a05f8af6ab",
+          "byteSize": 1676360,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R3-1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "知能システム学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/90c5bbf356a727ef61d987eaf01fbf77cef1921181ed53d11f11a1cd254a40ef.pdf",
+          "originalName": "R3-2.pdf",
+          "sha256": "90c5bbf356a727ef61d987eaf01fbf77cef1921181ed53d11f11a1cd254a40ef",
+          "byteSize": 3009156,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R3-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。文件名R2—R7依次对应卷面2021—2026入学年度；已依据官方过去问年度目录和卷面核对。",
+      "sourceURL": "https://sys.es.osaka-u.ac.jp/exam-questions/"
+    },
+    {
+      "id": "osaka-intelligent-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 知能システム学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "知能システム学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度博士前期課程入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "知能システム学Ⅰ",
+        "知能システム学Ⅱ",
+        "数学",
+        "計算機プログラミング",
+        "制御工学",
+        "コンピュータ科学",
+        "最適化"
+      ],
+      "files": [
+        {
+          "label": "知能システム学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/36825cc31cafe67dfa804453aef1cc5753fca79ab114ef9b3e78be1507e3b974.pdf",
+          "originalName": "R4-1.pdf",
+          "sha256": "36825cc31cafe67dfa804453aef1cc5753fca79ab114ef9b3e78be1507e3b974",
+          "byteSize": 140054,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R4-1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "知能システム学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e22ba3f8102eb5270547139299877050cc79863e73e00aacb8cfb393dc0571c0.pdf",
+          "originalName": "R4-2.pdf",
+          "sha256": "e22ba3f8102eb5270547139299877050cc79863e73e00aacb8cfb393dc0571c0",
+          "byteSize": 257175,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R4-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。文件名R2—R7依次对应卷面2021—2026入学年度；已依据官方过去问年度目录和卷面核对。",
+      "sourceURL": "https://sys.es.osaka-u.ac.jp/exam-questions/"
+    },
+    {
+      "id": "osaka-intelligent-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 知能システム学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "知能システム学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度博士前期課程入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "知能システム学Ⅰ",
+        "知能システム学Ⅱ",
+        "数学",
+        "計算機プログラミング",
+        "制御工学",
+        "コンピュータ科学",
+        "最適化"
+      ],
+      "files": [
+        {
+          "label": "知能システム学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2bf788327adb7dc8edc6af712e49986f5a1c54a3e1bf4d908f41debe4a870c6e.pdf",
+          "originalName": "R5-1.pdf",
+          "sha256": "2bf788327adb7dc8edc6af712e49986f5a1c54a3e1bf4d908f41debe4a870c6e",
+          "byteSize": 106011,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R5-1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "知能システム学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a4fcb47522396857fa769f35dc664fbe472b9042cfce2ad54ba3eacced704943.pdf",
+          "originalName": "R5-2.pdf",
+          "sha256": "a4fcb47522396857fa769f35dc664fbe472b9042cfce2ad54ba3eacced704943",
+          "byteSize": 222568,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R5-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。文件名R2—R7依次对应卷面2021—2026入学年度；已依据官方过去问年度目录和卷面核对。",
+      "sourceURL": "https://sys.es.osaka-u.ac.jp/exam-questions/"
+    },
+    {
+      "id": "osaka-intelligent-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 知能システム学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "知能システム学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "知能システム学Ⅰ",
+        "知能システム学Ⅱ",
+        "数学",
+        "計算機プログラミング",
+        "制御工学",
+        "コンピュータ科学",
+        "最適化"
+      ],
+      "files": [
+        {
+          "label": "知能システム学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/10f24b73587a9a2868db8a1a3328e7d0eae8435f476b1d8e40981d1ee05d9dac.pdf",
+          "originalName": "R6-1.pdf",
+          "sha256": "10f24b73587a9a2868db8a1a3328e7d0eae8435f476b1d8e40981d1ee05d9dac",
+          "byteSize": 288980,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R6-1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "知能システム学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/06a2eab9ed0d924ac8d790aab6e52e21c0c791529434cda15c443909e00fc651.pdf",
+          "originalName": "R6-2.pdf",
+          "sha256": "06a2eab9ed0d924ac8d790aab6e52e21c0c791529434cda15c443909e00fc651",
+          "byteSize": 1422410,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R6-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。文件名R2—R7依次对应卷面2021—2026入学年度；已依据官方过去问年度目录和卷面核对。",
+      "sourceURL": "https://sys.es.osaka-u.ac.jp/exam-questions/"
+    },
+    {
+      "id": "osaka-intelligent-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 知能システム学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "知能システム学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士前期課程入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "知能システム学Ⅰ",
+        "知能システム学Ⅱ",
+        "数学",
+        "計算機プログラミング",
+        "制御工学",
+        "コンピュータ科学",
+        "最適化"
+      ],
+      "files": [
+        {
+          "label": "知能システム学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f908149bbdc43f693954b51130893e663dfb28c4a98bd6bf7252e9d693258864.pdf",
+          "originalName": "R7-1.pdf",
+          "sha256": "f908149bbdc43f693954b51130893e663dfb28c4a98bd6bf7252e9d693258864",
+          "byteSize": 2597304,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R7-1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "知能システム学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5950201e1ea68747fe5488d0e619e9fa0ae9d167cd5d75626168c2e104f1ed9a.pdf",
+          "originalName": "R7-2.pdf",
+          "sha256": "5950201e1ea68747fe5488d0e619e9fa0ae9d167cd5d75626168c2e104f1ed9a",
+          "byteSize": 4133839,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学/基础工学/知能系统/R7-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。文件名R2—R7依次对应卷面2021—2026入学年度；已依据官方过去问年度目录和卷面核对。",
+      "sourceURL": "https://sys.es.osaka-u.ac.jp/exam-questions/"
+    },
+    {
+      "id": "osaka-electron-optical-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 電子光科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "電子光科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度博士前期課程入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "電子光科学Ⅰ",
+        "電子光科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "電子光科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d82cab3b764f50f55cff77352a99625b60fdc6c20da956194c3651b853fc2193.pdf",
+          "originalName": "2022-I.pdf",
+          "sha256": "d82cab3b764f50f55cff77352a99625b60fdc6c20da956194c3651b853fc2193",
+          "byteSize": 612335,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2022-I.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子光科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/58f17cdf14b970501c6634c42625eaf739d2c622eb041ebaa146799e57c51ecc.pdf",
+          "originalName": "2022-II.pdf",
+          "sha256": "58f17cdf14b970501c6634c42625eaf739d2c622eb041ebaa146799e57c51ecc",
+          "byteSize": 954790,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2022-II.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。主要对应システム創成専攻・電子光科学領域；不把领域／试验科目写成独立专攻。",
+      "sourceURL": "https://www.ee.es.osaka-u.ac.jp/mcexam.html"
+    },
+    {
+      "id": "osaka-electron-optical-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 電子光科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "電子光科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度博士前期課程入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "電子光科学Ⅰ",
+        "電子光科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "電子光科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a8e79f807d1d7f21fbde8a7312ba7db793fcc07535050c7a2d476eb88d375a0f.pdf",
+          "originalName": "2023-I.pdf",
+          "sha256": "a8e79f807d1d7f21fbde8a7312ba7db793fcc07535050c7a2d476eb88d375a0f",
+          "byteSize": 1465183,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2023-I.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子光科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cb8fce44018bd4859ad41717f7aaa3bee52ee6fbb79baeccce4f61bbd7c7739e.pdf",
+          "originalName": "2023-II.pdf",
+          "sha256": "cb8fce44018bd4859ad41717f7aaa3bee52ee6fbb79baeccce4f61bbd7c7739e",
+          "byteSize": 630073,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2023-II.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。主要对应システム創成専攻・電子光科学領域；不把领域／试验科目写成独立专攻。",
+      "sourceURL": "https://www.ee.es.osaka-u.ac.jp/mcexam.html"
+    },
+    {
+      "id": "osaka-electron-optical-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 電子光科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "電子光科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度博士前期課程入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "電子光科学Ⅰ",
+        "電子光科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "電子光科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/246225a02325dc8491f5d6c6582ee399ef970d8302033a7f6bd3a7ccf03cd7b9.pdf",
+          "originalName": "2024-I.pdf",
+          "sha256": "246225a02325dc8491f5d6c6582ee399ef970d8302033a7f6bd3a7ccf03cd7b9",
+          "byteSize": 796061,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2024-I.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子光科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/27df795377e03e4d80e2d1e96ead9b0c418966b74c248116c3038c449c188237.pdf",
+          "originalName": "2024-II.pdf",
+          "sha256": "27df795377e03e4d80e2d1e96ead9b0c418966b74c248116c3038c449c188237",
+          "byteSize": 988753,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2024-II.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。主要对应システム創成専攻・電子光科学領域；不把领域／试验科目写成独立专攻。",
+      "sourceURL": "https://www.ee.es.osaka-u.ac.jp/mcexam.html"
+    },
+    {
+      "id": "osaka-electron-optical-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 電子光科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "電子光科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "電子光科学Ⅰ",
+        "電子光科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "電子光科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d0d9354538c9d03d52dbe03a549246bd99f063b6f7eb5a24ca12ec8c8e00214d.pdf",
+          "originalName": "2025-I.pdf",
+          "sha256": "d0d9354538c9d03d52dbe03a549246bd99f063b6f7eb5a24ca12ec8c8e00214d",
+          "byteSize": 777990,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2025-I.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子光科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f765ca2db8fc7b94d54f819ec8acb22e31875c4d2b79b611a441fbdafbfb3a1f.pdf",
+          "originalName": "2025-II.pdf",
+          "sha256": "f765ca2db8fc7b94d54f819ec8acb22e31875c4d2b79b611a441fbdafbfb3a1f",
+          "byteSize": 1078418,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2025-II.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。主要对应システム創成専攻・電子光科学領域；不把领域／试验科目写成独立专攻。",
+      "sourceURL": "https://www.ee.es.osaka-u.ac.jp/mcexam.html"
+    },
+    {
+      "id": "osaka-electron-optical-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 電子光科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "電子光科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士前期課程入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "電子光科学Ⅰ",
+        "電子光科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "電子光科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/37ffa4a97d1753d6eed4eeff60ac77a884de567056c417d38d196ea459a3d7b2.pdf",
+          "originalName": "2026-I.pdf",
+          "sha256": "37ffa4a97d1753d6eed4eeff60ac77a884de567056c417d38d196ea459a3d7b2",
+          "byteSize": 2299644,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2026-I.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子光科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ac91ae53c9d80177d8bf557486929debd72d60f2a11c493d7d5d06578af51073.pdf",
+          "originalName": "2026-II.pdf",
+          "sha256": "ac91ae53c9d80177d8bf557486929debd72d60f2a11c493d7d5d06578af51073",
+          "byteSize": 3258995,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/基础工学/电子光科学/2026-II.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。主要对应システム創成専攻・電子光科学領域；不把领域／试验科目写成独立专攻。",
+      "sourceURL": "https://www.ee.es.osaka-u.ac.jp/mcexam.html"
+    },
+    {
+      "id": "osaka-mechanical-2014",
+      "universityId": "osaka",
+      "title": "2014年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成26年度（2014年度）博士前期課程入学試験",
+      "admissionYears": [
+        2014
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/003a8a34e4903cec8acc67d5f026ecf3bcb70dd33f5781664f9ae9bacfb2c93c.pdf",
+          "originalName": "h26_1.pdf",
+          "sha256": "003a8a34e4903cec8acc67d5f026ecf3bcb70dd33f5781664f9ae9bacfb2c93c",
+          "byteSize": 141541,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h26_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/aaa38da8d739bfd2effeb38bcb04d04794bd3aa2ac77495b0872345edb915e60.pdf",
+          "originalName": "h26_2.pdf",
+          "sha256": "aaa38da8d739bfd2effeb38bcb04d04794bd3aa2ac77495b0872345edb915e60",
+          "byteSize": 178921,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h26_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2015",
+      "universityId": "osaka",
+      "title": "2015年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成27年度（2015年度）博士前期課程入学試験",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a67c3e2e9740b3b79e186f6ad89225956d6ab7b7dd8679cca362bb5004f18afb.pdf",
+          "originalName": "h27_1.pdf",
+          "sha256": "a67c3e2e9740b3b79e186f6ad89225956d6ab7b7dd8679cca362bb5004f18afb",
+          "byteSize": 166311,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h27_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/98f59821dd2f04d12b8e3f2d52a0257db115636d5c28c80a521bf63dbd699131.pdf",
+          "originalName": "h27_2.pdf",
+          "sha256": "98f59821dd2f04d12b8e3f2d52a0257db115636d5c28c80a521bf63dbd699131",
+          "byteSize": 117597,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h27_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2016",
+      "universityId": "osaka",
+      "title": "2016年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成28年度（2016年度）博士前期課程入学試験",
+      "admissionYears": [
+        2016
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6ba720f05c8b60613c51421a9df59fe24e3680eadeb1d1575c5415f51dc017a0.pdf",
+          "originalName": "h28_1.pdf",
+          "sha256": "6ba720f05c8b60613c51421a9df59fe24e3680eadeb1d1575c5415f51dc017a0",
+          "byteSize": 245028,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h28_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1c562f074b362328fa93c73347f7e04d59321b3ae16dff32c105a1fba0954254.pdf",
+          "originalName": "h28_2.pdf",
+          "sha256": "1c562f074b362328fa93c73347f7e04d59321b3ae16dff32c105a1fba0954254",
+          "byteSize": 132757,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h28_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2017",
+      "universityId": "osaka",
+      "title": "2017年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成29年度（2017年度）博士前期課程入学試験",
+      "admissionYears": [
+        2017
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/65691afe71aaf0cc9d229fc95a42f729e1d3c35ad7db1f0ffcfe25c7daf713e0.pdf",
+          "originalName": "h29_1.pdf",
+          "sha256": "65691afe71aaf0cc9d229fc95a42f729e1d3c35ad7db1f0ffcfe25c7daf713e0",
+          "byteSize": 1658443,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h29_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0c6dea9f5f1b5a8621a1863b86e75ef1e31d17a82d9df878a024ff3e49071b50.pdf",
+          "originalName": "h29_2.pdf",
+          "sha256": "0c6dea9f5f1b5a8621a1863b86e75ef1e31d17a82d9df878a024ff3e49071b50",
+          "byteSize": 1027158,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h29_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2018",
+      "universityId": "osaka",
+      "title": "2018年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成30年度（2018年度）博士前期課程入学試験",
+      "admissionYears": [
+        2018
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a76a24d96164595f0f41652bbe6c0449e688fdc536e0f00e1b550da20434cb23.pdf",
+          "originalName": "h30_1.pdf",
+          "sha256": "a76a24d96164595f0f41652bbe6c0449e688fdc536e0f00e1b550da20434cb23",
+          "byteSize": 220166,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h30_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bd06361b24878289e5d58c23eff527ba99ec9a78dbdacc183f03d86251949ca5.pdf",
+          "originalName": "h30_2.pdf",
+          "sha256": "bd06361b24878289e5d58c23eff527ba99ec9a78dbdacc183f03d86251949ca5",
+          "byteSize": 263226,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h30_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2019",
+      "universityId": "osaka",
+      "title": "2019年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成31年度（2019年度）博士前期課程入学試験",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a6156ead2e48b58e320c46ed939b5d5de568da748041ed3f37ec01cfeab2e762.pdf",
+          "originalName": "h31_1.pdf",
+          "sha256": "a6156ead2e48b58e320c46ed939b5d5de568da748041ed3f37ec01cfeab2e762",
+          "byteSize": 188594,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h31_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c5b92d318892599002fe70dd8edfe8b68230699ad12516ed9ea6aa6473e56d25.pdf",
+          "originalName": "h31_2.pdf",
+          "sha256": "c5b92d318892599002fe70dd8edfe8b68230699ad12516ed9ea6aa6473e56d25",
+          "byteSize": 170190,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/h31_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2020",
+      "universityId": "osaka",
+      "title": "2020年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2020年度博士前期課程入学試験",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/567088f80a3fcee632ee07270d6a4404b71f1a815b01aa9464bec83451dc8608.pdf",
+          "originalName": "r2_1.pdf",
+          "sha256": "567088f80a3fcee632ee07270d6a4404b71f1a815b01aa9464bec83451dc8608",
+          "byteSize": 109957,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r2_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2f9333ddba9e0999f7de91d2e35ae450f5e863f1ee45bd357dfafc6e01156573.pdf",
+          "originalName": "r2_2.pdf",
+          "sha256": "2f9333ddba9e0999f7de91d2e35ae450f5e863f1ee45bd357dfafc6e01156573",
+          "byteSize": 179130,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r2_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2021",
+      "universityId": "osaka",
+      "title": "2021年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2021年度博士前期課程入学試験",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3fe96c0a87095ba95d432d8b40f93adf644b9107c4ed83ade53750fd9215d905.pdf",
+          "originalName": "r3_1.pdf",
+          "sha256": "3fe96c0a87095ba95d432d8b40f93adf644b9107c4ed83ade53750fd9215d905",
+          "byteSize": 557747,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r3_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0b329cdc6eac7544d49a4ca803d01cbaf587717920be6df04fcb1af0d6297bd4.pdf",
+          "originalName": "r3_2.pdf",
+          "sha256": "0b329cdc6eac7544d49a4ca803d01cbaf587717920be6df04fcb1af0d6297bd4",
+          "byteSize": 794121,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r3_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度博士前期課程入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1b73437e4446d61c2e8a95838049f22afad73cbde6ec29f589c955f7c011b8b1.pdf",
+          "originalName": "r4_1.pdf",
+          "sha256": "1b73437e4446d61c2e8a95838049f22afad73cbde6ec29f589c955f7c011b8b1",
+          "byteSize": 252923,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r4_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a852727892ea7b5a24416ef1e19ff915ee858944da6f35ad9ceef10e41dcfbf2.pdf",
+          "originalName": "r4_2.pdf",
+          "sha256": "a852727892ea7b5a24416ef1e19ff915ee858944da6f35ad9ceef10e41dcfbf2",
+          "byteSize": 258595,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r4_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度博士前期課程入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dce23348e4441af74223b4b0d4f7d50cbd3575eb803aca74b7cc33972066222f.pdf",
+          "originalName": "r5_1.pdf",
+          "sha256": "dce23348e4441af74223b4b0d4f7d50cbd3575eb803aca74b7cc33972066222f",
+          "byteSize": 148444,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r5_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ce96d18d3053df685e177e0bc351fe4aac2958c8004a8627b3dea6b8187c0083.pdf",
+          "originalName": "r5_2.pdf",
+          "sha256": "ce96d18d3053df685e177e0bc351fe4aac2958c8004a8627b3dea6b8187c0083",
+          "byteSize": 146459,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r5_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度博士前期課程入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dbec75fd4f7bfa1f66a2e85d26fc3f12c99834dfde3955923bbdb65ff7944156.pdf",
+          "originalName": "r6_1.pdf",
+          "sha256": "dbec75fd4f7bfa1f66a2e85d26fc3f12c99834dfde3955923bbdb65ff7944156",
+          "byteSize": 731275,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r6_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/18d9517acf4d01cdf949617d406cb9993b275024df9ad2cad329c526fb8726e8.pdf",
+          "originalName": "r6_2.pdf",
+          "sha256": "18d9517acf4d01cdf949617d406cb9993b275024df9ad2cad329c526fb8726e8",
+          "byteSize": 777717,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r6_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6059e5bfa5f5700722810e2e881f21d7d687c211ad53082dee2e8d8c9be05f1a.pdf",
+          "originalName": "r7_1.pdf",
+          "sha256": "6059e5bfa5f5700722810e2e881f21d7d687c211ad53082dee2e8d8c9be05f1a",
+          "byteSize": 500228,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r7_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b34bdbcae83f12ccda0ae783cd22070e2eff1c473e4b3dac14e1b9c82aa4f8dc.pdf",
+          "originalName": "r7_2.pdf",
+          "sha256": "b34bdbcae83f12ccda0ae783cd22070e2eff1c473e4b3dac14e1b9c82aa4f8dc",
+          "byteSize": 1016719,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r7_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-mechanical-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 機械科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "機械科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士前期課程入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "機械科学Ⅰ",
+        "機械科学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "機械科学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5dd31c3b429d5bfdddab73329b80bc92b5746f55131f5f69b3016dabcddc4200.pdf",
+          "originalName": "r8_1.pdf",
+          "sha256": "5dd31c3b429d5bfdddab73329b80bc92b5746f55131f5f69b3016dabcddc4200",
+          "byteSize": 231018,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r8_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "機械科学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/94fbf5f0e4f2f76c4a42a920d926cc2b40d7733150e2e4f9e7ee4c9492af38fd.pdf",
+          "originalName": "r8_2.pdf",
+          "sha256": "94fbf5f0e4f2f76c4a42a920d926cc2b40d7733150e2e4f9e7ee4c9492af38fd",
+          "byteSize": 186625,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/机械科学/r8_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。机械题主要对应機能創成専攻相关领域；按该年度题页和学校机械过去问目录配对。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/mecha.html"
+    },
+    {
+      "id": "osaka-bio-systems-2009",
+      "universityId": "osaka",
+      "title": "2009年度 · 生物工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生物工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成21年度（2009年度）博士前期課程入学試験",
+      "admissionYears": [
+        2009
+      ],
+      "subjects": [
+        "生物工学Ⅰ",
+        "生物工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生物工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4df5ff3b59f0afa5f9fb3c0840e32a449e2db841ae2275f171e027211025fe4f.pdf",
+          "originalName": "21_1.pdf",
+          "sha256": "4df5ff3b59f0afa5f9fb3c0840e32a449e2db841ae2275f171e027211025fe4f",
+          "byteSize": 179123,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/21_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生物工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fe46516a0444e89b7be9e9f83edfb80766e27e9a262a8d4221c1b56ed3548aae.pdf",
+          "originalName": "21_2.pdf",
+          "sha256": "fe46516a0444e89b7be9e9f83edfb80766e27e9a262a8d4221c1b56ed3548aae",
+          "byteSize": 376585,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/21_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2010",
+      "universityId": "osaka",
+      "title": "2010年度 · 生物工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生物工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成22年度（2010年度）博士前期課程入学試験",
+      "admissionYears": [
+        2010
+      ],
+      "subjects": [
+        "生物工学Ⅰ",
+        "生物工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生物工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fdf184e85eeb00b995f0628ba8f7f158ef2cfd6801d563d11932f963f7f41383.pdf",
+          "originalName": "22_1.pdf",
+          "sha256": "fdf184e85eeb00b995f0628ba8f7f158ef2cfd6801d563d11932f963f7f41383",
+          "byteSize": 278695,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/22_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生物工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/410f74024cf492ed743a84d0f39d8a5ce4e547465b6a1d5ec9fc15d178a9aee1.pdf",
+          "originalName": "22_2.pdf",
+          "sha256": "410f74024cf492ed743a84d0f39d8a5ce4e547465b6a1d5ec9fc15d178a9aee1",
+          "byteSize": 291114,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/22_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2011",
+      "universityId": "osaka",
+      "title": "2011年度 · 生物工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生物工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成23年度（2011年度）博士前期課程入学試験",
+      "admissionYears": [
+        2011
+      ],
+      "subjects": [
+        "生物工学Ⅰ",
+        "生物工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生物工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/52bdbf4c9acf4e4fc054cd7fb4df0861cc164e1ae97d427c73cc91a39edf8e31.pdf",
+          "originalName": "23_1.pdf",
+          "sha256": "52bdbf4c9acf4e4fc054cd7fb4df0861cc164e1ae97d427c73cc91a39edf8e31",
+          "byteSize": 355571,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/23_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生物工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/30fc5ad55408f929f2c93ac851076a6159e6a53372492a33df42cc7e08559699.pdf",
+          "originalName": "23_2.pdf",
+          "sha256": "30fc5ad55408f929f2c93ac851076a6159e6a53372492a33df42cc7e08559699",
+          "byteSize": 394945,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/23_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2012",
+      "universityId": "osaka",
+      "title": "2012年度 · 生物工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生物工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成24年度（2012年度）博士前期課程入学試験",
+      "admissionYears": [
+        2012
+      ],
+      "subjects": [
+        "生物工学Ⅰ",
+        "生物工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生物工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/50919674f81c1795d43d1194b0d772c235162fc4751ce38bee2d7bbb53c10419.pdf",
+          "originalName": "24_1.pdf",
+          "sha256": "50919674f81c1795d43d1194b0d772c235162fc4751ce38bee2d7bbb53c10419",
+          "byteSize": 301414,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/24_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生物工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2b2acb31f9a4c5cd3cba12210a373bfb89254941a71bff31e47160db30e1bad3.pdf",
+          "originalName": "24_2.pdf",
+          "sha256": "2b2acb31f9a4c5cd3cba12210a373bfb89254941a71bff31e47160db30e1bad3",
+          "byteSize": 380433,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/24_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2013",
+      "universityId": "osaka",
+      "title": "2013年度 · 生物工学（専門科目）（部分科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生物工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成25年度（2013年度）博士前期課程入学試験",
+      "admissionYears": [
+        2013
+      ],
+      "subjects": [
+        "生物工学Ⅰ"
+      ],
+      "files": [
+        {
+          "label": "生物工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1ef7d8f4ee7704340fbd9e7c125a88418e4078acca261f72b918ab3e026abdd6.pdf",
+          "originalName": "25_1.pdf",
+          "sha256": "1ef7d8f4ee7704340fbd9e7c125a88418e4078acca261f72b918ab3e026abdd6",
+          "byteSize": 204808,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/25_1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。本年度云盘只提供Ⅰ，另一科目未取得，明确标为部分科目。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html",
+      "completeness": "partial"
+    },
+    {
+      "id": "osaka-bio-systems-2015",
+      "universityId": "osaka",
+      "title": "2015年度 · 生体システム工学（専門科目）（部分科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成27年度（2015年度）博士前期課程入学試験",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/961f84eb5dfea08584b9c13d2d0b479f9f0f463189d5e6b279c90cc15a9bca42.pdf",
+          "originalName": "27_1.pdf",
+          "sha256": "961f84eb5dfea08584b9c13d2d0b479f9f0f463189d5e6b279c90cc15a9bca42",
+          "byteSize": 484638,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/27_1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。本年度云盘只提供Ⅰ，另一科目未取得，明确标为部分科目。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html",
+      "completeness": "partial"
+    },
+    {
+      "id": "osaka-bio-systems-2016",
+      "universityId": "osaka",
+      "title": "2016年度 · 生体システム工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成28年度（2016年度）博士前期課程入学試験",
+      "admissionYears": [
+        2016
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ",
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3407371d4ff40f92a4da2855708d678b1001b1f46ae2f05edbc89fbe654c9ffd.pdf",
+          "originalName": "28_1.pdf",
+          "sha256": "3407371d4ff40f92a4da2855708d678b1001b1f46ae2f05edbc89fbe654c9ffd",
+          "byteSize": 358848,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/28_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8c2057d5913e2db73f69ad474f0d6235b10fdeef074365e4bc14ec7f0e9ac253.pdf",
+          "originalName": "28_2.pdf",
+          "sha256": "8c2057d5913e2db73f69ad474f0d6235b10fdeef074365e4bc14ec7f0e9ac253",
+          "byteSize": 465216,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/28_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2017",
+      "universityId": "osaka",
+      "title": "2017年度 · 生体システム工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成29年度（2017年度）博士前期課程入学試験",
+      "admissionYears": [
+        2017
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ",
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/62676e23d6e0b20cedbcfb7951f970a610e002eced5e49ddb8bfaa8d70070562.pdf",
+          "originalName": "29_1.pdf",
+          "sha256": "62676e23d6e0b20cedbcfb7951f970a610e002eced5e49ddb8bfaa8d70070562",
+          "byteSize": 841061,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/29_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3c6473111b3e2421903ff4341c8ad8cc9b0606aa02638e90b9bfe02b75c5785d.pdf",
+          "originalName": "29_2.pdf",
+          "sha256": "3c6473111b3e2421903ff4341c8ad8cc9b0606aa02638e90b9bfe02b75c5785d",
+          "byteSize": 1113598,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/29_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2018",
+      "universityId": "osaka",
+      "title": "2018年度 · 生体システム工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成30年度（2018年度）博士前期課程入学試験",
+      "admissionYears": [
+        2018
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ",
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d305cf58649b61e4cf84820a367f048fe0b3f9c3edb0251976ea310ea426d7b3.pdf",
+          "originalName": "30_1.pdf",
+          "sha256": "d305cf58649b61e4cf84820a367f048fe0b3f9c3edb0251976ea310ea426d7b3",
+          "byteSize": 508585,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/30_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8656ed9f09267b8df3152a77abcd943a7cb3ab6d1643e5eb8a10b0a923abb99e.pdf",
+          "originalName": "30_2.pdf",
+          "sha256": "8656ed9f09267b8df3152a77abcd943a7cb3ab6d1643e5eb8a10b0a923abb99e",
+          "byteSize": 531924,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/30_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2019",
+      "universityId": "osaka",
+      "title": "2019年度 · 生体システム工学（専門科目）（部分科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成31年度（2019年度）博士前期課程入学試験",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/de3d671c7f5305c3db0786265b43ffb7b3389659aad3c73d090163d3a9c2d757.pdf",
+          "originalName": "31_2.pdf",
+          "sha256": "de3d671c7f5305c3db0786265b43ffb7b3389659aad3c73d090163d3a9c2d757",
+          "byteSize": 192758,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/31_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。本年度云盘只提供Ⅱ，另一科目未取得，明确标为部分科目。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html",
+      "completeness": "partial"
+    },
+    {
+      "id": "osaka-bio-systems-2020",
+      "universityId": "osaka",
+      "title": "2020年度 · 生体システム工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和2年度（2020年度）博士前期課程入学試験",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ",
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3e43f18be0ae94608847eda89ccf8f3e7cb5d1759cbeb33a3a7aeb9dc320acf4.pdf",
+          "originalName": "R2_I.pdf",
+          "sha256": "3e43f18be0ae94608847eda89ccf8f3e7cb5d1759cbeb33a3a7aeb9dc320acf4",
+          "byteSize": 273814,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/R2_I.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0605d029dd87258decff5cac1a8814808c6c8029d4dd28f28f541b9b35775a34.pdf",
+          "originalName": "R2_II.pdf",
+          "sha256": "0605d029dd87258decff5cac1a8814808c6c8029d4dd28f28f541b9b35775a34",
+          "byteSize": 298621,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/R2_II.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2021",
+      "universityId": "osaka",
+      "title": "2021年度 · 生体システム工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和3年度（2021年度）博士前期課程入学試験",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ",
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7980a992bc3105ad49f2187c1caa3d35f46849956b4c7c156f68d18af77d9593.pdf",
+          "originalName": "r3_1.pdf",
+          "sha256": "7980a992bc3105ad49f2187c1caa3d35f46849956b4c7c156f68d18af77d9593",
+          "byteSize": 206764,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r3_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4b8e1024d7a9d3b4fa092c59592e708e7345654f737df7b391f14ed9bd42dd7e.pdf",
+          "originalName": "r3_2.pdf",
+          "sha256": "4b8e1024d7a9d3b4fa092c59592e708e7345654f737df7b391f14ed9bd42dd7e",
+          "byteSize": 89349,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r3_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 生体システム工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度（2022年度）博士前期課程入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ",
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c168fd01c5ad41a25da4f2803e036c4ba29e1742b5c1d067bac0f1ce7d649dda.pdf",
+          "originalName": "r4_1.pdf",
+          "sha256": "c168fd01c5ad41a25da4f2803e036c4ba29e1742b5c1d067bac0f1ce7d649dda",
+          "byteSize": 407938,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r4_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/26b606bd132eaa72e2d83d47760ca294013ec3402e6f9465b62526ea350a7595.pdf",
+          "originalName": "r4_2.pdf",
+          "sha256": "26b606bd132eaa72e2d83d47760ca294013ec3402e6f9465b62526ea350a7595",
+          "byteSize": 757077,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r4_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 生体システム工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度（2023年度）博士前期課程入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ",
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/086f840f1d36e9e9e4f24e90dd88e53c936173aeff20b32de81c0d5b130f39de.pdf",
+          "originalName": "r5_1.pdf",
+          "sha256": "086f840f1d36e9e9e4f24e90dd88e53c936173aeff20b32de81c0d5b130f39de",
+          "byteSize": 192139,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r5_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a9be7b3fc9da50eb44243f7f83126eac6fcf4f5c9140efa5a79551c4c6cbd875.pdf",
+          "originalName": "r5_2.pdf",
+          "sha256": "a9be7b3fc9da50eb44243f7f83126eac6fcf4f5c9140efa5a79551c4c6cbd875",
+          "byteSize": 197739,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r5_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 生体システム工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度（2024年度）博士前期課程入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ",
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f1d36463529da37dabbb29b8eac4749f091e6bcd9c37824828c84c90b6a45025.pdf",
+          "originalName": "r6_1.pdf",
+          "sha256": "f1d36463529da37dabbb29b8eac4749f091e6bcd9c37824828c84c90b6a45025",
+          "byteSize": 275206,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r6_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/240d68604f6c98870c08f704f04ffb5a6ca5971bacb3526f4f8482fd87d4576c.pdf",
+          "originalName": "r6_2.pdf",
+          "sha256": "240d68604f6c98870c08f704f04ffb5a6ca5971bacb3526f4f8482fd87d4576c",
+          "byteSize": 481211,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r6_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-bio-systems-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 生体システム工学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "生体システム工学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度（2025年度）博士前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "生体システム工学Ⅰ",
+        "生体システム工学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "生体システム工学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d96752f810cc193ba1aa3002504e136aeebd58f61847d535a61cfa59c2e88276.pdf",
+          "originalName": "r7_1.pdf",
+          "sha256": "d96752f810cc193ba1aa3002504e136aeebd58f61847d535a61cfa59c2e88276",
+          "byteSize": 429883,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r7_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生体システム工学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7ff72356cb3c1be2cfbc44f19c2edc8f34239ef98b7e1a453e3985e073bc9a3b.pdf",
+          "originalName": "r7_2.pdf",
+          "sha256": "7ff72356cb3c1be2cfbc44f19c2edc8f34239ef98b7e1a453e3985e073bc9a3b",
+          "byteSize": 900691,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/生体系统/r7_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 基礎工学研究科的専門科目题群；科目名称不是独立专攻，故按「専門科目」分组，不把试卷限定为某一志望专攻。保留Ⅰ／Ⅱ原题及各年选答说明；没有随卷解答。此为基礎工学研究科機能創成専攻相关工程题群，与工学研究科的生物工学専攻区别；原科目旧称「生物工学」按卷面保留，不改成医学专业。",
+      "sourceURL": "https://www.me.es.osaka-u.ac.jp/msb/examinfo/bio.html"
+    },
+    {
+      "id": "osaka-information-2021",
+      "universityId": "osaka",
+      "title": "2021年度 · 情報工学（5専攻共通問題）",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報工学（5専攻共通問題）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和3年度（2021年度）博士前期課程入試問題",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "情報工学",
+        "アルゴリズムとプログラミング"
+      ],
+      "files": [
+        {
+          "label": "情報工学（共通原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a59e552c402e5ce16a341f2bfd913e58b098202a5db6f6114d90da32b8b112f3.pdf",
+          "originalName": "5_Information engineering_2021_JA.pdf",
+          "sha256": "a59e552c402e5ce16a341f2bfd913e58b098202a5db6f6114d90da32b8b112f3",
+          "byteSize": 9824372,
+          "pages": 11,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报工学/5_Information engineering_2021_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 卷面列出コンピュータサイエンス専攻、情報システム工学専攻、情報ネットワーク学専攻、マルチメディア工学専攻、バイオ情報工学専攻的共通「情報工学」试卷，按当年历史专攻名保留，不把考试科目虚构为专攻，也不拆成5份独立卷。2022年度原件同时出现在“情报工学／情报数理”两目录，字节完全相同，只收录一次，不能将它标为情報数理学卷。实际考试日期据封面核对。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-01"
+      ],
+      "historicalDepartments": [
+        "コンピュータサイエンス専攻",
+        "情報システム工学専攻",
+        "情報ネットワーク学専攻",
+        "マルチメディア工学専攻",
+        "バイオ情報工学専攻"
+      ]
+    },
+    {
+      "id": "osaka-information-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 情報工学（5専攻共通問題）",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報工学（5専攻共通問題）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度（2022年度）博士前期課程入試問題",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "情報工学",
+        "アルゴリズムとプログラミング"
+      ],
+      "files": [
+        {
+          "label": "情報工学（共通原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0a027cba822ec8f263a8e5f60c157abf70765f2d460cccf17a81cd9eaddddc01.pdf",
+          "originalName": "5_Information engineering_2022_JA.pdf",
+          "sha256": "0a027cba822ec8f263a8e5f60c157abf70765f2d460cccf17a81cd9eaddddc01",
+          "byteSize": 1767175,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报工学/5_Information engineering_2022_JA.pdf",
+            "大阪大学/情报科学/情报数理/5_Information engineering_2022_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 卷面列出コンピュータサイエンス専攻、情報システム工学専攻、情報ネットワーク学専攻、マルチメディア工学専攻、バイオ情報工学専攻的共通「情報工学」试卷，按当年历史专攻名保留，不把考试科目虚构为专攻，也不拆成5份独立卷。2022年度原件同时出现在“情报工学／情报数理”两目录，字节完全相同，只收录一次，不能将它标为情報数理学卷。实际考试日期据封面核对。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php",
+      "examYear": 2021,
+      "examDates": [
+        "2021-07-31"
+      ],
+      "historicalDepartments": [
+        "コンピュータサイエンス専攻",
+        "情報システム工学専攻",
+        "情報ネットワーク学専攻",
+        "マルチメディア工学専攻",
+        "バイオ情報工学専攻"
+      ]
+    },
+    {
+      "id": "osaka-information-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 情報工学（5専攻共通問題）",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報工学（5専攻共通問題）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度（2023年度）博士前期課程入試問題",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "情報工学",
+        "アルゴリズムとプログラミング"
+      ],
+      "files": [
+        {
+          "label": "情報工学（共通原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a4e17c0bddbf08251010278863404a2694744fdf522922fb29322584e459e646.pdf",
+          "originalName": "5_Information_engineering_2023_JA.pdf",
+          "sha256": "a4e17c0bddbf08251010278863404a2694744fdf522922fb29322584e459e646",
+          "byteSize": 1589715,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报工学/5_Information_engineering_2023_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 卷面列出コンピュータサイエンス専攻、情報システム工学専攻、情報ネットワーク学専攻、マルチメディア工学専攻、バイオ情報工学専攻的共通「情報工学」试卷，按当年历史专攻名保留，不把考试科目虚构为专攻，也不拆成5份独立卷。2022年度原件同时出现在“情报工学／情报数理”两目录，字节完全相同，只收录一次，不能将它标为情報数理学卷。实际考试日期据封面核对。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php",
+      "examYear": 2022,
+      "examDates": [
+        "2022-07-30"
+      ],
+      "historicalDepartments": [
+        "コンピュータサイエンス専攻",
+        "情報システム工学専攻",
+        "情報ネットワーク学専攻",
+        "マルチメディア工学専攻",
+        "バイオ情報工学専攻"
+      ]
+    },
+    {
+      "id": "osaka-information-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 情報工学（5専攻共通問題）",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報工学（5専攻共通問題）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度（2024年度）博士前期課程入試問題",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "情報工学",
+        "アルゴリズムとプログラミング"
+      ],
+      "files": [
+        {
+          "label": "情報工学（共通原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10.pdf",
+          "originalName": "5_Information engineering_2024_JA.pdf",
+          "sha256": "813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10",
+          "byteSize": 13866460,
+          "pages": 15,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报工学/5_Information engineering_2024_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 卷面列出コンピュータサイエンス専攻、情報システム工学専攻、情報ネットワーク学専攻、マルチメディア工学専攻、バイオ情報工学専攻的共通「情報工学」试卷，按当年历史专攻名保留，不把考试科目虚构为专攻，也不拆成5份独立卷。2022年度原件同时出现在“情报工学／情报数理”两目录，字节完全相同，只收录一次，不能将它标为情報数理学卷。实际考试日期据封面核对。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php",
+      "examYear": 2023,
+      "examDates": [
+        "2023-07-29"
+      ],
+      "historicalDepartments": [
+        "コンピュータサイエンス専攻",
+        "情報システム工学専攻",
+        "情報ネットワーク学専攻",
+        "マルチメディア工学専攻",
+        "バイオ情報工学専攻"
+      ]
+    },
+    {
+      "id": "osaka-information-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 情報工学（5専攻共通問題）",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報工学（5専攻共通問題）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度（2025年度）博士前期課程入試問題",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "情報工学",
+        "アルゴリズムとプログラミング"
+      ],
+      "files": [
+        {
+          "label": "情報工学（共通原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/89e91ff6e66e3eb2f9ce648201cc873de0b4bf13bd8c3c2b2e1a1ca9bf016d52.pdf",
+          "originalName": "5_Information engineering_2025_JA.pdf",
+          "sha256": "89e91ff6e66e3eb2f9ce648201cc873de0b4bf13bd8c3c2b2e1a1ca9bf016d52",
+          "byteSize": 1749345,
+          "pages": 15,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报工学/5_Information engineering_2025_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 卷面列出コンピュータサイエンス専攻、情報システム工学専攻、情報ネットワーク学専攻、マルチメディア工学専攻、バイオ情報工学専攻的共通「情報工学」试卷，按当年历史专攻名保留，不把考试科目虚构为专攻，也不拆成5份独立卷。2022年度原件同时出现在“情报工学／情报数理”两目录，字节完全相同，只收录一次，不能将它标为情報数理学卷。实际考试日期据封面核对。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php",
+      "examYear": 2024,
+      "examDates": [
+        "2024-07-27"
+      ],
+      "historicalDepartments": [
+        "コンピュータサイエンス専攻",
+        "情報システム工学専攻",
+        "情報ネットワーク学専攻",
+        "マルチメディア工学専攻",
+        "バイオ情報工学専攻"
+      ]
+    },
+    {
       "id": "kyushu-isee-info-2025",
       "universityId": "kyushu",
       "title": "2025年度 · 情報理工学専攻",
@@ -13160,6 +15839,9 @@
           "startPage": 1
         }
       ]
+    },
+    "osaka": {
+      "text": "大阪大学新增57组／95个PDF（94个问题原卷、1个科目参考书说明），无随卷解答。电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。年度按卷面入学年度，知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。基礎工学按考试科目分组，不把科目当专攻；乱码原名、封面和原页均保留。不声明全校、所有年度或缺少的科目齐全。"
     },
     "kyushu": {
       "text": "本校28组／16个PDF、646页，无解答。システム情報科学府修士課程入学試験10册：情報理工学専攻与電気電子工学専攻各令和3–7年度入学（2021–2025），实施日按封面为2020-12-05至06、2021-08-30至31、2022-08-29至30、2023-08-29至30、2024-09-10至11。paperYear按封面令和入学年度，examYear按实施年；R03是2021年入学、2020年12月实施。第1页为封面，其后到专门科目前是两专攻共用的数学（同年两册该段提取文本一致），专门科目从R03第9页、R04第7页、R05第8页、R06第9页、R07第8页打开，整册不拆。R04专门科目为扫描图；R06封面与数学页文字层乱码，封面经渲染核对。另有理工学専攻合册6份：2023–2025年度的2月与9月，封面只印理工学専攻（博士前期／修士・博士後期・前後期共通）和理工基礎题群，未印学府名，不写成総合理工学府，也不把题群当成独立专攻。只为機械工学基礎、電気・電子工学基礎、情報学基礎设入口；化学基礎、数学基礎、物理学基礎、生物科学基礎留在原册。2025年2月册未见生物科学基礎页眉，2024年2月册未见物理学基礎页眉。2025年度9月、2月两册与已上线的上智大学问题册字节相同，不另存、不改上智记录。不声明其他年度或全校齐全。"
