@@ -93,12 +93,13 @@ test('papers filter independently by school, historical graduate school, year an
  assert.equal(core.filter(papers,catalog.universities,{...all,school:'waseda',graduate:'工学系研究科'}).length,0);
  assert.equal(core.filter(papers,catalog.universities,{...all,query:'no-matching-paper'}).length,0);
 });
-test('room provides two peer entry cards, an independent PDF library, and existing quiz storage',()=>{
- const root=path.join(__dirname,'..'),room=fs.readFileSync(path.join(root,'practice.html'),'utf8'),drill=fs.readFileSync(path.join(root,'drill.html'),'utf8'),archive=fs.readFileSync(path.join(root,'past-papers.html'),'utf8');
- assert.equal((room.match(/class="room-path room-path--/g)||[]).length,2);assert.match(room,/href="past-papers.html"/);assert.match(room,/href="drill.html"/);assert.ok(!room.includes('src="practice.js"'));
- assert.match(archive,/past-papers-data.js/);assert.ok(!archive.includes('src="questions.js"'));assert.match(drill,/src="questions.js"/);assert.match(drill,/src="practice.js"/);
+test('room provides three peer entry cards, an independent PDF library, and existing quiz storage',()=>{
+ const root=path.join(__dirname,'..'),room=fs.readFileSync(path.join(root,'practice.html'),'utf8'),drill=fs.readFileSync(path.join(root,'drill.html'),'utf8'),archive=fs.readFileSync(path.join(root,'past-papers.html'),'utf8'),answers=fs.readFileSync(path.join(root,'answers.html'),'utf8');
+ assert.equal((room.match(/class="room-path room-path--/g)||[]).length,3);assert.match(room,/href="past-papers.html"/);assert.match(room,/href="drill.html"/);assert.match(room,/href="answers.html"/);assert.match(room,/03 \/ Answers/);assert.match(room,/id="answers-path-title">答案</);assert.ok(!room.includes('src="practice.js"'));
+ assert.match(archive,/past-papers-data.js/);assert.ok(!archive.includes('src="questions.js"'));assert.ok(!archive.includes('answers-data.js'));assert.match(drill,/src="questions.js"/);assert.match(drill,/src="practice.js"/);assert.ok(!drill.includes('answers-data.js'));
+ assert.match(answers,/answers-data\.js/);assert.ok(!answers.includes('past-papers-data.js'));assert.ok(!answers.includes('questions.js'));assert.ok(!answers.includes('过去问答案'));
  assert.match(fs.readFileSync(path.join(root,'practice.js'),'utf8'),/japan-study-journal:practice:v1/);assert.match(fs.readFileSync(path.join(root,'study-room.css'),'utf8'),/prefers-reduced-motion:reduce/);
- for(const name of ['practice.html','drill.html','past-papers.html']){const html=fs.readFileSync(path.join(root,name),'utf8'),ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);for(const m of html.matchAll(/\b(?:src|href)="([^"]+)"/g)){if(/^(?:https?:|data:|#)/.test(m[1]))continue;assert.ok(fs.existsSync(path.join(root,m[1].split(/[?#]/)[0])),m[1]);}}
+ for(const name of ['practice.html','drill.html','past-papers.html','answers.html']){const html=fs.readFileSync(path.join(root,name),'utf8'),ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);for(const m of html.matchAll(/\b(?:src|href)="([^"]+)"/g)){if(/^(?:https?:|data:|#)/.test(m[1]))continue;assert.ok(fs.existsSync(path.join(root,m[1].split(/[?#]/)[0])),m[1]);}}
 });
 
 

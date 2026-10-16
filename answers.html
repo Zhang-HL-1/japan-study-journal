@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="练习册答案书架。点开一本练习册的解答，可从头阅读，也可按题号跳到对应答案页。" />
+  <meta name="theme-color" content="#faf9f5" />
+  <title>答案｜练习室 · 留日手记</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="editorial.css" />
+  <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
+  <script src="answers-data.js?v=20261016-answers" defer></script>
+  <script src="answers-core.js?v=20261016-answers" defer></script>
+  <script src="answers.js?v=20261016-answers" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
+    <nav class="main-nav" aria-label="主要导航"><a href="index.html">首页</a><a href="exam-scope.html">考试科目与范围</a><a href="campus-map.html">大学院地图</a><a class="is-active" href="practice.html">练习室</a></nav>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">打开导航</span><span></span><span></span></button>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden><a href="index.html">首页</a><a href="exam-scope.html">考试科目与范围</a><a href="campus-map.html">大学院地图</a><a href="practice.html">练习室</a></nav>
+  <main class="answers-main" id="main">
+    <nav class="room-breadcrumb room-breadcrumb--answers" aria-label="练习室导航"><a href="practice.html">← 返回练习室</a><span aria-current="page">答案</span><a class="breadcrumb-peer" href="past-papers.html">过去问题库 ↗</a><a class="breadcrumb-peer" href="drill.html">刷题练习 ↗</a></nav>
+    <section class="papers-heading" aria-labelledby="answers-title">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-line"></span>Answers / 練習帳の解答</p>
+        <h1 id="answers-title">答案在书架上。</h1>
+        <p id="answers-lead">先选一本练习册。打开后可以从头读，也可以输入题号，跳到该题解答的起始页。</p>
+      </div>
+      <p class="papers-total"><strong id="answer-total">0</strong>本<br /><span>练习册答案</span></p>
+    </section>
+    <p class="paper-error" id="answer-error" role="status" hidden></p>
+    <div class="answer-shelf" id="answer-shelf" role="group" aria-label="练习册答案书架"></div>
+    <section class="answer-reader" id="answer-reader" aria-label="答案阅读" tabindex="-1" hidden>
+      <button class="paper-close" id="answer-back" type="button">← 返回书架</button>
+      <p class="answer-kicker" id="answer-book-kicker" lang="ja"></p>
+      <h2 id="answer-book-title"></h2>
+      <p class="answer-meta" id="answer-book-meta"></p>
+      <p class="answer-hint" id="answer-hint"></p>
+      <form class="answer-jump" id="answer-jump">
+        <label>题号<input id="answer-query" type="text" inputmode="text" enterkeyhint="go" maxlength="40" autocomplete="off" placeholder="例如 1.1" aria-describedby="answer-hint" /></label>
+        <button type="submit">跳到该题</button>
+        <button id="answer-from-start" type="button">从头阅读</button>
+      </form>
+      <p class="answer-status" id="answer-status" role="status" aria-live="polite"></p>
+      <div class="answer-choices" id="answer-choices" role="group" aria-label="同一题号的其他章"></div>
+      <div class="paper-reader-actions" id="answer-actions"></div>
+      <div id="answer-frame-slot"></div>
+      <p class="answer-frame-note">手机或浏览器未显示 PDF 时，可在新窗口打开。不输入题号时，从第 1 页滚动阅读。</p>
+    </section>
+    <p class="papers-footnote">这里只放练习册答案。过去问仍在过去问题库；按知识点练习请进入刷题。</p>
+    <noscript><p class="paper-error">请开启 JavaScript 使用答案书架。你可以<a href="practice.html">返回练习室</a>。</p></noscript>
+  </main>
+  <footer class="site-footer"><a class="brand brand--footer" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a><p>对照一页解答，把题目看完。</p><p class="copyright">© <span id="year">2026</span></p></footer>
+</body>
+</html>

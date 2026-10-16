@@ -100,7 +100,7 @@ test('corrupted existing storage is not overwritten; blocked saving is surfaced'
   const b=boot([],null,true);assert.match(b.ids['storage-status'].textContent,/无法保存/);
 });
 test('all local page assets and navigation destinations exist; IDs are unique',()=>{
-  for(const name of ['index.html','practice.html','drill.html','past-papers.html']) {
+  for(const name of ['index.html','practice.html','drill.html','past-papers.html','answers.html']) {
     const html=fs.readFileSync(path.join(root,name),'utf8'); const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length);
     for(const m of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {if(/^(?:https?:|data:|#)/.test(m[1]))continue;assert.ok(fs.existsSync(path.join(root,m[1].split(/[?#]/)[0])),m[1]);}
   }
