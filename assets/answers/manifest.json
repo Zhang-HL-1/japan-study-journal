@@ -1,0 +1,25 @@
+{
+  "note": "练习册答案原字节。扫描脚本不改写 PDF。过去问答案不在此清单。",
+  "files": [
+    {
+      "id": "denjiki",
+      "shortTitle": "電磁気学演習 第3版（答案）",
+      "sourceName": "denjiki-answers.pdf",
+      "path": "assets/answers/documents/c6446d1101f20a9a64350e7a243586cfd7d1d31b8c2b3ab0979b16a6968446be.pdf",
+      "sha256": "c6446d1101f20a9a64350e7a243586cfd7d1d31b8c2b3ab0979b16a6968446be",
+      "bytes": 3038784,
+      "pages": 331,
+      "answers": 308
+    },
+    {
+      "id": "denki-kairo",
+      "shortTitle": "詳解電気回路演習（上）（答案）",
+      "sourceName": "denki-kairo-answers.pdf",
+      "path": "assets/answers/documents/76a976818362aef0a5cf68a48fab5304df1a33c48ae50b7af45f7b5de8ae3f42.pdf",
+      "sha256": "76a976818362aef0a5cf68a48fab5304df1a33c48ae50b7af45f7b5de8ae3f42",
+      "bytes": 5320708,
+      "pages": 562,
+      "answers": 497
+    }
+  ]
+}
