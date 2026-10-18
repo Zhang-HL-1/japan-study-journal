@@ -130,7 +130,7 @@
 
 ## 过去问题库与刷题入口
 
-- [过去问题库](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html)：现有23所大学的学校索引；已收录早大35组／41个PDF、东理61组／121个PDF，加上东科33组、上智6个题群入口／4个PDF，再加神户12组／45个PDF、北海道16组／29个PDF，共163组／289个原卷及补充PDF（含早期部分资料），另附1个待核验照片PDF。
+- [过去问题库](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html)：现有23所大学的学校索引；已收录早大41组／47个PDF、东理61组／121个PDF，加上东科33组、上智6个题群入口／4个PDF，再加神户12组／45个PDF、北海道16组／29个PDF，共163组／289个原卷及补充PDF（含早期部分资料），另附1个待核验照片PDF。
 - [刷题练习](https://zhang-hl-1.github.io/japan-study-journal/drill.html)：原有刷题功能与浏览器学习记录继续使用。
 - 原卷添加格式、PDF存放位置和模块说明见 [docs/study-room.md](docs/study-room.md)。过去问目录位于 `past-papers-data.js`，独立于 `questions.js`，原卷目录已加入早大、东理、东科、上智与神户资料，逐题刷题库仍为空。
 
@@ -143,3 +143,5 @@
 庆应义塾大学过去问已添加46组／46个PDF、307页：理工学研究科2021–2024年材料、应用力学、信息、物理信息、电气电子、数理科学、物理学、オープンシステムマネジメント，以及2025年数理科学、物理学、物理信息工学、机械工学、电气信息工学。2026-10-18补录原先排除的数理科学、物理学和オープンシステムマネジメント，新增14组、14个唯一PDF、126页。系统统合、多学科设计科学、系统设计工学标为边界／待确认。封面只有考试月，按考试年索引；入口 [庆应义塾大学过去问](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html?school=keio)。
 
 神户大学过去问现为34组／77个唯一PDF、270页。2026-10-18补录原先排除的理学研究科数学専攻、物理学専攻，新增22组、32个唯一PDF、159页；已上线的12组／45个PDF保持不变。数学按封面入学年度，物理封面只印实施日，入学年度按实施年+1。学部「志」特别选拔仍不建入口；入口 [神户大学过去问](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html?school=kobe)。
+
+早稻田大学过去问现为41组／47个唯一PDF、584页。2026-10-18补录原先排除的基幹理工学研究科数学応用数理専攻与先進理工学研究科物理学及応用物理学専攻，新增6组、6个唯一PDF、100页；已上线的35组／41个PDF保持不变。封面按9月入学年索引，同时保留次年4月入学。物理2024册首页订正通知整册保留。2份口述試験说明不建入口；入口 [早稻田大学过去问](https://zhang-hl-1.github.io/japan-study-journal/past-papers.html?school=waseda)。

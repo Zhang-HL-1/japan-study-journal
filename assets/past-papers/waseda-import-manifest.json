@@ -370,40 +370,95 @@
       "pages": 11,
       "originalName": "53_M_kyodogenshi_2025_September2026_April_ippan_senmon.pdf",
       "sourcePath": "早稻田大学/先进理工/共同原子力/53_M_kyodogenshi_2025_September2026_April_ippan_senmon.pdf"
+    },
+    {
+      "path": "assets/past-papers/documents/40dda35842115fc434aedc2b5dfb1c5cc2775b2f559faa9de519e77533042992.pdf",
+      "sha256": "40dda35842115fc434aedc2b5dfb1c5cc2775b2f559faa9de519e77533042992",
+      "blobSha": "6a1499dbd3d6b4f4090d7ab7b2275e4c4d20d6c1",
+      "byteSize": 335257,
+      "pages": 18,
+      "originalName": "51_M_sugaku_2023_September2024_April_ippan_senmon.pdf",
+      "sourcePath": "早稻田大学/基干理工/数学应用/51_M_sugaku_2023_September2024_April_ippan_senmon.pdf"
+    },
+    {
+      "path": "assets/past-papers/documents/6b76b6cced0f7d2b71e9e834e42b8f96833ea3ca2b810435ce9d95ceb8609116.pdf",
+      "sha256": "6b76b6cced0f7d2b71e9e834e42b8f96833ea3ca2b810435ce9d95ceb8609116",
+      "blobSha": "9be63d3b74543b21151671025baf45031afadd96",
+      "byteSize": 382327,
+      "pages": 18,
+      "originalName": "51_M_sugaku_2024_September2025_April_ippan_senmon.pdf",
+      "sourcePath": "早稻田大学/基干理工/数学应用/51_M_sugaku_2024_September2025_April_ippan_senmon.pdf"
+    },
+    {
+      "path": "assets/past-papers/documents/fca01974bef4b592fadbcbbd577c3e8877e945624198547a18cce325ad5082da.pdf",
+      "sha256": "fca01974bef4b592fadbcbbd577c3e8877e945624198547a18cce325ad5082da",
+      "blobSha": "f8c60da1b0c6d31df328ffdbf744464b71429ea7",
+      "byteSize": 315917,
+      "pages": 18,
+      "originalName": "51_M_sugaku_2025_September2026_April_ippan_senmon.pdf",
+      "sourcePath": "早稻田大学/基干理工/数学应用/51_M_sugaku_2025_September2026_April_ippan_senmon.pdf"
+    },
+    {
+      "path": "assets/past-papers/documents/40215c5cab5c186a2ef2c5ce723599f11efe77e1dba6e5c20ec08f4cb7b9277c.pdf",
+      "sha256": "40215c5cab5c186a2ef2c5ce723599f11efe77e1dba6e5c20ec08f4cb7b9277c",
+      "blobSha": "4ffe7169f32935d94847e91502a72ab25c53d315",
+      "byteSize": 393240,
+      "pages": 15,
+      "originalName": "53_M_butsuri_2023_September2024_April_ippan_senmon.pdf",
+      "sourcePath": "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2023_September2024_April_ippan_senmon.pdf"
+    },
+    {
+      "path": "assets/past-papers/documents/f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0.pdf",
+      "sha256": "f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0",
+      "blobSha": "9a229931798b6ef3c0599d96a619adce76438861",
+      "byteSize": 532480,
+      "pages": 16,
+      "originalName": "53_M_butsuri_2024_September2025_April_ippan_senmon.pdf",
+      "sourcePath": "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2024_September2025_April_ippan_senmon.pdf"
+    },
+    {
+      "path": "assets/past-papers/documents/5da726b36e2589dbce2dc68d56a545723813842f43102d92402f7e6b6cf35384.pdf",
+      "sha256": "5da726b36e2589dbce2dc68d56a545723813842f43102d92402f7e6b6cf35384",
+      "blobSha": "af205208be6a0ef8231b52772fba7f42dcb26f90",
+      "byteSize": 386803,
+      "pages": 15,
+      "originalName": "53_M_butsuri_2025_September2026_April_ippan_senmon.pdf",
+      "sourcePath": "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2025_September2026_April_ippan_senmon.pdf"
     }
   ],
   "excluded": [
     {
-      "sourcePath": "早稻田大学/基干理工/数学应用/51_M_sugaku_2023_September2024_April_ippan_senmon.pdf",
-      "reason": "既有专业范围排除：数学／应用数学或物理学／应用物理学"
-    },
-    {
-      "sourcePath": "早稻田大学/基干理工/数学应用/51_M_sugaku_2024_September2025_April_ippan_senmon.pdf",
-      "reason": "既有专业范围排除：数学／应用数学或物理学／应用物理学"
-    },
-    {
-      "sourcePath": "早稻田大学/基干理工/数学应用/51_M_sugaku_2025_September2026_April_ippan_senmon.pdf",
-      "reason": "既有专业范围排除：数学／应用数学或物理学／应用物理学"
-    },
-    {
-      "sourcePath": "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2024_September2025_April_ippan_senmon.pdf",
-      "reason": "既有专业范围排除：数学／应用数学或物理学／应用物理学"
-    },
-    {
-      "sourcePath": "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2023_September2024_April_ippan_senmon.pdf",
-      "reason": "既有专业范围排除：数学／应用数学或物理学／应用物理学"
-    },
-    {
-      "sourcePath": "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2025_September2026_April_ippan_senmon.pdf",
-      "reason": "既有专业范围排除：数学／应用数学或物理学／应用物理学"
-    },
-    {
       "sourcePath": "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2024_September2025_April_ippan_kou.pdf",
-      "reason": "既有专业范围排除：数学／应用数学或物理学／应用物理学"
+      "reason": "口述試験说明、非笔试",
+      "sha256": "0b60799eaa6f5fb66f99a34cdbaef2fda429886a451f6d4ec5e389be61c52928",
+      "pages": 7,
+      "byteSize": 239765
     },
     {
       "sourcePath": "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2025_September2026_April_ippan_kou.pdf",
-      "reason": "既有专业范围排除：数学／应用数学或物理学／应用物理学"
+      "reason": "口述試験说明、非笔试",
+      "sha256": "edd6141e77b8026e1ba74588438f5f623df2fdaf2511edba61a51ea9fadf6938",
+      "pages": 8,
+      "byteSize": 184550
     }
-  ]
+  ],
+  "groups": 41,
+  "uniquePDFs": 47,
+  "totalPages": 584,
+  "yearBasis": "academic",
+  "backfill": {
+    "addedAt": "2026-10-18",
+    "addedGroups": 6,
+    "addedUniquePDFs": 6,
+    "addedPages": 100,
+    "mathGroups": 3,
+    "physicsGroups": 3,
+    "mathPages": 54,
+    "physicsPages": 46,
+    "priorGroups": 35,
+    "priorUniquePDFs": 41,
+    "priorPages": 484,
+    "skippedNotExam": 2,
+    "note": "补录原先排除的基幹理工学研究科数学応用数理専攻専門科目3份、先進理工学研究科物理学及応用物理学専攻専門科目3份。yearBasis为academic：封面「YYYY年9月・(YYYY+1)年4月入学試験」的paperYear为YYYY，admissionYears为[YYYY, YYYY+1]；右上角戳记不是paperYear。物理2024册首页为订正通知，整册保留。2份ippan_kou口述試験说明留在excluded，不入库、不建入口。"
+  }
 }
