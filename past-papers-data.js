@@ -22886,6 +22886,839 @@
       "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 按云盘文件夹归类，封面无研究科／专攻名。封面为「2025年度実施上期入試筆答試験 出題意図・解答例」，1页，不是试题。本文件夹没有2025年试题，不补造。2508comments.pdf与「2508comments (1).pdf」字节相同，两个sourcePaths都保留。"
     },
     {
+      "id": "tohoku-sci-math-2022",
+      "universityId": "tohoku",
+      "title": "令和4年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "数学専攻入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-19"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学共通問題",
+        "数学選択問題",
+        "英語"
+      ],
+      "files": [
+        {
+          "label": "数学共通問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6110ccabe6011778aebd2b7b2760cae02ff6a050fb05faeed14330c67bddee6d.pdf",
+          "originalName": "2022_R4_kyotsu.pdf",
+          "sha256": "6110ccabe6011778aebd2b7b2760cae02ff6a050fb05faeed14330c67bddee6d",
+          "byteSize": 109319,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/理学/数学/2022_R4_kyotsu.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f337b6d1a47d494cd8f448bb4f7c860024fc67959f11c7353e1dbfc786484c24.pdf",
+          "originalName": "2022_R4_sentaku.pdf",
+          "sha256": "f337b6d1a47d494cd8f448bb4f7c860024fc67959f11c7353e1dbfc786484c24",
+          "byteSize": 229241,
+          "pages": 7,
+          "sourcePaths": [
+            "东北大学/理学/数学/2022_R4_sentaku.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "英語",
+          "kind": "question",
+          "url": "assets/past-papers/documents/91cff6176ee1457fdc8c093096343f9c7c71ec7cf7c509240b1d2c5fa0b645b6.pdf",
+          "originalName": "2022_R4_English.pdf",
+          "sha256": "91cff6176ee1457fdc8c093096343f9c7c71ec7cf7c509240b1d2c5fa0b645b6",
+          "byteSize": 53251,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/理学/数学/2022_R4_English.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院理学研究科数学専攻入学試験問題，印令和4年度，实施日令和3年8月19日。同一日三册时间分别为共通9時30分から12時、選択13時30分から15時30分、英語16時から17時。paperYear用封面令和年度（令和N＝2018+N），examDates只用封面公历日，封面未写「N年4月入学」，不写admissionYears。文件名里的公历年与令和年度一致，不把文件名当成实施年。英语册封面未单列「英語」，第2页起为英文和译。无解答。英语页如有著作权未公开说明，PDF字节未改。"
+    },
+    {
+      "id": "tohoku-sci-math-2023",
+      "universityId": "tohoku",
+      "title": "令和5年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "数学専攻入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-18"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学共通問題",
+        "数学選択問題",
+        "英語"
+      ],
+      "files": [
+        {
+          "label": "数学共通問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3f09966ad1c58985ad250af9ac06a6ac1ae5d5f25b7c1cbe377c01cdd163ea26.pdf",
+          "originalName": "2023_R5_kyotsu.pdf",
+          "sha256": "3f09966ad1c58985ad250af9ac06a6ac1ae5d5f25b7c1cbe377c01cdd163ea26",
+          "byteSize": 163934,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/理学/数学/2023_R5_kyotsu.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ef36de07e8e6a6247f15d82f12579b2453f63a1620c0269a8a770594f7c192df.pdf",
+          "originalName": "2023_R5_sentaku.pdf",
+          "sha256": "ef36de07e8e6a6247f15d82f12579b2453f63a1620c0269a8a770594f7c192df",
+          "byteSize": 350086,
+          "pages": 7,
+          "sourcePaths": [
+            "东北大学/理学/数学/2023_R5_sentaku.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "英語",
+          "kind": "question",
+          "url": "assets/past-papers/documents/17da683b2de99eb08474703a0a4d6e2241d5993a4b59408392a5e0efd1311f0d.pdf",
+          "originalName": "2023_R5_English.pdf",
+          "sha256": "17da683b2de99eb08474703a0a4d6e2241d5993a4b59408392a5e0efd1311f0d",
+          "byteSize": 87482,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/理学/数学/2023_R5_English.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院理学研究科数学専攻入学試験問題，印令和5年度，实施日令和4年8月18日。同一日三册时间分别为共通9時30分から12時、選択13時30分から15時30分、英語16時15分から17時。paperYear用封面令和年度（令和N＝2018+N），examDates只用封面公历日，封面未写「N年4月入学」，不写admissionYears。文件名里的公历年与令和年度一致，不把文件名当成实施年。英语册封面未单列「英語」，第2页起为英文和译。无解答。英语页如有著作权未公开说明，PDF字节未改。"
+    },
+    {
+      "id": "tohoku-sci-math-2024",
+      "universityId": "tohoku",
+      "title": "令和6年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "数学専攻入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学共通問題",
+        "数学選択問題",
+        "英語"
+      ],
+      "files": [
+        {
+          "label": "数学共通問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/30614a59b27047ad500f35459d030259b08fe713ca2f440056c53c5fab490f97.pdf",
+          "originalName": "2024_R6_kyotsu.pdf",
+          "sha256": "30614a59b27047ad500f35459d030259b08fe713ca2f440056c53c5fab490f97",
+          "byteSize": 51004,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/理学/数学/2024_R6_kyotsu.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bc7ddad7d452f4dd8effe8a01af827e77c430f07d9ae4e22f0060db191bee464.pdf",
+          "originalName": "2024_R6_sentaku.pdf",
+          "sha256": "bc7ddad7d452f4dd8effe8a01af827e77c430f07d9ae4e22f0060db191bee464",
+          "byteSize": 119706,
+          "pages": 7,
+          "sourcePaths": [
+            "东北大学/理学/数学/2024_R6_sentaku.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "英語",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5d2d02c73c3c6810b1ea5d93048111fa13687731b08f7559b3e22b4272b3015b.pdf",
+          "originalName": "2024_R6_English.pdf",
+          "sha256": "5d2d02c73c3c6810b1ea5d93048111fa13687731b08f7559b3e22b4272b3015b",
+          "byteSize": 1470249,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/理学/数学/2024_R6_English.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院理学研究科数学専攻入学試験問題，印令和6年度，实施日令和5年8月23日。同一日三册时间分别为共通9時30分から12時、選択13時30分から15時30分、英語16時15分から17時。paperYear用封面令和年度（令和N＝2018+N），examDates只用封面公历日，封面未写「N年4月入学」，不写admissionYears。文件名里的公历年与令和年度一致，不把文件名当成实施年。英语册封面科目行的文字层乱码，版式与前后年度的「英語」一致，第2页为英文阅读。无解答。英语页如有著作权未公开说明，PDF字节未改。"
+    },
+    {
+      "id": "tohoku-sci-math-2025",
+      "universityId": "tohoku",
+      "title": "令和7年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "数学専攻入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-22"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学共通問題",
+        "数学選択問題",
+        "英語",
+        "出題意図"
+      ],
+      "files": [
+        {
+          "label": "数学共通問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5b647c8c1f4d665019d7a8642fd2cc4d1dc7b4c1c69aa4ed7f1259e602f602a3.pdf",
+          "originalName": "2025_R7_kyotsu.pdf",
+          "sha256": "5b647c8c1f4d665019d7a8642fd2cc4d1dc7b4c1c69aa4ed7f1259e602f602a3",
+          "byteSize": 52503,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/理学/数学/2025_R7_kyotsu.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8073a96203bfc3c3caa62e3d95bc0b9c1aebdb715a2e11df9db0e8ffe19327f3.pdf",
+          "originalName": "2025_R7_sentaku.pdf",
+          "sha256": "8073a96203bfc3c3caa62e3d95bc0b9c1aebdb715a2e11df9db0e8ffe19327f3",
+          "byteSize": 85770,
+          "pages": 9,
+          "sourcePaths": [
+            "东北大学/理学/数学/2025_R7_sentaku.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "英語",
+          "kind": "question",
+          "url": "assets/past-papers/documents/32a403bf355fc1c851b1d72e585b5b1399e7bec8b3037d246f00693607e69551.pdf",
+          "originalName": "2025_R7_English.pdf",
+          "sha256": "32a403bf355fc1c851b1d72e585b5b1399e7bec8b3037d246f00693607e69551",
+          "byteSize": 98117,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/理学/数学/2025_R7_English.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出題意図（非试题／非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/f9e139017115178a3185efddf172a5cec9c42af7b598e205ef390ec9d296d6b6.pdf",
+          "originalName": "2025_R7_purpose.pdf",
+          "sha256": "f9e139017115178a3185efddf172a5cec9c42af7b598e205ef390ec9d296d6b6",
+          "byteSize": 98749,
+          "pages": 2,
+          "sourcePaths": [
+            "东北大学/理学/数学/2025_R7_purpose.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院理学研究科数学専攻入学試験問題，印令和7年度，实施日令和6年8月22日。同一日三册时间分别为共通9時30分から12時、選択13時30分から15時30分、英語16時15分から17時。paperYear用封面令和年度（令和N＝2018+N），examDates只用封面公历日，封面未写「N年4月入学」，不写admissionYears。文件名里的公历年与令和年度一致，不把文件名当成实施年。另附「令和7年度大学院入学試験問題出題意図」，封面没有公历日，类型为other，不是解答。英语册封面未单列「英語」，第2页起为英文和译。无解答。英语页如有著作权未公开说明，PDF字节未改。"
+    },
+    {
+      "id": "tohoku-sci-math-2026",
+      "universityId": "tohoku",
+      "title": "令和8年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "数学専攻入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和8年度",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学共通問題",
+        "数学選択問題",
+        "英語",
+        "出題意図・講評"
+      ],
+      "files": [
+        {
+          "label": "数学共通問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a730c45c92954c2d9bb1df59758926e79f5e4e8937077980f9d0a53f5a646963.pdf",
+          "originalName": "2026_R8_kyotsu.pdf",
+          "sha256": "a730c45c92954c2d9bb1df59758926e79f5e4e8937077980f9d0a53f5a646963",
+          "byteSize": 95431,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/理学/数学/2026_R8_kyotsu.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学選択問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c9afff7e50ad772ad6a5977d885f43af9a10cb086148e8644acc44ecda66e958.pdf",
+          "originalName": "2026_R8_sentaku.pdf",
+          "sha256": "c9afff7e50ad772ad6a5977d885f43af9a10cb086148e8644acc44ecda66e958",
+          "byteSize": 125321,
+          "pages": 8,
+          "sourcePaths": [
+            "东北大学/理学/数学/2026_R8_sentaku.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "英語",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1108dced7be6eb3b80068e094c4684627169d1b804e591647868d64701877bc3.pdf",
+          "originalName": "2026_R8_English.pdf",
+          "sha256": "1108dced7be6eb3b80068e094c4684627169d1b804e591647868d64701877bc3",
+          "byteSize": 143656,
+          "pages": 3,
+          "sourcePaths": [
+            "东北大学/理学/数学/2026_R8_English.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出題意図・講評（非试题／非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/4d36ef80511a9f84e0943c6e120add6cfb1ba5891145a050aea58ab0f5e1cd3c.pdf",
+          "originalName": "2026_R8_purpose.pdf",
+          "sha256": "4d36ef80511a9f84e0943c6e120add6cfb1ba5891145a050aea58ab0f5e1cd3c",
+          "byteSize": 159012,
+          "pages": 5,
+          "sourcePaths": [
+            "东北大学/理学/数学/2026_R8_purpose.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学大学院理学研究科数学専攻入学試験問題，印令和8年度，实施日令和7年8月21日。同一日三册时间分别为共通9時30分から12時、選択13時30分から15時30分、英語16時15分から17時。paperYear用封面令和年度（令和N＝2018+N），examDates只用封面公历日，封面未写「N年4月入学」，不写admissionYears。文件名里的公历年与令和年度一致，不把文件名当成实施年。英语册封面单列「英語」。另附「2026年度博士課程前期2年の課程一般選抜（数学専攻）筆記試験問題出題意図・講評」，与试题封面令和8年度为同一年度；试题封面未印「一般選抜」或「博士課程前期」。类型为other，不是解答。无解答。英语页如有著作权未公开说明，PDF字节未改。"
+    },
+    {
+      "id": "tohoku-sci-phys-2021",
+      "universityId": "tohoku",
+      "title": "令和3年度 · 物理学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "博士課程前期２年の課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和3年度",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-24",
+        "2020-08-25"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学"
+      ],
+      "files": [
+        {
+          "label": "筆記試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f7ca0612bac2f50abcaaae8fe9019acce518082cb2733bc3ed47d07000599dce.pdf",
+          "originalName": "exa-r3.pdf",
+          "sha256": "f7ca0612bac2f50abcaaae8fe9019acce518082cb2733bc3ed47d07000599dce",
+          "byteSize": 545447,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/理学/物理/exa-r3.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为令和３年度東北大学大学院理学研究科博士課程前期２年の課程入学試験、物理学専攻筆記試験問題，实施日令和２年８月２４日（月）・２５日（火）。paperYear用令和3年度（2021），examYear为2020。文件名exa-r3对应令和3年度，不是实施年。内页为扫描，页眉科目为基础数学、力学、電磁気学、量子力学、熱・統計力学。无英语页，无解答。"
+    },
+    {
+      "id": "tohoku-sci-phys-2022",
+      "universityId": "tohoku",
+      "title": "令和4年度 · 物理学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "博士課程前期２年の課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学"
+      ],
+      "files": [
+        {
+          "label": "筆記試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/211bf79f578947e356920933dfa3a6b9850bd0bf383ea78ba1057a9c27688eb9.pdf",
+          "originalName": "exa-r4.pdf",
+          "sha256": "211bf79f578947e356920933dfa3a6b9850bd0bf383ea78ba1057a9c27688eb9",
+          "byteSize": 676232,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/理学/物理/exa-r4.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为令和4年度物理学専攻筆記試験問題，只印令和３年８月２３日（月）一日。paperYear用令和4年度（2022）。文件名exa-r4对应令和4年度，不是实施年。整册含基礎数学、力学、電磁気学、量子力学、熱・統計力学。无英语页，无解答。"
+    },
+    {
+      "id": "tohoku-sci-phys-2023",
+      "universityId": "tohoku",
+      "title": "令和5年度 · 物理学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "博士課程前期２年の課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学"
+      ],
+      "files": [
+        {
+          "label": "筆記試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d88b877b20484accc561cf0f7e3da72758c941adebf8877f9821351954e462f6.pdf",
+          "originalName": "exa-r5.pdf",
+          "sha256": "d88b877b20484accc561cf0f7e3da72758c941adebf8877f9821351954e462f6",
+          "byteSize": 870684,
+          "pages": 19,
+          "sourcePaths": [
+            "东北大学/理学/物理/exa-r5.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为令和5年度物理学専攻筆記試験問題，首页科目印基礎数学，实施日令和４年８月２３日（火）。其后各科目页重复同一年度和同一日。paperYear用令和5年度（2023）。整册含基礎数学、力学、電磁気学、量子力学、熱・統計力学。无英语页，无解答。"
+    },
+    {
+      "id": "tohoku-sci-phys-2024",
+      "universityId": "tohoku",
+      "title": "令和6年度 · 物理学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "博士課程前期２年の課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-22"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学"
+      ],
+      "files": [
+        {
+          "label": "筆記試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d81a8236a757b8c03fee11d7fbe4db5c6f3785d1efc12166ebb6a56b0adc28d5.pdf",
+          "originalName": "exa-r6.pdf",
+          "sha256": "d81a8236a757b8c03fee11d7fbe4db5c6f3785d1efc12166ebb6a56b0adc28d5",
+          "byteSize": 739869,
+          "pages": 19,
+          "sourcePaths": [
+            "东北大学/理学/物理/exa-r6.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为令和6年度物理学専攻筆記試験問題，首页科目印基礎数学，实施日令和５年８月２２日（火）。paperYear用令和6年度（2024）。整册含基礎数学、力学、電磁気学、量子力学、熱・統計力学。无英语页，无解答。"
+    },
+    {
+      "id": "tohoku-sci-phys-2025",
+      "universityId": "tohoku",
+      "title": "令和7年度 · 物理学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "博士課程前期２年の課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学",
+        "出題意図"
+      ],
+      "files": [
+        {
+          "label": "筆記試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/57ad9971265bff4ece510a42a1a5146e038fce6d8d6876056487170a4842d683.pdf",
+          "originalName": "exa-r7.pdf",
+          "sha256": "57ad9971265bff4ece510a42a1a5146e038fce6d8d6876056487170a4842d683",
+          "byteSize": 915138,
+          "pages": 18,
+          "sourcePaths": [
+            "东北大学/理学/物理/exa-r7.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出題意図（非试题／非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/d77772c0eee176ac3f247cf9d890e77484fb9d2d3aceb4d8de133e46560b5373.pdf",
+          "originalName": "exa_obj-r7.pdf",
+          "sha256": "d77772c0eee176ac3f247cf9d890e77484fb9d2d3aceb4d8de133e46560b5373",
+          "byteSize": 66489,
+          "pages": 1,
+          "sourcePaths": [
+            "东北大学/理学/物理/exa_obj-r7.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为令和７年度物理学専攻筆記試験問題，首页科目印基礎数学，实施日令和６年８月２０日（火）。paperYear用令和7年度（2025）。整册含基礎数学、力学、電磁気学、量子力学、熱・統計力学，没有英语页。另附同年「物理学専攻 出題意図」，写明英语题因著作权未公开；类型为other，不是解答。"
+    },
+    {
+      "id": "tohoku-sci-phys-2026",
+      "universityId": "tohoku",
+      "title": "令和8年度 · 物理学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "博士課程前期２年の課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和8年度",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎数学",
+        "力学",
+        "電磁気学",
+        "量子力学",
+        "熱・統計力学",
+        "出題意図・講評"
+      ],
+      "files": [
+        {
+          "label": "筆記試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/21651beb74074b9e906f601c050e0c1f5a93c7f95e1eea171bde460cad877c95.pdf",
+          "originalName": "exa-r8.pdf",
+          "sha256": "21651beb74074b9e906f601c050e0c1f5a93c7f95e1eea171bde460cad877c95",
+          "byteSize": 1336478,
+          "pages": 23,
+          "sourcePaths": [
+            "东北大学/理学/物理/exa-r8.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出題意図・講評（非试题／非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/d62e2ff2fd66493fa7e630eb72b96b573ef1b62b85545cc1e90b4545d9446f9b.pdf",
+          "originalName": "exa_obj-r8.pdf",
+          "sha256": "d62e2ff2fd66493fa7e630eb72b96b573ef1b62b85545cc1e90b4545d9446f9b",
+          "byteSize": 1758083,
+          "pages": 2,
+          "sourcePaths": [
+            "东北大学/理学/物理/exa_obj-r8.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为令和８年度物理学専攻筆記試験問題，首页科目印基礎数学，实施日用西历２０２５年８月１９日（火），不是令和日期。paperYear用令和8年度（2026），不用封面西历年改写成2025，也不把文件名exa-r8当成实施年。整册含基礎数学、力学、電磁気学、量子力学、熱・統計力学，没有英语页。另附「2026年度…物理学専攻 出題意図・講評」，与令和8年度为同一年度；类型为other，不是解答。"
+    },
+    {
+      "id": "tohoku-civil-2023-autumn",
+      "universityId": "tohoku",
+      "title": "2023秋 · 土木 · 基礎科目",
+      "graduateSchool": "工学研究科",
+      "department": "土木",
+      "selectionName": "基礎科目（封面无専攻名，按云盘文件夹「土木」归类）",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023秋",
+      "examYear": 2023,
+      "subjects": [
+        "基礎科目",
+        "微分積分",
+        "線形代数",
+        "確率統計",
+        "生物・生態学"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a919d6f2e85e3c0d15d6dc0ed9ae070c1914d04da50609f682a08c9864837866.pdf",
+          "originalName": "2023_autumn_BasicSubjectsJ.pdf",
+          "sha256": "a919d6f2e85e3c0d15d6dc0ed9ae070c1914d04da50609f682a08c9864837866",
+          "byteSize": 182201,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/土木（math）/2023_autumn_BasicSubjectsJ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面只印「2023秋」和「基礎科目」，不印研究科、専攻、「年度」、入学年月或公历日。paperYear与examYear用印出的公历年2023，yearBasis为exam，不写admissionYears，也不写examDates。春／秋按封面原文保留，不补写成入学。页内分节为微分積分、線形代数、確率統計、生物・生態学。研究科按云盘文件夹归入工学研究科；文件夹为土木，封面没有専攻名，不写成土木工学専攻。无解答。"
+    },
+    {
+      "id": "tohoku-civil-2024-spring",
+      "universityId": "tohoku",
+      "title": "2024春 · 土木 · 基礎科目",
+      "graduateSchool": "工学研究科",
+      "department": "土木",
+      "selectionName": "基礎科目（封面无専攻名，按云盘文件夹「土木」归类）",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024春",
+      "examYear": 2024,
+      "subjects": [
+        "基礎科目",
+        "微分積分",
+        "線形代数",
+        "確率統計",
+        "生物・生態学"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/11e8d6a85c067310b4f26a8ce9f380c3455a4a698f027c7f1b8dac75e434ef0c.pdf",
+          "originalName": "2024_spring_BasicSubjectsJ.pdf",
+          "sha256": "11e8d6a85c067310b4f26a8ce9f380c3455a4a698f027c7f1b8dac75e434ef0c",
+          "byteSize": 132263,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/土木（math）/2024_spring_BasicSubjectsJ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面只印「2024春」和「基礎科目」，不印研究科、専攻、「年度」、入学年月或公历日。paperYear与examYear用印出的公历年2024，yearBasis为exam，不写admissionYears，也不写examDates。春／秋按封面原文保留，不补写成入学。页内分节为微分積分、線形代数、確率統計、生物・生態学。研究科按云盘文件夹归入工学研究科；文件夹为土木，封面没有専攻名，不写成土木工学専攻。无解答。"
+    },
+    {
+      "id": "tohoku-civil-2024-autumn",
+      "universityId": "tohoku",
+      "title": "2024秋 · 土木 · 基礎科目",
+      "graduateSchool": "工学研究科",
+      "department": "土木",
+      "selectionName": "基礎科目（封面无専攻名，按云盘文件夹「土木」归类）",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024秋",
+      "examYear": 2024,
+      "subjects": [
+        "基礎科目",
+        "微分積分",
+        "線形代数",
+        "確率統計",
+        "生物・生態学"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a6a41c6ca95b371d90161d78917e60f227b3177d89559cfeb82eda136bbd30ae.pdf",
+          "originalName": "2024_autumn_BasicSubjectsJ.pdf",
+          "sha256": "a6a41c6ca95b371d90161d78917e60f227b3177d89559cfeb82eda136bbd30ae",
+          "byteSize": 97837,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/土木（math）/2024_autumn_BasicSubjectsJ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面只印「2024秋」和「基礎科目」，不印研究科、専攻、「年度」、入学年月或公历日。paperYear与examYear用印出的公历年2024，yearBasis为exam，不写admissionYears，也不写examDates。春／秋按封面原文保留，不补写成入学。页内分节为微分積分、線形代数、確率統計、生物・生態学。研究科按云盘文件夹归入工学研究科；文件夹为土木，封面没有専攻名，不写成土木工学専攻。无解答。"
+    },
+    {
+      "id": "tohoku-civil-2025-spring",
+      "universityId": "tohoku",
+      "title": "2025春 · 土木 · 基礎科目",
+      "graduateSchool": "工学研究科",
+      "department": "土木",
+      "selectionName": "基礎科目（封面无専攻名，按云盘文件夹「土木」归类）",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025春",
+      "examYear": 2025,
+      "subjects": [
+        "基礎科目",
+        "微分積分",
+        "線形代数",
+        "確率統計",
+        "生物・生態学"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/39d3a618b1324caca20f9d6add4dcb224f48cdfa39aa7712c2893e4734eaa3f6.pdf",
+          "originalName": "2025_spring_BasicSubjectsJ.pdf",
+          "sha256": "39d3a618b1324caca20f9d6add4dcb224f48cdfa39aa7712c2893e4734eaa3f6",
+          "byteSize": 88048,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/土木（math）/2025_spring_BasicSubjectsJ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面只印「2025春」和「基礎科目」，不印研究科、専攻、「年度」、入学年月或公历日。paperYear与examYear用印出的公历年2025，yearBasis为exam，不写admissionYears，也不写examDates。春／秋按封面原文保留，不补写成入学。页内分节为微分積分、線形代数、確率統計、生物・生態学。研究科按云盘文件夹归入工学研究科；文件夹为土木，封面没有専攻名，不写成土木工学専攻。无解答。"
+    },
+    {
+      "id": "tohoku-civil-2025-autumn",
+      "universityId": "tohoku",
+      "title": "2025秋 · 土木 · 基礎科目",
+      "graduateSchool": "工学研究科",
+      "department": "土木",
+      "selectionName": "基礎科目（封面无専攻名，按云盘文件夹「土木」归类）",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025秋",
+      "examYear": 2025,
+      "subjects": [
+        "基礎科目",
+        "微分積分",
+        "線形代数",
+        "確率統計",
+        "生物・生態学"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/52426d1a7a97e25439779e09614ad4650db8e03736b953c944b5579dd20b8d11.pdf",
+          "originalName": "2025_autumn_BasicSubjectsJ.pdf",
+          "sha256": "52426d1a7a97e25439779e09614ad4650db8e03736b953c944b5579dd20b8d11",
+          "byteSize": 114475,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/土木（math）/2025_autumn_BasicSubjectsJ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面只印「2025秋」和「基礎科目」，不印研究科、専攻、「年度」、入学年月或公历日。paperYear与examYear用印出的公历年2025，yearBasis为exam，不写admissionYears，也不写examDates。春／秋按封面原文保留，不补写成入学。页内分节为微分積分、線形代数、確率統計、生物・生態学。研究科按云盘文件夹归入工学研究科；文件夹为土木，封面没有専攻名，不写成土木工学専攻。无解答。"
+    },
+    {
+      "id": "tohoku-civil-2026-spring",
+      "universityId": "tohoku",
+      "title": "2026春 · 土木 · 基礎科目",
+      "graduateSchool": "工学研究科",
+      "department": "土木",
+      "selectionName": "基礎科目（封面无専攻名，按云盘文件夹「土木」归类）",
+      "paperYear": 2026,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2026春",
+      "examYear": 2026,
+      "subjects": [
+        "基礎科目",
+        "微分積分",
+        "線形代数",
+        "確率統計",
+        "生物・生態学"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e0f61ea47abe311ad4ee086325ea56c9948b1c38177bde6531f7af986df6cadd.pdf",
+          "originalName": "2026_spring_BasicSubjectsJ.pdf",
+          "sha256": "e0f61ea47abe311ad4ee086325ea56c9948b1c38177bde6531f7af986df6cadd",
+          "byteSize": 83626,
+          "pages": 4,
+          "sourcePaths": [
+            "东北大学/工学研究科/土木（math）/2026_spring_BasicSubjectsJ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面只印「2026春」和「基礎科目」，不印研究科、専攻、「年度」、入学年月或公历日。paperYear与examYear用印出的公历年2026，yearBasis为exam，不写admissionYears，也不写examDates。春／秋按封面原文保留，不补写成入学。页内分节为微分積分、線形代数、確率統計、生物・生態学。研究科按云盘文件夹归入工学研究科；文件夹为土木，封面没有専攻名，不写成土木工学専攻。无解答。"
+    },
+    {
       "id": "keio-j-material-2021",
       "universityId": "keio",
       "title": "2021年8月 · 教育研究分野：J マテリアルデザイン科学",
@@ -23851,7 +24684,7 @@
       "text": "本校28组／16个PDF、646页，无解答。システム情報科学府修士課程入学試験10册：情報理工学専攻与電気電子工学専攻各令和3–7年度入学（2021–2025），实施日按封面为2020-12-05至06、2021-08-30至31、2022-08-29至30、2023-08-29至30、2024-09-10至11。paperYear按封面令和入学年度，examYear按实施年；R03是2021年入学、2020年12月实施。第1页为封面，其后到专门科目前是两专攻共用的数学（同年两册该段提取文本一致），专门科目从R03第9页、R04第7页、R05第8页、R06第9页、R07第8页打开，整册不拆。R04专门科目为扫描图；R06封面与数学页文字层乱码，封面经渲染核对。另有理工学専攻合册6份：2023–2025年度的2月与9月，封面只印理工学専攻（博士前期／修士・博士後期・前後期共通）和理工基礎题群，未印学府名，不写成総合理工学府，也不把题群当成独立专攻。只为機械工学基礎、電気・電子工学基礎、情報学基礎设入口；化学基礎、数学基礎、物理学基礎、生物科学基礎留在原册。2025年2月册未见生物科学基礎页眉，2024年2月册未见物理学基礎页眉。2025年度9月、2月两册与已上线的上智大学问题册字节相同，不另存、不改上智记录。不声明其他年度或全校齐全。"
     },
     "tohoku": {
-      "text": "本校67组／82个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。云盘本包87个路径、86个唯一PDF、664页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。yearBasis为mixed：封面印「〇〇年度」时paperYear用该年度（令和N＝2018+N，平成N＝1988+N），只有封面写明「N年4月入学」才记admissionYears；只印实施日或页眉「YYYY年M月」时paperYear与examYear用该年，不写admissionYears，也不从文件名补年度。没有公历日就不写examDates。応用物理学2014—2020年8月按实施日；文件名带R6的出题意图封面是令和7年度。机械系4専攻三册按令和年度整册收录，封面只显示数学A；2026年春季1页是出题范围。电气情报按封面公历年，2024年8月起基础与专门合一册；2023年8月和2024年2月封面列情報科学研究科情報・生命系群，其后没有。量子年度以封面为准，允许与文件名错开。情報科学（数学）按云盘文件夹归类，封面无研究科／专攻名，不声称属于情報科学研究科的某个专攻；2025年度只有出題意図・解答例，没有试题，不补。排除理学数学、理学物理、理学推荐募集要项和土木。不声明其他年度或全校齐全。",
+      "text": "本校84组／113个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。云盘119个PDF中入库118个路径、117个唯一PDF、871页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。2026-10-18补录原先排除的理学数学、理学物理和土木，新增17组、31个唯一PDF、207页。误放在情报科学／数学的「东北 理学 募集.pdf」是2027年度理学研究科自己推薦入学試験学生募集要項，不是试题，不建真题入口，也不入库。yearBasis为mixed：封面印「〇〇年度」时paperYear用该年度（令和N＝2018+N，平成N＝1988+N），只有封面写明「N年4月入学」才记admissionYears；只印实施日或页眉「YYYY年M月」时paperYear与examYear用该年，不写admissionYears，也不从文件名补年度。没有公历日就不写examDates。応用物理学2014—2020年8月按实施日；文件名带R6的出题意图封面是令和7年度。机械系4専攻三册按令和年度整册收录，封面只显示数学A；2026年春季1页是出题范围。电气情报按封面公历年，2024年8月起基础与专门合一册；2023年8月和2024年2月封面列情報科学研究科情報・生命系群，其后没有。量子年度以封面为准，允许与文件名错开。情報科学（数学）按云盘文件夹归类，封面无研究科／专攻名，不声称属于情報科学研究科的某个专攻；2025年度只有出題意図・解答例，没有试题，不补。理学数学按封面令和年度，同一日的共通、选择、英语合成一组；令和7年度附出題意図，令和8年度附出題意図・講評，都不是解答。理学物理按封面令和年度，令和3年度封面为两日，其后封面只印一日；令和7、令和8年度的出題意図附在同年试题上。土木封面只印「YYYY春」或「YYYY秋」和「基礎科目」，不印専攻名，不写admissionYears，也不写examDates。不声明其他年度或全校齐全。",
       "supplements": [
         {
           "label": "応用物理学（封面无年度，文件名2024秋季大学院入試_応物.pdf）",
