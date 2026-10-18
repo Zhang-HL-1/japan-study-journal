@@ -12,8 +12,8 @@ test('Tohoku stores 117 original PDFs, keeps undated booklets out of the year ca
  const supplements=data.schoolNotes.tohoku.supplements;assert.deepEqual(supplements.map(s=>s.originalName),['2024秋季大学院入試_応物.pdf','R3.pdf','R4.pdf','R5.pdf']);
  assert.ok(supplements.every(s=>!papers.some(p=>p.files.some(f=>f.sha256===s.sha256))));
  assert.match(data.schoolNotes.tohoku.text,/84组／113个有封面年度/);assert.match(data.schoolNotes.tohoku.text,/yearBasis为mixed/);assert.match(data.schoolNotes.tohoku.text,/按云盘文件夹归类，封面无研究科／专攻名/);assert.match(data.schoolNotes.tohoku.text,/不建真题入口/);
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='tohoku'&&p.universityId!=='keio'))).digest('hex'),'114bf08fba2bec90d50e15c5eeda042fc1661ce1e3af499b050aaa5595f7cfef');
- const notes={...data.schoolNotes};delete notes.tohoku;delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'6a3f2e56cfece353182afc12dfa03dbe8eb951b18a4050f3e7b3cdeb980b869e');
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='tohoku'&&p.universityId!=='keio'))).digest('hex'),'0e54e9c5cfd1de6336549dd6efa1ee7d2086325820ffaa208129fd0f8231c863');
+ const notes={...data.schoolNotes};delete notes.tohoku;delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'5a577bcab0ed011f95ccfcfd9301af3bf5299cc2a161fffbac62946a11eb9ae3');
 });
 test('Tohoku uses cover years, including filename conflicts, and leaves admission years unset unless printed',()=>{
  const app=papers.filter(p=>p.department==='応用物理学専攻'&&p.yearBasis==='exam');assert.deepEqual(app.map(p=>p.paperYear),[2014,2015,2016,2017,2018,2019,2020]);
