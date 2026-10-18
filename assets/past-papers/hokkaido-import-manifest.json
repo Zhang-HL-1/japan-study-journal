@@ -2,14 +2,14 @@
   "importedAt": "2026-10-15",
   "universityId": "hokkaido",
   "sourceFolder": "Google Drive／过去问／北海道大学",
-  "sourceFiles": 29,
-  "uniquePDFs": 29,
-  "duplicateByteCopies": 0,
-  "groups": 16,
-  "questionPDFs": 26,
-  "intentionPDFs": 3,
-  "totalPages": 241,
-  "coverageNote": "本校16组／29个PDF：26个问题原卷及3个出题意图（非解答），按2025、2026入学年度索引。工学院含応用物理学専攻、機械・宇宙航空工学系及応用量子科学系共通卷；两个研究室群跨4专攻，不视为独立专攻。情報科学院为情報科学専攻5课程，各有専門科目1／2；文件后缀2024、2025是实施年。云盘媒体网络内的2024系统信息卷已据封面归回系统信息。机械2026合册订正页完整保留。未提供解答，不声明其他年度或全校专业齐全；纯数学／纯物理、宇宙理学、自然史及环境专属目录按既定范围排除。",
+  "sourceFiles": 70,
+  "uniquePDFs": 69,
+  "duplicateByteCopies": 1,
+  "groups": 43,
+  "questionPDFs": 65,
+  "intentionPDFs": 4,
+  "totalPages": 669,
+  "coverageNote": "本校43组／69个唯一PDF、669页。2026-10-15已上线的16组／29个PDF、241页保持不变：26个问题原卷及3个出题意图（非解答），工学院3类卷与情報科学専攻5课程。2026-10-18补录原先排除的环境、物性物理学・宇宙理学（含封面仍写量子理学専攻的平成18–22年度）和自然史科学，新增27组、40个唯一PDF、428页（环境57页、物性物理学・宇宙理学239页、自然史132页）。其中1页为环境2026出题意图。masterR2_1st_specialty2 与带 (1) 的副本同字节，只存一份，两个路径都写入。22份无封面的 grad_H21_1／2 与 p2002–p2006 不入库。云盘没有令和3年度午後、没有理学院物性物理学令和7年度卷、没有环境専門1。不声明其他年度或全校专业齐全。",
   "files": [
     {
       "path": "assets/past-papers/documents/fe7bcd64bb17138a2a651e5c27214d9c8729870774f41151e18fe8a63387e297.pdf",
@@ -358,13 +358,490 @@
       ],
       "kind": "question",
       "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/deb54235b6149b73fbe9ad29d532c8e1bf9685c74b17df3a7bce06025d44e39f.pdf",
+      "originalName": "exam2025d.pdf",
+      "sha256": "deb54235b6149b73fbe9ad29d532c8e1bf9685c74b17df3a7bce06025d44e39f",
+      "byteSize": 702016,
+      "pages": 28,
+      "sourcePaths": [
+        "北海道大学/工学研究科/环境/exam2025d.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/63c76927ee2299cc76945c77b24c47cab0feab2fab45fa0bf372cafca934edf4.pdf",
+      "originalName": "exam2026d_1.pdf",
+      "sha256": "63c76927ee2299cc76945c77b24c47cab0feab2fab45fa0bf372cafca934edf4",
+      "byteSize": 579401,
+      "pages": 28,
+      "sourcePaths": [
+        "北海道大学/工学研究科/环境/exam2026d_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/fb212c1ba2284a10f4a01944063399e27a7cf5d5b23413a05d5b3eac319ef752.pdf",
+      "originalName": "exam2026d_2.pdf",
+      "sha256": "fb212c1ba2284a10f4a01944063399e27a7cf5d5b23413a05d5b3eac319ef752",
+      "byteSize": 135688,
+      "pages": 1,
+      "sourcePaths": [
+        "北海道大学/工学研究科/环境/exam2026d_2.pdf"
+      ],
+      "kind": "other",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/d8aaf82cc4cbdfacf5c0bec1fcdf5a7c26802ec2b0ae8408e310a72cb87b6cfa.pdf",
+      "originalName": "2023_01_sci.pdf",
+      "sha256": "d8aaf82cc4cbdfacf5c0bec1fcdf5a7c26802ec2b0ae8408e310a72cb87b6cfa",
+      "byteSize": 1292851,
+      "pages": 27,
+      "sourcePaths": [
+        "北海道大学/理学院/自然史科学/2023_01_sci.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f3fd1f86f43de915f004567251a7ab5a562bd85b046d20d35c65079b67a0e9cb.pdf",
+      "originalName": "2023_02_sci.pdf",
+      "sha256": "f3fd1f86f43de915f004567251a7ab5a562bd85b046d20d35c65079b67a0e9cb",
+      "byteSize": 821732,
+      "pages": 16,
+      "sourcePaths": [
+        "北海道大学/理学院/自然史科学/2023_02_sci.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c7d77d84c9ad993c6269964d573422f9f09b44b35c90e1adbf641fe226d2bca4.pdf",
+      "originalName": "2024_01_sci.pdf",
+      "sha256": "c7d77d84c9ad993c6269964d573422f9f09b44b35c90e1adbf641fe226d2bca4",
+      "byteSize": 2572705,
+      "pages": 36,
+      "sourcePaths": [
+        "北海道大学/理学院/自然史科学/2024_01_sci.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c9a197dddaff5273da7adda8292252e0e91b263921b72bbb8b23cf1ff69f9c3a.pdf",
+      "originalName": "2024_02_sci.pdf",
+      "sha256": "c9a197dddaff5273da7adda8292252e0e91b263921b72bbb8b23cf1ff69f9c3a",
+      "byteSize": 1277634,
+      "pages": 26,
+      "sourcePaths": [
+        "北海道大学/理学院/自然史科学/2024_02_sci.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a6489a3818e014fddac3b5a2694167acda72ae7e44e1eff70d0c5e231136165d.pdf",
+      "originalName": "2025_01_sci.pdf",
+      "sha256": "a6489a3818e014fddac3b5a2694167acda72ae7e44e1eff70d0c5e231136165d",
+      "byteSize": 3325167,
+      "pages": 27,
+      "sourcePaths": [
+        "北海道大学/理学院/自然史科学/2025_01_sci.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c02ea578bc7509e2ff76b0372e3a2c89cc82bd2d596f5e4b6965453cafafec2b.pdf",
+      "originalName": "grad_H18_2.pdf",
+      "sha256": "c02ea578bc7509e2ff76b0372e3a2c89cc82bd2d596f5e4b6965453cafafec2b",
+      "byteSize": 362075,
+      "pages": 9,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H18_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/d13663953a1ad653bc42b58c49c9257021bc5a306bb60af3fe8efc25755eb685.pdf",
+      "originalName": "grad_H19_1.pdf",
+      "sha256": "d13663953a1ad653bc42b58c49c9257021bc5a306bb60af3fe8efc25755eb685",
+      "byteSize": 421514,
+      "pages": 15,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H19_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/4b97ebbb62e0a124e142a11cdb835b8e1bfdb2c325db7c17aebfd87ade7698e3.pdf",
+      "originalName": "grad_H19_2.pdf",
+      "sha256": "4b97ebbb62e0a124e142a11cdb835b8e1bfdb2c325db7c17aebfd87ade7698e3",
+      "byteSize": 336290,
+      "pages": 9,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H19_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/52aa9506cde0aa1203e093c2b6324a1f9c10322d2cf878714c88e56a5cb7c47f.pdf",
+      "originalName": "grad_H20_1.pdf",
+      "sha256": "52aa9506cde0aa1203e093c2b6324a1f9c10322d2cf878714c88e56a5cb7c47f",
+      "byteSize": 460054,
+      "pages": 13,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H20_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/d21eeafafa5dfbcebdba8bd4e9db6e4d65bb42393fc63572b3ab37df3aafe7db.pdf",
+      "originalName": "grad_H20_2.pdf",
+      "sha256": "d21eeafafa5dfbcebdba8bd4e9db6e4d65bb42393fc63572b3ab37df3aafe7db",
+      "byteSize": 282468,
+      "pages": 8,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H20_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b86bfac98a94bddad990392405fa069f4273c9b6ba5842e74e36cc1380cb420e.pdf",
+      "originalName": "grad_H22_1.pdf",
+      "sha256": "b86bfac98a94bddad990392405fa069f4273c9b6ba5842e74e36cc1380cb420e",
+      "byteSize": 1478448,
+      "pages": 10,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H22_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b6c3a5e5da67a20e6179dc57fdec03245201ec4cc6f2408b997b963cbcceefe9.pdf",
+      "originalName": "grad_H23_1.pdf",
+      "sha256": "b6c3a5e5da67a20e6179dc57fdec03245201ec4cc6f2408b997b963cbcceefe9",
+      "byteSize": 213887,
+      "pages": 10,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H23_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/9a01c3cf1811ce2c38657703e61d2ec842a03256d1677d49baf5d298d3b6909b.pdf",
+      "originalName": "grad_H24_1_am.pdf",
+      "sha256": "9a01c3cf1811ce2c38657703e61d2ec842a03256d1677d49baf5d298d3b6909b",
+      "byteSize": 430331,
+      "pages": 5,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H24_1_am.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/1df09ecee0efa5809810e06351a504b21befec2dc39ca80d1e508fc3a703c910.pdf",
+      "originalName": "grad_H24_1_pm.pdf",
+      "sha256": "1df09ecee0efa5809810e06351a504b21befec2dc39ca80d1e508fc3a703c910",
+      "byteSize": 814029,
+      "pages": 12,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H24_1_pm.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f855ed399fe14ea0c3e35780a2f009092807c5f83d525df259d03ee0323d564d.pdf",
+      "originalName": "grad_H25_1.pdf",
+      "sha256": "f855ed399fe14ea0c3e35780a2f009092807c5f83d525df259d03ee0323d564d",
+      "byteSize": 322096,
+      "pages": 5,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H25_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/072e21ca2e911857db9ca4594031fb9c14d2b0b6c0397b30a4cf34f8851ecd9c.pdf",
+      "originalName": "grad_H25_2.pdf",
+      "sha256": "072e21ca2e911857db9ca4594031fb9c14d2b0b6c0397b30a4cf34f8851ecd9c",
+      "byteSize": 912370,
+      "pages": 12,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H25_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c3d580b5d65ceda998d4f29b37a94dcb08680f34492a63a323982c457bcce274.pdf",
+      "originalName": "grad_H26_1.pdf",
+      "sha256": "c3d580b5d65ceda998d4f29b37a94dcb08680f34492a63a323982c457bcce274",
+      "byteSize": 532418,
+      "pages": 5,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H26_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/4b54d7f561ce46c0705473099a9d8729ca6a760eb8557652824a1180e201a544.pdf",
+      "originalName": "grad_H26_2.pdf",
+      "sha256": "4b54d7f561ce46c0705473099a9d8729ca6a760eb8557652824a1180e201a544",
+      "byteSize": 3775561,
+      "pages": 10,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/grad_H26_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c28e7e7486bd92ff5c68b93e989b21ac7609ff9a2b4e9172b0ba544b74dd3e0c.pdf",
+      "originalName": "Exam14_am.pdf",
+      "sha256": "c28e7e7486bd92ff5c68b93e989b21ac7609ff9a2b4e9172b0ba544b74dd3e0c",
+      "byteSize": 273400,
+      "pages": 7,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/Exam14_am.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/0cfda3003beaca94e8f81cf7e113e8b7285f4d7f8ace65433e9d92f7e5ec595a.pdf",
+      "originalName": "Exam14_pm.pdf",
+      "sha256": "0cfda3003beaca94e8f81cf7e113e8b7285f4d7f8ace65433e9d92f7e5ec595a",
+      "byteSize": 549744,
+      "pages": 11,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/Exam14_pm.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/6c1b9587f708137a4fca555431b5d06396060e293ab2c686c0a43daf0123bfca.pdf",
+      "originalName": "Exam15_am.pdf",
+      "sha256": "6c1b9587f708137a4fca555431b5d06396060e293ab2c686c0a43daf0123bfca",
+      "byteSize": 297785,
+      "pages": 6,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/Exam15_am.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/515d643bd709e66aed92f63ffd66db0182ee921f3328081e4c7caf079357c293.pdf",
+      "originalName": "Exam15_pm.pdf",
+      "sha256": "515d643bd709e66aed92f63ffd66db0182ee921f3328081e4c7caf079357c293",
+      "byteSize": 166861,
+      "pages": 6,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/Exam15_pm.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/59b75e17e769062609cd7df6fb972576f253f56652b4187be4fe775e8a042664.pdf",
+      "originalName": "午前問題.pdf",
+      "sha256": "59b75e17e769062609cd7df6fb972576f253f56652b4187be4fe775e8a042664",
+      "byteSize": 338079,
+      "pages": 6,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/午前問題.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/efa27b2211712bcc3afaad94b019c5c24e72be4e64c7ccf7936685d705d380cf.pdf",
+      "originalName": "午後問題.pdf",
+      "sha256": "efa27b2211712bcc3afaad94b019c5c24e72be4e64c7ccf7936685d705d380cf",
+      "byteSize": 275464,
+      "pages": 6,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/午後問題.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a519b6f04c38c68e429ecbac78fca815b1c1e5231891194bb795993e95c7002f.pdf",
+      "originalName": "examH30_1.pdf",
+      "sha256": "a519b6f04c38c68e429ecbac78fca815b1c1e5231891194bb795993e95c7002f",
+      "byteSize": 159306,
+      "pages": 5,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/examH30_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f7a2ce4cb221655014327d49d1d19c5cf433bc24ccc86d0716789dd81f2515c5.pdf",
+      "originalName": "examH30_2.pdf",
+      "sha256": "f7a2ce4cb221655014327d49d1d19c5cf433bc24ccc86d0716789dd81f2515c5",
+      "byteSize": 161664,
+      "pages": 5,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/examH30_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/8ddff01838837288f88f1c950d4c4f645ec32eb35f5ee73225a731d53338dbbf.pdf",
+      "originalName": "masterH31_1st_specialty1.pdf",
+      "sha256": "8ddff01838837288f88f1c950d4c4f645ec32eb35f5ee73225a731d53338dbbf",
+      "byteSize": 265671,
+      "pages": 6,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/masterH31_1st_specialty1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/048820506789a2a621920fda196d17a675baf01136189690ff4ad0bc66be283a.pdf",
+      "originalName": "masterH31_1st_specialty2.pdf",
+      "sha256": "048820506789a2a621920fda196d17a675baf01136189690ff4ad0bc66be283a",
+      "byteSize": 248597,
+      "pages": 6,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/masterH31_1st_specialty2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b105fab2ef52c6bee44c31654cdf55978064b44f30303e9c65c9e3666e78bdaf.pdf",
+      "originalName": "masterR2_1st_specialty1.pdf",
+      "sha256": "b105fab2ef52c6bee44c31654cdf55978064b44f30303e9c65c9e3666e78bdaf",
+      "byteSize": 1441215,
+      "pages": 5,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/masterR2_1st_specialty1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/53d7b169545866a90f9ba32a90057040b77b9a346f5fa1047c5d436e00c6134a.pdf",
+      "originalName": "masterR2_1st_specialty2.pdf",
+      "sha256": "53d7b169545866a90f9ba32a90057040b77b9a346f5fa1047c5d436e00c6134a",
+      "byteSize": 377473,
+      "pages": 6,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/masterR2_1st_specialty2.pdf",
+        "北海道大学/理学院/物性物理学 宇宙理学/masterR2_1st_specialty2 (1).pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/8a2ae7bf8a8ae6994e4f21e5c1cd457ce84b9d5639ee6df561d39038f3a47345.pdf",
+      "originalName": "masterR3_am.pdf",
+      "sha256": "8a2ae7bf8a8ae6994e4f21e5c1cd457ce84b9d5639ee6df561d39038f3a47345",
+      "byteSize": 420337,
+      "pages": 5,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/masterR3_am.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/93f3f37b631d44a0d0b5b6f46501c2ec49017caf278fd4b3bd14b7cbba70c399.pdf",
+      "originalName": "R4_AllAm.pdf",
+      "sha256": "93f3f37b631d44a0d0b5b6f46501c2ec49017caf278fd4b3bd14b7cbba70c399",
+      "byteSize": 530661,
+      "pages": 7,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/R4_AllAm.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/081dfedcf7e9c3ec83a4e90b6b8dd553d10b6eeb00a7014d85babb4133379727.pdf",
+      "originalName": "R4_AllPm.pdf",
+      "sha256": "081dfedcf7e9c3ec83a4e90b6b8dd553d10b6eeb00a7014d85babb4133379727",
+      "byteSize": 221419,
+      "pages": 5,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/R4_AllPm.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/866d91202077af3c472b3d094e65bfa7463189afa62141b75cbc13d7672951ed.pdf",
+      "originalName": "R5_enroll_Q_Phys_AM.pdf",
+      "sha256": "866d91202077af3c472b3d094e65bfa7463189afa62141b75cbc13d7672951ed",
+      "byteSize": 451299,
+      "pages": 6,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/R5_enroll_Q_Phys_AM.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b14d27e045f3d8b09eb09b11c49bcfcad47d4fe371842afa18ff90fd7aa341fc.pdf",
+      "originalName": "R5_enroll_Q_Phys_PM.pdf",
+      "sha256": "b14d27e045f3d8b09eb09b11c49bcfcad47d4fe371842afa18ff90fd7aa341fc",
+      "byteSize": 319597,
+      "pages": 5,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/R5_enroll_Q_Phys_PM.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b21978a65630e51ec6c53293bc6e67a844c3223ebe9bb77c5d2ad47957f67ba4.pdf",
+      "originalName": "R6_enroll_Q_Phys_AM.pdf",
+      "sha256": "b21978a65630e51ec6c53293bc6e67a844c3223ebe9bb77c5d2ad47957f67ba4",
+      "byteSize": 595422,
+      "pages": 6,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/R6_enroll_Q_Phys_AM.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/beb86c184d5dcc283e5e94681d3c4636c2e0cd2ff9a0835a1d37d2c4beb9e82e.pdf",
+      "originalName": "R6_enroll_Q_Phys_PM.pdf",
+      "sha256": "beb86c184d5dcc283e5e94681d3c4636c2e0cd2ff9a0835a1d37d2c4beb9e82e",
+      "byteSize": 296134,
+      "pages": 7,
+      "sourcePaths": [
+        "北海道大学/理学院/物性物理学 宇宙理学/R6_enroll_Q_Phys_PM.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
     }
   ],
-  "excludedFolders": [
-    "北海道大学/工学研究科/环境",
-    "北海道大学/理学院/物性物理学 宇宙理学",
-    "北海道大学/理学院/自然史科学"
-  ],
+  "excludedFolders": [],
   "yearBasis": "academic",
   "yearEvidenceURLs": [
     "https://www.eng.hokudai.ac.jp/graduate/examinfo/test/",
@@ -381,5 +858,200 @@
     "originalName": "exam2026c1_1.pdf",
     "noticePage": 15,
     "correctedMorningCoverPage": 13
+  },
+  "heldYearUncertain": [
+    {
+      "originalName": "grad_H21_1.pdf",
+      "sha256": "3995aefabd18a1fefbd6f2cc96100ed3a1d2b56831c155a6f1ed5944922a3955",
+      "pages": 13,
+      "byteSize": 1015682,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/grad_H21_1.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "grad_H21_2.pdf",
+      "sha256": "e18e31f22b22d77de33ec04c4049163efffd2c7b7c2a19ef6edda52bdb30ed63",
+      "pages": 4,
+      "byteSize": 82995,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/grad_H21_2.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2002-1.pdf",
+      "sha256": "df21ae5061f34d2c878e9a4c3670934b95203beca382f8e1f2c6c48e7a228103",
+      "pages": 2,
+      "byteSize": 37564,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2002-1.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2002-2.pdf",
+      "sha256": "1181d0d4edac39c8a1e61517f717993f7aa656482de1f7de96f26d9516e853c6",
+      "pages": 2,
+      "byteSize": 42620,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2002-2.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2002-3.pdf",
+      "sha256": "98a2914cbb51e3daa1d379153d8756db90b0523159777c3583cbe474861af1ab",
+      "pages": 2,
+      "byteSize": 49611,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2002-3.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2002-4.pdf",
+      "sha256": "a0812dfbdcee18e2033656e70f7b7f8f17255f0e5cc539bcb06829d67755d8fd",
+      "pages": 1,
+      "byteSize": 176870,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2002-4.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2003-1.pdf",
+      "sha256": "f6e0facde85b23e0a2d097a4023f55bb12ebaa8f73b97d031fca26d3c2ab8836",
+      "pages": 2,
+      "byteSize": 65453,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2003-1.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2003-2.pdf",
+      "sha256": "188997bdc0538485d3cd2604ac28ef1e5483208a8ced87a773359909767db721",
+      "pages": 2,
+      "byteSize": 78756,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2003-2.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2003-3.pdf",
+      "sha256": "1a4f6c3a77ab7985df38f1c8e9bf0716d4ac63dcafe1a3267e2d0e6523a68fdb",
+      "pages": 3,
+      "byteSize": 46412,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2003-3.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2003-4.pdf",
+      "sha256": "9a2993672d91868070602e7b7901fc170cc9e7ef9c41a391fe7e9b14955f7f2e",
+      "pages": 2,
+      "byteSize": 57593,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2003-4.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2004-1.pdf",
+      "sha256": "c2fe89cce9a54dab98c2a016b37b61099c8bc1ae0e5354a2105f47199098b029",
+      "pages": 2,
+      "byteSize": 176453,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2004-1.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2004-2.pdf",
+      "sha256": "862dae12daed552e7dda87ee48b10367922638e396f3b33c0ca5966ef20c7c68",
+      "pages": 2,
+      "byteSize": 176182,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2004-2.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2004-3.pdf",
+      "sha256": "160fdf229d6f07b65e7d75e29aa546a63f283dda498194fbaa6c985a88468f32",
+      "pages": 2,
+      "byteSize": 208891,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2004-3.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2004-4.pdf",
+      "sha256": "9ff7378639f003ca0cf785b8ac3c522723b5bd9f5ae2f0cf1235fec35dc1779c",
+      "pages": 2,
+      "byteSize": 185088,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2004-4.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2005-1.pdf",
+      "sha256": "883837e396538f4cb717e4eae58127a5226974b1483a870fbb0555e5a10f6465",
+      "pages": 2,
+      "byteSize": 47901,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2005-1.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2005-2.pdf",
+      "sha256": "7700a4c334c172140b7ee76b58b023d50f0bdce72b0450799fc0689d19c59cf2",
+      "pages": 2,
+      "byteSize": 38372,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2005-2.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2005-3.pdf",
+      "sha256": "92469aec1c94d56b8226a27a5c7ba4a86105a081acba801834367fea42306383",
+      "pages": 3,
+      "byteSize": 211314,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2005-3.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2005-4.pdf",
+      "sha256": "4ad51a009df79d589cd37676f087a21da37aba51c7e733a639e58c0f0e391762",
+      "pages": 2,
+      "byteSize": 36830,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2005-4.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2006-1.pdf",
+      "sha256": "e0358a7aa05a09445ecd90a258f0c576d37a8fb33800d026dca278611c90a098",
+      "pages": 2,
+      "byteSize": 205132,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2006-1.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2006-2.pdf",
+      "sha256": "a591d9b7874849822b346e550b75c687f5955da23c016829f5069e27a979950d",
+      "pages": 3,
+      "byteSize": 79070,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2006-2.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2006-3.pdf",
+      "sha256": "d519d5179aff3586d2f11265ec923b78be1d723d39380db260e135adcac6fccd",
+      "pages": 3,
+      "byteSize": 62081,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2006-3.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    },
+    {
+      "originalName": "p2006-4.pdf",
+      "sha256": "e6f35d2a952c5c035dd39a6f8ddee821b2a53596840808c124c6a2e716d2f675",
+      "pages": 2,
+      "byteSize": 56958,
+      "sourcePath": "北海道大学/理学院/物性物理学 宇宙理学/p2006-4.pdf",
+      "reason": "无封面，年度仅据文件名，本轮不入库"
+    }
+  ],
+  "backfill": {
+    "addedAt": "2026-10-18",
+    "addedGroups": 27,
+    "addedUniquePDFs": 40,
+    "addedPages": 428,
+    "envGroups": 2,
+    "envPages": 57,
+    "physicsGroups": 20,
+    "physicsPages": 239,
+    "naturalHistoryGroups": 5,
+    "naturalHistoryPages": 132,
+    "heldYearUncertain": 22,
+    "duplicateDrivePaths": 1,
+    "priorGroups": 16,
+    "priorUniquePDFs": 29,
+    "priorPages": 241
   }
 }

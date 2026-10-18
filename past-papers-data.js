@@ -9454,6 +9454,1173 @@
       ]
     },
     {
+      "id": "hokkaido-env-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 環境フィールド工学専攻・北方圏環境政策工学専攻・環境創生工学専攻・環境循環システム専攻・共同資源工学専攻（共通問題）",
+      "graduateSchool": "工学院",
+      "department": "環境フィールド工学専攻・北方圏環境政策工学専攻・環境創生工学専攻・環境循環システム専攻・共同資源工学専攻（共通問題）",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年4月入学／2024年10月入学",
+      "admissionYears": [
+        2024,
+        2025
+      ],
+      "subjects": [
+        "数学 I",
+        "数学 II",
+        "数学 III",
+        "物理 I",
+        "物理 II",
+        "物理 III",
+        "化学 I",
+        "化学 II"
+      ],
+      "files": [
+        {
+          "label": "試験問題（専門0 問題冊子・原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/deb54235b6149b73fbe9ad29d532c8e1bf9685c74b17df3a7bce06025d44e39f.pdf",
+          "originalName": "exam2025d.pdf",
+          "sha256": "deb54235b6149b73fbe9ad29d532c8e1bf9685c74b17df3a7bce06025d44e39f",
+          "byteSize": 702016,
+          "pages": 28,
+          "sourcePaths": [
+            "北海道大学/工学研究科/环境/exam2025d.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 工学院修士課程，環境フィールド工学・北方圏環境政策工学・環境創生工学・環境循環システム・共同資源工学5専攻共通的専門0 問題冊子。封面印2025年4月入学ならびに2024年10月入学，9:00–12:00；数学I–III、物理I–III、化学I–II共8问，选4问。封面不印实施日。云盘没有専門1册。扫描件无文字层，原字节保留。未随卷提供解答。",
+      "examYear": 2024,
+      "sourceURL": "https://www.eng.hokudai.ac.jp/graduate/examinfo/test/"
+    },
+    {
+      "id": "hokkaido-env-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 環境フィールド工学専攻・北方圏環境政策工学専攻・環境創生工学専攻・環境循環システム専攻・共同資源工学専攻（共通問題）",
+      "graduateSchool": "工学院",
+      "department": "環境フィールド工学専攻・北方圏環境政策工学専攻・環境創生工学専攻・環境循環システム専攻・共同資源工学専攻（共通問題）",
+      "selectionName": "修士課程入学試験（夏季筆答）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年4月入学／2025年10月入学",
+      "admissionYears": [
+        2025,
+        2026
+      ],
+      "subjects": [
+        "数学 I",
+        "数学 II",
+        "数学 III",
+        "物理 I",
+        "物理 II",
+        "物理 III",
+        "化学 I",
+        "化学 II"
+      ],
+      "files": [
+        {
+          "label": "試験問題（専門0 問題冊子・原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/63c76927ee2299cc76945c77b24c47cab0feab2fab45fa0bf372cafca934edf4.pdf",
+          "originalName": "exam2026d_1.pdf",
+          "sha256": "63c76927ee2299cc76945c77b24c47cab0feab2fab45fa0bf372cafca934edf4",
+          "byteSize": 579401,
+          "pages": 28,
+          "sourcePaths": [
+            "北海道大学/工学研究科/环境/exam2026d_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出题意图／出題の意図（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/fb212c1ba2284a10f4a01944063399e27a7cf5d5b23413a05d5b3eac319ef752.pdf",
+          "originalName": "exam2026d_2.pdf",
+          "sha256": "fb212c1ba2284a10f4a01944063399e27a7cf5d5b23413a05d5b3eac319ef752",
+          "byteSize": 135688,
+          "pages": 1,
+          "sourcePaths": [
+            "北海道大学/工学研究科/环境/exam2026d_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 工学院修士課程，上述5専攻共通的専門0 問題冊子。封面印2026年4月入学ならびに2025年10月入学，9:00–12:00；8问选4。封面不印实施日。云盘没有専門1册。扫描件无文字层。另附1页「入試公表事項 修士課程筆答試験『出題の意図』」，是出题意图，不是解答。未随卷提供解答。",
+      "examYear": 2025,
+      "sourceURL": "https://www.eng.hokudai.ac.jp/graduate/examinfo/test/"
+    },
+    {
+      "id": "hokkaido-nat-2024",
+      "universityId": "hokkaido",
+      "title": "2024年度 · 8月実施 · 自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "selectionName": "博士前期（修士）課程入学試験（専門科目）（8月）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度（令和5年10月入学を含む）",
+      "admissionYears": [
+        2023,
+        2024
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "化学",
+        "地球科学Ⅰ（地球史・テクトニクス・堆積学）",
+        "地球科学Ⅱ（岩石学・鉱物学・火山学）"
+      ],
+      "files": [
+        {
+          "label": "専門科目試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d8aaf82cc4cbdfacf5c0bec1fcdf5a7c26802ec2b0ae8408e310a72cb87b6cfa.pdf",
+          "originalName": "2023_01_sci.pdf",
+          "sha256": "d8aaf82cc4cbdfacf5c0bec1fcdf5a7c26802ec2b0ae8408e310a72cb87b6cfa",
+          "byteSize": 1292851,
+          "pages": 27,
+          "sourcePaths": [
+            "北海道大学/理学院/自然史科学/2023_01_sci.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院自然史科学専攻博士前期（修士）課程専門科目。封面为令和6年度（含令和5年10月入学），实施日2023-08-09，13:00–16:00。文件名2023是实施年。5分野中选2；封面注明今回化学不出题。扫描件无文字层。未随卷提供解答。",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-09"
+      ]
+    },
+    {
+      "id": "hokkaido-nat-2024-feb",
+      "universityId": "hokkaido",
+      "title": "2024年度 · 2月実施 · 自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "selectionName": "博士前期（修士）課程入学試験（専門科目）（2月）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "化学",
+        "地球科学Ⅰ（地球史・テクトニクス・堆積学）",
+        "地球科学Ⅱ（岩石学・鉱物学・火山学）"
+      ],
+      "files": [
+        {
+          "label": "専門科目試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f3fd1f86f43de915f004567251a7ab5a562bd85b046d20d35c65079b67a0e9cb.pdf",
+          "originalName": "2023_02_sci.pdf",
+          "sha256": "f3fd1f86f43de915f004567251a7ab5a562bd85b046d20d35c65079b67a0e9cb",
+          "byteSize": 821732,
+          "pages": 16,
+          "sourcePaths": [
+            "北海道大学/理学院/自然史科学/2023_02_sci.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院自然史科学専攻博士前期（修士）課程専門科目。封面为令和6年度，实施日2024-02-06，9:00–12:00。文件名2023是实施年。封面注明今回物理学和化学不出题。文字层部分乱码，原字节保留。未随卷提供解答。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-02-06"
+      ]
+    },
+    {
+      "id": "hokkaido-nat-2025",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 8月実施 · 自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "selectionName": "博士前期（修士）課程入学試験（専門科目）（8月）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度（令和6年10月入学を含む）",
+      "admissionYears": [
+        2024,
+        2025
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "化学",
+        "地球科学Ⅰ（地球史・テクトニクス・堆積学）",
+        "地球科学Ⅱ（岩石学・鉱物学・火山学）"
+      ],
+      "files": [
+        {
+          "label": "専門科目試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c7d77d84c9ad993c6269964d573422f9f09b44b35c90e1adbf641fe226d2bca4.pdf",
+          "originalName": "2024_01_sci.pdf",
+          "sha256": "c7d77d84c9ad993c6269964d573422f9f09b44b35c90e1adbf641fe226d2bca4",
+          "byteSize": 2572705,
+          "pages": 36,
+          "sourcePaths": [
+            "北海道大学/理学院/自然史科学/2024_01_sci.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院自然史科学専攻博士前期（修士）課程専門科目。封面为令和7年度（含令和6年10月入学），实施日2024-08-08，9:00–12:00。文件名2024是实施年。第1页是「問題に以下の訂正があります」（II-1、II-3），封面在第2页。整册保留，从第1页打开。扫描件无文字层。未随卷提供解答。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-08"
+      ]
+    },
+    {
+      "id": "hokkaido-nat-2025-feb",
+      "universityId": "hokkaido",
+      "title": "2025年度 · 2月実施 · 自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "selectionName": "博士前期（修士）課程入学試験（専門科目）（2月）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "化学",
+        "地球科学Ⅰ（地球史・テクトニクス・堆積学）",
+        "地球科学Ⅱ（岩石学・鉱物学・火山学）"
+      ],
+      "files": [
+        {
+          "label": "専門科目試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c9a197dddaff5273da7adda8292252e0e91b263921b72bbb8b23cf1ff69f9c3a.pdf",
+          "originalName": "2024_02_sci.pdf",
+          "sha256": "c9a197dddaff5273da7adda8292252e0e91b263921b72bbb8b23cf1ff69f9c3a",
+          "byteSize": 1277634,
+          "pages": 26,
+          "sourcePaths": [
+            "北海道大学/理学院/自然史科学/2024_02_sci.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院自然史科学専攻博士前期（修士）課程専門科目。封面为令和7年度，实施日2025-02-12，9:00–12:00。文件名2024是实施年。扫描件无文字层。未随卷提供解答。",
+      "examYear": 2025,
+      "examDates": [
+        "2025-02-12"
+      ]
+    },
+    {
+      "id": "hokkaido-nat-2026",
+      "universityId": "hokkaido",
+      "title": "2026年度 · 8月実施 · 自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻（地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座）",
+      "selectionName": "博士前期（修士）課程入学試験（専門科目）（8月）",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和8年度（令和7年10月入学を含む）",
+      "admissionYears": [
+        2025,
+        2026
+      ],
+      "subjects": [
+        "数学",
+        "物理学",
+        "地球科学Ⅰ（地球史・堆積学・地球惑星化学）",
+        "地球科学Ⅱ（岩石学・鉱物学・火山学）"
+      ],
+      "files": [
+        {
+          "label": "専門科目試験問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a6489a3818e014fddac3b5a2694167acda72ae7e44e1eff70d0c5e231136165d.pdf",
+          "originalName": "2025_01_sci.pdf",
+          "sha256": "a6489a3818e014fddac3b5a2694167acda72ae7e44e1eff70d0c5e231136165d",
+          "byteSize": 3325167,
+          "pages": 27,
+          "sourcePaths": [
+            "北海道大学/理学院/自然史科学/2025_01_sci.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院自然史科学専攻博士前期（修士）課程専門科目。封面为令和8年度（含令和7年10月入学），实施日2025-08-07，9:00–12:00。文件名2025是实施年。封面列出4分野：数学、物理学、地球科学Ⅰ（地球史・堆積学・地球惑星化学）、地球科学Ⅱ（岩石学・鉱物学・火山学），不列化学。未随卷提供解答。",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-07"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2006-feb",
+      "universityId": "hokkaido",
+      "title": "2006年度 · 量子理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "量子理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2006,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成18年度（2月7日実施）",
+      "admissionYears": [
+        2006
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c02ea578bc7509e2ff76b0372e3a2c89cc82bd2d596f5e4b6965453cafafec2b.pdf",
+          "originalName": "grad_H18_2.pdf",
+          "sha256": "c02ea578bc7509e2ff76b0372e3a2c89cc82bd2d596f5e4b6965453cafafec2b",
+          "byteSize": 362075,
+          "pages": 9,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H18_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院量子理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成18年度，只印「2月7日」，未印实施年。不把邻卷日期或文件名写成考试日期。专攻名按封面为量子理学専攻・宇宙理学専攻。未随卷提供解答。"
+    },
+    {
+      "id": "hokkaido-sci-cmp-2007",
+      "universityId": "hokkaido",
+      "title": "2007年度 · 量子理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "量子理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成19年度（平成18年8月24日実施）",
+      "admissionYears": [
+        2007
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前・午後 合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d13663953a1ad653bc42b58c49c9257021bc5a306bb60af3fe8efc25755eb685.pdf",
+          "originalName": "grad_H19_1.pdf",
+          "sha256": "d13663953a1ad653bc42b58c49c9257021bc5a306bb60af3fe8efc25755eb685",
+          "byteSize": 421514,
+          "pages": 15,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H19_1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院量子理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成19年度（平成18年8月24日実施）。午前封面在第1页，午後封面在第6页，合册保留。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2006,
+      "examDates": [
+        "2006-08-24"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2007-feb",
+      "universityId": "hokkaido",
+      "title": "2007年度 · 第二次募集 · 量子理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "量子理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験（第二次募集）",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成19年度 第二次募集（平成19年2月6日実施）",
+      "admissionYears": [
+        2007
+      ],
+      "files": [
+        {
+          "label": "専門科目（第二次募集）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4b97ebbb62e0a124e142a11cdb835b8e1bfdb2c325db7c17aebfd87ade7698e3.pdf",
+          "originalName": "grad_H19_2.pdf",
+          "sha256": "4b97ebbb62e0a124e142a11cdb835b8e1bfdb2c325db7c17aebfd87ade7698e3",
+          "byteSize": 336290,
+          "pages": 9,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H19_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院量子理学専攻・宇宙理学専攻修士（博士前期）課程入学試験（第二次募集）。封面实施日为2007-02-06。专攻名按封面为量子理学専攻・宇宙理学専攻。未随卷提供解答。",
+      "examYear": 2007,
+      "examDates": [
+        "2007-02-06"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2008",
+      "universityId": "hokkaido",
+      "title": "2008年度 · 量子理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "量子理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成20年度（平成19年8月22日実施）",
+      "admissionYears": [
+        2008
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前・午後 合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/52aa9506cde0aa1203e093c2b6324a1f9c10322d2cf878714c88e56a5cb7c47f.pdf",
+          "originalName": "grad_H20_1.pdf",
+          "sha256": "52aa9506cde0aa1203e093c2b6324a1f9c10322d2cf878714c88e56a5cb7c47f",
+          "byteSize": 460054,
+          "pages": 13,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H20_1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院量子理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成20年度（平成19年8月22日実施）。午前封面在第1页，午後封面在第7页，合册保留。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-22"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2008-feb",
+      "universityId": "hokkaido",
+      "title": "2008年度 · 2次募集 · 量子理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "量子理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験（2次募集）",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成20年度 2次募集（平成20年2月5日実施）",
+      "admissionYears": [
+        2008
+      ],
+      "files": [
+        {
+          "label": "専門科目（第二次募集）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d21eeafafa5dfbcebdba8bd4e9db6e4d65bb42393fc63572b3ab37df3aafe7db.pdf",
+          "originalName": "grad_H20_2.pdf",
+          "sha256": "d21eeafafa5dfbcebdba8bd4e9db6e4d65bb42393fc63572b3ab37df3aafe7db",
+          "byteSize": 282468,
+          "pages": 8,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H20_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院量子理学専攻・宇宙理学専攻修士（博士前期）課程。封面印「平成20年度 2次募集」，实施日2008-02-05。专攻名按封面为量子理学専攻・宇宙理学専攻。未随卷提供解答。",
+      "examYear": 2008,
+      "examDates": [
+        "2008-02-05"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2010",
+      "universityId": "hokkaido",
+      "title": "2010年度 · 量子理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "量子理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成22年度（平成21年8月19日実施）",
+      "admissionYears": [
+        2010
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前・午後 合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b86bfac98a94bddad990392405fa069f4273c9b6ba5842e74e36cc1380cb420e.pdf",
+          "originalName": "grad_H22_1.pdf",
+          "sha256": "b86bfac98a94bddad990392405fa069f4273c9b6ba5842e74e36cc1380cb420e",
+          "byteSize": 1478448,
+          "pages": 10,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H22_1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院量子理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成22年度（平成21年8月19日実施）。午前封面在第1页，午後封面在第2页，合册保留。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2009,
+      "examDates": [
+        "2009-08-19"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2011",
+      "universityId": "hokkaido",
+      "title": "2011年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成23年度（平成22年8月18日実施）",
+      "admissionYears": [
+        2011
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前・午後 合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b6c3a5e5da67a20e6179dc57fdec03245201ec4cc6f2408b997b963cbcceefe9.pdf",
+          "originalName": "grad_H23_1.pdf",
+          "sha256": "b6c3a5e5da67a20e6179dc57fdec03245201ec4cc6f2408b997b963cbcceefe9",
+          "byteSize": 213887,
+          "pages": 10,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H23_1.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成23年度（平成22年8月18日実施）。午前封面在第1页，午後封面在第2页，合册保留。自本年度封面起专攻名为物性物理学専攻・宇宙理学専攻。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2010,
+      "examDates": [
+        "2010-08-18"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2012",
+      "universityId": "hokkaido",
+      "title": "2012年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成24年度（平成23年8月17日実施）",
+      "admissionYears": [
+        2012
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9a01c3cf1811ce2c38657703e61d2ec842a03256d1677d49baf5d298d3b6909b.pdf",
+          "originalName": "grad_H24_1_am.pdf",
+          "sha256": "9a01c3cf1811ce2c38657703e61d2ec842a03256d1677d49baf5d298d3b6909b",
+          "byteSize": 430331,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H24_1_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1df09ecee0efa5809810e06351a504b21befec2dc39ca80d1e508fc3a703c910.pdf",
+          "originalName": "grad_H24_1_pm.pdf",
+          "sha256": "1df09ecee0efa5809810e06351a504b21befec2dc39ca80d1e508fc3a703c910",
+          "byteSize": 814029,
+          "pages": 12,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H24_1_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成24年度（平成23年8月17日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2011,
+      "examDates": [
+        "2011-08-17"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2013",
+      "universityId": "hokkaido",
+      "title": "2013年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成25年度（平成24年8月9日実施）",
+      "admissionYears": [
+        2013
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f855ed399fe14ea0c3e35780a2f009092807c5f83d525df259d03ee0323d564d.pdf",
+          "originalName": "grad_H25_1.pdf",
+          "sha256": "f855ed399fe14ea0c3e35780a2f009092807c5f83d525df259d03ee0323d564d",
+          "byteSize": 322096,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H25_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/072e21ca2e911857db9ca4594031fb9c14d2b0b6c0397b30a4cf34f8851ecd9c.pdf",
+          "originalName": "grad_H25_2.pdf",
+          "sha256": "072e21ca2e911857db9ca4594031fb9c14d2b0b6c0397b30a4cf34f8851ecd9c",
+          "byteSize": 912370,
+          "pages": 12,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H25_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成25年度（平成24年8月9日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2012,
+      "examDates": [
+        "2012-08-09"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2014",
+      "universityId": "hokkaido",
+      "title": "2014年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成26年度（平成25年8月19日実施）",
+      "admissionYears": [
+        2014
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c3d580b5d65ceda998d4f29b37a94dcb08680f34492a63a323982c457bcce274.pdf",
+          "originalName": "grad_H26_1.pdf",
+          "sha256": "c3d580b5d65ceda998d4f29b37a94dcb08680f34492a63a323982c457bcce274",
+          "byteSize": 532418,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H26_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4b54d7f561ce46c0705473099a9d8729ca6a760eb8557652824a1180e201a544.pdf",
+          "originalName": "grad_H26_2.pdf",
+          "sha256": "4b54d7f561ce46c0705473099a9d8729ca6a760eb8557652824a1180e201a544",
+          "byteSize": 3775561,
+          "pages": 10,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/grad_H26_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成26年度（平成25年8月19日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2013,
+      "examDates": [
+        "2013-08-19"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2015",
+      "universityId": "hokkaido",
+      "title": "2015年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成27年度（平成26年8月6日実施）",
+      "admissionYears": [
+        2015
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c28e7e7486bd92ff5c68b93e989b21ac7609ff9a2b4e9172b0ba544b74dd3e0c.pdf",
+          "originalName": "Exam14_am.pdf",
+          "sha256": "c28e7e7486bd92ff5c68b93e989b21ac7609ff9a2b4e9172b0ba544b74dd3e0c",
+          "byteSize": 273400,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/Exam14_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0cfda3003beaca94e8f81cf7e113e8b7285f4d7f8ace65433e9d92f7e5ec595a.pdf",
+          "originalName": "Exam14_pm.pdf",
+          "sha256": "0cfda3003beaca94e8f81cf7e113e8b7285f4d7f8ace65433e9d92f7e5ec595a",
+          "byteSize": 549744,
+          "pages": 11,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/Exam14_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成27年度（平成26年8月6日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2014,
+      "examDates": [
+        "2014-08-06"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2016",
+      "universityId": "hokkaido",
+      "title": "2016年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成28年度（平成27年8月17日実施）",
+      "admissionYears": [
+        2016
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6c1b9587f708137a4fca555431b5d06396060e293ab2c686c0a43daf0123bfca.pdf",
+          "originalName": "Exam15_am.pdf",
+          "sha256": "6c1b9587f708137a4fca555431b5d06396060e293ab2c686c0a43daf0123bfca",
+          "byteSize": 297785,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/Exam15_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/515d643bd709e66aed92f63ffd66db0182ee921f3328081e4c7caf079357c293.pdf",
+          "originalName": "Exam15_pm.pdf",
+          "sha256": "515d643bd709e66aed92f63ffd66db0182ee921f3328081e4c7caf079357c293",
+          "byteSize": 166861,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/Exam15_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成28年度（平成27年8月17日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2015,
+      "examDates": [
+        "2015-08-17"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2017",
+      "universityId": "hokkaido",
+      "title": "2017年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成29年度（平成28年8月18日実施）",
+      "admissionYears": [
+        2017
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/59b75e17e769062609cd7df6fb972576f253f56652b4187be4fe775e8a042664.pdf",
+          "originalName": "午前問題.pdf",
+          "sha256": "59b75e17e769062609cd7df6fb972576f253f56652b4187be4fe775e8a042664",
+          "byteSize": 338079,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/午前問題.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/efa27b2211712bcc3afaad94b019c5c24e72be4e64c7ccf7936685d705d380cf.pdf",
+          "originalName": "午後問題.pdf",
+          "sha256": "efa27b2211712bcc3afaad94b019c5c24e72be4e64c7ccf7936685d705d380cf",
+          "byteSize": 275464,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/午後問題.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成29年度（平成28年8月18日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2016,
+      "examDates": [
+        "2016-08-18"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2018",
+      "universityId": "hokkaido",
+      "title": "2018年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成30年度（平成29年8月17日実施）",
+      "admissionYears": [
+        2018
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a519b6f04c38c68e429ecbac78fca815b1c1e5231891194bb795993e95c7002f.pdf",
+          "originalName": "examH30_1.pdf",
+          "sha256": "a519b6f04c38c68e429ecbac78fca815b1c1e5231891194bb795993e95c7002f",
+          "byteSize": 159306,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/examH30_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f7a2ce4cb221655014327d49d1d19c5cf433bc24ccc86d0716789dd81f2515c5.pdf",
+          "originalName": "examH30_2.pdf",
+          "sha256": "f7a2ce4cb221655014327d49d1d19c5cf433bc24ccc86d0716789dd81f2515c5",
+          "byteSize": 161664,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/examH30_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成30年度（平成29年8月17日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2017,
+      "examDates": [
+        "2017-08-17"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2019",
+      "universityId": "hokkaido",
+      "title": "2019年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成31年度（平成30年8月20日実施）",
+      "admissionYears": [
+        2019
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8ddff01838837288f88f1c950d4c4f645ec32eb35f5ee73225a731d53338dbbf.pdf",
+          "originalName": "masterH31_1st_specialty1.pdf",
+          "sha256": "8ddff01838837288f88f1c950d4c4f645ec32eb35f5ee73225a731d53338dbbf",
+          "byteSize": 265671,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/masterH31_1st_specialty1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/048820506789a2a621920fda196d17a675baf01136189690ff4ad0bc66be283a.pdf",
+          "originalName": "masterH31_1st_specialty2.pdf",
+          "sha256": "048820506789a2a621920fda196d17a675baf01136189690ff4ad0bc66be283a",
+          "byteSize": 248597,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/masterH31_1st_specialty2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为平成31年度（平成30年8月20日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-20"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2020",
+      "universityId": "hokkaido",
+      "title": "2020年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和2年度（令和元年8月22日実施）",
+      "admissionYears": [
+        2020
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b105fab2ef52c6bee44c31654cdf55978064b44f30303e9c65c9e3666e78bdaf.pdf",
+          "originalName": "masterR2_1st_specialty1.pdf",
+          "sha256": "b105fab2ef52c6bee44c31654cdf55978064b44f30303e9c65c9e3666e78bdaf",
+          "byteSize": 1441215,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/masterR2_1st_specialty1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/53d7b169545866a90f9ba32a90057040b77b9a346f5fa1047c5d436e00c6134a.pdf",
+          "originalName": "masterR2_1st_specialty2.pdf",
+          "sha256": "53d7b169545866a90f9ba32a90057040b77b9a346f5fa1047c5d436e00c6134a",
+          "byteSize": 377473,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/masterR2_1st_specialty2.pdf",
+            "北海道大学/理学院/物性物理学 宇宙理学/masterR2_1st_specialty2 (1).pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为令和2年度（令和元年8月22日実施）。午前、午後分册，同组收录。masterR2_1st_specialty2.pdf 与 masterR2_1st_specialty2 (1).pdf 字节相同，两个路径都写入，只存一份PDF。午前册前3页与午後册封面为图像页，原样保留。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-22"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2021",
+      "universityId": "hokkaido",
+      "title": "2021年度 · 物性物理学専攻・宇宙理学専攻（午前のみ）",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和3年度（令和2年8月22日実施）",
+      "admissionYears": [
+        2021
+      ],
+      "completeness": "partial",
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8a2ae7bf8a8ae6994e4f21e5c1cd457ce84b9d5639ee6df561d39038f3a47345.pdf",
+          "originalName": "masterR3_am.pdf",
+          "sha256": "8a2ae7bf8a8ae6994e4f21e5c1cd457ce84b9d5639ee6df561d39038f3a47345",
+          "byteSize": 420337,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/masterR3_am.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为令和3年度（令和2年8月22日実施）。云盘只有午前，没有午後。不补午後，不声明该年度齐全。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-22"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2022",
+      "universityId": "hokkaido",
+      "title": "2022年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度（令和3年8月19日実施）",
+      "admissionYears": [
+        2022
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/93f3f37b631d44a0d0b5b6f46501c2ec49017caf278fd4b3bd14b7cbba70c399.pdf",
+          "originalName": "R4_AllAm.pdf",
+          "sha256": "93f3f37b631d44a0d0b5b6f46501c2ec49017caf278fd4b3bd14b7cbba70c399",
+          "byteSize": 530661,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/R4_AllAm.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/081dfedcf7e9c3ec83a4e90b6b8dd553d10b6eeb00a7014d85babb4133379727.pdf",
+          "originalName": "R4_AllPm.pdf",
+          "sha256": "081dfedcf7e9c3ec83a4e90b6b8dd553d10b6eeb00a7014d85babb4133379727",
+          "byteSize": 221419,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/R4_AllPm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为令和4年度（令和3年8月19日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-19"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2023",
+      "universityId": "hokkaido",
+      "title": "2023年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度（令和4年8月17日実施）",
+      "admissionYears": [
+        2023
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/866d91202077af3c472b3d094e65bfa7463189afa62141b75cbc13d7672951ed.pdf",
+          "originalName": "R5_enroll_Q_Phys_AM.pdf",
+          "sha256": "866d91202077af3c472b3d094e65bfa7463189afa62141b75cbc13d7672951ed",
+          "byteSize": 451299,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/R5_enroll_Q_Phys_AM.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b14d27e045f3d8b09eb09b11c49bcfcad47d4fe371842afa18ff90fd7aa341fc.pdf",
+          "originalName": "R5_enroll_Q_Phys_PM.pdf",
+          "sha256": "b14d27e045f3d8b09eb09b11c49bcfcad47d4fe371842afa18ff90fd7aa341fc",
+          "byteSize": 319597,
+          "pages": 5,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/R5_enroll_Q_Phys_PM.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为令和5年度（令和4年8月17日実施）。午前、午後分册，同组收录。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-17"
+      ]
+    },
+    {
+      "id": "hokkaido-sci-cmp-2024",
+      "universityId": "hokkaido",
+      "title": "2024年度 · 物性物理学専攻・宇宙理学専攻",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻・宇宙理学専攻",
+      "selectionName": "修士（博士前期）課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度（令和5年8月9日実施）",
+      "admissionYears": [
+        2024
+      ],
+      "files": [
+        {
+          "label": "専門科目（午前）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b21978a65630e51ec6c53293bc6e67a844c3223ebe9bb77c5d2ad47957f67ba4.pdf",
+          "originalName": "R6_enroll_Q_Phys_AM.pdf",
+          "sha256": "b21978a65630e51ec6c53293bc6e67a844c3223ebe9bb77c5d2ad47957f67ba4",
+          "byteSize": 595422,
+          "pages": 6,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/R6_enroll_Q_Phys_AM.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（午後）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/beb86c184d5dcc283e5e94681d3c4636c2e0cd2ff9a0835a1d37d2c4beb9e82e.pdf",
+          "originalName": "R6_enroll_Q_Phys_PM.pdf",
+          "sha256": "beb86c184d5dcc283e5e94681d3c4636c2e0cd2ff9a0835a1d37d2c4beb9e82e",
+          "byteSize": 296134,
+          "pages": 7,
+          "sourcePaths": [
+            "北海道大学/理学院/物性物理学 宇宙理学/R6_enroll_Q_Phys_PM.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／北海道大学”原件，完整PDF字节保持。年度筛选按入学年度；实际实施年份另列。 理学院物性物理学専攻・宇宙理学専攻修士（博士前期）課程専門科目。封面为令和6年度（令和5年8月9日実施）。午前、午後分册，同组收录。云盘没有令和7年度（2025）物性物理学・宇宙理学卷。宇宙理学部分题目整册保留，不按志望拆册。未随卷提供解答。",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-09"
+      ]
+    },
+    {
       "id": "uec-informatics-2024",
       "universityId": "uec",
       "title": "2024年8月実施 · 情報学専攻",
@@ -32934,7 +34101,7 @@
       "text": "本校34组／77个唯一PDF、270页。2026-10-14已上线的12组／45个PDF、111页保持不变：电气电子2024—2026入学年度；机械2019（平成31）、2020、2021、2023—2025年度，仅数学与生産工学・制御工学；系统信息2025年度三期，实际笔试为2024-08-22、2024-11-27、2025-01-22。2026-10-18补录原先排除的理学研究科数学専攻与物理学専攻，新增22组、32个唯一PDF、159页。数学按封面入学年度2015–2026，实施日为上一年8月。物理封面只印实施日，paperYear按入学年度＝实施年+1（2017–2026），与数学専攻封面换算一致；物理I与物理II同年合成一组。学部「志」特别选拔仍不入库、不建入口。均保留原件，未提供解答。不声明其他年度或全校齐全。"
     },
     "hokkaido": {
-      "text": "本校16组／29个PDF：26个问题原卷及3个出题意图（非解答），按2025、2026入学年度索引。工学院含応用物理学専攻、機械・宇宙航空工学系及応用量子科学系共通卷；两个研究室群跨4专攻，不视为独立专攻。情報科学院为情報科学専攻5课程，各有専門科目1／2；文件后缀2024、2025是实施年。云盘媒体网络内的2024系统信息卷已据封面归回系统信息。机械2026合册订正页完整保留。未提供解答，不声明其他年度或全校专业齐全；纯数学／纯物理、宇宙理学、自然史及环境专属目录按既定范围排除。"
+      "text": "本校43组／69个唯一PDF、669页。2026-10-15已上线的16组／29个PDF、241页保持不变：工学院応用物理学専攻、機械・宇宙航空工学系及応用量子科学系共通卷，情報科学院情報科学専攻5课程；26个问题原卷及3个出题意图。文件后缀2024、2025是实施年。云盘媒体网络内的2024系统信息卷已据封面归回系统信息。机械2026合册订正页完整保留。2026-10-18补录原先排除的工学院环境共通卷、理学院物性物理学専攻・宇宙理学専攻和自然史科学専攻，新增27组、40个唯一PDF、428页。yearBasis为academic，paperYear按封面入学年度。平成18–22年度封面专攻名为量子理学専攻・宇宙理学専攻，平成23年度（2011）起为物性物理学専攻・宇宙理学専攻，照封面分写。环境两卷封面不印实施日，云盘没有専門1。平成18年度2月卷封面只印「2月7日」，未印实施年，不补考试日期。令和3年度只有午前。云盘没有理学院物性物理学令和7年度（2025）卷。22份无封面的grad_H21与p2002–p2006不入库。自然史2024年8月卷首页为订正、封面在第2页，整册保留。未提供解答，不声明其他年度或全校专业齐全。"
     },
     "uec": {
       "text": "本校20组／38个问题PDF，按2020—2024年8月实施日索引，无随卷解答。封面为情報理工学研究科博士前期課程一般入試，只印实施日期，不印入学年度，故不推定次年4月入学。情報学、情報・ネットワーク工学每年必須与選択各一册；機械知能2020—2021年数学与物理同册，2022年起分册，另有選択；基盤理工学只有選択群11科目。24.8云盘里情报学与情报网络工学文件夹和文件名代号相反，已按封面归类并保留原路径。各PDF第2页为空白扫描页，设问从第3页打开。2024年机械物理学保留問題訂正页。不声明其他年度或全校齐全。"
