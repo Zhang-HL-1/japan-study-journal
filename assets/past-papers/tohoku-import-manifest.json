@@ -1,42 +1,31 @@
 {
-  "importedAt": "2026-10-15",
+  "importedAt": "2026-10-18",
   "universityId": "tohoku",
   "sourceFolder": "Google Drive／过去问／东北大学",
   "inventoryPDFs": 119,
-  "sourceFiles": 87,
-  "uniquePDFs": 86,
+  "sourceFiles": 118,
+  "uniquePDFs": 117,
   "duplicateByteCopies": 1,
-  "groups": 67,
-  "catalogPDFs": 82,
-  "questionPDFs": 78,
+  "groups": 84,
+  "catalogPDFs": 113,
+  "questionPDFs": 105,
   "answerPDFs": 2,
-  "otherPDFs": 2,
+  "otherPDFs": 6,
   "undatedPDFs": 4,
-  "totalPages": 664,
+  "totalPages": 871,
   "yearBasis": "mixed",
   "sharedWithExistingSchools": [],
-  "yearBasisNote": "封面印「令和N年度」「平成N年度」或「YYYY年度」时，paperYear用该年度（令和N＝2018+N，平成N＝1988+N），yearBasis为academic。examYear与examDates只用同一封面印出的公历日；只印到月份时不编examDates。admissionYears只在封面写明「N年4月入学」时填写，不从「年度」或次年4月入学惯例补推。只印实施日、页眉「YYYY年M月」或「YYYY年春季実施」、没有「年度」时，paperYear与examYear用该年，yearBasis为exam，不写admissionYears。文件名（含R6、r04Feb、2025Mar、2026Mar）不作为年度。各页都没有年度或实施日的4份応用物理学册不编入年份目录。",
-  "coverageNote": "本校67组／82个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。云盘本包87个路径、86个唯一PDF、664页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。yearBasis为mixed：封面印「〇〇年度」时paperYear用该年度（令和N＝2018+N，平成N＝1988+N），只有封面写明「N年4月入学」才记admissionYears；只印实施日或页眉「YYYY年M月」时paperYear与examYear用该年，不写admissionYears，也不从文件名补年度。没有公历日就不写examDates。応用物理学2014—2020年8月按实施日；文件名带R6的出题意图封面是令和7年度。机械系4専攻三册按令和年度整册收录，封面只显示数学A；2026年春季1页是出题范围。电气情报按封面公历年，2024年8月起基础与专门合一册；2023年8月和2024年2月封面列情報科学研究科情報・生命系群，其后没有。量子年度以封面为准，允许与文件名错开。情報科学（数学）按云盘文件夹归类，封面无研究科／专攻名，不声称属于情報科学研究科的某个专攻；2025年度只有出題意図・解答例，没有试题，不补。排除理学数学、理学物理、理学推荐募集要项和土木。不声明其他年度或全校齐全。",
+  "yearBasisNote": "封面印「令和N年度」「平成N年度」或「YYYY年度」时，paperYear用该年度（令和N＝2018+N，平成N＝1988+N），yearBasis为academic。examYear与examDates只用同一封面印出的公历日；只印到月份时不编examDates。admissionYears只在封面写明「N年4月入学」时填写，不从「年度」或次年4月入学惯例补推。只印实施日、页眉「YYYY年M月」或「YYYY年春季実施」、没有「年度」时，paperYear与examYear用该年，yearBasis为exam，不写admissionYears。文件名（含R6、r04Feb、2025Mar、2026Mar）不作为年度。各页都没有年度或实施日的4份応用物理学册不编入年份目录。2026-10-18补录：理学数学、理学物理封面印令和N年度时paperYear用该年度，examDates只用封面公历日，未印「N年4月入学」就不写admissionYears。土木封面只印「YYYY春」或「YYYY秋」，没有「年度」和公历日，paperYear与examYear用该公历年，yearBasis为exam，不写admissionYears，也不写examDates。",
+  "coverageNote": "本校84组／113个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。云盘119个PDF中入库118个路径、117个唯一PDF、871页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。2026-10-18补录原先排除的理学数学17份、理学物理8份、土木6份，新增17组、31个唯一PDF、207页。误放的理学研究科自己推薦入学試験学生募集要項不是试题，不建入口，也不入库。yearBasis为mixed。理学数学与理学物理按封面令和年度，实施日另列。土木按封面公历年加春／秋，不写入学年月。不声明其他年度或全校齐全。",
   "excluded": [
-    {
-      "area": "理学研究科／数学専攻",
-      "count": 17,
-      "reason": "纯数学。封面为理学研究科数学専攻入学試験問題。不在附件内，不入库，不建目录。"
-    },
-    {
-      "area": "理学研究科／物理学専攻",
-      "count": 8,
-      "reason": "纯物理。封面为理学研究科物理学専攻筆記試験問題。不在附件内，不入库，不建目录。"
-    },
     {
       "area": "理学研究科自己推薦入学試験学生募集要項",
       "count": 1,
-      "reason": "误放在情报科学／数学文件夹的募集要项，不是试题，且专业超出范围。不在附件内，不入库。"
-    },
-    {
-      "area": "工学研究科／土木",
-      "count": 6,
-      "reason": "用户标注土木，按土木建筑规则不导入。不在附件内，不入库。"
+      "originalName": "东北 理学 募集.pdf",
+      "sourcePath": "东北大学/情报科学/数学/东北 理学 募集.pdf",
+      "sha256": "9001b476802e9885d0076d4de044a66f595c5d601e0a47b672c67847480c1171",
+      "pages": 18,
+      "reason": "误放在情报科学／数学文件夹。封面为2027年度博士課程前期２年の課程自己推薦入学試験学生募集要項（物理学専攻・地球物理学専攻・化学専攻・地学専攻，2027年4月入学者用，2026年2月发行），不是试题。不建真题组，不入库。"
     }
   ],
   "ambiguities": [
@@ -57,7 +46,11 @@
     "情報科学（数学）按云盘文件夹归类，封面只有「YYYY年M月」和問題1，无研究科／专攻名。不声称属于情報科学研究科。0409.pdf文本层乱码，年度用渲染页眉2004年9月。",
     "2408comments封面是2024年度実施上期的出題意図・解答例，附在页眉为2024年8月的试题上。两者都没有把「上期」写成公历日。",
     "2508comments没有对应的2025年试题，不补。2508comments.pdf与2508comments (1).pdf字节相同，两个sourcePaths都保留。",
-    "与已上线学校的PDF没有相同字节，86个文件均新存。扫描件封面事实来自附件cover-facts，本次未逐页重渲。"
+    "与已上线学校的PDF没有相同字节，86个文件均新存。扫描件封面事实来自附件cover-facts，本次未逐页重渲。",
+    "2026-10-18补录理学数学：文件名公历年与封面令和年度一致（2022_R4为令和4年度），实施日在前一个公历年。英语、共通、选择为同一日不同时段，合成一组。令和4、5、7年度英语封面未单列「英語」，第2页为英文；令和6年度科目行文字层乱码。令和7年度出題意図、令和8年度出題意図・講評没有公历日，附在同年试题上，类型为other。",
+    "2026-10-18补录理学物理：exa-rN的N是令和年度。令和3年度封面为令和2年8月24日和25日两日；令和4年度起封面只印一日。试题册科目为基础数学、力学、電磁気学、量子力学、熱・統計力学，没有英语页。出題意図写英语题因著作权未公开。令和8年度试题封面实施日为西历2025年8月19日，出題意図・講評封面写2026年度。",
+    "2026-10-18补录土木：封面只印「YYYY春」或「YYYY秋」和「基礎科目」，没有研究科、専攻、年度、入学或公历日。不写成土木工学専攻，department按云盘文件夹记为土木，研究科按文件夹归入工学研究科。春／秋不补写成入学，不写admissionYears，也不写examDates。",
+    "东北 理学 募集.pdf是募集要项，已在excluded注明跳过原因，不建真题组，PDF不入库。"
   ],
   "files": [
     {
@@ -1226,6 +1219,417 @@
       "groupId": "tohoku-info-math-2025-comments",
       "paperYear": 2025,
       "duplicateSourcePaths": true
+    },
+    {
+      "path": "assets/past-papers/documents/6110ccabe6011778aebd2b7b2760cae02ff6a050fb05faeed14330c67bddee6d.pdf",
+      "originalName": "2022_R4_kyotsu.pdf",
+      "sha256": "6110ccabe6011778aebd2b7b2760cae02ff6a050fb05faeed14330c67bddee6d",
+      "byteSize": 109319,
+      "pages": 4,
+      "sourcePaths": [
+        "东北大学/理学/数学/2022_R4_kyotsu.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2022",
+      "paperYear": 2022
+    },
+    {
+      "path": "assets/past-papers/documents/f337b6d1a47d494cd8f448bb4f7c860024fc67959f11c7353e1dbfc786484c24.pdf",
+      "originalName": "2022_R4_sentaku.pdf",
+      "sha256": "f337b6d1a47d494cd8f448bb4f7c860024fc67959f11c7353e1dbfc786484c24",
+      "byteSize": 229241,
+      "pages": 7,
+      "sourcePaths": [
+        "东北大学/理学/数学/2022_R4_sentaku.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2022",
+      "paperYear": 2022
+    },
+    {
+      "path": "assets/past-papers/documents/91cff6176ee1457fdc8c093096343f9c7c71ec7cf7c509240b1d2c5fa0b645b6.pdf",
+      "originalName": "2022_R4_English.pdf",
+      "sha256": "91cff6176ee1457fdc8c093096343f9c7c71ec7cf7c509240b1d2c5fa0b645b6",
+      "byteSize": 53251,
+      "pages": 3,
+      "sourcePaths": [
+        "东北大学/理学/数学/2022_R4_English.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2022",
+      "paperYear": 2022
+    },
+    {
+      "path": "assets/past-papers/documents/3f09966ad1c58985ad250af9ac06a6ac1ae5d5f25b7c1cbe377c01cdd163ea26.pdf",
+      "originalName": "2023_R5_kyotsu.pdf",
+      "sha256": "3f09966ad1c58985ad250af9ac06a6ac1ae5d5f25b7c1cbe377c01cdd163ea26",
+      "byteSize": 163934,
+      "pages": 3,
+      "sourcePaths": [
+        "东北大学/理学/数学/2023_R5_kyotsu.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2023",
+      "paperYear": 2023
+    },
+    {
+      "path": "assets/past-papers/documents/ef36de07e8e6a6247f15d82f12579b2453f63a1620c0269a8a770594f7c192df.pdf",
+      "originalName": "2023_R5_sentaku.pdf",
+      "sha256": "ef36de07e8e6a6247f15d82f12579b2453f63a1620c0269a8a770594f7c192df",
+      "byteSize": 350086,
+      "pages": 7,
+      "sourcePaths": [
+        "东北大学/理学/数学/2023_R5_sentaku.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2023",
+      "paperYear": 2023
+    },
+    {
+      "path": "assets/past-papers/documents/17da683b2de99eb08474703a0a4d6e2241d5993a4b59408392a5e0efd1311f0d.pdf",
+      "originalName": "2023_R5_English.pdf",
+      "sha256": "17da683b2de99eb08474703a0a4d6e2241d5993a4b59408392a5e0efd1311f0d",
+      "byteSize": 87482,
+      "pages": 3,
+      "sourcePaths": [
+        "东北大学/理学/数学/2023_R5_English.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2023",
+      "paperYear": 2023
+    },
+    {
+      "path": "assets/past-papers/documents/30614a59b27047ad500f35459d030259b08fe713ca2f440056c53c5fab490f97.pdf",
+      "originalName": "2024_R6_kyotsu.pdf",
+      "sha256": "30614a59b27047ad500f35459d030259b08fe713ca2f440056c53c5fab490f97",
+      "byteSize": 51004,
+      "pages": 3,
+      "sourcePaths": [
+        "东北大学/理学/数学/2024_R6_kyotsu.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2024",
+      "paperYear": 2024
+    },
+    {
+      "path": "assets/past-papers/documents/bc7ddad7d452f4dd8effe8a01af827e77c430f07d9ae4e22f0060db191bee464.pdf",
+      "originalName": "2024_R6_sentaku.pdf",
+      "sha256": "bc7ddad7d452f4dd8effe8a01af827e77c430f07d9ae4e22f0060db191bee464",
+      "byteSize": 119706,
+      "pages": 7,
+      "sourcePaths": [
+        "东北大学/理学/数学/2024_R6_sentaku.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2024",
+      "paperYear": 2024
+    },
+    {
+      "path": "assets/past-papers/documents/5d2d02c73c3c6810b1ea5d93048111fa13687731b08f7559b3e22b4272b3015b.pdf",
+      "originalName": "2024_R6_English.pdf",
+      "sha256": "5d2d02c73c3c6810b1ea5d93048111fa13687731b08f7559b3e22b4272b3015b",
+      "byteSize": 1470249,
+      "pages": 3,
+      "sourcePaths": [
+        "东北大学/理学/数学/2024_R6_English.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2024",
+      "paperYear": 2024
+    },
+    {
+      "path": "assets/past-papers/documents/5b647c8c1f4d665019d7a8642fd2cc4d1dc7b4c1c69aa4ed7f1259e602f602a3.pdf",
+      "originalName": "2025_R7_kyotsu.pdf",
+      "sha256": "5b647c8c1f4d665019d7a8642fd2cc4d1dc7b4c1c69aa4ed7f1259e602f602a3",
+      "byteSize": 52503,
+      "pages": 3,
+      "sourcePaths": [
+        "东北大学/理学/数学/2025_R7_kyotsu.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2025",
+      "paperYear": 2025
+    },
+    {
+      "path": "assets/past-papers/documents/8073a96203bfc3c3caa62e3d95bc0b9c1aebdb715a2e11df9db0e8ffe19327f3.pdf",
+      "originalName": "2025_R7_sentaku.pdf",
+      "sha256": "8073a96203bfc3c3caa62e3d95bc0b9c1aebdb715a2e11df9db0e8ffe19327f3",
+      "byteSize": 85770,
+      "pages": 9,
+      "sourcePaths": [
+        "东北大学/理学/数学/2025_R7_sentaku.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2025",
+      "paperYear": 2025
+    },
+    {
+      "path": "assets/past-papers/documents/32a403bf355fc1c851b1d72e585b5b1399e7bec8b3037d246f00693607e69551.pdf",
+      "originalName": "2025_R7_English.pdf",
+      "sha256": "32a403bf355fc1c851b1d72e585b5b1399e7bec8b3037d246f00693607e69551",
+      "byteSize": 98117,
+      "pages": 3,
+      "sourcePaths": [
+        "东北大学/理学/数学/2025_R7_English.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2025",
+      "paperYear": 2025
+    },
+    {
+      "path": "assets/past-papers/documents/f9e139017115178a3185efddf172a5cec9c42af7b598e205ef390ec9d296d6b6.pdf",
+      "originalName": "2025_R7_purpose.pdf",
+      "sha256": "f9e139017115178a3185efddf172a5cec9c42af7b598e205ef390ec9d296d6b6",
+      "byteSize": 98749,
+      "pages": 2,
+      "sourcePaths": [
+        "东北大学/理学/数学/2025_R7_purpose.pdf"
+      ],
+      "kind": "other",
+      "groupId": "tohoku-sci-math-2025",
+      "paperYear": 2025
+    },
+    {
+      "path": "assets/past-papers/documents/a730c45c92954c2d9bb1df59758926e79f5e4e8937077980f9d0a53f5a646963.pdf",
+      "originalName": "2026_R8_kyotsu.pdf",
+      "sha256": "a730c45c92954c2d9bb1df59758926e79f5e4e8937077980f9d0a53f5a646963",
+      "byteSize": 95431,
+      "pages": 3,
+      "sourcePaths": [
+        "东北大学/理学/数学/2026_R8_kyotsu.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2026",
+      "paperYear": 2026
+    },
+    {
+      "path": "assets/past-papers/documents/c9afff7e50ad772ad6a5977d885f43af9a10cb086148e8644acc44ecda66e958.pdf",
+      "originalName": "2026_R8_sentaku.pdf",
+      "sha256": "c9afff7e50ad772ad6a5977d885f43af9a10cb086148e8644acc44ecda66e958",
+      "byteSize": 125321,
+      "pages": 8,
+      "sourcePaths": [
+        "东北大学/理学/数学/2026_R8_sentaku.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2026",
+      "paperYear": 2026
+    },
+    {
+      "path": "assets/past-papers/documents/1108dced7be6eb3b80068e094c4684627169d1b804e591647868d64701877bc3.pdf",
+      "originalName": "2026_R8_English.pdf",
+      "sha256": "1108dced7be6eb3b80068e094c4684627169d1b804e591647868d64701877bc3",
+      "byteSize": 143656,
+      "pages": 3,
+      "sourcePaths": [
+        "东北大学/理学/数学/2026_R8_English.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-math-2026",
+      "paperYear": 2026
+    },
+    {
+      "path": "assets/past-papers/documents/4d36ef80511a9f84e0943c6e120add6cfb1ba5891145a050aea58ab0f5e1cd3c.pdf",
+      "originalName": "2026_R8_purpose.pdf",
+      "sha256": "4d36ef80511a9f84e0943c6e120add6cfb1ba5891145a050aea58ab0f5e1cd3c",
+      "byteSize": 159012,
+      "pages": 5,
+      "sourcePaths": [
+        "东北大学/理学/数学/2026_R8_purpose.pdf"
+      ],
+      "kind": "other",
+      "groupId": "tohoku-sci-math-2026",
+      "paperYear": 2026
+    },
+    {
+      "path": "assets/past-papers/documents/f7ca0612bac2f50abcaaae8fe9019acce518082cb2733bc3ed47d07000599dce.pdf",
+      "originalName": "exa-r3.pdf",
+      "sha256": "f7ca0612bac2f50abcaaae8fe9019acce518082cb2733bc3ed47d07000599dce",
+      "byteSize": 545447,
+      "pages": 12,
+      "sourcePaths": [
+        "东北大学/理学/物理/exa-r3.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-phys-2021",
+      "paperYear": 2021
+    },
+    {
+      "path": "assets/past-papers/documents/211bf79f578947e356920933dfa3a6b9850bd0bf383ea78ba1057a9c27688eb9.pdf",
+      "originalName": "exa-r4.pdf",
+      "sha256": "211bf79f578947e356920933dfa3a6b9850bd0bf383ea78ba1057a9c27688eb9",
+      "byteSize": 676232,
+      "pages": 13,
+      "sourcePaths": [
+        "东北大学/理学/物理/exa-r4.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-phys-2022",
+      "paperYear": 2022
+    },
+    {
+      "path": "assets/past-papers/documents/d88b877b20484accc561cf0f7e3da72758c941adebf8877f9821351954e462f6.pdf",
+      "originalName": "exa-r5.pdf",
+      "sha256": "d88b877b20484accc561cf0f7e3da72758c941adebf8877f9821351954e462f6",
+      "byteSize": 870684,
+      "pages": 19,
+      "sourcePaths": [
+        "东北大学/理学/物理/exa-r5.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-phys-2023",
+      "paperYear": 2023
+    },
+    {
+      "path": "assets/past-papers/documents/d81a8236a757b8c03fee11d7fbe4db5c6f3785d1efc12166ebb6a56b0adc28d5.pdf",
+      "originalName": "exa-r6.pdf",
+      "sha256": "d81a8236a757b8c03fee11d7fbe4db5c6f3785d1efc12166ebb6a56b0adc28d5",
+      "byteSize": 739869,
+      "pages": 19,
+      "sourcePaths": [
+        "东北大学/理学/物理/exa-r6.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-phys-2024",
+      "paperYear": 2024
+    },
+    {
+      "path": "assets/past-papers/documents/57ad9971265bff4ece510a42a1a5146e038fce6d8d6876056487170a4842d683.pdf",
+      "originalName": "exa-r7.pdf",
+      "sha256": "57ad9971265bff4ece510a42a1a5146e038fce6d8d6876056487170a4842d683",
+      "byteSize": 915138,
+      "pages": 18,
+      "sourcePaths": [
+        "东北大学/理学/物理/exa-r7.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-phys-2025",
+      "paperYear": 2025
+    },
+    {
+      "path": "assets/past-papers/documents/d77772c0eee176ac3f247cf9d890e77484fb9d2d3aceb4d8de133e46560b5373.pdf",
+      "originalName": "exa_obj-r7.pdf",
+      "sha256": "d77772c0eee176ac3f247cf9d890e77484fb9d2d3aceb4d8de133e46560b5373",
+      "byteSize": 66489,
+      "pages": 1,
+      "sourcePaths": [
+        "东北大学/理学/物理/exa_obj-r7.pdf"
+      ],
+      "kind": "other",
+      "groupId": "tohoku-sci-phys-2025",
+      "paperYear": 2025
+    },
+    {
+      "path": "assets/past-papers/documents/21651beb74074b9e906f601c050e0c1f5a93c7f95e1eea171bde460cad877c95.pdf",
+      "originalName": "exa-r8.pdf",
+      "sha256": "21651beb74074b9e906f601c050e0c1f5a93c7f95e1eea171bde460cad877c95",
+      "byteSize": 1336478,
+      "pages": 23,
+      "sourcePaths": [
+        "东北大学/理学/物理/exa-r8.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-sci-phys-2026",
+      "paperYear": 2026
+    },
+    {
+      "path": "assets/past-papers/documents/d62e2ff2fd66493fa7e630eb72b96b573ef1b62b85545cc1e90b4545d9446f9b.pdf",
+      "originalName": "exa_obj-r8.pdf",
+      "sha256": "d62e2ff2fd66493fa7e630eb72b96b573ef1b62b85545cc1e90b4545d9446f9b",
+      "byteSize": 1758083,
+      "pages": 2,
+      "sourcePaths": [
+        "东北大学/理学/物理/exa_obj-r8.pdf"
+      ],
+      "kind": "other",
+      "groupId": "tohoku-sci-phys-2026",
+      "paperYear": 2026
+    },
+    {
+      "path": "assets/past-papers/documents/a919d6f2e85e3c0d15d6dc0ed9ae070c1914d04da50609f682a08c9864837866.pdf",
+      "originalName": "2023_autumn_BasicSubjectsJ.pdf",
+      "sha256": "a919d6f2e85e3c0d15d6dc0ed9ae070c1914d04da50609f682a08c9864837866",
+      "byteSize": 182201,
+      "pages": 4,
+      "sourcePaths": [
+        "东北大学/工学研究科/土木（math）/2023_autumn_BasicSubjectsJ.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-civil-2023-autumn",
+      "paperYear": 2023
+    },
+    {
+      "path": "assets/past-papers/documents/11e8d6a85c067310b4f26a8ce9f380c3455a4a698f027c7f1b8dac75e434ef0c.pdf",
+      "originalName": "2024_spring_BasicSubjectsJ.pdf",
+      "sha256": "11e8d6a85c067310b4f26a8ce9f380c3455a4a698f027c7f1b8dac75e434ef0c",
+      "byteSize": 132263,
+      "pages": 4,
+      "sourcePaths": [
+        "东北大学/工学研究科/土木（math）/2024_spring_BasicSubjectsJ.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-civil-2024-spring",
+      "paperYear": 2024
+    },
+    {
+      "path": "assets/past-papers/documents/a6a41c6ca95b371d90161d78917e60f227b3177d89559cfeb82eda136bbd30ae.pdf",
+      "originalName": "2024_autumn_BasicSubjectsJ.pdf",
+      "sha256": "a6a41c6ca95b371d90161d78917e60f227b3177d89559cfeb82eda136bbd30ae",
+      "byteSize": 97837,
+      "pages": 4,
+      "sourcePaths": [
+        "东北大学/工学研究科/土木（math）/2024_autumn_BasicSubjectsJ.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-civil-2024-autumn",
+      "paperYear": 2024
+    },
+    {
+      "path": "assets/past-papers/documents/39d3a618b1324caca20f9d6add4dcb224f48cdfa39aa7712c2893e4734eaa3f6.pdf",
+      "originalName": "2025_spring_BasicSubjectsJ.pdf",
+      "sha256": "39d3a618b1324caca20f9d6add4dcb224f48cdfa39aa7712c2893e4734eaa3f6",
+      "byteSize": 88048,
+      "pages": 4,
+      "sourcePaths": [
+        "东北大学/工学研究科/土木（math）/2025_spring_BasicSubjectsJ.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-civil-2025-spring",
+      "paperYear": 2025
+    },
+    {
+      "path": "assets/past-papers/documents/52426d1a7a97e25439779e09614ad4650db8e03736b953c944b5579dd20b8d11.pdf",
+      "originalName": "2025_autumn_BasicSubjectsJ.pdf",
+      "sha256": "52426d1a7a97e25439779e09614ad4650db8e03736b953c944b5579dd20b8d11",
+      "byteSize": 114475,
+      "pages": 4,
+      "sourcePaths": [
+        "东北大学/工学研究科/土木（math）/2025_autumn_BasicSubjectsJ.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-civil-2025-autumn",
+      "paperYear": 2025
+    },
+    {
+      "path": "assets/past-papers/documents/e0f61ea47abe311ad4ee086325ea56c9948b1c38177bde6531f7af986df6cadd.pdf",
+      "originalName": "2026_spring_BasicSubjectsJ.pdf",
+      "sha256": "e0f61ea47abe311ad4ee086325ea56c9948b1c38177bde6531f7af986df6cadd",
+      "byteSize": 83626,
+      "pages": 4,
+      "sourcePaths": [
+        "东北大学/工学研究科/土木（math）/2026_spring_BasicSubjectsJ.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-civil-2026-spring",
+      "paperYear": 2026
     }
-  ]
+  ],
+  "backfill": {
+    "at": "2026-10-18",
+    "addedGroups": 17,
+    "addedUniquePDFs": 31,
+    "addedPages": 207,
+    "skippedNonExam": 1,
+    "note": "补录原先排除的理学/数学17份、理学/物理8份、工学/土木6份。误放的募集要项1份不建入口、不入库。"
+  }
 }
