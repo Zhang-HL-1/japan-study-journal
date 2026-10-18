@@ -1891,8 +1891,8 @@
     "POQ只标为出题意图（非解答）。",
     "学院字段沿用现行检索目录，旧卷研究科与专攻名称以卷面为准。"
   ],
-  "publicationStatus": "partial",
-  "publishedGroups": 43,
-  "pendingGroups": 29,
-  "publishedPDFs": 44
+  "publicationStatus": "complete",
+  "publishedGroups": 72,
+  "pendingGroups": 0,
+  "publishedPDFs": 82
 }
