@@ -37,6 +37,40 @@
       "sourceNote": "用户提供的早稻田大学过去问原卷。原卷年份按卷面9月入学年索引，同时保留次年4月入学信息；封面修订标记不作为考试日期。PDF原样保存。"
     },
     {
+      "id": "waseda-phys-app-2025",
+      "universityId": "waseda",
+      "title": "2025年9月・2026年4月入学 · 物理学及応用物理学専攻",
+      "graduateSchool": "先進理工学研究科",
+      "department": "物理学及応用物理学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025年9月・2026年4月入学試験",
+      "admissionYears": [
+        2025,
+        2026
+      ],
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5da726b36e2589dbce2dc68d56a545723813842f43102d92402f7e6b6cf35384.pdf",
+          "originalName": "53_M_butsuri_2025_September2026_April_ippan_senmon.pdf",
+          "sha256": "5da726b36e2589dbce2dc68d56a545723813842f43102d92402f7e6b6cf35384",
+          "byteSize": 386803,
+          "pages": 15,
+          "sourcePaths": [
+            "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2025_September2026_April_ippan_senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的早稻田大学过去问原卷。原卷年份按卷面9月入学年索引，同时保留次年4月入学信息；封面修订标记不作为考试日期。PDF原样保存。"
+    },
+    {
       "id": "waseda-cbec8323f123ac93",
       "universityId": "waseda",
       "title": "2025年9月・2026年4月入学 · 電気・情報生命専攻",
@@ -206,6 +240,40 @@
           "pages": 12,
           "sourcePaths": [
             "早稻田大学/基干理工/情报理工通讯/51_M_johoriko_2025_September2026_April_ippan_senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的早稻田大学过去问原卷。原卷年份按卷面9月入学年索引，同时保留次年4月入学信息；封面修订标记不作为考试日期。PDF原样保存。"
+    },
+    {
+      "id": "waseda-math-app-2025",
+      "universityId": "waseda",
+      "title": "2025年9月・2026年4月入学 · 数学応用数理専攻",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "数学応用数理専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025年9月・2026年4月入学試験",
+      "admissionYears": [
+        2025,
+        2026
+      ],
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fca01974bef4b592fadbcbbd577c3e8877e945624198547a18cce325ad5082da.pdf",
+          "originalName": "51_M_sugaku_2025_September2026_April_ippan_senmon.pdf",
+          "sha256": "fca01974bef4b592fadbcbbd577c3e8877e945624198547a18cce325ad5082da",
+          "byteSize": 315917,
+          "pages": 18,
+          "sourcePaths": [
+            "早稻田大学/基干理工/数学应用/51_M_sugaku_2025_September2026_April_ippan_senmon.pdf"
           ],
           "startPage": 1
         }
@@ -410,6 +478,53 @@
       "sourceNote": "用户提供的早稻田大学过去问原卷。原卷年份按卷面9月入学年索引，同时保留次年4月入学信息；封面修订标记不作为考试日期。PDF原样保存。"
     },
     {
+      "id": "waseda-phys-app-2024",
+      "universityId": "waseda",
+      "title": "2024年9月・2025年4月入学 · 物理学及応用物理学専攻",
+      "graduateSchool": "先進理工学研究科",
+      "department": "物理学及応用物理学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "originalYear": "2024年9月・2025年4月入学試験",
+      "admissionYears": [
+        2024,
+        2025
+      ],
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目（訂正ページ付き）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0.pdf",
+          "originalName": "53_M_butsuri_2024_September2025_April_ippan_senmon.pdf",
+          "sha256": "f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0",
+          "byteSize": 532480,
+          "pages": 16,
+          "sourcePaths": [
+            "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2024_September2025_April_ippan_senmon.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目・訂正通知",
+          "kind": "other",
+          "url": "assets/past-papers/documents/f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0.pdf",
+          "originalName": "53_M_butsuri_2024_September2025_April_ippan_senmon.pdf",
+          "sha256": "f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0",
+          "byteSize": 532480,
+          "pages": 16,
+          "sourcePaths": [
+            "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2024_September2025_April_ippan_senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的早稻田大学过去问原卷。原卷年份按卷面9月入学年索引，同时保留次年4月入学信息；封面修订标记不作为考试日期。PDF原样保存。 含学校订正通知，可切换查看；下载提供包含订正页的完整PDF。"
+    },
+    {
       "id": "waseda-9d954510681b3bfe",
       "universityId": "waseda",
       "title": "2024年9月・2025年4月入学 · 電気・情報生命専攻",
@@ -566,6 +681,40 @@
           "pages": 12,
           "sourcePaths": [
             "早稻田大学/基干理工/情报理工通讯/51_M_johoriko_2024_September2025_April_ippan_senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的早稻田大学过去问原卷。原卷年份按卷面9月入学年索引，同时保留次年4月入学信息；封面修订标记不作为考试日期。PDF原样保存。"
+    },
+    {
+      "id": "waseda-math-app-2024",
+      "universityId": "waseda",
+      "title": "2024年9月・2025年4月入学 · 数学応用数理専攻",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "数学応用数理専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "originalYear": "2024年9月・2025年4月入学試験",
+      "admissionYears": [
+        2024,
+        2025
+      ],
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6b76b6cced0f7d2b71e9e834e42b8f96833ea3ca2b810435ce9d95ceb8609116.pdf",
+          "originalName": "51_M_sugaku_2024_September2025_April_ippan_senmon.pdf",
+          "sha256": "6b76b6cced0f7d2b71e9e834e42b8f96833ea3ca2b810435ce9d95ceb8609116",
+          "byteSize": 382327,
+          "pages": 18,
+          "sourcePaths": [
+            "早稻田大学/基干理工/数学应用/51_M_sugaku_2024_September2025_April_ippan_senmon.pdf"
           ],
           "startPage": 1
         }
@@ -757,6 +906,40 @@
       "sourceNote": "用户提供的早稻田大学过去问原卷。原卷年份按卷面9月入学年索引，同时保留次年4月入学信息；封面修订标记不作为考试日期。PDF原样保存。"
     },
     {
+      "id": "waseda-phys-app-2023",
+      "universityId": "waseda",
+      "title": "2023年9月・2024年4月入学 · 物理学及応用物理学専攻",
+      "graduateSchool": "先進理工学研究科",
+      "department": "物理学及応用物理学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "originalYear": "2023年9月・2024年4月入学試験",
+      "admissionYears": [
+        2023,
+        2024
+      ],
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/40215c5cab5c186a2ef2c5ce723599f11efe77e1dba6e5c20ec08f4cb7b9277c.pdf",
+          "originalName": "53_M_butsuri_2023_September2024_April_ippan_senmon.pdf",
+          "sha256": "40215c5cab5c186a2ef2c5ce723599f11efe77e1dba6e5c20ec08f4cb7b9277c",
+          "byteSize": 393240,
+          "pages": 15,
+          "sourcePaths": [
+            "早稻田大学/先进理工/物理学及应用物理/53_M_butsuri_2023_September2024_April_ippan_senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的早稻田大学过去问原卷。原卷年份按卷面9月入学年索引，同时保留次年4月入学信息；封面修订标记不作为考试日期。PDF原样保存。"
+    },
+    {
       "id": "waseda-84ec06d4f5967f9a",
       "universityId": "waseda",
       "title": "2023年9月・2024年4月入学 · 電気・情報生命専攻",
@@ -926,6 +1109,40 @@
           "pages": 12,
           "sourcePaths": [
             "早稻田大学/基干理工/情报理工通讯/51_M_johoriko_2023_September2024_April_ippan_senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的早稻田大学过去问原卷。原卷年份按卷面9月入学年索引，同时保留次年4月入学信息；封面修订标记不作为考试日期。PDF原样保存。"
+    },
+    {
+      "id": "waseda-math-app-2023",
+      "universityId": "waseda",
+      "title": "2023年9月・2024年4月入学 · 数学応用数理専攻",
+      "graduateSchool": "基幹理工学研究科",
+      "department": "数学応用数理専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "originalYear": "2023年9月・2024年4月入学試験",
+      "admissionYears": [
+        2023,
+        2024
+      ],
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/40dda35842115fc434aedc2b5dfb1c5cc2775b2f559faa9de519e77533042992.pdf",
+          "originalName": "51_M_sugaku_2023_September2024_April_ippan_senmon.pdf",
+          "sha256": "40dda35842115fc434aedc2b5dfb1c5cc2775b2f559faa9de519e77533042992",
+          "byteSize": 335257,
+          "pages": 18,
+          "sourcePaths": [
+            "早稻田大学/基干理工/数学应用/51_M_sugaku_2023_September2024_April_ippan_senmon.pdf"
           ],
           "startPage": 1
         }
@@ -31715,6 +31932,9 @@
     },
     "keio": {
       "text": "本校46组／46个唯一PDF、307页，无解答。2026-10-15已上线的32组／32个唯一PDF、181页保持不变。2026-10-18补录原先排除的A数理科学、B物理学、Oオープンシステムマネジメント，新增14组、14个唯一PDF、126页。云盘47个PDF全部纳入；根目录B物理学2025.pdf与物理学/B物理学2025.pdf字节相同，duplicateByteCopies为1，两个路径都写入sourcePaths。封面统一为「YYYY年 8月」「慶應義塾大学大学院 理工学研究科」「前期博士課程 入学試験問題」「教育研究分野：〈字母〉〈名称〉」。封面无入学年度、无具体日，只有考试月，故 yearBasis 为 exam：paperYear 与 examYear 用该年，不写 admissionYears，也不写 examDates。2021–2024年收录 J マテリアルデザイン科学、M 応用力学・計算力学、N 情報工学、D 物理情報、I 電気電子工学、A 数理科学、B 物理学、O オープンシステムマネジメント。2025年根目录按封面为 A 数理科学、B 物理学、C 物理情報工学、G 機械工学、H 電気情報工学。边界／待确认：H システム統合工学2021–2024、G マルチディシプリナリ・デザイン科学2021–2024、I システムデザイン工学2025，按封面单独建目录，不并入其他分野。2025年字母与2021–2024年不同（旧 D 物理情報／G マルチディシプリナリ・デザイン科学／H システム統合工学／I 電気電子工学），按封面记，不合并。A 数理科学、B 物理学、O オープンシステムマネジメント按封面单独建目录，不并入 C／G／H／I。云盘无2021–2024年機械工学文件夹，只有 G 機械工学2025，不补。本包没有2025年オープンシステムマネジメント，不补。2021年多为扫描／双页拼版，pdfinfo Pages 有的约为封面総ページ数的一半（Hシステム統合4/8、Jマテリアル4/8、Gマルチ1/2、N情報3/6、D物理情報2/4、A数理科学4/8、B物理学4/8、Oオープンシステムマネジメント7/14），M応用力学5/9与I電気電子3/5不是整齐的一半；两数都记，页数以实际PDF为准，这些册从第1页打开。页数一致且封面写明问题自第2页起的册从第2页打开；C物理情報工学2025与D物理情報2022–2024封面未写「2ページから」，核对第2页为设问后从第2页打开。J マテリアルデザイン科学的选修含化学系分野与物理情報工学系分野，按各年封面原样收录，不拆不删：2021年各组3问中选2，2022–2024年各组2问都答。不声明其他年度或全校齐全。"
+    },
+    "waseda": {
+      "text": "本校41组／47个唯一PDF、584页。2026-10-11已上线的35组／41个唯一PDF、484页保持不变。2026-10-18补录原先排除的基幹理工学研究科数学応用数理専攻与先進理工学研究科物理学及応用物理学専攻，新增6组、6个唯一PDF、100页。封面印「YYYY年9月・(YYYY+1)年4月入学試験」，yearBasis为academic，paperYear为9月入学年，admissionYears为该年与次年；右上角戳记不是paperYear。数学応用数理各年1册専門科目。物理学及応用物理学各年1册専門科目；2024册首页为入試問題の訂正内容，整册保留，可切换订正页。2025数学与物理专业科目几乎无文字层，封面经渲染核对。同夹2份口述試験说明不是笔试，不建入口、不入库。不声明其他年度或全校齐全。"
     }
   }
 };if(typeof module!=='undefined'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);
