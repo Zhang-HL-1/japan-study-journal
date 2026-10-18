@@ -7394,6 +7394,1004 @@
       "sourceURL": "https://www.csi.kobe-u.ac.jp/exam/master/2024/202501master_exam.html"
     },
     {
+      "id": "kobe-sci-math-2015",
+      "universityId": "kobe",
+      "title": "2015年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成27年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4f6f8c383854dbd87b9269a50529116d0bacca198b847216c942d5ec7d3cb8a2.pdf",
+          "originalName": "h27.pdf",
+          "sha256": "4f6f8c383854dbd87b9269a50529116d0bacca198b847216c942d5ec7d3cb8a2",
+          "byteSize": 315544,
+          "pages": 7,
+          "sourcePaths": [
+            "神户大学/数学专攻/h27.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印平成27年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日平成26年8月25日，时间9:30–12:00，問題1到問題5。paperYear按封面入学年度2015，examDates为2014-08-25。文件名h27.pdf与封面年度一致。本册无文字层，封面经渲染核对。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2014,
+      "examDates": [
+        "2014-08-25"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2016",
+      "universityId": "kobe",
+      "title": "2016年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成28年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2016
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1fad96e4f8e130b40d2b39dbe95fed8f46869a570946cbc8323754d736b4cf07.pdf",
+          "originalName": "h28.pdf",
+          "sha256": "1fad96e4f8e130b40d2b39dbe95fed8f46869a570946cbc8323754d736b4cf07",
+          "byteSize": 245560,
+          "pages": 6,
+          "sourcePaths": [
+            "神户大学/数学专攻/h28.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印平成28年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日平成27年8月19日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2016，examDates为2015-08-19。文件名h28.pdf与封面年度一致。本册无文字层，封面经渲染核对。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2015,
+      "examDates": [
+        "2015-08-19"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2017",
+      "universityId": "kobe",
+      "title": "2017年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成29年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2017
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/051fbd6e3bb729669c00ef2a7c5f3a21dddfa8ced67e985b22cfec8702c3128f.pdf",
+          "originalName": "h29.pdf",
+          "sha256": "051fbd6e3bb729669c00ef2a7c5f3a21dddfa8ced67e985b22cfec8702c3128f",
+          "byteSize": 283782,
+          "pages": 8,
+          "sourcePaths": [
+            "神户大学/数学专攻/h29.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印平成29年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日平成28年8月24日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2017，examDates为2016-08-24。文件名h29.pdf与封面年度一致。本册无文字层，封面经渲染核对。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2016,
+      "examDates": [
+        "2016-08-24"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2018",
+      "universityId": "kobe",
+      "title": "2018年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成30年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2018
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fd3fef57a823ff3a4cfb7298f007d39f11bbc38633d93b95825444fef6b68f7a.pdf",
+          "originalName": "h30.pdf",
+          "sha256": "fd3fef57a823ff3a4cfb7298f007d39f11bbc38633d93b95825444fef6b68f7a",
+          "byteSize": 146370,
+          "pages": 7,
+          "sourcePaths": [
+            "神户大学/数学专攻/h30.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印平成30年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日平成29年8月22日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2018，examDates为2017-08-22。文件名h30.pdf与封面年度一致。本册无文字层，封面经渲染核对。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2017,
+      "examDates": [
+        "2017-08-22"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2019",
+      "universityId": "kobe",
+      "title": "2019年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成31年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bd3296cb451cfb3a8dc6d99af5ec5def5de45bafa2ea2e4680ad1b715378be3b.pdf",
+          "originalName": "h31.pdf",
+          "sha256": "bd3296cb451cfb3a8dc6d99af5ec5def5de45bafa2ea2e4680ad1b715378be3b",
+          "byteSize": 120951,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/数学专攻/h31.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印平成31年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日平成30年8月23日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2019，examDates为2018-08-23。文件名h31.pdf与封面年度一致。本册无文字层，封面经渲染核对。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-23"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2020",
+      "universityId": "kobe",
+      "title": "2020年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2020年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/04dd7228427c09cadb024c48fc3f9fddf14cbf22a1459ea425b884a3e6594ce2.pdf",
+          "originalName": "i2020.pdf",
+          "sha256": "04dd7228427c09cadb024c48fc3f9fddf14cbf22a1459ea425b884a3e6594ce2",
+          "byteSize": 85752,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/数学专攻/i2020.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印2020年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日2019年8月20日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2020，examDates为2019-08-20。文件名i2020.pdf与封面年度一致。本册无文字层，封面经渲染核对。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-20"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2021",
+      "universityId": "kobe",
+      "title": "2021年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和3年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/56bc9bf3200e629b216616509a042053169e3ba8075277c17e3084c1d44727de.pdf",
+          "originalName": "r03.pdf",
+          "sha256": "56bc9bf3200e629b216616509a042053169e3ba8075277c17e3084c1d44727de",
+          "byteSize": 91137,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/数学专攻/r03.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印令和3年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日2020年8月20日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2021，examDates为2020-08-20。文件名r03.pdf与封面年度一致。本册无文字层，封面经渲染核对。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-20"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2022",
+      "universityId": "kobe",
+      "title": "2022年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/77478021c4386999591c2715a395c46ba648b97fe71dce82c0408dc8cd1ac7d5.pdf",
+          "originalName": "r04.pdf",
+          "sha256": "77478021c4386999591c2715a395c46ba648b97fe71dce82c0408dc8cd1ac7d5",
+          "byteSize": 87408,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/数学专攻/r04.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印令和4年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日2021年8月25日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2022，examDates为2021-08-25。文件名r04.pdf与封面年度一致。本册无文字层，封面经渲染核对。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-25"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2023",
+      "universityId": "kobe",
+      "title": "2023年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/42ae9f33a7b6116463c56d82442ba94a457074021bb55ebb7198a8e4e58e46a0.pdf",
+          "originalName": "r05.pdf",
+          "sha256": "42ae9f33a7b6116463c56d82442ba94a457074021bb55ebb7198a8e4e58e46a0",
+          "byteSize": 132673,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/数学专攻/r05.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印令和5年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日2022年8月24日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2023，examDates为2022-08-24。文件名r05.pdf与封面年度一致。封面文字层与渲染一致。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-24"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2024",
+      "universityId": "kobe",
+      "title": "2024年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c061f2044f871cf983fb9786e05fca6b4bcbec3e7a05c1535e8ad5bd97b5b817.pdf",
+          "originalName": "r06.pdf",
+          "sha256": "c061f2044f871cf983fb9786e05fca6b4bcbec3e7a05c1535e8ad5bd97b5b817",
+          "byteSize": 134940,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/数学专攻/r06.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印令和6年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日2023年8月23日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2024，examDates为2023-08-23。文件名r06.pdf与封面年度一致。封面文字层与渲染一致。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-23"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2025",
+      "universityId": "kobe",
+      "title": "2025年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/01e24d0df1d9fe2426b7a062cf3dde600fb106cd3f1b844b036dd931ce021f29.pdf",
+          "originalName": "r07.pdf",
+          "sha256": "01e24d0df1d9fe2426b7a062cf3dde600fb106cd3f1b844b036dd931ce021f29",
+          "byteSize": 135547,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/数学专攻/r07.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印令和7年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日2024年8月21日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2025，examDates为2024-08-21。文件名r07.pdf与封面年度一致。封面文字层与渲染一致。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-21"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-math-2026",
+      "universityId": "kobe",
+      "title": "2026年度 · 数学専攻 · 数学 I",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和8年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "数学 I"
+      ],
+      "files": [
+        {
+          "label": "数学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6b59e0374fc13e39f9b0cafa2d0c7f138d4e57b4fa550eb080a7b76ef0665e98.pdf",
+          "originalName": "r08.pdf",
+          "sha256": "6b59e0374fc13e39f9b0cafa2d0c7f138d4e57b4fa550eb080a7b76ef0665e98",
+          "byteSize": 126280,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/数学专攻/r08.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面印令和8年度博士課程前期課程入学試験問題：数学 I，神戸大学大学院理学研究科数学専攻，实施日2025年8月21日，时间9:30–12:00，問題1到問題4。paperYear按封面入学年度2026，examDates为2025-08-21。文件名r08.pdf与封面年度一致。封面文字层与渲染一致。设问从第1页开始，从第1页打开。没有随卷解答。",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-21"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2017",
+      "universityId": "kobe",
+      "title": "2017年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2017年度（封面未印入学年度，按2016年8月23日实施加1）",
+      "admissionYears": [
+        2017
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3f81f11dffb6c19cba2982be60676972974110a098353aa44ffc6769e2680b4d.pdf",
+          "originalName": "PH2016a.pdf",
+          "sha256": "3f81f11dffb6c19cba2982be60676972974110a098353aa44ffc6769e2680b4d",
+          "byteSize": 139707,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2016a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ced72273cef72b963e5262a0450deaf0cd0da28770fa75a8eb849ae8a7a30dfb.pdf",
+          "originalName": "PH2016b.pdf",
+          "sha256": "ced72273cef72b963e5262a0450deaf0cd0da28770fa75a8eb849ae8a7a30dfb",
+          "byteSize": 108908,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2016b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2016年8月23日和「物理 I 試験問題」「物理 II 試験問題」，150分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 为4问，物理 II 为3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2017（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2016是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2016,
+      "examDates": [
+        "2016-08-23"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2018",
+      "universityId": "kobe",
+      "title": "2018年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2018年度（封面未印入学年度，按2017年8月24日实施加1）",
+      "admissionYears": [
+        2018
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1a84b84154409c189dade3923638db8b86da017cd598ee6b8a721df795605c22.pdf",
+          "originalName": "PH2017a.pdf",
+          "sha256": "1a84b84154409c189dade3923638db8b86da017cd598ee6b8a721df795605c22",
+          "byteSize": 99894,
+          "pages": 6,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2017a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f4a6b86b3df237942f8759da1814975eb32e36fa99457aecd84992dd8fc3618e.pdf",
+          "originalName": "PH2017b.pdf",
+          "sha256": "f4a6b86b3df237942f8759da1814975eb32e36fa99457aecd84992dd8fc3618e",
+          "byteSize": 69102,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2017b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2017年8月24日和「物理 I 試験問題」「物理 II 試験問題」，150分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 为4问，物理 II 为3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2018（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2017是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2017,
+      "examDates": [
+        "2017-08-24"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2019",
+      "universityId": "kobe",
+      "title": "2019年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2019年度（封面未印入学年度，按2018年8月22日实施加1）",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f5c144c3c2d2844ee9d0ff30cd69d9f0c7e91c8ea2df4ab77fa17b876961ba53.pdf",
+          "originalName": "PH2018a.pdf",
+          "sha256": "f5c144c3c2d2844ee9d0ff30cd69d9f0c7e91c8ea2df4ab77fa17b876961ba53",
+          "byteSize": 875028,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2018a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/335ad53b3b3e5f35c94e9a93db636b60b1db91026c2c86e1271be7578b207d97.pdf",
+          "originalName": "PH2018b.pdf",
+          "sha256": "335ad53b3b3e5f35c94e9a93db636b60b1db91026c2c86e1271be7578b207d97",
+          "byteSize": 808811,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2018b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2018年8月22日和「物理 I 試験問題」「物理 II 試験問題」，150分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 为4问，物理 II 为3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2019（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2018是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-22"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2020",
+      "universityId": "kobe",
+      "title": "2020年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2020年度（封面未印入学年度，按2019年8月21日实施加1）",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cd9252b64bf3300a5a57dab76fcb4e9d1b23ec44f711bad5fadb2f5743fdc8f4.pdf",
+          "originalName": "PH2019a.pdf",
+          "sha256": "cd9252b64bf3300a5a57dab76fcb4e9d1b23ec44f711bad5fadb2f5743fdc8f4",
+          "byteSize": 386032,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2019a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/978bc0ef1aad367891883ad69cf58a28e5362fd80c759492bd436f06b49e078c.pdf",
+          "originalName": "PH2019b.pdf",
+          "sha256": "978bc0ef1aad367891883ad69cf58a28e5362fd80c759492bd436f06b49e078c",
+          "byteSize": 288945,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2019b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2019年8月21日和「物理 I 試験問題」「物理 II 試験問題」，150分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 为4问，物理 II 为3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2020（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2019是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-21"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2021",
+      "universityId": "kobe",
+      "title": "2021年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2021年度（封面未印入学年度，按2020年8月26日实施加1）",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/65ec1f88aead5ee0396dbcf16e0042d8e42239dc4ff007ae31cfd31c0a6e62dd.pdf",
+          "originalName": "PH2020a.pdf",
+          "sha256": "65ec1f88aead5ee0396dbcf16e0042d8e42239dc4ff007ae31cfd31c0a6e62dd",
+          "byteSize": 129767,
+          "pages": 7,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2020a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/07955cce1f7c2ddb1f9873a487d5f76aa024165ac04907fc8a38e8bd8625cfa0.pdf",
+          "originalName": "PH2020b.pdf",
+          "sha256": "07955cce1f7c2ddb1f9873a487d5f76aa024165ac04907fc8a38e8bd8625cfa0",
+          "byteSize": 18387,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2020b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2020年8月26日和「物理 I 試験問題」「物理 II 試験問題」，150分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 为4问，物理 II 为3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2021（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2020是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2020,
+      "examDates": [
+        "2020-08-26"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2022",
+      "universityId": "kobe",
+      "title": "2022年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2022年度（封面未印入学年度，按2021年8月23日实施加1）",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/69dd4b9e72e04d31f2f3ccae4e10661860c3eaca141097652ae1579cb18bd412.pdf",
+          "originalName": "PH2021a.pdf",
+          "sha256": "69dd4b9e72e04d31f2f3ccae4e10661860c3eaca141097652ae1579cb18bd412",
+          "byteSize": 245688,
+          "pages": 6,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2021a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cfe5847d3b379da2a4ab1ded6422676deb448f9625ff7ec72c63a366664a1df1.pdf",
+          "originalName": "PH2021b.pdf",
+          "sha256": "cfe5847d3b379da2a4ab1ded6422676deb448f9625ff7ec72c63a366664a1df1",
+          "byteSize": 467128,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2021b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2021年8月23日和「物理 I 試験問題」「物理 II 試験問題」，150分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 为4问，物理 II 为3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2022（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2021是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-23"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2023",
+      "universityId": "kobe",
+      "title": "2023年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2023年度（封面未印入学年度，按2022年8月23日实施加1）",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/18952e6ff7a2aec6b82e82f68cadfa59357c2ab7ed15234d25386fa0aa38b2b9.pdf",
+          "originalName": "PH2022a.pdf",
+          "sha256": "18952e6ff7a2aec6b82e82f68cadfa59357c2ab7ed15234d25386fa0aa38b2b9",
+          "byteSize": 134467,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2022a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5a1b96bdf2ecd3396b587b6f6d8c6eb87feadb559b475991eb5c0bbf03d9d979.pdf",
+          "originalName": "PH2022b.pdf",
+          "sha256": "5a1b96bdf2ecd3396b587b6f6d8c6eb87feadb559b475991eb5c0bbf03d9d979",
+          "byteSize": 296949,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2022b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2022年8月23日和「物理 I 試験問題」「物理 II 試験問題」，120分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 与物理 II 各3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2023（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2022是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-23"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2024",
+      "universityId": "kobe",
+      "title": "2024年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2024年度（封面未印入学年度，按2023年8月22日实施加1）",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e241a602552bca2be8d30b4bb695d7b7a5bbcc6af0e9d41b34de6e9e6ca14ba2.pdf",
+          "originalName": "PH2023a.pdf",
+          "sha256": "e241a602552bca2be8d30b4bb695d7b7a5bbcc6af0e9d41b34de6e9e6ca14ba2",
+          "byteSize": 1844266,
+          "pages": 6,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2023a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d9c4c0a4b0fdcc3733faf9b25a5c28d71df4f685c2158e86a554680f2edb68b0.pdf",
+          "originalName": "PH2023b.pdf",
+          "sha256": "d9c4c0a4b0fdcc3733faf9b25a5c28d71df4f685c2158e86a554680f2edb68b0",
+          "byteSize": 1204857,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2023b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2023年8月22日和「物理 I 試験問題」「物理 II 試験問題」，120分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 与物理 II 各3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2024（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2023是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-22"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2025",
+      "universityId": "kobe",
+      "title": "2025年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2025年度（封面未印入学年度，按2024年8月20日实施加1）",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/07f346f5bf6e0c2d18f15e4f4ef0a3af457aadfc80c4dbea247617f97fbfb5ff.pdf",
+          "originalName": "PH2024a.pdf",
+          "sha256": "07f346f5bf6e0c2d18f15e4f4ef0a3af457aadfc80c4dbea247617f97fbfb5ff",
+          "byteSize": 1580758,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2024a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6177cb08a7a2c9720f16a992e1b0b9adf5abdde6c4dcbec0aeaac7da6edc0f2e.pdf",
+          "originalName": "PH2024b.pdf",
+          "sha256": "6177cb08a7a2c9720f16a992e1b0b9adf5abdde6c4dcbec0aeaac7da6edc0f2e",
+          "byteSize": 1317426,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2024b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2024年8月20日和「物理 I 試験問題」「物理 II 試験問題」，120分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 与物理 II 各3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2025（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2024是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-20"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
+      "id": "kobe-sci-phys-2026",
+      "universityId": "kobe",
+      "title": "2026年度 · 物理学専攻 · 物理 I・物理 II",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "物理 I・物理 II 試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "entry-year-inference",
+      "originalYear": "2026年度（封面未印入学年度，按2025年8月19日实施加1）",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "物理 I",
+        "物理 II"
+      ],
+      "files": [
+        {
+          "label": "物理 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4c056c4971e76af1797df29a5874081dbb6f7bfb8d209b80de9f49500f73f44c.pdf",
+          "originalName": "PH2025a.pdf",
+          "sha256": "4c056c4971e76af1797df29a5874081dbb6f7bfb8d209b80de9f49500f73f44c",
+          "byteSize": 4409331,
+          "pages": 5,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2025a.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b19504a58be19e234cf9629803bfe1fdf786280c752b1b99f92f100fe5a61ba7.pdf",
+          "originalName": "PH2025b.pdf",
+          "sha256": "b19504a58be19e234cf9629803bfe1fdf786280c752b1b99f92f100fe5a61ba7",
+          "byteSize": 3516264,
+          "pages": 4,
+          "sourcePaths": [
+            "神户大学/物理学专攻/PH2025b.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／神户大学”提供，PDF原样保存。封面只印实施日2025年8月19日和「物理 I 試験問題」「物理 II 試験問題」，120分；不印入学年度，也不印神戸大学、理学研究科或物理学専攻。物理 I 与物理 II 各3问。目录按云盘「物理学专攻」记为理学研究科物理学専攻，不并入電気電子工学専攻、機械工学専攻或システム情報学専攻。paperYear按入学年度2026（实施年+1），与数学専攻封面换算一致：数学封面印入学年度，8月实施日属于上一年。文件名PH2025是实施年，不当作入学年度。两份合成一组，都从第1页打开。没有随卷解答。",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-19"
+      ],
+      "dateEvidence": "cover"
+    },
+    {
       "id": "hokkaido-applied-physics-2025",
       "universityId": "hokkaido",
       "title": "2025年度 · 応用物理学専攻",
@@ -30613,7 +31611,7 @@
       "text": "收录2025入学年度9月、2月两次考试，实际笔试分别为2024-09-11、2025-02-16。机械、电气电子、信息学三个题群各设入口，共6组，共享4个完整原合册（2个问题、2个解答／解答例），不是6套不同试卷。选择题群不与志望领域强行绑定；整册其他题群原样保留。云盘此校没有更多年度资料，不声明连续年份完整覆盖。"
     },
     "kobe": {
-      "text": "本校新增12组／45个试题PDF：电气电子2024—2026入学年度；机械2019（平成31）、2020、2021、2023—2025年度，仅数学与生産工学・制御工学；系统信息2025年度三期，实际笔试为2024-08-22、2024-11-27、2025-01-22。均保留原件，未提供解答。不声明机械全科目或所有年份齐全。学部「志」特别选拔及纯数学／纯物理专属目录不录入修士题库。"
+      "text": "本校34组／77个唯一PDF、270页。2026-10-14已上线的12组／45个PDF、111页保持不变：电气电子2024—2026入学年度；机械2019（平成31）、2020、2021、2023—2025年度，仅数学与生産工学・制御工学；系统信息2025年度三期，实际笔试为2024-08-22、2024-11-27、2025-01-22。2026-10-18补录原先排除的理学研究科数学専攻与物理学専攻，新增22组、32个唯一PDF、159页。数学按封面入学年度2015–2026，实施日为上一年8月。物理封面只印实施日，paperYear按入学年度＝实施年+1（2017–2026），与数学専攻封面换算一致；物理I与物理II同年合成一组。学部「志」特别选拔仍不入库、不建入口。均保留原件，未提供解答。不声明其他年度或全校齐全。"
     },
     "hokkaido": {
       "text": "本校16组／29个PDF：26个问题原卷及3个出题意图（非解答），按2025、2026入学年度索引。工学院含応用物理学専攻、機械・宇宙航空工学系及応用量子科学系共通卷；两个研究室群跨4专攻，不视为独立专攻。情報科学院为情報科学専攻5课程，各有専門科目1／2；文件后缀2024、2025是实施年。云盘媒体网络内的2024系统信息卷已据封面归回系统信息。机械2026合册订正页完整保留。未提供解答，不声明其他年度或全校专业齐全；纯数学／纯物理、宇宙理学、自然史及环境专属目录按既定范围排除。"
