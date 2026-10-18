@@ -4872,6 +4872,2478 @@
       "examYear": 1996
     },
     {
+      "id": "tus-bf-92f899f87ea5",
+      "universityId": "tus",
+      "title": "2025年度 · 国際火災科学専攻 · 一般・外国人留学生",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "selectionName": "修士課程・一般・外国人留学生入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "数学"
+      ],
+      "examDates": [
+        "2024-08-03"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6df4b53710cce76460b3e68fa37b3b31c1c59af162fa7135ef1af7a288aaf48a.pdf",
+          "originalName": "修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf",
+          "sha256": "6df4b53710cce76460b3e68fa37b3b31c1c59af162fa7135ef1af7a288aaf48a",
+          "byteSize": 162913,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 封面为一般・外国人留学生共用，不拆成两组。",
+      "examYear": 2024
+    },
+    {
+      "id": "tus-bf-dcb3947ff77a",
+      "universityId": "tus",
+      "title": "2025年度 · 国際火災科学専攻 · 冬期日程",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "selectionName": "修士課程・一般入試（冬期日程）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "数学"
+      ],
+      "examDates": [
+        "2025-02-22"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b0afe5ed3ef8fe2e77428e1d6a5460b744209f86e83e2839a9836440a124b5cd.pdf",
+          "originalName": "修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学.pdf",
+          "sha256": "b0afe5ed3ef8fe2e77428e1d6a5460b744209f86e83e2839a9836440a124b5cd",
+          "byteSize": 132460,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2025
+    },
+    {
+      "id": "tus-bf-aa52132d96ae",
+      "universityId": "tus",
+      "title": "2025年度 · 建築学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "建築学専攻",
+      "selectionName": "修士課程・外国人留学生入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/110b1b032b950fed6f004a451bdc2fa236c12bbb509f198261b7365125c7a266.pdf",
+          "originalName": "外国人留学生_創域理工研_建築学専攻_専門科目.pdf",
+          "sha256": "110b1b032b950fed6f004a451bdc2fa236c12bbb509f198261b7365125c7a266",
+          "byteSize": 307169,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/建築学専攻/外国人留学生_創域理工研_建築学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-c173187e3f89",
+      "universityId": "tus",
+      "title": "2025年度 · 生命生物科学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "生命生物科学専攻",
+      "selectionName": "修士課程・外国人留学生入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/60d506ef0977d8790cf0f05de830f96ed3e6d53a5012d56f19b46721bc2ecc84.pdf",
+          "originalName": "外国人留学生_創域理工研_生命生物科学専攻_専門科目.pdf",
+          "sha256": "60d506ef0977d8790cf0f05de830f96ed3e6d53a5012d56f19b46721bc2ecc84",
+          "byteSize": 385955,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/生命生物科学専攻/外国人留学生_創域理工研_生命生物科学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-28f88b89119b",
+      "universityId": "tus",
+      "title": "2025年度 · 社会基盤工学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "社会基盤工学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門科目",
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dc1324ce5d8fadde3cd5f84df944ecea813f224dcf0496c7811671b7930b4dbd.pdf",
+          "originalName": "修士一般_創域理工研_社会基盤工学専攻_専門科目.pdf",
+          "sha256": "dc1324ce5d8fadde3cd5f84df944ecea813f224dcf0496c7811671b7930b4dbd",
+          "byteSize": 595588,
+          "pages": 8,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/93dd5de051cd0c9715dafd651aa8625084b0ccefbd0d68415640fd96b17c4973.pdf",
+          "originalName": "修士一般_創域理工研_社会基盤工学専攻_数学.pdf",
+          "sha256": "93dd5de051cd0c9715dafd651aa8625084b0ccefbd0d68415640fd96b17c4973",
+          "byteSize": 95063,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_数学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-2d220d042652",
+      "universityId": "tus",
+      "title": "2025年度 · 社会基盤工学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "社会基盤工学専攻",
+      "selectionName": "修士課程・外国人留学生入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/98762facc33fc7e30aa958c7a10135fe086a80a261269724609014a27bcb55c9.pdf",
+          "originalName": "外国人留学生_創域理工研_社会基盤工学専攻_専門科目.pdf",
+          "sha256": "98762facc33fc7e30aa958c7a10135fe086a80a261269724609014a27bcb55c9",
+          "byteSize": 195988,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/社会基盤工学専攻/外国人留学生_創域理工研_社会基盤工学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-bf46854b78d8",
+      "universityId": "tus",
+      "title": "2025年度 · 工業化学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "工業化学専攻",
+      "selectionName": "修士課程・外国人留学生入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "一般化学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "一般化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/247d074d0f4553e8c9b2ed622d5164f8d5741c097887a2330e3cefd9e4a85526.pdf",
+          "originalName": "修士留学生_工研_工業化学専攻_一般化学.pdf",
+          "sha256": "247d074d0f4553e8c9b2ed622d5164f8d5741c097887a2330e3cefd9e4a85526",
+          "byteSize": 442259,
+          "pages": 6,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_一般化学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d4c1039eaf132301579f2c689da0ee7fa3bbabd4be7c1f3cf568b6c4a1a70d0b.pdf",
+          "originalName": "修士留学生_工研_工業化学専攻_専門科目.pdf",
+          "sha256": "d4c1039eaf132301579f2c689da0ee7fa3bbabd4be7c1f3cf568b6c4a1a70d0b",
+          "byteSize": 373139,
+          "pages": 6,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-780d919a0093",
+      "universityId": "tus",
+      "title": "2025年度 · 建築学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "建築学専攻",
+      "selectionName": "修士課程・外国人留学生入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "建築構造",
+        "建築環境",
+        "建築計画・建築製図"
+      ],
+      "examDates": [
+        "2025-01-07"
+      ],
+      "files": [
+        {
+          "label": "建築構造",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f84c438bbf39db7a921571df40645eae520ecb22621f9aaa98025dc0e7f9ffcd.pdf",
+          "originalName": "修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf",
+          "sha256": "f84c438bbf39db7a921571df40645eae520ecb22621f9aaa98025dc0e7f9ffcd",
+          "byteSize": 80581,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "建築環境",
+          "kind": "question",
+          "url": "assets/past-papers/documents/22b50f942bdca3894fa00c9fed0defe210890a54455c5a2d0cc10d4f95f1732a.pdf",
+          "originalName": "修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf",
+          "sha256": "22b50f942bdca3894fa00c9fed0defe210890a54455c5a2d0cc10d4f95f1732a",
+          "byteSize": 159097,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "建築計画・建築製図",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b984aa0142842951fa7cca676dfd10e649c3d9ffd102721b0ca454fb5817e6d0.pdf",
+          "originalName": "修士留学生_工研_建築学専攻_専門科目（建築計画・建築製図）.pdf",
+          "sha256": "b984aa0142842951fa7cca676dfd10e649c3d9ffd102721b0ca454fb5817e6d0",
+          "byteSize": 59719,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築計画・建築製図）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2025
+    },
+    {
+      "id": "tus-bf-2c4c8b574a2c",
+      "universityId": "tus",
+      "title": "2025年度 · 化学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/04d60437e74d0c04ffda133ec21cca66b7d03107c3c180deeadd4dd4b5367fd8.pdf",
+          "originalName": "修士一般_理研_化学専攻_専門科目.pdf",
+          "sha256": "04d60437e74d0c04ffda133ec21cca66b7d03107c3c180deeadd4dd4b5367fd8",
+          "byteSize": 771989,
+          "pages": 29,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_化学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-cb7d156bcdcf",
+      "universityId": "tus",
+      "title": "2025年度 · 応用数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "応用数学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/483162dd2e05e37a87f73c44bad97016b6426118ea5ecfe7853b6150f091819c.pdf",
+          "originalName": "修士一般_理研_応用数学専攻_専門基礎科目.pdf",
+          "sha256": "483162dd2e05e37a87f73c44bad97016b6426118ea5ecfe7853b6150f091819c",
+          "byteSize": 79907,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_応用数学専攻_専門基礎科目.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ff922481b5f22bd2644b9f07b67062dddf4219737ffa2e97903492c6b182273e.pdf",
+          "originalName": "修士一般_理研_応用数学専攻_専門科目.pdf",
+          "sha256": "ff922481b5f22bd2644b9f07b67062dddf4219737ffa2e97903492c6b182273e",
+          "byteSize": 124985,
+          "pages": 5,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_応用数学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-848c5bec9456",
+      "universityId": "tus",
+      "title": "2025年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/25fb5b216c219cb63501228486a2d61a0f11b6144ae2aadd357423085decc696.pdf",
+          "originalName": "修士一般_理研_数学専攻_専門基礎科目.pdf",
+          "sha256": "25fb5b216c219cb63501228486a2d61a0f11b6144ae2aadd357423085decc696",
+          "byteSize": 96681,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_数学専攻_専門基礎科目.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4daa3396b1e7a4c92f62d1e5fda664692c2ec9123763f4f162b9f16ea6408fac.pdf",
+          "originalName": "修士一般_理研_数学専攻_専門科目.pdf",
+          "sha256": "4daa3396b1e7a4c92f62d1e5fda664692c2ec9123763f4f162b9f16ea6408fac",
+          "byteSize": 177032,
+          "pages": 7,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_数学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-f8ea6f357ec1",
+      "universityId": "tus",
+      "title": "2025年度 · 物理学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門科目（熱・統計力学、量子力学）",
+        "専門科目（物理数学、力学、電磁気学）"
+      ],
+      "files": [
+        {
+          "label": "専門科目（熱・統計力学、量子力学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/398a5c8b9daf62ca59418babd6334ff19d18c996b2021aac6b65b50546d71f7e.pdf",
+          "originalName": "修士一般_理研_物理学専攻_専門科目（熱・統計力学、量子力学）.pdf",
+          "sha256": "398a5c8b9daf62ca59418babd6334ff19d18c996b2021aac6b65b50546d71f7e",
+          "byteSize": 126669,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_物理学専攻_専門科目（熱・統計力学、量子力学）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（物理数学、力学、電磁気学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9bafa08d09ea346fe34a3bd1562bf70496896bc2c3a218017be45fff106fd861.pdf",
+          "originalName": "修士一般_理研_物理学専攻_専門科目（物理数学、力学、電磁気学）.pdf",
+          "sha256": "9bafa08d09ea346fe34a3bd1562bf70496896bc2c3a218017be45fff106fd861",
+          "byteSize": 197425,
+          "pages": 5,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_物理学専攻_専門科目（物理数学、力学、電磁気学）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-eff9b9805a1c",
+      "universityId": "tus",
+      "title": "2025年度 · 生命科学専攻 · 冬期日程",
+      "graduateSchool": "生命科学研究科",
+      "department": "生命科学専攻",
+      "selectionName": "修士課程・一般入試（冬期日程）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d.pdf",
+          "originalName": "修士一般（冬期）_生命研_生命科学専攻_専門科目.pdf",
+          "sha256": "cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d",
+          "byteSize": 2328951,
+          "pages": 6,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_生命科学研究科/修士一般（冬期）_生命研_生命科学専攻_専門科目.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "問題訂正",
+          "kind": "other",
+          "url": "assets/past-papers/documents/cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d.pdf",
+          "originalName": "修士一般（冬期）_生命研_生命科学専攻_専門科目.pdf",
+          "sha256": "cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d",
+          "byteSize": 2328951,
+          "pages": 6,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_生命科学研究科/修士一般（冬期）_生命研_生命科学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 第1页为問題訂正，第2页为问题封面。"
+    },
+    {
+      "id": "tus-bf-9f50e24b4751",
+      "universityId": "tus",
+      "title": "2025年度 · 生命科学専攻 · 夏期日程",
+      "graduateSchool": "生命科学研究科",
+      "department": "生命科学専攻",
+      "selectionName": "修士課程・一般入試（夏期日程）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3b0212a48da320eeebf6bbca5b223a1b962caf6831adbbb713db987d56a9f0b9.pdf",
+          "originalName": "修士一般（夏期）_生命研_生命科学専攻_専門科目.pdf",
+          "sha256": "3b0212a48da320eeebf6bbca5b223a1b962caf6831adbbb713db987d56a9f0b9",
+          "byteSize": 899771,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_生命科学研究科/修士一般（夏期）_生命研_生命科学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-0c83c9ed9711",
+      "universityId": "tus",
+      "title": "2025年度 · 経営学専攻 · 冬期日程",
+      "graduateSchool": "経営学研究科",
+      "department": "経営学専攻",
+      "selectionName": "修士課程・一般入試（冬期日程）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "マーケティング",
+        "経営学"
+      ],
+      "files": [
+        {
+          "label": "マーケティング",
+          "kind": "question",
+          "url": "assets/past-papers/documents/556d5df72d9d93077d219715735fcef6b155ecbe881c94517bb7b6565289d5ed.pdf",
+          "originalName": "修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf",
+          "sha256": "556d5df72d9d93077d219715735fcef6b155ecbe881c94517bb7b6565289d5ed",
+          "byteSize": 96582,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "経営学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8b5f4f24c6b1a0310be4facce4d5dc1f425f55af6e470916de5834db6260c5fb.pdf",
+          "originalName": "修士一般（冬期）_経営研_経営学専攻_経営学.pdf",
+          "sha256": "8b5f4f24c6b1a0310be4facce4d5dc1f425f55af6e470916de5834db6260c5fb",
+          "byteSize": 91165,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（冬期）_経営研_経営学専攻_経営学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-de25be7d7fdf",
+      "universityId": "tus",
+      "title": "2025年度 · 経営学専攻 · 夏期日程",
+      "graduateSchool": "経営学研究科",
+      "department": "経営学専攻",
+      "selectionName": "修士課程・一般入試（夏期日程）",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "マーケティング",
+        "経営学"
+      ],
+      "files": [
+        {
+          "label": "マーケティング",
+          "kind": "question",
+          "url": "assets/past-papers/documents/db4749fb4be37cf84fe91d70ae98371b9e6e54be7948e7da43b3572f80d59860.pdf",
+          "originalName": "修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf",
+          "sha256": "db4749fb4be37cf84fe91d70ae98371b9e6e54be7948e7da43b3572f80d59860",
+          "byteSize": 74249,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "経営学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f780ce69d4d0b2ca6cc7773492f06606f6c6f58445a017809eb2fbf6b44e9e48.pdf",
+          "originalName": "修士一般（夏期）_経営研_経営学専攻_経営学.pdf",
+          "sha256": "f780ce69d4d0b2ca6cc7773492f06606f6c6f58445a017809eb2fbf6b44e9e48",
+          "byteSize": 82150,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-d0db7dbe22d2",
+      "universityId": "tus",
+      "title": "2025年度 · 薬科学専攻",
+      "graduateSchool": "薬学研究科",
+      "department": "薬科学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度",
+      "subjects": [
+        "有機化学",
+        "物理化学",
+        "生物科学"
+      ],
+      "examDates": [
+        "2024-08-22"
+      ],
+      "files": [
+        {
+          "label": "有機化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5073cedb737c3b333cc87a4b6c8d6dbfa1d11f5ebb69ff806444023263737c46.pdf",
+          "originalName": "修士一般_薬研‗薬科学専攻‗有機化学.pdf",
+          "sha256": "5073cedb737c3b333cc87a4b6c8d6dbfa1d11f5ebb69ff806444023263737c46",
+          "byteSize": 125650,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_薬学研究科/修士一般_薬研‗薬科学専攻‗有機化学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d7b5b60d4392dc2b876a46169ecc6a85ff7eeaf31e3beb0bee6e2d273d74a3c3.pdf",
+          "originalName": "修士一般_薬研‗薬科学専攻‗物理化学.pdf",
+          "sha256": "d7b5b60d4392dc2b876a46169ecc6a85ff7eeaf31e3beb0bee6e2d273d74a3c3",
+          "byteSize": 156616,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_薬学研究科/修士一般_薬研‗薬科学専攻‗物理化学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生物科学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b79d30dd793936f40257535507e2bb2facf32e82f555fe3d88f0cd1daf95607b.pdf",
+          "originalName": "修士一般_薬研‗薬科学専攻‗生物科学.pdf",
+          "sha256": "b79d30dd793936f40257535507e2bb2facf32e82f555fe3d88f0cd1daf95607b",
+          "byteSize": 228999,
+          "pages": 5,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_薬学研究科/修士一般_薬研‗薬科学専攻‗生物科学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2024
+    },
+    {
+      "id": "tus-bf-949ec1c24d50",
+      "universityId": "tus",
+      "title": "2024年度 · 先端化学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "先端化学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a5b2908a2c52895b74c4cbf3136614f3a2f072b218b9673989625668a4c15c32.pdf",
+          "originalName": "修士一般_創域理工研_先端化学専攻_専門科目.pdf",
+          "sha256": "a5b2908a2c52895b74c4cbf3136614f3a2f072b218b9673989625668a4c15c32",
+          "byteSize": 750235,
+          "pages": 13,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-78d23fecce17",
+      "universityId": "tus",
+      "title": "2024年度 · 先端物理学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "先端物理学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "物理学Ⅰ",
+        "物理学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "物理学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7b3dfc4b8602f24b31b06ea9f8225a4022b297b7da3c56b76115c9a822cdc9fc.pdf",
+          "originalName": "修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
+          "sha256": "7b3dfc4b8602f24b31b06ea9f8225a4022b297b7da3c56b76115c9a822cdc9fc",
+          "byteSize": 390451,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/835f98d3f353b9f919b4405ef52cd30e2107b48910fff638098af0d958ada98d.pdf",
+          "originalName": "修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
+          "sha256": "835f98d3f353b9f919b4405ef52cd30e2107b48910fff638098af0d958ada98d",
+          "byteSize": 446272,
+          "pages": 6,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-381571ed9f61",
+      "universityId": "tus",
+      "title": "2024年度 · 国際火災科学専攻 · 一般・外国人留学生",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "selectionName": "修士課程・一般・外国人留学生入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "数学"
+      ],
+      "examDates": [
+        "2023-07-29"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/15195275ce16e9234763b2e606f1e6564420a8878777aff2542d4a8184eb2d89.pdf",
+          "originalName": "修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf",
+          "sha256": "15195275ce16e9234763b2e606f1e6564420a8878777aff2542d4a8184eb2d89",
+          "byteSize": 113425,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 封面为一般・外国人留学生共用，不拆成两组。",
+      "examYear": 2023
+    },
+    {
+      "id": "tus-bf-819b3ff0f1b1",
+      "universityId": "tus",
+      "title": "2024年度 · 国際火災科学専攻 · 冬期日程",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "selectionName": "修士課程・一般入試（冬期日程）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "数学"
+      ],
+      "examDates": [
+        "2024-02-24"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686.pdf",
+          "originalName": "修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf",
+          "sha256": "c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686",
+          "byteSize": 154400,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "問題訂正",
+          "kind": "other",
+          "url": "assets/past-papers/documents/c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686.pdf",
+          "originalName": "修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf",
+          "sha256": "c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686",
+          "byteSize": 154400,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 第1页为問題訂正，第2页为问题封面。",
+      "examYear": 2024
+    },
+    {
+      "id": "tus-bf-3141cf5bafff",
+      "universityId": "tus",
+      "title": "2024年度 · 建築学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "建築学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門科目（必須）",
+        "専門科目（選択）"
+      ],
+      "files": [
+        {
+          "label": "専門科目（必須）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0e238d0a81066a2dd0dfc53d68a0a809ec2d9f5d1d02b15fcc3e2a27b66c46b6.pdf",
+          "originalName": "修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
+          "sha256": "0e238d0a81066a2dd0dfc53d68a0a809ec2d9f5d1d02b15fcc3e2a27b66c46b6",
+          "byteSize": 830351,
+          "pages": 10,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）（著作権の都合上非公開箇所あり）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（選択）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/37a9f5df4d9449ea9fdd3de4ace834ad799236622d7b4d91ef393ecf469a64b9.pdf",
+          "originalName": "修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
+          "sha256": "37a9f5df4d9449ea9fdd3de4ace834ad799236622d7b4d91ef393ecf469a64b9",
+          "byteSize": 557300,
+          "pages": 10,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 有来源路径文件名注明著作権の都合上非公開箇所あり，保留原发布版本。"
+    },
+    {
+      "id": "tus-bf-1f6922509db6",
+      "universityId": "tus",
+      "title": "2024年度 · 数理科学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "数理科学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "数学Ⅰ",
+        "数学Ⅱ"
+      ],
+      "examDates": [
+        "2023-07-28"
+      ],
+      "files": [
+        {
+          "label": "数学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6e1d104c828d99e72112391cc2482eb426ab57f0b0936b19272c3e7084fa9ca4.pdf",
+          "originalName": "修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
+          "sha256": "6e1d104c828d99e72112391cc2482eb426ab57f0b0936b19272c3e7084fa9ca4",
+          "byteSize": 126570,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/94809ed76b4fc6cde9733009c4d1b64f4bfca2cfb35f7926f75833cec1f845ca.pdf",
+          "originalName": "修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
+          "sha256": "94809ed76b4fc6cde9733009c4d1b64f4bfca2cfb35f7926f75833cec1f845ca",
+          "byteSize": 184523,
+          "pages": 5,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2023
+    },
+    {
+      "id": "tus-bf-d6841113f1f6",
+      "universityId": "tus",
+      "title": "2024年度 · 生命生物科学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "生命生物科学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1ab2b564721e9bba0e9d209a1438464c5dc28bb685bfea3ddd123199975ca39e.pdf",
+          "originalName": "修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
+          "sha256": "1ab2b564721e9bba0e9d209a1438464c5dc28bb685bfea3ddd123199975ca39e",
+          "byteSize": 1496522,
+          "pages": 10,
+          "sourcePaths": [
+            "东京理科大学/24东理/創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目（著作権の都合上非公開箇所あり）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 有来源路径文件名注明著作権の都合上非公開箇所あり，保留原发布版本。"
+    },
+    {
+      "id": "tus-bf-43efd380b7d5",
+      "universityId": "tus",
+      "title": "2024年度 · 工業化学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "工業化学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fc2ee757c6ce159e5ae3ea5915ce8f69ca63df3e425c94bb62a170f16cc75449.pdf",
+          "originalName": "修士一般_工研_工業化学専攻_専門科目.pdf",
+          "sha256": "fc2ee757c6ce159e5ae3ea5915ce8f69ca63df3e425c94bb62a170f16cc75449",
+          "byteSize": 440865,
+          "pages": 10,
+          "sourcePaths": [
+            "东京理科大学/24东理/工学研究科/工業化学専攻/修士一般_工研_工業化学専攻_専門科目.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/工業化学専攻/修士一般_工研_工業化学専攻_専門科目.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/工業化学専攻/修士一般_工研_工業化学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-9829dab0fcf3",
+      "universityId": "tus",
+      "title": "2024年度 · 工業化学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "工業化学専攻",
+      "selectionName": "修士課程・外国人留学生入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "一般化学",
+        "専門科目（有機化学）"
+      ],
+      "examDates": [
+        "2024-01-08"
+      ],
+      "files": [
+        {
+          "label": "一般化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b34e7e242188820f2a69c5d4b88970a3aa007ebb02ed60fcc5654182c98aaef0.pdf",
+          "originalName": "修士留学生_工研_工業化学専攻_一般化学.pdf",
+          "sha256": "b34e7e242188820f2a69c5d4b88970a3aa007ebb02ed60fcc5654182c98aaef0",
+          "byteSize": 171542,
+          "pages": 6,
+          "sourcePaths": [
+            "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_一般化学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（有機化学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1e4f970230b6348855d20b32d9dad38ecec33de47cc5f1e84a36e4bc5914a9e7.pdf",
+          "originalName": "修士留学生_工研_工業化学専攻_専門科目（有機化学）.pdf",
+          "sha256": "1e4f970230b6348855d20b32d9dad38ecec33de47cc5f1e84a36e4bc5914a9e7",
+          "byteSize": 155219,
+          "pages": 6,
+          "sourcePaths": [
+            "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_専門科目（有機化学）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2024
+    },
+    {
+      "id": "tus-bf-812036229cc0",
+      "universityId": "tus",
+      "title": "2024年度 · 建築学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "建築学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "即日設計",
+        "専門科目A",
+        "専門科目B"
+      ],
+      "files": [
+        {
+          "label": "即日設計",
+          "kind": "question",
+          "url": "assets/past-papers/documents/061eaf27614141b2e80b4b01b8bc1f7462ea35919338b3b2780afd44502b85f8.pdf",
+          "originalName": "修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf",
+          "sha256": "061eaf27614141b2e80b4b01b8bc1f7462ea35919338b3b2780afd44502b85f8",
+          "byteSize": 60787,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/24东理/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8047362fe803c9501c67804e5cd333e2c30e32a95708fdeabe7403db25d49604.pdf",
+          "originalName": "修士一般_工研_建築学専攻_専門科目A.pdf",
+          "sha256": "8047362fe803c9501c67804e5cd333e2c30e32a95708fdeabe7403db25d49604",
+          "byteSize": 363881,
+          "pages": 12,
+          "sourcePaths": [
+            "东京理科大学/24东理/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目A.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目A.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目A.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ff1d43adde912bdbb5816955acc1e87f39820b3c59d070569f8ff10d94c360f9.pdf",
+          "originalName": "修士一般_工研_建築学専攻_専門科目B.pdf",
+          "sha256": "ff1d43adde912bdbb5816955acc1e87f39820b3c59d070569f8ff10d94c360f9",
+          "byteSize": 353337,
+          "pages": 12,
+          "sourcePaths": [
+            "东京理科大学/24东理/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-11c322fc21b1",
+      "universityId": "tus",
+      "title": "2024年度 · 建築学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "建築学専攻",
+      "selectionName": "修士課程・外国人留学生入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "建築構造",
+        "建築環境",
+        "建築計画・設計製図"
+      ],
+      "examDates": [
+        "2024-01-07"
+      ],
+      "files": [
+        {
+          "label": "建築構造",
+          "kind": "question",
+          "url": "assets/past-papers/documents/339c94ee2b50cd849e00bc02f4ed5dbae00cd954228b3671180e755c7726ad05.pdf",
+          "originalName": "修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf",
+          "sha256": "339c94ee2b50cd849e00bc02f4ed5dbae00cd954228b3671180e755c7726ad05",
+          "byteSize": 90061,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "建築環境",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a3199b73d65436e05323cec694002d574679a48daa4e098689084a3167ac84fd.pdf",
+          "originalName": "修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf",
+          "sha256": "a3199b73d65436e05323cec694002d574679a48daa4e098689084a3167ac84fd",
+          "byteSize": 116933,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "建築計画・設計製図",
+          "kind": "question",
+          "url": "assets/past-papers/documents/da46ae3a1bf96c94559642490d545d3280b08c4711c67542f8cfb2c75ad026b7.pdf",
+          "originalName": "修士留学生_工研_建築学専攻_専門科目（建築計画・設計製図）.pdf",
+          "sha256": "da46ae3a1bf96c94559642490d545d3280b08c4711c67542f8cfb2c75ad026b7",
+          "byteSize": 66588,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築計画・設計製図）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2024
+    },
+    {
+      "id": "tus-bf-068be2dd5b7b",
+      "universityId": "tus",
+      "title": "2024年度 · 化学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門科目（物理化学・無機及び分析化学・有機化学）"
+      ],
+      "files": [
+        {
+          "label": "専門科目（物理化学・無機及び分析化学・有機化学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c29168e4b84010522aa072eca58a14cfd42105088cdd540f6cc200e4bc1dbb10.pdf",
+          "originalName": "修士一般_理研_化学専攻_専門科目(物理化学・無機及び分析化学・有機化学).pdf",
+          "sha256": "c29168e4b84010522aa072eca58a14cfd42105088cdd540f6cc200e4bc1dbb10",
+          "byteSize": 634872,
+          "pages": 27,
+          "sourcePaths": [
+            "东京理科大学/24东理/理学研究科/化学専攻/修士一般_理研_化学専攻_専門科目(物理化学・無機及び分析化学・有機化学).pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/化学専攻/修士一般_理研_化学専攻_専門科目(物理化学・無機及び分析化学・有機化学).pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-843bd89417dc",
+      "universityId": "tus",
+      "title": "2024年度 · 応用数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "応用数学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門基礎科目（線形代数・微積分）",
+        "専門科目（応用数学1~4）"
+      ],
+      "files": [
+        {
+          "label": "専門基礎科目（線形代数・微積分）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/092b98dc9ab4741f023c20b33772c14c078a04ee7262749324e94248eac19183.pdf",
+          "originalName": "修士一般_理研_応用数学専攻_専門基礎科目(線形代数・微積分).pdf",
+          "sha256": "092b98dc9ab4741f023c20b33772c14c078a04ee7262749324e94248eac19183",
+          "byteSize": 125292,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/24东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門基礎科目(線形代数・微積分).pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門基礎科目(線形代数・微積分).pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（応用数学1~4）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d8625049505b78af49b6f46c7a611fda310a04f30d6ffcdd4d02ab24816cbbac.pdf",
+          "originalName": "修士一般_理研_応用数学専攻_専門科目（応用数学1~4）.pdf",
+          "sha256": "d8625049505b78af49b6f46c7a611fda310a04f30d6ffcdd4d02ab24816cbbac",
+          "byteSize": 142216,
+          "pages": 5,
+          "sourcePaths": [
+            "东京理科大学/24东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門科目（応用数学1~4）.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門科目（応用数学1~4）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-ba37a4ad582a",
+      "universityId": "tus",
+      "title": "2024年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門基礎科目（線形代数・微分積分・集合と位相）",
+        "専門科目（代数・解析・幾何系）"
+      ],
+      "files": [
+        {
+          "label": "専門基礎科目（線形代数・微分積分・集合と位相）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b77e515561097550ad04b288a9ac1a2f0c4b2219f629b41f7d200dac70bb95c1.pdf",
+          "originalName": "修士一般_理研_数学専攻_専門基礎科目（線形代数・微分積分・集合と位相）.pdf",
+          "sha256": "b77e515561097550ad04b288a9ac1a2f0c4b2219f629b41f7d200dac70bb95c1",
+          "byteSize": 102005,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/24东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門基礎科目（線形代数・微分積分・集合と位相）.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/数学専攻/修士一般_理研_数学専攻_専門基礎科目（線形代数・微分積分・集合と位相）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（代数・解析・幾何系）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/16f560ceaf086ca7bbccee2445563d25562e8c4bcc737f9dc057c31fa8d3c512.pdf",
+          "originalName": "修士一般_理研_数学専攻_専門科目（代数・解析・幾何系）.pdf",
+          "sha256": "16f560ceaf086ca7bbccee2445563d25562e8c4bcc737f9dc057c31fa8d3c512",
+          "byteSize": 170516,
+          "pages": 7,
+          "sourcePaths": [
+            "东京理科大学/24东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門科目（代数・解析・幾何系）.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/数学専攻/修士一般_理研_数学専攻_専門科目（代数・解析・幾何系）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-055e340e3175",
+      "universityId": "tus",
+      "title": "2024年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "修士課程・外国人留学生入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ce97e8195909db9082aba0882742c101306f7e23fd40693da0e04f10ac54ec36.pdf",
+          "originalName": "修士外国人留学生_理研_応用数学専攻_専門科目.pdf",
+          "sha256": "ce97e8195909db9082aba0882742c101306f7e23fd40693da0e04f10ac54ec36",
+          "byteSize": 55706,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_理学研究科/修士外国人留学生_理研_応用数学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/49567c73a7038947a98f137718ad01e9cecfcb1940327a9a5b61375b6b93f20a.pdf",
+          "originalName": "修士留学生_理研_数学専攻_専門科目.pdf",
+          "sha256": "49567c73a7038947a98f137718ad01e9cecfcb1940327a9a5b61375b6b93f20a",
+          "byteSize": 53742,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/2024 plus/修士課程_外国人留学生入試/理学研究科/修士留学生_理研_数学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 其中一册文件名写応用数学専攻，封面为理学研究科数学専攻、2024年度，按封面归入数学専攻。"
+    },
+    {
+      "id": "tus-bf-583c3f8d8a3c",
+      "universityId": "tus",
+      "title": "2024年度 · 物理学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門科目（熱・統計力学／量子力学）",
+        "専門科目（物理数学・力学・電磁気学）"
+      ],
+      "files": [
+        {
+          "label": "専門科目（熱・統計力学／量子力学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0159ae62f64003ea200a2fd68ec62bd1b9ef7640a90671460b5e0dbeb8696776.pdf",
+          "originalName": "修士一般_理研_物理学専攻_専門科目_（熱・統計力学／量子力学）.pdf",
+          "sha256": "0159ae62f64003ea200a2fd68ec62bd1b9ef7640a90671460b5e0dbeb8696776",
+          "byteSize": 193864,
+          "pages": 5,
+          "sourcePaths": [
+            "东京理科大学/24东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目_（熱・統計力学／量子力学）.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目_（熱・統計力学／量子力学）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（物理数学・力学・電磁気学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f0c82e0067b4ae2069bde6c04d600ca2845d2c9b6dd471c9e0a6cf158954c349.pdf",
+          "originalName": "修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf",
+          "sha256": "f0c82e0067b4ae2069bde6c04d600ca2845d2c9b6dd471c9e0a6cf158954c349",
+          "byteSize": 281681,
+          "pages": 9,
+          "sourcePaths": [
+            "东京理科大学/24东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-f56aaf08c5a1",
+      "universityId": "tus",
+      "title": "2024年度 · 生命科学専攻 · 冬期日程",
+      "graduateSchool": "生命科学研究科",
+      "department": "生命科学専攻",
+      "selectionName": "修士課程・一般入試（冬期日程）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a14e61b127c7b44a95e25a21cb1e779e72484d39907b3cf066131173d7f55f76.pdf",
+          "originalName": "修士一般（冬期）_生命研_専門.pdf",
+          "sha256": "a14e61b127c7b44a95e25a21cb1e779e72484d39907b3cf066131173d7f55f76",
+          "byteSize": 420439,
+          "pages": 5,
+          "sourcePaths": [
+            "东京理科大学/24东理/生命科学研究科/修士一般（冬期）_生命研_専門.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/生命科学研究科/修士一般（冬期）_生命研_専門.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-d84c8316f720",
+      "universityId": "tus",
+      "title": "2024年度 · 生命科学専攻 · 夏期日程",
+      "graduateSchool": "生命科学研究科",
+      "department": "生命科学専攻",
+      "selectionName": "修士課程・一般入試（夏期日程）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/44835bec1c4ef5a8de6dfb95b455a1c3fb71576f188db1c28a8b965cde587938.pdf",
+          "originalName": "修士一般（夏期）_生命研_専門.pdf",
+          "sha256": "44835bec1c4ef5a8de6dfb95b455a1c3fb71576f188db1c28a8b965cde587938",
+          "byteSize": 265473,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/24东理/生命科学研究科/修士一般（夏期）_生命研_専門.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/生命科学研究科/修士一般（夏期）_生命研_専門.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-2dc293913603",
+      "universityId": "tus",
+      "title": "2024年度 · 経営学専攻 · 冬期日程",
+      "graduateSchool": "経営学研究科",
+      "department": "経営学専攻",
+      "selectionName": "修士課程・一般入試（冬期日程）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "マーケティング",
+        "会計ファイナンス",
+        "情報（経営情報を含む）",
+        "経営学"
+      ],
+      "files": [
+        {
+          "label": "マーケティング",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ba9b73d33887883e1a8dedd9291466ef48dd21885216e5246386221b1ee1598a.pdf",
+          "originalName": "修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf",
+          "sha256": "ba9b73d33887883e1a8dedd9291466ef48dd21885216e5246386221b1ee1598a",
+          "byteSize": 285696,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "会計ファイナンス",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7279fcc19c9a0a42d20b47853c826c579a3b042a257dd028fb945234cbb104f1.pdf",
+          "originalName": "修士一般（冬期）_経営研_経営学専攻_会計ファイナンス.pdf",
+          "sha256": "7279fcc19c9a0a42d20b47853c826c579a3b042a257dd028fb945234cbb104f1",
+          "byteSize": 270808,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_会計ファイナンス.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_会計ファイナンス.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報（経営情報を含む）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e4ca91c4a2368bdcad447e32f93d91ac489a860ef6b0887a70385ba1dce4e6c.pdf",
+          "originalName": "修士一般（冬期）_経営研_経営学専攻_情報(経営情報を含む).pdf",
+          "sha256": "5e4ca91c4a2368bdcad447e32f93d91ac489a860ef6b0887a70385ba1dce4e6c",
+          "byteSize": 276893,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_情報(経営情報を含む).pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_情報(経営情報を含む).pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "経営学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f295c42a80dfcad401286af54a436d72654855ad3b8ae1b3b804c4ca6d851b00.pdf",
+          "originalName": "修士一般（冬期）_経営研_経営学専攻_経営学.pdf",
+          "sha256": "f295c42a80dfcad401286af54a436d72654855ad3b8ae1b3b804c4ca6d851b00",
+          "byteSize": 196260,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_経営学.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_経営学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-1473c360e1ed",
+      "universityId": "tus",
+      "title": "2024年度 · 経営学専攻 · 夏期日程",
+      "graduateSchool": "経営学研究科",
+      "department": "経営学専攻",
+      "selectionName": "修士課程・一般入試（夏期日程）",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度",
+      "subjects": [
+        "マーケティング",
+        "経営学",
+        "経営科学"
+      ],
+      "files": [
+        {
+          "label": "マーケティング",
+          "kind": "question",
+          "url": "assets/past-papers/documents/12a7eb615f27390a37fa6a65565e559ab22d9c16457e0ec4de0b51d293f04b7d.pdf",
+          "originalName": "修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf",
+          "sha256": "12a7eb615f27390a37fa6a65565e559ab22d9c16457e0ec4de0b51d293f04b7d",
+          "byteSize": 159220,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/24东理/経営学研究科/修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "経営学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4301bc71c52a589c21797b005253ba6ade5d7e56bfb5828c793c15d4ba802e05.pdf",
+          "originalName": "修士一般（夏期）_経営研_経営学専攻_経営学.pdf",
+          "sha256": "4301bc71c52a589c21797b005253ba6ade5d7e56bfb5828c793c15d4ba802e05",
+          "byteSize": 117681,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/24东理/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営学.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "経営科学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/11aff1ad4e0414ebf2308ccef6e63008b2fadccb7bb715a4c28e94be0fde29cd.pdf",
+          "originalName": "修士一般（夏期）_経営研_経営学専攻_経営科学.pdf",
+          "sha256": "11aff1ad4e0414ebf2308ccef6e63008b2fadccb7bb715a4c28e94be0fde29cd",
+          "byteSize": 329958,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/24东理/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営科学.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営科学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-ba8fe28e17f7",
+      "universityId": "tus",
+      "title": "2024年度 · 薬科学専攻",
+      "graduateSchool": "薬学研究科",
+      "department": "薬科学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2024年度",
+      "subjects": [
+        "有機化学",
+        "物理化学",
+        "生物科学"
+      ],
+      "examDates": [
+        "2023-08-22"
+      ],
+      "files": [
+        {
+          "label": "有機化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4b60c4e02065b8a918c100aad3231aa6567e2b3df627caf7f7e4d6eb371ef5e1.pdf",
+          "originalName": "修士一般_薬研‗薬科学専攻‗有機化学.pdf",
+          "sha256": "4b60c4e02065b8a918c100aad3231aa6567e2b3df627caf7f7e4d6eb371ef5e1",
+          "byteSize": 92518,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/24东理/薬学研究科/修士一般_薬研‗薬科学専攻‗有機化学.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/薬学研究科/修士一般_薬研‗薬科学専攻‗有機化学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cd4e402ce38ad935ddb87bf9abadc5b383e00780a7d0075c3e265c1f46b006c9.pdf",
+          "originalName": "修士一般_薬研‗薬科学専攻‗物理化学.pdf",
+          "sha256": "cd4e402ce38ad935ddb87bf9abadc5b383e00780a7d0075c3e265c1f46b006c9",
+          "byteSize": 137928,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/24东理/薬学研究科/修士一般_薬研‗薬科学専攻‗物理化学.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/薬学研究科/修士一般_薬研‗薬科学専攻‗物理化学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生物科学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/55413ff0cfb63d9a3bcc26a1408baf5ce36b5057cdbf9b796231d91997a38741.pdf",
+          "originalName": "修士一般_薬研‗薬科学専攻‗生物科学.pdf",
+          "sha256": "55413ff0cfb63d9a3bcc26a1408baf5ce36b5057cdbf9b796231d91997a38741",
+          "byteSize": 164476,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/24东理/薬学研究科/修士一般_薬研‗薬科学専攻‗生物科学.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/薬学研究科/修士一般_薬研‗薬科学専攻‗生物科学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 封面未印年度，paperYear按来源目录（23东理／24东理）记录，yearEvidence=source-directory。",
+      "examYear": 2023
+    },
+    {
+      "id": "tus-bf-7baf18915f33",
+      "universityId": "tus",
+      "title": "2023年度 · 先端化学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "先端化学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f6ab93e15f69687f9ba718ef4423b63d7296e033501e0f9cc0cbf2b0a11a9aa8.pdf",
+          "originalName": "修士一般_創域理工研_先端化学専攻_専門科目.pdf",
+          "sha256": "f6ab93e15f69687f9ba718ef4423b63d7296e033501e0f9cc0cbf2b0a11a9aa8",
+          "byteSize": 520544,
+          "pages": 13,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-0f97819e657b",
+      "universityId": "tus",
+      "title": "2023年度 · 先端物理学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "先端物理学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "物理学Ⅰ",
+        "物理学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "物理学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/05d9c2521b3d02851e379c7ac6404d28a267174232ca87fe5f628bcd631cfbcc.pdf",
+          "originalName": "修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
+          "sha256": "05d9c2521b3d02851e379c7ac6404d28a267174232ca87fe5f628bcd631cfbcc",
+          "byteSize": 306940,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/561ff3b5e659a2964276819e835a4db92fd61bfcebca9295e7e84f49dda71673.pdf",
+          "originalName": "修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
+          "sha256": "561ff3b5e659a2964276819e835a4db92fd61bfcebca9295e7e84f49dda71673",
+          "byteSize": 313876,
+          "pages": 6,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-b44f601f05fc",
+      "universityId": "tus",
+      "title": "2023年度 · 国際火災科学専攻 · 一般・外国人留学生",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "selectionName": "修士課程・一般・外国人留学生入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/24ac19793aa1e4b5d4448e0fc39aed308acc2d3a12786d6979d92f686243068a.pdf",
+          "originalName": "修士一般_創域理工研_国際火災科学専攻_夏期日程_数学.pdf",
+          "sha256": "24ac19793aa1e4b5d4448e0fc39aed308acc2d3a12786d6979d92f686243068a",
+          "byteSize": 114762,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/国際火災科学専攻/修士一般_創域理工研_国際火災科学専攻_夏期日程_数学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 封面为一般・外国人留学生共用，不拆成两组。"
+    },
+    {
+      "id": "tus-bf-e515de6368f5",
+      "universityId": "tus",
+      "title": "2023年度 · 国際火災科学専攻 · 冬期日程",
+      "graduateSchool": "創域理工学研究科",
+      "department": "国際火災科学専攻",
+      "selectionName": "修士課程・一般入試（冬期日程）",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "数学"
+      ],
+      "examDates": [
+        "2023-02-25"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/60613f3a13103a73da9e33b5ec77ff1c4ff21356570d83097c8c659adc35f84d.pdf",
+          "originalName": "修士一般_創域理工研_国際火災科学専攻_冬期日程_数学.pdf",
+          "sha256": "60613f3a13103a73da9e33b5ec77ff1c4ff21356570d83097c8c659adc35f84d",
+          "byteSize": 121314,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/国際火災科学専攻/修士一般_創域理工研_国際火災科学専攻_冬期日程_数学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2023
+    },
+    {
+      "id": "tus-bf-6cd1638f85e6",
+      "universityId": "tus",
+      "title": "2023年度 · 建築学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "建築学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門科目（必須）",
+        "専門科目（選択）"
+      ],
+      "examDates": [
+        "2022-07-29"
+      ],
+      "files": [
+        {
+          "label": "専門科目（必須）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ce15d1b475e8b2fa8a76c293307c7ad9d66bab53522c14b7c78b11e3a2674923.pdf",
+          "originalName": "修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
+          "sha256": "ce15d1b475e8b2fa8a76c293307c7ad9d66bab53522c14b7c78b11e3a2674923",
+          "byteSize": 885048,
+          "pages": 10,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（選択）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3b18d357a0fe2ac2d6abf6eb23c2cd7386cb16e366a59ba421faa803ce4e32f2.pdf",
+          "originalName": "修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
+          "sha256": "3b18d357a0fe2ac2d6abf6eb23c2cd7386cb16e366a59ba421faa803ce4e32f2",
+          "byteSize": 339565,
+          "pages": 10,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2022
+    },
+    {
+      "id": "tus-bf-2448f0284163",
+      "universityId": "tus",
+      "title": "2023年度 · 数理科学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "数理科学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "数学Ⅰ",
+        "数学Ⅱ"
+      ],
+      "files": [
+        {
+          "label": "数学Ⅰ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/611a219023859dd8b8d393f9cccd0f147047a79cd373a1733d18db54b98db0b0.pdf",
+          "originalName": "修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
+          "sha256": "611a219023859dd8b8d393f9cccd0f147047a79cd373a1733d18db54b98db0b0",
+          "byteSize": 87853,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学Ⅱ",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ebdd013e4a88b6f34b8caf1018e7dd0da427a18724688478fa1c240519bb5a2d.pdf",
+          "originalName": "修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
+          "sha256": "ebdd013e4a88b6f34b8caf1018e7dd0da427a18724688478fa1c240519bb5a2d",
+          "byteSize": 134248,
+          "pages": 5,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-3f9d8cdf0cb0",
+      "universityId": "tus",
+      "title": "2023年度 · 生命生物科学専攻",
+      "graduateSchool": "創域理工学研究科",
+      "department": "生命生物科学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1adc7f5e4db4272ab1d1d95b14c393f9db1d5969246b4277b0c8d3c25c8e09d3.pdf",
+          "originalName": "修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
+          "sha256": "1adc7f5e4db4272ab1d1d95b14c393f9db1d5969246b4277b0c8d3c25c8e09d3",
+          "byteSize": 629297,
+          "pages": 8,
+          "sourcePaths": [
+            "东京理科大学/23东理/創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
+            "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-cd671e9f5245",
+      "universityId": "tus",
+      "title": "2023年度 · 工業化学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "工業化学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "examDates": [
+        "2022-07-22"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/13cf3660b2b729447adf746f07f9214aae6ad51c2c3958b358bbe798fa94b925.pdf",
+          "originalName": "修士一般_工学研究科_工業化学_専門科目.pdf",
+          "sha256": "13cf3660b2b729447adf746f07f9214aae6ad51c2c3958b358bbe798fa94b925",
+          "byteSize": 927215,
+          "pages": 9,
+          "sourcePaths": [
+            "东京理科大学/23东理/工学研究科/工業化学専攻/修士一般_工学研究科_工業化学_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2022
+    },
+    {
+      "id": "tus-bf-d88ddbe9077f",
+      "universityId": "tus",
+      "title": "2023年度 · 建築学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "建築学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "即日設計",
+        "専門科目A",
+        "専門科目B"
+      ],
+      "examDates": [
+        "2022-07-22"
+      ],
+      "files": [
+        {
+          "label": "即日設計",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2ecd9f5feefc67bc52b3df09d8de2edf7281499e2386b3b18f22eab953ec5f7b.pdf",
+          "originalName": "修士一般_工学研究科_建築_専門B_即日設計.pdf",
+          "sha256": "2ecd9f5feefc67bc52b3df09d8de2edf7281499e2386b3b18f22eab953ec5f7b",
+          "byteSize": 131859,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/23东理/工学研究科/建築学専攻/修士一般_工学研究科_建築_専門B_即日設計.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fc37173ef7df8b7d61a91111954ef248b583a55b04622afe4f908bb8e95c083d.pdf",
+          "originalName": "修士一般_工学研究科_建築_専門A.pdf",
+          "sha256": "fc37173ef7df8b7d61a91111954ef248b583a55b04622afe4f908bb8e95c083d",
+          "byteSize": 663890,
+          "pages": 10,
+          "sourcePaths": [
+            "东京理科大学/23东理/工学研究科/建築学専攻/修士一般_工学研究科_建築_専門A.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a150fdd0b6f25095f4ce12220a9b72b5340f06a2fdcec76e81d244628f0de285.pdf",
+          "originalName": "修士一般_工学研究科_建築_専門B.pdf",
+          "sha256": "a150fdd0b6f25095f4ce12220a9b72b5340f06a2fdcec76e81d244628f0de285",
+          "byteSize": 670998,
+          "pages": 10,
+          "sourcePaths": [
+            "东京理科大学/23东理/工学研究科/建築学専攻/修士一般_工学研究科_建築_専門B.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2022
+    },
+    {
+      "id": "tus-bf-0f3cb1d356d4",
+      "universityId": "tus",
+      "title": "2023年度 · 化学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "化学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "examDates": [
+        "2022-07-30"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d5bdd0c1b086213620fb18a4e46d881e9f4c36e46eb2a248f58a6c3316023c2d.pdf",
+          "originalName": "修士一般_理研_化学専攻_専門科目.pdf",
+          "sha256": "d5bdd0c1b086213620fb18a4e46d881e9f4c36e46eb2a248f58a6c3316023c2d",
+          "byteSize": 1023974,
+          "pages": 29,
+          "sourcePaths": [
+            "东京理科大学/23东理/理学研究科/化学専攻/修士一般_理研_化学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2022
+    },
+    {
+      "id": "tus-bf-d9457c60c856",
+      "universityId": "tus",
+      "title": "2023年度 · 応用数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "応用数学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門基礎科目",
+        "専門科目"
+      ],
+      "examDates": [
+        "2022-07-30"
+      ],
+      "files": [
+        {
+          "label": "専門基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2e0981527d4bbb1d48d0310ee9fe61f784ffbfa5d46caf3783971e1a2405c184.pdf",
+          "originalName": "修士一般_理研_応用数学専攻_専門基礎科目.pdf",
+          "sha256": "2e0981527d4bbb1d48d0310ee9fe61f784ffbfa5d46caf3783971e1a2405c184",
+          "byteSize": 171010,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/23东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門基礎科目.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3b54d2308ef89dbae28808a648288ece9a40c429476fe1b5a73a4dfd618d2fc2.pdf",
+          "originalName": "修士一般_理研_応用数学専攻_専門科目.pdf",
+          "sha256": "3b54d2308ef89dbae28808a648288ece9a40c429476fe1b5a73a4dfd618d2fc2",
+          "byteSize": 241393,
+          "pages": 5,
+          "sourcePaths": [
+            "东京理科大学/23东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2022
+    },
+    {
+      "id": "tus-bf-3f245f0291ec",
+      "universityId": "tus",
+      "title": "2023年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門基礎科目",
+        "専門科目"
+      ],
+      "examDates": [
+        "2022-07-30"
+      ],
+      "files": [
+        {
+          "label": "専門基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d62a7c59380a34366df8231ef3a10297ac8eb2a7278a78333a4605cc090338b2.pdf",
+          "originalName": "修士一般_理研_数学専攻_専門基礎科目.pdf",
+          "sha256": "d62a7c59380a34366df8231ef3a10297ac8eb2a7278a78333a4605cc090338b2",
+          "byteSize": 176515,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/23东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門基礎科目.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c02bc8a410fc63041cf2d021be1d0fbda04ac4c7f9859b7cce54b5ed0a9d9cbb.pdf",
+          "originalName": "修士一般_理研_数学専攻_専門科目.pdf",
+          "sha256": "c02bc8a410fc63041cf2d021be1d0fbda04ac4c7f9859b7cce54b5ed0a9d9cbb",
+          "byteSize": 263921,
+          "pages": 7,
+          "sourcePaths": [
+            "东京理科大学/23东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2022
+    },
+    {
+      "id": "tus-bf-7f32da15e09a",
+      "universityId": "tus",
+      "title": "2023年度 · 物理学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門科目（熱・統計力学・量子力学）",
+        "専門科目（物理数学・力学・電磁気学）"
+      ],
+      "examDates": [
+        "2022-07-30"
+      ],
+      "files": [
+        {
+          "label": "専門科目（熱・統計力学・量子力学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/81cb47105c39d77f196d253eda8c2f755ea8450ec0ba5376539899edd2df51d9.pdf",
+          "originalName": "修士一般_理研_物理学専攻_専門科目（熱・統計力学・量子力学）.pdf",
+          "sha256": "81cb47105c39d77f196d253eda8c2f755ea8450ec0ba5376539899edd2df51d9",
+          "byteSize": 156292,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/23东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（熱・統計力学・量子力学）.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目（物理数学・力学・電磁気学）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9edbd1f8879beaea9bb213001904f95f4334b06bfde4d988df9f06f21cec7094.pdf",
+          "originalName": "修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf",
+          "sha256": "9edbd1f8879beaea9bb213001904f95f4334b06bfde4d988df9f06f21cec7094",
+          "byteSize": 188232,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/23东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf",
+            "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。",
+      "examYear": 2022
+    },
+    {
+      "id": "tus-bf-630729ad9556",
+      "universityId": "tus",
+      "title": "2023年度 · 生命科学専攻 · 冬期日程",
+      "graduateSchool": "生命科学研究科",
+      "department": "生命科学専攻",
+      "selectionName": "修士課程・一般入試（冬期日程）",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/568ff3555313525c441448d12b5990e8370f829d360ac883c23ab0c88fcd7d97.pdf",
+          "originalName": "修士一般（冬期）_生命科学研究科_生命科学専攻_専門.pdf",
+          "sha256": "568ff3555313525c441448d12b5990e8370f829d360ac883c23ab0c88fcd7d97",
+          "byteSize": 428181,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/23东理/生命科学研究科/修士一般（冬期）_生命科学研究科_生命科学専攻_専門.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-7a378ed3d722",
+      "universityId": "tus",
+      "title": "2023年度 · 生命科学専攻 · 夏期日程",
+      "graduateSchool": "生命科学研究科",
+      "department": "生命科学専攻",
+      "selectionName": "修士課程・一般入試（夏期日程）",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1b7f9383e7cb0d93de881523be2439bcc4e66f339ce3109426f03494d5e096ee.pdf",
+          "originalName": "修士一般（夏期）_生命科学研究科_生命科学専攻_専門.pdf",
+          "sha256": "1b7f9383e7cb0d93de881523be2439bcc4e66f339ce3109426f03494d5e096ee",
+          "byteSize": 318646,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/23东理/生命科学研究科/修士一般（夏期）_生命科学研究科_生命科学専攻_専門.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-50b307e38ac4",
+      "universityId": "tus",
+      "title": "2023年度 · 経営学専攻 · 冬期日程",
+      "graduateSchool": "経営学研究科",
+      "department": "経営学専攻",
+      "selectionName": "修士課程・一般入試（冬期日程）",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "経済学"
+      ],
+      "files": [
+        {
+          "label": "経済学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4c8944fc41a23be72c1b26be5e031d26e404803165264ce019959580c47a559c.pdf",
+          "originalName": "修士一般_経営研_経営学専攻_冬期日程_経済学.pdf",
+          "sha256": "4c8944fc41a23be72c1b26be5e031d26e404803165264ce019959580c47a559c",
+          "byteSize": 123655,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_冬期日程_経済学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-544348f1bb2f",
+      "universityId": "tus",
+      "title": "2023年度 · 経営学専攻 · 夏期日程",
+      "graduateSchool": "経営学研究科",
+      "department": "経営学専攻",
+      "selectionName": "修士課程・一般入試（夏期日程）",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度",
+      "subjects": [
+        "情報",
+        "経営科学",
+        "統計"
+      ],
+      "files": [
+        {
+          "label": "情報",
+          "kind": "question",
+          "url": "assets/past-papers/documents/77e18aaa8e08de44db9af0c6e8663308926c600165e7f239aa5cec954efd15c9.pdf",
+          "originalName": "修士一般_経営研_経営学専攻_夏期日程_情報.pdf",
+          "sha256": "77e18aaa8e08de44db9af0c6e8663308926c600165e7f239aa5cec954efd15c9",
+          "byteSize": 157937,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_夏期日程_情報.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "経営科学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/26c9532e67fcafc63451e6ec7d500e54e701f7e822e763451c0a58ce19a60c37.pdf",
+          "originalName": "修士一般_経営研_経営学専攻_夏期日程_経営科学.pdf",
+          "sha256": "26c9532e67fcafc63451e6ec7d500e54e701f7e822e763451c0a58ce19a60c37",
+          "byteSize": 93740,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_夏期日程_経営科学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "統計",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0e348acd81998ace071a5e88fb0f4087228e045a2be60ab3fcdf9e5903eccfb8.pdf",
+          "originalName": "修士一般_経営研_経営学専攻_夏期日程_統計.pdf",
+          "sha256": "0e348acd81998ace071a5e88fb0f4087228e045a2be60ab3fcdf9e5903eccfb8",
+          "byteSize": 53863,
+          "pages": 2,
+          "sourcePaths": [
+            "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_夏期日程_統計.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。"
+    },
+    {
+      "id": "tus-bf-c03cc841e85e",
+      "universityId": "tus",
+      "title": "2023年度 · 薬科学専攻",
+      "graduateSchool": "薬学研究科",
+      "department": "薬科学専攻",
+      "selectionName": "修士課程・一般入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2023年度",
+      "subjects": [
+        "有機化学",
+        "物理化学",
+        "生物科学"
+      ],
+      "examDates": [
+        "2022-08-23"
+      ],
+      "files": [
+        {
+          "label": "有機化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/36835e10f7f21edcbe8d6828436490e074993d494ad822dd05144e2a4a918520.pdf",
+          "originalName": "修士一般_薬研 薬科学専攻 有機化学.pdf",
+          "sha256": "36835e10f7f21edcbe8d6828436490e074993d494ad822dd05144e2a4a918520",
+          "byteSize": 389368,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/23东理/薬学研究科/修士一般_薬研 薬科学専攻 有機化学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3997dc87a77cc1b6fb76685d4890a87428bfc79b344d85bdb821cf4170a1db4f.pdf",
+          "originalName": "修士一般_薬研 薬科学専攻 物理化学.pdf",
+          "sha256": "3997dc87a77cc1b6fb76685d4890a87428bfc79b344d85bdb821cf4170a1db4f",
+          "byteSize": 564723,
+          "pages": 4,
+          "sourcePaths": [
+            "东京理科大学/23东理/薬学研究科/修士一般_薬研 薬科学専攻 物理化学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "生物科学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/048ee61f7cd14ae47a9145998d9fdd0cf2bcd2e15920683a3b84d9322ae1f4c4.pdf",
+          "originalName": "修士一般_薬研 薬科学専攻 生物科学.pdf",
+          "sha256": "048ee61f7cd14ae47a9145998d9fdd0cf2bcd2e15920683a3b84d9322ae1f4c4",
+          "byteSize": 342490,
+          "pages": 3,
+          "sourcePaths": [
+            "东京理科大学/23东理/薬学研究科/修士一般_薬研 薬科学専攻 生物科学.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive提供的东京理科大学过去问。年度与实际考试日期分别记录；PDF原样保存，相同字节文件去重。 封面未印年度，paperYear按来源目录（23东理／24东理）记录，yearEvidence=source-directory。",
+      "examYear": 2022
+    },
+    {
       "id": "science-tokyo-ee-1990",
       "universityId": "science-tokyo",
       "title": "1990年实施 · 電気電子工学専攻・電子物理工学専攻（部分资料）",
@@ -34205,6 +36677,9 @@
     },
     "waseda": {
       "text": "本校41组／47个唯一PDF、584页。2026-10-11已上线的35组／41个唯一PDF、484页保持不变。2026-10-18补录原先排除的基幹理工学研究科数学応用数理専攻与先進理工学研究科物理学及応用物理学専攻，新增6组、6个唯一PDF、100页。封面印「YYYY年9月・(YYYY+1)年4月入学試験」，yearBasis为academic，paperYear为9月入学年，admissionYears为该年与次年；右上角戳记不是paperYear。数学応用数理各年1册専門科目。物理学及応用物理学各年1册専門科目；2024册首页为入試問題の訂正内容，整册保留，可切换订正页。2025数学与物理专业科目几乎无文字层，封面经渲染核对。同夹2份口述試験说明不是笔试，不建入口、不入库。不声明其他年度或全校齐全。"
+    },
+    "tus": {
+      "text": "本校117组／219个唯一PDF、1187页。2026-10-11已上线的61组／121个唯一PDF、643页保持不变。2026-10-18全量补录原先排除的数学、物理、建筑、火灾、经营、药学、生命、化学生物及其他工程范围外专攻，新增56组、98个唯一PDF、544页。yearBasis一律academic。封面印有「YYYY年度」的，paperYear用该年度，yearEvidence=cover；药科学2023、2024封面未印年度，按23东理／24东理目录年度，yearEvidence=source-directory，实施日另列。夏期／冬期、一般／留学生分不同组；国际火災科学専攻夏期封面为一般・外国人留学生共用，不拆组。同专攻同年度多科目合成一组。问题订正页整册保留，从第2页封面打开。学部编入4份、社会人特别选拔2份、小論文16份不建入口、不入库。不声明其他年度或全校齐全。"
     }
   }
 };if(typeof module!=='undefined'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);
