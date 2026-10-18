@@ -9,9 +9,9 @@ test('Keio stores 32 original question PDFs and leaves other schools unchanged',
  for(const f of manifest.files){const b=fs.readFileSync(path.join(root,f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.equal(f.kind,'question');assert.equal(f.path,`assets/past-papers/documents/${f.sha256}.pdf`);assert.ok(f.sourcePaths.every(p=>p.startsWith('庆应义塾大学/')));assert.ok(f.startPage<=f.pages);}
  for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.equal(p.graduateSchool,'理工学研究科');assert.equal(p.selectionName,'前期博士課程 入学試験問題');assert.equal(p.yearBasis,'exam');assert.equal(p.yearEvidence,'cover');assert.equal(p.paperYear,p.examYear);assert.equal(p.admissionYears,undefined);assert.equal(p.examDates,undefined);assert.equal(p.originalYear,undefined);assert.equal(p.dateEvidence,undefined);assert.equal(p.files.length,1);assert.equal(p.files[0].kind,'question');assert.equal(p.files[0].label,'入学試験問題');assert.ok(p.files[0].startPage<=p.files[0].pages);assert.match(p.sourceNote,/只有考试月/);assert.match(p.sourceNote,/无解答/);assert.match(core.fileURL(p.files[0]),new RegExp('#page='+p.files[0].startPage+'$'));}
  assert.match(data.schoolNotes.keio.text,/32组／32个唯一PDF、181页/);assert.match(data.schoolNotes.keio.text,/yearBasis 为 exam/);assert.match(data.schoolNotes.keio.text,/边界／待确认/);
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.universityId!=='keio'))).digest('hex'),'e62caf4effe4e7536cc582bc4c351fff5d4efe4c3ee3d37fc12a76289456256e');
- const notes={...data.schoolNotes};delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'a2b43b61ef342e7f81bcfec3a872cdc2f6bd53de788c10cd3600ad7af08753d2');
- assert.match(fs.readFileSync(path.join(root,'past-papers.html'),'utf8'),/past-papers-data\.js\?v=20261015-keio/);
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='keio'))).digest('hex'),'e62caf4effe4e7536cc582bc4c351fff5d4efe4c3ee3d37fc12a76289456256e');
+ const notes={...data.schoolNotes};delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'b2e03e14499d336365e64c8b451ea897fb6f6aa55b5dc1414ab10854033a9b50');
+ assert.match(fs.readFileSync(path.join(root,'past-papers.html'),'utf8'),/past-papers-data\.js\?v=20261018-science-tokyo-supplement/);
 });
 test('Keio years come from the August cover month and 2025 letters stay separate',()=>{
  assert.deepEqual([...new Set(papers.map(p=>p.paperYear))],[2021,2022,2023,2024,2025]);
@@ -50,3 +50,4 @@ test('Keio keeps both page counts for 2021 scans and opens later booklets where 
  assert.equal(papers.filter(p=>p.sourceNote.includes('边界／待确认')).map(p=>p.id).sort().join(),boundaryIds.slice().sort().join());
  assert.equal(manifest.excluded.reduce((n,e)=>n+e.count,0),15);assert.equal(manifest.ambiguities.length,11);
 });
+

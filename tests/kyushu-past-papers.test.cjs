@@ -7,9 +7,9 @@ test('Kyushu keeps 16 original PDFs and 28 groups without answers',()=>{
  assert.equal(manifest.files.reduce((n,f)=>n+f.pages,0),646);assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,16);
  for(const f of manifest.files){const b=fs.readFileSync(path.join(root,f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.equal(f.kind,'question');assert.ok(f.startPage<=f.pages);assert.ok(f.sourcePaths.every(p=>p.startsWith('九州大学/')));}
  for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.equal(p.yearBasis,'academic');assert.equal(p.yearEvidence,'cover');assert.equal(p.dateEvidence,'cover');assert.deepEqual(p.admissionYears,[p.paperYear]);assert.equal(p.examYear,Number(p.examDates[0].slice(0,4)));assert.ok(!p.files.some(f=>f.kind==='answer'));for(const f of p.files){assert.ok(f.startPage<=(f.endPage||f.pages)&&f.endPage<=f.pages);assert.match(core.fileURL(f),new RegExp('#page='+f.startPage+'$'));}}
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'))).digest('hex'),'0f63f45ed73b1f51c6dcbbd655ef3c94e11a0e034733f9d77d7290767c8f1bba');
- const notes={...data.schoolNotes};delete notes.kyushu;delete notes.tohoku;delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'1ed2e7d46afa8b507728e550af2b5818017372acf1c9c2eb5aaba93732c93ce1');
- const others=data.papers.filter(p=>p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio');
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'))).digest('hex'),'0f63f45ed73b1f51c6dcbbd655ef3c94e11a0e034733f9d77d7290767c8f1bba');
+ const notes={...data.schoolNotes};delete notes.kyushu;delete notes.tohoku;delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'e2394718305d52d8b0b8ebc2804a51aa221ce8c72c2dfeb9911efbdcb43a10d6');
+ const others=data.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio');
  assert.equal(others.length,393);assert.ok(!others.some(p=>p.universityId==='kyushu'));
  assert.match(data.schoolNotes.kyushu.text,/28组／16个PDF/);assert.match(data.schoolNotes.kyushu.text,/システム情報科学府/);assert.match(data.schoolNotes.kyushu.text,/理工学専攻/);assert.match(data.schoolNotes.kyushu.text,/上智大学/);
 });
@@ -43,3 +43,4 @@ test('Kyushu rigaku booklets stay shared and only index mechanical, electrical a
  assert.match(find('kyushu-rikou-2025-09-info').sourceNote,/上智大学/);assert.match(find('kyushu-rikou-2024-02-info').sourceNote,/未见物理学基礎/);assert.match(find('kyushu-rikou-2025-02-info').sourceNote,/未见生物科学基礎/);
  assert.equal(core.filter(papers,catalog.universities,{school:'kyushu',graduate:'all',department:'all',year:'2025',query:'理工基礎 情報学基礎'}).length,2);
 });
+
