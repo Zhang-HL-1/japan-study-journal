@@ -13,7 +13,7 @@ test('Waseda backfill stores six original PDFs and leaves the first 35 groups un
  assert.ok(!manifest.excluded.some(e=>/senmon\.pdf$/.test(e.sourcePath)));assert.ok(!manifest.excluded.some(e=>/数学／应用数学或物理学/.test(e.reason)));
  for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.equal(p.yearBasis,'academic');assert.equal(p.examYear,undefined);assert.deepEqual(p.admissionYears,[p.paperYear,p.paperYear+1]);assert.equal(p.originalYear,`${p.paperYear}年9月・${p.paperYear+1}年4月入学試験`);assert.equal(p.selectionName,'修士課程・一般入試');for(const f of p.files)assert.ok(f.startPage<=f.pages);}
  assert.match(data.schoolNotes.waseda.text,/41组／47个唯一PDF、584页/);assert.match(data.schoolNotes.waseda.text,/35组／41个唯一PDF、484页/);assert.match(data.schoolNotes.waseda.text,/新增6组、6个唯一PDF、100页/);assert.match(data.schoolNotes.waseda.text,/yearBasis为academic/);assert.match(data.schoolNotes.waseda.text,/右上角戳记不是paperYear/);assert.match(data.schoolNotes.waseda.text,/不建入口、不入库/);
- assert.match(fs.readFileSync(path.join(root,'past-papers.html'),'utf8'),/past-papers-data\.js\?v=20261018-hokkaido-backfill/);
+ assert.match(fs.readFileSync(path.join(root,'past-papers.html'),'utf8'),/past-papers-data\.js\?v=20261018-tus-backfill/);
 });
 test('Waseda backfill adds math and physics departments without mixing them into existing majors',()=>{
  const math=papers.filter(p=>p.department==='数学応用数理専攻'),phys=papers.filter(p=>p.department==='物理学及応用物理学専攻');

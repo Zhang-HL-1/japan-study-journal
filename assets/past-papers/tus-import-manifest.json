@@ -5,9 +5,9 @@
     "东京理科大学",
     "东京理科大学ee"
   ],
-  "paperGroups": 61,
-  "sourceFiles": 148,
-  "duplicateByteCopies": 27,
+  "paperGroups": 117,
+  "sourceFiles": 291,
+  "duplicateByteCopies": 72,
   "yearPolicy": "按原卷年度转公历索引；仅题页确认的实际日期写入examDates。未显示年度的历史卷保留原目录年度，yearEvidence=source-directory。",
   "scopeSources": [
     "https://www.tus.ac.jp/academics/faculty/numbering/pdf/1_gakkei_2025.pdf",
@@ -1613,6 +1613,1327 @@
         "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/機械工学専攻/修士一般_工研_機械工学専攻（材料力学・熱力学）.pdf"
       ],
       "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/568ff3555313525c441448d12b5990e8370f829d360ac883c23ab0c88fcd7d97.pdf",
+      "sha256": "568ff3555313525c441448d12b5990e8370f829d360ac883c23ab0c88fcd7d97",
+      "byteSize": 428181,
+      "pages": 4,
+      "originalNames": [
+        "修士一般（冬期）_生命科学研究科_生命科学専攻_専門.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/生命科学研究科/修士一般（冬期）_生命科学研究科_生命科学専攻_専門.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/1b7f9383e7cb0d93de881523be2439bcc4e66f339ce3109426f03494d5e096ee.pdf",
+      "sha256": "1b7f9383e7cb0d93de881523be2439bcc4e66f339ce3109426f03494d5e096ee",
+      "byteSize": 318646,
+      "pages": 4,
+      "originalNames": [
+        "修士一般（夏期）_生命科学研究科_生命科学専攻_専門.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/生命科学研究科/修士一般（夏期）_生命科学研究科_生命科学専攻_専門.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/4c8944fc41a23be72c1b26be5e031d26e404803165264ce019959580c47a559c.pdf",
+      "sha256": "4c8944fc41a23be72c1b26be5e031d26e404803165264ce019959580c47a559c",
+      "byteSize": 123655,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_経営研_経営学専攻_冬期日程_経済学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_冬期日程_経済学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/77e18aaa8e08de44db9af0c6e8663308926c600165e7f239aa5cec954efd15c9.pdf",
+      "sha256": "77e18aaa8e08de44db9af0c6e8663308926c600165e7f239aa5cec954efd15c9",
+      "byteSize": 157937,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_経営研_経営学専攻_夏期日程_情報.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_夏期日程_情報.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/26c9532e67fcafc63451e6ec7d500e54e701f7e822e763451c0a58ce19a60c37.pdf",
+      "sha256": "26c9532e67fcafc63451e6ec7d500e54e701f7e822e763451c0a58ce19a60c37",
+      "byteSize": 93740,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_経営研_経営学専攻_夏期日程_経営科学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_夏期日程_経営科学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/0e348acd81998ace071a5e88fb0f4087228e045a2be60ab3fcdf9e5903eccfb8.pdf",
+      "sha256": "0e348acd81998ace071a5e88fb0f4087228e045a2be60ab3fcdf9e5903eccfb8",
+      "byteSize": 53863,
+      "pages": 2,
+      "originalNames": [
+        "修士一般_経営研_経営学専攻_夏期日程_統計.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_夏期日程_統計.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/36835e10f7f21edcbe8d6828436490e074993d494ad822dd05144e2a4a918520.pdf",
+      "sha256": "36835e10f7f21edcbe8d6828436490e074993d494ad822dd05144e2a4a918520",
+      "byteSize": 389368,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_薬研 薬科学専攻 有機化学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/薬学研究科/修士一般_薬研 薬科学専攻 有機化学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/3997dc87a77cc1b6fb76685d4890a87428bfc79b344d85bdb821cf4170a1db4f.pdf",
+      "sha256": "3997dc87a77cc1b6fb76685d4890a87428bfc79b344d85bdb821cf4170a1db4f",
+      "byteSize": 564723,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_薬研 薬科学専攻 物理化学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/薬学研究科/修士一般_薬研 薬科学専攻 物理化学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/048ee61f7cd14ae47a9145998d9fdd0cf2bcd2e15920683a3b84d9322ae1f4c4.pdf",
+      "sha256": "048ee61f7cd14ae47a9145998d9fdd0cf2bcd2e15920683a3b84d9322ae1f4c4",
+      "byteSize": 342490,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_薬研 薬科学専攻 生物科学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/薬学研究科/修士一般_薬研 薬科学専攻 生物科学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/a14e61b127c7b44a95e25a21cb1e779e72484d39907b3cf066131173d7f55f76.pdf",
+      "sha256": "a14e61b127c7b44a95e25a21cb1e779e72484d39907b3cf066131173d7f55f76",
+      "byteSize": 420439,
+      "pages": 5,
+      "originalNames": [
+        "修士一般（冬期）_生命研_専門.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/生命科学研究科/修士一般（冬期）_生命研_専門.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/生命科学研究科/修士一般（冬期）_生命研_専門.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/44835bec1c4ef5a8de6dfb95b455a1c3fb71576f188db1c28a8b965cde587938.pdf",
+      "sha256": "44835bec1c4ef5a8de6dfb95b455a1c3fb71576f188db1c28a8b965cde587938",
+      "byteSize": 265473,
+      "pages": 4,
+      "originalNames": [
+        "修士一般（夏期）_生命研_専門.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/生命科学研究科/修士一般（夏期）_生命研_専門.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/生命科学研究科/修士一般（夏期）_生命研_専門.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/ba9b73d33887883e1a8dedd9291466ef48dd21885216e5246386221b1ee1598a.pdf",
+      "sha256": "ba9b73d33887883e1a8dedd9291466ef48dd21885216e5246386221b1ee1598a",
+      "byteSize": 285696,
+      "pages": 4,
+      "originalNames": [
+        "修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/7279fcc19c9a0a42d20b47853c826c579a3b042a257dd028fb945234cbb104f1.pdf",
+      "sha256": "7279fcc19c9a0a42d20b47853c826c579a3b042a257dd028fb945234cbb104f1",
+      "byteSize": 270808,
+      "pages": 3,
+      "originalNames": [
+        "修士一般（冬期）_経営研_経営学専攻_会計ファイナンス.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_会計ファイナンス.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_会計ファイナンス.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/5e4ca91c4a2368bdcad447e32f93d91ac489a860ef6b0887a70385ba1dce4e6c.pdf",
+      "sha256": "5e4ca91c4a2368bdcad447e32f93d91ac489a860ef6b0887a70385ba1dce4e6c",
+      "byteSize": 276893,
+      "pages": 4,
+      "originalNames": [
+        "修士一般（冬期）_経営研_経営学専攻_情報(経営情報を含む).pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_情報(経営情報を含む).pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_情報(経営情報を含む).pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/f295c42a80dfcad401286af54a436d72654855ad3b8ae1b3b804c4ca6d851b00.pdf",
+      "sha256": "f295c42a80dfcad401286af54a436d72654855ad3b8ae1b3b804c4ca6d851b00",
+      "byteSize": 196260,
+      "pages": 2,
+      "originalNames": [
+        "修士一般（冬期）_経営研_経営学専攻_経営学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_経営学.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_経営学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/12a7eb615f27390a37fa6a65565e559ab22d9c16457e0ec4de0b51d293f04b7d.pdf",
+      "sha256": "12a7eb615f27390a37fa6a65565e559ab22d9c16457e0ec4de0b51d293f04b7d",
+      "byteSize": 159220,
+      "pages": 3,
+      "originalNames": [
+        "修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/経営学研究科/修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/4301bc71c52a589c21797b005253ba6ade5d7e56bfb5828c793c15d4ba802e05.pdf",
+      "sha256": "4301bc71c52a589c21797b005253ba6ade5d7e56bfb5828c793c15d4ba802e05",
+      "byteSize": 117681,
+      "pages": 2,
+      "originalNames": [
+        "修士一般（夏期）_経営研_経営学専攻_経営学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営学.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/11aff1ad4e0414ebf2308ccef6e63008b2fadccb7bb715a4c28e94be0fde29cd.pdf",
+      "sha256": "11aff1ad4e0414ebf2308ccef6e63008b2fadccb7bb715a4c28e94be0fde29cd",
+      "byteSize": 329958,
+      "pages": 3,
+      "originalNames": [
+        "修士一般（夏期）_経営研_経営学専攻_経営科学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営科学.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営科学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/4b60c4e02065b8a918c100aad3231aa6567e2b3df627caf7f7e4d6eb371ef5e1.pdf",
+      "sha256": "4b60c4e02065b8a918c100aad3231aa6567e2b3df627caf7f7e4d6eb371ef5e1",
+      "byteSize": 92518,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_薬研‗薬科学専攻‗有機化学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/薬学研究科/修士一般_薬研‗薬科学専攻‗有機化学.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/薬学研究科/修士一般_薬研‗薬科学専攻‗有機化学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/cd4e402ce38ad935ddb87bf9abadc5b383e00780a7d0075c3e265c1f46b006c9.pdf",
+      "sha256": "cd4e402ce38ad935ddb87bf9abadc5b383e00780a7d0075c3e265c1f46b006c9",
+      "byteSize": 137928,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_薬研‗薬科学専攻‗物理化学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/薬学研究科/修士一般_薬研‗薬科学専攻‗物理化学.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/薬学研究科/修士一般_薬研‗薬科学専攻‗物理化学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/55413ff0cfb63d9a3bcc26a1408baf5ce36b5057cdbf9b796231d91997a38741.pdf",
+      "sha256": "55413ff0cfb63d9a3bcc26a1408baf5ce36b5057cdbf9b796231d91997a38741",
+      "byteSize": 164476,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_薬研‗薬科学専攻‗生物科学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/薬学研究科/修士一般_薬研‗薬科学専攻‗生物科学.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/薬学研究科/修士一般_薬研‗薬科学専攻‗生物科学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/f6ab93e15f69687f9ba718ef4423b63d7296e033501e0f9cc0cbf2b0a11a9aa8.pdf",
+      "sha256": "f6ab93e15f69687f9ba718ef4423b63d7296e033501e0f9cc0cbf2b0a11a9aa8",
+      "byteSize": 520544,
+      "pages": 13,
+      "originalNames": [
+        "修士一般_創域理工研_先端化学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/05d9c2521b3d02851e379c7ac6404d28a267174232ca87fe5f628bcd631cfbcc.pdf",
+      "sha256": "05d9c2521b3d02851e379c7ac6404d28a267174232ca87fe5f628bcd631cfbcc",
+      "byteSize": 306940,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/561ff3b5e659a2964276819e835a4db92fd61bfcebca9295e7e84f49dda71673.pdf",
+      "sha256": "561ff3b5e659a2964276819e835a4db92fd61bfcebca9295e7e84f49dda71673",
+      "byteSize": 313876,
+      "pages": 6,
+      "originalNames": [
+        "修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/60613f3a13103a73da9e33b5ec77ff1c4ff21356570d83097c8c659adc35f84d.pdf",
+      "sha256": "60613f3a13103a73da9e33b5ec77ff1c4ff21356570d83097c8c659adc35f84d",
+      "byteSize": 121314,
+      "pages": 2,
+      "originalNames": [
+        "修士一般_創域理工研_国際火災科学専攻_冬期日程_数学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/国際火災科学専攻/修士一般_創域理工研_国際火災科学専攻_冬期日程_数学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/24ac19793aa1e4b5d4448e0fc39aed308acc2d3a12786d6979d92f686243068a.pdf",
+      "sha256": "24ac19793aa1e4b5d4448e0fc39aed308acc2d3a12786d6979d92f686243068a",
+      "byteSize": 114762,
+      "pages": 2,
+      "originalNames": [
+        "修士一般_創域理工研_国際火災科学専攻_夏期日程_数学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/国際火災科学専攻/修士一般_創域理工研_国際火災科学専攻_夏期日程_数学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/ce15d1b475e8b2fa8a76c293307c7ad9d66bab53522c14b7c78b11e3a2674923.pdf",
+      "sha256": "ce15d1b475e8b2fa8a76c293307c7ad9d66bab53522c14b7c78b11e3a2674923",
+      "byteSize": 885048,
+      "pages": 10,
+      "originalNames": [
+        "修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/3b18d357a0fe2ac2d6abf6eb23c2cd7386cb16e366a59ba421faa803ce4e32f2.pdf",
+      "sha256": "3b18d357a0fe2ac2d6abf6eb23c2cd7386cb16e366a59ba421faa803ce4e32f2",
+      "byteSize": 339565,
+      "pages": 10,
+      "originalNames": [
+        "修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/611a219023859dd8b8d393f9cccd0f147047a79cd373a1733d18db54b98db0b0.pdf",
+      "sha256": "611a219023859dd8b8d393f9cccd0f147047a79cd373a1733d18db54b98db0b0",
+      "byteSize": 87853,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/ebdd013e4a88b6f34b8caf1018e7dd0da427a18724688478fa1c240519bb5a2d.pdf",
+      "sha256": "ebdd013e4a88b6f34b8caf1018e7dd0da427a18724688478fa1c240519bb5a2d",
+      "byteSize": 134248,
+      "pages": 5,
+      "originalNames": [
+        "修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/1adc7f5e4db4272ab1d1d95b14c393f9db1d5969246b4277b0c8d3c25c8e09d3.pdf",
+      "sha256": "1adc7f5e4db4272ab1d1d95b14c393f9db1d5969246b4277b0c8d3c25c8e09d3",
+      "byteSize": 629297,
+      "pages": 8,
+      "originalNames": [
+        "修士一般_創域理工研_生命生物科学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/13cf3660b2b729447adf746f07f9214aae6ad51c2c3958b358bbe798fa94b925.pdf",
+      "sha256": "13cf3660b2b729447adf746f07f9214aae6ad51c2c3958b358bbe798fa94b925",
+      "byteSize": 927215,
+      "pages": 9,
+      "originalNames": [
+        "修士一般_工学研究科_工業化学_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/工学研究科/工業化学専攻/修士一般_工学研究科_工業化学_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/2ecd9f5feefc67bc52b3df09d8de2edf7281499e2386b3b18f22eab953ec5f7b.pdf",
+      "sha256": "2ecd9f5feefc67bc52b3df09d8de2edf7281499e2386b3b18f22eab953ec5f7b",
+      "byteSize": 131859,
+      "pages": 2,
+      "originalNames": [
+        "修士一般_工学研究科_建築_専門B_即日設計.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/工学研究科/建築学専攻/修士一般_工学研究科_建築_専門B_即日設計.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/fc37173ef7df8b7d61a91111954ef248b583a55b04622afe4f908bb8e95c083d.pdf",
+      "sha256": "fc37173ef7df8b7d61a91111954ef248b583a55b04622afe4f908bb8e95c083d",
+      "byteSize": 663890,
+      "pages": 10,
+      "originalNames": [
+        "修士一般_工学研究科_建築_専門A.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/工学研究科/建築学専攻/修士一般_工学研究科_建築_専門A.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/a150fdd0b6f25095f4ce12220a9b72b5340f06a2fdcec76e81d244628f0de285.pdf",
+      "sha256": "a150fdd0b6f25095f4ce12220a9b72b5340f06a2fdcec76e81d244628f0de285",
+      "byteSize": 670998,
+      "pages": 10,
+      "originalNames": [
+        "修士一般_工学研究科_建築_専門B.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/工学研究科/建築学専攻/修士一般_工学研究科_建築_専門B.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/d5bdd0c1b086213620fb18a4e46d881e9f4c36e46eb2a248f58a6c3316023c2d.pdf",
+      "sha256": "d5bdd0c1b086213620fb18a4e46d881e9f4c36e46eb2a248f58a6c3316023c2d",
+      "byteSize": 1023974,
+      "pages": 29,
+      "originalNames": [
+        "修士一般_理研_化学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/理学研究科/化学専攻/修士一般_理研_化学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/2e0981527d4bbb1d48d0310ee9fe61f784ffbfa5d46caf3783971e1a2405c184.pdf",
+      "sha256": "2e0981527d4bbb1d48d0310ee9fe61f784ffbfa5d46caf3783971e1a2405c184",
+      "byteSize": 171010,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_理研_応用数学専攻_専門基礎科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門基礎科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/3b54d2308ef89dbae28808a648288ece9a40c429476fe1b5a73a4dfd618d2fc2.pdf",
+      "sha256": "3b54d2308ef89dbae28808a648288ece9a40c429476fe1b5a73a4dfd618d2fc2",
+      "byteSize": 241393,
+      "pages": 5,
+      "originalNames": [
+        "修士一般_理研_応用数学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/d62a7c59380a34366df8231ef3a10297ac8eb2a7278a78333a4605cc090338b2.pdf",
+      "sha256": "d62a7c59380a34366df8231ef3a10297ac8eb2a7278a78333a4605cc090338b2",
+      "byteSize": 176515,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_理研_数学専攻_専門基礎科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門基礎科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/c02bc8a410fc63041cf2d021be1d0fbda04ac4c7f9859b7cce54b5ed0a9d9cbb.pdf",
+      "sha256": "c02bc8a410fc63041cf2d021be1d0fbda04ac4c7f9859b7cce54b5ed0a9d9cbb",
+      "byteSize": 263921,
+      "pages": 7,
+      "originalNames": [
+        "修士一般_理研_数学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/81cb47105c39d77f196d253eda8c2f755ea8450ec0ba5376539899edd2df51d9.pdf",
+      "sha256": "81cb47105c39d77f196d253eda8c2f755ea8450ec0ba5376539899edd2df51d9",
+      "byteSize": 156292,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_理研_物理学専攻_専門科目（熱・統計力学・量子力学）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（熱・統計力学・量子力学）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/9edbd1f8879beaea9bb213001904f95f4334b06bfde4d988df9f06f21cec7094.pdf",
+      "sha256": "9edbd1f8879beaea9bb213001904f95f4334b06bfde4d988df9f06f21cec7094",
+      "byteSize": 188232,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/23东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/a5b2908a2c52895b74c4cbf3136614f3a2f072b218b9673989625668a4c15c32.pdf",
+      "sha256": "a5b2908a2c52895b74c4cbf3136614f3a2f072b218b9673989625668a4c15c32",
+      "byteSize": 750235,
+      "pages": 13,
+      "originalNames": [
+        "修士一般_創域理工研_先端化学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/7b3dfc4b8602f24b31b06ea9f8225a4022b297b7da3c56b76115c9a822cdc9fc.pdf",
+      "sha256": "7b3dfc4b8602f24b31b06ea9f8225a4022b297b7da3c56b76115c9a822cdc9fc",
+      "byteSize": 390451,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/835f98d3f353b9f919b4405ef52cd30e2107b48910fff638098af0d958ada98d.pdf",
+      "sha256": "835f98d3f353b9f919b4405ef52cd30e2107b48910fff638098af0d958ada98d",
+      "byteSize": 446272,
+      "pages": 6,
+      "originalNames": [
+        "修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686.pdf",
+      "sha256": "c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686",
+      "byteSize": 154400,
+      "pages": 3,
+      "originalNames": [
+        "修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/15195275ce16e9234763b2e606f1e6564420a8878777aff2542d4a8184eb2d89.pdf",
+      "sha256": "15195275ce16e9234763b2e606f1e6564420a8878777aff2542d4a8184eb2d89",
+      "byteSize": 113425,
+      "pages": 2,
+      "originalNames": [
+        "修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/0e238d0a81066a2dd0dfc53d68a0a809ec2d9f5d1d02b15fcc3e2a27b66c46b6.pdf",
+      "sha256": "0e238d0a81066a2dd0dfc53d68a0a809ec2d9f5d1d02b15fcc3e2a27b66c46b6",
+      "byteSize": 830351,
+      "pages": 10,
+      "originalNames": [
+        "修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
+        "修士一般_創域理工研_建築学専攻_専門科目（必須）（著作権の都合上非公開箇所あり）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）（著作権の都合上非公開箇所あり）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/37a9f5df4d9449ea9fdd3de4ace834ad799236622d7b4d91ef393ecf469a64b9.pdf",
+      "sha256": "37a9f5df4d9449ea9fdd3de4ace834ad799236622d7b4d91ef393ecf469a64b9",
+      "byteSize": 557300,
+      "pages": 10,
+      "originalNames": [
+        "修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/6e1d104c828d99e72112391cc2482eb426ab57f0b0936b19272c3e7084fa9ca4.pdf",
+      "sha256": "6e1d104c828d99e72112391cc2482eb426ab57f0b0936b19272c3e7084fa9ca4",
+      "byteSize": 126570,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/94809ed76b4fc6cde9733009c4d1b64f4bfca2cfb35f7926f75833cec1f845ca.pdf",
+      "sha256": "94809ed76b4fc6cde9733009c4d1b64f4bfca2cfb35f7926f75833cec1f845ca",
+      "byteSize": 184523,
+      "pages": 5,
+      "originalNames": [
+        "修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/1ab2b564721e9bba0e9d209a1438464c5dc28bb685bfea3ddd123199975ca39e.pdf",
+      "sha256": "1ab2b564721e9bba0e9d209a1438464c5dc28bb685bfea3ddd123199975ca39e",
+      "byteSize": 1496522,
+      "pages": 10,
+      "originalNames": [
+        "修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
+        "修士一般_創域理工研_生命生物科学専攻_専門科目（著作権の都合上非公開箇所あり）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目（著作権の都合上非公開箇所あり）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/fc2ee757c6ce159e5ae3ea5915ce8f69ca63df3e425c94bb62a170f16cc75449.pdf",
+      "sha256": "fc2ee757c6ce159e5ae3ea5915ce8f69ca63df3e425c94bb62a170f16cc75449",
+      "byteSize": 440865,
+      "pages": 10,
+      "originalNames": [
+        "修士一般_工研_工業化学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/工学研究科/工業化学専攻/修士一般_工研_工業化学専攻_専門科目.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/工業化学専攻/修士一般_工研_工業化学専攻_専門科目.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/工業化学専攻/修士一般_工研_工業化学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/061eaf27614141b2e80b4b01b8bc1f7462ea35919338b3b2780afd44502b85f8.pdf",
+      "sha256": "061eaf27614141b2e80b4b01b8bc1f7462ea35919338b3b2780afd44502b85f8",
+      "byteSize": 60787,
+      "pages": 2,
+      "originalNames": [
+        "修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/8047362fe803c9501c67804e5cd333e2c30e32a95708fdeabe7403db25d49604.pdf",
+      "sha256": "8047362fe803c9501c67804e5cd333e2c30e32a95708fdeabe7403db25d49604",
+      "byteSize": 363881,
+      "pages": 12,
+      "originalNames": [
+        "修士一般_工研_建築学専攻_専門科目A.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目A.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目A.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目A.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/ff1d43adde912bdbb5816955acc1e87f39820b3c59d070569f8ff10d94c360f9.pdf",
+      "sha256": "ff1d43adde912bdbb5816955acc1e87f39820b3c59d070569f8ff10d94c360f9",
+      "byteSize": 353337,
+      "pages": 12,
+      "originalNames": [
+        "修士一般_工研_建築学専攻_専門科目B.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B.pdf",
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/c29168e4b84010522aa072eca58a14cfd42105088cdd540f6cc200e4bc1dbb10.pdf",
+      "sha256": "c29168e4b84010522aa072eca58a14cfd42105088cdd540f6cc200e4bc1dbb10",
+      "byteSize": 634872,
+      "pages": 27,
+      "originalNames": [
+        "修士一般_理研_化学専攻_専門科目(物理化学・無機及び分析化学・有機化学).pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/理学研究科/化学専攻/修士一般_理研_化学専攻_専門科目(物理化学・無機及び分析化学・有機化学).pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/化学専攻/修士一般_理研_化学専攻_専門科目(物理化学・無機及び分析化学・有機化学).pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/092b98dc9ab4741f023c20b33772c14c078a04ee7262749324e94248eac19183.pdf",
+      "sha256": "092b98dc9ab4741f023c20b33772c14c078a04ee7262749324e94248eac19183",
+      "byteSize": 125292,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_理研_応用数学専攻_専門基礎科目(線形代数・微積分).pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門基礎科目(線形代数・微積分).pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門基礎科目(線形代数・微積分).pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/d8625049505b78af49b6f46c7a611fda310a04f30d6ffcdd4d02ab24816cbbac.pdf",
+      "sha256": "d8625049505b78af49b6f46c7a611fda310a04f30d6ffcdd4d02ab24816cbbac",
+      "byteSize": 142216,
+      "pages": 5,
+      "originalNames": [
+        "修士一般_理研_応用数学専攻_専門科目（応用数学1~4）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門科目（応用数学1~4）.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門科目（応用数学1~4）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/b77e515561097550ad04b288a9ac1a2f0c4b2219f629b41f7d200dac70bb95c1.pdf",
+      "sha256": "b77e515561097550ad04b288a9ac1a2f0c4b2219f629b41f7d200dac70bb95c1",
+      "byteSize": 102005,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_理研_数学専攻_専門基礎科目（線形代数・微分積分・集合と位相）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門基礎科目（線形代数・微分積分・集合と位相）.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/数学専攻/修士一般_理研_数学専攻_専門基礎科目（線形代数・微分積分・集合と位相）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/16f560ceaf086ca7bbccee2445563d25562e8c4bcc737f9dc057c31fa8d3c512.pdf",
+      "sha256": "16f560ceaf086ca7bbccee2445563d25562e8c4bcc737f9dc057c31fa8d3c512",
+      "byteSize": 170516,
+      "pages": 7,
+      "originalNames": [
+        "修士一般_理研_数学専攻_専門科目（代数・解析・幾何系）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門科目（代数・解析・幾何系）.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/数学専攻/修士一般_理研_数学専攻_専門科目（代数・解析・幾何系）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/0159ae62f64003ea200a2fd68ec62bd1b9ef7640a90671460b5e0dbeb8696776.pdf",
+      "sha256": "0159ae62f64003ea200a2fd68ec62bd1b9ef7640a90671460b5e0dbeb8696776",
+      "byteSize": 193864,
+      "pages": 5,
+      "originalNames": [
+        "修士一般_理研_物理学専攻_専門科目_（熱・統計力学／量子力学）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目_（熱・統計力学／量子力学）.pdf",
+        "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目_（熱・統計力学／量子力学）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/f0c82e0067b4ae2069bde6c04d600ca2845d2c9b6dd471c9e0a6cf158954c349.pdf",
+      "sha256": "f0c82e0067b4ae2069bde6c04d600ca2845d2c9b6dd471c9e0a6cf158954c349",
+      "byteSize": 281681,
+      "pages": 9,
+      "originalNames": [
+        "修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/24东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/ce97e8195909db9082aba0882742c101306f7e23fd40693da0e04f10ac54ec36.pdf",
+      "sha256": "ce97e8195909db9082aba0882742c101306f7e23fd40693da0e04f10ac54ec36",
+      "byteSize": 55706,
+      "pages": 2,
+      "originalNames": [
+        "修士外国人留学生_理研_応用数学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_理学研究科/修士外国人留学生_理研_応用数学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/49567c73a7038947a98f137718ad01e9cecfcb1940327a9a5b61375b6b93f20a.pdf",
+      "sha256": "49567c73a7038947a98f137718ad01e9cecfcb1940327a9a5b61375b6b93f20a",
+      "byteSize": 53742,
+      "pages": 2,
+      "originalNames": [
+        "修士留学生_理研_数学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2024 plus/修士課程_外国人留学生入試/理学研究科/修士留学生_理研_数学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/04d60437e74d0c04ffda133ec21cca66b7d03107c3c180deeadd4dd4b5367fd8.pdf",
+      "sha256": "04d60437e74d0c04ffda133ec21cca66b7d03107c3c180deeadd4dd4b5367fd8",
+      "byteSize": 771989,
+      "pages": 29,
+      "originalNames": [
+        "修士一般_理研_化学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_化学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/483162dd2e05e37a87f73c44bad97016b6426118ea5ecfe7853b6150f091819c.pdf",
+      "sha256": "483162dd2e05e37a87f73c44bad97016b6426118ea5ecfe7853b6150f091819c",
+      "byteSize": 79907,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_理研_応用数学専攻_専門基礎科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_応用数学専攻_専門基礎科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/ff922481b5f22bd2644b9f07b67062dddf4219737ffa2e97903492c6b182273e.pdf",
+      "sha256": "ff922481b5f22bd2644b9f07b67062dddf4219737ffa2e97903492c6b182273e",
+      "byteSize": 124985,
+      "pages": 5,
+      "originalNames": [
+        "修士一般_理研_応用数学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_応用数学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/25fb5b216c219cb63501228486a2d61a0f11b6144ae2aadd357423085decc696.pdf",
+      "sha256": "25fb5b216c219cb63501228486a2d61a0f11b6144ae2aadd357423085decc696",
+      "byteSize": 96681,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_理研_数学専攻_専門基礎科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_数学専攻_専門基礎科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/4daa3396b1e7a4c92f62d1e5fda664692c2ec9123763f4f162b9f16ea6408fac.pdf",
+      "sha256": "4daa3396b1e7a4c92f62d1e5fda664692c2ec9123763f4f162b9f16ea6408fac",
+      "byteSize": 177032,
+      "pages": 7,
+      "originalNames": [
+        "修士一般_理研_数学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_数学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/398a5c8b9daf62ca59418babd6334ff19d18c996b2021aac6b65b50546d71f7e.pdf",
+      "sha256": "398a5c8b9daf62ca59418babd6334ff19d18c996b2021aac6b65b50546d71f7e",
+      "byteSize": 126669,
+      "pages": 3,
+      "originalNames": [
+        "修士一般_理研_物理学専攻_専門科目（熱・統計力学、量子力学）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_物理学専攻_専門科目（熱・統計力学、量子力学）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/9bafa08d09ea346fe34a3bd1562bf70496896bc2c3a218017be45fff106fd861.pdf",
+      "sha256": "9bafa08d09ea346fe34a3bd1562bf70496896bc2c3a218017be45fff106fd861",
+      "byteSize": 197425,
+      "pages": 5,
+      "originalNames": [
+        "修士一般_理研_物理学専攻_専門科目（物理数学、力学、電磁気学）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_物理学専攻_専門科目（物理数学、力学、電磁気学）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d.pdf",
+      "sha256": "cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d",
+      "byteSize": 2328951,
+      "pages": 6,
+      "originalNames": [
+        "修士一般（冬期）_生命研_生命科学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_生命科学研究科/修士一般（冬期）_生命研_生命科学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/3b0212a48da320eeebf6bbca5b223a1b962caf6831adbbb713db987d56a9f0b9.pdf",
+      "sha256": "3b0212a48da320eeebf6bbca5b223a1b962caf6831adbbb713db987d56a9f0b9",
+      "byteSize": 899771,
+      "pages": 4,
+      "originalNames": [
+        "修士一般（夏期）_生命研_生命科学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_生命科学研究科/修士一般（夏期）_生命研_生命科学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/b34e7e242188820f2a69c5d4b88970a3aa007ebb02ed60fcc5654182c98aaef0.pdf",
+      "sha256": "b34e7e242188820f2a69c5d4b88970a3aa007ebb02ed60fcc5654182c98aaef0",
+      "byteSize": 171542,
+      "pages": 6,
+      "originalNames": [
+        "修士留学生_工研_工業化学専攻_一般化学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_一般化学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/1e4f970230b6348855d20b32d9dad38ecec33de47cc5f1e84a36e4bc5914a9e7.pdf",
+      "sha256": "1e4f970230b6348855d20b32d9dad38ecec33de47cc5f1e84a36e4bc5914a9e7",
+      "byteSize": 155219,
+      "pages": 6,
+      "originalNames": [
+        "修士留学生_工研_工業化学専攻_専門科目（有機化学）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_専門科目（有機化学）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/339c94ee2b50cd849e00bc02f4ed5dbae00cd954228b3671180e755c7726ad05.pdf",
+      "sha256": "339c94ee2b50cd849e00bc02f4ed5dbae00cd954228b3671180e755c7726ad05",
+      "byteSize": 90061,
+      "pages": 4,
+      "originalNames": [
+        "修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/a3199b73d65436e05323cec694002d574679a48daa4e098689084a3167ac84fd.pdf",
+      "sha256": "a3199b73d65436e05323cec694002d574679a48daa4e098689084a3167ac84fd",
+      "byteSize": 116933,
+      "pages": 3,
+      "originalNames": [
+        "修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/da46ae3a1bf96c94559642490d545d3280b08c4711c67542f8cfb2c75ad026b7.pdf",
+      "sha256": "da46ae3a1bf96c94559642490d545d3280b08c4711c67542f8cfb2c75ad026b7",
+      "byteSize": 66588,
+      "pages": 2,
+      "originalNames": [
+        "修士留学生_工研_建築学専攻_専門科目（建築計画・設計製図）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築計画・設計製図）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/b0afe5ed3ef8fe2e77428e1d6a5460b744209f86e83e2839a9836440a124b5cd.pdf",
+      "sha256": "b0afe5ed3ef8fe2e77428e1d6a5460b744209f86e83e2839a9836440a124b5cd",
+      "byteSize": 132460,
+      "pages": 2,
+      "originalNames": [
+        "修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/6df4b53710cce76460b3e68fa37b3b31c1c59af162fa7135ef1af7a288aaf48a.pdf",
+      "sha256": "6df4b53710cce76460b3e68fa37b3b31c1c59af162fa7135ef1af7a288aaf48a",
+      "byteSize": 162913,
+      "pages": 3,
+      "originalNames": [
+        "修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/dc1324ce5d8fadde3cd5f84df944ecea813f224dcf0496c7811671b7930b4dbd.pdf",
+      "sha256": "dc1324ce5d8fadde3cd5f84df944ecea813f224dcf0496c7811671b7930b4dbd",
+      "byteSize": 595588,
+      "pages": 8,
+      "originalNames": [
+        "修士一般_創域理工研_社会基盤工学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/93dd5de051cd0c9715dafd651aa8625084b0ccefbd0d68415640fd96b17c4973.pdf",
+      "sha256": "93dd5de051cd0c9715dafd651aa8625084b0ccefbd0d68415640fd96b17c4973",
+      "byteSize": 95063,
+      "pages": 2,
+      "originalNames": [
+        "修士一般_創域理工研_社会基盤工学専攻_数学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_数学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/110b1b032b950fed6f004a451bdc2fa236c12bbb509f198261b7365125c7a266.pdf",
+      "sha256": "110b1b032b950fed6f004a451bdc2fa236c12bbb509f198261b7365125c7a266",
+      "byteSize": 307169,
+      "pages": 3,
+      "originalNames": [
+        "外国人留学生_創域理工研_建築学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/建築学専攻/外国人留学生_創域理工研_建築学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/60d506ef0977d8790cf0f05de830f96ed3e6d53a5012d56f19b46721bc2ecc84.pdf",
+      "sha256": "60d506ef0977d8790cf0f05de830f96ed3e6d53a5012d56f19b46721bc2ecc84",
+      "byteSize": 385955,
+      "pages": 4,
+      "originalNames": [
+        "外国人留学生_創域理工研_生命生物科学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/生命生物科学専攻/外国人留学生_創域理工研_生命生物科学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/98762facc33fc7e30aa958c7a10135fe086a80a261269724609014a27bcb55c9.pdf",
+      "sha256": "98762facc33fc7e30aa958c7a10135fe086a80a261269724609014a27bcb55c9",
+      "byteSize": 195988,
+      "pages": 4,
+      "originalNames": [
+        "外国人留学生_創域理工研_社会基盤工学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/社会基盤工学専攻/外国人留学生_創域理工研_社会基盤工学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/247d074d0f4553e8c9b2ed622d5164f8d5741c097887a2330e3cefd9e4a85526.pdf",
+      "sha256": "247d074d0f4553e8c9b2ed622d5164f8d5741c097887a2330e3cefd9e4a85526",
+      "byteSize": 442259,
+      "pages": 6,
+      "originalNames": [
+        "修士留学生_工研_工業化学専攻_一般化学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_一般化学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/d4c1039eaf132301579f2c689da0ee7fa3bbabd4be7c1f3cf568b6c4a1a70d0b.pdf",
+      "sha256": "d4c1039eaf132301579f2c689da0ee7fa3bbabd4be7c1f3cf568b6c4a1a70d0b",
+      "byteSize": 373139,
+      "pages": 6,
+      "originalNames": [
+        "修士留学生_工研_工業化学専攻_専門科目.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_専門科目.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/f84c438bbf39db7a921571df40645eae520ecb22621f9aaa98025dc0e7f9ffcd.pdf",
+      "sha256": "f84c438bbf39db7a921571df40645eae520ecb22621f9aaa98025dc0e7f9ffcd",
+      "byteSize": 80581,
+      "pages": 3,
+      "originalNames": [
+        "修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/22b50f942bdca3894fa00c9fed0defe210890a54455c5a2d0cc10d4f95f1732a.pdf",
+      "sha256": "22b50f942bdca3894fa00c9fed0defe210890a54455c5a2d0cc10d4f95f1732a",
+      "byteSize": 159097,
+      "pages": 4,
+      "originalNames": [
+        "修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/b984aa0142842951fa7cca676dfd10e649c3d9ffd102721b0ca454fb5817e6d0.pdf",
+      "sha256": "b984aa0142842951fa7cca676dfd10e649c3d9ffd102721b0ca454fb5817e6d0",
+      "byteSize": 59719,
+      "pages": 2,
+      "originalNames": [
+        "修士留学生_工研_建築学専攻_専門科目（建築計画・建築製図）.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築計画・建築製図）.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/556d5df72d9d93077d219715735fcef6b155ecbe881c94517bb7b6565289d5ed.pdf",
+      "sha256": "556d5df72d9d93077d219715735fcef6b155ecbe881c94517bb7b6565289d5ed",
+      "byteSize": 96582,
+      "pages": 3,
+      "originalNames": [
+        "修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/8b5f4f24c6b1a0310be4facce4d5dc1f425f55af6e470916de5834db6260c5fb.pdf",
+      "sha256": "8b5f4f24c6b1a0310be4facce4d5dc1f425f55af6e470916de5834db6260c5fb",
+      "byteSize": 91165,
+      "pages": 2,
+      "originalNames": [
+        "修士一般（冬期）_経営研_経営学専攻_経営学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（冬期）_経営研_経営学専攻_経営学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/db4749fb4be37cf84fe91d70ae98371b9e6e54be7948e7da43b3572f80d59860.pdf",
+      "sha256": "db4749fb4be37cf84fe91d70ae98371b9e6e54be7948e7da43b3572f80d59860",
+      "byteSize": 74249,
+      "pages": 2,
+      "originalNames": [
+        "修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/f780ce69d4d0b2ca6cc7773492f06606f6c6f58445a017809eb2fbf6b44e9e48.pdf",
+      "sha256": "f780ce69d4d0b2ca6cc7773492f06606f6c6f58445a017809eb2fbf6b44e9e48",
+      "byteSize": 82150,
+      "pages": 2,
+      "originalNames": [
+        "修士一般（夏期）_経営研_経営学専攻_経営学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/5073cedb737c3b333cc87a4b6c8d6dbfa1d11f5ebb69ff806444023263737c46.pdf",
+      "sha256": "5073cedb737c3b333cc87a4b6c8d6dbfa1d11f5ebb69ff806444023263737c46",
+      "byteSize": 125650,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_薬研‗薬科学専攻‗有機化学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_薬学研究科/修士一般_薬研‗薬科学専攻‗有機化学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/d7b5b60d4392dc2b876a46169ecc6a85ff7eeaf31e3beb0bee6e2d273d74a3c3.pdf",
+      "sha256": "d7b5b60d4392dc2b876a46169ecc6a85ff7eeaf31e3beb0bee6e2d273d74a3c3",
+      "byteSize": 156616,
+      "pages": 4,
+      "originalNames": [
+        "修士一般_薬研‗薬科学専攻‗物理化学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_薬学研究科/修士一般_薬研‗薬科学専攻‗物理化学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
+    },
+    {
+      "path": "assets/past-papers/documents/b79d30dd793936f40257535507e2bb2facf32e82f555fe3d88f0cd1daf95607b.pdf",
+      "sha256": "b79d30dd793936f40257535507e2bb2facf32e82f555fe3d88f0cd1daf95607b",
+      "byteSize": 228999,
+      "pages": 5,
+      "originalNames": [
+        "修士一般_薬研‗薬科学専攻‗生物科学.pdf"
+      ],
+      "sourcePaths": [
+        "东京理科大学/2025 plus/修士課程_一般入試/修士一般_薬学研究科/修士一般_薬研‗薬科学専攻‗生物科学.pdf"
+      ],
+      "review": "卷面与题页已视觉核对；保留原文件字节"
     }
   ],
   "excluded": [
@@ -1641,640 +2962,83 @@
       "reason": "学部编入考试，非修士"
     },
     {
-      "sourcePath": "东京理科大学/23东理/生命科学研究科/修士一般（冬期）_生命科学研究科_生命科学専攻_専門.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/生命科学研究科/修士一般（夏期）_生命科学研究科_生命科学専攻_専門.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_冬期日程_経済学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_夏期日程_情報.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_夏期日程_経営科学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/経営学研究科/修士一般_経営研_経営学専攻_夏期日程_統計.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/薬学研究科/修士一般_薬研 薬科学専攻 有機化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/薬学研究科/修士一般_薬研 薬科学専攻 物理化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/薬学研究科/修士一般_薬研 薬科学専攻 生物科学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/生命科学研究科/修士一般（冬期）_生命研_専門.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/生命科学研究科/修士一般（夏期）_生命研_専門.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/薬学研究科/修士一般_薬研‗薬科学専攻‗生物科学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/薬学研究科/修士一般_薬研‗薬科学専攻‗物理化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/薬学研究科/修士一般_薬研‗薬科学専攻‗有機化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_会計ファイナンス.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_経営学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_情報(経営情報を含む).pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/経営学研究科/修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営科学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/経営学研究科/修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_外国人留学生入試/理学研究科/修士留学生_理研_数学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/生命科学研究科/修士一般（冬期）_生命研_専門.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/生命科学研究科/修士一般（夏期）_生命研_専門.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/薬学研究科/修士一般_薬研‗薬科学専攻‗生物科学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/薬学研究科/修士一般_薬研‗薬科学専攻‗物理化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/薬学研究科/修士一般_薬研‗薬科学専攻‗有機化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_会計ファイナンス.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_経営学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_情報(経営情報を含む).pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営科学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/経営学研究科/修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_理学研究科/修士外国人留学生_理研_応用数学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_数学専攻_専門基礎科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_数学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_物理学専攻_専門科目（熱・統計力学、量子力学）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_物理学専攻_専門科目（物理数学、力学、電磁気学）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_応用数学専攻_専門基礎科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_理学研究科/修士一般_理研_応用数学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（冬期）_経営研_経営学専攻_経営学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（夏期）_経営研_経営学専攻_経営学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_経営学研究科/修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_薬学研究科/修士一般_薬研‗薬科学専攻‗生物科学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_薬学研究科/修士一般_薬研‗薬科学専攻‗物理化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_薬学研究科/修士一般_薬研‗薬科学専攻‗有機化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_生命科学研究科/修士一般（冬期）_生命研_生命科学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_生命科学研究科/修士一般（夏期）_生命研_生命科学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/国際火災科学専攻/修士一般_創域理工研_国際火災科学専攻_冬期日程_数学.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
-    },
-    {
       "sourcePath": "东京理科大学/23东理/創域理工学研究科/国際火災科学専攻/修士一般_創域理工研_国際火災科学専攻_冬期日程_小論文.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/国際火災科学専攻/修士一般_創域理工研_国際火災科学専攻_夏期日程_数学.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/23东理/創域理工学研究科/国際火災科学専攻/修士一般_創域理工研_国際火災科学専攻_夏期日程_小論文.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/23东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_小論文.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/23东理/創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_小論文.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/工学研究科/建築学専攻/修士一般_工学研究科_建築_専門B_即日設計.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/工学研究科/建築学専攻/修士一般_工学研究科_建築_専門B.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/工学研究科/建築学専攻/修士一般_工学研究科_建築_専門A.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/工学研究科/工業化学専攻/修士一般_工学研究科_工業化学_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門基礎科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/理学研究科/化学専攻/修士一般_理研_化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門基礎科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（熱・統計力学・量子力学）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/23东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目A.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/工学研究科/工業化学専攻/修士一般_工研_工業化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/24东理/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_小論文.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/24东理/創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_小論文.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
-      "reason": "不在既定目标工程专业范围"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/24东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_小論文.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/24东理/創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_小論文.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門基礎科目(線形代数・微積分).pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門科目（応用数学1~4）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/理学研究科/化学専攻/修士一般_理研_化学専攻_専門科目(物理化学・無機及び分析化学・有機化学).pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目_（熱・統計力学／量子力学）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門基礎科目（線形代数・微分積分・集合と位相）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/24东理/理学研究科/数学専攻/修士一般_理研_数学専攻_専門科目（代数・解析・幾何系）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_一般化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_専門科目（有機化学）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築計画・設計製図）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_外国人留学生入試/工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）（著作権の都合上非公開箇所あり）.pdf",
-      "reason": "不在既定目标工程专业范围"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_小論文.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_小論文.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_小論文.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
-      "reason": "不在既定目标工程专业范围"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_小論文.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目（著作権の都合上非公開箇所あり）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/化学専攻/修士一般_理研_化学専攻_専門科目(物理化学・無機及び分析化学・有機化学).pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門基礎科目(線形代数・微積分).pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/応用数学専攻/修士一般_理研_応用数学専攻_専門科目（応用数学1~4）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目_（熱・統計力学／量子力学）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/物理学専攻/修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/数学専攻/修士一般_理研_数学専攻_専門基礎科目（線形代数・微分積分・集合と位相）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/理学研究科/数学専攻/修士一般_理研_数学専攻_専門科目（代数・解析・幾何系）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/工業化学専攻/修士一般_工研_工業化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目A.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2024 plus/修士課程_一般入試/工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf",
-      "reason": "不在既定目标工程专业范围"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/建築学専攻/外国人留学生_創域理工研_建築学専攻_小論文.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/建築学専攻/外国人留学生_創域理工研_建築学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/生命生物科学専攻/外国人留学生_創域理工研_生命生物科学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_創域理工学研究科/社会基盤工学専攻/外国人留学生_創域理工研_社会基盤工学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_一般化学.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/工業化学専攻/修士留学生_工研_工業化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築計画・建築製図）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_外国人留学生入試/修士留学生_工学研究科/建築学専攻/修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/建築学専攻/修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/国際火災科学専攻/修士一般（冬期日程）_創域理工研_国際火災科学専攻_小論文.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/国際火災科学専攻/修士一般（夏期日程）_創域理工研_国際火災科学専攻_小論文.pdf",
-      "reason": "学校官方归为建筑学系，沿用排除规则"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/先端物理学専攻/修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/先端化学専攻/修士一般_創域理工研_先端化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/数理科学専攻/修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_数学.pdf",
-      "reason": "不在既定目标工程专业范围"
+      "reason": "essay／小論文，非笔试真题入口"
     },
     {
       "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_小論文.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/社会基盤工学専攻/修士一般_創域理工研_社会基盤工学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_創域理工学研究科/生命生物科学専攻/修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目A.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/建築学専攻/修士一般_工研_建築学専攻_専門科目B.pdf",
-      "reason": "不在既定目标工程专业范围"
-    },
-    {
-      "sourcePath": "东京理科大学/2025 plus/修士課程_一般入試/修士一般_工学研究科/工業化学専攻/修士一般_工研_工業化学専攻_専門科目.pdf",
-      "reason": "不在既定目标工程专业范围"
+      "reason": "essay／小論文，非笔试真题入口"
     }
-  ]
+  ],
+  "backfill": {
+    "importedAt": "2026-10-18",
+    "addedGroups": 56,
+    "addedUniquePDFs": 98,
+    "addedPages": 544,
+    "addedSourcePaths": 143,
+    "priorGroups": 61,
+    "priorUniquePDFs": 121,
+    "priorPages": 643,
+    "priorSourceFiles": 148,
+    "skippedHennyu": 4,
+    "skippedShakaijin": 2,
+    "skippedEssay": 16,
+    "yearBasis": "academic"
+  }
 }
