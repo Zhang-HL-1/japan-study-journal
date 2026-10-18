@@ -7,8 +7,8 @@ test('UEC keeps 38 original question PDFs in 20 major-session groups and leaves 
  assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,38);
  for(const f of manifest.files){const b=fs.readFileSync(path.join(root,f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.equal(f.kind,'question');assert.equal(f.blankPage,2);assert.equal(f.startPage,3);}
  for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.equal(p.graduateSchool,'情報理工学研究科');assert.equal(p.selectionName,'博士前期課程一般入試');assert.equal(p.yearBasis,'exam');assert.equal(p.yearEvidence,'cover');assert.equal(p.dateEvidence,'cover');assert.equal(p.paperYear,p.examYear);assert.equal(p.admissionYears,undefined);assert.deepEqual(p.examDates,[dates[p.paperYear]]);assert.equal(p.originalYear,`${p.paperYear}年8月${p.paperYear===2020?18:p.paperYear===2024?16:17}日実施`);for(const f of p.files){assert.equal(f.kind,'question');assert.equal(f.startPage,3);assert.ok(f.startPage<=f.pages);}}
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.universityId!=='osaka'&&p.universityId!=='uec'&&p.universityId!=='nagoya'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'))).digest('hex'),'3db40a3d840eccc9a380f3da9c2bf589570f03f7d2497f17239c8a52ce4bb47a');
- const notes={...data.schoolNotes};delete notes.osaka;delete notes.uec;delete notes.nagoya;delete notes.kyushu;delete notes.tohoku;delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'717ad21bc87bd05cc7fa43d341f2a0ba9a602af6ed75076895484bb0a4151039');
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='osaka'&&p.universityId!=='uec'&&p.universityId!=='nagoya'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'))).digest('hex'),'3db40a3d840eccc9a380f3da9c2bf589570f03f7d2497f17239c8a52ce4bb47a');
+ const notes={...data.schoolNotes};delete notes.osaka;delete notes.uec;delete notes.nagoya;delete notes.kyushu;delete notes.tohoku;delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'31dc5661d383380defed83d4d9e2b25419e6446b46cd2cbeba4e0332cad19b9c');
  assert.match(data.schoolNotes.uec.text,/20组／38个问题PDF/);
 });
 test('UEC assigns departments from covers, including the swapped 24.8 folders',()=>{
@@ -29,3 +29,4 @@ test('UEC assigns departments from covers, including the swapped 24.8 folders',(
  assert.equal(core.filter(papers,catalog.universities,{school:'uec',graduate:'情報理工学研究科',department:'基盤理工学専攻',year:'2020',query:'2020-08-18'}).length,1);
  assert.equal(core.filter(papers,catalog.universities,{school:'uec',graduate:'all',department:'all',year:'all',query:'电通大 情報学'}).length,5);
 });
+
