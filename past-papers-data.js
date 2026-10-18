@@ -11653,7 +11653,8 @@
           "pages": 23,
           "sourcePaths": [
             "名古屋大学/工学/材料设计/06.pdf",
-            "名古屋大学/工学/物质工程/07.pdf"
+            "名古屋大学/工学/物质工程/07.pdf",
+            "名古屋大学/工学/化学系统/08.pdf"
           ],
           "startPage": 2
         }
@@ -11694,7 +11695,8 @@
           "pages": 23,
           "sourcePaths": [
             "名古屋大学/工学/材料设计/06.pdf",
-            "名古屋大学/工学/物质工程/07.pdf"
+            "名古屋大学/工学/物质工程/07.pdf",
+            "名古屋大学/工学/化学系统/08.pdf"
           ],
           "startPage": 2
         }
@@ -11732,12 +11734,13 @@
           "pages": 14,
           "sourcePaths": [
             "名古屋大学/工学/材料设计/06f.pdf",
-            "名古屋大学/工学/物质科学/07.pdf"
+            "名古屋大学/工学/物质科学/07.pdf",
+            "名古屋大学/工学/化学系统/08f.pdf"
           ],
           "startPage": 2
         }
       ],
-      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度外国人留学生入学者選抜、博士課程前期課程。英文系名为 Materials Design Innovation Eng.、Materials Process Eng.、Chemical Systems Eng.。化学系统不建入口。英语时间为10:30–12:00，封面未印公历日，不补examDates，也不把末页「令和6年度実施」口頭試問当成笔试日期。第5页起为数学、物理学、化学。同一字节还在工学／物质科学／07.pdf；封面没有物質科学専攻，不为物質科学另建本组。第2页文本层有著作权未公开说明，字节未改。设问从第2页打开。"
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度外国人留学生入学者選抜、博士課程前期課程。英文系名为 Materials Design Innovation Eng.、Materials Process Eng.、Chemical Systems Eng.。化学システム工学専攻另设外国人入口，指向同一PDF。英语时间为10:30–12:00，封面未印公历日，不补examDates，也不把末页「令和6年度実施」口頭試問当成笔试日期。第5页起为数学、物理学、化学。同一字节还在工学／物质科学／07.pdf；封面没有物質科学専攻，不为物質科学另建本组。第2页文本层有著作权未公开说明，字节未改。设问从第2页打开。"
     },
     {
       "id": "nagoya-mprocess-foreign-2025",
@@ -11770,12 +11773,94 @@
           "pages": 14,
           "sourcePaths": [
             "名古屋大学/工学/材料设计/06f.pdf",
-            "名古屋大学/工学/物质科学/07.pdf"
+            "名古屋大学/工学/物质科学/07.pdf",
+            "名古屋大学/工学/化学系统/08f.pdf"
           ],
           "startPage": 2
         }
       ],
-      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度外国人留学生入学者選抜、博士課程前期課程。英文系名为 Materials Design Innovation Eng.、Materials Process Eng.、Chemical Systems Eng.。化学系统不建入口。英语时间为10:30–12:00，封面未印公历日，不补examDates，也不把末页「令和6年度実施」口頭試問当成笔试日期。第5页起为数学、物理学、化学。同一字节还在工学／物质科学／07.pdf；封面没有物質科学専攻，不为物質科学另建本组。第2页文本层有著作权未公开说明，字节未改。设问从第2页打开。"
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度外国人留学生入学者選抜、博士課程前期課程。英文系名为 Materials Design Innovation Eng.、Materials Process Eng.、Chemical Systems Eng.。化学システム工学専攻另设外国人入口，指向同一PDF。英语时间为10:30–12:00，封面未印公历日，不补examDates，也不把末页「令和6年度実施」口頭試問当成笔试日期。第5页起为数学、物理学、化学。同一字节还在工学／物质科学／07.pdf；封面没有物質科学専攻，不为物質科学另建本组。第2页文本层有著作权未公开说明，字节未改。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-chemsys-2025",
+      "universityId": "nagoya",
+      "title": "2025年度（令和6年実施） · 化学システム工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "化学システム工学専攻",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度（令和6年実施）",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "subjects": [
+        "数学",
+        "物理化学",
+        "固体物理学",
+        "流動と伝熱",
+        "反応工学",
+        "材料の力学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
+          "originalName": "06.pdf",
+          "sha256": "6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e",
+          "byteSize": 659060,
+          "pages": 23,
+          "sourcePaths": [
+            "名古屋大学/工学/材料设计/06.pdf",
+            "名古屋大学/工学/物质工程/07.pdf",
+            "名古屋大学/工学/化学系统/08.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度（令和6年実施），マテリアル工学系専攻群：材料デザイン工学専攻、物質プロセス工学専攻、化学システム工学専攻。本入口为化学システム工学専攻。PDF字节与材料デザイン工学、物質プロセス工学册相同，化学系统文件夹08.pdf不另存。基礎为数学与物理化学，全部作答；専門封面在第11页，固体物理学・流動と伝熱・反応工学・材料の力学4问中选2。封面未印公历日，不补examDates。册内含出題意図。设问从第2页打开。"
+    },
+    {
+      "id": "nagoya-chemsys-foreign-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 外国人留学生 · 化学システム工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "化学システム工学専攻",
+      "selectionName": "外国人留学生入学者選抜試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度／ACADEMIC YEAR 2025",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "英語",
+        "数学",
+        "物理学",
+        "化学"
+      ],
+      "files": [
+        {
+          "label": "英語・数学・物理学・化学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
+          "originalName": "06f.pdf",
+          "sha256": "e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d",
+          "byteSize": 994430,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/工学/材料设计/06f.pdf",
+            "名古屋大学/工学/物质科学/07.pdf",
+            "名古屋大学/工学/化学系统/08f.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度外国人留学生入学者選抜、博士課程前期課程。英文系名为 Materials Design Innovation Eng.、Materials Process Eng.、Chemical Systems Eng.。本入口为化学システム工学専攻。PDF字节与材料留学生册相同，化学系统文件夹08f.pdf不另存。英语时间为10:30–12:00，封面未印公历日，不补examDates，也不把末页「令和6年度実施」口頭試問当成笔试日期。第5页起为数学、物理学、化学。第2页文本层有著作权未公开说明，字节未改。设问从第2页打开。"
     },
     {
       "id": "nagoya-enerim-2025",
@@ -11956,6 +12041,4542 @@
         }
       ],
       "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。文件在工学／网络。第1页是基礎V订正。基礎封面第2页，2024年8月20日13:30–16:30，基礎I–V全答，设问从第3页打开。専門封面第15页，2024年8月21日9:00–12:00；専門I必答，専門II-1至II-6中选2。末页口頭試問印「エネルギー理工学，総合エネルギー工学」和一般選抜；専攻名用与2025专业封面相同的「専攻」全称。题册内页未再印研究科名。不含2025年苯题那份解答例。"
+    },
+    {
+      "id": "nagoya-tagen-2001",
+      "universityId": "nagoya",
+      "title": "2001年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験",
+      "paperYear": 2001,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2001年度 · 2000年8月2日",
+      "admissionYears": [
+        2001
+      ],
+      "examYear": 2000,
+      "examDates": [
+        "2000-08-02"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学基礎",
+        "数学専門"
+      ],
+      "files": [
+        {
+          "label": "数学基礎",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2ff59bde4672d179ae226075993eabc45fa71fbcd173b078b865f02f036df492.pdf",
+          "originalName": "exam-mc-2001-1_am.pdf",
+          "sha256": "2ff59bde4672d179ae226075993eabc45fa71fbcd173b078b865f02f036df492",
+          "byteSize": 34311,
+          "pages": 2,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2001-1_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3d16017bb39bd433bab9445d34c3cc5d5c39d55d6c6542eab1f07edddcba06a4.pdf",
+          "originalName": "exam-mc-2001-1_pm.pdf",
+          "sha256": "3d16017bb39bd433bab9445d34c3cc5d5c39d55d6c6542eab1f07edddcba06a4",
+          "byteSize": 69407,
+          "pages": 7,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2001-1_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2001-dn",
+      "universityId": "nagoya",
+      "title": "2001年度 · 昼夜開講コース · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験（昼夜開講コース）",
+      "paperYear": 2001,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2001年度 · 2000年8月2日",
+      "admissionYears": [
+        2001
+      ],
+      "examYear": 2000,
+      "examDates": [
+        "2000-08-02"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学基礎",
+        "数学専門"
+      ],
+      "files": [
+        {
+          "label": "数学基礎",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b86572541b3b10df27313f9ffbd3c7d83cb00597f563a6c47c9009c9037f21ac.pdf",
+          "originalName": "exam-mc-2001-1d_am.pdf",
+          "sha256": "b86572541b3b10df27313f9ffbd3c7d83cb00597f563a6c47c9009c9037f21ac",
+          "byteSize": 42181,
+          "pages": 3,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2001-1d_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f0910761ac4e2251d8f2399f2dfe98cfb24a7cc88dbfe7af193efa2272118495.pdf",
+          "originalName": "exam-mc-2001-1d_pm.pdf",
+          "sha256": "f0910761ac4e2251d8f2399f2dfe98cfb24a7cc88dbfe7af193efa2272118495",
+          "byteSize": 45639,
+          "pages": 3,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2001-1d_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。昼夜開講コース印在科目行。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2001-2",
+      "universityId": "nagoya",
+      "title": "2001年度 · ２次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験（２次募集）",
+      "paperYear": 2001,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2001年度 · 2001年1月13日",
+      "admissionYears": [
+        2001
+      ],
+      "examYear": 2001,
+      "examDates": [
+        "2001-01-13"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学基礎",
+        "数学専門"
+      ],
+      "files": [
+        {
+          "label": "数学基礎",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e22f0ca8899a4f029f69df2a5d7c53ec4c534f4fd8a1e460d111472acc57679.pdf",
+          "originalName": "exam-mc-2001-2_am.pdf",
+          "sha256": "5e22f0ca8899a4f029f69df2a5d7c53ec4c534f4fd8a1e460d111472acc57679",
+          "byteSize": 39621,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2001-2_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/060a4878a4bf60cd5e39e45a49a058da97105154bf195a9401ba549db3df0547.pdf",
+          "originalName": "exam-mc-2001-2_pm.pdf",
+          "sha256": "060a4878a4bf60cd5e39e45a49a058da97105154bf195a9401ba549db3df0547",
+          "byteSize": 89802,
+          "pages": 12,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2001-2_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2001-2dn",
+      "universityId": "nagoya",
+      "title": "2001年度 · ２次募集 · 昼夜開講コース · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験（２次募集）（昼夜開講コース）",
+      "paperYear": 2001,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2001年度 · 2001年1月13日",
+      "admissionYears": [
+        2001
+      ],
+      "examYear": 2001,
+      "examDates": [
+        "2001-01-13"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学基礎",
+        "数学専門"
+      ],
+      "files": [
+        {
+          "label": "数学基礎",
+          "kind": "question",
+          "url": "assets/past-papers/documents/986d4ef454cd2c37bec733d9bc7d4b91c148739883b386c408ebf622817f202e.pdf",
+          "originalName": "exam-mc-2001-2d_am.pdf",
+          "sha256": "986d4ef454cd2c37bec733d9bc7d4b91c148739883b386c408ebf622817f202e",
+          "byteSize": 42976,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2001-2d_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/df15ed42347ddbb92f0aecc409a299107c5bd36e09060289cbb4980faec20b40.pdf",
+          "originalName": "exam-mc-2001-2d_pm.pdf",
+          "sha256": "df15ed42347ddbb92f0aecc409a299107c5bd36e09060289cbb4980faec20b40",
+          "byteSize": 69054,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2001-2d_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。昼夜開講コース印在科目行。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2002",
+      "universityId": "nagoya",
+      "title": "2002年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験",
+      "paperYear": 2002,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2002年度 · 2001年8月1日",
+      "admissionYears": [
+        2002
+      ],
+      "examYear": 2001,
+      "examDates": [
+        "2001-08-01"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学基礎",
+        "数学専門"
+      ],
+      "files": [
+        {
+          "label": "数学基礎",
+          "kind": "question",
+          "url": "assets/past-papers/documents/250501f747fc377d5f0cab093d9c1f8d4364991ca82dbad6b9c76fb8ff35a99d.pdf",
+          "originalName": "exam-mc-2002-1_am.pdf",
+          "sha256": "250501f747fc377d5f0cab093d9c1f8d4364991ca82dbad6b9c76fb8ff35a99d",
+          "byteSize": 84582,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2002-1_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8a41583a87cd17e7a8108da0d316d82c8f7b07761a35ea0dd0419dac8a22c6db.pdf",
+          "originalName": "exam-mc-2002-1_pm.pdf",
+          "sha256": "8a41583a87cd17e7a8108da0d316d82c8f7b07761a35ea0dd0419dac8a22c6db",
+          "byteSize": 177832,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2002-1_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2002-dn",
+      "universityId": "nagoya",
+      "title": "2002年度 · 昼夜開講コース · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験（昼夜開講コース）",
+      "paperYear": 2002,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2002年度 · 2001年8月1日",
+      "admissionYears": [
+        2002
+      ],
+      "examYear": 2001,
+      "examDates": [
+        "2001-08-01"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学基礎",
+        "数学専門"
+      ],
+      "files": [
+        {
+          "label": "数学基礎",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d506c0e904dfbb0c877f6148e67851982496e4f8233b74c347b4394538de8d52.pdf",
+          "originalName": "exam-mc-2002-1d_am.pdf",
+          "sha256": "d506c0e904dfbb0c877f6148e67851982496e4f8233b74c347b4394538de8d52",
+          "byteSize": 89045,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2002-1d_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/59c8278457d7de28dd2e577b66b073514a7aed65f0aee1d9bf66fcd2a33f979c.pdf",
+          "originalName": "exam-mc-2002-1d_pm.pdf",
+          "sha256": "59c8278457d7de28dd2e577b66b073514a7aed65f0aee1d9bf66fcd2a33f979c",
+          "byteSize": 178929,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2002-1d_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。昼夜開講コース印在科目行。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2002-2",
+      "universityId": "nagoya",
+      "title": "2002年度 · ２次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験（２次募集）",
+      "paperYear": 2002,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2002年度 · 2002年1月12日",
+      "admissionYears": [
+        2002
+      ],
+      "examYear": 2002,
+      "examDates": [
+        "2002-01-12"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学基礎",
+        "数学専門"
+      ],
+      "files": [
+        {
+          "label": "数学基礎",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7a4ee13f57f8e4ed0cc89e47cd27918c9cc947de88aafda7971047438ef083a8.pdf",
+          "originalName": "exam-mc-2002-2_am.pdf",
+          "sha256": "7a4ee13f57f8e4ed0cc89e47cd27918c9cc947de88aafda7971047438ef083a8",
+          "byteSize": 40113,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2002-2_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4c1f9f2b94cb7860cf6cbec6eabbcd3141389723be2874c693fc1c071aa07572.pdf",
+          "originalName": "exam-mc-2002-2_pm.pdf",
+          "sha256": "4c1f9f2b94cb7860cf6cbec6eabbcd3141389723be2874c693fc1c071aa07572",
+          "byteSize": 156986,
+          "pages": 11,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2002-2_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2003",
+      "universityId": "nagoya",
+      "title": "2003年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験",
+      "paperYear": 2003,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2003年度 · 2002年7月31日",
+      "admissionYears": [
+        2003
+      ],
+      "examYear": 2002,
+      "examDates": [
+        "2002-07-31"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学基礎",
+        "数学発展"
+      ],
+      "files": [
+        {
+          "label": "数学基礎",
+          "kind": "question",
+          "url": "assets/past-papers/documents/46095314be37d58b8483ed7ea2d8d59b7dbea3c202b289a5e8deab9a9e44dd04.pdf",
+          "originalName": "exam-mc-2003-1_am.pdf",
+          "sha256": "46095314be37d58b8483ed7ea2d8d59b7dbea3c202b289a5e8deab9a9e44dd04",
+          "byteSize": 77672,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2003-1_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学発展",
+          "kind": "question",
+          "url": "assets/past-papers/documents/71570a767b9b11c22a5196d9c32176d38888e50325f191e135baaa302309fa9b.pdf",
+          "originalName": "exam-mc-2003-1_pm.pdf",
+          "sha256": "71570a767b9b11c22a5196d9c32176d38888e50325f191e135baaa302309fa9b",
+          "byteSize": 80606,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2003-1_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2003-feb",
+      "universityId": "nagoya",
+      "title": "2003年度 · 2003年2月20日実施 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験",
+      "paperYear": 2003,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2003年度 · 2003年2月20日",
+      "admissionYears": [
+        2003
+      ],
+      "examYear": 2003,
+      "examDates": [
+        "2003-02-20"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "問題",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0d2133412d2d6315f5b8fda311841a9e63f3a25fa0956b764d0ae8cae0c03695.pdf",
+          "originalName": "exam-mc-2003-2.pdf",
+          "sha256": "0d2133412d2d6315f5b8fda311841a9e63f3a25fa0956b764d0ae8cae0c03695",
+          "byteSize": 45800,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2003-2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面未印第2次募集或２次募集，按封面实施日与同年夏季场分开，不把文件名中的-2写成二次募集。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2004",
+      "universityId": "nagoya",
+      "title": "2004年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験",
+      "paperYear": 2004,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2004年度 · 2003年8月2日",
+      "admissionYears": [
+        2004
+      ],
+      "examYear": 2003,
+      "examDates": [
+        "2003-08-02"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6f5182b6acaa75488f0e1cd1f608a317a5f9034fce157a552b613d937c5b0da0.pdf",
+          "originalName": "exam-mc-2004_am.pdf",
+          "sha256": "6f5182b6acaa75488f0e1cd1f608a317a5f9034fce157a552b613d937c5b0da0",
+          "byteSize": 42804,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2004_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5babb1a27f79ed67e56bb229079eb45a5a610830512188b875c7b0f1b9de8e1c.pdf",
+          "originalName": "exam-mc-2004_pm.pdf",
+          "sha256": "5babb1a27f79ed67e56bb229079eb45a5a610830512188b875c7b0f1b9de8e1c",
+          "byteSize": 47667,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2004_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2005",
+      "universityId": "nagoya",
+      "title": "2005年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験",
+      "paperYear": 2005,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2005年度 · 2004年7月31日",
+      "admissionYears": [
+        2005
+      ],
+      "examYear": 2004,
+      "examDates": [
+        "2004-07-31"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9c4c7efe470c94f58d4bbaf6252b77d39ff5ad73110f4fd2f5c2f1ec64ace2ef.pdf",
+          "originalName": "exam-mc-2005_am.pdf",
+          "sha256": "9c4c7efe470c94f58d4bbaf6252b77d39ff5ad73110f4fd2f5c2f1ec64ace2ef",
+          "byteSize": 34317,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2005_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c99a84f8d5a90095631ea0c8cdc2cb764c98b8025e16581420bd26014ec9fc0a.pdf",
+          "originalName": "exam-mc-2005_pm.pdf",
+          "sha256": "c99a84f8d5a90095631ea0c8cdc2cb764c98b8025e16581420bd26014ec9fc0a",
+          "byteSize": 34554,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2005_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2006",
+      "universityId": "nagoya",
+      "title": "2006年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程入学試験",
+      "paperYear": 2006,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2006年度 · 2005年7月30日",
+      "admissionYears": [
+        2006
+      ],
+      "examYear": 2005,
+      "examDates": [
+        "2005-07-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/01dee88fae83e8235bda6e6e2cfb15f1f46742c863a92af6b9ea5c3a0e777eec.pdf",
+          "originalName": "exam-mc-2006_am.pdf",
+          "sha256": "01dee88fae83e8235bda6e6e2cfb15f1f46742c863a92af6b9ea5c3a0e777eec",
+          "byteSize": 33769,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2006_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/68a8ecabfd5530490bf6a656eea2e5f469783e2499e14f31992266978848ec9b.pdf",
+          "originalName": "exam-mc-2006_pm.pdf",
+          "sha256": "68a8ecabfd5530490bf6a656eea2e5f469783e2499e14f31992266978848ec9b",
+          "byteSize": 39668,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2006_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。2006年上午、下午两册是 AppleSingle 封装的原文件，字节未改；内含的 PDF 从偏移134字节起，页数按该 PDF 计。"
+    },
+    {
+      "id": "nagoya-tagen-2007",
+      "universityId": "nagoya",
+      "title": "2007年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程大学院入学試験",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2007年度 · 2006年7月29日",
+      "admissionYears": [
+        2007
+      ],
+      "examYear": 2006,
+      "examDates": [
+        "2006-07-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/80f49c42034e7c19fda772ff8ddca99152ec69a014853fe7933c385cfbafa5cc.pdf",
+          "originalName": "exam-mc-2007-1_am.pdf",
+          "sha256": "80f49c42034e7c19fda772ff8ddca99152ec69a014853fe7933c385cfbafa5cc",
+          "byteSize": 29457,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2007-1_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ccd1126b1e5bf6f4fc8df6179354de264b9a75d8a2a8e8d6b6d569b2e649e11f.pdf",
+          "originalName": "exam-mc-2007-1_pm.pdf",
+          "sha256": "ccd1126b1e5bf6f4fc8df6179354de264b9a75d8a2a8e8d6b6d569b2e649e11f",
+          "byteSize": 29930,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2007-1_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2007-2",
+      "universityId": "nagoya",
+      "title": "2007年度 · ２次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程大学院入学試験（２次募集）",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2007年度 · 2007年2月20日",
+      "admissionYears": [
+        2007
+      ],
+      "examYear": 2007,
+      "examDates": [
+        "2007-02-20"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/eb9fa49cd7fe69dfa6b467a76af11d1f544a0e63e25242f035304a620564a6ea.pdf",
+          "originalName": "exam-mc-2007-2_am.pdf",
+          "sha256": "eb9fa49cd7fe69dfa6b467a76af11d1f544a0e63e25242f035304a620564a6ea",
+          "byteSize": 31408,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2007-2_am.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/23241cab032bcc0e9fd2f47a31c0400a6b8350e6264b0e2dda390f4378e41cf7.pdf",
+          "originalName": "exam-mc-2007-2_pm.pdf",
+          "sha256": "23241cab032bcc0e9fd2f47a31c0400a6b8350e6264b0e2dda390f4378e41cf7",
+          "byteSize": 34020,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2007-2_pm.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。试题从第1页开始，实施日印在该页末，从第1页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2008",
+      "universityId": "nagoya",
+      "title": "2008年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "前期課程大学院入学試験",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2008年度 · 2007年7月28日",
+      "admissionYears": [
+        2008
+      ],
+      "examYear": 2007,
+      "examDates": [
+        "2007-07-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ee8751283b106a5fe04e80bcce9a5659028600a90ad3a29ba8b37c466c76b512.pdf",
+          "originalName": "exam-mc-2008-1_am.pdf",
+          "sha256": "ee8751283b106a5fe04e80bcce9a5659028600a90ad3a29ba8b37c466c76b512",
+          "byteSize": 74747,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2008-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/61e34dde4f8b2d885e214fdd732dd6ee5dbff9278a27adeaf2137153f408888b.pdf",
+          "originalName": "exam-mc-2008-1_pm.pdf",
+          "sha256": "61e34dde4f8b2d885e214fdd732dd6ee5dbff9278a27adeaf2137153f408888b",
+          "byteSize": 98604,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2008-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2008-2",
+      "universityId": "nagoya",
+      "title": "2008年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2008年度 · 2008年2月14日",
+      "admissionYears": [
+        2008
+      ],
+      "examYear": 2008,
+      "examDates": [
+        "2008-02-14"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a84251ea7d1310889deec0d8295cb7887d8a962e43c9bc3ffcd4995044aeee07.pdf",
+          "originalName": "exam-mc-2008-2_am.pdf",
+          "sha256": "a84251ea7d1310889deec0d8295cb7887d8a962e43c9bc3ffcd4995044aeee07",
+          "byteSize": 94599,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2008-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e07eaf69863d08fa1f88f94cd160dd341033737f1556d21d5d35c0cb1b341059.pdf",
+          "originalName": "exam-mc-2008-2_pm.pdf",
+          "sha256": "e07eaf69863d08fa1f88f94cd160dd341033737f1556d21d5d35c0cb1b341059",
+          "byteSize": 102287,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2008-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2009",
+      "universityId": "nagoya",
+      "title": "2009年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2009年度 · 2008年7月26日",
+      "admissionYears": [
+        2009
+      ],
+      "examYear": 2008,
+      "examDates": [
+        "2008-07-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bce01c92aeb19de169025deba6f875fcdd546b721bb4eb3d78d9b1d6dcaaf308.pdf",
+          "originalName": "exam-mc-2009-1_am.pdf",
+          "sha256": "bce01c92aeb19de169025deba6f875fcdd546b721bb4eb3d78d9b1d6dcaaf308",
+          "byteSize": 52772,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2009-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8dace606a031739b00493124b54c277911b59bd9ac9b1ed4ee0a926ea013c939.pdf",
+          "originalName": "exam-mc-2009-1_pm.pdf",
+          "sha256": "8dace606a031739b00493124b54c277911b59bd9ac9b1ed4ee0a926ea013c939",
+          "byteSize": 52173,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2009-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2009-2",
+      "universityId": "nagoya",
+      "title": "2009年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2009年度 · 2009年2月1日",
+      "admissionYears": [
+        2009
+      ],
+      "examYear": 2009,
+      "examDates": [
+        "2009-02-01"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5cd85f5ca5721fd751a3108f24dd64177ffeac85b9115be8577a776b00f7929c.pdf",
+          "originalName": "exam-mc-2009-2_am.pdf",
+          "sha256": "5cd85f5ca5721fd751a3108f24dd64177ffeac85b9115be8577a776b00f7929c",
+          "byteSize": 45516,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2009-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6c18ec5e35870d257ef18f2ed2c557f161c72319c26eb724b63be5dd2d4f7fc3.pdf",
+          "originalName": "exam-mc-2009-2_pm.pdf",
+          "sha256": "6c18ec5e35870d257ef18f2ed2c557f161c72319c26eb724b63be5dd2d4f7fc3",
+          "byteSize": 51547,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2009-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2010",
+      "universityId": "nagoya",
+      "title": "2010年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2010年度 · 2009年7月25日",
+      "admissionYears": [
+        2010
+      ],
+      "examYear": 2009,
+      "examDates": [
+        "2009-07-25"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/511bd6cbf97b58d19f28cabec580a020760dce94e6cb53acae9b5929297b58b8.pdf",
+          "originalName": "exam-mc-2010-1_am.pdf",
+          "sha256": "511bd6cbf97b58d19f28cabec580a020760dce94e6cb53acae9b5929297b58b8",
+          "byteSize": 118168,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2010-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ec80429ea78bd68e43b4ad3ba1f4f5bc3531d6fc69acded164cc5a5646945572.pdf",
+          "originalName": "exam-mc-2010-1_pm.pdf",
+          "sha256": "ec80429ea78bd68e43b4ad3ba1f4f5bc3531d6fc69acded164cc5a5646945572",
+          "byteSize": 127039,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2010-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2010-2",
+      "universityId": "nagoya",
+      "title": "2010年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2010年度 · 2010年2月9日",
+      "admissionYears": [
+        2010
+      ],
+      "examYear": 2010,
+      "examDates": [
+        "2010-02-09"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/616f347714ef827fef40b03dbe11daaa5b2c02662d0ee0e94863d51105f382ba.pdf",
+          "originalName": "exam-mc-2010-2_am.pdf",
+          "sha256": "616f347714ef827fef40b03dbe11daaa5b2c02662d0ee0e94863d51105f382ba",
+          "byteSize": 127636,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2010-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e70909018102b19deece2ae2d4a338d1ee288a773feec98433b0320992d48b27.pdf",
+          "originalName": "exam-mc-2010-2_pm.pdf",
+          "sha256": "e70909018102b19deece2ae2d4a338d1ee288a773feec98433b0320992d48b27",
+          "byteSize": 134191,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2010-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2011",
+      "universityId": "nagoya",
+      "title": "2011年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2011年度 · 2010年7月24日",
+      "admissionYears": [
+        2011
+      ],
+      "examYear": 2010,
+      "examDates": [
+        "2010-07-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f7be6447c104c8e37d5bc99f94951f9c35dbf3d0209840abd1c57315e4219c74.pdf",
+          "originalName": "exam-mc-2011-1_am.pdf",
+          "sha256": "f7be6447c104c8e37d5bc99f94951f9c35dbf3d0209840abd1c57315e4219c74",
+          "byteSize": 134413,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2011-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9061ff626b94eedff42c3f24b354fcbb8d5ee5fd6032caea858abf982a5dedd9.pdf",
+          "originalName": "exam-mc-2011-1_pm.pdf",
+          "sha256": "9061ff626b94eedff42c3f24b354fcbb8d5ee5fd6032caea858abf982a5dedd9",
+          "byteSize": 142747,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2011-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2011-2",
+      "universityId": "nagoya",
+      "title": "2011年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2011年度 · 2011年2月8日",
+      "admissionYears": [
+        2011
+      ],
+      "examYear": 2011,
+      "examDates": [
+        "2011-02-08"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/32db5e467dc2a9260859fe8ab5744ed22cca2827cbd17e687c080a4989f244c1.pdf",
+          "originalName": "exam-mc-2011-2_am.pdf",
+          "sha256": "32db5e467dc2a9260859fe8ab5744ed22cca2827cbd17e687c080a4989f244c1",
+          "byteSize": 121995,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2011-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7f3cfd6818acdb8898e52a1c20725c0d521374905c92f074b3accb46398f8ff4.pdf",
+          "originalName": "exam-mc-2011-2_pm.pdf",
+          "sha256": "7f3cfd6818acdb8898e52a1c20725c0d521374905c92f074b3accb46398f8ff4",
+          "byteSize": 129397,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2011-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2012",
+      "universityId": "nagoya",
+      "title": "2012年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2012年度 · 2011年7月23日",
+      "admissionYears": [
+        2012
+      ],
+      "examYear": 2011,
+      "examDates": [
+        "2011-07-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c63d99149686eeb30f43cd3625eb4876c80247b4284020a2e4d79c26064f3803.pdf",
+          "originalName": "exam-mc-2012-1_am.pdf",
+          "sha256": "c63d99149686eeb30f43cd3625eb4876c80247b4284020a2e4d79c26064f3803",
+          "byteSize": 45055,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2012-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/068ee76de4cf21cbf60f199031ce9753f4e0d79571cfb72ccc4ae6e281412628.pdf",
+          "originalName": "exam-mc-2012-1_pm.pdf",
+          "sha256": "068ee76de4cf21cbf60f199031ce9753f4e0d79571cfb72ccc4ae6e281412628",
+          "byteSize": 43938,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2012-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2012-feb",
+      "universityId": "nagoya",
+      "title": "2012年度 · 2012年2月7日実施 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2012年度 · 2012年2月7日",
+      "admissionYears": [
+        2012
+      ],
+      "examYear": 2012,
+      "examDates": [
+        "2012-02-07"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/84e0f7d781bbf9af6f23ec42b4762999d27864c179522737f1039e179d4f96ec.pdf",
+          "originalName": "exam-mc-2012-2_am.pdf",
+          "sha256": "84e0f7d781bbf9af6f23ec42b4762999d27864c179522737f1039e179d4f96ec",
+          "byteSize": 35833,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2012-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/389dbed24c954528f901234fdfe215ea0d748edd3e2f80a990ebec232249bb07.pdf",
+          "originalName": "exam-mc-2012-2_pm.pdf",
+          "sha256": "389dbed24c954528f901234fdfe215ea0d748edd3e2f80a990ebec232249bb07",
+          "byteSize": 37572,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2012-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面未印第2次募集或２次募集，按封面实施日与同年夏季场分开，不把文件名中的-2写成二次募集。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2013",
+      "universityId": "nagoya",
+      "title": "2013年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2013年度 · 2012年7月28日",
+      "admissionYears": [
+        2013
+      ],
+      "examYear": 2012,
+      "examDates": [
+        "2012-07-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/825d55342af83bb1c35081cce33d63b32cb44d8bc001b22afa991e1312168951.pdf",
+          "originalName": "exam-mc-2013-1_am.pdf",
+          "sha256": "825d55342af83bb1c35081cce33d63b32cb44d8bc001b22afa991e1312168951",
+          "byteSize": 131151,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2013-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0afdb77aa6d6558c1c12584fa68277dfa8f422e43676f9a5d2943eb10f4d0c3c.pdf",
+          "originalName": "exam-mc-2013-1_pm.pdf",
+          "sha256": "0afdb77aa6d6558c1c12584fa68277dfa8f422e43676f9a5d2943eb10f4d0c3c",
+          "byteSize": 143895,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2013-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2013-feb",
+      "universityId": "nagoya",
+      "title": "2013年度 · 2013年2月7日実施 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2013年度 · 2013年2月7日",
+      "admissionYears": [
+        2013
+      ],
+      "examYear": 2013,
+      "examDates": [
+        "2013-02-07"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cfb47837f4943b38eefdd08602b628f732408aa102d9dae1837d3a2f374f8412.pdf",
+          "originalName": "exam-mc-2013-2_am.pdf",
+          "sha256": "cfb47837f4943b38eefdd08602b628f732408aa102d9dae1837d3a2f374f8412",
+          "byteSize": 125096,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2013-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e28fdf72668fe929d381abc6ee81cada1829fdb23515f33373376143156c01e8.pdf",
+          "originalName": "exam-mc-2013-2_pm.pdf",
+          "sha256": "e28fdf72668fe929d381abc6ee81cada1829fdb23515f33373376143156c01e8",
+          "byteSize": 123545,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2013-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面未印第2次募集或２次募集，按封面实施日与同年夏季场分开，不把文件名中的-2写成二次募集。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2014",
+      "universityId": "nagoya",
+      "title": "2014年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2014年度 · 2013年7月27日",
+      "admissionYears": [
+        2014
+      ],
+      "examYear": 2013,
+      "examDates": [
+        "2013-07-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/56944fbd30e930b77ac18b6c9d3f88554a3163e60c79d8cf65e7797a6c3832bb.pdf",
+          "originalName": "exam-mc-2014-1_am.pdf",
+          "sha256": "56944fbd30e930b77ac18b6c9d3f88554a3163e60c79d8cf65e7797a6c3832bb",
+          "byteSize": 140236,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2014-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7e805bd34f838488bda92e1b7d89a0cd2c41e862c8ad180b2f49cc6eff99d38e.pdf",
+          "originalName": "exam-mc-2014-1_pm.pdf",
+          "sha256": "7e805bd34f838488bda92e1b7d89a0cd2c41e862c8ad180b2f49cc6eff99d38e",
+          "byteSize": 142735,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2014-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2014-2",
+      "universityId": "nagoya",
+      "title": "2014年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2014年度 · 2014年2月6日",
+      "admissionYears": [
+        2014
+      ],
+      "examYear": 2014,
+      "examDates": [
+        "2014-02-06"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a9105ae8de780d4ce33780188435e453948eab2f943ad1350c5c95d1bd102bff.pdf",
+          "originalName": "exam-mc-2014-2_am.pdf",
+          "sha256": "a9105ae8de780d4ce33780188435e453948eab2f943ad1350c5c95d1bd102bff",
+          "byteSize": 129225,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2014-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3fad5fa9dee0dcefdf1eee43276a32b3ee310116feffb94ceffdfb8d2c502690.pdf",
+          "originalName": "exam-mc-2014-2_pm.pdf",
+          "sha256": "3fad5fa9dee0dcefdf1eee43276a32b3ee310116feffb94ceffdfb8d2c502690",
+          "byteSize": 136299,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2014-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2015",
+      "universityId": "nagoya",
+      "title": "2015年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2015年度 · 2014年7月26日",
+      "admissionYears": [
+        2015
+      ],
+      "examYear": 2014,
+      "examDates": [
+        "2014-07-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7073b8d659be96269bb23f1dca5987588071090354dbe62e47338b819caf5ce6.pdf",
+          "originalName": "exam-mc-2015-1_am.pdf",
+          "sha256": "7073b8d659be96269bb23f1dca5987588071090354dbe62e47338b819caf5ce6",
+          "byteSize": 113482,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2015-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7de955a6bbf94f8c4aedba5177c9f889a73ae7a87068c504506ec1a3095aa8d4.pdf",
+          "originalName": "exam-mc-2015-1_pm.pdf",
+          "sha256": "7de955a6bbf94f8c4aedba5177c9f889a73ae7a87068c504506ec1a3095aa8d4",
+          "byteSize": 128081,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2015-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2015-2",
+      "universityId": "nagoya",
+      "title": "2015年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2015年度 · 2015年2月5日",
+      "admissionYears": [
+        2015
+      ],
+      "examYear": 2015,
+      "examDates": [
+        "2015-02-05"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7514170d6bce0be60291acce99d6fac31bda6ed97a1b89e9940c313cf70b2b09.pdf",
+          "originalName": "exam-mc-2015-2_am.pdf",
+          "sha256": "7514170d6bce0be60291acce99d6fac31bda6ed97a1b89e9940c313cf70b2b09",
+          "byteSize": 128206,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2015-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3972ae977adaf5791611a13cd96d26f419377b5287f1994f85267cc2390a70f6.pdf",
+          "originalName": "exam-mc-2015-2_pm.pdf",
+          "sha256": "3972ae977adaf5791611a13cd96d26f419377b5287f1994f85267cc2390a70f6",
+          "byteSize": 133259,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2015-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2016",
+      "universityId": "nagoya",
+      "title": "2016年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2016年度 · 2015年7月25日",
+      "admissionYears": [
+        2016
+      ],
+      "examYear": 2015,
+      "examDates": [
+        "2015-07-25"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/584c8cfdfd1e82fa512435e759d543b86f84c7f5e79a3207bcf578e75157d06b.pdf",
+          "originalName": "exam-mc-2016-1_am.pdf",
+          "sha256": "584c8cfdfd1e82fa512435e759d543b86f84c7f5e79a3207bcf578e75157d06b",
+          "byteSize": 133508,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2016-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5ecef84d5e43ea954f0f7789000b4f4d7b68d3ebbb5524ba404851580095cfd5.pdf",
+          "originalName": "exam-mc-2016-1_pm.pdf",
+          "sha256": "5ecef84d5e43ea954f0f7789000b4f4d7b68d3ebbb5524ba404851580095cfd5",
+          "byteSize": 139172,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2016-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2016-2",
+      "universityId": "nagoya",
+      "title": "2016年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2016年度 · 2016年2月4日",
+      "admissionYears": [
+        2016
+      ],
+      "examYear": 2016,
+      "examDates": [
+        "2016-02-04"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1a09fde66b89e9bbd709b5c071b0404a7d29adac89709effb17c616002463a45.pdf",
+          "originalName": "exam-mc-2016-2_am.pdf",
+          "sha256": "1a09fde66b89e9bbd709b5c071b0404a7d29adac89709effb17c616002463a45",
+          "byteSize": 124538,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2016-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1c32f9dd3136e9562f09e956a29b10d464b7df04df981d1da7a6700b6e179338.pdf",
+          "originalName": "exam-mc-2016-2_pm.pdf",
+          "sha256": "1c32f9dd3136e9562f09e956a29b10d464b7df04df981d1da7a6700b6e179338",
+          "byteSize": 132117,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2016-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2017",
+      "universityId": "nagoya",
+      "title": "2017年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2017年度 · 2016年7月30日",
+      "admissionYears": [
+        2017
+      ],
+      "examYear": 2016,
+      "examDates": [
+        "2016-07-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/09dc817487389fc0e94493b1f7513b8e70d95abf2cbb89a4b4219cf33b90f099.pdf",
+          "originalName": "exam-mc-2017-1_am.pdf",
+          "sha256": "09dc817487389fc0e94493b1f7513b8e70d95abf2cbb89a4b4219cf33b90f099",
+          "byteSize": 128591,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2017-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7a6505227a377690355e4a7ff966c1c6bfbd832817828971a76e9d6b633afd10.pdf",
+          "originalName": "exam-mc-2017-1_pm.pdf",
+          "sha256": "7a6505227a377690355e4a7ff966c1c6bfbd832817828971a76e9d6b633afd10",
+          "byteSize": 130972,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2017-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2017-2",
+      "universityId": "nagoya",
+      "title": "2017年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2017年度 · 2017年2月7日",
+      "admissionYears": [
+        2017
+      ],
+      "examYear": 2017,
+      "examDates": [
+        "2017-02-07"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c22feb712692c60222e80c91aba7a455412254c23b2959bb5dab24859125638b.pdf",
+          "originalName": "exam-mc-2017-2_am.pdf",
+          "sha256": "c22feb712692c60222e80c91aba7a455412254c23b2959bb5dab24859125638b",
+          "byteSize": 133365,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2017-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/72416fcd14616cd3feb2f8f302721c5f06bb0b83f508b1e9f2f1b8aff2b53f5c.pdf",
+          "originalName": "exam-mc-2017-2_pm.pdf",
+          "sha256": "72416fcd14616cd3feb2f8f302721c5f06bb0b83f508b1e9f2f1b8aff2b53f5c",
+          "byteSize": 130784,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2017-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2018",
+      "universityId": "nagoya",
+      "title": "2018年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2018年度 · 2017年7月29日",
+      "admissionYears": [
+        2018
+      ],
+      "examYear": 2017,
+      "examDates": [
+        "2017-07-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4bf1deeef53d627c52ee156b5823a419763bed2a706b246295e54614fce83898.pdf",
+          "originalName": "exam-mc-2018-1_am.pdf",
+          "sha256": "4bf1deeef53d627c52ee156b5823a419763bed2a706b246295e54614fce83898",
+          "byteSize": 127371,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2018-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7b7acd23841780c7f425744dfa91ccfe9873b4d9d050ba311d69b206deea72b7.pdf",
+          "originalName": "exam-mc-2018-1_pm.pdf",
+          "sha256": "7b7acd23841780c7f425744dfa91ccfe9873b4d9d050ba311d69b206deea72b7",
+          "byteSize": 128518,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2018-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2018-2",
+      "universityId": "nagoya",
+      "title": "2018年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2018年度 · 2018年2月6日",
+      "admissionYears": [
+        2018
+      ],
+      "examYear": 2018,
+      "examDates": [
+        "2018-02-06"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/15e5b272065884939ac4d0d3ddcb8c5d7f2322538dff022ed7a1a1755a6cc97f.pdf",
+          "originalName": "exam-mc-2018-2_am.pdf",
+          "sha256": "15e5b272065884939ac4d0d3ddcb8c5d7f2322538dff022ed7a1a1755a6cc97f",
+          "byteSize": 126317,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2018-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/16575aad13c4705c800fdd1518a83c87ce4538b4c3a320d4ed0779efd0da8e22.pdf",
+          "originalName": "exam-mc-2018-2_pm.pdf",
+          "sha256": "16575aad13c4705c800fdd1518a83c87ce4538b4c3a320d4ed0779efd0da8e22",
+          "byteSize": 133843,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2018-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2019",
+      "universityId": "nagoya",
+      "title": "2019年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2019年度 · 2018年7月28日",
+      "admissionYears": [
+        2019
+      ],
+      "examYear": 2018,
+      "examDates": [
+        "2018-07-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/75c5c7fb181f3d0457b0bdfb668afcd277c200e65becc30f791fa63183b98563.pdf",
+          "originalName": "exam-mc-2019-1_am.pdf",
+          "sha256": "75c5c7fb181f3d0457b0bdfb668afcd277c200e65becc30f791fa63183b98563",
+          "byteSize": 137278,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2019-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/12f3f4a5c7a1d376f3ec1ccfb153341c5f7c28c40acb3364b0465ab76a85c647.pdf",
+          "originalName": "exam-mc-2019-1_pm.pdf",
+          "sha256": "12f3f4a5c7a1d376f3ec1ccfb153341c5f7c28c40acb3364b0465ab76a85c647",
+          "byteSize": 135365,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2019-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2019-feb",
+      "universityId": "nagoya",
+      "title": "2019年度 · 2019年2月6日実施 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2019年度 · 2019年2月6日",
+      "admissionYears": [
+        2019
+      ],
+      "examYear": 2019,
+      "examDates": [
+        "2019-02-06"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bcb187390dde6ac496455300afc1fe1172cf13c4b25bc828d062cc8992af4020.pdf",
+          "originalName": "exam-mc-2019-2_am.pdf",
+          "sha256": "bcb187390dde6ac496455300afc1fe1172cf13c4b25bc828d062cc8992af4020",
+          "byteSize": 109989,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2019-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d8699b957a1b689911abdd16b5ac09dde6890a430c3f4626008cd6a306b81e00.pdf",
+          "originalName": "exam-mc-2019-2_pm.pdf",
+          "sha256": "d8699b957a1b689911abdd16b5ac09dde6890a430c3f4626008cd6a306b81e00",
+          "byteSize": 125499,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2019-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面未印第2次募集或２次募集，按封面实施日与同年夏季场分开，不把文件名中的-2写成二次募集。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2020",
+      "universityId": "nagoya",
+      "title": "2020年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2020年度 · 2019年7月27日",
+      "admissionYears": [
+        2020
+      ],
+      "examYear": 2019,
+      "examDates": [
+        "2019-07-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/36f4222129b0d438723543a437dbb9a63cc79ebe32cf3acc7eb6cced4bdba370.pdf",
+          "originalName": "exam-mc-2020-1_am.pdf",
+          "sha256": "36f4222129b0d438723543a437dbb9a63cc79ebe32cf3acc7eb6cced4bdba370",
+          "byteSize": 127997,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2020-1_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/00cd6c7c66103f43ba482d6da8c18970d7493ae7ceb40140f1b5c8b129a65bf5.pdf",
+          "originalName": "exam-mc-2020-1_pm.pdf",
+          "sha256": "00cd6c7c66103f43ba482d6da8c18970d7493ae7ceb40140f1b5c8b129a65bf5",
+          "byteSize": 124065,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2020-1_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2020-2",
+      "universityId": "nagoya",
+      "title": "2020年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2020年度 · 2020年2月6日",
+      "admissionYears": [
+        2020
+      ],
+      "examYear": 2020,
+      "examDates": [
+        "2020-02-06"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "午前",
+        "午後"
+      ],
+      "files": [
+        {
+          "label": "午前",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1049928e75e59101e360568eb262e33b3097fcb85598eae6b85c5cfe6c4b2074.pdf",
+          "originalName": "exam-mc-2020-2_am.pdf",
+          "sha256": "1049928e75e59101e360568eb262e33b3097fcb85598eae6b85c5cfe6c4b2074",
+          "byteSize": 145557,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2020-2_am.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "午後",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dbb7ca178661e3029742685c186e5f2d68f83fc3cf2bfeff49958b0b762191b0.pdf",
+          "originalName": "exam-mc-2020-2_pm.pdf",
+          "sha256": "dbb7ca178661e3029742685c186e5f2d68f83fc3cf2bfeff49958b0b762191b0",
+          "byteSize": 150273,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2020-2_pm.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2021-2",
+      "universityId": "nagoya",
+      "title": "2021年度 · 第2次募集 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験（第2次募集）",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2021年度 · 2021年2月6日・7日",
+      "admissionYears": [
+        2021
+      ],
+      "examYear": 2021,
+      "examDates": [
+        "2021-02-06",
+        "2021-02-07"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9f7bf668568c718cdbb10be308464f1fc19caef62811d526404553c1070d118d.pdf",
+          "originalName": "exam-mc-2021-2_day1.pdf",
+          "sha256": "9f7bf668568c718cdbb10be308464f1fc19caef62811d526404553c1070d118d",
+          "byteSize": 129689,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2021-2_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b661e11786638e6570aa0d5085556d473593c945ce1f19bbcb7cd1901fbc3c57.pdf",
+          "originalName": "exam-mc-2021-2_day2.pdf",
+          "sha256": "b661e11786638e6570aa0d5085556d473593c945ce1f19bbcb7cd1901fbc3c57",
+          "byteSize": 149798,
+          "pages": 4,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2021-2_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面印有２次募集或第2次募集，与夏季场分开。本包没有2021年度夏季册。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2022",
+      "universityId": "nagoya",
+      "title": "2022年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度 · 2021年7月31日・2021年8月1日",
+      "admissionYears": [
+        2022
+      ],
+      "examYear": 2021,
+      "examDates": [
+        "2021-07-31",
+        "2021-08-01"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/61c80b0cd031ab507244e699168b788991a1517c576cc6bdf99f81a58767464b.pdf",
+          "originalName": "exam-mc-2022-1_day1.pdf",
+          "sha256": "61c80b0cd031ab507244e699168b788991a1517c576cc6bdf99f81a58767464b",
+          "byteSize": 149009,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2022-1_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3769a5bddbf50a3c2c90c4381cd62c9e2bc18c0c3b6afb1851a289e448cb5846.pdf",
+          "originalName": "exam-mc-2022-1_day2.pdf",
+          "sha256": "3769a5bddbf50a3c2c90c4381cd62c9e2bc18c0c3b6afb1851a289e448cb5846",
+          "byteSize": 149081,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2022-1_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2022-feb",
+      "universityId": "nagoya",
+      "title": "2022年度 · 2022年2月5日・6日実施 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度 · 2022年2月5日・6日",
+      "admissionYears": [
+        2022
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-02-05",
+        "2022-02-06"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3a03ccb7f4433465b98d5e3e9f883997e25d28677c5dcaa98694d1c0a3c3491b.pdf",
+          "originalName": "exam-mc-2022-2_day1.pdf",
+          "sha256": "3a03ccb7f4433465b98d5e3e9f883997e25d28677c5dcaa98694d1c0a3c3491b",
+          "byteSize": 128250,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2022-2_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/82f9884d184cb5a8134a82933818908c481795ca11aec030c63d4f5f7fd4a95e.pdf",
+          "originalName": "exam-mc-2022-2_day2.pdf",
+          "sha256": "82f9884d184cb5a8134a82933818908c481795ca11aec030c63d4f5f7fd4a95e",
+          "byteSize": 155046,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2022-2_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面未印第2次募集或２次募集，按封面实施日与同年夏季场分开，不把文件名中的-2写成二次募集。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2023",
+      "universityId": "nagoya",
+      "title": "2023年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度 · 2022年7月30日・31日",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2022,
+      "examDates": [
+        "2022-07-30",
+        "2022-07-31"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cebfc09317624527821473f1da7d0e231abb79cb1b58b08dd88d97931ef8ae43.pdf",
+          "originalName": "exam-mc-2023-1_day1.pdf",
+          "sha256": "cebfc09317624527821473f1da7d0e231abb79cb1b58b08dd88d97931ef8ae43",
+          "byteSize": 281899,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2023-1_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9a2f1d14b48694bb5ee387341c6d175b3e0fdff6b122f3272fe61287c0969de6.pdf",
+          "originalName": "exam-mc-2023-1_day2.pdf",
+          "sha256": "9a2f1d14b48694bb5ee387341c6d175b3e0fdff6b122f3272fe61287c0969de6",
+          "byteSize": 260746,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2023-1_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2023-feb",
+      "universityId": "nagoya",
+      "title": "2023年度 · 2023年2月4日・5日実施 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度 · 2023年2月4日・5日",
+      "admissionYears": [
+        2023
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-02-04",
+        "2023-02-05"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4322d9a76ffc98d50cc3dd88894b2526dce956bfeedeb3a8e93917633d718865.pdf",
+          "originalName": "exam-mc-2023-2_day1.pdf",
+          "sha256": "4322d9a76ffc98d50cc3dd88894b2526dce956bfeedeb3a8e93917633d718865",
+          "byteSize": 101199,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2023-2_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/09be73474aa383c1c981feb55f022d0055eb92804c6c8c0872bbd15a320eaa22.pdf",
+          "originalName": "exam-mc-2023-2_day2.pdf",
+          "sha256": "09be73474aa383c1c981feb55f022d0055eb92804c6c8c0872bbd15a320eaa22",
+          "byteSize": 143156,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2023-2_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面未印第2次募集或２次募集，按封面实施日与同年夏季场分开，不把文件名中的-2写成二次募集。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2024",
+      "universityId": "nagoya",
+      "title": "2024年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度 · 2023年7月29日・30日",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2023,
+      "examDates": [
+        "2023-07-29",
+        "2023-07-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/954341b02d1e3f191b2511ac6d18f9148e8aa64aecfb0ad02163e6db566bdaa5.pdf",
+          "originalName": "exam-mc-2024-1_day1.pdf",
+          "sha256": "954341b02d1e3f191b2511ac6d18f9148e8aa64aecfb0ad02163e6db566bdaa5",
+          "byteSize": 142200,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2024-1_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ea42dc6158b4e16a8db3eb9224c9c03497be4241d36a4a9d6317ae21f6f31f25.pdf",
+          "originalName": "exam-mc-2024-1_day2.pdf",
+          "sha256": "ea42dc6158b4e16a8db3eb9224c9c03497be4241d36a4a9d6317ae21f6f31f25",
+          "byteSize": 143355,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2024-1_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2024-feb",
+      "universityId": "nagoya",
+      "title": "2024年度 · 2024年2月3日・4日実施 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度 · 2024年2月3日・4日",
+      "admissionYears": [
+        2024
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-02-03",
+        "2024-02-04"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2b034f96f4d0ead43a0ea9d2790bee820f976c18926aa997ad20f0dad6ff1a0c.pdf",
+          "originalName": "exam-mc-2024-2_day1.pdf",
+          "sha256": "2b034f96f4d0ead43a0ea9d2790bee820f976c18926aa997ad20f0dad6ff1a0c",
+          "byteSize": 101454,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2024-2_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6ed3d3306e7d96a90c89119395638386873e762e4da4172af1f2f5a35de10362.pdf",
+          "originalName": "exam-mc-2024-2_day2.pdf",
+          "sha256": "6ed3d3306e7d96a90c89119395638386873e762e4da4172af1f2f5a35de10362",
+          "byteSize": 111011,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2024-2_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面未印第2次募集或２次募集，按封面实施日与同年夏季场分开，不把文件名中的-2写成二次募集。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度 · 2024年7月27日・28日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2024,
+      "examDates": [
+        "2024-07-27",
+        "2024-07-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3f0ccdc8afa9daf4fcd0a3f1d22f61e5cc4a2be7721648937d56d95c6e864659.pdf",
+          "originalName": "exam-mc-2025-1_day1.pdf",
+          "sha256": "3f0ccdc8afa9daf4fcd0a3f1d22f61e5cc4a2be7721648937d56d95c6e864659",
+          "byteSize": 114212,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2025-1_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/903c37234645e888382b05a34c4c9f648fb1793b5121e7e5353228bc64854e10.pdf",
+          "originalName": "exam-mc-2025-1_day2.pdf",
+          "sha256": "903c37234645e888382b05a34c4c9f648fb1793b5121e7e5353228bc64854e10",
+          "byteSize": 120621,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2025-1_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2025-feb",
+      "universityId": "nagoya",
+      "title": "2025年度 · 2025年2月1日・2日実施 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度 · 2025年2月1日・2日",
+      "admissionYears": [
+        2025
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-02-01",
+        "2025-02-02"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a850ef7c2a06140a668de7a0669d50173e287b4d18a5560c23c8d33e8bdab9bc.pdf",
+          "originalName": "exam-mc-2025-2_day1.pdf",
+          "sha256": "a850ef7c2a06140a668de7a0669d50173e287b4d18a5560c23c8d33e8bdab9bc",
+          "byteSize": 114347,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2025-2_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e8f6d2113ef52f0d904de51511da1734c7df535b871a60be40c198332e70509d.pdf",
+          "originalName": "exam-mc-2025-2_day2.pdf",
+          "sha256": "e8f6d2113ef52f0d904de51511da1734c7df535b871a60be40c198332e70509d",
+          "byteSize": 122107,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2025-2_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面未印第2次募集或２次募集，按封面实施日与同年夏季场分开，不把文件名中的-2写成二次募集。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2026",
+      "universityId": "nagoya",
+      "title": "2026年度 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度 · 2025年8月2日・3日",
+      "admissionYears": [
+        2026
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-02",
+        "2025-08-03"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/836f73ce90f24a2957989228918c2276ad9b8808ed883e8b9a50725dbaa03b73.pdf",
+          "originalName": "exam-mc-2026-1_day1.pdf",
+          "sha256": "836f73ce90f24a2957989228918c2276ad9b8808ed883e8b9a50725dbaa03b73",
+          "byteSize": 122243,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2026-1_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8a0e45a7f2ca7929858c6fe7e9ea07a27ebc03bd74e0ca43eabf6aa0af87d47b.pdf",
+          "originalName": "exam-mc-2026-1_day2.pdf",
+          "sha256": "8a0e45a7f2ca7929858c6fe7e9ea07a27ebc03bd74e0ca43eabf6aa0af87d47b",
+          "byteSize": 123970,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2026-1_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-tagen-2026-feb",
+      "universityId": "nagoya",
+      "title": "2026年度 · 2026年1月31日・2026年2月1日実施 · 多元数理科学専攻",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度 · 2026年1月31日・2026年2月1日",
+      "admissionYears": [
+        2026
+      ],
+      "examYear": 2026,
+      "examDates": [
+        "2026-01-31",
+        "2026-02-01"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "1日目",
+        "2日目"
+      ],
+      "files": [
+        {
+          "label": "1日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/22d8c40ae225b75c29ca90f1b0f407a0b7008439c9b53ec1fce16a75e7e2b7af.pdf",
+          "originalName": "exam-mc-2026-2_day1.pdf",
+          "sha256": "22d8c40ae225b75c29ca90f1b0f407a0b7008439c9b53ec1fce16a75e7e2b7af",
+          "byteSize": 116629,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2026-2_day1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "2日目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e3a6dbdfb54631e1a5350c51c0678fe1b08d2a3775d6363d1b440bb035ddf753.pdf",
+          "originalName": "exam-mc-2026-2_day2.pdf",
+          "sha256": "e3a6dbdfb54631e1a5350c51c0678fe1b08d2a3775d6363d1b440bb035ddf753",
+          "byteSize": 117049,
+          "pages": 5,
+          "sourcePaths": [
+            "名古屋大学/理学/多元数理/exam-mc-2026-2_day2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面以西历年度起首。paperYear按该入学年度，examYear与examDates只用封面上的实施日，不把文件名exam-mc当年度。入学年度按封面年度写入admissionYears。封面印多元数理科学研究科，未另印専攻名；专攻栏记多元数理科学専攻。选拔名称为封面用语。封面未印第2次募集或２次募集，按封面实施日与同年夏季场分开，不把文件名中的-2写成二次募集。第1页是封面，设问从第2页打开。同一场的分册合成一组。未随卷提供解答。"
+    },
+    {
+      "id": "nagoya-spphys-2007",
+      "universityId": "nagoya",
+      "title": "2007年8月28日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2007,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2007年8月28日",
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd.pdf",
+          "originalName": "2007.pdf",
+          "sha256": "52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd",
+          "byteSize": 378040,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2007.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2007",
+      "universityId": "nagoya",
+      "title": "2007年8月28日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2007,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2007年8月28日",
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd.pdf",
+          "originalName": "2007.pdf",
+          "sha256": "52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd",
+          "byteSize": 378040,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2007.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2007",
+      "universityId": "nagoya",
+      "title": "2007年8月28日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2007,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2007年8月28日",
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd.pdf",
+          "originalName": "2007.pdf",
+          "sha256": "52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd",
+          "byteSize": 378040,
+          "pages": 15,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2007.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2008",
+      "universityId": "nagoya",
+      "title": "2008年8月26日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2008,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2008年8月26日",
+      "examYear": 2008,
+      "examDates": [
+        "2008-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b.pdf",
+          "originalName": "2008.pdf",
+          "sha256": "664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b",
+          "byteSize": 1027010,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2008.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2008",
+      "universityId": "nagoya",
+      "title": "2008年8月26日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2008,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2008年8月26日",
+      "examYear": 2008,
+      "examDates": [
+        "2008-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b.pdf",
+          "originalName": "2008.pdf",
+          "sha256": "664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b",
+          "byteSize": 1027010,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2008.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2008",
+      "universityId": "nagoya",
+      "title": "2008年8月26日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2008,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2008年8月26日",
+      "examYear": 2008,
+      "examDates": [
+        "2008-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b.pdf",
+          "originalName": "2008.pdf",
+          "sha256": "664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b",
+          "byteSize": 1027010,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2008.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2009",
+      "universityId": "nagoya",
+      "title": "2009年8月27日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2009,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2009年8月27日",
+      "examYear": 2009,
+      "examDates": [
+        "2009-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c.pdf",
+          "originalName": "2009.pdf",
+          "sha256": "0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c",
+          "byteSize": 500335,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2009.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2009",
+      "universityId": "nagoya",
+      "title": "2009年8月27日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2009,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2009年8月27日",
+      "examYear": 2009,
+      "examDates": [
+        "2009-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c.pdf",
+          "originalName": "2009.pdf",
+          "sha256": "0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c",
+          "byteSize": 500335,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2009.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2009",
+      "universityId": "nagoya",
+      "title": "2009年8月27日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2009,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2009年8月27日",
+      "examYear": 2009,
+      "examDates": [
+        "2009-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c.pdf",
+          "originalName": "2009.pdf",
+          "sha256": "0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c",
+          "byteSize": 500335,
+          "pages": 13,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2009.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2010",
+      "universityId": "nagoya",
+      "title": "2010年8月26日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2010,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2010年8月26日",
+      "examYear": 2010,
+      "examDates": [
+        "2010-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0.pdf",
+          "originalName": "2010.pdf",
+          "sha256": "2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0",
+          "byteSize": 565152,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2010.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2010",
+      "universityId": "nagoya",
+      "title": "2010年8月26日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2010,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2010年8月26日",
+      "examYear": 2010,
+      "examDates": [
+        "2010-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0.pdf",
+          "originalName": "2010.pdf",
+          "sha256": "2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0",
+          "byteSize": 565152,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2010.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2010",
+      "universityId": "nagoya",
+      "title": "2010年8月26日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2010,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2010年8月26日",
+      "examYear": 2010,
+      "examDates": [
+        "2010-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0.pdf",
+          "originalName": "2010.pdf",
+          "sha256": "2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0",
+          "byteSize": 565152,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2010.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2011",
+      "universityId": "nagoya",
+      "title": "2011年8月24日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2011,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2011年8月24日",
+      "examYear": 2011,
+      "examDates": [
+        "2011-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d.pdf",
+          "originalName": "2011.pdf",
+          "sha256": "d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d",
+          "byteSize": 353127,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2011.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2011",
+      "universityId": "nagoya",
+      "title": "2011年8月24日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2011,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2011年8月24日",
+      "examYear": 2011,
+      "examDates": [
+        "2011-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d.pdf",
+          "originalName": "2011.pdf",
+          "sha256": "d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d",
+          "byteSize": 353127,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2011.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2011",
+      "universityId": "nagoya",
+      "title": "2011年8月24日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2011,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2011年8月24日",
+      "examYear": 2011,
+      "examDates": [
+        "2011-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d.pdf",
+          "originalName": "2011.pdf",
+          "sha256": "d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d",
+          "byteSize": 353127,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2011.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2012",
+      "universityId": "nagoya",
+      "title": "2012年8月29日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2012,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2012年8月29日",
+      "examYear": 2012,
+      "examDates": [
+        "2012-08-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a.pdf",
+          "originalName": "2012.pdf",
+          "sha256": "48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a",
+          "byteSize": 204641,
+          "pages": 9,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2012.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2012",
+      "universityId": "nagoya",
+      "title": "2012年8月29日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2012,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2012年8月29日",
+      "examYear": 2012,
+      "examDates": [
+        "2012-08-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a.pdf",
+          "originalName": "2012.pdf",
+          "sha256": "48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a",
+          "byteSize": 204641,
+          "pages": 9,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2012.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2012",
+      "universityId": "nagoya",
+      "title": "2012年8月29日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2012,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2012年8月29日",
+      "examYear": 2012,
+      "examDates": [
+        "2012-08-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a.pdf",
+          "originalName": "2012.pdf",
+          "sha256": "48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a",
+          "byteSize": 204641,
+          "pages": 9,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2012.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2013",
+      "universityId": "nagoya",
+      "title": "2013年8月28日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2013,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2013年8月28日",
+      "examYear": 2013,
+      "examDates": [
+        "2013-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b.pdf",
+          "originalName": "2013.pdf",
+          "sha256": "c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b",
+          "byteSize": 1259264,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2013.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2013",
+      "universityId": "nagoya",
+      "title": "2013年8月28日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2013,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2013年8月28日",
+      "examYear": 2013,
+      "examDates": [
+        "2013-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b.pdf",
+          "originalName": "2013.pdf",
+          "sha256": "c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b",
+          "byteSize": 1259264,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2013.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2013",
+      "universityId": "nagoya",
+      "title": "2013年8月28日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2013,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2013年8月28日",
+      "examYear": 2013,
+      "examDates": [
+        "2013-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b.pdf",
+          "originalName": "2013.pdf",
+          "sha256": "c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b",
+          "byteSize": 1259264,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2013.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2014",
+      "universityId": "nagoya",
+      "title": "2014年8月27日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2014,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2014年8月27日",
+      "examYear": 2014,
+      "examDates": [
+        "2014-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef.pdf",
+          "originalName": "2014.pdf",
+          "sha256": "0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef",
+          "byteSize": 656599,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2014.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2014",
+      "universityId": "nagoya",
+      "title": "2014年8月27日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2014,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2014年8月27日",
+      "examYear": 2014,
+      "examDates": [
+        "2014-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef.pdf",
+          "originalName": "2014.pdf",
+          "sha256": "0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef",
+          "byteSize": 656599,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2014.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2014",
+      "universityId": "nagoya",
+      "title": "2014年8月27日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2014,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2014年8月27日",
+      "examYear": 2014,
+      "examDates": [
+        "2014-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef.pdf",
+          "originalName": "2014.pdf",
+          "sha256": "0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef",
+          "byteSize": 656599,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2014.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2015",
+      "universityId": "nagoya",
+      "title": "2015年8月26日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2015,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2015年8月26日",
+      "examYear": 2015,
+      "examDates": [
+        "2015-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab.pdf",
+          "originalName": "2015.pdf",
+          "sha256": "54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab",
+          "byteSize": 213019,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2015.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2015",
+      "universityId": "nagoya",
+      "title": "2015年8月26日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2015,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2015年8月26日",
+      "examYear": 2015,
+      "examDates": [
+        "2015-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab.pdf",
+          "originalName": "2015.pdf",
+          "sha256": "54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab",
+          "byteSize": 213019,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2015.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2015",
+      "universityId": "nagoya",
+      "title": "2015年8月26日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2015,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2015年8月26日",
+      "examYear": 2015,
+      "examDates": [
+        "2015-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab.pdf",
+          "originalName": "2015.pdf",
+          "sha256": "54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab",
+          "byteSize": 213019,
+          "pages": 8,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2015.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2016",
+      "universityId": "nagoya",
+      "title": "2016年8月24日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2016,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2016年8月24日",
+      "examYear": 2016,
+      "examDates": [
+        "2016-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f.pdf",
+          "originalName": "2016.pdf",
+          "sha256": "5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f",
+          "byteSize": 406884,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2016.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2016",
+      "universityId": "nagoya",
+      "title": "2016年8月24日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2016,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2016年8月24日",
+      "examYear": 2016,
+      "examDates": [
+        "2016-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f.pdf",
+          "originalName": "2016.pdf",
+          "sha256": "5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f",
+          "byteSize": 406884,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2016.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2016",
+      "universityId": "nagoya",
+      "title": "2016年8月24日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2016,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2016年8月24日",
+      "examYear": 2016,
+      "examDates": [
+        "2016-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f.pdf",
+          "originalName": "2016.pdf",
+          "sha256": "5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f",
+          "byteSize": 406884,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2016.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2017",
+      "universityId": "nagoya",
+      "title": "2017年8月23日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2017,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2017年8月23日",
+      "examYear": 2017,
+      "examDates": [
+        "2017-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc.pdf",
+          "originalName": "2017.pdf",
+          "sha256": "239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc",
+          "byteSize": 283096,
+          "pages": 12,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2017.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2017",
+      "universityId": "nagoya",
+      "title": "2017年8月23日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2017,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2017年8月23日",
+      "examYear": 2017,
+      "examDates": [
+        "2017-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc.pdf",
+          "originalName": "2017.pdf",
+          "sha256": "239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc",
+          "byteSize": 283096,
+          "pages": 12,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2017.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2017",
+      "universityId": "nagoya",
+      "title": "2017年8月23日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士課程（前期課程）入学試験",
+      "paperYear": 2017,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2017年8月23日",
+      "examYear": 2017,
+      "examDates": [
+        "2017-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc.pdf",
+          "originalName": "2017.pdf",
+          "sha256": "239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc",
+          "byteSize": 283096,
+          "pages": 12,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2017.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士課程（前期課程），并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2018",
+      "universityId": "nagoya",
+      "title": "2018年8月22日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2018,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2018年8月22日",
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-22"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c.pdf",
+          "originalName": "2018.pdf",
+          "sha256": "5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c",
+          "byteSize": 226355,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2018.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程，并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2018",
+      "universityId": "nagoya",
+      "title": "2018年8月22日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2018,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2018年8月22日",
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-22"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c.pdf",
+          "originalName": "2018.pdf",
+          "sha256": "5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c",
+          "byteSize": 226355,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2018.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程，并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2018",
+      "universityId": "nagoya",
+      "title": "2018年8月22日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2018,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2018年8月22日",
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-22"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c.pdf",
+          "originalName": "2018.pdf",
+          "sha256": "5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c",
+          "byteSize": 226355,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2018.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程，并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spphys-2019",
+      "universityId": "nagoya",
+      "title": "2019年8月21日実施 · 素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（素粒子宇宙物理系）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2019年8月21日",
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146.pdf",
+          "originalName": "2019.pdf",
+          "sha256": "122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146",
+          "byteSize": 251752,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2019.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程，并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-spgeo-2019",
+      "universityId": "nagoya",
+      "title": "2019年8月21日実施 · 素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "素粒子宇宙物理学専攻（宇宙地球物理系）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2019年8月21日",
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146.pdf",
+          "originalName": "2019.pdf",
+          "sha256": "122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146",
+          "byteSize": 251752,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2019.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程，并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-matphys-2019",
+      "universityId": "nagoya",
+      "title": "2019年8月21日実施 · 物質理学専攻（物理系）",
+      "graduateSchool": "理学研究科",
+      "department": "物質理学専攻（物理系）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2019年8月21日",
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146.pdf",
+          "originalName": "2019.pdf",
+          "sha256": "122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146",
+          "byteSize": 251752,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2019.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程，并列素粒子宇宙物理学専攻（素粒子宇宙物理系）、素粒子宇宙物理学専攻（宇宙地球物理系）、物質理学専攻（物理系）。三専攻共用这一册，各设入口。科目为物理学【I】【II】。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-physci-2021",
+      "universityId": "nagoya",
+      "title": "2021年9月24日実施 · 理学専攻（物理科学領域）",
+      "graduateSchool": "理学研究科",
+      "department": "理学専攻（物理科学領域）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2021年9月24日",
+      "examYear": 2021,
+      "examDates": [
+        "2021-09-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/edd0e70cfac0ff4f79b6ab3fb28c0b339ccd5377ce62403c474c53c9c831f60f.pdf",
+          "originalName": "2021.pdf",
+          "sha256": "edd0e70cfac0ff4f79b6ab3fb28c0b339ccd5377ce62403c474c53c9c831f60f",
+          "byteSize": 196702,
+          "pages": 12,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2021.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程、理学専攻 物理科学領域。专攻栏用封面的専攻与領域。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-physci-2022",
+      "universityId": "nagoya",
+      "title": "2022年8月24日実施 · 理学専攻（物理科学領域）",
+      "graduateSchool": "理学研究科",
+      "department": "理学専攻（物理科学領域）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2022年8月24日",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5040407b1d7aa468435180987b27fe94f8c1d0e2f8a52aabcf18acca5c7c0797.pdf",
+          "originalName": "2022.pdf",
+          "sha256": "5040407b1d7aa468435180987b27fe94f8c1d0e2f8a52aabcf18acca5c7c0797",
+          "byteSize": 200355,
+          "pages": 11,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2022.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程、理学専攻 物理科学領域。专攻栏用封面的専攻与領域。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第1页是考试注意，设问从第2页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-physci-2023",
+      "universityId": "nagoya",
+      "title": "2023年8月23日実施 · 理学専攻（物理科学領域）",
+      "graduateSchool": "理学研究科",
+      "department": "理学専攻（物理科学領域）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2023年8月23日",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c55a55e760f9253a1bcef8f901186bf1ef5c14ceff54d33418025de2e6058539.pdf",
+          "originalName": "2023.pdf",
+          "sha256": "c55a55e760f9253a1bcef8f901186bf1ef5c14ceff54d33418025de2e6058539",
+          "byteSize": 540401,
+          "pages": 14,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2023.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程、理学専攻 物理科学領域。专攻栏用封面的専攻与領域。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第2页为空白，设问从第3页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-physci-2024",
+      "universityId": "nagoya",
+      "title": "2024年8月22日実施 · 理学専攻（物理科学領域）",
+      "graduateSchool": "理学研究科",
+      "department": "理学専攻（物理科学領域）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2024年8月22日",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-22"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4382f74d5bc19974d8ff640a8305d3237e8a125ce80b81449cfe0f6c9c7e598c.pdf",
+          "originalName": "2024.pdf",
+          "sha256": "4382f74d5bc19974d8ff640a8305d3237e8a125ce80b81449cfe0f6c9c7e598c",
+          "byteSize": 221894,
+          "pages": 12,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2024.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程、理学専攻 物理科学領域。专攻栏用封面的専攻与領域。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第2页为空白，设问从第3页打开。本包没有这一年的随卷解答。"
+    },
+    {
+      "id": "nagoya-physci-2025",
+      "universityId": "nagoya",
+      "title": "2025年8月20日実施 · 理学専攻（物理科学領域）",
+      "graduateSchool": "理学研究科",
+      "department": "理学専攻（物理科学領域）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2025年8月20日",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-20"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理学【I】",
+        "物理学【II】",
+        "外国語"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/46a569dfe2db56fe6679692227a2e4099e3d2de42edaddd301c02caea0250b77.pdf",
+          "originalName": "2025_test.pdf",
+          "sha256": "46a569dfe2db56fe6679692227a2e4099e3d2de42edaddd301c02caea0250b77",
+          "byteSize": 310939,
+          "pages": 18,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2025_test.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "出題の意図・解答例",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/e6a6892d08605d1104bcbdb97203814fc3ae251b63ebe955bbe1a3d92f71741d.pdf",
+          "originalName": "2025_answer.pdf",
+          "sha256": "e6a6892d08605d1104bcbdb97203814fc3ae251b63ebe955bbe1a3d92f71741d",
+          "byteSize": 562705,
+          "pages": 10,
+          "sourcePaths": [
+            "名古屋大学/理学/物理科学/2025_answer.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。扫描页字节未改。封面为大学院入試問題，名古屋大学大学院理学研究科博士前期課程、理学専攻 物理科学領域。专攻栏用封面的専攻与領域。问题册含外国語。封面只印实施日，不印入学年度。paperYear与examYear按实施年，不写admissionYears，也不把文件名当年度。第2页为空白，设问从第3页打开。解答册封面印２０２６年度、領域名物理科学領域、試験科目名物理学・外国語、実施日２０２５年８月２０日。问题册只印实施日、未印２０２６年度，故paperYear仍按实施年2025，不把解答册的年度写成入学年。"
+    },
+    {
+      "id": "nagoya-civil-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 土木工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "土木工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "小論文",
+        "応用数学",
+        "構造・材料工学",
+        "地盤工学",
+        "水工学",
+        "計画学",
+        "環境工学",
+        "社会基盤開発・環境管理",
+        "材料工学",
+        "維持管理工学",
+        "振動工学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040.pdf",
+          "originalName": "17.pdf",
+          "sha256": "777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040",
+          "byteSize": 1359220,
+          "pages": 35,
+          "sourcePaths": [
+            "名古屋大学/工学/土木/17.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度名古屋大学大学院博士前期課程入学試験問題，并列工学研究科土木工学専攻，以及環境学研究科都市環境学専攻 持続発展学コース（第Ⅰ期 一般B(土木工学)）。两専攻各设入口，同一PDF。paperYear按令和年度（令和7＝2025），封面未印公历日，不写examYear、不写examDates。文件名17不作为实施日。基礎部門为小論文与応用数学，4问中选3。第2页空白，设问从第3页打开。専門部門A为構造・材料工学、地盤工学、水工学、計画学、環境工学，11问中选5，且一科至多2问。専門部門B封面只印土木工学専攻，社会基盤開発・環境管理、材料工学、維持管理工学、振動工学5问全答。册后部含出題意図，不另拆文件。末页口頭試問印「令和6年度実施」，不把口頭試問当成笔试日期。"
+    },
+    {
+      "id": "nagoya-civil-2026",
+      "universityId": "nagoya",
+      "title": "2026年度 · 土木工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "土木工学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和8年度",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "小論文",
+        "応用数学",
+        "構造・材料工学",
+        "地盤工学",
+        "水工学",
+        "計画学",
+        "環境工学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f.pdf",
+          "originalName": "R7実施_MC一般筆記_問題.pdf",
+          "sha256": "6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f",
+          "byteSize": 1857672,
+          "pages": 27,
+          "sourcePaths": [
+            "名古屋大学/工学/土木/R7実施_MC一般筆記_問題.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "出題の意図・解答例",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8.pdf",
+          "originalName": "R7実施_MC一般筆記_出題意図・解答例.pdf",
+          "sha256": "9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8",
+          "byteSize": 826311,
+          "pages": 9,
+          "sourcePaths": [
+            "名古屋大学/工学/土木/R7実施_MC一般筆記_出題意図・解答例.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和8年度名古屋大学大学院博士前期課程入学試験問題，并列工学研究科土木工学専攻，以及環境学研究科都市環境学専攻 持続発展学コース（第Ⅰ期 一般B(土木工学)）。两専攻各设入口。paperYear按令和年度（令和8＝2026），封面未印公历日，不写examYear、不写examDates。文件名R7実施不作为实施年。基礎部門为小論文与応用数学，4问中选3，设问从第2页打开。専門部門A为構造・材料工学、地盤工学、水工学、計画学、環境工学，11问中选5，且一科至多2问。本册未见専門部門B。末页口頭試問印「令和7年度実施」，不把口頭試問当成笔试日期。解答例未印年度，与本题册同目录，科目对应基礎部門与専門部門A，故附在本组。"
+    },
+    {
+      "id": "nagoya-urbanenv-2025",
+      "universityId": "nagoya",
+      "title": "2025年度 · 都市環境学専攻",
+      "graduateSchool": "環境学研究科",
+      "department": "都市環境学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "小論文",
+        "応用数学",
+        "構造・材料工学",
+        "地盤工学",
+        "水工学",
+        "計画学",
+        "環境工学",
+        "社会基盤開発・環境管理",
+        "材料工学",
+        "維持管理工学",
+        "振動工学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040.pdf",
+          "originalName": "17.pdf",
+          "sha256": "777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040",
+          "byteSize": 1359220,
+          "pages": 35,
+          "sourcePaths": [
+            "名古屋大学/工学/土木/17.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和7年度名古屋大学大学院博士前期課程入学試験問題，并列工学研究科土木工学専攻，以及環境学研究科都市環境学専攻 持続発展学コース（第Ⅰ期 一般B(土木工学)）。两専攻各设入口，同一PDF。paperYear按令和年度（令和7＝2025），封面未印公历日，不写examYear、不写examDates。文件名17不作为实施日。基礎部門为小論文与応用数学，4问中选3。第2页空白，设问从第3页打开。専門部門A为構造・材料工学、地盤工学、水工学、計画学、環境工学，11问中选5，且一科至多2问。専門部門B封面只印土木工学専攻，社会基盤開発・環境管理、材料工学、維持管理工学、振動工学5问全答。册后部含出題意図，不另拆文件。末页口頭試問印「令和6年度実施」，不把口頭試問当成笔试日期。専門部門B封面未列都市環境学専攻，全册仍保留。"
+    },
+    {
+      "id": "nagoya-urbanenv-2026",
+      "universityId": "nagoya",
+      "title": "2026年度 · 都市環境学専攻",
+      "graduateSchool": "環境学研究科",
+      "department": "都市環境学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和8年度",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "小論文",
+        "応用数学",
+        "構造・材料工学",
+        "地盤工学",
+        "水工学",
+        "計画学",
+        "環境工学"
+      ],
+      "files": [
+        {
+          "label": "基礎・専門",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f.pdf",
+          "originalName": "R7実施_MC一般筆記_問題.pdf",
+          "sha256": "6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f",
+          "byteSize": 1857672,
+          "pages": 27,
+          "sourcePaths": [
+            "名古屋大学/工学/土木/R7実施_MC一般筆記_問題.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "出題の意図・解答例",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8.pdf",
+          "originalName": "R7実施_MC一般筆記_出題意図・解答例.pdf",
+          "sha256": "9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8",
+          "byteSize": 826311,
+          "pages": 9,
+          "sourcePaths": [
+            "名古屋大学/工学/土木/R7実施_MC一般筆記_出題意図・解答例.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／名古屋大学”原件，完整PDF字节保持。封面为令和8年度名古屋大学大学院博士前期課程入学試験問題，并列工学研究科土木工学専攻，以及環境学研究科都市環境学専攻 持続発展学コース（第Ⅰ期 一般B(土木工学)）。两専攻各设入口。paperYear按令和年度（令和8＝2026），封面未印公历日，不写examYear、不写examDates。文件名R7実施不作为实施年。基礎部門为小論文与応用数学，4问中选3，设问从第2页打开。専門部門A为構造・材料工学、地盤工学、水工学、計画学、環境工学，11问中选5，且一科至多2问。本册未见専門部門B。末页口頭試問印「令和7年度実施」，不把口頭試問当成笔试日期。解答例未印年度，与本题册同目录，科目对应基礎部門与専門部門A，故附在本组。令和8年度册的基礎与専門部門A封面列有本コース。"
     },
     {
       "id": "osaka-ee-basic-2022",
@@ -19193,7 +23814,7 @@
       "text": "本校20组／38个问题PDF，按2020—2024年8月实施日索引，无随卷解答。封面为情報理工学研究科博士前期課程一般入試，只印实施日期，不印入学年度，故不推定次年4月入学。情報学、情報・ネットワーク工学每年必須与選択各一册；機械知能2020—2021年数学与物理同册，2022年起分册，另有選択；基盤理工学只有選択群11科目。24.8云盘里情报学与情报网络工学文件夹和文件名代号相反，已按封面归类并保留原路径。各PDF第2页为空白扫描页，设问从第3页打开。2024年机械物理学保留問題訂正页。不声明其他年度或全校齐全。"
     },
     "nagoya": {
-      "text": "本校52组／40个有年度PDF，另2个未印年份的能源册不编入年度目录。云盘182个PDF中纳入57个，去重后42个唯一PDF、614页，重复副本15个。情報学研究科按封面令和年度索引，实施日另列。工学机械航空、应用物理／物质科学与能源按封面实施年，不把文件名R8写成入学年。电气／电子／情报通信、机械三専攻、材料两専攻（不含化学系统）、能源两専攻、R8应用物理与物质科学共用原册，各设入口。排除理学多元数理、物理科学、化学系统专属目录和土木。社会人、SGU、博士后期专属卷未出现。不声明其他年度或全校齐全。",
+      "text": "本校153组／163个有年度PDF，另2个未印年份的能源册不编入年度目录。云盘182个PDF已全部纳入，去重后165个唯一PDF、1419页，重复副本17个。2026-10-18补录原先排除的多元数理、物理科学、土木和化学系统，新增101组、123个唯一PDF、805页。化学系统08.pdf、08f.pdf与材料册06.pdf、06f.pdf同字节，只增化学システム工学専攻的一般与外国人入口，不另存PDF。情報学研究科按封面令和年度索引，实施日另列。多元数理按封面西历年度，实施日另列；封面未印二次募集的2月场不按文件名写成二次。物理科学问题册只印实施日，paperYear按实施年；2025解答册另印2026年度，不改成入学年。土木按封面令和年度，未印公历日就不写examDates，文件名R7和末页口頭試問不作为笔试日期。工学机械航空、应用物理／物质科学与能源按封面实施年。电气／电子／情报通信、机械三専攻、材料两専攻与化学システム、能源两専攻、应用物理与物质科学、物理科学旧三専攻、土木与都市環境共用原册，各设入口。社会人、SGU、博士后期专属卷未出现。不声明其他年度或全校齐全。",
       "supplements": [
         {
           "label": "エネルギー基礎（未印年度）",
