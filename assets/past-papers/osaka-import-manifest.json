@@ -2,14 +2,14 @@
   "importedAt": "2026-10-15",
   "universityId": "osaka",
   "sourceFolder": "Google Drive／过去问／大阪大学",
-  "sourceFiles": 96,
-  "uniquePDFs": 95,
+  "sourceFiles": 228,
+  "uniquePDFs": 227,
   "duplicateByteCopies": 1,
-  "groups": 57,
-  "questionPDFs": 94,
+  "groups": 154,
+  "questionPDFs": 226,
   "otherPDFs": 1,
-  "totalPages": 720,
-  "coverageNote": "大阪大学新增57组／95个PDF（94个问题原卷、1个科目参考书说明），无随卷解答。电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。年度按卷面入学年度，知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。基礎工学按考试科目分组，不把科目当专攻；乱码原名、封面和原页均保留。不声明全校、所有年度或缺少的科目齐全。",
+  "totalPages": 1539,
+  "coverageNote": "本校154组／227个PDF、1539页，无随卷解答。2026-10-15已上线的57组／95个PDF、720页保持不变：电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。2026-10-18补录原先排除的理学数学、理学物理、基础工学数理科学、物性物理科学和情报基础数学，新增97组、132个唯一PDF、819页。理学数学按封面入学年度，8月的数学問題A／B合成一组；封面印「第2次募集」的2022、2023另组；其余11月或2月场封面未印二次，不按文件名写成二次募集。本目录没有2021年度数学册。理学物理封面只印实施年月，paperYear用入学年度（8月或9月实施对应次年4月入学），2012—2021各页未印日期，不补实施日。数理科学与物性物理科学按封面入学年度，科目名加「専門科目」，不虚构专攻。情報基礎数学専攻2005—2025按封面平成／令和年度。環境工学コース小論文5份和口述試問サンプル不建真题入口。年度按卷面入学年度。基礎工学既有科目仍按「専門科目」分组。不声明全校或所有年份齐全。",
   "files": [
     {
       "path": "assets/past-papers/documents/fb422705a21013b5afdd930b9b8f81ddf3492740bd7cad1c00654d1c8a2046c8.pdf",
@@ -1151,15 +1151,1605 @@
       ],
       "kind": "question",
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a.pdf",
+      "originalName": "mondaiA03.pdf",
+      "sha256": "1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a",
+      "byteSize": 52523,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/mondaiA03.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312.pdf",
+      "originalName": "mondaiB03.pdf",
+      "sha256": "5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312",
+      "byteSize": 50260,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/mondaiB03.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9.pdf",
+      "originalName": "mondaiA05.pdf",
+      "sha256": "dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9",
+      "byteSize": 89372,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/mondaiA05.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401.pdf",
+      "originalName": "mondaiB05.pdf",
+      "sha256": "f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401",
+      "byteSize": 109637,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/mondaiB05.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2.pdf",
+      "originalName": "H17MathA.pdf",
+      "sha256": "940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2",
+      "byteSize": 403673,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/H17MathA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173.pdf",
+      "originalName": "H17MathB.pdf",
+      "sha256": "20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173",
+      "byteSize": 677945,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/H17MathB.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac.pdf",
+      "originalName": "H18mathA.pdf",
+      "sha256": "ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac",
+      "byteSize": 73583,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/H18mathA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb.pdf",
+      "originalName": "H18mathB.pdf",
+      "sha256": "65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb",
+      "byteSize": 54533,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/H18mathB.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45.pdf",
+      "originalName": "H19mathA.pdf",
+      "sha256": "cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45",
+      "byteSize": 28662,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/H19mathA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748.pdf",
+      "originalName": "H19mathB.pdf",
+      "sha256": "cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748",
+      "byteSize": 24382,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/H19mathB.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7.pdf",
+      "originalName": "matha-08.pdf",
+      "sha256": "456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7",
+      "byteSize": 37032,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/matha-08.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540.pdf",
+      "originalName": "mathb-08.pdf",
+      "sha256": "a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540",
+      "byteSize": 32423,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/mathb-08.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde.pdf",
+      "originalName": "A1.pdf",
+      "sha256": "a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde",
+      "byteSize": 33912,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/A1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4.pdf",
+      "originalName": "B1.pdf",
+      "sha256": "878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4",
+      "byteSize": 31999,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/B1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23.pdf",
+      "originalName": "A.pdf",
+      "sha256": "c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23",
+      "byteSize": 34778,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6.pdf",
+      "originalName": "B.pdf",
+      "sha256": "e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6",
+      "byteSize": 29059,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297.pdf",
+      "originalName": "2011A.pdf",
+      "sha256": "ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297",
+      "byteSize": 29040,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2011A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a.pdf",
+      "originalName": "2011B.pdf",
+      "sha256": "bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a",
+      "byteSize": 30587,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2011B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216.pdf",
+      "originalName": "2012A.pdf",
+      "sha256": "48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216",
+      "byteSize": 31151,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2012A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558.pdf",
+      "originalName": "2012B.pdf",
+      "sha256": "67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558",
+      "byteSize": 33887,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2012B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe.pdf",
+      "originalName": "2013A.pdf",
+      "sha256": "c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe",
+      "byteSize": 64912,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2013A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136.pdf",
+      "originalName": "2013B.pdf",
+      "sha256": "973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136",
+      "byteSize": 45307,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2013B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec.pdf",
+      "originalName": "2014A.pdf",
+      "sha256": "57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec",
+      "byteSize": 65089,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2014A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c.pdf",
+      "originalName": "2014B.pdf",
+      "sha256": "0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c",
+      "byteSize": 58899,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2014B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040.pdf",
+      "originalName": "2015A.pdf",
+      "sha256": "384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040",
+      "byteSize": 24964,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2015A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27.pdf",
+      "originalName": "2015B.pdf",
+      "sha256": "a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27",
+      "byteSize": 24538,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2015B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033.pdf",
+      "originalName": "2016A.pdf",
+      "sha256": "902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033",
+      "byteSize": 77922,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2016A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26.pdf",
+      "originalName": "2016B.pdf",
+      "sha256": "448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26",
+      "byteSize": 95269,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2016B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0.pdf",
+      "originalName": "2017A.pdf",
+      "sha256": "fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0",
+      "byteSize": 21684,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2017A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632.pdf",
+      "originalName": "2017B.pdf",
+      "sha256": "9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632",
+      "byteSize": 34774,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2017B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462.pdf",
+      "originalName": "2018A.pdf",
+      "sha256": "b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462",
+      "byteSize": 81752,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2018A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8.pdf",
+      "originalName": "2018B.pdf",
+      "sha256": "243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8",
+      "byteSize": 158359,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2018B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf.pdf",
+      "originalName": "2019A.pdf",
+      "sha256": "e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf",
+      "byteSize": 262372,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2019A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7.pdf",
+      "originalName": "2019B.pdf",
+      "sha256": "6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7",
+      "byteSize": 432829,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2019B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254.pdf",
+      "originalName": "2020A.pdf",
+      "sha256": "7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254",
+      "byteSize": 49078,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2020A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c.pdf",
+      "originalName": "2020B.pdf",
+      "sha256": "c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c",
+      "byteSize": 83172,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2020B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507.pdf",
+      "originalName": "2022A.pdf",
+      "sha256": "c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507",
+      "byteSize": 92676,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2022A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f.pdf",
+      "originalName": "2022B.pdf",
+      "sha256": "fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f",
+      "byteSize": 161373,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2022B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2.pdf",
+      "originalName": "2023A.pdf",
+      "sha256": "061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2",
+      "byteSize": 64975,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2023A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9.pdf",
+      "originalName": "2023B.pdf",
+      "sha256": "609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9",
+      "byteSize": 95862,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2023B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9.pdf",
+      "originalName": "2024A.pdf",
+      "sha256": "5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9",
+      "byteSize": 80445,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2024A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364.pdf",
+      "originalName": "2024B.pdf",
+      "sha256": "b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364",
+      "byteSize": 103725,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2024B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e.pdf",
+      "originalName": "2025A.pdf",
+      "sha256": "8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e",
+      "byteSize": 69885,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2025A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec.pdf",
+      "originalName": "2025B.pdf",
+      "sha256": "04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec",
+      "byteSize": 74309,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2025B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380.pdf",
+      "originalName": "2026A.pdf",
+      "sha256": "25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380",
+      "byteSize": 74710,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2026A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594.pdf",
+      "originalName": "2026B.pdf",
+      "sha256": "a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594",
+      "byteSize": 83941,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2026B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa.pdf",
+      "originalName": "H17nijiboshu.pdf",
+      "sha256": "7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa",
+      "byteSize": 48984,
+      "pages": 1,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/H17nijiboshu.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8.pdf",
+      "originalName": "H18nijiboshu.pdf",
+      "sha256": "a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8",
+      "byteSize": 21111,
+      "pages": 1,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/H18nijiboshu.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813.pdf",
+      "originalName": "H19nijiboshu.pdf",
+      "sha256": "b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813",
+      "byteSize": 43059,
+      "pages": 1,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/H19nijiboshu.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a.pdf",
+      "originalName": "nijiboshu-08.pdf",
+      "sha256": "b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a",
+      "byteSize": 34791,
+      "pages": 2,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/nijiboshu-08.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c.pdf",
+      "originalName": "nijiboshu.pdf",
+      "sha256": "925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c",
+      "byteSize": 190102,
+      "pages": 2,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/nijiboshu.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796.pdf",
+      "originalName": "2ji.pdf",
+      "sha256": "fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796",
+      "byteSize": 26173,
+      "pages": 2,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2ji.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035.pdf",
+      "originalName": "2011niji.pdf",
+      "sha256": "156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035",
+      "byteSize": 17797,
+      "pages": 2,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2011niji.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62.pdf",
+      "originalName": "2012niji.pdf",
+      "sha256": "809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62",
+      "byteSize": 145604,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2012niji.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb.pdf",
+      "originalName": "2013niji.pdf",
+      "sha256": "83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb",
+      "byteSize": 44603,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2013niji.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc.pdf",
+      "originalName": "2014niji.pdf",
+      "sha256": "f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc",
+      "byteSize": 61365,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2014niji.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a.pdf",
+      "originalName": "2015niji.pdf",
+      "sha256": "abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a",
+      "byteSize": 22626,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2015niji.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a.pdf",
+      "originalName": "2022-2.pdf",
+      "sha256": "cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a",
+      "byteSize": 90678,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2022-2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5.pdf",
+      "originalName": "2023-2.pdf",
+      "sha256": "648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5",
+      "byteSize": 83530,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2023-2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54.pdf",
+      "originalName": "2025-2.pdf",
+      "sha256": "22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54",
+      "byteSize": 46796,
+      "pages": 2,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2025-2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548.pdf",
+      "originalName": "2026-2.pdf",
+      "sha256": "0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548",
+      "byteSize": 62776,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/理学/数学专攻/2026-2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37.pdf",
+      "originalName": "physics1998A1.pdf",
+      "sha256": "bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37",
+      "byteSize": 80008,
+      "pages": 2,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics1998A1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d.pdf",
+      "originalName": "physics1998A2.pdf",
+      "sha256": "96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d",
+      "byteSize": 71314,
+      "pages": 2,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics1998A2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca.pdf",
+      "originalName": "physics1998B.pdf",
+      "sha256": "2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca",
+      "byteSize": 418246,
+      "pages": 8,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics1998B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653.pdf",
+      "originalName": "physics1999A1.pdf",
+      "sha256": "a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653",
+      "byteSize": 86034,
+      "pages": 2,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics1999A1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da.pdf",
+      "originalName": "physics1999A2.pdf",
+      "sha256": "c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da",
+      "byteSize": 70706,
+      "pages": 2,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics1999A2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b.pdf",
+      "originalName": "physics1999B.pdf",
+      "sha256": "d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b",
+      "byteSize": 294894,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics1999B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03.pdf",
+      "originalName": "physics2000A.pdf",
+      "sha256": "584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03",
+      "byteSize": 46670,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2000A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd.pdf",
+      "originalName": "physics2000B.pdf",
+      "sha256": "8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd",
+      "byteSize": 86246,
+      "pages": 8,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2000B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f.pdf",
+      "originalName": "physics2001A.pdf",
+      "sha256": "922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f",
+      "byteSize": 66891,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2001A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16.pdf",
+      "originalName": "physics2001B.pdf",
+      "sha256": "5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16",
+      "byteSize": 352459,
+      "pages": 9,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2001B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880.pdf",
+      "originalName": "physics2002A.pdf",
+      "sha256": "70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880",
+      "byteSize": 78854,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2002A.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a.pdf",
+      "originalName": "physics2002B.pdf",
+      "sha256": "8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a",
+      "byteSize": 565226,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2002B.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68.pdf",
+      "originalName": "physics2003.pdf",
+      "sha256": "d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68",
+      "byteSize": 114024,
+      "pages": 10,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2003.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041.pdf",
+      "originalName": "physics2004.pdf",
+      "sha256": "98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041",
+      "byteSize": 46839,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2004.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1.pdf",
+      "originalName": "physics2005.pdf",
+      "sha256": "b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1",
+      "byteSize": 296417,
+      "pages": 6,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2005.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24.pdf",
+      "originalName": "physics2006.pdf",
+      "sha256": "e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24",
+      "byteSize": 138938,
+      "pages": 6,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2006.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990.pdf",
+      "originalName": "physics2007.pdf",
+      "sha256": "91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990",
+      "byteSize": 191442,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2007.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7.pdf",
+      "originalName": "physics2008.pdf",
+      "sha256": "cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7",
+      "byteSize": 124067,
+      "pages": 8,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2008.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38.pdf",
+      "originalName": "physics2009.pdf",
+      "sha256": "c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38",
+      "byteSize": 646991,
+      "pages": 8,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2009.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750.pdf",
+      "originalName": "physics2010.pdf",
+      "sha256": "0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750",
+      "byteSize": 213028,
+      "pages": 6,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2010.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81.pdf",
+      "originalName": "physics2011.pdf",
+      "sha256": "770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81",
+      "byteSize": 79643,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2011.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d.pdf",
+      "originalName": "physics2012.pdf",
+      "sha256": "34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d",
+      "byteSize": 385504,
+      "pages": 9,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2012.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86.pdf",
+      "originalName": "physics2013.pdf",
+      "sha256": "97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86",
+      "byteSize": 1177714,
+      "pages": 11,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2013.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f.pdf",
+      "originalName": "physics2014.pdf",
+      "sha256": "e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f",
+      "byteSize": 552961,
+      "pages": 16,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2014.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476.pdf",
+      "originalName": "physics2015.pdf",
+      "sha256": "dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476",
+      "byteSize": 927454,
+      "pages": 16,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2015.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0.pdf",
+      "originalName": "physics2016.pdf",
+      "sha256": "8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0",
+      "byteSize": 97923,
+      "pages": 20,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2016.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278.pdf",
+      "originalName": "physics2017.pdf",
+      "sha256": "2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278",
+      "byteSize": 134880,
+      "pages": 16,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2017.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072.pdf",
+      "originalName": "physics2018.pdf",
+      "sha256": "2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072",
+      "byteSize": 479161,
+      "pages": 16,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2018.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180.pdf",
+      "originalName": "physics2019.pdf",
+      "sha256": "1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180",
+      "byteSize": 374006,
+      "pages": 16,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2019.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8.pdf",
+      "originalName": "physics2020.pdf",
+      "sha256": "00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8",
+      "byteSize": 686345,
+      "pages": 16,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2020.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c.pdf",
+      "originalName": "physics2021.pdf",
+      "sha256": "70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c",
+      "byteSize": 1199427,
+      "pages": 16,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2021.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c.pdf",
+      "originalName": "physics2022.pdf",
+      "sha256": "fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c",
+      "byteSize": 910900,
+      "pages": 23,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2022.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536.pdf",
+      "originalName": "physics2023.pdf",
+      "sha256": "ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536",
+      "byteSize": 468080,
+      "pages": 22,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2023.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd.pdf",
+      "originalName": "physics2024.pdf",
+      "sha256": "f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd",
+      "byteSize": 675583,
+      "pages": 22,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2024.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73.pdf",
+      "originalName": "physics2025.pdf",
+      "sha256": "03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73",
+      "byteSize": 538946,
+      "pages": 22,
+      "sourcePaths": [
+        "大阪大学/理学/物理学/physics2025.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36.pdf",
+      "originalName": "r04.pdf",
+      "sha256": "e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36",
+      "byteSize": 131935,
+      "pages": 9,
+      "sourcePaths": [
+        "大阪大学/基础工学/数理科学/r04.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94.pdf",
+      "originalName": "r05.pdf",
+      "sha256": "eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94",
+      "byteSize": 114951,
+      "pages": 9,
+      "sourcePaths": [
+        "大阪大学/基础工学/数理科学/r05.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c.pdf",
+      "originalName": "r06.pdf",
+      "sha256": "ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c",
+      "byteSize": 147071,
+      "pages": 12,
+      "sourcePaths": [
+        "大阪大学/基础工学/数理科学/r06.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823.pdf",
+      "originalName": "r07.pdf",
+      "sha256": "7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823",
+      "byteSize": 176701,
+      "pages": 11,
+      "sourcePaths": [
+        "大阪大学/基础工学/数理科学/r07.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a.pdf",
+      "originalName": "r08.pdf",
+      "sha256": "f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a",
+      "byteSize": 140951,
+      "pages": 8,
+      "sourcePaths": [
+        "大阪大学/基础工学/数理科学/r08.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895.pdf",
+      "originalName": "R04_1.pdf",
+      "sha256": "0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895",
+      "byteSize": 514883,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R04_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083.pdf",
+      "originalName": "R04_2.pdf",
+      "sha256": "e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083",
+      "byteSize": 956091,
+      "pages": 6,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R04_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7.pdf",
+      "originalName": "R05_1.pdf",
+      "sha256": "522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7",
+      "byteSize": 1571550,
+      "pages": 6,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R05_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497.pdf",
+      "originalName": "R05_2.pdf",
+      "sha256": "7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497",
+      "byteSize": 364050,
+      "pages": 6,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R05_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d.pdf",
+      "originalName": "R06_1.pdf",
+      "sha256": "76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d",
+      "byteSize": 295552,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R06_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a.pdf",
+      "originalName": "R06_2.pdf",
+      "sha256": "583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a",
+      "byteSize": 214878,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R06_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e.pdf",
+      "originalName": "R07_1.pdf",
+      "sha256": "f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e",
+      "byteSize": 283346,
+      "pages": 5,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R07_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac.pdf",
+      "originalName": "R07_2.pdf",
+      "sha256": "2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac",
+      "byteSize": 1066391,
+      "pages": 6,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R07_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb.pdf",
+      "originalName": "R08_1.pdf",
+      "sha256": "6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb",
+      "byteSize": 270099,
+      "pages": 7,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R08_1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c.pdf",
+      "originalName": "R08_2.pdf",
+      "sha256": "dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c",
+      "byteSize": 319156,
+      "pages": 6,
+      "sourcePaths": [
+        "大阪大学/基础工学/物性物理科学/R08_2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7.pdf",
+      "originalName": "MA_nyushi_2005_JA.pdf",
+      "sha256": "5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7",
+      "byteSize": 32619,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2005_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819.pdf",
+      "originalName": "MA_nyushi_2006_JA.pdf",
+      "sha256": "047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819",
+      "byteSize": 22505,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2006_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c.pdf",
+      "originalName": "MA_nyushi_2007_JA.pdf",
+      "sha256": "2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c",
+      "byteSize": 99520,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2007_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756.pdf",
+      "originalName": "MA_nyushi_2008_JA.pdf",
+      "sha256": "f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756",
+      "byteSize": 105447,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2008_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200.pdf",
+      "originalName": "MA_nyushi_2009_JA.pdf",
+      "sha256": "aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200",
+      "byteSize": 18600,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2009_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8.pdf",
+      "originalName": "MA_nyushi_2010_JA.pdf",
+      "sha256": "df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8",
+      "byteSize": 27796,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2010_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6.pdf",
+      "originalName": "MA_nyushi_2011_JA.pdf",
+      "sha256": "a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6",
+      "byteSize": 48443,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2011_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af.pdf",
+      "originalName": "MA_nyushi_2012_JA.pdf",
+      "sha256": "c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af",
+      "byteSize": 55755,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2012_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf.pdf",
+      "originalName": "MA_nyushi_2013_JA.pdf",
+      "sha256": "d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf",
+      "byteSize": 43062,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2013_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31.pdf",
+      "originalName": "MA_nyushi_2014_JA.pdf",
+      "sha256": "af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31",
+      "byteSize": 89826,
+      "pages": 4,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2014_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021.pdf",
+      "originalName": "MA_nyushi_2015_JA.pdf",
+      "sha256": "199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021",
+      "byteSize": 75395,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2015_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d.pdf",
+      "originalName": "MA_nyushi_2016_JA.pdf",
+      "sha256": "f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d",
+      "byteSize": 82195,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2016_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6.pdf",
+      "originalName": "MA_nyushi_2017_JA.pdf",
+      "sha256": "9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6",
+      "byteSize": 490666,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2017_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33.pdf",
+      "originalName": "MA_nyushi_2018_JA.pdf",
+      "sha256": "ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33",
+      "byteSize": 41037,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2018_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6.pdf",
+      "originalName": "MA_nyushi_2019_JA.pdf",
+      "sha256": "5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6",
+      "byteSize": 36413,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2019_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257.pdf",
+      "originalName": "MA_nyushi_2020_JA.pdf",
+      "sha256": "859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257",
+      "byteSize": 37442,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2020_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca.pdf",
+      "originalName": "MA_nyushi_2021_JA.pdf",
+      "sha256": "b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca",
+      "byteSize": 161999,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2021_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4.pdf",
+      "originalName": "MA_nyushi_2022_JA.pdf",
+      "sha256": "70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4",
+      "byteSize": 47141,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2022_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572.pdf",
+      "originalName": "MA_nyushi_2023_JA.pdf",
+      "sha256": "884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572",
+      "byteSize": 211264,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2023_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39.pdf",
+      "originalName": "MA_nyushi_2024_JA.pdf",
+      "sha256": "8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39",
+      "byteSize": 1285755,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2024_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
+    },
+    {
+      "path": "assets/past-papers/documents/a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa.pdf",
+      "originalName": "MA_nyushi_2025_JA.pdf",
+      "sha256": "a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa",
+      "byteSize": 195968,
+      "pages": 3,
+      "sourcePaths": [
+        "大阪大学/情报科学/情报基础数学/MA_nyushi_2025_JA.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     }
   ],
-  "excludedFolders": [
-    "大阪大学/理学",
-    "大阪大学/基础工学/物性物理科学",
+  "excludedFolders": [],
+  "previouslyExcludedNowIncluded": [
+    "大阪大学/理学/数学专攻",
+    "大阪大学/理学/物理学",
     "大阪大学/基础工学/数理科学",
+    "大阪大学/基础工学/物性物理科学",
     "大阪大学/情报科学/情报基础数学"
   ],
-  "excludedEnvironmentalNote": "工学／环境能源内5份10_essay_env_2022—2026.pdf为環境工学コース小論文，依既定环境方向排除；不是エネルギー量子工学卷。已核对2022原文与学校环境课程过去问页面，不因混合专攻名误归能源量子。",
+  "backfillAt": "2026-10-18",
+  "backfillGroups": 97,
+  "backfillUniquePDFs": 132,
+  "backfillPages": 819,
+  "excludedEnvironmentalNote": "工学／环境能源内5份10_essay_env_2022—2026.pdf为環境工学コース小論文，不是エネルギー量子工学普通笔试。2026-10-18复核后仍不建真题入口，也不入库。口述試問サンプル同样不建入口。",
   "excludedEnvironmentalSourceURL": "https://see.eng.osaka-u.ac.jp/exam/doctral_1-2/reference",
   "emptyFolderNotes": [
     "工学／物理学专攻／2026乱码年度子目录为空；不将空文件夹计为已取得试卷。"
@@ -1184,5 +2774,55 @@
     "マルチメディア工学専攻",
     "バイオ情報工学専攻"
   ],
-  "yearBasis": "academic"
+  "yearBasis": "academic",
+  "skippedNotExam": [
+    {
+      "name": "10_essay_env_2022.pdf",
+      "sourcePath": "大阪大学/工学/环境能源/10_essay_env_2022.pdf",
+      "sha256": "87c2a6e2962a0d787191ae08b5c8428e331479edf7bd1aa3ca184c5901e39ca9",
+      "pages": 6,
+      "byteSize": 583706,
+      "reason": "環境工学コース小論文，不是エネルギー量子普通笔试，不建真题入口，不入库。"
+    },
+    {
+      "name": "10_essay_env_2023.pdf",
+      "sourcePath": "大阪大学/工学/环境能源/10_essay_env_2023.pdf",
+      "sha256": "a2de6ba58f983c734fff541822c62f4acebffa768b7eea1d9f2e7a78d7a2936a",
+      "pages": 6,
+      "byteSize": 188233,
+      "reason": "環境工学コース小論文，不是エネルギー量子普通笔试，不建真题入口，不入库。"
+    },
+    {
+      "name": "10_essay_env_2024.pdf",
+      "sourcePath": "大阪大学/工学/环境能源/10_essay_env_2024.pdf",
+      "sha256": "63915543372f219236105e229f93efe42abd845173510cebebf5617e99304ae7",
+      "pages": 6,
+      "byteSize": 219472,
+      "reason": "環境工学コース小論文，不是エネルギー量子普通笔试，不建真题入口，不入库。"
+    },
+    {
+      "name": "10_essay_env_2025.pdf",
+      "sourcePath": "大阪大学/工学/环境能源/10_essay_env_2025.pdf",
+      "sha256": "7279901d569bbc84b6a68a608f7e9ba2794a172f442569440c9e99214dccfe6d",
+      "pages": 8,
+      "byteSize": 447424,
+      "reason": "環境工学コース小論文，不是エネルギー量子普通笔试，不建真题入口，不入库。"
+    },
+    {
+      "name": "10_essay_env_2026.pdf",
+      "sourcePath": "大阪大学/工学/环境能源/10_essay_env_2026.pdf",
+      "sha256": "7d88da275afe88a777148bc588d5f7f32af4b76bca8b17466bbfd18a3ffa45b6",
+      "pages": 5,
+      "byteSize": 109622,
+      "reason": "環境工学コース小論文，不是エネルギー量子普通笔试，不建真题入口，不入库。"
+    },
+    {
+      "name": "MA_koutoushimon_sample_JA.pdf",
+      "sourcePath": "大阪大学/情报科学/情报基础数学/MA_koutoushimon_sample_JA.pdf",
+      "sha256": "be1efbd74015d78d68dc89d10147610255f7c434da3c4eca7a481d5199755866",
+      "pages": 2,
+      "byteSize": 26624,
+      "reason": "口述試問サンプル，不是笔试原卷，不建真题入口，不入库。"
+    }
+  ]
 }

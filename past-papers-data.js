@@ -19258,6 +19258,4096 @@
       ]
     },
     {
+      "id": "osaka-science-math-2003",
+      "universityId": "osaka",
+      "title": "2003年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2003,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成15年度大学院入試",
+      "admissionYears": [
+        2003
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a.pdf",
+          "originalName": "mondaiA03.pdf",
+          "sha256": "1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a",
+          "byteSize": 52523,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/mondaiA03.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312.pdf",
+          "originalName": "mondaiB03.pdf",
+          "sha256": "5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312",
+          "byteSize": 50260,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/mondaiB03.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2002,
+      "examDates": [
+        "2002-08-28"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2004",
+      "universityId": "osaka",
+      "title": "2004年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2004,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成16年度大学院入試",
+      "admissionYears": [
+        2004
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9.pdf",
+          "originalName": "mondaiA05.pdf",
+          "sha256": "dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9",
+          "byteSize": 89372,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/mondaiA05.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401.pdf",
+          "originalName": "mondaiB05.pdf",
+          "sha256": "f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401",
+          "byteSize": 109637,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/mondaiB05.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2003,
+      "examDates": [
+        "2003-08-27"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2005",
+      "universityId": "osaka",
+      "title": "2005年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2005,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成17年度大学院入試",
+      "admissionYears": [
+        2005
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2.pdf",
+          "originalName": "H17MathA.pdf",
+          "sha256": "940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2",
+          "byteSize": 403673,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/H17MathA.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173.pdf",
+          "originalName": "H17MathB.pdf",
+          "sha256": "20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173",
+          "byteSize": 677945,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/H17MathB.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2004,
+      "examDates": [
+        "2004-08-30"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2006",
+      "universityId": "osaka",
+      "title": "2006年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2006,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成18年度大学院入試",
+      "admissionYears": [
+        2006
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac.pdf",
+          "originalName": "H18mathA.pdf",
+          "sha256": "ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac",
+          "byteSize": 73583,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/H18mathA.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb.pdf",
+          "originalName": "H18mathB.pdf",
+          "sha256": "65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb",
+          "byteSize": 54533,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/H18mathB.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2005,
+      "examDates": [
+        "2005-08-29"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2007",
+      "universityId": "osaka",
+      "title": "2007年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2007年度（平成19年度）大学院入試",
+      "admissionYears": [
+        2007
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45.pdf",
+          "originalName": "H19mathA.pdf",
+          "sha256": "cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45",
+          "byteSize": 28662,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/H19mathA.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748.pdf",
+          "originalName": "H19mathB.pdf",
+          "sha256": "cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748",
+          "byteSize": 24382,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/H19mathB.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2006,
+      "examDates": [
+        "2006-08-30"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2008",
+      "universityId": "osaka",
+      "title": "2008年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2008年度（平成20年度）大学院入試",
+      "admissionYears": [
+        2008
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7.pdf",
+          "originalName": "matha-08.pdf",
+          "sha256": "456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7",
+          "byteSize": 37032,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/matha-08.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540.pdf",
+          "originalName": "mathb-08.pdf",
+          "sha256": "a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540",
+          "byteSize": 32423,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/mathb-08.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-29"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2009",
+      "universityId": "osaka",
+      "title": "2009年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2009年度（平成21年度）大学院入試",
+      "admissionYears": [
+        2009
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde.pdf",
+          "originalName": "A1.pdf",
+          "sha256": "a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde",
+          "byteSize": 33912,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/A1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4.pdf",
+          "originalName": "B1.pdf",
+          "sha256": "878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4",
+          "byteSize": 31999,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/B1.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2008,
+      "examDates": [
+        "2008-08-27"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2010",
+      "universityId": "osaka",
+      "title": "2010年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2010年度（平成22年度）大学院入試",
+      "admissionYears": [
+        2010
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23.pdf",
+          "originalName": "A.pdf",
+          "sha256": "c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23",
+          "byteSize": 34778,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6.pdf",
+          "originalName": "B.pdf",
+          "sha256": "e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6",
+          "byteSize": 29059,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2009,
+      "examDates": [
+        "2009-08-26"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2011",
+      "universityId": "osaka",
+      "title": "2011年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2011年度（平成23年度）大学院入試",
+      "admissionYears": [
+        2011
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297.pdf",
+          "originalName": "2011A.pdf",
+          "sha256": "ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297",
+          "byteSize": 29040,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2011A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a.pdf",
+          "originalName": "2011B.pdf",
+          "sha256": "bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a",
+          "byteSize": 30587,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2011B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2010,
+      "examDates": [
+        "2010-08-30"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2012",
+      "universityId": "osaka",
+      "title": "2012年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2012年度（平成24年度）大学院入試",
+      "admissionYears": [
+        2012
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216.pdf",
+          "originalName": "2012A.pdf",
+          "sha256": "48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216",
+          "byteSize": 31151,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2012A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558.pdf",
+          "originalName": "2012B.pdf",
+          "sha256": "67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558",
+          "byteSize": 33887,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2012B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2011,
+      "examDates": [
+        "2011-08-29"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2013",
+      "universityId": "osaka",
+      "title": "2013年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2013年度（平成25年度）大学院入試",
+      "admissionYears": [
+        2013
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe.pdf",
+          "originalName": "2013A.pdf",
+          "sha256": "c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe",
+          "byteSize": 64912,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2013A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136.pdf",
+          "originalName": "2013B.pdf",
+          "sha256": "973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136",
+          "byteSize": 45307,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2013B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2012,
+      "examDates": [
+        "2012-08-29"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2014",
+      "universityId": "osaka",
+      "title": "2014年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2014年度（平成26年度）大学院入試",
+      "admissionYears": [
+        2014
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec.pdf",
+          "originalName": "2014A.pdf",
+          "sha256": "57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec",
+          "byteSize": 65089,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2014A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c.pdf",
+          "originalName": "2014B.pdf",
+          "sha256": "0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c",
+          "byteSize": 58899,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2014B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2013,
+      "examDates": [
+        "2013-08-21"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2015",
+      "universityId": "osaka",
+      "title": "2015年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2015年度（平成27年度）大学院入試",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040.pdf",
+          "originalName": "2015A.pdf",
+          "sha256": "384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040",
+          "byteSize": 24964,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2015A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27.pdf",
+          "originalName": "2015B.pdf",
+          "sha256": "a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27",
+          "byteSize": 24538,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2015B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2014,
+      "examDates": [
+        "2014-08-25"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2016",
+      "universityId": "osaka",
+      "title": "2016年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2016年度（平成28年度）大学院入試",
+      "admissionYears": [
+        2016
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033.pdf",
+          "originalName": "2016A.pdf",
+          "sha256": "902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033",
+          "byteSize": 77922,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2016A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26.pdf",
+          "originalName": "2016B.pdf",
+          "sha256": "448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26",
+          "byteSize": 95269,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2016B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2015,
+      "examDates": [
+        "2015-08-18"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2017",
+      "universityId": "osaka",
+      "title": "2017年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2017年度（平成29年度）大学院入試",
+      "admissionYears": [
+        2017
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0.pdf",
+          "originalName": "2017A.pdf",
+          "sha256": "fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0",
+          "byteSize": 21684,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2017A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632.pdf",
+          "originalName": "2017B.pdf",
+          "sha256": "9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632",
+          "byteSize": 34774,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2017B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2016,
+      "examDates": [
+        "2016-08-24"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2018",
+      "universityId": "osaka",
+      "title": "2018年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2018年度（平成30年度）大学院入試",
+      "admissionYears": [
+        2018
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462.pdf",
+          "originalName": "2018A.pdf",
+          "sha256": "b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462",
+          "byteSize": 81752,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2018A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8.pdf",
+          "originalName": "2018B.pdf",
+          "sha256": "243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8",
+          "byteSize": 158359,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2018B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2017,
+      "examDates": [
+        "2017-08-23"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2019",
+      "universityId": "osaka",
+      "title": "2019年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2019年度（平成31年度）大学院入試",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf.pdf",
+          "originalName": "2019A.pdf",
+          "sha256": "e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf",
+          "byteSize": 262372,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2019A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7.pdf",
+          "originalName": "2019B.pdf",
+          "sha256": "6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7",
+          "byteSize": 432829,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2019B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-22"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2020",
+      "universityId": "osaka",
+      "title": "2020年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2020年度（令和2年度）大学院入試",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254.pdf",
+          "originalName": "2020A.pdf",
+          "sha256": "7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254",
+          "byteSize": 49078,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2020A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c.pdf",
+          "originalName": "2020B.pdf",
+          "sha256": "c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c",
+          "byteSize": 83172,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2020B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-21"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度（令和4年度）大学院入試",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507.pdf",
+          "originalName": "2022A.pdf",
+          "sha256": "c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507",
+          "byteSize": 92676,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2022A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f.pdf",
+          "originalName": "2022B.pdf",
+          "sha256": "fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f",
+          "byteSize": 161373,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2022B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-25"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度（令和5年度）大学院入試",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2.pdf",
+          "originalName": "2023A.pdf",
+          "sha256": "061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2",
+          "byteSize": 64975,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2023A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9.pdf",
+          "originalName": "2023B.pdf",
+          "sha256": "609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9",
+          "byteSize": 95862,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2023B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-24"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度（令和6年度）大学院入試",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9.pdf",
+          "originalName": "2024A.pdf",
+          "sha256": "5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9",
+          "byteSize": 80445,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2024A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364.pdf",
+          "originalName": "2024B.pdf",
+          "sha256": "b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364",
+          "byteSize": 103725,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2024B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-23"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度（令和7年度）大学院入試",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e.pdf",
+          "originalName": "2025A.pdf",
+          "sha256": "8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e",
+          "byteSize": 69885,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2025A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec.pdf",
+          "originalName": "2025B.pdf",
+          "sha256": "04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec",
+          "byteSize": 74309,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2025B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-21"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 数学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度（令和8年度）大学院入試",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "数学問題A",
+        "数学問題B"
+      ],
+      "files": [
+        {
+          "label": "数学問題A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380.pdf",
+          "originalName": "2026A.pdf",
+          "sha256": "25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380",
+          "byteSize": 74710,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2026A.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "数学問題B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594.pdf",
+          "originalName": "2026B.pdf",
+          "sha256": "a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594",
+          "byteSize": 83941,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2026B.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的8月笔试。封面印入学年度和实施日，paperYear用入学年度，examYear与examDates只用实施日。数学問題A为上午必答，数学問題B为下午选择。封面未印「理学研究科」，専攻按数学問題及数学専攻入学试验封面。第1页是封面，设问从第2页打开。没有随卷解答。本目录没有2021年度数学册。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-20"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2005-february",
+      "universityId": "osaka",
+      "title": "2005年度 · 数学専攻（2月16日）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2005,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "平成17年度",
+      "admissionYears": [
+        2005
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa.pdf",
+          "originalName": "H17nijiboshu.pdf",
+          "sha256": "7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa",
+          "byteSize": 48984,
+          "pages": 1,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/H17nijiboshu.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试。这一页未印入学年度，只印实施日或「2/16」。paperYear按同一目录里平成／西历编号与前后8月册对齐，不把文件名当成实施日；封面没有公历年就不写examDates。未印「第2次募集」的不按文件名写成二次募集。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-science-math-2006-november",
+      "universityId": "osaka",
+      "title": "2006年度 · 数学専攻（2005-11-26）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2006,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "平成18年度",
+      "admissionYears": [
+        2006
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8.pdf",
+          "originalName": "H18nijiboshu.pdf",
+          "sha256": "a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8",
+          "byteSize": 21111,
+          "pages": 1,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/H18nijiboshu.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试。这一页未印入学年度，只印实施日或「2/16」。paperYear按同一目录里平成／西历编号与前后8月册对齐，不把文件名当成实施日；封面没有公历年就不写examDates。未印「第2次募集」的不按文件名写成二次募集。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2005,
+      "examDates": [
+        "2005-11-26"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2007-february",
+      "universityId": "osaka",
+      "title": "2007年度 · 数学専攻（2007-02-16）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "平成19年度",
+      "admissionYears": [
+        2007
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813.pdf",
+          "originalName": "H19nijiboshu.pdf",
+          "sha256": "b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813",
+          "byteSize": 43059,
+          "pages": 1,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/H19nijiboshu.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试。这一页未印入学年度，只印实施日或「2/16」。paperYear按同一目录里平成／西历编号与前后8月册对齐，不把文件名当成实施日；封面没有公历年就不写examDates。未印「第2次募集」的不按文件名写成二次募集。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2007,
+      "examDates": [
+        "2007-02-16"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2008-november",
+      "universityId": "osaka",
+      "title": "2008年度 · 数学専攻（2007-11-24）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2008年度",
+      "admissionYears": [
+        2008
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a.pdf",
+          "originalName": "nijiboshu-08.pdf",
+          "sha256": "b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a",
+          "byteSize": 34791,
+          "pages": 2,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/nijiboshu-08.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试。这一页未印入学年度，只印实施日或「2/16」。paperYear按同一目录里平成／西历编号与前后8月册对齐，不把文件名当成实施日；封面没有公历年就不写examDates。未印「第2次募集」的不按文件名写成二次募集。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2007,
+      "examDates": [
+        "2007-11-24"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2009-november",
+      "universityId": "osaka",
+      "title": "2009年度 · 数学専攻（2008-11-22）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2009年度",
+      "admissionYears": [
+        2009
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c.pdf",
+          "originalName": "nijiboshu.pdf",
+          "sha256": "925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c",
+          "byteSize": 190102,
+          "pages": 2,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/nijiboshu.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试。这一页未印入学年度，只印实施日或「2/16」。paperYear按同一目录里平成／西历编号与前后8月册对齐，不把文件名当成实施日；封面没有公历年就不写examDates。未印「第2次募集」的不按文件名写成二次募集。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2008,
+      "examDates": [
+        "2008-11-22"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2010-november",
+      "universityId": "osaka",
+      "title": "2010年度 · 数学専攻（2009-11-21）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2010年度",
+      "admissionYears": [
+        2010
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796.pdf",
+          "originalName": "2ji.pdf",
+          "sha256": "fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796",
+          "byteSize": 26173,
+          "pages": 2,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2ji.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试。这一页未印入学年度，只印实施日或「2/16」。paperYear按同一目录里平成／西历编号与前后8月册对齐，不把文件名当成实施日；封面没有公历年就不写examDates。未印「第2次募集」的不按文件名写成二次募集。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2009,
+      "examDates": [
+        "2009-11-21"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2011-november",
+      "universityId": "osaka",
+      "title": "2011年度 · 数学専攻（2010-11-20）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2011年度",
+      "admissionYears": [
+        2011
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035.pdf",
+          "originalName": "2011niji.pdf",
+          "sha256": "156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035",
+          "byteSize": 17797,
+          "pages": 2,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2011niji.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试。这一页未印入学年度，只印实施日或「2/16」。paperYear按同一目录里平成／西历编号与前后8月册对齐，不把文件名当成实施日；封面没有公历年就不写examDates。未印「第2次募集」的不按文件名写成二次募集。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2010,
+      "examDates": [
+        "2010-11-20"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2012-november",
+      "universityId": "osaka",
+      "title": "2012年度 · 数学専攻（2011-11-19）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2012年度（平成24年度）大学院入試",
+      "admissionYears": [
+        2012
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62.pdf",
+          "originalName": "2012niji.pdf",
+          "sha256": "809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62",
+          "byteSize": 145604,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2012niji.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试，与同年8月的数学問題A／B分开。封面印入学年度和实施日的，paperYear用入学年度。封面未印「第2次募集」的，不按文件名niji或-2写成二次募集。第1页是封面时从第2页打开；封面即试题的从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2011,
+      "examDates": [
+        "2011-11-19"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2013-november",
+      "universityId": "osaka",
+      "title": "2013年度 · 数学専攻（2012-11-17）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2013年度（平成25年度）大学院入試",
+      "admissionYears": [
+        2013
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb.pdf",
+          "originalName": "2013niji.pdf",
+          "sha256": "83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb",
+          "byteSize": 44603,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2013niji.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试，与同年8月的数学問題A／B分开。封面印入学年度和实施日的，paperYear用入学年度。封面未印「第2次募集」的，不按文件名niji或-2写成二次募集。第1页是封面时从第2页打开；封面即试题的从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2012,
+      "examDates": [
+        "2012-11-17"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2014-november",
+      "universityId": "osaka",
+      "title": "2014年度 · 数学専攻（2013-11-16）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2014年度（平成26年度）大学院入試",
+      "admissionYears": [
+        2014
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc.pdf",
+          "originalName": "2014niji.pdf",
+          "sha256": "f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc",
+          "byteSize": 61365,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2014niji.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试，与同年8月的数学問題A／B分开。封面印入学年度和实施日的，paperYear用入学年度。封面未印「第2次募集」的，不按文件名niji或-2写成二次募集。第1页是封面时从第2页打开；封面即试题的从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2013,
+      "examDates": [
+        "2013-11-16"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2015-november",
+      "universityId": "osaka",
+      "title": "2015年度 · 数学専攻（2014-11-15）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2015年度（平成27年度）大学院入試",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a.pdf",
+          "originalName": "2015niji.pdf",
+          "sha256": "abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a",
+          "byteSize": 22626,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2015niji.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试，与同年8月的数学問題A／B分开。封面印入学年度和实施日的，paperYear用入学年度。封面未印「第2次募集」的，不按文件名niji或-2写成二次募集。第1页是封面时从第2页打开；封面即试题的从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2014,
+      "examDates": [
+        "2014-11-15"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2022-second",
+      "universityId": "osaka",
+      "title": "2022年度 · 数学専攻（第2次募集）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試（第2次募集）",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度（令和4年度）大学院入試（第2次募集）",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a.pdf",
+          "originalName": "2022-2.pdf",
+          "sha256": "cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a",
+          "byteSize": 90678,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2022-2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻第2次募集。封面印「第2次募集」、入学年度和11月实施日。paperYear用入学年度，examDates只用实施日。与同年8月的数学問題A／B分开。第1页是封面，从第2页打开。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2021,
+      "examDates": [
+        "2021-11-20"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2023-second",
+      "universityId": "osaka",
+      "title": "2023年度 · 数学専攻（第2次募集）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試（第2次募集）",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度（令和5年度）大学院入試（第2次募集）",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5.pdf",
+          "originalName": "2023-2.pdf",
+          "sha256": "648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5",
+          "byteSize": 83530,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2023-2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻第2次募集。封面印「第2次募集」、入学年度和11月实施日。paperYear用入学年度，examDates只用实施日。与同年8月的数学問題A／B分开。第1页是封面，从第2页打开。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2022,
+      "examDates": [
+        "2022-11-19"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2025-november",
+      "universityId": "osaka",
+      "title": "2025年度 · 数学専攻（2024-11-16）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度（令和7年度）大学院入試",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54.pdf",
+          "originalName": "2025-2.pdf",
+          "sha256": "22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54",
+          "byteSize": 46796,
+          "pages": 2,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2025-2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试，与同年8月的数学問題A／B分开。封面印入学年度和实施日的，paperYear用入学年度。封面未印「第2次募集」的，不按文件名niji或-2写成二次募集。第1页是封面时从第2页打开；封面即试题的从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2024,
+      "examDates": [
+        "2024-11-16"
+      ]
+    },
+    {
+      "id": "osaka-science-math-2026-november",
+      "universityId": "osaka",
+      "title": "2026年度 · 数学専攻（2025-11-15）",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度（令和8年度）大学院入試",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548.pdf",
+          "originalName": "2026-2.pdf",
+          "sha256": "0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548",
+          "byteSize": 62776,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/理学/数学专攻/2026-2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科数学専攻的另一次笔试，与同年8月的数学問題A／B分开。封面印入学年度和实施日的，paperYear用入学年度。封面未印「第2次募集」的，不按文件名niji或-2写成二次募集。第1页是封面时从第2页打开；封面即试题的从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.sci.osaka-u.ac.jp/ja/",
+      "examYear": 2025,
+      "examDates": [
+        "2025-11-15"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-1998",
+      "universityId": "osaka",
+      "title": "1998年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 1998,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "1998年度",
+      "admissionYears": [
+        1998
+      ],
+      "subjects": [
+        "物理学A1",
+        "物理学A2",
+        "物理学B"
+      ],
+      "files": [
+        {
+          "label": "物理学 A1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37.pdf",
+          "originalName": "physics1998A1.pdf",
+          "sha256": "bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37",
+          "byteSize": 80008,
+          "pages": 2,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics1998A1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理学 A2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d.pdf",
+          "originalName": "physics1998A2.pdf",
+          "sha256": "96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d",
+          "byteSize": 71314,
+          "pages": 2,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics1998A2.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理学 B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca.pdf",
+          "originalName": "physics1998B.pdf",
+          "sha256": "2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca",
+          "byteSize": 418246,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics1998B.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 1997
+    },
+    {
+      "id": "osaka-science-physics-1999",
+      "universityId": "osaka",
+      "title": "1999年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 1999,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "1999年度",
+      "admissionYears": [
+        1999
+      ],
+      "subjects": [
+        "物理学A1",
+        "物理学A2",
+        "物理学B"
+      ],
+      "files": [
+        {
+          "label": "物理学 A1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653.pdf",
+          "originalName": "physics1999A1.pdf",
+          "sha256": "a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653",
+          "byteSize": 86034,
+          "pages": 2,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics1999A1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理学 A2",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da.pdf",
+          "originalName": "physics1999A2.pdf",
+          "sha256": "c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da",
+          "byteSize": 70706,
+          "pages": 2,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics1999A2.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理学 B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b.pdf",
+          "originalName": "physics1999B.pdf",
+          "sha256": "d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b",
+          "byteSize": 294894,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics1999B.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 1998
+    },
+    {
+      "id": "osaka-science-physics-2000",
+      "universityId": "osaka",
+      "title": "2000年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2000,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2000年度",
+      "admissionYears": [
+        2000
+      ],
+      "subjects": [
+        "物理学A1",
+        "物理学B"
+      ],
+      "files": [
+        {
+          "label": "物理学 A1",
+          "kind": "question",
+          "url": "assets/past-papers/documents/584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03.pdf",
+          "originalName": "physics2000A.pdf",
+          "sha256": "584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03",
+          "byteSize": 46670,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2000A.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理学 B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd.pdf",
+          "originalName": "physics2000B.pdf",
+          "sha256": "8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd",
+          "byteSize": 86246,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2000B.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 1999
+    },
+    {
+      "id": "osaka-science-physics-2001",
+      "universityId": "osaka",
+      "title": "2001年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2001,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2001年度",
+      "admissionYears": [
+        2001
+      ],
+      "subjects": [
+        "物理学A",
+        "物理学B"
+      ],
+      "files": [
+        {
+          "label": "物理学 A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f.pdf",
+          "originalName": "physics2001A.pdf",
+          "sha256": "922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f",
+          "byteSize": 66891,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2001A.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理学 B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16.pdf",
+          "originalName": "physics2001B.pdf",
+          "sha256": "5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16",
+          "byteSize": 352459,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2001B.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2000
+    },
+    {
+      "id": "osaka-science-physics-2002",
+      "universityId": "osaka",
+      "title": "2002年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2002,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2002年度",
+      "admissionYears": [
+        2002
+      ],
+      "subjects": [
+        "物理学A",
+        "物理学B"
+      ],
+      "files": [
+        {
+          "label": "物理学 A",
+          "kind": "question",
+          "url": "assets/past-papers/documents/70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880.pdf",
+          "originalName": "physics2002A.pdf",
+          "sha256": "70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880",
+          "byteSize": 78854,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2002A.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理学 B",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a.pdf",
+          "originalName": "physics2002B.pdf",
+          "sha256": "8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a",
+          "byteSize": 565226,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2002B.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2001
+    },
+    {
+      "id": "osaka-science-physics-2003",
+      "universityId": "osaka",
+      "title": "2003年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2003,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2003年度",
+      "admissionYears": [
+        2003
+      ],
+      "subjects": [
+        "物理学A",
+        "物理学B"
+      ],
+      "files": [
+        {
+          "label": "物理学（A・B原合册）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68.pdf",
+          "originalName": "physics2003.pdf",
+          "sha256": "d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68",
+          "byteSize": 114024,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2003.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2002
+    },
+    {
+      "id": "osaka-science-physics-2004",
+      "universityId": "osaka",
+      "title": "2004年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2004,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2004年度",
+      "admissionYears": [
+        2004
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041.pdf",
+          "originalName": "physics2004.pdf",
+          "sha256": "98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041",
+          "byteSize": 46839,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2004.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2003
+    },
+    {
+      "id": "osaka-science-physics-2005",
+      "universityId": "osaka",
+      "title": "2005年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2005,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2005年度",
+      "admissionYears": [
+        2005
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1.pdf",
+          "originalName": "physics2005.pdf",
+          "sha256": "b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1",
+          "byteSize": 296417,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2005.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2004,
+      "examDates": [
+        "2004-08-31"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2006",
+      "universityId": "osaka",
+      "title": "2006年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2006,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2006年度",
+      "admissionYears": [
+        2006
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24.pdf",
+          "originalName": "physics2006.pdf",
+          "sha256": "e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24",
+          "byteSize": 138938,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2006.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2005,
+      "examDates": [
+        "2005-08-30"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2007",
+      "universityId": "osaka",
+      "title": "2007年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2007年度",
+      "admissionYears": [
+        2007
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990.pdf",
+          "originalName": "physics2007.pdf",
+          "sha256": "91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990",
+          "byteSize": 191442,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2007.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2006,
+      "examDates": [
+        "2006-08-28"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2008",
+      "universityId": "osaka",
+      "title": "2008年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2008年度",
+      "admissionYears": [
+        2008
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7.pdf",
+          "originalName": "physics2008.pdf",
+          "sha256": "cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7",
+          "byteSize": 124067,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2008.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-27"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2009",
+      "universityId": "osaka",
+      "title": "2009年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2009年度",
+      "admissionYears": [
+        2009
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38.pdf",
+          "originalName": "physics2009.pdf",
+          "sha256": "c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38",
+          "byteSize": 646991,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2009.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2008,
+      "examDates": [
+        "2008-08-25"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2010",
+      "universityId": "osaka",
+      "title": "2010年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2010年度",
+      "admissionYears": [
+        2010
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750.pdf",
+          "originalName": "physics2010.pdf",
+          "sha256": "0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750",
+          "byteSize": 213028,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2010.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2009,
+      "examDates": [
+        "2009-08-26"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2011",
+      "universityId": "osaka",
+      "title": "2011年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2011年度",
+      "admissionYears": [
+        2011
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81.pdf",
+          "originalName": "physics2011.pdf",
+          "sha256": "770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81",
+          "byteSize": 79643,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2011.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2010,
+      "examDates": [
+        "2010-08-25"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2012",
+      "universityId": "osaka",
+      "title": "2012年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2012年度",
+      "admissionYears": [
+        2012
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d.pdf",
+          "originalName": "physics2012.pdf",
+          "sha256": "34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d",
+          "byteSize": 385504,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2012.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2013",
+      "universityId": "osaka",
+      "title": "2013年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2013年度",
+      "admissionYears": [
+        2013
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86.pdf",
+          "originalName": "physics2013.pdf",
+          "sha256": "97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86",
+          "byteSize": 1177714,
+          "pages": 11,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2013.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2014",
+      "universityId": "osaka",
+      "title": "2014年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2014年度",
+      "admissionYears": [
+        2014
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f.pdf",
+          "originalName": "physics2014.pdf",
+          "sha256": "e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f",
+          "byteSize": 552961,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2014.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2015",
+      "universityId": "osaka",
+      "title": "2015年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2015年度",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476.pdf",
+          "originalName": "physics2015.pdf",
+          "sha256": "dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476",
+          "byteSize": 927454,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2015.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2016",
+      "universityId": "osaka",
+      "title": "2016年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2016年度",
+      "admissionYears": [
+        2016
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0.pdf",
+          "originalName": "physics2016.pdf",
+          "sha256": "8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0",
+          "byteSize": 97923,
+          "pages": 20,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2016.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2017",
+      "universityId": "osaka",
+      "title": "2017年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2017年度",
+      "admissionYears": [
+        2017
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278.pdf",
+          "originalName": "physics2017.pdf",
+          "sha256": "2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278",
+          "byteSize": 134880,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2017.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2018",
+      "universityId": "osaka",
+      "title": "2018年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2018年度",
+      "admissionYears": [
+        2018
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072.pdf",
+          "originalName": "physics2018.pdf",
+          "sha256": "2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072",
+          "byteSize": 479161,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2018.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2019",
+      "universityId": "osaka",
+      "title": "2019年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2019年度",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180.pdf",
+          "originalName": "physics2019.pdf",
+          "sha256": "1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180",
+          "byteSize": 374006,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2019.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2020",
+      "universityId": "osaka",
+      "title": "2020年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2020年度",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8.pdf",
+          "originalName": "physics2020.pdf",
+          "sha256": "00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8",
+          "byteSize": 686345,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2020.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2021",
+      "universityId": "osaka",
+      "title": "2021年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2021年度",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c.pdf",
+          "originalName": "physics2021.pdf",
+          "sha256": "70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c",
+          "byteSize": 1199427,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2021.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试。各页未印年度或实施日，不补examYear、不写examDates。paperYear沿用本目录physicsYYYY的入学年度编号：physics2011封面是平成22年8月25日，physics2022封面是令和3年8月30日，中间各册按同一编号，不把文件名当成实施年。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/"
+    },
+    {
+      "id": "osaka-science-physics-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2022年度",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c.pdf",
+          "originalName": "physics2022.pdf",
+          "sha256": "fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c",
+          "byteSize": 910900,
+          "pages": 23,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2022.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2021,
+      "examDates": [
+        "2021-08-30"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2023年度",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536.pdf",
+          "originalName": "physics2023.pdf",
+          "sha256": "ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536",
+          "byteSize": 468080,
+          "pages": 22,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2023.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2022,
+      "examDates": [
+        "2022-08-30"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2024年度",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd.pdf",
+          "originalName": "physics2024.pdf",
+          "sha256": "f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd",
+          "byteSize": 675583,
+          "pages": 22,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2024.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2023,
+      "examDates": [
+        "2023-08-29"
+      ]
+    },
+    {
+      "id": "osaka-science-physics-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 物理学専攻・宇宙地球科学専攻",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻・宇宙地球科学専攻",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "2025年度",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "物理学"
+      ],
+      "files": [
+        {
+          "label": "物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73.pdf",
+          "originalName": "physics2025.pdf",
+          "sha256": "03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73",
+          "byteSize": 538946,
+          "pages": 22,
+          "sourcePaths": [
+            "大阪大学/理学/物理学/physics2025.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。理学研究科物理学専攻与宇宙地球科学専攻的共用笔试，按封面两専攻各不拆成两套卷，合为一个入口。封面印实施年月、不印入学年度。paperYear按入学年度：8月或9月实施对应次年4月入学，与目录名physicsYYYY一致，不把文件名数字当作实施年。有公历日才写examDates。1998—2006年封面写大学院前期（修士）課程，未印「理学研究科」；2007年起封面印理学研究科博士前期課程。设问从第1页打开。没有随卷解答。",
+      "sourceURL": "https://www.phys.sci.osaka-u.ac.jp/",
+      "examYear": 2024,
+      "examDates": [
+        "2024-08-27"
+      ]
+    },
+    {
+      "id": "osaka-es-mathematical-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 数理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "数理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "数理科学I",
+        "数理科学II"
+      ],
+      "files": [
+        {
+          "label": "数理科学 I・II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36.pdf",
+          "originalName": "r04.pdf",
+          "sha256": "e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36",
+          "byteSize": 131935,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学/基础工学/数理科学/r04.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的数理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。同一PDF含数理科学I与数理科学II，从第1页打开。封面印令和或西历入学年度，不印公历日，不写examDates。文件名r04—r08对应封面2022—2026年度。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-es-mathematical-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 数理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "数理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "数理科学I",
+        "数理科学II"
+      ],
+      "files": [
+        {
+          "label": "数理科学 I・II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94.pdf",
+          "originalName": "r05.pdf",
+          "sha256": "eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94",
+          "byteSize": 114951,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学/基础工学/数理科学/r05.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的数理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。同一PDF含数理科学I与数理科学II，从第1页打开。封面印令和或西历入学年度，不印公历日，不写examDates。文件名r04—r08对应封面2022—2026年度。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-es-mathematical-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 数理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "数理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "数理科学I",
+        "数理科学II"
+      ],
+      "files": [
+        {
+          "label": "数理科学 I・II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c.pdf",
+          "originalName": "r06.pdf",
+          "sha256": "ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c",
+          "byteSize": 147071,
+          "pages": 12,
+          "sourcePaths": [
+            "大阪大学/基础工学/数理科学/r06.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的数理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。同一PDF含数理科学I与数理科学II，从第1页打开。封面印令和或西历入学年度，不印公历日，不写examDates。文件名r04—r08对应封面2022—2026年度。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-es-mathematical-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 数理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "数理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数理科学I",
+        "数理科学II"
+      ],
+      "files": [
+        {
+          "label": "数理科学 I・II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823.pdf",
+          "originalName": "r07.pdf",
+          "sha256": "7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823",
+          "byteSize": 176701,
+          "pages": 11,
+          "sourcePaths": [
+            "大阪大学/基础工学/数理科学/r07.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的数理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。同一PDF含数理科学I与数理科学II，从第1页打开。封面印令和或西历入学年度，不印公历日，不写examDates。文件名r04—r08对应封面2022—2026年度。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-es-mathematical-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 数理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "数理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "数理科学I",
+        "数理科学II"
+      ],
+      "files": [
+        {
+          "label": "数理科学 I・II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a.pdf",
+          "originalName": "r08.pdf",
+          "sha256": "f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a",
+          "byteSize": 140951,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学/基础工学/数理科学/r08.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的数理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。同一PDF含数理科学I与数理科学II，从第1页打开。封面印令和或西历入学年度，不印公历日，不写examDates。文件名r04—r08对应封面2022—2026年度。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-es-condensed-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 物性物理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "物性物理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "物性物理科学I",
+        "物性物理科学II"
+      ],
+      "files": [
+        {
+          "label": "物性物理科学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895.pdf",
+          "originalName": "R04_1.pdf",
+          "sha256": "0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895",
+          "byteSize": 514883,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R04_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性物理科学 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083.pdf",
+          "originalName": "R04_2.pdf",
+          "sha256": "e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083",
+          "byteSize": 956091,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R04_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的物性物理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。物性物理科学I／II各一册，从第1页打开。封面印入学年度，不印公历日，不写examDates。文件名R04—R08对应封面2022—2026年度，不把令和编号当成实施年。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-es-condensed-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 物性物理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "物性物理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2023年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "物性物理科学I",
+        "物性物理科学II"
+      ],
+      "files": [
+        {
+          "label": "物性物理科学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7.pdf",
+          "originalName": "R05_1.pdf",
+          "sha256": "522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7",
+          "byteSize": 1571550,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R05_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性物理科学 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497.pdf",
+          "originalName": "R05_2.pdf",
+          "sha256": "7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497",
+          "byteSize": 364050,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R05_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的物性物理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。物性物理科学I／II各一册，从第1页打开。封面印入学年度，不印公历日，不写examDates。文件名R04—R08对应封面2022—2026年度，不把令和编号当成实施年。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-es-condensed-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 物性物理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "物性物理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2024年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "物性物理科学I",
+        "物性物理科学II"
+      ],
+      "files": [
+        {
+          "label": "物性物理科学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d.pdf",
+          "originalName": "R06_1.pdf",
+          "sha256": "76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d",
+          "byteSize": 295552,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R06_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性物理科学 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a.pdf",
+          "originalName": "R06_2.pdf",
+          "sha256": "583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a",
+          "byteSize": 214878,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R06_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的物性物理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。物性物理科学I／II各一册，从第1页打开。封面印入学年度，不印公历日，不写examDates。文件名R04—R08对应封面2022—2026年度，不把令和编号当成实施年。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-es-condensed-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 物性物理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "物性物理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2025年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "物性物理科学I",
+        "物性物理科学II"
+      ],
+      "files": [
+        {
+          "label": "物性物理科学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e.pdf",
+          "originalName": "R07_1.pdf",
+          "sha256": "f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e",
+          "byteSize": 283346,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R07_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性物理科学 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac.pdf",
+          "originalName": "R07_2.pdf",
+          "sha256": "2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac",
+          "byteSize": 1066391,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R07_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的物性物理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。物性物理科学I／II各一册，从第1页打开。封面印入学年度，不印公历日，不写examDates。文件名R04—R08对应封面2022—2026年度，不把令和编号当成实施年。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-es-condensed-2026",
+      "universityId": "osaka",
+      "title": "2026年度 · 物性物理科学（専門科目）",
+      "graduateSchool": "基礎工学研究科",
+      "department": "物性物理科学（専門科目）",
+      "selectionName": "博士前期課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2026年度博士前期課程（一般）入学試験",
+      "admissionYears": [
+        2026
+      ],
+      "subjects": [
+        "物性物理科学I",
+        "物性物理科学II"
+      ],
+      "files": [
+        {
+          "label": "物性物理科学 I",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb.pdf",
+          "originalName": "R08_1.pdf",
+          "sha256": "6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb",
+          "byteSize": 270099,
+          "pages": 7,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R08_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性物理科学 II",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c.pdf",
+          "originalName": "R08_2.pdf",
+          "sha256": "dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c",
+          "byteSize": 319156,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学/基础工学/物性物理科学/R08_2.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。基礎工学研究科博士前期課程（一般）的物性物理科学専門科目。科目名称不是独立专攻，按「専門科目」分组。物性物理科学I／II各一册，从第1页打开。封面印入学年度，不印公历日，不写examDates。文件名R04—R08对应封面2022—2026年度，不把令和编号当成实施年。没有随卷解答。",
+      "sourceURL": "https://www.es.osaka-u.ac.jp/ja/"
+    },
+    {
+      "id": "osaka-ist-math-2005",
+      "universityId": "osaka",
+      "title": "2005年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2005,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成17年度大学院前期課程入試問題",
+      "admissionYears": [
+        2005
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7.pdf",
+          "originalName": "MA_nyushi_2005_JA.pdf",
+          "sha256": "5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7",
+          "byteSize": 32619,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2005_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2006",
+      "universityId": "osaka",
+      "title": "2006年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2006,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成18年度大学院前期課程入試問題",
+      "admissionYears": [
+        2006
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819.pdf",
+          "originalName": "MA_nyushi_2006_JA.pdf",
+          "sha256": "047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819",
+          "byteSize": 22505,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2006_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2007",
+      "universityId": "osaka",
+      "title": "2007年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成19年度大学院前期課程入試問題",
+      "admissionYears": [
+        2007
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c.pdf",
+          "originalName": "MA_nyushi_2007_JA.pdf",
+          "sha256": "2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c",
+          "byteSize": 99520,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2007_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2008",
+      "universityId": "osaka",
+      "title": "2008年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成20年度大学院前期課程入試問題",
+      "admissionYears": [
+        2008
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756.pdf",
+          "originalName": "MA_nyushi_2008_JA.pdf",
+          "sha256": "f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756",
+          "byteSize": 105447,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2008_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2009",
+      "universityId": "osaka",
+      "title": "2009年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成21年度大学院前期課程入試問題",
+      "admissionYears": [
+        2009
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200.pdf",
+          "originalName": "MA_nyushi_2009_JA.pdf",
+          "sha256": "aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200",
+          "byteSize": 18600,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2009_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2010",
+      "universityId": "osaka",
+      "title": "2010年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成22年度大学院前期課程入試問題",
+      "admissionYears": [
+        2010
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8.pdf",
+          "originalName": "MA_nyushi_2010_JA.pdf",
+          "sha256": "df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8",
+          "byteSize": 27796,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2010_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2011",
+      "universityId": "osaka",
+      "title": "2011年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成23年度大学院前期課程入試問題",
+      "admissionYears": [
+        2011
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6.pdf",
+          "originalName": "MA_nyushi_2011_JA.pdf",
+          "sha256": "a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6",
+          "byteSize": 48443,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2011_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2012",
+      "universityId": "osaka",
+      "title": "2012年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成24年度大学院前期課程入試問題",
+      "admissionYears": [
+        2012
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af.pdf",
+          "originalName": "MA_nyushi_2012_JA.pdf",
+          "sha256": "c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af",
+          "byteSize": 55755,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2012_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2013",
+      "universityId": "osaka",
+      "title": "2013年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成25年度大学院前期課程入試問題",
+      "admissionYears": [
+        2013
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf.pdf",
+          "originalName": "MA_nyushi_2013_JA.pdf",
+          "sha256": "d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf",
+          "byteSize": 43062,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2013_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2014",
+      "universityId": "osaka",
+      "title": "2014年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成26年度大学院前期課程入試問題",
+      "admissionYears": [
+        2014
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31.pdf",
+          "originalName": "MA_nyushi_2014_JA.pdf",
+          "sha256": "af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31",
+          "byteSize": 89826,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2014_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2015",
+      "universityId": "osaka",
+      "title": "2015年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成27年度大学院前期課程入試問題",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021.pdf",
+          "originalName": "MA_nyushi_2015_JA.pdf",
+          "sha256": "199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021",
+          "byteSize": 75395,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2015_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2016",
+      "universityId": "osaka",
+      "title": "2016年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成28年度大学院前期課程入試問題",
+      "admissionYears": [
+        2016
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d.pdf",
+          "originalName": "MA_nyushi_2016_JA.pdf",
+          "sha256": "f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d",
+          "byteSize": 82195,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2016_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2017",
+      "universityId": "osaka",
+      "title": "2017年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成29年度大学院前期課程入試問題",
+      "admissionYears": [
+        2017
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6.pdf",
+          "originalName": "MA_nyushi_2017_JA.pdf",
+          "sha256": "9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6",
+          "byteSize": 490666,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2017_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2018",
+      "universityId": "osaka",
+      "title": "2018年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成30年度大学院前期課程入試問題",
+      "admissionYears": [
+        2018
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33.pdf",
+          "originalName": "MA_nyushi_2018_JA.pdf",
+          "sha256": "ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33",
+          "byteSize": 41037,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2018_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2019",
+      "universityId": "osaka",
+      "title": "2019年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成31年度大学院前期課程入試問題",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6.pdf",
+          "originalName": "MA_nyushi_2019_JA.pdf",
+          "sha256": "5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6",
+          "byteSize": 36413,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2019_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2020",
+      "universityId": "osaka",
+      "title": "2020年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和2年度大学院前期課程入試問題",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257.pdf",
+          "originalName": "MA_nyushi_2020_JA.pdf",
+          "sha256": "859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257",
+          "byteSize": 37442,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2020_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2021",
+      "universityId": "osaka",
+      "title": "2021年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和3年度大学院前期課程入試問題",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca.pdf",
+          "originalName": "MA_nyushi_2021_JA.pdf",
+          "sha256": "b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca",
+          "byteSize": 161999,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2021_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2022",
+      "universityId": "osaka",
+      "title": "2022年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和4年度大学院前期課程入試問題",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4.pdf",
+          "originalName": "MA_nyushi_2022_JA.pdf",
+          "sha256": "70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4",
+          "byteSize": 47141,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2022_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2023",
+      "universityId": "osaka",
+      "title": "2023年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和5年度大学院前期課程入試問題",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572.pdf",
+          "originalName": "MA_nyushi_2023_JA.pdf",
+          "sha256": "884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572",
+          "byteSize": 211264,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2023_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2024",
+      "universityId": "osaka",
+      "title": "2024年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和6年度大学院前期課程入試問題",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39.pdf",
+          "originalName": "MA_nyushi_2024_JA.pdf",
+          "sha256": "8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39",
+          "byteSize": 1285755,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2024_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
+      "id": "osaka-ist-math-2025",
+      "universityId": "osaka",
+      "title": "2025年度 · 情報基礎数学専攻",
+      "graduateSchool": "情報科学研究科",
+      "department": "情報基礎数学専攻",
+      "selectionName": "大学院前期課程入試",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "令和7年度大学院前期課程入試問題",
+      "admissionYears": [
+        2025
+      ],
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa.pdf",
+          "originalName": "MA_nyushi_2025_JA.pdf",
+          "sha256": "a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa",
+          "byteSize": 195968,
+          "pages": 3,
+          "sourcePaths": [
+            "大阪大学/情报科学/情报基础数学/MA_nyushi_2025_JA.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。情報科学研究科情報基礎数学専攻的前期課程数学笔试。封面印平成或令和年度，paperYear按该年度（平成N＝1988+N，令和N＝2018+N），不印公历日，不写examDates，也不把文件名年份当成实施日。第1页是注意事项封面，从第2页打开。口述試問サンプル不建入口。没有随卷解答。",
+      "sourceURL": "https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/past-exam.php"
+    },
+    {
       "id": "kyushu-isee-info-2025",
       "universityId": "kyushu",
       "title": "2025年度 · 情報理工学専攻",
@@ -26170,7 +30260,7 @@
       ]
     },
     "osaka": {
-      "text": "大阪大学新增57组／95个PDF（94个问题原卷、1个科目参考书说明），无随卷解答。电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。年度按卷面入学年度，知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。基礎工学按考试科目分组，不把科目当专攻；乱码原名、封面和原页均保留。不声明全校、所有年度或缺少的科目齐全。"
+      "text": "本校154组／227个PDF、1539页，无随卷解答。2026-10-15已上线的57组／95个PDF、720页保持不变：电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。2026-10-18补录原先排除的理学数学、理学物理、基础工学数理科学、物性物理科学和情报基础数学，新增97组、132个唯一PDF、819页。理学数学按封面入学年度，8月的数学問題A／B合成一组；封面印「第2次募集」的2022、2023另组；其余11月或2月场封面未印二次，不按文件名写成二次募集。本目录没有2021年度数学册。理学物理封面只印实施年月，paperYear用入学年度（8月或9月实施对应次年4月入学），2012—2021各页未印日期，不补实施日。数理科学与物性物理科学按封面入学年度，科目名加「専門科目」，不虚构专攻。情報基礎数学専攻2005—2025按封面平成／令和年度。環境工学コース小論文5份和口述試問サンプル不建真题入口。年度按卷面入学年度。基礎工学既有科目仍按「専門科目」分组。不声明全校或所有年份齐全。"
     },
     "kyushu": {
       "text": "本校28组／16个PDF、646页，无解答。システム情報科学府修士課程入学試験10册：情報理工学専攻与電気電子工学専攻各令和3–7年度入学（2021–2025），实施日按封面为2020-12-05至06、2021-08-30至31、2022-08-29至30、2023-08-29至30、2024-09-10至11。paperYear按封面令和入学年度，examYear按实施年；R03是2021年入学、2020年12月实施。第1页为封面，其后到专门科目前是两专攻共用的数学（同年两册该段提取文本一致），专门科目从R03第9页、R04第7页、R05第8页、R06第9页、R07第8页打开，整册不拆。R04专门科目为扫描图；R06封面与数学页文字层乱码，封面经渲染核对。另有理工学専攻合册6份：2023–2025年度的2月与9月，封面只印理工学専攻（博士前期／修士・博士後期・前後期共通）和理工基礎题群，未印学府名，不写成総合理工学府，也不把题群当成独立专攻。只为機械工学基礎、電気・電子工学基礎、情報学基礎设入口；化学基礎、数学基礎、物理学基礎、生物科学基礎留在原册。2025年2月册未见生物科学基礎页眉，2024年2月册未见物理学基礎页眉。2025年度9月、2月两册与已上线的上智大学问题册字节相同，不另存、不改上智记录。不声明其他年度或全校齐全。"
