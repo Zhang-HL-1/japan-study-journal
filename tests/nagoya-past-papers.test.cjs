@@ -3,15 +3,15 @@ const data=require('../past-papers-data.js'),manifest=require('../assets/past-pa
 const papers=data.papers.filter(p=>p.universityId==='nagoya'),root=path.join(__dirname,'..');
 const find=id=>papers.find(p=>p.id===id);
 const sameFiles=(ids)=>{const groups=ids.map(find);const urls=groups.map(p=>p.files.map(f=>f.url).join('|'));assert.equal(new Set(urls).size,1);return groups[0];};
-test('Nagoya keeps 42 original PDFs and 52 in-scope groups',()=>{
- assert.equal(papers.length,52);assert.equal(manifest.files.length,42);assert.equal(manifest.inventoryPDFs,182);assert.equal(manifest.sourceFiles,57);assert.equal(manifest.uniquePDFs,42);assert.equal(manifest.duplicateByteCopies,15);assert.equal(manifest.groups,52);assert.equal(manifest.catalogPDFs,40);assert.equal(manifest.questionPDFs,37);assert.equal(manifest.answerPDFs,4);assert.equal(manifest.otherPDFs,1);assert.equal(manifest.undatedPDFs,2);assert.equal(manifest.totalPages,614);assert.equal(manifest.yearBasis,'mixed');
- assert.equal(manifest.files.reduce((n,f)=>n+f.pages,0),614);assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,40);assert.equal(new Set(papers.map(p=>p.department)).size,16);
- assert.deepEqual(manifest.excluded.map(e=>e.area),['理学/多元数理','理学/物理科学','工学/化学系统','工学/土木']);
- for(const f of manifest.files){const b=fs.readFileSync(path.join(root,f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.ok(f.startPage<=f.pages);assert.ok(f.sourcePaths.every(p=>p.startsWith('名古屋大学/')));}
- for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.equal(p.yearEvidence,'cover');assert.ok(!/化学システム|多元数理|土木/.test(p.department));assert.ok(!p.files.some(f=>f.answerProvenance));for(const f of p.files){assert.ok(f.startPage<=f.pages);assert.match(core.fileURL(f),new RegExp('#page='+f.startPage+'$'));}if(p.examDates)assert.equal(p.dateEvidence,'cover');}
+test('Nagoya keeps original PDFs and backfilled groups',()=>{
+ assert.equal(papers.length,153);assert.equal(manifest.files.length,165);assert.equal(manifest.inventoryPDFs,182);assert.equal(manifest.sourceFiles,182);assert.equal(manifest.uniquePDFs,165);assert.equal(manifest.duplicateByteCopies,17);assert.equal(manifest.groups,153);assert.equal(manifest.catalogPDFs,163);assert.equal(manifest.questionPDFs,158);assert.equal(manifest.answerPDFs,6);assert.equal(manifest.otherPDFs,1);assert.equal(manifest.undatedPDFs,2);assert.equal(manifest.totalPages,1419);assert.equal(manifest.yearBasis,'mixed');
+ assert.equal(manifest.files.reduce((n,f)=>n+f.pages,0),1419);assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,163);assert.equal(new Set(papers.map(p=>p.department)).size,24);
+ assert.deepEqual(manifest.excluded,[]);assert.equal(manifest.backfill.addedGroups,101);assert.equal(manifest.backfill.addedUniquePDFs,123);assert.equal(manifest.backfill.addedPages,805);
+ for(const f of manifest.files){const b=fs.readFileSync(path.join(root,f.path));const pdfHeader=b.subarray(0,5).equals(Buffer.from('%PDF-'))||(b.subarray(0,4).equals(Buffer.from([0,5,0x16,0]))&&b.includes(Buffer.from('%PDF-')));assert.ok(pdfHeader);assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.ok(f.startPage<=f.pages);assert.ok(f.sourcePaths.every(p=>p.startsWith('名古屋大学/')));}
+ for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.equal(p.yearEvidence,'cover');assert.ok(!p.files.some(f=>f.answerProvenance));for(const f of p.files){assert.ok(f.startPage<=f.pages);assert.match(core.fileURL(f),new RegExp('#page='+f.startPage+'$'));}if(p.examDates)assert.equal(p.dateEvidence,'cover');}
  assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.universityId!=='osaka'&&p.universityId!=='uec'&&p.universityId!=='nagoya'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'))).digest('hex'),'3db40a3d840eccc9a380f3da9c2bf589570f03f7d2497f17239c8a52ce4bb47a');
  const notes={...data.schoolNotes};delete notes.osaka;delete notes.uec;delete notes.nagoya;delete notes.kyushu;delete notes.tohoku;delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'717ad21bc87bd05cc7fa43d341f2a0ba9a602af6ed75076895484bb0a4151039');
- assert.match(data.schoolNotes.nagoya.text,/52组／40个有年度PDF/);
+ assert.match(data.schoolNotes.nagoya.text,/153组／163个有年度PDF/);
  const supplements=data.schoolNotes.nagoya.supplements;assert.deepEqual(supplements.map(s=>s.originalName),['energy-kiso.pdf','energy-senmon.pdf']);
  for(const s of supplements){assert.equal(s.kind,'question');assert.ok(core.fileURL(s));assert.ok(!papers.some(p=>p.files.some(f=>f.url===s.url)));assert.ok(s.sourcePaths[0].includes('エネルギー理工学専攻・総合エネルギー工学専攻/'));}
 });
@@ -34,5 +34,26 @@ test('Nagoya shares in-scope booklets and takes years from covers',()=>{
  assert.equal(core.filter(papers,catalog.universities,{school:'nagoya',graduate:'all',department:'all',year:'all',query:'2020-02-13'}).length,1);
  assert.deepEqual(core.filter(papers,catalog.universities,{school:'nagoya',graduate:'all',department:'エネルギー理工学専攻',year:'2025',query:''}).map(p=>p.id),['nagoya-enerim-2025']);
  assert.deepEqual(papers.filter(p=>p.paperYear===2025&&/エネルギー/.test(p.department)).map(p=>p.id),['nagoya-enerim-2025','nagoya-enesogo-2025']);
- assert.ok(!papers.some(p=>p.department.includes('化学システム')||p.department.includes('ネットワーク')));
+ assert.ok(!papers.some(p=>p.department.includes('ネットワーク')));
+ assert.equal(papers.filter(p=>p.department==='化学システム工学専攻').length,2);
+});
+test('Nagoya backfill adds the previously excluded majors without a second chemistry PDF',()=>{
+ assert.equal(papers.filter(p=>p.department==='多元数理科学専攻').length,51);
+ const y2026=find('nagoya-tagen-2026');assert.equal(y2026.paperYear,2026);assert.equal(y2026.yearBasis,'academic');assert.deepEqual(y2026.admissionYears,[2026]);assert.deepEqual(y2026.examDates,['2025-08-02','2025-08-03']);assert.equal(y2026.examYear,2025);assert.equal(y2026.files[0].startPage,2);
+ const feb=find('nagoya-tagen-2012-feb');assert.equal(feb.paperYear,2012);assert.deepEqual(feb.examDates,['2012-02-07']);assert.doesNotMatch(feb.selectionName,/2次|二次|第2次/);
+ const second=find('nagoya-tagen-2008-2');assert.match(second.selectionName,/第2次募集/);assert.equal(second.files[0].startPage,2);
+ assert.equal(find('nagoya-tagen-2001').files[0].startPage,1);assert.deepEqual(find('nagoya-tagen-2007-2').examDates,['2007-02-20']);assert.match(find('nagoya-tagen-2001-2').selectionName,/２次募集/);assert.match(find('nagoya-tagen-2006').sourceNote,/AppleSingle/);
+ const phys=find('nagoya-physci-2025');assert.equal(phys.paperYear,2025);assert.equal(phys.yearBasis,'exam');assert.equal(phys.admissionYears,undefined);assert.deepEqual(phys.examDates,['2025-08-20']);assert.equal(phys.files[0].startPage,3);assert.equal(phys.files[1].kind,'answer');assert.match(phys.sourceNote,/２０２６年度/);
+ assert.deepEqual(find('nagoya-physci-2021').examDates,['2021-09-24']);assert.equal(find('nagoya-physci-2017'),undefined);assert.deepEqual(find('nagoya-spphys-2017').examDates,['2017-08-23']);
+ const old=sameFiles(['nagoya-spphys-2013','nagoya-spgeo-2013','nagoya-matphys-2013']);assert.deepEqual(old.examDates,['2013-08-28']);assert.equal(old.files[0].startPage,2);
+ assert.equal(papers.filter(p=>p.id.startsWith('nagoya-spphys-')).length,13);assert.equal(papers.filter(p=>p.id.startsWith('nagoya-physci-')).length,5);
+ const civil=sameFiles(['nagoya-civil-2026','nagoya-urbanenv-2026']);assert.equal(civil.paperYear,2026);assert.equal(civil.yearBasis,'academic');assert.equal(civil.examDates,undefined);assert.equal(civil.examYear,undefined);assert.equal(civil.files[0].startPage,2);assert.equal(civil.files[1].kind,'answer');
+ assert.equal(find('nagoya-civil-2025').paperYear,2025);assert.equal(find('nagoya-civil-2025').files[0].startPage,3);assert.equal(find('nagoya-civil-2025').examDates,undefined);
+ const chem=sameFiles(['nagoya-mdesign-2025','nagoya-mprocess-2025','nagoya-chemsys-2025']);assert.equal(find('nagoya-chemsys-2025').department,'化学システム工学専攻');assert.ok(find('nagoya-chemsys-2025').files[0].sourcePaths.some(p=>p.endsWith('/工学/化学系统/08.pdf')));
+ assert.equal(manifest.files.filter(f=>f.sha256===chem.files[0].sha256).length,1);assert.ok(manifest.files.find(f=>f.sha256===chem.files[0].sha256).sourcePaths.some(p=>p.endsWith('/工学/化学系统/08.pdf')));
+ const foreign=sameFiles(['nagoya-mdesign-foreign-2025','nagoya-mprocess-foreign-2025','nagoya-chemsys-foreign-2025']);assert.ok(find('nagoya-chemsys-foreign-2025').files[0].sourcePaths.some(p=>p.endsWith('/工学/化学系统/08f.pdf')));assert.equal(manifest.files.filter(f=>f.sha256===foreign.files[0].sha256).length,1);
+ assert.deepEqual(core.filter(papers,catalog.universities,{school:'nagoya',graduate:'多元数理科学研究科',department:'多元数理科学専攻',year:'2026',query:''}).map(p=>p.id).sort(),['nagoya-tagen-2026','nagoya-tagen-2026-feb']);
+ assert.equal(core.filter(papers,catalog.universities,{school:'nagoya',graduate:'all',department:'all',year:'all',query:'物理科学'}).length,5);
+ assert.deepEqual(core.filter(papers,catalog.universities,{school:'nagoya',graduate:'all',department:'土木工学専攻',year:'all',query:''}).map(p=>p.id).sort(),['nagoya-civil-2025','nagoya-civil-2026']);
+ assert.deepEqual(core.filter(papers,catalog.universities,{school:'nagoya',graduate:'all',department:'化学システム工学専攻',year:'all',query:''}).map(p=>p.id).sort(),['nagoya-chemsys-2025','nagoya-chemsys-foreign-2025']);
 });
