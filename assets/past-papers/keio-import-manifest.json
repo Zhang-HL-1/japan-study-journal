@@ -3,35 +3,19 @@
   "universityId": "keio",
   "sourceFolder": "Google Drive／过去问／庆应义塾大学",
   "inventoryPDFs": 47,
-  "sourceFiles": 32,
-  "uniquePDFs": 32,
-  "duplicateByteCopies": 0,
-  "groups": 32,
-  "questionPDFs": 32,
+  "sourceFiles": 47,
+  "uniquePDFs": 46,
+  "duplicateByteCopies": 1,
+  "groups": 46,
+  "questionPDFs": 46,
   "answerPDFs": 0,
-  "totalPages": 181,
+  "totalPages": 307,
   "yearBasis": "exam",
   "sharedWithExistingSchools": [],
   "boundaryGroups": 9,
   "yearBasisNote": "封面只印「YYYY年 8月」，无入学年度、无具体日。paperYear与examYear用该年，yearBasis为exam。不写admissionYears，也不写examDates。不从文件名、文件夹或次年4月入学惯例补年度。",
-  "coverageNote": "本校32组／32个唯一PDF、181页，无解答，无字节重复。封面统一为「YYYY年 8月」「慶應義塾大学大学院 理工学研究科」「前期博士課程 入学試験問題」「教育研究分野：〈字母〉〈名称〉」。封面无入学年度、无具体日，只有考试月，故 yearBasis 为 exam：paperYear 与 examYear 用该年，不写 admissionYears，也不写 examDates。2021–2024年收录 J マテリアルデザイン科学、M 応用力学・計算力学、N 情報工学、D 物理情報、I 電気電子工学各4册。2025年根目录按封面为 C 物理情報工学、G 機械工学、H 電気情報工学。边界／待确认：H システム統合工学2021–2024、G マルチディシプリナリ・デザイン科学2021–2024、I システムデザイン工学2025，按封面单独建目录，不并入其他分野。2025年字母与2021–2024年不同（旧 D 物理情報／G マルチディシプリナリ・デザイン科学／H システム統合工学／I 電気電子工学），按封面记，不合并。云盘无2021–2024年機械工学文件夹，只有 G 機械工学2025，不补。2021年多为扫描／双页拼版，pdfinfo Pages 有的约为封面総ページ数的一半（Hシステム統合4/8、Jマテリアル4/8、Gマルチ1/2、N情報3/6、D物理情報2/4），M応用力学5/9与I電気電子3/5不是整齐的一半；两数都记，页数以实际PDF为准，这些册从第1页打开。页数一致且封面写明问题自第2页起的册从第2页打开；C物理情報工学2025与D物理情報2022–2024封面未写「2ページから」，核对第2页为设问后从第2页打开。J マテリアルデザイン科学的选修含化学系分野与物理情報工学系分野，按各年封面原样收录，不拆不删：2021年各组3问中选2，2022–2024年各组2问都答。排除数理科学、物理学、オープンシステムマネジメント（不在本附件）。不声明其他年度或全校齐全。",
-  "excluded": [
-    {
-      "area": "数理科学",
-      "count": 5,
-      "reason": "纯数学。文件夹4份（A…2021–2024）加根目录A数理科学2025.pdf。不在附件内，不入库，不建目录。"
-    },
-    {
-      "area": "物理学",
-      "count": 6,
-      "reason": "纯物理。文件夹5份（B…2021–2025）加根目录B物理学2025.pdf。不在附件内，不入库。根目录与文件夹内2025年文件大小同为316224字节，未下载，sha256未核对。"
-    },
-    {
-      "area": "オープンシステムマネジメント",
-      "count": 4,
-      "reason": "管理方向（O…2021–2024）。不在附件内，不入库，不建目录。"
-    }
-  ],
+  "coverageNote": "本校46组／46个唯一PDF、307页，无解答。2026-10-15已上线的32组／32个唯一PDF、181页保持不变。2026-10-18补录原先排除的A数理科学、B物理学、Oオープンシステムマネジメント，新增14组、14个唯一PDF、126页。云盘47个PDF全部纳入；根目录B物理学2025.pdf与物理学/B物理学2025.pdf字节相同，duplicateByteCopies为1，两个路径都写入sourcePaths。封面统一为「YYYY年 8月」「慶應義塾大学大学院 理工学研究科」「前期博士課程 入学試験問題」「教育研究分野：〈字母〉〈名称〉」。封面无入学年度、无具体日，只有考试月，故 yearBasis 为 exam：paperYear 与 examYear 用该年，不写 admissionYears，也不写 examDates。2021–2024年收录 J マテリアルデザイン科学、M 応用力学・計算力学、N 情報工学、D 物理情報、I 電気電子工学、A 数理科学、B 物理学、O オープンシステムマネジメント。2025年根目录按封面为 A 数理科学、B 物理学、C 物理情報工学、G 機械工学、H 電気情報工学。边界／待确认：H システム統合工学2021–2024、G マルチディシプリナリ・デザイン科学2021–2024、I システムデザイン工学2025，按封面单独建目录，不并入其他分野。2025年字母与2021–2024年不同（旧 D 物理情報／G マルチディシプリナリ・デザイン科学／H システム統合工学／I 電気電子工学），按封面记，不合并。A 数理科学、B 物理学、O オープンシステムマネジメント按封面单独建目录，不并入 C／G／H／I。云盘无2021–2024年機械工学文件夹，只有 G 機械工学2025，不补。本包没有2025年オープンシステムマネジメント，不补。2021年多为扫描／双页拼版，pdfinfo Pages 有的约为封面総ページ数的一半（Hシステム統合4/8、Jマテリアル4/8、Gマルチ1/2、N情報3/6、D物理情報2/4、A数理科学4/8、B物理学4/8、Oオープンシステムマネジメント7/14），M応用力学5/9与I電気電子3/5不是整齐的一半；两数都记，页数以实际PDF为准，这些册从第1页打开。页数一致且封面写明问题自第2页起的册从第2页打开；C物理情報工学2025与D物理情報2022–2024封面未写「2ページから」，核对第2页为设问后从第2页打开。J マテリアルデザイン科学的选修含化学系分野与物理情報工学系分野，按各年封面原样收录，不拆不删：2021年各组3问中选2，2022–2024年各组2问都答。不声明其他年度或全校齐全。",
+  "excluded": [],
   "ambiguities": [
     "封面只有「YYYY年8月」，无入学年度、无具体日。yearBasis为exam，不写admissionYears和examDates，也不把次年4月入学写进去。",
     "2025年字母重排，按封面分开、不合并：C物理情報工学（2021–2024为D物理情報）、G機械工学（2021–2024的G是マルチディシプリナリ・デザイン科学）、H電気情報工学（2021–2024的H是システム統合工学）、Iシステムデザイン工学（2021–2024的I是電気電子工学）。",
@@ -42,8 +26,10 @@
     "Gマルチ2022–2024文字层分野名为半角「ﾏﾙﾁﾃﾞｨｼﾌﾟﾘﾅﾘ･ﾃﾞｻﾞｲﾝ科学」，渲染封面为全角「マルチディシプリナリ・デザイン科学」。目录用全角。2021年为扫描，文字层没有干净分野名。",
     "C物理情報工学2025与D物理情報2022–2024封面写「問題は片面のみに印刷」，未写「2ページから」。核对PDF第2页为C1／D1后从第2页打开。",
     "Gマルチ2021的G1要求用機械工学与デザイン科学的术语说明毕业研究，仍按封面分野收录，不改归机械。",
-    "根目录B物理学2025.pdf与物理学文件夹内B物理学2025.pdf大小同为316224，均已排除且未下载，不能确认是否同字节。",
-    "与已上线学校没有相同PDF字节。本包32个哈希各只有一条sourcePath。无解答册。"
+    "根目录B物理学2025.pdf与物理学/B物理学2025.pdf sha256同为38ae08346e79d6daa20d5003ba96fbde58bbc491f37bc448557f27e3f717a9b8，只存一份，两个sourcePaths都保留。",
+    "与已上线学校没有相同PDF字节。无解答册。补录后46个唯一PDF中，仅B物理学2025有两条sourcePath。",
+    "2026-10-18补录A数理科学5册、B物理学5个唯一PDF（Drive路径6条）、Oオープンシステムマネジメント4册。2021年为扫描／双页拼版：A数理科学实际4页、封面8页，B物理学实际4页、封面8页，Oオープンシステムマネジメント实际7页、封面14页，约为封面総ページ数的一半。页数以实际PDF为准，从第1页打开。2022年起页数与封面一致，封面写明问题自第2页起，从第2页打开。",
+    "A数理科学、B物理学、Oオープンシステムマネジメント按封面字母和名称单独建目录。2025年A、B不并入已上线的C物理情報工学、G機械工学、H電気情報工学、Iシステムデザイン工学，也不并入2021–2024年的D物理情報。本包没有2025年オープンシステムマネジメント，不补。"
   ],
   "files": [
     {
@@ -589,6 +575,254 @@
       "startPage": 2,
       "boundary": true,
       "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/05fd8f8e3c47a2c1464fb2c652c99d7390370b12d13174a77218d5964760e3fe.pdf",
+      "originalName": "A数理科学2021.pdf",
+      "sha256": "05fd8f8e3c47a2c1464fb2c652c99d7390370b12d13174a77218d5964760e3fe",
+      "byteSize": 1069915,
+      "pages": 4,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/数理科学/A数理科学2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-a-math-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": false,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/ba3e97bde6b8596d4c6310b7ac734635eccfa3601b9e7856cb416572566084c8.pdf",
+      "originalName": "A数理科学2022.pdf",
+      "sha256": "ba3e97bde6b8596d4c6310b7ac734635eccfa3601b9e7856cb416572566084c8",
+      "byteSize": 167140,
+      "pages": 8,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/数理科学/A数理科学2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-a-math-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/bee8fe81431552e95876f71da48e2577d3b1954ac32adbe5ffce714b7d4c4e60.pdf",
+      "originalName": "A数理科学2023.pdf",
+      "sha256": "bee8fe81431552e95876f71da48e2577d3b1954ac32adbe5ffce714b7d4c4e60",
+      "byteSize": 182138,
+      "pages": 8,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/数理科学/A数理科学2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-a-math-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/c973fcbdd14574031def405aa5515dab446b69ad9f370a773a23a0ffa58be120.pdf",
+      "originalName": "A数理科学2024.pdf",
+      "sha256": "c973fcbdd14574031def405aa5515dab446b69ad9f370a773a23a0ffa58be120",
+      "byteSize": 174245,
+      "pages": 8,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/数理科学/A数理科学2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-a-math-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/04daeb6e4d74bae5b95446ed60652472815d0e771400e568bb30db9ce0e417af.pdf",
+      "originalName": "A数理科学2025.pdf",
+      "sha256": "04daeb6e4d74bae5b95446ed60652472815d0e771400e568bb30db9ce0e417af",
+      "byteSize": 145785,
+      "pages": 8,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/A数理科学2025.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-a-math-2025",
+      "paperYear": 2025,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/fccee0ba22351d7a9b7a46cfa3f8964afa1380ac5c5a62495c35945602c09647.pdf",
+      "originalName": "B物理学2021.pdf",
+      "sha256": "fccee0ba22351d7a9b7a46cfa3f8964afa1380ac5c5a62495c35945602c09647",
+      "byteSize": 1147964,
+      "pages": 4,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/物理学/B物理学2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-b-physics-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": false,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/35df29b44ad877b5432fa8b9485413976961fbbda8d93707ebcfb4d8846d98c9.pdf",
+      "originalName": "B物理学2022.pdf",
+      "sha256": "35df29b44ad877b5432fa8b9485413976961fbbda8d93707ebcfb4d8846d98c9",
+      "byteSize": 430414,
+      "pages": 10,
+      "pagesCoverClaim": 10,
+      "sourcePaths": [
+        "庆应义塾大学/物理学/B物理学2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-b-physics-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/12068cd2152d0ff7943d8ad7f33d51a0c0b382927c5f28816c15b4881f4a97f6.pdf",
+      "originalName": "B物理学2023.pdf",
+      "sha256": "12068cd2152d0ff7943d8ad7f33d51a0c0b382927c5f28816c15b4881f4a97f6",
+      "byteSize": 139876,
+      "pages": 12,
+      "pagesCoverClaim": 12,
+      "sourcePaths": [
+        "庆应义塾大学/物理学/B物理学2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-b-physics-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/b9bbfcadc36f749c228ed7ffcd1d430c68992cc6d46df5ebecd3019107072e75.pdf",
+      "originalName": "B物理学2024.pdf",
+      "sha256": "b9bbfcadc36f749c228ed7ffcd1d430c68992cc6d46df5ebecd3019107072e75",
+      "byteSize": 132741,
+      "pages": 7,
+      "pagesCoverClaim": 7,
+      "sourcePaths": [
+        "庆应义塾大学/物理学/B物理学2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-b-physics-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/38ae08346e79d6daa20d5003ba96fbde58bbc491f37bc448557f27e3f717a9b8.pdf",
+      "originalName": "B物理学2025.pdf",
+      "sha256": "38ae08346e79d6daa20d5003ba96fbde58bbc491f37bc448557f27e3f717a9b8",
+      "byteSize": 316224,
+      "pages": 8,
+      "pagesCoverClaim": 8,
+      "sourcePaths": [
+        "庆应义塾大学/B物理学2025.pdf",
+        "庆应义塾大学/物理学/B物理学2025.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-b-physics-2025",
+      "paperYear": 2025,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/cee3638f7cfe5c2cd14c0170c500b5e9e31110b7db7c0c170a47ace7fd58dcb6.pdf",
+      "originalName": "Oオープンシステムマネジメント2021.pdf",
+      "sha256": "cee3638f7cfe5c2cd14c0170c500b5e9e31110b7db7c0c170a47ace7fd58dcb6",
+      "byteSize": 1720569,
+      "pages": 7,
+      "pagesCoverClaim": 14,
+      "sourcePaths": [
+        "庆应义塾大学/オープンシステムマネジメント/Oオープンシステムマネジメント2021.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-o-open-system-2021",
+      "paperYear": 2021,
+      "startPage": 1,
+      "boundary": false,
+      "readMethod": "rendered-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/93b42c020dfcef55887ed0a6a627081c33deda3502d5828f647467b4f415ce74.pdf",
+      "originalName": "Oオープンシステムマネジメント2022.pdf",
+      "sha256": "93b42c020dfcef55887ed0a6a627081c33deda3502d5828f647467b4f415ce74",
+      "byteSize": 455657,
+      "pages": 14,
+      "pagesCoverClaim": 14,
+      "sourcePaths": [
+        "庆应义塾大学/オープンシステムマネジメント/Oオープンシステムマネジメント2022.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-o-open-system-2022",
+      "paperYear": 2022,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/00dc1703807c885bea2353875eb110e384e185c3b90a6d53d318099abfff4a93.pdf",
+      "originalName": "Oオープンシステムマネジメント2023.pdf",
+      "sha256": "00dc1703807c885bea2353875eb110e384e185c3b90a6d53d318099abfff4a93",
+      "byteSize": 521009,
+      "pages": 14,
+      "pagesCoverClaim": 14,
+      "sourcePaths": [
+        "庆应义塾大学/オープンシステムマネジメント/Oオープンシステムマネジメント2023.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-o-open-system-2023",
+      "paperYear": 2023,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
+    },
+    {
+      "path": "assets/past-papers/documents/e1b0df761bffe61dda36bd5b81ef1f3c0a654347fc9aa2950ed0656d8ae5739e.pdf",
+      "originalName": "Oオープンシステムマネジメント2024.pdf",
+      "sha256": "e1b0df761bffe61dda36bd5b81ef1f3c0a654347fc9aa2950ed0656d8ae5739e",
+      "byteSize": 781410,
+      "pages": 14,
+      "pagesCoverClaim": 14,
+      "sourcePaths": [
+        "庆应义塾大学/オープンシステムマネジメント/Oオープンシステムマネジメント2024.pdf"
+      ],
+      "kind": "question",
+      "groupId": "keio-o-open-system-2024",
+      "paperYear": 2024,
+      "startPage": 2,
+      "boundary": false,
+      "readMethod": "pdftotext-p1"
     }
-  ]
+  ],
+  "backfill": {
+    "at": "2026-10-18",
+    "addedGroups": 14,
+    "addedUniquePDFs": 14,
+    "addedPages": 126,
+    "duplicateByteCopies": 1,
+    "skippedNotExam": 0,
+    "note": "补录原先排除的数理科学5份、物理学6个Drive路径（唯一PDF 5个）、オープンシステムマネジメント4份。B物理学2025根目录与文件夹同字节，只入库一份。无skippedNotExam。"
+  }
 }
