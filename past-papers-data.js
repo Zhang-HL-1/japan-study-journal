@@ -31104,6 +31104,19 @@
             "东京科学大学/理学院/数学/2020innsi.pdf"
           ],
           "startPage": 1
+        },
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e0ca09d80c28129adf8785db908367bf09a3e9be5807e9273d960636bfd23b0f.pdf",
+          "originalName": "exam_math_20208.pdf",
+          "sha256": "e0ca09d80c28129adf8785db908367bf09a3e9be5807e9273d960636bfd23b0f",
+          "byteSize": 286354,
+          "pages": 8,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/exam_math_20208.pdf"
+          ],
+          "startPage": 1
         }
       ],
       "sourceBatch": "science-tokyo-drive-20261018",
@@ -31803,11 +31816,1101 @@
       "admissionYears": [
         2025
       ]
+    },
+    {
+      "id": "science-tokyo-drive-cs-academic-2020",
+      "universityId": "science-tokyo",
+      "title": "2020年度入学 · 情報工学系 · 笔答专业试验",
+      "graduateSchool": "情報理工学院",
+      "department": "情報工学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "originalYear": "2020 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/67c4833faeb6f2e23e5d258d363436df599bc31586fadfa99a13cc926a21f9d5.pdf",
+          "originalName": "exam_cs_20198.pdf",
+          "sha256": "67c4833faeb6f2e23e5d258d363436df599bc31586fadfa99a13cc926a21f9d5",
+          "byteSize": 592267,
+          "pages": 11,
+          "sourcePaths": [
+            "东京科学大学/情报理工学院/情报工学/exam_cs_20198.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2020
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-cv-academic-2024",
+      "universityId": "science-tokyo",
+      "title": "2024年度入学 · 土木・環境工学系 · 笔答专业试验",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "土木・環境工学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "originalYear": "2024 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0a7eab2fd526e7defe5feef55ec99e36cf1077a5ce2dc5d0833e5849052694b9.pdf",
+          "originalName": "exam_cv_20238.pdf",
+          "sha256": "0a7eab2fd526e7defe5feef55ec99e36cf1077a5ce2dc5d0833e5849052694b9",
+          "byteSize": 13061883,
+          "pages": 16,
+          "sourcePaths": [
+            "东京科学大学/环境社会理工/土木环境/exam_cv_20238.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2024
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-cv-academic-2026",
+      "universityId": "science-tokyo",
+      "title": "2026年度入学 · 土木・環境工学系 · 笔答专业试验",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "土木・環境工学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "originalYear": "2026 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8398aab7bc87df748362b4b9f76f51800c2cf8a46db6c107502154853d5eccb5.pdf",
+          "originalName": "exam_cv_20258.pdf",
+          "sha256": "8398aab7bc87df748362b4b9f76f51800c2cf8a46db6c107502154853d5eccb5",
+          "byteSize": 4391037,
+          "pages": 17,
+          "sourcePaths": [
+            "东京科学大学/环境社会理工/土木环境/exam_cv_20258.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出题意图（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/41a9c30bfebfe805ecd5ebbbdb0a3c588ca86c18850b8a5c6109b79c00abe274.pdf",
+          "originalName": "POQ_cv_20258.pdf",
+          "sha256": "41a9c30bfebfe805ecd5ebbbdb0a3c588ca86c18850b8a5c6109b79c00abe274",
+          "byteSize": 248999,
+          "pages": 3,
+          "sourcePaths": [
+            "东京科学大学/环境社会理工/土木环境/POQ_cv_20258.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2026
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-ict-academic-2020",
+      "universityId": "science-tokyo",
+      "title": "2020年度入学 · 情報通信系 · 笔答专业试验",
+      "graduateSchool": "工学院",
+      "department": "情報通信系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "originalYear": "2020 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4d21c5632a1d9016fc24c0879815ee681910dd2c6e51ce51b7a1880b71dbfd4a.pdf",
+          "originalName": "exam_ict_20198.pdf",
+          "sha256": "4d21c5632a1d9016fc24c0879815ee681910dd2c6e51ce51b7a1880b71dbfd4a",
+          "byteSize": 577092,
+          "pages": 12,
+          "sourcePaths": [
+            "东京科学大学/工学院/情报通讯/exam_ict_20198.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。信息通信不同年份公开内容不一，仅按现有原卷收录，不声明覆盖全部考试科目。",
+      "admissionYears": [
+        2020
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-ict-academic-2024",
+      "universityId": "science-tokyo",
+      "title": "2024年度入学 · 情報通信系 · 笔答专业试验",
+      "graduateSchool": "工学院",
+      "department": "情報通信系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "originalYear": "2024 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e4189418d083afa19c6d2fc51ed408fae5c2006af53d570a4474fa4fd9da3fab.pdf",
+          "originalName": "exam_ict_20238.pdf",
+          "sha256": "e4189418d083afa19c6d2fc51ed408fae5c2006af53d570a4474fa4fd9da3fab",
+          "byteSize": 233396,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/工学院/情报通讯/exam_ict_20238.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。信息通信不同年份公开内容不一，仅按现有原卷收录，不声明覆盖全部考试科目。",
+      "admissionYears": [
+        2024
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-is-academic-2022",
+      "universityId": "science-tokyo",
+      "title": "2022年度入学 · 数理・計算科学系 · 笔答专业试验",
+      "graduateSchool": "情報理工学院",
+      "department": "数理・計算科学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "originalYear": "2022 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/72bddca9b5662c512f24cf5af3ed19273f5f00c308292d15197f33365e02b8d3.pdf",
+          "originalName": "exam_is_20218.pdf",
+          "sha256": "72bddca9b5662c512f24cf5af3ed19273f5f00c308292d15197f33365e02b8d3",
+          "byteSize": 218040,
+          "pages": 27,
+          "sourcePaths": [
+            "东京科学大学/情报理工学院/数理计算科学/exam_is_20218.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2022
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-is-academic-2023",
+      "universityId": "science-tokyo",
+      "title": "2023年度入学 · 数理・計算科学系 · 笔答专业试验",
+      "graduateSchool": "情報理工学院",
+      "department": "数理・計算科学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "originalYear": "2023 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/586821a76aeda7ea990b4cdd1291a238309bf8de2e8071ad72f12fa2eda037a1.pdf",
+          "originalName": "exam_is_20228.pdf",
+          "sha256": "586821a76aeda7ea990b4cdd1291a238309bf8de2e8071ad72f12fa2eda037a1",
+          "byteSize": 197061,
+          "pages": 25,
+          "sourcePaths": [
+            "东京科学大学/情报理工学院/数理计算科学/exam_is_20228.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2023
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-is-academic-2024",
+      "universityId": "science-tokyo",
+      "title": "2024年度入学 · 数理・計算科学系 · 笔答专业试验",
+      "graduateSchool": "情報理工学院",
+      "department": "数理・計算科学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "originalYear": "2024 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d8324cbb2743dd23788988a19b4864b2ff9bb3abccdb3ec11a9921c7fdd341e4.pdf",
+          "originalName": "exam_is_20238.pdf",
+          "sha256": "d8324cbb2743dd23788988a19b4864b2ff9bb3abccdb3ec11a9921c7fdd341e4",
+          "byteSize": 261718,
+          "pages": 29,
+          "sourcePaths": [
+            "东京科学大学/情报理工学院/数理计算科学/exam_is_20238.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2024
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-is-academic-2025",
+      "universityId": "science-tokyo",
+      "title": "2025年度入学 · 数理・計算科学系 · 笔答专业试验",
+      "graduateSchool": "情報理工学院",
+      "department": "数理・計算科学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f2ecad3b7899bf09040228a3114530ac2d14cfac6ce4668fc69dd69b886abc02.pdf",
+          "originalName": "exam_is_20248.pdf",
+          "sha256": "f2ecad3b7899bf09040228a3114530ac2d14cfac6ce4668fc69dd69b886abc02",
+          "byteSize": 215971,
+          "pages": 16,
+          "sourcePaths": [
+            "东京科学大学/情报理工学院/数理计算科学/exam_is_20248.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2025
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-is-academic-2026",
+      "universityId": "science-tokyo",
+      "title": "2026年度入学 · 数理・計算科学系 · 笔答专业试验",
+      "graduateSchool": "情報理工学院",
+      "department": "数理・計算科学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "originalYear": "2026 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7d675b3dc2116233ff4b32992704ba0b07b6a14f5023f4810b7d4550c19cb9a8.pdf",
+          "originalName": "exam_is_20258.pdf",
+          "sha256": "7d675b3dc2116233ff4b32992704ba0b07b6a14f5023f4810b7d4550c19cb9a8",
+          "byteSize": 263115,
+          "pages": 15,
+          "sourcePaths": [
+            "东京科学大学/情报理工学院/数理计算科学/exam_is_20258.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出题意图（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/1b3123128ebfdb3a370715f2e848795bd578a377a6cedb75c7ad284cc21ac18b.pdf",
+          "originalName": "POQ_is_20258.pdf",
+          "sha256": "1b3123128ebfdb3a370715f2e848795bd578a377a6cedb75c7ad284cc21ac18b",
+          "byteSize": 76581,
+          "pages": 2,
+          "sourcePaths": [
+            "东京科学大学/情报理工学院/数理计算科学/POQ_is_20258.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2026
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-mat-academic-2026",
+      "universityId": "science-tokyo",
+      "title": "2026年度入学 · 材料系 · 笔答专业试验",
+      "graduateSchool": "物質理工学院",
+      "department": "材料系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "originalYear": "2026 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6cc0211e70af1432c10b1bbf628771f821f1eb22188d0712940e4b38a4ef09b7.pdf",
+          "originalName": "exam_mat_20258.pdf",
+          "sha256": "6cc0211e70af1432c10b1bbf628771f821f1eb22188d0712940e4b38a4ef09b7",
+          "byteSize": 3544886,
+          "pages": 21,
+          "sourcePaths": [
+            "东京科学大学/物质理工院/材料/exam_mat_20258.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出题意图（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/7b6cc89b14107e487ce59d70c47c4dd9f7b5958d4b566c5079ee147d930d8c51.pdf",
+          "originalName": "POQ_mat_20258.pdf",
+          "sha256": "7b6cc89b14107e487ce59d70c47c4dd9f7b5958d4b566c5079ee147d930d8c51",
+          "byteSize": 340256,
+          "pages": 3,
+          "sourcePaths": [
+            "东京科学大学/物质理工院/材料/POQ_mat_20258.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2026
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-math-academic-2006",
+      "universityId": "science-tokyo",
+      "title": "2006年度入学 · 数学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2006,
+      "yearBasis": "academic",
+      "originalYear": "平成18年度（2006年度）",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/591f37c7b54a8e8e908735b790da58722181c40bdf1a8bc38aa2c3b0444804fd.pdf",
+          "originalName": "H18innsi.pdf",
+          "sha256": "591f37c7b54a8e8e908735b790da58722181c40bdf1a8bc38aa2c3b0444804fd",
+          "byteSize": 315238,
+          "pages": 6,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/H18innsi.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。数学历史卷包含上午与下午部分，保留合册；同一年度不同字节的原文件并列保存，完全相同副本仅保留一个入口。",
+      "admissionYears": [
+        2006
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-math-academic-2011",
+      "universityId": "science-tokyo",
+      "title": "2011年度入学 · 数学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "originalYear": "平成23年度（2011年度）",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/07bfa81c0f23b5d42ba0ad3d91616261e9c2a325d76bd64b1bd2a961a488fc21.pdf",
+          "originalName": "H23innsi.pdf",
+          "sha256": "07bfa81c0f23b5d42ba0ad3d91616261e9c2a325d76bd64b1bd2a961a488fc21",
+          "byteSize": 222400,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/H23innsi.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。数学历史卷包含上午与下午部分，保留合册；同一年度不同字节的原文件并列保存，完全相同副本仅保留一个入口。",
+      "admissionYears": [
+        2011
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-math-academic-2012",
+      "universityId": "science-tokyo",
+      "title": "2012年度入学 · 数学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "originalYear": "平成24年度（2012年度）",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f19e81f68c5b3d2d202aa1a996150a4138c5e0b089a29b1a87f9359b4df80c78.pdf",
+          "originalName": "H24innsi.pdf",
+          "sha256": "f19e81f68c5b3d2d202aa1a996150a4138c5e0b089a29b1a87f9359b4df80c78",
+          "byteSize": 370930,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/H24innsi.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。数学历史卷包含上午与下午部分，保留合册；同一年度不同字节的原文件并列保存，完全相同副本仅保留一个入口。",
+      "admissionYears": [
+        2012
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-math-academic-2015",
+      "universityId": "science-tokyo",
+      "title": "2015年度入学 · 数学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "originalYear": "平成27年度（2015年度）",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/24bb7ba859694b4f95add0e4cb294e6126ae11972761a0020ca8c48b7d4b9633.pdf",
+          "originalName": "H27innsi.pdf",
+          "sha256": "24bb7ba859694b4f95add0e4cb294e6126ae11972761a0020ca8c48b7d4b9633",
+          "byteSize": 274232,
+          "pages": 6,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/H27innsi.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。数学历史卷包含上午与下午部分，保留合册；同一年度不同字节的原文件并列保存，完全相同副本仅保留一个入口。",
+      "admissionYears": [
+        2015
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-math-academic-2018",
+      "universityId": "science-tokyo",
+      "title": "2018年度入学 · 数学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "originalYear": "平成30年度（2018年度）",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ace53246e1c6ded2ed58a9d3a91372ddceffaf8c47a07da2bda61f57e1e53472.pdf",
+          "originalName": "H30innsi.pdf",
+          "sha256": "ace53246e1c6ded2ed58a9d3a91372ddceffaf8c47a07da2bda61f57e1e53472",
+          "byteSize": 171169,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/H30innsi.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。数学历史卷包含上午与下午部分，保留合册；同一年度不同字节的原文件并列保存，完全相同副本仅保留一个入口。",
+      "admissionYears": [
+        2018
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-math-academic-2021",
+      "universityId": "science-tokyo",
+      "title": "2021年度入学 · 数学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "originalYear": "2021 大修",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1ab7c94a1fcf77d864c236c8308d8761cb41f8641e56f3ce94fe4e796c271ade.pdf",
+          "originalName": "2021innsi.pdf",
+          "sha256": "1ab7c94a1fcf77d864c236c8308d8761cb41f8641e56f3ce94fe4e796c271ade",
+          "byteSize": 271062,
+          "pages": 8,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/2021innsi.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。数学历史卷包含上午与下午部分，保留合册；同一年度不同字节的原文件并列保存，完全相同副本仅保留一个入口。",
+      "admissionYears": [
+        2021
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-math-academic-2022",
+      "universityId": "science-tokyo",
+      "title": "2022年度入学 · 数学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "originalYear": "2022 大修",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b1fc6a53aa14d40bd015dc93dae3791344633e0b6320f759c603c76132d647eb.pdf",
+          "originalName": "2022innsi.pdf",
+          "sha256": "b1fc6a53aa14d40bd015dc93dae3791344633e0b6320f759c603c76132d647eb",
+          "byteSize": 146206,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/2022innsi.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/77e9c2befba527c4357eaca4dcdfab819493c0502908f8da0856363942aad083.pdf",
+          "originalName": "exam_math_20218.pdf",
+          "sha256": "77e9c2befba527c4357eaca4dcdfab819493c0502908f8da0856363942aad083",
+          "byteSize": 142218,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/exam_math_20218.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。数学历史卷包含上午与下午部分，保留合册；同一年度不同字节的原文件并列保存，完全相同副本仅保留一个入口。",
+      "admissionYears": [
+        2022
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-math-academic-2024",
+      "universityId": "science-tokyo",
+      "title": "2024年度入学 · 数学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "originalYear": "2024 大修",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fc80fcd43a44ab70b6ed22db7128c8e92a5245978ae5371f6545af47bc99d902.pdf",
+          "originalName": "2024innsi.pdf",
+          "sha256": "fc80fcd43a44ab70b6ed22db7128c8e92a5245978ae5371f6545af47bc99d902",
+          "byteSize": 407520,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/2024innsi.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/db649f987396b4b5b87812bd783f1f74efee47174d2bc751cbcb140c7aa4de97.pdf",
+          "originalName": "exam_math_20238.pdf",
+          "sha256": "db649f987396b4b5b87812bd783f1f74efee47174d2bc751cbcb140c7aa4de97",
+          "byteSize": 114708,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/exam_math_20238.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。数学历史卷包含上午与下午部分，保留合册；同一年度不同字节的原文件并列保存，完全相同副本仅保留一个入口。",
+      "admissionYears": [
+        2024
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-math-academic-2025",
+      "universityId": "science-tokyo",
+      "title": "2025年度入学 · 数学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "数学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025 大修",
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b68317eba11e27e6b9d8fdf1d046fc67415d9d9253828dd2beb6b55739a900b5.pdf",
+          "originalName": "exam_math_20248.pdf",
+          "sha256": "b68317eba11e27e6b9d8fdf1d046fc67415d9d9253828dd2beb6b55739a900b5",
+          "byteSize": 175149,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/exam_math_20248.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/43085fd7612000d124be469ef2fc693d5893e837dbc71b4337114bb75d447609.pdf",
+          "originalName": "2025innsi.pdf",
+          "sha256": "43085fd7612000d124be469ef2fc693d5893e837dbc71b4337114bb75d447609",
+          "byteSize": 187983,
+          "pages": 7,
+          "sourcePaths": [
+            "东京科学大学/理学院/数学/2025innsi.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。数学历史卷包含上午与下午部分，保留合册；同一年度不同字节的原文件并列保存，完全相同副本仅保留一个入口。",
+      "admissionYears": [
+        2025
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-phys-academic-2020",
+      "universityId": "science-tokyo",
+      "title": "2020年度入学 · 物理学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "物理学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "originalYear": "2020 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e3b863e3eda17f59797dcfa382a9a41b1b9a360f054c51fa22f4a92b367aa79.pdf",
+          "originalName": "exam_phys_20198.pdf",
+          "sha256": "5e3b863e3eda17f59797dcfa382a9a41b1b9a360f054c51fa22f4a92b367aa79",
+          "byteSize": 492013,
+          "pages": 16,
+          "sourcePaths": [
+            "东京科学大学/理学院/物理学/exam_phys_20198.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2020
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-phys-academic-2022",
+      "universityId": "science-tokyo",
+      "title": "2022年度入学 · 物理学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "物理学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "originalYear": "2022 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8efa8e1bc4f2e13e18d3e6cf1a87044d5114b7eed9f355e893afb9d881801cca.pdf",
+          "originalName": "exam_phys_20218.pdf",
+          "sha256": "8efa8e1bc4f2e13e18d3e6cf1a87044d5114b7eed9f355e893afb9d881801cca",
+          "byteSize": 668187,
+          "pages": 20,
+          "sourcePaths": [
+            "东京科学大学/理学院/物理学/exam_phys_20218.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2022
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-phys-academic-2024",
+      "universityId": "science-tokyo",
+      "title": "2024年度入学 · 物理学系 · 笔答专业试验",
+      "graduateSchool": "理学院",
+      "department": "物理学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "originalYear": "2024 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ff1a2d8e6462295a4ecc39d9c8ba7c98f71b080f0cce763f54cd948e587f9beb.pdf",
+          "originalName": "exam_phys_20238.pdf",
+          "sha256": "ff1a2d8e6462295a4ecc39d9c8ba7c98f71b080f0cce763f54cd948e587f9beb",
+          "byteSize": 539782,
+          "pages": 20,
+          "sourcePaths": [
+            "东京科学大学/理学院/物理学/exam_phys_20238.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2024
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-sc-academic-2022",
+      "universityId": "science-tokyo",
+      "title": "2022年度入学 · システム制御系 · 笔答专业试验",
+      "graduateSchool": "工学院",
+      "department": "システム制御系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "originalYear": "2022 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/083724ae5a7d01a0f0f393cc8229e47289f6e583ddd250e9955bc23c0b979f7e.pdf",
+          "originalName": "exam_sc_20218.pdf",
+          "sha256": "083724ae5a7d01a0f0f393cc8229e47289f6e583ddd250e9955bc23c0b979f7e",
+          "byteSize": 449788,
+          "pages": 12,
+          "sourcePaths": [
+            "东京科学大学/工学院/系统制域/exam_sc_20218.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2022
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-sc-academic-2023",
+      "universityId": "science-tokyo",
+      "title": "2023年度入学 · システム制御系 · 笔答专业试验",
+      "graduateSchool": "工学院",
+      "department": "システム制御系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "originalYear": "2023 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4b335c69fbf800494f7f369ed6656a3811e7cdd11b96a6ec2d79b3e0e3dbb4a0.pdf",
+          "originalName": "exam_sc_20228.pdf",
+          "sha256": "4b335c69fbf800494f7f369ed6656a3811e7cdd11b96a6ec2d79b3e0e3dbb4a0",
+          "byteSize": 473060,
+          "pages": 12,
+          "sourcePaths": [
+            "东京科学大学/工学院/系统制域/exam_sc_20228.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2023
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-sc-academic-2024",
+      "universityId": "science-tokyo",
+      "title": "2024年度入学 · システム制御系 · 笔答专业试验",
+      "graduateSchool": "工学院",
+      "department": "システム制御系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "originalYear": "2024 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0d028406340240ccdfb34c400ec3d56edcc7e2c7794da99e7325a3680d2ce516.pdf",
+          "originalName": "exam_sc_20238.pdf",
+          "sha256": "0d028406340240ccdfb34c400ec3d56edcc7e2c7794da99e7325a3680d2ce516",
+          "byteSize": 357048,
+          "pages": 6,
+          "sourcePaths": [
+            "东京科学大学/工学院/系统制域/exam_sc_20238.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2024
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-sc-academic-2025",
+      "universityId": "science-tokyo",
+      "title": "2025年度入学 · システム制御系 · 笔答专业试验",
+      "graduateSchool": "工学院",
+      "department": "システム制御系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2025,
+      "yearBasis": "academic",
+      "originalYear": "2025 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6d248d609d072c0224b81218d195241803f8c1ac00bc53ca770dff23542b3085.pdf",
+          "originalName": "exam_sc_20248.pdf",
+          "sha256": "6d248d609d072c0224b81218d195241803f8c1ac00bc53ca770dff23542b3085",
+          "byteSize": 186341,
+          "pages": 6,
+          "sourcePaths": [
+            "东京科学大学/工学院/系统制域/exam_sc_20248.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2025
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-sc-academic-2026",
+      "universityId": "science-tokyo",
+      "title": "2026年度入学 · システム制御系 · 笔答专业试验",
+      "graduateSchool": "工学院",
+      "department": "システム制御系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "originalYear": "2026 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/255c97834ecdf5c0cb6b8db1735adcf02d227485f47fd06eb183c0283bb24134.pdf",
+          "originalName": "exam_sc_20258.pdf",
+          "sha256": "255c97834ecdf5c0cb6b8db1735adcf02d227485f47fd06eb183c0283bb24134",
+          "byteSize": 301144,
+          "pages": 6,
+          "sourcePaths": [
+            "东京科学大学/工学院/系统制域/exam_sc_20258.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出题意图（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/9d39effa4e8d225a7370745167c76849b6fa620d83ab3d94b19a279dc13e3ad0.pdf",
+          "originalName": "POQ_sc_20258.pdf",
+          "sha256": "9d39effa4e8d225a7370745167c76849b6fa620d83ab3d94b19a279dc13e3ad0",
+          "byteSize": 422737,
+          "pages": 1,
+          "sourcePaths": [
+            "东京科学大学/工学院/系统制域/POQ_sc_20258.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2026
+      ]
+    },
+    {
+      "id": "science-tokyo-drive-tse-academic-2026",
+      "universityId": "science-tokyo",
+      "title": "2026年度入学 · 融合理工学系 · 笔答专业试验",
+      "graduateSchool": "環境・社会理工学院",
+      "department": "融合理工学系",
+      "selectionName": "大学院修士課程・筆答専門試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "originalYear": "2026 大修",
+      "subjects": [
+        "筆答専門試験科目"
+      ],
+      "files": [
+        {
+          "label": "问题原卷",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d856e22e5919a66409800df21a45f083b732cb3c0272e0127cd1d76f8746a53b.pdf",
+          "originalName": "exam_tse_20258.pdf",
+          "sha256": "d856e22e5919a66409800df21a45f083b732cb3c0272e0127cd1d76f8746a53b",
+          "byteSize": 1270394,
+          "pages": 27,
+          "sourcePaths": [
+            "东京科学大学/环境社会理工/融合理工/exam_tse_20258.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "出题意图（非解答）",
+          "kind": "other",
+          "url": "assets/past-papers/documents/44a02ec80872bd0b6877dc0d9816e669c924f891612e4b6ed96f4ef927421540.pdf",
+          "originalName": "POQ_tse_20258.pdf",
+          "sha256": "44a02ec80872bd0b6877dc0d9816e669c924f891612e4b6ed96f4ef927421540",
+          "byteSize": 208938,
+          "pages": 1,
+          "sourcePaths": [
+            "东京科学大学/环境社会理工/融合理工/POQ_tse_20258.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "science-tokyo-drive-20261018",
+      "sourceNote": "用户Google Drive过去问原卷，按卷面核对专业与年度；学院字段沿用现行目录便于检索，历史研究科／专攻名称以原卷为准。PDF不拆分、不改动。考试范围页是否收录该专业不作为真题收录条件。",
+      "admissionYears": [
+        2026
+      ]
     }
   ],
   "schoolNotes": {
     "science-tokyo": {
-      "text": "按实际实施年整理：2001—2019、2021—2025共24年专业卷完整；1990、1993—2000共9年为部分资料。1991、1992尚未确认，1990以前及2026实施卷仍未取得。2020年历史官网说明未举行普通笔试，替代在线试验不公开。待核验R03照片没有学校／日期标识，不归入任何已确认年度。早期合卷保留其他年度，按PDF实际页码打开。 本次已核对网盘全部88个PDF；当前先补入已上传完整的43组，数学、物理、信息工学、材料等可按专攻查阅。其余29组正在补传，未完成文件不显示为可阅读资料。",
+      "text": "按实际实施年整理：2001—2019、2021—2025共24年专业卷完整；1990、1993—2000共9年为部分资料。1991、1992尚未确认，1990以前及2026实施卷仍未取得。2020年历史官网说明未举行普通笔试，替代在线试验不公开。待核验R03照片没有学校／日期标识，不归入任何已确认年度。早期合卷保留其他年度，按PDF实际页码打开。 本次已核对网盘全部88个PDF；补充批次72组已全部发布，经营工学、信息通信、系统控制、融合理工、土木・环境、物理、数学、信息工学、数理・计算科学与材料可按专攻查阅。数学2020在线试验按实施年收录，同年另一份不同字节原卷并列保留。",
       "supplements": [
         {
           "label": "待核验R03照片 · 学校／年份未确认",

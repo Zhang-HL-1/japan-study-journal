@@ -3,7 +3,7 @@ const core=require('../past-papers-core.js'),catalog=require('../campus-map-data
 const all={school:'all',graduate:'all',year:'all',query:''};
 // Synthetic metadata tests only; these are not past questions and never enter the production catalog.
 const sample=(changes={})=>({id:'test-paper-1',universityId:'utokyo',title:'Test metadata',graduateSchool:'工学系研究科',department:'テスト専攻',selectionName:'テスト選抜',examYear:2025,subjects:['電気回路'],files:[{label:'問題',kind:'question',url:'assets/past-papers/test-only.pdf'}],...changes});
-test('production publishes twelve university archives while the quiz bank stays empty',()=>{assert.equal(production.version,2);assert.equal(production.papers.length,719);for(const p of production.papers){assert.ok(['waseda','tus','science-tokyo','sophia','kobe','hokkaido','uec','nagoya','osaka','kyushu','tohoku','keio'].includes(p.universityId));assert.ok(core.validPaper(p,catalog.universities));}assert.equal(new Set(production.papers.flatMap(p=>p.files.map(f=>f.url))).size,972);assert.deepEqual(require('../questions.js'),[]);assert.equal(catalog.universities.length,23);});
+test('production publishes twelve university archives while the quiz bank stays empty',()=>{assert.equal(production.version,2);assert.equal(production.papers.length,748);for(const p of production.papers){assert.ok(['waseda','tus','science-tokyo','sophia','kobe','hokkaido','uec','nagoya','osaka','kyushu','tohoku','keio'].includes(p.universityId));assert.ok(core.validPaper(p,catalog.universities));}assert.equal(new Set(production.papers.flatMap(p=>p.files.map(f=>f.url))).size,1010);assert.deepEqual(require('../questions.js'),[]);assert.equal(catalog.universities.length,23);});
 test('Sophia shares original combined PDFs with correct exam dates and question/answer offsets',()=>{
  const crypto=require('node:crypto'),manifest=require('../assets/past-papers/sophia-import-manifest.json'),papers=production.papers.filter(p=>p.universityId==='sophia');
  assert.equal(papers.length,6);assert.equal(manifest.files.length,4);assert.equal(manifest.sourceFiles,4);assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,4);
@@ -74,6 +74,31 @@ test('Science Tokyo preserves bytes and separates complete years, fragments and 
  assert.ok(papers.find(p=>p.examYear===2025).files.some(f=>f.kind==='other'&&/非解答/.test(f.label)));
  const supplement=production.schoolNotes['science-tokyo'].supplements[0];assert.match(supplement.label,/待核验/);assert.ok(core.fileURL(supplement));assert.ok(!papers.some(p=>p.files.some(f=>f.url===supplement.url)));
  assert.match(production.schoolNotes['science-tokyo'].text,/2020.*未举行普通笔试/);
+});
+test('Science Tokyo supplement publishes the remaining 29 groups and keeps the 2020 math paper in 2020',()=>{
+ const crypto=require('node:crypto'),manifest=require('../assets/past-papers/science-tokyo-supplement-manifest.json');
+ const hash=v=>crypto.createHash('sha256').update(JSON.stringify(v)).digest('hex');
+ const all=production.papers.filter(p=>p.universityId==='science-tokyo'),batch=all.filter(p=>p.sourceBatch==='science-tokyo-drive-20261018'),original=all.filter(p=>!p.sourceBatch);
+ const added=['science-tokyo-drive-cs-academic-2020','science-tokyo-drive-cv-academic-2024','science-tokyo-drive-cv-academic-2026','science-tokyo-drive-ict-academic-2020','science-tokyo-drive-ict-academic-2024','science-tokyo-drive-is-academic-2022','science-tokyo-drive-is-academic-2023','science-tokyo-drive-is-academic-2024','science-tokyo-drive-is-academic-2025','science-tokyo-drive-is-academic-2026','science-tokyo-drive-mat-academic-2026','science-tokyo-drive-math-academic-2006','science-tokyo-drive-math-academic-2011','science-tokyo-drive-math-academic-2012','science-tokyo-drive-math-academic-2015','science-tokyo-drive-math-academic-2018','science-tokyo-drive-math-academic-2021','science-tokyo-drive-math-academic-2022','science-tokyo-drive-math-academic-2024','science-tokyo-drive-math-academic-2025','science-tokyo-drive-phys-academic-2020','science-tokyo-drive-phys-academic-2022','science-tokyo-drive-phys-academic-2024','science-tokyo-drive-sc-academic-2022','science-tokyo-drive-sc-academic-2023','science-tokyo-drive-sc-academic-2024','science-tokyo-drive-sc-academic-2025','science-tokyo-drive-sc-academic-2026','science-tokyo-drive-tse-academic-2026'];
+ assert.equal(all.length,105);assert.equal(original.length,33);assert.equal(batch.length,72);assert.equal(added.length,29);assert.equal(new Set(all.map(p=>p.id)).size,105);
+ assert.equal(manifest.publicationStatus,'complete');assert.equal(manifest.addedGroups,72);assert.equal(manifest.publishedGroups,72);assert.equal(manifest.pendingGroups,0);assert.equal(manifest.addedPDFs,82);assert.equal(manifest.publishedPDFs,82);
+ assert.equal(hash(original),'8c46eec3fda9b11b64108df52c1b2a571fe3ec866ae4e56da7bc741ca5015685');
+ assert.equal(hash(batch.filter(p=>p.id!=='science-tokyo-drive-math-academic-2020'&&!added.includes(p.id))),'15bf23e988dfd93b687e690f341c54e42e96b2163bb58a65a2349579a433757d');
+ assert.equal(new Set(batch.flatMap(p=>p.files.map(f=>f.sha256))).size,82);
+ for(const p of batch){assert.equal(p.universityId,'science-tokyo');assert.equal(p.yearBasis,'academic');assert.deepEqual(p.admissionYears,[p.paperYear]);assert.equal(p.sourceBatch,'science-tokyo-drive-20261018');for(const f of p.files){const b=fs.readFileSync(path.join(__dirname,'..',f.url));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.equal(f.startPage,1);}}
+ const math=batch.find(p=>p.id==='science-tokyo-drive-math-academic-2020');
+ assert.equal(hash({...math,files:[math.files[0]]}),'c906054bd27866f981e063ef1b23e909bf36d9aeb07c0852c50b3ed99f36f647');
+ assert.equal(math.paperYear,2020);assert.deepEqual(math.files.map(f=>f.originalName),['2020innsi.pdf','exam_math_20208.pdf']);assert.equal(batch.filter(p=>p.files.some(f=>f.originalName==='exam_math_20208.pdf')).length,1);
+ assert.equal(batch.find(p=>p.id==='science-tokyo-drive-math-academic-2006').originalYear,'平成18年度（2006年度）');assert.equal(batch.find(p=>p.id==='science-tokyo-drive-math-academic-2006').paperYear,2006);
+ assert.deepEqual(batch.find(p=>p.id==='science-tokyo-drive-math-academic-2022').files.map(f=>f.originalName),['2022innsi.pdf','exam_math_20218.pdf']);assert.equal(batch.find(p=>p.id==='science-tokyo-drive-math-academic-2022').paperYear,2022);
+ assert.equal(batch.find(p=>p.files.some(f=>f.originalName==='exam_cs_20198.pdf')).paperYear,2020);
+ for(const id of ['science-tokyo-drive-cv-academic-2026','science-tokyo-drive-is-academic-2026','science-tokyo-drive-mat-academic-2026','science-tokyo-drive-sc-academic-2026','science-tokyo-drive-tse-academic-2026']){const p=batch.find(x=>x.id===id);assert.equal(p.files.at(-1).kind,'other');assert.equal(p.files.at(-1).label,'出题意图（非解答）');assert.equal(p.files[0].kind,'question');}
+ assert.deepEqual(batch.filter(p=>p.department==='システム制御系').map(p=>p.paperYear).sort(),[2022,2023,2024,2025,2026]);
+ assert.deepEqual(batch.filter(p=>p.department==='数理・計算科学系').map(p=>p.paperYear).sort(),[2022,2023,2024,2025,2026]);
+ assert.equal(batch.filter(p=>p.department==='数学系').length,27);
+ assert.doesNotMatch(production.schoolNotes['science-tokyo'].text,/正在补传/);assert.match(production.schoolNotes['science-tokyo'].text,/72组已全部发布/);
+ assert.equal(core.filter(batch,catalog.universities,{school:'science-tokyo',graduate:'理学院',department:'数学系',year:'2020',query:''}).length,1);
+ assert.equal(core.filter(batch,catalog.universities,{school:'science-tokyo',graduate:'工学院',department:'システム制御系',year:'2026',query:''}).length,1);
 });
 test('TUS preserves source PDFs and distinguishes academic years, actual dates and handwritten references',()=>{
  const crypto=require('node:crypto'),manifest=require('../assets/past-papers/tus-import-manifest.json'),papers=production.papers.filter(p=>p.universityId==='tus');
