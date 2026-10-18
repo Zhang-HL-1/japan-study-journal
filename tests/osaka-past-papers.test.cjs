@@ -5,7 +5,7 @@ test('Osaka preserves 95 original files, deduplicates one copy, and keeps all pr
  assert.equal(papers.length,57);assert.equal(manifest.sourceFiles,96);assert.equal(manifest.files.length,95);assert.equal(manifest.duplicateByteCopies,1);assert.equal(manifest.questionPDFs,94);assert.equal(manifest.otherPDFs,1);assert.equal(manifest.totalPages,720);
  for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(hash(b),f.sha256);}
  for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.equal(p.yearBasis,'academic');assert.deepEqual(p.admissionYears,[p.paperYear]);for(const f of p.files){assert.ok(f.startPage<=f.pages);assert.notEqual(f.kind,'answer');}}
- assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,95);assert.equal(hash(JSON.stringify(data.papers.filter(p=>p.universityId!=='osaka'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'))),'bb2088b8ee8d8fa14e2308a0af155815eaa26a5384e46f512c37f23f4d8b50e7');
+ assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,95);assert.equal(hash(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='osaka'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'))),'bb2088b8ee8d8fa14e2308a0af155815eaa26a5384e46f512c37f23f4d8b50e7');
 });
 test('Osaka uses cover years rather than filenames and distinguishes common basics from course papers',()=>{
  for(const [name,year] of [['2021 basic.pdf',2022],['2022 basic.pdf',2023],['基礎科目.pdf',2024],['2024basic.pdf',2025]]){const p=papers.find(p=>p.files.some(f=>f.originalName===name));assert.equal(p.paperYear,year);assert.equal(p.completeness,'partial');assert.equal(p.files[0].startPage,2);assert.equal(p.examYear,undefined);}
@@ -23,3 +23,4 @@ test('Osaka keeps historical five-major common information papers, dates and bot
  const shared=info.find(p=>p.paperYear===2022).files[0];assert.equal(shared.sourcePaths.length,2);assert.ok(shared.sourcePaths.some(p=>p.includes('/情报数理/')));assert.ok(!papers.some(p=>p.department==='情報数理学専攻'));
  assert.equal(core.filter(papers,catalog.universities,{school:'osaka',graduate:'all',year:'2021',query:'2020-08-01'}).length,1);assert.match(manifest.excludedEnvironmentalNote,/環境工学コース/);
 });
+
