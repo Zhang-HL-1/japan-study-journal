@@ -284,9 +284,11 @@
         "工学研究科",
         "創域理工学研究科",
         "先進工学研究科",
-        "生命科学研究科"
+        "生命科学研究科",
+        "薬学研究科",
+        "経営学研究科"
       ],
-      "note": "東京理科大学：已收录理学、工学、創域理工学、先進工学、生命科学五个研究科，26个现行专攻，共54条科目／选考要求和2条旧专攻募集停止通知。一般入试与外国人留学生试验分别核验；国際火災科学使用独立修士留学生募集要项，夏期／冬期分别保存。2027年4月新设情報理工学専攻，不沿用停止招生的旧专攻名称。外语受付按选拔核对，2028年度预告不套用到2027年度；适用年度不表示仍在报名。"
+      "note": "東京理科大学：已收录理学、工学、創域理工学、先進工学、生命科学、薬学、経営学七个研究科。2026-10-19补入过去问已有、考试范围缺失的経営学専攻与薬科学専攻，共5条科目／选考要求；此前五个研究科26个现行专攻的54条要求和2条旧专攻募集停止通知保持不变。一般入试与外国人留学生试验分别核验。経営学夏期／冬期分列，薬科学一般入试只有一次。推荐入学、社会人特别选拔和技术经营专业职未纳入本轮。外语受付按选拔核对；适用年度不表示仍在报名。"
     },
     "science-tokyo": {
       "verifiedAt": "2026-10-05",
@@ -10197,6 +10199,253 @@
       "conditionsOriginal": "創域理工学研究科情報計算科学専攻および経営システム工学専攻は、2026 年度入学者を最後に募集を停止します。",
       "publicationStatus": "closed",
       "editorialNote": "2027年度不列为可报考专攻。新設「情報理工学専攻」使用独立条目和2027年度要项；不沿用旧专攻的科目。"
+    },
+    {
+      "id": "tus-management-summer",
+      "universityId": "tus",
+      "graduateSchool": "経営学研究科",
+      "department": "経営学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（夏期日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": ["经营学", "Management"],
+      "internationalGeneral": true,
+      "sources": [
+        {
+          "label": "2027年度経営学研究科修士一般入試（8月3日更新版）：試験科目・出題範囲",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_buisiness_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "経営学専攻一般入試：外部英語試験",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_buisiness_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "経営学専攻一般入試：出願資格・夏期日程",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_buisiness_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "経営学専攻 試験科目選択届",
+          "url": "https://www.tus.ac.jp/admissions/university/guideline/graduateschool/file/2027_sikenkamoku_keiei.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\n英語（外部英語試験のスコア）",
+      "scopeOriginal": "経営学、マーケティング、会計ファイナンス、情報（経営情報を含む）、統計、経営科学、経済学の７科目の各科目の提示されたテキスト・問題集の範囲から出題する。\n経営学：塩次喜代明・高橋伸夫・小林敏男『経営管理 新版』（有斐閣アルマ、2009年）；桑田耕太郎・田尾雅夫『組織論 補訂版』（有斐閣アルマ、2010年）\nマーケティング：恩藏直人・月谷真紀『コトラー&ケラーのマーケティング・マネジメント基本編 第３版』（丸善出版、ピアソン・エデュケーション、2008年）；生目田崇『マーケティングのための統計分析』（オーム社、2017年）\n会計ファイナンス：ジョナサン・バーク、ピーター・ディマーゾ『コーポレートファイナンス入門編（第２版）』（丸善出版、2014年）；伊藤邦雄『新・現代会計入門 第４版』（日本経済新聞出版社、2020年）；山本浩二・小倉昇・尾畑裕・小菅正伸・中村博之『スタンダードテキスト 管理会計論 第２版』（中央経済社、2015年）\n情報（経営情報を含む）：角谷一成・イエローテールコンピュータ『令和07年 基本情報技術者 合格教本』（技術評論社、2024年）のうち「１～３章」の部分；永田靖、棟近雅彦『多変量解析法入門』（サイエンス社、2001年）；Marc Peter Deisenroth・A. Aldo Faisal・Cheng Soon Ong『機械学習のための数学』（共立出版、2024）\n統計：日本統計学会編「増訂版 日本統計学会公式認定 統計検定１級対応 統計学」（東京図書、2023年）；日本統計学会編「日本統計学会公式認定 統計検定１級 公式問題集［2022～2024年］」（実務教育出版、2025年）；日本統計学会編「日本統計学会公式認定 統計検定準１級対応 統計学実践ワークブック」（学術図書、2020年）；日本統計学会編「日本統計学会公式認定 統計検定準１級 公式問題集」（実務教育出版、2021年）\n経営科学：矢部博「工学基礎 最適化とその応用（新・工科系の数学）」（数理工学社、2006年）；渡辺隆裕『一歩ずつ学ぶゲーム理論 －数理で導く戦略的意思決定－』（裳華房、2021年）\n経済学：神取道宏『ミクロ経済学の力』（日本評論社、2014年）；二神孝一・堀敬一『マクロ経済学 第２版』（有斐閣、2017年）",
+      "conditionsOriginal": "７科目のうち志望研究室の指定する科目から１科目選択。\n社会人の受験者は上記科目を「経営一般（企業経営に関する小論文）」に代えることができる。その場合、社会人である証明となるもの（在職証明書等）の原本を願書に添付し提出すること。\n四則演算（＋－×÷）や百分率（％）、平方根（√）の計算ができる一般電卓、または事務用電卓のみ持込可とする。関数電卓やプログラム電卓、電卓機能を持つ携帯端末は持込不可。\n専門科目の免除（出願締切日の３年前以降に受験したものに限る）：経済学はEREミクロ・マクロ（A以上）。会計ファイナンスは日商簿記１級、全経簿記能力検定試験上級、公認会計士短答試験、税理士試験／簿記・財務諸表論の１科目以上。統計は統計検定準１級合格または１級「統計数理」合格（従来型・CBTを問わない）。情報は基本情報技術者試験以上。\n出願時において本学経営学部を卒業後10年以内の者（2017年３月以降に卒業した者）で、在学時に学内選考の出願資格となる経営学専攻の定める成績評価基準を満たしていた者については、専門科目の筆記試験を免除する。\n外部英語試験はTEAP、TEAP CBT、英検（S-CBT含む）、ケンブリッジ英語検定、TOEIC、TOEIC IP、IELTS（アカデミック・モジュール）、TOEFL iBTのうちいずれか１つ。いずれの試験も４技能のスコアとする（TOEICを除く）。TOEICはListening & Reading Test（L&R）のスコアのみの提出で出願可とするが、加えてSpeaking & Writing Test（S&W）のスコア提出を推奨する。S&Wのスコアのみでの出願は不可。TOEFL iBT Home Editionは不可。スコアは出願締切日の３年前以降に受験したものに限る。",
+      "editorialNote": "夏期笔试与面试为2026年7月2日，出愿2026年6月1日至10日（消印有効），志望指导教员的出愿确认截止2026年5月29日。此轮已结束。7科的指定文本见要项，各科题数未公布。可选科目限于志望研究室在试验科目选择届中指定的科目，不能把7科写成全员任选或全答。社会人改考経営一般、资格免除和经营学部毕业生免笔试只按要项原文。冬期若干名另条记录。一般资格含外国16年课程，仍是一般选拔。2026年8月3日TOEFL纸质成绩通知点名的是冬期日程，不套用到本条。资料适用2027年4月入学。"
+    },
+    {
+      "id": "tus-management-winter",
+      "universityId": "tus",
+      "graduateSchool": "経営学研究科",
+      "department": "経営学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試（冬期日程）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": ["经营学", "Management"],
+      "internationalGeneral": true,
+      "sources": [
+        {
+          "label": "2027年度経営学研究科修士一般入試（8月3日更新版）：試験科目・出題範囲",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_buisiness_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "経営学専攻一般入試：外部英語試験",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_buisiness_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "経営学専攻一般入試：出願資格・冬期日程",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_buisiness_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 4
+        },
+        {
+          "label": "経営学専攻 試験科目選択届",
+          "url": "https://www.tus.ac.jp/admissions/university/guideline/graduateschool/file/2027_sikenkamoku_keiei.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "2026年8月3日通知：冬期一般入試のTOEFL iBTスコア証明書提出方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/TOEFLiBT_GraduateAdmission_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "筆記試験：専門科目\n面接\n英語（外部英語試験のスコア）",
+      "scopeOriginal": "経営学、マーケティング、会計ファイナンス、情報（経営情報を含む）、統計、経営科学、経済学の７科目の各科目の提示されたテキスト・問題集の範囲から出題する。\n経営学：塩次喜代明・高橋伸夫・小林敏男『経営管理 新版』（有斐閣アルマ、2009年）；桑田耕太郎・田尾雅夫『組織論 補訂版』（有斐閣アルマ、2010年）\nマーケティング：恩藏直人・月谷真紀『コトラー&ケラーのマーケティング・マネジメント基本編 第３版』（丸善出版、ピアソン・エデュケーション、2008年）；生目田崇『マーケティングのための統計分析』（オーム社、2017年）\n会計ファイナンス：ジョナサン・バーク、ピーター・ディマーゾ『コーポレートファイナンス入門編（第２版）』（丸善出版、2014年）；伊藤邦雄『新・現代会計入門 第４版』（日本経済新聞出版社、2020年）；山本浩二・小倉昇・尾畑裕・小菅正伸・中村博之『スタンダードテキスト 管理会計論 第２版』（中央経済社、2015年）\n情報（経営情報を含む）：角谷一成・イエローテールコンピュータ『令和07年 基本情報技術者 合格教本』（技術評論社、2024年）のうち「１～３章」の部分；永田靖、棟近雅彦『多変量解析法入門』（サイエンス社、2001年）；Marc Peter Deisenroth・A. Aldo Faisal・Cheng Soon Ong『機械学習のための数学』（共立出版、2024）\n統計：日本統計学会編「増訂版 日本統計学会公式認定 統計検定１級対応 統計学」（東京図書、2023年）；日本統計学会編「日本統計学会公式認定 統計検定１級 公式問題集［2022～2024年］」（実務教育出版、2025年）；日本統計学会編「日本統計学会公式認定 統計検定準１級対応 統計学実践ワークブック」（学術図書、2020年）；日本統計学会編「日本統計学会公式認定 統計検定準１級 公式問題集」（実務教育出版、2021年）\n経営科学：矢部博「工学基礎 最適化とその応用（新・工科系の数学）」（数理工学社、2006年）；渡辺隆裕『一歩ずつ学ぶゲーム理論 －数理で導く戦略的意思決定－』（裳華房、2021年）\n経済学：神取道宏『ミクロ経済学の力』（日本評論社、2014年）；二神孝一・堀敬一『マクロ経済学 第２版』（有斐閣、2017年）",
+      "conditionsOriginal": "７科目のうち志望研究室の指定する科目から１科目選択。\n社会人の受験者は上記科目を「経営一般（企業経営に関する小論文）」に代えることができる。その場合、社会人である証明となるもの（在職証明書等）の原本を願書に添付し提出すること。\n四則演算（＋－×÷）や百分率（％）、平方根（√）の計算ができる一般電卓、または事務用電卓のみ持込可とする。関数電卓やプログラム電卓、電卓機能を持つ携帯端末は持込不可。\n専門科目の免除（出願締切日の３年前以降に受験したものに限る）：経済学はEREミクロ・マクロ（A以上）。会計ファイナンスは日商簿記１級、全経簿記能力検定試験上級、公認会計士短答試験、税理士試験／簿記・財務諸表論の１科目以上。統計は統計検定準１級合格または１級「統計数理」合格（従来型・CBTを問わない）。情報は基本情報技術者試験以上。\n出願時において本学経営学部を卒業後10年以内の者（2017年３月以降に卒業した者）で、在学時に学内選考の出願資格となる経営学専攻の定める成績評価基準を満たしていた者については、専門科目の筆記試験を免除する。\n外部英語試験はTEAP、TEAP CBT、英検（S-CBT含む）、ケンブリッジ英語検定、TOEIC、TOEIC IP、IELTS（アカデミック・モジュール）、TOEFL iBTのうちいずれか１つ。いずれの試験も４技能のスコアとする（TOEICを除く）。TOEICはListening & Reading Test（L&R）のスコアのみの提出で出願可とするが、加えてSpeaking & Writing Test（S&W）のスコア提出を推奨する。S&Wのスコアのみでの出願は不可。TOEFL iBT Home Editionは不可。スコアは出願締切日の３年前以降に受験したものに限る。",
+      "editorialNote": "冬期出愿2026年12月10日至2027年1月8日（郵送必着），出愿确认截止2026年12月16日，笔试与面试2027年1月26日。定员20名中的冬期募集为若干名。科目与文本范围与夏期同一要项，不另造范围，各科题数未公布。2026年8月3日通知把本冬期一般入试列为TOEFL iBT纸质成绩停止后的对象：非原件时提交My TOEFL Home打印件，并按更新版要项的DI代码直送。要项写经营学研究科Institution Code为G372。不把该通知套到夏期或药科学一般入试。资料适用2027年4月入学。"
+    },
+    {
+      "id": "tus-management-foreign",
+      "universityId": "tus",
+      "graduateSchool": "経営学研究科",
+      "department": "経営学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": ["经营学", "Management"],
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 経営学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 21
+        },
+        {
+          "label": "外国人留学生試験：経営学研究科修士課程 外部英語試験",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 26
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：希望専攻分野に関する口頭試問\n面接\n外部英語試験のスコアによる英語能力の評価",
+      "conditionsOriginal": "専門科目の言語は日本語。面接の言語は日本語。\n外部英語試験はTOEFL iBT（Test Dateスコアを使用。Home Editionは不可）、TOEIC（公開テストに限る。IPテスト、Bridgeは不可）、TEAP、TEAP CBT、英検、IELTS（アカデミック・モジュール）、ケンブリッジ英語検定のうちいずれか１つ。いずれも４技能とする（TOEICを除く）。TOEICはListening & Reading Test（L&R）のスコアシート提出のみで出願を可とするが、加えてSpeaking & Writing Test（S&W）のスコアシート提出を推奨する。S&Wのスコアのみでの出願は不可。スコアは第二次選考出願締切日の３年前以降に受験したものに限る。",
+      "editorialNote": "第二次选考为希望专攻分野的口头试问。要项未列一般入试的7科笔试、指定文本或题数，不从一般入试或过去问补写。外部英语不接受TOEIC IP、Bridge和TOEFL iBT Home Edition，有效期为第二次出愿截止日前3年。2026年4月6日通知适用于2027年度修士外国人留学生试验。第一次为书类审查，通过后才能申请第二次。第二次选考2027年1月7日，集合地点为神乐坂校园富士见校舍。Institution Code按外国人要项为0438，不套用一般入试的G372。"
+    },
+    {
+      "id": "tus-pharma-science",
+      "universityId": "tus",
+      "graduateSchool": "薬学研究科",
+      "department": "薬科学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": ["药科学", "Pharmacoscience"],
+      "internationalGeneral": true,
+      "sources": [
+        {
+          "label": "2027年度修士課程一般入試（8月3日更新版）：薬科学専攻 試験科目・出題範囲",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "一般入試：薬科学専攻 選考日程・方法",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "修士課程一般入試：出願資格・事前連絡",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "薬学研究科薬科学専攻：TOEFLスコアシート",
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "kind": "pdf",
+          "pdfPage": 25
+        }
+      ],
+      "subjectsOriginal": "筆記試験：有機化学、物理化学、生物科学\n面接\n英語（TOEFLのスコア）",
+      "scopeOriginal": "有機化学、物理化学（薬品物理化学、分析化学）、生物科学（生化学、分子生物学、機能形態学、微生物学を中心とする分野）\n専門科目は２年次までの講義内容とする。",
+      "conditionsOriginal": "TOEFL iBT（Home Editionは不可）、ITPのいずれも可。スコアシートは原紙を提出。いずれかの試験の１つだけしか提出できない。出願締切の２年前以降に受験したものを有効とする。",
+      "editorialNote": "一般入试只有一次，要项未分夏期／冬期。笔试2026年8月25日、面试8月26日，此轮已结束。三科分别安排时段：有機化学9:30–10:10、物理化学10:40–11:20、生物科学11:50–12:30。要项未写题数和选答，不把分时段改写成选答规则，也不从过去问补题数。接受TOEFL iBT与ITP，不接受Home Edition。8月3日TOEFL纸质成绩通知的对象不含本专攻一般入试。大学3年次特别选拔的当年实施专攻名单不含药科学。一般资格含外国16年课程，仍是一般选拔。资料适用2027年4月入学。"
+    },
+    {
+      "id": "tus-pharma-science-foreign",
+      "universityId": "tus",
+      "graduateSchool": "薬学研究科",
+      "department": "薬科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 外国人留学生試験",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": ["药科学", "Pharmacoscience"],
+      "sources": [
+        {
+          "label": "2027年度外国人留学生入学試験：修士課程 薬科学専攻 第二次選考科目",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生試験：薬学研究科修士課程 外部英語試験",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "外国人留学生試験：薬学研究科追加提出書類",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "外国人留学生試験：修士課程出願資格",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "外国人留学生試験：第一次選考方法・第二次選考出願条件",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生試験：修士課程第二次選考日程",
+          "url": "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "2027年度修士外国人留学生試験：TOEFL ITP・TOEIC IPのスコアは不可",
+          "url": "https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        }
+      ],
+      "subjectsOriginal": "第一次選考：出願書類により審査\n第二次選考：有機化学、物理化学、生物科学\n面接\nTOEICまたはTOEFLのスコアによる英語能力の評価",
+      "conditionsOriginal": "専門科目の言語は日本語。面接の言語は日本語または英語。筆記試験は免除することがある。\nTOEFL iBT（Home Editionは不可、ITPは不可）またはTOEIC Listening & Reading Test（公開テストに限る。IPテストは不可）。スコアシートは第二次選考出願締切日の２年前以降、１枚のみ。\n薬学研究科修士課程志願者は「これまでの研究内容及び今後の研究計画」を提出する。日本語は1200字（英語は500word）程度、全体でA4用紙２枚以内。本書類は面接・口頭試問の参考資料として扱う。",
+      "editorialNote": "外国人第二次选考列出有機化学、物理化学、生物科学，并写明笔试有时免除。要项未公布章节、题数、选答和免除条件，不套用一般入试的二年次讲义范围，也不写入一般入试括号内的薬品物理化学、分析化学、生化学等分野。英语不接受TOEFL ITP与TOEIC IP，与一般入试接受ITP不同。追加的研究内容与研究计划是面试参考资料，不是笔试范围。第二次选考2027年1月7日，药学集合地点为葛饰校园。2026年4月6日通知适用于本试验。"
     },
     {
       "id": "science-math-b",
