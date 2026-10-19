@@ -198,8 +198,8 @@ test('Keio SFC overseas and KMD keep their real general selections in both admis
 });
 test('Hokkaido filters both selected graduate schools and opens the actual specialist PDF page',async()=>{
  const a=boot(catalog.records);await school(a,'hokkaido').click();
- assert.equal(a.ids['scope-graduate'].options.length,3);
- assert.equal(a.ids['scope-results'].children.length,15);
+ assert.equal(a.ids['scope-graduate'].options.length,4);
+ assert.equal(a.ids['scope-results'].children.length,28);
  assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.hokkaido.note);
  a.ids['scope-graduate'].value='情報科学院';await a.ids['scope-graduate'].fire('change');
  assert.deepEqual(a.ids['scope-department'].options.slice(1).map(e=>e.value),['情報科学専攻']);
@@ -208,14 +208,14 @@ test('Hokkaido filters both selected graduate schools and opens the actual speci
  assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===r.scopeOriginal&&e.lang==='ja'));
  const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();
  assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('R09_Apr_master_Adm_Jp.pdf#page=10'));
- await school(a,'hokkaido').click();await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,27);
- a.ids['scope-query'].value='北大 e3';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,6);
+ await school(a,'hokkaido').click();await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,52);
+ a.ids['scope-query'].value='北大 e3';await a.ids['scope-query'].fire('input');assert.equal(a.ids['scope-results'].children.length,11);
  await a.ids['scope-results'].children[0].click();
  assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='en'&&e.textContent.includes('Document Screening')));
 });
 test('Hokkaido pending second calls show their status without fabricated original subjects',async()=>{
  const rs=catalog.records.filter(r=>r.universityId==='hokkaido'&&r.publicationStatus==='pending');
- const a=boot(rs);await school(a,'hokkaido').click();assert.equal(a.ids['scope-results'].children.length,1);
+ const a=boot(rs);await school(a,'hokkaido').click();assert.equal(a.ids['scope-results'].children.length,4);
  await a.ids['scope-results'].children.find(e=>e.dataset.id==='hokkaido-eng-materials-second-pending').click();
  assert.ok(a.ids['scope-detail'].children.some(e=>e.tag==='p'&&e.textContent.includes('待公布')));
  assert.ok(!a.ids['scope-detail'].children.some(e=>e.className==='original-text'));

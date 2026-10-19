@@ -56,7 +56,7 @@
 | 九州大学 | 筑紫キャンパス（福岡県 春日市・大野城市） | 総合理工学府 | [依据1](https://www.tj.kyushu-u.ac.jp/aboutus/access.php) |
 | 九州大学 | 大橋キャンパス（福岡県 福岡市） | 芸術工学府 | [依据1](https://www.design.kyushu-u.ac.jp/access/) |
 | 九州大学 | 病院キャンパス（福岡県 福岡市） | システム生命科学府：官方列出的8个研究室；其他研究室在伊都。 | [依据1](https://www.sls.kyushu-u.ac.jp/about/access/) |
-| 北海道大学 | 札幌キャンパス（北海道 札幌市） | 工学院；情報科学院 | [依据1](https://pr.eng.hokudai.ac.jp/top/access/)、[依据2](https://www.ist.hokudai.ac.jp/access/) |
+| 北海道大学 | 札幌キャンパス（北海道 札幌市） | 工学院；情報科学院；理学院 | [依据1](https://pr.eng.hokudai.ac.jp/top/access/)、[依据2](https://www.ist.hokudai.ac.jp/access/)、[依据3](https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf) |
 | 慶應義塾大学 | 矢上キャンパス（神奈川県 横浜市） | 理工学研究科 | [依据1](https://www.keio.ac.jp/ja/about/campus/yagami/) |
 | 慶應義塾大学 | 日吉キャンパス・協生館（神奈川県 横浜市） | システムデザイン・マネジメント研究科；メディアデザイン研究科 | [依据1](https://www.sdm.keio.ac.jp/access/)、[依据2](https://www.kmd.keio.ac.jp/ja/access/) |
 | 慶應義塾大学 | 湘南藤沢キャンパス（SFC）（神奈川県 藤沢市） | 政策・メディア研究科 | [依据1](https://www.keio.ac.jp/ja/contact-us/department/sfc/)、[依据2](https://www.keio.ac.jp/ja/about/campus/sfc/) |

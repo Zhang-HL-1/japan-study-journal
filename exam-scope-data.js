@@ -340,13 +340,14 @@
       "note": "九州大学：已核对七个理工相关学府、20个正式专攻，共119条资料。一般84条、外国人特别／英语项目35条，适用2027年4月或10月入学；均保留当年原文科目与来源。工学11专攻，系统信息按2027新要项的2专攻5课程，总合理工为1专攻3考试类而非旧5专攻。地球惑星按19研究组的指定1～2科目，旧八科选二已废止；芸術工学为1专攻6课程。一般、口述免除路线、外国人特别、英语课程和二次募集分别保存。系统生命按2027PDF修士课程和夏／秋不同要求；指导教员指定范围未公开时不推测。未公布的2027外国人特别／后续期次不沿用2026规则；英语课程接收实验室名单须再查当年更新。"
     },
     "hokkaido": {
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-19",
       "degree": "修士課程",
       "graduateSchools": [
         "工学院",
-        "情報科学院"
+        "情報科学院",
+        "理学院"
       ],
-      "note": "北海道大学：首批工学院与情報科学院，7个正式专攻、情報科学専攻5课程，共28条入口：一般15条、外国人特别／e3英语项目13条，其中材料科学第二次募集1条待公布。适用2027年4月，保留官方日语／英语科目、选答条件及PDF实际页。工学院收录应用物理、材料、机械宇宙、人间机械、能源系统与量子工程；信息涵盖信息理工、电子、生体信息、媒体网络和系统信息。按用户偏好不收录医学、化学、土木建筑、纯数学、纯物理、环境学等方向；应用物理与量子工程属于工程培养，能源环境系统按机械／核能工程研究室群保留。材料考试中的化学科目仍保留。一般／口述替代、英语外国人入试与e3分别保存；机械网页旧关键词不冒作当年考纲。"
+      "note": "北海道大学：工学院、情報科学院与理学院，共56条。原有工学院6专攻与情報科学専攻5课程28条仍保留。2026-10-19补入環境フィールド工学、北方圏環境政策工学、環境創生工学、環境循環システム、共同資源工学，以及理学院物性物理学、宇宙理学、自然史科学。工学院一般入试上午8问选4、下午16问选4；外国人入试中前三专攻仍为4问，環境循環／共同資源为8问选2、16问选2。英语最低点TOEIC 460／TOEFL 48／IELTS 4.0只适用于環境フィールド与北方圏。e3为书审与面接。第二次募集待公布为材料及环境三专攻；環境循環／共同資源修士第二次未预告。理学院夏期一般選抜与外国人特別選抜分开。物性物理学要项只列専門科目，不从旧称量子理学过去问补章节。自然史科学三个讲座科目不同。多样性生物学用令和9年度官方关键词。科学コミュニケーション为课题论文8题选2。冬期当年要项未公布，不移用前年度。建築都市空間デザイン、空間性能システム、数学専攻不在本轮。材料考试中的化学科目仍保留；机械网页旧关键词不冒作当年考纲。"
     },
     "keio": {
       "verifiedAt": "2026-10-09",
@@ -28916,6 +28917,1171 @@
       "scopeOriginal": "システム情報科学コースの専門試験の各科目は、つぎのようなキーワードで代表されますので、参考にして下さい。\n１．専門科目１（2問選択）\n応用数学Ⅰ\n(1)線形代数、(2)ベクトル解析\n応用数学Ⅱ\n(1)常微分方程式、(2)ラプラス変換、(3)フーリエ級数とフーリエ変換\n情報学基礎\n(1)集合・写像、(2)数え挙げ、(3)グラフ理論、(4)論理\n２．専門科目２（２問選択）\n力学\n(1)運動の記述、(2)ニュートンの運動方程式、(3)仕事とエネルギー、(4)運動量と力積、(5)振動、(6)剛体の運動、(7)解析力学\n参考図書：\n阿部龍蔵、「岩波基礎物理シリーズ　力学・解析力学」、岩波書店\n電気回路\n(1) 直流回路\n(2) 交流回路(ひずみ波交流，三相交流を除く)\n(3) 回路の諸定理(重ね合せの理、テブナン・ノートン等価回路、相反定理、Δ-Ｙ変換、ブリッジ回路、整合)\n(4) 2端子対回路(Y行列とZ行列、H行列、F行列)\n(5) 過渡解析（微分方程式を解く一般的解法、ラプラス変換による計算法）\n参考図書：\n小澤孝夫、「電気回路を理解する」、昭晃堂\n電磁気学\n一様媒質中の電磁気学を範囲とします．\n(1) 静電界(電界、電束密度、電位、クーロンの法則、ガウスの法則、電界のエネルギー)\n(2) 静磁界(磁界、磁束密度、ベクトルポテンシャル、ビオ・サバールの法則、アンペールの法則、磁界のエネルギー)\n(3) 電磁力(クーロン力、ローレンツ力、仮想仕事の原理)、電磁誘導(インダクタンス、ファラデーの法則)\n(4) 電磁波(マクスウェルの方程式)\n参考図書：\n松原、坂口、山田、「工科系の電磁気学」、コロナ社、1章～3章、8.1～8.3節\n線形制御理論\n(1) 線形システムの表現 (伝達関数表現、 状態変数表現、システム変換、線形系の解、可制御・可観測性、正準形)\n(2) 安定判別 (安定条件、ラウス・フルビッツの判定法、リアプノフ関数)\n(3) 周波数応答 (正弦波入力に対する定常応答、ボード線図、安定余裕、ナイキスト線図)\n(4) フィードバック制御 (フィードバック変換、極配置、定常偏差、サーボ系、 最適レギュレータ、 オブザーバ)\n離散時間系、時間遅れ要素を含む系は出題範囲外とします。",
       "conditionsOriginal": "専門科目１：３問のうち２問\n専門科目２：４問のうち２問",
       "editorialNote": "2026年8月24～25日试验、2027年4月入学。一专攻五课程，非五个正式专攻。特别入试需受入教员推荐，不公开公募；仍有专业笔答与口头。外国籍者可选日语笔答，具B2相当以上日语证明者可能免该笔答，英语选择则用外部成绩。所选题目须事前照会，不按一般现场自由选题。 只有被通知者可获笔答免除。详细网页为一般关键词；外国人特别题目约束以本特别PDF为准。信息电子2028变更不提前套2027。"
+    },
+    {
+      "id": "hokkaido-eng-field-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境フィールド工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：環境フィールド工学専攻・北方圏環境政策工学専攻・環境創生工学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国語試験・環境フィールド工学専攻及び北方圏環境政策工学専攻の最低点",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験\n口述試験・口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL iBT又はIELTS）",
+      "scopeOriginal": "数学（３問）：線形代数学（行列，固有値），微分積分学（１変数・多変数関数の微分・積分），微分方程式（１階微分方程式，線形微分方程式）。各１問\n物理（３問）：力学（２問）（質点系と剛体，力の釣り合いと運動），熱力学（１問）（熱と気体分子の運動，熱力学の第一法則，第二法則）\n化学（２問）：化学結合と分子の構造，化学平衡，化学反応速度論\n流体工学（２問），構造力学（１問），土の力学（１問），岩の力学（１問），コンクリート工学（１問），計画数理学（１問），地質学基礎（２問），物理化学（２問），微生物工学（１問），熱力学（１問），反応工学（１問），分離工学（１問），環境統計学（１問）",
+      "conditionsOriginal": "３科目８問のうちから４問を選択してください。\n全13科目（各１問もしくは２問）合計16問中から４問を選択してください。\n環境フィールド工学専攻及び北方圏環境政策工学専攻については，TOEIC L&R 460 点以下，TOEFL iBT 48 点以下，IELTS 4.0 点以下は「不合格」と判定する。",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。同一要项的2026年10月入学使用同一学科试验表，不另建记录。一般入试以日语实施。外部英语接受TOEIC L&R、TOEFL iBT（含Home Edition）或IELTS Academic，自2026年8月18日起过去两年，不用MyBest，不接受IELTS Online。本专攻接受IELTS，不套用応用物理学・材料科学的IELTS不可。未公布更细章节，不从过去问补写。環境フィールド工学、北方圏環境政策工学、環境創生工学三专攻共用这一张笔答表。英语最低点只写明環境フィールド工学与北方圏環境政策工学，不套到環境創生工学。"
+    },
+    {
+      "id": "hokkaido-eng-northern-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "北方圏環境政策工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：環境フィールド工学専攻・北方圏環境政策工学専攻・環境創生工学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国語試験・環境フィールド工学専攻及び北方圏環境政策工学専攻の最低点",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験\n口述試験・口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL iBT又はIELTS）",
+      "scopeOriginal": "数学（３問）：線形代数学（行列，固有値），微分積分学（１変数・多変数関数の微分・積分），微分方程式（１階微分方程式，線形微分方程式）。各１問\n物理（３問）：力学（２問）（質点系と剛体，力の釣り合いと運動），熱力学（１問）（熱と気体分子の運動，熱力学の第一法則，第二法則）\n化学（２問）：化学結合と分子の構造，化学平衡，化学反応速度論\n流体工学（２問），構造力学（１問），土の力学（１問），岩の力学（１問），コンクリート工学（１問），計画数理学（１問），地質学基礎（２問），物理化学（２問），微生物工学（１問），熱力学（１問），反応工学（１問），分離工学（１問），環境統計学（１問）",
+      "conditionsOriginal": "３科目８問のうちから４問を選択してください。\n全13科目（各１問もしくは２問）合計16問中から４問を選択してください。\n環境フィールド工学専攻及び北方圏環境政策工学専攻については，TOEIC L&R 460 点以下，TOEFL iBT 48 点以下，IELTS 4.0 点以下は「不合格」と判定する。",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。同一要项的2026年10月入学使用同一学科试验表，不另建记录。一般入试以日语实施。外部英语接受TOEIC L&R、TOEFL iBT（含Home Edition）或IELTS Academic，自2026年8月18日起过去两年，不用MyBest，不接受IELTS Online。本专攻接受IELTS，不套用応用物理学・材料科学的IELTS不可。未公布更细章节，不从过去问补写。環境フィールド工学、北方圏環境政策工学、環境創生工学三专攻共用这一张笔答表。英语最低点只写明環境フィールド工学与北方圏環境政策工学，不套到環境創生工学。"
+    },
+    {
+      "id": "hokkaido-eng-creation-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境創生工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：環境フィールド工学専攻・北方圏環境政策工学専攻・環境創生工学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "外国語試験・環境フィールド工学専攻及び北方圏環境政策工学専攻の最低点",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験\n口述試験・口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL iBT又はIELTS）",
+      "scopeOriginal": "数学（３問）：線形代数学（行列，固有値），微分積分学（１変数・多変数関数の微分・積分），微分方程式（１階微分方程式，線形微分方程式）。各１問\n物理（３問）：力学（２問）（質点系と剛体，力の釣り合いと運動），熱力学（１問）（熱と気体分子の運動，熱力学の第一法則，第二法則）\n化学（２問）：化学結合と分子の構造，化学平衡，化学反応速度論\n流体工学（２問），構造力学（１問），土の力学（１問），岩の力学（１問），コンクリート工学（１問），計画数理学（１問），地質学基礎（２問），物理化学（２問），微生物工学（１問），熱力学（１問），反応工学（１問），分離工学（１問），環境統計学（１問）",
+      "conditionsOriginal": "３科目８問のうちから４問を選択してください。\n全13科目（各１問もしくは２問）合計16問中から４問を選択してください。",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。同一要项的2026年10月入学使用同一学科试验表，不另建记录。一般入试以日语实施。外部英语接受TOEIC L&R、TOEFL iBT（含Home Edition）或IELTS Academic，自2026年8月18日起过去两年，不用MyBest，不接受IELTS Online。本专攻接受IELTS，不套用応用物理学・材料科学的IELTS不可。未公布更细章节，不从过去问补写。環境フィールド工学、北方圏環境政策工学、環境創生工学三专攻共用这一张笔答表。本专攻与前两专攻同卷，但要项的英语不合格线没有点名本专攻，不写入最低点。"
+    },
+    {
+      "id": "hokkaido-eng-circulation-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境循環システム専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：環境循環システム専攻・共同資源工学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "環境循環システム専攻と共同資源工学専攻の併願",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "外国語試験・環境フィールド工学専攻及び北方圏環境政策工学専攻の最低点",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL iBT又はIELTS）",
+      "scopeOriginal": "数学（３問）：線形代数学（行列，固有値），微分積分学（１変数・多変数関数の微分・積分），微分方程式（１階微分方程式，線形微分方程式）。各１問\n物理（３問）：力学（２問）（質点系と剛体，力の釣り合いと運動），熱力学（１問）（熱と気体分子の運動，熱力学の第一法則，第二法則）\n化学（２問）：化学結合と分子の構造，化学平衡，化学反応速度論\n流体工学（２問），構造力学（１問），土の力学（１問），岩の力学（１問），コンクリート工学（１問），計画数理学（１問），地質学基礎（２問），物理化学（２問），微生物工学（１問），熱力学（１問），反応工学（１問），分離工学（１問），環境統計学（１問）",
+      "conditionsOriginal": "環境循環システム専攻と共同資源工学専攻は併願が可能です。\n３科目８問のうちから４問を選択してください。\n全13科目（各１問もしくは２問）合計16問中から４問を選択してください。",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。同一要项的2026年10月入学使用同一学科试验表，不另建记录。一般入试以日语实施。外部英语接受TOEIC L&R、TOEFL iBT（含Home Edition）或IELTS Academic，自2026年8月18日起过去两年，不用MyBest，不接受IELTS Online。本专攻接受IELTS，不套用応用物理学・材料科学的IELTS不可。未公布更细章节，不从过去问补写。与共同資源工学専攻可併愿，学科试验为口頭試問，不写作三专攻表上的「口述試験」。英语不合格线没有点名本专攻。外国人入试选答是2问，不套到本条的4问。"
+    },
+    {
+      "id": "hokkaido-eng-resources-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "共同資源工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般入試：環境循環システム専攻・共同資源工学専攻の科目・選答",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 24
+        },
+        {
+          "label": "環境循環システム専攻と共同資源工学専攻の併願",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 23
+        },
+        {
+          "label": "外国語試験・環境フィールド工学専攻及び北方圏環境政策工学専攻の最低点",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "13正式専攻",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "工学院：最新要項・第二次速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "筆答試験\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL iBT又はIELTS）",
+      "scopeOriginal": "数学（３問）：線形代数学（行列，固有値），微分積分学（１変数・多変数関数の微分・積分），微分方程式（１階微分方程式，線形微分方程式）。各１問\n物理（３問）：力学（２問）（質点系と剛体，力の釣り合いと運動），熱力学（１問）（熱と気体分子の運動，熱力学の第一法則，第二法則）\n化学（２問）：化学結合と分子の構造，化学平衡，化学反応速度論\n流体工学（２問），構造力学（１問），土の力学（１問），岩の力学（１問），コンクリート工学（１問），計画数理学（１問），地質学基礎（２問），物理化学（２問），微生物工学（１問），熱力学（１問），反応工学（１問），分離工学（１問），環境統計学（１問）",
+      "conditionsOriginal": "環境循環システム専攻と共同資源工学専攻は併願が可能です。\n出願及び受験については，志願する大学へ出願し，当該大学において入学者選抜試験を受験します。\n一方の大学に入学手続きをした者は，他方の大学の共同資源工学専攻の受験はできません。\n３科目８問のうちから４問を選択してください。\n全13科目（各１問もしくは２問）合計16問中から４問を選択してください。",
+      "editorialNote": "2026年8月18～19日试验，2027年4月入学。同一要项的2026年10月入学使用同一学科试验表，不另建记录。一般入试以日语实施。外部英语接受TOEIC L&R、TOEFL iBT（含Home Edition）或IELTS Academic，自2026年8月18日起过去两年，不用MyBest，不接受IELTS Online。本专攻接受IELTS，不套用応用物理学・材料科学的IELTS不可。未公布更细章节，不从过去问补写。北海道大学工学院与九州大学工学府的共同教育课程。考试在志愿的大学实施，入学手续在本籍大学。与環境循環システム可併愿。外国人入试选答是2问，不套到本条的4问。"
+    },
+    {
+      "id": "hokkaido-eng-field-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境フィールド工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 International Student Entrance Examination",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Student Entrance Examination：Field Engineering for the Environment, Engineering and Policy for Sustainable Environment, Environmental Engineering",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "External English tests and division-specific minimum scores",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "工学院：日本語一般／英語外国人要項",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Written Examination\nInterview\nForeign Language Examination (TOEIC L&R, TOEFL iBT, IELTS Academic)",
+      "scopeOriginal": "Math (3 questions): Linear algebra, Calculus, and Differential equations\nPhysics (3 questions): Dynamics and Thermodynamics\nChemistry (2 questions): Chemical bonding and molecular structures, Chemical equilibrium, and Chemical reaction kinetics\nFluid engineering (2 questions)\nStructural mechanics (1 question)\nSoil mechanics (1 question)\nRock mechanics (1 question)\nConcrete engineering (1 question)\nMathematical method for planning (1 question)\nGeological basics(2 questions)\nPhysical chemistry (2 questions)\nMicrobial engineering (1 question)\nThermodynamics (1 question)\nReaction engineering (1 question)\nSeparation engineering (1 question)\nEnvironmental statistics (1 question)",
+      "conditionsOriginal": "Answer 4 out of the 8 questions.\nAnswer 4 out of the 16 questions.\nDepending on the transcript, you may not need to take the written exam for specialized exam.\nThose who are exempt will be notified in late July.\nApplicants who apply for the following divisions must have English scores that exceed one of the minimum scores.\nDivision of Field Engineering for the Environment\nDivision of Engineering and Policy for Sustainable Environment\nTOEIC L&R 460\nTOEFL iBT 48\nIELTS(Academic) 4.0",
+      "editorialNote": "2027年4月外国人留学生入试，2026年8月18～19日实施，考试以英语进行。同一要项的2026年10月入学使用同一学科试验表。不把日语一般入试的选答题数套到本条。三专攻同卷。成绩单可能免除笔试，7月下旬通知，免除规则不写入日语一般入试。英语最低点按英文要项适用于本专攻。"
+    },
+    {
+      "id": "hokkaido-eng-northern-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "北方圏環境政策工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 International Student Entrance Examination",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Student Entrance Examination：Field Engineering for the Environment, Engineering and Policy for Sustainable Environment, Environmental Engineering",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "External English tests and division-specific minimum scores",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "工学院：日本語一般／英語外国人要項",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Written Examination\nInterview\nForeign Language Examination (TOEIC L&R, TOEFL iBT, IELTS Academic)",
+      "scopeOriginal": "Math (3 questions): Linear algebra, Calculus, and Differential equations\nPhysics (3 questions): Dynamics and Thermodynamics\nChemistry (2 questions): Chemical bonding and molecular structures, Chemical equilibrium, and Chemical reaction kinetics\nFluid engineering (2 questions)\nStructural mechanics (1 question)\nSoil mechanics (1 question)\nRock mechanics (1 question)\nConcrete engineering (1 question)\nMathematical method for planning (1 question)\nGeological basics(2 questions)\nPhysical chemistry (2 questions)\nMicrobial engineering (1 question)\nThermodynamics (1 question)\nReaction engineering (1 question)\nSeparation engineering (1 question)\nEnvironmental statistics (1 question)",
+      "conditionsOriginal": "Answer 4 out of the 8 questions.\nAnswer 4 out of the 16 questions.\nDepending on the transcript, you may not need to take the written exam for specialized exam.\nThose who are exempt will be notified in late July.\nApplicants who apply for the following divisions must have English scores that exceed one of the minimum scores.\nDivision of Field Engineering for the Environment\nDivision of Engineering and Policy for Sustainable Environment\nTOEIC L&R 460\nTOEFL iBT 48\nIELTS(Academic) 4.0",
+      "editorialNote": "2027年4月外国人留学生入试，2026年8月18～19日实施，考试以英语进行。同一要项的2026年10月入学使用同一学科试验表。不把日语一般入试的选答题数套到本条。三专攻同卷。成绩单可能免除笔试，7月下旬通知，免除规则不写入日语一般入试。英语最低点按英文要项适用于本专攻。"
+    },
+    {
+      "id": "hokkaido-eng-creation-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境創生工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 International Student Entrance Examination",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Student Entrance Examination：Field Engineering for the Environment, Engineering and Policy for Sustainable Environment, Environmental Engineering",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "External English tests and division-specific minimum scores",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "工学院：日本語一般／英語外国人要項",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Written Examination\nInterview\nForeign Language Examination (TOEIC L&R, TOEFL iBT, IELTS Academic)",
+      "scopeOriginal": "Math (3 questions): Linear algebra, Calculus, and Differential equations\nPhysics (3 questions): Dynamics and Thermodynamics\nChemistry (2 questions): Chemical bonding and molecular structures, Chemical equilibrium, and Chemical reaction kinetics\nFluid engineering (2 questions)\nStructural mechanics (1 question)\nSoil mechanics (1 question)\nRock mechanics (1 question)\nConcrete engineering (1 question)\nMathematical method for planning (1 question)\nGeological basics(2 questions)\nPhysical chemistry (2 questions)\nMicrobial engineering (1 question)\nThermodynamics (1 question)\nReaction engineering (1 question)\nSeparation engineering (1 question)\nEnvironmental statistics (1 question)",
+      "conditionsOriginal": "Answer 4 out of the 8 questions.\nAnswer 4 out of the 16 questions.\nDepending on the transcript, you may not need to take the written exam for specialized exam.\nThose who are exempt will be notified in late July.",
+      "editorialNote": "2027年4月外国人留学生入试，2026年8月18～19日实施，考试以英语进行。同一要项的2026年10月入学使用同一学科试验表。不把日语一般入试的选答题数套到本条。三专攻同卷。成绩单可能免除笔试，7月下旬通知，免除规则不写入日语一般入试。英文要项的最低点名单没有本专攻，不写入460／48／4.0。"
+    },
+    {
+      "id": "hokkaido-eng-circulation-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境循環システム専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 International Student Entrance Examination",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Student Entrance Examination：Sustainable Resources Engineering, Cooperative Program for Resources Engineering",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "External English tests and division-specific minimum scores",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "工学院：日本語一般／英語外国人要項",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Written Examination\nInterview\nForeign Language Examination (TOEIC L&R, TOEFL iBT, IELTS Academic)",
+      "scopeOriginal": "Math (3 questions): Linear algebra, Calculus, and Differential equations\nPhysics (3 questions): Dynamics and Thermodynamics\nChemistry (2 questions): Chemical bonding and molecular structures, Chemical equilibrium, and Chemical reaction kinetics\nFluid engineering (2 questions)\nStructural mechanics (1 question)\nSoil mechanics (1 question)\nRock mechanics (1 question)\nConcrete engineering (1 question)\nMathematical method for planning (1 question)\nGeological basics(2 questions)\nPhysical chemistry (2 questions)\nMicrobial engineering (1 question)\nThermodynamics (1 question)\nReaction engineering (1 question)\nSeparation engineering (1 question)\nEnvironmental statistics (1 question)",
+      "conditionsOriginal": "The applicants who can submit all application materials can apply for both Division of Sustainable Resources Environment and Division of Cooperative Program for Resources Engineering.\nAnswer 2 out of the 8 questions.\nAnswer 2 out of the 16 questions.",
+      "editorialNote": "2027年4月外国人留学生入试，2026年8月18～19日实施，考试以英语进行。同一要项的2026年10月入学使用同一学科试验表。不把日语一般入试的选答题数套到本条。选答为8问中2问、16问中2问，不是日语一般入试的4问。英文要项这一句写Division of Sustainable Resources Environment，同页标题为Division of Sustainable Resources Engineering。本段没有成绩单免笔试，也不套環境三专攻的英语最低点。"
+    },
+    {
+      "id": "hokkaido-eng-resources-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "共同資源工学専攻",
+      "admissionType": "international",
+      "selectionName": "修士課程 International Student Entrance Examination",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "International Student Entrance Examination：Sustainable Resources Engineering, Cooperative Program for Resources Engineering",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 18
+        },
+        {
+          "label": "External English tests and division-specific minimum scores",
+          "url": "https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "工学院：日本語一般／英語外国人要項",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "Written Examination\nInterview\nForeign Language Examination (TOEIC L&R, TOEFL iBT, IELTS Academic)",
+      "scopeOriginal": "Math (3 questions): Linear algebra, Calculus, and Differential equations\nPhysics (3 questions): Dynamics and Thermodynamics\nChemistry (2 questions): Chemical bonding and molecular structures, Chemical equilibrium, and Chemical reaction kinetics\nFluid engineering (2 questions)\nStructural mechanics (1 question)\nSoil mechanics (1 question)\nRock mechanics (1 question)\nConcrete engineering (1 question)\nMathematical method for planning (1 question)\nGeological basics(2 questions)\nPhysical chemistry (2 questions)\nMicrobial engineering (1 question)\nThermodynamics (1 question)\nReaction engineering (1 question)\nSeparation engineering (1 question)\nEnvironmental statistics (1 question)",
+      "conditionsOriginal": "The applicants who can submit all application materials can apply for both Division of Sustainable Resources Environment and Division of Cooperative Program for Resources Engineering.\nEntrance examination will be held at the university where you apply to.\nIf you complete the admission procedure for one university in the cooperative program, you cannot apply for another university.\nAnswer 2 out of the 8 questions.\nAnswer 2 out of the 16 questions.",
+      "editorialNote": "2027年4月外国人留学生入试，2026年8月18～19日实施，考试以英语进行。同一要项的2026年10月入学使用同一学科试验表。不把日语一般入试的选答题数套到本条。选答为8问中2问、16问中2问。共同课程在志愿大学考试。英文併愿句写Sustainable Resources Environment，同页标题为Sustainable Resources Engineering。"
+    },
+    {
+      "id": "hokkaido-eng-field-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境フィールド工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。October 2027 CSC的学历条件是已取得或预计取得修士学位，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-northern-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "北方圏環境政策工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。October 2027 CSC的学历条件是已取得或预计取得修士学位，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-creation-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境創生工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。October 2027 CSC的学历条件是已取得或预计取得修士学位，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-circulation-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境循環システム専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。October 2027 CSC的学历条件是已取得或预计取得修士学位，不作为修士入口。导师停止接收名单仍须查当年更新。"
+    },
+    {
+      "id": "hokkaido-eng-resources-e3",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "共同資源工学専攻",
+      "admissionType": "international",
+      "selectionName": "Master’s Program e3 Special Selection",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "e3：Document Screening / Interview",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "e3：English minimum requirements",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "e3：Accepted tests, IELTS online and score submission",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 20
+        },
+        {
+          "label": "13 divisions accepting Master’s applications",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "April 2027 e3 Special Selection",
+          "url": "https://eprogram.eng.hokudai.ac.jp/e3/admission-int/apply-admission",
+          "kind": "page"
+        }
+      ],
+      "course": "English Engineering Education Program (e3)",
+      "subjectsOriginal": "Document Screening\nInterview (Oral Examination)\nDocuments to Prove English Proficiency",
+      "conditionsOriginal": "TOEFL iBT: 79 for exams taken before January 21, 2026; 4 for exams taken on or after January 21, 2026\nIELTS: 6.0\nTOEIC L&R: 730\nMedium of Instruction (MI) Certificate\n(Master’s program only)\nEntrance examination will be done in the university where you apply to.\nYou will be enrolled in the university where you take the entrance examination.\nIf you complete the admission procedure for one university in the cooperative program, you cannot apply for the other university.",
+      "editorialNote": "独立的2027年4月e3英语特别选拔，书审及原则在线面接，未公布固定专业笔试科目。须先通过2026年8月24日至9月9日Matching Check，纸本出愿10月6～19日，选拔11月9～18日。英语可依规定用全英语本科教育证明或免除；TOEFL新旧评分分别保存。October 2027 CSC的学历条件是已取得或预计取得修士学位，不作为修士入口。导师停止接收名单仍须查当年更新。共同資源工学在e3专攻表标明Master’s program only。考试与学籍手续在应考的大学。"
+    },
+    {
+      "id": "hokkaido-eng-field-second-pending",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境フィールド工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試 第２次学生募集（速報）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2026年10月6日：第二次募集4専攻の速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/#inneray202701",
+          "kind": "page"
+        }
+      ],
+      "publicationStatus": "pending",
+      "editorialNote": "2026年10月6日官方预告列入修士第二次募集（若干名）。完整要项预计11月上旬公布，不填夏季笔试科目。预计2027年2月15～16日试验、2027年4月入学。環境循環システム専攻与共同資源工学専攻不在本次修士第二次预告名单，不建第二次入口。"
+    },
+    {
+      "id": "hokkaido-eng-northern-second-pending",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "北方圏環境政策工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試 第２次学生募集（速報）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2026年10月6日：第二次募集4専攻の速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/#inneray202701",
+          "kind": "page"
+        }
+      ],
+      "publicationStatus": "pending",
+      "editorialNote": "2026年10月6日官方预告列入修士第二次募集（若干名）。完整要项预计11月上旬公布，不填夏季笔试科目。预计2027年2月15～16日试验、2027年4月入学。環境循環システム専攻与共同資源工学専攻不在本次修士第二次预告名单，不建第二次入口。"
+    },
+    {
+      "id": "hokkaido-eng-creation-second-pending",
+      "universityId": "hokkaido",
+      "graduateSchool": "工学院",
+      "department": "環境創生工学専攻",
+      "admissionType": "general",
+      "selectionName": "修士課程 一般入試 第２次学生募集（速報）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "2026年10月6日：第二次募集4専攻の速報",
+          "url": "https://www.eng.hokudai.ac.jp/graduate/examinfo/#inneray202701",
+          "kind": "page"
+        }
+      ],
+      "publicationStatus": "pending",
+      "editorialNote": "2026年10月6日官方预告列入修士第二次募集（若干名）。完整要项预计11月上旬公布，不填夏季笔试科目。预计2027年2月15～16日试验、2027年4月入学。環境循環システム専攻与共同資源工学専攻不在本次修士第二次预告名单，不建第二次入口。"
+    },
+    {
+      "id": "hokkaido-sci-condensed-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士（博士前期）課程 夏期募集 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：物性物理学専攻の学科試験",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "物性物理学専攻と宇宙理学専攻の併願",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜：TOEIC／TOEFL",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        },
+        {
+          "label": "理学院量子理学専攻が物性物理学専攻に名称変更",
+          "url": "https://www2.sci.hokudai.ac.jp/faculty/history",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "searchAliases": [
+        "量子理学",
+        "量子理学専攻"
+      ],
+      "subjectsOriginal": "専門科目\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）",
+      "conditionsOriginal": "専門科目（9:00～11:30）\n専門科目（13:00～15:30）\n口頭試問（9:00以降）\n物性物理学専攻及び宇宙理学専攻は、併願することが可能である。\n物性物理学専攻と宇宙理学専攻を併願する者には筆記試験問題（専門科目（物理学））を課す。\n① TOEIC公開テスト【Listening & Reading Testに限定】（令和6年7月以降に受験したスコア）\n② TOEFL-iBT（Home Edition可）（令和6年7月以降に受験したスコア）",
+      "editorialNote": "令和9年度夏期募集，试验2026年8月10～11日。同一选考适用于令和8年10月入学（若干名）与令和9年4月入学，不另建10月记录。一般選抜与外国人留学生特別選抜不能併愿。冬期当年要项未公布，招生页仍为前年度要项，不移用旧科目。TOEFL-ITP只写在数学専攻，不套用。要项对单愿只列「専門科目」，未公布章节或题数。「専門科目（物理学）」写的是与宇宙理学併愿者。不从旧称量子理学的过去问补写范围。检索别名只来自名称变更，不替代现行专攻名。"
+    },
+    {
+      "id": "hokkaido-sci-cosmos-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "宇宙理学専攻",
+      "admissionType": "general",
+      "selectionName": "修士（博士前期）課程 夏期募集 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：宇宙理学専攻の学科試験・志望別選答",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "物性物理学専攻と宇宙理学専攻の併願",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜：TOEIC／TOEFL",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）",
+      "scopeOriginal": "「観測天文学、理論宇宙物理学、素粒子・宇宙論、原子核理論、情報メディア科学、原子核反応データ科学」を志望する者は、専門科目（物理学）を選択し解答すること。\n「宇宙物質科学グループ、惑星宇宙グループ、相転移ダイナミクス、飛翔体観測」を志望する者は、８月１０日(月)午後の専門科目（物理学、物理数学、地球惑星科学）のなかから２問を選択し解答すること。",
+      "conditionsOriginal": "専門科目（9:00～11:30）\n専門科目（13:00～15:30）\n口頭試問（9:00以降）\n物性物理学専攻及び宇宙理学専攻は、併願することが可能である。\n物性物理学専攻と宇宙理学専攻を併願する者には筆記試験問題（専門科目（物理学））を課す。\n① TOEIC公開テスト【Listening & Reading Testに限定】（令和6年7月以降に受験したスコア）\n② TOEFL-iBT（Home Edition可）（令和6年7月以降に受験したスコア）",
+      "editorialNote": "令和9年度夏期募集，试验2026年8月10～11日。同一选考适用于令和8年10月入学（若干名）与令和9年4月入学，不另建10月记录。一般選抜与外国人留学生特別選抜不能併愿。冬期当年要项未公布，招生页仍为前年度要项，不移用旧科目。TOEFL-ITP只写在数学専攻，不套用。两组志望的选答都写在本条，要项没有把它们定为正式コース，不拆成两条专攻。未公布物理学、物理数学、地球惑星科学的章节，不从过去问补写。"
+    },
+    {
+      "id": "hokkaido-sci-natural-earth-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻",
+      "course": "地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座",
+      "admissionType": "general",
+      "selectionName": "修士（博士前期）課程 夏期募集 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：自然史科学専攻の学科試験",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "地球惑星系３講座：受験分野の事前選択",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "自然史科学専攻の３講座から１つを選択",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "一般選抜：TOEIC／TOEFL",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）",
+      "scopeOriginal": "数学、物理学（地球惑星物理学も出題範囲に含む。）、地球科学Ⅰ（地球史、堆積学、地球惑星化学）、地球科学Ⅱ（岩石学、鉱物学、火山学）",
+      "conditionsOriginal": "４分野のうちから２分野を選択し解答すること。\n受験科目（専門）調査票には、専門科目４分野（数学、物理学、地球科学Ⅰ、地球科学Ⅱ）のうち、受験を希望する２分野を○で囲むこと。なお、調査票提出後の受験分野の変更は認めない。\n専門科目（9:00～12:00）\n口頭試問（9:00以降）\n① TOEIC公開テスト【Listening & Reading Testに限定】（令和6年7月以降に受験したスコア）\n② TOEFL-iBT（Home Edition可）（令和6年7月以降に受験したスコア）",
+      "editorialNote": "令和9年度夏期募集，试验2026年8月10～11日。同一选考适用于令和8年10月入学（若干名）与令和9年4月入学，不另建10月记录。一般選抜与外国人留学生特別選抜不能併愿。冬期当年要项未公布，招生页仍为前年度要项，不移用旧科目。TOEFL-ITP只写在数学専攻，不套用。自然史科学须在三个讲座群中选一个。本条只是地球惑星ダイナミクス・地球惑星システム科学・地震学火山学。要项这一组不列化学。多样性生物学与科学コミュニケーション的科目不写入本条。"
+    },
+    {
+      "id": "hokkaido-sci-natural-biodiversity-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻",
+      "course": "多様性生物学講座",
+      "admissionType": "general",
+      "selectionName": "修士（博士前期）課程 夏期募集 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：多様性生物学講座の学科試験",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般選抜：TOEIC／TOEFL",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        },
+        {
+          "label": "令和９年度多様性生物学講座：専門科目キーワード",
+          "url": "https://biodiversity.sci.hokudai.ac.jp/bd/wp-content/uploads/2026/07/Keywords2026.pdf",
+          "kind": "pdf",
+          "pdfPage": 1
+        },
+        {
+          "label": "多様性生物学講座：大学院入試案内",
+          "url": "https://biodiversity.sci.hokudai.ac.jp/bd/admission/",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "専門科目\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）",
+      "scopeOriginal": "遺伝子プール Gene pool\n各動物門のボディープラン Body plan of each animal phylum\n系統学 Phylogenetics\n共進化 Co-evolution\n個体群 Population\n群集 Community\n細胞内共生とオルガネラの起源 Intracellular symbiosis and origin of organelles\n進化 Evolution\n種 Species\n集団遺伝学 Population genetics\n真核生物の大系統（スーパーグループ）Major lineages of eukaryotes (super groups)\n生活史 Life history\n生態系 Ecosystem\n生物多様性 Biodiversity\n染色体 Chromosome\n藻類と共生現象 Algae and symbiosis\n藻類の生活環 Life cycles of algae\n藻類の多様性と系統 Diversity and phylogeny of algae\n対立遺伝子 Allele\n多様度指数 Diversity index\nDNA 多型 DNA polymorphism\n島嶼生物学 Island biology\n鳥類生態学 Avian ecology\n動物の系統地理 Biogeography of Animals\n動物門間の系統関係 Phylogenetic relationships between animal phyla\n人間活動の影響 Influence of human activity\n分子系統 Molecular phylogeny\n分子進化 Molecular evolution\nリンネ式分類体系 Linnaean classification system\n個体群生態学 Population Ecology\n行動生態学 Behavioural Ecology",
+      "conditionsOriginal": "問題は全部で5問出題されます。このうち1問が必須（全員解答）問題です。\n残りの4問は選択問題で，このうち3問を選択して解答していただきます。\n問題は以下に示すキーワードに関係した分野から出題されます。\n専門科目（13:00～15:00）\n口頭試問（13:00以降）\n① TOEIC公開テスト【Listening & Reading Testに限定】（令和6年7月以降に受験したスコア）\n② TOEFL-iBT（Home Edition可）（令和6年7月以降に受験したスコア）",
+      "editorialNote": "令和9年度夏期募集，试验2026年8月10～11日。同一选考适用于令和8年10月入学（若干名）与令和9年4月入学，不另建10月记录。一般選抜与外国人留学生特別選抜不能併愿。冬期当年要项未公布，招生页仍为前年度要项，不移用旧科目。TOEFL-ITP只写在数学専攻，不套用。关键词与5问选答来自讲座公布的令和9年度专业科目关键词，不把同页过去问题或解答例写成考试范围。"
+    },
+    {
+      "id": "hokkaido-sci-natural-scicomm-general",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻",
+      "course": "科学コミュニケーション講座",
+      "admissionType": "general",
+      "selectionName": "修士（博士前期）課程 夏期募集 一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "一般選抜：科学コミュニケーション講座の課題論文",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "一般選抜：TOEIC／TOEFL",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 9
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        },
+        {
+          "label": "課題論文のテーマと指定図書",
+          "url": "https://sc.sci.hokudai.ac.jp/examination/thesis.html",
+          "kind": "page"
+        }
+      ],
+      "internationalGeneral": true,
+      "subjectsOriginal": "課題論文\n口頭試問\n英語（TOEIC Listening & Reading Test又はTOEFL-iBT）",
+      "scopeOriginal": "教育デザイン（心理統計）\n南風原朝和『心理統計学の基礎―統合的理解のために』有斐閣アルマ、2002年\n教育デザイン（学習科学）\n三宅なほみ・白水始 『学習科学とテクノロジ』 放送大学、2003\n科学技術コミュニケーション\nJKギルバート・Sストックルマイヤー 編『現代の事例から学ぶサイエンスコミュニケーション：科学技術と社会のかかわり、その課題とジレンマ』慶応義塾大学出版会、2015年\n（John K. Gilbert, Susan M. Stocklmayer ed., “Communication and Engagement with Science and Technology”, Rouledge, 2012）\n科学技術社会論\n藤垣裕子 編『科学技術社会論の挑戦2 科学技術社会』東京大学出版会、2020年\n科学哲学\n松王政浩『科学哲学からのメッセージ』森北出版、2020年\n統計の哲学\nエリオット・ソーバー （松王政浩 訳）『科学と証拠 −統計の哲学 入門』名古屋大学出版会、2012年\n（Sober, E. Evidence and Evolution, Cambridge UP, 2008, ch.1.）\nコミュニケーション・メディア\n後藤崇志他『基礎と事例で学ぶ 教育工学のすすめ』 株式会社ナカニシヤ出版、2025年",
+      "conditionsOriginal": "ホームページに公開されているテーマごとに作成された８つの問題から、２題選択して答える。\n課題論文（10:00～11:30）\n口頭試問（13:00以降）\n① TOEIC公開テスト【Listening & Reading Testに限定】（令和6年7月以降に受験したスコア）\n② TOEFL-iBT（Home Edition可）（令和6年7月以降に受験したスコア）",
+      "editorialNote": "令和9年度夏期募集，试验2026年8月10～11日。同一选考适用于令和8年10月入学（若干名）与令和9年4月入学，不另建10月记录。一般選抜与外国人留学生特別選抜不能併愿。冬期当年要项未公布，招生页仍为前年度要项，不移用旧科目。TOEFL-ITP只写在数学専攻，不套用。8道题目全文不在要项里，只收录讲座页有标题的主题和指定书。该页在「統計の哲学」指定书之后另显示无标题书目「科学技術からみたリスク」（「リスク学入門」第5巻、岩波書店、2007年），没有独立主题标题，不把它写成第八个主题。页面注明2026年5月8日更新。"
+    },
+    {
+      "id": "hokkaido-sci-condensed-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "物性物理学専攻",
+      "admissionType": "international",
+      "selectionName": "修士（博士前期）課程 夏期募集 外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生特別選抜：選抜方法",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外国人留学生特別選抜：口頭試問",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生特別選抜：募集人員",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "日本語能力又は英語能力を示す証明書",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口頭試問",
+      "conditionsOriginal": "口頭試問（9:00以降）\n口頭試問の成績、入学願書・履歴書、最終出身学校等の学業成績証明書、受入教員の推薦書等の出願書類の内容を総合して合格者を決定する。\n日本語能力又は英語能力を示す証明書を提出すること。\n日本語能力又は英語能力を示す証明書を提出することが困難な者は、日本語又は英語の成績がわかる出身学校等の学業成績証明書等を提出すること。",
+      "editorialNote": "外国人留学生特別選抜只实施口頭試問，不复制一般選抜的笔试科目、关键词或课题论文指定书。须有受入教员推荐，与一般選抜不能併愿。令和8年10月入学与令和9年4月入学同属这一夏期选考。渡日前考生的口頭試問日程可能另行通知。"
+    },
+    {
+      "id": "hokkaido-sci-cosmos-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "宇宙理学専攻",
+      "admissionType": "international",
+      "selectionName": "修士（博士前期）課程 夏期募集 外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生特別選抜：選抜方法",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外国人留学生特別選抜：口頭試問",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生特別選抜：募集人員",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "日本語能力又は英語能力を示す証明書",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口頭試問",
+      "conditionsOriginal": "口頭試問（9:00以降）\n口頭試問の成績、入学願書・履歴書、最終出身学校等の学業成績証明書、受入教員の推薦書等の出願書類の内容を総合して合格者を決定する。\n日本語能力又は英語能力を示す証明書を提出すること。\n日本語能力又は英語能力を示す証明書を提出することが困難な者は、日本語又は英語の成績がわかる出身学校等の学業成績証明書等を提出すること。",
+      "editorialNote": "外国人留学生特別選抜只实施口頭試問，不复制一般選抜的笔试科目、关键词或课题论文指定书。须有受入教员推荐，与一般選抜不能併愿。令和8年10月入学与令和9年4月入学同属这一夏期选考。渡日前考生的口頭試問日程可能另行通知。"
+    },
+    {
+      "id": "hokkaido-sci-natural-earth-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士（博士前期）課程 夏期募集 外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生特別選抜：選抜方法",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外国人留学生特別選抜：口頭試問",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "地球惑星系３講座：入学後の研究計画書",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外国人留学生特別選抜：募集人員",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "日本語能力又は英語能力を示す証明書",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口頭試問",
+      "conditionsOriginal": "「入学後の研究計画書（所定用紙）」を必ず提出すること。\n口頭試問（9:00以降）\n口頭試問の成績、入学願書・履歴書、最終出身学校等の学業成績証明書、受入教員の推薦書等の出願書類の内容を総合して合格者を決定する。\n日本語能力又は英語能力を示す証明書を提出すること。\n日本語能力又は英語能力を示す証明書を提出することが困難な者は、日本語又は英語の成績がわかる出身学校等の学業成績証明書等を提出すること。",
+      "editorialNote": "外国人留学生特別選抜只实施口頭試問，不复制一般選抜的笔试科目、关键词或课题论文指定书。须有受入教员推荐，与一般選抜不能併愿。令和8年10月入学与令和9年4月入学同属这一夏期选考。渡日前考生的口頭試問日程可能另行通知。",
+      "course": "地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座"
+    },
+    {
+      "id": "hokkaido-sci-natural-biodiversity-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士（博士前期）課程 夏期募集 外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生特別選抜：選抜方法",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外国人留学生特別選抜：口頭試問",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生特別選抜：募集人員",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "日本語能力又は英語能力を示す証明書",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口頭試問",
+      "conditionsOriginal": "口頭試問（13:00以降）\n口頭試問の成績、入学願書・履歴書、最終出身学校等の学業成績証明書、受入教員の推薦書等の出願書類の内容を総合して合格者を決定する。\n日本語能力又は英語能力を示す証明書を提出すること。\n日本語能力又は英語能力を示す証明書を提出することが困難な者は、日本語又は英語の成績がわかる出身学校等の学業成績証明書等を提出すること。",
+      "editorialNote": "外国人留学生特別選抜只实施口頭試問，不复制一般選抜的笔试科目、关键词或课题论文指定书。须有受入教员推荐，与一般選抜不能併愿。令和8年10月入学与令和9年4月入学同属这一夏期选考。渡日前考生的口頭試問日程可能另行通知。",
+      "course": "多様性生物学講座"
+    },
+    {
+      "id": "hokkaido-sci-natural-scicomm-foreign",
+      "universityId": "hokkaido",
+      "graduateSchool": "理学院",
+      "department": "自然史科学専攻",
+      "admissionType": "international",
+      "selectionName": "修士（博士前期）課程 夏期募集 外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "degreeProgram": "master",
+      "sources": [
+        {
+          "label": "外国人留学生特別選抜：選抜方法",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 15
+        },
+        {
+          "label": "外国人留学生特別選抜：口頭試問",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 16
+        },
+        {
+          "label": "外国人留学生特別選抜：募集人員",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 13
+        },
+        {
+          "label": "日本語能力又は英語能力を示す証明書",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "理学院：夏期・冬期募集要項入口",
+          "url": "https://www2.sci.hokudai.ac.jp/gs/admission-guideline",
+          "kind": "page"
+        }
+      ],
+      "subjectsOriginal": "口頭試問",
+      "conditionsOriginal": "口頭試問（13:00以降）\n口頭試問の成績、入学願書・履歴書、最終出身学校等の学業成績証明書、受入教員の推薦書等の出願書類の内容を総合して合格者を決定する。\n日本語能力又は英語能力を示す証明書を提出すること。\n日本語能力又は英語能力を示す証明書を提出することが困難な者は、日本語又は英語の成績がわかる出身学校等の学業成績証明書等を提出すること。",
+      "editorialNote": "外国人留学生特別選抜只实施口頭試問，不复制一般選抜的笔试科目、关键词或课题论文指定书。须有受入教员推荐，与一般選抜不能併愿。令和8年10月入学与令和9年4月入学同属这一夏期选考。渡日前考生的口頭試問日程可能另行通知。",
+      "course": "科学コミュニケーション講座"
     },
     {
       "id": "keio-st-physico-june",

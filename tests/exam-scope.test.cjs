@@ -89,8 +89,8 @@ test('Sophia foreign-educated general routes preserve residence restrictions, al
  }
  assert.equal(core.sourceURL({url:'https://adm.sophia.ac.jp/guide.pdf',kind:'pdf',pdfPage:6}),'https://adm.sophia.ac.jp/guide.pdf#page=6');
  for(const url of ['http://adm.sophia.ac.jp/a','https://sophia.ac.jp.evil.test/a','https://evil-sophia.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
- assert.equal(data.records.length,1006);assert.equal(data.records.filter(r=>!r.publicationStatus).length,965);
- const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>1006<\/strong>/);assert.match(html,/20261011-map/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学、法政大学与千葉大学/);
+ assert.equal(data.records.length,1034);assert.equal(data.records.filter(r=>!r.publicationStatus).length,990);
+ const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>1034<\/strong>/);assert.match(html,/20261011-map/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学、法政大学与千葉大学/);
 });
 test('Kyushu keeps seven official faculties and 20 departments with year-specific sources and safe aliases',()=>{
  const records=data.records.filter(r=>r.universityId==='kyushu');
@@ -180,17 +180,17 @@ test('Kyushu math, design and life sciences preserve course, English and seasona
 
 test('Hokkaido adds two graduate schools and seven eligible departments with actual 2027 sources',()=>{
  const rs=data.records.filter(r=>r.universityId==='hokkaido');
- assert.equal(rs.length,28);assert.equal(new Set(rs.map(r=>r.graduateSchool)).size,2);
- assert.equal(new Set(rs.map(r=>r.graduateSchool+'/'+r.department)).size,7);
- assert.equal(rs.filter(r=>r.admissionType==='general').length,15);
- assert.equal(rs.filter(r=>r.admissionType==='international').length,13);
- const pending=rs.filter(r=>r.publicationStatus==='pending');assert.equal(pending.length,1);
+ assert.equal(rs.length,56);assert.equal(new Set(rs.map(r=>r.graduateSchool)).size,3);
+ assert.equal(new Set(rs.map(r=>r.graduateSchool+'/'+r.department)).size,15);
+ assert.equal(rs.filter(r=>r.admissionType==='general').length,28);
+ assert.equal(rs.filter(r=>r.admissionType==='international').length,28);
+ const pending=rs.filter(r=>r.publicationStatus==='pending');assert.equal(pending.length,4);
  assert.ok(pending.every(r=>!r.subjectsOriginal&&!r.scopeOriginal));
- assert.ok(rs.every(r=>r.verifiedAt==='2026-10-09'&&r.entryYear==='2027年4月'&&r.degreeProgram==='master'));
+ assert.ok(rs.every(r=>['2026-10-09','2026-10-19'].includes(r.verifiedAt)&&r.entryYear==='2027年4月'&&r.degreeProgram==='master'));
  assert.ok(rs.every(r=>r.sources.every(s=>new URL(s.url).hostname.endsWith('.hokudai.ac.jp'))));
  for(const q of ['北大','北海道大']){
   const hits=core.filter(data.records,data.universities,{...initial,query:q});
-  assert.equal(hits.length,15);assert.ok(hits.every(r=>r.universityId==='hokkaido'));
+  assert.equal(hits.length,28);assert.ok(hits.every(r=>r.universityId==='hokkaido'));
  }
  assert.equal(core.sourceURL({url:'https://www.eng.hokudai.ac.jp/a.pdf',kind:'pdf',pdfPage:18}),'https://www.eng.hokudai.ac.jp/a.pdf#page=18');
  for(const url of ['http://www.eng.hokudai.ac.jp/a','https://hokudai.ac.jp.evil.test/a','https://evil-hokudai.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
@@ -208,7 +208,7 @@ test('Hokkaido Engineering keeps research-room groups, oral alternatives and for
  assert.doesNotMatch(f('materials-general-oral').subjectsOriginal,/筆答/);
  assert.doesNotMatch(f('materials-foreign').subjectsOriginal,/Written/);
  assert.ok(!f('mechanical-foreign'));
- assert.equal(data.records.filter(r=>r.universityId==='hokkaido'&&r.selectionName==='Master’s Program e3 Special Selection').length,6);
+ assert.equal(data.records.filter(r=>r.universityId==='hokkaido'&&r.selectionName==='Master’s Program e3 Special Selection').length,11);
  const e3=f('mechanical-e3');assert.match(e3.conditionsOriginal,/January 21, 2026.*730/s);
  assert.ok(e3.sources.some(s=>s.pdfPage===9)&&e3.sources.some(s=>s.pdfPage===20));
  assert.doesNotMatch(e3.subjectsOriginal,/Written|CSC/);
@@ -225,16 +225,67 @@ test('Hokkaido Information Science retains five courses and supervisor-designate
  assert.match(f('electronics-general').subjectsOriginal,/電子回路/);
  assert.ok(f('bio-foreign').sources.some(s=>s.url.endsWith('R09_Apr_master_exam_f_Adm_Jp.pdf')&&s.pdfPage===4));
 });
-test('Hokkaido skips excluded fields while retaining engineering and its required chemistry subjects',()=>{
+test('Hokkaido keeps the original engineering set and adds the eight past-paper majors from current guidelines',()=>{
  const rs=data.records.filter(r=>r.universityId==='hokkaido');
- const allowed=new Set(['応用物理学専攻','材料科学専攻','機械宇宙工学専攻','人間機械システムデザイン専攻','エネルギー環境システム専攻','量子理工学専攻','情報科学専攻']);
+ const allowed=new Set(['応用物理学専攻','材料科学専攻','機械宇宙工学専攻','人間機械システムデザイン専攻','エネルギー環境システム専攻','量子理工学専攻','情報科学専攻','環境フィールド工学専攻','北方圏環境政策工学専攻','環境創生工学専攻','環境循環システム専攻','共同資源工学専攻','物性物理学専攻','宇宙理学専攻','自然史科学専攻']);
  assert.ok(rs.every(r=>allowed.has(r.department)));
- assert.deepEqual(data.catalog.hokkaido.graduateSchools,['工学院','情報科学院']);
- assert.ok(!rs.some(r=>['理学院','総合化学院','環境科学院','生命科学院'].includes(r.graduateSchool)));
+ assert.deepEqual(data.catalog.hokkaido.graduateSchools,['工学院','情報科学院','理学院']);
+ assert.ok(!rs.some(r=>['総合化学院','環境科学院','生命科学院'].includes(r.graduateSchool)));
+ assert.ok(!rs.some(r=>['建築都市空間デザイン専攻','空間性能システム専攻','数学専攻'].includes(r.department)));
  const materials=rs.find(r=>r.id==='hokkaido-eng-materials-general');
  assert.match(materials.scopeOriginal,/化学/);
  assert.ok(rs.some(r=>r.department==='エネルギー環境システム専攻'));
- assert.equal(rs.filter(r=>r.publicationStatus==='pending')[0].department,'材料科学専攻');
+ assert.ok(rs.filter(r=>r.publicationStatus==='pending').some(r=>r.department==='材料科学専攻'));
+});
+test('Hokkaido environmental divisions keep separate answer counts and do not copy the English cutoff',()=>{
+ const f=id=>data.records.find(r=>r.id==='hokkaido-eng-'+id);
+ assert.match(f('field-general').conditionsOriginal,/８問のうちから４問/);
+ assert.match(f('field-general').conditionsOriginal,/460 点以下/);
+ assert.match(f('field-general').scopeOriginal,/地質学基礎（２問）/);
+ assert.doesNotMatch(f('creation-general').conditionsOriginal,/460/);
+ assert.match(f('creation-general').subjectsOriginal,/口述試験・口頭試問/);
+ assert.match(f('circulation-general').conditionsOriginal,/併願が可能/);
+ assert.match(f('circulation-general').conditionsOriginal,/４問を選択/);
+ assert.doesNotMatch(f('circulation-general').subjectsOriginal,/口述試験/);
+ assert.match(f('resources-general').conditionsOriginal,/当該大学において入学者選抜試験を受験/);
+ assert.match(f('field-foreign').conditionsOriginal,/Answer 4 out of the 8 questions/);
+ assert.match(f('field-foreign').conditionsOriginal,/exceed one of the minimum scores/);
+ assert.match(f('creation-foreign').conditionsOriginal,/notified in late July/);
+ assert.doesNotMatch(f('creation-foreign').conditionsOriginal,/460/);
+ assert.match(f('resources-foreign').conditionsOriginal,/Answer 2 out of the 8 questions/);
+ assert.match(f('resources-foreign').conditionsOriginal,/Answer 2 out of the 16 questions/);
+ assert.match(f('circulation-foreign').conditionsOriginal,/Sustainable Resources Environment/);
+ assert.doesNotMatch(f('circulation-foreign').conditionsOriginal,/Answer 4/);
+ assert.equal(f('field-second-pending').publicationStatus,'pending');
+ assert.ok(!f('field-second-pending').subjectsOriginal&&!f('circulation-second-pending'));
+ assert.match(f('resources-e3').conditionsOriginal,/Master’s program only/);
+ assert.doesNotMatch(f('resources-e3').subjectsOriginal,/Written Examination/);
+});
+test('Hokkaido science majors keep official subjects and leave unpublished detail empty',()=>{
+ const f=id=>data.records.find(r=>r.id==='hokkaido-sci-'+id);
+ assert.equal(f('condensed-general').department,'物性物理学専攻');
+ assert.deepEqual(f('condensed-general').searchAliases,['量子理学','量子理学専攻']);
+ assert.ok(!f('condensed-general').scopeOriginal);
+ assert.doesNotMatch(f('condensed-general').subjectsOriginal,/量子力学|電磁気/);
+ assert.match(f('condensed-general').conditionsOriginal,/専門科目（物理学）/);
+ assert.match(f('cosmos-general').scopeOriginal,/物理数学、地球惑星科学/);
+ assert.match(f('cosmos-general').scopeOriginal,/２問を選択/);
+ assert.match(f('natural-earth-general').scopeOriginal,/地球科学Ⅰ（地球史、堆積学、地球惑星化学）/);
+ assert.doesNotMatch(f('natural-earth-general').scopeOriginal,/化学（/);
+ assert.equal(f('natural-earth-general').course,'地球惑星ダイナミクス講座・地球惑星システム科学講座・地震学火山学講座');
+ assert.match(f('natural-biodiversity-general').conditionsOriginal,/5問/);
+ assert.match(f('natural-biodiversity-general').conditionsOriginal,/3問を選択/);
+ assert.match(f('natural-biodiversity-general').scopeOriginal,/遺伝子プール Gene pool/);
+ assert.match(f('natural-scicomm-general').conditionsOriginal,/８つの問題から、２題選択/);
+ assert.match(f('natural-scicomm-general').scopeOriginal,/教育デザイン（心理統計）/);
+ assert.doesNotMatch(f('natural-scicomm-general').scopeOriginal,/科学技術からみたリスク/);
+ for(const id of ['condensed-foreign','cosmos-foreign','natural-earth-foreign','natural-biodiversity-foreign','natural-scicomm-foreign']){
+  assert.equal(f(id).subjectsOriginal,'口頭試問');
+  assert.ok(!f(id).scopeOriginal);
+ }
+ assert.match(f('natural-earth-foreign').conditionsOriginal,/入学後の研究計画書/);
+ const hits=core.filter(data.records,data.universities,{...initial,query:'量子理学'});
+ assert.deepEqual(hits.map(r=>r.id),['hokkaido-sci-condensed-general']);
 });
 test('Keio covers four graduate schools and seven official departments with 2027 sources and safe aliases',()=>{
  const rs=data.records.filter(r=>r.universityId==='keio');
