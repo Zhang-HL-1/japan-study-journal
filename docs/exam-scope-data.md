@@ -852,3 +852,30 @@ PDF均核对签名、实际页数和引用页界。一般实际页＝印刷页�
 | [sci-summer](https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf) | 30 | 805768 | `66c04bedb897e97446f2924eafc4449d116ee5e18e2818b48c3dba2fa7762529` |
 | [biodiversity-keywords](https://biodiversity.sci.hokudai.ac.jp/bd/wp-content/uploads/2026/07/Keywords2026.pdf) | 1 | 181683 | `d4f79859a6871e3ec548cc0073de184a097db3641584829470e2866420e1581f` |
 | [e3](https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf) | 22 | 582978 | `86693569fd3526279c590c2f4fd7dac2296e5cb2776bf3129440eb6e7874b70c` |
+
+## 名古屋大学补录（2026-10-19）
+
+只补过去问已有、考试范围缺失的5个专攻，不改过去问，不收录神户、东理。新增13条：11条已公布科目或选考方法，2条工学外国人入试待核验。全站1047条，其中1001条要求。原有名古屋41条逐条保留。科目与范围用官方原文，不翻译、不从过去问扩写。
+
+| 专攻 | 新增 | 官方来源 |
+| --- | --- | --- |
+| 工学研究科／化学システム工学専攻 | 一般、筆記試験免除各1；外国人入试待核验1 | [工学2027一般要项](https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229)实际第24页，与材料デザイン・物質プロセス同一科目栏。基础数学与物理化学全答，专业4问选2 |
+| 工学研究科／土木工学専攻 | 一般、筆記試験免除各1；外国人入试待核验1 | [令和9年度専攻案内](https://www.civil.nagoya-u.ac.jp/admission/y2026/01_令和9年度大学院入試専攻案内.pdf)实际第3、7页。基础4问选3；专业A为11问选5且一科至多2问；专业B按出身分野出题，无固定章节。免笔试仅限土木系出身，成绩单必须提交 |
+| 多元数理科学研究科／多元数理科学専攻 | 第1次募集、昼夜開講コース各1 | [出题目安](https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/info-mc-2027-1.pdf)实际第1页。两日各3小时、各4题全答。集合与位相没有更细关键词 |
+| 理学研究科／理学専攻（物理科学領域） | 一般選抜、自己推薦入学各1 | [博士前期要项](https://www.phys.nagoya-u.ac.jp/entrance/docs/Application_Guidelines_MC_202704.pdf)实际第11页只列物理学笔试、校内英语和有资格限制的口述。[自荐要项](https://www.phys.nagoya-u.ac.jp/entrance/docs/2027_suisen.pdf)实际第9页为面试 |
+| 環境学研究科／都市環境学専攻／持続発展学コース | 一般A、一般B、留学生特別選抜各1 | [博士前期要项](https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf)实际第16页；[出题范围](https://www.env.nagoya-u.ac.jp/admission/file/juken2026-oct-2027.pdf)实际第13–14页。一般A与留学生为5问选3加小论文；一般B为4问选3、11问选5 |
+
+仍未建记录（held）：多元数理2027年第2次募集，现行入试页未公布要项。物理科学笔试章节，要项未列。都市環境学建築学コース，要项与别记2已公布，但过去问入口是持続発展学コース一般B，本轮不并入。社会人特別選抜沿用既有名古屋范围不收。第Ⅱ期写明视第Ⅰ期合格人数可能实施，要项未公布，不建待公布入口、不填科目。2026年秋入学与第Ⅰ期共用出题范围文件，本轮只记2027年4月。工学外国人通知表仍错位，化学系统与土木各保留待核验入口，不分配线上／线下，也不套用一般考纲。
+
+| 官方文件 | 实际页数 | bytes | SHA256 |
+| --- | ---: | ---: | --- |
+| [eng-general](https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229) | 35 | 4350386 | `08aad9736760115b6583369a461dc581384b515e87fa66a51fae47960deb7bb0` |
+| [civil-guide](https://www.civil.nagoya-u.ac.jp/admission/y2026/01_令和9年度大学院入試専攻案内.pdf) | 8 | 527304 | `0847e8960a1abb2fcc97ebf1fde450629aa7b9dae523618f73d342ed91e374e7` |
+| [math-info](https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/info-mc-2027-1.pdf) | 1 | 66395 | `a736169cbbe5f7adc569684a208daa36950941f7b8cd3e8b1933507d7d0425ca` |
+| [math-first](https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/appl-mc-2027-1.pdf) | 14 | 3223470 | `3b88ccc9f8e3063356660b7a95c79378ee9a7d2a535fe765019f6cd2e6212c1e` |
+| [math-daynight](https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/appl-mc-2027-d.pdf) | 14 | 3224755 | `85901d790b5547107f79023545b30c6cbf3397d7ab156934ce0d89d5b076992e` |
+| [phys-general](https://www.phys.nagoya-u.ac.jp/entrance/docs/Application_Guidelines_MC_202704.pdf) | 41 | 4791109 | `2a6d42d0afbeedfbcf6f40d3b339229e92f08d66d8be934df78450b5ee72d943` |
+| [phys-recommendation](https://www.phys.nagoya-u.ac.jp/entrance/docs/2027_suisen.pdf) | 24 | 1254674 | `3cf2a2d6017f7c528463c666a7ac81c622fe35b97654e574510e62b29c31c043` |
+| [env-guide](https://www.env.nagoya-u.ac.jp/admission/file/juken2026-oct-2027.pdf) | 21 | 672566 | `56079513bef2ff77651b9d08ba889acd6637da0c6173aee05b1a3cc011c4da9f` |
+| [env-master](https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf) | 31 | 3600358 | `8ebe687a1332192ee3e09168bf96ff60153c68480177fd8ac679bfd164a57477` |
+| [eng-foreign-notice](https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf) | 1 | 107326 | `ac7957423f42f9984c3ac1d3c368873d8398a96eac604b385574cdbd07194216` |

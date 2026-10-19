@@ -76,9 +76,9 @@ test('UEC program and month filters retain real foreign general entries and open
  const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('ie-p-gene-itn_2027.pdf#page=16'));
 });
 test('Nagoya filters retain general eligibility and open the actual AI exam table without filling foreign unknown scopes',async()=>{
- const a=boot(catalog.records);await school(a,'nagoya').click();assert.equal(a.ids['scope-results'].children.length,29);
- assert.equal(a.ids['scope-graduate'].options.length,3);assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.nagoya.note);
- await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,41);
+ const a=boot(catalog.records);await school(a,'nagoya').click();assert.equal(a.ids['scope-results'].children.length,39);
+ assert.equal(a.ids['scope-graduate'].options.length,6);assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.nagoya.note);
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,54);
  await a.ids['scope-results'].children.find(e=>e.dataset.id==='nagoya-intelligent-systems-general').click();
  assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('Python 3')&&e.lang==='ja'));
  const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('7c87fb3ffa6e880b002fdf3d65f61582.pdf#page=14'));
