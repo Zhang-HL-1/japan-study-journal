@@ -86,9 +86,9 @@ test('Nagoya filters retain general eligibility and open the actual AI exam tabl
  assert.ok(a.ids['scope-detail'].children.some(e=>e.tag==='p'&&e.textContent.includes('待核验')));assert.ok(!a.ids['scope-detail'].children.some(e=>e.className==='original-text'));
 });
 test('Kobe filters the formal fields, renders foreign systems subjects, and opens the real exam-table page',async()=>{
- const a=boot(catalog.records);await school(a,'kobe').click();assert.equal(a.ids['scope-results'].children.length,6);
- assert.equal(a.ids['scope-graduate'].options.length,5);assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.kobe.note);
- await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,14);
+ const a=boot(catalog.records);await school(a,'kobe').click();assert.equal(a.ids['scope-results'].children.length,8);
+ assert.equal(a.ids['scope-graduate'].options.length,6);assert.equal(a.ids['data-status'].children[1].textContent,catalog.catalog.kobe.note);
+ await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,20);
  const row=a.ids['scope-results'].children.find(e=>e.dataset.id==='kobe-systems-international');assert.ok(row);await row.click();
  assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent===catalog.records.find(r=>r.id===row.dataset.id).subjectsOriginal));
  const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();

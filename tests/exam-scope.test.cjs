@@ -89,8 +89,8 @@ test('Sophia foreign-educated general routes preserve residence restrictions, al
  }
  assert.equal(core.sourceURL({url:'https://adm.sophia.ac.jp/guide.pdf',kind:'pdf',pdfPage:6}),'https://adm.sophia.ac.jp/guide.pdf#page=6');
  for(const url of ['http://adm.sophia.ac.jp/a','https://sophia.ac.jp.evil.test/a','https://evil-sophia.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
- assert.equal(data.records.length,1047);assert.equal(data.records.filter(r=>!r.publicationStatus).length,1001);
- const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>1047<\/strong>/);assert.match(html,/20261011-map/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学、法政大学与千葉大学/);
+ assert.equal(data.records.length,1053);assert.equal(data.records.filter(r=>!r.publicationStatus).length,1007);
+ const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>1053<\/strong>/);assert.match(html,/20261011-map/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学、法政大学与千葉大学/);
 });
 test('Kyushu keeps seven official faculties and 20 departments with year-specific sources and safe aliases',()=>{
  const records=data.records.filter(r=>r.universityId==='kyushu');

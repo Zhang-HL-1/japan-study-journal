@@ -61,7 +61,7 @@
 | 慶應義塾大学 | 日吉キャンパス・協生館（神奈川県 横浜市） | システムデザイン・マネジメント研究科；メディアデザイン研究科 | [依据1](https://www.sdm.keio.ac.jp/access/)、[依据2](https://www.kmd.keio.ac.jp/ja/access/) |
 | 慶應義塾大学 | 湘南藤沢キャンパス（SFC）（神奈川県 藤沢市） | 政策・メディア研究科 | [依据1](https://www.keio.ac.jp/ja/contact-us/department/sfc/)、[依据2](https://www.keio.ac.jp/ja/about/campus/sfc/) |
 | 上智大学 | 四谷キャンパス（東京都 千代田区） | 理工学研究科；応用データサイエンス学位プログラム | [依据1](https://www.sophia.ac.jp/jpn/aboutsophia/access/)、[依据2](https://www.sophia.ac.jp/jpn/contact/) |
-| 神戸大学 | 六甲台第2キャンパス（兵庫県 神戸市） | 工学研究科；システム情報学研究科；科学技術イノベーション研究科：部分领域；其他领域在楠、港岛。 | [依据1](https://www.kobe-u.ac.jp/ja/site/access/)、[依据2](https://www.csi.kobe-u.ac.jp/access/)、[依据3](https://www.stin.kobe-u.ac.jp/access/) |
+| 神戸大学 | 六甲台第2キャンパス（兵庫県 神戸市） | 工学研究科；システム情報学研究科；科学技術イノベーション研究科：部分领域；其他领域在楠、港岛。；理学研究科 | [依据1](https://www.kobe-u.ac.jp/ja/site/access/)、[依据2](https://www.csi.kobe-u.ac.jp/access/)、[依据3](https://www.stin.kobe-u.ac.jp/access/)、[依据4](https://www.kobe-u.ac.jp/ja/campus-life/general/access/rokko/rokkodai2/) |
 | 神戸大学 | 深江キャンパス（兵庫県 神戸市） | 海事科学研究科 | [依据1](https://www.kobe-u.ac.jp/ja/campus-life/general/access/fukae/) |
 | 神戸大学 | 楠キャンパス（兵庫県 神戸市） | 科学技術イノベーション研究科：生命医科学相关领域的部分教学研究基地。 | [依据1](https://www.stin.kobe-u.ac.jp/access/) |
 | 神戸大学 | ポートアイランドキャンパス（兵庫県 神戸市） | 科学技術イノベーション研究科：计算科学等部分研究领域基地。 | [依据1](https://www.stin.kobe-u.ac.jp/access/) |
