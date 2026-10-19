@@ -897,3 +897,30 @@ PDF均核对签名、实际页数和引用页界。一般实际页＝印刷页�
 | --- | ---: | ---: | --- |
 | [sci-master](https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf) | 31 | 857936 | `7e8f5df38b8534f5fdf60b825d72ef6d3851abfe8f8ce33d68936c09d6c7d92a` |
 | [sci-english](https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf) | 22 | 396200 | `6e31752126a2f9cbc76815f014b72d9bc278b1a23828ca5c4ed11d90bbbcbe6c` |
+
+## 東京理科大学补录（2026-10-19）
+
+只补过去问已有、考试范围缺失的経営学研究科／経営学専攻与薬学研究科／薬科学専攻，不改过去问，不改其他学校的考试范围。新增5条已公布科目或选考方法。全站1058条，其中1012条要求。原有东理56条逐条保留。科目与范围用官方日文原文，不翻译、不从过去问扩写。
+
+对照口径：过去问专攻集合减去已有考试范围专攻，只剩経営学専攻（6组，夏期／冬期一般入试）和薬科学専攻（3组，一般入试）。創域理工学研究科経営システム工学専攻过去问虽有，考试范围已有2027年募集停止记录，不是本轮缺口。
+
+| 专攻 | 新增 | 官方来源 |
+| --- | --- | --- |
+| 経営学研究科／経営学専攻 | 一般入试夏期、冬期各1；外国人留学生试验1 | [2027一般要项（8月3日更新）](https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_buisiness_20260803.pdf)实际第4页日程与资格、第5页科目与文本、第6页外部英语。[试验科目选择届](https://www.tus.ac.jp/admissions/university/guideline/graduateschool/file/2027_sikenkamoku_keiei.pdf)实际第1页。7科中选志望研究室指定的1科。各科题数未公布 |
+| 薬学研究科／薬科学専攻 | 一般入试1；外国人留学生试验1 | [2027修士一般要项（8月3日更新）](https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf)实际第9页日程、第13页范围、第25页TOEFL。有機化学、物理化学、生物科学，专业科目为二年次为止的讲义内容。题数与选答未公布 |
+
+経営学一般入试夏期为2026年7月2日，出愿消印有效，此轮已结束；冬期为2027年1月26日，出愿邮寄必着，募集人数为定员20名中的若干名。两期科目与指定文本相同。信息科目的基本信息处理者教材只限第1至3章，其余科目要项只给书目、不给章节。社会人可在一般入试内改考経営一般小论文；资格考试免除和经营学部毕业生免笔试按要项原文，不从过去问判断哪些卷必考。2026年8月3日TOEFL纸质成绩通知只点名冬期経営学一般入试，夏期不套用。一般入试Institution Code为G372。
+
+外国人留学生试验不抄一般入试的7科笔试和书目。経営学第二次选考是希望专攻分野的口头试问，面试为日语。薬科学第二次选考列出有機化学、物理化学、生物科学，并写明笔试有时免除；未公布免除条件、章节和题数，也不写入一般入试括号里的薬品物理化学、分析化学、生化学等分野。外国人英语不接受TOEFL ITP和TOEIC IP，薬科学一般入试则接受TOEFL ITP。外国人要项的Institution Code为0438。薬科学外国人另交研究内容与研究计划，要项写明是面试参考资料。
+
+仍未建记录（held）：推荐入学的経営学夏期／冬期和薬科学，要项只有書類審査及面接，未公布笔试科目、章节和题数，过去问也没有。薬科学社会人特别选拔是書類審査和口頭試問（含专业知识与英语相关知识），未公布章节和题数；社会人募集表没有独立的経営学専攻社会人特别选拔。一般入试里允许社会人改考経営一般，已写在一般入试条件中，不另建社会人记录。技術経営専攻是专业职学位，不是経営学専攻，过去问没有。薬学専攻博士课程不是薬科学修士。各科题数、药科学选答、经营学各科章节（信息教材第1至3章除外）保持空白。
+
+| 官方文件 | 实际页数 | bytes | SHA256 |
+| --- | ---: | ---: | --- |
+| [business-general](https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_buisiness_20260803.pdf) | 23 | 1799765 | `50e64c30d647ec62ef7be4195268ec38046ef8258acd51a96f0e432b1d4812e1` |
+| [subject-form](https://www.tus.ac.jp/admissions/university/guideline/graduateschool/file/2027_sikenkamoku_keiei.pdf) | 1 | 313239 | `ead1b2a90f77c51ff2f3eb807c81f75747103d78f1c13b3cca0c08602b639fcd` |
+| [ippan](https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf) | 60 | 2029304 | `bcff9d427fb32a77c6de8ed43f24012efad745e40f6a117527bc99eb2d880548` |
+| [foreign](https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student_grad.pdf) | 55 | 3857648 | `c1d954a484b210d1cbb30696ea12304394b64ef1c2370eda2f00cc4de4be67e1` |
+| [toefl-notice](https://www.tus.ac.jp/today/archive/2026/TOEFLiBT_GraduateAdmission_20260803.pdf) | 1 | 205819 | `824349a274652a910a8655c365a5e5fe1c5c370394bbcbf55b415d7e9a58ce30` |
+| [foreign-score-notice](https://www.tus.ac.jp/admissions/file/2026/20260403_0103.pdf) | 1 | 162391 | `90a768f14b2aaf22f750690c9cbcef442093a0e70af66f1da70be481c248ccad` |
+| [special](https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_special_20260803.pdf) | 34 | 1803743 | `2aa9d54dddfd894c68a84c6f7c48ef1cd65e5fa1a1cb6d3e34942b07dd34b171` |

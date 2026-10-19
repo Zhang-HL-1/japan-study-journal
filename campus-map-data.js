@@ -942,6 +942,13 @@ const data = {
           "departments": [
             "国際火災科学専攻"
           ]
+        },
+        {
+          "graduateSchool": "経営学研究科",
+          "detail": "経営学専攻修士的选考地点为神乐坂校园富士见校舍。",
+          "departments": [
+            "経営学専攻"
+          ]
         }
       ],
       "sources": [
@@ -956,14 +963,22 @@ const data = {
         {
           "url": "https://www.tus.ac.jp/academics/graduate_school/sciencetechnology/global_fire/",
           "label": "官网：国際火災科学専攻｜創域理工学研究科｜教育／学部・大学院｜東京理科大｜東京理科大学"
+        },
+        {
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_buisiness_20260803.pdf",
+          "label": "2027年度経営学研究科修士一般入試要項：选考地点为神乐坂校园富士见校舍"
+        },
+        {
+          "url": "https://www.tus.ac.jp/academics/graduate_school/management/",
+          "label": "官网：経営学研究科｜東京理科大学"
         }
       ],
-      "note": "工学研究科当前在葛饰，不依据旧版校区信息标到神乐坂。",
+      "note": "工学研究科当前在葛饰，不依据旧版校区信息标到神乐坂。経営学専攻修士选考在富士见校舍。",
       "aliases": [
         "神乐坂",
         "Kagurazaka"
       ],
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-19",
       "positionAccuracy": "校区／研究基地代表点，约略位置"
     },
     {
@@ -985,6 +1000,13 @@ const data = {
         {
           "graduateSchool": "先進工学研究科",
           "detail": ""
+        },
+        {
+          "graduateSchool": "薬学研究科",
+          "detail": "薬科学専攻修士的选考地点为葛饰校园。",
+          "departments": [
+            "薬科学専攻"
+          ]
         }
       ],
       "sources": [
@@ -999,14 +1021,22 @@ const data = {
         {
           "url": "https://www.tus.ac.jp/academics/graduate_school/industrialscience_technology/",
           "label": "官网：先進工学研究科"
+        },
+        {
+          "url": "https://www.tus.ac.jp/today/archive/2026/00_2027_shushi_ippan_20260803.pdf",
+          "label": "2027年度修士一般入試要项：薬科学専攻选考地点为葛饰校园"
+        },
+        {
+          "url": "https://www.tus.ac.jp/academics/graduate_school/pharmaceutical_sciences/pharmacoscience/",
+          "label": "官网：薬科学専攻｜薬学研究科｜東京理科大学"
         }
       ],
-      "note": "当前工学及先進工学研究科的教学研究校区。",
+      "note": "当前工学、先進工学及薬学研究科薬科学専攻的教学研究校区。",
       "aliases": [
         "葛饰",
         "Katsushika"
       ],
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-19",
       "positionAccuracy": "校区／研究基地代表点，约略位置"
     },
     {

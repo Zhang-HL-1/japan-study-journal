@@ -89,8 +89,8 @@ test('Sophia foreign-educated general routes preserve residence restrictions, al
  }
  assert.equal(core.sourceURL({url:'https://adm.sophia.ac.jp/guide.pdf',kind:'pdf',pdfPage:6}),'https://adm.sophia.ac.jp/guide.pdf#page=6');
  for(const url of ['http://adm.sophia.ac.jp/a','https://sophia.ac.jp.evil.test/a','https://evil-sophia.ac.jp/a'])assert.equal(core.sourceURL({url,kind:'page'}),null);
- assert.equal(data.records.length,1053);assert.equal(data.records.filter(r=>!r.publicationStatus).length,1007);
- const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>1053<\/strong>/);assert.match(html,/20261011-map/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学、法政大学与千葉大学/);
+ assert.equal(data.records.length,1058);assert.equal(data.records.filter(r=>!r.publicationStatus).length,1012);
+ const html=fs.readFileSync(path.join(__dirname,'../exam-scope.html'),'utf8');assert.match(html,/<strong>1058<\/strong>/);assert.match(html,/20261011-map/);assert.match(html,/上智大学、神戸大学、名古屋大学、電気通信大学、筑波大学、一橋大学、横浜国立大学、明治大学、青山学院大学、立教大学、中央大学、法政大学与千葉大学/);
 });
 test('Kyushu keeps seven official faculties and 20 departments with year-specific sources and safe aliases',()=>{
  const records=data.records.filter(r=>r.universityId==='kyushu');
@@ -447,7 +447,7 @@ test('all eighteen university catalogs have unique validated records and clear p
   assert.equal(new Set(data.records.filter(record => record.universityId === 'utokyo').map(record => record.graduateSchool)).size, 5);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'kyoto').map(record => record.graduateSchool)).size, 4);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'waseda').map(record => record.graduateSchool)).size, 5);
-  assert.equal(new Set(data.records.filter(record => record.universityId === 'tus').map(record => record.graduateSchool)).size, 5);
+  assert.equal(new Set(data.records.filter(record => record.universityId === 'tus').map(record => record.graduateSchool)).size, 7);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'science-tokyo').map(record => record.graduateSchool)).size, 6);
   assert.equal(new Set(data.records.filter(record => record.universityId === 'osaka').map(record => record.graduateSchool)).size, 4);
   const pending = data.records.filter(record => ['pending', 'unverified'].includes(record.publicationStatus));
@@ -680,9 +680,9 @@ test('TUS uses current departments and master-only foreign routes without inheri
   const records = data.records.filter(record => record.universityId === 'tus');
   const find = id => records.find(record => record.id === 'tus-' + id);
   const active = records.filter(record => record.publicationStatus !== 'closed');
-  assert.equal(new Set(active.map(record => record.graduateSchool + '/' + record.department)).size, 26);
-  assert.equal(active.length, 54);
-  assert.equal(active.filter(record => record.admissionType === 'international').length, 26);
+  assert.equal(new Set(active.map(record => record.graduateSchool + '/' + record.department)).size, 28);
+  assert.equal(active.length, 59);
+  assert.equal(active.filter(record => record.admissionType === 'international').length, 28);
   assert.ok(!records.some(record => record.department === '科学教育専攻' && record.admissionType === 'international'));
   assert.match(find('sci-education').selectionName, /卒業見込者（含既卒者）対象/);
   assert.match(find('creative-information').conditionsOriginal, /13科目の中から４科目/);
