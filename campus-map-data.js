@@ -1512,7 +1512,7 @@ const data = {
       "city": "札幌市",
       "lat": 43.075,
       "lng": 141.3386,
-      "address": "北海道札幌市北区北13条西8丁目・北14条西9丁目",
+      "address": "北海道札幌市北区北13条西8丁目・北14条西9丁目・北10条西8丁目",
       "kind": "campus",
       "units": [
         {
@@ -1521,6 +1521,10 @@ const data = {
         },
         {
           "graduateSchool": "情報科学院",
+          "detail": ""
+        },
+        {
+          "graduateSchool": "理学院",
           "detail": ""
         }
       ],
@@ -1532,9 +1536,13 @@ const data = {
         {
           "url": "https://www.ist.hokudai.ac.jp/access/",
           "label": "官网：交通アクセス ｜ 北海道大学 大学院情報科学院 / 大学院情報科学研究院"
+        },
+        {
+          "url": "https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf",
+          "label": "官网：理学院修士夏期募集要項（試験会場：北10条西8丁目）"
         }
       ],
-      "note": "本批工学、信息方向在札幌；不把函馆水产校区列入。",
+      "note": "工学院、情報科学院与理学院都在札幌校园。理学院试验场在北10条西8丁目，与工学北13条同属札幌校园代表点。不把函馆水产校区列入。",
       "aliases": [
         "札幌",
         "Sapporo"

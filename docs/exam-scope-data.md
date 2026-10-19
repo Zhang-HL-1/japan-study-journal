@@ -830,3 +830,25 @@ PDF均核对签名、实际页数和引用页界。一般实际页＝印刷页�
 | [material-notice.pdf](https://www.se.chiba-u.jp/exam/files/20260717/material.pdf) | 1 | 291870 | `17365a154f603e27b0a301af98359e1b273e90fcc8528f40510d8986cf43ab10` |
 | [design-notice.pdf](https://www.se.chiba-u.jp/exam/files/20260717/design.pdf) | 1 | 190943 | `79a0d014f5dd1104fd2f7945c00ef31ee1a8561cc9cef4369eb3efe836cd570f` |
 | [future.pdf](https://www.se.chiba-u.jp/topics/files/20260827.pdf) | 7 | 289151 | `4856da40e1b54ca4521871d11257198afb10daeee8cfd867cb9b6ff674fe6233` |
+
+## 北海道大学补录（2026-10-19）
+
+只补过去问已有、考试范围缺失的8个专攻，不改过去问，不收录名大、神户、东理。新增28条：25条已公布科目或选考方法，3条第二次募集待公布。全站1034条，其中990条要求。原有北海道28条逐条保留。
+
+| 专攻 | 新增 | 官方来源 |
+| --- | --- | --- |
+| 工学院／環境フィールド工学、北方圏環境政策工学、環境創生工学 | 一般、外国人留学生入试、e3各1；第二次募集待公布各1 | [2027一般要项](https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf)实际第20页；[英语外国人要项](https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf)实际第16页 |
+| 工学院／環境循環システム、共同資源工学 | 一般、外国人留学生入试、e3各1。修士第二次预告没有这两专攻，不建待公布入口 | 日语要项实际第23–24页；英语要项实际第18页。一般8问选4、16问选4；外国人入试为8问选2、16问选2 |
+| 理学院／物性物理学専攻 | 夏期一般、外国人特別選抜各1。检索别名量子理学来自[名称变更](https://www2.sci.hokudai.ac.jp/faculty/history) | [令和9年度夏期要项](https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf)实际第11页只列専門科目，章节未公布，不从过去问补写 |
+| 理学院／宇宙理学専攻 | 夏期一般、外国人特別選抜各1 | 同要项实际第11页：两组志望的选答不同，未拆成正式课程 |
+| 理学院／自然史科学専攻 | 地球惑星三讲座、多様性生物学、科学コミュニケーション，一般与外国人各1，共6条 | 地球惑星四分野选二见实际第11页。多样性生物学关键词见[令和9年度关键词](https://biodiversity.sci.hokudai.ac.jp/bd/wp-content/uploads/2026/07/Keywords2026.pdf)。课题论文8题选2及指定书见[讲座页](https://sc.sci.hokudai.ac.jp/examination/thesis.html) |
+
+仍未填写、不建记录的项目：理学院冬期当年要项（招生页仍链前年度文件）；物性物理学更细章节；科学コミュニケーション8道题目全文（页上无标题的「科学技術からみたリスク」不单列为主题）；建築都市空間デザイン、空間性能システム、数学専攻不在本轮缺口。環境創生工学不套用只点名環境フィールド／北方圏的英语最低点。外国人環境三专攻的成绩单免笔试不写入日语一般入试。e3仍是书审与面接，October 2027 CSC按修士学位条件，不作为修士入口。
+
+| 官方文件 | 实际页数 | bytes | SHA256 |
+| --- | ---: | ---: | --- |
+| [eng-general](https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app.pdf) | 32 | 923364 | `9e709c15a8c586622c5cc1f4870859b8fc833f400c1440a990fec0ef01fc5ebe` |
+| [eng-international](https://www.eng.hokudai.ac.jp/commonfile/files/graduate/examinfo/ay2027/app/ay2027_master_app_eng.pdf) | 21 | 429577 | `049b947a9dbece4250f2d4ba35744a85bb68cbb0c7020360ec82d44e3edd50d2` |
+| [sci-summer](https://www2.sci.hokudai.ac.jp/gs/wp/wp-content/uploads/2026/05/R9_Sci_summer_MC-2.pdf) | 30 | 805768 | `66c04bedb897e97446f2924eafc4449d116ee5e18e2818b48c3dba2fa7762529` |
+| [biodiversity-keywords](https://biodiversity.sci.hokudai.ac.jp/bd/wp-content/uploads/2026/07/Keywords2026.pdf) | 1 | 181683 | `d4f79859a6871e3ec548cc0073de184a097db3641584829470e2866420e1581f` |
+| [e3](https://eprogram.eng.hokudai.ac.jp/e3/images/documents/Guidline_SS_DDP_MEXT/Guideline_SS_APR2027.pdf) | 22 | 582978 | `86693569fd3526279c590c2f4fd7dac2296e5cb2776bf3129440eb6e7874b70c` |
