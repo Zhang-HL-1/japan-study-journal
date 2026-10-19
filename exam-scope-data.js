@@ -427,15 +427,16 @@
       "note": "上智大学：已核验2027年4月入学的理工学専攻（機械工学・電気・電子工学・情報学3領域）及独立応用データサイエンス修士项目，共20条一般、社会人及9月笔试免除要求。9月／2月分别保存；2026年9月轮次已结束，2月仅国内出愿。理工学笔试7科选1在报名时确定，数据科学在考试中选答；理工学外国人N2、数据科学N1及免交条件分开。无目标理工方向独立外国人特别选拔，符合条件的一般入口在留学生栏目显示17条。按后续专业筛选跳过纯数学、纯物理、化学等；环境主体混合GSE英语项目未纳入，不称覆盖全校。本科DGTech和博士专用7月入试不收录。核对日期2026-10-09。"
     },
     "kobe": {
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-19",
       "degree": "修士（博士課程前期課程）",
       "graduateSchools": [
         "工学研究科",
         "システム情報学研究科",
         "科学技術イノベーション研究科",
-        "海事科学研究科"
+        "海事科学研究科",
+        "理学研究科"
       ],
-      "note": "神戸大学：2027年4月修士首批14条入口，12条科目要求、2条工学第二期外国人入试待公布入口。覆盖工学电气电子（电子物理／电子信息两题群）与机械、系统信息学、科学技术创新先端IT，以及海洋应用科学课程中的电气电子信息正式教育研究分野；一般与外国人分别保存。仅根据官网、募集要项及官方范围附件，不收社会人、SGU／英语项目或已排除专业。夏季考试已结束，完整工学第二期要项预计11月中旬公布。电气电子专攻官网的更细出题范围本次访问失败，尚未核验；先端IT共通题已核实官网公布的三份指定资料书目，全文须申请阅览。保留已核实科目与官方实际页链接，不称覆盖全校或全部详细章节。"
+      "note": "神戸大学：原有工学电气电子与机械、系统信息学、科学技术创新先端IT、海事科学电气电子信息共14条仍保留。2026-10-19补入过去问已有、考试范围缺失的理学研究科数学専攻、物理学専攻，新增6条，合计20条。一般選抜、外国人留学生特別選抜与English-Based Master's Program分别保存。数学是数学Ⅰ、数学Ⅱ和校内英语，词典不可带入；物理是物理Ⅰ、物理Ⅱ，英语用TOEIC L&R公开测试，听力与阅读按1:3，不接受IP。要项未列章节与题数，不从过去问补写。2026年10月入学与2027年4月同日考试，本轮只记2027年4月。冬期追加募集尚未公布専攻，不建入口。化学、生物学、惑星学不在本轮。"
     },
     "nagoya": {
       "verifiedAt": "2026-10-19",
@@ -38728,6 +38729,324 @@
           "url": "https://www.eng.kobe-u.ac.jp/wp-content/uploads/2026/09/tsuika_eng_20260918.pdf",
           "kind": "pdf",
           "pdfPage": 1
+        }
+      ]
+    },
+    {
+      "id": "kobe-sci-math-general",
+      "universityId": "kobe",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "理学数学",
+        "数学",
+        "Mathematics"
+      ],
+      "subjectsOriginal": "数学Ⅰ\n数学Ⅱ\n英語\n面接",
+      "conditionsOriginal": "英語の学力試験では，辞書の持込みは認めません。\n数学専攻では，第一次選考（学力）受験者全員に第二次選考（面接）を実施します。\n学力検査（筆答試験，口頭試問），成績証明書を総合して選抜を行います。\n同日に実施する他の理学研究科博士課程前期課程（10月入学（一般選抜，外国人留学生特別選抜），４月入学（外国人留学生特別選抜，英語コース））入学試験との併願はできません。",
+      "editorialNote": "2027年4月入学的一般选抜。笔试2026年8月19日：数学Ⅰ 9:30–12:00，数学Ⅱ 13:00–14:30，英语 15:00–15:30；面试8月20日9:30起，第一次选考应试者全员参加。英语笔试不可带词典。不提交TOEIC。指导教员名不必填写。要项未列数学Ⅰ／数学Ⅱ的章节、题数和选答，不从过去问或数学科网页的出题倾向说明补写。出愿资格含外国16年课程，可从留学生栏目查看，但与外国人留学生特别选抜、英语课程、10月入学不是同一考试，同日不能并愿。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "令和9年度前期一般選抜別表：数学Ⅰ・数学Ⅱ・英語・面接",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般選抜選抜方法：笔试、口试与成绩证明",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "一般選抜出愿资格：含外国16年课程",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "一般選抜同日入试不能并愿",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "理学研究科博士前期入学试验案内",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/master.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-sci-math-international",
+      "universityId": "kobe",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "理学数学",
+        "数学",
+        "Mathematics"
+      ],
+      "subjectsOriginal": "数学Ⅰ\n数学Ⅱ\n英語\n面接",
+      "conditionsOriginal": "英語の学力試験では，辞書の持込みは認めません。\n学力検査（筆答試験，口頭試問），成績証明書を総合して選抜します。\n修学に差し支えない程度に日本語を修得していることの証明書を提出してください。例：日本語能力試験の成績証明書等\n同日に実施する他の理学研究科博士課程前期課程（10月入学（一般選抜，外国人留学生特別選抜），４月入学（一般選抜，英語コース））入学試験との併願はできません。",
+      "editorialNote": "外国人留学生特别选抜的别表与一般选抜同日、同样列出数学Ⅰ、数学Ⅱ、英语和面试，英语笔试不可带词典。别表没有写第一次／第二次，也没有写面试是全员还是笔试合格者，不套用一般选抜的全员面试。TOEIC确认票只要求物理学、化学、生物学、惑星学，数学不提交。日语能力证明未规定等级。指导教员名不必填写。要项未列章节、题数和选答，不从过去问补写。在留资格须为「留学」（含2027年4月取得预定）。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "令和9年度前期外国人留学生特別選抜別表：数学Ⅰ・数学Ⅱ・英語・面接",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "外国人留学生特別選抜選抜方法",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生特別選抜：日语能力证明；TOEIC确认票不含数学専攻",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "外国人留学生特別選抜出愿资格与同日不能并愿",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "理学研究科博士前期入学试验案内",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/master.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-sci-physics-general",
+      "universityId": "kobe",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "degreeProgram": "master",
+      "admissionType": "general",
+      "selectionName": "一般選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "理学物理",
+        "物理学",
+        "Physics"
+      ],
+      "subjectsOriginal": "物理Ⅰ\n物理Ⅱ\n面接",
+      "conditionsOriginal": "物理学専攻においては希望の教育研究分野を勘案して行います。\n学力検査（筆答試験，口頭試問），成績証明書を総合して選抜を行います。\n物理学専攻，生物学専攻及び惑星学専攻は，提出されたTOEIC L&R 公開テストのリスニングとリーディングのスコアについて，リスニング：リーディング＝１：３の重みをつけて英語学力の評価基準とします。\n学力検査（筆答試験）実施日より過去２年の間に受験した TOEIC Listening & Reading 公開テストのスコアを有効とします。また，スコアの複数回提出は認めません。\nTOEIC団体特別受験制度（IP）による成績は認めません。\n【TOEIC L&R 公開テストを日本国内で受験した方】「公式認定証」によるスコアの提出は受け付けませんので，必ず上記の TOEIC 申込サイトから提出してください。また，令和８年８月３日（月）までに，下記 TOEIC 申込サイトから申請コードを入力し，スコアを提出してください。\n【TOEIC L&R 公開テストを海外で受験した方】学力検査（筆答試験）実施日より過去２年の間に受験した TOEIC L&R の「公式認定証」の原本を提出してください。出願時に提出できない場合は，令和８年８月３日（月）までに，TOEIC L&R の「公式認定証」の原本を提出してください。\n数学専攻以外の専攻では，第二次選考（面接）は，第一次選考（学力）合格者のみ受験できるものとします。\n物理学専攻志願者は，入学しようとする理由をA4判用紙１枚に書き，提出してください。字数及び書式は特に指定しません。",
+      "editorialNote": "2027年4月入学的一般选抜。笔试2026年8月18日：物理Ⅰ 9:30–11:30，物理Ⅱ 13:00–15:00。没有校内英语笔试。英语用TOEIC L&R公开测试，听力与阅读按1:3，不接受IP，也不接受TOEFL；国内不收官方认定书，须在2026年8月3日前经TOEIC网站提交，海外交认定书原本。面试8月19日9:30起，仅第一次选考合格者；合格发表同日9:00。选抜还考虑希望的教育研究分野。入学理由书是出愿文件，不是笔试科目。指导教员名不必填写。要项未列物理Ⅰ／物理Ⅱ的章节、题数和选答，不从过去问补写。令和10年度起把TOEIC提交期限改到出愿截止日，不用于本条。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "令和9年度前期一般選抜別表：物理Ⅰ・物理Ⅱ与TOEIC配点",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 10
+        },
+        {
+          "label": "一般選抜：TOEIC提交、有效期与IP不接受",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 5
+        },
+        {
+          "label": "一般選抜選抜方法：成绩、笔试、口试，并考虑希望分野",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "物理学専攻第一次选考合格发表时刻",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 11
+        },
+        {
+          "label": "理学研究科博士前期入学试验案内",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/master.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-sci-physics-international",
+      "universityId": "kobe",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "外国人留学生特別選抜",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "理学物理",
+        "物理学",
+        "Physics"
+      ],
+      "subjectsOriginal": "物理Ⅰ\n物理Ⅱ\n面接",
+      "conditionsOriginal": "学力検査（筆答試験，口頭試問），成績証明書を総合して選抜します。\n物理学専攻，生物学専攻及び惑星学専攻は，提出された TOEIC L&R 公開テストのリスニングとリーディングのスコアについて，リスニング：リーディング＝１：３の重みをつけて英語学力の評価基準とします。\n学力検査（筆答試験）実施日より過去２年の間に受験した TOEIC Listening & Reading 公開テストのスコアを有効とします。また，スコアの複数回提出は認めません。\nTOEIC団体特別受験制度（IP）による成績は認めません。\n【TOEIC L&R 公開テストを日本国内で受験した方】「公式認定証」によるスコアの提出は受け付けませんので，必ず上記の TOEIC 申込サイトから提出してください。また，令和８年８月３日（月）までに，下記 TOEIC 申込サイトから申請コードを入力し，スコアを提出してください。\n【TOEIC L&R 公開テストを海外で受験した方】学力検査（筆答試験）実施日より過去２年の間に受験した TOEIC L&R の「公式認定証」の原本を提出してください。出願時に提出できない場合は，令和８年８月３日（月）までに，TOEIC L&R の「公式認定証」の原本を提出してください。\n物理学専攻志願者は，入学しようとする理由をA4判用紙１枚に書き，提出してください。字数及び書式は特に指定しません。\n修学に差し支えない程度に日本語を修得していることの証明書を提出してください。例：日本語能力試験の成績証明書等",
+      "editorialNote": "外国人留学生特别选抜与一般选抜同日：物理Ⅰ、物理Ⅱ和面试，没有校内英语笔试。TOEIC规则与一般选抜相同，不接受IP和TOEFL。选抜方法没有写「希望の教育研究分野を勘案」，别表也没有写面试是否仅限笔试合格者，两项都不从一般选抜抄入。入学理由书和日语能力证明是出愿文件；日语证明未规定等级。要项未列章节、题数和选答，不从过去问补写。在留资格须为「留学」（含2027年4月取得预定）。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "令和9年度前期外国人留学生特別選抜別表：物理Ⅰ・物理Ⅱ・面接与TOEIC配点",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 22
+        },
+        {
+          "label": "外国人留学生特別選抜：TOEIC提交、入学理由书、日语能力证明",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 17
+        },
+        {
+          "label": "外国人留学生特別選抜選抜方法",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 19
+        },
+        {
+          "label": "外国人留学生特別選抜出愿资格",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/files/master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14
+        },
+        {
+          "label": "理学研究科博士前期入学试验案内",
+          "url": "https://www.sci.kobe-u.ac.jp/admissions/master.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-sci-math-english",
+      "universityId": "kobe",
+      "graduateSchool": "理学研究科",
+      "department": "数学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "English-Based Master's Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "searchAliases": [
+        "英语课程",
+        "英語コース",
+        "English-Based",
+        "数学",
+        "Mathematics"
+      ],
+      "subjectsOriginal": "MathematicsⅠ\nMathematicsⅡ\nEnglish\nInterview",
+      "conditionsOriginal": "A dictionary may not be used at the English examination.\nScreening will be made after comprehensively examining an academic transcript from the school the applicant graduated from and the results of written and oral examinations. An examinee who is not able to visit Japan for an unavoidable reason on the examination day can take the oral examination using an internet phone service such as zoom, if it is permitted by the department.\nBefore applying, you must contact your preferred supervisor to confirm that the laboratory can accept you.\nYou cannot apply at the same time for this entrance examination and any of the other ones for the Master's course of the Graduate School of Science which will be conducted on the same day.",
+      "editorialNote": "英语课程是独立选拔，不是外国人留学生特别选抜，也不能与同日的一般选抜或10月入学并愿。科目与一般选抜同一天：MathematicsⅠ 9:30–12:00，MathematicsⅡ 13:00–14:30，English 15:00–15:30，面试次日9:30起。英语笔试不可带词典。数学不提交TOEIC。出愿前须联系希望导师并取得内诺，这与日语一般选抜不必填写指导教员名不同。无法到日本时，经専攻许可可用Zoom等做口试；日语一般选抜没有这条。要项未写面试是否全员，也不列章节、题数和选答，不从过去问或日语要项补写。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "English-Based Master's Program appendix: MathematicsⅠ, MathematicsⅡ, English, Interview",
+          "url": "https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "English-Based screening method for Mathematics, including remote oral examination",
+          "url": "https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Mathematics: contact the preferred supervisor before applying",
+          "url": "https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "English-Based eligibility and same-day application limit",
+          "url": "https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 2
+        },
+        {
+          "label": "Admission page for the English-Based Master's Program",
+          "url": "https://www.sci.kobe-u.ac.jp/en/admission.html",
+          "kind": "page"
+        }
+      ]
+    },
+    {
+      "id": "kobe-sci-physics-english",
+      "universityId": "kobe",
+      "graduateSchool": "理学研究科",
+      "department": "物理学専攻",
+      "degreeProgram": "master",
+      "admissionType": "international",
+      "selectionName": "English-Based Master's Program",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "en",
+      "searchAliases": [
+        "英语课程",
+        "英語コース",
+        "English-Based",
+        "物理学",
+        "Physics"
+      ],
+      "subjectsOriginal": "PhysicsⅠ\nPhysicsⅡ\nInterview",
+      "conditionsOriginal": "TOEIC L&R Official Score is used as an evaluation standard of English proficiency by weighted as listening: reading= 1:3.\nScores from the TOEIC Institutional Program (IP) are not accepted.\nScores from the TOEIC Listening & Reading public test taken within the past 2 years from the date of entrance examination are considered valid. In addition, multiple submissions of scores are not allowed.\n【Those who took TOEIC L&R TEST in Japan】 Official Score Certificate is not acceptable. Also please submit your scores via the following website by August 3, 2026.\n【Those who took TOEIC L&R TEST out of Japan】 please submit the original “Official Certificate” for the TOEIC L&R test you took within the two years prior to the date of entrance examination. If you are unable to submit the required documents during the application period, please submit the original TOEIC L&R “Official Certificate” by August 3, 2026.\nScreening will be made after comprehensively examining an academic transcript from the school the applicant graduated from and the results of written and oral examinations.\nIf applying to the Physics and Biology Departments, submit the statement of purpose using A4 size paper. There is no set length or format for this note.\nBefore applying, you must contact your preferred supervisor to confirm that the laboratory can accept you.",
+      "editorialNote": "英语课程物理与日语选拔同日：PhysicsⅠ 9:30–11:30，PhysicsⅡ 13:00–15:00，面试次日9:30起，没有校内英语笔试。TOEIC L&R按听力:阅读＝1:3，不接受IP。选抜方法没有写远程口试，不套用数学英语课程的Zoom。出愿期比数学英语课程早：网上注册2026年5月23日至6月12日，书面材料6月9日至12日。出愿前须联系希望导师。Statement of Purpose是出愿文件，不是笔试科目。要项未列章节、题数、选答，也未写面试是否仅限笔试合格者，不从过去问或日语要项补写。2026年8月轮次已结束。",
+      "sources": [
+        {
+          "label": "English-Based Master's Program appendix: PhysicsⅠ, PhysicsⅡ, Interview, TOEIC weighting",
+          "url": "https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 12
+        },
+        {
+          "label": "English-Based TOEIC submission rules and statement of purpose",
+          "url": "https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 6
+        },
+        {
+          "label": "English-Based screening method for Physics",
+          "url": "https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 8
+        },
+        {
+          "label": "Physics application period, earlier than Mathematics",
+          "url": "https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 3
+        },
+        {
+          "label": "Physics: contact the preferred supervisor before applying",
+          "url": "https://www.sci.kobe-u.ac.jp/en/files/e_master2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 7
+        },
+        {
+          "label": "Admission page for the English-Based Master's Program",
+          "url": "https://www.sci.kobe-u.ac.jp/en/admission.html",
+          "kind": "page"
         }
       ]
     },

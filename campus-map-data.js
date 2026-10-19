@@ -1717,6 +1717,10 @@ const data = {
         {
           "graduateSchool": "科学技術イノベーション研究科",
           "detail": "部分领域；其他领域在楠、港岛。"
+        },
+        {
+          "graduateSchool": "理学研究科",
+          "detail": ""
         }
       ],
       "sources": [
@@ -1731,14 +1735,18 @@ const data = {
         {
           "url": "https://www.stin.kobe-u.ac.jp/access/",
           "label": "官网：アクセス | 神戸大学大学院 科学技術イノベーション研究科"
+        },
+        {
+          "url": "https://www.kobe-u.ac.jp/ja/campus-life/general/access/rokko/rokkodai2/",
+          "label": "官网：六甲台第２キャンパス キャンパスマップ | 国立大学法人 神戸大学 (Kobe University)"
         }
       ],
-      "note": "STIN官方列多个教学研究基地，不能全塞到六甲台。",
+      "note": "STIN官方列多个教学研究基地，不能全塞到六甲台。理学研究科在同一六甲台第2キャンパス。",
       "aliases": [
         "六甲台",
         "Rokkodai"
       ],
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-19",
       "positionAccuracy": "校区／研究基地代表点，约略位置"
     },
     {
