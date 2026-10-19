@@ -438,13 +438,16 @@
       "note": "神戸大学：2027年4月修士首批14条入口，12条科目要求、2条工学第二期外国人入试待公布入口。覆盖工学电气电子（电子物理／电子信息两题群）与机械、系统信息学、科学技术创新先端IT，以及海洋应用科学课程中的电气电子信息正式教育研究分野；一般与外国人分别保存。仅根据官网、募集要项及官方范围附件，不收社会人、SGU／英语项目或已排除专业。夏季考试已结束，完整工学第二期要项预计11月中旬公布。电气电子专攻官网的更细出题范围本次访问失败，尚未核验；先端IT共通题已核实官网公布的三份指定资料书目，全文须申请阅览。保留已核实科目与官方实际页链接，不称覆盖全校或全部详细章节。"
     },
     "nagoya": {
-      "verifiedAt": "2026-10-10",
+      "verifiedAt": "2026-10-19",
       "degree": "博士前期課程（修士）",
       "graduateSchools": [
         "工学研究科",
-        "情報学研究科"
+        "情報学研究科",
+        "多元数理科学研究科",
+        "理学研究科",
+        "環境学研究科"
       ],
-      "note": "名古屋大学：工学研究科12个专攻、情報学研究科4个专攻，共41条入口：29条已核验一般考试／笔试免除或口述判定要求，12条工学外国人入试待核验。适用2027年4月；一般选拔已结束。工学外国语言与信息学外语规则不同，机械航空基礎仅数学、电气专业分组选答分别保存；长范围表链接官方实际页。工学外国人2027通知存在，但完整当年范围未核验，不套用一般或旧年度要项。信息学2027年2月募集要项待发布，尚未建立专攻别考纲。后续学校不收社会人／G30英语项目，保留专业中的必考数学、物理、化学不删。"
+      "note": "名古屋大学：原有工学研究科12个专攻、情報学研究科4个专攻共41条仍保留。2026-10-19补入过去问已有、考试范围缺失的5个专攻，新增13条，合计54条。化学システム工学与マテリアル工学系共用基礎数学・物理化学和专业四题选二。土木工学分专业A／B，免笔试仅限土木系出身且须交英语成绩。多元数理第1次募集与昼夜開講为同一笔试、两日各四题全答；2027年第2次募集未公布，不建入口。理学専攻（物理科学領域）一般是物理学笔试、校内英语和有资格限制的口述，要项未列章节；自荐为面试。都市環境学只收持続発展学コース的一般A、一般B和留学生特别选抜。建筑学课程、社会人、第Ⅱ期和秋入学不在本轮记录。工学外国人完整要项仍待核验，不套用一般考纲。"
     },
     "uec": {
       "verifiedAt": "2026-10-10",
@@ -40515,6 +40518,692 @@
         }
       ],
       "conditionsOriginal": "英語外部試験の成績通知書を必ず提出すること。成績通知書は，2024年4月1日以降受験分を有効とする。"
+    },
+    {
+      "id": "nagoya-chemsys-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "化学システム工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "化学系统工学",
+        "化学システム",
+        "Chemical Systems Engineering"
+      ],
+      "subjectsOriginal": "基礎部門：数学，物理化学。専門部門：固体物理学，流動と伝熱，反応工学，材料の力学。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：2科目全てを解答。数学：微分・積分，常微分方程式，線形代数，ベクトル解析。物理化学：熱力学の基本法則と熱力学諸量，相平衡（状態図を含む），化学平衡（酸化還元を含む）。専門部門：4分野各1問，4問中2問を解答。固体物理学：結晶構造，Ｘ線回析，シュレーディンガー方程式，フォノン，比熱・熱伝導，電子構造と物性。流動と伝熱：レオロジー，流動の基礎方程式，管内流動（層流と乱流，流速および流量の計測，圧力損失と流体輸送），伝熱（伝導，対流，熱放射），総括熱伝達，熱交換。反応工学：化学反応速度論，各種反応器（回分型，連続槽型と管型），物質移動が関与する不均一相系反応，固体触媒反応。材料の力学：材料力学（組合わせ応力，はりの曲げ），材料強度学（応力とひずみ，転位とすべり変形，金属の強化機構）。",
+      "editorialNote": "2026年8月实施的一般选拔，报名及考试已结束。令和9年度要项把材料デザイン工学、物質プロセス工学、化学システム工学列在同一科目栏，本条只记化学システム工学専攻。外国学历者可按一般选拔资格申请；笔试与口试使用日语，不提供英语出题。英语采用TOEIC L&R公开考试或TOEFL iBT（含Home Edition）；不收IP／ITP和MyBest，未交成绩仍可出愿但英语不评价。基礎数学与物理化学均必答，专业四题选二。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 24,
+          "label": "工学2027一般：マテリアル工学系三専攻笔试科目与范围"
+        },
+        {
+          "url": "https://www.material.nagoya-u.ac.jp/bosyuu.html",
+          "kind": "page",
+          "label": "材料系官方入试入口"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-chemsys-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "化学システム工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "化学系统工学",
+        "化学システム",
+        "Chemical Systems Engineering"
+      ],
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "書類選考及び面接試験で筆記試験免除者を決定する。筆記試験が免除となった場合：一般選抜者と同様に口頭試問を受験する。筆記試験が免除とならなかった場合：一般選抜（筆記試験及び口頭試問）を受験する。",
+      "editorialNote": "2026年实施的笔试免除判定，不是独立外国人／推荐入试。书审后参加7月18日面试；获免除者仍须一般选拔口头试问，未获免除者参加一般笔试及口试，均无需重新出愿。英语采用外部成绩；未交仍可出愿但英语不评价。电气系三专攻出愿时不交成绩的例外不适用于本专攻。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语要求"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般申请资格"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。"
+    },
+    {
+      "id": "nagoya-chemsys-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "化学システム工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "化学系统工学",
+        "化学システム",
+        "Chemical Systems Engineering"
+      ],
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。通知表提取错位，不据此填写线上或线下。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-civil-general",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "土木工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "土木工程",
+        "土木",
+        "Civil Engineering"
+      ],
+      "subjectsOriginal": "基礎部門：応用数学，小論文。専門部門Ａ（土木系），専門部門Ｂ（土木系以外）。外国語（英語），口頭試問。",
+      "scopeOriginal": "基礎部門：応用数学3問および小論文1問を出題し，これらの問題から3問を選択解答する。小論文：社会，経済および環境問題などに関する小論文で，主としてその論理性を問う。応用数学：微分・積分，ベクトル解析，行列と行列式，および確率・統計の基礎的事項ならびに工学への応用。専門部門Ａ：「構造・材料工学」より3問，「地盤工学」，「水工学」，「計画学」，「環境工学」の4つの科目よりそれぞれ2問出題し，これらの問題から5問を選択解答する。ただし，1つの科目より選択可能な問題は2問までとする。構造・材料工学：材料の応力とひずみ，骨組構造物の解法，マトリックス構造解析の初歩，鋼構造の諸問題，コンクリート構造，コンクリート材料の諸問題など。地盤工学：浸透，土の基礎的性質，圧密，せん断，斜面安定，支持力，土圧，各種室内土質実験とその設計への適用，軟弱地盤対策，地盤耐震工学など。水工学：静水力学，流れの基礎方程式，開水路・管路の流れ，波の基本特性と変形，風波，波圧と波力，河川・海岸構造物，河川工学，流出過程とモデル，河川計画。計画学：土木計画における統計的・数理計画的手法，費用便益分析，地域計画，都市計画，土地利用計画，交通工学など。環境工学：国土開発・利用に伴う環境の保全と管理，環境影響評価，衛生工学，大気汚染，水質汚濁，土壌・地下水汚染，環境システム工学など。専門部門Ｂ：(1)「社会基盤開発・環境管理」に関する問題（専門部門Ｂにおいて共通の問題，2問）。国土・都市空間・社会基盤の開発・利用および環境管理などに関する基本的事項について問う。(2)土木工学の中で入学後に希望する専門分野から出題される問題（3問）。各受験者の出身学部・学科における専門のバックグラウンドを活かしつつ，土木工学専攻各分野での展開可能性について問う。",
+      "editorialNote": "2026年8月18–20日一般选拔已结束。基础4问选3，专业A为11问选5且一科至多2问。专业B按出身分野出题，要项没有固定章节，不从过去问补写。出身土木系必须选A；非土木系可选A或B。选B须在提交事前调查前联系希望指导教师并附上大纲，未交事前调查则按A。笔试与口试使用日语。英语为TOEFL或TOEIC，未交仍可出愿但英语不评价。",
+      "sources": [
+        {
+          "url": "https://www.civil.nagoya-u.ac.jp/admission/y2026/01_令和9年度大学院入試専攻案内.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "土木2027博士前期学力检查出题范围"
+        },
+        {
+          "url": "https://www.civil.nagoya-u.ac.jp/admission/y2026/01_令和9年度大学院入試専攻案内.pdf",
+          "kind": "pdf",
+          "pdfPage": 3,
+          "label": "基础选答与专业A／B选择规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 26,
+          "label": "工学2027一般：土木科目栏"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 22,
+          "label": "一般选拔日程与日语考试"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 18,
+          "label": "一般英语外部成绩规则"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 19,
+          "label": "TOEFL／TOEIC成绩限制"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "外国学历一般申请资格"
+        },
+        {
+          "url": "https://www.civil.nagoya-u.ac.jp/admission/examination.html",
+          "kind": "page",
+          "label": "土木工学専攻入试案内入口"
+        }
+      ],
+      "conditionsOriginal": "外国語（英語）は筆記試験を実施せず，TOEFL又はTOEICのスコアで評価する。2024年6月1日以降のスコアのみ有効。スコアシートを提出しない場合は，出願は可能であるが，外国語（英語）については評価されない。志願者の出身学科が土木工学系の場合は必ず「専門部門A」を選択する。出身学部，学科が土木工学系以外の場合は「専門部門A」，「専門部門B」のどちらを選択してもよい。「専門部門B」を選択する場合は，事前調査用紙を提出する前に希望指導教員に連絡し，出身学科のシラバス（授業要目）の写しを提出する。事前調査用紙を提出しない場合，「専門部門A」での受験となる。"
+    },
+    {
+      "id": "nagoya-civil-waiver",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "土木工学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "筆記試験免除者選抜（2026年実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "土木工程",
+        "土木",
+        "Civil Engineering"
+      ],
+      "subjectsOriginal": "書類選考，面接試験，口頭試問。",
+      "scopeOriginal": "学業成績が特に優秀で，かつ本専攻での勉学に高い意欲を持つ者に対して筆記試験免除者選抜を実施する。この制度での選抜は土木工学系の学科出身者に限る。書類選考に合格した者は面接試験を受ける。筆記試験が免除となった場合：専攻教員全員による口頭試問（一般選抜試験に同じ）。筆記試験が免除とならなかった場合：一般選抜試験（筆記試験・口頭試問）を受験する。筆記試験免除を希望しない者として重ねて出願する必要は無い。",
+      "editorialNote": "免笔试只限土木工学系学科出身，学科是否符合须事先问希望指导教师。専攻案内要求愿书提交时必须附TOEFL或TOEIC成绩，不沿用电气系出愿时不交成绩的写法。书审结果6月25日寄出，面试7月18日，结果7月23日寄出。获免者仍参加8月20日全员口头试问；未获免者参加一般笔试，无需再次出愿。",
+      "sources": [
+        {
+          "url": "https://www.civil.nagoya-u.ac.jp/admission/y2026/01_令和9年度大学院入試専攻案内.pdf",
+          "kind": "pdf",
+          "pdfPage": 2,
+          "label": "土木免笔试日程与英语成绩必须提交"
+        },
+        {
+          "url": "https://www.civil.nagoya-u.ac.jp/admission/y2026/01_令和9年度大学院入試専攻案内.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "免笔试仅限土木系出身与事前调查期限"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "工学免笔试判定及后续口头试问"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/app/api/prospective/public/download/229",
+          "kind": "pdf",
+          "pdfPage": 12,
+          "label": "免笔试英语成绩规则"
+        },
+        {
+          "url": "https://www.civil.nagoya-u.ac.jp/admission/examination.html",
+          "kind": "page",
+          "label": "土木工学専攻入试案内入口"
+        }
+      ],
+      "conditionsOriginal": "本専攻の筆記試験免除者選抜の希望者は，願書提出時にTOEFLまたはTOEICのスコアシートを提出することを必須とする。2024年6月1日以降に実施されたTOEFL/TOEICのスコアのみ有効とする。筆記試験免除を受験する者の入試に関する事前調査用紙の提出期限は令和8年6月4日(木)。"
+    },
+    {
+      "id": "nagoya-civil-international-unverified",
+      "universityId": "nagoya",
+      "graduateSchool": "工学研究科",
+      "department": "土木工学専攻",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "外国人留学生入試（令和9年度）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "土木工程",
+        "土木",
+        "Civil Engineering"
+      ],
+      "editorialNote": "2027年度官方入试实施通知已列出本专攻博士前期入口；完整当年外国人募集要项与科目范围尚未完成核验。不是“学校未公布”；不采用2025／2026旧要项或一般选拔考纲。通知表提取错位，不据此填写线上或线下。",
+      "sources": [
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/doc/2026/20260721.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027年度外国人入试现行入口通知"
+        },
+        {
+          "url": "https://www.engg.nagoya-u.ac.jp/prospective/",
+          "kind": "page",
+          "label": "工学研究科官方募集入口"
+        }
+      ],
+      "publicationStatus": "unverified"
+    },
+    {
+      "id": "nagoya-math-mc1-general",
+      "universityId": "nagoya",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程第１次募集（2026年7月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "多元数理",
+        "数学",
+        "Mathematics"
+      ],
+      "subjectsOriginal": "筆記試験（1日目，2日目）。",
+      "scopeOriginal": "入学試験は筆記試験のみです。筆記試験は1日目と2日目にそれぞれ行います。ともに試験時間は3時間で，4題を出題し，全問を必須とします。筆記試験では，次の3点について受験者の能力を見ます。1) 基本的な計算力。2) 数学的抽象概念の理解力。3) 論理的思考力とその表現力。大学の1・2年次で学ぶ標準的な線型代数・微積分・複素関数論・集合と位相などを中心に，主に，1日目は基本的な計算能力，また2日目は論証能力に重点をおいて，基礎的概念が理解できているかを問います。以下の項目が出題内容の目安となります。線型代数：ベクトル空間，部分空間，1次独立と1次従属，ベクトル空間の基底と次元，線型写像，線型写像の核と像，線型写像とその表現行列，基底の変換と変換行列，対角化，固有値，線型写像と行列の階数，行列の基本変形と掃き出し法，行列式，ジョルダン標準形，最小多項式，内積，2次形式，対称（エルミート）行列，直交（ユニタリ）変換，準同型定理。微積分：数列と級数，極限，収束と発散，連続性，微分可能性，テイラー展開，指数関数・3角関数・対数関数，増大度の比較，偏微分と全微分，合成関数の微分，極値問題，定積分，不定積分，広義積分，積分変数の変換，部分積分，重積分（変数変換とヤコビ行列式），陰関数，条件つき極値問題，線積分，グリーンの公式，ストークスの定理，簡単な微分方程式，一様収束，一様連続。複素関数論：コーシーの積分定理・積分公式，べき級数，留数解析。集合と位相。以上の内容は，名古屋大学理学部数理学科で2年次までに学習するものです。",
+      "editorialNote": "2026年7月25–26日笔试已结束。两日各3小时、各4题全答，没有选答，也没有单独的英语科目或口述。希望用英语应试须在2026年6月8日前另行提交申请，不是另一套科目。集合与位相在出题目安中没有更细关键词，不补写。感染症等导致远程实施时要项写明可能改口述并可能两阶段选拔，这是应急，不记入常规科目。2027年度第2次募集要项未在现行入试页公布，不建入口，也不沿用2026年度第2次募集。",
+      "sources": [
+        {
+          "url": "https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/info-mc-2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "2027第1次募集入学试验说明：出题目安"
+        },
+        {
+          "url": "https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/appl-mc-2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 4,
+          "label": "第1次募集选抜方法：两日笔试"
+        },
+        {
+          "url": "https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/appl-mc-2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "第1次募集出愿资格"
+        },
+        {
+          "url": "https://www.math.nagoya-u.ac.jp/ja/admission/2027/appl-mc-1.html",
+          "kind": "page",
+          "label": "2027年度前期课程第1次募集"
+        }
+      ],
+      "conditionsOriginal": "試験科目は筆記試験。希望により英語で実施。英語による受験を希望する者は，2026年6月8日（月）（必着）までに，氏名，住所・電話番号・メールアドレス，英語による受験を希望する旨を記載した用紙を提出すること。学力試験については対面にて行う。"
+    },
+    {
+      "id": "nagoya-math-daynight-general",
+      "universityId": "nagoya",
+      "graduateSchool": "多元数理科学研究科",
+      "department": "多元数理科学専攻",
+      "course": "昼夜開講コース",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "博士前期課程昼夜開講コース（2026年7月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "多元数理",
+        "昼夜开讲",
+        "数学",
+        "Mathematics"
+      ],
+      "subjectsOriginal": "筆記試験（1日目，2日目）。",
+      "scopeOriginal": "昼夜開講コースも同じ試験を行います。入学試験は筆記試験のみです。筆記試験は1日目と2日目にそれぞれ行います。ともに試験時間は3時間で，4題を出題し，全問を必須とします。筆記試験では，次の3点について受験者の能力を見ます。1) 基本的な計算力。2) 数学的抽象概念の理解力。3) 論理的思考力とその表現力。大学の1・2年次で学ぶ標準的な線型代数・微積分・複素関数論・集合と位相などを中心に，主に，1日目は基本的な計算能力，また2日目は論証能力に重点をおいて，基礎的概念が理解できているかを問います。以下の項目が出題内容の目安となります。線型代数：ベクトル空間，部分空間，1次独立と1次従属，ベクトル空間の基底と次元，線型写像，線型写像の核と像，線型写像とその表現行列，基底の変換と変換行列，対角化，固有値，線型写像と行列の階数，行列の基本変形と掃き出し法，行列式，ジョルダン標準形，最小多項式，内積，2次形式，対称（エルミート）行列，直交（ユニタリ）変換，準同型定理。微積分：数列と級数，極限，収束と発散，連続性，微分可能性，テイラー展開，指数関数・3角関数・対数関数，増大度の比較，偏微分と全微分，合成関数の微分，極値問題，定積分，不定積分，広義積分，積分変数の変換，部分積分，重積分（変数変換とヤコビ行列式），陰関数，条件つき極値問題，線積分，グリーンの公式，ストークスの定理，簡単な微分方程式，一様収束，一様連続。複素関数論：コーシーの積分定理・積分公式，べき級数，留数解析。集合と位相。以上の内容は，名古屋大学理学部数理学科で2年次までに学習するものです。",
+      "editorialNote": "昼夜開講コース募集人员5名，与第1次募集同日考试。官方说明写明昼夜開講コース也参加同一笔试，不另造科目。课程按大学院设置基准第14条在夜间或其他特定时间授课，要项写明教育课程与一般修士课程原则上相同，这不是考试范围。2026年7月25–26日考试已结束。",
+      "sources": [
+        {
+          "url": "https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/info-mc-2027-1.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "入学试验说明：昼夜開講同一笔试与出题目安"
+        },
+        {
+          "url": "https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/appl-mc-2027-d.pdf",
+          "kind": "pdf",
+          "pdfPage": 4,
+          "label": "昼夜開講选抜方法：两日笔试"
+        },
+        {
+          "url": "https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/appl-mc-2027-d.pdf",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "昼夜開講课程说明"
+        },
+        {
+          "url": "https://www.math.nagoya-u.ac.jp/ja/admission/2027/download/appl-mc-2027-d.pdf",
+          "kind": "pdf",
+          "pdfPage": 1,
+          "label": "昼夜開講出愿资格与募集人员"
+        },
+        {
+          "url": "https://www.math.nagoya-u.ac.jp/ja/admission/2027/appl-mc-d.html",
+          "kind": "page",
+          "label": "2027年度昼夜開講コース募集"
+        }
+      ],
+      "conditionsOriginal": "試験科目は筆記試験。希望により英語で実施。英語による受験を希望する者は，2026年6月8日（月）（必着）までに，氏名，住所・電話番号・メールアドレス，英語による受験を希望する旨を記載した用紙を提出すること。募集人員は5名。"
+    },
+    {
+      "id": "nagoya-physci-general",
+      "universityId": "nagoya",
+      "graduateSchool": "理学研究科",
+      "department": "理学専攻（物理科学領域）",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "物理科学",
+        "物理科学領域",
+        "物理学",
+        "Physics"
+      ],
+      "subjectsOriginal": "１．物理学筆記試験。２．外国語（英語：読解力と作文能力を測る。）。３．口述試験：物理学一般及び卒業研究の内容等についての試問。",
+      "editorialNote": "正式専攻是理学専攻，入学考试按物理科学領域实施；专攻名与过去问入口一致。2026年8月19–21日考试已结束。口述资格由物理学笔试和英语的结果决定，不是全员必考。要项没有公布物理学笔试的章节，不从过去问的物理学【I】【II】补写。同要项里TOEFL／TOEIC只写给物质・生命化学領域和生命理学領域，不记入本領域。物质・生命化学与生命理学不在本轮。",
+      "sources": [
+        {
+          "url": "https://www.phys.nagoya-u.ac.jp/entrance/docs/Application_Guidelines_MC_202704.pdf",
+          "kind": "pdf",
+          "pdfPage": 11,
+          "label": "2027博士前期选抜方法：物理科学试验科目"
+        },
+        {
+          "url": "https://www.phys.nagoya-u.ac.jp/entrance/docs/Application_Guidelines_MC_202704.pdf",
+          "kind": "pdf",
+          "pdfPage": 6,
+          "label": "博士前期出愿资格"
+        },
+        {
+          "url": "https://www.phys.nagoya-u.ac.jp/entrance/",
+          "kind": "page",
+          "label": "物理科学領域大学院入试"
+        }
+      ],
+      "conditionsOriginal": "１、２の試験の結果により３の受験資格者を決める。口述試験は、複数人の面接者による個人面接を行う。試験期日：2026年8月19日（水）、8月20日（木）、8月21日（金）。"
+    },
+    {
+      "id": "nagoya-physci-recommendation",
+      "universityId": "nagoya",
+      "graduateSchool": "理学研究科",
+      "department": "理学専攻（物理科学領域）",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "自己推薦入学（2026年7月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "物理科学",
+        "物理科学領域",
+        "自己推荐",
+        "Physics"
+      ],
+      "subjectsOriginal": "面接試験。",
+      "scopeOriginal": "大学院において物理科学領域の研究を行う強い意志と研究遂行に必要な能力を評価するため、自己推薦書や物理学一般・卒業研究の内容などの面接試験により、総合的に選抜を行う。複数人の面接者による個人面接を行う。３年生までの成績と自己推薦書をもとに、物理学一般及び卒業研究の内容等について試問する。",
+      "editorialNote": "2026年7月4–5日面试已结束。没有物理学笔试，也不使用一般选拔的英语读解与作文。要项写明自荐不合格仍可申请8月一般选拔，一般选拔不考虑自荐成绩。不把一般选拔的笔试范围写入本条。",
+      "sources": [
+        {
+          "url": "https://www.phys.nagoya-u.ac.jp/entrance/docs/2027_suisen.pdf",
+          "kind": "pdf",
+          "pdfPage": 9,
+          "label": "自荐选抜方法：面试"
+        },
+        {
+          "url": "https://www.phys.nagoya-u.ac.jp/entrance/docs/2027_suisen.pdf",
+          "kind": "pdf",
+          "pdfPage": 10,
+          "label": "自荐不合格可另报一般选拔"
+        },
+        {
+          "url": "https://www.phys.nagoya-u.ac.jp/entrance/docs/2027_suisen.pdf",
+          "kind": "pdf",
+          "pdfPage": 7,
+          "label": "自荐出愿资格"
+        },
+        {
+          "url": "https://www.phys.nagoya-u.ac.jp/entrance/",
+          "kind": "page",
+          "label": "物理科学領域大学院入试"
+        }
+      ],
+      "conditionsOriginal": "試験期日：2026年7月4日（土）、7月5日（日）。自己推薦入学で不合格であっても、８月の一般選抜試験に出願することができる。（一般選抜試験の選考では、自己推薦入試の成績は考慮しない。）"
+    },
+    {
+      "id": "nagoya-urban-sd-a-general",
+      "universityId": "nagoya",
+      "graduateSchool": "環境学研究科",
+      "department": "都市環境学専攻",
+      "course": "持続発展学コース",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜 一般A（総合）（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "都市环境学",
+        "持续发展学",
+        "持続発展学",
+        "Urban Environmental Studies"
+      ],
+      "subjectsOriginal": "英語（TOEFL，TOEICまたはIELTS）。専門科目（筆記試験）：環境工学・環境政策，環境化学。小論文。面接。",
+      "scopeOriginal": "環境工学・環境政策（3問），環境化学（2問）。左記2分野から合計5問を出題するので，3問選択して解答する。（1分野から3問選択してもよい）。環境工学・環境政策：地球温暖化・気候変動対策，脱炭素社会・循環型社会，環境と経済，国土・都市・交通と環境，環境アセスメント，生物多様性保全，防災・減災，上下水道，廃棄物処理，都市の大気・温熱環境，住環境など。環境化学：資源・エネルギー化学，化学熱力学，電気化学，物質の製造・循環利用・廃棄，グリーンサステイナブルケミストリー，大気・水質・土壌汚染物質，地球温暖化・オゾン層破壊・酸性雨関連物質，生活関連物質，環境分析化学など。小論文1問について解答する。環境問題，社会・経済などに関する小論文で，主としてその論理性を問う。面接：主として，志望の動機，これまでの研究内容，入学後の学修・研究計画，及びこれらに関連する事項について試問する。",
+      "editorialNote": "2027年4月第Ⅰ期，2026年8月19–20日考试已结束。一般A面向包括文科在内的广泛出身，与一般B的土木科目不同，不能互换。专业和小论文日英并记，可用日语或英语作答。英语是外检换算，未提交记0分，提交后不能替换。面试无配点。同一出题范围文件也写2026年秋入学，本条只记2027年4月。社会人特别选抜、建筑学课程和第Ⅱ期不在本条。",
+      "sources": [
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "持続発展学一般A日程与选答"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/file/juken2026-oct-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "一般A学力检查出题范围"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/file/juken2026-oct-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 8,
+          "label": "出题语言与英语换算"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "都市環境学英语成绩未提交为0分"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 9,
+          "label": "有效英语成绩种类与考试日"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 25,
+          "label": "一般A配点"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "一般选拔含外国学历资格"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/index.html",
+          "kind": "page",
+          "label": "環境学研究科入试"
+        }
+      ],
+      "conditionsOriginal": "一般Ａでは幅広い分野の学部出身者を想定した試験を行う。専門科目及び小論文は，日英併記で出題するので日本語又は英語で解答すること。英語200点，専門科目600点，小論文200点，面接は配点なし，満点1,000点。2024年8月1日以降に受験したTOEFL iBT（Home Editionを含む。MyBestスコアは採用しない。）、TOEIC Listening & Reading TestのOfficial Score CertificateまたはDigital Official Score Certificate、IELTSアカデミック・モジュールのいずれかを提出する。有効なスコアシートが提出されなかった場合は，試験科目「英語」の点数を零点とする。提出後のスコアシートの差し替えは認めない。TOEFL iBTスコア×2.92－83＝換算点。TOEICスコア×0.348－104＝換算点。いずれも上限200点，下限0点。IELTSは一般的に用いられる換算表に基づいてTOEFL iBTに換算（幅で示されている換算点数の中間値を用いる）した後，TOEFLの式を適用する。"
+    },
+    {
+      "id": "nagoya-urban-sd-b-general",
+      "universityId": "nagoya",
+      "graduateSchool": "環境学研究科",
+      "department": "都市環境学専攻",
+      "course": "持続発展学コース",
+      "admissionType": "general",
+      "degreeProgram": "master",
+      "selectionName": "一般選抜 一般B（土木工学系出身者向け）（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "internationalGeneral": true,
+      "searchAliases": [
+        "都市环境学",
+        "持续发展学",
+        "土木工学",
+        "Urban Environmental Studies"
+      ],
+      "subjectsOriginal": "英語（TOEFL，TOEICまたはIELTS）。基礎科目：小論文，応用数学。専門科目：構造・材料工学，地盤工学，水工学，計画学，環境工学。面接。",
+      "scopeOriginal": "基礎科目：小論文1問・応用数学3問の合計4問から，3問を選択して解答する。小論文：社会，経済および環境問題などに関する小論文で，主としてその論理性を問う。応用数学：微分・積分，ベクトル解析，行列と行列式，および確率・統計の基礎的事項ならびに工学への応用。専門科目：構造・材料工学（3問），地盤工学（2問），水工学（2問），計画学（2問），環境工学（2問）。左記5分野から合計11問出題するので，5問選択して解答する。1分野から選択可能な問題は，2問までとする。構造・材料工学：材料の応力とひずみ，骨組構造物の解法，マトリックス構造解析の初歩，鋼構造の諸問題，コンクリート構造，コンクリート材料の諸問題など。地盤工学：浸透，土の基礎的性質，圧密，せん断，斜面安定，支持力，土圧，各種室内土質実験とその設計への適用，軟弱地盤対策，地盤耐震工学など。水工学：静水力学，流れの基礎方程式，開水路・管路の流れ，波の基本特性と変形，風波，波圧と波力，河川・海岸構造物，河川工学，流出過程とモデル，河川計画。計画学：土木計画における統計的・数理計画的手法，費用便益分析，地域計画，都市計画，土地利用計画，交通工学など。環境工学：国土開発・利用に伴う環境の保全と管理，環境影響評価，衛生工学，大気汚染，水質汚濁，土壌・地下水汚染，環境システム工学など。面接：主として，志望の動機，これまでの研究内容，入学後の学修・研究計画，及びこれらに関連する事項について試問する。",
+      "editorialNote": "过去问封面的都市環境学専攻入口是本课程第Ⅰ期一般B（土木工学），与工学研究科土木工学専攻共用基础和专业A的出题结构，研究科和选抜名称不同。2026年8月18–20日考试已结束。基础4问选3，专业11问选5且一科至多2问。专业和基础用日语出题、日语作答，不套用一般A的环境化学或日英并记。英语外检未交记0分。面试无配点。",
+      "sources": [
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "持続発展学一般B日程与选答"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/file/juken2026-oct-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 14,
+          "label": "一般B学力检查出题范围"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/file/juken2026-oct-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 8,
+          "label": "一般B出题语言与英语换算"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 15,
+          "label": "都市環境学英语成绩未提交为0分"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 9,
+          "label": "有效英语成绩种类与考试日"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 25,
+          "label": "一般B配点"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/index.html",
+          "kind": "page",
+          "label": "環境学研究科入试"
+        }
+      ],
+      "conditionsOriginal": "一般Bでは土木工学系の学部出身者を想定した試験を行うので，一般Aといずれかを選択して出願すること。専門科目及び基礎科目は，日本語で出題するので日本語で解答すること。英語200点，専門科目500点，基礎科目300点，面接は配点なし，満点1,000点。2024年8月1日以降に受験したTOEFL iBT（Home Editionを含む。MyBestスコアは採用しない。）、TOEIC Listening & Reading TestのOfficial Score CertificateまたはDigital Official Score Certificate、IELTSアカデミック・モジュールのいずれかを提出する。有効なスコアシートが提出されなかった場合は，試験科目「英語」の点数を零点とする。提出後のスコアシートの差し替えは認めない。TOEFL iBTスコア×2.92－83＝換算点。TOEICスコア×0.348－104＝換算点。いずれも上限200点，下限0点。"
+    },
+    {
+      "id": "nagoya-urban-sd-international",
+      "universityId": "nagoya",
+      "graduateSchool": "環境学研究科",
+      "department": "都市環境学専攻",
+      "course": "持続発展学コース",
+      "admissionType": "international",
+      "degreeProgram": "master",
+      "selectionName": "留学生特別選抜（2026年8月実施）",
+      "entryYear": "2027年4月",
+      "verifiedAt": "2026-10-19",
+      "originalLanguage": "ja",
+      "searchAliases": [
+        "都市环境学",
+        "持续发展学",
+        "留学生",
+        "Urban Environmental Studies"
+      ],
+      "subjectsOriginal": "英語（TOEFL，TOEICまたはIELTS）。専門科目（筆記試験）：環境工学・環境政策，環境化学。小論文。面接。",
+      "scopeOriginal": "環境工学・環境政策（3問），環境化学（2問）。左記2分野から合計5問を出題するので，3問選択して解答する。（1分野から3問選択してもよい）。環境工学・環境政策：地球温暖化・気候変動対策，脱炭素社会・循環型社会，環境と経済，国土・都市・交通と環境，環境アセスメント，生物多様性保全，防災・減災，上下水道，廃棄物処理，都市の大気・温熱環境，住環境など。環境化学：資源・エネルギー化学，化学熱力学，電気化学，物質の製造・循環利用・廃棄，グリーンサステイナブルケミストリー，大気・水質・土壌汚染物質，地球温暖化・オゾン層破壊・酸性雨関連物質，生活関連物質，環境分析化学など。小論文1問について解答する。環境問題，社会・経済などに関する小論文で，主としてその論理性を問う。面接：主として，志望の動機，これまでの研究内容，入学後の学修・研究計画，及びこれらに関連する事項について試問する。",
+      "editorialNote": "留学生特别选抜与一般A同一专业和小论文，不是一般B的土木科目。2026年8月19–20日考试已结束。须在出愿前联系希望指导教师并取得应试内诺。专业和小论文日英并记。英语外检未交记0分。不把一般B或工学土木的专业A写入本条。",
+      "sources": [
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 16,
+          "label": "留学生特别选抜日程与选答"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/file/juken2026-oct-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 13,
+          "label": "留学生特别选抜学力检查出题范围"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/file/juken2026-oct-2027.pdf",
+          "kind": "pdf",
+          "pdfPage": 8,
+          "label": "出题语言与英语换算"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 5,
+          "label": "留学生特别选抜资格"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 9,
+          "label": "有效英语成绩种类与考试日"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/mc2027/mc2027_00.pdf",
+          "kind": "pdf",
+          "pdfPage": 25,
+          "label": "留学生特别选抜配点"
+        },
+        {
+          "url": "https://www.env.nagoya-u.ac.jp/admission/index.html",
+          "kind": "page",
+          "label": "環境学研究科入试"
+        }
+      ],
+      "conditionsOriginal": "外国籍を有し，本研究科に在留資格「留学」で在学することができる者は，留学生特別選抜を選択できる。出題等にあたり，語学能力，既習内容等を勘案して配慮を行うことがあるので，必ず出願前に希望指導教員に連絡を取り，受験の内諾を得ること。専門科目及び小論文は，日英併記で出題するので日本語又は英語で解答すること。英語200点，専門科目600点，小論文200点，面接は配点なし，満点1,000点。有効なスコアシートが提出されなかった場合は，試験科目「英語」の点数を零点とする。"
     },
     {
       "id": "uec-informatics-1-april-general",
