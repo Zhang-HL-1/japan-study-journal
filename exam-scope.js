@@ -47,6 +47,7 @@
       get('scope-context-note').textContent = '历史真题名称与现行招生目录未完全对应，已展开该校相关资料。请按现行专攻和官方要项确认。';
     }
     render();
+    if(params.has('record')&&!selectedId){get('scope-context-note').hidden=false;get('scope-context-note').textContent='这条资料已不在当前筛选或目录中，请重新检索；原书桌记录会保留。';}
     if (selectedId) get('scope-detail').scrollIntoView({block:'start', behavior:'auto'});
     else if (previousSelected) {
       const row = [...get('scope-results').querySelectorAll('button')].find(button => button.dataset.id === previousSelected);
@@ -158,6 +159,7 @@
       target.focus({preventScroll:true}); target.scrollIntoView({block:'nearest', behavior:'auto'});
     });
     actions.append(papers, back); detail.append(actions);
+    if(window.StudyDeskControls)detail.append(window.StudyDeskControls.attach({type:'scope',id:record.id,title:record.department+(record.course?' · '+record.course:''),subtitle:university.name+' · '+record.graduateSchool+' · '+record.entryYear,admission:state.admissionType,file:0},!!focus));
     const subjectHits = core.subjects.classify(record);
     if (subjectHits.length) detail.append(element('p', '科目归类：' + subjectHits.map(hit => core.subjects.categories.find(category => category.id === hit.id).label + '（' + hit.term + '）').join('；'), 'scope-subject-evidence'));
     if (record.publicationStatus) detail.append(element('p', publicationLabel(record), 'scope-record-status'));

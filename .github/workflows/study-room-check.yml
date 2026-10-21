@@ -9,6 +9,7 @@ on:
       - '*.html'
       - 'study-navigation*'
       - 'school-hub*'
+      - 'study-desk*'
       - 'scripts/build-school-index.cjs'
       - 'exam-scope*'
       - 'practice.html'
@@ -54,6 +55,7 @@ jobs:
           node tests/study-room.browser.cjs
           node tests/navigation.browser.cjs
           node tests/school-hub.browser.cjs
+          node tests/study-desk.browser.cjs
       - name: Save desktop and mobile screenshots
         if: always()
         uses: actions/upload-artifact@v4

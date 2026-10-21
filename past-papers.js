@@ -29,6 +29,7 @@
     }
     get('paper-query').value=state.query;get('paper-school-query').value='';
     render();
+    if(params.has('paper')&&!selected){get('paper-context-note').hidden=false;get('paper-context-note').textContent='这份真题已不在当前目录中，请重新检索；原书桌记录会保留。';}
     if(selected)openPaper(paper,false,selectedFile,true);
     else if(previousSelected){const row=[...get('paper-results').querySelectorAll('button')].find(b=>b.dataset.paper===previousSelected);row?.focus({preventScroll:true});row?.scrollIntoView({block:'nearest',behavior:'auto'});}
   }
@@ -71,9 +72,10 @@
     if(p.originalYear)detail.append(el('p',(p.yearEvidence==='source-directory'?'原目录年度：':'原卷入学年度：')+p.originalYear));
     if(p.examDates?.length)detail.append(el('p','实际考试日期：'+p.examDates.join('、')));
     if(p.subjects?.length)detail.append(el('p','考试科目：'+p.subjects.join('、')));
-    const files=el('div',undefined,'paper-files'),reader=el('div',undefined,'paper-reader');
+    const files=el('div',undefined,'paper-files'),reader=el('div',undefined,'paper-reader'),desk=el('div');detail.append(desk);
     function read(file,index,changeURL=true){
       selectedFile=index;
+      if(window.StudyDeskControls)desk.replaceChildren(window.StudyDeskControls.attach({type:'paper',id:p.id,title:p.title,subtitle:[schoolName(p.universityId),p.graduateSchool,p.department].filter(Boolean).join(' · '),file:index,admission:'general'},push||changeURL));
       if(changeURL)nav.write(window,currentURL());
       // Recreate share controls so the copied URL always includes the current PDF tab.
       shareActions.replaceChildren(...nav.share(document,window,currentURL()).children,scope);

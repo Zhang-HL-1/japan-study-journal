@@ -7,13 +7,15 @@
   <meta name="theme-color" content="#faf9f5" />
   <title>过去问题库｜练习室 · 留日手记</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="editorial.css?v=20261021" />
+  <link rel="stylesheet" href="editorial.css?v=20261021-desk" />
   <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
   <script src="campus-map-data.js?v=20261011" defer></script>
   <script src="past-papers-data.js?v=20261018-tus-backfill" defer></script>
   <script src="past-papers-core.js?v=20261011-tus" defer></script>
+  <script src="study-desk-core.js?v=20261021" defer></script>
+  <script src="study-desk-controls.js?v=20261021" defer></script>
   <script src="study-navigation.js?v=20261020" defer></script>
-  <script src="past-papers.js?v=20261021" defer></script>
+  <script src="past-papers.js?v=20261021-desk" defer></script>
   <script src="script.js" defer></script>
   <link rel="stylesheet" href="study-navigation.css?v=20261020" />
 </head>
@@ -29,7 +31,8 @@
         <a href="answers.html">答案书架</a>
         <a href="campus-map.html">大学院地图</a>
         <a href="practice.html">练习室</a>
-      </nav>
+              <a href="desk.html">我的书桌</a>
+</nav>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">打开导航</span><span></span><span></span></button>
   </header>
   <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
@@ -40,7 +43,8 @@
         <a href="answers.html">答案书架</a>
         <a href="campus-map.html">大学院地图</a>
         <a href="practice.html">练习室</a>
-    </nav>
+            <a href="desk.html">我的书桌</a>
+</nav>
   <main class="papers-main" id="main">
     <nav class="room-breadcrumb" aria-label="练习室导航"><a href="practice.html">← 返回练习室</a><span aria-current="page">过去问题库</span><a href="answers.html">答案书架 ↗</a><a href="drill.html">刷题练习 ↗</a></nav>
     <section class="papers-heading" aria-labelledby="papers-title"><div><p class="eyebrow">Past papers / 過去問題</p><h1 id="papers-title">翻开过去问。</h1><p>从历年原卷，了解考试的提问方式。<br />选一所大学，再找到对应研究科与年份。</p></div><p class="papers-total"><strong id="paper-total">0</strong>份真题<br /><span id="paper-school-total">学校索引载入中…</span></p></section>
