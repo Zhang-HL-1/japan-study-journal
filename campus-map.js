@@ -79,6 +79,7 @@
     list();draw();if(fromUser){detail.parentElement.scrollTop=0;detail.focus({preventScroll:true});detail.parentElement.scrollIntoView({block:'nearest',behavior:'auto'});}
   }
   function update(fit){
+    if(get('map-school-link'))get('map-school-link').href='schools.html'+(state.school==='all'?'':'?'+new URLSearchParams({school:state.school}));
     visible=data.campuses.filter(c=>core.matches(c,state,data.universities));
     if(!visible.some(c=>c.id===selected)){selected=null;get('map-detail').hidden=true;}
     else selectCampus(visible.find(c=>c.id===selected),false,false);

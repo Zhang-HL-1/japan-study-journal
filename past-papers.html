@@ -7,13 +7,13 @@
   <meta name="theme-color" content="#faf9f5" />
   <title>过去问题库｜练习室 · 留日手记</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="editorial.css?v=20261020" />
+  <link rel="stylesheet" href="editorial.css?v=20261021" />
   <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
   <script src="campus-map-data.js?v=20261011" defer></script>
   <script src="past-papers-data.js?v=20261018-tus-backfill" defer></script>
   <script src="past-papers-core.js?v=20261011-tus" defer></script>
   <script src="study-navigation.js?v=20261020" defer></script>
-  <script src="past-papers.js?v=20261020" defer></script>
+  <script src="past-papers.js?v=20261021" defer></script>
   <script src="script.js" defer></script>
   <link rel="stylesheet" href="study-navigation.css?v=20261020" />
 </head>
@@ -23,6 +23,7 @@
     <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
     <nav class="main-nav" aria-label="主要导航">
         <a href="index.html">首页</a>
+        <a href="schools.html">院校资料</a>
         <a href="exam-scope.html">考试范围</a>
         <a class="is-active" aria-current="page" href="past-papers.html">过去问</a>
         <a href="answers.html">答案书架</a>
@@ -33,6 +34,7 @@
   </header>
   <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
         <a href="index.html">首页</a>
+        <a href="schools.html">院校资料</a>
         <a href="exam-scope.html">考试范围</a>
         <a class="is-active" aria-current="page" href="past-papers.html">过去问</a>
         <a href="answers.html">答案书架</a>
@@ -46,6 +48,7 @@
     <div class="papers-layout">
       <aside class="papers-schools" aria-labelledby="paper-schools-title"><h2 id="paper-schools-title">学校索引</h2><label for="paper-school-query" class="sr-only">搜索学校</label><input id="paper-school-query" type="search" placeholder="搜索大学，例如：东大 / 早稻田" autocomplete="off" maxlength="100" /><label class="paper-school-select" for="paper-school-select">选择学校<select id="paper-school-select"><option value="all">全部学校</option></select></label><div class="paper-schools-list" id="paper-schools" role="group" aria-label="选择大学"></div></aside>
       <section class="papers-workspace" aria-labelledby="paper-results-title">
+        <p class="papers-footnote"><a id="paper-school-link" href="schools.html">查看院校资料汇总 →</a></p>
         <div class="papers-toolbar"><h2 id="paper-results-title">全部学校</h2><button id="paper-reset" type="button">重置筛选</button></div>
         <form class="papers-filters" id="paper-filters" role="search">
           <label>研究科<select id="paper-graduate" disabled><option value="all">真题添加后可筛选</option></select></label>

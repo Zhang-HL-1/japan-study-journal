@@ -14,7 +14,7 @@
     <script src="exam-scope-subjects.js?v=20261011-map" defer></script>
     <script src="exam-scope-core.js?v=20261011-map" defer></script>
   <script src="study-navigation.js?v=20261020" defer></script>
-    <script src="exam-scope.js?v=20261020" defer></script>
+    <script src="exam-scope.js?v=20261021" defer></script>
     <script src="script.js?v=20261005-align" defer></script>
     <link rel="stylesheet" href="study-navigation.css?v=20261020" />
 </head>
@@ -24,6 +24,7 @@
       <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
       <nav class="main-nav" aria-label="主要导航">
         <a href="index.html">首页</a>
+        <a href="schools.html">院校资料</a>
         <a class="is-active" aria-current="page" href="exam-scope.html">考试范围</a>
         <a href="past-papers.html">过去问</a>
         <a href="answers.html">答案书架</a>
@@ -34,6 +35,7 @@
     </header>
     <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
         <a href="index.html">首页</a>
+        <a href="schools.html">院校资料</a>
         <a class="is-active" aria-current="page" href="exam-scope.html">考试范围</a>
         <a href="past-papers.html">过去问</a>
         <a href="answers.html">答案书架</a>
@@ -87,6 +89,7 @@
             <label for="scope-field">教育研究分野 / 方向</label><select id="scope-field" disabled><option value="all">等待添加方向资料</option></select>
             <label for="scope-year">适用入学年度</label><select id="scope-year" disabled><option value="all">等待添加年度资料</option></select>
             <label for="scope-query">关键词</label><input id="scope-query" type="search" maxlength="100" placeholder="学校、专攻或考试科目" autocomplete="off" />
+            <a class="scope-practice-link" id="scope-school-link" href="schools.html"><span>同一所学校的资料</span><strong>打开院校汇总 →</strong></a>
             <a class="scope-practice-link" id="scope-papers-link" href="past-papers.html"><span>准备好范围之后</span><strong>查找对应过去问 →</strong></a>
           </aside>
           <div class="scope-workspace">

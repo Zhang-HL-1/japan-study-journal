@@ -95,6 +95,7 @@
     if(focus){detail.focus({preventScroll:true});detail.scrollIntoView({block:'start',behavior:'auto'});}
   }
   function render(){
+    if(get('paper-school-link'))get('paper-school-link').href='schools.html'+(state.school==='all'?'':'?'+new URLSearchParams({school:state.school}));
     updateOptions();renderSchools();const matches=core.filter(papers,universities,state);
     const note=get('paper-school-note'),schoolNote=data.schoolNotes?.[state.school];note.replaceChildren();note.hidden=!schoolNote;
     if(schoolNote){note.append(el('p',schoolNote.text));(schoolNote.supplements||[]).forEach(file=>{const url=core.fileURL(file);if(url)note.append(link(file.label+' ↗',url));});}

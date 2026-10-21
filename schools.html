@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <meta name="description" content="按大学汇总日本理工大学院考试范围、历年过去问和校区地图。查看本站资料覆盖，按研究科继续查阅。" />
+ <meta name="theme-color" content="#faf9f5" />
+ <title>院校资料｜留日手记</title>
+ <link rel="stylesheet" href="styles.css" />
+ <link rel="stylesheet" href="editorial.css?v=20261021" />
+ <link rel="stylesheet" href="school-hub.css?v=20261021" />
+ <script src="school-hub-data.js?v=20261021" defer></script>
+ <script src="school-hub.js?v=20261021" defer></script>
+ <script src="script.js" defer></script>
+</head>
+<body>
+ <a class="skip-link" href="#hub-content">跳到院校资料</a>
+<header class="site-header">
+      <a class="brand" href="index.html" aria-label="留日手记首页">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>留日手记</span>
+      </a>
+      <nav class="main-nav" aria-label="主要导航">
+        <a href="index.html">首页</a>
+        <a class="is-active" aria-current="page" href="schools.html">院校资料</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="campus-map.html">大学院地图</a>
+        <a href="practice.html">练习室</a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="sr-only">打开导航</span>
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
+        <a href="index.html">首页</a>
+        <a class="is-active" aria-current="page" href="schools.html">院校资料</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="campus-map.html">大学院地图</a>
+        <a href="practice.html">练习室</a>
+    </nav>
+ <main class="hub-main">
+  <section class="hub-intro" aria-labelledby="hub-title">
+   <p class="eyebrow">School notebooks / 院校资料</p>
+   <h1 id="hub-title">先选一所学校，<br />把资料放在一起。</h1>
+   <p>考试范围、历年原卷与校区位置，从这里继续查阅。</p>
+  </section>
+  <div class="hub-toolbar">
+   <label for="hub-picker">快速切换学校</label>
+   <select id="hub-picker"><option value="">全部院校目录</option></select>
+  </div>
+  <div id="hub-search-panel" class="hub-search">
+   <div><label for="hub-query">搜索学校</label><input id="hub-query" type="search" maxlength="100" placeholder="中文别名或日文名称，例如：东大" /></div>
+   <div><label for="hub-region">已收录校区所在地区</label><select id="hub-region"><option value="">全部地区</option></select></div>
+   <button id="hub-reset" type="button">重置筛选</button>
+  </div>
+  <p id="hub-status" role="status" class="hub-status">正在读取院校目录…</p>
+  <div id="hub-content" tabindex="-1">
+   <section id="hub-directory" aria-label="院校目录">
+    <div id="hub-cards" class="hub-grid"></div>
+    <p id="hub-empty" class="hub-notice" hidden>没有找到匹配学校。可以尝试中文别名、日文全称，或重置地区筛选。</p>
+   </section>
+   <section id="hub-detail" aria-label="学校资料汇总" hidden></section>
+  </div>
+  <noscript><p class="hub-notice">院校目录需要 JavaScript。你也可以直接访问<a href="exam-scope.html">考试范围</a>、<a href="past-papers.html">过去问</a>或<a href="campus-map.html">校区地图</a>。</p></noscript>
+ </main>
+<footer class="site-footer">
+      <a class="brand brand--footer" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>留日手记</span>
+      </a>
+      <p>关于日本留学、学习与成长的长期记录。</p>
+      <p class="copyright">© <span id="year">2026</span></p>
+    </footer>
+</body>
+</html>
