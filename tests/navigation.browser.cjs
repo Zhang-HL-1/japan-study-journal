@@ -15,7 +15,7 @@ const root=path.join(__dirname,'..');
   const origin='http://127.0.0.1:'+server.address().port,errors=[];
   const page=await browser.newPage({viewport:{width:1440,height:1000}});
   page.on('pageerror',e=>errors.push(String(e)));
-  const shot=async(name)=>{if(process.env.STUDY_ROOM_SCREENSHOTS){fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,name+'.png'),fullPage:true});}};
+  const shot=async(name)=>{if(process.env.STUDY_ROOM_SCREENSHOTS){fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,name+'.png'),fullPage:true,animations:'disabled'});}};
   for(const width of [390,900,1440]){
    await page.setViewportSize({width,height:900});await page.goto(origin+'/index.html');
    await page.locator('.desk-card').last().waitFor();
