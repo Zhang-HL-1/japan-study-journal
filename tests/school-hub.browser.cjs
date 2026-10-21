@@ -17,32 +17,32 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
   assert.ok(!requests.some(url=>/\/(exam-scope-data|past-papers-data|campus-map-data)\.js/.test(url)));
   await page.fill('#hub-query','东大');assert.equal(await page.locator('.hub-card').count(),1);
   await page.reload();assert.equal(await page.locator('#hub-query').inputValue(),'东大');
-  await page.locator('.hub-card').click();assert.equal(await page.locator('#hub-picker').inputValue(),'utokyo');
+  await page.locator('.hub-card').click();await page.waitForLoadState('domcontentloaded');assert.equal(await page.locator('#hub-picker').inputValue(),'utokyo');
   assert.match(await page.locator('#hub-detail').textContent(),/过去问待收录/);
   assert.equal(await page.locator('#hub-detail a[href^="past-papers.html"]').count(),0);
   await page.goBack();assert.equal(await page.locator('.hub-card').count(),1);
-  await page.locator('#hub-reset').click();assert.equal(await page.locator('.hub-card').count(),23);
+  await page.locator('#hub-reset').click();await page.waitForLoadState('domcontentloaded');assert.equal(await page.locator('.hub-card').count(),23);
   await page.selectOption('#hub-region','kyushu');assert.ok(await page.locator('.hub-card').count()>0);assert.ok(await page.locator('.hub-card').count()<23);
   await page.fill('#hub-query','no-such-school');assert.equal(await page.locator('#hub-empty').isVisible(),true);
-  await page.locator('#hub-reset').click();await shot('schools-directory-desktop');
+  await page.locator('#hub-reset').click();await page.waitForLoadState('domcontentloaded');await shot('schools-directory-desktop');
   await page.selectOption('#hub-picker','waseda');assert.equal(new URL(page.url()).searchParams.get('school'),'waseda');
   await page.reload();assert.equal(await page.locator('#hub-picker').inputValue(),'waseda');await shot('schools-detail-desktop');
   const graduate=page.locator('.hub-graduate').filter({has:page.locator('h4',{hasText:'先進理工学研究科'})});
-  await graduate.locator('a[href^="past-papers.html"]').click();
+  await graduate.locator('a[href^="past-papers.html"]').click();await page.waitForLoadState('domcontentloaded');
   assert.equal(await page.locator('#paper-graduate').inputValue(),'先進理工学研究科');assert.ok(await page.locator('.paper-result').count()>0);
-  await page.locator('#paper-school-link').click();assert.equal(await page.locator('#hub-picker').inputValue(),'waseda');
+  await page.locator('#paper-school-link').click();await page.waitForLoadState('domcontentloaded');assert.equal(await page.locator('#hub-picker').inputValue(),'waseda');
   const scope=page.locator('.hub-graduate').filter({has:page.locator('h4',{hasText:'先進理工学研究科'})});
-  await scope.locator('a[href^="exam-scope.html"]').first().click();assert.equal(await page.locator('#scope-graduate').inputValue(),'先進理工学研究科');
-  await page.locator('#scope-school-link').click();assert.equal(await page.locator('#hub-picker').inputValue(),'waseda');
-  await page.locator('#hub-detail a[href^="campus-map.html"]').first().click();assert.equal(await page.locator('#map-school').inputValue(),'waseda');
-  await page.locator('#map-school-link').click();assert.equal(await page.locator('#hub-picker').inputValue(),'waseda');
+  await scope.locator('a[href^="exam-scope.html"]').first().click();await page.waitForLoadState('domcontentloaded');assert.equal(await page.locator('#scope-graduate').inputValue(),'先進理工学研究科');
+  await page.locator('#scope-school-link').click();await page.waitForLoadState('domcontentloaded');assert.equal(await page.locator('#hub-picker').inputValue(),'waseda');
+  await page.locator('#hub-detail a[href^="campus-map.html"]').first().click();await page.waitForLoadState('domcontentloaded');assert.equal(await page.locator('#map-school').inputValue(),'waseda');
+  await page.locator('#map-school-link').click();await page.waitForLoadState('domcontentloaded');assert.equal(await page.locator('#hub-picker').inputValue(),'waseda');
   await page.goto(origin+'/schools.html?school=unknown&region=unknown&q=%3Cimg%20src=x%20onerror=alert(1)%3E');
   assert.equal(await page.locator('#hub-detail').isHidden(),true);assert.equal(await page.locator('#hub-empty').isVisible(),true);assert.equal(await page.locator('#hub-content img').count(),0);
   for(const width of [390,801,900,1440]){
    await page.setViewportSize({width,height:900});await page.goto(origin+'/schools.html?school=nagoya');
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
    assert.match(await page.locator('#hub-detail').textContent(),/校区对应待补充/);
-   if(width===390){await shot('schools-detail-mobile');await page.locator('.menu-button').click();assert.equal(await page.locator('#mobile-nav').isVisible(),true);await page.keyboard.press('Escape');assert.equal(await page.locator('#mobile-nav').isHidden(),true);}
+   if(width===390){await shot('schools-detail-mobile');await page.locator('.menu-button').click();await page.waitForLoadState('domcontentloaded');assert.equal(await page.locator('#mobile-nav').isVisible(),true);await page.keyboard.press('Escape');assert.equal(await page.locator('#mobile-nav').isHidden(),true);}
   }
   await page.route('**/school-hub-data.js*',r=>r.fulfill({contentType:'text/javascript',body:'/* unavailable data fixture */'}));
   await page.goto(origin+'/schools.html');assert.match(await page.locator('#hub-status').textContent(),/暂时无法加载/);
