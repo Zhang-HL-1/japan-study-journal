@@ -564,3 +564,11 @@ test('invalid scope links are normalized and historical names are explained',()=
  const b=boot(catalog.records,'?school=keio&graduate=旧研究科&department=旧専攻&from=papers');
  assert.equal(b.ids['scope-context-note'].hidden,false);assert.ok(b.ids['scope-results'].children.length>0);
 });
+
+test('school hub graduate links restore exact admission filters',()=>{
+ for(const admission of ['general','international']){
+  const a=boot(catalog.records,'?'+new URLSearchParams({school:'waseda',graduate:'先進理工学研究科',admission}));
+  assert.equal(a.ids['scope-graduate'].value,'先進理工学研究科');
+  assert.equal(a.ids['scope-results'].children.length,admission==='general'?8:13);
+ }
+});

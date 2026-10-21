@@ -191,6 +191,7 @@
     if (focus) { detail.focus({ preventScroll: true }); detail.scrollIntoView({ behavior: 'auto', block: 'start' }); }
   }
   function render() {
+    if(get('scope-school-link'))get('scope-school-link').href='schools.html'+(state.universityId==='all'?'':'?'+new URLSearchParams({school:state.universityId}));
     updateOptions();
     const mapLink = get('scope-map-link');
     if (mapLink) {
