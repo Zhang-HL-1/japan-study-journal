@@ -2,44 +2,38 @@
  'use strict';
  const get=id=>document.getElementById(id),core=window.StudyDeskCore;
  if(!core){get('desk-status').textContent='书桌暂时无法加载，请刷新页面。';return;}
- const store=core.create(()=>window.localStorage);let tab='favorites';
+ const store=core.create(()=>window.localStorage);
  const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
  const date=time=>new Date(time).toLocaleString('zh-CN',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false});
  function report(result,message){get('desk-status').textContent=result.ok?message:'操作未完成，原记录未改动。'+result.error+'。可先导出备份；读取异常时，备份保留原始内容。';}
  function render(){
   const result=store.read(),list=get('desk-list');list.replaceChildren();
-  if(!result.ok){report(result);get('desk-empty').hidden=true;get('desk-continue').hidden=true;return;}
-  const data=result.data.items,favorites=data.filter(i=>i.favoriteAt),recent=data.filter(i=>i.lastOpenedAt).sort((a,b)=>b.lastOpenedAt-a.lastOpenedAt);
-  get('desk-favorites-count').textContent=String(favorites.length);get('desk-recent-count').textContent=String(recent.length);
-  get('desk-continue').hidden=!recent.length;
-  if(recent.length){get('desk-continue-link').href=core.href(recent[0]);get('desk-continue-link').textContent=recent[0].title+' →';get('desk-continue-copy').textContent=recent[0].subtitle;}
+  if(!result.ok){report(result);get('desk-empty').hidden=true;return;}
+  const favorites=result.data.items;get('desk-favorites-count').textContent=String(favorites.length);
   const query=get('desk-query').value.normalize('NFKC').toLowerCase().trim(),type=get('desk-type').value;
-  const items=(tab==='favorites'?favorites.sort((a,b)=>b.favoriteAt-a.favoriteAt):recent).filter(i=>(!type||i.type===type)&&(!query||[i.title,i.subtitle].join(' ').normalize('NFKC').toLowerCase().includes(query)));
-  get('desk-result-count').textContent=(tab==='favorites'?'收藏':'最近阅读')+' · '+items.length+' 条';
+  const items=favorites.sort((a,b)=>b.favoriteAt-a.favoriteAt).filter(i=>(!type||i.type===type)&&(!query||[i.title,i.subtitle].join(' ').normalize('NFKC').toLowerCase().includes(query)));
+  get('desk-result-count').textContent='收藏 · '+items.length+' 条';
   get('desk-empty').hidden=items.length>0;
-  get('desk-empty-copy').textContent=query||type?'没有匹配记录，试试其他关键词或资料类型。':tab==='favorites'?'打开考试范围或过去问，点击“收藏到书桌”，就能在这里找回。':'打开具体考试资料或真题后，会自动加入最近阅读。';
+  get('desk-empty-copy').textContent=query||type?'没有匹配记录，试试其他关键词或资料类型。':'打开考试范围或过去问，点击“收藏到书桌”，就能在这里找回。';
   for(const i of items){
    const card=el('article',undefined,'desk-item'),heading=el('h3'),a=el('a',i.title);a.href=core.href(i);heading.append(a);
    card.append(el('p',i.type==='scope'?'考试范围':'历年真题','eyebrow'),heading,el('p',i.subtitle,'desk-muted'));
-   const meta=el('p',(tab==='favorites'?'收藏于 ':'阅读于 ')+date(tab==='favorites'?i.favoriteAt:i.lastOpenedAt)+(i.type==='paper'?' · 原卷文件 '+(i.file+1):''),'desk-muted');card.append(meta);
+   const meta=el('p','收藏于 '+date(i.favoriteAt)+(i.type==='paper'?' · 原卷文件 '+(i.file+1):''),'desk-muted');card.append(meta);
    const action=el('button',i.favoriteAt?'取消收藏':'收藏到书桌');action.type='button';action.setAttribute('aria-pressed',String(!!i.favoriteAt));action.setAttribute('aria-label',(i.favoriteAt?'取消收藏：':'收藏：')+i.title);
    action.addEventListener('click',()=>{const result=store.favorite(i,!i.favoriteAt);if(result.ok){render();get('desk-result-count').focus({preventScroll:true});}report(result,i.favoriteAt?'已取消收藏。':'已加入收藏。');});card.append(action);list.append(card);
   }
  }
- function setTab(value){tab=value;for(const id of ['favorites','recent'])get('desk-tab-'+id).setAttribute('aria-pressed',String(value===id));render();}
- for(const name of ['favorites','recent'])get('desk-tab-'+name).addEventListener('click',()=>setTab(name));
  get('desk-query').addEventListener('input',render);get('desk-type').addEventListener('change',render);
  get('desk-export').addEventListener('click',()=>{
   const result=store.exportText();if(!result.ok){report(result);return;}
-  const url=URL.createObjectURL(new Blob([result.text],{type:'application/json'})),a=el('a');a.href=url;a.download='留日手记-我的书桌-'+new Date().toISOString().slice(0,10)+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);report(result,'已导出书桌备份。备份包含收藏和阅读记录，请自行保管。');
+  const url=URL.createObjectURL(new Blob([result.text],{type:'application/json'})),a=el('a');a.href=url;a.download='留日手记-我的书桌-'+new Date().toISOString().slice(0,10)+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);report(result,'已导出书桌备份。备份包含收藏记录，请自行保管。');
  });
  get('desk-import').addEventListener('click',()=>get('desk-file').click());
  get('desk-file').addEventListener('change',async()=>{
   const file=get('desk-file').files[0];if(!file)return;
   try{if(file.size>core.MAX_BYTES)throw Error('文件超过 1 MB');const result=store.importText(await file.text());if(result.ok)render();report(result,'备份已合并，相同资料只保留一条；现有收藏不会被删除。');}catch(error){report({ok:false,error:error.message});}finally{get('desk-file').value='';}
  });
- get('desk-clear-recent').addEventListener('click',()=>{if(!window.confirm('清空最近阅读？收藏会保留。'))return;const result=store.clearRecent();if(result.ok)render();report(result,'最近阅读已清空，收藏已保留。');});
- get('desk-clear-all').addEventListener('click',()=>{if(!window.confirm('清空本浏览器的全部书桌收藏和阅读记录？建议先导出备份。刷题记录不受影响。'))return;const result=store.clear();if(result.ok)render();report(result,'书桌已清空，刷题记录未改动。');});
+ get('desk-clear-all').addEventListener('click',()=>{if(!window.confirm('清空本浏览器的全部书桌收藏？建议先导出备份。刷题记录不受影响。'))return;const result=store.clear();if(result.ok)render();report(result,'书桌已清空，刷题记录未改动。');});
  window.addEventListener('storage',event=>{if(event.key===core.KEY||event.key===null){render();const r=store.read();if(r.ok)report(r,'书桌已与其他标签页同步。');}});
  render();
 })();
