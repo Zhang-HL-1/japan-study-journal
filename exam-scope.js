@@ -159,7 +159,7 @@
       target.focus({preventScroll:true}); target.scrollIntoView({block:'nearest', behavior:'auto'});
     });
     actions.append(papers, back); detail.append(actions);
-    if(window.StudyDeskControls)detail.append(window.StudyDeskControls.attach({type:'scope',id:record.id,title:record.department+(record.course?' · '+record.course:''),subtitle:university.name+' · '+record.graduateSchool+' · '+record.entryYear,admission:state.admissionType,file:0},!!focus));
+    if(window.StudyDeskControls)detail.append(window.StudyDeskControls.attach({type:'scope',id:record.id,title:record.department+(record.course?' · '+record.course:''),subtitle:university.name+' · '+record.graduateSchool+' · '+record.selectionName+' · '+record.entryYear,admission:state.admissionType,file:0},!!focus));
     const subjectHits = core.subjects.classify(record);
     if (subjectHits.length) detail.append(element('p', '科目归类：' + subjectHits.map(hit => core.subjects.categories.find(category => category.id === hit.id).label + '（' + hit.term + '）').join('；'), 'scope-subject-evidence'));
     if (record.publicationStatus) detail.append(element('p', publicationLabel(record), 'scope-record-status'));
