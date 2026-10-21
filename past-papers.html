@@ -7,28 +7,44 @@
   <meta name="theme-color" content="#faf9f5" />
   <title>过去问题库｜练习室 · 留日手记</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="editorial.css" />
+  <link rel="stylesheet" href="editorial.css?v=20261020" />
   <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
   <script src="campus-map-data.js?v=20261011" defer></script>
   <script src="past-papers-data.js?v=20261018-tus-backfill" defer></script>
   <script src="past-papers-core.js?v=20261011-tus" defer></script>
-  <script src="past-papers.js?v=20261013-science-tokyo" defer></script>
+  <script src="study-navigation.js?v=20261020" defer></script>
+  <script src="past-papers.js?v=20261020" defer></script>
   <script src="script.js" defer></script>
+  <link rel="stylesheet" href="study-navigation.css?v=20261020" />
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
   <header class="site-header">
     <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
-    <nav class="main-nav" aria-label="主要导航"><a href="index.html">首页</a><a href="exam-scope.html">考试科目与范围</a><a href="campus-map.html">大学院地图</a><a class="is-active" href="practice.html">练习室</a></nav>
+    <nav class="main-nav" aria-label="主要导航">
+        <a href="index.html">首页</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a class="is-active" aria-current="page" href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="campus-map.html">大学院地图</a>
+        <a href="practice.html">练习室</a>
+      </nav>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">打开导航</span><span></span><span></span></button>
   </header>
-  <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden><a href="index.html">首页</a><a href="exam-scope.html">考试科目与范围</a><a href="campus-map.html">大学院地图</a><a href="practice.html">练习室</a></nav>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
+        <a href="index.html">首页</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a class="is-active" aria-current="page" href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="campus-map.html">大学院地图</a>
+        <a href="practice.html">练习室</a>
+    </nav>
   <main class="papers-main" id="main">
-    <nav class="room-breadcrumb" aria-label="练习室导航"><a href="practice.html">← 返回练习室</a><span aria-current="page">过去问题库</span><a href="drill.html">刷题练习 ↗</a></nav>
+    <nav class="room-breadcrumb" aria-label="练习室导航"><a href="practice.html">← 返回练习室</a><span aria-current="page">过去问题库</span><a href="answers.html">答案书架 ↗</a><a href="drill.html">刷题练习 ↗</a></nav>
     <section class="papers-heading" aria-labelledby="papers-title"><div><p class="eyebrow">Past papers / 過去問題</p><h1 id="papers-title">翻开过去问。</h1><p>从历年原卷，了解考试的提问方式。<br />选一所大学，再找到对应研究科与年份。</p></div><p class="papers-total"><strong id="paper-total">0</strong>份真题<br /><span id="paper-school-total">学校索引载入中…</span></p></section>
     <p class="paper-error" id="paper-error" role="status" hidden></p>
     <div class="papers-layout">
-      <aside class="papers-schools" aria-labelledby="paper-schools-title"><h2 id="paper-schools-title">学校索引</h2><label for="paper-school-query" class="sr-only">搜索学校</label><input id="paper-school-query" type="search" placeholder="搜索大学，例如：东大 / 早稻田" autocomplete="off" maxlength="100" /><div class="paper-schools-list" id="paper-schools" role="group" aria-label="选择大学"></div></aside>
+      <aside class="papers-schools" aria-labelledby="paper-schools-title"><h2 id="paper-schools-title">学校索引</h2><label for="paper-school-query" class="sr-only">搜索学校</label><input id="paper-school-query" type="search" placeholder="搜索大学，例如：东大 / 早稻田" autocomplete="off" maxlength="100" /><label class="paper-school-select" for="paper-school-select">选择学校<select id="paper-school-select"><option value="all">全部学校</option></select></label><div class="paper-schools-list" id="paper-schools" role="group" aria-label="选择大学"></div></aside>
       <section class="papers-workspace" aria-labelledby="paper-results-title">
         <div class="papers-toolbar"><h2 id="paper-results-title">全部学校</h2><button id="paper-reset" type="button">重置筛选</button></div>
         <form class="papers-filters" id="paper-filters" role="search">
@@ -37,13 +53,14 @@
           <label>原卷年份<select id="paper-year" disabled><option value="all">待添加</option></select></label>
           <label class="paper-keyword-label">关键词<input id="paper-query" type="search" placeholder="专攻、科目、试卷名称" maxlength="100" autocomplete="off" /></label>
         </form>
+        <p id="paper-context-note" class="papers-footnote" role="status" hidden></p>
         <p id="paper-results-count" class="papers-footnote" role="status" aria-live="polite">真题尚未添加。</p>
         <div id="paper-school-note" class="papers-footnote" hidden></div>
         <div class="paper-results" id="paper-results" role="group" aria-label="真题列表"></div>
         <section class="paper-empty" id="paper-empty" aria-labelledby="paper-empty-title">
           <img src="assets/past-papers-ink.webp" width="1240" height="564" alt="" aria-hidden="true" />
           <h3 id="paper-empty-title">为下一份真题，留一个位置。</h3><p id="paper-empty-copy">过去问题库已经准备好，真题稍后添加。<br />你可以先选择学校，或去刷题练习与查阅考试范围。</p>
-          <div class="paper-empty-actions"><a href="drill.html">去刷题练习 ↗</a><a href="exam-scope.html" id="paper-scope-link">查考试科目与范围 →</a></div>
+          <div class="paper-empty-actions"><a href="answers.html">查练习册答案 ↗</a><a href="exam-scope.html" id="paper-scope-link">查考试科目与范围 →</a></div>
         </section>
         <section class="paper-detail" id="paper-detail" aria-label="真题阅读区" tabindex="-1" hidden></section>
         <p class="papers-footnote">这里保存过去问原卷，历史部分资料在标题和说明中标注；按知识点练习、错题与笔记，请进入刷题练习。</p>

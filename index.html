@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="日本大学院备考的数字书桌：查阅官方考试范围，整理学习笔记，开始修考练习。"
+      content="日本理工大学院备考资料书桌：查考试范围、找历年真题、查练习册答案。"
     />
     <meta name="theme-color" content="#faf9f5" />
     <title>留日手记｜日本留学与学习记录</title>
 <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="practice.css" />
     <link rel="stylesheet" href="exam-scope.css" />
-    <link rel="stylesheet" href="editorial.css" />
+    <link rel="stylesheet" href="editorial.css?v=20261020" />
     <link rel="stylesheet" href="campus-map.css?v=20261011" />
     <link
       rel="icon"
       type="image/svg+xml"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E"
     />
+  <link rel="stylesheet" href="study-navigation.css?v=20261020" />
   </head>
-  <body>
+  <body class="home-page">
     <a class="skip-link" href="#main">跳到主要内容</a>
 
     <header class="site-header">
@@ -30,10 +31,11 @@
       </a>
       <nav class="main-nav" aria-label="主要导航">
         <a class="is-active" aria-current="page" href="index.html">首页</a>
-        <a href="exam-scope.html">考试科目与范围</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
         <a href="campus-map.html">大学院地图</a>
         <a href="practice.html">练习室</a>
-        <a href="#about">关于手记</a>
       </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">
         <span class="sr-only">打开导航</span>
@@ -42,12 +44,12 @@
     </header>
 
     <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
-      <a href="#top">首页</a>
-      <a href="#topics">项目与学习</a>
-      <a href="campus-map.html">大学院地图</a>
+        <a class="is-active" aria-current="page" href="index.html">首页</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="campus-map.html">大学院地图</a>
         <a href="practice.html">练习室</a>
-      <a href="exam-scope.html">考试科目与范围</a>
-      <a href="#about">关于</a>
     </nav>
 
     <main id="main">
@@ -55,10 +57,11 @@
         <div class="hero-copy">
           <div class="eyebrow"><span class="eyebrow-line"></span>留日手记 / Japan Study Journal</div>
           <h1 id="home-title">为下一步，<br /><em>留一点从容。</em></h1>
-          <p class="hero-description">把散落的募集要项、考试范围与学习笔记，<br class="desktop-break" />慢慢整理成自己的备考路径。</p>
+          <p class="hero-description">日本理工大学院备考资料书桌。<br class="desktop-break" />查考试范围、找历年真题、对照练习册答案。</p>
           <div class="hero-actions">
             <a class="editorial-button" href="exam-scope.html">查阅考试范围 <span aria-hidden="true">↗</span></a>
-            <a class="quiet-link" href="practice.html">进入练习室 <span aria-hidden="true">→</span></a>
+            <a class="quiet-link" href="past-papers.html">找历年真题 <span aria-hidden="true">→</span></a>
+            <a class="quiet-link" href="answers.html">查练习册答案 <span aria-hidden="true">→</span></a>
           </div>
           <p class="hero-footnote">从一份官方资料，到一道真正理解的题。</p>
         </div>
@@ -77,60 +80,26 @@
             <p>按学校、研究科与专攻，找到要考的内容。<br />一般入试与留学生入试，附官方原文及对应页。</p>
             <div class="desk-card-bottom"><span>23所大学 · 官方资料</span><strong>开始查阅 <span aria-hidden="true">→</span></strong></div>
           </a>
-          <a class="desk-card desk-card--practice" href="practice.html">
-            <div class="desk-card-top"><span>02 / 练习室</span><span class="card-arrow" aria-hidden="true">↗</span></div>
-            <h3>读真题，也练理解。</h3>
-            <p>过去问题库、练习册答案与刷题，三个并列入口。<br />读历年原卷，对照答案，或按知识点练习。</p>
-            <div class="desk-card-bottom"><span>过去问 · 答案 · 刷题</span><strong>进入练习室 <span aria-hidden="true">→</span></strong></div>
+          <a class="desk-card desk-card--practice" href="past-papers.html">
+            <div class="desk-card-top"><span>02 / 過去問題</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <h3>找历年真题</h3>
+            <p>按学校、研究科、专攻与年份查阅原卷。<br />保留历史名称与原卷说明，支持阅读和下载。</p>
+            <div class="desk-card-bottom"><span>历年原卷 · 按校检索</span><strong>打开过去问 →</strong></div>
           </a>
-          <a class="desk-card desk-card--map" href="campus-map.html">
-            <div class="desk-card-top"><span>03 / 大学院地图</span><span class="card-arrow" aria-hidden="true">↗</span></div>
-            <h3>下一站，在哪里？</h3>
-            <p>在地图上找到实际的理工大学院校区。<br />放大、拖动，了解不同研究科的位置。</p>
-            <div class="desk-card-bottom"><span>23所大学 · 校区与研究基地</span><strong>查看地图 <span aria-hidden="true">→</span></strong></div>
+          <a class="desk-card desk-card--map" href="answers.html">
+            <div class="desk-card-top"><span>03 / 練習帳の解答</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <h3>查练习册答案</h3>
+            <p>按书查找，输入题号定位解答。<br />这里是练习册答案，与历年真题分别整理。</p>
+            <div class="desk-card-bottom"><span>答案书架 · 按题号查阅</span><strong>打开答案书架 →</strong></div>
           </a>
         </div>
-        <p class="school-note">已收录23所大学，覆盖北海道、东北、关东、中部、关西与九州。<a href="exam-scope.html">查看全部学校 →</a></p>
+        <p class="school-note">已收录23所大学，覆盖北海道、东北、关东、中部、关西与九州。<a href="campus-map.html">查看大学院校区地图 →</a></p>
       </section>
 
-      <section class="topics" id="topics" aria-labelledby="topics-title">
-        <div class="section-heading">
-          <p>接下来会在这里</p>
-          <h2 id="topics-title">收集、理解，再分享。</h2>
-        </div>
-
-        <div class="topic-grid">
-          <article class="topic-card topic-card--dark">
-            <span class="card-index">01</span>
-            <div>
-              <p class="card-kicker">Projects</p>
-              <h3>留学项目</h3>
-              <p>学校与专业调研、申请方案，以及每个重要选择背后的思考。</p>
-            </div>
-            <span class="card-status">待添加</span>
-          </article>
-
-          <article class="topic-card">
-            <span class="card-index">02</span>
-            <div>
-              <p class="card-kicker">Learning</p>
-              <h3>学习记录</h3>
-              <p>语言学习、课程笔记和阶段复盘，把零散的进步留存下来。</p>
-            </div>
-            <span class="card-status">待添加</span>
-          </article>
-
-          <article class="topic-card topic-card--accent">
-            <span class="card-index">03</span>
-            <div>
-              <p class="card-kicker">Field Notes</p>
-              <h3>经验手记</h3>
-              <p>申请准备、生活观察与踩坑记录，希望让后来的人少一点慌张。</p>
-            </div>
-            <span class="card-status">待添加</span>
-          </article>
-        </div>
-      </section>
+      <aside class="home-coming" id="topics" aria-label="后续内容">
+        <p>留学项目、学习记录与经验手记正在整理，有内容后会在这里与你见面。</p>
+        <a href="practice.html">查看练习室 · 刷题题库筹备中 →</a>
+      </aside>
 
       <section class="about" id="about" aria-labelledby="about-title">
         <p class="about-label">About this place</p>

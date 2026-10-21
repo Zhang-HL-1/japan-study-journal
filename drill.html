@@ -8,12 +8,12 @@
     <title>刷题练习｜练习室 · 留日手记</title>
 <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="practice.css" />
-    <link rel="stylesheet" href="editorial.css" />
+    <link rel="stylesheet" href="editorial.css?v=20261020" />
     <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E" />
     <script src="questions.js" defer></script>
     <script src="practice-core.js" defer></script>
-    <script src="practice.js" defer></script>
+    <script src="practice.js?v=20261020" defer></script>
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -21,12 +21,23 @@
     <header class="site-header">
       <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
       <nav class="main-nav" aria-label="主要导航">
-        <a href="index.html">首页</a><a class="is-active" href="practice.html">练习室</a><a href="campus-map.html">大学院地图</a><a href="exam-scope.html">考试科目与范围</a><a href="index.html#topics">学习记录</a>
+        <a href="index.html">首页</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="campus-map.html">大学院地图</a>
+        <a class="is-active" aria-current="page" href="practice.html">练习室</a>
       </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">打开导航</span><span></span><span></span></button>
     </header>
-    <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden><a href="index.html">首页</a><a href="campus-map.html">大学院地图</a>
-      <a href="practice.html">练习室</a><a href="exam-scope.html">考试科目与范围</a><a href="index.html#topics">学习记录</a></nav>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
+        <a href="index.html">首页</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="campus-map.html">大学院地图</a>
+        <a class="is-active" aria-current="page" href="practice.html">练习室</a>
+    </nav>
     <main class="practice-main">
       <nav class="room-breadcrumb" aria-label="练习室导航"><a href="practice.html">← 返回练习室</a><span aria-current="page">刷题练习</span><a href="past-papers.html">过去问题库 ↗</a></nav>
       <section class="practice-intro" aria-labelledby="practice-title">
@@ -91,7 +102,7 @@
             <details class="note-details"><summary>学习笔记 / 易错点</summary><label class="sr-only" for="question-note">本题学习笔记</label><textarea id="question-note" rows="3" maxlength="6000" placeholder="例如：负反馈成立时才可以使用虚短……"></textarea><small>输入后自动保存，仅自己在此浏览器中可见。</small></details>
             <div class="question-navigation"><button id="previous" type="button" class="secondary-button">← 上一题</button><span id="position">0 / 0</span><button id="next" type="button" class="primary-button">下一题 →</button></div>
           </article>
-          <div id="empty-state" class="empty-state"><span aria-hidden="true">◎</span><h2 id="empty-title">题库正在等你。</h2><p id="empty-copy">功能已经准备好。加入你的题目后，便可以按学科、章节练习和复习。</p><a id="empty-home" href="index.html" class="secondary-button">先回首页看看 ↗</a><button id="empty-reset" type="button" class="primary-button" hidden>查看全部题目</button></div>
+          <div id="empty-state" class="empty-state"><span aria-hidden="true">◎</span><h2 id="empty-title">题库正在等你。</h2><p id="empty-copy">功能已经准备好。加入你的题目后，便可以按学科、章节练习和复习。</p><a id="empty-home" href="past-papers.html" class="secondary-button">先看历年真题 ↗</a><button id="empty-reset" type="button" class="primary-button" hidden>查看全部题目</button></div>
           <details id="question-map" class="question-map" open hidden><summary>题号导航 <small>✓ 已答对 · × 待复习 · ☆ 收藏</small></summary><div id="question-grid" class="question-grid"></div></details>
           <p id="storage-status" class="storage-status" role="status">练习记录保存在当前浏览器。</p>
         </section>

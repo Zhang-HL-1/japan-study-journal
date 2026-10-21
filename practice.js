@@ -4,6 +4,15 @@
   const core = window.QuizCore;
   const key = 'japan-study-journal:practice:v1';
   const $ = id => document.getElementById(id);
+  if (!core || !Array.isArray(bank)) {
+    $('bank-notice').textContent = '题库暂时无法加载，请刷新重试，或先查阅过去问。';
+    $('list-count').textContent = '题库加载失败';
+    $('empty-state').hidden = false;
+    $('empty-title').textContent = '题库暂时无法加载。';
+    $('empty-copy').textContent = '请检查网络后刷新，或先阅读过去问。';
+    $('empty-reset').hidden = true; $('empty-home').hidden = false;
+    return;
+  }
   const defaults = { subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '' };
   const typeNames = { choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
   let state = core.blank(), list = [], index = 0, locked = false, exposed = false;
@@ -52,7 +61,7 @@
     $('wrong-count').textContent = s.wrong;
     $('bookmark-count').textContent = s.bookmarked;
     const done = list.filter(q => record(q).attempts > 0).length;
-    $('list-count').textContent = `${state.filters.scope === 'wrong' ? '错题重练' : state.filters.scope === 'bookmarked' ? '收藏练习' : state.filters.scope === 'unanswered' ? '未作答练习' : '当前题单'} · ${list.length} 题`;
+    $('list-count').textContent = !bank.length ? '题库筹备中 · 0 题' : `${state.filters.scope === 'wrong' ? '错题重练' : state.filters.scope === 'bookmarked' ? '收藏练习' : state.filters.scope === 'unanswered' ? '未作答练习' : '当前题单'} · ${list.length} 题`;
     $('session-progress').textContent = `本题单已完成 ${done} / ${list.length}`;
     $('progress').max = list.length || 1; $('progress').value = done;
     $('bank-size').textContent = bank.length;

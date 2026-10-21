@@ -17,20 +17,42 @@
     get('scope-data-error').textContent = '部分资料暂时无法显示，请以学校官方募集要项为准。';
     get('scope-data-error').hidden = false;
   }
-  const state = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '', subjectIds: [] };
-  // Map links select only known catalog values; admission defaults remain unchanged.
-  if (window.location?.search) {
-    const params = new URL('https://local.invalid/' + window.location.search).searchParams;
-    const school = params.get('school'), graduate = params.get('graduate'), department = params.get('department');
-    if (universities.some(u => u.id === school)) {
-      state.universityId = school;
-      if (records.some(r => r.universityId === school && r.graduateSchool === graduate)) {
-        state.graduateSchool = graduate;
-        if (records.some(r => r.universityId === school && r.graduateSchool === graduate && r.department === department)) state.department = department;
-      }
+  const nav = window.StudyNavigation;
+  const defaults = { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '', subjectIds: [] };
+  const fields = {universityId:'school', admissionType:'admission', graduateSchool:'graduate', department:'department', course:'course', entryYear:'year', query:'q', subjectIds:'subject'};
+  const state = {...defaults, subjectIds: []};
+  let selectedId = null;
+  function currentURL() { return nav.url('exam-scope.html', state, defaults, fields, {record: selectedId}); }
+  function restore() {
+    const previousSelected = selectedId;
+    get('scope-context-note').hidden = true;
+    Object.assign(state, nav.read(window.location?.search, defaults, fields));
+    if (!universities.some(u => u.id === state.universityId)) state.universityId = 'all';
+    if (!['general', 'international'].includes(state.admissionType)) state.admissionType = 'general';
+    state.query = state.query.slice(0, 100);
+    state.subjectIds = state.subjectIds.filter(id => core.subjects.categories.some(c => c.id === id));
+    const params = new URLSearchParams(window.location?.search || '');
+    selectedId = records.some(r => r.id === params.get('record')) ? params.get('record') : null;
+    // A standalone record link also selects its school and actual admission category.
+    if (selectedId && !params.has('school')) {
+      const record = records.find(r => r.id === selectedId);
+      state.universityId = record.universityId;
+      if (!core.matchesAdmission(record, state.admissionType)) state.admissionType = 'international';
+    }
+    get('scope-query').value = state.query;
+    const context = nav.resolveContext(records, {school:state.universityId, graduate:state.graduateSchool, department:state.department}, 'universityId', 'graduateSchool');
+    if (params.get('from') === 'papers') {
+      state.graduateSchool = context.graduate; state.department = context.department;
+      get('scope-context-note').hidden = !context.broadened;
+      get('scope-context-note').textContent = '历史真题名称与现行招生目录未完全对应，已展开该校相关资料。请按现行专攻和官方要项确认。';
+    }
+    render();
+    if (selectedId) get('scope-detail').scrollIntoView({block:'start', behavior:'auto'});
+    else if (previousSelected) {
+      const row = [...get('scope-results').querySelectorAll('button')].find(button => button.dataset.id === previousSelected);
+      row?.focus({preventScroll:true}); row?.scrollIntoView({block:'nearest', behavior:'auto'});
     }
   }
-  let selectedId = null;
   function element(tag, text, className) {
     const node = document.createElement(tag);
     if (text !== undefined) node.textContent = text;
@@ -120,10 +142,22 @@
   }
   function showDetail(record, focus) {
     selectedId = record.id;
+    nav.write(window, currentURL(), !!focus);
     const detail = get('scope-detail');
     const university = universities.find(u => u.id === record.universityId);
     detail.replaceChildren(element('p', university.name + ' · ' + record.graduateSchool, 'scope-kicker'), element('h3', record.department + (record.course ? ' · ' + record.course : '')),
       element('p', record.selectionName + ' / ' + record.entryYear), element('p', '资料核对日期：' + record.verifiedAt, 'scope-kicker'));
+    const actions = nav.share(document, window, currentURL());
+    const papers = element('a', '查找此专攻过去问 →');
+    papers.href = nav.url('past-papers.html', {}, {}, {}, {school:record.universityId, graduate:record.graduateSchool, department:record.department, from:'scope'});
+    const back = element('button', '返回筛选结果'); back.type = 'button';
+    back.addEventListener('click', () => {
+      selectedId = null; nav.write(window, currentURL(), true); render();
+      const row = get('scope-results').querySelectorAll('button');
+      const target = [...row].find(button => button.dataset.id === record.id) || get('scope-results');
+      target.focus({preventScroll:true}); target.scrollIntoView({block:'nearest', behavior:'auto'});
+    });
+    actions.append(papers, back); detail.append(actions);
     const subjectHits = core.subjects.classify(record);
     if (subjectHits.length) detail.append(element('p', '科目归类：' + subjectHits.map(hit => core.subjects.categories.find(category => category.id === hit.id).label + '（' + hit.term + '）').join('；'), 'scope-subject-evidence'));
     if (record.publicationStatus) detail.append(element('p', publicationLabel(record), 'scope-record-status'));
@@ -165,6 +199,8 @@
       if (state.graduateSchool !== 'all') url.searchParams.set('graduate', state.graduateSchool);
       mapLink.href = 'campus-map.html' + url.search;
     }
+    const papersLink = get('scope-papers-link');
+    papersLink.href = nav.url('past-papers.html', {}, {}, {}, {school:state.universityId === 'all' ? '' : state.universityId, graduate:state.graduateSchool === 'all' ? '' : state.graduateSchool, department:state.department === 'all' ? '' : state.department, from:'scope'});
     updateSubjects();
     const guides = data.catalog?.[state.universityId]?.directionGuides || [];
     get('scope-directions').hidden = !guides.length;
@@ -186,7 +222,7 @@
     document.querySelectorAll('[data-university]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.university === state.universityId)));
     document.querySelectorAll('[data-admission]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.admission === state.admissionType)));
     const school = universities.find(u => u.id === state.universityId)?.name || '全部学校';
-    const admission = state.admissionType === 'general' ? '一般入试' : '留学生入试';
+    const admission = state.admissionType === 'general' ? '一般入试' : '留学生相关选拔';
     get('result-context').textContent = school + ' · ' + admission;
     const matches = core.filter(records, universities, state);
     const matchingSchools = universities.filter(university => matches.some(record => record.universityId === university.id));
@@ -203,6 +239,7 @@
       const button = element('button', undefined, 'scope-result'); button.type = 'button'; button.dataset.id = record.id;
       button.setAttribute('aria-pressed', String(record.id === selectedId));
       button.append(element('span', universities.find(u => u.id === record.universityId).name + ' · ' + record.graduateSchool), element('strong', record.department + (record.course ? ' · ' + record.course : '')), element('span', record.selectionName + ' / ' + record.entryYear));
+      button.append(element('small', '核对：' + record.verifiedAt, 'scope-kicker'));
       if (record.publicationStatus) button.append(element('span', publicationLabel(record, true), 'scope-record-status'));
       else if (record.internationalGeneral && state.admissionType === 'international') button.append(element('span', '一般选拔 · 含海外学历出愿资格', 'scope-route-note'));
       button.addEventListener('click', () => showDetail(record, true)); list.append(button);
@@ -210,6 +247,7 @@
     const selected = matches.find(record => record.id === selectedId);
     if (selected) showDetail(selected, false);
     else { selectedId = null; get('scope-detail').replaceChildren(); get('scope-detail').hidden = true; }
+    nav.write(window, currentURL());
   }
   function setSchool(id) { state.universityId = id; state.graduateSchool = 'all'; state.department = 'all'; state.course = 'all'; state.entryYear = 'all'; render(); }
   document.querySelectorAll('[data-university]').forEach(button => button.addEventListener('click', () => setSchool(button.dataset.university)));
@@ -224,5 +262,6 @@
   get('scope-subject-search').addEventListener('input', searchSubjects);
   function reset() { Object.assign(state, { universityId: 'all', admissionType: 'general', graduateSchool: 'all', department: 'all', course: 'all', entryYear: 'all', query: '', subjectIds: [] }); get('scope-query').value = ''; get('scope-subject-search').value = ''; searchSubjects(); render(); }
   get('scope-reset').addEventListener('click', reset); get('scope-empty-reset').addEventListener('click', reset);
-  render();
+  window.addEventListener?.('popstate', restore);
+  restore();
 })();

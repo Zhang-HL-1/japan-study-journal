@@ -60,7 +60,7 @@ function boot(bank=fixtures,storageValue=null,blockStorage=false) {
   };return app;
 }
 test('empty production state renders waiting page and zero stats without errors',()=>{
-  const a=boot([]);assert.equal(a.ids['stat-attempted'].textContent,'0 / 0');assert.equal(a.ids['question-card'].hidden,true);assert.equal(a.ids['empty-title'].textContent,'题库正在等你。');assert.equal(a.ids['question-map'].hidden,true);assert.equal(a.ids['empty-reset'].hidden,true);
+  const a=boot([]);assert.equal(a.ids['stat-attempted'].textContent,'0 / 0');assert.equal(a.ids['question-card'].hidden,true);assert.equal(a.ids['empty-title'].textContent,'题库正在等你。');assert.equal(a.ids['question-map'].hidden,true);assert.equal(a.ids['empty-reset'].hidden,true);assert.equal(a.ids['list-count'].textContent,'题库筹备中 · 0 题');
 });
 test('choice grading, bookmark, notes, wrong retry and stable wrong list',async()=>{
   const a=boot();await a.submit();assert.match(a.ids.feedback.textContent,/先输入或选择/);
@@ -104,4 +104,8 @@ test('all local page assets and navigation destinations exist; IDs are unique',(
     const html=fs.readFileSync(path.join(root,name),'utf8'); const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length);
     for(const m of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {if(/^(?:https?:|data:|#)/.test(m[1]))continue;assert.ok(fs.existsSync(path.join(root,m[1].split(/[?#]/)[0])),m[1]);}
   }
+});
+
+test('missing question data shows a load failure instead of an endless loading message',()=>{
+ const a=boot(null);assert.equal(a.ids['list-count'].textContent,'题库加载失败');assert.equal(a.ids['empty-state'].hidden,false);assert.equal(a.raw(),null);
 });
