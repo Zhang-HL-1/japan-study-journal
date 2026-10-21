@@ -24,7 +24,7 @@
  function renderDetail(school){
   const detail=get('hub-detail');detail.replaceChildren();
   const back=link('← 返回院校目录',hub(''));back.className='hub-back';detail.append(back);
-  const heading=el('div',undefined,'hub-school-heading');heading.append(el('p','School notebook / 院校资料','eyebrow'),el('h2',school.name));
+  const heading=el('div',undefined,'hub-school-heading');heading.append(el('h2','资料概览'));
   if(school.aliases?.length)heading.append(el('p',school.aliases.join(' · '),'hub-muted'));
   heading.append(el('p',`${school.records} 条考试范围 · ${school.papers} 组过去问 / ${school.pdfs} 个唯一 PDF · ${school.campuses.length} 处校区／研究基地`));detail.append(heading);
   // School.name is a label, not a graduate filter.
@@ -48,6 +48,7 @@
   const school=data.schools.find(s=>s.id===state.school);
   get('hub-picker').value=state.school;
   get('hub-directory').hidden=!!school;get('hub-detail').hidden=!school;get('hub-search-panel').hidden=!!school;
+  get('hub-title').textContent=school?school.name:'先选一所学校，\n把资料放在一起。';
   document.title=school?school.name+'｜院校资料 · 留日手记':'院校资料｜留日手记';
   if(school){renderDetail(school);get('hub-status').textContent='已打开 '+school.name+' 的资料汇总。';return;}
   get('hub-detail').replaceChildren();
