@@ -19,16 +19,17 @@ class Element {
   }
 }
 const root=path.join(__dirname,'..');
-function boot(records=[]) {
+function boot(records=[], search="") {
  const ids={};const html=fs.readFileSync(root+'/exam-scope.html','utf8');
  for(const m of html.matchAll(/<([a-z][a-z0-9]*)\b([^>]*\bid="([^"]+)"[^>]*)>/g)){const e=new Element(m[1]);e.id=m[3];e.dataset={};e.hidden=/\bhidden\b/.test(m[2]);ids[m[3]]=e;}
  const all=new Element('button');all.dataset={university:'all'};ids['school-buttons'].append(all);
  const tabs=['general','international'].map(admission=>{const e=new Element('button');e.dataset={admission};return e;});
  const nodes=()=>[...Object.values(ids),...Object.values(ids).flatMap(e=>e.querySelectorAll('*')),...tabs];
  const doc={getElementById:id=>ids[id],createElement:tag=>{const e=new Element(tag);e.dataset={};e.remove=()=>{};return e;},createTextNode:text=>new Element('text'),querySelectorAll:s=>nodes().filter(e=>s==='[data-university]'?e.dataset?.university:s==='[data-admission]'?e.dataset?.admission:false)};
- const data=require(root+'/exam-scope-data.js');const win={ExamScopeCore:require(root+'/exam-scope-core.js'),EXAM_SCOPE_DATA:{...data,records}};
- vm.runInNewContext(fs.readFileSync(root+'/exam-scope.js','utf8'),{window:win,document:doc,URL,Set,console});
- return {ids,tabs,nodes};
+ const data=require(root+'/exam-scope-data.js');const events={};const location=new URL('https://example.test/journal/exam-scope.html'+search);
+ const win={StudyNavigation:require('../study-navigation.js'),location,history:{replaceState(_s,_t,url){location.href=url;},pushState(_s,_t,url){location.href=url;}},addEventListener(name,fn){events[name]=fn;},ExamScopeCore:require(root+'/exam-scope-core.js'),EXAM_SCOPE_DATA:{...data,records}};
+ vm.runInNewContext(fs.readFileSync(root+'/exam-scope.js','utf8'),{window:win,document:doc,URL,URLSearchParams,Set,console});
+ return {ids,tabs,nodes,win,events};
 }
 const catalog=require('../exam-scope-data.js');
 const school=(a,id)=>a.ids['school-buttons'].children.find(e=>e.dataset.university===id);
@@ -540,4 +541,26 @@ test('Hosei filters preserve engineering course choices, actual source pages and
  a.ids['scope-graduate'].value='デザイン工学研究科';await a.ids['scope-graduate'].fire('change');assert.equal(a.ids['scope-results'].children.length,4);
  const p=a.ids['scope-results'].children.find(e=>e.dataset.id==='hosei-system-design-february-international-pending-2027');await p.click();
  assert.ok(!a.ids['scope-detail'].children.some(e=>e.tag==='h4'&&e.textContent==='考试范围 · 官方原文'));
+});
+
+test('scope links round-trip filters, selected records and browser back',async()=>{
+ const a=boot(catalog.records);await school(a,'keio').click();await a.tabs[1].click();
+ a.ids['scope-field'].value='教育研究分野：電気情報工学';await a.ids['scope-field'].fire('change');
+ const before=a.win.location.search;
+ const row=a.ids['scope-results'].children[0];await row.click();
+ assert.equal(a.win.location.searchParams.get('record'),row.dataset.id);
+ const b=boot(catalog.records,a.win.location.search);
+ assert.equal(b.ids['scope-detail'].hidden,false);
+ assert.equal(b.ids['scope-field'].value,'教育研究分野：電気情報工学');
+ assert.equal(b.win.location.searchParams.get('admission'),'international');
+ const links=b.ids['scope-detail'].querySelectorAll('a');
+ assert.ok(links.some(l=>l.href?.includes('past-papers.html?school=keio')));
+ b.win.location.search=before;b.events.popstate();assert.equal(b.ids['scope-detail'].hidden,true);
+});
+test('invalid scope links are normalized and historical names are explained',()=>{
+ const a=boot(catalog.records,'?school=unknown&admission=bad&subject=bad&record=missing');
+ assert.equal(a.ids['scope-school'].value,'all');assert.equal(a.ids['scope-detail'].hidden,true);
+ assert.equal(a.win.location.search,'');
+ const b=boot(catalog.records,'?school=keio&graduate=旧研究科&department=旧専攻&from=papers');
+ assert.equal(b.ids['scope-context-note'].hidden,false);assert.ok(b.ids['scope-results'].children.length>0);
 });

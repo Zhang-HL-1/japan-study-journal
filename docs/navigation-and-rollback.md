@@ -1,0 +1,36 @@
+# 资料导航改版与回滚
+
+## 改版前备份
+
+- 备份分支：`backup/pre-navigation-redesign-20261021`
+- 完整提交：`3544c55f8c5f561550aadbe1ec1b335ae3e15509`
+- 备份链接：https://github.com/Zhang-HL-1/japan-study-journal/tree/backup/pre-navigation-redesign-20261021
+- 该分支保留改版前源码、数据索引、插画与全部 PDF；创建后不再追加改版提交。
+
+## 本次范围
+
+首页直接进入考试范围、过去问与答案书架，未发布的文章收成预告；保留暖白与手绘视觉。
+考试筛选将学校放在前面，校名快捷列表默认折叠；手机真题学校索引使用搜索加下拉选择。
+考试资料与真题互相带入学校、研究科和专攻。只采用目录中完全一致的名称；改组前后的名称不自动推测对应。
+筛选、资料条目和原卷文件序号进入网址，支持刷新、分享、浏览器返回；不记录或承诺原生 PDF 阅读器内页码。
+刷题入口明确题库筹备状态；加载失败和已加载的空题库分别提示。
+
+## 链接参数
+
+- `exam-scope.html`：school、graduate、department、course、year、admission、q、可重复的 subject、record。
+- `past-papers.html`：school、graduate、department、year、q、paper、file（从0开始）。
+- `from=scope` / `from=papers` 用于首次跨模块进入时解释名称不匹配；不改变官方资料。
+- 无效学校、目录值、条目和文件序号会被校正；不会执行网址参数中的代码。
+
+## 回滚方式
+
+推荐在 GitHub 合并后的改版 PR 页面选择 **Revert**，生成撤销 PR，检查并合并。
+这会撤销本次界面和导航改动，保留之后另行新增的学校资料。不要强制重置主分支。
+若使用 CLI，先更新 main，再对改版的 squash 提交执行 `git revert <改版提交SHA>`；
+若采用 merge commit，执行 `git revert -m 1 <合并提交SHA>`。遇到冲突时保留后续新增资料，核对后继续。
+推送撤销提交后，GitHub Pages 会重新部署，需检查 Actions / Pages 构建成功。
+备份分支可用于比对完整旧版；如需精确恢复整个旧版，应另建恢复分支，并先核对是否会撤回后续新增资料。
+
+## 后续阶段
+
+院校汇总页、最近阅读与收藏、分批加载、个人备考清单作为后续独立改动；本次不修改考试原文、题库内容或 PDF。
