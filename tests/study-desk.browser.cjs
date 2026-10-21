@@ -8,7 +8,7 @@ const {chromium}=require('playwright'),core=require('../study-desk-core.js');con
  try{
   browser=await chromium.launch({headless:true});const origin='http://127.0.0.1:'+server.address().port,errors=[];
   const context=await browser.newContext({viewport:{width:1440,height:1000},acceptDownloads:true}),page=await context.newPage();page.on('pageerror',e=>errors.push(String(e)));
-  const shot=async name=>{if(process.env.STUDY_ROOM_SCREENSHOTS){fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,name+'.png'),fullPage:true,animations:'disabled'});}};
+  const shot=async name=>{if(process.env.STUDY_ROOM_SCREENSHOTS){fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,name+'.png'),fullPage:true,animations:'disabled'});}};
   const scope=require('../exam-scope-data.js').records[0],paper=require('../past-papers-data.js').papers.find(p=>p.files.length>1);
   const scopeURL=origin+'/exam-scope.html?record='+encodeURIComponent(scope.id),paperURL=origin+'/past-papers.html?paper='+encodeURIComponent(paper.id)+'&file=1';
   await page.goto(scopeURL);await page.locator('.desk-favorite').click();assert.equal(await page.locator('.desk-favorite').getAttribute('aria-pressed'),'true');
