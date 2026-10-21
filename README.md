@@ -152,3 +152,5 @@
 首页可直接进入过去问和答案书架。考试与真题详情支持复制直达链接、刷新恢复筛选和跨模块查找；历史专攻名称无法精确匹配时会提示放宽筛选。改版前的完整备份与撤销步骤见 [导航与回滚说明](docs/navigation-and-rollback.md)。
 
 院校资料汇总位于 `schools.html`。更新三份资料目录后运行 `node scripts/build-school-index.cjs` 同步轻量索引；CI 会检查是否遗漏。页面设计、数据口径与第二阶段备份见 [docs/school-hub.md](docs/school-hub.md)。
+
+个人资料收藏与最近阅读位于 `desk.html`，记录保存在当前浏览器，可导出／导入合并。数据规则、限额及第三阶段回滚见 [docs/personal-study-desk.md](docs/personal-study-desk.md)。
