@@ -17,3 +17,10 @@
 .desk-backup { margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line); }.desk-backup h2 { font-size:1.5rem;font-weight:500; }.desk-backup details { margin:1.5rem 0; }.desk-backup summary { cursor:pointer;padding:.6rem 0; }
 .desk-main :focus-visible { outline:2px solid var(--accent);outline-offset:3px; }.desk-main [hidden] { display:none!important; }
 @media(max-width:700px){.desk-main{width:calc(100% - 2rem)}.desk-intro{padding-top:2rem}.desk-filters,.desk-list{grid-template-columns:1fr}.desk-entry>*{flex:1 1 auto;text-align:center}.desk-empty{padding:1.2rem}}
+.github-sync-panel { margin-top:2.5rem;padding:1.5rem;border:1px solid var(--line);border-radius:.85rem;background:#f1f3eb; }
+.github-sync-heading { display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap; }.github-sync-heading h2 { margin:.5rem 0;font-size:1.5rem;line-height:1.5;font-weight:500; }
+#github-sync-badge { padding:.4rem .75rem;border:1px solid #cdd5c5;border-radius:2rem;font-size:.8rem;white-space:nowrap; }
+.github-sync-panel>p { line-height:1.9;font-size:.9rem; }.github-sync-panel details { margin:1.2rem 0; }.github-sync-panel summary { cursor:pointer;padding:.6rem 0;font-size:.85rem; }
+.github-sync-panel form { display:grid;gap:.75rem;margin:1rem 0 0; }.github-sync-panel label { display:grid;gap:.5rem;font-size:.85rem; }.github-sync-panel input { width:100%;min-width:0;min-height:46px;padding:.7rem .8rem;border:1px solid var(--line);border-radius:.5rem;background:#fffefb;color:var(--ink);font:inherit;font-size:1rem; }
+.github-sync-panel .github-sync-help { color:var(--muted);font-size:.8rem;line-height:1.9;margin:.5rem 0; }.github-sync-panel form button { justify-self:start; }.github-sync-actions { margin:1rem 0; }.github-sync-panel .sync-error { color:#9d382b; }.github-sync-panel :disabled { opacity:.5;cursor:default; }
+@media(max-width:700px){.github-sync-panel{padding:1.2rem}.github-sync-panel form button{justify-self:stretch}.github-sync-heading{gap:.5rem}}

@@ -10,6 +10,7 @@ on:
       - 'study-navigation*'
       - 'school-hub*'
       - 'study-desk*'
+      - 'github-sync*'
       - 'scripts/build-school-index.cjs'
       - 'exam-scope*'
       - 'practice.html'
@@ -52,6 +53,7 @@ jobs:
           NODE_PATH: .qa/node_modules
           STUDY_ROOM_SCREENSHOTS: review
         run: |
+          node tests/github-sync.browser.cjs
           node tests/study-room.browser.cjs
           node tests/navigation.browser.cjs
           node tests/school-hub.browser.cjs

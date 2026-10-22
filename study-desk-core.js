@@ -30,20 +30,21 @@
   if([...map.values()].filter(i=>i.favoriteAt).length>MAX_FAVORITES)throw Error('合并后收藏超过 200 条，请先整理收藏');
   return trim({version:1,items:[...map.values()]});
  }
- function create(getStorage,now=Date.now){
+ function create(getStorage,now=Date.now,onChange=()=>{}){
+  function changed(){try{onChange();}catch{}}
   const failure=error=>({ok:false,error:String(error.message||error)});
   function read(){try{const storage=getStorage(),raw=storage.getItem(KEY);if(raw===null)return {ok:true,data:empty()};const data=parse(raw);
    // Migrate the previous favorites + history format once, preserving every favorite.
    if(JSON.parse(raw).items.some(i=>Object.prototype.hasOwnProperty.call(i,'lastOpenedAt')||!i.favoriteAt))storage.setItem(KEY,JSON.stringify(data));
    return {ok:true,data};}catch(error){return failure(error);}}
-  function update(fn){const result=read();if(!result.ok)return result;try{const data=trim(fn(result.data));getStorage().setItem(KEY,JSON.stringify(data));return {ok:true,data};}catch(error){return failure(error);}}
+  function update(fn){const result=read();if(!result.ok)return result;try{const data=trim(fn(result.data));getStorage().setItem(KEY,JSON.stringify(data));changed();return {ok:true,data};}catch(error){return failure(error);}}
   function favorite(value,on){return update(data=>{const clean=item({...value,favoriteAt:0}),old=data.items.find(i=>key(i)===key(clean));
    if(on&&!old?.favoriteAt&&data.items.filter(i=>i.favoriteAt).length>=MAX_FAVORITES)throw Error('收藏已达 200 条，请先整理收藏');
    return {version:1,items:[...data.items.filter(i=>key(i)!==key(clean)),{...clean,...old,favoriteAt:on?(old?.favoriteAt||now()):0}]};
   });}
   function importText(raw){try{const incoming=parse(raw);return update(data=>merge(data,incoming));}catch(error){return failure(error);}}
   function exportText(){try{const raw=getStorage().getItem(KEY);if(raw===null)return {ok:true,text:JSON.stringify(empty())};try{return {ok:true,text:JSON.stringify(parse(raw))};}catch{return {ok:true,text:raw};}}catch(error){return failure(error);}}
-  function clear(){try{getStorage().removeItem(KEY);return {ok:true,data:empty()};}catch(error){return failure(error);}}
+  function clear(){try{getStorage().removeItem(KEY);changed();return {ok:true,data:empty()};}catch(error){return failure(error);}}
   return {read,favorite,importText,exportText,clear};
  }
  const api={KEY,MAX_FAVORITES,MAX_BYTES,key,parse,href,merge,create};
