@@ -22,6 +22,9 @@
   border: 1px solid var(--line); border-radius: .5rem; padding: .65rem .85rem;
   min-height: 44px; text-decoration: none; cursor: pointer; overflow-wrap: anywhere;
 }
+.study-detail-actions button.paper-set-complete.is-complete {
+  color: var(--ink); background: var(--paper-deep); border-color: var(--ink);
+}
 .study-detail-actions span { flex-basis: 100%; color: var(--muted); font-size: .85rem; }
 .study-detail-actions :focus-visible, .school-shortcuts summary:focus-visible {
   outline: 2px solid var(--accent); outline-offset: 3px;

@@ -65,6 +65,10 @@
   }
   const subjectsOf = q => Array.isArray(q.subjects) && q.subjects.length ? q.subjects : [q.subject];
   const isDone = (q, r = {}) => q.type === 'paper' ? r.completed === true : r.attempts > 0;
+  function paperSetForCatalog(catalogId, bank) {
+    if (typeof catalogId !== 'string' || !catalogId || !Array.isArray(bank)) return null;
+    return bank.find(q => q && q.type === 'paper' && q.paper && q.paper.catalogId === catalogId) || null;
+  }
   function filterQuestions(bank, filters, records) {
     const search = (filters.search || '').trim().toLowerCase();
     return bank.filter(q => {
@@ -103,7 +107,7 @@
     const correct = list.filter(r => r.attempts > 0 && r.correct === true).length;
     return { total: bank.length, attempted, correct, wrong: list.filter(r => r.correct === false).length, bookmarked: list.filter(r => r.bookmarked).length, accuracy: graded ? Math.round(correct/graded*100) : 0 };
   }
-  const api = { subjectsOf, isDone, recordPaperCompletion, provenance, sourceLabel, sourceMatches, blank, cleanState, parseNumber, grade, filterQuestions, shuffle, recordResult, stats };
+  const api = { subjectsOf, isDone, paperSetForCatalog, recordPaperCompletion, provenance, sourceLabel, sourceMatches, blank, cleanState, parseNumber, grade, filterQuestions, shuffle, recordResult, stats };
   root.QuizCore = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);
