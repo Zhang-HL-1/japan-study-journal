@@ -142,19 +142,15 @@ test('whole paper reader preserves sources and completion without grading or ans
  await b.ids['reset-filters'].click();await b.ids['complete-paper'].click();assert.equal(b.state().records[q.id].completed,false);
 });
 
-test('question card shows one question image without extracted text or an iframe',async()=>{
+test('question card shows extracted text and figure without the answer form or an iframe',async()=>{
  const q=require('../tus-2025-eei-card-data.js').find(item=>item.id==='card:tus-2025-eei:electronics:2');
  const a=boot([q]);
  assert.equal(a.ids['card-practice'].hidden,false);
  assert.equal(a.ids['paper-practice'].hidden,true);
  assert.equal(a.ids['answer-form'].hidden,true);
  assert.equal(a.ids['practice-paper-reader'].children.length,0);
- assert.equal(a.ids['card-body'].querySelectorAll('.card-text').length,0);
- assert.equal(a.ids['card-body'].querySelector('.card-zoom').tag,'button');
- const img=a.ids['card-body'].querySelector('img');
- assert.equal(img.getAttribute('src'),q.image);
- assert.match(img.getAttribute('alt'),/図2に示す回路/);
- assert.equal(a.ids['card-body'].textContent.includes('図2に示す回路'),false);
+ assert.match(a.ids['card-body'].children.map(el=>el.textContent).join('\n'),/図2に示す回路/);
+ assert.equal(a.ids['card-body'].querySelector('img').getAttribute('src'),q.blocks.find(block=>block.type==='figure').src);
  assert.match(a.ids['card-actions'].children.map(el=>el.textContent).join(' '),/打开原卷/);
  assert.equal(a.ids['stat-accuracy'].textContent,'—');
  await a.ids['complete-card'].click();

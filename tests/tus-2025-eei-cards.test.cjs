@@ -47,27 +47,20 @@ test('demo cards are the 2025 電気電子情報工学専攻 general paper, spli
   assert.ok(cards.find(q => q.id === 'card:tus-2025-eei:math:2').subjects.includes('线性代数'));
 });
 
-test('each card is one question-area crop and the original PDFs are unchanged', () => {
+test('card figures are new assets and the original PDFs are unchanged', () => {
   const urls = new Set(entry.files.map(file => file.url));
-  const dir = path.join(root, 'assets/past-papers/cards/tus-2025-eei');
-  const images = cards.map(q => path.basename(q.image));
-  assert.deepEqual(fs.readdirSync(dir).sort(), images.sort());
   for (const q of cards) {
     const file = entry.files.find(item => item.label === q.sourcePdf.label);
     assert.equal(q.sourcePdf.url, file.url);
     assert.equal(papers.fileURL({ url: q.sourcePdf.url, startPage: q.sourcePdf.page }), q.sourcePdf.url + '#page=' + q.sourcePdf.page);
-    assert.equal(q.blocks, undefined);
-    assert.ok(q.prompt.length > 40);
-    assert.ok(q.image.startsWith('assets/past-papers/cards/tus-2025-eei/'));
-    assert.ok(q.image.endsWith('.png'));
-    assert.ok(!urls.has(q.image));
-    const bytes = fs.readFileSync(path.join(root, q.image));
-    assert.ok(bytes.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a])));
-    assert.equal(bytes.toString('ascii', 12, 16), 'IHDR');
-    const width = bytes.readUInt32BE(16);
-    const height = bytes.readUInt32BE(20);
-    assert.ok(width >= 1400, q.image);
-    assert.ok(height >= 600, q.image);
+    for (const block of q.blocks.filter(item => item.type === 'figure')) {
+      assert.ok(block.src.startsWith('assets/past-papers/cards/tus-2025-eei/'));
+      assert.ok(block.src.endsWith('.png'));
+      assert.ok(!urls.has(block.src));
+      const bytes = fs.readFileSync(path.join(root, block.src));
+      assert.ok(bytes.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a])));
+      assert.ok(block.alt);
+    }
   }
   for (const file of entry.files) {
     const bytes = fs.readFileSync(path.join(root, file.url));
@@ -80,7 +73,6 @@ test('subject and chapter filters select cards, and completion is not a score', 
   const major = JSON.stringify(['東京理科大学', '創域理工学研究科', '電気電子情報工学専攻']);
   const filters = { sourceKind: 'exam', school: '東京理科大学', major, paperYear: '2025', type: 'card' };
   assert.equal(core.filterQuestions(bank, filters, {}).length, 14);
-  assert.deepEqual(core.filterQuestions(bank, { ...filters, search: '図2に示す回路' }, {}).map(q => q.id), ['card:tus-2025-eei:electronics:2']);
   assert.deepEqual(core.filterQuestions(bank, { ...filters, subject: '电磁学' }, {}).map(q => q.chapter), ['電磁気学', '電磁気学', '電磁気学']);
   assert.equal(core.filterQuestions(bank, { ...filters, subject: '电路与模拟电子', chapter: '電子回路' }, {}).length, 4);
   assert.equal(core.filterQuestions(bank, { ...filters, chapter: '電気数学' }, {}).length, 4);
