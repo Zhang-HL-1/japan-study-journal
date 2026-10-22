@@ -25,6 +25,10 @@ on:
       - 'scripts/build-paper-practice.cjs'
       - 'practice.css'
       - 'practice*.js'
+      - 'progress-sync.js'
+      - 'github-sync.js'
+      - 'github-sync-ui.js'
+      - 'github-sync.css'
       - 'assets/past-papers*'
       - 'assets/drill-practice*'
       - 'tests/**'
@@ -61,6 +65,7 @@ jobs:
           node tests/navigation.browser.cjs
           node tests/school-hub.browser.cjs
           node tests/study-desk.browser.cjs
+          node tests/github-sync.browser.cjs
       - name: Save desktop and mobile screenshots
         if: always()
         uses: actions/upload-artifact@v4

@@ -33,7 +33,8 @@
   const file=get('desk-file').files[0];if(!file)return;
   try{if(file.size>core.MAX_BYTES)throw Error('文件超过 1 MB');const result=store.importText(await file.text());if(result.ok)render();report(result,'备份已合并，相同资料只保留一条；现有收藏不会被删除。');}catch(error){report({ok:false,error:error.message});}finally{get('desk-file').value='';}
  });
- get('desk-clear-all').addEventListener('click',()=>{if(!window.confirm('清空本浏览器的全部书桌收藏？建议先导出备份。刷题记录不受影响。'))return;const result=store.clear();if(result.ok)render();report(result,'书桌已清空，刷题记录未改动。');});
+ get('desk-clear-all').addEventListener('click',()=>{const synced=window.JapanGithubSync&&window.JapanGithubSync.getGithubSyncSnapshot().connected;if(!window.confirm('清空本浏览器的全部书桌收藏？建议先导出备份。刷题记录不受影响。'+(synced?'其他设备上仍在的收藏会在下次同步合并回来。':'')))return;const result=store.clear();if(result.ok)render();report(result,'书桌已清空，刷题记录未改动。'+(synced?'其他设备上仍在的收藏会在下次同步合并回来。':''));});
  window.addEventListener('storage',event=>{if(event.key===core.KEY||event.key===null){render();const r=store.read();if(r.ok)report(r,'书桌已与其他标签页同步。');}});
+ window.addEventListener('japan-study-journal:synced',()=>{render();const result=store.read();if(result.ok)report(result,'书桌已与同步结果合并。');});
  render();
 })();

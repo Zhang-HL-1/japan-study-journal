@@ -16,5 +16,6 @@
   group.append(button,link,note);active={button,status:note,entry};return group;
  }
  window.addEventListener('storage',event=>{if(event.key===core.KEY||event.key===null)refresh();});
+ window.addEventListener('japan-study-journal:synced',refresh);
  window.StudyDeskControls={attach};
 })();

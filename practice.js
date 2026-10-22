@@ -16,7 +16,7 @@
   const defaults = { sourceKind: 'all', school: 'all', major: 'all', book: 'all', paperYear: 'all', subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '' };
   const typeNames = { paper: '原卷练习 · 不判分', choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
   let state = core.blank(), list = [], index = 0, locked = false, exposed = false;
-  let storageFailed = false, preserveUnreadable = false, searchTimer;
+  let storageFailed = false, preserveUnreadable = false, suppressSave = false, replaceRecords = false, searchTimer;
   const localDay = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
   function storageMessage(message, warning = false) { $('storage-status').textContent = message; $('storage-status').classList.toggle('is-warning', warning); }
   try {
@@ -28,9 +28,37 @@
     storageMessage('无法读取浏览器记录。本次可继续练习，请导出记录备份；原记录未主动删除。', true);
   }
   function save() {
-    if (preserveUnreadable) return;
-    try { localStorage.setItem(key, JSON.stringify(state)); storageFailed = false; }
+    if (preserveUnreadable || suppressSave) return;
+    try {
+      const previous = replaceRecords ? null : JSON.parse(localStorage.getItem(key) || 'null');
+      const next = window.ProgressSync ? window.ProgressSync.projectPractice(previous, state, bank) : state;
+      const text = JSON.stringify(next);
+      if (localStorage.getItem(key) === text) return;
+      localStorage.setItem(key, text); storageFailed = false;
+    }
     catch (e) { storageFailed = true; storageMessage('浏览器无法保存记录（可能禁用了存储或空间已满）。请导出记录，避免刷新后丢失。', true); }
+  }
+  function touchFilters() { state.filtersUpdatedAt = Date.now(); }
+  function applyFilterControls() {
+    state.filters = { ...defaults, ...state.filters };
+    for (const id of ['sourceKind','paperYear','subject','difficulty','type','order']) {
+      if (![...$(id).options].some(o => o.value === state.filters[id])) state.filters[id] = defaults[id];
+      $(id).value = state.filters[id];
+    }
+    if (!['all','wrong','unanswered','bookmarked'].includes(state.filters.scope)) state.filters.scope = 'all';
+    updateSources();
+    $('search').value = state.filters.search || '';
+    updateChapters();
+  }
+  function reloadFromSync() {
+    if (preserveUnreadable) return;
+    let parsed;
+    try { parsed = JSON.parse(localStorage.getItem(key) || 'null'); } catch { return; }
+    if (!parsed) return;
+    suppressSave = true;
+    try { state = core.cleanState(parsed, bank); applyFilterControls(); rebuild(true); }
+    catch { /* 同步结果无法读取时保留当前页面。 */ }
+    finally { suppressSave = false; }
   }
   function option(select, value, label) { const el = document.createElement('option'); el.value = value; el.textContent = label; select.append(el); }
   [...new Set([...(window.QUESTION_SUBJECTS || []), ...bank.flatMap(core.subjectsOf)])].forEach(s => option($('subject'), s, s));
@@ -56,15 +84,7 @@
     $('book-filters').hidden = !['all', 'workbook'].includes(state.filters.sourceKind);
   }
   [...new Set(bank.filter(q => q.paper).map(q => String(q.paper.year)))].sort((a,b) => Number(b)-Number(a)).forEach(y => option($('paperYear'), y, y));
-  state.filters = { ...defaults, ...state.filters };
-  for (const id of ['sourceKind','paperYear','subject','difficulty','type','order']) {
-    if (![...$(id).options].some(o => o.value === state.filters[id])) state.filters[id] = defaults[id];
-    $(id).value = state.filters[id];
-  }
-  if (!['all','wrong','unanswered','bookmarked'].includes(state.filters.scope)) state.filters.scope = 'all';
-  updateSources();
-  $('search').value = state.filters.search;
-  updateChapters();
+  applyFilterControls();
   function record(q) { return state.records[q.id] || {}; }
   function current() { return list[index]; }
   function setFeedback(text, kind = '') { const el = $('feedback'); el.hidden = false; el.textContent = text; el.className = 'feedback' + (kind ? ` is-${kind}` : ''); }
@@ -103,7 +123,9 @@
   }
   function navigate(i) {
     if (i < 0 || i >= list.length) return;
-    index = i; render();
+    index = i;
+    if (list[i] && state.current !== list[i].id) state.positionUpdatedAt = Date.now();
+    render();
     $('question-card').focus({ preventScroll: true });
     $('question-card').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
   }
@@ -247,19 +269,19 @@
   $('retry').addEventListener('click', () => { render(true); document.querySelector('#answer-inputs input, #answer-inputs textarea')?.focus(); });
   $('bookmark').addEventListener('click', () => {
     const q = current(); if (!q) return;
-    const r = record(q); state.records[q.id] = { ...r, bookmarked: !r.bookmarked };
+    const r = record(q); state.records[q.id] = { ...r, bookmarked: !r.bookmarked, bookmarkAt: Date.now() };
     $('bookmark').setAttribute('aria-pressed', String(!r.bookmarked)); $('bookmark').textContent = r.bookmarked ? '☆ 收藏' : '★ 已收藏'; refreshStats(); save();
   });
   $('answer-inputs').addEventListener('input', () => {
     const q = current(); if (!q || locked) return;
     const r = record(q), answer = getAnswer(); state.records[q.id] = { ...r, draft: answer === null ? '' : String(answer) }; save();
   });
-  $('question-note').addEventListener('input', () => { const q = current(); if (!q) return; state.records[q.id] = { ...record(q), note: $('question-note').value }; save(); });
+  $('question-note').addEventListener('input', () => { const q = current(); if (!q) return; state.records[q.id] = { ...record(q), note: $('question-note').value, noteAt: Date.now() }; save(); });
   $('previous').addEventListener('click', () => navigate(index-1)); $('next').addEventListener('click', () => navigate(index+1));
-  for (const id of ['sourceKind','school','major','book','paperYear','subject','chapter','difficulty','type','order']) $(id).addEventListener('change', () => { state.filters[id] = $(id).value; if (id === 'school') state.filters.major = 'all'; if (id === 'sourceKind') { state.filters.school = 'all'; state.filters.major = 'all'; state.filters.book = 'all'; } updateSources(); if (id === 'subject') { state.filters.chapter = 'all'; updateChapters(); } rebuild(); });
-  $('search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { state.filters.search = $('search').value; rebuild(); }, 200); });
-  document.querySelectorAll('[data-scope]').forEach(b => b.addEventListener('click', () => { state.filters.scope = b.dataset.scope; rebuild(); }));
-  function resetFilters() { clearTimeout(searchTimer); state.filters = { ...defaults }; ['sourceKind','paperYear','subject','difficulty','type','order','search'].forEach(id => $(id).value = state.filters[id]); updateSources(); updateChapters(); rebuild(); }
+  for (const id of ['sourceKind','school','major','book','paperYear','subject','chapter','difficulty','type','order']) $(id).addEventListener('change', () => { state.filters[id] = $(id).value; if (id === 'school') state.filters.major = 'all'; if (id === 'sourceKind') { state.filters.school = 'all'; state.filters.major = 'all'; state.filters.book = 'all'; } touchFilters(); updateSources(); if (id === 'subject') { state.filters.chapter = 'all'; updateChapters(); } rebuild(); });
+  $('search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { state.filters.search = $('search').value; touchFilters(); rebuild(); }, 200); });
+  document.querySelectorAll('[data-scope]').forEach(b => b.addEventListener('click', () => { state.filters.scope = b.dataset.scope; touchFilters(); rebuild(); }));
+  function resetFilters() { clearTimeout(searchTimer); state.filters = { ...defaults }; touchFilters(); ['sourceKind','paperYear','subject','difficulty','type','order','search'].forEach(id => $(id).value = state.filters[id]); updateSources(); updateChapters(); rebuild(); }
   $('reset-filters').addEventListener('click',resetFilters); $('empty-reset').addEventListener('click',resetFilters);
   $('refresh-list').addEventListener('click', () => rebuild());
   $('export-progress').addEventListener('click', () => {
@@ -274,10 +296,15 @@
     try {
       if (file.size > 2*1024*1024) throw new Error('文件过大，请选择本网站导出的 JSON 记录（不超过 2 MB）。');
       const imported = core.cleanState(JSON.parse(await file.text()),bank);
-      if (!confirm('导入会替换当前浏览器的练习记录和笔记。建议先导出备份。确定继续吗？')) return;
-      state = imported; preserveUnreadable = false; state.filters = { ...defaults }; resetFilters();
+      const synced = window.JapanGithubSync && window.JapanGithubSync.getGithubSyncSnapshot().connected;
+      if (!confirm('导入会替换当前浏览器的练习记录和笔记。建议先导出备份。' + (synced ? '其他设备上的记录会在下次同步合并回来，不会被这份备份删掉。' : '') + '确定继续吗？')) return;
+      state = imported; preserveUnreadable = false; state.filters = { ...defaults }; replaceRecords = true; try { resetFilters(); } finally { replaceRecords = false; }
       if (!storageFailed) storageMessage('记录导入成功。作答、错题、收藏和笔记已恢复。');
     } catch (e) { storageMessage(`导入失败：${e instanceof SyntaxError ? 'JSON 格式无效。' : e.message} 当前记录未改变。`,true); }
   });
+  if (typeof window.addEventListener === 'function') {
+    window.addEventListener('japan-study-journal:synced', reloadFromSync);
+    window.addEventListener('storage', event => { if (event.key === key) reloadFromSync(); });
+  }
   rebuild(true);
 })();
