@@ -16,7 +16,7 @@
       if (Number.isSafeInteger(v.noteAt) && v.noteAt > 0 && v.noteAt <= 8640000000000000) record.noteAt = v.noteAt;
       state.records[q.id] = record;
     }
-    for (const q of bank.filter(q => q.type === 'paper' || q.type === 'card')) {
+    for (const q of bank.filter(q => q.type === 'paper')) {
       const r = state.records[q.id];
       if (r) { r.completed = value.records[q.id].completed === true; r.correct = null; r.attempts = 0; r.wrongCount = 0; }
     }
@@ -64,8 +64,7 @@
     return true;
   }
   const subjectsOf = q => Array.isArray(q.subjects) && q.subjects.length ? q.subjects : [q.subject];
-  const isUngraded = q => q.type === 'paper' || q.type === 'card';
-  const isDone = (q, r = {}) => isUngraded(q) ? r.completed === true : r.attempts > 0;
+  const isDone = (q, r = {}) => q.type === 'paper' ? r.completed === true : r.attempts > 0;
   function filterQuestions(bank, filters, records) {
     const search = (filters.search || '').trim().toLowerCase();
     return bank.filter(q => {
@@ -100,11 +99,11 @@
   function stats(bank, state) {
     const list = bank.map(q => state.records[q.id] || {});
     const attempted = bank.filter(q => isDone(q, state.records[q.id])).length;
-    const graded = bank.filter(q => q.type !== 'paper' && q.type !== 'card' && state.records[q.id]?.attempts > 0).length;
+    const graded = bank.filter(q => q.type !== 'paper' && state.records[q.id]?.attempts > 0).length;
     const correct = list.filter(r => r.attempts > 0 && r.correct === true).length;
     return { total: bank.length, attempted, correct, wrong: list.filter(r => r.correct === false).length, bookmarked: list.filter(r => r.bookmarked).length, accuracy: graded ? Math.round(correct/graded*100) : 0 };
   }
-  const api = { subjectsOf, isDone, isUngraded, recordPaperCompletion, provenance, sourceLabel, sourceMatches, blank, cleanState, parseNumber, grade, filterQuestions, shuffle, recordResult, stats };
+  const api = { subjectsOf, isDone, recordPaperCompletion, provenance, sourceLabel, sourceMatches, blank, cleanState, parseNumber, grade, filterQuestions, shuffle, recordResult, stats };
   root.QuizCore = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

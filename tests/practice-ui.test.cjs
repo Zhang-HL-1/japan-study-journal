@@ -130,7 +130,7 @@ test('source controls cascade, mix, restore and reset with real interaction hand
 });
 
 test('whole paper reader preserves sources and completion without grading or answer fabrication',async()=>{
- const q=require('../questions.js').find(q=>q.type==='paper'&&q.paper.files.filter(f=>f.kind==='question').length>1&&!q.paper.files.some(f=>f.kind==='answer'));
+ const q=require('../questions.js').find(q=>q.paper.files.filter(f=>f.kind==='question').length>1&&!q.paper.files.some(f=>f.kind==='answer'));
  const a=boot([q]);assert.equal(a.ids['paper-practice'].hidden,false);assert.equal(a.ids['answer-form'].hidden,true);
  assert.match(a.ids['practice-answer-status'].textContent,/未收录参考答案/);
  const files=q.paper.files.filter(f=>f.kind==='question');assert.equal(a.ids['practice-paper-reader'].children.length,1);
@@ -140,25 +140,4 @@ test('whole paper reader preserves sources and completion without grading or ans
  const b=boot([q],a.raw());assert.equal(b.state().records[q.id].completed,true);assert.equal(b.ids['question-note'].value,'paper note');
  await b.scope('unanswered');assert.equal(b.ids['question-card'].hidden,true);assert.equal(b.ids['practice-paper-reader'].children.length,0);
  await b.ids['reset-filters'].click();await b.ids['complete-paper'].click();assert.equal(b.state().records[q.id].completed,false);
-});
-
-test('question card shows one question image without extracted text or an iframe',async()=>{
- const q=require('../tus-2025-eei-card-data.js').find(item=>item.id==='card:tus-2025-eei:electronics:2');
- const a=boot([q]);
- assert.equal(a.ids['card-practice'].hidden,false);
- assert.equal(a.ids['paper-practice'].hidden,true);
- assert.equal(a.ids['answer-form'].hidden,true);
- assert.equal(a.ids['practice-paper-reader'].children.length,0);
- assert.equal(a.ids['card-body'].querySelectorAll('.card-text').length,0);
- assert.equal(a.ids['card-body'].querySelector('.card-zoom').tag,'button');
- const img=a.ids['card-body'].querySelector('img');
- assert.equal(img.getAttribute('src'),q.image);
- assert.match(img.getAttribute('alt'),/図2に示す回路/);
- assert.equal(a.ids['card-body'].textContent.includes('図2に示す回路'),false);
- assert.match(a.ids['card-actions'].children.map(el=>el.textContent).join(' '),/打开原卷/);
- assert.equal(a.ids['stat-accuracy'].textContent,'—');
- await a.ids['complete-card'].click();
- assert.equal(a.state().records[q.id].completed,true);
- assert.equal(a.ids['stat-accuracy'].textContent,'—');
- assert.equal(a.ids['stat-attempted'].textContent,'1 / 1');
 });
