@@ -1,0 +1,45 @@
+/* School shortcuts and filters follow the exam-scope page's visual hierarchy. */
+.papers-shortcuts { margin:0 0 1.5rem; border-block:1px solid var(--line); }
+.papers-shortcuts summary { padding:1rem .2rem; font-size:.85rem; color:var(--muted); cursor:pointer; }
+.papers-shortcuts[open] summary { color:var(--ink); }
+.paper-school-search { display:grid; gap:.45rem; max-width:26rem; margin:.5rem 0 1rem; }
+.paper-school-search label { font-size:.75rem; color:var(--muted); }
+.paper-school-search input { width:100%; min-width:0; min-height:44px; padding:.7rem .85rem; border:1px solid var(--line); border-radius:.5rem; background:#fffefb; color:var(--ink); font:inherit; font-size:.85rem; }
+.papers-shortcuts .paper-schools-list { display:flex; flex-wrap:wrap; gap:.5rem; max-height:none; overflow:visible; padding:0 0 1.2rem; }
+.papers-shortcuts .paper-school { width:auto; min-height:44px; display:inline-flex; justify-content:center; padding:.65rem .9rem; border:1px solid var(--line); border-radius:2rem; color:var(--ink); background:transparent; font:inherit; font-size:.79rem; line-height:1.5; box-shadow:none; }
+.papers-shortcuts .paper-school:hover { border-color:#aaa697; background:#f0eee6; }
+.papers-shortcuts .paper-school[aria-pressed="true"] { background:#343930; border-color:#343930; color:#faf9f5; }
+.papers-shortcuts .paper-schools-list>p { flex-basis:100%; margin:0; padding:.5rem 0; }
+.papers-main .papers-layout { grid-template-columns:264px minmax(0,1fr); gap:1.75rem; align-items:start; }
+.paper-filter-panel { min-width:0; padding:1.3rem; border:1px solid #e3dfd5; border-radius:.85rem; background:#f3f1eb; font-family:system-ui,sans-serif; }
+.paper-filter-heading { display:flex; align-items:center; justify-content:space-between; gap:.75rem; margin-bottom:1.15rem; }
+.paper-filter-heading h2 { font:500 .95rem/1.5 system-ui,sans-serif; margin:0; }
+.paper-filter-heading button { border:0; background:transparent; color:var(--accent); padding:.5rem 0 .5rem .5rem; min-height:44px; font:inherit; font-size:.78rem; cursor:pointer; }
+.paper-filter-panel .papers-filters { display:grid; grid-template-columns:minmax(0,1fr); gap:1rem; margin:0; }
+.paper-filter-panel .papers-filters label { display:grid; gap:.45rem; font-size:.76rem; font-weight:500; color:var(--ink); }
+.paper-filter-panel .papers-filters :is(select,input) { width:100%; min-width:0; min-height:46px; margin:0; padding:.65rem .75rem; border:1px solid var(--line); border-radius:.5rem; background:#fffefb; color:var(--ink); font:inherit; font-size:.82rem; }
+.paper-filter-panel .papers-filters select:disabled { color:var(--muted); background:#eeece5; }
+.paper-school-hub-link { display:block; margin-top:1.3rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--accent); font-size:.76rem; line-height:1.8; text-decoration:none; }
+.paper-school-hub-link:hover { text-decoration:underline; text-underline-offset:3px; }
+.papers-workspace .papers-toolbar { align-items:baseline; flex-wrap:wrap; gap:.5rem 1rem; padding:.25rem 0 1rem; margin:0 0 .5rem; border-bottom:1px solid var(--line); }
+.papers-workspace .papers-toolbar h2 { font-size:1.5rem; line-height:1.5; }
+.papers-toolbar #paper-results-count { font-size:.78rem; line-height:1.7; color:var(--muted); margin:0; }
+.paper-catalog-note { margin:0 0 1rem; border-bottom:1px solid var(--line); }
+.paper-catalog-note[hidden] { display:none; }
+.paper-catalog-note summary { padding:.65rem 0; font-size:.78rem; color:var(--muted); cursor:pointer; }
+.paper-catalog-note #paper-school-note { margin:.5rem 0 1rem; }
+.paper-catalog-note summary:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.papers-workspace .paper-results { gap:.8rem; }
+.papers-main :is(.paper-filter-panel,.papers-shortcuts) :focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+@media(max-width:1000px) and (min-width:761px) {
+ .papers-main .papers-layout { grid-template-columns:240px minmax(0,1fr); gap:1.25rem; }
+ .paper-filter-panel { padding:1.1rem; }
+}
+@media(max-width:760px) {
+ .papers-main .papers-layout { grid-template-columns:minmax(0,1fr); gap:1.5rem; }
+ .paper-filter-panel { padding:1.2rem; }
+ .paper-filter-panel .papers-filters :is(select,input),.paper-school-search input { font-size:1rem; }
+ .papers-shortcuts .paper-school { font-size:.8rem; padding:.6rem .85rem; }
+ .papers-shortcuts { margin-bottom:1rem; }
+ .papers-heading .papers-total span { display:block; margin-top:.25rem; }
+}
