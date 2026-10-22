@@ -21,6 +21,9 @@ on:
       - 'script.js'
       - 'campus-map-data.js'
       - 'questions.js'
+      - 'paper-practice-data.js'
+      - 'scripts/build-paper-practice.cjs'
+      - 'practice.css'
       - 'practice*.js'
       - 'assets/past-papers*'
       - 'assets/drill-practice*'
@@ -42,6 +45,7 @@ jobs:
       - name: Catalog and interaction unit checks
         run: |
           node scripts/build-school-index.cjs --check
+          node scripts/build-paper-practice.cjs --check
           node --test --test-reporter=dot tests/*.test.cjs
       - name: Install isolated browser test dependencies
         run: |
@@ -52,6 +56,7 @@ jobs:
           NODE_PATH: .qa/node_modules
           STUDY_ROOM_SCREENSHOTS: review
         run: |
+          node tests/paper-practice.browser.cjs
           node tests/study-room.browser.cjs
           node tests/navigation.browser.cjs
           node tests/school-hub.browser.cjs

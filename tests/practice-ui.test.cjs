@@ -48,7 +48,7 @@ function boot(bank=fixtures,storageValue=null,blockStorage=false) {
       if(selector==='#answer-inputs input, #answer-inputs textarea')return ids['answer-inputs'].querySelectorAll('*').filter(e=>e.tag==='input'||e.tag==='textarea');
       return descendants().filter(e=>e.tag===selector);
     }};
-  const context={window:{QUESTION_BANK:bank,QUESTION_SUBJECTS:['S1','S2']},document,localStorage:{getItem:()=>stored,setItem:(k,v)=>{if(blockStorage)throw Error('blocked');stored=v;}},Date,Blob,URL:{createObjectURL:blob=>{blobs.push(blob);return 'blob:test';},revokeObjectURL(){}},console,confirm:()=>true,matchMedia:()=>({matches:true}),setTimeout:f=>{timers.push(f);return timers.length;},clearTimeout:i=>{timers[i-1]=null;}};
+  const context={window:{PastPapersCore:require('../past-papers-core.js'),QUESTION_BANK:bank,QUESTION_SUBJECTS:['S1','S2']},document,localStorage:{getItem:()=>stored,setItem:(k,v)=>{if(blockStorage)throw Error('blocked');stored=v;}},Date,Blob,URLSearchParams,URL:{createObjectURL:blob=>{blobs.push(blob);return 'blob:test';},revokeObjectURL(){}},console,confirm:()=>true,matchMedia:()=>({matches:true}),setTimeout:f=>{timers.push(f);return timers.length;},clearTimeout:i=>{timers[i-1]=null;}};
   vm.createContext(context); for(const file of ['practice-core.js','practice.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
   const app={ids,scopes,blobs,state:()=>stored?JSON.parse(stored):null,raw:()=>stored,
     async change(id,value){ids[id].value=value;await ids[id].fire('change');},
@@ -127,4 +127,17 @@ test('source controls cascade, mix, restore and reset with real interaction hand
  await a.change('school','A');await a.change('book','Book');assert.equal(a.ids['question-grid'].children.length,2);
  await a.change('sourceKind','workbook');assert.equal(a.ids['exam-filters'].hidden,true);assert.equal(a.ids['question-grid'].children.length,1);
  await a.ids['reset-filters'].click();assert.equal(a.ids.sourceKind.value,'all');assert.equal(a.ids['question-grid'].children.length,3);
+});
+
+test('whole paper reader preserves sources and completion without grading or answer fabrication',async()=>{
+ const q=require('../questions.js').find(q=>q.paper.files.filter(f=>f.kind==='question').length>1&&!q.paper.files.some(f=>f.kind==='answer'));
+ const a=boot([q]);assert.equal(a.ids['paper-practice'].hidden,false);assert.equal(a.ids['answer-form'].hidden,true);
+ assert.match(a.ids['practice-answer-status'].textContent,/未收录参考答案/);
+ const files=q.paper.files.filter(f=>f.kind==='question');assert.equal(a.ids['practice-paper-reader'].children.length,1);
+ await a.ids['practice-paper-files'].children[1].click();assert.equal(a.ids['practice-paper-reader'].children[0].src,require('../past-papers-core.js').fileURL(files[1]));
+ await a.input('question-note','paper note');await a.ids.bookmark.click();await a.ids['complete-paper'].click();
+ assert.equal(a.state().records[q.id].completed,true);assert.equal(a.ids['stat-accuracy'].textContent,'—');assert.equal(a.ids['stat-attempted'].textContent,'1 / 1');
+ const b=boot([q],a.raw());assert.equal(b.state().records[q.id].completed,true);assert.equal(b.ids['question-note'].value,'paper note');
+ await b.scope('unanswered');assert.equal(b.ids['question-card'].hidden,true);assert.equal(b.ids['practice-paper-reader'].children.length,0);
+ await b.ids['reset-filters'].click();await b.ids['complete-paper'].click();assert.equal(b.state().records[q.id].completed,false);
 });
