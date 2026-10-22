@@ -6,7 +6,7 @@ function observe(storage,device='device-one',base=model.empty(),now=100){return 
 function cloud(){
  const id='a'.repeat(32),calls=[];let exists=false,content=model.serialize(model.empty()),publicGist=false,status=200,hold=null;
  const payload=()=>({id,public:publicGist,owner:{login:'learner'},files:{[sync.FILE]:{content}},html_url:'https://gist.github.com/'+id});
- const fetch=async(url,init={})=>{const u=new URL(url),method=init.method||'GET';calls.push({url,method,headers:init.headers,body:init.body});assert.equal(u.origin,'https://api.github.com');
+ const fetch=async(url,init={})=>{const u=new URL(url),method=init.method||'GET';calls.push({url,method,headers:init.headers,body:init.body,signal:init.signal});assert.equal(u.origin,'https://api.github.com');
   if(status!==200)return {ok:false,status,json:async()=>({})};
   if(hold&&u.pathname==='/gists/'+id&&method==='GET')await hold();
   let value;
@@ -71,7 +71,7 @@ test('unconfigured browsing has no requests or sync writes; filter-only changes 
 });
 test('disconnect during an in-flight read prevents applying or uploading its response',async()=>{
  const remote=cloud(),a=device(remote);await a.engine.connect('fake-token','');let release,entered;const started=new Promise(r=>entered=r),gate=new Promise(r=>release=r);remote.hold=()=>{entered();return gate;};
- const before=a.storage.getItem(desk.KEY),patches=remote.calls.filter(c=>c.method==='PATCH').length,pending=a.engine.syncNow();await started;a.engine.disconnect();release();await pending;assert.equal(a.storage.getItem(desk.KEY),before);assert.equal(remote.calls.filter(c=>c.method==='PATCH').length,patches);
+ const before=a.storage.getItem(desk.KEY),patches=remote.calls.filter(c=>c.method==='PATCH').length,pending=a.engine.syncNow();await started;a.engine.disconnect();assert.equal(remote.calls.at(-1).signal.aborted,true);release();await pending;assert.equal(a.storage.getItem(desk.KEY),before);assert.equal(remote.calls.filter(c=>c.method==='PATCH').length,patches);
 });
 test('Gist IDs only accept safe identifiers or official HTTPS URLs',()=>{
  assert.equal(sync.gistId('https://gist.github.com/name/'+'a'.repeat(32)),'a'.repeat(32));for(const bad of ['https://evil.test/'+'a'.repeat(32),'javascript:alert(1)','https://user:pass@gist.github.com/name/'+'a'.repeat(32)])assert.throws(()=>sync.gistId(bad));

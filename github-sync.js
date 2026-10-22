@@ -6,7 +6,7 @@
  function gistId(value){const text=String(value||'').trim();if(!text)return '';if(/^[a-f0-9]{5,64}$/i.test(text))return text.toLowerCase();try{const u=new URL(text);if(u.protocol==='https:'&&u.hostname==='gist.github.com'&&!u.username&&!u.password){const id=u.pathname.split('/').filter(Boolean).at(-1);if(/^[a-f0-9]{5,64}$/i.test(id))return id.toLowerCase();}}catch{}throw Error('请填写有效的 Gist ID 或 gist.github.com 链接');}
  function create(options){
   const storage=options.storage,request=options.fetch,now=options.now||Date.now,notify=options.notify||(()=>{}),notifyApplied=options.applied||(()=>{}),delay=options.setTimeout||setTimeout,cancel=options.clearTimeout||clearTimeout;
-  let timer=null,tail=Promise.resolve(),phase='idle',error='',generation=0,lastAttempt=0;
+  let timer=null,tail=Promise.resolve(),phase='idle',error='',generation=0,lastAttempt=0,activeAbort=null;
   const config=()=>{try{const v=JSON.parse(storage().getItem(CONFIG)||'null');return v&&typeof v.token==='string'&&v.token&&gistId(v.gistId)?v:null;}catch{return null;}};
   const status=()=>{const c=config();return {connected:!!c,owner:c?.owner||'',gistId:c?.gistId||'',gistUrl:c?'https://gist.github.com/'+c.gistId:'',lastSyncAt:c?.lastSyncAt||0,phase,error};};
   const emit=()=>notify(status());
@@ -22,18 +22,21 @@
   }
   async function api(token,path,init,job){
    job.ensure();const url=new URL(path,'https://api.github.com');if(url.origin!=='https://api.github.com'||url.username||url.password||!/^\/(gists(?:\/|$)|user$)/.test(url.pathname))throw Error('同步地址不正确');
-   const controller=new AbortController(),timeout=delay(()=>controller.abort(),20000);let response;
-   try{response=await request(url.href,{...init,signal:controller.signal,redirect:'error',credentials:'omit',cache:'no-store',headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+token,'X-GitHub-Api-Version':'2022-11-28',...(init?.body?{'Content-Type':'application/json'}:{})}});}catch{throw Error('无法连接 GitHub，请检查网络；本地数据已保留');}finally{cancel(timeout);}
-   job.ensure();if(!response.ok){if(response.status===401)throw Error('GitHub 令牌无效或已过期');if(response.status===403)throw Error('GitHub 权限不足或访问次数受限，请检查 Gist 权限后重试');if(response.status===404)throw Error('找不到同步文件，请检查 Gist ID 和账号');throw Error('GitHub 同步失败（'+response.status+'），本地数据已保留');}
-   try{return await response.json();}catch{throw Error('GitHub 返回的数据无法读取');}
+   const controller=new AbortController(),timeout=delay(()=>controller.abort(),20000);activeAbort=controller;
+   try{
+    let response;try{response=await request(url.href,{...init,signal:controller.signal,redirect:'error',credentials:'omit',cache:'no-store',headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+token,'X-GitHub-Api-Version':'2022-11-28',...(init?.body?{'Content-Type':'application/json'}:{})}});}catch{throw Error('无法连接 GitHub，请检查网络；本地数据已保留');}
+    job.ensure();if(!response.ok){if(response.status===401)throw Error('GitHub 令牌无效或已过期');if(response.status===403)throw Error('GitHub 权限不足或访问次数受限，请检查 Gist 权限后重试');if(response.status===404)throw Error('找不到同步文件，请检查 Gist ID 和账号');throw Error('GitHub 同步失败（'+response.status+'），本地数据已保留');}
+    let data;try{data=await response.json();}catch{throw Error('GitHub 返回的数据无法读取，请检查网络后重试');}job.ensure();return data;
+   }finally{cancel(timeout);if(activeAbort===controller)activeAbort=null;}
   }
+
   async function contents(gist,id){
    const file=gist.files?.[FILE];if(!file)throw Error('这个 Gist 不是留日手记的同步文件，请勿填写托福的 Gist');
    let text=file.content;
    if(file.truncated||typeof text!=='string'){
     const url=new URL(file.raw_url||'');if(url.protocol!=='https:'||url.hostname!=='gist.githubusercontent.com'||url.username||url.password||!url.pathname.includes('/'+id+'/raw/'))throw Error('同步文件地址不正确');
-    const controller=new AbortController(),timeout=delay(()=>controller.abort(),20000);
-    try{const response=await request(url.href,{signal:controller.signal,credentials:'omit',redirect:'error',cache:'no-store'});if(!response.ok)throw Error();text=await response.text();}catch{throw Error('同步文件未能完整下载，请检查网络后重试');}finally{cancel(timeout);}
+    const controller=new AbortController(),timeout=delay(()=>controller.abort(),20000);activeAbort=controller;
+    try{const response=await request(url.href,{signal:controller.signal,credentials:'omit',redirect:'error',cache:'no-store'});if(!response.ok)throw Error();text=await response.text();}catch{throw Error('同步文件未能完整下载，请检查网络后重试');}finally{cancel(timeout);if(activeAbort===controller)activeAbort=null;}
    }
    return model.parse(text);
   }
@@ -83,7 +86,7 @@
     assertGist(gist,user.login);await contents(gist,gist.id);job.ensure();saveConfig({token,gistId:gistId(gist.id),owner:user.login,lastSyncAt:0});await reconcile(job);
    });
   }
-  function invalidate(){generation++;unschedule();phase='idle';error='';emit();}
+  function invalidate(){generation++;activeAbort?.abort();activeAbort=null;unschedule();phase='idle';error='';emit();}
   function disconnect(){invalidate();storage().removeItem(CONFIG);emit();}
   function auto(){if(config()&&phase!=='syncing'&&(error||now()-lastAttempt>15000))return syncNow();return Promise.resolve({ok:true});}
   return {status,changed,syncNow,pull,connect,disconnect,auto,invalidate};
