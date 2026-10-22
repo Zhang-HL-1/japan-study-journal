@@ -192,38 +192,47 @@
     $('paper-completion').textContent = r.completed ? '本套已练习 ✓（不计入正确率）' : '尚未标记完成';
     if (files.length) { const preferred = Math.max(0, files.findIndex(f => f.subjects?.includes(state.filters.subject))); showFile(files[preferred],preferred); }
   }
+  function openCardZoom(src, alt) {
+    let dialog = document.getElementById('card-zoom-dialog');
+    if (!dialog) {
+      dialog = document.createElement('dialog');
+      dialog.id = 'card-zoom-dialog';
+      dialog.className = 'card-zoom-dialog';
+      dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+      document.body.append(dialog);
+    }
+    dialog.replaceChildren();
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = alt;
+    img.setAttribute('src', src);
+    img.setAttribute('alt', alt);
+    const close = document.createElement('button');
+    close.type = 'button';
+    close.className = 'card-zoom-close';
+    close.textContent = '关闭';
+    close.addEventListener('click', () => dialog.close());
+    dialog.append(img, close);
+    if (typeof dialog.showModal === 'function') dialog.showModal();
+  }
   function renderCard(q, r) {
     const body = $('card-body');
     body.replaceChildren();
-    for (const block of q.blocks || []) {
-      if (block.type === 'figure') {
-        const fig = document.createElement('figure');
-        fig.className = 'card-figure';
-        const img = document.createElement('img');
-        img.src = block.src;
-        img.alt = block.alt || q.title;
-        img.setAttribute('src', block.src);
-        img.setAttribute('alt', block.alt || q.title);
-        fig.append(img);
-        if (block.caption) {
-          const cap = document.createElement('figcaption');
-          cap.textContent = block.caption;
-          fig.append(cap);
-        }
-        body.append(fig);
-      } else if (block.type === 'note') {
-        const note = document.createElement('p');
-        note.className = 'card-note';
-        note.textContent = block.text || '';
-        body.append(note);
-      } else {
-        const p = document.createElement('p');
-        p.className = 'card-text';
-        p.textContent = block.text || '';
-        body.append(p);
-      }
+    if (q.image) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'card-zoom';
+      const img = document.createElement('img');
+      img.className = 'card-question-image';
+      img.src = q.image;
+      img.alt = q.prompt || q.title;
+      img.setAttribute('src', q.image);
+      img.setAttribute('alt', q.prompt || q.title);
+      button.append(img);
+      button.addEventListener('click', () => openCardZoom(q.image, img.alt));
+      body.append(button);
     }
-    $('card-limit').textContent = '这是从扫描件提取的题目卡片，不是嵌在页面里的 PDF。日文题干按原卷用词转写；印刷不清的数式以卡片里的原卷截图为准，不把截图说成阅读器裁页。本题暂不提供解答，也不评分。';
+    $('card-limit').textContent = '这一问是原卷页面裁成的一张图，题干和插图在一起。点图片可以放大。这不是嵌在页面里的 PDF，原卷文件也没有改过。需要对照时可以打开原卷。本题不提供解答，也不评分。';
     const actions = $('card-actions');
     actions.replaceChildren();
     const open = document.createElement('a');
