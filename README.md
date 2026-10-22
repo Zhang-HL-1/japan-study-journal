@@ -90,6 +90,8 @@
 - 作答、收藏、笔记、练习天数和上次位置自动保存在当前浏览器的 `localStorage`，无账号、无云同步；清除浏览器数据会丢失记录。
 - 可导出 JSON 备份，再在其他设备导入；导入前会提示替换当前记录，建议先备份。公开仓库不会收到个人练习记录。
 
+学校／专攻、跨校同科与真题／练习册混合练习已接入，逐题来源与后续录入格式见 [逐题题库规范](docs/question-bank.md)。
+
 ## 扩充题库
 
 题库位于 `questions.js`，所有题目都是静态数据，不依赖第三方服务。每题包含稳定的 `id`、`subject`、`chapter`、`difficulty`、`type`、`title`、`prompt`、`answerText`、`explanation`（步骤数组）及 `hint`。

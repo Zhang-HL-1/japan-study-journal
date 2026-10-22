@@ -109,3 +109,22 @@ test('all local page assets and navigation destinations exist; IDs are unique',(
 test('missing question data shows a load failure instead of an endless loading message',()=>{
  const a=boot(null);assert.equal(a.ids['list-count'].textContent,'题库加载失败');assert.equal(a.ids['empty-state'].hidden,false);assert.equal(a.raw(),null);
 });
+
+
+test('source controls cascade, mix, restore and reset with real interaction handlers',async()=>{
+ const bank=fixtures.map(q=>({...q}));
+ bank[0].provenance={kind:'exam',school:'A',graduate:'G',major:'M',year:'2025',number:'1'};
+ bank[1].provenance={kind:'exam',school:'B',graduate:'G',major:'M'};
+ bank[2].provenance={kind:'workbook',book:'Book',edition:'2',number:'3'};
+ const a=boot(bank);
+ await a.change('sourceKind','exam');assert.equal(a.ids['book-filters'].hidden,true);
+ await a.change('school','A');assert.equal(a.ids.major.options.length,2);
+ await a.change('major',JSON.stringify(['A','G','M']));assert.equal(a.ids['question-grid'].children.length,1);
+ assert.match(a.ids['question-source'].textContent,/历年真题.*A.*2025/);
+ const restored=boot(bank,a.raw());assert.equal(restored.ids.school.value,'A');assert.equal(restored.ids.major.value,JSON.stringify(['A','G','M']));
+ await a.change('school','B');assert.equal(a.ids.major.value,'all');assert.match(a.ids['question-title'].textContent,/number/);
+ await a.change('sourceKind','all');assert.equal(a.ids.school.value,'all');assert.equal(a.ids['question-grid'].children.length,3);
+ await a.change('school','A');await a.change('book','Book');assert.equal(a.ids['question-grid'].children.length,2);
+ await a.change('sourceKind','workbook');assert.equal(a.ids['exam-filters'].hidden,true);assert.equal(a.ids['question-grid'].children.length,1);
+ await a.ids['reset-filters'].click();assert.equal(a.ids.sourceKind.value,'all');assert.equal(a.ids['question-grid'].children.length,3);
+});

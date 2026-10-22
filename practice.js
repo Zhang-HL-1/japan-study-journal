@@ -13,7 +13,7 @@
     $('empty-reset').hidden = true; $('empty-home').hidden = false;
     return;
   }
-  const defaults = { subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '' };
+  const defaults = { sourceKind: 'all', school: 'all', major: 'all', book: 'all', subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '' };
   const typeNames = { choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
   let state = core.blank(), list = [], index = 0, locked = false, exposed = false;
   let storageFailed = false, preserveUnreadable = false, searchTimer;
@@ -40,12 +40,28 @@
     if (![...$('chapter').options].some(o => o.value === state.filters.chapter)) state.filters.chapter = 'all';
     $('chapter').value = state.filters.chapter;
   }
+  function updateSources() {
+    const populate = (id, label, entries) => {
+      $(id).replaceChildren(); option($(id), 'all', label);
+      for (const [value, text] of new Map(entries)) option($(id), value, text);
+      if (![...$(id).options].some(o => o.value === state.filters[id])) state.filters[id] = 'all';
+      $(id).value = state.filters[id];
+    };
+    const sources = bank.map(core.provenance);
+    populate('school', '全部学校 · 跨校练习', sources.filter(s => s.kind === 'exam' && s.school).map(s => [s.school, s.school]));
+    populate('major', '全部专攻', sources.filter(s => s.kind === 'exam' && s.major && (state.filters.school === 'all' || s.school === state.filters.school))
+      .map(s => [JSON.stringify([s.school, s.graduate || '', s.major]), [s.school, s.graduate, s.major].filter(Boolean).join(' / ')]));
+    populate('book', '全部书籍', sources.filter(s => s.kind === 'workbook' && s.book).map(s => [s.book, s.book]));
+    $('exam-filters').hidden = !['all', 'exam'].includes(state.filters.sourceKind);
+    $('book-filters').hidden = !['all', 'workbook'].includes(state.filters.sourceKind);
+  }
   state.filters = { ...defaults, ...state.filters };
-  for (const id of ['subject','difficulty','type','order']) {
+  for (const id of ['sourceKind','subject','difficulty','type','order']) {
     if (![...$(id).options].some(o => o.value === state.filters[id])) state.filters[id] = defaults[id];
     $(id).value = state.filters[id];
   }
   if (!['all','wrong','unanswered','bookmarked'].includes(state.filters.scope)) state.filters.scope = 'all';
+  updateSources();
   $('search').value = state.filters.search;
   updateChapters();
   function record(q) { return state.records[q.id] || {}; }
@@ -129,7 +145,7 @@
     if (!q) {
       const scope = state.filters.scope;
       $('empty-title').textContent = !bank.length ? '题库正在等你。' : scope === 'wrong' ? '当前筛选下没有待复习错题' : scope === 'bookmarked' ? '当前筛选下还没有收藏题目' : scope === 'unanswered' ? '当前筛选下的题目都练过了' : '没有匹配的题目';
-      $('empty-copy').textContent = !bank.length ? '功能已经准备好。加入你的题目后，便可以按学科、章节练习，查看解析并整理错题。' : scope === 'bookmarked' ? '练习时点击「☆ 收藏」，就可以把题目留在这里。也可以重置筛选。' : '试试其他学科、章节或关键词，或点击下方查看全部题目。';
+      $('empty-copy').textContent = !bank.length ? '功能已经准备好。加入你的题目后，便可以按学校、专攻或科目练习，混合真题与练习册题，并查看每题出处。' : scope === 'bookmarked' ? '练习时点击「☆ 收藏」，就可以把题目留在这里。也可以重置筛选。' : '试试其他学校、专攻、来源、科目或关键词，或点击下方查看全部题目。';
       $('empty-reset').hidden = !bank.length;
       $('empty-home').hidden = Boolean(bank.length);
       refreshStats(); save(); return;
@@ -138,7 +154,7 @@
     locked = !fresh && r.attempts > 0 && typeof r.correct === 'boolean'; exposed = false;
     $('question-tags').replaceChildren();
     [q.subject, q.chapter, q.difficulty, typeNames[q.type]].forEach(tag => { const el = document.createElement('span'); el.textContent = tag; $('question-tags').append(el); });
-    $('question-source').textContent = `${q.source || '来源待标注'} / ${q.id}`;
+    $('question-source').textContent = `${core.sourceLabel(q)} / ${q.id}`;
     $('question-title').textContent = `${index+1}. ${q.title}`;
     $('question-prompt').textContent = q.prompt;
     $('bookmark').setAttribute('aria-pressed',String(Boolean(r.bookmarked))); $('bookmark').textContent = r.bookmarked ? '★ 已收藏' : '☆ 收藏';
@@ -206,10 +222,10 @@
   });
   $('question-note').addEventListener('input', () => { const q = current(); if (!q) return; state.records[q.id] = { ...record(q), note: $('question-note').value }; save(); });
   $('previous').addEventListener('click', () => navigate(index-1)); $('next').addEventListener('click', () => navigate(index+1));
-  for (const id of ['subject','chapter','difficulty','type','order']) $(id).addEventListener('change', () => { state.filters[id] = $(id).value; if (id === 'subject') { state.filters.chapter = 'all'; updateChapters(); } rebuild(); });
+  for (const id of ['sourceKind','school','major','book','subject','chapter','difficulty','type','order']) $(id).addEventListener('change', () => { state.filters[id] = $(id).value; if (id === 'school') state.filters.major = 'all'; if (id === 'sourceKind') { state.filters.school = 'all'; state.filters.major = 'all'; state.filters.book = 'all'; } updateSources(); if (id === 'subject') { state.filters.chapter = 'all'; updateChapters(); } rebuild(); });
   $('search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { state.filters.search = $('search').value; rebuild(); }, 200); });
   document.querySelectorAll('[data-scope]').forEach(b => b.addEventListener('click', () => { state.filters.scope = b.dataset.scope; rebuild(); }));
-  function resetFilters() { clearTimeout(searchTimer); state.filters = { ...defaults }; ['subject','difficulty','type','order','search'].forEach(id => $(id).value = state.filters[id]); updateChapters(); rebuild(); }
+  function resetFilters() { clearTimeout(searchTimer); state.filters = { ...defaults }; ['sourceKind','subject','difficulty','type','order','search'].forEach(id => $(id).value = state.filters[id]); updateSources(); updateChapters(); rebuild(); }
   $('reset-filters').addEventListener('click',resetFilters); $('empty-reset').addEventListener('click',resetFilters);
   $('refresh-list').addEventListener('click', () => rebuild());
   $('export-progress').addEventListener('click', () => {
