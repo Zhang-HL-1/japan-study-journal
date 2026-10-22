@@ -14,11 +14,11 @@
   function readMeta(){const raw=storage().getItem(META);if(!raw)return {device:(options.device||(()=>crypto.randomUUID()))(),model:model.empty(),fresh:true};const v=JSON.parse(raw);if(typeof v.device!=='string'||!/^[a-zA-Z0-9_-]{8,100}$/.test(v.device))throw Error('本地同步设置无法读取，请先导出备份');return {device:v.device,model:model.parse(JSON.stringify(v.model)),fresh:false};}
   function capture(){const meta=readMeta();const next=model.observe(meta.model,model.snapshot(storage()),meta.device,now(),meta.fresh);if(model.serialize(next)!==model.serialize(meta.model)||!storage().getItem(META))storage().setItem(META,JSON.stringify({device:meta.device,model:next}));return next;}
   function apply(incoming){
-   const latest=capture(),combined=model.merge(latest,incoming),data=model.materialize(combined),s=storage();
+   const before=model.signature(model.snapshot(storage())),latest=capture(),combined=model.merge(latest,incoming),data=model.materialize(combined),s=storage();
    const practice=JSON.parse(s.getItem(PRACTICE)||'{"version":1,"records":{},"days":[],"current":null,"filters":{}}');
    const meta=readMeta(),writes=[[DESK,JSON.stringify(data.desk)],[PRACTICE,JSON.stringify({...practice,records:data.practice.records,days:data.practice.days})],[META,JSON.stringify({device:meta.device,model:combined})]],done=[];
    try{for(const [k,v] of writes){const old=s.getItem(k);if(old===v)continue;s.setItem(k,v);done.push([k,old]);}}catch{for(const [k,old] of done.reverse())try{if(old===null)s.removeItem(k);else s.setItem(k,old);}catch{}throw Error('浏览器未能保存合并结果，云端未被覆盖；请先导出备份');}
-   notifyApplied();return combined;
+   if(before!==model.signature(model.snapshot(s)))notifyApplied();return combined;
   }
   async function api(token,path,init,job){
    job.ensure();const url=new URL(path,'https://api.github.com');if(url.origin!=='https://api.github.com'||url.username||url.password||!/^\/(gists(?:\/|$)|user$)/.test(url.pathname))throw Error('同步地址不正确');

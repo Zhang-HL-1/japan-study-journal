@@ -61,6 +61,10 @@
   const days=Array.isArray(practice.days)?[...new Set(practice.days.filter(d=>typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d)))]:[];
   return {favorites,records,days};
  }
+ function signature(snap){
+  const records=Object.entries(snap.records).sort(([a],[b])=>a.localeCompare(b)).map(([id,fields])=>[id,Object.fromEntries(Object.entries(fields).filter(([,v])=>v!==null&&v!==false&&v!=='').sort(([a],[b])=>a.localeCompare(b)))]).filter(([,fields])=>Object.keys(fields).length);
+  return JSON.stringify({favorites:[...snap.favorites.items].sort((a,b)=>desk.key(a).localeCompare(desk.key(b))),records,days:[...snap.days].sort()});
+ }
  function observe(model,snap,device,now=Date.now(),bootstrap=false){
   const map=new Map(model.registers.map(r=>[key(r),r]));let clock=Math.max(now,...model.registers.map(r=>r.clock),0);
   function put(kind,id,field,value,seed){const r={kind,id,field,value},old=map.get(key(r));if(!old&&(value===false||value===''))return;if(equal(old?.value??null,value))return;const next=++clock;map.set(key(r),{...r,clock:bootstrap&&!old&&Number.isSafeInteger(seed)&&seed>0?seed:next,device});}
@@ -81,6 +85,6 @@
   if(items.length>desk.MAX_FAVORITES)throw Error('合并后收藏超过 200 条，请先在原设备整理收藏');
   return {desk:{version:1,items:items.sort((a,b)=>desk.key(a).localeCompare(desk.key(b)))},practice:{version:1,records:Object.fromEntries(records),days:days.sort().slice(-366)}};
  }
- const api={FORMAT,MAX_BYTES,empty,parse,serialize,merge,snapshot,observe,materialize};
+ const api={FORMAT,MAX_BYTES,empty,parse,serialize,merge,snapshot,signature,observe,materialize};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.JournalSyncModel=api;
 })(typeof globalThis!=='undefined'?globalThis:this);

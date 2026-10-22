@@ -82,3 +82,9 @@ test('failed local application rolls back saved collections and does not overwri
  const a=device(remote);a.favorites.favorite(entry('local'),true);const before=a.storage.getItem(desk.KEY),set=a.storage.setItem;a.storage.setItem=(key,value)=>{if(key==='japan-study-journal:practice:v1')throw Error('quota');set(key,value);};
  const result=await a.engine.connect('fake-token',remote.id);assert.equal(result.ok,false);assert.equal(a.storage.getItem(desk.KEY),before);assert.equal(remote.calls.filter(c=>c.method==='PATCH').length,0);
 });
+
+test('uploading unchanged personal data does not request an editor re-render',async()=>{
+ const remote=cloud(),storage=memory();let applied=0,time=1000;
+ const engine=sync.create({storage:()=>storage,fetch:remote.fetch,device:()=> 'device-one',now:()=>++time,applied:()=>applied++});
+ desk.create(()=>storage,()=>++time).favorite(entry(),true);await engine.connect('fake-token','');assert.equal(applied,0);await engine.syncNow();assert.equal(applied,0);
+});

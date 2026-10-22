@@ -16,7 +16,7 @@
   const defaults = { sourceKind: 'all', school: 'all', major: 'all', book: 'all', subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '' };
   const typeNames = { choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
   let state = core.blank(), list = [], index = 0, locked = false, exposed = false;
-  let storageFailed = false, preserveUnreadable = false, searchTimer;
+  let storageFailed = false, preserveUnreadable = false, applyingSynced = false, searchTimer;
   const localDay = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
   function storageMessage(message, warning = false) { $('storage-status').textContent = message; $('storage-status').classList.toggle('is-warning', warning); }
   try {
@@ -33,7 +33,7 @@
     return {...state,records:{...archived,...state.records}};
   }
   function save() {
-    if (preserveUnreadable) return;
+    if (preserveUnreadable || applyingSynced) return;
     try { localStorage.setItem(key, JSON.stringify(storedState())); storageFailed = false; window.JournalSync?.changed(); }
     catch (e) { storageFailed = true; storageMessage('浏览器无法保存记录（可能禁用了存储或空间已满）。请导出记录，避免刷新后丢失。', true); }
   }
@@ -251,8 +251,15 @@
     } catch (e) { storageMessage(`导入失败：${e instanceof SyntaxError ? 'JSON 格式无效。' : e.message} 当前记录未改变。`,true); }
   });
   window.addEventListener?.('journal-sync-status',event=>{const s=event.detail;if(s?.connected&&!storageFailed)storageMessage(s.error?'记录已保存在本机，GitHub 同步未完成：'+s.error:s.phase==='syncing'?'记录已保存在本机，正在同步到 GitHub…':'记录已保存在本机，GitHub 上次同步：'+(s.lastSyncAt?new Date(s.lastSyncAt).toLocaleString('zh-CN'):'等待首次同步'),!!s.error);});
-  window.addEventListener?.('journal-sync-applied',()=>{
-    try{const saved=localStorage.getItem(key);if(!saved)return;const incoming=core.cleanState(JSON.parse(saved),bank);state.records=incoming.records;state.days=incoming.days;preserveUnreadable=false;rebuild(true);}catch{storageMessage('同步记录暂未能显示，请导出备份后刷新。',true);}
-  });
+  function applySyncedRecords(){
+    try{const saved=localStorage.getItem(key);if(!saved)return;const incoming=core.cleanState(JSON.parse(saved),bank);
+      if(JSON.stringify(incoming.records)===JSON.stringify(state.records)&&JSON.stringify(incoming.days)===JSON.stringify(state.days))return;
+      const notes=document.querySelector('.note-details'),wasOpen=notes.open;
+      state.records=incoming.records;state.days=incoming.days;preserveUnreadable=false;applyingSynced=true;
+      try{rebuild(true);if(wasOpen)notes.open=true;}finally{applyingSynced=false;}
+    }catch{storageMessage('同步记录暂未能显示，请导出备份后刷新。',true);}
+  }
+  window.addEventListener?.('journal-sync-applied',applySyncedRecords);
+  window.addEventListener?.('storage',event=>{if(event.key===key||event.key===null)applySyncedRecords();});
   rebuild(true);
 })();
