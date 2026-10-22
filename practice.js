@@ -4,7 +4,7 @@
   const core = window.QuizCore;
   const key = 'japan-study-journal:practice:v1';
   const $ = id => document.getElementById(id);
-  if (!core || !Array.isArray(bank)) {
+  if (!core || !Array.isArray(bank) || bank.some(q => q.type === 'paper') && !window.PastPapersCore) {
     $('bank-notice').textContent = '题库暂时无法加载，请刷新重试，或先查阅过去问。';
     $('list-count').textContent = '题库加载失败';
     $('empty-state').hidden = false;
@@ -13,8 +13,8 @@
     $('empty-reset').hidden = true; $('empty-home').hidden = false;
     return;
   }
-  const defaults = { sourceKind: 'all', school: 'all', major: 'all', book: 'all', subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '' };
-  const typeNames = { choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
+  const defaults = { sourceKind: 'all', school: 'all', major: 'all', book: 'all', paperYear: 'all', subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '' };
+  const typeNames = { paper: '原卷练习 · 不判分', choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
   let state = core.blank(), list = [], index = 0, locked = false, exposed = false;
   let storageFailed = false, preserveUnreadable = false, searchTimer;
   const localDay = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
@@ -33,10 +33,10 @@
     catch (e) { storageFailed = true; storageMessage('浏览器无法保存记录（可能禁用了存储或空间已满）。请导出记录，避免刷新后丢失。', true); }
   }
   function option(select, value, label) { const el = document.createElement('option'); el.value = value; el.textContent = label; select.append(el); }
-  [...new Set([...(window.QUESTION_SUBJECTS || []), ...bank.map(q => q.subject)])].forEach(s => option($('subject'), s, s));
+  [...new Set([...(window.QUESTION_SUBJECTS || []), ...bank.flatMap(core.subjectsOf)])].forEach(s => option($('subject'), s, s));
   function updateChapters() {
     $('chapter').replaceChildren(); option($('chapter'), 'all', '全部章节');
-    [...new Set(bank.filter(q => state.filters.subject === 'all' || q.subject === state.filters.subject).map(q => q.chapter))].forEach(c => option($('chapter'), c, c));
+    [...new Set(bank.filter(q => state.filters.subject === 'all' || core.subjectsOf(q).includes(state.filters.subject)).map(q => q.chapter))].forEach(c => option($('chapter'), c, c));
     if (![...$('chapter').options].some(o => o.value === state.filters.chapter)) state.filters.chapter = 'all';
     $('chapter').value = state.filters.chapter;
   }
@@ -55,8 +55,9 @@
     $('exam-filters').hidden = !['all', 'exam'].includes(state.filters.sourceKind);
     $('book-filters').hidden = !['all', 'workbook'].includes(state.filters.sourceKind);
   }
+  [...new Set(bank.filter(q => q.paper).map(q => String(q.paper.year)))].sort((a,b) => Number(b)-Number(a)).forEach(y => option($('paperYear'), y, y));
   state.filters = { ...defaults, ...state.filters };
-  for (const id of ['sourceKind','subject','difficulty','type','order']) {
+  for (const id of ['sourceKind','paperYear','subject','difficulty','type','order']) {
     if (![...$(id).options].some(o => o.value === state.filters[id])) state.filters[id] = defaults[id];
     $(id).value = state.filters[id];
   }
@@ -71,18 +72,19 @@
   function refreshStats() {
     const s = core.stats(bank, state);
     $('stat-attempted').textContent = `${s.attempted} / ${s.total}`;
-    $('stat-accuracy').textContent = s.attempted ? `${s.accuracy}%` : '—';
+    $('stat-accuracy').textContent = bank.some(q => q.type !== 'paper' && record(q).attempts > 0) ? `${s.accuracy}%` : '—';
     $('stat-wrong').textContent = s.wrong;
     $('stat-days').textContent = state.days.length;
     $('wrong-count').textContent = s.wrong;
     $('bookmark-count').textContent = s.bookmarked;
-    const done = list.filter(q => record(q).attempts > 0).length;
-    $('list-count').textContent = !bank.length ? '题库筹备中 · 0 题' : `${state.filters.scope === 'wrong' ? '错题重练' : state.filters.scope === 'bookmarked' ? '收藏练习' : state.filters.scope === 'unanswered' ? '未作答练习' : '当前题单'} · ${list.length} 题`;
+    const done = list.filter(q => core.isDone(q, record(q))).length;
+    $('list-count').textContent = !bank.length ? '题库筹备中 · 0 题' : `${state.filters.scope === 'wrong' ? '错题重练' : state.filters.scope === 'bookmarked' ? '收藏练习' : state.filters.scope === 'unanswered' ? '未作答练习' : '当前题单'} · ${list.length} 项练习`;
     $('session-progress').textContent = `本题单已完成 ${done} / ${list.length}`;
     $('progress').max = list.length || 1; $('progress').value = done;
     $('bank-size').textContent = bank.length;
-    $('bank-caption').textContent = bank.length ? '道题 · 按章节循序练习' : '道题 · 等待添加题库';
-    $('bank-notice').textContent = bank.length ? '先独立作答，再对照参考答案。解答题需自行评估推导过程；练习正确率不是官方评分。' : '刷题功能已就绪，题库暂为空，后续加入你的题目后即可练习。解答题需对照解析自评，不是官方评分。';
+    const paperCount = bank.filter(q => q.type === 'paper').length;
+    $('bank-caption').textContent = bank.length ? `${paperCount} 套原卷 · ${bank.length-paperCount} 道逐题练习` : '道题 · 等待添加题库';
+    $('bank-notice').textContent = paperCount ? `已接入 ${paperCount} 套原卷练习（按过去问目录分组），不是 ${paperCount} 道题。按已知科目筛选整卷；合卷尚未逐题拆分。原卷完成状态不计入正确率。` : bank.length ? '先独立作答，再对照参考答案。解答题需自行评估推导过程；练习正确率不是官方评分。' : '刷题功能已就绪，题库暂为空，后续加入你的题目后即可练习。解答题需对照解析自评，不是官方评分。';
     drawMap();
   }
   function drawMap() {
@@ -90,9 +92,9 @@
     list.forEach((q, i) => {
       const r = record(q), button = document.createElement('button');
       button.type = 'button';
-      button.textContent = `${i+1}${r.correct === true ? ' ✓' : r.correct === false ? ' ×' : ''}${r.bookmarked ? ' ☆' : ''}`;
-      button.setAttribute('aria-label', `第 ${i+1} 题：${q.title}，${r.correct === true ? '已答对' : r.correct === false ? '待复习' : '未作答'}${r.bookmarked ? '，已收藏' : ''}`);
-      if (r.correct === true) button.className = 'is-correct';
+      button.textContent = `${i+1}${q.type === 'paper' && r.completed ? ' ✓' : ''}${r.correct === true ? ' ✓' : r.correct === false ? ' ×' : ''}${r.bookmarked ? ' ☆' : ''}`;
+      button.setAttribute('aria-label', `第 ${i+1} 项练习：${q.title}，${q.type === 'paper' && r.completed ? '已练习' : r.correct === true ? '已答对' : r.correct === false ? '待复习' : '未作答'}${r.bookmarked ? '，已收藏' : ''}`);
+      if (r.correct === true || q.type === 'paper' && r.completed) button.className = 'is-correct';
       if (r.correct === false) button.className = 'is-wrong';
       if (i === index) button.setAttribute('aria-current', 'true');
       button.addEventListener('click', () => navigate(i));
@@ -139,8 +141,36 @@
       $('input-help').textContent = q.type === 'numeric' ? `仅输入数值，不要带单位。支持小数、科学计数法和分数。${q.tolerance ? `允许误差 ±${q.tolerance}${q.unit ? ' '+q.unit : ''}。` : '本题要求精确值。'}` : '解答题需对照参考推导自评；不同但等价的正确方法也可以。';
     }
   }
+  function renderPaper(q, r) {
+    const files = q.paper.files.filter(f => f.kind === 'question');
+    const link = (file, label) => {
+      const a = document.createElement('a'); a.href = window.PastPapersCore.fileURL(file); a.textContent = label;
+      a.target = '_blank'; a.rel = 'noopener'; a.className = 'secondary-button'; return a;
+    };
+    $('paper-meta').textContent = `目录科目：${q.paper.originalSubjects.join(' / ') || '未细分'}。${q.paper.examDates.length ? '实际考试日期：' + q.paper.examDates.join(' / ') + '。' : ''} 本套含 ${files.length} 份原卷文件，可能含多个科目。`;
+    $('practice-paper-note').textContent = q.paper.sourceNote || '出处以原卷及过去问目录为准。';
+    $('practice-paper-files').replaceChildren();
+    function showFile(f, i) {
+      $('practice-paper-location').textContent = `${f.originalName || f.label} · PDF 共 ${f.pages} 页 · 从第 ${f.startPage || 1} 页打开${f.endPage ? '，目录范围至第 ' + f.endPage + ' 页' : ''}。原件可能还含封面、其他科目或年份，请按目录说明练习。`;
+      $('practice-paper-actions').replaceChildren(link(f, '新窗口打开原卷 ↗'));
+      const download = link(f, '下载原卷 ↓'); download.download = f.originalName || 'past-paper.pdf'; $('practice-paper-actions').append(download);
+      const back = document.createElement('a'); back.href = 'past-papers.html?' + new URLSearchParams({school:q.paper.schoolId,paper:q.paper.catalogId}); back.textContent = '查看过去问目录 ↗'; back.className = 'plain-button'; $('practice-paper-actions').append(back);
+      const frame = document.createElement('iframe'); frame.src = window.PastPapersCore.fileURL(f); frame.title = q.title + ' · ' + f.label;
+      $('practice-paper-reader').replaceChildren(frame);
+      [...$('practice-paper-files').children].forEach((b, n) => b.setAttribute('aria-pressed', String(n === i)));
+    }
+    files.forEach((f,i) => { const b = document.createElement('button'); b.type = 'button'; b.className = 'secondary-button'; b.textContent = f.label; b.addEventListener('click', () => showFile(f,i)); $('practice-paper-files').append(b); });
+    const refs = q.paper.files.filter(f => f.kind !== 'question');
+    $('practice-answer-status').textContent = refs.some(f => f.kind === 'answer') ? '目录中附有参考解答，适用科目与页码以文件和来源说明为准，不自动判分。' : '本套未收录参考答案。订正、出题意图等补充资料不视作答案。';
+    $('practice-reference-links').replaceChildren(...refs.map(f => link(f, (f.kind === 'answer' ? '参考解答：' : '补充资料：') + f.label)));
+    $('practice-paper-references').open = false;
+    $('complete-paper').textContent = r.completed ? '取消已练习标记' : '标记本套已练习';
+    $('paper-completion').textContent = r.completed ? '本套已练习 ✓（不计入正确率）' : '尚未标记完成';
+    if (files.length) { const preferred = Math.max(0, files.findIndex(f => f.subjects?.includes(state.filters.subject))); showFile(files[preferred],preferred); }
+  }
   function render(fresh = false) {
     const q = current();
+    $('practice-paper-reader').replaceChildren();
     $('question-card').hidden = !q; $('empty-state').hidden = Boolean(q); $('question-map').hidden = !q;
     if (!q) {
       const scope = state.filters.scope;
@@ -153,7 +183,7 @@
     const r = record(q); state.current = q.id;
     locked = !fresh && r.attempts > 0 && typeof r.correct === 'boolean'; exposed = false;
     $('question-tags').replaceChildren();
-    [q.subject, q.chapter, q.difficulty, typeNames[q.type]].forEach(tag => { const el = document.createElement('span'); el.textContent = tag; $('question-tags').append(el); });
+    [...core.subjectsOf(q), q.chapter, q.difficulty, typeNames[q.type]].forEach(tag => { const el = document.createElement('span'); el.textContent = tag; $('question-tags').append(el); });
     $('question-source').textContent = `${core.sourceLabel(q)} / ${q.id}`;
     $('question-title').textContent = `${index+1}. ${q.title}`;
     $('question-prompt').textContent = q.prompt;
@@ -170,7 +200,10 @@
     $('explanation-steps').replaceChildren();
     q.explanation.forEach(step => { const li = document.createElement('li'); li.textContent = step; $('explanation-steps').append(li); });
     $('hint').textContent = `解题提醒：${q.hint}`;
-    makeAnswerInputs(q,r,fresh);
+    $('paper-practice').hidden = q.type !== 'paper';
+    $('answer-form').hidden = q.type === 'paper';
+    if (q.type === 'paper') { $('retry').hidden = true; renderPaper(q,r); }
+    else makeAnswerInputs(q,r,fresh);
     if (locked) setFeedback(`上次${q.type === 'written' ? '自评' : '作答'}：${r.correct ? '正确 ✓' : '还需复习 ×'} · 累计 ${r.attempts} 次${r.wrongCount ? `，错误 ${r.wrongCount} 次` : ''}。可查看解析或重新作答。`, r.correct ? 'correct' : 'wrong');
     refreshStats(); save();
   }
@@ -180,7 +213,7 @@
     return $('response').value.trim();
   }
   function showReference(withExplanation) {
-    const q = current(); if (!q) return;
+    const q = current(); if (!q || q.type === 'paper') return;
     exposed = true; $('reference-answer').hidden = false; $('show-answer').textContent = '答案已显示';
     if (withExplanation) { $('explanation').hidden = false; $('show-explanation').textContent = '解析已展开'; }
     if (q.type === 'written' && !locked) $('self-grade').hidden = false;
@@ -197,8 +230,9 @@
     if (q.type !== 'written') showReference(true);
     refreshStats(); save();
   }
+  $('complete-paper').addEventListener('click', () => { const q = current(); if (q?.type !== 'paper') return; core.recordPaperCompletion(state,q.id,!record(q).completed,localDay()); const done = record(q).completed; $('complete-paper').textContent = done ? '取消已练习标记' : '标记本套已练习'; $('paper-completion').textContent = done ? '本套已练习 ✓（不计入正确率）' : '尚未标记完成'; refreshStats(); save(); });
   $('answer-form').addEventListener('submit', event => {
-    event.preventDefault(); const q = current(); if (!q || locked || (exposed && q.type !== 'written')) return;
+    event.preventDefault(); const q = current(); if (!q || q.type === 'paper' || locked || (exposed && q.type !== 'written')) return;
     const answer = getAnswer();
     if (q.type === 'written') { showReference(true); return; }
     if (answer === null || answer === '') { setFeedback('请先输入或选择答案。'); return; }
@@ -222,10 +256,10 @@
   });
   $('question-note').addEventListener('input', () => { const q = current(); if (!q) return; state.records[q.id] = { ...record(q), note: $('question-note').value }; save(); });
   $('previous').addEventListener('click', () => navigate(index-1)); $('next').addEventListener('click', () => navigate(index+1));
-  for (const id of ['sourceKind','school','major','book','subject','chapter','difficulty','type','order']) $(id).addEventListener('change', () => { state.filters[id] = $(id).value; if (id === 'school') state.filters.major = 'all'; if (id === 'sourceKind') { state.filters.school = 'all'; state.filters.major = 'all'; state.filters.book = 'all'; } updateSources(); if (id === 'subject') { state.filters.chapter = 'all'; updateChapters(); } rebuild(); });
+  for (const id of ['sourceKind','school','major','book','paperYear','subject','chapter','difficulty','type','order']) $(id).addEventListener('change', () => { state.filters[id] = $(id).value; if (id === 'school') state.filters.major = 'all'; if (id === 'sourceKind') { state.filters.school = 'all'; state.filters.major = 'all'; state.filters.book = 'all'; } updateSources(); if (id === 'subject') { state.filters.chapter = 'all'; updateChapters(); } rebuild(); });
   $('search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { state.filters.search = $('search').value; rebuild(); }, 200); });
   document.querySelectorAll('[data-scope]').forEach(b => b.addEventListener('click', () => { state.filters.scope = b.dataset.scope; rebuild(); }));
-  function resetFilters() { clearTimeout(searchTimer); state.filters = { ...defaults }; ['sourceKind','subject','difficulty','type','order','search'].forEach(id => $(id).value = state.filters[id]); updateSources(); updateChapters(); rebuild(); }
+  function resetFilters() { clearTimeout(searchTimer); state.filters = { ...defaults }; ['sourceKind','paperYear','subject','difficulty','type','order','search'].forEach(id => $(id).value = state.filters[id]); updateSources(); updateChapters(); rebuild(); }
   $('reset-filters').addEventListener('click',resetFilters); $('empty-reset').addEventListener('click',resetFilters);
   $('refresh-list').addEventListener('click', () => rebuild());
   $('export-progress').addEventListener('click', () => {

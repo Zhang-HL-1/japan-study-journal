@@ -10,7 +10,7 @@ const fixtures = [
 ];
 test('production bank is an array with unique stable IDs', () => {
   assert.ok(Array.isArray(actualBank)); assert.equal(new Set(actualBank.map(q=>q.id)).size,actualBank.length);
-  for (const q of actualBank) { assert.equal(typeof q.id,'string'); assert.ok(['choice','numeric','written'].includes(q.type)); assert.ok(Array.isArray(q.explanation)); }
+  for (const q of actualBank) { assert.equal(typeof q.id,'string'); assert.ok(['choice','numeric','written','paper'].includes(q.type)); assert.ok(Array.isArray(q.explanation)); }
 });
 test('numeric parser supports decimals, fractions, scientific and full-width input', () => {
   for (const [raw,value] of [[' 0.5 ',.5], ['1 / 2',.5], ['−2',-2], ['１／２',.5], ['1e-3',.001], ['-.5',-.5]]) assert.equal(core.parseNumber(raw),value);

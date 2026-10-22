@@ -13,10 +13,14 @@
       const count = key => Number.isSafeInteger(v[key]) && v[key] >= 0 ? Math.min(v[key], 1000000) : 0;
       state.records[q.id] = { attempts: count('attempts'), correct: v.correct === true ? true : v.correct === false ? false : null, wrongCount: count('wrongCount'), bookmarked: v.bookmarked === true, note: text('note'), draft: text('draft'), answer: (q.type === 'choice' && Number.isInteger(v.answer) && v.answer >= 0 && v.answer < q.options.length) ? v.answer : (typeof v.answer === 'string' ? v.answer.slice(0, 6000) : null), updated: text('updated') };
     }
+    for (const q of bank.filter(q => q.type === 'paper')) {
+      const r = state.records[q.id];
+      if (r) { r.completed = value.records[q.id].completed === true; r.correct = null; r.attempts = 0; r.wrongCount = 0; }
+    }
     if (Array.isArray(value.days)) state.days = [...new Set(value.days.filter(d => typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d)))].sort().slice(-366);
     if (bank.some(q => q.id === value.current)) state.current = value.current;
     const f = value.filters || {};
-    for (const key of ['subject','chapter','difficulty','type','scope','order','search','sourceKind','school','major','book']) if (typeof f[key] === 'string') state.filters[key] = f[key].slice(0, key === 'major' ? 1000 : 200);
+    for (const key of ['subject','chapter','difficulty','type','scope','order','search','sourceKind','school','major','book','paperYear']) if (typeof f[key] === 'string') state.filters[key] = f[key].slice(0, key === 'major' ? 1000 : 200);
     return state;
   }
   function parseNumber(raw) {
@@ -54,16 +58,20 @@
     } else if (selected('school') || selected('major') || selected('book')) return false;
     return true;
   }
+  const subjectsOf = q => Array.isArray(q.subjects) && q.subjects.length ? q.subjects : [q.subject];
+  const isDone = (q, r = {}) => q.type === 'paper' ? r.completed === true : r.attempts > 0;
   function filterQuestions(bank, filters, records) {
     const search = (filters.search || '').trim().toLowerCase();
     return bank.filter(q => {
       const r = records[q.id] || {};
       if (!sourceMatches(q, filters)) return false;
-      if (['subject','chapter','difficulty','type'].some(k => filters[k] && filters[k] !== 'all' && q[k] !== filters[k])) return false;
+      if (filters.subject && filters.subject !== 'all' && !subjectsOf(q).includes(filters.subject)) return false;
+      if (filters.paperYear && filters.paperYear !== 'all' && String(q.paper?.year) !== filters.paperYear) return false;
+      if (['chapter','difficulty','type'].some(k => filters[k] && filters[k] !== 'all' && q[k] !== filters[k])) return false;
       if (filters.scope === 'wrong' && r.correct !== false) return false;
       if (filters.scope === 'bookmarked' && !r.bookmarked) return false;
-      if (filters.scope === 'unanswered' && r.attempts > 0) return false;
-      return !search || [q.title,q.prompt,q.subject,q.chapter,sourceLabel(q)].join(' ').toLowerCase().includes(search);
+      if (filters.scope === 'unanswered' && isDone(q, r)) return false;
+      return !search || [q.title,q.prompt,q.subject,q.chapter,...subjectsOf(q),q.searchTerms,sourceLabel(q)].join(' ').toLowerCase().includes(search);
     });
   }
   function shuffle(list, random = Math.random) {
@@ -78,13 +86,19 @@
     state.days = state.days.sort().slice(-366);
     return state.records[id];
   }
+  function recordPaperCompletion(state, id, completed, day) {
+    state.records[id] = { ...(state.records[id] || {}), completed, correct: null, attempts: 0, wrongCount: 0, updated: new Date().toISOString() };
+    if (completed && !state.days.includes(day)) state.days.push(day);
+    state.days = state.days.sort().slice(-366);
+  }
   function stats(bank, state) {
     const list = bank.map(q => state.records[q.id] || {});
-    const attempted = list.filter(r => r.attempts > 0).length;
+    const attempted = bank.filter(q => isDone(q, state.records[q.id])).length;
+    const graded = bank.filter(q => q.type !== 'paper' && state.records[q.id]?.attempts > 0).length;
     const correct = list.filter(r => r.attempts > 0 && r.correct === true).length;
-    return { total: bank.length, attempted, correct, wrong: list.filter(r => r.correct === false).length, bookmarked: list.filter(r => r.bookmarked).length, accuracy: attempted ? Math.round(correct/attempted*100) : 0 };
+    return { total: bank.length, attempted, correct, wrong: list.filter(r => r.correct === false).length, bookmarked: list.filter(r => r.bookmarked).length, accuracy: graded ? Math.round(correct/graded*100) : 0 };
   }
-  const api = { provenance, sourceLabel, sourceMatches, blank, cleanState, parseNumber, grade, filterQuestions, shuffle, recordResult, stats };
+  const api = { subjectsOf, isDone, recordPaperCompletion, provenance, sourceLabel, sourceMatches, blank, cleanState, parseNumber, grade, filterQuestions, shuffle, recordResult, stats };
   root.QuizCore = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);
