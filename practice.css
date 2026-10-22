@@ -148,9 +148,3 @@ summary { cursor: pointer; font-size: .85rem; }
 #practice-paper-note { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .8rem; }
 #practice-paper-location, #paper-completion { overflow-wrap: anywhere; font-size: .8rem; }
 .question-grid { max-height: 22rem; overflow-y: auto; padding: .3rem; }
-.card-practice { min-width: 0; }
-.card-text { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 1.05rem; line-height: 1.85; margin: 0 0 1rem; }
-.card-note { margin: 0 0 1rem; padding: .75rem .9rem; background: var(--paper-deep); border-radius: .5rem; color: var(--ink-soft, #5c564c); font-size: .92rem; line-height: 1.7; }
-.card-figure { margin: 0 0 1.2rem; padding: .8rem; background: white; border: 1px solid var(--line); border-radius: .75rem; }
-.card-figure img { display: block; width: 100%; height: auto; max-height: 42rem; object-fit: contain; background: white; }
-.card-figure figcaption { margin-top: .55rem; font-size: .82rem; color: var(--ink-soft, #5c564c); }

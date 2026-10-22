@@ -7,21 +7,20 @@
     <meta name="theme-color" content="#faf9f5" />
     <title>刷题练习｜练习室 · 留日手记</title>
 <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="practice.css?v=20261022-tus-cards" />
+    <link rel="stylesheet" href="practice.css?v=20261022-papers" />
     <link rel="stylesheet" href="github-sync.css?v=20261022-sync" />
     <link rel="stylesheet" href="editorial.css?v=20261021-desk" />
     <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E" />
     <script src="paper-practice-data.js?v=20261022-papers" defer></script>
-    <script src="tus-2025-eei-card-data.js?v=20261022-tus-cards" defer></script>
-    <script src="questions.js?v=20261022-tus-cards" defer></script>
+    <script src="questions.js?v=20261022-papers" defer></script>
     <script src="past-papers-core.js" defer></script>
-    <script src="practice-core.js?v=20261022-tus-cards" defer></script>
+    <script src="practice-core.js?v=20261022-papers" defer></script>
     <script src="study-desk-core.js?v=20261021-favorites" defer></script>
     <script src="progress-sync.js?v=20261022-sync" defer></script>
     <script src="github-sync.js?v=20261022-sync" defer></script>
     <script src="github-sync-ui.js?v=20261022-sync" defer></script>
-    <script src="practice.js?v=20261022-tus-cards" defer></script>
+    <script src="practice.js?v=20261022-sync" defer></script>
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -89,7 +88,7 @@
           <label class="filter-label" for="chapter">章节</label><select id="chapter"><option value="all">全部章节</option></select>
           <div class="filter-pair">
             <div><label class="filter-label" for="difficulty">难度</label><select id="difficulty"><option value="all">全部</option><option>基础</option><option>进阶</option><option>未标注</option></select></div>
-            <div><label class="filter-label" for="type">题型</label><select id="type"><option value="all">全部</option><option value="paper">原卷练习</option><option value="card">题目卡片</option><option value="choice">单选</option><option value="numeric">数值</option><option value="written">解答</option></select></div>
+            <div><label class="filter-label" for="type">题型</label><select id="type"><option value="all">全部</option><option value="paper">原卷练习</option><option value="choice">单选</option><option value="numeric">数值</option><option value="written">解答</option></select></div>
           </div>
           <label class="filter-label" for="search">搜索题目 / 出处</label><input id="search" type="search" placeholder="例如：电磁、学校、书名、题号" maxlength="100" />
           <label class="filter-label" for="order">练习顺序</label><select id="order"><option value="sequential">顺序练习</option><option value="random">随机练习</option></select>
@@ -120,12 +119,6 @@
               <details><summary>出处、原卷说明与完整性</summary><p id="practice-paper-note"></p></details>
               <details id="practice-paper-references"><summary>参考解答 / 订正与补充资料</summary><p id="practice-answer-status"></p><div id="practice-reference-links" class="practice-paper-actions"></div></details>
               <div class="answer-actions"><button id="complete-paper" class="primary-button" type="button">标记本套已练习</button><p id="paper-completion" role="status"></p></div>
-            </section>
-            <section id="card-practice" class="card-practice" aria-label="题目卡片" hidden>
-              <div id="card-body" class="card-body"></div>
-              <p id="card-limit" class="input-help"></p>
-              <div id="card-actions" class="practice-paper-actions"></div>
-              <div class="answer-actions"><button id="complete-card" class="primary-button" type="button">标记本题已练习</button><p id="card-completion" role="status"></p></div>
             </section>
             <form id="answer-form" novalidate>
               <div id="answer-inputs"></div>

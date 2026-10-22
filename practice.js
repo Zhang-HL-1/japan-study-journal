@@ -14,8 +14,7 @@
     return;
   }
   const defaults = { sourceKind: 'all', school: 'all', major: 'all', book: 'all', paperYear: 'all', subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '' };
-  const typeNames = { paper: '原卷练习 · 不判分', card: '题目卡片 · 不判分', choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
-  const ungraded = q => q.type === 'paper' || q.type === 'card';
+  const typeNames = { paper: '原卷练习 · 不判分', choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
   let state = core.blank(), list = [], index = 0, locked = false, exposed = false;
   let storageFailed = false, preserveUnreadable = false, suppressSave = false, replaceRecords = false, searchTimer;
   const localDay = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
@@ -104,9 +103,8 @@
     $('progress').max = list.length || 1; $('progress').value = done;
     $('bank-size').textContent = bank.length;
     const paperCount = bank.filter(q => q.type === 'paper').length;
-    const cardCount = bank.filter(q => q.type === 'card').length;
-    $('bank-caption').textContent = bank.length ? `${paperCount} 套原卷 · ${cardCount} 道题目卡片 · ${bank.length - paperCount - cardCount} 道逐题练习` : '道题 · 等待添加题库';
-    $('bank-notice').textContent = paperCount ? `已接入 ${paperCount} 套原卷练习（按过去问目录分组），不是 ${paperCount} 道题。${cardCount ? `另有 ${cardCount} 道题目卡片（示范：東京理科大学・電気電子情報工学専攻・2025年度），按科目分开，不是 PDF 阅读器裁页。` : ''}按已知科目筛选整卷；其余合卷尚未逐题拆分。原卷和题目卡片的完成状态不计入正确率。` : bank.length ? '先独立作答，再对照参考答案。解答题需自行评估推导过程；练习正确率不是官方评分。' : '刷题功能已就绪，题库暂为空，后续加入你的题目后即可练习。解答题需对照解析自评，不是官方评分。';
+    $('bank-caption').textContent = bank.length ? `${paperCount} 套原卷 · ${bank.length-paperCount} 道逐题练习` : '道题 · 等待添加题库';
+    $('bank-notice').textContent = paperCount ? `已接入 ${paperCount} 套原卷练习（按过去问目录分组），不是 ${paperCount} 道题。按已知科目筛选整卷；合卷尚未逐题拆分。原卷完成状态不计入正确率。` : bank.length ? '先独立作答，再对照参考答案。解答题需自行评估推导过程；练习正确率不是官方评分。' : '刷题功能已就绪，题库暂为空，后续加入你的题目后即可练习。解答题需对照解析自评，不是官方评分。';
     drawMap();
   }
   function drawMap() {
@@ -114,9 +112,9 @@
     list.forEach((q, i) => {
       const r = record(q), button = document.createElement('button');
       button.type = 'button';
-      button.textContent = `${i+1}${ungraded(q) && r.completed ? ' ✓' : ''}${r.correct === true ? ' ✓' : r.correct === false ? ' ×' : ''}${r.bookmarked ? ' ☆' : ''}`;
-      button.setAttribute('aria-label', `第 ${i+1} 项练习：${q.title}，${ungraded(q) && r.completed ? '已练习' : r.correct === true ? '已答对' : r.correct === false ? '待复习' : '未作答'}${r.bookmarked ? '，已收藏' : ''}`);
-      if (r.correct === true || ungraded(q) && r.completed) button.className = 'is-correct';
+      button.textContent = `${i+1}${q.type === 'paper' && r.completed ? ' ✓' : ''}${r.correct === true ? ' ✓' : r.correct === false ? ' ×' : ''}${r.bookmarked ? ' ☆' : ''}`;
+      button.setAttribute('aria-label', `第 ${i+1} 项练习：${q.title}，${q.type === 'paper' && r.completed ? '已练习' : r.correct === true ? '已答对' : r.correct === false ? '待复习' : '未作答'}${r.bookmarked ? '，已收藏' : ''}`);
+      if (r.correct === true || q.type === 'paper' && r.completed) button.className = 'is-correct';
       if (r.correct === false) button.className = 'is-wrong';
       if (i === index) button.setAttribute('aria-current', 'true');
       button.addEventListener('click', () => navigate(i));
@@ -192,55 +190,6 @@
     $('paper-completion').textContent = r.completed ? '本套已练习 ✓（不计入正确率）' : '尚未标记完成';
     if (files.length) { const preferred = Math.max(0, files.findIndex(f => f.subjects?.includes(state.filters.subject))); showFile(files[preferred],preferred); }
   }
-  function renderCard(q, r) {
-    const body = $('card-body');
-    body.replaceChildren();
-    for (const block of q.blocks || []) {
-      if (block.type === 'figure') {
-        const fig = document.createElement('figure');
-        fig.className = 'card-figure';
-        const img = document.createElement('img');
-        img.src = block.src;
-        img.alt = block.alt || q.title;
-        img.setAttribute('src', block.src);
-        img.setAttribute('alt', block.alt || q.title);
-        fig.append(img);
-        if (block.caption) {
-          const cap = document.createElement('figcaption');
-          cap.textContent = block.caption;
-          fig.append(cap);
-        }
-        body.append(fig);
-      } else if (block.type === 'note') {
-        const note = document.createElement('p');
-        note.className = 'card-note';
-        note.textContent = block.text || '';
-        body.append(note);
-      } else {
-        const p = document.createElement('p');
-        p.className = 'card-text';
-        p.textContent = block.text || '';
-        body.append(p);
-      }
-    }
-    $('card-limit').textContent = '这是从扫描件提取的题目卡片，不是嵌在页面里的 PDF。日文题干按原卷用词转写；印刷不清的数式以卡片里的原卷截图为准，不把截图说成阅读器裁页。本题暂不提供解答，也不评分。';
-    const actions = $('card-actions');
-    actions.replaceChildren();
-    const open = document.createElement('a');
-    open.className = 'secondary-button';
-    open.target = '_blank';
-    open.rel = 'noopener';
-    open.href = window.PastPapersCore.fileURL({ url: q.sourcePdf.url, startPage: q.sourcePdf.page });
-    open.textContent = `打开原卷 ${q.sourcePdf.label} 第 ${q.sourcePdf.page} 页 ↗`;
-    const catalog = document.createElement('a');
-    catalog.className = 'plain-button';
-    catalog.href = 'past-papers.html?' + new URLSearchParams({ school: 'tus', paper: q.sourceCatalogId });
-    catalog.textContent = '查看过去问目录 ↗';
-    actions.append(open, catalog);
-    const done = r.completed === true;
-    $('complete-card').textContent = done ? '取消已练习标记' : '标记本题已练习';
-    $('card-completion').textContent = done ? '本题已练习 ✓（不计入正确率）' : '尚未标记完成';
-  }
   function render(fresh = false) {
     const q = current();
     $('practice-paper-reader').replaceChildren();
@@ -259,8 +208,7 @@
     [...core.subjectsOf(q), q.chapter, q.difficulty, typeNames[q.type]].forEach(tag => { const el = document.createElement('span'); el.textContent = tag; $('question-tags').append(el); });
     $('question-source').textContent = `${core.sourceLabel(q)} / ${q.id}`;
     $('question-title').textContent = `${index+1}. ${q.title}`;
-    $('question-prompt').hidden = q.type === 'card';
-    $('question-prompt').textContent = q.type === 'card' ? '' : q.prompt;
+    $('question-prompt').textContent = q.prompt;
     $('bookmark').setAttribute('aria-pressed',String(Boolean(r.bookmarked))); $('bookmark').textContent = r.bookmarked ? '★ 已收藏' : '☆ 收藏';
     ['feedback','reference-answer','explanation','self-grade'].forEach(id => $(id).hidden = true);
     $('show-answer').textContent = '查看答案'; $('show-explanation').textContent = '查看解析 ↗';
@@ -275,10 +223,8 @@
     q.explanation.forEach(step => { const li = document.createElement('li'); li.textContent = step; $('explanation-steps').append(li); });
     $('hint').textContent = `解题提醒：${q.hint}`;
     $('paper-practice').hidden = q.type !== 'paper';
-    $('card-practice').hidden = q.type !== 'card';
-    $('answer-form').hidden = ungraded(q);
+    $('answer-form').hidden = q.type === 'paper';
     if (q.type === 'paper') { $('retry').hidden = true; renderPaper(q,r); }
-    else if (q.type === 'card') { $('retry').hidden = true; renderCard(q,r); }
     else makeAnswerInputs(q,r,fresh);
     if (locked) setFeedback(`上次${q.type === 'written' ? '自评' : '作答'}：${r.correct ? '正确 ✓' : '还需复习 ×'} · 累计 ${r.attempts} 次${r.wrongCount ? `，错误 ${r.wrongCount} 次` : ''}。可查看解析或重新作答。`, r.correct ? 'correct' : 'wrong');
     refreshStats(); save();
@@ -289,7 +235,7 @@
     return $('response').value.trim();
   }
   function showReference(withExplanation) {
-    const q = current(); if (!q || ungraded(q)) return;
+    const q = current(); if (!q || q.type === 'paper') return;
     exposed = true; $('reference-answer').hidden = false; $('show-answer').textContent = '答案已显示';
     if (withExplanation) { $('explanation').hidden = false; $('show-explanation').textContent = '解析已展开'; }
     if (q.type === 'written' && !locked) $('self-grade').hidden = false;
@@ -306,18 +252,9 @@
     if (q.type !== 'written') showReference(true);
     refreshStats(); save();
   }
-  function toggleCompletion(q, button, status, doneLabel, pendingLabel) {
-    if (!q || !ungraded(q)) return;
-    core.recordPaperCompletion(state, q.id, !record(q).completed, localDay());
-    const done = record(q).completed;
-    button.textContent = done ? '取消已练习标记' : pendingLabel;
-    status.textContent = done ? doneLabel : '尚未标记完成';
-    refreshStats(); save();
-  }
-  $('complete-paper').addEventListener('click', () => toggleCompletion(current(), $('complete-paper'), $('paper-completion'), '本套已练习 ✓（不计入正确率）', '标记本套已练习'));
-  $('complete-card').addEventListener('click', () => toggleCompletion(current(), $('complete-card'), $('card-completion'), '本题已练习 ✓（不计入正确率）', '标记本题已练习'));
+  $('complete-paper').addEventListener('click', () => { const q = current(); if (q?.type !== 'paper') return; core.recordPaperCompletion(state,q.id,!record(q).completed,localDay()); const done = record(q).completed; $('complete-paper').textContent = done ? '取消已练习标记' : '标记本套已练习'; $('paper-completion').textContent = done ? '本套已练习 ✓（不计入正确率）' : '尚未标记完成'; refreshStats(); save(); });
   $('answer-form').addEventListener('submit', event => {
-    event.preventDefault(); const q = current(); if (!q || ungraded(q) || locked || (exposed && q.type !== 'written')) return;
+    event.preventDefault(); const q = current(); if (!q || q.type === 'paper' || locked || (exposed && q.type !== 'written')) return;
     const answer = getAnswer();
     if (q.type === 'written') { showReference(true); return; }
     if (answer === null || answer === '') { setFeedback('请先输入或选择答案。'); return; }
@@ -368,29 +305,6 @@
   if (typeof window.addEventListener === 'function') {
     window.addEventListener('japan-study-journal:synced', reloadFromSync);
     window.addEventListener('storage', event => { if (event.key === key) reloadFromSync(); });
-  }
-  if (typeof location !== 'undefined' && location.search) {
-    const params = new URLSearchParams(location.search);
-    if (params.get('demo') === 'tus-2025-eei') {
-      state.filters.sourceKind = 'exam';
-      state.filters.school = '東京理科大学';
-      state.filters.paperYear = '2025';
-      state.filters.type = 'card';
-      state.filters.subject = params.get('subject') || 'all';
-      state.filters.chapter = 'all';
-      state.filters.search = '';
-      $('sourceKind').value = 'exam';
-      $('paperYear').value = '2025';
-      $('type').value = 'card';
-      $('subject').value = [...$('subject').options].some(o => o.value === state.filters.subject) ? state.filters.subject : 'all';
-      state.filters.subject = $('subject').value;
-      updateSources();
-      const major = [...$('major').options].find(o => o.textContent.includes('創域理工学研究科') && o.textContent.includes('電気電子情報工学専攻'));
-      if (major) { state.filters.major = major.value; $('major').value = major.value; }
-      updateChapters();
-      const chapter = params.get('chapter');
-      if (chapter && [...$('chapter').options].some(o => o.value === chapter)) { state.filters.chapter = chapter; $('chapter').value = chapter; }
-    }
   }
   rebuild(true);
 })();
