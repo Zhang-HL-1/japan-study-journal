@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231e1c18'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d75c35'/%3E%3C/svg%3E" />
     <script src="questions.js" defer></script>
-    <script src="practice-core.js" defer></script>
-    <script src="practice.js?v=20261020" defer></script>
+    <script src="practice-core.js?v=20261022" defer></script>
+    <script src="practice.js?v=20261022" defer></script>
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -68,13 +68,21 @@
             <button type="button" data-scope="wrong" aria-pressed="false">错题本 <span id="wrong-count">0</span></button>
             <button type="button" data-scope="bookmarked" aria-pressed="false">收藏 <span id="bookmark-count">0</span></button>
           </div>
+          <label class="filter-label" for="sourceKind">题目来源</label>
+          <select id="sourceKind"><option value="all">混合练习 · 全部来源</option><option value="exam">只刷历年真题</option><option value="workbook">只刷参考书 / 练习册</option><option value="original">只刷原创题</option></select>
+          <div id="exam-filters">
+            <label class="filter-label" for="school">学校</label><select id="school"><option value="all">全部学校 · 跨校练习</option></select>
+            <label class="filter-label" for="major">研究科 / 专攻</label><select id="major"><option value="all">全部专攻</option></select>
+          </div>
+          <div id="book-filters"><label class="filter-label" for="book">参考书 / 练习册</label><select id="book"><option value="all">全部书籍</option></select></div>
+          <p class="filter-help">选学校与专攻，再选「全部学科」可刷该专攻全部题；只选科目可跨校刷题。混合模式下，学校与专攻仅限定真题，书籍仅限定练习册；科目等条件应用于所有题目。</p>
           <label class="filter-label" for="subject">学科 / 科目</label><select id="subject"><option value="all">全部学科</option></select>
           <label class="filter-label" for="chapter">章节</label><select id="chapter"><option value="all">全部章节</option></select>
           <div class="filter-pair">
             <div><label class="filter-label" for="difficulty">难度</label><select id="difficulty"><option value="all">全部</option><option>基础</option><option>进阶</option></select></div>
             <div><label class="filter-label" for="type">题型</label><select id="type"><option value="all">全部</option><option value="choice">单选</option><option value="numeric">数值</option><option value="written">解答</option></select></div>
           </div>
-          <label class="filter-label" for="search">搜索知识点</label><input id="search" type="search" placeholder="例如：运放、特征值、卷积" maxlength="100" />
+          <label class="filter-label" for="search">搜索题目 / 出处</label><input id="search" type="search" placeholder="例如：电磁、学校、书名、题号" maxlength="100" />
           <label class="filter-label" for="order">练习顺序</label><select id="order"><option value="sequential">顺序练习</option><option value="random">随机练习</option></select>
           <button id="refresh-list" type="button" class="secondary-button full-width">更新题单 / 重新随机</button>
           <p class="filter-help">错题答对后会移出错题本。当前题单保持不变，点击「更新题单」刷新。</p>
@@ -116,3 +124,4 @@
     <footer class="site-footer"><a class="brand brand--footer" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a><p>从基础出发，朝修士考试前进。</p><p class="copyright">© <span id="year">2026</span></p></footer>
   </body>
 </html>
+

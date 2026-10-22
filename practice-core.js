@@ -16,7 +16,7 @@
     if (Array.isArray(value.days)) state.days = [...new Set(value.days.filter(d => typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d)))].sort().slice(-366);
     if (bank.some(q => q.id === value.current)) state.current = value.current;
     const f = value.filters || {};
-    for (const key of ['subject','chapter','difficulty','type','scope','order','search']) if (typeof f[key] === 'string') state.filters[key] = f[key].slice(0, 100);
+    for (const key of ['subject','chapter','difficulty','type','scope','order','search','sourceKind','school','major','book']) if (typeof f[key] === 'string') state.filters[key] = f[key].slice(0, 100);
     return state;
   }
   function parseNumber(raw) {
@@ -34,15 +34,36 @@
     if (q.type === 'numeric') { const n = parseNumber(answer); return n === null ? null : Math.abs(n-q.answer) <= q.tolerance + Number.EPSILON*Math.max(1,Math.abs(q.answer))*8; }
     return null;
   }
+  const sourceKinds = { exam: '历年真题', workbook: '参考书 / 练习册', original: '原创题' };
+  function provenance(q) {
+    return q.provenance || { kind: 'unknown', label: q.source || '来源待标注' };
+  }
+  function sourceLabel(q) {
+    const s = provenance(q);
+    return [sourceKinds[s.kind] || '来源待分类', s.school, s.graduate, s.major, s.year,
+      s.book, s.edition, s.chapter, s.number && `题号 ${s.number}`, s.page && `第 ${s.page} 页`, s.label].filter(Boolean).join(' · ');
+  }
+  function sourceMatches(q, f) {
+    const s = provenance(q), selected = k => f[k] && f[k] !== 'all';
+    if (selected('sourceKind') && s.kind !== f.sourceKind) return false;
+    if (s.kind === 'exam') {
+      if (selected('school') && s.school !== f.school) return false;
+      if (selected('major') && JSON.stringify([s.school, s.graduate || '', s.major]) !== f.major) return false;
+    } else if (s.kind === 'workbook') {
+      if (selected('book') && s.book !== f.book) return false;
+    } else if (selected('school') || selected('major') || selected('book')) return false;
+    return true;
+  }
   function filterQuestions(bank, filters, records) {
     const search = (filters.search || '').trim().toLowerCase();
     return bank.filter(q => {
       const r = records[q.id] || {};
+      if (!sourceMatches(q, filters)) return false;
       if (['subject','chapter','difficulty','type'].some(k => filters[k] && filters[k] !== 'all' && q[k] !== filters[k])) return false;
       if (filters.scope === 'wrong' && r.correct !== false) return false;
       if (filters.scope === 'bookmarked' && !r.bookmarked) return false;
       if (filters.scope === 'unanswered' && r.attempts > 0) return false;
-      return !search || [q.title,q.prompt,q.subject,q.chapter].join(' ').toLowerCase().includes(search);
+      return !search || [q.title,q.prompt,q.subject,q.chapter,sourceLabel(q)].join(' ').toLowerCase().includes(search);
     });
   }
   function shuffle(list, random = Math.random) {
@@ -63,7 +84,8 @@
     const correct = list.filter(r => r.attempts > 0 && r.correct === true).length;
     return { total: bank.length, attempted, correct, wrong: list.filter(r => r.correct === false).length, bookmarked: list.filter(r => r.bookmarked).length, accuracy: attempted ? Math.round(correct/attempted*100) : 0 };
   }
-  const api = { blank, cleanState, parseNumber, grade, filterQuestions, shuffle, recordResult, stats };
+  const api = { provenance, sourceLabel, sourceMatches, blank, cleanState, parseNumber, grade, filterQuestions, shuffle, recordResult, stats };
   root.QuizCore = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);
+
