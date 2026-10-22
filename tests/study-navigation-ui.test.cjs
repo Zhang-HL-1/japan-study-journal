@@ -62,3 +62,14 @@ test('mobile school selection accepts aliases through the search and clears depe
  a.ids['paper-school-select'].value='waseda';await a.ids['paper-school-select'].fire('change');
  assert.equal(a.ids['paper-results'].children.length,41);assert.equal(a.win.location.searchParams.get('school'),'waseda');
 });
+
+
+test('school shortcuts and the sidebar select stay in sync and reset dependent filters',async()=>{
+ const a=boot('?school=waseda&year=2024');
+ const schoolButton=id=>a.ids['paper-schools'].children.find(e=>e.dataset.school===id);
+ await schoolButton('keio').click();assert.equal(a.ids['paper-school-select'].value,'keio');assert.equal(a.ids['paper-year'].value,'all');assert.equal(a.win.location.searchParams.get('school'),'keio');
+ a.ids['paper-school-query'].value='no-such-school';await a.ids['paper-school-query'].fire('input');
+ assert.equal(a.ids['paper-school-select'].options.length,24);assert.equal(a.ids['paper-school-select'].value,'keio');
+ a.ids['paper-school-select'].value='waseda';await a.ids['paper-school-select'].fire('change');assert.equal(a.ids['paper-results'].children.length,41);
+ await a.ids['paper-reset'].click();assert.equal(a.ids['paper-school-query'].value,'');assert.equal(a.ids['paper-school-select'].value,'all');assert.equal(a.ids['paper-schools'].children.length,24);
+});

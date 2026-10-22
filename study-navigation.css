@@ -30,7 +30,6 @@
 .scope-filters .admission-switch button { white-space: normal; min-height: 44px; }
 .scope-result small { display: block; margin-top: .5rem; color: var(--muted); }
 .scope-detail, .paper-detail { scroll-margin-top: 1.5rem; }
-.paper-school-select { display: none; }
 @media (max-width: 760px) {
   .home-page .hero { padding-block: 1.75rem; gap: 1.5rem; }
   .home-page .hero-illustration { max-width: 17rem; justify-self: center; }
@@ -40,7 +39,4 @@
   .scope-filters { position: static; max-height: none; overflow: visible; }
   .study-detail-actions { gap: .5rem; }
   .study-detail-actions a, .study-detail-actions button { flex: 1 1 9rem; text-align: center; }
-  .papers-schools .paper-schools-list { display: none; }
-  .paper-school-select { display: grid; gap: .5rem; margin-top: .75rem; font-size: .85rem; }
-  .paper-school-select select { width: 100%; min-height: 44px; padding: .65rem; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: .5rem; font: inherit; }
 }

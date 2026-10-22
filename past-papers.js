@@ -42,12 +42,14 @@
   get('paper-total').textContent=String(papers.length);get('paper-school-total').textContent=`${universities.length} 所大学的学校索引`;
   function renderSchools(){
     const list=get('paper-schools'),matches=core.schools(universities,get('paper-school-query').value);
-    function row(id,name){const count=papers.filter(p=>id==='all'||p.universityId===id).length;const n=button('',()=>{state.school=id;state.graduate='all';state.department='all';state.year='all';selected=null;render();},'paper-school');n.dataset.school=id;n.setAttribute('aria-pressed',String(state.school===id));n.append(el('span',name),el('small',count?`${count} 份`:'待添加'));return n;}
+    function row(id,name){
+      const count=papers.filter(p=>id==='all'||p.universityId===id).length;
+      const n=button(name,()=>{setSchool(id);const current=[...get('paper-schools').querySelectorAll('button')].find(b=>b.dataset.school===id);current?.focus({preventScroll:true});},'paper-school');
+      n.dataset.school=id;n.setAttribute('aria-pressed',String(state.school===id));n.title=count?`${count} 组过去问`:'过去问待收录';return n;
+    }
     list.replaceChildren(row('all','全部学校'),...matches.map(u=>row(u.id,u.name)));
     const select=get('paper-school-select');
-    const visible=matches.some(u=>u.id===state.school)?matches:[...matches,...universities.filter(u=>u.id===state.school)];
-    select.replaceChildren(option('all',matches.length?'全部学校':'没有匹配学校 · 查看全部'),...visible.map(u=>option(u.id,u.name)));
-    select.value=state.school;
+    select.replaceChildren(option('all','全部学校'),...universities.map(u=>option(u.id,u.name)));select.value=state.school;
     if(!matches.length)list.append(el('p','没有找到学校。试试中文别名或日文全称。'));
   }
   function updateOptions(){
@@ -111,7 +113,8 @@
     get('paper-scope-link').href=nav.url('exam-scope.html',{}, {}, {}, {school:state.school==='all'?'':state.school,graduate:state.graduate==='all'?'':state.graduate,department:state.department==='all'?'':state.department,from:'papers'});
     nav.write(window,currentURL());
   }
-  get('paper-school-select').addEventListener('change',e=>{Object.assign(state,{school:e.target.value,graduate:'all',department:'all',year:'all'});closeDetail();render();});
+  function setSchool(school){Object.assign(state,{school,graduate:'all',department:'all',year:'all'});closeDetail();render();}
+  get('paper-school-select').addEventListener('change',e=>setSchool(e.target.value));
   get('paper-school-query').addEventListener('input',renderSchools);
   get('paper-filters').addEventListener('submit',e=>e.preventDefault());
   get('paper-graduate').addEventListener('change',e=>{state.graduate=e.target.value;closeDetail();render();});
