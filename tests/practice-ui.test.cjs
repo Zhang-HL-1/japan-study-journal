@@ -141,3 +141,21 @@ test('whole paper reader preserves sources and completion without grading or ans
  await b.scope('unanswered');assert.equal(b.ids['question-card'].hidden,true);assert.equal(b.ids['practice-paper-reader'].children.length,0);
  await b.ids['reset-filters'].click();await b.ids['complete-paper'].click();assert.equal(b.state().records[q.id].completed,false);
 });
+
+test('catalog completion stored in practice:v1 is shown as completed by drill', async () => {
+  const progress = require('../progress-sync.js');
+  require('../practice-core.js');
+  const completion = require('../paper-set-completion.js');
+  const q = require('../questions.js').find(item => item.type === 'paper' && item.paper && item.paper.catalogId);
+  const values = new Map();
+  const storage = { getItem: key => values.has(key) ? values.get(key) : null, setItem: (key, value) => values.set(key, String(value)) };
+  assert.equal(completion.toggle(q.paper.catalogId, storage, [q], '2026-10-22').completed, true);
+  assert.deepEqual([...values.keys()], [progress.PRACTICE_KEY]);
+  const drill = boot([q], values.get(progress.PRACTICE_KEY));
+  assert.equal(drill.ids['complete-paper'].textContent, '取消已练习标记');
+  assert.match(drill.ids['paper-completion'].textContent, /本套已练习/);
+  await drill.ids['complete-paper'].click();
+  assert.equal(drill.ids['complete-paper'].textContent, '标记本套已练习');
+  assert.match(drill.ids['paper-completion'].textContent, /尚未标记完成/);
+  assert.equal(completion.isCompleted(q.paper.catalogId, { getItem: () => drill.raw(), setItem() {} }, [q]), false);
+});

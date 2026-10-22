@@ -77,7 +77,12 @@
     const files=el('div',undefined,'paper-files'),reader=el('div',undefined,'paper-reader'),desk=el('div');detail.append(desk);
     function read(file,index,changeURL=true){
       selectedFile=index;
-      if(window.StudyDeskControls)desk.replaceChildren(window.StudyDeskControls.attach({type:'paper',id:p.id,title:p.title,subtitle:[schoolName(p.universityId),p.graduateSchool,p.department].filter(Boolean).join(' · '),file:index,admission:'general'}));
+      const completion=window.PaperSetCompletion?window.PaperSetCompletion.control(p.id):null;
+      if(window.StudyDeskControls){
+        const entry={type:'paper',id:p.id,title:p.title,subtitle:[schoolName(p.universityId),p.graduateSchool,p.department].filter(Boolean).join(' · '),file:index,admission:'general'};
+        desk.replaceChildren(window.StudyDeskControls.attach(entry,completion));
+      }else if(completion){const group=document.createElement('div');group.className='study-detail-actions';group.append(completion);desk.replaceChildren(group);}
+      else desk.replaceChildren();
       if(changeURL)nav.write(window,currentURL());
       // Recreate share controls so the copied URL always includes the current PDF tab.
       shareActions.replaceChildren(...nav.share(document,window,currentURL()).children,scope);
