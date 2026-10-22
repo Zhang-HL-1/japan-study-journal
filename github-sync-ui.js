@@ -1,0 +1,125 @@
+(function () {
+  'use strict';
+  const sync = window.JapanGithubSync;
+  const progress = window.ProgressSync;
+  const mount = document.getElementById('japan-sync');
+  if (!sync || !progress || !mount) return;
+  const compact = mount.dataset.syncVariant === 'compact';
+  const section = document.createElement('section');
+  section.className = 'sync-panel' + (compact ? ' sync-panel--compact' : '');
+  section.setAttribute('aria-labelledby', 'japan-sync-title');
+  const title = document.createElement('h2');
+  title.id = 'japan-sync-title';
+  title.textContent = '跨设备同步';
+  const help = document.createElement('p');
+  help.className = 'sync-help';
+  help.textContent = '书桌收藏和练习记录可以同步到你自己的私密 GitHub Gist，不写入这个网站的仓库。进度文件是 japan-study-journal-progress.json 和 japan-device-….json，不会写入托福练习的 atrium 文件。每台设备粘贴同一个仅含 gist 权限的 classic token。Gist ID 可以留空：会查找已有的留日手记进度，没有就新建一份。';
+  const status = document.createElement('p');
+  status.id = 'japan-sync-status';
+  status.className = 'sync-status';
+  status.setAttribute('role', 'status');
+  const connected = document.createElement('div');
+  connected.id = 'japan-sync-connected';
+  const connectedHelp = document.createElement('p');
+  connectedHelp.className = 'sync-help';
+  connectedHelp.textContent = '本地更改大约 1.5 秒后同步；回到页面、恢复联网，以及页面打开时每 30 秒再检查一次。关闭前请等状态不再显示「正在同步」。进度写在 japan-study-journal-progress.json，每台设备另有 japan-device-….json，不会写入托福练习的 atrium 文件。';
+  const linkRow = document.createElement('p');
+  const gistLink = document.createElement('a');
+  gistLink.className = 'sync-link';
+  gistLink.target = '_blank';
+  gistLink.rel = 'noopener noreferrer';
+  linkRow.append(gistLink);
+  const actions = document.createElement('div');
+  actions.className = 'sync-actions';
+  function button(label, action) {
+    const node = document.createElement('button');
+    node.type = 'button';
+    node.textContent = label;
+    node.addEventListener('click', action);
+    actions.append(node);
+    return node;
+  }
+  const syncNow = button('立即同步', () => sync.syncGithubNow());
+  const pull = button('只拉取', () => sync.pullGithub());
+  const disconnect = button('断开', () => sync.disconnectGithub());
+  connected.append(connectedHelp, linkRow, actions);
+  const form = document.createElement('form');
+  form.id = 'japan-sync-form';
+  const grid = document.createElement('div');
+  grid.className = 'sync-grid';
+  function field(id, label, type) {
+    const wrap = document.createElement('label');
+    wrap.htmlFor = id;
+    wrap.textContent = label;
+    const input = document.createElement('input');
+    input.id = id;
+    input.type = type;
+    input.autocomplete = 'off';
+    input.spellcheck = false;
+    input.maxLength = type === 'password' ? 300 : 200;
+    wrap.append(input);
+    grid.append(wrap);
+    return input;
+  }
+  const token = field('japan-sync-token', '个人访问令牌', 'password');
+  const reveal = document.createElement('button');
+  reveal.type = 'button';
+  reveal.className = 'sync-reveal';
+  reveal.textContent = '显示令牌';
+  reveal.addEventListener('click', () => {
+    const hidden = token.type === 'password';
+    token.type = hidden ? 'text' : 'password';
+    reveal.textContent = hidden ? '隐藏令牌' : '显示令牌';
+  });
+  const gist = field('japan-sync-gist', 'Gist ID（可选）', 'text');
+  gist.placeholder = '留空则自动查找或新建';
+  const formActions = document.createElement('div');
+  formActions.className = 'sync-actions';
+  const submit = document.createElement('button');
+  submit.type = 'submit';
+  submit.textContent = '连接';
+  const create = document.createElement('a');
+  create.href = progress.TOKEN_URL;
+  create.target = '_blank';
+  create.rel = 'noopener noreferrer';
+  create.textContent = '生成仅含 gist 权限的 classic token';
+  formActions.append(submit, create);
+  const fine = document.createElement('p');
+  fine.className = 'sync-help';
+  fine.textContent = '令牌只留在这台浏览器的 ' + progress.SYNC_STORAGE_KEY + '，不进入进度文件，也不进入仓库。私密 Gist 不会出现在公开列表里；知道链接的人仍可打开，请不要把链接发到公开场合。第二台设备等第一台连接成功后，可以留空查找，或贴上这里显示的 Gist ID。两台同时留空，可能会各自新建一份。';
+  form.append(grid, reveal, formActions, fine);
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    const ok = await sync.connectGithub(token.value, gist.value);
+    if (ok) token.value = '';
+  });
+  token.addEventListener('input', () => sync.clearGithubSyncError());
+  gist.addEventListener('input', () => sync.clearGithubSyncError());
+  section.append(title, help, status, connected, form);
+  mount.append(section);
+
+  function render() {
+    const snapshot = sync.getGithubSyncSnapshot();
+    const line = sync.statusLine(snapshot);
+    status.textContent = line.text;
+    status.className = 'sync-status is-' + line.tone;
+    const busy = snapshot.phase === 'syncing';
+    connected.hidden = !snapshot.connected;
+    form.hidden = snapshot.connected;
+    syncNow.disabled = busy;
+    pull.disabled = busy;
+    disconnect.disabled = busy;
+    submit.disabled = busy;
+    token.disabled = busy;
+    gist.disabled = busy;
+    if (snapshot.gistId && document.activeElement !== gist) gist.value = snapshot.gistId;
+    if (snapshot.gistUrl && snapshot.gistUrl.startsWith('https://gist.github.com/')) {
+      gistLink.href = snapshot.gistUrl;
+      gistLink.textContent = snapshot.gistUrl;
+      linkRow.hidden = false;
+    } else linkRow.hidden = true;
+  }
+  sync.subscribeGithubSync(render);
+  window.addEventListener('japan-study-journal:sync-status', render);
+  render();
+})();

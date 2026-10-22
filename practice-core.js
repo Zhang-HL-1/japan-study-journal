@@ -11,7 +11,10 @@
       if (!v || typeof v !== 'object') continue;
       const text = key => typeof v[key] === 'string' ? v[key].slice(0, 6000) : '';
       const count = key => Number.isSafeInteger(v[key]) && v[key] >= 0 ? Math.min(v[key], 1000000) : 0;
-      state.records[q.id] = { attempts: count('attempts'), correct: v.correct === true ? true : v.correct === false ? false : null, wrongCount: count('wrongCount'), bookmarked: v.bookmarked === true, note: text('note'), draft: text('draft'), answer: (q.type === 'choice' && Number.isInteger(v.answer) && v.answer >= 0 && v.answer < q.options.length) ? v.answer : (typeof v.answer === 'string' ? v.answer.slice(0, 6000) : null), updated: text('updated') };
+      const record = { attempts: count('attempts'), correct: v.correct === true ? true : v.correct === false ? false : null, wrongCount: count('wrongCount'), bookmarked: v.bookmarked === true, note: text('note'), draft: text('draft'), answer: (q.type === 'choice' && Number.isInteger(v.answer) && v.answer >= 0 && v.answer < q.options.length) ? v.answer : (typeof v.answer === 'string' ? v.answer.slice(0, 6000) : null), updated: text('updated') };
+      if (Number.isSafeInteger(v.bookmarkAt) && v.bookmarkAt > 0 && v.bookmarkAt <= 8640000000000000) record.bookmarkAt = v.bookmarkAt;
+      if (Number.isSafeInteger(v.noteAt) && v.noteAt > 0 && v.noteAt <= 8640000000000000) record.noteAt = v.noteAt;
+      state.records[q.id] = record;
     }
     for (const q of bank.filter(q => q.type === 'paper')) {
       const r = state.records[q.id];
@@ -21,6 +24,8 @@
     if (bank.some(q => q.id === value.current)) state.current = value.current;
     const f = value.filters || {};
     for (const key of ['subject','chapter','difficulty','type','scope','order','search','sourceKind','school','major','book','paperYear']) if (typeof f[key] === 'string') state.filters[key] = f[key].slice(0, key === 'major' ? 1000 : 200);
+    if (Number.isSafeInteger(value.filtersUpdatedAt) && value.filtersUpdatedAt > 0 && value.filtersUpdatedAt <= 8640000000000000) state.filtersUpdatedAt = value.filtersUpdatedAt;
+    if (Number.isSafeInteger(value.positionUpdatedAt) && value.positionUpdatedAt > 0 && value.positionUpdatedAt <= 8640000000000000) state.positionUpdatedAt = value.positionUpdatedAt;
     return state;
   }
   function parseNumber(raw) {

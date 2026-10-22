@@ -2,7 +2,7 @@
 
 练习室入口 `practice.html` 以三张等大的卡片引导选择：过去问题库 `past-papers.html`、刷题练习 `drill.html` 与练习册答案 `answers.html`。三者同级，答案页可返回练习室，也可回到自己的书架。过去问与刷题的原有筛选、阅读和记录不因答案模块改变。
 
-旧刷题页面迁到 `drill.html`，继续使用原来的 `questions.js`、`practice.js`、`practice-core.js` 和浏览器记录键 `japan-study-journal:practice:v1`。收藏、错题、笔记和导入导出不变。逐校导入完整过去问PDF，逐题刷题库仍为空。练习册答案是独立书架，不写入过去问目录。
+旧刷题页面迁到 `drill.html`，继续使用原来的 `questions.js`、`practice.js`、`practice-core.js` 和浏览器记录键 `japan-study-journal:practice:v1`。收藏、错题、笔记、原卷完成标记和导入导出不变。刷题页可以把这份记录和书桌收藏同步到你自己的私密 Gist，见 [跨设备同步](cross-device-sync.md)。练习册答案是独立书架，不写入过去问目录。
 
 ## 过去问题库
 
