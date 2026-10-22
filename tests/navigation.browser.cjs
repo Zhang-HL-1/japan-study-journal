@@ -15,7 +15,7 @@ const root=path.join(__dirname,'..');
   const origin='http://127.0.0.1:'+server.address().port,errors=[];
   const page=await browser.newPage({viewport:{width:1440,height:1000}});
   page.on('pageerror',e=>errors.push(String(e)));
-  const shot=async(name,fullPage=true)=>{if(process.env.STUDY_ROOM_SCREENSHOTS){fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));await page.waitForFunction(()=>window.scrollY===0);await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,name+'.png'),fullPage,animations:'disabled'});}};
+  const shot=async(name,fullPage=true)=>{if(process.env.STUDY_ROOM_SCREENSHOTS){fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});await page.evaluate(async()=>{await document.fonts.ready;document.documentElement.style.scrollBehavior='auto';document.body.style.scrollBehavior='auto';window.scrollTo({top:0,left:0,behavior:'instant'});await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));window.scrollTo({top:0,left:0,behavior:'instant'});});await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,name+'.png'),fullPage,animations:'disabled'});}};
   for(const width of [390,900,1440]){
    await page.setViewportSize({width,height:900});await page.goto(origin+'/index.html');
    await page.locator('.desk-card').last().waitFor();
