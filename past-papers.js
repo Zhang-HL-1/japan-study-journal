@@ -64,6 +64,29 @@
     if(!years.includes(state.year))state.year='all';
     const ys=get('paper-year');ys.replaceChildren(option('all',years.length?'全部年份':'待添加'),...years.map(y=>option(y,y+'年')));ys.disabled=!years.length;ys.value=state.year;
   }
+  const scrollTopMin=240;let returnScrollY=null;
+  function pageY(){const y=window.scrollY;return typeof y==='number'&&Number.isFinite(y)?Math.max(0,y):0;}
+  function scrollBehavior(){return window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches?'instant':'smooth';}
+  function syncScrollControls(){
+    const top=get('paper-scroll-top'),back=get('paper-scroll-back'),dock=get('paper-scroll-dock');
+    if(top)top.hidden=pageY()<scrollTopMin;
+    if(back){back.hidden=returnScrollY==null;back.disabled=returnScrollY==null;}
+    if(dock)dock.hidden=(top?top.hidden:true)&&(back?back.hidden:true);
+  }
+  function scrollToY(y){
+    const behavior=scrollBehavior();
+    try{window.scrollTo?.({top:y,left:0,behavior});}
+    catch(e){if(behavior!=='instant')throw e;window.scrollTo?.(0,y);}
+  }
+  function rememberScroll(){returnScrollY=pageY();syncScrollControls();}
+  function setupScrollControls(){
+    const top=get('paper-scroll-top'),back=get('paper-scroll-back');
+    if(!top||!back)return;
+    top.addEventListener('click',()=>scrollToY(0));
+    back.addEventListener('click',()=>{if(returnScrollY!=null)scrollToY(returnScrollY);});
+    window.addEventListener?.('scroll',syncScrollControls,{passive:true});
+    syncScrollControls();
+  }
   function closeDetail(){selected=null;get('paper-detail').hidden=true;get('paper-detail').replaceChildren();}
   function openPaper(p,push=true,fileIndex=0,focus=true){
     selected=p.id;const detail=get('paper-detail');detail.hidden=false;
@@ -111,7 +134,7 @@
     if(schoolNote){note.append(el('p',schoolNote.text));(schoolNote.supplements||[]).forEach(file=>{const url=core.fileURL(file);if(url)note.append(link(file.label+' ↗',url));});}
     const heading=state.school==='all'?'全部学校':schoolName(state.school);get('paper-results-title').textContent=heading;
     get('paper-results-count').textContent=`${matches.length} 份真题${papers.length===0?' · 尚未添加真题':''}`;
-    const results=get('paper-results');results.replaceChildren(...matches.map(p=>{const n=button('',()=>openPaper(p),'paper-result');n.dataset.paper=p.id;n.setAttribute('aria-pressed',String(selected===p.id));n.append(el('small',`${schoolName(p.universityId)} · ${core.yearOf(p)}年`),el('strong',p.title),el('span',[p.graduateSchool,p.department,p.selectionName].filter(Boolean).join(' / ')),el('small','阅读原卷 →'));return n;}));
+    const results=get('paper-results');results.replaceChildren(...matches.map(p=>{const n=button('',()=>{rememberScroll();openPaper(p);},'paper-result');n.dataset.paper=p.id;n.setAttribute('aria-pressed',String(selected===p.id));n.append(el('small',`${schoolName(p.universityId)} · ${core.yearOf(p)}年`),el('strong',p.title),el('span',[p.graduateSchool,p.department,p.selectionName].filter(Boolean).join(' / ')),el('small','阅读原卷 →'));return n;}));
     if(!matches.some(p=>p.id===selected))closeDetail();
     get('paper-empty').hidden=matches.length>0;
     if(!papers.length){get('paper-empty-title').textContent=state.school==='all'?'为下一份真题，留一个位置。':`尚未添加${heading}的真题。`;get('paper-empty-copy').textContent='过去问题库已经准备好，真题稍后添加。你可以先选择学校，或去刷题练习与查阅考试范围。';}
@@ -128,6 +151,7 @@
   get('paper-year').addEventListener('change',e=>{state.year=e.target.value;closeDetail();render();});
   get('paper-query').addEventListener('input',e=>{state.query=e.target.value;closeDetail();render();});
   get('paper-reset').addEventListener('click',()=>{Object.assign(state,{school:'all',graduate:'all',department:'all',year:'all',query:''});get('paper-school-query').value='';get('paper-query').value='';closeDetail();render();});
+  setupScrollControls();
   window.addEventListener?.('popstate',restore);
   restore();
 })();

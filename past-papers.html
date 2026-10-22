@@ -21,9 +21,9 @@
   <script src="study-desk-controls.js?v=20261022-complete" defer></script>
   <script src="paper-set-completion.js?v=20261022-complete" defer></script>
   <script src="study-navigation.js?v=20261020" defer></script>
-  <script src="past-papers.js?v=20261022-complete" defer></script>
+  <script src="past-papers.js?v=20261022-scroll" defer></script>
   <script src="script.js" defer></script>
-  <link rel="stylesheet" href="study-navigation.css?v=20261022-complete" />
+  <link rel="stylesheet" href="study-navigation.css?v=20261022-scroll" />
   <link rel="stylesheet" href="past-papers-filters.css?v=20261022" />
 </head>
 <body>
@@ -90,6 +90,10 @@
     <noscript><p class="paper-error">请开启JavaScript使用学校索引与真题阅读区。你可以<a href="practice.html">返回练习室</a>。</p></noscript>
   </main>
   <footer class="site-footer"><a class="brand brand--footer" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a><p>从一道问题，读懂下一步。</p><p class="copyright">© <span id="year">2026</span></p></footer>
+  <div class="paper-scroll-dock" id="paper-scroll-dock" role="group" aria-label="页面位置" hidden>
+    <button type="button" class="paper-scroll-button" id="paper-scroll-back" hidden aria-label="回到原位置" title="回到原位置"><span aria-hidden="true">↩</span></button>
+    <button type="button" class="paper-scroll-button" id="paper-scroll-top" hidden aria-label="回到顶部" title="回到顶部"><span aria-hidden="true">↑</span></button>
+  </div>
 </body>
 </html>
 

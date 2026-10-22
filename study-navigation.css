@@ -43,3 +43,32 @@
   .study-detail-actions { gap: .5rem; }
   .study-detail-actions a, .study-detail-actions button { flex: 1 1 9rem; text-align: center; }
 }
+
+/* Past-paper position controls. Palette matches the study actions above. */
+.paper-scroll-dock {
+  position: fixed; z-index: 5;
+  right: 1rem; right: max(1rem, env(safe-area-inset-right));
+  bottom: 1rem; bottom: max(1rem, env(safe-area-inset-bottom));
+  display: flex; flex-direction: column; align-items: center; gap: .55rem;
+  margin: 0; pointer-events: none;
+}
+.paper-scroll-dock[hidden], .paper-scroll-button[hidden] { display: none !important; }
+.paper-scroll-button {
+  pointer-events: auto; width: 2.75rem; height: 2.75rem; min-width: 44px; min-height: 44px;
+  padding: 0; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%;
+  background: var(--paper); color: var(--accent); box-shadow: 0 .35rem 1rem rgba(30, 28, 24, .14);
+  font: inherit; font-size: 1.15rem; line-height: 1; cursor: pointer;
+  transition: background-color 180ms ease, border-color 180ms ease;
+}
+.paper-scroll-button:hover { background: var(--paper-deep); border-color: var(--accent); }
+.paper-scroll-button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+body:has(#paper-scroll-dock) .site-footer { padding-bottom: 5.25rem; }
+@media (max-width: 760px) {
+  .paper-scroll-dock {
+    right: .75rem; right: max(.75rem, env(safe-area-inset-right));
+    bottom: .85rem; bottom: max(.85rem, env(safe-area-inset-bottom));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .paper-scroll-button { transition: none; }
+}
