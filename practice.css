@@ -129,3 +129,12 @@ summary { cursor: pointer; font-size: .85rem; }
   .practice-feature a { width: max-content; }
 }
 @media (max-width: 380px) { .scope-tabs { grid-template-columns: 1fr 1fr; } .question-tags { gap: .3rem; } .question-tags span { padding: .2rem .4rem; } }
+
+
+/* Source groups use the same label/control rhythm on narrow screens. */
+.filter-panel, #exam-filters, #book-filters { min-width: 0; }
+.question-source { overflow-wrap: anywhere; }
+@media (max-width: 800px) {
+  #exam-filters, #book-filters { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); column-gap: 1rem; }
+  #exam-filters select, #book-filters select { margin: .3rem 0; }
+}

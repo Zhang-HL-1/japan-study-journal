@@ -16,7 +16,7 @@
     if (Array.isArray(value.days)) state.days = [...new Set(value.days.filter(d => typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d)))].sort().slice(-366);
     if (bank.some(q => q.id === value.current)) state.current = value.current;
     const f = value.filters || {};
-    for (const key of ['subject','chapter','difficulty','type','scope','order','search','sourceKind','school','major','book']) if (typeof f[key] === 'string') state.filters[key] = f[key].slice(0, 100);
+    for (const key of ['subject','chapter','difficulty','type','scope','order','search','sourceKind','school','major','book']) if (typeof f[key] === 'string') state.filters[key] = f[key].slice(0, key === 'major' ? 1000 : 200);
     return state;
   }
   function parseNumber(raw) {
