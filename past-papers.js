@@ -102,6 +102,7 @@
     if(get('paper-school-link'))get('paper-school-link').href='schools.html'+(state.school==='all'?'':'?'+new URLSearchParams({school:state.school}));
     updateOptions();renderSchools();const matches=core.filter(papers,universities,state);
     const note=get('paper-school-note'),schoolNote=data.schoolNotes?.[state.school];note.replaceChildren();note.hidden=!schoolNote;
+    if(get('paper-school-note-panel'))get('paper-school-note-panel').hidden=!schoolNote;
     if(schoolNote){note.append(el('p',schoolNote.text));(schoolNote.supplements||[]).forEach(file=>{const url=core.fileURL(file);if(url)note.append(link(file.label+' ↗',url));});}
     const heading=state.school==='all'?'全部学校':schoolName(state.school);get('paper-results-title').textContent=heading;
     get('paper-results-count').textContent=`${matches.length} 份真题${papers.length===0?' · 尚未添加真题':''}`;

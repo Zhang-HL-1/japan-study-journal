@@ -58,6 +58,7 @@ const root=path.join(__dirname,'..');
    await page.selectOption('#paper-year','2024');await page.locator('[data-school="keio"]').click();
    assert.equal(await page.locator('#paper-year').inputValue(),'all');assert.equal(await page.locator('#paper-graduate').inputValue(),'all');assert.equal(await page.locator('#paper-school-select').inputValue(),'keio');
    assert.equal(new URL(page.url()).searchParams.get('school'),'keio');assert.equal(await page.locator('[data-school="keio"]').getAttribute('aria-pressed'),'true');
+   assert.equal(await page.locator('#paper-school-note-panel').isVisible(),true);assert.equal(await page.locator('#paper-school-note').isHidden(),true);
    if(width===1440)await shot('papers-shortcuts-desktop',false);
    await page.reload();assert.equal(await page.locator('#paper-school-select').inputValue(),'keio');assert.equal(await page.locator('#paper-school-shortcuts').getAttribute('open'),null);
   }
