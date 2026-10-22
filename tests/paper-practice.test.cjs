@@ -1,9 +1,10 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
-const bank=require('../questions.js'),catalog=require('../past-papers-data.js'),core=require('../practice-core.js'),papers=require('../past-papers-core.js');
+const all=require('../questions.js'),catalog=require('../past-papers-data.js'),core=require('../practice-core.js'),papers=require('../past-papers-core.js');
+const bank=all.filter(q=>q.type==='paper');
 const builder=require('../scripts/build-paper-practice.cjs');
 test('all catalog question sets and PDFs are covered, ancillary-only entries are excluded',()=>{
  const expected=catalog.papers.filter(p=>p.files.some(f=>f.kind==='question'));
- assert.equal(expected.length,828);assert.equal(bank.length,expected.length);
+ assert.equal(expected.length,828);assert.equal(bank.length,expected.length);assert.equal(all.filter(q=>q.type==='card').length,14);
  assert.deepEqual(new Set(bank.map(q=>q.paper.catalogId)),new Set(expected.map(p=>p.id)));
  const sourceURLs=new Set(expected.flatMap(p=>p.files.filter(f=>f.kind==='question').map(f=>f.url)));
  assert.equal(sourceURLs.size,1118);
