@@ -156,4 +156,3 @@
 院校资料汇总位于 `schools.html`。更新三份资料目录后运行 `node scripts/build-school-index.cjs` 同步轻量索引；CI 会检查是否遗漏。页面设计、数据口径与第二阶段备份见 [docs/school-hub.md](docs/school-hub.md)。
 
 个人资料收藏位于 `desk.html`，记录保存在当前浏览器，可导出／导入合并。数据规则、限额及第三阶段回滚见 [docs/personal-study-desk.md](docs/personal-study-desk.md)。
-
