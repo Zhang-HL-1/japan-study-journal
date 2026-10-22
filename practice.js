@@ -106,7 +106,7 @@
     const paperCount = bank.filter(q => q.type === 'paper').length;
     const cardCount = bank.filter(q => q.type === 'card').length;
     $('bank-caption').textContent = bank.length ? `${paperCount} 套原卷 · ${cardCount} 道题目卡片 · ${bank.length - paperCount - cardCount} 道逐题练习` : '道题 · 等待添加题库';
-    $('bank-notice').textContent = paperCount ? `已接入 ${paperCount} 套原卷练习（按过去问目录分组），不是 ${paperCount} 道题。${cardCount ? `另有 ${cardCount} 道题目卡片（示范：東京理科大学・電気電子情報工学専攻・2025年度），按科目分开，不是 PDF 阅读器裁页。` : ''}按已知科目筛选整卷；其余合卷尚未逐题拆分。原卷和题目卡片的完成状态不计入正确率。` : bank.length ? '先独立作答，再对照参考答案。解答题需自行评估推导过程；练习正确率不是官方评分。' : '刷题功能已就绪，题库暂为空，后续加入你的题目后即可练习。解答题需对照解析自评，不是官方评分。';
+    $('bank-notice').textContent = paperCount ? `已接入 ${paperCount} 套原卷练习（按过去问目录分组），不是 ${paperCount} 道题。${cardCount ? `另有 ${cardCount} 道题目卡片。東京理科大学 2025 年度は、創域理工学研究科電気電子情報工学専攻の一般入試と、工学研究科電気工学専攻の一般入試・外国人留学生入試。一问一张原卷裁图，按科目筛选。` : ''}按已知科目筛选整卷；其余合卷尚未逐题拆分。原卷和题目卡片的完成状态不计入正确率。` : bank.length ? '先独立作答，再对照参考答案。解答题需自行评估推导过程；练习正确率不是官方评分。' : '刷题功能已就绪，题库暂为空，后续加入你的题目后即可练习。解答题需对照解析自评，不是官方评分。';
     drawMap();
   }
   function drawMap() {
@@ -380,7 +380,12 @@
   }
   if (typeof location !== 'undefined' && location.search) {
     const params = new URLSearchParams(location.search);
-    if (params.get('demo') === 'tus-2025-eei') {
+    const demos = {
+      'tus-2025-eei': ['創域理工学研究科', '電気電子情報工学専攻'],
+      'tus-2025-ee': ['工学研究科', '電気工学専攻']
+    };
+    const demoMajor = demos[params.get('demo')];
+    if (demoMajor) {
       state.filters.sourceKind = 'exam';
       state.filters.school = '東京理科大学';
       state.filters.paperYear = '2025';
@@ -394,7 +399,7 @@
       $('subject').value = [...$('subject').options].some(o => o.value === state.filters.subject) ? state.filters.subject : 'all';
       state.filters.subject = $('subject').value;
       updateSources();
-      const major = [...$('major').options].find(o => o.textContent.includes('創域理工学研究科') && o.textContent.includes('電気電子情報工学専攻'));
+      const major = [...$('major').options].find(o => o.textContent.includes(demoMajor[0]) && o.textContent.includes(demoMajor[1]));
       if (major) { state.filters.major = major.value; $('major').value = major.value; }
       updateChapters();
       const chapter = params.get('chapter');
