@@ -53,11 +53,11 @@ jobs:
           NODE_PATH: .qa/node_modules
           STUDY_ROOM_SCREENSHOTS: review
         run: |
+          node tests/github-sync.browser.cjs
           node tests/study-room.browser.cjs
           node tests/navigation.browser.cjs
           node tests/school-hub.browser.cjs
           node tests/study-desk.browser.cjs
-          node tests/github-sync.browser.cjs
       - name: Save desktop and mobile screenshots
         if: always()
         uses: actions/upload-artifact@v4
