@@ -2,7 +2,7 @@
  'use strict';
  const get=id=>document.getElementById(id),core=window.StudyDeskCore;
  if(!core){get('desk-status').textContent='书桌暂时无法加载，请刷新页面。';return;}
- const store=core.create(()=>window.localStorage);
+ const store=core.create(()=>window.localStorage,Date.now,()=>window.JournalSync?.changed());
  const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
  const date=time=>new Date(time).toLocaleString('zh-CN',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false});
  function report(result,message){get('desk-status').textContent=result.ok?message:'操作未完成，原记录未改动。'+result.error+'。可先导出备份；读取异常时，备份保留原始内容。';}
@@ -23,6 +23,7 @@
    action.addEventListener('click',()=>{const result=store.favorite(i,!i.favoriteAt);if(result.ok){render();get('desk-result-count').focus({preventScroll:true});}report(result,i.favoriteAt?'已取消收藏。':'已加入收藏。');});card.append(action);list.append(card);
   }
  }
+ window.addEventListener('journal-sync-applied',render);
  get('desk-query').addEventListener('input',render);get('desk-type').addEventListener('change',render);
  get('desk-export').addEventListener('click',()=>{
   const result=store.exportText();if(!result.ok){report(result);return;}
@@ -33,7 +34,7 @@
   const file=get('desk-file').files[0];if(!file)return;
   try{if(file.size>core.MAX_BYTES)throw Error('文件超过 1 MB');const result=store.importText(await file.text());if(result.ok)render();report(result,'备份已合并，相同资料只保留一条；现有收藏不会被删除。');}catch(error){report({ok:false,error:error.message});}finally{get('desk-file').value='';}
  });
- get('desk-clear-all').addEventListener('click',()=>{if(!window.confirm('清空本浏览器的全部书桌收藏？建议先导出备份。刷题记录不受影响。'))return;const result=store.clear();if(result.ok)render();report(result,'书桌已清空，刷题记录未改动。');});
+ get('desk-clear-all').addEventListener('click',()=>{if(!window.confirm('清空本浏览器的全部书桌收藏？连接 GitHub 后，此操作也会同步到其他设备。建议先导出备份。刷题记录不受影响。'))return;const result=store.clear();if(result.ok)render();report(result,'书桌已清空，刷题记录未改动。');});
  window.addEventListener('storage',event=>{if(event.key===core.KEY||event.key===null){render();const r=store.read();if(r.ok)report(r,'书桌已与其他标签页同步。');}});
  render();
 })();

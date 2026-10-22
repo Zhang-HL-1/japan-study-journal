@@ -128,3 +128,9 @@ test('source controls cascade, mix, restore and reset with real interaction hand
  await a.change('sourceKind','workbook');assert.equal(a.ids['exam-filters'].hidden,true);assert.equal(a.ids['question-grid'].children.length,1);
  await a.ids['reset-filters'].click();assert.equal(a.ids.sourceKind.value,'all');assert.equal(a.ids['question-grid'].children.length,3);
 });
+
+
+test('an empty or older question bank preserves synced records for unknown questions',()=>{
+ const saved={version:1,records:{'future-question':{note:'keep remote note',attempts:3,correct:false,wrongCount:1}},days:['2026-10-22'],filters:{}};
+ const a=boot([],JSON.stringify(saved));assert.equal(a.state().records['future-question'].note,'keep remote note');assert.equal(a.state().records['future-question'].attempts,3);
+});

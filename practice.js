@@ -27,9 +27,14 @@
     preserveUnreadable = true;
     storageMessage('无法读取浏览器记录。本次可继续练习，请导出记录备份；原记录未主动删除。', true);
   }
+  function storedState() {
+    let archived={};
+    try{const previous=JSON.parse(localStorage.getItem(key)||'null');if(previous?.records&&typeof previous.records==='object'&&!Array.isArray(previous.records))archived=Object.fromEntries(Object.entries(previous.records).filter(([id])=>!bank.some(q=>q.id===id)));}catch{}
+    return {...state,records:{...archived,...state.records}};
+  }
   function save() {
     if (preserveUnreadable) return;
-    try { localStorage.setItem(key, JSON.stringify(state)); storageFailed = false; }
+    try { localStorage.setItem(key, JSON.stringify(storedState())); storageFailed = false; window.JournalSync?.changed(); }
     catch (e) { storageFailed = true; storageMessage('浏览器无法保存记录（可能禁用了存储或空间已满）。请导出记录，避免刷新后丢失。', true); }
   }
   function option(select, value, label) { const el = document.createElement('option'); el.value = value; el.textContent = label; select.append(el); }
@@ -229,7 +234,7 @@
   $('reset-filters').addEventListener('click',resetFilters); $('empty-reset').addEventListener('click',resetFilters);
   $('refresh-list').addEventListener('click', () => rebuild());
   $('export-progress').addEventListener('click', () => {
-    const content = JSON.stringify({ ...state, exportedAt: new Date().toISOString() },null,2);
+    const content = JSON.stringify({ ...storedState(), exportedAt: new Date().toISOString() },null,2);
     const url = URL.createObjectURL(new Blob([content], { type: 'application/json' }));
     const a = document.createElement('a'); a.href = url; a.download = `修考练习记录-${localDay()}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url),1000);
     if (!storageFailed) storageMessage('记录已导出。请妥善保管，文件包含你的笔记和作答记录。');
@@ -244,6 +249,10 @@
       state = imported; preserveUnreadable = false; state.filters = { ...defaults }; resetFilters();
       if (!storageFailed) storageMessage('记录导入成功。作答、错题、收藏和笔记已恢复。');
     } catch (e) { storageMessage(`导入失败：${e instanceof SyntaxError ? 'JSON 格式无效。' : e.message} 当前记录未改变。`,true); }
+  });
+  window.addEventListener?.('journal-sync-status',event=>{const s=event.detail;if(s?.connected&&!storageFailed)storageMessage(s.error?'记录已保存在本机，GitHub 同步未完成：'+s.error:s.phase==='syncing'?'记录已保存在本机，正在同步到 GitHub…':'记录已保存在本机，GitHub 上次同步：'+(s.lastSyncAt?new Date(s.lastSyncAt).toLocaleString('zh-CN'):'等待首次同步'),!!s.error);});
+  window.addEventListener?.('journal-sync-applied',()=>{
+    try{const saved=localStorage.getItem(key);if(!saved)return;const incoming=core.cleanState(JSON.parse(saved),bank);state.records=incoming.records;state.days=incoming.days;preserveUnreadable=false;rebuild(true);}catch{storageMessage('同步记录暂未能显示，请导出备份后刷新。',true);}
   });
   rebuild(true);
 })();
