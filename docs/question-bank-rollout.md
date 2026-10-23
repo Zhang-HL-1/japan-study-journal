@@ -20,7 +20,9 @@
 
 2012–2015 年实施的旧理工学研究科電気電子工学専攻・電子物理工学専攻分科卷见 `docs/question-bank-batch-science-tokyo-ee-2012-2015.md`。目录 `yearBasis=exam`。每年三份独立 PDF：午前电气数学（2015 年封面印「数学」）、午后电气回路、午后电磁气学。入口示例：`question-practice.html?paper=science-tokyo-ee-2012-sugaku`。
 
-2005–2011 年实施的同一旧研究科两科分卷见 `docs/question-bank-batch-science-tokyo-ee-2005-2011.md`。每年只有午前电气回路和午后电磁气学，没有单独的电气数学。入口示例：`question-practice.html?paper=science-tokyo-ee-2005-kairo`。1990 年代碎片合册、1999–2000 摘录和 2001–2004 基础／专业合卷不在该批。
+2005–2011 年实施的同一旧研究科两科分卷见 `docs/question-bank-batch-science-tokyo-ee-2005-2011.md`。每年只有午前电气回路和午后电磁气学，没有单独的电气数学。入口示例：`question-practice.html?paper=science-tokyo-ee-2005-kairo`。1990 年代碎片合册和 1999–2000 摘录不在该批。
+
+2001–2004 年实施的上午基础领域／下午专业领域合卷见 `docs/question-bank-batch-science-tokyo-ee-2001-2004.md`。每年两份 question PDF，不按后来的单科分卷拆开。入口示例：`question-practice.html?paper=science-tokyo-ee-2001-am`。
 
 ## 可移交的实现
 
