@@ -22,7 +22,7 @@ description: 将留日手记的日本大学院过去问 PDF 整理为有出处�
 - 跨页题按原题顺序合并；图若在另一页也必须纳入。共用说明在 `commonRegions`。封面、说明、订正页单独识别；订正影响题干时保留订正材料并标明关系，不自行静默改题。
 - 只处理 `files.kind === 'question'` 的原卷。答案、解析、评分、AI 生成练习均不在本阶段范围。
 - 年份沿用目录 `yearBasis`、入学年度和原始证据，不把入学年推成实施年。科目以题面/目录证据判定；无法判断则留待复核。
-- 不改变原 PDF、过去问目录、旧整卷练习记录或 Gist 同步协议。Demo 用独立记录键；逐题记录接入同步需要单独的迁移设计。
+- 不改变原 PDF、过去问目录、旧整卷练习记录或 Gist 同步协议。逐题记录使用 `question-practice:v1`，并兼容旧的 `question-demo:v1`；接入 Gist 同步仍要单独的迁移设计。
 - 稳定题目 ID 不随排序、标题翻译、裁图微调而变化。重复共享 PDF 先按文件哈希/页码/题号核对，保留多个目录引用，避免重复计题。
 
 ## 一批的执行方式
@@ -32,7 +32,7 @@ description: 将留日手记的日本大学院过去问 PDF 整理为有出处�
 3. 编写清单，记录来源哈希、原题号、1-based PDF 页码、裁切坐标、全页 coverage 和核对证据。遇到看不清、缺页、跨页归属不明，只记录阻塞项，继续独立可做部分，不猜测补齐。
 4. 先用 draft 清单预览：`python3 <skill>/scripts/build_question_assets.py --repo <repo> --manifest data/question-manifests/<id>.json --preview-dir <temporary-directory>`。依赖 `PyMuPDF==1.26.5`。预览保留 draft 状态，输出到生产 assets/data 之外的临时目录，不加入索引。
 5. 逐张查看生成图片，对照整页核对，实际通过后填写 `review.status=verified` 与方法、日期、检查记录，并将 coverage 的 `reviewed` 设为 true。再不带 `--preview-dir` 运行生成器，生成正式 `assets/question-bank/<id>/paper.json` 和 PNG。未审核清单不能正式生成。
-6. 通过验收后登记 `question-bank-index.json`。当前 demo 渲染器由 `question-practice.html?paper=<id>&q=<questionId>` 加载单卷 JSON；只按需加载当前题，不把全部题图一次塞入页面。批量检索层另按实施计划扩展。
+6. 通过验收后登记 `question-bank-index.json`。刷题页会列出索引中的全部卷。`question-practice.html?paper=<id>&q=<questionId>` 加载单卷 JSON；只按需加载当前题，不把全部题图一次塞入页面，也不要把逐题卷塞回整卷 PDF 题库。
 7. 运行数据/浏览器测试，检查实际截图。交付批次报告：PDF 数、大题数、未完成项、校对方法、来源与代码变更、验证结果。发布/合并遵从本次用户授权，skill 本身不扩大授权。
 
 ## 工具的能力边界

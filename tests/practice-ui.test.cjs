@@ -29,7 +29,7 @@ class Element {
     return elements.filter(el=>selector==='*' || selector===el.tag || (selector.startsWith('.') && el.className.split(' ').includes(selector.slice(1))));
   }
 }
-function boot(bank=fixtures,storageValue=null,blockStorage=false) {
+function boot(bank=fixtures,storageValue=null,blockStorage=false,options={}) {
   const html=fs.readFileSync(path.join(root,'drill.html'),'utf8'); const ids={};
   for(const m of html.matchAll(/<([a-z][a-z0-9]*)\b([^>]*\bid="([^"]+)"[^>]*)>/g)) { const el=new Element(m[1]); el.id=m[3]; el.hidden=/\bhidden\b/.test(m[2]); ids[el.id]=el; }
   for(const m of html.matchAll(/<select id="([^"]+)"[^>]*>([\s\S]*?)<\/select>/g)) {
@@ -37,7 +37,8 @@ function boot(bank=fixtures,storageValue=null,blockStorage=false) {
     ids[m[1]].value=ids[m[1]].options[0].value;
   }
   const scopes=['all','unanswered','wrong','bookmarked'].map(scope=>{const e=new Element('button');e.dataset={scope};return e;});
-  const noteDetails=new Element('details'); const timers=[]; const blobs=[]; let stored=storageValue;
+  const noteDetails=new Element('details'); const timers=[]; const blobs=[];
+  const practiceKey='japan-study-journal:practice:v1'; const store=new Map(options.extraStorage||[]); if(storageValue!=null) store.set(practiceKey,storageValue);
   const descendants=()=>Object.values(ids).flatMap(e=>[e,...e.querySelectorAll('*')]);
   const document={getElementById:id=>ids[id] || null,createElement:tag=>{const e=new Element(tag);if(tag==='input'||tag==='textarea')Object.defineProperty(e,'id',{set(id){this._id=id;ids[id]=this;},get(){return this._id;}});return e;},
     querySelector(selector){if(selector==='.note-details')return noteDetails;return this.querySelectorAll(selector)[0]||null;},
@@ -48,9 +49,11 @@ function boot(bank=fixtures,storageValue=null,blockStorage=false) {
       if(selector==='#answer-inputs input, #answer-inputs textarea')return ids['answer-inputs'].querySelectorAll('*').filter(e=>e.tag==='input'||e.tag==='textarea');
       return descendants().filter(e=>e.tag===selector);
     }};
-  const context={window:{PastPapersCore:require('../past-papers-core.js'),QUESTION_BANK:bank,QUESTION_SUBJECTS:['S1','S2']},document,localStorage:{getItem:()=>stored,setItem:(k,v)=>{if(blockStorage)throw Error('blocked');stored=v;}},Date,Blob,URLSearchParams,URL:{createObjectURL:blob=>{blobs.push(blob);return 'blob:test';},revokeObjectURL(){}},console,confirm:()=>true,matchMedia:()=>({matches:true}),setTimeout:f=>{timers.push(f);return timers.length;},clearTimeout:i=>{timers[i-1]=null;}};
+  document.documentElement={dataset:{}};
+  const context={window:{PastPapersCore:require('../past-papers-core.js'),QuestionBank:require('../question-bank.js'),QUESTION_BANK:bank,QUESTION_SUBJECTS:['S1','S2']},document,localStorage:{getItem:k=>store.has(k)?store.get(k):null,setItem:(k,v)=>{if(blockStorage)throw Error('blocked');store.set(k,v);}},sessionStorage:{getItem:()=>null,setItem(){}},Date,Blob,URLSearchParams,URL:{createObjectURL:blob=>{blobs.push(blob);return 'blob:test';},revokeObjectURL(){}},console,confirm:()=>true,matchMedia:()=>({matches:true}),setTimeout:f=>{timers.push(f);return timers.length;},clearTimeout:i=>{timers[i-1]=null;}};
+  if(options.fetch){ context.fetch=options.fetch; context.window.fetch=options.fetch; }
   vm.createContext(context); for(const file of ['practice-core.js','practice.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
-  const app={ids,scopes,blobs,state:()=>stored?JSON.parse(stored):null,raw:()=>stored,
+  const app={ids,scopes,blobs,store,dataset:document.documentElement.dataset,state:()=>store.has(practiceKey)?JSON.parse(store.get(practiceKey)):null,raw:()=>store.has(practiceKey)?store.get(practiceKey):null,ready:context.window.__questionBankReady,
     async change(id,value){ids[id].value=value;await ids[id].fire('change');},
     async input(id,value){ids[id].value=value;await ids[id].fire('input');},
     async submit(){await ids['answer-form'].fire('submit');},
@@ -172,4 +175,50 @@ test('named practice picker navigates, updates completion and exits focus withou
   await a.ids['focus-practice'].click();
   assert.equal(a.ids['focus-practice'].getAttribute('aria-pressed'),'false');
   assert.equal(a.state().records['qa-number'].note,'keep this note');
+});
+
+test('indexed question papers filter beside whole papers and link out without PDF or practice records', async () => {
+  const paper = require('../questions.js').find(q => q.id === 'paper:kobe-ee-2026');
+  const index = require('../question-bank-index.json');
+  const legacyKey = 'japan-study-journal:question-demo:v1';
+  const legacy = JSON.stringify({ version: 1, records: {
+    'kobe-ee-2026-denjiki-q1': { completed: true, bookmarked: true, note: '边界', updatedAt: 5 },
+    'kobe-ee-2026-denjiki-q2': { completed: true, bookmarked: false, note: '', updatedAt: 6 }
+  } });
+  const fetchImpl = async url => ({ ok: true, json: async () => JSON.parse(fs.readFileSync(path.join(root, String(url).split('?')[0]), 'utf8')) });
+  const a = boot([paper], null, false, { fetch: fetchImpl, extraStorage: [[legacyKey, legacy]] });
+  await a.ready;
+  assert.equal(a.dataset.questionBank, 'ready');
+  assert.equal(String(a.ids['bank-size'].textContent), String(1 + index.papers.length));
+  assert.equal(a.dataset.questionBank, 'ready');
+  await a.change('practiceMode', 'questions');
+  await a.change('school', '神戸大学');
+  await a.change('paperYear', '2026');
+  await a.change('subject', '电磁学');
+  assert.equal(a.ids['question-grid'].children.length, 1);
+  assert.equal(a.ids['paper-practice'].hidden, true);
+  assert.equal(a.ids['question-set-practice'].hidden, false);
+  assert.equal(a.ids['practice-paper-reader'].children.length, 0);
+  assert.equal(a.ids['question-set-links'].querySelector('a').href, 'question-practice.html?paper=kobe-ee-2026-denjiki');
+  assert.match(a.ids['question-set-items'].querySelector('a').href, /q=kobe-ee-2026-denjiki-q1/);
+  assert.match(a.ids['question-set-progress'].textContent, /2 \/ 2/);
+  assert.equal(a.state().records['kobe-ee-2026-denjiki'], undefined);
+  assert.equal(a.state().current, 'kobe-ee-2026-denjiki');
+  await a.ids.bookmark.click();
+  assert.equal(a.state().records['kobe-ee-2026-denjiki'], undefined);
+  await a.change('school', '東京理科大学');
+  await a.change('paperYear', 'all');
+  await a.change('subject', '电子电路');
+  assert.equal(a.ids['question-grid'].children.length, 1);
+  assert.match(a.ids['question-title'].textContent, /电子电路/);
+  await a.change('subject', '电路与模拟电子');
+  assert.equal(a.ids['question-grid'].children.length, 2);
+  await a.change('practiceMode', 'paper');
+  await a.change('school', '神戸大学');
+  await a.change('paperYear', '2026');
+  await a.change('subject', '电磁学');
+  assert.equal(a.ids['question-grid'].children.length, 1);
+  assert.equal(a.ids['paper-practice'].hidden, false);
+  assert.equal(a.ids['question-set-practice'].hidden, true);
+  assert.equal(a.ids['practice-paper-reader'].children.length, 1);
 });

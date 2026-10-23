@@ -81,7 +81,7 @@
 
 ## 刷题功能
 
-- 原卷练习已接入 12 所学校的 828 套真题，覆盖 1,118 份不重复试题 PDF；按目录组计数，不按逐题计数。3 组仅说明／解答的目录不作为练习。逐题题目暂未添加。
+- 原卷练习已接入 12 所学校的 828 套真题，覆盖 1,118 份不重复试题 PDF；按目录组计数，不按逐题计数。3 组仅说明／解答的目录不作为练习。已拆好的逐题卷在刷题页按学校、专攻、年份和科目进入，不替换整卷 PDF。
 - 按学校、研究科／专攻、原卷索引年份、已知科目或关键词筛选，支持顺序和随机练习。合卷支持多科匹配；未细分科目不推断，原始名称与来源说明完整保留。
 - 练习页内阅读原卷、切换文件、打开或下载 PDF；已有参考解答和补充资料保留链接。原卷完成标记不计入正确率，可保存收藏、笔记与备份。
 - 单选题、数值题自动判题；数值题支持小数、科学计数法、分数及题目规定的误差。输入时不要带单位。
@@ -96,7 +96,7 @@
 
 ## 扩充题库
 
-原卷练习由 `scripts/build-paper-practice.cjs` 从过去问目录生成至 `paper-practice-data.js`，通过 `questions.js` 加载；在 `questions.js` 的 `individualQuestions` 中添加后续逐题内容。所有题目都是静态数据。逐题内容包含稳定的 `id`、`subject`、`chapter`、`difficulty`、`type`、`title`、`prompt`、`answerText`、`explanation`（步骤数组）及 `hint`。
+原卷练习由 `scripts/build-paper-practice.cjs` 从过去问目录生成至 `paper-practice-data.js`，通过 `questions.js` 加载。已校对的逐题卷登记在 `question-bank-index.json`，由刷题页分开列出。以后的选择题、数值题和解答题仍加在 `questions.js` 的 `individualQuestions`。这些题目包含稳定的 `id`、`subject`、`chapter`、`difficulty`、`type`、`title`、`prompt`、`answerText`、`explanation`（步骤数组）及 `hint`。
 
 - `choice`：添加 `options` 数组及从 0 开始的正确选项 `answer`。
 - `numeric`：添加数值 `answer`、绝对误差 `tolerance`，可选 `unit`。

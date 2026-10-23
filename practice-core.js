@@ -64,7 +64,7 @@
     return true;
   }
   const subjectsOf = q => Array.isArray(q.subjects) && q.subjects.length ? q.subjects : [q.subject];
-  const isDone = (q, r = {}) => q.type === 'paper' ? r.completed === true : r.attempts > 0;
+  const isDone = (q, r = {}) => q.type === 'paper' || q.type === 'questionSet' ? r.completed === true : r.attempts > 0;
   function paperSetForCatalog(catalogId, bank) {
     if (typeof catalogId !== 'string' || !catalogId || !Array.isArray(bank)) return null;
     return bank.find(q => q && q.type === 'paper' && q.paper && q.paper.catalogId === catalogId) || null;
@@ -77,6 +77,8 @@
       if (filters.subject && filters.subject !== 'all' && !subjectsOf(q).includes(filters.subject)) return false;
       if (filters.paperYear && filters.paperYear !== 'all' && String(q.paper?.year) !== filters.paperYear) return false;
       if (['chapter','difficulty','type'].some(k => filters[k] && filters[k] !== 'all' && q[k] !== filters[k])) return false;
+      if (filters.practiceMode === 'paper' && q.type !== 'paper') return false;
+      if (filters.practiceMode === 'questions' && q.type !== 'questionSet') return false;
       if (filters.scope === 'wrong' && r.correct !== false) return false;
       if (filters.scope === 'bookmarked' && !r.bookmarked) return false;
       if (filters.scope === 'unanswered' && isDone(q, r)) return false;
@@ -103,7 +105,7 @@
   function stats(bank, state) {
     const list = bank.map(q => state.records[q.id] || {});
     const attempted = bank.filter(q => isDone(q, state.records[q.id])).length;
-    const graded = bank.filter(q => q.type !== 'paper' && state.records[q.id]?.attempts > 0).length;
+    const graded = bank.filter(q => q.type !== 'paper' && q.type !== 'questionSet' && state.records[q.id]?.attempts > 0).length;
     const correct = list.filter(r => r.attempts > 0 && r.correct === true).length;
     return { total: bank.length, attempted, correct, wrong: list.filter(r => r.correct === false).length, bookmarked: list.filter(r => r.bookmarked).length, accuracy: graded ? Math.round(correct/graded*100) : 0 };
   }

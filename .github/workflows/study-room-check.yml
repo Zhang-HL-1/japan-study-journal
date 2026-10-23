@@ -22,6 +22,7 @@ on:
       - 'campus-map-data.js'
       - 'questions.js'
       - 'question-practice*'
+      - 'question-bank.js'
       - 'question-bank-index.json'
       - 'data/question-manifests/**'
       - 'assets/question-bank/**'

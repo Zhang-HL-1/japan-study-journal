@@ -201,6 +201,7 @@ summary { cursor: pointer; font-size: .85rem; }
 .drill-page .workspace, .drill-page .filter-panel details { min-width: 0; }
 @media (max-width: 800px) { .drill-page .practice-layout { grid-template-columns: minmax(0,1fr); } }
 
-.question-demo-entry { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem 1rem; margin:0 0 1rem; font-size:.8rem; }
-.question-demo-entry a { color:#4d6250; font-weight:600; border-bottom:1px solid #bdc8b4; padding-bottom:.2rem; }
-.question-demo-entry span { color:var(--muted); font-size:.75rem; }
+.question-set-items { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: .45rem; }
+.question-set-items a { display: block; padding: .75rem .9rem; border: 1px solid var(--line); border-radius: .7rem; line-height: 1.5; }
+.question-set-items a:hover { border-color: #b7c4b2; }
+#question-set-progress { color: var(--muted); font-size: .78rem; line-height: 1.6; }
