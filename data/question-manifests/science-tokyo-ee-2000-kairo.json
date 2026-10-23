@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2000-kairo",
+  "title": "东京科学大学 · 2000 年实施 · 电气回路摘录",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2000",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2000,
+    "yearBasis": "exam",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "H13 電気回路.pdf",
+    "pdf": "assets/past-papers/documents/27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919.pdf",
+    "sha256": "27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919",
+    "pageCount": 1,
+    "note": "目录 science-tokyo-ee-2000，yearBasis=exam，yearEvidence=source-directory，目录 year/paperYear/examYear=2000，originalYear=2001年度入学，admissionYears=[2001]，completeness=partial。原文件名 H13 電気回路.pdf。这一页没有印出平成日期或大修，也没有印出大学名。年份沿用目录，不从 H13 另写一套实施年。学校名用目录的東京科学大学；研究科和专攻用目录。科目与目录文件标签电气回路一致。页上是问题2，含図2.1。单页摘录，不是全年试卷。原 PDF 没有 /Rotate。没有订正页。"
+  },
+  "renderScale": 1.0,
+  "commonRegions": [],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2000-kairo-q2",
+      "number": "2.",
+      "title": "电气回路：开关电路与戴维南等效",
+      "titleKind": "editorial",
+      "topics": [
+        "电气回路",
+        "戴维南等效"
+      ],
+      "summary": "原卷题号印作「2.」。这一 PDF 只有一页，含図2.1。页上没有印出平成日期或大修。年份沿用目录 year=2000、yearBasis=exam、yearEvidence=source-directory。中文标题只用于导航，作答以日文原题为准。小问不拆题。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            1.5,
+            1.5,
+            1654.0,
+            2398
+          ],
+          "label": "PDF 第1页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页与裁图的首行、末行。题号、小问、图号在对应题内。跨页只合并没有新大题号的续页和图。同一页的新大题号已切开。中文标题不是原题译文。手写笔迹保留在裁图里，不当作订正。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "science-tokyo-ee-2000-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白在裁图外。这一 PDF 只有这一页摘录，没有封面，也没有另一道大题。",
+      "reviewed": true
+    }
+  ]
+}

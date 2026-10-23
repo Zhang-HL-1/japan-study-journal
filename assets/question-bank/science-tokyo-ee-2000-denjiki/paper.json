@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2000-denjiki",
+  "title": "东京科学大学 · 2000 年实施 · 电磁气学摘录",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2000",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2000,
+    "yearBasis": "exam",
+    "subject": "电磁气学",
+    "originalSubject": "電磁気学",
+    "originalName": "H13 電磁気.pdf",
+    "pdf": "assets/past-papers/documents/1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe.pdf",
+    "sha256": "1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe",
+    "pageCount": 1,
+    "note": "目录 science-tokyo-ee-2000，yearBasis=exam，yearEvidence=source-directory，目录 year/paperYear/examYear=2000，originalYear=2001年度入学，admissionYears=[2001]，completeness=partial。原文件名 H13 電磁気.pdf。这一页没有印出平成日期或大修，也没有印出大学名。年份沿用目录，不从 H13 另写一套实施年。学校名用目录的東京科学大学；研究科和专攻用目录。科目与目录文件标签电磁气学一致。页上是问题3，含図3.1。单页摘录，不是全年试卷。原 PDF 没有 /Rotate。没有订正页。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2000-denjiki-q3",
+      "number": "3.",
+      "title": "电磁气：带电圆环的电场与旋转磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁气",
+        "电场",
+        "磁场"
+      ],
+      "summary": "原卷题号印作「3.」。这一 PDF 只有一页，含図3.1。页上没有印出平成日期或大修。年份沿用目录 year=2000、yearBasis=exam、yearEvidence=source-directory。中文标题只用于导航，作答以日文原题为准。小问不拆题。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页与裁图的首行、末行。题号、小问、图号在对应题内。跨页只合并没有新大题号的续页和图。同一页的新大题号已切开。中文标题不是原题译文。手写笔迹保留在裁图里，不当作订正。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2000-denjiki/science-tokyo-ee-2000-denjiki-q3-01.png",
+          "page": 1,
+          "box": [
+            1.5,
+            129,
+            1708.5,
+            2411
+          ],
+          "width": 1708,
+          "height": 2282,
+          "label": "PDF 第1页",
+          "sha256": "490ef248186e520c1ae8d290e6999d3d0f53d64a887e56550e9d7af31850bc96"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "science-tokyo-ee-2000-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白在裁图外。这一 PDF 只有这一页摘录，没有封面，也没有另一道大题。",
+      "reviewed": true
+    }
+  ]
+}

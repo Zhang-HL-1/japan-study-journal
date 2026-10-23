@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-1999-denjiki",
+  "title": "东京科学大学 · 1999 年实施 · 电磁气学摘录",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-1999",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 1999,
+    "yearBasis": "exam",
+    "subject": "电磁气学",
+    "originalSubject": "電磁気学",
+    "originalName": "H12 電磁気.pdf",
+    "pdf": "assets/past-papers/documents/c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e.pdf",
+    "sha256": "c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e",
+    "pageCount": 1,
+    "note": "目录 science-tokyo-ee-1999，yearBasis=exam，yearEvidence=source-directory，目录 year/paperYear/examYear=1999，originalYear=2000年度入学，admissionYears=[2000]，completeness=partial。原文件名 H12 電磁気.pdf。这一页没有印出平成日期或大修，也没有印出大学名。年份沿用目录，不从 H12 另写一套实施年。学校名用目录的東京科学大学；研究科和专攻用目录。科目与目录文件标签电磁气学一致。页上是问题1，含図1.1、図1.2。手写演算叠在题干、公式和图上，裁图保留整题；笔迹不是卷面订正。单页摘录，不是全年试卷。原 PDF 没有 /Rotate。没有订正页。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-1999-denjiki-q1",
+      "number": "1.",
+      "title": "电磁气：同轴圆筒的电场",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁气",
+        "同轴圆筒"
+      ],
+      "summary": "原卷题号印作「1.」。这一 PDF 只有一页，含図1.1、図1.2。手写演算叠在题干和图上，裁图保留整页题面。页上没有印出平成日期或大修。中文标题只用于导航，作答以日文原题为准。小问不拆题。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页与裁图的首行、末行。题号、小问、图号在对应题内。跨页只合并没有新大题号的续页和图。同一页的新大题号已切开。中文标题不是原题译文。手写笔迹保留在裁图里，不当作订正。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-1999-denjiki/science-tokyo-ee-1999-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            1.5,
+            11,
+            1679.5,
+            2398
+          ],
+          "width": 1679,
+          "height": 2387,
+          "label": "PDF 第1页",
+          "sha256": "0a9219ca1f3429fd08da1a598216c4affca88bd3e327e150051cc58332b86d79"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "science-tokyo-ee-1999-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白在裁图外。这一 PDF 只有这一页摘录，没有封面，也没有另一道大题。",
+      "reviewed": true
+    }
+  ]
+}

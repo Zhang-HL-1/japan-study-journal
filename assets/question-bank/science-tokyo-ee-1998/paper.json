@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-1998",
+  "title": "东京科学大学 · 1998 年实施 · 上午专业科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-1998",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 1998,
+    "yearBasis": "exam",
+    "subject": "上午专业科目",
+    "originalSubject": "専門科目（午前）",
+    "originalName": "H03-11一部.pdf",
+    "pdf": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+    "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
+    "pageCount": 37,
+    "note": "目录 science-tokyo-ee-1998，yearBasis=exam，目录 year/paperYear/examYear=1998，originalYear=1999年度入学，admissionYears=[1999]，completeness=partial。PDF 第34页印「専門科目（午前）」「11 大修」「時間 午前9時30分～11時00分」「電気・情報系 A群」，以及電気・電子工学、電子物理工学、情報工学。11 大修对应目录里的1999年度入学。封面没有印出平成日期，也没有印出大学名和「理工学研究科」。学校名用目录的東京科学大学；研究科和专攻用目录。目录页段是第34—37页，直到这份合订本结束。第35页是问题1，第36页是问题2，第37页是问题3。合订扫描件上有手写批注。笔迹若叠在题干、公式或图上，裁图仍保留整题；这些笔迹不是卷面订正，不据此改题。同一页出现新的大题号时按题号切开。封面写明 A 与 B 二选一时，A、B 各算一道大题，小问不拆。原 PDF 没有 /Rotate。没有订正页。封面注意事项不是大题。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-1998/common-01.png",
+      "page": 34,
+      "box": [
+        7.0,
+        90,
+        574.5,
+        404
+      ],
+      "width": 1420,
+      "height": 785,
+      "label": "封面：11大修午前",
+      "sha256": "0b8b85cccbc1d7d58b0b5abe8cf706a9a1e59e5149cab02c4ccae0868cbcaf6b"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-1998-q1",
+      "number": "1.",
+      "title": "电气回路：回路、谐振与等效",
+      "titleKind": "editorial",
+      "topics": [
+        "电气回路"
+      ],
+      "summary": "原卷题号印作「1.」。PDF 第35页，含図1.1至図1.4。下一页另起问题2。中文标题只用于导航，作答以日文原题为准。小问不拆题。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页与裁图的首行、末行。题号、小问、图号在对应题内。跨页只合并没有新大题号的续页和图。同一页的新大题号已切开。中文标题不是原题译文。手写笔迹保留在裁图里，不当作订正。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-1998/science-tokyo-ee-1998-q1-01.png",
+          "page": 35,
+          "box": [
+            5.5,
+            59,
+            555.0,
+            739
+          ],
+          "width": 1375,
+          "height": 1701,
+          "label": "PDF 第35页",
+          "sha256": "1714dac2931179d4df0b462592caaa6396bb20c6e19e3f46f3ed7b97d596eb05"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-1998-q2",
+      "number": "2.",
+      "title": "电磁气：电偶极子",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁气",
+        "电偶极子"
+      ],
+      "summary": "原卷题号印作「2.」。PDF 第36页，含図2.1、図2.2。下一页另起问题3。中文标题只用于导航，作答以日文原题为准。小问不拆题。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页与裁图的首行、末行。题号、小问、图号在对应题内。跨页只合并没有新大题号的续页和图。同一页的新大题号已切开。中文标题不是原题译文。手写笔迹保留在裁图里，不当作订正。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-1998/science-tokyo-ee-1998-q2-01.png",
+          "page": 36,
+          "box": [
+            74.5,
+            82.0,
+            579.0,
+            729
+          ],
+          "width": 1262,
+          "height": 1618,
+          "label": "PDF 第36页",
+          "sha256": "1c9c47ec8c8adb96160ba897932fcb25d4d25055d57aac137edc77e1a1152c91"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-1998-q3",
+      "number": "3.",
+      "title": "数学：傅里叶级数",
+      "titleKind": "editorial",
+      "topics": [
+        "傅里叶级数"
+      ],
+      "summary": "原卷题号印作「3.」。PDF 第37页，是合订本最后一页。中文标题只用于导航，作答以日文原题为准。小问不拆题。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页与裁图的首行、末行。题号、小问、图号在对应题内。跨页只合并没有新大题号的续页和图。同一页的新大题号已切开。中文标题不是原题译文。手写笔迹保留在裁图里，不当作订正。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-1998/science-tokyo-ee-1998-q3-01.png",
+          "page": 37,
+          "box": [
+            5.5,
+            16,
+            564.0,
+            548
+          ],
+          "width": 1397,
+          "height": 1330,
+          "label": "PDF 第37页",
+          "sha256": "a93274041a137d937bf7962b4558ff04817e2457267ec440d301ccb998b4a666"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1990 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1990 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1990 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "目录写明合集第4—5页无明示年度，不归入1991或1992。页上没有印出大修或平成日期。第4页是电路问题3，第5页是安培定律问题4。不把相邻平成2年页段的年度补到这两页，也不另造目录年。本卷不裁。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "目录写明合集第4—5页无明示年度，不归入1991或1992。页上没有印出大修或平成日期。第4页是电路问题3，第5页是安培定律问题4。不把相邻平成2年页段的年度补到这两页，也不另造目录年。本卷不裁。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1993 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页只有底边扫描黑线，没有题面，不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1993 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1993 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1993 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1993 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1993 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1994 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1994 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1994 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1994 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1994 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1995 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1995 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1995 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1995 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 22,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1996 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 23,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1996 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 24,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页只有底边扫描黑线，没有题面，不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 25,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1996 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 26,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页只有底边扫描黑线，没有题面，不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 27,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1996 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 28,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1996 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 29,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1997 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 30,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1997 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 31,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1997 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 32,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1997 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 33,
+      "questionIds": [],
+      "common": false,
+      "excluded": "这一页属于目录 science-tokyo-ee-1997 的页段，不计入本卷。",
+      "reviewed": true
+    },
+    {
+      "page": 34,
+      "questionIds": [],
+      "common": true,
+      "excluded": "页边空白、孤立页码和底边扫描黑线在裁图外。本页没有未归属的大题。",
+      "reviewed": true
+    },
+    {
+      "page": 35,
+      "questionIds": [
+        "science-tokyo-ee-1998-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白、孤立页码和底边扫描黑线在裁图外。本页没有未归属的大题。",
+      "reviewed": true
+    },
+    {
+      "page": 36,
+      "questionIds": [
+        "science-tokyo-ee-1998-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白、孤立页码和底边扫描黑线在裁图外。本页没有未归属的大题。",
+      "reviewed": true
+    },
+    {
+      "page": 37,
+      "questionIds": [
+        "science-tokyo-ee-1998-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白、孤立页码和底边扫描黑线在裁图外。本页没有未归属的大题。",
+      "reviewed": true
+    }
+  ]
+}
