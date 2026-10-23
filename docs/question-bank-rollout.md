@@ -24,6 +24,8 @@
 
 2001–2004 年实施的上午基础领域／下午专业领域合卷见 `docs/question-bank-batch-science-tokyo-ee-2001-2004.md`。每年两份 question PDF，不按后来的单科分卷拆开。入口示例：`question-practice.html?paper=science-tokyo-ee-2001-am`。
 
+1990 与 1993–2000 年实施的旧理工学研究科电气电子、电子物理相关卷见 `docs/question-bank-batch-science-tokyo-ee-pre-2001.md`。1990 与 1993–1998 共用一份 37 页合订扫描，按目录页段分卷；1999–2000 是单页摘录。合订本第 4–5 页没有明示年度，保持 blocked。入口示例：`question-practice.html?paper=science-tokyo-ee-1993`。
+
 ## 可移交的实现
 
 | 内容 | 文件 |
