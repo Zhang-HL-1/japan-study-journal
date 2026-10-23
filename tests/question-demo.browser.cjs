@@ -53,7 +53,7 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
   for (const id of ids) assert.ok(hrefs.includes('question-practice.html?paper='+id),id);
   assert.doesNotMatch(await chooser.locator('body').innerText(),/DEMO|Demo|样例/);await chooser.close();
   const tusPapers=[['tus-ee-2025-denshi',4],['tus-ee-2025-kairo',3],['tus-ee-2025-sugaku',4],['tus-ee-2025-denjiki',3],['tus-ee-2025-intl',1]];
-  const scienceTokyoPapers=[['science-tokyo-ee-2005-kairo',2],['science-tokyo-ee-2005-denjiki',3],['science-tokyo-ee-2006-kairo',4],['science-tokyo-ee-2006-denjiki',2],['science-tokyo-ee-2007-kairo',3],['science-tokyo-ee-2007-denjiki',2],['science-tokyo-ee-2008-kairo',3],['science-tokyo-ee-2008-denjiki',2],['science-tokyo-ee-2009-kairo',2],['science-tokyo-ee-2009-denjiki',2],['science-tokyo-ee-2010-kairo',4],['science-tokyo-ee-2010-denjiki',3],['science-tokyo-ee-2011-kairo',2],['science-tokyo-ee-2011-denjiki',2],['science-tokyo-ee-2012-sugaku',3],['science-tokyo-ee-2012-kairo',4],['science-tokyo-ee-2012-denjiki',2],['science-tokyo-ee-2013-sugaku',4],['science-tokyo-ee-2013-kairo',4],['science-tokyo-ee-2013-denjiki',2],['science-tokyo-ee-2014-sugaku',3],['science-tokyo-ee-2014-kairo',3],['science-tokyo-ee-2014-denjiki',3],['science-tokyo-ee-2015-sugaku',3],['science-tokyo-ee-2015-kairo',3],['science-tokyo-ee-2015-denjiki',3],['science-tokyo-ee-2016',10],['science-tokyo-ee-2017',10],['science-tokyo-ee-2018',10],['science-tokyo-ee-2019',8],['science-tokyo-ee-2021',8],['science-tokyo-ee-2022',8],['science-tokyo-ee-2023',8],['science-tokyo-ee-2024',8],['science-tokyo-ee-2025',8]];
+  const scienceTokyoPapers=[['science-tokyo-ee-2001-am',3],['science-tokyo-ee-2001-pm',4],['science-tokyo-ee-2002-am',3],['science-tokyo-ee-2002-pm',4],['science-tokyo-ee-2003-am',5],['science-tokyo-ee-2003-pm',9],['science-tokyo-ee-2004-am',8],['science-tokyo-ee-2004-pm',9],['science-tokyo-ee-2005-kairo',2],['science-tokyo-ee-2005-denjiki',3],['science-tokyo-ee-2006-kairo',4],['science-tokyo-ee-2006-denjiki',2],['science-tokyo-ee-2007-kairo',3],['science-tokyo-ee-2007-denjiki',2],['science-tokyo-ee-2008-kairo',3],['science-tokyo-ee-2008-denjiki',2],['science-tokyo-ee-2009-kairo',2],['science-tokyo-ee-2009-denjiki',2],['science-tokyo-ee-2010-kairo',4],['science-tokyo-ee-2010-denjiki',3],['science-tokyo-ee-2011-kairo',2],['science-tokyo-ee-2011-denjiki',2],['science-tokyo-ee-2012-sugaku',3],['science-tokyo-ee-2012-kairo',4],['science-tokyo-ee-2012-denjiki',2],['science-tokyo-ee-2013-sugaku',4],['science-tokyo-ee-2013-kairo',4],['science-tokyo-ee-2013-denjiki',2],['science-tokyo-ee-2014-sugaku',3],['science-tokyo-ee-2014-kairo',3],['science-tokyo-ee-2014-denjiki',3],['science-tokyo-ee-2015-sugaku',3],['science-tokyo-ee-2015-kairo',3],['science-tokyo-ee-2015-denjiki',3],['science-tokyo-ee-2016',10],['science-tokyo-ee-2017',10],['science-tokyo-ee-2018',10],['science-tokyo-ee-2019',8],['science-tokyo-ee-2021',8],['science-tokyo-ee-2022',8],['science-tokyo-ee-2023',8],['science-tokyo-ee-2024',8],['science-tokyo-ee-2025',8]];
   for(const width of [390,800,1440]){
    for(const [id,count] of tusPapers){
     const page=await browser.newPage({viewport:{width,height:1000},reducedMotion:'reduce'}),errors=[];
@@ -85,14 +85,14 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
     assert.doesNotMatch(await page.locator('#paper-source').innerText(),/入学年度/);
     assert.match(await page.locator('#question-source').innerText(),/年实施/);
     assert.equal(await page.getByText('答案',{exact:true}).count(),0);
-    if(process.env.STUDY_ROOM_SCREENSHOTS&&(id==='science-tokyo-ee-2023'||id==='science-tokyo-ee-2013-denjiki'||id==='science-tokyo-ee-2015-sugaku'||id==='science-tokyo-ee-2009-kairo'||id==='science-tokyo-ee-2011-denjiki')&&(width===1440||width===390)){
+    if(process.env.STUDY_ROOM_SCREENSHOTS&&(id==='science-tokyo-ee-2023'||id==='science-tokyo-ee-2013-denjiki'||id==='science-tokyo-ee-2015-sugaku'||id==='science-tokyo-ee-2009-kairo'||id==='science-tokyo-ee-2011-denjiki'||id==='science-tokyo-ee-2001-am'||id==='science-tokyo-ee-2004-pm')&&(width===1440||width===390)){
      fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});
      await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,`${id}-${width}.png`),fullPage:true});
     }
-    const first=await page.locator('#question-number').innerText();
+    const firstTitle=await page.locator('#question-title').innerText();
     await page.locator('#next').click();
-    assert.notEqual(await page.locator('#question-number').innerText(),first);
-    assert.match(page.url(),new RegExp('paper='+id));
+    assert.notEqual(await page.locator('#question-title').innerText(),firstTitle);
+    assert.match(page.url(),new RegExp('paper='+id+'&q='));
     await page.waitForFunction(()=>[...document.querySelectorAll('#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     assert.deepEqual(errors,[]);

@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2002-am",
+  "title": "东京科学大学 · 2002 年实施 · 上午基础领域",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2002",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2002,
+    "yearBasis": "exam",
+    "subject": "上午基础领域",
+    "originalSubject": "専門科目（午前）",
+    "originalName": "H15-am.pdf",
+    "pdf": "assets/past-papers/documents/d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805.pdf",
+    "sha256": "d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805",
+    "pageCount": 6,
+    "note": "目录 science-tokyo-ee-2002，yearBasis=exam，目录 year/paperYear/examYear=2002，originalYear=2003年度入学，admissionYears=[2003]。封面文字层印「専門科目（午前）」「１５ 大修」「時間 午前9時30分～11時00分」，以及从 3 题中选 2 题。15 大修对应目录里的 2003 年度入学。目录文件标签是上午基础领域。第 3、6 页是扫描页，其余页有文字层。封面没有印出大学名，也没有印出「理工学研究科」。学校名用目录 schoolId science-tokyo 对应的東京科学大学；研究科用目录的理工学研究科。专攻用目录写法「電気電子工学専攻・電子物理工学専攻」。封面印「電気電子工学」「電子物理工学」。原 PDF 没有把入学年度印成实施年。没有订正页。封面注意事项不是大题。同一页出现新的大题号时按题号切开；只有下一页没有新的大题号时才跨页合并。小问不拆题。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2002-am/common-01.png",
+      "page": 1,
+      "box": [
+        64.0,
+        88.0,
+        545.5,
+        221.5
+      ],
+      "width": 1204,
+      "height": 334,
+      "label": "封面：场次、科目与时间",
+      "sha256": "f1dcc37b60506bd659554a833912a986ff4380d8fd3c9b58609524c3498a9586"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2002-am/common-02.png",
+      "page": 1,
+      "box": [
+        63.0,
+        261.0,
+        546.0,
+        402.0
+      ],
+      "width": 1208,
+      "height": 353,
+      "label": "封面：注意事项",
+      "sha256": "f512afdc6bd611fffba5140f37e315832209499827b11c739fd0c69829a10542"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2002-am-q1",
+      "number": "1．",
+      "title": "电气数学：三维函数与傅里叶变换",
+      "titleKind": "editorial",
+      "topics": [
+        "电气数学",
+        "傅里叶变换"
+      ],
+      "summary": "原卷题号印作「1．」。页面：第 2 页。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页与预览裁图，核对题号、首行、末行、小问、公式、图号和跨页。裁图外没有题面墨迹。同一页出现新的大题号时按题号切开。下一页没有新的大题号时才跨页合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2002-am/science-tokyo-ee-2002-am-q1-01.png",
+          "page": 2,
+          "box": [
+            49.0,
+            39.0,
+            550.0,
+            777.5
+          ],
+          "width": 1253,
+          "height": 1847,
+          "label": "PDF 第 2 页",
+          "sha256": "4b608a9a80fde6c847518cee5327281975cf9517f9adda1f8e09c650573962e2"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2002-am-q2",
+      "number": "2.",
+      "title": "电气回路：四端网络与最大有能电力",
+      "titleKind": "editorial",
+      "topics": [
+        "电气回路",
+        "最大有能电力"
+      ],
+      "summary": "原卷题号印作「2.」。页面：第 3 页、第 4 页。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页与预览裁图，核对题号、首行、末行、小问、公式、图号和跨页。裁图外没有题面墨迹。同一页出现新的大题号时按题号切开。下一页没有新的大题号时才跨页合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2002-am/science-tokyo-ee-2002-am-q2-01.png",
+          "page": 3,
+          "box": [
+            60.0,
+            84.5,
+            541.5,
+            726.0
+          ],
+          "width": 1204,
+          "height": 1604,
+          "label": "PDF 第 3 页",
+          "sha256": "bdf0ff5d92b07933549243bf0cc2cea97175d5f38e427d80e018f73002a14d17"
+        },
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2002-am/science-tokyo-ee-2002-am-q2-02.png",
+          "page": 4,
+          "box": [
+            54.0,
+            42.5,
+            584.0,
+            724.0
+          ],
+          "width": 1325,
+          "height": 1704,
+          "label": "PDF 第 4 页",
+          "sha256": "f1c35198c160add422b4f4507fb4956b4618d15833da209427960cdb8bc3117d"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2002-am-q3",
+      "number": "３．",
+      "title": "电气磁気学：导体电像与往复电流",
+      "titleKind": "editorial",
+      "topics": [
+        "电气磁気学",
+        "电像法",
+        "电感"
+      ],
+      "summary": "原卷题号印作「３．」。页面：第 5 页、第 6 页。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页与预览裁图，核对题号、首行、末行、小问、公式、图号和跨页。裁图外没有题面墨迹。同一页出现新的大题号时按题号切开。下一页没有新的大题号时才跨页合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2002-am/science-tokyo-ee-2002-am-q3-01.png",
+          "page": 5,
+          "box": [
+            52.0,
+            53.0,
+            541.0,
+            707.5
+          ],
+          "width": 1223,
+          "height": 1637,
+          "label": "PDF 第 5 页",
+          "sha256": "c56665c0e8d206bc7e0f5987f7d2cddda6712aab69419822681ee7b4da67c9eb"
+        },
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2002-am/science-tokyo-ee-2002-am-q3-02.png",
+          "page": 6,
+          "box": [
+            2.0,
+            48.5,
+            547.5,
+            764.0
+          ],
+          "width": 1364,
+          "height": 1789,
+          "label": "PDF 第 6 页",
+          "sha256": "25e05bf7fe7f996dae0a4b19e3da251f6b8fed9e9d53a2450d426d9e243a4b33"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。场次、科目、时间和注意事项已收入 commonRegions。页边空白不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2002-am-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2002-am-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2002-am-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "science-tokyo-ee-2002-am-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "science-tokyo-ee-2002-am-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}
