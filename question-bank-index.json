@@ -7,6 +7,9 @@
     {"id": "tus-ee-2025-sugaku", "title": "东京理科大学 · 2025 入学年度 · 电气数学", "catalogId": "tus-92e97fbb48a52078", "questionCount": 4, "data": "assets/question-bank/tus-ee-2025-sugaku/paper.json"},
     {"id": "tus-ee-2025-denjiki", "title": "东京理科大学 · 2025 入学年度 · 电磁学", "catalogId": "tus-92e97fbb48a52078", "questionCount": 3, "data": "assets/question-bank/tus-ee-2025-denjiki/paper.json"},
     {"id": "tus-ee-2025-intl", "title": "东京理科大学 · 2025 入学年度 · 外国人入试专业科目", "catalogId": "tus-3f65f89eae7c0525", "questionCount": 1, "data": "assets/question-bank/tus-ee-2025-intl/paper.json"},
+    {"id": "science-tokyo-ee-2019", "title": "东京科学大学 · 2019 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2019", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2019/paper.json"},
+    {"id": "science-tokyo-ee-2021", "title": "东京科学大学 · 2021 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2021", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2021/paper.json"},
+    {"id": "science-tokyo-ee-2022", "title": "东京科学大学 · 2022 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2022", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2022/paper.json"},
     {"id": "science-tokyo-ee-2023", "title": "东京科学大学 · 2023 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2023", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2023/paper.json"},
     {"id": "science-tokyo-ee-2024", "title": "东京科学大学 · 2024 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2024", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2024/paper.json"},
     {"id": "science-tokyo-ee-2025", "title": "东京科学大学 · 2025 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2025", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2025/paper.json"}

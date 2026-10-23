@@ -37,7 +37,7 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
   await bad.route('**/paper.json',r=>r.abort());await bad.goto(origin+'/question-practice.html');await bad.locator('#load-status').filter({hasText:'刷新重试'}).waitFor();await bad.close();
   const corrupt=await browser.newPage();await corrupt.addInitScript(()=>localStorage.setItem('japan-study-journal:question-demo:v1','broken'));await corrupt.goto(origin+'/question-practice.html');await corrupt.locator('#app').waitFor();await corrupt.locator('#complete').click();assert.equal(await corrupt.evaluate(()=>localStorage.getItem('japan-study-journal:question-demo:v1')),'broken');assert.match(await corrupt.locator('#storage-status').textContent(),/无法读取或保存/);await corrupt.close();
   const tusPapers=[['tus-ee-2025-denshi',4],['tus-ee-2025-kairo',3],['tus-ee-2025-sugaku',4],['tus-ee-2025-denjiki',3],['tus-ee-2025-intl',1]];
-  const scienceTokyoPapers=[['science-tokyo-ee-2023',8],['science-tokyo-ee-2024',8],['science-tokyo-ee-2025',8]];
+  const scienceTokyoPapers=[['science-tokyo-ee-2019',8],['science-tokyo-ee-2021',8],['science-tokyo-ee-2022',8],['science-tokyo-ee-2023',8],['science-tokyo-ee-2024',8],['science-tokyo-ee-2025',8]];
   for(const width of [390,800,1440]){
    for(const [id,count] of tusPapers){
     const page=await browser.newPage({viewport:{width,height:1000},reducedMotion:'reduce'}),errors=[];
@@ -69,9 +69,9 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
     assert.doesNotMatch(await page.locator('#paper-source').innerText(),/入学年度/);
     assert.match(await page.locator('#question-source').innerText(),/年实施/);
     assert.equal(await page.getByText('答案',{exact:true}).count(),0);
-    if(process.env.STUDY_ROOM_SCREENSHOTS&&id==='science-tokyo-ee-2023'&&(width===1440||width===390)){
+    if(process.env.STUDY_ROOM_SCREENSHOTS&&(id==='science-tokyo-ee-2019'||id==='science-tokyo-ee-2023')&&(width===1440||width===390)){
      fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});
-     await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,`science-tokyo-ee-2023-${width}.png`),fullPage:true});
+     await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,`${id}-${width}.png`),fullPage:true});
     }
     const first=await page.locator('#question-number').innerText();
     await page.locator('#next').click();
