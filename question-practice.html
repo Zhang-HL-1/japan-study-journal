@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>逐题练习 Demo · 留日手记</title>
+  <meta name="description" content="神户大学电磁气学逐题练习示例：直接阅读日文原题，保留公式、配图和出处。">
+  <meta name="theme-color" content="#faf9f5">
+  <link rel="stylesheet" href="question-practice.css?v=20261023-tus">
+  <script src="question-practice.js?v=20261023-tus" defer></script>
+</head>
+<body>
+  <a class="skip" href="#question">跳到题目</a>
+  <header class="site-top"><a class="brand" href="index.html"><i></i>留日手记</a><nav aria-label="页面导航"><a href="drill.html">整卷练习</a><a href="past-papers.html">过去问</a><a href="https://github.com/Zhang-HL-1/japan-study-journal/blob/main/docs/question-bank-rollout.md">制作流程 ↗</a></nav></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">QUESTION PRACTICE <span>单卷 DEMO</span></p><h1 id="paper-heading">电磁气学，<em>逐题练习。</em></h1><p id="paper-source">正在读取试卷…</p></div><div class="intro-note">日文原题 · 高清裁图<br>公式与配图保留原貌</div></div>
+    <div id="load-status" class="message" role="status">正在加载题目…</div>
+    <div id="app" class="layout" hidden>
+      <aside class="sidebar">
+        <div class="directory-head"><h2>本卷题目</h2><span id="paper-count"></span></div>
+        <p class="muted small">按原卷大题组织，保留关联小问</p>
+        <nav id="question-directory" aria-label="题目目录"></nav>
+        <div class="progress-box"><div><span>本卷已练习</span><strong id="completed-count">0 / 2</strong></div><progress id="paper-progress" max="2" value="0" aria-label="本卷练习进度"></progress><p>完成标记只记录练习进度，不表示答对。</p></div>
+        <details class="source-info"><summary>关于这份 Demo</summary><p id="source-note"></p><p>中文标题与标签用于导航，不替代原题。题干尚未转为可复制文字；小屏幕可点击题图放大。</p><a id="catalog-link">查看原卷目录 ↗</a></details>
+      </aside>
+      <section class="workspace" aria-label="逐题练习">
+        <div class="workspace-bar"><span id="position"></span><button id="focus-mode" type="button" aria-pressed="false">专注模式</button></div>
+        <article id="question" class="question-card" tabindex="-1">
+          <div class="question-head"><div><p id="question-number" class="eyebrow"></p><h2 id="question-title"></h2></div><button id="bookmark" type="button" aria-pressed="false">☆ 收藏</button></div>
+          <div id="topics" class="topics"></div>
+          <div class="source-line"><span id="question-source"></span><a id="original-link" target="_blank" rel="noopener">查看原卷 ↗</a></div>
+          <details class="common" open><summary>全卷共用条件</summary><div id="common-content"></div></details>
+          <div class="reading-tools"><span>原题正文</span><button id="enlarge" type="button">放大阅读 ↗</button></div>
+          <div id="question-content" class="question-content"></div>
+          <p class="image-help">点击任一题图可放大。所有题干、公式和配图均裁自原卷。</p>
+          <details class="notes" id="notes"><summary>我的笔记 <span id="note-status"></span></summary><label for="question-note" class="sr-only">本题笔记</label><textarea id="question-note" rows="4" maxlength="6000" placeholder="记录思路、卡住的位置，或下次要复习的内容……"></textarea></details>
+          <div class="completion-row"><button id="complete" class="primary" type="button">标记本题已练习</button><span id="completion-status" role="status"></span></div>
+        </article>
+        <div class="question-nav"><button id="previous" type="button">← 上一题</button><span id="nav-position"></span><button id="next" class="primary" type="button">下一题 →</button></div>
+        <div class="storage-line"><p id="storage-status" role="status">Demo 记录仅保存在此浏览器，与整卷记录分开。</p><button id="export-records" type="button">导出 Demo 记录</button></div>
+      </section>
+    </div>
+    <noscript><p class="message">请启用 JavaScript，或从过去问页面打开原卷。</p></noscript>
+  </main>
+  <dialog id="image-dialog" aria-labelledby="zoom-title"><div class="zoom-bar"><h2 id="zoom-title">原题放大阅读</h2><div><button id="zoom-out" type="button" aria-label="缩小题图">−</button><span id="zoom-level"></span><button id="zoom-in" type="button" aria-label="放大题图">＋</button><button id="close-zoom" type="button">关闭 ×</button></div></div><p class="zoom-hint">可横向与纵向滚动查看；Esc 关闭。</p><div id="zoom-scroll" tabindex="0" aria-label="可滚动的放大题图"><div id="zoom-content"></div></div></dialog>
+  <footer>留日手记 <span>从原题出发，把每一步练扎实。</span></footer>
+</body>
+</html>

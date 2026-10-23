@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-ee-2025-denjiki",
+  "title": "东京理科大学 · 2025 入学年度 · 电磁学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-92e97fbb48a52078",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "創域理工学研究科",
+    "major": "電気電子情報工学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電磁気学.pdf",
+    "pdf": "assets/past-papers/documents/1bd65d362ec98805ba3b90f089f0d33147a0d8be0805fef16a4de44b0c6feb5b.pdf",
+    "sha256": "1bd65d362ec98805ba3b90f089f0d33147a0d8be0805fef16a4de44b0c6feb5b",
+    "pageCount": 4,
+    "note": "来自既有过去问目录 tus-92e97fbb48a52078，修士課程一般入試。2025 是入学年度（封面写 2025年度，yearBasis=academic）。目录考试日期为 2024-08-02，不把入学年度改写成实施年。封面写明本卷是電磁気学、问题纸 1–3 页。",
+    "normalization": {
+      "method": "PyMuPDF Page.remove_rotation() on a byte copy of the catalog PDF. Original file bytes are unchanged. Crop boxes use the upright derived page.rect; each derived page pixmap at scale 1 matches the rotated source appearance.",
+      "derivedPdf": "assets/question-bank/tus-ee-2025-denjiki/normalized.pdf",
+      "derivedSha256": "255a5d81296053599fe5422cda39fbe8ea8b4365ddf4bfc48ee5bdafe3931f87",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        }
+      ]
+    }
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-ee-2025-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        83.5,
+        78.0,
+        482.0,
+        322.5
+      ],
+      "width": 997,
+      "height": 612,
+      "label": "封面：考试名称、科目与考场说明",
+      "sha256": "605ce94b9749133abd7490ea5fb63729b4929ef113f8d8e47bfe453e1613d7f0"
+    },
+    {
+      "src": "assets/question-bank/tus-ee-2025-denjiki/common-02.png",
+      "page": 1,
+      "box": [
+        52.5,
+        493.0,
+        526.0,
+        598.0
+      ],
+      "width": 1184,
+      "height": 263,
+      "label": "封面：考试时间、用具与答题纸",
+      "sha256": "de39cc508cb6eba3bf0e65e5ad5112ec8176115713045c9abe6f27192303cdd9"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-ee-2025-denjiki-q1",
+      "number": "1",
+      "title": "无限长带电圆柱的电场与电位",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "高斯定理",
+        "电位"
+      ],
+      "summary": "问题纸第 1 页，含 (1)(2)。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-ee-2025-denjiki/tus-ee-2025-denjiki-q1-01.png",
+          "page": 2,
+          "box": [
+            13.5,
+            45.0,
+            574.5,
+            814.0
+          ],
+          "width": 1404,
+          "height": 1923,
+          "label": "问题纸第 1 页全文",
+          "sha256": "7849a7e4adb449acc26041948846c21e45e1b2cb19caefe681e53c5e73d93b4b"
+        }
+      ]
+    },
+    {
+      "id": "tus-ee-2025-denjiki-q2",
+      "number": "2",
+      "title": "介质球壳的电容与静电能",
+      "titleKind": "editorial",
+      "topics": [
+        "电容",
+        "静电能"
+      ],
+      "summary": "问题纸第 2 页，含 (1)–(3) 与球壳图。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-ee-2025-denjiki/tus-ee-2025-denjiki-q2-01.png",
+          "page": 3,
+          "box": [
+            17.5,
+            51.5,
+            577.0,
+            824.0
+          ],
+          "width": 1400,
+          "height": 1932,
+          "label": "问题纸第 2 页全文",
+          "sha256": "888518629c4eafe9bff9d412b3d2fae7e8e8485736162755958147d89e43b8bd"
+        }
+      ]
+    },
+    {
+      "id": "tus-ee-2025-denjiki-q3",
+      "number": "3",
+      "title": "变化磁通产生的感应电场",
+      "titleKind": "editorial",
+      "topics": [
+        "法拉第定律",
+        "感应电场"
+      ],
+      "summary": "问题纸第 3 页，含 (1)–(4) 与图 1。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-ee-2025-denjiki/tus-ee-2025-denjiki-q3-01.png",
+          "page": 4,
+          "box": [
+            17.0,
+            47.5,
+            574.0,
+            820.5
+          ],
+          "width": 1393,
+          "height": 1934,
+          "label": "问题纸第 3 页全文",
+          "sha256": "9451c9fba3a732ff9f3f3738af95a35a7e96d19ae0851bb80b34cada7f7cbca5"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面上下空白，以及说明文字与时间表之间的空框（仅两条横线，框内无文字）。考试名称、考场说明、时间、用具和答题纸规则已收入 commonRegions。封面不计为题目。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-ee-2025-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-ee-2025-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-ee-2025-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    }
+  ]
+}

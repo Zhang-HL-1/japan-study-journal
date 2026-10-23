@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-ee-2025-denshi",
+  "title": "东京理科大学 · 2025 入学年度 · 电子电路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-92e97fbb48a52078",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "創域理工学研究科",
+    "major": "電気電子情報工学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "电子电路",
+    "originalSubject": "電子回路",
+    "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電子回路.pdf",
+    "pdf": "assets/past-papers/documents/5a4416bfcc24d95c5c8fab820617b8dc94ced228d799cac47a92904f08ebf4a5.pdf",
+    "sha256": "5a4416bfcc24d95c5c8fab820617b8dc94ced228d799cac47a92904f08ebf4a5",
+    "pageCount": 5,
+    "note": "来自既有过去问目录 tus-92e97fbb48a52078，修士課程一般入試。2025 是入学年度（封面写 2025年度，yearBasis=academic）。目录考试日期为 2024-08-02，不把入学年度改写成实施年。封面写明本卷是電子回路、问题纸 1–4 页。该专攻一般入试笔试科目为電気数学、電磁気学、電気回路、電子回路，与本卷封面一致。",
+    "normalization": {
+      "method": "PyMuPDF Page.remove_rotation() on a byte copy of the catalog PDF. Original file bytes are unchanged. Crop boxes use the upright derived page.rect; each derived page pixmap at scale 1 matches the rotated source appearance.",
+      "derivedPdf": "assets/question-bank/tus-ee-2025-denshi/normalized.pdf",
+      "derivedSha256": "9841b6d913614776cf8d445e6a38614b5fce5df2872cc58d5742f0b4d2a075b9",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 5,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        }
+      ]
+    }
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-ee-2025-denshi/common-01.png",
+      "page": 1,
+      "box": [
+        153.0,
+        55.5,
+        431.0,
+        122.5
+      ],
+      "width": 696,
+      "height": 169,
+      "label": "封面：年度、学校与专攻",
+      "sha256": "e85344930a7484c577be15a069c183be5daa0b24c8949ccb0aef8e30a23ecc78"
+    },
+    {
+      "src": "assets/question-bank/tus-ee-2025-denshi/common-02.png",
+      "page": 1,
+      "box": [
+        75.5,
+        151.5,
+        489.5,
+        322.0
+      ],
+      "width": 1036,
+      "height": 427,
+      "label": "封面：科目名与考场说明",
+      "sha256": "53cc6f75436c9e6703e90ac3e52851e82643e92ffdfe6c6fbd62373745968a03"
+    },
+    {
+      "src": "assets/question-bank/tus-ee-2025-denshi/common-03.png",
+      "page": 1,
+      "box": [
+        45.0,
+        509.0,
+        537.0,
+        621.0
+      ],
+      "width": 1231,
+      "height": 281,
+      "label": "封面：考试时间、用具与答题纸",
+      "sha256": "b15b5018a509237ba34c96dcf14e169d12e60803247db5f291b9fbb4d0c4742b"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-ee-2025-denshi-q1",
+      "number": "1",
+      "title": "晶体管放大电路的偏置与增益",
+      "titleKind": "editorial",
+      "topics": [
+        "晶体管",
+        "小信号模型",
+        "输入阻抗"
+      ],
+      "summary": "问题纸第 1 页，含 (1)–(5) 与图 1a–1c。原卷没有「問題1」标题，页脚印刷页码标识本题。中文标题只用于导航。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-ee-2025-denshi/tus-ee-2025-denshi-q1-01.png",
+          "page": 2,
+          "box": [
+            17.5,
+            51.5,
+            559.5,
+            814.5
+          ],
+          "width": 1356,
+          "height": 1909,
+          "label": "问题纸第 1 页全文",
+          "sha256": "c13c86c94d456f6742befc54b6403afe792cb222d556f6718a59ef20dfafeb9d"
+        }
+      ]
+    },
+    {
+      "id": "tus-ee-2025-denshi-q2",
+      "number": "2",
+      "title": "理想运放电路的电流与输入阻抗",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "输入阻抗"
+      ],
+      "summary": "问题纸第 2 页，含 (1)(2) 与图 2。小问不拆成独立题。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-ee-2025-denshi/tus-ee-2025-denshi-q2-01.png",
+          "page": 3,
+          "box": [
+            2.5,
+            8.0,
+            572.0,
+            811.5
+          ],
+          "width": 1424,
+          "height": 2009,
+          "label": "问题纸第 2 页全文",
+          "sha256": "68cd62071e646229ce10ac07304b9f7be3f179196441aa004de7abe027dc7573"
+        }
+      ]
+    },
+    {
+      "id": "tus-ee-2025-denshi-q3",
+      "number": "3",
+      "title": "开关组合下的运放传递函数",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "传递函数"
+      ],
+      "summary": "问题纸第 3 页，含 (1)–(3)、开关 SW1–SW3 与图 3。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-ee-2025-denshi/tus-ee-2025-denshi-q3-01.png",
+          "page": 4,
+          "box": [
+            11.5,
+            54.5,
+            567.0,
+            811.5
+          ],
+          "width": 1390,
+          "height": 1893,
+          "label": "问题纸第 3 页全文",
+          "sha256": "b377db9febfa0bd48b31740c19cd44849b2c49c8bf182f5efa16e44f7fe50d90"
+        }
+      ]
+    },
+    {
+      "id": "tus-ee-2025-denshi-q4",
+      "number": "4",
+      "title": "正交振荡电路",
+      "titleKind": "editorial",
+      "topics": [
+        "振荡电路",
+        "频率"
+      ],
+      "summary": "问题纸第 4 页，含 (1)–(4) 与图 4。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-ee-2025-denshi/tus-ee-2025-denshi-q4-01.png",
+          "page": 5,
+          "box": [
+            13.5,
+            5.0,
+            569.5,
+            811.0
+          ],
+          "width": 1391,
+          "height": 2016,
+          "label": "问题纸第 4 页全文",
+          "sha256": "7898e0b23dc6fb4f92ab6d7b1a3ef9b4287a86b4968af54c8d81917ae19aff25"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面上下空白，以及说明文字与时间表之间的空框（仅两条横线，框内无文字）。考试名称、考场说明、时间、用具和答题纸规则已收入 commonRegions。封面不计为题目。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-ee-2025-denshi-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-ee-2025-denshi-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-ee-2025-denshi-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-ee-2025-denshi-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    }
+  ]
+}
