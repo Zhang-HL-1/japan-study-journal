@@ -11,6 +11,7 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
    await page.goto(origin+'/question-practice.html');await page.locator('#app').waitFor();
    const shot=async suffix=>{if(process.env.STUDY_ROOM_SCREENSHOTS){fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,`question-demo-${width}-${suffix}.png`),fullPage:true});}};
    assert.equal(await page.locator('iframe,object,embed').count(),0);
+   assert.match(await page.locator('#paper-source').innerText(),/2026 入学年度/);
    assert.equal(await page.locator('#question-directory button').count(),2);assert.equal(await page.locator('#question-content img').count(),3);
    await page.waitForFunction(()=>[...document.querySelectorAll('#common-content img,#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
@@ -36,6 +37,7 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
   await bad.route('**/paper.json',r=>r.abort());await bad.goto(origin+'/question-practice.html');await bad.locator('#load-status').filter({hasText:'刷新重试'}).waitFor();await bad.close();
   const corrupt=await browser.newPage();await corrupt.addInitScript(()=>localStorage.setItem('japan-study-journal:question-demo:v1','broken'));await corrupt.goto(origin+'/question-practice.html');await corrupt.locator('#app').waitFor();await corrupt.locator('#complete').click();assert.equal(await corrupt.evaluate(()=>localStorage.getItem('japan-study-journal:question-demo:v1')),'broken');assert.match(await corrupt.locator('#storage-status').textContent(),/无法读取或保存/);await corrupt.close();
   const tusPapers=[['tus-ee-2025-denshi',4],['tus-ee-2025-kairo',3],['tus-ee-2025-sugaku',4],['tus-ee-2025-denjiki',3],['tus-ee-2025-intl',1]];
+  const scienceTokyoPapers=[['science-tokyo-ee-2023',8],['science-tokyo-ee-2024',8],['science-tokyo-ee-2025',8]];
   for(const width of [390,800,1440]){
    for(const [id,count] of tusPapers){
     const page=await browser.newPage({viewport:{width,height:1000},reducedMotion:'reduce'}),errors=[];
@@ -48,6 +50,35 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     assert.match(await page.locator('#paper-heading').innerText(),/东京理科大学/);
     assert.equal(await page.getByText('答案',{exact:true}).count(),0);
+    assert.deepEqual(errors,[]);
+    await page.close();
+   }
+  }
+  for(const width of [390,800,1440]){
+   for(const [id,count] of scienceTokyoPapers){
+    const page=await browser.newPage({viewport:{width,height:1000},reducedMotion:'reduce'}),errors=[];
+    page.on('pageerror',e=>errors.push(String(e)));
+    await page.goto(`${origin}/question-practice.html?paper=${id}`);
+    await page.locator('#app').waitFor();
+    assert.equal(await page.locator('iframe,object,embed').count(),0);
+    assert.equal(await page.locator('#question-directory button').count(),count);
+    await page.waitForFunction(()=>[...document.querySelectorAll('#common-content img,#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    assert.match(await page.locator('#paper-heading').innerText(),/东京科学大学/);
+    assert.match(await page.locator('#paper-source').innerText(),/年实施/);
+    assert.doesNotMatch(await page.locator('#paper-source').innerText(),/入学年度/);
+    assert.match(await page.locator('#question-source').innerText(),/年实施/);
+    assert.equal(await page.getByText('答案',{exact:true}).count(),0);
+    if(process.env.STUDY_ROOM_SCREENSHOTS&&id==='science-tokyo-ee-2023'&&(width===1440||width===390)){
+     fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});
+     await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,`science-tokyo-ee-2023-${width}.png`),fullPage:true});
+    }
+    const first=await page.locator('#question-number').innerText();
+    await page.locator('#next').click();
+    assert.notEqual(await page.locator('#question-number').innerText(),first);
+    assert.match(page.url(),new RegExp('paper='+id));
+    await page.waitForFunction(()=>[...document.querySelectorAll('#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     assert.deepEqual(errors,[]);
     await page.close();
    }

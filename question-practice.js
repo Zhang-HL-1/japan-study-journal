@@ -12,6 +12,11 @@
   function text(tag, value, className) { const el = document.createElement(tag); el.textContent = value; if (className) el.className = className; return el; }
   function storageWarning() { $('storage-status').textContent = '浏览器记录无法读取或保存。请导出本次记录备份；原记录未主动覆盖。'; }
   function current() { return paper.questions[index]; }
+  function yearPhrase(source) {
+    if (source.yearBasis === 'academic') return source.year + ' 入学年度';
+    if (source.yearBasis === 'exam') return source.year + ' 年实施';
+    return String(source.year);
+  }
   function record(q = current()) { return records[q.id] || {}; }
   function save() {
     if (!storageWritable) return;
@@ -48,7 +53,7 @@
     $('question-number').textContent = q.number; $('question-title').textContent = q.title;
     $('topics').replaceChildren(...q.topics.map(t => text('span', t)));
     const pages = [...new Set(q.parts.map(part => part.page))];
-    $('question-source').textContent = `${paper.source.school} · ${paper.source.year} 入学年度 · ${paper.source.originalSubject} · 原卷第 ${pages.join('、')} 页`;
+    $('question-source').textContent = `${paper.source.school} · ${yearPhrase(paper.source)} · ${paper.source.originalSubject} · 原卷第 ${pages.join('、')} 页`;
     $('original-link').href = paper.source.pdf + '#page=' + pages[0];
     $('question-content').replaceChildren(...q.parts.map(crop));
     $('question-note').value = r.note || ''; $('notes').open = Boolean(r.note);
@@ -94,7 +99,7 @@
         for (const [id, r] of Object.entries(stored.records)) if (idPattern.test(id) && r && typeof r === 'object') records[id] = { completed:r.completed === true, bookmarked:r.bookmarked === true, note:typeof r.note === 'string' ? r.note.slice(0,6000) : '', updatedAt:Number.isFinite(r.updatedAt) ? r.updatedAt : 0 };
       }
     } catch { storageWritable = false; storageWarning(); }
-    $('paper-source').textContent = `${paper.source.school} / ${paper.source.graduate} / ${paper.source.major} · ${paper.source.year} 入学年度`;
+    $('paper-source').textContent = `${paper.source.school} / ${paper.source.graduate} / ${paper.source.major} · ${yearPhrase(paper.source)}`;
     const emphasis = document.createElement('em');
     emphasis.textContent = '逐题练习。';
     $('paper-heading').replaceChildren(paper.title, document.createTextNode('，'), emphasis);
