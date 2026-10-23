@@ -14,6 +14,8 @@
 
 2025 入学年度东京理科大学創域理工学研究科電気電子情報工学専攻的逐题 demo 另见 `docs/question-bank-batch-tus-ee-2025.md`。入口示例：`question-practice.html?paper=tus-ee-2025-denshi`。它不取代上面的神户大学样例。
 
+東京科学大学工学院電気電子系 2023、2024、2025 年实施的笔答合卷见 `docs/question-bank-batch-science-tokyo-ee-2023-2025.md`。目录 `yearBasis=exam`，入口示例：`question-practice.html?paper=science-tokyo-ee-2023`。
+
 ## 可移交的实现
 
 | 内容 | 文件 |
