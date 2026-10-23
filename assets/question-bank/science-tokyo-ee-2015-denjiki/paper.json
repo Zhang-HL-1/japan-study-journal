@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2015-denjiki",
+  "title": "东京科学大学 · 2015 年实施 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2015",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2015,
+    "yearBasis": "exam",
+    "subject": "电磁气学",
+    "originalSubject": "電磁気学",
+    "originalName": "H28電磁気.pdf",
+    "pdf": "assets/past-papers/documents/59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e.pdf",
+    "sha256": "59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e",
+    "pageCount": 4,
+    "note": "目录 science-tokyo-ee-2015，yearBasis=exam，目录 year/paperYear/examYear=2015，originalYear=2016年度入学，admissionYears=[2016]。封面没有印大学名、研究科、专攻或实施日期，只印「専門科目(午後2)」「28 大修」「電磁気学」「時間 15:30〜17:00」。目录 sourceNote 写明卷面 28 大修对应 2016 入学年度，并非平成28年实施或 2017 入学。本卷沿用该目录年度，不从文件名 H28電磁気.pdf 把 28 改写成实施年，也不补写封面没有印出的日期。学校名、研究科理工学研究科、专攻電気電子工学専攻・電子物理工学専攻来自目录。科目与封面、目录文件标签一致。没有订正页。封面注意事项不是大题。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2015-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        64.0,
+        88.5,
+        531.5,
+        152.5
+      ],
+      "width": 1169,
+      "height": 161,
+      "label": "封面：场次、大修、科目与时间",
+      "sha256": "d3a14ba11e35c78188c9f3228f6c700d2a5a8e99a31996f58cffa3219b182fde"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2015-denjiki/common-02.png",
+      "page": 1,
+      "box": [
+        62.5,
+        184.5,
+        532.5,
+        330.5
+      ],
+      "width": 1176,
+      "height": 366,
+      "label": "封面：注意事项",
+      "sha256": "854ee1f4cd1e4eb9ffaa76e25ce09b747c2331e8328901a335a7791ecb9e0b71"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2015-denjiki-q1",
+      "number": "1．",
+      "title": "电磁气学：双层介质同轴电容",
+      "titleKind": "editorial",
+      "topics": [
+        "同轴电容",
+        "电介质"
+      ],
+      "summary": "原卷题号印作「1．」。本页含图 1.1 与小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2015-denjiki/science-tokyo-ee-2015-denjiki-q1-01.png",
+          "page": 2,
+          "box": [
+            48.5,
+            43.0,
+            546.5,
+            783.5
+          ],
+          "width": 1246,
+          "height": 1852,
+          "label": "PDF 第 2 页",
+          "sha256": "9eba35ef101c42895883f929357f4b439a93511c23498cbf9a2ce672bc19d6e0"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2015-denjiki-q2",
+      "number": "2.",
+      "title": "电磁气学：无限长同轴往返电流",
+      "titleKind": "editorial",
+      "topics": [
+        "同轴线路",
+        "磁场"
+      ],
+      "summary": "原卷题号印作「2.」。本页含图 2.1 与小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2015-denjiki/science-tokyo-ee-2015-denjiki-q2-01.png",
+          "page": 3,
+          "box": [
+            48.5,
+            43.0,
+            546.0,
+            784.0
+          ],
+          "width": 1244,
+          "height": 1853,
+          "label": "PDF 第 3 页",
+          "sha256": "e94b00fdcb12bfa029ba96e53ea73f46656f4f506f42108a833082d2efa24b55"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2015-denjiki-q3",
+      "number": "3.",
+      "title": "电磁气学：交流圆板电容的电磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "电容",
+        "磁场",
+        "电磁感应"
+      ],
+      "summary": "原卷题号印作「3.」。本页为交流电压下的圆板电极，含图 3.1 与小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2015-denjiki/science-tokyo-ee-2015-denjiki-q3-01.png",
+          "page": 4,
+          "box": [
+            48.5,
+            43.0,
+            546.5,
+            783.5
+          ],
+          "width": 1246,
+          "height": 1852,
+          "label": "PDF 第 4 页",
+          "sha256": "70b86fd3871c690e189c4c97e5edbddb6b892465c61e0ce57719013c452820c7"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2015-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2015-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2015-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}

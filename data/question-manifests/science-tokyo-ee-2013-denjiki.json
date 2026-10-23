@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2013-denjiki",
+  "title": "东京科学大学 · 2013 年实施 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2013",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2013,
+    "yearBasis": "exam",
+    "subject": "电磁气学",
+    "originalSubject": "電磁気学",
+    "originalName": "H26-pmP2.pdf",
+    "pdf": "assets/past-papers/documents/0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea.pdf",
+    "sha256": "0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea",
+    "pageCount": 6,
+    "note": "目录 science-tokyo-ee-2013，yearBasis=exam，目录 year/paperYear/examYear=2013，originalYear=2014年度入学，admissionYears=[2014]。封面印「東京工業大学理工学研究科」「電気電子工学専攻・電子物理工学専攻」「平成25年8月21日実施」「専門科目 電気電子工学・電子物理工学(午後2)」「26 大修」「電磁気学」「時間 15:30〜17:00」。平成25年是实施年，26大修对应目录里的2014年度入学。学校名用目录的東京科学大学；封面印当时校名東京工業大学。研究科、专攻与封面一致。科目与封面、目录文件标签一致。大题 1 跨 PDF 第 2–3 页，大题 2 跨第 4–6 页；续页没有新的大题号。没有订正页。封面注意事项不是大题。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        76.0,
+        77.5,
+        519.0,
+        142.0
+      ],
+      "label": "封面：学校与实施日期"
+    },
+    {
+      "page": 1,
+      "box": [
+        64.0,
+        168.5,
+        532.0,
+        276.0
+      ],
+      "label": "封面：场次、科目与时间"
+    },
+    {
+      "page": 1,
+      "box": [
+        62.5,
+        309.0,
+        520.5,
+        413.5
+      ],
+      "label": "封面：注意事项"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2013-denjiki-q1",
+      "number": "1．",
+      "title": "电磁气学：同轴圆筒的漏电与电容",
+      "titleKind": "editorial",
+      "topics": [
+        "同轴圆筒",
+        "电介质",
+        "漏电流"
+      ],
+      "summary": "原卷题号印作「1．」。PDF 第 2 页为 (A)(B) 与图 1.1，第 3 页为 (C) 与图 1.2，没有新的大题号，按顺序合并为一题。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            43.0,
+            43.0,
+            546.5,
+            783.5
+          ],
+          "label": "PDF 第 2 页"
+        },
+        {
+          "page": 3,
+          "box": [
+            43.0,
+            56.5,
+            546.5,
+            784.0
+          ],
+          "label": "PDF 第 3 页（续）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2013-denjiki-q2",
+      "number": "2.",
+      "title": "电磁气学：磁偶极子与顺磁体",
+      "titleKind": "editorial",
+      "topics": [
+        "磁偶极子",
+        "顺磁体"
+      ],
+      "summary": "原卷题号印作「2.」。PDF 第 4 页为 (A) 与图 2.1，第 5 页为 (B) 与图 2.2，第 6 页页眉印「(前ページからの続き)」、正文为 (C) 与图 2.3、图 2.4。三页没有新的大题号，合并为一题。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            43.0,
+            34.5,
+            546.0,
+            785.5
+          ],
+          "label": "PDF 第 4 页"
+        },
+        {
+          "page": 5,
+          "box": [
+            43.0,
+            34.5,
+            546.5,
+            786.0
+          ],
+          "label": "PDF 第 5 页（续）"
+        },
+        {
+          "page": 6,
+          "box": [
+            43.0,
+            34.5,
+            546.5,
+            786.0
+          ],
+          "label": "PDF 第 6 页（续）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2013-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2013-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2013-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "science-tokyo-ee-2013-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "science-tokyo-ee-2013-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}

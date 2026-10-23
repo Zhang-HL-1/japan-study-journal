@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2015-sugaku",
+  "title": "东京科学大学 · 2015 年实施 · 数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2015",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2015,
+    "yearBasis": "exam",
+    "subject": "数学",
+    "originalSubject": "数学",
+    "originalName": "H28数学.pdf",
+    "pdf": "assets/past-papers/documents/75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9.pdf",
+    "sha256": "75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9",
+    "pageCount": 4,
+    "note": "目录 science-tokyo-ee-2015，yearBasis=exam，目录 year/paperYear/examYear=2015，originalYear=2016年度入学，admissionYears=[2016]。封面没有印大学名、研究科、专攻或实施日期，只印「専門科目 (午前)」「28 大修」「数学」「時間 9:30〜11:00」。页眉为【数学】。目录 sourceNote 写明卷面 28 大修对应 2016 入学年度，并非平成28年实施或 2017 入学。本卷沿用该目录年度，不从文件名 H28数学.pdf 把 28 改写成实施年，也不补写封面没有印出的日期。学校名、研究科理工学研究科、专攻電気電子工学専攻・電子物理工学専攻来自目录。目录该文件 label 为「电气数学」，封面与页眉印「数学」，科目按题面记为数学。没有订正页。封面注意事项不是大题。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2015-sugaku/common-01.png",
+      "page": 1,
+      "box": [
+        64.0,
+        88.5,
+        532.0,
+        161.5
+      ],
+      "width": 1170,
+      "height": 183,
+      "label": "封面：场次、大修、科目与时间",
+      "sha256": "7faaa4d1235bc5a6cae39fde052a0016d975ed2cdb72423b64b5b2f5b17bdd44"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2015-sugaku/common-02.png",
+      "page": 1,
+      "box": [
+        62.5,
+        225.0,
+        532.5,
+        370.5
+      ],
+      "width": 1176,
+      "height": 365,
+      "label": "封面：注意事项",
+      "sha256": "207b9a13f37745bcd416e4568cfe78881a9bec5443d20f0f6ac9292b78fcb768"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2015-sugaku-q1",
+      "number": "1．",
+      "title": "数学：二阶齐次微分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "常微分方程"
+      ],
+      "summary": "原卷题号印作「1．」。本页为二阶齐次微分方程及小问。問題分野印作数学。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2015-sugaku/science-tokyo-ee-2015-sugaku-q1-01.png",
+          "page": 2,
+          "box": [
+            48.5,
+            42.0,
+            547.0,
+            813.0
+          ],
+          "width": 1247,
+          "height": 1928,
+          "label": "PDF 第 2 页",
+          "sha256": "c0bc57c3fdf8caebbe82d1255649d8d557582f7768942af2d1248c36792d56fc"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2015-sugaku-q2",
+      "number": "2．",
+      "title": "数学：复傅里叶级数",
+      "titleKind": "editorial",
+      "topics": [
+        "傅里叶级数"
+      ],
+      "summary": "原卷题号印作「2．」。本页为周期函数的复傅里叶级数及小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2015-sugaku/science-tokyo-ee-2015-sugaku-q2-01.png",
+          "page": 3,
+          "box": [
+            48.5,
+            42.0,
+            544.5,
+            813.5
+          ],
+          "width": 1241,
+          "height": 1929,
+          "label": "PDF 第 3 页",
+          "sha256": "85d08aafbf68c91e359030ce89e760b15f62592442f91e18b78d107cd01f2ec4"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2015-sugaku-q3",
+      "number": "3．",
+      "title": "数学：到达时刻的概率",
+      "titleKind": "editorial",
+      "topics": [
+        "概率"
+      ],
+      "summary": "原卷题号印作「3．」。本页为概率模型及小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2015-sugaku/science-tokyo-ee-2015-sugaku-q3-01.png",
+          "page": 4,
+          "box": [
+            48.5,
+            42.0,
+            556.5,
+            813.0
+          ],
+          "width": 1271,
+          "height": 1928,
+          "label": "PDF 第 4 页",
+          "sha256": "5f20de2a4694f8dbb02ec0a95755c9ec6c7708449f295bd4129d357889c1af2b"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2015-sugaku-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2015-sugaku-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2015-sugaku-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}
