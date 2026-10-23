@@ -13,6 +13,10 @@
     $('empty-reset').hidden = true; $('empty-home').hidden = false;
     return;
   }
+  const papersOnly = bank.length > 0 && bank.every(q => q.type === 'paper');
+  $('individual-filters').hidden = papersOnly;
+  $('accuracy-stat').hidden = papersOnly; $('wrong-stat').hidden = papersOnly; $('wrong-scope').hidden = papersOnly;
+  $('filter-disclosure').open = !matchMedia('(max-width: 800px)').matches;
   const defaults = { sourceKind: 'all', school: 'all', major: 'all', book: 'all', paperYear: 'all', subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '' };
   const typeNames = { paper: '原卷练习 · 不判分', choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
   let state = core.blank(), list = [], index = 0, locked = false, exposed = false;
@@ -81,7 +85,7 @@
       .map(s => [JSON.stringify([s.school, s.graduate || '', s.major]), [s.school, s.graduate, s.major].filter(Boolean).join(' / ')]));
     populate('book', '全部书籍', sources.filter(s => s.kind === 'workbook' && s.book).map(s => [s.book, s.book]));
     $('exam-filters').hidden = !['all', 'exam'].includes(state.filters.sourceKind);
-    $('book-filters').hidden = !['all', 'workbook'].includes(state.filters.sourceKind);
+    $('book-filters').hidden = !['all', 'workbook'].includes(state.filters.sourceKind) || !sources.some(s => s.kind === 'workbook');
   }
   [...new Set(bank.filter(q => q.paper).map(q => String(q.paper.year)))].sort((a,b) => Number(b)-Number(a)).forEach(y => option($('paperYear'), y, y));
   applyFilterControls();
@@ -94,6 +98,13 @@
     $('stat-attempted').textContent = `${s.attempted} / ${s.total}`;
     $('stat-accuracy').textContent = bank.some(q => q.type !== 'paper' && record(q).attempts > 0) ? `${s.accuracy}%` : '—';
     $('stat-wrong').textContent = s.wrong;
+    $('stat-saved').textContent = s.bookmarked;
+    $('filter-summary-text').textContent = [state.filters.school === 'all' ? '全部学校' : state.filters.school, state.filters.subject === 'all' ? '全部科目' : state.filters.subject, state.filters.paperYear === 'all' ? '' : state.filters.paperYear, state.filters.search ? '搜索：' + state.filters.search : ''].filter(Boolean).join(' · ');
+    $('practice-picker').disabled = !list.length;
+    $('practice-picker').replaceChildren();
+    if (!list.length) option($('practice-picker'), '', '暂无匹配练习');
+    list.forEach((q,i) => option($('practice-picker'), String(i), `${core.isDone(q,record(q)) ? '✓ ' : ''}${q.title} · ${core.provenance(q).school || core.sourceLabel(q)}`));
+    $('practice-picker').value = list.length ? String(index) : '';
     $('stat-days').textContent = state.days.length;
     $('wrong-count').textContent = s.wrong;
     $('bookmark-count').textContent = s.bookmarked;
@@ -103,8 +114,8 @@
     $('progress').max = list.length || 1; $('progress').value = done;
     $('bank-size').textContent = bank.length;
     const paperCount = bank.filter(q => q.type === 'paper').length;
-    $('bank-caption').textContent = bank.length ? `${paperCount} 套原卷 · ${bank.length-paperCount} 道逐题练习` : '道题 · 等待添加题库';
-    $('bank-notice').textContent = paperCount ? `已接入 ${paperCount} 套原卷练习（按过去问目录分组），不是 ${paperCount} 道题。按已知科目筛选整卷；合卷尚未逐题拆分。原卷完成状态不计入正确率。` : bank.length ? '先独立作答，再对照参考答案。解答题需自行评估推导过程；练习正确率不是官方评分。' : '刷题功能已就绪，题库暂为空，后续加入你的题目后即可练习。解答题需对照解析自评，不是官方评分。';
+    $('bank-caption').textContent = bank.length ? papersOnly ? '套原卷 · 按学校与科目练习' : `${paperCount} 套原卷 · ${bank.length-paperCount} 道逐题练习` : '道题 · 等待添加题库';
+    $('bank-notice').textContent = paperCount ? '当前为整卷练习：筛选原卷，在纸上作答，完成后记录进度。科目按目录标注，合卷尚未逐题拆分。' : bank.length ? '先独立作答，再对照参考答案。解答题需自行评估推导过程；练习正确率不是官方评分。' : '刷题功能已就绪，题库暂为空，后续加入你的题目后即可练习。解答题需对照解析自评，不是官方评分。';
     drawMap();
   }
   function drawMap() {
@@ -169,11 +180,12 @@
       const a = document.createElement('a'); a.href = window.PastPapersCore.fileURL(file); a.textContent = label;
       a.target = '_blank'; a.rel = 'noopener'; a.className = 'secondary-button'; return a;
     };
-    $('paper-meta').textContent = `目录科目：${q.paper.originalSubjects.join(' / ') || '未细分'}。${q.paper.examDates.length ? '实际考试日期：' + q.paper.examDates.join(' / ') + '。' : ''} 本套含 ${files.length} 份原卷文件，可能含多个科目。`;
+    $('paper-meta').textContent = `本套 ${files.length} 份原卷 · 选择文件开始练习${state.filters.subject !== 'all' ? ' · 筛选科目：' + state.filters.subject : ''}`;
     $('practice-paper-note').textContent = q.paper.sourceNote || '出处以原卷及过去问目录为准。';
     $('practice-paper-files').replaceChildren();
     function showFile(f, i) {
-      $('practice-paper-location').textContent = `${f.originalName || f.label} · PDF 共 ${f.pages} 页 · 从第 ${f.startPage || 1} 页打开${f.endPage ? '，目录范围至第 ' + f.endPage + ' 页' : ''}。原件可能还含封面、其他科目或年份，请按目录说明练习。`;
+      $('practice-paper-location').textContent = `${i+1} / ${files.length} 份原卷 · PDF ${f.pages} 页 · 从第 ${f.startPage || 1} 页打开${f.endPage ? '，至第 ' + f.endPage + ' 页' : ''}`;
+      $('practice-paper-note').textContent = `${core.sourceLabel(q)}\n${f.originalName || f.label}\n原件可能含其他科目或年份，请按目录页码练习。\n目录科目：${q.paper.originalSubjects.join(' / ') || '未细分'}\n${q.paper.examDates.length ? '考试日期：' + q.paper.examDates.join(' / ') + '\n' : ''}${q.paper.sourceNote || '出处以原卷及过去问目录为准。'}`;
       $('practice-paper-actions').replaceChildren(link(f, '新窗口打开原卷 ↗'));
       const download = link(f, '下载原卷 ↓'); download.download = f.originalName || 'past-paper.pdf'; $('practice-paper-actions').append(download);
       const back = document.createElement('a'); back.href = 'past-papers.html?' + new URLSearchParams({school:q.paper.schoolId,paper:q.paper.catalogId}); back.textContent = '查看过去问目录 ↗'; back.className = 'plain-button'; $('practice-paper-actions').append(back);
@@ -205,10 +217,11 @@
     const r = record(q); state.current = q.id;
     locked = !fresh && r.attempts > 0 && typeof r.correct === 'boolean'; exposed = false;
     $('question-tags').replaceChildren();
-    [...core.subjectsOf(q), q.chapter, q.difficulty, typeNames[q.type]].forEach(tag => { const el = document.createElement('span'); el.textContent = tag; $('question-tags').append(el); });
-    $('question-source').textContent = `${core.sourceLabel(q)} / ${q.id}`;
+    (q.type === 'paper' ? [state.filters.subject !== 'all' ? state.filters.subject : core.subjectsOf(q).length > 1 ? '多科目合卷' : core.subjectsOf(q)[0], '原卷练习'] : [...core.subjectsOf(q), q.chapter, q.difficulty, typeNames[q.type]]).forEach(tag => { const el = document.createElement('span'); el.textContent = tag; $('question-tags').append(el); });
+    $('question-source').textContent = q.type === 'paper' ? [q.provenance.school, q.provenance.graduate].filter(Boolean).join(' / ') : core.sourceLabel(q);
     $('question-title').textContent = `${index+1}. ${q.title}`;
-    $('question-prompt').textContent = q.prompt;
+    $('question-prompt').textContent = q.prompt; $('question-prompt').hidden = q.type === 'paper';
+    $('previous').textContent = q.type === 'paper' ? '← 上一套' : '← 上一题'; $('next').textContent = q.type === 'paper' ? '下一套 →' : '下一题 →';
     $('bookmark').setAttribute('aria-pressed',String(Boolean(r.bookmarked))); $('bookmark').textContent = r.bookmarked ? '★ 已收藏' : '☆ 收藏';
     ['feedback','reference-answer','explanation','self-grade'].forEach(id => $(id).hidden = true);
     $('show-answer').textContent = '查看答案'; $('show-explanation').textContent = '查看解析 ↗';
@@ -277,6 +290,11 @@
     const r = record(q), answer = getAnswer(); state.records[q.id] = { ...r, draft: answer === null ? '' : String(answer) }; save();
   });
   $('question-note').addEventListener('input', () => { const q = current(); if (!q) return; state.records[q.id] = { ...record(q), note: $('question-note').value, noteAt: Date.now() }; save(); });
+  $('practice-picker').addEventListener('change', () => navigate(Number($('practice-picker').value)));
+  let focused = false;
+  function setFocus(value) { focused = value; $('practice-main').classList.toggle('is-focused', focused); $('focus-practice').setAttribute('aria-pressed', String(focused)); $('focus-practice').textContent = focused ? '退出专注 · Esc' : '专注阅读'; }
+  $('focus-practice').addEventListener('click', () => setFocus(!focused));
+  if (typeof window.addEventListener === 'function') window.addEventListener('keydown', event => { if (event.key === 'Escape') setFocus(false); });
   $('previous').addEventListener('click', () => navigate(index-1)); $('next').addEventListener('click', () => navigate(index+1));
   for (const id of ['sourceKind','school','major','book','paperYear','subject','chapter','difficulty','type','order']) $(id).addEventListener('change', () => { state.filters[id] = $(id).value; if (id === 'school') state.filters.major = 'all'; if (id === 'sourceKind') { state.filters.school = 'all'; state.filters.major = 'all'; state.filters.book = 'all'; } touchFilters(); updateSources(); if (id === 'subject') { state.filters.chapter = 'all'; updateChapters(); } rebuild(); });
   $('search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { state.filters.search = $('search').value; touchFilters(); rebuild(); }, 200); });
