@@ -200,3 +200,7 @@ summary { cursor: pointer; font-size: .85rem; }
 }
 .drill-page .workspace, .drill-page .filter-panel details { min-width: 0; }
 @media (max-width: 800px) { .drill-page .practice-layout { grid-template-columns: minmax(0,1fr); } }
+
+.question-demo-entry { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem 1rem; margin:0 0 1rem; font-size:.8rem; }
+.question-demo-entry a { color:#4d6250; font-weight:600; border-bottom:1px solid #bdc8b4; padding-bottom:.2rem; }
+.question-demo-entry span { color:var(--muted); font-size:.75rem; }

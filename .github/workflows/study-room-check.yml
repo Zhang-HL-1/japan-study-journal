@@ -21,6 +21,11 @@ on:
       - 'script.js'
       - 'campus-map-data.js'
       - 'questions.js'
+      - 'question-practice*'
+      - 'question-bank-index.json'
+      - 'data/question-manifests/**'
+      - 'assets/question-bank/**'
+      - 'skills/past-paper-to-questions/**'
       - 'paper-practice-data.js'
       - 'scripts/build-paper-practice.cjs'
       - 'practice.css'
@@ -60,6 +65,7 @@ jobs:
           NODE_PATH: .qa/node_modules
           STUDY_ROOM_SCREENSHOTS: review
         run: |
+          node tests/question-demo.browser.cjs
           node tests/paper-practice.browser.cjs
           node tests/study-room.browser.cjs
           node tests/navigation.browser.cjs
