@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#faf9f5" />
     <title>刷题练习｜练习室 · 留日手记</title>
 <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="practice.css?v=20261022-papers" />
+    <link rel="stylesheet" href="practice.css?v=20261023-polish" />
     <link rel="stylesheet" href="github-sync.css?v=20261022-sync" />
     <link rel="stylesheet" href="editorial.css?v=20261021-desk" />
     <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
@@ -20,10 +20,10 @@
     <script src="progress-sync.js?v=20261022-sync" defer></script>
     <script src="github-sync.js?v=20261022-sync" defer></script>
     <script src="github-sync-ui.js?v=20261022-sync" defer></script>
-    <script src="practice.js?v=20261022-sync" defer></script>
+    <script src="practice.js?v=20261023-polish" defer></script>
     <script src="script.js" defer></script>
   </head>
-  <body>
+  <body class="drill-page">
     <a class="skip-link" href="#practice-title">跳到练习区</a>
     <header class="site-header">
       <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
@@ -49,7 +49,7 @@
         <a class="is-active" aria-current="page" href="practice.html">练习室</a>
             <a href="desk.html">我的书桌</a>
 </nav>
-    <main class="practice-main">
+    <main class="practice-main" id="practice-main">
       <nav class="room-breadcrumb" aria-label="练习室导航"><a href="practice.html">← 返回练习室</a><span aria-current="page">刷题练习</span><a href="past-papers.html">过去问题库 ↗</a></nav>
       <section class="practice-intro" aria-labelledby="practice-title">
         <div>
@@ -62,49 +62,55 @@
       <div class="notice" id="bank-notice">正在加载已收录的过去问原卷。原卷练习保留完整 PDF，不进行自动评分。</div>
       <section class="stats-grid" aria-label="学习概况">
         <div><span>已练习 / 全部练习</span><strong id="stat-attempted">0 / 0</strong></div>
-        <div><span>逐题作答正确率</span><strong id="stat-accuracy">—</strong></div>
-        <div><span>待复习错题</span><strong id="stat-wrong">0</strong></div>
-        <div><span>已记录练习天数</span><strong id="stat-days">0</strong></div>
+        <div id="accuracy-stat"><span>逐题作答正确率</span><strong id="stat-accuracy">—</strong></div>
+        <div id="wrong-stat"><span>待复习错题</span><strong id="stat-wrong">0</strong></div>
+        <div id="saved-stat"><span>已收藏</span><strong id="stat-saved">0</strong></div><div><span>练习天数</span><strong id="stat-days">0</strong></div>
       </section>
       <div class="practice-layout">
         <aside class="filter-panel" aria-label="练习筛选">
+          <details id="filter-disclosure" open><summary class="filter-summary">筛选练习 <span id="filter-summary-text">全部学校 · 全部科目</span></summary>
+          <div class="filter-body">
           <div class="panel-heading"><h2>选择练习</h2><button id="reset-filters" class="plain-button" type="button">重置筛选</button></div>
           <div class="scope-tabs" aria-label="题目范围">
             <button type="button" data-scope="all" aria-pressed="true">全部练习</button>
             <button type="button" data-scope="unanswered" aria-pressed="false">未完成</button>
-            <button type="button" data-scope="wrong" aria-pressed="false">错题本 <span id="wrong-count">0</span></button>
+            <button id="wrong-scope" type="button" data-scope="wrong" aria-pressed="false">错题本 <span id="wrong-count">0</span></button>
             <button type="button" data-scope="bookmarked" aria-pressed="false">收藏 <span id="bookmark-count">0</span></button>
           </div>
-          <label class="filter-label" for="sourceKind">题目来源</label>
-          <select id="sourceKind"><option value="all">混合练习 · 全部来源</option><option value="exam">只刷历年真题</option><option value="workbook">只刷参考书 / 练习册</option><option value="original">只刷原创题</option></select>
           <div id="exam-filters">
             <label class="filter-label" for="school">学校</label><select id="school"><option value="all">全部学校 · 跨校练习</option></select>
             <label class="filter-label" for="major">研究科 / 专攻</label><select id="major"><option value="all">全部专攻</option></select>
           </div>
-          <div id="book-filters"><label class="filter-label" for="book">参考书 / 练习册</label><select id="book"><option value="all">全部书籍</option></select></div>
-          <p class="filter-help">选学校与专攻，再选「全部学科」可刷该专攻全部题；只选科目可跨校刷题。混合模式下，学校与专攻仅限定真题，书籍仅限定练习册；科目等条件应用于所有练习。原卷按目录已知科目筛选，未细分的合卷可能尚未归入单科。</p>
           <label class="filter-label" for="paperYear">原卷索引年份</label><select id="paperYear"><option value="all">全部年份</option></select>
           <label class="filter-label" for="subject">学科 / 科目</label><select id="subject"><option value="all">全部学科</option></select>
-          <label class="filter-label" for="chapter">章节</label><select id="chapter"><option value="all">全部章节</option></select>
+          <label class="filter-label" for="search">搜索题目 / 出处</label><input id="search" type="search" placeholder="学校、科目或试卷关键词" maxlength="100" />
+          <details id="advanced-filters" class="advanced-filters"><summary>来源与更多选项</summary>
+          <label class="filter-label" for="sourceKind">题目来源</label>
+          <select id="sourceKind"><option value="all">混合练习 · 全部来源</option><option value="exam">只刷历年真题</option><option value="workbook">只刷参考书 / 练习册</option><option value="original">只刷原创题</option></select>
+          <div id="book-filters"><label class="filter-label" for="book">参考书 / 练习册</label><select id="book"><option value="all">全部书籍</option></select></div>
+          <div id="individual-filters">          <label class="filter-label" for="chapter">章节</label><select id="chapter"><option value="all">全部章节</option></select>
           <div class="filter-pair">
             <div><label class="filter-label" for="difficulty">难度</label><select id="difficulty"><option value="all">全部</option><option>基础</option><option>进阶</option><option>未标注</option></select></div>
             <div><label class="filter-label" for="type">题型</label><select id="type"><option value="all">全部</option><option value="paper">原卷练习</option><option value="choice">单选</option><option value="numeric">数值</option><option value="written">解答</option></select></div>
           </div>
-          <label class="filter-label" for="search">搜索题目 / 出处</label><input id="search" type="search" placeholder="例如：电磁、学校、书名、题号" maxlength="100" />
+</div>
           <label class="filter-label" for="order">练习顺序</label><select id="order"><option value="sequential">顺序练习</option><option value="random">随机练习</option></select>
           <button id="refresh-list" type="button" class="secondary-button full-width">更新题单 / 重新随机</button>
           <p class="filter-help">错题答对后会移出错题本。当前题单保持不变，点击「更新题单」刷新。</p>
-          <div class="storage-tools">
-            <h3>我的练习记录</h3>
+          <p class="filter-help">科目以目录已标注信息为准，部分合卷仍待细分。练习册与逐题练习会随资料补充开放。</p>
+          </details></div></details>
+          <details class="storage-tools"><summary>记录备份与跨设备同步</summary>
+
             <p>默认只保存在当前浏览器。需要换设备时，用下方的私密 Gist 同步；也可以先导出备份。</p>
             <div class="backup-buttons"><button id="export-progress" type="button" class="plain-button">导出记录 ↗</button><button id="import-progress" type="button" class="plain-button">导入记录 ↙</button></div>
             <input id="import-file" type="file" accept="application/json,.json" hidden />
             <div id="japan-sync" data-sync-variant="compact"></div>
-          </div>
+          </details>
         </aside>
         <section class="workspace" aria-label="刷题区">
           <div class="session-bar"><span id="list-count">正在加载题库…</span><span id="session-progress">本题单已完成 0 / 0</span></div>
           <progress id="progress" max="1" value="0" aria-label="当前题单完成进度"></progress>
+          <div class="practice-toolbar"><div class="paper-picker"><label for="practice-picker">跳转到本题单中的练习</label><select id="practice-picker"><option value="0">正在加载…</option></select></div><button id="focus-practice" class="secondary-button" type="button" aria-pressed="false">专注阅读</button></div>
           <article class="question-card" id="question-card" tabindex="-1" hidden>
             <div class="question-topline"><div id="question-tags" class="question-tags"></div><button id="bookmark" class="bookmark-button" type="button" aria-pressed="false">☆ 收藏</button></div>
             <p id="question-source" class="question-source"></p>
@@ -116,7 +122,7 @@
               <p id="practice-paper-location" class="input-help"></p>
               <div id="practice-paper-actions" class="practice-paper-actions"></div>
               <div id="practice-paper-reader" class="practice-paper-reader"></div>
-              <details><summary>出处、原卷说明与完整性</summary><p id="practice-paper-note"></p></details>
+              <details><summary>出处、页码与原卷说明</summary><p id="practice-paper-note"></p></details>
               <details id="practice-paper-references"><summary>参考解答 / 订正与补充资料</summary><p id="practice-answer-status"></p><div id="practice-reference-links" class="practice-paper-actions"></div></details>
               <div class="answer-actions"><button id="complete-paper" class="primary-button" type="button">标记本套已练习</button><p id="paper-completion" role="status"></p></div>
             </section>
@@ -131,10 +137,10 @@
             <div id="self-grade" class="self-grade" hidden><p>解答题不自动判分，请对照推导自评：</p><button id="mark-correct" type="button" class="secondary-button">我做对了 ✓</button><button id="mark-wrong" type="button" class="secondary-button">还需复习 ↺</button></div>
             <button id="retry" class="plain-button retry-button" type="button" hidden>重新作答（保留历史记录） ↺</button>
             <details class="note-details"><summary>学习笔记 / 易错点</summary><label class="sr-only" for="question-note">本题学习笔记</label><textarea id="question-note" rows="3" maxlength="6000" placeholder="例如：负反馈成立时才可以使用虚短……"></textarea><small>输入后自动保存，仅自己在此浏览器中可见。</small></details>
-            <div class="question-navigation"><button id="previous" type="button" class="secondary-button">← 上一题</button><span id="position">0 / 0</span><button id="next" type="button" class="primary-button">下一题 →</button></div>
+            <div class="question-navigation"><button id="previous" type="button" class="secondary-button">← 上一套</button><span id="position">0 / 0</span><button id="next" type="button" class="primary-button">下一套 →</button></div>
           </article>
           <div id="empty-state" class="empty-state"><span aria-hidden="true">◎</span><h2 id="empty-title">题库正在等你。</h2><p id="empty-copy">功能已经准备好。加入你的题目后，便可以按学科、章节练习和复习。</p><a id="empty-home" href="past-papers.html" class="secondary-button">先看历年真题 ↗</a><button id="empty-reset" type="button" class="primary-button" hidden>查看全部题目</button></div>
-          <details id="question-map" class="question-map" hidden><summary>练习导航 <small>✓ 已练习 / 已答对 · × 待复习 · ☆ 收藏</small></summary><div id="question-grid" class="question-grid"></div></details>
+          <details id="question-map" class="question-map" hidden><summary>按序号跳转 <small>✓ 已练习 / 已答对 · × 待复习 · ☆ 收藏</small></summary><div id="question-grid" class="question-grid"></div></details>
           <p id="storage-status" class="storage-status" role="status">练习记录保存在当前浏览器。</p>
         </section>
       </div>

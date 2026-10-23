@@ -159,3 +159,17 @@ test('catalog completion stored in practice:v1 is shown as completed by drill', 
   assert.match(drill.ids['paper-completion'].textContent, /尚未标记完成/);
   assert.equal(completion.isCompleted(q.paper.catalogId, { getItem: () => drill.raw(), setItem() {} }, [q]), false);
 });
+
+test('named practice picker navigates, updates completion and exits focus without losing records',async()=>{
+  const a=boot();
+  assert.equal(a.ids['practice-picker'].options.length,3);
+  assert.match(a.ids['practice-picker'].options[1].textContent,/fixture number/);
+  await a.change('practice-picker','1');
+  assert.equal(a.state().current,'qa-number');
+  await a.input('question-note','keep this note');
+  await a.ids['focus-practice'].click();
+  assert.equal(a.ids['focus-practice'].getAttribute('aria-pressed'),'true');
+  await a.ids['focus-practice'].click();
+  assert.equal(a.ids['focus-practice'].getAttribute('aria-pressed'),'false');
+  assert.equal(a.state().records['qa-number'].note,'keep this note');
+});

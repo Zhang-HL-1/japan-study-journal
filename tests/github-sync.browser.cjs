@@ -55,6 +55,8 @@ const root = path.join(__dirname, '..');
     assert.equal(await page.evaluate(() => localStorage.getItem('japan-study-journal.sync.github.v1')), null);
 
     await page.goto(origin + '/drill.html');
+    assert.equal(await page.locator('#japan-sync-title').isVisible(), false);
+    await page.locator('.storage-tools > summary').click();
     await page.locator('#japan-sync-title').waitFor();
     await page.setViewportSize({ width: 390, height: 900 });
     assert.match(await page.locator('#japan-sync-status').textContent(), /未连接/);

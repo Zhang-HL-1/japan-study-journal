@@ -12,6 +12,8 @@ const root=path.join(__dirname,'..');
    await page.setViewportSize({width,height:1000});await page.goto(origin+'/drill.html');
    assert.equal(await page.locator('#bank-size').textContent(),String(bank.length));assert.equal(await page.locator('#answer-form').isHidden(),true);
    assert.equal(await page.locator('#practice-paper-reader iframe').count(),1);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+   if (width <= 800) { assert.equal(await page.locator('#filter-disclosure').getAttribute('open'),null); await page.locator('.filter-summary').click(); }
+   await page.locator('#advanced-filters > summary').click();
    await page.selectOption('#sourceKind','exam');await page.selectOption('#subject','电磁学');
    const matches=bank.filter(q=>q.subjects.includes('电磁学'));assert.equal(await page.locator('#question-grid button').count(),matches.length);
    await page.selectOption('#school','神戸大学');await page.selectOption('#paperYear','2026');
@@ -22,11 +24,15 @@ const root=path.join(__dirname,'..');
    if(await page.locator('.note-details').getAttribute('open')===null)await page.locator('.note-details summary').click();await page.fill('#question-note','原卷练习笔记');await page.locator('#complete-paper').click();assert.equal(await page.locator('#stat-accuracy').textContent(),'—');
    await page.reload();assert.equal(await page.locator('#question-note').inputValue(),'原卷练习笔记');assert.match(await page.locator('#paper-completion').textContent(),/本套已练习/);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);await shot('paper-practice-'+width);
-   await page.locator('#complete-paper').click();await page.locator('#reset-filters').click();
+   await page.locator('#complete-paper').click();
+   if(width<=800) await page.locator('.filter-summary').click();
+   await page.locator('#reset-filters').click();
   }
+  await page.selectOption('#practice-picker','3');assert.match(await page.locator('#position').textContent(),/^4 \/ /);
+  await page.locator('#focus-practice').click();assert.equal(await page.locator('.filter-panel').isVisible(),false);await page.keyboard.press('Escape');assert.equal(await page.locator('.filter-panel').isVisible(),true);
   await page.selectOption('#school','上智大学');assert.equal(await page.locator('#practice-reference-links a').count()>0,true);assert.match(await page.locator('#practice-answer-status').textContent(),/附有参考解答/);
-  await page.selectOption('#sourceKind','workbook');assert.equal(await page.locator('#question-card').isHidden(),true);assert.equal(await page.locator('#practice-paper-reader iframe').count(),0);
-  await page.locator('#reset-filters').click();await page.locator('#export-progress').click();
+  await page.locator('#advanced-filters > summary').click();await page.selectOption('#sourceKind','workbook');assert.equal(await page.locator('#question-card').isHidden(),true);assert.equal(await page.locator('#practice-paper-reader iframe').count(),0);
+  await page.locator('#reset-filters').click();await page.locator('.storage-tools > summary').click();await page.locator('#export-progress').click();
   const broken=await browser.newPage();await broken.route('**/paper-practice-data.js*',r=>r.abort());await broken.goto(origin+'/drill.html');assert.equal(await broken.locator('#list-count').textContent(),'题库加载失败');
   assert.deepEqual(errors,[]);console.log('Whole-paper browser checks passed at 390/800/1440px: sources, subject/year filters, actual PDFs, completion, reload, notes, answer links, empty and load-failure states.');
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
