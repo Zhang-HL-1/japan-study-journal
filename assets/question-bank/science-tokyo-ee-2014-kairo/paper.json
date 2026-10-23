@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2014-kairo",
+  "title": "东京科学大学 · 2014 年实施 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2014",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2014,
+    "yearBasis": "exam",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "H27-pmP1.pdf",
+    "pdf": "assets/past-papers/documents/47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291.pdf",
+    "sha256": "47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291",
+    "pageCount": 4,
+    "note": "目录 science-tokyo-ee-2014，yearBasis=exam，目录 year/paperYear/examYear=2014，originalYear=2015年度入学，admissionYears=[2015]。封面印「東京工業大学理工学研究科」「電気電子工学専攻・電子物理工学専攻」「平成26年8月19日実施」「専門科目 電気電子工学・電子物理工学(午後1)」「27 大修」「電気回路」「時間 13:30〜15:00」。平成26年是实施年，27大修对应目录里的2015年度入学。学校名用目录的東京科学大学；封面印当时校名東京工業大学。研究科、专攻与封面一致。科目与封面、目录文件标签一致。没有订正页。封面注意事项不是大题。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2014-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        88.5,
+        94.0,
+        515.0,
+        156.5
+      ],
+      "width": 1067,
+      "height": 157,
+      "label": "封面：学校与实施日期",
+      "sha256": "4f05dd79556ee11fedb5c69362954a8af96faa79c223ccce15e23d74fd4910b7"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2014-kairo/common-02.png",
+      "page": 1,
+      "box": [
+        64.0,
+        168.5,
+        532.0,
+        276.0
+      ],
+      "width": 1170,
+      "height": 269,
+      "label": "封面：场次、科目与时间",
+      "sha256": "f4d71bbdd3ac5c116cfbd91d0cbf70fbb4779b7df48b7ee1948e674144c223ed"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2014-kairo/common-03.png",
+      "page": 1,
+      "box": [
+        62.5,
+        309.0,
+        532.5,
+        433.5
+      ],
+      "width": 1176,
+      "height": 312,
+      "label": "封面：注意事项",
+      "sha256": "ca5e19aa0090825153b9cb3f220d3af04c088adc13b2db7f328ee4c3fd99c8a4"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2014-kairo-q1",
+      "number": "1.",
+      "title": "电气回路：变压器与交流电路",
+      "titleKind": "editorial",
+      "topics": [
+        "变压器",
+        "交流电路"
+      ],
+      "summary": "原卷题号印作「1.」。本页含图 1.1–1.3 与小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2014-kairo/science-tokyo-ee-2014-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            43.0,
+            40.0,
+            546.5,
+            813.0
+          ],
+          "width": 1260,
+          "height": 1933,
+          "label": "PDF 第 2 页",
+          "sha256": "418d9e6dbe9229f4db643dd6fa1529ebc69d01e66d9f4c3ee2343950a9f71738"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2014-kairo-q2",
+      "number": "2.",
+      "title": "电气回路：分布参数线路暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "分布参数线路"
+      ],
+      "summary": "原卷题号印作「2.」。本页含图 2.1 与小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2014-kairo/science-tokyo-ee-2014-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            43.0,
+            40.0,
+            546.5,
+            813.5
+          ],
+          "width": 1260,
+          "height": 1934,
+          "label": "PDF 第 3 页",
+          "sha256": "b1a3d547c3a1f86f97581613c8c97b896442fc86332e936e0d1c8d1cafe7f4da"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2014-kairo-q3",
+      "number": "3.",
+      "title": "电气回路：栅极接地放大",
+      "titleKind": "editorial",
+      "topics": [
+        "MOSFET",
+        "小信号等效电路"
+      ],
+      "summary": "原卷题号印作「3.」。本页含图 3.1、图 3.2 与小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2014-kairo/science-tokyo-ee-2014-kairo-q3-01.png",
+          "page": 4,
+          "box": [
+            43.0,
+            40.0,
+            547.0,
+            813.0
+          ],
+          "width": 1261,
+          "height": 1933,
+          "label": "PDF 第 4 页",
+          "sha256": "cb05a6488553e6d6af88b366b8c9d83b82d5e0cb89ebc3fd5b2be967ab6cb362"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2014-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2014-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2014-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}

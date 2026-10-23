@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2014-sugaku",
+  "title": "东京科学大学 · 2014 年实施 · 电气数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2014",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2014,
+    "yearBasis": "exam",
+    "subject": "电气数学",
+    "originalSubject": "電気数学",
+    "originalName": "H27-amP.pdf",
+    "pdf": "assets/past-papers/documents/e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80.pdf",
+    "sha256": "e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80",
+    "pageCount": 4,
+    "note": "目录 science-tokyo-ee-2014，yearBasis=exam，目录 year/paperYear/examYear=2014，originalYear=2015年度入学，admissionYears=[2015]。封面印「東京工業大学理工学研究科」「電気電子工学専攻・電子物理工学専攻」「平成26年8月19日実施」「専門科目 電気電子工学・電子物理工学(午前)」「27 大修」「電気数学」「時間 9:30〜11:00」。平成26年是实施年，27大修对应目录里的2015年度入学。学校名用目录的東京科学大学；封面印当时校名東京工業大学。研究科、专攻与封面一致。科目与封面、目录文件标签一致。封面第 4 条只说明虚数单位记为 j，不是大题。没有订正页。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        88.5,
+        86.0,
+        515.0,
+        148.5
+      ],
+      "label": "封面：学校与实施日期"
+    },
+    {
+      "page": 1,
+      "box": [
+        64.0,
+        168.5,
+        532.0,
+        276.5
+      ],
+      "label": "封面：场次、科目与时间"
+    },
+    {
+      "page": 1,
+      "box": [
+        62.5,
+        309.0,
+        532.5,
+        453.5
+      ],
+      "label": "封面：注意事项"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2014-sugaku-q1",
+      "number": "1．",
+      "title": "电气数学：复数根与围道积分",
+      "titleKind": "editorial",
+      "topics": [
+        "复变函数",
+        "围道积分"
+      ],
+      "summary": "原卷题号印作「1．」。本页求复数方程的根、偏角，并计算围道积分。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            43.0,
+            42.0,
+            546.5,
+            813.0
+          ],
+          "label": "PDF 第 2 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2014-sugaku-q2",
+      "number": "2．",
+      "title": "电气数学：抽样与傅里叶级数",
+      "titleKind": "editorial",
+      "topics": [
+        "傅里叶级数",
+        "抽样"
+      ],
+      "summary": "原卷题号印作「2．」。本页含 δ(t) 抽样信号与小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            43.0,
+            42.0,
+            546.5,
+            813.5
+          ],
+          "label": "PDF 第 3 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2014-sugaku-q3",
+      "number": "3．",
+      "title": "电气数学：二阶偏微分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "偏微分方程"
+      ],
+      "summary": "原卷题号印作「3．」。本页为二阶偏微分方程及小问。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            43.0,
+            42.0,
+            550.5,
+            813.0
+          ],
+          "label": "PDF 第 4 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2014-sugaku-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2014-sugaku-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2014-sugaku-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}

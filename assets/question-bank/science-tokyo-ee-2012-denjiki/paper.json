@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2012-denjiki",
+  "title": "东京科学大学 · 2012 年实施 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2012",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2012,
+    "yearBasis": "exam",
+    "subject": "电磁气学",
+    "originalSubject": "電磁気学",
+    "originalName": "H25-pmP2.pdf",
+    "pdf": "assets/past-papers/documents/7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3.pdf",
+    "sha256": "7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3",
+    "pageCount": 3,
+    "note": "目录 science-tokyo-ee-2012，yearBasis=exam，目录 year/paperYear/examYear=2012，originalYear=2013年度入学，admissionYears=[2013]。封面印「東京工業大学大学院理工学研究科」「電気電子工学・電子物理工学専攻」「平成24年8月22日実施」「専門科目 電気電子工学・電子物理工学(午後2)」「25 大修」「電磁気学」「時間 15:30〜17:00」。平成24年是实施年，25大修对应目录里的2013年度入学。学校名用目录的東京科学大学；封面印当时校名東京工業大学。专攻用目录写法；封面写作「電気電子工学・電子物理工学専攻」。科目与封面、目录文件标签一致。没有订正页。封面注意事项不是大题。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2012-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        63.5,
+        79.0,
+        525.0,
+        144.5
+      ],
+      "width": 1155,
+      "height": 165,
+      "label": "封面：学校与实施日期",
+      "sha256": "64cfb0d9e3789c1fa0c3a6657fcdc9c1b01aa5d8058ce1956e4e4c153e9a4b6e"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2012-denjiki/common-02.png",
+      "page": 1,
+      "box": [
+        64.0,
+        168.5,
+        532.0,
+        276.0
+      ],
+      "width": 1170,
+      "height": 269,
+      "label": "封面：场次、科目与时间",
+      "sha256": "c5d7acf22f6850d780c878ac16d5ccea539c90c543395483da93a9cd8e4b8147"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2012-denjiki/common-03.png",
+      "page": 1,
+      "box": [
+        62.5,
+        309.0,
+        520.5,
+        413.5
+      ],
+      "width": 1146,
+      "height": 262,
+      "label": "封面：注意事项",
+      "sha256": "823c9c262594c5f320e8037be477b00ff130c54818e388888d434acbe40b4f3e"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2012-denjiki-q1",
+      "number": "1．",
+      "title": "电磁气学：多层电容器",
+      "titleKind": "editorial",
+      "topics": [
+        "电容",
+        "静电场"
+      ],
+      "summary": "原卷题号印作「1．」。本页含图 1.1 与小问。下一页另起大题 2，不并入本题。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2012-denjiki/science-tokyo-ee-2012-denjiki-q1-01.png",
+          "page": 2,
+          "box": [
+            43.0,
+            42.0,
+            546.5,
+            799.5
+          ],
+          "width": 1260,
+          "height": 1894,
+          "label": "PDF 第 2 页",
+          "sha256": "159f7e1e75e89690454375583a79159d8057936678654981a635c595c12bf686"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2012-denjiki-q2",
+      "number": "2．",
+      "title": "电磁气学：带气隙的磁路",
+      "titleKind": "editorial",
+      "topics": [
+        "磁路",
+        "电感"
+      ],
+      "summary": "原卷题号印作「2．」。本页含图 2.1 与小问。页眉虽有「前ページから続く」，正文从大题 2 起，不把上一题并入。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2012-denjiki/science-tokyo-ee-2012-denjiki-q2-01.png",
+          "page": 3,
+          "box": [
+            43.0,
+            55.0,
+            546.5,
+            785.5
+          ],
+          "width": 1260,
+          "height": 1827,
+          "label": "PDF 第 3 页",
+          "sha256": "240e23c666397ede559d9127bced99abc9792ac26a64014953f47ee5960fde1b"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2012-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2012-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}
