@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2005-kairo",
+  "title": "东京科学大学 · 2005 年实施 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2005",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2005,
+    "yearBasis": "exam",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "H18-am.pdf",
+    "pdf": "assets/past-papers/documents/6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436.pdf",
+    "sha256": "6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436",
+    "pageCount": 3,
+    "note": "目录 science-tokyo-ee-2005，yearBasis=exam，目录 year/paperYear/examYear=2005，originalYear=2006年度入学，admissionYears=[2006]。封面印平成17年8月17日実施、18 大修、午前、10:00–11:30。18大修对应目录里的2006年度入学。封面印当时校名東京工業大学、大学院修士課程入試問題，以及電気電子工学専攻、電子物理工学専攻；封面没有印出「理工学研究科」这几个字。研究科用目录的理工学研究科。专攻用目录写法「電気電子工学専攻・電子物理工学専攻」。科目与封面、目录文件标签一致，是電気回路，不是电气数学。原 PDF 没有 /Rotate。没有订正页。封面注意事项不是大题。封面印「専門科目 電気回路(午前)」「時間 10:00–11:30」「18 大修」。文件名 H18-am.pdf 的 am 与封面午前一致，不是电气数学。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        11.0,
+        12.5,
+        577.0,
+        58.0
+      ],
+      "label": "封面：学校与实施日期"
+    },
+    {
+      "page": 1,
+      "box": [
+        64.5,
+        96.0,
+        524.5,
+        191.0
+      ],
+      "label": "封面：场次、科目与时间"
+    },
+    {
+      "page": 1,
+      "box": [
+        63.5,
+        223.0,
+        546.0,
+        331.0
+      ],
+      "label": "封面：注意事项"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2005-kairo-q1",
+      "number": "1.",
+      "title": "电气回路：正弦稳态与节点方程",
+      "titleKind": "editorial",
+      "topics": [
+        "正弦稳态",
+        "节点方程"
+      ],
+      "summary": "原卷题号印作「1.」。本页范围 第 2 页，含图 1.1、图 1.3、图 1.4。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            30.5,
+            27.5,
+            551.5,
+            767.5
+          ],
+          "label": "PDF 第 2 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。同一页出现新的大题号时按题号切开。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2005-kairo-q2",
+      "number": "2.",
+      "title": "电气回路：CR电路与维恩电桥",
+      "titleKind": "editorial",
+      "topics": [
+        "CR电路",
+        "电桥"
+      ],
+      "summary": "原卷题号印作「2.」。本页范围 第 3 页，含图 2.1、图 2.2。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            45.0,
+            30.0,
+            589.5,
+            794.0
+          ],
+          "label": "PDF 第 3 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。同一页出现新的大题号时按题号切开。中文标题不是原题译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码、页边空白和扫描细边不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2005-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2005-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}

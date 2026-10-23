@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2008-kairo",
+  "title": "东京科学大学 · 2008 年实施 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2008",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2008,
+    "yearBasis": "exam",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "H21-am.pdf",
+    "pdf": "assets/past-papers/documents/d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd.pdf",
+    "sha256": "d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd",
+    "pageCount": 5,
+    "note": "目录 science-tokyo-ee-2008，yearBasis=exam，目录 year/paperYear/examYear=2008，originalYear=2009年度入学，admissionYears=[2009]。封面印平成20年8月19日実施、21 大修、午前、10:00–11:30。21大修对应目录里的2009年度入学。封面印「東京工業大学大学院理工学研究科」和「電気電子工学専攻・電子物理工学専攻」。学校名用目录的東京科学大学；封面印当时校名東京工業大学。专攻与目录一致。科目与封面、目录文件标签一致，是電気回路，不是电气数学。原 PDF 没有 /Rotate。没有订正页。封面注意事项不是大题。封面印「専門科目 電気回路（午前）」「時間 10:00〜11:30」「21 大修」。题页是整页扫描，没有可用文字层。大题 3 的第 5 页从 3) 续起。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2008-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        68.5,
+        35.0,
+        522.0,
+        121.0
+      ],
+      "width": 1134,
+      "height": 216,
+      "label": "封面：学校与实施日期",
+      "sha256": "209e2f32e5355d292d9e3b5031ba816a706285669c042dd98d4de7f3c50ca626"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2008-kairo/common-02.png",
+      "page": 1,
+      "box": [
+        104.5,
+        127.5,
+        533.0,
+        195.5
+      ],
+      "width": 1072,
+      "height": 171,
+      "label": "封面：场次、科目与时间",
+      "sha256": "8790fa0d82e6527351e4e063474f819d99113be6d09eb7695fae65d62780845a"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2008-kairo/common-03.png",
+      "page": 1,
+      "box": [
+        67.0,
+        234.5,
+        521.0,
+        334.5
+      ],
+      "width": 1136,
+      "height": 251,
+      "label": "封面：注意事项",
+      "sha256": "ef260b569a48feeaf96ebd32eaf7e830419b672ea80fe7f0d22612773ff712d3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2008-kairo-q1",
+      "number": "1.",
+      "title": "电气回路：二阶RLC暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "暂态电路",
+        "RLC电路"
+      ],
+      "summary": "原卷题号印作「1.」。本页范围 第 2 页，含图 1.1。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。同一页出现新的大题号时按题号切开。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2008-kairo/science-tokyo-ee-2008-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            46.0,
+            39.5,
+            579.0,
+            739.0
+          ],
+          "width": 1333,
+          "height": 1750,
+          "label": "PDF 第 2 页",
+          "sha256": "56ad79f01eb0ff3a06b362f172019d28a83e0d8a9fcc4062872959edd52979cd"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2008-kairo-q2",
+      "number": "2.",
+      "title": "电气回路：运算放大器",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器"
+      ],
+      "summary": "原卷题号印作「2.」。本页范围 第 3 页，含图 2.1–2.3。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。同一页出现新的大题号时按题号切开。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2008-kairo/science-tokyo-ee-2008-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            47.0,
+            39.0,
+            549.5,
+            392.0
+          ],
+          "width": 1257,
+          "height": 883,
+          "label": "PDF 第 3 页",
+          "sha256": "b6ecc7ae1fbd6463274378353e3370e9b16d0230784faaa0ff4862307039385f"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2008-kairo-q3",
+      "number": "3.",
+      "title": "电气回路：无损耗分布参数线路",
+      "titleKind": "editorial",
+      "topics": [
+        "分布参数线路",
+        "反射"
+      ],
+      "summary": "原卷题号印作「3.」。题干从 PDF 第 4 页延续到第 5 页。本页范围 第 4 页、第 5 页，含图 3.1、图 3.2。续页没有新的大题号，按原题顺序并入本题。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。同一页出现新的大题号时按题号切开。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2008-kairo/science-tokyo-ee-2008-kairo-q3-01.png",
+          "page": 4,
+          "box": [
+            24.5,
+            36.0,
+            517.5,
+            511.5
+          ],
+          "width": 1233,
+          "height": 1189,
+          "label": "PDF 第 4 页（本题起始）",
+          "sha256": "e202673563e0fea5c1eb75eeedaffc5c5288e664835d7b37a7f996f649d49e16"
+        },
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2008-kairo/science-tokyo-ee-2008-kairo-q3-02.png",
+          "page": 5,
+          "box": [
+            41.0,
+            54.0,
+            517.5,
+            490.0
+          ],
+          "width": 1192,
+          "height": 1090,
+          "label": "PDF 第 5 页（续页）",
+          "sha256": "80f108361fe1679beb3fc36678d17708e3b596cf40d0362def93a1943d485c56"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码、页边空白和扫描细边不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2008-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2008-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2008-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "science-tokyo-ee-2008-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}

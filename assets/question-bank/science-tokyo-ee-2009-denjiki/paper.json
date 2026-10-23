@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2009-denjiki",
+  "title": "东京科学大学 · 2009 年实施 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2009",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2009,
+    "yearBasis": "exam",
+    "subject": "电磁气学",
+    "originalSubject": "電磁気学",
+    "originalName": "H22-pm.pdf",
+    "pdf": "assets/past-papers/documents/b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c.pdf",
+    "sha256": "b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c",
+    "pageCount": 5,
+    "note": "目录 science-tokyo-ee-2009，yearBasis=exam，目录 year/paperYear/examYear=2009，originalYear=2010年度入学，admissionYears=[2010]。封面印平成20年8月18日実施、22 大修、午後、13:30–15:00。22大修对应目录里的2010年度入学。封面印「東京工業大学大学院理工学研究科」和「電気電子工学専攻・電子物理工学専攻」。学校名用目录的東京科学大学；封面印当时校名東京工業大学。专攻与目录一致。科目与封面、目录文件标签一致，是電磁気学，不是电气数学。原 PDF 没有 /Rotate。没有订正页。封面注意事项不是大题。封面印「専門科目 電磁気学 (午後)」「時間 13:30〜15:00」「22 大修」，同时印「平成20年8月18日実施」。年度冲突与同日电气回路卷相同，沿用目录 year=2009、yearBasis=exam。大题 1 的第 3 页只有图 1.1 和图 1.2。大题 2 的第 5 页从 5) 续起。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2009-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        65.5,
+        38.5,
+        473.5,
+        76.5
+      ],
+      "width": 1021,
+      "height": 96,
+      "label": "封面：学校与实施日期",
+      "sha256": "9b329794f863d89523cf245de6e6b4b1d3aada417fdf5c362b2cb79b0acc39ce"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2009-denjiki/common-02.png",
+      "page": 1,
+      "box": [
+        66.5,
+        92.5,
+        529.5,
+        195.0
+      ],
+      "width": 1158,
+      "height": 257,
+      "label": "封面：场次、科目与时间",
+      "sha256": "00587f9781bea2e0d69aef465150061c50f8eb05f3dd4adf7d1bc6f3230436b8"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2009-denjiki/common-03.png",
+      "page": 1,
+      "box": [
+        64.5,
+        233.0,
+        518.0,
+        332.5
+      ],
+      "width": 1134,
+      "height": 250,
+      "label": "封面：注意事项",
+      "sha256": "b9c85ec948ea2007b5bb9476fcbec8589c985e4deee68408bdc9876911da7040"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2009-denjiki-q1",
+      "number": "1．",
+      "title": "电磁气学：平行线电荷的电位与电场",
+      "titleKind": "editorial",
+      "topics": [
+        "线电荷",
+        "电位"
+      ],
+      "summary": "原卷题号印作「1．」。题干从 PDF 第 2 页延续到第 3 页。本页范围 第 2 页、第 3 页，含图 1.1、图 1.2。续页没有新的大题号，按原题顺序并入本题。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。同一页出现新的大题号时按题号切开。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2009-denjiki/science-tokyo-ee-2009-denjiki-q1-01.png",
+          "page": 2,
+          "box": [
+            43.5,
+            40.0,
+            545.5,
+            567.0
+          ],
+          "width": 1256,
+          "height": 1318,
+          "label": "PDF 第 2 页（本题起始）",
+          "sha256": "ee0d56d311b1c061a84b57a8d3ec57107ceff67d8de848b9017a7bb06cda0f53"
+        },
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2009-denjiki/science-tokyo-ee-2009-denjiki-q1-02.png",
+          "page": 3,
+          "box": [
+            43.5,
+            40.0,
+            527.0,
+            746.0
+          ],
+          "width": 1210,
+          "height": 1765,
+          "label": "PDF 第 3 页（续页）",
+          "sha256": "92b3a0db715f5bf7587a0ea306a265f42a546b31717a2564c39bb7260a9ec926"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2009-denjiki-q2",
+      "number": "2．",
+      "title": "电磁气学：安培定律与表皮效应",
+      "titleKind": "editorial",
+      "topics": [
+        "安培定律",
+        "法拉第电磁感应",
+        "表皮效应"
+      ],
+      "summary": "原卷题号印作「2．」。题干从 PDF 第 4 页延续到第 5 页。本页范围 第 4 页、第 5 页，含图 2.1–2.3。续页没有新的大题号，按原题顺序并入本题。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。同一页出现新的大题号时按题号切开。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2009-denjiki/science-tokyo-ee-2009-denjiki-q2-01.png",
+          "page": 4,
+          "box": [
+            43.5,
+            40.0,
+            545.5,
+            712.0
+          ],
+          "width": 1256,
+          "height": 1680,
+          "label": "PDF 第 4 页（本题起始）",
+          "sha256": "5c8f0beeb8efe3f79dc4289ac9cb7104ee0aa538f76776ba2c3ce9217b7109ad"
+        },
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2009-denjiki/science-tokyo-ee-2009-denjiki-q2-02.png",
+          "page": 5,
+          "box": [
+            43.5,
+            39.0,
+            546.0,
+            506.5
+          ],
+          "width": 1257,
+          "height": 1170,
+          "label": "PDF 第 5 页（续页）",
+          "sha256": "63b48803a92c38d47db7f044ca6a0feefb65d159d90caeae035d4311daf6fa34"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码、页边空白和扫描细边不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2009-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2009-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2009-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "science-tokyo-ee-2009-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2011-kairo",
+  "title": "东京科学大学 · 2011 年实施 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2011",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学専攻・電子物理工学専攻",
+    "year": 2011,
+    "yearBasis": "exam",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "H24-amP.pdf",
+    "pdf": "assets/past-papers/documents/240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269.pdf",
+    "sha256": "240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269",
+    "pageCount": 4,
+    "note": "目录 science-tokyo-ee-2011，yearBasis=exam，目录 year/paperYear/examYear=2011，originalYear=2012年度入学，admissionYears=[2012]。封面印平成23年8月17日実施、24 大修、午前、9:30–11:00。24大修对应目录里的2012年度入学。封面印「東京工業大学大学院理工学研究科」和「電気電子工学専攻・電子物理工学専攻」。学校名用目录的東京科学大学；封面印当时校名東京工業大学。专攻与目录一致。科目与封面、目录文件标签一致，是電気回路，不是电气数学。原 PDF 没有 /Rotate。没有订正页。封面注意事项不是大题。封面印「専門科目 電気回路 (午前)」「時間 9:30〜11:00」「24 大修」「平成23年8月17日実施」。大题 1 的第 3 页从 5) 续起，没有新的大题号。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        66.5,
+        39.5,
+        477.5,
+        83.5
+      ],
+      "label": "封面：学校与实施日期"
+    },
+    {
+      "page": 1,
+      "box": [
+        66.5,
+        91.0,
+        529.5,
+        193.5
+      ],
+      "label": "封面：场次、科目与时间"
+    },
+    {
+      "page": 1,
+      "box": [
+        64.5,
+        231.5,
+        517.5,
+        331.0
+      ],
+      "label": "封面：注意事项"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2011-kairo-q1",
+      "number": "1．",
+      "title": "电气回路：二端口网络的F参数",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口网络",
+        "F参数"
+      ],
+      "summary": "原卷题号印作「1．」。题干从 PDF 第 2 页延续到第 3 页。本页范围 第 2 页、第 3 页，含图 1.1–1.5。续页没有新的大题号，按原题顺序并入本题。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            43.5,
+            40.0,
+            545.0,
+            751.0
+          ],
+          "label": "PDF 第 2 页（本题起始）"
+        },
+        {
+          "page": 3,
+          "box": [
+            43.5,
+            42.0,
+            549.5,
+            491.5
+          ],
+          "label": "PDF 第 3 页（续页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。同一页出现新的大题号时按题号切开。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2011-kairo-q2",
+      "number": "2．",
+      "title": "电气回路：三相RL与三角形结线",
+      "titleKind": "editorial",
+      "topics": [
+        "三相电路",
+        "功率因数"
+      ],
+      "summary": "原卷题号印作「2．」。本页范围 第 4 页，含图 2.1、图 2.2。页眉「次ページに続く」或「前ページからの続き」是整册页眉；下一页另起大题号时本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            43.5,
+            38.5,
+            545.5,
+            659.5
+          ],
+          "label": "PDF 第 4 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、首行、末行、小问、公式、图号和页码。裁图外没有题面墨迹。跨页只在下一页没有新的大题号时合并。同一页出现新的大题号时按题号切开。中文标题不是原题译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。学校或场次、科目、时间和注意事项已收入 commonRegions。底部印刷页码、页边空白和扫描细边不计题。本页没有大题，也没有订正。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2011-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2011-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2011-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。孤立的印刷页码和扫描细边在裁图外，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}
