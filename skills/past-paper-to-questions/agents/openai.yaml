@@ -1,0 +1,4 @@
+interface:
+  display_name: "过去问逐题整理"
+  short_description: "将大学院过去问拆成有出处、可校对的原题裁图，并按批次接入留日手记"
+  default_prompt: "使用 $past-paper-to-questions 整理本批过去问，保留日文原题与配图，先生成草稿裁图并逐题核对，再接入网站；答案暂不处理。"
