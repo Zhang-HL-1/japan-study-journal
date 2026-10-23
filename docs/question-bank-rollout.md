@@ -16,6 +16,8 @@
 
 東京科学大学工学院電気電子系 2023、2024、2025 年实施的笔答合卷见 `docs/question-bank-batch-science-tokyo-ee-2023-2025.md`。目录 `yearBasis=exam`，入口示例：`question-practice.html?paper=science-tokyo-ee-2023`。
 
+2016、2017、2018、2019、2021、2022 年实施的同一系笔答合卷见 `docs/question-bank-batch-science-tokyo-ee-2016-2022.md`。没有 2020 年目录条目。2015 及更早的历史分科卷不在该批。入口示例：`question-practice.html?paper=science-tokyo-ee-2016`。
+
 ## 可移交的实现
 
 | 内容 | 文件 |

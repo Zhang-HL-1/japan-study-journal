@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2021",
+  "title": "东京科学大学 · 2021 年实施 · 电气电子系笔答",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2021",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "工学院",
+    "major": "電気電子系",
+    "year": 2021,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "専門科目",
+    "originalName": "exam_ee_20218.pdf",
+    "pdf": "assets/past-papers/documents/0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291.pdf",
+    "sha256": "0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291",
+    "pageCount": 11,
+    "note": "目录 science-tokyo-ee-2021，yearBasis=exam，目录 year/paperYear/examYear=2021，originalYear=2022年度入学。封面印「2022 大修」，与目录入学年度一致；不把封面入学年改写成目录实施年，也不把目录实施年改写成入学年。封面未印大学名。学校名用目录 schoolId science-tokyo 对应的東京科学大学，研究科工学院只来自目录；专攻「電気電子系」封面与目录一致。科目沿用目录「专业科目合卷」。封面列出数学、电磁气学，以及二选一的电气回路或量子力学/物性基础。时间 9:30–12:10。大题按原卷题号保留，各科目内从 1 重新起号。两门选择科目都保留为大题。没有把题面改写的订正。目录没有把这份合卷拆成单科 PDF。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2021/common-01.png",
+      "page": 1,
+      "box": [
+        64.0,
+        88.5,
+        531.5,
+        147.5
+      ],
+      "width": 1169,
+      "height": 148,
+      "label": "封面：考试名称、系与时间",
+      "sha256": "6250dbd1ea371a6ded4d4a33ac3d1813e01745982113f431326b60abfd0df523"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2021/common-02.png",
+      "page": 1,
+      "box": [
+        112.0,
+        163.5,
+        449.5,
+        219.5
+      ],
+      "width": 844,
+      "height": 141,
+      "label": "封面：考试科目",
+      "sha256": "47e4340af1804dca3055b843b7df012f1dc3e921f84675bf46ecc0e04f77a86a"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2021/common-03.png",
+      "page": 1,
+      "box": [
+        63.0,
+        245.5,
+        532.0,
+        392.0
+      ],
+      "width": 1173,
+      "height": 367,
+      "label": "封面：目次",
+      "sha256": "bfa1ade68208384a97ddbe9ceed3abcce65a89f888a93d04948e4777dc1c1730"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2021/common-04.png",
+      "page": 1,
+      "box": [
+        62.5,
+        412.5,
+        519.5,
+        576.5
+      ],
+      "width": 1143,
+      "height": 411,
+      "label": "封面：注意事项",
+      "sha256": "208904118915aad0c370b67dd0064aac76a9d833be0ca7b118faa2bd4c80dade"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2021-math-1",
+      "number": "1．",
+      "title": "数学：傅里叶变换",
+      "titleKind": "editorial",
+      "topics": [
+        "傅里叶变换",
+        "抽样"
+      ],
+      "summary": "原卷問題分野为数学，题号印作「1．」。本页为 PDF 第 2 页。本页含小问 1)–4) 与图 1.1。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-math-1-01.png",
+          "page": 2,
+          "box": [
+            48.5,
+            41.5,
+            546.0,
+            813.0
+          ],
+          "width": 1244,
+          "height": 1930,
+          "label": "PDF 第 2 页",
+          "sha256": "b08ac750a71d9044196de9afe3e952173e489fc6e46464c15737cf0195f675ee"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2021-math-2",
+      "number": "2．",
+      "title": "数学：常微分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "常微分方程"
+      ],
+      "summary": "原卷問題分野为数学，题号印作「2．」。本页为 PDF 第 3 页。本页含小问 1)–3)。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-math-2-01.png",
+          "page": 3,
+          "box": [
+            48.5,
+            42.0,
+            543.0,
+            813.0
+          ],
+          "width": 1237,
+          "height": 1928,
+          "label": "PDF 第 3 页",
+          "sha256": "c0bd5208432081955dde9aef435c75edb3c26c7abebdf63e404fedad6746ff7a"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2021-em-1",
+      "number": "1．",
+      "title": "电磁气学：同轴电容器",
+      "titleKind": "editorial",
+      "topics": [
+        "同轴电容",
+        "电介质"
+      ],
+      "summary": "原卷問題分野为电磁气学，题号印作「1．」。题干在 PDF 第 4 页，第 5 页为续页。含图 1.1–1.4。下一页未另起大题号，已按原顺序并入本题。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。跨页部分按阅读顺序合并为一道大题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-em-1-01.png",
+          "page": 4,
+          "box": [
+            48.5,
+            42.0,
+            546.0,
+            811.0
+          ],
+          "width": 1244,
+          "height": 1923,
+          "label": "PDF 第 4 页（本题起始）",
+          "sha256": "d2540aede0f15cd3c9f294085644771bc2fecb04ba8d1e579c7ef8e211caf473"
+        },
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-em-1-02.png",
+          "page": 5,
+          "box": [
+            48.5,
+            42.0,
+            546.0,
+            813.0
+          ],
+          "width": 1244,
+          "height": 1928,
+          "label": "PDF 第 5 页（续）",
+          "sha256": "6c0b007959feb9bb98138c72f74308b647c1ed4411a85dad5cccb0640e413d8f"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2021-em-2",
+      "number": "2．",
+      "title": "电磁气学：平行平板线路",
+      "titleKind": "editorial",
+      "topics": [
+        "传输线",
+        "电磁场"
+      ],
+      "summary": "原卷問題分野为电磁气学，题号印作「2．」。本页为 PDF 第 6 页。本页含小问 1)–4) 与图 2.1、图 2.2。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-em-2-01.png",
+          "page": 6,
+          "box": [
+            48.5,
+            42.0,
+            546.0,
+            813.0
+          ],
+          "width": 1244,
+          "height": 1928,
+          "label": "PDF 第 6 页",
+          "sha256": "d640d3c84d75ba436328e2d31b66284d371c632d87542b3e556a9a7ceb91f7da"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2021-circuit-1",
+      "number": "1．",
+      "title": "电气回路：RLC传递函数",
+      "titleKind": "editorial",
+      "topics": [
+        "传递函数",
+        "波特图"
+      ],
+      "summary": "原卷問題分野为电气回路，题号印作「1．」。选择科目。本页为 PDF 第 7 页。本页含小问 1)–5) 与图 1.1–1.4。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-circuit-1-01.png",
+          "page": 7,
+          "box": [
+            48.5,
+            39.5,
+            545.5,
+            783.0
+          ],
+          "width": 1243,
+          "height": 1860,
+          "label": "PDF 第 7 页",
+          "sha256": "74742bff4bb6a08ae9718160d5e3faea1973ed2ea56a3776032d7199d26ad1b1"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2021-circuit-2",
+      "number": "2．",
+      "title": "电气回路：LC并联电路",
+      "titleKind": "editorial",
+      "topics": [
+        "LC电路",
+        "功率"
+      ],
+      "summary": "原卷問題分野为电气回路，题号印作「2．」。选择科目。本页为 PDF 第 8 页。本页含小问 1)–4) 与图 2.1、图 2.2。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-circuit-2-01.png",
+          "page": 8,
+          "box": [
+            48.5,
+            39.5,
+            545.5,
+            813.0
+          ],
+          "width": 1243,
+          "height": 1935,
+          "label": "PDF 第 8 页",
+          "sha256": "f805387d2ebde2cd334d01ab217e6a6a480abdb2a200217ddfa733861856e2f6"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2021-qm-1",
+      "number": "１．",
+      "title": "量子力学：有限深势阱",
+      "titleKind": "editorial",
+      "topics": [
+        "有限势阱",
+        "束缚态"
+      ],
+      "summary": "原卷問題分野为量子力学/物性基础，题号印作「１．」。选择科目。本页为 PDF 第 9 页。本页含小问 1)–4) 与图 1.1。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-qm-1-01.png",
+          "page": 9,
+          "box": [
+            48.5,
+            43.0,
+            546.5,
+            791.5
+          ],
+          "width": 1246,
+          "height": 1872,
+          "label": "PDF 第 9 页",
+          "sha256": "b45256a73bfd19a60ae0bb4e074639b5657b461a1f0c7cdf7d8853bb2e963b98"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2021-qm-2",
+      "number": "2．",
+      "title": "量子力学：半导体电导",
+      "titleKind": "editorial",
+      "topics": [
+        "漂移",
+        "扩散"
+      ],
+      "summary": "原卷問題分野为量子力学/物性基础，题号印作「2．」。选择科目。题干在 PDF 第 10 页，第 11 页为续页。含图 2.1。下一页未另起大题号，已按原顺序并入本题。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。跨页部分按阅读顺序合并为一道大题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-qm-2-01.png",
+          "page": 10,
+          "box": [
+            48.0,
+            42.0,
+            551.0,
+            813.0
+          ],
+          "width": 1258,
+          "height": 1928,
+          "label": "PDF 第 10 页（本题起始）",
+          "sha256": "45a1b9a417f65e64b9967cac05080fc554c3fb475485f73af1951e284bca5daa"
+        },
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2021/science-tokyo-ee-2021-qm-2-02.png",
+          "page": 11,
+          "box": [
+            48.0,
+            42.0,
+            552.5,
+            813.0
+          ],
+          "width": 1262,
+          "height": 1928,
+          "label": "PDF 第 11 页（续）",
+          "sha256": "a5cd550a85f507b51db001a087b5b63c39cb6340ba7e4dc90b1172fbda82f8fe"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。考试名称、科目、注意事项、目次已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2021-math-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2021-math-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2021-em-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "science-tokyo-ee-2021-em-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "science-tokyo-ee-2021-em-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "science-tokyo-ee-2021-circuit-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "science-tokyo-ee-2021-circuit-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "science-tokyo-ee-2021-qm-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "science-tokyo-ee-2021-qm-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "science-tokyo-ee-2021-qm-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}

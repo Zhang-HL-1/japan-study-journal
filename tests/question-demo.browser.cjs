@@ -53,7 +53,7 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
   for (const id of ids) assert.ok(hrefs.includes('question-practice.html?paper='+id),id);
   assert.doesNotMatch(await chooser.locator('body').innerText(),/DEMO|Demo|样例/);await chooser.close();
   const tusPapers=[['tus-ee-2025-denshi',4],['tus-ee-2025-kairo',3],['tus-ee-2025-sugaku',4],['tus-ee-2025-denjiki',3],['tus-ee-2025-intl',1]];
-  const scienceTokyoPapers=[['science-tokyo-ee-2023',8],['science-tokyo-ee-2024',8],['science-tokyo-ee-2025',8]];
+  const scienceTokyoPapers=[['science-tokyo-ee-2016',10],['science-tokyo-ee-2017',10],['science-tokyo-ee-2018',10],['science-tokyo-ee-2019',8],['science-tokyo-ee-2021',8],['science-tokyo-ee-2022',8],['science-tokyo-ee-2023',8],['science-tokyo-ee-2024',8],['science-tokyo-ee-2025',8]];
   for(const width of [390,800,1440]){
    for(const [id,count] of tusPapers){
     const page=await browser.newPage({viewport:{width,height:1000},reducedMotion:'reduce'}),errors=[];

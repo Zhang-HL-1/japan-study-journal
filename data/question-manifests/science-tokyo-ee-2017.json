@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2017",
+  "title": "东京科学大学 · 2017 年实施 · 电气电子系笔答",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2017",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "工学院",
+    "major": "電気電子系",
+    "year": 2017,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "専門科目／選択専門科目",
+    "originalName": "ee_h29.pdf",
+    "pdf": "assets/past-papers/documents/835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba.pdf",
+    "sha256": "835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba",
+    "pageCount": 14,
+    "note": "目录 science-tokyo-ee-2017，yearBasis=exam，目录 year/paperYear/examYear=2017，originalYear=2018年度入学。封面印「30 大修」，与目录入学年度一致；不把封面入学年改写成目录实施年，也不把目录实施年改写成入学年。封面未印大学名。学校名用目录 schoolId science-tokyo 对应的東京科学大学，研究科工学院只来自目录；专攻「電気電子系」封面与目录一致。科目沿用目录「专业科目合卷」。同一 PDF 内按场次分册：午前 9:30–11:00 为数学大问 1–3，午后1 13:30–15:00 为电磁气学大问 1–3，午后2 15:30–16:30 为选择科目电气回路或量子力学/物性基础，各 2 道大问。各场封面收入共用说明，不计题。大题按原卷题号保留，各科目内从 1 重新起号。选择科目两门都保留。没有把题面改写的订正。目录没有把这份合卷拆成单科 PDF。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        65.0,
+        89.5,
+        532.5,
+        149.0
+      ],
+      "label": "午前数学封面：考试名称、系与时间"
+    },
+    {
+      "page": 1,
+      "box": [
+        100.5,
+        165.5,
+        151.5,
+        198.0
+      ],
+      "label": "午前数学封面：科目"
+    },
+    {
+      "page": 1,
+      "box": [
+        64.0,
+        231.5,
+        520.5,
+        338.5
+      ],
+      "label": "午前数学封面：注意事项"
+    },
+    {
+      "page": 5,
+      "box": [
+        66.5,
+        91.0,
+        534.0,
+        150.0
+      ],
+      "label": "午后1电磁气学封面：考试名称、系与时间"
+    },
+    {
+      "page": 5,
+      "box": [
+        102.0,
+        166.5,
+        188.5,
+        198.5
+      ],
+      "label": "午后1电磁气学封面：科目"
+    },
+    {
+      "page": 5,
+      "box": [
+        64.5,
+        231.5,
+        521.0,
+        338.5
+      ],
+      "label": "午后1电磁气学封面：注意事项"
+    },
+    {
+      "page": 9,
+      "box": [
+        63.5,
+        90.0,
+        531.5,
+        150.0
+      ],
+      "label": "午后2电气回路封面：考试名称、系与时间"
+    },
+    {
+      "page": 9,
+      "box": [
+        100.0,
+        166.5,
+        186.5,
+        198.5
+      ],
+      "label": "午后2电气回路封面：科目"
+    },
+    {
+      "page": 9,
+      "box": [
+        63.0,
+        232.0,
+        520.0,
+        338.0
+      ],
+      "label": "午后2电气回路封面：注意事项"
+    },
+    {
+      "page": 12,
+      "box": [
+        63.5,
+        91.0,
+        531.5,
+        150.5
+      ],
+      "label": "午后2量子力学封面：考试名称、系与时间"
+    },
+    {
+      "page": 12,
+      "box": [
+        100.5,
+        167.0,
+        267.0,
+        199.5
+      ],
+      "label": "午后2量子力学封面：科目"
+    },
+    {
+      "page": 12,
+      "box": [
+        63.0,
+        232.5,
+        519.5,
+        339.0
+      ],
+      "label": "午后2量子力学封面：注意事项"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2017-math-1",
+      "number": "1.",
+      "title": "数学：常微分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "常微分方程"
+      ],
+      "summary": "原卷問題分野为数学，题号印作「1.」。午前场。本页为 PDF 第 2 页。本页含小问 1)–3)。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            47.0,
+            43.0,
+            548.0,
+            805.0
+          ],
+          "label": "PDF 第 2 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2017-math-2",
+      "number": "2.",
+      "title": "数学：拉普拉斯变换与傅里叶级数",
+      "titleKind": "editorial",
+      "topics": [
+        "拉普拉斯变换",
+        "傅里叶级数"
+      ],
+      "summary": "原卷問題分野为数学，题号印作「2.」。午前场。本页为 PDF 第 3 页。本页含小问 1)2)。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            46.5,
+            42.5,
+            549.5,
+            805.0
+          ],
+          "label": "PDF 第 3 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2017-math-3",
+      "number": "3.",
+      "title": "数学：复变函数与留数",
+      "titleKind": "editorial",
+      "topics": [
+        "复变函数",
+        "留数"
+      ],
+      "summary": "原卷問題分野为数学，题号印作「3.」。午前场。本页为 PDF 第 4 页。本页含小问 1)2)。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            46.5,
+            44.0,
+            537.0,
+            802.5
+          ],
+          "label": "PDF 第 4 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2017-em-1",
+      "number": "1.",
+      "title": "电磁气学：运动电荷的磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "静磁场",
+        "运动电荷"
+      ],
+      "summary": "原卷問題分野为电磁气学，题号印作「1.」。午后1场。本页为 PDF 第 6 页。本页含小问 1)–6)。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            71.0,
+            58.5,
+            532.0,
+            820.5
+          ],
+          "label": "PDF 第 6 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2017-em-2",
+      "number": "2.",
+      "title": "电磁气学：三块平板电极",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "平板电极"
+      ],
+      "summary": "原卷問題分野为电磁气学，题号印作「2.」。午后1场。本页为 PDF 第 7 页。本页含小问 1)–6) 与图 2.1。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            49.0,
+            62.0,
+            546.5,
+            792.5
+          ],
+          "label": "PDF 第 7 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2017-em-3",
+      "number": "3.",
+      "title": "电磁气学：平面电磁波",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "平面波"
+      ],
+      "summary": "原卷問題分野为电磁气学，题号印作「3.」。午后1场。本页为 PDF 第 8 页。本页含 (A)(B) 与图 3.1。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 8,
+          "box": [
+            51.5,
+            49.5,
+            585.0,
+            787.5
+          ],
+          "label": "PDF 第 8 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2017-circuit-1",
+      "number": "1.",
+      "title": "电气回路：运放与振荡",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "振荡"
+      ],
+      "summary": "原卷問題分野为电气回路，题号印作「1.」。午后2场。选择科目。本页为 PDF 第 10 页。本页含小问 1)–4) 与图 1.1–1.3。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 10,
+          "box": [
+            0.8,
+            42.0,
+            548.5,
+            817.0
+          ],
+          "label": "PDF 第 10 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2017-circuit-2",
+      "number": "2.",
+      "title": "电气回路：交流阻抗与功率",
+      "titleKind": "editorial",
+      "topics": [
+        "阻抗",
+        "功率因数"
+      ],
+      "summary": "原卷問題分野为电气回路，题号印作「2.」。午后2场。选择科目。本页为 PDF 第 11 页。本页含小问 1)–5) 与图 2.1。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 11,
+          "box": [
+            55.5,
+            46.0,
+            552.5,
+            822.5
+          ],
+          "label": "PDF 第 11 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2017-qm-1",
+      "number": "1.",
+      "title": "量子力学：阶梯势",
+      "titleKind": "editorial",
+      "topics": [
+        "阶梯势",
+        "薛定谔方程"
+      ],
+      "summary": "原卷問題分野为量子力学/物性基础，题号印作「1.」。午后2场。选择科目。本页为 PDF 第 13 页。本页为空栏填空，含图 1.1。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 13,
+          "box": [
+            60.5,
+            43.5,
+            534.5,
+            813.0
+          ],
+          "label": "PDF 第 13 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      }
+    },
+    {
+      "id": "science-tokyo-ee-2017-qm-2",
+      "number": "2.",
+      "title": "量子力学：p型半导体",
+      "titleKind": "editorial",
+      "topics": [
+        "p型半导体",
+        "费米能级"
+      ],
+      "summary": "原卷問題分野为量子力学/物性基础，题号印作「2.」。午后2场。选择科目。本页为 PDF 第 14 页。本页含小问 1)–6)。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 14,
+          "box": [
+            32.0,
+            46.0,
+            550.0,
+            790.5
+          ],
+          "label": "PDF 第 14 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。考试名称、科目、注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2017-math-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2017-math-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2017-math-3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。考试名称、科目、注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "science-tokyo-ee-2017-em-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "science-tokyo-ee-2017-em-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "science-tokyo-ee-2017-em-3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。考试名称、科目、注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "science-tokyo-ee-2017-circuit-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "science-tokyo-ee-2017-circuit-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。考试名称、科目、注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "science-tokyo-ee-2017-qm-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "science-tokyo-ee-2017-qm-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}
