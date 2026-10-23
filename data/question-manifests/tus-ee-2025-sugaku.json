@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-ee-2025-sugaku",
+  "title": "东京理科大学 · 2025 入学年度 · 电气数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-92e97fbb48a52078",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "創域理工学研究科",
+    "major": "電気電子情報工学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "电气数学",
+    "originalSubject": "電気数学",
+    "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電気数学.pdf",
+    "pdf": "assets/past-papers/documents/425e306640f6cadd4d65cbd7433ca0f8a681f863e5a9ebb5d51e208a12d96e51.pdf",
+    "sha256": "425e306640f6cadd4d65cbd7433ca0f8a681f863e5a9ebb5d51e208a12d96e51",
+    "pageCount": 5,
+    "note": "来自既有过去问目录 tus-92e97fbb48a52078，修士課程一般入試。2025 是入学年度（封面写 2025年度，yearBasis=academic）。目录考试日期为 2024-08-02，不把入学年度改写成实施年。封面写明本卷是電気数学、问题纸 1–4 页。",
+    "normalization": {
+      "method": "PyMuPDF Page.remove_rotation() on a byte copy of the catalog PDF. Original file bytes are unchanged. Crop boxes use the upright derived page.rect; each derived page pixmap at scale 1 matches the rotated source appearance.",
+      "derivedPdf": "assets/question-bank/tus-ee-2025-sugaku/normalized.pdf",
+      "derivedSha256": "95a3ec3e0c1c82b71ba729b70228358021d0181ff8df4ce07b8c9fcf9a910467",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        },
+        {
+          "page": 5,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            841.86,
+            595.26
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.26,
+            841.86
+          ]
+        }
+      ]
+    }
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        70.5,
+        58.5,
+        485.5,
+        312.5
+      ],
+      "label": "封面：考试名称、科目与考场说明"
+    },
+    {
+      "page": 1,
+      "box": [
+        38.5,
+        491.0,
+        531.5,
+        599.5
+      ],
+      "label": "封面：考试时间、用具与答题纸"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-ee-2025-sugaku-q1",
+      "number": "1",
+      "title": "定积分、切平面与容器体积",
+      "titleKind": "editorial",
+      "topics": [
+        "定积分",
+        "偏导",
+        "极值"
+      ],
+      "summary": "问题纸第 1 页，含 (1)–(3)。原卷没有「問題1」标题。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            11.0,
+            48.0,
+            571.0,
+            806.5
+          ],
+          "label": "问题纸第 1 页全文"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tus-ee-2025-sugaku-q2",
+      "number": "2",
+      "title": "矩阵运算与秩",
+      "titleKind": "editorial",
+      "topics": [
+        "矩阵",
+        "行列式",
+        "秩"
+      ],
+      "summary": "问题纸第 2 页，含 (1)–(3) 及其中的小问。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            9.5,
+            51.0,
+            566.5,
+            809.0
+          ],
+          "label": "问题纸第 2 页全文"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tus-ee-2025-sugaku-q3",
+      "number": "3",
+      "title": "矢量面积分与傅里叶变换",
+      "titleKind": "editorial",
+      "topics": [
+        "矢量分析",
+        "傅里叶变换"
+      ],
+      "summary": "问题纸第 3 页，含 (1)(ア)(イ) 与 (2)。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            10.5,
+            52.5,
+            565.5,
+            817.0
+          ],
+          "label": "问题纸第 3 页全文"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tus-ee-2025-sugaku-q4",
+      "number": "4",
+      "title": "复积分与一次分式变换",
+      "titleKind": "editorial",
+      "topics": [
+        "复变函数",
+        "分式线性变换"
+      ],
+      "summary": "问题纸第 4 页，含 (1)(2) 及 (ア)–(ウ)。 中文标题和概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            5.5,
+            52.0,
+            562.5,
+            810.0
+          ],
+          "label": "问题纸第 4 页全文"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照规范化后的整页与预览裁图，核对题干首行、末行、小问、公式和图；页边与孤立印刷页码未裁入。中文标题不是原题译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面上下空白，以及说明文字与时间表之间的空框（仅两条横线，框内无文字）。考试名称、考场说明、时间、用具和答题纸规则已收入 commonRegions。封面不计为题目。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-ee-2025-sugaku-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-ee-2025-sugaku-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-ee-2025-sugaku-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-ee-2025-sugaku-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在题图底部，不另计题目。本页只有一道大题，小问和配图都在同一裁图内。",
+      "reviewed": true
+    }
+  ]
+}

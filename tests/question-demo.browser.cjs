@@ -35,6 +35,23 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
   const bad=await browser.newPage();await bad.goto(origin+'/question-practice.html?paper=not-found');await bad.locator('#load-status').filter({hasText:'尚未接入'}).waitFor();assert.equal(await bad.locator('#app').isHidden(),true);
   await bad.route('**/paper.json',r=>r.abort());await bad.goto(origin+'/question-practice.html');await bad.locator('#load-status').filter({hasText:'刷新重试'}).waitFor();await bad.close();
   const corrupt=await browser.newPage();await corrupt.addInitScript(()=>localStorage.setItem('japan-study-journal:question-demo:v1','broken'));await corrupt.goto(origin+'/question-practice.html');await corrupt.locator('#app').waitFor();await corrupt.locator('#complete').click();assert.equal(await corrupt.evaluate(()=>localStorage.getItem('japan-study-journal:question-demo:v1')),'broken');assert.match(await corrupt.locator('#storage-status').textContent(),/无法读取或保存/);await corrupt.close();
+  const tusPapers=[['tus-ee-2025-denshi',4],['tus-ee-2025-kairo',3],['tus-ee-2025-sugaku',4],['tus-ee-2025-denjiki',3],['tus-ee-2025-intl',1]];
+  for(const width of [390,800,1440]){
+   for(const [id,count] of tusPapers){
+    const page=await browser.newPage({viewport:{width,height:1000},reducedMotion:'reduce'}),errors=[];
+    page.on('pageerror',e=>errors.push(String(e)));
+    await page.goto(`${origin}/question-practice.html?paper=${id}`);
+    await page.locator('#app').waitFor();
+    assert.equal(await page.locator('iframe,object,embed').count(),0);
+    assert.equal(await page.locator('#question-directory button').count(),count);
+    await page.waitForFunction(()=>[...document.querySelectorAll('#common-content img,#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    assert.match(await page.locator('#paper-heading').innerText(),/东京理科大学/);
+    assert.equal(await page.getByText('答案',{exact:true}).count(),0);
+    assert.deepEqual(errors,[]);
+    await page.close();
+   }
+  }
   console.log('Question demo browser checks passed: 390/800/1440, real PNGs, no embedded PDF, zoom/focus, deep links/history, isolated records, export, and failure states.');
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exitCode=1;});

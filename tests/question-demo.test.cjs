@@ -10,6 +10,12 @@ test('published question papers preserve catalog sources, unique IDs and complet
   const data=JSON.parse(fs.readFileSync(path.join(root,entry.data))),manifest=JSON.parse(fs.readFileSync(path.join(root,'data/question-manifests',entry.id+'.json')));
   assert.equal(data.id,entry.id);assert.equal(data.questions.length,entry.questionCount);assert.deepEqual(data.source,manifest.source);assert.deepEqual(data.coverage,manifest.coverage);
   assert.equal(hash(data.source.pdf),data.source.sha256);
+  if(data.source.normalization){
+   const norm=data.source.normalization;
+   assert.equal(hash(norm.derivedPdf),norm.derivedSha256);
+   assert.equal(norm.pages.length,data.source.pageCount);
+   for(const mapped of norm.pages) assert.equal(mapped.derivedRotation,0);
+  } else assert.equal(data.source.normalization,undefined);
   const source=catalog.papers.find(p=>p.id===data.source.catalogId);assert.ok(source);assert.equal(source.universityId,data.source.schoolId);
   const file=source.files.find(f=>f.url===data.source.pdf);assert.equal(file.kind,'question');assert.equal(file.originalName,data.source.originalName);assert.equal(file.pages,data.source.pageCount);
   assert.deepEqual(data.coverage.map(c=>c.page).sort((a,b)=>a-b),Array.from({length:data.source.pageCount},(_,i)=>i+1));

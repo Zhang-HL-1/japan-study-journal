@@ -17,6 +17,50 @@ def inside(root, relative):
     return path
 
 
+def box_of(rect):
+    return [float(rect.x0), float(rect.y0), float(rect.x1), float(rect.y1)]
+
+
+def nearly(rect, recorded, tolerance=0.2):
+    values = box_of(rect) if not isinstance(rect, (list, tuple)) else [float(v) for v in rect]
+    return len(recorded) == 4 and all(abs(values[i] - float(recorded[i])) <= tolerance for i in range(4))
+
+
+def open_render_document(root, source, original):
+    """Crop from an upright page. Rotated sources must name a derived PDF whose pixels match."""
+    rotations = [page.rotation for page in original]
+    normalization = source.get('normalization')
+    if not any(rotations):
+        if normalization:
+            raise ValueError('Normalization recorded for an unrotated source')
+        return original
+    if not normalization:
+        raise ValueError('Rotated page: normalize a derived copy and re-review coordinates first')
+    derived_path = inside(root, normalization['derivedPdf'])
+    if hashlib.sha256(derived_path.read_bytes()).hexdigest() != normalization['derivedSha256']:
+        raise ValueError('Derived PDF SHA-256 mismatch; re-review before rebuilding')
+    derived = fitz.open(derived_path)
+    if len(derived) != len(original):
+        raise ValueError('Derived page count mismatch')
+    page_map = normalization.get('pages') or []
+    if [item.get('page') for item in page_map] != list(range(1, len(original) + 1)):
+        raise ValueError('Normalization page map must list every source page once')
+    for index, spec in enumerate(page_map):
+        source_page, derived_page = original[index], derived[index]
+        if spec.get('sourceRotation') != source_page.rotation or spec.get('derivedRotation') != 0 or derived_page.rotation:
+            raise ValueError('Rotation map does not match source and derived pages')
+        if not nearly(derived_page.rect, spec.get('derivedRect') or []):
+            raise ValueError('Derived page rectangle does not match the recorded map')
+        if not nearly(source_page.mediabox, spec.get('sourceMediaBox') or []):
+            raise ValueError('Source MediaBox does not match the recorded map')
+        # Boxes are in the upright derived page.rect. Reject a derived file that changes appearance.
+        source_view = source_page.get_pixmap(matrix=fitz.Matrix(1, 1), alpha=False).tobytes()
+        derived_view = derived_page.get_pixmap(matrix=fitz.Matrix(1, 1), alpha=False).tobytes()
+        if source_view != derived_view:
+            raise ValueError('Derived page does not match the rotated source appearance')
+    return derived
+
+
 def build(root, manifest, check=False, preview_dir=None):
     output_root = preview_dir.resolve() if preview_dir else root
     if preview_dir and (output_root == root or output_root.is_relative_to(root / "assets") or output_root.is_relative_to(root / "data")):
@@ -31,9 +75,10 @@ def build(root, manifest, check=False, preview_dir=None):
     pdf = inside(root, source['pdf'])
     if hashlib.sha256(pdf.read_bytes()).hexdigest() != source['sha256']:
         raise ValueError('Source SHA-256 mismatch; re-review before rebuilding')
-    doc = fitz.open(pdf)
-    if len(doc) != source['pageCount']:
+    original = fitz.open(pdf)
+    if len(original) != source['pageCount']:
         raise ValueError('Source page count mismatch')
+    doc = open_render_document(root, source, original)
     questions = data['questions']
     ids = [q['id'] for q in questions]
     if not ids or len(set(ids)) != len(ids):

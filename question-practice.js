@@ -95,6 +95,9 @@
       }
     } catch { storageWritable = false; storageWarning(); }
     $('paper-source').textContent = `${paper.source.school} / ${paper.source.graduate} / ${paper.source.major} · ${paper.source.year} 入学年度`;
+    const emphasis = document.createElement('em');
+    emphasis.textContent = '逐题练习。';
+    $('paper-heading').replaceChildren(paper.title, document.createTextNode('，'), emphasis);
     $('paper-count').textContent = paper.questions.length + ' 道大题';
     $('source-note').textContent = paper.source.note;
     $('catalog-link').href = 'past-papers.html?' + new URLSearchParams({school:paper.source.schoolId,paper:paper.source.catalogId});

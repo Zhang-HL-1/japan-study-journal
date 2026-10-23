@@ -14,6 +14,7 @@
 - `id`：单卷/单科单位，稳定小写英文数字连字符。样例 `kobe-ee-2026-denjiki`；不能只用易重复的 `2026`。
 - `title`：展示标题。
 - `source`：`kind=exam`、目录 `catalogId`、`schoolId`、学校/研究科/专攻、目录年度 `year` 与 `yearBasis`、规范科目 `subject`、原文 `originalSubject`、`originalName`、原 PDF 仓库相对路径 `pdf`、内容 `sha256`、真实 `pageCount`、来源及年度说明 `note`。
+- `source.normalization`：仅当原 PDF 带 `/Rotate` 时必填。保留原件不改，另存 `derivedPdf` 与 `derivedSha256`。`pages[]` 逐页记录 `page`、`sourceRotation`、`sourceMediaBox`、`derivedRotation`（必须为 0）、`derivedRect`。裁框用派生页的直立 `page.rect`。生成器逐页比对原件旋转后的外观与派生页像素；无旋转的卷不得带此字段。Kobe 样例没有旋转，不使用该字段。
 - `renderScale`：默认 2.5（PDF point 到像素的倍率，约 180 DPI），按原件清晰度选 1–4；放大不能修复模糊原件。
 - `commonRegions[]`：公共说明、单位约定等。每块 `{page,box,label}`。
 - `questions[]`：见下文。
@@ -35,7 +36,7 @@
 
 例如以 1.6 倍渲染截图定位后，截图坐标除以 1.6 才是 point。边缘保留约 4–8 point 的余量，尤其积分号上下限、上标、向量箭头和下方图号。按自然段拆块只用于减少留白/按需加载，不改变原题结构。
 
-当前脚本拒绝旋转页。需要旋转时应保留原 PDF，生成规范化派生副本并记录两者哈希与页坐标映射，同时扩展 schema/溯源验证；不要无记录地替换原件。中文/日文纵排、复杂跨栏也先做小样验证。
+带 `/Rotate` 的页不能直接裁。保留原 PDF，用 `Page.remove_rotation()` 生成派生副本，把两者哈希和逐页坐标写入 `source.normalization`，并由生成器做像素级溯源。不要无记录地替换原件。中文/日文纵排、复杂跨栏也先做小样验证。
 
 ## 生成输出
 
