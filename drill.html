@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#faf9f5" />
     <title>刷题练习｜练习室 · 留日手记</title>
 <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="practice.css?v=20261023-demo" />
+    <link rel="stylesheet" href="practice.css?v=20261023-questions" />
     <link rel="stylesheet" href="github-sync.css?v=20261022-sync" />
     <link rel="stylesheet" href="editorial.css?v=20261021-desk" />
     <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
@@ -20,7 +20,8 @@
     <script src="progress-sync.js?v=20261022-sync" defer></script>
     <script src="github-sync.js?v=20261022-sync" defer></script>
     <script src="github-sync-ui.js?v=20261022-sync" defer></script>
-    <script src="practice.js?v=20261023-polish" defer></script>
+    <script src="question-bank.js?v=20261023-questions" defer></script>
+    <script src="practice.js?v=20261023-questions" defer></script>
     <script src="script.js" defer></script>
   </head>
   <body class="drill-page">
@@ -55,13 +56,11 @@
         <div>
           <div class="eyebrow"><span class="eyebrow-line"></span>Practice / 修士入試の準備</div>
           <h1 id="practice-title">把理解，<em>练成答案。</em></h1>
-          <p>从一套原卷开始。按学校、专攻或已知科目练习，把思路和进度留在这里。</p>
+          <p>按学校、研究科／专攻、年份和科目练习。整卷打开原 PDF；已经拆好的卷可以逐题阅读原题。</p>
         </div>
         <div class="edition"><span>修考练习室</span><strong id="bank-size">0</strong><small id="bank-caption">道题 · 等待添加题库</small></div>
       </section>
-      <p class="question-demo-entry"><a href="question-practice.html">体验逐题练习 Demo →</a><span>神户大学电磁气学 · 2 道大题 · 直接阅读原题</span></p>
-      <p class="question-demo-entry"><a href="question-practice.html?paper=tus-ee-2025-denshi">东京理科大学 2025 逐题 Demo →</a><span>創域理工 · 電気電子情報 · 一般入试 4 科与外国人入试专业科目</span></p>
-      <div class="notice" id="bank-notice">正在加载已收录的过去问原卷。原卷练习保留完整 PDF，不进行自动评分。</div>
+      <div class="notice" id="bank-notice">正在加载已收录的过去问。整卷练习保留完整 PDF；已拆好的逐题卷可以一起筛选。</div>
       <section class="stats-grid" aria-label="学习概况">
         <div><span>已练习 / 全部练习</span><strong id="stat-attempted">0 / 0</strong></div>
         <div id="accuracy-stat"><span>逐题作答正确率</span><strong id="stat-accuracy">—</strong></div>
@@ -79,6 +78,8 @@
             <button id="wrong-scope" type="button" data-scope="wrong" aria-pressed="false">错题本 <span id="wrong-count">0</span></button>
             <button type="button" data-scope="bookmarked" aria-pressed="false">收藏 <span id="bookmark-count">0</span></button>
           </div>
+          <label class="filter-label" for="practiceMode">练习形式</label>
+          <select id="practiceMode"><option value="all">整卷与逐题</option><option value="paper">只看整卷练习</option><option value="questions">只看逐题练习</option></select>
           <div id="exam-filters">
             <label class="filter-label" for="school">学校</label><select id="school"><option value="all">全部学校 · 跨校练习</option></select>
             <label class="filter-label" for="major">研究科 / 专攻</label><select id="major"><option value="all">全部专攻</option></select>
@@ -99,7 +100,7 @@
           <label class="filter-label" for="order">练习顺序</label><select id="order"><option value="sequential">顺序练习</option><option value="random">随机练习</option></select>
           <button id="refresh-list" type="button" class="secondary-button full-width">更新题单 / 重新随机</button>
           <p class="filter-help">错题答对后会移出错题本。当前题单保持不变，点击「更新题单」刷新。</p>
-          <p class="filter-help">科目以目录已标注信息为准，部分合卷仍待细分。练习册与逐题练习会随资料补充开放。</p>
+          <p class="filter-help">科目以目录和已校对的逐题卷为准。整卷是完整 PDF；逐题练习是已拆好的单卷，点进去按题阅读原题。两种可以一起筛选，也可以只看其中一种。</p>
           </details></div></details>
           <details class="storage-tools"><summary>记录备份与跨设备同步</summary>
 
@@ -118,6 +119,12 @@
             <p id="question-source" class="question-source"></p>
             <h2 id="question-title"></h2>
             <p id="question-prompt" class="math-text"></p>
+            <section id="question-set-practice" class="question-set-practice" aria-label="逐题练习" hidden>
+              <p id="question-set-meta" class="input-help"></p>
+              <div id="question-set-links" class="practice-paper-actions"></div>
+              <ol id="question-set-items" class="question-set-items"></ol>
+              <p id="question-set-progress" role="status"></p>
+            </section>
             <section id="paper-practice" class="paper-practice" aria-label="原卷练习" hidden>
               <p id="paper-meta" class="input-help"></p>
               <div id="practice-paper-files" class="practice-paper-files" role="group" aria-label="选择原卷文件"></div>
@@ -141,7 +148,7 @@
             <details class="note-details"><summary>学习笔记 / 易错点</summary><label class="sr-only" for="question-note">本题学习笔记</label><textarea id="question-note" rows="3" maxlength="6000" placeholder="例如：负反馈成立时才可以使用虚短……"></textarea><small>输入后自动保存，仅自己在此浏览器中可见。</small></details>
             <div class="question-navigation"><button id="previous" type="button" class="secondary-button">← 上一套</button><span id="position">0 / 0</span><button id="next" type="button" class="primary-button">下一套 →</button></div>
           </article>
-          <div id="empty-state" class="empty-state"><span aria-hidden="true">◎</span><h2 id="empty-title">题库正在等你。</h2><p id="empty-copy">功能已经准备好。加入你的题目后，便可以按学科、章节练习和复习。</p><a id="empty-home" href="past-papers.html" class="secondary-button">先看历年真题 ↗</a><button id="empty-reset" type="button" class="primary-button" hidden>查看全部题目</button></div>
+          <div id="empty-state" class="empty-state"><span aria-hidden="true">◎</span><h2 id="empty-title">题库正在等你。</h2><p id="empty-copy">功能已经准备好。加入题目后，可以按学校、专攻或科目练习；已拆好的逐题卷会和整卷一起出现。</p><a id="empty-home" href="past-papers.html" class="secondary-button">先看历年真题 ↗</a><button id="empty-reset" type="button" class="primary-button" hidden>查看全部题目</button></div>
           <details id="question-map" class="question-map" hidden><summary>按序号跳转 <small>✓ 已练习 / 已答对 · × 待复习 · ☆ 收藏</small></summary><div id="question-grid" class="question-grid"></div></details>
           <p id="storage-status" class="storage-status" role="status">练习记录保存在当前浏览器。</p>
         </section>

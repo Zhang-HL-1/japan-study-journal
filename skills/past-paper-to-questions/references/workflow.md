@@ -24,9 +24,9 @@ Node.js 22 或更新版。Python 环境安装 `python3 -m pip install -r <skill>
 
 ## 接入网站
 
-Demo 是独立 `question-practice.html`，不改旧的 `questions.js` 空逐题数组，也不伪造 choice/numeric 答案字段。当前题型是“原题展示 + 自主练习完成标记”。
+逐题练习是独立的 `question-practice.html`。刷题页按 `question-bank-index.json` 列出已接入的卷，不把这些卷写进 `questions.js` 的空逐题数组，也不写进整卷 PDF 题库，不伪造 choice/numeric 答案字段。当前题型是“原题展示 + 自主练习完成标记”。
 
-当多个单卷可用：先支持卷选择/学校科目筛选；再用轻量逐题索引跨卷组合。来源及题 ID 保持稳定。旧的 `practice:v1` 是整卷/旧测验记录，新的 demo 是 `question-demo:v1`。不要把练过一个大题写成整套已完成；不要把 demo completion 当 correct。
+多个单卷在刷题页按学校、研究科／专攻、年份和科目筛选，点进 `question-practice.html?paper=<id>`，可再带 `q=<questionId>`。来源及题 ID 保持稳定。旧的 `practice:v1` 是整卷／旧测验记录。逐题记录正式键是 `question-practice:v1`，并继续读写旧的 `question-demo:v1`。不要把练过一个大题写成整套已完成；不要把逐题完成当成 correct。
 
 若未来需 Gist 同步，先制定逐题状态 schema 和按字段 timestamp 合并，加入 export/import 及旧版本迁移测试，再调整同步白名单。当前 demo 本地记录不能描述成跨设备同步。
 
