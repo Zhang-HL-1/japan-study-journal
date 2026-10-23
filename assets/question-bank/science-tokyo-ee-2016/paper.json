@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "id": "science-tokyo-ee-2016",
+  "title": "东京科学大学 · 2016 年实施 · 电气电子系笔答",
+  "source": {
+    "kind": "exam",
+    "catalogId": "science-tokyo-ee-2016",
+    "schoolId": "science-tokyo",
+    "school": "東京科学大学",
+    "graduate": "工学院",
+    "major": "電気電子系",
+    "year": 2016,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "専門科目／選択専門科目",
+    "originalName": "ee_h28.pdf",
+    "pdf": "assets/past-papers/documents/961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1.pdf",
+    "sha256": "961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1",
+    "pageCount": 15,
+    "note": "目录 science-tokyo-ee-2016，yearBasis=exam，目录 year/paperYear/examYear=2016，originalYear=2017年度入学。封面印「29 大修」，与目录入学年度一致；不把封面入学年改写成目录实施年，也不把目录实施年改写成入学年。封面未印大学名。学校名用目录 schoolId science-tokyo 对应的東京科学大学，研究科工学院只来自目录；专攻「電気電子系」封面与目录一致。科目沿用目录「专业科目合卷」。同一 PDF 内按场次分册：午前 9:30–11:00 为数学大问 1–3，午后1 13:30–15:00 为电磁气学大问 1–3，午后2 15:30–16:30 为选择科目电气回路或量子力学/物性基础，各 2 道大问。各场封面收入共用说明，不计题。大题按原卷题号保留，各科目内从 1 重新起号。选择科目两门都保留。没有把题面改写的订正。目录没有把这份合卷拆成单科 PDF。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-01.png",
+      "page": 1,
+      "box": [
+        64.0,
+        88.5,
+        532.0,
+        147.5
+      ],
+      "width": 1170,
+      "height": 148,
+      "label": "午前数学封面：考试名称、系与时间",
+      "sha256": "6f2a20214e026e8f29326217ce68e01614febe25cac437b6a9299d3b6f605959"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-02.png",
+      "page": 1,
+      "box": [
+        99.5,
+        163.5,
+        150.0,
+        196.0
+      ],
+      "width": 127,
+      "height": 82,
+      "label": "午前数学封面：科目",
+      "sha256": "c10d6ff408a2133af34916bc59a411ce18a4f1d0feee6d2707c6a6ae7bbfda29"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-03.png",
+      "page": 1,
+      "box": [
+        62.5,
+        229.5,
+        519.5,
+        333.0
+      ],
+      "width": 1143,
+      "height": 260,
+      "label": "午前数学封面：注意事项",
+      "sha256": "ebba6edebc4052961aa26c51d73e439bf97a6f9084a02effd34ee299277909f4"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-04.png",
+      "page": 5,
+      "box": [
+        64.0,
+        88.5,
+        532.0,
+        147.5
+      ],
+      "width": 1170,
+      "height": 148,
+      "label": "午后1电磁气学封面：考试名称、系与时间",
+      "sha256": "1d52631e0f26809fdd9a0613038eec3ee7357a511ea8dda3cad410926126b47b"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-05.png",
+      "page": 5,
+      "box": [
+        100.0,
+        163.5,
+        186.0,
+        196.0
+      ],
+      "width": 215,
+      "height": 82,
+      "label": "午后1电磁气学封面：科目",
+      "sha256": "c41f6465bebd88bc3ec58e3380140ff91ba29ef148f114dc2b5b4bde039e4a95"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-06.png",
+      "page": 5,
+      "box": [
+        62.5,
+        229.5,
+        519.5,
+        333.0
+      ],
+      "width": 1143,
+      "height": 260,
+      "label": "午后1电磁气学封面：注意事项",
+      "sha256": "dfb4fc5802bd4ae9342ed97f7de6b6857c9e0d43ea4c8b60a1487288ef01aa9b"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-07.png",
+      "page": 9,
+      "box": [
+        64.0,
+        88.5,
+        532.0,
+        147.5
+      ],
+      "width": 1170,
+      "height": 148,
+      "label": "午后2电气回路封面：考试名称、系与时间",
+      "sha256": "c99ab7108e5ca0510b65cecf383e2d6559a0c7ebb5ed0d11a5d9da74289d6446"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-08.png",
+      "page": 9,
+      "box": [
+        100.0,
+        164.0,
+        186.0,
+        195.5
+      ],
+      "width": 215,
+      "height": 79,
+      "label": "午后2电气回路封面：科目",
+      "sha256": "45974020d434da612591288acd3b54247f76f697fc54598d3fe21351c89aef08"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-09.png",
+      "page": 9,
+      "box": [
+        62.5,
+        229.5,
+        519.5,
+        333.0
+      ],
+      "width": 1143,
+      "height": 260,
+      "label": "午后2电气回路封面：注意事项",
+      "sha256": "0f9cb4eb151af495c7d1f9a31230134995e40021144d4e71676a1be26b2cf699"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-10.png",
+      "page": 12,
+      "box": [
+        64.0,
+        88.5,
+        532.0,
+        147.5
+      ],
+      "width": 1170,
+      "height": 148,
+      "label": "午后2量子力学封面：考试名称、系与时间",
+      "sha256": "c99ab7108e5ca0510b65cecf383e2d6559a0c7ebb5ed0d11a5d9da74289d6446"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-11.png",
+      "page": 12,
+      "box": [
+        100.5,
+        163.5,
+        266.5,
+        196.0
+      ],
+      "width": 416,
+      "height": 82,
+      "label": "午后2量子力学封面：科目",
+      "sha256": "0469c21f0e4571b542618bfe1aeb5a04553e95023d2d5a550a56d7f58ec2adc3"
+    },
+    {
+      "src": "assets/question-bank/science-tokyo-ee-2016/common-12.png",
+      "page": 12,
+      "box": [
+        62.5,
+        229.5,
+        519.5,
+        333.0
+      ],
+      "width": 1143,
+      "height": 260,
+      "label": "午后2量子力学封面：注意事项",
+      "sha256": "0f9cb4eb151af495c7d1f9a31230134995e40021144d4e71676a1be26b2cf699"
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-tokyo-ee-2016-math-1",
+      "number": "1.",
+      "title": "数学：常微分方程组",
+      "titleKind": "editorial",
+      "topics": [
+        "常微分方程",
+        "联立方程"
+      ],
+      "summary": "原卷問題分野为数学，题号印作「1.」。午前场。本页为 PDF 第 2 页。本页含小问 1)–4)。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-math-1-01.png",
+          "page": 2,
+          "box": [
+            43.0,
+            42.0,
+            547.0,
+            812.5
+          ],
+          "width": 1261,
+          "height": 1927,
+          "label": "PDF 第 2 页",
+          "sha256": "e8a425e680bcbde54a6e2adb5accc0eb9bf9bbf0e2b76062f637e94352c192a1"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2016-math-2",
+      "number": "2.",
+      "title": "数学：复变函数",
+      "titleKind": "editorial",
+      "topics": [
+        "复变函数",
+        "柯西积分"
+      ],
+      "summary": "原卷問題分野为数学，题号印作「2.」。午前场。本页为 PDF 第 3 页。本页含小问 1)–4)。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-math-2-01.png",
+          "page": 3,
+          "box": [
+            43.0,
+            42.0,
+            547.0,
+            812.5
+          ],
+          "width": 1261,
+          "height": 1927,
+          "label": "PDF 第 3 页",
+          "sha256": "3338ed96c9336db0e69db154a5442b99ce2f42427d641cc5874947c1d53e3f6b"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2016-math-3",
+      "number": "3.",
+      "title": "数学：傅里叶级数",
+      "titleKind": "editorial",
+      "topics": [
+        "傅里叶级数",
+        "矩形函数"
+      ],
+      "summary": "原卷問題分野为数学，题号印作「3.」。午前场。本页为 PDF 第 4 页。本页含小问 1)–3) 与图。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-math-3-01.png",
+          "page": 4,
+          "box": [
+            43.0,
+            42.0,
+            545.5,
+            810.5
+          ],
+          "width": 1257,
+          "height": 1922,
+          "label": "PDF 第 4 页",
+          "sha256": "3c5dd257767330b7860ad498d0494c9c9ea37745dc70556b956400027b41399c"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2016-em-1",
+      "number": "1．",
+      "title": "电磁气学：半球导体与漏电流",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "漏电流"
+      ],
+      "summary": "原卷問題分野为电磁气学，题号印作「1．」。午后1场。本页为 PDF 第 6 页。本页含小问 1)–4) 与图 1.1。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-em-1-01.png",
+          "page": 6,
+          "box": [
+            48.5,
+            43.0,
+            545.5,
+            818.5
+          ],
+          "width": 1243,
+          "height": 1940,
+          "label": "PDF 第 6 页",
+          "sha256": "debc385b88db3247964be99352ba324f41cc36ec5551d124e39e82f2e0e2f65a"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2016-em-2",
+      "number": "2．",
+      "title": "电磁气学：磁介质镜像",
+      "titleKind": "editorial",
+      "topics": [
+        "静磁",
+        "镜像法"
+      ],
+      "summary": "原卷問題分野为电磁气学，题号印作「2．」。午后1场。本页为 PDF 第 7 页。本页含小问 1)–3) 与图 2.1、图 2.2。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-em-2-01.png",
+          "page": 7,
+          "box": [
+            48.5,
+            57.0,
+            546.5,
+            818.5
+          ],
+          "width": 1246,
+          "height": 1905,
+          "label": "PDF 第 7 页",
+          "sha256": "fae677ce4c8abb124476034c8c7f264030394b9390e02548567cdeccbb772d7f"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2016-em-3",
+      "number": "3.",
+      "title": "电磁气学：环路与互感",
+      "titleKind": "editorial",
+      "topics": [
+        "毕奥-萨伐尔",
+        "互感"
+      ],
+      "summary": "原卷問題分野为电磁气学，题号印作「3.」。午后1场。本页为 PDF 第 8 页。本页含小问 1)–4) 与图 3.1–3.3。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-em-3-01.png",
+          "page": 8,
+          "box": [
+            48.5,
+            43.0,
+            572.0,
+            816.5
+          ],
+          "width": 1309,
+          "height": 1935,
+          "label": "PDF 第 8 页",
+          "sha256": "89c78f4c2dbee39d4f0c7f8800393cd771aa60d495e74c3aabf53c54d29c54ed"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2016-circuit-1",
+      "number": "1．",
+      "title": "电气回路：RLC暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "RLC",
+        "拉普拉斯变换"
+      ],
+      "summary": "原卷問題分野为电气回路，题号印作「1．」。午后2场。选择科目。本页为 PDF 第 10 页。本页含小问 1)–6) 与图 1.1。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-circuit-1-01.png",
+          "page": 10,
+          "box": [
+            48.5,
+            40.0,
+            545.5,
+            824.0
+          ],
+          "width": 1243,
+          "height": 1960,
+          "label": "PDF 第 10 页",
+          "sha256": "3a5e66b9f52faf2de2c2de7155d7ce64dd907347c3a26b9021d76f80e7f34ece"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2016-circuit-2",
+      "number": "2.",
+      "title": "电气回路：MOS源极接地",
+      "titleKind": "editorial",
+      "topics": [
+        "MOSFET",
+        "频率特性"
+      ],
+      "summary": "原卷問題分野为电气回路，题号印作「2.」。午后2场。选择科目。本页为 PDF 第 11 页。本页含小问 1)–3) 与图 2.1、图 2.2。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-circuit-2-01.png",
+          "page": 11,
+          "box": [
+            48.5,
+            42.0,
+            546.0,
+            824.0
+          ],
+          "width": 1244,
+          "height": 1955,
+          "label": "PDF 第 11 页",
+          "sha256": "e351b1f02df07987584810276e5e9d8463d6df0d8a1d5df7e9812d95971528ad"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2016-qm-1",
+      "number": "1．",
+      "title": "量子力学：三维无限势阱",
+      "titleKind": "editorial",
+      "topics": [
+        "无限势阱",
+        "简并"
+      ],
+      "summary": "原卷問題分野为量子力学/物性基础，题号印作「1．」。午后2场。选择科目。本页为 PDF 第 13 页。本页含小问 1)–4)。页眉虽印「次ページに続く」，下一页另起大题号或为另一场封面，本题在本页结束。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。页眉「次ページに続く」是栏位文字，下一页不是本题续页。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-qm-1-01.png",
+          "page": 13,
+          "box": [
+            48.5,
+            43.0,
+            546.0,
+            818.5
+          ],
+          "width": 1244,
+          "height": 1940,
+          "label": "PDF 第 13 页",
+          "sha256": "2109f3bac7af29ed1899593635a1a82b97b3eb02d83aa574ae3c7f2da70af66d"
+        }
+      ]
+    },
+    {
+      "id": "science-tokyo-ee-2016-qm-2",
+      "number": "2．",
+      "title": "量子力学：少数载流子连续方程",
+      "titleKind": "editorial",
+      "topics": [
+        "半导体",
+        "扩散"
+      ],
+      "summary": "原卷問題分野为量子力学/物性基础，题号印作「2．」。午后2场。选择科目。题干在 PDF 第 14 页，第 15 页为续页。含 (A)(B) 与图 2.1、图 2.2。下一页未另起大题号，已按原顺序并入本题。小问不拆题。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-23",
+        "notes": "AI visual review：对照原页全文与预览裁图，核对题号、問題分野、首行、末行、小问、公式、图号、续页和页码。裁图未混入其他大题。中文标题不是原题译文。跨页部分按阅读顺序合并为一道大题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-qm-2-01.png",
+          "page": 14,
+          "box": [
+            48.5,
+            43.0,
+            563.0,
+            818.5
+          ],
+          "width": 1287,
+          "height": 1940,
+          "label": "PDF 第 14 页（本题起始）",
+          "sha256": "80d77018d1b56a7dfddff9c033c41d5a8a5e5d9c25163acf11706589cab4dee6"
+        },
+        {
+          "src": "assets/question-bank/science-tokyo-ee-2016/science-tokyo-ee-2016-qm-2-02.png",
+          "page": 15,
+          "box": [
+            61.5,
+            45.0,
+            570.0,
+            816.5
+          ],
+          "width": 1272,
+          "height": 1930,
+          "label": "PDF 第 15 页（续）",
+          "sha256": "ad1dcdd5d8e97010ccc8c2e7c29dafda7d806da180f887ec0abb4191aa1a11a8"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。考试名称、科目、注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "science-tokyo-ee-2016-math-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "science-tokyo-ee-2016-math-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "science-tokyo-ee-2016-math-3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。考试名称、科目、注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "science-tokyo-ee-2016-em-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "science-tokyo-ee-2016-em-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "science-tokyo-ee-2016-em-3"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。考试名称、科目、注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "science-tokyo-ee-2016-circuit-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "science-tokyo-ee-2016-circuit-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面。考试名称、科目、注意事项已收入 commonRegions。底部印刷页码与页边空白不计题。本页没有大题。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "science-tokyo-ee-2016-qm-1"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "science-tokyo-ee-2016-qm-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "science-tokyo-ee-2016-qm-2"
+      ],
+      "common": false,
+      "excluded": "页边空白。印刷页码在裁图底部，不另计题。本页只属于所列大题。",
+      "reviewed": true
+    }
+  ]
+}
