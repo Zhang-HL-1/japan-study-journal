@@ -18,7 +18,9 @@
 
 2016、2017、2018、2019、2021、2022 年实施的同一系笔答合卷见 `docs/question-bank-batch-science-tokyo-ee-2016-2022.md`。没有 2020 年目录条目。入口示例：`question-practice.html?paper=science-tokyo-ee-2016`。
 
-2012–2015 年实施的旧理工学研究科電気電子工学専攻・電子物理工学専攻分科卷见 `docs/question-bank-batch-science-tokyo-ee-2012-2015.md`。目录 `yearBasis=exam`。每年三份独立 PDF：午前电气数学（2015 年封面印「数学」）、午后电气回路、午后电磁气学。入口示例：`question-practice.html?paper=science-tokyo-ee-2012-sugaku`。1990 年代碎片合册和 2011 及更早的另一套分卷结构不在该批。
+2012–2015 年实施的旧理工学研究科電気電子工学専攻・電子物理工学専攻分科卷见 `docs/question-bank-batch-science-tokyo-ee-2012-2015.md`。目录 `yearBasis=exam`。每年三份独立 PDF：午前电气数学（2015 年封面印「数学」）、午后电气回路、午后电磁气学。入口示例：`question-practice.html?paper=science-tokyo-ee-2012-sugaku`。
+
+2005–2011 年实施的同一旧研究科两科分卷见 `docs/question-bank-batch-science-tokyo-ee-2005-2011.md`。每年只有午前电气回路和午后电磁气学，没有单独的电气数学。入口示例：`question-practice.html?paper=science-tokyo-ee-2005-kairo`。1990 年代碎片合册、1999–2000 摘录和 2001–2004 基础／专业合卷不在该批。
 
 ## 可移交的实现
 
