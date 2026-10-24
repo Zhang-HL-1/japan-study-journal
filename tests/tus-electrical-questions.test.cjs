@@ -26,3 +26,11 @@ test('electromagnetism keeps two numbered questions on each shared page, while d
  assert.deepEqual(new Set(filtered.map(q=>q.id)),new Set(['tus-electrical-2025-general-denjiki','tus-electrical-2025-intl-denjiki']));
  assert.ok(filtered.every(q=>q.provenance.graduate==='工学研究科'&&q.provenance.major==='電気工学専攻'));
 });
+test('the resumable queue accounts for every authorized question PDF and only verified first-batch imports',()=>{
+ const queue=require('../docs/question-bank-tus-electrical-queue.json');
+ const scope=catalog.papers.filter(p=>p.universityId==='tus'&&p.graduateSchool==='工学研究科'&&p.department==='電気工学専攻');
+ assert.deepEqual(new Set(queue.sources.map(s=>s.pdf)),new Set(scope.flatMap(p=>p.files.filter(f=>f.kind==='question').map(f=>f.url))));
+ assert.equal(queue.summary.catalogGroups,scope.length);assert.equal(queue.sources.length,41);assert.equal(queue.summary.pendingPdfs,35);assert.equal(queue.summary.verifiedPdfs,6);
+ assert.equal(queue.sources.filter(s=>s.status==='verified').length,6);assert.equal(queue.summary.pdfPages,232);
+ for(const source of queue.sources)for(const id of source.paperIds){const paper=data.find(p=>p.id===id);assert.ok(paper);assert.equal(paper.source.pdf,source.pdf);}
+});
