@@ -34,14 +34,14 @@
   }
   function drillSubjects(paper) {
     const source = paper.source || {};
-    const labels = [source.subject, source.originalSubject, ...(paper.questions || []).flatMap(q => [q.title, ...(Array.isArray(q.topics) ? q.topics : [])])];
+    const labels = [source.subject, ...(source.subjects || []), source.originalSubject, ...(paper.questions || []).flatMap(q => [q.title, ...(Array.isArray(q.topics) ? q.topics : [])])];
     const matched = subjectsOf(labels).filter(name => name !== '科目待细分');
-    return [...new Set([source.subject, ...matched].filter(Boolean))];
+    return [...new Set([source.subject, ...(source.subjects || []), ...matched].filter(Boolean))];
   }
   function listingFromPaper(entry, paper) {
     if (!entry || typeof entry.id !== 'string' || !idPattern.test(entry.id)) throw new Error('无效的试卷编号');
     if (entry.data !== `assets/question-bank/${entry.id}/paper.json`) throw new Error('试卷路径不正确');
-    if (!paper || paper.schemaVersion !== 1 || paper.id !== entry.id) throw new Error('试卷数据不完整');
+    if (!paper || ![1,2].includes(paper.schemaVersion) || paper.id !== entry.id) throw new Error('试卷数据不完整');
     const source = paper.source || {};
     if (source.kind !== 'exam') throw new Error('目前只接入历年真题');
     if (source.catalogId !== entry.catalogId) throw new Error('目录编号不一致');
@@ -87,6 +87,21 @@
     }));
     return { listings: results.filter(Boolean), failed: results.filter(item => !item).length };
   }
+  function sourceForQuestion(paper, question) {
+    if (paper.schemaVersion !== 2) return paper.source;
+    const file = paper.source.files?.find(file => file.id === question.sourceFileId);
+    if (!file) throw new Error('题目原卷文件缺失');
+    return file;
+  }
+  function commonPartsForQuestion(paper, question) {
+    return paper.schemaVersion === 2 ? paper.commonParts.filter(part => part.fileId === question.sourceFileId) : paper.commonParts;
+  }
+  function resolveEntry(catalog, requested) {
+    const direct = catalog.papers.find(p => p.id === requested);
+    if (direct) return { entry: direct };
+    const alias = (catalog.aliases || []).find(a => a.id === requested);
+    return alias ? { entry: catalog.papers.find(p => p.id === alias.paperId), questionId: alias.questionId } : {};
+  }
   function practiceURL(paperId, questionId) {
     const params = new URLSearchParams({ paper: paperId });
     if (questionId) params.set('q', questionId);
@@ -119,7 +134,7 @@
     if (!flags.keepFormal) storage.setItem(RECORD_KEY, payload);
     if (!flags.keepLegacy) storage.setItem(LEGACY_KEY, payload);
   }
-  const api = { LEGACY_KEY, RECORD_KEY, subjectsOf, yearPhrase, drillSubjects, listingFromPaper, loadListings, practiceURL, loadQuestionRecords, saveQuestionRecords };
+  const api = { sourceForQuestion, commonPartsForQuestion, resolveEntry, LEGACY_KEY, RECORD_KEY, subjectsOf, yearPhrase, drillSubjects, listingFromPaper, loadListings, practiceURL, loadQuestionRecords, saveQuestionRecords };
   root.QuestionBank = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

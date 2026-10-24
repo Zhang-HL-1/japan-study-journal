@@ -23,7 +23,7 @@ test('electromagnetism keeps two numbered questions on each shared page, while d
  const listings=index.papers.map(e=>api.listingFromPaper(e,JSON.parse(fs.readFileSync(path.join(root,e.data),'utf8'))));
  const major=JSON.stringify(['東京理科大学','工学研究科','電気工学専攻']);
  const filtered=core.filterQuestions(listings,{school:'東京理科大学',major,paperYear:'2025',subject:'电磁学'},{});
- assert.deepEqual(new Set(filtered.map(q=>q.id)),new Set(['tus-electrical-2025-general-denjiki','tus-electrical-2025-intl-denjiki']));
+ assert.deepEqual(new Set(filtered.map(q=>q.id)),new Set(['tus-electrical-2025-general','tus-electrical-2025-intl']));
  assert.ok(filtered.every(q=>q.provenance.graduate==='工学研究科'&&q.provenance.major==='電気工学専攻'));
 });
 test('the resumable queue accounts for every authorized question PDF and only verified first-batch imports',()=>{
@@ -33,4 +33,22 @@ test('the resumable queue accounts for every authorized question PDF and only ve
  assert.equal(queue.summary.catalogGroups,scope.length);assert.equal(queue.sources.length,41);assert.equal(queue.summary.pendingPdfs,35);assert.equal(queue.summary.verifiedPdfs,6);
  assert.equal(queue.sources.filter(s=>s.status==='verified').length,6);assert.equal(queue.summary.pdfPages,232);
  for(const source of queue.sources)for(const id of source.paperIds){const paper=data.find(p=>p.id===id);assert.ok(paper);assert.equal(paper.source.pdf,source.pdf);}
+});
+
+test('one exam groups all three PDFs, keeps each source and stable question records, and redirects old links',()=>{
+ const builder=require('../scripts/build-question-collections.cjs');
+ const allIds=new Set();
+ for(const kind of ['general','intl']) {
+  const id='tus-electrical-2025-'+kind;
+  const entry=index.papers.find(e=>e.id===id);assert.ok(entry);
+  const collection=JSON.parse(fs.readFileSync(path.join(root,entry.data),'utf8'));
+  assert.deepEqual(collection,builder.build(require('../data/question-collections/'+id+'.json')));
+  assert.equal(collection.questions.length,kind==='general'?10:9);assert.equal(collection.source.files.length,3);
+  assert.deepEqual(collection.source.subjects,['电子回路','电气回路','电磁回路']);
+  const raw=data.filter(p=>p.id.startsWith(id+'-'));
+  assert.deepEqual(collection.questions.map(q=>q.id),raw.flatMap(p=>p.questions.map(q=>q.id)));
+  for(const q of collection.questions){assert.ok(!allIds.has(q.id));allIds.add(q.id);const source=api.sourceForQuestion(collection,q);assert.ok(q.id.startsWith(source.id+'-q'));assert.ok(q.parts.every(p=>p.fileId===source.id));assert.ok(api.commonPartsForQuestion(collection,q).every(p=>p.fileId===source.id));assert.match(q.title,/^(电子回路|电气回路|电磁回路)：/);}
+  for(const component of raw){assert.equal(index.papers.some(p=>p.id===component.id),false);const old=api.resolveEntry(index,component.id);assert.equal(old.entry.id,id);assert.equal(old.questionId,component.questions[0].id);}
+ }
+ assert.equal(index.papers.filter(e=>e.id.startsWith('tus-electrical-2025-')).length,2);assert.equal(allIds.size,19);
 });

@@ -6,7 +6,8 @@
   const assetPattern = /^assets\/question-bank\/[a-z0-9-]+\/[a-z0-9-]+\.png$/;
   const pdfPattern = /^assets\/past-papers\/documents\/[a-f0-9]{64}\.pdf$/;
   const params = new URLSearchParams(location.search);
-  const requested = params.get('paper');
+  let requested = params.get('paper');
+  let aliasQuestion;
   const fetchJSON = async path => { const response = await fetch(path); if (!response.ok) throw new Error('资源加载失败'); return response.json(); };
   function text(tag, value, className) { const el = document.createElement(tag); el.textContent = value; if (className) el.className = className; return el; }
   function storageWarning() { $('storage-status').textContent = '浏览器记录无法读取或保存。请导出本次记录备份；原记录未主动覆盖。'; }
@@ -48,8 +49,10 @@
     $('question-number').textContent = q.number; $('question-title').textContent = q.title;
     $('topics').replaceChildren(...q.topics.map(t => text('span', t)));
     const pages = [...new Set(q.parts.map(part => part.page))];
-    $('question-source').textContent = `${paper.source.school} · ${yearPhrase(paper.source)} · ${paper.source.originalSubject} · 原卷第 ${pages.join('、')} 页`;
-    $('original-link').href = paper.source.pdf + '#page=' + pages[0];
+    const file = window.QuestionBank.sourceForQuestion(paper,q);
+    $('common-content').replaceChildren(...window.QuestionBank.commonPartsForQuestion(paper,q).map(crop));
+    $('question-source').textContent = `${paper.source.school} · ${yearPhrase(paper.source)} · ${file.displaySubject || file.originalSubject} · 原卷第 ${pages.join('、')} 页`;
+    $('original-link').href = file.pdf + '#page=' + pages[0];
     $('question-content').replaceChildren(...q.parts.map(crop));
     $('question-note').value = r.note || ''; $('notes').open = Boolean(r.note);
     $('note-status').textContent = r.note ? '已有笔记' : '';
@@ -67,7 +70,7 @@
   function applyZoom() { $('zoom-content').style.width = Math.round(Math.max(760, Math.min(1100, innerWidth-100))*zoom/100) + 'px'; $('zoom-level').textContent = zoom + '%'; $('zoom-out').disabled = zoom <= 75; $('zoom-in').disabled = zoom >= 200; }
   function openZoom(part) {
     $('zoom-title').textContent = current().number + ' · 原题放大阅读';
-    const parts = part ? [part] : [...paper.commonParts, ...current().parts];
+    const parts = part ? [part] : [...window.QuestionBank.commonPartsForQuestion(paper,current()), ...current().parts];
     $('zoom-content').replaceChildren(...parts.map(image)); zoom = 100; applyZoom(); $('image-dialog').showModal(); $('zoom-scroll').scrollTo(0,0);
   }
   function renderChooser(listings) {
@@ -92,17 +95,24 @@
     }
     if (!idPattern.test(requested)) throw new Error('无效的试卷编号');
     const catalog = await fetchJSON('question-bank-index.json');
-    const entry = catalog.papers.find(p => p.id === requested);
+    const resolved = window.QuestionBank.resolveEntry(catalog,requested);
+    const entry = resolved.entry; aliasQuestion = resolved.questionId;
+    if (entry) requested = entry.id;
     if (!entry || entry.data !== `assets/question-bank/${requested}/paper.json`) throw new Error('这份试卷尚未接入逐题练习');
     paper = await fetchJSON(entry.data);
-    if (paper.schemaVersion !== 1 || paper.id !== requested || !pdfPattern.test(paper.source.pdf) || !paper.questions.length || paper.questions.length !== entry.questionCount) throw new Error('试卷数据不完整');
+    if (![1,2].includes(paper.schemaVersion) || paper.id !== requested || (paper.schemaVersion === 1 && !pdfPattern.test(paper.source.pdf)) || !paper.questions.length || paper.questions.length !== entry.questionCount) throw new Error('试卷数据不完整');
     const seen = new Set();
     for (const q of paper.questions) {
       if (!idPattern.test(q.id) || seen.has(q.id) || q.review?.status !== 'verified' || !q.parts.length) throw new Error('题目尚未完成校对');
       seen.add(q.id);
     }
-    for (const part of [...paper.commonParts, ...paper.questions.flatMap(q => q.parts)]) {
-      if (!assetPattern.test(part.src) || !Number.isFinite(part.width) || !Number.isFinite(part.height) || part.width <= 0 || part.height <= 0 || !Number.isInteger(part.page) || part.page < 1 || part.page > paper.source.pageCount) throw new Error('题图数据不完整');
+    const files = paper.schemaVersion === 2 ? paper.source.files : [paper.source];
+    if (!Array.isArray(files) || !files.length || files.some(f => !pdfPattern.test(f.pdf) || !Number.isInteger(f.pageCount))) throw new Error('原卷来源不完整');
+    for (const q of paper.questions) {
+      const file = window.QuestionBank.sourceForQuestion(paper,q);
+      for (const part of [...window.QuestionBank.commonPartsForQuestion(paper,q), ...q.parts]) {
+        if (!assetPattern.test(part.src) || !Number.isFinite(part.width) || !Number.isFinite(part.height) || part.width <= 0 || part.height <= 0 || !Number.isInteger(part.page) || part.page < 1 || part.page > file.pageCount || (paper.schemaVersion === 2 && part.fileId !== q.sourceFileId)) throw new Error('题图数据不完整');
+      }
     }
     try {
       recordState = window.QuestionBank.loadQuestionRecords(localStorage);
@@ -116,9 +126,8 @@
     $('paper-count').textContent = paper.questions.length + ' 道大题';
     $('source-note').textContent = paper.source.note;
     $('catalog-link').href = 'past-papers.html?' + new URLSearchParams({school:paper.source.schoolId,paper:paper.source.catalogId});
-    $('common-content').replaceChildren(...paper.commonParts.map(crop));
     $('chooser').hidden = true; $('load-status').hidden = true; $('app').hidden = false;
-    const start = paper.questions.findIndex(q => q.id === params.get('q'));
+    const start = paper.questions.findIndex(q => q.id === (params.get('q') || aliasQuestion));
     navigate(Math.max(0,start),'replaceState');
     $('bookmark').addEventListener('click', () => { patch({bookmarked:!record().bookmarked}); refresh(); });
     $('complete').addEventListener('click', () => { patch({completed:!record().completed}); refresh(); });

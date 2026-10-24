@@ -12,7 +12,8 @@
     "pdfPages": 232,
     "verifiedPdfs": 6,
     "verifiedQuestions": 19,
-    "pendingPdfs": 35
+    "pendingPdfs": 35,
+    "logicalExamPapers": 2
   },
   "sources": [
     {
@@ -36,7 +37,8 @@
       "status": "verified",
       "paperIds": [
         "tus-electrical-2025-general-denshi"
-      ]
+      ],
+      "collectionId": "tus-electrical-2025-general"
     },
     {
       "pdf": "assets/past-papers/documents/0dc5cfb835a0010f2664ea54437f53db7048564d8cd00ff35b15dd8fc8508d40.pdf",
@@ -59,7 +61,8 @@
       "status": "verified",
       "paperIds": [
         "tus-electrical-2025-general-kairo"
-      ]
+      ],
+      "collectionId": "tus-electrical-2025-general"
     },
     {
       "pdf": "assets/past-papers/documents/ba0b7284655a8ca9d9a49cf8a483d911aa5a5b7360c123720c4e446cc2b1f83a.pdf",
@@ -82,7 +85,8 @@
       "status": "verified",
       "paperIds": [
         "tus-electrical-2025-general-denjiki"
-      ]
+      ],
+      "collectionId": "tus-electrical-2025-general"
     },
     {
       "pdf": "assets/past-papers/documents/ead3d9d637608650f6e512fabc26eb237ece2c3a0675be34cca2c658d6190138.pdf",
@@ -105,7 +109,8 @@
       "status": "verified",
       "paperIds": [
         "tus-electrical-2025-intl-denshi"
-      ]
+      ],
+      "collectionId": "tus-electrical-2025-intl"
     },
     {
       "pdf": "assets/past-papers/documents/0b892929c3783e5aa4b3bfacf79a2591761602401c4c1734db0daf814b03afa1.pdf",
@@ -128,7 +133,8 @@
       "status": "verified",
       "paperIds": [
         "tus-electrical-2025-intl-kairo"
-      ]
+      ],
+      "collectionId": "tus-electrical-2025-intl"
     },
     {
       "pdf": "assets/past-papers/documents/903922bdf8c9a194c99ce06402b284879f81cad4216ceea363e123b98557d6a0.pdf",
@@ -151,7 +157,8 @@
       "status": "verified",
       "paperIds": [
         "tus-electrical-2025-intl-denjiki"
-      ]
+      ],
+      "collectionId": "tus-electrical-2025-intl"
     },
     {
       "pdf": "assets/past-papers/documents/a9482ab377afe0868df209505adc3fa7c8587fa74c6aa5cd71b153663a9f2ce6.pdf",

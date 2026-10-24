@@ -52,7 +52,14 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
   const hrefs=await chooser.locator('#paper-chooser a').evaluateAll(els=>els.map(el=>el.getAttribute('href')));
   for (const id of ids) assert.ok(hrefs.includes('question-practice.html?paper='+id),id);
   assert.doesNotMatch(await chooser.locator('body').innerText(),/DEMO|Demo|样例/);await chooser.close();
-  const tusPapers=[['tus-ee-2025-denshi',4],['tus-ee-2025-kairo',3],['tus-ee-2025-sugaku',4],['tus-ee-2025-denjiki',3],['tus-ee-2025-intl',1],['tus-electrical-2025-general-denshi',3],['tus-electrical-2025-general-kairo',2],['tus-electrical-2025-general-denjiki',5],['tus-electrical-2025-intl-denshi',3],['tus-electrical-2025-intl-kairo',2],['tus-electrical-2025-intl-denjiki',4]];
+  const tusPapers=[['tus-ee-2025-denshi',4],['tus-ee-2025-kairo',3],['tus-ee-2025-sugaku',4],['tus-ee-2025-denjiki',3],['tus-ee-2025-intl',1],['tus-electrical-2025-general',10],['tus-electrical-2025-intl',9]];
+  const aliasPage=await browser.newPage();
+  const oldId='tus-electrical-2025-general-kairo',oldQuestion=oldId+'-q2';
+  await aliasPage.addInitScript(({question})=>localStorage.setItem('japan-study-journal:question-practice:v1',JSON.stringify({version:1,records:{[question]:{completed:true,bookmarked:true,note:'合卷前笔记',updatedAt:100}}})),{question:oldQuestion});
+  await aliasPage.goto(origin+'/question-practice.html?paper='+oldId+'&q='+oldQuestion);await aliasPage.locator('#app').waitFor();
+  assert.equal(new URL(aliasPage.url()).searchParams.get('paper'),'tus-electrical-2025-general');assert.equal(new URL(aliasPage.url()).searchParams.get('q'),oldQuestion);
+  assert.equal(await aliasPage.locator('#question-note').inputValue(),'合卷前笔记');assert.equal(await aliasPage.locator('#bookmark').getAttribute('aria-pressed'),'true');assert.equal(await aliasPage.locator('#completed-count').textContent(),'1 / 10');
+  assert.match(await aliasPage.locator('#question-title').innerText(),/^电气回路：/);await aliasPage.close();
   const scienceTokyoPapers=[['science-tokyo-ee-1990',3],['science-tokyo-ee-1993',5],['science-tokyo-ee-1994',3],['science-tokyo-ee-1995',3],['science-tokyo-ee-1996',4],['science-tokyo-ee-1997',4],['science-tokyo-ee-1998',3],['science-tokyo-ee-1999-kairo',1],['science-tokyo-ee-1999-denjiki',1],['science-tokyo-ee-2000-kairo',1],['science-tokyo-ee-2000-denjiki',1],['science-tokyo-ee-2001-am',3],['science-tokyo-ee-2001-pm',4],['science-tokyo-ee-2002-am',3],['science-tokyo-ee-2002-pm',4],['science-tokyo-ee-2003-am',5],['science-tokyo-ee-2003-pm',9],['science-tokyo-ee-2004-am',8],['science-tokyo-ee-2004-pm',9],['science-tokyo-ee-2005-kairo',2],['science-tokyo-ee-2005-denjiki',3],['science-tokyo-ee-2006-kairo',4],['science-tokyo-ee-2006-denjiki',2],['science-tokyo-ee-2007-kairo',3],['science-tokyo-ee-2007-denjiki',2],['science-tokyo-ee-2008-kairo',3],['science-tokyo-ee-2008-denjiki',2],['science-tokyo-ee-2009-kairo',2],['science-tokyo-ee-2009-denjiki',2],['science-tokyo-ee-2010-kairo',4],['science-tokyo-ee-2010-denjiki',3],['science-tokyo-ee-2011-kairo',2],['science-tokyo-ee-2011-denjiki',2],['science-tokyo-ee-2012-sugaku',3],['science-tokyo-ee-2012-kairo',4],['science-tokyo-ee-2012-denjiki',2],['science-tokyo-ee-2013-sugaku',4],['science-tokyo-ee-2013-kairo',4],['science-tokyo-ee-2013-denjiki',2],['science-tokyo-ee-2014-sugaku',3],['science-tokyo-ee-2014-kairo',3],['science-tokyo-ee-2014-denjiki',3],['science-tokyo-ee-2015-sugaku',3],['science-tokyo-ee-2015-kairo',3],['science-tokyo-ee-2015-denjiki',3],['science-tokyo-ee-2016',10],['science-tokyo-ee-2017',10],['science-tokyo-ee-2018',10],['science-tokyo-ee-2019',8],['science-tokyo-ee-2021',8],['science-tokyo-ee-2022',8],['science-tokyo-ee-2023',8],['science-tokyo-ee-2024',8],['science-tokyo-ee-2025',8]];
   for(const width of [390,800,1440]){
    for(const [id,count] of tusPapers){
@@ -72,9 +79,16 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
       await page.locator('#question-directory button').nth(n).click();
       await page.waitForFunction(()=>[...document.querySelectorAll('#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
       assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
-      assert.match(page.url(),new RegExp('q='+id+'-q'+(n+1)));
+      const expected=JSON.parse(fs.readFileSync(path.join(root,`assets/question-bank/${id}/paper.json`),'utf8')).questions[n];
+      assert.equal(new URL(page.url()).searchParams.get('q'),expected.id);
+      const collection=JSON.parse(fs.readFileSync(path.join(root,`assets/question-bank/${id}/paper.json`),'utf8'));
+      const file=collection.source.files.find(f=>f.id===expected.sourceFileId);
+      assert.equal(await page.locator('#original-link').getAttribute('href'),file.pdf+'#page='+expected.parts[0].page);
+      assert.match(await page.locator('#question-title').innerText(),/^(电子回路|电气回路|电磁回路)：/);
+      const commonSrc=await page.locator('#common-content img').evaluateAll(es=>es.map(e=>e.getAttribute('src')));
+      assert.ok(commonSrc.every(src=>src.includes('/'+file.id+'/')));
      }
-     if(process.env.STUDY_ROOM_SCREENSHOTS&&id.endsWith('general-denjiki')) {
+     if(process.env.STUDY_ROOM_SCREENSHOTS&&id==='tus-electrical-2025-general') {
       fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});await page.evaluate(()=>window.scrollTo(0,0));
       await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,`${id}-${width}.png`),fullPage:true});
      }
