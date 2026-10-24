@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2023-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2023 入学年度 · 一般入试 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-68c9d37032eeaf8f",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2023,
+    "yearBasis": "academic",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "修士一般_工学研究科_電気_電気回路.pdf",
+    "pdf": "assets/past-papers/documents/bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e.pdf",
+    "sha256": "bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e",
+    "pageCount": 4,
+    "note": "来自既有目录 tus-68c9d37032eeaf8f，工学研究科・電気工学専攻，一般入试。2023 为封面入学年度；题面实施日 2022-07-22，不改写年度。三科 PDF 同属一套考试；补充副本不重复计题。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        32.0,
+        28.0,
+        688.0,
+        440.0
+      ],
+      "label": "封面：大学、研究科、专攻、年度、科目和作答要求"
+    },
+    {
+      "page": 1,
+      "box": [
+        44.0,
+        652.0,
+        672.0,
+        766.4
+      ],
+      "label": "封面：考试时间与答题纸说明"
+    },
+    {
+      "page": 2,
+      "box": [
+        92.0,
+        155.2,
+        640.0,
+        199.2
+      ],
+      "label": "全科公共说明：书写要求与允许使用的常数符号"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2023-general-kairo-q1",
+      "number": "1",
+      "title": "RC并联回路的相量与功率",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "相量",
+        "功率"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            72.0,
+            204.0,
+            660.0,
+            780.0
+          ],
+          "label": "一般入试 電気回路 第 1 题 · 原卷第 2 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷与每张裁图，复核首末行、原方框题号、全部小问、公式、波形、图号与附图。未混入相邻大题；原卷公共书写要求单独保留。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2023-general-kairo-q2",
+      "number": "2",
+      "title": "等效电源与R–2R数模转换器",
+      "titleKind": "editorial",
+      "topics": [
+        "等效电源",
+        "数模转换器"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            72.0,
+            132.8,
+            648.0,
+            805.6
+          ],
+          "label": "一般入试 電気回路 第 2 题 · 原卷第 3 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷与每张裁图，复核首末行、原方框题号、全部小问、公式、波形、图号与附图。未混入相邻大题；原卷公共书写要求单独保留。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2023-general-kairo-q3",
+      "number": "3",
+      "title": "双开关RLC回路的暂态与临界阻尼",
+      "titleKind": "editorial",
+      "topics": [
+        "RL暂态",
+        "RLC回路",
+        "临界阻尼"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            62.4,
+            132.8,
+            660.8,
+            532.0
+          ],
+          "label": "一般入试 電気回路 第 3 题 · 原卷第 4 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷与每张裁图，复核首末行、原方框题号、全部小问、公式、波形、图号与附图。未混入相邻大题；原卷公共书写要求单独保留。中文标题仅用于导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区及考号框；保留全部说明和考试时间。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2023-general-kairo-q1"
+      ],
+      "common": true,
+      "excluded": "重复卷头、评分框与作答留白；全部题干、小问及配图均保留。公共书写要求单独保存，重复说明不再重复裁图。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2023-general-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、评分框与作答留白；全部题干、小问及配图均保留。公共书写要求单独保存，重复说明不再重复裁图。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2023-general-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、评分框与作答留白；全部题干、小问及配图均保留。公共书写要求单独保存，重复说明不再重复裁图。",
+      "reviewed": true
+    }
+  ]
+}

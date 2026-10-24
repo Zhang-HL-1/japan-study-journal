@@ -30,7 +30,7 @@ test('2024 engineering electrical exposes two exams with three subjects each and
 test('three supplementary PDFs map to canonical files with pixel checks for every question crop and are never counted twice',()=>{
  const audit=read('docs/question-bank-tus-electrical-2024-duplicates.json'),queue=read('docs/question-bank-tus-electrical-queue.json');
  assert.equal(audit.duplicates.length,3);assert.equal(audit.renderScale,2.5);
- const duplicates=queue.sources.filter(s=>s.status==='duplicate');assert.equal(duplicates.length,3);
+ const duplicates=queue.sources.filter(s=>s.status==='duplicate'&&s.collectionId==='tus-electrical-2024-general');assert.equal(duplicates.length,3);
  for(const d of audit.duplicates){
   assert.equal(hash(d.canonicalPdf),d.canonicalSha256);assert.equal(hash(d.duplicatePdf),d.duplicateSha256);assert.notEqual(d.canonicalSha256,d.duplicateSha256);
   const paper=read(`assets/question-bank/${d.paperId}/paper.json`),manifest=read(`data/question-manifests/${d.paperId}.json`);
@@ -40,6 +40,6 @@ test('three supplementary PDFs map to canonical files with pixel checks for ever
   const source=duplicates.find(s=>s.pdf===d.duplicatePdf);assert.equal(source.duplicateOf,paper.source.pdf);assert.equal(source.collectionId,papers[0].id);assert.deepEqual(source.paperIds,[]);
   assert.ok(!papers.flatMap(p=>p.source.files).some(s=>s.pdf===d.duplicatePdf));
  }
- assert.equal(queue.summary.coveredPdfs,15);assert.equal(queue.summary.duplicatePdfs,3);assert.equal(queue.summary.verifiedQuestions,40);assert.equal(queue.summary.logicalExamPapers,4);
+ assert.equal(queue.summary.coveredPdfs,21);assert.equal(queue.summary.duplicatePdfs,6);assert.equal(queue.summary.verifiedQuestions,51);assert.equal(queue.summary.logicalExamPapers,5);
  assert.equal(queue.summary.pendingPdfs+queue.summary.verifiedPdfs+queue.summary.duplicatePdfs,queue.summary.uniqueQuestionPdfs);
 });

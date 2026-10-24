@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2023-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2023 入学年度 · 一般入试 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-68c9d37032eeaf8f",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2023,
+    "yearBasis": "academic",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "修士一般_工学研究科_電気_電子回路.pdf",
+    "pdf": "assets/past-papers/documents/89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286.pdf",
+    "sha256": "89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286",
+    "pageCount": 4,
+    "note": "来自既有目录 tus-68c9d37032eeaf8f，工学研究科・電気工学専攻，一般入试。2023 为封面入学年度；题面实施日 2022-07-22，不改写年度。三科 PDF 同属一套考试；补充副本不重复计题。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2023-general-denshi/common-01.png",
+      "page": 1,
+      "box": [
+        32.0,
+        28.0,
+        688.0,
+        440.0
+      ],
+      "width": 1640,
+      "height": 1030,
+      "label": "封面：大学、研究科、专攻、年度、科目和作答要求",
+      "sha256": "b8857a9cc759818f8a68d4826d3fda4703fa3c707d90a4c710b3af06770b8d90"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2023-general-denshi/common-02.png",
+      "page": 1,
+      "box": [
+        44.0,
+        652.0,
+        672.0,
+        766.4
+      ],
+      "width": 1570,
+      "height": 286,
+      "label": "封面：考试时间与答题纸说明",
+      "sha256": "a65beaacfce98e001e3a07c80a6af89107f2b0521049e30c14cb6a3a119ae6f6"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2023-general-denshi-q1",
+      "number": "1",
+      "title": "运算放大器的传递函数",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "传递函数"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷与每张裁图，复核首末行、原方框题号、全部小问、公式、波形、图号与附图。未混入相邻大题；原卷公共书写要求单独保留。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2023-general-denshi/tus-electrical-2023-general-denshi-q1-01.png",
+          "page": 2,
+          "box": [
+            30.4,
+            119.2,
+            681.6,
+            442.4
+          ],
+          "width": 1628,
+          "height": 808,
+          "label": "一般入试 電子回路 第 1 题 · 原卷第 2 页第 1 块",
+          "sha256": "426e96ffd84c14d2302671c412bc990c19b63ccf47573586ede10574335aaafc"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2023-general-denshi-q2",
+      "number": "2",
+      "title": "FET振荡回路与振荡频率",
+      "titleKind": "editorial",
+      "topics": [
+        "FET",
+        "振荡回路"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷与每张裁图，复核首末行、原方框题号、全部小问、公式、波形、图号与附图。未混入相邻大题；原卷公共书写要求单独保留。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2023-general-denshi/tus-electrical-2023-general-denshi-q2-01.png",
+          "page": 3,
+          "box": [
+            30.4,
+            119.2,
+            681.6,
+            388.8
+          ],
+          "width": 1628,
+          "height": 674,
+          "label": "一般入试 電子回路 第 2 题 · 原卷第 3 页第 1 块",
+          "sha256": "3a4b35453cd196cec088dc1b30074aab06c07244b50911273e862710d54327c5"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2023-general-denshi-q3",
+      "number": "3",
+      "title": "逻辑函数的标准形与冗余项",
+      "titleKind": "editorial",
+      "topics": [
+        "数字逻辑",
+        "标准形",
+        "冗余项"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷与每张裁图，复核首末行、原方框题号、全部小问、公式、波形、图号与附图。未混入相邻大题；原卷公共书写要求单独保留。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2023-general-denshi/tus-electrical-2023-general-denshi-q3-01.png",
+          "page": 4,
+          "box": [
+            30.4,
+            119.2,
+            681.6,
+            262.4
+          ],
+          "width": 1628,
+          "height": 358,
+          "label": "一般入试 電子回路 第 3 题 · 原卷第 4 页第 1 块",
+          "sha256": "8299b20103e97c5198ab3e08136583bca0d284603137a7235c4c6560c821c059"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区及考号框；保留全部说明和考试时间。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2023-general-denshi-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、评分框与作答留白；全部题干、小问及配图均保留。公共书写要求单独保存，重复说明不再重复裁图。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2023-general-denshi-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、评分框与作答留白；全部题干、小问及配图均保留。公共书写要求单独保存，重复说明不再重复裁图。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2023-general-denshi-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、评分框与作答留白；全部题干、小问及配图均保留。公共书写要求单独保存，重复说明不再重复裁图。",
+      "reviewed": true
+    }
+  ]
+}

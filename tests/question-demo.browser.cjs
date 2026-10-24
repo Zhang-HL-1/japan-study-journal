@@ -70,7 +70,7 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
   const hrefs=await chooser.locator('#paper-chooser a').evaluateAll(els=>els.map(el=>el.getAttribute('href')));
   for (const id of ids) assert.ok(hrefs.includes('question-practice.html?paper='+id),id);
   assert.doesNotMatch(await chooser.locator('body').innerText(),/DEMO|Demo|样例/);await chooser.close();
-  const tusPapers=[['tus-ee-2025-denshi',4],['tus-ee-2025-kairo',3],['tus-ee-2025-sugaku',4],['tus-ee-2025-denjiki',3],['tus-ee-2025-intl',1],['tus-electrical-2025-general',10],['tus-electrical-2025-intl',9],['tus-electrical-2024-general',11],['tus-electrical-2024-intl',10]];
+  const tusPapers=[['tus-ee-2025-denshi',4],['tus-ee-2025-kairo',3],['tus-ee-2025-sugaku',4],['tus-ee-2025-denjiki',3],['tus-ee-2025-intl',1],['tus-electrical-2025-general',10],['tus-electrical-2025-intl',9],['tus-electrical-2024-general',11],['tus-electrical-2024-intl',10],['tus-electrical-2023-general',11]];
   const aliasPage=await browser.newPage();
   const oldId='tus-electrical-2025-general-kairo',oldQuestion=oldId+'-q2';
   await aliasPage.addInitScript(({question})=>localStorage.setItem('japan-study-journal:question-practice:v1',JSON.stringify({version:1,records:{[question]:{completed:true,bookmarked:true,note:'合卷前笔记',updatedAt:100}}})),{question:oldQuestion});
@@ -106,8 +106,10 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
       const commonSrc=await page.locator('#common-content img').evaluateAll(es=>es.map(e=>e.getAttribute('src')));
       assert.ok(commonSrc.every(src=>src.includes('/'+file.id+'/')));
      }
-     if(process.env.STUDY_ROOM_SCREENSHOTS&&(id==='tus-electrical-2025-general'||id.startsWith('tus-electrical-2024-'))) {
-      fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});await page.evaluate(()=>window.scrollTo(0,0));
+     if(process.env.STUDY_ROOM_SCREENSHOTS&&(id==='tus-electrical-2025-general'||id.startsWith('tus-electrical-2024-')||id==='tus-electrical-2023-general')) {
+      fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});
+      await page.locator('#question-content').scrollIntoViewIfNeeded();
+      await page.locator('#common-content img,#question-content img').evaluateAll(async es=>Promise.all(es.map(e=>e.decode())));
       await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,`${id}-${width}.png`),fullPage:true});
      }
     }
