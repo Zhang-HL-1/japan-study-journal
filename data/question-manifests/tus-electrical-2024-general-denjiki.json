@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2024-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2024 入学年度 · 一般入试 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-6fa413120447653f",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気学",
+    "originalName": "修士一般_工研_電気工学専攻_電磁気学.pdf",
+    "pdf": "assets/past-papers/documents/3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1.pdf",
+    "sha256": "3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1",
+    "pageCount": 3,
+    "note": "来自既有目录 tus-6fa413120447653f，工学研究科・電気工学専攻，修士課程・一般入試。2024 为入学年度；题面实施日为 2023-07-29，不改写年度。三个科目 PDF 同属一套考试；封面不计题数，按原卷方框大题号拆分。中文标题仅用于导航。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        32.0,
+        12.0,
+        696.0,
+        444.0
+      ],
+      "label": "封面：大学、研究科、专攻、年度、科目与全部作答要求"
+    },
+    {
+      "page": 1,
+      "box": [
+        44.0,
+        632.0,
+        692.0,
+        760.0
+      ],
+      "label": "封面：考试时间及答题纸说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2024-general-denjiki-q1",
+      "number": "1",
+      "title": "同心圆筒的电场与电力",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "圆筒导体"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            24.0,
+            136.0,
+            668.8,
+            344.0
+          ],
+          "label": "一般入试 電磁気学 第 1 题 · 原卷第 2 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2024-general-denjiki-q2",
+      "number": "2",
+      "title": "双线圈磁路的气隙与互感",
+      "titleKind": "editorial",
+      "topics": [
+        "磁路",
+        "互感"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            24.0,
+            443.2,
+            668.8,
+            648.8
+          ],
+          "label": "一般入试 電磁気学 第 2 题 · 原卷第 2 页第 1 块"
+        },
+        {
+          "page": 2,
+          "box": [
+            328.0,
+            659.2,
+            592.0,
+            854.4
+          ],
+          "label": "一般入试 電磁気学 第 2 题 · 原卷第 2 页第 2 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2024-general-denjiki-q3",
+      "number": "3",
+      "title": "正三角形三导体的磁场与受力",
+      "titleKind": "editorial",
+      "topics": [
+        "磁场",
+        "安培力"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            20.8,
+            140.8,
+            666.4,
+            357.6
+          ],
+          "label": "一般入试 電磁気学 第 3 题 · 原卷第 3 页第 1 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            400.0,
+            373.6,
+            593.6,
+            570.4
+          ],
+          "label": "一般入试 電磁気学 第 3 题 · 原卷第 3 页第 2 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2024-general-denjiki-q4",
+      "number": "4",
+      "title": "麦克斯韦方程与电荷守恒",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "波动方程",
+        "电荷守恒"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            20.8,
+            624.0,
+            668.8,
+            818.4
+          ],
+          "label": "一般入试 電磁気学 第 4 题 · 原卷第 3 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号框；封面说明和考试时间作为公共条件。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2024-general-denjiki-q1",
+        "tus-electrical-2024-general-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2024-general-denjiki-q3",
+        "tus-electrical-2024-general-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    }
+  ]
+}

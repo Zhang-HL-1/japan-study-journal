@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2024-intl-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2024 入学年度 · 留学生入试 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-0e840c689ed322a6",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気学",
+    "originalName": "修士留学生_工研_電気工学専攻_電磁気学.pdf",
+    "pdf": "assets/past-papers/documents/040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c.pdf",
+    "sha256": "040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c",
+    "pageCount": 5,
+    "note": "来自既有目录 tus-0e840c689ed322a6，工学研究科・電気工学専攻，修士課程・外国人留学生入試。2024 为入学年度；题面实施日为 2024-01-08，不改写年度。三个科目 PDF 同属一套考试；封面不计题数，按原卷方框大题号拆分。中文标题仅用于导航。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        32.0,
+        12.0,
+        696.0,
+        444.0
+      ],
+      "label": "封面：大学、研究科、专攻、年度、科目与全部作答要求"
+    },
+    {
+      "page": 1,
+      "box": [
+        44.0,
+        632.0,
+        692.0,
+        740.0
+      ],
+      "label": "封面：考试时间及答题纸说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2024-intl-denjiki-q1",
+      "number": "1",
+      "title": "带电导体球的电场与电位",
+      "titleKind": "editorial",
+      "topics": [
+        "高斯定律",
+        "电位"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            36.0,
+            144.0,
+            688.0,
+            529.6
+          ],
+          "label": "留学生入试 電磁気学 第 1 题 · 原卷第 2 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2024-intl-denjiki-q2",
+      "number": "2",
+      "title": "气隙环形铁芯的磁阻与互感",
+      "titleKind": "editorial",
+      "topics": [
+        "磁路",
+        "自感",
+        "互感"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            36.0,
+            144.0,
+            688.0,
+            504.0
+          ],
+          "label": "留学生入试 電磁気学 第 2 题 · 原卷第 3 页第 1 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            296.0,
+            556.0,
+            592.0,
+            805.6
+          ],
+          "label": "留学生入试 電磁気学 第 2 题 · 原卷第 3 页第 2 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2024-intl-denjiki-q3",
+      "number": "3",
+      "title": "同心圆线圈的轴上磁场与叠加",
+      "titleKind": "editorial",
+      "topics": [
+        "圆线圈",
+        "磁场叠加"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            36.0,
+            144.0,
+            688.0,
+            343.2
+          ],
+          "label": "留学生入试 電磁気学 第 3 题 · 原卷第 4 页第 1 块"
+        },
+        {
+          "page": 4,
+          "box": [
+            328.8,
+            390.4,
+            566.4,
+            639.2
+          ],
+          "label": "留学生入试 電磁気学 第 3 题 · 原卷第 4 页第 2 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2024-intl-denjiki-q4",
+      "number": "4",
+      "title": "平行长直导线的磁场力",
+      "titleKind": "editorial",
+      "topics": [
+        "长直导线",
+        "安培力"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            36.0,
+            144.0,
+            688.0,
+            254.4
+          ],
+          "label": "留学生入试 電磁気学 第 4 题 · 原卷第 5 页第 1 块"
+        },
+        {
+          "page": 5,
+          "box": [
+            327.2,
+            280.0,
+            519.2,
+            536.8
+          ],
+          "label": "留学生入试 電磁気学 第 4 题 · 原卷第 5 页第 2 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号框；封面说明和考试时间作为公共条件。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2024-intl-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2024-intl-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2024-intl-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2024-intl-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    }
+  ]
+}

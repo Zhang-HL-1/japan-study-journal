@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2024-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2024 入学年度 · 一般入试 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-6fa413120447653f",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "修士一般_工研_電気工学専攻_電気回路.pdf",
+    "pdf": "assets/past-papers/documents/772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906.pdf",
+    "sha256": "772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906",
+    "pageCount": 5,
+    "note": "来自既有目录 tus-6fa413120447653f，工学研究科・電気工学専攻，修士課程・一般入試。2024 为入学年度；题面实施日为 2023-07-29，不改写年度。三个科目 PDF 同属一套考试；封面不计题数，按原卷方框大题号拆分。中文标题仅用于导航。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2024-general-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        32.0,
+        12.0,
+        696.0,
+        444.0
+      ],
+      "width": 1660,
+      "height": 1080,
+      "label": "封面：大学、研究科、专攻、年度、科目与全部作答要求",
+      "sha256": "fad5515a90112380a374aa42aa04d0c786f9b704352a552344df172a5fc5992e"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2024-general-kairo/common-02.png",
+      "page": 1,
+      "box": [
+        44.0,
+        632.0,
+        692.0,
+        760.0
+      ],
+      "width": 1620,
+      "height": 320,
+      "label": "封面：考试时间及答题纸说明",
+      "sha256": "c737738b32750192bbb74b0c8041f65e7e95ae64e22852cdd443bb2d027ffdc2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2024-general-kairo-q1",
+      "number": "1",
+      "title": "RL回路的谐波与功率",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "谐波",
+        "功率"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-general-kairo/tus-electrical-2024-general-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            40.0,
+            104.0,
+            689.6,
+            544.0
+          ],
+          "width": 1624,
+          "height": 1100,
+          "label": "一般入试 電気回路 第 1 题 · 原卷第 2 页第 1 块",
+          "sha256": "73655e0f0c38c09e364010585db28d2732398ab15af6b846c1495f93058ab61d"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2024-general-kairo-q2",
+      "number": "2",
+      "title": "LC一端口的谐振与反谐振",
+      "titleKind": "editorial",
+      "topics": [
+        "谐振",
+        "阻抗"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-general-kairo/tus-electrical-2024-general-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            37.6,
+            105.6,
+            684.8,
+            840.0
+          ],
+          "width": 1618,
+          "height": 1836,
+          "label": "一般入试 電気回路 第 2 题 · 原卷第 3 页第 1 块",
+          "sha256": "4542e5a4dad6ad4d6be0f46e811ccc2e1a5d20a8c7dea0cfa6eebc151978dab2"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2024-general-kairo-q3",
+      "number": "3",
+      "title": "RC回路的阶跃与矩形输入响应",
+      "titleKind": "editorial",
+      "topics": [
+        "RC暂态",
+        "阶跃响应"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-general-kairo/tus-electrical-2024-general-kairo-q3-01.png",
+          "page": 4,
+          "box": [
+            36.0,
+            102.4,
+            686.4,
+            672.0
+          ],
+          "width": 1626,
+          "height": 1424,
+          "label": "一般入试 電気回路 第 3 题 · 原卷第 4 页第 1 块",
+          "sha256": "20f6419df829e58135d1dd2a8f163ed5725df2cd0e717987b6f282f7dc4d06dc"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2024-general-kairo-q4",
+      "number": "4",
+      "title": "分布参数线路与传输特性",
+      "titleKind": "editorial",
+      "topics": [
+        "分布参数回路",
+        "传输线"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-general-kairo/tus-electrical-2024-general-kairo-q4-01.png",
+          "page": 5,
+          "box": [
+            40.0,
+            99.2,
+            689.6,
+            785.6
+          ],
+          "width": 1624,
+          "height": 1716,
+          "label": "一般入试 電気回路 第 4 题 · 原卷第 5 页第 1 块",
+          "sha256": "b62b9d04ea59f9e262de39e5a6f7f89a977126b65df389ece4a32cf9ac6b7c96"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2024-general-kairo/tus-electrical-2024-general-kairo-q4-02.png",
+          "page": 5,
+          "box": [
+            260.0,
+            785.6,
+            509.6,
+            934.4
+          ],
+          "width": 624,
+          "height": 372,
+          "label": "一般入试 電気回路 第 4 题 · 原卷第 5 页第 2 块",
+          "sha256": "5246c6c3456bd1b05c735bedbce11ea9f43b3050f9a87bd21f54e60060633404"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号框；封面说明和考试时间作为公共条件。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2024-general-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2024-general-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2024-general-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2024-general-kairo-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    }
+  ]
+}
