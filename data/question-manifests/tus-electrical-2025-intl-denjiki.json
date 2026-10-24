@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2025-intl-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 外国人留学生入试 · 电磁学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-1f2310ffe00f0b2e",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "修士留学生_工研_電気工学専攻_電磁気学.pdf",
+    "pdf": "assets/past-papers/documents/903922bdf8c9a194c99ce06402b284879f81cad4216ceea363e123b98557d6a0.pdf",
+    "sha256": "903922bdf8c9a194c99ce06402b284879f81cad4216ceea363e123b98557d6a0",
+    "pageCount": 5,
+    "note": "来自既有目录 tus-1f2310ffe00f0b2e，工学研究科・電気工学専攻，修士課程・外国人留学生入試。yearBasis=academic，2025 为入学年度；题面实施日为 2025-01-07，不改写年度。封面为公共说明，不计题数。按方框大题号分题，保留全部小问及图，中文标题仅作导航。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        32.0,
+        9.6,
+        563.26,
+        360.0
+      ],
+      "label": "封面：大学、研究科、专攻、年度、科目和作答要求"
+    },
+    {
+      "page": 1,
+      "box": [
+        40.0,
+        516.0,
+        555.26,
+        608.0
+      ],
+      "label": "封面：考试时间及答题纸说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2025-intl-denjiki-q1",
+      "number": "1",
+      "title": "共线点电荷的平衡与场强",
+      "titleKind": "editorial",
+      "topics": [
+        "库仑定律",
+        "静电场"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            35.2,
+            124.8,
+            558.4,
+            428.0
+          ],
+          "label": "外国人留学生入试 電磁気学 第 1 题 · 原卷第 2 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2025-intl-denjiki-q2",
+      "number": "2",
+      "title": "带气隙铁心的磁路",
+      "titleKind": "editorial",
+      "topics": [
+        "磁路",
+        "磁阻"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            35.2,
+            124.8,
+            558.4,
+            539.2
+          ],
+          "label": "外国人留学生入试 電磁気学 第 2 题 · 原卷第 3 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2025-intl-denjiki-q3",
+      "number": "3",
+      "title": "两线圈的自感与互感",
+      "titleKind": "editorial",
+      "topics": [
+        "自感",
+        "互感"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            35.2,
+            124.8,
+            558.4,
+            280.0
+          ],
+          "label": "外国人留学生入试 電磁気学 第 3 题 · 原卷第 4 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2025-intl-denjiki-q4",
+      "number": "4",
+      "title": "Maxwell 方程与电荷守恒",
+      "titleKind": "editorial",
+      "topics": [
+        "Maxwell 方程",
+        "波动方程",
+        "连续性方程"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            35.2,
+            124.8,
+            558.4,
+            360.0
+          ],
+          "label": "外国人留学生入试 電磁気学 第 4 题 · 原卷第 5 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区、考号填写框；考试说明和时间保留为公共条件。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2025-intl-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2025-intl-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2025-intl-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2025-intl-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    }
+  ]
+}

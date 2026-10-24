@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2025-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 一般入试 · 电磁学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-7bdce392c0bff5f6",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "修士一般_工研_電気工学専攻_電磁気学.pdf",
+    "pdf": "assets/past-papers/documents/ba0b7284655a8ca9d9a49cf8a483d911aa5a5b7360c123720c4e446cc2b1f83a.pdf",
+    "sha256": "ba0b7284655a8ca9d9a49cf8a483d911aa5a5b7360c123720c4e446cc2b1f83a",
+    "pageCount": 4,
+    "note": "来自既有目录 tus-7bdce392c0bff5f6，工学研究科・電気工学専攻，修士課程・一般入試。yearBasis=academic，2025 为入学年度；题面实施日为 2024-08-03，不改写年度。封面为公共说明，不计题数。按方框大题号分题，保留全部小问及图，中文标题仅作导航。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        32.0,
+        9.6,
+        696.64,
+        392.0
+      ],
+      "label": "封面：大学、研究科、专攻、年度、科目和作答要求"
+    },
+    {
+      "page": 1,
+      "box": [
+        40.0,
+        652.0,
+        688.64,
+        764.0
+      ],
+      "label": "封面：考试时间及答题纸说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2025-general-denjiki-q1",
+      "number": "1",
+      "title": "均匀带电球体的电场与电位",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "电位"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            35.2,
+            122.4,
+            557.6,
+            266.4
+          ],
+          "label": "一般入试 電磁気学 第 1 题 · 原卷第 2 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2025-general-denjiki-q2",
+      "number": "2",
+      "title": "同轴圆筒间的导电介质",
+      "titleKind": "editorial",
+      "topics": [
+        "电流密度",
+        "电阻"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            35.2,
+            422.4,
+            557.6,
+            515.2
+          ],
+          "label": "一般入试 電磁気学 第 2 题 · 原卷第 2 页第 1 块"
+        },
+        {
+          "page": 2,
+          "box": [
+            224.0,
+            520.0,
+            396.0,
+            791.2
+          ],
+          "label": "一般入试 電磁気学 第 2 题 · 原卷第 2 页第 2 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2025-general-denjiki-q3",
+      "number": "3",
+      "title": "平行长直导体的电磁力",
+      "titleKind": "editorial",
+      "topics": [
+        "磁场",
+        "电磁力"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            33.6,
+            137.6,
+            557.6,
+            280.0
+          ],
+          "label": "一般入试 電磁気学 第 3 题 · 原卷第 3 页第 1 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            196.0,
+            292.0,
+            372.0,
+            483.2
+          ],
+          "label": "一般入试 電磁気学 第 3 题 · 原卷第 3 页第 2 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2025-general-denjiki-q4",
+      "number": "4",
+      "title": "平行板电容器中的传导与位移电流",
+      "titleKind": "editorial",
+      "topics": [
+        "位移电流",
+        "介质"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            33.6,
+            485.6,
+            557.6,
+            580.8
+          ],
+          "label": "一般入试 電磁気学 第 4 题 · 原卷第 3 页第 1 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            172.0,
+            585.6,
+            440.0,
+            774.4
+          ],
+          "label": "一般入试 電磁気学 第 4 题 · 原卷第 3 页第 2 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。 预览发现图中尺寸/半径标记接近裁边，扩大后重新核对全部尺寸与图号。"
+      }
+    },
+    {
+      "id": "tus-electrical-2025-general-denjiki-q5",
+      "number": "5",
+      "title": "圆柱导体中的能量流",
+      "titleKind": "editorial",
+      "topics": [
+        "坡印廷矢量",
+        "能流"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            33.6,
+            136.0,
+            557.6,
+            212.0
+          ],
+          "label": "一般入试 電磁気学 第 5 题 · 原卷第 4 页第 1 块"
+        },
+        {
+          "page": 4,
+          "box": [
+            160.0,
+            288.0,
+            432.0,
+            656.0
+          ],
+          "label": "一般入试 電磁気学 第 5 题 · 原卷第 4 页第 2 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。 预览发现图中尺寸/半径标记接近裁边，扩大后重新核对全部尺寸与图号。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区、考号填写框；考试说明和时间保留为公共条件。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2025-general-denjiki-q1",
+        "tus-electrical-2025-general-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2025-general-denjiki-q3",
+        "tus-electrical-2025-general-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2025-general-denjiki-q5"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    }
+  ]
+}

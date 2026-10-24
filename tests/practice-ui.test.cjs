@@ -207,6 +207,7 @@ test('indexed question papers filter beside whole papers and link out without PD
   await a.ids.bookmark.click();
   assert.equal(a.state().records['kobe-ee-2026-denjiki'], undefined);
   await a.change('school', '東京理科大学');
+  await a.change('major', JSON.stringify(['東京理科大学','創域理工学研究科','電気電子情報工学専攻']));
   await a.change('paperYear', 'all');
   await a.change('subject', '电子电路');
   assert.equal(a.ids['question-grid'].children.length, 1);

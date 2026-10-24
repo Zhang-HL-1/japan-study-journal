@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2025-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 一般入试 · 电路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-7bdce392c0bff5f6",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "电路",
+    "originalSubject": "電気回路",
+    "originalName": "修士一般_工研_電気工学専攻_電気回路.pdf",
+    "pdf": "assets/past-papers/documents/0dc5cfb835a0010f2664ea54437f53db7048564d8cd00ff35b15dd8fc8508d40.pdf",
+    "sha256": "0dc5cfb835a0010f2664ea54437f53db7048564d8cd00ff35b15dd8fc8508d40",
+    "pageCount": 3,
+    "note": "来自既有目录 tus-7bdce392c0bff5f6，工学研究科・電気工学専攻，修士課程・一般入試。yearBasis=academic，2025 为入学年度；题面实施日为 2024-08-03，不改写年度。封面为公共说明，不计题数。按方框大题号分题，保留全部小问及图，中文标题仅作导航。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2025-general-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        32.0,
+        9.6,
+        696.46,
+        392.0
+      ],
+      "width": 1662,
+      "height": 956,
+      "label": "封面：大学、研究科、专攻、年度、科目和作答要求",
+      "sha256": "3e4664976f75f8c923cfa2cb15f57cdf0321a631de5fe93fc38c900c99aa28cc"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2025-general-kairo/common-02.png",
+      "page": 1,
+      "box": [
+        40.0,
+        652.0,
+        688.46,
+        764.0
+      ],
+      "width": 1622,
+      "height": 280,
+      "label": "封面：考试时间及答题纸说明",
+      "sha256": "49e89b8e404872364d56b8cc4b40b55ea5ee46a07f09678a1ec6006db84a2767"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2025-general-kairo-q1",
+      "number": "1",
+      "title": "交流 RL 网络与复平面轨迹",
+      "titleKind": "editorial",
+      "topics": [
+        "交流电路",
+        "相量"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2025-general-kairo/tus-electrical-2025-general-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            28.0,
+            116.8,
+            680.0,
+            620.0
+          ],
+          "width": 1630,
+          "height": 1258,
+          "label": "一般入试 電気回路 第 1 题 · 原卷第 2 页第 1 块",
+          "sha256": "eaee5cbb53b4345e4859773ad62a6f776d7f69c938fa053b880b4c0df6264d22"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2025-general-kairo-q2",
+      "number": "2",
+      "title": "开关切换后的 RLC 暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "暂态电路",
+        "微分方程"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2025-general-kairo/tus-electrical-2025-general-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            28.0,
+            116.8,
+            680.0,
+            552.0
+          ],
+          "width": 1630,
+          "height": 1088,
+          "label": "一般入试 電気回路 第 2 题 · 原卷第 3 页第 1 块",
+          "sha256": "af5c503fe8fdfd37c44e75c9a5c4eb2e099f6bcd843e2a7a484b17ea22a38e77"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区、考号填写框；考试说明和时间保留为公共条件。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2025-general-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2025-general-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    }
+  ]
+}
