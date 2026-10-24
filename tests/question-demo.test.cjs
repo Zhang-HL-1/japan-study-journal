@@ -7,7 +7,14 @@ test('published question papers preserve catalog sources, unique IDs and complet
  for(const entry of index.papers){
   assert.ok(!papers.has(entry.id));papers.add(entry.id);
   assert.equal(entry.data,`assets/question-bank/${entry.id}/paper.json`);
-  const data=JSON.parse(fs.readFileSync(path.join(root,entry.data))),manifest=JSON.parse(fs.readFileSync(path.join(root,'data/question-manifests',entry.id+'.json')));
+  const data=JSON.parse(fs.readFileSync(path.join(root,entry.data)));
+  if(data.schemaVersion===2){
+   const builder=require('../scripts/build-question-collections.cjs');const config=JSON.parse(fs.readFileSync(path.join(root,'data/question-collections',entry.id+'.json')));
+   assert.deepEqual(data,builder.build(config));assert.equal(data.questions.length,entry.questionCount);
+   for(const q of data.questions){assert.ok(!ids.has(q.id));ids.add(q.id);assert.equal(q.review.status,'verified');}
+   continue;
+  }
+  const manifest=JSON.parse(fs.readFileSync(path.join(root,'data/question-manifests',entry.id+'.json')));
   assert.equal(data.id,entry.id);assert.equal(data.questions.length,entry.questionCount);assert.deepEqual(data.source,manifest.source);assert.deepEqual(data.coverage,manifest.coverage);
   assert.equal(hash(data.source.pdf),data.source.sha256);
   if(data.source.normalization){

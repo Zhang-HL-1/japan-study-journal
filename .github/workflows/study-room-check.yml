@@ -25,6 +25,8 @@ on:
       - 'question-bank.js'
       - 'question-bank-index.json'
       - 'data/question-manifests/**'
+      - 'data/question-collections/**'
+      - 'scripts/build-question-collections.cjs'
       - 'assets/question-bank/**'
       - 'skills/past-paper-to-questions/**'
       - 'paper-practice-data.js'
@@ -56,6 +58,7 @@ jobs:
         run: |
           node scripts/build-school-index.cjs --check
           node scripts/build-paper-practice.cjs --check
+          node scripts/build-question-collections.cjs --check
           node --test --test-reporter=dot tests/*.test.cjs
       - name: Install isolated browser test dependencies
         run: |

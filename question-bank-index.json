@@ -61,11 +61,39 @@
     {"id": "science-tokyo-ee-2023", "title": "东京科学大学 · 2023 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2023", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2023/paper.json"},
     {"id": "science-tokyo-ee-2024", "title": "东京科学大学 · 2024 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2024", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2024/paper.json"},
     {"id": "science-tokyo-ee-2025", "title": "东京科学大学 · 2025 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2025", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2025/paper.json"},
-    {"id": "tus-electrical-2025-general-denshi", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 一般入试 · 电子电路", "catalogId": "tus-7bdce392c0bff5f6", "questionCount": 3, "data": "assets/question-bank/tus-electrical-2025-general-denshi/paper.json"},
-    {"id": "tus-electrical-2025-general-kairo", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 一般入试 · 电路", "catalogId": "tus-7bdce392c0bff5f6", "questionCount": 2, "data": "assets/question-bank/tus-electrical-2025-general-kairo/paper.json"},
-    {"id": "tus-electrical-2025-general-denjiki", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 一般入试 · 电磁学", "catalogId": "tus-7bdce392c0bff5f6", "questionCount": 5, "data": "assets/question-bank/tus-electrical-2025-general-denjiki/paper.json"},
-    {"id": "tus-electrical-2025-intl-denshi", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 外国人留学生入试 · 电子电路", "catalogId": "tus-1f2310ffe00f0b2e", "questionCount": 3, "data": "assets/question-bank/tus-electrical-2025-intl-denshi/paper.json"},
-    {"id": "tus-electrical-2025-intl-kairo", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 外国人留学生入试 · 电路", "catalogId": "tus-1f2310ffe00f0b2e", "questionCount": 2, "data": "assets/question-bank/tus-electrical-2025-intl-kairo/paper.json"},
-    {"id": "tus-electrical-2025-intl-denjiki", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 外国人留学生入试 · 电磁学", "catalogId": "tus-1f2310ffe00f0b2e", "questionCount": 4, "data": "assets/question-bank/tus-electrical-2025-intl-denjiki/paper.json"}
-  ]
+    {"id": "tus-electrical-2025-general", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 一般入试", "catalogId": "tus-7bdce392c0bff5f6", "questionCount": 10, "data": "assets/question-bank/tus-electrical-2025-general/paper.json"},
+    {"id": "tus-electrical-2025-intl", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 外国人留学生入试", "catalogId": "tus-1f2310ffe00f0b2e", "questionCount": 9, "data": "assets/question-bank/tus-electrical-2025-intl/paper.json"}
+  ],
+  "aliases": [
+  {
+    "id": "tus-electrical-2025-general-denshi",
+    "paperId": "tus-electrical-2025-general",
+    "questionId": "tus-electrical-2025-general-denshi-q1"
+  },
+  {
+    "id": "tus-electrical-2025-general-kairo",
+    "paperId": "tus-electrical-2025-general",
+    "questionId": "tus-electrical-2025-general-kairo-q1"
+  },
+  {
+    "id": "tus-electrical-2025-general-denjiki",
+    "paperId": "tus-electrical-2025-general",
+    "questionId": "tus-electrical-2025-general-denjiki-q1"
+  },
+  {
+    "id": "tus-electrical-2025-intl-denshi",
+    "paperId": "tus-electrical-2025-intl",
+    "questionId": "tus-electrical-2025-intl-denshi-q1"
+  },
+  {
+    "id": "tus-electrical-2025-intl-kairo",
+    "paperId": "tus-electrical-2025-intl",
+    "questionId": "tus-electrical-2025-intl-kairo-q1"
+  },
+  {
+    "id": "tus-electrical-2025-intl-denjiki",
+    "paperId": "tus-electrical-2025-intl",
+    "questionId": "tus-electrical-2025-intl-denjiki-q1"
+  }
+]
 }

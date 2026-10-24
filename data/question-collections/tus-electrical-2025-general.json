@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2025-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 一般入试",
+  "catalogId": "tus-7bdce392c0bff5f6",
+  "components": [
+    {
+      "paperId": "tus-electrical-2025-general-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2025-general-kairo",
+      "subject": "电气回路"
+    },
+    {
+      "paperId": "tus-electrical-2025-general-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "note": "2025入学年度，工学研究科・電気工学専攻，一般入试。电子回路、电气回路、电磁回路三份PDF属于同一套考试，合为一个卷入口；科目内保留原大题号。电磁回路为用户指定的中文展示名，原卷科目名「電磁気学」与PDF保持原样。各题原件、物理PDF页码和原卷说明按对应分科文件记录。"
+}

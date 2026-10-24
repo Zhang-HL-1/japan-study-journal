@@ -47,3 +47,17 @@
 ## 批量检索层（后续阶段）
 
 多卷页面可先使用 `?paper=<id>&q=<id>`。全量选题需要另建轻量 `question-index.json`，仅含题目 ID、卷 ID、学校/专攻/科目/年度、来源类型、标题、topics、详情路径，不内嵌题图或整卷正文。按筛选结果加载某卷 JSON，再读对应题。不要每次筛选下载 1,118 份 JSON 或 8,989 页图片。
+
+## 同场考试的多 PDF 合卷（2026-10-24）
+
+制作清单仍按源 PDF 记录裁图，但**题库目录的卷按实际考试组织**。用户确认东理工学电气的三个分科文件属于同套考试，因此一般和留学生各为一卷。
+
+- 合卷配置：`data/question-collections/<id>.json`，字段 `schemaVersion:1,id,title,catalogId,components:[{paperId,subject}],note`。
+- `scripts/build-question-collections.cjs` 从已审核组件生成 schemaVersion 2 的 `paper.json`。不复制图片或重编号，不重新猜题界。
+- `source.files[]` 保留每个组件的 source 与文件 ID；合卷本身不填伪造的单一 `source.pdf/pageCount`。
+- 每题 `sourceFileId`，每个图片块、公共说明和 coverage 的 `fileId` 指向实际文件；物理页码始终相对于该 PDF。
+- 原题 ID 保持；题号在不同科目中可重复，目录标题前加科目名。
+- 旧分科入口从 `papers[]` 移至 `question-bank-index.json.aliases[]`，保留 `id,paperId,questionId` 以恢复深链和旧记录。
+- 用 `node scripts/build-question-collections.cjs --check` 验证；页面切题时必须同时切换真实原卷链接和所属文件的公共说明。
+
+用户指定的东理展示科目名为「电子回路／电气回路／电磁回路」，原卷日文科目名保留。此要求不应静默改写其他学校的原题科目或来源。

@@ -35,7 +35,7 @@ const all=bank.concat(sets);
    assert.equal(await page.locator('#question-set-links a').first().getAttribute('href'),'question-practice.html?paper=tus-ee-2025-denshi');
    assert.match(await page.locator('#question-set-items a').first().getAttribute('href'),/paper=tus-ee-2025-denshi&q=/);
    await page.selectOption('#major',JSON.stringify(['東京理科大学','工学研究科','電気工学専攻']));await page.selectOption('#paperYear','2025');await page.selectOption('#subject','all');
-   assert.equal(await page.locator('#question-grid button').count(),6);await page.selectOption('#subject','电磁学');assert.equal(await page.locator('#question-grid button').count(),2);assert.match(await page.locator('#question-set-links a').first().getAttribute('href'),/paper=tus-electrical-2025-general-denjiki/);
+   assert.equal(await page.locator('#question-grid button').count(),2);await page.selectOption('#subject','电磁学');assert.equal(await page.locator('#question-grid button').count(),2);assert.match(await page.locator('#question-set-links a').first().getAttribute('href'),/paper=tus-electrical-2025-general/);
    await page.selectOption('#school','東京科学大学');await page.selectOption('#paperYear','2025');await page.selectOption('#subject','电磁学');
    assert.equal(await page.locator('#question-grid button').count(),1);assert.match(await page.locator('#question-title').textContent(),/东京科学大学/);
    assert.equal(await page.locator('#question-set-links a').first().getAttribute('href'),'question-practice.html?paper=science-tokyo-ee-2025');
