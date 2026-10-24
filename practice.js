@@ -24,12 +24,13 @@
   const defaults = { sourceKind: 'all', school: 'all', major: 'all', book: 'all', paperYear: 'all', subject: 'all', chapter: 'all', difficulty: 'all', type: 'all', scope: 'all', order: 'sequential', search: '', practiceMode: 'all' };
   const typeNames = { paper: '原卷练习 · 不判分', choice: '单选题', numeric: '数值题', written: '解答题 · 自评' };
   let state = core.blank(), list = [], index = 0, locked = false, exposed = false;
+  let pendingResume = null, filtersTouched = false;
   let storageFailed = false, preserveUnreadable = false, suppressSave = false, replaceRecords = false, searchTimer;
   const localDay = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
   function storageMessage(message, warning = false) { $('storage-status').textContent = message; $('storage-status').classList.toggle('is-warning', warning); }
   try {
     const saved = localStorage.getItem(key);
-    if (saved) state = core.cleanState(JSON.parse(saved), bank);
+    if (saved) { const parsed = JSON.parse(saved); state = core.cleanState(parsed, bank); pendingResume = { current:parsed?.current, filters:{...state.filters} }; }
   } catch (e) {
     storageFailed = true;
     preserveUnreadable = true;
@@ -46,7 +47,7 @@
     }
     catch (e) { storageFailed = true; storageMessage('浏览器无法保存记录（可能禁用了存储或空间已满）。请导出记录，避免刷新后丢失。', true); }
   }
-  function touchFilters() { state.filtersUpdatedAt = Date.now(); }
+  function touchFilters() { filtersTouched = true; state.filtersUpdatedAt = Date.now(); }
   function applyFilterControls() {
     state.filters = { ...defaults, ...state.filters };
     for (const id of ['sourceKind','paperYear','subject','difficulty','type','order','practiceMode']) {
@@ -398,7 +399,8 @@
     if (preserveUnreadable) return;
     try {
       const saved = JSON.parse(localStorage.getItem(key) || 'null');
-      if (saved && items.some(q => q.id === saved.current)) state.current = saved.current;
+      const resume = !filtersTouched && pendingResume ? pendingResume.current : saved?.current;
+      if (items.some(q => q.id === resume)) state.current = resume;
     } catch { /* 读不到上次位置时留在当前题单。 */ }
   }
   async function attachQuestionSets() {
@@ -419,11 +421,13 @@
       questionBankStatus = 'error';
       if (document.documentElement) document.documentElement.dataset.questionBank = 'error';
     }
+    if (pendingResume && !filtersTouched) state.filters = { ...defaults, ...pendingResume.filters, practiceMode:readMode() };
     syncModeChrome();
     updateSubjects();
     updateYears();
-    updateSources();
+    applyFilterControls();
     restoreCurrent();
+    pendingResume = null;
     rebuild(true);
   }
   rebuild(true);
