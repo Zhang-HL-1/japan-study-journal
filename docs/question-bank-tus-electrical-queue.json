@@ -10,12 +10,12 @@
     "catalogGroups": 24,
     "uniqueQuestionPdfs": 41,
     "pdfPages": 232,
-    "verifiedPdfs": 12,
-    "verifiedQuestions": 40,
-    "pendingPdfs": 26,
-    "logicalExamPapers": 4,
-    "duplicatePdfs": 3,
-    "coveredPdfs": 15
+    "verifiedPdfs": 15,
+    "verifiedQuestions": 51,
+    "pendingPdfs": 20,
+    "logicalExamPapers": 5,
+    "duplicatePdfs": 6,
+    "coveredPdfs": 21
   },
   "sources": [
     {
@@ -399,8 +399,11 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2023-general-denshi"
+      ],
+      "collectionId": "tus-electrical-2023-general"
     },
     {
       "pdf": "assets/past-papers/documents/bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e.pdf",
@@ -420,8 +423,11 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2023-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2023-general"
     },
     {
       "pdf": "assets/past-papers/documents/9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8.pdf",
@@ -441,8 +447,11 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2023-general-denjiki"
+      ],
+      "collectionId": "tus-electrical-2023-general"
     },
     {
       "pdf": "assets/past-papers/documents/5a80437d21c857c0b4fc433eff12fa7e2783e26a3aeeb8d568125165a5db850e.pdf",
@@ -462,8 +471,12 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "duplicate",
+      "paperIds": [],
+      "duplicateOf": "assets/past-papers/documents/89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286.pdf",
+      "collectionId": "tus-electrical-2023-general",
+      "evidence": "docs/question-bank-tus-electrical-2023-duplicates.json",
+      "note": "所有题目裁图区域在 2.5 倍渲染下像素完全相同；原始副本保留，不重复计卷或计题。"
     },
     {
       "pdf": "assets/past-papers/documents/8d8281c7f8ef4039a2d5d0bc784524b7899c4a7828ed6172af236bb58f5a2859.pdf",
@@ -483,8 +496,12 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "duplicate",
+      "paperIds": [],
+      "duplicateOf": "assets/past-papers/documents/bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e.pdf",
+      "collectionId": "tus-electrical-2023-general",
+      "evidence": "docs/question-bank-tus-electrical-2023-duplicates.json",
+      "note": "所有题目裁图区域在 2.5 倍渲染下像素完全相同；原始副本保留，不重复计卷或计题。"
     },
     {
       "pdf": "assets/past-papers/documents/5263d69b04de99da0443c6176ad7ec82f170ba7c51f7adbb7a17632a0b47883d.pdf",
@@ -504,8 +521,12 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "duplicate",
+      "paperIds": [],
+      "duplicateOf": "assets/past-papers/documents/9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8.pdf",
+      "collectionId": "tus-electrical-2023-general",
+      "evidence": "docs/question-bank-tus-electrical-2023-duplicates.json",
+      "note": "所有题目裁图区域在 2.5 倍渲染下像素完全相同；原始副本保留，不重复计卷或计题。"
     },
     {
       "pdf": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",

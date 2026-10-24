@@ -30,8 +30,8 @@ test('the resumable queue accounts for every authorized question PDF and verifie
  const queue=require('../docs/question-bank-tus-electrical-queue.json');
  const scope=catalog.papers.filter(p=>p.universityId==='tus'&&p.graduateSchool==='工学研究科'&&p.department==='電気工学専攻');
  assert.deepEqual(new Set(queue.sources.map(s=>s.pdf)),new Set(scope.flatMap(p=>p.files.filter(f=>f.kind==='question').map(f=>f.url))));
- assert.equal(queue.summary.catalogGroups,scope.length);assert.equal(queue.sources.length,41);assert.equal(queue.summary.pendingPdfs,26);assert.equal(queue.summary.verifiedPdfs,12);
- assert.equal(queue.sources.filter(s=>s.status==='verified').length,12);assert.equal(queue.summary.pdfPages,232);
+ assert.equal(queue.summary.catalogGroups,scope.length);assert.equal(queue.sources.length,41);assert.equal(queue.summary.pendingPdfs,20);assert.equal(queue.summary.verifiedPdfs,15);
+ assert.equal(queue.sources.filter(s=>s.status==='verified').length,15);assert.equal(queue.summary.pdfPages,232);
  for(const source of queue.sources)for(const id of source.paperIds){const paper=JSON.parse(fs.readFileSync(path.join(root,`assets/question-bank/${id}/paper.json`),'utf8'));assert.equal(paper.source.pdf,source.pdf);}
 });
 
