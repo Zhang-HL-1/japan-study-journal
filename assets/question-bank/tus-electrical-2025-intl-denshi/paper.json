@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2025-intl-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 外国人留学生入试 · 电子电路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-1f2310ffe00f0b2e",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "电子电路",
+    "originalSubject": "電子回路",
+    "originalName": "修士留学生_工研_電気工学専攻_電子回路.pdf",
+    "pdf": "assets/past-papers/documents/ead3d9d637608650f6e512fabc26eb237ece2c3a0675be34cca2c658d6190138.pdf",
+    "sha256": "ead3d9d637608650f6e512fabc26eb237ece2c3a0675be34cca2c658d6190138",
+    "pageCount": 4,
+    "note": "来自既有目录 tus-1f2310ffe00f0b2e，工学研究科・電気工学専攻，修士課程・外国人留学生入試。yearBasis=academic，2025 为入学年度；题面实施日为 2025-01-07，不改写年度。封面为公共说明，不计题数。按方框大题号分题，保留全部小问及图，中文标题仅作导航。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2025-intl-denshi/common-01.png",
+      "page": 1,
+      "box": [
+        32.0,
+        9.6,
+        563.26,
+        360.0
+      ],
+      "width": 1329,
+      "height": 876,
+      "label": "封面：大学、研究科、专攻、年度、科目和作答要求",
+      "sha256": "e47cd343e6631eb7d2fa5cba5bf235901160c5cb4dcfe06bb9d2873ed68562d4"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2025-intl-denshi/common-02.png",
+      "page": 1,
+      "box": [
+        40.0,
+        516.0,
+        555.26,
+        608.0
+      ],
+      "width": 1289,
+      "height": 230,
+      "label": "封面：考试时间及答题纸说明",
+      "sha256": "6b3d351b1bfae3199f5c18e3e386c9faa5e35f3a957e31930d3a77abc49b7225"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2025-intl-denshi-q1",
+      "number": "1",
+      "title": "运算放大器网络",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2025-intl-denshi/tus-electrical-2025-intl-denshi-q1-01.png",
+          "page": 2,
+          "box": [
+            33.6,
+            100.0,
+            560.0,
+            376.0
+          ],
+          "width": 1316,
+          "height": 690,
+          "label": "外国人留学生入试 電子回路 第 1 题 · 原卷第 2 页第 1 块",
+          "sha256": "f779915b8f1c7629d44a51e2e43482c829512fe2f904b30e2188e75a4a63e1a6"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2025-intl-denshi-q2",
+      "number": "2",
+      "title": "晶体管放大器与 h 参数",
+      "titleKind": "editorial",
+      "topics": [
+        "晶体管",
+        "小信号模型"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2025-intl-denshi/tus-electrical-2025-intl-denshi-q2-01.png",
+          "page": 3,
+          "box": [
+            33.6,
+            100.0,
+            560.0,
+            560.0
+          ],
+          "width": 1316,
+          "height": 1150,
+          "label": "外国人留学生入试 電子回路 第 2 题 · 原卷第 3 页第 1 块",
+          "sha256": "fa03c00519b6ceabcacd870a4990dacfa1c4e8e951c0e12cbcd0fed51e55495a"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2025-intl-denshi-q3",
+      "number": "3",
+      "title": "NOR 门与逻辑表达式",
+      "titleKind": "editorial",
+      "topics": [
+        "数字逻辑",
+        "NOR 门"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "对照完整原卷和该题每张预览，检查首行、末行、方框题号、全部小问、公式与配图；未混入其他大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2025-intl-denshi/tus-electrical-2025-intl-denshi-q3-01.png",
+          "page": 4,
+          "box": [
+            33.6,
+            100.0,
+            560.0,
+            304.0
+          ],
+          "width": 1316,
+          "height": 510,
+          "label": "外国人留学生入试 電子回路 第 3 题 · 原卷第 4 页第 1 块",
+          "sha256": "063e608a62a26e0f9f4a44a94483205858ea4907120ccc47ee3b4d04da6dc88b"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区、考号填写框；考试说明和时间保留为公共条件。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2025-intl-denshi-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2025-intl-denshi-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2025-intl-denshi-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；所有大题题干、小问和配图均保留。",
+      "reviewed": true
+    }
+  ]
+}

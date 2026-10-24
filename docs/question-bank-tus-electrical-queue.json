@@ -1,0 +1,901 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-24",
+  "scope": {
+    "schoolId": "tus",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻"
+  },
+  "summary": {
+    "catalogGroups": 24,
+    "uniqueQuestionPdfs": 41,
+    "pdfPages": 232,
+    "verifiedPdfs": 6,
+    "verifiedQuestions": 19,
+    "pendingPdfs": 35
+  },
+  "sources": [
+    {
+      "pdf": "assets/past-papers/documents/080f7d3e63eb8715157958c2f039868396a23669ebb0ac4143a0e81d1c2f935c.pdf",
+      "sha256": "080f7d3e63eb8715157958c2f039868396a23669ebb0ac4143a0e81d1c2f935c",
+      "pages": 4,
+      "originalNames": [
+        "修士一般_工研_電気工学専攻_電子回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-7bdce392c0bff5f6",
+          "year": 2025,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電子回路（ee补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2025-general-denshi"
+      ]
+    },
+    {
+      "pdf": "assets/past-papers/documents/0dc5cfb835a0010f2664ea54437f53db7048564d8cd00ff35b15dd8fc8508d40.pdf",
+      "sha256": "0dc5cfb835a0010f2664ea54437f53db7048564d8cd00ff35b15dd8fc8508d40",
+      "pages": 3,
+      "originalNames": [
+        "修士一般_工研_電気工学専攻_電気回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-7bdce392c0bff5f6",
+          "year": 2025,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電気回路（ee补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2025-general-kairo"
+      ]
+    },
+    {
+      "pdf": "assets/past-papers/documents/ba0b7284655a8ca9d9a49cf8a483d911aa5a5b7360c123720c4e446cc2b1f83a.pdf",
+      "sha256": "ba0b7284655a8ca9d9a49cf8a483d911aa5a5b7360c123720c4e446cc2b1f83a",
+      "pages": 4,
+      "originalNames": [
+        "修士一般_工研_電気工学専攻_電磁気学.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-7bdce392c0bff5f6",
+          "year": 2025,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電磁気学（ee补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2025-general-denjiki"
+      ]
+    },
+    {
+      "pdf": "assets/past-papers/documents/ead3d9d637608650f6e512fabc26eb237ece2c3a0675be34cca2c658d6190138.pdf",
+      "sha256": "ead3d9d637608650f6e512fabc26eb237ece2c3a0675be34cca2c658d6190138",
+      "pages": 4,
+      "originalNames": [
+        "修士留学生_工研_電気工学専攻_電子回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-1f2310ffe00f0b2e",
+          "year": 2025,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・外国人留学生入試",
+          "label": "電子回路",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2025-intl-denshi"
+      ]
+    },
+    {
+      "pdf": "assets/past-papers/documents/0b892929c3783e5aa4b3bfacf79a2591761602401c4c1734db0daf814b03afa1.pdf",
+      "sha256": "0b892929c3783e5aa4b3bfacf79a2591761602401c4c1734db0daf814b03afa1",
+      "pages": 3,
+      "originalNames": [
+        "修士留学生_工研_電気工学専攻_電気回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-1f2310ffe00f0b2e",
+          "year": 2025,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・外国人留学生入試",
+          "label": "電気回路",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2025-intl-kairo"
+      ]
+    },
+    {
+      "pdf": "assets/past-papers/documents/903922bdf8c9a194c99ce06402b284879f81cad4216ceea363e123b98557d6a0.pdf",
+      "sha256": "903922bdf8c9a194c99ce06402b284879f81cad4216ceea363e123b98557d6a0",
+      "pages": 5,
+      "originalNames": [
+        "修士留学生_工研_電気工学専攻_電磁気学.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-1f2310ffe00f0b2e",
+          "year": 2025,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・外国人留学生入試",
+          "label": "電磁気学",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2025-intl-denjiki"
+      ]
+    },
+    {
+      "pdf": "assets/past-papers/documents/a9482ab377afe0868df209505adc3fa7c8587fa74c6aa5cd71b153663a9f2ce6.pdf",
+      "sha256": "a9482ab377afe0868df209505adc3fa7c8587fa74c6aa5cd71b153663a9f2ce6",
+      "pages": 4,
+      "originalNames": [
+        "修士一般_工研_電気工学専攻_電子回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-6fa413120447653f",
+          "year": 2024,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電子回路",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906.pdf",
+      "sha256": "772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906",
+      "pages": 5,
+      "originalNames": [
+        "修士一般_工研_電気工学専攻_電気回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-6fa413120447653f",
+          "year": 2024,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電気回路",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1.pdf",
+      "sha256": "3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1",
+      "pages": 3,
+      "originalNames": [
+        "修士一般_工研_電気工学専攻_電磁気学.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-6fa413120447653f",
+          "year": 2024,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電磁気学",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/e298ed622013a993947a0e93acf363ec24a00eab54179993013a2601a561c423.pdf",
+      "sha256": "e298ed622013a993947a0e93acf363ec24a00eab54179993013a2601a561c423",
+      "pages": 4,
+      "originalNames": [
+        "修士一般_工研_電気工学専攻_電子回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-6fa413120447653f",
+          "year": 2024,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電子回路（ee补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/b40914f10ebe2046bd69d1adaa42c7bc24a50d8e85f004a96b9306f901efda5f.pdf",
+      "sha256": "b40914f10ebe2046bd69d1adaa42c7bc24a50d8e85f004a96b9306f901efda5f",
+      "pages": 5,
+      "originalNames": [
+        "修士一般_工研_電気工学専攻_電気回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-6fa413120447653f",
+          "year": 2024,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電気回路（ee补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/f34e760405cb50033157f850143a77ac2b1dcc07027c008460d7d2daf4e12884.pdf",
+      "sha256": "f34e760405cb50033157f850143a77ac2b1dcc07027c008460d7d2daf4e12884",
+      "pages": 3,
+      "originalNames": [
+        "修士一般_工研_電気工学専攻_電磁気学.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-6fa413120447653f",
+          "year": 2024,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電磁気学（ee补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/811ef3e9c5771d210a9b42a7c00f3e04003231f4551f281d4c2be296257b70c9.pdf",
+      "sha256": "811ef3e9c5771d210a9b42a7c00f3e04003231f4551f281d4c2be296257b70c9",
+      "pages": 4,
+      "originalNames": [
+        "修士留学生_工研_電気工学専攻_電子回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-0e840c689ed322a6",
+          "year": 2024,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・外国人留学生入試",
+          "label": "電子回路",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde.pdf",
+      "sha256": "f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde",
+      "pages": 4,
+      "originalNames": [
+        "修士留学生_工研_電気工学専攻_電気回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-0e840c689ed322a6",
+          "year": 2024,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・外国人留学生入試",
+          "label": "電気回路",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c.pdf",
+      "sha256": "040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c",
+      "pages": 5,
+      "originalNames": [
+        "修士留学生_工研_電気工学専攻_電磁気学.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-0e840c689ed322a6",
+          "year": 2024,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・外国人留学生入試",
+          "label": "電磁気学",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286.pdf",
+      "sha256": "89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286",
+      "pages": 4,
+      "originalNames": [
+        "修士一般_工学研究科_電気_電子回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-68c9d37032eeaf8f",
+          "year": 2023,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電子回路",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e.pdf",
+      "sha256": "bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e",
+      "pages": 4,
+      "originalNames": [
+        "修士一般_工学研究科_電気_電気回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-68c9d37032eeaf8f",
+          "year": 2023,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電気回路",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8.pdf",
+      "sha256": "9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8",
+      "pages": 3,
+      "originalNames": [
+        "修士一般_工学研究科_電気_電磁気学.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-68c9d37032eeaf8f",
+          "year": 2023,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電磁気学",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/5a80437d21c857c0b4fc433eff12fa7e2783e26a3aeeb8d568125165a5db850e.pdf",
+      "sha256": "5a80437d21c857c0b4fc433eff12fa7e2783e26a3aeeb8d568125165a5db850e",
+      "pages": 4,
+      "originalNames": [
+        "修士一般_工学研究科_電気_電子回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-68c9d37032eeaf8f",
+          "year": 2023,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電子回路（ee补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/8d8281c7f8ef4039a2d5d0bc784524b7899c4a7828ed6172af236bb58f5a2859.pdf",
+      "sha256": "8d8281c7f8ef4039a2d5d0bc784524b7899c4a7828ed6172af236bb58f5a2859",
+      "pages": 4,
+      "originalNames": [
+        "修士一般_工学研究科_電気_電気回路.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-68c9d37032eeaf8f",
+          "year": 2023,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電気回路（ee补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/5263d69b04de99da0443c6176ad7ec82f170ba7c51f7adbb7a17632a0b47883d.pdf",
+      "sha256": "5263d69b04de99da0443c6176ad7ec82f170ba7c51f7adbb7a17632a0b47883d",
+      "pages": 3,
+      "originalNames": [
+        "修士一般_工学研究科_電気_電磁気学.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-68c9d37032eeaf8f",
+          "year": 2023,
+          "yearBasis": "academic",
+          "selectionName": "修士課程・一般入試",
+          "label": "電磁気学（ee补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
+      "sha256": "c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c",
+      "pages": 12,
+      "originalNames": [
+        "2021.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-9371442448362327",
+          "year": 2021,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册（含手写参考）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542.pdf",
+      "sha256": "a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542",
+      "pages": 3,
+      "originalNames": [
+        "2020年夏入.pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-9371442448362327",
+          "year": 2021,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "電磁気学（补充原卷）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc.pdf",
+      "sha256": "14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc",
+      "pages": 8,
+      "originalNames": [
+        "2016(H28).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-12fb0bfb59387305",
+          "year": 2016,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947.pdf",
+      "sha256": "011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947",
+      "pages": 5,
+      "originalNames": [
+        "2015(H27).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-992dd2f54ca35fc7",
+          "year": 2015,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
+      "sha256": "e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d",
+      "pages": 4,
+      "originalNames": [
+        "2014(H26).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-686d39d7ea4967d7",
+          "year": 2014,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c.pdf",
+      "sha256": "f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c",
+      "pages": 5,
+      "originalNames": [
+        "2013(H25).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-fdaa56de6771681f",
+          "year": 2013,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/84003fc8176ce3fa24a656f0564366a25faac1252c2aedfd1d76da1b6fc66c7d.pdf",
+      "sha256": "84003fc8176ce3fa24a656f0564366a25faac1252c2aedfd1d76da1b6fc66c7d",
+      "pages": 6,
+      "originalNames": [
+        "2012(H24).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-30272f659e766cff",
+          "year": 2012,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/9ffd436e289eec31df7481dac1fada37d21d5f9ef37ad5493cd37870ee289997.pdf",
+      "sha256": "9ffd436e289eec31df7481dac1fada37d21d5f9ef37ad5493cd37870ee289997",
+      "pages": 5,
+      "originalNames": [
+        "2011(H23).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-d0cbe2480dbac6d9",
+          "year": 2011,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/b9c1a343c41b2f07ea9fd9cbe71bc2d23ea2c7b90fa00da18ab9e0214faa399e.pdf",
+      "sha256": "b9c1a343c41b2f07ea9fd9cbe71bc2d23ea2c7b90fa00da18ab9e0214faa399e",
+      "pages": 5,
+      "originalNames": [
+        "2010(H22).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-dd78276419f38ed3",
+          "year": 2010,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07.pdf",
+      "sha256": "2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07",
+      "pages": 6,
+      "originalNames": [
+        "2009(H21).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-eb7f476e0441f793",
+          "year": 2009,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2.pdf",
+      "sha256": "4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2",
+      "pages": 7,
+      "originalNames": [
+        "2008(H20).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-6991efdec1657e91",
+          "year": 2008,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 2,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/068b00332a52eddb3adc5082ad6f158dc82a42422b6ebd9b90e094dac5a6a9b5.pdf",
+      "sha256": "068b00332a52eddb3adc5082ad6f158dc82a42422b6ebd9b90e094dac5a6a9b5",
+      "pages": 6,
+      "originalNames": [
+        "2007(H19).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-af78c6e4dca58bd7",
+          "year": 2007,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0.pdf",
+      "sha256": "bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0",
+      "pages": 6,
+      "originalNames": [
+        "2005(H17).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-270b0919cbec68ca",
+          "year": 2005,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册（含手写参考）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c.pdf",
+      "sha256": "be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c",
+      "pages": 14,
+      "originalNames": [
+        "2004(H16)-1(含答案).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-426f9877d3ea1ced",
+          "year": 2004,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册（含手写参考）",
+          "startPage": 2,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
+      "sha256": "210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922",
+      "pages": 14,
+      "originalNames": [
+        "2002(H14).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-116efe829c3d8c87",
+          "year": 2002,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册（含手写参考）",
+          "startPage": 1,
+          "endPage": null
+        },
+        {
+          "catalogId": "tus-818b34507e889768",
+          "year": 2001,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "2001年度 電磁気学（合册补充）",
+          "startPage": 8,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644.pdf",
+      "sha256": "a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644",
+      "pages": 18,
+      "originalNames": [
+        "2001(H13).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-818b34507e889768",
+          "year": 2001,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册（含手写参考）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263.pdf",
+      "sha256": "68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263",
+      "pages": 12,
+      "originalNames": [
+        "2000(H12).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-29f15206f5817fb9",
+          "year": 2000,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册（含手写参考）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c.pdf",
+      "sha256": "c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c",
+      "pages": 6,
+      "originalNames": [
+        "1999(H11).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-384d1cf6520d0c45",
+          "year": 1999,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册（含手写参考）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec.pdf",
+      "sha256": "1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec",
+      "pages": 5,
+      "originalNames": [
+        "1998(H10).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-50ed7bf8bfc02ca2",
+          "year": 1998,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册（含手写参考）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    },
+    {
+      "pdf": "assets/past-papers/documents/53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c.pdf",
+      "sha256": "53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c",
+      "pages": 3,
+      "originalNames": [
+        "1997(H09).pdf"
+      ],
+      "catalogReferences": [
+        {
+          "catalogId": "tus-4b5576c516e10f37",
+          "year": 1997,
+          "yearBasis": "academic",
+          "selectionName": "修士課程入学試験",
+          "label": "原卷合册（含手写参考）",
+          "startPage": 1,
+          "endPage": null
+        }
+      ],
+      "status": "pending",
+      "paperIds": []
+    }
+  ]
+}
