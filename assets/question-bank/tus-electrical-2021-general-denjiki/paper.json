@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2021-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2021 入学年度 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-9371442448362327",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2021,
+    "yearBasis": "academic",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気学",
+    "originalName": "2020年夏入.pdf",
+    "pdf": "assets/past-papers/documents/a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542.pdf",
+    "sha256": "a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542",
+    "pageCount": 3,
+    "note": "2021 为合册封面入学年度；题面实施日 2020-07-23，不改写年度。来自工学研究科・電気工学専攻。采用电磁气学补充扫描，题目已对照合册第10–12页，年度依据合册第9页封面；原有划线与擦除痕迹保留，不补写题面。",
+    "relatedSources": [
+      {
+        "pdf": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
+        "sha256": "c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c",
+        "coverPage": 9,
+        "questionPages": [
+          10,
+          11,
+          12
+        ],
+        "relationship": "同一考试电磁气学封面与带手写参考题面，逐题比对；不重复计题。"
+      }
+    ]
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2021-general-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        37.6,
+        151.2,
+        160.0,
+        172.0
+      ],
+      "width": 306,
+      "height": 52,
+      "label": "全科公共说明：答案填写于解答用纸",
+      "sha256": "75cb859e9d12a7e90a8a3f1dfdd06da4cb2b0fa57392b02b8f09d71e33ce04b2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2021-general-denjiki-q1",
+      "number": "1",
+      "title": "两导体球的电荷分配与表面电场",
+      "titleKind": "editorial",
+      "topics": [
+        "导体球",
+        "电势",
+        "电场"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            40.0,
+            172.8,
+            545.6,
+            434.4
+          ],
+          "width": 1264,
+          "height": 654,
+          "label": "電磁気学 第 1 题 · 原卷第 1 页第 1 块",
+          "sha256": "9257ccd0a576cd16a80ae44d57b913c467ea4051d13f5a5056257fdfd54be5e6"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2021-general-denjiki-q2",
+      "number": "2",
+      "title": "接地导体平面与电像法",
+      "titleKind": "editorial",
+      "topics": [
+        "电像法",
+        "静电场",
+        "电场力"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q2-01.png",
+          "page": 1,
+          "box": [
+            40.0,
+            464.0,
+            545.6,
+            688.0
+          ],
+          "width": 1264,
+          "height": 560,
+          "label": "電磁気学 第 2 题 · 原卷第 1 页第 1 块",
+          "sha256": "4c41c8afe1fe1e24487323942f2009ee238ffaf6cb63f30ab5114985ab9be7d8"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2021-general-denjiki-q3",
+      "number": "3",
+      "title": "旋转线圈发电机的感应电压与转矩",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁感应",
+        "发电机",
+        "转矩"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q3-01.png",
+          "page": 2,
+          "box": [
+            40.0,
+            159.2,
+            545.6,
+            760.8
+          ],
+          "width": 1264,
+          "height": 1504,
+          "label": "電磁気学 第 3 题 · 原卷第 2 页第 1 块",
+          "sha256": "dedc0109f98609cccc9789228dac21387747c087d0b3fc3ef51b859a7bc4982f"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2021-general-denjiki-q4",
+      "number": "4",
+      "title": "平行板电容器的全变位电流",
+      "titleKind": "editorial",
+      "topics": [
+        "位移电流",
+        "介质",
+        "电容器"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q4-01.png",
+          "page": 3,
+          "box": [
+            39.2,
+            191.2,
+            545.6,
+            556.0
+          ],
+          "width": 1266,
+          "height": 912,
+          "label": "電磁気学 第 4 题 · 原卷第 3 页第 1 块",
+          "sha256": "d2f049864a7db90d9fa60d44c987a0e8af490905b37cc4debb253cff1887e5cc"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2021-general-denjiki-q5",
+      "number": "5",
+      "title": "含位移电流的麦克斯韦方程",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "位移电流"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q5-01.png",
+          "page": 3,
+          "box": [
+            39.2,
+            577.6,
+            545.6,
+            671.2
+          ],
+          "width": 1266,
+          "height": 234,
+          "label": "電磁気学 第 5 题 · 原卷第 3 页第 1 块",
+          "sha256": "11f6c2c363b480dd0b914a8676d0f086dbc3eb73d4b08e22b041449a007091f9"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2021-general-denjiki-q1",
+        "tus-electrical-2021-general-denjiki-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、作答留白及相邻大题。原有划线和擦除痕迹保留；与合册同题核对。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2021-general-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、作答留白及相邻大题。原有划线和擦除痕迹保留；与合册同题核对。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2021-general-denjiki-q4",
+        "tus-electrical-2021-general-denjiki-q5"
+      ],
+      "common": false,
+      "excluded": "重复卷头、作答留白及相邻大题。原有划线和擦除痕迹保留；与合册同题核对。",
+      "reviewed": true
+    }
+  ]
+}

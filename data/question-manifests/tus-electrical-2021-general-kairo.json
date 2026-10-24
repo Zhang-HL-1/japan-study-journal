@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2021-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2021 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-9371442448362327",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2021,
+    "yearBasis": "academic",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2021.pdf",
+    "pdf": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
+    "sha256": "c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c",
+    "pageCount": 12,
+    "note": "2021 为合册封面入学年度；题面实施日 2020-07-23，不改写年度。来自工学研究科・電気工学専攻。同一12页合册包含三科及手写参考；仅按物理页与裁框保留本科学题，排除手写演算。附图内原有端子标注、线框或指示线保持原样，不作为答案。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        32.0,
+        28.0,
+        680.0,
+        440.0
+      ],
+      "label": "科目封面：2021入学年度、研究科、专攻与作答说明"
+    },
+    {
+      "page": 1,
+      "box": [
+        36.0,
+        652.0,
+        656.0,
+        768.0
+      ],
+      "label": "科目封面：考试时间与答题纸要求"
+    },
+    {
+      "page": 2,
+      "box": [
+        39.2,
+        136.0,
+        666.4,
+        175.2
+      ],
+      "label": "全科公共说明：书写要求及允许使用的符号"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2021-general-kairo-q1",
+      "number": "1",
+      "title": "双开关RL回路的电流与电压暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "RL暂态",
+        "开关",
+        "电压波形"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            44.0,
+            185.6,
+            668.0,
+            238.4
+          ],
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 1 块"
+        },
+        {
+          "page": 2,
+          "box": [
+            60.0,
+            253.6,
+            484.0,
+            276.8
+          ],
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 2 块"
+        },
+        {
+          "page": 2,
+          "box": [
+            60.0,
+            285.6,
+            484.0,
+            308.8
+          ],
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 3 块"
+        },
+        {
+          "page": 2,
+          "box": [
+            60.0,
+            319.2,
+            668.0,
+            338.4
+          ],
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 4 块"
+        },
+        {
+          "page": 2,
+          "box": [
+            60.0,
+            338.4,
+            116.0,
+            354.4
+          ],
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 5 块"
+        },
+        {
+          "page": 2,
+          "box": [
+            240.0,
+            392.8,
+            449.6,
+            552.0
+          ],
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 6 块"
+        },
+        {
+          "page": 2,
+          "box": [
+            446.4,
+            452.8,
+            465.6,
+            488.0
+          ],
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 7 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      }
+    },
+    {
+      "id": "tus-electrical-2021-general-kairo-q2",
+      "number": "2",
+      "title": "LC并联谐振测量未知电容",
+      "titleKind": "editorial",
+      "topics": [
+        "谐振",
+        "电容测量"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            52.0,
+            184.8,
+            668.0,
+            225.6
+          ],
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 1 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            68.0,
+            236.8,
+            668.0,
+            274.4
+          ],
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 2 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            68.0,
+            286.4,
+            668.0,
+            307.2
+          ],
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 3 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            68.0,
+            307.2,
+            252.0,
+            322.4
+          ],
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 4 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            239.2,
+            386.4,
+            296.8,
+            420.8
+          ],
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 5 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            290.4,
+            355.2,
+            477.6,
+            432.0
+          ],
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 6 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            300.0,
+            432.0,
+            477.6,
+            478.4
+          ],
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 7 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            266.4,
+            480.8,
+            472.0,
+            500.0
+          ],
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 8 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      }
+    },
+    {
+      "id": "tus-electrical-2021-general-kairo-q3",
+      "number": "3",
+      "title": "无损传输线的传播与反射",
+      "titleKind": "editorial",
+      "topics": [
+        "传输线",
+        "反射系数"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            52.0,
+            567.2,
+            664.0,
+            624.0
+          ],
+          "label": "電気回路 第 3 题 · 原卷第 3 页第 1 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            65.6,
+            632.8,
+            472.8,
+            660.8
+          ],
+          "label": "電気回路 第 3 题 · 原卷第 3 页第 2 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            65.6,
+            665.6,
+            396.0,
+            695.2
+          ],
+          "label": "電気回路 第 3 题 · 原卷第 3 页第 3 块"
+        },
+        {
+          "page": 3,
+          "box": [
+            65.6,
+            700.0,
+            517.6,
+            728.0
+          ],
+          "label": "電気回路 第 3 题 · 原卷第 3 页第 4 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号填写框；全部科目说明和时间保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2021-general-kairo-q1"
+      ],
+      "common": true,
+      "excluded": "全部手写推导、演算结果、参考真值表，以及重复卷头与空白区。附图内原有端子标注和指示线保留，未改写或重绘。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2021-general-kairo-q2",
+        "tus-electrical-2021-general-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "全部手写推导、演算结果、参考真值表，以及重复卷头与空白区。附图内原有端子标注和指示线保留，未改写或重绘。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "整页为第1题手写参考及重复附图，不属于原题续页，完全排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true
+    }
+  ]
+}

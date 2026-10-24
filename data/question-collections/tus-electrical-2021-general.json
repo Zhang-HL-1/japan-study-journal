@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2021-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2021 入学年度 · 修士入试",
+  "catalogId": "tus-9371442448362327",
+  "components": [
+    {
+      "paperId": "tus-electrical-2021-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2021-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2021-general-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "note": "2021 入学年度修士入试，实施日 2020-07-23。电子回路、电气回路、电磁回路同属一套考试；前两科来自同一合册，电磁回路采用补充扫描并对照合册核对。共两份实际 PDF、三个科目、11 道大题，不将合册内手写参考当作原题或答案发布。扫描件原有划线、擦除痕迹及图内标注保留；年度依据合册三科封面。"
+}

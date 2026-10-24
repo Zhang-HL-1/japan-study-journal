@@ -10,12 +10,12 @@
     "catalogGroups": 24,
     "uniqueQuestionPdfs": 41,
     "pdfPages": 232,
-    "verifiedPdfs": 15,
-    "verifiedQuestions": 51,
-    "pendingPdfs": 20,
-    "logicalExamPapers": 5,
+    "verifiedPdfs": 17,
+    "verifiedQuestions": 62,
+    "pendingPdfs": 18,
+    "logicalExamPapers": 6,
     "duplicatePdfs": 6,
-    "coveredPdfs": 21
+    "coveredPdfs": 23
   },
   "sources": [
     {
@@ -546,8 +546,13 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2021-general-denshi",
+        "tus-electrical-2021-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2021-general",
+      "note": "2021三科同套考试：合册只裁原题，排除手写演算；电磁题采用补充扫描并对照合册核对，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542.pdf",
@@ -567,8 +572,12 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2021-general-denjiki"
+      ],
+      "collectionId": "tus-electrical-2021-general",
+      "note": "2021三科同套考试：合册只裁原题，排除手写演算；电磁题采用补充扫描并对照合册核对，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc.pdf",
