@@ -37,7 +37,7 @@
     storageMessage('无法读取浏览器记录。本次可继续练习，请导出记录备份；原记录未主动删除。', true);
   }
   function save() {
-    if (preserveUnreadable || suppressSave) return;
+    if (preserveUnreadable || suppressSave || (pendingResume && !filtersTouched && questionBankStatus === 'pending')) return;
     try {
       const previous = replaceRecords ? null : JSON.parse(localStorage.getItem(key) || 'null');
       const next = window.ProgressSync ? window.ProgressSync.projectPractice(previous, state, bank) : state;

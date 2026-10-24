@@ -37,7 +37,7 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
   }
   for(const width of [390,800,1440]) {
    const page=await browser.newPage({viewport:{width,height:1000},reducedMotion:'reduce'});
-   await page.goto(origin+'/drill.html');await page.evaluate(()=>window.__questionBankReady);
+   await page.goto(origin+'/drill.html');await page.waitForFunction(()=>document.documentElement.dataset.questionBank==='ready');
    if(width<=800) await page.locator('.filter-summary').click();
    await page.selectOption('#practiceMode','questions');await page.selectOption('#school','東京理科大学');
    const major=JSON.stringify(['東京理科大学','工学研究科','電気工学専攻']);
@@ -48,7 +48,8 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
    await page.locator('#focus-mode').click();await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));
    assert.equal(await page.locator('#back-to-practice').isVisible(),true);
    assert.equal(await page.locator('#back-to-practice').evaluate(e=>{const r=e.getBoundingClientRect();return r.top>=0&&r.bottom<=innerHeight;}),true);
-   await page.locator('#back-to-practice').click();await page.evaluate(()=>window.__questionBankReady);
+   await page.route('**/assets/question-bank/**/paper.json',async route=>{await new Promise(resolve=>setTimeout(resolve,300));await route.continue();});
+   await page.locator('#back-to-practice').click();await page.waitForURL('**/drill.html#question-card');await page.waitForFunction(()=>document.documentElement.dataset.questionBank==='ready');
    assert.equal(await page.locator('#practiceMode').inputValue(),'questions');assert.equal(await page.locator('#school').inputValue(),'東京理科大学');assert.equal(await page.locator('#major').inputValue(),major);assert.equal(await page.locator('#paperYear').inputValue(),'2025');assert.equal(await page.locator('#subject').inputValue(),'电磁回路');
    assert.match(await page.locator('#question-title').innerText(),/外国人留学生/);assert.equal(new URL(page.url()).hash,'#question-card');await page.close();
   }
