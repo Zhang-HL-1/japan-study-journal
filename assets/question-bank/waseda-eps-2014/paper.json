@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2014",
+  "title": "早稻田大学 · 2014年9月・2015年4月入学 · 電子物理システム学専攻 専門科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-246df2585267648e",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2014,
+    "yearBasis": "academic",
+    "subject": "専門科目（力学・電磁気学・回路理論／3 科选 2 科）",
+    "originalSubject": "専門科目",
+    "originalName": "14bc9ed1ceb4d7a3ae61bfea9e003753.pdf",
+    "pdf": "assets/past-papers/documents/dc3ed93aab6d79afc81170ff0360cd5fc67b3d27796484bed780ff5a0ee1a377.pdf",
+    "sha256": "dc3ed93aab6d79afc81170ff0360cd5fc67b3d27796484bed780ff5a0ee1a377",
+    "pageCount": 7,
+    "note": "yearBasis=academic：封面「2014年9月入学・2015年4月入学」，非实施年。7 页=専門科目表紙 1 页 + 問題用紙 6 页；封面注明「解答用紙は 6 枚綴りが 1 組」，本 PDF 未收录解答用紙。结构与他年不同：每科只有「問題番号 1」「問題番号 2」两道大题（每页一大题），且封面要求力学・回路理論・電磁気学三科中选两科作答。本 PDF 无文字层（纯扫描），题界靠逐页目视与像素行剖面确定。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/waseda-eps-2014/common-01.png",
+      "page": 1,
+      "box": [
+        48,
+        155,
+        572,
+        440
+      ],
+      "width": 1310,
+      "height": 713,
+      "label": "専門科目表紙：試験名・専攻・選択規則と作答注意",
+      "sha256": "0242c7203d2d4d1b92523d890721fa8383678a30db992b44fbeb677e59d96135"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2014-rikigaku-1",
+      "number": "問題 1",
+      "title": "力学：拉格朗日量与哈密顿正则方程",
+      "titleKind": "editorial",
+      "topics": [
+        "ラグランジュ形式",
+        "ハミルトン形式",
+        "正準方程式",
+        "拘束条件",
+        "振り子"
+      ],
+      "summary": "xy 平面质点（重力 −y）写拉格朗日量与拉格朗日方程；再约束到抛物线 y=ax² 上；后半为支点可动的振子，求广义动量、哈密顿量与含时正则方程、小振动一般解。含図1–3。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-24",
+        "notes": "对照 p2：题号框「問題番号 1」在框内，(1) 1)–4) 与 (2) 1)–5) 齐全，図1・図2・図3 含坐标轴与图号，末行 5) 完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2014/waseda-eps-2014-rikigaku-1-01.png",
+          "page": 2,
+          "box": [
+            36,
+            146,
+            578,
+            809
+          ],
+          "width": 1355,
+          "height": 1658,
+          "label": "力学（その1）問題番号 1：题干、(1) 1)–4) 与 (2) 1)–5)，含図1–3",
+          "sha256": "403fc28ae2afd9d05cb21b0748b1a4a9afafc4779744fcad9dbb19d479b41a6b"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2014-rikigaku-2",
+      "number": "問題 2",
+      "title": "力学：一维量子力学（德布罗意、交换关系、阶段势）",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "1次元系",
+        "交換関係",
+        "固有値",
+        "階段ポテンシャル",
+        "透過率"
+      ],
+      "summary": "(1) 德布罗意波长、算符交换关系 [x̂,p̂²+x̂²]、厄米算符本征态测量与 ⟨F̂²⟩；(2) 阶段势垒的透射率与反射率，含概率流与边界条件。含 V(x) 图。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-24",
+        "notes": "对照 p3：题号框「問題番号 2」在，(1) 1)–3)（含算符与固有态公式）与 (2) 1)–4) 齐全，V(x) 阶段势图完整，末行「計算せよ」完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2014/waseda-eps-2014-rikigaku-2-01.png",
+          "page": 3,
+          "box": [
+            36,
+            146,
+            578,
+            810
+          ],
+          "width": 1355,
+          "height": 1660,
+          "label": "力学（その2）問題番号 2：(1) 1)–3) 与 (2) 1)–4)，含 V(x) 图",
+          "sha256": "bd02a197a1a03896e5158fc5467bcf26fce0e1b027badec972f9ec240693b7ab"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2014-kairo-1",
+      "number": "問題 1",
+      "title": "电气回路：交流电路的有效功率最大化",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "有効電力",
+        "複素共役",
+        "最大電力"
+      ],
+      "summary": "交流源 Ê、固定 r・L、可变 R・C 的回路，求电流与电压相量、共轭、有效功率表达式，并求使有效功率最大的 R 与 C。含図1。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-24",
+        "notes": "对照 p4：题号框「問題番号 1」在，1)–6) 齐全，図1（交流源·r·L·R·C 与端子）含图号，末行 6) 完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2014/waseda-eps-2014-kairo-1-01.png",
+          "page": 4,
+          "box": [
+            36,
+            134,
+            578,
+            742
+          ],
+          "width": 1355,
+          "height": 1520,
+          "label": "回路理論（その1）問題番号 1：题干、1)–6) 与図1",
+          "sha256": "445dd3baf2081dbf4bc8fafde3844ed63ca2146d2a0ce1a8cf80082cc0a20a14"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2014-kairo-2",
+      "number": "問題 2",
+      "title": "电气回路：直流电路的过渡响应",
+      "titleKind": "editorial",
+      "topics": [
+        "回路の過渡現象",
+        "直流回路",
+        "等価回路",
+        "初期値"
+      ],
+      "summary": "直流源・开关・RLC 回路，求 t=0 与 t=∞ 的等效电路和 i_R(0)，再求切换后的 i_R(t) 并画概形。含図2。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-24",
+        "notes": "对照 p5：题号框「問題番号 2」在，1)–6) 齐全，図2（开关·L·C·R 与 i_R(t)）含图号与初始条件标注。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2014/waseda-eps-2014-kairo-2-01.png",
+          "page": 5,
+          "box": [
+            36,
+            133,
+            578,
+            727
+          ],
+          "width": 1355,
+          "height": 1486,
+          "label": "回路理論（その2）問題番号 2：题干、1)–6) 与図2",
+          "sha256": "abc36709e0489006e88f5c795de27d6919e02054b2b52532e835dc9796db9eec"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2014-denjiki-1",
+      "number": "問題 1",
+      "title": "电磁气学：向量场散度与点电荷受力",
+      "titleKind": "editorial",
+      "topics": [
+        "電荷",
+        "静電界",
+        "ベクトル場",
+        "発散"
+      ],
+      "summary": "(1) 二维向量场 V 的图示与散度；(2) 正三角形顶点放置电荷 q，求重心处 1 C 受力方向，以及使该点静止所需的顶点电荷量 Q。含図。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-24",
+        "notes": "对照 p6：题号框「問題 1」在，(1) 1)–2)（向量场与散度公式）与 (2) 1)–2) 齐全，正三角形电荷图完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2014/waseda-eps-2014-denjiki-1-01.png",
+          "page": 6,
+          "box": [
+            36,
+            133,
+            578,
+            424
+          ],
+          "width": 1355,
+          "height": 728,
+          "label": "電磁気学（その1）問題番号 1：(1) 1)–2) 与 (2) 1)–2)，含図",
+          "sha256": "fd9abf1e3e678ee01540d59010b5570085f23c1e2cdb5534ef6e1a6a14701204"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2014-denjiki-2",
+      "number": "問題 2",
+      "title": "电磁气学：电流间作用力与电磁波",
+      "titleKind": "editorial",
+      "topics": [
+        "電流",
+        "磁界",
+        "マクスウェル方程式",
+        "電磁波",
+        "波動インピーダンス"
+      ],
+      "summary": "(1) 两条无限长直导线夹角 θ 相交，求长 2L 段受力；(2) 麦克斯韦方程组的向量形式与图解、波动方程、电磁波的传播常数与速度、能量密度与波动阻抗。含図。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-24",
+        "notes": "对照 p7：题号框「問題番号 2」在，(1) 直导线夹角图与题干、(2) 1)–4)（麦克斯韦方程、波动方程、传播常数、能量密度）齐全，末行「単位も示せ」完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2014/waseda-eps-2014-denjiki-2-01.png",
+          "page": 7,
+          "box": [
+            36,
+            134,
+            578,
+            647
+          ],
+          "width": 1355,
+          "height": 1283,
+          "label": "電磁気学（その2）問題番号 2：(1)(2) 全部小问，含図",
+          "sha256": "09b696dc40652e244e655d0009ac74bfa69a5ac0272ed8d526088d10bbca8b15"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "専門科目表紙：試験名・専攻、問題用紙 6 页、解答用紙 6 枚、三科选两科的選択规则与作答指示。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "waseda-eps-2014-rikigaku-1"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2014-rikigaku-2"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2014-kairo-1"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2014-kairo-2"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2014-denjiki-1"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2014-denjiki-2"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}
