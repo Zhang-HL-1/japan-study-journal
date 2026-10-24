@@ -1,0 +1,1241 @@
+{
+  "schemaVersion": 2,
+  "id": "tus-electrical-2021-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2021 入学年度 · 修士入试",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-9371442448362327",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2021,
+    "yearBasis": "academic",
+    "subject": "专业科目合卷",
+    "originalSubject": "電子回路・電気回路・電磁気学",
+    "note": "2021 入学年度修士入试，实施日 2020-07-23。电子回路、电气回路、电磁回路同属一套考试；前两科来自同一合册，电磁回路采用补充扫描并对照合册核对。共两份实际 PDF、三个科目、11 道大题，不将合册内手写参考当作原题或答案发布。扫描件原有划线、擦除痕迹及图内标注保留；年度依据合册三科封面。",
+    "subjects": [
+      "电子回路",
+      "电气回路",
+      "电磁回路"
+    ],
+    "files": [
+      {
+        "kind": "exam",
+        "catalogId": "tus-9371442448362327",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2021,
+        "yearBasis": "academic",
+        "subject": "电子回路",
+        "originalSubject": "電子回路",
+        "originalName": "2021.pdf",
+        "pdf": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
+        "sha256": "c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c",
+        "pageCount": 12,
+        "note": "2021 为合册封面入学年度；题面实施日 2020-07-23，不改写年度。来自工学研究科・電気工学専攻。同一12页合册包含三科及手写参考；仅按物理页与裁框保留本科学题，排除手写演算。附图内原有端子标注、线框或指示线保持原样，不作为答案。",
+        "id": "tus-electrical-2021-general-denshi",
+        "displaySubject": "电子回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-9371442448362327",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2021,
+        "yearBasis": "academic",
+        "subject": "电气回路",
+        "originalSubject": "電気回路",
+        "originalName": "2021.pdf",
+        "pdf": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
+        "sha256": "c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c",
+        "pageCount": 12,
+        "note": "2021 为合册封面入学年度；题面实施日 2020-07-23，不改写年度。来自工学研究科・電気工学専攻。同一12页合册包含三科及手写参考；仅按物理页与裁框保留本科学题，排除手写演算。附图内原有端子标注、线框或指示线保持原样，不作为答案。",
+        "id": "tus-electrical-2021-general-kairo",
+        "displaySubject": "电气回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-9371442448362327",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2021,
+        "yearBasis": "academic",
+        "subject": "电磁回路",
+        "originalSubject": "電磁気学",
+        "originalName": "2020年夏入.pdf",
+        "pdf": "assets/past-papers/documents/a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542.pdf",
+        "sha256": "a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542",
+        "pageCount": 3,
+        "note": "2021 为合册封面入学年度；题面实施日 2020-07-23，不改写年度。来自工学研究科・電気工学専攻。采用电磁气学补充扫描，题目已对照合册第10–12页，年度依据合册第9页封面；原有划线与擦除痕迹保留，不补写题面。",
+        "relatedSources": [
+          {
+            "pdf": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
+            "sha256": "c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c",
+            "coverPage": 9,
+            "questionPages": [
+              10,
+              11,
+              12
+            ],
+            "relationship": "同一考试电磁气学封面与带手写参考题面，逐题比对；不重复计题。"
+          }
+        ],
+        "id": "tus-electrical-2021-general-denjiki",
+        "displaySubject": "电磁回路"
+      }
+    ]
+  },
+  "components": [
+    {
+      "paperId": "tus-electrical-2021-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2021-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2021-general-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2021-general-denshi/common-01.png",
+      "page": 4,
+      "box": [
+        32,
+        28,
+        680,
+        440
+      ],
+      "width": 1620,
+      "height": 1030,
+      "label": "科目封面：2021入学年度、研究科、专攻与作答说明",
+      "sha256": "05fbd8ebb3b638a7e58a356747869e3e3ee2a3de871e68dc3276cc30bdd683e0",
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2021-general-denshi/common-02.png",
+      "page": 4,
+      "box": [
+        36,
+        652,
+        656,
+        768
+      ],
+      "width": 1550,
+      "height": 290,
+      "label": "科目封面：考试时间与答题纸要求",
+      "sha256": "80cfcae69348e71c316e5ca12cd165c52ba121352cd1c7fef6ac26846c338ea9",
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2021-general-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        32,
+        28,
+        680,
+        440
+      ],
+      "width": 1620,
+      "height": 1030,
+      "label": "科目封面：2021入学年度、研究科、专攻与作答说明",
+      "sha256": "bf1a4a3d65cffd1023b85e7b3dca014ff6d6a6ffd56e3e5f65e9b5d83cff68b6",
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2021-general-kairo/common-02.png",
+      "page": 1,
+      "box": [
+        36,
+        652,
+        656,
+        768
+      ],
+      "width": 1550,
+      "height": 290,
+      "label": "科目封面：考试时间与答题纸要求",
+      "sha256": "928e8d2127edd8aef5264594db14e98943e983695227e35b740b76bbe6511531",
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2021-general-kairo/common-03.png",
+      "page": 2,
+      "box": [
+        39.2,
+        136,
+        666.4,
+        175.2
+      ],
+      "width": 1568,
+      "height": 98,
+      "label": "全科公共说明：书写要求及允许使用的符号",
+      "sha256": "2f1bc8cf9ec156801971ea18612aaf95dd82b5457ea10c7c7eae3d8d7ada021f",
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2021-general-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        37.6,
+        151.2,
+        160,
+        172
+      ],
+      "width": 306,
+      "height": 52,
+      "label": "全科公共说明：答案填写于解答用纸",
+      "sha256": "75cb859e9d12a7e90a8a3f1dfdd06da4cb2b0fa57392b02b8f09d71e33ce04b2",
+      "fileId": "tus-electrical-2021-general-denjiki"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2021-general-denshi-q1",
+      "number": "1",
+      "title": "电子回路：FET小信号放大器的增益与阻抗",
+      "titleKind": "editorial",
+      "topics": [
+        "FET",
+        "小信号模型",
+        "输入输出阻抗"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q1-01.png",
+          "page": 5,
+          "box": [
+            126.4,
+            244.8,
+            572,
+            750.4
+          ],
+          "width": 1114,
+          "height": 1264,
+          "label": "電子回路 第 1 题 · 原卷第 5 页第 1 块",
+          "sha256": "fa6d39c4be9b3ccde3bc3db43a87e2ce43f4b0098b4a52aa189e3d53446897bf",
+          "fileId": "tus-electrical-2021-general-denshi"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "id": "tus-electrical-2021-general-denshi-q2",
+      "number": "2",
+      "title": "电子回路：运算放大器振荡回路的条件与频率",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "振荡回路"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q2-01.png",
+          "page": 7,
+          "box": [
+            125.6,
+            249.6,
+            569.6,
+            376
+          ],
+          "width": 1110,
+          "height": 316,
+          "label": "電子回路 第 2 题 · 原卷第 7 页第 1 块",
+          "sha256": "4d8f437651801748c2c74906b3a8e1a2ee61dbbb764a4914b1582c70b4e881df",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q2-02.png",
+          "page": 7,
+          "box": [
+            132,
+            388,
+            648,
+            408
+          ],
+          "width": 1290,
+          "height": 50,
+          "label": "電子回路 第 2 题 · 原卷第 7 页第 2 块",
+          "sha256": "b0d9544de44a0d8a251f07926f6f4dcbd50aca50f79fae9dd69f6eea4a11b29e",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q2-03.png",
+          "page": 7,
+          "box": [
+            132,
+            408.8,
+            476,
+            427.2
+          ],
+          "width": 860,
+          "height": 46,
+          "label": "電子回路 第 2 题 · 原卷第 7 页第 3 块",
+          "sha256": "526c04ee1acc21c3d2e418707b6f528f558f0ec83e73cf566997bd01d0868139",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q2-04.png",
+          "page": 7,
+          "box": [
+            260.8,
+            449.6,
+            405.6,
+            582.4
+          ],
+          "width": 362,
+          "height": 332,
+          "label": "電子回路 第 2 题 · 原卷第 7 页第 4 块",
+          "sha256": "741f39453587fd43c9faadd326671c10dad7a4ccd03b7cc3d050d4ccd11d6027",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q2-05.png",
+          "page": 7,
+          "box": [
+            400.8,
+            510.4,
+            426.4,
+            524.8
+          ],
+          "width": 64,
+          "height": 36,
+          "label": "電子回路 第 2 题 · 原卷第 7 页第 5 块",
+          "sha256": "ed12cdccf93072ddd43a232d3e1515708cbe6047b874a640f2e044ff923e513b",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q2-06.png",
+          "page": 7,
+          "box": [
+            326.4,
+            582.4,
+            363.2,
+            603.2
+          ],
+          "width": 92,
+          "height": 52,
+          "label": "電子回路 第 2 题 · 原卷第 7 页第 6 块",
+          "sha256": "8f4647489ba1d4c61a0267fccbb870510f5718cef444569aafb0527b8620a95a",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q2-07.png",
+          "page": 7,
+          "box": [
+            326.4,
+            605.6,
+            356.8,
+            626.4
+          ],
+          "width": 76,
+          "height": 52,
+          "label": "電子回路 第 2 题 · 原卷第 7 页第 7 块",
+          "sha256": "60c1222385d9f78e79962e742eea7ad88cef4390580b960072ad83b4f95c485d",
+          "fileId": "tus-electrical-2021-general-denshi"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "id": "tus-electrical-2021-general-denshi-q3",
+      "number": "3",
+      "title": "电子回路：逻辑回路的真值表与标准形",
+      "titleKind": "editorial",
+      "topics": [
+        "数字逻辑",
+        "真值表",
+        "标准形"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q3-01.png",
+          "page": 8,
+          "box": [
+            125.6,
+            248,
+            569.6,
+            389.6
+          ],
+          "width": 1110,
+          "height": 354,
+          "label": "電子回路 第 3 题 · 原卷第 8 页第 1 块",
+          "sha256": "9a9a64e7b5ab82e9140e5b609002172aff4b96c9c1dd5eda7d39492cad7a8ec4",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q3-02.png",
+          "page": 8,
+          "box": [
+            239.2,
+            413.6,
+            430.4,
+            479.2
+          ],
+          "width": 478,
+          "height": 164,
+          "label": "電子回路 第 3 题 · 原卷第 8 页第 2 块",
+          "sha256": "962d9f6848d6f1cf7a07fd979889f56a9630e71a97595d8ed4d58fa8e9a88bf7",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q3-03.png",
+          "page": 8,
+          "box": [
+            428,
+            417.6,
+            444,
+            432.8
+          ],
+          "width": 40,
+          "height": 38,
+          "label": "電子回路 第 3 题 · 原卷第 8 页第 3 块",
+          "sha256": "a62d7caa35d831032e65caee41bfe23b08d1052dcdf6c5822fe69c3ce1f1e45f",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q3-04.png",
+          "page": 8,
+          "box": [
+            428,
+            458.4,
+            444.8,
+            476
+          ],
+          "width": 42,
+          "height": 44,
+          "label": "電子回路 第 3 题 · 原卷第 8 页第 4 块",
+          "sha256": "72cd4837b112b3a11fbc1caaa2ba2732140b4e6dead7489ebb6684307f914de4",
+          "fileId": "tus-electrical-2021-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denshi/tus-electrical-2021-general-denshi-q3-05.png",
+          "page": 8,
+          "box": [
+            328,
+            479.2,
+            355.2,
+            496.8
+          ],
+          "width": 68,
+          "height": 44,
+          "label": "電子回路 第 3 题 · 原卷第 8 页第 5 块",
+          "sha256": "22bcd8111809479b23118416d6310ebb4194fcbd979a6f56fff0e5108d7ae422",
+          "fileId": "tus-electrical-2021-general-denshi"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "id": "tus-electrical-2021-general-kairo-q1",
+      "number": "1",
+      "title": "电气回路：双开关RL回路的电流与电压暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "RL暂态",
+        "开关",
+        "电压波形"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            44,
+            185.6,
+            668,
+            238.4
+          ],
+          "width": 1560,
+          "height": 132,
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 1 块",
+          "sha256": "3cbc036b5805a3d1f2c9e73a150d630a94eec9f6f8a96abe14863ef69c06e819",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q1-02.png",
+          "page": 2,
+          "box": [
+            60,
+            253.6,
+            484,
+            276.8
+          ],
+          "width": 1060,
+          "height": 58,
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 2 块",
+          "sha256": "a86a2bf8d9ec511f27405d14034c36b7d2b18ac47c8bd2907098db0d00428b2b",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q1-03.png",
+          "page": 2,
+          "box": [
+            60,
+            285.6,
+            484,
+            308.8
+          ],
+          "width": 1060,
+          "height": 58,
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 3 块",
+          "sha256": "9be04e03962eb0295a0ad23b9567855f20b711ab5c2fb87fd7669cbfd8c402bd",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q1-04.png",
+          "page": 2,
+          "box": [
+            60,
+            319.2,
+            668,
+            338.4
+          ],
+          "width": 1520,
+          "height": 48,
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 4 块",
+          "sha256": "538d3d40336969fb4a982543a022052f30b97647e7f407406058ed187d707bf6",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q1-05.png",
+          "page": 2,
+          "box": [
+            60,
+            338.4,
+            116,
+            354.4
+          ],
+          "width": 140,
+          "height": 40,
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 5 块",
+          "sha256": "d07a6e99a7c2c29f9699150a5d9e75368619c56545c532a4d2b0f0c56f60e9be",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q1-06.png",
+          "page": 2,
+          "box": [
+            240,
+            392.8,
+            449.6,
+            552
+          ],
+          "width": 524,
+          "height": 398,
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 6 块",
+          "sha256": "1b9b908ed572554cde62b5170a848def8c6324e4ecbd592aa8f7fb95087cac6b",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q1-07.png",
+          "page": 2,
+          "box": [
+            446.4,
+            452.8,
+            465.6,
+            488
+          ],
+          "width": 48,
+          "height": 88,
+          "label": "電気回路 第 1 题 · 原卷第 2 页第 7 块",
+          "sha256": "66756f6873bb00120c53d5d8cd7c591116d59bdba0e2dc1aaf10ec9e51c2cb19",
+          "fileId": "tus-electrical-2021-general-kairo"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "id": "tus-electrical-2021-general-kairo-q2",
+      "number": "2",
+      "title": "电气回路：LC并联谐振测量未知电容",
+      "titleKind": "editorial",
+      "topics": [
+        "谐振",
+        "电容测量"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            52,
+            184.8,
+            668,
+            225.6
+          ],
+          "width": 1540,
+          "height": 102,
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 1 块",
+          "sha256": "27b589f01a8faf12896a920c1e09fddafce89f995bebac8d4c051051ced03257",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q2-02.png",
+          "page": 3,
+          "box": [
+            68,
+            236.8,
+            668,
+            274.4
+          ],
+          "width": 1500,
+          "height": 94,
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 2 块",
+          "sha256": "8eca92899f1a558ce8c765ff05caa24bc25b988404de364397201df107cfdb25",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q2-03.png",
+          "page": 3,
+          "box": [
+            68,
+            286.4,
+            668,
+            307.2
+          ],
+          "width": 1500,
+          "height": 52,
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 3 块",
+          "sha256": "e6c5d9bddacfb0f0d4eccc80737541387436645804ea7f7d2501737ac04b88b5",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q2-04.png",
+          "page": 3,
+          "box": [
+            68,
+            307.2,
+            252,
+            322.4
+          ],
+          "width": 460,
+          "height": 38,
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 4 块",
+          "sha256": "80dad59793352a8bdcbb1d654b0e75709ff069f850af22cfb3f0796c3151eea9",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q2-05.png",
+          "page": 3,
+          "box": [
+            239.2,
+            386.4,
+            296.8,
+            420.8
+          ],
+          "width": 144,
+          "height": 86,
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 5 块",
+          "sha256": "8ba75472304e8733a1866c4f9f3c67bf6266baa7216db5bff989913806bc527f",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q2-06.png",
+          "page": 3,
+          "box": [
+            290.4,
+            355.2,
+            477.6,
+            432
+          ],
+          "width": 468,
+          "height": 192,
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 6 块",
+          "sha256": "6e854053fff01b96b35a002cc8530d8765974d59c3b40210e2cc84b869ddd7e5",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q2-07.png",
+          "page": 3,
+          "box": [
+            300,
+            432,
+            477.6,
+            478.4
+          ],
+          "width": 444,
+          "height": 116,
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 7 块",
+          "sha256": "376a43c5e9358625d16a4b190249c6d1c82c4a4540e1ef862e7bb798a5393d94",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q2-08.png",
+          "page": 3,
+          "box": [
+            266.4,
+            480.8,
+            472,
+            500
+          ],
+          "width": 514,
+          "height": 48,
+          "label": "電気回路 第 2 题 · 原卷第 3 页第 8 块",
+          "sha256": "f96e88dbe76ca5f6bc40d4c9585c4a007cf1445a701649b542329b4a2d8e2a3f",
+          "fileId": "tus-electrical-2021-general-kairo"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "id": "tus-electrical-2021-general-kairo-q3",
+      "number": "3",
+      "title": "电气回路：无损传输线的传播与反射",
+      "titleKind": "editorial",
+      "topics": [
+        "传输线",
+        "反射系数"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q3-01.png",
+          "page": 3,
+          "box": [
+            52,
+            567.2,
+            664,
+            624
+          ],
+          "width": 1530,
+          "height": 142,
+          "label": "電気回路 第 3 题 · 原卷第 3 页第 1 块",
+          "sha256": "a9cafc5ca3fb6baa8242271056359b62d59ef5448d305d5eb93a2c5d2b8c737e",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q3-02.png",
+          "page": 3,
+          "box": [
+            65.6,
+            632.8,
+            472.8,
+            660.8
+          ],
+          "width": 1018,
+          "height": 70,
+          "label": "電気回路 第 3 题 · 原卷第 3 页第 2 块",
+          "sha256": "f8f407ae5134e848bb8df219ce2449ab2130a274eaff891223fed7778d1ca5f1",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q3-03.png",
+          "page": 3,
+          "box": [
+            65.6,
+            665.6,
+            396,
+            695.2
+          ],
+          "width": 826,
+          "height": 74,
+          "label": "電気回路 第 3 题 · 原卷第 3 页第 3 块",
+          "sha256": "3168cbdc7cef7d54758e3cf70b392715278575d9f5af601e8c55cf8d6e679a60",
+          "fileId": "tus-electrical-2021-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-kairo/tus-electrical-2021-general-kairo-q3-04.png",
+          "page": 3,
+          "box": [
+            65.6,
+            700,
+            517.6,
+            728
+          ],
+          "width": 1130,
+          "height": 70,
+          "label": "電気回路 第 3 题 · 原卷第 3 页第 4 块",
+          "sha256": "745c463516fc2965a4d0f384d460b9cd61839a178a177be710af7a9e9287cbf5",
+          "fileId": "tus-electrical-2021-general-kairo"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "id": "tus-electrical-2021-general-denjiki-q1",
+      "number": "1",
+      "title": "电磁回路：两导体球的电荷分配与表面电场",
+      "titleKind": "editorial",
+      "topics": [
+        "导体球",
+        "电势",
+        "电场"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            40,
+            172.8,
+            545.6,
+            434.4
+          ],
+          "width": 1264,
+          "height": 654,
+          "label": "電磁気学 第 1 题 · 原卷第 1 页第 1 块",
+          "sha256": "9257ccd0a576cd16a80ae44d57b913c467ea4051d13f5a5056257fdfd54be5e6",
+          "fileId": "tus-electrical-2021-general-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2021-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2021-general-denjiki-q2",
+      "number": "2",
+      "title": "电磁回路：接地导体平面与电像法",
+      "titleKind": "editorial",
+      "topics": [
+        "电像法",
+        "静电场",
+        "电场力"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q2-01.png",
+          "page": 1,
+          "box": [
+            40,
+            464,
+            545.6,
+            688
+          ],
+          "width": 1264,
+          "height": 560,
+          "label": "電磁気学 第 2 题 · 原卷第 1 页第 1 块",
+          "sha256": "4c41c8afe1fe1e24487323942f2009ee238ffaf6cb63f30ab5114985ab9be7d8",
+          "fileId": "tus-electrical-2021-general-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2021-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2021-general-denjiki-q3",
+      "number": "3",
+      "title": "电磁回路：旋转线圈发电机的感应电压与转矩",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁感应",
+        "发电机",
+        "转矩"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q3-01.png",
+          "page": 2,
+          "box": [
+            40,
+            159.2,
+            545.6,
+            760.8
+          ],
+          "width": 1264,
+          "height": 1504,
+          "label": "電磁気学 第 3 题 · 原卷第 2 页第 1 块",
+          "sha256": "dedc0109f98609cccc9789228dac21387747c087d0b3fc3ef51b859a7bc4982f",
+          "fileId": "tus-electrical-2021-general-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2021-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2021-general-denjiki-q4",
+      "number": "4",
+      "title": "电磁回路：平行板电容器的全变位电流",
+      "titleKind": "editorial",
+      "topics": [
+        "位移电流",
+        "介质",
+        "电容器"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q4-01.png",
+          "page": 3,
+          "box": [
+            39.2,
+            191.2,
+            545.6,
+            556
+          ],
+          "width": 1266,
+          "height": 912,
+          "label": "電磁気学 第 4 题 · 原卷第 3 页第 1 块",
+          "sha256": "d2f049864a7db90d9fa60d44c987a0e8af490905b37cc4debb253cff1887e5cc",
+          "fileId": "tus-electrical-2021-general-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2021-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2021-general-denjiki-q5",
+      "number": "5",
+      "title": "电磁回路：含位移电流的麦克斯韦方程",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "位移电流"
+      ],
+      "summary": "原日文题目裁图，保留完整大题和全部小问；中文标题仅作导航。扫描件中的原有划线或图内标注不代表网站提供答案。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop; handwritten solution exclusion",
+        "date": "2026-10-24",
+        "notes": "逐张对照完整原卷和所有裁图及按原坐标拼合的页面，检查首末行、全部小问、公式、图号、电路元件及端子；排除手写演算与参考真值表。扫描件原有划线、图内线框、指示线及端子标注保持原样。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2021-general-denjiki/tus-electrical-2021-general-denjiki-q5-01.png",
+          "page": 3,
+          "box": [
+            39.2,
+            577.6,
+            545.6,
+            671.2
+          ],
+          "width": 1266,
+          "height": 234,
+          "label": "電磁気学 第 5 题 · 原卷第 3 页第 1 块",
+          "sha256": "11f6c2c363b480dd0b914a8676d0f086dbc3eb73d4b08e22b041449a007091f9",
+          "fileId": "tus-electrical-2021-general-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2021-general-denjiki"
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号填写框；全部科目说明和时间保留。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2021-general-denshi-q1"
+      ],
+      "common": false,
+      "excluded": "全部手写推导、演算结果、参考真值表，以及重复卷头与空白区。附图内原有端子标注和指示线保留，未改写或重绘。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "整页为第1题手写参考及重复附图，不属于原题续页，完全排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "tus-electrical-2021-general-denshi-q2"
+      ],
+      "common": false,
+      "excluded": "全部手写推导、演算结果、参考真值表，以及重复卷头与空白区。附图内原有端子标注和指示线保留，未改写或重绘。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tus-electrical-2021-general-denshi-q3"
+      ],
+      "common": false,
+      "excluded": "全部手写推导、演算结果、参考真值表，以及重复卷头与空白区。附图内原有端子标注和指示线保留，未改写或重绘。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denshi"
+    },
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号填写框；全部科目说明和时间保留。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2021-general-kairo-q1"
+      ],
+      "common": true,
+      "excluded": "全部手写推导、演算结果、参考真值表，以及重复卷头与空白区。附图内原有端子标注和指示线保留，未改写或重绘。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2021-general-kairo-q2",
+        "tus-electrical-2021-general-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "全部手写推导、演算结果、参考真值表，以及重复卷头与空白区。附图内原有端子标注和指示线保留，未改写或重绘。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "整页为第1题手写参考及重复附图，不属于原题续页，完全排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目的封面、题面或手写参考；本分科不重复裁切。电磁原题采用另一个补充扫描文件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-kairo"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2021-general-denjiki-q1",
+        "tus-electrical-2021-general-denjiki-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、作答留白及相邻大题。原有划线和擦除痕迹保留；与合册同题核对。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denjiki"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2021-general-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、作答留白及相邻大题。原有划线和擦除痕迹保留；与合册同题核对。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denjiki"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2021-general-denjiki-q4",
+        "tus-electrical-2021-general-denjiki-q5"
+      ],
+      "common": false,
+      "excluded": "重复卷头、作答留白及相邻大题。原有划线和擦除痕迹保留；与合册同题核对。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2021-general-denjiki"
+    }
+  ]
+}

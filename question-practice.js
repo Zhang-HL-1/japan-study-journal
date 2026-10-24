@@ -27,6 +27,26 @@
     return img;
   }
   function crop(part) { const button = document.createElement('button'); button.type = 'button'; button.className = 'crop-button'; button.setAttribute('aria-label', '放大：' + part.label); button.append(image(part)); button.addEventListener('click', () => openZoom(part)); return button; }
+  function questionParts(q, interactive = true) {
+    if (q.layout !== 'source-page') return q.parts.map(interactive ? crop : image);
+    const pages = new Map();
+    for (const part of q.parts) {
+      if (!pages.has(part.page)) pages.set(part.page, []);
+      pages.get(part.page).push(part);
+    }
+    return [...pages.entries()].map(([page, parts]) => {
+      const left = Math.min(...parts.map(p => p.box[0])), top = Math.min(...parts.map(p => p.box[1]));
+      const width = Math.max(...parts.map(p => p.box[2])) - left, height = Math.max(...parts.map(p => p.box[3])) - top;
+      const sheet = document.createElement('div'); sheet.className = 'source-page-parts'; sheet.dataset.page = page;
+      sheet.style.cssText = `position:relative;width:100%;aspect-ratio:${width}/${height};background:white`;
+      for (const part of parts) {
+        const element = interactive ? crop(part) : image(part), box = part.box;
+        element.style.cssText = `position:absolute;left:${(box[0]-left)/width*100}%;top:${(box[1]-top)/height*100}%;width:${(box[2]-box[0])/width*100}%;height:${(box[3]-box[1])/height*100}%;margin:0;min-height:0`;
+        sheet.append(element);
+      }
+      return sheet;
+    });
+  }
   function refresh() {
     const count = paper.questions.filter(q => record(q).completed).length;
     $('completed-count').textContent = `${count} / ${paper.questions.length}`;
@@ -53,7 +73,7 @@
     $('common-content').replaceChildren(...window.QuestionBank.commonPartsForQuestion(paper,q).map(crop));
     $('question-source').textContent = `${paper.source.school} · ${yearPhrase(paper.source)} · ${file.displaySubject || file.originalSubject} · 原卷第 ${pages.join('、')} 页`;
     $('original-link').href = file.pdf + '#page=' + pages[0];
-    $('question-content').replaceChildren(...q.parts.map(crop));
+    $('question-content').replaceChildren(...questionParts(q));
     $('question-note').value = r.note || ''; $('notes').open = Boolean(r.note);
     $('note-status').textContent = r.note ? '已有笔记' : '';
     $('previous').disabled = index === 0; $('next').disabled = index === paper.questions.length-1;
@@ -70,8 +90,8 @@
   function applyZoom() { $('zoom-content').style.width = Math.round(Math.max(760, Math.min(1100, innerWidth-100))*zoom/100) + 'px'; $('zoom-level').textContent = zoom + '%'; $('zoom-out').disabled = zoom <= 75; $('zoom-in').disabled = zoom >= 200; }
   function openZoom(part) {
     $('zoom-title').textContent = current().number + ' · 原题放大阅读';
-    const parts = part ? [part] : [...window.QuestionBank.commonPartsForQuestion(paper,current()), ...current().parts];
-    $('zoom-content').replaceChildren(...parts.map(image)); zoom = 100; applyZoom(); $('image-dialog').showModal(); $('zoom-scroll').scrollTo(0,0);
+    const content = part ? [image(part)] : [...window.QuestionBank.commonPartsForQuestion(paper,current()).map(image), ...questionParts(current(), false)];
+    $('zoom-content').replaceChildren(...content); zoom = 100; applyZoom(); $('image-dialog').showModal(); $('zoom-scroll').scrollTo(0,0);
   }
   function renderChooser(listings) {
     $('chooser').hidden = false; $('app').hidden = true; $('load-status').hidden = true;
