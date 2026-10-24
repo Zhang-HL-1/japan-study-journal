@@ -223,3 +223,10 @@ test('indexed question papers filter beside whole papers and link out without PD
   assert.equal(a.ids['question-set-practice'].hidden, true);
   assert.equal(a.ids['practice-paper-reader'].children.length, 1);
 });
+test('loading question listings restores a saved collection and subject that are absent from the initial PDF bank',async()=>{
+ const saved={version:1,records:{},days:[],current:'tus-electrical-2025-intl',filters:{school:'東京理科大学',major:JSON.stringify(['東京理科大学','工学研究科','電気工学専攻']),subject:'电磁回路',paperYear:'2025'}};
+ const fetchImpl=async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,String(url).split('?')[0]),'utf8'))});
+ const app=boot([],JSON.stringify(saved),false,{fetch:fetchImpl});assert.equal(app.state().filters.subject,'电磁回路');assert.equal(app.state().current,saved.current);await app.ready;
+ assert.equal(app.ids.subject.value,'电磁回路');assert.equal(app.ids.school.value,'東京理科大学');assert.equal(app.ids.major.value,saved.filters.major);assert.equal(app.state().current,saved.current);
+ assert.match(app.ids['question-title'].textContent,/外国人留学生/);assert.equal(app.ids['question-grid'].children.length,2);
+});

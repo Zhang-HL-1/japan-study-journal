@@ -35,6 +35,24 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
    await page.locator('#complete').click();assert.equal(await page.locator('#completed-count').textContent(),'0 / 2');
    assert.deepEqual(errors,[]);await page.close();
   }
+  for(const width of [390,800,1440]) {
+   const page=await browser.newPage({viewport:{width,height:1000},reducedMotion:'reduce'});
+   await page.goto(origin+'/drill.html');await page.waitForFunction(()=>document.documentElement.dataset.questionBank==='ready');
+   if(width<=800) await page.locator('.filter-summary').click();
+   await page.selectOption('#practiceMode','questions');await page.selectOption('#school','東京理科大学');
+   const major=JSON.stringify(['東京理科大学','工学研究科','電気工学専攻']);
+   await page.selectOption('#major',major);await page.selectOption('#paperYear','2025');await page.selectOption('#subject','电磁回路');
+   const value=await page.locator('#practice-picker option').evaluateAll(es=>es.find(e=>e.textContent.includes('外国人留学生')).value);
+   await page.selectOption('#practice-picker',value);assert.match(await page.locator('#question-title').innerText(),/外国人留学生/);
+   await page.locator('#question-set-links a').first().click();await page.locator('#app').waitFor();await page.locator('#next').click();
+   await page.locator('#focus-mode').click();await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));
+   assert.equal(await page.locator('#back-to-practice').isVisible(),true);
+   assert.equal(await page.locator('#back-to-practice').evaluate(e=>{const r=e.getBoundingClientRect();return r.top>=0&&r.bottom<=innerHeight;}),true);
+   await page.route('**/assets/question-bank/**/paper.json',async route=>{await new Promise(resolve=>setTimeout(resolve,300));await route.continue();});
+   await page.locator('#back-to-practice').click();await page.waitForURL('**/drill.html#question-card');await page.waitForFunction(()=>document.documentElement.dataset.questionBank==='ready');
+   assert.equal(await page.locator('#practiceMode').inputValue(),'questions');assert.equal(await page.locator('#school').inputValue(),'東京理科大学');assert.equal(await page.locator('#major').inputValue(),major);assert.equal(await page.locator('#paperYear').inputValue(),'2025');assert.equal(await page.locator('#subject').inputValue(),'电磁回路');
+   assert.match(await page.locator('#question-title').innerText(),/外国人留学生/);assert.equal(new URL(page.url()).hash,'#question-card');await page.close();
+  }
   const bad=await browser.newPage();await bad.goto(origin+'/question-practice.html?paper=not-found');await bad.locator('#load-status').filter({hasText:'尚未接入'}).waitFor();assert.equal(await bad.locator('#app').isHidden(),true);
   await bad.route('**/paper.json',r=>r.abort());await bad.goto(origin+'/question-practice.html?paper=kobe-ee-2026-denjiki');await bad.locator('#load-status').filter({hasText:'刷新重试'}).waitFor();await bad.close();
   const corrupt=await browser.newPage();await corrupt.addInitScript(()=>localStorage.setItem('japan-study-journal:question-demo:v1','broken'));await corrupt.goto(origin+'/question-practice.html?paper=kobe-ee-2026-denjiki');await corrupt.locator('#app').waitFor();await corrupt.locator('#complete').click();assert.equal(await corrupt.evaluate(()=>localStorage.getItem('japan-study-journal:question-demo:v1')),'broken');assert.equal(await corrupt.evaluate(()=>localStorage.getItem('japan-study-journal:question-practice:v1')),null);assert.match(await corrupt.locator('#storage-status').textContent(),/无法读取或保存/);await corrupt.close();

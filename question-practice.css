@@ -3,3 +3,11 @@
 @media(max-width:800px){.site-top,main,footer{width:calc(100% - 32px)}.site-top{height:68px}.site-top nav{gap:14px;font-size:11px}.site-top nav a:last-child{display:none}.brand{font-size:14px}.intro{padding:24px 0}.intro-note{display:none}h1{font-size:28px}.layout{grid-template-columns:minmax(0,1fr);gap:18px}.sidebar{position:static;padding:14px}.sidebar .small,.progress-box p{display:none}#question-directory{grid-template-columns:1fr 1fr;margin-top:12px;gap:6px}.directory-button{padding:10px}.directory-button strong{font-size:12px}.progress-box{margin-top:14px;padding-top:12px}.source-info{margin-top:14px}.source-info:not([open]){font-size:11px}.question-card{padding:20px 16px}.question-head h2{font-size:21px}.source-line{flex-wrap:wrap}.question-content{gap:10px}.common{padding:10px}.storage-line{display:block}.zoom-bar{padding:10px}.zoom-bar h2{font-size:12px}.zoom-bar>div{gap:5px}#zoom-scroll{padding:10px}.completion-row{gap:10px}footer span{font-size:10px}.is-focused .layout{margin-top:14px}}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 .chooser{padding:0 0 40px}.chooser h2{font-size:18px;margin:0 0 8px}.chooser>p{margin:0 0 18px;line-height:1.7}#paper-chooser{display:grid;gap:10px}#paper-chooser a{display:block;padding:16px 18px;border:1px solid var(--line);border-radius:12px;background:#fff;line-height:1.6}#paper-chooser a strong{display:block;font-weight:600}#paper-chooser a span{color:var(--muted);font-size:12px}
+
+.practice-return { position:sticky; top:0; z-index:4; display:flex; align-items:center; justify-content:space-between; gap:12px; width:min(1240px,calc(100% - 64px)); margin:0 auto; padding:10px 0; background:var(--paper); border-bottom:1px solid var(--line); }
+.practice-return a { display:inline-flex; align-items:center; min-height:42px; padding:8px 12px; font-size:13px; border-radius:8px; }
+#back-to-practice { border:1px solid #c6cebf; color:var(--green); background:#f0f3eb; font-weight:600; }
+.practice-return a:last-child { color:var(--muted); }
+.is-focused .workspace-bar { top:64px; }
+.question-card { scroll-margin-top:86px; }
+@media(max-width:800px) { .practice-return { width:calc(100% - 32px); padding:8px 0; } .practice-return a { font-size:12px; } .is-focused .workspace-bar { top:60px; } }
