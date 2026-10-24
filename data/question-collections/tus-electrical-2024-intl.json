@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2024-intl",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2024 入学年度 · 留学生入试",
+  "catalogId": "tus-0e840c689ed322a6",
+  "components": [
+    {
+      "paperId": "tus-electrical-2024-intl-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2024-intl-kairo",
+      "subject": "电气回路"
+    },
+    {
+      "paperId": "tus-electrical-2024-intl-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "note": "2024 入学年度 · 留学生入试。电子回路、电气回路、电磁回路三个 PDF 是同一套考试的三个科目；合并展示并保留各科原卷出处。实施日 2024-01-08，不将实施年份当作入学年度。按原卷大题号拆分，不含答案、解析或自动评分。一般入试补充副本不重复计题。"
+}

@@ -10,10 +10,12 @@
     "catalogGroups": 24,
     "uniqueQuestionPdfs": 41,
     "pdfPages": 232,
-    "verifiedPdfs": 6,
-    "verifiedQuestions": 19,
-    "pendingPdfs": 35,
-    "logicalExamPapers": 2
+    "verifiedPdfs": 12,
+    "verifiedQuestions": 40,
+    "pendingPdfs": 26,
+    "logicalExamPapers": 4,
+    "duplicatePdfs": 3,
+    "coveredPdfs": 15
   },
   "sources": [
     {
@@ -178,8 +180,11 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2024-general-denshi"
+      ],
+      "collectionId": "tus-electrical-2024-general"
     },
     {
       "pdf": "assets/past-papers/documents/772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906.pdf",
@@ -199,8 +204,11 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2024-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2024-general"
     },
     {
       "pdf": "assets/past-papers/documents/3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1.pdf",
@@ -220,8 +228,11 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2024-general-denjiki"
+      ],
+      "collectionId": "tus-electrical-2024-general"
     },
     {
       "pdf": "assets/past-papers/documents/e298ed622013a993947a0e93acf363ec24a00eab54179993013a2601a561c423.pdf",
@@ -241,8 +252,12 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "duplicate",
+      "paperIds": [],
+      "duplicateOf": "assets/past-papers/documents/a9482ab377afe0868df209505adc3fa7c8587fa74c6aa5cd71b153663a9f2ce6.pdf",
+      "collectionId": "tus-electrical-2024-general",
+      "evidence": "docs/question-bank-tus-electrical-2024-duplicates.json",
+      "note": "所有大题裁图区域在 2.5 倍渲染下像素完全相同；封面有差异，保留两个原始文件，采用更清晰的原卷，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/b40914f10ebe2046bd69d1adaa42c7bc24a50d8e85f004a96b9306f901efda5f.pdf",
@@ -262,8 +277,12 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "duplicate",
+      "paperIds": [],
+      "duplicateOf": "assets/past-papers/documents/772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906.pdf",
+      "collectionId": "tus-electrical-2024-general",
+      "evidence": "docs/question-bank-tus-electrical-2024-duplicates.json",
+      "note": "所有大题裁图区域在 2.5 倍渲染下像素完全相同；封面有差异，保留两个原始文件，采用更清晰的原卷，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/f34e760405cb50033157f850143a77ac2b1dcc07027c008460d7d2daf4e12884.pdf",
@@ -283,8 +302,12 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "duplicate",
+      "paperIds": [],
+      "duplicateOf": "assets/past-papers/documents/3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1.pdf",
+      "collectionId": "tus-electrical-2024-general",
+      "evidence": "docs/question-bank-tus-electrical-2024-duplicates.json",
+      "note": "所有大题裁图区域在 2.5 倍渲染下像素完全相同；封面有差异，保留两个原始文件，采用更清晰的原卷，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/811ef3e9c5771d210a9b42a7c00f3e04003231f4551f281d4c2be296257b70c9.pdf",
@@ -304,8 +327,11 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2024-intl-denshi"
+      ],
+      "collectionId": "tus-electrical-2024-intl"
     },
     {
       "pdf": "assets/past-papers/documents/f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde.pdf",
@@ -325,8 +351,11 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2024-intl-kairo"
+      ],
+      "collectionId": "tus-electrical-2024-intl"
     },
     {
       "pdf": "assets/past-papers/documents/040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c.pdf",
@@ -346,8 +375,11 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2024-intl-denjiki"
+      ],
+      "collectionId": "tus-electrical-2024-intl"
     },
     {
       "pdf": "assets/past-papers/documents/89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286.pdf",

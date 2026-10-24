@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-24",
+  "renderScale": 2.5,
+  "method": "Compare every question region rendered from canonical and supplemental PDFs; covers checked separately and are not byte-identical.",
+  "duplicates": [
+    {
+      "canonicalPdf": "assets/past-papers/documents/3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1.pdf",
+      "canonicalSha256": "3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1",
+      "duplicatePdf": "assets/past-papers/documents/f34e760405cb50033157f850143a77ac2b1dcc07027c008460d7d2daf4e12884.pdf",
+      "duplicateSha256": "f34e760405cb50033157f850143a77ac2b1dcc07027c008460d7d2daf4e12884",
+      "paperId": "tus-electrical-2024-general-denjiki",
+      "collectionId": "tus-electrical-2024-general",
+      "coverNote": "封面存在擦除/排版差异；采用既有目录中更清晰的原卷封面，原始补充文件仍保留。",
+      "regions": [
+        {
+          "questionId": "tus-electrical-2024-general-denjiki-q1",
+          "page": 2,
+          "box": [
+            24.0,
+            136.0,
+            668.8,
+            344.0
+          ],
+          "width": 1612,
+          "height": 520,
+          "samplesSha256": "37df4189d4cdbd1128f0b9dcfc70c11b991128495a36de4ebd29f385de0e2bd2",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-denjiki-q2",
+          "page": 2,
+          "box": [
+            24.0,
+            443.2,
+            668.8,
+            648.8
+          ],
+          "width": 1612,
+          "height": 514,
+          "samplesSha256": "8a923ad08e1ce0532e2513fe20844ca78817b45d4e674e279831d4850860160f",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-denjiki-q2",
+          "page": 2,
+          "box": [
+            328.0,
+            659.2,
+            592.0,
+            854.4
+          ],
+          "width": 660,
+          "height": 488,
+          "samplesSha256": "62ec968a50130154f2663a27490c4d3e5ec891a6f3a8d45ab1ce8d3011cbb48d",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-denjiki-q3",
+          "page": 3,
+          "box": [
+            20.8,
+            140.8,
+            666.4,
+            357.6
+          ],
+          "width": 1614,
+          "height": 542,
+          "samplesSha256": "41fc7b9bdde4bc9c30931ae81a662d231e32f00473d5f0af7cccb77a8aa26b06",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-denjiki-q3",
+          "page": 3,
+          "box": [
+            400.0,
+            373.6,
+            593.6,
+            570.4
+          ],
+          "width": 484,
+          "height": 492,
+          "samplesSha256": "c2cf6ef2a4aaf11b0fa07e632bdf1af371cd30c3a744f30cc3d468c3552b9750",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-denjiki-q4",
+          "page": 3,
+          "box": [
+            20.8,
+            624.0,
+            668.8,
+            818.4
+          ],
+          "width": 1620,
+          "height": 486,
+          "samplesSha256": "c3b237052fbeca4c5730bd1c503493ae4037793b68a9e18f2022892f11e9d8d5",
+          "identical": true
+        }
+      ]
+    },
+    {
+      "canonicalPdf": "assets/past-papers/documents/a9482ab377afe0868df209505adc3fa7c8587fa74c6aa5cd71b153663a9f2ce6.pdf",
+      "canonicalSha256": "a9482ab377afe0868df209505adc3fa7c8587fa74c6aa5cd71b153663a9f2ce6",
+      "duplicatePdf": "assets/past-papers/documents/e298ed622013a993947a0e93acf363ec24a00eab54179993013a2601a561c423.pdf",
+      "duplicateSha256": "e298ed622013a993947a0e93acf363ec24a00eab54179993013a2601a561c423",
+      "paperId": "tus-electrical-2024-general-denshi",
+      "collectionId": "tus-electrical-2024-general",
+      "coverNote": "封面存在擦除/排版差异；采用既有目录中更清晰的原卷封面，原始补充文件仍保留。",
+      "regions": [
+        {
+          "questionId": "tus-electrical-2024-general-denshi-q1",
+          "page": 2,
+          "box": [
+            36.0,
+            108.0,
+            680.0,
+            500.8
+          ],
+          "width": 1610,
+          "height": 982,
+          "samplesSha256": "756f927ce551ae93a2772e10aac5e10372e44252c9f3cd7d243c2727972351c3",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-denshi-q2",
+          "page": 3,
+          "box": [
+            38.4,
+            108.8,
+            685.6,
+            808.0
+          ],
+          "width": 1618,
+          "height": 1748,
+          "samplesSha256": "e142fa71f5721ce51a24c141190a99919a5c7aeec762c913337bd712a32c3f9f",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-denshi-q3",
+          "page": 4,
+          "box": [
+            38.4,
+            100.0,
+            688.0,
+            528.0
+          ],
+          "width": 1624,
+          "height": 1070,
+          "samplesSha256": "45e85c4542e37c8b03d366ac32abd373f81e3d5f81a96919b22aea7b428b78e4",
+          "identical": true
+        }
+      ]
+    },
+    {
+      "canonicalPdf": "assets/past-papers/documents/772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906.pdf",
+      "canonicalSha256": "772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906",
+      "duplicatePdf": "assets/past-papers/documents/b40914f10ebe2046bd69d1adaa42c7bc24a50d8e85f004a96b9306f901efda5f.pdf",
+      "duplicateSha256": "b40914f10ebe2046bd69d1adaa42c7bc24a50d8e85f004a96b9306f901efda5f",
+      "paperId": "tus-electrical-2024-general-kairo",
+      "collectionId": "tus-electrical-2024-general",
+      "coverNote": "封面存在擦除/排版差异；采用既有目录中更清晰的原卷封面，原始补充文件仍保留。",
+      "regions": [
+        {
+          "questionId": "tus-electrical-2024-general-kairo-q1",
+          "page": 2,
+          "box": [
+            40.0,
+            104.0,
+            689.6,
+            544.0
+          ],
+          "width": 1624,
+          "height": 1100,
+          "samplesSha256": "3367584960592cc341ac558b36340ae718928f776bd625a538eff3c0108ad1b7",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-kairo-q2",
+          "page": 3,
+          "box": [
+            37.6,
+            105.6,
+            684.8,
+            840.0
+          ],
+          "width": 1618,
+          "height": 1836,
+          "samplesSha256": "5c6a3ae605b01a17e05ae2f9c69d2e37721e65ac88e3f3e04ad7dbe0e022a220",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-kairo-q3",
+          "page": 4,
+          "box": [
+            36.0,
+            102.4,
+            686.4,
+            672.0
+          ],
+          "width": 1626,
+          "height": 1424,
+          "samplesSha256": "5bc1c82fe62b184cd5c371892b541a70e246d334b58909a37378567b1ba30e7e",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-kairo-q4",
+          "page": 5,
+          "box": [
+            40.0,
+            99.2,
+            689.6,
+            785.6
+          ],
+          "width": 1624,
+          "height": 1716,
+          "samplesSha256": "e37b8ddb5333cd333de564f1a051d3498a4acd035a3c97dc874b8069762cedbb",
+          "identical": true
+        },
+        {
+          "questionId": "tus-electrical-2024-general-kairo-q4",
+          "page": 5,
+          "box": [
+            260.0,
+            785.6,
+            509.6,
+            934.4
+          ],
+          "width": 624,
+          "height": 372,
+          "samplesSha256": "e4a90bee74fadab44ddc2f3dffb536995057930f76a58ae6156367c4dd1e7cfd",
+          "identical": true
+        }
+      ]
+    }
+  ]
+}

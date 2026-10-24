@@ -1,0 +1,741 @@
+{
+  "schemaVersion": 2,
+  "id": "tus-electrical-2024-intl",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2024 入学年度 · 留学生入试",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-0e840c689ed322a6",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "专业科目合卷",
+    "originalSubject": "電子回路・電気回路・電磁気学",
+    "note": "2024 入学年度 · 留学生入试。电子回路、电气回路、电磁回路三个 PDF 是同一套考试的三个科目；合并展示并保留各科原卷出处。实施日 2024-01-08，不将实施年份当作入学年度。按原卷大题号拆分，不含答案、解析或自动评分。一般入试补充副本不重复计题。",
+    "subjects": [
+      "电子回路",
+      "电气回路",
+      "电磁回路"
+    ],
+    "files": [
+      {
+        "kind": "exam",
+        "catalogId": "tus-0e840c689ed322a6",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2024,
+        "yearBasis": "academic",
+        "subject": "电子回路",
+        "originalSubject": "電子回路",
+        "originalName": "修士留学生_工研_電気工学専攻_電子回路.pdf",
+        "pdf": "assets/past-papers/documents/811ef3e9c5771d210a9b42a7c00f3e04003231f4551f281d4c2be296257b70c9.pdf",
+        "sha256": "811ef3e9c5771d210a9b42a7c00f3e04003231f4551f281d4c2be296257b70c9",
+        "pageCount": 4,
+        "note": "来自既有目录 tus-0e840c689ed322a6，工学研究科・電気工学専攻，修士課程・外国人留学生入試。2024 为入学年度；题面实施日为 2024-01-08，不改写年度。三个科目 PDF 同属一套考试；封面不计题数，按原卷方框大题号拆分。中文标题仅用于导航。",
+        "id": "tus-electrical-2024-intl-denshi",
+        "displaySubject": "电子回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-0e840c689ed322a6",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2024,
+        "yearBasis": "academic",
+        "subject": "电气回路",
+        "originalSubject": "電気回路",
+        "originalName": "修士留学生_工研_電気工学専攻_電気回路.pdf",
+        "pdf": "assets/past-papers/documents/f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde.pdf",
+        "sha256": "f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde",
+        "pageCount": 4,
+        "note": "来自既有目录 tus-0e840c689ed322a6，工学研究科・電気工学専攻，修士課程・外国人留学生入試。2024 为入学年度；题面实施日为 2024-01-08，不改写年度。三个科目 PDF 同属一套考试；封面不计题数，按原卷方框大题号拆分。中文标题仅用于导航。",
+        "id": "tus-electrical-2024-intl-kairo",
+        "displaySubject": "电气回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-0e840c689ed322a6",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2024,
+        "yearBasis": "academic",
+        "subject": "电磁回路",
+        "originalSubject": "電磁気学",
+        "originalName": "修士留学生_工研_電気工学専攻_電磁気学.pdf",
+        "pdf": "assets/past-papers/documents/040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c.pdf",
+        "sha256": "040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c",
+        "pageCount": 5,
+        "note": "来自既有目录 tus-0e840c689ed322a6，工学研究科・電気工学専攻，修士課程・外国人留学生入試。2024 为入学年度；题面实施日为 2024-01-08，不改写年度。三个科目 PDF 同属一套考试；封面不计题数，按原卷方框大题号拆分。中文标题仅用于导航。",
+        "id": "tus-electrical-2024-intl-denjiki",
+        "displaySubject": "电磁回路"
+      }
+    ]
+  },
+  "components": [
+    {
+      "paperId": "tus-electrical-2024-intl-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2024-intl-kairo",
+      "subject": "电气回路"
+    },
+    {
+      "paperId": "tus-electrical-2024-intl-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2024-intl-denshi/common-01.png",
+      "page": 1,
+      "box": [
+        32,
+        12,
+        696,
+        444
+      ],
+      "width": 1660,
+      "height": 1080,
+      "label": "封面：大学、研究科、专攻、年度、科目与全部作答要求",
+      "sha256": "111fcdf51e7669157be196173646d5a68f25bc9262238798d6aed66cb6127745",
+      "fileId": "tus-electrical-2024-intl-denshi"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2024-intl-denshi/common-02.png",
+      "page": 1,
+      "box": [
+        44,
+        632,
+        692,
+        740
+      ],
+      "width": 1620,
+      "height": 270,
+      "label": "封面：考试时间及答题纸说明",
+      "sha256": "c62a03a2e2ab406d793a82f4d17a6620f69b9514dee5e6f46578b9aa1d41a660",
+      "fileId": "tus-electrical-2024-intl-denshi"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2024-intl-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        32,
+        12,
+        696,
+        444
+      ],
+      "width": 1660,
+      "height": 1080,
+      "label": "封面：大学、研究科、专攻、年度、科目与全部作答要求",
+      "sha256": "161e36b7a4cf52666250d01557373812a71797ce2929b7e24d01a62c75e4635b",
+      "fileId": "tus-electrical-2024-intl-kairo"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2024-intl-kairo/common-02.png",
+      "page": 1,
+      "box": [
+        44,
+        632,
+        692,
+        740
+      ],
+      "width": 1620,
+      "height": 270,
+      "label": "封面：考试时间及答题纸说明",
+      "sha256": "e30759c16a689cf90cf17d9c343aacbd6806caf632b9312a1f385ea3d4fbf6ee",
+      "fileId": "tus-electrical-2024-intl-kairo"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2024-intl-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        32,
+        12,
+        696,
+        444
+      ],
+      "width": 1660,
+      "height": 1080,
+      "label": "封面：大学、研究科、专攻、年度、科目与全部作答要求",
+      "sha256": "6af54f35473d3cff5aee7952dccf92cf63f993596aa89fc6f099647be428f861",
+      "fileId": "tus-electrical-2024-intl-denjiki"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2024-intl-denjiki/common-02.png",
+      "page": 1,
+      "box": [
+        44,
+        632,
+        692,
+        740
+      ],
+      "width": 1620,
+      "height": 270,
+      "label": "封面：考试时间及答题纸说明",
+      "sha256": "5736fc174582b6c8f2ada81a3d7c368b13b6acd88dc6c5f4057f2a8807efab9a",
+      "fileId": "tus-electrical-2024-intl-denjiki"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2024-intl-denshi-q1",
+      "number": "1",
+      "title": "电子回路：运算放大器反馈网络与频率响应",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "频率响应"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denshi/tus-electrical-2024-intl-denshi-q1-01.png",
+          "page": 2,
+          "box": [
+            38.4,
+            113.6,
+            691.2,
+            472
+          ],
+          "width": 1632,
+          "height": 896,
+          "label": "留学生入试 電子回路 第 1 题 · 原卷第 2 页第 1 块",
+          "sha256": "bb5ef852cf70448f9182ecdaec0fc83a90f1ec8d1b9d8c88d75d1707ec16809e",
+          "fileId": "tus-electrical-2024-intl-denshi"
+        }
+      ],
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2024-intl-denshi"
+    },
+    {
+      "id": "tus-electrical-2024-intl-denshi-q2",
+      "number": "2",
+      "title": "电子回路：负反馈放大器的增益与灵敏度",
+      "titleKind": "editorial",
+      "topics": [
+        "负反馈",
+        "增益灵敏度"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denshi/tus-electrical-2024-intl-denshi-q2-01.png",
+          "page": 3,
+          "box": [
+            38.4,
+            112,
+            692,
+            372.8
+          ],
+          "width": 1634,
+          "height": 652,
+          "label": "留学生入试 電子回路 第 2 题 · 原卷第 3 页第 1 块",
+          "sha256": "e32540486e1f1cc5b9159d41034b29eb3d86fef6e623ccfe6ce046825fc881de",
+          "fileId": "tus-electrical-2024-intl-denshi"
+        }
+      ],
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2024-intl-denshi"
+    },
+    {
+      "id": "tus-electrical-2024-intl-denshi-q3",
+      "number": "3",
+      "title": "电子回路：CMOS NAND实现与逻辑门网络",
+      "titleKind": "editorial",
+      "topics": [
+        "CMOS",
+        "NAND门",
+        "数字逻辑"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denshi/tus-electrical-2024-intl-denshi-q3-01.png",
+          "page": 4,
+          "box": [
+            38.4,
+            112,
+            692,
+            433.6
+          ],
+          "width": 1634,
+          "height": 804,
+          "label": "留学生入试 電子回路 第 3 题 · 原卷第 4 页第 1 块",
+          "sha256": "fbd4deb9bbc6de4629d70987fc1c82a0fddcf8f874cfcfc0c85fe06252b9b9f8",
+          "fileId": "tus-electrical-2024-intl-denshi"
+        }
+      ],
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2024-intl-denshi"
+    },
+    {
+      "id": "tus-electrical-2024-intl-kairo-q1",
+      "number": "1",
+      "title": "电气回路：交流网络阻抗与相位条件",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "阻抗",
+        "相位"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-kairo/tus-electrical-2024-intl-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            36,
+            112,
+            692.8,
+            536
+          ],
+          "width": 1642,
+          "height": 1060,
+          "label": "留学生入试 電気回路 第 1 题 · 原卷第 2 页第 1 块",
+          "sha256": "7f0389c54be7738808e55bb7b3bb630a5271ad10d0aae684ff7317d750e25aa4",
+          "fileId": "tus-electrical-2024-intl-kairo"
+        }
+      ],
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2024-intl-kairo"
+    },
+    {
+      "id": "tus-electrical-2024-intl-kairo-q2",
+      "number": "2",
+      "title": "电气回路：对称三相Y–Δ回路与功率",
+      "titleKind": "editorial",
+      "topics": [
+        "三相交流",
+        "Y–Δ变换",
+        "功率"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-kairo/tus-electrical-2024-intl-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            36,
+            112,
+            692.8,
+            619.2
+          ],
+          "width": 1642,
+          "height": 1268,
+          "label": "留学生入试 電気回路 第 2 题 · 原卷第 3 页第 1 块",
+          "sha256": "6bfb4fd3cf60490c57171505c31e4f03643ac5da1ace0bd31877d18c94ae57ce",
+          "fileId": "tus-electrical-2024-intl-kairo"
+        }
+      ],
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2024-intl-kairo"
+    },
+    {
+      "id": "tus-electrical-2024-intl-kairo-q3",
+      "number": "3",
+      "title": "电气回路：切换电源的RL暂态与电流波形",
+      "titleKind": "editorial",
+      "topics": [
+        "RL暂态",
+        "开关",
+        "波形"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-kairo/tus-electrical-2024-intl-kairo-q3-01.png",
+          "page": 4,
+          "box": [
+            36,
+            112,
+            692.8,
+            593.6
+          ],
+          "width": 1642,
+          "height": 1204,
+          "label": "留学生入试 電気回路 第 3 题 · 原卷第 4 页第 1 块",
+          "sha256": "4e3625b7f6e9010ccd9ad32b76daf87aef7d7853e97282aa37537830fadc53d4",
+          "fileId": "tus-electrical-2024-intl-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-kairo/tus-electrical-2024-intl-kairo-q3-02.png",
+          "page": 4,
+          "box": [
+            112,
+            611.2,
+            680,
+            880
+          ],
+          "width": 1420,
+          "height": 672,
+          "label": "留学生入试 電気回路 第 3 题 · 原卷第 4 页第 2 块",
+          "sha256": "a713a3d9e9ea8b67fc93bd7a16390dd15fa38af58b00084b41ea92378118bf31",
+          "fileId": "tus-electrical-2024-intl-kairo"
+        }
+      ],
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2024-intl-kairo"
+    },
+    {
+      "id": "tus-electrical-2024-intl-denjiki-q1",
+      "number": "1",
+      "title": "电磁回路：带电导体球的电场与电位",
+      "titleKind": "editorial",
+      "topics": [
+        "高斯定律",
+        "电位"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denjiki/tus-electrical-2024-intl-denjiki-q1-01.png",
+          "page": 2,
+          "box": [
+            36,
+            144,
+            688,
+            529.6
+          ],
+          "width": 1630,
+          "height": 964,
+          "label": "留学生入试 電磁気学 第 1 题 · 原卷第 2 页第 1 块",
+          "sha256": "a3644d281c242fec14d6b3caf4ef7bb3a43067b45299b3881c4486f7de7a532c",
+          "fileId": "tus-electrical-2024-intl-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2024-intl-denjiki"
+    },
+    {
+      "id": "tus-electrical-2024-intl-denjiki-q2",
+      "number": "2",
+      "title": "电磁回路：气隙环形铁芯的磁阻与互感",
+      "titleKind": "editorial",
+      "topics": [
+        "磁路",
+        "自感",
+        "互感"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denjiki/tus-electrical-2024-intl-denjiki-q2-01.png",
+          "page": 3,
+          "box": [
+            36,
+            144,
+            688,
+            504
+          ],
+          "width": 1630,
+          "height": 900,
+          "label": "留学生入试 電磁気学 第 2 题 · 原卷第 3 页第 1 块",
+          "sha256": "dc8645f8f5a8ae7f08313bff2556aa86da9e8f59580086233601fa6baef95529",
+          "fileId": "tus-electrical-2024-intl-denjiki"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denjiki/tus-electrical-2024-intl-denjiki-q2-02.png",
+          "page": 3,
+          "box": [
+            296,
+            556,
+            592,
+            805.6
+          ],
+          "width": 740,
+          "height": 624,
+          "label": "留学生入试 電磁気学 第 2 题 · 原卷第 3 页第 2 块",
+          "sha256": "c4ea2ccc4c7dd8644eeae950c2fd82d92ed0d77ec75d9fb348952c6699d7b0b0",
+          "fileId": "tus-electrical-2024-intl-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2024-intl-denjiki"
+    },
+    {
+      "id": "tus-electrical-2024-intl-denjiki-q3",
+      "number": "3",
+      "title": "电磁回路：同心圆线圈的轴上磁场与叠加",
+      "titleKind": "editorial",
+      "topics": [
+        "圆线圈",
+        "磁场叠加"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denjiki/tus-electrical-2024-intl-denjiki-q3-01.png",
+          "page": 4,
+          "box": [
+            36,
+            144,
+            688,
+            343.2
+          ],
+          "width": 1630,
+          "height": 498,
+          "label": "留学生入试 電磁気学 第 3 题 · 原卷第 4 页第 1 块",
+          "sha256": "49cd171b6bf8ec0a1a6a4726a7ba11d4d2d276232318cf5c184ff4ca365d267f",
+          "fileId": "tus-electrical-2024-intl-denjiki"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denjiki/tus-electrical-2024-intl-denjiki-q3-02.png",
+          "page": 4,
+          "box": [
+            328.8,
+            390.4,
+            566.4,
+            639.2
+          ],
+          "width": 594,
+          "height": 622,
+          "label": "留学生入试 電磁気学 第 3 题 · 原卷第 4 页第 2 块",
+          "sha256": "8054ef16cef0b46e82abdafc7b7cc1d8bb404f98d290a8a41d71232100830811",
+          "fileId": "tus-electrical-2024-intl-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2024-intl-denjiki"
+    },
+    {
+      "id": "tus-electrical-2024-intl-denjiki-q4",
+      "number": "4",
+      "title": "电磁回路：平行长直导线的磁场力",
+      "titleKind": "editorial",
+      "topics": [
+        "长直导线",
+        "安培力"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denjiki/tus-electrical-2024-intl-denjiki-q4-01.png",
+          "page": 5,
+          "box": [
+            36,
+            144,
+            688,
+            254.4
+          ],
+          "width": 1630,
+          "height": 276,
+          "label": "留学生入试 電磁気学 第 4 题 · 原卷第 5 页第 1 块",
+          "sha256": "e5e1392f7857998aa9b0dfde2c3152df1a1163151193f1a99af5e7dfdef82c6e",
+          "fileId": "tus-electrical-2024-intl-denjiki"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-denjiki/tus-electrical-2024-intl-denjiki-q4-02.png",
+          "page": 5,
+          "box": [
+            327.2,
+            280,
+            519.2,
+            536.8
+          ],
+          "width": 480,
+          "height": 642,
+          "label": "留学生入试 電磁気学 第 4 题 · 原卷第 5 页第 2 块",
+          "sha256": "a685ee7b80cf51751bfd2d77637042e4c1b166cfd8ad76811598dd7f132dd99e",
+          "fileId": "tus-electrical-2024-intl-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2024-intl-denjiki"
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号框；封面说明和考试时间作为公共条件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-denshi"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2024-intl-denshi-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-denshi"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2024-intl-denshi-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-denshi"
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2024-intl-denshi-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-denshi"
+    },
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号框；封面说明和考试时间作为公共条件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-kairo"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2024-intl-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-kairo"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2024-intl-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-kairo"
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2024-intl-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-kairo"
+    },
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号框；封面说明和考试时间作为公共条件。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-denjiki"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2024-intl-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-denjiki"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2024-intl-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-denjiki"
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2024-intl-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-denjiki"
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2024-intl-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2024-intl-denjiki"
+    }
+  ]
+}

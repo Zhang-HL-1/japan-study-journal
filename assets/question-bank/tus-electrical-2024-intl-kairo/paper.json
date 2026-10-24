@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2024-intl-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2024 入学年度 · 留学生入试 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-0e840c689ed322a6",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "修士留学生_工研_電気工学専攻_電気回路.pdf",
+    "pdf": "assets/past-papers/documents/f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde.pdf",
+    "sha256": "f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde",
+    "pageCount": 4,
+    "note": "来自既有目录 tus-0e840c689ed322a6，工学研究科・電気工学専攻，修士課程・外国人留学生入試。2024 为入学年度；题面实施日为 2024-01-08，不改写年度。三个科目 PDF 同属一套考试；封面不计题数，按原卷方框大题号拆分。中文标题仅用于导航。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2024-intl-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        32.0,
+        12.0,
+        696.0,
+        444.0
+      ],
+      "width": 1660,
+      "height": 1080,
+      "label": "封面：大学、研究科、专攻、年度、科目与全部作答要求",
+      "sha256": "161e36b7a4cf52666250d01557373812a71797ce2929b7e24d01a62c75e4635b"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2024-intl-kairo/common-02.png",
+      "page": 1,
+      "box": [
+        44.0,
+        632.0,
+        692.0,
+        740.0
+      ],
+      "width": 1620,
+      "height": 270,
+      "label": "封面：考试时间及答题纸说明",
+      "sha256": "e30759c16a689cf90cf17d9c343aacbd6806caf632b9312a1f385ea3d4fbf6ee"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2024-intl-kairo-q1",
+      "number": "1",
+      "title": "交流网络阻抗与相位条件",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "阻抗",
+        "相位"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-kairo/tus-electrical-2024-intl-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            36.0,
+            112.0,
+            692.8,
+            536.0
+          ],
+          "width": 1642,
+          "height": 1060,
+          "label": "留学生入试 電気回路 第 1 题 · 原卷第 2 页第 1 块",
+          "sha256": "7f0389c54be7738808e55bb7b3bb630a5271ad10d0aae684ff7317d750e25aa4"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2024-intl-kairo-q2",
+      "number": "2",
+      "title": "对称三相Y–Δ回路与功率",
+      "titleKind": "editorial",
+      "topics": [
+        "三相交流",
+        "Y–Δ变换",
+        "功率"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-kairo/tus-electrical-2024-intl-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            36.0,
+            112.0,
+            692.8,
+            619.2
+          ],
+          "width": 1642,
+          "height": 1268,
+          "label": "留学生入试 電気回路 第 2 题 · 原卷第 3 页第 1 块",
+          "sha256": "6bfb4fd3cf60490c57171505c31e4f03643ac5da1ace0bd31877d18c94ae57ce"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2024-intl-kairo-q3",
+      "number": "3",
+      "title": "切换电源的RL暂态与电流波形",
+      "titleKind": "editorial",
+      "topics": [
+        "RL暂态",
+        "开关",
+        "波形"
+      ],
+      "summary": "保留原卷完整大题、全部小问和附图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every source page and every preview crop",
+        "date": "2026-10-24",
+        "notes": "已对照完整原卷和所有裁图复核方框题号、首末行、全部小问、公式、附图及图号。保留空白绘图模板；不混入相邻大题。中文标题仅用于导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-kairo/tus-electrical-2024-intl-kairo-q3-01.png",
+          "page": 4,
+          "box": [
+            36.0,
+            112.0,
+            692.8,
+            593.6
+          ],
+          "width": 1642,
+          "height": 1204,
+          "label": "留学生入试 電気回路 第 3 题 · 原卷第 4 页第 1 块",
+          "sha256": "4e3625b7f6e9010ccd9ad32b76daf87aef7d7853e97282aa37537830fadc53d4"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2024-intl-kairo/tus-electrical-2024-intl-kairo-q3-02.png",
+          "page": 4,
+          "box": [
+            112.0,
+            611.2,
+            680.0,
+            880.0
+          ],
+          "width": 1420,
+          "height": 672,
+          "label": "留学生入试 電気回路 第 3 题 · 原卷第 4 页第 2 块",
+          "sha256": "a713a3d9e9ea8b67fc93bd7a16390dd15fa38af58b00084b41ea92378118bf31"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面空白区与考号框；封面说明和考试时间作为公共条件。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2024-intl-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2024-intl-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2024-intl-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、考号/评分框与作答留白；保留全部题干、小问、图号和作图模板。",
+      "reviewed": true
+    }
+  ]
+}
