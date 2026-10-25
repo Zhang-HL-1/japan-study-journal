@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2011-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2011 入学年度 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-d0cbe2480dbac6d9",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2011,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成23年度",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "2011(H23).pdf",
+    "pdf": "assets/past-papers/documents/9ffd436e289eec31df7481dac1fada37d21d5f9ef37ad5493cd37870ee289997.pdf",
+    "sha256": "9ffd436e289eec31df7481dac1fada37d21d5f9ef37ad5493cd37870ee289997",
+    "pageCount": 5,
+    "note": "2011入学年度（平成23年度）依据既有目录和源文件名2011(H23).pdf；合册无入学年度封面，卷头实施日平成22年8月5日（2010-08-05），不改写年度。学校、研究科、专攻和科目由卷头确认。三科来自同一5页PDF；保留电磁第4题原始作答表格、电子第2题状态迁移图及电气第2题传输线条件，不填写答案。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        9.6,
+        0.0,
+        580.0,
+        46.4
+      ],
+      "label": "本科卷头：学校、研究科、专攻、科目与实施日"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2011-general-denshi-q1",
+      "number": "1",
+      "title": "理想运放的正弦稳态输出与增益",
+      "titleKind": "editorial",
+      "topics": [
+        "理想运放",
+        "正弦稳态"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、公式、配图和给定作答表格；中文标题与知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            84.8,
+            52.0,
+            512.8,
+            325.6
+          ],
+          "label": "電子回路 第1题 · PDF物理页1"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all five full source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "对照重新渲染的完整5页原卷及全部11张预览：题号、首末行、小问、公式、上下标、图号、箭头和全部条件完整；电磁第4题四定律空表与4-b均保留，电子第2题状态图及电气第2题传输线公式完整。未混入其他大题，中文标题非译文。"
+      }
+    },
+    {
+      "id": "tus-electrical-2011-general-denshi-q2",
+      "number": "2",
+      "title": "JK触发器与四状态顺序回路",
+      "titleKind": "editorial",
+      "topics": [
+        "JK触发器",
+        "状态迁移图"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、公式、配图和给定作答表格；中文标题与知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            88.0,
+            342.4,
+            511.2,
+            519.2
+          ],
+          "label": "電子回路 第2题 · PDF物理页1"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all five full source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "对照重新渲染的完整5页原卷及全部11张预览：题号、首末行、小问、公式、上下标、图号、箭头和全部条件完整；电磁第4题四定律空表与4-b均保留，电子第2题状态图及电气第2题传输线公式完整。未混入其他大题，中文标题非译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2011-general-denshi-q1",
+        "tus-electrical-2011-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页码、採点欄及作答留白；电磁第4题给定表格属于题目，保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
