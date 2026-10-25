@@ -10,12 +10,12 @@
     "catalogGroups": 24,
     "uniqueQuestionPdfs": 41,
     "pdfPages": 232,
-    "verifiedPdfs": 19,
-    "verifiedQuestions": 78,
-    "pendingPdfs": 16,
-    "logicalExamPapers": 8,
+    "verifiedPdfs": 20,
+    "verifiedQuestions": 85,
+    "pendingPdfs": 15,
+    "logicalExamPapers": 9,
     "duplicatePdfs": 6,
-    "coveredPdfs": 25
+    "coveredPdfs": 26
   },
   "sources": [
     {
@@ -672,8 +672,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2013-general-denjiki",
+        "tus-electrical-2013-general-denshi",
+        "tus-electrical-2013-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2013-general",
+      "note": "同一5页合册三个科目合为一套7题考试，电子2题、电气2题、电磁3题；年度依据既有目录与文件名，实施日另记。"
     },
     {
       "pdf": "assets/past-papers/documents/84003fc8176ce3fa24a656f0564366a25faac1252c2aedfd1d76da1b6fc66c7d.pdf",

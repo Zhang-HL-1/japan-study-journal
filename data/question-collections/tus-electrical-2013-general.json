@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2013-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2013 入学年度 · 修士入试",
+  "catalogId": "tus-fdaa56de6771681f",
+  "components": [
+    {
+      "paperId": "tus-electrical-2013-general-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2013-general-kairo",
+      "subject": "电气回路"
+    },
+    {
+      "paperId": "tus-electrical-2013-general-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "note": "2013入学年度（平成25年度）依据既有目录与源文件名2013(H25).pdf，合册未含科目封面；题面实施日2012-08-03。电子回路、电气回路、电磁回路来自同一5页PDF，同属一套考试，共7道完整大题。科目内保留原题号、物理页码、公共说明及作答格式示例。不提供答案、解析或评分。"
+}
