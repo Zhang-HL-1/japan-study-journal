@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2022",
+  "title": "早稻田大学 · 2022年9月・2023年4月入学 · 電子物理システム学専攻 専門科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-08a0e7fe5328f802",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2022,
+    "yearBasis": "academic",
+    "subject": "専門科目（力学・電磁気学・回路理論）",
+    "originalSubject": "専門科目",
+    "originalName": "51_M_denshibutsuri_2022_September2023_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/a24f6a584725d7d88541a2b88414668cd657ba9906fa40d332c0e2b06e9a9be2.pdf",
+    "sha256": "a24f6a584725d7d88541a2b88414668cd657ba9906fa40d332c0e2b06e9a9be2",
+    "pageCount": 13,
+    "note": "yearBasis=academic：封面「2022年9月・2023年4月入学試験」。13 页=p1 問題表紙 + p2–p7 問題用紙 6 页 + p8–p13 解答用紙 6 枚（已排除，横版 1191×842）。题界口径同本批：每页顶部「問題番号 1 / 2」为大题号，页内 問n 为小问，不拆。本 PDF 带扫描 OCR 文字层，质量尚可但仍有误识（如「問3」位置），仅辅助定位。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        40,
+        40,
+        560,
+        246
+      ],
+      "label": "問題表紙：試験名・研究科・専攻・作答注意"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2022-rikigaku-1",
+      "number": "問題番号 1",
+      "title": "力学：逆圆锥面上的质点与弹簧约束",
+      "titleKind": "editorial",
+      "topics": [
+        "ラグランジュ形式",
+        "ハミルトン形式",
+        "ポアソン括弧",
+        "角運動量",
+        "球座標"
+      ],
+      "summary": "逆圆锥面（半顶角 α）上的质点，无重力：(1)–(4) 球坐标表示、拉格朗日量、运动方程、[L_z, z] = 0；再以自然长 ℓ、弹性常数 k 的弹簧连到原点：(5)(6) 共轭动量、哈密顿量与正则方程。含図1・図2。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            36,
+            148.5,
+            578,
+            776
+          ],
+          "label": "力学（その1）問題番号 1：問1 (1)–(6)，含図1・図2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p2：题号框「問題番号 1」在，問1 (1)–(6) 与図1・図2 齐全。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-rikigaku-2",
+      "number": "問題番号 2",
+      "title": "力学：态叠加测量与方势垒",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "重ね合わせ",
+        "期待値",
+        "測定",
+        "井戸型ポテンシャル",
+        "波動関数"
+      ],
+      "summary": "問2 两个本征态叠加：(1) |C2|²、(2) ⟨H⟩ 与 ΔH、(3) 能量测量结果、(4) 任意时刻的波函数；問3 0<E<V0 的势场：(1) 各区分段解、(2) x=∞ 边界条件、(3) x=0 接续、(4) x=a 接续消元、(5) 基态与第一激发态波形。含 V(x) 图。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            36,
+            141,
+            578,
+            793
+          ],
+          "label": "力学（その2）問題番号 2：問2 (1)–(4) 与問3 (1)–(5)"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p3：题号框「問題番号 2」在，問2 (1)–(4) 与問3 (1)–(5)、V(x) 图齐全。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-denjiki-1",
+      "number": "問題番号 1",
+      "title": "电磁气学：同轴结构的场与电容",
+      "titleKind": "editorial",
+      "topics": [
+        "電荷",
+        "静電界",
+        "導体系",
+        "誘電体",
+        "電気容量"
+      ],
+      "summary": "同轴结构（内径 r1、外径 r2）：求各区域电场、单位长度电容、静电能等（含介质情形）。含同轴结构图。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            36,
+            149.5,
+            578,
+            426.5
+          ],
+          "label": "電磁気学（その1）問題番号 1：問1 与問2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p4：题号框「問題番号 1」在，問1 同轴图与設問、問2 球内一様分布齐全。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-denjiki-2",
+      "number": "問題番号 2",
+      "title": "电磁气学：圆形线圈之间的磁力与磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "電流",
+        "磁界",
+        "ビオ・サバール",
+        "力"
+      ],
+      "summary": "(1) 圆形线圈所受磁力的大小与方向；(2) 另一线圈在 P 点产生的磁场；(3) 两线圈中点 O 的磁场。含図1・図2。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            36,
+            149,
+            578,
+            786.5
+          ],
+          "label": "電磁気学（その2）問題番号 2：問3 与問4，含図1・図2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p5：题号框「問題番号 2」在，問3 (1)–(4) 与図1–3、問4 (1)–(5) 齐全。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-kairo-1",
+      "number": "問題番号 1",
+      "title": "电气回路：交流电源与可变电感的功率",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "有効電力",
+        "最大電力",
+        "インピーダンス"
+      ],
+      "summary": "交流源 E、内部电阻、固定 C・R、可变 L 的电路：以 v、i 为对象求相量、有效功率、使功率最大的 L 与最大值（要求推导过程）。含図1。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            36,
+            156,
+            578,
+            568.5
+          ],
+          "label": "回路理論（その1）問題番号 1：問1（要求推导过程）与図1"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p6：题号框「問題番号 1」在，問1 (1)–(6) 与図1 齐全。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-kairo-2",
+      "number": "問題番号 2",
+      "title": "电气回路：二端口网络的 Z 参数",
+      "titleKind": "editorial",
+      "topics": [
+        "二端子対網",
+        "インピーダンスパラメータ",
+        "四端子定数",
+        "過渡現象"
+      ],
+      "summary": "L1 R1 R2 C1 的二端口网络：(1) Z11 Z12 Z21 Z22 等。含図2(a)(b)。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            36,
+            155,
+            578,
+            751
+          ],
+          "label": "回路理論（その2）問題番号 2：問2 与図2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p7：题号框「問題番号 2」在，問2 (1)–(5) 与図2(a)(b) 齐全。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "問題表紙：試験名・研究科・専攻と注意事項。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "waseda-eps-2022-rikigaku-1"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名/問題番号 以外的部分）与页边空白。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2022-rikigaku-2"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名/問題番号 以外的部分）与页边空白。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2022-denjiki-1"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名/問題番号 以外的部分）与页边空白。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2022-denjiki-2"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名/問題番号 以外的部分）与页边空白。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2022-kairo-1"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名/問題番号 以外的部分）与页边空白。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2022-kairo-2"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名/問題番号 以外的部分）与页边空白。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "解答用紙（受験番号・氏名・採点欄のみ，无题目内容）。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "解答用紙（受験番号・氏名・採点欄のみ，无题目内容）。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "解答用紙（受験番号・氏名・採点欄のみ，无题目内容）。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "解答用紙（受験番号・氏名・採点欄のみ，无题目内容）。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "解答用紙（受験番号・氏名・採点欄のみ，无题目内容）。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "解答用紙（受験番号・氏名・採点欄のみ，无题目内容）。",
+      "reviewed": true
+    }
+  ]
+}
