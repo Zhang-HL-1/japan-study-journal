@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2014-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2014 入学年度 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-686d39d7ea4967d7",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2014,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成26年度",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気学",
+    "originalName": "2014(H26).pdf",
+    "pdf": "assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
+    "sha256": "e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d",
+    "pageCount": 4,
+    "note": "2014入学年度依据目录与文件名2014(H26).pdf；题面实施日平成25年8月2日（2013-08-02），不改写入学年度。学校、研究科、专攻和科目由各科卷头确认。三科来自同一4页合册。电子回路第2题提及解答用纸上的JK激励表，本PDF未附解答用纸；保留题目原文，不补造表格或答案。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        23.2,
+        11.2,
+        584.0,
+        92.8
+      ],
+      "label": "本科卷头与公共说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2014-general-denjiki-q1",
+      "number": "1",
+      "title": "介质膜包覆导体球的电场、电位与能量",
+      "titleKind": "editorial",
+      "topics": [
+        "导体球",
+        "介质",
+        "静电能"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            35.2,
+            113.6,
+            559.2,
+            396.8
+          ],
+          "label": "電磁気学 第1题 · PDF物理页1"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      }
+    },
+    {
+      "id": "tus-electrical-2014-general-denjiki-q2",
+      "number": "2",
+      "title": "半圆板空气电容器与力矩",
+      "titleKind": "editorial",
+      "topics": [
+        "电容器",
+        "静电能",
+        "力矩"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            38.4,
+            441.6,
+            559.2,
+            756.8
+          ],
+          "label": "電磁気学 第2题 · PDF物理页1"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      }
+    },
+    {
+      "id": "tus-electrical-2014-general-denjiki-q3",
+      "number": "3",
+      "title": "环形线圈的自感与互感",
+      "titleKind": "editorial",
+      "topics": [
+        "自感",
+        "互感",
+        "环形线圈"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            36.0,
+            116.0,
+            564.8,
+            475.2
+          ],
+          "label": "電磁気学 第3题 · PDF物理页2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      }
+    },
+    {
+      "id": "tus-electrical-2014-general-denjiki-q4",
+      "number": "4",
+      "title": "位移电流与平行板电容器",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "位移电流"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            38.4,
+            539.2,
+            564.8,
+            675.2
+          ],
+          "label": "電磁気学 第4题 · PDF物理页2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2014-general-denjiki-q1",
+        "tus-electrical-2014-general-denjiki-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页脚及作答留白。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2014-general-denjiki-q3",
+        "tus-electrical-2014-general-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、印刷页脚及作答留白。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}

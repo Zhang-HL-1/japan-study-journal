@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2014-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2014 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-686d39d7ea4967d7",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2014,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成26年度",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2014(H26).pdf",
+    "pdf": "assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
+    "sha256": "e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d",
+    "pageCount": 4,
+    "note": "2014入学年度依据目录与文件名2014(H26).pdf；题面实施日平成25年8月2日（2013-08-02），不改写入学年度。学校、研究科、专攻和科目由各科卷头确认。三科来自同一4页合册。电子回路第2题提及解答用纸上的JK激励表，本PDF未附解答用纸；保留题目原文，不补造表格或答案。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 3,
+      "box": [
+        18.4,
+        10.4,
+        579.2,
+        105.6
+      ],
+      "label": "本科卷头与公共说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2014-general-kairo-q1",
+      "number": "1",
+      "title": "直流与交流电源共存的RLC稳态回路",
+      "titleKind": "editorial",
+      "topics": [
+        "稳态回路",
+        "叠加原理"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            27.2,
+            109.6,
+            559.2,
+            392.8
+          ],
+          "label": "電気回路 第1题 · PDF物理页3"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      }
+    },
+    {
+      "id": "tus-electrical-2014-general-kairo-q2",
+      "number": "2",
+      "title": "开关闭合后的RC暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "RC暂态",
+        "时间常数"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            27.2,
+            417.6,
+            559.2,
+            657.6
+          ],
+          "label": "電気回路 第2题 · PDF物理页3"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2014-general-kairo-q1",
+        "tus-electrical-2014-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页脚及作答留白。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}

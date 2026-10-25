@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2014-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2014 入学年度 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-686d39d7ea4967d7",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2014,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成26年度",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "2014(H26).pdf",
+    "pdf": "assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
+    "sha256": "e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d",
+    "pageCount": 4,
+    "note": "2014入学年度依据目录与文件名2014(H26).pdf；题面实施日平成25年8月2日（2013-08-02），不改写入学年度。学校、研究科、专攻和科目由各科卷头确认。三科来自同一4页合册。电子回路第2题提及解答用纸上的JK激励表，本PDF未附解答用纸；保留题目原文，不补造表格或答案。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2014-general-denshi/common-01.png",
+      "page": 4,
+      "box": [
+        22.4,
+        12.0,
+        581.6,
+        64.0
+      ],
+      "width": 1398,
+      "height": 130,
+      "label": "本科卷头与公共说明",
+      "sha256": "9201d00d7e2e0a35ca58f21298345996c152c827f96673ad82bcf395ac66d1c4"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2014-general-denshi-q1",
+      "number": "1",
+      "title": "理想运放的输出电压与输入电流",
+      "titleKind": "editorial",
+      "topics": [
+        "理想运放",
+        "RC回路"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-denshi/tus-electrical-2014-general-denshi-q1-01.png",
+          "page": 4,
+          "box": [
+            65.6,
+            68.8,
+            472.8,
+            490.4
+          ],
+          "width": 1018,
+          "height": 1054,
+          "label": "電子回路 第1题 · PDF物理页4",
+          "sha256": "406e98be0eaeaf3c075f97b0355b602e4b651bbf90ba437128e06b27bd35e90f"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2014-general-denshi-q2",
+      "number": "2",
+      "title": "JK触发器激励表与同步七进制计数器",
+      "titleKind": "editorial",
+      "topics": [
+        "JK触发器",
+        "同步计数器"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。原卷提及的解答用纸未附于本PDF，未补造激励表。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-denshi/tus-electrical-2014-general-denshi-q2-01.png",
+          "page": 4,
+          "box": [
+            65.6,
+            519.2,
+            472.8,
+            616.0
+          ],
+          "width": 1018,
+          "height": 242,
+          "label": "電子回路 第2题 · PDF物理页4",
+          "sha256": "3a155abe6e427628fbebbfa6f62dc94d404304e9dbbee0e15d52b620f09d84c3"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2014-general-denshi-q1",
+        "tus-electrical-2014-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页脚及作答留白。",
+      "reviewed": true
+    }
+  ]
+}

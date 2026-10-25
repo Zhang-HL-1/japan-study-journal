@@ -10,12 +10,12 @@
     "catalogGroups": 24,
     "uniqueQuestionPdfs": 41,
     "pdfPages": 232,
-    "verifiedPdfs": 20,
-    "verifiedQuestions": 85,
-    "pendingPdfs": 15,
-    "logicalExamPapers": 9,
+    "verifiedPdfs": 23,
+    "verifiedQuestions": 109,
+    "pendingPdfs": 12,
+    "logicalExamPapers": 12,
     "duplicatePdfs": 6,
-    "coveredPdfs": 26
+    "coveredPdfs": 29
   },
   "sources": [
     {
@@ -651,8 +651,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2014-general-denjiki",
+        "tus-electrical-2014-general-denshi",
+        "tus-electrical-2014-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2014-general",
+      "note": "已在主分支发布并具备verified题目与coverage的合卷来源；本次合并同步队列，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c.pdf",
@@ -699,8 +705,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2012-general-denjiki",
+        "tus-electrical-2012-general-denshi",
+        "tus-electrical-2012-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2012-general",
+      "note": "已在主分支发布并具备verified题目与coverage的合卷来源；本次合并同步队列，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/9ffd436e289eec31df7481dac1fada37d21d5f9ef37ad5493cd37870ee289997.pdf",
@@ -720,8 +732,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2011-general-denjiki",
+        "tus-electrical-2011-general-denshi",
+        "tus-electrical-2011-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2011-general",
+      "note": "已在主分支发布并具备verified题目与coverage的合卷来源；本次合并同步队列，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/b9c1a343c41b2f07ea9fd9cbe71bc2d23ea2c7b90fa00da18ab9e0214faa399e.pdf",
