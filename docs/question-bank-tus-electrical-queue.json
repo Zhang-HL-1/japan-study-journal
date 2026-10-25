@@ -10,12 +10,12 @@
     "catalogGroups": 24,
     "uniqueQuestionPdfs": 41,
     "pdfPages": 232,
-    "verifiedPdfs": 23,
-    "verifiedQuestions": 109,
-    "pendingPdfs": 12,
-    "logicalExamPapers": 12,
+    "verifiedPdfs": 24,
+    "verifiedQuestions": 118,
+    "pendingPdfs": 11,
+    "logicalExamPapers": 13,
     "duplicatePdfs": 6,
-    "coveredPdfs": 29
+    "coveredPdfs": 30
   },
   "sources": [
     {
@@ -759,8 +759,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2010-general-denjiki",
+        "tus-electrical-2010-general-denshi",
+        "tus-electrical-2010-general-english",
+        "tus-electrical-2010-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2010-general"
     },
     {
       "pdf": "assets/past-papers/documents/2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07.pdf",
