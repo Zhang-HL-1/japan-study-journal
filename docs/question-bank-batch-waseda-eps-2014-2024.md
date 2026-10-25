@@ -19,7 +19,7 @@ AI visual review，2026-10-24。答案未做。草稿 PR，待用户说合并。
 | `waseda-eps-2021` | `waseda-39b945434e9803a2` | 2021 | academic | `b645e97909d5` | 7 | 6 |
 | `waseda-eps-2024` | `waseda-63166f6106ece642` | 2024 | academic | `34501f43f1cb` | 13 | 6 |
 
-统计：唯一 question PDF 6；目录引用 6；verified 大题 36；blocked 1；生成物约 18 MB。
+统计：唯一 question PDF 6；目录引用 6；verified 大题 36；blocked 2；生成物约 18 MB。
 
 ## 题界口径（本批确立）
 
@@ -56,6 +56,17 @@ status: blocked
 
 2018 卷其余页正常，但 p2/p4/p6 为旋转页，按 skill 规定不静默替换原 PDF，暂缓。
 
+```text
+pdf: assets/past-papers/documents/44fe69ef083325326da7c97d0532a72f1c07a59d207f247347d177ca27d28b99.pdf
+catalogIds: [waseda-ed65972f17a0dce6]（2019年9月・2020年4月入学，含「訂正ページ付き」与外国人留学生入试页）
+page: 3 / 5 / 7
+issue: 旋转页（/Rotate 270）
+neededEvidence: 同 2018，需规范化派生副本 + 坐标映射
+status: blocked
+```
+
+2019 除旋转页外，末页为外国人留学生入試「問題用紙（物理）」，含 問題1–4，需单独定归属（本科目 6 大题以外另计）。
+
 ## 入口
 
 - `question-practice.html?paper=waseda-eps-2014`
@@ -73,5 +84,5 @@ status: blocked
 
 ## 未做
 
-- 2018（旋转页，blocked）、2019（含外国人留学生入试页，需单独判断归属）
+- 2018、2019（均为旋转页，blocked；2019 另含外国人入试页）
 - 2022、2023、2025 长卷（13–14 页）
