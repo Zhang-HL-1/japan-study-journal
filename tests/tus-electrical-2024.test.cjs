@@ -40,6 +40,6 @@ test('three supplementary PDFs map to canonical files with pixel checks for ever
   const source=duplicates.find(s=>s.pdf===d.duplicatePdf);assert.equal(source.duplicateOf,paper.source.pdf);assert.equal(source.collectionId,papers[0].id);assert.deepEqual(source.paperIds,[]);
   assert.ok(!papers.flatMap(p=>p.source.files).some(s=>s.pdf===d.duplicatePdf));
  }
- assert.equal(queue.summary.coveredPdfs,25);assert.equal(queue.summary.duplicatePdfs,6);assert.equal(queue.summary.verifiedQuestions,78);assert.equal(queue.summary.logicalExamPapers,8);
+ assert.equal(queue.summary.coveredPdfs,31);assert.equal(queue.summary.duplicatePdfs,6);assert.equal(queue.summary.verifiedQuestions,126);assert.equal(queue.summary.logicalExamPapers,14);
  assert.equal(queue.summary.pendingPdfs+queue.summary.verifiedPdfs+queue.summary.duplicatePdfs,queue.summary.uniqueQuestionPdfs);
 });

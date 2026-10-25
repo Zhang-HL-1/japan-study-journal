@@ -10,12 +10,12 @@
     "catalogGroups": 24,
     "uniqueQuestionPdfs": 41,
     "pdfPages": 232,
-    "verifiedPdfs": 19,
-    "verifiedQuestions": 78,
-    "pendingPdfs": 16,
-    "logicalExamPapers": 8,
+    "verifiedPdfs": 25,
+    "verifiedQuestions": 126,
+    "pendingPdfs": 10,
+    "logicalExamPapers": 14,
     "duplicatePdfs": 6,
-    "coveredPdfs": 25
+    "coveredPdfs": 31
   },
   "sources": [
     {
@@ -651,8 +651,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2014-general-denjiki",
+        "tus-electrical-2014-general-denshi",
+        "tus-electrical-2014-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2014-general",
+      "note": "已在主分支发布并具备verified题目与coverage的合卷来源；本次合并同步队列，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c.pdf",
@@ -672,8 +678,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2013-general-denjiki",
+        "tus-electrical-2013-general-denshi",
+        "tus-electrical-2013-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2013-general",
+      "note": "同一5页合册三个科目合为一套7题考试，电子2题、电气2题、电磁3题；年度依据既有目录与文件名，实施日另记。"
     },
     {
       "pdf": "assets/past-papers/documents/84003fc8176ce3fa24a656f0564366a25faac1252c2aedfd1d76da1b6fc66c7d.pdf",
@@ -693,8 +705,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2012-general-denjiki",
+        "tus-electrical-2012-general-denshi",
+        "tus-electrical-2012-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2012-general",
+      "note": "已在主分支发布并具备verified题目与coverage的合卷来源；本次合并同步队列，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/9ffd436e289eec31df7481dac1fada37d21d5f9ef37ad5493cd37870ee289997.pdf",
@@ -714,8 +732,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2011-general-denjiki",
+        "tus-electrical-2011-general-denshi",
+        "tus-electrical-2011-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2011-general",
+      "note": "已在主分支发布并具备verified题目与coverage的合卷来源；本次合并同步队列，不重复计题。"
     },
     {
       "pdf": "assets/past-papers/documents/b9c1a343c41b2f07ea9fd9cbe71bc2d23ea2c7b90fa00da18ab9e0214faa399e.pdf",
@@ -735,8 +759,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2010-general-denjiki",
+        "tus-electrical-2010-general-denshi",
+        "tus-electrical-2010-general-english",
+        "tus-electrical-2010-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2010-general"
     },
     {
       "pdf": "assets/past-papers/documents/2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07.pdf",
@@ -756,8 +786,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2009-general-denjiki",
+        "tus-electrical-2009-general-denshi",
+        "tus-electrical-2009-general-english",
+        "tus-electrical-2009-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2009-general"
     },
     {
       "pdf": "assets/past-papers/documents/4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2.pdf",

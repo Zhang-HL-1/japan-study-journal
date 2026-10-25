@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2013-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2013 入学年度 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-fdaa56de6771681f",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2013,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成25年度",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気学",
+    "originalName": "2013(H25).pdf",
+    "pdf": "assets/past-papers/documents/f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c.pdf",
+    "sha256": "f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c",
+    "pageCount": 5,
+    "note": "工学研究科・電気工学専攻，修士入试。2013入学年度（平成25年度）依据既有目录与文件名2013(H25).pdf，本合册没有科目封面；题面实施日2012-08-03，不改写年度。三个科目来自同一5页PDF，各科保留原题号与日文科目「電磁気学」。扫描原样裁切，不重写公式或电路图。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2013-general-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        15.2,
+        4.8,
+        580.0,
+        62.4
+      ],
+      "width": 1412,
+      "height": 144,
+      "label": "本科卷头：学校、研究科、专攻、科目、实施日与公共说明",
+      "sha256": "becc874f2e2521a0c9a1706e2c309b6447b828b22ff8c300792b4a2ca2788bb5"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2013-general-denjiki-q1",
+      "number": "1",
+      "title": "双层介质同轴电容器与绝缘耐压",
+      "titleKind": "editorial",
+      "topics": [
+        "同轴电容器",
+        "电介质",
+        "绝缘耐压"
+      ],
+      "summary": "完整原卷大题裁图，保留全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照完整5页合册和所有预览裁图，核对题号、首末行、全部小问、公式上下标、介质与端子标记、图号和作答格式。原扫描倾斜保持原样，未裁掉运放接地符号或逻辑图连线。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2013-general-denjiki/tus-electrical-2013-general-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            34.4,
+            87.2,
+            563.2,
+            611.2
+          ],
+          "width": 1322,
+          "height": 1310,
+          "label": "電磁気学 第 1 题 · 原卷第 1 页第 1 块",
+          "sha256": "7235f99963979284389b0fe5c8293b449c45e743038abc12d65c4612dc24b53f"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2013-general-denjiki-q2",
+      "number": "2",
+      "title": "双层环形线圈的自感与互感",
+      "titleKind": "editorial",
+      "topics": [
+        "环形线圈",
+        "自感",
+        "互感"
+      ],
+      "summary": "完整原卷大题裁图，保留全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照完整5页合册和所有预览裁图，核对题号、首末行、全部小问、公式上下标、介质与端子标记、图号和作答格式。原扫描倾斜保持原样，未裁掉运放接地符号或逻辑图连线。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2013-general-denjiki/tus-electrical-2013-general-denjiki-q2-01.png",
+          "page": 2,
+          "box": [
+            33.6,
+            89.6,
+            563.2,
+            473.6
+          ],
+          "width": 1324,
+          "height": 960,
+          "label": "電磁気学 第 2 题 · 原卷第 2 页第 1 块",
+          "sha256": "351c1877eedb8b77fd646c0af9307fc8c60d9c84b3f30f678555b242a679167d"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2013-general-denjiki-q3",
+      "number": "3",
+      "title": "麦克斯韦积分方程及其物理意义",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "积分形式",
+        "电磁定律"
+      ],
+      "summary": "完整原卷大题裁图，保留全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照完整5页合册和所有预览裁图，核对题号、首末行、全部小问、公式上下标、介质与端子标记、图号和作答格式。原扫描倾斜保持原样，未裁掉运放接地符号或逻辑图连线。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2013-general-denjiki/tus-electrical-2013-general-denjiki-q3-01.png",
+          "page": 2,
+          "box": [
+            33.6,
+            514.4,
+            508.8,
+            688.8
+          ],
+          "width": 1188,
+          "height": 436,
+          "label": "電磁気学 第 3 题 · 原卷第 2 页第 1 块",
+          "sha256": "e36e9d39ea5452c02161648129f4dc35594b2ae5a1a06c782039e1e5a277c37c"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2013-general-denjiki-q1"
+      ],
+      "common": true,
+      "excluded": "重复卷头、重复书写要求与作答留白；原题全部小问、公式、图号及作答格式示例保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2013-general-denjiki-q2",
+        "tus-electrical-2013-general-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头、重复书写要求与作答留白；原题全部小问、公式、图号及作答格式示例保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
