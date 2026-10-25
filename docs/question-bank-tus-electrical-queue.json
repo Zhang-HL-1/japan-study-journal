@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-25",
   "scope": {
     "schoolId": "tus",
     "graduate": "工学研究科",
@@ -10,12 +10,12 @@
     "catalogGroups": 24,
     "uniqueQuestionPdfs": 41,
     "pdfPages": 232,
-    "verifiedPdfs": 17,
-    "verifiedQuestions": 62,
-    "pendingPdfs": 18,
-    "logicalExamPapers": 6,
+    "verifiedPdfs": 18,
+    "verifiedQuestions": 70,
+    "pendingPdfs": 17,
+    "logicalExamPapers": 7,
     "duplicatePdfs": 6,
-    "coveredPdfs": 23
+    "coveredPdfs": 24
   },
   "sources": [
     {
@@ -597,8 +597,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2016-general-denjiki",
+        "tus-electrical-2016-general-denshi",
+        "tus-electrical-2016-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2016-general",
+      "note": "同一8页合册三个科目合为一套考试，电子2题、电气2题、电磁4题；按原大题号拆分，不把科目分区重复计作PDF。"
     },
     {
       "pdf": "assets/past-papers/documents/011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947.pdf",

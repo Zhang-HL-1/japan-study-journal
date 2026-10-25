@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2016-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2016 入学年度 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-12fb0bfb59387305",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2016,
+    "yearBasis": "academic",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "2016(H28).pdf",
+    "pdf": "assets/past-papers/documents/14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc.pdf",
+    "sha256": "14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc",
+    "pageCount": 8,
+    "note": "工学研究科・電気工学専攻，修士入试。封面平成28年度即2016入学年度；题面实施日2015-07-31，不改写年度。三个科目来自同一8页合册，各科只裁本科学题；不将科目或PDF页数当作卷数。原日文科目「電子回路」保留。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2016-general-denshi/common-01.png",
+      "page": 7,
+      "box": [
+        60.0,
+        20.0,
+        680.0,
+        440.8
+      ],
+      "width": 1550,
+      "height": 1052,
+      "label": "科目封面：平成28年度、学校、研究科、专攻与作答说明",
+      "sha256": "f560b6bafcdd33c335ce1a394145be6d70a9a9173899ffec9f810ecc893dbe94"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2016-general-denshi/common-02.png",
+      "page": 7,
+      "box": [
+        72.0,
+        621.6,
+        660.0,
+        733.6
+      ],
+      "width": 1470,
+      "height": 280,
+      "label": "科目封面：考试时间与答题纸说明",
+      "sha256": "99179b41013424c040dd37c6f5274a829755e4f6095d134d768b67ce47a4447f"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2016-general-denshi-q1",
+      "number": "1",
+      "title": "运算放大器的频率响应与滤波回路",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "频率响应",
+        "滤波回路"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2016-general-denshi/tus-electrical-2016-general-denshi-q1-01.png",
+          "page": 8,
+          "box": [
+            86.4,
+            111.2,
+            631.2,
+            618.4
+          ],
+          "width": 1362,
+          "height": 1268,
+          "label": "電子回路 第 1 题 · 原卷第 8 页第 1 块",
+          "sha256": "eecd3f991491c4c13b34aee276b1b00e6e95b27fea925aba06bee7627390fac6"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2016-general-denshi-q2",
+      "number": "2",
+      "title": "逻辑门实现与触发器转换",
+      "titleKind": "editorial",
+      "topics": [
+        "数字逻辑",
+        "NAND门",
+        "触发器"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2016-general-denshi/tus-electrical-2016-general-denshi-q2-01.png",
+          "page": 8,
+          "box": [
+            86.4,
+            628.0,
+            636.0,
+            886.4
+          ],
+          "width": 1374,
+          "height": 646,
+          "label": "電子回路 第 2 题 · 原卷第 8 页第 1 块",
+          "sha256": "799dddf49aa5c39061de3cde3e9e67c0f64f8a41de6b43ba46addae40d612f11"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面留白和考号框；保留全部作答要求、时间和答题纸说明。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tus-electrical-2016-general-denshi-q1",
+        "tus-electrical-2016-general-denshi-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、重复书写要求与作答留白；保留所有小问、公式、配图、图号及原卷给出的特性图表。",
+      "reviewed": true
+    }
+  ]
+}

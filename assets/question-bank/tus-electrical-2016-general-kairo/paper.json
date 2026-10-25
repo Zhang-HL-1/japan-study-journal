@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2016-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2016 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-12fb0bfb59387305",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2016,
+    "yearBasis": "academic",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2016(H28).pdf",
+    "pdf": "assets/past-papers/documents/14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc.pdf",
+    "sha256": "14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc",
+    "pageCount": 8,
+    "note": "工学研究科・電気工学専攻，修士入试。封面平成28年度即2016入学年度；题面实施日2015-07-31，不改写年度。三个科目来自同一8页合册，各科只裁本科学题；不将科目或PDF页数当作卷数。原日文科目「電気回路」保留。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2016-general-kairo/common-01.png",
+      "page": 4,
+      "box": [
+        60.0,
+        20.0,
+        680.0,
+        440.8
+      ],
+      "width": 1550,
+      "height": 1052,
+      "label": "科目封面：平成28年度、学校、研究科、专攻与作答说明",
+      "sha256": "c8e7c9354124ea858a1785e3ac33344da936189456a6964e2d80f65b834d9580"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2016-general-kairo/common-02.png",
+      "page": 4,
+      "box": [
+        72.0,
+        621.6,
+        660.0,
+        733.6
+      ],
+      "width": 1470,
+      "height": 280,
+      "label": "科目封面：考试时间与答题纸说明",
+      "sha256": "a73f707e8c14e5963b04a8fc95d74c7be50ff0905039eae840d102c34b8fbf0f"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2016-general-kairo/common-03.png",
+      "page": 5,
+      "box": [
+        63.2,
+        104.8,
+        313.6,
+        124.8
+      ],
+      "width": 626,
+      "height": 50,
+      "label": "本科公共说明：导出过程与答案填写要求（第6页重复）",
+      "sha256": "d538de5ff9558fb68c831463058c2cc346e71630a8c9d3319dc11e4a494b3a4d"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2016-general-kairo-q1",
+      "number": "1",
+      "title": "RLC回路的拉普拉斯分析与暂态波形",
+      "titleKind": "editorial",
+      "topics": [
+        "拉普拉斯变换",
+        "RLC暂态",
+        "电压波形"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2016-general-kairo/tus-electrical-2016-general-kairo-q1-01.png",
+          "page": 5,
+          "box": [
+            60.0,
+            128.0,
+            520.0,
+            417.6
+          ],
+          "width": 1150,
+          "height": 724,
+          "label": "電気回路 第 1 题 · 原卷第 5 页第 1 块",
+          "sha256": "50c35a89664481896fc3555dfe1ed54d254cfd257669f8cf3f9bf7a7dbf74657"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2016-general-kairo-q2",
+      "number": "2",
+      "title": "二端口回路的F参数与像参数",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口网络",
+        "F参数",
+        "像参数"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2016-general-kairo/tus-electrical-2016-general-kairo-q2-01.png",
+          "page": 6,
+          "box": [
+            40.0,
+            114.4,
+            484.0,
+            328.0
+          ],
+          "width": 1110,
+          "height": 534,
+          "label": "電気回路 第 2 题 · 原卷第 6 页第 1 块",
+          "sha256": "683417f5e40c049162a8a547d679af0c2d9fd75bd1dec6d055473e8a91c2fb23"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面留白和考号框；保留全部作答要求、时间和答题纸说明。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2016-general-kairo-q1"
+      ],
+      "common": true,
+      "excluded": "重复卷头、重复书写要求与作答留白；保留所有小问、公式、配图、图号及原卷给出的特性图表。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tus-electrical-2016-general-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、重复书写要求与作答留白；保留所有小问、公式、配图、图号及原卷给出的特性图表。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
