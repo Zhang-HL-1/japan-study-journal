@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2015-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2015 入学年度 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-992dd2f54ca35fc7",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2015,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成27年度",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "2015(H27).pdf",
+    "pdf": "assets/past-papers/documents/011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947.pdf",
+    "sha256": "011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947",
+    "pageCount": 5,
+    "note": "工学研究科・電気工学専攻，修士入试。2015入学年度（平成27年度）依据既有目录和源文件名2015(H27).pdf，本合册未含科目封面；题面实施日2014-08-01，不改写年度。三个科目来自同一5页PDF，各科按原大题号裁图，保留原日文科目「電子回路」。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2015-general-denshi/common-01.png",
+      "page": 5,
+      "box": [
+        23.2,
+        13.6,
+        712.8,
+        83.2
+      ],
+      "width": 1724,
+      "height": 174,
+      "label": "本科卷头：学校、研究科、专攻、科目、实施日与公共作答要求",
+      "sha256": "a8c1dcd5e33a6abdeeeabbe810bde9e713b4f5e582a0a0a8c4bab5f3729a30f5"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2015-general-denshi-q1",
+      "number": "1",
+      "title": "nMOS特性与NAND逻辑回路",
+      "titleKind": "editorial",
+      "topics": [
+        "nMOS",
+        "工作区域",
+        "数字逻辑"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式与配图。中文标题及知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照完整5页合册与全部预览裁图，核对原方框题号、首末行、所有小问、公式上下标、元件、图号、矢量分解图及题目给定的状态编码。未把给定波动方程与公式误删为答案。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2015-general-denshi/tus-electrical-2015-general-denshi-q1-01.png",
+          "page": 5,
+          "box": [
+            89.6,
+            108.0,
+            652.0,
+            336.8
+          ],
+          "width": 1406,
+          "height": 572,
+          "label": "電子回路 第 1 题 · 原卷第 5 页第 1 块",
+          "sha256": "dcb908f61587c452591f1d4451cf8da9c7812c4e3db4687d468dca85eb624bff"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2015-general-denshi-q2",
+      "number": "2",
+      "title": "运算放大回路的增益与振荡频率",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "增益",
+        "振荡回路"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式与配图。中文标题及知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照完整5页合册与全部预览裁图，核对原方框题号、首末行、所有小问、公式上下标、元件、图号、矢量分解图及题目给定的状态编码。未把给定波动方程与公式误删为答案。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2015-general-denshi/tus-electrical-2015-general-denshi-q2-01.png",
+          "page": 5,
+          "box": [
+            89.6,
+            364.0,
+            647.2,
+            707.2
+          ],
+          "width": 1394,
+          "height": 858,
+          "label": "電子回路 第 2 题 · 原卷第 5 页第 1 块",
+          "sha256": "da033591b1bd863c49ae950a8470077de40fcd26e36db5e5fe90cb106b86dcd3"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2015-general-denshi-q3",
+      "number": "3",
+      "title": "1100序列检测的状态机与D触发器",
+      "titleKind": "editorial",
+      "topics": [
+        "序列检测",
+        "状态机",
+        "D触发器"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式与配图。中文标题及知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照完整5页合册与全部预览裁图，核对原方框题号、首末行、所有小问、公式上下标、元件、图号、矢量分解图及题目给定的状态编码。未把给定波动方程与公式误删为答案。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2015-general-denshi/tus-electrical-2015-general-denshi-q3-01.png",
+          "page": 5,
+          "box": [
+            89.6,
+            747.2,
+            650.4,
+            888.0
+          ],
+          "width": 1402,
+          "height": 352,
+          "label": "電子回路 第 3 题 · 原卷第 5 页第 1 块",
+          "sha256": "52551ebd5d3e8eaa93aa785ef03896fd53834269ce4d68be55739248ade48811"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面，由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面，由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面，由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面，由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2015-general-denshi-q1",
+        "tus-electrical-2015-general-denshi-q2",
+        "tus-electrical-2015-general-denshi-q3"
+      ],
+      "common": true,
+      "excluded": "重复卷头、重复作答要求和作答留白；题干、全部小问、给定公式、状态编码与图号完整保留。",
+      "reviewed": true
+    }
+  ]
+}
