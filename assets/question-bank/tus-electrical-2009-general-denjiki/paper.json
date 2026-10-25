@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2009-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2009 入学年度 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-eb7f476e0441f793",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2009,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成21年度",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気学",
+    "originalName": "2009(H21).pdf",
+    "pdf": "assets/past-papers/documents/2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07.pdf",
+    "sha256": "2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07",
+    "pageCount": 6,
+    "note": "2009入学年度（平成21年度）依据既有目录、源路径和文件名2009(H21).pdf；合册无入学年度封面，题面实施日平成20年8月5日（2008-08-05），分别保留。各科卷头确认学校、研究科、专攻与科目。同一6页PDF含电子2题、电气2题、电磁2题和英语2题；英语原文、下划线、Fig.1空作图框、Fig.2波形图与术语表格均属原题，不当答案删除。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2009-general-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        14.4,
+        9.6,
+        582.4,
+        65.6
+      ],
+      "width": 1420,
+      "height": 140,
+      "label": "本科卷头：学校、研究科、专攻、科目与实施日",
+      "sha256": "91e73485a64ff76a9de2132596565eaf868aa14a51394331b162181bae44448b"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2009-general-denjiki-q1",
+      "number": "1",
+      "title": "平行长导线的磁场、受力、电感与电容",
+      "titleKind": "editorial",
+      "topics": [
+        "平行导线",
+        "电感",
+        "电容"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all six source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整6页原卷与全部12张预览逐张对照：方框题号、首末行、全部小问、公式上下标、图号与元件完整。电气第2题放大核定为三相起电力；英语第1题下划线、3小问、Fig.1空作图框和Fig.2全部坐标波形保留；第2题10行表格完整。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2009-general-denjiki/tus-electrical-2009-general-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            109.6,
+            144.0,
+            480.0,
+            351.2
+          ],
+          "width": 926,
+          "height": 518,
+          "label": "電磁気学 第1题 · PDF物理页1",
+          "sha256": "f2fdb02fe15bef1dd03834b3b8621c6aac551071494e4350be3eb63bee1c5223"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2009-general-denjiki-q2",
+      "number": "2",
+      "title": "静电场与静磁场的旋度和散度",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "静磁场",
+        "旋度",
+        "散度"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all six source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整6页原卷与全部12张预览逐张对照：方框题号、首末行、全部小问、公式上下标、图号与元件完整。电气第2题放大核定为三相起电力；英语第1题下划线、3小问、Fig.1空作图框和Fig.2全部坐标波形保留；第2题10行表格完整。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2009-general-denjiki/tus-electrical-2009-general-denjiki-q2-01.png",
+          "page": 2,
+          "box": [
+            103.2,
+            143.2,
+            472.0,
+            346.4
+          ],
+          "width": 922,
+          "height": 508,
+          "label": "電磁気学 第2题 · PDF物理页2",
+          "sha256": "dc0bdb047e98996752c6dba57023f61aea7123c71a3e59e5af7c9944e587fba9"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2009-general-denjiki-q1"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页码、採点欄及普通作答留白；给定公式和英语表格保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2009-general-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、印刷页码、採点欄及普通作答留白；给定公式和英语表格保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
