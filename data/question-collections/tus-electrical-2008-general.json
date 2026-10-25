@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2008-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2008 入学年度 · 修士入试",
+  "catalogId": "tus-6991efdec1657e91",
+  "components": [
+    {
+      "paperId": "tus-electrical-2008-general-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2008-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2008-general-denjiki",
+      "subject": "电磁回路"
+    },
+    {
+      "paperId": "tus-electrical-2008-general-english",
+      "subject": "英语"
+    }
+  ],
+  "note": "2008入学年度（平成20年度）由PDF第1页工学研究科封面与目录确认；题面实施日2007-08-08，分别保留。同一7页合册含电子回路、电气回路、电磁回路、英语各2题，共8道完整大题。封面、各科卷头、电磁分布图坐标轴、JK回路、英语原文和术语表格均保留，不补写答案、解析或评分。"
+}

@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2008-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2008 入学年度 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-6991efdec1657e91",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2008,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成20年度",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "2008(H20).pdf",
+    "pdf": "assets/past-papers/documents/4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2.pdf",
+    "sha256": "4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2",
+    "pageCount": 7,
+    "note": "2008入学年度（平成20年度）由PDF第1页工学研究科（平成20年度）封面及目录确认，题面实施日平成19年8月8日（2007-08-08），分别保留。各科卷头确认学校、研究科、专攻与科目。同一7页PDF含电子2题、电气2题、电磁2题和英语2题；电磁分布图坐标轴、电子JK回路图、英语原文下划线与术语表格均属原题，不当答案删除。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2008-general-denshi/common-01.png",
+      "page": 1,
+      "box": [
+        49.6,
+        220.8,
+        546.4,
+        357.6
+      ],
+      "width": 1242,
+      "height": 342,
+      "label": "平成20年度封面：研究科、四科考试安排与电子回路含数字回路说明",
+      "sha256": "d462de583a71c8ceac9020cc96a0bed57d6313d8535d9a2eeface484154f988e"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2008-general-denshi/common-02.png",
+      "page": 5,
+      "box": [
+        6.4,
+        0.0,
+        574.4,
+        51.2
+      ],
+      "width": 1420,
+      "height": 128,
+      "label": "本科卷头：学校、研究科、专攻、科目与实施日",
+      "sha256": "f502d0538b5b000358214f66fd484490dc72d6fac7dbcb1bd0f2157e17c496fb"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2008-general-denshi-q1",
+      "number": "1",
+      "title": "运放增益与RC振荡回路",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "增益",
+        "振荡回路"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all seven source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整7页原卷及全部预览逐张对照：题号、首末行、小问、上下标、单位、图号、元件完整。第1页年度封面为公共说明；电磁两题坐标轴和图号完整。电气第1题图号与第2题题号高度紧邻，分块按原位置拼合，避免串题，全部块已重看；JK图和英语3小问、10行表格完整保留。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2008-general-denshi/tus-electrical-2008-general-denshi-q1-01.png",
+          "page": 5,
+          "box": [
+            64.8,
+            74.4,
+            441.6,
+            328.0
+          ],
+          "width": 942,
+          "height": 634,
+          "label": "電子回路 第1题 · PDF物理页5",
+          "sha256": "c236261346d9521e4484c13687c5e5466d0d7ee56c0335d27306603e89265861"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2008-general-denshi-q2",
+      "number": "2",
+      "title": "JK触发器状态表与状态迁移",
+      "titleKind": "editorial",
+      "topics": [
+        "JK触发器",
+        "状态迁移图"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all seven source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整7页原卷及全部预览逐张对照：题号、首末行、小问、上下标、单位、图号、元件完整。第1页年度封面为公共说明；电磁两题坐标轴和图号完整。电气第1题图号与第2题题号高度紧邻，分块按原位置拼合，避免串题，全部块已重看；JK图和英语3小问、10行表格完整保留。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2008-general-denshi/tus-electrical-2008-general-denshi-q2-01.png",
+          "page": 5,
+          "box": [
+            69.6,
+            359.2,
+            442.4,
+            608.8
+          ],
+          "width": 932,
+          "height": 624,
+          "label": "電子回路 第2题 · PDF物理页5",
+          "sha256": "1d4086359cbb24136a4dfc4c016e5e74baf4db09082fde5447dc7c3c198fe399"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "年度封面，仅作为公共说明，不计大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2008-general-denshi-q1",
+        "tus-electrical-2008-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页码、採点欄及普通作答留白；给定公式和英语表格保留。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}

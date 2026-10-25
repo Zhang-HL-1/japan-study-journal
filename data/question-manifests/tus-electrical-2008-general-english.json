@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2008-general-english",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2008 入学年度 · 英语",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-6991efdec1657e91",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2008,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成20年度",
+    "subject": "英语",
+    "originalSubject": "英語",
+    "originalName": "2008(H20).pdf",
+    "pdf": "assets/past-papers/documents/4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2.pdf",
+    "sha256": "4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2",
+    "pageCount": 7,
+    "note": "2008入学年度（平成20年度）由PDF第1页工学研究科（平成20年度）封面及目录确认，题面实施日平成19年8月8日（2007-08-08），分别保留。各科卷头确认学校、研究科、专攻与科目。同一7页PDF含电子2题、电气2题、电磁2题和英语2题；电磁分布图坐标轴、电子JK回路图、英语原文下划线与术语表格均属原题，不当答案删除。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        49.6,
+        220.8,
+        546.4,
+        357.6
+      ],
+      "label": "平成20年度封面：研究科、四科考试安排与电子回路含数字回路说明"
+    },
+    {
+      "page": 6,
+      "box": [
+        9.6,
+        0.0,
+        577.6,
+        51.2
+      ],
+      "label": "本科卷头：学校、研究科、专攻、科目与实施日"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2008-general-english-q1",
+      "number": "1",
+      "title": "运算放大器英文阅读与实验注意事项",
+      "titleKind": "editorial",
+      "topics": [
+        "专业英语",
+        "运算放大器"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            54.4,
+            137.6,
+            528.8,
+            619.2
+          ],
+          "label": "英語 第1题 · PDF物理页6"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all seven source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整7页原卷及全部预览逐张对照：题号、首末行、小问、上下标、单位、图号、元件完整。第1页年度封面为公共说明；电磁两题坐标轴和图号完整。电气第1题图号与第2题题号高度紧邻，分块按原位置拼合，避免串题，全部块已重看；JK图和英语3小问、10行表格完整保留。中文标题非译文。"
+      }
+    },
+    {
+      "id": "tus-electrical-2008-general-english-q2",
+      "number": "2",
+      "title": "电气电子专业术语的英文表达",
+      "titleKind": "editorial",
+      "topics": [
+        "专业英语",
+        "术语"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            49.6,
+            155.2,
+            506.4,
+            435.2
+          ],
+          "label": "英語 第2题 · PDF物理页7"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all seven source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整7页原卷及全部预览逐张对照：题号、首末行、小问、上下标、单位、图号、元件完整。第1页年度封面为公共说明；电磁两题坐标轴和图号完整。电气第1题图号与第2题题号高度紧邻，分块按原位置拼合，避免串题，全部块已重看；JK图和英语3小问、10行表格完整保留。中文标题非译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "年度封面，仅作为公共说明，不计大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tus-electrical-2008-general-english-q1"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页码、採点欄及普通作答留白；给定公式和英语表格保留。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "tus-electrical-2008-general-english-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、印刷页码、採点欄及普通作答留白；给定公式和英语表格保留。",
+      "reviewed": true
+    }
+  ]
+}

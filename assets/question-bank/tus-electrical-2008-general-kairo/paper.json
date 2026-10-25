@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2008-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2008 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-6991efdec1657e91",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2008,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成20年度",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2008(H20).pdf",
+    "pdf": "assets/past-papers/documents/4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2.pdf",
+    "sha256": "4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2",
+    "pageCount": 7,
+    "note": "2008入学年度（平成20年度）由PDF第1页工学研究科（平成20年度）封面及目录确认，题面实施日平成19年8月8日（2007-08-08），分别保留。各科卷头确认学校、研究科、专攻与科目。同一7页PDF含电子2题、电气2题、电磁2题和英语2题；电磁分布图坐标轴、电子JK回路图、英语原文下划线与术语表格均属原题，不当答案删除。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2008-general-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        49.6,
+        220.8,
+        546.4,
+        357.6
+      ],
+      "width": 1242,
+      "height": 342,
+      "label": "平成20年度封面：研究科、四科考试安排与电子回路含数字回路说明",
+      "sha256": "d462de583a71c8ceac9020cc96a0bed57d6313d8535d9a2eeface484154f988e"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2008-general-kairo/common-02.png",
+      "page": 4,
+      "box": [
+        2.4,
+        0.0,
+        572.8,
+        51.2
+      ],
+      "width": 1426,
+      "height": 128,
+      "label": "本科卷头：学校、研究科、专攻、科目与实施日",
+      "sha256": "3990106e8f579d6b0bd12ced3fa2cdc37c500674f34a5ec679c119cd53ad6c74"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2008-general-kairo-q1",
+      "number": "1",
+      "title": "二端口F参数与影像阻抗",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口网络",
+        "F参数",
+        "影像阻抗"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all seven source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整7页原卷及全部预览逐张对照：题号、首末行、小问、上下标、单位、图号、元件完整。第1页年度封面为公共说明；电磁两题坐标轴和图号完整。电气第1题图号与第2题题号高度紧邻，分块按原位置拼合，避免串题，全部块已重看；JK图和英语3小问、10行表格完整保留。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2008-general-kairo/tus-electrical-2008-general-kairo-q1-01.png",
+          "page": 4,
+          "box": [
+            29.6,
+            70.4,
+            461.6,
+            256.0
+          ],
+          "width": 1080,
+          "height": 464,
+          "label": "電気回路 第1题 · 第4物理页第1块，按原位置拼合",
+          "sha256": "7e87198d326af8b43dd520bb9f62d4213d960662dfcb13eb449748ab314e7028"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2008-general-kairo/tus-electrical-2008-general-kairo-q1-02.png",
+          "page": 4,
+          "box": [
+            216.0,
+            253.6,
+            251.2,
+            272.8
+          ],
+          "width": 88,
+          "height": 48,
+          "label": "電気回路 第1题 · 第4物理页第2块，按原位置拼合",
+          "sha256": "d0131f720385bf4f0049348f12e19337a519ee3879470d8968c5a6c665bfa043"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2008-general-kairo-q2",
+      "number": "2",
+      "title": "双电压源切换的RL暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "RL暂态",
+        "开关回路"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all seven source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整7页原卷及全部预览逐张对照：题号、首末行、小问、上下标、单位、图号、元件完整。第1页年度封面为公共说明；电磁两题坐标轴和图号完整。电气第1题图号与第2题题号高度紧邻，分块按原位置拼合，避免串题，全部块已重看；JK图和英语3小问、10行表格完整保留。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2008-general-kairo/tus-electrical-2008-general-kairo-q2-01.png",
+          "page": 4,
+          "box": [
+            30.4,
+            264.0,
+            61.6,
+            292.0
+          ],
+          "width": 78,
+          "height": 70,
+          "label": "電気回路 第2题 · 第4物理页第1块，原位置拼合",
+          "sha256": "c3084ef0d26565d689c1433f2fc790c7875b4b9c8b1d489063c65bbe64ac381e"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2008-general-kairo/tus-electrical-2008-general-kairo-q2-02.png",
+          "page": 4,
+          "box": [
+            61.6,
+            272.8,
+            505.6,
+            292.0
+          ],
+          "width": 1110,
+          "height": 48,
+          "label": "電気回路 第2题 · 第4物理页第2块，原位置拼合",
+          "sha256": "8762412604f009b356741bad6465a93b6a893cbd3e31a7d4ea64418ba66b747e"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2008-general-kairo/tus-electrical-2008-general-kairo-q2-03.png",
+          "page": 4,
+          "box": [
+            48.0,
+            292.0,
+            505.6,
+            488.8
+          ],
+          "width": 1144,
+          "height": 492,
+          "label": "電気回路 第2题 · 第4物理页第3块，原位置拼合",
+          "sha256": "4f6b8f55ef970372f018ed127c546733288e5c8a09ea9c3c1688ef7aea6feaf6"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "年度封面，仅作为公共说明，不计大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2008-general-kairo-q1",
+        "tus-electrical-2008-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页码、採点欄及普通作答留白；给定公式和英语表格保留。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
