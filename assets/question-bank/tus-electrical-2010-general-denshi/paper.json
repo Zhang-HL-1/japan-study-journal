@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2010-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2010 入学年度 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-dd78276419f38ed3",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2010,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成22年度",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "2010(H22).pdf",
+    "pdf": "assets/past-papers/documents/b9c1a343c41b2f07ea9fd9cbe71bc2d23ea2c7b90fa00da18ab9e0214faa399e.pdf",
+    "sha256": "b9c1a343c41b2f07ea9fd9cbe71bc2d23ea2c7b90fa00da18ab9e0214faa399e",
+    "pageCount": 5,
+    "note": "2010入学年度（平成22年度）依据既有目录、源路径和文件名2010(H22).pdf；合册无入学年度封面，题面实施日平成21年8月5日（2009-08-05），分别保留。各科卷头确认学校、研究科、专攻与科目。同一5页PDF含电子2题、电气2题、电磁3题和英语2题；英语原文、题目给定公式、两幅图与术语表格均属原题，不当答案删除。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2010-general-denshi/common-01.png",
+      "page": 3,
+      "box": [
+        7.2,
+        8.0,
+        579.2,
+        60.8
+      ],
+      "width": 1430,
+      "height": 132,
+      "label": "本科卷头：学校、研究科、专攻、科目与实施日",
+      "sha256": "6be85a19f02f074e98c246bb8dfce4437274d935f2a26c26dfb41db8dd080469"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2010-general-denshi-q1",
+      "number": "1",
+      "title": "理想运放回路的正弦稳态增益",
+      "titleKind": "editorial",
+      "topics": [
+        "理想运放",
+        "正弦稳态"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all five source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "对照完整5页原卷及全部13张预览：题号、首末行、全部小问、公式上下标、单位、图号和元件完整。英语第1题原文、给定公式、下划线、两幅图与3小问均保留；第2题10行术语表完整且不填答案。电磁题给定磁场公式原样保留。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2010-general-denshi/tus-electrical-2010-general-denshi-q1-01.png",
+          "page": 3,
+          "box": [
+            72.8,
+            60.0,
+            488.8,
+            376.0
+          ],
+          "width": 1040,
+          "height": 790,
+          "label": "電子回路 第1题 · PDF物理页3",
+          "sha256": "2e500e3ee8f34d7ffc5d89aa02be6a6862c687d2d345a5f4eb0938a023a59b79"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2010-general-denshi-q2",
+      "number": "2",
+      "title": "逻辑回路特性与同步五进制计数器",
+      "titleKind": "editorial",
+      "topics": [
+        "逻辑回路",
+        "同步计数器"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all five source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "对照完整5页原卷及全部13张预览：题号、首末行、全部小问、公式上下标、单位、图号和元件完整。英语第1题原文、给定公式、下划线、两幅图与3小问均保留；第2题10行术语表完整且不填答案。电磁题给定磁场公式原样保留。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2010-general-denshi/tus-electrical-2010-general-denshi-q2-01.png",
+          "page": 3,
+          "box": [
+            72.8,
+            381.6,
+            490.4,
+            601.6
+          ],
+          "width": 1044,
+          "height": 550,
+          "label": "電子回路 第2题 · PDF物理页3",
+          "sha256": "ff0563ee94aaac262e178abf7c56eb3a5cf4da326c4442e41843bbe96cb61129"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2010-general-denshi-q1",
+        "tus-electrical-2010-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页码、採点欄及普通作答留白；给定公式和英语表格保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
