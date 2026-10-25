@@ -1,0 +1,554 @@
+{
+  "schemaVersion": 2,
+  "id": "tus-electrical-2014-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2014 入学年度 · 修士入试",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-686d39d7ea4967d7",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2014,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成26年度",
+    "subject": "专业科目合卷",
+    "originalSubject": "電子回路・電気回路・電磁気学",
+    "note": "2014入学年度（平成26年度）依据目录与2014(H26).pdf；题面实施日2013-08-02，分别保留。三科来自同一4页PDF，电子2题、电气2题、电磁4题，共8道大题。电子第2题所述解答用纸上的JK激励表未附于原PDF；不补造表格。保留原题与全部小问、配图，不提供答案、解析或评分。",
+    "subjects": [
+      "电子回路",
+      "电气回路",
+      "电磁回路"
+    ],
+    "files": [
+      {
+        "kind": "exam",
+        "catalogId": "tus-686d39d7ea4967d7",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2014,
+        "yearBasis": "academic",
+        "yearEvidence": "source-directory",
+        "originalYear": "平成26年度",
+        "subject": "电子回路",
+        "originalSubject": "電子回路",
+        "originalName": "2014(H26).pdf",
+        "pdf": "assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
+        "sha256": "e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d",
+        "pageCount": 4,
+        "note": "2014入学年度依据目录与文件名2014(H26).pdf；题面实施日平成25年8月2日（2013-08-02），不改写入学年度。学校、研究科、专攻和科目由各科卷头确认。三科来自同一4页合册。电子回路第2题提及解答用纸上的JK激励表，本PDF未附解答用纸；保留题目原文，不补造表格或答案。",
+        "id": "tus-electrical-2014-general-denshi",
+        "displaySubject": "电子回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-686d39d7ea4967d7",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2014,
+        "yearBasis": "academic",
+        "yearEvidence": "source-directory",
+        "originalYear": "平成26年度",
+        "subject": "电气回路",
+        "originalSubject": "電気回路",
+        "originalName": "2014(H26).pdf",
+        "pdf": "assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
+        "sha256": "e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d",
+        "pageCount": 4,
+        "note": "2014入学年度依据目录与文件名2014(H26).pdf；题面实施日平成25年8月2日（2013-08-02），不改写入学年度。学校、研究科、专攻和科目由各科卷头确认。三科来自同一4页合册。电子回路第2题提及解答用纸上的JK激励表，本PDF未附解答用纸；保留题目原文，不补造表格或答案。",
+        "id": "tus-electrical-2014-general-kairo",
+        "displaySubject": "电气回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-686d39d7ea4967d7",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2014,
+        "yearBasis": "academic",
+        "yearEvidence": "source-directory",
+        "originalYear": "平成26年度",
+        "subject": "电磁回路",
+        "originalSubject": "電磁気学",
+        "originalName": "2014(H26).pdf",
+        "pdf": "assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
+        "sha256": "e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d",
+        "pageCount": 4,
+        "note": "2014入学年度依据目录与文件名2014(H26).pdf；题面实施日平成25年8月2日（2013-08-02），不改写入学年度。学校、研究科、专攻和科目由各科卷头确认。三科来自同一4页合册。电子回路第2题提及解答用纸上的JK激励表，本PDF未附解答用纸；保留题目原文，不补造表格或答案。",
+        "id": "tus-electrical-2014-general-denjiki",
+        "displaySubject": "电磁回路"
+      }
+    ]
+  },
+  "components": [
+    {
+      "paperId": "tus-electrical-2014-general-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2014-general-kairo",
+      "subject": "电气回路"
+    },
+    {
+      "paperId": "tus-electrical-2014-general-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2014-general-denshi/common-01.png",
+      "page": 4,
+      "box": [
+        22.4,
+        12,
+        581.6,
+        64
+      ],
+      "width": 1398,
+      "height": 130,
+      "label": "本科卷头与公共说明",
+      "sha256": "9201d00d7e2e0a35ca58f21298345996c152c827f96673ad82bcf395ac66d1c4",
+      "fileId": "tus-electrical-2014-general-denshi"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2014-general-kairo/common-01.png",
+      "page": 3,
+      "box": [
+        18.4,
+        10.4,
+        579.2,
+        105.6
+      ],
+      "width": 1402,
+      "height": 238,
+      "label": "本科卷头与公共说明",
+      "sha256": "304e858e78b54b0fefce8a3d29d4988abfc5e5fefcd440f39516995a4ccae7cb",
+      "fileId": "tus-electrical-2014-general-kairo"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2014-general-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        23.2,
+        11.2,
+        584,
+        92.8
+      ],
+      "width": 1402,
+      "height": 204,
+      "label": "本科卷头与公共说明",
+      "sha256": "6873bdf328c4825a79a54e361d1e0e9d1a03a368eb2bfee931ff3548719c044b",
+      "fileId": "tus-electrical-2014-general-denjiki"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2014-general-denshi-q1",
+      "number": "1",
+      "title": "电子回路：理想运放的输出电压与输入电流",
+      "titleKind": "editorial",
+      "topics": [
+        "理想运放",
+        "RC回路"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-denshi/tus-electrical-2014-general-denshi-q1-01.png",
+          "page": 4,
+          "box": [
+            65.6,
+            68.8,
+            472.8,
+            490.4
+          ],
+          "width": 1018,
+          "height": 1054,
+          "label": "電子回路 第1题 · PDF物理页4",
+          "sha256": "406e98be0eaeaf3c075f97b0355b602e4b651bbf90ba437128e06b27bd35e90f",
+          "fileId": "tus-electrical-2014-general-denshi"
+        }
+      ],
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2014-general-denshi"
+    },
+    {
+      "id": "tus-electrical-2014-general-denshi-q2",
+      "number": "2",
+      "title": "电子回路：JK触发器激励表与同步七进制计数器",
+      "titleKind": "editorial",
+      "topics": [
+        "JK触发器",
+        "同步计数器"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。原卷提及的解答用纸未附于本PDF，未补造激励表。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-denshi/tus-electrical-2014-general-denshi-q2-01.png",
+          "page": 4,
+          "box": [
+            65.6,
+            519.2,
+            472.8,
+            616
+          ],
+          "width": 1018,
+          "height": 242,
+          "label": "電子回路 第2题 · PDF物理页4",
+          "sha256": "3a155abe6e427628fbebbfa6f62dc94d404304e9dbbee0e15d52b620f09d84c3",
+          "fileId": "tus-electrical-2014-general-denshi"
+        }
+      ],
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2014-general-denshi"
+    },
+    {
+      "id": "tus-electrical-2014-general-kairo-q1",
+      "number": "1",
+      "title": "电气回路：直流与交流电源共存的RLC稳态回路",
+      "titleKind": "editorial",
+      "topics": [
+        "稳态回路",
+        "叠加原理"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-kairo/tus-electrical-2014-general-kairo-q1-01.png",
+          "page": 3,
+          "box": [
+            27.2,
+            109.6,
+            559.2,
+            392.8
+          ],
+          "width": 1330,
+          "height": 708,
+          "label": "電気回路 第1题 · PDF物理页3",
+          "sha256": "a2231911f5a8232fd31b62872b9fba1242fe0b82ac14f9a12eae170f7853801c",
+          "fileId": "tus-electrical-2014-general-kairo"
+        }
+      ],
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2014-general-kairo"
+    },
+    {
+      "id": "tus-electrical-2014-general-kairo-q2",
+      "number": "2",
+      "title": "电气回路：开关闭合后的RC暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "RC暂态",
+        "时间常数"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-kairo/tus-electrical-2014-general-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            27.2,
+            417.6,
+            559.2,
+            657.6
+          ],
+          "width": 1330,
+          "height": 600,
+          "label": "電気回路 第2题 · PDF物理页3",
+          "sha256": "026b6eece7c09f7d337baf546f38c4045dc59da9cc39da7cd7fc18b0e7057736",
+          "fileId": "tus-electrical-2014-general-kairo"
+        }
+      ],
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2014-general-kairo"
+    },
+    {
+      "id": "tus-electrical-2014-general-denjiki-q1",
+      "number": "1",
+      "title": "电磁回路：介质膜包覆导体球的电场、电位与能量",
+      "titleKind": "editorial",
+      "topics": [
+        "导体球",
+        "介质",
+        "静电能"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-denjiki/tus-electrical-2014-general-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            35.2,
+            113.6,
+            559.2,
+            396.8
+          ],
+          "width": 1310,
+          "height": 708,
+          "label": "電磁気学 第1题 · PDF物理页1",
+          "sha256": "b35ccd081cb8604bfa8adfcf05743f122e17c8cee15fc236eec76c39ed0803d1",
+          "fileId": "tus-electrical-2014-general-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2014-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2014-general-denjiki-q2",
+      "number": "2",
+      "title": "电磁回路：半圆板空气电容器与力矩",
+      "titleKind": "editorial",
+      "topics": [
+        "电容器",
+        "静电能",
+        "力矩"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-denjiki/tus-electrical-2014-general-denjiki-q2-01.png",
+          "page": 1,
+          "box": [
+            38.4,
+            441.6,
+            559.2,
+            756.8
+          ],
+          "width": 1302,
+          "height": 788,
+          "label": "電磁気学 第2题 · PDF物理页1",
+          "sha256": "eb25b1f763cfe34c789ec2f16a170acf23899e8f5ea5f68bd562254c5622efdb",
+          "fileId": "tus-electrical-2014-general-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2014-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2014-general-denjiki-q3",
+      "number": "3",
+      "title": "电磁回路：环形线圈的自感与互感",
+      "titleKind": "editorial",
+      "topics": [
+        "自感",
+        "互感",
+        "环形线圈"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-denjiki/tus-electrical-2014-general-denjiki-q3-01.png",
+          "page": 2,
+          "box": [
+            36,
+            116,
+            564.8,
+            475.2
+          ],
+          "width": 1322,
+          "height": 898,
+          "label": "電磁気学 第3题 · PDF物理页2",
+          "sha256": "a783897048f7ab4077f6ab9eb6e49d591a0895777dfa352f59ec6b18d818c616",
+          "fileId": "tus-electrical-2014-general-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2014-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2014-general-denjiki-q4",
+      "number": "4",
+      "title": "电磁回路：位移电流与平行板电容器",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "位移电流"
+      ],
+      "summary": "原卷完整大题，保留全部小问与配图；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all four source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "逐张对照原页与预览：方框题号、首末行、全部小问、上下标、单位、图号及元件标注完整；未混入其他大题。运放三图同属电子第1题。电子第2题所述解答用纸未附，明确注明且不补造。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2014-general-denjiki/tus-electrical-2014-general-denjiki-q4-01.png",
+          "page": 2,
+          "box": [
+            38.4,
+            539.2,
+            564.8,
+            675.2
+          ],
+          "width": 1316,
+          "height": 340,
+          "label": "電磁気学 第4题 · PDF物理页2",
+          "sha256": "2dba6f98f1f3e8096ea81eb622b99e3a3a56322d00126dc89cc0f98ed123b161",
+          "fileId": "tus-electrical-2014-general-denjiki"
+        }
+      ],
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2014-general-denjiki"
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-denshi"
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-denshi"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-denshi"
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2014-general-denshi-q1",
+        "tus-electrical-2014-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页脚及作答留白。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-denshi"
+    },
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-kairo"
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-kairo"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2014-general-kairo-q1",
+        "tus-electrical-2014-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页脚及作答留白。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-kairo"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-kairo"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2014-general-denjiki-q1",
+        "tus-electrical-2014-general-denjiki-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页脚及作答留白。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-denjiki"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2014-general-denjiki-q3",
+        "tus-electrical-2014-general-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、印刷页脚及作答留白。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-denjiki"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-denjiki"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目，由对应分科清单覆盖，不重复计题。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2014-general-denjiki"
+    }
+  ]
+}
