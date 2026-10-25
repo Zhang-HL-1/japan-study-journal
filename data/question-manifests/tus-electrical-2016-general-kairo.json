@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2016-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2016 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-12fb0bfb59387305",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2016,
+    "yearBasis": "academic",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2016(H28).pdf",
+    "pdf": "assets/past-papers/documents/14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc.pdf",
+    "sha256": "14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc",
+    "pageCount": 8,
+    "note": "工学研究科・電気工学専攻，修士入试。封面平成28年度即2016入学年度；题面实施日2015-07-31，不改写年度。三个科目来自同一8页合册，各科只裁本科学题；不将科目或PDF页数当作卷数。原日文科目「電気回路」保留。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 4,
+      "box": [
+        60.0,
+        20.0,
+        680.0,
+        440.8
+      ],
+      "label": "科目封面：平成28年度、学校、研究科、专攻与作答说明"
+    },
+    {
+      "page": 4,
+      "box": [
+        72.0,
+        621.6,
+        660.0,
+        733.6
+      ],
+      "label": "科目封面：考试时间与答题纸说明"
+    },
+    {
+      "page": 5,
+      "box": [
+        63.2,
+        104.8,
+        313.6,
+        124.8
+      ],
+      "label": "本科公共说明：导出过程与答案填写要求（第6页重复）"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2016-general-kairo-q1",
+      "number": "1",
+      "title": "RLC回路的拉普拉斯分析与暂态波形",
+      "titleKind": "editorial",
+      "topics": [
+        "拉普拉斯变换",
+        "RLC暂态",
+        "电压波形"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            60.0,
+            128.0,
+            520.0,
+            417.6
+          ],
+          "label": "電気回路 第 1 题 · 原卷第 5 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      }
+    },
+    {
+      "id": "tus-electrical-2016-general-kairo-q2",
+      "number": "2",
+      "title": "二端口回路的F参数与像参数",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口网络",
+        "F参数",
+        "像参数"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            40.0,
+            114.4,
+            484.0,
+            328.0
+          ],
+          "label": "電気回路 第 2 题 · 原卷第 6 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面留白和考号框；保留全部作答要求、时间和答题纸说明。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2016-general-kairo-q1"
+      ],
+      "common": true,
+      "excluded": "重复卷头、重复书写要求与作答留白；保留所有小问、公式、配图、图号及原卷给出的特性图表。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tus-electrical-2016-general-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、重复书写要求与作答留白；保留所有小问、公式、配图、图号及原卷给出的特性图表。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}

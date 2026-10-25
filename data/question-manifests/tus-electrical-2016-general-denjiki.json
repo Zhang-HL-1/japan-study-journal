@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2016-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2016 入学年度 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-12fb0bfb59387305",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2016,
+    "yearBasis": "academic",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気学",
+    "originalName": "2016(H28).pdf",
+    "pdf": "assets/past-papers/documents/14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc.pdf",
+    "sha256": "14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc",
+    "pageCount": 8,
+    "note": "工学研究科・電気工学専攻，修士入试。封面平成28年度即2016入学年度；题面实施日2015-07-31，不改写年度。三个科目来自同一8页合册，各科只裁本科学题；不将科目或PDF页数当作卷数。原日文科目「電磁気学」保留。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        60.0,
+        20.0,
+        680.0,
+        440.8
+      ],
+      "label": "科目封面：平成28年度、学校、研究科、专攻与作答说明"
+    },
+    {
+      "page": 1,
+      "box": [
+        72.0,
+        621.6,
+        660.0,
+        733.6
+      ],
+      "label": "科目封面：考试时间与答题纸说明"
+    },
+    {
+      "page": 2,
+      "box": [
+        36.0,
+        99.2,
+        232.0,
+        126.4
+      ],
+      "label": "本科公共说明：答案填写要求（第3页重复）"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2016-general-denjiki-q1",
+      "number": "1",
+      "title": "同心球形导体的电场与电位",
+      "titleKind": "editorial",
+      "topics": [
+        "球形导体",
+        "静电场",
+        "电位"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            36.0,
+            126.4,
+            691.2,
+            525.6
+          ],
+          "label": "電磁気学 第 1 题 · 原卷第 2 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      }
+    },
+    {
+      "id": "tus-electrical-2016-general-denjiki-q2",
+      "number": "2",
+      "title": "双层介质电容器与分极电荷",
+      "titleKind": "editorial",
+      "topics": [
+        "电介质",
+        "电容器",
+        "分极电荷"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            37.6,
+            568.8,
+            672.0,
+            900.8
+          ],
+          "label": "電磁気学 第 2 题 · 原卷第 2 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      }
+    },
+    {
+      "id": "tus-electrical-2016-general-denjiki-q3",
+      "number": "3",
+      "title": "环形螺线管与矢量势的磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "螺线管",
+        "磁场",
+        "矢量势"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            33.6,
+            129.6,
+            680.0,
+            439.2
+          ],
+          "label": "電磁気学 第 3 题 · 原卷第 3 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      }
+    },
+    {
+      "id": "tus-electrical-2016-general-denjiki-q4",
+      "number": "4",
+      "title": "麦克斯韦方程的微分形式",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "电磁场"
+      ],
+      "summary": "保留原卷一道完整大题、全部小问、公式及配图。中文标题与知识点仅作导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            36.0,
+            546.4,
+            552.0,
+            728.0
+          ],
+          "label": "電磁気学 第 4 题 · 原卷第 3 页第 1 块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of every full source page and every preview crop",
+        "date": "2026-10-25",
+        "notes": "已对照8页完整合册与全部预览裁图，核对原方框题号、首末行、全部小问、上下标、公式、元件、配图、坐标轴与图号。原题给出的频率特性图和触发器特性表均保留，未误删为答案。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面留白和考号框；保留全部作答要求、时间和答题纸说明。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2016-general-denjiki-q1",
+        "tus-electrical-2016-general-denjiki-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、重复书写要求与作答留白；保留所有小问、公式、配图、图号及原卷给出的特性图表。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2016-general-denjiki-q3",
+        "tus-electrical-2016-general-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、重复书写要求与作答留白；保留所有小问、公式、配图、图号及原卷给出的特性图表。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目的封面与题面，由对应分科组件覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
