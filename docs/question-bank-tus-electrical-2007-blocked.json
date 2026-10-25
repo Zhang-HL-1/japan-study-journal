@@ -2,9 +2,10 @@
   "schemaVersion": 1,
   "collectionId": "tus-electrical-2007-general",
   "status": "partial",
-  "availableQuestions": 7,
+  "availableQuestions": 8,
   "sourceQuestionCount": 9,
-  "blocked": [
+  "blocked": [],
+  "resolved": [
     {
       "pdf": "assets/past-papers/documents/068b00332a52eddb3adc5082ad6f158dc82a42422b6ebd9b90e094dac5a6a9b5.pdf",
       "catalogIds": [
@@ -15,8 +16,12 @@
       "questionNumber": "1",
       "issue": "电桥原图叠有手写数值、方向及演算，无法在保留印刷回路的同时可靠排除参考作答。",
       "neededEvidence": "未书写的同场原卷第1题电桥图。",
-      "status": "blocked"
-    },
+      "status": "resolved",
+      "resolution": "用户明确说明少量手写不影响，要求直接截图；已保留原扫描图补入电气第1题。",
+      "questionId": "tus-electrical-2007-general-kairo-q1"
+    }
+  ],
+  "deferred": [
     {
       "pdf": "assets/past-papers/documents/068b00332a52eddb3adc5082ad6f158dc82a42422b6ebd9b90e094dac5a6a9b5.pdf",
       "catalogIds": [
@@ -27,7 +32,8 @@
       "questionNumber": "3",
       "issue": "术语后直接填写手写英文答案，裁框难以可靠保全印刷符号且不夹带答案。",
       "neededEvidence": "未书写的同场英语第3题原卷。",
-      "status": "blocked"
+      "status": "deferred",
+      "reason": "用户明确要求英语不用管，暂不处理。"
     }
   ]
 }
