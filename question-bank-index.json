@@ -64,6 +64,7 @@
     {"id": "waseda-eps-2024", "title": "早稻田大学 · 2024年9月・2025年4月入学 · 電子物理システム学専攻 専門科目", "catalogId": "waseda-63166f6106ece642", "questionCount": 6, "data": "assets/question-bank/waseda-eps-2024/paper.json"},
     {"id": "waseda-eps-2014", "title": "早稻田大学 · 2014年9月・2015年4月入学 · 電子物理システム学専攻 専門科目", "catalogId": "waseda-246df2585267648e", "questionCount": 6, "data": "assets/question-bank/waseda-eps-2014/paper.json"},
     {"id": "waseda-eps-2015", "title": "早稻田大学 · 2015年9月・2016年4月入学 · 電子物理システム学専攻 専門科目", "catalogId": "waseda-1bc1b104efacc5e6", "questionCount": 6, "data": "assets/question-bank/waseda-eps-2015/paper.json"},
-    {"id": "waseda-eps-2016", "title": "早稻田大学 · 2016年9月・2017年4月入学 · 電子物理システム学専攻 専門科目", "catalogId": "waseda-65f491014ecf954f", "questionCount": 6, "data": "assets/question-bank/waseda-eps-2016/paper.json"}
+    {"id": "waseda-eps-2016", "title": "早稻田大学 · 2016年9月・2017年4月入学 · 電子物理システム学専攻 専門科目", "catalogId": "waseda-65f491014ecf954f", "questionCount": 6, "data": "assets/question-bank/waseda-eps-2016/paper.json"},
+    {"id": "waseda-eps-2017", "title": "早稻田大学 · 2017年9月・2018年4月入学 · 電子物理システム学専攻 専門科目", "catalogId": "waseda-3a6caa92d4660b03", "questionCount": 6, "data": "assets/question-bank/waseda-eps-2017/paper.json"}
   ]
 }
