@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2010-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2010 入学年度 · 修士入试",
+  "catalogId": "tus-dd78276419f38ed3",
+  "components": [
+    {
+      "paperId": "tus-electrical-2010-general-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2010-general-kairo",
+      "subject": "电气回路"
+    },
+    {
+      "paperId": "tus-electrical-2010-general-denjiki",
+      "subject": "电磁回路"
+    },
+    {
+      "paperId": "tus-electrical-2010-general-english",
+      "subject": "英语"
+    }
+  ],
+  "note": "2010入学年度（平成22年度）依据目录、源路径与2010(H22).pdf；合册未含入学年度封面，题面实施日为2009-08-05，分别保留。同一5页合册包含电子回路2题、电气回路2题、电磁回路3题及英语2题，共9道完整大题。英语原文、给定公式、两幅电路图和术语表格属于题目，完整保留，不补写答案、解析或评分。"
+}
