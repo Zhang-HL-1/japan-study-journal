@@ -113,7 +113,7 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
        await page.keyboard.press('Escape');assert.equal(await page.locator('#image-dialog').isVisible(),false);
       }
      }
-     if(process.env.STUDY_ROOM_SCREENSHOTS&&(id==='tus-electrical-2025-general'||id.startsWith('tus-electrical-2024-')||id==='tus-electrical-2023-general'||id==='tus-electrical-2021-general'||id==='tus-electrical-2016-general'||id==='tus-electrical-2015-general'||id==='tus-electrical-2014-general'||id==='tus-electrical-2012-general'||id==='tus-electrical-2011-general'||id==='tus-electrical-2010-general'||id==='tus-electrical-2009-general'||id==='tus-electrical-2013-general')) {
+     if(process.env.STUDY_ROOM_SCREENSHOTS&&(id==='tus-electrical-2025-general'||id.startsWith('tus-electrical-2024-')||id==='tus-electrical-2023-general'||id==='tus-electrical-2021-general'||id==='tus-electrical-2016-general'||id==='tus-electrical-2015-general'||id==='tus-electrical-2014-general'||id==='tus-electrical-2012-general'||id==='tus-electrical-2011-general'||id==='tus-electrical-2010-general'||id==='tus-electrical-2009-general'||id==='tus-electrical-2013-general'||id==='tus-electrical-2008-general')) {
       fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS,{recursive:true});
       await page.locator('#question-content').scrollIntoViewIfNeeded();
       await page.locator('#common-content img,#question-content img').evaluateAll(async es=>Promise.all(es.map(e=>e.decode())));

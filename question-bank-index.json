@@ -61,6 +61,7 @@
     {"id": "science-tokyo-ee-2023", "title": "东京科学大学 · 2023 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2023", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2023/paper.json"},
     {"id": "science-tokyo-ee-2024", "title": "东京科学大学 · 2024 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2024", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2024/paper.json"},
     {"id": "science-tokyo-ee-2025", "title": "东京科学大学 · 2025 年实施 · 电气电子系笔答", "catalogId": "science-tokyo-ee-2025", "questionCount": 8, "data": "assets/question-bank/science-tokyo-ee-2025/paper.json"},
+    {"id": "tus-electrical-2008-general", "title": "东京理科大学 · 工学研究科电气工学 · 2008 入学年度 · 修士入试", "catalogId": "tus-6991efdec1657e91", "questionCount": 8, "data": "assets/question-bank/tus-electrical-2008-general/paper.json"},
     {"id": "tus-electrical-2009-general", "title": "东京理科大学 · 工学研究科电气工学 · 2009 入学年度 · 修士入试", "catalogId": "tus-eb7f476e0441f793", "questionCount": 8, "data": "assets/question-bank/tus-electrical-2009-general/paper.json"},
     {"id": "tus-electrical-2010-general", "title": "东京理科大学 · 工学研究科电气工学 · 2010 入学年度 · 修士入试", "catalogId": "tus-dd78276419f38ed3", "questionCount": 9, "data": "assets/question-bank/tus-electrical-2010-general/paper.json"},
     {"id": "tus-electrical-2011-general", "title": "东京理科大学 · 工学研究科电气工学 · 2011 入学年度 · 修士入试", "catalogId": "tus-d0cbe2480dbac6d9", "questionCount": 8, "data": "assets/question-bank/tus-electrical-2011-general/paper.json"},
