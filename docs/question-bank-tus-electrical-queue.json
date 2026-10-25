@@ -10,12 +10,12 @@
     "catalogGroups": 24,
     "uniqueQuestionPdfs": 41,
     "pdfPages": 232,
-    "verifiedPdfs": 18,
-    "verifiedQuestions": 70,
-    "pendingPdfs": 17,
-    "logicalExamPapers": 7,
+    "verifiedPdfs": 19,
+    "verifiedQuestions": 78,
+    "pendingPdfs": 16,
+    "logicalExamPapers": 8,
     "duplicatePdfs": 6,
-    "coveredPdfs": 24
+    "coveredPdfs": 25
   },
   "sources": [
     {
@@ -624,8 +624,14 @@
           "endPage": null
         }
       ],
-      "status": "pending",
-      "paperIds": []
+      "status": "verified",
+      "paperIds": [
+        "tus-electrical-2015-general-denjiki",
+        "tus-electrical-2015-general-denshi",
+        "tus-electrical-2015-general-kairo"
+      ],
+      "collectionId": "tus-electrical-2015-general",
+      "note": "同一5页合册三个科目合为一套8题考试，电子3题、电气2题、电磁3题。未含科目封面，入学年度依据既有目录和源文件名，实施日另记。"
     },
     {
       "pdf": "assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
