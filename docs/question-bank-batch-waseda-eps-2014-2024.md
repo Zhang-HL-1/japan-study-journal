@@ -17,9 +17,10 @@ AI visual review，2026-10-24。答案未做。草稿 PR，待用户说合并。
 | `waseda-eps-2016` | `waseda-65f491014ecf954f` | 2016 | academic | `253c4186e5ca` | 7 | 6 |
 | `waseda-eps-2017` | `waseda-3a6caa92d4660b03` | 2017 | academic | `aedb4bd36f17` | 7 | 6 |
 | `waseda-eps-2021` | `waseda-39b945434e9803a2` | 2021 | academic | `b645e97909d5` | 7 | 6 |
+| `waseda-eps-2022` | `waseda-08a0e7fe5328f802` | 2022 | academic | `a24f6a584725` | 13 | 6 |
 | `waseda-eps-2024` | `waseda-63166f6106ece642` | 2024 | academic | `34501f43f1cb` | 13 | 6 |
 
-统计：唯一 question PDF 6；目录引用 6；verified 大题 36；blocked 2；生成物约 18 MB。
+统计：唯一 question PDF 7；目录引用 7；verified 大题 42；blocked 2；生成物约 22 MB。
 
 ## 题界口径（本批确立）
 
@@ -85,4 +86,5 @@ status: blocked
 ## 未做
 
 - 2018、2019（均为旋转页，blocked；2019 另含外国人入试页）
+- 2023、2025（长卷，13–14 页）
 - 2022、2023、2025 长卷（13–14 页）
