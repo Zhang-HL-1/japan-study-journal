@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2014-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2014 入学年度 · 修士入试",
+  "catalogId": "tus-686d39d7ea4967d7",
+  "components": [
+    {
+      "paperId": "tus-electrical-2014-general-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2014-general-kairo",
+      "subject": "电气回路"
+    },
+    {
+      "paperId": "tus-electrical-2014-general-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "note": "2014入学年度（平成26年度）依据目录与2014(H26).pdf；题面实施日2013-08-02，分别保留。三科来自同一4页PDF，电子2题、电气2题、电磁4题，共8道大题。电子第2题所述解答用纸上的JK激励表未附于原PDF；不补造表格。保留原题与全部小问、配图，不提供答案、解析或评分。"
+}
