@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2012-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2012 入学年度 · 修士入试",
+  "catalogId": "tus-30272f659e766cff",
+  "components": [
+    {
+      "paperId": "tus-electrical-2012-general-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2012-general-kairo",
+      "subject": "电气回路"
+    },
+    {
+      "paperId": "tus-electrical-2012-general-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "note": "2012入学年度（平成24年度）依据既有目录与2012(H24).pdf，合册没有入学年度封面；题面实施日为2011-08-05，分别保留。电子回路2题、电气回路2题、电磁回路4题来自同一6页PDF，共8道完整大题。保留电磁第4题原始作答表格、电子第2题JK回路图及全部小问、单位与图号。不提供答案、解析或评分。"
+}

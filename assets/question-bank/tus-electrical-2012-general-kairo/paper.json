@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2012-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2012 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-30272f659e766cff",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2012,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成24年度",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2012(H24).pdf",
+    "pdf": "assets/past-papers/documents/84003fc8176ce3fa24a656f0564366a25faac1252c2aedfd1d76da1b6fc66c7d.pdf",
+    "sha256": "84003fc8176ce3fa24a656f0564366a25faac1252c2aedfd1d76da1b6fc66c7d",
+    "pageCount": 6,
+    "note": "2012入学年度（平成24年度）依据既有目录和源文件名2012(H24).pdf；合册无入学年度封面，卷头实施日平成23年8月5日（2011-08-05），不改写年度。学校、研究科、专攻和科目由卷头确认。三科来自同一6页PDF；保留电磁第4题原始作答表格及电子第2题JK回路图，不填写答案。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2012-general-kairo/common-01.png",
+      "page": 4,
+      "box": [
+        16.8,
+        8.0,
+        577.6,
+        60.8
+      ],
+      "width": 1402,
+      "height": 132,
+      "label": "本科卷头：学校、研究科、专攻、科目与实施日",
+      "sha256": "d1348d4e7b65f10d4eb48f9a458c336ad525a12d830c888f5193338faabb3793"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2012-general-kairo-q1",
+      "number": "1",
+      "title": "二端口回路的F参数及直流测量",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口网络",
+        "F参数"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、公式、配图和给定作答表格；中文标题与知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all six full source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "对照重新渲染的6页原卷与全部预览：方框题号、首末行、小问、上下标、单位、元件、箭头与图号完整。电气第2题首行与电磁第2题右侧d1/d2经预览修正后重看；电磁第4题给定表格完整保留且不填写，电子第2题JK回路不拆题。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2012-general-kairo/tus-electrical-2012-general-kairo-q1-01.png",
+          "page": 4,
+          "box": [
+            40.8,
+            83.2,
+            492.8,
+            320.0
+          ],
+          "width": 1130,
+          "height": 592,
+          "label": "電気回路 第1题 · PDF物理页4",
+          "sha256": "6d30eea1c716ad19a87f52460ef8b6b7f8d0825eacce2ebccf7927c54d874f5e"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2012-general-kairo-q2",
+      "number": "2",
+      "title": "切换开关RC回路的电流与能量",
+      "titleKind": "editorial",
+      "topics": [
+        "RC暂态",
+        "能量"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、公式、配图和给定作答表格；中文标题与知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all six full source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "对照重新渲染的6页原卷与全部预览：方框题号、首末行、小问、上下标、单位、元件、箭头与图号完整。电气第2题首行与电磁第2题右侧d1/d2经预览修正后重看；电磁第4题给定表格完整保留且不填写，电子第2题JK回路不拆题。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2012-general-kairo/tus-electrical-2012-general-kairo-q2-01.png",
+          "page": 5,
+          "box": [
+            44.0,
+            69.6,
+            504.0,
+            321.6
+          ],
+          "width": 1150,
+          "height": 630,
+          "label": "電気回路 第2题 · PDF物理页5",
+          "sha256": "c24943103fec29ff83b4e3ec2774af353e30b07a9f84b1a8898e0f6ea95b4826"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tus-electrical-2012-general-kairo-q1"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页码、採点欄及作答留白；电磁第4题给定表格属于题目，保留。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2012-general-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、印刷页码、採点欄及作答留白；电磁第4题给定表格属于题目，保留。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面由对应分科覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
