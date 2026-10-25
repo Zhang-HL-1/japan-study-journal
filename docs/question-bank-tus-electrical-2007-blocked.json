@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "tus-electrical-2007-general",
+  "status": "partial",
+  "availableQuestions": 7,
+  "sourceQuestionCount": 9,
+  "blocked": [
+    {
+      "pdf": "assets/past-papers/documents/068b00332a52eddb3adc5082ad6f158dc82a42422b6ebd9b90e094dac5a6a9b5.pdf",
+      "catalogIds": [
+        "tus-af78c6e4dca58bd7"
+      ],
+      "page": 2,
+      "subject": "電気回路",
+      "questionNumber": "1",
+      "issue": "电桥原图叠有手写数值、方向及演算，无法在保留印刷回路的同时可靠排除参考作答。",
+      "neededEvidence": "未书写的同场原卷第1题电桥图。",
+      "status": "blocked"
+    },
+    {
+      "pdf": "assets/past-papers/documents/068b00332a52eddb3adc5082ad6f158dc82a42422b6ebd9b90e094dac5a6a9b5.pdf",
+      "catalogIds": [
+        "tus-af78c6e4dca58bd7"
+      ],
+      "page": 6,
+      "subject": "英語",
+      "questionNumber": "3",
+      "issue": "术语后直接填写手写英文答案，裁框难以可靠保全印刷符号且不夹带答案。",
+      "neededEvidence": "未书写的同场英语第3题原卷。",
+      "status": "blocked"
+    }
+  ]
+}
