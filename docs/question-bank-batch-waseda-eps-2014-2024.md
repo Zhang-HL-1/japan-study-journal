@@ -1,4 +1,4 @@
-# 批次：早稻田大学 · 電子物理システム学専攻 · 2014–2016 + 2024
+# 批次：早稻田大学 · 電子物理システム学専攻 · 2014–2017 + 2021 + 2024
 
 AI visual review，2026-10-24。答案未做。草稿 PR，待用户说合并。
 
@@ -6,7 +6,7 @@ AI visual review，2026-10-24。答案未做。草稿 PR，待用户说合并。
 
 - schoolId：`waseda` / 基幹理工学研究科 / 電子物理システム学専攻
 - yearBasis：全部 `academic`（目录标注「9月・次年4月入学」，不是实施年）
-- 年份：2014、2015、2016、2024（该专攻目录共 11 份，本轮 4 份）
+- 年份：2014、2015、2016、2017、2021、2024（该专攻目录共 11 份，本轮 6 份）
 - 入试区分：均为一般入试「専門科目」；2019 卷内含外国人留学生入试（物理）页，不在本轮
 - 三科合卷（力学・電磁気学・回路理論），封面要求三科中选两科作答
 
@@ -15,9 +15,11 @@ AI visual review，2026-10-24。答案未做。草稿 PR，待用户说合并。
 | `waseda-eps-2014` | `waseda-246df2585267648e` | 2014 | academic | `dc3ed93aab6d` | 7 | 6 |
 | `waseda-eps-2015` | `waseda-1bc1b104efacc5e6` | 2015 | academic | `a34cc0715619` | 7 | 6 |
 | `waseda-eps-2016` | `waseda-65f491014ecf954f` | 2016 | academic | `253c4186e5ca` | 7 | 6 |
+| `waseda-eps-2017` | `waseda-3a6caa92d4660b03` | 2017 | academic | `aedb4bd36f17` | 7 | 6 |
+| `waseda-eps-2021` | `waseda-39b945434e9803a2` | 2021 | academic | `b645e97909d5` | 7 | 6 |
 | `waseda-eps-2024` | `waseda-63166f6106ece642` | 2024 | academic | `34501f43f1cb` | 13 | 6 |
 
-统计：唯一 question PDF 4；目录引用 4；verified 大题 24；blocked 0；生成物约 11.8 MB。
+统计：唯一 question PDF 6；目录引用 6；verified 大题 36；blocked 1；生成物约 18 MB。
 
 ## 题界口径（本批确立）
 
@@ -43,7 +45,16 @@ AI visual review，2026-10-24。答案未做。草稿 PR，待用户说合并。
 
 ## 阻塞
 
-无。
+```text
+pdf: assets/past-papers/documents/684989cdcbb7b157d561dcfc1e0f826342afc0cba48c8c8f380c3db6705e3188.pdf
+catalogIds: [waseda-6efa445cc5d92ae2]（2018年9月・2019年4月入学）
+page: 2 / 4 / 6
+issue: 旋转页（/Rotate 270）——脚本拒绝裁切，坐标须先规范化
+neededEvidence: 做规范化派生副本，记录原/派生两份哈希与坐标映射，再扩展脚本
+status: blocked
+```
+
+2018 卷其余页正常，但 p2/p4/p6 为旋转页，按 skill 规定不静默替换原 PDF，暂缓。
 
 ## 入口
 
@@ -62,5 +73,5 @@ AI visual review，2026-10-24。答案未做。草稿 PR，待用户说合并。
 
 ## 未做
 
-- 2017、2018、2021、2019（2019 含外国人留学生入试页，需单独判断归属）
+- 2018（旋转页，blocked）、2019（含外国人留学生入试页，需单独判断归属）
 - 2022、2023、2025 长卷（13–14 页）

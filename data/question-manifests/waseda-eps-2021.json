@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2021",
+  "title": "早稻田大学 · 2021年9月・2022年4月入学 · 電子物理システム学専攻 専門科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-39b945434e9803a2",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2021,
+    "yearBasis": "academic",
+    "subject": "専門科目（力学・電磁気学・回路理論／3 科选 2 科）",
+    "originalSubject": "専門科目",
+    "originalName": "51_M_denshibutsuri_2021_September2022_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/b645e97909d51dc5078be93eb823fb64b70223ce978622fe00c9915f3345f7cf.pdf",
+    "sha256": "b645e97909d51dc5078be93eb823fb64b70223ce978622fe00c9915f3345f7cf",
+    "pageCount": 7,
+    "note": "yearBasis=academic：封面「2021年9月・2022年4月入学試験」。7 页=問題表紙 1 + 問題用紙 6（每页一大题）；本年封面只印两条 ◎（問題用紙 6 ページ／解答用紙 6 枚綴り），未印「三科选两科」与作答细则，故本卷不据封面断言选择制（其他年份的選択规则见各自 note）。PDF 带文字层但为扫描 OCR，质量差（「図l」「心(x)」等），仅辅助定位，正文以裁图为准。页内编号：p2 問1/問2、p3 問3/問4、p4 問1/問2、p5 問3/問4、p6 問1、p7 問2，按問題番号归并。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        40,
+        40,
+        560,
+        240
+      ],
+      "label": "問題表紙：試験名・研究科・専攻・選択規則と作答注意"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2021-rikigaku-1",
+      "number": "問題番号 1",
+      "title": "力学：圆柱侧面的质点与可动支点振子",
+      "titleKind": "editorial",
+      "topics": [
+        "ラグランジュ形式",
+        "ハミルトン形式",
+        "正準方程式",
+        "振り子",
+        "微小振動"
+      ],
+      "summary": "問1 半径 a 圆柱侧面上质点：(1) 以 a、θ 表示 x,y，(2) 拉格朗日量，(3) θ 与 z 的运动方程；問2 支点可动的振子：(1)–(5) 共轭动量与哈密顿量、正则方程、支点以 u(t) 移动时的量、u(t)=sin ωt 时小角近似的一般解。含図1・図2。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            36,
+            144.5,
+            578,
+            779.5
+          ],
+          "label": "力学（その1）問題番号 1：問1 (1)–(3) 与問2 (1)–(5)"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p2：题号框「問題番号 1」在，問1 (1)–(3) 与図1、問2 (1)–(5) 与図2 齐全，末行完整。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-rikigaku-2",
+      "number": "問題番号 2",
+      "title": "力学：波函数叠加与测量",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "重ね合わせ",
+        "固有値",
+        "期待値",
+        "測定"
+      ],
+      "summary": "問3 三个本征函数叠加（λ = −3f, f, 6f）：(1) 内积 (u3,ψ)、(2) |C2|²、(3) 期望值与标准差、(4) 测量结果；問4 无限深井：(1) 以 k 表示 E、(2) 接续条件与全部本征函数、(3) 归一化。中文概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            36,
+            144,
+            578,
+            813.5
+          ],
+          "label": "力学（その2）問題番号 2：問3 与問4"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p3：题号框「問題番号 2」在，問3 (1)–(4)（λ=−3f,f,6f）与問4 无限深井 (1)–(3)、V 图齐全。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-denjiki-1",
+      "number": "問題番号 1",
+      "title": "电磁气学：两点电荷的电场与向量场",
+      "titleKind": "editorial",
+      "topics": [
+        "電荷",
+        "静電界",
+        "双極子",
+        "ベクトル場",
+        "発散"
+      ],
+      "summary": "問1 点 r1、r2 处 −q、+q 的电场：精确式（含 |r|<d 区域）与 |r|≫d 的近似；問2 向量场 V 的散度与旋度。含図1。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            36,
+            144,
+            578,
+            547.5
+          ],
+          "label": "電磁気学（その1）問題番号 1：問1 与問2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p4：题号框「問題番号 1」在，問1 (1)(2) 与図1、問2 向量场与 (1)(2) 齐全。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-denjiki-2",
+      "number": "問題番号 2",
+      "title": "电磁气学：欧姆定律与铁环磁路",
+      "titleKind": "editorial",
+      "topics": [
+        "電流",
+        "磁界",
+        "磁気回路",
+        "磁束",
+        "アンペールの法則"
+      ],
+      "summary": "問3 (1) 电流密度 J 下的电压（欧姆定律）与 MKSA 单位；(2) 铁环的磁気抵抗与磁束（安培环路定理）；(3) 增大磁束的构造。問4 后续小问。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            36,
+            143,
+            578,
+            674.5
+          ],
+          "label": "電磁気学（その2）問題番号 2：問3 与問4"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p5：题号框「問題番号 2」在，問3 (1)–(4) 与図2、問4 (1)–(3) 齐全。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-kairo-1",
+      "number": "問題番号 1",
+      "title": "电气回路：交流电源与可变负载",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "内部インピーダンス",
+        "最大電力",
+        "整合"
+      ],
+      "summary": "問1 交流电压源 E、内部阻抗 Z0 = R0 + jX0、可变的负载，求最大功率条件与功率值。含図。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            36,
+            149.5,
+            578,
+            649
+          ],
+          "label": "回路理論（その1）問題番号 1：問1"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p6：题号框「問題番号 1」在，問1 (1)–(7) 与図1-1・図1-2 齐全。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-kairo-2",
+      "number": "問題番号 2",
+      "title": "电气回路：二端口网络",
+      "titleKind": "editorial",
+      "topics": [
+        "二端子対網",
+        "フェーザ表示",
+        "四端子定数",
+        "アドミタンス"
+      ],
+      "summary": "問2 由 L1、R1、R2、C1 组成的二端口网络：(1) 以 1-1′ 为输入、2-2′ 为输出的二端口处理，求 Y 参数与四端子定数等。含図2(a)(b)(c)。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            36,
+            149.5,
+            578,
+            792.5
+          ],
+          "label": "回路理論（その2）問題番号 2：問2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-25",
+        "notes": "对照 p7：题号框「問題番号 2」在，問2 (1)–(6) 与図2(a)(b) 齐全。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "問題表紙：試験名・研究科・専攻、問題用紙 6 页、解答用紙 6 枚、三科选两科的選択规则与作答指示。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "waseda-eps-2021-rikigaku-1"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2021-rikigaku-2"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2021-denjiki-1"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2021-denjiki-2"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2021-kairo-1"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2021-kairo-2"
+      ],
+      "common": false,
+      "excluded": "重复页眉（No./試験名/科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}
