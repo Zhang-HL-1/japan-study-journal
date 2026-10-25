@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2009-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2009 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-eb7f476e0441f793",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2009,
+    "yearBasis": "academic",
+    "yearEvidence": "source-directory",
+    "originalYear": "平成21年度",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2009(H21).pdf",
+    "pdf": "assets/past-papers/documents/2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07.pdf",
+    "sha256": "2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07",
+    "pageCount": 6,
+    "note": "2009入学年度（平成21年度）依据既有目录、源路径和文件名2009(H21).pdf；合册无入学年度封面，题面实施日平成20年8月5日（2008-08-05），分别保留。各科卷头确认学校、研究科、专攻与科目。同一6页PDF含电子2题、电气2题、电磁2题和英语2题；英语原文、下划线、Fig.1空作图框、Fig.2波形图与术语表格均属原题，不当答案删除。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2009-general-kairo/common-01.png",
+      "page": 3,
+      "box": [
+        13.6,
+        9.6,
+        583.2,
+        65.6
+      ],
+      "width": 1424,
+      "height": 140,
+      "label": "本科卷头：学校、研究科、专攻、科目与实施日",
+      "sha256": "b5559ce5cca332e879d63067aee583906d497fc905dac0b349d898e667421e25"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2009-general-kairo-q1",
+      "number": "1",
+      "title": "二端口F参数与负载电压条件",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口网络",
+        "F参数"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all six source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整6页原卷与全部12张预览逐张对照：方框题号、首末行、全部小问、公式上下标、图号与元件完整。电气第2题放大核定为三相起电力；英语第1题下划线、3小问、Fig.1空作图框和Fig.2全部坐标波形保留；第2题10行表格完整。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2009-general-kairo/tus-electrical-2009-general-kairo-q1-01.png",
+          "page": 3,
+          "box": [
+            65.6,
+            86.4,
+            521.6,
+            336.0
+          ],
+          "width": 1140,
+          "height": 624,
+          "label": "電気回路 第1题 · PDF物理页3",
+          "sha256": "0240fb5fef594c25b600055c4c24ff03dfb1821368ad4bba945a639f7b6e191c"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2009-general-kairo-q2",
+      "number": "2",
+      "title": "三相起电力Y形负载的对称分量",
+      "titleKind": "editorial",
+      "topics": [
+        "对称分量",
+        "Y形负载"
+      ],
+      "summary": "保留原卷一道完整大题及全部小问、给定公式、原文、配图和表格；中文标题与知识点仅用于导航，以原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all six source pages and every preview crop",
+        "date": "2026-10-25",
+        "notes": "完整6页原卷与全部12张预览逐张对照：方框题号、首末行、全部小问、公式上下标、图号与元件完整。电气第2题放大核定为三相起电力；英语第1题下划线、3小问、Fig.1空作图框和Fig.2全部坐标波形保留；第2题10行表格完整。中文标题非译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2009-general-kairo/tus-electrical-2009-general-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            65.6,
+            348.0,
+            522.4,
+            645.6
+          ],
+          "width": 1142,
+          "height": 744,
+          "label": "電気回路 第2题 · PDF物理页3",
+          "sha256": "31fc938cea8f6b70b22401f4b79b822806f63f00e8cc100c6606494d53957ae5"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2009-general-kairo-q1",
+        "tus-electrical-2009-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "重复卷头、印刷页码、採点欄及普通作答留白；给定公式和英语表格保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同合册其他科目题面，由对应组件清单覆盖，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
