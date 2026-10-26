@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 2,
+  "id": "tus-electrical-1997-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 1997 入学年度 · 电子回路（用户截图，题面残缺）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-4b5576c516e10f37",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 1997,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成9年度",
+    "subject": "专业科目合卷",
+    "originalSubject": "電子回路",
+    "note": "1997入学年度（平成9年度），原卷实施日1996-08-02。用户明确要求直接使用其截图，允许题面残缺原样收录。正文为用户截图原文件，不是从PDF重新裁图；两个题面部分都保留完整截图供对照。原题号缺损，使用位置名称，不猜编号；逻辑题卡诺图表体缺损，不按解答补造。review仅确认截图忠实及缺损披露，不代表题面完整。原PDF第2–3页手写解答全部排除。",
+    "screenshot": {
+      "src": "assets/question-bank/tus-electrical-1997-general-denshi/user-screenshot.png",
+      "originalName": "截屏2026-10-26 12.35.31.png",
+      "sha256": "ba23b9885e0182b38e64996db2f0986bdc37224447d1c311904d5099a4e64792",
+      "width": 664,
+      "height": 704,
+      "coordinateSystem": "screenshot-pixels",
+      "relatedPdfPage": 1,
+      "userAuthorizedIncomplete": true,
+      "processing": "byte-for-byte original; no resize, recompression, sharpening or redrawing"
+    },
+    "subjects": [
+      "电子回路"
+    ],
+    "files": [
+      {
+        "kind": "exam",
+        "catalogId": "tus-4b5576c516e10f37",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 1997,
+        "yearBasis": "academic",
+        "yearEvidence": "cover",
+        "originalYear": "平成9年度",
+        "subject": "电子回路",
+        "originalSubject": "電子回路",
+        "originalName": "1997(H09).pdf",
+        "pdf": "assets/past-papers/documents/53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c.pdf",
+        "sha256": "53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c",
+        "pageCount": 3,
+        "note": "1997入学年度（平成9年度），原卷实施日1996-08-02。用户明确要求直接使用其截图，允许题面残缺原样收录。正文为用户截图原文件，不是从PDF重新裁图；两个题面部分都保留完整截图供对照。原题号缺损，使用位置名称，不猜编号；逻辑题卡诺图表体缺损，不按解答补造。review仅确认截图忠实及缺损披露，不代表题面完整。原PDF第2–3页手写解答全部排除。",
+        "screenshot": {
+          "src": "assets/question-bank/tus-electrical-1997-general-denshi/user-screenshot.png",
+          "originalName": "截屏2026-10-26 12.35.31.png",
+          "sha256": "ba23b9885e0182b38e64996db2f0986bdc37224447d1c311904d5099a4e64792",
+          "width": 664,
+          "height": 704,
+          "coordinateSystem": "screenshot-pixels",
+          "relatedPdfPage": 1,
+          "userAuthorizedIncomplete": true,
+          "processing": "byte-for-byte original; no resize, recompression, sharpening or redrawing"
+        },
+        "id": "tus-electrical-1997-general-denshi",
+        "displaySubject": "电子回路"
+      }
+    ]
+  },
+  "components": [
+    {
+      "paperId": "tus-electrical-1997-general-denshi",
+      "subject": "电子回路"
+    }
+  ],
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "tus-electrical-1997-general-denshi-opamp-fragment",
+      "number": "上半部分",
+      "title": "电子回路：运放正反馈回路（题面残缺）",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "正反馈"
+      ],
+      "summary": "按用户要求保留整张原截图；该部分题面残缺，原题号不可辨，未补写。中文标题仅作导航；截图中的缺失、模糊和表格缺损均保持原貌。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of user-provided screenshot",
+        "date": "2026-10-26",
+        "notes": "核对用户截图与PDF第1页对应，截图字节不变；按用户明确授权发布残缺片段，不声称完整大题。全部原PDF页已看，手写解答排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-1997-general-denshi/user-screenshot.png",
+          "page": 1,
+          "box": [
+            0,
+            0,
+            664,
+            704
+          ],
+          "width": 664,
+          "height": 704,
+          "sha256": "ba23b9885e0182b38e64996db2f0986bdc37224447d1c311904d5099a4e64792",
+          "label": "用户提供的完整原截图（题面残缺，不补写）",
+          "coordinateSystem": "screenshot-pixels",
+          "fileId": "tus-electrical-1997-general-denshi"
+        }
+      ],
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-1997-general-denshi"
+    },
+    {
+      "id": "tus-electrical-1997-general-denshi-logic-fragment",
+      "number": "下半部分",
+      "title": "电子回路：卡诺图与NOR门（表格残缺）",
+      "titleKind": "editorial",
+      "topics": [
+        "卡诺图",
+        "逻辑回路",
+        "NOR门"
+      ],
+      "summary": "按用户要求保留整张原截图；该部分题面残缺，原题号不可辨，未补写。中文标题仅作导航；截图中的缺失、模糊和表格缺损均保持原貌。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of user-provided screenshot",
+        "date": "2026-10-26",
+        "notes": "核对用户截图与PDF第1页对应，截图字节不变；按用户明确授权发布残缺片段，不声称完整大题。全部原PDF页已看，手写解答排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-1997-general-denshi/user-screenshot.png",
+          "page": 1,
+          "box": [
+            0,
+            0,
+            664,
+            704
+          ],
+          "width": 664,
+          "height": 704,
+          "sha256": "ba23b9885e0182b38e64996db2f0986bdc37224447d1c311904d5099a4e64792",
+          "label": "用户提供的完整原截图（题面残缺，不补写）",
+          "coordinateSystem": "screenshot-pixels",
+          "fileId": "tus-electrical-1997-general-denshi"
+        }
+      ],
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-1997-general-denshi"
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-1997-general-denshi-opamp-fragment",
+        "tus-electrical-1997-general-denshi-logic-fragment"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "用户截图原样收录上、下两部分残缺题面，缺失处不补写；原PDF卷头仅用于年度证据。",
+      "fileId": "tus-electrical-1997-general-denshi"
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "reviewed": true,
+      "excluded": "独立手写解答全部排除。",
+      "fileId": "tus-electrical-1997-general-denshi"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "reviewed": true,
+      "excluded": "独立手写解答全部排除。",
+      "fileId": "tus-electrical-1997-general-denshi"
+    }
+  ]
+}
