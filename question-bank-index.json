@@ -1,6 +1,9 @@
 {
   "schemaVersion": 1,
   "papers": [
+    {"id": "tus-electrical-1998-general", "title": "东京理科大学 · 工学研究科电气工学 · 1998 入学年度 · 修士入试（仅电子第1题）", "catalogId": "tus-50ed7bf8bfc02ca2", "questionCount": 1, "data": "assets/question-bank/tus-electrical-1998-general/paper.json"},
+    {"id": "tus-electrical-1999-general", "title": "东京理科大学 · 工学研究科电气工学 · 1999 入学年度 · 修士入试（电子、电气；电磁原题缺失）", "catalogId": "tus-384d1cf6520d0c45", "questionCount": 4, "data": "assets/question-bank/tus-electrical-1999-general/paper.json"},
+    {"id": "tus-electrical-2000-general", "title": "东京理科大学 · 工学研究科电气工学 · 2000 入学年度 · 修士入试", "catalogId": "tus-29f15206f5817fb9", "questionCount": 9, "data": "assets/question-bank/tus-electrical-2000-general/paper.json"},
     {"id": "tus-electrical-2001-general", "title": "东京理科大学 · 工学研究科电气工学 · 2001 入学年度 · 修士入试（英语未收录）", "catalogId": "tus-818b34507e889768", "questionCount": 11, "data": "assets/question-bank/tus-electrical-2001-general/paper.json"},
     {"id": "tus-electrical-2002-general", "title": "东京理科大学 · 工学研究科电气工学 · 2002 入学年度 · 修士入试（英语未收录）", "catalogId": "tus-116efe829c3d8c87", "questionCount": 9, "data": "assets/question-bank/tus-electrical-2002-general/paper.json"},
     {"id": "tus-electrical-2004-general", "title": "东京理科大学 · 工学研究科电气工学 · 2004 入学年度 · 修士入试（英语未收录）", "catalogId": "tus-426f9877d3ea1ced", "questionCount": 8, "data": "assets/question-bank/tus-electrical-2004-general/paper.json"},

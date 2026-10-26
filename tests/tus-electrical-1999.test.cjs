@@ -1,0 +1,9 @@
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
+const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+test('1999 preserves four complete question units at scale 4 and excludes handwritten answers',()=>{
+ const p=read('assets/question-bank/tus-electrical-1999-general/paper.json');assert.equal(p.questions.length,4);assert.equal(p.source.year,1999);assert.equal(p.source.yearBasis,'academic');assert.match(p.source.note,/1998-08-03/);assert.match(p.title,/电磁原题缺失/);assert.deepEqual(p.source.subjects,['电子回路','电气回路']);assert.equal(new Set(p.source.files.map(f=>f.pdf)).size,1);assert.deepEqual(p.questions.map(q=>q.number),['1','2','1','2']);assert.deepEqual(p.questions.map(q=>q.parts[0].page),[2,2,1,1]);
+ for(const f of p.source.files){assert.equal(hash(f.pdf),f.sha256);assert.equal(f.pageCount,6);const m=read(`data/question-manifests/${f.id}.json`);assert.equal(m.renderScale,4);assert.equal(m.source.yearEvidence,'cover');assert.equal(m.coverage.length,6);assert.ok(m.coverage.every(c=>c.reviewed));assert.ok(m.coverage.slice(2).every(c=>!c.questionIds.length&&/手写参考解答/.test(c.excluded)));}
+ for(const q of p.questions){assert.equal(q.review.status,'verified');assert.equal(q.titleKind,'editorial');assert.equal(q.layout,'source-page');assert.equal(q.parts.length,2);assert.ok(!q.answer&&!q.explanation);for(const part of q.parts){assert.ok(part.page<=2);assert.equal(hash(part.src),part.sha256);assert.equal(part.width,Math.ceil(part.box[2]*4)-Math.floor(part.box[0]*4));}}
+ for(const part of p.commonParts)assert.equal(hash(part.src),part.sha256);
+ const logic=p.questions.find(q=>q.id==='tus-electrical-1999-general-denshi-q2');assert.deepEqual(logic.parts[1].box,[299,287,384,401]);const amp=p.questions.find(q=>q.id==='tus-electrical-1999-general-denshi-q1');assert.ok(amp.parts.every(x=>x.box[2]<299||x.box[1]<287));
+});

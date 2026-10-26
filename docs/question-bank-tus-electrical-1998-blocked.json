@@ -1,0 +1,45 @@
+{
+  "year": 1998,
+  "yearBasis": "academic",
+  "catalogId": "tus-50ed7bf8bfc02ca2",
+  "sourceQuestionCount": 2,
+  "availableQuestions": 1,
+  "blocked": [
+    {
+      "pdf": "assets/past-papers/documents/1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec.pdf",
+      "catalogIds": [
+        "tus-50ed7bf8bfc02ca2"
+      ],
+      "page": 1,
+      "questionId": "tus-electrical-1998-general-denshi-q2",
+      "number": "2",
+      "issue": "给定真值表仅表头与极少痕迹可读，表体各行输入/输出值原扫描缺损，无法完整作答。",
+      "neededEvidence": "原真值表清晰可读的题面扫描；不能从非官方手写答案补写数据。",
+      "status": "blocked"
+    }
+  ],
+  "missingSubjects": [
+    {
+      "subject": "电气回路",
+      "issue": "目录未提供question原题。",
+      "status": "missing-source"
+    },
+    {
+      "subject": "电磁回路",
+      "issue": "仅列answer非官方手写解答，无question原题。",
+      "status": "missing-source"
+    }
+  ],
+  "excludedPages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "quality": {
+    "renderScale": 4,
+    "dpi": 288,
+    "format": "lossless PNG",
+    "enhancement": "none"
+  }
+}

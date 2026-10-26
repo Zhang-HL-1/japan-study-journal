@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-1998-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 1998 入学年度 · 电子回路（仅第1题）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-50ed7bf8bfc02ca2",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 1998,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成10年度",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "1998(H10).pdf",
+    "pdf": "assets/past-papers/documents/1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec.pdf",
+    "sha256": "1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec",
+    "pageCount": 5,
+    "note": "1998入学年度由平成10年度卷头确认；实施日平成9年8月2日（1997-08-02）独立保留。第1页电子两题中仅第1题可完整读取；第2题给定真值表表体原扫描缺损，blocked，不凭手写解答推补。第2–5页均手写参考解答排除；电磁仅另列answer文件，不作为题干。题上少量圈注依用户要求保留。renderScale=4（288 DPI）无损PNG，不锐化、不重绘。",
+    "normalization": {
+      "method": "PyMuPDF Page.remove_rotation() on a byte copy; original bytes unchanged. Only source page 2 has Rotate=90. Every derived page at scale 1 matches source appearance pixel-for-pixel; page-1 question crop coordinates unchanged.",
+      "derivedPdf": "assets/question-bank/tus-electrical-1998-general-denshi/normalized.pdf",
+      "derivedSha256": "6189e7ee14174cba7b9119942fcf9276bff6e2d916125e6aca1ef4302856aa20",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 0,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            516.0,
+            729.5999755859375
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            516.0,
+            729.5999755859375
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 90,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            516.0,
+            729.5999755859375
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            729.5999755859375,
+            516.0
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 0,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            516.0,
+            729.5999755859375
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            516.0,
+            729.5999755859375
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 0,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            516.0,
+            729.5999755859375
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            516.0,
+            729.5999755859375
+          ]
+        },
+        {
+          "page": 5,
+          "sourceRotation": 0,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            516.0,
+            729.5999755859375
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            516.0,
+            729.5999755859375
+          ]
+        }
+      ]
+    }
+  },
+  "renderScale": 4,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        45,
+        24,
+        477,
+        105
+      ],
+      "label": "平成10年度、电子回路、电气工学专攻与实施日"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-1998-general-denshi-q1",
+      "number": "1",
+      "title": "理想运放积分回路与低通回路的传递特性",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "积分回路",
+        "频率响应"
+      ],
+      "summary": "完整保留原题七个填空和图1、图2；中文标题、知识点仅作导航，作答以日文原题为准。题上少量圈注保留；不收录缺损的第2题，不从手写解答补写。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            107,
+            175,
+            425,
+            284
+          ],
+          "label": "第1题完整题干及七个填空"
+        },
+        {
+          "page": 1,
+          "box": [
+            139,
+            296,
+            407,
+            407
+          ],
+          "label": "第1题图1、图2，含元件上下标与图号"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review of all five complete source pages and every scale-4 preview crop",
+        "date": "2026-10-26",
+        "notes": "逐图核对完整题号、首末行、七个填空、图1图2、运放极性、元件与上下标；小量圈注原样保留。第2题表体原扫描缺损，单列blocked，不从手写解答推断。第2页Rotate=90仅影响已排除手写解答；规范化副本全5页外观与原件逐像素一致。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-1998-general-denshi-q1"
+      ],
+      "common": true,
+      "excluded": "电子第2题给定真值表表体缺损，无法完整读取，blocked；页脚及採点欄排除。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写参考解答，整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写参考解答，整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写参考解答，整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写参考解答，整页排除，不作题干。",
+      "reviewed": true
+    }
+  ]
+}

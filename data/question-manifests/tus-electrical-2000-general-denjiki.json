@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2000-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2000 入学年度 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-29f15206f5817fb9",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2000,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成12年度",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気",
+    "originalName": "2000(H12).pdf",
+    "pdf": "assets/past-papers/documents/68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263.pdf",
+    "sha256": "68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263",
+    "pageCount": 12,
+    "note": "2000入学年度（平成12年度）由前三页卷头确认；实施日平成11年8月2日（1999-08-02）独立保留。第1页电气、第2页电子、第3页电磁原题；第4–12页非官方手写解答全部排除，另列answer文件不处理。电磁(6)明确引用(3)的平行板条件，二者保留在同一完整关联题单元。原卷少量标注保留，不擦除重绘。采用renderScale=4（288DPI）无损PNG，接近原扫描2150×3040像素（约300DPI）。"
+  },
+  "renderScale": 4,
+  "commonRegions": [
+    {
+      "page": 3,
+      "box": [
+        23,
+        42,
+        452,
+        120
+      ],
+      "label": "年度、科目、专攻、实施日及公共作答约定"
+    },
+    {
+      "page": 3,
+      "box": [
+        48,
+        146,
+        429,
+        294
+      ],
+      "label": "年度、科目、专攻、实施日及公共作答约定"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2000-general-denjiki-q1",
+      "number": "1",
+      "title": "均匀电场中的电荷受力",
+      "titleKind": "editorial",
+      "topics": [
+        "电场",
+        "电场力"
+      ],
+      "summary": "完整保留原题、共用条件、全部小问及图表；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            52,
+            295,
+            345,
+            310
+          ],
+          "label": "電磁気 原题1 第1块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "完整查看12页原卷，逐张对照288DPI draft裁图核对首末行、题号、全部小问、真值表、回路图、图号、端子撇号与电磁公共常量。电子第1题扩右边距并避开题上方圈注，电磁(3)(6)关联条件完整保留。中文标题仅作导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2000-general-denjiki-q2",
+      "number": "2",
+      "title": "点电荷的电位",
+      "titleKind": "editorial",
+      "topics": [
+        "点电荷",
+        "电位"
+      ],
+      "summary": "完整保留原题、共用条件、全部小问及图表；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            52,
+            310,
+            423,
+            326
+          ],
+          "label": "電磁気 原题2 第1块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "完整查看12页原卷，逐张对照288DPI draft裁图核对首末行、题号、全部小问、真值表、回路图、图号、端子撇号与电磁公共常量。电子第1题扩右边距并避开题上方圈注，电磁(3)(6)关联条件完整保留。中文标题仅作导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2000-general-denjiki-q3",
+      "number": "3、6",
+      "title": "平行板电容器与变位电流",
+      "titleKind": "editorial",
+      "topics": [
+        "电容",
+        "变位电流"
+      ],
+      "summary": "完整保留原题、共用条件、全部小问及图表；中文标题和知识点仅用于导航，以日文原题为准。原卷(6)引用(3)平行板条件，作为同一关联题保留两段，不重复计题。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            49,
+            325,
+            431,
+            383
+          ],
+          "label": "電磁気 原题3、6 第1块"
+        },
+        {
+          "page": 3,
+          "box": [
+            52,
+            470,
+            431,
+            528
+          ],
+          "label": "電磁気 原题3、6 第2块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "完整查看12页原卷，逐张对照288DPI draft裁图核对首末行、题号、全部小问、真值表、回路图、图号、端子撇号与电磁公共常量。电子第1题扩右边距并避开题上方圈注，电磁(3)(6)关联条件完整保留。中文标题仅作导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2000-general-denjiki-q4",
+      "number": "4",
+      "title": "电子在磁场中的受力",
+      "titleKind": "editorial",
+      "topics": [
+        "磁场",
+        "洛伦兹力"
+      ],
+      "summary": "完整保留原题、共用条件、全部小问及图表；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            52,
+            383,
+            431,
+            410
+          ],
+          "label": "電磁気 原题4 第1块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "完整查看12页原卷，逐张对照288DPI draft裁图核对首末行、题号、全部小问、真值表、回路图、图号、端子撇号与电磁公共常量。电子第1题扩右边距并避开题上方圈注，电磁(3)(6)关联条件完整保留。中文标题仅作导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2000-general-denjiki-q5",
+      "number": "5",
+      "title": "时变磁场中的圆形回路感应电动势",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁感应",
+        "圆形回路"
+      ],
+      "summary": "完整保留原题、共用条件、全部小问及图表；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            52,
+            412,
+            431,
+            470
+          ],
+          "label": "電磁気 原题5 第1块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "完整查看12页原卷，逐张对照288DPI draft裁图核对首末行、题号、全部小问、真值表、回路图、图号、端子撇号与电磁公共常量。电子第1题扩右边距并避开题上方圈注，电磁(3)(6)关联条件完整保留。中文标题仅作导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2000-general-denjiki-q1",
+        "tus-electrical-2000-general-denjiki-q2",
+        "tus-electrical-2000-general-denjiki-q3",
+        "tus-electrical-2000-general-denjiki-q4",
+        "tus-electrical-2000-general-denjiki-q5"
+      ],
+      "common": true,
+      "excluded": "页脚、採点欄及页边演算排除；少量原件圈注、图内箭头保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    }
+  ]
+}

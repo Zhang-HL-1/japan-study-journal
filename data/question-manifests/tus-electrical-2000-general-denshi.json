@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2000-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2000 入学年度 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-29f15206f5817fb9",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2000,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成12年度",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "2000(H12).pdf",
+    "pdf": "assets/past-papers/documents/68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263.pdf",
+    "sha256": "68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263",
+    "pageCount": 12,
+    "note": "2000入学年度（平成12年度）由前三页卷头确认；实施日平成11年8月2日（1999-08-02）独立保留。第1页电气、第2页电子、第3页电磁原题；第4–12页非官方手写解答全部排除，另列answer文件不处理。电磁(6)明确引用(3)的平行板条件，二者保留在同一完整关联题单元。原卷少量标注保留，不擦除重绘。采用renderScale=4（288DPI）无损PNG，接近原扫描2150×3040像素（约300DPI）。"
+  },
+  "renderScale": 4,
+  "commonRegions": [
+    {
+      "page": 2,
+      "box": [
+        71,
+        33,
+        452,
+        104
+      ],
+      "label": "年度、科目、专攻、实施日及公共作答约定"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2000-general-denshi-q1",
+      "number": "1",
+      "title": "真值表与逻辑回路",
+      "titleKind": "editorial",
+      "topics": [
+        "真值表",
+        "逻辑回路"
+      ],
+      "summary": "完整保留原题、共用条件、全部小问及图表；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            96,
+            164,
+            333,
+            309
+          ],
+          "label": "電子回路 原题1 第1块"
+        },
+        {
+          "page": 2,
+          "box": [
+            337,
+            164,
+            414,
+            309
+          ],
+          "label": "電子回路 原题1 第2块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "完整查看12页原卷，逐张对照288DPI draft裁图核对首末行、题号、全部小问、真值表、回路图、图号、端子撇号与电磁公共常量。电子第1题扩右边距并避开题上方圈注，电磁(3)(6)关联条件完整保留。中文标题仅作导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2000-general-denshi-q2",
+      "number": "2",
+      "title": "双运放回路的跨导与输出阻抗",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "输出阻抗"
+      ],
+      "summary": "完整保留原题、共用条件、全部小问及图表；中文标题和知识点仅用于导航，以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            95,
+            316,
+            432,
+            411
+          ],
+          "label": "電子回路 原题2 第1块"
+        },
+        {
+          "page": 2,
+          "box": [
+            106,
+            428,
+            266,
+            602
+          ],
+          "label": "電子回路 原题2 第2块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "完整查看12页原卷，逐张对照288DPI draft裁图核对首末行、题号、全部小问、真值表、回路图、图号、端子撇号与电磁公共常量。电子第1题扩右边距并避开题上方圈注，电磁(3)(6)关联条件完整保留。中文标题仅作导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2000-general-denshi-q1",
+        "tus-electrical-2000-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "页脚、採点欄及页边演算排除；少量原件圈注、图内箭头保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    }
+  ]
+}

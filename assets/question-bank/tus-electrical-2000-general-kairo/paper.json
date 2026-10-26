@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2000-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2000 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-29f15206f5817fb9",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2000,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成12年度",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2000(H12).pdf",
+    "pdf": "assets/past-papers/documents/68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263.pdf",
+    "sha256": "68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263",
+    "pageCount": 12,
+    "note": "2000入学年度（平成12年度）由前三页卷头确认；实施日平成11年8月2日（1999-08-02）独立保留。第1页电气、第2页电子、第3页电磁原题；第4–12页非官方手写解答全部排除，另列answer文件不处理。电磁(6)明确引用(3)的平行板条件，二者保留在同一完整关联题单元。原卷少量标注保留，不擦除重绘。采用renderScale=4（288DPI）无损PNG，接近原扫描2150×3040像素（约300DPI）。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2000-general-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        60,
+        72,
+        442,
+        141
+      ],
+      "width": 1528,
+      "height": 276,
+      "label": "年度、科目、专攻、实施日及公共作答约定",
+      "sha256": "d80f887f16d5362f30e3f197a5a6af7a8fdf18d8bf61743e394835e85123f9a9"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2000-general-kairo-q1",
+      "number": "1",
+      "title": "RLC回路切换暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "RLC回路",
+        "暂态"
+      ],
+      "summary": "完整保留原题、共用条件、全部小问及图表；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "完整查看12页原卷，逐张对照288DPI draft裁图核对首末行、题号、全部小问、真值表、回路图、图号、端子撇号与电磁公共常量。电子第1题扩右边距并避开题上方圈注，电磁(3)(6)关联条件完整保留。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2000-general-kairo/tus-electrical-2000-general-kairo-q1-01.png",
+          "page": 1,
+          "box": [
+            70,
+            153,
+            431,
+            208
+          ],
+          "width": 1444,
+          "height": 220,
+          "label": "電気回路 原题1 第1块",
+          "sha256": "496b6644cc3ef45b3ad8935f8147303f026a4b6cd7ce2d8df1f6692793a92cf1"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2000-general-kairo/tus-electrical-2000-general-kairo-q1-02.png",
+          "page": 1,
+          "box": [
+            117,
+            221,
+            310,
+            345
+          ],
+          "width": 772,
+          "height": 496,
+          "label": "電気回路 原题1 第2块",
+          "sha256": "5df97329a92f2f49a75aff958710650daa35bd3ebec6d36bf3d37b4b273fa4e1"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2000-general-kairo-q2",
+      "number": "2",
+      "title": "二端口回路四端子常数与电流",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口回路",
+        "四端子常数"
+      ],
+      "summary": "完整保留原题、共用条件、全部小问及图表；中文标题和知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "完整查看12页原卷，逐张对照288DPI draft裁图核对首末行、题号、全部小问、真值表、回路图、图号、端子撇号与电磁公共常量。电子第1题扩右边距并避开题上方圈注，电磁(3)(6)关联条件完整保留。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2000-general-kairo/tus-electrical-2000-general-kairo-q2-01.png",
+          "page": 1,
+          "box": [
+            69,
+            355,
+            432,
+            470
+          ],
+          "width": 1452,
+          "height": 460,
+          "label": "電気回路 原题2 第1块",
+          "sha256": "f7575e408874d19b8ca17cc817f6d78de9057560a04d1b9066252ca6d7aaa206"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2000-general-kairo/tus-electrical-2000-general-kairo-q2-02.png",
+          "page": 1,
+          "box": [
+            125,
+            478,
+            335,
+            566
+          ],
+          "width": 840,
+          "height": 352,
+          "label": "電気回路 原题2 第2块",
+          "sha256": "2c5ab10fb944e02f6ca4b535d6f5bb7aea03d18904ab6bbbc720fbe089b1512b"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2000-general-kairo-q1",
+        "tus-electrical-2000-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "页脚、採点欄及页边演算排除；少量原件圈注、图内箭头保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    }
+  ]
+}

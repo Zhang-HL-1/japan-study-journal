@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2000-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2000 入学年度 · 修士入试",
+  "catalogId": "tus-29f15206f5817fb9",
+  "components": [
+    {
+      "paperId": "tus-electrical-2000-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2000-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2000-general-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "note": "2000入学年度（平成12年度）由前三页科目卷头确认，实施日1999-08-02独立保留。原合册前3页三科题面全部收录：电子2、电气2、电磁5个完整关联题单元，共9题。电磁原卷(6)明确引用(3)的平行板条件，(3)(6)保留为同一题，不拆关联条件也不重复计题。第4–12页为非官方手写解答全部排除，另列answer文件不处理。原卷少量笔注保留，题旁独立演算裁去。全部裁图用renderScale=4（288DPI）无损PNG，接近约300DPI扫描，不AI重绘或锐化。"
+}
