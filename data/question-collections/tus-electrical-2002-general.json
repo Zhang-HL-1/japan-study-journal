@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2002-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2002 入学年度 · 修士入试（英语未收录）",
+  "catalogId": "tus-116efe829c3d8c87",
+  "components": [
+    {
+      "paperId": "tus-electrical-2002-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2002-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2002-general-denjiki",
+      "subject": "电磁回路",
+      "layout": "source-page"
+    }
+  ],
+  "note": "2002入学年度由平成14年度卷头确认；实施日2001-08-02单独保留。14页合册中本年度电子2题、电气2题、电磁5题共9题已收录；电磁5个编号各自具有独立条件，公共说明及常数另存，同轴电缆a–c关联小问不拆。第3至5页本年度英语3题按用户要求暂不处理。第7页其他专攻2001英语、第8页2001电磁不属于本批；第9至14页手写参考解答及另列answer文件不处理。少量卷头原件手写科目与标记保留。"
+}

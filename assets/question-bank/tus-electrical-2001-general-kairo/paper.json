@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2001-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2001 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-818b34507e889768",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2001,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成13年度",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2001(H13).pdf",
+    "pdf": "assets/past-papers/documents/a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644.pdf",
+    "sha256": "a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644",
+    "pageCount": 18,
+    "note": "2001入学年度由平成13年度卷头确认；实施日平成12年8月1日（2000-08-01）分别保留。2001(H13).pdf第1页电气、第5页电子、第6页通信；第2–4页英语按用户要求不处理，第7–18页手写解答排除。电磁题取2002(H14).pdf物理第8页，卷头明确平成13年度，与2002入学题面去重。小量图内标记按用户要求保留，不重绘。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2001-general-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        40,
+        28,
+        465,
+        107
+      ],
+      "width": 1063,
+      "height": 198,
+      "label": "年度、科目、专攻、实施日及公共作答说明",
+      "sha256": "5e9ac2670fc235576268d5145eb93c4ebab066266f6a077cc05e5dca16be2507"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2001-general-kairo-q1",
+      "number": "1",
+      "title": "开路电压、短路电流与内部电阻",
+      "titleKind": "editorial",
+      "topics": [
+        "电气回路"
+      ],
+      "summary": "完整保留原题及全部小问、条件和配图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review against complete source pages and every preview crop",
+        "date": "2026-10-26",
+        "notes": "逐块核对题号、全部小问、首末行、公式上下标、图表与图号；通信各选项表四行完整，空白解答栏作为公共材料；年度与实施日期以卷头为准。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2001-general-kairo/tus-electrical-2001-general-kairo-q1-01.png",
+          "page": 1,
+          "box": [
+            48,
+            120,
+            451,
+            209
+          ],
+          "width": 1008,
+          "height": 223,
+          "label": "電気回路 第1题 第1块",
+          "sha256": "d3bb0b5b9deb293378280730858453746e9d57d8809a4a8efa9c14b79413c8d0"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2001-general-kairo-q2",
+      "number": "2",
+      "title": "全频段纯阻抗条件",
+      "titleKind": "editorial",
+      "topics": [
+        "电气回路"
+      ],
+      "summary": "完整保留原题及全部小问、条件和配图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review against complete source pages and every preview crop",
+        "date": "2026-10-26",
+        "notes": "逐块核对题号、全部小问、首末行、公式上下标、图表与图号；通信各选项表四行完整，空白解答栏作为公共材料；年度与实施日期以卷头为准。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2001-general-kairo/tus-electrical-2001-general-kairo-q2-01.png",
+          "page": 1,
+          "box": [
+            48,
+            231,
+            447,
+            307
+          ],
+          "width": 998,
+          "height": 191,
+          "label": "電気回路 第2题 第1块",
+          "sha256": "777db6af072b97c169762ff94c27d2a6a6d526cab49fab0cfc7a47f99ae2499e"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2001-general-kairo-q3",
+      "number": "3",
+      "title": "级联二端口的电流与端电压",
+      "titleKind": "editorial",
+      "topics": [
+        "电气回路"
+      ],
+      "summary": "完整保留原题及全部小问、条件和配图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review against complete source pages and every preview crop",
+        "date": "2026-10-26",
+        "notes": "逐块核对题号、全部小问、首末行、公式上下标、图表与图号；通信各选项表四行完整，空白解答栏作为公共材料；年度与实施日期以卷头为准。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2001-general-kairo/tus-electrical-2001-general-kairo-q3-01.png",
+          "page": 1,
+          "box": [
+            48,
+            339,
+            446,
+            445
+          ],
+          "width": 995,
+          "height": 266,
+          "label": "電気回路 第3题 第1块",
+          "sha256": "8613e0d7f325bd9fec837d482f33356d07c870e43f5c22b2dc9df6e17243ae50"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2001-general-kairo-q1",
+        "tus-electrical-2001-general-kairo-q2",
+        "tus-electrical-2001-general-kairo-q3"
+      ],
+      "common": true,
+      "excluded": "重复页脚、採点欄和普通留白，不含其他题目。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英语原题按用户要求暂不收录。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英语原题按用户要求暂不收录。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英语原题按用户要求暂不收录。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一2001试卷其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一2001试卷其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    }
+  ]
+}

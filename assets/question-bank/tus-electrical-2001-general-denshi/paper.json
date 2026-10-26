@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2001-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2001 入学年度 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-818b34507e889768",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2001,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成13年度",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "2001(H13).pdf",
+    "pdf": "assets/past-papers/documents/a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644.pdf",
+    "sha256": "a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644",
+    "pageCount": 18,
+    "note": "2001入学年度由平成13年度卷头确认；实施日平成12年8月1日（2000-08-01）分别保留。2001(H13).pdf第1页电气、第5页电子、第6页通信；第2–4页英语按用户要求不处理，第7–18页手写解答排除。电磁题取2002(H14).pdf物理第8页，卷头明确平成13年度，与2002入学题面去重。小量图内标记按用户要求保留，不重绘。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2001-general-denshi/common-01.png",
+      "page": 5,
+      "box": [
+        42,
+        34,
+        465,
+        112
+      ],
+      "width": 1058,
+      "height": 195,
+      "label": "年度、科目、专攻、实施日及公共作答说明",
+      "sha256": "79b8ee6e53e596675db583453e835334b4ff1b3fe5ef2eef69d881a9a84dd818"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2001-general-denshi-q1",
+      "number": "1",
+      "title": "理想运放的负载电流和电压增益",
+      "titleKind": "editorial",
+      "topics": [
+        "电子回路"
+      ],
+      "summary": "完整保留原题及全部小问、条件和配图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review against complete source pages and every preview crop",
+        "date": "2026-10-26",
+        "notes": "逐块核对题号、全部小问、首末行、公式上下标、图表与图号；通信各选项表四行完整，空白解答栏作为公共材料；年度与实施日期以卷头为准。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2001-general-denshi/tus-electrical-2001-general-denshi-q1-01.png",
+          "page": 5,
+          "box": [
+            101,
+            182,
+            402,
+            317
+          ],
+          "width": 753,
+          "height": 338,
+          "label": "電子回路 第1题 第1块",
+          "sha256": "3888cf2bd3fcd4771bfb86116bc24191fc67c7acae6aceefe5a06ec5f705971e"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2001-general-denshi-q2",
+      "number": "2",
+      "title": "二位数字比较器",
+      "titleKind": "editorial",
+      "topics": [
+        "电子回路"
+      ],
+      "summary": "完整保留原题及全部小问、条件和配图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review against complete source pages and every preview crop",
+        "date": "2026-10-26",
+        "notes": "逐块核对题号、全部小问、首末行、公式上下标、图表与图号；通信各选项表四行完整，空白解答栏作为公共材料；年度与实施日期以卷头为准。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2001-general-denshi/tus-electrical-2001-general-denshi-q2-01.png",
+          "page": 5,
+          "box": [
+            99,
+            319,
+            405,
+            578
+          ],
+          "width": 766,
+          "height": 648,
+          "label": "電子回路 第2题 第1块",
+          "sha256": "61322b94c17593fb13a9b67e468cf3e404629676e71ee5f3bc8a28cc66b6f841"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一2001试卷其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英语原题按用户要求暂不收录。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英语原题按用户要求暂不收录。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英语原题按用户要求暂不收录。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2001-general-denshi-q1",
+        "tus-electrical-2001-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "重复页脚、採点欄和普通留白，不含其他题目。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一2001试卷其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    }
+  ]
+}

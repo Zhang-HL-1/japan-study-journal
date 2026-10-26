@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2001-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2001 入学年度 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-818b34507e889768",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2001,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成13年度",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気",
+    "originalName": "2002(H14).pdf",
+    "pdf": "assets/past-papers/documents/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
+    "sha256": "210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922",
+    "pageCount": 14,
+    "note": "2001入学年度由平成13年度卷头确认；实施日平成12年8月1日（2000-08-01）分别保留。2001(H13).pdf第1页电气、第5页电子、第6页通信；第2–4页英语按用户要求不处理，第7–18页手写解答排除。电磁题取2002(H14).pdf物理第8页，卷头明确平成13年度，与2002入学题面去重。小量图内标记按用户要求保留，不重绘。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2001-general-denjiki/common-01.png",
+      "page": 8,
+      "box": [
+        37,
+        28,
+        463,
+        108
+      ],
+      "width": 1066,
+      "height": 200,
+      "label": "年度、科目、专攻、实施日及公共作答说明",
+      "sha256": "bf4b2005761211c0f2f208b36a7d72e1b8246af885d8f878294e2c6988c74f45"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2001-general-denjiki-q1",
+      "number": "1",
+      "title": "电子荷质比与材料电气特性的测量",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁回路"
+      ],
+      "summary": "完整保留原题及全部小问、条件和配图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review against complete source pages and every preview crop",
+        "date": "2026-10-26",
+        "notes": "逐块核对题号、全部小问、首末行、公式上下标、图表与图号；通信各选项表四行完整，空白解答栏作为公共材料；年度与实施日期以卷头为准。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2001-general-denjiki/tus-electrical-2001-general-denjiki-q1-01.png",
+          "page": 8,
+          "box": [
+            61,
+            157,
+            445,
+            276
+          ],
+          "width": 961,
+          "height": 298,
+          "label": "電磁気 第1题 第1块",
+          "sha256": "7ec1bf140205ff982a618b5f52ac2f9b9a0cd1bb06b280543091e93d06207d95"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2001-general-denjiki-q2",
+      "number": "2",
+      "title": "介质电容器的电极面积",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁回路"
+      ],
+      "summary": "完整保留原题及全部小问、条件和配图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review against complete source pages and every preview crop",
+        "date": "2026-10-26",
+        "notes": "逐块核对题号、全部小问、首末行、公式上下标、图表与图号；通信各选项表四行完整，空白解答栏作为公共材料；年度与实施日期以卷头为准。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2001-general-denjiki/tus-electrical-2001-general-denjiki-q2-01.png",
+          "page": 8,
+          "box": [
+            63,
+            290,
+            447,
+            322
+          ],
+          "width": 961,
+          "height": 80,
+          "label": "電磁気 第2题 第1块",
+          "sha256": "3232f2e3329c85bb95c6e5679e492cd281b08605489e88d97e48167bede1fa74"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2001-general-denjiki-q3",
+      "number": "3",
+      "title": "接地平面附近带电导体球受力",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁回路"
+      ],
+      "summary": "完整保留原题及全部小问、条件和配图。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review against complete source pages and every preview crop",
+        "date": "2026-10-26",
+        "notes": "逐块核对题号、全部小问、首末行、公式上下标、图表与图号；通信各选项表四行完整，空白解答栏作为公共材料；年度与实施日期以卷头为准。中文标题仅作导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2001-general-denjiki/tus-electrical-2001-general-denjiki-q3-01.png",
+          "page": 8,
+          "box": [
+            63,
+            330,
+            447,
+            360
+          ],
+          "width": 961,
+          "height": 75,
+          "label": "電磁気 第3题 第1块",
+          "sha256": "8dcae601ef5e1cedd286ba25eb4180d04cf5a036ea3c73a28a6f4c080e9a6bcf"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "2002入学题面，由2002批次负责。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "2002入学题面，由2002批次负责。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "2002英语按用户要求暂不收录。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "2002英语按用户要求暂不收录。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "2002英语按用户要求暂不收录。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "2002入学题面，由2002批次负责。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "其他专攻英语非本批范围。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tus-electrical-2001-general-denjiki-q1",
+        "tus-electrical-2001-general-denjiki-q2",
+        "tus-electrical-2001-general-denjiki-q3"
+      ],
+      "common": true,
+      "excluded": "重复页脚、採点欄和普通留白，不含其他题目。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答整页排除，不作题干。",
+      "reviewed": true
+    }
+  ]
+}

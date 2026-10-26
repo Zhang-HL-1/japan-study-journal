@@ -1,0 +1,914 @@
+{
+  "schemaVersion": 2,
+  "id": "tus-electrical-2002-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2002 入学年度 · 修士入试（英语未收录）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-116efe829c3d8c87",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2002,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成14年度",
+    "subject": "专业科目合卷",
+    "originalSubject": "電子回路・電気回路・電磁気学",
+    "note": "2002入学年度由平成14年度卷头确认；实施日2001-08-02单独保留。14页合册中本年度电子2题、电气2题、电磁5题共9题已收录；电磁5个编号各自具有独立条件，公共说明及常数另存，同轴电缆a–c关联小问不拆。第3至5页本年度英语3题按用户要求暂不处理。第7页其他专攻2001英语、第8页2001电磁不属于本批；第9至14页手写参考解答及另列answer文件不处理。少量卷头原件手写科目与标记保留。",
+    "subjects": [
+      "电子回路",
+      "电气回路",
+      "电磁回路"
+    ],
+    "files": [
+      {
+        "kind": "exam",
+        "catalogId": "tus-116efe829c3d8c87",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2002,
+        "yearBasis": "academic",
+        "yearEvidence": "cover",
+        "originalYear": "平成14年度",
+        "subject": "电子回路",
+        "originalSubject": "電子回路",
+        "originalName": "2002(H14).pdf",
+        "pdf": "assets/past-papers/documents/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
+        "sha256": "210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922",
+        "pageCount": 14,
+        "note": "目录2002入学年度，题面平成14年度卷头确认；实施日平成13年8月2日（2001-08-02）独立保留。14页合册中第1/2/6页分别为该年度电磁/电气/电子题面，第3至5页英语暂不处理，第7页其他专攻2001英语、第8页2001电磁排除，第9至14页独立手写参考解答全部排除。少量卷头手写科目与标记按原件保留；另列answer文件不处理。",
+        "id": "tus-electrical-2002-general-denshi",
+        "displaySubject": "电子回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-116efe829c3d8c87",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2002,
+        "yearBasis": "academic",
+        "yearEvidence": "cover",
+        "originalYear": "平成14年度",
+        "subject": "电气回路",
+        "originalSubject": "電気回路",
+        "originalName": "2002(H14).pdf",
+        "pdf": "assets/past-papers/documents/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
+        "sha256": "210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922",
+        "pageCount": 14,
+        "note": "目录2002入学年度，题面平成14年度卷头确认；实施日平成13年8月2日（2001-08-02）独立保留。14页合册中第1/2/6页分别为该年度电磁/电气/电子题面，第3至5页英语暂不处理，第7页其他专攻2001英语、第8页2001电磁排除，第9至14页独立手写参考解答全部排除。少量卷头手写科目与标记按原件保留；另列answer文件不处理。",
+        "id": "tus-electrical-2002-general-kairo",
+        "displaySubject": "电气回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-116efe829c3d8c87",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2002,
+        "yearBasis": "academic",
+        "yearEvidence": "cover",
+        "originalYear": "平成14年度",
+        "subject": "电磁回路",
+        "originalSubject": "電磁気学",
+        "originalName": "2002(H14).pdf",
+        "pdf": "assets/past-papers/documents/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
+        "sha256": "210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922",
+        "pageCount": 14,
+        "note": "目录2002入学年度，题面平成14年度卷头确认；实施日平成13年8月2日（2001-08-02）独立保留。14页合册中第1/2/6页分别为该年度电磁/电气/电子题面，第3至5页英语暂不处理，第7页其他专攻2001英语、第8页2001电磁排除，第9至14页独立手写参考解答全部排除。少量卷头手写科目与标记按原件保留；另列answer文件不处理。",
+        "id": "tus-electrical-2002-general-denjiki",
+        "displaySubject": "电磁回路"
+      }
+    ]
+  },
+  "components": [
+    {
+      "paperId": "tus-electrical-2002-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2002-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2002-general-denjiki",
+      "subject": "电磁回路",
+      "layout": "source-page"
+    }
+  ],
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2002-general-denshi/common-01.png",
+      "page": 6,
+      "box": [
+        55,
+        28,
+        474,
+        122
+      ],
+      "width": 1048,
+      "height": 235,
+      "label": "年度、科目、专攻、实施日及公共作答说明",
+      "sha256": "0d4b81c7766c8656f22ac55ad005a32e9ee71f4e4083dd6cf6e150c988c64310",
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2002-general-kairo/common-01.png",
+      "page": 2,
+      "box": [
+        60,
+        11,
+        481,
+        118
+      ],
+      "width": 1053,
+      "height": 268,
+      "label": "年度、科目、专攻、实施日及公共作答说明",
+      "sha256": "6c9ab565c3a93eb993fb6f13bcf67d9c5a6fc44c5a474bdc386aa9abe521ce24",
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2002-general-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        65,
+        26,
+        484,
+        116
+      ],
+      "width": 1048,
+      "height": 225,
+      "label": "年度、科目、专攻、实施日及公共作答说明",
+      "sha256": "c571e42c6476a7a0146bdefd2747824cc7f863e1b204b31659c61eb751655b92",
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2002-general-denjiki/common-02.png",
+      "page": 1,
+      "box": [
+        86,
+        140,
+        462,
+        221
+      ],
+      "width": 940,
+      "height": 203,
+      "label": "年度、科目、专攻、实施日及公共作答说明",
+      "sha256": "5fc21971877228aca62ffea8fdd612f4ee621e3e2b5ac06a3123d2d677610927",
+      "fileId": "tus-electrical-2002-general-denjiki"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2002-general-denshi-q1",
+      "number": "1",
+      "title": "电子回路：运放回授回路的传递函数与振荡条件",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "反馈",
+        "振荡条件"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denshi/tus-electrical-2002-general-denshi-q1-01.png",
+          "page": 6,
+          "box": [
+            73,
+            158,
+            462,
+            349
+          ],
+          "width": 973,
+          "height": 478,
+          "label": "電子回路第1题，第1块",
+          "sha256": "155485f560af16367c934d73657fbf03f2f92f5c200a4f1d80c06634f9141479",
+          "fileId": "tus-electrical-2002-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denshi/tus-electrical-2002-general-denshi-q1-02.png",
+          "page": 6,
+          "box": [
+            89,
+            358,
+            342,
+            475
+          ],
+          "width": 633,
+          "height": 293,
+          "label": "電子回路第1题，第2块",
+          "sha256": "eb4ecd1893fea1e673e35a0f730ab7ad66b8c0ee5233c0610c7d7dab099d66d3",
+          "fileId": "tus-electrical-2002-general-denshi"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "id": "tus-electrical-2002-general-denshi-q2",
+      "number": "2",
+      "title": "电子回路：多数逻辑与无冒险回路",
+      "titleKind": "editorial",
+      "topics": [
+        "逻辑函数",
+        "逻辑门",
+        "冒险"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denshi/tus-electrical-2002-general-denshi-q2-01.png",
+          "page": 6,
+          "box": [
+            72,
+            493,
+            460,
+            570
+          ],
+          "width": 970,
+          "height": 193,
+          "label": "電子回路第2题，第1块",
+          "sha256": "ae9bf5017701a3a04620404d9109ac7f5e2b42b69e1de3f851e6f054672abf67",
+          "fileId": "tus-electrical-2002-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denshi/tus-electrical-2002-general-denshi-q2-02.png",
+          "page": 6,
+          "box": [
+            73,
+            578,
+            342,
+            663
+          ],
+          "width": 673,
+          "height": 213,
+          "label": "電子回路第2题，第2块",
+          "sha256": "fb25986c07d98543a86e9dcf539f610a61a0eca40b7f6c36b3fd86f58ded039a",
+          "fileId": "tus-electrical-2002-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denshi/tus-electrical-2002-general-denshi-q2-03.png",
+          "page": 6,
+          "box": [
+            348,
+            576,
+            468,
+            668
+          ],
+          "width": 300,
+          "height": 230,
+          "label": "電子回路第2题，第3块",
+          "sha256": "a84e782b456ac40b8faff594ac247208ef13ea39bfcb6bba60198dd206e7d7c6",
+          "fileId": "tus-electrical-2002-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denshi/tus-electrical-2002-general-denshi-q2-04.png",
+          "page": 6,
+          "box": [
+            362,
+            376,
+            452,
+            473
+          ],
+          "width": 225,
+          "height": 243,
+          "label": "電子回路第2题，第4块",
+          "sha256": "e5ae5302c2ac8816fcb789a5f900635826122500d94144b2b70ac3687ae6a1ed",
+          "fileId": "tus-electrical-2002-general-denshi"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "id": "tus-electrical-2002-general-kairo-q1",
+      "number": "1",
+      "title": "电气回路：RC二端口的四端子参数与电压比",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口",
+        "四端子参数"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-kairo/tus-electrical-2002-general-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            70,
+            121,
+            474,
+            251
+          ],
+          "width": 1010,
+          "height": 326,
+          "label": "電気回路第1题，第1块",
+          "sha256": "64adb39d23582782c4b51c28d61ed48110eede7f63805f9c26854fca12dabe90",
+          "fileId": "tus-electrical-2002-general-kairo"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "id": "tus-electrical-2002-general-kairo-q2",
+      "number": "2",
+      "title": "电气回路：RC与RL并联支路的切换响应",
+      "titleKind": "editorial",
+      "topics": [
+        "暂态响应",
+        "RLC回路"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-kairo/tus-electrical-2002-general-kairo-q2-01.png",
+          "page": 2,
+          "box": [
+            69,
+            265,
+            462,
+            386
+          ],
+          "width": 983,
+          "height": 303,
+          "label": "電気回路第2题，第1块",
+          "sha256": "6a93f038f572b093a9a0e11b974a471b1e8cb794489ef4d46ab92e177b2aeeb4",
+          "fileId": "tus-electrical-2002-general-kairo"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "id": "tus-electrical-2002-general-denjiki-q1",
+      "number": "1",
+      "title": "电磁回路：半导体的电气特性与应用",
+      "titleKind": "editorial",
+      "topics": [
+        "半导体"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denjiki/tus-electrical-2002-general-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            86,
+            251,
+            462,
+            315
+          ],
+          "width": 940,
+          "height": 161,
+          "label": "電磁気学第1题，第1块",
+          "sha256": "dfb97b50add533fd03a47c66576c78f5217da5fbc9a6a2a171b8909a3e4f967d",
+          "fileId": "tus-electrical-2002-general-denjiki"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2002-general-denjiki-q2",
+      "number": "2",
+      "title": "电磁回路：真空中电磁波的传播",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁波"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denjiki/tus-electrical-2002-general-denjiki-q2-01.png",
+          "page": 1,
+          "box": [
+            86,
+            330,
+            462,
+            364
+          ],
+          "width": 940,
+          "height": 85,
+          "label": "電磁気学第2题，第1块",
+          "sha256": "0512529a34456d6ee14ac90c6da52debfac0e856140fd81c1ae16a5131708cf9",
+          "fileId": "tus-electrical-2002-general-denjiki"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2002-general-denjiki-q3",
+      "number": "3",
+      "title": "电磁回路：同轴电缆的磁场与单位长度自感",
+      "titleKind": "editorial",
+      "topics": [
+        "同轴电缆",
+        "自感"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denjiki/tus-electrical-2002-general-denjiki-q3-01.png",
+          "page": 1,
+          "box": [
+            86,
+            377,
+            464,
+            475
+          ],
+          "width": 945,
+          "height": 246,
+          "label": "電磁気学第3题，第1块",
+          "sha256": "cfde5ec97aa40920fe42b63a5d7c34a5567c997867932d8da77958436434f248",
+          "fileId": "tus-electrical-2002-general-denjiki"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2002-general-denjiki-q4",
+      "number": "4",
+      "title": "电磁回路：介质中的光速",
+      "titleKind": "editorial",
+      "topics": [
+        "介质",
+        "光速"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denjiki/tus-electrical-2002-general-denjiki-q4-01.png",
+          "page": 1,
+          "box": [
+            87,
+            488,
+            350,
+            509
+          ],
+          "width": 658,
+          "height": 53,
+          "label": "電磁気学第4题，第1块",
+          "sha256": "194bab3259f914cfd8d51aa82cfee5a26c4486e4d6c9fdf2b035eaec972a77c7",
+          "fileId": "tus-electrical-2002-general-denjiki"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2002-general-denjiki-q5",
+      "number": "5",
+      "title": "电磁回路：地球的静电电容",
+      "titleKind": "editorial",
+      "topics": [
+        "球形导体",
+        "静电电容"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-denjiki/tus-electrical-2002-general-denjiki-q5-01.png",
+          "page": 1,
+          "box": [
+            86,
+            521,
+            465,
+            554
+          ],
+          "width": 948,
+          "height": 83,
+          "label": "電磁気学第5题，第1块",
+          "sha256": "0d164a07fa41d5d95bd73da3c8ca538d4f775979b72fad39e082c18cc4927018",
+          "fileId": "tus-electrical-2002-general-denjiki"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2002-general-denjiki"
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度其他专业科目由对应组件覆盖。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度其他专业科目由对应组件覆盖。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tus-electrical-2002-general-denshi-q1",
+        "tus-electrical-2002-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "页脚、採点欄与普通留白，不含其他题面。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "平成13年度工业化学专攻英语，非本年度本专攻题面。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "平成13年度电气工学专攻电磁题面，属于2001入学年度，非本批2002。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denshi"
+    },
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度其他专业科目由对应组件覆盖。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2002-general-kairo-q1",
+        "tus-electrical-2002-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "页脚、採点欄与普通留白，不含其他题面。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度其他专业科目由对应组件覆盖。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "平成13年度工业化学专攻英语，非本年度本专攻题面。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "平成13年度电气工学专攻电磁题面，属于2001入学年度，非本批2002。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-kairo"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2002-general-denjiki-q1",
+        "tus-electrical-2002-general-denjiki-q2",
+        "tus-electrical-2002-general-denjiki-q3",
+        "tus-electrical-2002-general-denjiki-q4",
+        "tus-electrical-2002-general-denjiki-q5"
+      ],
+      "common": true,
+      "excluded": "页脚、採点欄与普通留白，不含其他题面。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度其他专业科目由对应组件覆盖。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度其他专业科目由对应组件覆盖。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "平成13年度工业化学专攻英语，非本年度本专攻题面。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "平成13年度电气工学专攻电磁题面，属于2001入学年度，非本批2002。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2002-general-denjiki"
+    }
+  ]
+}

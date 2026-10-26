@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2004-general-denshi",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2004 入学年度 · 电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-426f9877d3ea1ced",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2004,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成16年度",
+    "subject": "电子回路",
+    "originalSubject": "電子回路",
+    "originalName": "2004(H16)-1(含答案).pdf",
+    "pdf": "assets/past-papers/documents/be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c.pdf",
+    "sha256": "be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c",
+    "pageCount": 14,
+    "note": "2004入学年度（平成16年度）由科目卷头确认，实施日平成15年8月1日（2003-08-01）独立保留。原合册14页：第1页为工業化学専攻英语，排除；第2–6页为电气专攻原题，其中第4页英语按用户要求暂不处理；第7–14页非官方手写解答全部排除。另列answer文件不处理。少量不影响阅读的原件标注保留，不擦除或重绘。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 5,
+      "box": [
+        48,
+        39,
+        452,
+        128
+      ],
+      "label": "平成16年度、科目、专攻、实施日与公共说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2004-general-denshi-q1",
+      "number": "1",
+      "title": "理想运放等效回路与频率响应",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "频率响应"
+      ],
+      "summary": "一题保留完整共用条件、全部关联小问和图表；中文标题和知识点只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            65,
+            142,
+            433,
+            347
+          ],
+          "label": "電子回路 第1题 第1块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "对照14页全卷及全部预览PNG，逐块核对首末行、所有关联小问、图号、端子撇号、坐标轴和作图网格。公共卷头独立保留，少量原件笔注按用户要求保留。中文标题仅用于导航。"
+      }
+    },
+    {
+      "id": "tus-electrical-2004-general-denshi-q2",
+      "number": "2",
+      "title": "逻辑函数化简与门回路",
+      "titleKind": "editorial",
+      "topics": [
+        "逻辑函数",
+        "NAND门"
+      ],
+      "summary": "一题保留完整共用条件、全部关联小问和图表；中文标题和知识点只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            65,
+            355,
+            433,
+            552
+          ],
+          "label": "電子回路 第2题 第1块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "对照14页全卷及全部预览PNG，逐块核对首末行、所有关联小问、图号、端子撇号、坐标轴和作图网格。公共卷头独立保留，少量原件笔注按用户要求保留。中文标题仅用于导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "工業化学専攻英语，非本专攻，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英语按用户要求暂不处理（deferred），不是空白页。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tus-electrical-2004-general-denshi-q1",
+        "tus-electrical-2004-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "页边、页脚、採点欄和普通留白不作题目；少量原件标注保留。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    }
+  ]
+}
