@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2023",
+  "title": "早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2023年9月・2024年4月入学 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-948a170556f11253",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2023,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "2023年9月・2024年4月入学試験",
+    "admissionYears": [
+      2023,
+      2024
+    ],
+    "subject": "専門科目",
+    "originalSubject": "力学・電磁気学・回路理論",
+    "originalName": "51_M_denshibutsuri_2023_September2024_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f.pdf",
+    "sha256": "d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f",
+    "pageCount": 14,
+    "note": "2023年9月与2024年4月入学合并原卷，目录按9月入学年2023索引，非单一2024年度；封面修订日期非实施日。第1页官方訂正通知原样保留为公共材料，对应PDF第6页電磁気学問3，追加「但し、α=0とせよ」。正文原图不静默改写。力学5题、电磁3题、回路2题共10道完整大题，問題番号是解答纸编号。第9–14页为空白解答用纸。renderScale4=288DPI无损PNG；不制作答案解析。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/waseda-eps-2023/common-01.png",
+      "page": 1,
+      "box": [
+        60,
+        38,
+        514,
+        626
+      ],
+      "width": 1816,
+      "height": 2352,
+      "label": "官方訂正通知：PDF第6页電磁気学問3追加但しα=0とせよ；须与原题合读",
+      "sha256": "65b39290b1f267161a4246b6957e80f35e3058230c4733bfd7fed8868c0e4ebd"
+    },
+    {
+      "src": "assets/question-bank/waseda-eps-2023/common-02.png",
+      "page": 2,
+      "box": [
+        28,
+        32,
+        525,
+        248
+      ],
+      "width": 1988,
+      "height": 864,
+      "label": "2023年9月・2024年4月入学封面及题纸解答纸说明",
+      "sha256": "1be8fb79e095ffbf812c5329daba31aba72c786139b08405e2894cbc619d0dad"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2023-mechanics-q1",
+      "number": "力学 問1",
+      "title": "滚动圆环上质点的拉格朗日与哈密顿运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学",
+        "拉格朗日"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-mechanics-q1-01.png",
+          "page": 3,
+          "box": [
+            27,
+            157,
+            531,
+            536
+          ],
+          "width": 2016,
+          "height": 1516,
+          "label": "力学 問1完整题干与配图",
+          "sha256": "bb43b5578ea342fa4139d4ed671543302f8f651dcd1b85a68a9592afcdf084ab"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2023-mechanics-q2",
+      "number": "力学 問2",
+      "title": "滑动细杆上质点的拉格朗日运动方程",
+      "titleKind": "editorial",
+      "topics": [
+        "力学",
+        "拉格朗日"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-mechanics-q2-01.png",
+          "page": 3,
+          "box": [
+            27,
+            549,
+            531,
+            787
+          ],
+          "width": 2016,
+          "height": 952,
+          "label": "力学 問2完整题干与配图",
+          "sha256": "78b654b421c708ace54b787c0f816cc91310fcef820f11a56a24529bdf293ca6"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2023-mechanics-q3",
+      "number": "力学 問3",
+      "title": "德布罗意波长与算符对易关系",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "对易关系"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-mechanics-q3-01.png",
+          "page": 4,
+          "box": [
+            7,
+            149,
+            530,
+            233
+          ],
+          "width": 2092,
+          "height": 336,
+          "label": "力学 問3完整题干与配图",
+          "sha256": "0817f0eb544ac5c277dc5adaea780b26172250db8cb58fd89c6d4ecf735f7d0e"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2023-mechanics-q4",
+      "number": "力学 問4",
+      "title": "叠加态的能量测量与时间演化",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "波函数"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-mechanics-q4-01.png",
+          "page": 4,
+          "box": [
+            7,
+            239,
+            530,
+            449
+          ],
+          "width": 2092,
+          "height": 840,
+          "label": "力学 問4完整题干与配图",
+          "sha256": "c56596d191535d01389401117df3ca87c2a1904bab1aa36aac2857e285799165"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2023-mechanics-q5",
+      "number": "力学 問5",
+      "title": "阶梯势场中的波函数与反射",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "势场"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-mechanics-q5-01.png",
+          "page": 4,
+          "box": [
+            7,
+            455,
+            533,
+            805
+          ],
+          "width": 2104,
+          "height": 1400,
+          "label": "力学 問5完整题干与配图",
+          "sha256": "a3c94a2826bdada800b60f14b18ef5f0ea4fc56e8fec8d14666ef5420c5eaa87"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2023-em-q1",
+      "number": "電磁気学 問1",
+      "title": "同轴导体的电场、电势与电容",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "同轴导体"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-em-q1-01.png",
+          "page": 5,
+          "box": [
+            16,
+            165,
+            532,
+            459
+          ],
+          "width": 2064,
+          "height": 1176,
+          "label": "電磁気学 問1完整题干与配图",
+          "sha256": "f94a5fa162e540a86043b2cd8e730fb24cbeff1a594b2aa601759644e349d95b"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2023-em-q2",
+      "number": "電磁気学 問2",
+      "title": "长直导线与矩形线圈的互感和作用力",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "互感"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-em-q2-01.png",
+          "page": 6,
+          "box": [
+            15,
+            180,
+            532,
+            394
+          ],
+          "width": 2068,
+          "height": 856,
+          "label": "電磁気学 問2完整题干与配图",
+          "sha256": "ae320b73b0f85929506d7b203fc44a210f02a57ae026d39eaaa71f27969033cd"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2023-em-q3",
+      "number": "電磁気学 問3",
+      "title": "麦克斯韦方程与矩形波导中的电磁波",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "波导"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。须合读公共官方訂正通知：本题追加α=0条件。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-em-q3-01.png",
+          "page": 6,
+          "box": [
+            15,
+            408,
+            534,
+            764
+          ],
+          "width": 2076,
+          "height": 1424,
+          "label": "電磁気学 問3完整题干与配图",
+          "sha256": "703f02401067495a52f2e3ff8cc53d237d88d33d9adb9b7f69d6d7e5b778e702"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2023-circuits-q1",
+      "number": "回路理論 問1",
+      "title": "电源等效变换与戴维南等效电路",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "等效电路"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-circuits-q1-01.png",
+          "page": 7,
+          "box": [
+            16,
+            153,
+            535,
+            776
+          ],
+          "width": 2076,
+          "height": 2492,
+          "label": "回路理論 問1完整题干与配图",
+          "sha256": "5be142c77178b271fe2d26b643a3bb1158649a01edf238a5572616c940e55a87"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2023-circuits-q2",
+      "number": "回路理論 問2",
+      "title": "二端口参数与RLC暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "二端口网络"
+      ],
+      "summary": "完整大题及关联小问保留；中文标题仅作导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "逐张对照完整原页与renderScale=4预览原尺寸PNG：题号、首末行、全部小问、公式上下标及配图/图号完整，无相邻大题混入。正文問号独立拆题，页眉問題番号为解答纸编号。公共封面及官方订正通知保留；電磁気学問3须合读α=0条件。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2023/waseda-eps-2023-circuits-q2-01.png",
+          "page": 8,
+          "box": [
+            16,
+            157,
+            536,
+            777
+          ],
+          "width": 2080,
+          "height": 2480,
+          "label": "回路理論 問2完整题干与配图",
+          "sha256": "605296eedae1635656e3441fc35c2aeae7cc4e55a5b0e023f648b962eda869e8"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "官方訂正通知完整保留，非题目，适用于PDF第6页電磁気学問3。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面保留年度及页数说明，普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2023-mechanics-q1",
+        "waseda-eps-2023-mechanics-q2"
+      ],
+      "common": false,
+      "excluded": "页眉科目已核对，解答纸编号不作大题号；页边页码及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2023-mechanics-q3",
+        "waseda-eps-2023-mechanics-q4",
+        "waseda-eps-2023-mechanics-q5"
+      ],
+      "common": false,
+      "excluded": "页眉科目已核对，解答纸编号不作大题号；页边页码及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2023-em-q1"
+      ],
+      "common": false,
+      "excluded": "页眉科目已核对，解答纸编号不作大题号；页边页码及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2023-em-q2",
+        "waseda-eps-2023-em-q3"
+      ],
+      "common": false,
+      "excluded": "页眉科目已核对，解答纸编号不作大题号；页边页码及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2023-circuits-q1"
+      ],
+      "common": false,
+      "excluded": "页眉科目已核对，解答纸编号不作大题号；页边页码及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "waseda-eps-2023-circuits-q2"
+      ],
+      "common": false,
+      "excluded": "页眉科目已核对，解答纸编号不作大题号；页边页码及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    }
+  ]
+}

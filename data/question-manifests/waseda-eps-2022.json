@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2022",
+  "title": "早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2022年9月・2023年4月入学 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-08a0e7fe5328f802",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2022,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "2022年9月・2023年4月入学試験",
+    "admissionYears": [
+      2022,
+      2023
+    ],
+    "subject": "専門科目",
+    "originalSubject": "力学・電磁気学・回路理論",
+    "originalName": "51_M_denshibutsuri_2022_September2023_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/a24f6a584725d7d88541a2b88414668cd657ba9906fa40d332c0e2b06e9a9be2.pdf",
+    "sha256": "a24f6a584725d7d88541a2b88414668cd657ba9906fa40d332c0e2b06e9a9be2",
+    "pageCount": 13,
+    "note": "2022年9月与2023年4月入学合并原卷，目录按9月入学年2022索引，非单一2023年度；封面修订日期不作为实施日。正文六页，力学3题、电磁4题、回路2题共9道独立問题，页眉問題番号为解答纸编号，不据此按页计题。第8–13页空白解答用纸排除，未制作答案解析。renderScale4=288DPI无损PNG。"
+  },
+  "renderScale": 4,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        48,
+        32,
+        560,
+        247
+      ],
+      "label": "双入学期、专攻与原卷/解答纸页数说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2022-mechanics-q1",
+      "number": "力学 問1",
+      "title": "力学：逆圆锥面上质点的拉格朗日与哈密顿运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学",
+        "拉格朗日",
+        "哈密顿"
+      ],
+      "summary": "保留原卷本大题的全部关联小问、给定条件、公式和图表；中文标题仅用于导航，作答以日文题面为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            38,
+            181,
+            580,
+            775
+          ],
+          "label": "力学 問1完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全13页已看，对照完整原页逐张核对全部10张预览。扩展右侧保全量子公式和行末，电磁3图下边扩展至图3标签，同轴图上扩展保全z轴；首末行、各小问、全部图号与单位完整。未把解答纸号或页数当作大题。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-mechanics-q2",
+      "number": "力学 問2",
+      "title": "力学：叠加态的能量测量与时间演化",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "波函数"
+      ],
+      "summary": "保留原卷本大题的全部关联小问、给定条件、公式和图表；中文标题仅用于导航，作答以日文题面为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            28,
+            160,
+            580,
+            445
+          ],
+          "label": "力学 問2完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全13页已看，对照完整原页逐张核对全部10张预览。扩展右侧保全量子公式和行末，电磁3图下边扩展至图3标签，同轴图上扩展保全z轴；首末行、各小问、全部图号与单位完整。未把解答纸号或页数当作大题。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-mechanics-q3",
+      "number": "力学 問3",
+      "title": "力学：分段势场中的束缚态",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "薛定谔方程"
+      ],
+      "summary": "保留原卷本大题的全部关联小问、给定条件、公式和图表；中文标题仅用于导航，作答以日文题面为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            28,
+            452,
+            580,
+            814
+          ],
+          "label": "力学 問3完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全13页已看，对照完整原页逐张核对全部10张预览。扩展右侧保全量子公式和行末，电磁3图下边扩展至图3标签，同轴图上扩展保全z轴；首末行、各小问、全部图号与单位完整。未把解答纸号或页数当作大题。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-em-q1",
+      "number": "電磁気学 問1",
+      "title": "电磁气学：同轴导体的电场与表面电荷",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "同轴导体"
+      ],
+      "summary": "保留原卷本大题的全部关联小问、给定条件、公式和图表；中文标题仅用于导航，作答以日文题面为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            32,
+            155,
+            580,
+            361
+          ],
+          "label": "電磁気学 問1完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全13页已看，对照完整原页逐张核对全部10张预览。扩展右侧保全量子公式和行末，电磁3图下边扩展至图3标签，同轴图上扩展保全z轴；首末行、各小问、全部图号与单位完整。未把解答纸号或页数当作大题。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-em-q2",
+      "number": "電磁気学 問2",
+      "title": "电磁气学：均匀带电球内外的电场",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "带电球"
+      ],
+      "summary": "保留原卷本大题的全部关联小问、给定条件、公式和图表；中文标题仅用于导航，作答以日文题面为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            32,
+            362,
+            580,
+            425
+          ],
+          "label": "電磁気学 問2完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全13页已看，对照完整原页逐张核对全部10张预览。扩展右侧保全量子公式和行末，电磁3图下边扩展至图3标签，同轴图上扩展保全z轴；首末行、各小问、全部图号与单位完整。未把解答纸号或页数当作大题。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-em-q3",
+      "number": "電磁気学 問3",
+      "title": "电磁气学：圆形线圈的磁场、作用力与运动",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "圆形线圈"
+      ],
+      "summary": "保留原卷本大题的全部关联小问、给定条件、公式和图表；中文标题仅用于导航，作答以日文题面为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            32,
+            174,
+            580,
+            572
+          ],
+          "label": "電磁気学 問3完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全13页已看，对照完整原页逐张核对全部10张预览。扩展右侧保全量子公式和行末，电磁3图下边扩展至图3标签，同轴图上扩展保全z轴；首末行、各小问、全部图号与单位完整。未把解答纸号或页数当作大题。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-em-q4",
+      "number": "電磁気学 問4",
+      "title": "电磁气学：麦克斯韦方程与平面波",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "麦克斯韦方程"
+      ],
+      "summary": "保留原卷本大题的全部关联小问、给定条件、公式和图表；中文标题仅用于导航，作答以日文题面为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            32,
+            576,
+            580,
+            785
+          ],
+          "label": "電磁気学 問4完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全13页已看，对照完整原页逐张核对全部10张预览。扩展右侧保全量子公式和行末，电磁3图下边扩展至图3标签，同轴图上扩展保全z轴；首末行、各小问、全部图号与单位完整。未把解答纸号或页数当作大题。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-circuits-q1",
+      "number": "回路理論 問1",
+      "title": "回路理论：交流负载的有功功率优化",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "交流电路"
+      ],
+      "summary": "保留原卷本大题的全部关联小问、给定条件、公式和图表；中文标题仅用于导航，作答以日文题面为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            38,
+            181,
+            580,
+            568
+          ],
+          "label": "回路理論 問1完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全13页已看，对照完整原页逐张核对全部10张预览。扩展右侧保全量子公式和行末，电磁3图下边扩展至图3标签，同轴图上扩展保全z轴；首末行、各小问、全部图号与单位完整。未把解答纸号或页数当作大题。"
+      }
+    },
+    {
+      "id": "waseda-eps-2022-circuits-q2",
+      "number": "回路理論 問2",
+      "title": "回路理论：二端口参数与阶跃暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "二端口网络"
+      ],
+      "summary": "保留原卷本大题的全部关联小问、给定条件、公式和图表；中文标题仅用于导航，作答以日文题面为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            36,
+            194,
+            580,
+            752
+          ],
+          "label": "回路理論 問2完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全13页已看，对照完整原页逐张核对全部10张预览。扩展右侧保全量子公式和行末，电磁3图下边扩展至图3标签，同轴图上扩展保全z轴；首末行、各小问、全部图号与单位完整。未把解答纸号或页数当作大题。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "年度封面保留，修订戳不是实施日。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "waseda-eps-2022-mechanics-q1"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2022-mechanics-q2",
+        "waseda-eps-2022-mechanics-q3"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2022-em-q1",
+        "waseda-eps-2022-em-q2"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2022-em-q3",
+        "waseda-eps-2022-em-q4"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2022-circuits-q1"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2022-circuits-q2"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    }
+  ]
+}
