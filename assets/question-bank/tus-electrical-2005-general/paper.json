@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 2,
+  "id": "tus-electrical-2005-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2005 入学年度 · 修士入试",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-270b0919cbec68ca",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2005,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成17年度",
+    "subject": "专业科目合卷",
+    "originalSubject": "電子回路・電気回路・電磁気学",
+    "note": "2005入学年度（平成17年度）由卷头确认，实施日2004-08-02分别保留。2005(H17).pdf前三页共三科6道大题，全部收录；后三页独立手写解答全部排除。按用户要求裁去页边和题下的大段手写演算，保留不影响阅读的少量圈注、划线及图内标注。题干和配图分块后按原位置拼合。另列answer文件不处理。",
+    "subjects": [
+      "电子回路",
+      "电气回路",
+      "电磁回路"
+    ],
+    "files": [
+      {
+        "kind": "exam",
+        "catalogId": "tus-270b0919cbec68ca",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2005,
+        "yearBasis": "academic",
+        "yearEvidence": "cover",
+        "originalYear": "平成17年度",
+        "subject": "电子回路",
+        "originalSubject": "電子回路",
+        "originalName": "2005(H17).pdf",
+        "pdf": "assets/past-papers/documents/bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0.pdf",
+        "sha256": "bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0",
+        "pageCount": 6,
+        "note": "2005入学年度（平成17年度）由前三页卷头明确确认；实施日平成16年8月2日（2004-08-02），分别保留。原件2005(H17).pdf共6页：前三页三科原题，后三页为非官方手写参考解答，全部排除。按用户要求裁去页边和题下大段演算，少量圈注、划线、图内标注原样保留，不擦除或重绘。另列answer文件不处理。",
+        "id": "tus-electrical-2005-general-denshi",
+        "displaySubject": "电子回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-270b0919cbec68ca",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2005,
+        "yearBasis": "academic",
+        "yearEvidence": "cover",
+        "originalYear": "平成17年度",
+        "subject": "电气回路",
+        "originalSubject": "電気回路",
+        "originalName": "2005(H17).pdf",
+        "pdf": "assets/past-papers/documents/bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0.pdf",
+        "sha256": "bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0",
+        "pageCount": 6,
+        "note": "2005入学年度（平成17年度）由前三页卷头明确确认；实施日平成16年8月2日（2004-08-02），分别保留。原件2005(H17).pdf共6页：前三页三科原题，后三页为非官方手写参考解答，全部排除。按用户要求裁去页边和题下大段演算，少量圈注、划线、图内标注原样保留，不擦除或重绘。另列answer文件不处理。",
+        "id": "tus-electrical-2005-general-kairo",
+        "displaySubject": "电气回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "tus-270b0919cbec68ca",
+        "schoolId": "tus",
+        "school": "東京理科大学",
+        "graduate": "工学研究科",
+        "major": "電気工学専攻",
+        "year": 2005,
+        "yearBasis": "academic",
+        "yearEvidence": "cover",
+        "originalYear": "平成17年度",
+        "subject": "电磁回路",
+        "originalSubject": "電磁気学",
+        "originalName": "2005(H17).pdf",
+        "pdf": "assets/past-papers/documents/bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0.pdf",
+        "sha256": "bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0",
+        "pageCount": 6,
+        "note": "2005入学年度（平成17年度）由前三页卷头明确确认；实施日平成16年8月2日（2004-08-02），分别保留。原件2005(H17).pdf共6页：前三页三科原题，后三页为非官方手写参考解答，全部排除。按用户要求裁去页边和题下大段演算，少量圈注、划线、图内标注原样保留，不擦除或重绘。另列answer文件不处理。",
+        "id": "tus-electrical-2005-general-denjiki",
+        "displaySubject": "电磁回路"
+      }
+    ]
+  },
+  "components": [
+    {
+      "paperId": "tus-electrical-2005-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2005-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2005-general-denjiki",
+      "subject": "电磁回路",
+      "layout": "source-page"
+    }
+  ],
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2005-general-denshi/common-01.png",
+      "page": 1,
+      "box": [
+        122.4,
+        16,
+        485.6,
+        102.4
+      ],
+      "width": 908,
+      "height": 216,
+      "label": "平成17年度、科目、专攻、实施日与公共作答要求",
+      "sha256": "c0ff3bdf2efd28a87875f0c7898078f8d5a85f781b46c406e8bddcece50714c9",
+      "fileId": "tus-electrical-2005-general-denshi"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2005-general-kairo/common-01.png",
+      "page": 2,
+      "box": [
+        132,
+        16.8,
+        495.2,
+        95.2
+      ],
+      "width": 908,
+      "height": 196,
+      "label": "平成17年度、科目、专攻、实施日与公共作答要求",
+      "sha256": "ba8d3072bdd47e281755e76fa9bd9dc8e868a494dbf66b3233d6d76d15c0e14a",
+      "fileId": "tus-electrical-2005-general-kairo"
+    },
+    {
+      "src": "assets/question-bank/tus-electrical-2005-general-denjiki/common-01.png",
+      "page": 3,
+      "box": [
+        111.2,
+        24.8,
+        467.2,
+        104.8
+      ],
+      "width": 890,
+      "height": 200,
+      "label": "平成17年度、科目、专攻、实施日与公共作答要求",
+      "sha256": "bdf9f1de9e153c8670b426e64eda73b66590173057d7a189424ea834a73c9a60",
+      "fileId": "tus-electrical-2005-general-denjiki"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2005-general-denshi-q1",
+      "number": "1",
+      "title": "电子回路：理想运放与二极管回路的输出波形",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "二极管",
+        "波形"
+      ],
+      "summary": "完整保留原卷本大题、全部小问和印刷图表；裁去大段手写演算，少量圈注、划线及图内标注按用户要求原样保留。中文标题与知识点仅用于导航，以印刷题干为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual inspection",
+        "date": "2026-10-26",
+        "notes": "对照全页与逐块PNG核对全部小问、图表及公共说明；分块按原位置拼合，排除大段手写演算；少量圈注与图内标注按用户要求保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denshi/tus-electrical-2005-general-denshi-q1-01.png",
+          "page": 1,
+          "box": [
+            144,
+            112.8,
+            487.2,
+            247.2
+          ],
+          "width": 858,
+          "height": 336,
+          "label": "電子回路 第1题 · PDF物理页1 第1块，原位置拼合",
+          "sha256": "38191aed0562f20a2272f3aa5e6ccaa118fcb977e554159c796001e62a2e2457",
+          "fileId": "tus-electrical-2005-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denshi/tus-electrical-2005-general-denshi-q1-02.png",
+          "page": 1,
+          "box": [
+            185.6,
+            246.4,
+            270.4,
+            326.4
+          ],
+          "width": 212,
+          "height": 200,
+          "label": "電子回路 第1题 · PDF物理页1 第2块，原位置拼合",
+          "sha256": "37a35d161252aadf96bfd306166452f1da09b788d2c22281a803eebee3ec603e",
+          "fileId": "tus-electrical-2005-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denshi/tus-electrical-2005-general-denshi-q1-03.png",
+          "page": 1,
+          "box": [
+            216,
+            322.4,
+            252.8,
+            336.8
+          ],
+          "width": 92,
+          "height": 36,
+          "label": "電子回路 第1题 · PDF物理页1 第3块，原位置拼合",
+          "sha256": "9416ce455d6ab0444986efcbca3faa426078d875e994cb59e190f55d291be7a6",
+          "fileId": "tus-electrical-2005-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denshi/tus-electrical-2005-general-denshi-q1-04.png",
+          "page": 1,
+          "box": [
+            293.6,
+            242.4,
+            444,
+            330.4
+          ],
+          "width": 376,
+          "height": 220,
+          "label": "電子回路 第1题 · PDF物理页1 第4块，原位置拼合",
+          "sha256": "a7818de6d27413822cea20c54c6ed463114acab335ac6964caf465a8dba080a1",
+          "fileId": "tus-electrical-2005-general-denshi"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2005-general-denshi"
+    },
+    {
+      "id": "tus-electrical-2005-general-denshi-q2",
+      "number": "2",
+      "title": "电子回路：逻辑函数与奇偶检测回路",
+      "titleKind": "editorial",
+      "topics": [
+        "逻辑函数",
+        "奇偶检测"
+      ],
+      "summary": "完整保留原卷本大题、全部小问和印刷图表；裁去大段手写演算，少量圈注、划线及图内标注按用户要求原样保留。中文标题与知识点仅用于导航，以印刷题干为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual inspection",
+        "date": "2026-10-26",
+        "notes": "对照全页与逐块PNG核对全部小问、图表及公共说明；分块按原位置拼合，排除大段手写演算；少量圈注与图内标注按用户要求保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denshi/tus-electrical-2005-general-denshi-q2-01.png",
+          "page": 1,
+          "box": [
+            148,
+            342.4,
+            240,
+            357.6
+          ],
+          "width": 230,
+          "height": 38,
+          "label": "第2题标题，避开上一题的手写波形",
+          "sha256": "b00c446e604703a4d0e198b98fbf11d3a140beee683ff5a19d5ac2a6b9979df6",
+          "fileId": "tus-electrical-2005-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denshi/tus-electrical-2005-general-denshi-q2-02.png",
+          "page": 1,
+          "box": [
+            148,
+            354.4,
+            406.4,
+            429.6
+          ],
+          "width": 646,
+          "height": 188,
+          "label": "電子回路 第2题 · PDF物理页1 第1块，原位置拼合",
+          "sha256": "d58a30877c8373d5b7c1946d511319351f8cf85290a6dfd2fce1f511d55d0d80",
+          "fileId": "tus-electrical-2005-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denshi/tus-electrical-2005-general-denshi-q2-03.png",
+          "page": 1,
+          "box": [
+            148,
+            429.6,
+            494.4,
+            490.4
+          ],
+          "width": 866,
+          "height": 152,
+          "label": "電子回路 第2题 · PDF物理页1 第2块，原位置拼合",
+          "sha256": "20f92696f9186fdaf173490d8b9412570e2064dc7c6d795dc168074b826df5b0",
+          "fileId": "tus-electrical-2005-general-denshi"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denshi/tus-electrical-2005-general-denshi-q2-04.png",
+          "page": 1,
+          "box": [
+            406.4,
+            328,
+            480,
+            430.4
+          ],
+          "width": 184,
+          "height": 256,
+          "label": "電子回路 第2题 · PDF物理页1 第3块，原位置拼合",
+          "sha256": "f1d723e959c6fee6149a2226560858b620c520814a34e5ea3a823e35178224b5",
+          "fileId": "tus-electrical-2005-general-denshi"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电子回路",
+      "sourceFileId": "tus-electrical-2005-general-denshi"
+    },
+    {
+      "id": "tus-electrical-2005-general-kairo-q1",
+      "number": "1",
+      "title": "电气回路：RLC回路电流与无电流条件",
+      "titleKind": "editorial",
+      "topics": [
+        "RLC回路",
+        "交流稳态"
+      ],
+      "summary": "完整保留原卷本大题、全部小问和印刷图表；裁去大段手写演算，少量圈注、划线及图内标注按用户要求原样保留。中文标题与知识点仅用于导航，以印刷题干为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual inspection",
+        "date": "2026-10-26",
+        "notes": "对照全页与逐块PNG核对全部小问、图表及公共说明；分块按原位置拼合，排除大段手写演算；少量圈注与图内标注按用户要求保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-kairo/tus-electrical-2005-general-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            136.8,
+            97.6,
+            328.8,
+            205.6
+          ],
+          "width": 480,
+          "height": 270,
+          "label": "電気回路 第1题 · PDF物理页2 第1块，原位置拼合",
+          "sha256": "86dcf9e3a0402490454ac0bf9f49cab1d924ae6cbc96f14781efe96834788044",
+          "fileId": "tus-electrical-2005-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-kairo/tus-electrical-2005-general-kairo-q1-02.png",
+          "page": 2,
+          "box": [
+            136.8,
+            204,
+            480.8,
+            227.2
+          ],
+          "width": 860,
+          "height": 58,
+          "label": "電気回路 第1题 · PDF物理页2 第2块，原位置拼合",
+          "sha256": "5dd709f650ca52f5f85becb254474e6f16b0159279cbb58cdd944a83cce87eec",
+          "fileId": "tus-electrical-2005-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-kairo/tus-electrical-2005-general-kairo-q1-03.png",
+          "page": 2,
+          "box": [
+            334.4,
+            98.4,
+            480.8,
+            186.4
+          ],
+          "width": 366,
+          "height": 220,
+          "label": "電気回路 第1题 · PDF物理页2 第3块，原位置拼合",
+          "sha256": "f0e34f90241796e2ef931f527a17f6fc30b469c24aad26deb8c51807043386fe",
+          "fileId": "tus-electrical-2005-general-kairo"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2005-general-kairo"
+    },
+    {
+      "id": "tus-electrical-2005-general-kairo-q2",
+      "number": "2",
+      "title": "电气回路：二端口匹配与四端子常数",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口网络",
+        "匹配",
+        "四端子常数"
+      ],
+      "summary": "完整保留原卷本大题、全部小问和印刷图表；裁去大段手写演算，少量圈注、划线及图内标注按用户要求原样保留。中文标题与知识点仅用于导航，以印刷题干为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual inspection",
+        "date": "2026-10-26",
+        "notes": "对照全页与逐块PNG核对全部小问、图表及公共说明；分块按原位置拼合，排除大段手写演算；少量圈注与图内标注按用户要求保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-kairo/tus-electrical-2005-general-kairo-q2-01.png",
+          "page": 2,
+          "box": [
+            136,
+            250.4,
+            288,
+            356
+          ],
+          "width": 380,
+          "height": 264,
+          "label": "電気回路 第2题 · PDF物理页2 第1块，原位置拼合",
+          "sha256": "75ba7b1b5939cbc67a6e7a973363c3b68928244a504eb7ed636e0a205d245375",
+          "fileId": "tus-electrical-2005-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-kairo/tus-electrical-2005-general-kairo-q2-02.png",
+          "page": 2,
+          "box": [
+            136,
+            355.2,
+            388.8,
+            420.8
+          ],
+          "width": 632,
+          "height": 164,
+          "label": "電気回路 第2题 · PDF物理页2 第2块，原位置拼合",
+          "sha256": "add2f74225d768cfcbeb59b8d08b36b538d5190576c2e316a7217ef6e8df5eb1",
+          "fileId": "tus-electrical-2005-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-kairo/tus-electrical-2005-general-kairo-q2-03.png",
+          "page": 2,
+          "box": [
+            289.6,
+            249.6,
+            481.6,
+            344
+          ],
+          "width": 480,
+          "height": 236,
+          "label": "電気回路 第2题 · PDF物理页2 第3块，原位置拼合",
+          "sha256": "a7a9f443659109d95073539585d9819e32f9b73131471dcbe25a2077840df978",
+          "fileId": "tus-electrical-2005-general-kairo"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-kairo/tus-electrical-2005-general-kairo-q2-04.png",
+          "page": 2,
+          "box": [
+            388.8,
+            348,
+            480.8,
+            424.8
+          ],
+          "width": 230,
+          "height": 192,
+          "label": "電気回路 第2题 · PDF物理页2 第4块，原位置拼合",
+          "sha256": "640889018251215e32ee3e70ee3379d05368a4f08390a950c46d626af598b9db",
+          "fileId": "tus-electrical-2005-general-kairo"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电气回路",
+      "sourceFileId": "tus-electrical-2005-general-kairo"
+    },
+    {
+      "id": "tus-electrical-2005-general-denjiki-q1",
+      "number": "1",
+      "title": "电磁回路：同心带电球与介质中的电场和电位",
+      "titleKind": "editorial",
+      "topics": [
+        "介质",
+        "同心球",
+        "电位"
+      ],
+      "summary": "完整保留原卷本大题、全部小问和印刷图表；裁去大段手写演算，少量圈注、划线及图内标注按用户要求原样保留。中文标题与知识点仅用于导航，以印刷题干为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual inspection",
+        "date": "2026-10-26",
+        "notes": "对照全页与逐块PNG核对全部小问、图表及公共说明；分块按原位置拼合，排除大段手写演算；少量圈注与图内标注按用户要求保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denjiki/tus-electrical-2005-general-denjiki-q1-01.png",
+          "page": 3,
+          "box": [
+            119.2,
+            109.6,
+            440,
+            169.6
+          ],
+          "width": 802,
+          "height": 150,
+          "label": "電磁気学 第1题 · PDF物理页3 第1块，原位置拼合",
+          "sha256": "0e487e1968fe666e3e75139ff46b507393fd3fbbf75c61ac0bb630e62d0d2a5b",
+          "fileId": "tus-electrical-2005-general-denjiki"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denjiki/tus-electrical-2005-general-denjiki-q1-02.png",
+          "page": 3,
+          "box": [
+            134.4,
+            169.6,
+            330.4,
+            203.2
+          ],
+          "width": 490,
+          "height": 84,
+          "label": "電磁気学 第1题 · PDF物理页3 第2块，原位置拼合",
+          "sha256": "454cf9273cefaeaf56d7fee5be23552870a95c863baa429af770cc1792a366f0",
+          "fileId": "tus-electrical-2005-general-denjiki"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denjiki/tus-electrical-2005-general-denjiki-q1-03.png",
+          "page": 3,
+          "box": [
+            135.2,
+            212,
+            244.8,
+            232.8
+          ],
+          "width": 274,
+          "height": 52,
+          "label": "電磁気学 第1题 · PDF物理页3 第3块，原位置拼合",
+          "sha256": "3c891c64d3a5919963073b0a83c2e0a7aa40534f61abfd1863b41cb0c8bf0e2f",
+          "fileId": "tus-electrical-2005-general-denjiki"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denjiki/tus-electrical-2005-general-denjiki-q1-04.png",
+          "page": 3,
+          "box": [
+            328,
+            163.2,
+            446.4,
+            285.6
+          ],
+          "width": 296,
+          "height": 306,
+          "label": "電磁気学 第1题 · PDF物理页3 第4块，原位置拼合",
+          "sha256": "e269d77756b94d84bc9a78fd8dad6437b93a49d2882f05a134d5bb12df4c6c0f",
+          "fileId": "tus-electrical-2005-general-denjiki"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2005-general-denjiki"
+    },
+    {
+      "id": "tus-electrical-2005-general-denjiki-q2",
+      "number": "2",
+      "title": "电磁回路：自感线圈的感应电动势与磁链",
+      "titleKind": "editorial",
+      "topics": [
+        "自感",
+        "电磁感应"
+      ],
+      "summary": "完整保留原卷本大题、全部小问和印刷图表；裁去大段手写演算，少量圈注、划线及图内标注按用户要求原样保留。中文标题与知识点仅用于导航，以印刷题干为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual inspection",
+        "date": "2026-10-26",
+        "notes": "对照全页与逐块PNG核对全部小问、图表及公共说明；分块按原位置拼合，排除大段手写演算；少量圈注与图内标注按用户要求保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2005-general-denjiki/tus-electrical-2005-general-denjiki-q2-01.png",
+          "page": 3,
+          "box": [
+            116.8,
+            357.6,
+            467.2,
+            421.6
+          ],
+          "width": 876,
+          "height": 160,
+          "label": "電磁気学 第2题 · PDF物理页3 第1块，原位置拼合",
+          "sha256": "18de55b0f57e3a86d08a6cc4bf0e9713992ef3de2eb63fbbf2224f6f707a202f",
+          "fileId": "tus-electrical-2005-general-denjiki"
+        }
+      ],
+      "layout": "source-page",
+      "subject": "电磁回路",
+      "sourceFileId": "tus-electrical-2005-general-denjiki"
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-2005-general-denshi-q1",
+        "tus-electrical-2005-general-denshi-q2"
+      ],
+      "common": true,
+      "excluded": "页边及题下大段手写演算、作答留白和页脚排除；少量原件圈注与图内标注按用户要求保留。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denshi"
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面由对应组件覆盖，非正文区域的大段手写作答排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denshi"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面由对应组件覆盖，非正文区域的大段手写作答排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denshi"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denshi"
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denshi"
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denshi"
+    },
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面由对应组件覆盖，非正文区域的大段手写作答排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-kairo"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2005-general-kairo-q1",
+        "tus-electrical-2005-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "页边及题下大段手写演算、作答留白和页脚排除；少量原件圈注与图内标注按用户要求保留。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-kairo"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面由对应组件覆盖，非正文区域的大段手写作答排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-kairo"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-kairo"
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-kairo"
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-kairo"
+    },
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面由对应组件覆盖，非正文区域的大段手写作答排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denjiki"
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面由对应组件覆盖，非正文区域的大段手写作答排除。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denjiki"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tus-electrical-2005-general-denjiki-q1",
+        "tus-electrical-2005-general-denjiki-q2"
+      ],
+      "common": true,
+      "excluded": "页边及题下大段手写演算、作答留白和页脚排除；少量原件圈注与图内标注按用户要求保留。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denjiki"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denjiki"
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denjiki"
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true,
+      "fileId": "tus-electrical-2005-general-denjiki"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2005-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2005 入学年度 · 修士入试",
+  "catalogId": "tus-270b0919cbec68ca",
+  "components": [
+    {
+      "paperId": "tus-electrical-2005-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2005-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2005-general-denjiki",
+      "subject": "电磁回路",
+      "layout": "source-page"
+    }
+  ],
+  "note": "2005入学年度（平成17年度）由卷头确认，实施日2004-08-02分别保留。2005(H17).pdf前三页共三科6道大题，全部收录；后三页独立手写解答全部排除。按用户要求裁去页边和题下的大段手写演算，保留不影响阅读的少量圈注、划线及图内标注。题干和配图分块后按原位置拼合。另列answer文件不处理。"
+}

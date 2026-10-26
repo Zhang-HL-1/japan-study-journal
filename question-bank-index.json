@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "papers": [
+    {"id": "tus-electrical-2005-general", "title": "东京理科大学 · 工学研究科电气工学 · 2005 入学年度 · 修士入试", "catalogId": "tus-270b0919cbec68ca", "questionCount": 6, "data": "assets/question-bank/tus-electrical-2005-general/paper.json"},
     {"id": "kobe-ee-2026-denjiki", "title": "神户大学 · 2026 入学年度 · 电磁气学", "catalogId": "kobe-ee-2026", "questionCount": 2, "data": "assets/question-bank/kobe-ee-2026-denjiki/paper.json"},
     {"id": "tus-ee-2025-denshi", "title": "东京理科大学 · 2025 入学年度 · 电子电路", "catalogId": "tus-92e97fbb48a52078", "questionCount": 4, "data": "assets/question-bank/tus-ee-2025-denshi/paper.json"},
     {"id": "tus-ee-2025-kairo", "title": "东京理科大学 · 2025 入学年度 · 电路", "catalogId": "tus-92e97fbb48a52078", "questionCount": 3, "data": "assets/question-bank/tus-ee-2025-kairo/paper.json"},
