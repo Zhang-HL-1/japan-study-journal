@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2001-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2001 入学年度 · 修士入试（英语未收录）",
+  "catalogId": "tus-818b34507e889768",
+  "components": [
+    {
+      "paperId": "tus-electrical-2001-general-kairo",
+      "subject": "电气回路"
+    },
+    {
+      "paperId": "tus-electrical-2001-general-denshi",
+      "subject": "电子回路"
+    },
+    {
+      "paperId": "tus-electrical-2001-general-tsushin",
+      "subject": "电气通信"
+    },
+    {
+      "paperId": "tus-electrical-2001-general-denjiki",
+      "subject": "电磁回路"
+    }
+  ],
+  "note": "2001入学年度（平成13年度），实施日2000-08-01分别保留。已收录电气3题、电子2题、电气通信3题、电磁3题，共11道完整大题。前三科来自2001(H13).pdf第1、5、6页；电磁补充来自2002(H14).pdf第8页（卷头平成13年度），不与2002入学题重复计数。2001原卷第2–4页英语3题按用户要求暂不收录；各合册手写参考解答全部排除。通信三个独立问题按原编号分题，选项表逐题保存，空白解答栏为公共材料。"
+}

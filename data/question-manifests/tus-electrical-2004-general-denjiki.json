@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2004-general-denjiki",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2004 入学年度 · 电磁回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-426f9877d3ea1ced",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2004,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成16年度",
+    "subject": "电磁回路",
+    "originalSubject": "電磁気学",
+    "originalName": "2004(H16)-1(含答案).pdf",
+    "pdf": "assets/past-papers/documents/be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c.pdf",
+    "sha256": "be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c",
+    "pageCount": 14,
+    "note": "2004入学年度（平成16年度）由科目卷头确认，实施日平成15年8月1日（2003-08-01）独立保留。原合册14页：第1页为工業化学専攻英语，排除；第2–6页为电气专攻原题，其中第4页英语按用户要求暂不处理；第7–14页非官方手写解答全部排除。另列answer文件不处理。少量不影响阅读的原件标注保留，不擦除或重绘。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 2,
+      "box": [
+        65,
+        28,
+        468,
+        116
+      ],
+      "label": "平成16年度、科目、专攻、实施日与公共说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2004-general-denjiki-q1",
+      "number": "1–4",
+      "title": "平行长直导线的电场、电容与磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "电场",
+        "电容",
+        "磁场",
+        "电磁力"
+      ],
+      "summary": "一题保留完整共用条件、全部关联小问和图表；中文标题和知识点只用于导航，作答以日文原题为准。原页无独立大题号，1）–4）共用平行导线条件，合为一题，不拆小问。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            65,
+            120,
+            470,
+            366
+          ],
+          "label": "電磁気学 第1题 第1块"
+        },
+        {
+          "page": 2,
+          "box": [
+            70,
+            374,
+            465,
+            618
+          ],
+          "label": "電磁気学 第1题 第2块"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "对照14页全卷及全部预览PNG，逐块核对首末行、所有关联小问、图号、端子撇号、坐标轴和作图网格。公共卷头独立保留，少量原件笔注按用户要求保留。中文标题仅用于导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "工業化学専攻英语，非本专攻，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2004-general-denjiki-q1"
+      ],
+      "common": true,
+      "excluded": "页边、页脚、採点欄和普通留白不作题目；少量原件标注保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英语按用户要求暂不处理（deferred），不是空白页。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页全部排除。",
+      "reviewed": true
+    }
+  ]
+}

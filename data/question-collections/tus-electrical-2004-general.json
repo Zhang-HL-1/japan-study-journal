@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2004-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2004 入学年度 · 修士入试（英语未收录）",
+  "catalogId": "tus-426f9877d3ea1ced",
+  "components": [
+    {
+      "paperId": "tus-electrical-2004-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2004-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2004-general-denjiki",
+      "subject": "电磁回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-2004-general-tsushin",
+      "subject": "电气通信",
+      "layout": "source-page"
+    }
+  ],
+  "note": "2004入学年度（平成16年度）由各科卷头确认；实施日2003-08-01独立保留。合册第2、3、5、6页四科8道完整大题全部收录；电磁原页无独立大题号，1）–4）共用平行导线条件，作为一完整题保留。第4页电气专攻英语2题按用户要求暂不处理（deferred）；第1页工業化学专攻英语不属本专攻，排除。第7–14页非官方手写解答与另列answer文件全部排除。少量不影响阅读的原件笔注保留，不擦除重绘。"
+}

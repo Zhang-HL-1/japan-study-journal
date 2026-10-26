@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2002-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2002 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-116efe829c3d8c87",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2002,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成14年度",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2002(H14).pdf",
+    "pdf": "assets/past-papers/documents/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
+    "sha256": "210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922",
+    "pageCount": 14,
+    "note": "目录2002入学年度，题面平成14年度卷头确认；实施日平成13年8月2日（2001-08-02）独立保留。14页合册中第1/2/6页分别为该年度电磁/电气/电子题面，第3至5页英语暂不处理，第7页其他专攻2001英语、第8页2001电磁排除，第9至14页独立手写参考解答全部排除。少量卷头手写科目与标记按原件保留；另列answer文件不处理。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-2002-general-kairo/common-01.png",
+      "page": 2,
+      "box": [
+        60,
+        11,
+        481,
+        118
+      ],
+      "width": 1053,
+      "height": 268,
+      "label": "年度、科目、专攻、实施日及公共作答说明",
+      "sha256": "6c9ab565c3a93eb993fb6f13bcf67d9c5a6fc44c5a474bdc386aa9abe521ce24"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2002-general-kairo-q1",
+      "number": "1",
+      "title": "RC二端口的四端子参数与电压比",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口",
+        "四端子参数"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-kairo/tus-electrical-2002-general-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            70,
+            121,
+            474,
+            251
+          ],
+          "width": 1010,
+          "height": 326,
+          "label": "電気回路第1题，第1块",
+          "sha256": "64adb39d23582782c4b51c28d61ed48110eede7f63805f9c26854fca12dabe90"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-2002-general-kairo-q2",
+      "number": "2",
+      "title": "RC与RL并联支路的切换响应",
+      "titleKind": "editorial",
+      "topics": [
+        "暂态响应",
+        "RLC回路"
+      ],
+      "summary": "完整保留原卷本大题与全部关联小问和图表；中文标题及知识点仅用于导航，以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看14页原卷，逐张对照draft预览核对题号、首末行、所有小问、公式、图表和图号。电子第2题图2向下扩框保全图号，表1归属第2题，未混入第1题。中文标题仅导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-2002-general-kairo/tus-electrical-2002-general-kairo-q2-01.png",
+          "page": 2,
+          "box": [
+            69,
+            265,
+            462,
+            386
+          ],
+          "width": 983,
+          "height": 303,
+          "label": "電気回路第2题，第1块",
+          "sha256": "6a93f038f572b093a9a0e11b974a471b1e8cb794489ef4d46ab92e177b2aeeb4"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度其他专业科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2002-general-kairo-q1",
+        "tus-electrical-2002-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "页脚、採点欄与普通留白，不含其他题面。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度英语题面，按用户此前不用管英语的指示暂不处理，未收录。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度其他专业科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "平成13年度工业化学专攻英语，非本年度本专攻题面。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "平成13年度电气工学专攻电磁题面，属于2001入学年度，非本批2002。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，不作为题面，全部排除。",
+      "reviewed": true
+    }
+  ]
+}
