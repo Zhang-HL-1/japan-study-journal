@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-1999-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 1999 入学年度 · 修士入试（电子、电气；电磁原题缺失）",
+  "catalogId": "tus-384d1cf6520d0c45",
+  "components": [
+    {
+      "paperId": "tus-electrical-1999-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    },
+    {
+      "paperId": "tus-electrical-1999-general-kairo",
+      "subject": "电气回路",
+      "layout": "source-page"
+    }
+  ],
+  "note": "1999入学年度（平成11年度）由卷头确认，实施日1998-08-03分别保留。原合册6页，前2页电子与电气各2道完整大题，共4题已收录；后4页独立手写参考解答全部排除。电磁只有answer文件，没有question原题，未从答案反推题目，因此不宣称全年全科齐全。电子第2题真值表图2原位在第1题配图旁，按明确引用单独归入第2题。少量圈注原样保留；所有PNG以renderScale4无损生成，未重绘或AI锐化。"
+}

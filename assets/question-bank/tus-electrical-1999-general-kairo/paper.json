@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-1999-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 1999 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-384d1cf6520d0c45",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 1999,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成11年度",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "1999(H11).pdf",
+    "pdf": "assets/past-papers/documents/c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c.pdf",
+    "sha256": "c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c",
+    "pageCount": 6,
+    "note": "目录1999入学年度由平成11年度题面卷头确认；实施日平成10年8月3日（1998-08-03）单独保留。6页合册前两页为电气和电子共4道原题，后4页手写参考解答全部排除。目录电磁仅有answer文件，缺少question原题，不据手写答案反推题面。保留不影响阅读的少量圈注与科目手写标记，不重绘。PNG按renderScale4无损生成，未做AI锐化。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tus-electrical-1999-general-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        70,
+        72,
+        450,
+        142
+      ],
+      "width": 1520,
+      "height": 280,
+      "label": "平成11年度、科目、专攻、实施日及公共作答说明",
+      "sha256": "8342dc87e218471022af8b470e3b4b40022efac3b06de1b5bddeb43770c5980c"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-1999-general-kairo-q1",
+      "number": "1",
+      "title": "二端口回路的开路电压与短路电流",
+      "titleKind": "editorial",
+      "topics": [
+        "直流回路",
+        "等效电阻"
+      ],
+      "summary": "完整保留原卷本大题、全部关联小问及配图表；中文标题和知识点仅用于导航，以日文裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看全部6页原卷；逐张对照全部draft PNG核对题号、首末行、全部小问、公式上下标、配图、端子撇号和图号。电子图2真值表按引用归第2题，不混入第1题。少量原件圈注保留，后4页手写解答排除。renderScale4无损PNG，未重绘锐化。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-1999-general-kairo/tus-electrical-1999-general-kairo-q1-01.png",
+          "page": 1,
+          "box": [
+            74,
+            152,
+            439,
+            183
+          ],
+          "width": 1460,
+          "height": 124,
+          "label": "電気回路第1题 · 第1块",
+          "sha256": "9ad0ca0ab3b849cb56df6f158a95e15f752657a014d841859586972d2fed101c"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-1999-general-kairo/tus-electrical-1999-general-kairo-q1-02.png",
+          "page": 1,
+          "box": [
+            108,
+            194,
+            290,
+            300
+          ],
+          "width": 728,
+          "height": 424,
+          "label": "電気回路第1题 · 第2块",
+          "sha256": "b8d878f097945ccb8974219595126d81bc2472815db9eb06963a9228b0e132fc"
+        }
+      ]
+    },
+    {
+      "id": "tus-electrical-1999-general-kairo-q2",
+      "number": "2",
+      "title": "二端口匹配与T形RC回路",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口",
+        "匹配",
+        "四端子参数"
+      ],
+      "summary": "完整保留原卷本大题、全部关联小问及配图表；中文标题和知识点仅用于导航，以日文裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "已查看全部6页原卷；逐张对照全部draft PNG核对题号、首末行、全部小问、公式上下标、配图、端子撇号和图号。电子图2真值表按引用归第2题，不混入第1题。少量原件圈注保留，后4页手写解答排除。renderScale4无损PNG，未重绘锐化。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tus-electrical-1999-general-kairo/tus-electrical-1999-general-kairo-q2-01.png",
+          "page": 1,
+          "box": [
+            74,
+            313,
+            440,
+            405
+          ],
+          "width": 1464,
+          "height": 368,
+          "label": "電気回路第2题 · 第1块",
+          "sha256": "6a689f412824072ddc04b2df9f3caa7853c74829b6aaac16eb3b7f58f9a0d747"
+        },
+        {
+          "src": "assets/question-bank/tus-electrical-1999-general-kairo/tus-electrical-1999-general-kairo-q2-02.png",
+          "page": 1,
+          "box": [
+            103,
+            406,
+            387,
+            491
+          ],
+          "width": 1136,
+          "height": 340,
+          "label": "電気回路第2题 · 第2块",
+          "sha256": "c59bcea0d718b869d1c7f5d79ff0ef5604aff8a83b4793bb0a715b7313f4f163"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tus-electrical-1999-general-kairo-q1",
+        "tus-electrical-1999-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "页边少量手写圈记、页脚、採点欄及留白，不含其他题面。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同年度另一专业科目由对应组件覆盖。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，全部排除，不作为题面。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，全部排除，不作为题面。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，全部排除，不作为题面。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方独立手写参考解答，全部排除，不作为题面。",
+      "reviewed": true
+    }
+  ]
+}

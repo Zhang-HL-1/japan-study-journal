@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-1998-general",
+  "title": "东京理科大学 · 工学研究科电气工学 · 1998 入学年度 · 修士入试（仅电子第1题）",
+  "catalogId": "tus-50ed7bf8bfc02ca2",
+  "components": [
+    {
+      "paperId": "tus-electrical-1998-general-denshi",
+      "subject": "电子回路",
+      "layout": "source-page"
+    }
+  ],
+  "note": "1998入学年度（平成10年度）由卷头确认，实施日1997-08-02分别保留。现有question原卷仅电子2题，其中第1题完整收录；第2题给定真值表表体原扫描缺损，blocked，未从手写参考解答推补。第2–5页非官方手写解答排除。电气、电磁等科无可用question原题，电磁仅有answer材料，不能声称整年齐全。采用renderScale=4（288 DPI）无损PNG；未锐化或重绘，题上少量圈注依用户要求保留。"
+}
