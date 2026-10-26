@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "tus-electrical-2005-general-kairo",
+  "title": "东京理科大学 · 工学研究科电气工学 · 2005 入学年度 · 电气回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tus-270b0919cbec68ca",
+    "schoolId": "tus",
+    "school": "東京理科大学",
+    "graduate": "工学研究科",
+    "major": "電気工学専攻",
+    "year": 2005,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "平成17年度",
+    "subject": "电气回路",
+    "originalSubject": "電気回路",
+    "originalName": "2005(H17).pdf",
+    "pdf": "assets/past-papers/documents/bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0.pdf",
+    "sha256": "bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0",
+    "pageCount": 6,
+    "note": "2005入学年度（平成17年度）由前三页卷头明确确认；实施日平成16年8月2日（2004-08-02），分别保留。原件2005(H17).pdf共6页：前三页三科原题，后三页为非官方手写参考解答，全部排除。按用户要求裁去页边和题下大段演算，少量圈注、划线、图内标注原样保留，不擦除或重绘。另列answer文件不处理。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 2,
+      "box": [
+        132.0,
+        16.8,
+        495.2,
+        95.2
+      ],
+      "label": "平成17年度、科目、专攻、实施日与公共作答要求"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tus-electrical-2005-general-kairo-q1",
+      "number": "1",
+      "title": "RLC回路电流与无电流条件",
+      "titleKind": "editorial",
+      "topics": [
+        "RLC回路",
+        "交流稳态"
+      ],
+      "summary": "完整保留原卷本大题、全部小问和印刷图表；裁去大段手写演算，少量圈注、划线及图内标注按用户要求原样保留。中文标题与知识点仅用于导航，以印刷题干为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            136.8,
+            97.6,
+            328.8,
+            205.6
+          ],
+          "label": "電気回路 第1题 · PDF物理页2 第1块，原位置拼合"
+        },
+        {
+          "page": 2,
+          "box": [
+            136.8,
+            204.0,
+            480.8,
+            227.2
+          ],
+          "label": "電気回路 第1题 · PDF物理页2 第2块，原位置拼合"
+        },
+        {
+          "page": 2,
+          "box": [
+            334.4,
+            98.4,
+            480.8,
+            186.4
+          ],
+          "label": "電気回路 第1题 · PDF物理页2 第3块，原位置拼合"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual inspection",
+        "date": "2026-10-26",
+        "notes": "对照全页与逐块PNG核对全部小问、图表及公共说明；分块按原位置拼合，排除大段手写演算；少量圈注与图内标注按用户要求保留。"
+      }
+    },
+    {
+      "id": "tus-electrical-2005-general-kairo-q2",
+      "number": "2",
+      "title": "二端口匹配与四端子常数",
+      "titleKind": "editorial",
+      "topics": [
+        "二端口网络",
+        "匹配",
+        "四端子常数"
+      ],
+      "summary": "完整保留原卷本大题、全部小问和印刷图表；裁去大段手写演算，少量圈注、划线及图内标注按用户要求原样保留。中文标题与知识点仅用于导航，以印刷题干为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            136.0,
+            250.4,
+            288.0,
+            356.0
+          ],
+          "label": "電気回路 第2题 · PDF物理页2 第1块，原位置拼合"
+        },
+        {
+          "page": 2,
+          "box": [
+            136.0,
+            355.2,
+            388.8,
+            420.8
+          ],
+          "label": "電気回路 第2题 · PDF物理页2 第2块，原位置拼合"
+        },
+        {
+          "page": 2,
+          "box": [
+            289.6,
+            249.6,
+            481.6,
+            344.0
+          ],
+          "label": "電気回路 第2题 · PDF物理页2 第3块，原位置拼合"
+        },
+        {
+          "page": 2,
+          "box": [
+            388.8,
+            348.0,
+            480.8,
+            424.8
+          ],
+          "label": "電気回路 第2题 · PDF物理页2 第4块，原位置拼合"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual inspection",
+        "date": "2026-10-26",
+        "notes": "对照全页与逐块PNG核对全部小问、图表及公共说明；分块按原位置拼合，排除大段手写演算；少量圈注与图内标注按用户要求保留。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面由对应组件覆盖，非正文区域的大段手写作答排除。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tus-electrical-2005-general-kairo-q1",
+        "tus-electrical-2005-general-kairo-q2"
+      ],
+      "common": true,
+      "excluded": "页边及题下大段手写演算、作答留白和页脚排除；少量原件圈注与图内标注按用户要求保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同一合册其他科目题面由对应组件覆盖，非正文区域的大段手写作答排除。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "非官方手写解答页，全部排除，不作题干。",
+      "reviewed": true
+    }
+  ]
+}
