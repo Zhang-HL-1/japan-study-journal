@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2014",
+  "title": "早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2014年9月・2015年4月入学 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-246df2585267648e",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2014,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "2014年9月・2015年4月入学試験",
+    "admissionYears": [
+      2014,
+      2015
+    ],
+    "subject": "専門科目",
+    "originalSubject": "力学・回路理論・電磁気学",
+    "originalName": "14bc9ed1ceb4d7a3ae61bfea9e003753.pdf",
+    "pdf": "assets/past-papers/documents/dc3ed93aab6d79afc81170ff0360cd5fc67b3d27796484bed780ff5a0ee1a377.pdf",
+    "sha256": "dc3ed93aab6d79afc81170ff0360cd5fc67b3d27796484bed780ff5a0ee1a377",
+    "pageCount": 7,
+    "note": "2014年9月・2015年4月入学合并原卷，目录按9月入学年2014索引，封面修订标记不作为实施日。三科选两科，所选科目的問題番号1、2均须作答。每页内部大题按(1)/(2)保留全部1)–n)小问；正文力学4题、回路2题、电磁4题，共10完整大题。7页无旋转；renderScale4=288DPI无损PNG。"
+  },
+  "renderScale": 4,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        54,
+        35,
+        550,
+        428
+      ],
+      "label": "双入学期、三科选两科和所选科目两份问题均须作答的公共说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2014-mechanics1-q1",
+      "number": "力学（その1）(1)",
+      "title": "平面质点与抛物线约束运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            55,
+            183,
+            529,
+            502
+          ],
+          "label": "力学（その1）(1)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留本大题的4个关联小问。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。"
+      }
+    },
+    {
+      "id": "waseda-eps-2014-mechanics1-q2",
+      "number": "力学（その1）(2)",
+      "title": "移动支点摆的哈密顿运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            55,
+            516,
+            529,
+            807
+          ],
+          "label": "力学（その1）(2)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留本大题的5个关联小问。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。"
+      }
+    },
+    {
+      "id": "waseda-eps-2014-mechanics2-q1",
+      "number": "力学（その2）(1)",
+      "title": "德布罗意波与量子算符测量",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            60,
+            186,
+            536,
+            386
+          ],
+          "label": "力学（その2）(1)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留本大题的3个关联小问。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。原(1)下3项量子基础设问作为完整大题保留，不拆。"
+      }
+    },
+    {
+      "id": "waseda-eps-2014-mechanics2-q2",
+      "number": "力学（その2）(2)",
+      "title": "阶跃势的反射与透射",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            60,
+            404,
+            536,
+            807
+          ],
+          "label": "力学（その2）(2)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留本大题的4个关联小问。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。"
+      }
+    },
+    {
+      "id": "waseda-eps-2014-circuits1-q1",
+      "number": "回路理論（その1）(1)",
+      "title": "交流负载的功率与最优匹配",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            39,
+            176,
+            556,
+            742
+          ],
+          "label": "回路理論（その1）(1)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留本大题的6个关联小问。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。"
+      }
+    },
+    {
+      "id": "waseda-eps-2014-circuits2-q1",
+      "number": "回路理論（その2）(1)",
+      "title": "RLC开关电路的阶跃暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            44,
+            175,
+            561,
+            729
+          ],
+          "label": "回路理論（その2）(1)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留本大题的6个关联小问。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。"
+      }
+    },
+    {
+      "id": "waseda-eps-2014-em1-q1",
+      "number": "電磁気学（その1）(1)",
+      "title": "二维矢量场与散度",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            41,
+            175,
+            550,
+            247
+          ],
+          "label": "電磁気学（その1）(1)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留本大题的2个关联小问。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。"
+      }
+    },
+    {
+      "id": "waseda-eps-2014-em1-q2",
+      "number": "電磁気学（その1）(2)",
+      "title": "三角形顶点电荷的静电平衡",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            41,
+            278,
+            550,
+            425
+          ],
+          "label": "電磁気学（その1）(2)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留本大题的2个关联小问。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。"
+      }
+    },
+    {
+      "id": "waseda-eps-2014-em2-q1",
+      "number": "電磁気学（その2）(1)",
+      "title": "交叉长直导线的安培力",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            57,
+            190,
+            548,
+            360
+          ],
+          "label": "電磁気学（その2）(1)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留独立题干和交叉导线配图。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。"
+      }
+    },
+    {
+      "id": "waseda-eps-2014-em2-q2",
+      "number": "電磁気学（その2）(2)",
+      "title": "电磁波方程与波阻抗",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、条件、公式和配图保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            57,
+            390,
+            548,
+            646
+          ],
+          "label": "電磁気学（その2）(2)完整题面及关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页原卷逐页看图；draft预览11张PNG逐张以原尺寸对照原页。",
+        "date": "2026-10-27",
+        "notes": "完整保留本大题的4个关联小问。已核对首末行、条件、公式上下标、配图、坐标轴及图号，无相邻大题混入。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面公共说明保留，未计为大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "waseda-eps-2014-mechanics1-q1",
+        "waseda-eps-2014-mechanics1-q2"
+      ],
+      "common": false,
+      "excluded": "全部正文与图表纳入，页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2014-mechanics2-q1",
+        "waseda-eps-2014-mechanics2-q2"
+      ],
+      "common": false,
+      "excluded": "全部正文与图表纳入，页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2014-circuits1-q1"
+      ],
+      "common": false,
+      "excluded": "全部正文与图表纳入，页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2014-circuits2-q1"
+      ],
+      "common": false,
+      "excluded": "全部正文与图表纳入，页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2014-em1-q1",
+        "waseda-eps-2014-em1-q2"
+      ],
+      "common": false,
+      "excluded": "全部正文与图表纳入，页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2014-em2-q1",
+        "waseda-eps-2014-em2-q2"
+      ],
+      "common": false,
+      "excluded": "全部正文与图表纳入，页眉、页脚和留白排除。",
+      "reviewed": true
+    }
+  ]
+}
