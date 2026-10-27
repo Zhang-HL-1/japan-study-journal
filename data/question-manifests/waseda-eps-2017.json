@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2017",
+  "title": "早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2017年9月・2018年4月入学 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-3a6caa92d4660b03",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2017,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "2017年9月・2018年4月入学試験",
+    "admissionYears": [
+      2017,
+      2018
+    ],
+    "subject": "専門科目",
+    "originalSubject": "力学・回路理論・電磁気学",
+    "originalName": "51_M_denshibutsuri_2017_September2018_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/aedb4bd36f17e2c1e4c0555dbb801a84d4a787ded2c034b56d0ef56609a50639.pdf",
+    "sha256": "aedb4bd36f17e2c1e4c0555dbb801a84d4a787ded2c034b56d0ef56609a50639",
+    "pageCount": 7,
+    "note": "2017年9月・2018年4月入学合并原卷，按目录academic与9月入学年2017索引。封面要求三科选两科，所选科目的問題番号1、2均须作答。問題番号为解答纸组织号；按正文(1)–(5)及問1–4整理13完整大题，不拆关联小问。全7页无旋转，renderScale4=288DPI无损PNG。"
+  },
+  "renderScale": 4,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        54,
+        35,
+        548,
+        427
+      ],
+      "label": "双入学期、三科选两科及所选科目问题番号1、2均须作答的公共说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2017-mechanics-q1",
+      "number": "力学 (1)",
+      "title": "滑动杆质点的拉格朗日运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            50,
+            181,
+            545,
+            459
+          ],
+          "label": "力学 (1)题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；5个关联小问全部保留。首末行、公式上下标、图表及图号已核对。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-mechanics-q2",
+      "number": "力学 (2)",
+      "title": "三维弹簧质点与哈密顿方程",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            50,
+            474,
+            545,
+            696
+          ],
+          "label": "力学 (2)题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；4个关联小问全部保留。首末行、公式上下标、图表及图号已核对。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-mechanics-q3",
+      "number": "力学 (3)",
+      "title": "无限深方势阱的本征态",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            50,
+            176,
+            546,
+            328
+          ],
+          "label": "力学 (3)题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题，单一求解要求。首末行、公式上下标、图表及图号已核对。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-mechanics-q4",
+      "number": "力学 (4)",
+      "title": "高斯波包与不确定性",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            50,
+            343,
+            546,
+            567
+          ],
+          "label": "力学 (4)题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；3个关联小问全部保留。首末行、公式上下标、图表及图号已核对。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-mechanics-q5",
+      "number": "力学 (5)",
+      "title": "能量本征态叠加与时间演化",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            50,
+            582,
+            546,
+            800
+          ],
+          "label": "力学 (5)题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；4个关联小问全部保留。首末行、公式上下标、图表及图号已核对。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-circuits-q1",
+      "number": "回路理論 (1)",
+      "title": "直流电路的戴维南与诺顿等效",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            43,
+            160,
+            558,
+            353
+          ],
+          "label": "回路理論 (1)题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；2个关联小问全部保留。首末行、公式上下标、图表及图号已核对。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-circuits-q2",
+      "number": "回路理論 (2)",
+      "title": "谐振与二端口参数",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            43,
+            363,
+            558,
+            784
+          ],
+          "label": "回路理論 (2)题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；5个关联小问全部保留。首末行、公式上下标、图表及图号已核对。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-circuits-q3",
+      "number": "回路理論 (3)",
+      "title": "指数输入RC电路暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            43,
+            162,
+            558,
+            369
+          ],
+          "label": "回路理論 (3)题面"
+        },
+        {
+          "page": 5,
+          "box": [
+            43,
+            374,
+            244,
+            509
+          ],
+          "label": "回路理論 (3)关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；5个关联小问全部保留。首末行、公式上下标、图表及图号已核对。分块保留正确关联配图，未纳入相邻大题图。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-circuits-q4",
+      "number": "回路理論 (4)",
+      "title": "双电感网络的阶跃响应",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            43,
+            518,
+            558,
+            752
+          ],
+          "label": "回路理論 (4)题面"
+        },
+        {
+          "page": 5,
+          "box": [
+            244,
+            369,
+            545,
+            510
+          ],
+          "label": "回路理論 (4)关联配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；6个关联小问全部保留。首末行、公式上下标、图表及图号已核对。分块保留正确关联配图，未纳入相邻大题图。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-em-q1",
+      "number": "電磁気学 問1",
+      "title": "线电荷电势与电偶极子",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            40,
+            170,
+            365,
+            345
+          ],
+          "label": "問1(1)完整题干"
+        },
+        {
+          "page": 6,
+          "box": [
+            360,
+            138,
+            553,
+            350
+          ],
+          "label": "問1(1)图1含轴箭头"
+        },
+        {
+          "page": 6,
+          "box": [
+            40,
+            356,
+            553,
+            562
+          ],
+          "label": "問1(2)完整题干及图2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；2个关联小问全部保留。首末行、公式上下标、图表及图号已核对。图1上方箭头单独完整保留，三块依原阅读顺序保留两小问与两图。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-em-q2",
+      "number": "電磁気学 問2",
+      "title": "矢量三重积的性质",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            40,
+            591,
+            553,
+            693
+          ],
+          "label": "電磁気学 問2题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；2个关联小问全部保留。首末行、公式上下标、图表及图号已核对。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-em-q3",
+      "number": "電磁気学 問3",
+      "title": "三角形与圆形电流回路磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            43,
+            178,
+            557,
+            453
+          ],
+          "label": "電磁気学 問3题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；2个关联小问全部保留。首末行、公式上下标、图表及图号已核对。"
+      }
+    },
+    {
+      "id": "waseda-eps-2017-em-q4",
+      "number": "電磁気学 問4",
+      "title": "麦克斯韦方程与电磁波",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "中文标题仅为编辑导航；完整日文原题及全部关联小问、公式和图表保留，作答以原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            43,
+            464,
+            557,
+            690
+          ],
+          "label": "電磁気学 問4题面"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整7页逐页看图，draft预览全部裁图逐张对照原页；修改后复看受影响图。",
+        "date": "2026-10-27",
+        "notes": "独立题干的完整大题；4个关联小问全部保留。首末行、公式上下标、图表及图号已核对。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面作为公共说明保留，未计为大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "waseda-eps-2017-mechanics-q1",
+        "waseda-eps-2017-mechanics-q2"
+      ],
+      "common": false,
+      "excluded": "全部印刷正文与配图均纳入；页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2017-mechanics-q3",
+        "waseda-eps-2017-mechanics-q4",
+        "waseda-eps-2017-mechanics-q5"
+      ],
+      "common": false,
+      "excluded": "全部印刷正文与配图均纳入；页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2017-circuits-q1",
+        "waseda-eps-2017-circuits-q2"
+      ],
+      "common": false,
+      "excluded": "全部印刷正文与配图均纳入；页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2017-circuits-q3",
+        "waseda-eps-2017-circuits-q4"
+      ],
+      "common": false,
+      "excluded": "全部印刷正文与配图均纳入；页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2017-em-q1",
+        "waseda-eps-2017-em-q2"
+      ],
+      "common": false,
+      "excluded": "全部印刷正文与配图均纳入；页眉、页脚和留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2017-em-q3",
+        "waseda-eps-2017-em-q4"
+      ],
+      "common": false,
+      "excluded": "全部印刷正文与配图均纳入；页眉、页脚和留白排除。",
+      "reviewed": true
+    }
+  ]
+}
