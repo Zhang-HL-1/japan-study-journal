@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2019",
+  "title": "早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2019年9月・2020年4月入学 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-ed65972f17a0dce6",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2019,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "2019年9月・2020年4月入学試験",
+    "admissionYears": [
+      2019,
+      2020
+    ],
+    "subject": "専門科目",
+    "originalSubject": "力学・電磁気学・回路理論",
+    "originalName": "51_M_denshibutsuri_2019_September2020_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/44fe69ef083325326da7c97d0532a72f1c07a59d207f247347d177ca27d28b99.pdf",
+    "sha256": "44fe69ef083325326da7c97d0532a72f1c07a59d207f247347d177ca27d28b99",
+    "pageCount": 8,
+    "note": "2019年9月与2020年4月入学合并原卷，目录按9月入学年2019索引。封面修订日期不作为实施日。第1页官方訂正通知关联PDF第6页電磁気学問4(7)，电气与磁气能量密度公式中场强应有平方，原样保留订正及正文，不静默改写。力学4题、电磁4题、回路2题，共10道完整大题。問題番号为解答纸编号。第3/5/7页Rotate270，派生PDF经remove_rotation直立且像素外观一致，保留原件。renderScale4=288DPI无损PNG，无答案解析。",
+    "normalization": {
+      "derivedPdf": "assets/question-bank/waseda-eps-2019/source-upright.pdf",
+      "derivedSha256": "cfc55b5cf078f0c03c53cbd51efc981887444de5310a7ab75920ba2102c1f33b",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 0,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 0,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.4400024414062
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 0,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ]
+        },
+        {
+          "page": 5,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.4400024414062
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 6,
+          "sourceRotation": 0,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ]
+        },
+        {
+          "page": 7,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.4400024414062
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 8,
+          "sourceRotation": 0,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.4400024414062,
+            842.0399780273438
+          ]
+        }
+      ]
+    }
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/waseda-eps-2019/common-01.png",
+      "page": 1,
+      "box": [
+        65,
+        40,
+        550,
+        610
+      ],
+      "width": 1940,
+      "height": 2280,
+      "label": "官方訂正通知：電磁気学問4(7)能量密度中场强平方；须与PDF第6页原题合读",
+      "sha256": "789a0ae21af32aaa1538b313fe60446258249dd68db429be67c86f257f102a42"
+    },
+    {
+      "src": "assets/question-bank/waseda-eps-2019/common-02.png",
+      "page": 2,
+      "box": [
+        45,
+        30,
+        566,
+        370
+      ],
+      "width": 2084,
+      "height": 1360,
+      "label": "2019年9月・2020年4月入学封面及全科作答、解答纸说明",
+      "sha256": "6fbe220a4d16cd1e8695a270eb2b4105ab78bda25262972d6f6461e95097d39b"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2019-mechanics-q1",
+      "number": "力学 問1",
+      "title": "圆环内质点的拉格朗日与哈密顿运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-mechanics-q1-01.png",
+          "page": 3,
+          "box": [
+            52,
+            175,
+            562,
+            407
+          ],
+          "width": 2040,
+          "height": 928,
+          "label": "力学 問1完整题干及配图",
+          "sha256": "c490070dbee058d2150185d1e20a05e6e0030daeb8e8cb80be5e319f49435e67"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2019-mechanics-q2",
+      "number": "力学 問2",
+      "title": "均匀磁场中的带电粒子与泊松括号",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-mechanics-q2-01.png",
+          "page": 3,
+          "box": [
+            52,
+            410,
+            562,
+            795
+          ],
+          "width": 2040,
+          "height": 1540,
+          "label": "力学 問2完整题干及配图",
+          "sha256": "bd3fe45f50ca8dfea0b7c4bcf81923b9f85c5f241103844dd85f40c42b3c443e"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2019-mechanics-q3",
+      "number": "力学 問3",
+      "title": "无限深方势阱的定态与能级",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-mechanics-q3-01.png",
+          "page": 4,
+          "box": [
+            44,
+            164,
+            561,
+            415
+          ],
+          "width": 2068,
+          "height": 1004,
+          "label": "力学 問3完整题干及配图",
+          "sha256": "e8af3147ceccae56266583a6aa5d756a4e2aba9444a0e438e29b8a51c0b487be"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2019-mechanics-q4",
+      "number": "力学 問4",
+      "title": "叠加态的时间演化与算符期望值",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-mechanics-q4-01.png",
+          "page": 4,
+          "box": [
+            44,
+            433,
+            561,
+            790
+          ],
+          "width": 2068,
+          "height": 1428,
+          "label": "力学 問4完整题干及配图",
+          "sha256": "0cc7d9e7b31730a5c14d2e0831faaf7863e9227cb5a353747961d4e6693b8175"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2019-em-q1",
+      "number": "電磁気学 問1",
+      "title": "双点电荷的电场与电势",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-em-q1-01.png",
+          "page": 5,
+          "box": [
+            38,
+            169,
+            560,
+            378
+          ],
+          "width": 2088,
+          "height": 836,
+          "label": "電磁気学 問1完整题干及配图",
+          "sha256": "28502727ebaaa3f52638281a55b7f9dfc81a77a2f673efba88d6843ac605e3aa"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2019-em-q2",
+      "number": "電磁気学 問2",
+      "title": "均匀带电球体的电场",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-em-q2-01.png",
+          "page": 5,
+          "box": [
+            38,
+            403,
+            560,
+            456
+          ],
+          "width": 2088,
+          "height": 212,
+          "label": "電磁気学 問2完整题干及配图",
+          "sha256": "7f6fc5466c685dc0d4cbfd9bdca4421735e3f136b0b082ed60a7872d355c0dde"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2019-em-q3",
+      "number": "電磁気学 問3",
+      "title": "圆形电流回路的磁场与电流元作用",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-em-q3-01.png",
+          "page": 6,
+          "box": [
+            47,
+            174,
+            562,
+            512
+          ],
+          "width": 2060,
+          "height": 1352,
+          "label": "電磁気学 問3完整题干及配图",
+          "sha256": "24c71bda991ecaec78f5e1115c240cf45772974e0ecd107c53af29197937eada"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2019-em-q4",
+      "number": "電磁気学 問4",
+      "title": "麦克斯韦方程与平面电磁波能量",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。须合读公共官方訂正通知：第(7)问电场与磁场能量密度公式场强平方。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-em-q4-01.png",
+          "page": 6,
+          "box": [
+            47,
+            528,
+            562,
+            755
+          ],
+          "width": 2060,
+          "height": 908,
+          "label": "電磁気学 問4完整题干及配图",
+          "sha256": "0b8aac10e6d677293aa6b8ea6fc7327dd1a4fc8386b0bcf3c89a1afe1ca98fa8"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2019-circuits-q1",
+      "number": "回路理論 問1",
+      "title": "电源等效变换与戴维南等效电路",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-circuits-q1-01.png",
+          "page": 7,
+          "box": [
+            43,
+            134,
+            562,
+            730
+          ],
+          "width": 2076,
+          "height": 2384,
+          "label": "回路理論 問1完整题干及配图",
+          "sha256": "12d7f194554a36f9183be12109f1068e1aa41c9d17574b306d79bab7bbe6c57c"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2019-circuits-q2",
+      "number": "回路理論 問2",
+      "title": "二端口参数与RLC暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "全部关联小问、公式和配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "完整查看全部8页4倍原页与12张4倍预览原尺寸PNG；逐题核对首末行、全部小问、公式上下标、单位、配图及图号；调整力学问1下边距、回路题上边框后重新查看3张受影响预览。回路保留完整問題番号栏避免题干顶行截断；此栏为解答纸编号，独立题号依正文問。官方訂正通知关联電磁気学問4(7)，正文不静默改写。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2019/waseda-eps-2019-circuits-q2-01.png",
+          "page": 8,
+          "box": [
+            43,
+            134,
+            562,
+            794
+          ],
+          "width": 2076,
+          "height": 2640,
+          "label": "回路理論 問2完整题干及配图",
+          "sha256": "9c2c6b8b91e3d46cc3d74c39978a3b38636b38ba23aaf3bc4de7b814fc2ab6f4"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "官方訂正通知保留，非题目。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面与全部说明保留，普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2019-mechanics-q1",
+        "waseda-eps-2019-mechanics-q2"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除，页边及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2019-mechanics-q3",
+        "waseda-eps-2019-mechanics-q4"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除，页边及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2019-em-q1",
+        "waseda-eps-2019-em-q2"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除，页边及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2019-em-q3",
+        "waseda-eps-2019-em-q4"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除，页边及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2019-circuits-q1"
+      ],
+      "common": false,
+      "excluded": "回路題保留問題番号解答纸编号栏作为上下文，科目页眉、页边及普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "waseda-eps-2019-circuits-q2"
+      ],
+      "common": false,
+      "excluded": "回路題保留問題番号解答纸编号栏作为上下文，科目页眉、页边及普通留白排除。",
+      "reviewed": true
+    }
+  ]
+}

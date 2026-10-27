@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2021",
+  "title": "早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2021年9月・2022年4月入学 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-39b945434e9803a2",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2021,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "2021年9月・2022年4月入学試験",
+    "admissionYears": [
+      2021,
+      2022
+    ],
+    "subject": "専門科目",
+    "originalSubject": "力学・電磁気学・回路理論",
+    "originalName": "51_M_denshibutsuri_2021_September2022_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/b645e97909d51dc5078be93eb823fb64b70223ce978622fe00c9915f3345f7cf.pdf",
+    "sha256": "b645e97909d51dc5078be93eb823fb64b70223ce978622fe00c9915f3345f7cf",
+    "pageCount": 7,
+    "note": "2021年9月・2022年4月入学，目录按9月入学年2021索引，保留双入学期。封面修订戳不是实施日期。六页正文含力学4题、电磁4题、回路2题，共10道独立問题；问题编号栏为解答纸组织号。renderScale4=288DPI无损PNG，不做答案解析或评分。"
+  },
+  "renderScale": 4,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        42,
+        30,
+        565,
+        240
+      ],
+      "label": "双入学期、专攻及题面和解答纸页数核对说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2021-mechanics-q1",
+      "number": "力学 問1",
+      "title": "力学：圆柱面上质点的拉格朗日运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学",
+        "拉格朗日"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            25,
+            178,
+            570,
+            459
+          ],
+          "label": "力学 問1完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-mechanics-q2",
+      "number": "力学 問2",
+      "title": "力学：支点运动摆的哈密顿方程",
+      "titleKind": "editorial",
+      "topics": [
+        "力学",
+        "哈密顿",
+        "摆"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            25,
+            475,
+            570,
+            782
+          ],
+          "label": "力学 問2完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-mechanics-q3",
+      "number": "力学 問3",
+      "title": "力学：叠加态的可观测量与测量",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "波函数"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            25,
+            166,
+            570,
+            476
+          ],
+          "label": "力学 問3完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-mechanics-q4",
+      "number": "力学 問4",
+      "title": "力学：无限深方势阱的能级与归一化",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "薛定谔方程"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            25,
+            478,
+            570,
+            814
+          ],
+          "label": "力学 問4完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-em-q1",
+      "number": "電磁気学 問1",
+      "title": "电磁气学：电偶极子的远场",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "电偶极子"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            30,
+            168,
+            570,
+            424
+          ],
+          "label": "電磁気学 問1完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-em-q2",
+      "number": "電磁気学 問2",
+      "title": "电磁气学：向量场的散度与梯度",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "向量分析"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            30,
+            425,
+            570,
+            552
+          ],
+          "label": "電磁気学 問2完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-em-q3",
+      "number": "電磁気学 問3",
+      "title": "电磁气学：导体电阻与铁心线圈的自感",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "电阻",
+        "电感"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            30,
+            171,
+            570,
+            455
+          ],
+          "label": "電磁気学 問3完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-em-q4",
+      "number": "電磁気学 問4",
+      "title": "电磁气学：平面波与坡印廷矢量",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "电磁波"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            30,
+            457,
+            570,
+            677
+          ],
+          "label": "電磁気学 問4完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-circuits-q1",
+      "number": "回路理論 問1",
+      "title": "回路理论：交直流等效与最大负载功率",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "交流电路",
+        "等效电路"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            35,
+            160,
+            580,
+            650
+          ],
+          "label": "回路理論 問1完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    },
+    {
+      "id": "waseda-eps-2021-circuits-q2",
+      "number": "回路理論 問2",
+      "title": "回路理论：二端口参数与阶跃响应",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "二端口网络"
+      ],
+      "summary": "完整保留原大题与全部关联小问、条件及配图；中文标题仅导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            35,
+            160,
+            580,
+            795
+          ],
+          "label": "回路理論 問2完整题干与配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "全7页与全部11张draft预览逐张对照；正文問号、首末行、关联小问、所有图表/上下标/端子/参考方向完整。四道力学、四道电磁与两道回路不按页误计。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面保留为公共说明；页边与修订戳非题干。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "waseda-eps-2021-mechanics-q1",
+        "waseda-eps-2021-mechanics-q2"
+      ],
+      "common": false,
+      "excluded": "页眉页脚和普通留白不计题，原题按正文問号完整收录。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2021-mechanics-q3",
+        "waseda-eps-2021-mechanics-q4"
+      ],
+      "common": false,
+      "excluded": "页眉页脚和普通留白不计题，原题按正文問号完整收录。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2021-em-q1",
+        "waseda-eps-2021-em-q2"
+      ],
+      "common": false,
+      "excluded": "页眉页脚和普通留白不计题，原题按正文問号完整收录。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2021-em-q3",
+        "waseda-eps-2021-em-q4"
+      ],
+      "common": false,
+      "excluded": "页眉页脚和普通留白不计题，原题按正文問号完整收录。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2021-circuits-q1"
+      ],
+      "common": false,
+      "excluded": "页眉页脚和普通留白不计题，原题按正文問号完整收录。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2021-circuits-q2"
+      ],
+      "common": false,
+      "excluded": "页眉页脚和普通留白不计题，原题按正文問号完整收录。",
+      "reviewed": true
+    }
+  ]
+}

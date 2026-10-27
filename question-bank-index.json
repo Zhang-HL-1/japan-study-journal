@@ -1,6 +1,9 @@
 {
   "schemaVersion": 1,
   "papers": [
+    {"id":"waseda-eps-2019","title":"早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2019年9月・2020年4月入学 · 专门科目","catalogId":"waseda-ed65972f17a0dce6","questionCount":10,"data":"assets/question-bank/waseda-eps-2019/paper.json"},
+    {"id":"waseda-eps-2025","title":"早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2025年9月・2026年4月入学 · 专门科目","catalogId":"waseda-3e68a4f2337d6b81","questionCount":11,"data":"assets/question-bank/waseda-eps-2025/paper.json"},
+    {"id":"waseda-eps-2021","title":"早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2021年9月・2022年4月入学 · 专门科目","catalogId":"waseda-39b945434e9803a2","questionCount":10,"data":"assets/question-bank/waseda-eps-2021/paper.json"},
     {"id":"waseda-eps-2024","title":"早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2024年9月・2025年4月入学 · 专门科目","catalogId":"waseda-63166f6106ece642","questionCount":10,"data":"assets/question-bank/waseda-eps-2024/paper.json"},
     {"id":"waseda-eps-2023","title":"早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2023年9月・2024年4月入学 · 专门科目","catalogId":"waseda-948a170556f11253","questionCount":10,"data":"assets/question-bank/waseda-eps-2023/paper.json"},
     {"id":"waseda-eps-2022","title":"早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2022年9月・2023年4月入学 · 专门科目","catalogId":"waseda-08a0e7fe5328f802","questionCount":9,"data":"assets/question-bank/waseda-eps-2022/paper.json"},
