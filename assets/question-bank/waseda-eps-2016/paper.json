@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2016",
+  "title": "早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2016年9月・2017年4月入学 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-65f491014ecf954f",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2016,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "2016年9月・2017年4月入学試験",
+    "admissionYears": [
+      2016,
+      2017
+    ],
+    "subject": "専門科目",
+    "originalSubject": "力学・電磁気学・回路理論",
+    "originalName": "51_M_denshibutsuri_2016_September2017_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/253c4186e5ca3ad65302cd3433090a31deed1c5ecbf14fec6c2e8bed1357a2e1.pdf",
+    "sha256": "253c4186e5ca3ad65302cd3433090a31deed1c5ecbf14fec6c2e8bed1357a2e1",
+    "pageCount": 7,
+    "note": "2016年9月与2017年4月入学合并原卷，目录按9月入学年2016索引。封面修订标记非实施日。三科选二规则完整保留。正文力学(1)–(5)、電磁気学問1–4、回路理論(1)–(3)，共12道完整大题；電磁気学問1与問3内(1)(2)为关联小问，不拆。問題番号为解答纸编号。全页无Rotate，4倍288DPI无损PNG，不做答案解析。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/waseda-eps-2016/common-01.png",
+      "page": 1,
+      "box": [
+        50,
+        40,
+        550,
+        444
+      ],
+      "width": 2000,
+      "height": 1616,
+      "label": "双入学期封面与全部说明：力学・回路理論・電磁気学三科选二，所选科目問題番号1/2均须作答",
+      "sha256": "6ccda7887ac201c9403ccd3e36bbac4a1f2a44ecc88a69e7fa44d8b9c24ccf1f"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2016-mechanics-q1",
+      "number": "力学 (1)",
+      "title": "旋转圆环上质点的拉格朗日与哈密顿运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-mechanics-q1-01.png",
+          "page": 2,
+          "box": [
+            35,
+            166,
+            555,
+            737
+          ],
+          "width": 2080,
+          "height": 2284,
+          "label": "力学 (1)完整题干及配图",
+          "sha256": "5db1c224f48d7f54a7dd5fe9e088a0cdae9043a0b1ad6e1716c9e9139f40aace"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-mechanics-q2",
+      "number": "力学 (2)",
+      "title": "中心力场角动量与泊松括号",
+      "titleKind": "editorial",
+      "topics": [
+        "力学"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-mechanics-q2-01.png",
+          "page": 2,
+          "box": [
+            37,
+            750,
+            555,
+            807
+          ],
+          "width": 2072,
+          "height": 228,
+          "label": "力学 (2)完整题干及配图",
+          "sha256": "0724be7df579f7eb27c34879501ab9f49b59f21a4bbcf2f79feefab2c737b079"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-mechanics-q3",
+      "number": "力学 (3)",
+      "title": "厄米算符叠加态的测量与标准差",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-mechanics-q3-01.png",
+          "page": 3,
+          "box": [
+            38,
+            170,
+            555,
+            373
+          ],
+          "width": 2068,
+          "height": 812,
+          "label": "力学 (3)完整题干及配图",
+          "sha256": "f0215abb68f99634006b14d3823daf10bcd99c6f2459013fffdcfe9c9d982c3e"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-mechanics-q4",
+      "number": "力学 (4)",
+      "title": "无限深方势阱的能级与本征函数",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-mechanics-q4-01.png",
+          "page": 3,
+          "box": [
+            38,
+            379,
+            555,
+            539
+          ],
+          "width": 2068,
+          "height": 640,
+          "label": "力学 (4)完整题干及配图",
+          "sha256": "9f010fb19bee6aacd166fd19f7e9141f86384fb34f069fa4d77e225769ec2a90"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-mechanics-q5",
+      "number": "力学 (5)",
+      "title": "阶梯势场的反射与透射",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-mechanics-q5-01.png",
+          "page": 3,
+          "box": [
+            38,
+            544,
+            555,
+            806
+          ],
+          "width": 2068,
+          "height": 1048,
+          "label": "力学 (5)完整题干及配图",
+          "sha256": "9204809f48f46a90909cae99ce4c2e6213d114e41a7b67eee69aab2d636dbe20"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-em-q1",
+      "number": "電磁気学 問1",
+      "title": "同轴电容器与电偶极子的电场",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-em-q1-01.png",
+          "page": 4,
+          "box": [
+            38,
+            175,
+            555,
+            663
+          ],
+          "width": 2068,
+          "height": 1952,
+          "label": "電磁気学 問1完整(1)(2)题干及全部配图",
+          "sha256": "f12ca7d58d45cec2c1cfde4bcd221fb0bc09f9a01cc620a6e723b558f6a92f28"
+        },
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-em-q1-02.png",
+          "page": 4,
+          "box": [
+            370,
+            663,
+            555,
+            679
+          ],
+          "width": 740,
+          "height": 64,
+          "label": "電磁気学 問1电偶极子图纵轴末段（避开左侧問2）",
+          "sha256": "5e3bf2059b68ac2d718189aed9b41cc5501a8e0a29dd073d69f62da59dd65ee1"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-em-q2",
+      "number": "電磁気学 問2",
+      "title": "径向矢量场的散度与旋度",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-em-q2-01.png",
+          "page": 4,
+          "box": [
+            38,
+            663,
+            357,
+            780
+          ],
+          "width": 1276,
+          "height": 468,
+          "label": "電磁気学 問2完整题干及配图",
+          "sha256": "08de9d67c5a9832fa9a60d11b30d2f57cd085cbbd43186fdac13fc7c01929808"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-em-q3",
+      "number": "電磁気学 問3",
+      "title": "互感、导线作用力与有隙磁路",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-em-q3-01.png",
+          "page": 5,
+          "box": [
+            53,
+            175,
+            552,
+            590
+          ],
+          "width": 1996,
+          "height": 1660,
+          "label": "電磁気学 問3完整题干及配图",
+          "sha256": "28d99285435136d875ce530c9a538cd5480a425f7705831414f2380ccaf34c79"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-em-q4",
+      "number": "電磁気学 問4",
+      "title": "麦克斯韦方程、平面波与坡印廷矢量",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-em-q4-01.png",
+          "page": 5,
+          "box": [
+            53,
+            600,
+            552,
+            781
+          ],
+          "width": 1996,
+          "height": 724,
+          "label": "電磁気学 問4完整题干及配图",
+          "sha256": "b6f1dae711740e9eb6e769108229c4ca276586c9155aca3dbc1d1a7f3883e4cd"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-circuits-q1",
+      "number": "回路理論 (1)",
+      "title": "交流负载有效功率与最大功率条件",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-circuits-q1-01.png",
+          "page": 6,
+          "box": [
+            37,
+            175,
+            554,
+            787
+          ],
+          "width": 2068,
+          "height": 2448,
+          "label": "回路理論 (1)完整题干及配图",
+          "sha256": "aa185e1d475076ef0414df11fc65fd3489e357c87bab931c976230ac89b6082e"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-circuits-q2",
+      "number": "回路理論 (2)",
+      "title": "RC开关电路的初始条件与充电暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-circuits-q2-01.png",
+          "page": 7,
+          "box": [
+            44,
+            172,
+            555,
+            362
+          ],
+          "width": 2044,
+          "height": 760,
+          "label": "回路理論 (2)完整题干及配图",
+          "sha256": "31b1eaab1eec28b3609e09710f02f93bb277ead510d4ea4a28d5499ba0e93b7c"
+        },
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-circuits-q2-02.png",
+          "page": 7,
+          "box": [
+            43,
+            589,
+            276,
+            739
+          ],
+          "width": 932,
+          "height": 600,
+          "label": "回路理論 (2)关联配图续块",
+          "sha256": "5f5cc09e08e0d8396f6ccea5510401db47a6862da912e861ff66060d4210b1e4"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2016-circuits-q3",
+      "number": "回路理論 (3)",
+      "title": "RLC换接电路的电流暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "完整大题及全部关联小问、公式与配图保留；中文标题仅编辑导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-27",
+        "notes": "全部7页4倍完整原页及全部16张最终4倍预览PNG以原尺寸查看；核对独立大题与全部关联小问、首末行、公式上下标、单位、配图及图号。力学(4)下边距调整后复看；电磁問1包含(1)(2)不拆，末段纵轴另框避开左侧問2；回路(2)(3)分别保留各自页底图2/图3。三科选二规则保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-circuits-q3-01.png",
+          "page": 7,
+          "box": [
+            44,
+            375,
+            555,
+            575
+          ],
+          "width": 2044,
+          "height": 800,
+          "label": "回路理論 (3)完整题干及配图",
+          "sha256": "8e0ed777b84ebb16b88c57cb814a82a069dc963b35394492f7cdefda70e4160d"
+        },
+        {
+          "src": "assets/question-bank/waseda-eps-2016/waseda-eps-2016-circuits-q3-02.png",
+          "page": 7,
+          "box": [
+            288,
+            589,
+            551,
+            741
+          ],
+          "width": 1052,
+          "height": 608,
+          "label": "回路理論 (3)关联配图续块",
+          "sha256": "b608cf4047e5ac94680c7ad8cba346a7c3e14a285cdac00c551e3bdc9240c565"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面及全部三科选二说明保留，普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "waseda-eps-2016-mechanics-q1",
+        "waseda-eps-2016-mechanics-q2"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除；页边和普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2016-mechanics-q3",
+        "waseda-eps-2016-mechanics-q4",
+        "waseda-eps-2016-mechanics-q5"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除；页边和普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2016-em-q1",
+        "waseda-eps-2016-em-q2"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除；页边和普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2016-em-q3",
+        "waseda-eps-2016-em-q4"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除；页边和普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2016-circuits-q1"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除；页边和普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2016-circuits-q2",
+        "waseda-eps-2016-circuits-q3"
+      ],
+      "common": false,
+      "excluded": "科目与解答纸编号页眉核对后排除；页边和普通留白排除。",
+      "reviewed": true
+    }
+  ]
+}
