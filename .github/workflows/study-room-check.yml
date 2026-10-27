@@ -70,6 +70,7 @@ jobs:
           STUDY_ROOM_SCREENSHOTS: review
         run: |
           node tests/question-demo.browser.cjs
+          node tests/waseda-eps.browser.cjs
           node tests/paper-practice.browser.cjs
           node tests/study-room.browser.cjs
           node tests/navigation.browser.cjs

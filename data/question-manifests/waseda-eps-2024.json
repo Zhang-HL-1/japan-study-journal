@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2024",
+  "title": "早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2024年9月・2025年4月入学 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-63166f6106ece642",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "2024年9月・2025年4月入学試験",
+    "admissionYears": [
+      2024,
+      2025
+    ],
+    "subject": "専門科目",
+    "originalSubject": "力学・電磁気学・回路理論",
+    "originalName": "51_M_denshibutsuri_2024_September2025_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/34501f43f1cb08fff80908bee74bcf068a1e6b431159932a3ac05befbaad8f2a.pdf",
+    "sha256": "34501f43f1cb08fff80908bee74bcf068a1e6b431159932a3ac05befbaad8f2a",
+    "pageCount": 13,
+    "note": "2024年9月与2025年4月入学合并原卷，目录按9月入学年2024索引。封面2024.8.23修订标记不推作实施日。力学その1和その2各自从問1起，各2道；电磁4道、回路2道，共10道完整大题。問題番号栏是解答纸组织号。第8–13页空白解答用纸已逐页看图排除。renderScale4=288DPI无损PNG。"
+  },
+  "renderScale": 4,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        48,
+        30,
+        560,
+        245
+      ],
+      "label": "双入学期、专攻、原卷及解答纸页数说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2024-mechanics-1-q1",
+      "number": "力学（その1） 問1",
+      "title": "圆环上质点与旋转坐标系",
+      "titleKind": "editorial",
+      "topics": [
+        "力学",
+        "拉格朗日方程"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            42,
+            183,
+            570,
+            527
+          ],
+          "label": "力学（その1） 問1完整题干及配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    },
+    {
+      "id": "waseda-eps-2024-mechanics-1-q2",
+      "number": "力学（その1） 問2",
+      "title": "泊松括号与正则运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学",
+        "泊松括号"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            42,
+            530,
+            570,
+            634
+          ],
+          "label": "力学（その1） 問2完整题干及配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    },
+    {
+      "id": "waseda-eps-2024-mechanics-2-q1",
+      "number": "力学（その2） 問1",
+      "title": "高斯波包的期望值与不确定性",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "波包"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            34,
+            145,
+            572,
+            414
+          ],
+          "label": "力学その2 問1题干与小问1–4"
+        },
+        {
+          "page": 3,
+          "box": [
+            34,
+            414,
+            470,
+            438
+          ],
+          "label": "力学その2 問1小问5，避开下一题势垒图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    },
+    {
+      "id": "waseda-eps-2024-mechanics-2-q2",
+      "number": "力学（その2） 問2",
+      "title": "矩形势垒的反射与透射",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "势垒"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            34,
+            440,
+            480,
+            490
+          ],
+          "label": "力学その2 問2题干"
+        },
+        {
+          "page": 3,
+          "box": [
+            460,
+            420,
+            572,
+            515
+          ],
+          "label": "力学その2 問2势垒图及轴标签"
+        },
+        {
+          "page": 3,
+          "box": [
+            34,
+            515,
+            572,
+            808
+          ],
+          "label": "力学その2 問2方程及全部小问"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    },
+    {
+      "id": "waseda-eps-2024-em-q1",
+      "number": "電磁気学 問1",
+      "title": "点电荷对的电场与远场近似",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "电位"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            40,
+            185,
+            570,
+            440
+          ],
+          "label": "電磁気学 問1完整题干及配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    },
+    {
+      "id": "waseda-eps-2024-em-q2",
+      "number": "電磁気学 問2",
+      "title": "矢量场的散度",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "矢量分析"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            40,
+            458,
+            570,
+            661
+          ],
+          "label": "電磁気学 問2完整题干及配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    },
+    {
+      "id": "waseda-eps-2024-em-q3",
+      "number": "電磁気学 問3",
+      "title": "圆形电流轴线磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "毕奥萨伐尔定律"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            38,
+            169,
+            570,
+            457
+          ],
+          "label": "電磁気学 問3完整题干及配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    },
+    {
+      "id": "waseda-eps-2024-em-q4",
+      "number": "電磁気学 問4",
+      "title": "麦克斯韦方程与电磁波",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "麦克斯韦方程"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            38,
+            460,
+            570,
+            669
+          ],
+          "label": "電磁気学 問4完整题干及配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    },
+    {
+      "id": "waseda-eps-2024-circuits-q1",
+      "number": "回路理論 問1",
+      "title": "交流负载的有功功率",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "交流电路"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            40,
+            168,
+            570,
+            640
+          ],
+          "label": "回路理論 問1完整题干及配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    },
+    {
+      "id": "waseda-eps-2024-circuits-q2",
+      "number": "回路理論 問2",
+      "title": "二端口网络与暂态响应",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "二端口网络"
+      ],
+      "summary": "本题全部关联小问、条件、公式及配图完整保留；中文标题仅用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            40,
+            164,
+            570,
+            760
+          ],
+          "label": "回路理論 問2完整题干及配图"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-10-26",
+        "notes": "实际查看全部13张原页及全部14张最终预览裁图（修改裁框后再次逐张查看受影响图）；核对首末行、全部小问、上下标、公式及图号。力学その2问1末行与问2上方势垒图分框，保全V(x)、-a及p²上标；电磁问3保全图1。問題番号为解答纸号，按正文問号独立计题。中文标题仅导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "年度封面保留，修订戳不是实施日。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "waseda-eps-2024-mechanics-1-q1",
+        "waseda-eps-2024-mechanics-1-q2"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2024-mechanics-2-q1",
+        "waseda-eps-2024-mechanics-2-q2"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2024-em-q1",
+        "waseda-eps-2024-em-q2"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2024-em-q3",
+        "waseda-eps-2024-em-q4"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2024-circuits-q1"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2024-circuits-q2"
+      ],
+      "common": false,
+      "excluded": "页眉科目与正文已对照，页边页号普通留白排除。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸，非题面或答案解析，全部排除。",
+      "reviewed": true
+    }
+  ]
+}

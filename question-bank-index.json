@@ -1,6 +1,9 @@
 {
   "schemaVersion": 1,
   "papers": [
+    {"id":"waseda-eps-2024","title":"早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2024年9月・2025年4月入学 · 专门科目","catalogId":"waseda-63166f6106ece642","questionCount":10,"data":"assets/question-bank/waseda-eps-2024/paper.json"},
+    {"id":"waseda-eps-2023","title":"早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2023年9月・2024年4月入学 · 专门科目","catalogId":"waseda-948a170556f11253","questionCount":10,"data":"assets/question-bank/waseda-eps-2023/paper.json"},
+    {"id":"waseda-eps-2022","title":"早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2022年9月・2023年4月入学 · 专门科目","catalogId":"waseda-08a0e7fe5328f802","questionCount":9,"data":"assets/question-bank/waseda-eps-2022/paper.json"},
     {"id": "tus-electrical-1997-general", "title": "东京理科大学 · 工学研究科电气工学 · 1997 入学年度 · 电子回路（用户截图，题面残缺）", "catalogId": "tus-4b5576c516e10f37", "questionCount": 2, "data": "assets/question-bank/tus-electrical-1997-general/paper.json"},
     {"id": "tus-electrical-1998-general", "title": "东京理科大学 · 工学研究科电气工学 · 1998 入学年度 · 修士入试（仅电子第1题）", "catalogId": "tus-50ed7bf8bfc02ca2", "questionCount": 1, "data": "assets/question-bank/tus-electrical-1998-general/paper.json"},
     {"id": "tus-electrical-1999-general", "title": "东京理科大学 · 工学研究科电气工学 · 1999 入学年度 · 修士入试（电子、电气；电磁原题缺失）", "catalogId": "tus-384d1cf6520d0c45", "questionCount": 4, "data": "assets/question-bank/tus-electrical-1999-general/paper.json"},
