@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "id": "waseda-eps-2025",
+  "title": "早稻田大学 · 基幹理工学研究科電子物理システム学専攻 · 2025年9月・2026年4月入学 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "waseda-3e68a4f2337d6b81",
+    "schoolId": "waseda",
+    "school": "早稲田大学",
+    "graduate": "基幹理工学研究科",
+    "major": "電子物理システム学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "yearEvidence": "cover",
+    "originalYear": "2025年9月・2026年4月入学試験",
+    "admissionYears": [
+      2025,
+      2026
+    ],
+    "subject": "専門科目",
+    "originalSubject": "力学・電磁気学・回路理論",
+    "originalName": "51_M_denshibutsuri_2025_September2026_April_ippan_senmon.pdf",
+    "pdf": "assets/past-papers/documents/99da00f1ddf484a3834528ce151645cd659ba62a11d193ae79711e18ee9cd615.pdf",
+    "sha256": "99da00f1ddf484a3834528ce151645cd659ba62a11d193ae79711e18ee9cd615",
+    "pageCount": 14,
+    "note": "2025年9月・2026年4月入学合并原卷，按目录academic与9月入学年2025索引。第1页官方訂正通知关联第6物理页電磁気学問3(1)，公共保留原文，不静默修改题面。第2页封面；第3–8页题面；第9–14页空白解答用纸。問題番号为解答纸编号；力学两张题纸各自从問1起，合计11道完整大题。renderScale4=288DPI无损PNG。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/waseda-eps-2025/common-01.png",
+      "page": 1,
+      "box": [
+        65,
+        38,
+        535,
+        611
+      ],
+      "width": 1880,
+      "height": 2292,
+      "label": "官方訂正通知：電磁気学その2・問3(1)，原题与订正并存",
+      "sha256": "2097cf953e5c3b8fab01413caa2897022e51222ef38541db38cb8780008db4c4"
+    },
+    {
+      "src": "assets/question-bank/waseda-eps-2025/common-02.png",
+      "page": 2,
+      "box": [
+        50,
+        35,
+        553,
+        263
+      ],
+      "width": 2012,
+      "height": 912,
+      "label": "双入学期、专攻与原卷六页及解答纸六张说明",
+      "sha256": "68187fef26ac88fe3d41c380fab4d248a476456dc84cbd2047efa26a5ed6be17"
+    }
+  ],
+  "questions": [
+    {
+      "id": "waseda-eps-2025-mechanics1-q1",
+      "number": "力学（その1）問1",
+      "title": "半圆筒约束质点与哈密顿运动",
+      "titleKind": "editorial",
+      "topics": [
+        "力学（その1）問1"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，5个关联小问，未拆小问；图及图号完整，未混入其他题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-mechanics1-q1-01.png",
+          "page": 3,
+          "box": [
+            48,
+            179,
+            557,
+            660
+          ],
+          "width": 2036,
+          "height": 1924,
+          "label": "力学（その1）問1完整题面",
+          "sha256": "e6e2496a3f28d849c9424f463796fc04777976d3e4c9a4a51cfe824198d323ae"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-mechanics1-q2",
+      "number": "力学（その1）問2",
+      "title": "中心力与角动量泊松括号",
+      "titleKind": "editorial",
+      "topics": [
+        "力学（その1）問2"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，未拆小问；图及图号完整，未混入其他题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-mechanics1-q2-01.png",
+          "page": 3,
+          "box": [
+            48,
+            662,
+            557,
+            703
+          ],
+          "width": 2036,
+          "height": 164,
+          "label": "力学（その1）問2完整题面",
+          "sha256": "d4564b011ce878e904817ed77d0311788690ce7f61371b672f11804e2481c73f"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-mechanics2-q1",
+      "number": "力学（その2）問1",
+      "title": "薛定谔方程与平面波",
+      "titleKind": "editorial",
+      "topics": [
+        "力学（その2）問1"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，4个关联小问，未拆小问；图及图号完整，未混入其他题。扩大顶部裁框并重看，保全Schrödinger方程的偏导符号且排除页眉线框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-mechanics2-q1-01.png",
+          "page": 4,
+          "box": [
+            48,
+            168,
+            557,
+            320
+          ],
+          "width": 2036,
+          "height": 608,
+          "label": "力学（その2）問1完整题面",
+          "sha256": "8119aa458e26047de4b48167b8e12a60f9cb1a02fb4ad5236b75c9609f67934d"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-mechanics2-q2",
+      "number": "力学（その2）問2",
+      "title": "谐振子定态的无量纲化与级数",
+      "titleKind": "editorial",
+      "topics": [
+        "力学（その2）問2"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，4个关联小问，未拆小问；图及图号完整，未混入其他题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-mechanics2-q2-01.png",
+          "page": 4,
+          "box": [
+            48,
+            320,
+            557,
+            581
+          ],
+          "width": 2036,
+          "height": 1044,
+          "label": "力学（その2）問2完整题面",
+          "sha256": "a495d5d0f4bcb28ffc58b41867e5a04ae5e640c09f1e279b1fd2e5c1dc4cc20c"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-mechanics2-q3",
+      "number": "力学（その2）問3",
+      "title": "狄拉克δ势场中的束缚态",
+      "titleKind": "editorial",
+      "topics": [
+        "力学（その2）問3"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，4个关联小问，未拆小问；图及图号完整，未混入其他题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-mechanics2-q3-01.png",
+          "page": 4,
+          "box": [
+            48,
+            581,
+            557,
+            817
+          ],
+          "width": 2036,
+          "height": 944,
+          "label": "力学（その2）問3完整题面",
+          "sha256": "c50ff9f53872ccef8790f53359d0639e03fbad616cd9a79a6f4d55edeb002205"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-em-q1",
+      "number": "電磁気学 問1",
+      "title": "同轴圆筒电容器与储能",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，3个关联小问，未拆小问；图及图号完整，未混入其他题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-em-q1-01.png",
+          "page": 5,
+          "box": [
+            48,
+            179,
+            557,
+            425
+          ],
+          "width": 2036,
+          "height": 984,
+          "label": "電磁気学 問1完整题面",
+          "sha256": "e28cbe2708f8fc7352e9e88fba223feede09ad2ce2cfacaa39aa64037fe37239"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-em-q2",
+      "number": "電磁気学 問2",
+      "title": "矢量场的散度与旋度",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，3个关联小问，未拆小问；图及图号完整，未混入其他题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-em-q2-01.png",
+          "page": 5,
+          "box": [
+            48,
+            429,
+            557,
+            547
+          ],
+          "width": 2036,
+          "height": 472,
+          "label": "電磁気学 問2完整题面",
+          "sha256": "e33cb160afadcd9792e6c3fec5045d91831d2d09ed339ae880aab4fee7df14e5"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-em-q3",
+      "number": "電磁気学 問3",
+      "title": "圆形线圈与螺线管磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。公共材料第1物理页为本题(1)的官方訂正：求O点磁场。原题不改写，请同时阅读订正通知。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，4个关联小问，未拆小问；图及图号完整，未混入其他题。官方訂正通知在commonRegions第1项，明确修正本题(1)为O点磁场，原题像素未改。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-em-q3-01.png",
+          "page": 6,
+          "box": [
+            43,
+            171,
+            564,
+            451
+          ],
+          "width": 2084,
+          "height": 1120,
+          "label": "電磁気学 問3完整题面",
+          "sha256": "6ccec2dcd5b5b381de9f68933d6216f9a4c449e01357545fe128d6b2f0952273"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-em-q4",
+      "number": "電磁気学 問4",
+      "title": "斯托克斯定理与麦克斯韦方程",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，4个关联小问，未拆小问；图及图号完整，未混入其他题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-em-q4-01.png",
+          "page": 6,
+          "box": [
+            43,
+            452,
+            564,
+            690
+          ],
+          "width": 2084,
+          "height": 952,
+          "label": "電磁気学 問4完整题面",
+          "sha256": "529d50ebd8e9c0f808f2760a4dba4cc2c4654a9690bee185f78b22fda0389712"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-circuits-q1",
+      "number": "回路理論 問1",
+      "title": "交流RLC电路的功率因数与优化",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，7个关联小问，未拆小问；图及图号完整，未混入其他题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-circuits-q1-01.png",
+          "page": 7,
+          "box": [
+            46,
+            185,
+            557,
+            659
+          ],
+          "width": 2044,
+          "height": 1896,
+          "label": "回路理論 問1完整题面",
+          "sha256": "758f8b4c58133ae3fc82cd5dd8784976079e37818586e3c97608f5c360bfdf0f"
+        }
+      ]
+    },
+    {
+      "id": "waseda-eps-2025-circuits-q2",
+      "number": "回路理論 問2",
+      "title": "二端口参数与阶跃暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論"
+      ],
+      "summary": "本大题全部关联小问、条件、公式和配图完整保留；中文标题仅为导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review：完整14页原卷逐页查看；逐张查看draft预览PNG并对照原页，检查首末行、全部关联小问、公式和配图。",
+        "date": "2026-10-27",
+        "notes": "保留完整大题，6个关联小问，未拆小问；图及图号完整，未混入其他题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/waseda-eps-2025/waseda-eps-2025-circuits-q2-01.png",
+          "page": 8,
+          "box": [
+            46,
+            188,
+            557,
+            764
+          ],
+          "width": 2044,
+          "height": 2304,
+          "label": "回路理論 問2完整题面",
+          "sha256": "735889aa94b84e780b0ac14dfccc374aad15e7b96e6f2c69d269c701e923d02c"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "官方訂正通知完整保留为公共材料，关联電磁気学問3(1)。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面保留公共材料，未计为大题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "waseda-eps-2025-mechanics1-q1",
+        "waseda-eps-2025-mechanics1-q2"
+      ],
+      "common": false,
+      "excluded": "已检查全部题面，页眉与页脚编号和普通留白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "waseda-eps-2025-mechanics2-q1",
+        "waseda-eps-2025-mechanics2-q2",
+        "waseda-eps-2025-mechanics2-q3"
+      ],
+      "common": false,
+      "excluded": "已检查全部题面，页眉与页脚编号和普通留白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "waseda-eps-2025-em-q1",
+        "waseda-eps-2025-em-q2"
+      ],
+      "common": false,
+      "excluded": "已检查全部题面，页眉与页脚编号和普通留白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "waseda-eps-2025-em-q3",
+        "waseda-eps-2025-em-q4"
+      ],
+      "common": false,
+      "excluded": "已检查全部题面，页眉与页脚编号和普通留白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "waseda-eps-2025-circuits-q1"
+      ],
+      "common": false,
+      "excluded": "已检查全部题面，页眉与页脚编号和普通留白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "waseda-eps-2025-circuits-q2"
+      ],
+      "common": false,
+      "excluded": "已检查全部题面，页眉与页脚编号和普通留白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸：已逐页看图，无题面或答案解析，排除。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸：已逐页看图，无题面或答案解析，排除。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸：已逐页看图，无题面或答案解析，排除。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸：已逐页看图，无题面或答案解析，排除。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸：已逐页看图，无题面或答案解析，排除。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "空白解答用纸：已逐页看图，无题面或答案解析，排除。",
+      "reviewed": true
+    }
+  ]
+}
