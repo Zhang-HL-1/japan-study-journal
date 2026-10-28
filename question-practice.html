@@ -5,24 +5,25 @@
   <title>逐题练习 · 留日手记</title>
   <meta name="description" content="按已接入的过去问逐题练习：直接阅读日文原题，保留公式、配图和出处。">
   <meta name="theme-color" content="#faf9f5">
-  <link rel="stylesheet" href="question-practice.css?v=20261024-return">
+  <link rel="stylesheet" href="question-practice.css?v=20261028-flow">
   <script src="question-bank.js?v=20261024-collections" defer></script>
-  <script src="question-practice.js?v=20261024-fragments" defer></script>
+  <script src="question-flow.js?v=20261028-flow" defer></script>
+  <script src="question-practice.js?v=20261028-flow" defer></script>
 </head>
 <body>
   <a class="skip" href="#question">跳到题目</a>
   <header class="site-top"><a class="brand" href="index.html"><i></i>留日手记</a><nav aria-label="页面导航"><a href="drill.html">刷题练习</a><a href="past-papers.html">过去问</a><a href="https://github.com/Zhang-HL-1/japan-study-journal/blob/main/docs/question-bank-rollout.md">制作流程 ↗</a></nav></header>
-  <nav class="practice-return" aria-label="返回上级页面"><a id="back-to-practice" href="drill.html#question-card">← 返回刷题目录</a><a href="question-practice.html">更换试卷</a></nav>
+  <nav class="practice-return" aria-label="返回上级页面"><a id="back-to-practice" href="drill.html#question-card">← 返回刷题目录</a><a id="change-queue" href="question-hub.html">重新选题</a></nav>
   <main>
     <div class="intro"><div><p class="eyebrow">QUESTION PRACTICE <span>逐题练习</span></p><h1 id="paper-heading">已接入的过去问，<em>逐题练习。</em></h1><p id="paper-source">正在读取试卷…</p></div><div class="intro-note">日文原题 · 高清裁图<br>公式与配图保留原貌</div></div>
-    <div id="chooser" class="chooser" hidden><h2>选择一份逐题练习</h2><p class="muted">这些卷已经按大题拆好。也可以回到刷题练习，按学校、研究科／专攻、年份和科目筛选后进入。</p><nav id="paper-chooser" aria-label="已接入的逐题卷"></nav></div>
+    <div id="chooser" class="chooser" hidden><p><a href="question-hub.html">按科目、年份和练习状态选题，跨卷连续练习 →</a></p><h2>选择一份逐题练习</h2><p class="muted">这些卷已经按大题拆好。也可以回到刷题练习，按学校、研究科／专攻、年份和科目筛选后进入。</p><nav id="paper-chooser" aria-label="已接入的逐题卷"></nav></div>
     <div id="load-status" class="message" role="status">正在加载题目…</div>
     <div id="app" class="layout" hidden>
       <aside class="sidebar">
-        <div class="directory-head"><h2>本卷题目</h2><span id="paper-count"></span></div>
+        <details id="directory-disclosure" open><summary class="directory-summary">本卷题目目录</summary><div class="directory-head"><h2>本卷题目</h2><span id="paper-count"></span></div>
         <p class="muted small">按原卷大题组织，保留关联小问</p>
         <nav id="question-directory" aria-label="题目目录"></nav>
-        <div class="progress-box"><div><span>本卷已练习</span><strong id="completed-count">0 / 0</strong></div><progress id="paper-progress" max="1" value="0" aria-label="本卷练习进度"></progress><p>完成标记只记录练习进度，不表示答对。</p></div>
+        </details><div class="progress-box"><div><span>本卷已练习</span><strong id="completed-count">0 / 0</strong></div><progress id="paper-progress" max="1" value="0" aria-label="本卷练习进度"></progress><p>完成标记只记录练习进度，不表示答对。</p></div>
         <details class="source-info"><summary>关于这份试卷</summary><p id="source-note"></p><p>中文标题与标签用于导航，不替代原题。题干尚未转为可复制文字；小屏幕可点击题图放大。</p><a id="catalog-link">查看原卷目录 ↗</a></details>
       </aside>
       <section class="workspace" aria-label="逐题练习">
@@ -38,7 +39,7 @@
           <details class="notes" id="notes"><summary>我的笔记 <span id="note-status"></span></summary><label for="question-note" class="sr-only">本题笔记</label><textarea id="question-note" rows="4" maxlength="6000" placeholder="记录思路、卡住的位置，或下次要复习的内容……"></textarea></details>
           <div class="completion-row"><button id="complete" class="primary" type="button">标记本题已练习</button><span id="completion-status" role="status"></span></div>
         </article>
-        <div class="question-nav"><button id="previous" type="button">← 上一题</button><span id="nav-position"></span><button id="next" class="primary" type="button">下一题 →</button></div>
+        <div class="question-nav"><button id="previous" type="button">← 上一题</button><span id="nav-position"></span><button id="complete-next" class="primary" type="button">已练习，下一题</button><button id="next" class="primary" type="button">下一题 →</button><a id="queue-finish" href="question-hub.html" hidden>返回选题 →</a></div>
         <div class="storage-line"><p id="storage-status" role="status">逐题记录保存在此浏览器，与整卷记录分开。</p><button id="export-records" type="button">导出逐题记录</button></div>
       </section>
     </div>

@@ -8,6 +8,28 @@
   const params = new URLSearchParams(location.search);
   let requested = params.get('paper');
   let aliasQuestion;
+  let queue = null;
+  if (params.get('queue') === '1') {
+    try { queue = window.QuestionFlow.readQueue(sessionStorage); } catch { /* 单卷仍可使用。 */ }
+  }
+  function queueIndex() { return queue ? queue.items.findIndex(q => q.paper === paper.id && q.id === current().id) : -1; }
+  function updateNavigation() {
+    const at = queueIndex(), total = at >= 0 ? queue.items.length : paper.questions.length, pos = at >= 0 ? at : index;
+    $('position').textContent = `${at >= 0 ? '当前题单' : '本卷'}第 ${pos+1} 题 / 共 ${total} 道大题`;
+    $('nav-position').textContent = `${pos+1} / ${total}`;
+    $('previous').disabled = pos === 0; $('next').disabled = pos === total-1;
+    $('complete-next').textContent = pos === total-1 ? '已练习，结束本轮' : '已练习，下一题';
+    $('queue-finish').hidden = pos !== total-1 || !record().completed;
+  }
+  function move(delta) {
+    const at = queueIndex();
+    if (at < 0) { navigate(index+delta); return; }
+    const target = queue.items[at+delta]; if (!target) return;
+    if (target.paper !== paper.id) { location.assign(window.QuestionFlow.url(target)); return; }
+    const next = paper.questions.findIndex(q => q.id === target.id);
+    if (next >= 0) navigate(next);
+    else { $('storage-status').textContent = '题单中的题目已变更，请重新选题。'; }
+  }
   const fetchJSON = async path => { const response = await fetch(path); if (!response.ok) throw new Error('资源加载失败'); return response.json(); };
   function text(tag, value, className) { const el = document.createElement(tag); el.textContent = value; if (className) el.className = className; return el; }
   function storageWarning() { $('storage-status').textContent = '浏览器记录无法读取或保存。请导出本次记录备份；原记录未主动覆盖。'; }
@@ -51,7 +73,7 @@
     const count = paper.questions.filter(q => record(q).completed).length;
     $('completed-count').textContent = `${count} / ${paper.questions.length}`;
     $('paper-progress').max = paper.questions.length; $('paper-progress').value = count;
-    $('question-directory').replaceChildren(...paper.questions.map((q, i) => {
+    $('question-directory').replaceChildren(...paper.questions.map((q, i) => ({q,i})).filter(({q}) => !queue || queue.items.some(item => item.paper === paper.id && item.id === q.id)).map(({q,i}) => {
       const button = document.createElement('button'); button.type = 'button'; button.className = 'directory-button';
       button.setAttribute('aria-current', String(index === i));
       button.append(text('span', q.number + (record(q).completed ? '  ✓ 已练习' : '') + (record(q).bookmarked ? '  ★' : ''), record(q).completed ? 'done' : ''), text('strong', q.title));
@@ -61,6 +83,7 @@
     $('bookmark').textContent = r.bookmarked ? '★ 已收藏' : '☆ 收藏'; $('bookmark').setAttribute('aria-pressed', String(Boolean(r.bookmarked)));
     $('complete').textContent = r.completed ? '取消已练习标记' : '标记本题已练习';
     $('completion-status').textContent = r.completed ? '本题已练习 ✓' : '';
+    updateNavigation();
   }
   function render() {
     const q = current(), r = record();
@@ -142,17 +165,34 @@
     $('paper-source').textContent = `${paper.source.school} / ${paper.source.graduate} / ${paper.source.major} · ${yearPhrase(paper.source)}`;
     const emphasis = document.createElement('em');
     emphasis.textContent = '逐题练习。';
-    $('paper-heading').replaceChildren(paper.title, document.createTextNode('，'), emphasis);
+    $('paper-heading').replaceChildren(paper.source.school + ' · ' + yearPhrase(paper.source), document.createTextNode('，'), emphasis);
     $('paper-count').textContent = paper.questions.length + ' 道大题';
-    $('source-note').textContent = paper.source.note;
+    $('source-note').textContent = paper.title + '。' + (paper.source.note || '');
     $('catalog-link').href = 'past-papers.html?' + new URLSearchParams({school:paper.source.schoolId,paper:paper.source.catalogId});
     $('chooser').hidden = true; $('load-status').hidden = true; $('app').hidden = false;
+    $('directory-disclosure').open = !matchMedia('(max-width: 800px)').matches;
+    if (params.get('queue') === '1') {
+      $('back-to-practice').href = 'question-hub.html'; $('back-to-practice').textContent = '← 返回选题';
+      try {
+        const query = sessionStorage.getItem('japan-study-journal:question-hub-return') || '';
+        if (!query || query.startsWith('?')) $('back-to-practice').href = 'question-hub.html' + query;
+      } catch { /* 无存储时返回完整题库。 */ }
+      $('queue-finish').href = $('back-to-practice').href;
+      if (!queue) $('storage-status').textContent = '本次题单已失效，当前可按本卷练习，或返回重新选题。';
+    }
+    if (queue && !queue.items.some(q => q.paper === paper.id && q.id === (params.get('q') || aliasQuestion))) queue = null;
     const start = paper.questions.findIndex(q => q.id === (params.get('q') || aliasQuestion));
     navigate(Math.max(0,start),'replaceState');
     $('bookmark').addEventListener('click', () => { patch({bookmarked:!record().bookmarked}); refresh(); });
     $('complete').addEventListener('click', () => { patch({completed:!record().completed}); refresh(); });
     $('question-note').addEventListener('input', () => { patch({note:$('question-note').value}); $('note-status').textContent = storageWritable ? '已保存' : '仅本次保留'; });
-    $('previous').addEventListener('click', () => navigate(index-1)); $('next').addEventListener('click', () => navigate(index+1));
+    $('previous').addEventListener('click', () => move(-1)); $('next').addEventListener('click', () => move(1));
+    $('complete-next').addEventListener('click', () => {
+      patch({completed:true}); refresh();
+      if (!storageWritable) { $('completion-status').textContent = '本题标记仅本次保留，请先导出记录再切题。'; return; }
+      if (!$('next').disabled) move(1);
+      else { $('completion-status').textContent = '本题已练习 ✓ · 已到题单末尾，可返回选题或检查前面的题目。'; $('queue-finish').focus(); }
+    });
     $('focus-mode').addEventListener('click', () => { focused = !focused; document.body.classList.toggle('is-focused',focused); $('focus-mode').setAttribute('aria-pressed',String(focused)); $('focus-mode').textContent = focused ? '退出专注' : '专注模式'; });
     $('enlarge').addEventListener('click', () => openZoom());
     $('close-zoom').addEventListener('click', () => $('image-dialog').close());
