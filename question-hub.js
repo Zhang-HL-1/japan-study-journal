@@ -30,6 +30,7 @@
     }));
     $('more').hidden = matched.length <= shown;
     const params = new URLSearchParams(); for (const [key,value] of Object.entries(filters())) if (value && value !== 'all') params.set(key,value);
+    if ($('order').value === 'random') params.set('order','random');
     history.replaceState(null,'','question-hub.html'+(params.size ? '?'+params : ''));
   }
   function start(selected) {
@@ -51,12 +52,14 @@
     options('year',[...new Set(rows.map(q=>q.year))].sort((a,b)=>b-a).map(y=>[String(y),String(y)]),'全部年份');
     options('subject',[...new Set(rows.flatMap(q=>q.subjects))].sort().map(s=>[s,s]),'全部科目');
     const params = new URLSearchParams(location.search);
+    if (params.get('order') === 'random') $('order').value = 'random';
     for (const key of ['school','year','subject','scope']) if ([...$(key).options].some(o=>o.value===params.get(key))) $(key).value=params.get(key);
     majors(); if ([...$('major').options].some(o=>o.value===params.get('major'))) $('major').value=params.get('major');
     $('search').value=(params.get('search')||'').slice(0,100);
     for (const key of keys) $(key).addEventListener(key==='search'?'input':'change',()=>{if(key==='school') majors(); shown=60;render();});
     $('reset').addEventListener('click',()=>{keys.forEach(key=>$(key).value=key==='scope'?'all':'');majors();shown=60;render();});
     $('more').addEventListener('click',()=>{shown+=60;render();}); $('start').addEventListener('click',()=>start());
+    $('order').addEventListener('change',render);
     window.addEventListener('pageshow',()=>{try {readRecords();} catch {storageReadable=false;} render();});
     render();
   } catch { $('result-count').textContent='题目加载失败'; $('hub-message').textContent='请刷新重试，或从整卷练习进入原卷。'; }
