@@ -57,7 +57,7 @@ const {chromium}=require('playwright'),root=path.join(__dirname,'..'),catalog=re
   await page.goto(origin+`/question-practice.html?paper=${last.paper}&q=${last.id}&queue=1`);
   await page.locator('#previous-year:enabled').waitFor();assert.equal(await page.locator('#next').isDisabled(),true);
   assert.match(await page.locator('#previous-year').innerText(),/2022/);assert.match(await page.locator('#next-year').innerText(),/2024/);
-  await page.fill('#question-note','年份切换保留笔记');await page.locator('#complete-next').click();
+  await page.locator('#notes summary').click();await page.fill('#question-note','年份切换保留笔记');await page.locator('#complete-next').click();
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
   const bar=await page.locator('.question-nav').boundingBox();assert.ok(bar.y>=0&&bar.y+bar.height<=901);
   if(process.env.STUDY_ROOM_SCREENSHOTS)await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,`question-years-${width}.png`)});
