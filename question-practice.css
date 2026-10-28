@@ -11,3 +11,6 @@
 .is-focused .workspace-bar { top:64px; }
 .question-card { scroll-margin-top:86px; }
 @media(max-width:800px) { .practice-return { width:calc(100% - 32px); padding:8px 0; } .practice-return a { font-size:12px; } .is-focused .workspace-bar { top:60px; } }
+.question-nav.year-nav { margin-top:-6px; max-width:100%; }
+.question-nav.year-nav span { flex:1 1 auto; min-width:0; text-align:center; line-height:1.5; overflow-wrap:anywhere; }
+.question-nav.year-nav button { flex:0 0 auto; white-space:nowrap; }

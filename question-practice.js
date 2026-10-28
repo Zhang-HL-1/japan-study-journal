@@ -93,6 +93,45 @@
     const content = part ? [image(part)] : [...window.QuestionBank.commonPartsForQuestion(paper,current()).map(image), ...questionParts(current(), false)];
     $('zoom-content').replaceChildren(...content); zoom = 100; applyZoom(); $('image-dialog').showModal(); $('zoom-scroll').scrollTo(0,0);
   }
+  let yearTargets = { previous: null, next: null };
+  function yearLabel(target) { return target ? yearPhrase({ year: target.year, yearBasis: target.yearBasis }) : ''; }
+  function showYearNav(targets, message) {
+    yearTargets = targets || { previous: null, next: null };
+    const previous = $('previous-paper'), next = $('next-paper');
+    previous.disabled = !yearTargets.previous;
+    next.disabled = !yearTargets.next;
+    previous.title = yearTargets.previous ? '' : '暂无更早年份';
+    next.title = yearTargets.next ? '' : '暂无更晚年份';
+    previous.setAttribute('aria-label', yearTargets.previous ? '上一卷，' + yearLabel(yearTargets.previous) : '上一卷，暂无更早年份');
+    next.setAttribute('aria-label', yearTargets.next ? '下一卷，' + yearLabel(yearTargets.next) : '下一卷，暂无更晚年份');
+    if (message) { $('paper-year-status').textContent = message; return; }
+    const prevText = yearTargets.previous ? '上一卷 ' + yearLabel(yearTargets.previous) : '上一卷：暂无更早年份';
+    const nextText = yearTargets.next ? '下一卷 ' + yearLabel(yearTargets.next) : '下一卷：暂无更晚年份';
+    $('paper-year-status').textContent = !yearTargets.previous && !yearTargets.next ? '暂无更早／更晚年份' : prevText + ' · ' + nextText;
+  }
+  function openNeighbor(direction) {
+    const target = yearTargets[direction];
+    if (!target) return;
+    location.assign(window.QuestionBank.practiceURL(target.id, target.firstQuestionId || ''));
+  }
+  async function loadYearNav(catalog) {
+    showYearNav(null, '正在查找相邻年份…');
+    try {
+      const prefix = (paper.id.match(/^(.*?)\d{4}/) || [])[1] || '';
+      const family = prefix ? catalog.papers.filter(item => item && typeof item.id === 'string' && item.id.startsWith(prefix)) : [];
+      if (!family.some(item => item.id === paper.id)) throw new Error('当前卷不在索引中');
+      const rows = await Promise.all(family.map(async item => {
+        const order = catalog.papers.findIndex(entry => entry.id === item.id);
+        if (item.id === paper.id) return window.QuestionBank.paperNeighborRow(paper, order);
+        const data = await fetchJSON(item.data);
+        if (!data || data.id !== item.id || !data.source) throw new Error('相邻试卷无法读取');
+        return window.QuestionBank.paperNeighborRow(data, order);
+      }));
+      showYearNav(window.QuestionBank.adjacentPaperTargets(rows, paper.id));
+    } catch {
+      showYearNav(null, '相邻年份暂时无法加载');
+    }
+  }
   function renderChooser(listings) {
     $('chooser').hidden = false; $('app').hidden = true; $('load-status').hidden = true;
     const emphasis = document.createElement('em'); emphasis.textContent = '逐题练习。';
@@ -153,6 +192,9 @@
     $('complete').addEventListener('click', () => { patch({completed:!record().completed}); refresh(); });
     $('question-note').addEventListener('input', () => { patch({note:$('question-note').value}); $('note-status').textContent = storageWritable ? '已保存' : '仅本次保留'; });
     $('previous').addEventListener('click', () => navigate(index-1)); $('next').addEventListener('click', () => navigate(index+1));
+    $('previous-paper').addEventListener('click', () => openNeighbor('previous'));
+    $('next-paper').addEventListener('click', () => openNeighbor('next'));
+    loadYearNav(catalog);
     $('focus-mode').addEventListener('click', () => { focused = !focused; document.body.classList.toggle('is-focused',focused); $('focus-mode').setAttribute('aria-pressed',String(focused)); $('focus-mode').textContent = focused ? '退出专注' : '专注模式'; });
     $('enlarge').addEventListener('click', () => openZoom());
     $('close-zoom').addEventListener('click', () => $('image-dialog').close());

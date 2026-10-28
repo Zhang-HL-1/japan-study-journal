@@ -5,9 +5,9 @@
   <title>逐题练习 · 留日手记</title>
   <meta name="description" content="按已接入的过去问逐题练习：直接阅读日文原题，保留公式、配图和出处。">
   <meta name="theme-color" content="#faf9f5">
-  <link rel="stylesheet" href="question-practice.css?v=20261024-return">
-  <script src="question-bank.js?v=20261024-collections" defer></script>
-  <script src="question-practice.js?v=20261024-fragments" defer></script>
+  <link rel="stylesheet" href="question-practice.css?v=20261028-year-nav">
+  <script src="question-bank.js?v=20261028-year-nav" defer></script>
+  <script src="question-practice.js?v=20261028-year-nav" defer></script>
 </head>
 <body>
   <a class="skip" href="#question">跳到题目</a>
@@ -39,6 +39,7 @@
           <div class="completion-row"><button id="complete" class="primary" type="button">标记本题已练习</button><span id="completion-status" role="status"></span></div>
         </article>
         <div class="question-nav"><button id="previous" type="button">← 上一题</button><span id="nav-position"></span><button id="next" class="primary" type="button">下一题 →</button></div>
+        <div class="question-nav year-nav" aria-label="相邻年份"><button id="previous-paper" type="button" disabled>上一卷</button><span id="paper-year-status" role="status">正在查找相邻年份…</span><button id="next-paper" type="button" disabled>下一卷</button></div>
         <div class="storage-line"><p id="storage-status" role="status">逐题记录保存在此浏览器，与整卷记录分开。</p><button id="export-records" type="button">导出逐题记录</button></div>
       </section>
     </div>

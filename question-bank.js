@@ -134,7 +134,54 @@
     if (!flags.keepFormal) storage.setItem(RECORD_KEY, payload);
     if (!flags.keepLegacy) storage.setItem(LEGACY_KEY, payload);
   }
-  const api = { sourceForQuestion, commonPartsForQuestion, resolveEntry, LEGACY_KEY, RECORD_KEY, subjectsOf, yearPhrase, drillSubjects, listingFromPaper, loadListings, practiceURL, loadQuestionRecords, saveQuestionRecords };
+  // Neighbors share school, graduate school, major, year basis, and exam track.
+  // A subject suffix (kairo, denjiki, …) is kept when that year has it; otherwise the earliest indexed paper of the year is used.
+  function examTrack(id) {
+    const value = String(id || '');
+    if (/(?:^|-)intl(?:-|$)/.test(value)) return 'intl';
+    if (/(?:^|-)general(?:-|$)/.test(value)) return 'general';
+    return 'standard';
+  }
+  function subjectSlot(id) {
+    const stripped = String(id || '').replace(/-(?:intl|general)(?=-|$)/g, '');
+    const match = stripped.match(/-(\d{4})(?:-(.+))?$/);
+    return match ? match[2] || '' : '';
+  }
+  function paperNeighborRow(paper, order) {
+    const source = paper && paper.source || {};
+    const first = Array.isArray(paper && paper.questions) ? paper.questions[0] : null;
+    return {
+      id: paper && paper.id || '',
+      schoolId: source.schoolId || '',
+      graduate: source.graduate || '',
+      major: source.major || '',
+      year: source.year,
+      yearBasis: source.yearBasis || '',
+      firstQuestionId: first && typeof first.id === 'string' ? first.id : '',
+      order: Number.isInteger(order) ? order : 0
+    };
+  }
+  function adjacentPaperTargets(rows, currentId) {
+    const list = Array.isArray(rows) ? rows : [];
+    const current = list.find(row => row && row.id === currentId);
+    if (!current || !Number.isInteger(current.year)) return { previous: null, next: null };
+    const series = row => [row.schoolId, row.graduate, row.major, row.yearBasis || '', examTrack(row.id)].join('\0');
+    const key = series(current);
+    const peers = list.filter(row => row && Number.isInteger(row.year) && series(row) === key);
+    const years = [...new Set(peers.map(row => row.year))].sort((a, b) => a - b);
+    const pick = year => {
+      if (!Number.isInteger(year)) return null;
+      const choices = peers.filter(row => row.year === year);
+      const slot = subjectSlot(current.id);
+      const matched = choices.filter(row => subjectSlot(row.id) === slot);
+      return (matched.length ? matched : choices).slice().sort((a, b) => (a.order - b.order) || String(a.id).localeCompare(String(b.id)))[0] || null;
+    };
+    return {
+      previous: pick(years.filter(year => year < current.year).pop()),
+      next: pick(years.find(year => year > current.year))
+    };
+  }
+  const api = { sourceForQuestion, commonPartsForQuestion, resolveEntry, LEGACY_KEY, RECORD_KEY, subjectsOf, yearPhrase, drillSubjects, listingFromPaper, loadListings, practiceURL, loadQuestionRecords, saveQuestionRecords, paperNeighborRow, adjacentPaperTargets };
   root.QuestionBank = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);
