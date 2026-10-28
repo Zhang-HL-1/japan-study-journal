@@ -9,9 +9,10 @@ const {chromium}=require('playwright'),root=path.join(__dirname,'..');
   for(const width of [390,800,1440])for(const entry of entries){
    const paper=JSON.parse(fs.readFileSync(path.join(root,entry.data))),page=await browser.newPage({viewport:{width,height:1000},deviceScaleFactor:2,reducedMotion:'reduce'}),errors=[];page.on('pageerror',e=>errors.push(String(e)));
    await page.goto(`http://127.0.0.1:${server.address().port}/question-practice.html?paper=${entry.id}`);await page.locator('#app').waitFor();
-   assert.equal(await page.locator('#question-directory button').count(),paper.questions.length);assert.match(await page.locator('#paper-heading').innerText(),/早[稲稻]田/);assert.match(await page.locator('#paper-heading').innerText(),new RegExp(paper.source.year+'年9月'));
+   assert.equal(await page.locator('#question-directory button').count(),paper.questions.length);assert.match(await page.locator('#paper-heading').innerText(),/早[稲稻]田/);assert.match(await page.locator('#source-note').textContent(),new RegExp(paper.source.year+'年9月'));
    assert.match(await page.locator('#paper-source').innerText(),/電子物理システム学専攻/);assert.equal(await page.locator('iframe,object,embed').count(),0);
    for(const [n,q]of paper.questions.entries()){
+    if(!(await page.locator('#directory-disclosure').evaluate(el=>el.open))) await page.locator('#directory-disclosure > summary').click();
     await page.locator('#question-directory button').nth(n).click();await page.waitForFunction(()=>[...document.querySelectorAll('#common-content img,#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
     assert.equal(new URL(page.url()).searchParams.get('q'),q.id);assert.equal(await page.locator('#original-link').getAttribute('href'),paper.source.pdf+'#page='+q.parts[0].page);
     assert.equal(await page.locator('#question-content img').count(),q.parts.length);assert.equal(await page.locator('#common-content img').count(),paper.commonParts.length);

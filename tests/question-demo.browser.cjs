@@ -89,10 +89,11 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
     assert.equal(await page.locator('#question-directory button').count(),count);
     await page.waitForFunction(()=>[...document.querySelectorAll('#common-content img,#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
-    assert.match(await page.locator('#paper-heading').innerText(),/东京理科大学/);
+    assert.match(await page.locator('#paper-heading').innerText(),/东京理科大学|東京理科大学/);
     if(id.startsWith('tus-electrical-')) {
      assert.match(await page.locator('#paper-source').innerText(),/工学研究科 \/ 電気工学専攻/);
      assert.match(await page.locator('#paper-source').innerText(),new RegExp(id.split('-')[2]+' 入学年度'));
+     if(width<=800) await page.locator('#directory-disclosure > summary').click();
      for(let n=0;n<count;n++) {
       await page.locator('#question-directory button').nth(n).click();
       await page.waitForFunction(()=>[...document.querySelectorAll('#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
@@ -135,7 +136,7 @@ const {chromium}=require('playwright');const root=path.join(__dirname,'..');
     assert.equal(await page.locator('#question-directory button').count(),count);
     await page.waitForFunction(()=>[...document.querySelectorAll('#common-content img,#question-content img')].every(i=>i.complete&&i.naturalWidth>0));
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
-    assert.match(await page.locator('#paper-heading').innerText(),/东京科学大学/);
+    assert.match(await page.locator('#paper-heading').innerText(),/东京科学大学|東京科学大学/);
     assert.match(await page.locator('#paper-source').innerText(),/年实施/);
     assert.doesNotMatch(await page.locator('#paper-source').innerText(),/入学年度/);
     assert.match(await page.locator('#question-source').innerText(),/年实施/);
