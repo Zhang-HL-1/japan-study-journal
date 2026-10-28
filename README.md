@@ -158,11 +158,3 @@
 院校资料汇总位于 `schools.html`。更新三份资料目录后运行 `node scripts/build-school-index.cjs` 同步轻量索引；CI 会检查是否遗漏。页面设计、数据口径与第二阶段备份见 [docs/school-hub.md](docs/school-hub.md)。
 
 个人资料收藏位于 `desk.html`，记录保存在当前浏览器，可导出／导入合并。数据规则、限额及第三阶段回滚见 [docs/personal-study-desk.md](docs/personal-study-desk.md)。
-
-### 单题选题与连续练习
-
-`question-hub.html` 按学校、专攻、索引年份、单题科目和练习状态筛选，生成仅在当前标签页会话内使用的跨卷题单。练习室默认进入此页；`drill.html` 保留整卷入口。收藏和完成状态沿用现有逐题记录键；不保存最后阅读位置，也不提供断点续练。
-
-题目入库或合集更新后运行 `node scripts/build-question-catalog.cjs`，将紧凑索引 `question-catalog.json` 一起提交；CI 的 `--check` 防止索引漏更新。科目优先取单题标题的科目抬头、题号与标签，无法确认的保留为“科目待细分”。
-
-运行 `node --test tests/question-flow.test.cjs` 验证单题筛选与索引；安装 Playwright 后，运行 `node tests/question-flow.browser.cjs` 验证跨卷、记录兼容和手机操作栏。可用 `STUDY_ROOM_BROWSER` 指定浏览器、`STUDY_ROOM_SCREENSHOTS` 保存截图。

@@ -22,10 +22,6 @@ on:
       - 'campus-map-data.js'
       - 'questions.js'
       - 'question-practice*'
-      - 'question-hub*'
-      - 'question-flow.js'
-      - 'question-catalog.json'
-      - 'scripts/build-question-catalog.cjs'
       - 'question-bank.js'
       - 'question-bank-index.json'
       - 'data/question-manifests/**'
@@ -63,7 +59,6 @@ jobs:
           node scripts/build-school-index.cjs --check
           node scripts/build-paper-practice.cjs --check
           node scripts/build-question-collections.cjs --check
-          node scripts/build-question-catalog.cjs --check
           node --test --test-reporter=dot tests/*.test.cjs
       - name: Install isolated browser test dependencies
         run: |
@@ -75,7 +70,6 @@ jobs:
           STUDY_ROOM_SCREENSHOTS: review
         run: |
           node tests/question-demo.browser.cjs
-          node tests/question-flow.browser.cjs
           node tests/waseda-eps.browser.cjs
           node tests/paper-practice.browser.cjs
           node tests/study-room.browser.cjs
