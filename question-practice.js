@@ -9,8 +9,6 @@
   let requested = params.get('paper');
   let aliasQuestion;
   let queue = null;
-  let yearRows = null, yearLoading = false, yearFailed = false, yearTargets = null;
-  let yearFilters = {}, yearReturn = new URLSearchParams();
   if (params.get('queue') === '1') {
     try { queue = window.QuestionFlow.readQueue(sessionStorage); } catch { /* 单卷仍可使用。 */ }
   }
@@ -22,53 +20,6 @@
     $('previous').disabled = pos === 0; $('next').disabled = pos === total-1;
     $('complete-next').textContent = pos === total-1 ? '已练习，结束本轮' : '已练习，下一题';
     $('queue-finish').hidden = pos !== total-1 || !record().completed;
-    updateYearNavigation(pos === total-1);
-  }
-  function updateYearNavigation(atEnd) {
-    const group = $('year-navigation');
-    group.hidden = !atEnd;
-    if (!atEnd) return;
-    if (!yearRows) {
-      $('previous-year').disabled = $('next-year').disabled = true;
-      $('year-status').textContent = yearFailed ? '其他年份暂时加载失败，可重试或返回选题。' : '正在查找可继续练习的年份…';
-      $('retry-years').hidden = !yearFailed;
-      if (!yearLoading && !yearFailed) loadYearNavigation();
-      return;
-    }
-    const items = queue || {items:paper.questions.map(q => ({paper:paper.id,id:q.id}))};
-    yearTargets = window.QuestionFlow.adjacentYears(yearRows, items.items, yearFilters, records, queue ? yearReturn.get('series') || '' : paper.id);
-    group.hidden = !yearTargets;
-    if (!yearTargets) return;
-    $('retry-years').hidden = true;
-    $('year-status').textContent = yearTargets.previous || yearTargets.next ? '已到本年题单末尾，沿用当前范围继续刷：' : '当前范围暂无其他年份可练习，可返回重新选题。';
-    for (const [id, label, target] of [['previous-year','上一年',yearTargets.previous],['next-year','下一年',yearTargets.next]]) {
-      $(id).disabled = !target;
-      $(id).textContent = target ? `${label} · ${target.year} 年` : `${label} · 暂无题目`;
-    }
-  }
-  async function loadYearNavigation() {
-    yearLoading = true; yearFailed = false;
-    try {
-      const catalog = await fetchJSON('question-catalog.json');
-      if (catalog.version !== 1 || !Array.isArray(catalog.questions)) throw new Error('题目索引无效');
-      yearRows = catalog.questions;
-    } catch { yearFailed = true; }
-    finally { yearLoading = false; updateNavigation(); }
-  }
-  function switchYear(direction) {
-    const target = yearTargets?.[direction];
-    if (!target || !storageWritable) {
-      if (!storageWritable) $('year-status').textContent = '练习记录暂时无法保存，请先导出记录再切换年份。';
-      return;
-    }
-    const items = target.items.slice();
-    if (yearReturn.get('order') === 'random') for (let i=items.length-1;i>0;i--) { const j=Math.floor(Math.random()*(i+1)); [items[i],items[j]]=[items[j],items[i]]; }
-    const query = new URLSearchParams(yearReturn); query.set('year',String(target.year));
-    try {
-      sessionStorage.setItem(window.QuestionFlow.QUEUE_KEY,JSON.stringify({version:1,items}));
-      sessionStorage.setItem('japan-study-journal:question-hub-return','?'+query);
-    } catch { $('year-status').textContent = '浏览器无法保存新题单，请允许会话存储后重试。'; return; }
-    location.assign(window.QuestionFlow.url(items[0]));
   }
   function move(delta) {
     const at = queueIndex();
@@ -230,17 +181,6 @@
       if (!queue) $('storage-status').textContent = '本次题单已失效，当前可按本卷练习，或返回重新选题。';
     }
     if (queue && !queue.items.some(q => q.paper === paper.id && q.id === (params.get('q') || aliasQuestion))) queue = null;
-    if (queue) {
-      try { yearReturn = new URLSearchParams(sessionStorage.getItem('japan-study-journal:question-hub-return') || ''); } catch { /* 使用默认范围。 */ }
-      yearFilters = Object.fromEntries(yearReturn);
-    } else {
-      yearFilters = {school:paper.source.school,major:JSON.stringify([paper.source.school,paper.source.graduate,paper.source.major]),scope:'all'};
-      yearReturn = new URLSearchParams(yearFilters);
-      yearReturn.set('series',paper.id);
-    }
-    $('previous-year').addEventListener('click', () => switchYear('previous'));
-    $('next-year').addEventListener('click', () => switchYear('next'));
-    $('retry-years').addEventListener('click', () => { yearFailed = false; updateNavigation(); });
     const start = paper.questions.findIndex(q => q.id === (params.get('q') || aliasQuestion));
     navigate(Math.max(0,start),'replaceState');
     $('bookmark').addEventListener('click', () => { patch({bookmarked:!record().bookmarked}); refresh(); });
@@ -251,7 +191,7 @@
       patch({completed:true}); refresh();
       if (!storageWritable) { $('completion-status').textContent = '本题标记仅本次保留，请先导出记录再切题。'; return; }
       if (!$('next').disabled) move(1);
-      else { $('completion-status').textContent = '本题已练习 ✓ · 已到题单末尾，可选择其他年份继续练习或返回选题。'; $('queue-finish').focus(); }
+      else { $('completion-status').textContent = '本题已练习 ✓ · 已到题单末尾，可返回选题或检查前面的题目。'; $('queue-finish').focus(); }
     });
     $('focus-mode').addEventListener('click', () => { focused = !focused; document.body.classList.toggle('is-focused',focused); $('focus-mode').setAttribute('aria-pressed',String(focused)); $('focus-mode').textContent = focused ? '退出专注' : '专注模式'; });
     $('enlarge').addEventListener('click', () => openZoom());

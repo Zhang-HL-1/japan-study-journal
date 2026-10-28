@@ -5,10 +5,10 @@
   <title>逐题练习 · 留日手记</title>
   <meta name="description" content="按已接入的过去问逐题练习：直接阅读日文原题，保留公式、配图和出处。">
   <meta name="theme-color" content="#faf9f5">
-  <link rel="stylesheet" href="question-practice.css?v=20261028-years">
+  <link rel="stylesheet" href="question-practice.css?v=20261028-flow">
   <script src="question-bank.js?v=20261024-collections" defer></script>
-  <script src="question-flow.js?v=20261028-years" defer></script>
-  <script src="question-practice.js?v=20261028-years" defer></script>
+  <script src="question-flow.js?v=20261028-flow" defer></script>
+  <script src="question-practice.js?v=20261028-flow" defer></script>
 </head>
 <body>
   <a class="skip" href="#question">跳到题目</a>
@@ -39,9 +39,7 @@
           <details class="notes" id="notes"><summary>我的笔记 <span id="note-status"></span></summary><label for="question-note" class="sr-only">本题笔记</label><textarea id="question-note" rows="4" maxlength="6000" placeholder="记录思路、卡住的位置，或下次要复习的内容……"></textarea></details>
           <div class="completion-row"><button id="complete" class="primary" type="button">标记本题已练习</button><span id="completion-status" role="status"></span></div>
         </article>
-        <div class="question-nav"><button id="previous" type="button">← 上一题</button><span id="nav-position"></span><button id="complete-next" class="primary" type="button">已练习，下一题</button><button id="next" class="primary" type="button">下一题 →</button><a id="queue-finish" href="question-hub.html" hidden>返回选题 →</a>
-          <div id="year-navigation" class="year-navigation" role="group" aria-label="继续练习其他年份" hidden><p id="year-status" role="status"></p><button id="previous-year" type="button" disabled>← 上一年</button><button id="next-year" type="button" disabled>下一年 →</button><button id="retry-years" type="button" hidden>重试</button></div>
-        </div>
+        <div class="question-nav"><button id="previous" type="button">← 上一题</button><span id="nav-position"></span><button id="complete-next" class="primary" type="button">已练习，下一题</button><button id="next" class="primary" type="button">下一题 →</button><a id="queue-finish" href="question-hub.html" hidden>返回选题 →</a></div>
         <div class="storage-line"><p id="storage-status" role="status">逐题记录保存在此浏览器，与整卷记录分开。</p><button id="export-records" type="button">导出逐题记录</button></div>
       </section>
     </div>

@@ -43,43 +43,6 @@ const {chromium}=require('playwright'),root=path.join(__dirname,'..'),catalog=re
   await page.goto(origin+'/question-hub.html');await page.locator('#start:enabled').waitFor();assert.match(page.url(),/question-hub.html$/);
   assert.deepEqual(errors,[]);await page.close();
  }
- // Single-year queues can continue in either direction without losing filters or records.
- for(const width of [390,800,1440]) {
-  const page=await browser.newPage({viewport:{width,height:900},reducedMotion:'reduce'}),errors=[];
-  page.on('pageerror',e=>errors.push(String(e)));
-  const sample=catalog.questions.find(q=>q.paper==='waseda-eps-2023');
-  const filters=new URLSearchParams({school:sample.school,major:sample.majorKey,year:'2023',subject:'力学',scope:'unanswered',order:'random'});
-  await page.goto(origin+'/question-hub.html?'+filters);await page.locator('#start:enabled').waitFor();
-  assert.equal(await page.locator('#order').inputValue(),'random');
-  await page.locator('#start').click();await page.locator('#app').waitFor();
-  assert.equal(await page.locator('#year-navigation').isVisible(),false);
-  const last=await page.evaluate(()=>JSON.parse(sessionStorage.getItem('japan-study-journal:question-queue:v1')).items.at(-1));
-  await page.goto(origin+`/question-practice.html?paper=${last.paper}&q=${last.id}&queue=1`);
-  await page.locator('#previous-year:enabled').waitFor();assert.equal(await page.locator('#next').isDisabled(),true);
-  assert.match(await page.locator('#previous-year').innerText(),/2022/);assert.match(await page.locator('#next-year').innerText(),/2024/);
-  await page.locator('#notes summary').click();await page.fill('#question-note','年份切换保留笔记');await page.locator('#complete-next').click();
-  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
-  const bar=await page.locator('.question-nav').boundingBox();assert.ok(bar.y>=0&&bar.y+bar.height<=901);
-  if(process.env.STUDY_ROOM_SCREENSHOTS)await page.screenshot({path:path.join(process.env.STUDY_ROOM_SCREENSHOTS,`question-years-${width}.png`)});
-  await page.locator('#previous-year').click();await page.waitForURL(/paper=waseda-eps-2022/);await page.locator('#app').waitFor();
-  const saved=await page.evaluate(()=>({queue:JSON.parse(sessionStorage.getItem('japan-study-journal:question-queue:v1')),query:sessionStorage.getItem('japan-study-journal:question-hub-return'),records:JSON.parse(localStorage.getItem('japan-study-journal:question-practice:v1')).records}));
-  const expected=catalog.questions.filter(q=>q.paper==='waseda-eps-2022'&&q.subjects.includes('力学')).map(q=>q.id).sort();
-  assert.deepEqual(saved.queue.items.map(q=>q.id).sort(),expected);
-  assert.equal(new URLSearchParams(saved.query).get('year'),'2022');assert.equal(new URLSearchParams(saved.query).get('subject'),'力学');assert.equal(new URLSearchParams(saved.query).get('order'),'random');
-  assert.equal(saved.records[last.id].note,'年份切换保留笔记');assert.equal(saved.records[last.id].completed,true);
-  const end=saved.queue.items.at(-1);await page.goto(origin+`/question-practice.html?paper=${end.paper}&q=${end.id}&queue=1`);
-  await page.locator('#next-year:enabled').waitFor();await page.locator('#next-year').click();await page.waitForURL(/paper=waseda-eps-2023/);await page.locator('#app').waitFor();
-  assert.deepEqual(errors,[]);await page.close();
- }
- // Direct-paper practice retains the exam track, even after a second year switch.
- {
-  const page=await browser.newPage();await page.goto(origin+'/question-practice.html?paper=tus-electrical-2024-intl');await page.locator('#app').waitFor();
-  await page.locator('#question-directory button').last().click();await page.locator('#next-year:enabled').waitFor();
-  assert.equal(await page.locator('#previous-year').isDisabled(),true);
-  await page.locator('#next-year').click();await page.waitForURL(/paper=tus-electrical-2025-intl/);await page.locator('#app').waitFor();
-  await page.locator('#question-directory button').last().click();await page.locator('#previous-year:enabled').waitFor();
-  assert.equal(await page.locator('#next-year').isDisabled(),true);await page.locator('#previous-year').click();await page.waitForURL(/paper=tus-electrical-2024-intl/);await page.close();
- }
  // Missing queues gracefully preserve direct-paper practice.
  const page=await browser.newPage();await page.goto(origin+`/question-practice.html?paper=${first.paper}&q=${first.id}&queue=1`);await page.locator('#app').waitFor();assert.match(await page.locator('#storage-status').innerText(),/失效/);await page.close();
  console.log('Question flow browser checks passed at 390, 800 and 1440px.');

@@ -22,24 +22,7 @@
   function url(item, queued = true) {
     return 'question-practice.html?' + new URLSearchParams({paper:item.paper,q:item.id,...(queued ? {queue:'1'} : {})});
   }
-  // A year switch replaces only the year; all other hub filters still apply.
-  // Direct-paper links stay in the same paper series (including exam track).
-  function adjacentYears(rows, items, filters, records = {}, directPaper = '') {
-    const ids = new Set(items.map(q => q.id));
-    const current = rows.filter(q => ids.has(q.id));
-    const years = new Set(current.map(q => q.year));
-    if (!current.length || current.length !== ids.size || years.size !== 1) return null;
-    const year = current[0].year;
-    let candidates = filter(rows, {...filters, year:''}, records);
-    if (directPaper) {
-      const series = id => id.replace(/\b\d{4}\b/, '{year}');
-      candidates = candidates.filter(q => q.majorKey === current[0].majorKey && series(q.paper) === series(directPaper));
-    }
-    const available = [...new Set(candidates.map(q => q.year))].sort((a,b) => a-b);
-    const target = y => y === undefined ? null : {year:y, items:candidates.filter(q => q.year === y).map(q => ({paper:q.paper,id:q.id}))};
-    return {year, previous:target(available.filter(y => y < year).pop()), next:target(available.find(y => y > year))};
-  }
-  const api = {QUEUE_KEY,filter,cleanQueue,readQueue,url,adjacentYears};
+  const api = {QUEUE_KEY,filter,cleanQueue,readQueue,url};
   root.QuestionFlow = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);
