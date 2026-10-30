@@ -36545,6 +36545,605 @@
       "admissionYears": [
         2026
       ]
+    },
+    {
+      "id": "kyushu-isee-ee-2008",
+      "universityId": "kyushu",
+      "title": "2008年度 · 電気電子システム工学専攻・電子デバイス工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子システム工学専攻・電子デバイス工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子システム工学専攻 電子デバイス工学専攻 平成２０年度入学試験問題 【平成１９年８月２１日（火）、２２日（水）】",
+      "admissionYears": [
+        2008
+      ],
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-21",
+        "2007-08-22"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c0ba64e73f9567073879fc92bd81a12e00d2e01738b9e8182bff2d13bef265cd.pdf",
+          "originalName": "2008_h20eesed.pdf",
+          "sha256": "c0ba64e73f9567073879fc92bd81a12e00d2e01738b9e8182bff2d13bef265cd",
+          "byteSize": 1968562,
+          "pages": 67,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2008_h20eesed.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 67
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。封面列電気電子システム工学専攻与電子デバイス工学専攻，保留旧专攻名称；册内英语部分标明为示例题，不视为当年英语真题。"
+    },
+    {
+      "id": "kyushu-isee-ee-2009",
+      "universityId": "kyushu",
+      "title": "2009年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成２１年度入学試験問題 【平成２０年８月２７日（水）】",
+      "admissionYears": [
+        2009
+      ],
+      "examYear": 2008,
+      "examDates": [
+        "2008-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38.pdf",
+          "originalName": "2009_h21ee.pdf",
+          "sha256": "6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38",
+          "byteSize": 1736224,
+          "pages": 37,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2009_h21ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 37
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2010",
+      "universityId": "kyushu",
+      "title": "2010年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成２２年度入学試験問題 【平成２１年８月２６日（水）】",
+      "admissionYears": [
+        2010
+      ],
+      "examYear": 2009,
+      "examDates": [
+        "2009-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fcac3868a455decfaa05ebb6e5002d34a2f1cd3ef198a2bc00331922af1fe2d5.pdf",
+          "originalName": "2010_h22ee.pdf",
+          "sha256": "fcac3868a455decfaa05ebb6e5002d34a2f1cd3ef198a2bc00331922af1fe2d5",
+          "byteSize": 2533581,
+          "pages": 36,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2010_h22ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 36
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2011",
+      "universityId": "kyushu",
+      "title": "2011年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成２３年度入学試験問題 【平成２２年８月２６日（木）、２７日（金）】",
+      "admissionYears": [
+        2011
+      ],
+      "examYear": 2010,
+      "examDates": [
+        "2010-08-26",
+        "2010-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d2877708d0b9bb1b4e76ef04388e8490072e741a05e8cd8a13c3605caac52709.pdf",
+          "originalName": "2011_h23ee.pdf",
+          "sha256": "d2877708d0b9bb1b4e76ef04388e8490072e741a05e8cd8a13c3605caac52709",
+          "byteSize": 3274146,
+          "pages": 37,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2011_h23ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 37
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2012",
+      "universityId": "kyushu",
+      "title": "2012年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成２４年度入学試験問題 【平成２３年８月２５日（木）、２６日（金）】",
+      "admissionYears": [
+        2012
+      ],
+      "examYear": 2011,
+      "examDates": [
+        "2011-08-25",
+        "2011-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6051986dd52ebe1e387582b3e925faebf062d514aff819b8f242c611173e33e6.pdf",
+          "originalName": "2012_h24ee.pdf",
+          "sha256": "6051986dd52ebe1e387582b3e925faebf062d514aff819b8f242c611173e33e6",
+          "byteSize": 1617355,
+          "pages": 38,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2012_h24ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 38
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2013",
+      "universityId": "kyushu",
+      "title": "2013年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成２５年度入学試験問題 【平成２４年８月２３日（木）、２４日（金）】",
+      "admissionYears": [
+        2013
+      ],
+      "examYear": 2012,
+      "examDates": [
+        "2012-08-23",
+        "2012-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5cabf39a3d09c9ea76b431de48ebdaf04cab4566e4bf6f9a9da4db0ac93f76b0.pdf",
+          "originalName": "2013_h25ee.pdf",
+          "sha256": "5cabf39a3d09c9ea76b431de48ebdaf04cab4566e4bf6f9a9da4db0ac93f76b0",
+          "byteSize": 1180269,
+          "pages": 35,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2013_h25ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 35
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2014",
+      "universityId": "kyushu",
+      "title": "2014年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成２６年度入学試験問題 【平成２５年８月２２日（木）、２３日（金）】",
+      "admissionYears": [
+        2014
+      ],
+      "examYear": 2013,
+      "examDates": [
+        "2013-08-22",
+        "2013-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55.pdf",
+          "originalName": "2014_h26ee.pdf",
+          "sha256": "fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55",
+          "byteSize": 2378966,
+          "pages": 35,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2014_h26ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 35
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2015",
+      "universityId": "kyushu",
+      "title": "2015年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成２７年度入学試験問題 【平成２６年８月２１日（木）、２２日（金）】",
+      "admissionYears": [
+        2015
+      ],
+      "examYear": 2014,
+      "examDates": [
+        "2014-08-21",
+        "2014-08-22"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/24f7cade531563a3f986ca5b9b830e383ab4bcee62e30d4680c4c17ada4e4ff4.pdf",
+          "originalName": "2015_H27_ee.pdf",
+          "sha256": "24f7cade531563a3f986ca5b9b830e383ab4bcee62e30d4680c4c17ada4e4ff4",
+          "byteSize": 1471670,
+          "pages": 36,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2015_H27_ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 36
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2016",
+      "universityId": "kyushu",
+      "title": "2016年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成２８年度入学試験問題 【平成２７年８月２０日（木）、２１日（金）】",
+      "admissionYears": [
+        2016
+      ],
+      "examYear": 2015,
+      "examDates": [
+        "2015-08-20",
+        "2015-08-21"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2e0ffaa6e42c6036caeca889093b7ae148e4f8b1a064e3dd6c8712a45bfc8ae5.pdf",
+          "originalName": "2016_H28_ee.pdf",
+          "sha256": "2e0ffaa6e42c6036caeca889093b7ae148e4f8b1a064e3dd6c8712a45bfc8ae5",
+          "byteSize": 2135046,
+          "pages": 40,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2016_H28_ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 40
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2017",
+      "universityId": "kyushu",
+      "title": "2017年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成２９年度入学試験問題 【平成２８年８月１８日（木）、１９日（金）】",
+      "admissionYears": [
+        2017
+      ],
+      "examYear": 2016,
+      "examDates": [
+        "2016-08-18",
+        "2016-08-19"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2f8728857b7573c2cc110b9a5eeec38fb1eec5f0d8aee83c2070ce04bdb40648.pdf",
+          "originalName": "2017_H29ee.pdf",
+          "sha256": "2f8728857b7573c2cc110b9a5eeec38fb1eec5f0d8aee83c2070ce04bdb40648",
+          "byteSize": 2187921,
+          "pages": 34,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2017_H29ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 34
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2018",
+      "universityId": "kyushu",
+      "title": "2018年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成３０年度入学試験問題 【平成２９年８月１７日（木）、１８日（金）】",
+      "admissionYears": [
+        2018
+      ],
+      "examYear": 2017,
+      "examDates": [
+        "2017-08-17",
+        "2017-08-18"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6.pdf",
+          "originalName": "2018_h30ee-1.pdf",
+          "sha256": "0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6",
+          "byteSize": 1814286,
+          "pages": 34,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2018_h30ee-1.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 34
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2019",
+      "universityId": "kyushu",
+      "title": "2019年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 平成３１年度入学試験問題 【平成３０年８月２３日（木）、２４日（金）】",
+      "admissionYears": [
+        2019
+      ],
+      "examYear": 2018,
+      "examDates": [
+        "2018-08-23",
+        "2018-08-24"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e.pdf",
+          "originalName": "2019_h31ee.pdf",
+          "sha256": "3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e",
+          "byteSize": 1653308,
+          "pages": 34,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2019_h31ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 34
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2020",
+      "universityId": "kyushu",
+      "title": "2020年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 令和２年度入学試験問題 【令和元年８月２６日（月）、２７日（火）】",
+      "admissionYears": [
+        2020
+      ],
+      "examYear": 2019,
+      "examDates": [
+        "2019-08-26",
+        "2019-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3b1b68e9200f0a89b4901536af4fb862be1b9acee34e0bcf6884f28af07d5571.pdf",
+          "originalName": "2020_R02ee.pdf",
+          "sha256": "3b1b68e9200f0a89b4901536af4fb862be1b9acee34e0bcf6884f28af07d5571",
+          "byteSize": 1319502,
+          "pages": 38,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2020_R02ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 38
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "kyushu-isee-ee-2026",
+      "universityId": "kyushu",
+      "title": "2026年度 · 電気電子工学専攻",
+      "graduateSchool": "システム情報科学府",
+      "department": "電気電子工学専攻",
+      "selectionName": "修士課程入学試験",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "九州大学大学院システム情報科学府 電気電子工学専攻 令和８年度入学試験問題 【令和７年８月２６日（火）】",
+      "admissionYears": [
+        2026
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "問題 · 整卷（封面起）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d.pdf",
+          "originalName": "2026_R08_ee.pdf",
+          "sha256": "4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d",
+          "byteSize": 3730299,
+          "pages": 36,
+          "sourcePaths": [
+            "九州大学/kyushu-ee-past-exams/2026_R08_ee.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 36
+        }
+      ],
+      "sourceBatch": "kyushu-ee-archive-20261030",
+      "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
     }
   ],
   "schoolNotes": {
@@ -36613,7 +37212,7 @@
       "text": "本校154组／227个PDF、1539页，无随卷解答。2026-10-15已上线的57组／95个PDF、720页保持不变：电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。2026-10-18补录原先排除的理学数学、理学物理、基础工学数理科学、物性物理科学和情报基础数学，新增97组、132个唯一PDF、819页。理学数学按封面入学年度，8月的数学問題A／B合成一组；封面印「第2次募集」的2022、2023另组；其余11月或2月场封面未印二次，不按文件名写成二次募集。本目录没有2021年度数学册。理学物理封面只印实施年月，paperYear用入学年度（8月或9月实施对应次年4月入学），2012—2021各页未印日期，不补实施日。数理科学与物性物理科学按封面入学年度，科目名加「専門科目」，不虚构专攻。情報基礎数学専攻2005—2025按封面平成／令和年度。環境工学コース小論文5份和口述試問サンプル不建真题入口。年度按卷面入学年度。基礎工学既有科目仍按「専門科目」分组。不声明全校或所有年份齐全。"
     },
     "kyushu": {
-      "text": "本校28组／16个PDF、646页，无解答。システム情報科学府修士課程入学試験10册：情報理工学専攻与電気電子工学専攻各令和3–7年度入学（2021–2025），实施日按封面为2020-12-05至06、2021-08-30至31、2022-08-29至30、2023-08-29至30、2024-09-10至11。paperYear按封面令和入学年度，examYear按实施年；R03是2021年入学、2020年12月实施。第1页为封面，其后到专门科目前是两专攻共用的数学（同年两册该段提取文本一致），专门科目从R03第9页、R04第7页、R05第8页、R06第9页、R07第8页打开，整册不拆。R04专门科目为扫描图；R06封面与数学页文字层乱码，封面经渲染核对。另有理工学専攻合册6份：2023–2025年度的2月与9月，封面只印理工学専攻（博士前期／修士・博士後期・前後期共通）和理工基礎题群，未印学府名，不写成総合理工学府，也不把题群当成独立专攻。只为機械工学基礎、電気・電子工学基礎、情報学基礎设入口；化学基礎、数学基礎、物理学基礎、生物科学基礎留在原册。2025年2月册未见生物科学基礎页眉，2024年2月册未见物理学基礎页眉。2025年度9月、2月两册与已上线的上智大学问题册字节相同，不另存、不改上智记录。不声明其他年度或全校齐全。"
+      "text": "本校42组／30个PDF、1183页，无解答。システム情報科学府修士課程入学試験10册：情報理工学専攻与電気電子工学専攻各令和3–7年度入学（2021–2025），实施日按封面为2020-12-05至06、2021-08-30至31、2022-08-29至30、2023-08-29至30、2024-09-10至11。paperYear按封面令和入学年度，examYear按实施年；R03是2021年入学、2020年12月实施。第1页为封面，其后到专门科目前是两专攻共用的数学（同年两册该段提取文本一致），专门科目从R03第9页、R04第7页、R05第8页、R06第9页、R07第8页打开，整册不拆。R04专门科目为扫描图；R06封面与数学页文字层乱码，封面经渲染核对。另有理工学専攻合册6份：2023–2025年度的2月与9月，封面只印理工学専攻（博士前期／修士・博士後期・前後期共通）和理工基礎题群，未印学府名，不写成総合理工学府，也不把题群当成独立专攻。只为機械工学基礎、電気・電子工学基礎、情報学基礎设入口；化学基礎、数学基礎、物理学基礎、生物科学基礎留在原册。2025年2月册未见生物科学基礎页眉，2024年2月册未见物理学基礎页眉。2025年度9月、2月两册与已上线的上智大学问题册字节相同，不另存、不改上智记录。不声明其他年度或全校齐全。 2026-10-30补充历史整卷：电气电子方向现覆盖2008–2026入学年度；本批19份中5份与已有2021–2025年度PDF哈希一致，复用原记录，新增2008–2020及2026共14份、537页。2008年度合册保留電気電子システム工学専攻／電子デバイス工学専攻旧名称，英语部分为示例题；2009年度起封面为電気電子工学専攻。新增册从封面阅读，未做逐题拆分。"
     },
     "tohoku": {
       "text": "本校84组／113个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。云盘119个PDF中入库118个路径、117个唯一PDF、871页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。2026-10-18补录原先排除的理学数学、理学物理和土木，新增17组、31个唯一PDF、207页。误放在情报科学／数学的「东北 理学 募集.pdf」是2027年度理学研究科自己推薦入学試験学生募集要項，不是试题，不建真题入口，也不入库。yearBasis为mixed：封面印「〇〇年度」时paperYear用该年度（令和N＝2018+N，平成N＝1988+N），只有封面写明「N年4月入学」才记admissionYears；只印实施日或页眉「YYYY年M月」时paperYear与examYear用该年，不写admissionYears，也不从文件名补年度。没有公历日就不写examDates。応用物理学2014—2020年8月按实施日；文件名带R6的出题意图封面是令和7年度。机械系4専攻三册按令和年度整册收录，封面只显示数学A；2026年春季1页是出题范围。电气情报按封面公历年，2024年8月起基础与专门合一册；2023年8月和2024年2月封面列情報科学研究科情報・生命系群，其后没有。量子年度以封面为准，允许与文件名错开。情報科学（数学）按云盘文件夹归类，封面无研究科／专攻名，不声称属于情報科学研究科的某个专攻；2025年度只有出題意図・解答例，没有试题，不补。理学数学按封面令和年度，同一日的共通、选择、英语合成一组；令和7年度附出題意図，令和8年度附出題意図・講評，都不是解答。理学物理按封面令和年度，令和3年度封面为两日，其后封面只印一日；令和7、令和8年度的出題意図附在同年试题上。土木封面只印「YYYY春」或「YYYY秋」和「基礎科目」，不印専攻名，不写admissionYears，也不写examDates。不声明其他年度或全校齐全。",

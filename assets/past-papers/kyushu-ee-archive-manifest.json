@@ -1,0 +1,284 @@
+{
+  "importedAt": "2026-10-30",
+  "sourceBatch": "kyushu-ee-archive-20261030",
+  "sourceFolder": "用户提供／kyushu-ee-past-exams",
+  "inventoryPDFs": 19,
+  "newPDFs": 14,
+  "reusedPDFs": 5,
+  "newPages": 537,
+  "files": [
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/c0ba64e73f9567073879fc92bd81a12e00d2e01738b9e8182bff2d13bef265cd.pdf",
+      "originalName": "2008_h20eesed.pdf",
+      "sha256": "c0ba64e73f9567073879fc92bd81a12e00d2e01738b9e8182bff2d13bef265cd",
+      "byteSize": 1968562,
+      "pages": 67,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2008_h20eesed.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 67,
+      "path": "assets/past-papers/documents/c0ba64e73f9567073879fc92bd81a12e00d2e01738b9e8182bff2d13bef265cd.pdf",
+      "paperId": "kyushu-isee-ee-2008",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38.pdf",
+      "originalName": "2009_h21ee.pdf",
+      "sha256": "6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38",
+      "byteSize": 1736224,
+      "pages": 37,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2009_h21ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 37,
+      "path": "assets/past-papers/documents/6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38.pdf",
+      "paperId": "kyushu-isee-ee-2009",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/fcac3868a455decfaa05ebb6e5002d34a2f1cd3ef198a2bc00331922af1fe2d5.pdf",
+      "originalName": "2010_h22ee.pdf",
+      "sha256": "fcac3868a455decfaa05ebb6e5002d34a2f1cd3ef198a2bc00331922af1fe2d5",
+      "byteSize": 2533581,
+      "pages": 36,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2010_h22ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 36,
+      "path": "assets/past-papers/documents/fcac3868a455decfaa05ebb6e5002d34a2f1cd3ef198a2bc00331922af1fe2d5.pdf",
+      "paperId": "kyushu-isee-ee-2010",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/d2877708d0b9bb1b4e76ef04388e8490072e741a05e8cd8a13c3605caac52709.pdf",
+      "originalName": "2011_h23ee.pdf",
+      "sha256": "d2877708d0b9bb1b4e76ef04388e8490072e741a05e8cd8a13c3605caac52709",
+      "byteSize": 3274146,
+      "pages": 37,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2011_h23ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 37,
+      "path": "assets/past-papers/documents/d2877708d0b9bb1b4e76ef04388e8490072e741a05e8cd8a13c3605caac52709.pdf",
+      "paperId": "kyushu-isee-ee-2011",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/6051986dd52ebe1e387582b3e925faebf062d514aff819b8f242c611173e33e6.pdf",
+      "originalName": "2012_h24ee.pdf",
+      "sha256": "6051986dd52ebe1e387582b3e925faebf062d514aff819b8f242c611173e33e6",
+      "byteSize": 1617355,
+      "pages": 38,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2012_h24ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 38,
+      "path": "assets/past-papers/documents/6051986dd52ebe1e387582b3e925faebf062d514aff819b8f242c611173e33e6.pdf",
+      "paperId": "kyushu-isee-ee-2012",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/5cabf39a3d09c9ea76b431de48ebdaf04cab4566e4bf6f9a9da4db0ac93f76b0.pdf",
+      "originalName": "2013_h25ee.pdf",
+      "sha256": "5cabf39a3d09c9ea76b431de48ebdaf04cab4566e4bf6f9a9da4db0ac93f76b0",
+      "byteSize": 1180269,
+      "pages": 35,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2013_h25ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 35,
+      "path": "assets/past-papers/documents/5cabf39a3d09c9ea76b431de48ebdaf04cab4566e4bf6f9a9da4db0ac93f76b0.pdf",
+      "paperId": "kyushu-isee-ee-2013",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55.pdf",
+      "originalName": "2014_h26ee.pdf",
+      "sha256": "fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55",
+      "byteSize": 2378966,
+      "pages": 35,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2014_h26ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 35,
+      "path": "assets/past-papers/documents/fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55.pdf",
+      "paperId": "kyushu-isee-ee-2014",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/24f7cade531563a3f986ca5b9b830e383ab4bcee62e30d4680c4c17ada4e4ff4.pdf",
+      "originalName": "2015_H27_ee.pdf",
+      "sha256": "24f7cade531563a3f986ca5b9b830e383ab4bcee62e30d4680c4c17ada4e4ff4",
+      "byteSize": 1471670,
+      "pages": 36,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2015_H27_ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 36,
+      "path": "assets/past-papers/documents/24f7cade531563a3f986ca5b9b830e383ab4bcee62e30d4680c4c17ada4e4ff4.pdf",
+      "paperId": "kyushu-isee-ee-2015",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/2e0ffaa6e42c6036caeca889093b7ae148e4f8b1a064e3dd6c8712a45bfc8ae5.pdf",
+      "originalName": "2016_H28_ee.pdf",
+      "sha256": "2e0ffaa6e42c6036caeca889093b7ae148e4f8b1a064e3dd6c8712a45bfc8ae5",
+      "byteSize": 2135046,
+      "pages": 40,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2016_H28_ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 40,
+      "path": "assets/past-papers/documents/2e0ffaa6e42c6036caeca889093b7ae148e4f8b1a064e3dd6c8712a45bfc8ae5.pdf",
+      "paperId": "kyushu-isee-ee-2016",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/2f8728857b7573c2cc110b9a5eeec38fb1eec5f0d8aee83c2070ce04bdb40648.pdf",
+      "originalName": "2017_H29ee.pdf",
+      "sha256": "2f8728857b7573c2cc110b9a5eeec38fb1eec5f0d8aee83c2070ce04bdb40648",
+      "byteSize": 2187921,
+      "pages": 34,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2017_H29ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 34,
+      "path": "assets/past-papers/documents/2f8728857b7573c2cc110b9a5eeec38fb1eec5f0d8aee83c2070ce04bdb40648.pdf",
+      "paperId": "kyushu-isee-ee-2017",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6.pdf",
+      "originalName": "2018_h30ee-1.pdf",
+      "sha256": "0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6",
+      "byteSize": 1814286,
+      "pages": 34,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2018_h30ee-1.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 34,
+      "path": "assets/past-papers/documents/0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6.pdf",
+      "paperId": "kyushu-isee-ee-2018",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e.pdf",
+      "originalName": "2019_h31ee.pdf",
+      "sha256": "3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e",
+      "byteSize": 1653308,
+      "pages": 34,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2019_h31ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 34,
+      "path": "assets/past-papers/documents/3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e.pdf",
+      "paperId": "kyushu-isee-ee-2019",
+      "reused": false
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/3b1b68e9200f0a89b4901536af4fb862be1b9acee34e0bcf6884f28af07d5571.pdf",
+      "originalName": "2020_R02ee.pdf",
+      "sha256": "3b1b68e9200f0a89b4901536af4fb862be1b9acee34e0bcf6884f28af07d5571",
+      "byteSize": 1319502,
+      "pages": 38,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2020_R02ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 38,
+      "path": "assets/past-papers/documents/3b1b68e9200f0a89b4901536af4fb862be1b9acee34e0bcf6884f28af07d5571.pdf",
+      "paperId": "kyushu-isee-ee-2020",
+      "reused": false
+    },
+    {
+      "name": "2021_R03ee.pdf",
+      "sha256": "785098f51dc49562fe3303d37c089b5ea6aa72676afbcf51a3d62ecc83c93a39",
+      "pages": 36,
+      "reused": true,
+      "paperId": "kyushu-isee-ee-2021"
+    },
+    {
+      "name": "2022_R04_ee.pdf",
+      "sha256": "b440f419949f27911c79134c5f2c9d37eb1d695bbf04fdb67a735208c22528af",
+      "pages": 31,
+      "reused": true,
+      "paperId": "kyushu-isee-ee-2022"
+    },
+    {
+      "name": "2023_R05_ee.pdf",
+      "sha256": "b5857ede384cfc8fba20722799a64ae3361e9cb4da34af08ffb76351767055db",
+      "pages": 34,
+      "reused": true,
+      "paperId": "kyushu-isee-ee-2023"
+    },
+    {
+      "name": "2024_R06_ee.pdf",
+      "sha256": "c3d064f803cfbbe64e005c6f08dffc59938f8c93c5fd30f779da76045b2426b9",
+      "pages": 33,
+      "reused": true,
+      "paperId": "kyushu-isee-ee-2024"
+    },
+    {
+      "name": "2025_R07_ee.pdf",
+      "sha256": "1133238d2b09d17763d4d141e98eadd78259f55af947eeb212e9edf28b88b9cc",
+      "pages": 32,
+      "reused": true,
+      "paperId": "kyushu-isee-ee-2025"
+    },
+    {
+      "label": "問題 · 整卷（封面起）",
+      "kind": "question",
+      "url": "assets/past-papers/documents/4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d.pdf",
+      "originalName": "2026_R08_ee.pdf",
+      "sha256": "4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d",
+      "byteSize": 3730299,
+      "pages": 36,
+      "sourcePaths": [
+        "九州大学/kyushu-ee-past-exams/2026_R08_ee.pdf"
+      ],
+      "startPage": 1,
+      "endPage": 36,
+      "path": "assets/past-papers/documents/4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d.pdf",
+      "paperId": "kyushu-isee-ee-2026",
+      "reused": false
+    }
+  ]
+}

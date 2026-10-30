@@ -1,6 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const data=require('../past-papers-data.js'),manifest=require('../assets/past-papers/kyushu-import-manifest.json'),core=require('../past-papers-core.js'),catalog=require('../campus-map-data.js');
-const papers=data.papers.filter(p=>p.universityId==='kyushu'),root=path.join(__dirname,'..');
+const papers=data.papers.filter(p=>p.universityId==='kyushu'&&p.sourceBatch!=='kyushu-ee-archive-20261030'),root=path.join(__dirname,'..');
 const find=id=>papers.find(p=>p.id===id);
 test('Kyushu keeps 16 original PDFs and 28 groups without answers',()=>{
  assert.equal(papers.length,28);assert.equal(manifest.files.length,16);assert.equal(manifest.inventoryPDFs,16);assert.equal(manifest.uniquePDFs,16);assert.equal(manifest.groups,28);assert.equal(manifest.questionPDFs,16);assert.equal(manifest.answerPDFs,0);assert.equal(manifest.newlyStoredPDFs,14);assert.equal(manifest.reusedExistingPDFs,2);assert.equal(manifest.totalPages,646);assert.equal(manifest.yearBasis,'academic');
@@ -11,7 +11,7 @@ test('Kyushu keeps 16 original PDFs and 28 groups without answers',()=>{
  const notes={...data.schoolNotes};delete notes.kyushu;delete notes.tohoku;delete notes.keio;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'265d51f9b642eeb1f4bfa887bdf4c0e1e75ed1f5c1dcabc1e89cab7d4dee969a');
  const others=data.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'&&!p.id.startsWith('tus-bf-'));
  assert.equal(others.length,545);assert.ok(!others.some(p=>p.universityId==='kyushu'));
- assert.match(data.schoolNotes.kyushu.text,/28组／16个PDF/);assert.match(data.schoolNotes.kyushu.text,/システム情報科学府/);assert.match(data.schoolNotes.kyushu.text,/理工学専攻/);assert.match(data.schoolNotes.kyushu.text,/上智大学/);
+ assert.match(data.schoolNotes.kyushu.text,/42组／30个PDF/);assert.match(data.schoolNotes.kyushu.text,/システム情報科学府/);assert.match(data.schoolNotes.kyushu.text,/理工学専攻/);assert.match(data.schoolNotes.kyushu.text,/上智大学/);
 });
 test('Kyushu system-information years come from covers and specialty pages stay inside each booklet',()=>{
  const info=['2025','2024','2023','2022','2021'].map(y=>find('kyushu-isee-info-'+y));
