@@ -100,13 +100,13 @@
     const previous = $('previous-paper'), next = $('next-paper');
     previous.disabled = !yearTargets.previous;
     next.disabled = !yearTargets.next;
-    previous.title = yearTargets.previous ? '' : '暂无更早年份';
-    next.title = yearTargets.next ? '' : '暂无更晚年份';
-    previous.setAttribute('aria-label', yearTargets.previous ? '上一卷，' + yearLabel(yearTargets.previous) : '上一卷，暂无更早年份');
-    next.setAttribute('aria-label', yearTargets.next ? '下一卷，' + yearLabel(yearTargets.next) : '下一卷，暂无更晚年份');
+    previous.title = yearTargets.previous ? '' : '暂无更晚年份';
+    next.title = yearTargets.next ? '' : '暂无更早年份';
+    previous.setAttribute('aria-label', yearTargets.previous ? '上一卷，' + yearLabel(yearTargets.previous) : '上一卷，暂无更晚年份');
+    next.setAttribute('aria-label', yearTargets.next ? '下一卷，' + yearLabel(yearTargets.next) : '下一卷，暂无更早年份');
     if (message) { $('paper-year-status').textContent = message; return; }
-    const prevText = yearTargets.previous ? '上一卷 ' + yearLabel(yearTargets.previous) : '上一卷：暂无更早年份';
-    const nextText = yearTargets.next ? '下一卷 ' + yearLabel(yearTargets.next) : '下一卷：暂无更晚年份';
+    const prevText = yearTargets.previous ? '上一卷 ' + yearLabel(yearTargets.previous) : '上一卷：暂无更晚年份';
+    const nextText = yearTargets.next ? '下一卷 ' + yearLabel(yearTargets.next) : '下一卷：暂无更早年份';
     $('paper-year-status').textContent = !yearTargets.previous && !yearTargets.next ? '暂无更早／更晚年份' : prevText + ' · ' + nextText;
   }
   function openNeighbor(direction) {
