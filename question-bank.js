@@ -176,9 +176,10 @@
       const matched = choices.filter(row => subjectSlot(row.id) === slot);
       return (matched.length ? matched : choices).slice().sort((a, b) => (a.order - b.order) || String(a.id).localeCompare(String(b.id)))[0] || null;
     };
+    // 上一卷 is the nearest later year; 下一卷 is the nearest earlier year.
     return {
-      previous: pick(years.filter(year => year < current.year).pop()),
-      next: pick(years.find(year => year > current.year))
+      previous: pick(years.find(year => year > current.year)),
+      next: pick(years.filter(year => year < current.year).pop())
     };
   }
   const api = { sourceForQuestion, commonPartsForQuestion, resolveEntry, LEGACY_KEY, RECORD_KEY, subjectsOf, yearPhrase, drillSubjects, listingFromPaper, loadListings, practiceURL, loadQuestionRecords, saveQuestionRecords, paperNeighborRow, adjacentPaperTargets };
