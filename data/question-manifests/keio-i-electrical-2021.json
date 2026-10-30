@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "keio-i-electrical-2021",
+  "title": "庆应义塾大学 · 2021 年实施 · 电气电子工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "keio-i-electrical-2021",
+    "schoolId": "keio",
+    "school": "慶應義塾大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学",
+    "year": 2021,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "入学試験問題",
+    "originalName": "I電気電子工学2021.pdf",
+    "pdf": "assets/past-papers/documents/c40b06f33ef1500825de2f60a592e469fbbbbdef7bb63f31ccca818bf9deb2fb.pdf",
+    "sha256": "c40b06f33ef1500825de2f60a592e469fbbbbdef7bb63f31ccca818bf9deb2fb",
+    "pageCount": 3,
+    "note": "原卷封面印「2021 年 8 月」，为前期博士课程入学试验，按考试实施年份记为 2021（yearBasis=exam）。教育研究分野：I 電気電子工学，共 I1–I4 四题且全部必答（其中 I4 小論文为三选二作答）。PDF 为 3 张 A3 横版，每张并排印两页 A4，第 3 张右半为白纸。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        165.0,
+        120.8,
+        447.1,
+        271.5
+      ],
+      "label": "封面：考试年月、研究科、前期博士課程与教育研究分野"
+    },
+    {
+      "page": 1,
+      "box": [
+        120.2,
+        321.1,
+        478.6,
+        563.9
+      ],
+      "label": "受験生への注意：页数、四题必答与答题纸规定"
+    }
+  ],
+  "questions": [
+    {
+      "id": "keio-i-electrical-2021-i1",
+      "number": "I1",
+      "title": "电气回路：RLC 回路的分压比与电感电流暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "交流电路",
+        "阻抗",
+        "开关暂态",
+        "RL 电路"
+      ],
+      "summary": "含两组小问：1) 对图 1 的 R、C、L 回路求 V̇L/Ė（须写成 P+Qj 形式）、ω→0 与 ω→∞ 时的 |V̇L|，以及 V̇L 相位超前 Ė 相位 π/4 时的 ω；2) 对图 2 的电路，开关长时间闭合后于 t=0 开断，求 iL(0) 与 t≥0 的 iL(t)。共含图 1、图 2 两幅电路图，小问不拆题。中文标题与概述只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            664.4,
+            123.4,
+            1103.8,
+            736.3
+          ],
+          "label": "I1：電気回路 1.(1)(2) 与图 1、2.(1)(2) 与图 2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 1 张 A3 右半（印刷第 2 页）：题号 I1.（電気回路）、1. 与 2. 两组小问、图 1（R、C、L、Ė=Eexp(jωt)、V̇L）与图 2（12 V、2 Ω、1 Ω、0.25 H、iL(t)、t=0 开关）及两个图号均完整；分式 V̇L/Ė、π/4、|V̇L| 的绝对值与下标未被切边。未混入左半封面或页脚印刷页码「− 2 −」。"
+      }
+    },
+    {
+      "id": "keio-i-electrical-2021-i2",
+      "number": "I2",
+      "title": "信息工学：血液型熵、哈夫曼编码与通信路容量",
+      "titleKind": "editorial",
+      "topics": [
+        "信息量",
+        "哈夫曼编码",
+        "差分方程",
+        "通信路容量"
+      ],
+      "summary": "含两组小问：1) 由 A、B 型各占人口 1/3、AB 型 2/9、其余为 O 型的调查结果，求血液型数据的熵、以记号“0”“1”的哈夫曼编码、以及每符号各需 1 秒时的通信速度；2) 三名候选人的投票数据用“#”“&”“%”三种记号传输（“%”1 秒、其余各 2 秒），求 T 秒内可传数据组合数 N(T) 的线性差分方程式与通信路容量。题面给出 log2 3、log2 5、log2 7 的近似值，无插图，小问不拆题。中文标题与概述只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            86.4,
+            121.6,
+            526.1,
+            616.2
+          ],
+          "label": "I2：情報工学 1.(1)–(3)、2.(1)(2) 与 log 给定值"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 2 张 A3 左半（印刷第 3 页）：题号 I2.（情報工学）、A/B = 1/3 与 AB = 2/9 的分数、log2 3 ≒ 1.58 / log2 5 ≒ 2.32 / log2 7 ≒ 2.81 的给定值、1.(1)–(3) 与 2.(1)(2)（含 AW^T 的一般解）均完整。未混入右半的 I3 或页脚页码「− 3 −」。"
+      }
+    },
+    {
+      "id": "keio-i-electrical-2021-i3",
+      "number": "I3",
+      "title": "物性工学：少数载流子寿命与爱因斯坦关系",
+      "titleKind": "editorial",
+      "topics": [
+        "半导体",
+        "载流子复合",
+        "微分方程",
+        "有效质量"
+      ],
+      "summary": "含两组小问：1) 以生成率 G 与复合概率 R 给出 P 型半导体电子密度的速率方程 dn/dt=G−Rpn，据此求真性载流子密度、给定 p=NA+np 时的 np、停止光照后 n1 的一阶线性微分方程式（含导出过程）及电子寿命；2) 说明爱因斯坦关系式（可写公式但须定义各变量），并由 E、k、h、π 导出电子的群速度与有效质量。无插图，小问不拆题。中文标题与概述只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            664.6,
+            122.9,
+            1104.0,
+            715.4
+          ],
+          "label": "I3：物性工学 1.(1)–(4)（含 dn/dt=G−Rpn）与 2.(1)(2)"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 2 张 A3 右半（印刷第 4 页）：题号 I3.（物性工学）、NA / p / n / G / R 的定义句、独立成行的 dn/dt=G−Rpn、1.(1)–(4) 与中途插入的 p=p_p0+n_1 条件段、2.(1)(2) 均完整。未混入左半的 I2 或页脚页码「− 4 −」。"
+      }
+    },
+    {
+      "id": "keio-i-electrical-2021-i4",
+      "number": "I4",
+      "title": "小論文：三选二论述（高周波回路、傅里叶级数、载流子极性）",
+      "titleKind": "editorial",
+      "topics": [
+        "小论文",
+        "高周波回路",
+        "傅里叶级数",
+        "半导体测量"
+      ],
+      "summary": "小論文：从 (1)–(3) 中任选 2 题作答，须先在答题纸指定栏填写所选编号，各 350 字以上、500 字以下，必要时可在指定空栏写图或公式。(1) 高周波回路相对低周波回路产生的各种问题及其解决办法；(2) 周期 T 的周期函数 f(t) 的傅里叶级数展开式与函数正交性在求系数时的作用；(3) 实验判定半导体多数载流子极性（P 型/N 型）的一种手法及其测量方法。无插图。中文标题与概述只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            86.4,
+            122.8,
+            525.8,
+            364.7
+          ],
+          "label": "I4：小論文 选题与字数说明、(1)–(3)"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 3 张 A3 左半（印刷第 5 页）：题号 I4.（小論文）、「(1)〜(3)の設問から、2題選択」与 350 字以上/500 字以下的作答规定、(1)(2)(3) 三问（含 f(t)、フーリエ級数展開、P 型/N 型）均完整。右半为白纸，未混入页脚页码「− 5 −」。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "keio-i-electrical-2021-i1"
+      ],
+      "common": true,
+      "excluded": "A3 左半为印刷第 1 页（封面标题与受験生への注意，已收入 commonRegions），右半为印刷第 2 页的 I1。页脚印刷页码「− 1 −」「− 2 −」与页边空白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "keio-i-electrical-2021-i2",
+        "keio-i-electrical-2021-i3"
+      ],
+      "common": false,
+      "excluded": "A3 左半为印刷第 3 页的 I2，右半为印刷第 4 页的 I3。页脚印刷页码「− 3 −」「− 4 −」与页边空白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "keio-i-electrical-2021-i4"
+      ],
+      "common": false,
+      "excluded": "A3 左半为印刷第 5 页的 I4，右半为空白（封面说明各页背面为白纸，此张即第 5 页与其背面）。页脚印刷页码「− 5 −」不计题。",
+      "reviewed": true
+    }
+  ]
+}

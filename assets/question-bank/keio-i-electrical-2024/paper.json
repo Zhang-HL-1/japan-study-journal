@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "id": "keio-i-electrical-2024",
+  "title": "庆应义塾大学 · 2024 年实施 · 电气电子工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "keio-i-electrical-2024",
+    "schoolId": "keio",
+    "school": "慶應義塾大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学",
+    "year": 2024,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "入学試験問題",
+    "originalName": "I電気電子工学2024.pdf",
+    "pdf": "assets/past-papers/documents/1ef828593d9f87532b5316b73d1eb077c7ba5f2ca500fdf5bfec98037c9e6946.pdf",
+    "sha256": "1ef828593d9f87532b5316b73d1eb077c7ba5f2ca500fdf5bfec98037c9e6946",
+    "pageCount": 5,
+    "note": "原卷封面印「2024 年 8 月」，为前期博士课程入学试验，按考试实施年份记为 2024（yearBasis=exam）。教育研究分野：I 電気電子工学，全卷 I1–I4 四题均为必答，各配一张答题纸。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/keio-i-electrical-2024/common-01.png",
+      "page": 1,
+      "box": [
+        60,
+        96,
+        536,
+        268
+      ],
+      "width": 1190,
+      "height": 430,
+      "label": "封面：考试年月、研究科与教育研究分野",
+      "sha256": "4c7cac0662b998566d9c71dd6847faa5c9469f12454d02e1fcbf9dc2bf2748ff"
+    },
+    {
+      "src": "assets/question-bank/keio-i-electrical-2024/common-02.png",
+      "page": 1,
+      "box": [
+        60,
+        300,
+        536,
+        556
+      ],
+      "width": 1190,
+      "height": 640,
+      "label": "受験生への注意：页数、四题必答与答题纸规定",
+      "sha256": "9abd971f03424055edb53e9ffea3e8b06d57e4430c51415cd6c76a130b9ba6d0"
+    }
+  ],
+  "questions": [
+    {
+      "id": "keio-i-electrical-2024-i1",
+      "number": "I1",
+      "title": "电气回路：交流阻抗与开关暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "交流电路",
+        "阻抗",
+        "开关暂态"
+      ],
+      "summary": "含两小题：1) 由图 1 的 RLC 回路求电源侧阻抗、流过 R 的电流，以及电流与 R 无关的 ω 条件；2) 由图 2 的电路求 SW 闭合时的电流与电感储能、t=0 开断后的 i(t)、v(t) 与时间常数。小问不拆题。中文标题与概述只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 2 页：题号 I1.（電気回路）、1. 与 2. 两组小问、图 1 与图 2（含 L/R/C/V、SW、E、r、i(t)、v(t) 标注）与图号均完整，未混入页码或其他大题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/keio-i-electrical-2024/keio-i-electrical-2024-i1-01.png",
+          "page": 2,
+          "box": [
+            64.6,
+            100.8,
+            530.4,
+            787.3
+          ],
+          "width": 1165,
+          "height": 1717,
+          "label": "I1：電気回路 第 1–3 小问与图 1、第 1–3 小问与图 2",
+          "sha256": "87f83bbb338c9dc98eb9de418b540794f5abe42fd0444507e19d07322b7abf13"
+        }
+      ]
+    },
+    {
+      "id": "keio-i-electrical-2024-i2",
+      "number": "I2",
+      "title": "信息工学：二值信道信息量与检错编码",
+      "titleKind": "editorial",
+      "topics": [
+        "信息量",
+        "互信息",
+        "信道编码"
+      ],
+      "summary": "五项小问：接收符号的信息量、接收“1”时的后验概率、损失熵与互信息、8 个码字各附 1 位冗余的检错码集合、各码字检错失效概率。除 (4) 外要求写出推导过程。中文标题与概述只用于导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 3 页：题号 I2.（情報工学）、0/1 生起确率与 20% 误码条件、log2 3–19 的给定值、(1)–(5) 与「情報／冗長」示例 000｜0 均完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/keio-i-electrical-2024/keio-i-electrical-2024-i2-01.png",
+          "page": 3,
+          "box": [
+            64.6,
+            98.9,
+            530.8,
+            535.6
+          ],
+          "width": 1166,
+          "height": 1092,
+          "label": "I2：情報工学 (1)–(5) 小问与 log 值约定",
+          "sha256": "337771c7b9cb615dbcb561a3607248a68a191b0589a01fc6bc25d20068f87488"
+        }
+      ]
+    },
+    {
+      "id": "keio-i-electrical-2024-i3",
+      "number": "I3",
+      "title": "物性工学：半导体载流子浓度与 pn 结内建电位",
+      "titleKind": "editorial",
+      "topics": [
+        "半导体",
+        "费米能级",
+        "pn 结"
+      ],
+      "summary": "六项小问：以 Nc、Nv、Ec、Ev、EF、kB、T 表示 n 与 p；真性载流子密度 ni；n 型与 p 型半导体的 Ec−EF；pn 结扩散电位 Vb；以及空乏层内电位分布作图。中文标题与概述只用于导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 4 页：题号 I3.（物性工学）、符号表（q、Nc、Ec、Nv、Ev、EF、kB、T）、出払い领域与全离化假定、(1)–(6) 与中途提示均完整；本题无插图。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/keio-i-electrical-2024/keio-i-electrical-2024-i3-01.png",
+          "page": 4,
+          "box": [
+            64.9,
+            98.8,
+            530.5,
+            538.1
+          ],
+          "width": 1165,
+          "height": 1099,
+          "label": "I3：物性工学 前置条件、(1)–(6) 与「以降の問題では ni を用いてよい」",
+          "sha256": "610950e7763af790a870b120059c1d9f124e1a8e05c123904e7f930a7cd02131"
+        }
+      ]
+    },
+    {
+      "id": "keio-i-electrical-2024-i4",
+      "number": "I4",
+      "title": "数学：矩阵特征值与拉普拉斯变换",
+      "titleKind": "editorial",
+      "topics": [
+        "特征值",
+        "拉普拉斯变换",
+        "微分方程"
+      ],
+      "summary": "含两组小问：1) 三个 2×2 矩阵（ア）（イ）（ウ）的特征值与特征向量、其中非正则者及理由、不可对角化者及理由；2) f′(t) 与 1/(s+2) 的拉普拉斯变换、以 f(0)=3 解一阶线性微分方程。小问不拆题。中文标题与概述只用于导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 5 页：题号 I4.（数学）、三个矩阵元素逐项核对、(ア)(イ)(ウ) 记号、下划线强调与 2 的拉普拉斯变换符号均完整，未混入页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/keio-i-electrical-2024/keio-i-electrical-2024-i4-01.png",
+          "page": 5,
+          "box": [
+            79.1,
+            98.7,
+            516.3,
+            571.2
+          ],
+          "width": 1094,
+          "height": 1182,
+          "label": "I4：数学 1.(1)(ア)(イ)(ウ) 与 (2)(3)、2.(1)–(3)",
+          "sha256": "8bc48f314222dd0c6365d4f109c18888a086dc23b2a80d8d08c4d4486a13b013"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面与受験生への注意。考试年月、研究科、教育研究分野和作答规定已收入 commonRegions。页脚页码与页边空白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "keio-i-electrical-2024-i1"
+      ],
+      "common": false,
+      "excluded": "页脚页码与页边空白。本页只属于 I1；没有续页标记。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "keio-i-electrical-2024-i2"
+      ],
+      "common": false,
+      "excluded": "页脚页码与页边空白。本页只属于 I2；没有续页标记。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "keio-i-electrical-2024-i3"
+      ],
+      "common": false,
+      "excluded": "页脚页码与页边空白。本页只属于 I3；没有续页标记。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "keio-i-electrical-2024-i4"
+      ],
+      "common": false,
+      "excluded": "页脚页码与页边空白。本页只属于 I4；没有续页标记。",
+      "reviewed": true
+    }
+  ]
+}

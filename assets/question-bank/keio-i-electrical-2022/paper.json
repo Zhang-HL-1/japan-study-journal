@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "keio-i-electrical-2022",
+  "title": "庆应义塾大学 · 2022 年实施 · 电气电子工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "keio-i-electrical-2022",
+    "schoolId": "keio",
+    "school": "慶應義塾大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学",
+    "year": 2022,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "入学試験問題",
+    "originalName": "I電気電子工学2022.pdf",
+    "pdf": "assets/past-papers/documents/8cb82d8a6a0803b5a2f98531c19070620ef72746dd78ff728a7b229792a2070e.pdf",
+    "sha256": "8cb82d8a6a0803b5a2f98531c19070620ef72746dd78ff728a7b229792a2070e",
+    "pageCount": 5,
+    "note": "原卷封面印「2022 年 8 月 慶應義塾大学大学院 理工学研究科 前期博士課程 入学試験問題」，为前期博士课程入学试验，按考试实施年份记为 2022（yearBasis=exam）。教育研究分野：I 電気電子工学，全卷 I1–I4 四题必答，各配一张答题纸；第 1 页为封面与注意，第 2–5 页一页一题、背面白纸。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/keio-i-electrical-2022/common-01.png",
+      "page": 1,
+      "box": [
+        147.8,
+        102.0,
+        447.8,
+        258.6
+      ],
+      "width": 751,
+      "height": 392,
+      "label": "封面：考试年月、研究科、前期博士课程与教育研究分野",
+      "sha256": "55b51bdb66d381530113ada753f9993671c9c10d93c2b1310b2896cd61c09372"
+    },
+    {
+      "src": "assets/question-bank/keio-i-electrical-2022/common-02.png",
+      "page": 1,
+      "box": [
+        96.0,
+        313.2,
+        486.4,
+        553.9
+      ],
+      "width": 976,
+      "height": 602,
+      "label": "受験生への注意：总页数、四题必答与答题纸规定",
+      "sha256": "25ef5c328a2bfeddb3f85ff6d44b9e40afdceb3c871450c3aa4ff4e441d1c5fd"
+    }
+  ],
+  "questions": [
+    {
+      "id": "keio-i-electrical-2022-i1",
+      "number": "I1",
+      "title": "电气回路：RLC 交流阻抗与 RC 开关暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "交流电路",
+        "阻抗",
+        "滤波器",
+        "开关暂态"
+      ],
+      "summary": "含两组小问：1) 由图 1 的 RLC 电路（C 串联、L 与 R 并联）求电源侧阻抗的 P+Qj 形式、在 L=2CR² 下以 ω、C、R 表示 |V̇/Ė|²，并判断 Ė 为输入、V̇ 为输出时的滤波特性；2) 由图 2 的开关电路求开关打开瞬间电容所蓄电荷量与 t≥0 的 i_C(t)。共两张电路图。中文标题与概述只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 2 页：题号 I1.（電気回路）、1. 的 (1)(2)、L=2CR² 条件与 |V̇/Ė|² 绝对值记号、滤波器三选一提问、图 1（Ė、ω、C、L、R、V̇ 及箭头）、2. 的开关条件与 R₂>R₁、图 2（E、r、S、t=0、R₁、R₂、C、i_C(t) 与电流箭头）、图号「図１」「図２」均完整，页码未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/keio-i-electrical-2022/keio-i-electrical-2022-i1-01.png",
+          "page": 2,
+          "box": [
+            64.7,
+            105.2,
+            530.6,
+            783.6
+          ],
+          "width": 1166,
+          "height": 1696,
+          "label": "I1：電気回路 1.(1)(2) 与图 1、2.(1)(2) 与图 2",
+          "sha256": "0d268664d4a14ba042216e4ec5596849e6f38de6ade936b27c91fddfa314bb10"
+        }
+      ]
+    },
+    {
+      "id": "keio-i-electrical-2022-i2",
+      "number": "I2",
+      "title": "信息工学：信源熵、误删信道与互信息",
+      "titleKind": "editorial",
+      "topics": [
+        "信息熵",
+        "互信息",
+        "信道转移"
+      ],
+      "summary": "四项小问：送信信息的熵；在“0”“1”各以概率 p、q 被误收为“E”时画出转移图并求接收端三种记号的生起概率；误失信息量与互信息量；使互信息最大的 p、q 及其通信系统动作层面的理由。题干要求连推导过程一并作答。中文标题与概述只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 3 页：题号 I2.（情報工学）、0/1 等确率发生的前提、三个全角引号记号“０”“１”“Ｅ”的区分、(1)–(4) 与「導出過程の数式も示して」要求均完整；本题无插图，页脚页码未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/keio-i-electrical-2022/keio-i-electrical-2022-i2-01.png",
+          "page": 3,
+          "box": [
+            64.8,
+            103.0,
+            531.0,
+            409.5
+          ],
+          "width": 1166,
+          "height": 767,
+          "label": "I2：情報工学 前置说明与 (1)–(4)",
+          "sha256": "3286928732cf6d08d9daba396aab085833115df1c75d157310573c245657a1a1"
+        }
+      ]
+    },
+    {
+      "id": "keio-i-electrical-2022-i3",
+      "number": "I3",
+      "title": "物性工学：pn 结二极管特性与耗尽层电容",
+      "titleKind": "editorial",
+      "topics": [
+        "pn 结",
+        "整流性",
+        "齐纳击穿",
+        "耗尽层电容"
+      ],
+      "summary": "五项小问：(1) 画电流电压特性；(2) 用能带图说明整流性成因；(3) 由特性曲线粗估扩散（内建）电位；(4) 用能带图说明齐纳击穿机构；随后给出一维阶跃结的耗尽层宽度式 d=√(4ε_sε_0(V_b−U)/qN)，要求 (5) 由单位面积耗尽层电容的测量估计 V_b。无插图。中文标题与概述只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 4 页：题号 I3.（物性工学）、(1)–(4)、一次元階段接合モデル的条件（N、完全イオン化）、根号完整的 d 式（4ε_sε_0(V_b−U)/qN）、符号说明（ε_s、ε_0、q、V_b、U）与 V_b>U 但书、(5) 均完整；根号与分数线属矢量绘图，已用绘图 bbox 并入裁框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/keio-i-electrical-2022/keio-i-electrical-2022-i3-01.png",
+          "page": 4,
+          "box": [
+            65.0,
+            103.0,
+            536.5,
+            601.4
+          ],
+          "width": 1180,
+          "height": 1247,
+          "label": "I3：物性工学 (1)–(4)、阶跃结前提与 d 的式子、(5)",
+          "sha256": "5e175a5f7a40bb48fd5ea8e4ee3304cf1ff3f632d1aac2ac56bbf35ae4119fb3"
+        }
+      ]
+    },
+    {
+      "id": "keio-i-electrical-2022-i4",
+      "number": "I4",
+      "title": "电气信息数学：拉普拉斯变换、矩阵幂与逆矩阵",
+      "titleKind": "editorial",
+      "topics": [
+        "拉普拉斯变换",
+        "矩阵幂",
+        "余因子矩阵",
+        "逆矩阵"
+      ],
+      "summary": "三组小问：1) 对 t^n、e^{at}、cos(αt) 作拉普拉斯变换；2) 证明 2×2 矩阵 A=[[α,1],[0,α]] 的 n 次幂公式对任意自然数 n 成立；3) 对 3×3 矩阵求 (1,1) 成分的 2×2 小行列式、余因子矩阵与逆矩阵 A⁻¹。含矩阵与绝对值记号排版。中文标题与概述只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 5 页：题号 I4.（電気情報数学）、n 为自然数/α 为实数的前提、1.(1) t^n (2) e^{at} (3) cos(αt)、2. 的 A 与 A^n 两处矩阵元素逐个核对、3. 的 3×3 矩阵与 (1) 小行列式竖线记号、(2) 余因子定义式 (−1)^{i+j}M_ij、(3) A⁻¹ 均完整；页脚页码未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/keio-i-electrical-2022/keio-i-electrical-2022-i4-01.png",
+          "page": 5,
+          "box": [
+            79.2,
+            103.0,
+            522.4,
+            485.8
+          ],
+          "width": 1108,
+          "height": 958,
+          "label": "I4：電気情報数学 1.(1)–(3)、2.、3.(1)–(3)",
+          "sha256": "c38fc7930d654a590cac3767b287b48542babaa08f19d6500a2c54aeb4ccc37d"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面与受験生への注意。考试年月、研究科、教育研究分野及总页数/四题必答/答题纸规定已收入 commonRegions。页脚页码与页边空白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "keio-i-electrical-2022-i1"
+      ],
+      "common": false,
+      "excluded": "页脚页码（− 2 −）与页边空白。本页只属于 I1，题末无续页标记。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "keio-i-electrical-2022-i2"
+      ],
+      "common": false,
+      "excluded": "页脚页码（− 3 −）与本页下半部大面积空白。本页只属于 I2，无续页标记。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "keio-i-electrical-2022-i3"
+      ],
+      "common": false,
+      "excluded": "页脚页码（− 4 −）与页边空白。本页只属于 I3，无续页标记。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "keio-i-electrical-2022-i4"
+      ],
+      "common": false,
+      "excluded": "页脚页码（− 5 −）与本页下半部空白。本页只属于 I4，无续页标记。",
+      "reviewed": true
+    }
+  ]
+}

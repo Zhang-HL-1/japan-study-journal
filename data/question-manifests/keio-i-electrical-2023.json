@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "keio-i-electrical-2023",
+  "title": "庆应义塾大学 · 2023 年实施 · 电气电子工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "keio-i-electrical-2023",
+    "schoolId": "keio",
+    "school": "慶應義塾大学",
+    "graduate": "理工学研究科",
+    "major": "電気電子工学",
+    "year": 2023,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "入学試験問題",
+    "originalName": "I電気電子工学2023.pdf",
+    "pdf": "assets/past-papers/documents/2a1eb63e62a70840b4ed19b7de0c456814c37719412c01ed7c52e0f5fdce8a37.pdf",
+    "sha256": "2a1eb63e62a70840b4ed19b7de0c456814c37719412c01ed7c52e0f5fdce8a37",
+    "pageCount": 5,
+    "note": "原卷封面印「2023 年 8 月」，为前期博士课程入学试验，按考试实施年份记为 2023（yearBasis=exam）。教育研究分野：I 電気電子工学，全卷 I1–I4 四题均为必答并各配一张答案纸；问题仅印在 2–5 页正面，各页背面为白纸。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        96,
+        102,
+        486.4,
+        262
+      ],
+      "label": "封面：考试年月、研究科、前期博士课程与教育研究分野"
+    },
+    {
+      "page": 1,
+      "box": [
+        96,
+        313,
+        486.4,
+        553.9
+      ],
+      "label": "受験生への注意：页数、问题印刷范围、四题必答与答案纸规定"
+    }
+  ],
+  "questions": [
+    {
+      "id": "keio-i-electrical-2023-i1",
+      "number": "I1",
+      "title": "电气回路：RLC 滤波网络与 RC 放电暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "交流稳态电路",
+        "滤波器特性",
+        "RC 暂态"
+      ],
+      "summary": "含两组小问：1) 图 1 为 R 与并联 C–L 构成、以 E(t)=Em cos ωt 驱动的回路，求 AB 间电压 v(t)、使 v(t) 振幅最小的角周波数 ω₀，并判断该网络属高域／低域／帯域通過／帯域阻止哪一类滤波特性；2) 图 2 中 SW 长期闭合后于 t=0 断开，求电容两端电压 v(0)、电流 i(t) 与 R3 的瞬时功率 p(t)。两问各配一张电路图，小问不拆题。中文标题与概述只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            64.8,
+            105.2,
+            530.6,
+            784.6
+          ],
+          "label": "I1：電気回路 1.(1)–(3) 与图 1、2.(1)–(3) 与图 2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 2 页：题号 I1.（電気回路）、1. 的 (1)–(3)、图 1（R、C、L、E(t)=Em cos ωt、A/B 端子、v(t) 标注与图号）、2. 的 (1)–(3)、图 2（SW、E、R1、R2、R3、C、i(t)、v(t)、t=0 标注与图号）均完整；页脚「－ 2 －」未纳入。"
+      }
+    },
+    {
+      "id": "keio-i-electrical-2023-i2",
+      "number": "I2",
+      "title": "信息工学：信息源编码与循环码检错",
+      "titleKind": "editorial",
+      "topics": [
+        "信息源编码",
+        "通信速度",
+        "循环码"
+      ],
+      "summary": "五项小问：以无记忆的定常信息源 S 与 4 个信息字母的 0/1 码字为前提，(1) 求可传送字母组合数 N(T) 满足的线性差分方程；(2) 求通信速度最大值；(3) 求该条件下的各字母生起确率；(4) 按 S3、S2 顺序用生成多项式 G(x)=x³+x+1 求巡回码的码字；(5) 用 G(x) 检核接收码字 0001110。题面附 log₂3–log₂19 的给定值，要求写出推导过程。中文标题与概述只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            64.8,
+            103,
+            531,
+            446.4
+          ],
+          "label": "I2：情報工学 前提与 log₂ 给定值、(1)–(5)"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 3 页：题号 I2.（情報工学）、信息源 S 与 {S1–S4}/｛００，０１，１０，１１｝ 的对应、log₂3–log₂19 六个给定值、(1)–(5) 全部文字与公式（N(T)、G(x)=x³+x+1、接收码字 0001110）均完整；页脚「－ 3 －」与页面下缘外的零散墨点未纳入。"
+      }
+    },
+    {
+      "id": "keio-i-electrical-2023-i3",
+      "number": "I3",
+      "title": "物性工学：载流子分布与一维薛定谔方程",
+      "titleKind": "editorial",
+      "topics": [
+        "半导体载流子",
+        "费米能级",
+        "薛定谔方程"
+      ],
+      "summary": "含两组小问：1) 以玻尔兹曼分布式 (A) 给出电子密度 n 与空穴密度 p，求本征半导体的费米能级、费米能级位于禁带中央的条件，并用式 (A) 说明禁带宽度变大则绝缘性升高；2) 以一维定常薛定谔方程式 (B) 与 ψ=Aexp(ikx)，说明 E−V 对应的能量、求波数 k，以及电子波长与动量。本题无插图。中文标题与概述只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            65,
+            103,
+            530.5,
+            699.1
+          ],
+          "label": "I3：物性工学 1. 式(A) 与 (1)–(3)、2. 式(B) 与 (1)–(3)"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 4 页：题号 I3.（物性工学）、式 (A) 的 n、p 两个指数式与 (A) 编号、Nc/Ec/EF/Nv/Ev/kB/T 符号说明、(1)–(3)、式 (B) 的 −(1/2m)(h/2π)²d²ψ/dx²+Vψ=Eψ 与 (B) 编号、ψ=Aexp(ikx) 及 E>V 条件、(1)–(3) 均完整；无插图，页脚「－ 4 －」未纳入。"
+      }
+    },
+    {
+      "id": "keio-i-electrical-2023-i4",
+      "number": "I4",
+      "title": "数学：线性方程组命题判断与傅里叶变换",
+      "titleKind": "editorial",
+      "topics": [
+        "线性代数",
+        "傅里叶变换",
+        "δ 函数"
+      ],
+      "summary": "含两组小问：1) 对 n×n 实矩阵 A、n 维实向量 b 的一次方程 Ax=b，就解的存在性、列向量线性无关、逆矩阵、列空间、det(A)=0 与特征值等 7 条叙述判 ○ 或 ×；2) 求 δ(t)、矩形脉冲（|t|≤T 为 1，|t|>T 为 0）与 cos ω₀t 的傅里叶变换。本题无插图。中文标题与概述只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            79.2,
+            103,
+            516.4,
+            698.8
+          ],
+          "label": "I4：数学 1. 式(A) 与（1）–（7）、2. 傅里叶变换（1）–（3）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-10-30",
+        "notes": "对照原卷第 5 页：题号 I4.（数学）、n 与 t 的说明、式 (A) Ax=b 与 ○/× 作答要求、（1）–（7）七条叙述（含列空间、det(A)=0、固有值表述）、2. 的（1）δ(t) 定义与积分、（2）分段矩形脉冲、（3）cos ω₀t（ω₀ 为正实数）均完整；页脚「− 5 −」未纳入。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面与受験生への注意。考试年月、研究科、教育研究分野、页数与作答规定已收入 commonRegions。页脚页码「－ 1 －」、虚线装饰线与页边空白不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "keio-i-electrical-2023-i1"
+      ],
+      "common": false,
+      "excluded": "页脚页码「－ 2 －」与页边空白。本页只属于 I1，无「（次ページに続く）」续页标记，I2 从次页起。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "keio-i-electrical-2023-i2"
+      ],
+      "common": false,
+      "excluded": "页脚页码「－ 3 －」、页面下缘之外（y≈839.6–875.7，已超出 841.9 的页高）的一小块零散墨点，以及页边空白。本页只属于 I2。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "keio-i-electrical-2023-i3"
+      ],
+      "common": false,
+      "excluded": "页脚页码「－ 4 －」与页边空白。本页只属于 I3；页顶不可见的空白占位 span 未计入内容框。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "keio-i-electrical-2023-i4"
+      ],
+      "common": false,
+      "excluded": "页脚页码「− 5 −」与页边空白。本页只属于 I4；本页正文左边界较前页右移约 14pt，裁框按本页实际内容取。",
+      "reviewed": true
+    }
+  ]
+}

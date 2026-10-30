@@ -95,7 +95,11 @@
     {"id": "tus-electrical-2024-general", "title": "东京理科大学 · 工学研究科电气工学 · 2024 入学年度 · 一般入试", "catalogId": "tus-6fa413120447653f", "questionCount": 11, "data": "assets/question-bank/tus-electrical-2024-general/paper.json"},
     {"id": "tus-electrical-2024-intl", "title": "东京理科大学 · 工学研究科电气工学 · 2024 入学年度 · 留学生入试", "catalogId": "tus-0e840c689ed322a6", "questionCount": 10, "data": "assets/question-bank/tus-electrical-2024-intl/paper.json"},
     {"id": "tus-electrical-2025-general", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 一般入试", "catalogId": "tus-7bdce392c0bff5f6", "questionCount": 10, "data": "assets/question-bank/tus-electrical-2025-general/paper.json"},
-    {"id": "tus-electrical-2025-intl", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 外国人留学生入试", "catalogId": "tus-1f2310ffe00f0b2e", "questionCount": 9, "data": "assets/question-bank/tus-electrical-2025-intl/paper.json"}
+    {"id": "tus-electrical-2025-intl", "title": "东京理科大学 · 工学研究科电气工学 · 2025 入学年度 · 外国人留学生入试", "catalogId": "tus-1f2310ffe00f0b2e", "questionCount": 9, "data": "assets/question-bank/tus-electrical-2025-intl/paper.json"},
+    {"id": "keio-i-electrical-2021", "title": "庆应义塾大学 · 2021 年实施 · 电气电子工学", "catalogId": "keio-i-electrical-2021", "questionCount": 4, "data": "assets/question-bank/keio-i-electrical-2021/paper.json"},
+    {"id": "keio-i-electrical-2022", "title": "庆应义塾大学 · 2022 年实施 · 电气电子工学", "catalogId": "keio-i-electrical-2022", "questionCount": 4, "data": "assets/question-bank/keio-i-electrical-2022/paper.json"},
+    {"id": "keio-i-electrical-2023", "title": "庆应义塾大学 · 2023 年实施 · 电气电子工学", "catalogId": "keio-i-electrical-2023", "questionCount": 4, "data": "assets/question-bank/keio-i-electrical-2023/paper.json"},
+    {"id": "keio-i-electrical-2024", "title": "庆应义塾大学 · 2024 年实施 · 电气电子工学", "catalogId": "keio-i-electrical-2024", "questionCount": 4, "data": "assets/question-bank/keio-i-electrical-2024/paper.json"}
   ],
   "aliases": [
   {
