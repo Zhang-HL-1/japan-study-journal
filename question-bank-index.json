@@ -99,7 +99,11 @@
     {"id": "keio-i-electrical-2021", "title": "庆应义塾大学 · 2021 年实施 · 电气电子工学", "catalogId": "keio-i-electrical-2021", "questionCount": 4, "data": "assets/question-bank/keio-i-electrical-2021/paper.json"},
     {"id": "keio-i-electrical-2022", "title": "庆应义塾大学 · 2022 年实施 · 电气电子工学", "catalogId": "keio-i-electrical-2022", "questionCount": 4, "data": "assets/question-bank/keio-i-electrical-2022/paper.json"},
     {"id": "keio-i-electrical-2023", "title": "庆应义塾大学 · 2023 年实施 · 电气电子工学", "catalogId": "keio-i-electrical-2023", "questionCount": 4, "data": "assets/question-bank/keio-i-electrical-2023/paper.json"},
-    {"id": "keio-i-electrical-2024", "title": "庆应义塾大学 · 2024 年实施 · 电气电子工学", "catalogId": "keio-i-electrical-2024", "questionCount": 4, "data": "assets/question-bank/keio-i-electrical-2024/paper.json"}
+    {"id": "keio-i-electrical-2024", "title": "庆应义塾大学 · 2024 年实施 · 电气电子工学", "catalogId": "keio-i-electrical-2024", "questionCount": 4, "data": "assets/question-bank/keio-i-electrical-2024/paper.json"},
+    {"id": "kyushu-isee-ee-2026", "title": "九州大学 · 2026 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2026", "questionCount": 15, "data": "assets/question-bank/kyushu-isee-ee-2026/paper.json"},
+    {"id": "kyushu-isee-ee-2025", "title": "九州大学 · 2025 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2025", "questionCount": 15, "data": "assets/question-bank/kyushu-isee-ee-2025/paper.json"},
+    {"id": "kyushu-isee-ee-2024", "title": "九州大学 · 2024 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2024", "questionCount": 16, "data": "assets/question-bank/kyushu-isee-ee-2024/paper.json"},
+    {"id": "kyushu-isee-ee-2023", "title": "九州大学 · 2023 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2023", "questionCount": 17, "data": "assets/question-bank/kyushu-isee-ee-2023/paper.json"}
   ],
   "aliases": [
   {
