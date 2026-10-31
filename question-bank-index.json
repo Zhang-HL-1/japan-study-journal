@@ -103,7 +103,19 @@
     {"id": "kyushu-isee-ee-2026", "title": "九州大学 · 2026 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2026", "questionCount": 15, "data": "assets/question-bank/kyushu-isee-ee-2026/paper.json"},
     {"id": "kyushu-isee-ee-2025", "title": "九州大学 · 2025 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2025", "questionCount": 15, "data": "assets/question-bank/kyushu-isee-ee-2025/paper.json"},
     {"id": "kyushu-isee-ee-2024", "title": "九州大学 · 2024 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2024", "questionCount": 16, "data": "assets/question-bank/kyushu-isee-ee-2024/paper.json"},
-    {"id": "kyushu-isee-ee-2023", "title": "九州大学 · 2023 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2023", "questionCount": 17, "data": "assets/question-bank/kyushu-isee-ee-2023/paper.json"}
+    {"id": "kyushu-isee-ee-2023", "title": "九州大学 · 2023 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2023", "questionCount": 17, "data": "assets/question-bank/kyushu-isee-ee-2023/paper.json"},
+    {"id": "kyushu-isee-ee-2022", "title": "九州大学 · 2022 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2022", "questionCount": 17, "data": "assets/question-bank/kyushu-isee-ee-2022/paper.json"},
+    {"id": "kyushu-isee-ee-2021", "title": "九州大学 · 2021 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2021", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2021/paper.json"},
+    {"id": "kyushu-isee-ee-2020", "title": "九州大学 · 2020 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2020", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2020/paper.json"},
+    {"id": "kyushu-isee-ee-2019", "title": "九州大学 · 2019 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2019", "questionCount": 24, "data": "assets/question-bank/kyushu-isee-ee-2019/paper.json"},
+            {"id": "kyushu-isee-ee-2018", "title": "九州大学 · 2018 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2018", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2018/paper.json"},
+    {"id": "kyushu-isee-ee-2017", "title": "九州大学 · 2017 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2017", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2017/paper.json"},
+{"id": "kyushu-isee-ee-2016", "title": "九州大学 · 2016 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2016", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2016/paper.json"},
+{"id": "kyushu-isee-ee-2015", "title": "九州大学 · 2015 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2015", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2015/paper.json"},
+        {"id": "kyushu-isee-ee-2014", "title": "九州大学 · 2014 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2014", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2014/paper.json"},
+{"id": "kyushu-isee-ee-2013", "title": "九州大学 · 2013 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2013", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2013/paper.json"},
+        {"id": "kyushu-isee-ee-2012", "title": "九州大学 · 2012 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2012", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2012/paper.json"},
+{"id": "kyushu-isee-ee-2011", "title": "九州大学 · 2011 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2011", "questionCount": 26, "data": "assets/question-bank/kyushu-isee-ee-2011/paper.json"}
   ],
   "aliases": [
   {

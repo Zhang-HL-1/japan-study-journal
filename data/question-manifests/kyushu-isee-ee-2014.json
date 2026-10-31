@@ -1,0 +1,1234 @@
+{
+  "schemaVersion": 1,
+  "id": "kyushu-isee-ee-2014",
+  "title": "九州大学 · 2014 年度入学 · 电气电子工学专攻（数学・専門科目）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kyushu-isee-ee-2014",
+    "schoolId": "kyushu",
+    "school": "九州大学",
+    "graduate": "システム情報科学府",
+    "major": "電気電子工学専攻",
+    "year": 2014,
+    "yearBasis": "academic",
+    "subject": "数学・専門科目",
+    "originalSubject": "修士課程入学試験問題",
+    "originalName": "2014_h26ee.pdf",
+    "pdf": "assets/past-papers/documents/fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55.pdf",
+    "sha256": "fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55",
+    "pageCount": 35,
+    "note": "封面印「平成26年度入学試験問題」「平成25年8月22日(木)・23日(金)」：即 2014 年度入学（yearBasis=academic），考试实施 2013-08-22/23，实施年只记于此注。全 35 页：p1 封面、p2 数学冊子封面/解答上の注意、p3–p8 数学 6 分野（各 1 題，日英同頁）、p9 専門科目Ⅰ封面、p10–p16 電気回路/電子回路/制御工学（各分野の後に英訳頁 p11/p13）、p17 専門科目Ⅱ封面、p18–p32 電磁気学/半導体デバイス/計算機工学（各分野の後に英訳頁）、p33–p35 計算機工学の英訳。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        103.0,
+        175.0,
+        492.0,
+        455.0
+      ],
+      "label": "封面题名块：平成26年度入学試験問題、九州大学大学院システム情報科学府、電気電子工学専攻、実施日（平成25年8月22日(木)・23日(金)）"
+    },
+    {
+      "page": 2,
+      "box": [
+        113.0,
+        68.5,
+        484.5,
+        175.0
+      ],
+      "label": "数学冊子封面題名块：平成26年度 九州大学大学院システム情報科学府（情報学専攻/情報知能工学専攻/電気電子工学専攻）、修士課程 入学試験問題、数学 (Mathematics) (7枚中の1)"
+    },
+    {
+      "page": 2,
+      "box": [
+        57.5,
+        216.5,
+        557.5,
+        759.0
+      ],
+      "label": "数学冊子「解答上の注意」1–5：問題用紙は表紙を含め7枚・解答用紙は3枚つづり、6分野から3分野を選び分野ごとに解答用紙を別にすること、分野表（1 線形代数 p2/2 微分方程式 p3/3 ベクトル解析 p4/4 複素関数論 p5/5 確率・統計 p6/6 記号論理学 p7）、記入与作答规定"
+    },
+    {
+      "page": 9,
+      "box": [
+        101.5,
+        97.5,
+        490.0,
+        170.5
+      ],
+      "label": "専門科目Ⅰ冊子表紙題名块：平成26年度 九州大学大学院システム情報科学府 電気電子工学専攻、修士課程 入学試験問題、専門科目 I (Special subjects I)"
+    },
+    {
+      "page": 9,
+      "box": [
+        77.5,
+        198.5,
+        516.0,
+        635.0
+      ],
+      "label": "専門科目Ⅰ「解答上の注意」1–5：問題用紙は表紙を含め8枚・解答用紙は3枚、3分野から1分野を選ぶこと、分野表（1 電気回路 p2〜/2 電子回路 p4〜/3 制御工学 p6〜）、記入与作答规定"
+    },
+    {
+      "page": 17,
+      "box": [
+        102.5,
+        95.5,
+        491.0,
+        169.5
+      ],
+      "label": "専門科目Ⅱ冊子表紙題名块：平成26年度 九州大学大学院システム情報科学府 電気電子工学専攻、修士課程 入学試験問題、専門科目 II (Special subjects II)"
+    },
+    {
+      "page": 17,
+      "box": [
+        78.5,
+        197.5,
+        517.0,
+        633.0
+      ],
+      "label": "専門科目Ⅱ「解答上の注意」1–5：問題用紙は表紙を含め19枚・解答用紙は4枚、3分野から1分野を選ぶこと、分野表（1 電磁気学 p2〜/2 半導体デバイス p6〜/3 計算機工学 p14〜）、記入与作答规定"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kyushu-isee-ee-2014-m1",
+      "number": "1.",
+      "title": "線形代数：トレース Tr の諸性質（Tr(AB)=Tr(BA)、相似不変性、Tr(A²)≤Tr(A)²、Tr(AB)²≤Tr(A²)Tr(B²)）",
+      "titleKind": "editorial",
+      "topics": [
+        "線形代数",
+        "トレース",
+        "対称行列",
+        "固有値"
+      ],
+      "summary": "以下では n×n 実行列のみを扱い、対角成分の和をトレース Tr(A) と表す。四小問：(1) 任意の行列 A, B に対し Tr(AB)=Tr(BA) を示せ；(2) 任意の行列 A と任意の正則行列 B に対し Tr(B⁻¹AB)=Tr(A) を示せ；(3) 固有値がすべて非負の対称行列 A に対し Tr(A²)≤Tr(A)² を示せ；(4) 任意の 2 つの対称行列 A, B に対し Tr(AB)²≤Tr(A²)Tr(B²) を示せ。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            60.5,
+            216.5,
+            560.0,
+            573.5
+          ],
+          "label": "1. 【線形代数(Linear algebra)分野】：分野見出し、トレースの定義と (1)–(4)（日英同頁）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-m2",
+      "number": "2.",
+      "title": "微分方程式：1 階（ベルヌーイ型）と 2 階（y″=√(4+(y′)²)）の一般解",
+      "titleKind": "editorial",
+      "topics": [
+        "微分方程式",
+        "一般解",
+        "ベルヌーイ形",
+        "階数低下"
+      ],
+      "summary": "次の微分方程式の一般解を求めよ。y′ は y(x) の x に関する 1 階導関数を表す。(1) 3y′+y/x=x/y²（非線形 1 階、ベルヌーイ形）；(2) y″=√(4+(y′)²)（y を含まない 2 階、p=y′ と置いて階数低下）。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            60.0,
+            234.5,
+            557.5,
+            472.5
+          ],
+          "label": "2. 【微分方程式(Differential equation)分野】：分野見出し、一般解を求める指示と (1)(2)（日英同頁）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-m3",
+      "number": "3.",
+      "title": "ベクトル解析：ベクトル積の定積分 ∫₀²(F×V)du と平面 S 上の面積分",
+      "titleKind": "editorial",
+      "topics": [
+        "ベクトル解析",
+        "ベクトル積",
+        "面積分",
+        "ガウスの定理"
+      ],
+      "summary": "直交座標系の x, y, z 軸方向の単位ベクトルを i, j, k とする。(1) F=3ui+u²j+(u+2)k、V=2ui−3uj+(u−2)k のとき ∫₀²(F×V)du を計算せよ。(2) ベクトル場 A=18zi−12j+3yk について、平面 S: 2x+3y+6z=12（x≥0, y≥0, z≥0）に対する A の面積分を計算せよ。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            60.0,
+            234.5,
+            560.0,
+            696.5
+          ],
+          "label": "3. 【ベクトル解析(Vector analysis)分野】：分野見出し、(1) F×V の積分、(2) 平面 S 上の面積分（日英同頁）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-m4",
+      "number": "4.",
+      "title": "複素関数論：実部 sin x·cosh y から正則関数 f(z) を復元し f(z)=0 を解く",
+      "titleKind": "editorial",
+      "topics": [
+        "複素関数論",
+        "正則関数",
+        "コーシー・リーマン",
+        "複素方程式"
+      ],
+      "summary": "正則関数 f(z)（z=x+iy, i=√−1）を考える。(1) Re f(z)=sin x·cosh y で表されるとき f(z) を求めよ。(2) (1) で求めた f(z) について方程式 f(z)=0 を解け。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            60.5,
+            234.5,
+            557.0,
+            511.5
+          ],
+          "label": "4. 【複素関数論(Complex function theory)分野】：分野見出し、(1) f(z) の復元、(2) f(z)=0（日英同頁）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-m5",
+      "number": "5.",
+      "title": "確率・統計：密度 λe^{−λ(x+2)}（x≥−2, λ≥1）の期待値・分散・負の確率・10 回試行の評価",
+      "titleKind": "editorial",
+      "topics": [
+        "確率・統計",
+        "確率密度関数",
+        "期待値",
+        "分散",
+        "二項分布"
+      ],
+      "summary": "連続確率変数 X の密度関数を f(x)=λe^{−λ(x+2)} (x≥−2)、f(x)=0 (x<−2)、λ≥1 とする。(1) X の期待値と分散を求めよ。(2) X が負となる確率を求めよ。(3) この密度に従う試行を独立に 10 回行うとき、負の値が 2 回以上出現する確率が 0.99 以上であるか否かを理由とともに答えよ。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            60.0,
+            234.5,
+            557.0,
+            676.0
+          ],
+          "label": "5. 【確率・統計(Probability and statistics)分野】：分野見出し、密度関数 (i) と (1)–(3)（日英同頁）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-m6",
+      "number": "6.",
+      "title": "記号論理学：自然演繹によるシーケント証明、導出法による充足不能性、単位節除去 S(L)",
+      "titleKind": "editorial",
+      "topics": [
+        "記号論理学",
+        "自然演繹",
+        "導出法",
+        "充足不能",
+        "単位節"
+      ],
+      "summary": "(1) シーケント ¬(A→B)→C, ¬C ⊢ ¬A∨B を自然演繹法で証明せよ。(2) F=∀x(P(x)∨Q(x))∧¬(∃x¬Q(x)→∃xP(x)) について、(a) x の領域を {1,2} とするとき F を命題論理式で表せ、(b) 得られた命題論理式の充足不能性を導出法により証明せよ。(3) 単位節 L を含む節集合 S から L を含む節をすべて除き、残りの節から ¬L の出現を除いたものを S(L) とする。(a) S1={A∨B, ¬A∨C, A, D∨E} に対し S1(A) を求めよ。(b) S1 が充足可能 ⇔ S1(A) が充足可能であることを示せ。",
+      "regions": [
+        {
+          "page": 8,
+          "box": [
+            60.0,
+            234.5,
+            557.0,
+            697.5
+          ],
+          "label": "6. 【記号論理学(Symbolic logic)分野】：分野見出し、(1) 自然演繹、(2) 導出法、(3) S(L)（日英同頁）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-a1",
+      "number": "【問1】",
+      "title": "電気回路 問1：図1 の交流回路の位相差 tanθ と、端子対 1-1′ に接続する Z の決定",
+      "titleKind": "editorial",
+      "topics": [
+        "電気回路",
+        "交流回路",
+        "複素インピーダンス",
+        "力率",
+        "平均電力"
+      ],
+      "summary": "【問1】図1 の回路について，次の各問に答えよ。ただし，図中の数値の単位は Ω である。(1) 電源電圧 E と電流 Ic の位相差 arg(E/Ic) を θ とするとき、tanθ の値を求めよ。(2) 端子対 1-1′ 間にインピーダンス Z を接続すると、電源電圧 E と電流 I の位相が等しくなり、回路全体での平均電力が接続する前の値の 3 倍になった。インピーダンス Z の値を求めよ。図1 は電源 E、L=j2、2 と −j の並列、端子対 1-1′ からなる。",
+      "regions": [
+        {
+          "page": 10,
+          "box": [
+            38.0,
+            48.5,
+            385.0,
+            107.0
+          ],
+          "label": "電気回路：分野見出し「電気回路」と「次の各問に答えよ」の指示行"
+        },
+        {
+          "page": 10,
+          "box": [
+            45.5,
+            111.5,
+            531.5,
+            274.5
+          ],
+          "label": "【問1】題干と (1)(2)、右柱の図1 と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-a2",
+      "number": "【問2】",
+      "title": "電気回路 問2：図2 の 2 端子対回路 N のアドミタンス行列・インピーダンス行列と平均電力",
+      "titleKind": "editorial",
+      "topics": [
+        "電気回路",
+        "2 端子対回路",
+        "アドミタンス行列",
+        "インピーダンス行列",
+        "平均電力"
+      ],
+      "summary": "【問2】図2 の回路において，次の問いに答えよ。(1) 端子対 1-1′ および 2-2′ を持つ 2 端子対回路 N（点線で囲まれた部分）のアドミタンス行列 Y を求めよ。(2) 2 端子対回路 N のインピーダンス行列 Z を求めよ。(3) J1=10 sin t [A]、J2=5 sin(t+π/2) [A] であるとき、2 端子対回路 N で消費される平均電力を求めよ。",
+      "regions": [
+        {
+          "page": 10,
+          "box": [
+            47.0,
+            283.5,
+            541.5,
+            434.5
+          ],
+          "label": "【問2】題干と (1)–(3)、右柱の図2 と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-a3",
+      "number": "【問3】",
+      "title": "電気回路 問3：図3 の回路の等価インピーダンス Z0 と最大電力となる R2・C2",
+      "titleKind": "editorial",
+      "topics": [
+        "電気回路",
+        "等価回路",
+        "内部インピーダンス",
+        "最大電力",
+        "整合"
+      ],
+      "summary": "【問3】図3 の回路について、次の問いに答えよ。ただし、電源の角周波数は 500 rad/s、R1=1Ω、L1=0.002H、C1=0.002F とする。(1) 端子対 1-1′ から見た回路を開放電圧 V0・内部インピーダンス Z0 の等価回路と考えるとき、Z0 を求めよ。(2) 端子対 1-1′ 間に抵抗 R2 と容量 C2 を直列に接続するとき、R2 で消費される電力が最大となる R2 と C2 を求めよ。",
+      "regions": [
+        {
+          "page": 10,
+          "box": [
+            45.0,
+            441.5,
+            544.0,
+            594.5
+          ],
+          "label": "【問3】題干と (1)(2)、右柱の図3 と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-a4",
+      "number": "【問4】",
+      "title": "電気回路 問4：図4 のスイッチ回路の過渡電流 i(t) と、即座に定常となる条件から R3 を求める",
+      "titleKind": "editorial",
+      "topics": [
+        "電気回路",
+        "過渡現象",
+        "時定数",
+        "定常状態",
+        "スイッチ"
+      ],
+      "summary": "【問4】図4 の回路について、次の問いに答えよ。(1) スイッチ S2 を開いた状態で t=0 においてスイッチ S1 を閉じる。t>0 における電流 i(t) を求めよ。ただし、i(0)=0 とする。(2) 定常状態になる前の時刻 t=t1 においてスイッチ S2 を閉じると、電流 i(t) は即座に定常状態となった。このときの抵抗 R3 を求めよ。",
+      "regions": [
+        {
+          "page": 10,
+          "box": [
+            46.0,
+            608.5,
+            544.0,
+            775.0
+          ],
+          "label": "【問4】題干と (1)(2)、右柱の図4 と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-b1",
+      "number": "1.",
+      "title": "電子回路：図1・図2 の回路の伝達関数 G(s)=Vo(s)/Vi(s) と周波数特性",
+      "titleKind": "editorial",
+      "topics": [
+        "電子回路",
+        "伝達関数",
+        "演算増幅器",
+        "周波数特性"
+      ],
+      "summary": "1. 図1 に示す回路の伝達関数 G(s)=Vo(s)/Vi(s) を求めよ。また図2 の場合について G(s) の表式を導き、電圧利得および位相の周波数特性の概形を描け。ただし演算増幅器は理想的であるとする。",
+      "regions": [
+        {
+          "page": 12,
+          "box": [
+            54.0,
+            77.5,
+            390.0,
+            117.0
+          ],
+          "label": "電子回路：分野見出し枠「電子回路」と試験問題・実施日の行"
+        },
+        {
+          "page": 12,
+          "box": [
+            52.5,
+            167.0,
+            556.5,
+            369.0
+          ],
+          "label": "1. 題干と図1・図2、各図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-b2",
+      "number": "2.",
+      "title": "電子回路：図3 の RC 正弦波発振器のループ利得と発振条件",
+      "titleKind": "editorial",
+      "topics": [
+        "電子回路",
+        "RC 発振器",
+        "ループ利得",
+        "発振条件"
+      ],
+      "summary": "2. 図3 に示す RC 正弦波発振器について次の問に答えよ。ただし演算増幅器は理想的であるとする。(1) A の非反転増幅器部分の利得 GA を求めよ。(2) B の RC 回路部分の利得（減衰率）GB を求めよ。(3) ループ利得 T=GA·GB を求めよ。(4) 発振が定常状態にあるときの発振角周波数と振幅条件を求めよ。",
+      "regions": [
+        {
+          "page": 12,
+          "box": [
+            51.5,
+            401.0,
+            539.5,
+            747.0
+          ],
+          "label": "2. 題干と (1)–(4)、図3（A/B の括弧ラベルを含む）と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-c1",
+      "number": "[1]",
+      "title": "制御工学 [1]：y(t)=∫₀ᵗ g(t−τ)u(τ)dτ で表される系の線形性・伝達関数・定常値 1 の条件",
+      "titleKind": "editorial",
+      "topics": [
+        "制御工学",
+        "線形システム",
+        "伝達関数",
+        "単位ステップ応答",
+        "定常値"
+      ],
+      "summary": "制御工学 次の各問（[1],[2],[3]）に答えよ。[1] 入力を u(t)、出力を y(t) とするシステムが y(t)=∫₀ᵗ g(t−τ)u(τ)dτ（g は与えられた関数）で表されるとき、1. このシステムが線形であることを示せ。2. 伝達関数を求めよ。3. u(t) を単位ステップ関数としたとき lim_{t→∞} y(t)=1 となるための条件を述べよ。",
+      "regions": [
+        {
+          "page": 14,
+          "box": [
+            67.5,
+            81.0,
+            386.0,
+            144.5
+          ],
+          "label": "制御工学：分野見出し「制御工学 Control Engineering」と「次の各問（[1],[2],[3]）に答えよ」の日英指示行"
+        },
+        {
+          "page": 14,
+          "box": [
+            67.5,
+            161.5,
+            441.0,
+            498.5
+          ],
+          "label": "[1] 題干・伝達関数の式・条件と 1.–3.（日英同頁）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-c2",
+      "number": "[2]",
+      "title": "制御工学 [2]：フィードフォワード制御とフィードバック制御の比較（1. ブロック線図 2. 外乱 3. 不安定 4. 非最小位相）",
+      "titleKind": "editorial",
+      "topics": [
+        "制御工学",
+        "フィードバック",
+        "フィードフォワード",
+        "外乱抑圧",
+        "非最小位相"
+      ],
+      "summary": "[2] フィードフォワード制御とフィードバック制御について、両者の構成を比較しながら次の 1.–4. に答えよ（各 5 行以内）。1. 両制御系のブロック線図を描け。2. 外乱に対する両者の特性の違いを述べよ。3. 制御対象が不安定な場合の両者の違いを述べよ。4. 制御対象が非最小位相系である場合の両者の違いを述べよ。",
+      "regions": [
+        {
+          "page": 15,
+          "box": [
+            66.5,
+            81.0,
+            526.5,
+            408.0
+          ],
+          "label": "[2] 題干と 1.–4.（日英同頁）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-c3",
+      "number": "[3]",
+      "title": "制御工学 [3]：状態方程式の可制御性・可観測性と状態フィードバック u=[k1 k2]x",
+      "titleKind": "editorial",
+      "topics": [
+        "制御工学",
+        "状態方程式",
+        "可制御",
+        "可観測",
+        "状態フィードバック"
+      ],
+      "summary": "[3] 状態方程式 d/dt[x1; x2] = [[a, b], [0, −1]] [x1; x2] + [1; 0] u(t)、y = [1 0][x1; x2]（a, b>0）について、1. このシステムが可制御および可観測であるための条件を求めよ。2. u=[k1 k2][x1; x2] の状態フィードバックにより、任意の初期値から状態を 0 に収束させることが可能か、理由を付して答えよ（日英同頁）。",
+      "regions": [
+        {
+          "page": 16,
+          "box": [
+            68.0,
+            80.5,
+            527.5,
+            605.0
+          ],
+          "label": "[3] 題干・状態方程式と各小問（日英同頁）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-d1",
+      "number": "問1",
+      "title": "電磁気学 問1：無限導体面前方の点電荷（鏡像法）の電位・力・表面電荷",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学",
+        "鏡像法",
+        "点電荷",
+        "導体"
+      ],
+      "summary": "問1 次の各問に答えよ。(1) 図1(a) のように真空中の無限に広い導体前面の点 (x0,0,0) に点電荷 q が置かれているとき、真空中の電位分布、点電荷に働く力、導体表面の電荷分布を求めよ。(2) 図1(b) のように点 (x0,y0,0) に置かれた場合の電位分布と導体表面の全電荷を求めよ。",
+      "regions": [
+        {
+          "page": 18,
+          "box": [
+            43.0,
+            72.0,
+            261.0,
+            95.0
+          ],
+          "label": "電磁気学分野：「次の各問（問1 問2 問3）に答えよ」の指示行"
+        },
+        {
+          "page": 18,
+          "box": [
+            42.5,
+            108.0,
+            544.5,
+            479.5
+          ],
+          "label": "問1 題干と (1)(2)、図1(a)・図1(b) と各図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-d2",
+      "number": "問2",
+      "title": "電磁気学 問2：誘電体で覆われた導体球の電界・電位・静電容量",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学",
+        "導体球",
+        "誘電体",
+        "静電容量"
+      ],
+      "summary": "問2 図2 のように半径 a の導体球の表面が半径 b の領域まで誘電体で一様に覆われているときの電界・電位・静電容量などを (1)–(3) で問う。",
+      "regions": [
+        {
+          "page": 18,
+          "box": [
+            44.0,
+            485.0,
+            507.5,
+            689.5
+          ],
+          "label": "問2 題干と (1)–(3)、右柱の図2 と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-d3",
+      "number": "問3",
+      "title": "電磁気学 問3：トロイダルコア（μ1/μ2, N1/N2）の磁束・磁気抵抗・自己/相互インダクタンス・端子 R の電圧",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学",
+        "トロイダルコア",
+        "磁気回路",
+        "自己インダクタンス",
+        "相互インダクタンス"
+      ],
+      "summary": "問3 図3 のように透磁率 μ1, μ2 の 2 つの部分からなるトロイダルコアにコイル 1（N1 巻）とコイル 2（N2 巻）が巻かれている。コイル 1 に時間的に変化する電流 I1(t) を流したとき、各部の磁束、磁気抵抗、各コイルの自己インダクタンス、相互インダクタンス、端子 P-Q を開放した場合と R を接続した場合の電圧などを (1)–(5) で問う。",
+      "regions": [
+        {
+          "page": 19,
+          "box": [
+            43.5,
+            125.5,
+            546.5,
+            623.0
+          ],
+          "label": "問3 題干と (1)–(5)、図3 と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-e1",
+      "number": "1",
+      "title": "半導体デバイス 1：図1(A)(B) のエネルギーバンド構造（有効質量・状態密度・フェルミ準位）",
+      "titleKind": "editorial",
+      "topics": [
+        "半導体デバイス",
+        "エネルギーバンド",
+        "有効質量",
+        "キャリア密度"
+      ],
+      "summary": "半導体デバイス 次の各問（1 2 3 4）に答えよ。1 図1(A)(B) の代表的なエネルギーバンド構造の模式図について (1)–(5) を問う（正孔の有効質量、状態密度、キャリア濃度、フェルミ準位の位置など）。",
+      "regions": [
+        {
+          "page": 22,
+          "box": [
+            65.5,
+            87.0,
+            373.5,
+            162.0
+          ],
+          "label": "半導体デバイス：分野見出し枠「半導体デバイス」と「次の各問（1 2 3 4）に答えよ」の指示行"
+        },
+        {
+          "page": 22,
+          "box": [
+            64.5,
+            166.5,
+            542.5,
+            665.5
+          ],
+          "label": "1 題干、図1(A)(B) と図番、(1)–(5)"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-e2",
+      "number": "2",
+      "title": "半導体デバイス 2：pn 接合の空乏層・電界・静電容量（図2）",
+      "titleKind": "editorial",
+      "topics": [
+        "半導体デバイス",
+        "pn 接合",
+        "空乏層",
+        "接合容量"
+      ],
+      "summary": "2 p 型（アクセプタ密度 NA）と n 型（ドナー密度 ND）半導体の pn 接合について、図2 を参照し (1)–(5) で空乏層幅・電界分布・電位差・接合容量などを問う。",
+      "regions": [
+        {
+          "page": 23,
+          "box": [
+            63.5,
+            71.0,
+            542.5,
+            677.5
+          ],
+          "label": "2 題干と (1)–(5)、図2（空乏層）と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-e3",
+      "number": "3",
+      "title": "半導体デバイス 3：バイポーラトランジスタの動作（図3）",
+      "titleKind": "editorial",
+      "topics": [
+        "半導体デバイス",
+        "バイポーラトランジスタ",
+        "電流増幅率"
+      ],
+      "summary": "3 図3 のバイポーラトランジスタについて (1)–(5) で各領域のキャリアと電流成分、電流増幅率などを問う。",
+      "regions": [
+        {
+          "page": 24,
+          "box": [
+            72.5,
+            102.5,
+            533.5,
+            678.0
+          ],
+          "label": "3 題干と (1)–(5)、図3 と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-e4",
+      "number": "4",
+      "title": "半導体デバイス 4：MOSFET の動作としきい値電圧（図4）",
+      "titleKind": "editorial",
+      "topics": [
+        "半導体デバイス",
+        "MOSFET",
+        "しきい値電圧",
+        "反転層"
+      ],
+      "summary": "4 図4 の MOSFET について (1)–(5) で反転層の形成、しきい値電圧、電流–電圧特性などを問う。",
+      "regions": [
+        {
+          "page": 25,
+          "box": [
+            73.0,
+            102.0,
+            534.0,
+            575.5
+          ],
+          "label": "4 題干と (1)–(5)、図4 と図番"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-f1",
+      "number": "【問1】",
+      "title": "計算機工学【問1】：真理値表から論理関数の最簡積和表現を導く",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機工学",
+        "論理関数",
+        "最簡積和",
+        "ドントケア"
+      ],
+      "summary": "1. 次の各問（【問1】〜【問3】）に答えよ。【問1】以下の真理値表で与えられた論理関数 f の最簡積和表現を求めよ。表中の * はドントケアを表し、最簡積和表現とは積項数最小（同数ならリテラル数最小）のものとする。",
+      "regions": [
+        {
+          "page": 30,
+          "box": [
+            65.5,
+            210.0,
+            543.0,
+            470.5
+          ],
+          "label": "1. 次の各問（【問1】〜【問3】）に答えよ。の指示行、【問1】題干と真理値表"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-f2",
+      "number": "【問2】",
+      "title": "計算機工学【問2】：4 種類の命令タイプの所要時間表からシングルサイクル／パイプラインのクロックを比較し X・Y を求める",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機工学",
+        "命令パイプライン",
+        "クロックサイクル",
+        "シングルサイクル"
+      ],
+      "summary": "【問2】あるプロセッサに 4 種類の命令タイプを実装する。各ステップの所要時間は表の通り。(a) シングルサイクル方式でクロックサイクル時間が 3.6ns、パイプライン方式で 1.0ns になったとき、レジスタアクセスよりメモリアクセスの方が長いと仮定して表中の X と Y を求めよ。(b)(c) は次頁に続く（命令列 lw/and/or/add/sw の実行時間とパイプラインのストール）。",
+      "regions": [
+        {
+          "page": 30,
+          "box": [
+            68.0,
+            490.0,
+            544.5,
+            781.5
+          ],
+          "label": "【問2】題干、命令タイプの所要時間表、(a)"
+        },
+        {
+          "page": 31,
+          "box": [
+            104.5,
+            210.5,
+            542.5,
+            427.5
+          ],
+          "label": "【問2】の続き：(b)(c) と命令列のプログラム"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    },
+    {
+      "id": "kyushu-isee-ee-2014-f3",
+      "number": "【問3】",
+      "title": "計算機工学【問3】：二分探索プログラムの動作（比較回数・実行時間・キャッシュ）",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機工学",
+        "二分探索",
+        "アルゴリズム",
+        "実行時間"
+      ],
+      "summary": "【問3】二分探索のプログラム（出典：WIKIPEDIA）が与えられ、以下の問いに答えよ。(1) 1-1) 1-2)、(2) 2-1) 2-2)、(3) で比較回数・計算量・実行時間などを問う。",
+      "regions": [
+        {
+          "page": 32,
+          "box": [
+            68.0,
+            210.5,
+            543.5,
+            747.5
+          ],
+          "label": "【問3】題干、二分探索プログラム、出典表示、(1) 1-1) 1-2)、(2) 2-1) 2-2)、(3)"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": ""
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面页：题名与実施日，已收入 commonRegions。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": true,
+      "excluded": "数学冊子表紙（題名块）与解答上の注意（6 分野から 3 分野選択、分野表）：分两块收入 commonRegions。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "kyushu-isee-ee-2014-m1"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…/数学 (Mathematics) (7枚中のn)）と「6 分野のうちから 3 分野を選び…」枠・水平分隔线不进 box；日英同頁，英訳は同一 region 内。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "kyushu-isee-ee-2014-m2"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…/数学 (Mathematics) (7枚中のn)）と「6 分野のうちから 3 分野を選び…」枠・水平分隔线不进 box；日英同頁，英訳は同一 region 内。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "kyushu-isee-ee-2014-m3"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…/数学 (Mathematics) (7枚中のn)）と「6 分野のうちから 3 分野を選び…」枠・水平分隔线不进 box；日英同頁，英訳は同一 region 内。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "kyushu-isee-ee-2014-m4"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…/数学 (Mathematics) (7枚中のn)）と「6 分野のうちから 3 分野を選び…」枠・水平分隔线不进 box；日英同頁，英訳は同一 region 内。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "kyushu-isee-ee-2014-m5"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…/数学 (Mathematics) (7枚中のn)）と「6 分野のうちから 3 分野を選び…」枠・水平分隔线不进 box；日英同頁，英訳は同一 region 内。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "kyushu-isee-ee-2014-m6"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…/数学 (Mathematics) (7枚中のn)）と「6 分野のうちから 3 分野を選び…」枠・水平分隔线不进 box；日英同頁，英訳は同一 region 内。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": true,
+      "excluded": "専門科目Ⅰ冊子表紙（題名块）与解答上の注意（3 分野から 1 分野選択、分野表）：分两块收入 commonRegions。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "kyushu-isee-ee-2014-a1",
+        "kyushu-isee-ee-2014-a2",
+        "kyushu-isee-ee-2014-a3",
+        "kyushu-isee-ee-2014-a4"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…入学試験／試験問題）与页脚ページ番号不进 box。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：電気回路の英訳（日文正文见 p10）。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "kyushu-isee-ee-2014-b1",
+        "kyushu-isee-ee-2014-b2"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…入学試験／試験問題）与页脚ページ番号不进 box。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：電子回路の英訳（日文正文见 p12）。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "kyushu-isee-ee-2014-c1"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…入学試験／試験問題）与页脚ページ番号不进 box。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "kyushu-isee-ee-2014-c2"
+      ],
+      "common": false,
+      "excluded": "",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [
+        "kyushu-isee-ee-2014-c3"
+      ],
+      "common": false,
+      "excluded": "",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [],
+      "common": true,
+      "excluded": "専門科目Ⅱ冊子表紙（題名块）与解答上の注意（3 分野から 1 分野選択、分野表）：分两块收入 commonRegions。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [
+        "kyushu-isee-ee-2014-d1",
+        "kyushu-isee-ee-2014-d2"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…入学試験／試験問題）与页脚ページ番号不进 box。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [
+        "kyushu-isee-ee-2014-d3"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度大学院入学試験問題 電磁気学…）与页脚不进 box。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：電磁気学 問1・問2 の英訳（日文正文见 p18）。",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：電磁気学 問3 の英訳（日文正文见 p19）。",
+      "reviewed": true
+    },
+    {
+      "page": 22,
+      "questionIds": [
+        "kyushu-isee-ee-2014-e1"
+      ],
+      "common": false,
+      "excluded": "页眉（平成26年度…入学試験／試験問題）与页脚ページ番号不进 box。",
+      "reviewed": true
+    },
+    {
+      "page": 23,
+      "questionIds": [
+        "kyushu-isee-ee-2014-e2"
+      ],
+      "common": false,
+      "excluded": "",
+      "reviewed": true
+    },
+    {
+      "page": 24,
+      "questionIds": [
+        "kyushu-isee-ee-2014-e3"
+      ],
+      "common": false,
+      "excluded": "",
+      "reviewed": true
+    },
+    {
+      "page": 25,
+      "questionIds": [
+        "kyushu-isee-ee-2014-e4"
+      ],
+      "common": false,
+      "excluded": "",
+      "reviewed": true
+    },
+    {
+      "page": 26,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：半導体デバイス 1 の英訳（日文正文见 p22）。",
+      "reviewed": true
+    },
+    {
+      "page": 27,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：半導体デバイス 2 の英訳（日文正文见 p23）。",
+      "reviewed": true
+    },
+    {
+      "page": 28,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：半導体デバイス 3 の英訳（日文正文见 p24）。",
+      "reviewed": true
+    },
+    {
+      "page": 29,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：半導体デバイス 4 の英訳（日文正文见 p25）。",
+      "reviewed": true
+    },
+    {
+      "page": 30,
+      "questionIds": [
+        "kyushu-isee-ee-2014-f1",
+        "kyushu-isee-ee-2014-f2"
+      ],
+      "common": false,
+      "excluded": "页首題名塊（平成26年度…/専門科目（計算機工学）/(6枚中の1)）は册子題名の頁眉扱いで不进 box；页脚不进 box。",
+      "reviewed": true
+    },
+    {
+      "page": 31,
+      "questionIds": [
+        "kyushu-isee-ee-2014-f2"
+      ],
+      "common": false,
+      "excluded": "页首題名塊（専門科目（計算機工学）/(6枚中の2)）は頁眉扱いで不进 box；【問2】の続きのみ収録。页脚不进 box。",
+      "reviewed": true
+    },
+    {
+      "page": 32,
+      "questionIds": [
+        "kyushu-isee-ee-2014-f3"
+      ],
+      "common": false,
+      "excluded": "页首題名塊（専門科目（計算機工学）/(6枚中の3)）は頁眉扱いで不进 box；页脚不进 box。",
+      "reviewed": true
+    },
+    {
+      "page": 33,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：計算機工学【問1】の英訳（日文正文见 p30）。",
+      "reviewed": true
+    },
+    {
+      "page": 34,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：計算機工学【問2】(b)(c) の英訳（日文正文见 p31）。",
+      "reviewed": true
+    },
+    {
+      "page": 35,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：計算機工学【問3】の英訳（日文正文见 p32）。",
+      "reviewed": true
+    }
+  ]
+}
