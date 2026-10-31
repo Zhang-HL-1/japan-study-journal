@@ -1,0 +1,1434 @@
+{
+  "schemaVersion": 1,
+  "id": "kyushu-isee-ee-2009",
+  "title": "九州大学 · 2009 年度入学 · 电气电子工学专攻（数学・専門科目）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kyushu-isee-ee-2009",
+    "schoolId": "kyushu",
+    "school": "九州大学",
+    "graduate": "システム情報科学府",
+    "major": "電気電子工学専攻",
+    "year": 2009,
+    "yearBasis": "academic",
+    "subject": "数学・専門科目",
+    "originalSubject": "修士課程入学試験問題",
+    "originalName": "2009_h21ee.pdf",
+    "officialName": "平成21年度入学試験問題",
+    "pdf": "assets/past-papers/documents/6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38.pdf",
+    "sha256": "6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38",
+    "pageCount": 37,
+    "note": "考试日期：平成20年8月27日（水）= 2008-08-27（印于封面【平成２０年８月２７日（水）】及各冊子页眉，電子回路页眉另记 １３：４０〜１５：００ 的实施时段）；year 按入学年度记 2009（yearBasis=academic），考试实施年 2008 只记入本 note。全 37 页 = 封面 1 页 + 英語能力評価通知 1 页（第 2 页，非试题）+ 数学冊子 5 页（第 3–7 页：封面/注意 1 页、日文問題 2 页【問題1–6】、英译 2 页，6 問から 3 問選択，共 6 问）+ 専門科目Ⅰ冊子 9 页（第 8–16 页：封面 1 页、電気回路 1 页 4 問、電子回路 1 页 2 問、制御工学 2 页 4 問、英译 4 页，3 分野から 1 分野選択，共 10 问）+ 専門科目Ⅱ冊子 21 页（第 17–37 页：封面 1 页、電磁気学 2 页 3 問、半導体デバイス 4 页 4 問、計算機工学 4 页 5 問（A–E）、英译 10 页，3 分野から 1 分野選択，共 12 问）。本年度専門科目Ⅱ的分野表只有 1 電磁気学／2 半導体デバイス／3 計算機工学 三科，没有電力工学・エネルギー変換工学，故无 g/h 前缀的题目（已逐页核实第 17–37 页）。専門科目为日文页在前、英文翻译页在后，正本只取日文原件页，英译页（第 6、7、10、12、15、16、20、21、26–29、34–37 页）列入 coverage.excluded。第 8–37 页为整页扫描图、无文字层，题号、边界与図号全部依渲染图目视判定；第 3–5 页为矢量文字，边界另经文本块坐标复核。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kyushu-isee-ee-2009/common-01.png",
+      "page": 1,
+      "box": [
+        138,
+        170,
+        470,
+        464
+      ],
+      "width": 830,
+      "height": 735,
+      "label": "封面题名块：九州大学大学院システム情報科学府、電気電子工学専攻、平成２１年度入学試験問題、【平成２０年８月２７日（水）】",
+      "sha256": "f6a83580c947997cd3fddf4fff22fa4267eb527f0e30165e6b034f0e844bfed0"
+    },
+    {
+      "src": "assets/question-bank/kyushu-isee-ee-2009/common-02.png",
+      "page": 3,
+      "box": [
+        70,
+        64,
+        542,
+        758
+      ],
+      "width": 1180,
+      "height": 1735,
+      "label": "数学冊子封面与解答上の注意：数学 (Mathematics) (3 枚中の 1)、問題用紙 3 枚・解答用紙 3 枚、6 問から 3 問選択、作答与填卡规定",
+      "sha256": "4a402cee850fee76df862308611cd4ef69800dde112e502e872d353cebadcadf"
+    },
+    {
+      "src": "assets/question-bank/kyushu-isee-ee-2009/common-03.png",
+      "page": 8,
+      "box": [
+        86,
+        160,
+        492,
+        714
+      ],
+      "width": 1015,
+      "height": 1385,
+      "label": "専門科目Ⅰ冊子封面与解答上の注意：専門科目Ⅰ (9 枚中の 1)、3 分野から 1 分野選択（1 電気回路／2 電子回路／3 制御工学）与分野表、作答规定",
+      "sha256": "33c67ebee702ab1634caa3ac4b6aa21541a59093a13f27c069b70859d765f870"
+    },
+    {
+      "src": "assets/question-bank/kyushu-isee-ee-2009/common-04.png",
+      "page": 17,
+      "box": [
+        86,
+        160,
+        492,
+        714
+      ],
+      "width": 1015,
+      "height": 1385,
+      "label": "専門科目Ⅱ冊子封面与解答上の注意：専門科目Ⅱ (21 枚中の 1)、3 分野から 1 分野選択（1 電磁気学／2 半導体デバイス／3 計算機工学）与分野表、作答規定",
+      "sha256": "5282d56e6b45fbed3ed724a8046092a1852a421e7404605cc8656f5a68e3090e"
+    },
+    {
+      "src": "assets/question-bank/kyushu-isee-ee-2009/common-05.png",
+      "page": 22,
+      "box": [
+        55,
+        28,
+        560,
+        114
+      ],
+      "width": 1263,
+      "height": 215,
+      "label": "半導体デバイス冊子題名与注意：平成21年度・修士課程入学試験・半導体デバイス問題、注意 1・2（解答は解答用紙の所定欄に記入）",
+      "sha256": "56fd72233ac3b99715e6a12a235d6d5eb601cea83b11c0a3524496557eb40e66"
+    },
+    {
+      "src": "assets/question-bank/kyushu-isee-ee-2009/common-06.png",
+      "page": 30,
+      "box": [
+        70,
+        88,
+        510,
+        226
+      ],
+      "width": 1100,
+      "height": 345,
+      "label": "計算機工学冊子題名与指示框：平成21年度 九州大学大学院システム情報科学府 電気電子工学専攻 修士課程 入学試験問題、計算機工学 (Computer engineering) (8枚中の1)、5 問のうちから 3 問を選び解答せよ",
+      "sha256": "022084e6dc91ee466cf81f8282af21c57e759947e441240bfd29027bd4d84339"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kyushu-isee-ee-2009-m1",
+      "number": "1.",
+      "title": "线形代数：四阶循环行列式与矩阵幂的固有值分解",
+      "titleKind": "editorial",
+      "topics": [
+        "线形代数",
+        "行列式",
+        "固有值",
+        "固有向量",
+        "矩阵的幂"
+      ],
+      "summary": "【問題1】(100/3 点)。(1) 求 4 阶行列式 |a b c d; b a d c; c d a b; d c b a| 的值。(2) 设 A=[[2,1,1],[1,2,1],[0,0,1]]，求 A 的固有值与固有向量，并求 A^n（n 为非负整数）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 4 页渲染图（文字层可正常抽取，另经矢量文本块坐标复核）：【問題1】题号与配点「(100/3 点)」、题干与 (1)(2)… 全部小问、公式与矩阵/行列式排版均完整；不含页眉页脚与页边空白。 (1) 行列式逐元素按 a b c d 循环排列、(2) 的 3×3 矩阵与「n は非負整数」条件均在图内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-m1-01.png",
+          "page": 4,
+          "box": [
+            68,
+            66,
+            545,
+            276
+          ],
+          "width": 1193,
+          "height": 525,
+          "label": "【問題1】：题号与配点、(1) 四阶行列式、(2) 矩阵 A 的固有值・固有向量与 A^n",
+          "sha256": "406d45372c190cc8ebf27524db5e4ef13a65de671b50a3f80a2ffaed96cbf267"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-m2",
+      "number": "2.",
+      "title": "微分方程式：三题一阶微分方程的一般解",
+      "titleKind": "editorial",
+      "topics": [
+        "微分方程式",
+        "一般解",
+        "変数分離",
+        "完全微分"
+      ],
+      "summary": "【問題2】(100/3 点)。求下列一阶微分方程的一般解（y′ 表示 y 对 x 的一阶导数）：(1) e^{y−x} y′ + e^{2y+x} y^{−1} = 0；(2) y′ − sin(x−y) − sin(x+y) = 0；(3) (x+y)y′ − 2x = 0。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 4 页渲染图（文字层可正常抽取，另经矢量文本块坐标复核）：【問題2】题号与配点「(100/3 点)」、题干与 (1)(2)… 全部小问、公式与矩阵/行列式排版均完整；不含页眉页脚与页边空白。 三式的指数 e^{y−x}・e^{2y+x}、y^{−1}、sin(x−y)・sin(x+y)、(x+y)y′−2x 逐项核对无缺。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-m2-01.png",
+          "page": 4,
+          "box": [
+            68,
+            302,
+            545,
+            446
+          ],
+          "width": 1193,
+          "height": 360,
+          "label": "【問題2】：题号与配点、y′ 记号说明、(1)–(3) 三个微分方程",
+          "sha256": "990bead06eed6b4c7aa0ee93bd59592613e30ab7e50a2106db12a78e7c3a7c02"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-m3",
+      "number": "3.",
+      "title": "向量解析：两曲面的交角与旋度的面积分",
+      "titleKind": "editorial",
+      "topics": [
+        "ベクトル解析",
+        "曲面の交角",
+        "回転",
+        "面積分",
+        "ガウスの定理"
+      ],
+      "summary": "【問題3】(100/3 点)。三维欧氏空间中的向量场。(1) 求点 (√3, 0, 1) 处两曲面 x²+y²+z²=4 与 z=(1/2)x²+(1/2)y²−(1/2) 之间的交角。(2) 设 A(x,y,z)=3yz i + xz j + 2xy k，求 ∬_S (∇×A)·n dS，其中 S 为球面 x²+y²+z²=a²（a 为正的定数）位于 xy 平面上方的部分，n 为单位法线向量。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 4 页渲染图（文字层可正常抽取，另经矢量文本块坐标复核）：【問題3】题号与配点「(100/3 点)」、题干与 (1)(2)… 全部小问、公式与矩阵/行列式排版均完整；不含页眉页脚与页边空白。 点 (√3,0,1)、两曲面式、A=3yz i+xz j+2xy k 与积分区域「xy 平面の上にある部分」「n は単位法線ベクトル」均完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-m3-01.png",
+          "page": 4,
+          "box": [
+            68,
+            461,
+            545,
+            650
+          ],
+          "width": 1193,
+          "height": 473,
+          "label": "【問題3】：题号与配点、(1) 两曲面在 (√3,0,1) 的交角、(2) ∬_S (∇×A)·n dS 与曲面 S 的定义",
+          "sha256": "47ec4d3889f82798532226e24c53b30b4ca330a8b6a02a17278129405b6a3fee"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-m4",
+      "number": "4.",
+      "title": "フーリエ解析：周期函数的傅里叶级数与指数函数的傅里叶变换",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ級数",
+        "フーリエ変換",
+        "周期関数",
+        "偶関数"
+      ],
+      "summary": "【問題4】(100/3 点)。(1) 求周期 2π 的函数 f(x)（−x² (−π<x≤0)、x² (0<x≤π)）的傅里叶级数。(2) 求函数 f(t)（−e^{at} (t≥0)、0 (t<0)，a>0）的傅里叶变换。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 5 页渲染图（文字层可正常抽取，另经矢量文本块坐标复核）：【問題4】题号与配点「(100/3 点)」、题干与 (1)(2)… 全部小问、公式与矩阵/行列式排版均完整；不含页眉页脚与页边空白。 分段区间 −π<x≤0 / 0<x≤π、被积式 −x² 与 x²、以及 (2) 的 −e^{at}・0 与条件 a>0 均在图内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-m4-01.png",
+          "page": 5,
+          "box": [
+            68,
+            66,
+            545,
+            250
+          ],
+          "width": 1193,
+          "height": 460,
+          "label": "【問題4】：题号与配点、(1) 周期 2π 分段函数 f(x) 的傅里叶级数、(2) f(t) 的傅里叶变换",
+          "sha256": "6ec86536a5305d5f4517dbd9e4bfbd610441ade160b9689f3fd5f582d76a8f5a"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-m5",
+      "number": "5.",
+      "title": "複素関数：用柯西–黎曼关系式判定可微性",
+      "titleKind": "editorial",
+      "topics": [
+        "複素関数",
+        "コーシー・リーマン",
+        "微分可能性",
+        "導関数"
+      ],
+      "summary": "【問題5】(100/3 点)。(1) 考虑函数 f(z)=x²−y²+x+i(2xy+y)（z=x+iy∈C），用柯西–黎曼关系式判断其可微性。(2) 若上述函数可微，求其导函数。(3) 讨论函数 f(z)=z|z| 的微分可能性。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 5 页渲染图（文字层可正常抽取，另经矢量文本块坐标复核）：【問題5】题号与配点「(100/3 点)」、题干与 (1)(2)… 全部小问、公式与矩阵/行列式排版均完整；不含页眉页脚与页边空白。 实部 x²−y²+x、虚部 2xy+y、z=x+iy∈C 的设定与三小问均完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-m5-01.png",
+          "page": 5,
+          "box": [
+            68,
+            280,
+            545,
+            440
+          ],
+          "width": 1193,
+          "height": 400,
+          "label": "【問題5】：题号与配点、(1) f(z)=x²−y²+x+i(2xy+y) 的可微性、(2) 导函数、(3) f(z)=z|z| 的微分可能性",
+          "sha256": "b0ce0295c5f324531cf0164751f0b2650cb0633592acd31b644d9d08350ac304"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-m6",
+      "number": "6.",
+      "title": "確率・統計：贝叶斯公式与正态分布之和",
+      "titleKind": "editorial",
+      "topics": [
+        "確率",
+        "ベイズの定理",
+        "正規分布",
+        "確率密度関数"
+      ],
+      "summary": "【問題6】(100/3 点)。(1) A 社 PC 的内藏硬盘由 B 社或 C 社制造，B 社占全体 70%。B 社制品的初期不良率为 0.5%，C 社制品为 1.0%。购入一台 PC 后发现硬盘初期不良而更换，求该硬盘为 B 社制品的概率。(2) 设 X、Y 为分别服从平均 0、分散 σ² 的正规分布的独立确率变量，其确率密度函数为 p(x)=(1/√(2πσ²))exp(−x²/(2σ²))。求 Z=X+Y 定义的确率变量 Z 的确率密度函数。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 5 页渲染图（文字层可正常抽取，另经矢量文本块坐标复核）：【問題6】题号与配点「(100/3 点)」、题干与 (1)(2)… 全部小问、公式与矩阵/行列式排版均完整；不含页眉页脚与页边空白。 70%、0.5%、1.0% 三个数值与 (2) 的 p(x) 完整表达式（含 1/√(2πσ²) 与 exp(−x²/2σ²)）均在图内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-m6-01.png",
+          "page": 5,
+          "box": [
+            68,
+            455,
+            545,
+            700
+          ],
+          "width": 1193,
+          "height": 613,
+          "label": "【問題6】：题号与配点、(1) 贝叶斯型条件确率、(2) 正规分布之和 Z=X+Y 的确率密度函数",
+          "sha256": "46bba111691bc7b5271437af2ce6776510b7dd4d9c0b76d984cd899e353d5e21"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-a1",
+      "number": "A【問1】",
+      "title": "電気回路：交流回路の位相条件から素子定数を求める",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "複素インピーダンス",
+        "位相角",
+        "フェーザ"
+      ],
+      "summary": "図1 的回路（電源 E、Z1=R1+jX1、Z2=R2+jX2，电压 V1・V2・V3 与电流 I）中，V1 与 V2 的位相角之间满足 arg(V1/V2)=π/2。(1) 在 R1≠0、R2≠0、X1≠0、X2≠0 的条件下，给出 R1、R2、X1、X2 之间的关系式。(2) 已知 |V3|=4 V、|V2|=2 V、|I|=2 A、arg(V3/I)=π/2，求 R1、R2、X1、X2 的值。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 9 页渲染图（文字层为空，扫描页，边界依行墨迹带定位后目视复核）：本页同排 4 题，裁图只含本題的题号、题干、全小问与右侧对应図及其図号；页首「電気回路」科目名与「4つの問から2つを選び…」指示行、页脚页码未收入。 (2) 的四个给定值 4 V・2 V・2 A・π/2 逐项核对；図1 中 Z1/Z2 方框、E、V1/V2/V3、I 与 Z1=R1+jX1・Z2=R2+jX2 注记完整，未被切边。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-a1-01.png",
+          "page": 9,
+          "box": [
+            45,
+            82,
+            560,
+            232
+          ],
+          "width": 1288,
+          "height": 375,
+          "label": "【問1】：题号、arg(V1/V2)=π/2 的条件、(1)(2) 两小问与右侧図1（含図号）",
+          "sha256": "22c54c8bc2c76c2e8433a9e95d2b182878d1e6aaed884cfb839484f4c6d3e2a3"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-a2",
+      "number": "A【問2】",
+      "title": "電気回路：ブリッジ回路のスイッチ開閉時の電流",
+      "titleKind": "editorial",
+      "topics": [
+        "ブリッジ回路",
+        "重ね合わせ",
+        "テブナン",
+        "電流"
+      ],
+      "summary": "図2 的桥式回路中，开关 S 断开时开关端子电压为 E。(1) 求 S 闭合时流过的电流 I1。(2) 在开关间接入电阻 r 时，求流过 r 的电流 I2。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 9 页渲染图（文字层为空，扫描页，边界依行墨迹带定位后目视复核）：本页同排 4 题，裁图只含本題的题号、题干、全小问与右侧对应図及其図号；页首「電気回路」科目名与「4つの問から2つを選び…」指示行、页脚页码未收入。 题干三行「図2のブリッジ回路においてスイッチSを開いている時のスイッチの端子電圧はEであった」与 (1)(2) 完整；図2 的 Z1–Z4、S、Z0 与交流电源符号清晰。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-a2-01.png",
+          "page": 9,
+          "box": [
+            45,
+            236,
+            560,
+            424
+          ],
+          "width": 1288,
+          "height": 470,
+          "label": "【問2】：题号、桥式回路题干、(1) 闭合时电流 I1、(2) 接 r 时电流 I2 与右侧図2（含図号）",
+          "sha256": "3f9005b3d4bff75413c86a7099d55ebd4034dbcfd4eb5ca52e4c8d20a95373f6"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-a3",
+      "number": "A【問3】",
+      "title": "電気回路：相互インダクタンスを含む四端子回路のインピーダンス行列",
+      "titleKind": "editorial",
+      "topics": [
+        "相互インダクタンス",
+        "インピーダンス行列",
+        "四端子回路",
+        "Z行列"
+      ],
+      "summary": "図3 中 L1、L2 之间的相互インダクタンス为 M。(1) 求端子对 A-A′、B-B′ 之间的阻抗行列 z′ij。(2) 求端子对 1-1′、2-2′ 之间的阻抗行列 zij。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 9 页渲染图（文字层为空，扫描页，边界依行墨迹带定位后目视复核）：本页同排 4 题，裁图只含本題的题号、题干、全小问与右侧对应図及其図号；页首「電気回路」科目名与「4つの問から2つを選び…」指示行、页脚页码未收入。 两个矩阵式（V′=z′I 与 V=zI）的行列数与元件记号 z′11/z′12/z′21/z′22、z11…z22 清晰；図3 中 L1/L2、M、R、A/A′/B/B′、1/1′/2/2′ 与各电流电压记号完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-a3-01.png",
+          "page": 9,
+          "box": [
+            45,
+            428,
+            560,
+            656
+          ],
+          "width": 1288,
+          "height": 570,
+          "label": "【問3】：题号、互感 M 的设定、(1) z′ij 与 (2) zij 两个矩阵式及右侧図3（含図号）",
+          "sha256": "684d5c0ca48bf6f0dfecf92406a457dc5dbef960ed570e2aea5a65c9f3841f3f"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-a4",
+      "number": "A【問4】",
+      "title": "電気回路：RL 回路のスイッチ切替後の過渡電流",
+      "titleKind": "editorial",
+      "topics": [
+        "過渡現象",
+        "RL回路",
+        "初期値",
+        "定常状態"
+      ],
+      "summary": "図4 的回路中，开关 S 于 t=0 断开、于 t=1 闭合。求 t>0 时的 i(t)。ただし、スイッチを開く直前に回路は定常状態にあるものとする。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 9 页渲染图（文字层为空，扫描页，边界依行墨迹带定位后目视复核）：本页同排 4 题，裁图只含本題的题号、题干、全小问与右侧对应図及其図号；页首「電気回路」科目名与「4つの問から2つを選び…」指示行、页脚页码未收入。 「t=0 で開き、t=1 で閉じる」「t>0 における i(t) を求めよ」「スイッチを開く直前に回路は定常状態にある」三句完整；図4 中 E、R1、R2、L、S、t=0/t=1 标注与 i(t) 箭头清晰。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-a4-01.png",
+          "page": 9,
+          "box": [
+            45,
+            660,
+            560,
+            784
+          ],
+          "width": 1288,
+          "height": 310,
+          "label": "【問4】：题号、t=0 開・t=1 閉 的题干与「開く直前に定常状態」条件、右侧図4（含図号）",
+          "sha256": "189bdf20699c35a43d2ab9753de5ed9bf6fe788b1440028ded70426a0bf6ca0a"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-b1",
+      "number": "B【問1】",
+      "title": "電子回路：演算増幅器回路の伝達関数と周波数特性",
+      "titleKind": "editorial",
+      "topics": [
+        "演算増幅器",
+        "伝達関数",
+        "周波数特性",
+        "ボード線図"
+      ],
+      "summary": "求図1 所示回路的传递函数 G(s)=Vo(s)/Vi(s)。另外对図2 的情形导出 G(s) 的表达式，并画出电压增益与相位的周波数特性概形。ただし、演算増幅器は理想的であるとする。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 11 页渲染图（扫描页，文字层为空）：裁图含题号、题干与两幅図及其図号；页眉「平成２１年度 九州大学大学院システム情報科学府 修士課程入学試験」「電子回路」框「試験問題 平成２０年８月２７日（水）１３：４０〜１５：００」与页脚页码未收入。 G(s)=Vo(s)/Vi(s) 的记号、「電圧利得および位相の周波数特性の概形を描け」「演算増幅器は理想的」条件完整；図1 的 Z1/Z2、Vi/Vo 与図2 的 R1/R2/C 并联、Vi/Vo 及图号均在图内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-b1-01.png",
+          "page": 11,
+          "box": [
+            45,
+            145,
+            565,
+            372
+          ],
+          "width": 1301,
+          "height": 568,
+          "label": "【問1】：题号与题干、図1（Z1・Z2 反転増幅回路）与図2（R1・R2∥C 回路）及两図号",
+          "sha256": "c241276cc35089f2a8e56b91a9a288b97545b0743bd23030334619ee03bc0bad"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-b2",
+      "number": "B【問2】",
+      "title": "電子回路：ダイオードクランパ回路の出力波形と動作",
+      "titleKind": "editorial",
+      "topics": [
+        "ダイオード",
+        "クランパ回路",
+        "波形",
+        "定電圧"
+      ],
+      "summary": "对図3 所示的钳位电路（clamp），给出図4 所示的输入电压 Vi 时，画出输出电压 Vo 的波形并说明电路的动作。ただし、ダイオード D の等価直列抵抗を r で表し、それ以外の性質は理想的であるとする。また、条件 r ≪ (T/C) ≪ R が成り立つとする。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 11 页渲染图（扫描页，文字层为空）：裁图含题号、题干与两幅図及其図号；页眉「平成２１年度 九州大学大学院システム情報科学府 修士課程入学試験」「電子回路」框「試験問題 平成２０年８月２７日（水）１３：４０〜１５：００」与页脚页码未收入。 条件式「r ≪ (T/C) ≪ R」与等価直列抵抗 r 的设定完整；図3 中 C、D、r、R、Vi、Vo、Vr 与図4 的 V1/Vr/−V2、0/T/2T…6T 时间轴刻度均清晰未被切。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-b2-01.png",
+          "page": 11,
+          "box": [
+            45,
+            398,
+            565,
+            622
+          ],
+          "width": 1301,
+          "height": 560,
+          "label": "【問2】：题号与题干、図3（C・D・r・R クランパ回路）与図4（Vi の方形波波形）及两図号",
+          "sha256": "a72dd1effbdb9c5f8af169aafe905287333b39e9f33ab1479cf8a587973b6c0e"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-c1",
+      "number": "C【問1】",
+      "title": "制御工学：正弦波応答の振幅比から一次遅れ系の伝達関数を求める",
+      "titleKind": "editorial",
+      "topics": [
+        "一次遅れ系",
+        "周波数応答",
+        "伝達関数",
+        "ゲイン"
+      ],
+      "summary": "某一次延迟系统（1 次遅れ系）输入角周波数 ω=1 的正弦波时，经过充分时间后的输出为与输入同周波数、振幅为输入 1/3 倍的正弦波；同一系统输入 ω=0.5 的正弦波时，输出为同周波数、振幅为输入 √3/3 倍的正弦波。求该系统的传递函数。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 13 页渲染图（扫描页，文字层为空）：裁图含本題题号与题干全部小问；页眉「平成21年度 九州大学大学院システム情報科学府修士課程入学試験問題 −制御工学−」「全４問」框与页脚页码未收入。 ω=1・1/3 倍、ω=0.5・√3/3 倍两组条件与「十分時間が経過した後の出力」表述完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-c1-01.png",
+          "page": 13,
+          "box": [
+            60,
+            143,
+            560,
+            238
+          ],
+          "width": 1250,
+          "height": 238,
+          "label": "【問1】：题号与两段正弦波响应条件（ω=1 で 1/3 倍、ω=0.5 で √3/3 倍）",
+          "sha256": "8a4197468da81401873a5c91fbd27593329a0854e563e48cb08e9dbb99b00f04"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-c2",
+      "number": "C【問2】",
+      "title": "制御工学：一次系の定常偏差とコントローラの改良",
+      "titleKind": "editorial",
+      "topics": [
+        "定常偏差",
+        "安定性",
+        "外乱",
+        "積分制御"
+      ],
+      "summary": "制御对象 ẏ(t)=3y(t)+u(t)+d(t)（y 为输出、u 为输入、d 为不可测外乱）。(1) 取控制器 u(t)=−Ky(t)+r(t)（K 为定数、r 为目标值），求使制御系稳定的 K 的条件。(2) 令 r 为单位阶跃函数，求使定常偏差在 0.1 以下的 K 的条件。(3) 令 r 为单位阶跃函数、d=0，给出使定常偏差收敛到 0 的控制器改良方案一例（控制器只由线形要素构成，控制器状态变量数取必要最小限）。(4) 令 d 为单位阶跃函数、r=0，同样给出使定常偏差收敛到 0 的控制器改良方案一例（条件同 (3)）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 13 页渲染图（扫描页，文字层为空）：裁图含本題题号与题干全部小问；页眉「平成21年度 九州大学大学院システム情報科学府修士課程入学試験問題 −制御工学−」「全４問」框与页脚页码未收入。 ẏ(t)=3y(t)+u(t)+d(t)、u(t)=−Ky(t)+r(t)、0.1 以下的阈值与 (3)(4) 的「線形な要素のみ」「状態変数の数は必要最小限」条件逐项核对。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-c2-01.png",
+          "page": 13,
+          "box": [
+            60,
+            249,
+            560,
+            530
+          ],
+          "width": 1250,
+          "height": 703,
+          "label": "【問2】：题号、制御対象 ẏ=3y+u+d、(1)–(4) 四小问（含 K の条件・定常偏差 0.1 以下・外乱抑圧の改良例）",
+          "sha256": "c609b0028a0b266e461da881db6e5ceac3029e326f778bedbc6bc5ab8f6524b7"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-c3",
+      "number": "C【問3】",
+      "title": "制御工学：センサの定値オフセットによる偏差の除去可能性",
+      "titleKind": "editorial",
+      "topics": [
+        "フィードバック制御",
+        "センサオフセット",
+        "定常偏差",
+        "外乱"
+      ],
+      "summary": "图所示的反馈控制系统中，C 为控制器、G 为制御对象、H 为传感器的特性。传感器本应选 H=1 的特性，但实际校正不充分，其测定值总是比真值大一个定值 a。问：控制开始经过十分时间后，能否设计控制器 C 使由该传感器偏差引起的偏差 e 收敛到 0？可能时说明应如何做。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 13 页渲染图（扫描页，文字层为空）：裁图含本題题号与题干全部小问；页眉「平成21年度 九州大学大学院システム情報科学府修士課程入学試験問題 −制御工学−」「全４問」框与页脚页码未收入。 定值 a、「十分時間が経過した後に…偏差 e が 0 に収束するようにコントローラ C を設計することは可能か」与方块图（r, e, u, y, C, G, H, 目標値/偏差/制御入力/出力 标注）完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-c3-01.png",
+          "page": 13,
+          "box": [
+            60,
+            545,
+            560,
+            738
+          ],
+          "width": 1250,
+          "height": 483,
+          "label": "【問3】：题号与题干、フィードバック制御系のブロック線図（目標値 r・偏差 e・制御入力 u・出力 y・C/G/H）",
+          "sha256": "cc420124e7b2a03f81d22fc87af73fd2ec7f789543cdbf7a56e65a030ac33e16"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-c4",
+      "number": "C【問4】",
+      "title": "制御工学：二つの状態方程式の伝達関数の比較",
+      "titleKind": "editorial",
+      "topics": [
+        "状態方程式",
+        "伝達関数",
+        "可制御性",
+        "可観測性"
+      ],
+      "summary": "有由状态方程式与输出方程式表示的两个系统。系统 1：ẋ=−2x+u，y=x。系统 2：ẋ′=[[1,1],[0,−2]]x′+[[0],[1]]u′，y′=[0 1]x′。(1) 分别求两系统的传递函数。(2) 比较两系统的传递函数，并说明为何得到该比较结果。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 14 页渲染图（扫描页，文字层为空）：裁图含本題题号与题干全部小问；页眉「平成21年度 九州大学大学院システム情報科学府修士課程入学試験問題 −制御工学−」「全４問」框与页脚页码未收入。 系统 1 的 ẋ=−2x+u, y=x 与系统 2 的 2×2 矩阵 A、B=[0 1]^T、C=[0 1] 排版完整（矩阵括号未切边）；本页其余空白未收入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-c4-01.png",
+          "page": 14,
+          "box": [
+            60,
+            79,
+            560,
+            250
+          ],
+          "width": 1250,
+          "height": 428,
+          "label": "【問4】：题号、系统 1 与系统 2 的状态・输出方程式、(1)(2) 两小问",
+          "sha256": "2620af36a91cade923943fab652d37438b883cbcb035a71e46c52202372f5ee9"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-d1",
+      "number": "D【問1】",
+      "title": "電磁気学：同心球導体の静電エネルギーと球殻内面の力",
+      "titleKind": "editorial",
+      "topics": [
+        "静電エネルギー",
+        "同心球",
+        "導体",
+        "静電圧力"
+      ],
+      "summary": "図1 所示，半径 a 的导体球 I 与内半径 b、外半径 c 的导体球殻 II 同心配置。导体外部为真空，诱电率为 ε0。(1) 给导体球 I 电荷 Q1、导体球殻 II 电荷 Q2 时，求该导体系所蓄的静电能；并求作用在导体球殻内表面单位面积上的力的大小。(2) 接着将导体球 I 接地，求接地后导体系所蓄的静电能。(3) 说明上述 (1) 与 (2) 的静电能之差由何产生。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 18 页渲染图（扫描页，文字层为空）：裁图含题号、题干全部小问与对应図及其図号；页眉「平成２１年度大学院入学試験問題 電磁気学 （平成２０年８月２７日）」与页脚页码未收入。 Q1・Q2 的电荷设定、「単位面積あたり働く力の大きさ」、「接地後」的静电能与 (3) 的差异原因均完整；図1 中 a・b・c、I・II 标注与図1 字样清晰。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-d1-01.png",
+          "page": 18,
+          "box": [
+            45,
+            88,
+            560,
+            345
+          ],
+          "width": 1288,
+          "height": 643,
+          "label": "【問1】：题号、(1)(2)(3) 三小问与図1（同心球 I・II 与半径 a・b・c）及図号",
+          "sha256": "677d47e68529546b7f46d8141ed981b6d1e5dde9c4490d84fc78490a52800a55"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-d2",
+      "number": "D【問2】",
+      "title": "電磁気学：誘電体の分極と平行平板コンデンサ",
+      "titleKind": "editorial",
+      "topics": [
+        "誘電体",
+        "分極",
+        "電束密度",
+        "平行平板コンデンサ",
+        "静電容量"
+      ],
+      "summary": "真空中の誘電率を ε0=8.9×10⁻¹² F/m とする。(1) 比誘電率 10 的诱电体置于 2 kV/m 的电场中，求该诱电体的分极强度、分极率与电束密度。(2) 図2(a) 所示极板间隔 10 mm、面积足够大的平行平板空气电容器，将极板间隔增至 12 mm 并在极板间插入厚 8 mm 的诱电体后，静電容量变为 2 倍。求该诱电体的比诱电率（忽略端效应）。(3) 用比诱电率 10 的诱电体制作静電容量 10 pF、可加 5 kV 电压的平行平板电容器，设诱电体内电场为 1 kV/mm，求极板面积（忽略端效应）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 18 页渲染图（扫描页，文字层为空）：裁图含题号、题干全部小问与对应図及其図号；页眉「平成２１年度大学院入学試験問題 電磁気学 （平成２０年８月２７日）」与页脚页码未收入。 ε0=8.9×10⁻¹² F/m、2 kV/m、10 mm/12 mm/8 mm、10 pF・5 kV・1 kV/mm 等数值逐项核对；図2(a)(b) 两幅（含 10 mm・12 mm・8 mm 尺寸标注与「誘電体」阴影块）与図2(a)/図2(b) 图号完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-d2-01.png",
+          "page": 18,
+          "box": [
+            45,
+            408,
+            560,
+            725
+          ],
+          "width": 1288,
+          "height": 793,
+          "label": "【問2】：题号、ε0=8.9×10⁻¹² F/m、(1) 分極、(2) 平行平板コンデンサと図2(a)(b)、(3) 10 pF・5 kV の設計",
+          "sha256": "d68ef24c4fe2eb4aec1a8217a5e0b1418d3454ade963f04e3d9bfb09bcddf3f0"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-d3",
+      "number": "D【問3】",
+      "title": "電磁気学：円柱導体の磁界・磁気エネルギーとポインティングベクトル",
+      "titleKind": "editorial",
+      "topics": [
+        "アンペールの法則",
+        "磁気エネルギー",
+        "ポインティングベクトル",
+        "表皮効果"
+      ],
+      "summary": "図3 に示すように、単位長さあたりの抵抗が R である半径 a の円柱導体に直流電流 I が一様に流れている。ただし、すべての領域で透磁率は μ とする。(1) 導体内部および外部の磁界 H の中心軸からの距離 r に対する分布を求めよ。(2) 導体内部に蓄えられる単位長さあたりの磁気エネルギー Um を求めよ。(3) 導体内部の電界 E を求めよ。(4) 導体表面におけるポインティングベクトル S の大きさと向きを求めよ。(5) 導体表面から単位長さあたりの導体内部に流入する電力 P を、表面の S を用いて求めよ。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 19 页渲染图（扫描页，文字层为空）：裁图含题号、题干全部小问与对应図及其図号；页眉「平成２１年度大学院入学試験問題 電磁気学 （平成２０年８月２７日）」与页脚页码未收入。 単位長さあたりの抵抗 R、一様電流 I、透磁率 μ 的设定与 (1)–(5)（磁界分布・Um・E・S の大きさと向き・P）完整；図3 的円柱と a・r 标注与図3 字样清晰。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-d3-01.png",
+          "page": 19,
+          "box": [
+            45,
+            70,
+            560,
+            396
+          ],
+          "width": 1288,
+          "height": 815,
+          "label": "【問3】：题号、円柱導体の設定、(1)–(5) 五小问与図3（半径 a の円柱と座標）及図号",
+          "sha256": "856d33cf31aeae1315342122f561da01f249182ab585d948188f0b163fae0b8c"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-e1",
+      "number": "E【1】",
+      "title": "半導体デバイス：Si 中のキャリア輸送現象（移動度・キャリア密度の温度依存性）",
+      "titleKind": "editorial",
+      "topics": [
+        "半導体",
+        "移動度",
+        "キャリア密度",
+        "フェルミ準位",
+        "温度依存性"
+      ],
+      "summary": "【問題1】(25 点)。关于在硅 (Si) 中漂移运动的载流子（电子、正孔）。(1) 在室温 (300 K) 测定添加了不纯物的样品群 (a)–(e) 的抵抗率、载流子密度与移动度，结果如表；求表中空格①、② 的数值（電気素量取 1.6×10⁻¹⁹ C）。表列为抵抗率 (Ωm)、キャリア密度 (m⁻³)、移動度 (m²/Vs)、リン (P) 密度 (m⁻³)、ボロン (B) 密度 (m⁻³)，样品 (a)–(e) 中 (a) 的抵抗率为①、(c) 的移动度为②。(2) 测定各样品所含不纯物，所有样品都同时检出 V 族不纯物 P 与 III 族不纯物 B，结果如该表；(a)(b)(c) 中 P 密度高于 B 密度，(d)(e) 中 B 密度高于 P 密度，求空格③④⑤ 的数值。(3) 室温下样品 (b) 的移动度高于 (c)，但升温后两者几乎相同，简述理由。(4) 室温下 (b) 的移动度高于 (d)。此时在以能量为纵轴、波数为横轴的能量带图中，传导带的底与价电带的顶哪一个曲率更锐？附理由回答。(5) 样品 (a)(b) 的载流子密度呈怎样的温度变化？以载流子密度的对数表示为纵轴、绝对温度 T 的倒数为横轴，示意画出 (a)(b) 的温度变化。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 22 页渲染图（扫描页，文字层为空）：裁图含题号与配点、题干全部小问；页眉与页脚页码未收入。 配点「(25点)」、5 试料 (a)–(e) 的表格（抵抗率・電子密度・正孔密度・移動度・P・B 六列，①–⑤ 空格）与 (1)–(5) 五小问完整；页顶「平成21年度・修士課程入学試験・半導体デバイス問題」框与注意 1・2 已单列为 commonRegion，未混入本題裁图。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-e1-01.png",
+          "page": 22,
+          "box": [
+            55,
+            117,
+            560,
+            782
+          ],
+          "width": 1263,
+          "height": 1663,
+          "label": "【問題1】：题号与配点 25 点、Si 中のキャリア輸送の説明、(1) 表の空欄①②、(2) 表の空欄③④⑤、(3)(4)(5) と 5 試料の表",
+          "sha256": "1a6dd73dc289cba74012b775391e439599f99839743b08f6adb399d6422df1e2"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-e2",
+      "number": "E【2】",
+      "title": "半導体デバイス：pn 接合の熱平衡状態と拡散電位",
+      "titleKind": "editorial",
+      "topics": [
+        "pn接合",
+        "拡散電位",
+        "空乏層",
+        "エネルギー帯図",
+        "接合容量"
+      ],
+      "summary": "【問題2】(20 点)。(1) 画出 pn 接合热平衡状态的能带图，并标出 EV、EC、EF、Vd、xp、xn。(2) 由 nn 与 np 的表达式导出扩散电位 Vd。(3) 由 xp 的表达式导出空乏层宽 d=xp+xn 的表达式。(4) 说明如何由接合容量 C 对逆加电压 VR 的特性求 Vd。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 23 页渲染图（扫描页，文字层为空）：裁图含题号与配点、题干全部小问；页眉与页脚页码未收入。 配点「(20点)」、EV/EC/EF/Vd/xp/xn 六个标注要求、nn・np 与 xp 的表达式、d=xp+xn 与「C–VR 特性から Vd を求める方法」完整；公式块（Vd=(kT/q)ln(nn·np/ni²) 等）与 xp・d 的分数式排版未被切行。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-e2-01.png",
+          "page": 23,
+          "box": [
+            55,
+            32,
+            560,
+            590
+          ],
+          "width": 1263,
+          "height": 1395,
+          "label": "【問題2】：题号与配点 20 点、(1) 熱平衡のエネルギー帯図、(2) Vd の導出、(3) d=xp+xn、(4) C–VR 特性から Vd",
+          "sha256": "bb71fe4734fe27af07ae75a8d8fa4c12d2c814a6472ae1d7ddc3937e6482bafd"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-e3",
+      "number": "E【3】",
+      "title": "半導体デバイス：npn バイポーラトランジスタの動作と電流増幅率",
+      "titleKind": "editorial",
+      "topics": [
+        "バイポーラトランジスタ",
+        "npn",
+        "電流増幅率",
+        "ベース接地",
+        "エミッタ注入効率"
+      ],
+      "summary": "【問題3】(25 点)。关于 npn 双极晶体管。(1) 画断面构造图，标出 E、B、C，并标出为使晶体管动作所加的偏压极性。(2) 画活性作动时的能带图，并标出 EV、EC、EF、Vd、VE、VC。(3) 证明式①。(4) 说明为增大电流放大率 α 而取 NE > NB 的理由。(5) 由 α 求 β，并求 α=0.99 时的 β 值。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 24 页渲染图（扫描页，文字层为空）：裁图含题号与配点、题干全部小问；页眉与页脚页码未收入。 配点「(25点)」、E/B/C 与偏压极性、EV/EC/EF/Vd/VE/VC 六个标注、式① 与「NE > NB」「α から β を求め α=0.99 のときの β」完整；各小问间的公式块未被切断。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-e3-01.png",
+          "page": 24,
+          "box": [
+            55,
+            32,
+            560,
+            690
+          ],
+          "width": 1263,
+          "height": 1645,
+          "label": "【問題3】：题号与配点 25 点、(1) 断面構造図とバイアス極性、(2) 活性作動時のエネルギー帯図、(3) 式①の証明、(4) NE>NB の理由、(5) β",
+          "sha256": "8ab6a65c40e1a5705a6a9aec620a81f8fb5d643e510062f04055ceaad9054116"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-e4",
+      "number": "E【4】",
+      "title": "半導体デバイス：n チャネル MOSFET の反転層電荷とドレイン電流",
+      "titleKind": "editorial",
+      "topics": [
+        "MOSFET",
+        "反転層",
+        "ドレイン電流",
+        "飽和領域",
+        "しきい値電圧"
+      ],
+      "summary": "【問題4】(30 点)。关于 n 沟道 MOSFET。(1) 导出反転层电荷面密度 Qn(x) 的表达式。(2) 求 VDS=0、VGS=5.2 V 时 x=0 处的 Qn。(3) 导出漏极电流 ID 的表达式。(4) 说明漏极电流饱和的原因，并导出饱和电流的表达式。(5) 用给定参数计算 ID。(6) 要使阈值电压向正方向移动，应增加 P 还是 B 的杂质浓度？",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 25 页渲染图（扫描页，文字层为空）：裁图含题号与配点、题干全部小问；页眉与页脚页码未收入。 配点「(30点)」、Qn(x)、VDS=0・VGS=5.2 V、ID の導出・飽和・数値計算、しきい値電圧を正方向へ動かす不純物（P か B か）まで全 6 小问完整；含数值条件的公式行未被切。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-e4-01.png",
+          "page": 25,
+          "box": [
+            55,
+            32,
+            560,
+            762
+          ],
+          "width": 1263,
+          "height": 1825,
+          "label": "【問題4】：题号与配点 30 点、(1) Qn(x) の導出、(2) VGS=5.2V での Qn、(3) ID の式、(4) 飽和、(5) ID の計算、(6) しきい値電圧の移動",
+          "sha256": "40b6e7db94d88d7df278acaa70c0a596e5fa1ec9b20e0a5870477afaf6a123aa"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-f1",
+      "number": "F【A】",
+      "title": "計算機工学：ブール代数の等式証明と有限状態機械の最小状態遷移表",
+      "titleKind": "editorial",
+      "topics": [
+        "ブール代数",
+        "有限状態機械",
+        "状態数最小化",
+        "排他的論理和"
+      ],
+      "summary": "【A】回答以下问题。(1) 证明下列布尔逻辑式成立：(i) abc + ā·de = a(b̄ + c̄) + ā(d̄ + ē)；(ii) a(b̄ + c̄) + b(c̄ + ā) + c(ā + b̄) = (a + b + c)(ā + b̄ + c̄)。(2) 1 比特输入、1 比特输出的有限状态机械 M 的入出力应答如下表示时，给出 M 的状态数最小的状态迁移表。ただし、I(t)、O(t) 分别为时刻 t 的输入与输出值，ā 表示 a 的逻辑否定，a⊕b 表示 a 与 b 的排他的论理和：O(0)=¬I(0)；O(1)=I(1)⊕I(0)；O(t)=I(t)⊕I(t−2)（t≥2）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 30 页渲染图（扫描页，文字层为空，边界依行墨迹带定位后目视复核）：本页页顶「平成21年度 九州大学大学院システム情報科学府 電気電子工学専攻 修士課程 入学試験問題」「計算機工学 (Computer engineering) (8枚中の1)」题名块与「5問のうちから3問を選び…」指示框（及分隔横线）已单列为 commonRegion，未混入本題裁图。 裁图起于「A 以下の問に答えよ．」，止于 O(t)=I(t)⊕I(t−2) 的第三个条件式（t≥2），含 (1)(i)(ii) 两式与 (2) 的全部设定；下方「B …」起属下一題，未收入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-f1-01.png",
+          "page": 30,
+          "box": [
+            80,
+            318,
+            560,
+            600
+          ],
+          "width": 1200,
+          "height": 705,
+          "label": "【A】：题号 A 与「以下の問に答えよ」、(1) 二つのブール等式の証明、(2) 有限状態機械 M の入出力条件と最小状態遷移表",
+          "sha256": "c24e4f3250f6f283f852c9e5e62ed243ba93d80b0bb1c9d6df1fd9721951cfc5"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-f2",
+      "number": "F【B】",
+      "title": "計算機工学：ダイレクトマップと 2 ウェイ・セットアソシアティブのキャッシュヒット率",
+      "titleKind": "editorial",
+      "topics": [
+        "キャッシュ",
+        "ダイレクトマップ",
+        "セットアソシアティブ",
+        "LRU",
+        "ヒット率"
+      ],
+      "summary": "【B】关于微处理器搭载的 cache 内存。块大小为 4 字节（1 语），地址长为 6 比特。对下列字节地址（2 进制表示）按 1 到 8 的顺序发生 cache 访问：1:100000, 2:111100, 3:110000, 4:000100, 5:100000, 6:001100, 7:111100, 8:001100。(1) 求初期状态为図2(A) 的ダイレクトマップ方式下的 cache 命中率。(2) 求初期状态为図2(B) 的 2 ウェイ・セットアソシアティブ方式下的 cache 命中率。ただし、キャッシュ・ブロックの置換は LRU 法を前提とする。図2(A) 为 4 行（インデックス 00/01/10/11）的タグ・データ表，図2(B) 为 2 行 × way0/way1 的タグ・LRU 情報・データ表，図2 の説明为「図2:キャッシュの初期状態(全てのデータは有効)」。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 30、31 页渲染图（扫描页，文字层为空）：本題跨页，第 30 页收「B マイクロプロセッサに搭載されるキャッシュ・メモリについて考える」起至 8 个バイトアドレス列，第 31 页收 (1)(2) 两小问与図2(A)(B) 两张キャッシュ初期状態図及其図号・図2 の説明文；两页的页顶题名块与指示框（第 30 页 (8枚中の1)、第 31 页 (8枚中の2)）均未收入，第 31 页下方「C …」起属下一題未收入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-f2-01.png",
+          "page": 30,
+          "box": [
+            80,
+            602,
+            560,
+            722
+          ],
+          "width": 1200,
+          "height": 300,
+          "label": "【B】前段：题号 B、ブロックサイズ 4 バイト・アドレス長 6 ビットの設定、8 個のバイトアドレス列",
+          "sha256": "82ca8f8ef44048097a41a94982c70666615e35b36b209b1594d674eb25157139"
+        },
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-f2-02.png",
+          "page": 31,
+          "box": [
+            80,
+            250,
+            560,
+            510
+          ],
+          "width": 1200,
+          "height": 650,
+          "label": "【B】後段：(1) ダイレクトマップのヒット率、(2) 2 ウェイ・セットアソシアティブ（LRU）のヒット率と図2(A)(B)・図2 の説明",
+          "sha256": "912e0dc1978ddf4d7130786e0d7e636ac6eed27adc92709030e2db2f30558e4c"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-f3",
+      "number": "F【C】",
+      "title": "計算機工学：ハッシュ表のチェイン法と衝突の少ない法の選択",
+      "titleKind": "editorial",
+      "topics": [
+        "ハッシュ表",
+        "チェイン法",
+        "衝突",
+        "剰余"
+      ],
+      "summary": "【C】考虑存放整数键集合 K={4,7,11,23,41,71} 的哈希表。(1) 哈希函数取 h(x)=x mod 7、冲突用链式法处理（新键插入到各槽链的头部），按键升序插入时，写出该表的内容。(2) 求使 h′(x)=x mod m 不产生冲突的最小的 m。(3) 说明取 m 为 2 的幂时会产生什么问题。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 31 页渲染图（扫描页，文字层为空）：裁图起于「C 整数キーの集合 K = {4,7,11,23,41,71} を格納するハッシュ表を考える」，含 (1)(2)(3) 三小问全文；上方図2 の説明文（図2:キャッシュの初期状態）属前題 B，未收入；页顶题名块 (8枚中の2) 与指示框未收入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-f3-01.png",
+          "page": 31,
+          "box": [
+            80,
+            522,
+            560,
+            730
+          ],
+          "width": 1200,
+          "height": 520,
+          "label": "【C】：题号 C、K={4,7,11,23,41,71}、(1) h(x)=x mod 7 のチェイン法、(2) 衝突しない最小の m、(3) m が 2 の冪の問題点",
+          "sha256": "7ea609ea8ac70c7496bf554520f7c57b4dd8d3c65e1c73b49861174946900453"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-f4",
+      "number": "F【D】",
+      "title": "計算機工学：最小全域木アルゴリズムの概略",
+      "titleKind": "editorial",
+      "topics": [
+        "グラフ",
+        "最小全域木",
+        "アルゴリズム"
+      ],
+      "summary": "【D】说明求最小全域木（minimum spanning tree）问题的算法的概略。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 32 页渲染图（扫描页，文字层为空）：本題只有一行题干，裁图严格限于该行（含题号 D）；页顶题名块 (8枚中の3) 与指示框、下方「E …」起属下一題，均未收入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-f4-01.png",
+          "page": 32,
+          "box": [
+            80,
+            250,
+            560,
+            292
+          ],
+          "width": 1200,
+          "height": 105,
+          "label": "【D】：题号 D 与「最小全域木問題を解くアルゴリズムの概略を説明せよ」",
+          "sha256": "1a4517760a67a2dc6686adbbea5af3b486fc4b63fd2d6a2fb0ea8890862881ac"
+        }
+      ]
+    },
+    {
+      "id": "kyushu-isee-ee-2009-f5",
+      "number": "F【E】",
+      "title": "計算機工学：優先度付きプロセス・スケジューリングの時刻ごとの状態",
+      "titleKind": "editorial",
+      "topics": [
+        "スケジューリング",
+        "優先度",
+        "タイムスライス",
+        "プリエンプション",
+        "プロセス状態"
+      ],
+      "summary": "【E】关于下列带优先级的进程调度，回答末尾的 (1)–(5)。最高优先级为 3、最低为 0，共 4 个优先级各有一个队列，Ready 状态的进程按优先级放入对应队列并以 FIFO 方式存放。开始后的调度在进程由 Run 状态迁移到 Ready 或 Wait 状态时、或进程结束时进行，不进行抢占（preemption），时间片间隔设为 0.5，处于 Run 状态满 0.5 的进程被强制置为 Ready。调度开始时刻 0，优先级 3 的进程 A、B，优先级 2 的 C，优先级 1 的 D、E，优先级 0 的 F 全为 Ready，队列顺序为优先级 3: A,B、优先级 1: D,E。各进程按图示从左到右依次执行指定的处理，进程切换开销为 0。(1) 答出时刻 1.95 各进程的状态（已结束者记为终了）。(2) 答出时间片功能第一次起作用的时刻及该时刻切换前后的进程。(3) 答出进程 F 第二次成为 Run 状态的时刻。(4) 求各进程的结束时刻。(5) 有抢占时，答出时刻 0.65 各进程的状态。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-10-31",
+        "notes": "对照原卷第 32、33 页渲染图（扫描页，文字层为空）：本題跨页，第 32 页收 E 的题号、4 级优先度与 FIFO・タイムスライス 0.5・非プリエンプション的规则、初期 Ready 状态与队列顺序、A–F 六个进程的 CPU 处理/IO 待ち 时间列；第 33 页收 (1) 時刻 1.95、(2) タイムスライス一回目、(3) F が二度目に Run、(4) 各プロセスの終了時刻、(5) プリエンプションがある場合の時刻 0.65 的全 5 小问；两页的题名块（(8枚中の3)/(8枚中の4)）与指示框均未收入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-f5-01.png",
+          "page": 32,
+          "box": [
+            80,
+            302,
+            560,
+            740
+          ],
+          "width": 1200,
+          "height": 1095,
+          "label": "【E】前段：题号 E 与调度规则全文、A–F 六プロセスの CPU/IO 処理列",
+          "sha256": "c643f53213cd14bef380dcd2b7b6f99b31f2872f5ba97ab67818964155e5b837"
+        },
+        {
+          "src": "assets/question-bank/kyushu-isee-ee-2009/kyushu-isee-ee-2009-f5-02.png",
+          "page": 33,
+          "box": [
+            80,
+            250,
+            560,
+            432
+          ],
+          "width": 1200,
+          "height": 455,
+          "label": "【E】後段：(1)–(5) 五小问",
+          "sha256": "ab09dbab23278691740ffc20b5e3271092e45641a56a0364cad7e277ce93a9f0"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面页：仅研究科・専攻・年度与実施日，已收入 commonRegions；页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英語能力評価（TOEIC/TOEFL）に関するお知らせ（平成２０年１１月１０日付）：整册插入的通知页，非试题页，不入库。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": true,
+      "excluded": "数学冊子封面与解答上の注意（含 6 問から 3 問選択の指示），已收入 commonRegions；页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "kyushu-isee-ee-2009-m1",
+        "kyushu-isee-ee-2009-m2",
+        "kyushu-isee-ee-2009-m3"
+      ],
+      "common": false,
+      "excluded": "本页同排 3 題（【問題1】【問題2】【問題3】），各題独立裁图；页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "kyushu-isee-ee-2009-m4",
+        "kyushu-isee-ee-2009-m5",
+        "kyushu-isee-ee-2009-m6"
+      ],
+      "common": false,
+      "excluded": "本页同排 3 題（【問題4】【問題5】【問題6】），各題独立裁图；页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（数学 No.1–No.3）",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（数学 No.4–No.6）",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": true,
+      "excluded": "専門科目Ⅰ冊子封面与解答上の注意（含 3 分野表），已收入 commonRegions；页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "kyushu-isee-ee-2009-a1",
+        "kyushu-isee-ee-2009-a2",
+        "kyushu-isee-ee-2009-a3",
+        "kyushu-isee-ee-2009-a4"
+      ],
+      "common": false,
+      "excluded": "本页同排 4 題（電気回路 問1–問4，各带右侧図1–図4），各題独立裁图；页首「電気回路」科目名与「4つの問から2つを選び…」指示行、页脚页码不计。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（電気回路 Electric Circuits）",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "kyushu-isee-ee-2009-b1",
+        "kyushu-isee-ee-2009-b2"
+      ],
+      "common": false,
+      "excluded": "本页同排 2 題（電子回路 1.・2.，各带两幅図），各題独立裁图；页眉（平成２１年度…／電子回路 框／試験問題 平成２０年８月２７日（水）１３：４０〜１５：００）与页脚页码不计。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（電子回路 ELECTRONIC CIRCUITS）",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "kyushu-isee-ee-2009-c1",
+        "kyushu-isee-ee-2009-c2",
+        "kyushu-isee-ee-2009-c3"
+      ],
+      "common": false,
+      "excluded": "本页同排 3 題（制御工学 問題1–問題3），各題独立裁图；页眉「平成21年度…−制御工学−」「全４問」框与页脚页码不计。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "kyushu-isee-ee-2009-c4"
+      ],
+      "common": false,
+      "excluded": "本页只有制御工学 問題4（位于页上部，其余空白）；页脚页码与页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（制御工学 Control Engineering Question 1–3）",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（制御工学 Question 3 末尾与 Question 4）",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [],
+      "common": true,
+      "excluded": "専門科目Ⅱ冊子封面与解答上の注意（含 3 分野表），已收入 commonRegions；页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [
+        "kyushu-isee-ee-2009-d1",
+        "kyushu-isee-ee-2009-d2"
+      ],
+      "common": false,
+      "excluded": "本页同排 2 題（電磁気学 問1・問2，各带図），各題独立裁图；页眉「平成２１年度大学院入学試験問題 電磁気学 （平成２０年８月２７日）」与页脚页码不计。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [
+        "kyushu-isee-ee-2009-d3"
+      ],
+      "common": false,
+      "excluded": "本页只有電磁気学 問3（含図3）；页脚页码与页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（電磁気学 [1][2]）",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（電磁気学 [3]）",
+      "reviewed": true
+    },
+    {
+      "page": 22,
+      "questionIds": [
+        "kyushu-isee-ee-2009-e1"
+      ],
+      "common": true,
+      "excluded": "本页页顶的題名框「平成21年度・修士課程入学試験・半導体デバイス問題」与注意 1・2 已收入 commonRegions；半導体デバイス 問題1(25点) 独立裁图；页脚页码不计。",
+      "reviewed": true
+    },
+    {
+      "page": 23,
+      "questionIds": [
+        "kyushu-isee-ee-2009-e2"
+      ],
+      "common": false,
+      "excluded": "本页只有半導体デバイス 問題2(20点)；页脚页码与页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 24,
+      "questionIds": [
+        "kyushu-isee-ee-2009-e3"
+      ],
+      "common": false,
+      "excluded": "本页只有半導体デバイス 問題3(25点)；页脚页码与页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 25,
+      "questionIds": [
+        "kyushu-isee-ee-2009-e4"
+      ],
+      "common": false,
+      "excluded": "本页只有半導体デバイス 問題4(30点)；页脚页码与页边空白不计。",
+      "reviewed": true
+    },
+    {
+      "page": 26,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（半導体デバイス 問題1）",
+      "reviewed": true
+    },
+    {
+      "page": 27,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（半導体デバイス 問題2）",
+      "reviewed": true
+    },
+    {
+      "page": 28,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（半導体デバイス 問題3）",
+      "reviewed": true
+    },
+    {
+      "page": 29,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（半導体デバイス 問題4）",
+      "reviewed": true
+    },
+    {
+      "page": 30,
+      "questionIds": [
+        "kyushu-isee-ee-2009-f1",
+        "kyushu-isee-ee-2009-f2"
+      ],
+      "common": true,
+      "excluded": "本页页顶的題名块（計算機工学 (Computer engineering) (8枚中の1)）与「5問のうちから3問を選び…」指示框已收入 commonRegions；线下 問題A・問題B 前段各独立裁图；页脚页码不计。",
+      "reviewed": true
+    },
+    {
+      "page": 31,
+      "questionIds": [
+        "kyushu-isee-ee-2009-f2",
+        "kyushu-isee-ee-2009-f3"
+      ],
+      "common": false,
+      "excluded": "本页题名块（8枚中の2）与指示框、分隔横线不计；問題B 後段（(1)(2) と図2）与問題C 各独立裁图；页脚页码不计。",
+      "reviewed": true
+    },
+    {
+      "page": 32,
+      "questionIds": [
+        "kyushu-isee-ee-2009-f4",
+        "kyushu-isee-ee-2009-f5"
+      ],
+      "common": false,
+      "excluded": "本页题名块（8枚中の3）与指示框不计；問題D 与問題E 前段各独立裁图；页脚页码不计。",
+      "reviewed": true
+    },
+    {
+      "page": 33,
+      "questionIds": [
+        "kyushu-isee-ee-2009-f5"
+      ],
+      "common": false,
+      "excluded": "本页题名块（8枚中の4）与指示框不计；只有問題E 的 (1)–(5)；页脚页码不计。",
+      "reviewed": true
+    },
+    {
+      "page": 34,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（計算機工学 問題A・問題B (8枚中の5)）",
+      "reviewed": true
+    },
+    {
+      "page": 35,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（計算機工学 問題B・問題C (8枚中の6)）",
+      "reviewed": true
+    },
+    {
+      "page": 36,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（計算機工学 問題D・問題E (8枚中の7)）",
+      "reviewed": true
+    },
+    {
+      "page": 37,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文翻译页：本册子的独立英译页，与日文原件页一一对应，正本只取日文页，故不入库。（計算機工学 問題E (1)–(5) (8枚中の8)）",
+      "reviewed": true
+    }
+  ]
+}
