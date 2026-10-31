@@ -180,6 +180,53 @@
       $('question-grid').append(button);
     });
   }
+  function questionNeighborRows() {
+    const rows = [];
+    items.forEach((q, order) => {
+      if (!q || q.type !== 'questionSet' || !q.paper) return;
+      rows.push(window.QuestionBank.paperNeighborRow({
+        id: q.id,
+        source: {
+          schoolId: q.paper.schoolId || '',
+          graduate: q.provenance && q.provenance.graduate || '',
+          major: q.provenance && q.provenance.major || '',
+          year: q.paper.year,
+          yearBasis: q.paper.yearBasis || ''
+        },
+        questions: q.questions
+      }, order));
+    });
+    return rows;
+  }
+  // A concrete year filter hides other years, so list neighbors disappear.
+  // 上一卷 / 下一卷 still use the same school + 专攻 adjacency as question practice.
+  function yearJumpFor(q) {
+    if (!q || q.type !== 'questionSet' || !state.filters.paperYear || state.filters.paperYear === 'all') return null;
+    if (!window.QuestionBank || typeof window.QuestionBank.adjacentPaperTargets !== 'function' || typeof window.QuestionBank.paperNeighborRow !== 'function') return null;
+    return window.QuestionBank.adjacentPaperTargets(questionNeighborRows(), q.id);
+  }
+  function revealYearTarget(filters, targetId) {
+    return core.filterQuestions(items, filters, recordsForFilter()).some(item => item.id === targetId);
+  }
+  function applyYearJump(target) {
+    if (!target) return;
+    const nextFilters = { ...state.filters, paperYear: String(target.year) };
+    if (!revealYearTarget(nextFilters, target.id) && nextFilters.subject !== 'all') nextFilters.subject = 'all';
+    if (!revealYearTarget(nextFilters, target.id) && nextFilters.search) nextFilters.search = '';
+    if (!revealYearTarget(nextFilters, target.id) && nextFilters.scope !== 'all') nextFilters.scope = 'all';
+    if (!revealYearTarget(nextFilters, target.id)) return;
+    const subjectChanged = nextFilters.subject !== state.filters.subject;
+    state.filters = nextFilters;
+    if (subjectChanged) updateChapters();
+    $('paperYear').value = state.filters.paperYear;
+    $('subject').value = state.filters.subject;
+    $('search').value = state.filters.search || '';
+    touchFilters();
+    state.current = target.id;
+    rebuild(true);
+    $('question-card').focus({ preventScroll: true });
+    $('question-card').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  }
   function navigate(i) {
     if (i < 0 || i >= list.length) return;
     index = i;
@@ -299,7 +346,17 @@
     document.querySelector('.note-details').hidden = q.type === 'questionSet';
     document.querySelector('.note-details').open = q.type !== 'questionSet' && Boolean(r.note);
     $('position').textContent = `${index+1} / ${list.length}`;
-    $('previous').disabled = index === 0; $('next').disabled = index === list.length-1;
+    const yearJumps = yearJumpFor(q);
+    if (yearJumps) {
+      const phrase = target => target ? window.QuestionBank.yearPhrase({ year: target.year, yearBasis: target.yearBasis }) : '';
+      $('previous').disabled = !yearJumps.previous;
+      $('next').disabled = !yearJumps.next;
+      $('previous').title = yearJumps.previous ? phrase(yearJumps.previous) : '暂无更晚年份';
+      $('next').title = yearJumps.next ? phrase(yearJumps.next) : '暂无更早年份';
+    } else {
+      $('previous').disabled = index === 0; $('next').disabled = index === list.length-1;
+      $('previous').title = ''; $('next').title = '';
+    }
     $('answer-text').textContent = q.answerText;
     $('explanation-steps').replaceChildren();
     q.explanation.forEach(step => { const li = document.createElement('li'); li.textContent = step; $('explanation-steps').append(li); });
@@ -366,7 +423,8 @@
   function setFocus(value) { focused = value; $('practice-main').classList.toggle('is-focused', focused); $('focus-practice').setAttribute('aria-pressed', String(focused)); $('focus-practice').textContent = focused ? '退出专注 · Esc' : '专注阅读'; }
   $('focus-practice').addEventListener('click', () => setFocus(!focused));
   if (typeof window.addEventListener === 'function') window.addEventListener('keydown', event => { if (event.key === 'Escape') setFocus(false); });
-  $('previous').addEventListener('click', () => navigate(index-1)); $('next').addEventListener('click', () => navigate(index+1));
+  $('previous').addEventListener('click', () => { const jumps = yearJumpFor(current()); if (jumps) applyYearJump(jumps.previous); else navigate(index-1); });
+  $('next').addEventListener('click', () => { const jumps = yearJumpFor(current()); if (jumps) applyYearJump(jumps.next); else navigate(index+1); });
   for (const id of ['sourceKind','school','major','book','paperYear','subject','chapter','difficulty','type','order','practiceMode']) $(id).addEventListener('change', () => { state.filters[id] = $(id).value; if (id === 'practiceMode') writeMode($(id).value); if (id === 'school') state.filters.major = 'all'; if (id === 'sourceKind') { state.filters.school = 'all'; state.filters.major = 'all'; state.filters.book = 'all'; } touchFilters(); updateSources(); if (id === 'subject') { state.filters.chapter = 'all'; updateChapters(); } rebuild(); });
   $('search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { state.filters.search = $('search').value; touchFilters(); rebuild(); }, 200); });
   document.querySelectorAll('[data-scope]').forEach(b => b.addEventListener('click', () => { state.filters.scope = b.dataset.scope; touchFilters(); rebuild(); }));
