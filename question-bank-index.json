@@ -117,7 +117,8 @@
         {"id": "kyushu-isee-ee-2012", "title": "九州大学 · 2012 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2012", "questionCount": 25, "data": "assets/question-bank/kyushu-isee-ee-2012/paper.json"},
 {"id": "kyushu-isee-ee-2011", "title": "九州大学 · 2011 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2011", "questionCount": 26, "data": "assets/question-bank/kyushu-isee-ee-2011/paper.json"},
         {"id": "kyushu-isee-ee-2010", "title": "九州大学 · 2010 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2010", "questionCount": 26, "data": "assets/question-bank/kyushu-isee-ee-2010/paper.json"},
-{"id": "kyushu-isee-ee-2009", "title": "九州大学 · 2009 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2009", "questionCount": 28, "data": "assets/question-bank/kyushu-isee-ee-2009/paper.json"}
+{"id": "kyushu-isee-ee-2009", "title": "九州大学 · 2009 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2009", "questionCount": 28, "data": "assets/question-bank/kyushu-isee-ee-2009/paper.json"},
+    {"id": "kyushu-isee-ee-2008", "title": "九州大学 · 2008 年度入学 · 电气电子工学专攻", "catalogId": "kyushu-isee-ee-2008", "questionCount": 33, "data": "assets/question-bank/kyushu-isee-ee-2008/paper.json"}
   ],
   "aliases": [
   {
