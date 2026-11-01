@@ -9178,6 +9178,243 @@
       "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25feb.pdf"
     },
     {
+      "id": "sophia-scitec-2016-september-electrical",
+      "universityId": "sophia",
+      "title": "2016年度 · 9月入試 · 電気・電子工学基礎（电气电子基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 9月入試",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "originalYear": "2016年度大学院入学試験 · 9月入試",
+      "admissionYears": [
+        2016
+      ],
+      "examYear": 2015,
+      "examDates": [
+        "2015-09-16"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第48—55页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
+          "originalName": "FILE3207_20180416035623.pdf",
+          "sha256": "fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385",
+          "byteSize": 2025785,
+          "pages": 66,
+          "sourcePaths": [
+            "上智大学/2016/官方完整原件/FILE3207_20180416035623.pdf"
+          ],
+          "startPage": 48,
+          "endPage": 55
+        }
+      ],
+      "sourceBatch": "sophia-ee-archive-20261101",
+      "sourceNote": "2018年官网过去问机器人／历史快照下载的官方合册，无解答。2016年度为入学年度；实际笔试日期为2015-09-16。本题群见原合册PDF第48—55页（页眉为電気・電子工学領域／専門科目（理工基礎），页内1／8至8／8）。题群按電気・電子工学基礎收录，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。未取得官方解答，未做逐题拆分。"
+    },
+    {
+      "id": "sophia-scitec-2017-september-electrical",
+      "universityId": "sophia",
+      "title": "2017年度 · 9月入試 · 電気・電子工学基礎（电气电子基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 9月入試",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "originalYear": "2017年度大学院入学試験 · 9月入試",
+      "admissionYears": [
+        2017
+      ],
+      "examYear": 2016,
+      "examDates": [
+        "2016-09-14"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第42—49页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
+          "originalName": "FILE3141_20180412062417.pdf",
+          "sha256": "9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00",
+          "byteSize": 1970726,
+          "pages": 65,
+          "sourcePaths": [
+            "上智大学/2017/官方完整原件/FILE3141_20180412062417.pdf"
+          ],
+          "startPage": 42,
+          "endPage": 49
+        }
+      ],
+      "sourceBatch": "sophia-ee-archive-20261101",
+      "sourceNote": "2018年官网过去问机器人／历史快照下载的官方合册，无解答。2017年度为入学年度；实际笔试日期为2016-09-14。本题群见原合册PDF第42—49页（页眉为電気・電子工学領域／専門科目（理工基礎），页内1／8至8／8）。题群按電気・電子工学基礎收录，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。未取得官方解答，未做逐题拆分。"
+    },
+    {
+      "id": "sophia-scitec-2018-september-electrical",
+      "universityId": "sophia",
+      "title": "2018年度 · 9月入試 · 電気・電子工学基礎（电气电子基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 9月入試",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "originalYear": "2018年度大学院入学試験 · 9月入試",
+      "admissionYears": [
+        2018
+      ],
+      "examYear": 2017,
+      "examDates": [
+        "2017-09-13"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第35—42页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8.pdf",
+          "originalName": "FILE3094_20180412044349.pdf",
+          "sha256": "abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8",
+          "byteSize": 1713496,
+          "pages": 53,
+          "sourcePaths": [
+            "上智大学/2018/官方完整原件/FILE3094_20180412044349.pdf"
+          ],
+          "startPage": 35,
+          "endPage": 42
+        }
+      ],
+      "sourceBatch": "sophia-ee-archive-20261101",
+      "sourceNote": "2018年官网过去问机器人／历史快照下载的官方合册，无解答。2018年度为入学年度；实际笔试日期为2017-09-13。本题群见原合册PDF第35—42页（页眉明确印作専門科目（電気・電子工学基礎），页内1／8至8／8）。题群按電気・電子工学基礎收录，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。未取得官方解答，未做逐题拆分。"
+    },
+    {
+      "id": "sophia-scitec-2026-september-electrical",
+      "universityId": "sophia",
+      "title": "2026年度 · 9月入試 · 電気・電子工学基礎（电气电子基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 9月入試",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "originalYear": "2026年度大学院入学試験 · 9月入試",
+      "admissionYears": [
+        2026
+      ],
+      "examYear": 2025,
+      "examDates": [
+        "2025-09-10"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11—17页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad.pdf",
+          "originalName": "2026_scitectest_sep.pdf",
+          "sha256": "efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad",
+          "byteSize": 3377903,
+          "pages": 51,
+          "sourcePaths": [
+            "上智大学/2026/官方完整原件/2026_scitectest_sep.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 17
+        },
+        {
+          "label": "解答／解答例原合册 · 電気・電子工学基礎 · PDF第12—13页",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6.pdf",
+          "originalName": "re2026_scitectest_sep_kaitorei.pdf",
+          "sha256": "b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6",
+          "byteSize": 1417911,
+          "pages": 44,
+          "sourcePaths": [
+            "上智大学/2026/官方完整原件/re2026_scitectest_sep_kaitorei.pdf"
+          ],
+          "startPage": 12,
+          "endPage": 13,
+          "answerProvenance": "official-published"
+        }
+      ],
+      "sourceBatch": "sophia-ee-archive-20261101",
+      "sourceNote": "学校官网 adm.sophia.ac.jp 发布的2026年度完整原合册，问题与解答／解答例均与官方下载逐字节一致。2026年度为入学年度；实际笔试日期为2025-09-10。本题群问题见原合册PDF第11—17页，解答／解答例见对应合册PDF第12—13页。题群为理工基礎的选择科目，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。未做逐题拆分。",
+      "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/06/re2026_scitectest_sep_kaitorei.pdf"
+    },
+    {
+      "id": "sophia-scitec-2026-february-electrical",
+      "universityId": "sophia",
+      "title": "2026年度 · 2月入試 · 電気・電子工学基礎（电气电子基础）",
+      "graduateSchool": "理工学研究科",
+      "department": "理工学専攻",
+      "selectionName": "一般入試（博士前期／修士）— 2月入試",
+      "paperYear": 2026,
+      "yearBasis": "academic",
+      "originalYear": "2026年度大学院入学試験 · 2月入試",
+      "admissionYears": [
+        2026
+      ],
+      "examYear": 2026,
+      "examDates": [
+        "2026-02-15"
+      ],
+      "yearEvidence": "cover",
+      "subjects": [
+        "理工基礎",
+        "電気・電子工学基礎"
+      ],
+      "files": [
+        {
+          "label": "問題原合册 · 電気・電子工学基礎 · PDF第11—17页",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493.pdf",
+          "originalName": "2026_scitectest_feb.pdf",
+          "sha256": "b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493",
+          "byteSize": 1651265,
+          "pages": 52,
+          "sourcePaths": [
+            "上智大学/2026/官方完整原件/2026_scitectest_feb.pdf"
+          ],
+          "startPage": 11,
+          "endPage": 17
+        },
+        {
+          "label": "解答／解答例原合册 · 電気・電子工学基礎 · PDF第18—18页",
+          "kind": "answer",
+          "url": "assets/past-papers/documents/e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e.pdf",
+          "originalName": "re2026_scitectest_feb_kaitorei.pdf",
+          "sha256": "e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e",
+          "byteSize": 2048001,
+          "pages": 53,
+          "sourcePaths": [
+            "上智大学/2026/官方完整原件/re2026_scitectest_feb_kaitorei.pdf"
+          ],
+          "startPage": 18,
+          "endPage": 18,
+          "answerProvenance": "official-published"
+        }
+      ],
+      "sourceBatch": "sophia-ee-archive-20261101",
+      "sourceNote": "学校官网 adm.sophia.ac.jp 发布的2026年度完整原合册，问题与解答／解答例均与官方下载逐字节一致。2026年度为入学年度；实际笔试日期为2026-02-15。本题群问题见原合册PDF第11—17页，解答／解答例见对应合册PDF第18页（该页页眉为電気・電子工学基礎，页脚1／1）。随包页码对照写第15—18页，但第15—17页页眉仍为機械工学基礎，不作为本题群起始页。解答合册机械题群首页页眉印作“2025年度”，与问题合册及本题群解答页的2026年度冲突；原印字保留，不据此另建2025年度条目。题群为理工基礎的选择科目，不把题群与志望领域强行绑定；原合册仍含其他选择科目，下载为整册。未做逐题拆分。",
+      "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/06/re2026_scitectest_feb_kaitorei.pdf"
+    },
+    {
       "id": "kobe-ee-2002",
       "universityId": "kobe",
       "title": "2002年度 · 電気電子工学専攻（部分科目）",
@@ -38624,7 +38861,7 @@
       ]
     },
     "sophia": {
-      "text": "收录2025入学年度9月、2月两次考试，实际笔试分别为2024-09-11、2025-02-16。机械、电气电子、信息学三个题群各设入口，共6组，共享4个完整原合册（2个问题、2个解答／解答例），不是6套不同试卷。选择题群不与志望领域强行绑定；整册其他题群原样保留。云盘此校没有更多年度资料，不声明连续年份完整覆盖。"
+      "text": "本校11组／11个唯一PDF、553页。2026-10-14已上线的2025入学年度9月、2月两场，机械／电气电子／信息学共6组，共享4个完整原合册（2个问题、2个解答／解答例），实际笔试分别为2024-09-11、2025-02-16，保持不变。2026-11-01补录電気・電子工学基礎，新增5组、7个唯一PDF、384页：2016—2018入学年度9月入试（无解答；来自2018年官网过去问机器人／历史快照的官方合册），以及2026入学年度9月（2025-09-10）、2月（2026-02-15）。2026问题与解答均与学校官网发布PDF逐字节一致。只建电气电子题群入口，不补机械／信息。选择题群不与志望领域强行绑定；整册其他题群原样保留。2月解答合册电气电子在PDF第18页，随包对照中的第15—17页仍是机械题群。2019—2024以及2016—2018的2月入试未取得，不声明连续年份完整覆盖。未做逐题拆分。"
     },
     "kobe": {
       "text": "本校48组／157个唯一PDF、404页。2026-10-14已上线的12组／45个PDF、111页保持不变：电气电子2024—2026入学年度；机械2019（平成31）、2020、2021、2023—2025年度，仅数学与生産工学・制御工学；系统信息2025年度三期，实际笔试为2024-08-22、2024-11-27、2025-01-22。2026-10-18补录原先排除的理学研究科数学専攻与物理学専攻，新增22组、32个唯一PDF、159页。数学按封面入学年度2015–2026，实施日为上一年8月。物理封面只印实施日，paperYear按入学年度＝实施年+1（2017–2026），与数学専攻封面换算一致；物理I与物理II同年合成一组。2026-11-01补录电气电子更早整卷，新增14组、80个唯一PDF、134页：工学研究科2007（仅物性工学，卷面未印校名与年度）、2008–2009、2013–2015、2019–2022；自然科学研究科电气电子平成14–17年度，封面入学年2002–2005，考试在上一公历年8月。2024–2026共27个科目PDF与已入库原件相同，不重复保存。英语、解答例、出題意図、html/jpg不入库。学部「志」特别选拔仍不入库、不建入口。均保留原件。不声明其他年度或全校齐全。"
