@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2008-bussei",
+  "title": "神户大学 · 2008 入学年度 · 物性工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2008",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2008,
+    "yearBasis": "academic",
+    "subject": "物性工学",
+    "originalSubject": "物性工学",
+    "originalName": "bussei-20.pdf",
+    "pdf": "assets/past-papers/documents/89fe6d1b58bda9a1937460bfe009a38984d3dbd02f0e62c5e2ed380c12a0baab.pdf",
+    "sha256": "89fe6d1b58bda9a1937460bfe009a38984d3dbd02f0e62c5e2ed380c12a0baab",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2008 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2008-bussei-q1",
+      "number": "I.",
+      "title": "结晶格子的基本平移矢量、倒格子与第一布里渊区",
+      "titleKind": "editorial",
+      "topics": [
+        "晶体结构",
+        "基本平移矢量",
+        "倒格子",
+        "布里渊区"
+      ],
+      "summary": "针对图１的结晶格子设问：说出格子名称并列举一种由它构成的晶体，用 x,y,z 方向单位矢量 i,j,k 表示基本平移矢量 a,b,c，写出倒格子基本矢量，并参照图２给出第一布里渊区端点上 X、L 各点的坐标（1)–5) 共五小问）。",
+      "review": {
+        "status": "verified",
+        "method": "PyMuPDF span/image-block coordinates + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「I.」、总起句「図１の結晶格子に対して、以下の問に答えよ。」与小问 1)–5) 齐全；图１（80.6,309.5–249.5,463.5）、图２（296.6,281.3–497.1,455.0）及两行图号说明（「図１ ある結晶格子」「図２ 図１の格子に対する第１Brillouin Zone」）均在框内；下边界停在 II. 之前（II. 首行 y=542.6），无串题；科目名「物 性 工 学」与页码「1」在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2008-bussei/kobe-ee-2008-bussei-q1-01.png",
+          "page": 1,
+          "box": [
+            50.7,
+            124.6,
+            544.6,
+            488.6
+          ],
+          "width": 1236,
+          "height": 911,
+          "label": "I.：题干、小问 1)–5)、图１（结晶格子）与图２（第一布里渊区）及图号说明",
+          "sha256": "ae2f110760145abb118f940740ba60aa1202faaa77dedaeaa0f885b208a399bd"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2008-bussei-q2",
+      "number": "II.",
+      "title": "近自由电子近似下能隙的成因（填空与作图）",
+      "titleKind": "editorial",
+      "topics": [
+        "近自由电子近似",
+        "能带理论",
+        "布拉格反射",
+        "能隙"
+      ],
+      "summary": "以近自由电子近似定性说明能带隙的成因：在 ①～⑭ 的空栏中填入记号、式子或词语，并在解答栏画出对应图A（E-k 关系）与图B（能带结构）；文中涉及自由电子波函数与能量、逆格子点、第一布里渊区边界、布拉格反射波数 k′=k+g 以及 |P+|²、|P−|² 与静电能量的高低。",
+      "review": {
+        "status": "verified",
+        "method": "PyMuPDF span coordinates + AI visual comparison against full source pages 1–2",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1、2 页：第 1 页从「II. 以下の文章は…」起至页末「…電子の波動関数」（y=754.4）止，第 2 页自「がこれらの回折波の…」（y=76.6）续至「…図B のようになる。」（y=249.2）止，①～⑭ 的空栏编号、ϕ_k(x)、ϕ_{k′}(x)、k′=k±π/a、P+/P− 等符号完整；两页页码（1、2）与第 2 页下方空白均未入框，无切字、无串题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2008-bussei/kobe-ee-2008-bussei-q2-01.png",
+          "page": 1,
+          "box": [
+            50.7,
+            536.6,
+            544.7,
+            762.0
+          ],
+          "width": 1236,
+          "height": 564,
+          "label": "II.：题干与说明段（①～⑭ 填空、図A/図B 作图要求）的前半，接第 2 页",
+          "sha256": "eb09b0ac2d815762fd9a9fa174989dde1bc08f93534344008818c564c98a5762"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2008-bussei/kobe-ee-2008-bussei-q2-02.png",
+          "page": 2,
+          "box": [
+            68.6,
+            70.6,
+            546.2,
+            255.2
+          ],
+          "width": 1195,
+          "height": 462,
+          "label": "II.（续）：自「がこれらの回折波の重ね合わせで…」至「…模式的に図示すると 図B のようになる。」",
+          "sha256": "b98b928023def261aaa417356cd4591adbed88ec0e8f94b1c01edd586cb91230"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2008-bussei-q1",
+        "kobe-ee-2008-bussei-q2"
+      ],
+      "common": false,
+      "excluded": "卷头科目名「物 性 工 学」、页脚页码「1」、两题之间的空白带与空白页边；原卷无全卷作答说明，故无公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2008-bussei-q2"
+      ],
+      "common": false,
+      "excluded": "页眉空白、页脚页码「2」与第 249.2pt 以下的整片空白（该页仅 II. 的续文）。",
+      "reviewed": true
+    }
+  ]
+}

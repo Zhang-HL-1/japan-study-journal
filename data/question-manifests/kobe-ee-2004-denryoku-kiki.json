@@ -1,0 +1,111 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2004-denryoku-kiki",
+ "title": "神户大学 · 2004 入学年度 · 電力・機器（その1）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2004",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "自然科学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2004,
+  "yearBasis": "academic",
+  "subject": "電力・機器（その1）",
+  "originalSubject": "電力・機器（その1）",
+  "originalName": "denryoku-kiki1.pdf",
+  "pdf": "assets/past-papers/documents/768f9f73f715186d1ebd9cfb0b1081799281aeca852170b567352eea4485f9ff.pdf",
+  "sha256": "768f9f73f715186d1ebd9cfb0b1081799281aeca852170b567352eea4485f9ff",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2004 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    51.8,
+    139.9,
+    500.0,
+    162.5
+   ],
+   "label": "作答说明：4問中3問を選んで解答すること。答案用紙(その1)の指定欄に、選択した問の番号を記入すること。"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2004-denryoku-kiki-q1",
+   "number": "問1.",
+   "title": "水力发电的空栏填空（伯努利定理与水车）",
+   "titleKind": "editorial",
+   "topics": [
+    "水力发电",
+    "伯努利定理",
+    "落差与水头",
+    "水车"
+   ],
+   "summary": "以填空形式补全关于水力发电的文章：(a) 能量守恒所依据的定理名、(b)(c)(d) 三项水头名称、(e)(f) 全损失落差与有效落差、(g)(h) 理论/实际出力式（含 η_W、η_G）、(i)(j) 水车分类的代表型式、(k) 相似律中的转速名称。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      47.5,
+      166.4,
+      550.0,
+      468.8
+     ],
+     "label": "問1.：题干「水力発電についての以下の文章…」与三段填空（含 (a)–(k) 空格框与公式）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問1.」、三段填空正文、空格框 (a)–(k) 全部可见、h+v²/2g+p/gρ=一定 与 P=(g)(h) 式完整，右端正文到 x≈539.5 未被切字，无問2 串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2004-denryoku-kiki-q2",
+   "number": "問2.",
+   "title": "一線地絡故障的对称坐标法求解",
+   "titleKind": "editorial",
+   "topics": [
+    "对称坐标法",
+    "一線地絡",
+    "零相・正相・逆相",
+    "地絡电流"
+   ],
+   "summary": "中性点经阻抗 0 接地的对称三相发电机，a 相发生一線地絡，按 (a) 三相交流发电机基本式、(b) V_a=0 的对称分量表示、(c) 相电流条件 I_a=I_s、I_b=I_c=0 的对称分量表示、(d) 用 I_s 表示 I₀,I₁,I₂、(e) 联立求地絡电流 I_s 的步骤作答。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      47.5,
+      472.2,
+      550.7,
+      673.3
+     ],
+     "label": "問2.：题干（中性点接地、Z₀/Z₁/Z₂、a 与 e^{j2π/3}）与小问 (a)–(e)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問2.」、题干三行、e^{j2π/3} 的指数式、小问 (a)–(e) 全部完整，末尾「(e) (a), (b), (d) を連立させて…」未切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2004-denryoku-kiki-q1",
+    "kobe-ee-2004-denryoku-kiki-q2"
+   ],
+   "common": true,
+   "excluded": "页眉（平成16年度…博士前期課程／電気電子工学専攻 入学試験問題、右上 平成15年8月27日）与科目标题「電力・機器(その1)」；仅保留作答说明作公共区域。",
+   "reviewed": true
+  }
+ ]
+}

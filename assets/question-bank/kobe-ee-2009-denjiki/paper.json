@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2009-denjiki",
+  "title": "神户大学 · 2009 入学年度 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2009",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2009,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "denjiki-21.pdf",
+    "pdf": "assets/past-papers/documents/f73449adae689625212a0fa27f0d810498ca2760c2c2d02b86e38cc8951f6d8f.pdf",
+    "sha256": "f73449adae689625212a0fa27f0d810498ca2760c2c2d02b86e38cc8951f6d8f",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2009 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2009-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        82.0,
+        183.0,
+        399.0,
+        200.0
+      ],
+      "width": 793,
+      "height": 43,
+      "label": "作答说明（以下の問について、それぞれ指定された解答用紙に解答しなさい。）",
+      "sha256": "1b0e08f0c1a72518a7f70bae1be284cc23a549e2b5455d4fe89e0981d0f15019"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2009-denjiki-q1",
+      "number": "問題【１】",
+      "title": "平行平板コンデンサと導体板・誘電体板の挿入",
+      "titleKind": "editorial",
+      "topics": [
+        "平行平板コンデンサ",
+        "静電容量",
+        "誘電体",
+        "分極",
+        "電位差"
+      ],
+      "summary": "面積 S・間隔 d の平行平板コンデンサに電位差 V0 をかけて電池を外した後、電界・静電容量・自由電荷を求める。続いて厚さ t の導体板、ついで比誘電率 εr の誘電体板を電極に接しないよう平行挿入した各場合の電位差・静電容量・分極の大きさを求める。",
+      "review": {
+        "status": "verified",
+        "method": "PDF text-span/ink-bbox coordinates + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：「問題【１】」、3 段前提文、小問（１）〜（８）全部入框；含 S・d・V0・ε0 等記号与单位要求；不含页眉两行（平成２１年度…／電気電子工学専攻 入試問題「電磁気学」）与科目名「電 磁 気 学」，页脚空白在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2009-denjiki/kobe-ee-2009-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            82.0,
+            243.0,
+            515.0,
+            731.0
+          ],
+          "width": 1083,
+          "height": 1221,
+          "label": "問題【１】：題号、前提（電極間は自由空間・電池を外す）、小問（１）〜（８）と導体板/誘電体板挿入の各段の説明",
+          "sha256": "1a8c253d16e8906a09750ab04f9e034bef07cb9e036fedbfc7c239c98366a377"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2009-denjiki-q2",
+      "number": "問題【２】",
+      "title": "直線電流が作る磁界と矩形コイルの電磁誘導",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁誘導",
+        "磁束密度",
+        "ファラデーの法則",
+        "起電力"
+      ],
+      "summary": "無限長直線導線から最近接距離 D にある長辺 a・短辺 b の矩形コイルについて、距離 r の点 P の磁束密度とコイルを貫く全磁束、I=I0 sin ωt のときの誘起起電力の大きさと向きを求める。さらに b≪D でコイル内磁束密度一定とみなす場合の全磁束と、D=D0+D1 sin ωt で振動する場合の起電力を求める。",
+      "review": {
+        "status": "verified",
+        "method": "PDF text-span/ink-bbox coordinates + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：「問題【２】」、設定 5 行、小問（１）（２）（３）与 I=I0 sin ωt・D=D0+D1 sin ωt 等式、および図１（導線・コイル・D/r/a/b/P の記号）与図号全部入框；页眉两行在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2009-denjiki/kobe-ee-2009-denjiki-q2-01.png",
+          "page": 2,
+          "box": [
+            82.0,
+            100.0,
+            519.0,
+            710.0
+          ],
+          "width": 1093,
+          "height": 1525,
+          "label": "問題【２】：題号、設定文、小問（１）〜（３）、図１（直線導線と矩形コイル）と図号",
+          "sha256": "62192f95afb567578828bebbac8a4d15db6163d9aaa112ad29707076e47ad1e1"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2009-denjiki-q1"
+      ],
+      "common": true,
+      "excluded": "页眉两行（平成２１年度神戸大学大学院…／電気電子工学専攻 入学試験問題「電磁気学」）、科目名「電 磁 気 学」与页脚空白。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2009-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页眉两行（同上）与页脚空白；图１ 已随题收进 crop，故本页无纯图形残留。",
+      "reviewed": true
+    }
+  ]
+}

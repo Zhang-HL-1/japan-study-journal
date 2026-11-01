@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2022-math",
+  "title": "神户大学 · 2022 入学年度 · 数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2022",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2022,
+    "yearBasis": "academic",
+    "subject": "数学",
+    "originalSubject": "数学",
+    "originalName": "math-2022.pdf",
+    "pdf": "assets/past-papers/documents/1437b2ef6f53daad6b5f10eeb8e0b751b38e74fcfad8c41fb55419172d357faa.pdf",
+    "sha256": "1437b2ef6f53daad6b5f10eeb8e0b751b38e74fcfad8c41fb55419172d357faa",
+    "pageCount": 3,
+    "note": "来自既有过去问目录。2022 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2022-math/common-01.png",
+      "page": 1,
+      "box": [
+        84.0,
+        281.7,
+        518.5,
+        441.7
+      ],
+      "width": 1087,
+      "height": 401,
+      "label": "全卷作答说明（注意事項 (1)–(4)）",
+      "sha256": "744974e910603e1ca32cd3cf1dc739d09d62e978de70866ddcae378075b07b34"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2022-math-q1",
+      "number": "1.",
+      "title": "偏导数、隐函数极值条件与矩阵对角化",
+      "titleKind": "editorial",
+      "topics": [
+        "偏导数",
+        "隐函数",
+        "特征值",
+        "对角化"
+      ],
+      "summary": "对 f(x,y)=x^3-3xy^2+2y^3+4 求偏导数，并把 y 看作 x 的隐函数求 dy/dx=0 的点；再对含实参数 a 的 3x3 矩阵 A 求特征值，并求 A 可对角化的全部 a。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「1.」、总起句「つぎの各問いに答えよ．」、小问 (1)(1-a)(1-b)(2)(2-a)(2-b) 齐全，含 3x3 矩阵 A 与 dy/dx 分式，无切字、无下一题串入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-math/kobe-ee-2022-math-q1-01.png",
+          "page": 2,
+          "box": [
+            76.0,
+            85.3,
+            518.0,
+            316.7
+          ],
+          "width": 1105,
+          "height": 579,
+          "label": "1.：题干、(1) 偏导数与隐函数条件(1-a)(1-b)、(2) 矩阵 A 特征值与对角化(2-a)(2-b)",
+          "sha256": "370ccb5df5e9448b7b6ce3600e648d5bd7c44209010fea71e83224e1397c89d7"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2022-math-q2",
+      "number": "2.",
+      "title": "洛朗展开主部与围道积分",
+      "titleKind": "editorial",
+      "topics": [
+        "复变函数",
+        "洛朗展开",
+        "留数",
+        "围道积分"
+      ],
+      "summary": "对 f(z)=e^z(z+2)/(z-1)^2 求以 z=1 为中心的洛朗展开主部，再对 1/f(z) 求以 z=-2 为中心的主部；最后沿原点为中心、半径 3 的逆时针圆周 C 计算 ∮(f(z)+1/f(z))dz。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「2.」、f(z) 分式、小问 (1)(2)(3) 完整，两级数求和号与上下限 n=-∞ 至 -1、围道 C 定义与积分号均未切边。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-math/kobe-ee-2022-math-q2-01.png",
+          "page": 2,
+          "box": [
+            70.0,
+            324.7,
+            522.7,
+            560.7
+          ],
+          "width": 1132,
+          "height": 591,
+          "label": "2.：题干与 f(z)、(1) z=1 洛朗主部、(2) z=-2 洛朗主部、(3) 半径 3 圆周积分",
+          "sha256": "9648f3b4617c62725b92b7e42bf9b422b500ebc2592ac577da357a27b656a7f6"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2022-math-q3",
+      "number": "3.",
+      "title": "含 x(π-t) 的微分方程与矩阵解法",
+      "titleKind": "editorial",
+      "topics": [
+        "微分方程",
+        "微分方程组",
+        "矩阵指数",
+        "通解"
+      ],
+      "summary": "已知 x(π-t) 与 x'(t) 满足 x'(t)+x(π-t)=0（标号 (*)）：令 y(t)=x(π-t) 求出对应的矩阵 A，解该线性微分方程组，再用其结果求 (*) 的含一个任意常数的通解 x(t)。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「3.」、方程 (*) 及编号、小问 (1)(2)(3) 完整，列向量 (x'(t),y'(t)) 与 (x(t),y(t)) 的矩阵等式清晰；页脚「(裏面へ続く)」为翻页提示，已排除在区域外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-math/kobe-ee-2022-math-q3-01.png",
+          "page": 2,
+          "box": [
+            76.7,
+            582.0,
+            518.7,
+            737.3
+          ],
+          "width": 1106,
+          "height": 389,
+          "label": "3.：题干与方程 (*)、(1) 矩阵 A、(2) 方程组通解、(3) (*) 的通解",
+          "sha256": "1abfe78204362d1a6c4ae5bc4925e6790b82105f34561740cf48d99cf53ebd1d"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2022-math-q4",
+      "number": "4.",
+      "title": "指数衰减三角函数的傅里叶变换",
+      "titleKind": "editorial",
+      "topics": [
+        "傅里叶变换",
+        "绝对可积",
+        "积分变换"
+      ],
+      "summary": "设 f(x)=e^{-|x|}sin x、g(x)=e^{-|x|}cos x：先证明二者绝对积分有限，再按给定定义求傅里叶变换，计算 ĝ(t)+i f̂(t) 与 ĝ(t)-i f̂(t)，由此定出 f̂(t) 与 ĝ(t)。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 3 页：题号「4.」、两函数定义、小问 (1)(2)(3) 与傅里叶变换定义式（含 1/√(2π) 与积分上下限 -∞ 至 ∞）完整，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-math/kobe-ee-2022-math-q4-01.png",
+          "page": 3,
+          "box": [
+            81.3,
+            82.7,
+            521.3,
+            250.7
+          ],
+          "width": 1101,
+          "height": 421,
+          "label": "4.：题干与 f(x)、g(x)、(1) 绝对可积性、(2) 变换组合式、(3) 求 f̂ 与 ĝ",
+          "sha256": "197e1918f3339da39a3852f484cf28eb68c0d99c7693f4bbe1f8042018600677"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "卷头标题（年度、研究科名、科目名）与四周空白；仅保留注意事項 (1)–(4) 作公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2022-math-q1",
+        "kobe-ee-2022-math-q2",
+        "kobe-ee-2022-math-q3"
+      ],
+      "common": false,
+      "excluded": "空白页边、左侧扫描污点与页脚翻页提示「(裏面へ続く)」，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "kobe-ee-2022-math-q4"
+      ],
+      "common": false,
+      "excluded": "空白页边与扫描污点，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

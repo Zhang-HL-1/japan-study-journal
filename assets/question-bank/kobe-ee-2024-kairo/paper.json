@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2024-kairo",
+  "title": "神户大学 · 2024 入学年度 · 电气回路与电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2024",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "电气回路与电子回路",
+    "originalSubject": "電気回路・電子回路",
+    "originalName": "kairo-2024.pdf",
+    "pdf": "assets/past-papers/documents/c7afa4197178df94a9c422201421825923f9b12b3d439764b3350b466012b010.pdf",
+    "sha256": "c7afa4197178df94a9c422201421825923f9b12b3d439764b3350b466012b010",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2024-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        44,
+        122,
+        542,
+        148
+      ],
+      "width": 1245,
+      "height": 65,
+      "label": "全卷作答说明：答案用纸每人 2 张，問題 (A) 与 (B) 分别作答于对应答案用纸",
+      "sha256": "7edf072ee938fcf2b0cc2961ad1f7dc129a800bde901d92984d6154a42ad0c5f"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2024-kairo-q1",
+      "number": "問題 (A)",
+      "title": "变压器耦合电路与 RL 过渡现象",
+      "titleKind": "editorial",
+      "topics": [
+        "变压器耦合电路",
+        "阻抗折算",
+        "RL 过渡现象"
+      ],
+      "summary": "含 (1) 变压器耦合电路求 L2、一次侧阻抗及各电流电压，(2) R1-R2-L 电路的开关开闭过渡过程；附 図 A-1、図 A-2。中文标题与概述仅供导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号框完整，(1)(2) 各含 ①②③ 三小问，図 A-1、図 A-2 及图号均在内；已排除卷头年度行、科目标题、注意行与页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-kairo/kobe-ee-2024-kairo-q1-01.png",
+          "page": 1,
+          "box": [
+            46,
+            172,
+            542,
+            233
+          ],
+          "width": 1240,
+          "height": 153,
+          "label": "問題 (A)：题号与作答指示（数值作答、j 与根号保留）",
+          "sha256": "de4c85ba5c2500bdb1998da04e01834355dc733d0c26ee833971b7093be3b68c"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-kairo/kobe-ee-2024-kairo-q1-02.png",
+          "page": 1,
+          "box": [
+            57,
+            249,
+            544,
+            383
+          ],
+          "width": 1218,
+          "height": 336,
+          "label": "問題 (A)(1)：变压器耦合电路，含 ①②③",
+          "sha256": "ed7418ce037f1ed8784378ddb57a5c63c3b9a917469a3f709c3653434e5fe94f"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-kairo/kobe-ee-2024-kairo-q1-03.png",
+          "page": 1,
+          "box": [
+            56,
+            428,
+            544,
+            614
+          ],
+          "width": 1220,
+          "height": 465,
+          "label": "問題 (A)(2)：RL 电路过渡现象，含 ①②③",
+          "sha256": "0d3704bea5b059ceeca8b432d6ba728fb120b64f0f127f706f3378ffbbf31b6b"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-kairo/kobe-ee-2024-kairo-q1-04.png",
+          "page": 1,
+          "box": [
+            108,
+            651,
+            541,
+            806
+          ],
+          "width": 1083,
+          "height": 388,
+          "label": "問題 (A)：図 A-1 与 図 A-2 及图号",
+          "sha256": "f721c01ce814a05686772f2fd11dc8510d644283a685d9b84c20d07e935f8a60"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2024-kairo-q2",
+      "number": "問題 (B)",
+      "title": "放大电路与 CMOS 逻辑三选二",
+      "titleKind": "editorial",
+      "topics": [
+        "共射放大电路",
+        "运算放大器",
+        "CMOS 逻辑"
+      ],
+      "summary": "从 (1)～(3) 中任选 2 问作答：共射基本放大电路（RE 与旁路电容）、运放内部电路与虚短虚地、CMOS 逻辑门；附 図 B-1。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号框与选答指示完整，(1) 含 a–c、(2) 含 a–d、(3) 含 a–c，図 B-1 及图号在内；已排除卷头年度行、科目标题与页边空白。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-kairo/kobe-ee-2024-kairo-q2-01.png",
+          "page": 2,
+          "box": [
+            47,
+            113,
+            541,
+            179
+          ],
+          "width": 1236,
+          "height": 166,
+          "label": "問題 (B)：题号与选答指示（(1)～(3) 中选 2 问）",
+          "sha256": "fbb6dfca39c65c4b5ba8bf14dc2ef82cd534b81e74bfd51d289201b58bc354f4"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-kairo/kobe-ee-2024-kairo-q2-02.png",
+          "page": 2,
+          "box": [
+            45,
+            190,
+            542,
+            325
+          ],
+          "width": 1243,
+          "height": 338,
+          "label": "問題 (B)(1)：共射基本放大电路，含 a)b)c)",
+          "sha256": "e47e5cd6ef4ed259786e2ca3e2809c77f873fc0b9f29b17fea5b477a5574bdbb"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-kairo/kobe-ee-2024-kairo-q2-03.png",
+          "page": 2,
+          "box": [
+            45,
+            338,
+            541,
+            513
+          ],
+          "width": 1241,
+          "height": 438,
+          "label": "問題 (B)(2)：运算放大器内部电路，含 a)～d)",
+          "sha256": "528716b3b091cfa42f24c4b64833ed1a5aee5be6230fa20232b5066b2424047b"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-kairo/kobe-ee-2024-kairo-q2-04.png",
+          "page": 2,
+          "box": [
+            45,
+            526,
+            531,
+            631
+          ],
+          "width": 1216,
+          "height": 263,
+          "label": "問題 (B)(3)：CMOS 逻辑电路，含 a)b)c)",
+          "sha256": "4cc7d4c57238739d997fd3f528f8d6e6fe17711aab6abf12191bc53fda6c4ccf"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-kairo/kobe-ee-2024-kairo-q2-05.png",
+          "page": 2,
+          "box": [
+            218,
+            638,
+            410,
+            806
+          ],
+          "width": 480,
+          "height": 420,
+          "label": "問題 (B)：図 B-1 与图号",
+          "sha256": "f937924757ee71bf565c61e7a8839d857fdd13ee500a84e408ee6a2822776222"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2024-kairo-q1"
+      ],
+      "common": true,
+      "excluded": "重复卷头（年度行、科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2024-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头（年度行、科目名）与页边空白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

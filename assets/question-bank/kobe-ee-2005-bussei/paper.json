@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2005-bussei",
+  "title": "神户大学 · 2005 入学年度 · 物性工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2005",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2005,
+    "yearBasis": "academic",
+    "subject": "物性工学",
+    "originalSubject": "物性工学",
+    "originalName": "bussei.pdf",
+    "pdf": "assets/past-papers/documents/7b58ae9fdfdc044f6e9373e7a9680408593d6233d20fcf0dc0ca6245cb32852d.pdf",
+    "sha256": "7b58ae9fdfdc044f6e9373e7a9680408593d6233d20fcf0dc0ca6245cb32852d",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2005 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2005-bussei/common-01.png",
+      "page": 1,
+      "box": [
+        148.0,
+        76.0,
+        470.0,
+        101.0
+      ],
+      "width": 805,
+      "height": 63,
+      "label": "全卷作答说明「A、B の設問に対してそれぞれ別の解答用紙に解答せよ。」",
+      "sha256": "5e51df143da9a2ca3175fe99682e3b70e7d58acba2424c266bba836ddb69e369"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2005-bussei-q1",
+      "number": "A",
+      "title": "一维方形势垒的透射率与隧道效应",
+      "titleKind": "editorial",
+      "topics": [
+        "薛定谔方程",
+        "方形势垒",
+        "透射率",
+        "隧道效应"
+      ],
+      "summary": "质量 m、能量 E 的电子从左侧入射一维方形势垒 V(x)（0≤x≤a 内为 V0）。A-1 写出领域 Ⅰ・Ⅱ・Ⅲ 的定态薛定谔方程；A-2 就 E>V0 与 0<E<V0 两情形填充 ①〜⑪（k²、α²、边界条件、F/A、透射率 T），并指出势垒足够薄时电子可透过 Ⅱ 区的现象名称。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「A」与「A-1」「A-2」、V(x) 三段分段式、右边図1（V(x) 台阶图与領域 I・II・III 标注）、①〜⑪ 全部填空框、两个透射率公式齐全；图号「図１ 一次元箱型ポテンシャル」在框内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-bussei/kobe-ee-2005-bussei-q1-01.png",
+          "page": 1,
+          "box": [
+            62.0,
+            126.0,
+            552.0,
+            768.0
+          ],
+          "width": 1225,
+          "height": 1605,
+          "label": "A：题干、A-1（V(x) 分段定义与薛定谔方程）、A-2（①〜⑪ 填空、φ(x) 分段式、F/A 与透射率 T 两式）与図1 一次元箱型ポテンシャル",
+          "sha256": "d91bf020ab5e1572f11b05a6fa921559856ac23cedb7f3590194b15e5247fca5"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2005-bussei-q2",
+      "number": "B",
+      "title": "密勒指数与第一布里渊区",
+      "titleKind": "editorial",
+      "topics": [
+        "密勒指数",
+        "倒格子",
+        "布里渊区",
+        "面心立方"
+      ],
+      "summary": "B-1 填充 [１]〜[６]（密勒指数的取法、两例晶面的指数、第一布里渊区的构成与一维情形的区间）。B-2 由面心立方基本平移矢量 a、b、c 求倒格子基本平移矢量 A、B、C，并判断图3(a)(b)(c) 中哪个是第一布里渊区且说明理由。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「B」与「B-1」「B-2」、[１]〜[６] 填空、図2 結晶面（a,b,c 与 n1a,n2b,n3c 轴）、B-2 的 a,b,c 三式、図3(a)(b)(c) 三幅布里渊区图与图号完整；本页无页眉。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-bussei/kobe-ee-2005-bussei-q2-01.png",
+          "page": 2,
+          "box": [
+            62.0,
+            38.0,
+            562.0,
+            730.0
+          ],
+          "width": 1250,
+          "height": 1730,
+          "label": "B：题干、B-1（Miller 指数与第1 Brillouin Zone 的填空 [１]〜[６]）与図2 結晶面、B-2（面心立方基本平移矢量与倒格子矢量 A,B,C）与図3(a)(b)(c)",
+          "sha256": "7adfebe01ae47a38f9982bd274b730d3826e788515bfa646030ef1a0151f284a"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2005-bussei-q1"
+      ],
+      "common": true,
+      "excluded": "卷头科目名「物性工学」大字标题；仅保留作答说明作公共区域，其余正文均属 A 题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2005-bussei-q2"
+      ],
+      "common": false,
+      "excluded": "页内四周空白页边（本页无页眉、页码），不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

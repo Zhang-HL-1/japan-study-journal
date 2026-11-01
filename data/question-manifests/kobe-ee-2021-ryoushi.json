@@ -1,0 +1,99 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2021-ryoushi",
+ "title": "神户大学 · 2021 入学年度 · 量子物理学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2021",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2021,
+  "yearBasis": "academic",
+  "subject": "量子物理学",
+  "originalSubject": "量子物理学",
+  "originalName": "ryoushi-2021.pdf",
+  "pdf": "assets/past-papers/documents/ca81f4facd3a2e471740320cee9c4b9cd42376f775e36fcad996035691a6aafa.pdf",
+  "sha256": "ca81f4facd3a2e471740320cee9c4b9cd42376f775e36fcad996035691a6aafa",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2021 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    41.0,
+    104.0,
+    490.7,
+    125.5
+   ],
+   "label": "全卷作答说明（下記の問 1)〜11) について解答せよ．解答は結果だけでなく導出の過程も記す事）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2021-ryoushi-q1",
+   "number": "問題",
+   "title": "一维无限深方势阱与矩形微扰",
+   "titleKind": "editorial",
+   "topics": [
+    "无限深方势阱",
+    "薛定谔方程",
+    "能量本征值",
+    "微扰论",
+    "期望值与标准偏差"
+   ],
+   "summary": "以宽度 L 的一维无限深方井势 V(x)（式 (1)，図 1）为对象，1)–11) 依次要求：写定态薛定谔方程、说明普朗克常数单位、求本征能量 En 与归一化本征函数 φn 及正交性、验证叠加态 ψ=√(1-P)φ1+√P φ2 的归一化、求能量期望值/平方期望值/标准偏差并作图；再加入矩形微扰 V'(x)（式 (3)，图 2），用一阶微扰公式求 ΔEn、作 ΔEn-x1 图并说明极大位置、求 ΔEψ。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      38.7,
+      128.7,
+      536.0,
+      746.0
+     ],
+     "label": "問題：题干与井型势 V(x)、式 (1)、図 1，小问 1)–6)（含叠加态式 (2)）"
+    },
+    {
+     "page": 2,
+     "box": [
+      42.7,
+      66.0,
+      546.7,
+      664.0
+     ],
+     "label": "小问 7)–8)、微扰势 V'(x) 与式 (3)、図 2、小问 9)–11) 与「以上」"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页，用 pages/ 2x 页图定位后以 inkbox.py 收紧。全卷只有 1 个大题（原卷标为「問題.」，下辖 1)–11)，故按不拆小问原则作 1 题 2 区域。对照原卷：第 1 页含 問題.、V(x) 分段式与式 (1)、図 1 及小问 1)–6)；第 2 页含 7)8)、V'(x) 与式 (3)、図 2、9)–11) 与「以上」，两页均无页眉、无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2021-ryoushi-q1"
+   ],
+   "common": true,
+   "excluded": "页眉「2021 年度神戸大学大学院工学研究科博士課程前期課程入学試験」与科目名标题「量子物理学」；仅保留一行作答说明作公共区域。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2021-ryoushi-q1"
+   ],
+   "common": false,
+   "excluded": "页眉（与第 1 页重复）、左侧装订痕、右侧页边扫描线与下方空白页边。",
+   "reviewed": true
+  }
+ ]
+}

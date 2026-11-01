@@ -1,0 +1,99 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2013-ryoushi",
+ "title": "神户大学 · 2013 入学年度 · 量子物理学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2013",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2013,
+  "yearBasis": "academic",
+  "subject": "量子物理学",
+  "originalSubject": "量子物理学",
+  "originalName": "ryoushi-25.pdf",
+  "pdf": "assets/past-papers/documents/8a1c2f3240ad66f5cb15e004a4970870901a8e9b231bc4a58936199c991e2152.pdf",
+  "sha256": "8a1c2f3240ad66f5cb15e004a4970870901a8e9b231bc4a58936199c991e2152",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2013 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    47.7,
+    109.3,
+    463.7,
+    203.3
+   ],
+   "label": "全卷作答说明（問 1)〜8) 均需写出推导过程；必要可用两条高斯积分公式 (a>0)）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2013-ryoushi-q1",
+   "number": "問題",
+   "title": "一维谐振子的量子力学处理（含线性扰动项）",
+   "titleKind": "editorial",
+   "topics": [
+    "谐振子",
+    "薛定谔方程",
+    "基态波函数",
+    "期望值",
+    "一级微扰"
+   ],
+   "summary": "弹簧常数 k、质量 m 的一维谐振子：求角频率、写出定态薛定谔方程；设基态波函数为 φ₀=Ae^{-αx²} 求 α、A 与基态能量 E₀；再求基态的 ⟨x⟩ 与 ⟨x²⟩。随后对 V(x)=½kx²+λx 求势能极小点 x₀ 与泰勒展开、画势能概图，并用一级微扰 ΔE₀=∫φ₀*V′φ₀dx 比较微扰前后的能量。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      43.3,
+      219.3,
+      545.3,
+      642.0
+     ],
+     "label": "問題：题号与谐振子设定、式(1) 势能、小问 1)–5)（含式(2) 基态波函数形式）；页脚「（２枚目に続く）」为翻页提示，已排除"
+    },
+    {
+     "page": 2,
+     "box": [
+      47.7,
+      54.7,
+      544.3,
+      495.3
+     ],
+     "label": "問題（续）：式(3) 含 λx 的势能段首、小问 6) 势能极小与图示、7) 基态能量与期望值、8) 一级微扰式(4) 及比较"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1、2 页：原卷只有一个大题「問題．」下设 1)–8) 小问，故合为 1 题 2 区域。第 1 页区域含题号、三行题干、式(1)、1)–5) 与式(2)，不含页眉、科目名与「（２枚目に続く）」；第 2 页区域从「次に、ポテンシャルの形が」起，含式(3)、6)–8) 与式(4)，止于 8) 末句，无切字、无缺行。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2013-ryoushi-q1"
+   ],
+   "common": true,
+   "reviewed": true,
+   "excluded": "顶部页眉「平成 25 年度神戸大学大学院工学研究科…入学試験」、科目名大标题「量子物理学」、页脚翻页提示「（２枚目に続く）」与空白页边；作答说明与积分公式收作公共区域。"
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2013-ryoushi-q1"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "顶部页眉「平成 25 年度神戸大学大学院工学研究科…入学試験」与下半页空白页边；本页无公共区域。"
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2003-jidouseigyo",
+  "title": "神户大学 · 2003 入学年度 · 自动控制",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2003",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2003,
+    "yearBasis": "academic",
+    "subject": "自动控制",
+    "originalSubject": "自動制御",
+    "originalName": "jidouseigyo.pdf",
+    "pdf": "assets/past-papers/documents/9ceae9b4ac69b11293e1a0d0999f42d0335d81aa9f43138bbb4fff51618d4a4a.pdf",
+    "sha256": "9ceae9b4ac69b11293e1a0d0999f42d0335d81aa9f43138bbb4fff51618d4a4a",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2003 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2003-jidouseigyo-q1",
+      "number": "1.",
+      "title": "反馈控制系统的框图与动作说明",
+      "titleKind": "editorial",
+      "topics": [
+        "反馈控制",
+        "传递函数",
+        "方块图",
+        "外扰"
+      ],
+      "summary": "控制对象传递函数 G(s)、输出 y、补偿元件 C(s)，使 y 追随目标值 r，外扰 d 加在控制对象输入端，检测器传递函数为 1 且无检测噪声：画出反馈控制框图并说明动作（20 分）。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷 2x 页图：题号「1.」与 G(s)、C(s)、y、r、d、检测器传递函数为 1 的设定齐全，（20 点）分值标记在框内，无截断。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-jidouseigyo/kobe-ee-2003-jidouseigyo-q1-01.png",
+          "page": 1,
+          "box": [
+            53.3,
+            157.7,
+            545.3,
+            223.7
+          ],
+          "width": 1231,
+          "height": 166,
+          "label": "1.：题干（G(s)、y、C(s)、目标值 r、外扰 d、检测器条件）与（20 点）",
+          "sha256": "5bbe68468a8588107ddc9089cb3b297a3016b65ebc40f5b6bc99442f818b7eb7"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-jidouseigyo-q2",
+      "number": "2.",
+      "title": "二自由度控制系统的框图与定义",
+      "titleKind": "editorial",
+      "topics": [
+        "二自由度控制",
+        "方块图",
+        "控制系统结构"
+      ],
+      "summary": "指出问题 1 的闭环系统称为一自由度控制系，画出二自由度控制系的框图，并叙述二自由度的定义、具体说明其含义（20 分）。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷 2x 页图：题号「2.」、三行题干与（20 点）齐全，与第 1、3 题间留白充足，未串题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-jidouseigyo/kobe-ee-2003-jidouseigyo-q2-01.png",
+          "page": 1,
+          "box": [
+            52.7,
+            239.3,
+            544.7,
+            291.3
+          ],
+          "width": 1231,
+          "height": 131,
+          "label": "2.：题干（一自由度/二自由度对比、框图与定义要求）与（20 点）",
+          "sha256": "83b1f6f16de766bd229cf6229f6366ec2a5de69ecba50c4a3dfb77c821c52e72"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-jidouseigyo-q3",
+      "number": "3.",
+      "title": "闭环稳定性条件与零极点相消的处理",
+      "titleKind": "editorial",
+      "topics": [
+        "稳定性",
+        "传递函数",
+        "零极点相消",
+        "有理函数"
+      ],
+      "summary": "以「全部输入输出对的传递函数都稳定」定义闭环稳定性，设 C(s)、G(s) 为真有理函数且既约表示为 C(s)=A(s)/B(s)、G(s)=D(s)/E(s)：导出稳定条件，并说明 C(s) 与 G(s) 出现零极点相消时如何处理（20 分）。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷 2x 页图：题号「3.」、四行题干、C(s)=A(s)/B(s) 与 G(s)=D(s)/E(s) 两个分式及（20 点）完整，公式未被切边。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-jidouseigyo/kobe-ee-2003-jidouseigyo-q3-01.png",
+          "page": 1,
+          "box": [
+            52.7,
+            307.0,
+            544.7,
+            373.0
+          ],
+          "width": 1231,
+          "height": 166,
+          "label": "3.：题干（稳定性定义、C=A/B 与 G=D/E 的既约表示、相消处理）与（20 点）",
+          "sha256": "5ef90818f558840f157b664ab081e8712b91c5c559bc52bf3186fe60cd641eec"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-jidouseigyo-q4",
+      "number": "4.",
+      "title": "偏差定义与外扰引起的稳态偏差",
+      "titleKind": "editorial",
+      "topics": [
+        "稳态偏差",
+        "外扰",
+        "单位阶跃",
+        "偏差定义"
+      ],
+      "summary": "定义问题 1 闭环系统的偏差，在闭环系统稳定的前提下求对外扰的稳态偏差，并给出外扰为单位阶跃时的稳态偏差（20 分）。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷 2x 页图：题号「4.」、两行题干与（20 点）齐全；因本题与第 3 题行距较小，框上缘留 4pt 余量且未含第 3 题末行。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-jidouseigyo/kobe-ee-2003-jidouseigyo-q4-01.png",
+          "page": 1,
+          "box": [
+            52.7,
+            374.7,
+            544.7,
+            412.0
+          ],
+          "width": 1231,
+          "height": 94,
+          "label": "4.：题干（偏差定义、外扰稳态偏差、单位阶跃情形）与（20 点）",
+          "sha256": "ad5e06b9f6a695af6c9d0aa58475070f68f8b83b335005dd7d198b6a640aebd9"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-jidouseigyo-q5",
+      "number": "5.",
+      "title": "奈奎斯特判据确定增益 K 的稳定范围",
+      "titleKind": "editorial",
+      "topics": [
+        "奈奎斯特判据",
+        "稳定范围",
+        "频率响应",
+        "增益"
+      ],
+      "summary": "在问题 1 的闭环系统中取 C(s)=K、G(s)=1/(2s²−s−1)：用奈奎斯特稳定判据求使系统稳定的 K 范围，并图示奈奎斯特路径与奈奎斯特轨迹（20 分）。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷 2x 页图：题号「5.」、C(s)=K 与 G(s)=1/(2s2−s−1) 的表达式、奈奎斯特判据要求与（20 点）完整，分式与上标未被切边。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-jidouseigyo/kobe-ee-2003-jidouseigyo-q5-01.png",
+          "page": 1,
+          "box": [
+            52.7,
+            427.7,
+            544.7,
+            479.7
+          ],
+          "width": 1231,
+          "height": 131,
+          "label": "5.：题干（C(s)=K、G(s)=1/(2s²−s−1)、稳定 K 范围、奈奎斯特路径与轨迹作图）与（20 点）",
+          "sha256": "6032a027c37c22cc092fe8d07390fef6acb5902cdc5b801123a526de2de6b135"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2003-jidouseigyo-q1",
+        "kobe-ee-2003-jidouseigyo-q2",
+        "kobe-ee-2003-jidouseigyo-q3",
+        "kobe-ee-2003-jidouseigyo-q4",
+        "kobe-ee-2003-jidouseigyo-q5"
+      ],
+      "common": false,
+      "excluded": "页眉（平成15年度神戸大学…入学試験問題、平成14年8月28日）、科目名标题「自動制御」与下方大段空白，非题目内容。",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2008-ryoushi",
+  "title": "神户大学 · 2008 入学年度 · 量子物理学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2008",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2008,
+    "yearBasis": "academic",
+    "subject": "量子物理学",
+    "originalSubject": "量子物理学",
+    "originalName": "ryoushi-20.pdf",
+    "pdf": "assets/past-papers/documents/cd97015f9585f25a6b1dc24d8dcb98bef6852c3e017f73ff7a74e23796dbb7b7.pdf",
+    "sha256": "cd97015f9585f25a6b1dc24d8dcb98bef6852c3e017f73ff7a74e23796dbb7b7",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2008 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2008-ryoushi/common-01.png",
+      "page": 1,
+      "box": [
+        66.0,
+        87.8,
+        435.0,
+        108.0
+      ],
+      "width": 923,
+      "height": 51,
+      "label": "全卷作答说明（「以下の問について解答せよ。答えだけでなく導出の過程も簡単に記すこと。」）",
+      "sha256": "4656f2d93b78865c736c2559577961a2cbf9975fcf426c95eada37234a5ac818"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2008-ryoushi-q1",
+      "number": "問",
+      "title": "一维谐振子：变量变换、厄米多项式与不确定关系",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "一维谐振子",
+        "厄米多项式",
+        "升降算符",
+        "不确定关系"
+      ],
+      "summary": "以「問．一次元調和振動子」总起、下含 1)–10) 十个小问：写经典哈密顿量与定态薛定谔方程，经 ξ=αx、λ=2E/ℏω 变换后导出 H(ξ) 的方程 (2)，再由母函数 (3) 求 H_0–H_2；用正交关系 (4) 归一化 ψ_n、求 E_n、⟨x⟩⟨p_x⟩⟨x²⟩⟨p_x²⟩ 与 Δx·Δp_x，最后讨论 n=0 的零点能。",
+      "review": {
+        "status": "verified",
+        "method": "PyMuPDF span coordinates + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题名行「問．一次元調和振動子」与小问 1)–10) 齐全，式 (1)(2)(3)(4)(5) 的编号、积分号、根号与上下限均在框内；页眉（平成20年度…入試問題）、考试日期、科目名「量子物理学」、作答说明行与页尾「以上」均在框外，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2008-ryoushi/kobe-ee-2008-ryoushi-q1-01.png",
+          "page": 1,
+          "box": [
+            66.0,
+            110.0,
+            538.3,
+            702.5
+          ],
+          "width": 1181,
+          "height": 1482,
+          "label": "問．：题名「一次元調和振動子」与小问 1)–10) 全部（含式 (1)–(5)）",
+          "sha256": "79e26360c0a2243fb6bcbc7cb04f0c69c664e0041ffc173363edc48fe389c7a9"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2008-ryoushi-q1"
+      ],
+      "common": true,
+      "excluded": "卷头页眉（平成20年度神戸大学大学院…入学試験問題）、考试日期「平成19年8月23日」、科目名「量子物理学」、页尾结束语「以上」与空白页边；作答说明另立为公共区域。",
+      "reviewed": true
+    }
+  ]
+}

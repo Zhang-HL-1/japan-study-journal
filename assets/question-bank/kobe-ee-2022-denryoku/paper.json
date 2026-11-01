@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2022-denryoku",
+  "title": "神户大学 · 2022 入学年度 · 电力工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2022",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2022,
+    "yearBasis": "academic",
+    "subject": "电力工学",
+    "originalSubject": "電力工学",
+    "originalName": "denryoku-2022.pdf",
+    "pdf": "assets/past-papers/documents/26ca4a94c9ab855970b0a7d7a682fb10438453fe95ab664d1212dfd2c2751493.pdf",
+    "sha256": "26ca4a94c9ab855970b0a7d7a682fb10438453fe95ab664d1212dfd2c2751493",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2022 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2022-denryoku-q1",
+      "number": "問題 A",
+      "title": "伯努利定理推导过程的填空",
+      "titleKind": "editorial",
+      "topics": [
+        "流体力学",
+        "伯努利定理",
+        "能量守恒"
+      ],
+      "summary": "图 1 为导出伯努利定理的模型：沿流线取坐标 s，取底面积 dA、高 ds 的水微元柱，上下流面压强 P、P'，柱轴与铅直方向成角 θ，重力加速度 g、水密度 ρ。按给定推导步骤在空格 i–v 中填入最合适的式子，最终积分得到 ρgH + (1/2)ρv² + P = 一定。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 A.」、题干（dA、ds、P、P'、θ、H+dH、g、ρ）、四个填空步骤与空格 i–v、末句伯努利定理式、图 1（ds、dH、θ、P、P'、mg、dA、H 标注）及图号齐全；下一题「問題 B.」（y≈490）未串入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-denryoku/kobe-ee-2022-denryoku-q1-01.png",
+          "page": 1,
+          "box": [
+            32.0,
+            150.0,
+            560.0,
+            463.5
+          ],
+          "width": 1320,
+          "height": 784,
+          "label": "問題 A：题干与符号说明、i–v 四段填空步骤、图 1 微元柱模型及图号",
+          "sha256": "27ed27b099a686127425dec20e91d614bde7d22f4e6d74f2c2e92c9407df585c"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2022-denryoku-q2",
+      "number": "問題 B",
+      "title": "卡诺循环的功与热",
+      "titleKind": "editorial",
+      "topics": [
+        "热力学",
+        "卡诺循环",
+        "熵",
+        "热效率"
+      ],
+      "summary": "图 2 为 1 mol 理想气体的卡诺循环 T–S 线图，状态按 1→2→3→4→1 变化，各过程记作 A、B、C、D：设定容比热为 Cv，用 Ta、Tb、Sa、Sb、Cv 表示 (a) 等温过程 A、C 与断热过程 B、D 中气体对外所做功，(b) 过程 A 从热源吸收的热量 Q，(c) 整循环对外做功 W 及 W/Q。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 B.」、题干（1 mol、1→2→3→4→1、A–D 过程、Cv 限定）、小问 (a)(b)(c) 完整，图 2（T 轴 Ta/Tb、S 轴 Sa/Sb、1–4 状态与 A/B/C/D 箭头）及图号齐全；页脚「(次ページへ続く)」（y≈747）已排除在区域外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-denryoku/kobe-ee-2022-denryoku-q2-01.png",
+          "page": 1,
+          "box": [
+            32.0,
+            483.3,
+            560.0,
+            738.7
+          ],
+          "width": 1320,
+          "height": 639,
+          "label": "問題 B：题干、小问 (a)(b)(c)、图 2 的 T–S 线图及图号",
+          "sha256": "b44ebee41eb9a06551ba705c7d6179230d2ecb4f61740322c312e1764db7e7a8"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2022-denryoku-q3",
+      "number": "問題 C",
+      "title": "核分裂与核融合反应式的守恒计算",
+      "titleKind": "editorial",
+      "topics": [
+        "核分裂",
+        "核融合",
+        "质量数守恒",
+        "能量分配"
+      ],
+      "summary": "给定核分裂与核融合反应式 (1)–(4)（n 为中性子、p 为阳子、D 为重水素、T 为三重水素，左上数字为质量数）：(a) 求 I 与 Cs 的原子序数（U 92、Y 39、Rb 37 已给）；(b) 求 (1)(2) 产生的中子数 N1、N2；(c) 求 (4) 中除 p 外的生成物 A；(d) 设 (3) 释放 17.5 MeV，按质量数比例求 He 与 n 各分得的能量。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 C.」、四个反应式与编号 (1)–(4)、空格「A」、n/p/D/T 与质量数的说明、小问 (a)–(d) 全部完整（含 17.5 MeV 与质量数比例条件），无切字；下一题「問題 D.」（y≈487）未串入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-denryoku/kobe-ee-2022-denryoku-q3-01.png",
+          "page": 2,
+          "box": [
+            32.0,
+            94.0,
+            560.0,
+            452.0
+          ],
+          "width": 1320,
+          "height": 895,
+          "label": "問題 C：题干、反应式 (1)–(4)、符号说明与小问 (a)–(d)",
+          "sha256": "2f1193e8fb58beca39ea39f8421cdb9ba72f74dad0a539f1d7c51e497b33eafc"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2022-denryoku-q4",
+      "number": "問題 D",
+      "title": "超导储能线圈的电压、功率与能量波形",
+      "titleKind": "editorial",
+      "topics": [
+        "电感",
+        "磁场储能",
+        "暂态过程"
+      ],
+      "summary": "超导储能装置中线圈电感为 5 H，流过电流 I 按图 3 随时间变化（0→6 s 由 0 线性升至 10 A，其后保持恒定）：在答题栏的图上分别画出线圈端电压 V、向线圈供给的电力 P、线圈储能 W 随时间的变化。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 D.」、题干（5 H、I 的时间变化、要求画 V、P、W 三条曲线）、图 3（I[A] 0–10、t[s] 0–7 的折线）及图号齐全；卷末「以上」为全卷结束标记，非题目内容，已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-denryoku/kobe-ee-2022-denryoku-q4-01.png",
+          "page": 2,
+          "box": [
+            32.0,
+            481.0,
+            560.0,
+            621.0
+          ],
+          "width": 1320,
+          "height": 351,
+          "label": "問題 D：题干（5 H、图 3 电流波形）与 图 3 及图号",
+          "sha256": "913f28cee890d8d61371df226ea1451f43f753897eddbbf782c75b55364a0942"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2022-denryoku-q1",
+        "kobe-ee-2022-denryoku-q2"
+      ],
+      "common": false,
+      "excluded": "页眉年度行、科目标题「電力工学」、左侧扫描污点与页脚翻页提示「(次ページへ続く)」，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2022-denryoku-q3",
+        "kobe-ee-2022-denryoku-q4"
+      ],
+      "common": false,
+      "excluded": "页眉年度行、页边空白与卷末「以上」结束标记，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

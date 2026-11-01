@@ -1,0 +1,148 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2025-datakozo",
+ "title": "神户大学 · 2025 入学年度 · 数据结构与算法",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2025",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2025,
+  "yearBasis": "academic",
+  "subject": "数据结构与算法",
+  "originalSubject": "データ構造とアルゴリズム",
+  "originalName": "datakozo-2025.pdf",
+  "pdf": "assets/past-papers/documents/e5fe9deddf4f6daac31f484b08d2db0bfb6664a8c4ef67cdd787af16ac8bd48a.pdf",
+  "sha256": "e5fe9deddf4f6daac31f484b08d2db0bfb6664a8c4ef67cdd787af16ac8bd48a",
+  "pageCount": 3,
+  "note": "来自既有过去问目录。2025 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2025-datakozo-q1",
+   "number": "問題１.",
+   "title": "欧几里得算法的输出与复杂度",
+   "titleKind": "editorial",
+   "topics": [
+    "递归",
+    "欧几里得算法",
+    "单调性",
+    "时间复杂度"
+   ],
+   "summary": "给定 C 函数 f(x,y)（先打印 y，再递归 f(y, x%y)）：设问(1) 示出 f(42,30) 的输出字符串；(2) 示出 f(16,26) 的输出；(3) 简洁说明 f 返回什么值；(4) 说明输出数列为单调减少；(5) 用大 O 记号给出 f 最坏时间复杂度并写明计算过程。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      48.7,
+      113.7,
+      544.7,
+      498.0
+     ],
+     "label": "問題１.：题干、C 程序 f、设问(1)~(5)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題１.」、C 函数 f 全文（含 if(x%y==0) 与 else 递归、注释）、设问(1)~(5) 齐全；页眉与科目名标题排除在框外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2025-datakozo-q2",
+   "number": "問題２.",
+   "title": "堆化函数与数组变化",
+   "titleKind": "editorial",
+   "topics": [
+    "堆",
+    "heapify",
+    "数组",
+    "时间复杂度"
+   ],
+   "summary": "以 v1 为根的 8 顶点树与数组 a[1..8]={8,6,4,3,1,2,7,5}，heapify(a,i,j) 见原卷：(1) 列出满足堆条件的顶点下标；(2) 执行 heapify(a,3,8) 后的 8 个值；(3) 再执行 heapify(a,2,8) 后的 8 个值；(4) 对 i=[n/2],[n/2]-1,…,1 依次 heapify 的时间复杂度（用 n 的大 O 表示并写明过程）。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      48.7,
+      66.7,
+      545.0,
+      720.3
+     ],
+     "label": "問題２.：题号、树与数组定义、heapify 全文、设问(1)~(4)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題２.」、顶点/父子关系说明、a[1]~a[8] 初值、heapify 全文（含 k=i*2 与递归调用）、设问(1)~(4) 齐全，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2025-datakozo-q3",
+   "number": "問題３.",
+   "title": "图的遍历树与最短路径树辨识",
+   "titleKind": "editorial",
+   "topics": [
+    "深度优先探索",
+    "广度优先探索",
+    "最小生成树",
+    "最短路径树"
+   ],
+   "summary": "对带权无向图 (A) 与部分树 (B)~(F)：(1) 以 r 为根的深度优先探索树；(2) 以 r 为根的广度优先探索树；(3) 最小生成树；(4) 以 r 为起点的最短路径树。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      43.7,
+      68.3,
+      554.7,
+      759.0
+     ],
+     "label": "問題３.：题干、(A)~(F) 六幅图与图号、设问(1)~(4)、(用語の説明)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 3 页：题号「問題３.」、作答格式说明、设问(1)~(4)、(A) 带权图与 (B)~(F) 五棵部分树（含 (A)(B)(C)(D)(E)(F) 标号）、底部「(用語の説明)」四段定义齐全，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2025-datakozo-q1"
+   ],
+   "common": false,
+   "excluded": "页眉（2025年度…入学試験）、科目名标题「データ構造とアルゴリズム」与空白页边。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2025-datakozo-q2"
+   ],
+   "common": false,
+   "excluded": "页眉（2025年度…入学試験）与空白页边。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "kobe-ee-2025-datakozo-q3"
+   ],
+   "common": false,
+   "excluded": "页眉（2025年度…入学試験）与空白页边。",
+   "reviewed": true
+  }
+ ]
+}

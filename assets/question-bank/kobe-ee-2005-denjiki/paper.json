@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2005-denjiki",
+  "title": "神户大学 · 2005 入学年度 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2005",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2005,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "denjiki.pdf",
+    "pdf": "assets/past-papers/documents/e56bf27d359a7b1410a6b77dec1c4dc7bcc8f52ad5a2688bcd9fe2295f304557.pdf",
+    "sha256": "e56bf27d359a7b1410a6b77dec1c4dc7bcc8f52ad5a2688bcd9fe2295f304557",
+    "pageCount": 3,
+    "note": "来自既有过去问目录。2005 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2005-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        78.0,
+        151.0,
+        444.0,
+        173.5
+      ],
+      "width": 915,
+      "height": 57,
+      "label": "全卷作答说明「以下の全ての問について、それぞれ指定された解答用紙に解答しなさい。」",
+      "sha256": "ca268c5ed3f6785fd9ef8f758dade0afe02668534146dfeb0687d5b54d64c5a1"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2005-denjiki-q1",
+      "number": "問題 1",
+      "title": "同轴电缆的电场、电位差与静电容",
+      "titleKind": "editorial",
+      "topics": [
+        "同轴电缆",
+        "高斯定理",
+        "电位差",
+        "静电容"
+      ],
+      "summary": "半径 a 与半径 b 的同心圆筒导体构成同轴电缆，内导体面电荷密度 ρ_s，其间充满介电率 ε 的介质。(1) 求 a<ρ<b 的电场 E（以半径 ρ 的函数表示）；(2) 求两导体间电位差 V；(3) 求长 L 的电缆静电容 C。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「［問題１］」、同轴电缆题干、小问（１）(a<ρ<b 的电场 E)、（２）电位差 V、（３）长 L 的静电容 C 完整；面电荷密度 ρ_s 的下标 s 未切。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-denjiki/kobe-ee-2005-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            78.0,
+            204.0,
+            522.0,
+            374.0
+          ],
+          "width": 1110,
+          "height": 425,
+          "label": "問題1：题干（同心圆筒、面电荷密度 ρ_s、介电率 ε）与小问（１）（２）（３）",
+          "sha256": "08a503382d58d9e4330d0eda77ef3bc5e2baf1bfef3056f6b702c729ba3c8f70"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2005-denjiki-q2",
+      "number": "問題 2",
+      "title": "直导线与正方形回路的安培力与感应电动势",
+      "titleKind": "editorial",
+      "topics": [
+        "安培力",
+        "磁通",
+        "电磁感应",
+        "法拉第定律"
+      ],
+      "summary": "y 轴上有无限长直导线，z=0 的 xy 平面内固定边长 a 的正方形回路（两边平行 y 轴，近边距 b）。(1) 图1(a) 中直导线电流 I1、回路电流 I2（近边与 I1 同向）时求回路所受力的大小与方向；(2) 图1(b) 中直导线电流 I=I0 sin ωt 时求穿过回路的磁通与回路感应电动势（忽略感应电流产生的磁场）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「［問題２］」、题干（无限长直导线、边长 a、近边距 b）、小问（１）（２）与図1(a)(b) 两图及其坐标标注完整；图号「図1(a)」「図1(b)」均在框内，页眉两行已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-denjiki/kobe-ee-2005-denjiki-q2-01.png",
+          "page": 2,
+          "box": [
+            78.0,
+            96.0,
+            522.0,
+            630.0
+          ],
+          "width": 1110,
+          "height": 1335,
+          "label": "問題2：题干、小问（１）（２）与図1(a)・図1(b) 两幅回路图（含 I1、I2、I、坐标 (b,0,0)・(a+b,0,0)・(b,a,0)）",
+          "sha256": "ae8d5d24abc3dc07ebad3770970a8988a4879c393193319375b28ddd319fdef9"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2005-denjiki-q3",
+      "number": "問題 3",
+      "title": "有耗介质中平面波的衰减常数",
+      "titleKind": "editorial",
+      "topics": [
+        "平面电磁波",
+        "衰减常数",
+        "相位常数",
+        "亥姆霍兹方程"
+      ],
+      "summary": "在介电率 ε、磁导率 μ、电导率 σ 的介质中传播 E_x=E0 exp{iω(t−z/v)} 的平面波。(1) 由亥姆霍兹方程说明振幅随传播衰减并求衰减常数；(2) 指出衰减消失的介质条件。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 3 页：题号「［問題３］」、ε/μ/σ 介质与 E_x 平面波式、方形提示框（∇²E=σμ∂E/∂t+εμ∂²E/∂t² 与 E_x=E0exp{iωt−(α+iβ)z}）完整在框内；小问（２）齐全，提示框左边线未切。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-denjiki/kobe-ee-2005-denjiki-q3-01.png",
+          "page": 3,
+          "box": [
+            66.0,
+            96.0,
+            528.0,
+            462.0
+          ],
+          "width": 1155,
+          "height": 915,
+          "label": "問題3：题干、小问（１）（平面波式与提示框：亥姆霍兹方程、α 为衰减常数 β 为相位常数）、（２）衰减消失的条件",
+          "sha256": "50bcccac37c631ed44165c1dc557cbdf246b5f7b4717560bc2712d9aeafe87ec"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2005-denjiki-q1"
+      ],
+      "common": true,
+      "excluded": "卷头两行页眉（平成17年度…入学試験問題／平成16年8月5日）与科目名「電 磁 気 学」大字标题；仅保留作答说明作公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2005-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "卷头两行页眉（平成17年度…／平成16年8月5日），不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "kobe-ee-2005-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "卷头两行页眉（平成17年度…／平成16年8月5日），不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

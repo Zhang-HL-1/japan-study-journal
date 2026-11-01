@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2013-seigyo",
+  "title": "神户大学 · 2013 入学年度 · 自动控制",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2013",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2013,
+    "yearBasis": "academic",
+    "subject": "自动控制",
+    "originalSubject": "自動制御",
+    "originalName": "seigyo-25.pdf",
+    "pdf": "assets/past-papers/documents/5611fe5ad4cec949a15920b699862db5867fc7b9235863f44a9164c8e6d177b8.pdf",
+    "sha256": "5611fe5ad4cec949a15920b699862db5867fc7b9235863f44a9164c8e6d177b8",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2013 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2013-seigyo-q1",
+      "number": "問題 1",
+      "title": "传递函数 G(s) 的稳定性与脉冲响应",
+      "titleKind": "editorial",
+      "topics": [
+        "传递函数",
+        "稳定性",
+        "初值定理",
+        "终值定理",
+        "逆拉普拉斯变换"
+      ],
+      "summary": "对 G(s)=(s+3)/[s(1+2s)²(1+s)]：判断 G(s) 是否稳定并给出理由；用初值定理与终值定理求脉冲响应在 t=0 的初值和终值；再用逆拉普拉斯变换求脉冲响应并画出概形，要求准确表示 t=0 与 t→∞ 的行为（可用 e⁻¹≈0.37、e⁻²≈0.14、e⁻⁴≈0.02）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷唯一页：題号「問題 1.」与「以下の問いに答えよ.」、式(1) 的 G(s)=(s+3)/(s(1+2s)²(1+s)) 及编号 (1)、小问 1. 2. 3. 全在框内，3. 中的 e⁻¹・e⁻²・e⁻⁴ 近似值一行完整；页眉与科目名「自動制御」已排除，无页脚页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2013-seigyo/kobe-ee-2013-seigyo-q1-01.png",
+          "page": 1,
+          "box": [
+            50.0,
+            129.3,
+            543.3,
+            328.7
+          ],
+          "width": 1234,
+          "height": 499,
+          "label": "問題 1：题号与总起句、式(1) 的 G(s)、小问 1.–3.（含 3. 的两行补充说明）",
+          "sha256": "64181c58bbf9f29d9077d0f23b00a9190e18251f2d009e7aaffd1f89c759c876"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2013-seigyo-q2",
+      "number": "問題 2",
+      "title": "闭环控制系统的稳定性与定常偏差",
+      "titleKind": "editorial",
+      "topics": [
+        "闭环传递函数",
+        "劳斯判据",
+        "奈奎斯特判据",
+        "定常偏差"
+      ],
+      "summary": "図 1 的闭环系统以 r 为目标值、y 为控制量、K 为正定数、H(s)=10/[s(s+2)(s+10)]：求 r→y 的闭环传递函数；用劳斯判据（须列劳斯表并示判别过程）求系统稳定的 K 范围；再用一巡传递函数的频率响应与奈奎斯特判据求稳定 K 范围；最后设系统稳定，求单位阶跃输入下的定常偏差。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷唯一页：「問題 2.」题号与两行设定、带 r/y/K/H(s) 与反馈支路的 図 1 方块图及「図 1: 閉ループ制御系」图号、式(2) 的 H(s)=10/(s(s+2)(s+10)) 与编号 (2)、小问 1.–4. 全部在框内；4. 的两行正文完整，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2013-seigyo/kobe-ee-2013-seigyo-q2-01.png",
+          "page": 1,
+          "box": [
+            47.3,
+            342.7,
+            542.7,
+            715.3
+          ],
+          "width": 1239,
+          "height": 933,
+          "label": "問題 2：题号与设定、図 1 闭环方块图（含图号）、式(2) 的 H(s)、小问 1.–4.",
+          "sha256": "99bd95eb2fea5c2a92a24538c3bb85b7b066a04739cc957a0e97ca6115eebd35"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2013-seigyo-q1",
+        "kobe-ee-2013-seigyo-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "顶部页眉「平成 25 年度神戸大学大学院工学研究科…入学試験」、科目名大标题「自動制御」与空白页边；本页无全卷作答说明、无页脚页码，故无公共区域。"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2021-math",
+  "title": "神户大学 · 2021 入学年度 · 数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2021",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2021,
+    "yearBasis": "academic",
+    "subject": "数学",
+    "originalSubject": "数学",
+    "originalName": "math-2021.pdf",
+    "pdf": "assets/past-papers/documents/39633f6c6d375c55d2d8a2a6733c1bc7703c0f59e7f5de2a13152687f8b01657.pdf",
+    "sha256": "39633f6c6d375c55d2d8a2a6733c1bc7703c0f59e7f5de2a13152687f8b01657",
+    "pageCount": 3,
+    "note": "来自既有过去问目录。2021 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2021-math/common-01.png",
+      "page": 1,
+      "box": [
+        83.7,
+        276.7,
+        518.3,
+        454.7
+      ],
+      "width": 1087,
+      "height": 446,
+      "label": "全卷作答说明（注意事項 (1)–(4)：题号与答题纸对应、答案栏不足时写背面、准考证号栏禁忌）",
+      "sha256": "a8d9df8d311f3d60c084cdf2185050c05ed241bd9422c911c9eb73d3f41bc4ec"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2021-math-q1",
+      "number": "1.",
+      "title": "有理函数高阶导数与幂零矩阵",
+      "titleKind": "editorial",
+      "topics": [
+        "高阶导数",
+        "递推关系",
+        "幂零矩阵",
+        "特征值"
+      ],
+      "summary": "对 f(x)=1/(1+x^2) 证明 n≥2 时 (1+x^2)f^(n)+2nx f^(n-1)+n(n-1)f^(n-2)=0，并求任意阶 f^(n)(0)；再判断给定 3×3 矩阵为幂零矩阵，并证明幂零矩阵的特征值只能为 0。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "扫描页，用 pages/ 2x 页图目视定带宽后以 inkbox.py 收紧（x 72–522）。对照原卷第 2 页：题号「1.」、总起句、(1)(1-a)(1-b)(2)(2-a)(2-b) 齐全，含 n 阶导数方程与 3×3 矩阵元素，无切字、无第 2 题串入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-math/kobe-ee-2021-math-q1-01.png",
+          "page": 2,
+          "box": [
+            75.3,
+            76.7,
+            518.0,
+            326.0
+          ],
+          "width": 1107,
+          "height": 624,
+          "label": "1.：题干、(1) 含 1-a 高阶导数递推式与 1-b f^(n)(0)、(2) 幂零矩阵定义与 2-a/2-b",
+          "sha256": "a6b838f80b0cb93fe220c03c490aa63cad86d7cf49eeb6e46e8fe77ba17e4e2e"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2021-math-q2",
+      "number": "2.",
+      "title": "留数定理与半圆围道积分",
+      "titleKind": "editorial",
+      "topics": [
+        "复变函数",
+        "留数定理",
+        "围道积分",
+        "实积分"
+      ],
+      "summary": "对 f(z)=e^{-2z}/(z-1)^2 与由半圆弧 C1 和直径线段 C2 组成的闭围道 C，求沿 C 的积分并证明 R→∞ 时沿 C1 的积分趋于 0；再用该结果求含 sin2t、cos2t 的实定积分 I。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「2.」、函数 f(z)、R>1 条件与 C1、C2、C=C1∪C2 的说明、小问 (1)(2)(3) 完整，积分号与上下限、被积函数分子分母齐全，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-math/kobe-ee-2021-math-q2-01.png",
+          "page": 2,
+          "box": [
+            74.0,
+            356.3,
+            517.3,
+            529.7
+          ],
+          "width": 1109,
+          "height": 435,
+          "label": "2.：题干与 C1/C2/C 的定义、(1) 沿 C 的积分、(2) R→∞ 极限、(3) 实积分 I",
+          "sha256": "6f810767699cf9b57859efaf309954f6db2309ddfc77db03184cd4582bd17020"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2021-math-q3",
+      "number": "3.",
+      "title": "二阶非齐次线性微分方程与初值问题",
+      "titleKind": "editorial",
+      "topics": [
+        "常微分方程",
+        "特征方程",
+        "特解",
+        "初值问题"
+      ],
+      "summary": "对 y''+4y'+3y=xe^{-2x}（标号 (*)）先求对应齐次方程的一般解，再求 (*) 的一般解；最后由 y(0)=1、y'(0)=0 定解并求 x→∞ 时 e^x y(x) 的极限（若存在）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「3.」、方程 (*) 及其右侧编号、小问 (1)(2)(3) 与两行排版的初值/极限句完整；页脚「(裏面へ続く)」位于 737pt 以下，已在区域外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-math/kobe-ee-2021-math-q3-01.png",
+          "page": 2,
+          "box": [
+            74.7,
+            570.0,
+            534.7,
+            716.0
+          ],
+          "width": 1151,
+          "height": 365,
+          "label": "3.：题干与方程 (*)、(1) 齐次方程一般解、(2) (*) 的一般解、(3) 初值定解与极限",
+          "sha256": "543aae7712f9482fa4e5555df7c6b91c97047dbff320688ada7331319c4fa6eb"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2021-math-q4",
+      "number": "4.",
+      "title": "三角波函数的傅里叶级数",
+      "titleKind": "editorial",
+      "topics": [
+        "傅里叶级数",
+        "傅里叶系数",
+        "周期延拓",
+        "级数求和"
+      ],
+      "summary": "对以 1/n 为支集的折线函数 f(x)=n(1-n|x|)（|x|≤1/n）、0（|x|>1/n）作 2π 周期延拓，计算傅里叶系数 a0、ak、bk；求固定 k 时 ak(n) 的 n→∞ 极限，并用 (1) 的结果求 Σ(1/k^2)(1-cos(k/n))。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 3 页：题号「4.」、含大括号的分段定义与两行条件、傅里叶级数展开式、小问 (1)(2)(3) 及极限、求和式完整，无切字；页面其余为大面积空白与扫描污点。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-math/kobe-ee-2021-math-q4-01.png",
+          "page": 3,
+          "box": [
+            86.0,
+            78.7,
+            520.7,
+            286.7
+          ],
+          "width": 1087,
+          "height": 521,
+          "label": "4.：分段函数定义与 (1) 傅里叶系数 a0/ak/bk、(2) ak(n) 的极限、(3) 级数求和",
+          "sha256": "ab82da3ed2373b38d3bf7a6c201f8b669eb1461b744bfaddc9ae82418900931f"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "卷头标题（2021 年度・神戸大学大学院工学研究科・博士課程前期課程 入学試験問題・数学）与空白页边、扫描污点；仅保留注意事項作公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2021-math-q1",
+        "kobe-ee-2021-math-q2",
+        "kobe-ee-2021-math-q3"
+      ],
+      "common": false,
+      "excluded": "空白页边、左侧装订痕与页脚翻页提示「(裏面へ続く)」，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "kobe-ee-2021-math-q4"
+      ],
+      "common": false,
+      "excluded": "空白页边、右上扫描斜线污点与页面下方大面积空白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

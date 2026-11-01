@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2024-it",
+  "title": "神户大学 · 2024 入学年度 · 信息理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2024",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "信息理论",
+    "originalSubject": "情報理論",
+    "originalName": "it-2024.pdf",
+    "pdf": "assets/past-papers/documents/58a9aa5686559bc9516c5b5156c34f3a5a72592b4b30b79cdb01ea2f2d784832.pdf",
+    "sha256": "58a9aa5686559bc9516c5b5156c34f3a5a72592b4b30b79cdb01ea2f2d784832",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2024-it/common-01.png",
+      "page": 1,
+      "box": [
+        46.5,
+        113.5,
+        537.0,
+        150.5
+      ],
+      "width": 1227,
+      "height": 94,
+      "label": "全卷作答说明（「以下の問いについて、それぞれ指定された答案用紙に解答しなさい。なお、情報量の単位は bit とする。」）",
+      "sha256": "51838da051557cc2ebf3ec6021b53d04206b9a0bac23ef2807b5893cf351f7ca"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2024-it-q1",
+      "number": "問題１.",
+      "title": "相对熵的非负性与熵的上界（填空）",
+      "titleKind": "editorial",
+      "topics": [
+        "信息量",
+        "相对熵",
+        "KL散度",
+        "熵的上界"
+      ],
+      "summary": "对信息源上的两个概率分布 p、q 定义 D(p||q)=Σ_{x∈A} p(x)log(p(x)/q(x))，先由 log x≤(x−1)log e 证明式 (b) D(p||q)≥0 并填 (A)～(C)；再对大小为 α 的集合与均匀分布 q 证明 H(X)≤log α（式 (c)），填 (D)～(F)。",
+      "review": {
+        "status": "verified",
+        "method": "2x page image visual reading + ink row-group profiling (2024_groups.py) + AI visual comparison against built crop",
+        "date": "2026-11-01",
+        "notes": "扫描页（无文本层）。以 2x 页图目视定界：上边界停在作答说明（y≈145.5）之下、下边界取末行「空欄 (D)～(F) を埋めなさい。」（y≈705.5）之下，左右取正文栏（约 51.5–535.5）外扩 6pt。逐张核对：题号「問題１．」、式 (a)(b)(c) 编号、方框 (A)～(F) 及 Σ 的 x∈A 下标、log 分式完整，页眉「2024 年度神戸大学…入学試験」与标题「情報理論」在框外，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-it/kobe-ee-2024-it-q1-01.png",
+          "page": 1,
+          "box": [
+            45.0,
+            166.0,
+            541.5,
+            711.5
+          ],
+          "width": 1242,
+          "height": 1364,
+          "label": "問題１.：题干、式 (a)(b)、小问 (1)（空欄 A～C）与小问 (2)（空欄 D～F、式 (c)）",
+          "sha256": "658e4de8c569a3f0ed40577a5698088700e5b13b9c10a41cb6093408091c1630"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2024-it-q2",
+      "number": "問題２.",
+      "title": "单奇偶校验码的错误检测概率与生成/校验矩阵",
+      "titleKind": "editorial",
+      "topics": [
+        "信道编码",
+        "单奇偶校验码",
+        "错误检测",
+        "生成矩阵",
+        "校验矩阵"
+      ],
+      "summary": "对消息 m=(m_1,…,m_{n−1}) 附加 1 个校验符号得到二元单奇偶校验码 C：在反错概率 p 的二元对称信道下，用数学归纳法证明全零码字发送时检出错误的概率 P={1−(1−2p)^n}/2，填 (A)～(D)；(2) 写出 C 的生成矩阵 G 与奇偶校验矩阵 H，并注明各行列数。",
+      "review": {
+        "status": "verified",
+        "method": "2x page image visual reading + ink row-group profiling (2024_groups.py) + AI visual comparison against built crop",
+        "date": "2026-11-01",
+        "notes": "扫描页（无文本层）。上边界取首行「問題２．メッセージ…」（y≈69.5）之上、下边界取末行「(2) Cの生成行列 Gとパリティ検査行列 Hを示しなさい…」（y≈350.5）之下；右边界放到 562.5pt 以包住首行末尾的「k = n − 1」。逐张核对：题号、P(Y_1+…+Y_n=1) 的递推式与分式 1−(1−2p)^n、方框 (A)～(D)、小问 (2) 均完整；页眉与下方大段空白未入框，无切字、无串题（問題３．在框外）。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-it/kobe-ee-2024-it-q2-01.png",
+          "page": 2,
+          "box": [
+            41.5,
+            63.5,
+            562.5,
+            356.5
+          ],
+          "width": 1304,
+          "height": 734,
+          "label": "問題２.：题干、小问 (1)（归纳法证明与空欄 A～D）与小问 (2)（生成矩阵 G、校验矩阵 H）",
+          "sha256": "e7362e5036d42ee515d52588469bbb60ae0f0191c21eb94942feb9e2fc8c4268"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2024-it-q3",
+      "number": "問題３.",
+      "title": "二元擦除信道中每符号送达的信息量",
+      "titleKind": "editorial",
+      "topics": [
+        "擦除信道",
+        "信道容量",
+        "信息量"
+      ],
+      "summary": "在擦除概率 e 的二元擦除信道中，求 e=0.5 时每 1 个符号平均送达接收端的信息量为多少 bit，并要求连同理由作答。",
+      "review": {
+        "status": "verified",
+        "method": "2x page image visual reading + ink row-group profiling (2024_groups.py) + AI visual comparison against built crop",
+        "date": "2026-11-01",
+        "notes": "扫描页（无文本层）。仅两行正文（y≈394.0–421.5），框内为题号「問題３．」、e=0.5 与「理由とともに答えなさい。」；上方与問題２. 之间留白充足，下方为空白。框内右下方 x≈387–400、y≈422–434 有一条纸面划痕（扫描污点，非文字），已确认不是被切断的字符，故未纳入「切字」问题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-it/kobe-ee-2024-it-q3-01.png",
+          "page": 2,
+          "box": [
+            45.5,
+            386.5,
+            537.0,
+            427.5
+          ],
+          "width": 1230,
+          "height": 103,
+          "label": "問題３.：题干两行（擦除概率 e=0.5 的二元消失通信路、每符号比特数与理由）",
+          "sha256": "99953dfaef91c39f364bd400ef7c78b69a5e8c179308ce7892cdff42ec1e3ab1"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2024-it-q1"
+      ],
+      "common": true,
+      "excluded": "卷头页眉「2024 年度神戸大学大学院工学研究科博士課程前期課程入学試験」、大标题「情報理論」、页边与扫描噪点；作答说明另立为公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2024-it-q2",
+        "kobe-ee-2024-it-q3"
+      ],
+      "common": false,
+      "excluded": "卷头页眉（同第 1 页的年度/研究科行）、两题之间与第 427.5pt 以下的整片空白、页边扫描噪点与右侧污迹。",
+      "reviewed": true
+    }
+  ]
+}

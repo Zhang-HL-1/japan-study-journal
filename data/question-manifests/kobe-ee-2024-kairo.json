@@ -1,0 +1,187 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2024-kairo",
+ "title": "神户大学 · 2024 入学年度 · 电气回路与电子回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2024",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2024,
+  "yearBasis": "academic",
+  "subject": "电气回路与电子回路",
+  "originalSubject": "電気回路・電子回路",
+  "originalName": "kairo-2024.pdf",
+  "pdf": "assets/past-papers/documents/c7afa4197178df94a9c422201421825923f9b12b3d439764b3350b466012b010.pdf",
+  "sha256": "c7afa4197178df94a9c422201421825923f9b12b3d439764b3350b466012b010",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    44,
+    122,
+    542,
+    148
+   ],
+   "label": "全卷作答说明：答案用纸每人 2 张，問題 (A) 与 (B) 分别作答于对应答案用纸"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2024-kairo-q1",
+   "number": "問題 (A)",
+   "title": "变压器耦合电路与 RL 过渡现象",
+   "titleKind": "editorial",
+   "topics": [
+    "变压器耦合电路",
+    "阻抗折算",
+    "RL 过渡现象"
+   ],
+   "summary": "含 (1) 变压器耦合电路求 L2、一次侧阻抗及各电流电压，(2) R1-R2-L 电路的开关开闭过渡过程；附 図 A-1、図 A-2。中文标题与概述仅供导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      46,
+      172,
+      542,
+      233
+     ],
+     "label": "問題 (A)：题号与作答指示（数值作答、j 与根号保留）"
+    },
+    {
+     "page": 1,
+     "box": [
+      57,
+      249,
+      544,
+      383
+     ],
+     "label": "問題 (A)(1)：变压器耦合电路，含 ①②③"
+    },
+    {
+     "page": 1,
+     "box": [
+      56,
+      428,
+      544,
+      614
+     ],
+     "label": "問題 (A)(2)：RL 电路过渡现象，含 ①②③"
+    },
+    {
+     "page": 1,
+     "box": [
+      108,
+      651,
+      541,
+      806
+     ],
+     "label": "問題 (A)：図 A-1 与 図 A-2 及图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号框完整，(1)(2) 各含 ①②③ 三小问，図 A-1、図 A-2 及图号均在内；已排除卷头年度行、科目标题、注意行与页码。"
+   }
+  },
+  {
+   "id": "kobe-ee-2024-kairo-q2",
+   "number": "問題 (B)",
+   "title": "放大电路与 CMOS 逻辑三选二",
+   "titleKind": "editorial",
+   "topics": [
+    "共射放大电路",
+    "运算放大器",
+    "CMOS 逻辑"
+   ],
+   "summary": "从 (1)～(3) 中任选 2 问作答：共射基本放大电路（RE 与旁路电容）、运放内部电路与虚短虚地、CMOS 逻辑门；附 図 B-1。中文标题与概述仅供导航。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      47,
+      113,
+      541,
+      179
+     ],
+     "label": "問題 (B)：题号与选答指示（(1)～(3) 中选 2 问）"
+    },
+    {
+     "page": 2,
+     "box": [
+      45,
+      190,
+      542,
+      325
+     ],
+     "label": "問題 (B)(1)：共射基本放大电路，含 a)b)c)"
+    },
+    {
+     "page": 2,
+     "box": [
+      45,
+      338,
+      541,
+      513
+     ],
+     "label": "問題 (B)(2)：运算放大器内部电路，含 a)～d)"
+    },
+    {
+     "page": 2,
+     "box": [
+      45,
+      526,
+      531,
+      631
+     ],
+     "label": "問題 (B)(3)：CMOS 逻辑电路，含 a)b)c)"
+    },
+    {
+     "page": 2,
+     "box": [
+      218,
+      638,
+      410,
+      806
+     ],
+     "label": "問題 (B)：図 B-1 与图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号框与选答指示完整，(1) 含 a–c、(2) 含 a–d、(3) 含 a–c，図 B-1 及图号在内；已排除卷头年度行、科目标题与页边空白。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2024-kairo-q1"
+   ],
+   "common": true,
+   "excluded": "重复卷头（年度行、科目名）与页边空白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2024-kairo-q2"
+   ],
+   "common": false,
+   "excluded": "重复卷头（年度行、科目名）与页边空白，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

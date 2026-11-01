@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2026-data",
+  "title": "神户大学 · 2026 入学年度 · 电子信息（数据科学）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2026",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2026,
+    "yearBasis": "academic",
+    "subject": "电子信息（数据科学）",
+    "originalSubject": "電子情報（データサイエンス）",
+    "originalName": "data-2026.pdf",
+    "pdf": "assets/past-papers/documents/06092fbc0d68e9ba50e71ec097ccdb6acf1087e28f360b651314fba0b11adf15.pdf",
+    "sha256": "06092fbc0d68e9ba50e71ec097ccdb6acf1087e28f360b651314fba0b11adf15",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2026 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2026-data-q1",
+      "number": "問題 1.",
+      "title": "CNN 与 softmax 输出的偏导与权重更新",
+      "titleKind": "editorial",
+      "topics": [
+        "CNN",
+        "ソフトマックス関数",
+        "誤差逆伝播",
+        "最急降下法"
+      ],
+      "summary": "对依次经 6 组卷积层与池化层、再经全结合层的 CNN（含イヌ/ネコ/カメ/トリ/ヒト 五个类别）：用 softmax 输出 yj 表示 f(uj) 的偏导，由教师信号与平方误差按最急降下法导出结合荷重 wji 的更新式，并在 300 字以内说明卷积层与池化层重复配置所实现的功能。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1.」、CNN 结构图（入力画像→畳み込み層①→プーリング層①→…→プーリング層⑥→全結合層→出力）与右侧分类得分（イヌ 0.1／ネコ 0.9／カメ 0.0／トリ 0.0／ヒト 0.0）、y_j=exp(u_j)/Σexp(u_k) 与 u_j 定义式、符号说明、小问 (1)(2)(3) 齐全；页眉年份行与科目标题已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-data/kobe-ee-2026-data-q1-01.png",
+          "page": 1,
+          "box": [
+            44.0,
+            113.0,
+            546.0,
+            736.3
+          ],
+          "width": 1255,
+          "height": 1559,
+          "label": "問題 1.：题干、CNN 结构图与分类输出、softmax 与 uj 定义式、符号说明、(1)(2)(3)",
+          "sha256": "35af4370a65b4028573be9504cf85732ccf74ff7f200312f72604b7f06b0dbe3"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2026-data-q2",
+      "number": "問題 2.",
+      "title": "贝叶斯定理与朴素贝叶斯垃圾邮件判定",
+      "titleKind": "editorial",
+      "topics": [
+        "ベイズの定理",
+        "単純ベイズ分類器",
+        "スパムフィルタ",
+        "テキスト分類"
+      ],
+      "summary": "对检出率 98%、误判率 2%、垃圾邮件占比 5% 的过滤器，用贝叶斯定理求被判为垃圾时实为垃圾的概率；再按比特币、クジラ、買い増し 三个 token 的出现概率表，用朴素贝叶斯分类器判定含三 token 的投稿，并说明垃圾过滤器的构成方法。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页（仅此题）：题号「問題 2.」、小问 (1)(2)(3)、token 出现概率表（ビットコイン 0.2/0.8、クジラ 0.05/0.7、買い増し 0.1/0.5）与「出現確率は互いに独立」条件齐全；页眉年份行已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-data/kobe-ee-2026-data-q2-01.png",
+          "page": 2,
+          "box": [
+            46.0,
+            67.3,
+            540.7,
+            524.0
+          ],
+          "width": 1237,
+          "height": 1142,
+          "label": "問題 2.：题干、(1) ベイズの定理求事后概率、(2) token 出现概率表与単純ベイズ判定、(3) フィルタ構成の説明",
+          "sha256": "06e78d8883d802a351bede30c248e4def9ca2b68bfc1424c104c061a3c4361c7"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2026-data-q1"
+      ],
+      "common": false,
+      "excluded": "页眉「2026 年度 神戸大学大学院工学研究科…入学試験」与科目标题「電子情報（データサイエンス）」、空白页边与右侧扫描污点，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2026-data-q2"
+      ],
+      "common": false,
+      "excluded": "页眉「2026 年度…入学試験」、空白页边与扫描污点，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

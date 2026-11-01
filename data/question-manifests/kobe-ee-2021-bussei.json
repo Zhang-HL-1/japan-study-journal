@@ -1,0 +1,110 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2021-bussei",
+ "title": "神户大学 · 2021 入学年度 · 物性工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2021",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2021,
+  "yearBasis": "academic",
+  "subject": "物性工学",
+  "originalSubject": "物性工学",
+  "originalName": "bussei-2021.pdf",
+  "pdf": "assets/past-papers/documents/7e34a74e5fd3ed958b97b2d906cf8b748624fb59928065ac67908421dadb4a24.pdf",
+  "sha256": "7e34a74e5fd3ed958b97b2d906cf8b748624fb59928065ac67908421dadb4a24",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2021 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2021-bussei-q1",
+   "number": "問題1.",
+   "title": "自由电子模型与费米能",
+   "titleKind": "editorial",
+   "topics": [
+    "自由电子模型",
+    "周期边界条件",
+    "态密度",
+    "费米能",
+    "费米波数"
+   ],
+   "summary": "用边长 L 的立方体与周期边界条件给出金属中电子的波动函数式 (1)，求波数矢量 x 分量 kx 的取值、E 以下状态数（含自旋）与态密度 D(E)；再画 D(E)-E 图并标出 0 K 与 T>0 K 的占据区域，最后把费米能 EF0、费米波数 kF、费米速度 vF 表示为电子密度 n 的函数。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      32.0,
+      102.0,
+      538.7,
+      617.3
+     ],
+     "label": "問題1.：题干、式 (1) 与 (1)–(5) 五小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页，用 pages/ 2x 页图定位后以 inkbox.py 收紧。对照原卷第 1 页：题号「問題1.」、自由電子模型与周期境界条件、波动函数式 (1)、D(E) 与 EF0/kF/vF 的说明及 (1)–(5) 五小问齐全，含 √(2mE)/ħ 等公式，无切字；页眉与科目名标题在框外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2021-bussei-q2",
+   "number": "問題2.",
+   "title": "一维周期势与近自由电子近似",
+   "titleKind": "editorial",
+   "topics": [
+    "周期势",
+    "布洛赫定理",
+    "近自由电子近似",
+    "能带",
+    "布里渊区"
+   ],
+   "summary": "对周期 L=a+b 的一维矩形周期势（高 V0、低 0，図 与式 (1)(2)），把 Bloch 波动函数代入薛定谔方程求 uk(x)，由 (3)(4) 定 α、β 并列边界条件方程组，导出式 (5)–(7) 的 Kronig-Penney 关系；再对 P=3π/2 画式 (6) 左端随 αa 的图形并标出允带，求能量不连续处的 k，最后画 E-ka 图并叠画自由电子抛物线、标出第一布里渊区。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      36.7,
+      48.3,
+      544.7,
+      760.3
+     ],
+     "label": "問題2.：题干、図（一次元周期ポテンシャル）、式 (1)–(7) 与 (1)–(6) 小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題2.」、周期 L=a+b 的矩形势说明、図 与其图号・副标题、Bloch 定理式 (1)(2)、式 (3)(4)、式 (5)(6)(7)、小问 (1)–(6) 齐全，无切字；页眉与科目名标题在框外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2021-bussei-q1"
+   ],
+   "common": false,
+   "excluded": "页眉「2021 年度神戸大学大学院工学研究科博士課程前期課程入学試験」与科目名标题「物性工学」、左侧装订痕与下方空白页边；卷面无独立作答说明，故无 common region。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2021-bussei-q2"
+   ],
+   "common": false,
+   "excluded": "页眉与科目名标题（续页重复）、右侧页边扫描竖线、下方空白页边。",
+   "reviewed": true
+  }
+ ]
+}

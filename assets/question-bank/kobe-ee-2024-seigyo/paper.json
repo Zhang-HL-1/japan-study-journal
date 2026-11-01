@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2024-seigyo",
+  "title": "神户大学 · 2024 入学年度 · 自动控制",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2024",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "自动控制",
+    "originalSubject": "自動制御",
+    "originalName": "seigyo-2024.pdf",
+    "pdf": "assets/past-papers/documents/da37e87ca51f5a938c19cbd501f5f38a5251dcba0fa2f4bde610fee6de43971e.pdf",
+    "sha256": "da37e87ca51f5a938c19cbd501f5f38a5251dcba0fa2f4bde610fee6de43971e",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2024-seigyo-q1",
+      "number": "問題 1",
+      "title": "闭环传递函数与定常偏差",
+      "titleKind": "editorial",
+      "topics": [
+        "闭环传递函数",
+        "阶跃响应",
+        "定常偏差"
+      ],
+      "summary": "比例加微分反馈的闭环系统，含传递函数、衰减系数与单调性条件、单位阶跃响应及定常位置/速度偏差。中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页核对：题号「問題 1」、4 小问（传递函数/衰减系数与单调条件/阶跃响应与定常位置偏差/定常速度偏差）、式 K1=9/16・K2=1/4 及図 1 框图与图号均在框内，未含页眉与页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-seigyo/kobe-ee-2024-seigyo-q1-01.png",
+          "page": 1,
+          "box": [
+            44.7,
+            121.3,
+            567.3,
+            439.3
+          ],
+          "width": 1308,
+          "height": 796,
+          "label": "問題 1：题干、4 小问与図 1 闭环框图",
+          "sha256": "36db01062daf1e0b49e6b481f5f2fde56ed7373caae8716787be37e8284e6bd2"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2024-seigyo-q2",
+      "number": "問題 2",
+      "title": "延迟环节系统与稳定判据",
+      "titleKind": "editorial",
+      "topics": [
+        "延迟环节",
+        "Routh 判据",
+        "Nyquist 判据"
+      ],
+      "summary": "含 A(s)=1/(s(s+1)^n) 与 B(s)=e^{-Ls} 的闭环系统，问闭环传递函数、定常偏差、Routh 判稳与 Nyquist 判稳。中文标题与概述仅用于导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页核对：题号「問題 2」、式(1)、4 小问（L=0 的 Gyr/Gyd、L=0 n=1 的定常偏差、Routh 判稳、Nyquist 判稳）及図 2 框图与图号均在框内，未含图 1 尾巴与页脚杂点。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-seigyo/kobe-ee-2024-seigyo-q2-01.png",
+          "page": 1,
+          "box": [
+            38.7,
+            441.0,
+            567.3,
+            768.3
+          ],
+          "width": 1323,
+          "height": 819,
+          "label": "問題 2：题干、式(1)、4 小问与図 2 闭环框图",
+          "sha256": "393967351d765987304bbead6769f606f42ca9585560cb1f0d0d15029459fe51"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2024-seigyo-q1",
+        "kobe-ee-2024-seigyo-q2"
+      ],
+      "common": false,
+      "excluded": "卷头「2024 年度神戸大学…入学試験」、科目名标题「自動制御」、页码与页脚扫描杂点，均不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

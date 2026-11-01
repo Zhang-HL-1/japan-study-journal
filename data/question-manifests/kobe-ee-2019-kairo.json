@@ -1,0 +1,119 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2019-kairo",
+ "title": "神户大学 · 2019 入学年度 · 电气回路与电子回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2019",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2019,
+  "yearBasis": "academic",
+  "subject": "电气回路与电子回路",
+  "originalSubject": "電気回路・電子回路",
+  "originalName": "kairo-31.pdf",
+  "pdf": "assets/past-papers/documents/c85af6e01e268f9c544b07706a516645b9b7e45cae87ddd40be65e2b1f04c633.pdf",
+  "sha256": "c85af6e01e268f9c544b07706a516645b9b7e45cae87ddd40be65e2b1f04c633",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2019 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    56.3,
+    114.3,
+    539.7,
+    136.3
+   ],
+   "label": "全卷作答说明（答案用紙は一人当たり 2 枚・問題(A)と(B)は対応する答案用紙に解答）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2019-kairo-q1",
+   "number": "問題 (A)",
+   "title": "交流定常状態の RLC 回路と重ね合わせの理",
+   "titleKind": "editorial",
+   "topics": [
+    "交流回路",
+    "フェーザ表示",
+    "実効値",
+    "重ね合わせの理"
+   ],
+   "summary": "図A-1 の RLC 直列回路に e(t)=√2 sin t を印加した定常状態で、電源の最大値・実効値・平均値・角周波数・周波数、電流と各素子電圧のフェーザ、i(t)・v_L(t) の瞬時値を求める。図A-2 では角周波数の異なる 2 電源回路について重ね合わせの理の名称・等価回路・v_L(t) を問う。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      55.0,
+      148.7,
+      548.7,
+      747.7
+     ],
+     "label": "問題 (A)：総起句、(1)①〜⑤、(2)①〜③、図 A-1・図 A-2 と図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 (A)」框、総起句（j は虚数単位・ドット表記・単位の指示）、(1)①〜⑤ と (2)①〜③、図 A-1・図 A-2 及其图号全部入框；页眉「平成 31 年度…」、科目名与「注意」行未入框，无切字、无串题。"
+   }
+  },
+  {
+   "id": "kobe-ee-2019-kairo-q2",
+   "number": "問題 (B)",
+   "title": "エミッタ接地増幅回路と演算増幅器回路の設計",
+   "titleKind": "editorial",
+   "topics": [
+    "エミッタ接地",
+    "バイアス回路",
+    "演算増幅器",
+    "差動増幅"
+   ],
+   "summary": "エミッタ接地基本増幅回路について、回路図と特徴、バイアス電流の必要性、設計通りにならない要因 2 点、バイアス電流の安定化回路と動作原理を述べる。演算増幅器 1 個と必要な受動素子で v_o=2(v_1−v_2) を出力する回路を設計し、その導出を示す。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      49.3,
+      115.7,
+      543.7,
+      387.3
+     ],
+     "label": "問題 (B)：総起句、(1) a)〜d)、(2) 演算増幅器回路の設計と導出"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題 (B)」框与「解答順は任意とする」、(1) a)〜d)、(2) の v_o=2(v_1−v_2) 条件まで入框；页眉与科目名未入框，页面下半为空白，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2019-kairo-q1"
+   ],
+   "common": true,
+   "excluded": "页眉「平成 31 年度神戸大学大学院工学研究科…」、科目名「電気回路・電子回路」与空白页边；作答注意行另立 commonRegion。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2019-kairo-q2"
+   ],
+   "common": false,
+   "excluded": "页眉行、科目名「電気回路・電子回路」与空白页边；本页无翻页提示。",
+   "reviewed": true
+  }
+ ]
+}

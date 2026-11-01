@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2019-ryoushi",
+  "title": "神户大学 · 2019 入学年度 · 量子物理学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2019",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2019,
+    "yearBasis": "academic",
+    "subject": "量子物理学",
+    "originalSubject": "量子物理学",
+    "originalName": "ryoushi-31.pdf",
+    "pdf": "assets/past-papers/documents/ae4b57819c059d99f2debc25e931b543e899604a993a2c474f0de4dbac2d1a6d.pdf",
+    "sha256": "ae4b57819c059d99f2debc25e931b543e899604a993a2c474f0de4dbac2d1a6d",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2019 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2019-ryoushi/common-01.png",
+      "page": 1,
+      "box": [
+        52.7,
+        112.7,
+        545.0,
+        150.6
+      ],
+      "width": 1232,
+      "height": 96,
+      "label": "全卷作答说明（Dirac 定数は h、変数等は各自定義すること）",
+      "sha256": "64fca80fa183f653fa7466dcefcf955c3bfe2ae85ad71138186a66a75b83140c"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2019-ryoushi-q1",
+      "number": "問題 1",
+      "title": "無限障壁一次元井戸型ポテンシャル内の電子",
+      "titleKind": "editorial",
+      "topics": [
+        "井戸型ポテンシャル",
+        "シュレディンガー方程式",
+        "エネルギー固有値",
+        "期待値",
+        "不確定性原理"
+      ],
+      "summary": "幅 L の無限大障壁をもつ一次元井戸型ポテンシャルに関じ込められた質量 m の電子について、定常状態のシュレディンガー方程式、境界条件、一般解、波数とエネルギーの関係、エネルギー固有値、波動関数を順に求め、位置と運動量の期待値およびゆらぎ Δx・Δp から不確定性原理を説明する。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：題号「問題 1」、V(x) の分段定義式(1)、図1 の V(x) 軸ラベルを含む図全体と「図 1」、小問 1)〜9)、本文が参照するページ下部の積分公式 3 式まで入框；页眉・科目名と作答说明行未入框，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2019-ryoushi/kobe-ee-2019-ryoushi-q1-01.png",
+          "page": 1,
+          "box": [
+            54.0,
+            147.3,
+            543.7,
+            796.0
+          ],
+          "width": 1225,
+          "height": 1622,
+          "label": "問題 1：題号、ポテンシャル定義式(1)、図1 と図号、小問 1)〜9)、ページ下部の積分公式",
+          "sha256": "fc5d52cc3a0a07515ad8c4f94f709cd4f6a961cb273b2d23e247f171315f7d74"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2019-ryoushi-q2",
+      "number": "問題 2",
+      "title": "矩形障壁ポテンシャルへの電子の衝突と透過率",
+      "titleKind": "editorial",
+      "topics": [
+        "障壁ポテンシャル",
+        "トンネル効果",
+        "透過率",
+        "反射率",
+        "境界条件"
+      ],
+      "summary": "高さ V の矩形障壁ポテンシャルに左から電子が衝突するとして、3 つの領域の波動関数、各領域のシュレディンガー方程式、E<V で波数が虚数となる領域とその理由、x=0 と x=L の境界条件、透過率 T と反射率 R を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：題号「問題 2」、V(x) の定義式(2)、図2（階段状障壁）と「図 2」、小問 1)〜7) の「透過率 T と反射率 R」まで入框；页眉行未入框，右缘扫描噪点已在框外，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2019-ryoushi/kobe-ee-2019-ryoushi-q2-01.png",
+          "page": 2,
+          "box": [
+            45.0,
+            62.3,
+            544.3,
+            516.7
+          ],
+          "width": 1249,
+          "height": 1137,
+          "label": "問題 2：題号、ポテンシャル定義式(2)、図2 と図号、小問 1)〜7)",
+          "sha256": "5e2a553d4507e7c7f4a760dec492d4c33729776364c6af295684818493d2b236"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2019-ryoushi-q1"
+      ],
+      "common": true,
+      "excluded": "页眉「平成 31 年度神戸大学大学院工学研究科…」、科目名「量子物理学」与空白页边；作答说明 2 行另立 commonRegion。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2019-ryoushi-q2"
+      ],
+      "common": false,
+      "excluded": "页眉行与空白页边、页面右缘扫描噪点；本页无科目名与翻页提示。",
+      "reviewed": true
+    }
+  ]
+}

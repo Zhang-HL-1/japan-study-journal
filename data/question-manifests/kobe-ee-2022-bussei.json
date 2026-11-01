@@ -1,0 +1,108 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2022-bussei",
+ "title": "神户大学 · 2022 入学年度 · 物性工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2022",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2022,
+  "yearBasis": "academic",
+  "subject": "物性工学",
+  "originalSubject": "物性工学",
+  "originalName": "bussei-2022.pdf",
+  "pdf": "assets/past-papers/documents/e42e74beef834f38d200efe09c412313e943353b16becf033db1039f4fabac39.pdf",
+  "sha256": "e42e74beef834f38d200efe09c412313e943353b16becf033db1039f4fabac39",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2022 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2022-bussei-q1",
+   "number": "問題 1",
+   "title": "一维双原子链的晶格振动与色散关系",
+   "titleKind": "editorial",
+   "topics": [
+    "晶格振动",
+    "色散关系",
+    "布里渊区",
+    "光学模"
+   ],
+   "summary": "图 1 中质量 M 的原子以 3:1 间隔（a 与 a/3）交替排列成一维格子，仅最近邻有相互作用的胡克力，弹簧常数 f 各原子间相等：写出 2n、2n+1 号原子的运动方程，对给定的行波解求 A1、A2 的联立方程及非零解条件，解出式 (1) 的 ω²，绘出第一布里渊区内的色散关系并标注布里渊区端与 q=0 对应的 ω、求光学模在 q=0 时的振幅比；最后就两种原子质量 M1≠M2 示意色散关系并与 M1=M2 对比。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      51.0,
+      113.0,
+      542.0,
+      755.0
+     ],
+     "label": "問題 1：题干与 u_{2n}、u_{2n+1} 记号、1)–4) 及 4-a)–4-d)、追加条件与 5)、图 1 与图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 1.」、题干（3:1 间隔、最近邻胡克力、f 均等、u_{2n}/u_{2n+1} 定义）、1) 2) 与两行 u_{2n}、u_{2n+1} 假定解、3) 4) 与式 (1) 的 ω²、4-a)–4-d)、M1≠M2 追加段与 5)、图 1 的原子列与 a、a/3、2n-1/2n/2n+1 标注及图号齐全，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2022-bussei-q2",
+   "number": "問題 2",
+   "title": "面心立方格子的倒格子与 X 射线衍射结构因子",
+   "titleKind": "editorial",
+   "topics": [
+    "倒格子",
+    "面心立方",
+    "结构因子",
+    "X 射线衍射"
+   ],
+   "summary": "以晶格常数 a 的面心立方单位胞定义格向量 R 与倒格向量 G：求 g2 用 a1,a2,a3 的表示、说明 d_hkl 与 G_hkl 的关系；对基本向量 a1',a2',a3' 求长度与夹角并证明倒格子为体心立方；由结构因子 S_FCC 按衍射角由小到大列出 4 个可观测峰的米勒指数；再对 NaCl 型结构说明同峰出现的理由，并指出 KCl 中缺失的峰及其原因。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      51.7,
+      64.0,
+      543.0,
+      757.3
+     ],
+     "label": "問題 2：题干与倒格子定义、1)–4)、X 射线衍射与 S_FCC 说明、5)、NaCl 结构因子段与 6) 7)、图 2 与图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題 2.」、R 与 G 的定义式、1)–4) 小问、入射波数与回折条件段、S_FCC 结构因子式、5)、NaCl 的 S_NaCl 式与 6) 7) 全部完整；图 2 立方体（a1,a2,a3,a1',a2',a3' 标注）与图号「図 2 面心立方格子」齐全，无切字、无页脚串入。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2022-bussei-q1"
+   ],
+   "common": false,
+   "excluded": "页眉年度行、科目标题「物性工学」与页边空白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2022-bussei-q2"
+   ],
+   "common": false,
+   "excluded": "页眉年度行与页边空白，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

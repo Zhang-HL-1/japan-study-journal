@@ -1,0 +1,99 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2020-seigyo",
+ "title": "神户大学 · 2020 入学年度 · 自动控制",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2020",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2020,
+  "yearBasis": "academic",
+  "subject": "自动控制",
+  "originalSubject": "自動制御",
+  "originalName": "seigyo-2020.pdf",
+  "pdf": "assets/past-papers/documents/7368858675b8c5a3c8bd477c415c1789558200ec7cffde88fe2adcdb947cd16c.pdf",
+  "sha256": "7368858675b8c5a3c8bd477c415c1789558200ec7cffde88fe2adcdb947cd16c",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2020 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2020-seigyo-q1",
+   "number": "問題 1．",
+   "title": "反馈系统的稳定性与定常值",
+   "titleKind": "editorial",
+   "topics": [
+    "传递函数",
+    "稳定性判别",
+    "奈奎斯特判据",
+    "阶跃响应"
+   ],
+   "summary": "对图 1 的反馈控制系统（目标值 r、制御量 y，G(s)=1/(s²+2s+2)、H(s)=K(1+1/(Ts))）：判断 G(s)、H(s) 各自是否稳定并说明理由，求 G(s) 的单位阶跃响应并画概形（t=0 与 t→∞ 的振舞），在 T=1/4 时用奈奎斯特判据判别闭环稳定性，并求单位阶跃目标值下 y 的定常值。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      44.0,
+      116.7,
+      569.3,
+      454.7
+     ],
+     "label": "問題 1：题干、传递函数式 (1)(2)、小问 1.–4.、图 1 反馈控制系框图及其图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 1．」、G(s)/H(s) 两式编号 (1)(2)、小问 1.–4.（含 e⁻³≈0.05、cos3≈−0.99、sin3≈0.14 数值提示）、图 1 框图与「図 1: フィードバック制御系」图号完整。"
+   }
+  },
+  {
+   "id": "kobe-ee-2020-seigyo-q2",
+   "number": "問題 2．",
+   "title": "闭环传递函数与定常偏差",
+   "titleKind": "editorial",
+   "topics": [
+    "闭环传递函数",
+    "定常偏差",
+    "过渡响应"
+   ],
+   "summary": "对图 2 的闭环控制系统（目标值 r、制御量 y、偏差信号 ε，K1、K2、K3 为非零定数、T 为正定数）：求 G_yr(s) 与 G_εr(s)，求单位阶跃目标值下 y 收敛于定值的条件，求斜坡目标值下的定常偏差，并在 K1=2、K2=3/2、K3=1、T=1 时求阶跃过渡响应且论证定常偏差能否为零。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      48.0,
+      458.7,
+      569.3,
+      763.3
+     ],
+     "label": "問題 2：题干、图 2 闭环控制系框图、小问 1.–4.（含 K1=2, K2=3/2, K3=1, T=1 的数值设定）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 2．」、非零定数条件、图 2 框图（K1s、K2、K3/(s(Ts+2))、ε 与加减号）及「図 2: 閉ループ制御系」图号、小问 1.–4. 完整，末句「の過渡応答を…述べよ．」未切。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2020-seigyo-q1",
+    "kobe-ee-2020-seigyo-q2"
+   ],
+   "common": false,
+   "excluded": "卷头页眉与科目名「自動制御」、左上角黑角、左侧「(」状墨迹及页边留白与页码污点。本卷无全卷作答说明，commonRegions 为空。",
+   "reviewed": true
+  }
+ ]
+}

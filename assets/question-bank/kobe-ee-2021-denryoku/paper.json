@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2021-denryoku",
+  "title": "神户大学 · 2021 入学年度 · 电力工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2021",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2021,
+    "yearBasis": "academic",
+    "subject": "电力工学",
+    "originalSubject": "電力工学",
+    "originalName": "denryoku-2021.pdf",
+    "pdf": "assets/past-papers/documents/7a15779be6fa134f308b7b2a6139e348312f76fe610f323f8e600c88014ff71a.pdf",
+    "sha256": "7a15779be6fa134f308b7b2a6139e348312f76fe610f323f8e600c88014ff71a",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2021 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2021-denryoku-q1",
+      "number": "問題 A.",
+      "title": "水力発電管路与发电方式",
+      "titleKind": "editorial",
+      "topics": [
+        "伯努利方程",
+        "连续方程",
+        "卡诺循环",
+        "热力学第一定律",
+        "核裂变"
+      ],
+      "summary": "管内定常水流由断面積 2.0 m²・流速 6.0 m/s・压力 33 kPa 的 A 点（高 20 m）流到断面積 3.0 m² 的 B 点（高 5.0 m），求 B 点流速与压力并写出推导；再依卡诺循环四过程命名火力发电中汽轮机做功与蒸汽冷凝两过程，并用 dU・d'Q・d'W 表述各自的第一定律；最后说明核裂变链式反应中必须慢化中子的理由。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 A.」与 (1) 水力発電所管水路、(2) カルノーサイクル四過程の名称与第一法則、(3) 原子力発電の中性子減速理由齐全，含 2.0 m²・6.0 m/s・33 kPa・9.8 m/s² 等数值，无切字；页眉与科目名标题在框外，左侧装订痕仅余极细边条。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-denryoku/kobe-ee-2021-denryoku-q1-01.png",
+          "page": 1,
+          "box": [
+            32.0,
+            140.7,
+            550.3,
+            402.7
+          ],
+          "width": 1296,
+          "height": 656,
+          "label": "問題 A.：(1)(2)(3) 三小问",
+          "sha256": "f9f74673b54319af78293ccfb1cb55adcc4ac0078bf30397ea999ad9588a401c"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2021-denryoku-q2",
+      "number": "問題 B.",
+      "title": "三相同期发电机相量图与入力功率",
+      "titleKind": "editorial",
+      "topics": [
+        "同步发电机",
+        "相量图",
+        "功率角",
+        "铜损",
+        "填空"
+      ],
+      "summary": "由三相同期発電機一相分等価回路的フェーザ図（E・V・I・r・x・cosφ・δ），把文中 a)〜e) 五个空填成 E, V, I, r, x, φ, δ 组成的式子；由 Ecos(φ+δ)=OP+PQ 把入力電力 变形为「発電機出力＋巻線抵抗損」之和。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 B.」、図1 与图号、E/V/I/r/x/cosφ/δ 定义、a)〜e) 五个空及 OP・PQ 变形说明齐全，无切字；本题末的「（次ページへ続く）」页转提示与页脚在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-denryoku/kobe-ee-2021-denryoku-q2-01.png",
+          "page": 1,
+          "box": [
+            32.0,
+            422.0,
+            547.0,
+            646.0
+          ],
+          "width": 1288,
+          "height": 560,
+          "label": "問題 B.：题干、図1（フェーザ図）、填空 a)〜e) 的说明",
+          "sha256": "1e2d03587fe9a468a6f679e8e7675dccc0bb9f858a1fbd48e4009af266be02f1"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2021-denryoku-q3",
+      "number": "問題 C.",
+      "title": "太阳能电池所需面积",
+      "titleKind": "editorial",
+      "topics": [
+        "太阳能电池",
+        "转换效率",
+        "光强"
+      ],
+      "summary": "用太陽電池得到 1.0 MW 出力，変換効率 12 %、太陽光照射強度 0.90 kW/m²，要求连同推导过程求出所需電池面積。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 C.」与 1.0 MW・12 %・0.90 kW/m² 三个条件、面积求解要求齐全，无切字；页眉与科目名标题在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-denryoku/kobe-ee-2021-denryoku-q3-01.png",
+          "page": 2,
+          "box": [
+            30.0,
+            89.7,
+            551.7,
+            152.7
+          ],
+          "width": 1305,
+          "height": 158,
+          "label": "問題 C.：题干",
+          "sha256": "8a189a24c89a3901a07b24e318337f947cbfa4c719c6eaefec29ea5975d124c7"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2021-denryoku-q4",
+      "number": "問題 D.",
+      "title": "燃料电池原理与吉布斯自由能",
+      "titleKind": "editorial",
+      "topics": [
+        "燃料电池",
+        "吉布斯自由能",
+        "热力学第一定律",
+        "电功",
+        "填空"
+      ],
+      "summary": "在讲燃料电池原理的段落中把 a)〜d) 填成式子：G=H−TS 中 H 用 U, P, V 表示、等温等压下 dG、第一定律中 dU=d'Q−PdV−d'We、以及 dG+d'We 的表达式；并据 d≤0 说明取出电功需要 G 减少，故最大出力等于吉布斯自由能的减少量。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 D.」、三处 bullet（ギブス自由エネルギー定义、第一法則、(*) 式变形的结论）与 a)〜d) 四个空、(*)(**) 式编号齐全，无切字；框下缘略含一处细小扫描污点，内容完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-denryoku/kobe-ee-2021-denryoku-q4-01.png",
+          "page": 2,
+          "box": [
+            30.0,
+            162.3,
+            553.0,
+            445.3
+          ],
+          "width": 1308,
+          "height": 709,
+          "label": "問題 D.：题干、填空 a)〜d) 与三段要点说明",
+          "sha256": "1ab7319de33ce4574ce429598958f475aee21246a95ea478cc171db9ade3793b"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2021-denryoku-q5",
+      "number": "問題 E.",
+      "title": "储能装置的储能形态与方式",
+      "titleKind": "editorial",
+      "topics": [
+        "飞轮储能",
+        "SMES",
+        "储能形态"
+      ],
+      "summary": "就フライホイール与 SMES 两种エネルギー貯蔵装置，说明其貯蔵されるエネルギー形態与储存方式概要。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 E.」、说明要求与 (1) フライホイール、(2) SMES 两小问齐全，无切字；末尾另行居中的「以上」为整卷结束标记（与上文相隔约 36 pt），未纳入框内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-denryoku/kobe-ee-2021-denryoku-q5-01.png",
+          "page": 2,
+          "box": [
+            30.0,
+            470.3,
+            554.3,
+            589.7
+          ],
+          "width": 1311,
+          "height": 300,
+          "label": "問題 E.：(1) フライホイール (2) SMES",
+          "sha256": "ed58fa241d29ebec7d13d2253e0fb0b82033ec47f6ba8c619316b22b800e9109"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2021-denryoku-q1",
+        "kobe-ee-2021-denryoku-q2"
+      ],
+      "common": false,
+      "excluded": "页眉「2021 年度神戸大学大学院工学研究科博士課程前期課程入学試験」、科目名标题「電力工学」、左侧装订痕、题间空白与末行「（次ページへ続く）」翻页提示；卷面无独立作答说明，故无 common region。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2021-denryoku-q3",
+        "kobe-ee-2021-denryoku-q4",
+        "kobe-ee-2021-denryoku-q5"
+      ],
+      "common": false,
+      "excluded": "页眉与科目名标题（续页重复）、左侧装订痕、题间空白、末尾「以上」结束标记与下方空白页边。",
+      "reviewed": true
+    }
+  ]
+}

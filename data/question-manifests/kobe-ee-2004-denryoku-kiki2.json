@@ -1,0 +1,121 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2004-denryoku-kiki2",
+ "title": "神户大学 · 2004 入学年度 · 電力・機器（その2）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2004",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "自然科学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2004,
+  "yearBasis": "academic",
+  "subject": "電力・機器（その2）",
+  "originalSubject": "電力・機器（その2）",
+  "originalName": "denryoku-kiki2.pdf",
+  "pdf": "assets/past-papers/documents/d35e3b80dd22849558adb8e3c75aec6261cf51c5ac1012124defcd4d2eaf5d37.pdf",
+  "sha256": "d35e3b80dd22849558adb8e3c75aec6261cf51c5ac1012124defcd4d2eaf5d37",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2004 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    50.7,
+    113.0,
+    512.7,
+    137.0
+   ],
+   "label": "作答说明：4問中3問を選んで解答すること。答案用紙(その1)の指定欄に、選択した問の番号を記入すること。"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2004-denryoku-kiki2-q1",
+   "number": "問3",
+   "title": "三相绕组型感应电动机的空栏填空（转差率与二次电阻）",
+   "titleKind": "editorial",
+   "topics": [
+    "感应电动机",
+    "转差率",
+    "二次铜损",
+    "比例推移"
+   ],
+   "summary": "以填空形式补全关于三相绕组型感应电动机的文章：旋转磁场速度、感应电流消失的原因、转差率定义与停转值、频率与同步速度的关系、二次入力:机械出力:二次铜损=1:1−s:s，并求 48 kW/转差 0.04 时的二次铜损、6 极 60 Hz/1140 rpm 算例的转差与所需二次电阻、最大转矩对应转差的变化方向。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      50.7,
+      140.4,
+      546.7,
+      370.7
+     ],
+     "label": "問3：题干「三相巻線形誘導電動機を説明している以下の文…」与全文填空 (ア)–(コ)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問3」、填空全文（【ア】–【コ】共 10 处）、1:1−s:s 比式、48kW/0.04 与 6極/60Hz/1,140rpm 数值条件全文完整，右端文字至 x≈544 未被切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2004-denryoku-kiki2-q2",
+   "number": "問4",
+   "title": "PWM 控制单相电压型自励逆变器",
+   "titleKind": "editorial",
+   "topics": [
+    "逆变器",
+    "PWM 控制",
+    "二极管作用",
+    "输出电压波形"
+   ],
+   "summary": "给定 (a) PWM 控制回路与 (b) 单相电压型自励逆变器的图：(1) 说明二极管 D₁–D₄ 的作用；(2) 为以 PWM 输出近似信号波，应把输出 1 与 0 接到逆变器的何处；(3) 结线后给出图示信号波，画出交流输出 v_ac 波形。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      50.7,
+      372.4,
+      552.7,
+      602.7
+     ],
+     "label": "問4：题干、(a)(b) 两幅电路图与图号，小问 (1)(2)"
+    },
+    {
+     "page": 1,
+     "box": [
+      59.3,
+      605.3,
+      546.0,
+      750.5
+     ],
+     "label": "問4：小问 (3) 与右侧信号波/搬送波波形图"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：(a) PWM 制御回路（信号波 v_r、搬送波 v_c、比較回路 A>B 逻辑）与 (b) 单相電圧形自励インバータ（S₁–S₄、D₁–D₄、V_d/2、R、L、v_ac、i_ac）两图及图号完整，小问 (1)(2)(3) 与 (3) 的波形图（0、π、2π、θ）完整，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2004-denryoku-kiki2-q1",
+    "kobe-ee-2004-denryoku-kiki2-q2"
+   ],
+   "common": true,
+   "excluded": "页眉（平成16年度…博士前期課程／電気電子工学専攻 入学試験問題、右上 平成15年8月27日）与科目标题「電力・機器（その2）」；仅保留作答说明作公共区域。",
+   "reviewed": true
+  }
+ ]
+}

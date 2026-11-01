@@ -1,0 +1,181 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2022-seigyo",
+ "title": "神户大学 · 2022 入学年度 · 自动控制",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2022",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2022,
+  "yearBasis": "academic",
+  "subject": "自动控制",
+  "originalSubject": "自動制御",
+  "originalName": "seigyo-2022.pdf",
+  "pdf": "assets/past-papers/documents/425b228595ec8511338e498787884d6de969668da1c0616b9835317900b05bb3.pdf",
+  "sha256": "425b228595ec8511338e498787884d6de969668da1c0616b9835317900b05bb3",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2022 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    51.5,
+    113.0,
+    544.5,
+    152.0
+   ],
+   "label": "作答与记号说明：「以下の問いについて、それぞれ指定された答案用紙に解答しなさい。f(t) は時間関数，F(s) は複素関数を意味することとする。」"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2022-seigyo-q1",
+   "number": "問題 1",
+   "title": "一阶系统的时间响应与过渡曲线",
+   "titleKind": "editorial",
+   "topics": [
+    "传递函数",
+    "脉冲响应",
+    "阶跃响应",
+    "过渡特性"
+   ],
+   "summary": "输入 U(s)、输出 Y(s)、传递函数 G(s)=2/(s+6) 的系统，当输入为 (1) 冲激信号、(2) 单位阶跃信号时求时间响应 y(t)，并画出横轴时间 t、纵轴响应 y(t) 的曲线（须能看出 y(0)、y(∞) 与过渡特性）。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      51.5,
+      152.0,
+      544.5,
+      299.0
+     ],
+     "label": "問題 1：题干、G(s)=2/(s+6)、两种输入 (1)(2) 与作图要求"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 1.」、U(s)/Y(s)/G(s) 说明、G(s)=2/(s+6) 分式、 (1) インパルス信号 (2) 単位ステップ信号 两行、以及「時間応答 y(t) を求め…y(0)、y(∞)、過渡特性が分かるように描け」完整，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2022-seigyo-q2",
+   "number": "問題 2",
+   "title": "反馈系统的定常偏差计算",
+   "titleKind": "editorial",
+   "topics": [
+    "反馈控制",
+    "定常偏差",
+    "外扰",
+    "终值定理"
+   ],
+   "summary": "对给定的反馈系统（目标值 R(s)、偏差 E(s)、控制量 Y(s)、外扰 D(s)，G1(s)=1/s、G2(s)=(s+2)/(s²+2s)），目标值 r(t) 为单位阶跃时，分别求 (1) 外扰 D(s)=0、(2) 外扰 D(s) 为单位斜坡信号 两种条件下的定常偏差 e∞。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      51.5,
+      309.0,
+      544.5,
+      552.5
+     ],
+     "label": "問題 2：题干、方框图、R/E/Y/D 与 G1、G2 定义式、(1)(2) 两问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 2.」、方框图（R(s)、+ −、E(s)、G1(s)、+ +、D(s)、G2(s)、Y(s) 及反馈回路）、符号说明、G1(s)=1/s 与 G2(s)=(s+2)/(s²+2s)、「定常偏差 e∞ を求めよ」与 (1)(2) 两行条件齐全；下一题「問題 3.」（y≈571）未串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2022-seigyo-q3",
+   "number": "問題 3",
+   "title": "用劳斯判据求闭环稳定的 K 范围",
+   "titleKind": "editorial",
+   "topics": [
+    "稳定性",
+    "劳斯判据",
+    "特征多项式"
+   ],
+   "summary": "对 C(s)=K（常数）、P(s)=1/(2s³+2s²+3s+3) 的单位反馈系统，用劳斯稳定判据求使系统稳定的 K 范围，并要求给出劳斯表。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      51.5,
+      565.0,
+      544.5,
+      750.0
+     ],
+     "label": "問題 3：题干、方框图、C(s) 与 P(s) 定义式、劳斯判据与劳斯表要求"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 3.」、方框图（R(s)、C(s)、P(s)、Y(s) 与反馈）、C(s)=K（定数）、P(s)=1/(2s³+2s²+3s+3)、「安定となる K の範囲をラウスの安定判別法によって求めよ。ラウス表も示すこと。」完整，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2022-seigyo-q4",
+   "number": "問題 4",
+   "title": "奈奎斯特判据与奈奎斯特线图",
+   "titleKind": "editorial",
+   "topics": [
+    "奈奎斯特判据",
+    "频率响应",
+    "稳定性"
+   ],
+   "summary": "对 G1(s)=1/(s+1)、G2(s)=1/s、G3(s)=s+3 构成的系统（G1 为前馈通路），用奈奎斯特稳定判据判别稳定性，并画出奈奎斯特线图（须标出各轴与向量轨迹的交点值）。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      51.5,
+      58.0,
+      544.5,
+      315.0
+     ],
+     "label": "問題 4：题干、方框图、G1/G2/G3 定义式、奈奎斯特判据与作图要求"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題 4.」、方框图（R(s)→G1 前馈、G2 前向、G3 反馈，加入点 + +/− 与 Y(s)）、三个传递函数定义式、「ナイキストの安定判別法で判別せよ。また，ナイキスト線図を描け（各軸とベクトル軌跡の交点の値を示すこと）。」完整，无切字、无页眉串入。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2022-seigyo-q1",
+    "kobe-ee-2022-seigyo-q2",
+    "kobe-ee-2022-seigyo-q3"
+   ],
+   "common": true,
+   "excluded": "页眉年度行、科目标题「自動制御」与页边空白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2022-seigyo-q4"
+   ],
+   "common": false,
+   "excluded": "页眉年度行与下方大段空白（本页仅一题），不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2009-bussei",
+ "title": "神户大学 · 2009 入学年度 · 物性工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2009",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2009,
+  "yearBasis": "academic",
+  "subject": "物性工学",
+  "originalSubject": "物性工学",
+  "originalName": "bussei-21.pdf",
+  "pdf": "assets/past-papers/documents/0a690ffba7969dcc6a7ef512ebc25622d33662ff43cf0456632baed4eb52674e.pdf",
+  "sha256": "0a690ffba7969dcc6a7ef512ebc25622d33662ff43cf0456632baed4eb52674e",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2009 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2009-bussei-q1",
+   "number": "Ⅰ.",
+   "title": "結晶格子と逆格子の基本並進ベクトル",
+   "titleKind": "editorial",
+   "topics": [
+    "結晶格子",
+    "基本並進ベクトル",
+    "逆格子"
+   ],
+   "summary": "図 1 に示した結晶格子について、格子の名称、基本並進ベクトル a′, b′, c′ を辺長 a と単位ベクトル i, j, k で表す式、逆格子の基本並進ベクトル A, B, C（導出過程つき）、および逆格子の名称を答える。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      55.0,
+      114.0,
+      518.0,
+      292.0
+     ],
+     "label": "Ⅰ.：題号と小問 １）〜４）、図１（結晶格子）と図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "PDF text-span/ink-bbox coordinates + AI visual comparison against full source page",
+    "date": "2026-11-01",
+    "notes": "对照原卷唯一页：「Ⅰ．」与 １）〜４）（逆格子の導出過程要求を含む）全部入框；図１ は問題文の右に位置し上端が題号より高いため、框上界を図の墨跡上端（y≈118）より上に取った；図号「図１ 結晶格子」も框内。框下界 292 在 図１ 図号（墨跡 y≈287）之下、下一大問「Ⅱ．」（y≈331）之上，无串题。"
+   }
+  },
+  {
+   "id": "kobe-ee-2009-bussei-q2",
+   "number": "Ⅱ.",
+   "title": "半導体のバンド構造とバンド間光学遷移（穴埋め）",
+   "titleKind": "editorial",
+   "topics": [
+    "半導体",
+    "バンド構造",
+    "光学遷移",
+    "ブリルアンゾーン",
+    "フォノン"
+   ],
+   "summary": "半導体のバンド構造とバンド間光学遷移を述べた文章中の空欄 a 〜 j に当てはまる語句・記号を答える。直接遷移/間接遷移、エネルギー保存則と運動量保存則、波数と Brillouin Zone の大きさの比較、フォノンを伴う遷移の式が問われる。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      54.0,
+      326.0,
+      544.0,
+      757.0
+     ],
+     "label": "Ⅱ.：題号と空欄 a〜j を含む長文、図２（(a)(b) のバンド構造）と図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "PDF text-span/ink-bbox coordinates + AI visual comparison against full source page",
+    "date": "2026-11-01",
+    "notes": "对照原卷唯一页：「Ⅱ．以下の文章中の a 〜 j …」与 (a)(b) 二つのバンド図、図号「図２ 半導体のバンド構造とバンド間光学遷移」まで全部入框；框下界 757 在図号（墨跡 y≈752）之下，页脚为空；页眉「平成２１年度神戸大学大学院工学研究科博士前期課程」与科目名「物性工学」在框外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2009-bussei-q1",
+    "kobe-ee-2009-bussei-q2"
+   ],
+   "common": false,
+   "excluded": "卷眉「平成２１年度神戸大学大学院工学研究科博士前期課程」、科目名「物性工学」与页脚空白；原卷无作答说明行，故 commonRegions 为空。",
+   "reviewed": true
+  }
+ ]
+}

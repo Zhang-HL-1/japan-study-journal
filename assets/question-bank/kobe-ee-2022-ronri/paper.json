@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2022-ronri",
+  "title": "神户大学 · 2022 入学年度 · 逻辑电路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2022",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2022,
+    "yearBasis": "academic",
+    "subject": "逻辑电路",
+    "originalSubject": "論理回路",
+    "originalName": "ronri-2022.pdf",
+    "pdf": "assets/past-papers/documents/bf29aee403595c632069c9b182b559354bf21fe894aacde8f370497645972dec.pdf",
+    "sha256": "bf29aee403595c632069c9b182b559354bf21fe894aacde8f370497645972dec",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2022 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2022-ronri-q1",
+      "number": "問題 1",
+      "title": "JK 触发器电路的状态转移图与计数器设计",
+      "titleKind": "editorial",
+      "topics": [
+        "JK 触发器",
+        "状态转移图",
+        "卡诺图",
+        "计数器"
+      ],
+      "summary": "(1) 对图示的 4 个负边沿触发 JK 触发器电路，以 (A0,A1,A2,A3) 表示状态、用箭头画出时钟脉冲下的状态转移图并列出全部状态；(2) 以 (1) 的输出为输入，设计从 0 到 7 递增循环计数（二进制 X₂X₁X₀，X₂ 为最高位）的计数器：先对各位 X0~X2 作真值表，再用卡诺图化简并给出逻辑式。输入为 (0,0,0,0) 时输出 0，其余无关状态输出 don't care。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1.」、指定答案用纸说明、(1) 的状态表示 (A0,A1,A2,A3) 与「矢印(→)でつなぐ形で示せ」「すべての状態を網羅」「ネガティブエッジトリガ型 JK フリップフロップ」、电路图（4 个 JK-FF、Q/Q̄、A0~A3 抽头、CK 线）完整，(2) 的 X₂X₁X₀ 位序、0–7 计数、真值表+卡诺图+逻辑式、输出 0 与 don't care 条件齐全；页脚「(次ページに続く)」（y≈694）已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-ronri/kobe-ee-2022-ronri-q1-01.png",
+          "page": 1,
+          "box": [
+            52.0,
+            111.0,
+            544.7,
+            495.0
+          ],
+          "width": 1232,
+          "height": 961,
+          "label": "問題 1：题干与 (1) 状态转移图要求、4 个 JK 触发器电路图、(2) 计数器设计的真值表/卡诺图/逻辑式要求",
+          "sha256": "d6a8d54aeb9b04b3056340df476726c1b7aa6aeb9cb0d8e20daa4e65cf26477e"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2022-ronri-q2",
+      "number": "問題 2",
+      "title": "4 选 1 解复用器的真值表与解码器、乘 3 电路设计",
+      "titleKind": "editorial",
+      "topics": [
+        "解复用器",
+        "解码器",
+        "真值表",
+        "组合逻辑"
+      ],
+      "summary": "(1) 作 4 选 1 解复用器 4DeMUX 的真值表（输入 D₀，选择端 A、B（A 为高位），输出 Y0~Y3，仅 Y_AB 输出 D₀）；(2) 用 2 个 4DeMUX 与 1 个 NOT 门构成 3 位输入、8 输出的解码器，输入 C=C₂C₁C₀，输出 Z0~Z7，并作真值表（仅 Z_c 为 1）；(3) 用 1 个 4DeMUX 与 1 个 OR 门，把二进制 X₁X₀（X₁ 为高位）转换为 3 倍值 Z₃Z₂Z₁Z₀ 并作真值表。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 2.」、(1) 的 D₀/A、B/Y₀~Y₃ 定义与「Y_AB のみ D₀ が出力」条件及 4DeMUX 框图，(2) 的 2 个 4DeMUX+NOT 门、C=C₂C₁C₀、Z₀~Z₇ 与「Z_c のみ 1」条件，(3) 的 4DeMUX+OR 门、X₁X₀→3 倍值 Z₃Z₂Z₁Z₀ 与真值表要求齐全；卷末「以上」为结束标记，已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-ronri/kobe-ee-2022-ronri-q2-01.png",
+          "page": 2,
+          "box": [
+            51.3,
+            56.7,
+            544.7,
+            403.3
+          ],
+          "width": 1234,
+          "height": 868,
+          "label": "問題 2：题干与 (1) 4DeMUX 真值表要求、4DeMUX 框图、(2) 解码器与 (3) 乘 3 电路的设计要求",
+          "sha256": "194e4586c935fbcf983bcd14e0abee44be18f2d9bb454d6c9cd078052cb9c197"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2022-ronri-q1"
+      ],
+      "common": false,
+      "excluded": "页眉年度行、科目标题「論理回路」、页脚翻页提示「(次ページに続く)」与下方空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2022-ronri-q2"
+      ],
+      "common": false,
+      "excluded": "页眉年度行、卷末「以上」结束标记与下方大段空白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

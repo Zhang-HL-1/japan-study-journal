@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2013-it",
+  "title": "神户大学 · 2013 入学年度 · 信息理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2013",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2013,
+    "yearBasis": "academic",
+    "subject": "信息理论",
+    "originalSubject": "情報理論",
+    "originalName": "it-25.pdf",
+    "pdf": "assets/past-papers/documents/2697e753b88d384db25b6d9c8a8e58f52a0feb53d757357218040a4a2057cbd0.pdf",
+    "sha256": "2697e753b88d384db25b6d9c8a8e58f52a0feb53d757357218040a4a2057cbd0",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2013 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2013-it-q1",
+      "number": "問題 1",
+      "title": "无记忆信源的二元哈夫曼编码",
+      "titleKind": "editorial",
+      "topics": [
+        "哈夫曼编码",
+        "平均码长",
+        "码长约束",
+        "信源编码"
+      ],
+      "summary": "无记忆信源 S 的符号 α₁〜α₄ 出现概率 p₁≥p₂≥p₃≥p₄>0，二元哈夫曼编码后码长 (ℓ₁,ℓ₂,ℓ₃,ℓ₄) 为 (1,2,3,3) 或 (2,2,2,2)：用 p_i 表示平均码长，求 p₂ 可取的上限与下限，并给出一个能得到这种码长的概率组 (p₁,p₂,p₃,p₄) 之例。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷唯一页：「問題 1.」题号、S 的两行矩阵（α₁〜α₄ 与 p₁〜p₄）、三行说明段（含 (1,2,3,3) 与 (2,2,2,2) 两种码长组）、小问 (1)(2)(3) 全部在框内，最长一行右端含在框内且留白 6 pt；页眉与科目名「情報理論」已排除，无页脚页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2013-it/kobe-ee-2013-it-q1-01.png",
+          "page": 1,
+          "box": [
+            58.7,
+            128.7,
+            552.7,
+            342.0
+          ],
+          "width": 1236,
+          "height": 534,
+          "label": "問題 1：题号、信源 S 的矩阵表示、p_i 与码长 ℓ_i 的说明段、小问 (1)(2)(3)",
+          "sha256": "7e00eb64f69ebfba48b1415d6d9c274709d82cf8c404b388490909f80c4aeb22"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2013-it-q2",
+      "number": "問題 2",
+      "title": "单纯马尔可夫信源的熵与伴随信源熵",
+      "titleKind": "editorial",
+      "topics": [
+        "马尔可夫信源",
+        "熵",
+        "条件熵",
+        "伴随信息源"
+      ],
+      "summary": "符号集 {a,b,c} 的单纯马尔可夫信源 X 给定转移概率 p(a|a)=p(b|a)=1/2、p(c|a)=0、p(a|b)=1/4、p(b|b)=0、p(c|b)=3/4、p(a|c)=1/4、p(b|c)=0、p(c|c)=3/4（单位 bit）：求 X 的熵、求其伴随信源（随伴情報源）的熵，并说明后者不小于前者的理由。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷唯一页：「問題 2.」题号、两行设定文字、三行共 9 个条件概率式（含 p(c|a)=0 等）、「情報量の単位は bit…」一行说明、小问 (1)(2)(3) 完整在框内；(3) 的「小さくない理由」一行未切边。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2013-it/kobe-ee-2013-it-q2-01.png",
+          "page": 1,
+          "box": [
+            58.0,
+            384.3,
+            551.3,
+            617.7
+          ],
+          "width": 1234,
+          "height": 585,
+          "label": "問題 2：题号与马尔可夫信源设定、p(y|x) 的 3 行 9 式、bit 单位与对数化整说明、小问 (1)(2)(3)",
+          "sha256": "c404bb47152b2c97d5dccb9bf7da3a4ea64e7903356d2ce08ad06136ec8436e0"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2013-it-q1",
+        "kobe-ee-2013-it-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "顶部页眉「平成 25 年度神戸大学大学院工学研究科…入学試験」、科目名大标题「情報理論」、下半页空白页边；本页无全卷作答说明、无页脚页码，故无公共区域。"
+    }
+  ]
+}

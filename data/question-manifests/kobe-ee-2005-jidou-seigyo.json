@@ -1,0 +1,100 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2005-jidou-seigyo",
+ "title": "神户大学 · 2005 入学年度 · 自动控制",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2005",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "自然科学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2005,
+  "yearBasis": "academic",
+  "subject": "自动控制",
+  "originalSubject": "自動制御",
+  "originalName": "jidou-seigyo.pdf",
+  "pdf": "assets/past-papers/documents/1a4ee86811aae687dcdafa58a94e60da8481361f8d5b94868ba2999203b6d2f3.pdf",
+  "sha256": "1a4ee86811aae687dcdafa58a94e60da8481361f8d5b94868ba2999203b6d2f3",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2005 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2005-jidou-seigyo-q1",
+   "number": "問１",
+   "title": "斜坡输入下的传递函数与时间响应",
+   "titleKind": "editorial",
+   "topics": [
+    "拉普拉斯变换",
+    "传递函数",
+    "极点零点",
+    "稳态响应"
+   ],
+   "summary": "输入 u(t) 与输出 y(t) 的动特性为 d²y/dt²+4dy/dt+3y=du/dt+2u（式(1)），受斜率 1 的斜坡输入。1.～7. 求 U(s)、G(s)、G(s) 的极点与零点、Y(s)、部分分式分解、逆拉普拉斯变换的 y(t) 与稳态响应 y_steady(t)。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      38.0,
+      88.0,
+      552.0,
+      301.0
+     ],
+     "label": "問1：题干、微分方程式 (1) 与斜坡输入条件、小问 1.～7."
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問１」、动特性微分方程式 (1)（含 d²y/dt²、4dy/dt、3y、du/dt、2u 与式号 (1)）、斜坡输入条件与小问 1.～7. 完整；页眉三行（年度/日期/科目名）已排除，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2005-jidou-seigyo-q2",
+   "number": "問２",
+   "title": "闭环比例控制系的传递函数与稳定性",
+   "titleKind": "editorial",
+   "topics": [
+    "闭环传递函数",
+    "偏差",
+    "特征方程",
+    "稳定性判据"
+   ],
+   "summary": "闭环比例控制系如图1 给出（K≠0）。1.～7. 求目标值到控制量的传递函数 W_yr(s) 与外扰到控制量的 W_yd(s)、R(s)・D(s) 与 Y(s) 的关系、外扰偏差 E_d(s)，并在 G(s)=(1+s)/{(2+s)(3+s)}（式(2)）时求特征方程、稳定条件、K 的稳定范围与单位阶跃外扰下的稳态偏差。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      38.0,
+      301.5,
+      552.0,
+      648.0
+     ],
+     "label": "問2：题干、小问 1.～7.、传递函数 G(s) 式(2) 与図1（閉ループ制御系の構成）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問２」、K≠0 条件、小问 1.～7.、G(s)=(1+s)/{(2+s)(3+s)} 与式号 (2)、下方方框图（r, u, d, y, K, G(s) 与加减号）及图号「図1: 閉ループ制御系の構成」完整在框内，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2005-jidou-seigyo-q1",
+    "kobe-ee-2005-jidou-seigyo-q2"
+   ],
+   "common": false,
+   "excluded": "卷头三行页眉（平成17年度…入学試験問題／平成16年8月6日／科目名「自動制御」）；本页无作答说明，故无公共区域。",
+   "reviewed": true
+  }
+ ]
+}

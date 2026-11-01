@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2005-ronri-kairo",
+  "title": "神户大学 · 2005 入学年度 · 逻辑回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2005",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2005,
+    "yearBasis": "academic",
+    "subject": "逻辑回路",
+    "originalSubject": "論理回路",
+    "originalName": "ronri-kairo.pdf",
+    "pdf": "assets/past-papers/documents/1f6423646b8f911af197c7b756b5c2199ee2ce311b9bd285ec4fdd422402863c.pdf",
+    "sha256": "1f6423646b8f911af197c7b756b5c2199ee2ce311b9bd285ec4fdd422402863c",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2005 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2005-ronri-kairo-q1",
+      "number": "1.",
+      "title": "开关函数的标准形与卡诺图化简",
+      "titleKind": "editorial",
+      "topics": [
+        "积和标准形",
+        "和积标准形",
+        "香农展开",
+        "卡诺图"
+      ],
+      "summary": "(a) 求 4 变量 f1=x1(x2+x3)x4+x1x3x4+x1x2 的积和标准形；(b) 求 3 变量 f2=x1(x2+x3)+x1x2x3 的和积标准形；(c) 证明 n≥3 时 f3 的分解恒等式；(d) 用卡诺图求 f4 的最简积和形。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「1」（方框内数字）、「以下の各問に答えよ．」、小问 (a) 积和标准形、(b) 和积标准形、(c) f3 恒等式（两行四项）、(d) 卡诺图最简积和形与小问 f4 的 9 项表达式完整；x̄ 的上划线未切。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-ronri-kairo/kobe-ee-2005-ronri-kairo-q1-01.png",
+          "page": 1,
+          "box": [
+            56.0,
+            125.0,
+            548.0,
+            386.5
+          ],
+          "width": 1230,
+          "height": 655,
+          "label": "1：题号框内「1」、总起句与小问 (a)(b)(c)(d)（含 f3 恒等式与 f4 的 9 项积和式）",
+          "sha256": "082be84b3aa7fa76253bd8dfd0f6356fdbe331bb050bce8ff7204ed3ff1a31ce"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2005-ronri-kairo-q2",
+      "number": "2.",
+      "title": "组合逻辑电路的真值表与三数比较器设计",
+      "titleKind": "editorial",
+      "topics": [
+        "真值表",
+        "组合逻辑设计",
+        "数值比较器",
+        "门电路"
+      ],
+      "summary": "(a) 图1 的逻辑电路在输入 a、b 各组合下输出 x、y、z 的真值表；(b) 用 3 个图1 电路、6 个 2 输入 AND 与 2 个 3 输入 OR 构成 3 位二进制数 A、B 的比较器（A<B、A=B、A>B 分别置 f1、f2、f3 为 1），并说明工作原理。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「2」（方框内数字）、小问 (a)(b)、A<B / A=B / A>B 三行输出条件、図1（含 a,b,x,y,z 端子的门级电路）与図2（C 方框的简化符号）及两图图号完整在框内；页脚「以上」为卷末标记，已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-ronri-kairo/kobe-ee-2005-ronri-kairo-q2-01.png",
+          "page": 1,
+          "box": [
+            56.0,
+            392.0,
+            548.0,
+            770.0
+          ],
+          "width": 1230,
+          "height": 945,
+          "label": "2：题号框内「2」、总起句、小问 (a)(b)、三行比较结果条件与図1・図2 两幅逻辑电路图",
+          "sha256": "427d573fa545bf88377b1a010f50ec44ff74e43141afec5d73af2818dd84906d"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2005-ronri-kairo-q1",
+        "kobe-ee-2005-ronri-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "卷头页眉两行（平成17年度…入学試験問題／2004年8月6日）、科目名「論理回路」与卷末「以上」标记；本页无作答说明，故无公共区域。",
+      "reviewed": true
+    }
+  ]
+}

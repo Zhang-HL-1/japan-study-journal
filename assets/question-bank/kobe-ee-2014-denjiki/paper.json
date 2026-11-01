@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2014-denjiki",
+  "title": "神户大学 · 2014 入学年度 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2014",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2014,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "denjiki-26.pdf",
+    "pdf": "assets/past-papers/documents/2f60722acf1897d082d58e317286716aa9a701bb472a66ee54ab48c41083f161.pdf",
+    "sha256": "2f60722acf1897d082d58e317286716aa9a701bb472a66ee54ab48c41083f161",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2014 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2014-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        50.0,
+        141.0,
+        390.0,
+        165.0
+      ],
+      "width": 850,
+      "height": 61,
+      "label": "全卷作答说明（各問を指定された解答用紙に解答）",
+      "sha256": "289794d44101cf65631bbbe97e43e62f515b0a91caa8427cca063f5dc38fc00c"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2014-denjiki-q1",
+      "number": "問題 1",
+      "title": "线电荷与导体平面：镜像法求电场、电位与能量",
+      "titleKind": "editorial",
+      "topics": [
+        "線電荷",
+        "鏡像法",
+        "導体平面",
+        "静電エネルギー",
+        "等電位面"
+      ],
+      "summary": "自由空间中 x=0、z=a 处有線電荷密度 ρL 的无限长线电荷，求原点电场；再把 z≤0 视为导体，依次求原点电场、感应面电荷密度、静电能量密度、原点电位、(x,y,z) 处电位、等电位面及其特征，并讨论置入 εr>1 完全诱电体液体后线电荷受力的变化。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "扫描页对照 2x 页图：問題 1 题号、εr=1 与 ε0 的条件句、导体条件转折句、小问 (1)–(8) 全部纳入（含 (8) 的两行说明）；排除页眉「平成26年度…」与科目标题「電磁気学」。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2014-denjiki/kobe-ee-2014-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            52.0,
+            173.0,
+            548.0,
+            525.0
+          ],
+          "width": 1240,
+          "height": 881,
+          "label": "問題 1：题干、线电荷条件、(1)–(8) 全部小问",
+          "sha256": "89f66346c79f7f458ab0dbe32ed388b7ae4840989e5b4611862daa4009be7314"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2014-denjiki-q2",
+      "number": "問題 2",
+      "title": "直流电流的磁场、三角回路受力与平面波能量",
+      "titleKind": "editorial",
+      "topics": [
+        "平行導線の磁界",
+        "電流に働く力",
+        "平面波",
+        "固有インピーダンス",
+        "ポインティング"
+      ],
+      "summary": "求两根反向平行电流在中点 P 的磁界大小与方向（含图示符号 ⊙⊗ 的意义）；求无限长直导线电流 I1 对载流正三角形回路 ABC 整体的作用力；再由 Ex=E0cos(ωt-βz) 与时间平均能量密度 A 求 E0 关于 A 与 Z0=√(μ0/ε0) 的表达式。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "扫描页对照 2x 页图：問題 2 题号、μ0/ε0 条件、小问 (1)(2)(3)（含 Ex=E0cos(ωt-βz) 与 Z0=√(μ0/ε0) 公式）齐全，图 1（A/B 双导线与点 P）与图 2（I1 与三角形 ABC）连同图号完整；页眉与科目标题已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2014-denjiki/kobe-ee-2014-denjiki-q2-01.png",
+          "page": 2,
+          "box": [
+            50.0,
+            112.0,
+            545.0,
+            757.0
+          ],
+          "width": 1238,
+          "height": 1613,
+          "label": "問題 2：题干、(1) 平行導線磁界与方向图示、(2) 三角形回路受力、(3) 平面波振幅与能量、図 1、図 2",
+          "sha256": "24e8b1db0eab57cefedfa16c14b827431e5de77181f8b10b92b60d17b4a1b3eb"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2014-denjiki-q1"
+      ],
+      "common": true,
+      "excluded": "页眉「平成26年度 神戸大学大学院…入試」与科目标题「電磁気学」、及页脚空白；作答说明行已单独作为公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2014-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页眉「平成26年度 神戸大学大学院…入試」与科目标题「電磁気学」、及扫描边缘污点。",
+      "reviewed": true
+    }
+  ]
+}

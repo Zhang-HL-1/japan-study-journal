@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2019-seigyo",
+ "title": "神户大学 · 2019 入学年度 · 自动控制",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2019",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2019,
+  "yearBasis": "academic",
+  "subject": "自动控制",
+  "originalSubject": "自動制御",
+  "originalName": "seigyo-31.pdf",
+  "pdf": "assets/past-papers/documents/d2240e44ef2a18094b67e8a02e56a0f0499b87daef822258df7111d335870292.pdf",
+  "sha256": "d2240e44ef2a18094b67e8a02e56a0f0499b87daef822258df7111d335870292",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2019 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2019-seigyo-q1",
+   "number": "問題 1.",
+   "title": "フィードバック制御系の安定判別",
+   "titleKind": "editorial",
+   "topics": [
+    "伝達関数",
+    "インパルス応答",
+    "ナイキストの安定判別",
+    "ラウスの安定判別"
+   ],
+   "summary": "G(s)=1/(s²(s+2)) と K_1 s・K_2 からなるフィードバック制御系について、G(s) が安定かどうかを理由付きで答え、K_1=1, K_2=0 の場合のインパルス応答とその概形、K_1=0, K_2=1 でのナイキストの安定判別法、K_1=K_2=1 でのラウスの安定判別法による判定を行う。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      54.3,
+      114.3,
+      573.7,
+      472.0
+     ],
+     "label": "問題 1.：題号、G(s) の式(1)、図1 のブロック線図と図号、小問 1.〜4."
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：題号「問題 1.」、G(s)=1/(s²(s+2)) の式(1)、図1 のフィードバック制御系ブロック線図と「図 1: フィードバック制御系」、小問 1.〜4.（ナイキスト・ラウス）まで入框；页眉・科目名「自動制御」と問題 2. の冒頭未入框，无切字、无图被切。"
+   }
+  },
+  {
+   "id": "kobe-ee-2019-seigyo-q2",
+   "number": "問題 2.",
+   "title": "外乱を含む閉ループ制御系の伝達関数と定常偏差",
+   "titleKind": "editorial",
+   "topics": [
+    "閉ループ伝達関数",
+    "外乱",
+    "過渡応答",
+    "定常偏差",
+    "ラウスの安定判別"
+   ],
+   "summary": "目標値 r・制御量 y・外乱 d と K/(Ts+1)・1/(s(s+1)) からなる閉ループ制御系について、r→y と d→y の閉ループ伝達関数を求め、ラウスの安定判別法で安定条件を導き、K=2, T=0 のときの単位ステップ応答と定常偏差、K>0, T>0 で安定なときの r・d が単位ステップ入力の場合の定常偏差を求める。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      54.3,
+      485.0,
+      573.7,
+      771.0
+     ],
+     "label": "問題 2.：題号、図2 のブロック線図と図号、小問 1.〜4."
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：題号「問題 2.」、K と T の条件、図2 の閉ループ制御系ブロック線図（d の加算点を含む）と「図 2: 閉ループ制御系」、小問 1.〜4. の末尾まで入框；本页无翻页提示，无切字、无图被切。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2019-seigyo-q1",
+    "kobe-ee-2019-seigyo-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「平成 31 年度神戸大学大学院工学研究科…」、科目名「自動制御」与空白页边；本卷仅 1 页且无翻页提示。",
+   "reviewed": true
+  }
+ ]
+}

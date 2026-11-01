@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2024-ronri",
+  "title": "神户大学 · 2024 入学年度 · 逻辑回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2024",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "逻辑回路",
+    "originalSubject": "論理回路",
+    "originalName": "ronri-2024.pdf",
+    "pdf": "assets/past-papers/documents/208b919e0cdf210989636a4de429041607d07458705174817310442ecdc19960.pdf",
+    "sha256": "208b919e0cdf210989636a4de429041607d07458705174817310442ecdc19960",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2024-ronri-q1",
+      "number": "問題 1",
+      "title": "4 位加 1 电路与十进制计数器",
+      "titleKind": "editorial",
+      "topics": [
+        "加 1 电路",
+        "卡诺图化简",
+        "D 触发器",
+        "十进制计数器"
+      ],
+      "summary": "对 4 桁 2 进数 X 求 +1（9 时归 0）的组合电路：填真值表、按积和形式化简、再用 P 与 4D 触发器各一个构成十进制计数器。中文标题和概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页核对三段连续题干：题干含 (1)(2)(3) 全部小问，图 P 与 4D 及其图内标号完整；卷头年度/科目名与「問題2に続く」续页提示不在框内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ronri/kobe-ee-2024-ronri-q1-01.png",
+          "page": 1,
+          "box": [
+            48,
+            114.7,
+            548,
+            209
+          ],
+          "width": 1250,
+          "height": 237,
+          "label": "問題 1：共用题干与 (1) 真值表",
+          "sha256": "6b1e18c2c93c7aaeb4fea73cdf7b42a6618d27ee0b7637970e3d063bcb61ee67"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ronri/kobe-ee-2024-ronri-q1-02.png",
+          "page": 1,
+          "box": [
+            48,
+            222.7,
+            548,
+            262.7
+          ],
+          "width": 1250,
+          "height": 101,
+          "label": "問題 1：(2) 积和形式与卡诺图化简",
+          "sha256": "ce4fd7f3f7043faf10a8ccb77589ed96f135761407faca37c2b7f61dff91f922"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ronri/kobe-ee-2024-ronri-q1-03.png",
+          "page": 1,
+          "box": [
+            48,
+            277,
+            548,
+            499
+          ],
+          "width": 1250,
+          "height": 556,
+          "label": "問題 1：(3) 计数器构成与 P、4D 电路图",
+          "sha256": "1fb0f3a123a8d388d5faee33fa41cddd134a7aec218b7728b1434fa804a873a1"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2024-ronri-q2",
+      "number": "問題 2",
+      "title": "半加器与多位乘法器构成",
+      "titleKind": "editorial",
+      "topics": [
+        "二进制乘法",
+        "半加器",
+        "阵列乘法器"
+      ],
+      "summary": "先算 1011×11，再用 2 个 HA 与 AND 门构成 4 位积电路，最后用 2 个 2MP 与 2 个 2HA 构成 6 位积电路；保留 HA、2MP、2HA 三幅部件图。中文标题和概述仅用于导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页核对 (1)(2)(3) 全部小问与 HA、2MP、2HA 三幅部件图的引脚标号；卷头年度/科目名与「問題ここまで」结束提示不在框内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ronri/kobe-ee-2024-ronri-q2-01.png",
+          "page": 2,
+          "box": [
+            48,
+            63.3,
+            548,
+            104
+          ],
+          "width": 1250,
+          "height": 102,
+          "label": "問題 2：共用题干与 (1) 二进制乘法",
+          "sha256": "109616b49c6ad6dd8a0660e26402fbb56a77c7178aed5f01a05cbcf74699f8d8"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ronri/kobe-ee-2024-ronri-q2-02.png",
+          "page": 2,
+          "box": [
+            48,
+            117.7,
+            548,
+            239
+          ],
+          "width": 1250,
+          "height": 304,
+          "label": "問題 2：(2) HA 构成 4 位积电路与 HA 图",
+          "sha256": "0d96d1ae56adfc5d5f5feb6e102df3875d6760dd5f3a5c3e065e07f1fc0eb08f"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ronri/kobe-ee-2024-ronri-q2-03.png",
+          "page": 2,
+          "box": [
+            48,
+            261.7,
+            548,
+            441
+          ],
+          "width": 1250,
+          "height": 449,
+          "label": "問題 2：(3) 2MP 与 2HA 构成 6 位积电路及部件图",
+          "sha256": "79b84c6be414c1b3733e255200d9e3c1e160f7cb0e8b80d88ea1f255613cc2fb"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2024-ronri-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头（年度·科目名「論理回路」）、页脚「（問題 2 に続く）」及空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2024-ronri-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头（年度·科目名）与页脚「（問題ここまで）」及空白页边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

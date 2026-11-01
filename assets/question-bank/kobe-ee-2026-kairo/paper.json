@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2026-kairo",
+  "title": "神户大学 · 2026 入学年度 · 电气回路与电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2026",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2026,
+    "yearBasis": "academic",
+    "subject": "电气回路与电子回路",
+    "originalSubject": "電気回路・電子回路",
+    "originalName": "kairo-2026.pdf",
+    "pdf": "assets/past-papers/documents/1ae624e60c1097e45d64f7c4a99308caa65ffef0865734935ba684460cdcd9a6.pdf",
+    "sha256": "1ae624e60c1097e45d64f7c4a99308caa65ffef0865734935ba684460cdcd9a6",
+    "pageCount": 3,
+    "note": "来自既有过去问目录。2026 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2026-kairo-q1",
+      "number": "問題 (A)",
+      "title": "直流电路等效电路与串联谐振电路",
+      "titleKind": "editorial",
+      "topics": [
+        "直流回路",
+        "等価回路",
+        "交流回路",
+        "共振",
+        "インピーダンス"
+      ],
+      "summary": "对含两电源的图 A-1 求端子 a-b 的开路电压 E0、内部电阻 R0、短路电流 I0 并画出诺顿等效电路；对 RLC 串联的图 A-2 求 ω 由 50 变到 250 rad/s 时合成阻抗轨迹、共振角频率 ω0、电流 İ、功率 P0，以及功率减半时的 ω1、ω2 与半值幅 Δω。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：问题框「問題 (A)」、作答说明（j 为虚数单位、点「・」表示相量、结果取数值）、(1) ①–④ 与 図 A-1 及图题、(2) ①–⑤ 与 図 A-2／図 A-3 及图题齐全；页眉年份与科目标题已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-kairo/kobe-ee-2026-kairo-q1-01.png",
+          "page": 1,
+          "box": [
+            46.0,
+            118.7,
+            555.7,
+            803.3
+          ],
+          "width": 1275,
+          "height": 1713,
+          "label": "問題 (A)：作答说明、(1) 図A-1 的 E0/R0/I0 与诺顿等效电路 ④、(2) 図A-2・A-3 的阻抗轨迹/ω0/電流/電力/半値幅 ⑤",
+          "sha256": "aebba4c57982ca61854b0e125649f77a1c32f0f03b26e273c9b1cf1c80574d2a"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2026-kairo-q2",
+      "number": "問題 (B)",
+      "title": "晶体管放大电路与运算放大器",
+      "titleKind": "editorial",
+      "topics": [
+        "トランジスタ",
+        "増幅回路",
+        "演算増幅器",
+        "フィルタ",
+        "利得"
+      ],
+      "summary": "(1) 对图 B-1 判断 Q1、Q3、Q4 的素子种类与接地方式、节点 S/T/X/Y 的电压相位、VX/VY 之比、决定电压增益的 3 个阻抗，并给出 R1、R2 的电流条件与 C1 的不等式条件；(2) 用 v1,v2,v3 表示图 B-2 的输出、求图 B-3 低通滤波器的截止频率 fc 与增益特性 |G(ω)|、说明增益为 1 的图 B-4 的用途。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page images with coordinate grid, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2、3 页：第 2 页为问题框「問題 (B)」、作答说明（只写最终结果）、(1) 导入句与 a)–f) 及図 B-1；第 3 页为 (2) 演算増幅器 a)b)c) 与 図 B-2/B-3/B-4 及图题。第 2 页页脚「(次ページへ続く)」与第 3 页「以上」为翻页/终了提示，均已排除在区域外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-kairo/kobe-ee-2026-kairo-q2-01.png",
+          "page": 2,
+          "box": [
+            29.3,
+            134.0,
+            553.3,
+            759.3
+          ],
+          "width": 1311,
+          "height": 1564,
+          "label": "(1) 図B-1 放大电路：素子种类/接地方式、S・T・X・Y 相位、VX/VY、增益相关阻抗、R1R2 与 C1 条件，含 図 B-1",
+          "sha256": "4662864e0e36b677f5b568af3b8bd8825c7a228e09494a11bc7fd640245b6e09"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2026-kairo/kobe-ee-2026-kairo-q2-02.png",
+          "page": 3,
+          "box": [
+            39.3,
+            108.0,
+            554.7,
+            410.0
+          ],
+          "width": 1289,
+          "height": 755,
+          "label": "(2) 演算増幅器：図B-2 输出表达式、図B-3 LPF の fc 与 |G(ω)|、図B-4 の用途",
+          "sha256": "59d149292df3100afd30f46489efea6634a25b9c26376c7bac8b5793a45edd95"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2026-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "页眉「2026 年度 神戸大学大学院工学研究科…入学試験」与科目标题「電気回路・電子回路」，以及左侧与右下扫描黑边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2026-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "页眉年份行与科目标题、页脚翻页提示「(次ページへ続く)」、扫描黑边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "kobe-ee-2026-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "页眉年份行与科目标题、终了提示「以上」、扫描黑边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

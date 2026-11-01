@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2004-suugaku",
+  "title": "神户大学 · 2004 入学年度 · 数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2004",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2004,
+    "yearBasis": "academic",
+    "subject": "数学",
+    "originalSubject": "数学",
+    "originalName": "suugaku.pdf",
+    "pdf": "assets/past-papers/documents/b3114f89d98d6e90bea5a58204e9664c052f12bca0e6beb3d920a61c99de5f19.pdf",
+    "sha256": "b3114f89d98d6e90bea5a58204e9664c052f12bca0e6beb3d920a61c99de5f19",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2004 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2004-suugaku-q1",
+      "number": "1.",
+      "title": "二次形式的对称矩阵表示与对角化",
+      "titleKind": "editorial",
+      "topics": [
+        "二次形式",
+        "对称矩阵",
+        "特征值",
+        "对角化"
+      ],
+      "summary": "令 f(x,y,z)=2x²+2y²+2z²−2xy−2yz，求把它写成 (x,y,z)A(x,y,z)ᵀ 的 3×3 对称矩阵 A，再求 A 的全部特征值与对应长度 1 的特征向量，以及使 P⁻¹AP 为对角矩阵的正交矩阵 P。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「1.」、f 的定义式、小问 (1)–(4)（A 的矩阵积表示、特征值、单位特征向量、正交矩阵 P）齐全，右上括号向量与右端「行列 A を求めよ．」完整，无切字、无第 2 题串入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-suugaku/kobe-ee-2004-suugaku-q1-01.png",
+          "page": 1,
+          "box": [
+            49.8,
+            47.8,
+            429.3,
+            267.5
+          ],
+          "width": 950,
+          "height": 550,
+          "label": "1.：题干与二次形式、小问 (1)–(4)（含矩阵乘积式与特征值/特征向量/正交对角化）",
+          "sha256": "57c7c3597827e3a2924c48107a1f32438f5eaabf494a42980606adf79297a4d1"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2004-suugaku-q2",
+      "number": "2.",
+      "title": "二阶常系数线性微分方程的通解与初值问题",
+      "titleKind": "editorial",
+      "topics": [
+        "常微分方程",
+        "特征根",
+        "初值问题"
+      ],
+      "summary": "对 α 满足 0≤α≤2 时的微分方程 y″+2y′+ay=0 求一般解；并分别求初值问题 y″+2y′+y=x²+1 与 y″+2y′+y=e⁻ˣ（y(0)=y′(0)=1）的解。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「2.」、α 的范围条件、小问 (1)(2)(3) 与三个微分方程及初值 y(0)=y′(0)=1 完整，导函数符号 ′′/′ 清晰，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-suugaku/kobe-ee-2004-suugaku-q2-01.png",
+          "page": 1,
+          "box": [
+            49.8,
+            268.0,
+            451.7,
+            358.6
+          ],
+          "width": 1006,
+          "height": 227,
+          "label": "2.：题干与小问 (1)–(3)（α 参数通解、两个初值问题）",
+          "sha256": "a4d0a549ebabcde3668194c21c9bc0b03dd01f7092e746f94278c40913da02f4"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2004-suugaku-q3",
+      "number": "3.",
+      "title": "f(x)=(sin x+|sin x|)/2 的图形与傅里叶展开",
+      "titleKind": "editorial",
+      "topics": [
+        "函数图形",
+        "傅里叶正弦级数",
+        "傅里叶级数"
+      ],
+      "summary": "对 f(x)=(sin x+|sin x|)/2：在区间 [−π,π] 画其图形概形，在 [0,π] 上作傅里叶正弦级数展开，并在 [−π,π] 上作傅里叶级数展开。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「3.」、f(x)=(sin x+|sin x|)/2 的分式（分子 sin x+|sin x|、分母 2）完整，小问 (1)(2)(3) 与区间 [−π,π]、[0,π] 齐全，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-suugaku/kobe-ee-2004-suugaku-q3-01.png",
+          "page": 1,
+          "box": [
+            49.8,
+            356.0,
+            389.3,
+            480.1
+          ],
+          "width": 850,
+          "height": 311,
+          "label": "3.：题干与 f(x) 定义式（含绝对值与分数线）、小问 (1)–(3)",
+          "sha256": "e69cab5a87a2467955bd31775b3d8fd26eeb6760ae4d477f419159b7ef669d66"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2004-suugaku-q4",
+      "number": "4.",
+      "title": "有理函数的奇点、留数与两个圆周上的围道积分",
+      "titleKind": "editorial",
+      "topics": [
+        "复变函数",
+        "留数",
+        "围道积分"
+      ],
+      "summary": "对 f(z)=z²/(1+z+z²+z³) 求全部奇点及各奇点处的留数；再沿以 z=i 为心、半径 1/2 与以原点为心、半径 2 的反时针圆周分别求 ∫f(z)dz。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「4.」、f(z) 分式（分子 z²、分母 1+z+z²+z³）、小问 (1)–(4)、C₁（心 i、半径 1/2）与 C₂（心原点、半径 2）的积分号与路径名完整，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-suugaku/kobe-ee-2004-suugaku-q4-01.png",
+          "page": 1,
+          "box": [
+            49.8,
+            477.2,
+            498.0,
+            694.5
+          ],
+          "width": 1121,
+          "height": 544,
+          "label": "4.：题干与 f(z) 分式、小问 (1)–(4)（含 C₁、C₂ 两个积分式）",
+          "sha256": "a156a5c2430d17c6515f44d764a203fe716dff891d378e3801bf243ebece2b36"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2004-suugaku-q1",
+        "kobe-ee-2004-suugaku-q2",
+        "kobe-ee-2004-suugaku-q3",
+        "kobe-ee-2004-suugaku-q4"
+      ],
+      "common": false,
+      "excluded": "空白页边与题间空行；本页无页眉页码、无翻页提示，无公共作答说明。",
+      "reviewed": true
+    }
+  ]
+}

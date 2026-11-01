@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2015-it",
+  "title": "神户大学 · 2015 入学年度 · 信息理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2015",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2015,
+    "yearBasis": "academic",
+    "subject": "信息理论",
+    "originalSubject": "情報理論",
+    "originalName": "it-27.pdf",
+    "pdf": "assets/past-papers/documents/270a1336d494961c52c2632cef3ec6946a7bc62f7fc81c158af5d5e6d7132bff.pdf",
+    "sha256": "270a1336d494961c52c2632cef3ec6946a7bc62f7fc81c158af5d5e6d7132bff",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2015 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2015-it/common-01.png",
+      "page": 1,
+      "box": [
+        48.0,
+        106.0,
+        393.3,
+        124.7
+      ],
+      "width": 864,
+      "height": 47,
+      "label": "作答总说明（解答用紙指定）",
+      "sha256": "bc91ed2b8bb87df28fb8c911433bf6c3934efc741cb80bf48ff2debe36c52316"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2015-it-q1",
+      "number": "問題 1",
+      "title": "单纯马尔可夫信息源的转移图与熵",
+      "titleKind": "editorial",
+      "topics": [
+        "马尔可夫信源",
+        "状态转移",
+        "熵",
+        "条件熵"
+      ],
+      "summary": "信源 X 输出 0/1，给定 p(0|0)=0.1、p(1|0)=0.9、p(0|1)=0.8、p(1|1)=0.2：画状态 S0、S1 的状态转移图；把各状态视为无记忆信源求其熵；再求信源 X 的熵（以 bit 为单位、可整除时取整数）。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1.」、p(0|0)…p(1|1) 四式对齐排版、(1)(2)(3) 齐全，含 bit 单位与取整说明；作答说明行在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-it/kobe-ee-2015-it-q1-01.png",
+          "page": 1,
+          "box": [
+            44.7,
+            137.7,
+            543.3,
+            323.7
+          ],
+          "width": 1248,
+          "height": 466,
+          "label": "問題 1：题干、四个转移概率、(1) 转移图、(2) 各状态熵、(3) 信源 X 的熵",
+          "sha256": "a6513a7a589383765b5fa7d789973dc52c9cdb015d223dd337ff1aa3a912648c"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2015-it-q2",
+      "number": "問題 2",
+      "title": "无记忆信源的哈夫曼编码与游程分块编码",
+      "titleKind": "editorial",
+      "topics": [
+        "无记忆信源",
+        "哈夫曼编码",
+        "扩展信源",
+        "分块编码",
+        "平均码长"
+      ],
+      "summary": "信源 S 的 P(0)=5/6、P(1)=1/6：求熵；求二次扩展源 S² 作二元哈夫曼编码的平均码长；再用 0–3 的游程将输出序列分块并作二元哈夫曼编码，证明每信源符号的平均码长比 (2) 更小。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 2.」、概率 5/6・1/6、(1)(2)(3) 齐全，S² 上标与「0 から 3 まで」范围说明完整；页底空白未产生多余墨迹框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-it/kobe-ee-2015-it-q2-01.png",
+          "page": 1,
+          "box": [
+            47.3,
+            354.3,
+            543.3,
+            486.3
+          ],
+          "width": 1241,
+          "height": 331,
+          "label": "問題 2：题干、P(0)=5/6・P(1)=1/6、(1) 熵、(2) S² 哈夫曼平均码长、(3) 游程分块编码",
+          "sha256": "7d0de3083d84d48b04b0ac3fb0a6bf169bccb30a4964f0c6ea03e60099d4c8e7"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2015-it-q1",
+        "kobe-ee-2015-it-q2"
+      ],
+      "common": true,
+      "excluded": "卷头页眉（平成 27 年度…入学試験）与科目名「情報理論」标题；作答说明作公共区域，不含题目正文。",
+      "reviewed": true
+    }
+  ]
+}

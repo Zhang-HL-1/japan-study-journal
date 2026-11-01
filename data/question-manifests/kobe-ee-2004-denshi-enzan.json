@@ -1,0 +1,148 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2004-denshi-enzan",
+ "title": "神户大学 · 2004 入学年度 · 电子运算",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2004",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "自然科学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2004,
+  "yearBasis": "academic",
+  "subject": "电子运算",
+  "originalSubject": "電子演算",
+  "originalName": "denshi-enzan.pdf",
+  "pdf": "assets/past-papers/documents/4f8ed6812531fd3ba6266eaf6a5518fa2660abc2c67921288f4564ef0d496e21.pdf",
+  "sha256": "4f8ed6812531fd3ba6266eaf6a5518fa2660abc2c67921288f4564ef0d496e21",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2004 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2004-denshi-enzan-q1",
+   "number": "1",
+   "title": "4 变量开关函数的最简积和形",
+   "titleKind": "editorial",
+   "topics": [
+    "开关函数",
+    "积和形",
+    "布尔代数化简"
+   ],
+   "summary": "4 变量开关函数 f，已知使 f(x₁,x₂,x₃,x₄)=1 的 8 组输入组合，求 f 的最简积和形（选言标准形）。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      54.7,
+      114.0,
+      554.0,
+      207.3
+     ],
+     "label": "1：题干、8 组 (x₁,x₂,x₃,x₄)=1 的组合与「最簡の積和形」设问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：方形题号「1」、题干两行、8 组输入组合（(1,1,0,0) … (1,0,1,1)）与「f の最簡の積和形（選言標準形）を求めよ」完整；该 PDF 文本层为 CID 乱码，改用页图墨迹行列剖面（inkmap.py，1.5x 渲染取暗像素包围盒）核定边界，四边留白 6.0–6.7pt。"
+   }
+  },
+  {
+   "id": "kobe-ee-2004-denshi-enzan-q2",
+   "number": "2",
+   "title": "阈值函数 g 与 f 的积和形与逻辑组合",
+   "titleKind": "editorial",
+   "topics": [
+    "阈值函数",
+    "积和形",
+    "逻辑积与和",
+    "否定"
+   ],
+   "summary": "定义 f_{2n+1}：A₁…A_{2n+1} 中 n+1 个以上为真时取真；g_{2n}：A₁…A_{2n} 中 n 个以上为真时取真。(a) 求 g₂(A,B) 与 f₃(A,B,C) 的积和形；(b) 仅用两个 f₃ 与积、和表示 g₄；(c) 问 g_{2n}(Ā₁,…,Ā_{2n}) 何时为真；(d) 用两个 g_{2k} 与积、和、否定表示 f_{2k+1}。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      54.7,
+      212.0,
+      554.0,
+      384.3
+     ],
+     "label": "2：题干定义与小问 (a)–(d)，含 g₂/f₃ 记号与上划线否定"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：方形题号「2」、f_{2n+1} 与 g_{2n} 的定义两行、小问 (a)(b)(c)(d) 与上划线（Ā_i ↔ A_i）完整，四边留白 6.0–7.0pt，无切字、无第 3 题串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2004-denshi-enzan-q3",
+   "number": "3",
+   "title": "半加器、全加器与 3×2 位乘法电路",
+   "titleKind": "editorial",
+   "topics": [
+    "半加器",
+    "全加器",
+    "逻辑电路",
+    "乘法电路"
+   ],
+   "summary": "(a) 用 1 个 XOR 与 1 个 AND 画半加器（并注明 x₀,x₁,s,c）；(b) 用 2 个半加器与 1 个 OR 画全加器（可简画，注明 x₀′,x₁′,c_in,s′,c_out）；(c) 只用半加器、全加器与 AND 画 3 位×2 位非负二进制 2 数之积 s₄s₃s₂s₁s₀ 的电路（可按图 1(b) 简画）。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      54.7,
+      391.0,
+      554.0,
+      613.0
+     ],
+     "label": "3：题干与小问 (a)(b)(c)"
+    },
+    {
+     "page": 1,
+     "box": [
+      174.7,
+      615.0,
+      464.6,
+      714.0
+     ],
+     "label": "図1：半加器 (a) 与全加器 (b) 的简画记号与图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：方形题号「3」、题干「以下の各問に答えよ」、小问 (a)(b)(c) 与图 1 的 (a) HA、(b) FA 两个方框（x₀/x₁→s,c；x₀′/x₁′/c_in→s′,c_out）及「図 1」图号完整（原 PDF 该行「図」字形缺失，渲染为方框，与原文一致）；卷末「以上」已排除。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2004-denshi-enzan-q1",
+    "kobe-ee-2004-denshi-enzan-q2",
+    "kobe-ee-2004-denshi-enzan-q3"
+   ],
+   "common": false,
+   "excluded": "卷头标题「平成16年度神戸大学大学院自然科学研究科博士前期課程入学試験問題」、右上日期「2003年8月27日」与科目名「電子演算」，以及卷末「以上」；不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [],
+   "common": false,
+   "excluded": "『出題意図』（命题意图说明）页：仅说明各題考查目的，无试题正文与图形，故不收任何区域。",
+   "reviewed": true
+  }
+ ]
+}

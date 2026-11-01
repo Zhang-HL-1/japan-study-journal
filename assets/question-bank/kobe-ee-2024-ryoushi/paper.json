@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2024-ryoushi",
+  "title": "神户大学 · 2024 入学年度 · 量子物理学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2024",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "量子物理学",
+    "originalSubject": "量子物理学",
+    "originalName": "ryoushi-2024.pdf",
+    "pdf": "assets/past-papers/documents/1b8a2484f56e08fffcaf04198dedb0de2f7fef41a331c3cd0afd0db40b9a8b64.pdf",
+    "sha256": "1b8a2484f56e08fffcaf04198dedb0de2f7fef41a331c3cd0afd0db40b9a8b64",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2024-ryoushi/common-01.png",
+      "page": 1,
+      "box": [
+        53.3,
+        116.7,
+        546.0,
+        158.7
+      ],
+      "width": 1232,
+      "height": 106,
+      "label": "全卷作答说明：问答 1)〜11)，须写明推导过程，符号可自行定义",
+      "sha256": "bc73fabcd2d5d73031dc683bceb9b2b87a119de3a34b10c8d603db815e31e335"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2024-ryoushi-q1",
+      "number": "問 1)〜11)",
+      "title": "无限深势阱与势阶的透射和反射",
+      "titleKind": "editorial",
+      "topics": [
+        "薛定谔方程",
+        "无限深势阱",
+        "叠加态",
+        "概率密度",
+        "势阶",
+        "平面波解",
+        "透射率",
+        "边界条件"
+      ],
+      "summary": "全卷只有一组「問 1)〜11)」，不拆成两道大题。1)–7)：写出定态与含时薛定谔方程，解无限深方势阱得能级与归一化波函数，画出 n=1、2 的波函数，验证含时解与两态叠加，求概率密度及其振荡周期。8)–11)：在式(2) 势阶下写出两区域平面波解，列 x=0 边界条件与系数关系，求透射率与反射率并证明两者之和为 1。中文标题仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "全卷作答说明为「下記の問 1)〜11) について解答せよ」，原卷无第二道大题号。1)–7) 为无限深势阱，8)–11) 以「次に」接入势阶，仍属同一组小问，故只保留 q1。对照原卷第 1 页：問 1)–5)、式(1)、井戸型ポテンシャル図与 0/d、x 轴标签。对照第 2 页：問 6)–7) 末句、式(2)、領域 I/II 与 V0 図、k=√(2mE)/ℏ 与 k'=√(2m(E−V0))/ℏ、問 9)–11) 末句。卷头、题名、页码与空白页边不入图。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ryoushi/kobe-ee-2024-ryoushi-q1-01.png",
+          "page": 1,
+          "box": [
+            52.5,
+            177.3,
+            546.7,
+            388.0
+          ],
+          "width": 1236,
+          "height": 527,
+          "label": "問 1)：定态薛定谔方程填空，含 V(x)、ℏ、m、φ(x)、x、E",
+          "sha256": "eb8d1cc9b414a60370f59ac97c446a604928c19516854bba57a19eceaac7f5a3"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ryoushi/kobe-ee-2024-ryoushi-q1-02.png",
+          "page": 1,
+          "box": [
+            45.3,
+            396.0,
+            552.7,
+            734.7
+          ],
+          "width": 1269,
+          "height": 847,
+          "label": "問 2)–5)：式(1) 井戸型ポテンシャル与図，能级 En、归一化波函数、作图、含时方程与含时解验证",
+          "sha256": "ff545e02f12f17344fcc663275c6bb1ac404d7f5c4544b50d040e920b23e2b02"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ryoushi/kobe-ee-2024-ryoushi-q1-03.png",
+          "page": 2,
+          "box": [
+            49.3,
+            72.0,
+            547.3,
+            270.0
+          ],
+          "width": 1246,
+          "height": 495,
+          "label": "問 6)–7)：两态叠加的时间演化、存在概率密度与振荡周期",
+          "sha256": "714d40040d10a285d7480320522285b78f934b12f874c33e478fb50b91a0f686"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ryoushi/kobe-ee-2024-ryoushi-q1-04.png",
+          "page": 2,
+          "box": [
+            53.3,
+            297.3,
+            546.7,
+            451.3
+          ],
+          "width": 1234,
+          "height": 386,
+          "label": "問 8) 共用条件：式(2) 阶段型ポテンシャル、領域 I/II、E>V0 与 V(x) 概略図",
+          "sha256": "c9f99978c0feb171a2b38ce06be109f52a75d1cbb10850d995fc24e0141d1fdd"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2024-ryoushi/kobe-ee-2024-ryoushi-q1-05.png",
+          "page": 2,
+          "box": [
+            47.3,
+            472.0,
+            548.7,
+            712.0
+          ],
+          "width": 1254,
+          "height": 600,
+          "label": "問 8)–11)：区域 I/II 的平面波解说明、x=0 边界条件、系数关系、透射率/反射率与和为 1",
+          "sha256": "61840d13d3f3f04b0dd2a9a02941691b267932a09084121b090caf5221a94259"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2024-ryoushi-q1"
+      ],
+      "common": true,
+      "excluded": "卷头（年度・考试名）、题名「量子物理学」、页脚「（２枚目に続く）」与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2024-ryoushi-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头、页脚与空白页边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2004-denshi-device",
+  "title": "神户大学 · 2004 入学年度 · 电子器件",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2004",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2004,
+    "yearBasis": "academic",
+    "subject": "电子器件",
+    "originalSubject": "電子デバイス",
+    "originalName": "denshi-device.pdf",
+    "pdf": "assets/past-papers/documents/a2b40ed3ccf21ffb4107b1868f52bb483c3ff94e9eb15e293bb8c0a7f392b469.pdf",
+    "sha256": "a2b40ed3ccf21ffb4107b1868f52bb483c3ff94e9eb15e293bb8c0a7f392b469",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2004 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2004-denshi-device/common-01.png",
+      "page": 1,
+      "box": [
+        75.6,
+        145.6,
+        404.0,
+        169.4
+      ],
+      "width": 821,
+      "height": 60,
+      "label": "作答说明：次の問１および２について、それぞれ別の解答用紙に答えよ。",
+      "sha256": "164edb6b2c803fed4c73caea2845698fc6f0977253b8b89b6144d1b6b1aa65d0"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2004-denshi-device-q1",
+      "number": "1.",
+      "title": "理想 pn 阶跃结的载流子密度、注入与光生电压",
+      "titleKind": "editorial",
+      "topics": [
+        "pn结",
+        "载流子密度",
+        "扩散电位",
+        "光生电压"
+      ],
+      "summary": "(a) 以扩散电位 V_D 表示 n 型与 p 型中性区电子密度 n_n0、n_p0 的关系（可用给出的 n、p 式）；(b) 加正向电压 V 时求注入 p 区的过剩电子密度 Δn_p；(c) 反向饱和电流 I₀ 的 pn 结受光照、短路电流为 I_p 时，求两端开路产生的电压。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「1.」、题干两行（不純物密度 N_A/N_D、理想 pn 階段接合、k_B 与 T）、小问 (a)(b)(c) 与中途给出的 n=N_c exp[…]、p=N_v exp[…] 两式（含分式 E_c−E_f 等）完整，无切字、无第 2 题串入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-denshi-device/kobe-ee-2004-denshi-device-q1-01.png",
+          "page": 1,
+          "box": [
+            76.4,
+            170.0,
+            518.7,
+            428.7
+          ],
+          "width": 1106,
+          "height": 647,
+          "label": "1.：题干（N_A、N_D、k_B、T 条件）与小问 (a)(b)(c)，含 n、p 两个载流子密度公式",
+          "sha256": "7b8e9eb8fba75559b312e3587e1bb454b40b22d06f270e70395e330057f5e671"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2004-denshi-device-q2",
+      "number": "2.",
+      "title": "增强型 n-MOSFET 的耗尽层伸展与饱和电流",
+      "titleKind": "editorial",
+      "topics": [
+        "MOSFET",
+        "耗尽层",
+        "夹断",
+        "饱和电流"
+      ],
+      "summary": "(a) 漏极电压 V_D 下求耗尽层向基板侧伸展的宽度 W_p；(b) 栅压固定 V_G=V₀、V_D=V_P 且夹断点位于漏极端 x=L 时，求沟道内电位分布 V(x) 与电场 E_x(x) 并作图；(c) 证明此时漏极电流呈饱和式 I_D=WμCV_P²/(2L)。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「2.」、题干三行（ゲート長 L、チャネル幅 W、エンハンスメント型 n-MOSFET、C/μ/ε/n_i）、小问 (a)(b)(c) 与 I_D=WμCV_P²/(2L) 的分式（分子分母、V_P 下标）完整；卷末「以上」已排除在区域外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-denshi-device/kobe-ee-2004-denshi-device-q2-01.png",
+          "page": 1,
+          "box": [
+            76.4,
+            449.5,
+            519.3,
+            716.5
+          ],
+          "width": 1108,
+          "height": 669,
+          "label": "2.：题干（L、W、C、μ、ε、n_i 条件）与小问 (a)(b)(c)，含 I_D 分式",
+          "sha256": "4b9eef8b5567801afc7889d8070df13f521eb378f6618ebdb97662cc3d881a77"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2004-denshi-device-q1",
+        "kobe-ee-2004-denshi-device-q2"
+      ],
+      "common": true,
+      "excluded": "卷头「平成16年度博士前期課程入試問題」「電子デバイス」、右上日期「平成15年8月27日」与卷末「以上」；仅保留作答说明作公共区域。",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2026-ryoushibussei",
+ "title": "神户大学 · 2026 入学年度 · 量子物性工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2026",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2026,
+  "yearBasis": "academic",
+  "subject": "量子物性工学",
+  "originalSubject": "量子物性工学",
+  "originalName": "ryoushibussei-2026.pdf",
+  "pdf": "assets/past-papers/documents/5e92213fbfe15e82c6e5ffd2ca17b73bf93da1809c1b1721c5224de00a7bd8ad.pdf",
+  "sha256": "5e92213fbfe15e82c6e5ffd2ca17b73bf93da1809c1b1721c5224de00a7bd8ad",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2026 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    45.3,
+    114.0,
+    540.0,
+    148.0
+   ],
+   "label": "全卷作答说明（须写出推导过程、符号自行定义）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2026-ryoushibussei-q1",
+   "number": "問題 1",
+   "title": "一维谐振子的量子力学处理",
+   "titleKind": "editorial",
+   "topics": [
+    "調和振動子",
+    "シュレディンガー方程式",
+    "波動関数",
+    "期待値"
+   ],
+   "summary": "对受力 F=−kx 的一维谐振子写势能 V(x)、角频率 ω、定态薛定谔方程，求基态与第一激发态能级 ε0、ε1 及归一化常数 A0、b；再写含时薛定谔方程并证明一般解，对初态 (φ0+φ1)/√2 求 ψ(x,t) 与 ⟨x⟩ 的时间依赖并作图。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      44.7,
+      174.0,
+      540.7,
+      738.0
+     ],
+     "label": "問題 1：题干与积分公式 1-1)–1-8)（势能、ω、定态/含时薛定谔方程、能级、归一化、⟨x⟩ 时间演化）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 1」、题干（質量 m、F=−kx、k はバネ定数）、积分公式（含 √(π/a) 与 (1/2)√(π/a^3)，a>0）、小问 1-1)–1-8) 全部齐全；页脚「(2枚目に続く)」为翻页提示，已排除。公共说明另置于 commonRegions。"
+   }
+  },
+  {
+   "id": "kobe-ee-2026-ryoushibussei-q2",
+   "number": "問題 2",
+   "title": "二维晶格、逆晶格与一维链的晶格振动",
+   "titleKind": "editorial",
+   "topics": [
+    "結晶格子",
+    "逆格子",
+    "ブリルアンゾーン",
+    "格子振動",
+    "分散関係"
+   ],
+   "summary": "对含畸变率 ε 的二维晶格（基本并进矢量 a1、a2）求倒格矢 b1、b2 并画出 ε=0 与 ε>0 时的逆晶格与第一布里渊区；再对原子间最近邻相互作用的 x 方向一维链写出运动方程、导出色散关系与布里渊区图示，并作长波展开求音速。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      46.0,
+      61.3,
+      547.3,
+      748.0
+     ],
+     "label": "問題 2：题干与 図1、2-1)–2-2) 逆格子与布里渊区、2-3)–2-6) 一维链运动方程/色散关系/音速，含 図2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題 2」、题干与 図1（含 a1・a2 标注）及图题、小问 2-1)–2-6)、図2（原子链 M 与 u_{n-2}…u_{n+2}）及图题齐全；页眉年份行已排除。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2026-ryoushibussei-q1"
+   ],
+   "common": true,
+   "excluded": "页眉「2026 年度…入学試験」与科目标题「量子物性工学」；页脚翻页提示「(2枚目に続く)」；全卷作答说明已作公共区域收录。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2026-ryoushibussei-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「2026 年度…入学試験」、空白页边与扫描污点，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

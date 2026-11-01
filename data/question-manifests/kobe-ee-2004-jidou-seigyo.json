@@ -1,0 +1,130 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2004-jidou-seigyo",
+ "title": "神户大学 · 2004 入学年度 · 自动控制",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2004",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "自然科学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2004,
+  "yearBasis": "academic",
+  "subject": "自动控制",
+  "originalSubject": "自動制御",
+  "originalName": "jidou-seigyo.pdf",
+  "pdf": "assets/past-papers/documents/bbd2ae5ca72f4624c36d542289154a6b8eb6418ae888592487e8f84350c7361f.pdf",
+  "sha256": "bbd2ae5ca72f4624c36d542289154a6b8eb6418ae888592487e8f84350c7361f",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2004 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    37.7,
+    147.6,
+    545.7,
+    217.4
+   ],
+   "label": "共同条件：传递関数 G(s)=1/{(s+a)(s+b)}（a>b≥0）式 (1) 与「解答では導出過程も必ず示すこと」"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2004-jidou-seigyo-q1",
+   "number": "1.",
+   "title": "方波输入下的拉普拉斯变换与逆变换",
+   "titleKind": "editorial",
+   "topics": [
+    "拉普拉斯变换",
+    "逆拉普拉斯变换",
+    "时域响应"
+   ],
+   "summary": "输入 u(t) 为图 1 所示高度 1、持续 a 的方波：(a) 说明 G(s) 稳定的条件；(b) 求 U(s)；(c) 求 Y(s)；(d) 逆变换求 y(t)；(e) 画出 y(t) 响应，并在 t=0、∞ 及重要时刻附近准确示出。各小问标有分值。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      51.0,
+      214.3,
+      548.7,
+      335.4
+     ],
+     "label": "1.：题干与基小问 (a)–(e)，含各问分值（5/10/5/20/10 点）"
+    },
+    {
+     "page": 1,
+     "box": [
+      60.6,
+      491.7,
+      185.9,
+      587.7
+     ],
+     "label": "図1 入力：高度 1、宽 a 的方波与图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「1.」、题干一行、小问 (a)–(e) 与各自分值完整；图 1（方波，标注 1、0、a、t）单独裁切并含「図1 入力」图号（原 PDF 该图号首字「図」字形缺失，渲染为方框，与原文一致），未与图 2 串图。"
+   }
+  },
+  {
+   "id": "kobe-ee-2004-jidou-seigyo-q2",
+   "number": "2.",
+   "title": "闭环比例控制系的传递函数与稳定性判别",
+   "titleKind": "editorial",
+   "topics": [
+    "闭环传递函数",
+    "特征方程",
+    "稳定性",
+    "奈奎斯特判据"
+   ],
+   "summary": "按图 2 的框图：(a) 由信号关系求目标值 r(t) 到控制量 y(t) 的传递函数 W_yr(s)（G(s) 不代入式 (1)）；(b) 求特征方程的根并导出闭环稳定条件；(c) K_f=K>0 时用奈奎斯特判据判别稳定性，并画出奈奎斯特路径与轨迹。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      51.0,
+      335.5,
+      545.8,
+      462.2
+     ],
+     "label": "2.：题干与小问 (a)(b)(c)，含分值（10/20/20 点）"
+    },
+    {
+     "page": 1,
+     "box": [
+      185.9,
+      462.4,
+      424.5,
+      587.7
+     ],
+     "label": "図2 閉ループ制御系の構成：框图（K_f、K、G(s)、加減点）与图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「2.」、题干、小问 (a)(b)(c) 与分值完整；图 2 框图（r、K_f、K、G(s)、y、反馈与加减号）与「図2 閉ループ制御系の構成」图号完整，与图 1 分栏裁切无重叠内容。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2004-jidou-seigyo-q1",
+    "kobe-ee-2004-jidou-seigyo-q2"
+   ],
+   "common": true,
+   "excluded": "卷头标题「平成16年度神戸大学 大学院 自然科学研究科 博士前期課程 入学試験問題」、右上日期「平成15年8月27日」与科目名「自動制御」；仅保留 G(s) 共同条件与推导要求作公共区域。",
+   "reviewed": true
+  }
+ ]
+}

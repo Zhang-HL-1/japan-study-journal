@@ -1,0 +1,119 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2024-denjiki",
+ "title": "神户大学 · 2024 入学年度 · 电磁气学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2024",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2024,
+  "yearBasis": "academic",
+  "subject": "电磁学",
+  "originalSubject": "電磁気学",
+  "originalName": "denjiki-2024.pdf",
+  "pdf": "assets/past-papers/documents/2594fda5a648e379cdd9dbc551e1667bb2e2bba5f4af5ca1a24a97486c3d2797.pdf",
+  "sha256": "2594fda5a648e379cdd9dbc551e1667bb2e2bba5f4af5ca1a24a97486c3d2797",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    41,
+    129,
+    373,
+    157
+   ],
+   "label": "全卷作答说明（各问分别答于指定答题纸）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2024-denjiki-q1",
+   "number": "問題 1",
+   "title": "线电荷、介质界面与接地导体",
+   "titleKind": "editorial",
+   "topics": [
+    "线电荷电场",
+    "介质界面折射",
+    "镜像法",
+    "导体表面电荷"
+   ],
+   "summary": "无限长线电荷平行于 x 轴、过 (0,h,0)：先求自由空间电场，再求 z≥0 介质界面处的折射角，最后加入接地导体面，求表面电场、感应电荷密度与 ε_m 树脂等位面内的电场。中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      40,
+      183,
+      541,
+      675
+     ],
+     "label": "問題 1：题干、小问 (1)–(5) 全文"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照第 1 页原图核对：框内含「問題 1」题号、三段题干（自由空间设定／ε_r 介质／接地导体）与 (1)–(5) 全部小问，末行「導体表面の (0,0,0) における電界を求めなさい」完整；排除卷头年度行、科目名「電磁気学」及各页页边空白。"
+   }
+  },
+  {
+   "id": "kobe-ee-2024-denjiki-q2",
+   "number": "問題 2",
+   "title": "磁性体界面条件与面电流",
+   "titleKind": "editorial",
+   "topics": [
+    "磁场边界条件",
+    "高斯定律",
+    "安培环路定律",
+    "面电流"
+   ],
+   "summary": "两种磁性体 (μ1, μ2) 以平行 z-x 的平面相接，用磁界高斯法则与安培法则导出 B 的法向、切向关系及折射角 θ2；再在两界面间通面电流 jz，推导切向关系并作数值计算。中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      58,
+      103,
+      530,
+      709
+     ],
+     "label": "問題 2：题干、小问 1)–8) 与図 1(a)(b)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照第 2 页原图核对：框内含「問題 2」题号、磁性体界面设定与问 1)–6)、面电流设定与问 7)–8)，以及図 1(a)(b) 两幅图与图题「図 1: 磁性体界面と磁界」；排除卷头年度行与科目名。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2024-denjiki-q1"
+   ],
+   "common": true,
+   "excluded": "重复卷头（年度行、科目名标题）及空白页边；全卷作答说明单列为 commonRegion。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2024-denjiki-q2"
+   ],
+   "common": false,
+   "excluded": "重复卷头（年度行、科目名标题）及空白页边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

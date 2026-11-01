@@ -1,0 +1,186 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2024-math",
+ "title": "神户大学 · 2024 入学年度 · 数学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2024",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2024,
+  "yearBasis": "academic",
+  "subject": "数学",
+  "originalSubject": "数学",
+  "originalName": "math-2024.pdf",
+  "pdf": "assets/past-papers/documents/2d95085f421b8906ef067024ec0d971e3efcf8913893e8b6fd47b9424913bd42.pdf",
+  "sha256": "2d95085f421b8906ef067024ec0d971e3efcf8913893e8b6fd47b9424913bd42",
+  "pageCount": 3,
+  "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    65.7,
+    280.7,
+    524.0,
+    449.0
+   ],
+   "label": "全卷作答说明（注意事項 (1)–(4)）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2024-math-q1",
+   "number": "1.",
+   "title": "多元函数极值与矩阵特征值",
+   "titleKind": "editorial",
+   "topics": [
+    "多元函数极值",
+    "矩阵特征值",
+    "矩阵幂"
+   ],
+   "summary": "在 D={(x,y):y>0} 上求 f(x,y)=(e^x-x)/(y+1)+(y+1)^2/16 的极值并判别极大极小；求 A 的全部特征值与特征向量，证明 T^n v=λ^n v，再由 x_n A^n=(1 2) 求行向量列。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      62.0,
+      70.0,
+      527.7,
+      313.0
+     ],
+     "label": "1.：题干、(1) 二元函数极值、(2) 含 2-a/2-b/2-c 的矩阵小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「1.」、总起句、小问 (1)(2) 与 2-a/2-b/2-c 齐全，含 5x5 矩阵 A 与行向量等式，无切字、无下一题串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2024-math-q2",
+   "number": "2.",
+   "title": "留数定理与定积分",
+   "titleKind": "editorial",
+   "topics": [
+    "复变函数",
+    "留数",
+    "围道积分"
+   ],
+   "summary": "对 f(z)=1/(z^2-4z+1) 求全部奇点及留数；计算以原点为心、半径 1 的反时针圆周上的复积分；并利用该结果求 ∫_0^{2π} dθ/(2-cosθ)。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      61.0,
+      339.7,
+      528.3,
+      499.3
+     ],
+     "label": "2.：题干、(1) 奇点与留数、(2) 单位圆复积分、(3) 实定积分"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「2.」与函数定义、小问 (1)(2)(3) 完整，积分号、积分路径 C 的说明与上下限齐全，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2024-math-q3",
+   "number": "3.",
+   "title": "齐次型微分方程与变量替换",
+   "titleKind": "editorial",
+   "topics": [
+    "微分方程",
+    "变量替换",
+    "初值问题"
+   ],
+   "summary": "解 x>0 上的微分方程 xy'=y-√(x^2+y^2)（标号 (*)）：令 u=y/x 导出 u 的方程；用 s=u+√(1+u^2) 求 ∫du/√(1+u^2)；再由 y(1)=0 求 (*) 的解。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      61.0,
+      518.0,
+      528.3,
+      695.0
+     ],
+     "label": "3.：题干与方程 (*)、(1) u=y/x 变换、(2) s 变换求积分、(3) 初值定解"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「3.」、方程 (*) 及其编号、小问 (1)(2)(3) 完整；页脚「(裏面へ続く)」为翻页提示，已排除在区域外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2024-math-q4",
+   "number": "4.",
+   "title": "拉普拉斯与傅里叶变换",
+   "titleKind": "editorial",
+   "topics": [
+    "拉普拉斯变换",
+    "傅里叶变换",
+    "积分变换"
+   ],
+   "summary": "a、b 为正定数：求 g(x)=cos bx (x≥0) 的拉普拉斯变换，要求写出推导过程；再求分段函数 f(x)=e^{-ax}cos bx (x≥0)、0 (x<0) 的傅里叶变换 f̂(t)。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      62.3,
+      75.7,
+      527.3,
+      259.3
+     ],
+     "label": "4.：题干与分段函数 f(x)、g(x)、(1) 拉普拉斯变换、(2) 傅里叶变换"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 3 页：题号「4.」、分段定义 f(x) 的大括号与两行条件、g(x)、小问 (1)(2) 及傅里叶变换定义式完整，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "卷头标题（年度、研究科名、科目名）与空白页边；仅保留注意事項作公共区域。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2024-math-q1",
+    "kobe-ee-2024-math-q2",
+    "kobe-ee-2024-math-q3"
+   ],
+   "common": false,
+   "excluded": "空白页边与页脚翻页提示「(裏面へ続く)」，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "kobe-ee-2024-math-q4"
+   ],
+   "common": false,
+   "excluded": "空白页边与扫描污点，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

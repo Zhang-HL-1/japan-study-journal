@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2007-bussei",
+  "title": "神户大学 · 2007 入学年度 · 物性工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2007",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2007,
+    "yearBasis": "academic",
+    "subject": "物性工学",
+    "originalSubject": "物性工学",
+    "originalName": "bussei-19.pdf",
+    "pdf": "assets/past-papers/documents/0ccc7d737648abb75d189ad3e14c7b3fc2d3fc7ba2d8b6d268beaec1bbb74daf.pdf",
+    "sha256": "0ccc7d737648abb75d189ad3e14c7b3fc2d3fc7ba2d8b6d268beaec1bbb74daf",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2007 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2007-bussei-q1",
+      "number": "問題 I",
+      "title": "三次元量子箱中の電子（固有値・縮退・量子効果の大きさ）",
+      "titleKind": "editorial",
+      "topics": [
+        "三次元量子箱",
+        "Schrödinger 方程式",
+        "変数分離",
+        "縮退",
+        "量子効果"
+      ],
+      "summary": "一边长 L 的三次元立方体量子箱中有效质量 m 的电子：写出 Schrödinger 方程式与边界条件，用 ψ=X(x)Y(y)Z(z) 変数分離求箱内外 X・Y・Z 与能量固有值，讨论第一励起状态的縮退度与基底-第一励起能量差 ΔE。再由 ΔE 与室温热能相等（T=300K、m=0.663m₀）求 L（单位 nm、有効数字 1 桁、须示计算过程），并以 100 字说明该数值与近年技术的关联。",
+      "review": {
+        "status": "verified",
+        "method": "PyMuPDF text-block coordinates + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 Ｉ」（56.7,95.7–110.9,107.7）、総起句、V(x,y,z)=Vx+Vy+Vz 与 Vx/Vy/Vz 三个分段大括号（x 96.3–515.1, y 152.7–206.6）、「このとき、以下の設問に答えよ。」、小问 I-1)〜I-8)（含 ΔE、m=0.663m₀、h=6.63×10⁻³⁴Js、k_B=1.38×10⁻²³JK⁻¹、T=300K 等常数与「有効数字１桁」「計算の途中経過も示せ」）全部在框内；図１ 本体与图号「図１ 三次元量子箱」（418.9,318.8–539.2,358.4）亦在框内；下边界 595.0 停在「問題 II」（y=625.4）之前，无串题；卷头科目名「物 性 工 学」（y=67.2–81.2）在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2007-bussei/kobe-ee-2007-bussei-q1-01.png",
+          "page": 1,
+          "box": [
+            50.5,
+            89.7,
+            549.9,
+            595.0
+          ],
+          "width": 1249,
+          "height": 1264,
+          "label": "問題 I：题号、三次元量子箱の設定（V(x,y,z)=Vx+Vy+Vz 的分段定义）、図１（三次元量子箱）与図号、小问 I-1)〜I-8)",
+          "sha256": "5cc9868ef232e5171d19f6a6a6afc8abbc3092e8b65157de0a1ef87a3950b422"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2007-bussei-q2",
+      "number": "問題 II",
+      "title": "X 線回折の構造因子と体心立方格子の選択則",
+      "titleKind": "editorial",
+      "topics": [
+        "X 線回折",
+        "構造因子",
+        "体心立方格子",
+        "消滅則"
+      ],
+      "summary": "由 Bragg 反射与構造因子 S(hkl)=Σ_j f_j exp[−2πi(x_jh+y_jk+z_jl)] 出发，对只含一种原子的体心立方格子（単位胞取立方体）求 S(hkl) 并要求写出导出过程；再由该结果讨论 h、k、l 满足何种条件时回折線出现（強度≠0）或消滅（強度=0）。",
+      "review": {
+        "status": "verified",
+        "method": "PyMuPDF text-block coordinates + AI visual comparison against full source pages 1–2",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1、2 页：第 1 页自「問題 II」（56.7,625.4–111.0,637.4）起，含 Miller 指数 (hkl)、体心立方の (100)(300)(111)/(200)(110)、「選択則」の説明与構造因子式 S(hkl)=Σ_j f_j exp[−2πi(x_jh+y_jk+z_jl)]（y=745.0–777.7）止；第 2 页自「ここで、f_j は…」（y=62.0）续，含単位胞・基本並進ベクトル a,b,c・r_j=x_j a+y_j b+z_j c・Σ_j の説明、「以上を踏まえて…」与 II-1)（体心立方・導出過程も書け）・II-2)（出現/消滅の条件）齐全；第 2 页文末标记「以上」（y=244.1–256.7）与其下空白在框外，两页均无切字、无串题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2007-bussei/kobe-ee-2007-bussei-q2-01.png",
+          "page": 1,
+          "box": [
+            50.7,
+            619.4,
+            549.9,
+            783.7
+          ],
+          "width": 1249,
+          "height": 412,
+          "label": "問題 II（第 1 页部分）：题号「問題 II」、X 線回折と Bragg 反射の説明段（(100)(300)(111) 不出现・(200)(110) 出现）、構造因子 S(hkl) の定義式",
+          "sha256": "2417c0bb23eb417c4f2d8545d0b47ab82dcb852426228036cf4f977ef4fd2854"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2007-bussei/kobe-ee-2007-bussei-q2-02.png",
+          "page": 2,
+          "box": [
+            50.7,
+            56.0,
+            544.7,
+            221.3
+          ],
+          "width": 1236,
+          "height": 414,
+          "label": "問題 II（第 2 页续）：f_j・a,b,c・r_j=x_j a+y_j b+z_j c と Σ_j の説明、「以上を踏まえて、以下の設問に答えよ。」、小问 II-1)・II-2)",
+          "sha256": "53dacd21cb221ea11be9f8eeda2461a249ce096d953fcf490aac0e2f54c360be"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2007-bussei-q1",
+        "kobe-ee-2007-bussei-q2"
+      ],
+      "common": false,
+      "excluded": "卷头科目名「物 性 工 学」（y=67.2–81.2）、题间空白带与四周空白页边；原卷无全卷作答说明，故无公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2007-bussei-q2"
+      ],
+      "common": false,
+      "excluded": "文末标记「以上」（y=244.1–256.7，非题目内容）及其下约 585pt 的整片空白；该页仅含問題 II 的续文。",
+      "reviewed": true
+    }
+  ]
+}

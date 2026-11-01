@@ -1,0 +1,108 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2026-datakozo",
+ "title": "神户大学 · 2026 入学年度 · 数据结构与算法",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2026",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2026,
+  "yearBasis": "academic",
+  "subject": "数据结构与算法",
+  "originalSubject": "データ構造とアルゴリズム",
+  "originalName": "datakozo-2026.pdf",
+  "pdf": "assets/past-papers/documents/afe4d20174ccef3063efd9426f04427e3f852054e27aab312b648487eab5c8fe.pdf",
+  "sha256": "afe4d20174ccef3063efd9426f04427e3f852054e27aab312b648487eab5c8fe",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2026 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2026-datakozo-q1",
+   "number": "問題 1.",
+   "title": "归并排序程序填空与复杂度证明",
+   "titleKind": "editorial",
+   "topics": [
+    "マージソート",
+    "分割統治",
+    "時間計算量",
+    "外部ソート"
+   ],
+   "summary": "读 C 语言的 msort/merge 归并排序程序，填入空欄 ①〜④；对 a[]={8,1,4,20,21,18,27,15} 画出分割与归并过程，证明 T(n)=O(n log n)（取 n=2^k），并说明无法一次装入内存的巨型数据如何用归并思路排序。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      49.0,
+      110.7,
+      543.0,
+      709.3
+     ],
+     "label": "問題 1.：题干、msort 与 merge 的 C 程序（空欄 ①〜④）、設問 (1)–(4)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 1.」、题干、程序注释块与 msort／merge 两个函数（含空欄 ①〜④ 的框）、設問 (1)(2)(3)(4) 全部齐全；页眉年份行与科目标题已排除。"
+   }
+  },
+  {
+   "id": "kobe-ee-2026-datakozo-q2",
+   "number": "問題 2.",
+   "title": "二叉搜索树 Tword 的插入、检索与删除",
+   "titleKind": "editorial",
+   "topics": [
+    "二分探索木",
+    "辞書順",
+    "挿入と削除",
+    "計算量"
+   ],
+   "summary": "对按辞书顺序保存英文单词集合的二叉搜索树 Tword：依次插入 hat/sun/map/bat/jam/yet/cat/pen 后画树形，说明检索 pen 的方法与按辞书顺序输出的遍历方式，画出删除 sun 后与再删除 pen 后的树形，并举例说明插入顺序导致检索效率恶化的情形及解决方法。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      51.0,
+      57.7,
+      545.7,
+      501.7
+     ],
+     "label": "問題 2.：题干、設問 (1)–(5)（含单词列 hat sun map bat jam yet cat pen）与【辞書順】说明"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页（仅此题）：题号「問題 2.」、题干、設問 (1)–(5)、单词序列 hat sun map bat jam yet cat pen、以及页末【辞書順】的定义文字齐全；页眉年份行已排除。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2026-datakozo-q1"
+   ],
+   "common": false,
+   "excluded": "页眉「2026 年度 神戸大学大学院工学研究科…入学試験」与科目标题「データ構造とアルゴリズム」、空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2026-datakozo-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「2026 年度…入学試験」、空白页边与扫描污点，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

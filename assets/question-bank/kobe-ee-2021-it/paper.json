@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2021-it",
+  "title": "神户大学 · 2021 入学年度 · 信息理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2021",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2021,
+    "yearBasis": "academic",
+    "subject": "信息理论",
+    "originalSubject": "情報理論",
+    "originalName": "it-2021.pdf",
+    "pdf": "assets/past-papers/documents/8503063812df8484c4ca422f41c46d4e58cdfbe866d0c9852320ba658c2aa93c.pdf",
+    "sha256": "8503063812df8484c4ca422f41c46d4e58cdfbe866d0c9852320ba658c2aa93c",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2021 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2021-it/common-01.png",
+      "page": 1,
+      "box": [
+        46.0,
+        105.7,
+        542.0,
+        145.0
+      ],
+      "width": 1240,
+      "height": 99,
+      "label": "全卷共通：指定解答用紙への記入指示と情報量の単位（bit）",
+      "sha256": "b5abebec5399a3a9b7735eadb6779e12a05d4ae9ce636e7e36ee6eaf320d686b"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2021-it-q1",
+      "number": "問題1.",
+      "title": "五符号信息源的二元哈夫曼编码",
+      "titleKind": "editorial",
+      "topics": [
+        "哈夫曼编码",
+        "平均码长",
+        "信息熵"
+      ],
+      "summary": "对输出 5 种符号的信息源，先按 P(Xi)=(0.3,0.3,0.2,0.1,0.1) 构造二元哈夫曼码并求平均码长；再给出使各码字与 (1) 相同、且其熵 H(X2) 与该概率分布下哈夫曼码平均码长相等的 P(X2)。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題1．」与「5種類の記号を出力する情報源」、(1) の P(Xi)=(0.3,0.3,0.2,0.1,0.1) 与平均符号長、(2) のエントロピー H(X2) と平均符号長が等しくなる P(X2) 要求齐全，无切字；页眉与科目名标题「情報理論」在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-it/kobe-ee-2021-it-q1-01.png",
+          "page": 1,
+          "box": [
+            46.0,
+            159.3,
+            542.0,
+            238.0
+          ],
+          "width": 1240,
+          "height": 197,
+          "label": "問題1.：题干与 (1)(2) 两小问",
+          "sha256": "95b2e83cf38db74009c02356879e862def342feeefe808b10013a86674b2a153"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2021-it-q2",
+      "number": "問題2.",
+      "title": "循环对称信道的信道容量",
+      "titleKind": "editorial",
+      "topics": [
+        "信道容量",
+        "转移概率",
+        "循环对称"
+      ],
+      "summary": "A={0,1,2,3} 上的概率变量 X, Y，转移概率为 y=x±1 mod 4 时 p(y|x)=1/2、否则为 0，求该通信路的信道容量。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題2．」、A={0,1,2,3}、x∈X, y∈Y、p(y|x) 分段式（1/2 与 0，条件 y=x±1 mod 4）与「通信路容量を求めよ」齐全，无切字；大括号左端与公式完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-it/kobe-ee-2021-it-q2-01.png",
+          "page": 1,
+          "box": [
+            46.0,
+            268.0,
+            542.0,
+            343.7
+          ],
+          "width": 1240,
+          "height": 190,
+          "label": "問題2.：题干与 p(y|x) 的分段定义式",
+          "sha256": "5da692224ef6e9fee3d17f2c856ed8a403de95374d203e87e0119704a3e57331"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2021-it-q3",
+      "number": "問題3.",
+      "title": "线性分组码的伴随式",
+      "titleKind": "editorial",
+      "topics": [
+        "线性分组码",
+        "一致校验矩阵",
+        "伴随式"
+      ],
+      "summary": "把 (n,k) 線形符号 C 的两个不同码字 c1, c2 送出、发生错误 e，收到 r1=c1+e, r2=c2+e：用一致校验矩阵 H 说明如何求两者的伴随式 s1, s2，并判别 s1 与 s2 是否一致且给出理由。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題3．」、(n,k)線形符号と c1,c2 (c1≠c2)、誤り e 与 r1=c1+e, r2=c2+e 的记号、(1) のパリティ検査行列 H 与 s1,s2 求法、(2) の一致可否与理由要求齐全，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2021-it/kobe-ee-2021-it-q3-01.png",
+          "page": 1,
+          "box": [
+            46.0,
+            376.3,
+            542.0,
+            472.0
+          ],
+          "width": 1240,
+          "height": 240,
+          "label": "問題3.：题干与 (1)(2) 两小问",
+          "sha256": "41c86212ede47d6f0e1c5ef06ffb309d89a3dbbcc24accc0f15a5a5857d3a117"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2021-it-q1",
+        "kobe-ee-2021-it-q2",
+        "kobe-ee-2021-it-q3"
+      ],
+      "common": true,
+      "excluded": "页眉「2021 年度神戸大学大学院工学研究科博士課程前期課程入学試験」、科目名标题「情報理論」、左侧装订痕与页面下半大段空白。",
+      "reviewed": true
+    }
+  ]
+}

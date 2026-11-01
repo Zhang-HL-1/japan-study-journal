@@ -1,0 +1,99 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2014-ryoushi",
+ "title": "神户大学 · 2014 入学年度 · 量子物理学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2014",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2014,
+  "yearBasis": "academic",
+  "subject": "量子物理学",
+  "originalSubject": "量子物理学",
+  "originalName": "ryoushi-26.pdf",
+  "pdf": "assets/past-papers/documents/3aa123b00e2f6b89edd0a853433a56d29f239ca46ef790ea32f1fc4bd7c9ec6e.pdf",
+  "sha256": "3aa123b00e2f6b89edd0a853433a56d29f239ca46ef790ea32f1fc4bd7c9ec6e",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2014 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    50.0,
+    112.0,
+    484.0,
+    130.0
+   ],
+   "label": "全卷作答说明（問 1)～10) 解答、须记导过程）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2014-ryoushi-q1",
+   "number": "問題",
+   "title": "一次元井戸型ポテンシャル中の電子",
+   "titleKind": "editorial",
+   "topics": [
+    "井戸型ポテンシャル",
+    "シュレディンガー方程式",
+    "固有値と固有関数",
+    "期待値と分散",
+    "時間発展"
+   ],
+   "summary": "对宽度 L、无限高壁的一维井型势 V(x) 中的电子，写出定常薛定谔方程并求能量本征值 En 与归一化波函数 ψn(x)，证明正交性、画出基态与第一激发态波形，并求位置期望值、期望值平方与方差随 n 的变化及其物理意义。再写出含时薛定谔方程，求初始为基态、以及基态与第一激发态按 1/√2 叠加时 t>0 的波函数，并由存在概率密度求振动周期 T。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      48.0,
+      131.0,
+      545.0,
+      752.0
+     ],
+     "label": "問題.：井戸型ポテンシャル V(x) 与式 (1)、右侧 v(x) 图、小问 1)–6)"
+    },
+    {
+     "page": 2,
+     "box": [
+      48.0,
+      78.0,
+      543.0,
+      486.0
+     ],
+     "label": "续：小问 7)–10)（含时方程、基态与叠加态的时间演化、存在概率密度与周期 T）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照两张 2x 页图：第 1 页含「問題.」题头、V(x) 分段定义与式 (1)、右上 v(x) 井型图（含 0、L、x 轴标）与 1)–6)；第 2 页含 7)–10) 全部。已排除页眉「平成26年度…」、科目标题「量子物理学」与页脚翻页提示「(２枚目に続く)」。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2014-ryoushi-q1"
+   ],
+   "common": true,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」、科目标题「量子物理学」、页脚翻页提示「(２枚目に続く)」与页边空白；作答说明行已单独作为公共区域。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2014-ryoushi-q1"
+   ],
+   "common": false,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」与下半页大片空白。",
+   "reviewed": true
+  }
+ ]
+}

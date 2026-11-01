@@ -1,0 +1,142 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2014-denryoku",
+ "title": "神户大学 · 2014 入学年度 · 电力工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2014",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2014,
+  "yearBasis": "academic",
+  "subject": "电力工学",
+  "originalSubject": "電力工学",
+  "originalName": "denryoku-26.pdf",
+  "pdf": "assets/past-papers/documents/65f997d5e00d9fb235ebf07c8ec066254051012154783d225fd539c00598768b.pdf",
+  "sha256": "65f997d5e00d9fb235ebf07c8ec066254051012154783d225fd539c00598768b",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2014 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2014-denryoku-q1",
+   "number": "問題 1",
+   "title": "水力发电中水的能量守恒推导",
+   "titleKind": "editorial",
+   "topics": [
+    "流体力学",
+    "エネルギー保存",
+    "運動方程式",
+    "圧力と重力"
+   ],
+   "summary": "对竖直向下流动的水柱取厚 Δz、断面 S 的微元，依次求微元质量、把加速度 dv/dt 化为对 z 的导数、上下表面的压力差，导出含重力与压力梯度的运动方程式，再积分得到能量（密度）守恒表达式。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      38.0,
+      121.0,
+      562.0,
+      417.0
+     ],
+     "label": "問題 1：题干、z 轴与微元设定、小问 (1)–(5)、図 1"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 1 题号与条件（g、ρ、z=0 基准、S、Δz）、小问 (1)–(5) 全部纳入，右侧图 1（Δz 圆盘、上下压力箭头、z 轴）与图号完整；排除页眉「平成26年度…」与科目标题「電力工学」。"
+   }
+  },
+  {
+   "id": "kobe-ee-2014-denryoku-q2",
+   "number": "問題 2",
+   "title": "水车的相似则与比速度",
+   "titleKind": "editorial",
+   "topics": [
+    "水車",
+    "相似則",
+    "比速度",
+    "回転速度",
+    "落差と出力"
+   ],
+   "summary": "以两台相似水车的转速 N、流量 Q、有效落差 H、出力 P、转轮直径 D、周速 V 及其比（下标 R）为符号，依次用 QR 与 HR 表示 PR、用 DR 与 VR 表示 QR、用 DR 与 NR 表示 VR，再由流入速度正比于落差平方根导出 VR 与 NR 的表达式，最后求落差 150 m、出力 22500 kW、50 Hz 时的额定转速。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      38.0,
+      427.0,
+      562.0,
+      749.0
+     ],
+     "label": "問題 2：题干与相似则符号说明、小问 (1)–(6)（含比速度公式与 3.5^4≈150 的提示）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 2 题号、下标 R 的约定（含 Q1/Q2=QR 例）与小问 (1)–(6) 完整，含 n_s=20000/(H+20)+30 公式与 3.5^4≒150 的注记；框下界收在 (6) 末行之下，无页脚内容。"
+   }
+  },
+  {
+   "id": "kobe-ee-2014-denryoku-q3",
+   "number": "問題 3",
+   "title": "电能储存技术（用语选择与电容器/电感储能推导）",
+   "titleKind": "editorial",
+   "topics": [
+    "エネルギー貯蔵",
+    "キャパシタ",
+    "インダクタ",
+    "用語選択",
+    "エネルギー計算"
+   ],
+   "summary": "从【語群】a–p 中为 ア–キ 选出电能/二次电池/超电导磁能储存等术语，并把 1–4 的数值式填入 (2) 的电容器充电储能推导（含 (A) 的积分链）；(3) 则仿 (A) 的手顺，用磁束 φ 的变化推导电感储能。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      38.0,
+      62.0,
+      562.0,
+      738.0
+     ],
+     "label": "問題 3：题干与填空规则、语群 a–p、(1) ア–キ、(2) 1–4 与式 (A)、(3)、(図 2、図 3)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 3 题号与作答方式说明、【語群】a–p 全部 16 项、(1) ア–キ、(2) 的式 (A) 积分链与 1–4 空格、(3) 的 φ 推导要求，以及图 2（E-R-S-C）与图 3（J-G-S-L）连同图号完整；排除页眉。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2014-denryoku-q1",
+    "kobe-ee-2014-denryoku-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」与科目标题「電力工学」、及页边空白；本页无独立作答说明。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2014-denryoku-q3"
+   ],
+   "common": false,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」与页边空白。",
+   "reviewed": true
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2026-joho",
+  "title": "神户大学 · 2026 入学年度 · 信息通信工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2026",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2026,
+    "yearBasis": "academic",
+    "subject": "信息通信工学",
+    "originalSubject": "情報通信工学",
+    "originalName": "joho-2026.pdf",
+    "pdf": "assets/past-papers/documents/def408a7a8910ec97d328271a87f8c340af4c69d8ed3487597bea9bd5ca82286.pdf",
+    "sha256": "def408a7a8910ec97d328271a87f8c340af4c69d8ed3487597bea9bd5ca82286",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2026 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2026-joho-q1",
+      "number": "問題 1.",
+      "title": "由校验矩阵定义的二元线性码与检错纠错",
+      "titleKind": "editorial",
+      "topics": [
+        "線形符号",
+        "パリティ検査行列",
+        "シンドローム",
+        "誤り訂正"
+      ],
+      "summary": "以 3×6 的校验矩阵 H 定义二元线性码：求连续 2 比特反转错误模式对应的全部 syndrome，并判断接收语 y=(1 1 0 0 0) 能否由 syndrome 正确复原、说明理由。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页上部：题号「問題 1. パリティ検査行列」、3×6 矩阵 H（三行分别为 101010 / 010110 / 111101）、定义句与小问 (1)(2) 齐全；小问 (2) 的两行文字完整，未串入下一题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-joho/kobe-ee-2026-joho-q1-01.png",
+          "page": 1,
+          "box": [
+            44.0,
+            110.7,
+            545.3,
+            240.7
+          ],
+          "width": 1254,
+          "height": 326,
+          "label": "問題 1.：题号与标题、検査行列 H、定义句、(1) 各错误模式的 syndrome、(2) 由 syndrome 判断能否复原",
+          "sha256": "4955e9024284f5139aefc9a56d97373ec60576cf35a3f2ffd1aa926c512420b1"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2026-joho-q2",
+      "number": "問題 2.",
+      "title": "TCP/IP 协议栈填空",
+      "titleKind": "editorial",
+      "topics": [
+        "TCP/IP",
+        "プロトコル",
+        "ネットワーク層",
+        "IPv6"
+      ],
+      "summary": "阅读 TCP/IP 协议栈的说明文，在 4 层结构、TCP/UDP 特性、IPv4/IPv6 地址位宽、路由与 MAC 地址等 15 处空格 (a)〜(o) 中填入恰当术语或数值。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页下部：题号「問題 2.」、题干与 4 段填空文（4 階層の (a)〜(d)、TCP の (e)(f)(g)、UDP の (h)(i)、IPv4 の (j)、IPv6 の (k)、ルーティングの (l)(m)、MAC の (n)(o)）齐全，末尾「識別子である.」为止。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-joho/kobe-ee-2026-joho-q2-01.png",
+          "page": 1,
+          "box": [
+            43.3,
+            254.7,
+            538.0,
+            583.3
+          ],
+          "width": 1237,
+          "height": 823,
+          "label": "問題 2.：题干与 TCP/IP 分层、TCP/UDP、IPv4/IPv6、ルーティング、IEEE802 アドレスの填空 (a)〜(o)",
+          "sha256": "554956cfd6f8675058e8fb617d89e4affcb3188a66037f3ee6097e0d6d4c72eb"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2026-joho-q3",
+      "number": "問題 3.",
+      "title": "熵与条件互信息的恒等式填空",
+      "titleKind": "editorial",
+      "topics": [
+        "情報理論",
+        "エントロピー",
+        "相互情報量",
+        "条件付きエントロピー"
+      ],
+      "summary": "给出 H(X)、H(X|Y)、H(X|Y,Z)、I(X;Y|Z) 的定义式，在联合熵分解 H(X,Y)=H(□)+H(X|Y) 与三变量分解、以及 I(X;Y|Z) 的两种变形中的空格 (A)〜(D) 填入恰当量。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页（仅此题）：题号「問題 3.」、H(X)/H(X|Y)/H(X|Y,Z)/I(X;Y|Z) 四个定义式、P(x,y) 等记号说明、(1) 与 (2) 的推导式及空格 (A)(B)(C)(D) 齐全；页眉年份行已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-joho/kobe-ee-2026-joho-q3-01.png",
+          "page": 2,
+          "box": [
+            44.0,
+            50.3,
+            538.0,
+            747.7
+          ],
+          "width": 1235,
+          "height": 1745,
+          "label": "問題 3.：四个定义式与符号说明、(1) 联合熵分解的空格 (A)(B)、(2) I(X;Y|Z) 变形的空格 (C)(D)",
+          "sha256": "ef9807658000acdc35ac0f734f0782d7f3c463034f6dcc6b163de309dafa60b3"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2026-joho-q1",
+        "kobe-ee-2026-joho-q2"
+      ],
+      "common": false,
+      "excluded": "页眉「2026 年度 神戸大学大学院工学研究科…入学試験」与科目标题「情報通信工学」、空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2026-joho-q3"
+      ],
+      "common": false,
+      "excluded": "页眉「2026 年度…入学試験」、空白页边与扫描污点，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}
