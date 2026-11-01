@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2013-denjiki",
+  "title": "神户大学 · 2013 入学年度 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2013",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2013,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "denjiki-25.pdf",
+    "pdf": "assets/past-papers/documents/534f22191a98d085ffec6029da39eef7073640b95e64ecadb842433aa0d8241c.pdf",
+    "sha256": "534f22191a98d085ffec6029da39eef7073640b95e64ecadb842433aa0d8241c",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2013 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2013-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        53.0,
+        103.7,
+        399.7,
+        131.0
+      ],
+      "width": 868,
+      "height": 69,
+      "label": "全卷作答说明（以下の問いについて、それぞれ指定された解答用紙に解答しなさい）",
+      "sha256": "031a68aa1f002d56d67eac2b9fbdc741bf5e59e091b6cf563d612081b60bfeee"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2013-denjiki-q1",
+      "number": "問題 1",
+      "title": "带电导体棒的电场与同轴圆柱电容",
+      "titleKind": "editorial",
+      "topics": [
+        "高斯定理",
+        "圆柱对称电场",
+        "同轴电容",
+        "静电能"
+      ],
+      "summary": "真空中半径 r_a、电荷密度 ρ [C/m] 的无限长导体棒：求导体内部 (r<r_a) 与外部 (r>r_a) 的电场。再在外部套上同心半径 r_b 的接地圆筒导体，求 r_a<r<r_b 与 r>r_b 的电场、单位长度电容与储藏的静电场能量，并提议将能量提高到 10 倍的办法。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：「問題 1」题号与三行题干（r_a・ρ・ε₀・无限长）、小问 (1)–(7) 及 (7) 的两行正文全部在框内，无切字；页眉、科目名「電磁気学」与作答说明行已排除，右侧 x>545 pt 的扫描污点不在框内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2013-denjiki/kobe-ee-2013-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            49.7,
+            140.0,
+            547.7,
+            606.7
+          ],
+          "width": 1246,
+          "height": 1167,
+          "label": "問題 1：题号、题干预设条件、(1)(2) 单棒内外电场、同轴圆筒导体条件、(3)–(6) 电场・电容・能量、(7) 能量 10 倍提案",
+          "sha256": "d4ddc3485b2ffe8557f37e9de5d48fe495bba9c00d073872f453c3b8778b2e56"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2013-denjiki-q2",
+      "number": "問題 2",
+      "title": "圆柱导体电流的磁场（安培环路与毕奥-萨伐尔）",
+      "titleKind": "editorial",
+      "topics": [
+        "安培环路定律",
+        "毕奥-萨伐尔定律",
+        "磁场方向",
+        "圆柱导体"
+      ],
+      "summary": "半径 a 的圆柱导体沿 z 轴正方向均匀通电流 I：先用安培环路定律求导体外 (r≥a) 与导体内 (r≤a) 的磁通密度大小并图示方向；再用毕奥-萨伐尔定律求有限长导体 (-z₀≤z≤z₀) 在 P 点产生的磁场，并证明 z₀→∞ 时与 (1) 的结果一致。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：「問題 2」题号、三行题干、(1)(2)(3) 全部小问（(3) 四行，含 z₀→∞ 的极限要求）、以及下方标注 a・r・z・I・P 的圆柱导体图均在框内；该图无图号但被「下図」引用，故随题收录。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2013-denjiki/kobe-ee-2013-denjiki-q2-01.png",
+          "page": 2,
+          "box": [
+            51.0,
+            105.3,
+            546.3,
+            725.3
+          ],
+          "width": 1239,
+          "height": 1551,
+          "label": "問題 2：题号与「下図のように」题干、(1)(2)(3) 小问、圆柱导体与 P 点的下图",
+          "sha256": "3602ccf5c0a5dd70f21be8e1db989d455d5a1f0f39f37d5388bcd6acfb7c9e02"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2013-denjiki-q1"
+      ],
+      "common": true,
+      "reviewed": true,
+      "excluded": "顶部页眉「平成 25 年度神戸大学大学院工学研究科…入学試験」、科目名大标题「電磁気学」与空白页边；作答说明行收作公共区域，右侧边缘扫描污点不入区域。"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2013-denjiki-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "顶部页眉与「電磁気学」科目名大标题、下部空白页边；本页无公共区域。"
+    }
+  ]
+}

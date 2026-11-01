@@ -1,0 +1,172 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2014-ronri",
+ "title": "神户大学 · 2014 入学年度 · 逻辑回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2014",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2014,
+  "yearBasis": "academic",
+  "subject": "逻辑回路",
+  "originalSubject": "論理回路",
+  "originalName": "ronri-26.pdf",
+  "pdf": "assets/past-papers/documents/fcbbf9fbb52652065fb75d55f2c7d04d54d6e2a4d478a017137c241bebc1206c.pdf",
+  "sha256": "fcbbf9fbb52652065fb75d55f2c7d04d54d6e2a4d478a017137c241bebc1206c",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2014 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2014-ronri-q1",
+   "number": "問題 1",
+   "title": "五变量逻辑函数的 Karnaugh 图化简",
+   "titleKind": "editorial",
+   "topics": [
+    "カルノー図",
+    "論理式の簡単化",
+    "ドントケア",
+    "組合せ論理"
+   ],
+   "summary": "把 1 以上 30 以下的十进制数 x 表示为 5 位二进制 x4x3x2x1x0，对 f1（x≤13）、f2（x=14,15）、f3（x≥16）三个逻辑函数，用 Karnaugh 图以和形式（積和形）化简，十进制 0 与 31 的输入输出视为 don't care。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      44.0,
+      108.0,
+      540.0,
+      241.0
+     ],
+     "label": "問題 1：题干与位序约定、don't care 条件、(1) f1、(2) f2、(3) f3"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 1 题号、x4 最高位/x0 最低位的约定、「x0～x4 の積和形式」「カルノー図を用いて簡単化」要求、以及 (1)(2)(3) 三个函数定义完整；排除页眉与科目标题「論理回路」。"
+   }
+  },
+  {
+   "id": "kobe-ee-2014-ronri-q2",
+   "number": "問題 2",
+   "title": "用 JK 触发器构成非同步 30 进制计数器",
+   "titleKind": "editorial",
+   "topics": [
+    "JKフリップフロップ",
+    "非同期カウンタ",
+    "プリセット/クリア",
+    "NANDゲート"
+   ],
+   "summary": "按给定的负逻辑 CLR/PR 说明与 JK-FF、NAND、CK 的符号图，用 5 个 JK-FF 与 1 个 NAND 门及 1 Hz 时钟，构成从 1 数到 30（30 之后回到 1）的非同步 30 进制计数器，输出为 x0～x4；可不含起动时置初值电路。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      44.0,
+      253.0,
+      540.0,
+      481.0
+     ],
+     "label": "問題 2：题干与 JK-FF/CLR/PR 说明、器件符号图（JK-FF、NAND、CK）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 2 题号、CLR/PR 负逻辑说明、5 个 JK-FF＋NAND 1 个＋1Hz CK 的条件、1→30 计数与 x0～x4 输出说明完整，JK-FF 符号（J/K/PR/CLR/Q/Q̄）、NAND 符号与 CK 框均在图内；页脚「(次ページに続く)」已排除。"
+   }
+  },
+  {
+   "id": "kobe-ee-2014-ronri-q3",
+   "number": "問題 3",
+   "title": "组合电路 A/B/C 与计数器构成信号机",
+   "titleKind": "editorial",
+   "topics": [
+    "組合せ回路",
+    "カウンタ",
+    "信号機モデル",
+    "回路接続"
+   ],
+   "summary": "以方框符号表示实现 f1、f2、f3 的 5 输入电路 A/B/C 与問題 2 的计数器，将它们组合成循环动作「青 13 秒、黄 2 秒、赤 15 秒」的信号机电路，青黄赤灯以圆圈符号表示、逻辑 1 点亮。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      42.0,
+      74.0,
+      540.0,
+      363.0
+     ],
+     "label": "問題 3：题干、回路 A/B/C 与计数器的方框符号、灯的点灯约定"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 3 题号、A/B/C 三个 5 输入方框（标 x0–x4 与 f1/f2/f3）、计数器方框（输出 x0–x4）、13/2/15 秒的动作说明与青黄赤灯符号完整；排除页眉「平成26年度…」。"
+   }
+  },
+  {
+   "id": "kobe-ee-2014-ronri-q4",
+   "number": "問題 4",
+   "title": "7 段显示器的剩余秒数显示与 d 段逻辑式",
+   "titleKind": "editorial",
+   "topics": [
+    "7セグメント表示",
+    "カウンタ応用",
+    "カルノー図",
+    "論理式"
+   ],
+   "summary": "在問題 3 的计数器输出上追加电路，用 2 个 7 段显示器以 2 位十进制显示青/赤信号时的剩余秒数（赤开始时 15、之后每秒减 1；青开始时 13、之后每秒减 1；黄为 0），并用 Karnaugh 图化简求下位位 d 段关于 x0～x4 的積和形逻辑式。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      42.0,
+      381.0,
+      540.0,
+      674.0
+     ],
+     "label": "問題 4：题干、75seg 方框与 a–g 段、0–9 显示图、d 段逻辑式要求"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 4 题号、赤/青/黄各自的显示规则、75seg 方框（输入 a–g）与单字符段标注（a–g）、0–9 十个数字的显示样式、及「d 段关于 x0～x4 的積和形＋カルノー図簡略化」要求完整；页脚「以上」已排除。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2014-ronri-q1",
+    "kobe-ee-2014-ronri-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」、科目标题「論理回路」、页脚翻页提示「(次ページに続く)」与页边空白。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2014-ronri-q3",
+    "kobe-ee-2014-ronri-q4"
+   ],
+   "common": false,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」、卷末标记「以上」与页边空白。",
+   "reviewed": true
+  }
+ ]
+}

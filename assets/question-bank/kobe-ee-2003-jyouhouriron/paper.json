@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2003-jyouhouriron",
+  "title": "神户大学 · 2003 入学年度 · 信息理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2003",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2003,
+    "yearBasis": "academic",
+    "subject": "信息理论",
+    "originalSubject": "情報理論",
+    "originalName": "jyouhouriron.pdf",
+    "pdf": "assets/past-papers/documents/d7c981d9510b65e9626942c3a5c7d2c5efddc8308c091c682ab929712f0015b5.pdf",
+    "sha256": "d7c981d9510b65e9626942c3a5c7d2c5efddc8308c091c682ab929712f0015b5",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2003 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2003-jyouhouriron-q1",
+      "number": "1.",
+      "title": "二元对称信道的互信息、容量与并列信道增量",
+      "titleKind": "editorial",
+      "topics": [
+        "信道容量",
+        "互信息",
+        "二元对称信道",
+        "熵"
+      ],
+      "summary": "按指示仅用 p 与 ω 填写空栏 (1)〜(8)：以 P(a1)=ω 求 BSC 的互信息 I1(A;B)、最优 ω1 与容量 C1；再加入 P(b0/a0)=1 的支路求 I2、ω2、C2 及增量 ΔC；最后用 p=0 的无误信道校验 C2。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷 2x 页图（本页 PDF 文字层编码损坏，按 2x 页图目视 + inkbox 墨迹定界）：框内包含空栏指示段与 1./2./3. 三段设问，空栏 (1)〜(8)、H[X]=−X log2X−(1−X)log2(1−X)、I1(A;B)、C1、ω1、I2、ω2、C2、ΔC、C20 等记号完整，上缘未含「大学院入試問題『情報理論』」标题与日期，下缘止于第 3 段末行。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-jyouhouriron/kobe-ee-2003-jyouhouriron-q1-01.png",
+          "page": 1,
+          "box": [
+            66.0,
+            153.7,
+            528.7,
+            575.7
+          ],
+          "width": 1157,
+          "height": 1056,
+          "label": "题干与作答说明（空栏 (1)〜(8)、熵函数 H[X] 与作答要求）及 1.〜3. 三段设问",
+          "sha256": "2bd468b4977832822c6265be343f8717c9c7e758a66b5be3f6a614cb1c1ef222"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2003-jyouhouriron-q1"
+      ],
+      "common": false,
+      "excluded": "卷头日期「平成14年8月28日」与标题「大学院入試問題『情報理論』」，非题目内容。",
+      "reviewed": true
+    }
+  ]
+}

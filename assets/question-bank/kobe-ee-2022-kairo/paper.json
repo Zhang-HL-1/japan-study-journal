@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2022-kairo",
+  "title": "神户大学 · 2022 入学年度 · 电气回路与电子回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2022",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2022,
+    "yearBasis": "academic",
+    "subject": "电气回路与电子回路",
+    "originalSubject": "電気回路・電子回路",
+    "originalName": "kairo-2022.pdf",
+    "pdf": "assets/past-papers/documents/a52477572dd6752d52d33f92d26afe41db8bafddab8c60dcedac37bf29696940.pdf",
+    "sha256": "a52477572dd6752d52d33f92d26afe41db8bafddab8c60dcedac37bf29696940",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2022 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2022-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        78.0,
+        115.5,
+        543.0,
+        140.0
+      ],
+      "width": 1163,
+      "height": 62,
+      "label": "全卷作答说明（答案用紙 2 枚，問題 (A)/(B) 各用对应答题纸）",
+      "sha256": "dbf26e5efec515111c8d8d336f334a3f38f0ff9ee79671846cdbee0b3b7693a7"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2022-kairo-q1",
+      "number": "問題 (A)",
+      "title": "RLC 串联谐振电路的阻抗轨迹与功率",
+      "titleKind": "editorial",
+      "topics": [
+        "交流电路",
+        "谐振",
+        "复阻抗",
+        "功率"
+      ],
+      "summary": "图 A-1 的 RLC 串联回路中 É=15+j15 V、R=15 Ω、L=10 mH、C=100 μF：令 ω 在 400–2000 rad/s 间变化，画出 ab 间合成阻抗 Ż 的复平面轨迹，求谐振角频率 ω0、谐振时的 |İ| 与 ṼR、ṼL、ṼC 的相量图，以及 R 消耗功率 P0 和功率降为 P0/2 的 ω1、ω2。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号框「問題（A）」、参数行（É、R、L、C、ω 及复数记号说明）、小问 ①–⑥ 全部、图 A-1 的电路图（含 É、İ、R/L/C、ṼR/ṼL/ṼC、a/b 端点）与右侧消费电力-ω 曲线及图号「図 A-1 共振回路」齐全；页眉标题与注意行已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-kairo/kobe-ee-2022-kairo-q1-01.png",
+          "page": 1,
+          "box": [
+            45.5,
+            164.0,
+            544.0,
+            679.0
+          ],
+          "width": 1247,
+          "height": 1288,
+          "label": "問題 (A)：电路参数与 ①–⑥ 各小问、图 A-1 谐振回路（电路图与功率-频率曲线）及图号",
+          "sha256": "45a9f1a300e7e2685c8e716eb1094a221ce229a6999d3287e5111f8f61843209"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2022-kairo-q2",
+      "number": "問題 (B)",
+      "title": "电子回路选答题（晶体管、运放整流、A/D 转换、数字 IC）",
+      "titleKind": "editorial",
+      "topics": [
+        "晶体管",
+        "运算放大器",
+        "A/D 转换器",
+        "数字集成电路"
+      ],
+      "summary": "从 5 个设问中选 3 题作答：(1) npn 晶体管的构造、回路记号与 IE–VBE 特性式及工作原理解说；(2) 晶体管电压放大电路工作点漂移的原因与对策电路；(3) 运放半波整流电路及其与二极管整流的差异；(4) 运放二重积分型 A/D 转换器的构成、原理与应用；(5) 最普及的数字集成电路构成方式、倒相器电路与 3 点特征。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号框「問題（B）」、选 3 题与超答减分、打叉作废的说明、设问 (1)–(5) 全部完整（含 VBE、IE、Is 下标），无切字、无页脚串入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-kairo/kobe-ee-2022-kairo-q2-01.png",
+          "page": 2,
+          "box": [
+            48.0,
+            107.0,
+            541.0,
+            432.5
+          ],
+          "width": 1233,
+          "height": 815,
+          "label": "問題 (B)：选答规则说明与设问 (1)–(5)",
+          "sha256": "e390e89afd3c50087517d90e69476bdbea47a97bcc5605ff2cb66a7f183d1ff4"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2022-kairo-q1"
+      ],
+      "common": true,
+      "excluded": "页眉年度行、科目标题「電気回路・電子回路」与四周空白；注意行另立为公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2022-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "页眉年度行、科目标题与下半页大片空白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

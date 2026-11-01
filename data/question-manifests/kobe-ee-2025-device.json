@@ -1,0 +1,100 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2025-device",
+ "title": "神户大学 · 2025 入学年度 · 半导体器件工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2025",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2025,
+  "yearBasis": "academic",
+  "subject": "半导体器件工学",
+  "originalSubject": "半導体デバイス工学",
+  "originalName": "device-2025.pdf",
+  "pdf": "assets/past-papers/documents/a03d3f91feb13d8e94e66c63280c6be774c7526d32b77808fb8421cdecc51aff.pdf",
+  "sha256": "a03d3f91feb13d8e94e66c63280c6be774c7526d32b77808fb8421cdecc51aff",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2025 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2025-device-q1",
+   "number": "問題 1.",
+   "title": "自由电子气的状态密度",
+   "titleKind": "editorial",
+   "topics": [
+    "自由电子气",
+    "状态密度",
+    "费米球",
+    "态密度推导"
+   ],
+   "summary": "对边长 L 的立方体内自由电子气（势能 V0=0，k=πn/L）：1) 给出电子能量固有值；2) 给出能量 E 以下的状态数 N(E)（以 N(3π²ħ²/mL²) 形式表示）；3) 在 L 远大于波长的情形求 N(E)，并由它证明单位体积状态密度 g(E)=(1/2π²)(2m/ħ²)^{3/2}√E。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      50.0,
+      120.0,
+      570.0,
+      404.3
+     ],
+     "label": "問題 1.：题干与 1)2)3) 小问，含 N(3π²ħ²/mL²) 与 g(E) 两式"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 1.」、题设（L 立方体・V0(=0)・k=πn/L）、1)~3) 小问与 g(E) 表达式齐全；页眉与科目名标题排除在框外，无切字、无下一题串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2025-device-q2",
+   "number": "問題 2.",
+   "title": "本征半导体的费米能级",
+   "titleKind": "editorial",
+   "topics": [
+    "费米-狄拉克分布",
+    "本征半导体",
+    "费米能级",
+    "有效质量"
+   ],
+   "summary": "对禁带宽度约 1eV 的本征半导体（导带/价带各一带，电子与空穴有效质量 me,mh）：1) 给出费米-狄拉克分布 f(E) 并画其概形；2) 给出导带电子状态密度并求室温热平衡下导带电子密度（玻尔兹曼近似）；3) 求室温附近的费米能级 EF。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      51.0,
+      423.0,
+      555.5,
+      748.0
+     ],
+     "label": "問題 2.：题干与 1)2)3) 小问，含高斯积分公式、g(E) 表达式"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 2.」、题设与记号定义、∫_0^∞ e^{-ax}√x dx=√π/(2a√a) 积分公式、1)~3) 小问与 g(E)=(1/2π²)(2me/ħ²)^{3/2}√(E-Ec) 齐全，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2025-device-q1",
+    "kobe-ee-2025-device-q2"
+   ],
+   "common": false,
+   "excluded": "页眉（2025年度…入学試験）、科目名标题「半導体デバイス工学」与空白页边；本页无独立全卷说明。",
+   "reviewed": true
+  }
+ ]
+}

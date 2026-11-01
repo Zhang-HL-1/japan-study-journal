@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2015-denjiki",
+  "title": "神户大学 · 2015 入学年度 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2015",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2015,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "denjiki-27.pdf",
+    "pdf": "assets/past-papers/documents/bc511bd8d48b127ea594d82ca6f31f56fed797d0e8ed09261ae2bc6a57df7776.pdf",
+    "sha256": "bc511bd8d48b127ea594d82ca6f31f56fed797d0e8ed09261ae2bc6a57df7776",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2015 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2015-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        48.0,
+        145.3,
+        368.7,
+        167.3
+      ],
+      "width": 802,
+      "height": 56,
+      "label": "作答总说明（解答用紙指定）",
+      "sha256": "237fa2d9379e5b2eaf6633a12c57d597a8e4528e2513799987ff23deaaa12c93"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2015-denjiki-q1",
+      "number": "問題 1",
+      "title": "同轴圆柱电容器的电场、电容与储能",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "高斯定理",
+        "同轴电容器",
+        "电介质"
+      ],
+      "summary": "半径 a 的带电金属圆柱与半径 b 的接地同轴圆筒构成同轴电容器，其间填充比介电常数 εr 的介质、两端边缘效应忽略；求 p<a、a<p<b、p>b 三区的电场、内外导体电位差、静电电容与所储静电能，再就内层 ε1／外层 ε2 的两层介质求电容与电压降之比 V1/V2。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1」与两段总起句完整，(1)–(8) 小问齐全，含 ρL・εr・L 等符号说明；页眉（平成 27 年度…）与「電磁気学」标题、作答说明行均在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-denjiki/kobe-ee-2015-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            47.3,
+            194.0,
+            549.3,
+            716.0
+          ],
+          "width": 1256,
+          "height": 1305,
+          "label": "問題 1：题干、(1)–(6) 单一介质各量、(7)–(8) 两层介质电容与 V1/V2",
+          "sha256": "dd9506db9e823fafc98fde39501f4583d39dd730fb81d72819911761cff21cbf"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2015-denjiki-q2",
+      "number": "問題 2",
+      "title": "自感与电磁感应（电荷量、感应电流）",
+      "titleKind": "editorial",
+      "topics": [
+        "自感",
+        "磁场",
+        "磁通",
+        "电磁感应"
+      ],
+      "summary": "求无限长螺线管与无限长平行双导线单位长度的自感 L（须先求磁场与磁通，导线内磁场忽略）；再对匝数 N、截面 S、电阻 R 的闭合线圈，求磁通由 Φ1 变到 Φ2 时的感应电荷量 Q，以及 H=H0cosωt 时流过的电流 I。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 2」、(1) 及子项 (1-1)(1-2)、(2) 两问完整，平行双导线的 2a・I・d 図与标注齐全；页眉、标题在框外，页脚无翻页提示残留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-denjiki/kobe-ee-2015-denjiki-q2-01.png",
+          "page": 2,
+          "box": [
+            57.3,
+            107.3,
+            552.7,
+            597.3
+          ],
+          "width": 1239,
+          "height": 1226,
+          "label": "問題 2：题干、(1) 的 (1-1)(1-2) 自感推导与双导线図、(2) 感应电荷量与感应电流",
+          "sha256": "347c6799d95e52b46824bc6125636ae4a6ff30fa55e4e620e15d4cdd0ee29bf0"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2015-denjiki-q1"
+      ],
+      "common": true,
+      "excluded": "卷头页眉（平成 27 年度…入学試験）与科目名「電磁気学」标题；其余仅作答说明作公共区域，不含题目正文。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2015-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页眉与科目名标题、空白页边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

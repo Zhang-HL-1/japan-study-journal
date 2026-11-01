@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2013-ronri",
+ "title": "神户大学 · 2013 入学年度 · 逻辑回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2013",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2013,
+  "yearBasis": "academic",
+  "subject": "逻辑回路",
+  "originalSubject": "論理回路",
+  "originalName": "ronri-25.pdf",
+  "pdf": "assets/past-papers/documents/d37f949adb279558b3739ff983c3d8c6d53e4988f6cba209405689c70c1d623f.pdf",
+  "sha256": "d37f949adb279558b3739ff983c3d8c6d53e4988f6cba209405689c70c1d623f",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2013 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2013-ronri-q1",
+   "number": "問題 1",
+   "title": "4 位二进制加 1 的 1 递增器逻辑式",
+   "titleKind": "editorial",
+   "topics": [
+    "组合逻辑",
+    "增量器",
+    "布尔代数",
+    "卡诺图"
+   ],
+   "summary": "4 位二进制数 A₃A₂A₁A₀（A₃ 为最高位）加 1 得到 5 位 B₄B₃B₂B₁B₀，该电路记为 1 递增器（1inc）。要求把 B₀、B₁、B₂、B₃、B₄ 分别表示成 A₀〜A₃ 的积和形式逻辑式，必要时用卡诺图化简。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      48.0,
+      106.7,
+      545.3,
+      290.7
+     ],
+     "label": "問題 1：题号、4 位加 1 与 1inc 的定义说明、积和形式与卡诺图要求、1inc 方块图（A₀〜A₃ 入、B₀〜B₄ 出）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷唯一页：「問題 1.」题号、五行题干（A₃A₂A₁A₀＋1、B₄…B₀、1inc 命名、積和形式与カルノー図 要求）与下方 1inc 方块图（左侧 A₃〜A₀、右侧 B₄〜B₀）均在框内；页眉与科目名「論理回路」已排除，无页脚页码。"
+   }
+  },
+  {
+   "id": "kobe-ee-2013-ronri-q2",
+   "number": "問題 2",
+   "title": "用 1 递增器构成 +10 电路与 D-FF 时序图",
+   "titleKind": "editorial",
+   "topics": [
+    "时序电路",
+    "D 触发器",
+    "计数电路",
+    "时序图",
+    "增量器"
+   ],
+   "summary": "(1) 把 4 位二进制数 C₃C₂C₁C₀ 加十进制 10 得 5 位 D₄…D₀，要求只用 1 个 1inc 构成该电路，不得使用 AND、OR、NOT 等其它逻辑元件。(2) 对 4 个负边沿触发 D-FF 加 1 个 1inc 构成的电路，画出 CK 送入 20 个时钟脉冲时 X₀〜X₄ 的时序图（D-FF 初始状态全为 0）。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      47.3,
+      307.3,
+      552.0,
+      727.3
+     ],
+     "label": "問題 2：题号与小问 (1) 的 +10 构成要求、(2) 的 20 脉冲时序图要求、4 个负边沿 D-FF 与 1inc 的电路图"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷唯一页：「問題 2.」题号、(1) 四行（含「1inc 以外的邏輯素子は用いないこと」）与 (2) 四行（CK 20 個・初期状態すべて 0）完整，下方 4 个 D-FF（D/Q/Q̄ 与 CK 三角形负边沿标记）、1inc 方块及 X₄〜X₀ 输出连线全部在框内；页脚右下的「以上」为卷末标记，已排除。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2013-ronri-q1",
+    "kobe-ee-2013-ronri-q2"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "顶部页眉「平成 25 年度神戸大学大学院工学研究科…入学試験」、科目名大标题「論理回路」、页脚卷末标记「以上」与空白页边；本页无全卷作答说明，故无公共区域。"
+  }
+ ]
+}

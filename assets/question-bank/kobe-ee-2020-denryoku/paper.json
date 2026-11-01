@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2020-denryoku",
+  "title": "神户大学 · 2020 入学年度 · 电力工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2020",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2020,
+    "yearBasis": "academic",
+    "subject": "电力工学",
+    "originalSubject": "電力工学",
+    "originalName": "denryoku-2020.pdf",
+    "pdf": "assets/past-papers/documents/f79b9af81a965427dbdb6e6fa7c2f2c88e4ad7a56c26f90b79b67763bb383dd7.pdf",
+    "sha256": "f79b9af81a965427dbdb6e6fa7c2f2c88e4ad7a56c26f90b79b67763bb383dd7",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2020 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2020-denryoku-q1",
+      "number": "問題 A.",
+      "title": "水力・联合循环・核能发电基础",
+      "titleKind": "editorial",
+      "topics": [
+        "水力发电",
+        "联合循环",
+        "核裂变",
+        "核聚变"
+      ],
+      "summary": "对某水源以弗朗西斯水车与 60 Hz 同步发电机组成水力发电所，在比速度限制 N ≤ 411 rpm 下求发电机极数与同期转速；说明燃气轮机与蒸汽轮机串联所构成发电循环的名称，并在各效率 ηg、ηs 下求综合效率；再对比说明核裂变与核聚变反应，并简述以 ²³⁵U 为燃料的链式反应。",
+      "review": {
+        "status": "verified",
+        "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 A.」、小问 (1)(2)(a)(b)(3)(a)(b) 齐全，含 N≤411 rpm、ηg/ηs 符号与 ²³⁵U 记号；左侧「(」状墨迹与正文留有间距，未被并入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2020-denryoku/kobe-ee-2020-denryoku-q1-01.png",
+          "page": 1,
+          "box": [
+            38.0,
+            152.7,
+            550.7,
+            404.0
+          ],
+          "width": 1282,
+          "height": 629,
+          "label": "問題 A：题干与小问 (1) 极数/同期转速、(2)(a)(b) 联合循环名称与综合效率、(3)(a)(b) 核裂变对比与链式反应",
+          "sha256": "21e9333aa04251dfdec0ee19ea51d4031359c21fff7ad86d653d2d5eaafc9b53"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2020-denryoku-q2",
+      "number": "問題 B.",
+      "title": "光伏与蓄电池容量设计",
+      "titleKind": "editorial",
+      "topics": [
+        "光伏发电",
+        "蓄电池容量",
+        "供需平衡"
+      ],
+      "summary": "日耗电量 12 kWh 的家庭导入额定 2.0 kW 的光伏设备，为完全不依赖系统电力而需的蓄电池最小储能量（kWh）以及推导过程；给定家庭消费功率全天恒定、光伏仅在 8 时至 16 时额定出力、蓄电池可在 0–100% 全范围使用且无损失。",
+      "review": {
+        "status": "verified",
+        "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 B.」、题干与三条 bullet 假定完整；页脚翻页提示「(次ページへ続く)」为翻页标记，已排除在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2020-denryoku/kobe-ee-2020-denryoku-q2-01.png",
+          "page": 1,
+          "box": [
+            38.0,
+            432.0,
+            550.7,
+            613.3
+          ],
+          "width": 1282,
+          "height": 454,
+          "label": "問題 B：题干（12 kWh/日、2.0 kW）与三条假定（消费恒定、8–16 时出力、全范围可用）",
+          "sha256": "9461db4cb140f8656fa5f8a4a67d3fc5fab8dbfb5380800f348d6651984bf483"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2020-denryoku-q3",
+      "number": "問題 C.",
+      "title": "MHD 发电原理与效率",
+      "titleKind": "editorial",
+      "topics": [
+        "MHD 发电",
+        "洛伦兹力",
+        "发电机效率"
+      ],
+      "summary": "依图 1 说明 MHD 发电原理（笛卡尔坐标系、速度 v=v e_x 的导电性流体、磁束密度 B=B e_z、幅 d 的方形管道、电极 a、b 与负荷 R）；求流体中产生的起电力大小与正电极、极间电压与电流及负荷消耗功率、流体所受的力与单位时间所做的功、以及该动作状态下发电机的效率。",
+      "review": {
+        "status": "verified",
+        "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 C.」、坐标系与各量定义、图 1 及其图号、小问 (1)–(4) 完整；图右侧「z y x」坐标标注在框内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2020-denryoku/kobe-ee-2020-denryoku-q3-01.png",
+          "page": 2,
+          "box": [
+            38.0,
+            95.3,
+            530.7,
+            256.7
+          ],
+          "width": 1232,
+          "height": 404,
+          "label": "問題 C：题干与图 1（MHD 发电原理图，含 R、B、b、a、v、d、坐标系）及小问 (1)–(4)",
+          "sha256": "0395cbd7806dbe060fbbaed3b4ec02f01b4f72c15749011ca736458439e0ecc2"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2020-denryoku-q4",
+      "number": "問題 D.",
+      "title": "同步发电机励磁特性",
+      "titleKind": "editorial",
+      "topics": [
+        "同步发电机",
+        "励磁电流",
+        "饱和特性"
+      ],
+      "summary": "图 2 为同步发电机相对界磁电流 If 的动作特性，V0 与 Is 分别表示发电机输出端的开放电压与短路电流；说明 If 增加时 V0 呈饱和倾向的理由，以及即使 V0 饱和、Is 仍随 If 线性变化的理由。",
+      "review": {
+        "status": "verified",
+        "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 D.」、V0/Is 说明、图 2 曲线与「I_F」「V_O」「I_S」标注、小问 (1)(2) 完整；页尾「以上」为卷末标记，未收入框内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2020-denryoku/kobe-ee-2020-denryoku-q4-01.png",
+          "page": 2,
+          "box": [
+            38.0,
+            426.3,
+            542.7,
+            565.0
+          ],
+          "width": 1262,
+          "height": 348,
+          "label": "問題 D：题干、图 2（V0-If 与 Is-If 特性图）及其图号、小问 (1)(2)",
+          "sha256": "d429894339f8101b43cb410bc5f9bc9721f4d9fe7cb79008a34eafae48c38104"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2020-denryoku-q1",
+        "kobe-ee-2020-denryoku-q2"
+      ],
+      "common": false,
+      "excluded": "卷头页眉与科目名「電力工学」、左上角黑角、左侧「(」状墨迹；页脚「(次ページへ続く)」为翻页提示。本卷无全卷作答说明，commonRegions 为空。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2020-denryoku-q3",
+        "kobe-ee-2020-denryoku-q4"
+      ],
+      "common": false,
+      "excluded": "重复页眉、左上角黑角、左侧「(」状墨迹与卷末「以上」标记，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

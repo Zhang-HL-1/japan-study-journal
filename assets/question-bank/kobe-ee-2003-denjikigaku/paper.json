@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2003-denjikigaku",
+  "title": "神户大学 · 2003 入学年度 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2003",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2003,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "denjikigaku.pdf",
+    "pdf": "assets/past-papers/documents/c3c043b05e5132b619d18df532a4c42dcb8c10ee3643b57f1ed74fc716ea8ccb.pdf",
+    "sha256": "c3c043b05e5132b619d18df532a4c42dcb8c10ee3643b57f1ed74fc716ea8ccb",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2003 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2003-denjikigaku/common-01.png",
+      "page": 1,
+      "box": [
+        80.7,
+        151.3,
+        335.3,
+        172.7
+      ],
+      "width": 638,
+      "height": 54,
+      "label": "全卷作答说明（以下の４つの問題から３つを選択して回答しなさい）",
+      "sha256": "67d1f940ce1b1c9322d9e29983bbb1cad0ebbb72759c9c0358a446c75a2a915b"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2003-denjikigaku-q1",
+      "number": "問題1",
+      "title": "平行平板导体的电场与单位面积电容",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "高斯定理",
+        "平行板电容",
+        "面电荷密度"
+      ],
+      "summary": "两无限大平行平板完全导体间距 d、面电荷密度为 ±ρs，板间充满介电常数 ε 的均匀介质：用高斯定理求板间电场 E，再求单位面积电容 C，并要求写出推导过程。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页 2x 页图：题号「［問題１］」、题干三行、过程要求与（１－ａ）（１－ｂ）两小问齐全，ρs、ε、d 等符号与单位（C/m2、F/m、V/m、F）完整，无切字，未串入問題２。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denjikigaku/kobe-ee-2003-denjikigaku-q1-01.png",
+          "page": 1,
+          "box": [
+            79.3,
+            187.7,
+            515.3,
+            353.7
+          ],
+          "width": 1091,
+          "height": 416,
+          "label": "問題１：题干、作答要求（需写出推导过程）、小问（１－ａ）电场 E、（１－ｂ）单位面积电容 C",
+          "sha256": "029c3b12cb735b38d7db5971d84cd22015883f1ed754f0984068babbb673d132"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-denjikigaku-q2",
+      "number": "問題2",
+      "title": "导体表面电荷电场的叠加与 Δz→0 极限",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "面电荷密度",
+        "叠加原理",
+        "对称性"
+      ],
+      "summary": "z≤0 为导体，z=0 表面带面电荷密度 ρs；设原点处圆形面 S 内电荷在 P(0,0,Δz) 产生 E1，S 所围全部电荷在同一点产生 E2，导出 Δz→0 时二者关系，并以导体内对称点的电场为提示。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页 2x 页图：题号「［問題２］」、z≤0 与 ρs 的说明、E1/E2 的定义式、极限要求与（ヒント）齐全；下方示意图的 z、x、y 轴、圆形面 S、点 P(0,0,Δz) 与标注全部入框，未串入問題３（問題３在第 2 页）。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denjikigaku/kobe-ee-2003-denjikigaku-q2-01.png",
+          "page": 1,
+          "box": [
+            80.0,
+            404.0,
+            515.3,
+            702.7
+          ],
+          "width": 1089,
+          "height": 747,
+          "label": "問題２：题干、E1/E2 定义、Δz→0 极限要求、提示，及含 z 轴、圆形面 S 与点 P 的示意图",
+          "sha256": "10c5e61b3d3c9e608f27e9f983c149fbae0b2275602436aee00f80b045e69268"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-denjikigaku-q3",
+      "number": "問題3",
+      "title": "载流长直导线的磁场与移动线圈的感应电动势",
+      "titleKind": "editorial",
+      "topics": [
+        "安培环路定理",
+        "磁场强度",
+        "电磁感应",
+        "动生电动势"
+      ],
+      "summary": "半径 a、磁导率 μ 的无限长直导线通电流 I，距轴 R 处放置半径 b 的圆线圈（R>a+b）：求导线内部（r≦a）与外部（r≧a）距轴 r 处的磁场 H，再求线圈以速度 v 沿 R 增大方向移动时产生的感应电动势。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页 2x 页图：题号「[問題３]」、µ・a・I・R・b 与 R>a+b 条件、小问（１）（２）及「b は R に比較して無視できる」条件完整；下方立体示意图的 z 轴、I、a、R、b、v 标注全部入框，图与題干未被截断。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denjikigaku/kobe-ee-2003-denjikigaku-q3-01.png",
+          "page": 2,
+          "box": [
+            79.3,
+            98.0,
+            517.3,
+            406.0
+          ],
+          "width": 1096,
+          "height": 770,
+          "label": "問題３：题干、小问（１）导线内/外磁场 H、（２）移动线圈的感应电动势，及其下方直导线—圆线圈示意图",
+          "sha256": "4421b93d41a49be8b2873a6a4111b0a8971f8d42391582ad04926164495b287f"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-denjikigaku-q4",
+      "number": "問題4",
+      "title": "麦克斯韦方程组与平面电磁波的场量关系",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程组",
+        "平面电磁波",
+        "波数",
+        "光速"
+      ],
+      "summary": "写出自由空间中四个麦克斯韦方程；再对仅含 x 分量电场、y 分量磁场且 Ex=E0 sin k(z−ct)、Hy=H0 sin k(z−ct) 的电磁波，用其中一个方程导出 E0 与 H0 的关系，其中 c=(ε0µ0)^(-1/2)。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页 2x 页图：题号「[問題４]」、两小问、Ex=E0 sin k(z−ct)（１）与 Hy=H0 sin k(z−ct)（２）两式的编号与右侧 (1)(2) 对齐，c=(ε0µ0)-1/2 及 k 的说明完整，无切字、无截断。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denjikigaku/kobe-ee-2003-denjikigaku-q4-01.png",
+          "page": 2,
+          "box": [
+            80.0,
+            440.0,
+            515.3,
+            642.0
+          ],
+          "width": 1089,
+          "height": 505,
+          "label": "問題４：题干、小问（１）四个麦克斯韦方程、（２）式 (1)(2) 与 E0–H0 关系推导（含 k、c 说明）",
+          "sha256": "87613d164e423b687bc68125da5392b99514bb58d0b7fe6c95e57a8f2f0c2a4a"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2003-denjikigaku-q1",
+        "kobe-ee-2003-denjikigaku-q2"
+      ],
+      "common": true,
+      "excluded": "页眉（平成１５年度…入学試験問題・平成１４年８月２７日）、科目名标题「電 磁 気 学」与页边空白，非题目内容；仅「以下の４つの問題から３つを選択して回答しなさい」作公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2003-denjikigaku-q3",
+        "kobe-ee-2003-denjikigaku-q4"
+      ],
+      "common": false,
+      "excluded": "页眉与页脚空白（本页无页码、无翻页提示），非题目内容。",
+      "reviewed": true
+    }
+  ]
+}

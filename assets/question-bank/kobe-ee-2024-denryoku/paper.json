@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2024-denryoku",
+  "title": "神户大学 · 2024 入学年度 · 电力工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2024",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "电力工学",
+    "originalSubject": "電力工学",
+    "originalName": "denryoku-2024.pdf",
+    "pdf": "assets/past-papers/documents/0a9ff22f0e27f29382689a6e36613b092623719ae7ac03c374aee361fc74c1c1.pdf",
+    "sha256": "0a9ff22f0e27f29382689a6e36613b092623719ae7ac03c374aee361fc74c1c1",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2024-denryoku-q1",
+      "number": "問題 A",
+      "title": "流体管路・卡诺循环与轻水堆",
+      "titleKind": "editorial",
+      "topics": [
+        "伯努利方程",
+        "卡诺循环",
+        "轻水堆"
+      ],
+      "summary": "四小问：水管中 B 点流速与压力、在 T-S 平面画卡诺循环并标状态与过程、求等温压缩与绝热膨胀的对外功、比较沸水堆与压水堆驱动汽轮机的蒸汽。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照第 1 页核对「問題 A」题号、(1)～(4) 全部小问与泵/卡诺图描述；不含卷头与科目名。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-denryoku/kobe-ee-2024-denryoku-q1-01.png",
+          "page": 1,
+          "box": [
+            32,
+            150,
+            553,
+            464
+          ],
+          "width": 1303,
+          "height": 785,
+          "label": "問題 A：四小问连续题干",
+          "sha256": "517912c0d98ab9e53fda03719cbebb7f99554f197842103305c6489fa7227492"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2024-denryoku-q2",
+      "number": "問題 B",
+      "title": "碱性燃料电池电流与产水量",
+      "titleKind": "editorial",
+      "topics": [
+        "燃料电池",
+        "法拉第定律",
+        "电化学"
+      ],
+      "summary": "给出碱性燃料电池两极反应式与氢耗速率 5.00 μmol/s，求输出电流与每秒净生成水的质量，法拉第常数 96500 C/mol、水分子量 18.0。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照第 1 页核对题号、两极反应式、5.00 μmol/s、96500 C/mol 与 18.0；题末「次ページへ続く」为翻页提示，未纳入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-denryoku/kobe-ee-2024-denryoku-q2-01.png",
+          "page": 1,
+          "box": [
+            32,
+            492,
+            553,
+            596
+          ],
+          "width": 1303,
+          "height": 260,
+          "label": "問題 B：题干与给定常数",
+          "sha256": "7a27d17e7579dc959583b9c408287322b39b75902d5359db66d18e9b98699f83"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2024-denryoku-q3",
+      "number": "問題 C",
+      "title": "三相配电电压降与调相补偿",
+      "titleKind": "editorial",
+      "topics": [
+        "三相电路",
+        "电压降",
+        "调相设备"
+      ],
+      "summary": "三相三线制线路每线阻抗 R、X，受端功率 P、功率因数 cosφ、线电压 V；(1) 求线电流、无功功率、电压降率、总损耗；(2) 投入调相设备使功率因数达 100%，求设备容量及补偿后的电压降率与总损耗。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照第 2 页核对「問題 C」题号、a)～g) 七小问与「用简略式计算电压降」的限定；不含卷头。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-denryoku/kobe-ee-2024-denryoku-q3-01.png",
+          "page": 2,
+          "box": [
+            32,
+            95,
+            553,
+            448
+          ],
+          "width": 1303,
+          "height": 883,
+          "label": "問題 C：(1)a～d 与 (2)e～g",
+          "sha256": "0104520cecde87b8592d8b267df802ab5ee602273163f8052306825737a6a827"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2024-denryoku-q4",
+      "number": "問題 D",
+      "title": "日负荷曲线与负荷率改善",
+      "titleKind": "editorial",
+      "topics": [
+        "日负荷曲线",
+        "负荷率",
+        "削峰填谷"
+      ],
+      "summary": "给出某事业所日负荷曲线与ア～シ两小时时段划分；(1) 求日负荷率；(2) 为使日负荷率最高，求各时段负荷增减量（增 +、减 −、不变 0，kW）；(3) 求改善后的日负荷率。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照第 2 页核对题号、(1)～(3)、(ア～シ 时刻标注) 与图 1 坐标轴、图号；题末「以上」为卷末标记，未纳入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-denryoku/kobe-ee-2024-denryoku-q4-01.png",
+          "page": 2,
+          "box": [
+            32,
+            476,
+            553,
+            738
+          ],
+          "width": 1303,
+          "height": 655,
+          "label": "問題 D：三小问与图 1 日负荷曲线",
+          "sha256": "929abb6d5c4c19cd338bbf8d2464c42f9046e2c0d9857e0fabf9f9cc7b2ebc18"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2024-denryoku-q1",
+        "kobe-ee-2024-denryoku-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头、科目名「電力工学」及空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2024-denryoku-q3",
+        "kobe-ee-2024-denryoku-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头、卷末「以上」及空白页边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

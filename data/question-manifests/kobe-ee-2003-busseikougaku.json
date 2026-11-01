@@ -1,0 +1,120 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2003-busseikougaku",
+ "title": "神户大学 · 2003 入学年度 · 物性工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2003",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "自然科学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2003,
+  "yearBasis": "academic",
+  "subject": "物性工学",
+  "originalSubject": "物性工学",
+  "originalName": "busseikougaku.pdf",
+  "pdf": "assets/past-papers/documents/bb93f3e98d826729f0b8d34b5408123737b18f37258d30641e78f12c1413bdce.pdf",
+  "sha256": "bb93f3e98d826729f0b8d34b5408123737b18f37258d30641e78f12c1413bdce",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2003 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    80.0,
+    116.7,
+    515.3,
+    158.0
+   ],
+   "label": "全卷作答说明（下記の問Ⅰ、問Ⅱについて解答せよ。解答用紙は２枚あり…）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2003-busseikougaku-q1",
+   "number": "問Ⅰ",
+   "title": "薛定谔方程的变量分离、平面波验证与井型势",
+   "titleKind": "editorial",
+   "topics": [
+    "薛定谔方程",
+    "变量分离",
+    "自由粒子",
+    "井型势",
+    "波函数"
+   ],
+   "summary": "在给定记号说明后：(1) 由含时薛定谔方程用变量分离法导出定常方程，解时间项并说明物理意义；(2) 验证 Ψ=Ae^{i(kx−ωt)} 满足方程，按①〜⑥填空并由④⑤⑥导出结果；(3) 写出井型势 V(x) 下的定常方程，分三段求 E<V0 时的波函数并说明物理意义。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      79.3,
+      171.3,
+      515.3,
+      750.7
+     ],
+     "label": "問Ⅰ：题干与记号说明、（１）变量分离导出定常方程与时间项、（２）平面波验证与①〜⑥填空、（３）井型势 V(x) 与三段波函数"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页 2x 页图：题号「問Ⅰ」、记号说明（Ψ、H、ħ=h/(2π)、E、V、ω、k、t、x、i）、(1)(2)(3) 三小问、ih∂Ψ/∂t=HΨ 两处公式、①②③④⑤⑥ 的填空方框与井型势 V(x)=0 / V0 的分段条件全部入框，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2003-busseikougaku-q2",
+   "number": "問Ⅱ",
+   "title": "逆晶格基本矢量、傅里叶展开与米勒指数",
+   "titleKind": "editorial",
+   "topics": [
+    "逆晶格",
+    "面心立方",
+    "傅里叶展开",
+    "米勒指数"
+   ],
+   "summary": "由逆晶格定义出发：(1) 对面心立方基本矢量 a、b、c 求逆晶格基本矢量 A、B、C 并作图、指出晶格类型；(2) 证明 n(r)=Σn_G e^{iG·r} 具有晶格周期性 n(r+T)=n(r)；(3) 证明米勒指数 (hkl) 的晶面与 G_hkl=hA+kB+lC 正交。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      80.0,
+      63.7,
+      515.3,
+      659.7
+     ],
+     "label": "問Ⅱ：题干、逆晶格定义式、(1) fcc 逆晶格与晶格型、(2) 傅里叶展开的周期性、(3) 米勒指数面正交性，及面心立方基本矢量图与图注"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页 2x 页图：题号「問Ⅱ」、逆晶格基本矢量 A=2π(b×c)/(a·(b×c)) 等三式、G=Σm_i A_i 说明、(1)(2)(3) 三小问与 n(r)=Σn_G e^{iG·r}、G_hkl=hA+kB+lC 公式完整；下方「面心立方格子の基本ベクトル」示意图（a、b、c、a 边长、x/y/z 轴）与图注均入框，图未被截断。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2003-busseikougaku-q1"
+   ],
+   "common": true,
+   "excluded": "右上日期「2002.8.28」、科目名标题「物性工学」与页边空白，非题目内容；仅「下記の問Ⅰ、問Ⅱについて解答せよ…」两行作答说明作公共区域。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2003-busseikougaku-q2"
+   ],
+   "common": false,
+   "excluded": "页眉页脚空白，非题目内容（图注「面心立方格子の基本ベクトル」属于问Ⅱ内容，已含入区域）。",
+   "reviewed": true
+  }
+ ]
+}

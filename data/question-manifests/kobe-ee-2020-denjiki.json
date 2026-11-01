@@ -1,0 +1,151 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2020-denjiki",
+ "title": "神户大学 · 2020 入学年度 · 电磁学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2020",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2020,
+  "yearBasis": "academic",
+  "subject": "电磁学",
+  "originalSubject": "電磁気学",
+  "originalName": "denjiki-2020.pdf",
+  "pdf": "assets/past-papers/documents/bb6c9bae489bffa6007431c2cfd2009cc10ae4ef81059fe4c7d64a07bd6f328f.pdf",
+  "sha256": "bb6c9bae489bffa6007431c2cfd2009cc10ae4ef81059fe4c7d64a07bd6f328f",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2020 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    73.7,
+    156.3,
+    405.7,
+    180.3
+   ],
+   "label": "全卷作答说明「以下の問について，それぞれ指定された答案用紙に解答しなさい．」"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2020-denjiki-q1",
+   "number": "問題 1",
+   "title": "同轴圆柱电容器的电容与电场",
+   "titleKind": "editorial",
+   "topics": [
+    "静电电容",
+    "同轴圆柱导体",
+    "电场与电位差",
+    "诱导极化"
+   ],
+   "summary": "半径 a 的金属圆柱外套内半径 b 的接地同轴导体圆筒，其间为真空 ε0、长 L；求同轴电容器的静电电容（须详写推导）、极板自由电荷、a≤ρ<b 与 b≤ρ 的电场、储存的静电场能量。再在取下电池后于两电极间填满比介电常数 εr 的介质，求介质内的极化与内外电极间的电位差。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      69.0,
+      193.0,
+      519.0,
+      576.3
+     ],
+     "label": "問題 1：题干（半径 a 圆柱/内半径 a、外半径 b 圆筒、真空 ε0、长 L、V0）与 (1)–(5) 静电电容、自由电荷、两区域电场、能量，及填介质后的 (6) 极化、(7) 电位差"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 1」、参数定义段、小问 (1)–(5) 与第二段「上記の電池を外した状態」及 (6)(7) 齐全；页眉「2020 年度神戸大学…入学試験」与左侧装订墨点已排除。"
+   }
+  },
+  {
+   "id": "kobe-ee-2020-denjiki-q2",
+   "number": "問題 2",
+   "title": "无限大平行电流板间的磁场与洛伦兹力",
+   "titleKind": "editorial",
+   "topics": [
+    "安培环路定律",
+    "面电流密度",
+    "磁场叠加",
+    "洛伦兹力"
+   ],
+   "summary": "真空中两块无限大薄导体板 A(z=0)、B(z=d>0) 相互平行，面电流密度分别为 K e_y 与 −K e_y；用安培环路定律求 z=0 以外区域的磁场 H_A，再求 z>d 与 0<z<d 的合成磁场 H。并求电荷 Q=5 nC 以 v=(2e_x+3e_y+4e_z)×10⁴ m/s 运动时所受的力 F 及其大小 |F|。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      46.0,
+      118.0,
+      545.3,
+      340.0
+     ],
+     "label": "問題 2：题干（板 A/B、面电流 ±K e_y、单位矢量）与 (1)–(4) 求 H_A、z>d 与 0<z<d 的磁场及洛伦兹力大小"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題 2」、A/B 两板设定、面电流密度与单位矢量说明、小问 (1)–(4)（含 Q=5nC、v 矢量、透磁率 4π×10⁻⁷ H/m 注记）完整；未串入下方問題 3。"
+   }
+  },
+  {
+   "id": "kobe-ee-2020-denjiki-q3",
+   "number": "問題 3",
+   "title": "平面电磁波与麦克斯韦方程",
+   "titleKind": "editorial",
+   "topics": [
+    "麦克斯韦方程",
+    "平面电磁波",
+    "法拉第定律",
+    "色散关系"
+   ],
+   "summary": "真空中传播的均匀平面电磁波，磁场 H=H0 sin(ωt−kx) e_y，ω 为角频率、k 为正的常数；要求写出与安培环路定律、法拉第定律对应的麦克斯韦方程式，由前者求电场 E，再与后者联立导出 ω、k、ε0、μ0 之间的关系式。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      42.0,
+      371.3,
+      540.7,
+      537.3
+     ],
+     "label": "問題 3：题干（H=H0 sin(ωt−kx) e_y、ε0、μ0、静电场为 0）与 (1)–(4) 两式、求 E、导出关系式"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題 3」、磁场表达式与符号说明、小问 (1)–(4) 完整，末行「なさい．」属 (4) 未切；页脚大量扫描污点已在框外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2020-denjiki-q1"
+   ],
+   "common": true,
+   "excluded": "卷头页眉「2020 年度神戸大学大学院工学研究科博士課程前期課程入学試験」与科目名「電磁気学」为卷头，收作 excluded；左侧装订墨点、右下角黑角与页边留白不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2020-denjiki-q2",
+    "kobe-ee-2020-denjiki-q3"
+   ],
+   "common": false,
+   "excluded": "重复页眉与科目名、页边扫描污点与右侧黑边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

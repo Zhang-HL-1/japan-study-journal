@@ -1,0 +1,121 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2014-kairo",
+ "title": "神户大学 · 2014 入学年度 · 电气回路与电子回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2014",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2014,
+  "yearBasis": "academic",
+  "subject": "电气回路与电子回路",
+  "originalSubject": "電気回路・電子回路",
+  "originalName": "kairo-26.pdf",
+  "pdf": "assets/past-papers/documents/9c3c537d177e59286da84d286a5b20c4b04dc62458fcdb99aceeabdb01d93280.pdf",
+  "sha256": "9c3c537d177e59286da84d286a5b20c4b04dc62458fcdb99aceeabdb01d93280",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2014 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    40.0,
+    104.0,
+    540.0,
+    142.0
+   ],
+   "label": "全卷作答说明（答案用紙 2 枚、問題 A/B 分别作答）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2014-kairo-q1",
+   "number": "問題 (A)",
+   "title": "交流回路网孔的等価回路与共振回路",
+   "titleKind": "editorial",
+   "topics": [
+    "交流回路",
+    "テブナン等価回路",
+    "最大電力供給",
+    "共振回路",
+    "周波数特性"
+   ],
+   "summary": "図 A-1 中 C1=20μF、C2=30μF、E1=j5V、E2=j10V、ω=1000rad/s，求开路电压、内部阻抗、短路电流、最大功率负载电阻及该功率；再对図 A-2 的 RLC 串联谐振回路画出阻抗/导纳轨迹、谐振曲线与半値幅。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      40.0,
+      161.0,
+      543.0,
+      808.0
+     ],
+     "label": "問題 (A) 整页：(1)①–⑤ 交流回路等価回路与最大功率、(2)①–④ 共振回路轨迹与半値幅、図 A-1、図 A-2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 (A) 标签框、复素记号的说明、小问 (1)①–⑤ 与 (2)①–④ 全部纳入，图 A-1（C1/C2 并联电流源与端子 a-b）与图 A-2（R-L-C 串联与阻抗 Ż）连同图号完整；排除页首「平成26年度…」与科目标题页眉。"
+   }
+  },
+  {
+   "id": "kobe-ee-2014-kairo-q2",
+   "number": "問題 (B)",
+   "title": "晶体管放大电路与负反馈运算放大电路",
+   "titleKind": "editorial",
+   "topics": [
+    "トランジスタ増幅回路",
+    "負帰還",
+    "演算増幅器",
+    "仮想短絡",
+    "入出力インピーダンス"
+   ],
+   "summary": "用 1 个晶体管与给定元件数分别画出射极接地、集电极接地放大电路并列表比较输出阻抗/电压增益/电流增益；再就负反馈与运算放大器求闭环增益 G、某电路级、40dB/80dB 下的 G 以及虚短路成立的两条件。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      45.0,
+      112.0,
+      543.0,
+      802.0
+     ],
+     "label": "問題 (B) 整页：(1)a–d 晶体管放大电路、(2)a–d 負帰還と演算増幅器、図 B"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 (B) 标签框与「解答順は任意とする」、小问 (1)a–d 与 (2)a–d、及图 B（μ 放大器与 β 反馈、v_in/v_out）与图号完整；页眉「平成26年度…」与科目标题已排除。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2014-kairo-q1"
+   ],
+   "common": true,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」与科目标题「電気回路・電子回路」、及扫描边缘污点；注意行已单独作为公共区域。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2014-kairo-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」与科目标题、及扫描边缘污点。",
+   "reviewed": true
+  }
+ ]
+}

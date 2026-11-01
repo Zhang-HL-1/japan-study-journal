@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2002-denjiki",
+  "title": "神户大学 · 2002 入学年度 · 电磁学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2002",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2002,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "denjiki.pdf",
+    "pdf": "assets/past-papers/documents/ff127ebb2af92bbd3bbe2d562bc23d2c15f47aed9683dc6defc7551511dc5b89.pdf",
+    "sha256": "ff127ebb2af92bbd3bbe2d562bc23d2c15f47aed9683dc6defc7551511dc5b89",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2002 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2002-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        13.0,
+        88.0,
+        252.3,
+        108.0
+      ],
+      "width": 599,
+      "height": 50,
+      "label": "全卷作答说明「問題1から問題3までの全ての問に答えなさい。」",
+      "sha256": "7d809901a2d79c0e2d57a05043e24606c19591bec9fcc121ad058220630c049c"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2002-denjiki-q1",
+      "number": "問題1",
+      "title": "導体平面と線電荷の影像法（電位・電界）",
+      "titleKind": "editorial",
+      "topics": [
+        "影像法",
+        "線電荷",
+        "導体平面",
+        "電位",
+        "電界"
+      ],
+      "summary": "無限導体平面 z=0 の上側 x=0,z=h に線電荷 ρ_L があるとき、(1) 下側の対称位置に置くべき電荷（(1-a) その値、(1-b) この方法の名称）を答え、z=0 を電位の零基準として P(x,y,z) の電位を求め、x=a,y=0,z=0 における電界の大きさと向きを求める。",
+      "review": {
+        "status": "verified",
+        "method": "inkbox.py 墨迹收紧 + AI visual comparison against full source page (scanned page, text≈0)",
+        "date": "2026-11-01",
+        "notes": "扫描页，用 pages/ 2x 页图目视定边界后以 inkbox.py 收紧：内容墨迹 y=131.3–302.7、x=16.5–500.7，四周留白约 5pt。对照原卷第 1 页：「問題1」题号、条件句（z=0 の無限平面・線電荷 ρ_L(C/m) が x=0,z=h(m)）、小问 (1)（含 (1-a) 下側の電荷、(1-b) 方法の名称）、(2) z=0 を電位の零基準とした P(x,y,z) の電位、(3) x=a,y=0,z=0 の電界の大きさと方向 全部在框内；上边界停在作答说明（y=92–103）与「問題1」之间，下边界停在「問題2」（y=329.3）之前，无切字、无串题；卷头三行与科目名「電 磁 気 学」在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2002-denjiki/kobe-ee-2002-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            11.5,
+            126.0,
+            506.0,
+            308.0
+          ],
+          "width": 1237,
+          "height": 455,
+          "label": "問題1：題号と条件（導体面 z=0・線電荷 ρ_L(C/m) が x=0,z=h）、小問 (1)（1-a・1-b）、(2) 電位、(3) 電界",
+          "sha256": "67526a008cd295d0328836fb5e9b36549b25cc32bbb0543785baa681dc81024e"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2002-denjiki-q2",
+      "number": "問題2",
+      "title": "マクスウェル方程式から電磁波の屈折率を導く（空欄補充）",
+      "titleKind": "editorial",
+      "topics": [
+        "マクスウェル方程式",
+        "電磁波",
+        "屈折率",
+        "空欄補充"
+      ],
+      "summary": "無損失の誘電体中を伝搬する電磁波をマクスウェル方程式で記述し、文章中の空欄 [a]〜[g] を埋める：∇×E、∇×H、∇·D、∇·B の各式と、左辺・右辺の回転から得る ∇×∇×E の変形式 (5)、∇×[a] の式 (6)、平面波 (7) をヘルムホルツ方程式に代入して得る屈折率 n。",
+      "review": {
+        "status": "verified",
+        "method": "inkbox.py 墨迹收紧 + AI visual comparison against full source page (scanned page, text≈0)",
+        "date": "2026-11-01",
+        "notes": "扫描页，页图目视定边界后以 inkbox.py 收紧：内容墨迹 y=329.3–740.7、x=16.5–500.7（右界为枠線），四周留白约 5pt。对照原卷第 1 页：「問題2」题号与「以下の文章中の空欄[a]〜[g]を埋めなさい。」、枠内本文的誘電率 ε・透磁率 μ の説明、式(1)〜(4) 与空欄 [a][b][c][d]、(1) 式左辺の回転 → 式(5) と空欄 [e]、(1) 式右辺の回転 → 式(6) と空欄 [f]、「(5)=(6)はヘルムホルツのベクトル方程式」の説明、平面波 E_x=E_0 exp{iω(t−z/v)}…(7)、n=c/v の定義と空欄 [g] 全部在框内，枠線（矩形）四边完整；上边界停在「問題1」末行（y=302.7）之下，无切字、无串题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2002-denjiki/kobe-ee-2002-denjiki-q2-01.png",
+          "page": 1,
+          "box": [
+            11.5,
+            324.0,
+            506.0,
+            746.0
+          ],
+          "width": 1237,
+          "height": 1055,
+          "label": "問題2：題号と「マクスウェル方程式からスタートして電磁波の屈折率を導く」指示、枠内の本文（式(1)〜(4) の空欄 [a]〜[d]、式(5)(6) の [e][f]、平面波 (7)、屈折率 n の定義と空欄 [g]）",
+          "sha256": "f86b0e2114621eb9c5a3afe96af86044a7f9dfdbc9ce7a6638ee0c803e7528de"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2002-denjiki-q3",
+      "number": "問題3",
+      "title": "ビオ・サバールの法則による円形コイル軸上磁界",
+      "titleKind": "editorial",
+      "topics": [
+        "ビオ・サバールの法則",
+        "円形コイル",
+        "磁界",
+        "軸対称"
+      ],
+      "summary": "円形コイルに流れる電流が中心軸上に作る磁界を段階的に求める：(1) 微小ベクトル ds による電流素片 Ids が点 P に及ぼす磁界 dH を、r=Q→P とその単位ベクトル u_r を用いてベクトル表示し、(2-a) 半径 a・巻数 1 のコイルについて Ids が z 軸上の P' に作る磁界の向きを図で説明したうえで dH' を z と a の関数として求め z 軸に平行/垂直な成分に分け、(2-b) コイル全体の寄与による H の大きさと向きを求める。",
+      "review": {
+        "status": "verified",
+        "method": "inkbox.py 墨迹收紧 + AI visual comparison against full source page (scanned page, text≈0)",
+        "date": "2026-11-01",
+        "notes": "扫描页，页图目视定边界后以 inkbox.py 收紧：内容墨迹 y=55.7–441.7、x=7.7–493.0（右界为图的 y 轴箭头端），四周留白约 4pt。对照原卷第 2 页：「問題3」题号与総起句、(1) の dH をベクトル表示（r=Q→P、u_r=r/|r|）、(2-a) の「右図に示すとおり、半径 a の円形コイル（巻数=1）…」説明与右側の図（x,y,z 軸・原点 O・半径 a の円・P'・r・Q・Ids のラベル）、「z 軸に平行な成分と垂直な成分に分けて示しなさい。」、(2-b) の H の大きさと方向 全部在框内；上边界停在页眉两行（y=9–30）之下，无切字、无串题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2002-denjiki/kobe-ee-2002-denjiki-q3-01.png",
+          "page": 2,
+          "box": [
+            3.0,
+            51.0,
+            498.0,
+            446.0
+          ],
+          "width": 1238,
+          "height": 988,
+          "label": "問題3：題号と「円形コイルの中心軸上に発生する磁界の強さ」の指示、小問 (1)（ビオ・サバールの法則のベクトル表示）、(2-a)（右図・半径 a のコイル・dH' の向きと成分）、(2-b)（コイル全体の H）",
+          "sha256": "9346016bf9e444b107c9ae2e1ca08753078294f8341f525a35500f02f1217de5"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2002-denjiki-q1",
+        "kobe-ee-2002-denjiki-q2"
+      ],
+      "common": true,
+      "excluded": "卷头三行（平成14年度神戸大学大学院自然科学研究科博士課程前期課程／電気電子工学専攻 入学試験問題 平成13年8月27日）、科目名「電 磁 気 学」、四周空白页边；仅「問題1から問題3までの全ての問に答えなさい。」作公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2002-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "页眉两行（与第 1 页卷头同文的年度・研究科・专攻・考试日期）、四周空白页边与 y=446 以下的空白带；该页仅含問題3。",
+      "reviewed": true
+    }
+  ]
+}

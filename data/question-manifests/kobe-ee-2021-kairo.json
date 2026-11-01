@@ -1,0 +1,120 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2021-kairo",
+ "title": "神户大学 · 2021 入学年度 · 电气回路与电子回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2021",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2021,
+  "yearBasis": "academic",
+  "subject": "电气回路与电子回路",
+  "originalSubject": "電気回路・電子回路",
+  "originalName": "kairo-2021.pdf",
+  "pdf": "assets/past-papers/documents/619cbb1b2823d901981954902d6c38e2ad07eb32a2b69bdbf4f53740baf03a9c.pdf",
+  "sha256": "619cbb1b2823d901981954902d6c38e2ad07eb32a2b69bdbf4f53740baf03a9c",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2021 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    37.7,
+    112.3,
+    535.7,
+    142.3
+   ],
+   "label": "全卷作答说明（注意：答案用紙は一人当たり2枚、(A) と (B) はそれぞれ対応する答案用紙に解答）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2021-kairo-q1",
+   "number": "問題 (A)",
+   "title": "三相回路のΔ-Y等価変換与閉路方程式",
+   "titleKind": "editorial",
+   "topics": [
+    "交流回路",
+    "Δ-Y変換",
+    "閉路方程式",
+    "インピーダンス行列"
+   ],
+   "summary": "図 A-1 の回路で V1=j100 V、V2=j150 V、L1=50 mH、L2=20 mH、L3=30 mH、ω=1000 rad/s 给定，要求把 Δ 接続部分等価変換为 Y 接続求 L4、L5、L6；再以 I1、I2 为閉路電流求 Z11、Z12、Z21、Z22，最后求 I1、I2、I3。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      40.5,
+      153.0,
+      538.3,
+      663.7
+     ],
+     "label": "問題 (A)：题干与参数、① Δ-Y 変換、② 閉路方程式与阻抗行列、③ 电流、図 A-1 与 図 A-2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页，用 pages/ 2x 页图定位后以 inkbox.py 收紧。对照原卷第 1 页：問題（A）枠、「図 A-1 の回路において…」与 V1/V2/L1–L3/ω 全部参数、①②③ 三小问、図 A-1 与 図 A-2 两个电路图及图号均在框内，无切字、无 問題（B）串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2021-kairo-q2",
+   "number": "問題 (B)",
+   "title": "晶体管·运算放大器·数字电路综合选择",
+   "titleKind": "editorial",
+   "topics": [
+    "晶体管増幅回路",
+    "运算放大器",
+    "数字电路",
+    "噪声容限",
+    "缩放则"
+   ],
+   "summary": "从 (1)–(3) 中选 2 问作答：(1) 指出并改正双极晶体管増幅电路中 a)–d) 的错误选项；(2) 说明运算放大器相对发射极接地増幅的两点特征、输入级与第二级电路、并用单个运放设计减法电路；(3) 说明 VIL/VIH/VOL/VOH 与噪声容限 VNM 的关系及最大化条件、LSI 定电场缩放则的利弊与现状。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      54.0,
+      109.3,
+      546.7,
+      700.7
+     ],
+     "label": "問題 (B)：选答说明与 (1) a)–d)、(2) a)–d)、(3) a) b)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：問題（B）枠与「以下の各設問(1)〜(3)から2問を選んで解答せよ」说明、(1)a)–d)、(2)a)–d)、(3)a)b) 全部小问完整，VIL/VIH/VOL/VOH/VNM/VDD 等符号无切字；页眉与科目名标题在框外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2021-kairo-q1"
+   ],
+   "common": true,
+   "excluded": "页眉「2021 年度神戸大学大学院工学研究科博士課程前期課程入学試験」与科目名大标题「電気回路・電子回路」；仅保留一行注意作公共区域。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2021-kairo-q2"
+   ],
+   "common": false,
+   "excluded": "页眉与科目名标题（与第 1 页重复）、左侧装订痕与空白页边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

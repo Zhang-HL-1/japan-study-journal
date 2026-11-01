@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2022-ryoushi",
+  "title": "神户大学 · 2022 入学年度 · 量子物理学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2022",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2022,
+    "yearBasis": "academic",
+    "subject": "量子物理学",
+    "originalSubject": "量子物理学",
+    "originalName": "ryoushi-2022.pdf",
+    "pdf": "assets/past-papers/documents/f043d15f462ec95f805b2f0f31c4bc65d4db64182dfc36acf08756ca224bc211.pdf",
+    "sha256": "f043d15f462ec95f805b2f0f31c4bc65d4db64182dfc36acf08756ca224bc211",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2022 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2022-ryoushi-q1",
+      "number": "問題 1",
+      "title": "不确定性原理、无限深势阱与厄米算符性质",
+      "titleKind": "editorial",
+      "topics": [
+        "不确定性原理",
+        "无限深势阱",
+        "厄米算符",
+        "简并"
+      ],
+      "summary": "取 ħ=h/2π、电子质量 m：1) 用约 100 字说明不确定性原理；2) 求一维井型势 V(x)=+∞(|x|>a/2)、0(|x|≤a/2) 中电子基态能量与归一化波函数（只写结论）；3) 用 ħ、m、k 等给出平面波 e^{i(kx-ωt)} 的群速度与相速度（只写结论）；4) 证明厄米算符不同本征值对应本征函数正交；5) 用微分算符表示 p_x 并证其厄米性；6) 证明一维束缚态能量本征值无简并。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1.」、ħ=h/2π 与 h 为普朗克常数、电子质量 m 的说明、1)–6) 小问齐全，含 V(x) 分段大括号式与 e^{i(kx-ωt)}；页脚「(2 枚目に続く)」为翻页提示，已排除在区域外（首版曾误含，已收紧至第 6) 问末行）。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-ryoushi/kobe-ee-2022-ryoushi-q1-01.png",
+          "page": 1,
+          "box": [
+            61.0,
+            98.0,
+            530.0,
+            392.0
+          ],
+          "width": 1173,
+          "height": 735,
+          "label": "問題 1：题干（ħ、m 与「問2・問3 只写结论」）与 1)–6) 全部小问，含井型势 V(x) 的分段定义式",
+          "sha256": "cb4e9a029af3e15fb11b9a8d5993a5105ad7d298c593bcb34509c5c6c7fcb30f"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2022-ryoushi-q2",
+      "number": "問題 2",
+      "title": "一维谐振子：定态方程、归一化常数与微扰",
+      "titleKind": "editorial",
+      "topics": [
+        "谐振子",
+        "薛定谔方程",
+        "归一化",
+        "微扰论"
+      ],
+      "summary": "质量 m 的电子在 F_x=-mω²x 下作一维谐振：1) 写出不含时薛定谔方程；2) 由给定基态解 ψ0=A0exp(-αx²/2)、α=mω/ħ 求归一化常数 A0 与基态能量 ε0；3) 对 Ψ=C0ψ0+C1ψ1（|C0|²+|C1|²=1）求位置期望值 ⟨x⟩ 与动量期望值 ⟨p_x⟩；4) 在势能上加微扰 λx²（λ 实数），用微扰论求基态关于 λ 的一阶微扰能量。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 2.」、F_x=-mω²x 与 ħ 说明、「導出過程も記す」要求、两个积分公式（含 a>0 条件）、1)–4) 全部小问与 ψ0、ψ1、α、Ψ 各式完整，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2022-ryoushi/kobe-ee-2022-ryoushi-q2-01.png",
+          "page": 2,
+          "box": [
+            60.3,
+            62.0,
+            531.0,
+            539.3
+          ],
+          "width": 1178,
+          "height": 1194,
+          "label": "問題 2：题干与两个积分公式、1) 定态薛定谔方程、2) A0 与 ε0、3) ⟨x⟩ 与 ⟨p_x⟩、4) λx² 一阶微扰能量",
+          "sha256": "a32ee89c4fb7c615861ea3aa6c65f9b3b28fed029f912ed94550423c89e55d4c"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2022-ryoushi-q1"
+      ],
+      "common": false,
+      "excluded": "页眉年度行、科目标题「量子物理学」、页脚「(2枚目に続く)」与下方空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2022-ryoushi-q2"
+      ],
+      "common": false,
+      "excluded": "页眉年度行与下方空白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

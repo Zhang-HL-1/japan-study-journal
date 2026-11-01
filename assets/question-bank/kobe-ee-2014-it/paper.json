@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2014-it",
+  "title": "神户大学 · 2014 入学年度 · 信息理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2014",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2014,
+    "yearBasis": "academic",
+    "subject": "信息理论",
+    "originalSubject": "情報理論",
+    "originalName": "it-26.pdf",
+    "pdf": "assets/past-papers/documents/e642a534d6bbd249f564fa3ef90cd2c44af6505486a674b0f2b8bb59485c47b6.pdf",
+    "sha256": "e642a534d6bbd249f564fa3ef90cd2c44af6505486a674b0f2b8bb59485c47b6",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2014 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2014-it/common-01.png",
+      "page": 1,
+      "box": [
+        42.0,
+        108.0,
+        446.0,
+        136.0
+      ],
+      "width": 1010,
+      "height": 70,
+      "label": "全卷作答说明（各問を指定された解答用紙に解答）",
+      "sha256": "838d38d1f0b623e0c6d16c5cb60893bd222a19c5d357bf29a289659ac83e323d"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2014-it-q1",
+      "number": "問題 1",
+      "title": "六符号源的 Huffman 编码与平均码长",
+      "titleKind": "editorial",
+      "topics": [
+        "ハフマン符号",
+        "平均符号長",
+        "エントロピー",
+        "情報源符号化"
+      ],
+      "summary": "给定 6 个信息源符号 S1–S6 及出现概率 1/2、1/4、1/16、1/16、1/16、1/16，作二元 Huffman 编码，求平均码长并证明其等于信息源熵。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "扫描页对照 2x 页图：問題 1 题号、S1–S6 与概率序列 (1/2, 1/4, 1/16, 1/16, 1/16, 1/16) 三行文字完整，末行「に、それが情報源のエントロピーと等しいことを示しなさい。」未切字；排除页眉与科目标题「情報理論」。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2014-it/kobe-ee-2014-it-q1-01.png",
+          "page": 1,
+          "box": [
+            42.0,
+            146.0,
+            546.0,
+            206.0
+          ],
+          "width": 1260,
+          "height": 150,
+          "label": "問題 1：题干、概率组与三项要求（符号化、平均符号长、等于熵）",
+          "sha256": "d1011ddaeac7208105b5f6f7dd69cc5412aaf919f32e761bcb21fb92d4fb5346"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2014-it-q2",
+      "number": "問題 2",
+      "title": "二元对称通信路的信道容量",
+      "titleKind": "editorial",
+      "topics": [
+        "2元対称通信路",
+        "通信路容量",
+        "相互情報量"
+      ],
+      "summary": "对给定的二元对称通信路，求其信道容量。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "扫描页对照 2x 页图：問題 2 题号与「２元対称通信路を与え、その通信路容量を求めなさい。」一行完整；原卷此題未印具体转移概率，已按原样收录并在待裁决点记录。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2014-it/kobe-ee-2014-it-q2-01.png",
+          "page": 1,
+          "box": [
+            42.0,
+            254.0,
+            546.0,
+            281.0
+          ],
+          "width": 1260,
+          "height": 68,
+          "label": "問題 2：题干（二元对称通信路的信道容量）",
+          "sha256": "6195ef7438fd8e261344583c72044b1e29d6a528f941b7deb0491ddc5622e736"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2014-it-q3",
+      "number": "問題 3",
+      "title": "(7,4,3) Hamming 码扩展为 SEC-DED 码",
+      "titleKind": "editorial",
+      "topics": [
+        "ハミング符号",
+        "SEC-DED",
+        "最小距離",
+        "検査ビット",
+        "誤り訂正"
+      ],
+      "summary": "对 (7,4,3) 二元 Hamming 码的各码字追加 1 个校验位使全码字重量为偶数，证明所得码长 8 位、信息位 4 位、最小距离 4，为 SEC-DED 码。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "扫描页对照 2x 页图：問題 3 题号与三行说明（重量偶数化、码长 8 ビット/情報点数 4 ビット、最小距離 4 の SEC-DED）完整，含 SEC-DED 连字符；排除页眉与科目标题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2014-it/kobe-ee-2014-it-q3-01.png",
+          "page": 1,
+          "box": [
+            42.0,
+            326.0,
+            546.0,
+            387.0
+          ],
+          "width": 1260,
+          "height": 153,
+          "label": "問題 3：题干（追加検査ビット、码长 8/信息位 4/最小距離 4 的 SEC-DED 证明）",
+          "sha256": "90c7d9c6383ada6e1abad2e9759444573395cd34cd8d8f1692f0a50d8cddb36f"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2014-it-q1",
+        "kobe-ee-2014-it-q2",
+        "kobe-ee-2014-it-q3"
+      ],
+      "common": true,
+      "excluded": "页眉「平成26年度 神戸大学大学院…入試」、科目标题「情報理論」、下半页大片空白与扫描污点；作答说明行已单独作为公共区域。",
+      "reviewed": true
+    }
+  ]
+}

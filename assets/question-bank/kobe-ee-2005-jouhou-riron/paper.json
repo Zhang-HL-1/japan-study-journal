@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2005-jouhou-riron",
+  "title": "神户大学 · 2005 入学年度 · 信息理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2005",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2005,
+    "yearBasis": "academic",
+    "subject": "信息理论",
+    "originalSubject": "情報理論",
+    "originalName": "jouhou-riron.pdf",
+    "pdf": "assets/past-papers/documents/8a83e1ce016ffb3c13a838911f4b14769b8348b43f5ba4668e486741fac7f920.pdf",
+    "sha256": "8a83e1ce016ffb3c13a838911f4b14769b8348b43f5ba4668e486741fac7f920",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2005 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2005-jouhou-riron-q1",
+      "number": "（1）〜（6）",
+      "title": "双重马尔可夫二元信息源的熵与伴随信息源",
+      "titleKind": "editorial",
+      "topics": [
+        "马尔可夫信息源",
+        "状态转移",
+        "定常概率",
+        "熵",
+        "伴随信息源"
+      ],
+      "summary": "给定双重马尔可夫二元信息源 S=({0,1},P)，P(0/00)=P(1/11)=1−p、P(1/00)=P(0/11)=p、P(0/01)=P(1/10)=1−q、P(1/01)=P(0/10)=q（0<p≪1/2、q≃1/2）。(1) 画状态转移图；(2) 求定常概率；(3) 用熵函数 H[X] 表示 H(S)；(4) 求 p(0)、p(1)；(5) 求伴随信息源的熵 H(S̄)；(6) 比较 H(S) 与 H(S̄) 并说明理由。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：本页为单一设问，原卷无大题番号而仅以 (1)〜(6) 分小问，故题号记为「（1）〜（6）」；S・P 的定义式（四条转移概率）、0<p≪1/2 与 q≃1/2 条件、H[X] 的定义式与小问 (1)〜(6) 完整；卷头日期「平成16年8月6日」与标题「大学院入試問題『情報理論』」已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-jouhou-riron/kobe-ee-2005-jouhou-riron-q1-01.png",
+          "page": 1,
+          "box": [
+            90.0,
+            181.0,
+            462.0,
+            622.0
+          ],
+          "width": 930,
+          "height": 1103,
+          "label": "全题：题干（S 与 P 定义、p・q 条件）、「答のみを解答用紙の指定欄に記載せよ」与小问 (1)〜(6)",
+          "sha256": "7c99983c8d7ea0a8d599ba855496930d3a83e2bac11f4aa02eba0858f7b7c2ff"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2005-jouhou-riron-q1"
+      ],
+      "common": false,
+      "excluded": "卷头标题「大学院入試問題『情報理論』」与右上日期「平成 16 年 8 月 6 日」；本页无作答说明（「答のみを…記載せよ」属题目正文，已在题框内），故无公共区域。",
+      "reviewed": true
+    }
+  ]
+}

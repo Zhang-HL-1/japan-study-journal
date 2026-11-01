@@ -1,0 +1,141 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2025-joho",
+ "title": "神户大学 · 2025 入学年度 · 信息通信工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2025",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2025,
+  "yearBasis": "academic",
+  "subject": "信息通信工学",
+  "originalSubject": "情報通信工学",
+  "originalName": "joho-2025.pdf",
+  "pdf": "assets/past-papers/documents/1cca79a1462b4a42ea467d9dfe81199fa3cecba4b0cf2c32f01b58bb5d9cc5ea.pdf",
+  "sha256": "1cca79a1462b4a42ea467d9dfe81199fa3cecba4b0cf2c32f01b58bb5d9cc5ea",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2025 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2025-joho-q1",
+   "number": "問題１.",
+   "title": "互信息与 KL 散度的关系填空",
+   "titleKind": "editorial",
+   "topics": [
+    "互信息",
+    "KL散度",
+    "相对熵",
+    "条件概率"
+   ],
+   "summary": "给定互信息 I(X;Y) 与 KL 散度 D(P||Q) 的定义式，在 (1)(2) 中填入空栏 (A)~(D)：(1) 由 I(X;Y)=Σ P(x,y)log P(x|y)/P(x) 的等式变形填 (A)(B)；(2) 由 D(P||Q)≥0 与 I(X;Y)=0 的条件填 (C)(D)。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      46.0,
+      113.7,
+      542.0,
+      491.0
+     ],
+     "label": "問題１.：题干、(a)(b) 两定义式、(1) 含空栏 (A)(B) 的等式变形、(2) 含空栏 (C)(D) 的条件"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題１.」、(a)(b) 两式及编号、空栏 (A)~(D) 四个方框、(1)(2) 说明与 for all x,y 条件齐全；页眉与科目名标题排除在框外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2025-joho-q2",
+   "number": "問題２.",
+   "title": "奇偶校验矩阵与线性分组码",
+   "titleKind": "editorial",
+   "topics": [
+    "线性分组码",
+    "校验矩阵",
+    "最小距离",
+    "生成矩阵",
+    "纠错"
+   ],
+   "summary": "对由 H=[[1,0,0,1,1,0],[0,1,0,1,0,1],[0,0,1,0,1,1]] 定义的二元线性码：(1) 求最小距离 d；(2) 求一个生成矩阵 G；(3) 通信路中丢失 1 比特、收到 y=(1,0,1,0,x,0) 时求正确码字。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      45.7,
+      529.0,
+      537.0,
+      676.3
+     ],
+     "label": "問題２.：题干与 H 矩阵、(1)(2)(3) 小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題２.」、H 的 3x6 矩阵、小问 (1)(2)(3) 与 y=(1 0 1 0 x 0) 的记号齐全，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2025-joho-q3",
+   "number": "問題３.",
+   "title": "模拟调制的填空",
+   "titleKind": "editorial",
+   "topics": [
+    "调频",
+    "FM",
+    "调制指数",
+    "带宽"
+   ],
+   "summary": "阅读关于模拟调制的文章，在 (1)~(5) 中填入适当词语：载波周波数、(2) 外部干扰、FM 可提供高 (3) 的声音、β=Δf/fm 称为 (4)、(4) 越大则 (5) 越宽。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      46.3,
+      63.7,
+      542.7,
+      393.0
+     ],
+     "label": "問題３.：题干与文章、空栏 (1)~(5)、s(t) 与 β 两式"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題３.」、FM/AM 说明段落、空栏 (1)~(5) 五处、s(t)=Acos(2πfct+2πΔf∫m(τ)dτ) 与 β=Δf/fm 两式齐全；页眉排除在框外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2025-joho-q1",
+    "kobe-ee-2025-joho-q2"
+   ],
+   "common": false,
+   "excluded": "页眉（2025年度…入学試験）、科目名标题「情報通信工学」与空白页边。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2025-joho-q3"
+   ],
+   "common": false,
+   "excluded": "页眉（2025年度…入学試験）与空白页边。",
+   "reviewed": true
+  }
+ ]
+}

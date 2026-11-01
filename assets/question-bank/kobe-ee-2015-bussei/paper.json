@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2015-bussei",
+  "title": "神户大学 · 2015 入学年度 · 物性工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2015",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2015,
+    "yearBasis": "academic",
+    "subject": "物性工学",
+    "originalSubject": "物性工学",
+    "originalName": "bussei-27.pdf",
+    "pdf": "assets/past-papers/documents/20f7e0a8f2e0ba652c44d9f4142744a22ceac05e46a03179d8e45df8c0cfb514.pdf",
+    "sha256": "20f7e0a8f2e0ba652c44d9f4142744a22ceac05e46a03179d8e45df8c0cfb514",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2015 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2015-bussei-q1",
+      "number": "問題 1",
+      "title": "面心立方晶格、基本矢量与倒格子",
+      "titleKind": "editorial",
+      "topics": [
+        "晶体结构",
+        "布拉维格子",
+        "倒格子",
+        "密勒指数"
+      ],
+      "summary": "以填空 (i)–(xvii) 说明布拉维格子分类、面心立方单胞内原子数与基本单位胞、基本平移矢量 a′=(a/2)(i+j) 等的长度 iii×a 与夹角 iv、倒格子矢量 G=ha*+kb*+lc* 的定义与 (hkl) 晶面、晶面间距 dhkl 与面内格点密度的大小关系。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1」、填空 (i)–(xvii) 连号无缺，図 1 的立方体与 a,b,c,a′,b′,c′ 标注及「図 1 面心立方格子」图号完整；与問題 2 之间空行断开，未串题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-bussei/kobe-ee-2015-bussei-q1-01.png",
+          "page": 1,
+          "box": [
+            49.3,
+            112.0,
+            546.7,
+            457.3
+          ],
+          "width": 1244,
+          "height": 864,
+          "label": "問題 1：填空 (i)–(xvii) 全段、图 1（面心立方格子）及图号与 a・b・c・a′・b′・c′ 标注",
+          "sha256": "1ec723bfd5f632244cea7f5a25af7a9b02bf206ae12171717662210e90af90f8"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2015-bussei-q2",
+      "number": "問題 2",
+      "title": "态密度公式与各向异性有效质量",
+      "titleKind": "editorial",
+      "topics": [
+        "能带",
+        "态密度",
+        "有效质量",
+        "锗"
+      ],
+      "summary": "由 D(E)=1/(4π³)∫dS/|∇_kE(k)| 出发，对球形等能面 E=ħ²k²/2m* 求 |∇_kE| 与 ∫dS，得 D(E)=[c]∝E^[d]；再就锗价带顶附近以横向／纵向有效质量 (m_t*, m_l*) 表示的各向异性 E(k)，判断等能面形状并给出 D(E) 中的有效质量。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 2」、式 (1) 与编号、填空 [a]–[h] 齐全，ħ²k²/2m* 与 (ħ²/2)(kx²/mt*+ky²/mt*+kz²/ml*) 两式及 m_t*, m_l* 说明均在框内，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-bussei/kobe-ee-2015-bussei-q2-01.png",
+          "page": 1,
+          "box": [
+            46.0,
+            468.7,
+            544.7,
+            769.3
+          ],
+          "width": 1247,
+          "height": 753,
+          "label": "問題 2：题干、态密度定义式 (1)、球形等能面的填空 [a]–[e]、锗价带顶 E(k) 与填空 [f]–[h]",
+          "sha256": "d4bff0a30c6b0b604a8f0d3849c4ff6e7925f3b40f270d7c8a82a75d5df0bda6"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2015-bussei-q1",
+        "kobe-ee-2015-bussei-q2"
+      ],
+      "common": false,
+      "excluded": "卷头页眉（平成 27 年度…入学試験）与科目名「物性工学」标题、空白页边与少量扫描污点，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

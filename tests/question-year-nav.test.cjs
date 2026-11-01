@@ -61,7 +61,9 @@ test('published papers switch years inside one program and do not cross schools'
   assert.deepEqual(neighbor(all, 'tus-electrical-2024-intl'), { previous: 'tus-electrical-2025-intl', next: null });
   assert.deepEqual(neighbor(all, 'tus-electrical-2025-intl'), { previous: null, next: 'tus-electrical-2024-intl' });
   assert.deepEqual(neighbor(all, 'tus-ee-2025-kairo'), { previous: null, next: null });
-  assert.deepEqual(neighbor(all, 'kobe-ee-2026-denjiki'), { previous: null, next: null });
+  assert.deepEqual(neighbor(all, 'kobe-ee-2026-denjiki'), { previous: null, next: 'kobe-ee-2025-denjiki' });
+  assert.deepEqual(neighbor(all, 'kobe-ee-2024-denjiki'), { previous: 'kobe-ee-2025-denjiki', next: 'kobe-ee-2022-denjiki' });
+  assert.deepEqual(neighbor(all, 'kobe-ee-2009-denjiki'), { previous: 'kobe-ee-2013-denjiki', next: 'kobe-ee-2008-bussei' });
   const previous = bank.adjacentPaperTargets(all, 'science-tokyo-ee-2019').previous;
   const target = JSON.parse(fs.readFileSync(path.join(root, 'assets/question-bank/science-tokyo-ee-2021/paper.json'), 'utf8'));
   assert.equal(previous.firstQuestionId, target.questions[0].id);

@@ -1,0 +1,121 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2013-bussei",
+ "title": "神户大学 · 2013 入学年度 · 物性工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2013",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2013,
+  "yearBasis": "academic",
+  "subject": "物性工学",
+  "originalSubject": "物性工学",
+  "originalName": "bussei-25.pdf",
+  "pdf": "assets/past-papers/documents/a67393a8bb1d4afbcbe1d49e6acbe81bda0c0bde7f53c7ee62fa7b9605c72a5b.pdf",
+  "sha256": "a67393a8bb1d4afbcbe1d49e6acbe81bda0c0bde7f53c7ee62fa7b9605c72a5b",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2013 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2013-bussei-q1",
+   "number": "問題 I",
+   "title": "金刚石结构填空（晶体结构与共价键）",
+   "titleKind": "editorial",
+   "topics": [
+    "晶体结构",
+    "金刚石结构",
+    "共价键",
+    "杂化轨道",
+    "填空"
+   ],
+   "summary": "阅读关于最常用半导体元素结晶构造的填空文章，把 [ 1 ]〜[ 12 ] 处的词语、数式与记号填入答题栏。内容涉及该元素名称、面心立方（金刚石）结构的原子构成、体对角线上的位移、最近邻原子数 4 与正四面体配位、以及 sp³ 杂化轨道形成共价键的说明，并配有図 1 的结晶结构图。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      56.3,
+      136.7,
+      524.3,
+      507.3
+     ],
+     "label": "問題 I：题号与作答指示、含 [ 1 ]〜[ 12 ] 的填空文章、図 1 结晶结构图与图号「図 1」"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：「問題 I.」题号与「…対応する解答欄に書け.」指示、六行填空文章的 [ 1 ]〜[ 12 ] 全部编号、下方结晶结构图与「図 1: [ 1 ]結晶の構造」图号均在框内；页眉、科目名「物性工学」与页脚页码「1」已排除。"
+   }
+  },
+  {
+   "id": "kobe-ee-2013-bussei-q2",
+   "number": "問題 II",
+   "title": "近自由电子近似下的能带与能隙",
+   "titleKind": "editorial",
+   "topics": [
+    "近自由电子近似",
+    "周期势",
+    "布洛赫定理",
+    "布里渊区",
+    "能隙"
+   ],
+   "summary": "把 [ i ]〜[ x ] 处的词语与数式填入答题栏：从周期 a 的一维晶格出发，用平面波与倒格矢 g_m=2πm/a 的傅里叶展开，写出无微扰能量 E⁰(k)，经微扰得到系数方程与二波近似联立式，导出 E±(k)、第一布里渊区边界 k=±π/a 处的能量与能隙 E_gap，并配図 2 (a)(b) 的一维晶格与 E(k) 模式图。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      55.0,
+      530.7,
+      522.3,
+      723.3
+     ],
+     "label": "問題 II（前半）：题号与作答指示、含 [ i ]・[ ii ] 的正文、V(x) 的 Fourier 级数展开式与「と書ける.」"
+    },
+    {
+     "page": 2,
+     "box": [
+      55.3,
+      85.3,
+      526.0,
+      729.3
+     ],
+     "label": "問題 II（后半・无题号续页）：含 [ iii ]〜[ x ] 的推导正文、系数方程与 2 波近似式、E±(k) 与 E_gap 式、図 2 (a)(b) 与图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1、2 页：問題 II 自第 1 页「問題 II.」起，至第 1 页「と書ける.」为第一区域；第 2 页无题号直接续接「ほとんど自由な電子の近似で Brillouin Zone…」，含 [ iii ]〜[ x ]、各推导式与図 2 (a)(b) 及「図 2: (a) 一次元結晶, (b) エネルギー・バンドの模式図」图号，为第二区域。两区域衔接处未重复、未缺失正文；页眉与页脚页码「1」「2」均排除。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2013-bussei-q1",
+    "kobe-ee-2013-bussei-q2"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "顶部页眉「平成 25 年度神戸大学大学院工学研究科…入学試験」、科目名大标题「物性工学」、页脚页码「1」与空白页边；本页无全卷作答说明，故无公共区域。"
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2013-bussei-q2"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "顶部页眉、页脚页码「2」与下部空白页边；本页为問題 II 的续页，无公共区域。"
+  }
+ ]
+}

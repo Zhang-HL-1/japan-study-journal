@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2026-math",
+  "title": "神户大学 · 2026 入学年度 · 数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2026",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2026,
+    "yearBasis": "academic",
+    "subject": "数学",
+    "originalSubject": "数学",
+    "originalName": "math-2026.pdf",
+    "pdf": "assets/past-papers/documents/0959f48dbc8b6a03bf5088aeb2d3e2dea86a52afdd67045b2711b9e0d7e07c29.pdf",
+    "sha256": "0959f48dbc8b6a03bf5088aeb2d3e2dea86a52afdd67045b2711b9e0d7e07c29",
+    "pageCount": 3,
+    "note": "来自既有过去问目录。2026 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/kobe-ee-2026-math/common-01.png",
+      "page": 1,
+      "box": [
+        74.3,
+        285.7,
+        517.0,
+        455.0
+      ],
+      "width": 1108,
+      "height": 424,
+      "label": "全卷作答说明（注意事項 (1)–(4)）",
+      "sha256": "f638b792fa4d0114d7e015aaf0334fe2443a678131b6c232a3de64cd2d39b85f"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kobe-ee-2026-math-q1",
+      "number": "1.",
+      "title": "接平面与体积最小值、矩阵分式变换",
+      "titleKind": "editorial",
+      "topics": [
+        "接平面",
+        "体積最小化",
+        "行列",
+        "三角関数"
+      ],
+      "summary": "在球面 x^2+y^2+z^2=1 上取点 (a,b,c)（a,b,c>0），求接平面方程及它与三坐标面围成的立体体积 V，并求 V 的最小值与取到时的 a,b,c；再对 A=(0, tan(θ/2); −tan(θ/2), 0) 用 sinθ、cosθ 表示矩阵 (I−A)(I+A)^{-1}。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页扫描图（text 层为空）：题号「1.」、总起句「つぎの各問いに答えよ.」、小问 (1)(1-a)(1-b)(2) 齐全，含 2x2 矩阵 A 与 I 的定义句，无切字、无下一题串入。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-math/kobe-ee-2026-math-q1-01.png",
+          "page": 2,
+          "box": [
+            65.7,
+            80.7,
+            519.0,
+            299.3
+          ],
+          "width": 1134,
+          "height": 548,
+          "label": "1.：题干、(1) 接平面 (1-a)/(1-b) 体积与最小值、(2) 矩阵 (I−A)(I+A)^{-1}",
+          "sha256": "745e38b3bf5e470c0fc58da40f48728302b0934299d689fbeba279eea9a0e8ba"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2026-math-q2",
+      "number": "2.",
+      "title": "复变函数积分与实积分",
+      "titleKind": "editorial",
+      "topics": [
+        "複素積分",
+        "留数",
+        "経路積分",
+        "実積分"
+      ],
+      "summary": "对 f(z)=e^{iz}/(z−i) 沿三分段路径 C=C1∪C2∪C3 求复积分；证明 z∈C1 时 |z−i|≥(R−1)/√2，据此证 lim_{R→∞}∫_{C1} f dz=0；最后求实积分 ∫_{−∞}^{∞}(cos x + x sin x)/(x^2+1) dx。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「2.」、f(z)=e^{iz}/(z−i)、R>1 与三段路径 C1,C2,C3、C=C1∪C2∪C3 的说明、小问 (1)–(4) 及 ∫ 上下限完整，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-math/kobe-ee-2026-math-q2-01.png",
+          "page": 2,
+          "box": [
+            65.0,
+            324.0,
+            528.3,
+            550.7
+          ],
+          "width": 1159,
+          "height": 567,
+          "label": "2.：题干与路径 C1/C2/C3 定义、(1) 复积分、(2) |z−i| 下界、(3) C1 极限、(4) 实积分",
+          "sha256": "9b314ffcea40d77c1fc928e10d7552ff0c5eb6ea2fd0d8efa6f36e04c6224d49"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2026-math-q3",
+      "number": "3.",
+      "title": "一阶微分方程与变量替换",
+      "titleKind": "editorial",
+      "topics": [
+        "微分方程式",
+        "変数変換",
+        "初期値問題"
+      ],
+      "summary": "对 x≥0 上的微分方程 y′=(4x−y+2)^2（标号 (*)），先求所有形如 y(x)=αx+β 的解、再由 u=4x−y+2 导出 u 的方程并求解，最后在条件 y(0)=1 下求 (*) 的解。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「3.」、方程 y′=(4x−y+2)^2 与右端标号 (*)、小问 (1)(2)(3) 完整；页脚「(裏面へ続く)」为翻页提示，已排除在区域外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-math/kobe-ee-2026-math-q3-01.png",
+          "page": 2,
+          "box": [
+            65.0,
+            577.7,
+            533.7,
+            738.3
+          ],
+          "width": 1173,
+          "height": 402,
+          "label": "3.：题干与方程 (*)、(1) 线型解、(2) u=4x−y+2 变换、(3) 初值定解",
+          "sha256": "3f1ebdd0c203933fb582f55024a0bee864b043fc76147febb4ead7349b45d6a4"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2026-math-q4",
+      "number": "4.",
+      "title": "拉普拉斯变换与积分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "積分方程式",
+        "微分方程式"
+      ],
+      "summary": "以 F(s)=∫_0^∞ f(t)e^{−st}dt 为定义：求 sin t 的拉普拉斯变换；用 F(s) 与 s 表示 g(t)=∫_0^t f(x)dx 的拉普拉斯变换 G(s)；最后求满足 f(t)−2∫_0^t f dx+∫_0^t(∫_0^x f dy)dx = t sin t (t≥0) 的函数 f。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 3 页（该页仅此题）：题号「4.」、拉普拉斯变换定义式与积分号上下限、小问 (1)(2)(3)、含两层积分的等式与 t≥0 条件完整，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-math/kobe-ee-2026-math-q4-01.png",
+          "page": 3,
+          "box": [
+            68.3,
+            83.3,
+            519.7,
+            252.0
+          ],
+          "width": 1130,
+          "height": 422,
+          "label": "4.：定义式、小问 (1) sin t 变换、(2) 积分函数 G(s)、(3) 积分方程求 f",
+          "sha256": "add967ce6c0c0513c5a168314000a6568e3756c20047e1dd5735fca51b7400f9"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "卷头标题（2026 年度、大学院工学研究科、博士课程前期课程、科目名）与空白页边；仅保留「注意事項」(1)–(4) 作公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2026-math-q1",
+        "kobe-ee-2026-math-q2",
+        "kobe-ee-2026-math-q3"
+      ],
+      "common": false,
+      "excluded": "空白页边、扫描污点与页脚翻页提示「(裏面へ続く)」，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "kobe-ee-2026-math-q4"
+      ],
+      "common": false,
+      "excluded": "仅一题；空白页边与扫描污点不计入。",
+      "reviewed": true
+    }
+  ]
+}

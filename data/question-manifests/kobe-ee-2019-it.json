@@ -1,0 +1,143 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2019-it",
+ "title": "神户大学 · 2019 入学年度 · 信息理论",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2019",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2019,
+  "yearBasis": "academic",
+  "subject": "信息理论",
+  "originalSubject": "情報理論",
+  "originalName": "it-31.pdf",
+  "pdf": "assets/past-papers/documents/2ea13f5312859b68080e2d49fee759e7d8805b9559e064a1403f01aec64ec4ff.pdf",
+  "sha256": "2ea13f5312859b68080e2d49fee759e7d8805b9559e064a1403f01aec64ec4ff",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2019 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    55.3,
+    111.3,
+    399.3,
+    133.3
+   ],
+   "label": "全卷作答说明（以下の問いについて、それぞれ指定された解答用紙に解答しなさい）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2019-it-q1",
+   "number": "問題 1.",
+   "title": "二元ハフマン符号の構成と平均符号長の評価",
+   "titleKind": "editorial",
+   "topics": [
+    "ハフマン符号",
+    "情報源符号化",
+    "平均符号長"
+   ],
+   "summary": "情報源 S=(a:1/3, b:1/5, c:1/5, d:2/15, e:2/15) に対する二元ハフマン符号 C を構成し、S'=(f〜j 各 1/5) に対して C より平均符号長の短い二元ハフマン符号が構成できないことを示す。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      55.3,
+      151.0,
+      548.0,
+      277.3
+     ],
+     "label": "問題 1.：題号、情報源 S の定義、(1)(2)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：題号「問題 1.」、S の確率表（1/3, 1/5, 1/5, 2/15, 2/15）、情報量の単位と log2 5=2.32、(1)(2) と S' の確率表まで入框；页眉・科目名と作答说明行未入框，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2019-it-q2",
+   "number": "問題 2.",
+   "title": "二元対称通信路における復号誤り確率",
+   "titleKind": "editorial",
+   "topics": [
+    "二元対称通信路",
+    "復号誤り確率",
+    "符号化",
+    "通信路符号化定理"
+   ],
+   "summary": "符号長 n=10k・情報記号数 k の符号化を反転確率 p=1/3 の二元対称通信路で送り n をいくらでも大きくできるとき、任意の正の数より小さい復号誤り確率 p_e を達成する符号が存在するかどうかを理由とともに述べる。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      55.3,
+      309.7,
+      547.7,
+      386.7
+     ],
+     "label": "問題 2.：題号、n=10k・p=1/3・log3=1.58 の条件と設問"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：題号「問題 2.」、n=10k と k の関係、反転確率 p=1/3、n は制限なく大きくてよい条件、log3=1.58 まで入框；问题 1.(2) 结尾行与问题 3. 题号均不在框内，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2019-it-q3",
+   "number": "問題 3.",
+   "title": "パリティ検査行列で定義される線形符号",
+   "titleKind": "editorial",
+   "topics": [
+    "線形符号",
+    "パリティ検査行列",
+    "最小距離",
+    "生成行列",
+    "シンドローム"
+   ],
+   "summary": "3×7 のパリティ検査行列 H で定義される線形符号について最小距離 d を答え、生成行列 G を一つ求め、受信語 y=(0 0 1 1 0 1 1) のシンドロームを計算して正しい送信語を求める。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      55.0,
+      417.3,
+      539.7,
+      547.7
+     ],
+     "label": "問題 3.：題号、パリティ検査行列 H、(1)〜(3)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：題号「問題 3.」、3×7 のパリティ検査行列 H の全要素、(1) 最小距離、(2) 生成行列、(3) 受信語 y=(0 0 1 1 0 1 1) とシンドロームの指示まで入框；页眉・科目名未入框，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2019-it-q1",
+    "kobe-ee-2019-it-q2",
+    "kobe-ee-2019-it-q3"
+   ],
+   "common": true,
+   "excluded": "页眉「平成 31 年度神戸大学大学院工学研究科…」、科目名「情報理論」与空白页边；作答说明行另立 commonRegion。本卷仅 1 页且无翻页提示。",
+   "reviewed": true
+  }
+ ]
+}

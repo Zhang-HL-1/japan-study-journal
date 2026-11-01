@@ -1,0 +1,182 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2013-math",
+ "title": "神户大学 · 2013 入学年度 · 数学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2013",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2013,
+  "yearBasis": "academic",
+  "subject": "数学",
+  "originalSubject": "数学",
+  "originalName": "math-25.pdf",
+  "pdf": "assets/past-papers/documents/6e0dbe6e2618d18e5e69abfa5b80170df45c8e5ecddd16b1ed2a008263ecd0de.pdf",
+  "sha256": "6e0dbe6e2618d18e5e69abfa5b80170df45c8e5ecddd16b1ed2a008263ecd0de",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2013 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    68.7,
+    268.3,
+    537.3,
+    414.3
+   ],
+   "label": "全卷作答说明（注意事項 (1)–(3)）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2013-math-q1",
+   "number": "1.",
+   "title": "广义二重积分与矩阵特征值",
+   "titleKind": "editorial",
+   "topics": [
+    "广义二重积分",
+    "极坐标变换",
+    "矩阵特征值",
+    "特征向量"
+   ],
+   "summary": "在去掉原点的全平面上求 ∫∫_D e^{-(x²+y²)}·x²/(x²+y²) dxdy 的广义二重积分值；再求 3 阶矩阵 A=(0 1 0;0 0 1;6 -11 6) 的全部特征值与特征向量。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      66.7,
+      52.7,
+      536.0,
+      222.0
+     ],
+     "label": "1.：总起句、(1) 广义二重积分、(2) 矩阵 A 的特征值与特征向量"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「1.」与总起句「つぎの各問いに答えよ.」、(1) 的定义域 D 与积分式、(2) 的 3x3 矩阵 A 及「固有値・固有ベクトル」要求齐全，无切字、无下一题串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2013-math-q2",
+   "number": "2.",
+   "title": "一阶微分方程的变量替换与初值问题",
+   "titleKind": "editorial",
+   "topics": [
+    "微分方程",
+    "变量替换",
+    "一阶线性方程",
+    "初值问题"
+   ],
+   "summary": "对方程 (3x-y-2)dy/dx-(6x-2y+3)=0（标号 (*)）：令 u=3x-y 导出 u 的微分方程，解之得 (*) 的通解，再由 y(1)=3 求特解。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      65.0,
+      239.0,
+      535.3,
+      390.0
+     ],
+     "label": "2.：题号、方程 (*)、(1) u 变换、(2) 通解、(3) 初值特解"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「2.」、微分方程与右侧编号 (*)、「を考える.」及小问 (1)(2)(3) 完整；方程的分式 dy/dx 与括号均未切边。"
+   }
+  },
+  {
+   "id": "kobe-ee-2013-math-q3",
+   "number": "3.",
+   "title": "复变函数泰勒展开与围道积分",
+   "titleKind": "editorial",
+   "topics": [
+    "复变函数",
+    "泰勒展开",
+    "奇点",
+    "围道积分"
+   ],
+   "summary": "f(z)=sin z/z 满足 sin z=z f(z)：求 f(0)、f′(0)、f″(0) 并证 |z|<π 时 f(z)≠0；令 F(z)=1/f(z) 求其在 z=0 的泰勒展开至 z² 项；沿单位圆 C 计算 ∮_C dz/sin³z。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      66.0,
+      407.5,
+      535.3,
+      614.3
+     ],
+     "label": "3.：题号与函数条件、(1) 各阶导数与非零证明、(2) F(z) 泰勒展开、(3) 单位圆上复积分"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「3.」、sin z=z f(z) 条件、(1)(2)(3) 全部小问与积分号 ∮_C 1/sin³z dz 完整，单位圆 C 的方向说明在框内。"
+   }
+  },
+  {
+   "id": "kobe-ee-2013-math-q4",
+   "number": "4.",
+   "title": "分段函数的傅里叶级数与级数求和",
+   "titleKind": "editorial",
+   "topics": [
+    "傅里叶级数",
+    "分段函数",
+    "偶函数展开",
+    "级数求和"
+   ],
+   "summary": "0<a<π 时分段定义 f(x)=(a-|x|)/a² (-a≤x≤a)、0（其余）：在 [-π,π] 上展开为傅里叶级数，并用该结果求 Σ_{k≥1} sin²(ka/2)/k²。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      66.0,
+      630.5,
+      512.0,
+      739.3
+     ],
+     "label": "4.：题号与分段函数大括号定义、(1) 傅里叶展开、(2) 级数求和"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页底部：题号「4.」、0<a<π 条件、分段函数 f(x) 的大括号与两行区间、小问 (1)(2) 及求和式完整，页面底边外无内容。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "reviewed": true,
+   "excluded": "卷头标题（平成 25 年度・研究科名・「（数学：電気電子工学専攻）」）与空白页边；仅将注意事項 (1)–(3) 收作公共区域，本页无题目。"
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2013-math-q1",
+    "kobe-ee-2013-math-q2",
+    "kobe-ee-2013-math-q3",
+    "kobe-ee-2013-math-q4"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "空白页边与扫描噪点；原卷正文页无页眉页码，无翻页提示。"
+  }
+ ]
+}

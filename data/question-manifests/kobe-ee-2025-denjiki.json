@@ -1,0 +1,109 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2025-denjiki",
+ "title": "神户大学 · 2025 入学年度 · 电磁气学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2025",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2025,
+  "yearBasis": "academic",
+  "subject": "电磁学",
+  "originalSubject": "電磁気学",
+  "originalName": "denjiki-2025.pdf",
+  "pdf": "assets/past-papers/documents/780b6fba2891e4c30572d4579a9d2947ba31ac3be406724333f03568413ca730.pdf",
+  "sha256": "780b6fba2891e4c30572d4579a9d2947ba31ac3be406724333f03568413ca730",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2025 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2025-denjiki-q1",
+   "number": "問題1.",
+   "title": "介质平面镜像法与点电荷受力",
+   "titleKind": "editorial",
+   "topics": [
+    "镜像法",
+    "介质界面",
+    "边界条件",
+    "库仑力"
+   ],
+   "summary": "诱电体(诱电率 ε)表面距离 a 的真空中有点电荷 q：1) 画电场线大致形状；2) 真空侧电位 V1 与 q,q' 的关系；3) 诱电体内电位 V2 与 q'' 的关系；4) 写出 x=0 的边界条件；5) 由边界条件求 q' 与 q；6) 求 q 受的力；再将诱电体换成完全导体，7) 求 q 受的力、8) 比较两者大小并说明理由。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      49.0,
+      112.3,
+      550.7,
+      692.3
+     ],
+     "label": "問題1.：题干与 1)~8) 全部小问，含图1・图2・图3 三图及图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題1.」、总起句、1)~8) 小问齐全，右侧图1（诱电体/真空界面与 q）、图2（q' 与 q）、图3（诱电体内 q''）三图及图号均在框内，无切字、无页眉串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2025-denjiki-q2",
+   "number": "問題2.",
+   "title": "同轴电缆磁场、电感与磁能",
+   "titleKind": "editorial",
+   "topics": [
+    "安培环路定律",
+    "同轴电缆",
+    "电感",
+    "磁能",
+    "矢量位"
+   ],
+   "summary": "内导体半径 a、外导体 b~c 的同轴电缆，内导体沿 +z 通电流 I、外导体沿 -z 回流，间隙充满磁导率 μ 的介质：1)2) 求各区域磁界 H 的大小与方向；3) 在 b=3a,c=4a 时图示 |H| 与 ρ 的关系；4) 求单位长度磁束 Φ；5) 求单位长度自感 L；6) 由 B 与 A 的关系求间隙内矢量位；7)8) 再由磁能求内导体内部电感 Li。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      24.7,
+      64.7,
+      568.7,
+      682.7
+     ],
+     "label": "問題2.：题干与 1)~8) 全部小问，含图4 同轴电缆断面图与图号、∇×A 的圆柱坐标展开式"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題2.」、总起句与 ρ,φ,z 定义、1)~8) 小问齐全，含图4 断面图及图号、∇×A 三行展开式与「次に，内部導体の内部インダクタンス Li を求める.」过渡句，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2025-denjiki-q1"
+   ],
+   "common": false,
+   "excluded": "页眉（2025年度…入学試験）、科目名标题「電磁気学」与空白页边；本页无独立全卷说明。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2025-denjiki-q2"
+   ],
+   "common": false,
+   "excluded": "页眉（2025年度…入学試験）与空白页边。",
+   "reviewed": true
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2014-seigyo",
+ "title": "神户大学 · 2014 入学年度 · 自动控制",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2014",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2014,
+  "yearBasis": "academic",
+  "subject": "自动控制",
+  "originalSubject": "自動制御",
+  "originalName": "seigyo-26.pdf",
+  "pdf": "assets/past-papers/documents/6e3897ade5e6da83ab22034ee0eb5c212da40c6a691f6d37d5cb31a7a69f17b4.pdf",
+  "sha256": "6e3897ade5e6da83ab22034ee0eb5c212da40c6a691f6d37d5cb31a7a69f17b4",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2014 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2014-seigyo-q1",
+   "number": "問題 1",
+   "title": "反馈控制系的传递函数与 Nyquist 稳定判据",
+   "titleKind": "editorial",
+   "topics": [
+    "伝達関数",
+    "インパルス応答",
+    "ナイキストの安定判別",
+    "定常値"
+   ],
+   "summary": "给定 G(s)=1/[(1+s)^2(2+3s)^2]、H(s)=K，求 G(s) 的冲激响应（逆拉普拉斯变换）并图示 t=0 与 t→∞ 的波形；再求图 1 中 G_yr(s) 与 G_yd(s)、用 Nyquist 判据求稳定时 K 的范围，以及目标值与外扰同时为单位阶跃时的定常值。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      48.0,
+      112.0,
+      570.0,
+      436.0
+     ],
+     "label": "問題 1：题干与 G(s)、H(s)、小问 1–4、図 1（閉ループ制御系）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 1 题号、G(s) 与 H(s)=K 的定义式 (1)、小问 1–4（含 e^-2≈0.14/e^-3≈0.05 的提示）齐全，图 1 方框图与「図 1: 閉ループ制御系」图题完整；排除页眉与科目标题「自動制御」。"
+   }
+  },
+  {
+   "id": "kobe-ee-2014-seigyo-q2",
+   "number": "問題 2",
+   "title": "双环控制系的 Routh 稳定判据与定常偏差",
+   "titleKind": "editorial",
+   "topics": [
+    "ラウスの安定判別",
+    "多ループ制御系",
+    "閉ループ伝達関数",
+    "定常偏差"
+   ],
+   "summary": "对图 2 的双环系统（A(s)=1/(s^2+4s+16)、B(s)=1/s，增益 K1–K3）判断 A(s)、B(s) 自身的稳定性并说明理由；在 K2=1、K3=0 时用 Routh 表求 K1 的稳定范围；再在 K2>0、K3>0 下求 G_yr(s) 与单位阶跃目标值的定常偏差。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      48.0,
+      440.0,
+      570.0,
+      762.0
+     ],
+     "label": "問題 2：题干、図 2（閉ループ制御系）与图题、式 (2)、小问 1–4"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 2 题号与 K1/K2/K3、A(s)、B(s) 的条件、图 2 方框图及图题、式 (2) 与小问 1–4 完整；框下界收在 4. 末行之下，无页脚内容。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2014-seigyo-q1",
+    "kobe-ee-2014-seigyo-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」与科目标题「自動制御」、及页边空白；本页无独立作答说明。",
+   "reviewed": true
+  }
+ ]
+}

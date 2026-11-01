@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2021-seigyo",
+ "title": "神户大学 · 2021 入学年度 · 自动控制",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2021",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2021,
+  "yearBasis": "academic",
+  "subject": "自动控制",
+  "originalSubject": "自動制御",
+  "originalName": "seigyo-2021.pdf",
+  "pdf": "assets/past-papers/documents/ea1af715cf38ca0d0f0c1bb6c7887716f23ac5bff95a72e260bc340dc3f04cd2.pdf",
+  "sha256": "ea1af715cf38ca0d0f0c1bb6c7887716f23ac5bff95a72e260bc340dc3f04cd2",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2021 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2021-seigyo-q1",
+   "number": "問題1.",
+   "title": "闭环系统的稳定性与阶跃响应",
+   "titleKind": "editorial",
+   "topics": [
+    "传递函数",
+    "稳定性判据",
+    "奈奎斯特判据",
+    "阶跃响应",
+    "稳态偏差"
+   ],
+   "summary": "对図1 的闭环系统（G(s)=(s+3)/(2s(s+2))、H(s)=1/(2s+1)、K 为正定数）判断 G(s) 与 H(s) 各自是否稳定并给出理由，求 G(s) 的单位阶跃响应并画概形、指明 t=0 与 t→∞ 的行为（可用 e^{-0.5}≈0.61、e^{-1}≈0.37、e^{-2}≈0.14），再用奈奎斯特判据判断闭环稳定性，最后求目标值 r 为单位阶跃时控制量 y 的稳态偏差。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      46.0,
+      107.0,
+      568.0,
+      458.3
+     ],
+     "label": "問題1.：题干、式 (1)(2)、小问 1.–4.、図1 与其图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題1．」、r・y・K 的说明、G(s)=(s+3)/(2s(s+2)) 式(1)、H(s)=1/(2s+1) 式(2)、1.–4. 四小问（含 e^{-0.5}≈0.61、e^{-1}≈0.37、e^{-2}≈0.14 三个近似值）、図1 方框图与「図 1: 閉ループ制御系」图号齐全，无切字；页眉与科目名标题在框外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2021-seigyo-q2",
+   "number": "問題2.",
+   "title": "双环系统传递函数与过渡响应",
+   "titleKind": "editorial",
+   "topics": [
+    "闭环传递函数",
+    "劳斯判据",
+    "稳态偏差",
+    "过渡响应"
+   ],
+   "summary": "对図2 的双环系统（K1/s 与 1/(Ts+2) 前向、K2 内环反馈，K1・K2 非零定数、T 正定数）求 r→y 的闭环传递函数 G_yr(s)，用劳斯判据判断稳定性，求 r 为斜坡输入时的稳态偏差，并在 K1=17、K2=2、T=4 时求单位阶跃下的过渡响应 y(t)，说明能否把稳态偏差降为零及其理由。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      46.0,
+      462.7,
+      568.0,
+      751.3
+     ],
+     "label": "問題2.：题干、図2 方框图与图号、小问 1.–4."
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題2．」、K1・K2・T 的说明、図2 双环方框图与「図 2: 閉ループ制御系」图号、1.–4. 四小问（含 K1=17, K2=2, T=4 的数值设定）齐全，无切字；下方空白页边与扫描污点在框外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2021-seigyo-q1",
+    "kobe-ee-2021-seigyo-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「2021 年度神戸大学大学院工学研究科博士課程前期課程入学試験」、科目名标题「自動制御」、左侧装订痕、题间空白与下方空白页边；卷面直接从問題1 开始，无独立作答说明，故无 common region。",
+   "reviewed": true
+  }
+ ]
+}

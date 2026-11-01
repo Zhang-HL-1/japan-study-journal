@@ -1,0 +1,140 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2022-it",
+ "title": "神户大学 · 2022 入学年度 · 信息理论",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2022",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2022,
+  "yearBasis": "academic",
+  "subject": "信息理论",
+  "originalSubject": "情報理論",
+  "originalName": "it-2022.pdf",
+  "pdf": "assets/past-papers/documents/003265aea36cc16e1b34dab9cf7fa1a15f8350788a0061e32971e1f891ef9afc.pdf",
+  "sha256": "003265aea36cc16e1b34dab9cf7fa1a15f8350788a0061e32971e1f891ef9afc",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2022 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    48.3,
+    109.7,
+    540.3,
+    149.7
+   ],
+   "label": "作答与单位说明：「以下の問いについて、それぞれ指定された答案用紙に解答しなさい。なお，情報量の単位は bit とする。」"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2022-it-q1",
+   "number": "問題 1",
+   "title": "二元熵函数的数值计算",
+   "titleKind": "editorial",
+   "topics": [
+    "熵",
+    "信息量",
+    "对数估算"
+   ],
+   "summary": "关于二元熵函数 H(p)，利用 log₂3 ≈ 1.58 这一事实求 H(1/4) 的数值。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      49.0,
+      163.7,
+      542.3,
+      203.0
+     ],
+     "label": "問題 1：题干（H(p)、log₂3 ≈ 1.58）与 H(1/4) 求解要求"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷唯一页：题号「問題 1.」、二元エントロピー関数 H(p)、「log₂3 ≈ 1.58 という事実を用いて H(1/4) の数値を求めなさい」完整，无切字；下一题「問題 2.」（y≈224）未串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2022-it-q2",
+   "number": "問題 2",
+   "title": "有错通信路的信道容量",
+   "titleKind": "editorial",
+   "topics": [
+    "信道容量",
+    "转移概率",
+    "互信息"
+   ],
+   "summary": "3 个发送符号 x1、x2、x3 经图示的有错通信路传输（各符号以概率 1/2 分流到两个输出），求该通信路的信道容量。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      48.3,
+      218.0,
+      541.7,
+      392.0
+     ],
+     "label": "問題 2：题干与信道图（X、x1~x3、y1~y3、Y、各枝标注 1/2）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷唯一页：题号「問題 2.」、「3 つの送信記号 x1,x2,x3 を以下の図の誤りのある通信路を通して伝送する。この通信路の通信路容量を求めなさい」与信道图（输入 X 与 x1/x2/x3、输出 y1/y2/y3 与 Y、各枝概率 1/2）完整，图未切边；下一题「問題 3.」（y≈422）未串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2022-it-q3",
+   "number": "問題 3",
+   "title": "连接码的线性性与最小汉明距离",
+   "titleKind": "editorial",
+   "topics": [
+    "汉明距离",
+    "线性码",
+    "连接码"
+   ],
+   "summary": "对最小汉明距离 d1、d2 的二元线性码 C1、C2 及其连接码 C={c1||c2}（|| 表示连接）：(1) 求 C1={00,11}、C2={000,111} 时的 d1、d2；(2) 证明由它们构成的 C 是二元线性码；(3) 求 C 的最小汉明距离 d；(4) 一般地证明任意二元线性码 C1、C2 的连接码满足 d = min{d1,d2}。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      49.0,
+      416.7,
+      542.3,
+      566.0
+     ],
+     "label": "問題 3：题干与 ||（concatenations）说明、小问 (1)–(4)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷唯一页：题号「問題 3.」、C={c1||c2: c1∈C1, c2∈C2} 定义与「||は連結（concatenations）を表す」说明、(1)–(4) 四问（含 d1,d2、C1={00,11}、C2={000,111}、d=min{d1,d2}）完整，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2022-it-q1",
+    "kobe-ee-2022-it-q2",
+    "kobe-ee-2022-it-q3"
+   ],
+   "common": true,
+   "excluded": "页眉年度行、科目标题「情報理論」、页面下方大段空白，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

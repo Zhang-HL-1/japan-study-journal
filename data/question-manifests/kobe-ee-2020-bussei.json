@@ -1,0 +1,108 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2020-bussei",
+ "title": "神户大学 · 2020 入学年度 · 物性工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2020",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2020,
+  "yearBasis": "academic",
+  "subject": "物性工学",
+  "originalSubject": "物性工学",
+  "originalName": "bussei-2020.pdf",
+  "pdf": "assets/past-papers/documents/8bb3ef5659eb9254f05f18841f4ebd944907d5af290b726b744e334b993f9c0a.pdf",
+  "sha256": "8bb3ef5659eb9254f05f18841f4ebd944907d5af290b726b744e334b993f9c0a",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2020 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2020-bussei-q1",
+   "number": "問題 1．",
+   "title": "面心立方晶格与倒格子",
+   "titleKind": "editorial",
+   "topics": [
+    "结晶构造",
+    "倒格子",
+    "米勒指数",
+    "面间距"
+   ],
+   "summary": "就图 1 所示的结晶构造，在解答栏中填入 (a)～(l)：构造名称、最近接原子数、最近接原子间距、基本矢量 a1,a2,a3、倒格子基本矢量 g1,g2,g3、晶面 (h k l) 的名称、面间距 d_hkl 的表示以及 (3 1 1) 面的面间距等。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      44.7,
+      113.7,
+      538.0,
+      623.0
+     ],
+     "label": "問題 1：题干填空 (a)～(l) 两段说明与图 1 晶格构造图及其图号「図 1 (a)構造」"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 1．」、两段填空说明（(a)–(l) 填充框齐全）、图 1 立体晶格图（含 x,y,z 轴、a1,a2,a3、边长 a 与图号）完整；页眉与左侧黑角在框外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2020-bussei-q2",
+   "number": "問題 2．",
+   "title": "强束缚电子近似与能带结构",
+   "titleKind": "editorial",
+   "topics": [
+    "强束缚近似",
+    "能带",
+    "有效质量",
+    "布里渊区"
+   ],
+   "summary": "由结晶中电子能量的强束缚近似式 (1)，利用积分 (2)(3) 把 E 写成含 α、γ 的式 (4)，并对单纯立方格子写出 (II) 个最近接原子的位置与式 (5) 的具体形式；进而求 Γ 点至 [111]、[100] 方向的 E-k 关系、能带宽度、Γ 点附近展开证明等方性、能带底的有效质量、每能带可容纳的电子数，及图 1 构造下的对应式。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      44.0,
+      58.7,
+      540.0,
+      756.0
+     ],
+     "label": "問題 2：题干与填空 (i)～(iv)、能量式 (1)、积分式 (2)(3)、式 (4)(5)，及小问 1)–6)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題 2．」、填空 (i)～(iv) 与 1)～6) 两套小问、式 (1)–(5) 编号、积分号与 sum 记号、p0 与 k 矢量定义齐全；页脚扫描污点在框外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2020-bussei-q1"
+   ],
+   "common": false,
+   "excluded": "卷头页眉与科目名「物性工学」、左上角黑角及页边留白，不含题目内容；本卷封面无独立作答说明，故 commonRegions 为空。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2020-bussei-q2"
+   ],
+   "common": false,
+   "excluded": "重复页眉、左上角黑角与页边扫描污点，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

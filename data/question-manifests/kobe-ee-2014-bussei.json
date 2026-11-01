@@ -1,0 +1,109 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2014-bussei",
+ "title": "神户大学 · 2014 入学年度 · 物性工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2014",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2014,
+  "yearBasis": "academic",
+  "subject": "物性工学",
+  "originalSubject": "物性工学",
+  "originalName": "bussei-26.pdf",
+  "pdf": "assets/past-papers/documents/6cf57c9afaf3f7db40fb3d785d1477a68b047f743114eb4a26bbd74f107c0a0c.pdf",
+  "sha256": "6cf57c9afaf3f7db40fb3d785d1477a68b047f743114eb4a26bbd74f107c0a0c",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2014 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2014-bussei-q1",
+   "number": "問題 1",
+   "title": "一维双原子格子的晶格振动与色散关系（填空）",
+   "titleKind": "editorial",
+   "topics": [
+    "格子振動",
+    "分散関係",
+    "光学モードと音響モード",
+    "ブリルアンゾーン"
+   ],
+   "summary": "对质量 M1、M2 交替排列、间距 a 的一维格子，按文中推导补全 (i)–(xiv) 共 14 个填空：运动方程式、格子振动与波长的关系 q、久期条件、色散关系 ω±、长波长极限下的 ω、模式名称、布里渊区端点的取值与频率间隙。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      50.0,
+      110.0,
+      546.0,
+      742.0
+     ],
+     "label": "問題 1 全页：填空(i)–(xiv) 的推导正文、式 (1)–(7)、図 1 与図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 1 题号与填空说明、运动方程式 (1)(2)、解 (3)(4)、式 (5)(6)(7) 与全部 14 处填空框（Ⅰ–ⅩⅣ）、图 1（2n−3…2n+2 原子列与 a）及图号说明完整；排除页眉与科目标题「物性工学」。"
+   }
+  },
+  {
+   "id": "kobe-ee-2014-bussei-q2",
+   "number": "問題 2",
+   "title": "逆格子、X 射线衍射与构造因子（填空）",
+   "titleKind": "editorial",
+   "topics": [
+    "逆格子",
+    "X線回折",
+    "ラウエ条件",
+    "構造因子",
+    "消滅則"
+   ],
+   "summary": "补全 (a)–(n) 共 14 个填空：逆格子基本矢量、面指数与面间距、Laue 条件与 Bragg 法则、构造因子 S_hkl 的表达式，以及体心/面心立方格子中原子位置与散射因子导致的消光规律。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      50.0,
+      64.0,
+      545.0,
+      686.0
+     ],
+     "label": "問題 2 全页：填空(a)–(n) 的正文、式 (8)–(14)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页对照 2x 页图：問題 2 题号与填空说明、逆格子定义、Laue/Bragg 推导、构造因子式 (10)(11)(12)(13)(14) 与全部 14 处填空框（a–n）、体心/面心原子坐标完整；排除页眉与科目标题。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2014-bussei-q1"
+   ],
+   "common": false,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」与科目标题「物性工学」、及页边空白。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2014-bussei-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「平成26年度 神戸大学大学院…入試」与页边空白。",
+   "reviewed": true
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2015-seigyo",
+  "title": "神户大学 · 2015 入学年度 · 自动控制",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2015",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2015,
+    "yearBasis": "academic",
+    "subject": "自动控制",
+    "originalSubject": "自動制御",
+    "originalName": "seigyo-27.pdf",
+    "pdf": "assets/past-papers/documents/e8cbcc5a236e984a39539eda3fbe922c3f21cc17535416eaaeac4ed7d901a944.pdf",
+    "sha256": "e8cbcc5a236e984a39539eda3fbe922c3f21cc17535416eaaeac4ed7d901a944",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2015 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2015-seigyo-q1",
+      "number": "問題 1",
+      "title": "传递函数 G(s)=K/(s(s+1)(s+2)) 的响应与奈奎斯特稳定判据",
+      "titleKind": "editorial",
+      "topics": [
+        "拉普拉斯逆变换",
+        "频率响应",
+        "奈奎斯特图",
+        "稳定性"
+      ],
+      "summary": "对 G(s)=K/(s(s+1)(s+2)) 求 K=1 时脉冲响应的逆拉普拉斯变换并画时间波形概形（须正确写出 t=0、∞ 的振舞，给定 e⁻¹≈0.37、e⁻²≈0.14、e⁻⁴≈0.02）；求频率传递函数并分离实部虚部；画 K=5 的奈奎斯特轨迹并由其求稳定临界 K。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1.」、G(s)=K/(s(s+1)(s+2)) 分式排版、(1)–(4) 齐全，含 e 近似值说明与实部／虚部要求；与問題 2 行间断开未串题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-seigyo/kobe-ee-2015-seigyo-q1-01.png",
+          "page": 1,
+          "box": [
+            52.7,
+            110.7,
+            549.3,
+            356.0
+          ],
+          "width": 1243,
+          "height": 614,
+          "label": "問題 1：题干、G(s) 定义式、(1)–(4) 四个小问",
+          "sha256": "1758347161868240ab0dcd69f3cedc9abcdea72331cdbbf2d018f9a10667e683"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2015-seigyo-q2",
+      "number": "問題 2",
+      "title": "多重反馈控制系统的传递函数、稳定范围与稳态偏差",
+      "titleKind": "editorial",
+      "topics": [
+        "框图化简",
+        "传递函数",
+        "劳斯判据",
+        "稳态误差"
+      ],
+      "summary": "对图 1 的多重反馈控制系统（r 目标值、y 控制量、K 正定数）化简框图求 G_yr(s)；用劳斯稳定判据求使系统稳定的 K 范围；在稳定前提下求 r 为阶跃输入时的定常偏差。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 2.」、图 1 的加法点与各环节标注 (1−s)/(s(s+0.5))、K/(s+1)、图题「図 1：多重フィードバック制御系のブロック線図」完整，(1)–(3) 无缺。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-seigyo/kobe-ee-2015-seigyo-q2-01.png",
+          "page": 1,
+          "box": [
+            46.0,
+            378.7,
+            546.7,
+            673.3
+          ],
+          "width": 1252,
+          "height": 738,
+          "label": "問題 2：题干、图 1 框图（r・+y・K・(1−s)/(s(s+0.5))・K/(s+1) 与图题）、(1)–(3) 三个小问",
+          "sha256": "fddace4bf750ff8b3331e69650dc84e93a96623bb688ce2861b62df3cf5f767e"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2015-seigyo-q1",
+        "kobe-ee-2015-seigyo-q2"
+      ],
+      "common": false,
+      "excluded": "卷头页眉（平成 27 年度…入学試験）与科目名「自動制御」标题、页底空白与扫描污点，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

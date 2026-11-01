@@ -1,0 +1,119 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2022-denjiki",
+ "title": "神户大学 · 2022 入学年度 · 电磁气学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2022",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2022,
+  "yearBasis": "academic",
+  "subject": "电磁学",
+  "originalSubject": "電磁気学",
+  "originalName": "denjiki-2022.pdf",
+  "pdf": "assets/past-papers/documents/214fbc8832de3307e402604e3775776a95219fe4c983ba99f68843bff0c0bd81.pdf",
+  "sha256": "214fbc8832de3307e402604e3775776a95219fe4c983ba99f68843bff0c0bd81",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2022 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    79.5,
+    169.0,
+    515.5,
+    191.5
+   ],
+   "label": "全卷作答说明（各问在指定答案用纸上作答）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2022-denjiki-q1",
+   "number": "問題 1",
+   "title": "线电荷的电场、电位与接地导体平面的镜像法",
+   "titleKind": "editorial",
+   "topics": [
+    "静电场",
+    "镜像法",
+    "电位",
+    "面电荷密度"
+   ],
+   "summary": "真空中过 (0,0,3) 且平行于 x 轴、线电荷密度 ρL 的无限长线电荷：(1)(2) 求 (0,2,0) 点的电场与电位；插入 z=0 的接地无限大完全导体平面后，(3)–(5) 求导体表面 z>0 侧 (0,2,0) 点的电场、电位与感应面电荷密度；(6)(7) 就 z>0 侧平行于 x 轴的等电位圆筒面，求其半径与中心坐标随电位的变化。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      79.5,
+      205.0,
+      515.5,
+      623.0
+     ],
+     "label": "問題 1：题干与坐标系说明、(1)(2) 无导体时的电场与电位、(3)–(5) 接地导体平面侧的电场/电位/感应电荷、(6)(7) 等电位圆筒半径与中心"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題 1」、题干（ρL、通过点 (0,0,3)、平行 x 轴、ε0、直角坐标与米制说明）与 (1)–(7) 全部小问齐全，含插入接地导体平面与等电位圆筒两段追加条件，无切字；页眉与作答说明行已排除。"
+   }
+  },
+  {
+   "id": "kobe-ee-2022-denjiki-q2",
+   "number": "問題 2",
+   "title": "圆电流与螺线管轴线上磁场的填空与计算",
+   "titleKind": "editorial",
+   "topics": [
+    "磁场",
+    "毕奥-萨伐尔定律",
+    "螺线管",
+    "磁通密度"
+   ],
+   "summary": "(1) 阅读关于图 2-1 圆电流所生磁场的说明文，从【語群】中选出填入 ア〜キ 的最恰当项（同一项可重复使用），涉及所用定律、H 的表达式（式 (2-1)）、z<0 时 H 的方向、H 最大的 z 位置及 Ic=10 mA、a=5 mm 时的数值。(2) 如图 2-2，半径 a、匝数 N、长 d 的螺线管通电流 Is，求端面中心 S 处磁场大小，并对 Is=13 mA、a=5 mm、d=12 mm、N=20 求值（可兼用式 (2-1)(2-2)）。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      47.5,
+      94.0,
+      540.5,
+      745.0
+     ],
+     "label": "問題 2：填空说明与 (2-1) 式、【語群】a–y、(2) 螺线管设问与式 (2-2)、図 2-1・図 2-2 及图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題 2」、(1) 说明文与 ア〜キ 七个空格、式 (2-1) 的 H 表达式、【語群】a–y 五行全部列出、(2) 设问与式 (2-2) 积分公式、图 2-1（圆电流与 xyz 轴、a、Ic）与图 2-2（螺线管、N、d、a、S、Is）及两个图号齐全，无切字、无串页。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2022-denjiki-q1"
+   ],
+   "common": true,
+   "excluded": "页眉年度行、科目标题「電磁気学」与页边空白；作答说明行另立为公共区域。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2022-denjiki-q2"
+   ],
+   "common": false,
+   "excluded": "页眉年度行、科目标题「電磁気学」与下方空白，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

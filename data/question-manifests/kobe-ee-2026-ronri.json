@@ -1,0 +1,100 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2026-ronri",
+ "title": "神户大学 · 2026 入学年度 · 逻辑回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2026",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2026,
+  "yearBasis": "academic",
+  "subject": "逻辑回路",
+  "originalSubject": "論理回路",
+  "originalName": "ronri-2026.pdf",
+  "pdf": "assets/past-papers/documents/957f3d7cf7d1298d74e1818c3ae6cd2fc3dfa4df304268968a5bae1cee9657e1.pdf",
+  "sha256": "957f3d7cf7d1298d74e1818c3ae6cd2fc3dfa4df304268968a5bae1cee9657e1",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2026 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2026-ronri-q1",
+   "number": "問題 1",
+   "title": "4 位输入的相邻位变化检测电路",
+   "titleKind": "editorial",
+   "topics": [
+    "組み合わせ論理回路",
+    "真理値表",
+    "カルノー図",
+    "XOR"
+   ],
+   "summary": "对 4 ビット入力 X=X3X2X1X0 的相邻位相异数 Y=(X3⊕X2)+(X2⊕X1)+(X1⊕X0)（此处 + 为算术加），用真值表与卡诺图化简 Y0、Y1，并分别用 XOR 门（≤3 个）构成 Y0 与 Y1 的输出电路。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      45.0,
+      113.0,
+      540.0,
+      352.0
+     ],
+     "label": "問題 1：题干与 (1) 真值表/卡诺图求 Y0 Y1、(2) 用 XOR 素子构成 Y0、(3) 构成 Y1（含 XOR 记号的图示）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against 2x scanned page image, tightened with inkbox.py band scan",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页上半：题号「問題 1」、题干（X3X2X1X0、左起读取、⊕ 记法与「+はORではなく加算」的注意事项、Y=Y1Y0 两位二进制）、小问 (1)(2)(3) 与 XOR 记号插图齐全，无切字、无下一题串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2026-ronri-q2",
+   "number": "問題 2",
+   "title": "D-FF 与异步计数器的时序电路",
+   "titleKind": "editorial",
+   "topics": [
+    "順序論理回路",
+    "Dフリップフロップ",
+    "タイムチャート",
+    "カウンタ"
+   ],
+   "summary": "对逐拍读入 1 ビット X 的时序电路 F：在 CK 上升沿比较当前与上一次 X，相异输出 Z=1；给出 X=(0,1,1,0,0,1,0) 时的时序图，用 D-FF 2 个以内与 AND/OR/XOR 构成 F，再追加 D-FF 2 个以下等构成输出 Y=Y1Y0 每拍加一的 0→3 循环计数器。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      45.0,
+      367.0,
+      540.0,
+      714.0
+     ],
+     "label": "問題 2：题干与 F 的框图、D-FF 记法、(1) タイムチャート、(2) F を D-FF 2 個以下で構成、(3) カウンタ構成"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against 2x scanned page image, tightened with inkbox.py band scan",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页下半：题号「問題 2」、题干（CK 正沿、初期値 0、ポジティブエッジ以外で出力不変）、F 的方框图（X/CK→F→Z）、D-FF 记法插图与 (1)(2)(3) 齐全；页脚「(問題終わり)」为终了提示，已排除在区域外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2026-ronri-q1",
+    "kobe-ee-2026-ronri-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「2026 年度 神戸大学大学院工学研究科…入学試験」、科目标题「論理回路」、页脚终了提示「(問題終わり)」与空白页边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

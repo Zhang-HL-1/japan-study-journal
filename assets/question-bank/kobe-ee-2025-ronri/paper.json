@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2025-ronri",
+  "title": "神户大学 · 2025 入学年度 · 逻辑回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2025",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "逻辑回路",
+    "originalSubject": "論理回路",
+    "originalName": "ronri-2025.pdf",
+    "pdf": "assets/past-papers/documents/57d5353f3d41555fdc262fbbaa0e506df29ae860b258f4a0766a0160bf2c49ab.pdf",
+    "sha256": "57d5353f3d41555fdc262fbbaa0e506df29ae860b258f4a0766a0160bf2c49ab",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2025 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2025-ronri-q1",
+      "number": "問題 1",
+      "title": "组合逻辑化简与 D 触发器状态机",
+      "titleKind": "editorial",
+      "topics": [
+        "组合逻辑",
+        "卡诺图",
+        "全加器",
+        "D触发器",
+        "时序电路"
+      ],
+      "summary": "对 0≤n≤15 定义 f(n)=n÷2（n 偶）或 [3n+1]（n 奇，[x] 为 x 除以 16 的余数）：(1) 以 X0~X3 为输入、Y0~Y3 为输出写出积和形式并作卡诺图化简；(2) 仅用 1 个 4 位全加器与 1 个 4 位选择器构成回路；(3) 再用 1 个回路 F 与 4 个 D-FF 构成保持 n'=f(n) 的回路；(4) 初值全 1 时给出加 10 个时钟脉冲的时序图。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1」、f(n) 定义与 X3~X0/Y3~Y0 位权说明、(1)~(4) 小问、FA 与 SEL 的端口说明及两处方框图（FA/SEL、D-FF/F）齐全；右下方「(問題終わり)」为卷末标记，已排除在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2025-ronri/kobe-ee-2025-ronri-q1-01.png",
+          "page": 1,
+          "box": [
+            45.3,
+            94.3,
+            541.7,
+            729.0
+          ],
+          "width": 1242,
+          "height": 1588,
+          "label": "問題 1：题干与 (1)~(4) 全部小问，含 FA/SEL 与 D-FF/回路 F 的方框图",
+          "sha256": "8a725283117b21f8161dfa45581b86a6495cae7493ecbab95d3abd955f71f6f7"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2025-ronri-q1"
+      ],
+      "common": false,
+      "excluded": "页眉（2025年度…入学試験）、科目名标题「論理回路」、卷末标记「(問題終わり)」与空白页边。",
+      "reviewed": true
+    }
+  ]
+}

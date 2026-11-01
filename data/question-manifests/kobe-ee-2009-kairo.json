@@ -1,0 +1,111 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2009-kairo",
+ "title": "神户大学 · 2009 入学年度 · 电气回路与电子回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2009",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2009,
+  "yearBasis": "academic",
+  "subject": "电气回路与电子回路",
+  "originalSubject": "電気回路・電子回路",
+  "originalName": "kairo-21.pdf",
+  "pdf": "assets/past-papers/documents/4c600c6dc9080a8b9dc4e271edabf5085f8c1db4a6d65cba79b41e3d02a507c4.pdf",
+  "sha256": "4c600c6dc9080a8b9dc4e271edabf5085f8c1db4a6d65cba79b41e3d02a507c4",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2009 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    75.0,
+    81.0,
+    555.0,
+    100.0
+   ],
+   "label": "全卷作答说明（答案用紙は一人当たり2枚…問題 (A) と (B) それぞれの答案用紙に解答）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2009-kairo-q1",
+   "number": "問題（A）",
+   "title": "交流ブリッジの平衡条件とRL回路の過渡応答",
+   "titleKind": "editorial",
+   "topics": [
+    "交流ブリッジ",
+    "平衡条件",
+    "インピーダンス",
+    "RL過渡現象"
+   ],
+   "summary": "図A-1 の交流ブリッジで Z5 を流れる電流を零にする平衡条件を導き、Z1〜Z4 を R・C で構成した場合の 2 式、および R1=2R2・R3=R4・C3=C4 のときの ω を求める。図A-2 の RL 回路でスイッチを開閉した後の電流 i(t) と時定数を求める。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      45.0,
+      119.0,
+      561.0,
+      450.0
+     ],
+     "label": "問題（A）：総起句、(1) ブリッジ平衡条件と R・C 構成での 2 式・ω、(2) RL 回路の i(t) と時定数、図 A-1・図 A-2 を含む"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "PDF text-span/ink-bbox coordinates + AI visual comparison against full source page",
+    "date": "2026-11-01",
+    "notes": "对照原卷唯一页：題号「問題（A）」框、総起句 (A)、小問 (1)(2)、その下の図A-1（ブリッジ回路）と図A-2（RL 回路）及两个図号全部入框；右侧回路图最右端至 x≈555，与框右界 561 之间留 6pt；页眉日期「2008.8.27」、科目名及底部空白均在框外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2009-kairo-q2",
+   "number": "問題（B）",
+   "title": "トランジスタ増幅回路・演算増幅器・ディジタル回路用語",
+   "titleKind": "editorial",
+   "topics": [
+    "トランジスタ増幅",
+    "演算増幅器",
+    "ディジタル回路",
+    "ファンアウト"
+   ],
+   "summary": "hFE=100 の npn トランジスタ 1 石と受動素子で電圧利得 5 倍の増幅回路を設計する。演算増幅器の特徴 3 点以上と減算回路の動作、およびスレッショルド・レベル・ノイズ・マージン・最大ファンアウト数（TTL について具体計算）を説明する。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      45.0,
+      465.0,
+      564.0,
+      691.0
+     ],
+     "label": "問題（B）：題号枠、2 問選択の指示文、(1) トランジスタ 5 倍増幅回路、(2) 演算増幅器の特徴と減算回路、(3) ディジタル回路用語 a)b)c)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "PDF text-span/ink-bbox coordinates + AI visual comparison against full source page",
+    "date": "2026-11-01",
+    "notes": "对照原卷唯一页：「問題（B）」框与（B) 指示文、小問 (1)(2)(3) 及 a)b)c) 全部入框；框下界 691 在末行文字（(3) 的 TTL 说明，墨迹到 y≈686）之下；此问无图；上一问的図A-2（y≤447）未被串入。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2009-kairo-q1",
+    "kobe-ee-2009-kairo-q2"
+   ],
+   "common": true,
+   "excluded": "卷头日期「2008.8.27」、科目名「電気回路・電子回路」与页脚空白；全页仅此一页，无英译页/白纸页/解答例页。",
+   "reviewed": true
+  }
+ ]
+}

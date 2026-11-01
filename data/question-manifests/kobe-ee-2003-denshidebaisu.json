@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2003-denshidebaisu",
+ "title": "神户大学 · 2003 入学年度 · 电子器件",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2003",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "自然科学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2003,
+  "yearBasis": "academic",
+  "subject": "电子器件",
+  "originalSubject": "電子デバイス",
+  "originalName": "denshidebaisu.pdf",
+  "pdf": "assets/past-papers/documents/38b437b0ec5f0b30f3211f77d845d5152205e75dd7c65840c56570b757f634a6.pdf",
+  "sha256": "38b437b0ec5f0b30f3211f77d845d5152205e75dd7c65840c56570b757f634a6",
+  "pageCount": 1,
+  "note": "来自既有过去问目录。2003 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2003-denshidebaisu-q1",
+   "number": "1.",
+   "title": "硅的原子密度、能带结构与吸收端波长",
+   "titleKind": "editorial",
+   "topics": [
+    "半导体",
+    "硅晶体",
+    "有效质量",
+    "间接跃迁",
+    "吸收端"
+   ],
+   "summary": "对 300 K、晶格常数 0.543 nm、禁带宽度 1.11 eV 的 Si：(a) 求单位体积原子数；(b) 说明有效质量 mt*、ml* 与 Si 能带结构的关系；(c) 从光子动量出发说明间接跃迁为何不适合作发光材料；(d) 求带间吸收的吸收端波长（给出 h、e、c）。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      78.0,
+      183.3,
+      502.0,
+      364.0
+     ],
+     "label": "1.：题干与 (a) 原子密度、(b) 有效质量 mt*/ml*、(c) 间接跃迁与发光、(d) 吸收端波长（含 h、e、c 常数）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+    "date": "2026-11-01",
+    "notes": "对照原卷 2x 页图：题号「1.」、300K・0.543nm・1.11eV 条件句与 (a)〜(d) 四小问齐全，(d) 内 h=6.626×10−34Js、e=1.602×10−19C、c=2.998×108ms−1 三个常数与上标完整，无切字，未串入第 2 题。"
+   }
+  },
+  {
+   "id": "kobe-ee-2003-denshidebaisu-q2",
+   "number": "2.",
+   "title": "npn 双极晶体管的基区条件与杂质浓度关系",
+   "titleKind": "editorial",
+   "topics": [
+    "双极晶体管",
+    "基区宽度",
+    "基区渡越时间",
+    "杂质浓度"
+   ],
+   "summary": "对 npn 双极晶体管（基区电子寿命 τe、电子扩散系数 De）：(a) 给出晶体管工作对基区宽度 W 的要求；(b) 求基区渡越时间 tB 与 W 的关系；(c) 说明发射极、基极、集电极杂质浓度满足 NE>NB>NC 的理由。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      77.3,
+      386.7,
+      502.0,
+      517.3
+     ],
+     "label": "2.：题干与 (a) 基区宽度条件、(b) 基区渡越时间 tB 与 W、(c) NE>NB>NC 的理由"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+    "date": "2026-11-01",
+    "notes": "对照原卷 2x 页图：题号「2.」、npn・τe・De 的设定与 (a)(b)(c) 三小问齐全，NE>NB>NC 的不等号方向与上下标正确，框下缘止于 (c) 末行，未含右下「以上」标记。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2003-denshidebaisu-q1",
+    "kobe-ee-2003-denshidebaisu-q2"
+   ],
+   "common": false,
+   "excluded": "卷头日期「平成14年8月28日」、「平成15年度博士前期課程入試問題」、科目名标题「電子デバイス」与末尾「以上」标记，非题目内容。",
+   "reviewed": true
+  }
+ ]
+}

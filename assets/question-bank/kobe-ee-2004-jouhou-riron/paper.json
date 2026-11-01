@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2004-jouhou-riron",
+  "title": "神户大学 · 2004 入学年度 · 信息理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2004",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2004,
+    "yearBasis": "academic",
+    "subject": "信息理论",
+    "originalSubject": "情報理論",
+    "originalName": "jouhou-riron.pdf",
+    "pdf": "assets/past-papers/documents/1ee12ca8226d45441005f65813c7ae605802a586026dbad4c0814e91802631fc.pdf",
+    "sha256": "1ee12ca8226d45441005f65813c7ae605802a586026dbad4c0814e91802631fc",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2004 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2004-jouhou-riron-q1",
+      "number": "（1）〜（4）",
+      "title": "两级级联信道的互信息量与信道容量",
+      "titleKind": "editorial",
+      "topics": [
+        "互信息量",
+        "信道容量",
+        "级联信道",
+        "对称坐标"
+      ],
+      "summary": "给定 K→S 的信道矩阵 P₁ 与 S→T 的信道矩阵 P₂，用 p、q、ω 表示：(1) P_K(0)=ω 时 I(K;S) 与 C(K,S)；(2) P_S(0)=ω 时 I(S;T) 与 C(S,T)；(3) 级联信道矩阵 P₃；(4) I(K;T) 与 C(K,T)。可用熵函数 H[X]。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：本页为单一设问（无大题番号，原卷仅以 (1)–(4) 分小问，故题号记为「（1）〜（4）」）；题干、P₁=[1 0; p 1−p]、P₂=[1−p p 0; (1−p)q pq 1−q] 两矩阵及 (0<p<1)、(0<p,q<1) 条件、H[X] 约定、小问 (1)–(4) 完整；该 PDF 文本层为 CID 乱码，改用页图墨迹剖面核定边界，四边留白 5.6–6.1pt。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-jouhou-riron/kobe-ee-2004-jouhou-riron-q1-01.png",
+          "page": 1,
+          "box": [
+            66.2,
+            140.7,
+            529.4,
+            554.3
+          ],
+          "width": 1159,
+          "height": 1035,
+          "label": "全题：题干（A 君 K→S→T 通信路）、P₁・P₂ 两矩阵、作答约定与小问 (1)–(4)",
+          "sha256": "ee6a23d5e633c5bf961ef7e9992d7c85d742a9b8370a96134f6e89d93c2a1ae1"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2004-jouhou-riron-q1"
+      ],
+      "common": false,
+      "excluded": "卷头标题「大学院入試問題『情報理論』」与右上日期「平成15年8月27日」；不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "『解答例』（官方解答）页：给出 (1)–(4) 的答案式，非试题正文，且解答不属本流水线范围，故不收任何区域。",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2009-ryoushi",
+ "title": "神户大学 · 2009 入学年度 · 量子物理学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2009",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2009,
+  "yearBasis": "academic",
+  "subject": "量子物理学",
+  "originalSubject": "量子物理学",
+  "originalName": "ryoushi-21.pdf",
+  "pdf": "assets/past-papers/documents/bdc4411688efb6c678c9fabef029f79923289dba7dea5861d161b18003959a29.pdf",
+  "sha256": "bdc4411688efb6c678c9fabef029f79923289dba7dea5861d161b18003959a29",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2009 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    119.0,
+    111.0,
+    486.0,
+    130.0
+   ],
+   "label": "作答说明（以下の問について解答せよ．答えだけでなく導出の過程も簡単に記すこと．）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2009-ryoushi-q1",
+   "number": "問．",
+   "title": "水素原子1s状態の期待値と一次元固体モデル",
+   "titleKind": "editorial",
+   "topics": [
+    "水素原子",
+    "期待値",
+    "極座標",
+    "シュレーディンガー方程式",
+    "共有結合"
+   ],
+   "summary": "極座標の体積要素・ラプラシアン・積分公式を利用して、水素原子 1s 状態の ⟨r⟩、⟨p²⟩ と運動エネルギー、⟨V(r)⟩ および E1s を求める。ついで一次元に並んだ水素原子の 2 原子モデルで A・B の連立方程式、エネルギー固有値、規格化した固有関数を求め、原子間距離に対する全電子の存在確率の概形と固有値の大小を論じる。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      68.0,
+      141.0,
+      530.0,
+      717.0
+     ],
+     "label": "第 1 頁：「問．水素原子・摂動」、極座標の体積要素/ラプラシアン/積分公式、小問 1)〜5)（⟨r⟩・⟨p²⟩・⟨V(r)⟩・E1s）、φ1s と aB の式、図 1 と図号"
+    },
+    {
+     "page": 2,
+     "box": [
+      68.0,
+      11.0,
+      530.0,
+      514.0
+     ],
+     "label": "第 2 頁前半：1 次元固体モデルの設定、式(4)〜(7)、小問 6)〜9)（連立方程式・固有値・固有関数・存在確率）"
+    },
+    {
+     "page": 2,
+     "box": [
+      170.0,
+      534.0,
+      414.0,
+      750.0
+     ],
+     "label": "第 2 頁下半：図 2（水素原子固体モデル）本体と図号（図の描画が図号の下まで伸びるため独立 region にした）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "PDF text-span/ink-bbox coordinates + AI visual comparison against full source page",
+    "date": "2026-11-01",
+    "notes": "对照原卷两页：第 1 页含「問．水素原子・摂動」、必要なら… の極座標設定、式(1)〜(3b)、小問 1)〜5)、図 1 与「図1: 直交座標(x, y, z) と極座標(r, θ, φ)．」全部入框，页脚页码 1 与页眉（平成21年度…／平成20年8月27日／量子物理学）在框外。第 2 页文字与 9) 末行到 y≈508 收在第二个 region；図 2 的虚线波形比図号更靠下（墨迹到 y≈747），若整页一条 box 会把右下「以上」与页码 2 一并带入，故将図 2 单列为第三个 region（x 170〜414 只框图形本体，図号「図2: 水素原子固体モデル．」在内，x≥500 的「以上」在外）。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2009-ryoushi-q1"
+   ],
+   "common": true,
+   "excluded": "页眉（平成21年度神戸大学大学院…／平成20年8月27日／科目名 量子物理学）与页脚页码「1」。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2009-ryoushi-q1"
+   ],
+   "common": false,
+   "excluded": "卷末标记「以上」（右下）与页脚页码「2」；本题的図 2 已收进独立 region。",
+   "reviewed": true
+  }
+ ]
+}

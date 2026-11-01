@@ -1,0 +1,121 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2013-kairo",
+ "title": "神户大学 · 2013 入学年度 · 电气回路与电子回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2013",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2013,
+  "yearBasis": "academic",
+  "subject": "电气回路与电子回路",
+  "originalSubject": "電気回路・電子回路",
+  "originalName": "kairo-25.pdf",
+  "pdf": "assets/past-papers/documents/7e760be312a5e0e8ed788ae2fc3c97e511bffac14a652f345f571418ba61bfc1.pdf",
+  "sha256": "7e760be312a5e0e8ed788ae2fc3c97e511bffac14a652f345f571418ba61bfc1",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2013 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    45.7,
+    107.3,
+    544.7,
+    132.0
+   ],
+   "label": "全卷作答说明（注意：答案用紙 2 枚，問題 (A)(B) 分用对应答题纸）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2013-kairo-q1",
+   "number": "問題 (A)",
+   "title": "RLC 谐振电路与互感耦合电路",
+   "titleKind": "editorial",
+   "topics": [
+    "串联谐振",
+    "RLC 电路",
+    "互感耦合",
+    "网孔方程",
+    "内部阻抗"
+   ],
+   "summary": "给定 Ė=10 V、R=10 Ω、L=20 mH、C=100 µF 的串联谐振电路，求谐振角频率 ω₀、谐振电流 |İ|、线圈电压 |V̇_L| 与 Q 值。再由 図 A-2 的双回路磁耦合电路（L₁–L₄、M₁₂=M₃₄=10/20 mH）完成网孔方程，求 |İ₁|、|İ₂|、开路电压 |V̇|、内部阻抗 |Ż₀| 与短路电流 |İ_ab|。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      34.3,
+      136.7,
+      545.3,
+      802.7
+     ],
+     "label": "問題 (A)：框内题号与说明、(1) 共振回路 ①–④、(2) 磁耦合回路 ①–⑥、図 A-1・図 A-2 及其图号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：左上「問題 (A)」方框与「以下の(1)と(2)に答えよ」说明、(1) 的 ①–④、(2) 的网孔方程矩阵式与 ①–⑥ 全部小问，以及下方 図 A-1「共振回路」、図 A-2「電磁誘導結合回路」两张电路图与图号均在框内；顶页眉与科目名标题已排除。"
+   }
+  },
+  {
+   "id": "kobe-ee-2013-kairo-q2",
+   "number": "問題 (B)",
+   "title": "晶体管放大、积分电路与数字电路构成",
+   "titleKind": "editorial",
+   "topics": [
+    "发射极接地放大",
+    "偏置电路",
+    "积分电路",
+    "AD 转换器",
+    "数字电路构成"
+   ],
+   "summary": "从三组设问中选 2 问作答：(1) 给出固定偏置的发射极接地放大电路，说明偏置电流的必要性与偏置偏离设计值的两个原因及稳定方法；(2) 比较运放积分电路与单 CR 低通电路的阶跃响应差异，并据积分电路给出 AD 转换器名称、构成与原理；(3) 说明当前最普及的数字电路构成方式及其特征，并用 NAND、NOR 给出内部构成例。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      42.3,
+      105.3,
+      542.7,
+      576.7
+     ],
+     "label": "問題 (B)：框内题号与「3 选 2」说明、(1)(2)(3) 三组设问的 a) b) c)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：「問題 (B)」方框与「以下の各設問から 2 問を選んで解答せよ」等三行作答说明、(1)~(3) 各 a) b) c) 共 9 个小问全部在框内，无切字；页眉年度行与「電気回路・電子回路」科目名标题已排除。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2013-kairo-q1"
+   ],
+   "common": true,
+   "reviewed": true,
+   "excluded": "顶部页眉「平成 25 年度神戸大学大学院工学研究科…入学試験」、科目名大标题「電気回路・電子回路」与空白页边；「注意」行收作公共区域。"
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2013-kairo-q2"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "顶部页眉与「電気回路・電子回路」科目名大标题、下半页空白与扫描污点；本页无公共区域（作答说明已含于問題 (B) 框内）。"
+  }
+ ]
+}

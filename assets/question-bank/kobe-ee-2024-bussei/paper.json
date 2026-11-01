@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2024-bussei",
+  "title": "神户大学 · 2024 入学年度 · 物性工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2024",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2024,
+    "yearBasis": "academic",
+    "subject": "物性工学",
+    "originalSubject": "物性工学",
+    "originalName": "bussei-2024.pdf",
+    "pdf": "assets/past-papers/documents/24f0b6fa87f16c908f175ebd1925b1bf5065d3795110c96b7f3ea4e599df73e9.pdf",
+    "sha256": "24f0b6fa87f16c908f175ebd1925b1bf5065d3795110c96b7f3ea4e599df73e9",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2024 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2024-bussei-q1",
+      "number": "問題 1",
+      "title": "一维双原子链的格子振动",
+      "titleKind": "editorial",
+      "topics": [
+        "格子振动",
+        "双原子链",
+        "色散关系",
+        "光学模"
+      ],
+      "summary": "以最近邻作用力 f 与 2f 交替的一维双原子链为题，1)–6) 依次求运动方程、代入平面波解后的联立方程、有非零解条件、ω² 解、第一布里渊区内的 ω–q 关系图与光学模在 q=0 的振幅比，含图 1。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照第 1 页：题号「問題 1」、6 个小问、图 1 及其图号与标注（f、2f、a、a/2、u_{n-1,1} 等）齐全；已排除卷头年度行与科目标题「物性工学」，无页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-bussei/kobe-ee-2024-bussei-q1-01.png",
+          "page": 1,
+          "box": [
+            49.0,
+            108.0,
+            556.0,
+            722.5
+          ],
+          "width": 1268,
+          "height": 1537,
+          "label": "問題 1：题干与 1)–6) 全部小问、图 1（2 原子一维链模型）",
+          "sha256": "60a942d2911d50fb70a4689de9063288a0c909208c1ca80e28f60cf473a582d1"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2024-bussei-q2",
+      "number": "問題 2",
+      "title": "强束缚电子近似与能带结构",
+      "titleKind": "editorial",
+      "topics": [
+        "能带理论",
+        "紧束缚近似",
+        "立方晶格",
+        "布里渊区"
+      ],
+      "summary": "以强束缚近似给出能量 E 的式 (1) 及积分 −α、−γ，导出式 (4)(5)；对含 2 原子基元的立方晶格，1)–8) 求晶格名称、最近邻数与间距、基矢夹角、原胞体积、能带式，图示 Γ→[111]/[100] 方向与带宽，含图 2。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照第 2 页：題号「問題 2」、式 (1)–(5) 编号、8 个小问、右侧图 2 及图号、坐标轴 a₁–a₃ 与棱长 a 齐全；已排除卷头年度行，无页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2024-bussei/kobe-ee-2024-bussei-q2-01.png",
+          "page": 2,
+          "box": [
+            42.0,
+            52.0,
+            559.0,
+            746.0
+          ],
+          "width": 1293,
+          "height": 1735,
+          "label": "問題 2：题干、式 (1)–(5)、1)–8) 全部小问、图 2（立方晶格）",
+          "sha256": "bba2bd333efe5b186fb4e7a6010efb6e7d05589ef01784d06f1b2a778017ca2f"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2024-bussei-q1"
+      ],
+      "common": false,
+      "excluded": "卷头年度行与科目名「物性工学」、页边扫描噪点，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2024-bussei-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头年度行、页边扫描噪点，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

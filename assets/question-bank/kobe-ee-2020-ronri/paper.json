@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2020-ronri",
+  "title": "神户大学 · 2020 入学年度 · 逻辑回路",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2020",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2020,
+    "yearBasis": "academic",
+    "subject": "逻辑回路",
+    "originalSubject": "論理回路",
+    "originalName": "ronri-2020.pdf",
+    "pdf": "assets/past-papers/documents/2e11dab9b6cedf7f39bcea84e8d967fa2e22e44c1af57ef1c153a5507bb53e53.pdf",
+    "sha256": "2e11dab9b6cedf7f39bcea84e8d967fa2e22e44c1af57ef1c153a5507bb53e53",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2020 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2020-ronri-q1",
+      "number": "問題 1．",
+      "title": "4 位加减算电路",
+      "titleKind": "editorial",
+      "topics": [
+        "全加算器",
+        "补数运算",
+        "异或门",
+        "加减算电路"
+      ],
+      "summary": "以两组 4 位输入 a_in=(a3..a0)、b_in=(b3..b0) 与控制信号 x（0 加算、1 减算）构成输出 S_out 与进位 c_out 的 4 位加减算电路：(1-1) 把全加算器的输出 s 与向高位的进位 c′ 表示为积和形式的逻辑式；(1-2) 用 4 个全加器与 4 个 XOR 门构成该电路（图示 XOR 门符号）。",
+      "review": {
+        "status": "verified",
+        "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1．」、a_in/b_in/S_out/c_out 定义与补数约定、(1-1)(1-2) 及「XOR ゲートは，下図を使うこと．」所引的 XOR 门符号图均在框内；框下边界止于符号图底，未串入問題 2。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2020-ronri/kobe-ee-2020-ronri-q1-01.png",
+          "page": 1,
+          "box": [
+            49.3,
+            115.0,
+            542.0,
+            461.7
+          ],
+          "width": 1232,
+          "height": 868,
+          "label": "問題 1：题干、小问 (1-1)(1-2) 与说明中指定的 XOR 门符号图",
+          "sha256": "ee7ab65113f94b9a720eb0fc6cfb6ff7d34b4fe2ec00ccd9405da8d02ca669ff"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2020-ronri-q2",
+      "number": "問題 2．",
+      "title": "素数判定组合逻辑",
+      "titleKind": "editorial",
+      "topics": [
+        "组合逻辑",
+        "卡诺图",
+        "NAND 门",
+        "素性判定"
+      ],
+      "summary": "对 4 位二进制输入，当输入值（0～9）为素数时输出 f=1、非素数时 f=0：(2-1) 以 a0 为最低位、0～9 以外为 don't care，把 f 表示为积和形式的逻辑式并用给定卡诺图尽量化简；(2-2) 仅用 4 个 2 输入 NAND 门实现该电路。",
+      "review": {
+        "status": "verified",
+        "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 2．」、素数不含 0 与 1 的注意、小问 (2-1)（a3..a0 位序、don't care、卡诺图化简要求）与 (2-2) NAND 门限制完整；页脚「(次ページに続く)」在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2020-ronri/kobe-ee-2020-ronri-q2-01.png",
+          "page": 1,
+          "box": [
+            49.3,
+            477.3,
+            542.7,
+            680.0
+          ],
+          "width": 1234,
+          "height": 507,
+          "label": "問題 2：题干（素数判定、0/1 非素数注意）与小问 (2-1)(2-2)",
+          "sha256": "d00e88d6e1d3290e18a96afd4f7af1f1a43dd32955b83c0cf43c269380dde159"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2020-ronri-q3",
+      "number": "問題 3．",
+      "title": "JK 触发器时序电路",
+      "titleKind": "editorial",
+      "topics": [
+        "JK 触发器",
+        "时序图",
+        "计数器"
+      ],
+      "summary": "(3-1)(3-2) 完成图左、图右两个用负沿触发 JK 触发器构成的电路的时序图（触发器初值均为 0）；(3-3) 在答案用纸给定电路图上追加配线及 AND、OR、NOT 门，使输入 S=1 时为 4 进加计数器、S=0 时为 4 进减计数器。",
+      "review": {
+        "status": "verified",
+        "method": "scan page 2x image visual bounds + inkbox.py ink tightening + per-crop visual review",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 3．」、(3-1)(3-2) 两句与左右两个 JK-FF 电路（Vcc、CK、CLR、Q_A、Q_B、J/K/Q/Q̄ 标注）、(3-3) 说明与下方电路图完整；卷末「以上」在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2020-ronri/kobe-ee-2020-ronri-q3-01.png",
+          "page": 2,
+          "box": [
+            50.0,
+            56.3,
+            542.7,
+            603.0
+          ],
+          "width": 1232,
+          "height": 1368,
+          "label": "問題 3：题号与小问 (3-1)(3-2) 说明、两个 JK-FF 电路图、(3-3) 说明与待配线电路图",
+          "sha256": "cc793fee62df34113da18e701e23562ac2b1debeac7e9f617044cc1b24599a55"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2020-ronri-q1",
+        "kobe-ee-2020-ronri-q2"
+      ],
+      "common": false,
+      "excluded": "卷头页眉与科目名「論理回路」、左上角黑角、左侧「(」状墨迹；页脚「(次ページに続く)」为翻页提示。本卷每题自带「以下の問いについて…」句，属各题正文，故无全卷公共区域。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2020-ronri-q3"
+      ],
+      "common": false,
+      "excluded": "重复页眉、左上角黑角、左侧「(」状墨迹与卷末「以上」标记，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

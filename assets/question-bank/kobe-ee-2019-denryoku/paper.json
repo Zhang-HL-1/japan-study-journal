@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2019-denryoku",
+  "title": "神户大学 · 2019 入学年度 · 电力工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2019",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2019,
+    "yearBasis": "academic",
+    "subject": "电力工学",
+    "originalSubject": "電力工学",
+    "originalName": "denryoku-31.pdf",
+    "pdf": "assets/past-papers/documents/0f56e5fd3772f96c098da1577e2c45a60083a5a6e7f1dd6a9aeb93a2ac77cb80.pdf",
+    "sha256": "0f56e5fd3772f96c098da1577e2c45a60083a5a6e7f1dd6a9aeb93a2ac77cb80",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2019 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2019-denryoku-q1",
+      "number": "問題 1.",
+      "title": "火力発電の蒸気サイクルと T-S 線図",
+      "titleKind": "editorial",
+      "topics": [
+        "火力発電",
+        "蒸気サイクル",
+        "状態変化",
+        "T-S線図",
+        "断熱過程"
+      ],
+      "summary": "火力発電の水（蒸気）経路に基づく構成図について、ボイラ・タービン・復水器・給水ポンプ各装置の状態変化の名称を等温・等圧・断熱の組合せから答え、サイクルを T-S 線図に表し、断熱過程のエントロピー変化とその理由、T-S 線図上の特徴を述べる。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：題号「問題 1.」、図1 の火力発電構成図（a.ボイラ・b.タービン・c.復水器・d.給水ポンプ）と「図 1」、(1)〜(3) の全小問入框；页眉・科目名「電力工学」・空白页边未入框，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2019-denryoku/kobe-ee-2019-denryoku-q1-01.png",
+          "page": 1,
+          "box": [
+            35.3,
+            148.0,
+            558.3,
+            503.3
+          ],
+          "width": 1308,
+          "height": 889,
+          "label": "問題 1.：題号、構成図（図1）と図号、(1)〜(3)",
+          "sha256": "d434e496bb0008116d14b94850dba2dc2d3e984ed8d4505e13eec98f6066561d"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2019-denryoku-q2",
+      "number": "問題 2.",
+      "title": "風力発電のエネルギーとローター効率",
+      "titleKind": "editorial",
+      "topics": [
+        "風力発電",
+        "風車",
+        "ローター効率",
+        "エネルギー"
+      ],
+      "summary": "風のエネルギーを風速 v・空気密度 ρ・断面積 A で表し、ρ=1.2 kg/m³・ローター半径 10 m・v=10 m/s の場合の単位時間あたりのエネルギーと、速度低下割合 ζ=(v_1−v_2)/v_1 で定義されるローター効率 η=4ζ(1−ζ)² が最大となる ζ と η_max を求める（A〜D の穴埋め）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：題号「問題 2.」、風のエネルギーとローター効率の文章、空欄 A〜D の枠、η=4ζ(1−ζ)² の式まで入框；页脚翻页提示「(次ページへ続く)」未入框，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2019-denryoku/kobe-ee-2019-denryoku-q2-01.png",
+          "page": 1,
+          "box": [
+            36.0,
+            542.0,
+            557.7,
+            710.7
+          ],
+          "width": 1305,
+          "height": 422,
+          "label": "問題 2.：題号、風力発電の文章と空欄 A〜D の設問",
+          "sha256": "ca6fbdba4929832d3b5d45cf50a19028a41b230d3a0f82af93590a21a66465c5"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2019-denryoku-q3",
+      "number": "問題 3.",
+      "title": "単相変圧器の等価回路と損失",
+      "titleKind": "editorial",
+      "topics": [
+        "変圧器",
+        "等価回路",
+        "励磁アドミタンス",
+        "損失"
+      ],
+      "summary": "無負荷試験から励磁アドミタンス G−jB、短絡試験から 1 次側換算の合計巻線抵抗と漏れリアクタンス R+jX を得た単相変圧器について、解答欄の等価回路図を完成させて G, B, R, X に対応する素子を通常の回路記号で描き、G および R による損失の特徴を説明する。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：題号「問題 3.」、G−jB と R+jX の設定文、(1) 等価回路の作図指示、(2) 損失の説明まで入框；页眉行未入框，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2019-denryoku/kobe-ee-2019-denryoku-q3-01.png",
+          "page": 2,
+          "box": [
+            35.7,
+            95.0,
+            558.3,
+            231.0
+          ],
+          "width": 1307,
+          "height": 341,
+          "label": "問題 3.：題号、無負荷試験・短絡試験の設定、(1)(2)",
+          "sha256": "ee67c734b3c62b56d3ff65b12a334a003c8e922e758831a13f8663eee237d6f7"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2019-denryoku-q4",
+      "number": "問題 4.",
+      "title": "各種エネルギー貯蔵方式の貯蔵エネルギー",
+      "titleKind": "editorial",
+      "topics": [
+        "エネルギー貯蔵",
+        "電気二重層キャパシタ",
+        "超伝導コイル",
+        "フライホイール"
+      ],
+      "summary": "電気二重層キャパシタのスタック構成に必要なセル数と定格貯蔵エネルギー、40 H の超伝導コイルに 60 A を流したときの貯蔵エネルギー、慣性モーメント 1.0×10⁴ kg·m²・1.8×10³ rpm のフライホイール、1.6 m³ の空気を等温圧縮したときの貯蔵エネルギーを求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：題号「問題 4.」、計算式も記述する指示、(1) キャパシタのセル数と貯蔵エネルギー、(2) 超伝導コイル、(3) フライホイール、(4) 空気の等温圧縮まで入框；巻末「以上」と空白页边未入框，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2019-denryoku/kobe-ee-2019-denryoku-q4-01.png",
+          "page": 2,
+          "box": [
+            35.7,
+            266.0,
+            558.3,
+            514.0
+          ],
+          "width": 1307,
+          "height": 620,
+          "label": "問題 4.：題号、導入文、(1)〜(4)",
+          "sha256": "d003f7532ec661fb97e1c3c2dc25a054807d489c2b12fe30ad590150f6acd5e1"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2019-denryoku-q1",
+        "kobe-ee-2019-denryoku-q2"
+      ],
+      "common": false,
+      "excluded": "页眉「平成 31 年度神戸大学大学院工学研究科…」、科目名「電力工学」、空白页边，以及页脚翻页提示「(次ページへ続く)」。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2019-denryoku-q3",
+        "kobe-ee-2019-denryoku-q4"
+      ],
+      "common": false,
+      "excluded": "页眉行、空白页边、卷末「以上」与页面扫描污点。",
+      "reviewed": true
+    }
+  ]
+}

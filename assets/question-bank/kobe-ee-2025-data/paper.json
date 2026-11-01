@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2025-data",
+  "title": "神户大学 · 2025 入学年度 · 数据科学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2025",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "数据科学",
+    "originalSubject": "データサイエンス",
+    "originalName": "data-2025.pdf",
+    "pdf": "assets/past-papers/documents/bfb22b199e594486d3f6998effacaac1f034c5cadb54e9e9d7a9cc3b80d6737b.pdf",
+    "sha256": "bfb22b199e594486d3f6998effacaac1f034c5cadb54e9e9d7a9cc3b80d6737b",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2025 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2025-data-q1",
+      "number": "問題１.",
+      "title": "高斯分布的最大似然估计与最大后验分类",
+      "titleKind": "editorial",
+      "topics": [
+        "最大似然估计",
+        "高斯分布",
+        "后验概率",
+        "MAP"
+      ],
+      "summary": "两类先验 3/7 与 4/7、exp(-0.5)≈0.61：(1) 求 μ1 的最尤推定值及 x1=0.1,x2=1.1,x3=-0.5 时的值；(2) 求 (μ2,σ²) 的最尤推定值及 x4=1,x5=2,x6=3 时的值；(3) 取 μ1=-0.1,μ2=2.9,σ=2，求 x7=0.9 的后验概率并用事后概率最大化判其所属类。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題１.」、p(x|C1)、p(x|C2) 两式、先验 3/7・4/7 与 exp(-0.5)≈0.61 的条件、(1)(2)(3) 小问及数据点取值齐全；页眉与科目名标题排除在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2025-data/kobe-ee-2025-data-q1-01.png",
+          "page": 1,
+          "box": [
+            46.3,
+            121.7,
+            579.3,
+            451.7
+          ],
+          "width": 1334,
+          "height": 826,
+          "label": "問題１.：题干、两类的概率密度式、先验概率与 exp(-0.5) 说明、(1)(2)(3) 小问",
+          "sha256": "4aa531563ac1bc82c181c4f224e45fa45d4b2126762253b471367230e0047cf0"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2025-data-q2",
+      "number": "問題２.",
+      "title": "主成分分析与逆变换",
+      "titleKind": "editorial",
+      "topics": [
+        "主成分分析",
+        "协方差矩阵",
+        "特征值",
+        "降维"
+      ],
+      "summary": "对 r1=(-1,-1)^T, r2=(0,0)^T, r3=(1,1)^T 的二维数据：(1) 求 σx²,σy²,σxy 与协方差矩阵 Σ 的固有值 λ1≥λ2 及固有矢量；(2) 求变换后数据点 r̃1~r̃3 并图示、说明能否降维；(3) 仅用第 1 主成分逆变换，说明能否复原原数据。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題２.」、r1,r2,r3 的定义与 T 表示转置的说明、(1)~(3) 小问含 Σ 的 2x2 矩阵与 λ1≥λ2、r̃1~r̃3 记号齐全，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2025-data/kobe-ee-2025-data-q2-01.png",
+          "page": 1,
+          "box": [
+            48.0,
+            460.3,
+            570.7,
+            722.7
+          ],
+          "width": 1307,
+          "height": 657,
+          "label": "問題２.：题号、r1~r3 与转置说明、(1)(2)(3) 小问",
+          "sha256": "8ce8c6ec49480796bc7aa6512dfd94064730fe4f977111336fc3116f7ab0702c"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2025-data-q1",
+        "kobe-ee-2025-data-q2"
+      ],
+      "common": false,
+      "excluded": "页眉（2025年度…入学試験）、科目名标题「データサイエンス」与空白页边；本页无独立全卷说明。",
+      "reviewed": true
+    }
+  ]
+}

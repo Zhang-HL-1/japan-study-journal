@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2026-device",
+  "title": "神户大学 · 2026 入学年度 · 半导体器件工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2026",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2026,
+    "yearBasis": "academic",
+    "subject": "半导体器件工学",
+    "originalSubject": "半導体デバイス工学",
+    "originalName": "device-2026.pdf",
+    "pdf": "assets/past-papers/documents/17e4d5edacc66b0dfff0f50afc9ac8c0df0c673ed40ce391ca2388fdd75c58d5.pdf",
+    "sha256": "17e4d5edacc66b0dfff0f50afc9ac8c0df0c673ed40ce391ca2388fdd75c58d5",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2026 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2026-device-q1",
+      "number": "（番号なし）",
+      "title": "金属—n 型半导体接触与静电容",
+      "titleKind": "editorial",
+      "topics": [
+        "金属半導体接触",
+        "エネルギーギャップ",
+        "ポアソン方程式",
+        "静電容量",
+        "障壁"
+      ],
+      "summary": "对功函数 qΦM 与 n 型半导体电子亲和力 qχ、Fermi 能级 EFM/EFS 的关系，分别就 ΦM<ΦS 与 ΦM>ΦS 画接触后的能带图；再用一维模型求耗尽区名称与宽度 w、表面电荷密度与符号、两侧势垒、Poisson 方程及解 φ(x)、w，最后求单位面积静电容及其随偏压的概形。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against 2x scanned page image with coordinate grid, tightened with inkbox.py",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页（全卷仅此一整页、仅一道大题，原卷未印大题号，小问编号为 1)–8) 与「問 2)」）：题干、図 1 (a)(b)(c) 三幅图与图题、1) 2) 3) 4) 5) 6) 7) 8) 及中間的「問 2) の場合において…」全部齐全；页眉年份行与科目标题已排除。大题号缺失已列入待裁决点。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2026-device/kobe-ee-2026-device-q1-01.png",
+          "page": 1,
+          "box": [
+            51.0,
+            121.0,
+            529.0,
+            809.0
+          ],
+          "width": 1196,
+          "height": 1721,
+          "label": "全题：题干与 図1(a)(b)(c) 及图题、小问 1)–2) 能带图、問2) 一维模型、3)–8) w・电荷・势垒・Poisson 方程・静电容",
+          "sha256": "d2b3bc743d26e19cc3f3770196cf15c1661fe764ebc16561ecd9c5051735c54a"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2026-device-q1"
+      ],
+      "common": false,
+      "excluded": "页眉「2026 年度 神戸大学大学院工学研究科…入学試験」与科目标题「半導体デバイス工学」，以及空白页边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

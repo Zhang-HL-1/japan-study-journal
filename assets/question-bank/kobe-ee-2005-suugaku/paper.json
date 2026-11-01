@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2005-suugaku",
+  "title": "神户大学 · 2005 入学年度 · 数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2005",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2005,
+    "yearBasis": "academic",
+    "subject": "数学",
+    "originalSubject": "数学",
+    "originalName": "suugaku.pdf",
+    "pdf": "assets/past-papers/documents/4e77b8b2196daee9ed32c745439cadfd29eb94be4d2b702ed8b687ae3b8b890d.pdf",
+    "sha256": "4e77b8b2196daee9ed32c745439cadfd29eb94be4d2b702ed8b687ae3b8b890d",
+    "pageCount": 1,
+    "note": "来自既有过去问目录。2005 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2005-suugaku-q1",
+      "number": "1.",
+      "title": "矩阵特征值与累次积分次序交换",
+      "titleKind": "editorial",
+      "topics": [
+        "矩阵特征值",
+        "特征向量",
+        "累次积分",
+        "积分顺序"
+      ],
+      "summary": "(1) 求 3 次矩阵 A=[[2,2,0],[2,1,1],[-7,2,-3]] 的全部固有值与对应固有向量；(2) 交换累次积分 ∫_0^1 dy ∫_{y−1}^{−y+1} f(x,y) dx 的积分顺序。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「1.」、总起句「次の各問いに答えよ．」、小问 (1)(2) 齐全；3x3 矩阵 A 的行列与括号完整，累次积分上限 −y+1、下限 y−1 与 dx/dy 次序完整，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-suugaku/kobe-ee-2005-suugaku-q1-01.png",
+          "page": 1,
+          "box": [
+            92.0,
+            99.3,
+            464.0,
+            260.4
+          ],
+          "width": 930,
+          "height": 403,
+          "label": "1.：题干、(1) 3x3 矩阵 A 的固有值与固有向量、(2) 累次积分换序",
+          "sha256": "bb4a7ea9fa98cbb8be8e730f436024ed008a543a889d01bf186be2cee2dab4f3"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2005-suugaku-q2",
+      "number": "2.",
+      "title": "周期函数的傅里叶级数系数",
+      "titleKind": "editorial",
+      "topics": [
+        "傅里叶级数",
+        "周期函数",
+        "分段函数",
+        "系数计算"
+      ],
+      "summary": "f 为周期 2π 的函数，在 [−π,π] 上 f(x)=1 (|x|≤π/3)、f(x)=0 (−π≤x<−π/3, π/3<x≤π)。求其傅里叶级数展开中的 a0, a1, a2, a3, b1, b2。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「2.」、周期与区间条件、f(x) 的三段分段定义（含 ±π/3 边界）与级数展开式 a0/2+Σ(an cos nx+bn sin nx) 完整，末尾 a0,a1,a2,a3,b1,b2 无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-suugaku/kobe-ee-2005-suugaku-q2-01.png",
+          "page": 1,
+          "box": [
+            92.0,
+            264.4,
+            464.0,
+            434.0
+          ],
+          "width": 930,
+          "height": 424,
+          "label": "2.：题干、分段函数 f(x) 的大括号定义、级数展开式与待求系数 a0,a1,a2,a3,b1,b2",
+          "sha256": "6940850326a7a4111aa5b466bf592d9b4a6c32cc6609608637baa110587c260c"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2005-suugaku-q3",
+      "number": "3.",
+      "title": "二阶线性常微分方程的初值解与渐近稳定性",
+      "titleKind": "editorial",
+      "topics": [
+        "二阶线性微分方程",
+        "初值问题",
+        "特征根",
+        "渐近稳定"
+      ],
+      "summary": "对 y″+2ay′+by=0（a、b 实常数）：(1) a=−1、b=−3 且 y(0)=2、y(1)=0 时求满足方程的解。(2) a>0、0<b≤a² 时证明方程的所有解 y(t) 都满足 lim_{t→∞} y(t)=0。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「3.」、a,b 为实常数的说明、方程式与「このとき次の各問いに答えよ」、小问 (1)(2) 完整；lim 的下标 t→∞ 与 y(t)=0 在同一行内，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-suugaku/kobe-ee-2005-suugaku-q3-01.png",
+          "page": 1,
+          "box": [
+            92.0,
+            444.5,
+            464.0,
+            595.0
+          ],
+          "width": 930,
+          "height": 377,
+          "label": "3.：题干与方程 y″+2ay′+by=0、小问 (1) 初值解、(2) lim_{t→∞}y(t)=0 的证明",
+          "sha256": "5b43cbdeebaaefb40bf00afec269ef9c6252dbaba0f0dda9973037223e3f555c"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2005-suugaku-q4",
+      "number": "4.",
+      "title": "泰勒级数、洛朗级数与围道积分",
+      "titleKind": "editorial",
+      "topics": [
+        "泰勒级数",
+        "洛朗级数",
+        "收敛半径",
+        "围道积分"
+      ],
+      "summary": "(1) 求 1/z 以 z=1 为中心的泰勒级数及其收敛半径；(2) 求 z²sin(1/z) 以 z=0 为中心的洛朗级数；(3) 沿以原点为中心、半径 1 的逆时针圆周 C 求 ∮_C z²sin(1/z) dz 的值。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「4.」、小问 (1)(2)(3) 完整；分式 1/z、z²sin(1/z) 与积分号上下限 C 齐全，积分式在页内最下方且未触及页边，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2005-suugaku/kobe-ee-2005-suugaku-q4-01.png",
+          "page": 1,
+          "box": [
+            92.0,
+            598.0,
+            464.0,
+            751.0
+          ],
+          "width": 930,
+          "height": 383,
+          "label": "4.：题干、小问 (1) 泰勒级数与收敛半径、(2) 洛朗级数、(3) 围道积分 ∮_C z²sin(1/z)dz",
+          "sha256": "5c8d1e53ddf48a40e5c4ea913d3de8053a1c931a23efb59a97777f7e0ca6ea5b"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2005-suugaku-q1",
+        "kobe-ee-2005-suugaku-q2",
+        "kobe-ee-2005-suugaku-q3",
+        "kobe-ee-2005-suugaku-q4"
+      ],
+      "common": false,
+      "excluded": "页内四周空白页边；本页无卷头标题、无作答说明、无页眉页码，全部正文均为题目内容。",
+      "reviewed": true
+    }
+  ]
+}

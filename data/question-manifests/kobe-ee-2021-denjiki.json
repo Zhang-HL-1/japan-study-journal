@@ -1,0 +1,151 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2021-denjiki",
+ "title": "神户大学 · 2021 入学年度 · 电磁气学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2021",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2021,
+  "yearBasis": "academic",
+  "subject": "电磁学",
+  "originalSubject": "電磁気学",
+  "originalName": "denjiki-2021.pdf",
+  "pdf": "assets/past-papers/documents/a873a48202b4c7e54015f4471302c7752275bbc55293309b5d7f314b14fef55c.pdf",
+  "sha256": "a873a48202b4c7e54015f4471302c7752275bbc55293309b5d7f314b14fef55c",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2021 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    70.0,
+    147.0,
+    401.3,
+    168.3
+   ],
+   "label": "全卷作答说明（以下の問について、それぞれ指定された答案用紙に解答しなさい）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2021-denjiki-q1",
+   "number": "問題1",
+   "title": "给定电位场的电场与面电荷密度",
+   "titleKind": "editorial",
+   "topics": [
+    "静电场",
+    "电位",
+    "等位面",
+    "面电荷密度"
+   ],
+   "summary": "自由空间的电位为 V=-x^2-y [V]，自由空间与导体的边界是含点 P(2,1,0) 的平面。求 P 点电位、导体等位面的轨迹方程、P 点电场强度，以及 P 点带电的面电荷密度（用真空介电常数 ε0 表示）。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      69.7,
+      182.7,
+      505.7,
+      367.3
+     ],
+     "label": "問題1：题号、题干（V=-x^2-y，边界含 P(2,1,0)）与 (1)–(4) 四小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "扫描页，用 pages/ 2x 页图定位行段后以 inkbox.py 收紧。对照原卷第 1 页：题号「問題1」、电位式 V=-x^2-y (V)、P 点坐标 (2,1,0)、単位说明与 ε0 说明、小问 (1)–(4) 完整，无切字、无 問題2 串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2021-denjiki-q2",
+   "number": "問題2",
+   "title": "介质界面处的电束密度与极化",
+   "titleKind": "editorial",
+   "topics": [
+    "介质界面",
+    "电束密度",
+    "极化",
+    "电位移"
+   ],
+   "summary": "同一电位 V=-x^2-y 下，自由空间与相对介电常数 3 的介质以垂直于 x 轴的平面为界，x>2 区域充满介质（坐标单位为米）。分别求自由空间中与介质中的电束密度，以及介质中的极化强度。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      70.3,
+      417.3,
+      510.3,
+      601.3
+     ],
+     "label": "問題2：题号、题干（比誘電率3、x>2 为介质）与 (1)–(3) 三小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題2」、电位式、比誘電率 3 与 x>2 的界面条件、单位与 ε0 说明、小问 (1)(2)(3) 完整；下方为空白，无第 2 页内容串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2021-denjiki-q3",
+   "number": "問題3",
+   "title": "有限长直线电流与闭合回路磁场",
+   "titleKind": "editorial",
+   "topics": [
+    "毕奥-萨伐尔定律",
+    "位移电流",
+    "磁界积分",
+    "安培环路"
+   ],
+   "summary": "(1) 补全有限长直线电流磁场的说明文（ア〜カ 六个空，从 a–o 语群选记号，可重复使用，涉及磁束・変位電流・ガウス/ビオ・サバールの法則等）；(2) 对 z=0 平面上沿闭合曲线 ABCA 的细导体通电流 Ic，求点 Q(0,0,h) 的磁场 H：判断 z 分量符号、求线段 AB 的 H1 与单位向量 e1、圆弧 BCA 的 H2 及 x 分量符号。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      38.5,
+      112.0,
+      539.3,
+      746.0
+     ],
+     "label": "問題3：(1) 穴埋め説明文与語群 a–o、(2) (2-1)–(2-4)、図 3-1 与 図 3-2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題3」、(1) 说明文与 ア〜カ 空格、式 (3-1)、語群 a)–o) 十五项、(2) 题干与 (2-1)–(2-4)、図 3-1／図 3-2 两个图及图号齐全，无切字；页眉与科目名标题在框外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2021-denjiki-q1",
+    "kobe-ee-2021-denjiki-q2"
+   ],
+   "common": true,
+   "excluded": "页眉「2021 年度神戸大学大学院工学研究科博士課程前期課程入学試験」与科目名标题「電磁気学」；仅保留一行作答说明作公共区域。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2021-denjiki-q3"
+   ],
+   "common": false,
+   "excluded": "页眉与科目名标题（与第 1 页重复）、左侧装订痕、页脚扫描污点与空白页边。",
+   "reviewed": true
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2021-ronri",
+ "title": "神户大学 · 2021 入学年度 · 逻辑回路",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2021",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2021,
+  "yearBasis": "academic",
+  "subject": "逻辑回路",
+  "originalSubject": "論理回路",
+  "originalName": "ronri-2021.pdf",
+  "pdf": "assets/past-papers/documents/81a774c9bcced49067982761154f20b7677a0c9a7cfd1a12a605428d3e5cb415.pdf",
+  "sha256": "81a774c9bcced49067982761154f20b7677a0c9a7cfd1a12a605428d3e5cb415",
+  "pageCount": 2,
+  "note": "来自既有过去问目录。2021 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [],
+ "questions": [
+  {
+   "id": "kobe-ee-2021-ronri-q1",
+   "number": "問題1.",
+   "title": "约数个数组合电路的逻辑式设计",
+   "titleKind": "editorial",
+   "topics": [
+    "组合逻辑",
+    "真值表",
+    "卡诺图",
+    "积和形式",
+    "don't care"
+   ],
+   "summary": "把「X 的除 1 以外约数个数」用二进数 Y=(Y2Y1Y0)2 表示的电路：按步骤作真值表与卡诺图（don't care 记「－」），并用卡诺图化简给出 Y0 的积和形式逻辑式；以 6=(00110)2 的约数 2,3,6 共 3 个为例说明。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      48.7,
+      107.0,
+      538.7,
+      280.7
+     ],
+     "label": "問題1.：导入要求、二进数 X/Y 的定义与 (1-1)(1-2)(1-3) 三小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題1．」与「それぞれ指定された解答用紙に解答しなさい」、X=(X4X3X2X1X0)2・Y=(Y2Y1Y0)2 定义、don't care 说明、「6=(00110)2 の約数のうち1を除くもの」例与 (1-1)(1-2)(1-3) 三小问齐全，无切字；页眉与科目名标题「論理回路」在框外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2021-ronri-q2",
+   "number": "問題2.",
+   "title": "猜拳判定电路与多路选择器",
+   "titleKind": "editorial",
+   "topics": [
+    "多路选择器",
+    "编码器",
+    "组合逻辑",
+    "电路补全"
+   ],
+   "summary": "两人各有「グー・チョキ・パー」三按键与三盏灯，要在平局时点亮对应灯：用 4 入力マルチプレクサ(MUX) 与 4 入力エンコーダ(Enc) 构成平局输出 X1 的电路，填入エンコーダ入力；再把两只 4 入力 MUX 追加写进 (2-1) 的图以补全 X0、X2 的电路。",
+   "regions": [
+    {
+     "page": 1,
+     "box": [
+      48.0,
+      287.7,
+      544.0,
+      726.3
+     ],
+     "label": "問題2.：题干、图左（按键与灯）、图右（MUX＋Enc）、(2-1)(2-2) 两小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 1 页：题号「問題2．」、両者同時押し条件、下記図左（グー/チョキ/パー 与 A/B、Aの勝ち/引き分け/Bの勝ち）与図右（MUX・Enc 方框与 A0–A1、D0–D3、X1）、(2-1)(2-2) 两小问齐全，无切字；页脚「（次ページに続く）」翻页提示在框外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2021-ronri-q3",
+   "number": "問題3.",
+   "title": "JK 触发器时序与三进计数器",
+   "titleKind": "editorial",
+   "topics": [
+    "JK触发器",
+    "时序电路",
+    "状态迁移",
+    "计数器",
+    "NAND门"
+   ],
+   "summary": "对图示负沿触发 JK-FF 电路（初值全 0）完成时序图；再在 (3-1) 的电路上加最少的连线（可加 1 个 NAND 门）构成三进计数器，即某初值下 3 步循环迁移状态的计数器。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      54.0,
+      58.0,
+      547.3,
+      352.7
+     ],
+     "label": "問題3.：题干、(3-1) 时序图与 JK-FF 电路图、(3-2) 三进计数器"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「問題3．」、(3-1) 负沿触发 JK-FF 两段电路图与 X・Y・CK 标注、(3-2) 3進カウンタ与 NAND 允许条件齐全，无切字；页眉与科目名标题在框外，末尾另行「以上」结束标记未纳入框内。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [
+    "kobe-ee-2021-ronri-q1",
+    "kobe-ee-2021-ronri-q2"
+   ],
+   "common": false,
+   "excluded": "页眉「2021 年度神戸大学大学院工学研究科博士課程前期課程入学試験」、科目名标题「論理回路」、左侧装订痕、题间空白与末行「（次ページに続く）」翻页提示；卷面无全卷通用作答说明（作答要求写在各题内部），故无 common region。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2021-ronri-q3"
+   ],
+   "common": false,
+   "excluded": "页眉与科目名标题（续页重复）、左侧装订痕、题后大段空白、末尾「以上」结束标记与页面下半空白。",
+   "reviewed": true
+  }
+ ]
+}

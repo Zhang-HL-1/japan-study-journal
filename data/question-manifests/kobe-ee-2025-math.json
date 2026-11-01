@@ -1,0 +1,188 @@
+{
+ "schemaVersion": 1,
+ "id": "kobe-ee-2025-math",
+ "title": "神户大学 · 2025 入学年度 · 数学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "kobe-ee-2025",
+  "schoolId": "kobe",
+  "school": "神戸大学",
+  "graduate": "工学研究科",
+  "major": "電気電子工学専攻",
+  "year": 2025,
+  "yearBasis": "academic",
+  "subject": "数学",
+  "originalSubject": "数学",
+  "originalName": "math-2025.pdf",
+  "pdf": "assets/past-papers/documents/b39892093d35637cab7a91e425085e0c292e72325594d83b1d2a5bd9dafeec45.pdf",
+  "sha256": "b39892093d35637cab7a91e425085e0c292e72325594d83b1d2a5bd9dafeec45",
+  "pageCount": 3,
+  "note": "来自既有过去问目录。2025 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    44.7,
+    281.3,
+    570.0,
+    439.3
+   ],
+   "label": "全卷作答说明（注意事項 (1)–(4)）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "kobe-ee-2025-math-q1",
+   "number": "1.",
+   "title": "积分等式与线性变换表示矩阵",
+   "titleKind": "editorial",
+   "topics": [
+    "定积分",
+    "积分中值",
+    "线性变换",
+    "矩阵表示"
+   ],
+   "summary": "对[0,1]上非负连续函数 f，证明存在 a∈[0,1] 使 ∫_0^a f(x)dx = b∫_a^1 f(x)dx，并在 f(x)=1/(1+x²)、b=2 时求 a；再在 V={a0+a1x+a2x²} 上取 T(f(x))=f(2+3x)，求基 {1,x,x²} 下的表示矩阵 A 及 A、T 的全部固有值。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      72.3,
+      91.7,
+      570.3,
+      287.7
+     ],
+     "label": "1.：题干、(1) 积分等式与 f=1/(1+x²) 情形、(2)(2-a)(2-b) 线性变换表示矩阵与固有值"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「1.」、总起句「つぎの各問いに答えよ.」、小问 (1)(2) 与 (2-a)(2-b) 齐全，含 ∫_0^a f = b∫_a^1 f 等式、f(x)=1/(1+x²),b=2 的条件及 V、T 的定义，无切字、无下一题串入。"
+   }
+  },
+  {
+   "id": "kobe-ee-2025-math-q2",
+   "number": "2.",
+   "title": "复变函数零点与围道积分",
+   "titleKind": "editorial",
+   "topics": [
+    "复积分",
+    "极点",
+    "留数",
+    "实积分"
+   ],
+   "summary": "对 f(z)=e^{z/4}, g(z)=e^z+1 与由 C1~C4 组成的闭曲线 C：(1) 求 g(z)=0 的全部复根；(2) 利用这些根是 f/g 的一阶极点求 ∮_C (f/g)dz；(3) 证明沿 C2、C4 的积分在 R→∞ 时趋于 0；(4) 据此求 ∫_{-∞}^{∞} e^{x/4}/(e^x+1) dx。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      70.7,
+      299.7,
+      548.3,
+      524.3
+     ],
+     "label": "2.：题干与 C=C1∪C2∪C3∪C4 的定义、(1) 零点、(2) 一位极点复积分、(3) C2/C4 极限、(4) 实轴积分"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「2.」、f,g 定义、C1~C4 各线段起点终点说明与 C=C1∪C2∪C3∪C4 齐全，(1)~(4) 四个小问及 ∮_C 符号、R→∞ 极限、∫_{-∞}^{∞} 上下限完整，无切字。"
+   }
+  },
+  {
+   "id": "kobe-ee-2025-math-q3",
+   "number": "3.",
+   "title": "朗斯基行列式与二阶线性微分方程",
+   "titleKind": "editorial",
+   "topics": [
+    "微分方程",
+    "朗斯基行列式",
+    "初值问题"
+   ],
+   "summary": "对 y''+a(x)y'+b(x)y=0 (*) 的两解 y1,y2 定义朗斯基行列式 W(x)：(1) 证明 W'=-a(x)W；(2) 给定 a(x)=-(3x+4)/(3x+1)、b(x)=-(6x+5)/(3x+1)、y1(x)=e^{-x} 及 y2(0)=0, y2'(0)=1，求 W(x) 与 y2(x)。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      63.7,
+      542.3,
+      527.7,
+      740.3
+     ],
+     "label": "3.：题干与方程 (*)、W(x) 行列式定义、(1) W'=-aW 的证明、(2) a(x)/b(x)/y1(x) 与初值求 W、y2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 2 页：题号「3.」、方程 (*) 及其编号、W(x) 的 2x2 行列式、(1)(2) 小问、a(x),b(x),y1(x) 三式与 y2(0)=0, y2'(0)=1 齐全；页脚「(裏面へ続く)」为翻页提示，已排除在区域外。"
+   }
+  },
+  {
+   "id": "kobe-ee-2025-math-q4",
+   "number": "4.",
+   "title": "傅里叶级数展开与级数求和",
+   "titleKind": "editorial",
+   "topics": [
+    "傅里叶级数",
+    "奇延拓",
+    "级数求和"
+   ],
+   "summary": "对 0<c<1 与 f(x)=0(0≤x<c), 1(c≤x<1)：将其作周期 2 的奇延拓后按 f(x)~a0/2+Σ(an cos nπx + bn sin nπx) 展开，求各系数 a0,an,bn；(2) 利用 (1) 的结果求 Σ_{n≥1} (1/n²)(cos(nπ/2)-(-1)^n)²。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      48.0,
+      86.7,
+      555.7,
+      275.0
+     ],
+     "label": "4.：题干与分段函数 f(x) 大括号、(1) 奇延拓与傅里叶系数、(2) 级数求和"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source page(s)",
+    "date": "2026-11-01",
+    "notes": "对照原卷第 3 页：题号「4.」、分段定义 f(x) 的大括号与两行条件、周期 2 奇延拓的说明、傅里叶级数展开式、小问 (1)(2) 及带平方的级数完整，无切字。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "卷头标题（2025年度・研究科名・科目名）与空白页边；仅保留「注意事項 (1)–(4)」作公共区域。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "kobe-ee-2025-math-q1",
+    "kobe-ee-2025-math-q2",
+    "kobe-ee-2025-math-q3"
+   ],
+   "common": false,
+   "excluded": "空白页边与页脚翻页提示「(裏面へ続く)」，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "kobe-ee-2025-math-q4"
+   ],
+   "common": false,
+   "excluded": "空白页边与扫描污点，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

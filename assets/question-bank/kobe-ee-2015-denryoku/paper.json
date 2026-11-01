@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2015-denryoku",
+  "title": "神户大学 · 2015 入学年度 · 电力工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2015",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "工学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2015,
+    "yearBasis": "academic",
+    "subject": "电力工学",
+    "originalSubject": "電力工学",
+    "originalName": "denryoku-27.pdf",
+    "pdf": "assets/past-papers/documents/56f1b729fd36ae4456f5ccf34c3b29b806acc06ae73ecc971f28f84beed8634d.pdf",
+    "sha256": "56f1b729fd36ae4456f5ccf34c3b29b806acc06ae73ecc971f28f84beed8634d",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2015 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2015-denryoku-q1",
+      "number": "問題 1",
+      "title": "核裂变链式反应与核电站构成（术语填空题）",
+      "titleKind": "editorial",
+      "topics": [
+        "核裂变",
+        "链式反应",
+        "减速剂",
+        "轻水堆"
+      ],
+      "summary": "从【語群】a–q 中选取最恰当用语填入 ア〜ク，说明核裂变与链式反应、裂变中子平均能量、高速中子与热中子的区别、以轻水／重水作减速剂与冷却材、控制棒与蒸汽发生器等沸水堆构成要素。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「問題 1.」、ア〜ク 八个空格与【語群】a–q 三行（含 239Pu/235U/238U 上标）完整，语群末行 m.–q. 在框内；(次ページへ続く) 在下一问框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-denryoku/kobe-ee-2015-denryoku-q1-01.png",
+          "page": 1,
+          "box": [
+            38.0,
+            109.3,
+            560.7,
+            371.3
+          ],
+          "width": 1307,
+          "height": 656,
+          "label": "問題 1：题干、ア〜ク 填空正文与【語群】a–q 全部候选用语",
+          "sha256": "bb93483d40792ee40170a89754425cd1d1ef023b19b727af9e418ffd64901e99"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2015-denryoku-q2",
+      "number": "問題 2",
+      "title": "中子慢化的能量对数衰减率 ξ",
+      "titleKind": "editorial",
+      "topics": [
+        "中子慢化",
+        "弹性碰撞",
+        "对数能量衰减",
+        "平均对数能降"
+      ],
+      "summary": "弹性散射后 v1²=v0²(A²+1+2Acosθ)/(A+1)²：以 E1/E0=1−sχ（χ=(1−cosθ)/2）将 s 表为 A；再由 ξ=−ln(1−sχ) 的立体角平均写出 ξ=−(1/4π)∫₀^π ln(1−sχ)·2πsinθdθ，化为 dχ 积分并求出 ξ(s)，最后对 A=10 求 ξ 数值、对 ξ=0.23 求 2.5MeV 减速到 0.025eV 所需碰撞次数。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1、2 页：题号「問題 2.」、v1² 公式无编号、(1)(2)(3) 与原卷 (4)(5) 跨页相接，近似值 ln(9/11)=−0.20、ln10=2.3 均含；第 1 页 (次ページへ続く) 已排除在框外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-denryoku/kobe-ee-2015-denryoku-q2-01.png",
+          "page": 1,
+          "box": [
+            34.0,
+            381.7,
+            560.7,
+            729.0
+          ],
+          "width": 1317,
+          "height": 869,
+          "label": "問題 2 前半：题干、速度关系式、(1)–(3)（s 与 A、ξ 的积分式、积分求 ξ）",
+          "sha256": "12235e1d61f11c1e0b9ca1a5f3687f9d4b0a78048fe7df48fc5a45b47d4daa6d"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2015-denryoku/kobe-ee-2015-denryoku-q2-02.png",
+          "page": 2,
+          "box": [
+            43.3,
+            45.7,
+            560.7,
+            155.7
+          ],
+          "width": 1294,
+          "height": 276,
+          "label": "問題 2 后半（次页续）：(4) A=10 时 ξ 的数值、(5) 2.5MeV→0.025eV 的碰撞次数",
+          "sha256": "30c4ab8df5d37bfb1092b5bd17ad95498bdaca4fc4e28ad742bcff5892b87c71"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2015-denryoku-q3",
+      "number": "問題 3",
+      "title": "MHD 发电机的电动势、内阻与输出功率",
+      "titleKind": "editorial",
+      "topics": [
+        "磁流体发电",
+        "洛伦兹力",
+        "内阻",
+        "输出功率"
+      ],
+      "summary": "直角管道（幅 d、电极面积 S、上下绝缘壁）中导电流体以速度 u 通过垂直磁场 B：判定电极 1／2 何者为正极，写出电动势 U=uBd、端电压 V=Uη（η=R/(R+r)）、输出功率及单位体积输出功率 p 最大时的 η 与 p(σ,u,B)。",
+      "review": {
+        "status": "verified",
+        "method": "scanned page (text≈0): 3x ink-row profile + inkbox.py tightening + AI visual comparison against full source page",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「問題 3.」、小问 1.–5. 齐全，图（MHD 発電器）含 R、電極1、電極2、B、u、d、S、ダクト 标注与图题「図: MHD 発電器」完整，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2015-denryoku/kobe-ee-2015-denryoku-q3-01.png",
+          "page": 2,
+          "box": [
+            37.3,
+            185.0,
+            560.7,
+            679.7
+          ],
+          "width": 1309,
+          "height": 1238,
+          "label": "問題 3：题干、1.–5. 五个小问、MHD 发电机斜视图（B・u・d・S・電極1・電極2・R・ダクト）与图题",
+          "sha256": "67b32478bdbc7e1dfc51f1e1c0ce4c6a349cc28c2b78949c148c1935239ce729"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2015-denryoku-q1",
+        "kobe-ee-2015-denryoku-q2"
+      ],
+      "common": false,
+      "excluded": "卷头页眉与科目名「電力工学」标题，以及頁脚翻页提示「(次ページへ続く)」（非题目内容）。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2015-denryoku-q2",
+        "kobe-ee-2015-denryoku-q3"
+      ],
+      "common": false,
+      "excluded": "页眉（平成 27 年度…入学試験）与空白页边、扫描污点；(4)(5) 为前一问跨页续，无独立题号。",
+      "reviewed": true
+    }
+  ]
+}

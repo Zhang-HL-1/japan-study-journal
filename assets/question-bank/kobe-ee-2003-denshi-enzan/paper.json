@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2003-denshi-enzan",
+  "title": "神户大学 · 2003 入学年度 · 电子运算",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2003",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2003,
+    "yearBasis": "academic",
+    "subject": "电子运算",
+    "originalSubject": "電子演算",
+    "originalName": "denshi_enzan.pdf",
+    "pdf": "assets/past-papers/documents/a3bae9d6175027740ef86781e3156339c32c78a7ba89fdc8619bb682d4f040f6.pdf",
+    "sha256": "a3bae9d6175027740ef86781e3156339c32c78a7ba89fdc8619bb682d4f040f6",
+    "pageCount": 2,
+    "note": "来自既有过去问目录。2003 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2003-denshi-enzan-q1",
+      "number": "問題1",
+      "title": "开关函数的积和标准形与和积标准形",
+      "titleKind": "editorial",
+      "topics": [
+        "开关函数",
+        "标准形",
+        "积和",
+        "和积"
+      ],
+      "summary": "填空（4 分）：写出 f(x,y)=1 的开关函数的积和标准形 [(1)]，以及 f(x,y)=0 的开关函数的和积标准形 [(2)]。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页 2x 页图：题号「問題１」、题干「以下の空白を埋めよ。（４点）」与两行设问、[(1)][(2)] 编号齐全，未含卷头年度日期标题。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denshi-enzan/kobe-ee-2003-denshi-enzan-q1-01.png",
+          "page": 1,
+          "box": [
+            80.7,
+            169.3,
+            460.0,
+            228.7
+          ],
+          "width": 949,
+          "height": 149,
+          "label": "問題1：题干、分值（４点）与填空 [(1)]、[(2)] 两行",
+          "sha256": "5b6c6400c3930b2b11900f49ad15bb37033dca3dc2422a967aa3ac556edba08f"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-denshi-enzan-q2",
+      "number": "問題2",
+      "title": "用 NAND/NOR 表示 AND 函数",
+      "titleKind": "editorial",
+      "topics": [
+        "NAND",
+        "NOR",
+        "逻辑函数",
+        "布尔代数"
+      ],
+      "summary": "填空（4 分）：以 NAND(a,b)、NOR(a,b) 的记法，写出仅用 NAND 函数表示 AND(x,y) 的式子 [(3)] 与仅用 NOR 函数表示的式子 [(4)]。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页 2x 页图：题号「問題２」、（４点）、NAND/NOR 记法句与 [(3)][(4)] 完整，未串入問題3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denshi-enzan/kobe-ee-2003-denshi-enzan-q2-01.png",
+          "page": 1,
+          "box": [
+            80.7,
+            241.3,
+            513.3,
+            318.0
+          ],
+          "width": 1083,
+          "height": 192,
+          "label": "問題2：题干、NAND/NOR 记法说明、填空 [(3)]、[(4)]",
+          "sha256": "b1a02d2373ed02b088574aeeb3fe40acba20c46666565b50c56150e8fed4b8dd"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-denshi-enzan-q3",
+      "number": "問題3",
+      "title": "主存储器的字线结构与地址译码器规模",
+      "titleKind": "editorial",
+      "topics": [
+        "存储器",
+        "地址译码器",
+        "AND 门",
+        "字线",
+        "二维译码"
+      ],
+      "summary": "填空（46 分）：主存储器的位/字线结构、地址寄存器与译码器、2^k×n 存储器的译码器规模与 AND 门数，并以 256×8 为例说明两级（4 位+4 位）译码、16×16 重排等改进方案及最终门数（空栏 (5)〜(27)）。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1、2 页 2x 页图：問題3 跨页，第 1 页区域止于「…アクセスは」句末（未含页码「1」），第 2 页区域从「[(20)]および[(21)]の指定により行う。」起至「…大幅な節減となる。」止，空栏 (5)〜(27) 连续无缺、无重复，未串入問題4。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denshi-enzan/kobe-ee-2003-denshi-enzan-q3-01.png",
+          "page": 1,
+          "box": [
+            80.7,
+            331.0,
+            516.0,
+            749.7
+          ],
+          "width": 1089,
+          "height": 1048,
+          "label": "問題3（第 1 页部分）：题干与 (5)〜(19) 的填空，至「このメモリ内部へのアクセスは」句末",
+          "sha256": "764cd9e2496a6610da7728d5b1b33e47883ece6913b8336248327947af0199e5"
+        },
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denshi-enzan/kobe-ee-2003-denshi-enzan-q3-02.png",
+          "page": 2,
+          "box": [
+            121.3,
+            97.3,
+            519.3,
+            210.0
+          ],
+          "width": 996,
+          "height": 282,
+          "label": "問題3（第 2 页续）：空栏 (20)〜(27)，含 16×16 重排后的两级译码与门数结论",
+          "sha256": "6a464202cfa2cb29c239350c7b4e9558697a465beae1cb4c63a6182a4bf0d1b2"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-denshi-enzan-q4",
+      "number": "問題4",
+      "title": "计算机硬件四大组成与指令周期",
+      "titleKind": "editorial",
+      "topics": [
+        "计算机组成",
+        "五大部件",
+        "程序计数器",
+        "指令周期"
+      ],
+      "summary": "填空（16 分）：计算机硬件的四大构成要素及各部件职能、CPU 的构成、管理指令执行顺序的寄存器，以及指令处理周期的两个阶段（空栏 (28)〜(35)）。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页 2x 页图：题号「問題４」、（１６点）、空栏 (28)〜(35) 与末句「…二つの段階に分けて逐次行われる。」齐全，未含問題3 续段与問題5。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denshi-enzan/kobe-ee-2003-denshi-enzan-q4-01.png",
+          "page": 2,
+          "box": [
+            80.7,
+            223.3,
+            515.3,
+            443.3
+          ],
+          "width": 1088,
+          "height": 551,
+          "label": "問題4：题干、分值（１６点）与空栏 (28)〜(35) 的整段说明",
+          "sha256": "a9e04359177b424db41c7a637cc4b4e3c8cbab46578343c312d4f68a61ba3929"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-denshi-enzan-q5",
+      "number": "問題5",
+      "title": "用布尔代数公理证明 (x+y)(x'+y)=y",
+      "titleKind": "editorial",
+      "topics": [
+        "布尔代数",
+        "化简",
+        "分配律",
+        "互补律"
+      ],
+      "summary": "（10 分）切换形式 (x+y)(x'+y) 可化简为 y，要求仅用补元律、单位元的存在、分配律、交换律加以证明。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页 2x 页图：题号「問題５（１０点）」、切换形式 (x+ y)(x' +y) 与所列四条公理名称齐全，撇号与括号未被切边。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denshi-enzan/kobe-ee-2003-denshi-enzan-q5-01.png",
+          "page": 2,
+          "box": [
+            80.7,
+            457.0,
+            515.3,
+            515.7
+          ],
+          "width": 1088,
+          "height": 148,
+          "label": "問題5：题干（分值（１０点））与仅用四条公理证明的要求",
+          "sha256": "2dc1887a0877bcbcb0000386dfbf244d6fb93f41403feb076f2a1abd95a750a0"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2003-denshi-enzan-q6",
+      "number": "問題6",
+      "title": "D 锁存器构成主从触发器及其状态迁移图",
+      "titleKind": "editorial",
+      "topics": [
+        "D 锁存器",
+        "主从触发器",
+        "状态迁移图",
+        "时序电路"
+      ],
+      "summary": "（20 分）1. 用 D 锁存器构成主从（マスタ・スレイブ）触发器；2. 画出这样构成的主从 D 触发器的状态迁移图。",
+      "review": {
+        "status": "verified",
+        "method": "AI 目视比对原卷页图并逐题用 inkbox.py 墨迹收紧坐标",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页 2x 页图：题号「問題６（２０点）」、两小问「１．D ラッチを用いて…」「２．…状態遷移図を示せ。」完整；框下缘止于第 2 小问末行，未含末「以上。」。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2003-denshi-enzan/kobe-ee-2003-denshi-enzan-q6-01.png",
+          "page": 2,
+          "box": [
+            80.7,
+            529.0,
+            514.7,
+            623.7
+          ],
+          "width": 1086,
+          "height": 238,
+          "label": "問題6：题干（分值（２０点））与 1.、2. 两小问",
+          "sha256": "7c86a5238ff8404bea018a698d33575bf6c058a42949f5acae0ea7dd8c6d9a45"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2003-denshi-enzan-q1",
+        "kobe-ee-2003-denshi-enzan-q2",
+        "kobe-ee-2003-denshi-enzan-q3"
+      ],
+      "common": false,
+      "excluded": "卷头「平成14年8月２8日」「平成１５年度…入学試験問題」「電子演算（計１００点）」与页脚页码「1」，非题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2003-denshi-enzan-q3",
+        "kobe-ee-2003-denshi-enzan-q4",
+        "kobe-ee-2003-denshi-enzan-q5",
+        "kobe-ee-2003-denshi-enzan-q6"
+      ],
+      "common": false,
+      "excluded": "末尾「以上。」结束标记与页脚页码「2」，非题目内容。",
+      "reviewed": true
+    }
+  ]
+}

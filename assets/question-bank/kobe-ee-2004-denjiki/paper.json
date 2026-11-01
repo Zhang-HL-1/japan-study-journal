@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "kobe-ee-2004-denjiki",
+  "title": "神户大学 · 2004 入学年度 · 电磁气学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "kobe-ee-2004",
+    "schoolId": "kobe",
+    "school": "神戸大学",
+    "graduate": "自然科学研究科",
+    "major": "電気電子工学専攻",
+    "year": 2004,
+    "yearBasis": "academic",
+    "subject": "电磁学",
+    "originalSubject": "電磁気学",
+    "originalName": "denjiki.pdf",
+    "pdf": "assets/past-papers/documents/67897b1f40b46c3b88600b06769a8184c073afcfa23b0ba50da296f9948f43c1.pdf",
+    "sha256": "67897b1f40b46c3b88600b06769a8184c073afcfa23b0ba50da296f9948f43c1",
+    "pageCount": 3,
+    "note": "来自既有过去问目录。2004 为入学年度，原卷未标实际考试日期，不推断实施年份。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "kobe-ee-2004-denjiki-q1",
+      "number": "問題 1",
+      "title": "圆环线电荷在轴线上的电位",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "线电荷",
+        "电位"
+      ],
+      "summary": "总电荷 4 nC、半径 2 m 的均匀线电荷圆环位于 Z=0 平面、中心在原点，求 Z 轴上坐标 (0,0,2) 处的电位（坐标单位 m）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「［問題１］」与题干三行（总电荷 4 nC、半径 2 m、Z=0 平面、中心原点、求 Z 轴 (0,0,2) 电位、单位 [m]）完整；原卷题号作全角方括号「［問題１］」，此处按规范记为「問題 1」。页眉两行已排除。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-denjiki/kobe-ee-2004-denjiki-q1-01.png",
+          "page": 1,
+          "box": [
+            79.1,
+            150.2,
+            516.3,
+            246.3
+          ],
+          "width": 1094,
+          "height": 241,
+          "label": "問題1：题干「［問題１］」与线电荷圆环电位设问",
+          "sha256": "9313d4fa60826f41c3dbb93f117f9b691d6b329fe866fab169cffeb30ec145f0"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2004-denjiki-q2",
+      "number": "問題 2",
+      "title": "有限厚度介质板内的极化强度",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "电介质",
+        "极化矢量"
+      ],
+      "summary": "相对介电常数 2.2 的均匀各向同性介质板垂直 x 轴放置，外部大气（εr=1.0）中的电场为 E=1.0×10³aₓ V/m，求介质板内的极化矢量（ε₀=8.9×10⁻¹² F/m）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 1 页：题号「［問題２］」、题干四行（厚度有限、εr=2.2、外部 εr=1.0、E=1.0×10³aₓV/m、求分極ベクトル、ε₀=8.9×10⁻¹²F/m）与下方灰色介质板示意图（左右 εr 标注、E 箭头、x 轴虚线）均完整收入，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-denjiki/kobe-ee-2004-denjiki-q2-01.png",
+          "page": 1,
+          "box": [
+            79.1,
+            330.2,
+            516.3,
+            726.2
+          ],
+          "width": 1094,
+          "height": 991,
+          "label": "問題2：题干与介质板剖面图（εr=1.0 / εr=2.2、E 与 x 轴）",
+          "sha256": "96c878c4303b6d55d2b67bd9c2830c6ce4fdbb2ab10ee6327a79dbf503165a40"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2004-denjiki-q3",
+      "number": "問題 3",
+      "title": "同轴圆筒导体的磁场强度分布",
+      "titleKind": "editorial",
+      "topics": [
+        "静磁场",
+        "安培环路定律",
+        "同轴导体"
+      ],
+      "summary": "半径 a 与 b 的同心圆筒导体，内筒有向上电流 I、外筒有反向电流 −I；求 0<r<a、a≤r≤b、r>b 各区域的磁场强度大小与方向，并画出 H 随 r 变化的概略图。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 2 页：题号「［問題３］」、题干四行（同心圆筒、内外电流方向、三个 r 区间、求 H 与方向、画 H–r 概略图）与圆筒示意图（a、b 标注、I 与 −I 箭头）完整，图未切边。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-denjiki/kobe-ee-2004-denjiki-q3-01.png",
+          "page": 2,
+          "box": [
+            79.1,
+            96.2,
+            516.3,
+            556.3
+          ],
+          "width": 1094,
+          "height": 1151,
+          "label": "問題3：题干与同心圆筒导体示意图（半径 a、b 与电流 I、−I）",
+          "sha256": "6e6b62916c9bdc25f0b5bcb2cb6cadd7b326c2df0915a850209593372a912a15"
+        }
+      ]
+    },
+    {
+      "id": "kobe-ee-2004-denjiki-q4",
+      "number": "問題 4",
+      "title": "无损耗介质中的平面电磁波与色散关系",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "平面电磁波",
+        "色散关系"
+      ],
+      "summary": "无电荷无电流的均匀无损耗介质（介电常数 ε、磁导率 μ）中，电场仅有 x 方向分量 E=E₀sin(kz+ωt)aₓ；要求 (a) 写出麦克斯韦方程组四式，(b) 求 D、H、B 的表式（可含 k），(c) 定出 k 的值。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source page(s)",
+        "date": "2026-11-01",
+        "notes": "对照原卷第 3 页：题号「［問題４］」、介质条件、E=E₀sin(kz+ωt)aₓ 与式号 (1)、小问 (a)(b)(c) 及「ただし…ベクトル A に対する以下の関係を用いよ」的 ∇×A 三分量展开式完整，无切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/kobe-ee-2004-denjiki/kobe-ee-2004-denjiki-q4-01.png",
+          "page": 3,
+          "box": [
+            79.1,
+            96.2,
+            519.3,
+            408.3
+          ],
+          "width": 1102,
+          "height": 781,
+          "label": "問題4：题干、式 (1) 与小问 (a)(b)(c)、末尾给出的 ∇×A 展开式",
+          "sha256": "90e058f745cec4a5a631ed0e6ca9fede5014b428b197f90e66ce113c033573df"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "kobe-ee-2004-denjiki-q1",
+        "kobe-ee-2004-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "页眉两行（平成16年度…博士課程前期課程／電気電子工学専攻 入学試験問題 平成15年8月26日）与科目标题「電 磁 気 学」；不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "kobe-ee-2004-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "页眉两行（同上）与本页空白页边；不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "kobe-ee-2004-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "页眉两行（同上）与本页空白页边；不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}
