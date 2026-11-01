@@ -1,0 +1,821 @@
+{
+  "schemaVersion": 1,
+  "id": "sophia-scitec-2016-september-electrical",
+  "title": "上智大学 · 2016 入学年度 · 电气电子工学基础（9月入试）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "sophia-scitec-2016-september-electrical",
+    "schoolId": "sophia",
+    "school": "上智大学",
+    "graduate": "理工学研究科",
+    "major": "理工学専攻",
+    "year": 2016,
+    "yearBasis": "academic",
+    "subject": "电气电子工学基础",
+    "originalSubject": "電気・電子工学基礎",
+    "originalName": "FILE3207_20180416035623.pdf",
+    "pdf": "assets/past-papers/documents/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
+    "sha256": "fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385",
+    "pageCount": 66,
+    "note": "2016年度大学院入学試験 · 9月入試；实施日 2015-09-16"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/sophia-scitec-2016-september-electrical/common-01.png",
+      "page": 48,
+      "box": [
+        38.0,
+        144.0,
+        574.0,
+        784.0
+      ],
+      "width": 1340,
+      "height": 1600,
+      "label": "試験上の注意事項",
+      "sha256": "ce7c43e406e1f8ed98216a10f867e6367ef24c464d450eb44862ae0fdd071562"
+    }
+  ],
+  "questions": [
+    {
+      "id": "sophia-scitec-2016-september-electrical-q1",
+      "number": "1",
+      "title": "数学：一阶微分方程、矩阵幂与矩阵内积",
+      "titleKind": "editorial",
+      "topics": [
+        "一阶微分方程",
+        "三重积分",
+        "矩阵幂与特征值",
+        "矩阵内积"
+      ],
+      "summary": "数学の総合問題。(1)(a) 2 つの一階微分方程式の一般解、(b) 指数関数の三重積分。(2) 4 つの 2 次行列 A～D について、(a) A^n と固有値、(b) 内積 ⟨Z|W⟩=tr(ᵗZW) の定義のもとで A～D が直交する x, y を決定、(c) A～C を並べた 6 次正方行列 F, G の内積。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-11-01",
+        "notes": "对照整页渲染图 p49.png 核对：题号框、题干与全部小问完整，图与图号齐全，无页眉页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/sophia-scitec-2016-september-electrical/sophia-scitec-2016-september-electrical-q1-01.png",
+          "page": 49,
+          "box": [
+            38.0,
+            143.0,
+            574.0,
+            771.0
+          ],
+          "width": 1340,
+          "height": 1571,
+          "label": "問題1",
+          "sha256": "22469effe1149ff2bdd35bfc966604c058f0d4f714606dc705df7d7fd1635305"
+        }
+      ]
+    },
+    {
+      "id": "sophia-scitec-2016-september-electrical-q2",
+      "number": "2",
+      "title": "数学：复数方程、傅里叶级数与帕塞瓦尔等式",
+      "titleKind": "editorial",
+      "topics": [
+        "复数方程",
+        "傅里叶级数",
+        "帕塞瓦尔等式",
+        "级数求和"
+      ],
+      "summary": "(a) |z|・共役・z³ を含む 3 つの複素方程式を解き、異なる根はすべて記す。(b) フーリエ係数とパーセバルの等式が与えられ、(i) f(x)=x (−π≤x≤π) のグラフと偶奇性、(ii) フーリエ級数展開、(iii) パーセバルの等式を用いて Σ1/n² を計算。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-11-01",
+        "notes": "对照整页渲染图 p50.png 核对：题号框、题干与全部小问完整，图与图号齐全，无页眉页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/sophia-scitec-2016-september-electrical/sophia-scitec-2016-september-electrical-q2-01.png",
+          "page": 50,
+          "box": [
+            38.0,
+            144.0,
+            573.0,
+            782.0
+          ],
+          "width": 1338,
+          "height": 1595,
+          "label": "問題2",
+          "sha256": "2a78d2e5d25d1c7d5043dd19817d055b60687808812a894085ea4de65f1b7d02"
+        }
+      ]
+    },
+    {
+      "id": "sophia-scitec-2016-september-electrical-q3",
+      "number": "3",
+      "title": "电磁学：接地平面与平行无限长导体的静电电容",
+      "titleKind": "editorial",
+      "topics": [
+        "镜像法",
+        "静电电容",
+        "电场",
+        "导体平面"
+      ],
+      "summary": "接地された無限大導体平面 S（yz 平面）と、それに平行で半径 a・中心軸 x=d（d≫a>0）の無限長導体 A が誘電率 ε 中にある。(1) 電気力線の概形を描く、(2) A と S の間の単位長さあたりの静電容量、(3) 原点における電界を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-11-01",
+        "notes": "对照整页渲染图 p51.png 核对：题号框、题干与全部小问完整，图与图号齐全，无页眉页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/sophia-scitec-2016-september-electrical/sophia-scitec-2016-september-electrical-q3-01.png",
+          "page": 51,
+          "box": [
+            38.0,
+            142.0,
+            574.0,
+            776.0
+          ],
+          "width": 1340,
+          "height": 1585,
+          "label": "問題3",
+          "sha256": "c8abe0fe0cd36d649c87d91441d622e50958f56c23f3a355603a731b33e41641"
+        }
+      ]
+    },
+    {
+      "id": "sophia-scitec-2016-september-electrical-q4",
+      "number": "4",
+      "title": "电磁学：毕奥-萨伐尔定律与有限长电流的磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "毕奥-萨伐尔定律",
+        "磁场",
+        "外积",
+        "无限长近似"
+      ],
+      "summary": "1. ビオ・サバールの法則を記述する。2. z 軸上の有限長導体（−l≤z≤l）に +z 向き電流 I が流れるとき、x 軸上距離 h の点 A の磁束密度を、(i) ベクトル PA の成分表示、(ii) dz e_z と PA の外積、(iii) 微小電流素が作る dB の成分、(iv) 積分による B、(v) l→∞ の無限長極限、の順に求める（図あり）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-11-01",
+        "notes": "对照整页渲染图 p52.png 核对：题号框、题干与全部小问完整，图纸本身无图号（原卷即如此），无页眉页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/sophia-scitec-2016-september-electrical/sophia-scitec-2016-september-electrical-q4-01.png",
+          "page": 52,
+          "box": [
+            42.0,
+            140.0,
+            579.0,
+            780.0
+          ],
+          "width": 1343,
+          "height": 1600,
+          "label": "問題4",
+          "sha256": "3064479fb6252db6c7b0a1c07d4970ff7261257313ca0b60ad59f1fddab05abd"
+        }
+      ]
+    },
+    {
+      "id": "sophia-scitec-2016-september-electrical-q5",
+      "number": "5",
+      "title": "电子电路：二极管全波整流与晶体管放大电路",
+      "titleKind": "editorial",
+      "topics": [
+        "二极管整流",
+        "全波整流波形",
+        "晶体管偏置",
+        "h 参数等效电路"
+      ],
+      "summary": "1. ダイオード回路：(1) ダイオードとコンデンサを用いた全波整流回路を入力 v_i・出力 v_o 付きで図示、(2) コンデンサを除き v_i(t)=5sin(ωt) を入力したときの v_o を 1 周期分図示（順方向降下 0.7V の理想ダイオード）。2. 図 1 のトランジスタ増幅回路（β(h_fe)=99, V_BE=0.7V, R_B=400kΩ, R_E=R_C=1kΩ）について、(1) I_E を I_B で表す、(2) 直流バイアスでの I_B, I_C, V_E、(3) h パラメータによる交流小信号等価回路、(4) 交流出力電圧 v_o を i_b で表す。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-11-01",
+        "notes": "对照整页渲染图 p53.png 核对：题号框、题干与全部小问完整，図1（トランジスタ回路図）齐全，无页眉页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/sophia-scitec-2016-september-electrical/sophia-scitec-2016-september-electrical-q5-01.png",
+          "page": 53,
+          "box": [
+            37.0,
+            143.0,
+            573.0,
+            783.0
+          ],
+          "width": 1341,
+          "height": 1601,
+          "label": "問題5",
+          "sha256": "691c9ad1f165936df39282fa70c4725d7d997048f1824a475871edb92896f216"
+        }
+      ]
+    },
+    {
+      "id": "sophia-scitec-2016-september-electrical-q6",
+      "number": "6",
+      "title": "电路：开关切换的 RC/RL 电路暂态过程",
+      "titleKind": "editorial",
+      "topics": [
+        "暂态过程",
+        "时间常数",
+        "电容电压",
+        "电感电压"
+      ],
+      "summary": "R, C, L と直流電源 E からなる回路で、t=0 に SW₁ を閉じ定常状態になった後、t=t₁ に SW₁ を開くと同時に SW₂ を閉じる。(1) t=0 で回路に流れる電流 i(t)、(2) 0≤t<t₁ における C を下向きに流れる電流 i(t)・C 両端電圧 v_C(t)・R 両端電圧 v_R(t)、(3) t₁≤t における L を下向きに流れる電流 i(t)・L 両端電圧 v_L(t) を求める（回路図あり）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-11-01",
+        "notes": "对照整页渲染图 p54.png 核对：题号框、题干与全部小问完整，图纸本身无图号（原卷即如此），无页眉页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/sophia-scitec-2016-september-electrical/sophia-scitec-2016-september-electrical-q6-01.png",
+          "page": 54,
+          "box": [
+            37.0,
+            141.0,
+            573.0,
+            773.0
+          ],
+          "width": 1341,
+          "height": 1581,
+          "label": "問題6",
+          "sha256": "9a7436fb4c18be4b0074409b8fe551225a72010433227661b32efc41de50a910"
+        }
+      ]
+    },
+    {
+      "id": "sophia-scitec-2016-september-electrical-q7",
+      "number": "7",
+      "title": "电路：RLC 并联谐振电路的相量分析",
+      "titleKind": "editorial",
+      "topics": [
+        "并联谐振",
+        "相量",
+        "导纳",
+        "谐振频率"
+      ],
+      "summary": "図の RLC 回路（e(t)=30.0√2 sinωt, R=2.00Ω, L=7.88mH, C=15.8µF）について、(1) 電源電圧のフェーザ Ė を数値で表す、(2) 並列部分の共振角周波数 ω₀ と周波数 f₀ を計算過程付きで求める、(3) 共振時の回路アドミタンス Ẏ₀、(4) 全電流 İ をフェーザ形式で、(5) 並列部分の電流 İ_L と İ_C をフェーザ形式で求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the rendered full source page",
+        "date": "2026-11-01",
+        "notes": "对照整页渲染图 p55.png 核对：题号框、题干与全部小问完整，图纸本身无图号（原卷即如此），无页眉页码。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/sophia-scitec-2016-september-electrical/sophia-scitec-2016-september-electrical-q7-01.png",
+          "page": 55,
+          "box": [
+            37.0,
+            140.0,
+            574.0,
+            776.0
+          ],
+          "width": 1343,
+          "height": 1590,
+          "label": "問題7",
+          "sha256": "b97a9b4ee10f65e322a2a90faa19c0b986ba8eb7cdd42df66d4e99dcd22927e0"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 15,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 17,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 18,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 19,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 20,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 21,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 22,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 23,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 24,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 25,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 26,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 27,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 28,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 29,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 30,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 31,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 32,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 33,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 34,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 35,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 36,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 37,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 38,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 39,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 40,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 41,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 42,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 43,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 44,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 45,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 46,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 47,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 48,
+      "questionIds": [],
+      "common": true,
+      "excluded": false,
+      "reviewed": true
+    },
+    {
+      "page": 49,
+      "questionIds": [
+        "sophia-scitec-2016-september-electrical-q1"
+      ],
+      "common": false,
+      "excluded": false,
+      "reviewed": true
+    },
+    {
+      "page": 50,
+      "questionIds": [
+        "sophia-scitec-2016-september-electrical-q2"
+      ],
+      "common": false,
+      "excluded": false,
+      "reviewed": true
+    },
+    {
+      "page": 51,
+      "questionIds": [
+        "sophia-scitec-2016-september-electrical-q3"
+      ],
+      "common": false,
+      "excluded": false,
+      "reviewed": true
+    },
+    {
+      "page": 52,
+      "questionIds": [
+        "sophia-scitec-2016-september-electrical-q4"
+      ],
+      "common": false,
+      "excluded": false,
+      "reviewed": true
+    },
+    {
+      "page": 53,
+      "questionIds": [
+        "sophia-scitec-2016-september-electrical-q5"
+      ],
+      "common": false,
+      "excluded": false,
+      "reviewed": true
+    },
+    {
+      "page": 54,
+      "questionIds": [
+        "sophia-scitec-2016-september-electrical-q6"
+      ],
+      "common": false,
+      "excluded": false,
+      "reviewed": true
+    },
+    {
+      "page": 55,
+      "questionIds": [
+        "sophia-scitec-2016-september-electrical-q7"
+      ],
+      "common": false,
+      "excluded": false,
+      "reviewed": true
+    },
+    {
+      "page": 56,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 57,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 58,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 59,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 60,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 61,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 62,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 63,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 64,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 65,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    },
+    {
+      "page": 66,
+      "questionIds": [],
+      "common": false,
+      "excluded": true,
+      "reviewed": true,
+      "reason": "合册内其他专攻/科目页面，非本专攻试题"
+    }
+  ]
+}
