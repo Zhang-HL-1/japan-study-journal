@@ -1,0 +1,233 @@
+{
+  "importedAt": "2026-11-01",
+  "universityId": "sophia",
+  "sourceBatch": "sophia-ee-archive-20261101",
+  "sourceFolder": "用户提供／sophia-ee-clean（电气电子专攻；完整原合册）",
+  "keeps2025Manifest": "assets/past-papers/sophia-import-manifest.json",
+  "addedGroups": 5,
+  "addedUniquePDFs": 7,
+  "addedPages": 384,
+  "skippedDuplicate2025PDFs": 4,
+  "skippedExtractedEEOnlyPDFs": true,
+  "skippedOtherSubjects": [
+    "機械工学基礎",
+    "情報学基礎"
+  ],
+  "noQuestionBankCropping": true,
+  "groupsAfter": 11,
+  "uniquePDFsAfter": 11,
+  "pagesAfter": 553,
+  "priorGroups": 6,
+  "priorUniquePDFs": 4,
+  "priorPages": 169,
+  "files": [
+    {
+      "originalName": "FILE3207_20180416035623.pdf",
+      "path": "assets/past-papers/documents/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
+      "sha256": "fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385",
+      "byteSize": 2025785,
+      "pages": 66,
+      "kind": "question",
+      "sourcePaths": [
+        "上智大学/2016/官方完整原件/FILE3207_20180416035623.pdf"
+      ],
+      "sourceType": "2018年官网过去问机器人／历史快照下载的官方合册",
+      "answers": "none"
+    },
+    {
+      "originalName": "FILE3141_20180412062417.pdf",
+      "path": "assets/past-papers/documents/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
+      "sha256": "9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00",
+      "byteSize": 1970726,
+      "pages": 65,
+      "kind": "question",
+      "sourcePaths": [
+        "上智大学/2017/官方完整原件/FILE3141_20180412062417.pdf"
+      ],
+      "sourceType": "2018年官网过去问机器人／历史快照下载的官方合册",
+      "answers": "none"
+    },
+    {
+      "originalName": "FILE3094_20180412044349.pdf",
+      "path": "assets/past-papers/documents/abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8.pdf",
+      "sha256": "abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8",
+      "byteSize": 1713496,
+      "pages": 53,
+      "kind": "question",
+      "sourcePaths": [
+        "上智大学/2018/官方完整原件/FILE3094_20180412044349.pdf"
+      ],
+      "sourceType": "2018年官网过去问机器人／历史快照下载的官方合册",
+      "answers": "none"
+    },
+    {
+      "originalName": "2026_scitectest_sep.pdf",
+      "path": "assets/past-papers/documents/efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad.pdf",
+      "sha256": "efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad",
+      "byteSize": 3377903,
+      "pages": 51,
+      "kind": "question",
+      "sourcePaths": [
+        "上智大学/2026/官方完整原件/2026_scitectest_sep.pdf"
+      ],
+      "sourceType": "学校官网下载",
+      "officialURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/06/2026_scitectest_sep.pdf",
+      "officialByteMatch": true
+    },
+    {
+      "originalName": "re2026_scitectest_sep_kaitorei.pdf",
+      "path": "assets/past-papers/documents/b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6.pdf",
+      "sha256": "b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6",
+      "byteSize": 1417911,
+      "pages": 44,
+      "kind": "answer",
+      "sourcePaths": [
+        "上智大学/2026/官方完整原件/re2026_scitectest_sep_kaitorei.pdf"
+      ],
+      "sourceType": "学校官网下载",
+      "officialURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/06/re2026_scitectest_sep_kaitorei.pdf",
+      "officialByteMatch": true,
+      "answerProvenance": "official-published"
+    },
+    {
+      "originalName": "2026_scitectest_feb.pdf",
+      "path": "assets/past-papers/documents/b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493.pdf",
+      "sha256": "b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493",
+      "byteSize": 1651265,
+      "pages": 52,
+      "kind": "question",
+      "sourcePaths": [
+        "上智大学/2026/官方完整原件/2026_scitectest_feb.pdf"
+      ],
+      "sourceType": "学校官网下载",
+      "officialURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/06/2026_scitectest_feb.pdf",
+      "officialByteMatch": true
+    },
+    {
+      "originalName": "re2026_scitectest_feb_kaitorei.pdf",
+      "path": "assets/past-papers/documents/e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e.pdf",
+      "sha256": "e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e",
+      "byteSize": 2048001,
+      "pages": 53,
+      "kind": "answer",
+      "sourcePaths": [
+        "上智大学/2026/官方完整原件/re2026_scitectest_feb_kaitorei.pdf"
+      ],
+      "sourceType": "学校官网下载",
+      "officialURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/06/re2026_scitectest_feb_kaitorei.pdf",
+      "officialByteMatch": true,
+      "answerProvenance": "official-published"
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "与已上线2025原合册SHA-256相同，不重复保存",
+      "sha256": [
+        "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
+        "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
+        "14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91",
+        "0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d"
+      ]
+    },
+    {
+      "reason": "提取版电气电子单册不另建目录文档；目录使用完整原件加页码范围",
+      "kind": "extracted-ee-only"
+    }
+  ],
+  "sections": [
+    {
+      "paperId": "sophia-scitec-2016-september-electrical",
+      "examDate": "2015-09-16",
+      "subject": "電気・電子工学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
+          "kind": "question",
+          "startPage": 48,
+          "endPage": 55
+        }
+      ]
+    },
+    {
+      "paperId": "sophia-scitec-2017-september-electrical",
+      "examDate": "2016-09-14",
+      "subject": "電気・電子工学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
+          "kind": "question",
+          "startPage": 42,
+          "endPage": 49
+        }
+      ]
+    },
+    {
+      "paperId": "sophia-scitec-2018-september-electrical",
+      "examDate": "2017-09-13",
+      "subject": "電気・電子工学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8.pdf",
+          "kind": "question",
+          "startPage": 35,
+          "endPage": 42
+        }
+      ]
+    },
+    {
+      "paperId": "sophia-scitec-2026-september-electrical",
+      "examDate": "2025-09-10",
+      "subject": "電気・電子工学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad.pdf",
+          "kind": "question",
+          "startPage": 11,
+          "endPage": 17
+        },
+        {
+          "path": "assets/past-papers/documents/b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6.pdf",
+          "kind": "answer",
+          "startPage": 12,
+          "endPage": 13
+        }
+      ]
+    },
+    {
+      "paperId": "sophia-scitec-2026-february-electrical",
+      "examDate": "2026-02-15",
+      "subject": "電気・電子工学基礎",
+      "documents": [
+        {
+          "path": "assets/past-papers/documents/b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493.pdf",
+          "kind": "question",
+          "startPage": 11,
+          "endPage": 17
+        },
+        {
+          "path": "assets/past-papers/documents/e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e.pdf",
+          "kind": "answer",
+          "startPage": 18,
+          "endPage": 18
+        }
+      ]
+    }
+  ],
+  "pageRangeCorrection": {
+    "paperId": "sophia-scitec-2026-february-electrical",
+    "packageAnswerPages": [
+      15,
+      18
+    ],
+    "catalogAnswerPages": [
+      18,
+      18
+    ],
+    "reason": "PDF第15—17页页眉为機械工学基礎（页脚15／17至17／17）；第18页页眉为電気・電子工学基礎，页脚1／1。第19页起为化学基礎。"
+  },
+  "notes": [
+    "2016、2017题群页眉印「電気・電子工学領域／専門科目（理工基礎）」，2018与2026印「電気・電子工学基礎」。目录科目名统一为電気・電子工学基礎。",
+    "2026四份PDF已与 adm.sophia.ac.jp 2026-11-01 下载逐字节核对。",
+    "未导入机械、信息及其他题群入口，也未做逐题裁切。"
+  ]
+}
