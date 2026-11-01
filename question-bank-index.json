@@ -108,7 +108,7 @@
     {"id": "kobe-ee-2024-denjiki", "title": "神户大学 · 2024 入学年度 · 电磁气学", "catalogId": "kobe-ee-2024", "questionCount": 2, "data": "assets/question-bank/kobe-ee-2024-denjiki/paper.json"},
     {"id": "kobe-ee-2024-seigyo", "title": "神户大学 · 2024 入学年度 · 自动控制", "catalogId": "kobe-ee-2024", "questionCount": 2, "data": "assets/question-bank/kobe-ee-2024-seigyo/paper.json"},
     {"id": "kobe-ee-2024-ronri", "title": "神户大学 · 2024 入学年度 · 逻辑回路", "catalogId": "kobe-ee-2024", "questionCount": 2, "data": "assets/question-bank/kobe-ee-2024-ronri/paper.json"},
-    {"id": "kobe-ee-2024-ryoushi", "title": "神户大学 · 2024 入学年度 · 量子物理学", "catalogId": "kobe-ee-2024", "questionCount": 2, "data": "assets/question-bank/kobe-ee-2024-ryoushi/paper.json"},
+    {"id": "kobe-ee-2024-ryoushi", "title": "神户大学 · 2024 入学年度 · 量子物理学", "catalogId": "kobe-ee-2024", "questionCount": 1, "data": "assets/question-bank/kobe-ee-2024-ryoushi/paper.json"},
     {"id": "kobe-ee-2025-joho", "title": "神户大学 · 2025 入学年度 · 信息通信工学", "catalogId": "kobe-ee-2025", "questionCount": 3, "data": "assets/question-bank/kobe-ee-2025-joho/paper.json"},
     {"id": "kobe-ee-2025-device", "title": "神户大学 · 2025 入学年度 · 半导体器件工学", "catalogId": "kobe-ee-2025", "questionCount": 2, "data": "assets/question-bank/kobe-ee-2025-device/paper.json"},
     {"id": "kobe-ee-2025-math", "title": "神户大学 · 2025 入学年度 · 数学", "catalogId": "kobe-ee-2025", "questionCount": 4, "data": "assets/question-bank/kobe-ee-2025-math/paper.json"},

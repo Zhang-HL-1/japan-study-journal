@@ -38,21 +38,25 @@
   "questions": [
     {
       "id": "kobe-ee-2024-ryoushi-q1",
-      "number": "問 1)〜7)",
-      "title": "无限深势阱的能级与时间演化",
+      "number": "問 1)〜11)",
+      "title": "无限深势阱与势阶的透射和反射",
       "titleKind": "editorial",
       "topics": [
         "薛定谔方程",
         "无限深势阱",
         "叠加态",
-        "概率密度"
+        "概率密度",
+        "势阶",
+        "平面波解",
+        "透射率",
+        "边界条件"
       ],
-      "summary": "問 1)–7) 连问：写出定态与含时薛定谔方程，解无限深方势阱得能级与归一化波函数，画出 n=1、2 的波函数图，验证含时解与两态叠加，求概率密度及其振荡周期。中文标题仅用于导航，作答以日文原题为准。",
+      "summary": "全卷只有一组「問 1)〜11)」，不拆成两道大题。1)–7)：写出定态与含时薛定谔方程，解无限深方势阱得能级与归一化波函数，画出 n=1、2 的波函数，验证含时解与两态叠加，求概率密度及其振荡周期。8)–11)：在式(2) 势阶下写出两区域平面波解，列 x=0 边界条件与系数关系，求透射率与反射率并证明两者之和为 1。中文标题仅用于导航，作答以日文原题为准。",
       "review": {
         "status": "verified",
         "method": "AI visual comparison against full source page(s)",
         "date": "2026-11-01",
-        "notes": "对照原卷第 1、2 页核对連問编号 1)–7)、式(1)、井戸型ポテンシャル図与 0/d、x 轴标签，以及各小问末句；卷头、题名、页码与空白页边不入图。"
+        "notes": "全卷作答说明为「下記の問 1)〜11) について解答せよ」，原卷无第二道大题号。1)–7) 为无限深势阱，8)–11) 以「次に」接入势阶，仍属同一组小问，故只保留 q1。对照原卷第 1 页：問 1)–5)、式(1)、井戸型ポテンシャル図与 0/d、x 轴标签。对照第 2 页：問 6)–7) 末句、式(2)、領域 I/II 与 V0 図、k=√(2mE)/ℏ 与 k'=√(2m(E−V0))/ℏ、問 9)–11) 末句。卷头、题名、页码与空白页边不入图。"
       },
       "parts": [
         {
@@ -96,30 +100,9 @@
           "height": 495,
           "label": "問 6)–7)：两态叠加的时间演化、存在概率密度与振荡周期",
           "sha256": "714d40040d10a285d7480320522285b78f934b12f874c33e478fb50b91a0f686"
-        }
-      ]
-    },
-    {
-      "id": "kobe-ee-2024-ryoushi-q2",
-      "number": "問 8)〜11)",
-      "title": "势阶的透射率与反射率",
-      "titleKind": "editorial",
-      "topics": [
-        "势阶",
-        "平面波解",
-        "透射率",
-        "边界条件"
-      ],
-      "summary": "問 8)–11) 连问：给出式(2) 势阶定义与 E>V0 条件，写出两区域平面波解，列 x=0 边界条件与系数关系式，求透射率与反射率并证明两者之和为 1。中文标题仅用于导航，作答以日文原题为准。",
-      "review": {
-        "status": "verified",
-        "method": "AI visual comparison against full source page(s)",
-        "date": "2026-11-01",
-        "notes": "对照原卷第 2 页核对式(2)、領域 I/II 与 V0 図、k=√(2mE)/ℏ 与 k'=√(2m(E−V0))/ℏ、問 9)–11) 末句；卷头与空白页边不入图。"
-      },
-      "parts": [
+        },
         {
-          "src": "assets/question-bank/kobe-ee-2024-ryoushi/kobe-ee-2024-ryoushi-q2-01.png",
+          "src": "assets/question-bank/kobe-ee-2024-ryoushi/kobe-ee-2024-ryoushi-q1-04.png",
           "page": 2,
           "box": [
             53.3,
@@ -133,7 +116,7 @@
           "sha256": "c9f99978c0feb171a2b38ce06be109f52a75d1cbb10850d995fc24e0141d1fdd"
         },
         {
-          "src": "assets/question-bank/kobe-ee-2024-ryoushi/kobe-ee-2024-ryoushi-q2-02.png",
+          "src": "assets/question-bank/kobe-ee-2024-ryoushi/kobe-ee-2024-ryoushi-q1-05.png",
           "page": 2,
           "box": [
             47.3,
@@ -162,8 +145,7 @@
     {
       "page": 2,
       "questionIds": [
-        "kobe-ee-2024-ryoushi-q1",
-        "kobe-ee-2024-ryoushi-q2"
+        "kobe-ee-2024-ryoushi-q1"
       ],
       "common": false,
       "excluded": "重复卷头、页脚与空白页边，不含题目内容。",
