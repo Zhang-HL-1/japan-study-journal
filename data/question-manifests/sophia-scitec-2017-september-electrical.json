@@ -1,0 +1,780 @@
+{
+ "schemaVersion": 1,
+ "id": "sophia-scitec-2017-september-electrical",
+ "title": "上智大学 · 2017 入学年度 · 电气电子工学基础（9月入试）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "sophia-scitec-2017-september-electrical",
+  "schoolId": "sophia",
+  "school": "上智大学",
+  "graduate": "理工学研究科",
+  "major": "理工学専攻",
+  "year": 2017,
+  "yearBasis": "academic",
+  "subject": "电气电子工学基础",
+  "originalSubject": "電気・電子工学基礎",
+  "originalName": "FILE3141_20180412062417.pdf",
+  "pdf": "assets/past-papers/documents/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
+  "sha256": "9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00",
+  "pageCount": 65,
+  "note": "2017年度大学院入学試験 · 9月入試；实施日 2016-09-14"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 42,
+   "box": [
+    41.0,
+    139.0,
+    572.0,
+    782.0
+   ],
+   "label": "試験上の注意事項"
+  }
+ ],
+ "questions": [
+  {
+   "id": "sophia-scitec-2017-september-electrical-q1",
+   "number": "1",
+   "title": "数学：微分方程与矩阵特征值",
+   "titleKind": "editorial",
+   "topics": [
+    "一阶微分方程",
+    "条件极值",
+    "特征多项式",
+    "秩一修正"
+   ],
+   "summary": "(1)(a) 求两个一阶微分方程的通解，(b) 在 x+2y+3z=1 下说明 xyz 在 (1/3,1/6,1/9) 取极值；(2) 三阶矩阵 A 的特征方程、pq 外积、A+pq 特征值为 0,−1,−2 时反求 q，并说明适当选 q 可任意设定特征值。",
+   "regions": [
+    {
+     "page": 43,
+     "box": [
+      43.0,
+      139.0,
+      573.0,
+      770.0
+     ],
+     "label": "問題1"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the rendered full source page",
+    "date": "2026-11-01",
+    "notes": "对照整页渲染图核对：题号 1、(1)(a)(i)(ii)(b)、(2)(a)–(d) 与矩阵式完整，无页眉页码与分数行。"
+   }
+  },
+  {
+   "id": "sophia-scitec-2017-september-electrical-q2",
+   "number": "2",
+   "title": "数学：复数方程与傅里叶变换",
+   "titleKind": "editorial",
+   "topics": [
+    "复数偏角",
+    "四次方程根",
+    "复平面作图",
+    "矩形脉冲频谱"
+   ],
+   "summary": "(a) 由 1/2+(3/2)√7 i 的偏角求 cos(θ/2)、sin(θ/2)，据此解 z²(1−z²)=16 并把全部根图示于复平面；(b) 求宽 1 矩形脉冲的傅里叶变换 F(ω)，在 −6π≤ω≤6π 范围内作图。",
+   "regions": [
+    {
+     "page": 44,
+     "box": [
+      39.0,
+      142.0,
+      576.0,
+      771.0
+     ],
+     "label": "問題2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the rendered full source page",
+    "date": "2026-11-01",
+    "notes": "对照整页渲染图核对：题号 2、(a)(i)(ii)(b) 与分式、积分式、分段函数完整，无页眉页码与分数行。"
+   }
+  },
+  {
+   "id": "sophia-scitec-2017-september-electrical-q3",
+   "number": "3",
+   "title": "电磁学：同轴电缆的电场与单位长电容",
+   "titleKind": "editorial",
+   "topics": [
+    "高斯定律",
+    "单位长电容",
+    "最大电场设计"
+   ],
+   "summary": "内导体带线电荷密度 λ、外导体接地的同轴电缆（图1）：(1) 求 a<r<b 处的电场；(2) 求单位长静电电容；(3) 加电压 V_M 时最大电场不超过 E_M，求 a 与 b 应满足的关系。",
+   "regions": [
+    {
+     "page": 45,
+     "box": [
+      41.0,
+      139.0,
+      573.0,
+      781.0
+     ],
+     "label": "問題3"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the rendered full source page",
+    "date": "2026-11-01",
+    "notes": "对照整页渲染图核对：题号 3、(1)–(3) 与图1（含 A/B、a/b 标注与接地符号）及图号完整，无页眉页码与分数行。"
+   }
+  },
+  {
+   "id": "sophia-scitec-2017-september-electrical-q4",
+   "number": "4",
+   "title": "电磁学：正 n 角形电流在原点产生的磁场",
+   "titleKind": "editorial",
+   "topics": [
+    "毕奥-萨伐尔定律",
+    "线元积分",
+    "多边形回路磁场"
+   ],
+   "summary": "半径 a 的内接正 n 角形回路（图1–图3）：(1) 求边到原点的距离 d；(2) 写出线元 ds 在原点产生磁场的 |dB| 与方向；(3) 求 ds、r、dθ 的关系；(4) 求每条边贡献的 |dB_n|；(5) 求整个回路在原点的 |B_n|。",
+   "regions": [
+    {
+     "page": 46,
+     "box": [
+      43.0,
+      141.0,
+      579.0,
+      780.0
+     ],
+     "label": "問題4"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the rendered full source page",
+    "date": "2026-11-01",
+    "notes": "对照整页渲染图核对：题号 4、(1)–(5) 与图1–图3 三幅图及图号完整，无页眉页码与分数行。"
+   }
+  },
+  {
+   "id": "sophia-scitec-2017-september-electrical-q5",
+   "number": "5",
+   "title": "电子电路：二极管负载线与晶体管偏置电路",
+   "titleKind": "editorial",
+   "topics": [
+    "二极管负载线",
+    "动作点",
+    "戴维南偏置",
+    "h 参数小信号"
+   ],
+   "summary": "1. 二极管回路（图1、图2）：(1) 写出 i_D–v_D 关系式，(2) V_S=4V、R1=400Ω、R_D=100Ω、特性斜率 20mA/V 时求直流负载线与动作点；2. 射极偏置放大电路（图3）：(1) 求直流偏置的戴维南等效 V_Th、R_Th，(2) 画 h 参数交流小信号等效电路，(3) 用 i_b 表示 v_in 与 v_o。",
+   "regions": [
+    {
+     "page": 47,
+     "box": [
+      44,
+      167,
+      570,
+      796
+     ],
+     "label": "問題5"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the rendered full source page",
+    "date": "2026-11-01",
+    "notes": "对照整页渲染图核对：题号 5、1.(1)(2) 与 2.(1)–(3)、图1–图3 及图号完整，无页眉页码与分数行。"
+   }
+  },
+  {
+   "id": "sophia-scitec-2017-september-electrical-q6",
+   "number": "6",
+   "title": "电路：RC 充放电与开关切换过渡过程",
+   "titleKind": "editorial",
+   "topics": [
+    "RC 过渡过程",
+    "时间常数",
+    "开关切换",
+    "波形作图"
+   ],
+   "summary": "E、R、C 与双开关电路（图）：(1) 求 t=0 与 t=t1 时电容电压 v_C；(2) 求 t>t1 的 i(t) 与 v_C(t)；(3) 求 v_C(t)=0 的时刻 t0，并在给定坐标纸上画出 v_C(t)。",
+   "regions": [
+    {
+     "page": 48,
+     "box": [
+      39.0,
+      141.0,
+      574.0,
+      780.0
+     ],
+     "label": "問題6"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the rendered full source page",
+    "date": "2026-11-01",
+    "notes": "对照整页渲染图核对：题号 6、(1)–(3)、电路图与作答用 v_C(t) 坐标图完整，无页眉页码与分数行。"
+   }
+  },
+  {
+   "id": "sophia-scitec-2017-september-electrical-q7",
+   "number": "7",
+   "title": "电路：交流稳态的并联阻抗与相位",
+   "titleKind": "editorial",
+   "topics": [
+    "复数阻抗",
+    "并联电路",
+    "相位差",
+    "直角坐标表示"
+   ],
+   "summary": "直并列回路（图）中 X_L=X_C：(1) 用 R2、X_L 以直角坐标形式表示右侧并联部分阻抗 Ż2；(2) 用 R1、R2、X_L 表示合成阻抗 Ż；(3) 电流相位滞后 30° 时把 R1 写成 R1=X_L(√3−□) 的形式。",
+   "regions": [
+    {
+     "page": 49,
+     "box": [
+      39.0,
+      140.0,
+      577.0,
+      784.0
+     ],
+     "label": "問題7"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the rendered full source page",
+    "date": "2026-11-01",
+    "notes": "对照整页渲染图核对：题号 7、(1)–(3) 与电路图完整，无页眉页码与分数行。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 2,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 3,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 4,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 5,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 6,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 7,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 8,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 9,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 10,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 11,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 12,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 13,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 14,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 15,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 16,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 17,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 18,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 19,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 20,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 21,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 22,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 23,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 24,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 25,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 26,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 27,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 28,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 29,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 30,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 31,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 32,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 33,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 34,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 35,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 36,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 37,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 38,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 39,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 40,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 41,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 42,
+   "questionIds": [],
+   "common": true,
+   "excluded": false,
+   "reviewed": true
+  },
+  {
+   "page": 43,
+   "questionIds": [
+    "sophia-scitec-2017-september-electrical-q1"
+   ],
+   "common": false,
+   "excluded": false,
+   "reviewed": true
+  },
+  {
+   "page": 44,
+   "questionIds": [
+    "sophia-scitec-2017-september-electrical-q2"
+   ],
+   "common": false,
+   "excluded": false,
+   "reviewed": true
+  },
+  {
+   "page": 45,
+   "questionIds": [
+    "sophia-scitec-2017-september-electrical-q3"
+   ],
+   "common": false,
+   "excluded": false,
+   "reviewed": true
+  },
+  {
+   "page": 46,
+   "questionIds": [
+    "sophia-scitec-2017-september-electrical-q4"
+   ],
+   "common": false,
+   "excluded": false,
+   "reviewed": true
+  },
+  {
+   "page": 47,
+   "questionIds": [
+    "sophia-scitec-2017-september-electrical-q5"
+   ],
+   "common": false,
+   "excluded": false,
+   "reviewed": true
+  },
+  {
+   "page": 48,
+   "questionIds": [
+    "sophia-scitec-2017-september-electrical-q6"
+   ],
+   "common": false,
+   "excluded": false,
+   "reviewed": true
+  },
+  {
+   "page": 49,
+   "questionIds": [
+    "sophia-scitec-2017-september-electrical-q7"
+   ],
+   "common": false,
+   "excluded": false,
+   "reviewed": true
+  },
+  {
+   "page": 50,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 51,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 52,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 53,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 54,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 55,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 56,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 57,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 58,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 59,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 60,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 61,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 62,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 63,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 64,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  },
+  {
+   "page": 65,
+   "questionIds": [],
+   "common": false,
+   "excluded": true,
+   "reviewed": true,
+   "reason": "合册内其他专攻/科目页面，非本专攻试题"
+  }
+ ]
+}
