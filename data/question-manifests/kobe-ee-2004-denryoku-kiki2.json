@@ -34,7 +34,7 @@
  ],
  "questions": [
   {
-   "id": "kobe-ee-2004-denryoku-kiki2-q3",
+   "id": "kobe-ee-2004-denryoku-kiki2-q1",
    "number": "問3",
    "title": "三相绕组型感应电动机的空栏填空（转差率与二次电阻）",
    "titleKind": "editorial",
@@ -65,7 +65,7 @@
    }
   },
   {
-   "id": "kobe-ee-2004-denryoku-kiki2-q4",
+   "id": "kobe-ee-2004-denryoku-kiki2-q2",
    "number": "問4",
    "title": "PWM 控制单相电压型自励逆变器",
    "titleKind": "editorial",
@@ -110,8 +110,8 @@
   {
    "page": 1,
    "questionIds": [
-    "kobe-ee-2004-denryoku-kiki2-q3",
-    "kobe-ee-2004-denryoku-kiki2-q4"
+    "kobe-ee-2004-denryoku-kiki2-q1",
+    "kobe-ee-2004-denryoku-kiki2-q2"
    ],
    "common": true,
    "excluded": "页眉（平成16年度…博士前期課程／電気電子工学専攻 入学試験問題、右上 平成15年8月27日）与科目标题「電力・機器（その2）」；仅保留作答说明作公共区域。",
