@@ -95,7 +95,7 @@ function paper(id) {
     assert.match(await intl.locator('#previous-paper').getAttribute('aria-label'), /2025/);
     await intl.close();
     const alone = await browser.newPage({ viewport: { width: 390, height: 900 }, reducedMotion: 'reduce' });
-    await alone.goto(origin + '/question-practice.html?paper=kobe-ee-2026-denjiki');
+    await alone.goto(origin + '/question-practice.html?paper=tus-ee-2025-kairo');
     await alone.locator('#app').waitFor();
     await alone.locator('#paper-year-status').filter({ hasNotText: '正在查找' }).waitFor();
     assert.equal(await alone.locator('#previous-paper').isDisabled(), true);
