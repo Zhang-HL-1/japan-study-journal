@@ -9178,6 +9178,1464 @@
       "sourceURL": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/03/scitec_kaitourei_25feb.pdf"
     },
     {
+      "id": "kobe-ee-2002",
+      "universityId": "kobe",
+      "title": "2002年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "自然科学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2002,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成14年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2002
+      ],
+      "examYear": 2001,
+      "examDates": [
+        "2001-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "電磁気学"
+      ],
+      "files": [
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ff127ebb2af92bbd3bbe2d562bc23d2c15f47aed9683dc6defc7551511dc5b89.pdf",
+          "originalName": "denjiki.pdf",
+          "sha256": "ff127ebb2af92bbd3bbe2d562bc23d2c15f47aed9683dc6defc7551511dc5b89",
+          "byteSize": 1141607,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi14/denjiki.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。inshi14封面印「平成14年度神戸大学大学院自然科学研究科博士課程前期課程 電気電子工学専攻入学試験問題 平成13年8月27日」。平成14年度＝2002入学年度，实施日2001-08-27，不是把平成14直接写成2002年考试。仅電磁気学；同目录电子演算为htm，不入库。设问从第1页打开。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2003",
+      "universityId": "kobe",
+      "title": "2003年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "自然科学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2003,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成15年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2003
+      ],
+      "examYear": 2002,
+      "examDates": [
+        "2002-08-27",
+        "2002-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "電磁気学",
+        "物性工学",
+        "電子デバイス",
+        "自動制御",
+        "電子演算",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c3c043b05e5132b619d18df532a4c42dcb8c10ee3643b57f1ed74fc716ea8ccb.pdf",
+          "originalName": "denjikigaku.pdf",
+          "sha256": "c3c043b05e5132b619d18df532a4c42dcb8c10ee3643b57f1ed74fc716ea8ccb",
+          "byteSize": 27177,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi15/denjikigaku.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bb93f3e98d826729f0b8d34b5408123737b18f37258d30641e78f12c1413bdce.pdf",
+          "originalName": "busseikougaku.pdf",
+          "sha256": "bb93f3e98d826729f0b8d34b5408123737b18f37258d30641e78f12c1413bdce",
+          "byteSize": 171828,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi15/busseikougaku.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子デバイス",
+          "kind": "question",
+          "url": "assets/past-papers/documents/38b437b0ec5f0b30f3211f77d845d5152205e75dd7c65840c56570b757f634a6.pdf",
+          "originalName": "denshidebaisu.pdf",
+          "sha256": "38b437b0ec5f0b30f3211f77d845d5152205e75dd7c65840c56570b757f634a6",
+          "byteSize": 21262,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi15/denshidebaisu.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9ceae9b4ac69b11293e1a0d0999f42d0335d81aa9f43138bbb4fff51618d4a4a.pdf",
+          "originalName": "jidouseigyo.pdf",
+          "sha256": "9ceae9b4ac69b11293e1a0d0999f42d0335d81aa9f43138bbb4fff51618d4a4a",
+          "byteSize": 16397,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi15/jidouseigyo.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子演算",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a3bae9d6175027740ef86781e3156339c32c78a7ba89fdc8619bb682d4f040f6.pdf",
+          "originalName": "denshi_enzan.pdf",
+          "sha256": "a3bae9d6175027740ef86781e3156339c32c78a7ba89fdc8619bb682d4f040f6",
+          "byteSize": 105800,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi15/denshi_enzan.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d7c981d9510b65e9626942c3a5c7d2c5efddc8308c091c682ab929712f0015b5.pdf",
+          "originalName": "jyouhouriron.pdf",
+          "sha256": "d7c981d9510b65e9626942c3a5c7d2c5efddc8308c091c682ab929712f0015b5",
+          "byteSize": 80825,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi15/jyouhouriron.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。inshi15：電磁気学封面印平成15年度自然科学研究科電気電子工学専攻、平成14年8月27日。電子演算、電子デバイス、自動制御印平成15年度与平成14年8月28日。物性工学只印2002.8.28；情報理論只印平成14年8月28日和科目名。这两份未印校名，按同日同目录封面归入本组，不把未印文字写成卷面原文。英语eigo1、eigo2不入库。平成15年度＝2003入学年度。设问从第1页打开。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2004",
+      "universityId": "kobe",
+      "title": "2004年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "自然科学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2004,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成16年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2004
+      ],
+      "examYear": 2003,
+      "examDates": [
+        "2003-08-26",
+        "2003-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "電磁気学",
+        "電子デバイス",
+        "電力・機器（その1）",
+        "電力・機器（その2）",
+        "自動制御",
+        "電子演算",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b3114f89d98d6e90bea5a58204e9664c052f12bca0e6beb3d920a61c99de5f19.pdf",
+          "originalName": "suugaku.pdf",
+          "sha256": "b3114f89d98d6e90bea5a58204e9664c052f12bca0e6beb3d920a61c99de5f19",
+          "byteSize": 23133,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi16/suugaku.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/67897b1f40b46c3b88600b06769a8184c073afcfa23b0ba50da296f9948f43c1.pdf",
+          "originalName": "denjiki.pdf",
+          "sha256": "67897b1f40b46c3b88600b06769a8184c073afcfa23b0ba50da296f9948f43c1",
+          "byteSize": 28899,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi16/denjiki.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子デバイス",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a2b40ed3ccf21ffb4107b1868f52bb483c3ff94e9eb15e293bb8c0a7f392b469.pdf",
+          "originalName": "denshi-device.pdf",
+          "sha256": "a2b40ed3ccf21ffb4107b1868f52bb483c3ff94e9eb15e293bb8c0a7f392b469",
+          "byteSize": 24489,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi16/denshi-device.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電力・機器（その1）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/768f9f73f715186d1ebd9cfb0b1081799281aeca852170b567352eea4485f9ff.pdf",
+          "originalName": "denryoku-kiki1.pdf",
+          "sha256": "768f9f73f715186d1ebd9cfb0b1081799281aeca852170b567352eea4485f9ff",
+          "byteSize": 29203,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi16/denryoku-kiki1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電力・機器（その2）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d35e3b80dd22849558adb8e3c75aec6261cf51c5ac1012124defcd4d2eaf5d37.pdf",
+          "originalName": "denryoku-kiki2.pdf",
+          "sha256": "d35e3b80dd22849558adb8e3c75aec6261cf51c5ac1012124defcd4d2eaf5d37",
+          "byteSize": 25985,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi16/denryoku-kiki2.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bbd2ae5ca72f4624c36d542289154a6b8eb6418ae888592487e8f84350c7361f.pdf",
+          "originalName": "jidou-seigyo.pdf",
+          "sha256": "bbd2ae5ca72f4624c36d542289154a6b8eb6418ae888592487e8f84350c7361f",
+          "byteSize": 27205,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi16/jidou-seigyo.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電子演算",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4f8ed6812531fd3ba6266eaf6a5518fa2660abc2c67921288f4564ef0d496e21.pdf",
+          "originalName": "denshi-enzan.pdf",
+          "sha256": "4f8ed6812531fd3ba6266eaf6a5518fa2660abc2c67921288f4564ef0d496e21",
+          "byteSize": 118542,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi16/denshi-enzan.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1ee12ca8226d45441005f65813c7ae605802a586026dbad4c0814e91802631fc.pdf",
+          "originalName": "jouhou-riron.pdf",
+          "sha256": "1ee12ca8226d45441005f65813c7ae605802a586026dbad4c0814e91802631fc",
+          "byteSize": 100129,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi16/jouhou-riron.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。inshi16封面为平成16年度自然科学研究科電気電子工学専攻。電磁気学印平成15年8月26日；電力・機器、電子デバイス、自動制御、電子演算、情報理論印平成15年8月27日。平成16年度＝2004入学年度。数学试题页本身未印校名与年度；同目录未入库的出題意図写明自然科学研究科工学系平成16年度，机械、电气电子、信息智能三専攻共用，故只把试题册作为本组数学。電子演算第2页、情報理論第2页分别为出題意図和解答例，整册原样保留，不另建解答入口，从第1页设问打开。英语、出題意図单行本和电子器件解答不入库。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2005",
+      "universityId": "kobe",
+      "title": "2005年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "自然科学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "博士課程前期課程入学試験",
+      "paperYear": 2005,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成17年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2005
+      ],
+      "examYear": 2004,
+      "examDates": [
+        "2004-08-05",
+        "2004-08-06"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "電磁気学",
+        "物性工学",
+        "自動制御",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4e77b8b2196daee9ed32c745439cadfd29eb94be4d2b702ed8b687ae3b8b890d.pdf",
+          "originalName": "suugaku.pdf",
+          "sha256": "4e77b8b2196daee9ed32c745439cadfd29eb94be4d2b702ed8b687ae3b8b890d",
+          "byteSize": 35858,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi17/suugaku.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e56bf27d359a7b1410a6b77dec1c4dc7bcc8f52ad5a2688bcd9fe2295f304557.pdf",
+          "originalName": "denjiki.pdf",
+          "sha256": "e56bf27d359a7b1410a6b77dec1c4dc7bcc8f52ad5a2688bcd9fe2295f304557",
+          "byteSize": 27330,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi17/denjiki.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7b58ae9fdfdc044f6e9373e7a9680408593d6233d20fcf0dc0ca6245cb32852d.pdf",
+          "originalName": "bussei.pdf",
+          "sha256": "7b58ae9fdfdc044f6e9373e7a9680408593d6233d20fcf0dc0ca6245cb32852d",
+          "byteSize": 143178,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi17/bussei.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1a4ee86811aae687dcdafa58a94e60da8481361f8d5b94868ba2999203b6d2f3.pdf",
+          "originalName": "jidou-seigyo.pdf",
+          "sha256": "1a4ee86811aae687dcdafa58a94e60da8481361f8d5b94868ba2999203b6d2f3",
+          "byteSize": 28829,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi17/jidou-seigyo.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "論理回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1f6423646b8f911af197c7b756b5c2199ee2ce311b9bd285ec4fdd422402863c.pdf",
+          "originalName": "ronri-kairo.pdf",
+          "sha256": "1f6423646b8f911af197c7b756b5c2199ee2ce311b9bd285ec4fdd422402863c",
+          "byteSize": 48660,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi17/ronri-kairo.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8a83e1ce016ffb3c13a838911f4b14769b8348b43f5ba4668e486741fac7f920.pdf",
+          "originalName": "jouhou-riron.pdf",
+          "sha256": "8a83e1ce016ffb3c13a838911f4b14769b8348b43f5ba4668e486741fac7f920",
+          "byteSize": 25123,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/natural-sciences/inshi17/jouhou-riron.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。inshi17：電磁気学封面印平成17年度自然科学研究科電気電子工学専攻、平成16年8月5日。自動制御、情報理論印平成16年8月6日。論理回路印平成17年度自然科学研究科、2004年8月6日。物性工学与数学试题页未印校名，按同目录封面归入平成17年度（2005入学年度）。*-ito出題意図、情報理論解答例和物性解答例不入库。设问从第1页打开。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2007",
+      "universityId": "kobe",
+      "title": "2007年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "yearEvidence": "source-directory",
+      "originalYear": "平成19年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2007
+      ],
+      "subjects": [
+        "物性工学"
+      ],
+      "files": [
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0ccc7d737648abb75d189ad3e14c7b3fc2d3fc7ba2d8b6d268beaec1bbb74daf.pdf",
+          "originalName": "bussei-19.pdf",
+          "sha256": "0ccc7d737648abb75d189ad3e14c7b3fc2d3fc7ba2d8b6d268beaec1bbb74daf",
+          "byteSize": 32018,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2007/bussei-19.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。仅物性工学。卷面只印科目和设问，未印大学、研究科、専攻或年度。paperYear按目录2007与文件名bussei-19索引：同系列bussei-20、bussei-21、bussei-25的封面分别为平成20、21、25年度，故19对应平成19年度＝2007。研究科与専攻沿用2008年量子物理学封面的工学研究科電気電子工学専攻，不把未印文字写成卷面原文。未印公历考试日。从第1页打开。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2008",
+      "universityId": "kobe",
+      "title": "2008年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成20年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2008
+      ],
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-23"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "量子物理学",
+        "物性工学"
+      ],
+      "files": [
+        {
+          "label": "量子物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cd97015f9585f25a6b1dc24d8dcb98bef6852c3e017f73ff7a74e23796dbb7b7.pdf",
+          "originalName": "ryoushi-20.pdf",
+          "sha256": "cd97015f9585f25a6b1dc24d8dcb98bef6852c3e017f73ff7a74e23796dbb7b7",
+          "byteSize": 34662,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2008/ryoushi-20.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/89fe6d1b58bda9a1937460bfe009a38984d3dbd02f0e62c5e2ed380c12a0baab.pdf",
+          "originalName": "bussei-20.pdf",
+          "sha256": "89fe6d1b58bda9a1937460bfe009a38984d3dbd02f0e62c5e2ed380c12a0baab",
+          "byteSize": 36551,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2008/bussei-20.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。量子物理学封面印「平成20年度神戸大学大学院工学研究科博士課程前期課程 電気電子工学専攻入学試験問題」「平成19年8月23日」。物性工学卷面未印校名与年度，与同年量子物理学同目录，归入平成20年度（2008）。examDates只取量子物理学所印的2007-08-23。从第1页打开。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2009",
+      "universityId": "kobe",
+      "title": "2009年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成21年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2009
+      ],
+      "examYear": 2008,
+      "examDates": [
+        "2008-08-27"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "電気回路・電子回路",
+        "電磁気学",
+        "量子物理学",
+        "物性工学"
+      ],
+      "files": [
+        {
+          "label": "電気回路・電子回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4c600c6dc9080a8b9dc4e271edabf5085f8c1db4a6d65cba79b41e3d02a507c4.pdf",
+          "originalName": "kairo-21.pdf",
+          "sha256": "4c600c6dc9080a8b9dc4e271edabf5085f8c1db4a6d65cba79b41e3d02a507c4",
+          "byteSize": 94535,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2009/kairo-21.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f73449adae689625212a0fa27f0d810498ca2760c2c2d02b86e38cc8951f6d8f.pdf",
+          "originalName": "denjiki-21.pdf",
+          "sha256": "f73449adae689625212a0fa27f0d810498ca2760c2c2d02b86e38cc8951f6d8f",
+          "byteSize": 130804,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2009/denjiki-21.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bdc4411688efb6c678c9fabef029f79923289dba7dea5861d161b18003959a29.pdf",
+          "originalName": "ryoushi-21.pdf",
+          "sha256": "bdc4411688efb6c678c9fabef029f79923289dba7dea5861d161b18003959a29",
+          "byteSize": 92058,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2009/ryoushi-21.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0a690ffba7969dcc6a7ef512ebc25622d33662ff43cf0456632baed4eb52674e.pdf",
+          "originalName": "bussei-21.pdf",
+          "sha256": "0a690ffba7969dcc6a7ef512ebc25622d33662ff43cf0456632baed4eb52674e",
+          "byteSize": 47371,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2009/bussei-21.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。電磁気学封面印平成21年度工学研究科電気電子工学専攻。物性工学、量子物理学印平成21年度工学研究科；量子物理学另印平成20年8月27日。電気回路・電子回路只印2008.8.27，未印平成21年度，与量子物理学同日，归入平成21年度（2009）。未见数学、電力工学、自動制御、論理回路、情報理論。从第1页打开。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2013",
+      "universityId": "kobe",
+      "title": "2013年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成25年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2013
+      ],
+      "subjects": [
+        "数学",
+        "電気回路・電子回路",
+        "電磁気学",
+        "量子物理学",
+        "物性工学",
+        "自動制御",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6e0dbe6e2618d18e5e69abfa5b80170df45c8e5ecddd16b1ed2a008263ecd0de.pdf",
+          "originalName": "math-25.pdf",
+          "sha256": "6e0dbe6e2618d18e5e69abfa5b80170df45c8e5ecddd16b1ed2a008263ecd0de",
+          "byteSize": 93927,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2013/math-25.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "電気回路・電子回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7e760be312a5e0e8ed788ae2fc3c97e511bffac14a652f345f571418ba61bfc1.pdf",
+          "originalName": "kairo-25.pdf",
+          "sha256": "7e760be312a5e0e8ed788ae2fc3c97e511bffac14a652f345f571418ba61bfc1",
+          "byteSize": 170219,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2013/kairo-25.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/534f22191a98d085ffec6029da39eef7073640b95e64ecadb842433aa0d8241c.pdf",
+          "originalName": "denjiki-25.pdf",
+          "sha256": "534f22191a98d085ffec6029da39eef7073640b95e64ecadb842433aa0d8241c",
+          "byteSize": 121670,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2013/denjiki-25.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8a1c2f3240ad66f5cb15e004a4970870901a8e9b231bc4a58936199c991e2152.pdf",
+          "originalName": "ryoushi-25.pdf",
+          "sha256": "8a1c2f3240ad66f5cb15e004a4970870901a8e9b231bc4a58936199c991e2152",
+          "byteSize": 175918,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2013/ryoushi-25.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a67393a8bb1d4afbcbe1d49e6acbe81bda0c0bde7f53c7ee62fa7b9605c72a5b.pdf",
+          "originalName": "bussei-25.pdf",
+          "sha256": "a67393a8bb1d4afbcbe1d49e6acbe81bda0c0bde7f53c7ee62fa7b9605c72a5b",
+          "byteSize": 169937,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2013/bussei-25.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5611fe5ad4cec949a15920b699862db5867fc7b9235863f44a9164c8e6d177b8.pdf",
+          "originalName": "seigyo-25.pdf",
+          "sha256": "5611fe5ad4cec949a15920b699862db5867fc7b9235863f44a9164c8e6d177b8",
+          "byteSize": 70458,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2013/seigyo-25.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "論理回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d37f949adb279558b3739ff983c3d8c6d53e4988f6cba209405689c70c1d623f.pdf",
+          "originalName": "ronri-25.pdf",
+          "sha256": "d37f949adb279558b3739ff983c3d8c6d53e4988f6cba209405689c70c1d623f",
+          "byteSize": 79404,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2013/ronri-25.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2697e753b88d384db25b6d9c8a8e58f52a0feb53d757357218040a4a2057cbd0.pdf",
+          "originalName": "it-25.pdf",
+          "sha256": "2697e753b88d384db25b6d9c8a8e58f52a0feb53d757357218040a4a2057cbd0",
+          "byteSize": 59736,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2013/it-25.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。页眉或封面印平成25年度神戸大学大学院工学研究科博士課程前期課程入学試験。数学封面另印「数学：電気電子工学専攻」，注意事项在第1页，从第2页打开；其余科目设问在第1页。未见電力工学。未印公历考试日。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2014",
+      "universityId": "kobe",
+      "title": "2014年度 · 電気電子工学専攻 · 数学・专业科目",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成26年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2014
+      ],
+      "subjects": [
+        "数学",
+        "電気回路・電子回路",
+        "電磁気学",
+        "量子物理学",
+        "物性工学",
+        "電力工学",
+        "自動制御",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b7ff6a2d78323cf2c1df75730e4189b14403622ad971f780632b1a3c86c1aa07.pdf",
+          "originalName": "math-26.pdf",
+          "sha256": "b7ff6a2d78323cf2c1df75730e4189b14403622ad971f780632b1a3c86c1aa07",
+          "byteSize": 973525,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2014/math-26.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "電気回路・電子回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9c3c537d177e59286da84d286a5b20c4b04dc62458fcdb99aceeabdb01d93280.pdf",
+          "originalName": "kairo-26.pdf",
+          "sha256": "9c3c537d177e59286da84d286a5b20c4b04dc62458fcdb99aceeabdb01d93280",
+          "byteSize": 91540,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2014/kairo-26.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2f60722acf1897d082d58e317286716aa9a701bb472a66ee54ab48c41083f161.pdf",
+          "originalName": "denjiki-26.pdf",
+          "sha256": "2f60722acf1897d082d58e317286716aa9a701bb472a66ee54ab48c41083f161",
+          "byteSize": 73740,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2014/denjiki-26.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3aa123b00e2f6b89edd0a853433a56d29f239ca46ef790ea32f1fc4bd7c9ec6e.pdf",
+          "originalName": "ryoushi-26.pdf",
+          "sha256": "3aa123b00e2f6b89edd0a853433a56d29f239ca46ef790ea32f1fc4bd7c9ec6e",
+          "byteSize": 90883,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2014/ryoushi-26.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6cf57c9afaf3f7db40fb3d785d1477a68b047f743114eb4a26bbd74f107c0a0c.pdf",
+          "originalName": "bussei-26.pdf",
+          "sha256": "6cf57c9afaf3f7db40fb3d785d1477a68b047f743114eb4a26bbd74f107c0a0c",
+          "byteSize": 92952,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2014/bussei-26.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電力工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/65f997d5e00d9fb235ebf07c8ec066254051012154783d225fd539c00598768b.pdf",
+          "originalName": "denryoku-26.pdf",
+          "sha256": "65f997d5e00d9fb235ebf07c8ec066254051012154783d225fd539c00598768b",
+          "byteSize": 113349,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2014/denryoku-26.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6e3897ade5e6da83ab22034ee0eb5c212da40c6a691f6d37d5cb31a7a69f17b4.pdf",
+          "originalName": "seigyo-26.pdf",
+          "sha256": "6e3897ade5e6da83ab22034ee0eb5c212da40c6a691f6d37d5cb31a7a69f17b4",
+          "byteSize": 42034,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2014/seigyo-26.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "論理回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fcbbf9fbb52652065fb75d55f2c7d04d54d6e2a4d478a017137c241bebc1206c.pdf",
+          "originalName": "ronri-26.pdf",
+          "sha256": "fcbbf9fbb52652065fb75d55f2c7d04d54d6e2a4d478a017137c241bebc1206c",
+          "byteSize": 79032,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2014/ronri-26.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e642a534d6bbd249f564fa3ef90cd2c44af6505486a674b0f2b8bb59485c47b6.pdf",
+          "originalName": "it-26.pdf",
+          "sha256": "e642a534d6bbd249f564fa3ef90cd2c44af6505486a674b0f2b8bb59485c47b6",
+          "byteSize": 21580,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2014/it-26.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。各科印平成26年度神戸大学大学院工学研究科博士課程前期課程入学試験。数学封面为注意事项、未印専攻名，从第2页打开；同年其余8科为电气电子科目。科目集合与2024年度9科相同。未印公历考试日。"
+    },
+    {
+      "id": "kobe-ee-2015",
+      "universityId": "kobe",
+      "title": "2015年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成27年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "電磁気学",
+        "物性工学",
+        "電力工学",
+        "自動制御",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bc511bd8d48b127ea594d82ca6f31f56fed797d0e8ed09261ae2bc6a57df7776.pdf",
+          "originalName": "denjiki-27.pdf",
+          "sha256": "bc511bd8d48b127ea594d82ca6f31f56fed797d0e8ed09261ae2bc6a57df7776",
+          "byteSize": 67785,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2015/denjiki-27.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/20f7e0a8f2e0ba652c44d9f4142744a22ceac05e46a03179d8e45df8c0cfb514.pdf",
+          "originalName": "bussei-27.pdf",
+          "sha256": "20f7e0a8f2e0ba652c44d9f4142744a22ceac05e46a03179d8e45df8c0cfb514",
+          "byteSize": 57647,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2015/bussei-27.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電力工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/56f1b729fd36ae4456f5ccf34c3b29b806acc06ae73ecc971f28f84beed8634d.pdf",
+          "originalName": "denryoku-27.pdf",
+          "sha256": "56f1b729fd36ae4456f5ccf34c3b29b806acc06ae73ecc971f28f84beed8634d",
+          "byteSize": 100292,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2015/denryoku-27.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e8cbcc5a236e984a39539eda3fbe922c3f21cc17535416eaaeac4ed7d901a944.pdf",
+          "originalName": "seigyo-27.pdf",
+          "sha256": "e8cbcc5a236e984a39539eda3fbe922c3f21cc17535416eaaeac4ed7d901a944",
+          "byteSize": 31096,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2015/seigyo-27.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/270a1336d494961c52c2632cef3ec6946a7bc62f7fc81c158af5d5e6d7132bff.pdf",
+          "originalName": "it-27.pdf",
+          "sha256": "270a1336d494961c52c2632cef3ec6946a7bc62f7fc81c158af5d5e6d7132bff",
+          "byteSize": 31266,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2015/it-27.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。页眉印平成27年度神戸大学大学院工学研究科博士課程前期課程入学試験。仅物性工学、電磁気学、電力工学、自動制御、情報理論。未见数学、電気回路・電子回路、量子物理学、論理回路。未印公历考试日。从第1页打开。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2019",
+      "universityId": "kobe",
+      "title": "2019年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "平成31年度（2019年度）博士課程前期課程入学試験",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "電気回路・電子回路",
+        "電磁気学",
+        "量子物理学",
+        "電力工学",
+        "自動制御",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "電気回路・電子回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c85af6e01e268f9c544b07706a516645b9b7e45cae87ddd40be65e2b1f04c633.pdf",
+          "originalName": "kairo-31.pdf",
+          "sha256": "c85af6e01e268f9c544b07706a516645b9b7e45cae87ddd40be65e2b1f04c633",
+          "byteSize": 356364,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2019/kairo-31.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/09dc1df13404622fe4b8054569cf43348bf790685ff9a01ed3e08488948569ef.pdf",
+          "originalName": "denjiki-31.pdf",
+          "sha256": "09dc1df13404622fe4b8054569cf43348bf790685ff9a01ed3e08488948569ef",
+          "byteSize": 94214,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2019/denjiki-31.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ae4b57819c059d99f2debc25e931b543e899604a993a2c474f0de4dbac2d1a6d.pdf",
+          "originalName": "ryoushi-31.pdf",
+          "sha256": "ae4b57819c059d99f2debc25e931b543e899604a993a2c474f0de4dbac2d1a6d",
+          "byteSize": 527737,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2019/ryoushi-31.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電力工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0f56e5fd3772f96c098da1577e2c45a60083a5a6e7f1dd6a9aeb93a2ac77cb80.pdf",
+          "originalName": "denryoku-31.pdf",
+          "sha256": "0f56e5fd3772f96c098da1577e2c45a60083a5a6e7f1dd6a9aeb93a2ac77cb80",
+          "byteSize": 393001,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2019/denryoku-31.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d2240e44ef2a18094b67e8a02e56a0f0499b87daef822258df7111d335870292.pdf",
+          "originalName": "seigyo-31.pdf",
+          "sha256": "d2240e44ef2a18094b67e8a02e56a0f0499b87daef822258df7111d335870292",
+          "byteSize": 235612,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2019/seigyo-31.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2ea13f5312859b68080e2d49fee759e7d8805b9559e064a1403f01aec64ec4ff.pdf",
+          "originalName": "it-31.pdf",
+          "sha256": "2ea13f5312859b68080e2d49fee759e7d8805b9559e064a1403f01aec64ec4ff",
+          "byteSize": 249576,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2019/it-31.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。页眉印平成31年度神戸大学大学院工学研究科博士課程前期課程入学試験，即2019年度。科目为電気回路・電子回路、電磁気学、量子物理学、電力工学、自動制御、情報理論。未见数学、物性工学、論理回路。未印公历考试日。从第1页打开。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2020",
+      "universityId": "kobe",
+      "title": "2020年度 · 電気電子工学専攻（部分科目）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2020年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "電磁気学",
+        "物性工学",
+        "電力工学",
+        "自動制御",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bb6c9bae489bffa6007431c2cfd2009cc10ae4ef81059fe4c7d64a07bd6f328f.pdf",
+          "originalName": "denjiki-2020.pdf",
+          "sha256": "bb6c9bae489bffa6007431c2cfd2009cc10ae4ef81059fe4c7d64a07bd6f328f",
+          "byteSize": 55524,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2020/denjiki-2020.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8bb3ef5659eb9254f05f18841f4ebd944907d5af290b726b744e334b993f9c0a.pdf",
+          "originalName": "bussei-2020.pdf",
+          "sha256": "8bb3ef5659eb9254f05f18841f4ebd944907d5af290b726b744e334b993f9c0a",
+          "byteSize": 75652,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2020/bussei-2020.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電力工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f79b9af81a965427dbdb6e6fa7c2f2c88e4ad7a56c26f90b79b67763bb383dd7.pdf",
+          "originalName": "denryoku-2020.pdf",
+          "sha256": "f79b9af81a965427dbdb6e6fa7c2f2c88e4ad7a56c26f90b79b67763bb383dd7",
+          "byteSize": 65415,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2020/denryoku-2020.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7368858675b8c5a3c8bd477c415c1789558200ec7cffde88fe2adcdb947cd16c.pdf",
+          "originalName": "seigyo-2020.pdf",
+          "sha256": "7368858675b8c5a3c8bd477c415c1789558200ec7cffde88fe2adcdb947cd16c",
+          "byteSize": 34664,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2020/seigyo-2020.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "論理回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2e11dab9b6cedf7f39bcea84e8d967fa2e22e44c1af57ef1c153a5507bb53e53.pdf",
+          "originalName": "ronri-2020.pdf",
+          "sha256": "2e11dab9b6cedf7f39bcea84e8d967fa2e22e44c1af57ef1c153a5507bb53e53",
+          "byteSize": 48869,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2020/ronri-2020.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0bb8de136047031d871d81ad17c7c6e2a4eba6a1740f2db2ebf7d9af09f7be85.pdf",
+          "originalName": "it-2020.pdf",
+          "sha256": "0bb8de136047031d871d81ad17c7c6e2a4eba6a1740f2db2ebf7d9af09f7be85",
+          "byteSize": 26129,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2020/it-2020.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "completeness": "partial",
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。页眉印2020年度神戸大学大学院工学研究科博士課程前期課程入学試験。科目为電磁気学、物性工学、電力工学、自動制御、論理回路、情報理論。未见数学、電気回路・電子回路、量子物理学。未印公历考试日。从第1页打开。部分科目。"
+    },
+    {
+      "id": "kobe-ee-2021",
+      "universityId": "kobe",
+      "title": "2021年度 · 電気電子工学専攻 · 数学・专业科目",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2021年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "数学",
+        "電気回路・電子回路",
+        "電磁気学",
+        "量子物理学",
+        "物性工学",
+        "電力工学",
+        "自動制御",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/39633f6c6d375c55d2d8a2a6733c1bc7703c0f59e7f5de2a13152687f8b01657.pdf",
+          "originalName": "math-2021.pdf",
+          "sha256": "39633f6c6d375c55d2d8a2a6733c1bc7703c0f59e7f5de2a13152687f8b01657",
+          "byteSize": 44365,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2021/math-2021.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "電気回路・電子回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/619cbb1b2823d901981954902d6c38e2ad07eb32a2b69bdbf4f53740baf03a9c.pdf",
+          "originalName": "kairo-2021.pdf",
+          "sha256": "619cbb1b2823d901981954902d6c38e2ad07eb32a2b69bdbf4f53740baf03a9c",
+          "byteSize": 65687,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2021/kairo-2021.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a873a48202b4c7e54015f4471302c7752275bbc55293309b5d7f314b14fef55c.pdf",
+          "originalName": "denjiki-2021.pdf",
+          "sha256": "a873a48202b4c7e54015f4471302c7752275bbc55293309b5d7f314b14fef55c",
+          "byteSize": 53533,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2021/denjiki-2021.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ca81f4facd3a2e471740320cee9c4b9cd42376f775e36fcad996035691a6aafa.pdf",
+          "originalName": "ryoushi-2021.pdf",
+          "sha256": "ca81f4facd3a2e471740320cee9c4b9cd42376f775e36fcad996035691a6aafa",
+          "byteSize": 77295,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2021/ryoushi-2021.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7e34a74e5fd3ed958b97b2d906cf8b748624fb59928065ac67908421dadb4a24.pdf",
+          "originalName": "bussei-2021.pdf",
+          "sha256": "7e34a74e5fd3ed958b97b2d906cf8b748624fb59928065ac67908421dadb4a24",
+          "byteSize": 58182,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2021/bussei-2021.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電力工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7a15779be6fa134f308b7b2a6139e348312f76fe610f323f8e600c88014ff71a.pdf",
+          "originalName": "denryoku-2021.pdf",
+          "sha256": "7a15779be6fa134f308b7b2a6139e348312f76fe610f323f8e600c88014ff71a",
+          "byteSize": 64366,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2021/denryoku-2021.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ea1af715cf38ca0d0f0c1bb6c7887716f23ac5bff95a72e260bc340dc3f04cd2.pdf",
+          "originalName": "seigyo-2021.pdf",
+          "sha256": "ea1af715cf38ca0d0f0c1bb6c7887716f23ac5bff95a72e260bc340dc3f04cd2",
+          "byteSize": 28919,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2021/seigyo-2021.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "論理回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/81a774c9bcced49067982761154f20b7677a0c9a7cfd1a12a605428d3e5cb415.pdf",
+          "originalName": "ronri-2021.pdf",
+          "sha256": "81a774c9bcced49067982761154f20b7677a0c9a7cfd1a12a605428d3e5cb415",
+          "byteSize": 45728,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2021/ronri-2021.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8503063812df8484c4ca422f41c46d4e58cdfbe866d0c9852320ba658c2aa93c.pdf",
+          "originalName": "it-2021.pdf",
+          "sha256": "8503063812df8484c4ca422f41c46d4e58cdfbe866d0c9852320ba658c2aa93c",
+          "byteSize": 20221,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2021/it-2021.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。页眉印2021年度神戸大学大学院工学研究科博士課程前期課程入学試験。数学封面印「数学：電気電子工学専攻」，注意事项在第1页，从第2页打开；其余科目设问在第1页。9科与2024年度科目集合相同。未印公历考试日。"
+    },
+    {
+      "id": "kobe-ee-2022",
+      "universityId": "kobe",
+      "title": "2022年度 · 電気電子工学専攻 · 数学・专业科目",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子工学専攻",
+      "selectionName": "一般入試（博士課程前期課程）",
+      "paperYear": 2022,
+      "yearBasis": "academic",
+      "yearEvidence": "cover",
+      "originalYear": "2022年度博士課程前期課程入学試験",
+      "admissionYears": [
+        2022
+      ],
+      "subjects": [
+        "数学",
+        "電気回路・電子回路",
+        "電磁気学",
+        "量子物理学",
+        "物性工学",
+        "電力工学",
+        "自動制御",
+        "論理回路",
+        "情報理論"
+      ],
+      "files": [
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1437b2ef6f53daad6b5f10eeb8e0b751b38e74fcfad8c41fb55419172d357faa.pdf",
+          "originalName": "math-2022.pdf",
+          "sha256": "1437b2ef6f53daad6b5f10eeb8e0b751b38e74fcfad8c41fb55419172d357faa",
+          "byteSize": 44311,
+          "pages": 3,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2022/math-2022.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "電気回路・電子回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a52477572dd6752d52d33f92d26afe41db8bafddab8c60dcedac37bf29696940.pdf",
+          "originalName": "kairo-2022.pdf",
+          "sha256": "a52477572dd6752d52d33f92d26afe41db8bafddab8c60dcedac37bf29696940",
+          "byteSize": 44968,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2022/kairo-2022.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電磁気学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/214fbc8832de3307e402604e3775776a95219fe4c983ba99f68843bff0c0bd81.pdf",
+          "originalName": "denjiki-2022.pdf",
+          "sha256": "214fbc8832de3307e402604e3775776a95219fe4c983ba99f68843bff0c0bd81",
+          "byteSize": 50139,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2022/denjiki-2022.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子物理学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f043d15f462ec95f805b2f0f31c4bc65d4db64182dfc36acf08756ca224bc211.pdf",
+          "originalName": "ryoushi-2022.pdf",
+          "sha256": "f043d15f462ec95f805b2f0f31c4bc65d4db64182dfc36acf08756ca224bc211",
+          "byteSize": 43600,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2022/ryoushi-2022.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物性工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e42e74beef834f38d200efe09c412313e943353b16becf033db1039f4fabac39.pdf",
+          "originalName": "bussei-2022.pdf",
+          "sha256": "e42e74beef834f38d200efe09c412313e943353b16becf033db1039f4fabac39",
+          "byteSize": 69582,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2022/bussei-2022.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "電力工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/26ca4a94c9ab855970b0a7d7a682fb10438453fe95ab664d1212dfd2c2751493.pdf",
+          "originalName": "denryoku-2022.pdf",
+          "sha256": "26ca4a94c9ab855970b0a7d7a682fb10438453fe95ab664d1212dfd2c2751493",
+          "byteSize": 58457,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2022/denryoku-2022.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "自動制御",
+          "kind": "question",
+          "url": "assets/past-papers/documents/425b228595ec8511338e498787884d6de969668da1c0616b9835317900b05bb3.pdf",
+          "originalName": "seigyo-2022.pdf",
+          "sha256": "425b228595ec8511338e498787884d6de969668da1c0616b9835317900b05bb3",
+          "byteSize": 30336,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2022/seigyo-2022.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "論理回路",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bf29aee403595c632069c9b182b559354bf21fe894aacde8f370497645972dec.pdf",
+          "originalName": "ronri-2022.pdf",
+          "sha256": "bf29aee403595c632069c9b182b559354bf21fe894aacde8f370497645972dec",
+          "byteSize": 37125,
+          "pages": 2,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2022/ronri-2022.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "情報理論",
+          "kind": "question",
+          "url": "assets/past-papers/documents/003265aea36cc16e1b34dab9cf7fa1a15f8350788a0061e32971e1f891ef9afc.pdf",
+          "originalName": "it-2022.pdf",
+          "sha256": "003265aea36cc16e1b34dab9cf7fa1a15f8350788a0061e32971e1f891ef9afc",
+          "byteSize": 20615,
+          "pages": 1,
+          "sourcePaths": [
+            "神户大学/電気電子工学/2022/it-2022.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "kobe-ee-backfill-20261101",
+      "sourceNote": "用户提供的神户大学电气电子过去问压缩包，PDF原样保存。yearBasis为academic，paperYear按入学年度。页眉印2022年度神戸大学大学院工学研究科博士課程前期課程入学試験。数学封面印「数学：電気電子工学専攻」，注意事项在第1页，从第2页打开；其余科目设问在第1页。9科与2024年度科目集合相同。未印公历考试日。"
+    },
+    {
       "id": "kobe-ee-2024",
       "universityId": "kobe",
       "title": "2024年度 · 電気電子工学専攻 · 数学・专业科目",
@@ -37169,7 +38627,7 @@
       "text": "收录2025入学年度9月、2月两次考试，实际笔试分别为2024-09-11、2025-02-16。机械、电气电子、信息学三个题群各设入口，共6组，共享4个完整原合册（2个问题、2个解答／解答例），不是6套不同试卷。选择题群不与志望领域强行绑定；整册其他题群原样保留。云盘此校没有更多年度资料，不声明连续年份完整覆盖。"
     },
     "kobe": {
-      "text": "本校34组／77个唯一PDF、270页。2026-10-14已上线的12组／45个PDF、111页保持不变：电气电子2024—2026入学年度；机械2019（平成31）、2020、2021、2023—2025年度，仅数学与生産工学・制御工学；系统信息2025年度三期，实际笔试为2024-08-22、2024-11-27、2025-01-22。2026-10-18补录原先排除的理学研究科数学専攻与物理学専攻，新增22组、32个唯一PDF、159页。数学按封面入学年度2015–2026，实施日为上一年8月。物理封面只印实施日，paperYear按入学年度＝实施年+1（2017–2026），与数学専攻封面换算一致；物理I与物理II同年合成一组。学部「志」特别选拔仍不入库、不建入口。均保留原件，未提供解答。不声明其他年度或全校齐全。"
+      "text": "本校48组／157个唯一PDF、404页。2026-10-14已上线的12组／45个PDF、111页保持不变：电气电子2024—2026入学年度；机械2019（平成31）、2020、2021、2023—2025年度，仅数学与生産工学・制御工学；系统信息2025年度三期，实际笔试为2024-08-22、2024-11-27、2025-01-22。2026-10-18补录原先排除的理学研究科数学専攻与物理学専攻，新增22组、32个唯一PDF、159页。数学按封面入学年度2015–2026，实施日为上一年8月。物理封面只印实施日，paperYear按入学年度＝实施年+1（2017–2026），与数学専攻封面换算一致；物理I与物理II同年合成一组。2026-11-01补录电气电子更早整卷，新增14组、80个唯一PDF、134页：工学研究科2007（仅物性工学，卷面未印校名与年度）、2008–2009、2013–2015、2019–2022；自然科学研究科电气电子平成14–17年度，封面入学年2002–2005，考试在上一公历年8月。2024–2026共27个科目PDF与已入库原件相同，不重复保存。英语、解答例、出題意図、html/jpg不入库。学部「志」特别选拔仍不入库、不建入口。均保留原件。不声明其他年度或全校齐全。"
     },
     "hokkaido": {
       "text": "本校43组／69个唯一PDF、669页。2026-10-15已上线的16组／29个PDF、241页保持不变：工学院応用物理学専攻、機械・宇宙航空工学系及応用量子科学系共通卷，情報科学院情報科学専攻5课程；26个问题原卷及3个出题意图。文件后缀2024、2025是实施年。云盘媒体网络内的2024系统信息卷已据封面归回系统信息。机械2026合册订正页完整保留。2026-10-18补录原先排除的工学院环境共通卷、理学院物性物理学専攻・宇宙理学専攻和自然史科学専攻，新增27组、40个唯一PDF、428页。yearBasis为academic，paperYear按封面入学年度。平成18–22年度封面专攻名为量子理学専攻・宇宙理学専攻，平成23年度（2011）起为物性物理学専攻・宇宙理学専攻，照封面分写。环境两卷封面不印实施日，云盘没有専門1。平成18年度2月卷封面只印「2月7日」，未印实施年，不补考试日期。令和3年度只有午前。云盘没有理学院物性物理学令和7年度（2025）卷。22份无封面的grad_H21与p2002–p2006不入库。自然史2024年8月卷首页为订正、封面在第2页，整册保留。未提供解答，不声明其他年度或全校专业齐全。"
