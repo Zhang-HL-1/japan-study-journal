@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 1,
+  "id": "tohoku-ee-2024-02-senmon",
+  "title": "东北大学 · 2024年2月实施 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tohoku-ee-2024-02",
+    "schoolId": "tohoku",
+    "school": "東北大学",
+    "graduate": "工学研究科",
+    "major": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+    "year": 2024,
+    "yearBasis": "exam",
+    "subject": "専門科目",
+    "originalSubject": "専門科目",
+    "originalName": "202403senmon.pdf",
+    "pdf": "assets/past-papers/documents/cbf339da693ecab25ef68cfb91d6df7a8715c77d56e4189e7e66303633943d96.pdf",
+    "sha256": "cbf339da693ecab25ef68cfb91d6df7a8715c77d56e4189e7e66303633943d96",
+    "pageCount": 21,
+    "note": "目录 yearBasis=exam，year 为实施年，不把封面日期改写成入学年。本册封面同时印工学研究科電気エネルギーシステム専攻・通信工学専攻・電子工学専攻、情報科学研究科情報・生命系群、医工学研究科工学系コース電気・情報系；这是同一封面，不是另一研究科的独立题页，封面整页作共用说明。医工学研究科与情報・生命系群不另建题。大题按卷面「問題1」至「問題6」；和文页与英文页同属一道大题，小问不拆。扫描件无文字层、无页面旋转。答案 PDF 不在本目录组。未做 2003–2016。 封面实施日 2024-02-29 9:40–10:40，与目录 examDates 一致。题页眉印「2024年2・3月実施」，仍用目录实施年 2024，不改年。科目为卷面「専門科目」。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tohoku-ee-2024-02-senmon/common-01.png",
+      "page": 1,
+      "box": [
+        6.0,
+        22.0,
+        587.5,
+        682.0
+      ],
+      "width": 1454,
+      "height": 1650,
+      "label": "封面：2024年2月29日 专门科目、三专攻与并列研究科、6题选2",
+      "sha256": "21debd116b9ea7c11dbec54aa885d61cb1f6bfaf8360a29085b9542b00fee9b9"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tohoku-ee-2024-02-senmon-q1",
+      "number": "問題1",
+      "title": "电气工学",
+      "titleKind": "editorial",
+      "topics": [
+        "電気工学"
+      ],
+      "summary": "原卷大题印作「問題1 電気工学」。本大题共 4 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q1-01.png",
+          "page": 2,
+          "box": [
+            73.2,
+            43.5,
+            522.5,
+            747.8
+          ],
+          "width": 1124,
+          "height": 1762,
+          "label": "問題1 電気工学 第1页（PDF 第2页）",
+          "sha256": "e7c939294d079d7bd7f4976f4cc1c491fe037a459ae3a80da823d11103ab97b2"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q1-02.png",
+          "page": 3,
+          "box": [
+            73.5,
+            34.5,
+            514.2,
+            693.2
+          ],
+          "width": 1103,
+          "height": 1647,
+          "label": "問題1 電気工学 第2页（PDF 第3页）",
+          "sha256": "08f25e8bcd8737f2dd1b413074e00b27feada97a811a083293ee9087514e0c87"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q1-03.png",
+          "page": 4,
+          "box": [
+            72.8,
+            42.8,
+            519.8,
+            786.2
+          ],
+          "width": 1118,
+          "height": 1859,
+          "label": "問題1 電気工学 第3页（PDF 第4页）",
+          "sha256": "23fef1f8bb440237a2c22dca53238e18d2eb62f93bffd9c16ec43da3cc9e5105"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q1-04.png",
+          "page": 5,
+          "box": [
+            74.8,
+            44.2,
+            530.8,
+            796.2
+          ],
+          "width": 1140,
+          "height": 1881,
+          "label": "問題1 電気工学 第4页（PDF 第5页）",
+          "sha256": "5becf3cc2d5727b4274545ec7be54152a6ab5b38fc40ef2ebf7c78a7f7f8df55"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2024-02-senmon-q2",
+      "number": "問題2",
+      "title": "通信工学",
+      "titleKind": "editorial",
+      "topics": [
+        "通信工学"
+      ],
+      "summary": "原卷大题印作「問題2 通信工学」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q2-01.png",
+          "page": 6,
+          "box": [
+            73.0,
+            43.5,
+            519.5,
+            694.0
+          ],
+          "width": 1117,
+          "height": 1627,
+          "label": "問題2 通信工学 第1页（PDF 第6页）",
+          "sha256": "7b1ad7ac39713bfa2e395c2f7714dd2c67dd3ea5943a2c832b434427d742bb8e"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q2-02.png",
+          "page": 7,
+          "box": [
+            73.2,
+            43.2,
+            521.8,
+            727.5
+          ],
+          "width": 1122,
+          "height": 1711,
+          "label": "問題2 通信工学 第2页（PDF 第7页）",
+          "sha256": "75fc32980cbe779e88900bde4e34d8b6d9d36d1306c883de18aba9b28ddb848c"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2024-02-senmon-q3",
+      "number": "問題3",
+      "title": "电子工学",
+      "titleKind": "editorial",
+      "topics": [
+        "電子工学"
+      ],
+      "summary": "原卷大题印作「問題3 電子工学」。本大题共 4 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q3-01.png",
+          "page": 8,
+          "box": [
+            73.5,
+            43.5,
+            519.8,
+            554.5
+          ],
+          "width": 1117,
+          "height": 1279,
+          "label": "問題3 電子工学 第1页（PDF 第8页）",
+          "sha256": "3725fab17779a5ae8dbd7c031d521621b373dfa5198f262c7e8377fdeb614ee8"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q3-02.png",
+          "page": 9,
+          "box": [
+            74.2,
+            43.5,
+            477.2,
+            727.8
+          ],
+          "width": 1008,
+          "height": 1712,
+          "label": "問題3 電子工学 第2页（PDF 第9页）",
+          "sha256": "0243ca937ad6dddee6378fa49e3a30721b6dcb1deb2cf1ef223c093383205578"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q3-03.png",
+          "page": 10,
+          "box": [
+            72.8,
+            43.8,
+            521.2,
+            549.5
+          ],
+          "width": 1121,
+          "height": 1265,
+          "label": "問題3 電子工学 第3页（PDF 第10页）",
+          "sha256": "3d298b20e502d2eccc5d8adc9fc9ec53425759704f2b6ffecc3f5f5c166c2c01"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q3-04.png",
+          "page": 11,
+          "box": [
+            74.2,
+            43.5,
+            477.5,
+            727.8
+          ],
+          "width": 1009,
+          "height": 1712,
+          "label": "問題3 電子工学 第4页（PDF 第11页）",
+          "sha256": "a71c9cd623b6e34bb3b118444a8804eddc637282706381ffde1e5f3b1dcb7b0f"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2024-02-senmon-q4",
+      "number": "問題4",
+      "title": "计算机1",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機"
+      ],
+      "summary": "原卷大题印作「問題4 計算機1」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q4-01.png",
+          "page": 12,
+          "box": [
+            73.2,
+            43.5,
+            520.2,
+            724.2
+          ],
+          "width": 1118,
+          "height": 1703,
+          "label": "問題4 計算機1 第1页（PDF 第12页）",
+          "sha256": "b4de44d9661d0e09c11f34820ced5156d69526e2c0935e0e92344075fe873383"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q4-02.png",
+          "page": 13,
+          "box": [
+            73.2,
+            43.2,
+            519.8,
+            706.5
+          ],
+          "width": 1117,
+          "height": 1659,
+          "label": "問題4 計算機1 第2页（PDF 第13页）",
+          "sha256": "39bb27d404b0fdfe6c3167c9964dbf14da1e56a14d0fb69e481b832b1f324223"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2024-02-senmon-q5",
+      "number": "問題5",
+      "title": "计算机2",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機"
+      ],
+      "summary": "原卷大题印作「問題5 計算機2」。本大题共 4 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q5-01.png",
+          "page": 14,
+          "box": [
+            73.5,
+            49.5,
+            519.8,
+            388.8
+          ],
+          "width": 1117,
+          "height": 849,
+          "label": "問題5 計算機2 第1页（PDF 第14页）",
+          "sha256": "b6ddb182491ccad04605639138b7d5be7470a912b69d1c791ed9f0f2e37000ff"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q5-02.png",
+          "page": 15,
+          "box": [
+            74.0,
+            49.5,
+            492.0,
+            699.0
+          ],
+          "width": 1045,
+          "height": 1625,
+          "label": "問題5 計算機2 第2页（PDF 第15页）",
+          "sha256": "f8da08448ded4d3f48ee9e9c6bcda21cfe6e2be193ba41a2de7b0a5243f5b1f1"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q5-03.png",
+          "page": 16,
+          "box": [
+            72.8,
+            49.8,
+            519.5,
+            389.8
+          ],
+          "width": 1117,
+          "height": 851,
+          "label": "問題5 計算機2 第3页（PDF 第16页）",
+          "sha256": "6b09ab43b21c481ec4c67d381290bcd8a8a1ab07c0d324853e2765ddda013b49"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q5-04.png",
+          "page": 17,
+          "box": [
+            50.5,
+            49.5,
+            535.8,
+            712.5
+          ],
+          "width": 1214,
+          "height": 1659,
+          "label": "問題5 計算機2 第4页（PDF 第17页）",
+          "sha256": "e169f1979f8ed36adfc82bcc9da247c0e96cc9289adee2bf01f93982fb40271a"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2024-02-senmon-q6",
+      "number": "問題6",
+      "title": "物理专业",
+      "titleKind": "editorial",
+      "topics": [
+        "物理専門"
+      ],
+      "summary": "原卷大题印作「問題6 物理専門」。本大题共 4 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q6-01.png",
+          "page": 18,
+          "box": [
+            73.5,
+            43.8,
+            519.8,
+            684.5
+          ],
+          "width": 1117,
+          "height": 1603,
+          "label": "問題6 物理専門 第1页（PDF 第18页）",
+          "sha256": "962ef397f17ec2967a11b8112d8f5c822a3bf94f65fb75b296e65538f9c480cb"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q6-02.png",
+          "page": 19,
+          "box": [
+            73.8,
+            42.8,
+            454.2,
+            424.2
+          ],
+          "width": 952,
+          "height": 954,
+          "label": "問題6 物理専門 第2页（PDF 第19页）",
+          "sha256": "d8fc51f0e165534bcde206f5c6cf5b59de1059046d1b790c82a5b8afd408a010"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q6-03.png",
+          "page": 20,
+          "box": [
+            73.2,
+            43.8,
+            519.8,
+            730.8
+          ],
+          "width": 1117,
+          "height": 1718,
+          "label": "問題6 物理専門 第3页（PDF 第20页）",
+          "sha256": "26509e7e34e12cb63febced6d1cca07f1be1b1d95059793247a537abc3a39b9e"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2024-02-senmon/tohoku-ee-2024-02-senmon-q6-04.png",
+          "page": 21,
+          "box": [
+            73.5,
+            43.2,
+            454.2,
+            423.8
+          ],
+          "width": 953,
+          "height": 952,
+          "label": "問題6 物理専門 第4页（PDF 第21页）",
+          "sha256": "2b3971354d92b137a477ffe273a0d13eda9030fafa4d8284ca4c977f11518faf"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q4"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q4"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [
+        "tohoku-ee-2024-02-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    }
+  ]
+}
