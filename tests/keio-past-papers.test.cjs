@@ -13,7 +13,7 @@ test('Keio stores 46 original question PDFs and leaves other schools unchanged',
  assert.match(data.schoolNotes.keio.text,/46组／46个唯一PDF、307页/);assert.match(data.schoolNotes.keio.text,/32组／32个唯一PDF、181页/);assert.match(data.schoolNotes.keio.text,/新增14组、14个唯一PDF、126页/);assert.match(data.schoolNotes.keio.text,/yearBasis 为 exam/);assert.match(data.schoolNotes.keio.text,/边界／待确认/);
  assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='kobe-ee-backfill-20261101'&&p.sourceBatch!=='kyushu-ee-archive-20261030'&&p.sourceBatch!=='sophia-ee-archive-20261101'&&p.sourceBatch!=='science-tokyo-drive-20261018'&&p.sourceBatch!=='tohoku-ee-archive-20261102'&&p.universityId!=='keio'&&!p.id.startsWith('tus-bf-')))).digest('hex'),'5832c6d129bf7e6a7c97be83e01ec1b79f97d89ba274f98201a5bca5ffeaf50c');
  const notes={...data.schoolNotes};delete notes.kyushu;delete notes.keio;delete notes.kobe;delete notes.sophia;delete notes.tohoku;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'2bfc7e75b33b8a87471ee7e7bbf7a8de310e5a0bb2f6d2976371c27d5204ed8e');
- assert.match(fs.readFileSync(path.join(root,'past-papers.html'),'utf8'),/past-papers-data\.js\?v=20261102-tohoku-ee/);
+ assert.match(fs.readFileSync(path.join(root,'past-papers.html'),'utf8'),/past-papers-data\.js\?v=20261102-tohoku-ee-major/);
 });
 test('Keio years come from the August cover month and 2025 letters stay separate',()=>{
  assert.deepEqual([...new Set(papers.map(p=>p.paperYear))],[2021,2022,2023,2024,2025]);

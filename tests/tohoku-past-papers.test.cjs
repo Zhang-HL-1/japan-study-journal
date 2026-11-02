@@ -71,14 +71,18 @@ test('Tohoku electrical backfill keeps 2003–2016 whole papers and the printed 
  assert.equal(added.length,26);assert.equal(added.reduce((n,p)=>n+p.files.length,0),52);
  assert.equal(added.reduce((n,p)=>n+p.files.reduce((m,f)=>m+f.pages,0),0),681);
  for(const p of added){assert.equal(p.universityId,'tohoku');assert.equal(p.graduateSchool,'工学研究科');assert.equal(p.yearBasis,'exam');assert.equal(p.examYear,p.paperYear);assert.equal(p.admissionYears,undefined);assert.deepEqual(p.subjects,['基礎科目','専門科目']);assert.deepEqual(p.files.map(f=>f.kind),['question','question']);assert.deepEqual(p.files.map(f=>f.label),['基礎科目','専門科目']);assert.ok(p.files.every(f=>f.sourcePaths[0].startsWith('东北大学/工学研究科/电气情报/')));}
- const feb=find('tohoku-ee-2005-02');assert.equal(feb.department,'電気系・物理情報系群');assert.deepEqual(feb.examDates,['2005-02-28','2005-03-01']);assert.match(feb.sourceNote,/2005年3月1日/);assert.match(feb.files[1].originalName,/200502senmon/);
- const aug=find('tohoku-ee-2005-08');assert.equal(aug.department,'電気・通信工学専攻／電子工学専攻');assert.deepEqual(aug.examDates,['2005-08-29','2005-08-30']);assert.equal(aug.originalYear,'平成17年度');
- const y08=find('tohoku-ee-2008-02');assert.match(y08.selectionName,/工学系コース電気工学系/);assert.match(y08.selectionName,/情報・生命系群（物理・情報系）/);assert.equal(y08.department,'電気・通信工学専攻／電子工学専攻');
+ const current='電気エネルギーシステム専攻／通信工学専攻／電子工学専攻';
+ const feb=find('tohoku-ee-2005-02');assert.equal(feb.department,current);assert.equal(feb.originalMajor,'電気系・物理情報系群');assert.deepEqual(feb.examDates,['2005-02-28','2005-03-01']);assert.match(feb.sourceNote,/2005年3月1日/);assert.match(feb.files[1].originalName,/200502senmon/);
+ const aug=find('tohoku-ee-2005-08');assert.equal(aug.department,current);assert.equal(aug.originalMajor,'電気・通信工学専攻／電子工学専攻');assert.deepEqual(aug.examDates,['2005-08-29','2005-08-30']);assert.equal(aug.originalYear,'平成17年度');
+ const y08=find('tohoku-ee-2008-02');assert.match(y08.selectionName,/工学系コース電気工学系/);assert.match(y08.selectionName,/情報・生命系群（物理・情報系）/);assert.equal(y08.department,current);assert.equal(y08.originalMajor,'電気・通信工学専攻／電子工学専攻');
  const early=find('tohoku-ee-2003-09'),lateMonth=find('tohoku-ee-2009-03'),kept=find('tohoku-ee-2023-08');
- assert.equal(early.yearEvidence,'source-folder');assert.equal(early.examDates,undefined);assert.equal(early.department,undefined);
- assert.equal(lateMonth.examDates,undefined);assert.equal(lateMonth.department,undefined);assert.equal(lateMonth.paperYear,2009);assert.match(lateMonth.sourceNote,/不沿用2008年以前/);
+ assert.equal(early.yearEvidence,'source-folder');assert.equal(early.examDates,undefined);assert.equal(early.department,current);assert.equal(early.originalMajor,'抽查页眉未印専攻名');
+ assert.equal(lateMonth.examDates,undefined);assert.equal(lateMonth.department,current);assert.equal(lateMonth.originalMajor,'页眉未印専攻名');assert.equal(lateMonth.paperYear,2009);assert.match(lateMonth.sourceNote,/不沿用2008年以前/);assert.match(lateMonth.sourceNote,/originalMajor/);
+ assert.equal(find('tohoku-ee-2014-03').department,current);assert.equal(find('tohoku-ee-2014-08').department,current);
  assert.equal(find('tohoku-ee-2016-08').paperYear,2016);assert.match(find('tohoku-ee-2016-08').sourceNote,/2016年8月実施/);
+ assert.ok(added.every(p=>p.department===current&&p.originalMajor));assert.equal(kept.originalMajor,undefined);assert.equal(kept.department,current);
  assert.deepEqual(kept.files.map(f=>f.sha256),['a51d81c5d43183790946e82bd7597df39380869469b53ac3bede2de0779142a5','4775def7406b16e2f9ac1709d48a36337f09e64a9c080173ff7b4b050fa3f547']);
- assert.equal(core.filter(papers,catalog.universities,{school:'tohoku',graduate:'工学研究科',department:'電気・通信工学専攻／電子工学専攻',year:'2006',query:'2月'}).map(p=>p.id).join(),'tohoku-ee-2006-02');
+ assert.deepEqual(core.filter(papers,catalog.universities,{school:'tohoku',graduate:'工学研究科',department:current,year:'2014',query:''}).map(p=>p.id).sort(),['tohoku-ee-2014-03','tohoku-ee-2014-08']);
+ assert.equal(core.filter(papers,catalog.universities,{school:'tohoku',graduate:'工学研究科',department:'電気・通信工学専攻／電子工学専攻',year:'2006',query:'2月'}).length,0);
  assert.equal(papers.some(p=>p.id.startsWith('tohoku-ee-')&&p.files.some(f=>f.kind!=='question'&&p.sourceBatch==='tohoku-ee-archive-20261102')),false);
 });
