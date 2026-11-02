@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "id": "tohoku-ee-2007-02-kiso",
+  "title": "东北大学 · 2007年2月实施 · 基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tohoku-ee-2007-02",
+    "schoolId": "tohoku",
+    "school": "東北大学",
+    "graduate": "工学研究科",
+    "major": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+    "year": 2007,
+    "yearBasis": "exam",
+    "subject": "基礎科目",
+    "originalSubject": "基礎科目",
+    "originalMajor": "電気・通信工学専攻／電子工学専攻",
+    "originalName": "200702kiso.pdf",
+    "pdf": "assets/past-papers/documents/b0e5cc673625073b488e14bcf92b200bb1e4fc4ec5fe601da7959c65818b5de0.pdf",
+    "sha256": "b0e5cc673625073b488e14bcf92b200bb1e4fc4ec5fe601da7959c65818b5de0",
+    "pageCount": 11,
+    "note": "目录 yearBasis=exam，year 为实施年 2007，不改写成入学年。封面印「2007年2月27日 9:30—11:30」，未印平成年度，不写入学年。封面専攻为大学院工学研究科 電気・通信工学専攻／電子工学専攻。并列大学院情報科学研究科情報・生命系群（物理・情報系）。信息・生命系群不是专攻名，不另建入口。站点专攻沿用目录「電気エネルギーシステム専攻／通信工学専攻／電子工学専攻」，这不是封面原文；封面原文记在 originalMajor 与本 note。学校为目录東北大学，研究科为目录工学研究科。科目为封面与目录「基礎科目」（200702kiso.pdf）。封面注意写明 6 设问中选 2 题，答案纸不足可用背面并注明裏面へ続く，并写明问题以和文与英文并记。封面放入 commonRegions，不计大题。大题按页眉「問題」号与分野名合并，续页并入同一大题，小问不拆。和文与英文属于同一大题。题页页眉印「2007年2月実施」。原 PDF 无 /Rotate，未做派生规范化。答案 PDF 不在本目录组。本目录组没有单独的外国人入试 question PDF。未做 2003–2004，未重做 2008–2026。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tohoku-ee-2007-02-kiso/common-01.png",
+      "page": 1,
+      "box": [
+        61.0,
+        56.0,
+        540.0,
+        791.5
+      ],
+      "width": 1198,
+      "height": 1839,
+      "label": "表紙：実施日時、封面専攻、科目名与选题注意",
+      "sha256": "6b341fdf6029f2f5d3e61aa141e8bda08998afe9f8e7bcb1c235fdcecdc7ead6"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tohoku-ee-2007-02-kiso-q1",
+      "number": "問題1",
+      "title": "电磁气学",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "原卷大题印作「問題1 電磁気学」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q1-01.png",
+          "page": 2,
+          "box": [
+            60.5,
+            89.5,
+            529.0,
+            758.5
+          ],
+          "width": 1172,
+          "height": 1674,
+          "label": "問題1 電磁気学 第1页（PDF 第2页）",
+          "sha256": "1b9a4ac6433ddbc2a8dd89433868d529f3ccbf9f21830d58963debf7758d5474"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q1-02.png",
+          "page": 3,
+          "box": [
+            229.5,
+            81.0,
+            424.5,
+            335.0
+          ],
+          "width": 489,
+          "height": 636,
+          "label": "問題1 電磁気学 第2页（PDF 第3页）",
+          "sha256": "6703a0491d7f540d0d4baf2bd7c82e04d5e14388dd4c8255a386effb9827f68d"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2007-02-kiso-q2",
+      "number": "問題2",
+      "title": "电气回路",
+      "titleKind": "editorial",
+      "topics": [
+        "電気回路"
+      ],
+      "summary": "原卷大题印作「問題2 電気回路」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q2-01.png",
+          "page": 4,
+          "box": [
+            62.0,
+            89.0,
+            528.5,
+            675.0
+          ],
+          "width": 1167,
+          "height": 1466,
+          "label": "問題2 電気回路 第1页（PDF 第4页）",
+          "sha256": "ea12345948316f19d16b0b86d939e4a6fd6ec3a8a29ef04354849556a1a8483c"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q2-02.png",
+          "page": 5,
+          "box": [
+            122.5,
+            81.0,
+            565.0,
+            578.5
+          ],
+          "width": 1107,
+          "height": 1245,
+          "label": "問題2 電気回路 第2页（PDF 第5页）",
+          "sha256": "54adac661e161e0a010f3adee835377476acbd527c645862aadd4787a9798b59"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2007-02-kiso-q3",
+      "number": "問題3",
+      "title": "信息基础1",
+      "titleKind": "editorial",
+      "topics": [
+        "情報基礎"
+      ],
+      "summary": "原卷大题印作「問題3 情報基礎1」。本大题共 1 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q3-01.png",
+          "page": 6,
+          "box": [
+            48.5,
+            58.0,
+            539.0,
+            608.5
+          ],
+          "width": 1227,
+          "height": 1377,
+          "label": "問題3 情報基礎1 第1页（PDF 第6页）",
+          "sha256": "b15271963c0dd7882668bd2ef9f67f1eeb01b882919888ab430f4b645ac47fa4"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2007-02-kiso-q4",
+      "number": "問題4",
+      "title": "信息基础2",
+      "titleKind": "editorial",
+      "topics": [
+        "情報基礎"
+      ],
+      "summary": "原卷大题印作「問題4 情報基礎2」。本大题共 1 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q4-01.png",
+          "page": 7,
+          "box": [
+            70.5,
+            102.5,
+            528.0,
+            684.5
+          ],
+          "width": 1144,
+          "height": 1456,
+          "label": "問題4 情報基礎2 第1页（PDF 第7页）",
+          "sha256": "1663072eccda31dd7ccabb3d7873f0dc42574d6f2ba3590f606e980fd5c12192"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2007-02-kiso-q5",
+      "number": "問題5",
+      "title": "物理基础1",
+      "titleKind": "editorial",
+      "topics": [
+        "物理"
+      ],
+      "summary": "原卷大题印作「問題5 物理基礎1」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q5-01.png",
+          "page": 8,
+          "box": [
+            62.5,
+            85.0,
+            528.0,
+            619.0
+          ],
+          "width": 1164,
+          "height": 1336,
+          "label": "問題5 物理基礎1 第1页（PDF 第8页）",
+          "sha256": "22d669115313671776ea2ae4be38d1cdb4640a8a3df1bd8884b9815bd44fc4e0"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q5-02.png",
+          "page": 9,
+          "box": [
+            130.0,
+            113.5,
+            437.0,
+            631.0
+          ],
+          "width": 768,
+          "height": 1295,
+          "label": "問題5 物理基礎1 第2页（PDF 第9页）",
+          "sha256": "787805032e6134013a5b204470d52dca4166055e9f10ccdcd02d05f6648b68c8"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2007-02-kiso-q6",
+      "number": "問題6",
+      "title": "物理基础2",
+      "titleKind": "editorial",
+      "topics": [
+        "物理"
+      ],
+      "summary": "原卷大题印作「問題6 物理基礎2」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q6-01.png",
+          "page": 10,
+          "box": [
+            84.0,
+            105.0,
+            488.5,
+            644.0
+          ],
+          "width": 1012,
+          "height": 1348,
+          "label": "問題6 物理基礎2 第1页（PDF 第10页）",
+          "sha256": "9869f168524e424ffcd7f5a16a69e7d9c93d1c530344ecc4a8aef742d844d474"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2007-02-kiso/tohoku-ee-2007-02-kiso-q6-02.png",
+          "page": 11,
+          "box": [
+            84.5,
+            104.5,
+            503.5,
+            643.5
+          ],
+          "width": 1048,
+          "height": 1348,
+          "label": "問題6 物理基礎2 第2页（PDF 第11页）",
+          "sha256": "aea745b46e5878e4f4695208455d5e7be0d51834d66436d57729de93a78f4505"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "本页为表紙（实施日、封面専攻、科目名、选题注意），放入 commonRegions，不计大题。裁图外为页边空白与孤立墨点。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q4"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "tohoku-ee-2007-02-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    }
+  ]
+}
