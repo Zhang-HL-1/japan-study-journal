@@ -3,20 +3,20 @@
   "universityId": "tohoku",
   "sourceFolder": "Google Drive／过去问／东北大学",
   "inventoryPDFs": 119,
-  "sourceFiles": 118,
-  "uniquePDFs": 117,
+  "sourceFiles": 170,
+  "uniquePDFs": 169,
   "duplicateByteCopies": 1,
-  "groups": 84,
-  "catalogPDFs": 113,
-  "questionPDFs": 105,
+  "groups": 110,
+  "catalogPDFs": 165,
+  "questionPDFs": 157,
   "answerPDFs": 2,
   "otherPDFs": 6,
   "undatedPDFs": 4,
-  "totalPages": 871,
+  "totalPages": 1552,
   "yearBasis": "mixed",
   "sharedWithExistingSchools": [],
-  "yearBasisNote": "封面印「令和N年度」「平成N年度」或「YYYY年度」时，paperYear用该年度（令和N＝2018+N，平成N＝1988+N），yearBasis为academic。examYear与examDates只用同一封面印出的公历日；只印到月份时不编examDates。admissionYears只在封面写明「N年4月入学」时填写，不从「年度」或次年4月入学惯例补推。只印实施日、页眉「YYYY年M月」或「YYYY年春季実施」、没有「年度」时，paperYear与examYear用该年，yearBasis为exam，不写admissionYears。文件名（含R6、r04Feb、2025Mar、2026Mar）不作为年度。各页都没有年度或实施日的4份応用物理学册不编入年份目录。2026-10-18补录：理学数学、理学物理封面印令和N年度时paperYear用该年度，examDates只用封面公历日，未印「N年4月入学」就不写admissionYears。土木封面只印「YYYY春」或「YYYY秋」，没有「年度」和公历日，paperYear与examYear用该公历年，yearBasis为exam，不写admissionYears，也不写examDates。",
-  "coverageNote": "本校84组／113个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。云盘119个PDF中入库118个路径、117个唯一PDF、871页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。2026-10-18补录原先排除的理学数学17份、理学物理8份、土木6份，新增17组、31个唯一PDF、207页。误放的理学研究科自己推薦入学試験学生募集要項不是试题，不建入口，也不入库。yearBasis为mixed。理学数学与理学物理按封面令和年度，实施日另列。土木按封面公历年加春／秋，不写入学年月。不声明其他年度或全校齐全。",
+  "yearBasisNote": "封面印「令和N年度」「平成N年度」或「YYYY年度」时，paperYear用该年度（令和N＝2018+N，平成N＝1988+N），yearBasis为academic。examYear与examDates只用同一封面印出的公历日；只印到月份时不编examDates。admissionYears只在封面写明「N年4月入学」时填写，不从「年度」或次年4月入学惯例补推。只印实施日、页眉「YYYY年M月」或「YYYY年春季実施」、没有「年度」时，paperYear与examYear用该年，yearBasis为exam，不写admissionYears。文件名（含R6、r04Feb、2025Mar、2026Mar）不作为年度。各页都没有年度或实施日的4份応用物理学册不编入年份目录。2026-10-18补录：理学数学、理学物理封面印令和N年度时paperYear用该年度，examDates只用封面公历日，未印「N年4月入学」就不写admissionYears。土木封面只印「YYYY春」或「YYYY秋」，没有「年度」和公历日，paperYear与examYear用该公历年，yearBasis为exam，不写admissionYears，也不写examDates。2026-11-02电气情报补录：抽查页眉印公历实施日或「YYYY年M月実施」时，paperYear与examYear用该公历年，yearBasis为exam，不写admissionYears；只印到月份时不编examDates。封面另印平成N年度时写入originalYear，不把年度当成paperYear。200309、200409抽查未见实施年月，paperYear用来源文件名，yearEvidence为source-folder。",
+  "coverageNote": "本校110组／165个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。2026-11-02补录电气情报2003–2016，新增26组、52个唯一PDF、681页。此前84组／113个有封面年度的PDF、117个唯一PDF、871页保持原记录。云盘119个PDF中入库118个路径、117个唯一PDF、871页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。2026-10-18补录原先排除的理学数学17份、理学物理8份、土木6份，新增17组、31个唯一PDF、207页。误放的理学研究科自己推薦入学試験学生募集要項不是试题，不建入口，也不入库。yearBasis为mixed。理学数学与理学物理按封面令和年度，实施日另列。土木按封面公历年加春／秋，不写入学年月。不声明其他年度或全校齐全。",
   "excluded": [
     {
       "area": "理学研究科自己推薦入学試験学生募集要項",
@@ -50,7 +50,11 @@
     "2026-10-18补录理学数学：文件名公历年与封面令和年度一致（2022_R4为令和4年度），实施日在前一个公历年。英语、共通、选择为同一日不同时段，合成一组。令和4、5、7年度英语封面未单列「英語」，第2页为英文；令和6年度科目行文字层乱码。令和7年度出題意図、令和8年度出題意図・講評没有公历日，附在同年试题上，类型为other。",
     "2026-10-18补录理学物理：exa-rN的N是令和年度。令和3年度封面为令和2年8月24日和25日两日；令和4年度起封面只印一日。试题册科目为基础数学、力学、電磁気学、量子力学、熱・統計力学，没有英语页。出題意図写英语题因著作权未公开。令和8年度试题封面实施日为西历2025年8月19日，出題意図・講評封面写2026年度。",
     "2026-10-18补录土木：封面只印「YYYY春」或「YYYY秋」和「基礎科目」，没有研究科、専攻、年度、入学或公历日。不写成土木工学専攻，department按云盘文件夹记为土木，研究科按文件夹归入工学研究科。春／秋不补写成入学，不写admissionYears，也不写examDates。",
-    "东北 理学 募集.pdf是募集要项，已在excluded注明跳过原因，不建真题组，PDF不入库。"
+    "东北 理学 募集.pdf是募集要项，已在excluded注明跳过原因，不建真题组，PDF不入库。",
+    "2026-11-02电气情报补录52份。200502senmon.pdf文件名月份为02，封面日期是2005年3月1日；200502kiso.pdf封面是2005年2月28日。以封面为准，两册合成tohoku-ee-2005-02。",
+    "200309、200409四份抽查第1页为問題，页眉页脚未见実施年月或専攻名。场次按来源文件名，yearEvidence为source-folder，不编examDates。",
+    "2005年8月至2008年封面専攻名为電気・通信工学専攻／電子工学専攻，不同于2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。2005年2月封面只印電気系・物理情報系群。2008年2月医工学行印工学系コース電気工学系。2009–2016抽查页眉未印専攻名，不补写。",
+    "2009–2016各场基础科目页眉与文件名YYYYMM一致，没有公历日。201608senmon.pdf页眉另核对为2016年8月実施。未逐份打开其余专业册页眉。扫描件没有文字层，未对全部52份跑OCR。"
   ],
   "files": [
     {
@@ -1622,6 +1626,690 @@
       "kind": "question",
       "groupId": "tohoku-civil-2026-spring",
       "paperYear": 2026
+    },
+    {
+      "path": "assets/past-papers/documents/debfbbf2f48dd3d2a0c95e7197b1868a0ba5acb5f54235facb8f4a0555d6e36e.pdf",
+      "originalName": "200309kiso.pdf",
+      "sha256": "debfbbf2f48dd3d2a0c95e7197b1868a0ba5acb5f54235facb8f4a0555d6e36e",
+      "byteSize": 305280,
+      "pages": 10,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200309kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2003-09",
+      "paperYear": 2003
+    },
+    {
+      "path": "assets/past-papers/documents/dab6a1087ef95290be65e585babe2c6c5b269de6d66e19113b11ec830b13589c.pdf",
+      "originalName": "200309senmon.pdf",
+      "sha256": "dab6a1087ef95290be65e585babe2c6c5b269de6d66e19113b11ec830b13589c",
+      "byteSize": 381516,
+      "pages": 11,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200309senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2003-09",
+      "paperYear": 2003
+    },
+    {
+      "path": "assets/past-papers/documents/9263f49b835da279f092ebe523f8405adb5ee2dfa8160ee01ab4f7bd5a9bbcf8.pdf",
+      "originalName": "200409kiso.pdf",
+      "sha256": "9263f49b835da279f092ebe523f8405adb5ee2dfa8160ee01ab4f7bd5a9bbcf8",
+      "byteSize": 264011,
+      "pages": 11,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200409kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2004-09",
+      "paperYear": 2004
+    },
+    {
+      "path": "assets/past-papers/documents/571150ca1d6bbc962f664346b2a4713f19572759e5461b28658d5e591d417c73.pdf",
+      "originalName": "200409senmon.pdf",
+      "sha256": "571150ca1d6bbc962f664346b2a4713f19572759e5461b28658d5e591d417c73",
+      "byteSize": 328306,
+      "pages": 13,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200409senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2004-09",
+      "paperYear": 2004
+    },
+    {
+      "path": "assets/past-papers/documents/820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd.pdf",
+      "originalName": "200502kiso.pdf",
+      "sha256": "820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd",
+      "byteSize": 293707,
+      "pages": 12,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200502kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2005-02",
+      "paperYear": 2005
+    },
+    {
+      "path": "assets/past-papers/documents/f98feda7a9db74cc7f77734a5743cd83b428d6756cae26a0fe4f04c8fd667772.pdf",
+      "originalName": "200502senmon.pdf",
+      "sha256": "f98feda7a9db74cc7f77734a5743cd83b428d6756cae26a0fe4f04c8fd667772",
+      "byteSize": 381300,
+      "pages": 13,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200502senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2005-02",
+      "paperYear": 2005
+    },
+    {
+      "path": "assets/past-papers/documents/0b8a8d25578489b9aeff9cb490b566c707c2741bde495c122da5a199a15338f5.pdf",
+      "originalName": "200508kiso.pdf",
+      "sha256": "0b8a8d25578489b9aeff9cb490b566c707c2741bde495c122da5a199a15338f5",
+      "byteSize": 1072232,
+      "pages": 13,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200508kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2005-08",
+      "paperYear": 2005
+    },
+    {
+      "path": "assets/past-papers/documents/109c90211d5a040ef67cc9345231ec721eb1c0dd404b003d2972451877c882fd.pdf",
+      "originalName": "200508senmon.pdf",
+      "sha256": "109c90211d5a040ef67cc9345231ec721eb1c0dd404b003d2972451877c882fd",
+      "byteSize": 1259089,
+      "pages": 14,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200508senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2005-08",
+      "paperYear": 2005
+    },
+    {
+      "path": "assets/past-papers/documents/efa805faffd6d13291e30679d5950c45e624b77becac1c4d2949e77e6fe6e719.pdf",
+      "originalName": "200602kiso.pdf",
+      "sha256": "efa805faffd6d13291e30679d5950c45e624b77becac1c4d2949e77e6fe6e719",
+      "byteSize": 656309,
+      "pages": 11,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200602kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2006-02",
+      "paperYear": 2006,
+      "coverListsInformationScience": true
+    },
+    {
+      "path": "assets/past-papers/documents/8b8df644a953e6a0f3388525687b1ff469b06e4fe089ac5d5319a70d0f7bb9ee.pdf",
+      "originalName": "200602senmon.pdf",
+      "sha256": "8b8df644a953e6a0f3388525687b1ff469b06e4fe089ac5d5319a70d0f7bb9ee",
+      "byteSize": 784691,
+      "pages": 15,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200602senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2006-02",
+      "paperYear": 2006,
+      "coverListsInformationScience": true
+    },
+    {
+      "path": "assets/past-papers/documents/01f4052c1c664a0b92b5594e77a11bd1fe44b5d46899d5303964edbf22fae110.pdf",
+      "originalName": "200608kiso.pdf",
+      "sha256": "01f4052c1c664a0b92b5594e77a11bd1fe44b5d46899d5303964edbf22fae110",
+      "byteSize": 983744,
+      "pages": 14,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200608kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2006-08",
+      "paperYear": 2006
+    },
+    {
+      "path": "assets/past-papers/documents/279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af.pdf",
+      "originalName": "200608senmon.pdf",
+      "sha256": "279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af",
+      "byteSize": 1163465,
+      "pages": 17,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200608senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2006-08",
+      "paperYear": 2006
+    },
+    {
+      "path": "assets/past-papers/documents/b0e5cc673625073b488e14bcf92b200bb1e4fc4ec5fe601da7959c65818b5de0.pdf",
+      "originalName": "200702kiso.pdf",
+      "sha256": "b0e5cc673625073b488e14bcf92b200bb1e4fc4ec5fe601da7959c65818b5de0",
+      "byteSize": 674507,
+      "pages": 11,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200702kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2007-02",
+      "paperYear": 2007,
+      "coverListsInformationScience": true
+    },
+    {
+      "path": "assets/past-papers/documents/e17c9081b7c3fc587a734d4e3f0fd4facc49ed7259beeaa4cdf2b6599c2b80b4.pdf",
+      "originalName": "200702senmon.pdf",
+      "sha256": "e17c9081b7c3fc587a734d4e3f0fd4facc49ed7259beeaa4cdf2b6599c2b80b4",
+      "byteSize": 843738,
+      "pages": 14,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200702senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2007-02",
+      "paperYear": 2007,
+      "coverListsInformationScience": true
+    },
+    {
+      "path": "assets/past-papers/documents/d4578efd0d8813d0bb872df190036fd31d3dffe98745c36614549042c59be621.pdf",
+      "originalName": "200708kiso.pdf",
+      "sha256": "d4578efd0d8813d0bb872df190036fd31d3dffe98745c36614549042c59be621",
+      "byteSize": 409030,
+      "pages": 12,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200708kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2007-08",
+      "paperYear": 2007
+    },
+    {
+      "path": "assets/past-papers/documents/a939dfe143e9039d94d219ed655ee3c30f4ff9952fc714fe23c89d7d92e7921e.pdf",
+      "originalName": "200708senmon.pdf",
+      "sha256": "a939dfe143e9039d94d219ed655ee3c30f4ff9952fc714fe23c89d7d92e7921e",
+      "byteSize": 507610,
+      "pages": 14,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200708senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2007-08",
+      "paperYear": 2007
+    },
+    {
+      "path": "assets/past-papers/documents/4cb954f572b771bb9933db193917f04e813836bf53b147b4de6aba985ef81eb7.pdf",
+      "originalName": "200802kiso.pdf",
+      "sha256": "4cb954f572b771bb9933db193917f04e813836bf53b147b4de6aba985ef81eb7",
+      "byteSize": 430881,
+      "pages": 12,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200802kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2008-02",
+      "paperYear": 2008,
+      "coverListsInformationScience": true
+    },
+    {
+      "path": "assets/past-papers/documents/4e634d5ee2d544d64109a2e28650c585ba96e838174a8bfc531af4c73a0c9ac1.pdf",
+      "originalName": "200802senmon.pdf",
+      "sha256": "4e634d5ee2d544d64109a2e28650c585ba96e838174a8bfc531af4c73a0c9ac1",
+      "byteSize": 458060,
+      "pages": 13,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200802senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2008-02",
+      "paperYear": 2008,
+      "coverListsInformationScience": true
+    },
+    {
+      "path": "assets/past-papers/documents/8659354f4d724a21ad32fbec6b5d42e5292edf5e35ceea5db1ec46481a6ddc03.pdf",
+      "originalName": "200808kiso.pdf",
+      "sha256": "8659354f4d724a21ad32fbec6b5d42e5292edf5e35ceea5db1ec46481a6ddc03",
+      "byteSize": 245018,
+      "pages": 12,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200808kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2008-08",
+      "paperYear": 2008,
+      "coverListsInformationScience": true
+    },
+    {
+      "path": "assets/past-papers/documents/6a2a4f8ea2c2c1de70cd2503cc44725838cb98f8051dca85d4c0353d2318afec.pdf",
+      "originalName": "200808senmon.pdf",
+      "sha256": "6a2a4f8ea2c2c1de70cd2503cc44725838cb98f8051dca85d4c0353d2318afec",
+      "byteSize": 331554,
+      "pages": 17,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200808senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2008-08",
+      "paperYear": 2008,
+      "coverListsInformationScience": true
+    },
+    {
+      "path": "assets/past-papers/documents/103ac33f9c9b0e711202dca57b48fa7da02477f37d2dc67bbede04fb56f1c320.pdf",
+      "originalName": "200903kiso.pdf",
+      "sha256": "103ac33f9c9b0e711202dca57b48fa7da02477f37d2dc67bbede04fb56f1c320",
+      "byteSize": 214934,
+      "pages": 11,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200903kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2009-03",
+      "paperYear": 2009
+    },
+    {
+      "path": "assets/past-papers/documents/39d3e536fbfb9f8f0c3feca44b4485fc9e91ebebd654c74deb04bbc81c067a3a.pdf",
+      "originalName": "200903senmon.pdf",
+      "sha256": "39d3e536fbfb9f8f0c3feca44b4485fc9e91ebebd654c74deb04bbc81c067a3a",
+      "byteSize": 263640,
+      "pages": 14,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200903senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2009-03",
+      "paperYear": 2009
+    },
+    {
+      "path": "assets/past-papers/documents/a514fb075d90dce3cfe96ba2965ecf9489d04a1aa1cd65703f6dd01645523006.pdf",
+      "originalName": "200908kiso.pdf",
+      "sha256": "a514fb075d90dce3cfe96ba2965ecf9489d04a1aa1cd65703f6dd01645523006",
+      "byteSize": 226822,
+      "pages": 10,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200908kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2009-08",
+      "paperYear": 2009
+    },
+    {
+      "path": "assets/past-papers/documents/999e7eb88178b4ae976c27d7b1ea6ed6c6465a88641b17f6678788dfa0ea67f2.pdf",
+      "originalName": "200908senmon.pdf",
+      "sha256": "999e7eb88178b4ae976c27d7b1ea6ed6c6465a88641b17f6678788dfa0ea67f2",
+      "byteSize": 292649,
+      "pages": 14,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/200908senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2009-08",
+      "paperYear": 2009
+    },
+    {
+      "path": "assets/past-papers/documents/92665029cfe738e397e4d1cfb36aac2509cbcc5897a90ca9150b5a7d11b84bd9.pdf",
+      "originalName": "201003kiso.pdf",
+      "sha256": "92665029cfe738e397e4d1cfb36aac2509cbcc5897a90ca9150b5a7d11b84bd9",
+      "byteSize": 204419,
+      "pages": 9,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201003kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2010-03",
+      "paperYear": 2010
+    },
+    {
+      "path": "assets/past-papers/documents/9faf41ae91f91f12229773509ffaef9aeec595c17df8bb5e6fbe7f91251a510d.pdf",
+      "originalName": "201003senmon.pdf",
+      "sha256": "9faf41ae91f91f12229773509ffaef9aeec595c17df8bb5e6fbe7f91251a510d",
+      "byteSize": 350574,
+      "pages": 16,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201003senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2010-03",
+      "paperYear": 2010
+    },
+    {
+      "path": "assets/past-papers/documents/a32efdf7fdd57f450596fc454dc965ca3d389d747d49633330d573ea23f432d1.pdf",
+      "originalName": "201008kiso.pdf",
+      "sha256": "a32efdf7fdd57f450596fc454dc965ca3d389d747d49633330d573ea23f432d1",
+      "byteSize": 17271705,
+      "pages": 10,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201008kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2010-08",
+      "paperYear": 2010
+    },
+    {
+      "path": "assets/past-papers/documents/83913478ddc0118a6f04163ad294f6e0fe564143a55c6858fbb2dc9e2c5cbb48.pdf",
+      "originalName": "201008senmon.pdf",
+      "sha256": "83913478ddc0118a6f04163ad294f6e0fe564143a55c6858fbb2dc9e2c5cbb48",
+      "byteSize": 22002427,
+      "pages": 16,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201008senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2010-08",
+      "paperYear": 2010
+    },
+    {
+      "path": "assets/past-papers/documents/c1ecf4b080768d1269320abe3267e6127512f41732987fc96f6f338fb95ea2f5.pdf",
+      "originalName": "201102kiso.pdf",
+      "sha256": "c1ecf4b080768d1269320abe3267e6127512f41732987fc96f6f338fb95ea2f5",
+      "byteSize": 1113471,
+      "pages": 11,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201102kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2011-02",
+      "paperYear": 2011
+    },
+    {
+      "path": "assets/past-papers/documents/7399619fecf049433d99d266f4189a1ac58231fa7fe0c1e2538c9c750406982a.pdf",
+      "originalName": "201102senmon.pdf",
+      "sha256": "7399619fecf049433d99d266f4189a1ac58231fa7fe0c1e2538c9c750406982a",
+      "byteSize": 1004652,
+      "pages": 15,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201102senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2011-02",
+      "paperYear": 2011
+    },
+    {
+      "path": "assets/past-papers/documents/5e85a05346e69a48a3afd329004d8af1271ae2645a9f455f745ca50aa9c1ab7d.pdf",
+      "originalName": "201108kiso.pdf",
+      "sha256": "5e85a05346e69a48a3afd329004d8af1271ae2645a9f455f745ca50aa9c1ab7d",
+      "byteSize": 6130335,
+      "pages": 12,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201108kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2011-08",
+      "paperYear": 2011
+    },
+    {
+      "path": "assets/past-papers/documents/38aebf07add8ea908ecf79737250d039ff96db91d7445fd125e5cb77bbb36412.pdf",
+      "originalName": "201108senmon.pdf",
+      "sha256": "38aebf07add8ea908ecf79737250d039ff96db91d7445fd125e5cb77bbb36412",
+      "byteSize": 8618951,
+      "pages": 16,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201108senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2011-08",
+      "paperYear": 2011
+    },
+    {
+      "path": "assets/past-papers/documents/56c17a5781491acd3d496d21b8e4ab6b562dcd00763092d49858694387af6c8a.pdf",
+      "originalName": "201202kiso.pdf",
+      "sha256": "56c17a5781491acd3d496d21b8e4ab6b562dcd00763092d49858694387af6c8a",
+      "byteSize": 367101,
+      "pages": 11,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201202kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2012-02",
+      "paperYear": 2012
+    },
+    {
+      "path": "assets/past-papers/documents/927421571d8f3459df26b6f18f34a8b10b1c76e52f280ade64b51ec23818d5bf.pdf",
+      "originalName": "201202senmon.pdf",
+      "sha256": "927421571d8f3459df26b6f18f34a8b10b1c76e52f280ade64b51ec23818d5bf",
+      "byteSize": 488270,
+      "pages": 17,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201202senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2012-02",
+      "paperYear": 2012
+    },
+    {
+      "path": "assets/past-papers/documents/bc59cee7ebdbd7f16101b07530bd28a346a768f8458bc1a9e767148369faea69.pdf",
+      "originalName": "201208kiso.pdf",
+      "sha256": "bc59cee7ebdbd7f16101b07530bd28a346a768f8458bc1a9e767148369faea69",
+      "byteSize": 5000414,
+      "pages": 10,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201208kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2012-08",
+      "paperYear": 2012
+    },
+    {
+      "path": "assets/past-papers/documents/2451bff85f83b961a7266ec9bfe12b2f2ece31f85dd5e0957c40e5d66f63e22f.pdf",
+      "originalName": "201208senmon.pdf",
+      "sha256": "2451bff85f83b961a7266ec9bfe12b2f2ece31f85dd5e0957c40e5d66f63e22f",
+      "byteSize": 7125702,
+      "pages": 14,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201208senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2012-08",
+      "paperYear": 2012
+    },
+    {
+      "path": "assets/past-papers/documents/7aa0c607d14b2681142d796e1175a421476ec05b43d236490e2fdf70d21853c3.pdf",
+      "originalName": "201303kiso.pdf",
+      "sha256": "7aa0c607d14b2681142d796e1175a421476ec05b43d236490e2fdf70d21853c3",
+      "byteSize": 1127915,
+      "pages": 10,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201303kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2013-03",
+      "paperYear": 2013
+    },
+    {
+      "path": "assets/past-papers/documents/45c9a114a907873c864241a72123a46bd4a33a2d9c06b3943af39f0d9f5311bc.pdf",
+      "originalName": "201303senmon.pdf",
+      "sha256": "45c9a114a907873c864241a72123a46bd4a33a2d9c06b3943af39f0d9f5311bc",
+      "byteSize": 1866357,
+      "pages": 15,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201303senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2013-03",
+      "paperYear": 2013
+    },
+    {
+      "path": "assets/past-papers/documents/e597f900ff54844e3840c08fa5b0ff2ff45503fdbfce8207c4ee691431db380f.pdf",
+      "originalName": "201308kiso.pdf",
+      "sha256": "e597f900ff54844e3840c08fa5b0ff2ff45503fdbfce8207c4ee691431db380f",
+      "byteSize": 6752252,
+      "pages": 13,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201308kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2013-08",
+      "paperYear": 2013
+    },
+    {
+      "path": "assets/past-papers/documents/24ffcacada3ad9151fad9dad435b29ba4fbf09e457005b2438d4fffa748a8e72.pdf",
+      "originalName": "201308senmon.pdf",
+      "sha256": "24ffcacada3ad9151fad9dad435b29ba4fbf09e457005b2438d4fffa748a8e72",
+      "byteSize": 1241705,
+      "pages": 16,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201308senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2013-08",
+      "paperYear": 2013
+    },
+    {
+      "path": "assets/past-papers/documents/a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233.pdf",
+      "originalName": "201403kiso.pdf",
+      "sha256": "a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233",
+      "byteSize": 797738,
+      "pages": 10,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201403kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2014-03",
+      "paperYear": 2014
+    },
+    {
+      "path": "assets/past-papers/documents/fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55.pdf",
+      "originalName": "201403senmon.pdf",
+      "sha256": "fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55",
+      "byteSize": 2018153,
+      "pages": 13,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201403senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2014-03",
+      "paperYear": 2014
+    },
+    {
+      "path": "assets/past-papers/documents/8286e34ea1f156f4ee7a75cc9e1bec53aac2c7281f933b44d87f801bbd9bd666.pdf",
+      "originalName": "201408kiso.pdf",
+      "sha256": "8286e34ea1f156f4ee7a75cc9e1bec53aac2c7281f933b44d87f801bbd9bd666",
+      "byteSize": 562035,
+      "pages": 13,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201408kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2014-08",
+      "paperYear": 2014
+    },
+    {
+      "path": "assets/past-papers/documents/3c42ff1465d49065a8b6b17bee64dff5f20f19e62560d1c58cf2d846fbe5fb49.pdf",
+      "originalName": "201408senmon.pdf",
+      "sha256": "3c42ff1465d49065a8b6b17bee64dff5f20f19e62560d1c58cf2d846fbe5fb49",
+      "byteSize": 590422,
+      "pages": 16,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201408senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2014-08",
+      "paperYear": 2014
+    },
+    {
+      "path": "assets/past-papers/documents/bc7590cbf885346d155b4f9d7702bad5329aada31feb50d5878731dab50f7b51.pdf",
+      "originalName": "201503kiso.pdf",
+      "sha256": "bc7590cbf885346d155b4f9d7702bad5329aada31feb50d5878731dab50f7b51",
+      "byteSize": 202870,
+      "pages": 12,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201503kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2015-03",
+      "paperYear": 2015
+    },
+    {
+      "path": "assets/past-papers/documents/ee57b408fea76d7b401b575fe89d6be0b2016ebae500c7ed2fffc4b00f982457.pdf",
+      "originalName": "201503senmon.pdf",
+      "sha256": "ee57b408fea76d7b401b575fe89d6be0b2016ebae500c7ed2fffc4b00f982457",
+      "byteSize": 250916,
+      "pages": 14,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201503senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2015-03",
+      "paperYear": 2015
+    },
+    {
+      "path": "assets/past-papers/documents/a8b9e6bafca7a6ac1c45c079c679e9f22994e37daed22297538b9386cc899118.pdf",
+      "originalName": "201508kiso.pdf",
+      "sha256": "a8b9e6bafca7a6ac1c45c079c679e9f22994e37daed22297538b9386cc899118",
+      "byteSize": 608885,
+      "pages": 11,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201508kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2015-08",
+      "paperYear": 2015
+    },
+    {
+      "path": "assets/past-papers/documents/997c9afd9cbeaec3cd1c32e1ad6ebd4d120d0a31c019d91ee893db588e1ccdd2.pdf",
+      "originalName": "201508senmon.pdf",
+      "sha256": "997c9afd9cbeaec3cd1c32e1ad6ebd4d120d0a31c019d91ee893db588e1ccdd2",
+      "byteSize": 767228,
+      "pages": 16,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201508senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2015-08",
+      "paperYear": 2015
+    },
+    {
+      "path": "assets/past-papers/documents/b361ffd8723ad56f00acc18ccbe25c3efc5f2a34085dbbf72850bd94897eb409.pdf",
+      "originalName": "201603kiso.pdf",
+      "sha256": "b361ffd8723ad56f00acc18ccbe25c3efc5f2a34085dbbf72850bd94897eb409",
+      "byteSize": 489221,
+      "pages": 12,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201603kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2016-03",
+      "paperYear": 2016
+    },
+    {
+      "path": "assets/past-papers/documents/1b5aacce3807d65adb40a468388371f41121e646c29e25c190dadae81c9c7695.pdf",
+      "originalName": "201603senmon.pdf",
+      "sha256": "1b5aacce3807d65adb40a468388371f41121e646c29e25c190dadae81c9c7695",
+      "byteSize": 556809,
+      "pages": 14,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201603senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2016-03",
+      "paperYear": 2016
+    },
+    {
+      "path": "assets/past-papers/documents/ea92a0d172d1e60c8b88e43d5ac29490fd0783d1d9528a09f0c3f1513f50cde3.pdf",
+      "originalName": "201608kiso.pdf",
+      "sha256": "ea92a0d172d1e60c8b88e43d5ac29490fd0783d1d9528a09f0c3f1513f50cde3",
+      "byteSize": 4928937,
+      "pages": 12,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201608kiso.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2016-08",
+      "paperYear": 2016
+    },
+    {
+      "path": "assets/past-papers/documents/57088127f7e696191a57603146ee93ec12bca79ea2f4b41cb5276fda031c570a.pdf",
+      "originalName": "201608senmon.pdf",
+      "sha256": "57088127f7e696191a57603146ee93ec12bca79ea2f4b41cb5276fda031c570a",
+      "byteSize": 6584248,
+      "pages": 19,
+      "sourcePaths": [
+        "东北大学/工学研究科/电气情报/201608senmon.pdf"
+      ],
+      "kind": "question",
+      "groupId": "tohoku-ee-2016-08",
+      "paperYear": 2016
     }
   ],
   "backfill": {
@@ -1631,5 +2319,31 @@
     "addedPages": 207,
     "skippedNonExam": 1,
     "note": "补录原先排除的理学/数学17份、理学/物理8份、工学/土木6份。误放的募集要项1份不建入口、不入库。"
+  },
+  "eeBackfill": {
+    "addedAt": "2026-11-02",
+    "sourceBatch": "tohoku-ee-archive-20261102",
+    "addedGroups": 26,
+    "addedUniquePDFs": 52,
+    "addedPages": 681,
+    "examinedPDFs": 52,
+    "alreadyPresentPDFs": 0,
+    "skippedNonExam": 0,
+    "yearBasis": "exam",
+    "filenameMismatches": [
+      {
+        "file": "200502senmon.pdf",
+        "filenameSession": "2005-02",
+        "coverDate": "2005-03-01",
+        "pairedCoverDate": "2005-02-28",
+        "note": "基础科目封面为2005-02-28。同一场次跨2月28日与3月1日。"
+      }
+    ],
+    "yearNotOnSampledPage": [
+      "200309kiso.pdf",
+      "200309senmon.pdf",
+      "200409kiso.pdf",
+      "200409senmon.pdf"
+    ]
   }
 }

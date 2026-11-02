@@ -31462,6 +31462,1250 @@
       "sourceNote": "用户Google Drive“过去问／东北大学”原件，完整PDF字节保持。paperYear、examYear、examDates、admissionYears只取封面，不从文件名推断。阅读从PDF第1页打开。 封面为東北大学機械系大学院入試出題範囲（２０２６年春季実施），1页出题范围，不是试题，也不是解答。封面未印公历日，不编examDates。封面写「機械系」，未写「機械系4専攻」。封面未印「工学研究科」，按云盘文件夹归在工学研究科下。"
     },
     {
+      "id": "tohoku-ee-2003-09",
+      "universityId": "tohoku",
+      "title": "2003年9月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（抽查页眉未印実施年月与専攻名）",
+      "paperYear": 2003,
+      "yearBasis": "exam",
+      "yearEvidence": "source-folder",
+      "originalYear": "2003年9月",
+      "examYear": 2003,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/debfbbf2f48dd3d2a0c95e7197b1868a0ba5acb5f54235facb8f4a0555d6e36e.pdf",
+          "originalName": "200309kiso.pdf",
+          "sha256": "debfbbf2f48dd3d2a0c95e7197b1868a0ba5acb5f54235facb8f4a0555d6e36e",
+          "byteSize": 305280,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200309kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/dab6a1087ef95290be65e585babe2c6c5b269de6d66e19113b11ec830b13589c.pdf",
+          "originalName": "200309senmon.pdf",
+          "sha256": "dab6a1087ef95290be65e585babe2c6c5b269de6d66e19113b11ec830b13589c",
+          "byteSize": 381516,
+          "pages": 11,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200309senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。抽查基础科目与专业科目第1页均为問題，页眉和页脚未见実施年月、入学年度或専攻名。场次保留来源文件名200309（2003年9月），不编examDates，yearEvidence为source-folder，不把文件名写成封面原文。研究科按来源文件夹归入工学研究科。基礎科目与専門科目分册，kind为question。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2004-09",
+      "universityId": "tohoku",
+      "title": "2004年9月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（抽查页眉未印実施年月与専攻名）",
+      "paperYear": 2004,
+      "yearBasis": "exam",
+      "yearEvidence": "source-folder",
+      "originalYear": "2004年9月",
+      "examYear": 2004,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9263f49b835da279f092ebe523f8405adb5ee2dfa8160ee01ab4f7bd5a9bbcf8.pdf",
+          "originalName": "200409kiso.pdf",
+          "sha256": "9263f49b835da279f092ebe523f8405adb5ee2dfa8160ee01ab4f7bd5a9bbcf8",
+          "byteSize": 264011,
+          "pages": 11,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200409kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/571150ca1d6bbc962f664346b2a4713f19572759e5461b28658d5e591d417c73.pdf",
+          "originalName": "200409senmon.pdf",
+          "sha256": "571150ca1d6bbc962f664346b2a4713f19572759e5461b28658d5e591d417c73",
+          "byteSize": 328306,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200409senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。抽查基础科目与专业科目第1页均为問題，页眉和页脚未见実施年月、入学年度或専攻名。场次保留来源文件名200409（2004年9月），不编examDates，yearEvidence为source-folder，不把文件名写成封面原文。研究科按来源文件夹归入工学研究科。基礎科目与専門科目分册，kind为question。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2005-02",
+      "universityId": "tohoku",
+      "title": "2005年2月・3月実施 · 電気系・物理情報系群",
+      "graduateSchool": "工学研究科",
+      "department": "電気系・物理情報系群",
+      "selectionName": "大学院入学試験（平成17年度電気系・物理情報系群）",
+      "paperYear": 2005,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成17年度",
+      "examYear": 2005,
+      "examDates": [
+        "2005-02-28",
+        "2005-03-01"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd.pdf",
+          "originalName": "200502kiso.pdf",
+          "sha256": "820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd",
+          "byteSize": 293707,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200502kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f98feda7a9db74cc7f77734a5743cd83b428d6756cae26a0fe4f04c8fd667772.pdf",
+          "originalName": "200502senmon.pdf",
+          "sha256": "f98feda7a9db74cc7f77734a5743cd83b428d6756cae26a0fe4f04c8fd667772",
+          "byteSize": 381300,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200502senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。paperYear、examYear按封面公历实施年，yearBasis为exam。封面印平成17年度，未印「N年4月入学」，不写admissionYears。封面印電気系・物理情報系群和大学院入学試験問題用紙，抽查可见范围没有電気・通信工学専攻或電子工学専攻，不补写。基础科目封面日期为2005年2月28日；专业科目封面日期为2005年3月1日，与文件名200502senmon.pdf的月份不一致，以封面日期为准，两册仍是同一场。研究科名称封面未印，按来源文件夹归入工学研究科。阅读从PDF第1页打开。未做逐题拆分。各分册实施日：200502kiso.pdf 2005-02-28、200502senmon.pdf 2005-03-01。"
+    },
+    {
+      "id": "tohoku-ee-2005-08",
+      "universityId": "tohoku",
+      "title": "2005年8月実施 · 電気・通信工学専攻／電子工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "電気・通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（平成17年度）",
+      "paperYear": 2005,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成17年度",
+      "examYear": 2005,
+      "examDates": [
+        "2005-08-29",
+        "2005-08-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0b8a8d25578489b9aeff9cb490b566c707c2741bde495c122da5a199a15338f5.pdf",
+          "originalName": "200508kiso.pdf",
+          "sha256": "0b8a8d25578489b9aeff9cb490b566c707c2741bde495c122da5a199a15338f5",
+          "byteSize": 1072232,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200508kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/109c90211d5a040ef67cc9345231ec721eb1c0dd404b003d2972451877c882fd.pdf",
+          "originalName": "200508senmon.pdf",
+          "sha256": "109c90211d5a040ef67cc9345231ec721eb1c0dd404b003d2972451877c882fd",
+          "byteSize": 1259089,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200508senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。paperYear、examYear按封面公历实施年，yearBasis为exam。封面印平成17年度和大学院工学研究科電気・通信工学専攻、電子工学専攻。未印「N年4月入学」，不写admissionYears。情報科学研究科一行不在本次抽查可见范围内，不补写。阅读从PDF第1页打开。未做逐题拆分。各分册实施日：200508kiso.pdf 2005-08-29、200508senmon.pdf 2005-08-30。"
+    },
+    {
+      "id": "tohoku-ee-2006-02",
+      "universityId": "tohoku",
+      "title": "2006年2月実施 · 電気・通信工学専攻／電子工学専攻（封面列情報・生命系群）",
+      "graduateSchool": "工学研究科",
+      "department": "電気・通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面列情報科学研究科情報・生命系群（物理・情報系））",
+      "paperYear": 2006,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2006年",
+      "examYear": 2006,
+      "examDates": [
+        "2006-02-27",
+        "2006-02-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/efa805faffd6d13291e30679d5950c45e624b77becac1c4d2949e77e6fe6e719.pdf",
+          "originalName": "200602kiso.pdf",
+          "sha256": "efa805faffd6d13291e30679d5950c45e624b77becac1c4d2949e77e6fe6e719",
+          "byteSize": 656309,
+          "pages": 11,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200602kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8b8df644a953e6a0f3388525687b1ff469b06e4fe089ac5d5319a70d0f7bb9ee.pdf",
+          "originalName": "200602senmon.pdf",
+          "sha256": "8b8df644a953e6a0f3388525687b1ff469b06e4fe089ac5d5319a70d0f7bb9ee",
+          "byteSize": 784691,
+          "pages": 15,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200602senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。paperYear、examYear按封面公历实施年，yearBasis为exam，不写admissionYears。封面印大学院工学研究科電気・通信工学専攻、電子工学専攻，并列大学院情報科学研究科情報・生命系群（物理・情報系）。情報・生命系群不是专攻名，不另建入口。未印平成年度和入学年月。阅读从PDF第1页打开。未做逐题拆分。各分册实施日：200602kiso.pdf 2006-02-27、200602senmon.pdf 2006-02-28。"
+    },
+    {
+      "id": "tohoku-ee-2006-08",
+      "universityId": "tohoku",
+      "title": "2006年8月実施 · 電気・通信工学専攻／電子工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "電気・通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（平成18年度）",
+      "paperYear": 2006,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成18年度",
+      "examYear": 2006,
+      "examDates": [
+        "2006-08-28",
+        "2006-08-29"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/01f4052c1c664a0b92b5594e77a11bd1fe44b5d46899d5303964edbf22fae110.pdf",
+          "originalName": "200608kiso.pdf",
+          "sha256": "01f4052c1c664a0b92b5594e77a11bd1fe44b5d46899d5303964edbf22fae110",
+          "byteSize": 983744,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200608kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af.pdf",
+          "originalName": "200608senmon.pdf",
+          "sha256": "279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af",
+          "byteSize": 1163465,
+          "pages": 17,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200608senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。paperYear、examYear按封面公历实施年，yearBasis为exam。封面印平成18年度和大学院工学研究科電気・通信工学専攻、電子工学専攻。未印「N年4月入学」，不写admissionYears。阅读从PDF第1页打开。未做逐题拆分。各分册实施日：200608kiso.pdf 2006-08-28、200608senmon.pdf 2006-08-29。"
+    },
+    {
+      "id": "tohoku-ee-2007-02",
+      "universityId": "tohoku",
+      "title": "2007年2月実施 · 電気・通信工学専攻／電子工学専攻（封面列情報・生命系群）",
+      "graduateSchool": "工学研究科",
+      "department": "電気・通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面列情報科学研究科情報・生命系群（物理・情報系））",
+      "paperYear": 2007,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2007年",
+      "examYear": 2007,
+      "examDates": [
+        "2007-02-27",
+        "2007-02-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b0e5cc673625073b488e14bcf92b200bb1e4fc4ec5fe601da7959c65818b5de0.pdf",
+          "originalName": "200702kiso.pdf",
+          "sha256": "b0e5cc673625073b488e14bcf92b200bb1e4fc4ec5fe601da7959c65818b5de0",
+          "byteSize": 674507,
+          "pages": 11,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200702kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e17c9081b7c3fc587a734d4e3f0fd4facc49ed7259beeaa4cdf2b6599c2b80b4.pdf",
+          "originalName": "200702senmon.pdf",
+          "sha256": "e17c9081b7c3fc587a734d4e3f0fd4facc49ed7259beeaa4cdf2b6599c2b80b4",
+          "byteSize": 843738,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200702senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。paperYear、examYear按封面公历实施年，yearBasis为exam，不写admissionYears。封面印大学院工学研究科電気・通信工学専攻、電子工学専攻，并列大学院情報科学研究科情報・生命系群（物理・情報系）。抽查可见范围止于情報・生命系群，未见医工学研究科一行，不补写。情報・生命系群不是专攻名，不另建入口。阅读从PDF第1页打开。未做逐题拆分。各分册实施日：200702kiso.pdf 2007-02-27、200702senmon.pdf 2007-02-28。"
+    },
+    {
+      "id": "tohoku-ee-2007-08",
+      "universityId": "tohoku",
+      "title": "2007年8月実施 · 電気・通信工学専攻／電子工学専攻",
+      "graduateSchool": "工学研究科",
+      "department": "電気・通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（平成19年）",
+      "paperYear": 2007,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成19年",
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-29",
+        "2007-08-30"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d4578efd0d8813d0bb872df190036fd31d3dffe98745c36614549042c59be621.pdf",
+          "originalName": "200708kiso.pdf",
+          "sha256": "d4578efd0d8813d0bb872df190036fd31d3dffe98745c36614549042c59be621",
+          "byteSize": 409030,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200708kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a939dfe143e9039d94d219ed655ee3c30f4ff9952fc714fe23c89d7d92e7921e.pdf",
+          "originalName": "200708senmon.pdf",
+          "sha256": "a939dfe143e9039d94d219ed655ee3c30f4ff9952fc714fe23c89d7d92e7921e",
+          "byteSize": 507610,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200708senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。paperYear、examYear按封面公历实施年，yearBasis为exam。封面印平成19年8月29日、8月30日和大学院工学研究科電気・通信工学専攻、電子工学専攻。未单列「平成19年度」，originalYear记封面的平成19年。未印「N年4月入学」，不写admissionYears。阅读从PDF第1页打开。未做逐题拆分。各分册实施日：200708kiso.pdf 2007-08-29、200708senmon.pdf 2007-08-30。"
+    },
+    {
+      "id": "tohoku-ee-2008-02",
+      "universityId": "tohoku",
+      "title": "2008年2月実施 · 電気・通信工学専攻／電子工学専攻（封面列情報・生命系群・医工学電気工学系）",
+      "graduateSchool": "工学研究科",
+      "department": "電気・通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面列情報科学研究科情報・生命系群（物理・情報系）・医工学研究科工学系コース電気工学系）",
+      "paperYear": 2008,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2008年",
+      "examYear": 2008,
+      "examDates": [
+        "2008-02-27",
+        "2008-02-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4cb954f572b771bb9933db193917f04e813836bf53b147b4de6aba985ef81eb7.pdf",
+          "originalName": "200802kiso.pdf",
+          "sha256": "4cb954f572b771bb9933db193917f04e813836bf53b147b4de6aba985ef81eb7",
+          "byteSize": 430881,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200802kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4e634d5ee2d544d64109a2e28650c585ba96e838174a8bfc531af4c73a0c9ac1.pdf",
+          "originalName": "200802senmon.pdf",
+          "sha256": "4e634d5ee2d544d64109a2e28650c585ba96e838174a8bfc531af4c73a0c9ac1",
+          "byteSize": 458060,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200802senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。paperYear、examYear按封面公历实施年，yearBasis为exam，不写admissionYears。封面印大学院工学研究科電気・通信工学専攻、電子工学専攻，并列大学院情報科学研究科情報・生命系群（物理・情報系），以及大学院医工学研究科工学系コース電気工学系。医工学行印電気工学系，不是2023年以降封面的電気・情報系。情報・生命系群和医工学研究科都不另建入口。阅读从PDF第1页打开。未做逐题拆分。各分册实施日：200802kiso.pdf 2008-02-27、200802senmon.pdf 2008-02-28。"
+    },
+    {
+      "id": "tohoku-ee-2008-08",
+      "universityId": "tohoku",
+      "title": "2008年8月実施 · 電気・通信工学専攻／電子工学専攻（封面列情報科学研究科）",
+      "graduateSchool": "工学研究科",
+      "department": "電気・通信工学専攻／電子工学専攻",
+      "selectionName": "大学院入学試験（封面列情報科学研究科；平成20年）",
+      "paperYear": 2008,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "平成20年",
+      "examYear": 2008,
+      "examDates": [
+        "2008-08-25",
+        "2008-08-26"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8659354f4d724a21ad32fbec6b5d42e5292edf5e35ceea5db1ec46481a6ddc03.pdf",
+          "originalName": "200808kiso.pdf",
+          "sha256": "8659354f4d724a21ad32fbec6b5d42e5292edf5e35ceea5db1ec46481a6ddc03",
+          "byteSize": 245018,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200808kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6a2a4f8ea2c2c1de70cd2503cc44725838cb98f8051dca85d4c0353d2318afec.pdf",
+          "originalName": "200808senmon.pdf",
+          "sha256": "6a2a4f8ea2c2c1de70cd2503cc44725838cb98f8051dca85d4c0353d2318afec",
+          "byteSize": 331554,
+          "pages": 17,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200808senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。paperYear、examYear按封面公历实施年，yearBasis为exam。封面印平成20年8月25日、8月26日和大学院工学研究科電気・通信工学専攻、電子工学専攻，并列大学院情報科学研究科。系群括号和医工学行不在抽查可见范围内，不补写。未印「N年4月入学」，不写admissionYears。情報科学研究科不另建入口。阅读从PDF第1页打开。未做逐题拆分。各分册实施日：200808kiso.pdf 2008-08-25、200808senmon.pdf 2008-08-26。"
+    },
+    {
+      "id": "tohoku-ee-2009-03",
+      "universityId": "tohoku",
+      "title": "2009年3月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2009,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2009年",
+      "examYear": 2009,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/103ac33f9c9b0e711202dca57b48fa7da02477f37d2dc67bbede04fb56f1c320.pdf",
+          "originalName": "200903kiso.pdf",
+          "sha256": "103ac33f9c9b0e711202dca57b48fa7da02477f37d2dc67bbede04fb56f1c320",
+          "byteSize": 214934,
+          "pages": 11,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200903kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/39d3e536fbfb9f8f0c3feca44b4485fc9e91ebebd654c74deb04bbc81c067a3a.pdf",
+          "originalName": "200903senmon.pdf",
+          "sha256": "39d3e536fbfb9f8f0c3feca44b4485fc9e91ebebd654c74deb04bbc81c067a3a",
+          "byteSize": 263640,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200903senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2009年3月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2009-08",
+      "universityId": "tohoku",
+      "title": "2009年8月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2009,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2009年",
+      "examYear": 2009,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a514fb075d90dce3cfe96ba2965ecf9489d04a1aa1cd65703f6dd01645523006.pdf",
+          "originalName": "200908kiso.pdf",
+          "sha256": "a514fb075d90dce3cfe96ba2965ecf9489d04a1aa1cd65703f6dd01645523006",
+          "byteSize": 226822,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200908kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/999e7eb88178b4ae976c27d7b1ea6ed6c6465a88641b17f6678788dfa0ea67f2.pdf",
+          "originalName": "200908senmon.pdf",
+          "sha256": "999e7eb88178b4ae976c27d7b1ea6ed6c6465a88641b17f6678788dfa0ea67f2",
+          "byteSize": 292649,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/200908senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2009年8月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2010-03",
+      "universityId": "tohoku",
+      "title": "2010年3月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2010,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2010年",
+      "examYear": 2010,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/92665029cfe738e397e4d1cfb36aac2509cbcc5897a90ca9150b5a7d11b84bd9.pdf",
+          "originalName": "201003kiso.pdf",
+          "sha256": "92665029cfe738e397e4d1cfb36aac2509cbcc5897a90ca9150b5a7d11b84bd9",
+          "byteSize": 204419,
+          "pages": 9,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201003kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9faf41ae91f91f12229773509ffaef9aeec595c17df8bb5e6fbe7f91251a510d.pdf",
+          "originalName": "201003senmon.pdf",
+          "sha256": "9faf41ae91f91f12229773509ffaef9aeec595c17df8bb5e6fbe7f91251a510d",
+          "byteSize": 350574,
+          "pages": 16,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201003senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2010年3月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2010-08",
+      "universityId": "tohoku",
+      "title": "2010年8月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2010,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2010年",
+      "examYear": 2010,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a32efdf7fdd57f450596fc454dc965ca3d389d747d49633330d573ea23f432d1.pdf",
+          "originalName": "201008kiso.pdf",
+          "sha256": "a32efdf7fdd57f450596fc454dc965ca3d389d747d49633330d573ea23f432d1",
+          "byteSize": 17271705,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201008kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/83913478ddc0118a6f04163ad294f6e0fe564143a55c6858fbb2dc9e2c5cbb48.pdf",
+          "originalName": "201008senmon.pdf",
+          "sha256": "83913478ddc0118a6f04163ad294f6e0fe564143a55c6858fbb2dc9e2c5cbb48",
+          "byteSize": 22002427,
+          "pages": 16,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201008senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2010年8月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2011-02",
+      "universityId": "tohoku",
+      "title": "2011年2月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2011,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2011年",
+      "examYear": 2011,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c1ecf4b080768d1269320abe3267e6127512f41732987fc96f6f338fb95ea2f5.pdf",
+          "originalName": "201102kiso.pdf",
+          "sha256": "c1ecf4b080768d1269320abe3267e6127512f41732987fc96f6f338fb95ea2f5",
+          "byteSize": 1113471,
+          "pages": 11,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201102kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7399619fecf049433d99d266f4189a1ac58231fa7fe0c1e2538c9c750406982a.pdf",
+          "originalName": "201102senmon.pdf",
+          "sha256": "7399619fecf049433d99d266f4189a1ac58231fa7fe0c1e2538c9c750406982a",
+          "byteSize": 1004652,
+          "pages": 15,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201102senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2011年2月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2011-08",
+      "universityId": "tohoku",
+      "title": "2011年8月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2011,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2011年",
+      "examYear": 2011,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5e85a05346e69a48a3afd329004d8af1271ae2645a9f455f745ca50aa9c1ab7d.pdf",
+          "originalName": "201108kiso.pdf",
+          "sha256": "5e85a05346e69a48a3afd329004d8af1271ae2645a9f455f745ca50aa9c1ab7d",
+          "byteSize": 6130335,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201108kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/38aebf07add8ea908ecf79737250d039ff96db91d7445fd125e5cb77bbb36412.pdf",
+          "originalName": "201108senmon.pdf",
+          "sha256": "38aebf07add8ea908ecf79737250d039ff96db91d7445fd125e5cb77bbb36412",
+          "byteSize": 8618951,
+          "pages": 16,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201108senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2011年8月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2012-02",
+      "universityId": "tohoku",
+      "title": "2012年2月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2012,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2012年",
+      "examYear": 2012,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/56c17a5781491acd3d496d21b8e4ab6b562dcd00763092d49858694387af6c8a.pdf",
+          "originalName": "201202kiso.pdf",
+          "sha256": "56c17a5781491acd3d496d21b8e4ab6b562dcd00763092d49858694387af6c8a",
+          "byteSize": 367101,
+          "pages": 11,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201202kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/927421571d8f3459df26b6f18f34a8b10b1c76e52f280ade64b51ec23818d5bf.pdf",
+          "originalName": "201202senmon.pdf",
+          "sha256": "927421571d8f3459df26b6f18f34a8b10b1c76e52f280ade64b51ec23818d5bf",
+          "byteSize": 488270,
+          "pages": 17,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201202senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2012年2月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2012-08",
+      "universityId": "tohoku",
+      "title": "2012年8月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2012,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2012年",
+      "examYear": 2012,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bc59cee7ebdbd7f16101b07530bd28a346a768f8458bc1a9e767148369faea69.pdf",
+          "originalName": "201208kiso.pdf",
+          "sha256": "bc59cee7ebdbd7f16101b07530bd28a346a768f8458bc1a9e767148369faea69",
+          "byteSize": 5000414,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201208kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2451bff85f83b961a7266ec9bfe12b2f2ece31f85dd5e0957c40e5d66f63e22f.pdf",
+          "originalName": "201208senmon.pdf",
+          "sha256": "2451bff85f83b961a7266ec9bfe12b2f2ece31f85dd5e0957c40e5d66f63e22f",
+          "byteSize": 7125702,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201208senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2012年8月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2013-03",
+      "universityId": "tohoku",
+      "title": "2013年3月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2013,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2013年",
+      "examYear": 2013,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7aa0c607d14b2681142d796e1175a421476ec05b43d236490e2fdf70d21853c3.pdf",
+          "originalName": "201303kiso.pdf",
+          "sha256": "7aa0c607d14b2681142d796e1175a421476ec05b43d236490e2fdf70d21853c3",
+          "byteSize": 1127915,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201303kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/45c9a114a907873c864241a72123a46bd4a33a2d9c06b3943af39f0d9f5311bc.pdf",
+          "originalName": "201303senmon.pdf",
+          "sha256": "45c9a114a907873c864241a72123a46bd4a33a2d9c06b3943af39f0d9f5311bc",
+          "byteSize": 1866357,
+          "pages": 15,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201303senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2013年3月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2013-08",
+      "universityId": "tohoku",
+      "title": "2013年8月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2013,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2013年",
+      "examYear": 2013,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e597f900ff54844e3840c08fa5b0ff2ff45503fdbfce8207c4ee691431db380f.pdf",
+          "originalName": "201308kiso.pdf",
+          "sha256": "e597f900ff54844e3840c08fa5b0ff2ff45503fdbfce8207c4ee691431db380f",
+          "byteSize": 6752252,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201308kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/24ffcacada3ad9151fad9dad435b29ba4fbf09e457005b2438d4fffa748a8e72.pdf",
+          "originalName": "201308senmon.pdf",
+          "sha256": "24ffcacada3ad9151fad9dad435b29ba4fbf09e457005b2438d4fffa748a8e72",
+          "byteSize": 1241705,
+          "pages": 16,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201308senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2013年8月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2014-03",
+      "universityId": "tohoku",
+      "title": "2014年3月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2014,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2014年",
+      "examYear": 2014,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233.pdf",
+          "originalName": "201403kiso.pdf",
+          "sha256": "a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233",
+          "byteSize": 797738,
+          "pages": 10,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201403kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55.pdf",
+          "originalName": "201403senmon.pdf",
+          "sha256": "fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55",
+          "byteSize": 2018153,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201403senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2014年3月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2014-08",
+      "universityId": "tohoku",
+      "title": "2014年8月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2014,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2014年",
+      "examYear": 2014,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8286e34ea1f156f4ee7a75cc9e1bec53aac2c7281f933b44d87f801bbd9bd666.pdf",
+          "originalName": "201408kiso.pdf",
+          "sha256": "8286e34ea1f156f4ee7a75cc9e1bec53aac2c7281f933b44d87f801bbd9bd666",
+          "byteSize": 562035,
+          "pages": 13,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201408kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3c42ff1465d49065a8b6b17bee64dff5f20f19e62560d1c58cf2d846fbe5fb49.pdf",
+          "originalName": "201408senmon.pdf",
+          "sha256": "3c42ff1465d49065a8b6b17bee64dff5f20f19e62560d1c58cf2d846fbe5fb49",
+          "byteSize": 590422,
+          "pages": 16,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201408senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2014年8月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2015-03",
+      "universityId": "tohoku",
+      "title": "2015年3月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2015,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2015年",
+      "examYear": 2015,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bc7590cbf885346d155b4f9d7702bad5329aada31feb50d5878731dab50f7b51.pdf",
+          "originalName": "201503kiso.pdf",
+          "sha256": "bc7590cbf885346d155b4f9d7702bad5329aada31feb50d5878731dab50f7b51",
+          "byteSize": 202870,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201503kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ee57b408fea76d7b401b575fe89d6be0b2016ebae500c7ed2fffc4b00f982457.pdf",
+          "originalName": "201503senmon.pdf",
+          "sha256": "ee57b408fea76d7b401b575fe89d6be0b2016ebae500c7ed2fffc4b00f982457",
+          "byteSize": 250916,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201503senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2015年3月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2015-08",
+      "universityId": "tohoku",
+      "title": "2015年8月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2015,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2015年",
+      "examYear": 2015,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a8b9e6bafca7a6ac1c45c079c679e9f22994e37daed22297538b9386cc899118.pdf",
+          "originalName": "201508kiso.pdf",
+          "sha256": "a8b9e6bafca7a6ac1c45c079c679e9f22994e37daed22297538b9386cc899118",
+          "byteSize": 608885,
+          "pages": 11,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201508kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/997c9afd9cbeaec3cd1c32e1ad6ebd4d120d0a31c019d91ee893db588e1ccdd2.pdf",
+          "originalName": "201508senmon.pdf",
+          "sha256": "997c9afd9cbeaec3cd1c32e1ad6ebd4d120d0a31c019d91ee893db588e1ccdd2",
+          "byteSize": 767228,
+          "pages": 16,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201508senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2015年8月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2016-03",
+      "universityId": "tohoku",
+      "title": "2016年3月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2016,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2016年",
+      "examYear": 2016,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b361ffd8723ad56f00acc18ccbe25c3efc5f2a34085dbbf72850bd94897eb409.pdf",
+          "originalName": "201603kiso.pdf",
+          "sha256": "b361ffd8723ad56f00acc18ccbe25c3efc5f2a34085dbbf72850bd94897eb409",
+          "byteSize": 489221,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201603kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1b5aacce3807d65adb40a468388371f41121e646c29e25c190dadae81c9c7695.pdf",
+          "originalName": "201603senmon.pdf",
+          "sha256": "1b5aacce3807d65adb40a468388371f41121e646c29e25c190dadae81c9c7695",
+          "byteSize": 556809,
+          "pages": 14,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201603senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2016年3月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
+      "id": "tohoku-ee-2016-08",
+      "universityId": "tohoku",
+      "title": "2016年8月実施 · 基礎科目／専門科目",
+      "graduateSchool": "工学研究科",
+      "selectionName": "大学院入学試験（页眉未印専攻名）",
+      "paperYear": 2016,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "originalYear": "2016年",
+      "examYear": 2016,
+      "subjects": [
+        "基礎科目",
+        "専門科目"
+      ],
+      "files": [
+        {
+          "label": "基礎科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ea92a0d172d1e60c8b88e43d5ac29490fd0783d1d9528a09f0c3f1513f50cde3.pdf",
+          "originalName": "201608kiso.pdf",
+          "sha256": "ea92a0d172d1e60c8b88e43d5ac29490fd0783d1d9528a09f0c3f1513f50cde3",
+          "byteSize": 4928937,
+          "pages": 12,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201608kiso.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "専門科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/57088127f7e696191a57603146ee93ec12bca79ea2f4b41cb5276fda031c570a.pdf",
+          "originalName": "201608senmon.pdf",
+          "sha256": "57088127f7e696191a57603146ee93ec12bca79ea2f4b41cb5276fda031c570a",
+          "byteSize": 6584248,
+          "pages": 19,
+          "sourcePaths": [
+            "东北大学/工学研究科/电气情报/201608senmon.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "tohoku-ee-archive-20261102",
+      "sourceNote": "用户提供的东北大学电气情报过去问整卷，PDF字节原样保存。基础科目页眉印「2016年8月実施」，是問題册，没有公历日，不编examDates。paperYear与examYear用该实施年，yearBasis为exam，不写admissionYears。抽查页眉未印専攻名，不沿用2008年以前的電気・通信工学専攻／電子工学専攻，也不写成2023年以降的電気エネルギーシステム専攻／通信工学専攻／電子工学専攻。研究科按来源文件夹归入工学研究科。基礎科目与専門科目按来源文件名分册。专业科目页眉另核对为「2016年8月実施」、問題1電気工学。阅读从PDF第1页打开。未做逐题拆分。"
+    },
+    {
       "id": "tohoku-ee-2023-08",
       "universityId": "tohoku",
       "title": "2023年8月実施 · 電気エネルギーシステム／通信工学／電子工学（封面列情報・生命系群）",
@@ -38910,7 +40154,7 @@
       "text": "本校42组／30个PDF、1183页，无解答。システム情報科学府修士課程入学試験10册：情報理工学専攻与電気電子工学専攻各令和3–7年度入学（2021–2025），实施日按封面为2020-12-05至06、2021-08-30至31、2022-08-29至30、2023-08-29至30、2024-09-10至11。paperYear按封面令和入学年度，examYear按实施年；R03是2021年入学、2020年12月实施。第1页为封面，其后到专门科目前是两专攻共用的数学（同年两册该段提取文本一致），专门科目从R03第9页、R04第7页、R05第8页、R06第9页、R07第8页打开，整册不拆。R04专门科目为扫描图；R06封面与数学页文字层乱码，封面经渲染核对。另有理工学専攻合册6份：2023–2025年度的2月与9月，封面只印理工学専攻（博士前期／修士・博士後期・前後期共通）和理工基礎题群，未印学府名，不写成総合理工学府，也不把题群当成独立专攻。只为機械工学基礎、電気・電子工学基礎、情報学基礎设入口；化学基礎、数学基礎、物理学基礎、生物科学基礎留在原册。2025年2月册未见生物科学基礎页眉，2024年2月册未见物理学基礎页眉。2025年度9月、2月两册与已上线的上智大学问题册字节相同，不另存、不改上智记录。不声明其他年度或全校齐全。 2026-10-30补充历史整卷：电气电子方向现覆盖2008–2026入学年度；本批19份中5份与已有2021–2025年度PDF哈希一致，复用原记录，新增2008–2020及2026共14份、537页。2008年度合册保留電気電子システム工学専攻／電子デバイス工学専攻旧名称，英语部分为示例题；2009年度起封面为電気電子工学専攻。新增册从封面阅读，未做逐题拆分。"
     },
     "tohoku": {
-      "text": "本校84组／113个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。云盘119个PDF中入库118个路径、117个唯一PDF、871页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。2026-10-18补录原先排除的理学数学、理学物理和土木，新增17组、31个唯一PDF、207页。误放在情报科学／数学的「东北 理学 募集.pdf」是2027年度理学研究科自己推薦入学試験学生募集要項，不是试题，不建真题入口，也不入库。yearBasis为mixed：封面印「〇〇年度」时paperYear用该年度（令和N＝2018+N，平成N＝1988+N），只有封面写明「N年4月入学」才记admissionYears；只印实施日或页眉「YYYY年M月」时paperYear与examYear用该年，不写admissionYears，也不从文件名补年度。没有公历日就不写examDates。応用物理学2014—2020年8月按实施日；文件名带R6的出题意图封面是令和7年度。机械系4専攻三册按令和年度整册收录，封面只显示数学A；2026年春季1页是出题范围。电气情报按封面公历年，2024年8月起基础与专门合一册；2023年8月和2024年2月封面列情報科学研究科情報・生命系群，其后没有。量子年度以封面为准，允许与文件名错开。情報科学（数学）按云盘文件夹归类，封面无研究科／专攻名，不声称属于情報科学研究科的某个专攻；2025年度只有出題意図・解答例，没有试题，不补。理学数学按封面令和年度，同一日的共通、选择、英语合成一组；令和7年度附出題意図，令和8年度附出題意図・講評，都不是解答。理学物理按封面令和年度，令和3年度封面为两日，其后封面只印一日；令和7、令和8年度的出題意図附在同年试题上。土木封面只印「YYYY春」或「YYYY秋」和「基礎科目」，不印専攻名，不写admissionYears，也不写examDates。不声明其他年度或全校齐全。",
+      "text": "本校110组／165个有封面年度或封面年月的PDF，另4个応用物理学册没有封面年度，只放在学校说明里。2026-11-02补录电气情报2003–2016，新增26组、52个唯一PDF、681页。此前84组／113个有封面年度的PDF、117个唯一PDF、871页保持原记录。云盘119个PDF中入库118个路径、117个唯一PDF、871页；2508comments.pdf与「2508comments (1).pdf」字节相同，两个路径都保留。2026-10-18补录原先排除的理学数学、理学物理和土木，新增17组、31个唯一PDF、207页。误放在情报科学／数学的「东北 理学 募集.pdf」是2027年度理学研究科自己推薦入学試験学生募集要項，不是试题，不建真题入口，也不入库。yearBasis为mixed：封面印「〇〇年度」时paperYear用该年度（令和N＝2018+N，平成N＝1988+N），只有封面写明「N年4月入学」才记admissionYears；只印实施日或页眉「YYYY年M月」时paperYear与examYear用该年，不写admissionYears，也不从文件名补年度。没有公历日就不写examDates。応用物理学2014—2020年8月按实施日；文件名带R6的出题意图封面是令和7年度。机械系4専攻三册按令和年度整册收录，封面只显示数学A；2026年春季1页是出题范围。电气情报按封面公历年，2024年8月起基础与专门合一册；2023年8月和2024年2月封面列情報科学研究科情報・生命系群，其后没有。 2026-11-02补录2003–2016共26组。2005年8月至2008年封面専攻名为電気・通信工学専攻／電子工学専攻。2005年2月封面印電気系・物理情報系群，专业册日期为2005年3月1日，文件名仍为200502senmon.pdf。2006年2月、2007年2月、2008年2月封面列情報科学研究科情報・生命系群（物理・情報系）；2008年2月另列医工学研究科工学系コース電気工学系，不是2023年以降的電気・情報系。2008年8月封面列情報科学研究科，系群括号未写入抽查可见范围。2009–2016抽查页眉只印「YYYY年M月実施」和問題科目，未印専攻名，不补写专攻，也没有公历日。2003年9月、2004年9月抽查第1页为問題，页眉页脚未见実施年月或専攻名，场次按来源文件名，yearEvidence为source-folder。基礎科目／専門科目分册，kind为question。未做逐题拆分。量子年度以封面为准，允许与文件名错开。情報科学（数学）按云盘文件夹归类，封面无研究科／专攻名，不声称属于情報科学研究科的某个专攻；2025年度只有出題意図・解答例，没有试题，不补。理学数学按封面令和年度，同一日的共通、选择、英语合成一组；令和7年度附出題意図，令和8年度附出題意図・講評，都不是解答。理学物理按封面令和年度，令和3年度封面为两日，其后封面只印一日；令和7、令和8年度的出題意図附在同年试题上。土木封面只印「YYYY春」或「YYYY秋」和「基礎科目」，不印専攻名，不写admissionYears，也不写examDates。不声明其他年度或全校齐全。",
       "supplements": [
         {
           "label": "応用物理学（封面无年度，文件名2024秋季大学院入試_応物.pdf）",
