@@ -2,16 +2,17 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const data=require('../past-papers-data.js'),manifest=require('../assets/past-papers/tohoku-import-manifest.json'),core=require('../past-papers-core.js'),catalog=require('../campus-map-data.js');
 const papers=data.papers.filter(p=>p.universityId==='tohoku'),root=path.join(__dirname,'..');
 const find=id=>papers.find(p=>p.id===id);
-test('Tohoku stores 117 original PDFs, keeps undated booklets out of the year catalog, and does not rewrite other schools',()=>{
- assert.equal(papers.length,84);assert.equal(manifest.files.length,117);assert.equal(manifest.sourceFiles,118);assert.equal(manifest.uniquePDFs,117);assert.equal(manifest.duplicateByteCopies,1);assert.equal(manifest.groups,84);assert.equal(manifest.catalogPDFs,113);assert.equal(manifest.questionPDFs,105);assert.equal(manifest.answerPDFs,2);assert.equal(manifest.otherPDFs,6);assert.equal(manifest.undatedPDFs,4);assert.equal(manifest.totalPages,871);assert.equal(manifest.yearBasis,'mixed');assert.deepEqual(manifest.sharedWithExistingSchools,[]);
+test('Tohoku stores 169 original PDFs, keeps undated booklets out of the year catalog, and does not rewrite other schools',()=>{
+ assert.equal(papers.length,110);assert.equal(manifest.files.length,169);assert.equal(manifest.sourceFiles,170);assert.equal(manifest.uniquePDFs,169);assert.equal(manifest.duplicateByteCopies,1);assert.equal(manifest.groups,110);assert.equal(manifest.catalogPDFs,165);assert.equal(manifest.questionPDFs,157);assert.equal(manifest.answerPDFs,2);assert.equal(manifest.otherPDFs,6);assert.equal(manifest.undatedPDFs,4);assert.equal(manifest.totalPages,1552);assert.equal(manifest.yearBasis,'mixed');assert.deepEqual(manifest.sharedWithExistingSchools,[]);
  assert.equal(manifest.backfill.addedGroups,17);assert.equal(manifest.backfill.addedUniquePDFs,31);assert.equal(manifest.backfill.addedPages,207);assert.equal(manifest.backfill.skippedNonExam,1);
- assert.equal(manifest.files.reduce((n,f)=>n+f.pages,0),871);
- assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,113);
+ assert.equal(manifest.eeBackfill.addedGroups,26);assert.equal(manifest.eeBackfill.addedUniquePDFs,52);assert.equal(manifest.eeBackfill.addedPages,681);assert.equal(manifest.eeBackfill.skippedNonExam,0);assert.equal(manifest.eeBackfill.alreadyPresentPDFs,0);
+ assert.equal(manifest.files.reduce((n,f)=>n+f.pages,0),1552);
+ assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,165);
  for(const f of manifest.files){const b=fs.readFileSync(path.join(root,f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.ok(f.sourcePaths.every(p=>p.startsWith('东北大学/')));}
- for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.ok(['academic','exam'].includes(p.yearBasis));assert.equal(p.yearEvidence,'cover');for(const f of p.files){assert.equal(f.startPage,1);assert.ok(f.startPage<=f.pages);}}
+ for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.ok(['academic','exam'].includes(p.yearBasis));assert.equal(p.yearEvidence,(p.id==='tohoku-ee-2003-09'||p.id==='tohoku-ee-2004-09')?'source-folder':'cover');for(const f of p.files){assert.equal(f.startPage,1);assert.ok(f.startPage<=f.pages);}}
  const supplements=data.schoolNotes.tohoku.supplements;assert.deepEqual(supplements.map(s=>s.originalName),['2024秋季大学院入試_応物.pdf','R3.pdf','R4.pdf','R5.pdf']);
  assert.ok(supplements.every(s=>!papers.some(p=>p.files.some(f=>f.sha256===s.sha256))));
- assert.match(data.schoolNotes.tohoku.text,/84组／113个有封面年度/);assert.match(data.schoolNotes.tohoku.text,/yearBasis为mixed/);assert.match(data.schoolNotes.tohoku.text,/按云盘文件夹归类，封面无研究科／专攻名/);assert.match(data.schoolNotes.tohoku.text,/不建真题入口/);
+ assert.match(data.schoolNotes.tohoku.text,/110组／165个有封面年度/);assert.match(data.schoolNotes.tohoku.text,/84组／113个有封面年度/);assert.match(data.schoolNotes.tohoku.text,/yearBasis为mixed/);assert.match(data.schoolNotes.tohoku.text,/按云盘文件夹归类，封面无研究科／专攻名/);assert.match(data.schoolNotes.tohoku.text,/不建真题入口/);
  assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='kobe-ee-backfill-20261101'&&p.sourceBatch!=='kyushu-ee-archive-20261030'&&p.sourceBatch!=='sophia-ee-archive-20261101'&&p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='tohoku'&&p.universityId!=='keio'&&!p.id.startsWith('tus-bf-')))).digest('hex'),'7d362f243a81548f09ad8c640b92376aa4248deeaa5c79b76cdcdd0a21de70e1');
  const notes={...data.schoolNotes};delete notes.kyushu;delete notes.tohoku;delete notes.keio;delete notes.kobe;delete notes.sophia;assert.equal(crypto.createHash('sha256').update(JSON.stringify(notes)).digest('hex'),'2bfc7e75b33b8a87471ee7e7bbf7a8de310e5a0bb2f6d2976371c27d5204ed8e');
 });
@@ -64,4 +65,20 @@ test('Tohoku backfill adds science math, physics and civil from covers and skips
  assert.deepEqual(core.filter(papers,catalog.universities,{school:'tohoku',graduate:'理学研究科',department:'物理学専攻',year:'2021',query:''}).map(p=>p.id),['tohoku-sci-phys-2021']);
  assert.deepEqual(core.filter(papers,catalog.universities,{school:'tohoku',graduate:'all',department:'土木',year:'2024',query:''}).map(p=>p.id).sort(),['tohoku-civil-2024-autumn','tohoku-civil-2024-spring']);
  assert.equal(core.filter(papers,catalog.universities,{school:'tohoku',graduate:'all',department:'all',year:'all',query:'募集要項'}).length,0);
+});
+test('Tohoku electrical backfill keeps 2003–2016 whole papers and the printed major names',()=>{
+ const added=papers.filter(p=>p.sourceBatch==='tohoku-ee-archive-20261102');
+ assert.equal(added.length,26);assert.equal(added.reduce((n,p)=>n+p.files.length,0),52);
+ assert.equal(added.reduce((n,p)=>n+p.files.reduce((m,f)=>m+f.pages,0),0),681);
+ for(const p of added){assert.equal(p.universityId,'tohoku');assert.equal(p.graduateSchool,'工学研究科');assert.equal(p.yearBasis,'exam');assert.equal(p.examYear,p.paperYear);assert.equal(p.admissionYears,undefined);assert.deepEqual(p.subjects,['基礎科目','専門科目']);assert.deepEqual(p.files.map(f=>f.kind),['question','question']);assert.deepEqual(p.files.map(f=>f.label),['基礎科目','専門科目']);assert.ok(p.files.every(f=>f.sourcePaths[0].startsWith('东北大学/工学研究科/电气情报/')));}
+ const feb=find('tohoku-ee-2005-02');assert.equal(feb.department,'電気系・物理情報系群');assert.deepEqual(feb.examDates,['2005-02-28','2005-03-01']);assert.match(feb.sourceNote,/2005年3月1日/);assert.match(feb.files[1].originalName,/200502senmon/);
+ const aug=find('tohoku-ee-2005-08');assert.equal(aug.department,'電気・通信工学専攻／電子工学専攻');assert.deepEqual(aug.examDates,['2005-08-29','2005-08-30']);assert.equal(aug.originalYear,'平成17年度');
+ const y08=find('tohoku-ee-2008-02');assert.match(y08.selectionName,/工学系コース電気工学系/);assert.match(y08.selectionName,/情報・生命系群（物理・情報系）/);assert.equal(y08.department,'電気・通信工学専攻／電子工学専攻');
+ const early=find('tohoku-ee-2003-09'),lateMonth=find('tohoku-ee-2009-03'),kept=find('tohoku-ee-2023-08');
+ assert.equal(early.yearEvidence,'source-folder');assert.equal(early.examDates,undefined);assert.equal(early.department,undefined);
+ assert.equal(lateMonth.examDates,undefined);assert.equal(lateMonth.department,undefined);assert.equal(lateMonth.paperYear,2009);assert.match(lateMonth.sourceNote,/不沿用2008年以前/);
+ assert.equal(find('tohoku-ee-2016-08').paperYear,2016);assert.match(find('tohoku-ee-2016-08').sourceNote,/2016年8月実施/);
+ assert.deepEqual(kept.files.map(f=>f.sha256),['a51d81c5d43183790946e82bd7597df39380869469b53ac3bede2de0779142a5','4775def7406b16e2f9ac1709d48a36337f09e64a9c080173ff7b4b050fa3f547']);
+ assert.equal(core.filter(papers,catalog.universities,{school:'tohoku',graduate:'工学研究科',department:'電気・通信工学専攻／電子工学専攻',year:'2006',query:'2月'}).map(p=>p.id).join(),'tohoku-ee-2006-02');
+ assert.equal(papers.some(p=>p.id.startsWith('tohoku-ee-')&&p.files.some(f=>f.kind!=='question'&&p.sourceBatch==='tohoku-ee-archive-20261102')),false);
 });
