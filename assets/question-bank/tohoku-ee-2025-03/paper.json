@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "id": "tohoku-ee-2025-03",
+  "title": "东北大学 · 2025年3月实施 · 基础专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tohoku-ee-2025-03",
+    "schoolId": "tohoku",
+    "school": "東北大学",
+    "graduate": "工学研究科",
+    "major": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+    "year": 2025,
+    "yearBasis": "exam",
+    "subject": "基礎専門科目",
+    "originalSubject": "基礎専門科目",
+    "originalName": "202503_kisosenmon.pdf",
+    "pdf": "assets/past-papers/documents/fa736b254a51cffa44e9776e989780bb8fbb78199c4d96654093c81b9a5a7c0d.pdf",
+    "sha256": "fa736b254a51cffa44e9776e989780bb8fbb78199c4d96654093c81b9a5a7c0d",
+    "pageCount": 19,
+    "note": "目录 yearBasis=exam，year 为实施年。2024年8月起基礎与専門印在同一册「基礎専門科目」。PDF 第1页是工学研究科三专攻与医工学研究科工学系コース電気・情報系的封面（6题中选3），作共用说明。PDF 第2页是大学院情報科学研究科情報・生命系群的另一封面（时刻与选考题数不同，6题中选2），整页排除，不计入大题。其后問題1–6为同一册共用试题，按卷面大题收录；和文页与英文页同属一道大题，小问不拆。扫描件无文字层、无页面旋转。未做 2003–2016。 第1页实施日 2025-03-04 9:40–12:10，与目录 examDates 一致。科目为卷面「基礎専門科目」。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/tohoku-ee-2025-03/common-01.png",
+      "page": 1,
+      "box": [
+        6.8,
+        21.8,
+        587.5,
+        679.8
+      ],
+      "width": 1452,
+      "height": 1646,
+      "label": "封面：2025年3月4日 基础专门科目、三专攻与医工学、6题选3",
+      "sha256": "8cf4d89b39d05eb5b440fd179b70ac1c1b10ff24bd62bb9e5356cfc0a8d0975f"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tohoku-ee-2025-03-q1",
+      "number": "問題1",
+      "title": "电磁气学",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "原卷大题印作「問題1 電磁気学」。本大题共 3 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q1-01.png",
+          "page": 3,
+          "box": [
+            73.5,
+            42.2,
+            519.5,
+            753.2
+          ],
+          "width": 1116,
+          "height": 1778,
+          "label": "問題1 電磁気学 第1页（PDF 第3页）",
+          "sha256": "02a40eef1f9013610afaabfe96bfd395964271c61d49ed33df3a82e9deb92db1"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q1-02.png",
+          "page": 4,
+          "box": [
+            73.2,
+            42.5,
+            521.8,
+            753.5
+          ],
+          "width": 1122,
+          "height": 1778,
+          "label": "問題1 電磁気学 第2页（PDF 第4页）",
+          "sha256": "c6116137021cb02b0a791361a45dd6c6cb94e3b4769c698742bf5e86c2a31e68"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q1-03.png",
+          "page": 5,
+          "box": [
+            73.2,
+            42.5,
+            448.2,
+            452.8
+          ],
+          "width": 938,
+          "height": 1026,
+          "label": "問題1 電磁気学 第3页（PDF 第5页）",
+          "sha256": "aa05131ea379e1361bfde7b6db5078bdf3e2a5225a2c57779ae1c0989133461e"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2025-03-q2",
+      "number": "問題2",
+      "title": "电气回路",
+      "titleKind": "editorial",
+      "topics": [
+        "電気回路"
+      ],
+      "summary": "原卷大题印作「問題2 電気回路」。本大题共 4 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q2-01.png",
+          "page": 6,
+          "box": [
+            71.2,
+            44.5,
+            518.8,
+            674.5
+          ],
+          "width": 1119,
+          "height": 1576,
+          "label": "問題2 電気回路 第1页（PDF 第6页）",
+          "sha256": "0ef39b794aaf74950bff594ac6ff9b2e68527a93ab3bc4ef1d8063849ade45b0"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q2-02.png",
+          "page": 7,
+          "box": [
+            72.5,
+            44.8,
+            513.2,
+            340.2
+          ],
+          "width": 1102,
+          "height": 739,
+          "label": "問題2 電気回路 第2页（PDF 第7页）",
+          "sha256": "ac4ec7c32d8cd7f3f572120c6ca663cf460b36583f176a5bec0bc8a967bfe140"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q2-03.png",
+          "page": 8,
+          "box": [
+            73.5,
+            45.2,
+            520.2,
+            745.8
+          ],
+          "width": 1118,
+          "height": 1752,
+          "label": "問題2 電気回路 第3页（PDF 第8页）",
+          "sha256": "ad86f5df2cc6c020027b22b01048cdb563cd6131b212b35b9fcfcac45de89908"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q2-04.png",
+          "page": 9,
+          "box": [
+            72.5,
+            44.8,
+            512.8,
+            340.5
+          ],
+          "width": 1101,
+          "height": 740,
+          "label": "問題2 電気回路 第4页（PDF 第9页）",
+          "sha256": "72c7dbfd4fdb4f11fdbe1d09a3950f9729277384d6fd90932a9c634e014f8505"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2025-03-q3",
+      "number": "問題3",
+      "title": "计算机硬件",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機ハードウェア"
+      ],
+      "summary": "原卷大题印作「問題3 計算機ハードウェア」。本大题共 4 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q3-01.png",
+          "page": 10,
+          "box": [
+            73.5,
+            43.8,
+            519.8,
+            589.2
+          ],
+          "width": 1117,
+          "height": 1364,
+          "label": "問題3 計算機ハードウェア 第1页（PDF 第10页）",
+          "sha256": "07c5de816292f2af2bf7f84ab34d5f85fb9050a87ca888230deec2aa766f6700"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q3-02.png",
+          "page": 11,
+          "box": [
+            72.2,
+            43.5,
+            500.8,
+            742.8
+          ],
+          "width": 1072,
+          "height": 1749,
+          "label": "問題3 計算機ハードウェア 第2页（PDF 第11页）",
+          "sha256": "5bf558029311ed900904f5034d366ae636a16c8a566527473c9e065f0d61bfe3"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q3-03.png",
+          "page": 12,
+          "box": [
+            72.8,
+            43.8,
+            520.5,
+            727.8
+          ],
+          "width": 1120,
+          "height": 1711,
+          "label": "問題3 計算機ハードウェア 第3页（PDF 第12页）",
+          "sha256": "4af5673db9a69684c43ed5278afa9006edaa1c32cd99d32b61cfcd8a57a7796b"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q3-04.png",
+          "page": 13,
+          "box": [
+            74.5,
+            44.5,
+            502.2,
+            742.8
+          ],
+          "width": 1070,
+          "height": 1746,
+          "label": "問題3 計算機ハードウェア 第4页（PDF 第13页）",
+          "sha256": "3a1a945c23fbcc3d80814c408e30a327ebc30a1bbcd558db64b38d0d7a97512e"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2025-03-q4",
+      "number": "問題4",
+      "title": "计算机软件",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機ソフトウェア"
+      ],
+      "summary": "原卷大题印作「問題4 計算機ソフトウェア」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q4-01.png",
+          "page": 14,
+          "box": [
+            72.8,
+            44.5,
+            519.8,
+            651.2
+          ],
+          "width": 1118,
+          "height": 1517,
+          "label": "問題4 計算機ソフトウェア 第1页（PDF 第14页）",
+          "sha256": "fb35218a2ccc928451893087edd55b50f100436077b292bbacceb76cb646d747"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q4-02.png",
+          "page": 15,
+          "box": [
+            73.8,
+            44.8,
+            520.8,
+            667.5
+          ],
+          "width": 1118,
+          "height": 1557,
+          "label": "問題4 計算機ソフトウェア 第2页（PDF 第15页）",
+          "sha256": "ad68fc24042724e91e6d0e53bda8f61decaec6a3639c1330749849fe60eaf3f7"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2025-03-q5",
+      "number": "問題5",
+      "title": "物理",
+      "titleKind": "editorial",
+      "topics": [
+        "物理"
+      ],
+      "summary": "原卷大题印作「問題5 物理」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q5-01.png",
+          "page": 16,
+          "box": [
+            73.2,
+            44.2,
+            521.8,
+            653.5
+          ],
+          "width": 1122,
+          "height": 1524,
+          "label": "問題5 物理 第1页（PDF 第16页）",
+          "sha256": "2e4529bea7b8726057f13a4000e8c86b34775b5ce64f105dbb3a5edc8d95d300"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q5-02.png",
+          "page": 17,
+          "box": [
+            73.8,
+            43.8,
+            520.8,
+            747.8
+          ],
+          "width": 1118,
+          "height": 1761,
+          "label": "問題5 物理 第2页（PDF 第17页）",
+          "sha256": "76a111971a839c18dc97d65718451fd815ba996accbb1dca03729c108e71d63d"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2025-03-q6",
+      "number": "問題6",
+      "title": "数学基础",
+      "titleKind": "editorial",
+      "topics": [
+        "数学基礎"
+      ],
+      "summary": "原卷大题印作「問題6 数学基礎」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q6-01.png",
+          "page": 18,
+          "box": [
+            72.8,
+            44.2,
+            517.2,
+            604.5
+          ],
+          "width": 1111,
+          "height": 1402,
+          "label": "問題6 数学基礎 第1页（PDF 第18页）",
+          "sha256": "db8207d70a8a5bff87478f15cf5ecfcffc09e205d386bbe55089f7ede3c0190f"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2025-03/tohoku-ee-2025-03-q6-02.png",
+          "page": 19,
+          "box": [
+            73.2,
+            44.2,
+            519.8,
+            630.2
+          ],
+          "width": 1117,
+          "height": 1466,
+          "label": "問題6 数学基礎 第2页（PDF 第19页）",
+          "sha256": "683ab112931ae49585eeb7a8e7c82c33dc88eb8d6d18ac4d52bc01dfc1f33227"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "本页是大学院情報科学研究科情報・生命系群封面（2025-03-04 9:40–11:20，6题中选2），与第1页工学研究科三专攻封面（9:40–12:10，6题中选3）不是同一说明。不是本专攻题面，整页排除。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tohoku-ee-2025-03-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tohoku-ee-2025-03-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tohoku-ee-2025-03-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tohoku-ee-2025-03-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "tohoku-ee-2025-03-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tohoku-ee-2025-03-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "tohoku-ee-2025-03-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "tohoku-ee-2025-03-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "tohoku-ee-2025-03-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "tohoku-ee-2025-03-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "tohoku-ee-2025-03-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "tohoku-ee-2025-03-q4"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "tohoku-ee-2025-03-q4"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [
+        "tohoku-ee-2025-03-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [
+        "tohoku-ee-2025-03-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [
+        "tohoku-ee-2025-03-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [
+        "tohoku-ee-2025-03-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白。本页只属于所列大题或封面说明，不另计题。",
+      "reviewed": true
+    }
+  ]
+}

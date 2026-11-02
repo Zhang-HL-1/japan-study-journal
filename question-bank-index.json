@@ -231,7 +231,15 @@
     {"id": "sophia-scitec-2025-september-electrical", "title": "上智大学 · 2025 入学年度 · 电气电子工学基础（9月入试）", "catalogId": "sophia-scitec-2025-september-electrical", "questionCount": 6, "data": "assets/question-bank/sophia-scitec-2025-september-electrical/paper.json"},
     {"id": "sophia-scitec-2018-september-electrical", "title": "上智大学 · 2018 入学年度 · 电气电子工学基础（9月入试）", "catalogId": "sophia-scitec-2018-september-electrical", "questionCount": 7, "data": "assets/question-bank/sophia-scitec-2018-september-electrical/paper.json"},
     {"id": "sophia-scitec-2017-september-electrical", "title": "上智大学 · 2017 入学年度 · 电气电子工学基础（9月入试）", "catalogId": "sophia-scitec-2017-september-electrical", "questionCount": 7, "data": "assets/question-bank/sophia-scitec-2017-september-electrical/paper.json"},
-    {"id": "sophia-scitec-2016-september-electrical", "title": "上智大学 · 2016 入学年度 · 电气电子工学基础（9月入试）", "catalogId": "sophia-scitec-2016-september-electrical", "questionCount": 7, "data": "assets/question-bank/sophia-scitec-2016-september-electrical/paper.json"}
+    {"id": "sophia-scitec-2016-september-electrical", "title": "上智大学 · 2016 入学年度 · 电气电子工学基础（9月入试）", "catalogId": "sophia-scitec-2016-september-electrical", "questionCount": 7, "data": "assets/question-bank/sophia-scitec-2016-september-electrical/paper.json"},
+    {"id": "tohoku-ee-2023-08-kiso", "title": "东北大学 · 2023年8月实施 · 基础科目", "catalogId": "tohoku-ee-2023-08", "questionCount": 6, "data": "assets/question-bank/tohoku-ee-2023-08-kiso/paper.json"},
+    {"id": "tohoku-ee-2023-08-senmon", "title": "东北大学 · 2023年8月实施 · 专门科目", "catalogId": "tohoku-ee-2023-08", "questionCount": 6, "data": "assets/question-bank/tohoku-ee-2023-08-senmon/paper.json"},
+    {"id": "tohoku-ee-2024-02-kiso", "title": "东北大学 · 2024年2月实施 · 基础科目", "catalogId": "tohoku-ee-2024-02", "questionCount": 6, "data": "assets/question-bank/tohoku-ee-2024-02-kiso/paper.json"},
+    {"id": "tohoku-ee-2024-02-senmon", "title": "东北大学 · 2024年2月实施 · 专门科目", "catalogId": "tohoku-ee-2024-02", "questionCount": 6, "data": "assets/question-bank/tohoku-ee-2024-02-senmon/paper.json"},
+    {"id": "tohoku-ee-2024-08", "title": "东北大学 · 2024年8月实施 · 基础专门科目", "catalogId": "tohoku-ee-2024-08", "questionCount": 6, "data": "assets/question-bank/tohoku-ee-2024-08/paper.json"},
+    {"id": "tohoku-ee-2025-03", "title": "东北大学 · 2025年3月实施 · 基础专门科目", "catalogId": "tohoku-ee-2025-03", "questionCount": 6, "data": "assets/question-bank/tohoku-ee-2025-03/paper.json"},
+    {"id": "tohoku-ee-2025-08", "title": "东北大学 · 2025年8月实施 · 基础专门科目", "catalogId": "tohoku-ee-2025-08", "questionCount": 6, "data": "assets/question-bank/tohoku-ee-2025-08/paper.json"},
+    {"id": "tohoku-ee-2026-03", "title": "东北大学 · 2026年3月实施 · 基础专门科目", "catalogId": "tohoku-ee-2026-03", "questionCount": 6, "data": "assets/question-bank/tohoku-ee-2026-03/paper.json"}
   ],
   "aliases": [
   {
