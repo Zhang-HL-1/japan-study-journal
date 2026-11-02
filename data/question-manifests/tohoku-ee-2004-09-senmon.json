@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "id": "tohoku-ee-2004-09-senmon",
+  "title": "东北大学 · 2004年9月实施 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tohoku-ee-2004-09",
+    "schoolId": "tohoku",
+    "school": "東北大学",
+    "graduate": "工学研究科",
+    "major": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+    "year": 2004,
+    "yearBasis": "exam",
+    "subject": "専門科目",
+    "originalSubject": "専門科目",
+    "originalMajor": "题页未印専攻名",
+    "originalName": "200409senmon.pdf",
+    "pdf": "assets/past-papers/documents/571150ca1d6bbc962f664346b2a4713f19572759e5461b28658d5e591d417c73.pdf",
+    "sha256": "571150ca1d6bbc962f664346b2a4713f19572759e5461b28658d5e591d417c73",
+    "pageCount": 13,
+    "note": "目录采用实施年 2004，场次来自来源文件名 200409；本卷无封面，题页未印实施年月、研究科、専攻与科目名，不能视为卷面原文。学校、研究科、专攻和科目沿用来源目录；现专攻名称用于网站筛选。题号和续页按原页眉；日文与英文、跨页图均归同一大题。答案未做。"
+  },
+  "renderScale": 4,
+  "commonRegions": [],
+  "questions": [
+    {
+      "id": "tohoku-ee-2004-09-senmon-q1",
+      "number": "問題1",
+      "title": "控制系统频率特性",
+      "titleKind": "editorial",
+      "topics": [],
+      "summary": "中文标题仅用于导航；日文原题、英文与全部小问、跨页和配图保留。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題1（PDF 第1页）"
+        },
+        {
+          "page": 2,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題1（PDF 第2页）"
+        },
+        {
+          "page": 3,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題1（PDF 第3页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "对照原 PDF 全页与每张裁图核对题号、续页、首末行、小问、图表及日英内容；题号按页眉，中文标题为编辑导航。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2004-09-senmon-q2",
+      "number": "問題2",
+      "title": "频率调制",
+      "titleKind": "editorial",
+      "topics": [],
+      "summary": "中文标题仅用于导航；日文原题、英文与全部小问、跨页和配图保留。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題2（PDF 第4页）"
+        },
+        {
+          "page": 5,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題2（PDF 第5页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "对照原 PDF 全页与每张裁图核对题号、续页、首末行、小问、图表及日英内容；题号按页眉，中文标题为编辑导航。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2004-09-senmon-q3",
+      "number": "問題3",
+      "title": "MOS 晶体管与放大电路",
+      "titleKind": "editorial",
+      "topics": [],
+      "summary": "中文标题仅用于导航；日文原题、英文与全部小问、跨页和配图保留。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題3（PDF 第6页）"
+        },
+        {
+          "page": 7,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題3（PDF 第7页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "对照原 PDF 全页与每张裁图核对题号、续页、首末行、小问、图表及日英内容；题号按页眉，中文标题为编辑导航。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2004-09-senmon-q4",
+      "number": "問題4",
+      "title": "多数决与奇偶电路",
+      "titleKind": "editorial",
+      "topics": [],
+      "summary": "中文标题仅用于导航；日文原题、英文与全部小问、跨页和配图保留。",
+      "regions": [
+        {
+          "page": 8,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題4（PDF 第8页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "对照原 PDF 全页与每张裁图核对题号、续页、首末行、小问、图表及日英内容；题号按页眉，中文标题为编辑导航。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2004-09-senmon-q5",
+      "number": "問題5",
+      "title": "算术式语法",
+      "titleKind": "editorial",
+      "topics": [],
+      "summary": "中文标题仅用于导航；日文原题、英文与全部小问、跨页和配图保留。",
+      "regions": [
+        {
+          "page": 9,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題5（PDF 第9页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "对照原 PDF 全页与每张裁图核对题号、续页、首末行、小问、图表及日英内容；题号按页眉，中文标题为编辑导航。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2004-09-senmon-q6",
+      "number": "問題6",
+      "title": "量子势与波函数",
+      "titleKind": "editorial",
+      "topics": [],
+      "summary": "中文标题仅用于导航；日文原题、英文与全部小问、跨页和配图保留。",
+      "regions": [
+        {
+          "page": 10,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題6（PDF 第10页）"
+        },
+        {
+          "page": 11,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題6（PDF 第11页）"
+        },
+        {
+          "page": 12,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題6（PDF 第12页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "对照原 PDF 全页与每张裁图核对题号、续页、首末行、小问、图表及日英内容；题号按页眉，中文标题为编辑导航。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2004-09-senmon-q7",
+      "number": "問題7",
+      "title": "复函数与傅里叶变换",
+      "titleKind": "editorial",
+      "topics": [],
+      "summary": "中文标题仅用于导航；日文原题、英文与全部小问、跨页和配图保留。",
+      "regions": [
+        {
+          "page": 13,
+          "box": [
+            25,
+            65,
+            587.0,
+            812.4
+          ],
+          "label": "問題7（PDF 第13页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "对照原 PDF 全页与每张裁图核对题号、续页、首末行、小问、图表及日英内容；题号按页眉，中文标题为编辑导航。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q2"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q2"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q4"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "tohoku-ee-2004-09-senmon-q7"
+      ],
+      "common": false,
+      "excluded": "页边扫描痕迹和空白；题号、题干、日文英文、图表与续页保留。",
+      "reviewed": true
+    }
+  ]
+}
