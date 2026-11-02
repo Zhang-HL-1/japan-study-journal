@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "id": "tohoku-ee-2010-08-kiso",
+  "title": "东北大学 · 2010年8月实施 · 基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tohoku-ee-2010-08",
+    "schoolId": "tohoku",
+    "school": "東北大学",
+    "graduate": "工学研究科",
+    "major": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+    "year": 2010,
+    "yearBasis": "exam",
+    "subject": "基礎科目",
+    "originalSubject": "基礎科目",
+    "originalMajor": "页眉未印専攻名",
+    "originalName": "201008kiso.pdf",
+    "pdf": "assets/past-papers/documents/a32efdf7fdd57f450596fc454dc965ca3d389d747d49633330d573ea23f432d1.pdf",
+    "sha256": "a32efdf7fdd57f450596fc454dc965ca3d389d747d49633330d573ea23f432d1",
+    "pageCount": 10,
+    "note": "目录 yearBasis=exam，year 为实施年 2010，不改写成入学年。页眉印「2010年8月実施」，未印専攻名；专攻沿用目录「電気エネルギーシステム専攻／通信工学専攻／電子工学専攻」，这不是页眉原文。originalMajor 记「页眉未印専攻名」。学校为目录東北大学，研究科为目录工学研究科。科目为目录与文件名「基礎科目」（201008kiso.pdf）。本册没有单独封面，也没有另一研究科的题页，页眉未印选题注意。大题按页眉「問題」号与「N頁目／M頁中」；同一大题的续页并入该题，小问不拆。和文与英文属于同一大题。原 PDF 无 /Rotate，未做派生规范化。答案 PDF 不在本目录组。本目录组没有单独的外国人入试 question PDF。未做 2003–2007，未重做 2011–2026。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [],
+  "questions": [
+    {
+      "id": "tohoku-ee-2010-08-kiso-q1",
+      "number": "問題1",
+      "title": "电磁气学",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁気学"
+      ],
+      "summary": "原卷大题印作「問題1 電磁気学」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            70.0,
+            86.0,
+            536.0,
+            751.0
+          ],
+          "label": "問題1 電磁気学 第1页（PDF 第1页）"
+        },
+        {
+          "page": 2,
+          "box": [
+            71.5,
+            86.0,
+            535.0,
+            718.0
+          ],
+          "label": "問題1 電磁気学 第2页（PDF 第2页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2010-08-kiso-q2",
+      "number": "問題2",
+      "title": "电气回路",
+      "titleKind": "editorial",
+      "topics": [
+        "電気回路"
+      ],
+      "summary": "原卷大题印作「問題2 電気回路」。本大题共 1 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            68.5,
+            81.0,
+            532.5,
+            765.0
+          ],
+          "label": "問題2 電気回路 第1页（PDF 第3页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2010-08-kiso-q3",
+      "number": "問題3",
+      "title": "信息基础1",
+      "titleKind": "editorial",
+      "topics": [
+        "情報基礎"
+      ],
+      "summary": "原卷大题印作「問題3 情報基礎1」。本大题共 1 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            69.5,
+            81.0,
+            536.5,
+            710.0
+          ],
+          "label": "問題3 情報基礎1 第1页（PDF 第4页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2010-08-kiso-q4",
+      "number": "問題4",
+      "title": "信息基础2",
+      "titleKind": "editorial",
+      "topics": [
+        "情報基礎"
+      ],
+      "summary": "原卷大题印作「問題4 情報基礎2」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            81.0,
+            93.0,
+            523.5,
+            736.5
+          ],
+          "label": "問題4 情報基礎2 第1页（PDF 第5页）"
+        },
+        {
+          "page": 6,
+          "box": [
+            81.0,
+            92.5,
+            523.5,
+            740.5
+          ],
+          "label": "問題4 情報基礎2 第2页（PDF 第6页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2010-08-kiso-q5",
+      "number": "問題5",
+      "title": "物理基础1",
+      "titleKind": "editorial",
+      "topics": [
+        "物理基礎"
+      ],
+      "summary": "原卷大题印作「問題5 物理基礎1」。本大题共 3 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            66.5,
+            82.0,
+            532.5,
+            687.5
+          ],
+          "label": "問題5 物理基礎1 第1页（PDF 第7页）"
+        },
+        {
+          "page": 8,
+          "box": [
+            67.5,
+            81.5,
+            532.0,
+            768.0
+          ],
+          "label": "問題5 物理基礎1 第2页（PDF 第8页）"
+        },
+        {
+          "page": 9,
+          "box": [
+            138.0,
+            81.5,
+            481.0,
+            588.0
+          ],
+          "label": "問題5 物理基礎1 第3页（PDF 第9页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2010-08-kiso-q6",
+      "number": "問題6",
+      "title": "物理基础2",
+      "titleKind": "editorial",
+      "topics": [
+        "物理基礎"
+      ],
+      "summary": "原卷大题印作「問題6 物理基礎2」。本大题共 1 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 10,
+          "box": [
+            66.0,
+            85.5,
+            533.0,
+            763.5
+          ],
+          "label": "問題6 物理基礎2 第1页（PDF 第10页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q4"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q4"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "tohoku-ee-2010-08-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    }
+  ]
+}
