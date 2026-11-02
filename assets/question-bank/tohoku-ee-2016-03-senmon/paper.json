@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "id": "tohoku-ee-2016-03-senmon",
+  "title": "东北大学 · 2016年3月实施 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tohoku-ee-2016-03",
+    "schoolId": "tohoku",
+    "school": "東北大学",
+    "graduate": "工学研究科",
+    "major": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+    "year": 2016,
+    "yearBasis": "exam",
+    "subject": "専門科目",
+    "originalSubject": "専門科目",
+    "originalName": "201603senmon.pdf",
+    "pdf": "assets/past-papers/documents/1b5aacce3807d65adb40a468388371f41121e646c29e25c190dadae81c9c7695.pdf",
+    "sha256": "1b5aacce3807d65adb40a468388371f41121e646c29e25c190dadae81c9c7695",
+    "pageCount": 14,
+    "note": "目录 yearBasis=exam，year 为实施年 2016，不改写成入学年。页眉印「2016年3月実施」，未印専攻名；专攻沿用目录「電気エネルギーシステム専攻／通信工学専攻／電子工学専攻」，这不是页眉原文。学校为目录東北大学，研究科为目录工学研究科。科目为目录与文件名「専門科目」（201603senmon.pdf）。本册没有单独封面，也没有另一研究科的题页。大题按页眉「問題」号；同一大题的和文页与英文页合并，小问不拆。原 PDF 无 /Rotate，未做派生规范化。答案 PDF 不在本目录组。未做 2003–2013，未重做 2023–2026。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "tohoku-ee-2016-03-senmon-q1",
+      "number": "問題1",
+      "title": "电气工学",
+      "titleKind": "editorial",
+      "topics": [
+        "電気工学"
+      ],
+      "summary": "原卷大题印作「問題1 電気工学」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q1-01.png",
+          "page": 1,
+          "box": [
+            74.5,
+            42.0,
+            524.0,
+            729.0
+          ],
+          "width": 1124,
+          "height": 1718,
+          "label": "問題1 電気工学 第1页（PDF 第1页）",
+          "sha256": "2eca4dadf0b51dbad90ec2936c8b5c072fff3783b67e1afddaf3dcf465978c88"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q1-02.png",
+          "page": 2,
+          "box": [
+            74.0,
+            41.0,
+            521.5,
+            606.5
+          ],
+          "width": 1119,
+          "height": 1415,
+          "label": "問題1 電気工学 第2页（PDF 第2页）",
+          "sha256": "eb132df218a336c8b9362021658c99a7243fe3371626adc8e63fa1801cf1dd25"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2016-03-senmon-q2",
+      "number": "問題2",
+      "title": "通信工学",
+      "titleKind": "editorial",
+      "topics": [
+        "通信工学"
+      ],
+      "summary": "原卷大题印作「問題2 通信工学」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q2-01.png",
+          "page": 3,
+          "box": [
+            74.0,
+            42.0,
+            522.5,
+            539.5
+          ],
+          "width": 1122,
+          "height": 1244,
+          "label": "問題2 通信工学 第1页（PDF 第3页）",
+          "sha256": "d2ec35d58da9c880c4bdbffb2ad7ad36deb285c76faae9375fa7085c226936f6"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q2-02.png",
+          "page": 4,
+          "box": [
+            75.0,
+            43.0,
+            524.0,
+            754.5
+          ],
+          "width": 1123,
+          "height": 1780,
+          "label": "問題2 通信工学 第2页（PDF 第4页）",
+          "sha256": "7d209b481de1013dd60358806d2725c07b2a4bcdebc886fe68e819ce60df3515"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2016-03-senmon-q3",
+      "number": "問題3",
+      "title": "电子工学",
+      "titleKind": "editorial",
+      "topics": [
+        "電子工学"
+      ],
+      "summary": "原卷大题印作「問題3 電子工学」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q3-01.png",
+          "page": 5,
+          "box": [
+            74.0,
+            41.0,
+            521.5,
+            624.5
+          ],
+          "width": 1119,
+          "height": 1460,
+          "label": "問題3 電子工学 第1页（PDF 第5页）",
+          "sha256": "b72daf6e492f2048721a6a8f76f6bdcaf3703e0b760a40ff14381f37116fc1d0"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q3-02.png",
+          "page": 6,
+          "box": [
+            74.0,
+            41.0,
+            522.0,
+            693.5
+          ],
+          "width": 1120,
+          "height": 1632,
+          "label": "問題3 電子工学 第2页（PDF 第6页）",
+          "sha256": "7f41448980973758f1e18330f740c6e5b61e2c8e28a15d4b661395bc14fde5d3"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2016-03-senmon-q4",
+      "number": "問題4",
+      "title": "计算机1",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機"
+      ],
+      "summary": "原卷大题印作「問題4 計算機1」。本大题共 1 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q4-01.png",
+          "page": 7,
+          "box": [
+            74.0,
+            41.0,
+            523.0,
+            693.0
+          ],
+          "width": 1123,
+          "height": 1631,
+          "label": "問題4 計算機1 第1页（PDF 第7页）",
+          "sha256": "be21f64708064bad43e384bb5bf227504583263704ece1bbadc29db5e6d98681"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2016-03-senmon-q5",
+      "number": "問題5",
+      "title": "计算机2",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機"
+      ],
+      "summary": "原卷大题印作「問題5 計算機2」。本大题共 4 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q5-01.png",
+          "page": 8,
+          "box": [
+            74.0,
+            42.0,
+            522.0,
+            675.5
+          ],
+          "width": 1120,
+          "height": 1584,
+          "label": "問題5 計算機2 第1页（PDF 第8页）",
+          "sha256": "4db12e2fe1c2d4739906ea004b4dcd1dbc30d39451d10a9bd41dd06cc90d7fd7"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q5-02.png",
+          "page": 9,
+          "box": [
+            74.0,
+            40.5,
+            524.5,
+            686.0
+          ],
+          "width": 1127,
+          "height": 1614,
+          "label": "問題5 計算機2 第2页（PDF 第9页）",
+          "sha256": "1a905f5986d8fb4edec2851805a1d7a82afca5ad41eaebdd11921b53451835c4"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q5-03.png",
+          "page": 10,
+          "box": [
+            74.5,
+            41.0,
+            530.0,
+            483.5
+          ],
+          "width": 1139,
+          "height": 1107,
+          "label": "問題5 計算機2 第3页（PDF 第10页）",
+          "sha256": "b22d3ae30a15072bb0dbd4fb94d1bbe49f57c0c424e62f95e61179864ae65a6b"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q5-04.png",
+          "page": 11,
+          "box": [
+            74.5,
+            42.0,
+            518.5,
+            454.5
+          ],
+          "width": 1111,
+          "height": 1032,
+          "label": "問題5 計算機2 第4页（PDF 第11页）",
+          "sha256": "04b7ded9ff50a470ea7ba22e91307f6ca85d9bb722b8cb2943c4206c95fe731d"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2016-03-senmon-q6",
+      "number": "問題6",
+      "title": "物理专门1",
+      "titleKind": "editorial",
+      "topics": [
+        "物理専門"
+      ],
+      "summary": "原卷大题印作「問題6 物理専門1」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q6-01.png",
+          "page": 12,
+          "box": [
+            75.0,
+            62.5,
+            516.5,
+            634.5
+          ],
+          "width": 1105,
+          "height": 1431,
+          "label": "問題6 物理専門1 第1页（PDF 第12页）",
+          "sha256": "0d719c6f75e86b6800d4921328f88328d0d447060171ba159d404b95bebd16ff"
+        },
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q6-02.png",
+          "page": 13,
+          "box": [
+            76.0,
+            62.5,
+            518.5,
+            681.0
+          ],
+          "width": 1107,
+          "height": 1547,
+          "label": "問題6 物理専門1 第2页（PDF 第13页）",
+          "sha256": "52ecf9217fc9bea5c42dc9db8c830d9c8684e711e5e5275184d2a1defabc96cb"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-ee-2016-03-senmon-q7",
+      "number": "問題7",
+      "title": "物理专门2",
+      "titleKind": "editorial",
+      "topics": [
+        "物理専門"
+      ],
+      "summary": "原卷大题印作「問題7 物理専門2」。本大题共 1 个 PDF 页，含该题全部小问、条件、公式与图，以及和文／英文对照页。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切红框，核对题号、分野、首行、末行、小问、公式、图号、和文／英文续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/tohoku-ee-2016-03-senmon/tohoku-ee-2016-03-senmon-q7-01.png",
+          "page": 14,
+          "box": [
+            75.0,
+            39.5,
+            522.0,
+            741.0
+          ],
+          "width": 1118,
+          "height": 1755,
+          "label": "問題7 物理専門2 第1页（PDF 第14页）",
+          "sha256": "486c303733ead067b05a9808969731aeb820f068bb9067b50a30e5bf905b3393"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q4"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "tohoku-ee-2016-03-senmon-q7"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。页眉未印専攻名，没有另一研究科的题页。",
+      "reviewed": true
+    }
+  ]
+}
