@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "id": "tohoku-ee-2005-08-senmon",
+  "title": "东北大学 · 2005年8月实施 · 专门科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "tohoku-ee-2005-08",
+    "schoolId": "tohoku",
+    "school": "東北大学",
+    "graduate": "工学研究科",
+    "major": "電気エネルギーシステム専攻／通信工学専攻／電子工学専攻",
+    "year": 2005,
+    "yearBasis": "exam",
+    "subject": "専門科目",
+    "originalSubject": "専門科目",
+    "originalMajor": "電気・通信工学専攻／電子工学専攻",
+    "originalName": "200508senmon.pdf",
+    "pdf": "assets/past-papers/documents/109c90211d5a040ef67cc9345231ec721eb1c0dd404b003d2972451877c882fd.pdf",
+    "sha256": "109c90211d5a040ef67cc9345231ec721eb1c0dd404b003d2972451877c882fd",
+    "pageCount": 14,
+    "note": "目录 yearBasis=exam，year 为实施年 2005，不改写成入学年。封面印「平成17年8月30日 9:30—11:30」。封面専攻为大学院工学研究科 電気・通信工学専攻／電子工学専攻。并列大学院情報科学研究科情報・生命系群（物理・情報系）。信息・生命系群不是专攻名，不另建入口。站点专攻沿用目录「電気エネルギーシステム専攻／通信工学専攻／電子工学専攻」，这不是封面原文；封面原文记在 originalMajor 与本 note。学校为目录東北大学，研究科为目录工学研究科。科目为封面与目录「専門科目」（200508senmon.pdf）。封面注意写明 7 设问中选 2 题，和文与英文并记。封面放入 commonRegions，不计大题。大题按页眉「問題」号与分野名，以及「N頁目／M頁中」；同一大题的续页并入该题，小问不拆。和文与英文属于同一大题。题页页眉印「2005年8月実施」。封面另有「平成17年度」。原 PDF 无 /Rotate，未做派生规范化。答案 PDF 不在本目录组。本目录组没有单独的外国人入试 question PDF。未做 2003–2004，未重做 2008–2026。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        86.5,
+        97.0,
+        536.0,
+        750.5
+      ],
+      "label": "表紙：実施日時、封面専攻、科目名与选题注意"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tohoku-ee-2005-08-senmon-q1",
+      "number": "問題1",
+      "title": "电气工学",
+      "titleKind": "editorial",
+      "topics": [
+        "電気工学"
+      ],
+      "summary": "原卷大题印作「問題1 電気工学」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            70.5,
+            66.5,
+            541.0,
+            778.5
+          ],
+          "label": "問題1 電気工学 第1页（PDF 第2页）"
+        },
+        {
+          "page": 3,
+          "box": [
+            68.5,
+            67.5,
+            539.0,
+            628.0
+          ],
+          "label": "問題1 電気工学 第2页（PDF 第3页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2005-08-senmon-q2",
+      "number": "問題2",
+      "title": "通信工学",
+      "titleKind": "editorial",
+      "topics": [
+        "通信工学"
+      ],
+      "summary": "原卷大题印作「問題2 通信工学」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            67.5,
+            81.0,
+            537.5,
+            771.0
+          ],
+          "label": "問題2 通信工学 第1页（PDF 第4页）"
+        },
+        {
+          "page": 5,
+          "box": [
+            68.0,
+            68.5,
+            538.0,
+            719.0
+          ],
+          "label": "問題2 通信工学 第2页（PDF 第5页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2005-08-senmon-q3",
+      "number": "問題3",
+      "title": "电子工学",
+      "titleKind": "editorial",
+      "topics": [
+        "電子工学"
+      ],
+      "summary": "原卷大题印作「問題3 電子工学」。本大题共 3 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 6,
+          "box": [
+            52.5,
+            74.5,
+            541.0,
+            491.5
+          ],
+          "label": "問題3 電子工学 第1页（PDF 第6页）"
+        },
+        {
+          "page": 7,
+          "box": [
+            71.5,
+            72.0,
+            539.5,
+            579.0
+          ],
+          "label": "問題3 電子工学 第2页（PDF 第7页）"
+        },
+        {
+          "page": 8,
+          "box": [
+            80.0,
+            74.5,
+            484.0,
+            754.5
+          ],
+          "label": "問題3 電子工学 第3页（PDF 第8页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2005-08-senmon-q4",
+      "number": "問題4",
+      "title": "计算机1",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機"
+      ],
+      "summary": "原卷大题印作「問題4 計算機1」。本大题共 1 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 9,
+          "box": [
+            54.0,
+            87.0,
+            521.5,
+            699.5
+          ],
+          "label": "問題4 計算機1 第1页（PDF 第9页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2005-08-senmon-q5",
+      "number": "問題5",
+      "title": "计算机2",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機"
+      ],
+      "summary": "原卷大题印作「問題5 計算機2」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 10,
+          "box": [
+            56.0,
+            77.0,
+            526.5,
+            655.0
+          ],
+          "label": "問題5 計算機2 第1页（PDF 第10页）"
+        },
+        {
+          "page": 11,
+          "box": [
+            67.5,
+            76.5,
+            532.0,
+            663.5
+          ],
+          "label": "問題5 計算機2 第2页（PDF 第11页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2005-08-senmon-q6",
+      "number": "問題6",
+      "title": "物理专门1",
+      "titleKind": "editorial",
+      "topics": [
+        "物理"
+      ],
+      "summary": "原卷大题印作「問題6 物理専門1」。本大题共 2 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 12,
+          "box": [
+            68.5,
+            71.5,
+            537.0,
+            745.5
+          ],
+          "label": "問題6 物理専門1 第1页（PDF 第12页）"
+        },
+        {
+          "page": 13,
+          "box": [
+            71.5,
+            71.0,
+            541.5,
+            759.5
+          ],
+          "label": "問題6 物理専門1 第2页（PDF 第13页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    },
+    {
+      "id": "tohoku-ee-2005-08-senmon-q7",
+      "number": "問題7",
+      "title": "物理专门2",
+      "titleKind": "editorial",
+      "topics": [
+        "物理"
+      ],
+      "summary": "原卷大题印作「問題7 物理専門2」。本大题共 1 个 PDF 页，含该题全部小问、条件、公式与图；和文与英文属于同一大题，续页不另立题。小问不拆。中文标题只用于导航，作答以日文原题为准。",
+      "regions": [
+        {
+          "page": 14,
+          "box": [
+            56.5,
+            102.5,
+            515.0,
+            711.5
+          ],
+          "label": "問題7 物理専門2 第1页（PDF 第14页）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-02",
+        "notes": "AI visual review：对照原页与裁切预览，核对题号、分野、首行、末行、小问、公式、图号、续页。裁图未混入其他大题，页边扫描线与孤立墨点未纳入。中文标题不是原题译文。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "本页为表紙（实施日、封面専攻、科目名、选题注意），放入 commonRegions，不计大题。裁图外为页边空白与孤立墨点。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q1"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q2"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q3"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q4"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q5"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q6"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "tohoku-ee-2005-08-senmon-q7"
+      ],
+      "common": false,
+      "excluded": "裁图外为页边空白与孤立墨点。本页只属于所列大题，不另计题。",
+      "reviewed": true
+    }
+  ]
+}
