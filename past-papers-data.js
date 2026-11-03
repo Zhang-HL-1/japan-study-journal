@@ -23145,7 +23145,8 @@
         "基礎科目",
         "数学",
         "電磁理論",
-        "電気電子回路"
+        "電気電子回路",
+        "専門科目"
       ],
       "files": [
         {
@@ -23157,14 +23158,53 @@
           "byteSize": 2046089,
           "pages": 14,
           "sourcePaths": [
-            "大阪大学/工学/電気電子情報通信工学専攻/2021 basic.pdf"
+            "大阪大学/工学/電気電子情報通信工学専攻/2021 basic.pdf",
+            "大阪大学_电气电子信息通信及前身_合并整理版/2021/共通基础科目.pdf"
           ],
           "startPage": 2
+        },
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b02e63e35c9914383cdf28c907e583c73c742333fef7749118c48406a097ad96.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "b02e63e35c9914383cdf28c907e583c73c742333fef7749118c48406a097ad96",
+          "byteSize": 952842,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2021/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4ca5334aa7e73c3e4c54c82319999a44b77c0fd3fe9802398e35b64701fa7570.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "4ca5334aa7e73c3e4c54c82319999a44b77c0fd3fe9802398e35b64701fa7570",
+          "byteSize": 1291724,
+          "pages": 18,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2021/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/af717f13c1258569bb53bc462d348f6286e78ceb56f1cca76eb1130c2a3f7ca2.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "af717f13c1258569bb53bc462d348f6286e78ceb56f1cca76eb1130c2a3f7ca2",
+          "byteSize": 1414214,
+          "pages": 20,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2021/专业_电气工学.pdf"
+          ],
+          "startPage": 1
         }
       ],
-      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。",
-      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
-      "completeness": "partial"
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。 2026-11-03补入用户新资料中的三个专业卷；来源目录年份为实施年，已与原有基礎科目并列。原文件名是整理标签，具体课程以卷面为准。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
     },
     {
       "id": "osaka-ee-basic-2023",
@@ -23184,7 +23224,8 @@
         "基礎科目",
         "数学",
         "電磁理論",
-        "電気電子回路"
+        "電気電子回路",
+        "専門科目"
       ],
       "files": [
         {
@@ -23196,14 +23237,53 @@
           "byteSize": 12541113,
           "pages": 13,
           "sourcePaths": [
-            "大阪大学/工学/電気電子情報通信工学専攻/2022 basic.pdf"
+            "大阪大学/工学/電気電子情報通信工学専攻/2022 basic.pdf",
+            "大阪大学_电气电子信息通信及前身_合并整理版/2022/共通基础科目.pdf"
           ],
           "startPage": 2
+        },
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/66d68b2f23628b89995373f48e38ddec6700b55486116077cd69baa903245806.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "66d68b2f23628b89995373f48e38ddec6700b55486116077cd69baa903245806",
+          "byteSize": 10823279,
+          "pages": 11,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2022/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/88750b29b86c3dd0da721689cb903b640f933ddebbf25237b834491fa9c00295.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "88750b29b86c3dd0da721689cb903b640f933ddebbf25237b834491fa9c00295",
+          "byteSize": 16398038,
+          "pages": 17,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2022/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c4d56831b10aa2cc082b2a18a87a5ee8e021c46721f5dcb58f3e51c1f7b6d067.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "c4d56831b10aa2cc082b2a18a87a5ee8e021c46721f5dcb58f3e51c1f7b6d067",
+          "byteSize": 18581081,
+          "pages": 19,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2022/专业_电气工学.pdf"
+          ],
+          "startPage": 1
         }
       ],
-      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。",
-      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
-      "completeness": "partial"
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。 2026-11-03补入用户新资料中的三个专业卷；来源目录年份为实施年，已与原有基礎科目并列。原文件名是整理标签，具体课程以卷面为准。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
     },
     {
       "id": "osaka-ee-basic-2024",
@@ -23223,7 +23303,8 @@
         "基礎科目",
         "数学",
         "電磁理論",
-        "電気電子回路"
+        "電気電子回路",
+        "専門科目"
       ],
       "files": [
         {
@@ -23235,14 +23316,53 @@
           "byteSize": 3672237,
           "pages": 14,
           "sourcePaths": [
-            "大阪大学/工学/電気電子情報通信工学専攻/基礎科目.pdf"
+            "大阪大学/工学/電気電子情報通信工学専攻/基礎科目.pdf",
+            "大阪大学_电气电子信息通信及前身_合并整理版/2023/共通基础科目.pdf"
           ],
           "startPage": 2
+        },
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5134a4e9de9f3bf04ed78d1a37029178abe0aea832bb1995ef067a608a4350f3.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "5134a4e9de9f3bf04ed78d1a37029178abe0aea832bb1995ef067a608a4350f3",
+          "byteSize": 3855702,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2023/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/30dbdf51e274681ac249c55500d9bcff1fb9390836a183b3508df03dbb51e6be.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "30dbdf51e274681ac249c55500d9bcff1fb9390836a183b3508df03dbb51e6be",
+          "byteSize": 4417485,
+          "pages": 17,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2023/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/07f51b1eeed4544ce8182a486616b6387c40b3d4be596e8cdbdb6970046753b0.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "07f51b1eeed4544ce8182a486616b6387c40b3d4be596e8cdbdb6970046753b0",
+          "byteSize": 5178263,
+          "pages": 20,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2023/专业_电气工学.pdf"
+          ],
+          "startPage": 1
         }
       ],
-      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。",
-      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
-      "completeness": "partial"
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。 2026-11-03补入用户新资料中的三个专业卷；来源目录年份为实施年，已与原有基礎科目并列。原文件名是整理标签，具体课程以卷面为准。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
     },
     {
       "id": "osaka-ee-basic-2025",
@@ -23262,7 +23382,8 @@
         "基礎科目",
         "数学",
         "電磁理論",
-        "電気電子回路"
+        "電気電子回路",
+        "専門科目"
       ],
       "files": [
         {
@@ -23274,14 +23395,53 @@
           "byteSize": 1624645,
           "pages": 16,
           "sourcePaths": [
-            "大阪大学/工学/電気電子情報通信工学専攻/2024basic.pdf"
+            "大阪大学/工学/電気電子情報通信工学専攻/2024basic.pdf",
+            "大阪大学_电气电子信息通信及前身_合并整理版/2024/共通基础科目.pdf"
           ],
           "startPage": 2
+        },
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a81bc58a92447f647ab795bd5e8ab575247d6331f4da4c0b529d9db76874d16a.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "a81bc58a92447f647ab795bd5e8ab575247d6331f4da4c0b529d9db76874d16a",
+          "byteSize": 1729267,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2024/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d04fd8d2c290ce208543ee40d123ee33006d4d6e87e373977270be8c9fce6bc3.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "d04fd8d2c290ce208543ee40d123ee33006d4d6e87e373977270be8c9fce6bc3",
+          "byteSize": 1831561,
+          "pages": 19,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2024/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/389836765e569c7ab35b6cbec8bc799291db98d7e8c29af4fdbc0a897d094d00.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "389836765e569c7ab35b6cbec8bc799291db98d7e8c29af4fdbc0a897d094d00",
+          "byteSize": 2066044,
+          "pages": 22,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2024/专业_电气工学.pdf"
+          ],
+          "startPage": 1
         }
       ],
-      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。",
-      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
-      "completeness": "partial"
+      "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。 2026-11-03补入用户新资料中的三个专业卷；来源目录年份为实施年，已与原有基礎科目并列。原文件名是整理标签，具体课程以卷面为准。",
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
     },
     {
       "id": "osaka-ee-quantum-electronics-2026",
@@ -23311,7 +23471,8 @@
           "byteSize": 2098667,
           "pages": 16,
           "sourcePaths": [
-            "大阪大学/工学/電気電子情報通信工学専攻/数学・専門科目試験問題（量子情報エレクトロニクスコース）.pdf"
+            "大阪大学/工学/電気電子情報通信工学専攻/数学・専門科目試験問題（量子情報エレクトロニクスコース）.pdf",
+            "大阪大学_电气电子信息通信及前身_合并整理版/2025/数学与专业_量子信息电子学.pdf"
           ],
           "startPage": 2
         }
@@ -23347,7 +23508,8 @@
           "byteSize": 2091823,
           "pages": 16,
           "sourcePaths": [
-            "大阪大学/工学/電気電子情報通信工学専攻/数学・専門科目試験問題（電気工学コース）.pdf"
+            "大阪大学/工学/電気電子情報通信工学専攻/数学・専門科目試験問題（電気工学コース）.pdf",
+            "大阪大学_电气电子信息通信及前身_合并整理版/2025/数学与专业_电气工学.pdf"
           ],
           "startPage": 2
         }
@@ -23383,7 +23545,8 @@
           "byteSize": 9576426,
           "pages": 20,
           "sourcePaths": [
-            "大阪大学/工学/電気電子情報通信工学専攻/数学・専門科目試験問題（情報通信工学コース）.pdf"
+            "大阪大学/工学/電気電子情報通信工学専攻/数学・専門科目試験問題（情報通信工学コース）.pdf",
+            "大阪大学_电气电子信息通信及前身_合并整理版/2025/数学与专业_信息通信工学.pdf"
           ],
           "startPage": 2
         }
@@ -40127,6 +40290,1620 @@
       ],
       "sourceBatch": "kyushu-ee-archive-20261030",
       "sourceNote": "用户提供的九州大学历史过去问整册；封面已渲染核对，入学年度与考试实施日期分别记录。PDF字节原样保存，从封面打开，尚未逐题拆分。"
+    },
+    {
+      "id": "osaka-ee-archive-2005",
+      "universityId": "osaka",
+      "title": "2005年度 · 電気電子情報通信及前身（实施年2004）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2005,
+      "yearBasis": "academic",
+      "originalYear": "2005年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2005
+      ],
+      "subjects": [
+        "信息通信工学",
+        "回路理论",
+        "数学",
+        "电磁理论",
+        "电磁能源工学",
+        "系统控制",
+        "量子电子物性"
+      ],
+      "files": [
+        {
+          "label": "信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148.pdf",
+          "originalName": "信息通信工学.pdf",
+          "sha256": "ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148",
+          "byteSize": 335632,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2004/信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "回路理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3.pdf",
+          "originalName": "回路理论.pdf",
+          "sha256": "c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3",
+          "byteSize": 134590,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2004/回路理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1.pdf",
+          "originalName": "数学.pdf",
+          "sha256": "04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1",
+          "byteSize": 113873,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2004/数学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684.pdf",
+          "originalName": "电磁理论.pdf",
+          "sha256": "bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684",
+          "byteSize": 292440,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2004/电磁理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21.pdf",
+          "originalName": "电磁能源工学.pdf",
+          "sha256": "ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21",
+          "byteSize": 325461,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2004/电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "系统控制",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b.pdf",
+          "originalName": "系统控制.pdf",
+          "sha256": "1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b",
+          "byteSize": 375010,
+          "pages": 11,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2004/系统控制.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子电子物性",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9c9bbb25b82d941df363fcfb615c7af52bd3d840d82ffc04566c6ce822ddeb7d.pdf",
+          "originalName": "量子电子物性.pdf",
+          "sha256": "9c9bbb25b82d941df363fcfb615c7af52bd3d840d82ffc04566c6ce822ddeb7d",
+          "byteSize": 391726,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2004/量子电子物性.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2006",
+      "universityId": "osaka",
+      "title": "2006年度 · 電気電子情報通信及前身（实施年2005）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2006,
+      "yearBasis": "academic",
+      "originalYear": "2006年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2006
+      ],
+      "subjects": [
+        "信息通信工学",
+        "回路理论",
+        "数学",
+        "电磁理论",
+        "电磁能源工学",
+        "系统控制",
+        "量子电子物性"
+      ],
+      "files": [
+        {
+          "label": "信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f.pdf",
+          "originalName": "信息通信工学.pdf",
+          "sha256": "d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f",
+          "byteSize": 575114,
+          "pages": 11,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2005/信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "回路理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09.pdf",
+          "originalName": "回路理论.pdf",
+          "sha256": "f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09",
+          "byteSize": 112024,
+          "pages": 4,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2005/回路理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/095ebb51059c84f3c0776a0e94a885e1d423d790dd7b1f8486983c1b120b7a8d.pdf",
+          "originalName": "数学.pdf",
+          "sha256": "095ebb51059c84f3c0776a0e94a885e1d423d790dd7b1f8486983c1b120b7a8d",
+          "byteSize": 137958,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2005/数学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13.pdf",
+          "originalName": "电磁理论.pdf",
+          "sha256": "483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13",
+          "byteSize": 426322,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2005/电磁理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9.pdf",
+          "originalName": "电磁能源工学.pdf",
+          "sha256": "9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9",
+          "byteSize": 441527,
+          "pages": 11,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2005/电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "系统控制",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178.pdf",
+          "originalName": "系统控制.pdf",
+          "sha256": "3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178",
+          "byteSize": 517128,
+          "pages": 11,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2005/系统控制.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子电子物性",
+          "kind": "question",
+          "url": "assets/past-papers/documents/da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc.pdf",
+          "originalName": "量子电子物性.pdf",
+          "sha256": "da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc",
+          "byteSize": 447420,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2005/量子电子物性.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2007",
+      "universityId": "osaka",
+      "title": "2007年度 · 電気電子情報通信及前身（实施年2006）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2007,
+      "yearBasis": "academic",
+      "originalYear": "2007年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2007
+      ],
+      "subjects": [
+        "信息通信工学",
+        "回路理论",
+        "数学",
+        "电磁理论",
+        "电磁能源工学",
+        "系统控制",
+        "量子电子物性"
+      ],
+      "files": [
+        {
+          "label": "信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4.pdf",
+          "originalName": "信息通信工学.pdf",
+          "sha256": "c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4",
+          "byteSize": 334485,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2006/信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "回路理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df.pdf",
+          "originalName": "回路理论.pdf",
+          "sha256": "f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df",
+          "byteSize": 322694,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2006/回路理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06.pdf",
+          "originalName": "数学.pdf",
+          "sha256": "c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06",
+          "byteSize": 74079,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2006/数学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355.pdf",
+          "originalName": "电磁理论.pdf",
+          "sha256": "e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355",
+          "byteSize": 510720,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2006/电磁理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5.pdf",
+          "originalName": "电磁能源工学.pdf",
+          "sha256": "946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5",
+          "byteSize": 494696,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2006/电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "系统控制",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9fa8c85d1dd1dc5a77d6a4ed0de9bcb7d76092f92b9fb68f9d587eec3053c4cf.pdf",
+          "originalName": "系统控制.pdf",
+          "sha256": "9fa8c85d1dd1dc5a77d6a4ed0de9bcb7d76092f92b9fb68f9d587eec3053c4cf",
+          "byteSize": 319843,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2006/系统控制.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子电子物性",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3.pdf",
+          "originalName": "量子电子物性.pdf",
+          "sha256": "0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3",
+          "byteSize": 445114,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2006/量子电子物性.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2008",
+      "universityId": "osaka",
+      "title": "2008年度 · 電気電子情報通信及前身（实施年2007）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2008,
+      "yearBasis": "academic",
+      "originalYear": "2008年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2008
+      ],
+      "subjects": [
+        "信息通信工学",
+        "回路理论",
+        "数学",
+        "电磁理论",
+        "电磁能源工学",
+        "系统控制",
+        "量子电子物性"
+      ],
+      "files": [
+        {
+          "label": "信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3ec39739b5f1d3e8eb27a4cc9d720f2040d75c0be1d23273aa80aab75be877f2.pdf",
+          "originalName": "信息通信工学.pdf",
+          "sha256": "3ec39739b5f1d3e8eb27a4cc9d720f2040d75c0be1d23273aa80aab75be877f2",
+          "byteSize": 915105,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2007/信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "回路理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7.pdf",
+          "originalName": "回路理论.pdf",
+          "sha256": "59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7",
+          "byteSize": 367071,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2007/回路理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a.pdf",
+          "originalName": "数学.pdf",
+          "sha256": "b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a",
+          "byteSize": 293640,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2007/数学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2.pdf",
+          "originalName": "电磁理论.pdf",
+          "sha256": "2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2",
+          "byteSize": 773328,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2007/电磁理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356.pdf",
+          "originalName": "电磁能源工学.pdf",
+          "sha256": "167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356",
+          "byteSize": 1027059,
+          "pages": 12,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2007/电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "系统控制",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6512ea340446d9a5c32a1f218e125d161170320d03b40af2ee5089813ed3d012.pdf",
+          "originalName": "系统控制.pdf",
+          "sha256": "6512ea340446d9a5c32a1f218e125d161170320d03b40af2ee5089813ed3d012",
+          "byteSize": 960155,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2007/系统控制.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子电子物性",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68.pdf",
+          "originalName": "量子电子物性.pdf",
+          "sha256": "cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68",
+          "byteSize": 996201,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2007/量子电子物性.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2009",
+      "universityId": "osaka",
+      "title": "2009年度 · 電気電子情報通信及前身（实施年2008）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2009,
+      "yearBasis": "academic",
+      "originalYear": "2009年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2009
+      ],
+      "subjects": [
+        "信息通信工学",
+        "回路理论",
+        "数学",
+        "电磁理论",
+        "电磁能源工学",
+        "系统控制",
+        "量子电子物性"
+      ],
+      "files": [
+        {
+          "label": "信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46.pdf",
+          "originalName": "信息通信工学.pdf",
+          "sha256": "80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46",
+          "byteSize": 568199,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2008/信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "回路理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f.pdf",
+          "originalName": "回路理论.pdf",
+          "sha256": "b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f",
+          "byteSize": 280118,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2008/回路理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca.pdf",
+          "originalName": "数学.pdf",
+          "sha256": "f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca",
+          "byteSize": 151215,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2008/数学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d.pdf",
+          "originalName": "电磁理论.pdf",
+          "sha256": "a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d",
+          "byteSize": 517790,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2008/电磁理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742.pdf",
+          "originalName": "电磁能源工学.pdf",
+          "sha256": "79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742",
+          "byteSize": 793162,
+          "pages": 17,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2008/电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "系统控制",
+          "kind": "question",
+          "url": "assets/past-papers/documents/211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950.pdf",
+          "originalName": "系统控制.pdf",
+          "sha256": "211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950",
+          "byteSize": 581886,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2008/系统控制.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子电子物性",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0.pdf",
+          "originalName": "量子电子物性.pdf",
+          "sha256": "d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0",
+          "byteSize": 280864,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2008/量子电子物性.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2010",
+      "universityId": "osaka",
+      "title": "2010年度 · 電気電子情報通信及前身（实施年2009）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2010,
+      "yearBasis": "academic",
+      "originalYear": "2010年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2010
+      ],
+      "subjects": [
+        "信息通信工学",
+        "回路理论",
+        "数学",
+        "电磁理论",
+        "电磁能源工学",
+        "系统控制",
+        "量子电子物性"
+      ],
+      "files": [
+        {
+          "label": "信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47.pdf",
+          "originalName": "信息通信工学.pdf",
+          "sha256": "3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47",
+          "byteSize": 451866,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2009/信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "回路理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b.pdf",
+          "originalName": "回路理论.pdf",
+          "sha256": "cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b",
+          "byteSize": 1450315,
+          "pages": 5,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2009/回路理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19.pdf",
+          "originalName": "数学.pdf",
+          "sha256": "4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19",
+          "byteSize": 425849,
+          "pages": 6,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2009/数学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁理论",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535.pdf",
+          "originalName": "电磁理论.pdf",
+          "sha256": "9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535",
+          "byteSize": 599013,
+          "pages": 9,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2009/电磁理论.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4.pdf",
+          "originalName": "电磁能源工学.pdf",
+          "sha256": "0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4",
+          "byteSize": 1484656,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2009/电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "系统控制",
+          "kind": "question",
+          "url": "assets/past-papers/documents/89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe.pdf",
+          "originalName": "系统控制.pdf",
+          "sha256": "89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe",
+          "byteSize": 352772,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2009/系统控制.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "量子电子物性",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6.pdf",
+          "originalName": "量子电子物性.pdf",
+          "sha256": "1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6",
+          "byteSize": 340874,
+          "pages": 10,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2009/量子电子物性.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2011",
+      "universityId": "osaka",
+      "title": "2011年度 · 電気電子情報通信及前身（实施年2010）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2011,
+      "yearBasis": "academic",
+      "originalYear": "2011年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2011
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：先进电磁能源工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/391b5d90f6ac7fe9df1de97337f7669356cc6005c613e672841f009f5f97caf1.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "391b5d90f6ac7fe9df1de97337f7669356cc6005c613e672841f009f5f97caf1",
+          "byteSize": 723090,
+          "pages": 11,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2010/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：先进电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/600241f2db36eded524bebe6d53eb05cfa3dc7e031a112b273b9474d6d92a2e5.pdf",
+          "originalName": "专业_先进电磁能源工学.pdf",
+          "sha256": "600241f2db36eded524bebe6d53eb05cfa3dc7e031a112b273b9474d6d92a2e5",
+          "byteSize": 1140552,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2010/专业_先进电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ad3438631da8b33b4587936fbe35486f00fcb49e2c24718df4e61e375453f784.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "ad3438631da8b33b4587936fbe35486f00fcb49e2c24718df4e61e375453f784",
+          "byteSize": 633035,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2010/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010",
+          "byteSize": 546759,
+          "pages": 8,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2010/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406",
+          "byteSize": 536958,
+          "pages": 12,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2010/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2012",
+      "universityId": "osaka",
+      "title": "2012年度 · 電気電子情報通信及前身（实施年2011）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "originalYear": "2012年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2012
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：先进电磁能源工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/cdfbb747807371721178e6f2481d2380ba0fc482d9d49d22f5852456c6c5ea2d.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "cdfbb747807371721178e6f2481d2380ba0fc482d9d49d22f5852456c6c5ea2d",
+          "byteSize": 1316189,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2011/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：先进电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d7c825f765d6cd23331076ef325d85e994af239404ab266424f6fa087d043141.pdf",
+          "originalName": "专业_先进电磁能源工学.pdf",
+          "sha256": "d7c825f765d6cd23331076ef325d85e994af239404ab266424f6fa087d043141",
+          "byteSize": 801606,
+          "pages": 22,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2011/专业_先进电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0593d0427af6d3475ee17f9dfff7b73d827137f812be4be6979a7450f612e9e9.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "0593d0427af6d3475ee17f9dfff7b73d827137f812be4be6979a7450f612e9e9",
+          "byteSize": 650708,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2011/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01",
+          "byteSize": 617611,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2011/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba",
+          "byteSize": 364089,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2011/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2013",
+      "universityId": "osaka",
+      "title": "2013年度 · 電気電子情報通信及前身（实施年2012）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2013,
+      "yearBasis": "academic",
+      "originalYear": "2013年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2013
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：先进电磁能源工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/4be24b86b79424b11ca02566eeb3adec4f9c4d1d4fd0f318b330132cf66f1116.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "4be24b86b79424b11ca02566eeb3adec4f9c4d1d4fd0f318b330132cf66f1116",
+          "byteSize": 820393,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2012/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：先进电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/7b33c0748c2a22fb8e43eb6c34aad129600f40cdbbf516f53f474116993ec904.pdf",
+          "originalName": "专业_先进电磁能源工学.pdf",
+          "sha256": "7b33c0748c2a22fb8e43eb6c34aad129600f40cdbbf516f53f474116993ec904",
+          "byteSize": 1146655,
+          "pages": 24,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2012/专业_先进电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9ad343855a66543e4c3862810c57e71e8830d616d774aa2a222a39c187187b81.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "9ad343855a66543e4c3862810c57e71e8830d616d774aa2a222a39c187187b81",
+          "byteSize": 665019,
+          "pages": 15,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2012/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486",
+          "byteSize": 736776,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2012/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c",
+          "byteSize": 1380549,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2012/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2014",
+      "universityId": "osaka",
+      "title": "2014年度 · 電気電子情報通信及前身（实施年2013）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2014,
+      "yearBasis": "academic",
+      "originalYear": "2014年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2014
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：先进电磁能源工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/17db00b128c05a099d080656a515c59548209137777abd6d271d5db9a3538493.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "17db00b128c05a099d080656a515c59548209137777abd6d271d5db9a3538493",
+          "byteSize": 2221684,
+          "pages": 19,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2013/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：先进电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6514f1198da2ee4c43204d24c3b6d3ae7c23b472feed3625c9fb4ade96603d39.pdf",
+          "originalName": "专业_先进电磁能源工学.pdf",
+          "sha256": "6514f1198da2ee4c43204d24c3b6d3ae7c23b472feed3625c9fb4ade96603d39",
+          "byteSize": 3154119,
+          "pages": 28,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2013/专业_先进电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/397c13434ac6d74fbe4ec0cf6c42d0ec41e5928118971702e68255c2f760dd5c.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "397c13434ac6d74fbe4ec0cf6c42d0ec41e5928118971702e68255c2f760dd5c",
+          "byteSize": 2563557,
+          "pages": 19,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2013/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508",
+          "byteSize": 1813649,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2013/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d",
+          "byteSize": 1338951,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2013/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2015",
+      "universityId": "osaka",
+      "title": "2015年度 · 電気電子情報通信及前身（实施年2014）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2015,
+      "yearBasis": "academic",
+      "originalYear": "2015年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2015
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：先进电磁能源工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5412fc3b0bd2650b4e2fff63b5c500cbefe38923ffa01c951d2dfb86242edfd8.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "5412fc3b0bd2650b4e2fff63b5c500cbefe38923ffa01c951d2dfb86242edfd8",
+          "byteSize": 1884068,
+          "pages": 18,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2014/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：先进电磁能源工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a3c07583d5a0a8ea14def98b03ac6b375c34304955cc0cefe5e24cdb748b8c53.pdf",
+          "originalName": "专业_先进电磁能源工学.pdf",
+          "sha256": "a3c07583d5a0a8ea14def98b03ac6b375c34304955cc0cefe5e24cdb748b8c53",
+          "byteSize": 1914075,
+          "pages": 27,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2014/专业_先进电磁能源工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e116c71b05fa89e4bb91768389e4e65d9d412e872db02a1409ec2a7d985964a8.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "e116c71b05fa89e4bb91768389e4e65d9d412e872db02a1409ec2a7d985964a8",
+          "byteSize": 810456,
+          "pages": 19,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2014/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b",
+          "byteSize": 957002,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2014/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb",
+          "byteSize": 1305236,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2014/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2016",
+      "universityId": "osaka",
+      "title": "2016年度 · 電気電子情報通信及前身（实施年2015）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "originalYear": "2016年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2016
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bfe03a0093e8767ae83830913a43258362ea13897c3df68c2b55ae9e794346bb.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "bfe03a0093e8767ae83830913a43258362ea13897c3df68c2b55ae9e794346bb",
+          "byteSize": 1100784,
+          "pages": 17,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2015/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/08c49555cd2cda068604b39d84adef9f2517bdbce2026198b8b9fd66cb7e5561.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "08c49555cd2cda068604b39d84adef9f2517bdbce2026198b8b9fd66cb7e5561",
+          "byteSize": 1116585,
+          "pages": 18,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2015/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69",
+          "byteSize": 6621000,
+          "pages": 28,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2015/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954",
+          "byteSize": 942372,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2015/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2017",
+      "universityId": "osaka",
+      "title": "2017年度 · 電気電子情報通信及前身（实施年2016）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2017,
+      "yearBasis": "academic",
+      "originalYear": "2017年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2017
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a986ec94e65061af909a675ed75b03eddfcb7ec84caa8dd2a3b49c099c6c37af.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "a986ec94e65061af909a675ed75b03eddfcb7ec84caa8dd2a3b49c099c6c37af",
+          "byteSize": 2242626,
+          "pages": 19,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2016/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/28369ed0788afc0e868a7a7e971ad5d79790b625b43493e7c71be087031329c9.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "28369ed0788afc0e868a7a7e971ad5d79790b625b43493e7c71be087031329c9",
+          "byteSize": 3832861,
+          "pages": 22,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2016/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3",
+          "byteSize": 6390836,
+          "pages": 32,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2016/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf",
+          "byteSize": 3162780,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2016/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2018",
+      "universityId": "osaka",
+      "title": "2018年度 · 電気電子情報通信及前身（实施年2017）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2018,
+      "yearBasis": "academic",
+      "originalYear": "2018年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2018
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bad987c79b30196b979b5b0281dbeacde4b74fae4c0d30bdcbdeff7e1beea3c9.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "bad987c79b30196b979b5b0281dbeacde4b74fae4c0d30bdcbdeff7e1beea3c9",
+          "byteSize": 1886816,
+          "pages": 23,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2017/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0ca9904e876148e061ee9aa93e33d53c7a9257353740feb50089bbfe5d5c94d2.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "0ca9904e876148e061ee9aa93e33d53c7a9257353740feb50089bbfe5d5c94d2",
+          "byteSize": 1870706,
+          "pages": 20,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2017/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/decd1d8fa66d63cd3a1b441ddd7ede3dca3b1b5acf9b90a32ee61642f42b6391.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "decd1d8fa66d63cd3a1b441ddd7ede3dca3b1b5acf9b90a32ee61642f42b6391",
+          "byteSize": 2638855,
+          "pages": 30,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2017/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9",
+          "byteSize": 1181310,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2017/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2019",
+      "universityId": "osaka",
+      "title": "2019年度 · 電気電子情報通信及前身（实施年2018）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "originalYear": "2019年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2019
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/498967c62cf6f84009aa35d2381aa1e49b256b42db81a00f039738f542951cba.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "498967c62cf6f84009aa35d2381aa1e49b256b42db81a00f039738f542951cba",
+          "byteSize": 389751,
+          "pages": 16,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2018/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9d0338ad35e950dc822f0e3520468979bccf4e1c04ba66e2b73d7d38059eb9df.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "9d0338ad35e950dc822f0e3520468979bccf4e1c04ba66e2b73d7d38059eb9df",
+          "byteSize": 594819,
+          "pages": 22,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2018/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10",
+          "byteSize": 765959,
+          "pages": 32,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2018/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce",
+          "byteSize": 329590,
+          "pages": 13,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2018/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2020",
+      "universityId": "osaka",
+      "title": "2020年度 · 電気電子情報通信及前身（实施年2019）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2020,
+      "yearBasis": "academic",
+      "originalYear": "2020年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2020
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/343fb44c8110fedfcca19e83dcf865df01c46fa8e3608d5df5a6713cf2d002eb.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "343fb44c8110fedfcca19e83dcf865df01c46fa8e3608d5df5a6713cf2d002eb",
+          "byteSize": 2806797,
+          "pages": 17,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2019/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6080dbb3e63d48828ef37eefda84de2072144eca4aae345d661d6b057a77096a.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "6080dbb3e63d48828ef37eefda84de2072144eca4aae345d661d6b057a77096a",
+          "byteSize": 678812,
+          "pages": 21,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2019/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/92d24baf9389add5abcd28f1513709841c73b5aab9ff1c4eaee7eb20497838d4.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "92d24baf9389add5abcd28f1513709841c73b5aab9ff1c4eaee7eb20497838d4",
+          "byteSize": 2218846,
+          "pages": 31,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2019/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605",
+          "byteSize": 2068285,
+          "pages": 15,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2019/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
+    },
+    {
+      "id": "osaka-ee-archive-2021",
+      "universityId": "osaka",
+      "title": "2021年度 · 電気電子情報通信及前身（实施年2020）",
+      "graduateSchool": "工学研究科",
+      "department": "電気電子情報通信・前身（历史试卷）",
+      "selectionName": "大学院入学試験",
+      "paperYear": 2021,
+      "yearBasis": "academic",
+      "originalYear": "2021年度（按来源目录实施年推定）",
+      "admissionYears": [
+        2021
+      ],
+      "subjects": [
+        "专业：信息通信工学",
+        "专业：电子与量子信息电子学",
+        "专业：电气工学",
+        "共通基础科目"
+      ],
+      "files": [
+        {
+          "label": "专业：信息通信工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/504be097a505f667d63fed11c0602656ee8fae8c2adc66c2e9d3ab5a2c7aa4b8.pdf",
+          "originalName": "专业_信息通信工学.pdf",
+          "sha256": "504be097a505f667d63fed11c0602656ee8fae8c2adc66c2e9d3ab5a2c7aa4b8",
+          "byteSize": 2031042,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2020/专业_信息通信工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电子与量子信息电子学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/645f10e783d07126694f3c093123ba2061cabbb6cc87ff91230c34e34ef94281.pdf",
+          "originalName": "专业_电子与量子信息电子学.pdf",
+          "sha256": "645f10e783d07126694f3c093123ba2061cabbb6cc87ff91230c34e34ef94281",
+          "byteSize": 1214353,
+          "pages": 23,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2020/专业_电子与量子信息电子学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "专业：电气工学",
+          "kind": "question",
+          "url": "assets/past-papers/documents/a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929.pdf",
+          "originalName": "专业_电气工学.pdf",
+          "sha256": "a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929",
+          "byteSize": 1622734,
+          "pages": 26,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2020/专业_电气工学.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "共通基础科目",
+          "kind": "question",
+          "url": "assets/past-papers/documents/609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385.pdf",
+          "originalName": "共通基础科目.pdf",
+          "sha256": "609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385",
+          "byteSize": 1307245,
+          "pages": 14,
+          "sourcePaths": [
+            "大阪大学_电气电子信息通信及前身_合并整理版/2020/共通基础科目.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。",
+      "sourceBatch": "osaka-ee-archive-20261103"
     }
   ],
   "schoolNotes": {
@@ -40192,7 +41969,7 @@
       ]
     },
     "osaka": {
-      "text": "本校154组／227个PDF、1539页，无随卷解答。2026-10-15已上线的57组／95个PDF、720页保持不变：电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。2026-10-18补录原先排除的理学数学、理学物理、基础工学数理科学、物性物理科学和情报基础数学，新增97组、132个唯一PDF、819页。理学数学按封面入学年度，8月的数学問題A／B合成一组；封面印「第2次募集」的2022、2023另组；其余11月或2月场封面未印二次，不按文件名写成二次募集。本目录没有2021年度数学册。理学物理封面只印实施年月，paperYear用入学年度（8月或9月实施对应次年4月入学），2012—2021各页未印日期，不补实施日。数理科学与物性物理科学按封面入学年度，科目名加「専門科目」，不虚构专攻。情報基礎数学専攻2005—2025按封面平成／令和年度。環境工学コース小論文5份和口述試問サンプル不建真题入口。年度按卷面入学年度。基礎工学既有科目仍按「専門科目」分组。不声明全校或所有年份齐全。"
+      "text": "本校171组／330个PDF、3005页，无随卷解答。2026-11-03补入电气电子信息通信及前身资料，实施年2004—2025共110份，其中7份复用原件；扫描卷部分年度按目录推定，具体以卷面为准。2026-10-15已上线的57组／95个PDF、720页保持不变：电气电子信息通信2022—2025含基礎科目和补入的专业卷，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。2026-10-18补录原先排除的理学数学、理学物理、基础工学数理科学、物性物理科学和情报基础数学，新增97组、132个唯一PDF、819页。理学数学按封面入学年度，8月的数学問題A／B合成一组；封面印「第2次募集」的2022、2023另组；其余11月或2月场封面未印二次，不按文件名写成二次募集。本目录没有2021年度数学册。理学物理封面只印实施年月，paperYear用入学年度（8月或9月实施对应次年4月入学），2012—2021各页未印日期，不补实施日。数理科学与物性物理科学按封面入学年度，科目名加「専門科目」，不虚构专攻。情報基礎数学専攻2005—2025按封面平成／令和年度。環境工学コース小論文5份和口述試問サンプル不建真题入口。年度按卷面入学年度。基礎工学既有科目仍按「専門科目」分组。不声明全校或所有年份齐全。"
     },
     "kyushu": {
       "text": "本校42组／30个PDF、1183页，无解答。システム情報科学府修士課程入学試験10册：情報理工学専攻与電気電子工学専攻各令和3–7年度入学（2021–2025），实施日按封面为2020-12-05至06、2021-08-30至31、2022-08-29至30、2023-08-29至30、2024-09-10至11。paperYear按封面令和入学年度，examYear按实施年；R03是2021年入学、2020年12月实施。第1页为封面，其后到专门科目前是两专攻共用的数学（同年两册该段提取文本一致），专门科目从R03第9页、R04第7页、R05第8页、R06第9页、R07第8页打开，整册不拆。R04专门科目为扫描图；R06封面与数学页文字层乱码，封面经渲染核对。另有理工学専攻合册6份：2023–2025年度的2月与9月，封面只印理工学専攻（博士前期／修士・博士後期・前後期共通）和理工基礎题群，未印学府名，不写成総合理工学府，也不把题群当成独立专攻。只为機械工学基礎、電気・電子工学基礎、情報学基礎设入口；化学基礎、数学基礎、物理学基礎、生物科学基礎留在原册。2025年2月册未见生物科学基礎页眉，2024年2月册未见物理学基礎页眉。2025年度9月、2月两册与已上线的上智大学问题册字节相同，不另存、不改上智记录。不声明其他年度或全校齐全。 2026-10-30补充历史整卷：电气电子方向现覆盖2008–2026入学年度；本批19份中5份与已有2021–2025年度PDF哈希一致，复用原记录，新增2008–2020及2026共14份、537页。2008年度合册保留電気電子システム工学専攻／電子デバイス工学専攻旧名称，英语部分为示例题；2009年度起封面为電気電子工学専攻。新增册从封面阅读，未做逐题拆分。"
