@@ -41,7 +41,14 @@ test('Osaka electrical archive retains all supplied files and distinguishes fold
  const years=papers.filter(p=>p.sourceBatch==='osaka-ee-archive-20261103');assert.deepEqual(years.map(p=>p.paperYear),Array.from({length:17},(_,i)=>2005+i));
  for(const p of years){assert.match(p.sourceNote,/推定|待复核/);assert.ok(p.files.every(f=>fs.existsSync(path.join(__dirname,'..',f.url))));}
 });
-test('course filters include related historical and shared papers without altering other courses',()=>{
+test('Osaka electrical courses stay separate and predecessor papers appear under each course',()=>{
  const courses=['電気工学','量子情報エレクトロニクス','情報通信工学'];
- for(const course of courses){const department=`電気電子情報通信工学専攻／${course}コース`;const state={school:'osaka',graduate:'工学研究科',department,year:'all',query:''};const found=core.filter(papers,catalog.universities,state);assert.equal(found.length,22);assert.ok(found.some(p=>p.paperYear===2005));assert.ok(found.some(p=>p.paperYear===2025));assert.equal(core.filter(papers,catalog.universities,{...state,year:'2005'}).length,1);assert.ok(!found.some(p=>p.paperYear===2026&&p.department!==department));}
+ const departments=courses.map(course=>`電気電子情報通信工学専攻／${course}コース`);
+ const basics='電気電子情報通信工学専攻（基礎科目共通）';
+ const predecessor='電気電子情報通信・前身（历史试卷）';
+ assert.deepEqual(papers.filter(p=>p.id.startsWith('osaka-ee-basic-')).map(p=>p.department),Array(4).fill(basics));
+ const history=papers.filter(p=>p.department===predecessor);assert.equal(history.length,17);
+ assert.ok(history.every(p=>Array.isArray(p.filterDepartments)&&departments.every(d=>p.filterDepartments.includes(d))));
+ assert.ok(!papers.some(p=>p.department==='電気電子情報通信工学専攻'));
+ for(const department of departments){const state={school:'osaka',graduate:'工学研究科',department,year:'all',query:''};const found=core.filter(papers,catalog.universities,state);assert.equal(found.length,22);assert.ok(found.some(p=>p.department===predecessor&&p.paperYear===2005));assert.ok(found.some(p=>p.department===basics&&p.paperYear===2025));assert.equal(core.filter(papers,catalog.universities,{...state,year:'2005'}).length,1);assert.ok(!found.some(p=>p.paperYear===2026&&p.department!==department));}
 });
