@@ -23132,8 +23132,7 @@
       "universityId": "osaka",
       "title": "2022年度 · 電気電子情報通信工学専攻（基礎科目共通）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信工学専攻（基礎科目共通）",
+      "department": "電気電子情報通信工学専攻（基礎科目共通）",
       "selectionName": "博士前期課程入学試験",
       "paperYear": 2022,
       "yearBasis": "academic",
@@ -23205,15 +23204,19 @@
         }
       ],
       "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。 2026-11-03补入用户新资料中的三个专业卷；来源目录年份为实施年，已与原有基礎科目并列。原文件名是整理标签，具体课程以卷面为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-basic-2023",
       "universityId": "osaka",
       "title": "2023年度 · 電気電子情報通信工学専攻（基礎科目共通）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信工学専攻（基礎科目共通）",
+      "department": "電気電子情報通信工学専攻（基礎科目共通）",
       "selectionName": "博士前期課程入学試験",
       "paperYear": 2023,
       "yearBasis": "academic",
@@ -23285,15 +23288,19 @@
         }
       ],
       "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。 2026-11-03补入用户新资料中的三个专业卷；来源目录年份为实施年，已与原有基礎科目并列。原文件名是整理标签，具体课程以卷面为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-basic-2024",
       "universityId": "osaka",
       "title": "2024年度 · 電気電子情報通信工学専攻（基礎科目共通）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信工学専攻（基礎科目共通）",
+      "department": "電気電子情報通信工学専攻（基礎科目共通）",
       "selectionName": "博士前期課程入学試験",
       "paperYear": 2024,
       "yearBasis": "academic",
@@ -23365,15 +23372,19 @@
         }
       ],
       "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。 2026-11-03补入用户新资料中的三个专业卷；来源目录年份为实施年，已与原有基礎科目并列。原文件名是整理标签，具体课程以卷面为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-basic-2025",
       "universityId": "osaka",
       "title": "2025年度 · 電気電子情報通信工学専攻（基礎科目共通）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信工学専攻（基礎科目共通）",
+      "department": "電気電子情報通信工学専攻（基礎科目共通）",
       "selectionName": "博士前期課程入学試験",
       "paperYear": 2025,
       "yearBasis": "academic",
@@ -23445,15 +23456,19 @@
         }
       ],
       "sourceNote": "用户Google Drive“过去问／大阪大学”原件，完整PDF字节保持。按卷面入学年度索引，不直接使用文件名年份，也不从入学年度补推具体考试日期。 电气工学、量子情報エレクトロニクス、情報通信工学课程共用原卷；按各课程封面的选答表使用。只取得该年度基礎科目，不声明专业卷齐全；文件名2021／2022／2024分别对应卷面2022／2023／2025入学年度。未随卷提供解答。 2026-11-03补入用户新资料中的三个专业卷；来源目录年份为实施年，已与原有基礎科目并列。原文件名是整理标签，具体课程以卷面为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/"
+      "sourceURL": "https://www.eng.osaka-u.ac.jp/ja/entrance/g_admissions/",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-quantum-electronics-2026",
       "universityId": "osaka",
       "title": "2026年度 · 電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+      "department": "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
       "selectionName": "博士前期課程入学試験",
       "paperYear": 2026,
       "yearBasis": "academic",
@@ -23490,8 +23505,7 @@
       "universityId": "osaka",
       "title": "2026年度 · 電気電子情報通信工学専攻／電気工学コース",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信工学専攻／電気工学コース",
+      "department": "電気電子情報通信工学専攻／電気工学コース",
       "selectionName": "博士前期課程入学試験",
       "paperYear": 2026,
       "yearBasis": "academic",
@@ -23528,8 +23542,7 @@
       "universityId": "osaka",
       "title": "2026年度 · 電気電子情報通信工学専攻／情報通信工学コース",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信工学専攻／情報通信工学コース",
+      "department": "電気電子情報通信工学専攻／情報通信工学コース",
       "selectionName": "博士前期課程入学試験",
       "paperYear": 2026,
       "yearBasis": "academic",
@@ -40303,8 +40316,7 @@
       "universityId": "osaka",
       "title": "2005年度 · 電気電子情報通信及前身（实施年2004）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2005,
       "yearBasis": "academic",
@@ -40415,15 +40427,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2006",
       "universityId": "osaka",
       "title": "2006年度 · 電気電子情報通信及前身（实施年2005）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2006,
       "yearBasis": "academic",
@@ -40534,15 +40550,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2007",
       "universityId": "osaka",
       "title": "2007年度 · 電気電子情報通信及前身（实施年2006）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2007,
       "yearBasis": "academic",
@@ -40653,15 +40673,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2008",
       "universityId": "osaka",
       "title": "2008年度 · 電気電子情報通信及前身（实施年2007）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2008,
       "yearBasis": "academic",
@@ -40772,15 +40796,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2009",
       "universityId": "osaka",
       "title": "2009年度 · 電気電子情報通信及前身（实施年2008）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2009,
       "yearBasis": "academic",
@@ -40891,15 +40919,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2010",
       "universityId": "osaka",
       "title": "2010年度 · 電気電子情報通信及前身（实施年2009）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2010,
       "yearBasis": "academic",
@@ -41010,15 +41042,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2011",
       "universityId": "osaka",
       "title": "2011年度 · 電気電子情報通信及前身（实施年2010）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2011,
       "yearBasis": "academic",
@@ -41101,15 +41137,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2012",
       "universityId": "osaka",
       "title": "2012年度 · 電気電子情報通信及前身（实施年2011）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2012,
       "yearBasis": "academic",
@@ -41192,15 +41232,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2013",
       "universityId": "osaka",
       "title": "2013年度 · 電気電子情報通信及前身（实施年2012）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2013,
       "yearBasis": "academic",
@@ -41283,15 +41327,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2014",
       "universityId": "osaka",
       "title": "2014年度 · 電気電子情報通信及前身（实施年2013）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2014,
       "yearBasis": "academic",
@@ -41374,15 +41422,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2015",
       "universityId": "osaka",
       "title": "2015年度 · 電気電子情報通信及前身（实施年2014）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2015,
       "yearBasis": "academic",
@@ -41465,15 +41517,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2016",
       "universityId": "osaka",
       "title": "2016年度 · 電気電子情報通信及前身（实施年2015）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2016,
       "yearBasis": "academic",
@@ -41542,15 +41598,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2017",
       "universityId": "osaka",
       "title": "2017年度 · 電気電子情報通信及前身（实施年2016）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2017,
       "yearBasis": "academic",
@@ -41619,15 +41679,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2018",
       "universityId": "osaka",
       "title": "2018年度 · 電気電子情報通信及前身（实施年2017）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2018,
       "yearBasis": "academic",
@@ -41696,15 +41760,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2019",
       "universityId": "osaka",
       "title": "2019年度 · 電気電子情報通信及前身（实施年2018）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2019,
       "yearBasis": "academic",
@@ -41773,15 +41841,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2020",
       "universityId": "osaka",
       "title": "2020年度 · 電気電子情報通信及前身（实施年2019）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2020,
       "yearBasis": "academic",
@@ -41850,15 +41922,19 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     },
     {
       "id": "osaka-ee-archive-2021",
       "universityId": "osaka",
       "title": "2021年度 · 電気電子情報通信及前身（实施年2020）",
       "graduateSchool": "工学研究科",
-      "department": "電気電子情報通信工学専攻",
-      "originalMajor": "電気電子情報通信・前身（历史试卷）",
+      "department": "電気電子情報通信・前身（历史试卷）",
       "selectionName": "大学院入学試験",
       "paperYear": 2021,
       "yearBasis": "academic",
@@ -41927,7 +42003,12 @@
         }
       ],
       "sourceNote": "用户提供的按实施年整理的资料；索引年度根据目录年份加一年，具体年份及历史名称以各卷封面为准，无法辨读的扫描件年度有待复核。原文件名是整理标签，专业及选答范围以原卷为准。 本年度资料按相关课程提供检索，可能包含其他课程或历史科目；课程归属及选答范围请核对卷面。",
-      "sourceBatch": "osaka-ee-archive-20261103"
+      "sourceBatch": "osaka-ee-archive-20261103",
+      "filterDepartments": [
+        "電気電子情報通信工学専攻／量子情報エレクトロニクスコース",
+        "電気電子情報通信工学専攻／電気工学コース",
+        "電気電子情報通信工学専攻／情報通信工学コース"
+      ]
     }
   ],
   "schoolNotes": {

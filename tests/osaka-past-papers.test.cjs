@@ -9,7 +9,7 @@ test('Osaka preserves original files, deduplicates one copy, and keeps all previ
 });
 test('Osaka uses cover years rather than filenames and distinguishes common basics from course papers',()=>{
  for(const [name,year] of [['2021 basic.pdf',2022],['2022 basic.pdf',2023],['基礎科目.pdf',2024],['2024basic.pdf',2025]]){const p=papers.find(p=>p.files.some(f=>f.originalName===name));assert.equal(p.paperYear,year);assert.equal(p.files.length,4);assert.equal(p.files[0].startPage,2);assert.equal(p.examYear,undefined);}
- const courses=papers.filter(p=>p.id.startsWith('osaka-ee-')&&p.paperYear===2026);assert.equal(courses.length,3);assert.ok(courses.every(p=>p.department==='電気電子情報通信工学専攻'));assert.equal(new Set(courses.map(p=>p.originalMajor)).size,3);assert.ok(courses.every(p=>p.files.length===1&&p.files[0].pages>=16));
+ const courses=papers.filter(p=>p.id.startsWith('osaka-ee-')&&p.paperYear===2026);assert.equal(courses.length,3);assert.equal(new Set(courses.map(p=>p.department)).size,3);assert.ok(courses.every(p=>p.files.length===1&&p.files[0].pages>=16));
  const intelligent=papers.filter(p=>p.id.startsWith('osaka-intelligent'));assert.deepEqual(intelligent.map(p=>p.paperYear),[2021,2022,2023,2024,2025,2026]);assert.deepEqual(intelligent[0].files.map(f=>f.originalName),['R2-1.pdf','R2-2.pdf']);
  const mechanical=papers.filter(p=>p.id.startsWith('osaka-mechanical'));assert.deepEqual(mechanical.map(p=>p.paperYear),Array.from({length:13},(_,i)=>2014+i));assert.match(mechanical.find(p=>p.paperYear===2019).originalYear,/平成31.*2019/);
 });
@@ -41,9 +41,14 @@ test('Osaka electrical archive retains all supplied files and distinguishes fold
  const years=papers.filter(p=>p.sourceBatch==='osaka-ee-archive-20261103');assert.deepEqual(years.map(p=>p.paperYear),Array.from({length:17},(_,i)=>2005+i));
  for(const p of years){assert.match(p.sourceNote,/推定|待复核/);assert.ok(p.files.every(f=>fs.existsSync(path.join(__dirname,'..',f.url))));}
 });
-test('Osaka electrical courses, shared basics and predecessor papers share one department entry',()=>{
- const ee=papers.filter(p=>p.graduateSchool==='工学研究科'&&/^電気電子情報通信/.test(p.originalMajor||p.department));assert.equal(ee.length,24);
- assert.ok(ee.every(p=>p.department==='電気電子情報通信工学専攻'&&p.originalMajor&&!p.filterDepartments));
- const state={school:'osaka',graduate:'工学研究科',department:'電気電子情報通信工学専攻',year:'all',query:''};assert.equal(core.filter(papers,catalog.universities,state).length,24);assert.equal(core.filter(papers,catalog.universities,{...state,year:'2005'}).length,1);assert.equal(core.filter(papers,catalog.universities,{...state,year:'2026'}).length,3);
- assert.ok(!papers.some(p=>/コース|基礎科目共通|前身/.test(p.department)&&p.graduateSchool==='工学研究科'&&p.department!=='物理学系専攻／精密工学コース'));
+test('Osaka electrical courses stay separate and predecessor papers appear under each course',()=>{
+ const courses=['電気工学','量子情報エレクトロニクス','情報通信工学'];
+ const departments=courses.map(course=>`電気電子情報通信工学専攻／${course}コース`);
+ const basics='電気電子情報通信工学専攻（基礎科目共通）';
+ const predecessor='電気電子情報通信・前身（历史试卷）';
+ assert.deepEqual(papers.filter(p=>p.id.startsWith('osaka-ee-basic-')).map(p=>p.department),Array(4).fill(basics));
+ const history=papers.filter(p=>p.department===predecessor);assert.equal(history.length,17);
+ assert.ok(history.every(p=>Array.isArray(p.filterDepartments)&&departments.every(d=>p.filterDepartments.includes(d))));
+ assert.ok(!papers.some(p=>p.department==='電気電子情報通信工学専攻'));
+ for(const department of departments){const state={school:'osaka',graduate:'工学研究科',department,year:'all',query:''};const found=core.filter(papers,catalog.universities,state);assert.equal(found.length,22);assert.ok(found.some(p=>p.department===predecessor&&p.paperYear===2005));assert.ok(found.some(p=>p.department===basics&&p.paperYear===2025));assert.equal(core.filter(papers,catalog.universities,{...state,year:'2005'}).length,1);assert.ok(!found.some(p=>p.paperYear===2026&&p.department!==department));}
 });
