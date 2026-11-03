@@ -57,7 +57,7 @@
     if (selected('sourceKind') && s.kind !== f.sourceKind) return false;
     if (s.kind === 'exam') {
       if (selected('school') && s.school !== f.school) return false;
-      if (selected('major') && JSON.stringify([s.school, s.graduate || '', s.major]) !== f.major) return false;
+      if (selected('major') && ![s.major, ...(Array.isArray(s.relatedMajors) ? s.relatedMajors : [])].some(major => JSON.stringify([s.school, s.graduate || '', major]) === f.major)) return false;
     } else if (s.kind === 'workbook') {
       if (selected('book') && s.book !== f.book) return false;
     } else if (selected('school') || selected('major') || selected('book')) return false;

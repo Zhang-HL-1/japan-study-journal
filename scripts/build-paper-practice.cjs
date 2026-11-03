@@ -33,7 +33,7 @@ function build(data=catalog,schools=universities){
   return {id:'paper:'+p.id,type:'paper',subject:subjects[0],subjects,chapter:'原卷练习',difficulty:'未标注',title:p.title,
    prompt:'按整套原卷练习，公式、图表和日文题干以 PDF 原件为准。合卷包含多个科目，尚未逐题拆分。',
    answerText:'',explanation:[],hint:'请先独立作答；完成标记不代表答对，不计入正确率。',
-   provenance:{kind:'exam',school:school.name,graduate:p.graduateSchool,major:p.department||'专攻未标注',year:p.originalYear||String(year),label:p.selectionName},
+   provenance:{kind:'exam',school:school.name,graduate:p.graduateSchool,major:p.department||'专攻未标注',...(p.filterDepartments?.length?{relatedMajors:p.filterDepartments}:{}),year:p.originalYear||String(year),label:p.selectionName},
    paper:{catalogId:p.id,schoolId:p.universityId,year,yearBasis:p.yearBasis||'exam',examDates:p.examDates||[],originalSubjects:p.subjects||[],sourceNote:p.sourceNote||'',completeness:p.completeness||'',files},
    searchTerms:[...(school.aliases||[]),...(p.subjects||[]),...files.map(f=>f.label)].join(' ')};
  }).sort((a,b)=>b.paper.year-a.paper.year||a.provenance.school.localeCompare(b.provenance.school,'ja')||a.id.localeCompare(b.id));

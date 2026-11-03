@@ -37,3 +37,12 @@ test('paper completion is retained in backups and never contributes to scoring o
  const graded={id:'single',type:'choice'};core.recordResult(restored,'single',true,1,'2026-10-22');assert.equal(core.stats([q,graded],restored).accuracy,100);
  core.recordPaperCompletion(restored,q.id,false,'2026-10-22');assert.equal(core.isDone(q,restored.records[q.id]),false);assert.equal(restored.records[q.id].note,'我的推导');
 });
+
+test('Osaka whole papers are available under each relevant course and year',()=>{
+ for(const course of ['電気工学','情報通信工学','量子情報エレクトロニクス']){
+  const major=JSON.stringify(['大阪大学','工学研究科',`電気電子情報通信工学専攻／${course}コース`]);
+  const filters={school:'大阪大学',major,practiceMode:'paper'};const found=core.filterQuestions(bank,filters,{});
+  assert.equal(found.length,22);for(const year of [2005,2011,2022,2025,2026])assert.equal(core.filterQuestions(bank,{...filters,paperYear:String(year)},{}).length,1);
+  const shared=found.find(q=>q.paper.year===2025);assert.equal(shared.paper.files.length,4);assert.ok(shared.paper.files.some(f=>f.label.includes('专业')));
+ }
+});

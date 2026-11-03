@@ -41,6 +41,7 @@ const all=bank.concat(sets);
    assert.equal(await page.locator('#question-set-links a').first().getAttribute('href'),'question-practice.html?paper=science-tokyo-ee-2025');
    await page.locator('#reset-filters').click();
   }
+  await page.selectOption('#practiceMode','paper');await page.selectOption('#school','大阪大学');await page.selectOption('#major',JSON.stringify(['大阪大学','工学研究科','電気電子情報通信工学専攻／電気工学コース']));assert.equal(await page.locator('#question-grid button').count(),22);await page.selectOption('#paperYear','2025');assert.equal(await page.locator('#question-grid button').count(),1);assert.equal(await page.locator('#practice-paper-files button').count(),4);await page.locator('#reset-filters').click();
   await page.selectOption('#practice-picker','3');assert.match(await page.locator('#position').textContent(),/^4 \/ /);
   await page.locator('#focus-practice').click();assert.equal(await page.locator('.filter-panel').isVisible(),false);await page.keyboard.press('Escape');assert.equal(await page.locator('.filter-panel').isVisible(),true);
   await page.selectOption('#school','上智大学');assert.equal(await page.locator('#practice-reference-links a').count()>0,true);assert.match(await page.locator('#practice-answer-status').textContent(),/附有参考解答/);
