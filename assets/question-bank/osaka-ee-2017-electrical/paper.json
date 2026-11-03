@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2017-electrical",
+  "title": "大阪大学 · 2017 入学年度 · 专门科目（电气工学课程）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2017",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2017,
+    "yearBasis": "academic",
+    "subject": "专门科目（电气工学）",
+    "originalSubject": "専門科目試験問題（電気工学コース）",
+    "originalName": "专业_电气工学.pdf",
+    "pdf": "assets/past-papers/documents/10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3.pdf",
+    "sha256": "10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3",
+    "pageCount": 32,
+    "note": "平成29年度（2017年度）入学試験。原卷封面只标实施时间 14:00–16:00，未标具体实施日期，不推断考试日。全卷5分野9题，任选2分野以上共3题。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2017-electrical/common-01.png",
+      "page": 1,
+      "box": [
+        40,
+        141,
+        552,
+        393
+      ],
+      "width": 1536,
+      "height": 756,
+      "label": "卷头：平成29年度・電気電子情報工学専攻・専門科目試験問題（電気工学コース）・実施時間",
+      "sha256": "263e8c2bc9d663efe20204b9edca2a749c2c2557c2323626d1349faba999927d"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2017-electrical/common-02.png",
+      "page": 1,
+      "box": [
+        40,
+        483,
+        552,
+        683
+      ],
+      "width": 1536,
+      "height": 600,
+      "label": "注意事項：ページ数、5分野9題の構成、2分野以上3題の選択ルール",
+      "sha256": "00ebb69c9504908e5dac51ba6226551ba9beb188bd2bb4ac9646aed805381755"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2017-electrical-q1",
+      "number": "制御工学",
+      "title": "传递函数稳定性与反馈系统稳定裕度、状态方程极点配置",
+      "titleKind": "editorial",
+      "topics": [
+        "制御工学",
+        "传递函数",
+        "稳定判据",
+        "反馈系统",
+        "增益余裕",
+        "相位余裕",
+        "状态方程",
+        "极点配置"
+      ],
+      "summary": "含 1.（三阶传递函数的阶跃响应与稳定必要条件）、2.（反馈系统的增益余裕与相位余裕）、3.（状态方程与扩张系统的极点配置、定常值）。保留 図1 与全部公式，不拆小问。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷2–3页逐段核对题号、小问、公式与图号；页眉页脚未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q1-01.png",
+          "page": 2,
+          "box": [
+            40,
+            95,
+            552,
+            482
+          ],
+          "width": 1536,
+          "height": 1161,
+          "label": "制御工学：第2页题干与图表",
+          "sha256": "5f6de066a9bf0a2e188cd95b1030d55732cbeb73f2209c2d9f42eb34728bd3a5"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q1-02.png",
+          "page": 3,
+          "box": [
+            40,
+            81,
+            552,
+            647
+          ],
+          "width": 1536,
+          "height": 1698,
+          "label": "制御工学：第3页题干与图表",
+          "sha256": "b6fe74b9ec3352a657a3fb96fdfdd27ee529fa209480989c3f5e3513ededfb45"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2017-electrical-q2",
+      "number": "パワーエレクトロニクスと電気機器",
+      "title": "单相逆变器波形与同步发电机特性",
+      "titleKind": "editorial",
+      "topics": [
+        "电力电子",
+        "单相逆变器",
+        "THD",
+        "同步发电机",
+        "电压变动率",
+        "V曲线"
+      ],
+      "summary": "含 1.（单相逆变器 v_AB 波形、基波有效值、THD、二极管作用，含図1(a)(b)）、2.（非突极同期发电机的向量图、电压变动率、输出功率、V曲线，含図2）。不拆小问。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷5–6页逐段核对题号、小问、公式与图号；页眉页脚未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q2-01.png",
+          "page": 5,
+          "box": [
+            40,
+            82,
+            548,
+            641
+          ],
+          "width": 1524,
+          "height": 1677,
+          "label": "パワーエレクトロニクスと電気機器：第5页题干与图表",
+          "sha256": "4b9ace09271bb2cf32055797678629679e460d7424bec31e6668c04d05a94d77"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q2-02.png",
+          "page": 6,
+          "box": [
+            40,
+            99,
+            552,
+            526
+          ],
+          "width": 1536,
+          "height": 1281,
+          "label": "パワーエレクトロニクスと電気機器：第6页题干与图表",
+          "sha256": "bfd6f13c291c8d9556d59d3866302098c40c166f270b0b5e2b56b90481cc1f47"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2017-electrical-q3",
+      "number": "電磁気工学1",
+      "title": "电磁场中带电粒子运动与磁镜",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁场",
+        "洛伦兹力",
+        "运动方程式",
+        "回旋运动",
+        "磁镜",
+        "轨迹"
+      ],
+      "summary": "填空（ア）～（ス），含式(1)～(7)、図1（轨迹作图）、図2（x方向时间变化）与（ス）记述框。跨2页整题保留。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷8–9页逐段核对题号、小问、公式与图号；页眉页脚未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q3-01.png",
+          "page": 8,
+          "box": [
+            40,
+            97,
+            552,
+            753
+          ],
+          "width": 1536,
+          "height": 1968,
+          "label": "電磁気工学1：第8页题干与图表",
+          "sha256": "0e3d1f3b6bfe7f0acb6f645ed68fc234ec45d0415a6a9af3c07b6f86c2710cbb"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q3-02.png",
+          "page": 9,
+          "box": [
+            40,
+            83,
+            552,
+            563
+          ],
+          "width": 1536,
+          "height": 1440,
+          "label": "電磁気工学1：第9页题干与图表",
+          "sha256": "8dbd0f2423e4cef7bfa2476ced2f412d490853c3a50b5094d7c0bd3957432f36"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2017-electrical-q4",
+      "number": "電磁気工学2",
+      "title": "等离子体振荡与电磁波色散",
+      "titleKind": "editorial",
+      "topics": [
+        "等离子体",
+        "等离子体振荡",
+        "电磁波",
+        "色散关系",
+        "位相速度",
+        "群速度"
+      ],
+      "summary": "含 1.（2成分等离子体的电子云位移、等离子体振荡频率，含図1）与 2.（电磁波传播、比诱电率、位相速度/群速度、衰减距离）。填空（ア）～（セ）跨3页整题保留。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷11–13页逐段核对题号、小问、公式与图号；页眉页脚未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q4-01.png",
+          "page": 11,
+          "box": [
+            40,
+            120,
+            550,
+            748
+          ],
+          "width": 1530,
+          "height": 1884,
+          "label": "電磁気工学2：第11页题干与图表",
+          "sha256": "f7b4d5b2611323570ddf7742f1f182f5bbe4fd8a5e584f5ff9a8481499b50723"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q4-02.png",
+          "page": 12,
+          "box": [
+            40,
+            112,
+            550,
+            761
+          ],
+          "width": 1530,
+          "height": 1947,
+          "label": "電磁気工学2：第12页题干与图表",
+          "sha256": "9b2517e7a0d64e83d2f814340a73ca519bd7b8b1d3c2ac2372ac59562979ad80"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q4-03.png",
+          "page": 13,
+          "box": [
+            40,
+            140,
+            550,
+            281
+          ],
+          "width": 1530,
+          "height": 423,
+          "label": "電磁気工学2：第13页题干与图表",
+          "sha256": "c85f2bb2dcc01c206c862b0fdf68d762b0986a3fd8fb993628125a52eb9ef84a"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2017-electrical-q5",
+      "number": "量子電子物性1",
+      "title": "自由电子气体与费米能级、能带与群速度",
+      "titleKind": "editorial",
+      "topics": [
+        "自由电子",
+        "薛定谔方程",
+        "周期边界条件",
+        "费米能级",
+        "费米速度",
+        "布拉格反射",
+        "群速度",
+        "有效质量"
+      ],
+      "summary": "填空[①]～[⑰]及 問1～問4，含図1-1（面心立方格子）、図1-2（半金属能带作图）。跨3页整题保留。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷15–17页逐段核对题号、小问、公式与图号；页眉页脚未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q5-01.png",
+          "page": 15,
+          "box": [
+            40,
+            87,
+            550,
+            749
+          ],
+          "width": 1530,
+          "height": 1986,
+          "label": "量子電子物性1：第15页题干与图表",
+          "sha256": "14363a7113f1d9b828f3771405ea0dca2f9bc6fec5ca23b36bac3bcdf4a4ce2f"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q5-02.png",
+          "page": 16,
+          "box": [
+            40,
+            88,
+            550,
+            742
+          ],
+          "width": 1530,
+          "height": 1962,
+          "label": "量子電子物性1：第16页题干与图表",
+          "sha256": "b0a2527e530e3e15222b644a5d5a1f25a378eb962a4a1bd27cc8f27474a55af4"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q5-03.png",
+          "page": 17,
+          "box": [
+            40,
+            88,
+            550,
+            695
+          ],
+          "width": 1530,
+          "height": 1821,
+          "label": "量子電子物性1：第17页题干与图表",
+          "sha256": "5de2ca97798e12dd20c2a416dbaf5740f5b70d2b4e262e2618c82054c0871c04"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2017-electrical-q6",
+      "number": "量子電子物性2",
+      "title": "半导体载流子迁移率、扩散与光吸收",
+      "titleKind": "editorial",
+      "topics": [
+        "半导体",
+        "掺杂",
+        "迁移率",
+        "扩散系数",
+        "爱因斯坦关系",
+        "光吸收",
+        "直接跃迁",
+        "间接跃迁",
+        "激子"
+      ],
+      "summary": "含[Ⅰ]（n型半导体传导电子、迁移率、扩散电流）、[Ⅱ]（光吸收与直接/间接跃迁、激子结合能式(6)）及 問1～問6，含図2-1（GaAs 光吸收谱）。跨3页整题保留。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷18–20页逐段核对题号、小问、公式与图号；页眉页脚未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q6-01.png",
+          "page": 18,
+          "box": [
+            40,
+            83,
+            552,
+            750
+          ],
+          "width": 1536,
+          "height": 2001,
+          "label": "量子電子物性2：第18页题干与图表",
+          "sha256": "91288f526e4b7f882410400a4c6ce39324241c9e67dafee3ecc828f39da5e042"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q6-02.png",
+          "page": 19,
+          "box": [
+            40,
+            91,
+            550,
+            602
+          ],
+          "width": 1530,
+          "height": 1533,
+          "label": "量子電子物性2：第19页题干与图表",
+          "sha256": "7ac91ecd9adf11b29d1235d9355ec7c827c54f3b0342be906ddfcf663aa09d44"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q6-03.png",
+          "page": 20,
+          "box": [
+            40,
+            87,
+            550,
+            697
+          ],
+          "width": 1530,
+          "height": 1830,
+          "label": "量子電子物性2：第20页题干与图表",
+          "sha256": "6bc89e507c9a3b422bd4c482ffc2ec6d891213d90f4439ad902e2636c4717d2d"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2017-electrical-q7",
+      "number": "量子電子物性3",
+      "title": "MOSFET 能带图与阈值电压",
+      "titleKind": "editorial",
+      "topics": [
+        "MOSFET",
+        "能带图",
+        "空乏层",
+        "泊松方程",
+        "阈值电压",
+        "表面电位"
+      ],
+      "summary": "含 図3-1（MOSFET 能带图）、式(1)～(13)填空①～⑳及 問1～問4。跨3页整题保留。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷21–23页逐段核对题号、小问、公式与图号；页眉页脚未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q7-01.png",
+          "page": 21,
+          "box": [
+            40,
+            87,
+            550,
+            761
+          ],
+          "width": 1530,
+          "height": 2022,
+          "label": "量子電子物性3：第21页题干与图表",
+          "sha256": "1b1c13f01ea745e97b3ad818174eeda5d92a1f0322c2db02627b55e2332a29b7"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q7-02.png",
+          "page": 22,
+          "box": [
+            40,
+            85,
+            550,
+            734
+          ],
+          "width": 1530,
+          "height": 1947,
+          "label": "量子電子物性3：第22页题干与图表",
+          "sha256": "cc87d24741bc37226e8709928d70e65fd1f732a6f56b434a201cb782585c0b79"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q7-03.png",
+          "page": 23,
+          "box": [
+            40,
+            91,
+            550,
+            327
+          ],
+          "width": 1530,
+          "height": 708,
+          "label": "量子電子物性3：第23页题干与图表",
+          "sha256": "d875a6d881b9822edb09b5d29ec2d89a2d85880faf8913d086a802718bb9f94d"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2017-electrical-q8",
+      "number": "量子電子物性4",
+      "title": "磁化率与离子晶体磁性、中子衍射",
+      "titleKind": "editorial",
+      "topics": [
+        "磁性",
+        "磁化率",
+        "居里法则",
+        "分子场",
+        "强磁性",
+        "反铁磁",
+        "中子衍射",
+        "洪特规则"
+      ],
+      "summary": "含 式(1)～(6)、図4-1（离子晶体 C 的结晶构造与磁构造）及 問1～問4，跨3页整题保留。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷24–26页逐段核对题号、小问、公式与图号；页眉页脚未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q8-01.png",
+          "page": 24,
+          "box": [
+            40,
+            85,
+            550,
+            746
+          ],
+          "width": 1530,
+          "height": 1983,
+          "label": "量子電子物性4：第24页题干与图表",
+          "sha256": "5bfc3292dd380fd8e26eefcccc99322270e280b01b75bfe73556f49cf20863cc"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q8-02.png",
+          "page": 25,
+          "box": [
+            40,
+            85,
+            550,
+            749
+          ],
+          "width": 1530,
+          "height": 1992,
+          "label": "量子電子物性4：第25页题干与图表",
+          "sha256": "68f59c5618c40f4ec57edbbaa399a6cd4924e6fae20d2397d25e35f78aa9e5ff"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q8-03.png",
+          "page": 26,
+          "box": [
+            40,
+            89,
+            550,
+            283
+          ],
+          "width": 1530,
+          "height": 582,
+          "label": "量子電子物性4：第26页题干与图表",
+          "sha256": "a7bdf68bf4909934726cc638fc9a25c2655a4fe6c81ce443b3ea95f15c59f24e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2017-electrical-q9",
+      "number": "信号処理",
+      "title": "DFT 滤波系统与采样定理",
+      "titleKind": "editorial",
+      "topics": [
+        "信号处理",
+        "采样定理",
+        "DFT",
+        "IDFT",
+        "周期扩张",
+        "频率成分提取"
+      ],
+      "summary": "含步骤1～5的信号处理系统、式（DFT/IDFT）及问(i)～(v) 全问，1页整题。 中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷31–31页逐段核对题号、小问、公式与图号；页眉页脚未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2017-electrical/osaka-ee-2017-electrical-q9-01.png",
+          "page": 31,
+          "box": [
+            40,
+            90,
+            550,
+            753
+          ],
+          "width": 1530,
+          "height": 1989,
+          "label": "信号処理：第31页题干与图表",
+          "sha256": "d2a42a47a10a2787feffd081786e11f43b61bffdb2259185583dc2e2084784fe"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面与注意事項，已作为 common 保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q1"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（制御工学の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q2"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（パワーエレクトロニクスと電気機器の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（電磁気工学1の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（電磁気工学2の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q7"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 22,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q7"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 23,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q7"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 24,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q8"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 25,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q8"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 26,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q8"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 27,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（量子電子物性1の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+      "reviewed": true
+    },
+    {
+      "page": 28,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（量子電子物性1・2の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+      "reviewed": true
+    },
+    {
+      "page": 29,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（量子電子物性2・3の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+      "reviewed": true
+    },
+    {
+      "page": 30,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（量子電子物性3・4の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+      "reviewed": true
+    },
+    {
+      "page": 31,
+      "questionIds": [
+        "osaka-ee-2017-electrical-q9"
+      ],
+      "common": false,
+      "excluded": "重复卷头与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 32,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（信号処理の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+      "reviewed": true
+    }
+  ]
+}

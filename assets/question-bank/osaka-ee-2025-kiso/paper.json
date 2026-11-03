@@ -1,0 +1,577 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2025-kiso",
+  "title": "大阪大学 · 2025 入学年度 · 共通基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-basic-2025",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2025,
+    "yearBasis": "academic",
+    "subject": "共通基础科目",
+    "originalSubject": "基礎科目試験問題",
+    "originalName": "2024basic.pdf",
+    "pdf": "assets/past-papers/documents/fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6.pdf",
+    "sha256": "fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6",
+    "pageCount": 16,
+    "note": "2025 年度大学院博士前期課程入学試験の基礎科目（全専攻共通原卷、ファイル名は 2024basic.pdf）。原卷封面标「実施時間 9：30～12：30」，試験問題は「数学1」〜「数学5」・「電磁理論1」「電磁理論2」・「電気電子回路1」「電気電子回路2」の 9 題から 5 題選択、コース別の選択規定は封面の表による。原卷未标实施日期，不推断具体考试日。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2025-kiso/common-01.png",
+      "page": 1,
+      "box": [
+        70.0,
+        413.0,
+        546.0,
+        768.0
+      ],
+      "width": 1428,
+      "height": 1065,
+      "label": "全卷作答说明（注意事項）：問題用紙 15 頁、9 題から 5 題選択、コース別選択ルール（表）、解答用紙・選択票・持帰りに関する指示",
+      "sha256": "f3ce33a05f981f5d4ff9856696dfcb7af594130c877bc53081f7a7afb915443f"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2025-kiso-q1",
+      "number": "数学1",
+      "title": "数学1：矩阵的固有值分解与矩阵指数",
+      "titleKind": "editorial",
+      "topics": [
+        "固有値",
+        "固有ベクトル",
+        "行列の指数関数",
+        "ジョルダン標準形",
+        "正則行列"
+      ],
+      "summary": "【数学1】（白色（1番）解答用紙）。(a) 3 次行列 A, B のすべての固有値と各固有値に対する固有ベクトル、(b) exp(X)=ΣXⁿ/n! の定義のもとで exp(αA+βB) の固有ベクトルと固有値、(c) B を Jordan 標準形に変換する正則行列 P。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the source PDF",
+        "date": "2026-11-03",
+        "notes": "第 1 頁で【数学1】見出し・解答用紙指定・行列 A,B・(a)〜(c) を確認。走査の汚れ・頁脚頁碼は除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q1-01.png",
+          "page": 2,
+          "box": [
+            48.0,
+            57.0,
+            543.0,
+            458.5
+          ],
+          "width": 1485,
+          "height": 1205,
+          "label": "数学1：解答用紙指定（白色 1 番）、行列 A・B の定義と設問 (a)〜(c)",
+          "sha256": "acbf0f63ffa439e5a26213a0f017e3206c1cfd1ef9674135dc85292300cfe6d7"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2025-kiso-q2",
+      "number": "数学2",
+      "title": "数学2：拉普拉斯变换与变系数微分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "微分方程式",
+        "初期条件",
+        "逆変換",
+        "極限定理"
+      ],
+      "summary": "【数学2】（赤色（2番）解答用紙）。(a) L[tf(t)]=−dF/ds と L[df/dt]=sF(s)−f(0) を示す、(b) 初期条件 f(0)=1, f′(0)=2 のもとで t f″+(5t+1)f′+(4t−2)f=0 をラプラス変換して F(s) の微分方程式を導く、(c) それを解いて F(s) を s の関数として表す（lim_{t→0}f(t)=lim_{s→∞}sF(s) を用いてよい）、(d) 逆変換して f(t) を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the source PDF",
+        "date": "2026-11-03",
+        "notes": "第 2 頁で【数学2】見出し・解答用紙指定・(a)〜(d) と式(1) を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q2-01.png",
+          "page": 3,
+          "box": [
+            40.5,
+            67.0,
+            546.5,
+            545.5
+          ],
+          "width": 1519,
+          "height": 1436,
+          "label": "数学2：解答用紙指定（赤色 2 番）、(a)〜(d) の全体（式(1) を含む）",
+          "sha256": "015f789c89eaf28074bef6f0c245976a40045e70cfee0e13878c34e83328d17a"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2025-kiso-q3",
+      "number": "数学3",
+      "title": "数学3：留数定理与定积分",
+      "titleKind": "editorial",
+      "topics": [
+        "複素積分",
+        "留数定理",
+        "積分路",
+        "変数変換",
+        "実積分"
+      ],
+      "summary": "【数学3】（青色（3番）解答用紙）。I=∫₀^∞ (log t)²/(1+t²) dt について、(a) e^z+e^{−z}=0 を満たす z、(b) 図1 の積分路 C を用いて J=∫_{−∞}^{∞} dx/(e^x+e^{−x})、(c) x=log t の変数変換で I を求める。図1（複素平面の積分路）を収録。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the source PDF",
+        "date": "2026-11-03",
+        "notes": "第 3 頁で【数学3】見出し・解答用紙指定・I の定義・(a)〜(c)・図1（積分路と R→∞ の説明）を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q3-01.png",
+          "page": 4,
+          "box": [
+            48.5,
+            42.0,
+            477.5,
+            467.0
+          ],
+          "width": 1288,
+          "height": 1275,
+          "label": "数学3：解答用紙指定（青色 3 番）、定積分 I の定義、(a)〜(c)、図1（積分路 C）と図の説明",
+          "sha256": "8045cada2def5d8f7d48b58ff8dd713a7018798d74d2193fc3a2bc18b2e949f6"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2025-kiso-q4",
+      "number": "数学4",
+      "title": "数学4：傅里叶变换及其性质",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ変換",
+        "逆変換",
+        "単位ステップ関数",
+        "標本化定理",
+        "周波数スペクトル"
+      ],
+      "summary": "【数学4】（黄色（4番）解答用紙）。フーリエ変換・逆変換の定義と単位ステップ関数 u(t) の記号のもとで、(a) g₁(t)=e^{−π|t|} のフーリエ変換、(b) g₂(t)=h(t)cos φt のフーリエ変換、(c) G₃(ω)=1/(2+jω)² の逆変換、(d) 標本化された信号のスペクトルに関する等式の証明。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the source PDF",
+        "date": "2026-11-03",
+        "notes": "第 4 頁で【数学4】見出し・解答用紙指定・定義式・(a)〜(d) の式を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q4-01.png",
+          "page": 5,
+          "box": [
+            48.5,
+            56.5,
+            545.0,
+            732.5
+          ],
+          "width": 1490,
+          "height": 2029,
+          "label": "数学4：解答用紙指定（黄色 4 番）、変換の定義、u(t)、設問 (a)〜(d)",
+          "sha256": "e8ce168fa421174c5d72acb516049b00d92e37126a38a06fc0ffd869443a8565"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2025-kiso-q5",
+      "number": "数学5",
+      "title": "数学5：随机游走与概率母函数",
+      "titleKind": "editorial",
+      "topics": [
+        "ランダムウォーク",
+        "遷移確率",
+        "確率母関数",
+        "2次方程式",
+        "期待値"
+      ],
+      "summary": "【数学5】（水色（5番）解答用紙）。整数値を取る乱歩 {X_n} について、(a) 初到達時間 F₁, F₂ の確率母関数 G₁(z), G₂(z) と G₂ を G₁ で表す、(b) 場合分けにより G₁(z) が満たす 2 次方程式、(c) G₁(z) を求める、(d) Pr(F₁<∞)=1 の条件、(e) E[F₁] が有限となる条件。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the source PDF",
+        "date": "2026-11-03",
+        "notes": "第 5 頁で【数学5】見出し・解答用紙指定・遷移確率・(a)〜(e) を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q5-01.png",
+          "page": 6,
+          "box": [
+            48.5,
+            57.5,
+            544.5,
+            611.0
+          ],
+          "width": 1489,
+          "height": 1661,
+          "label": "数学5：解答用紙指定（水色 5 番）、乱歩の定義、(a)〜(e) の全体",
+          "sha256": "0cbc46912602eced963ea2c56ede0ff5042e7482f8682b9c3b424e31e6af7d24"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2025-kiso-q6",
+      "number": "電磁理論1",
+      "title": "电磁理论1：微小电流元与圆形电流的磁场、磁位",
+      "titleKind": "editorial",
+      "topics": [
+        "ビオ・サバールの法則",
+        "微小電流要素",
+        "円形電流",
+        "磁位",
+        "立体角",
+        "磁気双極子"
+      ],
+      "summary": "【電磁理論1】（桃色(6番)解答用紙）。①〜⑲の空欄に数式・数値・語句を入れる。[1] 微小電流要素による微小磁界（式(1)(2)）とその法則名、[2] 円形電流中心の磁界（式(3)(4)）、[3] 中心軸上の磁界と磁位（式(5)〜(16)、図3）、[4] 十分遠方の磁位と磁気双極子モーメント（式(17)〜(20)、図4）。図1〜図4 を収録。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the source PDF",
+        "date": "2026-11-03",
+        "notes": "第 6〜8 頁で【電磁理論1】見出しから空欄⑲までを通読。図1〜図4 の軸・記号・図番と式(1)〜(20) の連番を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q6-01.png",
+          "page": 7,
+          "box": [
+            44.0,
+            67.5,
+            549.0,
+            773.0
+          ],
+          "width": 1515,
+          "height": 2117,
+          "label": "電磁理論1：解答用紙指定（桃色 6 番）、空欄①〜⑤、図1・図2、[3] の導入",
+          "sha256": "0758a193c6fe91375d736b45b759048f1442bf9bac140dc8795ae3b98daba59b"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q6-02.png",
+          "page": 8,
+          "box": [
+            48.5,
+            68.5,
+            548.5,
+            753.0
+          ],
+          "width": 1501,
+          "height": 2054,
+          "label": "電磁理論1：式(5)〜(14) と空欄⑥〜⑬、図3",
+          "sha256": "e2c954272829d8b915592b86dbe5d2e59769a8077ef420289e3b4be0b1b67818"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q6-03.png",
+          "page": 9,
+          "box": [
+            48.5,
+            73.5,
+            546.0,
+            686.5
+          ],
+          "width": 1493,
+          "height": 1840,
+          "label": "電磁理論1：式(15)(16) と空欄⑭、[4] の式(17)〜(20) と空欄⑮〜⑲、図4",
+          "sha256": "31bde22fd89799878bfdac5663eed9e326c0d4121b620ca3a4295f8bf0f68e71"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2025-kiso-q7",
+      "number": "電磁理論2",
+      "title": "电磁理论2：静电磁场中电子的运动",
+      "titleKind": "editorial",
+      "topics": [
+        "電界",
+        "磁束密度",
+        "運動方程式",
+        "サイクロトロン周波数",
+        "等速円運動",
+        "周期"
+      ],
+      "summary": "【電磁理論2】（緑色(7番)解答用紙）。①〜㉚の空欄に数式・数値・図を入れる。平行完全導体板間の電位・電界（式(1)〜(3)）、電子の運動方程式（式(4)〜(7)）、v_y の微分方程式と一般解（式(8)〜(13)）、等速直線運動と円運動の合成（式(14)〜(16)）、軌跡の概形（図 ㉚）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the source PDF",
+        "date": "2026-11-03",
+        "notes": "第 10〜12 頁で【電磁理論2】見出しから図 ㉚ の指示までを通読。式(1)〜(16)、空欄①〜㉚、導体板と電位の図を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q7-01.png",
+          "page": 11,
+          "box": [
+            44.0,
+            66.0,
+            549.0,
+            760.5
+          ],
+          "width": 1515,
+          "height": 2084,
+          "label": "電磁理論2：解答用紙指定（緑色 7 番）、式(1)〜(9) と空欄①〜⑩（図：導体板と磁束密度）",
+          "sha256": "09d9458c31da27cce7d43c4b7324c258299d4e0e17e2a6f26fb3d22e4902b539"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q7-02.png",
+          "page": 12,
+          "box": [
+            48.5,
+            66.0,
+            549.0,
+            776.0
+          ],
+          "width": 1502,
+          "height": 2130,
+          "label": "電磁理論2：式(10)〜(16) と空欄⑪〜㉙、等速円運動と等速直線運動の合成",
+          "sha256": "b9498b0695eacecd388be14b276130d9073d58c7b2158167937aa89324a88214"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q7-03.png",
+          "page": 13,
+          "box": [
+            48.5,
+            64.0,
+            548.5,
+            137.0
+          ],
+          "width": 1501,
+          "height": 219,
+          "label": "電磁理論2：軌跡の概形（図 ㉚）と座標値の記述（前頁からの続き）",
+          "sha256": "9645e7b3cf34c1df29ad4f0dce3929545aaf794359e8c499c2988658bcba68b7"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2025-kiso-q8",
+      "number": "電気電子回路1",
+      "title": "电气电子回路1：RLC 电路的过渡响应",
+      "titleKind": "editorial",
+      "topics": [
+        "RLC回路",
+        "初期条件",
+        "ラプラス変換",
+        "過渡応答",
+        "角周波数"
+      ],
+      "summary": "【電気電子回路1】（灰色(8番)解答用紙）。図1 の回路で t=0 にスイッチを開くとき、(1) i_L(0−), v_C(0−)、(2) v(0+)、(3) I_L(s) と V(s)、(4) v(t) が時間に無関係に一定となる R₁,R₂,C,L の関係、(5) そのときの i_L(t)、(6) 4L/C≥(R₁+R₂)² のときの i_L(t)（角周波数 ω を用いてよい）。図1 と脚注 *1〜*3 を収録。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the source PDF",
+        "date": "2026-11-03",
+        "notes": "第 14 頁で【電気電子回路1】見出し・解答用紙指定・(1)〜(6)・図1・脚注を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q8-01.png",
+          "page": 15,
+          "box": [
+            61.0,
+            70.5,
+            532.5,
+            706.5
+          ],
+          "width": 1415,
+          "height": 1909,
+          "label": "電気電子回路1：解答用紙指定（灰色 8 番）、(1)〜(6)、図1（回路図）、脚注 *1〜*3",
+          "sha256": "208137fea7f10db87c9dcc9b9c91c37f4c628a7b58a93602eb101b068865f612"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2025-kiso-q9",
+      "number": "電気電子回路2",
+      "title": "电气电子回路2：MOSFET 放大电路的直流与小信号特性",
+      "titleKind": "editorial",
+      "topics": [
+        "MOSFET",
+        "飽和領域",
+        "小信号等価回路",
+        "電圧利得",
+        "フェーザ",
+        "遮断周波数"
+      ],
+      "summary": "【電気電子回路2】（だいだい色(9番)解答用紙）。n チャネル MOSFET が飽和領域で動作する条件のもと、(1) 図1 の回路名、(2)(3) V_OUT,DC を V_IN,DC の関数として表す、(4) 図3 の小信号等価回路を用いて図2 の小信号等価回路を描く、(5) 電圧利得 A_v(ω)、(6) |A_v(ω)|/|A_v(0)|=1/√2 となる ω。図1〜図3 と脚注 *1〜*10 を収録。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the source PDF",
+        "date": "2026-11-03",
+        "notes": "第 15 頁で【電気電子回路2】見出し・解答用紙指定・(1)〜(6)・図1〜図3・脚注 *1〜*10 と基準電位の注記を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2025-kiso/osaka-ee-2025-kiso-q9-01.png",
+          "page": 16,
+          "box": [
+            44.0,
+            66.0,
+            548.5,
+            759.0
+          ],
+          "width": 1514,
+          "height": 2079,
+          "label": "電気電子回路2：解答用紙指定（だいだい色 9 番）、(1)〜(6)、図1〜図3、脚注 *1〜*10",
+          "sha256": "b1f83a6a4ccb754966c3d0df2030b21fffebf5473bbcd368a9ff35d31b00817e"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "reviewed": true,
+      "note": "封面：标题・実施時間・「注意事項」・選択ルール表のうち注意事項部分を commonRegions に収録。",
+      "excluded": ""
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "reviewed": true,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。"
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "reviewed": true,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。"
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q8"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    },
+    {
+      "page": 16,
+      "questionIds": [
+        "osaka-ee-2025-kiso-q9"
+      ],
+      "common": false,
+      "reviewed": true,
+      "note": "裁去卷頭の見出し帯・頁脚頁碼・走査の空白縁，不含題目内容。",
+      "excluded": ""
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2016-kiso",
+ "title": "大阪大学 · 2016 入学年度 · 共通基础科目",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2016",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻（電気工学コース）",
+  "year": 2016,
+  "yearBasis": "academic",
+  "subject": "共通基础科目",
+  "originalSubject": "基礎科目試験問題",
+  "originalName": "共通基础科目.pdf",
+  "pdf": "assets/past-papers/documents/d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954.pdf",
+  "sha256": "d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954",
+  "pageCount": 13,
+  "note": "平成 28 年度（2016 年度）入学試験。原卷封面只标实施时间 9:30–12:30，未标实施日期，故不推断具体实施日。9 題（数学1–5・電磁理論1/2・電気電子回路1/2）から 5 題選択、受験コース別の選択ルールは表紙の表。"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    92.0,
+    122.0,
+    562.0,
+    350.0
+   ],
+   "label": "封面：平成 28 年度大学院博士前期課程入学試験・大阪大学大学院工学研究科 電気電子情報工学専攻「基礎科目試験問題」、実施時間 9:30–12:30"
+  },
+  {
+   "page": 1,
+   "box": [
+    66.0,
+    398.0,
+    562.0,
+    782.0
+   ],
+   "label": "注意事項 1–5 と受験コース別選択ルール表（電気工学コース・電子工学コース＝数学1–5 から 3 題＋電磁理論1/2・電気電子回路1/2 から 2 題の計 5 題、情報通信工学コース＝9 題から 5 題）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2016-kiso-q1",
+   "number": "数学1",
+   "title": "数学1：分块矩阵的行列式、逆矩阵与特征值",
+   "titleKind": "editorial",
+   "topics": [
+    "ブロック行列",
+    "行列式",
+    "逆行列",
+    "固有値",
+    "固有ベクトル",
+    "数学的帰納法"
+   ],
+   "summary": "A を m×m, B を m×n, C を n×n, O を n×m の零行列とし P=(A B; O C) について、(a) |P|=|A||C| を数学的帰納法で証明、(b) A, C が正則のとき P^{-1}=(A^{-1} -A^{-1}BC^{-1}; O C^{-1}) を示す、(c) P の固有値は A または C の固有値であることを示す、(d) 与えられた 5×5 行列 P の全固有値と最大固有値 λ_max の固有ベクトルを求める。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      47.9,
+      67.9,
+      548.5,
+      505.2
+     ],
+     "label": "【数学1】見出し（白色 1 番の解答用紙指定行）・問題文と (a)–(d)、(d) の 5×5 行列 P の全要素"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+    "date": "2026-11-03",
+    "notes": "第 1 頁で【数学1】見出し・解答用紙指定行、P の定義、|P|=|A||C|、P^{-1} の式、(a)–(d) と 5×5 行列 P の全 25 要素を確認。页脚番号 1 は除外。"
+   }
+  },
+  {
+   "id": "osaka-ee-2016-kiso-q2",
+   "number": "数学2",
+   "title": "数学2：完全微分方程与积分因子",
+   "titleKind": "editorial",
+   "topics": [
+    "完全微分方程式",
+    "積分因子",
+    "偏導関数",
+    "一般解"
+   ],
+   "summary": "P dx+Q dy=0 が完全微分方程式であるための必要十分条件 P_y=Q_x と積分因子 λ(x,y) の定義を与え、(a) λ が満たす偏微分方程式を導く、(b) (Q_x-P_y)/(Q-P)=f(x+y) のとき λ=exp(-∫f(u)du) が積分因子となることを示す、(c) (y^2-x^2+1)dx+(y^2-x^2-1)dy=0 の積分因子を求める、(d) その一般解を求める。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      48.0,
+      65.2,
+      548.3,
+      622.7
+     ],
+     "label": "【数学2】見出し（赤色 2 番の解答用紙指定行）・完全微分方程式の条件・式(1)(2)・(a)–(d)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+    "date": "2026-11-03",
+    "notes": "第 2 頁で【数学2】見出し・解答用紙指定行、式(1)(2)、λ の偏微分方程式、(b) の λ=exp(-∫f(u)du)、(c) の式(3)、(d) を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2016-kiso-q3",
+   "number": "数学3",
+   "title": "数学3：复变函数 z^4−z^2+1 的根与实积分",
+   "titleKind": "editorial",
+   "topics": [
+    "複素関数",
+    "極座標",
+    "根",
+    "留数",
+    "実積分"
+   ],
+   "summary": "複素関数 f(z)=z^4-z^2+1 について、(a) z=re^{iθ} として f(z)=Φ+iΨ の実関数 Φ, Ψ を r, θ で表す、(b) f(z)=0 のとき z^6 の値を求める、(c) f(z)=0 の 4 根のうち Im(z)>0 の 2 根を求める、(d) 実積分 I=∫_{-∞}^{∞} dx/f(x) の値を求める。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      48.0,
+      70.1,
+      530.7,
+      293.0
+     ],
+     "label": "【数学3】見出し（青色 3 番の解答用紙指定行）・f(z)=z^4-z^2+1・(a)–(d)（実積分の式を含む）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+    "date": "2026-11-03",
+    "notes": "第 3 頁で【数学3】見出し・解答用紙指定行、f(z) の定義、(a)–(d) と (d) の定積分 ∫_{-∞}^{∞} dx/f(x) を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2016-kiso-q4",
+   "number": "数学4",
+   "title": "数学4：傅里叶变换与高斯型积分",
+   "titleKind": "editorial",
+   "topics": [
+    "フーリエ変換",
+    "ガウス積分",
+    "微分方程式",
+    "逆フーリエ変換"
+   ],
+   "summary": "F(u)=1/√(2π)∫f(x)e^{-iux}dx の定義の下で、(a) g(t)=∫_0^∞ e^{-x^2/2}cos(tx)dx の導関数 dg/dt を求める、(b) dg/dt と g(t) の微分方程式を導いて g(t) を求める（a=g(0)）、(c) f(x)=e^{-bx^2}（b>0）のフーリエ変換を求める、(d) (c) の F(u) を逆フーリエ変換し a, b で表す。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      42.6,
+      69.0,
+      548.5,
+      571.7
+     ],
+     "label": "【数学4】見出し（黄色 4 番の解答用紙指定行）・フーリエ変換の定義式・(a)–(d)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+    "date": "2026-11-03",
+    "notes": "第 4 頁で【数学4】見出し・解答用紙指定行、F(u) の定義式、(a) の g(t) の積分、(b)(c)(d) を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2016-kiso-q5",
+   "number": "数学5",
+   "title": "数学5：独立随机变量序列的概率最大化",
+   "titleKind": "editorial",
+   "topics": [
+    "確率変数",
+    "独立",
+    "最大化",
+    "必要十分条件"
+   ],
+   "summary": "独立な確率変数 X_1..X_N（N≥3, 0/1 値）について p_i, q_i, r_i=p_i/q_i を定義し、Σ_{i=k}^N r_i≠1 の下で K_N=argmax_k Pr(S_{k,N}=1), S_{k,N}=Σ_{i=k}^N X_i とする。(a) Pr(S_{k,N}=1) を q_i と r_i で表す、(b) 差分 Pr(S_{k+1,N}=1)-Pr(S_{k,N}=1) を p_k, q_i, r_i で表す、(c) K_N=1 の必要十分条件、(d) K_N=k (k=2..N) の必要十分条件を求める。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      46.3,
+      62.2,
+      546.7,
+      634.4
+     ],
+     "label": "【数学5】見出し（水色 5 番の解答用紙指定行）・p_i, q_i, r_i の定義・K_N と S_{k,N} の定義・(a)–(d)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+    "date": "2026-11-03",
+    "notes": "第 5 頁で【数学5】見出し・解答用紙指定行、p_i/q_i/r_i と Σ r_i≠1 の条件、K_N=argmax と S_{k,N} の定義式、(a)–(d) を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2016-kiso-q6",
+   "number": "電磁理論1",
+   "title": "电磁理论1：线电流与圆形回路电流的静磁场",
+   "titleKind": "editorial",
+   "topics": [
+    "ベクトルポテンシャル",
+    "ビオ・サバールの法則",
+    "円形ループ電流",
+    "磁気力線",
+    "円柱座標系"
+   ],
+   "summary": "ベクトルポテンシャル A（μ0H=∇×A）から出発し、①ベクトルポテンシャルの名称、②③④ビオ・サバールの法則の形、⑤⑥円柱座標での微小線素と r_QP、⑦距離、⑧～⑪円柱座標での積分と軸上磁界、⑫～⑰直交座標での dl, r_QP, 距離と積分、⑱xz 面の磁気力線図を解答用紙に記入する。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      42.7,
+      67.7,
+      548.4,
+      776.6
+     ],
+     "label": "【電磁理論1】見出し（桃色 6 番の解答用紙指定行）・①–⑥ と図 1（線 L, I, dl, Q, P, r_QP）・図 2（円形ループと z 軸）"
+    },
+    {
+     "page": 8,
+     "box": [
+      48.0,
+      65.5,
+      548.3,
+      747.7
+     ],
+     "label": "式(7)–(12) と ⑦–⑭、図 3（P(x',0,z') と x 軸からの角 φ）、式(13)(14) と ⑮–⑰、⑱ の指示"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+    "date": "2026-11-03",
+    "notes": "第 6–7 頁で【電磁理論1】見出し・解答用紙指定行（①～⑱、⑱ はグラフ）、図 1・図 2・図 3 の軸・記号・図番、式(1)～(14) と空欄 ①～⑱ を確認。図の枠と矢印が切れていない。"
+   }
+  },
+  {
+   "id": "osaka-ee-2016-kiso-q7",
+   "number": "電磁理論2",
+   "title": "电磁理论2：洛伦兹力、镜像感应与带电粒子碰撞截面",
+   "titleKind": "editorial",
+   "topics": [
+    "ローレンツ力",
+    "静電界",
+    "電気双極子",
+    "ガウスの法則",
+    "角運動量保存",
+    "衝突断面積"
+   ],
+   "summary": "[1] ローレンツ力と運動方程式からエネルギー保存則を導き（①～⑪）、[2] 点電荷 A と電荷雲 A' の変位による誘導双極子と電界 E_i, E_a、双極子能率 p_d と電位 φ（⑫～⑮）、[3] 極座標でのエネルギー保存・角運動量保存から最近接距離 r_min の 2 次方程式と衝突断面積 πb^2 を求め（⑯～⑱）、⑲ は語群（イ/ロ/ハ）から選択する。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      42.6,
+      69.0,
+      548.8,
+      778.6
+     ],
+     "label": "【電磁理論2】見出し（緑色 7 番の解答用紙指定行）・[1] の ①–⑪ と式(1)–(4)・[2] の ⑫ と式(5)、図 1・図 2"
+    },
+    {
+     "page": 10,
+     "box": [
+      25.3,
+      67.9,
+      565.1,
+      784.2
+     ],
+     "label": "式(6)–(12) と ⑬–⑱、[3] の極座標設定・図 3、⑲ の語群選択（(イ)比例/(ロ)反比例/(ハ)無関係）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+    "date": "2026-11-03",
+    "notes": "第 8–9 頁で【電磁理論2】見出し・解答用紙指定行（①～⑲、⑲ は語群から選択）、図 1・図 2・図 3 の記号と図番、式(1)～(12)、空欄 ①～⑲ を確認。図 3 の b, r, φ と軌道が切れていない。"
+   }
+  },
+  {
+   "id": "osaka-ee-2016-kiso-q8",
+   "number": "電気電子回路1",
+   "title": "电气电子回路1：RC 电路与随时间变化的电阻",
+   "titleKind": "editorial",
+   "topics": [
+    "RC回路",
+    "微分方程式",
+    "時定数",
+    "エネルギー",
+    "有効数字"
+   ],
+   "summary": "E=1.0 V, C=0.1 F, R(t)（SW2 開で R0=10 Ω、t0 以降 R(t)=R0+α(t-t0), α=10 Ω/s）の回路について、(1) t=0 で SW1 を閉じたときの Q(t) の微分方程式を立てて解く、(2) t=1.0 s で SW1 を開いたときのキャパシタ電圧と電荷（有効数字 2 桁）、(3) t=t0 で SW2 を閉じた後の Q(t) を Q(t0) を用いて表す、(4) 定常状態までに抵抗で消費されるエネルギーを求める。",
+   "regions": [
+    {
+     "page": 12,
+     "box": [
+      63.7,
+      92.5,
+      531.6,
+      775.1
+     ],
+     "label": "【電気電子回路1】見出し（灰色 8 番の解答用紙指定行）・回路条件・(1)–(4)・図 1 の回路図と図 2 の R(t) 特性・脚注 *1–*4 の用語対訳"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+    "date": "2026-11-03",
+    "notes": "第 11 頁で【電気電子回路1】見出し・解答用紙指定行、図 1（SW1, SW2, R(t), C, E, I(t)）と図 2（R(t)-t 特性、R0, t0）の軸と図番、(1)–(4)、脚注 *1–*4 を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2016-kiso-q9",
+   "number": "電気電子回路2",
+   "title": "电气电子回路2：MOSFET 小信号等效电路与增益",
+   "titleKind": "editorial",
+   "topics": [
+    "MOSFET",
+    "小信号等価回路",
+    "相互コンダクタンス",
+    "電圧利得",
+    "位相"
+   ],
+   "summary": "MOSFET（飽和領域、相互コンダクタンス g_m、出力抵抗 r_0=∞）回路について、(1) 小信号等価回路を図示、(2) 小信号電圧利得 A=v_ds/v_gs を g_m, Z_D, Z_F で表す、(3) Z_D=Z_F=R のとき v_gs(t)=E sin(ωt) に対する v_ds(t)、(4) Z_D=R, Z_F=C で v_gs(t)=E sin(t/CR) のときの振幅と位相差を求める。",
+   "regions": [
+    {
+     "page": 13,
+     "box": [
+      48.0,
+      68.7,
+      549.8,
+      801.0
+     ],
+     "label": "【電気電子回路2】見出し（橙 9 番の解答用紙指定行）・回路条件・(1)–(4)・図 1 の MOSFET 回路図・脚注 *1–*12 の用語対訳と記号凡例"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+    "date": "2026-11-03",
+    "notes": "第 12 頁で【電気電子回路2】見出し・解答用紙指定行、図 1（V_DD, Z_D, Z_F, G/S/D, V_GS+v_gs, V_DS+v_ds）の記号と図番、(1)–(4)、脚注 *1–*12 を確認。页脚番号 12 を避けるため下辺は 801 で止めた（本文末尾は 799.2）。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "表紙（問題内容を含まない）。共通領域として別途収録。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q1"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q2"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q3"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q4"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q5"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（電磁理論1・電磁理論2）の語彙頁。題目内容ではないため題に含めない。",
+   "reviewed": true
+  },
+  {
+   "page": 12,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q8"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 13,
+   "questionIds": [
+    "osaka-ee-2016-kiso-q9"
+   ],
+   "common": false,
+   "excluded": "页眉・页脚のページ番号および余白のみ。",
+   "reviewed": true
+  }
+ ]
+}

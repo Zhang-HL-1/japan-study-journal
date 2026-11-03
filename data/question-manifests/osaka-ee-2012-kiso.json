@@ -1,0 +1,488 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2012-kiso",
+ "title": "大阪大学 · 2012 入学年度 · 共通基础科目",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2012",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻（電気工学コース）",
+  "year": 2012,
+  "yearBasis": "academic",
+  "subject": "共通基础科目",
+  "originalSubject": "基礎科目試験問題",
+  "originalName": "共通基础科目.pdf",
+  "pdf": "assets/past-papers/documents/4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba.pdf",
+  "sha256": "4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba",
+  "pageCount": 13,
+  "note": "平成24年度（2012 入学年度）。原卷封面只标实施时间 9:30〜12:30，未标实施日期，故不推断具体考试日。全 9 題（数学1〜5、電磁理論1・2、電気電子回路1・2）から、システム・制御・電力工学コースは数学5題から3題＋電磁理論/電気電子回路4題から2題の計5題を選択。"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    60,
+    59,
+    549,
+    281
+   ],
+   "label": "卷头：平成24年度入学試験・専攻名・基礎科目試験問題・実施時間"
+  },
+  {
+   "page": 1,
+   "box": [
+    60,
+    282,
+    549,
+    540
+   ],
+   "label": "注意事項 1・2 と受験コース別選択ルール表（システム・制御・電力工学コースは数学5題から3題＋電磁理論/電気電子回路4題から2題）"
+  },
+  {
+   "page": 1,
+   "box": [
+    60,
+    540,
+    545,
+    806
+   ],
+   "label": "注意事項 3〜9（答案用紙の指定、選択票の記入と回収手順）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2012-kiso-q1",
+   "number": "数学１",
+   "title": "常微分方程组的拉普拉斯变换解与特征多项式",
+   "titleKind": "editorial",
+   "topics": [
+    "常微分方程式系",
+    "ラプラス変換",
+    "行列指数関数",
+    "発散",
+    "固有多項式",
+    "数学的帰納法"
+   ],
+   "summary": "以 dx/dt = Ax 为题，含 (a)〜(d)（拉普拉斯变换表示、2×2 数值例求解、3×3 循环矩阵发散证明、伴随矩阵形式的特征多项式归纳证明）。不拆小问。中文标题仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      46,
+      65,
+      552,
+      552
+     ],
+     "label": "数学１：解答用紙指定（白色1番）、設問文、式、(a)〜(d) 全小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page render",
+    "date": "2026-11-03",
+    "notes": "核对【数学１】見出し与白色（1番）指定行、d/dt x = Ax 式、X(s)=(sI−A)^{-1}x(0)、(b) 的两个矩阵、(c) 的 3×3 矩阵与 αβγ≠0 条件、(d) 的 n×n 伴随矩阵（含省略号与下三角 a0..a_{n−1}）；大矩阵括号完整未切。"
+   }
+  },
+  {
+   "id": "osaka-ee-2012-kiso-q2",
+   "number": "数学２",
+   "title": "二阶常微分方程三类解与极值比",
+   "titleKind": "editorial",
+   "topics": [
+    "微分方程式",
+    "特性方程式",
+    "双曲線関数",
+    "振動解",
+    "極大値"
+   ],
+   "summary": "以 x'' + 2k x' + ω²x = 0（初期条件 x0, x'(0)=0）为题，含 (a)〜(d)（k=ω、k>ω、ω>k 三情形与相邻极大值比 x_n/x_{n+1}）。不拆小问。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      42,
+      68,
+      528,
+      377
+     ],
+     "label": "数学２：解答用紙指定（赤色2番）、微分方程式与初期条件、(a)〜(d) 全小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page render",
+    "date": "2026-11-03",
+    "notes": "核对赤色（2番）指定行、微分方程式的 d²x/dt² 与 ω²x 项、t=0 初期条件 x=x0>0、dx/dt=0、(a)〜(d) 四个小问与 x_n/x_{n+1} 分式。"
+   }
+  },
+  {
+   "id": "osaka-ee-2012-kiso-q3",
+   "number": "数学３",
+   "title": "复函数 1/(1+z^n) 的极点与围道积分",
+   "titleKind": "editorial",
+   "topics": [
+    "複素関数",
+    "極",
+    "線積分",
+    "留数定理",
+    "周回積分",
+    "実積分"
+   ],
+   "summary": "以 f_n(z)=1/(1+z^n) 为题，含 (a)〜(d)（极点、扇形路径 BO 上的线积分表示、周回积分 I_n、实积分 J_n 与圆弧极限）。含图1 复平面扇形，图号保留。不拆小问。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      46,
+      74,
+      552,
+      768
+     ],
+     "label": "数学３：解答用紙指定（青色3番）、設問文、(a)〜(d)、図1 複素平面の扇形 OAB"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page render",
+    "date": "2026-11-03",
+    "notes": "核对青色（3番）指定行、f_n(z)=1/(1+z^n) 与 n≥2、扇形中心角 2π/n 与 R>1、BO 上线积分的 e^{-i2π/n} 因子、I_n 与 J_n 的积分上下限、図1 的坐标轴 O・A・B・2π/n 标注与图号。"
+   }
+  },
+  {
+   "id": "osaka-ee-2012-kiso-q4",
+   "number": "数学４",
+   "title": "周期锯齿波的傅里叶级数与周期δ函数列",
+   "titleKind": "editorial",
+   "topics": [
+    "フーリエ級数",
+    "ヘヴィサイド関数",
+    "一階微分",
+    "デルタ関数",
+    "周期的デルタ関数列"
+   ],
+   "summary": "以周期 T 的函数 f(t)=1−t/T 为题，含 (a)〜(d)（傅里叶级数、用单位阶跃函数表示、一阶微分的傅里叶级数、周期δ函数列）。含图1 波形，图号保留。不拆小问。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      46,
+      74,
+      552,
+      772
+     ],
+     "label": "数学４：解答用紙指定（黄色4番）、設問文、(a)〜(d)、図1 周期波形"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page render",
+    "date": "2026-11-03",
+    "notes": "核对黄色（4番）指定行、f(t)=1−t/T 与 0≦t<T、ヘヴィサイド関数 u_a(t) 的分段定义、d/dt u_a(t)=δ(t−a) 与 δ 的定义式、Σδ(t−nT) 的周期δ函数列、図1 的锯齿波与 -2T/-T/0/T/2T 标注及图号。"
+   }
+  },
+  {
+   "id": "osaka-ee-2012-kiso-q5",
+   "number": "数学５",
+   "title": "生鲜食品进货量与期望收益（报童模型）",
+   "titleKind": "editorial",
+   "topics": [
+    "確率変数",
+    "確率分布関数",
+    "期待値",
+    "分散",
+    "一様分布",
+    "条件付き期待値",
+    "最適仕入れ量"
+   ],
+   "summary": "以 λ・μ・η 的单品进货模型为题，含 (a)〜(h)（利得 G 的表示、E[G]≦0 的证明、最优进货条件、分散比较、均匀分布下的 F・f、赤字概率、条件付期待值与上限 x**）。全页一个 region，不拆小问。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      46,
+      61,
+      552,
+      690
+     ],
+     "label": "数学５：解答用紙指定（水色5番）、モデル設定、α・β の定義、(a)〜(h) 全小问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page render",
+    "date": "2026-11-03",
+    "notes": "核对水色（5番）指定行、0<λ<μ と η≧0、α=μ−λ、β=λ+η、(a)〜(h) 的编号连续无缺、(g) 的 0<w≦(α+β)T/2β 分式与 E[G|G<0]≧−βw 条件；右端 (h) 行未切。"
+   }
+  },
+  {
+   "id": "osaka-ee-2012-kiso-q6",
+   "number": "電磁理論１",
+   "title": "复数表示、Maxwell 方程与平面电磁波的传播常数",
+   "titleKind": "editorial",
+   "topics": [
+    "複素ベクトル",
+    "ファラデー・マクスウェル",
+    "アンペア・マクスウェル",
+    "複素伝搬定数",
+    "減衰定数",
+    "位相定数"
+   ],
+   "summary": "填空题（空欄①〜⑮），跨 2 页（原卷第6〜7頁）：第6頁为 Faraday/Ampere-Maxwell 法则的复数表示，第7頁为平面电磁波与传播常数 k=β−jα，末尾附選択語群（伝搬・波数・位相・振動・減衰・透過・反射・進む・遅れる）。選択語群必须与题目同题，故并入 q6。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      47,
+      70,
+      548,
+      742
+     ],
+     "label": "電磁理論１（1/2）：解答用紙指定（桃色6番）、複素表示の定義、空欄①〜⑥と式(1)〜(8)"
+    },
+    {
+     "page": 8,
+     "box": [
+      47,
+      67,
+      548,
+      650
+     ],
+     "label": "電磁理論１（2/2）：空欄⑦〜⑮、式(9)〜(16)、選択語群"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page renders",
+    "date": "2026-11-03",
+    "notes": "核对桃色（6番）指定行、①〜⑮ 的方框编号连续（①〜⑥在第6頁，⑦〜⑮在第7頁）、式(1)〜(16) 编号连续、Re[ ] 与 j=√−1 的定义行、k=β−jα 与 (14)(15) 近似式、末尾選択語群方框（9 个词）完整。"
+   }
+  },
+  {
+   "id": "osaka-ee-2012-kiso-q7",
+   "number": "電磁理論２",
+   "title": "磁场中带电粒子的运动（拉莫尔半径与螺距）",
+   "titleKind": "editorial",
+   "topics": [
+    "ローレンツ力",
+    "荷電粒子",
+    "運動方程式",
+    "サイクロトロン角周波数",
+    "ラーマー半径",
+    "ピッチ",
+    "反磁性"
+   ],
+   "summary": "填空题（空欄①〜㉑），跨 2 页（原卷第8〜9頁）：第8頁为洛伦兹力、运动方程式与各分量方程，第9頁为初值解、拉莫尔半径、螺距 Δz 与回转方向。㉑ 的符号在原卷中以 circled number 呈现，保留原样。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      47,
+      70,
+      552,
+      756
+     ],
+     "label": "電磁理論２（1/2）：解答用紙指定（緑色7番）、空欄①〜⑨、式(1)〜(5)、ωc の定義"
+    },
+    {
+     "page": 10,
+     "box": [
+      47,
+      68,
+      552,
+      720
+     ],
+     "label": "電磁理論２（2/2）：空欄⑩〜㉑、初期条件、速度・位置の解、ラーマー半径とピッチ、回転方向"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page renders",
+    "date": "2026-11-03",
+    "notes": "核对緑色（7番）指定行、①〜㉑ 的编号连续、式(1)〜(5) 编号、(19) 的 (イ)右回り/(ロ)左回り 与 (20) の (イ)強める/(ロ)弱める 选项框、ωc=qB/m 定义行；第9頁 (iv) 的 2π/… 与 v0sinθ 等上下标未切。"
+   }
+  },
+  {
+   "id": "osaka-ee-2012-kiso-q8",
+   "number": "電気電子回路１",
+   "title": "一端口网络 N 的阻抗与电路综合",
+   "titleKind": "editorial",
+   "topics": [
+    "ラプラス変換",
+    "インピーダンス",
+    "回路網",
+    "初期値",
+    "周波数特性"
+   ],
+   "summary": "以受动元件构成的回路网 N 为题，含 (1)〜(5)（I(s)、Z(s)、N 的一例电路、|Z(s)| 最小的角周波数与值、更换电源后的 i(t)）。含图1，图号保留。不拆小问。",
+   "regions": [
+    {
+     "page": 12,
+     "box": [
+      47,
+      66,
+      552,
+      468
+     ],
+     "label": "電気電子回路１：解答用紙指定（灰色8番）、回路網 N の設定、図1、(1)〜(5)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page render",
+    "date": "2026-11-03",
+    "notes": "核对灰色（8番）指定行、図1 的电源 E(t)・开关 t=0・i(t)・方块 N 及图号、i(t)=1/3{exp(−t)−exp(−4t)} 的分式、(1)〜(5) 编号连续、末尾 E(t)=12/5{1−exp(−5t)} 式。"
+   }
+  },
+  {
+   "id": "osaka-ee-2012-kiso-q9",
+   "number": "電気電子回路２",
+   "title": "MOSFET 源极接地放大器的偏置与小信号特性",
+   "titleKind": "editorial",
+   "topics": [
+    "MOSFET",
+    "ソース接地増幅器",
+    "ゲートバイアス",
+    "小信号等価回路",
+    "電圧利得",
+    "ボード線図"
+   ],
+   "summary": "以 n 沟道 MOSFET 源极接地放大器为题，含 (1)〜(5)（栅偏压、直流漏电流、输出直流分量、|A(jω)| 与 ∠A(jω) 的导出、Bode 线图）。含图1・图2 与页脚 *1〜*13 用语注，图号保留。不拆小问。",
+   "regions": [
+    {
+     "page": 13,
+     "box": [
+      42,
+      68,
+      549,
+      764
+     ],
+     "label": "電気電子回路２：解答用紙指定（だいだい色9番）、設問文、式、(1)〜(5)、図1・図2、脚注 *1〜*13"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page render",
+    "date": "2026-11-03",
+    "notes": "核对だいだい色（9番）指定行、ID=β/2(VGS−VTH)² 式与 VTH=0.5V・β=1mA/V²、図1 的 R1/R2/R3・C・VDD=5V 标注、図2 的小信号等価回路与 gmṼgs 依存电源、(5) 的 log10 近似值行、页脚 *1〜*13 对照表完整未切。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "卷头、注意事項与受験コース別選択ルール表已作为 common 收录，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q1"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q2"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q3"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q4"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q5"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 12,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q8"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 13,
+   "questionIds": [
+    "osaka-ee-2012-kiso-q9"
+   ],
+   "common": false,
+   "excluded": "页脚页码与空白页边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

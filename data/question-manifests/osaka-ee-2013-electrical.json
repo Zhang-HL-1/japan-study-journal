@@ -1,0 +1,370 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2013-electrical",
+ "title": "大阪大学 · 2013 入学年度 · 专门科目（系统・控制・电力工学课程）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2013",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻（電気工学コース）",
+  "year": 2013,
+  "yearBasis": "academic",
+  "subject": "专门科目（电气工学）",
+  "originalSubject": "専門科目試験問題（システム・制御・電力工学コース）",
+  "originalName": "专业_电气工学.pdf",
+  "pdf": "assets/past-papers/documents/3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486.pdf",
+  "sha256": "3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486",
+  "pageCount": 13,
+  "note": "平成 25 年度（2013 年度）入学試験。原卷封面只标实施时间 14:00–16:00，未标实施日期，故不推断具体实施日。本册为システム・制御・電力工学コース用専門科目（6 題から 3 題選択、制御工学1/2 のいずれか 1 題以上を含む）。"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    40,
+    58,
+    556,
+    345
+   ],
+   "label": "封面：平成 25 年度大学院博士前期課程入学試験・大阪大学大学院工学研究科 電気電子情報工学専攻「専門科目試験問題（システム・制御・電力工学コース）」、実施時間 14:00–16:00"
+  },
+  {
+   "page": 1,
+   "box": [
+    40,
+    355,
+    556,
+    760
+   ],
+   "label": "注意事項 1–9：問題用紙 12 ページ、6 題から 3 題選択（制御工学1/2 のいずれか 1 題以上を含む）、解答用紙は問題毎に色・番号で指定、選択票と回収方法"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2013-electrical-q1",
+   "number": "制御工学1",
+   "title": "传递函数与状态空间：正弦稳态、Bode 折线与状态反馈",
+   "titleKind": "editorial",
+   "topics": [
+    "伝達関数",
+    "ボード線図",
+    "状態方程式",
+    "状態フィードバック",
+    "極配置"
+   ],
+   "summary": "1. は G(s)=(s+2)^2/((s+1)^2(s+3)) について正弦波定常応答・ゲイン漸近値・折れ線近似・位相漸近値を問い、2. は x'=Ax+bu, y=cx の伝達関数・ステップ応答・状態フィードバックの安定条件と極配置を問う。1. と 2. を分割せず 1 題として扱う。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      32,
+      62,
+      556,
+      730
+     ],
+     "label": "制御工学1：白色（1番）解答用紙指定行、【制御工学1】見出し、1.(i)–(iv)、2.(i)–(iv)（行列・初期状態を含む）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against every full source page at 2x render",
+    "date": "2026-11-03",
+    "notes": "原卷第 2 页全页核对：【制御工学1】見出しと解答用紙指定行が入り、(i)–(iv) と 2. の (i)–(iv)、G(s) の分数式・行列 A,b,c・初期状態ベクトルが欠けず、页脚番号 1 を除外。"
+   }
+  },
+  {
+   "id": "osaka-ee-2013-electrical-q2",
+   "number": "制御工学2",
+   "title": "直流伺服电机：比例控制与比例积分控制的时域指标",
+   "titleKind": "editorial",
+   "topics": [
+    "サーボシステム",
+    "閉ループ伝達関数",
+    "弱制動",
+    "立ち上がり時間",
+    "位相余裕"
+   ],
+   "summary": "Jω'=T−Bω, θ'=ω のモータに T=K(r−θ) の比例制御、次いで KP,KI の比例積分制御を施し、ブロック線図・閉ループ伝達関数・固有角周波数・弱制動条件・応答図・立ち上がり時間・安定条件・位相余裕を問う。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      32,
+      62,
+      556,
+      592
+     ],
+     "label": "制御工学2：赤色（2番）解答用紙指定行、【制御工学2】見出し、運動方程式、1.(i)–(vi)、2.(i)–(iii)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against every full source page at 2x render",
+    "date": "2026-11-03",
+    "notes": "原卷第 4 页全页核对：見出しと解答用紙指定行、Jω'=T−Bω/θ'=ω の 2 式、T=K(r−θ)、1.(i)–(vi) と 2.(i)–(iii) が全て入り、页脚番号 3 を除外。"
+   }
+  },
+  {
+   "id": "osaka-ee-2013-electrical-q3",
+   "number": "パワーエレクトロニクスと電気機器",
+   "title": "降压斩波电路与直流分卷电动机",
+   "titleKind": "editorial",
+   "topics": [
+    "チョッパ回路",
+    "通流率",
+    "リプル率",
+    "直流分巻電動機",
+    "電機子反作用",
+    "分巻発電機"
+   ],
+   "summary": "1. は理想スイッチ・ダイオードの降圧チョッパ回路について電圧比・電流リプル・平均電流の関係・ダイオード損失を問い（図 1）、2. は直流分巻電動機のトルク・界磁回路抵抗・電機子反作用と中性軸移動・自己励磁の成因を問う（図 2(a)(b)）。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      32,
+      62,
+      556,
+      748
+     ],
+     "label": "パワーエレクトロニクスと電気機器：桃色（3番）解答用紙指定行、【】見出し、1.(i)–(iv)、図 1（チョッパ回路）、2.(i)–(iv)、図 2(a)(b)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against every full source page at 2x render",
+    "date": "2026-11-03",
+    "notes": "原卷第 6 页全页核对：1.(i)–(iv)、図 1 の素子記号 S,D,L,vL,C,R,E1,E2,iL,i2 と iL の向き、2.(i)–(iv)、図 2(a) の界磁巻線・スイッチ・Ri・Rf・Ra・電機子と図 2(b) の界磁極・回転子・回転方向・Y–Y' が全て入り、图号「図 1」「図 2」も含む。"
+   }
+  },
+  {
+   "id": "osaka-ee-2013-electrical-q4",
+   "number": "データ構造とアルゴリズム",
+   "title": "堆与二叉搜索树、基数排序程序填空",
+   "titleKind": "editorial",
+   "topics": [
+    "ヒープ",
+    "2分探索木",
+    "完全2分木",
+    "基数ソート",
+    "バケットソート",
+    "時間計算量"
+   ],
+   "summary": "1. はヒープへの逐次挿入・完全 2 分木の高さ・2 分探索木の構築と根の削除（図 1）、2. はプログラム A（基数ソート）の空欄【1】–【5】・各桁終了時のバケット状態・出力・最悪時間計算量（図 2、プログラム A リスト）。1.・2.・プログラムリストを分割せず 1 題とする。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      32,
+      85,
+      556,
+      638
+     ],
+     "label": "データ構造とアルゴリズム：青色（4番）解答用紙指定行、【】見出し、1. の条件文と (i)–(iv)、図 1（初期ヒープ）"
+    },
+    {
+     "page": 9,
+     "box": [
+      32,
+      85,
+      556,
+      500
+     ],
+     "label": "データ構造とアルゴリズム：2. の基数ソート説明、(i)–(iv)、図 2（bucket 連結リスト）"
+    },
+    {
+     "page": 10,
+     "box": [
+      32,
+      85,
+      556,
+      792
+     ],
+     "label": "データ構造とアルゴリズム：プログラム A の全リスト（空欄【1】–【5】を含む、枠線の内側全体）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against every full source page at 2x render",
+    "date": "2026-11-03",
+    "notes": "原卷第 8–10 页核对：8 页含数据列 9,22,15,1,7,8,10 与图 1 的 9/22/15 三节点；9 页含 33,44,…,46 数据列与图 2 的 bucket[0]–[2]、cell 構造体、連結リスト（NULL 終端）、图 2 号；10 页含枠線内の全コード（【1】–【5】）与 プログラム A 見出し、页脚番号 9 を除外。"
+   }
+  },
+  {
+   "id": "osaka-ee-2013-electrical-q5",
+   "number": "論理回路と計算機システム",
+   "title": "编码器、优先编码器与 NAND 组合逻辑设计",
+   "titleKind": "editorial",
+   "topics": [
+    "エンコーダ",
+    "プライオリティエンコーダ",
+    "真理値表",
+    "カルノー図",
+    "NAND"
+   ],
+   "summary": "0–9 キーの符号器（1.）、優先順位付き符号器（2.）、3 の倍数判定回路のカルノー図と最小積和形（3.）、2 と 3 の公倍数でランプを点灯する回路（4.）を問い、図 1–3 の記号（①,②,③）で設計図を描かせる。",
+   "regions": [
+    {
+     "page": 12,
+     "box": [
+      32,
+      62,
+      556,
+      758
+     ],
+     "label": "論理回路と計算機システム：水色（5番）解答用紙指定行、【】見出し、1.–4. の全小問、図 1（符号器の入出力）、図 2（3 の倍数判定回路）、図 3（ランプ記号）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against every full source page at 2x render",
+    "date": "2026-11-03",
+    "notes": "原卷第 12 页全页核对：1.(i)(ii)〜4. の全ての小問、xi/a0–a3/y0–y3/c の記号、図 1・図 2・図 3 と各图号、NOT/OR/AND・NAND の利用可能ゲート条件が入り、页脚番号 11 を除外。"
+   }
+  },
+  {
+   "id": "osaka-ee-2013-electrical-q6",
+   "number": "信号処理",
+   "title": "DFT 与 DCT：定义、应用与快速算法",
+   "titleKind": "editorial",
+   "topics": [
+    "離散フーリエ変換",
+    "離散コサイン変換",
+    "FFT",
+    "時間反転",
+    "周期拡張"
+   ],
+   "summary": "N 点 DFT と N 点 DCT の定義式（WN, Ck を含む）を与え、両者の類似点・相違点、実用システムでの利用、O(N log2 N) アルゴリズム、時間反転＋周期 2N 拡張した信号の 2N 点 DFT との関係を問う。",
+   "regions": [
+    {
+     "page": 13,
+     "box": [
+      32,
+      62,
+      556,
+      550
+     ],
+     "label": "信号処理：黄色（6番）解答用紙指定行、【信号処理】見出し、DFT と DCT の定義式（WN, Ck の分段定義を含む）、(i)–(iv)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against every full source page at 2x render",
+    "date": "2026-11-03",
+    "notes": "原卷第 13 页全页核对：X1[k] の総和と WN の定義、X2[k] と Ck の √(1/N)/√(2/N) 分段定義、(i)–(iv) の全文が入り、页脚番号 12 を除外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "reviewed": true,
+   "excluded": "封面与注意事项，已作 commonRegions 保留，不含题目内容。"
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2013-electrical-q1"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "页眉（【分野】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+  },
+  {
+   "page": 3,
+   "questionIds": [],
+   "common": false,
+   "reviewed": true,
+   "excluded": "専門用語の英訳（制御工学1）の語彙リストページ。题目ではなく解答にも影響しないため、题目に混ぜず excluded とした。"
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2013-electrical-q2"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "页眉（【分野】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+  },
+  {
+   "page": 5,
+   "questionIds": [],
+   "common": false,
+   "reviewed": true,
+   "excluded": "専門用語の英訳（制御工学2）の語彙リストページ。题目ではなく解答にも影響しないため、题目に混ぜず excluded とした。"
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2013-electrical-q3"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "页眉（【分野】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+  },
+  {
+   "page": 7,
+   "questionIds": [],
+   "common": false,
+   "reviewed": true,
+   "excluded": "専門用語の英訳（パワーエレクトロニクスと電気機器）の語彙リストページ。题目ではなく解答にも影響しないため、题目に混ぜず excluded とした。"
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2013-electrical-q4"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "页眉（【分野】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2013-electrical-q4"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "页眉（【分野】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2013-electrical-q4"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "页眉（【分野】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+  },
+  {
+   "page": 11,
+   "questionIds": [],
+   "common": false,
+   "reviewed": true,
+   "excluded": "専門用語の英訳（データ構造とアルゴリズム）の語彙リストページ。题目ではなく解答にも影響しないため、题目に混ぜず excluded とした。"
+  },
+  {
+   "page": 12,
+   "questionIds": [
+    "osaka-ee-2013-electrical-q5"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "页眉（【分野】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+  },
+  {
+   "page": 13,
+   "questionIds": [
+    "osaka-ee-2013-electrical-q6"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": "页眉（【分野】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+  }
+ ]
+}

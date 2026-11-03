@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2021-kiso",
+  "title": "大阪大学 · 2021 入学年度 · 共通基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2021",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2021,
+    "yearBasis": "academic",
+    "subject": "共通基础科目",
+    "originalSubject": "基礎科目試験問題",
+    "originalName": "共通基础科目.pdf",
+    "pdf": "assets/past-papers/documents/609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385.pdf",
+    "sha256": "609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385",
+    "pageCount": 14,
+    "note": "2021 年度（令和 3 年度）入試の共通基礎科目（原卷封面文字は「基礎科目試験問題」）。封面标「実施時間 9:30〜12:30」、全 9 題（数学1〜5・電磁理論1〜2・電気電子回路1〜2）から 5 題選択、電気工学コースは「数学1〜5 から 3 題、電磁理論1・2／電気電子回路1・2 から 2 題」。封面未标实施日期，不推断具体考试日。全専攻共通の原卷。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2021-kiso/common-01.png",
+      "page": 1,
+      "box": [
+        66,
+        122,
+        550,
+        782
+      ],
+      "width": 1452,
+      "height": 1980,
+      "label": "全卷共通：2021 年度表紙（専攻名・基礎科目試験問題・実施時間 9:30〜12:30）と注意事項（9 題・5 題選択、受験コース別の選択ルール表：電気工学コースは数学 3 題＋電磁理論/電気電子回路 2 題）",
+      "sha256": "2702f517ab62c00660744494f6463fd678029691e930b98476995a0e92232651"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2021-kiso-q1",
+      "number": "数学１",
+      "title": "数学1：n次正方行列の巾乗と固有値",
+      "titleKind": "editorial",
+      "topics": [
+        "正方行列",
+        "巾乗",
+        "固有値",
+        "行列の対角化"
+      ],
+      "summary": "n×n 正方行列 A（右上の副対角に μ をもち、他の成分は 0）と 3×3 正方行列 B（対角成分 ν、上副対角 1、他は 0）について、(a) A^m を求めよ（m=1,2,…）、(b) A の固有値を全て求めよ、(c) B^m を求めよ（m=1,2,…）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁で【数学１】見出し・解答用紙指定・「n×n 正方行列」「3×3 正方行列」の前置き・(a)(b)(c) と行列 A（対角成分 a, 非対角 b）・B（対角成分1、下副対角が1）の定義を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q1-01.png",
+          "page": 2,
+          "box": [
+            42,
+            68,
+            547,
+            489
+          ],
+          "width": 1515,
+          "height": 1263,
+          "label": "数学１：分野見出し・解答用紙指定（白色1番）・設問 (a)〜(c) と行列 A, B の定義",
+          "sha256": "b0e6a1081b3f7c617ac4a8f600cfd432df5d7df8a5136bbac2ad134ed3dee0d0"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-kiso-q2",
+      "number": "数学２",
+      "title": "数学2：n階オイラー型微分方程式の定数係数化と2階方程式の一般解",
+      "titleKind": "editorial",
+      "topics": [
+        "n階線形微分方程式",
+        "オイラー方程式",
+        "変数変換",
+        "定数係数線形微分方程式",
+        "一般解"
+      ],
+      "summary": "n 階微分方程式 a_n x^n y^(n)+…+a_0 y=f(x) (x>0) について、(a) x=e^t として xy′ と x²y″ を ẏ, ÿ で表せ、(b) 同方程式が定数係数の線形微分方程式に変換できることを示せ、(c) x²y″−3xy′+4y=x³ の一般解を求めよ。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁で【数学２】見出し・解答用紙指定・式(1)、設問 (a)(b)(c) の誘導式と x²y″−3xy′+4y=x³ まで全て確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q2-01.png",
+          "page": 3,
+          "box": [
+            48,
+            68,
+            548,
+            526
+          ],
+          "width": 1500,
+          "height": 1374,
+          "label": "数学２：分野見出し・解答用紙指定（赤色2番）・式(1) と設問 (a)〜(c)",
+          "sha256": "aea55d1b9f7259c9adf84f89c61575d82c5315374ca0d5a9114621798886fff1"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-kiso-q3",
+      "number": "数学３",
+      "title": "数学3：円弧上の積分路と留数定理・実積分",
+      "titleKind": "editorial",
+      "topics": [
+        "複素積分",
+        "ジョルダンの補題",
+        "留数定理",
+        "実積分"
+      ],
+      "summary": "(a) 半径 R の円弧 C_R（図1）上で |z|→∞ のとき |f(z)|→0 ならば lim_{R→∞}∮_{C_R} f(z)e^{iωz}dz=0 (ω>0) を示せ、(b) 実軸上に特異点をもたず |z|→∞ で f(z)→0 のとき ∫ f(x)e^{iωx}dx=2πi Σ Res を示せ、(c) その関係を用いて ∫_0^∞ sin x / x dx を求めよ。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁で【数学３】見出し・解答用紙指定・図1（半径 R の円弧と積分路、実軸・虚軸）・積分式と設問 (a)(b)(c) を確認。図は本文中（(a) と (b) の間）に位置するが同一頁内に収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q3-01.png",
+          "page": 4,
+          "box": [
+            47,
+            68,
+            542,
+            596
+          ],
+          "width": 1485,
+          "height": 1584,
+          "label": "数学３：分野見出し・解答用紙指定（青色3番）・図1（円弧 C_R）・設問 (a)〜(c)",
+          "sha256": "0a5700b869a2e624129135e8aa9cd34d5452197791fdd54f09b66577d858cf47"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-kiso-q4",
+      "number": "数学４",
+      "title": "数学4：フーリエ変換の定義・導関数の性質と微分方程式",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ変換",
+        "フーリエ逆変換",
+        "導関数の変換",
+        "常微分方程式"
+      ],
+      "summary": "フーリエ変換・逆変換の定義のもとで、(a) g(x)=e^{−a|x|}H(x) のフーリエ変換を導出、(b) f′(x) が区分的に滑らか・有界・絶対積分可能なとき (1/√(2π))∫ f′(x)e^{−iωx}dx=iωF(ω) を示せ、(c) g(x) と f(x) が df/dx−af=g を満たすとき F(ω) を導出、(d) (c) で得た F(ω) の逆変換を導出。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁で【数学４】見出し・解答用紙指定・フーリエ変換/逆変換の定義式・設問 (a)(b)(c)(d) と区分関数 H(x)・微分方程式まで確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q4-01.png",
+          "page": 5,
+          "box": [
+            47,
+            68,
+            548,
+            578
+          ],
+          "width": 1503,
+          "height": 1530,
+          "label": "数学４：分野見出し・解答用紙指定（黄色4番）・変換の定義式・設問 (a)〜(d)",
+          "sha256": "c22841759ce30f599ba9bd96dc45790c73a0d75bbc550838f84602a5468736ba"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-kiso-q5",
+      "number": "数学５",
+      "title": "数学5：感染拡大の分枝過程と確率母関数",
+      "titleKind": "editorial",
+      "topics": [
+        "分枝過程",
+        "確率母関数",
+        "期待値",
+        "分散",
+        "絶滅確率"
+      ],
+      "summary": "感染者が独立に確率 p_n で n 人へ感染させるモデルで、k 次感染者数 N_k の漸化式 N_{k+1}=Σ_{i=1}^{N_k} N^{(i)}_{k+1} のもと、(a) 総感染者数 N=1+Σ N_k の平均 E[N] を求めよ、(b) N_1 の値で場合分けして q_k(z) を p(z), q_{k−1}(z) で表せ、(c) 感染拡大が終了する確率 a=lim q_k(0) が 1 となる条件を求めよ。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁で【数学５】見出し・解答用紙指定・確率分布の仮定・N_{k+1} の定義式・p(z), q_k(z) の定義・設問 (a)(b)(c) を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q5-01.png",
+          "page": 6,
+          "box": [
+            51,
+            61,
+            547,
+            595
+          ],
+          "width": 1488,
+          "height": 1602,
+          "label": "数学５：分野見出し・解答用紙指定（水色5番）・モデル設定・設問 (a)〜(c)",
+          "sha256": "03ed44100bc9b1f26fa2f948b5247dec749a60bbe6b0021d605c4a9701e53f52"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-kiso-q6",
+      "number": "電磁理論１",
+      "title": "电磁理论1：球状コンデンサの電界・電束密度・電位・静電容量",
+      "titleKind": "editorial",
+      "topics": [
+        "静電容量",
+        "静電エネルギー",
+        "球座標",
+        "電界・電束密度",
+        "誘電体境界",
+        "ガウスの法則"
+      ],
+      "summary": "2個の導体・球状コンデンサについて、[1] 静電容量 C と静電エネルギー W、[2-1] 真空領域の E1, D1, φ と静電容量 C1、誘電体充填時の各量の倍率、[2-2] 同心球殻状の2層誘電体（図2）の E2, D2, 電位差 φ_AB, 静電容量 C2、[2-3] 上下2分割の誘電体（図3）でガウスの法則から Q, k, φ_AB, C3 を求める。空欄①〜⑳に数式・数値を記入。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2頁にわたり [1][2-1][2-2][2-3] を確認。空欄①〜⑳の番号、図1（球座標・導体A/B）・図2（同心球殻）・図3（上下分割と破線の同心球面）を欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q6-01.png",
+          "page": 7,
+          "box": [
+            42,
+            70,
+            548,
+            757
+          ],
+          "width": 1518,
+          "height": 2061,
+          "label": "電磁理論１：分野見出し・解答用紙指定（桃色6番）・[1] 静電容量・[2-1] 球状コンデンサ（図1）と①〜⑨",
+          "sha256": "48b1c00d231fc2749c2083344b55fcecc6544c2140782580b1a3b899b4c45e58"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q6-02.png",
+          "page": 8,
+          "box": [
+            47,
+            71,
+            548,
+            646
+          ],
+          "width": 1503,
+          "height": 1725,
+          "label": "電磁理論１：[2-2] 2層誘電体（図2）・[2-3] 上下分割（図3）と⑩〜⑳",
+          "sha256": "c4816d4628c47d411a7e8d3fbae6699eaf4a59f50cd307e8717502f6df565b68"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-kiso-q7",
+      "number": "電磁理論２",
+      "title": "电磁理论2：マクスウェル方程式・波動方程式・表皮厚さ",
+      "titleKind": "editorial",
+      "topics": [
+        "マクスウェル方程式",
+        "ベクトル波動方程式",
+        "スカラー波動方程式",
+        "オームの法則",
+        "拡散方程式",
+        "表皮厚さ",
+        "フェーザ表示"
+      ],
+      "summary": "[1] 真空中のマクスウェル方程式4式と電荷保存則、[2] 電荷・電流のない真空中で電界・磁界のベクトル波動方程式とスカラー波動方程式、[3] 導電性の高い媒質中で導電電流が支配的なときのマクスウェル方程式（オームの法則）と E, H, J の微分方程式（波動/拡散/ラプラス）、[4] 半無限媒質（図1）に正弦波電界が垂直入射するときのフェーザ方程式と |Ė_x(z)|、表皮厚さ。空欄①〜㉕に語句・数式を記入。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3頁にわたり [1]〜[4] を確認。空欄①〜㉕の番号、式(1)〜(21)、図1（半無限媒質と真空の境界）を欠かさず収録。第3頁は2行＋空欄番号のみの続き頁で、前頁の本文末尾を切り落とさないよう頁末まで収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q7-01.png",
+          "page": 9,
+          "box": [
+            43,
+            69,
+            548,
+            751
+          ],
+          "width": 1515,
+          "height": 2046,
+          "label": "電磁理論２：分野見出し・解答用紙指定（緑色7番）・[1] マクスウェル方程式・[2] 波動方程式・[3] の冒頭と①〜⑪",
+          "sha256": "403e470746bef56e3bf4407f23fd0889d70a1f5446a753e6e026f3f9be2650b9"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q7-02.png",
+          "page": 10,
+          "box": [
+            47,
+            67,
+            548,
+            771
+          ],
+          "width": 1503,
+          "height": 2112,
+          "label": "電磁理論２：[3] の続き（式(10)〜(18)）・[4] 半無限媒質（図1）と⑫〜㉔",
+          "sha256": "f79c2547a81a6ac8a8c1952b878aaf649135547344d02a1b6a7b86e729669ce1"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q7-03.png",
+          "page": 11,
+          "box": [
+            48,
+            69,
+            548,
+            129
+          ],
+          "width": 1500,
+          "height": 180,
+          "label": "電磁理論２：[4] の結び（√j の関係式・表皮厚さの定義）と㉔㉕（前頁からの続き）",
+          "sha256": "ca87b18bf376d59aca73424f95cfd0592c57a319d43ba527fb94ae35b4f5b569"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-kiso-q8",
+      "number": "電気電子回路１",
+      "title": "电气电子回路1：RC 回路のスイッチ切替と過渡応答",
+      "titleKind": "editorial",
+      "topics": [
+        "定常状態",
+        "初期条件",
+        "ラプラス変換",
+        "過渡応答",
+        "消費エネルギー"
+      ],
+      "summary": "図1 の回路で t<0 は SW1 閉・SW2 開の定常状態、t=0 で SW1 を開き SW2 を閉じる。(1) t=0⁻ の i, v1、(2) t=0⁺ の i, v1、(3) t>0 の I(s)、(4) R1=3Ω, R2=2Ω, C1=C2=1F, E=15V のときの i(t)、(5) そのパラメータで R1 が消費する全エネルギー。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁で【電気電子回路１】見出し・解答用紙指定・回路図（E, SW1, SW2, R1, R2, C1, C2 と v1(t), v2(t), i(t) の向き）・設問 (1)〜(5)・脚注 *1 定常状態／*2 ラプラス変換を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q8-01.png",
+          "page": 13,
+          "box": [
+            43,
+            68,
+            550,
+            757
+          ],
+          "width": 1521,
+          "height": 2067,
+          "label": "電気電子回路１：分野見出し・解答用紙指定（灰色8番）・図1 の回路・設問 (1)〜(5)・脚注 *1 *2",
+          "sha256": "eee33ec0532b47f477b195509f7139d5fc4d03e032762115176dadb3ff03bf35"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-kiso-q9",
+      "number": "電気電子回路２",
+      "title": "电气电子回路2：理想演算増幅器回路（反転増幅器と微分回路）",
+      "titleKind": "editorial",
+      "topics": [
+        "理想演算増幅器",
+        "反転増幅器",
+        "微分回路",
+        "フェーザ",
+        "周波数特性",
+        "位相進み"
+      ],
+      "summary": "図1・図2 の理想演算増幅器回路について、(1) A が有限のとき V̇_OUT1 を A と V̇_− で表せ、(2) V̇_− を V̇_IN1, V̇_OUT1, R1, R2 で表せ、(3) V̇_OUT1/V̇_IN1 を A, R1, R2 で表せ、(4) A 無限大のときの利得、(5) 図1 の回路名称、(6) 図2 で A 無限大のとき V̇_OUT2/V̇_IN2 を R1, R2, R3, C, ω, j で表せ、(7) E=1.0V, R1=R2=1.0kΩ, C=1.0nF, f=1.0kHz で V̇_OUT2 が V̇_IN2 より 90° 進むときの R3 と |V̇_OUT2|。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁で【電気電子回路２】見出し・解答用紙指定・設問 (1)〜(7)・図1（反転増幅器）・図2（微分回路）・脚注 *1〜*7（基準電位の記号を含む）を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-kiso/osaka-ee-2021-kiso-q9-01.png",
+          "page": 14,
+          "box": [
+            43,
+            69,
+            549,
+            673
+          ],
+          "width": 1518,
+          "height": 1812,
+          "label": "電気電子回路２：分野見出し・解答用紙指定（だいだい色9番）・設問 (1)〜(7)・図1・図2・脚注 *1〜*7",
+          "sha256": "302d442720c3efe5834e422c9fac553b4916eb5f1a5285e62b74d61fb2453929"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面（年度・専攻・基礎科目試験問題・実施時間 9:30〜12:30）と注意事項（9題・5題選択、受験コース別選択ルール表）を commonRegions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q1"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q2"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q3"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q4"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（電磁理論）の語彙対訳表。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q8"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "osaka-ee-2021-kiso-q9"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    }
+  ]
+}

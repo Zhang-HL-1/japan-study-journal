@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2019-kiso",
+  "title": "大阪大学 · 2019 入学年度 · 共通基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2019",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2019,
+    "yearBasis": "academic",
+    "subject": "共通基础科目",
+    "originalSubject": "基礎科目試験問題",
+    "originalName": "共通基础科目.pdf",
+    "pdf": "assets/past-papers/documents/b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce.pdf",
+    "sha256": "b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce",
+    "pageCount": 13,
+    "note": "平成 31（2019）年度入試。原卷封面标「基礎科目試験問題」「実施時間 9：30～12：30」、問題用紙 12 頁、9 題（数学 1〜5、電磁理論 1・2、電気電子回路 1・2）及びコース別選択ルール（電気工学コースは数学から 3 題＋電磁理論・回路から 2 題、計 5 題）；未标实施日期，不推断具体考试日。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2019-kiso/common-01.png",
+      "page": 1,
+      "box": [
+        58.0,
+        402.0,
+        546.0,
+        772.0
+      ],
+      "width": 1464,
+      "height": 1110,
+      "label": "全卷作答说明（注意事項）：問題用紙 12 頁、9 題から 5 題選択、コース別選択ルール（電気工学コースは数学 3 題＋電磁理論・電気電子回路 2 題）の表",
+      "sha256": "9359dff7a3b4f127dd630ec2eb911ab7b5f60217a31ee011ef6d020af5ebb3f5"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2019-kiso-q1",
+      "number": "数学1",
+      "title": "数学1：実対称行列の対角化と行列多項式・行列方程式",
+      "titleKind": "editorial",
+      "topics": [
+        "実対称行列",
+        "固有値",
+        "固有ベクトル",
+        "直交行列",
+        "行列多項式",
+        "行列方程式"
+      ],
+      "summary": "(a) 3×3 実対称行列 A の固有値と固有ベクトル、(b) 直交行列 T による対角化と多項式 f(B) の表現、(c) X²−X=C を満たす X の存在（σ_i ≥ −1/4）、(d) A に対する X²−X=A を満たす固有値がすべて正の X を (a)〜(c) を用いて求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1 頁で (a)〜(d) と行列 A、対角行列、f(B) の式を確認。分数 −1/4 と σ_i ≥ −1/4 の条件を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q1-01.png",
+          "page": 2,
+          "box": [
+            50.0,
+            76.0,
+            540.0,
+            676.0
+          ],
+          "width": 1470,
+          "height": 1800,
+          "label": "数学1：冒頭の解答用紙指定、(a)〜(d) の全設問",
+          "sha256": "bbdaaf5a1c34cbdce97b113553affa0e3184f3c180596a8788905b1eaf7ee63b"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2019-kiso-q2",
+      "number": "数学2",
+      "title": "数学2：ベッセル形 2 階微分方程式の級数解とガンマ関数",
+      "titleKind": "editorial",
+      "topics": [
+        "級数解",
+        "2 階微分方程式",
+        "ベッセル方程式",
+        "ガンマ関数",
+        "漸化式"
+      ],
+      "summary": "多項式関数 y(x)（式(1)）が 2 階微分方程式(2) を満たすとき、(a) ν=0 での dy/dx・d²y/dx² の級数表示、(b) c_{k−2} と c_k の関係、(c) ν=0, c_0=1 の y(x)、(d) ν≠0 の y(x) をガンマ関数を用いて表す（c_0=1/(2^ν Γ(ν+1))）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1 頁で式(1)(2)、(a)〜(d)、ガンマ関数の定義 Γ(z)=∫₀^∞ e^{−t}t^{z−1}dt と Γ(ν)=(ν−1)Γ(ν−1) を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q2-01.png",
+          "page": 3,
+          "box": [
+            54.0,
+            76.0,
+            540.0,
+            522.0
+          ],
+          "width": 1458,
+          "height": 1338,
+          "label": "数学2：冒頭の解答用紙指定、式(1)(2) と (a)〜(d)",
+          "sha256": "cd33054b3ec6db884f49a55a512c3659d84314d123f27a3b359b8395e17e7586"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2019-kiso-q3",
+      "number": "数学3",
+      "title": "数学3：複素関数のコーシー・リーマン関係式とローラン展開・留数積分",
+      "titleKind": "editorial",
+      "topics": [
+        "複素関数",
+        "正則関数",
+        "コーシー・リーマン方程式",
+        "べき級数展開",
+        "数学的帰納法",
+        "留数定理"
+      ],
+      "summary": "(a) f(z)=e^{az+bz̄} の g, h を求める、(b) コーシー・リーマン関係式から解析的となる必要十分条件が b=0 であることを示す、(c) e^z/(z−1) の z=β まわりの展開係数 γ_n と α_{k,n} の関係を数学的帰納法で示す、(d) ジョルダン閉曲線 C 上の ∮ e^z/((z−1)(z−2)²) dz を計算。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1 頁で (a)〜(d)、γ_n の式と (d) の複素積分の被積分関数を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q3-01.png",
+          "page": 4,
+          "box": [
+            60.0,
+            68.0,
+            540.0,
+            522.0
+          ],
+          "width": 1440,
+          "height": 1362,
+          "label": "数学3：冒頭の解答用紙指定、(a)〜(d) の全設問",
+          "sha256": "902813d1428670b7041682e9970760d99dab585b8f2fb9013d9860e1d13d6a93"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2019-kiso-q4",
+      "number": "数学4",
+      "title": "数学4：微分方程式のラプラス変換による解法",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "微分方程式",
+        "初期条件",
+        "積分定数",
+        "定積分"
+      ],
+      "summary": "初期条件 f(0)=1, df/dt|_{t=0}=0 のもとで t·d²f/dt²+df/dt+t f(t)=0 を満たす f(t) について、(a) 両辺のラプラス変換による F(s) の微分方程式、(b) その解法と lim sF(s)=lim f(t) による積分定数の決定、(c) ∫₀^∞ f(t)dt、(d) t=0 における 2 階微分の値。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1 頁で初期条件、式(1)、(a)〜(d) の定積分・2 階微分の指定を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q4-01.png",
+          "page": 5,
+          "box": [
+            60.0,
+            68.0,
+            546.0,
+            408.0
+          ],
+          "width": 1458,
+          "height": 1020,
+          "label": "数学4：冒頭の解答用紙指定、式(1) と (a)〜(d)",
+          "sha256": "be73768e3ac159223cc5b6831fbe1edecb0e6447110e0d4b2a3554b1225471ba"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2019-kiso-q5",
+      "number": "数学5",
+      "title": "数学5：確率変数の期待値に関する不等式",
+      "titleKind": "editorial",
+      "topics": [
+        "確率変数",
+        "期待値",
+        "共分散",
+        "単調関数",
+        "不等式"
+      ],
+      "summary": "正値をとる確率変数 X、連続増加関数 f、減少関数 g について、(a) E[{f(X)−f(a)}{g(X)−g(a)}]≤0、(b) E[f(X)g(X)]≤E[f(X)]E[g(X)]、(c) E[X^{−1}]≥E[X^{p−1}]/E[X^p]、(d) E[X^{−n}]≥1/(E[X])^n を示す。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1 頁で (a)〜(d) の各式と E[X]=∞ の場合の解釈の注記を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q5-01.png",
+          "page": 6,
+          "box": [
+            60.0,
+            68.0,
+            540.0,
+            497.0
+          ],
+          "width": 1440,
+          "height": 1287,
+          "label": "数学5：冒頭の解答用紙指定、(a)〜(d) の不等式",
+          "sha256": "272abea7f96f094d58a330ffa3b7f569835310db64886621be9b34ef7bb98e84"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2019-kiso-q6",
+      "number": "電磁理論1",
+      "title": "電磁理論1：導体球と同心球殻導体の電界・電位・静電容量（Thomson の定理）",
+      "titleKind": "editorial",
+      "topics": [
+        "静電界",
+        "電位",
+        "静電容量",
+        "静電エネルギー",
+        "同心球殻",
+        "Thomson の定理"
+      ],
+      "summary": "空欄 ①〜⑰ を解答用紙に記入する形式。[1] 図 1 の孤立導体球 A の電位 φ₁(r)・静電容量 C₁・静電エネルギー W₁、[2] 図 2 の同心球殻導体 B の各領域の E(r)・φ(r) と静電容量 C′、[3] 図 3 で導体 A を導体 D に導線で結んだときの各表面電荷・静電エネルギー W″・移動電荷 Q_D（Thomson の定理）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2 頁で空欄 ①〜⑰ と図 1・図 2・図 3 を確認。図 2 の同心球殻（a, b, c, i_r）と図 3 の導線・導体 D を完全に収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q6-01.png",
+          "page": 7,
+          "box": [
+            52.0,
+            78.0,
+            552.0,
+            722.0
+          ],
+          "width": 1500,
+          "height": 1932,
+          "label": "電磁理論1：冒頭の解答用紙指定、[1]（図 1）と [2]（図 2、空欄 ④〜⑫）",
+          "sha256": "365a822c1058ff40478d508915969a4057211cb185cd6c55e4dc3dd873ab736e"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q6-02.png",
+          "page": 8,
+          "box": [
+            56.0,
+            96.0,
+            540.0,
+            698.0
+          ],
+          "width": 1452,
+          "height": 1806,
+          "label": "電磁理論1：[3] 空欄 ⑬〜⑰ と図 3（導体 A・B・D と導線）",
+          "sha256": "f95d82a8418b9ae36609f5461266943fb173f1c7b80b271b517ba40801dc4ed1"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2019-kiso-q7",
+      "number": "電磁理論2",
+      "title": "電磁理論2：平行平板間の磁界中を運動する点電荷（サイクロイド運動）",
+      "titleKind": "editorial",
+      "topics": [
+        "ローレンツ力",
+        "サイクロトロン角周波数",
+        "運動方程式",
+        "サイクロイド",
+        "誘導電流",
+        "平均速度"
+      ],
+      "summary": "空欄 ①〜⑲ を記入する形式。図 1 の導体平行平板 I・II 間（電位 0 と V、磁束密度 B）で原点に静止していた点電荷の運動方程式(1)〜(3)、v_z の微分方程式(4) とサイクロトロン角周波数、速度(5)〜(7)、運動エネルギー(8)、位置(9)〜(11)、ポテンシャルエネルギー(12)、平板 I に到達する条件(13)、電力 P(t)(14) と誘導電流 I(t)(15)、到達しない場合のサイクロイドの周期 T と平均速度(16)。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2 頁で空欄 ①〜⑲ と図 1（z 軸・y 軸・平行平板 I/II・電流計・電界 V）を確認。式(13)〜(16) の条件式と空欄 ⑭ の語句選択（イ）（ロ）を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q7-01.png",
+          "page": 9,
+          "box": [
+            54.0,
+            76.0,
+            542.0,
+            740.0
+          ],
+          "width": 1464,
+          "height": 1992,
+          "label": "電磁理論2：冒頭の解答用紙指定、図 1、式(1)〜(7) と空欄 ①〜⑧",
+          "sha256": "ac95f250d60ae423888a2007152b711f7c1bc0491f298b7ea753a7836b993d2e"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q7-02.png",
+          "page": 10,
+          "box": [
+            54.0,
+            78.0,
+            542.0,
+            626.0
+          ],
+          "width": 1464,
+          "height": 1644,
+          "label": "電磁理論2：式(8)〜(16) と空欄 ⑨〜⑲",
+          "sha256": "bdbc510127ea08a74ae7b7a6e49bc434e9e4f4daaa99ce57b092ab2d868035f1"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2019-kiso-q8",
+      "number": "電気電子回路1",
+      "title": "電気電子回路1：RL-C 回路のスイッチ開閉による過渡応答",
+      "titleKind": "editorial",
+      "topics": [
+        "正弦波定常状態",
+        "有効電力",
+        "スイッチ",
+        "過渡応答",
+        "初期値",
+        "RLC 回路"
+      ],
+      "summary": "図 1 の回路で t=0 にスイッチ S を閉じる。e(t)=4 sin2t [V], R=2 Ω, L=1 H, C=0.125 F として、(1) t<0 の定常状態の v(t)・i(t)、(2) R に供給される有効電力、(3) t=0− の v(t)・i(t)、(4) t>0 の v(t)・i(t)。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1 頁で図 1 の回路（e(t), L, R, C, スイッチ S, t=0）と (1)〜(4)、脚注 *1 正弦波定常状態・*2 有効電力の対訳を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q8-01.png",
+          "page": 12,
+          "box": [
+            54.0,
+            76.0,
+            542.0,
+            543.0
+          ],
+          "width": 1464,
+          "height": 1401,
+          "label": "電気電子回路1：冒頭の解答用紙指定、図 1 の回路と (1)〜(4)、脚注 *1 *2 の対訳",
+          "sha256": "ee7c4e71d98ad5120e5655a8378b0a5621086597a4762a2de60361ba08517df8"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2019-kiso-q9",
+      "number": "電気電子回路2",
+      "title": "電気電子回路2：理想演算増幅器回路の周波数領域解析",
+      "titleKind": "editorial",
+      "topics": [
+        "理想演算増幅器",
+        "周波数領域",
+        "帰還抵抗",
+        "位相",
+        "振幅"
+      ],
+      "summary": "図 1 の理想演算増幅器回路（(a) 抵抗のみ、(b) キャパシタを含む）について、(1)(2) (a) の電流 I(ω) と V_out(ω)、(3)(4) (b) の I(ω) と V_out(ω)、(5) (b) で V₁ と V₂ の位相差が π のときの振幅と V₂ に対する位相（ω=2000π rad/s, R=1000 Ω, C=10^{−6}/π F）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1 頁で図 1(a)(b) の回路、設問 (1)〜(5)、頁末の対訳表（*1〜*7）を確認。演算増幅器の記号と基準電位の表示を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2019-kiso/osaka-ee-2019-kiso-q9-01.png",
+          "page": 13,
+          "box": [
+            54.0,
+            76.0,
+            542.0,
+            762.0
+          ],
+          "width": 1464,
+          "height": 2058,
+          "label": "電気電子回路2：冒頭の解答用紙指定、図 1(a)(b)、(1)〜(5) と脚注の対訳表",
+          "sha256": "82b775721dafd955e0b77e4ad873837f17ffe773c5b5b443aeb1b702635638b9"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q8"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2019-kiso-q9"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

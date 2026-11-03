@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2012-electrical",
+  "title": "大阪大学 · 2012 入学年度 · 专门科目（系统・控制・电力工学课程）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2012",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2012,
+    "yearBasis": "academic",
+    "subject": "专门科目（电气工学）",
+    "originalSubject": "専門科目試験問題（システム・制御・電力工学コース）",
+    "originalName": "专业_电气工学.pdf",
+    "pdf": "assets/past-papers/documents/8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01.pdf",
+    "sha256": "8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01",
+    "pageCount": 13,
+    "note": "平成24年度（2012 入学年度）。原卷封面只标实施时间 14:00〜16:00，未标实施日期，故不推断具体考试日。全 6 題から「制御工学1」または「制御工学2」を1題以上含む3題を選択。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2012-electrical/common-01.png",
+      "page": 1,
+      "box": [
+        60,
+        74,
+        528,
+        345
+      ],
+      "width": 1404,
+      "height": 813,
+      "label": "卷头：平成24年度入学試験・専攻名・専門科目試験問題（システム・制御・電力工学コース）・実施時間",
+      "sha256": "daebe388444b874358bfb4933cbfb1a0a9a143d345465f70278cb8032bd7dcfd"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2012-electrical/common-02.png",
+      "page": 1,
+      "box": [
+        60,
+        344,
+        551,
+        758
+      ],
+      "width": 1473,
+      "height": 1242,
+      "label": "注意事項 1〜9（答案用紙の色と番号、3題選択、選択票の記入と回収手順）",
+      "sha256": "6dedeaf7c7ee4f95cc3f8bf38714ba2d0690684ef3ae26b55efb02cdb2af3621"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2012-electrical-q1",
+      "number": "制御工学１",
+      "title": "方块线图的传递函数、状态方程与状态反馈",
+      "titleKind": "editorial",
+      "topics": [
+        "方块线图",
+        "传递函数",
+        "稳态值",
+        "冲激响应",
+        "增益余裕与相位余裕",
+        "状态方程",
+        "可控制性",
+        "极点配置"
+      ],
+      "summary": "以图1的方块线图为题，含 (i)〜(viii) 八个小问（传递函数、单位阶跃稳态值、冲激响应、余裕、状态方程、可控制性判别、极点反解参数、状态反馈增益求法）。不拆小问。中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【制御工学１】見出し与白色(1番)指定行、図1 的四个方块与反馈回路、図1 图号，以及 (i)〜(viii) 全部小问；框图与公式未切。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2012-electrical/osaka-ee-2012-electrical-q1-01.png",
+          "page": 2,
+          "box": [
+            44,
+            63,
+            526,
+            610
+          ],
+          "width": 1446,
+          "height": 1641,
+          "label": "制御工学１：解答用紙指定、設問文、図1 方块线图、(i)〜(viii) 全小问",
+          "sha256": "3606a6f9729ff5d4acab8612e0c185473b82268945b7096d47765528e2377b87"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2012-electrical-q2",
+      "number": "制御工学２",
+      "title": "旋转体运动方程、Bode 图与超前补偿伺服系统",
+      "titleKind": "editorial",
+      "topics": [
+        "运动方程式",
+        "传递函数",
+        "Bode 图",
+        "理想运算放大器",
+        "一巡传递函数",
+        "稳定性条件"
+      ],
+      "summary": "以旋转体 J・B 与两级理想运算放大器补偿器为对象，含 (i)〜(v)（传递函数、Bode 图、补偿器 H(s)、伺服系统一巡传递函数、稳定性条件）。图1、图2 及其图号一并保留。不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对赤色(2番)指定行、运动方程式与上下标、図1 运算放大器与 R1,R2,C,R3,R4、図2 反馈框图、(v) 稳定性小问；两张图与图号均在框内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2012-electrical/osaka-ee-2012-electrical-q2-01.png",
+          "page": 4,
+          "box": [
+            45,
+            63,
+            532,
+            761
+          ],
+          "width": 1461,
+          "height": 2094,
+          "label": "制御工学２：解答用紙指定、設問文、式、図1 补偿器电路、(i)〜(v)、図2 方块线图",
+          "sha256": "742409695171da9072e47683c07aef85eaeda43cb2905e377daa6e5f5dac886d"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2012-electrical-q3",
+      "number": "パワーエレクトロニクスと電気機器",
+      "title": "三相逆变器、磁路电感与感应电动机",
+      "titleKind": "editorial",
+      "topics": [
+        "三相逆变器",
+        "IGBT",
+        "线间电压",
+        "磁路",
+        "磁束",
+        "自感",
+        "感应电动机",
+        "转差率",
+        "转矩"
+      ],
+      "summary": "该分野为一大题，内含 1.（三相逆变器 4 小问）、2.（磁路与自感 2 小问）、3.（感应电动机 3 小问）三组设问。按「一题一大题」原则不拆，全页成一个 region，含图1(a)(b)、图2 与图号。中文标题仅用于导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对桃色(3番)指定行、1.(i)〜(iv)、2.(i)(ii)、3.(i)〜(iii)、図1 的三相逆变器主回路与动作模式表、図2 磁路图；注意 3.(i) 在原卷排版中标为 (i)（与 2.(i) 重号），保留原样未改。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2012-electrical/osaka-ee-2012-electrical-q3-01.png",
+          "page": 6,
+          "box": [
+            43,
+            67,
+            552,
+            742
+          ],
+          "width": 1527,
+          "height": 2025,
+          "label": "パワーエレクトロニクスと電気機器：解答用紙指定、1.〜3. 全部小问、図1(a)(b)、図2",
+          "sha256": "b096d6971b6475d1060242828bde9fc0a3bb58f4fe5c9a4fdebe5ecc2588c766"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2012-electrical-q4",
+      "number": "データ構造とアルゴリズム",
+      "title": "链表插入与链表归并排序程序",
+      "titleKind": "editorial",
+      "topics": [
+        "連結リスト",
+        "C 程序填空",
+        "再帰",
+        "マージソート",
+        "時間計算量"
+      ],
+      "summary": "跨 3 页（原卷第7〜9頁）：1. 程序A（insert/showcell，空欄【1】【2】）与 2. 程序B（merge/mergesort，空欄【3】〜【6】、(i)〜(v)）。用 3 个 region 保持同题连续，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page renders",
+        "date": "2026-11-03",
+        "notes": "核对青色(4番)指定行、図1 的 cell 结构与三个注释框、プログラムA 的 #define N 9 与 a[N] 初始化值、第8頁 2.(i)〜(v)、第9頁 プログラムB 的空欄与＜α＞标记；代码框四边完整未切字。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2012-electrical/osaka-ee-2012-electrical-q4-01.png",
+          "page": 8,
+          "box": [
+            40,
+            78,
+            546,
+            748
+          ],
+          "width": 1518,
+          "height": 2010,
+          "label": "データ構造とアルゴリズム：解答用紙指定、1. 題干、図1 链表结构、设问 (i)(ii)、プログラムA 全コード",
+          "sha256": "6dde346afece38c27a8f6c7b22b147801a1c52ff3d0500c96d797c229f4186ab"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2012-electrical/osaka-ee-2012-electrical-q4-02.png",
+          "page": 9,
+          "box": [
+            50,
+            101,
+            552,
+            307
+          ],
+          "width": 1506,
+          "height": 618,
+          "label": "同題 2. 題干与 (i)〜(v) 小问（merge/mergesort 追加与最悪時間計算量）",
+          "sha256": "670e9efac4c2676b9992f0ea1378f7c28e8899f67b8126e5fb203490fa8890d8"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2012-electrical/osaka-ee-2012-electrical-q4-03.png",
+          "page": 10,
+          "box": [
+            64,
+            96,
+            514,
+            683
+          ],
+          "width": 1350,
+          "height": 1761,
+          "label": "同題 プログラムB 全コード（merge/mergesort/main，含空欄【3】〜【6】と＜α＞）",
+          "sha256": "e11621a9fd1bb139f3132f4044d91f3248e3dc61d665d6a1c09ea6e4986c8f87"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2012-electrical-q5",
+      "number": "論理回路と計算機システム",
+      "title": "D 触发器、计数器、移位寄存器与二进制乘法",
+      "titleKind": "editorial",
+      "topics": [
+        "D-FF",
+        "タイムチャート",
+        "カウンタ",
+        "真理値表",
+        "シフトレジスタ",
+        "繰り返し型乗算方式",
+        "演算時間"
+      ],
+      "summary": "该分野为一大题，含 1.（D-FF 时序图，図1・図2）、2.（计数器 (i)〜(iii)）、3.（移位寄存器 (i)(ii)）、4.（二进制乘法 (i)〜(iv)）。全页一个 region，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对水色(5番)指定行、1. 的 D-FF 符号与 CK/D=Q/Q 时序波形及格线、2.(i)〜(iii)、3.(i)(ii)、4.(i)〜(iv) 的 (357)×(245) 等数值；图与图号完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2012-electrical/osaka-ee-2012-electrical-q5-01.png",
+          "page": 12,
+          "box": [
+            42,
+            66,
+            551,
+            775
+          ],
+          "width": 1527,
+          "height": 2127,
+          "label": "論理回路と計算機システム：解答用紙指定、1.〜4. 全部小问、図1（D-FF）与図2（时序图）",
+          "sha256": "a3f16413c74d481ed28715521300d23286cbe0327433f950af419d95fa1ced6c"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2012-electrical-q6",
+      "number": "信号処理",
+      "title": "信号处理系统的性质、延迟元件与窗函数",
+      "titleKind": "editorial",
+      "topics": [
+        "記憶性",
+        "因果性",
+        "安定性",
+        "時不変性",
+        "線形性",
+        "z 変換",
+        "周波数応答",
+        "窓関数",
+        "ハニング窓",
+        "離散時間フーリエ変換"
+      ],
+      "summary": "该分野为一大题：1.（信号处理系统的五个性质 (i)〜(iii)，含图1 反馈系统）、2.（窗函数 (i)(ii)，含ハニング窓定义式）。全页一个 region，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对黄色(6番)指定行、①〜⑤の性質列挙、図1 の遅延素子 D 与反馈回路及图号、2.(ii) 的分段函数式（含 0≦n<M 条件与括号）；分段式大括号与上下限完整。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2012-electrical/osaka-ee-2012-electrical-q6-01.png",
+          "page": 13,
+          "box": [
+            43,
+            67,
+            549,
+            688
+          ],
+          "width": 1518,
+          "height": 1863,
+          "label": "信号処理：解答用紙指定、1.(i)〜(iii)、図1 フィードバックシステム、2.(i)(ii)、ハニング窓の定義式",
+          "sha256": "eb5426d2c211b5fd22b48866ba15472087ce1bde43f004c255ebcdd7ff2d365e"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "卷头与注意事項已作为 common 收录，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2012-electrical-q1"
+      ],
+      "common": false,
+      "excluded": "页脚页码与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2012-electrical-q2"
+      ],
+      "common": false,
+      "excluded": "页脚页码与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2012-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "页脚页码与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2012-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "页脚页码与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2012-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "页脚页码与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2012-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "页脚页码与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2012-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "页脚页码与空白页边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2012-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "页脚页码与空白页边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2015-kiso",
+  "title": "大阪大学 · 2015 入学年度 · 共通基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2015",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2015,
+    "yearBasis": "academic",
+    "subject": "共通基础科目",
+    "originalSubject": "基礎科目試験問題",
+    "originalName": "共通基础科目.pdf",
+    "pdf": "assets/past-papers/documents/9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb.pdf",
+    "sha256": "9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb",
+    "pageCount": 13,
+    "note": "平成27年度（2015 入学年度）大学院博士前期課程入学試験。原卷封面未标实际实施日，仅标实施时间 9:30–12:30；9 题（数学1–5、電磁理論1–2、電気電子回路1–2）中选 5 题。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2015-kiso/common-01.png",
+      "page": 1,
+      "box": [
+        65,
+        396,
+        550,
+        745
+      ],
+      "width": 1455,
+      "height": 1047,
+      "label": "全卷作答说明：问题用纸 12 页、9 题构成、选 5 题及按受験コース的选题表（系统・控制・电力 / 先进电磁能源 / 量子电子器件 / 信息通信）",
+      "sha256": "43b532a9862bf0583e2b15bccfb75dfd3ba8f346c96ebe9b23eb06baaa2ffd25"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2015-kiso-q1",
+      "number": "数学１",
+      "title": "条件极值、曲面面积与二重积分",
+      "titleKind": "editorial",
+      "topics": [
+        "条件极值",
+        "曲面面积",
+        "二重积分",
+        "高斯积分"
+      ],
+      "summary": "含 (a)～(c)：x²+y²+z²=1 下 f=xy+yz+zx 的极值、(b) 曲面 z=xy 在圆柱内的曲面面积、(c) 四分之一圆域上 e^{-x²-y²} 的二重积分并由此求 ∫₀^∞ e^{-x²}dx。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 2 页：标题【数学１】与「解答は，白色（１番）の解答用紙に…」保留；(a)(b)(c) 三问与两处积分式（∬_D e^{-x²-y²}dxdy、∫₀^∞ e^{-x²}dx）上下限完整；页脚「1」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q1-01.png",
+          "page": 2,
+          "box": [
+            45,
+            92,
+            550,
+            436
+          ],
+          "width": 1515,
+          "height": 1032,
+          "label": "数学１：解答用纸指定行与 (a)～(c) 全部设问",
+          "sha256": "413fd07270fbcb9cf10b67c38536846d8b4c4f83541224df90d004351858327e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2015-kiso-q2",
+      "number": "数学２",
+      "title": "解析函数的柯西–黎曼条件与调和函数",
+      "titleKind": "editorial",
+      "topics": [
+        "解析函数",
+        "柯西–黎曼条件",
+        "拉普拉斯方程",
+        "实积分"
+      ],
+      "summary": "含 (a)～(d)：由 dF/dz 沿两轴相等导出 φ、ϕ 的条件、(b) Δϕ=0 的条件、(c) 由 ϕ 求 φ、(d) A=1,y=0 时 φ(x,y)³ 沿 x 轴的实积分 ∫₀^∞ dx/(x²+1)³。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 3 页：Δϕ=0、Δ=∂²/∂x²+∂²/∂y² 的旁注式与 (d) 的 ∫₀^∞ dx/(x²+1)³ 积分式完整，(a)～(d) 齐全；页脚「2」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q2-01.png",
+          "page": 3,
+          "box": [
+            48,
+            68,
+            545,
+            442
+          ],
+          "width": 1491,
+          "height": 1122,
+          "label": "数学２：解答用纸指定行、F=φ+iϕ 定义与 (a)～(d) 全部设问",
+          "sha256": "368bbb0cbbbb30afa7703761421e0b29f73aa5a41d07952a9652453935bb1927"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2015-kiso-q3",
+      "number": "数学３",
+      "title": "复函数的虚部、泰勒展开与傅里叶级数",
+      "titleKind": "editorial",
+      "topics": [
+        "复函数",
+        "泰勒展开",
+        "傅里叶级数",
+        "正交积分"
+      ],
+      "summary": "含 (a)～(e)：f(z)=1/(1-z) 在 z=ae^{iθ} 的虚部、z=0 处泰勒展开、g(θ)=a sinθ/(1-2a cosθ+a²) 的傅里叶级数、I_{m,n}=∫₀^{2π}sin(mθ)sin(nθ)dθ、J_m=∫₀^{2π}g(θ)sin(mθ)dθ。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 4 页：f(z)、g(θ)、I_{m,n}、J_m 四个公式与积分上下限 0–2π 完整，(a)～(e) 齐全；页脚「3」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q3-01.png",
+          "page": 4,
+          "box": [
+            40,
+            64,
+            550,
+            452
+          ],
+          "width": 1530,
+          "height": 1164,
+          "label": "数学３：解答用纸指定行与 (a)～(e) 全部设问（含 5 个公式）",
+          "sha256": "14b4776f4d83eecf08e37268c9c427e17ad8b9ace46aa73653506c2729eae2ab"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2015-kiso-q4",
+      "number": "数学４",
+      "title": "拉普拉斯变换与微分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "拉普拉斯变换",
+        "阶跃函数",
+        "时滞微分方程",
+        "变系数方程"
+      ],
+      "summary": "含 (a)～(c)：Σ_{n=0}^∞ (t-n)^n/n!·H(t-n) 的拉普拉斯变换、y′(t)+y(t-1)=t³ 的解、y″-ty′+2y=t-1（y(0)=y′(0)=1）的解。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 5 页：级数式、H(t) 分段定义、y′(t)+y(t-1)=t³ 与 y″-ty′+2y=t-1 两式完整；页脚「4」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q4-01.png",
+          "page": 5,
+          "box": [
+            40,
+            60,
+            550,
+            366
+          ],
+          "width": 1530,
+          "height": 918,
+          "label": "数学４：解答用纸指定行、导数记号约定与 (a)～(c)",
+          "sha256": "1a7283ad28d2388f6160ee1297fc3aa1bef8c7e84742f4b68c0a3e977f511c7d"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2015-kiso-q5",
+      "number": "数学５",
+      "title": "波利亚坛子模型的概率",
+      "titleKind": "editorial",
+      "topics": [
+        "概率",
+        "随机变量",
+        "波利亚坛子",
+        "条件概率"
+      ],
+      "summary": "含 (a)～(d)：Pr(Y_k=k,Y_n=k)、Pr(Y_n=k)、Pr(X_n=1)（含全概率展开式）与 Pr(X_m=1,X_n=0)。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 6 页：题干（r、b、c 加球规则）、Y_n=X₁+…+X_n 定义式与 (a)～(d) 全部设问完整，Pr(X_n=1) 的多重求和式上下限齐全；页脚「5」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q5-01.png",
+          "page": 6,
+          "box": [
+            45,
+            58,
+            552,
+            500
+          ],
+          "width": 1521,
+          "height": 1326,
+          "label": "数学５：解答用纸指定行、坛子模型题干、Yn 定义与 (a)～(d)",
+          "sha256": "6b523e3ce1f27a106146d41144f58d8fd8f671bd03eb02ff114e12926c72b29e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2015-kiso-q6",
+      "number": "電磁理論1",
+      "title": "麦克斯韦方程组与平板电荷的电场",
+      "titleKind": "editorial",
+      "topics": [
+        "麦克斯韦方程",
+        "边界条件",
+        "高斯法则",
+        "电场能量"
+      ],
+      "summary": "填空 23 空（①～㉓）：4 个麦克斯韦方程、2 个边界条件、直角坐标分量式、厚度 d 的无限平板电荷的电场分段解（式(8)(9)）、双平板情形（式(10)）与电场能量 W_e（式(11)），其中⑫选词、⑰㉒画图。跨 2 页。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 7、8 页：式号 (1)～(11) 与①～㉓空栏逐一核对齐全；图 1（ρ 平板，坐标 z、x、d）与图 2（±ρ 双平板，含 2d、3d 标注）完整；页脚「6」「7」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q6-01.png",
+          "page": 7,
+          "box": [
+            42,
+            66,
+            560,
+            772
+          ],
+          "width": 1554,
+          "height": 2118,
+          "label": "電磁理論1：解答用纸指定行、填空说明、式(1)～(8) 与图 1",
+          "sha256": "6a728214e322d7785a10e157720423756cb9fca0502a5d4e3df131ccb4f63637"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q6-02.png",
+          "page": 8,
+          "box": [
+            45,
+            68,
+            560,
+            655
+          ],
+          "width": 1545,
+          "height": 1761,
+          "label": "電磁理論1：式(9)～(11)、图 2 与 ⑬～㉓ 各空栏",
+          "sha256": "e5b9ab60056bcfcce52eae9130a32a15cc373c9cb800239feeec2f72bce92fe0"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2015-kiso-q7",
+      "number": "電磁理論2",
+      "title": "毕奥–萨伐尔定律与载流线段、正 N 边形的磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "毕奥–萨伐尔定律",
+        "线电流",
+        "圆柱坐标",
+        "正 N 边形",
+        "磁场"
+      ],
+      "summary": "填空 16 空（①～⑯）：式(1) 的定律名、dH 的各式、r₀ 与 R、θ 关系、积分上下限、长度 l 线段的 H（式(7)(9)(10)）、cos φ₀、正 N 边形边长 l 与距离 r₀、H（式(13)(14)）。跨 2 页，含图 1～图 3。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source pages",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 9、10 页：式号 (1)～(14) 与①～⑯空栏齐全；图 1（线电流、dl、i_l、R）、图 2（圆柱坐标、l/2、-l/2、φ₀、dθ 标注）、图 3（内接正 N 边形、a、r₀）完整；页脚「8」「9」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q7-01.png",
+          "page": 9,
+          "box": [
+            42,
+            66,
+            585,
+            778
+          ],
+          "width": 1629,
+          "height": 2136,
+          "label": "電磁理論2：解答用纸指定行、填空说明、式(1)～(6)、图 1 与图 2",
+          "sha256": "5cf0ce98371fa7ee900fb1c59c5a1f92fa7ab69528940b725964dbdcf082444c"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q7-02.png",
+          "page": 10,
+          "box": [
+            45,
+            70,
+            585,
+            745
+          ],
+          "width": 1620,
+          "height": 2025,
+          "label": "電磁理論2：式(7)～(14) 与图 3（正 N 边形）",
+          "sha256": "2780d70fb4fd4f2e2300e0cc29eeab2730a517a1f8bc6950cf97fec187edc2b9"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2015-kiso-q8",
+      "number": "電気電子回路1",
+      "title": "含电感的二端子网络与戴维南等效",
+      "titleKind": "editorial",
+      "topics": [
+        "拉普拉斯变换",
+        "戴维南等效",
+        "阶跃响应",
+        "正弦稳态",
+        "相位补偿"
+      ],
+      "summary": "含 (1)～(5)：由 V(s) 求电压传递关系、(2) s 域戴维南等效电路、(3) 阶跃响应 v(t)、(4) 正弦稳态振幅、(5) 接电容后使相位滞后 π/4 的 C 值。图 1 为 L、r、R 与电源 e(t) 构成的二端子网络。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 12 页：图 1 电路（L、r、R、e(t)、端子①②与接地）完整，(1)～(5) 齐全，下方「注 右記の記号は阻抗/接地」图例与 *1～*6 术语脚注（属于本题的条件说明）一并保留；页脚「11」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q8-01.png",
+          "page": 12,
+          "box": [
+            45,
+            58,
+            560,
+            775
+          ],
+          "width": 1545,
+          "height": 2151,
+          "label": "電気電子回路1：解答用纸指定行、(1)～(5)、图 1 电路、记号说明与脚注 *1～*6",
+          "sha256": "d62c0058c5f2d5748b864a53b117834cdc6960a01386cbdefa9653df0be4ec04"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2015-kiso-q9",
+      "number": "電気電子回路2",
+      "title": "运算放大器电路的增益与截止频率设计",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器",
+        "反相输入",
+        "电压传递函数",
+        "通带",
+        "截止频率"
+      ],
+      "summary": "含 (1)～(5)：V̇n 与 A、V̇out 的关系、V̇out 表达式、A→∞ 极限、SW 短接时 T(jω)、由 12 dB 通带增益与 500 Hz 截止频率求 R₂、C。含图 1 电路与 *1～*8 术语脚注。中文标题与概述仅供导航。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 13 页：图 1 运放电路（SW、C、R₁、R₂、A、V̇in1、V̇in2、V̇n、V̇out）完整，(1)～(5) 齐全，下方 *1～*8 术语脚注与阻抗/基准电位记号说明一并保留；页脚「12」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2015-kiso/osaka-ee-2015-kiso-q9-01.png",
+          "page": 13,
+          "box": [
+            45,
+            62,
+            560,
+            802
+          ],
+          "width": 1545,
+          "height": 2220,
+          "label": "電気電子回路2：解答用纸指定行、题干、SW 开/短接两组设问 (1)～(5)、图 1 与脚注 *1～*8",
+          "sha256": "6b2ca83fab5cfb61446be751b604b51366508136d8c202d9140ae35928d0f59e"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面与【注意事項】（含受験コース选题表）已单独收录为 common，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q1"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q2"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q3"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q4"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳词汇页（電磁理論１／電磁理論２ 的英日对照），按 BRIEF 单独列出，不并入题目。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q8"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2015-kiso-q9"
+      ],
+      "common": false,
+      "excluded": "页面空白边与页脚页码，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}
