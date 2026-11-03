@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2020-kiso",
+  "title": "大阪大学 · 2020 入学年度 · 共通基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2020",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2020,
+    "yearBasis": "academic",
+    "subject": "共通基础科目",
+    "originalSubject": "基礎科目試験問題",
+    "originalName": "共通基础科目.pdf",
+    "pdf": "assets/past-papers/documents/8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605.pdf",
+    "sha256": "8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605",
+    "pageCount": 15,
+    "note": "2020 年度大学院博士前期課程入学試験（実施は 2019 年）。原卷封面标「実施時間 9：30～12：30」、問題用紙 14 頁、全 9 題（数学１–５、電磁理論１・２、電気電子回路１・２）。電気工学コースは数学 5 題から 3 題、電磁理論・電気電子回路 4 題から 2 題の計 5 題選択。封面未标实施日期，故不推断具体考试日。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2020-kiso/common-01.png",
+      "page": 1,
+      "box": [
+        100.0,
+        118.0,
+        520.0,
+        352.0
+      ],
+      "width": 1260,
+      "height": 702,
+      "label": "封面标题与实施时间：2020 年度大学院博士前期課程入学試験・大阪大学大学院工学研究科 電気電子情報工学専攻・基礎科目試験問題（実施時間 9：30～12：30）",
+      "sha256": "4993fef377876e31bde594551be8de5d5a55fdca9da4bffdad07f5bc588922cc"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2020-kiso/common-02.png",
+      "page": 1,
+      "box": [
+        66.0,
+        414.0,
+        545.0,
+        786.0
+      ],
+      "width": 1437,
+      "height": 1116,
+      "label": "全卷作答说明（注意事項）：問題用紙 14 頁、9 題の構成、コース別選択ルール表（電気工学／電子工学／情報通信工学コース）、選択票・持ち帰り規定",
+      "sha256": "3233372f05fdf898cb60ba0b8de65dc7b2e40f143b8b3fc0d748ac8a5b1c2132"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2020-kiso-q1",
+      "number": "数学1",
+      "title": "数学 1：矩阵指数与二维线性微分方程组的曲线族",
+      "titleKind": "editorial",
+      "topics": [
+        "固有値・固有ベクトル",
+        "行列の指数関数",
+        "対角化",
+        "積分曲線"
+      ],
+      "summary": "v(t)=(x(t), y(t))ᵀ が式(1) v(t)=exp(tA)v(0) で与えられる（A=[[0,1],[1,0]]）。(a) A の固有値・固有ベクトル、(b) exp(X)=lim(E+X/n)ⁿ の定義のもとで E+(t/n)A を対角化して exp(tA) を求める、(c) 式(1) の曲線群の概略を (x,y) 平面上に図示。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the PDF",
+        "date": "2026-11-03",
+        "notes": "第 2 頁で見出し・解答用紙指定・式(1)・A の行列・(a)〜(c) を確認。exp(X) の極限式と E+(t/n)A の表記を欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q1-01.png",
+          "page": 2,
+          "box": [
+            42.7,
+            68.0,
+            552.8,
+            436.8
+          ],
+          "width": 1531,
+          "height": 1107,
+          "label": "数学1：冒頭の分野見出し・解答用紙指定（白色 (1番)）、式(1) と A の定義、(a)〜(c)",
+          "sha256": "32b74bfcc1f327339fd338c42ca80067a905fa62d87074c59638460ee9b4434e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2020-kiso-q2",
+      "number": "数学2",
+      "title": "数学 2：勒让德多项式与高阶微分方程的递推",
+      "titleKind": "editorial",
+      "topics": [
+        "高階微分",
+        "微分方程式",
+        "ルジャンドル多項式",
+        "定積分"
+      ],
+      "summary": "y=(x²−1)ⁿ として (a) (x²−1)y′=2nxy を導く、(b) 両辺を x で n+1 回微分し u=y⁽ⁿ⁾ が (1−x²)u″−2xu′+n(n+1)u=0 の解であることを示す、(c) Pₙ(x)=Cₙu(x) かつ Pₙ(1)=1 から Cₙ を求める、(d) ∫₋₁¹Pₙ²(x)dx を求める。ただし |x|≤1、n は正の整数。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the PDF",
+        "date": "2026-11-03",
+        "notes": "第 3 頁で見出し・解答用紙指定・(a)〜(d) と積分区間 −1〜1 を確認。下付き添字 n と累乗の区別を保持。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q2-01.png",
+          "page": 3,
+          "box": [
+            47.9,
+            67.9,
+            550.1,
+            526.9
+          ],
+          "width": 1508,
+          "height": 1378,
+          "label": "数学2：冒頭の分野見出し・解答用紙指定（赤色 (2番)）、(a)〜(d)",
+          "sha256": "420c309c07d3f6c10d783bcc32b086bac4f2dcfc93a1a0eff1f640650cbec7c0"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2020-kiso-q3",
+      "number": "数学3",
+      "title": "数学 3：复变函数的留数定理与实积分",
+      "titleKind": "editorial",
+      "topics": [
+        "複素関数",
+        "極と留数",
+        "周回積分",
+        "実積分"
+      ],
+      "summary": "f(z)=z e^{irz}/(z²+m²) につき (a) すべての極における留数、(b) 積分路 C1, C2（図1、半径 R の半円弧）に関する周回積分、(c) C2 上の経路積分が R→∞ で 0 になること、(d) (b)(c) を用いて実積分 ∫₀^∞ 2k/(k²+1) sin k dk を求める。ただし m, r は正の実数、R>m。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the PDF",
+        "date": "2026-11-03",
+        "notes": "第 4 頁で見出し・解答用紙指定・f(z) の式・(a)〜(d)・図1（C1, C2, ±R, iy 軸, 原点 0, 半径 R>m の注記）を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q3-01.png",
+          "page": 4,
+          "box": [
+            42.6,
+            67.9,
+            529.3,
+            629.4
+          ],
+          "width": 1461,
+          "height": 1686,
+          "label": "数学3：冒頭の分野見出し・解答用紙指定（青色 (3番)）、図1 の積分路と (a)〜(d)",
+          "sha256": "60f6be8b5f41bf22b761d0b1918b19097bab5399956dc2672a6b1dfc4831658b"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2020-kiso-q4",
+      "number": "数学4",
+      "title": "数学 4：拉普拉斯变换与初值问题",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "単位ステップ関数",
+        "たたみ込み積分",
+        "初期値問題"
+      ],
+      "summary": "f(t)=5cos t（0≤t<π/2）、0（t≥π/2）と u(t)（単位ステップ関数）を定義し、(a) f(t) を u(t) と u(t−π/2) で表す、(b) f(t) のラプラス変換 F(s)、(c) ∫₀^t f(t−τ)e^{−τ} sin τ dτ、(d) x″+2x′+2x=f(t)（x(0)=1, x′(0)=2）を満たす x(t)。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the PDF",
+        "date": "2026-11-03",
+        "notes": "第 5 頁で見出し・解答用紙指定・f(t)/u(t) の区分的定義・(a)〜(d)・初期条件を確認。t=0 の微分の縦棒表記も収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q4-01.png",
+          "page": 5,
+          "box": [
+            46.3,
+            60.7,
+            449.1,
+            414.3
+          ],
+          "width": 1210,
+          "height": 1061,
+          "label": "数学4：冒頭の分野見出し・解答用紙指定（黄色 (4番)）、f(t), u(t) の定義と (a)〜(d)",
+          "sha256": "33f58a1a8435c0293d108e0650faab432c27f9b4afc43b26e46ae5496f9c9eca"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2020-kiso-q5",
+      "number": "数学5",
+      "title": "数学 5：随机游走的到达概率与到访时刻期望",
+      "titleKind": "editorial",
+      "topics": [
+        "ランダムウォーク",
+        "条件付き確率",
+        "漸化式",
+        "期待値",
+        "極限"
+      ],
+      "summary": "非負整数値をとる乱歩 {Xn} を Pr(Xn+1=j|Xn=i)=1/(i+2)（i∈N, j=0,1,…,i+1）、Pr(Xn+1=0|Xn=0)=1 で定める。(a) pi(M) の再帰関係、(b) qk(M)=pk(M)−pk−1(M) が qk(M)=fk(M)q1(M) と書けるときの fk(M)、(c) pi(M) を fk(M) で表す、(d) lim pi(M)=1 の条件から T1≥2(e−1) を示す。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the PDF",
+        "date": "2026-11-03",
+        "notes": "第 6 頁で見出し・解答用紙指定・2 本の確率定義式・(a)〜(d)・極限式とネイピア数 e の注記を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q5-01.png",
+          "page": 6,
+          "box": [
+            46.3,
+            60.7,
+            545.7,
+            572.7
+          ],
+          "width": 1500,
+          "height": 1537,
+          "label": "数学5：冒頭の分野見出し・解答用紙指定（水色 (5番)）、遷移確率の定義と (a)〜(d)",
+          "sha256": "b5127b0a1859500debe29418fcccec12b8477ed91b174b445a7fe3c3f120ee71"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2020-kiso-q6",
+      "number": "電磁理論1",
+      "title": "电磁理论 1：麦克斯韦方程的形式、边界条件与圆柱坐标下的磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "マクスウェル方程式",
+        "ガウスの法則",
+        "境界条件",
+        "円柱座標系",
+        "アンペアの法則",
+        "磁力線"
+      ],
+      "summary": "空欄 ①〜㉕ を埋める形式。[1] 真空の電界 E・磁界 H に対するマクスウェル方程式の微分表示（①〜④）。[2] 領域 1・2 の境界面 S における電界・磁界の境界条件（⑤⑥）。[3] 円柱座標 (r,φ,z) で式(4) の空間微分項を成分表示（⑦〜⑨）、半径 a の無限長円柱内の一様定常電流による磁界（⑩〜⑬、式(8)(9)）、さらに φ 方向の電流を加えた場合の磁界（⑱〜㉒、式(10)(11)）と磁力線のピッチ（㉓〜㉕）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the PDF",
+        "date": "2026-11-03",
+        "notes": "第 7 頁で見出し・解答用紙指定・[1]〜[3]・①〜⑪ と円柱座標の行列式、第 8 頁で式(8)〜(11)・⑫〜㉕（(イ)法線/(ロ)接線 の選択肢を含む）を確認。空欄の丸数字が頁をまたいで連続していることを確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q6-01.png",
+          "page": 7,
+          "box": [
+            42.7,
+            69.0,
+            552.7,
+            742.4
+          ],
+          "width": 1531,
+          "height": 2021,
+          "label": "電磁理論1：冒頭の分野見出し・解答用紙指定（桃色 (6番)）、[1]〜[3] と空欄 ①〜⑪",
+          "sha256": "8d7a42e6b76458d74b8973d9f2775552d8e73c9144093c797976c14841f3be74"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q6-02.png",
+          "page": 8,
+          "box": [
+            48.0,
+            67.6,
+            547.7,
+            672.9
+          ],
+          "width": 1500,
+          "height": 1817,
+          "label": "電磁理論1：式(8)〜(11) と空欄 ⑫〜㉕（磁界分布と磁力線のピッチ）",
+          "sha256": "a746f2d60621858cf02f20af68f0bb1bfdb30302abed5c247be5d2528df2ae01"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2020-kiso-q7",
+      "number": "電磁理論2",
+      "title": "电磁理论 2：等离子体与介质中比介电常数的色散与折射率",
+      "titleKind": "editorial",
+      "topics": [
+        "アンペア・マクスウェルの法則",
+        "変位電流",
+        "プラズマ角周波数",
+        "比誘電率",
+        "屈折率",
+        "全反射",
+        "正常分散",
+        "ローレンツの振動子"
+      ],
+      "summary": "空欄 ①〜⑲ を埋める形式。[1] 真空の微分形式のアンペア・マクスウェル方程式（①②）。[2] 一様高周波電界中の電子の運動方程式から自由電流密度 J1・変位電流密度 J1′ を求め（③〜⑦）、比誘電率 εr1(ω) と屈折率 n1(ω)（⑧〜⑪、グラフ⑨）。[3] 復元力をもつ媒質 2 の電子変位・電流（⑫〜⑮）、誘電率 ε2(ω)（⑯）、屈折率 n2²(ω)（⑰〜⑲、グラフ⑱）と正常分散。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the PDF",
+        "date": "2026-11-03",
+        "notes": "第 9 頁で見出し・解答用紙指定・[1][2]・①〜⑦、第 10 頁で式(8)〜(17)・⑧〜⑮・[3]、第 11 頁で式(18)〜(20)・⑯〜⑲ を確認。グラフ指定欄（⑨⑱）と (大きく，小さく) の選択肢を保持。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q7-01.png",
+          "page": 9,
+          "box": [
+            41.9,
+            69.7,
+            547.4,
+            764.6
+          ],
+          "width": 1518,
+          "height": 2085,
+          "label": "電磁理論2：冒頭の分野見出し・解答用紙指定（緑色 (7番)）、[1][2] と式(1)〜(7)",
+          "sha256": "7ad78e97a6379b1da3f597c0b4ab4f9fe22d354a368e0e341063c433261fc0b2"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q7-02.png",
+          "page": 10,
+          "box": [
+            47.9,
+            68.5,
+            547.3,
+            767.4
+          ],
+          "width": 1499,
+          "height": 2098,
+          "label": "電磁理論2：式(8)〜(17)、グラフ ⑨、[3] の媒質 2",
+          "sha256": "9f7311b6cd54e05766fa501bcf6fa86526c4dc7d1b4cfd9fa8c353bf3de14752"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q7-03.png",
+          "page": 11,
+          "box": [
+            47.9,
+            70.6,
+            547.3,
+            334.5
+          ],
+          "width": 1499,
+          "height": 793,
+          "label": "電磁理論2：式(18)〜(20)、グラフ ⑱ と空欄 ⑲",
+          "sha256": "532f50d8e02eed193452d2eb5c8175802930ef13a68a81ba8c2cbdffeef7e3f2"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2020-kiso-q8",
+      "number": "電気電子回路1",
+      "title": "电气电子电路 1：正弦稳态电路、功率与戴维南等效阻抗",
+      "titleKind": "editorial",
+      "topics": [
+        "正弦波定常状態",
+        "実効値",
+        "有効電力・無効電力",
+        "力率",
+        "相互コンダクタンス",
+        "テブナン等価回路",
+        "複素インピーダンス"
+      ],
+      "summary": "正弦波定常状態にある交流回路。(1) 図1 の回路で vout(t) を求める（R1=1Ω, L1=7H, C1=0.5F, R2=1Ω, L2=3H, v1=sin t）。(2) 図2 で v2 の実効値 10V・角周波数 2Mrad/s のとき、ポート 2-2′ から見た有効電力・無効電力・力率（C2=0.5nF, R3=4kΩ, L3=2mH）。(3) 図3 の相互コンダクタンス gm の VCCS を含む回路で、ポート 3-3′ から見たテブナン等価回路の複素インピーダンスを gm, ω, R4, R5, C3, C4, j で表す。脚注に用語の英訳。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the PDF",
+        "date": "2026-11-03",
+        "notes": "第 14 頁で見出し・解答用紙指定・図1〜図3 の回路定数・(1)〜(3)・脚注 *1〜*9 を確認。図3 の従属電源（ひし形）と gm v4(t) の表記を欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q8-01.png",
+          "page": 14,
+          "box": [
+            48.0,
+            60.7,
+            553.9,
+            780.5
+          ],
+          "width": 1518,
+          "height": 2160,
+          "label": "電気電子回路1：冒頭の分野見出し・解答用紙指定（灰色 (8番)）、図1〜図3 の交流回路と (1)〜(3)、脚注の用語対訳",
+          "sha256": "e863dba01e77a933c0e5300530d895e9e63a5b1e5c91a2ff40d28551fabd1917"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2020-kiso-q9",
+      "number": "電気電子回路2",
+      "title": "电气电子电路 2：MOSFET 源极接地放大器的直流工作点与小信号分析",
+      "titleKind": "editorial",
+      "topics": [
+        "MOSFET",
+        "飽和領域・線形領域",
+        "相互コンダクタンス",
+        "小信号等価回路",
+        "電圧利得",
+        "ボード線図",
+        "遮断角周波数"
+      ],
+      "summary": "n チャネル MOSFET のドレイン電流式（飽和領域 ID=0.5β(VGS−VTH)²、線形領域 ID=β{(VGS−VTH)VDS−0.5VDS²}）のもとで、図1 のソース接地増幅器を解析する。β=2.0 mA/V², VTH=0.50V, VDD=5.0V, RD=1.0kΩ, CL=1.0μF。(1)(2) 飽和／線形領域の VOUT,DC 対 VIN,DC、(3) 領域が切り替わる VIN,DC（有効数字 2 桁）、(4) 伝達特性の概形、(5) 図2 の小信号等価回路を用いた増幅器の等価回路、(6) gm と VOUT,DC、(7) 電圧利得 A、(8) |A| と ∠A およびボード線図の概形。脚注に用語の英訳 *1〜*16。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the PDF",
+        "date": "2026-11-03",
+        "notes": "第 15 頁で見出し・解答用紙指定・電流式・素子定数・(1)〜(8)・図1・図2・脚注 *1〜*16 を確認。図1 の VDD, RD, CL, 接地記号と図2 の G/S/D 端子を欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2020-kiso/osaka-ee-2020-kiso-q9-01.png",
+          "page": 15,
+          "box": [
+            42.7,
+            69.0,
+            553.0,
+            772.1
+          ],
+          "width": 1531,
+          "height": 2110,
+          "label": "電気電子回路2：冒頭の分野見出し・解答用紙指定（だいだい色 (9番)）、図1 のソース接地増幅器・図2 の小信号等価回路と (1)〜(8)、脚注の用語対訳",
+          "sha256": "da945538bf34aede8de947e4196088ea153f036d1e694da5013302a25147cde5"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面の試験名・実施時間と注意事項のみ。表紙のため common 収録。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q8"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "osaka-ee-2020-kiso-q9"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

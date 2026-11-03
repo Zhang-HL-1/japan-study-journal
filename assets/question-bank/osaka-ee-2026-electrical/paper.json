@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2026-electrical",
+  "title": "大阪大学 · 2026 入学年度 · 专门科目（电气工学课程）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-electrical-2026",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2026,
+    "yearBasis": "academic",
+    "subject": "专门科目（电气工学）",
+    "originalSubject": "数学・専門科目試験問題（電気工学コース）",
+    "originalName": "数学・専門科目試験問題（電気工学コース）.pdf",
+    "pdf": "assets/past-papers/documents/c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a.pdf",
+    "sha256": "c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a",
+    "pageCount": 16,
+    "note": "2026 年度（令和 8 年度）入試。2026 年度起按课程分册，電気工学コース只发布这一册「数学・専門科目試験問題（電気工学コース）」（数学・専門科目合卷，无独立の基礎科目册）。原卷封面標「実施時間 9：30～12：30」、3 分野 7 題（①数学1・数学2・数学3、②電磁理論1・電磁理論2、③電気電子回路1・電気電子回路2）、「①数学 3 題と②③から 2 題、合計 5 題」の作答規則。各分野の末尾に「専門用語の英訳」語彙対訳表（第 8・12・14・16 頁）が付くが非試题頁。未標实施日期，不推断具体考试日。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2026-electrical/common-01.png",
+      "page": 1,
+      "box": [
+        70,
+        136,
+        536,
+        670
+      ],
+      "width": 1398,
+      "height": 1602,
+      "label": "封面：試験名「2026 年度大学院博士前期課程入学試験／大阪大学大学院工学研究科 電気電子情報通信工学専攻／数学・専門科目試験問題（電気工学コース）」、実施時間 9：30～12：30、注意事項 1〜4（本表紙を除き 15 ページ・3 分野 7 題・数学 3 題と②③から 2 題の計 5 題解答・選択票の注意事項）",
+      "sha256": "59c19a47606bce5b9a7117c74ad2fd7d4f197009651d9613dd89486421953af1"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2026-electrical-q1",
+      "number": "数学1",
+      "title": "数学1：−1 の立方根を含む行列式と三階線形漸化式の行列表現",
+      "titleKind": "editorial",
+      "topics": [
+        "立方根",
+        "行列式",
+        "漸化式",
+        "行列の対角化",
+        "固有ベクトル",
+        "一般項"
+      ],
+      "summary": "【数学1】解答は白色（1番）の解答用紙。(a) z = e^{iπ/3} が −1 の立方根の一つであるとき、行列式 |1 z z²; 2 z² z⁴; 3 z³ z⁶| の値を求める。(b) x₀=1, x₁=1, x₂=2, x_{n+3}−6x_{n+2}+11x_{n+1}−6x_n=0 で定まる数列について、(b-1) X_n=(x_n, x_{n+1}, x_{n+2})^T が X_{n+1}=AX_n を満たす行列 A を求める、(b-2) X₀ を A の固有ベクトルの線形和で表す、(b-3) 一般項 x_n を求める。小問は分割せず「数学1」1 題として収録。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 2 頁のみで完結。分野見出し【数学1】・白色解答用紙指定・(a) の行列式（3 行 3 列の成分 1 z z²／2 z² z⁴／3 z³ z⁶）・(b) の初期値と漸化式・(b-1)〜(b-3) を確認。頁脚「−1−」は枠外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q1-01.png",
+          "page": 2,
+          "box": [
+            70,
+            88,
+            520,
+            614
+          ],
+          "width": 1350,
+          "height": 1578,
+          "label": "数学1：解答用紙（白色 1 番）指定・冒頭文、(a) 立方根と三階行列式、(b) 漸化式の設定と (b-1) 行列 A・(b-2) 固有ベクトルによる X₀ の展開・(b-3) 一般項",
+          "sha256": "0f7d737cddb2d80c5882093295ad701d8db81430c9fb323e65da67f68ba09925"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2026-electrical-q2",
+      "number": "数学2",
+      "title": "数学2：ベルヌーイ形常微分方程式の線形化と一般解",
+      "titleKind": "editorial",
+      "topics": [
+        "常微分方程式",
+        "ベルヌーイ形",
+        "1階線形微分方程式",
+        "変数変換",
+        "一般解"
+      ],
+      "summary": "【数学2】解答は赤色（2番）の解答用紙。P(x), Q(x) は連続関数、式(1) dy/dx + P(x)y = Q(x)y^n は解を持ち、n は自然数、y≠0 とする。(a) n=1 のとき式(1) の一般解を求める。(b) n≥2 のとき z=y^{1−n} を用いて式(1) が z に関する線形微分方程式に変換できることを示す。(c) x≠0 のもとで dy/dx + y/x = x²y³ の一般解を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 3 頁のみで完結し、下半分は余白。分野見出し【数学2】・赤色解答用紙指定・式(1) と前提条件（連続関数・自然数 n・y≠0）・(a)〜(c) の 3 小問と (c) の方程式を確認。左端の微小な走査汚れは枠外に置いた。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q2-01.png",
+          "page": 3,
+          "box": [
+            53,
+            82,
+            538,
+            414
+          ],
+          "width": 1455,
+          "height": 996,
+          "label": "数学2：解答用紙（赤色 2 番）指定・冒頭文と式(1)、(a) n=1 の一般解、(b) z=y^{1−n} による線形化の証明、(c) dy/dx+y/x=x²y³ の一般解",
+          "sha256": "3bafb070807e992553e45b3e969cdf92a55775c4e8fb5763549652b2fec96fbf"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2026-electrical-q3",
+      "number": "数学3",
+      "title": "数学3：フーリエ級数展開・|sin x| の係数と級数和",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ級数",
+        "フーリエ係数",
+        "三角関数の直交性",
+        "パーセバルの等式",
+        "無限級数"
+      ],
+      "summary": "【数学3】解答は青色（3番）の解答用紙。2π の周期をもつ区分的に滑らかな連続関数 f(x) のフーリエ級数展開 f(x)=a₀/2+Σ{a_n cos(nx)+b_n sin(nx)} について、(a) 三角関数の直交性（∫sin(jx)cos(kx)dx=0、∫sin(jx)sin(kx)dx=∫cos(jx)cos(kx)dx=πδ_jk）を用いてフーリエ係数の式(1)(2) を導く、(b) g(x)=|sin x| のフーリエ係数を式(1)(2) から求める、(c) g(0) を計算して Σ_{m=1}^∞ 1/(4m²−1) を求める、(d) パーセバルの等式を用いて Σ(1/(4m²−1))² を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 4 頁のみで完結。分野見出し【数学3】・青色解答用紙指定・級数展開式・(a) の 3 つの直交積分（δ_jk の定義文を含む）・(b)〜(d) の 4 小問と 2 つの無限級数を確認し、数式の上下端が切れていないことを見た。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q3-01.png",
+          "page": 4,
+          "box": [
+            53,
+            84,
+            538,
+            733
+          ],
+          "width": 1455,
+          "height": 1947,
+          "label": "数学3：解答用紙（青色 3 番）指定・フーリエ級数の定義、(a) 直交性による係数公式(1)(2) の導出、(b) g(x)=|sin x| の係数、(c) g(0) からの Σ1/(4m²−1)、(d) パーセバルの等式による Σ(1/(4m²−1))²",
+          "sha256": "dd2228761171bba341254593d5f775e7604099d294957996f9a17d7c2158d91f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2026-electrical-q4",
+      "number": "電磁理論1",
+      "title": "電磁理論1：水素原子モデルの分極と誘電率の分散（ローレンツ模型）",
+      "titleKind": "editorial",
+      "topics": [
+        "静電ポテンシャル",
+        "球座標",
+        "単振動",
+        "双極子モーメント",
+        "誘電率",
+        "ローレンツ模型",
+        "共鳴"
+      ],
+      "summary": "【電磁理論1】解答は桃色（4番）の解答用紙。①〜㉑ の番号に対応する空欄（語句・記号・数式）を解答用紙に記入する形式で、①④⑳は選択肢から選び、⑱はグラフを描く。[1] 真空中の +e と −e の点電荷対（水素原子型、負電荷は半径 a の円軌道を速度 v で運動）について、球座標 (r,θ,φ) の静電ポテンシャル φ (②)、電界 E=−∇φ (③)、E の r 成分 (④⑤)、遠心力との釣合いから v (⑥) と周期 T (⑦)、直交座標での E_x (⑧)、単振動の運動方程式(6) と角周波数 ω₀ (⑨)。[2] x 軸方向に一様な外部電界 E₁ を加えたときの運動方程式(8) と釣合い位置 x₁ (⑩⑪)、双極子モーメント p (⑫)、単位体積あたり N 個の集合体の分極 P から ω_p (⑬)、誘電率 ε₁ (⑭)。[3] 角周波数 ω で正弦的に振動する外部電界 E₂ の場合の運動方程式(13)、特殊解 x=C sin ωt の C (⑮⑯)、誘電率 ε₂ (⑰) とその周波数依存性のグラフ (⑱)、ε₂=0 となる ω₁ (⑲)、ω<ω₀ での比誘電率の大小 (⑳)、ω→+∞ の極限 (㉑)。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 5 頁で分野見出し・桃色解答用紙指定・空欄記入形式の注意（①④⑳は選択、⑱はグラフ）・図 1 の座標軸と点電荷・式(1)〜(7) と ①〜⑨、第 6 頁で式(8)〜(16) と ⑩〜⑱、第 7 頁で式(17) と ⑲⑳㉑ を確認。図 1 の軸ラベル x, y, z, r, θ, φ, a, v, −e, +e が枠内に収まることを確認。第 8 頁の語彙対訳表は題目外として枠に含めない。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q4-01.png",
+          "page": 5,
+          "box": [
+            55,
+            84,
+            538,
+            758
+          ],
+          "width": 1449,
+          "height": 2022,
+          "label": "電磁理論1：解答用紙（桃色 4 番）指定・空欄 ①〜㉑ の記入形式と選択肢の指示、[1] 点電荷対の設定と図 1（球座標・円軌道）、φ(②)・E(③)・E_r(④⑤)・v(⑥)・T(⑦)・E_x(⑧)・運動方程式(6)・ω₀(⑨)、[2] の導入部",
+          "sha256": "60e7cd96be5093600c8fe8a29de09b3a4eb2db9e9792bfa82463c31d61196061"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q4-02.png",
+          "page": 6,
+          "box": [
+            55,
+            85,
+            538,
+            750
+          ],
+          "width": 1449,
+          "height": 1995,
+          "label": "電磁理論1：[2] 外部電界 E₁ による運動方程式(8)・釣合い位置 x₁(⑩⑪)・双極子モーメント p(⑫)・分極 P と ω_p(⑬)・誘電率 ε₁(⑭)、[3] 振動電界 E₂ の運動方程式(13)・特殊解(14)・C(⑮⑯)・誘電率 ε₂(⑰) とグラフ ⑱ の指示",
+          "sha256": "9c9da8d319a040e17917e919eae115396c50f3d2521f98c87f43e8a8a5a4c849"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q4-03.png",
+          "page": 7,
+          "box": [
+            55,
+            82,
+            538,
+            212
+          ],
+          "width": 1449,
+          "height": 390,
+          "label": "電磁理論1：[3] の続き。ω₁(⑲) の式(17)、グラフの読み取りによる ⑳（大きい・小さい）、ω→+∞ の極限 ㉑ と共鳴・真空みなしの説明",
+          "sha256": "8e54c33aa3b0ec6f7e8ecd5a34b2004488f864ef64b0c5f549cdec9f4b6d1009"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2026-electrical-q5",
+      "number": "電磁理論2",
+      "title": "電磁理論2：複素解析法によるマクスウェル方程式と誘電損失・臨界周波数",
+      "titleKind": "editorial",
+      "topics": [
+        "複素解析法",
+        "フェーザ",
+        "マクスウェル方程式",
+        "ポインティングベクトル",
+        "変位電流",
+        "誘電正接",
+        "臨界角周波数"
+      ],
+      "summary": "【電磁理論2】解答は緑色（5番）の解答用紙。①〜㉑ の空欄に数式または数値を記入する。ただし j は虚数単位、真空の誘電率 ε₀=(1/(36π))×10⁻⁹ F/m。[1] 正弦的に時間変化する電磁現象の複素解析法：E₀cos(ωt+θ)=Re[Ė_x e^{jωt}] の記法(1) から時間微分のフェーザ表示(2) の空欄 ①、アンペア・マクスウェルの法則(3) の空欄 ②③、オームの法則による J_c(④)、フェーザ表示の式(4)(5) の空欄 ⑤⑥、ガウスの法則のフェーザ表示(6)(7) の空欄 ⑦⑧、ポインティング・ベクトル S=E×H の展開(8)(9) と空欄 ⑨⑩⑪、複素ポインティング・ベクトル Š の定義と時間平均。[2] 平行平板コンデンサ（間隔 d、面積 A、誘電率 ε）に V=Re[V̇e^{jωt}] を印加したときの E(⑫)・D(⑬)・変位電流 I_d(⑭)・導電電流 I_c(⑮)、電圧との位相差 ⑯⑰、複素電力 Ṗ と誘電正接 tan δ(⑱) の式(10)。[3] 変位電流と導電電流が等しくなる角周波数 ω_c(⑲)、臨界周波数 f_c(⑳)、海水（ε_r=80、σ=2.0 S/m）での f_c の数値（有効数字 2 桁、㉑）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 9 頁で分野見出し・緑色解答用紙指定・空欄記入形式・ε₀ の数値・式(1)〜(5) と ①〜⑥、第 10 頁で ⑦〜⑱ と式(8)〜(10)（Re[ ]・Im[ ] の定義文を含む）、第 11 頁で ⑲⑳㉑ と海水の条件を確認。右端の式番号 (1)〜(10) が枠内。第 12 頁の語彙対訳表は題目外として枠に含めない。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q5-01.png",
+          "page": 9,
+          "box": [
+            54,
+            83,
+            538,
+            756
+          ],
+          "width": 1452,
+          "height": 2019,
+          "label": "電磁理論2：解答用紙（緑色 5 番）指定・空欄 ①〜㉑ の記入形式と ε₀ の値、[1] 複素解析法の導入とフェーザ表示、式(1)〜(5) と空欄 ①〜⑥、ガウスの法則のフェーザ表示(6)(7) の直前まで",
+          "sha256": "f67dc12723262da29ff008b6861cd4b60037e9a8880ef23e5021de5ad187733d"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q5-02.png",
+          "page": 10,
+          "box": [
+            54,
+            83,
+            538,
+            763
+          ],
+          "width": 1452,
+          "height": 2040,
+          "label": "電磁理論2：[1] の続き。ガウスの法則の空欄 ⑦⑧、ポインティング・ベクトル式(8)(9) と空欄 ⑨⑩⑪、複素ポインティング・ベクトルの定義、[2] 平行平板コンデンサの空欄 ⑫〜⑱ と式(10) の tan δ",
+          "sha256": "22e8a1a5a8711b615d710821a16214378c37e9010771253c2d01c91b5d4bfc91"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q5-03.png",
+          "page": 11,
+          "box": [
+            54,
+            82,
+            538,
+            202
+          ],
+          "width": 1452,
+          "height": 360,
+          "label": "電磁理論2：[2] の続き。ω_c(⑲) の式、臨界角周波数の説明と f_c(⑳)、海水での f_c の数値計算 ㉑（有効数字 2 桁・GHz）",
+          "sha256": "3c5c83a0be458561ce2e000757e43afd63ec31e509c0bdace3c4254617663e96"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2026-electrical-q6",
+      "number": "電気電子回路1",
+      "title": "電気電子回路1：正弦波定常回路の電圧応答・電力・インピーダンス行列",
+      "titleKind": "editorial",
+      "topics": [
+        "正弦波定常状態",
+        "交流回路",
+        "有効電力",
+        "無効電力",
+        "皮相電力",
+        "力率",
+        "2ポート回路",
+        "インピーダンス行列"
+      ],
+      "summary": "【電気電子回路1】解答は灰色（6番）の解答用紙。下図の交流回路はすべて正弦波定常状態にある。(1) 図 1 の回路（R₁, R₂, L₁, L₂, C と電源 sin t、コンデンサ両端電圧 v_c(t)）について v_c(t) を求める。ただし R₁=R₂=1 Ω、L₁=L₂=1 H、C=1 F、t は時間。(2) 図 2 の交流電圧源 v_ac と RLC 負荷の回路について、実効値 V_ac・角周波数 ω のもとで有効電力・無効電力・皮相電力・力率を求める（遅れ無効電力を正とする）。(3) 図 3 のインピーダンス Z₁, Z₂, Z₃ で構成される 2 ポート回路のインピーダンス行列を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 13 頁のみで完結。分野見出し・灰色解答用紙指定・(1)〜(3)・図 1（R₁, L₁, C, R₂, L₂ と sin t 電源、v_c(t) の向き）・図 2（v_ac と R, L, C）・図 3（ポート 1・2、Z₁〜Z₃、1′, 2′）と各図番号を確認。左端の走査汚れは枠外。第 14 頁の語彙対訳表は題目外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q6-01.png",
+          "page": 13,
+          "box": [
+            59,
+            84,
+            538,
+            704
+          ],
+          "width": 1437,
+          "height": 1860,
+          "label": "電気電子回路1：解答用紙（灰色 6 番）指定・冒頭文、(1) 図 1 の RLC 回路と v_c(t)、(2) 図 2 の交流電圧源と RLC 負荷の電力・力率、(3) 図 3 の 2 ポート回路とインピーダンス行列、図 1〜図 3 と図番号",
+          "sha256": "ab749e183680f57c50d17a0ded9533b350ecb572752a68fb0af5b7f1fc1b5f87"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2026-electrical-q7",
+      "number": "電気電子回路2",
+      "title": "電気電子回路2：MOSFET 小信号増幅回路の利得・周波数特性",
+      "titleKind": "editorial",
+      "topics": [
+        "演算増幅器",
+        "n チャネル MOSFET",
+        "小信号等価回路",
+        "相互コンダクタンス",
+        "電圧利得",
+        "遮断角周波数",
+        "定常状態"
+      ],
+      "summary": "【電気電子回路2】解答はだいだい色（7番）の解答用紙。図 1 の回路の周期定常状態について (1)〜(4) に答える。V_I, V_O は正の実数、v_in(t)=V_in sin(ωt)、v_out(t)=V_out sin(ωt+θ)、V_in, V_out は 1 V に比べて微小、演算増幅器は十分高い入力インピーダンスと十分低い出力インピーダンスをもち電圧利得 A は正の実定数、R, C も正の実定数。n チャネル MOSFET は飽和領域で動作し I_D=(β/2)(V_GS−V_TH)²（V_TH=0.5 V、β=5 mA/V²）。(1) 図 2 の小信号等価回路を用いて電圧利得 G_V=V_out/V_in と tan θ を g_m, A, R, C, ω で表す（g_m=∂I_D/∂V_GS）。(2) ω→0 のときの G_V0=V_out/V_in と、G_V が G_V0 の 1/√2 になる角周波数 ω_p を求める。(3) A→∞ のときの理想利得 G_V0ideal を求め、g_mR=1 のとき誤差 1% 以下（|(G_V0−G_V0ideal)/G_V0ideal|≤1/100）を実現する A の下限の近似値を①100〜④1000 から選ぶ。(4) V_I=2.5 V、R=1 kΩ、A 十分大のときのドレイン電流 I_D の直流成分と g_m を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 15 頁のみで完結。分野見出し・だいだい色解答用紙指定・冒頭の記号条件（V_in, V_out が微小、A・R・C が正の実定数）・I_D の式と V_TH=0.5 V, β=5 mA/V²・(1)〜(4) の全小問・選択肢①〜④・図 1 と図 2 の素子記号・頁下の注（基準電位の記号）まで収録し、下端の水平罫線を含めた。第 16 頁の語彙対訳表は題目外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2026-electrical/osaka-ee-2026-electrical-q7-01.png",
+          "page": 15,
+          "box": [
+            54,
+            84,
+            538,
+            760
+          ],
+          "width": 1452,
+          "height": 2028,
+          "label": "電気電子回路2：解答用紙（だいだい色 7 番）指定・冒頭文と諸条件・I_D の式と V_TH, β の値、(1)〜(4) の設問、図 1（演算増幅器と MOSFET、R, C、5 V 電源、V_I+v_in, V_O+v_out）・図 2（小信号等価回路 G, S, D, g_m v_gs）と図番号、頁下の「注 図中，右の記号は基準電位を示す。」",
+          "sha256": "da8c99b84f9a09793d622e3e8e1e450bbe5959f7e5b75d21d643644824bdf2d3"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面（試験名・実施時間 9：30～12：30・注意事項 1〜4）のみを common として収録。頁脚と走査の空白辺は裁去。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q1"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−1−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q2"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−2−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−3−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−4−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−5−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−6−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表・電磁理論1）の参考頁。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−8−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−9−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−10−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表・電磁理論2）の参考頁。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−12−」と走査の空白辺・左端の走査汚れ。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表・電気電子回路1）の参考頁。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "osaka-ee-2026-electrical-q7"
+      ],
+      "common": false,
+      "excluded": "裁去頁脚「−14−」と走査の空白辺。本頁の題目内容はすべて regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表・電気電子回路2）の参考頁。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    }
+  ]
+}

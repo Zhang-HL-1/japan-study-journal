@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2013-kiso",
+  "title": "大阪大学 · 2013 入学年度 · 共通基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2013",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2013,
+    "yearBasis": "academic",
+    "subject": "共通基础科目",
+    "originalSubject": "基礎科目試験問題",
+    "originalName": "共通基础科目.pdf",
+    "pdf": "assets/past-papers/documents/83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c.pdf",
+    "sha256": "83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c",
+    "pageCount": 13,
+    "note": "平成 25 年度（2013 年度）入学試験。原卷封面只标实施时间 9:30–12:30，未标实施日期，故不推断具体实施日。9 題から 5 題選択（受験コース別の選択ルールは表紙の表）。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2013-kiso/common-01.png",
+      "page": 1,
+      "box": [
+        40,
+        52,
+        556,
+        282
+      ],
+      "width": 1548,
+      "height": 690,
+      "label": "封面：平成 25 年度大学院博士前期課程入学試験・大阪大学大学院工学研究科 電気電子情報通信工学専攻「基礎科目試験問題」、実施時間 9:30–12:30",
+      "sha256": "65e080406b9367ac4e7820b96f0af8a7e1ddaa168ed2a54fb00e23cebc89c5fa"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2013-kiso/common-02.png",
+      "page": 1,
+      "box": [
+        40,
+        294,
+        556,
+        540
+      ],
+      "width": 1548,
+      "height": 738,
+      "label": "注意事項 1–2 与 受験コース別選択ルール表（システム・制御・電力工学／先進電磁エネルギー工学／量子電子デバイス工学コース＝数学1–5 から 3 題＋電磁理論1/2・電気電子回路1/2 から 2 題、情報通信工学コース＝9 題から 5 題）",
+      "sha256": "db05680df0fec4faf66e87a773cf8cc4f533bc9a3699c95d5d550c26050c748b"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2013-kiso/common-03.png",
+      "page": 1,
+      "box": [
+        40,
+        542,
+        556,
+        795
+      ],
+      "width": 1548,
+      "height": 759,
+      "label": "注意事項 3–9：解答用紙は問題毎に指定、選択票の記入、9 枚の解答用紙の回収と重ね方",
+      "sha256": "bccdf6011fae93496d08aea1768555cd6bd64f4e5ccc6ed7c530be19855f17cb"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2013-kiso-q1",
+      "number": "数学1",
+      "title": "二阶线性微分方程的降阶与基本解系",
+      "titleKind": "editorial",
+      "topics": [
+        "2階微分方程式",
+        "特殊解",
+        "ロンスキー行列式",
+        "基本解系",
+        "一般解"
+      ],
+      "summary": "x''+a1(t)x'+a2(t)x=0 について、(a) 特殊解 x1 から第 2 の特殊解を与える積分公式を示し、(b) Wronskian で 1 次独立性を示し、(c) x''−4tx'+(4t^2−2)x=0 の一般解を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against every full source page at 2x render",
+        "date": "2026-11-03",
+        "notes": "原卷第 2 页全页核对：x''+a1x'+a2x=0、x2(t) の積分公式（積分上限 t、exp 内の積分）、W(x1,x2)(t)、(c) の x''−4tx'+(4t^2−2)x=0 と「t の累乗の指数関数」条件が入り、页脚番号 1 を除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q1-01.png",
+          "page": 2,
+          "box": [
+            32,
+            58,
+            556,
+            532
+          ],
+          "width": 1572,
+          "height": 1422,
+          "label": "数学1：白色（1番）解答用紙指定行、【数学1】見出し、2 階微分方程式の定義、(a)(b)(c) と積分公式・微分方程式",
+          "sha256": "0fa8042a00a27c42bf641fd7977a0aeaeaba7aed7173c5635019473fa92dc948"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2013-kiso-q2",
+      "number": "数学2",
+      "title": "复平面路径积分与有理三角积分",
+      "titleKind": "editorial",
+      "topics": [
+        "複素積分",
+        "経路",
+        "留数",
+        "コーシーの積分定理"
+      ],
+      "summary": "複素平面の z について、(a) f(z)=Re(z) を経路 C1（y=x^2）と C2（実軸＋虚軸平行）で積分し、(b) g(θ)=1/(a+cosθ)^2 の 0–2π 積分を z=e^{iθ} で置換して経路図示と値を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against every full source page at 2x render",
+        "date": "2026-11-03",
+        "notes": "原卷第 3 页全页核对：式(1) f(z)=Re(z)、図 1 の 2 図（y=x^2 の C1、直角経路 C2、1+i 点、目盛 1・i）、式(2) g(θ)、式(3) I=∫0^{2π}、(b-1)–(b-4) が入り、页脚番号 2 を除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q2-01.png",
+          "page": 3,
+          "box": [
+            32,
+            58,
+            556,
+            702
+          ],
+          "width": 1572,
+          "height": 1932,
+          "label": "数学2：赤色（2番）解答用紙指定行、【数学2】見出し、(a) と図 1（C1/C2 の 2 つの複素平面図）、(b) 式(2)(3) と (b-1)–(b-4)",
+          "sha256": "758bd2044a63af1f29b75c4b88b76c5a8d42e9d0adcbbfe30fc3f0c7e89b82f7"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2013-kiso-q3",
+      "number": "数学3",
+      "title": "傅里叶变换：性质与由常微分方程求变换",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ変換",
+        "微分の性質",
+        "常微分方程式"
+      ],
+      "summary": "F[f](k)=∫f(x)e^{-ikx}dx の定義の下、(a) e^{-a|x|} の変換、(b-1)(b-2) 微分・乗算の関係の証明、(c)(d) 与えられた常微分方程式から F(k) の ODE を導き ∫f dx=1 の条件で解く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against every full source page at 2x render",
+        "date": "2026-11-03",
+        "notes": "原卷第 4 页全页核对：定義式の積分と e^{-ikx}、|f| の可積分条件、f(x)=e^{-a|x|} (a>0)、F[d/dx f]=ikF(k)、d/dk F=−iF[xf]、d^2/dx^2 f + d/dx{xf}=0、∫f dx=1 が入り、页脚番号 3 を除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q3-01.png",
+          "page": 4,
+          "box": [
+            32,
+            58,
+            556,
+            522
+          ],
+          "width": 1572,
+          "height": 1392,
+          "label": "数学3：青色（3番）解答用紙指定行、【数学3】見出し、フーリエ変換の定義式と収束条件、(a)(b-1)(b-2)(c)(d)",
+          "sha256": "d1da91de19e5bf82b14e3b8ba8ab54f313e4c66796f94757ca83a0b603029b73"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2013-kiso-q4",
+      "number": "数学4",
+      "title": "拉普拉斯变换：除以 t 的积分公式",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "積分公式",
+        "正弦の3乗"
+      ],
+      "summary": "L[f/t](s)=∫_s^∞ F(σ)dσ (s>0) を示し、(b) ∫0^t (sin^3τ)/τ dτ のラプラス変換、(c) それを用いて ∫0^∞ (sin^3t)/t dt の値を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against every full source page at 2x render",
+        "date": "2026-11-03",
+        "notes": "原卷第 5 页全页核对：(a) の L[f/t](s)=∫_s^∞F(σ)dσ と (s>0)、lim_{t→+0} f(t)/t、(b) ∫0^t sin^3τ/τ dτ、(c) ∫0^∞ sin^3t/t dt が入り、页脚番号 4 を除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q4-01.png",
+          "page": 5,
+          "box": [
+            32,
+            58,
+            556,
+            332
+          ],
+          "width": 1572,
+          "height": 822,
+          "label": "数学4：黄色（4番）解答用紙指定行、【数学4】見出し、(a) の公式と lim_{t→+0} f(t)/t の存在条件、(b)(c)",
+          "sha256": "c5204f4e6f4a51ce677bdae2af41260c8bada21fd21e25443b08fc43a6524cf6"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2013-kiso-q5",
+      "number": "数学5",
+      "title": "随机游走样本路计数与投票问题",
+      "titleKind": "editorial",
+      "topics": [
+        "標本路",
+        "ランダムウォーク",
+        "反射原理",
+        "確率"
+      ],
+      "summary": "Wn=Wn−1+Zn (Zn=±1) の標本路について、(a) W0=0 で Wn=j となる標本路の総数 Vj(n)、(b) W0=k で常に正かつ Wn=l となる総数 Tk,l(n) を Vj(n) で表し、(c) 赤 M 個・白 N 個を戻さず引くとき全ての m で Xm>Ym となる確率を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against every full source page at 2x render",
+        "date": "2026-11-03",
+        "notes": "原卷第 6 页全页核对：式(1) Wn=Wn−1+Zn、図 1 の座標軸（Wn=−2..2、n=1..11）と実線・点線の標本路・A,A',B,C の記号と図号、(a) Vj(n)、(b) Tk,l(n)、M/N のボールのゲーム設定、(c) が入り、页脚番号 5 を除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q5-01.png",
+          "page": 6,
+          "box": [
+            32,
+            58,
+            556,
+            658
+          ],
+          "width": 1572,
+          "height": 1800,
+          "label": "数学5：水色（5番）解答用紙指定行、【数学5】見出し、式(1)、図 1（標本路の折れ線グラフ Wn–n、点 A/A'/B/C）、(a)(b) とゲームの設定、(c)",
+          "sha256": "5c38ef9dfa6e2b0db154748c4fa8bab44495e6776ea40d6f58c15d4f95590284"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2013-kiso-q6",
+      "number": "電磁理論1",
+      "title": "静磁场：矢量势、毕奥-萨伐尔定律与有限长直导线",
+      "titleKind": "editorial",
+      "topics": [
+        "静磁界",
+        "ベクトル・ポテンシャル",
+        "ポアソン方程式",
+        "ビオ・サバールの法則",
+        "直線電流"
+      ],
+      "summary": "空欄補充形式（①–⑮）。[1] 静磁界のマクスウェル方程式・ベクトルポテンシャル・ポアソン方程式・A の積分表示・H の表現、[2] 微小電流要素による dH とビオ・サバールの法則（図 1）、[3] 有限長直線電流の磁界と無限長極限（図 2）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against every full source page at 2x render",
+        "date": "2026-11-03",
+        "notes": "原卷第 7–8 页核对：7 页の①–⑥、式(1)–(6)、図 1 の i, il, ir, dl, r, θ, L, Q, P, dH と図号；8 页の⑦–⑮、式(7)–(11)、図 2 の z 軸・x 軸・y 軸・L/2,−L/2・Q(z=z')・P(r,φ,z)・φ・θ1,θ2・R と図号が入り、页脚番号 6・7 を除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q6-01.png",
+          "page": 7,
+          "box": [
+            32,
+            58,
+            556,
+            775
+          ],
+          "width": 1572,
+          "height": 2151,
+          "label": "電磁理論1：[1] 静磁界（①–⑥、式(1)–(6)）と [2] の導入（図 1：線 L 上の電流要素・ir, il, θ, dH）",
+          "sha256": "be4d42c9debfa3289ddc648c7cf11a442a22defa175bd4a3b92149fb3c80af6d"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q6-02.png",
+          "page": 8,
+          "box": [
+            32,
+            58,
+            556,
+            568
+          ],
+          "width": 1572,
+          "height": 1530,
+          "label": "電磁理論1：[2] の続き（⑦–⑨、式(7)(8)）と [3]（⑩–⑮、式(9)–(11)、図 2：円柱座標系の直線導体）",
+          "sha256": "a966c80160cbe279f4013ee9821c1a512fed59e441092950fc1c10f9e7301d28"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2013-kiso-q7",
+      "number": "電磁理論2",
+      "title": "麦克斯韦方程组、波动方程与导体表面驻波",
+      "titleKind": "editorial",
+      "topics": [
+        "マクスウェルの方程式",
+        "波動方程式",
+        "平面波",
+        "定在波",
+        "境界条件"
+      ],
+      "summary": "空欄補充形式（①–㉖）。真空中のマクスウェル方程式 4 式、自由空間での変形、ベクトル波動方程式の導出、成分表示（式(7)(8)）、スカラー波動方程式、正弦平面波、完全導体表面での反射と定在波、平行導体板間の共振条件を問う。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against every full source page at 2x render",
+        "date": "2026-11-03",
+        "notes": "原卷第 10–11 页核对：10 页の①–⑭ と式(1)–(8)（∇×E, ∇×H, ∇·E, ∇·H, 波動方程式 (5)(6)、成分表示の i_x,i_y,i_z 項）、11 页の⑮–㉖ と式(9)–(14)（E_x(z,t) の 2 項、E+ + E−、sin の定在波、d=nπc/ω）、(イ)(ロ) の選択記号が入り、页脚番号 9・10 を除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q7-01.png",
+          "page": 10,
+          "box": [
+            32,
+            58,
+            556,
+            762
+          ],
+          "width": 1572,
+          "height": 2112,
+          "label": "電磁理論2：緑色（7番）解答用紙指定行、【電磁理論2】見出し、①–⑭、式(1)–(8) とベクトル公式",
+          "sha256": "0e4ce5876ec3a711186435883166f51f55021b906c1118b7965ba3a4dce9f607"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q7-02.png",
+          "page": 11,
+          "box": [
+            32,
+            58,
+            556,
+            712
+          ],
+          "width": 1572,
+          "height": 1962,
+          "label": "電磁理論2：⑮–㉖、式(9)–(14)（スカラー波動方程式・平面波・定在波・共振条件）",
+          "sha256": "4c6cd44b3139ffd51c7b71b42b61190ba2080f542f2c58dcbf3010b6945540df"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2013-kiso-q8",
+      "number": "電気電子回路1",
+      "title": "RL 电路的正弦稳态、阶跃响应与平均输出",
+      "titleKind": "editorial",
+      "topics": [
+        "RL回路",
+        "電圧伝達関数",
+        "正弦波定常状態",
+        "ステップ応答",
+        "平均値"
+      ],
+      "summary": "インダクタ L と抵抗 R の回路（図 1）で、(1) 伝達関数 T(s)、(2) 正弦波印加時の振幅 A(ω) と位相 θ(ω)、(3)(4) sin 波を t≥0 で印加した時間応答と定常平均値、(5) 矩形パルス列（図 2）印加時の 1 周期平均を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against every full source page at 2x render",
+        "date": "2026-11-03",
+        "notes": "原卷第 12 页全页核对：図 1 の L・R・v1(t)・v2(t) と +/− 符号、図 2 の E・T/2,T,3T/2,2T,5T/2 と軸 t、注（抵抗記号）と *1–*3 の英訳注が入り、页脚番号 11 を除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q8-01.png",
+          "page": 12,
+          "box": [
+            32,
+            58,
+            556,
+            762
+          ],
+          "width": 1572,
+          "height": 2112,
+          "label": "電気電子回路1：灰色（8番）解答用紙指定行、【電気電子回路1】見出し、(1)–(5) と (3)(4) の分段入力式、図 1（L-R 回路）、図 2（矩形パルス列）、抵抗記号の注と *1–*3 の用語注",
+          "sha256": "c38511b293c2dd6a37efa1e3d03a8ce6a228f96e9a61c84d534aa7f68651007f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2013-kiso-q9",
+      "number": "電気電子回路2",
+      "title": "运放反相放大电路的传递函数与 Bode 图",
+      "titleKind": "editorial",
+      "topics": [
+        "演算増幅器",
+        "電圧伝達関数",
+        "遮断角周波数",
+        "ボード線図",
+        "通過帯域"
+      ],
+      "summary": "演算増幅器（利得 A）を用いた回路（図 1）で、(1) 有限利得での T(jω)、(2) A→∞ の T(jω)、(3) 利得と位相差、(4) R1=10k, R2=90k, Ra=50k, Ca=0.1µF のときの |T| の Bode 図を、通過帯域利得・遮断角周波数・遮断帯域の傾きを明示して描く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against every full source page at 2x render",
+        "date": "2026-11-03",
+        "notes": "原卷第 13 页全页核对：図 1 の R1,R2,Ra,Ca・Vin(jω)・Vout(jω)・A・接地記号と図号、(1)–(4) の全文、①通過帯域/②遮断角周波数（1/√2）/③遮断帯域の傾き、*1–*7 の英訳注が入り、页脚番号 12 を除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2013-kiso/osaka-ee-2013-kiso-q9-01.png",
+          "page": 13,
+          "box": [
+            32,
+            58,
+            556,
+            758
+          ],
+          "width": 1572,
+          "height": 2100,
+          "label": "電気電子回路2：だいだい色（9番）解答用紙指定行、【電気電子回路2】見出し、(1)–(4) と ①②③ の算出項目、図 1（演算増幅器回路）、*1–*7 の用語注",
+          "sha256": "5e4258e0d7dcdcfa06cfcb61369f2ded4392b0a89b989ade49b0c50d650025a1"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "reviewed": true,
+      "excluded": "封面与注意事项（含受験コース別選択ルール表），已作 commonRegions 保留。"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "reviewed": true,
+      "excluded": "専門用語の英訳（電磁理論1・電磁理論2）の語彙リストページ。题目ではなく解答にも影響しないため、题目に混ぜず excluded とした。"
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q8"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2013-kiso-q9"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚番号・页边空白のみ。"
+    }
+  ]
+}

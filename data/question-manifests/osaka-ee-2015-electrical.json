@@ -1,0 +1,407 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2015-electrical",
+ "title": "大阪大学 · 2015 入学年度 · 专门科目（系统・控制・电力工学课程）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2015",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻（電気工学コース）",
+  "year": 2015,
+  "yearBasis": "academic",
+  "subject": "专门科目（电气工学）",
+  "originalSubject": "専門科目試験問題（システム・制御・電力工学コース）",
+  "originalName": "专业_电气工学.pdf",
+  "pdf": "assets/past-papers/documents/0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b.pdf",
+  "sha256": "0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b",
+  "pageCount": 16,
+  "note": "平成27年度（2015 入学年度）大学院博士前期課程入学試験。原卷封面未标实际实施日，仅标实施时间 14:00–16:00。目录标签为「专业：电气工学」，而卷面封面标题为「専門科目試験問題（システム・制御・電力工学コース）」，按目录原样收录。"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    55,
+    470,
+    545,
+    700
+   ],
+   "label": "全卷作答说明：问题用纸 15 页、6 题构成与「制御工学1 或 2 至少 1 题＋共 3 题」的选择规则、可带回"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2015-electrical-q1",
+   "number": "制御工学１",
+   "title": "方块线图化简与二阶系统特性",
+   "titleKind": "editorial",
+   "topics": [
+    "方块线图",
+    "传递函数",
+    "阶跃响应",
+    "过冲",
+    "向量轨迹",
+    "稳定性"
+   ],
+   "summary": "含 1.～4. 四个子问：图 1 方块线图求传递函数、G(s)=1/(s²+s+1) 的阶跃响应与向量轨迹、G(s)=(s²+3s+1)/(s²(s+3)(s+5)) 的相角渐近值、图 2 反馈系统虚轴极点的 K 条件。中文标题与概述仅供导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      40,
+      60,
+      552,
+      772
+     ],
+     "label": "制御工学１：解答用纸指定行、1.～4. 全部子问与图 1、图 2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-03",
+    "notes": "对照原卷第 2 页：标题【制御工学１】与「解答は，白色（１番）の解答用紙に…」指定行保留；1.～4. 子问、图 1 方块线图与图 2 反馈回路、图号均完整；页脚页码「1」未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2015-electrical-q2",
+   "number": "制御工学２",
+   "title": "状态空间模型与反馈极点配置",
+   "titleKind": "editorial",
+   "topics": [
+    "状态方程",
+    "可控制",
+    "可观测",
+    "可控制正准形",
+    "输出反馈",
+    "极点配置",
+    "对角化"
+   ],
+   "summary": "含 (i)～(v) 五个子问：可控制/可观测判定、由 T 求 Ã b̃ c̃、输出反馈增益 h 的稳定条件、极点配置求 k、用 U 对角化后由初始状态求 x(t)。中文标题与概述仅供导航。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      40,
+      55,
+      552,
+      776
+     ],
+     "label": "制御工学２：解答用纸指定行、状态方程与矩阵 A・b・c、(i)～(v) 全部子问"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-03",
+    "notes": "对照原卷第 4 页：矩阵 A、b、c 与 T、T⁻¹、U、U⁻¹ 四组矩阵元素完整未切；dz/dt 与 dw/dt 状态方程、5 个子问齐全；页脚「3」未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2015-electrical-q3",
+   "number": "パワーエレクトロニクスと電気機器",
+   "title": "降压斩波器与绕线转子感应电动机",
+   "titleKind": "editorial",
+   "topics": [
+    "降压斩波器",
+    "通流率",
+    "损耗",
+    "感应电动机",
+    "转差率",
+    "最大转矩"
+   ],
+   "summary": "1. 降压斩波电路 (i)～(iv)，含图 1(a)(b)(c) 三幅电路/波形；2. 三相绕线转子感应电动机 (i)～(v)，含图 2 二次侧等效电路。两个小题同属本大题，不拆分。中文标题与概述仅供导航。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      40,
+      66,
+      552,
+      780
+     ],
+     "label": "パワーエレクトロニクスと電気機器 1.：解答用纸指定行、(i)～(iv)、图 1(a)(b)(c)"
+    },
+    {
+     "page": 7,
+     "box": [
+      40,
+      86,
+      552,
+      562
+     ],
+     "label": "パワーエレクトロニクスと電気機器 2.：(i)～(v) 与图 2 等效电路"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第 6、7 页：图 1(a) 斩波电路、图 1(b) TON/TOFF 波形、图 1(c) 可变电阻电路及图号齐全；2. 的 (i)～(v) 与图 2（E2s、x2s、r2）完整；页脚「5」「6」未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2015-electrical-q4",
+   "number": "データ構造とアルゴリズム",
+   "title": "双向链表程序与排序算法",
+   "titleKind": "editorial",
+   "topics": [
+    "双向链表",
+    "指针",
+    "结构体",
+    "排序",
+    "快速排序",
+    "时间复杂度"
+   ],
+   "summary": "1. 双向链表程序 A（图 1 结构示意＋程序清单）与 (i)～(iii) 填空/图示/输出；2. 排序程序 B 与 (i)～(iv) 算法名称、填空、输出前两行、平均与最坏时间复杂度。程序清单跨 3 页，按同题多 region 保留。中文标题与概述仅供导航。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      45,
+      82,
+      552,
+      560
+     ],
+     "label": "データ構造とアルゴリズム：解答用纸指定行、1. 题干、图 1 与 (i)～(iii)"
+    },
+    {
+     "page": 10,
+     "box": [
+      55,
+      84,
+      560,
+      792
+     ],
+     "label": "1. プログラムA 完整清单（含【1】～【7】空栏与 main 函数）"
+    },
+    {
+     "page": 11,
+     "box": [
+      45,
+      82,
+      560,
+      694
+     ],
+     "label": "2. 题干、(i)～(iv)、プログラムB 完整清单（含【8】～【11】空栏）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第 9、10、11 页：图 1 双方向リスト示意（head/tail/prev/data/next 标注）完整；プログラムA、B 每个代码框整体未切，空栏【1】～【11】可读；页脚「8」「9」「10」未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2015-electrical-q5",
+   "number": "論理回路と計算機システム",
+   "title": "加权多数表决电路与浮点表示",
+   "titleKind": "editorial",
+   "topics": [
+    "多数表决",
+    "真值表",
+    "最小积和形",
+    "比较器",
+    "浮点表示",
+    "隐藏位"
+   ],
+   "summary": "1. A=3 票、B=2 票、C/D=1 票的加权多数表决电路 (i)～(iii)，含 x0 的积和式；2. 12 位二进制浮点表示 (i)～(iii)，含偏置 α=15 与隐藏位约定。两个小题同属本大题。中文标题与概述仅供导航。",
+   "regions": [
+    {
+     "page": 13,
+     "box": [
+      42,
+      65,
+      552,
+      492
+     ],
+     "label": "論理回路と計算機システム：解答用纸指定行、1. 表决规则与 (i)～(iii)"
+    },
+    {
+     "page": 13,
+     "box": [
+      45,
+      496,
+      552,
+      726
+     ],
+     "label": "2. 浮点表示格式与 (i)～(iii)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-03",
+    "notes": "对照原卷第 13 页：1. 的 5 条表决原则、(i)～(iii) 与 x0=acd+acd+acd+acd 逻辑式完整（上划线为矢量符号，渲染可见）；2. 的位分配、偏置与隐藏位说明、(i)～(iii) 完整；页脚「12」未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2015-electrical-q6",
+   "number": "信号処理",
+   "title": "窗函数与离散时间傅里叶变换",
+   "titleKind": "editorial",
+   "topics": [
+    "窗函数",
+    "离散时间傅里叶变换",
+    "矩形窗",
+    "振幅频谱",
+    "频率分析"
+   ],
+   "summary": "含 (i)～(v)：使频谱一致的窗函数、矩形窗的 DTFT 与振幅频谱概形、窗函数使用注意点、实用窗函数形状理由、具体窗函数举例与频谱对比。中文标题与概述仅供导航。",
+   "regions": [
+    {
+     "page": 15,
+     "box": [
+      50,
+      68,
+      548,
+      460
+     ],
+     "label": "信号処理：解答用纸指定行、DTFT 定义式与 (i)～(v)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-03",
+    "notes": "对照原卷第 15 页：X(Ω) 定义式（含 Σ 上下限与 e^{-jΩn}）、矩形窗分段定义式、(i)～(v) 全部子问完整；页脚「14」未入框。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "封面与【注意事項】已单独收录为 common，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2015-electrical-q1"
+   ],
+   "common": false,
+   "excluded": "页面空白边与页脚页码，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳词汇页（制御工学１ 的英日对照），按 BRIEF 单独列出，不并入题目。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2015-electrical-q2"
+   ],
+   "common": false,
+   "excluded": "页面空白边与页脚页码，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳词汇页（制御工学２ 的英日对照），不并入题目。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2015-electrical-q3"
+   ],
+   "common": false,
+   "excluded": "页面空白边与页脚页码，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2015-electrical-q3"
+   ],
+   "common": false,
+   "excluded": "页面空白边与页脚页码，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳词汇页（パワーエレクトロニクスと電気機器 的英日对照），不并入题目。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2015-electrical-q4"
+   ],
+   "common": false,
+   "excluded": "页面空白边与页脚页码，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2015-electrical-q4"
+   ],
+   "common": false,
+   "excluded": "页面空白边与页脚页码，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [
+    "osaka-ee-2015-electrical-q4"
+   ],
+   "common": false,
+   "excluded": "页面空白边与页脚页码，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 12,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳词汇页（データ構造とアルゴリズム 的英日对照），不并入题目。",
+   "reviewed": true
+  },
+  {
+   "page": 13,
+   "questionIds": [
+    "osaka-ee-2015-electrical-q5"
+   ],
+   "common": false,
+   "excluded": "页面空白边与页脚页码，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 14,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳词汇页（論理回路と計算機システム 的英日对照），不并入题目。",
+   "reviewed": true
+  },
+  {
+   "page": 15,
+   "questionIds": [
+    "osaka-ee-2015-electrical-q6"
+   ],
+   "common": false,
+   "excluded": "页面空白边与页脚页码，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 16,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳词汇页（信号処理 的英日对照），不并入题目。",
+   "reviewed": true
+  }
+ ]
+}

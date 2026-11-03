@@ -1,0 +1,450 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2023-kiso",
+ "title": "大阪大学 · 2023 入学年度 · 共通基础科目",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-basic-2023",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻（電気工学コース）",
+  "year": 2023,
+  "yearBasis": "academic",
+  "subject": "共通基础科目",
+  "originalSubject": "基礎科目試験問題",
+  "originalName": "2022 basic.pdf",
+  "pdf": "assets/past-papers/documents/6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505.pdf",
+  "sha256": "6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505",
+  "pageCount": 13,
+  "note": "2023 年度（令和 5 年度）入試の基礎科目（共通原卷）。原卷封面標「実施時間 9：30～12：30」、問題用紙 12 頁、9 題（数学 1〜5、電磁理論 1・2、電気電子回路 1・2）から 5 題選択、コース別の選択ルール表（電気工学・量子情報エレクトロニクスは数学 3 題＋電磁理論/電気電子回路 2 題）。未標实施日期，不推断具体考试日。"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    62,
+    116,
+    540,
+    776
+   ],
+   "label": "封面：試験名「基礎科目試験問題」、「実施時間 9：30～12：30」、注意事項 1〜5 とコース別選択ルール表（9 題から 5 題）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2023-kiso-q1",
+   "number": "数学1",
+   "title": "数学1：3 次行列の固有値・固有ベクトルとジョルダン標準形",
+   "titleKind": "editorial",
+   "topics": [
+    "固有値",
+    "固有ベクトル",
+    "ジョルダン標準形",
+    "行列の累乗"
+   ],
+   "summary": "【数学 1】白色（1 番）の解答用紙。実数 a に対する 3×3 行列 A(a) について (a) A(0) の固有値・固有ベクトル、(b) A(2) の固有値・固有ベクトル、(c) (A(2)−2I)²x=0 かつ (A(2)−2I)x≠0 を満たす x、(d) [[2,1],[0,2]]ⁿ の計算、(e) 変換行列 S によるジョルダン標準形への変換と (A(a))ⁿv の計算。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      42,
+      49,
+      537,
+      553
+     ],
+     "label": "数学1：解答用紙（白色 1 番）指定、行列 A(a) の定義と設問 (a)〜(e)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で A(a) の定義・設問 (a)〜(e)・変換行列 S と v の列ベクトル表記を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2023-kiso-q2",
+   "number": "数学2",
+   "title": "数学2：2 階線形微分方程式の標準形への変換と一般解",
+   "titleKind": "editorial",
+   "topics": [
+    "2 階線形微分方程式",
+    "変数変換",
+    "一般解"
+   ],
+   "summary": "【数学 2】赤色（2 番）の解答用紙。y″+P(x)y′+Q(x)y=R(x) について (a) y=uφ(x) により u″+F(x)u=G(x) へ変換するときの φ(x)、(b) F(x) を P(x), P′(x), Q(x) で表す、(c) |x|<π/2 における y″+2y′tan x+2y tan²x=4cos²x の一般解。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      32,
+      52,
+      534,
+      511
+     ],
+     "label": "数学2：解答用紙（赤色 2 番）指定、式(1) と設問 (a)〜(c)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で式(1)・(a)(b)(c) の各式と |x|<π/2 の条件を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2023-kiso-q3",
+   "number": "数学3",
+   "title": "数学3：複素数の方程式と正則関数の絶対値のラプラシアン",
+   "titleKind": "editorial",
+   "topics": [
+    "複素平面",
+    "sin z = i sinh z",
+    "正則関数",
+    "コーシー・リーマン"
+   ],
+   "summary": "【数学 3】青色（3 番）の解答用紙。複素数 z=x+iy について (a) sin z = i sinh z を z について解く、(b) 正則関数 f(z)=u+iv について (b-1) |f(z)|² のラプラシアンが 4[(∂u/∂x)²+(∂v/∂x)²] となることを示す、(b-2) 式(2) を用いて右辺が 4|df/dz|² となることを示す。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      59,
+      55,
+      536,
+      427
+     ],
+     "label": "数学3：解答用紙（青色 3 番）指定、設問 (a)、(b-1)(b-2) と式(1)〜(3)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で設問 (a)・(b-1)・(b-2) と式(1)(2)(3) の偏微分表記を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2023-kiso-q4",
+   "number": "数学4",
+   "title": "数学4：フーリエ変換の性質とガウス関数の変換",
+   "titleKind": "editorial",
+   "topics": [
+    "フーリエ変換",
+    "逆フーリエ変換",
+    "ガウス積分",
+    "2 次元フーリエ変換"
+   ],
+   "summary": "【数学 4】黄色（4 番）の解答用紙。フーリエ変換 F(u)・逆変換の定義（式(1)(2)）のもとで (a) F[df/dx](u)=iuF(u) の導出、(b) f(x)=exp(−ax²) について F[df/dx] と dF/du の関係、(c) ∫exp(−s²)ds=√π を用いた F(u) の計算、(d) 2 次元フーリエ変換 G(u,v)（式(3)）と g_y(x)=∫g(x,y)dy、G(u,0) の関係、(e) g(x,y)=exp(−ax²)exp(−by²) について G(u,v) を計算し (d) の関係を確かめる。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      31,
+      54,
+      538,
+      668
+     ],
+     "label": "数学4：解答用紙（黄色 4 番）指定、式(1)(2) と設問 (a)〜(e)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁でフーリエ変換・逆変換の定義式、設問 (a)〜(e)、式(3) の 2 重積分表記を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2023-kiso-q5",
+   "number": "数学5",
+   "title": "数学5：飛行機の座席指定の確率と期待値",
+   "titleKind": "editorial",
+   "topics": [
+    "確率",
+    "場合分け",
+    "期待値"
+   ],
+   "summary": "【数学 5】水色（5 番）の解答用紙。座席数 N の飛行機に予約指定された N 人が順に搭乗する状況で (a) 最初の搭乗者が誤って別の座席に着席したとき、m 番目の搭乗者が予約席に着席する確率 p_m を場合分けにより求める、(b) 最初の搭乗者が N 個から無作為に選ぶとき、予約席に着席できなかった人数 F_N の期待値 E[F_N]。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      37,
+      42,
+      531,
+      296
+     ],
+     "label": "数学5：解答用紙（水色 5 番）指定、状況設定と設問 (a)(b)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で状況設定（N は 3 以上の自然数）と設問 (a)(b) の全文を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2023-kiso-q6",
+   "number": "電磁理論1",
+   "title": "電磁理論1：ガウスの法則と円柱状電荷分布・円筒誘電体",
+   "titleKind": "editorial",
+   "topics": [
+    "ガウスの法則",
+    "円柱座標",
+    "誘電体",
+    "分極",
+    "境界条件"
+   ],
+   "summary": "【電磁理論 1】桃色（6 番）の解答用紙。①〜㉖ の空欄に式・数値・語句を入れる。[1] 電束密度に関するガウスの法則の微分形と積分形、図 1 の半径 a の無限長円柱状電荷分布に対する電界（式(2)〜(6)、空欄 ①〜⑭）、[2] 図 2 の円筒状誘電体（b<r<c、誘電率 ε）を置いた場合の電界・分極・分極電荷密度・面分極電荷密度（式(8)〜(13)、空欄 ⑮〜㉖）。③④⑰⑱ は語句の選択。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      43,
+      69,
+      526,
+      735
+     ],
+     "label": "電磁理論1：解答用紙（桃色 6 番）指定・冒頭の記入指示、[1] の式(1)〜(6) と空欄 ①〜⑭、図 1"
+    },
+    {
+     "page": 8,
+     "box": [
+      41,
+      72,
+      521,
+      704
+     ],
+     "label": "電磁理論1：[2] の式(7)〜(13)、空欄 ⑮〜㉖、図 2（円筒状誘電体）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁で図 1（円柱状電荷分布）・図 2（円筒状誘電体）と空欄 ①〜㉖、③④⑰⑱ の選択肢（ア）（イ）（ウ）を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2023-kiso-q7",
+   "number": "電磁理論2",
+   "title": "電磁理論2：マクスウェル方程式・境界条件と平板電流の磁界",
+   "titleKind": "editorial",
+   "topics": [
+    "マクスウェル方程式",
+    "境界条件",
+    "平板電流",
+    "磁界のエネルギー"
+   ],
+   "summary": "【電磁理論 2】緑色（7 番）の解答用紙。①〜㉖ の空欄を埋める。4 つのマクスウェル方程式（式(1)〜(4)、空欄 ①〜④）、領域 1・2 の境界条件（式(5)(6)、⑤⑥）、式(4) の空間微分項の直角座標表示（式(7)、⑦〜⑨）、図 1 の厚さ d の平板電流に対する磁界（式(8)(9)、⑩〜⑳）、図 2 の逆向き 2 枚の平板電流に対する磁界（式(10)、㉑〜㉕）と磁界エネルギー W_m（式(11)、㉖）。⑮ は語句の選択、⑳㉕ はグラフを描く。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      43,
+      70,
+      525,
+      736
+     ],
+     "label": "電磁理論2：解答用紙（緑色 7 番）指定・冒頭の記入指示、式(1)〜(8) と空欄 ①〜⑮、図 1"
+    },
+    {
+     "page": 10,
+     "box": [
+      46,
+      71,
+      539,
+      488
+     ],
+     "label": "電磁理論2：式(9)(10)(11)、空欄 ⑯〜㉖、図 2（逆向き平板電流）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁で図 1・図 2 の座標軸と電流 J の向き、式(1)〜(11) と空欄 ①〜㉖ を確認。⑮ の選択肢（イ）法線，（ロ）接線 を収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2023-kiso-q8",
+   "number": "電気電子回路1",
+   "title": "電気電子回路1：交流回路の複素インピーダンスと電力",
+   "titleKind": "editorial",
+   "topics": [
+    "複素インピーダンス",
+    "フェーザ",
+    "有効電力・無効電力",
+    "力率"
+   ],
+   "summary": "【電気電子回路 1】灰色（8 番）の解答用紙。図 1 の回路（スイッチ SW 開）の正弦波定常状態で (1) 負荷回路の複素インピーダンス Ż、(2) 電流 i_R のフェーザ İ_R の大きさと偏角、(3) |İ_R| が R₂ に依らない角周波数の条件、(4) 実効値 10 V・ω=1 rad/s・R₂=10 Ω・C=0.2 F・L=8 H のときの有効電力・無効電力・力率、(5) SW 閉の場合の ω→0・ω→∞ の Ż の極限、(6) 電流振幅が ω に依らないための条件。",
+   "regions": [
+    {
+     "page": 12,
+     "box": [
+      43,
+      58,
+      543,
+      752
+     ],
+     "label": "電気電子回路1：解答用紙（灰色 8 番）指定、設問 (1)〜(6)、図 1、脚注 *1〜*7 の用語対訳"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で図 1 の回路素子（e(t), L, C, R₁, R₂, SW, 端子 1-1′）と設問 (1)〜(6)、頁下の脚注 *1〜*7 を確認。脚注は本文中の * 参照に対応するため題目側に含めた。"
+   }
+  },
+  {
+   "id": "osaka-ee-2023-kiso-q9",
+   "number": "電気電子回路2",
+   "title": "電気電子回路2：演算増幅器の回路と離散的に切り替わる出力",
+   "titleKind": "editorial",
+   "topics": [
+    "演算増幅器",
+    "反転増幅回路",
+    "ステップ応答",
+    "R-2R ラダー"
+   ],
+   "summary": "【電気電子回路 2】だいたい色（9 番）の解答用紙。図 1 の演算増幅器回路（電圧利得 A、入力インピーダンス無限大、出力インピーダンス 0）について (1-1) 有限 A のときの出力フェーザと回路名、(1-2) A→∞ で v_m1(t)=0 となる現象の名称、(1-3) そのときの出力フェーザ、(1-4) v_in1(t)=−u(t) に対する v_out1(t) の波形（R=1.0 kΩ, C=1.0 mF）。図 2 の SW0〜SW2 で離散的に切り替わる回路について (2-1) R₃ を流れる電流 i(t)、(2-2) v_out2(t) の最大値・最小値とそのときのスイッチ状態。",
+   "regions": [
+    {
+     "page": 13,
+     "box": [
+      40,
+      56,
+      544,
+      751
+     ],
+     "label": "電気電子回路2：解答用紙（だいたい色 9 番）指定、図 1・図 2、設問 (1-1)〜(2-2)、脚注 *1〜*8 の用語対訳"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で図 1・図 2 の回路図（R, C, SW0〜SW2, R₁, R₂, R₃, R_L, −4.0 V 電源）、設問 (1-1)〜(2-2)、基準電位記号の注と脚注 *1〜*8 を確認。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q1"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非試题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 12,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q8"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 13,
+   "questionIds": [
+    "osaka-ee-2023-kiso-q9"
+   ],
+   "common": false,
+   "excluded": "裁去卷頭頁眉、頁脚頁碼与扫描空白边，不含題目内容。",
+   "reviewed": true
+  }
+ ]
+}

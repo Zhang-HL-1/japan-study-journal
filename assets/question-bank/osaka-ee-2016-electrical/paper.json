@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2016-electrical",
+  "title": "大阪大学 · 2016 入学年度 · 专门科目（电气工学课程）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2016",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2016,
+    "yearBasis": "academic",
+    "subject": "专门科目（电气工学）",
+    "originalSubject": "専門科目試験問題（電気工学コース）",
+    "originalName": "专业_电气工学.pdf",
+    "pdf": "assets/past-papers/documents/0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69.pdf",
+    "sha256": "0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69",
+    "pageCount": 28,
+    "note": "平成 28 年度（2016 年度）入学試験。原卷封面只标实施时间 14:00–16:00，未标实施日期，故不推断具体实施日。本册为電気工学コース用専門科目（5 分野 9 題から 2 分野以上 3 題選択）。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2016-electrical/common-01.png",
+      "page": 1,
+      "box": [
+        92.0,
+        122.0,
+        548.0,
+        388.0
+      ],
+      "width": 1368,
+      "height": 798,
+      "label": "封面：平成 28 年度大学院博士前期課程入学試験・大阪大学大学院工学研究科 電気電子情報工学専攻「専門科目試験問題（電気工学コース）」、実施時間 14:00–16:00",
+      "sha256": "0cbf726857b5bbd19751e9a1aecef87f54902114b20a690f1c58c30e885dad58"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2016-electrical/common-02.png",
+      "page": 1,
+      "box": [
+        58.0,
+        480.0,
+        548.0,
+        692.0
+      ],
+      "width": 1470,
+      "height": 636,
+      "label": "注意事項 1–4：問題用紙 27 ページ、5 分野 9 題（制御工学／パワーエレクトロニクスと電気機器／電磁気工学 1・2／量子電子物性 1–4／信号処理）から 2 分野以上 3 題選択、専門科目試験問題選択票",
+      "sha256": "64524678964769b69139bae796158fe15c9b03a3736424818d9d00740d1d30de"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2016-electrical-q1",
+      "number": "制御工学",
+      "title": "控制工学：极的符号判定、二阶系统阶跃与脉冲响应、状态反馈观测器",
+      "titleKind": "editorial",
+      "topics": [
+        "伝達関数",
+        "極",
+        "ステップ応答",
+        "インパルス応答",
+        "状態方程式",
+        "可制御",
+        "可観測",
+        "推定状態フィードバック"
+      ],
+      "summary": "1. は G(s)=1/(s^5+s^4+3s^3+4s^2+2s+1) のうち実部が正の極の個数とその理由、2. は G(s)=a/(s^2+5s+a) のステップ応答が単調増加となる必要十分条件・a=8 のインパルス応答・位相が -90° となる角周波数、3. は状態方程式の可制御/可観測判定・推定誤差方程式の行列 A_c・固有値指定の l・推定状態フィードバック後の A_cl とその固有値を問う。1.–3. は同一分野の 1 題として分割しない。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+        "date": "2026-11-03",
+        "notes": "第 2–3 頁で【制御工学】見出しと解答用紙指定行、1. の 5 次伝達関数、2. の (i)–(iii)、3. の (i)–(iv) と行列 A,b,c・A_c・l・k・A_cl を確認。页脚番号 1・2 は除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q1-01.png",
+          "page": 2,
+          "box": [
+            61.0,
+            58.7,
+            534.2,
+            375.4
+          ],
+          "width": 1420,
+          "height": 951,
+          "label": "【制御工学】見出し（白色 1 番の解答用紙指定行）・1. の伝達関数と極の個数・2. の G(s)=a/(s^2+5s+a) と (i)–(iii)",
+          "sha256": "764a18b6790d6e1e36dcb1843ca57c6e0b78d502d7ab03f5567dc1f3554357dc"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q1-02.png",
+          "page": 3,
+          "box": [
+            70.4,
+            58.7,
+            534.2,
+            639.4
+          ],
+          "width": 1392,
+          "height": 1743,
+          "label": "3. の状態方程式・出力方程式、A, b, c の行列、可制御/可観測判定・推定誤差方程式・固有値指定 l・推定状態フィードバックの A_cl",
+          "sha256": "56c405be892eb703c549d25273aa8dd391a2f111c5c1b9777ca33f78d50eae8d"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2016-electrical-q2",
+      "number": "パワーエレクトロニクスと電気機器",
+      "title": "电力电子与电气机器：串并联谐振 DC–DC 变换器、他励直流电动机",
+      "titleKind": "editorial",
+      "topics": [
+        "直列共振型DC–DCコンバータ",
+        "ハーフブリッジ",
+        "スイッチング損失",
+        "他励直流電動機",
+        "速度特性"
+      ],
+      "summary": "1. は図 1(a) の直列共振型 DC–DC コンバータを交流等価回路 1(b) で扱い、V_i'/I_r'・V_o'/V_i'・共振時の値・スイッチング損失低減の空欄【イ】～【ニ】を問う。2. は他励直流電動機の誘導起電力 E=kΦn・トルク T=kΦI_a/(2π)・同一トルクで 2/3 に減速する端子電圧・速度特性と電機子反作用を問う。図 1(a)(b)(c) と図 2 は各題に含める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+        "date": "2026-11-03",
+        "notes": "第 4 頁で図 1(a) 回路図・1(b) 交流等価回路・1(c) 波形（v_i, i_r, v_o の軸と t1, t2）と図番を、第 5 頁で図 2 の軸（回転速度 n・負荷電流 I・無負荷回転速度 n0）を確認。図の枠・矢印・凡例が切れていない。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q2-01.png",
+          "page": 5,
+          "box": [
+            42.7,
+            69.0,
+            559.0,
+            770.7
+          ],
+          "width": 1549,
+          "height": 2106,
+          "label": "【パワーエレクトロニクスと電気機器】見出し（赤色の解答用紙指定行）・1.(i)–(iii)、空欄【イ】～【ニ】、図 1(a)(b)(c) と図番",
+          "sha256": "8595176b440453b405315dad8608296d50ad08cd753b04efd77dafd6a113c556"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q2-02.png",
+          "page": 6,
+          "box": [
+            42.7,
+            69.3,
+            551.7,
+            514.3
+          ],
+          "width": 1528,
+          "height": 1336,
+          "label": "2. の他励直流電動機 (i)–(iv)、速度特性の空欄図と図 2",
+          "sha256": "5a3d00e0ff039157e956f380f5637330d56ae4600cfd681d22160e2cff8d314d"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2016-electrical-q3",
+      "number": "電磁気工学1",
+      "title": "电磁气工学1：库仑碰撞、散射角与等离子体碰撞截面",
+      "titleKind": "editorial",
+      "topics": [
+        "クーロン衝突",
+        "散乱角",
+        "衝突パラメータ",
+        "角運動量保存",
+        "デバイ遮蔽",
+        "衝突断面積"
+      ],
+      "summary": "電子（質量 m_e, 電荷 -e）とイオン（質量 m_i, 電荷 e）のクーロン衝突を円柱座標 (r, φ, z) で扱い、運動方程式の成分・角運動量・cot(θ/2)・散乱方向・デバイ遮蔽距離・衝突断面積 σ_T・衝突周波数 ν_ei を空欄 (ア)～(シ) で、加えて (ス) の記述解答（電子とイオンのどちらが早く熱平衡になるか）を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+        "date": "2026-11-03",
+        "notes": "第 7–9 頁で【電磁気工学1】見出し・解答用紙指定行、軌道図の座標軸とラベル、式(1)～(10) の番号と空欄 (ア)～(ス)、記述枠の枠線を確認。空欄の欠け・式番号の飛びなし。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q3-01.png",
+          "page": 8,
+          "box": [
+            42.0,
+            70.1,
+            547.8,
+            769.1
+          ],
+          "width": 1518,
+          "height": 2098,
+          "label": "【電磁気工学1】見出し（黄色の解答用紙指定行）・衝突の説明・軌道図（x-y 軸、r0, θ, φ, r）・運動方程式 (1)",
+          "sha256": "62066af35021c688a655022887673cb86285af72ea93f75c2e67df0f6ed6aac1"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q3-02.png",
+          "page": 9,
+          "box": [
+            48.0,
+            74.9,
+            547.8,
+            774.9
+          ],
+          "width": 1500,
+          "height": 2101,
+          "label": "式(2)–(8)：成分別運動方程式の空欄 (イ)(ウ)(エ)、角運動量 (オ)(カ)、cot(θ/2) (キ)、散乱方向 (ク)、デバイ遮蔽 (ケ)、σ_T の対数項 (コ)",
+          "sha256": "c0a4b3dc94ffaf7dfe4e30c8c2efaa68f308e6c1734967bb584af943a54b9abb"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q3-03.png",
+          "page": 10,
+          "box": [
+            48.0,
+            74.5,
+            547.8,
+            538.0
+          ],
+          "width": 1500,
+          "height": 1391,
+          "label": "式(9)(10) と空欄 (サ)(シ)、および (ス) の記述解答枠",
+          "sha256": "d0baa9ad3a475f42a8769db8c7bc122bf5746b43e0b9c58de4f957012ff4ea00"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2016-electrical-q4",
+      "number": "電磁気工学2",
+      "title": "电磁气工学2：等离子体中的电磁波传播与色散关系",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁波",
+        "プラズマ",
+        "分散関係",
+        "プラズマ振動数",
+        "混成周波数",
+        "位相速度",
+        "群速度"
+      ],
+      "summary": "問 1 で z 方向定常磁場中のプラズマを伝播する電磁波を扱い、マクスウェル方程式から (a)～(g) と ア)～ウ) を埋めて分散関係 (6)(14) を導く。問 2 は位相速度・群速度、問 3 は ω=ω_h での共鳴、問 4 は電子プラズマ波を語句（熱運動・縦波・分散関係）指定で 200 字以内に説明させる。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+        "date": "2026-11-03",
+        "notes": "第 11–13 頁で【電磁気工学2】見出し・解答用紙指定行、問 1 の (a)～(g)・ア)～ウ)、式(1)～(14)、問 2～問 4（語句指定と字数）、「以上」を確認。第 13 頁下段の専門用語の英訳は題に含めず除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q4-01.png",
+          "page": 12,
+          "box": [
+            43.3,
+            75.7,
+            548.8,
+            742.1
+          ],
+          "width": 1518,
+          "height": 2000,
+          "label": "【電磁気工学2】見出し（水色の解答用紙指定行）・問 1 の導入と (a)–(d)、式(1)–(5)",
+          "sha256": "3df5875b117dd0da4fba6f2f32fe018d22d87af5e9ce704f123856b3d90253a5"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q4-02.png",
+          "page": 13,
+          "box": [
+            48.6,
+            66.5,
+            554.0,
+            761.3
+          ],
+          "width": 1517,
+          "height": 2085,
+          "label": "式(6) と ア)、イ)、式(7)–(13) と空欄 (e)(f)(g)",
+          "sha256": "ee20c0273978aabd07f64864a854e778290adcfe2fb46e26e2c10adb159b6223"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q4-03.png",
+          "page": 14,
+          "box": [
+            48.6,
+            70.9,
+            570.7,
+            399.0
+          ],
+          "width": 1568,
+          "height": 985,
+          "label": "式(14) と ウ)、エ)、問 2・問 3・問 4 と「以上」",
+          "sha256": "39263ea788a7a7539e95c27d1098d31025fd0c4586b34aabcbe10bd65614a241"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2016-electrical-q5",
+      "number": "量子電子物性１",
+      "title": "量子电子物性1：一维方势阱中的束缚态",
+      "titleKind": "editorial",
+      "topics": [
+        "一次元井戸型ポテンシャル",
+        "シュレーディンガー方程式",
+        "波動関数",
+        "偶関数",
+        "奇関数",
+        "束縛状態",
+        "グラフ"
+      ],
+      "summary": "図 1-1 の一次元井戸型ポテンシャル中でエネルギーが V0 より小さい粒子について、領域(Ⅰ)(Ⅱ)(Ⅲ) のシュレーディンガー方程式と一般解、x=±L での接続条件から空欄［①］～［⑩］を求め、問 2 で ε, V0, L, m, ħ の関係式、問 3 で束縛状態が 1 個だけ存在する条件を α=kL, β=k'L のグラフで調べさせる。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+        "date": "2026-11-03",
+        "notes": "第 14–15 頁で【量子電子物性1】見出し・解答用紙指定行、図 1-1 の V(x) 軸・V0 目盛・-L, 0, L・図番、式(1)～(13)、問 1～問 3 を確認。図の枠と軸が切れていない。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q5-01.png",
+          "page": 15,
+          "box": [
+            42.7,
+            67.7,
+            556.7,
+            766.0
+          ],
+          "width": 1543,
+          "height": 2095,
+          "label": "【量子電子物性1】見出し（桃色 5 番の解答用紙指定行）・図 1-1 のポテンシャル図・領域(Ⅰ)(Ⅱ)(Ⅲ) の定義・式(1)–(8) と空欄［①］–［⑤］",
+          "sha256": "a2a05d7bb0e009dddf5e26ae0dff447961c2c2e326240c97551a5b6412940245"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q5-02.png",
+          "page": 16,
+          "box": [
+            47.1,
+            75.8,
+            559.1,
+            592.6
+          ],
+          "width": 1537,
+          "height": 1551,
+          "label": "奇関数の場合の式(9)–(11) と空欄［⑥］–［⑧］、比の連続条件から式(12)(13) と空欄［⑨］［⑩］、問 1～問 3",
+          "sha256": "713bbc8903e6b9f169f85b07fe2ec36affd0ec4a9da7fad26afffcbb1b9c2097"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2016-electrical-q6",
+      "number": "量子電子物性２",
+      "title": "量子电子物性2：本征半导体载流子密度与电导率",
+      "titleKind": "editorial",
+      "topics": [
+        "半導体",
+        "価電子",
+        "共有結合",
+        "真性半導体",
+        "フェルミ分布",
+        "有効状態密度",
+        "移動度",
+        "光励起"
+      ],
+      "summary": "Si/Ge の価電子と結晶構造、真性半導体、バンドギャップ、フェルミ分布関数の近似、n と p の式(1)–(3)、電気伝導度 σ、光励起（直接遷移・間接遷移）を ㋐～㋛ と［①］～［④］で埋め、問 1～問 7 で n·p の条件・n の温度依存・フェルミ準位・σ・有効質量・状態密度 N_C, N_V を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+        "date": "2026-11-03",
+        "notes": "第 16–17 頁で【量子電子物性2】見出し・解答用紙指定行、㋐～㋛、［①］～［④］、式(1)～(4)、問 1～問 7 と積分公式 ∫x^2 e^{-x^2}dx を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q6-01.png",
+          "page": 17,
+          "box": [
+            42.7,
+            67.7,
+            553.7,
+            740.9
+          ],
+          "width": 1534,
+          "height": 2020,
+          "label": "【量子電子物性2】見出し（緑色 6 番の解答用紙指定行）・結晶と価電子の記述 ㋐–㋕・n, p の式(1)・f(ε) の近似・式(3)(4) と［①］–［④］",
+          "sha256": "0d100abeef55b8dac5e392e940f19cb7ba9d98373d590b71c9975c9d9edf1620"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q6-02.png",
+          "page": 18,
+          "box": [
+            48.0,
+            72.9,
+            553.7,
+            742.1
+          ],
+          "width": 1518,
+          "height": 2009,
+          "label": "光励起の記述 ㋗–㋛、問 1～問 7（真性キャリア密度・フェルミ準位・σ・有効質量・N_C/N_V と積分公式）",
+          "sha256": "cb1590d78882ba9dc73ee4506ad520b23d8919b0112e3f5075e026e795b4747a"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2016-electrical-q7",
+      "number": "量子電子物性３",
+      "title": "量子电子物性3：取向极化介电色散与介电损耗",
+      "titleKind": "editorial",
+      "topics": [
+        "誘電体",
+        "配向分極",
+        "誘電分散",
+        "誘電損失",
+        "クラマース・クローニッヒ",
+        "複素誘電率"
+      ],
+      "summary": "交流局所電界 E_loc(t) に対する配向分極 P_d(t) の応答から分極率 α_d と比誘電率 κ(ω) の式(1)～(9) を導き、κ(ω) の実部 κ'(ω) と虚部 κ''(ω) の ωτ 依存性（図 3-1(a)(b)）と Cole-Cole 則、位相遅れ δ、単位時間・単位体積あたりの吸収エネルギー（式(16)(17)）を空欄［①］～［⑪］と ㋐～㋔ で問う。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+        "date": "2026-11-03",
+        "notes": "第 18–20 頁で【量子電子物性3】見出し・解答用紙指定行、式(1)～(17)、図 3-1(a)(b) の枠と軸目盛 0.01/0.1/1/10/100、問1～問3 を確認。空欄の欠けなし。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q7-01.png",
+          "page": 19,
+          "box": [
+            42.7,
+            69.0,
+            548.7,
+            767.8
+          ],
+          "width": 1519,
+          "height": 2097,
+          "label": "【量子電子物性3】見出し（灰色 7 番の解答用紙指定行）・式(1)–(8) と空欄［①］–［⑥］・㋐",
+          "sha256": "b2c7235bfa6e56e89257bc6abc06b6e3453cc535ac5c2cf7c560a2df978fb1e8"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q7-02.png",
+          "page": 20,
+          "box": [
+            48.0,
+            66.1,
+            553.8,
+            769.9
+          ],
+          "width": 1518,
+          "height": 2112,
+          "label": "式(9)–(15) と空欄［⑦］–［⑩］、図 3-1(a)(b) のグラフ枠と ωτ 軸（0.01–100）・図番、㋑㋒、位相遅れ δ の式(11)",
+          "sha256": "77a63d2bbf8b5346b628f28048b4187f86667e3608d60ab0bb38a09fa4e78a10"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q7-03.png",
+          "page": 21,
+          "box": [
+            48.0,
+            68.4,
+            548.7,
+            391.7
+          ],
+          "width": 1503,
+          "height": 971,
+          "label": "式(16)(17) と空欄［⑪］、㋔、問1～問3（グラフ転記の指示を含む）",
+          "sha256": "b0bcc796a7645f371bb05f9259e060e39840cf5417dbf9a4dd70353fea2fb717"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2016-electrical-q8",
+      "number": "量子電子物性４",
+      "title": "量子电子物性4：金属-半导体接触与肖特基势垒",
+      "titleKind": "editorial",
+      "topics": [
+        "金属半導体接合",
+        "仕事関数",
+        "電子親和力",
+        "空乏層",
+        "ショットキー障壁",
+        "静電容量",
+        "I–V特性"
+      ],
+      "summary": "n 型半導体と金属の接触について、仕事関数 qΦ_M・qΦ_S、電子親和力 qχ、障壁 qφ_M・qφ_S、空乏層、ポアソン方程式の解 E(x), V(x)、障壁幅 W、静電容量 C を ①～⑭ の空欄で求め、問 2 で平衡状態のエネルギー帯図、問 3 で式(7) に基づく I–V 特性（図 4-2）、問 4 で 1/C^2–V プロットから φ_S を求める方法を説明させる。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+        "date": "2026-11-03",
+        "notes": "第 21–23 頁で【量子電子物性4】見出し・解答用紙指定行、①～⑭、式(1)～(14)、図 4-1 のバンド図と記号、図 4-2 の枠・軸・目盛、問 1～問 4 を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q8-01.png",
+          "page": 22,
+          "box": [
+            42.7,
+            69.0,
+            548.7,
+            750.7
+          ],
+          "width": 1519,
+          "height": 2046,
+          "label": "【量子電子物性4】見出し（青色 8 番の解答用紙指定行）・①–⑨・式(1)–(7)",
+          "sha256": "c330c5b1a3bce87683abc6e3f55b1921f7026217bd87d25607e71dd9ecd568bc"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q8-02.png",
+          "page": 23,
+          "box": [
+            48.0,
+            69.8,
+            548.7,
+            759.2
+          ],
+          "width": 1503,
+          "height": 2069,
+          "label": "式(8)–(14) と ⑩–⑭、図 4-1 の金属/半導体バンド図（真空準位・qΦ_M, qχ, qΦ_S, ε_C, ε_F, ε_V）と図番",
+          "sha256": "1021dc45c8f9bcec28a19457390bf8f66887aa1a6b7da469813c41c2e1d9cb09"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q8-03.png",
+          "page": 24,
+          "box": [
+            48.0,
+            69.4,
+            551.1,
+            528.0
+          ],
+          "width": 1510,
+          "height": 1376,
+          "label": "問 1～問 4、図 4-2 のグラフ枠（電流 [mA]・バイアス電圧 [V] の軸目盛と図番）",
+          "sha256": "bb8dd855a3fa6ece87955ef9f08a0e9af927d11043e4956e5bfd46e8c4f1467f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2016-electrical-q9",
+      "number": "信号処理",
+      "title": "信号处理：卷积与相关运算的定义、性质与傅里叶变换",
+      "titleKind": "editorial",
+      "topics": [
+        "畳込み演算",
+        "相関演算",
+        "単位ステップ信号",
+        "二項演算",
+        "フーリエ変換"
+      ],
+      "summary": "連続時間信号の畳込み Conv(t)=x(t)*y(t) と相関 Corr(s)=x(t)◦y(t) を定義し、(i) 信号を操作するという観点からの意味、(ii) 実例、(iii) x(t)=u(t)-u(t-2), y(t)=u(t) での計算と図示、(iv) 可換則・分配則・結合則の成否を式で示す、(v) 両者のフーリエ変換を導出する、の (i)～(v) を問う。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison of every crop against the full source page (page survey at 2x; published crops at renderScale 3)",
+        "date": "2026-11-03",
+        "notes": "第 27 頁で【信号処理】見出し・解答用紙指定行、Conv(t) と Corr(s) の定義式（∫_{-∞}^{∞} と △= を含む）、(i)～(v) を確認。同頁下段の専門用語の英訳は題に含めず除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2016-electrical/osaka-ee-2016-electrical-q9-01.png",
+          "page": 28,
+          "box": [
+            50.6,
+            70.2,
+            534.0,
+            437.0
+          ],
+          "width": 1451,
+          "height": 1101,
+          "label": "【信号処理】見出し（だいだい色の解答用紙指定行）・Conv/Corr の定義式（積分記号と極限を含む）・(i)–(v)",
+          "sha256": "1275722aebe2ed34059eab496dfbf9cc683c7ed41f78656e84fc27640a9c1d3a"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "表紙（問題内容を含まない）。共通領域として別途収録。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q1"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q1"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（制御工学）の語彙頁。題目内容ではないため題に含めない。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q2"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q2"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（パワーエレクトロニクスと電気機器）の語彙頁。題目内容ではないため題に含めない。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（電磁気工学1）の語彙頁。題目内容ではないため題に含めない。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "上段は電磁気工学2 の続き（式(14)・問2～問4・「以上」）として題に収録。下段の専門用語の英訳は語彙頁のため除外。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q7"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q7"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q7"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 22,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q8"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 23,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q8"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 24,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q8"
+      ],
+      "common": false,
+      "excluded": "页眉・页脚のページ番号および余白のみ。",
+      "reviewed": true
+    },
+    {
+      "page": 25,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（量子電子物性1・2）の語彙頁。題目内容ではないため題に含めない。",
+      "reviewed": true
+    },
+    {
+      "page": 26,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（量子電子物性2・3）の語彙頁。題目内容ではないため題に含めない。",
+      "reviewed": true
+    },
+    {
+      "page": 27,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（量子電子物性3・4）の語彙頁。題目内容ではないため題に含めない。",
+      "reviewed": true
+    },
+    {
+      "page": 28,
+      "questionIds": [
+        "osaka-ee-2016-electrical-q9"
+      ],
+      "common": false,
+      "excluded": "上段は信号処理 (i)～(v) として題に収録。下段の専門用語の英訳（信号処理）は語彙頁のため除外。",
+      "reviewed": true
+    }
+  ]
+}

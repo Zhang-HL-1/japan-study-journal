@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2011-kiso",
+  "title": "大阪大学 · 2011 入学年度 · 共通基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2011",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2011,
+    "yearBasis": "academic",
+    "subject": "共通基础科目",
+    "originalSubject": "基礎科目試験問題",
+    "originalName": "共通基础科目.pdf",
+    "pdf": "assets/past-papers/documents/10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406.pdf",
+    "sha256": "10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406",
+    "pageCount": 12,
+    "note": "平成23年度（2011 入学年度）。原卷封面只标実施時間 9:30〜12:30，未标実施日，故不推断具体考试日。全 9 題（数学１–５、電磁理論１/２、電気電子回路１/２）から 5 題選択；受験コース別ルールは表紙の表（電気工学コース＝システム・制御・電力工学コース：数学1–5 から 3 題＋電磁理論1/2・電気電子回路1/2 から 2 題）。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2011-kiso/common-01.png",
+      "page": 1,
+      "box": [
+        94,
+        124,
+        520,
+        348
+      ],
+      "width": 1278,
+      "height": 672,
+      "label": "封面：平成23年度大学院博士前期課程入学試験・大阪大学大学院工学研究科 電気電子情報工学専攻「基礎科目試験問題」・実施時間 9:30–12:30",
+      "sha256": "4340074d14ab62cc058e86cf8b5f0e15e74299512bd835f5ba8ba44472ae77cf"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2011-kiso/common-02.png",
+      "page": 1,
+      "box": [
+        68,
+        416,
+        548,
+        727
+      ],
+      "width": 1440,
+      "height": 933,
+      "label": "注意事項 1〜4 与受験コース別選択ルール表：問題用紙 11 頁・9 題（数学１–５、電磁理論１/２、電気電子回路１/２）から 5 題選択。システム・制御・電力工学／先進電磁エネルギー工学／量子電子デバイス工学コース＝数学1–5 から 3 題＋電磁理論1/2・電気電子回路1/2 から 2 題、情報通信工学コース＝9 題から 5 題",
+      "sha256": "89a04565cdac11964719c58b838877880689ef3048f2a5aa03b9d627fe15ca4f"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2011-kiso-q1",
+      "number": "数学１",
+      "title": "克拉默法则、行列式因式分解与特征值特征向量",
+      "titleKind": "editorial",
+      "topics": [
+        "連立方程式",
+        "クラメルの公式",
+        "行列式",
+        "因数分解",
+        "固有値",
+        "固有ベクトル"
+      ],
+      "summary": "(a) 用克拉默（Cramer）公式解三元一次方程组（x1+3x2−2x3=−5、2x1−2x2+x3=7、−x1+4x2+2x3=12）；(b) 对 4×4 的 a,b,c,d 幂次行列式作因式分解；(c) 求 A=[[2,−6,7],[0,3,−2],[−1,4,−4]] 的特征值 λk（λ1 实数，λ2,λ3 虚数）；(d) 求对应特征向量 xk。不拆小问。中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【数学1】見出し与白色の解答用紙指定行、(a) 三个方程的系数与常数项符号、数式 −5/7/12，(b) 4 阶行列式的 a〜d 幂次排列，(c) 行列 A 三行与 (eigenvalue)/(real number)/(imaginary number) 原文、(d) xk 下标；本页为整页扫描图，按墨迹边界取框，页脚页码「1」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q1-01.png",
+          "page": 2,
+          "box": [
+            51,
+            66,
+            549,
+            413
+          ],
+          "width": 1494,
+          "height": 1041,
+          "label": "数学１：解答用紙（白色）指定行、(a) 联立方程与三式、(b) 4×4 行列式、(c) 行列 A 与特征值题、(d) 特征向量题",
+          "sha256": "d61a9972322d9ea4e58805ce5d7317213c8d1b2509ed901ca779a39194434c64"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-kiso-q2",
+      "number": "数学２",
+      "title": "球与圆柱交集体积及切线角微分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "球",
+        "円柱",
+        "共通部分",
+        "体積",
+        "接線",
+        "微分方程式",
+        "極座標"
+      ],
+      "summary": "(a) 求半径 a 的球 x²+y²+z²≤a² 与直径 a 的圆柱 x²+y²≤ax 的共通部分体积；(b) 在正交坐标系 (X,Y) 中定义过点 (2,1) 的曲线 Y=f(X)，点 P(x,y) 处切线 l 与 X 轴成角 α，OP 与 X 轴成角 θ 且 α=2θ，求该曲线。図1 与图号一并保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【数学2】見出しと赤色の解答用紙指定行、(a) 的不等式 x²+y²+z²≤a²、x²+y²≤ax 与 (radius)/(sphere)/(diameter)/(cylinder)/(volume) 原文、(b) 的 (2,1)、∠θ/∠α、图1 的 X/Y 轴、原点 O、切线 l、曲线 Y=f(X) 与图号；整页扫描图按墨迹取框，页脚页码「2」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q2-01.png",
+          "page": 3,
+          "box": [
+            43,
+            66,
+            546,
+            545
+          ],
+          "width": 1509,
+          "height": 1437,
+          "label": "数学２：解答用紙（赤色）指定行、(a) 球与圆柱的体积题、(b) 曲线定义与 α=2θ 条件、図1 坐标系与切线图及图号",
+          "sha256": "2cde05fbbaf500073a3af6567b3546edd88a0e05faee58641cb62ddcd80d251a"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-kiso-q3",
+      "number": "数学３",
+      "title": "二阶微分方程的拉普拉斯变换解法与复平面围道积分",
+      "titleKind": "editorial",
+      "topics": [
+        "微分方程式",
+        "ラプラス変換",
+        "複素平面",
+        "積分路",
+        "コーシー",
+        "留数",
+        "逆変換"
+      ],
+      "summary": "给定 d²u/dt²+ω0²u=f(t)、u(0)=0、u'(0)=0，含 (a) 求 L[u(t)](s)、(b) 在复平面沿图1 的实轴垂直线积分路计算 g(z)=e^{ξz}/(z²+A²) 的式(4) 积分并求实函数 y(ξ)（附半圆围道 C 的式(5) 提示）、(c) 用 (b) 的结果求方程(1) 的解 u(t)、(d) f(t)=B sin ωt 时的 u(t)。図1 与图号一并保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【数学3】見出しと青色の解答用紙指定行、式(1)(2) 的 d²u/dt² 与初始条件、式(3)(4)(5) 的 g(z)、e^{ξz}、z²+A²、1/(2πi)、lim 与 α±iβ 上下标、[ヒント] 的 (center(α,0), radius β) 原文、図1 的 iy,x 轴、α、β、±iβ、C、Γ 与图号、(a)〜(d)；整页扫描图按墨迹取框，页脚页码「3」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q3-01.png",
+          "page": 4,
+          "box": [
+            78,
+            77,
+            516,
+            708
+          ],
+          "width": 1314,
+          "height": 1893,
+          "label": "数学３：解答用紙（青色）指定行、式(1)(2)、式(3)(4)(5) 与 [ヒント]、図1 复数平面与积分路及图号、(a)〜(d) 全小问",
+          "sha256": "95894d8f090960be769cf2b8bc348d2831b55a0e8cb8738e5edb283a9f5546c7"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-kiso-q4",
+      "number": "数学４",
+      "title": "扩散方程的傅里叶变换求解与柯西积分公式",
+      "titleKind": "editorial",
+      "topics": [
+        "偏微分方程式",
+        "フーリエ変換",
+        "逆フーリエ変換",
+        "デルタ関数",
+        "コーシーの積分公式",
+        "ガウス積分"
+      ],
+      "summary": "对 ∂n/∂t=∂²n/∂x²（−∞<x<∞），初值 n(x,0)=δ(x)、边界条件 n(±∞,t)=0，含 (a) 对式(1) 施傅里叶变换 N(k,t)=∫n e^{−ikx}dx 导出 N(k,t)=exp(−k²t)、(b) 用逆变换 n(x,t)=1/(2π)∫N e^{ikx}dk 求 n(x,t)，并指定沿复平面 k=kx+iky 解析接续、对图1 的矩形闭区间用柯西积分公式（必要时可用 ∫exp(−x²)dx=√π）。図1 与图号一并保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【数学4】見出しと黄色の解答用紙指定行、∂n/∂t=∂²n/∂x² 与 (−∞<x<∞)、n(x,0)=δ(x)、n(±∞,t)=0、N(k,t) 与 exp(−k²t)、逆变换式的 1/(2π) 与积分限、∫exp(−x²)dx=√π、図1 的 kx,ky 轴、k0 与 ±∞ 及图号；整页扫描图按墨迹取框，页脚页码「4」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q4-01.png",
+          "page": 5,
+          "box": [
+            43,
+            70,
+            540,
+            501
+          ],
+          "width": 1491,
+          "height": 1293,
+          "label": "数学４：解答用紙（黄色）指定行、偏微分方程与式(1)、初始/边界条件、(a)(b) 全小问与图1 复平面矩形积分路及图号",
+          "sha256": "eb30ef7822065584158cac98153e723923e78436d0428619b729eb19f10c3f3f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-kiso-q5",
+      "number": "数学５",
+      "title": "连续正面等待时间的期望与 t 检验",
+      "titleKind": "editorial",
+      "topics": [
+        "確率",
+        "期待値",
+        "漸化式",
+        "正規分布",
+        "帰無仮説",
+        "t 検定",
+        "有意水準",
+        "t 分布表"
+      ],
+      "summary": "(a) 正面概率 p 的硬币反复投掷，首次出现连续 k 次正面即停止，记投掷次数期望为 Mk，含 (i) M1、(ii) k≥2 时 Mk 用 p 与 M(k−1) 表示、(iii) 一般 Mk；(b) 从 N(μ,σ²) 无作为抽取 4 个样本 (7,9,9,11)，在 5% 显著水平检验 H0: μ=10 对 H1: μ≠10，并给出表1 的 t 分布表（片侧）与表2 的 F 分布表（上侧 5% 点）及上側確率/自由度 的英文对照。两张表与表号完整保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【数学5】見出しと水色の解答用紙指定行、(a) 的 (probability)/(trial)/(natural number)/(sample)/(expectation) 原文与 (i)〜(iii)、(b) 的 (X1,X2,X3,X4)=(7,9,9,11)、H0: μ=10 与 H1: μ≠10、5% 有意水準、表1/表2 的全部数值与自由度列、末尾 upper tail probability・degrees of freedom 两行；本页为较小页幅的整页扫描图，按墨迹取框，页脚页码「5」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q5-01.png",
+          "page": 6,
+          "box": [
+            44,
+            53,
+            483,
+            707
+          ],
+          "width": 1317,
+          "height": 1962,
+          "label": "数学５：解答用紙（水色）指定行、(a) 的题意与 (i)〜(iii)、(b) 的檢定题、表1 t 分布表、表2 F 分布表及 上側確率/自由度 对照行",
+          "sha256": "f4ec3813a6c9847b31f38c01e83d5c3adb504c04ee20e12f698bc202f253ab76"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-kiso-q6",
+      "number": "電磁理論１",
+      "title": "同轴圆柱导体的电场、电位与电容（填空）",
+      "titleKind": "editorial",
+      "topics": [
+        "ガウスの法則",
+        "導体円柱",
+        "導体円筒",
+        "電界",
+        "電位",
+        "静電容量",
+        "接地",
+        "空欄補充"
+      ],
+      "summary": "以图1 的同轴导体圆柱（半径 a，单位长电荷 Q>0）与导体圆筒（内半径 b、外半径 c，外部无电荷）为题，按 ①〜⑥ 填空：四个区域的电场 E、以 r=b 为基准的电位 V、单位长静电容量 C；再用图2（圆筒接地）填空 ⑦〜⑭：四个区域的 E 与以无限远为基准的 V。解答用紙上写番号并填数式/数字。两张图与图号一并保留，跨页用同题两 region。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【電磁理論１】見出しと桃色の解答用紙指定行、「①〜⑭の番号を記し…空欄にあてはまる数式や数字」说明、図1 的 導体円柱/導体円筒/O/a/b/c/r 标注、図2 的 接地 符号与图号、①〜⑭ 共 14 个空欄逐一在框内、两页条件栏 r<a、a<r<b、b<r<c、c<r 与 r≦a、a<r≦b、b<r≦c 的等号差异未漏。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q6-01.png",
+          "page": 7,
+          "box": [
+            44,
+            72,
+            561,
+            760
+          ],
+          "width": 1551,
+          "height": 2064,
+          "label": "電磁理論１：解答用紙（桃色）指定行与填空说明、静电界设问、①〜⑥ 空欄、図1 同轴圆柱截面图与图号",
+          "sha256": "3986298a3ae7ad5be9a3912621ed74e67d5f4b2f84f3453fed7ed7879b137019"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q6-02.png",
+          "page": 8,
+          "box": [
+            44,
+            66,
+            561,
+            531
+          ],
+          "width": 1551,
+          "height": 1395,
+          "label": "電磁理論１（続き）：図2 接地的同轴圆柱截面图与图号、⑦〜⑭ 空欄与 r≦a / a<r≦b / b<r≦c / c<r 的电界・电位条件",
+          "sha256": "66d72c2775b55d97e49d3c56951255ac391bd448f352a2c36711df5c65bcb49f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-kiso-q7",
+      "number": "電磁理論２",
+      "title": "平面电磁波的麦克斯韦方程组与坡印廷矢量（填空）",
+      "titleKind": "editorial",
+      "topics": [
+        "マクスウェルの方程式",
+        "平面電磁波",
+        "波数ベクトル",
+        "ガウスの法則",
+        "ポインティング・ベクトル",
+        "固有インピーダンス",
+        "空欄補充"
+      ],
+      "summary": "在无电荷电流、均匀无损耗媒质（ε, μ）中，以角周波数 ω 传播平面电磁波，给出式(1)(2) 的矢量恒等式与式(3)〜(6) 的波数矢量、电场、磁场、位置矢量定义，按 ①〜⑪ 填空：式(7) 的 ∇[cos(ωt−k·r)]、式(8)(9) 的 H0 与 E0、式(10)(11) 的 div 关系、⑥ 的垂直性结论、式(12) 的 ( )E0=0、式(13) 的 |k|、式(14)(15) 的坡印廷矢量 S、式(16) 的固有阻抗 Z。解答用紙上写番号并填语句/数式。跨页用同题两 region。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【電磁理論2】見出しと緑色の解答用紙指定行、「①〜⑪の番号を記し…空欄にあてはまる語句・数式」说明、式(1)(2) 的 ∇×(φA)、∇·(φA) 与右端 (1)(2) 编号、式(3)〜(6) 的 k、E(r,t)、H(r,t)、r 定义与 ix,iy,iz 单位矢量、①〜⑪ 共 11 个空欄与式(7)〜(16) 编号逐一在框内，公式上下标未切。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q7-01.png",
+          "page": 9,
+          "box": [
+            41,
+            69,
+            551,
+            773
+          ],
+          "width": 1530,
+          "height": 2112,
+          "label": "電磁理論２：解答用紙（緑色）指定行与填空说明、式(1)〜(6) 与定义、①〜⑥ 空欄及式(7)〜(11)",
+          "sha256": "a4781f0299980b27e1b6d0a8bc48b11603807c2afec21e7187e268d284d80213"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q7-02.png",
+          "page": 10,
+          "box": [
+            39,
+            69,
+            551,
+            474
+          ],
+          "width": 1536,
+          "height": 1215,
+          "label": "電磁理論２（続き）：矢量的三重积推导、⑦〜⑪ 空欄、式(12)〜(16)（|k|、S、固有インピーダンス Z）",
+          "sha256": "05f13c2c0c7c932ff71588cbc635cc28154b22d62983bd0bd4623eccbe32e698"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-kiso-q8",
+      "number": "電気電子回路１",
+      "title": "RC 电路的频率特性与开关暂态响应",
+      "titleKind": "editorial",
+      "topics": [
+        "周波数特性",
+        "振幅特性",
+        "位相特性",
+        "折れ点周波数",
+        "位相進み",
+        "スイッチ",
+        "過渡応答",
+        "定常状態"
+      ],
+      "summary": "以图1-1 的 R1、C、R2 电路（v(t)=sin ωt）与图1-2 的 |i|・∠i 对数/片对数线图为题，含 (1) 求 R1,R2,C（i1=1 mA、i2=0.2 mA、ωa=250 rad/s）、(2) 求图1-2 中的折点角周波数 ωb、(3) 求相位超前最大的 ωc、(4) 对图1-3 的开关电路（t<0 定常、v(t)=1 V）求 t>0 的电流 i(t)；并附 *1〜*7 的日英术语注。三张图与图号、注一并保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【電気電子回路１】見出しと灰色の解答用紙指定行、(1)〜(4) 全小问、図1-1/図1-2/図1-3 三张图与图号、図1-2 的 |i|・i1・i2・∠i・ωa・ωb・ωc 标注、*1〜*7 的日英对照（frequency-response characteristic 等）逐条在框内；无切字；页脚页码「10」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q8-01.png",
+          "page": 11,
+          "box": [
+            50,
+            62,
+            546,
+            778
+          ],
+          "width": 1488,
+          "height": 2148,
+          "label": "電気電子回路１：解答用紙（灰色）指定行、题干、(1)〜(4)、図1-1 电路、図1-2 频率特性线图、図1-3 开关电路与各图号、*1〜*7 術語注",
+          "sha256": "705d6cc55647173edb2a4d63d9e3e820fecb28b45e6b89978f8e6412d7082377"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-kiso-q9",
+      "number": "電気電子回路２",
+      "title": "源极跟随器的直流工作点与小信号增益",
+      "titleKind": "editorial",
+      "topics": [
+        "ドレイン接地増幅器",
+        "ソース・フォロワ",
+        "MOSFET",
+        "相互コンダクタンス",
+        "小信号等価回路",
+        "電圧利得",
+        "遮断周波数"
+      ],
+      "summary": "以图2-1 的源极跟随器（2 mA 偏置、VTH=0.5V、β=4 mA/V²）为题，含 (1) 输出直流成分 VO、(2) 相互电导 gm（定义式 gm=∂ID/∂VGS）、(3) 用小信号等效回路（图2-2）求 Vout/Vin 与 tan θ、(4) ω→0 时的电压增益 Vout/Vin、(5) CL=1 pF 时增益降为直流的 1/√2 的频率 fp；并附 *1〜*6 的日英术语注。两张图与图号、注一并保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【電気電子回路２】見出しと橙色の解答用紙指定行、(1)〜(5) 全小问、ID=β/2(VGS−VTH)² 与 VTH=0.5V、β=4 mA/V²、vin(t)=√2 Vin sin ωt 等式、図2-1 的 5V/3V/2mA(DC)/CL/VO+vout(t) 标注、図2-2 的 G・S・D 端子与 gmvgs、*1〜*6 的日英对照逐条在框内；页脚页码「11」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-kiso/osaka-ee-2011-kiso-q9-01.png",
+          "page": 12,
+          "box": [
+            44,
+            70,
+            551,
+            770
+          ],
+          "width": 1521,
+          "height": 2100,
+          "label": "電気電子回路２：解答用紙（橙色）指定行、题干与式、(1)〜(5)、図2-1 源极跟随器电路、図2-2 小信号等效回路与各图号、*1〜*6 術語注",
+          "sha256": "61d6b49a5326a55b3b655b160dba20493212a79b67689de0dd881b22b0b69a91"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "reviewed": true,
+      "excluded": "表紙（卷头与注意事項、受験コース別選択ルール表），已作 commonRegions 保留；无题目主体。"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q8"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2011-kiso-q9"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    }
+  ]
+}

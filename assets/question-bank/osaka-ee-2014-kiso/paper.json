@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2014-kiso",
+  "title": "大阪大学 · 2014 入学年度 · 共通基础科目",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2014",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2014,
+    "yearBasis": "academic",
+    "subject": "共通基础科目",
+    "originalSubject": "基礎科目試験問題",
+    "originalName": "共通基础科目.pdf",
+    "pdf": "assets/past-papers/documents/60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d.pdf",
+    "sha256": "60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d",
+    "pageCount": 13,
+    "note": "平成 26 年度（2014 年度）实施。封面标実施時間 9:30–12:30，未标具体实施日期，不推断。全 13 页＝表紙 1 页＋問題 12 页，与注意事項「この表紙を除いて 12 ページ」一致；9 題（数学1–5・電磁理論1–2・電気電子回路1–2）中选 5 題。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2014-kiso/common-01.png",
+      "page": 1,
+      "box": [
+        64,
+        118,
+        558,
+        352
+      ],
+      "width": 1482,
+      "height": 702,
+      "label": "表紙：平成 26 年度・大阪大学大学院工学研究科 電気電子情報通信工学専攻・基礎科目試験問題・実施時間 9:30–12:30",
+      "sha256": "5332d98841f238f70f15774a60a2ca1677f074b917607099cb97e99dae2804a9"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2014-kiso/common-02.png",
+      "page": 1,
+      "box": [
+        64,
+        412,
+        558,
+        736
+      ],
+      "width": 1482,
+      "height": 972,
+      "label": "注意事項 1–4 与受験コース別選択ルール表（数学1–5 から 3 題＋電磁理論1/2・電気電子回路1/2 から 2 題＝5 題 等）",
+      "sha256": "54e0758d0d4657eb580f60c5b7e71146b42faaa2ea196bfa049e3d676e4d20ba"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2014-kiso-q1",
+      "number": "数学1",
+      "title": "二次形式 x²+10√3xy+11y²=s 的对称矩阵、对角化与标准化",
+      "titleKind": "editorial",
+      "topics": [
+        "二次形式",
+        "对称矩阵",
+        "固有值",
+        "固有向量",
+        "正交矩阵",
+        "旋转矩阵",
+        "对角化",
+        "标准化",
+        "二次曲线"
+      ],
+      "summary": "同页 (a)–(e) 五小问，不拆小问：式(1) x²+10√3xy+11y²=s 的 (a) 对称矩阵 A、(b) 固有值与单位固有向量、(c) 旋转行列 U 使 A 对角化、(d) 以 U 变换到 (X,Y) 的标准化、(e) 两坐标系关系图与 s=0, s>0, s<0 的图形概况。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 2 页（卷内页 1）核对：解答用紙指定行、式(1) 与「s は実数」条件、(a)–(e) 五小问与其矩阵/向量记号（含 (c) 的旋转行列定义、(d) 的变换式）均在框内；页脚页码 1 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q1-01.png",
+          "page": 2,
+          "box": [
+            51,
+            82,
+            537,
+            668
+          ],
+          "width": 1458,
+          "height": 1758,
+          "label": "数学1：解答用紙指定行、式(1)、(a)–(e) 五小问",
+          "sha256": "7206336333dfb8a907d855fe70342ab06447fa52df16758874329be31a959c1d"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-kiso-q2",
+      "number": "数学2",
+      "title": "勒让德型二阶常微分方程的级数解",
+      "titleKind": "editorial",
+      "topics": [
+        "二阶常微分方程",
+        "级数解",
+        "一般解",
+        "递推关系",
+        "初始条件",
+        "线性组合"
+      ],
+      "summary": "同页 (a)–(e) 五小问，不拆小问：(x²−1)y''+2xy'−ν(ν+1)y=0 的 (a) dy/dx、d²y/dx² 的级数表示、(b) c_{k+2} 与 c_k 的关系、(c) c0=1,c1=0 的解、(d) c0=0,c1=1 的解、(e) 用 y1,y2 表示一般解。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 3 页（卷内页 2）核对：微分方程、级数一般解与 Σ 上下限、ν 为非负整数条件、(a)–(e) 全在框内；页脚页码 2 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q2-01.png",
+          "page": 3,
+          "box": [
+            52,
+            84,
+            538,
+            470
+          ],
+          "width": 1458,
+          "height": 1158,
+          "label": "数学2：解答用紙指定行、微分方程与级数形式一般解、(a)–(e)",
+          "sha256": "66a5369990efb7038f0dd99dede6392d16abeed1ebe671a68128d9736c9118f5"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-kiso-q3",
+      "number": "数学3",
+      "title": "热传导方程初值问题的傅里叶变换解法",
+      "titleKind": "editorial",
+      "topics": [
+        "偏微分方程",
+        "δ函数",
+        "傅里叶变换",
+        "逆变换",
+        "高斯积分",
+        "初值问题"
+      ],
+      "summary": "同页 (a)–(d) 四小问，不拆小问：∂f/∂t=∂²f/∂x², f(x,0)=δ(x) 的 (a) 求 F(u,t) 满足的方程、(b) 初始条件的傅里叶变换、(c) 解 F(u,t)、(d) 逆变换求 f(x,t)（附可用积分公式）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 4 页（卷内页 3）核对：式(1) 两式、傅里叶变换定义式（含 1/√(2π) 与 e^{-iux}）、(a)–(d)、末尾积分公式与 a>0,b 実数 条件均在框内；页脚页码 3 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q3-01.png",
+          "page": 4,
+          "box": [
+            58,
+            82,
+            543,
+            422
+          ],
+          "width": 1455,
+          "height": 1020,
+          "label": "数学3：解答用紙指定行、式(1)、(a)–(d) 与积分公式",
+          "sha256": "7e4ad8ce51f9ae849a9eb78bbc0e7a9b21ee461f9af244beb16c4e5ec8333932"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-kiso-q4",
+      "number": "数学4",
+      "title": "伽马函数、√t 的拉普拉斯变换与积分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "伽马函数",
+        "拉普拉斯变换",
+        "复积分",
+        "留数/分支割线",
+        "积分路",
+        "积分方程"
+      ],
+      "summary": "同页 (a)–(c) 三小问，不拆小问：(a) √t 的拉普拉斯变换；(b) F(s)=1/√s 时沿图 1 経路 ABCDFA 积分求 f(t)（含反演积分式与 e<γ、弧 BC/FA 在 R→∞ 时积分为 0 的提示）；(c) 积分方程 ∫0^t x(τ)/√(t−τ) dτ=(t+1)² 求 x(t)。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 5 页（卷内页 4）核对：Γ 函数定义式 (1) 三式、(a)(b) 题干、反演积分式、図1 积分路图（A–F 点、R、γ、分支割线）与图号「図1」、(c) 积分方程均在框内；页脚页码 4 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q4-01.png",
+          "page": 5,
+          "box": [
+            56,
+            82,
+            541,
+            682
+          ],
+          "width": 1455,
+          "height": 1800,
+          "label": "数学4：解答用紙指定行、(a)–(c)、図1（s=σ+iω 平面の積分路）与图号",
+          "sha256": "b5bca7b953606698df941c0c242585ba4645d455f958b36d3cf6dcc12766a464"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-kiso-q5",
+      "number": "数学5",
+      "title": "i.i.d. 序列的首达次序统计量与条件期望",
+      "titleKind": "editorial",
+      "topics": [
+        "独立同分布",
+        "分布函数",
+        "首达时刻",
+        "几何/联合概率",
+        "期望",
+        "条件期望",
+        "指数分布"
+      ],
+      "summary": "同页 (a)–(d) 四小问，不拆小问：N=min{k; Xk>X0} 的 (a) 联合概率 Pr(N=k, X_N≤x)、(b) E[N]、(c) G(x)=Pr(X_N≤x)（附对数级数公式）、(d) F(x)=1−exp(−μx) 时 E[X1|N≥2]。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 6 页（卷内页 5）核对：题干（独立同分布、F(x)=Pr(Xn≤x)、1−F(x)=Pr(Xn>x)>0）、N 的定义与等价式、(a)–(d) 与 log(1−x) 级数、分段 F(x) 定义式均在框内；页脚页码 5 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q5-01.png",
+          "page": 6,
+          "box": [
+            48,
+            68,
+            546,
+            480
+          ],
+          "width": 1494,
+          "height": 1236,
+          "label": "数学5：解答用紙指定行、题干与 N 的定义式、(a)–(d)",
+          "sha256": "7b24f3252c1c138f8214d5d1aa83ab86960f4e575b1b3819992a6414d2d3fed2"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-kiso-q6",
+      "number": "電磁理論1",
+      "title": "点电荷电场/电位与电偶极子的多极展开（填空 ①–⑯）",
+      "titleKind": "editorial",
+      "topics": [
+        "点电荷",
+        "库仑定律",
+        "电场",
+        "电位",
+        "电偶极子",
+        "偶极矩",
+        "泰勒展开",
+        "内积",
+        "电场分量"
+      ],
+      "summary": "跨 2 页，同題 2 region：I 为点电荷 Q 的电场 E（①电束法则、②E 式、③电位 V 式）与図1；II 为 ±q 点电荷对的④偶极子、⑤偶极矩 p、⑥⑦各电荷电位、⑧泰勒展开近似 V、⑨z、⑩内积形式 V，進而⑪–⑬ Ex,Ey,Ez 一般式与⑭–⑯观测点 A 的电场分量，含図2。共 16 个空欄，需在解答用紙記①–⑯番号。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 7、8 页（卷内页 6、7）核对：解答用紙記入说明行、[I]/[II] 段落、①–⑯ 十六个空欄编号连续无缺；図1（Q→A、r）与図2（x,y,z 轴、±q、d、r、θ、A(x,y,z)）及图号完整；页脚页码 6、7 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q6-01.png",
+          "page": 7,
+          "box": [
+            47,
+            62,
+            552,
+            766
+          ],
+          "width": 1515,
+          "height": 2112,
+          "label": "電磁理論1：[I] ①–③ 与図1、[II] ④–⑧ 与図2",
+          "sha256": "ddb7a06eb8c025ff25ddef4ce43e5d6645256914c8270df635530c2253604d30"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q6-02.png",
+          "page": 8,
+          "box": [
+            48,
+            58,
+            553,
+            426
+          ],
+          "width": 1515,
+          "height": 1104,
+          "label": "電磁理論1（続き）：⑨–⑯ 各空欄",
+          "sha256": "605dfac522139062dee22b1df729930b881bfd98f21d2cb341f4fedb4887ef8e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-kiso-q7",
+      "number": "電磁理論2",
+      "title": "平面电磁波的磁场、坡印廷矢量与能量密度（填空 ①–⑬）",
+      "titleKind": "editorial",
+      "topics": [
+        "平面电磁波",
+        "麦克斯韦方程",
+        "磁场",
+        "波数",
+        "固有阻抗",
+        "坡印廷矢量",
+        "能量密度",
+        "时间平均"
+      ],
+      "summary": "跨 2 页，同題 2 region：无损失媒质中 E=i_x E0 cos(ωt−kz) 的 ①麦克斯韦方程左项、②H(z,t)、③k² 关系、④S(z,t)、⑤固有阻抗 Z、⑥以 Z 改写 S、⑦⟨S⟩、⑧截面 Ω 的平均功率 P、⑨⑩能量密度 we,wm、⑪⑫各自时间平均、⑬⟨S⟩ 与 ⟨we⟩,⟨wm⟩ 的关系式。共 13 个空欄。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 9、10 页（卷内页 8、9）核对：解答用紙記入说明、E(z,t) 式(1)、①–⑬ 编号连续，右端式编号 (2)–(14) 齐全；两页衔接处（⑦后「…平面を+z方向に横切る電力の時間平均値 P は」→⑧）未切字；页脚页码 8、9 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q7-01.png",
+          "page": 9,
+          "box": [
+            48,
+            84,
+            543,
+            726
+          ],
+          "width": 1485,
+          "height": 1926,
+          "label": "電磁理論2：解答用紙指定行、题干、①–⑦",
+          "sha256": "ce04e094e235769ae35c8aae184431c3cd11f14bd79b0a95c07828f0b51a761f"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q7-02.png",
+          "page": 10,
+          "box": [
+            58,
+            82,
+            539,
+            442
+          ],
+          "width": 1443,
+          "height": 1080,
+          "label": "電磁理論2（続き）：⑧–⑬",
+          "sha256": "03e5ba22a34a3c36c08b8da444ceeff25231e80b632e9004b2aa837462681439"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-kiso-q8",
+      "number": "電気電子回路1",
+      "title": "CR 电路的传递函数、阶跃响应与频率特性设计",
+      "titleKind": "editorial",
+      "topics": [
+        "传递函数",
+        "拉普拉斯变换",
+        "阶跃响应",
+        "频率特性",
+        "Bode 线图",
+        "截止角周波数",
+        "稳态"
+      ],
+      "summary": "同页 (1)–(3) 三小问，不拆小问：(1) 図1 电路由 vin→vout 的传递函数 G(s)（零初始条件）；(2) vin=E 阶跃时的 vout(t)；(3) 使 |G(jω)| 呈図2 特性（R=1kΩ, C1≪C2）定 C1,C2。含図1 电路图、図2 Bode 增益图与脚注 1–4（初值/传递函数/角周波数/定常状态の英訳）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 12 页（卷内页 11）核对：解答用紙指定行、(1)–(3) 三小问、図1 CR 电路（C1、R、C2、vin/vout 标注）、図2 增益特性（0/−40 dB、10、10³ rad/s、ω 轴）、注（抵抗記号）与 *1–*4 脚注均在框内；页脚页码 11 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q8-01.png",
+          "page": 12,
+          "box": [
+            51,
+            84,
+            538,
+            640
+          ],
+          "width": 1461,
+          "height": 1668,
+          "label": "電気電子回路1：解答用紙指定行、(1)–(3)、図1・図2、注与脚注 1–4",
+          "sha256": "c26e3ea809f75cce1d4b8a750c6d187e5c11e60577f92da6f282c5bee081482d"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-kiso-q9",
+      "number": "電気電子回路2",
+      "title": "MOSFET 小信号等效电路与电压增益的 Bode 线图",
+      "titleKind": "editorial",
+      "topics": [
+        "MOSFET",
+        "饱和领域",
+        "小信号等效电路",
+        "相互电导",
+        "电压增益",
+        "截止角周波数",
+        "Bode 线图",
+        "渐近线"
+      ],
+      "summary": "同页 (1)–(5) 五小问，不拆小问：(1) 由 ID 式与全微分导出 λ、gm；(2) 由图2 画図3 的小信号等效电路；(3) 以 gm,ZD,ZL 表示 Av；(4) ZD=R, ZL=C 时求 Av(ω) 与 ωcut；(5) 画 Av 的 Bode 增益线图（含渐近线与斜率）。含図1–3 与脚注 *1–*13。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 13 页（卷内页 12）核对：解答用紙指定行（橙（だいだい）色 9 番）、题干 G/S/D 与小信号记号定义、ID 与 id 全微分式、(1)–(5)、図1 MOSFET、図2 等效电路、図3 ZD/ZL 电路及三个图号、*1–*13 脚注两栏均在框内；页脚页码 12 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-kiso/osaka-ee-2014-kiso-q9-01.png",
+          "page": 13,
+          "box": [
+            56,
+            84,
+            547,
+            764
+          ],
+          "width": 1473,
+          "height": 2040,
+          "label": "電気電子回路2：解答用紙指定行、题干、(1)–(5)、図1–図3、脚注 *1–*13",
+          "sha256": "87c617e7b8c95a2752010384dd9ce5a887e02a8314ffafc77778ba94acadfbb0"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "表紙标题块、注意事項与受験コース別選択ルール表已作为 common 收录；其余为页边空白。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q1"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 1 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q2"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 2 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q3"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 3 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q4"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 4 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q5"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 5 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 6 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q6"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 7 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 8 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q7"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 9 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（電磁理論1・電磁理論2 の語彙リスト）。独立词汇页，按 BRIEF 第 4 条不并入题目，也不作 common。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q8"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 11 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2014-kiso-q9"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 12 与页边空白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

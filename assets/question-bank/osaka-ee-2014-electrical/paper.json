@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2014-electrical",
+  "title": "大阪大学 · 2014 入学年度 · 专门科目（系统・控制・电力工学课程）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2014",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2014,
+    "yearBasis": "academic",
+    "subject": "专门科目（电气工学）",
+    "originalSubject": "専門科目試験問題（システム・制御・電力工学コース）",
+    "originalName": "专业_电气工学.pdf",
+    "pdf": "assets/past-papers/documents/06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508.pdf",
+    "sha256": "06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508",
+    "pageCount": 16,
+    "note": "平成 26 年度（2014 年度）实施。封面标実施時間 14:00–16:00，未标具体实施日期，不推断。全 16 页＝表紙 1 页＋問題 15 页，与注意事項「この表紙や白紙を除いて 15 ページ」一致；6 題中选 3 題（须含制御工学1或2）。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2014-electrical/common-01.png",
+      "page": 1,
+      "box": [
+        63,
+        116,
+        553,
+        390
+      ],
+      "width": 1470,
+      "height": 822,
+      "label": "表紙：平成 26 年度・大阪大学大学院工学研究科 電気電子情報通信工学専攻・専門科目試験問題（システム・制御・電力工学コース）・実施時間",
+      "sha256": "847dcc90bcebe4af577697383f7baabfa4beca541862bd303396acc10aacfe7b"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2014-electrical/common-02.png",
+      "page": 1,
+      "box": [
+        63,
+        478,
+        553,
+        700
+      ],
+      "width": 1470,
+      "height": 666,
+      "label": "注意事項 1–4：問題用紙 15 页、6 題构成与「制御工学1 或 2 至少 1 題＋共 3 題」的选择规则、答案用紙選択票、可带回",
+      "sha256": "4ae5e44c84d75f076bc935f73218013a6e3adc69dd0ad881560fdecee50fc973"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2014-electrical-q1",
+      "number": "制御工学1",
+      "title": "反馈系统根轨迹、定常偏差与 Bode 折线近似",
+      "titleKind": "editorial",
+      "topics": [
+        "根轨迹",
+        "渐近线",
+        "定常偏差",
+        "增益裕度",
+        "方块图",
+        "传递函数",
+        "脉冲响应",
+        "Bode 线图"
+      ],
+      "summary": "同页 3 小题，不拆小问：1 为图 1 单位反馈系统（K/(s(s+1)(s+5))）的根轨迹分歧点、渐近线与实轴交点、单位斜坡定常偏差、K=1 时增益裕度 dB 值（i–iv）；2 为图 2 框图由 G1–G4 求传递函数；3 为 G(s)=(s+4)/((s+2)^2(s+3)(s+5)) 的脉冲响应与 Bode 增益折线近似。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 2 页（卷内页 1）核对：分野标题行「【制御工学1】解答は，白色（1番）…」在框内；図1、図2 与其图号完整；1(i)–(iv)、2、3(i)(ii) 小问编号齐全；页脚页码 1 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-electrical/osaka-ee-2014-electrical-q1-01.png",
+          "page": 2,
+          "box": [
+            76,
+            90,
+            520,
+            742
+          ],
+          "width": 1332,
+          "height": 1956,
+          "label": "制御工学1 全題：解答用紙指定行、1（図1・i–iv）、2（図2）、3（i–ii）",
+          "sha256": "4401357cdfa885f8a3431d26778fac5abd1c107e81f94e1b2d5f43dc27b5cd02"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-electrical-q2",
+      "number": "制御工学2",
+      "title": "三阶常微分方程的状态方程、稳定性与极点配置",
+      "titleKind": "editorial",
+      "topics": [
+        "状态方程",
+        "传递函数",
+        "阶跃响应",
+        "渐近稳定",
+        "可控性",
+        "可观测性",
+        "输出反馈",
+        "极点配置",
+        "定常状态"
+      ],
+      "summary": "同页 7 小问，不拆小问：3 阶常微分方程（a,b,c 实常数）的 (i) 状态/输出方程、(ii) 传递函数、(iii) 阶跃输入响应、(iv) 渐近稳定必要条件、(v) 可控可观性、(vi) u=-15y 输出反馈下闭环极点 -2,-1±j4 定 a,b,c、(vii) 加 1 后定常状态。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 4 页（卷内页 3）核对：(i)–(vii) 七个小问全在框内，(i) 的状态变量定义式与 (vi)(vii) 的极点/输入条件未切；页脚页码 3 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-electrical/osaka-ee-2014-electrical-q2-01.png",
+          "page": 4,
+          "box": [
+            70,
+            92,
+            520,
+            602
+          ],
+          "width": 1350,
+          "height": 1530,
+          "label": "制御工学2：(i)–(vii) 全部小问（含解答用紙指定行与方程定义）",
+          "sha256": "fe9267872abd389c6e377d01813ad1966def1ca4e89a4f44ff817eab893b4202"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-electrical-q3",
+      "number": "パワーエレクトロニクスと電気機器",
+      "title": "隔离型 DC-DC 变换器与凸极同步机",
+      "titleKind": "editorial",
+      "topics": [
+        "DC-DC 变换器",
+        "正激变换器",
+        "变压器复位",
+        "伏秒平衡",
+        "同步机",
+        "凸极",
+        "矢量图",
+        "阻尼绕组",
+        "乱调"
+      ],
+      "summary": "跨 2 页，同題 2 region：1 为图 1(a)(b)(c) 绝缘形 DC-DC 变换器的 (i) 各波形与振幅/平均值、(ii) E1-E2 与占空比 α、匝比 n1,n2 的关系、(iii) 三次绕组复位电路作用与缺失问题、(iv) 伏秒平衡下 α 与 n1,n3 的关系；2 为图 2 凸极三相同步机的 (i) 矢量图、(ii) 输出功率、(iii) 凸极转矩、(iv) 阻尼绕组抑制乱调与起动转矩的理由。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 6、7 页（卷内页 5、6）核对：1 的 (i)–(iv) 与図1(a)(b)(c) 波形图、电路图完整（含 E1、TON/TOFF、n1,n2,n3 标注）；2 的 (i)–(iv) 与図2 矢量图完整；两页页脚页码 5、6 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-electrical/osaka-ee-2014-electrical-q3-01.png",
+          "page": 6,
+          "box": [
+            52,
+            84,
+            540,
+            650
+          ],
+          "width": 1464,
+          "height": 1698,
+          "label": "パワーエレクトロニクスと電気機器 1：解答用紙指定行、1(i)–(iv)、図1(a)(b)(c) 与图号",
+          "sha256": "cc27adfef9801d3da3067c32ce69b8ef544d97a7944925dc9469958b19d6c539"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2014-electrical/osaka-ee-2014-electrical-q3-02.png",
+          "page": 7,
+          "box": [
+            56,
+            116,
+            538,
+            522
+          ],
+          "width": 1446,
+          "height": 1218,
+          "label": "パワーエレクトロニクスと電気機器 2：2(i)–(iv)、図2 与图号",
+          "sha256": "8c9fe24c94f7116e4d334d17b76bba0db5292d1d3db78f42ae12515df74b9e33"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-electrical-q4",
+      "number": "データ構造とアルゴリズム",
+      "title": "堆的插入/删除程序填空与堆排序复杂度",
+      "titleKind": "editorial",
+      "topics": [
+        "堆",
+        "完全二叉树",
+        "数组表示",
+        "插入",
+        "堆排序",
+        "最坏时间计算量",
+        "オーダ"
+      ],
+      "summary": "跨 3 页，同題 3 region：1 为図1 堆与数组表示、プログラムA（插入）的 (i) 空欄1 填空、(ii) 各 i 时数组对应二叉树、(iii) 完全二叉树说明；2 为堆排序的 (i) 有子节点数、(ii) 空欄2–5 填空、(iii) 程序输出、(iv) m=8,6,4 时数组与堆部分二叉树、(v) 最坏时间计算量 order 与依据。プログラムB 原卷排在第 3 页（卷内页 10），按原卷顺序单独成 region。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 9、10、11 页（卷内页 8、9、10）核对：図1 的堆/数组两幅图与 a[0]–a[9] 标注在框内；プログラムA/B 代码框四边完整、注释与空欄 1–5 编号齐全；2(i)–(v) 小问齐全；因原卷把程序B排在次页，2 的小问与程序B 分属两个 region，按原卷顺序排列；页脚页码 8、9、10 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-electrical/osaka-ee-2014-electrical-q4-01.png",
+          "page": 9,
+          "box": [
+            46,
+            100,
+            527,
+            774
+          ],
+          "width": 1443,
+          "height": 2022,
+          "label": "データ構造とアルゴリズム 1：解答用紙指定行、1 题干、図1（堆与数组表示）、プログラムA",
+          "sha256": "eed047e531050c6823147fbaa9681ff9655ed842df9da77f9c817e43d09d0608"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2014-electrical/osaka-ee-2014-electrical-q4-02.png",
+          "page": 10,
+          "box": [
+            45,
+            98,
+            523,
+            394
+          ],
+          "width": 1434,
+          "height": 888,
+          "label": "データ構造とアルゴリズム：1(i)–(iii)、2 题干、(i)–(v)",
+          "sha256": "caeee50e532796ec5d10a4b05819829b06663eaa5709021c3d8dbfd8ea1b1fb6"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2014-electrical/osaka-ee-2014-electrical-q4-03.png",
+          "page": 11,
+          "box": [
+            57,
+            99,
+            547,
+            738
+          ],
+          "width": 1470,
+          "height": 1917,
+          "label": "データ構造とアルゴリズム 2：プログラムB 全文（空欄2–5、<β>）",
+          "sha256": "bc41152a3cf93b7badd843472045a292e7cfa7a7498502e0c1f636fffc1a4a18"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-electrical-q5",
+      "number": "論理回路と計算機システム",
+      "title": "半加算器/全加算器的构成、减法回路与先行进位",
+      "titleKind": "editorial",
+      "topics": [
+        "半加算器",
+        "全加算器",
+        "真值表",
+        "最小积和形",
+        "减法回路",
+        "ripple 进位",
+        "延迟时间",
+        "carry lookahead"
+      ],
+      "summary": "同页 7 小问，不拆小问：n 位二进制加法的 (i) 半加算器真值表与回路图、(ii) 两个半加算器构成全加算器 H-FAi、(iii) si、ci+1 的最小积和形、(iv) 用加法回路构成 X−Y 减法回路、(v) si、ci+1 的延迟、(vi) n 位 ripple 进位加法器总时间、(vii) 进位先行加法器的 gi、pi 形式与所需时间。含図1、図2 记号线。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 13 页（卷内页 12）核对：前提条件 4 条（低位添字、ci 定义、可用 gate 与延迟 T、多解只示一解）全在框内；(i)–(vii) 编号齐全；図1 半加算器记号与図2 n 位加法器记号线、标注完整；页脚页码 12 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-electrical/osaka-ee-2014-electrical-q5-01.png",
+          "page": 13,
+          "box": [
+            53,
+            82,
+            540,
+            742
+          ],
+          "width": 1461,
+          "height": 1980,
+          "label": "論理回路と計算機システム 全題：解答用紙指定行、前提 4 条、1(i)–(vii)、図1・図2",
+          "sha256": "9904e547dfb6c3e1a954ddd37275d2f2897bd64460d07c5f378b2d8129fe9b27"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2014-electrical-q6",
+      "number": "信号処理",
+      "title": "离散系统 y[n]=x[n]−x[n−1] 的性质、传递函数与逆系统",
+      "titleKind": "editorial",
+      "topics": [
+        "离散时间系统",
+        "线性性",
+        "时不变性",
+        "因果性",
+        "方块图",
+        "传递函数",
+        "稳定性",
+        "频率响应",
+        "逆系统"
+      ],
+      "summary": "同页 6 小问，不拆小问：L1: y[n]=x[n]−x[n−1] 的 (i) 线性/时不变/因果性证明、(ii) 用延迟器・加算器・系数乘算器构成方块图（含三器件的定义表）、(iii) 传递函数与稳定性、(iv) 周波数应答的振幅/位相特性、(v) 逆系统 L2 的时间领域关系式、(vi) L2 方块图。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full rendered source pages (2x) plus ink-band profile check",
+        "date": "2026-11-03",
+        "notes": "对照原卷第 15 页（卷内页 14）核对：解答用紙指定行与系统框图在框内；(i)–(vi) 齐全；(ii) 的延遲器/加算器/係数乗算器定义表三行完整；(v)(vi) 的 L1–L2 级联框图在框内；页脚页码 14 未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2014-electrical/osaka-ee-2014-electrical-q6-01.png",
+          "page": 15,
+          "box": [
+            68,
+            84,
+            521,
+            729
+          ],
+          "width": 1359,
+          "height": 1935,
+          "label": "信号処理 全題：解答用紙指定行、系统框图、1(i)–(vi) 与三器件定义表、逆系统框图",
+          "sha256": "76f9869b95fc587657a946965a8a8163a90e4ab5dd2d61f1f2286465053aec66"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "表紙标题块与注意事項已作为 common 收录；其余为页边空白。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2014-electrical-q1"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 1 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（制御工学1 語彙の和英対訳リスト）。独立词汇页，按 BRIEF 第 4 条不并入题目，也不作 common（无作答规则信息）。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2014-electrical-q2"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 3 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（制御工学2 語彙の和英対訳リスト）。独立词汇页，不并入题目。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2014-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 5 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2014-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 6 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（パワーエレクトロニクスと電気機器 1.・2. の語彙リスト）。独立词汇页，不并入题目。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2014-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 8 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2014-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 9 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2014-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 10 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（データ構造とアルゴリズムの語彙リスト）。独立词汇页，不并入题目。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2014-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 12 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（論理回路と計算機システムの語彙リスト）。独立词汇页，不并入题目。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "osaka-ee-2014-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "仅页脚页码 14 与页边空白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（信号処理の語彙リスト）。独立词汇页，不并入题目。",
+      "reviewed": true
+    }
+  ]
+}

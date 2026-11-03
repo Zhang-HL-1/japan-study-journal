@@ -1,0 +1,482 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2017-kiso",
+ "title": "大阪大学 · 2017 入学年度 · 共通基础科目",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2017",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻（電気工学コース）",
+  "year": 2017,
+  "yearBasis": "academic",
+  "subject": "共通基础科目",
+  "originalSubject": "基礎科目試験問題",
+  "originalName": "共通基础科目.pdf",
+  "pdf": "assets/past-papers/documents/e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf.pdf",
+  "sha256": "e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf",
+  "pageCount": 13,
+  "note": "平成29年度（2017年度）入学試験、基礎科目試験問題。封面标实施时间 9:30–12:30；未标具体实施日期，不推断考试日。"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    40,
+    122,
+    555,
+    350
+   ],
+   "label": "卷头：平成29年度・電気電子情報工学専攻・基礎科目試験問題・実施時間"
+  },
+  {
+   "page": 1,
+   "box": [
+    40,
+    414,
+    555,
+    576
+   ],
+   "label": "注意事項1・2：ページ数と9題の構成、5題選択の指示"
+  },
+  {
+   "page": 1,
+   "box": [
+    40,
+    578,
+    555,
+    782
+   ],
+   "label": "受験コース別選択ルール（電気工学/電子工学コースは数学5題から3題＋電磁理論・回路4題から2題、情報通信は9題から5題）と注意事項4・5"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2017-kiso-q1",
+   "number": "数学1",
+   "title": "特殊矩阵 X_n 的特征多项式与特征向量",
+   "titleKind": "editorial",
+   "topics": [
+    "线形代数",
+    "特征多项式",
+    "特征值",
+    "特征向量",
+    "正交基",
+    "幂"
+   ],
+   "summary": "以 (i,j) 元素 (-1)^(i+j) 的 n×n 实矩阵为主题，(a) X_2,X_3 的特征多项式/特征值/特征向量、(b) 递推式证明、(c) 一般式与非零特征向量、(d) (X_n)^n x 的展开。全题1页。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      40,
+      88,
+      550,
+      417
+     ],
+     "label": "数学1：第2页题干与图表"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第2–2页核对题号、小问、公式与图号；页脚页码未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2017-kiso-q2",
+   "number": "数学2",
+   "title": "复平面积分与傅里叶变换求解微分方程",
+   "titleKind": "editorial",
+   "topics": [
+    "复积分",
+    "柯西-黎曼关系",
+    "复共轭",
+    "傅里叶变换",
+    "delta 函数",
+    "微分方程特解"
+   ],
+   "summary": "(a-1)(a-2) 沿路径 C_1/C_3 的复积分（含図1 复平面路径）、(b-1)～(b-3) 利用 delta 函数求 F_1(ω) 与 f_1(t)。整题1页，図1 保留。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      40,
+      85,
+      549,
+      685
+     ],
+     "label": "数学2：第3页题干与图表"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第3–3页核对题号、小问、公式与图号；页脚页码未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2017-kiso-q3",
+   "number": "数学3",
+   "title": "周期函数的傅里叶级数与无穷级数求和",
+   "titleKind": "editorial",
+   "topics": [
+    "傅里叶级数",
+    "周期函数",
+    "定积分",
+    "帕塞瓦尔",
+    "无穷级数"
+   ],
+   "summary": "(a) ∫{f(x)}^2 dx 用 a_0,a_n,b_n 导出、(b) g(x)=cos x 的图示与分段连续、(c) g(x) 的傅里叶级数、(d) 求 Σ(1/(4n²−1))²。整题1页。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      40,
+      87,
+      551,
+      586
+     ],
+     "label": "数学3：第4页题干与图表"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第4–4页核对题号、小问、公式与图号；页脚页码未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2017-kiso-q4",
+   "number": "数学4",
+   "title": "拉普拉斯变换性质与积分求值",
+   "titleKind": "editorial",
+   "topics": [
+    "拉普拉斯变换",
+    "导数定理",
+    "初始值定理",
+    "积分求值"
+   ],
+   "summary": "(a) L[t f(t)] 证明、(b) t²f(t) 的变换、(c) f(t)=(1−cos t)/t² 的 F(s)、(d) ∫_0^∞ (1−cos t)/t² dt。整题1页。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      40,
+      75,
+      550,
+      520
+     ],
+     "label": "数学4：第5页题干与图表"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第5–5页核对题号、小问、公式与图号；页脚页码未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2017-kiso-q5",
+   "number": "数学5",
+   "title": "指数分布的无偏估计与方差最小化",
+   "titleKind": "editorial",
+   "topics": [
+    "指数分布",
+    "点估计",
+    "无偏性",
+    "方差最小化",
+    "柯西-施瓦茨不等式"
+   ],
+   "summary": "以 n 台机械故障时间 X_{n,i} 的加权估计 W_{n,m} 为题，(a) 指数分布方差、(b) Y_{n,i} 的分布函数、(c) Var[W] 的表达、(d) 最优权重。整题1页。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      40,
+      78,
+      549,
+      688
+     ],
+     "label": "数学5：第6页题干与图表"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第6–6页核对题号、小问、公式与图号；页脚页码未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2017-kiso-q6",
+   "number": "電磁理論1",
+   "title": "球状电荷分布电场与诱电体球壳极化",
+   "titleKind": "editorial",
+   "topics": [
+    "高斯法则",
+    "球状电荷分布",
+    "诱电体",
+    "分极",
+    "极化电荷密度",
+    "电位"
+   ],
+   "summary": "填空①～⑳，含式(1)～(14)、図1（球状电荷分布）、図2（诱电体球壳）。跨第7–8页整题保留。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      40,
+      86,
+      553,
+      791
+     ],
+     "label": "電磁理論1：第7页题干与图表"
+    },
+    {
+     "page": 8,
+     "box": [
+      40,
+      87,
+      551,
+      755
+     ],
+     "label": "電磁理論1：第8页题干与图表"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第7–8页核对题号、小问、公式与图号；页脚页码未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2017-kiso-q7",
+   "number": "電磁理論2",
+   "title": "静磁界能量与自感",
+   "titleKind": "editorial",
+   "topics": [
+    "静磁界",
+    "矢量位",
+    "磁束",
+    "电感",
+    "法拉第电磁感应"
+   ],
+   "summary": "填空①～⑫，含式(1)～(10)、図1（闭回路 C 与磁束）。跨第9–10页整题保留。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      40,
+      89,
+      550,
+      665
+     ],
+     "label": "電磁理論2：第9页题干与图表"
+    },
+    {
+     "page": 10,
+     "box": [
+      40,
+      90,
+      551,
+      605
+     ],
+     "label": "電磁理論2：第10页题干与图表"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第9–10页核对题号、小问、公式与图号；页脚页码未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2017-kiso-q8",
+   "number": "電気電子回路1",
+   "title": "RLC 正弦稳态、戴维南等效与最大功率",
+   "titleKind": "editorial",
+   "topics": [
+    "正弦稳态",
+    "相量",
+    "戴维南等效",
+    "复阻抗",
+    "最大有功功率"
+   ],
+   "summary": "角周波数1 rad/s 的 RLC 电路，问(1)～(5)，含図1 电路图与脚注对译。整题1页。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 12,
+     "box": [
+      40,
+      88,
+      550,
+      707
+     ],
+     "label": "電気電子回路1：第12页题干与图表"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第12–12页核对题号、小问、公式与图号；页脚页码未入框。"
+   }
+  },
+  {
+   "id": "osaka-ee-2017-kiso-q9",
+   "number": "電気電子回路2",
+   "title": "理想运算放大器电路阻抗关系",
+   "titleKind": "editorial",
+   "topics": [
+    "运算放大器",
+    "理想运放",
+    "阻抗",
+    "正弦稳态",
+    "时域响应"
+   ],
+   "summary": "以图1 理想运放电路为题，问(1)～(5)，含図1 电路图与脚注对译。整题1页。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 13,
+     "box": [
+      40,
+      86,
+      551,
+      741
+     ],
+     "label": "電気電子回路2：第13页题干与图表"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full source pages",
+    "date": "2026-11-03",
+    "notes": "对照原卷第13–13页核对题号、小问、公式与图号；页脚页码未入框。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "封面与注意事項，已作为 common 保留。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q1"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q2"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q3"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q4"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q5"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（電磁理論1・電磁理論2の対訳語彙リスト）。問題本文ではないため独立して除外し、題目に混ぜない。",
+   "reviewed": true
+  },
+  {
+   "page": 12,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q8"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 13,
+   "questionIds": [
+    "osaka-ee-2017-kiso-q9"
+   ],
+   "common": false,
+   "excluded": "重复卷头与空白页边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

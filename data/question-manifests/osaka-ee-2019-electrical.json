@@ -1,0 +1,746 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2019-electrical",
+ "title": "大阪大学 · 2019 入学年度 · 专门科目（电气工学课程）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2019",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻（電気工学コース）",
+  "year": 2019,
+  "yearBasis": "academic",
+  "subject": "专门科目（电气工学）",
+  "originalSubject": "専門科目試験問題（電気工学コース）",
+  "originalName": "专业_电气工学.pdf",
+  "pdf": "assets/past-papers/documents/bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10.pdf",
+  "sha256": "bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10",
+  "pageCount": 32,
+  "note": "平成 31（2019）年度入試。原卷封面标「専門科目試験問題（電気工学コース）」「実施時間 14：00～16：00」，及 5 分野 9 題、「2 分野以上 3 題を選択」の作答规则；未标实施日期，不推断具体考试日。原文件名「专业_电气工学.pdf」为整理标签。"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    56.0,
+    476.0,
+    542.0,
+    684.0
+   ],
+   "label": "全卷作答说明（注意事項）：問題用紙 31 頁、5 分野 9 題の構成、コース別選択ルール（2 分野以上 3 題）与递交须知"
+  },
+  {
+   "page": 32,
+   "box": [
+    143.0,
+    528.0,
+    452.0,
+    682.0
+   ],
+   "label": "専門用語の英訳（信号処理）の語彙対訳表。題末に置かれた参考資料で小問の解答要素ではないため、題目から切り離して common 収録"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2019-electrical-q1",
+   "number": "制御工学",
+   "title": "制御工学：ブロック線図の伝達関数・帰還系の安定条件と根軌跡・状態方程式",
+   "titleKind": "editorial",
+   "topics": [
+    "ブロック線図",
+    "伝達関数",
+    "定常偏差",
+    "根軌跡",
+    "可制御正準形",
+    "状態方程式"
+   ],
+   "summary": "問 1 図 1 のブロック線図で R(s) から C(s) までの伝達関数を G1,G2,G3 で表す。問 2 図 2 の帰還系について (i) 安定の必要十分条件、(ii) ランプ入力の定常偏差、(iii) 開ループ伝達関数の位相の極限、(iv) 無限遠点へ発散しない根軌跡の終点。問 3 状態方程式の (i) 可制御性行列、(ii) 可制御正準形への変換、(iii) 行列指数関数、(iv) 入力 -2y+te^-t に対する出力、(v) 出力帰還の極の実部条件。小問は分割せず 1 題として収録。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      22.0,
+      110.0,
+      524.0,
+      662.0
+     ],
+     "label": "制御工学：冒頭の解答用紙指定、問 1（図 1 のブロック線図）、問 2（図 2）と小問 (i)〜(iv)"
+    },
+    {
+     "page": 3,
+     "box": [
+      86.0,
+      98.0,
+      530.0,
+      400.0
+     ],
+     "label": "制御工学：問 3 状態方程式と小問 (i)〜(v)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 1 頁で【制御工学】見出し・解答用紙指定・問 1（図 1）・問 2（図 2）と (i)〜(iv)、第 2 頁で問 3 の (i)〜(v) を確認。図 1 の信号線と加え合わせ点、図 2 の伝達関数の式を欠かさず収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2019-electrical-q2",
+   "number": "パワーエレクトロニクスと電気機器",
+   "title": "パワーエレクトロニクスと電気機器：フルブリッジ DC-DC コンバータと三相同期発電機",
+   "titleKind": "editorial",
+   "topics": [
+    "フルブリッジ DC-DC コンバータ",
+    "変圧器",
+    "インダクタ電流",
+    "非突極型同期発電機",
+    "等価回路",
+    "トルク"
+   ],
+   "summary": "問 1 図 1(a) のフルブリッジ型 DC-DC コンバータについて、(i) 期間 I の各電圧と ΔiL、(ii) 期間 II の vL と ΔiL、(iii) 期間 III の励磁電流、(iv) 周期定常状態の Vout、(v) 各波形の概形。問 2 図 2 の非突極型三相同期発電機の等価回路について (i) 電機子反作用、(ii) ベクトル図、(iii) 有効・無効電力と最大の δ、(iv) 同期速度とトルク、(v) 制動巻線による始動トルク。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      60.0,
+      104.0,
+      524.0,
+      650.0
+     ],
+     "label": "パワーエレクトロニクスと電気機器：冒頭の解答用紙指定、問 1 (i)〜(v) と図 1(a)(b)"
+    },
+    {
+     "page": 6,
+     "box": [
+      76.0,
+      106.0,
+      522.0,
+      482.0
+     ],
+     "label": "パワーエレクトロニクスと電気機器：問 2 (i)〜(v) と図 2 の等価回路"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁にわたり問 1・問 2 を確認。図 1(a) の回路図と図 1(b) のスイッチング波形（期間 I〜IV、αT、T/2）、図 2 の等価回路と記号（x_s, r_a, E_0, V）を完全に収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2019-electrical-q3",
+   "number": "電磁気工学1",
+   "title": "電磁気工学1：磁界中の荷電粒子の運動と磁気モーメント・磁気ミラー",
+   "titleKind": "editorial",
+   "topics": [
+    "ローレンツ力",
+    "サイクロトロン運動",
+    "磁気モーメント",
+    "磁気ミラー",
+    "断熱不変量"
+   ],
+   "summary": "問 1 図 1 の一様磁界中の荷電粒子について運動方程式(1)、エネルギー(2)(3)、磁気モーメント(4)、垂直・平行成分の変化(5)〜(7)、10 keV 陽子の μ と加速後のエネルギー(8)〜(12) の空欄 (ア)〜(ケ)。問 2 エネルギーが変化しない理由の記述。問 3 図 2 の磁気ミラー配位で粒子が反射され閉じ込められる理由の記述。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      50.0,
+      104.0,
+      522.0,
+      726.0
+     ],
+     "label": "電磁気工学1：冒頭の解答用紙指定、問 1 の文章・図 1・式(1)〜(4)"
+    },
+    {
+     "page": 9,
+     "box": [
+      64.0,
+      120.0,
+      524.0,
+      720.0
+     ],
+     "label": "電磁気工学1：式(5)〜(12) と空欄 (イ)〜(ケ)、10 keV 陽子の数値条件"
+    },
+    {
+     "page": 10,
+     "box": [
+      74.0,
+      122.0,
+      522.0,
+      466.0
+     ],
+     "label": "電磁気工学1：問 2（記述）と問 3（図 2 の磁気ミラー）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "3 頁にわたり (ア)〜(ケ) の空欄と図 1（磁界と速度成分）・図 2（磁気ミラー）を確認。式(9)〜(12) の数値条件（10 keV、0.1 T→1 T→0.1 T）と頁をまたぐ連続性を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2019-electrical-q4",
+   "number": "電磁気工学2",
+   "title": "電磁気工学2：プラズマ中の電磁波の分散関係と干渉計による密度診断",
+   "titleKind": "editorial",
+   "topics": [
+    "電磁誘導",
+    "アンペールの法則",
+    "線形化",
+    "分散関係",
+    "プラズマ周波数",
+    "干渉計"
+   ],
+   "summary": "問 1 マクスウェル方程式(1)(2)から B を消去した式(3) の空欄 (ア)。問 2 平面波表示(4)〜(6) と線形化した j1(7)（空欄 (イ)）。問 3 電子の運動量保存則(9) から u_e1(10)・j1(11)（空欄 (ウ)(エ)）。問 4 分散関係式の導出（プラズマ周波数 ωp）。問 5 ω-k 分散関係の図示。問 6 干渉計（図）による位相差 Δφ(12) から密度比例を示す。",
+   "regions": [
+    {
+     "page": 12,
+     "box": [
+      76.0,
+      106.0,
+      520.0,
+      730.0
+     ],
+     "label": "電磁気工学2：冒頭の解答用紙指定、問 1〜問 5（式(1)〜(11)、空欄 (ア)〜(エ)）"
+    },
+    {
+     "page": 13,
+     "box": [
+      76.0,
+      122.0,
+      578.0,
+      478.0
+     ],
+     "label": "電磁気工学2：問 6 干渉計の説明・式(12) と干渉計の図"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁で問 1〜問 6 を確認。式(1)〜(12) の番号、空欄 (ア)〜(エ)、問 6 の干渉計図（光源・HM・FM・検出器・プラズマ）と図のキャプションを収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2019-electrical-q5",
+   "number": "量子電子物性1",
+   "title": "量子電子物性1：金属の自由電子（状態密度・電子比熱・ヴィーデマン–フランツ則）",
+   "titleKind": "editorial",
+   "topics": [
+    "自由電子モデル",
+    "フェルミエネルギー",
+    "状態密度",
+    "フェルミ・ディラック分布",
+    "電子比熱",
+    "ヴィーデマン–フランツ則"
+   ],
+   "summary": "金属の自由電子モデルについて、式(1)〜(7) と空欄 ①〜⑩、問 1（空欄 ①〜⑩ の式・数値）、問 2（式(1) の導出）、問 3（図 1-1 のフェルミ分布と接線）、問 4（図 1-2 の状態密度×占有確率）、問 5（フェルミ面・パウリの排他原理をキーワードに 100 字以内で記述）。",
+   "regions": [
+    {
+     "page": 15,
+     "box": [
+      54.0,
+      104.0,
+      520.0,
+      726.0
+     ],
+     "label": "量子電子物性1：冒頭の解答用紙指定、式(1)〜(7) と空欄 ①〜④"
+    },
+    {
+     "page": 16,
+     "box": [
+      76.0,
+      108.0,
+      522.0,
+      714.0
+     ],
+     "label": "量子電子物性1：式(8)〜(12)・空欄 ⑤〜⑩・問 1・問 2"
+    },
+    {
+     "page": 17,
+     "box": [
+      76.0,
+      108.0,
+      522.0,
+      690.0
+     ],
+     "label": "量子電子物性1：問 3（図 1-1）・問 4（図 1-2）・問 5"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "3 頁で空欄 ①〜⑩ と図 1-1（f(ε,T) の階段関数）・図 1-2（状態密度×占有確率）の軸目盛 ε_F±2k_BT を確認。問 5 のキーワード指定も収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2019-electrical-q6",
+   "number": "量子電子物性2",
+   "title": "量子電子物性2：半導体のキャリア密度・ドリフト伝導とホール効果",
+   "titleKind": "editorial",
+   "topics": [
+    "半導体",
+    "真性半導体",
+    "不純物準位",
+    "移動度",
+    "ホール効果",
+    "磁界中の伝導"
+   ],
+   "summary": "半導体に関する長文の空欄 ⑦〜㉚ と式(1)〜(3)、問 1（空欄の語句・数値）、問 2（真性半導体 Si の 300 K/1,000 K の正孔密度）、問 3（ホール効果：(1) ホール抵抗、(2) 端子 1・2 の符号、(3) 磁界中でも σ_xx=σ_0 となる理由を 30 字程度で記述）。図 2-1 は次頁。",
+   "regions": [
+    {
+     "page": 20,
+     "box": [
+      76.0,
+      106.0,
+      520.0,
+      724.0
+     ],
+     "label": "量子電子物性2：冒頭の解答用紙指定、結晶構造・キャリア・不純物の空欄 ⑦〜⑳"
+    },
+    {
+     "page": 21,
+     "box": [
+      76.0,
+      108.0,
+      520.0,
+      734.0
+     ],
+     "label": "量子電子物性2：式(1)〜(3)・空欄 ⑩〜㉔ と問 1〜問 3(1)〜(3)"
+    },
+    {
+     "page": 22,
+     "box": [
+      145.0,
+      112.0,
+      470.0,
+      268.0
+     ],
+     "label": "量子電子物性2：問 3 の図 2-1（試料・端子 1/2・電圧計・J_x と B_z の座標系）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "3 頁で空欄 ⑦〜㉔ と式(1)〜(3)、図 2-1（ホール効果の測定配置）を確認。第 3 頁は図のみのため図 2-1 だけを region とし、頁全体の余白は収録しない。"
+   }
+  },
+  {
+   "id": "osaka-ee-2019-electrical-q7",
+   "number": "量子電子物性3",
+   "title": "量子電子物性3：金属-半導体接触（ショットキー障壁と障壁容量）",
+   "titleKind": "editorial",
+   "topics": [
+    "金属-半導体接触",
+    "仕事関数",
+    "電子親和力",
+    "障壁高さ",
+    "空乏層",
+    "障壁容量",
+    "リチャードソン定数"
+   ],
+   "summary": "金属-半導体接触について、図 3-1（エネルギー帯図）と式(1)〜(4)、n 型・p 型の障壁高さと V_d、熱電子放出モデル（式(5)〜(8)）、図 3-2 と障壁容量（式(9)〜(12)）、問 1〜問 6（空欄 ⑦〜㉞、数値計算を含む）。",
+   "regions": [
+    {
+     "page": 24,
+     "box": [
+      70.0,
+      108.0,
+      534.0,
+      682.0
+     ],
+     "label": "量子電子物性3：冒頭の解答用紙指定、図 3-1 と式(1)〜(4)"
+    },
+    {
+     "page": 25,
+     "box": [
+      76.0,
+      108.0,
+      578.0,
+      712.0
+     ],
+     "label": "量子電子物性3：式(5)〜(8)・図 3-2 と障壁容量の導入"
+    },
+    {
+     "page": 26,
+     "box": [
+      76.0,
+      106.0,
+      530.0,
+      676.0
+     ],
+     "label": "量子電子物性3：式(9)〜(12) と問 1〜問 6"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "3 頁で図 3-1（真空準位・χ_s・φ_s・φ_m・ε_g）と図 3-2（金属/n 型半導体と x=0, W）、式(1)〜(12)、空欄 ⑦〜㉞、問 1〜問 6 を確認。図 3-1 が右余白まで張り出すため右端を 534 pt に拡げた。"
+   }
+  },
+  {
+   "id": "osaka-ee-2019-electrical-q8",
+   "number": "量子電子物性4",
+   "title": "量子電子物性4：誘電体の分極（局所電界・ローレンツモデル・強誘電体）",
+   "titleKind": "editorial",
+   "topics": [
+    "誘電体",
+    "分極率",
+    "局所電界",
+    "クラウジウス–モッソティ",
+    "ローレンツモデル",
+    "強誘電体",
+    "BaTiO3"
+   ],
+   "summary": "[I] 誘電体の分極と局所電界（式(1)〜(4)）、[II] ローレンツモデルの振動子（式(5)〜(10)）と分極 P(ω,t)、[III] 強誘電体 BaTiO3 と相転移。問 1（空欄 ①〜㉔）、問 2（図 4-1 の κ−1 と 1/T）、問 3（図 4-2(a)(b) の分散の概形）、問 4（図 4-3 の κ-T と温度依存性の記述）。",
+   "regions": [
+    {
+     "page": 28,
+     "box": [
+      76.0,
+      106.0,
+      520.0,
+      723.0
+     ],
+     "label": "量子電子物性4：冒頭の解答用紙指定、[I] 式(1)〜(4) と [II] 式(5)"
+    },
+    {
+     "page": 29,
+     "box": [
+      76.0,
+      106.0,
+      552.0,
+      703.0
+     ],
+     "label": "量子電子物性4：式(6)〜(12)・空欄 ⑥〜⑯ と [III]・問 1"
+    },
+    {
+     "page": 30,
+     "box": [
+      48.0,
+      108.0,
+      528.0,
+      704.0
+     ],
+     "label": "量子電子物性4：問 2〜問 4 と図 4-1・図 4-2(a)(b)・図 4-3"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "3 頁で空欄 ①〜㉔ を確認。[III] の BaTiO3 記述、問 2 のグラフ選択（あ）〜（お）、図 4-1・4-2(a)・4-2(b)・4-3 の軸（κ−1、α′、α″、κ、1/T、T_1）を収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2019-electrical-q9",
+   "number": "信号処理",
+   "title": "信号処理：離散時間システムの線形性・時不変性とたたみ込み",
+   "titleKind": "editorial",
+   "topics": [
+    "離散時間システム",
+    "線形性",
+    "時不変性",
+    "インパルス応答",
+    "たたみ込み",
+    "周波数応答",
+    "伝達関数"
+   ],
+   "summary": "離散時間信号処理システム L（式(1)）について、(i) 線形性の定義と具体例、(ii) 時不変性の定義と具体例、(iii) たたみ込み和の導出、(iv) インパルス応答・周波数応答・伝達関数の定義と相互関係。",
+   "regions": [
+    {
+     "page": 32,
+     "box": [
+      76.0,
+      102.0,
+      522.0,
+      446.0
+     ],
+     "label": "信号処理：冒頭の解答用紙指定、式(1) と小問 (i)〜(iv)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で小問 (i)〜(iv) と式(1)・たたみ込み和の式を確認。頁末の語彙対訳表は題目から切り離し、commonRegions に収録。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q1"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q1"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 12,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 13,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 14,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 15,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 16,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 17,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 18,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 19,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 20,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 21,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 22,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 23,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 24,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 25,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 26,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 27,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 28,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q8"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 29,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q8"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 30,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q8"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 31,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 32,
+   "questionIds": [
+    "osaka-ee-2019-electrical-q9"
+   ],
+   "common": true,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

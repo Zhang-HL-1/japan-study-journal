@@ -1,0 +1,450 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2018-kiso",
+ "title": "大阪大学 · 2018 入学年度 · 共通基础科目",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2018",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻（電気工学コース）",
+  "year": 2018,
+  "yearBasis": "academic",
+  "subject": "共通基础科目",
+  "originalSubject": "基礎科目試験問題",
+  "originalName": "共通基础科目.pdf",
+  "pdf": "assets/past-papers/documents/0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9.pdf",
+  "sha256": "0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9",
+  "pageCount": 13,
+  "note": "平成 30（2018）年度入試。原卷封面标「実施時間 9：30～12：30」及コース別選択ルール，未标实施日期，不推断具体考试日。"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    56.0,
+    406.0,
+    550.0,
+    776.0
+   ],
+   "label": "全卷作答说明（注意事項）：問題用紙 12 頁、9 題から 5 題選択、コース別選択ルール（表）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2018-kiso-q1",
+   "number": "数学1",
+   "title": "数学1：行列の固有値分解と A^n",
+   "titleKind": "editorial",
+   "topics": [
+    "固有値",
+    "固有ベクトル",
+    "Jordan 鎖",
+    "行列の累乗"
+   ],
+   "summary": "3 次行列 A の重解を含む固有値・固有ベクトル、一般固有ベクトル v₃、V=(v₁ v₃ v₂) の正則性、上三角行列の n 乗を経て A^n を表す（(a)〜(e)）。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      56.0,
+      78.0,
+      550.0,
+      416.0
+     ],
+     "label": "数学1：解答用紙指定（白色 1 番）、行列 A と (a)〜(e)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で【数学1】見出し・解答用紙指定・(1) の行列 A と (a)〜(e) を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2018-kiso-q2",
+   "number": "数学2",
+   "title": "数学2：線形常微分方程式",
+   "titleKind": "editorial",
+   "topics": [
+    "特性方程式",
+    "重根",
+    "ロンスキー行列式",
+    "オイラー型方程式"
+   ],
+   "summary": "2 階線形常微分方程式の重根の特解 x e^{λ₁x}、(b) ロンスキー行列式による基本解系、(c) オイラー型方程式 x³y'''+2x²y''+3xy'+5y=0 の一般解（(a)〜(c)）。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      56.0,
+      75.5,
+      550.0,
+      362.0
+     ],
+     "label": "数学2：解答用紙指定（赤色 2 番）と (a)〜(c)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で (a)〜(c) の式と条件（実数・重根）を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2018-kiso-q3",
+   "number": "数学3",
+   "title": "数学3：留数定理と実積分",
+   "titleKind": "editorial",
+   "topics": [
+    "複素関数",
+    "留数",
+    "積分路",
+    "実積分"
+   ],
+   "summary": "F_n(z)=1/(z^{2n}+1) の極と留数、留数公式(1) の証明、C_R+Γ 上の経路積分、∫₀^∞ dx/(x^{2n}+1) の計算（(a)〜(e)、図 1）。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      56.0,
+      69.5,
+      550.0,
+      689.5
+     ],
+     "label": "数学3：解答用紙指定（青色 3 番）、(a)〜(e) と図 1"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で式(1)、積分路の図 1（C_R, Γ, R, -R, O）と (e) の実積分まで確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2018-kiso-q4",
+   "number": "数学4",
+   "title": "数学4：フーリエ変換と定積分",
+   "titleKind": "editorial",
+   "topics": [
+    "フーリエ変換",
+    "微積分の性質",
+    "定積分"
+   ],
+   "summary": "フーリエ変換・逆変換の定義、F[f'(x)]=iωF(ω) から G(ω)=F(ω)/(iω) を示す、矩形波 f₁(x) の変換、f₂(x) のグラフ、S=∫₀^∞ sin²x/x² dx（(a)〜(d)）。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      56.0,
+      77.5,
+      550.0,
+      674.5
+     ],
+     "label": "数学4：解答用紙指定（黄色 4 番）と (a)〜(d)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で変換の定義式、(a)〜(d) の式変形と定積分 S を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2018-kiso-q5",
+   "number": "数学5",
+   "title": "数学5：カード選択の期待値と確率",
+   "titleKind": "editorial",
+   "topics": [
+    "期待値",
+    "確率",
+    "組合せ"
+   ],
+   "summary": "N 枚のカードから無作為に k 枚、次に大きい順に ℓ 枚を捨てる操作で、n 以下の番号の枚数の期待値 D_n, R_n と確率 p_n（(a)〜(c)）。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      56.0,
+      68.5,
+      550.0,
+      325.0
+     ],
+     "label": "数学5：解答用紙指定（水色 5 番）と条件・(a)〜(c)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で条件（N≥3, k∈{1..N-2}, ℓ∈{1..N-k-1}）と (a)〜(c) を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2018-kiso-q6",
+   "number": "電磁理論1",
+   "title": "電磁理論1：静電界と電気双極子",
+   "titleKind": "editorial",
+   "topics": [
+    "マクスウェル方程式",
+    "スカラーポテンシャル",
+    "ポアソン方程式",
+    "電気双極子",
+    "球座標"
+   ],
+   "summary": "穴埋め ①〜⑯：[1] 静電界のマクスウェル方程式・ポテンシャル・ポアソン方程式、[2] 図 1 の電気双極子による電位と電界成分、多重極近似。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      56.0,
+      79.0,
+      550.0,
+      751.0
+     ],
+     "label": "電磁理論1：解答用紙指定（桃色 6 番）、空欄①〜⑦ と図 1"
+    },
+    {
+     "page": 8,
+     "box": [
+      56.0,
+      80.0,
+      550.0,
+      654.0
+     ],
+     "label": "電磁理論1：余弦定理・近似・電界成分（空欄⑧〜⑯、式(7)〜(16)）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁で空欄 ①〜⑯ と図 1（点電荷 A,B、r₁,r₂,s,θ、i_r,i_θ,i_φ）を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2018-kiso-q7",
+   "number": "電磁理論2",
+   "title": "電磁理論2：導体中の電子とホール効果",
+   "titleKind": "editorial",
+   "topics": [
+    "ローレンツ力",
+    "オームの法則",
+    "消費電力",
+    "ホール電圧"
+   ],
+   "summary": "穴埋め ①〜⑲：電磁界中の荷電粒子の力、図 1 の直方導体の抵抗とオームの法則、消費電力、磁界印加後の運動方程式とホール電圧。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      56.0,
+      77.0,
+      550.0,
+      755.5
+     ],
+     "label": "電磁理論2：解答用紙指定（緑色 7 番）、空欄①〜⑦ と図 1"
+    },
+    {
+     "page": 10,
+     "box": [
+      56.0,
+      76.5,
+      550.0,
+      507.0
+     ],
+     "label": "電磁理論2：消費電力・磁界印加・ホール電圧（空欄⑧〜⑲、式(8)〜(19)）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁で空欄 ①〜⑲（⑭ は語句選択）と図 1（A〜D 面、座標軸）を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2018-kiso-q8",
+   "number": "電気電子回路1",
+   "title": "電気電子回路1：伝達関数と過渡応答",
+   "titleKind": "editorial",
+   "topics": [
+    "伝達関数",
+    "ボード線図",
+    "正弦波定常状態",
+    "RC/RL 過渡応答"
+   ],
+   "summary": "図 1 の回路（R₁〜R₄, L₁, L₂, C）で、SW 切替に応じた伝達関数・ボード線図の選択・正弦波定常応答・キャパシタ電圧の過渡応答（(1)〜(5)）、図 2 の (a)〜(d)。",
+   "regions": [
+    {
+     "page": 12,
+     "box": [
+      56.0,
+      72.5,
+      550.0,
+      761.0
+     ],
+     "label": "電気電子回路1：解答用紙指定（灰色 8 番）、(1)〜(5)、図 1・図 2、脚注"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で素子定数、図 1 の回路図、図 2 の 4 つのボード線図 (a)〜(d)、脚注 *1〜*4 を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2018-kiso-q9",
+   "number": "電気電子回路2",
+   "title": "電気電子回路2：MOSFET 増幅回路",
+   "titleKind": "editorial",
+   "topics": [
+    "MOSFET",
+    "相互コンダクタンス",
+    "小信号等価回路",
+    "周波数特性"
+   ],
+   "summary": "図 1 の n チャネル MOSFET 増幅回路で、直流動作点・R_S・g_m・小信号等価回路（図 2）・電圧利得と位相・遮断角周波数（(1)〜(6)）。",
+   "regions": [
+    {
+     "page": 13,
+     "box": [
+      56.0,
+      77.0,
+      550.0,
+      754.0
+     ],
+     "label": "電気電子回路2：解答用紙指定（だいだい色 9 番）、(1)〜(6)、図 1・図 2、注と脚注"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1 頁で I_D の式、条件（V_TH=0.5V, β=2mA/V²）、図 1・図 2、注（基準電位）と脚注 *1〜*6 を確認。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q1"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [],
+   "common": false,
+   "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非试题頁のため収録しない。",
+   "reviewed": true
+  },
+  {
+   "page": 12,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q8"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 13,
+   "questionIds": [
+    "osaka-ee-2018-kiso-q9"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

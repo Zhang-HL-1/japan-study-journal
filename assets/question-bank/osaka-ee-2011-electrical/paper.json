@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2011-electrical",
+  "title": "大阪大学 · 2011 入学年度 · 专门科目（系统・控制・电力工学课程）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2011",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2011,
+    "yearBasis": "academic",
+    "subject": "专门科目（电气工学）",
+    "originalSubject": "専門科目試験問題（システム・制御・電力工学コース）",
+    "originalName": "专业_电气工学.pdf",
+    "pdf": "assets/past-papers/documents/97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010.pdf",
+    "sha256": "97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010",
+    "pageCount": 8,
+    "note": "平成23年度（2011 入学年度）。原卷封面只标実施時間 14:00〜16:00，未标実施日，故不推断具体考试日。全 6 題（制御工学１/２、パワーエレクトロニクスと電気機器、データ構造とアルゴリズム、論理回路と計算機システム、信号処理）から「制御工学１」または「制御工学２」を 1 題以上含めて 3 題選択。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2011-electrical/common-01.png",
+      "page": 1,
+      "box": [
+        94,
+        124,
+        520,
+        386
+      ],
+      "width": 1278,
+      "height": 786,
+      "label": "卷头：平成23年度大学院博士前期課程入学試験・大阪大学大学院工学研究科 電気電子情報工学専攻「専門科目試験問題（システム・制御・電力工学コース）」・実施時間 14:00–16:00",
+      "sha256": "cd0b0a73b501745fd7392bbf56ecc0783938b91c7069710610466bfa3efb85a7"
+    },
+    {
+      "src": "assets/question-bank/osaka-ee-2011-electrical/common-02.png",
+      "page": 1,
+      "box": [
+        61,
+        482,
+        548,
+        678
+      ],
+      "width": 1461,
+      "height": 588,
+      "label": "注意事項 1〜4：問題用紙 7 頁・全 6 題の科目名と綴じ順・「制御工学１」または「制御工学２」を 1 題以上含めて 3 題選択・選択票・持ち帰り可",
+      "sha256": "ab54840af578142087072e2903a34e122eeb870ec9bcff98bedf1f205cb9347a"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2011-electrical-q1",
+      "number": "制御工学１",
+      "title": "反馈系统的传递函数、稳定性与阶跃响应",
+      "titleKind": "editorial",
+      "topics": [
+        "方块线图",
+        "传递函数",
+        "稳定性条件",
+        "阶跃响应单调性",
+        "单位冲激响应",
+        "等效系统",
+        "周波数応答",
+        "根軌跡"
+      ],
+      "summary": "以图1的反馈系统（1/(s+a)、K2/(s+b)、内环 K1）为题，含 (i) 传递函数、(ii) 稳定必要充分条件、(iii) 阶跃响应单调增加的条件、(iv) K1=1,K2=2,a=1,b=3 时的单位冲激响应与波形概形、(v) 与图2(a)–(d) 中哪一个系统等价；末段 2. 为「周波数応答」「根軌跡」的名词简答。图1、图2 及其图号一并保留，不拆小问。中文标题与概述仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【制御工学１】見出し与水色の解答用紙指定行、(i)〜(v) 全部小问、図1 的 R(s)/C(s)、1/(s+a)、K2/(s+b)、K1 内环与图号，図2 的 (a)(b)(c)(d) 四张框图与图号；页脚页码「1」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-electrical/osaka-ee-2011-electrical-q1-01.png",
+          "page": 2,
+          "box": [
+            47,
+            64,
+            532,
+            762
+          ],
+          "width": 1455,
+          "height": 2094,
+          "label": "制御工学１：解答用紙（水色）指定行、1. 的 (i)〜(v)、図1 反馈框图、図2(a)–(d) 四种系统、2.(a)(b) 名词简答",
+          "sha256": "89fd9276aa093e976867de48016763cfa6f501d4f14781ec10a6ba2f2b33b443"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-electrical-q2",
+      "number": "制御工学２",
+      "title": "状态方程的可控性可观性、状态反馈极点配置与波特图",
+      "titleKind": "editorial",
+      "topics": [
+        "状态方程式",
+        "可控制性",
+        "可观测性",
+        "零输入响应条件",
+        "状态反馈",
+        "极点配置",
+        "正则行列",
+        "Bode 线图",
+        "折点角周波数"
+      ],
+      "summary": "1. 给定 A=[[4,-2],[-3,-1]]、b=[1,-1]^T、c=[1 2]，含 (i) 可控性/可观性判定及理由、(ii) u(t)=0 时 y(t)≡0 的初期状态必要充分条件、(iii) u=-k1x1-k2x2 使极点为 -2±j3 的 k1,k2、(iv) 用正则行列 T 作 z=Tx 变换后的 Ã、b̃；2. 对 G(s)=20s(s+10)/((s+2)(s+4)(s+5)^2) 作 Bode 线图，含 (i) 折线近似与折点角周波及斜率、(ii) ω→0/ω→∞ 的相位渐近值。不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【制御工学２】見出しと桃色の解答用紙指定行、状态方程式的矩阵与向量（含转置、上下标）、lim 记号与 ∠G(jω)、2. 的传递函数分母 (s+5)^2；公式微分 dx(t)/dt 完整、无切字；页脚页码「2」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-electrical/osaka-ee-2011-electrical-q2-01.png",
+          "page": 3,
+          "box": [
+            62,
+            64,
+            533,
+            716
+          ],
+          "width": 1413,
+          "height": 1956,
+          "label": "制御工学２：解答用紙（桃色）指定行、1. 的状态方程与 A,b,c、矩阵与向量式、(i)〜(iv)、2. 的 G(s) 与 (i)(ii)",
+          "sha256": "3499fe4db31a28b8f8580236847db9ecef27ce8990a91205a27bbb97701db080"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-electrical-q3",
+      "number": "パワーエレクトロニクスと電気機器",
+      "title": "单相桥式整流电路与三相感应电动机等效电路",
+      "titleKind": "editorial",
+      "topics": [
+        "サイリスタ",
+        "単相ブリッジ回路",
+        "制御角 α",
+        "負荷電圧平均値",
+        "転流リアクタンス",
+        "ダイオード",
+        "三相かご形誘導電動機",
+        "等価回路",
+        "すべり",
+        "トルク"
+      ],
+      "summary": "1. 以图1的晶闸管单相桥式整流电路为题，含 (i) Xs 可忽略时的负载电压波形与平均值 Vd–α 关系、(ii) Xs 不可忽略时的波形与 Vd、(iii) 图2 部分晶闸管换为二极管后的波形、各元件电流与 Vd；2. 以图3的三相笼型感应电动机一相等效电路为题，含 (i) 转差 s、(ii) 负载电流、(iii) 三相转矩 T、(iv) 最大转矩时的 s_t、(v) 转矩–速度曲线与运行点 A。三张图与图号一并保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【パワーエレクトロニクスと電気機器】見出しと白色の解答用紙指定行、図1/図2 桥式电路（T1–T4、D1・D2、Xs、L、R、Id、vd）与图号、2. 的一次/二次换算阻抗标记 r1,x1,r2',x2' 与图3 的 Ŷ0、r2'/s；图与图号完整、无切字；页脚页码「3」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-electrical/osaka-ee-2011-electrical-q3-01.png",
+          "page": 4,
+          "box": [
+            44,
+            69,
+            552,
+            758
+          ],
+          "width": 1524,
+          "height": 2067,
+          "label": "パワーエレクトロニクスと電気機器：解答用紙（白色）指定行、1. 的 (i)〜(iii) 与図1・図2 电路图、2. 的 (i)〜(v) 与図3 等效电路及各图号",
+          "sha256": "507b82068a91a25cd7d2d947e4093ee65ab8beea304da4a1e32b14a49900fe58"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-electrical-q4",
+      "number": "データ構造とアルゴリズム",
+      "title": "快速排序程序填空与二分搜索树",
+      "titleKind": "editorial",
+      "topics": [
+        "クイックソート",
+        "再帰アルゴリズム",
+        "プログラム穴埋め",
+        "時間計算量",
+        "二分探索木",
+        "幅優先探索",
+        "深さ優先探索",
+        "走査順"
+      ],
+      "summary": "1. 以〈プログラムＡ〉（qsort，含【１】〜【４】空欄与 <a>〜<d> 注释）为题，含 (i) 递归算法说明、(ii) 填空完成程序、(iii) 补全图1 的排序过程（含 pivot 圈选与「終端」标注）、(iv) 平均与最坏时间计算量的数量级及其根据；2. 关于二分搜索树，含 (i) 二分探索木的条件、(ii) 1〜7 的最小高度树、(iii) 图2 的广度优先与深度优先（前序/中序/后序）走查顺序。图1、图2 完整保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【データ構造とアルゴリズム】見出しと灰色の解答用紙指定行、〈プログラムＡ〉的 while/if/【 】/<a>〜<d> 注释逐行完整、図1 的 11 个数组状态与虚线空欄框、2. 的 (i)〜(iii) 与図2 的 9/5/12/4/7/10/14/1/6/8 节点；两端跨页题用同题两 region。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-electrical/osaka-ee-2011-electrical-q4-01.png",
+          "page": 5,
+          "box": [
+            61,
+            105,
+            537,
+            717
+          ],
+          "width": 1428,
+          "height": 1836,
+          "label": "データ構造とアルゴリズム：解答用紙（灰色）指定行、1. 的题干、〈プログラムＡ〉全文（含【１】〜【４】与 <a>〜<d>）、(i)〜(iv)",
+          "sha256": "d9e5647a3fe1f5ba882a1f36f2782712b0fd664d70c749b3b0e5eff7867e5fb8"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2011-electrical/osaka-ee-2011-electrical-q4-02.png",
+          "page": 6,
+          "box": [
+            68,
+            109,
+            530,
+            728
+          ],
+          "width": 1386,
+          "height": 1857,
+          "label": "データ構造とアルゴリズム（続き）：図1 排序过程全图与图号、2. 二分探索木的 (i)〜(iii)、図2 树形图与图号",
+          "sha256": "319ab11679371ba0e799db74a0c5027a48c65f50764003c987a964537b85f9c7"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-electrical-q5",
+      "number": "論理回路と計算システム",
+      "title": "多路选择器、数值比较器与七段显示译码",
+      "titleKind": "editorial",
+      "topics": [
+        "セレクタ",
+        "マルチプレクサ",
+        "真理値表",
+        "最小積和形",
+        "比較器",
+        "NAND",
+        "ポインティング",
+        "7 セグメント表示",
+        "表示器"
+      ],
+      "summary": "以图1–图4 为题，含 (i) 1 位选择器（MUX）的回路图与门数限制、(ii) n 位比较器的 1 位比较器真值表与最小积和形逻辑式、(iii) NOT/NAND 实现比较器电路、(iv) 用 (i)(iii) 的符号构成 4 位比较器并说明 c0、(v) 把 0–9 的 4 位输出接到图3 的 a〜g 七段显示（图4 为 0–9 的段码），求 a 段的真值表、最小积和形与电路（门输入数 ≤4）。四张图与图号一并保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【論理回路と計算機システム】見出しと橙色の解答用紙指定行、(i)〜(v) 全部小问与下位/最上位比较结果 c_i,c_n 的上下标、図1〜図4 四张图的实心段与 a〜g 边名、各图号；图未切、无串题；页脚页码「6」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-electrical/osaka-ee-2011-electrical-q5-01.png",
+          "page": 7,
+          "box": [
+            46,
+            69,
+            548,
+            766
+          ],
+          "width": 1506,
+          "height": 2091,
+          "label": "論理回路と計算システム：解答用紙（橙色）指定行、(i)〜(v) 全小问、図1 选择器符号、図2 比较器符号、図3 七段边名、図4 十种段码与各图号",
+          "sha256": "d38ea6824a7938481900734fc53970c343403779aafa7072a7d24085ba6b0f43"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2011-electrical-q6",
+      "number": "信号処理",
+      "title": "周期脉冲列的傅里叶级数与频谱、离散系统响应与 A/D 变换",
+      "titleKind": "editorial",
+      "topics": [
+        "方形波パルス",
+        "フーリエ級数",
+        "スペクトル",
+        "自己相関関数",
+        "インパルス応答",
+        "振幅特性",
+        "位相特性",
+        "A/D 変換",
+        "標本化",
+        "量子化",
+        "符号化"
+      ],
+      "summary": "1. 对图1的方形脉冲周期列，含 (i) 傅里叶级数展开、(ii) T→∞、A=1/d 时的频谱 X(ω) 与自相关函数 Rxx(τ)、(iii) 再取 d→0 时的频谱；2. h(t)=δ(t)−δ(t−T) 的系统，含 (i) 输入三个 δ 之和时的输出、(ii) 振幅（增益）特性与相位特性；3. 说明 A/D 变换的标样化、量子化、符号化三个操作。图1 与图号一并保留，不拆小问。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page render",
+        "date": "2026-11-03",
+        "notes": "核对【信号処理】見出しと緑色の解答用紙指定行、図1 的坐标轴与 A・−T・−d/2・d/2・T 标注及图号、各式（δ(t)、Dirac、Rxx(τ)、X(ω)）与上下标、2. 与 3. 的小问完整；页脚页码「7」未入框。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2011-electrical/osaka-ee-2011-electrical-q6-01.png",
+          "page": 8,
+          "box": [
+            44,
+            69,
+            552,
+            761
+          ],
+          "width": 1524,
+          "height": 2076,
+          "label": "信号処理：解答用紙（緑色）指定行、1. 的题干与図1 脉冲列波形（x(t)、A、−T、−d/2、d/2、T）、(i)〜(iii)、2. 的 (i)(ii)、3. 的 A/D 变换说明题",
+          "sha256": "90cdd3dcde7bab5b4a8375f63718fd005925ed6d29ce32826d9ff12e378bba42"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "reviewed": true,
+      "excluded": "表紙（卷头与注意事項），已作 commonRegions 保留；无题目主体。"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2011-electrical-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2011-electrical-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2011-electrical-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2011-electrical-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2011-electrical-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2011-electrical-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2011-electrical-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": "页眉（【科目】見出しは题目として region に含む）・页脚页码・页边空白のみ。"
+    }
+  ]
+}

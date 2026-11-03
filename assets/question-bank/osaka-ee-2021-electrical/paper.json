@@ -1,0 +1,684 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2021-electrical",
+  "title": "大阪大学 · 2021 入学年度 · 专门科目（电气工学课程）",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2021",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻（電気工学コース）",
+    "year": 2021,
+    "yearBasis": "academic",
+    "subject": "专门科目（电气工学）",
+    "originalSubject": "専門科目試験問題（電気工学コース）",
+    "originalName": "专业_电气工学.pdf",
+    "pdf": "assets/past-papers/documents/a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929.pdf",
+    "sha256": "a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929",
+    "pageCount": 26,
+    "note": "2021 年度（令和 3 年度）入試。原卷封面标「2021 年度大学院博士前期課程入学試験／大阪大学大学院工学研究科 電気電子情報工学専攻」、「専門科目試験問題（電気工学コース）」、「実施時間 14:00〜16:00」、全 4 分野（①制御工学 ②電磁気工学 ③量子電子物性1〜4 ④信号処理）7 題から「2 分野以上 3 題を選択」。封面未标实施日期，不推断具体考试日。原文件名「专业_电气工学.pdf」为整理标签，选答范围以卷面为准。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2021-electrical/common-01.png",
+      "page": 1,
+      "box": [
+        59,
+        122,
+        550,
+        692
+      ],
+      "width": 1473,
+      "height": 1710,
+      "label": "全卷共通：2021 年度表紙（専攻名・専門科目試験問題（電気工学コース）・実施時間 14:00〜16:00）と注意事項（4 分野 7 題の構成、2 分野以上 3 題の選択ルール、問題用紙 25 頁）",
+      "sha256": "338e4e4dfb3070c0aa19a3ebfbd3af9768c5d0f7824f4890ed242ae69311901f"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2021-electrical-q1",
+      "number": "制御工学",
+      "title": "制御工学：フィードバック系の安定条件・定常偏差・状態空間表現",
+      "titleKind": "editorial",
+      "topics": [
+        "伝達関数",
+        "インパルス応答",
+        "安定条件",
+        "定常偏差",
+        "位相余裕・ゲイン余裕",
+        "状態方程式",
+        "可観測性",
+        "状態フィードバック",
+        "極配置"
+      ],
+      "summary": "問1 フィードバック系（図1、K(s)=k/s、P(s)=10/((s+1)(s+10))）のインパルス応答・安定条件・ランプ入力の定常偏差・位相－180°の角周波数・ゲイン余裕20 dB となる k。問2 連立2階微分方程式で表される1入力2出力系の状態方程式／出力方程式（A, b, C）と可観測性行列・判定。問3 2次状態方程式に状態フィードバックを施したときの x1(t), x2(t) と、極が異なる2実根となる k の必要十分条件。小問は分割せず「制御工学」1題として収録。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第1頁で【制御工学】見出し・「以下の問1〜問3に答えよ」・解答用紙指定・問1 (i)〜(v) と図1 のブロック線図を、第2頁で問2 (i)(ii)・問3 (i)(ii) の全体を確認。数式の行列・ベクトル表記を欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q1-01.png",
+          "page": 2,
+          "box": [
+            60,
+            62,
+            542,
+            550
+          ],
+          "width": 1446,
+          "height": 1464,
+          "label": "制御工学：分野見出し・解答用紙指定（白色1番）・以下の問1～問3・問1 フィードバック系（図1）の (i)〜(v)",
+          "sha256": "f3098042eebcec02aa011285f8d28b5261475eb6d3b89b51e7fce469fec7f0de"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q1-02.png",
+          "page": 3,
+          "box": [
+            60,
+            62,
+            542,
+            686
+          ],
+          "width": 1446,
+          "height": 1872,
+          "label": "制御工学：問2 状態方程式と可観測性、問3 状態フィードバックと極配置（前頁からの続き）",
+          "sha256": "7550f6dc0fb01f818bbfc96861e7a466dbb58d277eacbabbf5d91adcf14dc933"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-electrical-q2",
+      "number": "電磁気工学",
+      "title": "電磁気工学：磁場中の荷電粒子の電場・分極ドリフトとプラズマ",
+      "titleKind": "editorial",
+      "topics": [
+        "ローレンツ力",
+        "サイクロトロン周波数",
+        "電場ドリフト",
+        "分極ドリフト",
+        "E×B ドリフト",
+        "プラズマ"
+      ],
+      "summary": "問1 電場 E と磁束密度 B 中の荷電粒子の運動方程式から、空欄（ア）〜（ケ）に文字式・語句を補い、電場ドリフト速度・サイクロトロン周波数・分極ドリフト（式(1)〜(12)）、さらに時間変化する電場に対する解を導く。問2 平行平板電極中のプラズマに時間変化電場と静磁場を印加した実験装置（図2）で、電場ドリフトと分極ドリフトがイオン・電子に及ぼす作用を100〜200字で説明。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第1頁で【電磁気工学】見出し・解答用紙指定・問1 の（ア）〜（ケ）を、第2頁で式(9)〜(12) と問2 の全体を確認。図1（直交座標系）・図2（実験装置）と式番号(1)〜(12)が揃っている。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q2-01.png",
+          "page": 5,
+          "box": [
+            56,
+            97,
+            542,
+            760
+          ],
+          "width": 1458,
+          "height": 1989,
+          "label": "電磁気工学：分野見出し・解答用紙指定（黄色2番）・問1 の空欄（ア）〜（ケ）（式(1)〜(8)）",
+          "sha256": "5b4b1f5149457a2fa81c3eae0938db25994a101ead48dbd7c5d5c29a8f77e71b"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q2-02.png",
+          "page": 6,
+          "box": [
+            56,
+            97,
+            540,
+            642
+          ],
+          "width": 1452,
+          "height": 1635,
+          "label": "電磁気工学：問1 の続き（式(9)〜(12)）・問2 プラズマ実験装置（図2）の記述説明",
+          "sha256": "f0b2e8a94ee6b783313897ba7723b795cd10e62af150d5b4a851603137fa9e2f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-electrical-q3",
+      "number": "量子電子物性１",
+      "title": "量子電子物性1：自由電子モデル・フェルミエネルギー・黒体輻射",
+      "titleKind": "editorial",
+      "topics": [
+        "シュレーディンガー方程式",
+        "自由電子モデル",
+        "状態密度",
+        "フェルミエネルギー",
+        "フェルミ速度・フェルミ温度",
+        "黒体輻射",
+        "プランクの輻射公式"
+      ],
+      "summary": "自由電子モデルと黒体輻射。本文（2頁）中の空欄［①］〜［⑫］に数式を補い、問1 空欄の解答、問2 (1) 電子密度 6.4×10^28 m^-3 の金属のフェルミエネルギーを有効数字1桁の電子ボルト単位で求め、室温（300 K）の熱エネルギーとの比、および (2) 自由電子の熱容量への寄与が古典予想より2桁小さい理由を電子の統計的性質と (1) の結果から説明、問3 図1-1 の（あ）〜（え）を光子・電子・中性子の波長とエネルギーの関係および無関係なデータに同定し理由を述べる、問4 図1-2 の（あ）〜（う）から最高温のスペクトルと太陽光に最も近いスペクトルを選ぶ。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3頁にわたり本文→設問を確認。空欄［①］〜［⑫］の番号、式(1)〜(13)、図1-1・図1-2 とその図中記号（あ）〜（え）／（あ）〜（う）を欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q3-01.png",
+          "page": 8,
+          "box": [
+            44,
+            68,
+            548,
+            770
+          ],
+          "width": 1512,
+          "height": 2106,
+          "label": "量子電子物性１：分野見出し・解答用紙指定（桃色3番）・シュレーディンガー方程式から状態数［①］〜［⑥］まで",
+          "sha256": "75a399408b56e973d0f9b2476c32dc427d7866dbaa902e0bcc14dc68d5553c8c"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q3-02.png",
+          "page": 9,
+          "box": [
+            48,
+            70,
+            548,
+            764
+          ],
+          "width": 1500,
+          "height": 2082,
+          "label": "量子電子物性１：本文の続き（フェルミエネルギー［⑦］〜黒体輻射［⑫］、式(7)〜(12)）",
+          "sha256": "ada71fb3ee3120228fca62ae1604f4be744d1783dfb8aa8a67b74d4fcf4efe36"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q3-03.png",
+          "page": 10,
+          "box": [
+            48,
+            71,
+            544,
+            698
+          ],
+          "width": 1488,
+          "height": 1881,
+          "label": "量子電子物性１：設問 (1)(2)・図1-1（波長とエネルギー）・図1-2（黒体輻射スペクトル）",
+          "sha256": "50c3d3d321f8976abd73637990c5e40779ade41e707fba896e76e5bc523db022"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-electrical-q4",
+      "number": "量子電子物性２",
+      "title": "量子電子物性2：半導体のバンド構造・キャリア密度・ドナー準位",
+      "titleKind": "editorial",
+      "topics": [
+        "結晶構造",
+        "ブリルアン領域",
+        "混成軌道",
+        "真性半導体",
+        "キャリア密度",
+        "フェルミ準位",
+        "ドナー",
+        "電荷中性条件",
+        "温度領域（飽和・中間・凍結）"
+      ],
+      "summary": "半導体のバンド構造とキャリア密度。本文（2頁）の空欄［㋐］〜［㋙］（語句・選択）と［①］〜［⑮］（数式・関係式）を補い、問1 語句、問2 数式、問3 下線1（面心立方格子の第一ブリルアン領域を図2-1 の (a)〜(d) から選択）、問4 下線2（2種類の半導体の名称と、縦軸エネルギー・横軸波数のバンド構造概略図）、問5 図2-2 を転記し n 型半導体の ln(n)–1/T 温度依存性を高温・中間・低温領域の傾きの違いが分かるように描く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3頁にわたり本文→設問を確認。空欄［㋐］〜［㋙］・［①］〜［⑮］の番号、式(1)〜(9)、図2-1 (a)〜(d) と図2-2 のグラフ枠を欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q4-01.png",
+          "page": 12,
+          "box": [
+            44,
+            68,
+            550,
+            758
+          ],
+          "width": 1518,
+          "height": 2070,
+          "label": "量子電子物性２：分野見出し・解答用紙指定（緑色4番）・バンド構造とキャリア密度［㋐］〜［⑥］",
+          "sha256": "38a17820747034d000e8086e4f4d3353f785e597316503e2f461564b4dbd9f67"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q4-02.png",
+          "page": 13,
+          "box": [
+            48,
+            72,
+            548,
+            727
+          ],
+          "width": 1500,
+          "height": 1965,
+          "label": "量子電子物性２：本文の続き（ドナー・電荷中性条件・高温/中間/低温領域、［⑦］〜［⑮］）",
+          "sha256": "47d0f355349ccc8940e1e69bf88476e129e6640b92c706fdf6852549b0ea3df1"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q4-03.png",
+          "page": 14,
+          "box": [
+            48,
+            71,
+            554,
+            725
+          ],
+          "width": 1518,
+          "height": 1962,
+          "label": "量子電子物性２：設問（下線1・下線2・図2-2 の転記）・図2-1・図2-2",
+          "sha256": "74315e4e38943d9b1a9ef25103ae0277593f707945270bb8e2a7db2c6a622604"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-electrical-q5",
+      "number": "量子電子物性３",
+      "title": "量子電子物性3：磁性・常磁性・磁化率と有効ボーア磁子",
+      "titleKind": "editorial",
+      "topics": [
+        "磁気モーメント",
+        "パウリの排他原理",
+        "フントの規則",
+        "ゼーマン分裂",
+        "キュリーの法則",
+        "ランデのg因子",
+        "パウリ常磁性",
+        "反磁性"
+      ],
+      "summary": "磁性と磁化率。本文（2頁）の空欄［㋐］〜［㋗］（語句・選択）と［①］〜［⑫］（数式・数値）を補い、問1 語句、問2 数式、問3 下線1 で (1) Gd3+ イオン（4f7）の基底状態の J と有効ボーア磁子数 p、(2) Cr3+ イオン（3d3）の実測値 3.7 が p=g_J√(J(J+1)) と一致しない現象の名称、問4 下線2（パウリ常磁性の磁化率が常磁性絶縁体で観測される磁化率より小さい理由）、問5 (1) 室温で常磁性を示す物質とその磁化率の温度依存性グラフ（図3-1 (あ)〜(お)）の選択、(2) 室温で反磁性を示す物質と下線3 の物質が反磁性を示す理由。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3頁にわたり本文→設問を確認。空欄［㋐］〜［㋕］・［①］〜［⑫］、式(1)〜(8)、図3-1 の5つのグラフと物質リストを欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q5-01.png",
+          "page": 16,
+          "box": [
+            44,
+            68,
+            548,
+            751
+          ],
+          "width": 1512,
+          "height": 2049,
+          "label": "量子電子物性３：分野見出し・解答用紙指定（灰色5番）・磁気モーメントと磁化［㋐］〜［⑩］",
+          "sha256": "16630dea8e5d4388b43976ff90ac3d421e1660aa3915beba26751b9b4b4720ae"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q5-02.png",
+          "page": 17,
+          "box": [
+            48,
+            72,
+            549,
+            527
+          ],
+          "width": 1503,
+          "height": 1365,
+          "label": "量子電子物性３：本文の続き（一般の J の場合・希土類・パウリ常磁性・反磁性、［⑪］［⑫］）",
+          "sha256": "6a15c28ea86451ce12be179ee5708c3e6fc605ccd0ebc43b6b3c69f0a22b9810"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q5-03.png",
+          "page": 18,
+          "box": [
+            48,
+            71,
+            548,
+            651
+          ],
+          "width": 1500,
+          "height": 1740,
+          "label": "量子電子物性３：設問（下線1・下線2・常磁性/反磁性物質の選択）・図3-1（あ）〜（お）",
+          "sha256": "1b3d5e53bd7ffb135b0fb87bde34e0eeaa004a6aad252133e0c2b116cae6cddb"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-electrical-q6",
+      "number": "量子電子物性４",
+      "title": "量子電子物性4：MOSFET の蓄積・空乏・反転としきい電圧",
+      "titleKind": "editorial",
+      "topics": [
+        "MOS構造",
+        "蓄積・空乏・反転",
+        "しきい電圧",
+        "ポアソン方程式",
+        "空乏層幅",
+        "チャネル長変調",
+        "ピンチオフ",
+        "飽和領域"
+      ],
+      "summary": "MOS 構造と MOSFET。本文（4頁）の空欄［㋐］〜［㋕］（語句・選択）と［①］〜［⑫］（数式）を補い、問1 語句、問2 数式、問3 下線1（ゲート金属の仕事関数が p 型半導体より小さいとき、しきい電圧 V_T が式(8)と比べてどうなるか理由込みで100字程度）、問4 下線2（蓄積状態では界面付近に多数のキャリアがあるのにドレイン電圧を印加しても電流がほとんど流れない理由、100字程度）、問5 図4-2 を転記し飽和領域の I_D–V_G 特性の概形を V_T の位置を明示して描く（弱い反転状態の電流は無視）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "4頁にわたり本文→設問を確認。空欄［㋐］〜［㋕］・［①］〜［⑫］、式(1)〜(14)、図4-1(a)(b)・図4-2 を欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q6-01.png",
+          "page": 20,
+          "box": [
+            44,
+            68,
+            549,
+            759
+          ],
+          "width": 1515,
+          "height": 2073,
+          "label": "量子電子物性４：分野見出し・解答用紙指定（青色6番）・MOS 構造と蓄積/空乏/反転［㋐］〜［㋒］・図4-1",
+          "sha256": "da608364dba76c03fadcd1426774fc81edb209d24c3eff65c34df52b09728b48"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q6-02.png",
+          "page": 21,
+          "box": [
+            48,
+            72,
+            548,
+            771
+          ],
+          "width": 1500,
+          "height": 2097,
+          "label": "量子電子物性４：ポアソン方程式からしきい電圧・反転層電荷［①］〜［⑦］",
+          "sha256": "5d46f2d41531816c0b255ac671173c184927136d62c36d7f340c58313b91bcc5"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q6-03.png",
+          "page": 22,
+          "box": [
+            48,
+            72,
+            548,
+            759
+          ],
+          "width": 1500,
+          "height": 2061,
+          "label": "量子電子物性４：ドレイン電流の3つの領域（式(10)〜(14)）・ピンチオフ［㋓］",
+          "sha256": "40917a4c6e2f1a8796b940d6d05683d14a2bd50e8608c54edc6dd3c59b68d74d"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q6-04.png",
+          "page": 23,
+          "box": [
+            48,
+            72,
+            547,
+            709
+          ],
+          "width": 1497,
+          "height": 1911,
+          "label": "量子電子物性４：設問（空欄・下線1・下線2・図4-2 の転記）・図4-2",
+          "sha256": "311b11cede0d17657e8e8fe52ce7ea612ef29a905316562463e46835c7245871"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2021-electrical-q7",
+      "number": "信号処理",
+      "title": "信号処理：LTI システムの縦続接続と畳込み積分",
+      "titleKind": "editorial",
+      "topics": [
+        "BIBO安定",
+        "インパルス応答",
+        "畳込み",
+        "z変換",
+        "伝達関数",
+        "畳込み積分"
+      ],
+      "summary": "1. 線形時不変システム L1, L2 を縦続接続した L3（図1）について、(i) BIBO 安定の必要十分条件、(ii) h3[n] の表式、(iii) h1, h2 が条件を満たせば h3 も満たすことの証明、(iv) 差分方程式 y[n]=x[n]−x[n−1] と y[n]=x[n]+x[n−1]−y[n−2] の縦続の伝達関数 H3(z)。2. 地点A の信号 x(t) がインパルス応答 y(t) で地点B へ伝播するときの、(i) 立ち上がりの到達時刻、(ii) 畳込み積分式、(iii) 振幅最大時刻、(iv) z(t) の多項式表現。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁で【信号処理】見出し・解答用紙指定・1. (i)〜(iv)・図1（L1, L2, L3 の縦続）・2. (i)〜(iv) の区分関数 x(t), y(t) まで全て確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2021-electrical/osaka-ee-2021-electrical-q7-01.png",
+          "page": 25,
+          "box": [
+            56,
+            65,
+            548,
+            739
+          ],
+          "width": 1476,
+          "height": 2022,
+          "label": "信号処理：分野見出し・解答用紙指定（だいだい色）・1. 縦続接続（図1）と 2. 畳込み積分の全小問",
+          "sha256": "85fbee9d47cf5ca12a4348edfb3f175a928c7015e90daf991c7c45319a360b4b"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面（年度・専攻・専門科目試験問題（電気工学コース）・実施時間）と注意事項（4分野7題・2分野以上3題選択）を commonRegions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q1"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q1"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非試题頁のため収録しない。専門用語の英訳（制御工学）の語彙対訳表。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q2"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q2"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非試题頁のため収録しない。専門用語の英訳（電磁気工学）の語彙対訳表。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q3"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非試题頁のため収録しない。量子電子物性１ 単語の英訳（語彙対訳表）。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q4"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非試题頁のため収録しない。量子電子物性２ 単語の英訳（語彙対訳表）。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q5"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非試题頁のため収録しない。量子電子物性３ 単語の英訳（語彙対訳表）。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 22,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 23,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q6"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 24,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非試题頁のため収録しない。量子電子物性４ 単語の英訳（語彙対訳表）。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    },
+    {
+      "page": 25,
+      "questionIds": [
+        "osaka-ee-2021-electrical-q7"
+      ],
+      "common": false,
+      "excluded": "裁去頁眉・頁脚頁碼与扫描空白边；本頁の題目内容は全て regions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 26,
+      "questionIds": [],
+      "common": false,
+      "excluded": "専門用語の英訳（語彙対訳表）の参考頁。原卷付属資料で非試题頁のため収録しない。専門用語の英訳（信号処理）の語彙対訳表。原卷付属資料で非試题頁のため収録しない。",
+      "reviewed": true
+    }
+  ]
+}
