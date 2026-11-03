@@ -77,9 +77,10 @@
   }
   function options(id, values, current, empty) {
     const select = get(id);
-    select.replaceChildren(option('all', values.length ? '全部' : empty), ...values.map(value => option(value, value)));
-    select.disabled = !values.length;
-    select.value = values.includes(current) ? current : 'all';
+    const retained = current !== 'all' && !values.includes(current);
+    select.replaceChildren(option('all', values.length || retained ? '全部' : empty), ...values.map(value => option(value, value)), ...(retained ? [option(current, current + '（当前入试类型暂无对应选项）')] : []));
+    select.disabled = !values.length && !retained;
+    select.value = values.includes(current) || retained ? current : 'all';
     return select.value;
   }
   function updateOptions() {
@@ -254,7 +255,7 @@
   }
   function setSchool(id) { state.universityId = id; state.graduateSchool = 'all'; state.department = 'all'; state.course = 'all'; state.entryYear = 'all'; render(); }
   document.querySelectorAll('[data-university]').forEach(button => button.addEventListener('click', () => setSchool(button.dataset.university)));
-  document.querySelectorAll('[data-admission]').forEach(button => button.addEventListener('click', () => { state.admissionType = button.dataset.admission; state.graduateSchool = 'all'; state.department = 'all'; state.course = 'all'; state.entryYear = 'all'; render(); }));
+  document.querySelectorAll('[data-admission]').forEach(button => button.addEventListener('click', () => { state.admissionType = button.dataset.admission; render(); }));
   get('scope-school').addEventListener('change', event => setSchool(event.target.value));
   get('scope-graduate').addEventListener('change', event => { state.graduateSchool = event.target.value; state.department = 'all'; state.course = 'all'; state.entryYear = 'all'; render(); });
   get('scope-department').addEventListener('change', event => { state.department = event.target.value; state.course = 'all'; state.entryYear = 'all'; render(); });
