@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2008-math",
+  "title": "大阪大学 · 2008 入学年度 · 前身科目：数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2008",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2008,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：数学）",
+    "originalSubject": "数学",
+    "originalName": "数学.pdf",
+    "pdf": "assets/past-papers/documents/b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a.pdf",
+    "sha256": "b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a",
+    "pageCount": 6,
+    "note": "「2008 年度入学試験（実施年 2007）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2008-math/common-01.png",
+      "page": 1,
+      "box": [
+        64.0,
+        360.0,
+        458.0,
+        666.0
+      ],
+      "width": 1182,
+      "height": 918,
+      "label": "【注意事項】：問題の数は 5 問、解答用紙は問題 1 白〜問題 5 水色、配点は各問題 20 点・合計 100 点、問題紙は表紙を含めて 6 枚",
+      "sha256": "3ab44baa7c438e6fd58bb33aea1604f5a287a5f7d476c645479a31f921e776fd"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2008-math-q1",
+      "number": "問題1",
+      "title": "線形代数：対称行列の直交行列による対角化と逆行列・行列の累乗",
+      "titleKind": "editorial",
+      "topics": [
+        "対称行列",
+        "直交行列",
+        "対角化",
+        "逆行列",
+        "行列の累乗",
+        "固有値"
+      ],
+      "summary": "問題 1（20 点）(a) 対称行列 A=[[0,1,1],[1,0,1],[1,1,0]] を対角化する直交行列を求める。(b) 行列 B=[[1,2,0],[0,1,2],[2,0,1]] について、B⁻¹ と B⁵ を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 2 頁のみで完結。問題 1（20 点）、(a)(b) の 2 小問と行列 A・B の成分を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-math/osaka-ee-2008-math-q1-01.png",
+          "page": 2,
+          "box": [
+            90.5,
+            158.5,
+            464.0,
+            330.5
+          ],
+          "width": 1121,
+          "height": 517,
+          "label": "問題 1（20 点）：(a) 対称行列 A の対角化、(b) 行列 B の B⁻¹・B⁵",
+          "sha256": "dae7764bf1e9688145b3c3565f5d3918d47364bdb6cce5632c83fc73ccc639d9"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2008-math-q2",
+      "number": "問題2",
+      "title": "微分方程式：定数係数 2 階線形方程式と連立 1 階微分方程式",
+      "titleKind": "editorial",
+      "topics": [
+        "2 階線形微分方程式",
+        "定数係数",
+        "連立微分方程式",
+        "初期条件",
+        "特殊解"
+      ],
+      "summary": "問題 2（20 点）x および y は t の関数、x′ および y′ は t に関する 1 階微分、x″ および y″ は 2 階微分を表す。(a) 微分方程式 x″+3x′-4x=5cos t を解く。(b) 連立微分方程式 x″+py′=0、y″-qx′=1（p>0、q>0 の定数）を初期条件 x(0)=y(0)=0、x′(0)=y′(0)=0 のもとで解く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 3 頁のみで完結。問題 2（20 点）、(a)(b)、連立方程式の 2 式と初期条件 x(0)=y(0)=x′(0)=y′(0)=0 を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-math/osaka-ee-2008-math-q2-01.png",
+          "page": 3,
+          "box": [
+            78.0,
+            126.5,
+            531.0,
+            362.5
+          ],
+          "width": 1359,
+          "height": 709,
+          "label": "問題 2（20 点）：(a) x″+3x′-4x=5cos t、(b) 連立微分方程式と初期条件",
+          "sha256": "a17613a915b582593794e1f8bfe8032c62f58d2dfc641f9b0d29cb4865923519"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2008-math-q3",
+      "number": "問題3",
+      "title": "複素関数：ローラン展開と留数を用いた定積分",
+      "titleKind": "editorial",
+      "topics": [
+        "複素関数",
+        "ローラン展開",
+        "特異点",
+        "留数",
+        "実積分"
+      ],
+      "summary": "問題 3（20 点）(a) 複素関数 z/(z²-1) の特異点 z=1 のまわりのローラン展開を求める。(b) 実変数 θ に対する定積分 ∫_0^{2π} 1/(5-3cos θ)² dθ の値を、複素関数を用いて求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 4 頁のみで完結。問題 3（20 点）、(a) z/(z²-1) の z=1 まわりのローラン展開、(b) 定積分の式と積分範囲 0〜2π を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-math/osaka-ee-2008-math-q3-01.png",
+          "page": 4,
+          "box": [
+            86.5,
+            99.0,
+            468.0,
+            733.0
+          ],
+          "width": 1145,
+          "height": 1902,
+          "label": "問題 3（20 点）：(a) ローラン展開、(b) 実積分 ∫_0^{2π} dθ/(5-3cosθ)²",
+          "sha256": "b6a437abbcc4bdba703818caf0cf6ca3fcf467d708710fac3a051ccb613f4819"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2008-math-q4",
+      "number": "問題4",
+      "title": "フーリエ級数：複素フーリエ係数・パーセバルの等式と無限級数の和",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ級数",
+        "複素フーリエ係数",
+        "パーセバルの等式",
+        "無限級数",
+        "双曲線関数"
+      ],
+      "summary": "問題 4（20 点）(a) 周期 2π をもつ周期関数 f(x)=cosh x=(e^x+e^-x)/2（-π≦x<π、f(x+2π)=f(x)）を複素型フーリエ級数で表したときの係数 c_n（n=0,±1,±2,…）を求める（f(x)〜Σc_n e^{jnx}）。(b) f(x) のフーリエ級数を f(x)〜a_0/2+Σ(a_n cos nx+b_n sin nx) と表すとき、パーセバルの等式 a_0²/2+Σ(a_n²+b_n²)=1/π∫_{-π}^{π}{f(x)}²dx と等価な関係式として、c_0、c_n、c_-n について成り立つ式を示す（2c_0²+4Σc_nc_-n=1/π∫{f(x)}²dx）。(c) (a)(b) の結果を用いて無限級数の和 S=Σ_{n=1}^∞ 1/(1+n²)² を求める（必要なら sinh x、tanh x、coth x の定義を用いる）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 5 頁のみで完結。問題 4（20 点）、(a)(b)(c)、複素型／実型フーリエ級数の定義式、パーセバルの等式、sinh・tanh・coth の定義を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-math/osaka-ee-2008-math-q4-01.png",
+          "page": 5,
+          "box": [
+            83.5,
+            59.5,
+            522.0,
+            626.5
+          ],
+          "width": 1316,
+          "height": 1702,
+          "label": "問題 4（20 点）：(a)〜(c) と双曲線関数の定義式",
+          "sha256": "08f99b784c1a49d257f1df8ea2e5f45178db3ce0432a9033365aedf5c05843da"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2008-math-q5",
+      "number": "問題5",
+      "title": "ラプラス変換：微分方程式の初期値問題",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "微分方程式",
+        "初期値問題",
+        "階段関数",
+        "逆変換"
+      ],
+      "summary": "問題 5（20 点）微分方程式 dx(t)/dt+x(t)=f(t)、x(0)=0（式(1)）の t≧0 における解 x(t) をラプラス変換を用いて求める。f(t) は f(t)=1（t>1）、t（0≦t≦1）、0（t<0）で定義される関数である。(a) 上式で定義される関数 g(t) のラプラス変換 G(s)（g(t)=t（t≧0）、0（t<0））を求める。(b) f(t)=g(t)-g(t-1) と表せることを用いて f(t) のラプラス変換 F(s) を求める。(c) 式(1) の t≧0 における解 x(t) をラプラス変換を用いて求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 6 頁のみで完結。問題 5（20 点）、式(1) の微分方程式と x(0)=0、(a)(b)(c)、f(t) と g(t) の区分定義（t>1、0≦t≦1、t<0）を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-math/osaka-ee-2008-math-q5-01.png",
+          "page": 6,
+          "box": [
+            76.0,
+            113.5,
+            531.5,
+            447.5
+          ],
+          "width": 1367,
+          "height": 1003,
+          "label": "問題 5（20 点）：式(1) と (a)〜(c)、f(t)・g(t) の区分定義",
+          "sha256": "739f04867e6bfe9bb21c55eb831e0378e008fd5005e064c53dd8733d2b968482"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头标题・実施日時・页脚とスキャン余白；注意事項は commonRegions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2008-math-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2008-math-q2"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2008-math-q3"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2008-math-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2008-math-q5"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

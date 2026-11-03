@@ -1,0 +1,603 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2009-seigyo",
+  "title": "大阪大学 · 2009 入学年度 · 前身科目：系统控制",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2009",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2009,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：系统控制）",
+    "originalSubject": "系统控制",
+    "originalName": "系统控制.pdf",
+    "pdf": "assets/past-papers/documents/211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950.pdf",
+    "sha256": "211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950",
+    "pageCount": 10,
+    "note": "「2009 年度入学試験（実施年 2008）；旧制 7 科目分册，非课程制」本册为「システム制御」選択科目入試問題（問題1・2−1・2−2 は全員、問題3–7 から2分野を選択、問題用紙9枚）。平成20年8月19日実施。",
+    "normalization": {
+      "derivedPdf": "assets/question-bank/osaka-ee-2009-seigyo/normalized.pdf",
+      "derivedSha256": "3e59f14691dfd58965d4d067bd4fd560d0e98138998d4256c4d81713cacfae4f",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 5,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 6,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 7,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 8,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 9,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 10,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        }
+      ]
+    }
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2009-seigyo/common-01.png",
+      "page": 1,
+      "box": [
+        97.0,
+        247.0,
+        544.0,
+        750.0
+      ],
+      "width": 1341,
+      "height": 1509,
+      "label": "注意事項：問題用紙9枚、制御工学（問題1・2−1・2−2）は全員、選択問題（3–7）から2分野選択、分野ごとの解答用紙の色と問題番号の対応、選択問題3分野以上の解答は無効",
+      "sha256": "b53fb3aea635352221b399f1331f8a8c1ef4f7cc8b3f6c02af57e0de497feae4"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2009-seigyo-q1",
+      "number": "問題 1",
+      "title": "制御工学：フィードバック系の伝達関数・時間応答・支配極・根軌跡・定常偏差",
+      "titleKind": "editorial",
+      "topics": [
+        "制御工学",
+        "フィードバック",
+        "伝達関数",
+        "時間応答",
+        "支配極",
+        "ラウス・フルビッツ",
+        "根軌跡",
+        "定常偏差"
+      ],
+      "summary": "「制御工学」見出しの下の 1.（全員必答）。(i) 出力 C(s) を R(s) と外乱 D(s) の関数として表す。(ii) G(s)=1/(s+1), H(s)=1, L(s)=1 でステップ入力＋t=1 のインパルス外乱に対する c(t)（図1−2）。(iii) 4 つの伝達関数 (a)–(d) のすべての極と支配極。(iv) 図1−2 の波形から該当する伝達関数を選び、支配極と振動周期を根拠に述べる。(v) 閉ループ系が安定となる K の条件。(vi) 根軌跡の概形。(vii) インパルス／ステップ／ランプ入力に対する定常偏差。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "p2 全体が問題1（「制御工学」は分野見出し）。図1−1（ブロック線図）・図1−2（c(t) の波形）を図号とも box 内に収録。頁末の (vii) (a)(b)(c) の入力定義まで含める。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-seigyo/osaka-ee-2009-seigyo-q1-01.png",
+          "page": 2,
+          "box": [
+            85.0,
+            64.0,
+            518.0,
+            781.0
+          ],
+          "width": 1299,
+          "height": 2151,
+          "label": "制御工学 1.：フィードバック系 (i)–(vii)＋図1−1・図1−2",
+          "sha256": "85bcdb94788e1198882d22c6f48c731799f7e4ebc571598ba6670b7dbed4cb00"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-seigyo-q2",
+      "number": "問題 2",
+      "title": "制御工学：閉ループ系の安定条件・ゲイン余裕・根軌跡と状態方程式の可制御性",
+      "titleKind": "editorial",
+      "topics": [
+        "制御工学",
+        "安定条件",
+        "ゲイン余裕",
+        "根軌跡",
+        "可制御性",
+        "状態フィードバック",
+        "特性根"
+      ],
+      "summary": "2−1 図2 の閉ループ系（G_c(s)=K(s+α), K≥0, α≥0）について (i) すべての K≥0 で安定となる α の条件と、条件を満たさないときの K の範囲、(ii) ゲイン余裕、(iii) α=1/2, 3, 9 の 3 通りについて K を 0 から増加させたときの根軌跡の概形、(iv) 特性根 −1±2j を持つための α と K。2−2 (i) 2 次系の可制御性と u=α+βt による到達時刻・状態、(ii) 3 次系の伝達関数・可制御性・指定の特性根を与える状態フィードバックゲイン k₁,k₂,k₃。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2−1 と 2−2 が同一頁（p3）に並ぶため 1 region にまとめた。図2 のブロック線図を図号とも収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-seigyo/osaka-ee-2009-seigyo-q2-01.png",
+          "page": 3,
+          "box": [
+            59.0,
+            85.0,
+            536.0,
+            767.0
+          ],
+          "width": 1431,
+          "height": 2046,
+          "label": "制御工学 2−1・2−2：安定条件・ゲイン余裕・根軌跡＋図2／可制御性と状態フィードバック",
+          "sha256": "1404d5c2548a5db4123b504632ba7628eb09b9f49faaaa15a871bb4a15027dd7"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-seigyo-q3",
+      "number": "問題 3",
+      "title": "電気機器：三相誘導電動機の等価回路・トルクと同期発電機のベクトル図・電圧変動率",
+      "titleKind": "editorial",
+      "topics": [
+        "電気機器",
+        "誘導電動機",
+        "等価回路",
+        "滑り",
+        "トルク",
+        "同期発電機",
+        "電機子反作用",
+        "電圧変動率"
+      ],
+      "summary": "「電気機器」見出し。3−1 三相巻線形誘導電動機の 1 相等価回路（図3−1）について (i) 回転子の回転速度 n_m、(ii) 機械的出力 P_m、(iii) 負荷電流 I₁′、(iv) トルク T、(v) 二次回路の外部抵抗による速度制御の原理。3−2 非突極形三相同期発電機の 1 相等価回路（図3−2）について (i) ベクトル図、(ii) 電機子反作用が端子電圧に及ぼす影響、(iii) 電圧変動率、(iv) 最大有効電力 P_max。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3−1 と 3−2 が同一頁（p4）に上下に並ぶため 1 region。図3−1・図3−2 をそれぞれ図号とも収録し、3−2 (iv) の式と図の間を切らないよう頁下半分まで含めた。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-seigyo/osaka-ee-2009-seigyo-q3-01.png",
+          "page": 4,
+          "box": [
+            53.0,
+            59.0,
+            546.0,
+            789.0
+          ],
+          "width": 1479,
+          "height": 2190,
+          "label": "電気機器 3−1：誘導電動機の等価回路とトルク＋図3−1／3−2：同期発電機＋図3−2",
+          "sha256": "43513c468eb3cc44a6702f568c21f670126d7023467eccafc15a4a3a86e3473e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-seigyo-q4",
+      "number": "問題 4",
+      "title": "パワーエレクトロニクス：サイリスタフルブリッジ整流回路と PN 接合ダイオード",
+      "titleKind": "editorial",
+      "topics": [
+        "パワーエレクトロニクス",
+        "サイリスタ",
+        "フルブリッジ",
+        "点弧角",
+        "平均電圧",
+        "リプル率",
+        "ダイオード",
+        "スイッチング過渡"
+      ],
+      "summary": "「パワーエレクトロニクス」見出し。4−1 サイリスタを用いたフルブリッジ回路を交流電圧源（振幅 E、角周波数 ω）と誘導負荷（R, L）に接続した連続導通の周期定常状態について (i) 点弧角 α に対する負荷電圧 v の波形、(ii) v の平均値と α の関係、(iii) 電圧の脈動率（リプル率）と α の関係、(iv) 連続導通となる α の条件（図4）。4−2 PN 接合ダイオードの理想スイッチモデルと実際の半導体デバイスの相違について (i) 電圧・電流静特性、(ii) ターンオフ時のスイッチング過渡特性。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "4−1 と 4−2 が同一頁（p5）。図4 の回路図（サイリスタ 4 個・RL 負荷）を図号とも収録。頁下半分は余白。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-seigyo/osaka-ee-2009-seigyo-q4-01.png",
+          "page": 5,
+          "box": [
+            74.0,
+            64.0,
+            496.0,
+            554.0
+          ],
+          "width": 1266,
+          "height": 1470,
+          "label": "パワーエレクトロニクス 4−1：サイリスタ整流回路＋図4／4−2：PN 接合ダイオード",
+          "sha256": "981712862b5434593418ec4030f1f496184946cfa2aaac2ede7fbebbfc86737c"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-seigyo-q5",
+      "number": "問題 5",
+      "title": "信号処理：DTFT/DFT/FFT/DCT の関係とディジタルフィルタの直列・並列等価",
+      "titleKind": "editorial",
+      "topics": [
+        "信号処理",
+        "DTFT",
+        "DFT",
+        "FFT",
+        "DCT",
+        "伝達関数",
+        "周波数応答"
+      ],
+      "summary": "「信号処理」見出し。5−1 離散時間信号の変換・手法について (i) DTFT と DFT の類似点・相違点、(ii) FFT のアルゴリズムと O(N²)→O(N log N) の理由、(iii) DCT のデータ圧縮への利用、(iv) DTFT/DFT/FFT/DCT 相互の関係。5−2 サンプリング周期 T=1[s]、H(z)=1/(1−az⁻¹)（|z|>|a|）について (i) 直列に G(z) と 2 倍器を接続した系と並列に H(z)・G(z) を接続した系が等価となる G(z)、(ii) 積 H(z)G(z) の周波数応答で利得が最小となる周波数（0–0.5 Hz）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "p6 全体が問題5。直列／並列のブロック図（図号なし）を切らずに収録し、(ii) の最終行まで含めた。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-seigyo/osaka-ee-2009-seigyo-q5-01.png",
+          "page": 6,
+          "box": [
+            86.0,
+            105.0,
+            520.0,
+            588.0
+          ],
+          "width": 1302,
+          "height": 1449,
+          "label": "信号処理 5−1：DTFT/DFT/FFT/DCT (i)–(iv)／5−2：直並列等価＋ブロック図",
+          "sha256": "197b11b56f640b06b69f3e546bb3b096658caa65de61410a31ec4a63a5512333"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-seigyo-q6",
+      "number": "問題 6",
+      "title": "論理回路・計算機システム：直接マッピングキャッシュの構成・容量・タグ",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機システム",
+        "キャッシュ",
+        "直接マッピング",
+        "ブロック番号",
+        "タグ",
+        "セット連想"
+      ],
+      "summary": "「論理回路・計算機システム」見出しの 6. キャッシュについて (i) 文章中空欄 (1)–(6) を記号 a,b,c で埋める（(4) と (6) は「上位」「下位」）、(ii) ヒット判定の手順を (i) の記号を用いて順序立てて述べる、(iii) 主記憶 2²⁰ バイト・ブロック 16 バイト・1024 ブロックのキャッシュ全体の容量（有効ビット込み）、(iv) 16 進アドレス (DA3C5)₁₆ のブロック番号 j とタグ、(v) セット連想方式への適用。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "p7 で問題6 が完結。空欄 (1)–(6) の枠と (v) の最終行まで収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-seigyo/osaka-ee-2009-seigyo-q6-01.png",
+          "page": 7,
+          "box": [
+            77.0,
+            91.0,
+            536.0,
+            738.0
+          ],
+          "width": 1377,
+          "height": 1941,
+          "label": "論理回路・計算機システム 6.：キャッシュ (i)–(v)",
+          "sha256": "c811de880fe0b52b2b1dd7b8649eab98f9340d3c2f5fa29138fcfd1de3af328e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-seigyo-q7",
+      "number": "問題 7",
+      "title": "基本アルゴリズム・プログラミング：リストによるスタックとヒープソート（プログラムA/B）",
+      "titleKind": "editorial",
+      "topics": [
+        "基本アルゴリズム",
+        "プログラミング",
+        "リスト構造",
+        "スタック",
+        "ヒープ",
+        "ヒープソート",
+        "計算量"
+      ],
+      "summary": "「基本アルゴリズム・プログラミング」見出し。7−1 リスト構造（図7−1）でスタックを実現するプログラムA について (i) 空欄 1・2 の補充、(ii) <α> 時点のスタックの図示。7−2 ヒープ（図7−2）と downheap によるヒープソート（プログラムB、p10）について (i) 親ノードの番号関係、(ii) 空欄 3–6 の補充、(iii) <β> 時点の 2 分木、(iv) <γ> かつ i=5 の配列とヒープ部分の 2 分木、(v) 時間計算量のオーダーと根拠。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "7−1 が p8、7−2 の設問が p9、プログラムB が p10 の 3 頁に跨るため 3 region。図7−1・図7−2 とプログラム A/B のソース枠をそれぞれ切らずに収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-seigyo/osaka-ee-2009-seigyo-q7-01.png",
+          "page": 8,
+          "box": [
+            67.0,
+            62.0,
+            523.0,
+            787.0
+          ],
+          "width": 1368,
+          "height": 2175,
+          "label": "基本アルゴリズム 7−1：リスト構造とスタック＋図7−1＋プログラムA",
+          "sha256": "76a39bf574bd2630beabb8c5ed866e7c5c6532dbc3599e652e0dfd1d6e5d8af8"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-seigyo/osaka-ee-2009-seigyo-q7-02.png",
+          "page": 9,
+          "box": [
+            70.0,
+            63.0,
+            524.0,
+            592.0
+          ],
+          "width": 1362,
+          "height": 1587,
+          "label": "基本アルゴリズム 7−2：ヒープソート (i)–(v)＋図7−2",
+          "sha256": "4143834a1954b1fba473d2033bfc3fdd14be2abaddbdc9c96b7f07b89327fb09"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-seigyo/osaka-ee-2009-seigyo-q7-03.png",
+          "page": 10,
+          "box": [
+            78.0,
+            64.0,
+            515.0,
+            498.0
+          ],
+          "width": 1311,
+          "height": 1302,
+          "label": "基本アルゴリズム 7−2（続き）：プログラムB のソースコード",
+          "sha256": "8c2f994aee109c1fcc1f13047c1c366b772ce6e8810477cda482419bf8916349"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头封面标题、试验日期时刻、科目标题框与页脚印刷信息，只保留【注意事項】作为 common region；扫描空白边一并裁去。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2009-seigyo-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2009-seigyo-q2"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2009-seigyo-q3"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2009-seigyo-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2009-seigyo-q5"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2009-seigyo-q6"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2009-seigyo-q7"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2009-seigyo-q7"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2009-seigyo-q7"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    }
+  ]
+}

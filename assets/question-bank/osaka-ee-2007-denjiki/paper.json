@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2007-denjiki",
+  "title": "大阪大学 · 2007 入学年度 · 前身科目：电磁理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2007",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2007,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：电磁理论）",
+    "originalSubject": "电磁理论",
+    "originalName": "电磁理论.pdf",
+    "pdf": "assets/past-papers/documents/e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355.pdf",
+    "sha256": "e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355",
+    "pageCount": 9,
+    "note": "「2007 年度入学試験（実施年 2006）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2007-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        86.0,
+        579.0,
+        499.0,
+        665.0
+      ],
+      "width": 1239,
+      "height": 258,
+      "label": "注意：問題は4問、各25点で合計100点、志望コース欄に○と受験番号を記入、解答は問題用紙内に書く",
+      "sha256": "f0db850a4e7da57ed4e2120221ef65fbde2f2fc98d19c3a676aa52041c928f4e"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2007-denjiki-q1",
+      "number": "1",
+      "title": "静電界：ガウスの法則・ポアソン方程式と同心球殻導体の電位・電界",
+      "titleKind": "editorial",
+      "topics": [
+        "ガウスの法則",
+        "ポアソン方程式",
+        "電束密度",
+        "同心球殻",
+        "静電容量"
+      ],
+      "summary": "「1-1」「1-2」の2頁構成。(1) ガウスの法則の積分形・微分形とポアソン方程式の空欄、各物理量の MKSC 単位、(2) 同心球殻導体の電位・電界分布・表面電荷密度・静電容量を空欄で補う。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「1」を確認。領域数 2、頁 2,3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjiki/osaka-ee-2007-denjiki-q1-01.png",
+          "page": 2,
+          "box": [
+            60.0,
+            99.0,
+            531.0,
+            748.0
+          ],
+          "width": 1413,
+          "height": 1947,
+          "label": "1-1：静電界の文章題（ガウスの法則・ポアソン方程式の空欄、単位記号、同心球殻の(2)）",
+          "sha256": "1ce62a677f1b599aec3972b80b6f0184efdfbfa795bb2c160032d90b3b579666"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjiki/osaka-ee-2007-denjiki-q1-02.png",
+          "page": 3,
+          "box": [
+            59.0,
+            124.0,
+            530.0,
+            771.0
+          ],
+          "width": 1413,
+          "height": 1941,
+          "label": "1-2：球座標での電位 φ・電界 E・面電荷密度・電荷量 Qa・静電容量 C の空欄と配点「25点」",
+          "sha256": "10e85505ec15f5b571051cbe719b7e5ab89294b56a3ee33a131441807f798b77"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-denjiki-q2",
+      "number": "2",
+      "title": "磁界の境界条件と球状磁性体内部の磁界",
+      "titleKind": "editorial",
+      "topics": [
+        "磁界の境界条件",
+        "磁束密度",
+        "磁位",
+        "球状磁性体",
+        "球座標"
+      ],
+      "summary": "「2-1」「2-2」の2頁構成。1. 磁性体界面の H と B の境界条件の空欄、2. 半無限磁性体界面での H1 の導出（図付き）、3. 一様磁化された球状磁性体の内部磁界を磁位 φm から求める空欄。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「2」を確認。領域数 2、頁 4,5。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjiki/osaka-ee-2007-denjiki-q2-01.png",
+          "page": 4,
+          "box": [
+            47.0,
+            142.0,
+            539.0,
+            749.0
+          ],
+          "width": 1476,
+          "height": 1821,
+          "label": "2-1：1. 境界条件(1)(2)、2. 半無限磁性体の H1 導出と角度条件、磁界ベクトル図",
+          "sha256": "8cb9178ccb1324d4c3fa4cff4d6930ca25969442317cedd162ba3c59bbaa8894"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjiki/osaka-ee-2007-denjiki-q2-02.png",
+          "page": 5,
+          "box": [
+            50.0,
+            142.0,
+            541.0,
+            741.0
+          ],
+          "width": 1473,
+          "height": 1797,
+          "label": "2-2：3. 球状磁性体の磁位 φm1・φm2、境界条件、Hr・Hθ・Hz の空欄、球の図と配点「25点」",
+          "sha256": "ed38aca95a3b2d65c964cb995d5d42aea4ba6eace75f4569e9dda2f429d691cc"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-denjiki-q3",
+      "number": "3",
+      "title": "電磁誘導：ファラデーの法則と回転コイル・ソレノイドの誘導電界",
+      "titleKind": "editorial",
+      "topics": [
+        "電磁誘導",
+        "ファラデーの法則",
+        "誘導電界",
+        "ソレノイド",
+        "ポインティングベクトル"
+      ],
+      "summary": "「3-1」「3-2」の2頁構成。[1] 電磁誘導の法則・Maxwell 方程式・誘起起電力の空欄と、回転する円形コイルの誘導電界最大時刻と値。[2] 無限長ソレノイドの H・Φ(t)・E・自己インダクタンス・ポインティングベクトル・蓄えられるエネルギー。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「3」を確認。領域数 2、頁 6,7。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjiki/osaka-ee-2007-denjiki-q3-01.png",
+          "page": 6,
+          "box": [
+            66.0,
+            156.0,
+            525.0,
+            742.0
+          ],
+          "width": 1377,
+          "height": 1758,
+          "label": "3-1：[1] 電磁誘導の文章題（空欄）、回転コイルの図、誘導電界最大の時刻と値",
+          "sha256": "c3793464c03a3ef93779e02bcada434ce0cec7f10510204b9e9d94da93b0b54f"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjiki/osaka-ee-2007-denjiki-q3-02.png",
+          "page": 7,
+          "box": [
+            57.0,
+            145.0,
+            547.0,
+            759.0
+          ],
+          "width": 1470,
+          "height": 1842,
+          "label": "3-2：[2] ソレノイドの H・Φ(t)・E・L・S・W の空欄、断面図と配点「25点」",
+          "sha256": "65102b3995bb80f5b3e3de77bb3560bac78bab5be4c2d6122e34230dd8a3dddf"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-denjiki-q4",
+      "number": "4",
+      "title": "電磁界中の電子の運動：サイクロイド軌道と臨界磁束密度",
+      "titleKind": "editorial",
+      "topics": [
+        "ローレンツ力",
+        "電子運動",
+        "サイクロイド",
+        "臨界磁束密度"
+      ],
+      "summary": "「4-1」「4-2」の2頁構成。平行平板電極間の電界と直交磁界中を初速度零で出発する電子について、運動方程式(1)〜(3)、式(4)(6)(7)(8)、軌跡 x,y、周期 T、到達最大値 D、臨界磁束密度 Bc を空欄で補う。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「4」を確認。領域数 2、頁 8,9。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjiki/osaka-ee-2007-denjiki-q4-01.png",
+          "page": 8,
+          "box": [
+            50.0,
+            146.0,
+            543.0,
+            740.0
+          ],
+          "width": 1479,
+          "height": 1782,
+          "label": "4-1：題意、平行平板と磁界の図、式(1)〜(3) の空欄、(4)・(6) の空欄",
+          "sha256": "dca8733a0203b96af5f21d900e0af579ecbe8bdcbcc37cb7c939ee3fc89dc023"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjiki/osaka-ee-2007-denjiki-q4-02.png",
+          "page": 9,
+          "box": [
+            48.0,
+            117.0,
+            541.0,
+            767.0
+          ],
+          "width": 1479,
+          "height": 1950,
+          "label": "4-2：式(7)〜(13) の空欄（A, vy, x, y, T, D, Bc）と配点「25点」",
+          "sha256": "cac61fcd8db110c84247581102f39816a9bc1fbdb4ce6cb15d110b2d79792346"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头标题与页脚页码与扫描空白边；只收「注意事項」栏。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2007-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷頭の志望コース・受験番号記入欄（頁眉）、頁脚の配点枠と頁番号、走査の空白辺。題目内容は含む。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2007-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷頭の志望コース・受験番号記入欄（頁眉）、頁脚の配点枠と頁番号、走査の空白辺。題目内容は含む。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2007-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷頭の志望コース・受験番号記入欄（頁眉）、頁脚の配点枠と頁番号、走査の空白辺。題目内容は含む。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2007-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷頭の志望コース・受験番号記入欄（頁眉）、頁脚の配点枠と頁番号、走査の空白辺。題目内容は含む。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2007-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷頭の志望コース・受験番号記入欄（頁眉）、頁脚の配点枠と頁番号、走査の空白辺。題目内容は含む。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2007-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷頭の志望コース・受験番号記入欄（頁眉）、頁脚の配点枠と頁番号、走査の空白辺。題目内容は含む。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2007-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷頭の志望コース・受験番号記入欄（頁眉）、頁脚の配点枠と頁番号、走査の空白辺。題目内容は含む。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2007-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷頭の志望コース・受験番号記入欄（頁眉）、頁脚の配点枠と頁番号、走査の空白辺。題目内容は含む。",
+      "reviewed": true
+    }
+  ]
+}

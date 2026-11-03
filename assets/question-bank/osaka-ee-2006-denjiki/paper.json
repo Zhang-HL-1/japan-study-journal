@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2006-denjiki",
+  "title": "大阪大学 · 2006 入学年度 · 前身科目：电磁理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2006",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2006,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：电磁理论）",
+    "originalSubject": "电磁理论",
+    "originalName": "电磁理论.pdf",
+    "pdf": "assets/past-papers/documents/483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13.pdf",
+    "sha256": "483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13",
+    "pageCount": 9,
+    "note": "「2006 年度入学試験（実施年 2005）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2006-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        70.5,
+        581.0,
+        548.5,
+        664.5
+      ],
+      "width": 1435,
+      "height": 251,
+      "label": "【注意】問題は 4 問、配点は各 25 点で合計 100 点、各問題用紙の志望コース欄に○印を付し受験番号を必ず記入すること",
+      "sha256": "276941e32685e7f38715c060824d5e9dd2330b1b309aee793d7fdc567947d7ab"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2006-denjiki-q1",
+      "number": "問題1",
+      "title": "静電界：点電荷の電荷密度・ガウスの法則・球座標での電界とエネルギー",
+      "titleKind": "editorial",
+      "topics": [
+        "静電界",
+        "点電荷",
+        "デルタ関数",
+        "ガウスの法則",
+        "球座標",
+        "電界",
+        "エネルギー密度"
+      ],
+      "summary": "点電荷 q の周囲に生ずる静電界について空欄に数式を記入する。電荷密度分布 ρ=qδ(x)δ(y)δ(z) から電束に関する微分形のガウスの法則 (2) に代入した結果 (3)、(4)、球座標 (r,θ,φ) のベクトル界 A の発散の式、対称性から零でない電界成分 (5)、微分方程式 (6)、S の内外での解 (7)(8)、表面 r=r0 の電界成分と積分定数 c、エネルギー密度 w と球殻 a<r<b 内の電界エネルギー W。図 1（球座標と点 P(r,θ,φ)）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1-1・1-2 の 2 頁構成。各頁上部の志望コース・受験番号欄に題番号「1-1」「1-2」が印刷されているため、題番号を含める目的で頁上部の欄を box に含めた（頁眉扱いにするかは要裁定）。式(1)〜(8) と図 1、25 点の枠を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-denjiki/osaka-ee-2006-denjiki-q1-01.png",
+          "page": 2,
+          "box": [
+            14.5,
+            34,
+            552.5,
+            745.5
+          ],
+          "width": 1615,
+          "height": 2135,
+          "label": "問題1（1-1、25 点）：志望コース欄の「1-1」、本文、式(1)〜(5)、図 1（球座標）",
+          "sha256": "5f381d849e40704ad847e1b2d115402ed524fce05940ead6cddec6c6ca374a8c"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-denjiki/osaka-ee-2006-denjiki-q1-02.png",
+          "page": 3,
+          "box": [
+            12.5,
+            39.5,
+            552.5,
+            794.5
+          ],
+          "width": 1621,
+          "height": 2266,
+          "label": "問題1（1-2）：式(6)(7)(8)、積分定数とエネルギー密度・電界エネルギー、25 点の枠",
+          "sha256": "0be8f00e4d361973910db75e8ff9565d555fac4e1cc5b32eded6d32d723b03af"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-denjiki-q2",
+      "number": "問題2",
+      "title": "磁界：無限長円柱導線のアンペールの法則と円柱導体の空洞による磁界",
+      "titleKind": "editorial",
+      "topics": [
+        "磁界",
+        "アンペールの法則",
+        "円柱導体",
+        "電流密度",
+        "重ね合わせ",
+        "空洞"
+      ],
+      "summary": "2-1 半径 a の無限長円柱導線に定電流 I が一様に流れるとき、中心軸から半径 r の円周 C と囲まれる領域 S にアンペールの法則を適用し、電流密度 J と磁界 H の関係式から ∫_S J·n dS（r<a, r≥a）、左辺の積分、H_φ を求め、最終的に r<a と r≥a の H_φ を I で表す。2-2 無限長半径 a の円柱導体の中心軸から x 方向に d だけ離れた半径 d の円柱状の穴があり（a≥2d）、z 方向に一様な電流密度 J が流れるとき、穴を持たない導体の磁界 H1 と逆向き電流による H2 の和として、点 (x0,y0) の H1x, H1y, H2x, H2y, Hx, Hy を J を用いて表す。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2-1（p.4）と 2-2（p.5）の 2 頁構成。円柱と円周 C の図、穴あき導体の断面図（x 軸・y 軸・d・a・点 (x0,y0)）、25 点の枠を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-denjiki/osaka-ee-2006-denjiki-q2-01.png",
+          "page": 4,
+          "box": [
+            24.0,
+            60.5,
+            535.5,
+            756.0
+          ],
+          "width": 1535,
+          "height": 2087,
+          "label": "問題2（2-1）：本文、空欄（マクスウェル方程式・積分・H_φ）、円柱導線と円周 C の図",
+          "sha256": "5107a10f29a75cec333151eb6234c640cc8fe7c83efeb7ac0ca8fecff80e0e2b"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-denjiki/osaka-ee-2006-denjiki-q2-02.png",
+          "page": 5,
+          "box": [
+            20.0,
+            62.5,
+            540.0,
+            701.5
+          ],
+          "width": 1560,
+          "height": 1918,
+          "label": "問題2（2-2）：本文、H1x/H1y/H2x/H2y/Hx/Hy の空欄、25 点の枠",
+          "sha256": "135fd75cfb8e1870c157507116f90e7224809d3039ea937d729225122930ca72"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-denjiki-q3",
+      "number": "問題3",
+      "title": "平面電磁波：2 層媒質境界の反射・透過係数と多重反射",
+      "titleKind": "editorial",
+      "topics": [
+        "平面電磁波",
+        "反射係数",
+        "透過係数",
+        "屈折率",
+        "多重反射",
+        "位相差",
+        "整合"
+      ],
+      "summary": "平面電磁波が 2 層の媒質（I, II）に垂直入射する場合を考える。媒質 I・II の誘電率と厚さ d、波数ベクトル、電界・磁界のフェーザ表示、境界での接続条件から反射係数 R′・透過係数 T′、屈折率 n1・n2 を用いた R″・T″、媒質 I を往復することによる位相差 δ、exp(jδ)=−1 のときの多重反射を考慮した反射係数 R を求め、反射が無くなる条件と d の最小値、n1 を答える。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3-1（p.6）と 3-2（p.7）の 2 頁構成。2 層媒質の図（真空:ε0、I:ε1、II、d、入射・反射・透過の矢印）と 25 点の枠を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-denjiki/osaka-ee-2006-denjiki-q3-01.png",
+          "page": 6,
+          "box": [
+            65.5,
+            33.0,
+            573.0,
+            768.5
+          ],
+          "width": 1523,
+          "height": 2207,
+          "label": "問題3（3-1）：本文、電界・磁界の各フェーザ式と空欄、2 層媒質（真空・I・II）の図",
+          "sha256": "6805e1c7c8b2b6d9686e8111a08dc98d20aa96b8f347c3407eff397298a9f7ee"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-denjiki/osaka-ee-2006-denjiki-q3-02.png",
+          "page": 7,
+          "box": [
+            69.0,
+            34.0,
+            561.0,
+            743.5
+          ],
+          "width": 1476,
+          "height": 2129,
+          "label": "問題3（3-2）：屈折率 n1・n2 を用いた各式、位相差 δ、反射係数 R、d と n1、25 点の枠",
+          "sha256": "3c42d7043714f7fe6700a75885eea82f6d32c29bcdbb3ed053792dc5dd56dc8f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-denjiki-q4",
+      "number": "問題4",
+      "title": "電磁力：6 個の点電荷に囲まれた電荷の運動方程式と終端速度",
+      "titleKind": "editorial",
+      "topics": [
+        "クーロン力",
+        "点電荷",
+        "運動方程式",
+        "積分",
+        "終端速度",
+        "対称性"
+      ],
+      "summary": "時刻 t<0 に原点 O の質量 m・電荷 Q(>0) の点電荷が静止し、半径 a の円周上に電荷 q(>0) の 6 個の点電荷が x 軸を起点として等間隔に固定されている。q の一つが Q に及ぼす力の大きさ F、t>0 で点 (a,0) の q を取去ったときの点 (x,0) の Q に働く力 F1(x)（cos φ1, sin φ1 の空欄）、θ=2π/3〜5π/3 の 5 個の電荷による力の和と F(x)、運動方程式（x・y 成分）、x 成分の積分（積分公式付き）と初期条件から v_x(x)、x→∞ の定常速度を求める。2 枚の図（6 個の電荷配置）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "4-1（p.8）と 4-2（p.9）の 2 頁構成。電荷配置図 2 枚（y 軸・x 軸・a・θ・φ1・点 x）と 25 点の枠を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-denjiki/osaka-ee-2006-denjiki-q4-01.png",
+          "page": 8,
+          "box": [
+            63.0,
+            41.5,
+            543.0,
+            739.5
+          ],
+          "width": 1440,
+          "height": 2095,
+          "label": "問題4（4-1）：本文、力 F・cosφ1・sinφ1 の空欄、2 枚の電荷配置図",
+          "sha256": "2432fd579c02936f585fb9739d1b58e5bc856ee7a8b38607725cbe4ec2870cc4"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-denjiki/osaka-ee-2006-denjiki-q4-02.png",
+          "page": 9,
+          "box": [
+            55.0,
+            49.0,
+            536.5,
+            773.5
+          ],
+          "width": 1445,
+          "height": 2174,
+          "label": "問題4（4-2）：F1(x)・F(x)・運動方程式・v_x(x)・定常速度の空欄、25 点の枠",
+          "sha256": "65757654657c3fcd532fb66a4500c9a004c55e1d08a45266503bf508ffee9b2a"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边；本页为封面与注意事项，题目内容自次页起。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2006-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2006-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2006-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2006-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2006-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2006-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2006-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2006-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

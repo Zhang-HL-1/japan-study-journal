@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2006-kairo",
+  "title": "大阪大学 · 2006 入学年度 · 前身科目：回路理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2006",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2006,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：回路理论）",
+    "originalSubject": "回路理论",
+    "originalName": "回路理论.pdf",
+    "pdf": "assets/past-papers/documents/f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09.pdf",
+    "sha256": "f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09",
+    "pageCount": 4,
+    "note": "「2006 年度入学試験（実施年 2005）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2006-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        81.0,
+        456.5,
+        428.0,
+        736.0
+      ],
+      "width": 1041,
+      "height": 839,
+      "label": "注意事項：問題の数は 5 問、問題 1〜5 をそれぞれ 1〜5 枚目（白・赤・青・黄・水色）の解答用紙に記入すること",
+      "sha256": "9eb6f5a0bb4c5ec857621a707e6274665ea40e37c8efb09d35f1182a67e263fe"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2006-kairo-q1",
+      "number": "問1",
+      "title": "過渡現象：SW1・SW2 を開く回路の初期値・ラプラス変換・電流応答",
+      "titleKind": "editorial",
+      "topics": [
+        "過渡現象",
+        "スイッチ",
+        "初期値",
+        "ラプラス変換",
+        "RLC回路",
+        "定常状態"
+      ],
+      "summary": "図の回路で t<0 は SW1・SW2 とも閉じ定常状態、t=0 で両スイッチを開く。R, L, C, E はすべて正の実数。(1) 開く直前 (t=0−) の電流 i(0−) と電圧 v(0−)、(2) 電流 i(t) のラプラス変換 I(s)、(3) R=3 Ω, C=1 F, L=1 H, E=6 V のときの i(t) (t>0)。回路図（E、SW1、R、L、C、v(t)、SW2、R）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "問1（20 点）の見出し、(1)(2)(3) の 3 小問、回路図の素子記号（E, SW1, R, L, C, v(t), SW2, R）と t=0 の矢印を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-kairo/osaka-ee-2006-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            48.5,
+            90,
+            521.5,
+            395.5
+          ],
+          "width": 1420,
+          "height": 917,
+          "label": "問1（20 点）：本文、(1)〜(3)、回路図（SW1・SW2・R・L・C・E・v(t)）",
+          "sha256": "fab889deb6cc139c58f49095563a4ca7572b1a1cc4021c922f7ee37505755b90"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-kairo-q2",
+      "number": "問2",
+      "title": "相互インダクタンス回路：等価回路の X_L・Y_L と駆動点抵抗・リアクタンス",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "相互インダクタンス",
+        "等価回路",
+        "駆動点インピーダンス",
+        "リアクタンス"
+      ],
+      "summary": "Fig.1 の回路で A B 間に角周波数 ω=1/√(L2 C) の交流電圧を加える。(1) Fig.2 に示す等価回路の X_L と Y_L、(2) ポート A B の駆動点抵抗 R_0 とリアアクタンス X_0。Fig.1（L1, M, L2, R, C の結合回路）と Fig.2（その等価回路）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2 頁にわたり問2 (1)(2) と Fig.1・Fig.2 を確認。Fig.2 は次頁冒頭に置かれ図番「Fig.2: Fig.1 の等価回路」を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-kairo/osaka-ee-2006-kairo-q2-01.png",
+          "page": 2,
+          "box": [
+            88.0,
+            424,
+            519.5,
+            715.5
+          ],
+          "width": 1295,
+          "height": 875,
+          "label": "問2（20 点）：本文、(1)(2)、Fig.1 の相互インダクタンス回路",
+          "sha256": "7152c6c91c36aa7018e18424f6b66ce0124e20b2e6cc2d7bffecc997ecc23f00"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-kairo/osaka-ee-2006-kairo-q2-02.png",
+          "page": 3,
+          "box": [
+            164.5,
+            119.0,
+            456.0,
+            311.0
+          ],
+          "width": 875,
+          "height": 576,
+          "label": "問2：Fig.2（Fig.1 の等価回路）と図番",
+          "sha256": "4a7721efffd46afdafedfa6c3dd950074f83678db6d95f4f337fa77f8cae8448"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-kairo-q3",
+      "number": "問3",
+      "title": "交流回路：駆動点インピーダンス・短絡電流・ノートン等価回路",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "駆動点インピーダンス",
+        "短絡電流",
+        "ノートン等価回路",
+        "フェーザ"
+      ],
+      "summary": "i(t)=3 sin t [A]、v(t)=40 sin(t+π/2) [V]、R1=5 Ω、R2=8 Ω、R3=10 Ω、C=0.5 F、L=4 H の交流回路について、(1) 電源を除去したときのポート a-b の駆動点インピーダンス、(2) ポート a-b の短絡電流フェーザ、(3) ポート a-b から見たノートン等価回路（フェーザ表示）。回路図（R1, R2, C, v(t), i(t), R3, L, 端子 a-b）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "問3（20 点）、(1)〜(3) の 3 小問、回路図の素子（R1, R2, C, v(t), i(t), R3, L, a, b）を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-kairo/osaka-ee-2006-kairo-q3-01.png",
+          "page": 3,
+          "box": [
+            88.5,
+            358.5,
+            523.0,
+            636.5
+          ],
+          "width": 1304,
+          "height": 835,
+          "label": "問3（20 点）：本文・条件、(1)〜(3)、回路図（a-b 端子）",
+          "sha256": "093f902fd6122a760f73cce36381022937ca6ce0c78696247ddfdd094da7989f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-kairo-q4",
+      "number": "問4",
+      "title": "2 ポート回路：インピーダンス行列・駆動点インピーダンスと伝達関数・インパルス応答",
+      "titleKind": "editorial",
+      "topics": [
+        "2ポート回路",
+        "インピーダンス行列",
+        "駆動点インピーダンス",
+        "伝達関数",
+        "インパルス応答",
+        "零状態応答"
+      ],
+      "summary": "図の 2 ポート回路の零状態応答を考える。(1) 図に示す 2 ポート回路のインピーダンス行列、(2) ポート 2-2' を開放したときのポート 1-1' の駆動点インピーダンス Z(s)=V1(s)/I1(s) と電圧伝達関数 H(s)=V2(s)/V1(s)、(3) ポート 1-1' に単位インパルス δ(t) を印加したときのポート 2-2' の応答 v2(t)（L=5 H, C=1/30 F, R=3 Ω, α=1）。回路図（sL, 1/sC, αV2 の従属電源, R）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "問4（20 点）、(1)〜(3)、回路図の端子番号 1・1'・2・2' と従属電源 αV2 を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-kairo/osaka-ee-2006-kairo-q4-01.png",
+          "page": 4,
+          "box": [
+            80.5,
+            108.0,
+            514.5,
+            377.5
+          ],
+          "width": 1303,
+          "height": 809,
+          "label": "問4（20 点）：本文、(1)〜(3)、2 ポート回路図（1-1', 2-2', sL, 1/sC, αV2, R）",
+          "sha256": "f85dd8f18b0a1ef8810463fc92ab7c22ee5209e3693fa8a10c7672f40a6d867e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-kairo-q5",
+      "number": "問5",
+      "title": "増幅器の雑音指数：内部雑音と多段増幅器の総合利得・雑音指数",
+      "titleKind": "editorial",
+      "topics": [
+        "雑音指数",
+        "増幅器",
+        "内部雑音",
+        "電力利得",
+        "多段接続",
+        "フリスの式"
+      ],
+      "summary": "増幅器の雑音指数について、(1) 増幅器の内部雑音 N_ad を雑音指数 F・電力利得 A・入力雑音 N_in を用いて表す、(2) 図の多段増幅器（電力利得 A1, A2, A3、雑音指数 F1, F2, F3）の総合の電力利得と雑音指数を導出。3 段のブロック図付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "問5（20 点）の (1)(2) と 3 段増幅器のブロック図・各段の電力利得と雑音指数の表記を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-kairo/osaka-ee-2006-kairo-q5-01.png",
+          "page": 4,
+          "box": [
+            82.5,
+            400.0,
+            515.5,
+            732
+          ],
+          "width": 1300,
+          "height": 996,
+          "label": "問5（20 点）：本文、(1)(2)、3 段増幅器のブロック図（A1/F1, A2/F2, A3/F3）",
+          "sha256": "8256447edfff22894971a92ddaf2d0e8830440fa5f3247782913e0a36456fea8"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边；本页为封面与注意事项，题目内容自次页起。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2006-kairo-q1",
+        "osaka-ee-2006-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2006-kairo-q2",
+        "osaka-ee-2006-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2006-kairo-q4",
+        "osaka-ee-2006-kairo-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

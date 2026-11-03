@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2010-seigyo",
+  "title": "大阪大学 · 2010 入学年度 · 前身科目：系统控制",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2010",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2010,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：系统控制）",
+    "originalSubject": "系统控制",
+    "originalName": "系统控制.pdf",
+    "pdf": "assets/past-papers/documents/89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe.pdf",
+    "sha256": "89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe",
+    "pageCount": 10,
+    "note": "「2010 年度入学試験（実施年 2009）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2010-seigyo/common-01.png",
+      "page": 1,
+      "box": [
+        76.0,
+        203.0,
+        552.0,
+        753.0
+      ],
+      "width": 1428,
+      "height": 1650,
+      "label": "表紙の注意事項（9 枚、必須と選択の別、解答用紙の色分け表、持ち帰り可）",
+      "sha256": "e8b6408ffbe59edad55d6ec589b6f8380fffb6f6587c4f658a1a2d30554a4cd3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2010-seigyo-q1",
+      "number": "1",
+      "title": "制御工学：フィードバック系の伝達関数・安定条件・ボード線図・ベクトル軌跡",
+      "titleKind": "editorial",
+      "topics": [
+        "ブロック線図",
+        "伝達関数",
+        "安定条件",
+        "ボード線図",
+        "ベクトル軌跡",
+        "ゲイン余裕",
+        "定常偏差"
+      ],
+      "summary": "図1 のフィードバック系（K1/(s+β)、K2、K3/(s+α)、1/s）について (i) R(s) から C(s) までの伝達関数、(ii) 安定となる K1,K2,K3,α,β の条件、(iii) K1=7,K2=5,K3=4,α=5,β=1 のボード線図の概形と ω→+0, +∞ の漸近値、(iv) 同条件でベクトル軌跡の概形、(v) K1=5,K2=0,K3=1,α=3,β=1 のゲイン余裕、(vi) 正弦波入力 r(t)=cos t に対する定常出力、(vii) 単位ランプ入力に対する定常偏差。",
+      "review": {
+        "status": "verified",
+        "notes": "見出し「制御工学」と問題1、図1（ブロック線図）、小問 (i)〜(vii)。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-seigyo/osaka-ee-2010-seigyo-q1-01.png",
+          "page": 2,
+          "box": [
+            67.0,
+            53.0,
+            526.0,
+            638.0
+          ],
+          "width": 1377,
+          "height": 1755,
+          "label": "制御工学：見出し、図1 のブロック線図、小問 (i)〜(vii)",
+          "sha256": "4605e4f980437d580a7e284f0881f0f8ca53eed09d49a4940068d7f878cc6f28"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-seigyo-q2",
+      "number": "2",
+      "title": "制御工学：状態方程式の伝達関数・可制御性・状態フィードバック",
+      "titleKind": "editorial",
+      "topics": [
+        "状態方程式",
+        "伝達関数",
+        "可制御性",
+        "可観測性",
+        "状態フィードバック",
+        "行列指数関数"
+      ],
+      "summary": "2−1 状態方程式 dx/dt=Ax+bu, y=cx（A=[[-2,0,a],[1,0,1],[0,0,2]] など）について (i) 伝達関数、(ii) 不可制御となる a、(iii) 任意の a で不可観測であること、(iv) 状態フィードバック u=−k1x1−k2x2−k3x3 で閉ループ極を −2, −1±j2 にする k1,k2,k3。2−2 A=[[1,1],[0,2]] の場合に (i) 行列指数関数 e^{At}、(ii) 初期状態 x(0)=[1,−1]^T、入力 u(t)=e^{−t} に対する出力 y(t)。",
+      "review": {
+        "status": "verified",
+        "notes": "同一頁に 2−1 と 2−2 があり、1 題として 1 region に収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-seigyo/osaka-ee-2010-seigyo-q2-01.png",
+          "page": 3,
+          "box": [
+            38,
+            97.0,
+            589.7,
+            743.0
+          ],
+          "width": 1656,
+          "height": 1938,
+          "label": "問題2：2−1（状態方程式・可制御性・極配置）と 2−2（行列指数関数・応答）",
+          "sha256": "1f15a404c82962d2f9cf1b774ca13cf7e959fb6f92081f408fef9176ed118600"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-seigyo-q3",
+      "number": "3",
+      "title": "電気機器：三相誘導電動機の特性と三相同期発電機のベクトル図",
+      "titleKind": "editorial",
+      "topics": [
+        "三相誘導電動機",
+        "すべり",
+        "効率",
+        "同期発電機",
+        "ベクトル図",
+        "V曲線"
+      ],
+      "summary": "3−1 定格電圧 200V・定格出力 1.7kW・60Hz の三相かご形誘導電動機（無負荷 1800rpm、全負荷 1710rpm、力率 85%、一次電流 7.0A、二次 Y 結線、各相 0.2Ω）について (i) 極数、(ii) すべり、(iii) 二次誘導起電力の周波数、(iv) 効率、(v) 1440rpm で定格トルクを得るための二次抵抗。3−2 非突極型三相同期発電機の等価回路（図3）について (i) ベクトル図、(ii) E0、(iii) 有効電力、(iv) 同期電動機のベクトル図、(v) V 曲線。",
+      "review": {
+        "status": "verified",
+        "notes": "見出し「電気機器」と 3−1・3−2、図3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-seigyo/osaka-ee-2010-seigyo-q3-01.png",
+          "page": 4,
+          "box": [
+            77.0,
+            91.0,
+            526.0,
+            758.0
+          ],
+          "width": 1347,
+          "height": 2001,
+          "label": "電気機器：見出し、3−1（誘導電動機の特性）と 3−2（同期発電機のベクトル図・図3）",
+          "sha256": "0a89d09f894e21cf0188c36d804e5d3b2425c4982aea386eab237d69dff290fd"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-seigyo-q4",
+      "number": "4",
+      "title": "パワーエレクトロニクス：降圧チョッパと三相インバータ",
+      "titleKind": "editorial",
+      "topics": [
+        "降圧チョッパ",
+        "デューティ比",
+        "リプル電流",
+        "三相インバータ",
+        "PWM",
+        "基本波振幅"
+      ],
+      "summary": "4−1 図4−1(a) の降圧チョッパ（電池 E1、スイッチ S1,S2、ダイオード D1,D2、C、負荷 A）について (i) 純抵抗 R を接続し S1 を図4−1(b) のように動作させたときの E1 と E0 の関係・インダクタ電圧/電流波形・リプル電流、(ii) E2 を接続して E1 を充電する場合のスイッチ動作。4−2 図4−2(a) の三相インバータ（S1〜S4、D1〜D4）について (i) 誘導性負荷の電圧・電流波形と導通素子、(ii) i(0) と i(π) の関係、(iii) 図4−2(c) の動作での v_out 波形と基本波振幅 V1。",
+      "review": {
+        "status": "verified",
+        "notes": "見出し「パワーエレクトロニクス」と 4−1・4−2、図4−1(a)(b)・図4−2(a)(b)(c)。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-seigyo/osaka-ee-2010-seigyo-q4-01.png",
+          "page": 5,
+          "box": [
+            45.0,
+            41.0,
+            589.7,
+            819.0
+          ],
+          "width": 1635,
+          "height": 2334,
+          "label": "パワーエレクトロニクス：見出し、4−1（降圧チョッパ・図4−1）と 4−2（三相インバータ・図4−2）",
+          "sha256": "868e20bea83da5285ba2306f2f21a4eb593518f6d8b8d4ea6a218bcf2d5318c1"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-seigyo-q5",
+      "number": "5",
+      "title": "信号処理：DFT/FFT と離散時間系の周波数応答",
+      "titleKind": "editorial",
+      "topics": [
+        "DFT",
+        "FFT",
+        "IDFT",
+        "インパルス応答",
+        "周波数応答",
+        "3dB帯域幅"
+      ],
+      "summary": "5−1 (i) x[n]=δ[n] の N 点 DFT、(ii) x[n]=1 の N 点 DFT、(iii) FFT による IDFT のアルゴリズム。5−2 図の遅延素子 D を含む系について (i) h[n]、(ii) H(Ω)、(iii) 振幅特性・位相特性の図示、(iv) 3dB 帯域幅。",
+      "review": {
+        "status": "verified",
+        "notes": "見出し「信号処理」と 5−1・5−2、ブロック図。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-seigyo/osaka-ee-2010-seigyo-q5-01.png",
+          "page": 6,
+          "box": [
+            38,
+            57.0,
+            544.0,
+            561.0
+          ],
+          "width": 1518,
+          "height": 1512,
+          "label": "信号処理：見出し、5−1（DFT/FFT）と 5−2（遅延素子系・ブロック図）",
+          "sha256": "ce1b006524f0258e958d9c2dc44ccf5c59acc0057d3a00e3c5616236f06f5767"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-seigyo-q6",
+      "number": "6",
+      "title": "論理回路：BCD 加算回路",
+      "titleKind": "editorial",
+      "topics": [
+        "BCDコード",
+        "全加算器",
+        "真理値表",
+        "最小積和形",
+        "桁上げ検出"
+      ],
+      "summary": "BCD コードの 1 桁加算回路（図1、FA の記号は図2）について (i) 全加算器の真理値表と f,co の最小積和形、(ii) FA による 4 桁加算回路、(iii) C''_d の論理式と回路、(iv) S の補正と図1中③の回路。",
+      "review": {
+        "status": "verified",
+        "notes": "見出し「論理回路・計算機システム」と問題6、図1・図2。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-seigyo/osaka-ee-2010-seigyo-q6-01.png",
+          "page": 7,
+          "box": [
+            67.0,
+            65.0,
+            526.0,
+            743.0
+          ],
+          "width": 1377,
+          "height": 2034,
+          "label": "論理回路：見出し、BCD 加算回路の説明、図1・図2、小問 (i)〜(iv)",
+          "sha256": "ba22267d1f889aa3d0326ffaebd9ab094060436fd1ae5b3b2dc7bb823c83a341"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-seigyo-q7",
+      "number": "7",
+      "title": "基本アルゴリズム：パケットソートとクラスカル法",
+      "titleKind": "editorial",
+      "topics": [
+        "パケットソート",
+        "クラスカル法",
+        "最小木",
+        "貪欲法",
+        "計算量",
+        "C言語"
+      ],
+      "summary": "7−1 パケットソート（プログラムA）の空欄 (1)(2)、j=3 の配列 a、時間計算量と得失。7−2 クラスカル法（プログラムB、図7(a)(b)(c)）で (i) 局所最適を続ける方法の名称、(ii) 枝が選ばれないときの集合の関係、(iii) 空欄 (3)〜(6)、(iv) ite=2 以降の状態、(v) 計算量のオーダー。",
+      "review": {
+        "status": "verified",
+        "notes": "見出し「基本アルゴリズム・プログラミング」、p8 の 7−1、p9 の 7−2 と図7、p10 のプログラムB の 3 region。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-seigyo/osaka-ee-2010-seigyo-q7-01.png",
+          "page": 8,
+          "box": [
+            68.0,
+            109.0,
+            531.0,
+            603.0
+          ],
+          "width": 1389,
+          "height": 1482,
+          "label": "基本アルゴリズム：見出し、7−1 の説明とプログラムA",
+          "sha256": "8592cfdc9824b9449b0d0c6a2a6bedaa6e64fb326363f3ccbf384c6f24d7206b"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-seigyo/osaka-ee-2010-seigyo-q7-02.png",
+          "page": 9,
+          "box": [
+            68.0,
+            111.0,
+            534.0,
+            689.0
+          ],
+          "width": 1398,
+          "height": 1734,
+          "label": "7−2 クラスカル法の説明、図7(a)(b)(c)、小問 (i)〜(v)",
+          "sha256": "75b014aa02b44943594f0e99270cb15e6af7fcd3470a1b83fd2a0259b06c473c"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-seigyo/osaka-ee-2010-seigyo-q7-03.png",
+          "page": 10,
+          "box": [
+            82.0,
+            115.0,
+            517.0,
+            596.0
+          ],
+          "width": 1305,
+          "height": 1443,
+          "label": "7−2 続き：プログラムB のソース（空欄 (3)〜(6)）",
+          "sha256": "86641c0fa249f63bfc84c8f7e37d61c7d8650cfc5f1b6e590ea1f870ed90a309"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2010-seigyo-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2010-seigyo-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2010-seigyo-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2010-seigyo-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2010-seigyo-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2010-seigyo-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2010-seigyo-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2010-seigyo-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2010-seigyo-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    }
+  ]
+}

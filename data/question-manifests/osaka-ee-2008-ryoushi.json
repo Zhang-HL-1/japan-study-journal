@@ -1,0 +1,350 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2008-ryoushi",
+ "title": "大阪大学 · 2008 入学年度 · 前身科目：量子電子物性",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2008",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2008,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：量子電子物性）",
+  "originalSubject": "量子電子物性",
+  "originalName": "量子电子物性.pdf",
+  "pdf": "assets/past-papers/documents/cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68.pdf",
+  "sha256": "cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68",
+  "pageCount": 10,
+  "note": "「2008 年度入学試験（実施年 2007）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    60.0,
+    385.0,
+    556.0,
+    677.0
+   ],
+   "label": "【注意事項】：問題は 5 問、このうち 3 問を選択して解答、配点は 1 問 40 点、解答用紙は問題ごとに指定の色"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2008-ryoushi-q1",
+   "number": "問題1",
+   "title": "量子力学：井戸型ポテンシャル中の電子の波動関数とエネルギー準位",
+   "titleKind": "editorial",
+   "topics": [
+    "量子力学",
+    "井戸型ポテンシャル",
+    "シュレーディンガー方程式",
+    "波動関数",
+    "エネルギー固有値",
+    "規格化",
+    "期待値"
+   ],
+   "summary": "問題 1（40 点）幅 a の 1 次元井戸型ポテンシャル（0<x<a で V=0、外側で V=∞）に閉じ込められた電子について、シュレーディンガー方程式を解いて波動関数 ψ_n(x) とエネルギー固有値 E_n を求め、規格化・直交性・運動量や位置の期待値、零点エネルギーなどを問う空欄補充形式の設問（問 1〜問 3）に答える。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      56.5,
+      67.5,
+      565.5,
+      760.5
+     ],
+     "label": "問題 1：井戸型ポテンシャルの設定と 問 1・問 2（波動関数の導出）"
+    },
+    {
+     "page": 3,
+     "box": [
+      57.0,
+      69.5,
+      565.5,
+      760.5
+     ],
+     "label": "問題 1：問 3 以降（固有値・期待値・規格化の空欄補充）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 2・3 頁の 2 頁で 1 題（40 点）。表題「問題 1」、ポテンシャル図、問 1〜問 3 の空欄を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-ryoushi-q2",
+   "number": "問題2",
+   "title": "固体物性：カリウムの結晶格子と X 線回折、ホール係数、イオン化エネルギー",
+   "titleKind": "editorial",
+   "topics": [
+    "結晶格子",
+    "体心立方格子",
+    "X 線回折",
+    "ブラッグ条件",
+    "ホール効果",
+    "キャリア密度",
+    "イオン化エネルギー"
+   ],
+   "summary": "問題 2（40 点）[I] カリウムの結晶構造（体心立方格子）について、格子定数・原子密度・最近接原子間距離、X 線回折（ブラッグ条件）による回折角、ホール効果の測定から求まるキャリア密度とホール移動度などを空欄補充形式で求める。[II] 表 2 のデータを用いて、カリウム原子のイオン化エネルギーなどを求める。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      56.0,
+      69.0,
+      558.5,
+      663.0
+     ],
+     "label": "問題 2：[I] カリウムの結晶格子・X 線回折・ホール効果（空欄補充）"
+    },
+    {
+     "page": 5,
+     "box": [
+      56.5,
+      68.0,
+      558.5,
+      517.0
+     ],
+     "label": "問題 2：[II] 表 2 のデータと設問"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 4・5 頁の 2 頁で 1 題（40 点）。表題「問題 2」、結晶格子の図、[II] の表 2、頁をまたぐ設問番号の連続を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-ryoushi-q3",
+   "number": "問題3",
+   "title": "半導体：n 型半導体のキャリア密度と温度依存性",
+   "titleKind": "editorial",
+   "topics": [
+    "半導体",
+    "n 型",
+    "キャリア密度",
+    "フェルミ準位",
+    "ドナー準位",
+    "温度依存性",
+    "真性キャリア"
+   ],
+   "summary": "問題 3（40 点）n 型半導体について、ドナー濃度・真性キャリア密度・フェルミ準位の位置関係から、低温（凍結領域）・中間温度域（飽和領域）・高温域（真性領域）における電子密度の温度依存性を空欄補充形式で導く。電荷中性条件と質量作用の法則を用いてキャリア密度を求め、伝導度・ホール係数との関係を問う。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      57.0,
+      69.0,
+      557.5,
+      760.5
+     ],
+     "label": "問題 3：n 型半導体のキャリア密度（空欄補充）"
+    },
+    {
+     "page": 7,
+     "box": [
+      56.5,
+      67.5,
+      558.0,
+      695.5
+     ],
+     "label": "問題 3：温度依存性と設問の続き"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 6・7 頁の 2 頁で 1 題（40 点）。表題「問題 3」、キャリア密度の温度依存グラフ、空欄の連続を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-ryoushi-q4",
+   "number": "問題4",
+   "title": "誘電体：分極・局所電場・クラウジウス–モッソティの関係と強誘電体",
+   "titleKind": "editorial",
+   "topics": [
+    "誘電体",
+    "分極",
+    "局所電場",
+    "ローレンツ場",
+    "クラウジウス–モッソティ",
+    "比誘電率",
+    "強誘電体",
+    "チタン酸バリウム"
+   ],
+   "summary": "問題 4（40 点）[I]〜[III] 誘電体の分極と局所電場について、双極子モーメント・分極 P と電界 E の関係、ローレンツの局所電場、クラウジウス–モッソティの関係式を空欄補充形式で導き、比誘電率と分極率の関係を求める。[IV] 強誘電体（チタン酸バリウム BaTiO3）の自発分極と結晶構造の変化について、与えられた表・図から考察する。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      58.0,
+      67.0,
+      562.5,
+      740.0
+     ],
+     "label": "問題 4：[I]〜[III] 分極と局所電場・クラウジウス–モッソティの関係"
+    },
+    {
+     "page": 9,
+     "box": [
+      56.5,
+      73.5,
+      559.0,
+      185.0
+     ],
+     "label": "問題 4：[IV] 強誘電体 BaTiO3 の設問（同頁上部）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 8 頁と第 9 頁上部。第 9 頁は [IV] が頁上部で終わり、途中から次の問題 5 が始まるため、y≈185 pt で分割し上側のみを問題 4 に割当。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-ryoushi-q5",
+   "number": "問題5",
+   "title": "磁性：フント則・交換相互作用と強磁性体の磁化",
+   "titleKind": "editorial",
+   "topics": [
+    "磁性",
+    "フント則",
+    "交換相互作用",
+    "強磁性",
+    "磁化",
+    "キュリー温度",
+    "スピン"
+   ],
+   "summary": "問題 5（40 点）磁性体の磁化について、原子の電子配置とフント則による磁気モーメント、交換相互作用による自発磁化、強磁性体の磁化の温度依存性（キュリー温度・キュリー–ワイスの法則）などを空欄補充形式で問う。与えられた表の元素・イオンの磁気モーメントを計算し、実測値と比較する設問を含む。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      56.5,
+      245.0,
+      559.0,
+      754.0
+     ],
+     "label": "問題 5：表題「問題 5」から頁末までの設問"
+    },
+    {
+     "page": 10,
+     "box": [
+      56.5,
+      69.5,
+      557.0,
+      289.0
+     ],
+     "label": "問題 5：設問の続きと空欄補充"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 9 頁下部（y≈245 pt 以降、表題「問題 5」から）と第 10 頁。第 9 頁の頁番号「9 / 10」（y≈763）は箱に含めない。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头标题・実施日時・页脚とスキャン余白；注意事項は commonRegions に収録。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2008-ryoushi-q1"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2008-ryoushi-q1"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2008-ryoushi-q2"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2008-ryoushi-q2"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2008-ryoushi-q3"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2008-ryoushi-q3"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2008-ryoushi-q4"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2008-ryoushi-q4",
+    "osaka-ee-2008-ryoushi-q5"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2008-ryoushi-q5"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

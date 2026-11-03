@@ -1,0 +1,341 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2009-ryoushi",
+ "title": "大阪大学 · 2009 入学年度 · 前身科目：量子电子物性",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2009",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2009,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：量子电子物性）",
+  "originalSubject": "量子电子物性",
+  "originalName": "量子电子物性.pdf",
+  "pdf": "assets/past-papers/documents/d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0.pdf",
+  "sha256": "d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0",
+  "pageCount": 9,
+  "note": "「2009 年度入学試験（実施年 2008）；旧制 7 科目分册，非课程制」本册为「量子電子物性」選択科目試験問題（問題は5題・各40点、全9ページ）。試験日 平成20年8月19日 13:00–16:00。"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    50.0,
+    390.0,
+    547.0,
+    682.0
+   ],
+   "label": "【注意事項】：問題は5題（各40点）、問題ごとの解答用紙の色（白・赤・青・黄・水色）、答案の書き方、問題用紙は表紙を含め9ページ"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2009-ryoushi-q1",
+   "number": "問題 1",
+   "title": "量子電子物性：立方体井戸中の電子の波動関数・エネルギー固有値と縮退",
+   "titleKind": "editorial",
+   "topics": [
+    "量子力学",
+    "シュレーディンガー方程式",
+    "井戸型ポテンシャル",
+    "固有値",
+    "規格化",
+    "縮退",
+    "周期的境界条件"
+   ],
+   "summary": "問題1（40 点）。1 辺 a の立方体に完全に閉じ込められた電子の定常状態を、3 次元シュレーディンガー方程式（式(1)）から 3 つの 1 次元問題（式(2)(3)）へ帰着して解く。波動関数の境界条件（式(4)）から k_x（式(6)）、エネルギー固有値（式(7)）、基底状態、縮退を空欄 ①–⑧ で埋める（図1）。問1 空欄 ①–⑧、問2 (i)(ii) 係数 A,B と規格化波動関数、(iii) 縮退した状態、(iv) x・p_x・p_x² の期待値、問3 周期的境界条件の表式。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      48.0,
+      70.0,
+      547.0,
+      769.0
+     ],
+     "label": "問題1：立方体井戸のシュレーディンガー方程式 (1)–(6)＋図1"
+    },
+    {
+     "page": 3,
+     "box": [
+      48.0,
+      70.0,
+      547.0,
+      539.0
+     ],
+     "label": "問題1（続き）：固有値・縮退 (7)＋問1–問3（期待値・周期的境界条件）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "問題1 は p2–p3 の 2 頁。図1（立方体と座標軸）を p2 の box に収録し、問1–問3 の本文末（p3）まで 2 region で覆う。頁脚「N / 9」は除外。"
+   }
+  },
+  {
+   "id": "osaka-ee-2009-ryoushi-q2",
+   "number": "問題 2",
+   "title": "量子電子物性：自由電子モデルによるフェルミ面と状態密度（2次元・3次元）",
+   "titleKind": "editorial",
+   "topics": [
+    "自由電子モデル",
+    "フェルミエネルギー",
+    "フェルミ速度",
+    "状態密度",
+    "k空間",
+    "スピン"
+   ],
+   "summary": "問題2（40 点）。金属の自由電子モデルについて、問1 絶対零度の 2 次元正方形（面積 S）中の自由電子 N₀ 個について (1) フェルミエネルギー ε_F と k_F の関係、(2) k 空間で占める面積、(3) N₀ と k_F（スピン考慮）、(4) フェルミ速度、(5) 状態数 N(ε)、(6) 状態密度 𝒟(ε) が一定であること。問2 3 次元立方体（体積 V）について (1) k 空間体積、(2) N₀ と k_F、(3) 𝒟(ε)∝√ε。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      48.0,
+      70.0,
+      547.0,
+      417.0
+     ],
+     "label": "問題2：自由電子モデル 2次元・3次元のフェルミ面と状態密度"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "問題2 は p4 の 1 頁で完結（図なし、本文と式のみ）。頁脚「4 / 9」は除外。"
+   }
+  },
+  {
+   "id": "osaka-ee-2009-ryoushi-q3",
+   "number": "問題 3",
+   "title": "量子電子物性：pn 接合の空乏層・電界分布・拡散電位と光学遷移",
+   "titleKind": "editorial",
+   "topics": [
+    "半導体",
+    "pn接合",
+    "ポアソン方程式",
+    "空乏層",
+    "拡散電位",
+    "結晶構造",
+    "光学遷移",
+    "バンドギャップ"
+   ],
+   "summary": "問題3（40 点）。1 次元線形傾斜の電荷分布 Q(x)=qax をもつ pn 接合について、電気的中性条件から p 型空乏層幅（①）、ポアソン方程式から電界 E(x)（②）と電位 V(x)（③）、境界条件 V(b)=V_d/2 から空乏層幅 b（④）、電界最大の位置（⑤）と E_max（⑥）を求める（図1）。問1 空欄 ①–⑥、問2 Si 単結晶の結晶構造、問3・問4 Si／GaAs の光学遷移（間接/直接）、問5 GaP_xAs_{1−x} の発光ピーク 680 nm に対応するバンドギャップ（eV、有効数字 2 桁）。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      48.0,
+      70.0,
+      547.0,
+      757.0
+     ],
+     "label": "問題3：pn 接合の空乏層と電界分布 (1)–(6)＋図1"
+    },
+    {
+     "page": 6,
+     "box": [
+      49.0,
+      88.0,
+      546.0,
+      235.0
+     ],
+     "label": "問題3：問1–問5（空欄 ①–⑥・結晶構造・光学遷移・発光波長）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "問題3 は p5–p6 上半分。図1（Q(x) の分布と空乏層）を図号とも p5 の box 内に収録し、p6 は問1–問5 の末尾（y≈229）まで。同時に p6 下半分で問題4 が始まるため、p6 は上下 2 region に分割した。"
+   }
+  },
+  {
+   "id": "osaka-ee-2009-ryoushi-q4",
+   "number": "問題 4",
+   "title": "量子電子物性：誘電体の分極と強誘電相転移（キュリー・ワイスの法則）",
+   "titleKind": "editorial",
+   "topics": [
+    "誘電体",
+    "分極",
+    "双極子",
+    "ランジェバン関数",
+    "キュリー・ワイス則",
+    "自発分極",
+    "強誘電性"
+   ],
+   "summary": "問題4（40 点）。誘電体の分極を双極子理論で展開し、式(1) の局所電界、式(2)(3) の平均双極子モーメントと分極、式(4) の帯電率 χ、式(5)(6) の高温近似から χ=C/(T−T₀)（キュリー・ワイスの法則）と T₀・C の表式（式(7)(8)）、さらに自発分極 P_s の式(9)–(12) を導く。空欄 (ア)–(キ) の語句と ①–⑨ の式を埋め、問2 具体例、問3 自発分極の発生と P_s の温度依存性の図示。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      48.0,
+      412.0,
+      547.0,
+      751.0
+     ],
+     "label": "問題4：誘電体の分極 (1)–(3)・局所電界とランジェバン関数"
+    },
+    {
+     "page": 7,
+     "box": [
+      48.0,
+      71.0,
+      547.0,
+      741.0
+     ],
+     "label": "問題4（続き）：χ=C/(T−T₀)・自発分極 (4)–(12)"
+    },
+    {
+     "page": 8,
+     "box": [
+      49.0,
+      70.0,
+      546.0,
+      286.0
+     ],
+     "label": "問題4（続き）：問1–問3（空欄 (ア)–(キ)・①–⑨・P_s の温度依存性）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "問題4 は p6 下半分から p8 上半分。p6 は問題3 と同一頁のため下半分だけを region とし（y≈412 から）、p7 全体と p8 の問3 末尾（y≈280）までを覆う。頁脚「N / 9」は除外。"
+   }
+  },
+  {
+   "id": "osaka-ee-2009-ryoushi-q5",
+   "number": "問題 5",
+   "title": "量子電子物性：物質の磁性（常磁性・反磁性・強磁性とフントの法則）",
+   "titleKind": "editorial",
+   "topics": [
+    "磁性",
+    "常磁性",
+    "反磁性",
+    "強磁性",
+    "キュリー温度",
+    "パウリ常磁性",
+    "フントの法則"
+   ],
+   "summary": "問題5（40 点）。常磁性イオン結晶の磁化率 χ_m と温度依存性、金属伝導電子のパウリ常磁性（フェルミ・ディラック分布の ε_F 近傍）、強磁性（自発磁化・キュリー温度 T_c・常磁性状態）、反磁性（χ_m<0、磁束密度の減少、希ガス・イオン結晶・共有結晶）を空欄 ①–⑮ で埋める。問1 空欄 ①–⑮、問2 常磁性体の 1/χ_m–T 図、問3 強磁性体の T>T_c での 1/χ_m–T 図（T_c を明記）、問4 Ni²⁺(3d⁸) の S・L・J（フントの法則）。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      48.0,
+      444.0,
+      548.0,
+      753.0
+     ],
+     "label": "問題5：磁性（常磁性・パウリ常磁性・強磁性・反磁性）空欄 ①–⑮"
+    },
+    {
+     "page": 9,
+     "box": [
+      48.0,
+      70.0,
+      547.0,
+      523.0
+     ],
+     "label": "問題5（続き）：問1–問4（空欄の補充・1/χ_m–T 図・フントの法則）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "問題5 は p8 下半分から p9。p8 は問題4 と同一頁のため下半分（y≈444 から）を region とし、p9 全体（問4 の末尾まで）を続けて覆う。頁脚「N / 9」は除外。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头封面标题、试验日期时刻、科目标题框与页脚印刷信息，只保留【注意事項】作为 common region；扫描空白边一并裁去。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2009-ryoushi-q1"
+   ],
+   "common": false,
+   "excluded": "裁去页眉、页脚「N / 9」页码与扫描空白边，只保留题面本身。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2009-ryoushi-q1"
+   ],
+   "common": false,
+   "excluded": "裁去页眉、页脚「N / 9」页码与扫描空白边，只保留题面本身。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2009-ryoushi-q2"
+   ],
+   "common": false,
+   "excluded": "裁去页眉、页脚「N / 9」页码与扫描空白边，只保留题面本身。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2009-ryoushi-q3"
+   ],
+   "common": false,
+   "excluded": "裁去页眉、页脚「N / 9」页码与扫描空白边，只保留题面本身。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2009-ryoushi-q3",
+    "osaka-ee-2009-ryoushi-q4"
+   ],
+   "common": false,
+   "excluded": "裁去页眉、页脚「N / 9」页码与扫描空白边，只保留题面本身。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2009-ryoushi-q4"
+   ],
+   "common": false,
+   "excluded": "裁去页眉、页脚「N / 9」页码与扫描空白边，只保留题面本身。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2009-ryoushi-q4",
+    "osaka-ee-2009-ryoushi-q5"
+   ],
+   "common": false,
+   "excluded": "裁去页眉、页脚「N / 9」页码与扫描空白边，只保留题面本身。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2009-ryoushi-q5"
+   ],
+   "common": false,
+   "excluded": "裁去页眉、页脚「N / 9」页码与扫描空白边，只保留题面本身。",
+   "reviewed": true
+  }
+ ]
+}

@@ -1,0 +1,834 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2009-denjien",
+  "title": "大阪大学 · 2009 入学年度 · 前身科目：电磁能源工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2009",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2009,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：电磁能源工学）",
+    "originalSubject": "电磁能源工学",
+    "originalName": "电磁能源工学.pdf",
+    "pdf": "assets/past-papers/documents/79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742.pdf",
+    "sha256": "79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742",
+    "pageCount": 17,
+    "note": "「2009 年度入学試験（実施年 2008）；旧制 7 科目分册，非课程制」本册为「電磁エネルギー工学」入試問題（問題は5題・問題1必答＋問題2–5から2題選択、問題用紙は表紙を含め17枚）。試験日 平成20年8月19日 13:00–16:00。",
+    "normalization": {
+      "derivedPdf": "assets/question-bank/osaka-ee-2009-denjien/normalized.pdf",
+      "derivedSha256": "7b864239df4428e2422f43a2050bf5333ea2c353fe248b19c21055f74ee08186",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 5,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 6,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 7,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 8,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 9,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 10,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 11,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 12,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 13,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 14,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 15,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 16,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 17,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        }
+      ]
+    }
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2009-denjien/common-01.png",
+      "page": 1,
+      "box": [
+        79.0,
+        312.0,
+        516.0,
+        589.0
+      ],
+      "width": 1311,
+      "height": 831,
+      "label": "【注意事項】：問題は5題（問題1必答＋問題2–5から2題選択）、解答用紙の色分け（白・赤・青・黄・水色）、問題用紙は表紙を含め17枚",
+      "sha256": "1c41999b3cf557717b7414bf75945a95d23ee1ebdd01ec285d31aff5d65afa99"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2009-denjien-q1",
+      "number": "問題 1",
+      "title": "電磁エネルギー工学：ばね振動子の単振動・減衰振動と気体分子運動論",
+      "titleKind": "editorial",
+      "topics": [
+        "機械振動",
+        "単振動",
+        "減衰振動",
+        "エネルギー",
+        "気体分子運動論",
+        "平均自由行程",
+        "マクスウェル分布",
+        "比熱"
+      ],
+      "summary": "問題[1]（解答用紙「白色」）。問1 はばねにつながれた物体の単振動をフックの法則から出発して空欄 (ア)–(カ) で定式化し（図1−1）、抵抗力を加えた減衰振動の解・固有振動・エネルギー減少を (キ)–(ソ) で問う。問2 は気体分子運動論で、平均自由行程・衝突回数・Maxwell 速度分布・2 乗平均速度・比熱を空欄 (タ)–(フ) と選択肢 (a)–(d) で埋める（選択肢表は p6 末尾）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "問題[1] は p2–p6 の 5 頁。問1 が p2–p3、問2 が p4–p6 で、p6 末尾に公式と選択肢表（行路長…エントロピー）があるため p6 は選択肢表まで box に含めた。各頁の頁脚番号は除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q1-01.png",
+          "page": 2,
+          "box": [
+            78.0,
+            90.0,
+            516.0,
+            775.0
+          ],
+          "width": 1314,
+          "height": 2055,
+          "label": "問題[1] 問1：ばね振動子の単振動 空欄 (ア)–(カ)＋図1−1",
+          "sha256": "e748ab09af7b71e3477508806bc8c3ef903120aa3369ca766c72cbcde023b71d"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q1-02.png",
+          "page": 3,
+          "box": [
+            79.0,
+            92.0,
+            516.0,
+            774.0
+          ],
+          "width": 1311,
+          "height": 2046,
+          "label": "問題[1] 問1（続き）：減衰振動の解とエネルギー (キ)–(ソ)",
+          "sha256": "00207b68ecd724336fd07dfd4da0fa0a26e1127e93c32d71b35b2c0f69365798"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q1-03.png",
+          "page": 4,
+          "box": [
+            76.0,
+            103.0,
+            518.0,
+            757.0
+          ],
+          "width": 1326,
+          "height": 1962,
+          "label": "問題[1] 問2：平均自由行程と衝突回数 空欄 (タ)–(テ)＋選択肢 (a)–(c)",
+          "sha256": "01e5b44a01ab57690a4248e30e4a5e5ec3cd07eb0f205c08c42d11140a0fb57b"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q1-04.png",
+          "page": 5,
+          "box": [
+            78.0,
+            99.0,
+            515.0,
+            752.0
+          ],
+          "width": 1311,
+          "height": 1959,
+          "label": "問題[1] 問2（続き）：相対速度と速度分布 空欄 (ナ)–(ノ)",
+          "sha256": "6671315be411490f1618c1062ecfb33f1f4e9a773f2663d262d83276d31a7d42"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q1-05.png",
+          "page": 6,
+          "box": [
+            76.0,
+            101.0,
+            515.0,
+            653.0
+          ],
+          "width": 1317,
+          "height": 1656,
+          "label": "問題[1] 問2（続き）：比熱 (ハ)–(フ)＋公式と選択肢表",
+          "sha256": "468de10a3e74df63767aa04adedef7e1e73f521c531a48a5688d20f83aac9a62"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-denjien-q2",
+      "number": "問題 2",
+      "title": "電磁エネルギー工学：プラズマ中の電磁波伝搬と分散関係・遮断",
+      "titleKind": "editorial",
+      "topics": [
+        "プラズマ",
+        "電磁波",
+        "マクスウェル方程式",
+        "分散関係",
+        "プラズマ振動数",
+        "屈折率",
+        "遮断"
+      ],
+      "summary": "問題[2]（解答用紙「赤色」）。一様な完全電離プラズマ中を伝搬する電磁波を、マクスウェル方程式（式(1)(2)）から出発し、運動方程式と電流の式を連立して空欄 (ア)–(テ) で整理する。分散関係 ω²=ω_p²+c²k²、屈折率、プラズマ振動数 ω_p、遮断、遮断密度を順に導く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "問題[2] は p7–p8 の 2 頁で完結（p8 末尾に「以上」）。p8 の本文末までを box に含め、頁脚番号は除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q2-01.png",
+          "page": 7,
+          "box": [
+            77.0,
+            95.0,
+            514.0,
+            749.0
+          ],
+          "width": 1311,
+          "height": 1962,
+          "label": "問題[2] 問1：マクスウェル方程式から分散関係まで (ア)–(カ)",
+          "sha256": "ccd4f2e00f220b898a1ff1d603aeec61417396c967157b7586ded5d29f879c1c"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q2-02.png",
+          "page": 8,
+          "box": [
+            78.0,
+            93.0,
+            515.0,
+            589.0
+          ],
+          "width": 1311,
+          "height": 1488,
+          "label": "問題[2] 問1（続き）：分散関係・遮断・プラズマ振動数 (キ)–(テ)（以上）",
+          "sha256": "e2008995f8975116fbb82d3827684152cf592a850967f2726b409950ad893236"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-denjien-q3",
+      "number": "問題 3",
+      "title": "電磁エネルギー工学：気体放電の α/γ 作用とパッシェン則",
+      "titleKind": "editorial",
+      "topics": [
+        "気体放電",
+        "α作用",
+        "γ作用",
+        "火花条件",
+        "パッシェン則",
+        "放電開始電圧"
+      ],
+      "summary": "問題[3]（解答用紙「青色」）。平行平板電極間に封入した気体の放電について、電子の電離増殖（α 作用）と陰極からの二次電子放出（γ 作用）を空欄 (ア)–(ケ)・(a)–(k) で定式化し（図3−1）、無限増殖の条件から火花条件 αL=(g)、放電開始電圧 V_s と PL の関係（パッシェン則）、極小値 (PL)min・(V_s)min を導く。問2 は V_s が極小値の前後で増加する理由の定性説明。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "問題[3] は p9–p11 の 3 頁。問1 が p9–p11 冒頭、問2（定性説明）が p11 下部。図3−1（真空容器と平行平板電極）は図号とも p9 の box 内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q3-01.png",
+          "page": 9,
+          "box": [
+            79.0,
+            97.0,
+            521.0,
+            739.0
+          ],
+          "width": 1326,
+          "height": 1926,
+          "label": "問題[3] 問1：α/γ 作用と火花条件 (ア)–(カ)＋図3−1",
+          "sha256": "24ff8ef2fa775a5f9bd6c5b5716c5bd6b59c74c8192b24c6413f5dd83f1e0452"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q3-02.png",
+          "page": 10,
+          "box": [
+            78.0,
+            98.0,
+            517.0,
+            759.0
+          ],
+          "width": 1317,
+          "height": 1983,
+          "label": "問題[3] 問1（続き）：無限増殖・火花条件・パッシェン則 (キ)–(k)",
+          "sha256": "79e40229d8aed30ae31ea7ea7ebbbc8eba9e8f4883c7d7864ee3177871ec336e"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q3-03.png",
+          "page": 11,
+          "box": [
+            80.0,
+            99.0,
+            518.0,
+            529.0
+          ],
+          "width": 1314,
+          "height": 1290,
+          "label": "問題[3] 問1（続き）：V_s の極小値と問2 定性説明",
+          "sha256": "42bce7c99737dc8ff05f1b02ac17aed22ff5419c6a8e2190b21191fdfb06e58c"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-denjien-q4",
+      "number": "問題 4",
+      "title": "電磁エネルギー工学：レーザー冷却と光の屈折・回折（フェルマー／ホイヘンス）",
+      "titleKind": "editorial",
+      "topics": [
+        "レーザー冷却",
+        "光子運動量",
+        "ドップラー効果",
+        "エネルギー保存",
+        "フェルマーの原理",
+        "スネルの法則",
+        "ホイヘンスの原理",
+        "回折"
+      ],
+      "summary": "問題[4]（解答用紙「黄色」）。問1 は 2 準位原子とレーザー光の相互作用を空欄 (ア)–(タ) で展開し、光子の吸収・自然放出による運動量変化から冷却・加熱の条件を導く。問2 は 1) フェルマーの原理からスネルの法則を導く（図4−1(a)(b)、空欄 (ア)–(オ)）、2) ホイヘンス−フレネルの原理により開口による回折と回折像内の縞模様をキーワード群 I・II で説明する（図4−2）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "問題[4] は p12–p15 の 4 頁。問1 が p12–p13、問2 が p14–p15。図4−1(a)(b)・図4−2 とキーワード群 I・II は図号・見出しごと box 内に収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q4-01.png",
+          "page": 12,
+          "box": [
+            79.0,
+            97.0,
+            532.0,
+            743.0
+          ],
+          "width": 1359,
+          "height": 1938,
+          "label": "問題[4] 問1：原子と光子の運動量交換 空欄 (ア)–(ケ)",
+          "sha256": "436d64d17c772ed1856913825c4a56f05b74f3b3156af5d5bcf304c4d6feba98"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q4-02.png",
+          "page": 13,
+          "box": [
+            80.0,
+            100.0,
+            531.0,
+            627.0
+          ],
+          "width": 1353,
+          "height": 1581,
+          "label": "問題[4] 問1（続き）：エネルギー保存・冷却/加熱の条件 (コ)–(タ)",
+          "sha256": "44c8cf8b46773188b1d3ad65058ea4e9819db9d69e4f963348d110f53195ae53"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q4-03.png",
+          "page": 14,
+          "box": [
+            80.0,
+            99.0,
+            517.0,
+            762.0
+          ],
+          "width": 1311,
+          "height": 1989,
+          "label": "問題[4] 問2 1)：フェルマーの原理からスネルの法則 (ア)–(オ)＋図4−1",
+          "sha256": "8f1d6f56ae5621bd9f875c6bd344f3ee4fbf02fe24c2e793ef917520b7cd4db0"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q4-04.png",
+          "page": 15,
+          "box": [
+            80.0,
+            99.0,
+            547.0,
+            602.0
+          ],
+          "width": 1401,
+          "height": 1509,
+          "label": "問題[4] 問2 2)：ホイヘンスの原理による回折の説明＋図4−2・キーワード群 I/II",
+          "sha256": "dd7a2945c3c48ac78c56185925639f964abf0f4e2e136bbd665bbb5a84a4dede"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-denjien-q5",
+      "number": "問題 5",
+      "title": "電磁エネルギー工学：イオン加速器とラザフォード後方散乱（RBS）分析",
+      "titleKind": "editorial",
+      "topics": [
+        "イオン加速器",
+        "RBS",
+        "運動量保存",
+        "エネルギー保存",
+        "散乱因子",
+        "スペクトル",
+        "半導体検出器"
+      ],
+      "summary": "問題[5]（解答用紙「水色」）。問1 はイオン加速器と RBS 装置の概略図（図5−1）について、(i) 加速器構成要素 (ア)–(キ)、(ii) RBS 測定系の要素 (a)–(d) を機器群から選び機能を述べる。(iii) 二体散乱の運動量・エネルギー保存から散乱因子 E₁/E₀ を空欄 (あ)–(き) で導く（図5−2）。(iv) 28Si/197Au 試料の RBS スペクトル（図5−3）で成分 (I)(II) とエッジ位置 P,Q,R のエネルギーを空欄 (A)–(E) で求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "問題[5] は p16–p17 の 2 頁。図5−1（装置概略図、空欄 (ア)–(キ)(a)–(d) を含む）・図5−2・図5−3 をそれぞれ box 内に収録し、機器群の列挙（イオン加速器構成機器群・RBS 測定系構成機器群）も切らずに含めた。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q5-01.png",
+          "page": 16,
+          "box": [
+            71.0,
+            100.0,
+            532.0,
+            751.0
+          ],
+          "width": 1383,
+          "height": 1953,
+          "label": "問題[5] 問1(i)(ii)：加速器・RBS 構成機器の選択＋図5−1",
+          "sha256": "2800fbd812b37a1c6fcf6b60ed512ea871b021f9e58ea0397b6cd4fbe6216e81"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-denjien/osaka-ee-2009-denjien-q5-02.png",
+          "page": 17,
+          "box": [
+            79.0,
+            98.0,
+            524.0,
+            744.0
+          ],
+          "width": 1335,
+          "height": 1938,
+          "label": "問題[5] 問1(iii)(iv)：散乱因子と RBS スペクトル＋図5−2・図5−3",
+          "sha256": "3a74afe9cd561d8af39c530e46e4b31b0a7429a2635b4a5e6460624c415d497b"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头封面标题、试验日期时刻、科目标题框与页脚印刷信息，只保留【注意事項】作为 common region；扫描空白边一并裁去。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q2"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q2"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q3"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q3"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q3"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q5"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [
+        "osaka-ee-2009-denjien-q5"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    }
+  ]
+}

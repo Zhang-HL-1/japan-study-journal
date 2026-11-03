@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2005-kairo",
+  "title": "大阪大学 · 2005 入学年度 · 前身科目：回路理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2005",
+    "school": "大阪大学",
+    "schoolId": "osaka",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2005,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：回路理论）",
+    "originalSubject": "回路理论",
+    "originalName": "回路理论.pdf",
+    "pdf": "assets/past-papers/documents/c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3.pdf",
+    "sha256": "c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3",
+    "pageCount": 6,
+    "note": "「2005 年度入学試験（実施年 2004）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2005-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        91.5,
+        433.5,
+        442.0,
+        638.0
+      ],
+      "width": 1052,
+      "height": 614,
+      "label": "表紙の注意事項：問題の数は5問、解答は問題1〜5をそれぞれ1〜5枚目の色別解答用紙に記入",
+      "sha256": "3ef03ca5f5a64c03a818114f7acefe218e9c8a2e18f51e2f4bcce4d7d3493f28"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2005-kairo-q1",
+      "number": "問 1",
+      "title": "問1：スイッチ切り替えを伴うRC・RL回路のラプラス変換による過渡応答",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "過渡応答",
+        "スイッチ",
+        "RC回路",
+        "RL回路"
+      ],
+      "summary": "図の回路において t<0 でスイッチ SW1 は閉じており SW2 は開いた状態で定常状態にある。t=0 で SW1 を開き SW2 を閉じるとき、(1) 図示の電圧 v(t) のラプラス変換 V(s) を求める、(2) R=3 Ω、C=1 F、L=2 H、E=1 V として t>0 の v(t) を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "頁全体で1問。回路図の E・C・L・R・v(t) の極性（+/−）と t=0 の矢印2か所を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-kairo/osaka-ee-2005-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            84.5,
+            84.5,
+            511.5,
+            433.0
+          ],
+          "width": 1282,
+          "height": 1046,
+          "label": "問1（20点）：スイッチ SW1/SW2 と t=0 の動作説明・小問 (1)(2)・回路図（E, C, L, R, v(t)）",
+          "sha256": "3b73b054fc109342e50be57477a4e5220428546cd1f206efc1b2b2672c1339a2"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-kairo-q2",
+      "number": "問 2",
+      "title": "問2：交流回路でインダクタ電流・抵抗電流がRに依存しない条件",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "実効値",
+        "インピーダンス",
+        "共振条件"
+      ],
+      "summary": "下図の回路について、(1) ω を角周波数[rad/s]としたとき 2ω^2LC=1 であればインダクタ L を流れる電流 I の実効値 Ie が抵抗 R に依存しないことを示す、(2) 抵抗 R を流れる電流 I_R が R の値に依存しないための条件を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "頁全体で1問。回路図の I・I_R の向きと電源 E の +/− を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-kairo/osaka-ee-2005-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            88.5,
+            84.0,
+            517.5,
+            414.5
+          ],
+          "width": 1288,
+          "height": 992,
+          "label": "問2（20点）：小問 (1)(2)・回路図（I, L, C, I_R, R, 交流電源 E）",
+          "sha256": "8f98fa668cca7fec60775740b93be25ad85798e4564f4eced84259a6637502b2"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-kairo-q3",
+      "number": "問 3",
+      "title": "問3：交流回路の開放電圧・駆動点インピーダンスとテブナン等価回路",
+      "titleKind": "editorial",
+      "topics": [
+        "テブナン等価回路",
+        "開放電圧",
+        "駆動点インピーダンス",
+        "フェーザ表示",
+        "従属電源"
+      ],
+      "summary": "下図の交流回路において i(t)=15 sin t [A]、R1=4 Ω、R2=2 Ω、C=0.25 F、L=3 H としたとき、1) ポート a-b の開放電圧フェーザ、2) 電流源 i(t) を開放除去したときのポート a-b の駆動点インピーダンス、3) ポート a-b から見たテブナン等価回路（フェーザ表示）を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "頁全体で1問。従属電流源 0.5i_0 と端子 a/b、i_0 の向きを収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-kairo/osaka-ee-2005-kairo-q3-01.png",
+          "page": 4,
+          "box": [
+            78.5,
+            92.5,
+            511.0,
+            382.5
+          ],
+          "width": 1298,
+          "height": 871,
+          "label": "問3（20点）：素子値の条件・小問 1)〜3)・回路図（i(t), R1, R2, L, C, 従属電流源 0.5i_0, 端子 a-b）",
+          "sha256": "237c1b35c754c2a3e64b975cb07396dc37a3f4cf0f0ee00fb2483b65864fc2e8"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-kairo-q4",
+      "number": "問 4",
+      "title": "問4：2ポート回路の伝送行列（F行列）と縦続接続・電圧比の関係",
+      "titleKind": "editorial",
+      "topics": [
+        "2ポート回路",
+        "伝送行列",
+        "F行列",
+        "縦続接続",
+        "ラプラス変換"
+      ],
+      "summary": "電圧・電流はすべてラプラス変換形として、(1) 破線で囲んだ部分回路を2ポートとし、その伝送行列 F1(s)（(V1,I1)^T = F1(s)(V2,−I2)^T を満たす行列）を求める、(2) 縦続接続であることを用いて実線で囲んだ2ポート N の伝送行列 F(s) を求める、(3) インダクタの初期電流をゼロとし、ポート1-1′ に電圧源 V_S(s)、ポート2-2′ に電圧源 V(s) を接続したとき I1(s)=0 であったとして、F=(A B; C D) のとき V(s)=DV_S(s) が成り立つことを示す。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "頁全体で1問。破線の部分回路・実線の2ポート N・端子番号 1,1′,2,2′ と V1,V2,I1,I2,I3,V3 を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-kairo/osaka-ee-2005-kairo-q4-01.png",
+          "page": 5,
+          "box": [
+            87.5,
+            91.0,
+            517.5,
+            501.5
+          ],
+          "width": 1291,
+          "height": 1232,
+          "label": "問4（20点）：伝送行列 F1(s) の式・小問 (1)〜(3)・2ポート回路図（V_S, R, L1, G1, L2, G2, V, N, 端子 1-1′/2-2′）",
+          "sha256": "fe03b3190d9fa96837aca580d167c29e0e4a2bfc8967596cd1ab36b4c61e303a"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-kairo-q5",
+      "number": "問 5",
+      "title": "問5：負帰還増幅回路の高域遮断周波数・利得の周波数特性と負帰還の効果",
+      "titleKind": "editorial",
+      "topics": [
+        "負帰還",
+        "高域遮断周波数",
+        "周波数特性",
+        "ボード線図",
+        "利得帯域幅積"
+      ],
+      "summary": "図a に示す負帰還増幅回路について、増幅器 A の電圧利得 A(f) の振幅周波数特性は図b で与えられ、位相周波数特性は −tan^−1(f/f_H)（f_H: 高域遮断周波数）、帰還回路の電圧帰還率 F=0.1 とする。(1) 負帰還増幅回路の高域遮断周波数を算出、(2) 電圧利得の振幅周波数特性の概略を図示、(3) 利得と帯域幅に対する負帰還の効果を述べる。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "頁全体で1問。図a（V_in, 増幅器 A(f), 帰還回路 F, V_out）と図b（縦軸 電圧利得 |A(f)| [dB]、横軸 周波数 f [Hz]、対数軸）を完全に収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-kairo/osaka-ee-2005-kairo-q5-01.png",
+          "page": 6,
+          "box": [
+            56.0,
+            75.5,
+            542.0,
+            785.0
+          ],
+          "width": 1458,
+          "height": 2129,
+          "label": "問5（20点）：増幅器 A(f)・帰還率 F=0.1 の条件・小問 (1)〜(3)・図a 負帰還増幅回路・図b 振幅周波数特性（0.1 Hz〜10^6 Hz、−20〜80 dB）",
+          "sha256": "bd421aa48755201594de0a4ed43dd4ded1e93cf3a20c6fc03f9c10e25642040a"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2005-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2005-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2005-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2005-kairo-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2005-kairo-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

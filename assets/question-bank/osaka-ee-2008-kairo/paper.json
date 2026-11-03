@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2008-kairo",
+  "title": "大阪大学 · 2008 入学年度 · 前身科目：回路理論",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2008",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2008,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：回路理論）",
+    "originalSubject": "回路理論",
+    "originalName": "回路理论.pdf",
+    "pdf": "assets/past-papers/documents/59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7.pdf",
+    "sha256": "59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7",
+    "pageCount": 6,
+    "note": "「2008 年度入学試験（実施年 2007）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2008-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        64.0,
+        464.0,
+        427.0,
+        744.0
+      ],
+      "width": 1089,
+      "height": 840,
+      "label": "【注意事項】：問題の数は 5 問、解答は問題 1 を 1 枚目（白色）〜問題 5 を 5 枚目（水色）の解答用紙に記入すること",
+      "sha256": "60954bf0b5b99fda3747368d9262e7ed33a6b787a5d41bb06dd0d9ae2bfbc945"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2008-kairo-q1",
+      "number": "問1",
+      "title": "RLC 回路：スイッチ開閉後の過渡応答とラプラス変換",
+      "titleKind": "editorial",
+      "topics": [
+        "RL 回路",
+        "スイッチ",
+        "初期値",
+        "ラプラス変換",
+        "振動解",
+        "減衰定数"
+      ],
+      "summary": "問 1（20 点）図 1 の回路で、t<0 ではスイッチ SW は閉じており定常状態にある。t=0 で SW を開くとき、R[Ω]、L[H]、C[F]、J[A] はすべて正の実数として、(1) SW を開く直前の電圧 v(t) の値 v(0⁻) と電流 i(t) の値 i(0⁻)、(2) 電流 i(t) のラプラス変換 I(s)、(3) L=1 H、C=1 F のとき i(t) が振動的な解を持つための R の範囲と振動の角周波数 ω を R の関数として求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 2 頁のみで完結。問 1（20 点）と (1)〜(3)、図 1 の回路（R に直列の SW、並列の C と L、電流源 J、+v(t)- の向き、t=0 の矢印）を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-kairo/osaka-ee-2008-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            54.0,
+            55.0,
+            547.5,
+            428.0
+          ],
+          "width": 1481,
+          "height": 1119,
+          "label": "問 1：回路図 図 1（R・L・C・SW・電流源 J）と (1)〜(3)",
+          "sha256": "67ed3a711b5c6bd969cccf90bc1a0cb84a1c85f39905312fa0d46f9b353b4e50"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2008-kairo-q2",
+      "number": "問2",
+      "title": "2 端子回路のインピーダンス：周波数に無関係となる条件",
+      "titleKind": "editorial",
+      "topics": [
+        "インピーダンス",
+        "直並列回路",
+        "周波数特性",
+        "交流回路"
+      ],
+      "summary": "問 2（20 点）角周波数 ω の正弦波交流回路におけるインピーダンスについて、(1) 図 2 の A-B 間のインピーダンスを求めよ。(2) 図 2 の A-B 間のインピーダンスが周波数 ω に無関係に一定となるために必要な L[H]、R[Ω]、C[F] が満たすべき関係式を求めよ。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 3 頁のみで完結。問 2（20 点）、(1)(2)、図 2 の回路（A 側 R と C の並列、B 側 R と L の並列を直列接続）と図番号を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-kairo/osaka-ee-2008-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            55.0,
+            55.0,
+            546.5,
+            365.0
+          ],
+          "width": 1475,
+          "height": 930,
+          "label": "問 2：(1)(2) と 図 2 の A-B 間回路（R・C・R・L）",
+          "sha256": "19594f79531a5c57f507618cc8fe36911f53923b884b7b13c2b7a208ee8f845b"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2008-kairo-q3",
+      "number": "問3",
+      "title": "交流回路：開放電圧・テブナン等価回路と負荷抵抗の周波数特性",
+      "titleKind": "editorial",
+      "topics": [
+        "交流回路",
+        "開放電圧",
+        "テブナンの定理",
+        "駆動点インピーダンス",
+        "周波数特性",
+        "フェーザ"
+      ],
+      "summary": "問 3（20 点）図 3a の交流回路について、I_0 は電流源の電流フェーザ（角周波数 ω、振幅 |I_0|[A]）、Ė はポート 1-1′ の開放電圧フェーザとして、(1) ポート 1-1′ の開放電圧フェーザ Ė、(2) 電流源 I_0 を開放除去したときのポート 1-1′ の駆動点インピーダンス、(3) ポート 1-1′ から見たテブナン等価回路、(4) ポート 1-1′ に抵抗 R_L を接続したとき（図 3b、R_1=1 Ω、R_2=0.5 Ω、R_3=0.5 Ω、C=1 F、|I_0|=1 A）に R_L の両端に発生する電圧フェーザ V̇_R を求め、V̇_R の振幅 |V̇_R|[V] の ω 依存性の概形を示す（ω=0、ω=∞ のときの |V̇_R| の値を示すこと）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 4 頁のみで完結。問 3（20 点）、(1)〜(4)、図 3a（電流源 I_0・R_1・R_2・C・ポート 1-1′・Ė）と図 3b（R_L と V̇_R を付加）の 2 図および記号を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-kairo/osaka-ee-2008-kairo-q3-01.png",
+          "page": 4,
+          "box": [
+            54.0,
+            58.5,
+            548.0,
+            613.0
+          ],
+          "width": 1482,
+          "height": 1664,
+          "label": "問 3：(1)〜(4) と 図 3a・図 3b の回路",
+          "sha256": "05e403d5a30ee95b89c791c799f8eb3f74f1fadbd453a149627c8e25d2c77dfc"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2008-kairo-q4",
+      "number": "問4",
+      "title": "2 ポート回路：伝送行列 F とアドミタンス行列 Y",
+      "titleKind": "editorial",
+      "topics": [
+        "2 ポート回路",
+        "伝送行列",
+        "アドミタンス行列",
+        "縦続接続",
+        "短絡"
+      ],
+      "summary": "問 4（20 点）ただし g[S] はコンダクタンス、抵抗は全て 1 Ω とする。(1) 図 4a に示す 2 ポート回路の伝送行列 F を求める。(2) 図 4b に示す 2 ポート回路のアドミタンス行列 Y を求める（一般に 2 ポート回路の伝送行列を F=[[A,B],[C,D]] とすると、その回路のアドミタンス行列は Y=[[D,-det F],[-1,A]]/B により求まる）。(3) 図 4b でポート 2-2′ を短絡した場合に I_1=-3/2·I_2 となるための g を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 5 頁のみで完結。問 4（20 点）、(1)〜(3)、図 4a（π 形 1 ポート相当の g 回路）と図 4b（I_1,I_2,V_1,V_2 を付した 3 段 g 回路）の 2 図を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-kairo/osaka-ee-2008-kairo-q4-01.png",
+          "page": 5,
+          "box": [
+            56.0,
+            69.0,
+            548.5,
+            643.5
+          ],
+          "width": 1478,
+          "height": 1724,
+          "label": "問 4：(1)〜(3) と 図 4a・図 4b の 2 ポート回路",
+          "sha256": "31550c43a69275beb8af1d18228f371ca1f2610391c8bfdf0c472505c2c827c8"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2008-kairo-q5",
+      "number": "問5",
+      "title": "LC 発振回路：トランジスタ等価回路の発振条件と発振周波数",
+      "titleKind": "editorial",
+      "topics": [
+        "LC 発振回路",
+        "トランジスタ",
+        "等価回路",
+        "発振条件",
+        "リアクタンス素子",
+        "発振周波数"
+      ],
+      "summary": "問 5（20 点）図 5a に示す LC 型発振回路について、インピーダンス Z_1、Z_2、Z_3 は純リアクタンス素子であり、Z_1=jX_1、Z_2=jX_2、Z_3=jX_3 とする。ただし I_b、I_c は電流フェーザである。(1) 図 5b に示すトランジスタの近似的等価回路を図 5a に適用して LC 型発振回路の発振条件を導出し、X_1、X_2、X_3 を用いて表す（β はエミッタ接地電流増幅率）。(2) インピーダンス Z_1、Z_2、Z_3 のリアクタンス素子にコイルやコンデンサを用いるとき、発振条件を満たす回路図について 2 種類を示し、そのような構成とした理由を述べる。(3) (2) で求めた二種類の発振回路について、それぞれの発振周波数を導出する。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "第 6 頁のみで完結。問 5（20 点）、(1)〜(3)、図 5a（Z_1・Z_2・Z_3 と I_b・I_c の向き）と図 5b（ベース B・コレクタ C・エミッタ E、r_b、βI_b）の 2 図を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2008-kairo/osaka-ee-2008-kairo-q5-01.png",
+          "page": 6,
+          "box": [
+            53.5,
+            55.5,
+            548.0,
+            473.0
+          ],
+          "width": 1484,
+          "height": 1253,
+          "label": "問 5：(1)〜(3) と 図 5a・図 5b の等価回路",
+          "sha256": "0a9ec3b811e16b682b81fbef4b5f6df398bd75e98a83343a3b8d599c27866768"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头标题・実施日時・页脚とスキャン余白；注意事項は commonRegions に収録。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2008-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2008-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2008-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2008-kairo-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2008-kairo-q5"
+      ],
+      "common": false,
+      "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

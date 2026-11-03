@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2010-denjiki",
+  "title": "大阪大学 · 2010 入学年度 · 前身科目：电磁理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2010",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2010,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：电磁理论）",
+    "originalSubject": "电磁理论",
+    "originalName": "电磁理论.pdf",
+    "pdf": "assets/past-papers/documents/9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535.pdf",
+    "sha256": "9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535",
+    "pageCount": 9,
+    "note": "「2010 年度入学試験（実施年 2009）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2010-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        85.0,
+        545.0,
+        538.0,
+        753.0
+      ],
+      "width": 1359,
+      "height": 624,
+      "label": "表紙の【注意】（4 問・各 25 点、第1志望コース欄と受験番号の記入）",
+      "sha256": "102ad6dd50ea5f832a0368617fe8b2a19ad6918344cbdbdb1f7f6ecd3d9a8f28"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2010-denjiki-q1",
+      "number": "問題1",
+      "title": "静電界：誘電体中の電束密度・境界条件・平行平板コンデンサ",
+      "titleKind": "editorial",
+      "topics": [
+        "電束密度",
+        "誘電率",
+        "分極",
+        "境界条件",
+        "平行平板コンデンサ",
+        "静電容量"
+      ],
+      "summary": "空欄補充形式。 [1] D=εE、D=ε0E+P と媒質境界の条件 n·(D1−D2)=ξ、n×(E1−E2)=0。 [2] 間隔 d・面積 S・誘電率 ε の平行平板コンデンサで E1、P、V、C、静電エネルギー W_e を求める。 [3] 誘電体を y 方向に半分引き抜いた場合（図2）の電荷密度 ξ'、ξ''、電界 E'、E''、V、C、W_e を求め、式(7)と比較してエネルギーの増減を選ぶ。",
+      "review": {
+        "status": "verified",
+        "notes": "頁跨ぎ（1-1、1-2）を 2 region で収録、図1・図2、式番号 (1)〜(12)、25点。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjiki/osaka-ee-2010-denjiki-q1-01.png",
+          "page": 2,
+          "box": [
+            47.0,
+            41.0,
+            552.0,
+            795.0
+          ],
+          "width": 1515,
+          "height": 2262,
+          "label": "問題1-1：電束密度・境界条件の空欄、平行平板コンデンサ（図1）、式(1)〜(6)",
+          "sha256": "80c20b7b6870a1ea658eb9a794072a59747a891f3a32d323d6fd04d125b1c931"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjiki/osaka-ee-2010-denjiki-q1-02.png",
+          "page": 3,
+          "box": [
+            48.0,
+            43.0,
+            552.0,
+            797.0
+          ],
+          "width": 1512,
+          "height": 2262,
+          "label": "問題1-2：エネルギーと誘電体を半分引き抜いた場合（図2）、式(7)〜(12)",
+          "sha256": "29dbc559b676c3db18536dcba020e680cba7f2d2f33dd0d8139e32a85dcfd457"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-denjiki-q2",
+      "number": "問題2",
+      "title": "定常電流の磁界：円柱電流とアンペアの法則・完全導体表面電流",
+      "titleKind": "editorial",
+      "topics": [
+        "アンペアの法則",
+        "磁界",
+        "円柱電流",
+        "ストークスの定理",
+        "面電流密度"
+      ],
+      "summary": "円柱座標で J=i_z J0 exp[ρ(r−R1)]（0≤r≤R1）、0（r>R1）の定常電流がつくる磁界を求める。積分形アンペアの法則、∮H·dl、r≤R1 と r>R1 の H、ρR1≪1 のテイラー近似、全電流 I、線電流の磁界との一致、内側半径 R2 の完全導体中空円筒内表面の面電流密度 K。",
+      "review": {
+        "status": "verified",
+        "notes": "頁跨ぎ（2-1、2-2）を 2 region、図（円柱と円周 C）、式(1)〜(11)、25点。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjiki/osaka-ee-2010-denjiki-q2-01.png",
+          "page": 4,
+          "box": [
+            38,
+            29.0,
+            589.3,
+            783.0
+          ],
+          "width": 1654,
+          "height": 2262,
+          "label": "問題2-1：円柱電流の磁界（図・式(1)〜(5)）",
+          "sha256": "6f5d0d6ebd970a655a4e7e9ebf000a6de6f7d0aad31a810b2e68077ea8e7aa02"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjiki/osaka-ee-2010-denjiki-q2-02.png",
+          "page": 5,
+          "box": [
+            38,
+            35.0,
+            589.3,
+            711.0
+          ],
+          "width": 1654,
+          "height": 2028,
+          "label": "問題2-2：近似・全電流・完全導体表面の面電流密度（式(6)〜(11)）",
+          "sha256": "a1097f31b55fea20be9e7ce068bb8cc0b092be95c7608dfe7b8b6c34fd7d3102"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-denjiki-q3",
+      "number": "問題3",
+      "title": "マクスウェルの方程式：変位電流と電磁波の波動方程式",
+      "titleKind": "editorial",
+      "topics": [
+        "アンペア・マクスウェルの法則",
+        "変位電流",
+        "連続の式",
+        "波動方程式",
+        "光速",
+        "誘電率"
+      ],
+      "summary": "空欄補充形式。微分形アンペアの法則 (1/μ0)∇×B=J、両辺の発散から連続の式が成り立たないこと、変位電流項 ∂D/∂t を加えたアンペア・マクスウェルの法則、∇·E=ρ/ε0 から連続の式を導く。続いて ∇×(∇×A) の公式とファラデー・マクスウェルの法則から真空中の波動方程式、伝搬速度 v=1/√(ε0μ0)、v と ε0 の数値を有効数字 2 桁で求める。",
+      "review": {
+        "status": "verified",
+        "notes": "頁跨ぎ（3-1、3-2）を 2 region、式番号なしの空欄、25点。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjiki/osaka-ee-2010-denjiki-q3-01.png",
+          "page": 6,
+          "box": [
+            80.0,
+            41.0,
+            529.0,
+            685.0
+          ],
+          "width": 1347,
+          "height": 1932,
+          "label": "問題3-1：アンペアの法則の拡張と変位電流、連続の式",
+          "sha256": "633061e8db66ed3465479e9d0f98403e69fcfe810f28d1a16061c3b5cec8c84f"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjiki/osaka-ee-2010-denjiki-q3-02.png",
+          "page": 7,
+          "box": [
+            38,
+            39.0,
+            531.0,
+            709.0
+          ],
+          "width": 1479,
+          "height": 2010,
+          "label": "問題3-2：波動方程式の導出と v・ε0 の数値",
+          "sha256": "ceb5cbbb276795727e4a06054a6b2e21fdc81593316433c7fd07ebabc0b3c0c9"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-denjiki-q4",
+      "number": "問題4",
+      "title": "電界中の電子運動：加速・減速と往復運動",
+      "titleKind": "editorial",
+      "topics": [
+        "電子の運動方程式",
+        "電界",
+        "エネルギー保存",
+        "等加速度運動",
+        "往復運動"
+      ],
+      "summary": "距離 d の平行平板電極間で、電子が電極A の原点から初速度ゼロで出発し、0≤t<t1 で V1、t≥t1 で −NV1 の電圧が印加される。運動方程式、速度 v_x、位置 x1、電極B に速度ゼロで到達する条件、t1、t2、折り返し時刻 t3、v_x3、電極A への到達速度 v_x4 と時刻 t4 を各式で表す。",
+      "review": {
+        "status": "verified",
+        "notes": "頁跨ぎ（4-1、4-2）を 2 region、図（電極と電圧）、式(1)〜(12)、25点。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjiki/osaka-ee-2010-denjiki-q4-01.png",
+          "page": 8,
+          "box": [
+            49.0,
+            41.0,
+            555.0,
+            797.0
+          ],
+          "width": 1518,
+          "height": 2268,
+          "label": "問題4-1：電極間の電圧波形と運動方程式、式(1)〜(5)",
+          "sha256": "2bcb51bcdef6b14de6da72e98baf7d64299b6822a8d77440f720411d480c66f1"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjiki/osaka-ee-2010-denjiki-q4-02.png",
+          "page": 9,
+          "box": [
+            47.0,
+            41.0,
+            554.0,
+            751.0
+          ],
+          "width": 1521,
+          "height": 2130,
+          "label": "問題4-2：到達条件・折り返し・電極A への到達（式(6)〜(12)）",
+          "sha256": "fcd35f63694e9a574356d12232f428eee1be6816ab1b237ab21c6fb0ed5b61f1"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2010-denjiki-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2010-denjiki-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2010-denjiki-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2010-denjiki-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2010-denjiki-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2010-denjiki-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2010-denjiki-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2010-denjiki-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2010-denjien",
+  "title": "大阪大学 · 2010 入学年度 · 前身科目：电磁能源工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2010",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2010,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：电磁能源工学）",
+    "originalSubject": "电磁能源工学",
+    "originalName": "电磁能源工学.pdf",
+    "pdf": "assets/past-papers/documents/0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4.pdf",
+    "sha256": "0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4",
+    "pageCount": 14,
+    "note": "「2010 年度入学試験（実施年 2009）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2010-denjien/common-01.png",
+      "page": 1,
+      "box": [
+        41.0,
+        309.0,
+        525.0,
+        617.0
+      ],
+      "width": 1452,
+      "height": 924,
+      "label": "表紙の【注意事項】（5 題・問題1 必須＋2〜5 から 2 題、解答用紙の色、14 枚）",
+      "sha256": "ea5efcd904995431992bf4d605d43d3226ab15073124be40bfbba77cfaca8c13"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2010-denjien-q1",
+      "number": "問題[1]",
+      "title": "電磁エネルギー工学：弦を伝わる波の反射・透過と熱力学過程",
+      "titleKind": "editorial",
+      "topics": [
+        "波動",
+        "反射波",
+        "透過波",
+        "境界条件",
+        "熱力学第1法則",
+        "エントロピー"
+      ],
+      "summary": "問1 線密度の異なる 2 本の弦の接続点 A に入射波 Y_i=sin[ω(t−x/v_i)] が入射するとき、反射波・透過波の式、連続条件と平滑条件、位相速度と張力・線密度の関係、ρ_i=4ρ_t の場合の反射波・透過波の振幅 R,S。問2 ピストン付きシリンダー（図2-1）で物質 A を加熱したときの温度変化（図2-2）から比熱 c_s,c_l、融解熱 L_f・蒸発熱 L_v の関係、気体の状態変化（断熱圧縮）・内部エネルギー・仕事・エントロピー変化 ΔS を空欄（ア）〜（ケ）と選択肢（a）〜（d）で答える。",
+      "review": {
+        "status": "verified",
+        "notes": "問1 は p2 と p3 の 2 region、問2 は p4 と p5 の 2 region。図1-1・図2-1・図2-2、式(1)〜(2)、選択肢ボックス。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q1-01.png",
+          "page": 2,
+          "box": [
+            28,
+            89.0,
+            529.0,
+            765.0
+          ],
+          "width": 1503,
+          "height": 2028,
+          "label": "問題[1] 問1：弦の反射・透過（図1-1、式(1)）",
+          "sha256": "3d2010b45534fa65bbf20f371256e48fd1262bad22174b04c6f9141b6641050a"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q1-02.png",
+          "page": 3,
+          "box": [
+            98.0,
+            91.0,
+            524.0,
+            199.0
+          ],
+          "width": 1278,
+          "height": 324,
+          "label": "問1 続き：式(2) と ρ_i=4ρ_t の場合の R,S",
+          "sha256": "4cfde9b50f0988e0400ac0138df210134b74a7f9498d297ce58870181f48d599"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q1-03.png",
+          "page": 4,
+          "box": [
+            37.0,
+            89.0,
+            537.0,
+            771.0
+          ],
+          "width": 1500,
+          "height": 2046,
+          "label": "問2：ピストン付きシリンダーと温度変化（図2-1・図2-2）、空欄（ア）〜（ウ）",
+          "sha256": "5bba8c8e0d73e03decceebe3cb23483406904d9055eba13c06e59c79483ea70f"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q1-04.png",
+          "page": 5,
+          "box": [
+            76.0,
+            87.0,
+            526.0,
+            629.0
+          ],
+          "width": 1350,
+          "height": 1626,
+          "label": "問2 続き：断熱圧縮・内部エネルギー・エントロピー（空欄（エ）〜（ケ）、選択肢）",
+          "sha256": "a75490cb60e6c2159678593dc86d03bb4cb3e1096ab91f0850d9b47c71bc8e74"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-denjien-q2",
+      "number": "問題[2]",
+      "title": "プラズマ中の電磁波分散関係と電子衝突・拡散",
+      "titleKind": "editorial",
+      "topics": [
+        "プラズマ",
+        "分散関係",
+        "プラズマ周波数",
+        "衝突断面積",
+        "拡散",
+        "移動度"
+      ],
+      "summary": "問1 真空中とプラズマ中のレーザー光の分散関係 ω²=c²k²、プラズマ角周波数 ω_p、ω²=ω_p²+c²k²、k の式、ω_p²/ω²>1 と <1 の場合の伝搬・減衰（exp(ikx) の表式）。問2 中性原子との衝突（断面積 σ、数密度 n_N）による電子ビームの減衰、平均自由行程 λ_m、衝突時間 τ、イオンとのクーロン衝突、衝突周波数 f_ei、1 次元等温プラズマの運動方程式と定常解、拡散係数。",
+      "review": {
+        "status": "verified",
+        "notes": "問1 は p6、問2 は p7 の各 1 region、図（衝突の模式図・電子ビーム）、式(1)〜(11)。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q2-01.png",
+          "page": 6,
+          "box": [
+            28,
+            89.0,
+            524.0,
+            751.0
+          ],
+          "width": 1488,
+          "height": 1986,
+          "label": "問題[2] 問1：プラズマの分散関係（式(1)〜(6)）",
+          "sha256": "80606052ec811723f2b16fb0c31970fcf3d4638622a83562b87ab1a55226db0f"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q2-02.png",
+          "page": 7,
+          "box": [
+            76.0,
+            91.0,
+            527.0,
+            769.0
+          ],
+          "width": 1353,
+          "height": 2034,
+          "label": "問2：電子衝突・平均自由行程・拡散（図、式(7)〜(11)）",
+          "sha256": "b416fef9dd0e78a0797c4a1bb2ad21988fef867220528a493aceef9c6860dd11"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-denjien-q3",
+      "number": "問題[3]",
+      "title": "一様静電磁場中のイオン運動（サイクロトロン運動とドリフト）",
+      "titleKind": "editorial",
+      "topics": [
+        "ローレンツ力",
+        "サイクロトロン周波数",
+        "ラーモア半径",
+        "ドリフト",
+        "等速直線運動"
+      ],
+      "summary": "電荷 e・質量 m のイオンが E=(0,E,0)、B=(0,0,B) の一様静電磁場中を運動する。ローレンツ力、E=0 の場合の x,y 成分の運動方程式、v_y を消去した式、角周波数 Ω と半径 r、初期条件での v_x,x,Ω,r、E≠0 の場合の v=u+w 分解、u の式、軌道（トロコイド）と y の最大値、x 軸方向に一定速度で運動する条件。",
+      "review": {
+        "status": "verified",
+        "notes": "頁跨ぎ（p8、p9）を 2 region、式(1)〜(6)、小問（Ⅰ）（Ⅱ）。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q3-01.png",
+          "page": 8,
+          "box": [
+            73.0,
+            89.0,
+            523.0,
+            773.0
+          ],
+          "width": 1350,
+          "height": 2052,
+          "label": "問題[3]：ローレンツ力と E=0 の円運動（式(1)〜(4)）",
+          "sha256": "e7b0268e3f68bbd38c57dda0c0613de0c391b9620e993be4c9b0f4a654fa6c4f"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q3-02.png",
+          "page": 9,
+          "box": [
+            28,
+            97.0,
+            584.0,
+            431.0
+          ],
+          "width": 1668,
+          "height": 1002,
+          "label": "問題[3] 続き：E≠0 のドリフトと軌道（式(5)(6)、小問（Ⅰ）（Ⅱ））",
+          "sha256": "6276b3b2731a71ae189ecb016d951083b5ed7c131b19b37cf46cb5fdc97c4337"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-denjien-q4",
+      "number": "問題[4]",
+      "title": "光量子工学：ローレンツ振動子モデルと複素屈折率",
+      "titleKind": "editorial",
+      "topics": [
+        "ローレンツモデル",
+        "分極",
+        "複素誘電率",
+        "複素屈折率",
+        "ドルーデ則",
+        "プラズマ周波数"
+      ],
+      "summary": "電磁波に対する物質の応答を古典的に扱う。電子の運動方程式（変位 r、共鳴角周波数 ω0、衝突確率 Γ）、各項の意味、1 次元（x 方向）の場合の変位 X、分極 P、χ、χ' と χ''、波動方程式、k=β+iα、減衰係数、複素屈折率 η=n+iκ と χ の関係、ドルーデ則（ω0=0）、金属の反射、無衝突プラズマ。",
+      "review": {
+        "status": "verified",
+        "notes": "頁跨ぎ（p10、p11）を 2 region、式(1)〜(13)、空欄（ア）〜（ツ）。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q4-01.png",
+          "page": 10,
+          "box": [
+            75.0,
+            89.0,
+            526.0,
+            779.0
+          ],
+          "width": 1353,
+          "height": 2070,
+          "label": "問題[4]：ローレンツ振動子の運動方程式と分極（式(1)〜(6)）",
+          "sha256": "94bef94aaaef226b722df2b5ceab7b24ab7ebb6dc8f725b9e4747b1dd3e7c3b6"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q4-02.png",
+          "page": 11,
+          "box": [
+            75.0,
+            93.0,
+            525.0,
+            661.0
+          ],
+          "width": 1350,
+          "height": 1704,
+          "label": "問題[4] 続き：波動方程式・複素屈折率・ドルーデ則（式(7)〜(13)）",
+          "sha256": "4395c0fe26153ed5f6635d340ba6d2318008f0aeb3e73ab45f07aa4094d04fa2"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-denjien-q5",
+      "number": "問題[5]",
+      "title": "空間電荷制限電流と X 線発生装置",
+      "titleKind": "editorial",
+      "topics": [
+        "ガウスの法則",
+        "ポアソンの式",
+        "空間電荷制限電流",
+        "3/2乗則",
+        "X線",
+        "連続X線"
+      ],
+      "summary": "問1 電束に関するガウスの法則・ファラデー・マクスウェルの法則・ポアソンの式を空欄で完成させ、平行平板電極間（電極1 で V=0、電極2 で V0、初速度 0）の空間電荷制限電流を、エネルギー保存と電流通続から V の微分方程式を導いて解き、J0 が V0^{3/2}/d² に比例する式（3/2 乗則）を導く。問2 図5-2 の X 線発生装置の構成要素（ア）〜（オ）の名称・材料・機能、連続 X 線スペクトル（図5-3）と加速電圧を上げたときの変化。",
+      "review": {
+        "status": "verified",
+        "notes": "問1 は p12・p13、問2 は p14 の 3 region、図5-1・図5-2・図5-3、式(1)〜(14)。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q5-01.png",
+          "page": 12,
+          "box": [
+            28,
+            89.0,
+            523.0,
+            775.0
+          ],
+          "width": 1485,
+          "height": 2058,
+          "label": "問題[5] 問1：ガウスの法則・ポアソンの式と電極間の電流（図5-1、式(1)〜(7)）",
+          "sha256": "684c697238ea2a3e89bf964e9753c87a25e350ba75e6fa68809309117581e670"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q5-02.png",
+          "page": 13,
+          "box": [
+            28,
+            95.0,
+            526.0,
+            781.0
+          ],
+          "width": 1494,
+          "height": 2058,
+          "label": "問1 続き：空間電荷制限電流の導出（式(8)〜(14)、3/2 乗則）",
+          "sha256": "2c118700ea99f045f62e8c9e04233c0db36e1d32a304a08b4b93c55c34cdb85d"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-denjien/osaka-ee-2010-denjien-q5-03.png",
+          "page": 14,
+          "box": [
+            28,
+            95.0,
+            530.0,
+            757.0
+          ],
+          "width": 1506,
+          "height": 1986,
+          "label": "問2：X 線発生装置の構成（図5-2）とスペクトル（図5-3）",
+          "sha256": "c538ba99c21d077c73199592bd6dcb2c85369b9a064680839b4284f7b6faf1cf"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "osaka-ee-2010-denjien-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    }
+  ]
+}

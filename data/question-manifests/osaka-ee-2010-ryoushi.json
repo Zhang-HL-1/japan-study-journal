@@ -1,0 +1,333 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2010-ryoushi",
+ "title": "大阪大学 · 2010 入学年度 · 前身科目：量子电子物性",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2010",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2010,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：量子电子物性）",
+  "originalSubject": "量子电子物性",
+  "originalName": "量子电子物性.pdf",
+  "pdf": "assets/past-papers/documents/1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6.pdf",
+  "sha256": "1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6",
+  "pageCount": 10,
+  "note": "「2010 年度入学試験（実施年 2009）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    53.0,
+    415.0,
+    554.0,
+    743.0
+   ],
+   "label": "表紙の【注意事項】（5 題・解答用紙の色、裏面使用、10 ページ）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2010-ryoushi-q1",
+   "number": "問題1",
+   "title": "量子電子物性：周期的ポテンシャル中の電子とブロッホの定理・エネルギー帯",
+   "titleKind": "editorial",
+   "topics": [
+    "シュレーディンガー方程式",
+    "周期的ポテンシャル",
+    "ブロッホの定理",
+    "エネルギー帯",
+    "禁制帯"
+   ],
+   "summary": "一次元の周期的ポテンシャル（図1-1）中の電子について、シュレーディンガー方程式の一般解、境界条件から得られる関係式 (1)、b→0・V0→∞ の極限での式 (2) を導く文章の空欄①〜⑦を埋め、問1 で各式、問2 でブロッホ関数・P=2 の場合の f(αa) のグラフ（図1-2）から式 (2) が成立する αa の範囲と ε-ka 関係（図1-3）、問3 でエネルギー帯と禁制帯の名称を答える。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      47.0,
+      59.0,
+      556.0,
+      785.0
+     ],
+     "label": "問題1：周期的ポテンシャルと一般解・境界条件（図1-1、式(1)）"
+    },
+    {
+     "page": 3,
+     "box": [
+      47.0,
+      61.0,
+      554.0,
+      683.0
+     ],
+     "label": "問題1 続き：式(2)、図1-2・図1-3、問1〜問3"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "notes": "頁跨ぎ（p2、p3）を 2 region、図1-1・図1-2・図1-3、式(1)(2)、問1〜問3。"
+   }
+  },
+  {
+   "id": "osaka-ee-2010-ryoushi-q2",
+   "number": "問題2",
+   "title": "自由電子ガスモデル：状態密度とフェルミエネルギー",
+   "titleKind": "editorial",
+   "topics": [
+    "自由電子ガス",
+    "状態密度",
+    "フェルミ・ディラック分布",
+    "フェルミエネルギー",
+    "フェルミ速度"
+   ],
+   "summary": "金属内部の自由電子に対するシュレーディンガー方程式と周期的境界条件から状態密度を求め、フェルミ・ディラック分布を経て全電子数 N を ε_F の関数として表す文章の空欄①〜⑥を埋める。問1 で各式、問2 で式(12) の⑥を導出過程付きで、問3 で ε_F・T_F・v_F・k_F を N で表し、電子密度 9π×10^27 m^-3 の場合の ε_F と v_F を有効数字 1 桁で求める。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      47.0,
+      61.0,
+      556.0,
+      774.0
+     ],
+     "label": "問題2：自由電子ガスモデルと状態密度（式(1)〜(7)）"
+    },
+    {
+     "page": 5,
+     "box": [
+      47.0,
+      61.0,
+      554.0,
+      786.0
+     ],
+     "label": "問題2 続き：状態密度・フェルミ分布・全電子数（式(8)〜(12)、問1〜問3）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "notes": "頁跨ぎ（p4、p5）を 2 region、式(1)〜(12)、問1〜問3、物理定数表。"
+   }
+  },
+  {
+   "id": "osaka-ee-2010-ryoushi-q3",
+   "number": "問題3",
+   "title": "MOSFET：動作原理・電流式・相互コンダクタンス",
+   "titleKind": "editorial",
+   "topics": [
+    "MOSFET",
+    "反転層",
+    "閾値電圧",
+    "ドレイン電流",
+    "相互コンダクタンス",
+    "飽和領域"
+   ],
+   "summary": "n チャネル MOSFET（図3-1）の構造と動作について、空欄（ア）〜（ケ）の語句と①〜④の数式を埋める。フラットバンド状態、空乏層、反転層、ピンチオフ、線形領域と飽和領域のドレイン電流式、相互コンダクタンス g_m。問1 で語句・数式、問2 で反転状態のエネルギーバンド図、問3 で C_ox=0.8μF/cm²、L=0.5μm、W=5μm、V_th=0.5V、V_G=2V、V_D=0.1V、μ_e=400cm²/Vs のときの I_D を有効数字 1 桁で求める。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      46.0,
+      59.0,
+      560,
+      786.0
+     ],
+     "label": "問題3：MOSFET の構造（図3-1）と動作の説明、式(1)(2)"
+    },
+    {
+     "page": 7,
+     "box": [
+      46.0,
+      61.0,
+      554.0,
+      730.0
+     ],
+     "label": "問題3 続き：電流式・g_m（式(3)〜(6)）、問1〜問3"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "notes": "頁跨ぎ（p6、p7）を 2 region、図3-1、式(1)〜(6)、問1〜問3。"
+   }
+  },
+  {
+   "id": "osaka-ee-2010-ryoushi-q4",
+   "number": "問題4",
+   "title": "誘電体：分極・複素誘電率の周波数分散と強誘電体",
+   "titleKind": "editorial",
+   "topics": [
+    "電子分極",
+    "イオン分極",
+    "配向分極",
+    "複素誘電率",
+    "強誘電体",
+    "キュリー温度"
+   ],
+   "summary": "[Ⅰ] 誘電体の 3 種の分極、クラウジウス・モソッティの式、誘電分散、電子分極の運動方程式（Γ、ω0）、変位 x、分極率 α_e、複素誘電率 κ=κ'+iκ'' の表式。[Ⅱ] 強誘電体の自発分極・分域・残留分極・抗電界、チタン酸バリウム BaTiO3 の相転移（393K）と立方晶ペロブスカイト構造。問1 で語句と数式、問2 で κ'−1 と κ'' の周波数依存性の概略図。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      47.0,
+      59.0,
+      556.0,
+      787.0
+     ],
+     "label": "問題4：誘電体の分極と複素誘電率（式(1)〜(6)、空欄（ア）〜（キ）（ク））"
+    },
+    {
+     "page": 9,
+     "box": [
+      47.0,
+      61.0,
+      554.0,
+      305.0
+     ],
+     "label": "問題4 続き：強誘電体（空欄（ケ）〜（ス））と問1・問2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "notes": "頁跨ぎ（p8、p9 上部）を 2 region、式(1)〜(6)、問1・問2。"
+   }
+  },
+  {
+   "id": "osaka-ee-2010-ryoushi-q5",
+   "number": "問題5",
+   "title": "磁性：磁気モーメントとラーモア歳差・磁化率",
+   "titleKind": "editorial",
+   "topics": [
+    "磁気モーメント",
+    "角運動量",
+    "ボーア磁子",
+    "ラーモア歳差",
+    "常磁性",
+    "強磁性",
+    "キュリー則"
+   ],
+   "summary": "原子核の周りの電子の円運動（図5-1）から環状電流 I、磁気モーメント μ、角運動量 l の関係を導き、外部磁界による誘導（反磁性）、トルク N=μ×B、dμ/dt の式、μ の歳差運動（図5-2）とラーモア周波数を求める文章の空欄①〜⑫と（ア）〜（ウ）を埋める。問1 で各式・語句、問2 でイオン性結晶の常磁性・強磁性の磁気モーメントの配列と χ_m の温度依存性（キュリーの法則）。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      46.0,
+      427.0,
+      556.0,
+      775.0
+     ],
+     "label": "問題5：磁気モーメントと角運動量（図5-1、空欄①〜④）"
+    },
+    {
+     "page": 10,
+     "box": [
+      46.0,
+      59.0,
+      558.0,
+      720.0
+     ],
+     "label": "問題5 続き：トルクと歳差運動（図5-2、空欄⑤〜⑫）、問1・問2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "notes": "問題5 は p9 下部と p10 の 2 region、図5-1・図5-2、式なし（空欄①〜⑫）、問1・問2。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2010-ryoushi-q1"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2010-ryoushi-q1"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2010-ryoushi-q2"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2010-ryoushi-q2"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2010-ryoushi-q3"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2010-ryoushi-q3"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2010-ryoushi-q4"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2010-ryoushi-q4",
+    "osaka-ee-2010-ryoushi-q5"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2010-ryoushi-q5"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  }
+ ]
+}
