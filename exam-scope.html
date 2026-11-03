@@ -79,6 +79,11 @@
             <label for="scope-school">学校</label><select id="scope-school"><option value="all">全部学校</option></select>
             <fieldset class="admission-switch"><legend>入试类型</legend><div><button type="button" data-admission="general" aria-pressed="true">一般入试</button><button type="button" data-admission="international" aria-pressed="false">留学生相关选拔</button></div></fieldset>
             <p class="scope-filter-note">留学生栏目包含外国人特别选考、英语项目及有海外学历出愿资格的一般选拔，均标明学校实际选拔名称。</p>
+            <label for="scope-graduate">研究科 / 学院</label><select id="scope-graduate" disabled><option value="all">等待添加研究科资料</option></select>
+            <label for="scope-department">专攻 / 系 / 课程</label><select id="scope-department" disabled><option value="all">等待添加专攻资料</option></select>
+            <label for="scope-field">教育研究分野 / 方向</label><select id="scope-field" disabled><option value="all">等待添加方向资料</option></select>
+            <label for="scope-year">适用入学年度</label><select id="scope-year" disabled><option value="all">等待添加年度资料</option></select>
+            <label for="scope-query">关键词</label><input id="scope-query" type="search" maxlength="100" placeholder="学校、专攻或考试科目" autocomplete="off" />
             <section class="scope-subject-filter" aria-labelledby="scope-subject-title">
               <div class="scope-filter-heading"><h4 id="scope-subject-title">考试科目（可多选）</h4><button id="scope-subject-clear" class="scope-plain" type="button">清除科目</button></div>
               <details id="scope-subject-picker"><summary id="scope-subject-summary">选择考试科目</summary>
@@ -89,12 +94,6 @@
               <div id="scope-subject-selected" class="scope-subject-selected" aria-label="已选考试科目"></div>
               <p class="scope-filter-note">多选需包含全部所选科目；必考、选答与免试条件请看原文。</p>
             </section>
-
-            <label for="scope-graduate">研究科 / 学院</label><select id="scope-graduate" disabled><option value="all">等待添加研究科资料</option></select>
-            <label for="scope-department">专攻 / 系 / 课程</label><select id="scope-department" disabled><option value="all">等待添加专攻资料</option></select>
-            <label for="scope-field">教育研究分野 / 方向</label><select id="scope-field" disabled><option value="all">等待添加方向资料</option></select>
-            <label for="scope-year">适用入学年度</label><select id="scope-year" disabled><option value="all">等待添加年度资料</option></select>
-            <label for="scope-query">关键词</label><input id="scope-query" type="search" maxlength="100" placeholder="学校、专攻或考试科目" autocomplete="off" />
             <a class="scope-practice-link" id="scope-school-link" href="schools.html"><span>同一所学校的资料</span><strong>打开院校汇总 →</strong></a>
             <a class="scope-practice-link" id="scope-papers-link" href="past-papers.html"><span>准备好范围之后</span><strong>查找对应过去问 →</strong></a>
           </aside>
