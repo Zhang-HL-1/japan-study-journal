@@ -59,8 +59,7 @@ test('Aoyama course filters open the current official range and keep foreign sco
  a.ids['scope-field'].value='機械創造コース';await a.ids['scope-field'].fire('change');assert.equal(a.ids['scope-results'].children.length,1);
  await a.ids['scope-results'].children[0].click();assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('一つの系の全ての問題')));
  const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');await source.children.find(e=>e.tag==='button').click();assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('2027_in_riko_September-1.pdf#page=14'));
- await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,10);
- a.ids['scope-field'].value='機械創造コース';await a.ids['scope-field'].fire('change');assert.equal(a.ids['scope-results'].children.length,2);
+ await a.tabs[1].click();assert.equal(a.ids['scope-field'].value,'機械創造コース');assert.equal(a.ids['scope-results'].children.length,2);
  await a.ids['scope-results'].children.find(e=>e.dataset.id==='aoyama-mechanical-international-private-2027').click();
  assert.ok(!a.ids['scope-detail'].children.some(e=>e.tag==='h4'&&e.textContent==='考试范围 · 官方原文'));
  assert.ok(a.ids['scope-detail'].children.some(e=>e.tag==='p'&&e.textContent.includes('没有公布')));
@@ -324,7 +323,7 @@ test('Science Tokyo original elective scope opens its actual PDF page and Englis
  const source=a.ids['scope-detail'].children.find(e=>e.className==='scope-source');
  await source.children.find(e=>e.tag==='button').click();
  assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=34'));
- await a.tabs[1].click();assert.equal(a.ids['scope-results'].children.length,70);
+ await a.tabs[1].click();assert.equal(a.ids['scope-department'].value,'電気電子系');assert.equal(a.ids['scope-results'].children.length,4);
  const igp=a.ids['scope-results'].children.find(e=>e.dataset.id==='science-ee-igpa-md');assert.ok(igp);
  await igp.click();
  assert.ok(a.ids['scope-detail'].children.some(e=>e.tag==='p'&&e.textContent.includes('Integrated Doctoral Education Program')&&e.textContent.includes('2027年秋')));
@@ -344,7 +343,7 @@ test('TUS filters retain original scope and PDF pages while distinguishing gener
  await source.children.find(e=>e.tag==='button').click();
  assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=17'));
  await a.tabs[1].click();
- assert.equal(a.ids['scope-results'].children.length,59);
+ assert.equal(a.ids['scope-department'].value,'情報理工学専攻');assert.equal(a.ids['scope-results'].children.length,2);
  const foreign=a.ids['scope-results'].children.find(e=>e.dataset.id==='tus-creative-information-foreign');assert.ok(foreign);
  await foreign.click();
  assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.textContent.includes('希望専攻分野に関する口頭試問')));
@@ -443,7 +442,7 @@ test('Waseda filters render original department scope and its official PDF page'
  await source.children.find(e=>e.tag==='button').click();
  assert.ok(source.children.find(e=>e.tag==='iframe').src.endsWith('#page=3'));
  await a.tabs[1].click();
- assert.equal(a.ids['scope-results'].children.length,42);
+ assert.equal(a.ids['scope-department'].value,'電子物理システム学専攻');assert.equal(a.ids['scope-results'].children.length,2);
  const ao=a.ids['scope-results'].children.find(e=>e.dataset.id==='waseda-electronic-physical-ao'); assert.ok(ao);
  await ao.click(); assert.ok(a.ids['scope-detail'].children.some(e=>e.className==='original-text'&&e.lang==='en'));
 });
@@ -571,4 +570,15 @@ test('school hub graduate links restore exact admission filters',()=>{
   assert.equal(a.ids['scope-graduate'].value,'先進理工学研究科');
   assert.equal(a.ids['scope-results'].children.length,admission==='general'?8:13);
  }
+});
+
+test('admission switching keeps selected hierarchy and year even when no counterpart exists',async()=>{
+ const records=catalog.records.filter(r=>r.universityId==='aoyama' && r.admissionType==='general').map(r=>({...r,internationalGeneral:false}));
+ const a=boot(records);await school(a,'aoyama').click();
+ const original=records.find(r=>r.course && r.department && r.graduateSchool && r.entryYear);assert.ok(original);
+ for(const [id,value] of [['scope-graduate',original.graduateSchool],['scope-department',original.department],['scope-field',original.course],['scope-year',original.entryYear]]){a.ids[id].value=value;await a.ids[id].fire('change');}
+ await a.tabs[1].click();
+ for(const [id,value] of [['scope-graduate',original.graduateSchool],['scope-department',original.department],['scope-field',original.course],['scope-year',original.entryYear]]){assert.equal(a.ids[id].value,value);assert.equal(a.ids[id].disabled,false);}
+ assert.equal(a.ids['scope-results'].children.length,0);assert.equal(a.ids['scope-empty'].hidden,false);
+ await a.tabs[0].click();assert.ok(a.ids['scope-results'].children.length>0);assert.equal(a.ids['scope-field'].value,original.course);
 });
