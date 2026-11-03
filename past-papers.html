@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="editorial.css?v=20261021-desk" />
   <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
   <script src="campus-map-data.js?v=20261011" defer></script>
-  <script src="past-papers-data.js?v=20261102-tohoku-ee-major" defer></script>
-  <script src="past-papers-core.js?v=20261011-tus" defer></script>
-  <script src="paper-practice-data.js?v=20261102-tohoku-ee-major" defer></script>
+  <script src="past-papers-data.js?v=20261103-osaka-filter" defer></script>
+  <script src="past-papers-core.js?v=20261103-osaka-filter" defer></script>
+  <script src="paper-practice-data.js?v=20261103-osaka-filter" defer></script>
   <script src="questions.js?v=20261022-complete" defer></script>
   <script src="practice-core.js?v=20261022-complete" defer></script>
   <script src="study-desk-core.js?v=20261021-favorites" defer></script>
@@ -21,9 +21,9 @@
   <script src="study-desk-controls.js?v=20261022-complete" defer></script>
   <script src="paper-set-completion.js?v=20261022-complete" defer></script>
   <script src="study-navigation.js?v=20261020" defer></script>
-  <script src="past-papers.js?v=20261022-scroll" defer></script>
+  <script src="past-papers.js?v=20261103-osaka-filter" defer></script>
   <script src="script.js" defer></script>
-  <link rel="stylesheet" href="study-navigation.css?v=20261022-scroll" />
+  <link rel="stylesheet" href="study-navigation.css?v=20261103-osaka-filter" />
   <link rel="stylesheet" href="past-papers-filters.css?v=20261022" />
 </head>
 <body>
@@ -75,6 +75,7 @@
       </aside>
       <section class="papers-workspace" aria-labelledby="paper-results-title">
         <div class="papers-toolbar"><h2 id="paper-results-title">全部学校</h2><p id="paper-results-count" role="status" aria-live="polite">真题尚未添加。</p></div>
+        <p id="paper-related-note" class="papers-footnote" role="status" hidden></p>
         <p id="paper-context-note" class="papers-footnote" role="status" hidden></p>
         <details class="paper-catalog-note" id="paper-school-note-panel" hidden><summary>资料说明与收录情况</summary><div id="paper-school-note" class="papers-footnote" hidden></div></details>
         <div class="paper-results" id="paper-results" role="group" aria-label="真题列表"></div>
