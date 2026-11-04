@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2010-joho",
+  "title": "大阪大学 · 2010 入学年度 · 前身科目：信息通信工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2010",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2010,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：信息通信工学）",
+    "originalSubject": "信息通信工学",
+    "originalName": "信息通信工学.pdf",
+    "pdf": "assets/past-papers/documents/3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47.pdf",
+    "sha256": "3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47",
+    "pageCount": 10,
+    "note": "「2010 年度入学試験（実施年 2009）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2010-joho/common-01.png",
+      "page": 1,
+      "box": [
+        78.0,
+        323.0,
+        523.0,
+        711.0
+      ],
+      "width": 1335,
+      "height": 1164,
+      "label": "表紙の注意事項（必須 3 問・選択 2 問、解答用紙の色分け、回収手順）",
+      "sha256": "aa7819aa5090feb67d326df4165fadcbd5ed8c1c9b1b56b59c805857973b096b"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2010-joho-q1",
+      "number": "1",
+      "title": "情報理論：結合確率表からの周辺確率・エントロピー・相互情報量",
+      "titleKind": "editorial",
+      "topics": [
+        "情報源",
+        "結合確率",
+        "周辺確率",
+        "エントロピー",
+        "条件付きエントロピー",
+        "相互情報量",
+        "定常情報源"
+      ],
+      "summary": "表1 の結合確率 P_{X,Y}(x,y)（x=0,1 / y=a,b）を与え、情報源 S1,S2 について (i) 周辺確率 P_X(0),P_X(1),P_Y(a),P_Y(b)、(ii) H(X),H(Y)、(iii) 条件付き確率 P_{X|Y}(j|k)、(iv) H(X|Y=a),H(X|Y=b)、(v) H(X|Y)、(vi) 相互情報量 I(X;Y)、(vii) X と Y の独立性と I(X;Y) の関係、(viii) 定常情報源の定義と具体例。log10 2=0.30、log10 3=0.48 を用いる。",
+      "review": {
+        "status": "verified",
+        "notes": "題号「1.」、表1、小問 (i)〜(viii) の 8 問、図なし。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-joho/osaka-ee-2010-joho-q1-01.png",
+          "page": 2,
+          "box": [
+            80.0,
+            71.0,
+            518.0,
+            711.0
+          ],
+          "width": 1314,
+          "height": 1920,
+          "label": "情報理論：冒頭の表1（結合確率）と小問 (i)〜(viii)",
+          "sha256": "c0d15deffd0493d6fabef841d4b3fc55bfacf94b412b1594c4b548601008d923"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-joho-q2",
+      "number": "2",
+      "title": "通信方式：孤立パルスのスペクトルと2値伝送の誤り率",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ変換",
+        "スペクトル",
+        "周波数シフト",
+        "複素共役",
+        "ガウス雑音",
+        "誤り率",
+        "erfc"
+      ],
+      "summary": "2−1 図1 の時間幅 τ・振幅 A の孤立パルス g(t) について (i) 逆フーリエ変換の式、(ii) G(f) の数式と図示、(iii) 周波数 f_c だけシフトした G(f−f_c) の逆変換、(iv) G1(f)=G(f−f_c)+G*(−f−f_c) の逆変換と波形。2−2 図2 の 2 値伝送（振幅 A1／−A2、伝送路で 1/K に減衰、平均 0・分散 N_R のガウス雑音、erfc 定義）で (i)(ii) 各誤り確率、(iii) 平均誤り率、(iv) A2 を小さくしたときの変化。",
+      "review": {
+        "status": "verified",
+        "notes": "図1・図2 を各小問の box 内に収録、2−1 と 2−2 の 2 段構成、小問は 2−2 の (iv) まで。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-joho/osaka-ee-2010-joho-q2-01.png",
+          "page": 3,
+          "box": [
+            80.0,
+            83.0,
+            523.0,
+            771.0
+          ],
+          "width": 1329,
+          "height": 2064,
+          "label": "通信方式：2−1（図1 のパルスと逆フーリエ変換）と 2−2（図2 の2値伝送・誤り率）",
+          "sha256": "431da11e0ec95da5abee5935beecf1edc258aadeb90d518d8c847a9d07316001"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-joho-q3",
+      "number": "3",
+      "title": "ネットワーク工学：ウィンドウ制御方式の棄却確率とスループット",
+      "titleKind": "editorial",
+      "topics": [
+        "ウィンドウ制御",
+        "パケット棄却",
+        "スロット",
+        "期待値",
+        "スループット"
+      ],
+      "summary": "スロット u_n 毎にウィンドウサイズ w を与える方式（u_0 で w=1、全 ACK で w+1、1 個以上棄却で w=1、棄却確率 p）について (i) Pr(k|w)、(ii) F(W) を Pr(0|w) で表す、(iii) F(w) の式の導出、(iv) 再送間隔の期待値 T、(v) 正受信パケット数の期待値 N、(vi) スループット S を T,N,τ で表す。",
+      "review": {
+        "status": "verified",
+        "notes": "箇条書き 3 項目の規則、式 F(w) と T,N の式、小問 (i)〜(vi)、図なし。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-joho/osaka-ee-2010-joho-q3-01.png",
+          "page": 4,
+          "box": [
+            74.0,
+            65.0,
+            524,
+            801.0
+          ],
+          "width": 1350,
+          "height": 2208,
+          "label": "ネットワーク工学：ウィンドウ制御の規則、F(w) の式、小問 (i)〜(vi)",
+          "sha256": "ab6b952c3bad8d7f725b32a85722ad1b4d1dda61861576de97e99006af69781a"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-joho-q4",
+      "number": "4",
+      "title": "光・電波工学：平面波の磁界・ポインティングベクトルと流入電力",
+      "titleKind": "editorial",
+      "topics": [
+        "平面波",
+        "磁界",
+        "ポインティングベクトル",
+        "電力",
+        "時間平均"
+      ],
+      "summary": "真空中の直方体領域に E=i_x E0 cos(ωt−ky) の平面波が入射するとき (i) 磁界 H（ε0, μ0 使用）、(ii) ポインティングベクトル S(t)、(iii) 領域に流入する正味電力の瞬時値 P(t)、(iv) その時間平均。図1 に直方体と座標系。",
+      "review": {
+        "status": "verified",
+        "notes": "図1（直方体と座標軸）を box 内、小問 (i)〜(iv)。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-joho/osaka-ee-2010-joho-q4-01.png",
+          "page": 5,
+          "box": [
+            80.0,
+            93.0,
+            523.0,
+            753.0
+          ],
+          "width": 1329,
+          "height": 1980,
+          "label": "光・電波工学：平面波の式、小問 (i)〜(iv)、図1 の直方体",
+          "sha256": "421df75e0256d8807bb1529ec22b7d7dcf46f9137af4c1aeaf38d6a8b1893dee"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-joho-q5",
+      "number": "5",
+      "title": "信号処理：DFT/FFT と離散時間 LTI システムの周波数応答",
+      "titleKind": "editorial",
+      "topics": [
+        "DFT",
+        "FFT",
+        "IDFT",
+        "インパルス応答",
+        "周波数応答",
+        "3dB帯域幅"
+      ],
+      "summary": "5−1 (i) x[n]=δ[n] の N 点 DFT、(ii) x[n]=1 の N 点 DFT、(iii) FFT を用いた IDFT のアルゴリズム。5−2 図の遅延素子 D を含む離散時間 LTI 系について (i) h[n]、(ii) H(Ω)、(iii) 振幅特性と位相特性の図示、(iv) 3dB 帯域幅。",
+      "review": {
+        "status": "verified",
+        "notes": "図（加算器と遅延素子 D のブロック図）を box 内、5−1 と 5−2 の 2 段構成。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-joho/osaka-ee-2010-joho-q5-01.png",
+          "page": 6,
+          "box": [
+            66.0,
+            59.0,
+            524,
+            556.0
+          ],
+          "width": 1374,
+          "height": 1491,
+          "label": "信号処理：5−1（DFT/FFT/IDFT）と 5−2（遅延素子系の周波数応答と 3dB 帯域幅）",
+          "sha256": "b0973ff769f6ac4c6a070e22ed3dda0f5c796cd2f3a57745676a506ba51ae081"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-joho-q6",
+      "number": "6",
+      "title": "論理回路・計算機システム：BCD 加算回路の全加算器・桁上げ検出・補正",
+      "titleKind": "editorial",
+      "topics": [
+        "BCDコード",
+        "全加算器",
+        "真理値表",
+        "最小積和形",
+        "桁上げ検出",
+        "加算回路"
+      ],
+      "summary": "BCD コードで表した 1 桁の 10 進数 X,Y を下位桁上げ C'_d とともに加算し Z と C''_d を出す回路（図1）について (i) 全加算器の真理値表と f,co の最小積和形、(ii) FA 複数個による 4 桁順次桁上げ加算回路、(iii) 10 進桁上げ C''_d の論理式と回路、(iv) S の補正と図1中③の回路。図2 に FA の記号。",
+      "review": {
+        "status": "verified",
+        "notes": "図1（BCD 加算回路のブロック図）と図2（FA 記号）を box 内、小問 (i)〜(iv)。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-joho/osaka-ee-2010-joho-q6-01.png",
+          "page": 7,
+          "box": [
+            68.0,
+            73.0,
+            524.0,
+            743.0
+          ],
+          "width": 1368,
+          "height": 2010,
+          "label": "論理回路・計算機システム：BCD 加算回路の説明、図1・図2、小問 (i)〜(iv)",
+          "sha256": "600d30b4f9e1bfd4a0aea5cada55089867dbe50e3a5049549913d2ddb0851af3"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-joho-q7",
+      "number": "7",
+      "title": "基本アルゴリズム・プログラミング：パケットソートとクラスカル法",
+      "titleKind": "editorial",
+      "topics": [
+        "パケットソート",
+        "クラスカル法",
+        "最小木",
+        "貪欲法",
+        "計算量",
+        "C言語"
+      ],
+      "summary": "7−1 パケットソートを行うプログラムA について (i) 空欄 (1)(2)、(ii) j=3 のときの配列 a、(iii) 時間計算量と得失・適用可能データ。7−2 クラスカル法のプログラムB とグラフ（図7(a)(b)(c)）について (i) 局所最適を続ける方法の名称、(ii) 枝が最小木の要素になれない場合の集合の関係、(iii) 空欄 (3)〜(6)、(iv) ite=2 以降の節点集合と選択枝の状態、(v) 計算量のオーダー。",
+      "review": {
+        "status": "verified",
+        "notes": "p8 見出し＋プログラムA、p9 の図7(a)(b)(c) と小問 (i)〜(v)、p10 のプログラムB の 3 region。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-joho/osaka-ee-2010-joho-q7-01.png",
+          "page": 8,
+          "box": [
+            68.0,
+            111.0,
+            524,
+            601.0
+          ],
+          "width": 1368,
+          "height": 1470,
+          "label": "基本アルゴリズム・プログラミング：見出し、7−1 の説明とプログラムA",
+          "sha256": "ec8dd1abe67bba720131ba0ecb5c1d14fd9accee38a75a1240a089afd5026b14"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-joho/osaka-ee-2010-joho-q7-02.png",
+          "page": 9,
+          "box": [
+            68.0,
+            113.0,
+            524,
+            689.0
+          ],
+          "width": 1368,
+          "height": 1728,
+          "label": "7−2 クラスカル法の説明、図7(a)(b)(c)、小問 (i)〜(v)",
+          "sha256": "9b41323bbfac13743fbcae3d4ccccafdffc891d6bb04be2a40cc8b06e1d17a6f"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2010-joho/osaka-ee-2010-joho-q7-03.png",
+          "page": 10,
+          "box": [
+            82.0,
+            115.0,
+            517.0,
+            596.0
+          ],
+          "width": 1305,
+          "height": 1443,
+          "label": "7−2 続き：プログラムB のソース（空欄 (3)〜(6)）",
+          "sha256": "86641c0fa249f63bfc84c8f7e37d61c7d8650cfc5f1b6e590ea1f870ed90a309"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2010-joho-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2010-joho-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2010-joho-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2010-joho-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2010-joho-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2010-joho-q6"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2010-joho-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2010-joho-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2010-joho-q7"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    }
+  ]
+}

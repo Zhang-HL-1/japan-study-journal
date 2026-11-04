@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2007-denjien",
+  "title": "大阪大学 · 2007 入学年度 · 前身科目：电磁能源工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2007",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2007,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：电磁能源工学）",
+    "originalSubject": "电磁能源工学",
+    "originalName": "电磁能源工学.pdf",
+    "pdf": "assets/past-papers/documents/946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5.pdf",
+    "sha256": "946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5",
+    "pageCount": 10,
+    "note": "「2007 年度入学試験（実施年 2006）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2007-denjien/common-01.png",
+      "page": 1,
+      "box": [
+        80.0,
+        328.0,
+        517.0,
+        671.0
+      ],
+      "width": 1311,
+      "height": 1029,
+      "label": "注意事項：問題は6問、問題1は必須、問題2〜6から2問選択、配点60/70/70点で合計200点、問題用紙は表紙を含め10枚",
+      "sha256": "214f01cc49f8ec635e6703777da335e46a9449f689f7168674b6fe1ca1ab56e8"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2007-denjien-q1",
+      "number": "1",
+      "title": "小論文：光の粒子性と電子の波動性など4題から1題選択、科学のインタープリター像",
+      "titleKind": "editorial",
+      "topics": [
+        "小論文",
+        "光の粒子性",
+        "ボース気体",
+        "弾性散乱",
+        "群速度",
+        "科学と社会"
+      ],
+      "summary": "「問題[1] 小論文」問1 は（ア）光の粒子性と電子の波動性、（イ）フェルミ気体とボーズ気体、（ウ）弾性散乱と非弾性散乱、（エ）波の位相速度と群速度 のうち1題を800字で論じる。問2 は黒田玲子「21世紀への提言」（1996年6月30日朝日新聞）を読んで科学者のインタープリター像を800字で論じる。新聞記事本文2頁分を含む。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「1」を確認。領域数 2、頁 2,3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjien/osaka-ee-2007-denjien-q1-01.png",
+          "page": 2,
+          "box": [
+            50.0,
+            56.0,
+            542.0,
+            789.0
+          ],
+          "width": 1476,
+          "height": 2199,
+          "label": "問題[1]：題号（解答用紙「白色」）、問1 の選択肢（ア）〜（エ）、問2 の課題文と新聞記事の冒頭",
+          "sha256": "a016980e566939df6960bd0f1e64c237d452746ede6ee83d3e1ec097b1aa6941"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjien/osaka-ee-2007-denjien-q1-02.png",
+          "page": 3,
+          "box": [
+            47.0,
+            56.0,
+            539.0,
+            747.0
+          ],
+          "width": 1476,
+          "height": 2073,
+          "label": "問題[1]：新聞記事「科学技術と人間社会」（黒田玲子）の続き全文",
+          "sha256": "a8f4bc793ff53e1c04831fc8a2e65f6955cc200723c66077756c2131c7ed8e37"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-denjien-q2",
+      "number": "2",
+      "title": "力学：磁気双極子のベクトルポテンシャルと磁界・トルク",
+      "titleKind": "editorial",
+      "topics": [
+        "磁気双極子",
+        "ベクトルポテンシャル",
+        "球座標",
+        "磁束密度",
+        "トルク"
+      ],
+      "summary": "「問題[2] 力学」原点近傍の微小円形電流ループが作る磁気双極子 m1 について、i_z の表現（ア）、m1（ア）、外積（イ）（ウ）、A（エ）、B の成分（オ）（カ）（キ）、トルク T（ク）（ケ）（コ）を空欄で補う。図1・図2を含む。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「2」を確認。領域数 2、頁 4,5。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjien/osaka-ee-2007-denjien-q2-01.png",
+          "page": 4,
+          "box": [
+            60.0,
+            50.0,
+            552.0,
+            761.0
+          ],
+          "width": 1476,
+          "height": 2133,
+          "label": "問題[2]：題号（解答用紙「赤色」）、条件文、空欄（ア）〜（エ）、図1",
+          "sha256": "38734c49be97920365cf37d9eb1b425867dc2ecc8fb55738df85ec9d438256ca"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjien/osaka-ee-2007-denjien-q2-02.png",
+          "page": 5,
+          "box": [
+            58.0,
+            70.0,
+            535.0,
+            658.0
+          ],
+          "width": 1431,
+          "height": 1764,
+          "label": "問題[2]：Br・Bθ・Bφ（オ）〜（キ）、トルク（ク）〜（コ）、図2",
+          "sha256": "49745d276ac44a6bcfb7c399d97b4c52fd74b23e0bbc97e0b1bea076301e2659"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-denjien-q3",
+      "number": "3",
+      "title": "熱統計力学：熱力学関係式と理想気体混合のエントロピー変化",
+      "titleKind": "editorial",
+      "topics": [
+        "熱力学関係式",
+        "自由エネルギー",
+        "分配関数",
+        "エントロピー",
+        "混合"
+      ],
+      "summary": "「問題[3] 熱統計力学」問1・問2 で (∂F/∂T)_V=-S と (∂S/∂V)_T=(∂P/∂T)_V を示し、問3 で気体1のエントロピー S1 を空欄（ア）〜（キ）で補い、問4 で混合気体3の S3、問5 で混合によるエントロピー変化 ΔS を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「3」を確認。領域数 1、頁 6。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjien/osaka-ee-2007-denjien-q3-01.png",
+          "page": 6,
+          "box": [
+            81.0,
+            95.0,
+            509.0,
+            696.0
+          ],
+          "width": 1284,
+          "height": 1803,
+          "label": "問題[3]：題号（解答用紙「青色」）、問1・問2 の証明、分配関数 Z1〜Z3、問3 の空欄（ア）〜（キ）、問4・問5",
+          "sha256": "923082acb2b544614b8774b669f56f48e3be412f2811440b922369ad1cd04840"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-denjien-q4",
+      "number": "4",
+      "title": "量子工学：Bohr-Sommerfeld の量子条件と水素原子・自由粒子",
+      "titleKind": "editorial",
+      "topics": [
+        "Bohr理論",
+        "量子条件",
+        "対応原理",
+        "Bohr磁子",
+        "自由粒子"
+      ],
+      "summary": "「問題[4] 量子工学」問1 で Balmer の式から光のエネルギー・水素のエネルギー単位 Wn・R の理論式を空欄（ア）〜（エ）で補い、問2 で対応原理、問3 で Bohr 磁子、問4 で Sommerfeld の量子条件から自由粒子の固有エネルギーを求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「4」を確認。領域数 2、頁 7,8。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjien/osaka-ee-2007-denjien-q4-01.png",
+          "page": 7,
+          "box": [
+            77.0,
+            101.0,
+            510.0,
+            762.0
+          ],
+          "width": 1299,
+          "height": 1983,
+          "label": "問題[4]：題号（解答用紙「黄色」）、問1 の文章と空欄（ア）〜（エ）、式(1)〜(4)",
+          "sha256": "d7a2a941e3278ed8b5a787f881f1dc69535d665c0a9df997c3b58f61b0ec1d02"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjien/osaka-ee-2007-denjien-q4-02.png",
+          "page": 8,
+          "box": [
+            74.0,
+            100.0,
+            510.0,
+            755.0
+          ],
+          "width": 1308,
+          "height": 1965,
+          "label": "問題[4]：問2 対応原理、問3 Bohr 磁子、問4 自由粒子のエネルギーとヒントの図",
+          "sha256": "80acf74b4f1b711bb694e81193dc47fdf885d3f312a54b2729b89c463e7ba6cd"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-denjien-q5",
+      "number": "5",
+      "title": "光学：複屈折と1/2波長板（o 成分・e 成分の位相遅れ）",
+      "titleKind": "editorial",
+      "topics": [
+        "光学",
+        "複屈折",
+        "位相遅れ",
+        "1/2波長板",
+        "偏光"
+      ],
+      "summary": "「問題[5] 光学」z 軸方向に伝搬する直線偏光のレーザー光を透明結晶に通すとき、o 方向・e 方向の射影成分（ア）（イ）、位相の遅れ（ウ）（エ）（オ）、出射光の成分（カ）（キ）、Δφ の条件（ク）（ケ）（コ）を空欄で補う。結晶の配置図を含む。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「5」を確認。領域数 1、頁 9。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjien/osaka-ee-2007-denjien-q5-01.png",
+          "page": 9,
+          "box": [
+            75.0,
+            100.0,
+            512.0,
+            748.0
+          ],
+          "width": 1311,
+          "height": 1944,
+          "label": "問題[5]：題号（解答用紙「水色」）、条件文、空欄（ア）〜（コ）、o 方向・e 方向の配置図",
+          "sha256": "fbd17da8533bfa4b227c430da668ef3866392d029f7e43ed0e4d2f7bdd0fcb40"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-denjien-q6",
+      "number": "6",
+      "title": "物理化学：水の解離反応の緩和法と速度定数",
+      "titleKind": "editorial",
+      "topics": [
+        "化学反応速度",
+        "緩和法",
+        "平衡定数",
+        "イオン積"
+      ],
+      "summary": "「問題[6] 物理化学」H2O ⇄ H+ + OH- の解離・結合の速度定数 k1,k2 を温度ジャンプの緩和法で求める。d[OH-]/dt の式から緩和時間 τ まで、空欄（ア）〜（シ）を埋める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「6」を確認。領域数 1、頁 10。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-denjien/osaka-ee-2007-denjien-q6-01.png",
+          "page": 10,
+          "box": [
+            82.0,
+            106.0,
+            516.0,
+            756.0
+          ],
+          "width": 1302,
+          "height": 1950,
+          "label": "問題[6]：題号（解答用紙「桃色」）、反応式、空欄（ア）〜（シ）",
+          "sha256": "564f2b0800004ae1f2f8a117e792f8b65e9cd05afb8d19b202f91ced06cfd3ac"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头标题与页脚页码与扫描空白边；只收「注意事項」栏。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2007-denjien-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2007-denjien-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2007-denjien-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2007-denjien-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2007-denjien-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2007-denjien-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2007-denjien-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2007-denjien-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2007-denjien-q6"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

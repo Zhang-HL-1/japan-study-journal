@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2006-seigyo",
+  "title": "大阪大学 · 2006 入学年度 · 前身科目：系统控制",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2006",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2006,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：系统控制）",
+    "originalSubject": "系统控制",
+    "originalName": "系统控制.pdf",
+    "pdf": "assets/past-papers/documents/3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178.pdf",
+    "sha256": "3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178",
+    "pageCount": 11,
+    "note": "「2006 年度入学試験（実施年 2005）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2006-seigyo/common-01.png",
+      "page": 1,
+      "box": [
+        86.5,
+        208,
+        549.0,
+        749.5
+      ],
+      "width": 1388,
+      "height": 1625,
+      "label": "注意事項：選択科目 b. システム制御、問題用紙は表紙を除き 10 枚、制御工学（問題 1・2）は全員解答、選択問題（問題 3〜7）から 2 分野を選択、選択問題の解答用紙の色分けと×印による選択表示",
+      "sha256": "3d01c885899be6010ce2a9875a22ccddaf26cfd85b981526ce1e06142565396c"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2006-seigyo-q1",
+      "number": "問題1",
+      "title": "制御工学：フィードバック系の伝達関数・外乱応答・安定条件と定常偏差",
+      "titleKind": "editorial",
+      "topics": [
+        "制御工学",
+        "ブロック線図",
+        "伝達関数",
+        "外乱",
+        "安定条件",
+        "定常偏差",
+        "ナイキスト軌跡"
+      ],
+      "summary": "図 1 のフィードバック制御系について（K1, K2, T は定数、U(s), E(s), D(s), Y(s) は u(t), 偏差 e(t), 外乱 d(t), 出力 y(t) のラプラス変換）、(i) D(s)=0 のとき U(s) から Y(s) までの伝達関数と、U(s)=0 のとき D(s) から Y(s) までの伝達関数、(ii) U(s)=0, K1=0.5, K2=1, T=0.5 でインパルス状外乱 D(s)=1 のときの y(t)、(iii) U(s) から Y(s) の閉ループ系が安定となる K1, K2, T の条件（T>0）、(iv) D(s)=0, K1=1, K2=2, T=0 の場合のステップ入力・ランプ入力・放物線入力に対する定常偏差 e(∞)、(v) 破線部の伝達関数 G(s)=ωn^2/(s^2+2ζωn s) の ωn と ζ を K1, K2 の関数で表す、(vi) G(s) のナイキスト軌跡の概形と位相余裕 γ。ブロック線図（G(s), 1/(s+1), 1/s, K2, K1/(Ts+1)）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "見出し「制御工学」、図 1（U(s), E(s), D(s), G(s), K1/(Ts+1), K2, 1/(s+1), 1/s, Y(s)）と (i)〜(vi) の 6 小問を 1 頁で確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q1-01.png",
+          "page": 2,
+          "box": [
+            81.5,
+            63.5,
+            524.0,
+            689.5
+          ],
+          "width": 1328,
+          "height": 1879,
+          "label": "問題1：見出し「制御工学」、1. の本文、図 1 のブロック線図、(i)〜(vi)",
+          "sha256": "fcf0416770b5776b4404aba9f96a0cb19e9e1cb7212a4d089f3c72a9ca5d3004"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-seigyo-q2",
+      "number": "問題2",
+      "title": "制御工学：2 次系の減衰係数・共振・根軌跡とオーバーシュート",
+      "titleKind": "editorial",
+      "topics": [
+        "制御工学",
+        "2次系",
+        "減衰係数",
+        "共振",
+        "根軌跡",
+        "オーバーシュート",
+        "ボード線図"
+      ],
+      "summary": "図 2 のフィードバック制御系について、(i) G(s)=ωn^2/{s(s+2ζωn)}（ζ>0, ωn>0）でオーバーシュートが生じる減衰係数 ζ の条件、(ii) 閉ループ系の周波数応答のゲイン特性が極大をもつ ζ の条件と極大値をとるときの共振角周波数、(iii) G(s)=K(s+1)/{s(s−2)} で K を 0 から増加させたときの閉ループ系の根軌跡の概略（始点、実軸との分岐点、虚軸を横切る点、複素根の軌跡の方程式と K→∞ の挙動）、(iv) K=8 の場合の閉ループ系の特性根と単位ステップ応答の概形・最大オーバーシュートとピーク時間、(v) 折れ線近似による閉ループ系の周波数応答ゲイン曲線の概略、(vi) (iv) と同条件で共振が生じるか否かと共振周波数、(vii) 伝達関数の零点 zero がステップ応答・周波数応答に及ぼす影響の考察。ブロック線図付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2. の (i)〜(vii) の 7 小問と図 2（入力 u(t)、出力 y(t)、G(s)、加え合わせ点）を 1 頁で確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q2-01.png",
+          "page": 3,
+          "box": [
+            64.5,
+            84.5,
+            538.0,
+            655.0
+          ],
+          "width": 1421,
+          "height": 1712,
+          "label": "問題2：2. の本文、図 2 のブロック線図、(i)〜(vii)",
+          "sha256": "6f9ac65ca85f105ff9a57ca131cdaeb4bb550de62ba349212b4c8d7329c65209"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-seigyo-q3",
+      "number": "問題3",
+      "title": "電気機器：他励式直流発電機の電圧・入力・損失と三相同期電動機の等価回路",
+      "titleKind": "editorial",
+      "topics": [
+        "電気機器",
+        "直流発電機",
+        "電圧降下",
+        "効率",
+        "三相同期電動機",
+        "すべり",
+        "等価回路"
+      ],
+      "summary": "3-1 定格出力 5 kW、端子電圧 100 V、電流 50 A、回転速度 1800 rpm の他励式直流発電機（界磁電圧 40 V、界磁電流 7 A、電機子抵抗 0.2 Ω、効率 85 %、ブラシの電圧降下無視）について、(i) 端子電圧 V・電機子電流 I_a・電機子抵抗 R_a で無負荷時端子電圧 E_0 を表し計算、(ii) 定格負荷時の機械入力、(iii) 鉄損・機械損などの固定損、(iv) 外部特性曲線の実測との相違とその原因。3-2 4 極・周波数 60 Hz・端子電圧 220 V の三相同期電動機（巻数比 2、1 次/2 次インピーダンス、励磁アドミタンス、1728 rpm、Y 結線）について、(i) すべり s、(ii) 1 次換算 2 次抵抗・リアクタンスと簡易等価回路、(iii) 機械的出力 P_o を V1, s, r2′, x1, x2′ で表し計算。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "見出し「電気機器」、3-1 の (i)〜(iv) と 3-2 の (i)〜(iii)、同期電動機の回路定数（r1+jx1=0.3+j0.2 Ω、r2+jx2=0.04+j0.05 Ω、y0=0.006−j0.03 S）を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q3-01.png",
+          "page": 4,
+          "box": [
+            71.5,
+            68.5,
+            535.5,
+            588.0
+          ],
+          "width": 1393,
+          "height": 1559,
+          "label": "問題3：見出し「電気機器」、3-1（他励式直流発電機 (i)〜(iv)）と 3-2 の本文・条件 (i)〜(iii)",
+          "sha256": "337253d3cd4dfc041571bc677a6bb6681112f6a646edde0ed240b2e5745c6adf"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-seigyo-q4",
+      "number": "問題4",
+      "title": "パワーエレクトロニクス：自励式インバータの電圧波形・ひずみ率・素子電流",
+      "titleKind": "editorial",
+      "topics": [
+        "パワーエレクトロニクス",
+        "インバータ",
+        "PWM",
+        "ひずみ率",
+        "THD",
+        "ダイオード",
+        "スイッチング素子"
+      ],
+      "summary": "図 4-1 に主回路を示す自励式インバータで、図 4-2 に示す制御（記号はその期間中当該トランジスタにオン信号が与えられていることを示す）を行ったとき、(i) 負荷の相電圧 u_UN と線間電圧 u_UV の波形（電圧レベルと変化のタイミングを制御信号との位相関係が分かるように示す）、(ii) u_UV の基本波実効値・実効値・総合ひずみ率（THD）、(iii) E=200 V でトランジスタに加わる電圧の最大値、(iv) i_U=100√2 sin(ωt) で負荷力率 0.5 のときのトランジスタ Q1 の電流波形・最大値・実効値、(v) ダイオードの役割、(vi) 半導体スイッチング素子の名称を 2 種類アルファベットの略語とフルネームで示す。主回路図（E/2, Q1〜Q6, D1〜D6, 負荷）と制御方式図（2π、①〜⑨、Q1〜Q6 のオン期間）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "見出し、4. の (i)〜(vi)、図 4-1（E/2, Q1〜Q6, D1〜D6, u_UN, u_UV, i_U, 負荷）と図 4-2（2π、①〜⑨、各トランジスタのオン区間）を確認。頁末の「以上」も box 内。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q4-01.png",
+          "page": 5,
+          "box": [
+            70.5,
+            86.5,
+            552.5,
+            718.0
+          ],
+          "width": 1447,
+          "height": 1895,
+          "label": "問題4：見出し「パワーエレクトロニクス」、4. の本文、(i)〜(vi)、図 4-1 主回路、図 4-2 制御方式",
+          "sha256": "775495e84fdecaeefc3d1a3c54312d6d2034bf70f4514d1c888ad90a4dc36cf5"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-seigyo-q5",
+      "number": "問題5",
+      "title": "信号処理：DTFT・DFT・FFT の定義と演算量・4 点 DFT の信号流図",
+      "titleKind": "editorial",
+      "topics": [
+        "信号処理",
+        "DTFT",
+        "DFT",
+        "FFT",
+        "逆 DFT",
+        "演算量",
+        "バタフライ"
+      ],
+      "summary": "離散時間信号 x[n] の DTFT の定義から出発し、空欄 (あ)〜(し) を埋める。(i) 空欄 (あ)〜(し) の語句、(ii) 下部 (a) DTFT を計算機で扱う際の問題点、(iii) 下部 (b) DTFT と DFT の関係（X(Ω) と X[k]）、(iv) 下部 (c) 時間間引き・周波数間引き FFT の 4 点 DFT 信号流図とデータ系列 [0.8,2.4] の 4 点 DFT、(v) 下部 (d) FFT による IDFT のアルゴリズムと 4 点 DFT 結果への適用。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "空欄 (あ)〜(し) と (i)〜(v) を 1 頁で確認。DFT の定義式と W_N=exp(オ) の空欄、N 点 DFT の (カ)(キ) の位置を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q5-01.png",
+          "page": 6,
+          "box": [
+            102.0,
+            79.0,
+            518.5,
+            722
+          ],
+          "width": 1250,
+          "height": 1929,
+          "label": "信号処理：見出し、5. の本文（DTFT/DFT/FFT の定義式と空欄 (あ)〜(し)）および設問 (i)〜(v)",
+          "sha256": "8f08b41adcf9af64752ca8162f0d61bf6a67b4da439d50919ce83efe237bbf16"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-seigyo-q6",
+      "number": "問題6",
+      "title": "コンピュータ工学（ハードウェア）：固定小数点 2 進数表現と 5 段パイプライン制御",
+      "titleKind": "editorial",
+      "topics": [
+        "コンピュータ工学",
+        "固定小数点",
+        "2の補数",
+        "除算",
+        "パイプライン",
+        "ストール",
+        "クロックサイクル"
+      ],
+      "summary": "6-1 整数部 n 桁・小数部 m 桁の 2 進数 A の固定小数点表現について、(i) 2 の補数表現の数値部の性質、(ii) −18.242 の 2 進表現（符号-絶対値・1 の補数・2 の補数）、(iii) 加算時の最上位ビットの桁上がり処理、(iv) 2 進数の除算アルゴリズム（空欄 ア〜カ、2R−B、2[イ]−B[ウ]、演算回数の比較）。6-2 命令フェッチ(IF)・デコード(D)・オペランドフェッチ(OF)・実行(EX)・格納(S) の 5 段パイプラインについて、(i) 表 1 を完成させる、(ii) ストールを減らす命令実行順序（表 2）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2 頁構成。6-1 の (i)〜(iv) と空欄 ア〜カ、6-2 の (i)(ii) と表 1・表 2（クロックサイクル 1〜7）を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q6-01.png",
+          "page": 7,
+          "box": [
+            71.0,
+            76.0,
+            563.5,
+            624.0
+          ],
+          "width": 1478,
+          "height": 1644,
+          "label": "コンピュータ工学（ハードウェア）：見出し、6-1 の本文・設問 (i)〜(iv)（空欄 ア〜カ）",
+          "sha256": "214063660ba07fbe15231cb9cad4df4159644cdd008b80d1e9eddf7df8e4f2e2"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q6-02.png",
+          "page": 8,
+          "box": [
+            65.0,
+            72.5,
+            558.5,
+            691.5
+          ],
+          "width": 1481,
+          "height": 1858,
+          "label": "6-2：5 段パイプラインの説明、(i) 表 1 と (ii) 表 2",
+          "sha256": "66b13c369ab1ffed182c32081c96434db1745c8ccc0bb26fd0d633f483ca183a"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-seigyo-q7",
+      "number": "問題7",
+      "title": "コンピュータ工学（ソフトウェア）：ヒープ構成プログラムとダイクストラ法のプログラム",
+      "titleKind": "editorial",
+      "topics": [
+        "コンピュータ工学",
+        "2分木",
+        "ヒープ",
+        "配列表現",
+        "ダイクストラ法",
+        "最短経路",
+        "計算量",
+        "C言語"
+      ],
+      "summary": "7-1 親の値が子の値以下である 2 分木と配列によるヒープ実装（図 7-1、図 7-2）、プログラム A（deletemin）について (i) 節点番号 i の子の表し方、(ii) 空欄 (1)(2)(3)、(iii) k=2 のときの heap[0]〜heap[9]、(iv) 計算量 O(N log N) の導出。7-2 ダイクストラ法のプログラム B と無向グラフ図 7-3・有向グラフ図 7-4 について、(i) 空欄 (4)(5)(6)（(5) は 2 箇所）、(ii) k=2 のときの printf 出力、(iii) 有向グラフ用への変更箇所（変更前後対比）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3 頁構成。7-1（図 7-1・7-2、プログラム A、(i)〜(iv)）と 7-2（図 7-3・7-4、(i)〜(iii)、プログラム B）を確認。プログラム A/B の空欄位置を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q7-01.png",
+          "page": 9,
+          "box": [
+            67.0,
+            79.0,
+            543.5,
+            755.5
+          ],
+          "width": 1430,
+          "height": 2030,
+          "label": "コンピュータ工学（ソフトウェア）：見出し、7-1 の本文、図 7-1（2 分木）、図 7-2（配列ヒープ）、プログラム A のソース",
+          "sha256": "1ab830948891667495354eb93b6becdf1e6050f402f31511275e855f63a1b701"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q7-02.png",
+          "page": 10,
+          "box": [
+            84.0,
+            72.5,
+            532.0,
+            606.5
+          ],
+          "width": 1344,
+          "height": 1603,
+          "label": "7-1 の設問 (i)〜(iv)、7-2 の本文・設問 (i)〜(iii)、図 7-3（無向グラフ）、図 7-4（有向グラフ）",
+          "sha256": "62539e7b771fb2602185ec793bdabefdac6c2fa3bb8b9a21fd48294eb044c07c"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-seigyo/osaka-ee-2006-seigyo-q7-03.png",
+          "page": 11,
+          "box": [
+            75.0,
+            88.5,
+            548.0,
+            550.5
+          ],
+          "width": 1419,
+          "height": 1387,
+          "label": "7-2：プログラム B のソース（空欄 (4)(5)(6) を含む）",
+          "sha256": "44ab758dbfbfadd7c74d129fd09ccd683926157e2681163a59193a02c4d983b9"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边；本页为封面与注意事项，题目内容自次页起。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q6"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q6"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2006-seigyo-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

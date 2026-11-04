@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2009-kairo",
+  "title": "大阪大学 · 2009 入学年度 · 前身科目：回路理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2009",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2009,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：回路理论）",
+    "originalSubject": "回路理论",
+    "originalName": "回路理论.pdf",
+    "pdf": "assets/past-papers/documents/b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f.pdf",
+    "sha256": "b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f",
+    "pageCount": 6,
+    "note": "「2009 年度入学試験（実施年 2008）；旧制 7 科目分册，非课程制」本册为「回路理論」入試問題（平成21年度大学院前期課程入学試験、問題の数は5問、各20点）。",
+    "normalization": {
+      "derivedPdf": "assets/question-bank/osaka-ee-2009-kairo/normalized.pdf",
+      "derivedSha256": "27d9c12c1bcae7fb76748185ef7bf78dfe18a1415739bad679a64b790ec4d7d2",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 5,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 6,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        }
+      ]
+    }
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2009-kairo/common-01.png",
+      "page": 1,
+      "box": [
+        75.0,
+        460.0,
+        424.0,
+        741.0
+      ],
+      "width": 1047,
+      "height": 843,
+      "label": "【注意事項】：問題の数は5問、解答用紙の使い方と答案の書き方（平成21年度大学院前期課程入学試験・回路理論）",
+      "sha256": "d8d08ab12bf1ebcd52ba59499984997ce676733717fc37d03cdf3ab11fdc0418"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2009-kairo-q1",
+      "number": "問 1",
+      "title": "回路理論：スイッチ切替を含む RC 回路の過渡応答（図1）",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "RC回路",
+        "過渡応答",
+        "時定数",
+        "微分方程式",
+        "初期条件"
+      ],
+      "summary": "問1（20 点）。図1 の RC 回路でスイッチを切り替えた後の過渡現象を (1)–(3) で問う。初期状態、切替後の素子電圧・電流の時間変化、時定数と定常値が解答要素。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "各問 1 頁 1 region。図1 は図号・図中ラベルとも box 内。頁末の (3) まで收録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-kairo/osaka-ee-2009-kairo-q1-01.png",
+          "page": 2,
+          "box": [
+            51.0,
+            58.0,
+            538.0,
+            430.0
+          ],
+          "width": 1461,
+          "height": 1116,
+          "label": "問1（20点）：スイッチ切替 RC 回路の過渡応答＋図1 (1)–(3)",
+          "sha256": "54416e44a9c820581248c1f86253533a14ec060a88a5a7b08c5721d527309516"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-kairo-q2",
+      "number": "問 2",
+      "title": "回路理論：交流ブリッジ回路の平衡条件と位相条件（図2）",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "ブリッジ回路",
+        "平衡条件",
+        "位相",
+        "交流回路",
+        "インピーダンス"
+      ],
+      "summary": "問2。図2 のブリッジ回路が平衡するための素子値の条件を、振幅条件と位相条件に分けて導く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "図2 の図号・ラベルまで收録。頁内に小問番号はなく、本文 1 問で完結。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-kairo/osaka-ee-2009-kairo-q2-01.png",
+          "page": 3,
+          "box": [
+            51.0,
+            57.0,
+            546.0,
+            333.0
+          ],
+          "width": 1485,
+          "height": 828,
+          "label": "問2：図2 ブリッジ回路の平衡条件と位相条件",
+          "sha256": "3b0857093269e34b6bbe6121978a2d7164baff721541a8ec154c646320a316a8"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-kairo-q3",
+      "number": "問 3",
+      "title": "回路理論：ノートン等価回路と電源の等価変換（図3a・図3b）",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "ノートン等価回路",
+        "テブナン等価回路",
+        "等価変換",
+        "内部抵抗"
+      ],
+      "summary": "問3。図3a・3b の 2 つの回路について (1)(2)(3) で各素子値・開放電圧・内部抵抗を求め、(a)(b) でそれぞれのノートン等価回路を導く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "図3a・図3b の 2 図と小問 (1)(2)(3)(a)(b) を 1 つの box に收録（頁内で完結）。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-kairo/osaka-ee-2009-kairo-q3-01.png",
+          "page": 4,
+          "box": [
+            46.0,
+            55.0,
+            539.0,
+            671.0
+          ],
+          "width": 1479,
+          "height": 1848,
+          "label": "問3：図3a/3b のノートン等価回路 (1)(2)(3)(a)(b)",
+          "sha256": "2eab80ce3206265e4bb0036d54085a7bb77f5d75f2a48ef3e0752dde92c379a4"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-kairo-q4",
+      "number": "問 4",
+      "title": "回路理論：MOSFET 多段増幅回路の F 行列（2 ポート）解析（図4）",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "MOSFET",
+        "多段増幅",
+        "F行列",
+        "2ポート",
+        "電圧利得"
+      ],
+      "summary": "問4。図4 の MOSFET 多段増幅回路を 2 ポート回路として扱い、(1)–(4) で F 行列の各要素、入出力インピーダンス、電圧利得を順に求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "図4 の回路図全体と小問 (4) の最終行までを 1 box に收録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-kairo/osaka-ee-2009-kairo-q4-01.png",
+          "page": 5,
+          "box": [
+            48.0,
+            59.0,
+            543.0,
+            461.0
+          ],
+          "width": 1485,
+          "height": 1206,
+          "label": "問4：図4 MOSFET 多段増幅の F 行列 (1)–(4)",
+          "sha256": "1eecee9c35020e686c8cd1ddbf396ae4e727e461223b7b79c9a0d9f3d0dfc791"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-kairo-q5",
+      "number": "問 5",
+      "title": "回路理論：演算増幅器回路の入出力関係（図5）",
+      "titleKind": "editorial",
+      "topics": [
+        "回路理論",
+        "演算増幅器",
+        "オペアンプ",
+        "理想増幅器",
+        "入出力関係"
+      ],
+      "summary": "問5。図5 の演算増幅器回路について (1)–(3) で出力電圧、入力インピーダンスなどを求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "図5 の図号まで收録し、頁末に余白あり。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-kairo/osaka-ee-2009-kairo-q5-01.png",
+          "page": 6,
+          "box": [
+            49.0,
+            57.0,
+            545.0,
+            522.0
+          ],
+          "width": 1488,
+          "height": 1395,
+          "label": "問5：図5 演算増幅器回路 (1)–(3)",
+          "sha256": "9a259a0027aca0a298261bf38e6ede6fb0eba8856dd6fb4fdbdbda7843a26867"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头封面标题、试验日期时刻、科目标题框与页脚印刷信息，只保留【注意事項】作为 common region；扫描空白边一并裁去。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2009-kairo-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2009-kairo-q2"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2009-kairo-q3"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2009-kairo-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2009-kairo-q5"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2005-seigyo",
+ "title": "大阪大学 · 2005 入学年度 · 前身科目：系统控制",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2005",
+  "school": "大阪大学",
+  "schoolId": "osaka",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2005,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：系统控制）",
+  "originalSubject": "系统控制",
+  "originalName": "系统控制.pdf",
+  "pdf": "assets/past-papers/documents/1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b.pdf",
+  "sha256": "1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b",
+  "pageCount": 11,
+  "note": "「2005 年度入学試験（実施年 2004）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    88.0,
+    191.0,
+    517.0,
+    749.5
+   ],
+   "label": "表紙の注意事項：問題用紙10枚、問題1・2は全員必須、問題3〜7から2分野選択、科目別の選択ルール、解答用紙の色分け一覧"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2005-seigyo-q1",
+   "number": "1",
+   "title": "1. 制御工学：状態方程式の伝達関数・可制御可観測性・状態フィードバック",
+   "titleKind": "editorial",
+   "topics": [
+    "状態方程式",
+    "伝達関数",
+    "可制御性",
+    "可観測性",
+    "状態フィードバック",
+    "ステップ応答"
+   ],
+   "summary": "状態方程式 ẋ=Ax+bu, y=cx（A=(a1 a2; a3 a4), b=(b1; b2), c=(c1 c2), x=(x1; x2)）について、(i) 入力 u から出力 y までの伝達関数、(ii) A=(−4 3; 1 −2), b=(−3; 1), c=(2 1) の可制御性・可観測性の判定、(iii) A=(0 4; −2 6), b=(0; 1), c=((1/2)α^2 2α) のシステムが不安定であることを示し、u=−kx+r のフィードバックで固有値が −2±4j となる k=(k1 k2) を求める、(iv) 閉ループ伝達関数 G(s)=(2αs+2α^2)/(s^2+2αs+2α^2) から k を α で表す、(v) 単位ステップ入力に対する出力 y(t) と概形（包絡線・振動周期）、最初のピークまでの時間が π/8 となる α。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      84.5,
+      61.0,
+      549.5,
+      675.5
+     ],
+     "label": "制御工学 1.：状態方程式と係数行列・小問 (i)〜(v)（伝達関数、可制御/可観測性、不安定系のフィードバック、閉ループ伝達関数、ステップ応答）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1頁1題。小問 (i)〜(v) と各行列・G(s) の式を収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-seigyo-q2",
+   "number": "2",
+   "title": "2. 制御工学：フィードバック系の安定性・定常偏差・根軌跡と位相進み/遅れ補償",
+   "titleKind": "editorial",
+   "topics": [
+    "フィードバック",
+    "安定性",
+    "定常偏差",
+    "根軌跡",
+    "位相進み補償",
+    "位相遅れ補償"
+   ],
+   "summary": "図2-1 のフィードバック制御系（Gc(s) と 1/(s(s+2)(s+20))）について、(i) Gc(s)=K のときの R→C と R→E の伝達関数、安定となる K の範囲、定常位置偏差・定常速度偏差・ゲイン余裕、(ii) K を0から増加したときの根軌跡（始点、分岐点、虚軸との交点、K→∞の漸近線）、減衰比一定の支配極 −2±2√3j を持ちうるか、(iii) 位相進み補償器 K(s+5)/(s+a) で支配極を −2±2√3j とする a, K と根軌跡の概略、(iv) 位相進み・遅れ補償器 {K(s+5)(s+b)}/{(s+a)(s+c)} と図2-2(a)(b) から b, c と定常速度偏差、(v) 位相進み補償と位相遅れ補償の制御効果の説明。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      67.5,
+      80.0,
+      540.5,
+      752.0
+     ],
+     "label": "制御工学 2.：図2-1 のフィードバック系（R(s), E(s), Gc(s), 1/(s(s+2)(s+20)), C(s)）・小問 (i)〜(v)・図2-2 (a)(b) の根軌跡"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1頁1題。図2-1 のブロック線図と図2-2(a)(b) の根軌跡（実軸・虚軸、s=−2, −5, −0.01, −0.1）を収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-seigyo-q3",
+   "number": "3",
+   "title": "3. 電気機器：誘導電動機の等価回路・トルクと突極形三相同期発電機のベクトル図",
+   "titleKind": "editorial",
+   "topics": [
+    "誘導電動機",
+    "等価回路",
+    "トルク",
+    "滑り",
+    "同期発電機",
+    "ベクトル図"
+   ],
+   "summary": "3-1 スリップリング付（巻線形）三相誘導電動機の回転子側等価回路（X2: 静止状態の漏れリアクタンス、R2: 回転子抵抗、s: 滑り）について、(i) 機械的出力 P、(ii) 二次側誘導電圧 E2 と I2^2、(iii) 回転角速度 ωm、(iv) トルク T（I2 を消去）、(v) 始動トルクが最大となる R2、(vi) 同期速度 1500 rpm・回転速度 1425 rpm で運転中、1200 rpm まで低下してもトルク一定となるように二次回路に挿入する抵抗（X2=2 Ω, R2=0.2 Ω）。3-2 突極形三相同期発電機について、(i) 図3-2 のベクトル図の空欄を埋める、(ii) 三端子短絡（三相短絡）時の電機子巻線電流（Ra=0 の場合）、(iii) Ra=0 のときの出力（三相有効電力）3×[（6)）×sinδ+（7)）×sin2δ]。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      63.0,
+      42.5,
+      548.5,
+      772.5
+     ],
+     "label": "電気機器 3-1：誘導電動機の等価回路と小問 (i)〜(vi)・図3-1（X2, I2, R2/s, E2）／3-2：突極形同期発電機の小問 (i)〜(iii)・図3-2 のベクトル図（空欄 (1)〜(4)、E0, V, I, δ, RaI）"
+    },
+    {
+     "page": 4,
+     "box": [
+      287.5,
+      774.5,
+      332.5,
+      792.5
+     ],
+     "label": "図3-2 の図番号（図 3－2）の行"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1頁に 3-1 と 3-2。図3-1 の等価回路と図3-2 のベクトル図（空欄 (1)〜(4)）を収録。3-2 の空欄 (5)(6)(7) は本文中の枠。頁右下の頁番号「36」は図3-2 の図番号と同じ高さにあるため、図番号の行だけを別 region（横を 530pt で切る）として収録し頁番号を除外した。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-seigyo-q4",
+   "number": "4",
+   "title": "4. パワーエレクトロニクス：単相ブリッジ整流回路と単相フルブリッジインバータ",
+   "titleKind": "editorial",
+   "topics": [
+    "サイリスタ",
+    "単相ブリッジ整流",
+    "制御角",
+    "インバータ",
+    "高調波",
+    "実効値"
+   ],
+   "summary": "4-1 単相ブリッジ整流回路（交流電源 v=√2V sinωt、直流インダクタ L は十分大きく電流 id は平滑、サイリスタの制御は図4-2）について、(i) Xs=0 のときの直流電圧 ed の波形、(ii) ed の平均値 Ed（制御角 α の関数）、(iii) 5 Ω の抵抗を接続して定常状態で 10 A が流れたときの制御角 α（実効値 100 V）、(iv) 総合力率、(v) 交流電流 i の総合ひずみ率（THD）、(vi) Xs≠0 のときの ed の波形。4-2 単相自励式フルブリッジインバータ（図4-3）について、(i) 図4-4 の制御での負荷電流 i の波形と導通素子、(ii) 図4-5 の制御での出力電圧 v の基本波実効値、(iii) 3次高調波を零にする制御、(iv) E=200 V、負荷 5 Ω のときの (a) 電流 i の実効値、(b) 基本波実効値、(c) 直流電源電流 id の平均値。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      93.5,
+      99.0,
+      521.5,
+      700.5
+     ],
+     "label": "パワーエレクトロニクス 4-1：単相ブリッジ整流回路の小問 (i)〜(vi)・図4-1 の回路（v, Xs, T1〜T4, id, L, 負荷, ed）・図4-2 の波形（導通するサイリスタと交流電圧 v）"
+    },
+    {
+     "page": 6,
+     "box": [
+      92.0,
+      89.5,
+      577.5,
+      752.0
+     ],
+     "label": "パワーエレクトロニクス 4-2：フルブリッジインバータの小問 (i)〜(iv)・図4-3 の回路（E/2, Q1〜Q4, D1〜D4, 負荷）・図4-4 と図4-5 の制御波形（A−0間電圧, B−0間電圧, 出力電圧 v）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2頁で1題（4-1 と 4-2）。図4-1〜4-5 の回路図と波形図をすべて収録。図4-5 の γ, δ のパルス幅表記も含む。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-seigyo-q5",
+   "number": "5",
+   "title": "5. 信号処理：線形時不変システムの定義・インパルス応答・たたみ込み・無記憶性と因果性",
+   "titleKind": "editorial",
+   "topics": [
+    "線形時不変システム",
+    "インパルス応答",
+    "たたみ込み",
+    "z変換",
+    "無記憶性",
+    "因果性"
+   ],
+   "summary": "線形性と時不変性を有する離散時間信号処理システム L（y[n]=L[x[n]]）について、(i) 線形性・時不変性の定義を数式で説明、(ii) インパルス応答 h[n] の定義、(iii) 出力がたたみ込みで表されることの導出、(iv) 図示された x[n]（n=0 で 1、n=1 で −1、n=2 で 1）と h[n]=x[n−1] に対する y[n] を z 変換により求解、(v) 縦続接続の順序无关性の証明、(vi) 無記憶システムのときの h[n] の条件、(vii) 因果的なシステムのときの h[n] の条件。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      103.5,
+      90.0,
+      517.0,
+      749.0
+     ],
+     "label": "信号処理 5.：LTI システムの定義・小問 (i)〜(vii)・x[n] の離散信号図（n=−2〜3）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1頁1題。情報通信工学の問5 と同一内容（分野別選択科目のため重複収録）。x[n] の図を収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-seigyo-q6",
+   "number": "6",
+   "title": "6. コンピュータ工学（ハードウェア）：SRフリップフロップとゲート回路による2進数変換",
+   "titleKind": "editorial",
+   "topics": [
+    "SRフリップフロップ",
+    "論理ゲート",
+    "順序回路",
+    "2進数",
+    "リセット"
+   ],
+   "summary": "リセット入力で SR フリップフロップの状態 Q が 0 になった後、N 個の入力 X0〜X_{N−1} が順に入力され、出力 Y0〜Y_{N−1} が得られる回路について、(i) Y_i を X_i と Q で表す、(ii) Q=0 と Q=1 の場合の Y_i、(iii)(iv) X_i 入力後の Q の遷移、(v) (X0,…,X9)=(0,0,0,0,1,1,0,1,0,0) に対する出力、(vi) 最初の k 個が 0 で X_k=1 のときの出力の分割表現、(vii) 2^i の重みを付した N 桁2進数とみなしたときの入力と出力の和 K、(viii) この回路の機能の利用目的。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      104.0,
+      86.0,
+      520.0,
+      596.5
+     ],
+     "label": "コンピュータ工学（ハードウェア）6.：SR フリップフロップと NOT/AND ゲートの回路図・小問 (i)〜(viii)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1頁1題。情報通信工学の問6 と同一内容。回路図（X0〜X_{N−1}、リセット入力、S/R、Q/Q̄、Y0〜Y_{N−1}）を収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-seigyo-q7",
+   "number": "7",
+   "title": "7. コンピュータ工学（ソフトウェア）：バケット構造による文字列の格納と基数ソート（パケットソート）",
+   "titleKind": "editorial",
+   "topics": [
+    "連結リスト",
+    "バケット",
+    "C言語",
+    "基数ソート",
+    "パケットソート",
+    "計算量"
+   ],
+   "summary": "7-1 文字列を連結リストに格納するデータ構造（バケット）を実装したプログラム A について、(i) <A>・<B> におけるバケットの状態（bucket[0]〜[3]）を図示、(ii) 空欄 (1)〜(5) を埋める。7-2 プログラム A にプログラム B を加えて基数ソート（パケットソート）を実現する方法について、(i) 空欄 (6)〜(10) を埋める、(ii) bucket[M−1] から降順に取り出す理由の説明、(iii) 時間計算量のオーダーとその根拠。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      87.5,
+      90.5,
+      534.0,
+      748.5
+     ],
+     "label": "コンピュータ工学（ソフトウェア）7-1：バケットと連結リストの説明・bucket 配列と構造体 cell の図・プログラム A（main 関数、空欄 (1)、<A>、<B>）"
+    },
+    {
+     "page": 10,
+     "box": [
+      80.0,
+      74.5,
+      527.5,
+      740.0
+     ],
+     "label": "7-1 続き：insert/delete/index 関数（空欄 (2)〜(5)）・小問 (i)(ii)・7-2 基数ソートの説明"
+    },
+    {
+     "page": 11,
+     "box": [
+      40.0,
+      80.0,
+      530.5,
+      739.0
+     ],
+     "label": "7-2 続き：プログラム B（空欄 (6)〜(10)、<C>）・小問 (i)〜(iii)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "3頁にわたり 7-1 と 7-2 を収録。情報通信工学の問7 と同一内容。プログラムA・B の罫線枠と頁をまたぐ本文の連続性を確認。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q1"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [
+    "osaka-ee-2005-seigyo-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

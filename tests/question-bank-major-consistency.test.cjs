@@ -11,7 +11,8 @@ test('Osaka electrical questions use the electrical course and kiso uses shared 
  const electrical='電気電子情報通信工学専攻／電気工学コース',kiso='電気電子情報通信工学専攻（基礎科目共通）';
  const manifestDir=path.join(__dirname,'..','data','question-manifests');
  const files=fs.readdirSync(manifestDir).filter(f=>f.startsWith('osaka-ee-'));
- assert.equal(files.length,31);
+ // 31 course papers (2011–2026 electrical, 2011–2025 kiso) + 42 old-format subject papers (2005–2010, 7 each)
+ assert.equal(files.length,73);
  for(const f of files){const major=JSON.parse(fs.readFileSync(path.join(manifestDir,f),'utf8')).source.major;assert.equal(major,f.includes('-kiso')?kiso:electrical,f);}
 });
 test('question manifests and generated paper.json agree on major',()=>{

@@ -1,0 +1,203 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2010-kairo",
+ "title": "大阪大学 · 2010 入学年度 · 前身科目：回路理论",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2010",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2010,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：回路理论）",
+  "originalSubject": "回路理论",
+  "originalName": "回路理论.pdf",
+  "pdf": "assets/past-papers/documents/cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b.pdf",
+  "sha256": "cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b",
+  "pageCount": 5,
+  "note": "「2010 年度入学試験（実施年 2009）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    72.0,
+    443.0,
+    481.0,
+    711.0
+   ],
+   "label": "表紙の注意事項（問題用紙 5 枚、解答は所定の枠内に記入）"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2010-kairo-q1",
+   "number": "問1",
+   "title": "回路理論：RC 直列回路のラプラス変換による過渡応答とエネルギー",
+   "titleKind": "editorial",
+   "topics": [
+    "RC回路",
+    "ラプラス変換",
+    "過渡応答",
+    "エネルギー",
+    "時定数"
+   ],
+   "summary": "図1 の RC 直列回路で電源電圧 e_s(t)=E[1−exp(−t/T)]（t≥0、E,T は正、T≠RC）、t=0⁻ で C の電圧 0 のとき (1) E_s(s)、(2) I(s)、(3) i(t)、(4) t→∞ までに C に蓄えられるエネルギー、(5) 0<t<∞ で R が消費するエネルギーを T≪RC と T≫RC の場合について。図1 と注 *1（t=0⁻ の定義）。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      45.0,
+      37.0,
+      547.0,
+      687.0
+     ],
+     "label": "問1：回路図1、注 *1、小問 (1)〜(5)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "notes": "題号「問1（25点）」、図1、注 *1、小問 (1)〜(5)。"
+   }
+  },
+  {
+   "id": "osaka-ee-2010-kairo-q2",
+   "number": "問2",
+   "title": "回路理論：交流回路のテブナン等価回路と電流フェーザ",
+   "titleKind": "editorial",
+   "topics": [
+    "交流定常状態",
+    "テブナン等価回路",
+    "開放電圧",
+    "駆動点インピーダンス",
+    "フェーザ"
+   ],
+   "summary": "図2a の正弦波定常状態の交流回路（R1、L、R2 の直並列）について (1) ポート 1-1' の開放電圧フェーザ V̇、(2) 電圧源短絡時の駆動点インピーダンス Z0、(3) テブナン等価回路、(4) 図2b で C を接続したときの電流フェーザ İ_C、(5) 起電力一定で İ_0 が最小となる条件と ω0。注 *1〜*4 に用語の英訳。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      47.0,
+      35.0,
+      551.0,
+      793.0
+     ],
+     "label": "問2：図2a・図2b、小問 (1)〜(5)、注 *1〜*4（用語対訳）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "notes": "題号「問2（25点）」、図2a・図2b、注 *1〜*4 の用語対訳を box 内、小問 (1)〜(5)。"
+   }
+  },
+  {
+   "id": "osaka-ee-2010-kairo-q3",
+   "number": "問3",
+   "title": "回路理論：対称格子形回路のインピーダンス行列と電圧伝達関数",
+   "titleKind": "editorial",
+   "topics": [
+    "格子形回路",
+    "インピーダンス行列",
+    "電圧伝達関数",
+    "入力インピーダンス",
+    "ボード線図"
+   ],
+   "summary": "図3 の対称格子形回路について (1) 2 ポートのインピーダンス行列 Z(s)、(2) 電圧伝達関数 T(s)=V2(s)/V1(s)、(3) 入力インピーダンス Z_in、(4) R=1Ω、Z_a を 2F のキャパシタ、Z_b を 2H のインダクタに置換えたときの T(s) の周波数特性とボード線図。注 *1〜*4 に用語の英訳。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      67.0,
+      77.0,
+      513.0,
+      723.0
+     ],
+     "label": "問3：図3、小問 (1)〜(4)、注 *1〜*4（用語対訳）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "notes": "題号「問3（25点）」、図3、注 *1〜*4 を box 内、小問 (1)〜(4)。"
+   }
+  },
+  {
+   "id": "osaka-ee-2010-kairo-q4",
+   "number": "問4",
+   "title": "回路理論：ダイオード回路の用語填空と整流波形",
+   "titleKind": "editorial",
+   "topics": [
+    "ダイオード",
+    "半導体",
+    "理想ダイオード",
+    "整流回路",
+    "波形"
+   ],
+   "summary": "図4a〜4e のダイオード回路について (1) 文章中の空欄①〜⑨に適切な語句、(2) 図4c の回路（正弦波電圧入力、理想ダイオード、E=6V、f=1kHz、R=1kΩ）で A=12V と A=4V の出力波形、(3) 図4e の回路（R1=2kΩ、R2=1kΩ）で同様に A=12V と A=4V の出力波形。注 *1〜*5 に用語の英訳。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      41.0,
+      39.0,
+      570.0,
+      799.0
+     ],
+     "label": "問4：図4a〜4e、設問 (1)〜(3)、注 *1〜*5（用語対訳）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "notes": "題号「問4（25点）」、図4a〜4e と注 *1〜*5 を box 内、設問 (1)〜(3)。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2010-kairo-q1"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2010-kairo-q2"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2010-kairo-q3"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2010-kairo-q4"
+   ],
+   "common": false,
+   "reviewed": true,
+   "excluded": ""
+  }
+ ]
+}

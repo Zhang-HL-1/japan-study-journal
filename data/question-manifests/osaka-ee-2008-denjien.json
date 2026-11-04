@@ -1,0 +1,377 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2008-denjien",
+ "title": "大阪大学 · 2008 入学年度 · 前身科目：電磁エネルギー工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2008",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2008,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：電磁エネルギー工学）",
+  "originalSubject": "電磁エネルギー工学",
+  "originalName": "电磁能源工学.pdf",
+  "pdf": "assets/past-papers/documents/167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356.pdf",
+  "sha256": "167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356",
+  "pageCount": 12,
+  "note": "「2008 年度入学試験（実施年 2007）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    88.0,
+    309.0,
+    527.0,
+    684.0
+   ],
+   "label": "【注意事項】：問題は 5 問、このうち 3 問を選択して解答、問題用紙は表紙を含め 12 枚"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2008-denjien-q1",
+   "number": "問題[1]",
+   "title": "波動と熱力学：正弦波の重ね合わせ・気柱の共鳴とうなり、断熱自由膨張のエントロピー",
+   "titleKind": "editorial",
+   "topics": [
+    "波動",
+    "正弦波",
+    "重ね合わせ",
+    "定在波",
+    "気柱の共鳴",
+    "うなり",
+    "断熱自由膨張",
+    "エントロピー"
+   ],
+   "summary": "問題[1] 問 1 正弦波の重ね合わせと気柱の共鳴・うなりに関する空欄補充。振動数 f1・f2 の 2 つの音波を重ねたときのうなりの振動数、一端閉管・両端開管の気柱の共鳴条件と共鳴振動数、波長と管内の定在波の関係などを、与えられた空欄（ア）以降を補充して求める。問 2 断熱容器内で気体を真空に自由膨張させたときの温度変化とエントロピー変化 ΔS を求め、ΔS>0 となることから熱力学第 2 法則が満たされていることを確認する。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      84.5,
+      98.0,
+      524.0,
+      660.5
+     ],
+     "label": "問題[1] 問 1：正弦波の重ね合わせ・気柱の共鳴・うなり（空欄補充）"
+    },
+    {
+     "page": 3,
+     "box": [
+      70.0,
+      82.0,
+      525.5,
+      759.0
+     ],
+     "label": "問題[1] 問 2：断熱自由膨張の ΔS と熱力学第 2 法則"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 2 頁が問 1（表題「問題[1]」と空欄ア以降）、第 3 頁が問 2（ΔS の空欄と熱力学第 2 法則の記述）。2 頁で 1 題を構成。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-denjien-q2",
+   "number": "問題[2]",
+   "title": "レーザー光とプラズマ：荷電粒子の運動・電流密度・電磁波の分散関係",
+   "titleKind": "editorial",
+   "topics": [
+    "プラズマ",
+    "荷電粒子",
+    "運動方程式",
+    "電流密度",
+    "マクスウェル方程式",
+    "分散関係",
+    "プラズマ振動数",
+    "レーザー光"
+   ],
+   "summary": "問題[2] 電磁波がプラズマ中を伝播するときの分散関係を、電子の運動方程式とマクスウェル方程式から空欄補充形式で導く。電界 E=E0 exp(i(kz-ωt)) 中の電子の速度 u=u0 exp(i(kz-ωt)) を運動方程式に代入して振幅 u0 を求め、電流密度 J=-e n_e u をマクスウェル方程式に代入して分散関係 k²c²=ω²-ω_p²（ω_p はプラズマ振動数）を導き、遮断周波数・屈折率・群速度などを求める。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      84.5,
+      98.0,
+      522.0,
+      757.5
+     ],
+     "label": "問題[2]：電界中の電子速度 u0 の導出（式(2)(3)）"
+    },
+    {
+     "page": 5,
+     "box": [
+      85.5,
+      97.0,
+      522.0,
+      715.5
+     ],
+     "label": "問題[2]：電流密度からマクスウェル方程式への代入"
+    },
+    {
+     "page": 6,
+     "box": [
+      85.5,
+      103.0,
+      523.0,
+      370.5
+     ],
+     "label": "問題[2]：分散関係・プラズマ振動数と遮断周波数"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 4・5・6 頁の 3 頁で 1 題を構成。頁をまたぐ連続した空欄補充の流れ（式(2)(3)(4)…）と、最終頁の分散関係の結論を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-denjien-q3",
+   "number": "問題[3]",
+   "title": "プラズマ中の金属体：シース形成とイオン・電子電流",
+   "titleKind": "editorial",
+   "topics": [
+    "プラズマ",
+    "金属体",
+    "シース",
+    "空間電荷",
+    "イオン電流",
+    "電子電流",
+    "ボーム条件"
+   ],
+   "summary": "問題[3] プラズマ中に置かれた金属体の周囲に形成されるシース（空間電荷層）について、イオンと電子の電流密度、電位分布、シースの厚さを空欄補充形式で求める。金属体に流れ込むイオン電流と電子電流の大きさが等しくなる条件（浮遊電位）や、シース内の電界・電位の満たす式を導く。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      51.0,
+      61.0,
+      565.5,
+      760.5
+     ],
+     "label": "問題[3]：シースの形成条件とイオン・電子電流"
+    },
+    {
+     "page": 8,
+     "box": [
+      49.5,
+      59.5,
+      553.0,
+      735.5
+     ],
+     "label": "問題[3]：電位分布・シース厚さの導出"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 7・8 頁の 2 頁で 1 題を構成。頁上部の表題「問題[3]」、シースに関する空欄、最終頁の結論を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-denjien-q4",
+   "number": "問題[4]",
+   "title": "量子光学：プランクの放射則とモード数・レイリー・ジーンズ則・ウィーン則",
+   "titleKind": "editorial",
+   "topics": [
+    "量子光学",
+    "プランクの放射則",
+    "モード数",
+    "状態密度",
+    "レイリー・ジーンズ則",
+    "ウィーン則",
+    "黒体放射"
+   ],
+   "summary": "問題[4] 空洞内の電磁波（光）のモード数を数え、プランクの放射則を導く。3 次元空間で単位体積当たり・振動数 ν〜ν+dν の範囲にある固有の波のモード数 N_ν dν=(8π/c³)ν²dν を求め、横波が 2 つの偏波面をもつことに注意して、レイリー・ジーンズ則・ウィーン則との関係（長波長極限・短波長極限）およびプランク分布の導出を空欄補充形式で問う。",
+   "regions": [
+    {
+     "page": 9,
+     "box": [
+      84.0,
+      97.0,
+      521.5,
+      750.0
+     ],
+     "label": "問題[4]：モード数 N_ν dν の導出"
+    },
+    {
+     "page": 10,
+     "box": [
+      85.0,
+      98.5,
+      522.0,
+      414.5
+     ],
+     "label": "問題[4]：プランクの放射則とレイリー・ジーンズ則・ウィーン則"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 9・10 頁の 2 頁で 1 題を構成。モード数の式 N_ν dν=(8π/c³)ν²dν と偏波面の記述、最終頁の放射則の完成を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-denjien-q5",
+   "number": "問題[5]",
+   "title": "電子ビームの静電偏向：平行平板電極による偏向感度",
+   "titleKind": "editorial",
+   "topics": [
+    "電子ビーム",
+    "静電偏向",
+    "平行平板電極",
+    "偏向感度",
+    "電子の軌道",
+    "速度成分"
+   ],
+   "summary": "問題[5] 平行平板電極で作られる一様な電界中を通過する電子ビームの偏向について、偏向板内での電子の加速度・軌道・偏向角、偏向板を出た後の直進軌道、スクリーン上での偏向距離（偏向感度）を空欄補充形式で求める。電子が偏向板の終端（図中の P 位置）に到達したときの速度の Y 方向成分 v_y から偏向角を求める過程を含む。",
+   "regions": [
+    {
+     "page": 11,
+     "box": [
+      84.0,
+      100.5,
+      530.5,
+      760.5
+     ],
+     "label": "問題[5]：偏向板内の電子の軌道と P 点での速度"
+    },
+    {
+     "page": 12,
+     "box": [
+      85.5,
+      97.0,
+      522.0,
+      622.0
+     ],
+     "label": "問題[5]：偏向角・スクリーン上の偏向距離（偏向感度）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 11・12 頁の 2 頁で 1 題を構成。P 位置での速度 Y 方向成分 v_y の記述と、偏向感度の最終式を確認。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头标题・実施日時・页脚とスキャン余白；注意事項は commonRegions に収録。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q1"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q1"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q2"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q2"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q2"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q3"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q3"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q4"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q4"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q5"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 12,
+   "questionIds": [
+    "osaka-ee-2008-denjien-q5"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

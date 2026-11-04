@@ -1,0 +1,240 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2007-kairo",
+ "title": "大阪大学 · 2007 入学年度 · 前身科目：回路理论",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2007",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2007,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：回路理论）",
+  "originalSubject": "回路理论",
+  "originalName": "回路理论.pdf",
+  "pdf": "assets/past-papers/documents/f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df.pdf",
+  "sha256": "f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df",
+  "pageCount": 5,
+  "note": "「2007 年度入学試験（実施年 2006）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    80.0,
+    459.0,
+    427.0,
+    736.0
+   ],
+   "label": "注意事項：問題は5問、問題1〜5を各色の解答用紙に記入"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2007-kairo-q1",
+   "number": "問1",
+   "title": "RL 回路のスイッチ開放過渡現象（ラプラス変換）",
+   "titleKind": "editorial",
+   "topics": [
+    "過渡現象",
+    "RL回路",
+    "ラプラス変換",
+    "初期値"
+   ],
+   "summary": "「問1（20点）」図1の回路で t<0 に定常、t=0 でスイッチ SW を開くとき、(1) i(0-)、(2) ラプラス変換 I(s)、(3) i(t)(t≧0) を求める。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      77.0,
+      93.0,
+      514.0,
+      389.0
+     ],
+     "label": "問1：題号（20点）、条件文、小問 (1)〜(3)、図1 と図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「問1」を確認。領域数 1、頁 2。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-kairo-q2",
+   "number": "問2",
+   "title": "正弦波交流回路の周波数無関係なインピーダンス条件",
+   "titleKind": "editorial",
+   "topics": [
+    "交流回路",
+    "インピーダンス",
+    "共振",
+    "ブリッジ回路"
+   ],
+   "summary": "「問2（20点）」角周波数 ω の図2の回路で、(1) A-B 間インピーダンスが ω に無関係に一定となる L,R,C の条件、(2) そのときのインピーダンスを求める。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      74.0,
+      397.0,
+      494.0,
+      749.0
+     ],
+     "label": "問2：題号（20点）、条件文、小問 (1)(2)、図2 と図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「問2」を確認。領域数 1、頁 2。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-kairo-q3",
+   "number": "問3",
+   "title": "電流源駆動回路の駆動点アドミタンスとノートン等価回路・最大有効電力",
+   "titleKind": "editorial",
+   "topics": [
+    "アドミタンス",
+    "ノートン等価回路",
+    "最大電力供給",
+    "複素電力"
+   ],
+   "summary": "「問3（20点）」ω=1、R=1Ω、L=1H、C=C [F]、|İs|=1 の図3a の回路で、(1) a-b の駆動点アドミタンス、(2) ノートン等価回路、(3) Z′=1/5+(3/5)j を接続したときの P 最大の C と Pmax を求める。図3a・図3b を含む。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      84.0,
+      93.0,
+      518.0,
+      644.0
+     ],
+     "label": "問3：題号（20点）、条件文、小問 (1)〜(3)、図3a・図3b と図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「問3」を確認。領域数 1、頁 3。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-kairo-q4",
+   "number": "問4",
+   "title": "2ポート回路のインピーダンス行列とT型等価回路",
+   "titleKind": "editorial",
+   "topics": [
+    "2ポート回路",
+    "インピーダンス行列",
+    "T型回路",
+    "フェーザ"
+   ],
+   "summary": "「問4（20点）」図4a・図4b の2通りの電流測定から、(1) ω=2 のインピーダンス行列 Z、(2) 図4c の T 型回路で実現する R,L,C を求める。図4a〜4c を含む。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      78.0,
+      92.0,
+      513.0,
+      743.0
+     ],
+     "label": "問4：題号（20点）、測定条件の式、小問 (1)(2)、図4a・図4b・図4c と図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「問4」を確認。領域数 1、頁 4。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-kairo-q5",
+   "number": "問5",
+   "title": "差動増幅回路の動作と差動電圧利得・同相除去比",
+   "titleKind": "editorial",
+   "topics": [
+    "差動増幅回路",
+    "トランジスタ等価回路",
+    "差動利得",
+    "同相利得",
+    "CMRR"
+   ],
+   "summary": "「問5（20点）」図5a の回路について、(1) 文中の空欄 (1)〜(7) を語群から選ぶ、(2) 図5b の等価回路から差動電圧利得 A1・同相電圧利得 A2 と γ=A1/A2 を導出する。図5a・図5b と語群を含む。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      61.0,
+      92.0,
+      537.0,
+      762.0
+     ],
+     "label": "問5：題号（20点）、小問 (1) の穴埋め文と語群、小問 (2)、図5a・図5b と図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「問5」を確認。領域数 1、頁 5。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头标题与页脚页码与扫描空白边；只收「注意事項」栏。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2007-kairo-q1",
+    "osaka-ee-2007-kairo-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2007-kairo-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2007-kairo-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2007-kairo-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

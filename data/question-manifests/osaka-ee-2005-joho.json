@@ -1,0 +1,379 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2005-joho",
+ "title": "大阪大学 · 2005 入学年度 · 前身科目：信息通信工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2005",
+  "school": "大阪大学",
+  "schoolId": "osaka",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2005,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：信息通信工学）",
+  "originalSubject": "信息通信工学",
+  "originalName": "信息通信工学.pdf",
+  "pdf": "assets/past-papers/documents/ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148.pdf",
+  "sha256": "ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148",
+  "pageCount": 10,
+  "note": "「2005 年度入学試験（実施年 2004）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    91.5,
+    325.5,
+    523.0,
+    682.5
+   ],
+   "label": "表紙の注意事項：問題は7問・問題用紙9枚、問題1〜3は必須、問題4〜7から2題選択、解答用紙の色分けと試験終了後の回収手順"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2005-joho-q1",
+   "number": "1",
+   "title": "情報理論：3元情報源のエントロピー・瞬時符号化・ハフマン符号・2次拡大情報源",
+   "titleKind": "editorial",
+   "topics": [
+    "情報源",
+    "エントロピー",
+    "瞬時符号",
+    "ハフマン符号",
+    "平均符号長",
+    "拡大情報源"
+   ],
+   "summary": "記憶のない3元情報源 S（記号 X1,X2,X3 が等確率）について、表1 の2元符号化則を与えて (i) エントロピー、(ii) 表1 の符号則が瞬時符号か否かと非瞬時符号の場合の復号不能例、(iii) ハフマン符号化則と導出過程、(iv) 平均符号長、(v) 2次拡大情報源 S^2 のエントロピー、(vi) S^2 のハフマン符号化則と平均符号長、(vii) (iii) と (vi) の符号則の優劣の比較、を問う。log10 2=0.30、log10 3=0.48 を用いて計算する指示付き。小問は分割せず1題として収録。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      93.0,
+      86.5,
+      524.5,
+      641.0
+     ],
+     "label": "1. 情報理論：3元情報源Sの設定・対数の数値条件・表1 符号化則（X1→0, X2→01, X3→10）・小問 (i)〜(vii)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "頁全体で1題。表1「符号化則」の符号語 0／01／10 と、末尾の (vii) までを収録。図は無し、表1のみ。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-joho-q2",
+   "number": "2",
+   "title": "通信方式：FM変調の瞬時角周波数と復調・2相位相変調（BPSK）の同期検波とビット誤り率",
+   "titleKind": "editorial",
+   "topics": [
+    "FM変調",
+    "瞬時角周波数",
+    "復調",
+    "2相位相変調",
+    "同期検波",
+    "ビット誤り率",
+    "erfc"
+   ],
+   "summary": "2-1 FM変調方式について (i) 瞬時角周波数の定義、(ii) 瞬時角周波数と変調信号の関係、(iii) 変調信号 m(t)・搬送波振幅 A・搬送波周波数 fc による FM 波の式 e_FM(t)=A cos[2πfc t + kf ∫m(t)dt] の導出、(iv) 復調手段の説明。2-2 2相位相変調（BPSK）の受信について、送信データ「1」「0」の受信波形、雑音 n(t)=x(t)cos2πfc t − y(t)sin2πfc t（x,y は独立なガウス雑音）、同期検波後の波形 r(t)、条件付き確率密度 p(r|データ=1)、p(r|データ=0)、ビット誤り率（erfc(x) の定義式付き）。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      91.5,
+      94.5,
+      524.0,
+      700.5
+     ],
+     "label": "2-1 FM変調：瞬時角周波数の定義・変調信号との関係・式(1) のFM波・復調手段／2-2 2相位相変調：受信波形・同期検波・確率密度関数 p(x), p(y)・ビット誤り率と erfc(x) の定義"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "1頁に 2-1 と 2-2 が併記。2-1 は (i)〜(iv)、2-2 は (i)〜(iv)。FM 波の式(1) と erfc(x) の定義式を欠かさず収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-joho-q3",
+   "number": "3",
+   "title": "ネットワーク工学：TCPのプロトコル階層・フロー制御と輻輳制御・輻輳検出・AIMD",
+   "titleKind": "editorial",
+   "topics": [
+    "TCP",
+    "プロトコル階層",
+    "フロー制御",
+    "輻輳制御",
+    "Congestion Window",
+    "AIMD"
+   ],
+   "summary": "コンピュータネットワークで用いられる TCP について (i) TCP とは何か、(ii) 実装されるプロトコル階層、(iii) その階層のプロトコルを用いるアプリケーションを2つ、(iv) フロー制御と輻輳制御の役割、(v) 輻輳の発生を検知する仕組み、(vi) (v) の仕組みをとらなければならない理由を階層と関連付けて説明、(vii) Congestion Window と往復遅延に関する文中の空欄 ① ② を埋める、(viii) Additive Increase / Multiplicative Decrease の概念の説明と適用理由の論述。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      93.5,
+      85.5,
+      527.5,
+      496.5
+     ],
+     "label": "3. ネットワーク工学：TCP の階層・フロー制御と輻輳制御・輻輳検出の仕組み・空欄 ① ② を含む文章・AIMD の論述 (i)〜(viii)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "小問 (i)〜(viii)。空欄 ①（応答=ACK）と ②（往復遅延）の枠を図として収録。頁下半分は空白で、box は (viii) 末尾で止めた。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-joho-q4",
+   "number": "4",
+   "title": "光・電波工学：誘電体界面への斜入射平面波の反射・透過（フレネル係数と全反射条件）",
+   "titleKind": "editorial",
+   "topics": [
+    "平面電磁波",
+    "斜入射",
+    "反射係数",
+    "透過係数",
+    "ポインティングベクトル",
+    "全反射"
+   ],
+   "summary": "屈折率の異なる2種の誘電体媒質が xy 面を境界として接する。電界ベクトル E=i_x E_0 exp[−jk1(y sinθ1 − z cosθ1)] で与えられる角周波数 ω の平面電磁波が境界面に斜め入射するとき、(i) 波数 k1 を ω・真空中の光速 c・屈折率 n1 で表す、(ii) 入射波の磁界ベクトル、(iii) −z 方向に運ぶ単位面積当たりの電力の時間平均値、(iv) 反射係数 r・透過係数 t を用いた反射波と透過波の電界ベクトル、(v) r と t の導出、(vi) 全反射されるための条件。入射・反射・透過波と θ1, θ2, n1, n2 を示す図付き。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      87.0,
+      78.0,
+      514.5,
+      718.0
+     ],
+     "label": "4. 光・電波工学：電界ベクトルの式・入射/反射/透過波と屈折率 n1, n2・角度 θ1, θ2 の図・小問 (i)〜(vi)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "頁全体で1題。境界面・z軸・y軸・θ1・θ2・n1・n2 を記した図を欠かさず収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-joho-q5",
+   "number": "5",
+   "title": "信号処理：線形時不変システムの定義・インパルス応答・たたみ込み・無記憶性と因果性",
+   "titleKind": "editorial",
+   "topics": [
+    "線形時不変システム",
+    "インパルス応答",
+    "たたみ込み",
+    "z変換",
+    "無記憶性",
+    "因果性"
+   ],
+   "summary": "線形性と時不変性を有する離散時間信号処理システム L（入出力 y[n]=L[x[n]]）について、(i) 線形性・時不変性の定義を数式で説明、(ii) インパルス応答 h[n] の定義、(iii) 出力 y[n] が入力 x[n] と h[n] のたたみ込みで表されることの導出、(iv) 図示された x[n]（n=0 で 1、n=1 で −1、n=2 で 1）と h[n]=x[n−1] に対する y[n] を z 変換により求解、(v) 縦続接続の順序无关性の証明、(vi) 無記憶システムのときの h[n] の条件、(vii) 因果的なシステムのときの h[n] の条件。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      102.5,
+      71.5,
+      519.5,
+      560.5
+     ],
+     "label": "5. 信号処理：LTI システムの定義・インパルス応答・たたみ込み・x[n] の離散信号図（n=−2〜3）・z変換による y[n]・無記憶性と因果性 (i)〜(vii)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "離散信号 x[n] の図（n=−2〜3、振幅 1/−1）を収録。図のキャプション x[n] も含む。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-joho-q6",
+   "number": "6",
+   "title": "コンピュータ工学（ハードウェア）：SRフリップフロップとゲート回路による2進数変換",
+   "titleKind": "editorial",
+   "topics": [
+    "SRフリップフロップ",
+    "論理ゲート",
+    "順序回路",
+    "2進数",
+    "リセット"
+   ],
+   "summary": "リセット入力で SR フリップフロップの状態 Q が 0 になった後、N 個の入力 X0〜X_{N−1} が順に入力され、出力 Y0〜Y_{N−1} が得られる回路について、(i) Y_i を X_i と Q で表す、(ii) Q=0 と Q=1 の場合の Y_i、(iii)(iv) X_i 入力後の Q の遷移、(v) (X0,…,X9)=(0,0,0,0,1,1,0,1,0,0) に対する出力、(vi) 最初の k 個が 0 で X_k=1 のときの出力の分割表現、(vii) 2^i の重みを付した N 桁2進数とみなしたときの入力と出力の和 K、(viii) この回路の機能が通常どのような目的に利用されるかの記述。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      102.5,
+      83.5,
+      519.0,
+      592.5
+     ],
+     "label": "6. コンピュータ工学（ハードウェア）：SR フリップフロップ・NOT/AND ゲートからなる回路図・小問 (i)〜(viii)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "回路図（X0〜X_{N−1}、リセット入力、S/R、Q/Q̄、Y0〜Y_{N−1}）を収録。頁末尾 (viii) まで。"
+   }
+  },
+  {
+   "id": "osaka-ee-2005-joho-q7",
+   "number": "7",
+   "title": "コンピュータ工学（ソフトウェア）：バケット構造による文字列の格納と基数ソート（パケットソート）",
+   "titleKind": "editorial",
+   "topics": [
+    "連結リスト",
+    "バケット",
+    "C言語",
+    "基数ソート",
+    "パケットソート",
+    "計算量"
+   ],
+   "summary": "7-1 文字列を連結リストに格納するデータ構造（バケット）を実装したプログラム A について、(i) <A>・<B> におけるバケットの状態（bucket[0]〜[3]）を図示、(ii) 空欄 (1)〜(5) を埋める。7-2 プログラム A にプログラム B を加えて基数ソート（パケットソート）を実現する方法について、(i) 空欄 (6)〜(10) を埋める、(ii) bucket[M−1] から降順に取り出す理由の説明、(iii) 時間計算量のオーダーとその根拠。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      86.0,
+      84.5,
+      531.0,
+      739.5
+     ],
+     "label": "7-1 冒頭：バケットと連結リストの説明・bucket 配列と構造体 cell の図・プログラム A（main 関数、空欄 (1)、<A>、<B>）"
+    },
+    {
+     "page": 9,
+     "box": [
+      82.5,
+      71.5,
+      531.0,
+      734.5
+     ],
+     "label": "7-1 続き：insert/delete/index 関数（空欄 (2)〜(5)）・小問 (i)(ii)・7-2 基数ソートの説明（パケットソート）"
+    },
+    {
+     "page": 10,
+     "box": [
+      82.0,
+      74.0,
+      532.0,
+      731.5
+     ],
+     "label": "7-2 続き：プログラム B（空欄 (6)〜(10)、<C>）・小問 (i)〜(iii)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "3頁にわたり 7-1 と 7-2 を収録。2つのプログラムリスト（プログラムA・プログラムB）の罫線枠を欠かさず収録し、頁をまたぐ 7-2 本文（9頁末尾→10頁冒頭）の連続性を確認。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2005-joho-q1"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2005-joho-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2005-joho-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2005-joho-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2005-joho-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2005-joho-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2005-joho-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2005-joho-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2005-joho-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

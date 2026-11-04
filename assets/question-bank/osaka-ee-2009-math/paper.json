@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2009-math",
+  "title": "大阪大学 · 2009 入学年度 · 前身科目：数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2009",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2009,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：数学）",
+    "originalSubject": "数学",
+    "originalName": "数学.pdf",
+    "pdf": "assets/past-papers/documents/f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca.pdf",
+    "sha256": "f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca",
+    "pageCount": 6,
+    "note": "「2009 年度入学試験（実施年 2008）；旧制 7 科目分册，非课程制」本册为「数学」入試問題（5問・各20点・合計100点、問題紙6枚）。",
+    "normalization": {
+      "derivedPdf": "assets/question-bank/osaka-ee-2009-math/normalized.pdf",
+      "derivedSha256": "46ef452e413868038b997eaacff99d3919626f94166fa50fd6ce205f81ad66aa",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 5,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 6,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        }
+      ]
+    }
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2009-math/common-01.png",
+      "page": 1,
+      "box": [
+        83.0,
+        358.0,
+        448.0,
+        661.0
+      ],
+      "width": 1095,
+      "height": 909,
+      "label": "【注意事項】：問題は5問（各20点・合計100点）、問題紙6枚、解答用紙の使い方",
+      "sha256": "04fc3d335b7b5675c9c724d614b7d6e20f515d0fcd0279c0047b8fe265878ac4"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2009-math-q1",
+      "number": "問題 1",
+      "title": "数学：行列の固有値・固有ベクトルと対角化（(a)(b)）",
+      "titleKind": "editorial",
+      "topics": [
+        "線形代数",
+        "固有値",
+        "固有ベクトル",
+        "対角化",
+        "行列のべき"
+      ],
+      "summary": "問題1。与えられた 3 次行列 A について (a) 固有値と固有ベクトルを求め、(b) 対角化（P⁻¹AP が対角行列となる P）を実行し、必要なら A のべきを求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "頁内で問題1 が完結。頁脚中央のページ番号「2」は box から除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-math/osaka-ee-2009-math-q1-01.png",
+          "page": 2,
+          "box": [
+            79.0,
+            95.0,
+            513.0,
+            262.0
+          ],
+          "width": 1302,
+          "height": 501,
+          "label": "問題1：行列 A の固有値・固有ベクトルと対角化 (a)(b)",
+          "sha256": "27030d68ba9fe85fa91e57ad7e02e4dde216be2c1eb5a5f51d7132ae443c8fbf"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-math-q2",
+      "number": "問題 2",
+      "title": "数学：非線形微分方程式 dy/dx=(x−y²)y/x² の解法（(a)(b)）",
+      "titleKind": "editorial",
+      "topics": [
+        "微分方程式",
+        "非線形",
+        "変数変換",
+        "一般解",
+        "特異解"
+      ],
+      "summary": "問題2。(a) は (i)(ii)(iii) の誘導に従って変数変換を行い、dy/dx=(x−y²)y/x² の一般解を求める。(b) は与えられた初期条件・境界条件の下での解の挙動を問う。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "小問 (iii) と (b) の最終行まで收録。頁脚のページ番号「3」は除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-math/osaka-ee-2009-math-q2-01.png",
+          "page": 3,
+          "box": [
+            66.0,
+            85.0,
+            528.0,
+            340.0
+          ],
+          "width": 1386,
+          "height": 765,
+          "label": "問題2：非線形 ODE dy/dx=(x−y²)y/x² の解法 (a)(i)(ii)(iii)＋(b)",
+          "sha256": "cc4f4913e22cc63df4a8f7f52cd68e2e34439f7cbf14e24b3263d24e4343dc7e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-math-q3",
+      "number": "問題 3",
+      "title": "数学：複素関数 1/(z sin z) の極と留数、定積分 ∫₀^{2π} cos^{2n}θ dθ",
+      "titleKind": "editorial",
+      "topics": [
+        "複素解析",
+        "留数定理",
+        "極",
+        "ローラン展開",
+        "定積分"
+      ],
+      "summary": "問題3。(a) 複素関数 1/(z sin z) の極をすべて求め、それぞれの留数を計算する。(b) (a) の結果を留数定理に用いて ∫₀^{2π} cos^{2n}θ dθ を n で表す。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1 頁 1 問で完結。頁脚のページ番号「4」は除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-math/osaka-ee-2009-math-q3-01.png",
+          "page": 4,
+          "box": [
+            74.0,
+            114.0,
+            439.0,
+            264.0
+          ],
+          "width": 1095,
+          "height": 450,
+          "label": "問題3：1/(z sin z) の留数と ∫₀^{2π}cos^{2n}θdθ（(a)(b)）",
+          "sha256": "822405b0f268c7d9b72ad00d9ba8c984f82c1c048a3724d1f9acd461d611c52f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-math-q4",
+      "number": "問題 4",
+      "title": "数学：f(t)=e^{−|t|} のフーリエ変換・周期化と複素フーリエ係数・級数和",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ変換",
+        "周期化",
+        "複素フーリエ係数",
+        "ポアソン和公式",
+        "級数和"
+      ],
+      "summary": "問題4。(a) f(t)=exp(−|t|) のフーリエ変換 F(ω) を求める。(b) f を周期 2π で周期化した関数の複素フーリエ係数を求める。(c) (b) の係数と (a) の関係を述べる。(d) S=(1/π)∑_{n} 1/(1+n²) の値を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "(a)–(d) を 1 box に收録（頁内で完結、頁下半分は余白）。頁脚のページ番号「5」は除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-math/osaka-ee-2009-math-q4-01.png",
+          "page": 5,
+          "box": [
+            55.0,
+            109.0,
+            529.0,
+            585.0
+          ],
+          "width": 1422,
+          "height": 1428,
+          "label": "問題4：フーリエ変換・周期化・複素フーリエ係数・S=1/π∑1/(1+n²) (a)–(d)",
+          "sha256": "85c292cab7975d443fd9f6c61ffec4668e74a9cc8d15cef3607983b3e06d0c96"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-math-q5",
+      "number": "問題 5",
+      "title": "数学：ラプラス変換の性質 L[x f(x)]=−F′(s) と微分積分方程式",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "微分積分方程式",
+        "逆ラプラス変換",
+        "初期値問題"
+      ],
+      "summary": "問題5。(a) L[x f(x)]=−dF(s)/ds が成り立つことを示す。(b) その性質を用いて、微分と積分を含む方程式をラプラス変換で解く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "(a)(b) を 1 box に收録。頁脚のページ番号「6」は除外。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-math/osaka-ee-2009-math-q5-01.png",
+          "page": 6,
+          "box": [
+            62.0,
+            131.0,
+            506.0,
+            477.0
+          ],
+          "width": 1332,
+          "height": 1038,
+          "label": "問題5：L[x f(x)]=−F′(s) の証明と微分積分方程式 (a)(b)",
+          "sha256": "928c1af5667e376082d8a6e15d9cbb7f524491376b12555844c6368d9e8a85a1"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头封面标题、试验日期时刻、科目标题框与页脚印刷信息，只保留【注意事項】作为 common region；扫描空白边一并裁去。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2009-math-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚中央页码（1–6）与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2009-math-q2"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚中央页码（1–6）与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2009-math-q3"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚中央页码（1–6）与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2009-math-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚中央页码（1–6）与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2009-math-q5"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚中央页码（1–6）与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    }
+  ]
+}

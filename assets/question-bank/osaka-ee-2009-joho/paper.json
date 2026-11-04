@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2009-joho",
+  "title": "大阪大学 · 2009 入学年度 · 前身科目：信息通信工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2009",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2009,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：信息通信工学）",
+    "originalSubject": "信息通信工学",
+    "originalName": "信息通信工学.pdf",
+    "pdf": "assets/past-papers/documents/80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46.pdf",
+    "sha256": "80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46",
+    "pageCount": 10,
+    "note": "「2009 年度入学試験（実施年 2008）；旧制 7 科目分册，非课程制」本册为「情報通信工学」入試問題（問題1–3 必答・問題4–7 から2題選択、問題用紙9枚）。試験日 平成20年8月19日 13:00–16:00。",
+    "normalization": {
+      "derivedPdf": "assets/question-bank/osaka-ee-2009-joho/normalized.pdf",
+      "derivedSha256": "63671f1b2b5d21dc59dee6f9f0d12ebae18cfa35914d2a874d383b1bef05477b",
+      "pages": [
+        {
+          "page": 1,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 2,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 3,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 4,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 5,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 6,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 7,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 8,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 9,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        },
+        {
+          "page": 10,
+          "sourceRotation": 270,
+          "sourceMediaBox": [
+            0.0,
+            0.0,
+            842.4000244140625,
+            595.7999877929688
+          ],
+          "derivedRotation": 0,
+          "derivedRect": [
+            0.0,
+            0.0,
+            595.7999877929688,
+            842.4000244140625
+          ]
+        }
+      ]
+    }
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2009-joho/common-01.png",
+      "page": 1,
+      "box": [
+        79.0,
+        334.0,
+        517.0,
+        698.0
+      ],
+      "width": 1314,
+      "height": 1092,
+      "label": "【注意事項】：問題は7題（1–3 必答、4–7 から2題選択）、解答用紙の色分けと答案の書き方、試験日時 平成20年8月19日 13:00–16:00",
+      "sha256": "4c595226bc43b3aeb35a3a4e0acdd13c67f23d9fb002a3d0c66f19aa0ef5c76b"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2009-joho-q1",
+      "number": "問題 1",
+      "title": "情報理論：情報源の情報量・エントロピーとハフマン符号",
+      "titleKind": "editorial",
+      "topics": [
+        "情報理論",
+        "情報量",
+        "エントロピー",
+        "相互情報量",
+        "ハフマン符号",
+        "符号化効率"
+      ],
+      "summary": "「情報理論」の見出しの下、1 題で情報源の情報量・エントロピーから相互情報量、拡大情報源の符号化、ハフマン符号の構成と平均符号長までを (i)–(ix) の 9 小問で順に問う。与条件は小問ごとに書かれ、解答欄の記号は各小問の (i)–(ix) に対応する。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "p2 の全体が問題1で、卷頭の「情報理論」は分野見出し、「1.」が原卷題番号。頁末尾の (ix) まで收进 box，未遗漏；頁眉・頁番号は原本になく、扫描空白边已裁去。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-joho/osaka-ee-2009-joho-q1-01.png",
+          "page": 2,
+          "box": [
+            83.0,
+            96.0,
+            507.0,
+            649.0
+          ],
+          "width": 1272,
+          "height": 1659,
+          "label": "問題1（情報理論）：情報量・エントロピーからハフマン符号まで (i)–(ix)",
+          "sha256": "87f3c0a989ca14842694364f675fcf124ef0553083fcba46c583ecb840626524"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-joho-q2",
+      "number": "問題 2",
+      "title": "通信方式：AM（両側波帯 DSB）変復調と FM の変調指数・スペクトル（図1）",
+      "titleKind": "editorial",
+      "topics": [
+        "通信方式",
+        "振幅変調",
+        "DSB",
+        "ダイオード検波",
+        "周波数変調",
+        "FM",
+        "ベッセル関数"
+      ],
+      "summary": "「通信方式」の見出しの下、2−1 で振幅変調（両側波帯 DSB）の変調波表現・平均電力・復調を、2−2 で周波数変調 FM の変調指数と側波帯スペクトルを問う。FM の側波帯は図1 で与えられる。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷は 2−1／2−2 の 2 小題構成だが、封面「問題の数は7題」に合わせ 1 題（問題2）として收録。図1 は図号・図中ラベルとも box 内、切れなし。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-joho/osaka-ee-2009-joho-q2-01.png",
+          "page": 3,
+          "box": [
+            82.0,
+            108.0,
+            536.0,
+            698.0
+          ],
+          "width": 1362,
+          "height": 1770,
+          "label": "問題2（通信方式）：2−1 AM/DSB と 2−2 FM＋図1",
+          "sha256": "b502e4a8bc154dbdcb4170100371932d38d3f5a1a8a57469be7d8b21d4f8da10"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-joho-q3",
+      "number": "問題 3",
+      "title": "ネットワーク工学：パケット交換網の伝送遅延・輻輳とスループット",
+      "titleKind": "editorial",
+      "topics": [
+        "ネットワーク工学",
+        "パケット交換",
+        "待ち行列",
+        "伝送遅延",
+        "スループット",
+        "輻輳"
+      ],
+      "summary": "「ネットワーク工学」の見出しの下、パケット交換方式について 問い (i)–(v)。遅延・キュー・スループットの関係を、本文で与えられた数値条件から順に求める構成。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "p4 全体が問題3で、頁内に図はなく本文と式のみ。小問 (v) の最終行まで收録し、頁眉・頁番号は裁去。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-joho/osaka-ee-2009-joho-q3-01.png",
+          "page": 4,
+          "box": [
+            85.0,
+            115.0,
+            523.0,
+            729.0
+          ],
+          "width": 1314,
+          "height": 1842,
+          "label": "問題3（ネットワーク工学）：パケット交換 問い (i)–(v)",
+          "sha256": "cba55f3d9c7b13441b2b91018633a21cc97e4ee8b85f89b7dd34632033849e01"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-joho-q4",
+      "number": "問題 4",
+      "title": "光・電波工学：平面電磁波の境界条件による反射・透過と偏波",
+      "titleKind": "editorial",
+      "topics": [
+        "光・電波工学",
+        "平面波",
+        "境界条件",
+        "反射係数",
+        "透過係数",
+        "偏波"
+      ],
+      "summary": "「光・電波工学」の見出しの下、平面電磁波が媒質境界に入射するときの反射・透過と偏波を (i)–(iv) で問う。誘電率・透磁率の異なる 2 媒質の条件が本文で与えられる。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "p5 は問題4 のみで 1 頁完結（頁下半分は余白）。box は本文末の (iv) まで。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-joho/osaka-ee-2009-joho-q4-01.png",
+          "page": 5,
+          "box": [
+            83.0,
+            94.0,
+            518.0,
+            526.0
+          ],
+          "width": 1305,
+          "height": 1296,
+          "label": "問題4（光・電波工学）：平面波の反射・透過と偏波 (i)–(iv)",
+          "sha256": "829c37dbe4cafba634e18136b7b921e8c6dc825aed894ea2064a357078b43bd8"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-joho-q5",
+      "number": "問題 5",
+      "title": "信号処理：DTFT/DFT/FFT/DCT の相互関係と H(z) の直列・並列等価",
+      "titleKind": "editorial",
+      "topics": [
+        "信号処理",
+        "DTFT",
+        "DFT",
+        "FFT",
+        "DCT",
+        "伝達関数",
+        "周波数応答"
+      ],
+      "summary": "「信号処理」の見出しの下、5−1 で離散時間フーリエ変換 DTFT・離散フーリエ変換 DFT・高速フーリエ変換 FFT・離散コサイン変換 DCT の類似点と相違点、計算量削減の原理、データ圧縮への利用、相互関係を (i)–(iv) で論じ、5−2 で H(z)=1/(1−az⁻¹) に直列・並列で G(z) を接続した等価条件（ブロック図）と、積 H(z)G(z) の利得が最小となる周波数を問う。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷は 5−1／5−2 の 2 小題構成を 1 題（問題5）として收録。ブロック図（直列＋並列）は図号なしで本文中に埋め込まれており、box 内に完整に收録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-joho/osaka-ee-2009-joho-q5-01.png",
+          "page": 6,
+          "box": [
+            80.0,
+            107.0,
+            517.0,
+            589.0
+          ],
+          "width": 1311,
+          "height": 1446,
+          "label": "問題5（信号処理）：5−1 DTFT/DFT/FFT/DCT・5−2 直並列等価＋ブロック図",
+          "sha256": "0208c9c660c4d5a5b8ca887f2430c34591f46f28a7fe454509fa5eec7a7e7925"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-joho-q6",
+      "number": "問題 6",
+      "title": "論理回路・計算機システム：直接マッピングキャッシュの構成・容量・タグ",
+      "titleKind": "editorial",
+      "topics": [
+        "計算機システム",
+        "キャッシュ",
+        "直接マッピング",
+        "ブロック番号",
+        "タグ",
+        "セット連想"
+      ],
+      "summary": "「論理回路・計算機システム」の見出しの下、キャッシュの直接マッピング方式について (i) 文章中空欄 (1)–(6) を記号 a,b,c で埋める、(ii) ヒット判定の手順を順序立てて述べる、(iii) 主記憶 2²⁰ バイト・ブロック 16 バイト・1024 ブロックのキャッシュ全体の容量、(iv) 16 進アドレス (DA3C5)₁₆ のブロック番号とタグ、(v) セット連想方式への拡張を問う。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "p7 で問題6 が完結（次頁に続かない）。空欄 (1)–(6) の枠と (v) の最終行まで收録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-joho/osaka-ee-2009-joho-q6-01.png",
+          "page": 7,
+          "box": [
+            69.0,
+            94.0,
+            532.0,
+            736.0
+          ],
+          "width": 1389,
+          "height": 1926,
+          "label": "問題6（論理回路・計算機システム）：キャッシュ (i)–(v)",
+          "sha256": "43bba5696eb1c79b9a39bc37c5b604247e039edfd8a986574d5374f54f7f4737"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2009-joho-q7",
+      "number": "問題 7",
+      "title": "基本アルゴリズム・プログラミング：リストによるスタック実装とヒープソート",
+      "titleKind": "editorial",
+      "topics": [
+        "基本アルゴリズム",
+        "プログラミング",
+        "リスト構造",
+        "スタック",
+        "ヒープ",
+        "ヒープソート",
+        "計算量"
+      ],
+      "summary": "「基本アルゴリズム・プログラミング」の見出しの下、7−1 でリスト構造（図7−1）によりスタックを実現するプログラムA の空欄 1・2 と <α> 時点のスタックの図示を、7−2 でヒープ（図7−2）と downheap を用いたヒープソート（プログラムB）の空欄 3–6、<β>/<γ> 時点の 2 分木と配列、時間計算量のオーダーを問う。プログラムA は p8、プログラムB は p10 の枠に掲載。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷は 7−1／7−2 の 2 小題構成を 1 題（問題7）として收録し、3 頁に跨るため 3 region。図7−1・図7−2 とプログラムA・B のソース枠をそれぞれ切らずに收録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2009-joho/osaka-ee-2009-joho-q7-01.png",
+          "page": 8,
+          "box": [
+            66.0,
+            59.0,
+            522.0,
+            783.0
+          ],
+          "width": 1368,
+          "height": 2172,
+          "label": "問題7（7−1）：リスト構造とスタック＋図7−1＋プログラムA",
+          "sha256": "c3140f0517b4c15b5aea6a7f243f032d37de346f8de6968110bd9fb55938cfdc"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-joho/osaka-ee-2009-joho-q7-02.png",
+          "page": 9,
+          "box": [
+            66.0,
+            60.0,
+            522.0,
+            591.0
+          ],
+          "width": 1368,
+          "height": 1593,
+          "label": "問題7（7−2）：ヒープソートと downheap＋図7−2",
+          "sha256": "cc08bd617f440a9236b8b8d6c09e95126a161c285df9bdaa07686519848863fb"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2009-joho/osaka-ee-2009-joho-q7-03.png",
+          "page": 10,
+          "box": [
+            76.0,
+            62.0,
+            521.0,
+            493.0
+          ],
+          "width": 1335,
+          "height": 1293,
+          "label": "問題7（7−2 続き）：プログラムB のソースコード",
+          "sha256": "baeb0d9dc9e783d0419d929f5a4123a8867e9a637e556a8dfc6c017ce2277f1a"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头封面标题、试验日期时刻、科目标题框与页脚印刷信息，只保留【注意事項】作为 common region；扫描空白边一并裁去。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2009-joho-q1"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2009-joho-q2"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2009-joho-q3"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2009-joho-q4"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2009-joho-q5"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2009-joho-q6"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2009-joho-q7"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2009-joho-q7"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2009-joho-q7"
+      ],
+      "common": false,
+      "excluded": "裁去页眉、页脚页码与扫描空白边，只保留题面本身。",
+      "reviewed": true
+    }
+  ]
+}

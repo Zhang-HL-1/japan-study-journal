@@ -1,0 +1,293 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2008-denjiki",
+ "title": "大阪大学 · 2008 入学年度 · 前身科目：電磁理論",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2008",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2008,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：電磁理論）",
+  "originalSubject": "電磁理論",
+  "originalName": "电磁理论.pdf",
+  "pdf": "assets/past-papers/documents/2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2.pdf",
+  "sha256": "2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2",
+  "pageCount": 9,
+  "note": "「2008 年度入学試験（実施年 2007）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    88.0,
+    578.0,
+    520.0,
+    667.0
+   ],
+   "label": "【注意事項】：問題は 4 問、問題 1〜4 の各問 25 点、解答は各問ごとに指定された解答用紙を使用すること"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2008-denjiki-q1",
+   "number": "問題1",
+   "title": "同軸円筒コンデンサ：電界・電位・静電容量と誘電体の分極",
+   "titleKind": "editorial",
+   "topics": [
+    "同軸円筒",
+    "ガウスの法則",
+    "電界",
+    "電位",
+    "静電容量",
+    "誘電体",
+    "分極",
+    "誘電率"
+   ],
+   "summary": "問題 1（25 点）1-1 内導体半径 a、外導体半径 b の同軸円筒導体間に、誘電率 ε1 の誘電体（a<r<c）と誘電率 ε2 の誘電体（c<r<b）が充填されたコンデンサに、内導体が高電位となるよう電圧 V0 を印加する。各領域の電界 E(r)、電位 V(r)、単位長さ当たりの静電容量 C、蓄えられる電荷 Q などを、与えられた空欄を補充する形式で求める。1-2 1-1 の系について、各誘電体中の電束密度 D、分極 P、誘電体表面に現れる分極電荷、および界面 r=c における境界条件を空欄補充形式で求める。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      56.0,
+      57.0,
+      546.5,
+      760.5
+     ],
+     "label": "1-1：同軸円筒コンデンサの電界・電位・静電容量（第 1 志望コース欄の題号「1-1」を含む）"
+    },
+    {
+     "page": 3,
+     "box": [
+      53.0,
+      57.5,
+      544.0,
+      747.5
+     ],
+     "label": "1-2：電束密度・分極・分極電荷と界面の境界条件（題号「1-2」を含む）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 2 頁が 1-1、第 3 頁が 1-2。各頁上部の「第 1 志望コース」表の左セルに題号（1-1／1-2）があり、これを箱に含めている。頁末の「25 点」枠も収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-denjiki-q2",
+   "number": "問題2",
+   "title": "静磁界：ベクトルポテンシャルと円形コイル・2 つの円形ループの磁界",
+   "titleKind": "editorial",
+   "topics": [
+    "静磁界",
+    "ベクトルポテンシャル",
+    "ビオ・サバールの法則",
+    "円形コイル",
+    "磁束密度",
+    "インダクタンス"
+   ],
+   "summary": "問題 2（25 点）2-1 半径 a の円形コイルに電流 I が流れるときの磁束密度およびベクトルポテンシャルを、ビオ・サバールの法則とベクトルポテンシャルの定義から空欄補充形式で導く。2-2 2 つの円形ループ（半径 a、間隔 d）に電流が流れるときの磁界・相互インダクタンスなどを、与えられた式を補充しながら求める。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      66.5,
+      73.0,
+      550.5,
+      731.5
+     ],
+     "label": "2-1：円形コイルの磁束密度・ベクトルポテンシャル（題号「2-1」を含む）"
+    },
+    {
+     "page": 5,
+     "box": [
+      69.0,
+      72.5,
+      555.0,
+      760.5
+     ],
+     "label": "2-2：2 つの円形ループの磁界と相互インダクタンス（題号「2-2」を含む）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 4 頁が 2-1、第 5 頁が 2-2。頁上部の「第 1 志望コース」表の題号と、頁末の「25 点」枠を収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-denjiki-q3",
+   "number": "問題3",
+   "title": "電磁誘導：ファラデーの法則と閉回路・方形コイルに生じる起電力",
+   "titleKind": "editorial",
+   "topics": [
+    "電磁誘導",
+    "ファラデーの法則",
+    "起電力",
+    "磁束",
+    "方形コイル",
+    "レンツの法則"
+   ],
+   "summary": "問題 3（25 点）3-1 時間的に変化する磁界中に置かれた閉回路に生じる誘導起電力を、ファラデーの法則と磁束の時間変化から空欄補充形式で求める。3-2 一様な磁界中を運動する方形コイル（辺の長さ、速度、磁束密度が与えられる）に生じる起電力・電流・電磁力を求める。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      54.0,
+      51.5,
+      549.5,
+      759.0
+     ],
+     "label": "3-1：ファラデーの法則による誘導起電力（題号「3-1」を含む）"
+    },
+    {
+     "page": 7,
+     "box": [
+      56.5,
+      71.0,
+      558.5,
+      760.5
+     ],
+     "label": "3-2：運動する方形コイルに生じる起電力（題号「3-2」を含む）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 6 頁が 3-1、第 7 頁が 3-2。頁上部の「第 1 志望コース」表の題号と、頁末の「25 点」枠を収録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2008-denjiki-q4",
+   "number": "問題4",
+   "title": "電磁界中の電子の運動：ローレンツ力とサイクロトロン運動",
+   "titleKind": "editorial",
+   "topics": [
+    "ローレンツ力",
+    "電子の運動",
+    "サイクロトロン運動",
+    "磁界",
+    "電界",
+    "軌道"
+   ],
+   "summary": "問題 4（25 点）4-1 電界および磁界中に置かれた電子に働くローレンツ力と運動方程式から、電子の速度・軌道を空欄補充形式で求める。4-2 一様磁界中を円運動する電子（サイクロトロン運動）について、回転半径・周期・角周波数などを求める。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      64.5,
+      48.5,
+      544.5,
+      755.0
+     ],
+     "label": "4-1：電磁界中の電子に働くローレンツ力と運動（題号「4-1」を含む）"
+    },
+    {
+     "page": 9,
+     "box": [
+      67.5,
+      46.5,
+      547.0,
+      754.5
+     ],
+     "label": "4-2：一様磁界中の電子の円運動（題号「4-2」を含む）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "第 8 頁が 4-1、第 9 頁が 4-2。頁上部の「第 1 志望コース」表の題号と、頁末の「25 点」枠を収録。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头标题・実施日時・页脚とスキャン余白；注意事項は commonRegions に収録。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2008-denjiki-q1"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2008-denjiki-q1"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2008-denjiki-q2"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2008-denjiki-q2"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2008-denjiki-q3"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2008-denjiki-q3"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2008-denjiki-q4"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2008-denjiki-q4"
+   ],
+   "common": false,
+   "excluded": "裁去页脚・页码とスキャン余白，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

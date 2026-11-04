@@ -1,0 +1,355 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2007-joho",
+ "title": "大阪大学 · 2007 入学年度 · 前身科目：信息通信工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2007",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2007,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：信息通信工学）",
+  "originalSubject": "信息通信工学",
+  "originalName": "信息通信工学.pdf",
+  "pdf": "assets/past-papers/documents/c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4.pdf",
+  "sha256": "c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4",
+  "pageCount": 9,
+  "note": "「2007 年度入学試験（実施年 2006）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    79.0,
+    337.0,
+    511.0,
+    696.0
+   ],
+   "label": "注意事項：問題は7問、解答用紙の色分けと記入方法"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2007-joho-q1",
+   "number": "1",
+   "title": "情報理論：情報源のエントロピーと通信路容量・相互情報量",
+   "titleKind": "editorial",
+   "topics": [
+    "情報源",
+    "エントロピー",
+    "相互情報量",
+    "通信路容量",
+    "符号化"
+   ],
+   "summary": "「1.」情報源・通信路について (i)〜(xii) の小問。情報源のエントロピー、通信路1・通信路2の相互情報量と通信路容量、図1-1・図1-2 の通信路モデルに関する計算を問う。小問は分割せず1題として収録。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      76.0,
+      101.0,
+      520.0,
+      691.0
+     ],
+     "label": "情報理論：「1.」の題号、小問 (i)〜(xii)、図1-1・図1-2 と図号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「1」を確認。領域数 1、頁 2。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-joho-q2",
+   "number": "2",
+   "title": "通信方式：2-1 変調方式の雑音特性、2-2 ディジタル伝送の誤り率",
+   "titleKind": "editorial",
+   "topics": [
+    "通信方式",
+    "変調",
+    "雑音",
+    "誤り率",
+    "ディジタル伝送"
+   ],
+   "summary": "「2-1」「2-2」の二部構成。(i)〜(v) の小問からなり、変調波の電力比・雑音電力・誤り率特性を式で導く計算問題。二部は同一大题として1題に収録。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      82.0,
+      101.0,
+      516.0,
+      580.0
+     ],
+     "label": "通信方式：「2-1」「2-2」の題号と小問 (i)〜(v)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「2」を確認。領域数 1、頁 3。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-joho-q3",
+   "number": "3",
+   "title": "ネットワーク工学：待ち行列と網のスループット",
+   "titleKind": "editorial",
+   "topics": [
+    "ネットワーク",
+    "待ち行列",
+    "スループット",
+    "遅延",
+    "トラヒック"
+   ],
+   "summary": "「3.」ネットワークに関する (i)〜(v) の小問。待ち行列モデルの平均待ち時間、トラヒック量とスループットの関係を問う。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      102.0,
+      94.0,
+      518.0,
+      670.0
+     ],
+     "label": "ネットワーク工学：「3.」の題号と小問 (i)〜(v)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「3」を確認。領域数 1、頁 4。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-joho-q4",
+   "number": "4",
+   "title": "光・電波工学：真空中の電磁波の波動方程式と平面波",
+   "titleKind": "editorial",
+   "topics": [
+    "Maxwell方程式",
+    "波動方程式",
+    "平面電磁波",
+    "位相速度",
+    "球面波"
+   ],
+   "summary": "「4.」真空中の電磁波について (i)〜(vi) の小問。Maxwell 方程式から波動方程式を導き、平面電磁波の表式・位相速度・波長と周波数の関係・球面波の電界を求める。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      88.0,
+      108.0,
+      558.0,
+      572.0
+     ],
+     "label": "光・電波工学：「4.」の題号、小問 (i)〜(vi)、Maxwell 方程式と球座標の微分式"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「4」を確認。領域数 1、頁 5。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-joho-q5",
+   "number": "5",
+   "title": "信号処理：因果的システムの係数推定と z 変換",
+   "titleKind": "editorial",
+   "topics": [
+    "単位インパルス",
+    "差分方程式",
+    "z変換",
+    "零点",
+    "極",
+    "安定性"
+   ],
+   "summary": "「5.」単位インパルス信号を因果的システムに入力したときの出力系列から、係数 b1〜b3・a1,a2 を求め、z 変換で零点と極を求めて安定性を論じる (i)〜(v)。図と2つの表を含む。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      78.0,
+      98.0,
+      524.0,
+      732.0
+     ],
+     "label": "信号処理：「5.」の題号、インパルス信号の図、出力表2つ、小問 (i)〜(v)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「5」を確認。領域数 1、頁 6。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-joho-q6",
+   "number": "6",
+   "title": "論理回路・計算機システム：半加算器・全加算器と加減算回路",
+   "titleKind": "editorial",
+   "topics": [
+    "半加算器",
+    "全加算器",
+    "真理値表",
+    "論理式",
+    "リプルキャリー",
+    "加減算回路"
+   ],
+   "summary": "「6.」2進数の加算・減算を行う組合せ論理回路について (i)〜(v)。HA/FA の真理値表と論理式、XOR を用いた変形、5ゲートでの FA 構成、3桁加減算回路の構成を問う。例の記号図を含む。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      73.0,
+      88.0,
+      535.0,
+      671.0
+     ],
+     "label": "論理回路・計算機システム：「6.」の題号、小問 (i)〜(v)、末尾の「例」の記号図"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「6」を確認。領域数 1、頁 7。"
+   }
+  },
+  {
+   "id": "osaka-ee-2007-joho-q7",
+   "number": "7",
+   "title": "基本アルゴリズム・プログラミング：クイックソートとスタック・キュー",
+   "titleKind": "editorial",
+   "topics": [
+    "クイックソート",
+    "再帰",
+    "空欄補充",
+    "スタック",
+    "キュー"
+   ],
+   "summary": "「7-1」プログラムA（クイックソート）の空欄(1)〜(4)補充・再帰の名称・出力結果・基準値の選び方 (i)〜(iv)、「7-2」スタックとキュー操作列の実行結果 X,Y。2頁にわたる。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      89.0,
+      95.0,
+      539.0,
+      671.0
+     ],
+     "label": "基本アルゴリズム：「7-1」の題号とプログラムAのリスト（空欄(1)〜(4)、〈α〉）"
+    },
+    {
+     "page": 9,
+     "box": [
+      83.0,
+      88.0,
+      515.0,
+      552.0
+     ],
+     "label": "基本アルゴリズム：「7-1」の小問 (i)〜(iv) と「7-2」の操作定義・操作内容"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷題号「7」を確認。領域数 2、頁 8,9。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头标题与页脚页码与扫描空白边；只收「注意事項」栏。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2007-joho-q1"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2007-joho-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2007-joho-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2007-joho-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2007-joho-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2007-joho-q6"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2007-joho-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2007-joho-q7"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}

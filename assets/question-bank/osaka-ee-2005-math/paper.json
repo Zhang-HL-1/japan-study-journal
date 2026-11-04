@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2005-math",
+  "title": "大阪大学 · 2005 入学年度 · 前身科目：数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2005",
+    "school": "大阪大学",
+    "schoolId": "osaka",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2005,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：数学）",
+    "originalSubject": "数学",
+    "originalName": "数学.pdf",
+    "pdf": "assets/past-papers/documents/04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1.pdf",
+    "sha256": "04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1",
+    "pageCount": 6,
+    "note": "「2005 年度入学試験（実施年 2004）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2005-math/common-01.png",
+      "page": 1,
+      "box": [
+        98.0,
+        385.5,
+        456.0,
+        682.0
+      ],
+      "width": 1074,
+      "height": 890,
+      "label": "表紙の注意事項：問題の数は5問（各20点・合計100点）、解答用紙の色分け、問題用紙は表紙を含めて6枚",
+      "sha256": "5cbeb4b2726609c1b177451e48fd007db77e8eb0eeb029f7ed31f8fa3e0e8d4a"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2005-math-q1",
+      "number": "問題 1",
+      "title": "問題1：連立1次方程式の求解とn次行列式の値",
+      "titleKind": "editorial",
+      "topics": [
+        "連立1次方程式",
+        "行列式",
+        "n次行列"
+      ],
+      "summary": "(a) 3元連立1次方程式（係数行列 [5 2 3; 1 3 1; 2 2 2]、右辺 [28; 15; 18]）を解く。(b) 対角成分が a、非対角成分がすべて 1 の n 次行列式の値を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁1題。(a) の行列と右辺ベクトル、(b) の n 次行列式（対角 a、非対角 1）を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-math/osaka-ee-2005-math-q1-01.png",
+          "page": 2,
+          "box": [
+            104.5,
+            35.5,
+            327.0,
+            373.5
+          ],
+          "width": 668,
+          "height": 1015,
+          "label": "問題1（20点）：(a) 連立1次方程式の行列表示、(b) n次行列式（a と 1 からなる n 次）",
+          "sha256": "bb17964286fa2bdb01b707062d856fedb160417cfd866bfd09969bd909be52f1"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-math-q2",
+      "number": "問題 2",
+      "title": "問題2：連立微分方程式を対称性を用いて段階的に解く",
+      "titleKind": "editorial",
+      "topics": [
+        "連立微分方程式",
+        "初期値問題",
+        "対称性",
+        "変数変換"
+      ],
+      "summary": "連立微分方程式 dx/dt+dy/dt=2z (1)、dy/dt+dz/dt=2x (2)、dz/dt+dx/dt=2y (3)（初期値 x(0)=α, y(0)=β, z(0)=γ）を (a)〜(d) の手順で解く。(a) x+y+z=w とおき w(t) に関する微分方程式に書き換える、(b) w(t) を求める、(c) 式(1)(2)(3) と w(t) から z(t) を求める、(d) 同様に x(t) と y(t) を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁1題。式番号 (1)(2)(3) と初期条件 α,β,γ、手順 (a)〜(d) を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-math/osaka-ee-2005-math-q2-01.png",
+          "page": 3,
+          "box": [
+            87.0,
+            75.0,
+            500.5,
+            363.5
+          ],
+          "width": 1241,
+          "height": 866,
+          "label": "問題2［20点］：連立微分方程式 (1)(2)(3)・初期条件・手順 (a)〜(d)",
+          "sha256": "ba35b98d11e6bb28381b573b6ddad91aec34ad6c3cfb7e16c0fb86e16ede4cfe"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-math-q3",
+      "number": "問題 3",
+      "title": "問題3：複素平面上の円周に沿う複素積分（留数定理を用いない計算）",
+      "titleKind": "editorial",
+      "topics": [
+        "複素積分",
+        "コーシーの積分定理",
+        "周回積分",
+        "部分分数"
+      ],
+      "summary": "留数定理を用いずに、(a) 図1 に示すように z=x+iy の複素平面上で中心 α・半径 r の円周上を正の向きに1周する積分経路 C1 について ∮_{C1} dz/(z−α) の値を求める。(b) 図2 に示すように原点を中心とする半径 2 の円周上を正の向きに1周する積分経路 C2 について、問 (a) の結果を用いて ∮_{C2} (z−2)/(z^2−z) dz の値を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁1題。図1（x-y 平面、α、r、C1、原点 0）と図2（半径 2、C2、x 軸上の 2）の2つの図を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-math/osaka-ee-2005-math-q3-01.png",
+          "page": 4,
+          "box": [
+            95.0,
+            98.5,
+            524.0,
+            664.0
+          ],
+          "width": 1287,
+          "height": 1697,
+          "label": "問題3（20点）：留数定理を用いない条件・(a) 図1（中心 α、半径 r、経路 C1）と積分式・(b) 図2（半径 2、経路 C2）と積分式",
+          "sha256": "c7ccc9ed138558eece398ddec1f49f20ca679758ee761550c1e6121cc5c06893"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-math-q4",
+      "number": "問題 4",
+      "title": "問題4：フーリエ変換・δ関数のインパルス列・合成積による級数和の評価",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ変換",
+        "ディラックのδ関数",
+        "インパルス列",
+        "合成積",
+        "ポアソン和公式"
+      ],
+      "summary": "S=Σ_{n=−∞}^{∞} 2/(1+(2πn)^2) を以下の手順で求める。(a) f(t)=exp(−|t|) のフーリエ変換 F(ω)（定義 F(ω)=(1/√2π)∫f(t)e^{−iωt}dt）を求める。(b) δ(t) をディラックのδ関数として g(t)=Σδ(t−n) のフーリエ変換 G(ω) が ω 軸上の周期的なインパルス列となることを示す（公式 (1/2π)Σe^{−inω}=Σδ(ω−2πn) を用いてよい）。(c) 合成積 (f*g)(t)=∫f(t−τ)g(τ)dτ のフーリエ変換が √2π F(ω)G(ω) で与えられることを用い、S=(f*g)(0) と表せることを示し、さらに S の値を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁1題。S の級数、フーリエ変換の定義式、δ関数の公式、合成積の定義と F[(f*g)](ω)=√2πF(ω)G(ω) を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-math/osaka-ee-2005-math-q4-01.png",
+          "page": 5,
+          "box": [
+            90.5,
+            104.0,
+            537.5,
+            674.5
+          ],
+          "width": 1342,
+          "height": 1712,
+          "label": "問題4（20点）：S の定義式・(a) f(t)=exp(−|t|) とフーリエ変換の定義式・(b) インパルス列 g(t) とδ関数の公式・(c) 合成積と F[(f*g)](ω) の式",
+          "sha256": "84f50ec0af15d53b33b0f3f7aa2fcab21f0e5b5a4d3de5f2f4680b0d35ce9171"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-math-q5",
+      "number": "問題 5",
+      "title": "問題5：ラプラス変換（逆ラプラス変換と周期関数のラプラス変換）",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "逆ラプラス変換",
+        "周期関数",
+        "たたみ込み"
+      ],
+      "summary": "(a) 0<t≤2π で定義された関数 f(t), g(t) と x(t)=f(+0)g(t)+∫_0^t f′(τ)g(t−τ)dτ の関係について、(1) G(s)=L[g](s)=1/(s(s−3)) を逆ラプラス変換して g(t) を求める、(2) f(t)=1−cos3t のときの x(t) を求める。(b) [0,+∞) で定義された周期 ω の鋸型周期関数 f(t) のラプラス変換 L[f](s)=(1/(1−e^{−ωs}))∫_0^ω e^{−st}f(t)dt を利用し、f(t)=t−na（na≤t<(n+1)a; n=0,1,2,…）で与えられる周期関数のラプラス変換を示す。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁1題。(a)(1)(2) と (b) の周期関数、鋸型波形の図（0,a,2a,3a,t 軸、f(t)=a の破線）を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-math/osaka-ee-2005-math-q5-01.png",
+          "page": 6,
+          "box": [
+            87.5,
+            109.5,
+            551.0,
+            645.5
+          ],
+          "width": 1391,
+          "height": 1609,
+          "label": "問題5（20点）：(a) x(t) の定義式・(1) G(s)=1/(s(s−3))・(2) f(t)=1−cos3t／(b) 周期関数のラプラス変換公式・鋸型周期関数のグラフ（0, a, 2a, 3a, f(t), 高さ a）",
+          "sha256": "5b5b3ad5e3be496322f3af6712c8e7a20bed6bbc12aa9384bb2684360096bedf"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2005-math-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2005-math-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2005-math-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2005-math-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2005-math-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

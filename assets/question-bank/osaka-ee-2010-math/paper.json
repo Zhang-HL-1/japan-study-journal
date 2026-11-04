@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2010-math",
+  "title": "大阪大学 · 2010 入学年度 · 前身科目：数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2010",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2010,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：数学）",
+    "originalSubject": "数学",
+    "originalName": "数学.pdf",
+    "pdf": "assets/past-papers/documents/4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19.pdf",
+    "sha256": "4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19",
+    "pageCount": 6,
+    "note": "「2010 年度入学試験（実施年 2009）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2010-math/common-01.png",
+      "page": 1,
+      "box": [
+        46.0,
+        343.0,
+        468.0,
+        656.0
+      ],
+      "width": 1266,
+      "height": 939,
+      "label": "表紙の注意事項（全 5 題、解答用紙の色は指定なし・採点されない場合の注意）",
+      "sha256": "b9d365e01b097a20c598ae8bc37afecf35dc3425ef069f4bad7ebd5cbe517921"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2010-math-q1",
+      "number": "問題1",
+      "title": "線形代数：3×3 行列の固有値・固有ベクトルと A^(2n), A^(2n+1)",
+      "titleKind": "editorial",
+      "topics": [
+        "行列",
+        "固有値",
+        "固有ベクトル",
+        "行列の累乗"
+      ],
+      "summary": "A=[[1,-1,0],[2,-2,0],[1,0,1]] について (a) 固有値と各固有値に対応する固有ベクトル、(b) (a) の結果を用いて自然数 n に対する A^{2n} と A^{2n+1}。",
+      "review": {
+        "status": "verified",
+        "notes": "題号「問題1（20点）」、小問 (a)(b)、図なし。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-math/osaka-ee-2010-math-q1-01.png",
+          "page": 2,
+          "box": [
+            47.0,
+            89.0,
+            583.0,
+            321.0
+          ],
+          "width": 1608,
+          "height": 696,
+          "label": "問題1：行列 A の定義と小問 (a)(b)",
+          "sha256": "7660aed2fe2b4936781b0679ad2b544090ff4bf69e3ba81af07ae23c5b399939"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-math-q2",
+      "number": "問題2",
+      "title": "微分方程式：2階線形方程式の一般解と置換による1階方程式",
+      "titleKind": "editorial",
+      "topics": [
+        "微分方程式",
+        "一般解",
+        "定数変化法",
+        "置換",
+        "ベルヌーイ形"
+      ],
+      "summary": "(a) y''−y'−2y=2e^x+10 sin x の一般解、(b) y'=1/x+e^y において u=xe^y と置いて u(x) の微分方程式を導き一般解を求める。",
+      "review": {
+        "status": "verified",
+        "notes": "題号「問題2（20点）」、小問 (a)(b)、図なし。 已复核补入「問題2（20点）」标题行。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-math/osaka-ee-2010-math-q2-01.png",
+          "page": 3,
+          "box": [
+            63,
+            80,
+            535,
+            341
+          ],
+          "width": 1416,
+          "height": 783,
+          "label": "問題2：小問 (a)（2階線形）と (b)（u=xe^y の置換）",
+          "sha256": "6ed7b9d08c06b6ed0b26834a56f0f4e6161add6fdb21863e37427ee91e5b4aa5"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-math-q3",
+      "number": "問題3",
+      "title": "複素積分：閉曲線積分による ∫0∞ x^(a−1)/(1+x) dx の評価",
+      "titleKind": "editorial",
+      "topics": [
+        "複素積分",
+        "閉曲線",
+        "留数",
+        "コーシーの積分定理"
+      ],
+      "summary": "複素平面の閉曲線（図1、積分路 C1〜C4、0<a<1、0<ρ<1<R、0<ε<π/2）に沿って f(z)=z^{a−1}/(1+z) を積分するとき (a) C2 上で R→∞ とした値、(b) C4 上で ρ→0 とした値、(c) (a)(b) と C1,C3 上の積分から ∫0∞ x^{a−1}/(1+x) dx=π/sin aπ を示す。",
+      "review": {
+        "status": "verified",
+        "notes": "題号「問題3（20点）」、図1（積分路）を box 内、小問 (a)〜(c)。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-math/osaka-ee-2010-math-q3-01.png",
+          "page": 4,
+          "box": [
+            65.0,
+            75.0,
+            541.0,
+            756.0
+          ],
+          "width": 1428,
+          "height": 2043,
+          "label": "問題3：積分路の説明、小問 (a)〜(c)、図1 の閉曲線",
+          "sha256": "ea0f4997c19816af3a98ad787e6f33270767541fa534541e297178d67cc3275f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-math-q4",
+      "number": "問題4",
+      "title": "フーリエ解析：x² のフーリエ級数と積分方程式の解法",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ級数",
+        "フーリエ変換",
+        "積分方程式",
+        "偶関数"
+      ],
+      "summary": "(a) f(x)=x² を区間 [−π,π] でフーリエ級数に展開し π²=Σ_{k=1}^∞ 6/k² を示す、(b) h(α)=1−α²/2 (0<α<1), 0 (α≥1) に対しフーリエ変換を用いて積分方程式 ∫0∞ g(x) cos αx dx=h(α) を g(x) について解く。",
+      "review": {
+        "status": "verified",
+        "notes": "題号「問題4（20点）」、小問 (a)(b)、図なし。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-math/osaka-ee-2010-math-q4-01.png",
+          "page": 5,
+          "box": [
+            38,
+            72.5,
+            589.0,
+            756.0
+          ],
+          "width": 1653,
+          "height": 2051,
+          "label": "問題4：小問 (a)（x² のフーリエ級数）と (b)（積分方程式）",
+          "sha256": "c128b6c07077d36085a97506659a9a9f9aacd87e6cdaadeec93dfcd9926a3db6"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2010-math-q5",
+      "number": "問題5",
+      "title": "ラプラス変換：差分方程式 f(t+2)+2f(t+1)−3f(t)=t の求解",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "差分方程式",
+        "初期値",
+        "部分分数展開"
+      ],
+      "summary": "(a) 関数のラプラス変換の公式（t^m など）を求め、(b) 与えられた f(t) のラプラス変換を求め、(c) t≥0 で f(t+2)+2f(t+1)−3f(t)=t を満たす f(t) を求める。",
+      "review": {
+        "status": "verified",
+        "notes": "題号「問題5（20点）」、小問 (a)〜(c)、図なし。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2010-math/osaka-ee-2010-math-q5-01.png",
+          "page": 6,
+          "box": [
+            62.0,
+            117.0,
+            537.0,
+            511.0
+          ],
+          "width": 1425,
+          "height": 1182,
+          "label": "問題5：小問 (a)〜(c)（ラプラス変換と差分方程式）",
+          "sha256": "9d678dc18888d52444489bf3f6d52d66cd06344f79bcddab49cc2c45cb8bb6f6"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2010-math-q1"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2010-math-q2"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2010-math-q3"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2010-math-q4"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2010-math-q5"
+      ],
+      "common": false,
+      "reviewed": true,
+      "excluded": ""
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2007-ryoushi",
+  "title": "大阪大学 · 2007 入学年度 · 前身科目：量子电子物性",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2007",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2007,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：量子电子物性）",
+    "originalSubject": "量子电子物性",
+    "originalName": "量子电子物性.pdf",
+    "pdf": "assets/past-papers/documents/0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3.pdf",
+    "sha256": "0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3",
+    "pageCount": 9,
+    "note": "「2007 年度入学試験（実施年 2006）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2007-ryoushi/common-01.png",
+      "page": 1,
+      "box": [
+        74.0,
+        402.0,
+        532.0,
+        665.0
+      ],
+      "width": 1374,
+      "height": 789,
+      "label": "注意事項：問題は5問、解答用紙の色分け（問題1白〜問題5水色）、裏面使用の規定、問題用紙は本頁を除き8枚",
+      "sha256": "d8e5f7284eb0b6ecb634e130950ed37845373458402d036202435983cb5841aa"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2007-ryoushi-q1",
+      "number": "問題1",
+      "title": "量子力学：プランクの輻射公式・井戸型ポテンシャル・結晶系",
+      "titleKind": "editorial",
+      "topics": [
+        "プランクの輻射公式",
+        "光量子仮説",
+        "物質波",
+        "井戸型ポテンシャル",
+        "期待値",
+        "ミラー指数"
+      ],
+      "summary": "「問題1（40点）」[I] プランクの輻射公式と光量子仮説・物質波の空欄（①〜⑥）、[II] 区間 [0,a] に閉じ込められた粒子の波動関数と境界条件（⑦〜⑩）、[III] 運動量演算子の期待値（⑪〜⑬）、[IV] 基本ベクトルと単位格子（⑭）。問1〜問7 の小問と図1.1を含む。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題1」を確認。領域数 2、頁 2,3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q1-01.png",
+          "page": 2,
+          "box": [
+            63.0,
+            68.0,
+            528.0,
+            758.0
+          ],
+          "width": 1395,
+          "height": 2070,
+          "label": "問題1：題号（40点）、[I] プランクの輻射公式と光量子仮説（①〜⑥）、[II] 井戸型ポテンシャル（⑦〜⑩）",
+          "sha256": "b97749185e4a48feba85d8d531f66f2848510c6fd6ac48737e0cbb51cb51dbb3"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q1-02.png",
+          "page": 3,
+          "box": [
+            61.0,
+            57.0,
+            526.0,
+            754.0
+          ],
+          "width": 1395,
+          "height": 2091,
+          "label": "問題1：[III] 期待値（⑪〜⑬）、[IV] 結晶系（⑭）と図1.1、問1〜問7",
+          "sha256": "d0a04d585988fefe80bd86d5e91b1b367a9d5fa007fc6580ac4eaa0a8ed1db47"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-ryoushi-q2",
+      "number": "問題2",
+      "title": "電気伝導と超伝導：ドルーデ模型・ホール係数・BCS 理論",
+      "titleKind": "editorial",
+      "topics": [
+        "電気伝導",
+        "ドリフト速度",
+        "ホール係数",
+        "超伝導",
+        "BCS理論",
+        "マイスナー効果"
+      ],
+      "summary": "「問題2（40点）」[I] 電界と磁束密度中の電子の運動方程式からドリフト速度・導電率・ホール係数の空欄（①〜⑦）、[II] 超伝導の BCS 理論・クーパー対・マイスナー効果・第2種超伝導体（⑧〜⑰）。問1〜問3 を含む。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題2」を確認。領域数 3、頁 4,5,6。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q2-01.png",
+          "page": 4,
+          "box": [
+            66.0,
+            66.0,
+            531.0,
+            746.0
+          ],
+          "width": 1395,
+          "height": 2040,
+          "label": "問題2：題号（40点）、[I] 電気伝導の文章と空欄（①〜⑦）",
+          "sha256": "04b63740f7139d5fa19ac64705526163eb7fe0d788b2a3fd138a9861fc78d069"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q2-02.png",
+          "page": 5,
+          "box": [
+            64.0,
+            66.0,
+            531.0,
+            752.0
+          ],
+          "width": 1401,
+          "height": 2058,
+          "label": "問題2：[II] 超伝導の文章と空欄（⑧〜⑰）",
+          "sha256": "4220758ef3f4763fc8f75b2596bc337660faf04471df9e7e971bf33fb10a7e81"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q2-03.png",
+          "page": 6,
+          "box": [
+            68.0,
+            80.0,
+            531.0,
+            307.0
+          ],
+          "width": 1389,
+          "height": 681,
+          "label": "問題2：[II] に対する問1（⑧〜⑰の語句）、問2（Λ の単位と大きさ）、問3（M-H グラフ）",
+          "sha256": "6cf40ecabf5a1e807ea6b8c73ceb8361147fb9950466ca653a3853636b1155d2"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-ryoushi-q3",
+      "number": "問題3",
+      "title": "半導体：キャリア密度・フェルミ準位・GaAs の光吸収",
+      "titleKind": "editorial",
+      "topics": [
+        "真性半導体",
+        "キャリア密度",
+        "フェルミ準位",
+        "バンドギャップ",
+        "光吸収"
+      ],
+      "summary": "「問題3（40点）」真性半導体のキャリア密度 n,p と積 np・フェルミ準位の空欄（①〜⑨）、および問1〜問4（GaAs の伝導帯底とフェルミ準位の差、吸収係数、遷移型と吸収スペクトル）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題3」を確認。領域数 2、頁 6,7。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q3-01.png",
+          "page": 6,
+          "box": [
+            68.0,
+            373.0,
+            532.0,
+            775.0
+          ],
+          "width": 1392,
+          "height": 1206,
+          "label": "問題3：題号（40点）、キャリア密度の式と空欄（①〜⑨）",
+          "sha256": "019b0ce0a6cc9bfa7cfd18a5d2f1851230190073b28fe824f3d3d578d56d218a"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q3-02.png",
+          "page": 7,
+          "box": [
+            62.0,
+            68.0,
+            525.0,
+            296.0
+          ],
+          "width": 1389,
+          "height": 684,
+          "label": "問題3：問1（空欄①〜⑨）、問2（GaAs のエネルギー差）、問3（侵入長）、問4（遷移型と吸収スペクトル）",
+          "sha256": "6f292f9395d5ac940cd496e8252b80234e5948e5a7e150e44f06e9d849d8cf52"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-ryoushi-q4",
+      "number": "問題4",
+      "title": "誘電体：誘電率の微視的関係・分極の種類・ヒステリシス",
+      "titleKind": "editorial",
+      "topics": [
+        "誘電体",
+        "比誘電率",
+        "分極率",
+        "クラウジウス・モソッティ",
+        "強誘電体",
+        "ヒステリシス"
+      ],
+      "summary": "「問題4（40点）」誘電体の巨視的・微視的分極率の関係式、分極の3種（電子・イオン・配向）、局所電界、緩和時間、キュリー・ワイスの法則、強誘電体とヒステリシス（①〜⑩）、および問1〜問4。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題4」を確認。領域数 2、頁 7,8。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q4-01.png",
+          "page": 7,
+          "box": [
+            61.0,
+            381.0,
+            526.0,
+            763.0
+          ],
+          "width": 1395,
+          "height": 1146,
+          "label": "問題4：題号（40点）、誘電体の文章題（①〜⑨）",
+          "sha256": "5a45a2b85ca2570b87b578b3ffea29060b06013fcc1fb37e246fc156c6fce00b"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q4-02.png",
+          "page": 8,
+          "box": [
+            64.0,
+            67.0,
+            529.0,
+            580.0
+          ],
+          "width": 1395,
+          "height": 1539,
+          "label": "問題4：文章の続き（κ(T) と⑩）、問1（空欄①〜⑩）、問2（クラウジウス・モソッティ）、問3（3種の分極）、問4（ヒステリシス）",
+          "sha256": "9e63017961bc7ae5f789acb3b3211be9a82604fff7e9f98f764363c34246f43c"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-ryoushi-q5",
+      "number": "問題5",
+      "title": "磁性：磁気モーメントの配列・常磁性のキュリーの法則・フントの法則",
+      "titleKind": "editorial",
+      "topics": [
+        "磁性",
+        "反磁性",
+        "強磁性",
+        "常磁性",
+        "キュリーの法則",
+        "フントの法則"
+      ],
+      "summary": "「問題5（40点）」問1 イオン性結晶の磁性の分類（図5.1 の磁気モーメント配列）、問2 常磁性体のエネルギー準位分裂・占有確率・磁化・磁化率・キュリーの法則・フントの法則（①〜⑮）。図5.1を含む。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題5」を確認。領域数 2、頁 8,9。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q5-01.png",
+          "page": 8,
+          "box": [
+            63.0,
+            641.0,
+            522.0,
+            762.0
+          ],
+          "width": 1377,
+          "height": 363,
+          "label": "問題5：題号（40分）、問1 の文章と図5.1",
+          "sha256": "4628a7d7e79fb6395230b9271fa39db8e39b6ff9eb56727847f69541b14d04f0"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2007-ryoushi/osaka-ee-2007-ryoushi-q5-02.png",
+          "page": 9,
+          "box": [
+            65.0,
+            67.0,
+            532.0,
+            756.0
+          ],
+          "width": 1401,
+          "height": 2067,
+          "label": "問題5：問1 の続き、問2 の空欄（①〜⑮）と各式",
+          "sha256": "3523646bcbef060c42ed6b3139860dd1308336d91764952a8a7b2d87bdf1ee51"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头标题与页脚页码与扫描空白边；只收「注意事項」栏。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2007-ryoushi-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2007-ryoushi-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2007-ryoushi-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2007-ryoushi-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2007-ryoushi-q2",
+        "osaka-ee-2007-ryoushi-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2007-ryoushi-q3",
+        "osaka-ee-2007-ryoushi-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2007-ryoushi-q4",
+        "osaka-ee-2007-ryoushi-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2007-ryoushi-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

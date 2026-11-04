@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2007-math",
+  "title": "大阪大学 · 2007 入学年度 · 前身科目：数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2007",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2007,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：数学）",
+    "originalSubject": "数学",
+    "originalName": "数学.pdf",
+    "pdf": "assets/past-papers/documents/c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06.pdf",
+    "sha256": "c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06",
+    "pageCount": 6,
+    "note": "「2007 年度入学試験（実施年 2006）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2007-math/common-01.png",
+      "page": 1,
+      "box": [
+        94.0,
+        353.0,
+        456.0,
+        653.0
+      ],
+      "width": 1086,
+      "height": 900,
+      "label": "注意事項：問題は5問、解答用紙の色分け、各20点で合計100点、問題用紙は表紙を含め6枚",
+      "sha256": "9a089e7e543cdcbc911909c89c1d79766da5bf1e068454bb719f123605523793"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2007-math-q1",
+      "number": "問題1",
+      "title": "連立方程式の逆行列による解法と1の立方根を含む行列式",
+      "titleKind": "editorial",
+      "topics": [
+        "逆行列",
+        "連立方程式",
+        "行列式",
+        "1の立方根"
+      ],
+      "summary": "「問題1（20点）」(a) 3元連立方程式を逆行列を求めて解く。(b) ω=e^{2πi/3} を用いた4次行列式の値を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題1」を確認。領域数 1、頁 2。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-math/osaka-ee-2007-math-q1-01.png",
+          "page": 2,
+          "box": [
+            91.0,
+            82.0,
+            505.0,
+            337.0
+          ],
+          "width": 1242,
+          "height": 765,
+          "label": "問題1：題号（20点）、(a) 連立方程式と行列、(b) 行列式",
+          "sha256": "3dd19cbc7ae0f8c524529504fc0b9b996896245b36793d7d650bb668defa588e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-math-q2",
+      "number": "問題2",
+      "title": "ベルヌーイ形微分方程式の線形化と求解",
+      "titleKind": "editorial",
+      "topics": [
+        "微分方程式",
+        "ベルヌーイ形",
+        "変数変換",
+        "線形化"
+      ],
+      "summary": "「問題2（20点）」y′+P(x)y=Q(x)y^n が z=y^{1-n} で線形化されることを用い、(1-x^2)y′-xy=2xy^2 を解く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題2」を確認。領域数 1、頁 3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-math/osaka-ee-2007-math-q2-01.png",
+          "page": 3,
+          "box": [
+            102.0,
+            125.0,
+            549.0,
+            321.0
+          ],
+          "width": 1341,
+          "height": 588,
+          "label": "問題2：題号（20点）、与式と変換の説明、解くべき微分方程式",
+          "sha256": "5ae38a766b01f1765f036aa92459f2619fa55c85be3f12e95ea13f61134d97ff"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-math-q3",
+      "number": "問題3",
+      "title": "複素関数：対数主値・円路上の積分・コーシーの積分定理",
+      "titleKind": "editorial",
+      "topics": [
+        "複素積分",
+        "対数",
+        "留数",
+        "積分路"
+      ],
+      "summary": "「問題3（20点）」(a) ln i の表式の証明、(b) 円 C1 上の 1/(z-a)^m の積分、(c) 図1の積分路 C2 による 1/{(z+1)(z+3)} の積分。図1を含む。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題3」を確認。領域数 1、頁 4。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-math/osaka-ee-2007-math-q3-01.png",
+          "page": 4,
+          "box": [
+            73.0,
+            85.0,
+            536.0,
+            565.0
+          ],
+          "width": 1389,
+          "height": 1440,
+          "label": "問題3：題号（20点）、(a)(b)(c) の設問と積分式、図1（複素平面の積分路）と図号",
+          "sha256": "377c01e309a37236c3455b81cfefe4d465c708d99fa130986ea184a4ba2e013b"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-math-q4",
+      "number": "問題4",
+      "title": "フーリエ級数：矩形波の係数と無限級数和",
+      "titleKind": "editorial",
+      "topics": [
+        "フーリエ級数",
+        "フーリエ係数",
+        "無限級数",
+        "区間分割関数"
+      ],
+      "summary": "「問題4（20点）」周期 2π の f(x) について (a) フーリエ係数 a_n, b_n を求める、(b) その結果から S=Σ1/(2n+1)^2 の値を求める。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題4」を確認。領域数 1、頁 5。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-math/osaka-ee-2007-math-q4-01.png",
+          "page": 5,
+          "box": [
+            80.0,
+            108.0,
+            531.0,
+            405.0
+          ],
+          "width": 1353,
+          "height": 891,
+          "label": "問題4：題号（20点）、フーリエ級数の定義式、(a) 区分関数と係数、(b) 無限級数 S",
+          "sha256": "43f0e55dc88e3d95687dd2ba8439911b952662640bc06da54088eac66566950b"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2007-math-q5",
+      "number": "問題5",
+      "title": "ラプラス変換：t^n の変換・定積分・たたみ込み方程式",
+      "titleKind": "editorial",
+      "topics": [
+        "ラプラス変換",
+        "数学的帰納法",
+        "定積分",
+        "たたみ込み",
+        "積分方程式"
+      ],
+      "summary": "「問題5（20点）」(a) 数学的帰納法で L[t^n] と L[t^{n-1}] の関係、(b) n=1 の定義式からの計算、(c) ∫t^n e^{-αt}dt、(d) たたみ込みを含む g(t) の方程式を解く。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "原卷題号「問題5」を確認。領域数 1、頁 6。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2007-math/osaka-ee-2007-math-q5-01.png",
+          "page": 6,
+          "box": [
+            90.0,
+            96.0,
+            527.0,
+            394.0
+          ],
+          "width": 1311,
+          "height": 894,
+          "label": "問題5：題号（20点）、(a)〜(d) の設問と各式",
+          "sha256": "f07b51b03bf8462acda5cfe0ff80342d4be4a841e796895106c89f11b90f5e73"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头标题与页脚页码与扫描空白边；只收「注意事項」栏。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2007-math-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2007-math-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2007-math-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2007-math-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2007-math-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

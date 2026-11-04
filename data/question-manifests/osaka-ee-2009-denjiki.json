@@ -1,0 +1,448 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2009-denjiki",
+ "title": "大阪大学 · 2009 入学年度 · 前身科目：电磁理论",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2009",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2009,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：电磁理论）",
+  "originalSubject": "电磁理论",
+  "originalName": "电磁理论.pdf",
+  "pdf": "assets/past-papers/documents/a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d.pdf",
+  "sha256": "a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d",
+  "pageCount": 9,
+  "note": "「2009 年度入学試験（実施年 2008）；旧制 7 科目分册，非课程制」本册为「電磁理論」入試問題（問題は4問・各25点）。試験日 平成20年8月18日 13:00–15:00。原卷各頁に 1−1〜4−2 の頁標識のみを置き「問題N」の表題はない。",
+  "normalization": {
+   "derivedPdf": "assets/question-bank/osaka-ee-2009-denjiki/normalized.pdf",
+   "derivedSha256": "ae722a7232b369c257496a040e79bbf47026f20b3c3f6d44f26f648463da8404",
+   "pages": [
+    {
+     "page": 1,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      842.4000244140625,
+      595.7999877929688
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.7999877929688,
+      842.4000244140625
+     ]
+    },
+    {
+     "page": 2,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      842.4000244140625,
+      595.7999877929688
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.7999877929688,
+      842.4000244140625
+     ]
+    },
+    {
+     "page": 3,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      842.4000244140625,
+      595.7999877929688
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.7999877929688,
+      842.4000244140625
+     ]
+    },
+    {
+     "page": 4,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      842.4000244140625,
+      595.7999877929688
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.7999877929688,
+      842.4000244140625
+     ]
+    },
+    {
+     "page": 5,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      842.4000244140625,
+      595.7999877929688
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.7999877929688,
+      842.4000244140625
+     ]
+    },
+    {
+     "page": 6,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      842.4000244140625,
+      595.7999877929688
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.7999877929688,
+      842.4000244140625
+     ]
+    },
+    {
+     "page": 7,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      842.4000244140625,
+      595.7999877929688
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.7999877929688,
+      842.4000244140625
+     ]
+    },
+    {
+     "page": 8,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      842.4000244140625,
+      595.7999877929688
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.7999877929688,
+      842.4000244140625
+     ]
+    },
+    {
+     "page": 9,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      842.4000244140625,
+      595.7999877929688
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.7999877929688,
+      842.4000244140625
+     ]
+    }
+   ]
+  }
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    89.0,
+    552.0,
+    534.0,
+    645.0
+   ],
+   "label": "【注意】：問題は4問（各25点）、第1志望コース欄への○印と受験番号記入、解答はすべて問題用紙の枠内に書くこと"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2009-denjiki-q1",
+   "number": "問題 1",
+   "title": "電磁理論：球殻電荷のガウス則による電界・電位（空欄 (1)–(11)）",
+   "titleKind": "editorial",
+   "topics": [
+    "電磁理論",
+    "ガウス則",
+    "静電界",
+    "球対称",
+    "電位",
+    "空欄補充"
+   ],
+   "summary": "問題1（25 点）。1−1 で球殻状に分布した電荷が作る電界・電位をガウス則から求める。空欄 (1)–(6) は式・語句の補充で、(4) は選択肢から選ぶ。1−2 で (7)–(11) の空欄（電位差・エネルギー等）を埋める。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      54.0,
+      103.0,
+      555.0,
+      725.0
+     ],
+     "label": "問題1 1−1：球殻電荷のガウス則 空欄 (1)–(6)＋選択肢 (4)"
+    },
+    {
+     "page": 3,
+     "box": [
+      52.0,
+      129.0,
+      550.0,
+      789.0
+     ],
+     "label": "問題1 1−2：続き (7)–(11) と「25 点」"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "原卷は頁ごとに 1−1／1−2 の頁標識を置く方式で「問題1」の表題はない。封面の「問題は4問」に合わせ、1−1＋1−2 を問題1 と同定した。各頁上部の志望コース記入欄は裁図から除外し、頁末の「25 点」徽章は配点情報のため box 内に收録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2009-denjiki-q2",
+   "number": "問題 2",
+   "title": "電磁理論：ビオ・サバール則と正四面体配置の電流が作る磁界（図1–図3）",
+   "titleKind": "editorial",
+   "topics": [
+    "電磁理論",
+    "ビオ・サバール則",
+    "磁束密度",
+    "ベクトル合成",
+    "正四面体"
+   ],
+   "summary": "問題2（25 点）。2−1 でビオ・サバール則により直線・円弧電流が作る磁束密度を求める（図1・図2、空欄 [1][2]）。2−2 で正四面体の稜に沿って流れる電流が中心に作る磁界を求める（図3）。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      31.0,
+      119.0,
+      544.0,
+      765.0
+     ],
+     "label": "問題2 2−1：ビオ・サバール則と直線/円弧電流＋図1・図2"
+    },
+    {
+     "page": 5,
+     "box": [
+      49.0,
+      119.0,
+      567.0,
+      766.0
+     ],
+     "label": "問題2 2−2：図3 正四面体配置の電流が作る磁界と「25 点」"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2−1（p4）と 2−2（p5）を 2 region で收録。図1・図2・図3 は図号とも切れなく收録。p4 頁末の「25 点」相當位置の配点表示と p5 の「25 点」徽章は box 内。"
+   }
+  },
+  {
+   "id": "osaka-ee-2009-denjiki-q3",
+   "number": "問題 3",
+   "title": "電磁理論：マクスウェル方程式からの平面電磁波と異方性誘電率中の伝搬",
+   "titleKind": "editorial",
+   "topics": [
+    "電磁理論",
+    "マクスウェル方程式",
+    "平面波",
+    "分散関係",
+    "異方性誘電率",
+    "複屈折"
+   ],
+   "summary": "問題3（25 点）。3−1 でマクスウェル方程式から出発して平面電磁波の波動方程式・分散関係・偏波を導く（(2a)–(4)）。3−2 で異方性誘電率中の伝搬を扱い、(5a)(5b)(6a)(6b) で屈折率と |Δk|、伝搬距離 L との関係を求める。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      48.0,
+      101.0,
+      544.0,
+      782.0
+     ],
+     "label": "問題3 3−1：マクスウェル方程式から平面電磁波 (2a)–(4)"
+    },
+    {
+     "page": 7,
+     "box": [
+      51.0,
+      105.0,
+      546.0,
+      792.0
+     ],
+     "label": "問題3 3−2：異方性誘電率中の伝搬 (5a)(5b)(6a)(6b)・|Δk|L と「25 点」"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "3−1（p6）と 3−2（p7）を 2 region で收録。式番号 (2a)(2b)(3)(4)(5a)(5b)(6a)(6b) をすべて box 内に含める。p7 の「25 点」徽章も收録。"
+   }
+  },
+  {
+   "id": "osaka-ee-2009-denjiki-q4",
+   "number": "問題 4",
+   "title": "電磁理論：ローレンツ力による荷電粒子の円運動と静磁界中の運動",
+   "titleKind": "editorial",
+   "topics": [
+    "電磁理論",
+    "ローレンツ力",
+    "等速円運動",
+    "静磁界",
+    "運動方程式"
+   ],
+   "summary": "問題4（25 点）。4−1 で電磁界中の点電荷に働く力と運動方程式の x,y,z 成分を空欄 (1)–(5) で埋める。4−2 では等速円運動の角速度・半径（(6)–(8)）に続き、[III] 静磁界中での運動方程式と等速円運動の条件（(9)–(12)）を問う。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      55.0,
+      109.0,
+      551.0,
+      740.0
+     ],
+     "label": "問題4 4−1：ローレンツ力と運動方程式 空欄 (1)–(5)"
+    },
+    {
+     "page": 9,
+     "box": [
+      53.0,
+      139.0,
+      548.0,
+      779.0
+     ],
+     "label": "問題4 4−2：等速円運動 (6)–(8)・[III] 静磁界 (9)–(12) と「25 点」"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "4−1（p8）と 4−2（p9）を 2 region で收録。4−2 の [III] 節と式 (12) の空欄、「25 点」徽章までを box 内に含める。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头封面标题、试验日期时刻、科目标题框与页脚印刷信息，只保留【注意事項】作为 common region；扫描空白边一并裁去。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2009-denjiki-q1"
+   ],
+   "common": false,
+   "excluded": "裁去每页顶部第1志望コース・受験番号の記入欄（页眉答题卡栏）、页脚与扫描空白边，只保留题面本身（含「25 点」配点徽章）。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2009-denjiki-q1"
+   ],
+   "common": false,
+   "excluded": "裁去每页顶部第1志望コース・受験番号の記入欄（页眉答题卡栏）、页脚与扫描空白边，只保留题面本身（含「25 点」配点徽章）。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2009-denjiki-q2"
+   ],
+   "common": false,
+   "excluded": "裁去每页顶部第1志望コース・受験番号の記入欄（页眉答题卡栏）、页脚与扫描空白边，只保留题面本身（含「25 点」配点徽章）。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2009-denjiki-q2"
+   ],
+   "common": false,
+   "excluded": "裁去每页顶部第1志望コース・受験番号の記入欄（页眉答题卡栏）、页脚与扫描空白边，只保留题面本身（含「25 点」配点徽章）。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2009-denjiki-q3"
+   ],
+   "common": false,
+   "excluded": "裁去每页顶部第1志望コース・受験番号の記入欄（页眉答题卡栏）、页脚与扫描空白边，只保留题面本身（含「25 点」配点徽章）。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2009-denjiki-q3"
+   ],
+   "common": false,
+   "excluded": "裁去每页顶部第1志望コース・受験番号の記入欄（页眉答题卡栏）、页脚与扫描空白边，只保留题面本身（含「25 点」配点徽章）。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2009-denjiki-q4"
+   ],
+   "common": false,
+   "excluded": "裁去每页顶部第1志望コース・受験番号の記入欄（页眉答题卡栏）、页脚与扫描空白边，只保留题面本身（含「25 点」配点徽章）。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2009-denjiki-q4"
+   ],
+   "common": false,
+   "excluded": "裁去每页顶部第1志望コース・受験番号の記入欄（页眉答题卡栏）、页脚与扫描空白边，只保留题面本身（含「25 点」配点徽章）。",
+   "reviewed": true
+  }
+ ]
+}

@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2006-joho",
+  "title": "大阪大学 · 2006 入学年度 · 前身科目：信息通信工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2006",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2006,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：信息通信工学）",
+    "originalSubject": "信息通信工学",
+    "originalName": "信息通信工学.pdf",
+    "pdf": "assets/past-papers/documents/d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f.pdf",
+    "sha256": "d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f",
+    "pageCount": 11,
+    "note": "「2006 年度入学試験（実施年 2005）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2006-joho/common-01.png",
+      "page": 1,
+      "box": [
+        99.5,
+        329.0,
+        534.0,
+        692.0
+      ],
+      "width": 1304,
+      "height": 1089,
+      "label": "注意事項：問題は 7 問、問題用紙 10 枚（表紙を含む）、問題 1〜3 は必答・問題 4〜7 から 2 題選択、解答用紙の色分けと回収手順",
+      "sha256": "2363ad536e39a6b4bfa505d8b0808e29b3bb5ed3312a61bc510ea999e3277a86"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2006-joho-q1",
+      "number": "問題1",
+      "title": "情報理論：巡回組織符号の多項式表現とシンドローム復号・PCM の標本化量子化",
+      "titleKind": "editorial",
+      "topics": [
+        "情報理論",
+        "巡回符号",
+        "生成多項式",
+        "シンドローム",
+        "誤り訂正",
+        "PCM",
+        "標本化",
+        "量子化",
+        "ビットレート"
+      ],
+      "summary": "1-1 生成多項式 G(x)=x^4+x+1 を用い、11 ビットの情報ビット系列から符号長 15 の巡回組織符号を構成する。(i) 受信 2 元符号語 (10011100010110) の多項式表現、(ii) 誤りの判定と訂正・送信符号語および送信情報ビット系列の復元。1-2 PCM によるアナログ信号の 2 元符号化について、(i) 標本化と量子化の役割と可逆性、(ii) 標本化周波数 f_s・量子化レベル数 L=2^m のときのビットレート、(iii) ビットレート低減のための f_s と L の設定と再現忠実度への影響。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "「情報理論」見出し直下の 1-1 と 1-2 を 1 頁で収録。1-1 は (i)(ii)、1-2 は (i)〜(iii) の小問数を確認。受信語のビット列 (10011100010110) を欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q1-01.png",
+          "page": 2,
+          "box": [
+            94.0,
+            86.5,
+            527.5,
+            540.5
+          ],
+          "width": 1301,
+          "height": 1363,
+          "label": "情報理論：見出し「情報理論」、1-1（巡回組織符号と受信語 (10011100010110) の設問 (i)(ii)）",
+          "sha256": "d6fa4d332ddebcba9eee1d95b4f9807476653c54d4d62581e0f12110ab242e5f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-joho-q2",
+      "number": "問題2",
+      "title": "通信方式：FM 変調波の周波数偏移・変調指数と FSK 同期検波器の信号解析",
+      "titleKind": "editorial",
+      "topics": [
+        "通信方式",
+        "FM変調",
+        "周波数偏移",
+        "変調指数",
+        "カーソンの法則",
+        "FSK",
+        "同期検波",
+        "雑音"
+      ],
+      "summary": "2-1 FM 変調 e_FM(t)=A cos[2πf_c t + k_f ∫m(τ)dτ]、変調信号 m(t)=cos(10^3 πt)、k_f=2π×10^3 として (i) 最大周波数偏移・最大位相偏移（変調指数）、(ii) カーソンの法則による帯域幅、(iii) 変調信号の角周波数を 2 倍にしたときの各量。2-2 FSK 同期検波器のブロック図（アンテナ・BPF・乗算器・LPF・判定器）について (i) 各部の出力の数式表現、(ii) 送信データ 1/0 に対する判定器入力を示す、(iii) 判定器入力の確率密度関数をデータ別に説明。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "「通信方式」見出し、2-1 (i)〜(iii)、2-2 のブロック図（アンテナ・BPF_f1・BPF_f0・cos 乗算器・LPF・判定器・データ）と (i)〜(iii) を 1 頁で確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q2-01.png",
+          "page": 3,
+          "box": [
+            89.5,
+            102.5,
+            526.0,
+            698.5
+          ],
+          "width": 1310,
+          "height": 1789,
+          "label": "通信方式：見出し「通信方式」、2-1（FM 変調 (i)〜(iii)）と 2-2（FSK 同期検波のブロック図と (i)〜(iii)）",
+          "sha256": "5531c6dacc11238d193e8d3da68af1321fe2236448fbaa7c2f2d6925756d93b8"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-joho-q3",
+      "number": "問題3",
+      "title": "ネットワーク工学：ストップアンドウェイト ARQ の伝送遅延とスループット・待ち行列",
+      "titleKind": "editorial",
+      "topics": [
+        "ネットワーク工学",
+        "ARQ",
+        "ストップアンドウェイト",
+        "スループット",
+        "ポアソン到着",
+        "M/G/1",
+        "待ち時間"
+      ],
+      "summary": "回線速度 C、ホスト間距離に対応する伝搬遅延 R、パケット長 L_D、ACK 長 L_A、タイムアウト T、パケット紛失率 p の stop-and-wait ARQ について、(i) ACK 受信までの時間 S、(ii) 1 パケット当たりの平均時間 H を F=L_D/C+T と p, R で表す、(iii) 最大スループット θ を H で表す、(iv) ポアソン到着と先着順サービスでバッファ内パケット数が定常分布をもつ条件、(v) 定常状態の平均滞在パケット数と平均待ち時間（M/G/1 の W=λb^(2)/2(1-ρ) を用いる）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "本問のみ見出し直後に「3.」とだけ付番される（他題は n-1/n-2 形式）。(i)〜(v) の 5 小問、F と W の式を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q3-01.png",
+          "page": 4,
+          "box": [
+            104.0,
+            82.5,
+            523.0,
+            692.5
+          ],
+          "width": 1257,
+          "height": 1831,
+          "label": "ネットワーク工学：見出しと「3.」の本文・設問 (i)〜(v)（F=L_D/C+T、M/G/1 の W の式を含む）",
+          "sha256": "b48e3f92c72b9219ec150adaa000a051cbe383b06830e87f55c6474958f62183"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-joho-q4",
+      "number": "問題4",
+      "title": "光・電波工学：導体平面への平面電磁波の垂直入射と反射・消費電力",
+      "titleKind": "editorial",
+      "topics": [
+        "光・電波工学",
+        "平面電磁波",
+        "導体",
+        "伝搬定数",
+        "反射係数",
+        "表皮効果",
+        "消費電力"
+      ],
+      "summary": "誘電率 ε・透磁率 μ・導電率 σ の導体半無限平面に、空気側から角周波数 ω の平面電磁波を垂直入射する。(i) 導体内の電界・磁界のフェーザ表示 E(x,y,z), H(x,y,z)、(ii) 伝搬定数（σ≫ωε の近似）、(iii) 反射波の位相変化、(iv) 入射電力の時間平均のうち導体内で消費される割合、(v) σ→∞ の極限での位相変化と消費割合。図（空気 ε0,μ0／導体／入射波）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "見出し直後に「4.」とだけ付番。(i)〜(v) の 5 小問と、頁下部の入射波・空気・導体の図を同一 box に収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q4-01.png",
+          "page": 5,
+          "box": [
+            87.5,
+            80.5,
+            524.5,
+            661.0
+          ],
+          "width": 1312,
+          "height": 1742,
+          "label": "光・電波工学：見出し、4. の本文・設問 (i)〜(v)、反射・入射を示す図",
+          "sha256": "88382a6e92306f1a34e6c23ec7f4cc328ce51af960489038d19933f47a80b4ae"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-joho-q5",
+      "number": "問題5",
+      "title": "信号処理：DTFT・DFT・FFT の定義と演算量・4 点 DFT の信号流図",
+      "titleKind": "editorial",
+      "topics": [
+        "信号処理",
+        "DTFT",
+        "DFT",
+        "FFT",
+        "逆 DFT",
+        "演算量",
+        "バタフライ"
+      ],
+      "summary": "離散時間信号 x[n] の DTFT の定義から出発し、空欄 (あ)〜(し) を埋める。(i) 空欄 (あ)〜(し) の語句、(ii) 下部 (a) DTFT を計算機で扱う際の問題点、(iii) 下部 (b) DTFT と DFT の関係（X(Ω) と X[k]）、(iv) 下部 (c) 時間間引き・周波数間引き FFT の 4 点 DFT 信号流図とデータ系列 [0.8,2.4] の 4 点 DFT、(v) 下部 (d) FFT による IDFT のアルゴリズムと 4 点 DFT 結果への適用。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "空欄 (あ)〜(し) と設問 (i)〜(v) を 1 頁で確認。DFT の定義式 X[k]=(ウ)W_N^(エ)、W_N=exp(オ)、N 点 DFT の (カ)(キ) などの空欄位置を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q5-01.png",
+          "page": 6,
+          "box": [
+            103.5,
+            82.5,
+            544.5,
+            734.0
+          ],
+          "width": 1324,
+          "height": 1955,
+          "label": "信号処理：見出し、5. の本文（DTFT/DFT/FFT の定義式と空欄 (あ)〜(し)）および設問 (i)〜(v)",
+          "sha256": "5b8bba5a36da99cf65d8a92f59483e65733875c88cbd24a61a9a16310284c9c6"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-joho-q6",
+      "number": "問題6",
+      "title": "コンピュータ工学（ハードウェア）：固定小数点 2 進数表現と 5 段パイプライン制御",
+      "titleKind": "editorial",
+      "topics": [
+        "コンピュータ工学",
+        "固定小数点",
+        "2の補数",
+        "除算",
+        "パイプライン",
+        "ハザード",
+        "クロックサイクル"
+      ],
+      "summary": "6-1 整数部 n 桁・小数部 m 桁の 2 進数 A の固定小数点表現について、(i) 2 の補数表現の数値部の性質、(ii) −18.242 の 2 進表現（符号-絶対値・1 の補数・2 の補数）、(iii) 加算時の最上位ビットの桁上がり処理、(iv) 2 進数の除算アルゴリズム（空欄 ア〜カ、2R−B と 2[イ]−B[ウ]、演算回数の比較）。6-2 命令フェッチ(IF)・デコード(D)・オペランドフェッチ(OF)・実行(EX)・格納(S) の 5 段パイプラインについて、(i) 表 1（各クロックサイクルのステージ）を完成させる、(ii) ストールを減らす命令実行順序（表 2）を答える。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2 頁にわたり 6-1 の (i)〜(iv)（空欄 ア〜カ）と 6-2 の (i)(ii)・表 1・表 2 を確認。表の罫線とクロックサイクル 1〜7 の見出しを欠かさず収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q6-01.png",
+          "page": 7,
+          "box": [
+            67.0,
+            78.5,
+            559.0,
+            625.0
+          ],
+          "width": 1476,
+          "height": 1640,
+          "label": "コンピュータ工学（ハードウェア）：見出し、6-1 の本文・設問 (i)〜(iv)（空欄 ア〜カ）",
+          "sha256": "bf9bd82e77bd1725100b4c60eea71bc60eafb397de92774e41ce5b86a3a529e8"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q6-02.png",
+          "page": 8,
+          "box": [
+            63.0,
+            68,
+            556.0,
+            691.5
+          ],
+          "width": 1479,
+          "height": 1871,
+          "label": "6-2：5 段パイプラインの説明、(i) 表 1 と (ii) 表 2",
+          "sha256": "9c5d24c743480593f59cc4a8a99ec0c182315ae0809fc7a03dc07c406f2c2d76"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-joho-q7",
+      "number": "問題7",
+      "title": "コンピュータ工学（ソフトウェア）：ヒープ構成プログラムとダイクストラ法のプログラム",
+      "titleKind": "editorial",
+      "topics": [
+        "コンピュータ工学",
+        "2分木",
+        "ヒープ",
+        "配列表現",
+        "ダイクストラ法",
+        "最短経路",
+        "計算量",
+        "C言語"
+      ],
+      "summary": "7-1 親の値が子の値以下である 2 分木と配列によるヒープ実装（図 7-1、図 7-2）、プログラム A（deletemin）について (i) 節点番号 i の子の表し方、(ii) 空欄 (1)(2)(3)、(iii) k=2 のときの heap[0]〜heap[9]、(iv) 計算量 O(N log N) の導出。7-2 ダイクストラ法のプログラム B と無向グラフ図 7-3・有向グラフ図 7-4 について、(i) 空欄 (4)(5)(6)（(5) は 2 箇所）、(ii) k=2 のときの printf 出力、(iii) 有向グラフ用への変更箇所（変更前後対比）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3 頁にわたり 7-1（図 7-1・図 7-2・プログラム A・(i)〜(iv)）と 7-2（図 7-3・図 7-4・(i)〜(iii)・プログラム B）を確認。プログラム A/B の空欄 (1)〜(6) の位置を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q7-01.png",
+          "page": 9,
+          "box": [
+            70.0,
+            70.0,
+            546.5,
+            748.0
+          ],
+          "width": 1430,
+          "height": 2034,
+          "label": "コンピュータ工学（ソフトウェア）：見出し、7-1 の本文、図 7-1（2 分木）、図 7-2（配列ヒープ）、プログラム A のソース",
+          "sha256": "8f1469b4c7f0683101e483bece673ab2dd65396cb00f13b13763896a0cd200de"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q7-02.png",
+          "page": 10,
+          "box": [
+            86.0,
+            64.0,
+            534.0,
+            598.5
+          ],
+          "width": 1344,
+          "height": 1604,
+          "label": "7-1 の設問 (i)〜(iv)、7-2 の本文・設問 (i)〜(iii)、図 7-3（無向グラフ）、図 7-4（有向グラフ）",
+          "sha256": "cc39506777b2d8c8bb6708c588f0f26e8b0e4f6cc5ffa218358f3fb4b9808d72"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-joho/osaka-ee-2006-joho-q7-03.png",
+          "page": 11,
+          "box": [
+            77.5,
+            79.5,
+            559.5,
+            542.0
+          ],
+          "width": 1447,
+          "height": 1388,
+          "label": "7-2：プログラム B のソース（空欄 (4)(5)(6) を含む）",
+          "sha256": "be010b39baa1d0e034a543553fb8a3e5bed97348f70d673e4f843db4300bea95"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边；本页为封面与注意事项，题目内容自次页起。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2006-joho-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2006-joho-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2006-joho-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2006-joho-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2006-joho-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2006-joho-q6"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2006-joho-q6"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2006-joho-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "osaka-ee-2006-joho-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "osaka-ee-2006-joho-q7"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

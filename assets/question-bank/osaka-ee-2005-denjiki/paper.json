@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2005-denjiki",
+  "title": "大阪大学 · 2005 入学年度 · 前身科目：电磁理论",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2005",
+    "school": "大阪大学",
+    "schoolId": "osaka",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2005,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：电磁理论）",
+    "originalSubject": "电磁理论",
+    "originalName": "电磁理论.pdf",
+    "pdf": "assets/past-papers/documents/bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684.pdf",
+    "sha256": "bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684",
+    "pageCount": 9,
+    "note": "「2005 年度入学試験（実施年 2004）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2005-denjiki/common-01.png",
+      "page": 1,
+      "box": [
+        70.5,
+        517.0,
+        536.5,
+        596.5
+      ],
+      "width": 1399,
+      "height": 239,
+      "label": "表紙の【注意】：問題は4問（各25点・合計100点）、志望専攻欄への○印と受験番号の記入、解答は問題用紙の解答欄に書くこと",
+      "sha256": "365ae1bd702a72a9f74651c78d27538afc14ec000495a88306945f561aa368a3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2005-denjiki-q1",
+      "number": "問題 1",
+      "title": "問題1：球面上に一様分布する電荷による電位・電界（球座標での面積分）",
+      "titleKind": "editorial",
+      "topics": [
+        "電位",
+        "電界",
+        "球面電荷",
+        "球座標",
+        "余弦定理"
+      ],
+      "summary": "半径 a の球面上に電荷 q が一様に分布するとき、球面の周辺の点 P での電位と電界を求める（P は球面の内部でもよい、無限遠の電位を0、真空の誘電率 ε0）。球面中心 O から P への方向を極軸とする球座標 (r,0,0) を用い、面電荷密度、微小面積 dS 上の電荷、PQ 間距離 r_PQ を用いた dφ、球面全体の積分による φ(r)、θ 積分への変数変換（2r_PQ dr_PQ = …、積分上限・下限を r>a と r<a で場合分け）、φ(r) と E(r) の各場合の表式を空欄で問う（1-1、1-2）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2頁（1-1、1-2）で1題。各頁上部の「第1志望専攻・受験番号」記入欄（1-1/1-2 の頁番号を含む）は頁の様式欄として box から外したが、頁左上の「1-1」の題番号欄のみは原題号を保つため独立 region として収録した。球面上の点 Q と点 P の位置関係・dθ・dφ・ds・r_PQ を示す図を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q1-01.png",
+          "page": 2,
+          "box": [
+            75.5,
+            51.0,
+            129.5,
+            97.0
+          ],
+          "width": 163,
+          "height": 138,
+          "label": "原紙左上の「1-1」（問題1・1枚目）の題番号欄",
+          "sha256": "e90364330da3218c84a88977f9d6fbe8e700c4d26d441be47ac7879ca27496ce"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q1-02.png",
+          "page": 2,
+          "box": [
+            77.5,
+            124.0,
+            538.0,
+            755.0
+          ],
+          "width": 1382,
+          "height": 1893,
+          "label": "問題1（1-1）：電位・電界を求める方針・面電荷密度と dS・dφ の空欄・φ(r) の積分式・球座標と点 P, Q, r_PQ, dS, a, θ, φ の図",
+          "sha256": "d446342062f7c8a58204dc87be8bafd264e3feac1868f06689f891a2c7202439"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q1-03.png",
+          "page": 3,
+          "box": [
+            82.0,
+            116.5,
+            489.5,
+            718.0
+          ],
+          "width": 1223,
+          "height": 1805,
+          "label": "問題1（1-2）：θ から r_PQ への積分変数変換・φ(r) の積分表示・r>a と r<a の場合の max/min・φ(r) と E(r) の各表式の空欄・25点",
+          "sha256": "b4e2d96dd8623ee949ca652972cb0fc8e869b878c7837057b5b7b7561db5e932"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-denjiki-q2",
+      "number": "問題 2",
+      "title": "問題2：ビオ・サバールの法則・円形ループ電流・円錐状に並ぶループ列が作る磁界",
+      "titleKind": "editorial",
+      "topics": [
+        "ビオ・サバールの法則",
+        "磁界",
+        "円形ループ",
+        "単位ベクトル",
+        "積分"
+      ],
+      "summary": "(1) 点 Q の微小ベクトル線素 dl=i_l dl に沿う電流 I が点 P に作る磁界 dH=(I dl/4πr^2)(i_l×i_r)、これがビオ・サバールの法則と呼ばれること、半径 a の円形ループ電流が z 軸上の点 P(0,0,Δ) に作る磁界 H（座標 (a cosφ, a sinφ, 0)、i_l=i_x cosφ+i_y sinφ、θ=tan^−1(a/Δ)、i_r の表式、r=√(a^2+Δ^2)、dl=a dφ を用いた dH の積分）を空欄で問う。(2) 円形ループ電流が円錐面に内接して等間隔 Δ で3つ並ぶ場合と無限個並ぶ場合の頂点の磁界の絶対値 |H|（2-1、2-2）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2頁（2-1、2-2）で1題。円形ループと z 軸上の点 P の図、円錐状ループ列の図（Δ, a, 2a, 3a）を収録。各頁上部の志望専攻・受験番号の様式欄は box から外し、頁左上の「2-1」の題番号欄のみ独立 region として収録した。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q2-01.png",
+          "page": 4,
+          "box": [
+            57.5,
+            42.5,
+            118.0,
+            83.5
+          ],
+          "width": 182,
+          "height": 124,
+          "label": "原紙左上の「2-1」（問題2・1枚目）の題番号欄",
+          "sha256": "04391f2ce14be8f9304c6f7bf9b001dc7b37676398ad6c06b45eeff54e831f2a"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q2-02.png",
+          "page": 4,
+          "box": [
+            59.0,
+            95.0,
+            547.5,
+            762.0
+          ],
+          "width": 1466,
+          "height": 2001,
+          "label": "問題2（2-1）：ビオ・サバールの法則の式(1)・円形ループ電流と点 P(0,0,Δ) の説明・座標と i_l, i_r, dH, H の空欄・式(2)・ループと P, Q, dl, θ, φ, a の図",
+          "sha256": "f532c710ba0fbbfb727f0e73472c0c72cc21e57e267283dd678c338b851c7244"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q2-03.png",
+          "page": 5,
+          "box": [
+            59.0,
+            95.0,
+            556.0,
+            508.0
+          ],
+          "width": 1491,
+          "height": 1239,
+          "label": "問題2（2-2）：円錐面に内接する3つのループ・無限個のループが頂点に作る |H| の空欄・25点・円錐とループ（Δ, a, 2a, 3a, I）の図",
+          "sha256": "a83ebe41d6a37a7341018656836ab2e5f142220bc1d036cc7d2ace34e1d15a34"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-denjiki-q3",
+      "number": "問題 3",
+      "title": "問題3：マクスウェル方程式の微分形・波動方程式・ポインティングベクトルと完全導体面に働く力",
+      "titleKind": "editorial",
+      "topics": [
+        "マクスウェル方程式",
+        "波動方程式",
+        "ポインティングベクトル",
+        "完全導体",
+        "表面電流",
+        "ローレンツ力"
+      ],
+      "summary": "(1) 誘電率 ε・透磁率 μ・導電率 σ の一様媒質で、D=εE、B=μH、J=σE を用いてアンペア・マクスウェルの法則、ファラデー・マクスウェルの法則、電束/磁束に対するガウスの法則を E と H で表し（空欄 ①〜④）、ベクトル微分公式 ∇×∇×A=∇(∇·A)−∇^2A を用いて E の波動方程式（⑤）を導く。ポインティングベクトル S=E×H の空間微分から ∇·(E×H)=H·∇×E−E·∇×H を経て式(7) の空欄 ⑥〜⑧、各項の意味（⑨〜⑪）を問う。(2) 無損失媒質と完全導体の界面に垂直入射する平面波について、反射電界・反射磁界（⑫⑬）、面電流密度の向き（⑭）、単位面積当たりに働く力 F（⑮〜⑱）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2頁（3-1、3-2）で1題。式番号 (1)〜(14) と空欄 ①〜⑱ を収録。各頁上部の志望専攻・受験番号の様式欄は box から外し、頁左上の「3-1」の題番号欄のみ独立 region として収録した。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q3-01.png",
+          "page": 6,
+          "box": [
+            51.0,
+            52.5,
+            125.0,
+            101.5
+          ],
+          "width": 222,
+          "height": 148,
+          "label": "原紙左上の「3-1」（問題3・1枚目）の題番号欄",
+          "sha256": "8882b77b6a792d272a5c09110167ca1fdb5dd275bde069893e68c2f28881522b"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q3-02.png",
+          "page": 6,
+          "box": [
+            52.5,
+            94.5,
+            542.0,
+            761.0
+          ],
+          "width": 1469,
+          "height": 2000,
+          "label": "問題3（3-1）：マクスウェル方程式の基本式・空欄 ①〜④ と式(1)〜(4)・波動方程式の空欄 ⑤・ポインティングベクトルの式(6)(7) と空欄 ⑥〜⑪",
+          "sha256": "a50b13dc5e01b658198a0ae8e6e7abd14adaf1f7b0cc88e123a37b2cf41e811b"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q3-03.png",
+          "page": 7,
+          "box": [
+            54.0,
+            105.0,
+            544.5,
+            729.5
+          ],
+          "width": 1472,
+          "height": 1874,
+          "label": "問題3（3-2）：完全導体面への垂直入射・反射電界/磁界の空欄 ⑫⑬ と式(8)(9)・面電流密度の向き ⑭・力 F の空欄 ⑮〜⑱ と式(10)〜(14)・25点",
+          "sha256": "a59250bac647c45be85ab0991146ea6cd84497645da374ff321e49f740237c90"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-denjiki-q4",
+      "number": "問題 4",
+      "title": "問題4：ホール効果による電界・電位差と、一様帯電球内に置かれた点電荷の運動",
+      "titleKind": "editorial",
+      "topics": [
+        "ホール効果",
+        "ローレンツ力",
+        "電位差",
+        "単振動",
+        "運動方程式"
+      ],
+      "summary": "[1] y 方向の厚さ d・z 方向の厚さ t・x 方向に無限に長い導電性材料に一様電流 I=I0 i_x を流し、y 方向に一様磁界 B=B0 i_y を印加したとき、電子が磁界から受ける力 F（①）、その z 成分 F_z（②）、z 方向の電界 E_z（③）、上側表面の電位 V（④）、両力が釣り合った後の電子の移動方向（⑤）、I と n,e,I の関係（⑥）、V を B0,I0,d,e,n で表した式（⑦）を問う。[2] 半径 a の球内に一様分布する正電荷 q（誘電率 ε0）が作る電界 E_r=q r/(4πε0 a^3) 中で、原点から r の距離にある質量 m・電荷 −q の点電荷に働く力 F_r（⑧）、運動方程式（⑨）、初期条件 r(0)=r0<a, dr/dt=0 での解 r（⑩）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2頁（4-1、4-2）で1題。解答欄の表（①〜⑦、⑧〜⑩）は原卷の解答用紙欄だが問題用紙上に印刷されているため box に含めた。各頁上部の志望専攻・受験番号の様式欄は box から外し、頁左上の「4-1」の題番号欄のみ独立 region として収録した。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q4-01.png",
+          "page": 8,
+          "box": [
+            60.0,
+            47.0,
+            124.0,
+            99.0
+          ],
+          "width": 192,
+          "height": 156,
+          "label": "原紙左上の「4-1」（問題4・1枚目）の題番号欄",
+          "sha256": "53c4c45ad66868a8e9af2bbd9c174130836a99e38e22728e4f9ec01240445265"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q4-02.png",
+          "page": 8,
+          "box": [
+            61.0,
+            120.0,
+            544.5,
+            736.5
+          ],
+          "width": 1451,
+          "height": 1850,
+          "label": "問題4（4-1）：[1] ホール効果の設定・厚さ d, t と磁界 B の図・空欄 ①〜⑦・解答欄（①〜⑦）",
+          "sha256": "bae5a3311989c3e4f65767b8eeaa841fd88953253a8288d726ac0ae6eb287cc9"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjiki/osaka-ee-2005-denjiki-q4-03.png",
+          "page": 9,
+          "box": [
+            67.0,
+            105.0,
+            557.5,
+            751.5
+          ],
+          "width": 1472,
+          "height": 1940,
+          "label": "問題4（4-2）：[2] 一様帯電球内の点電荷の運動方程式と解・空欄 ⑧⑨⑩・解答欄・25点",
+          "sha256": "2d185ab36a07d7bc628a2475a0366b4d5c04e602d45b67aba9aab3f12d55af07"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2005-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2005-denjiki-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2005-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2005-denjiki-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2005-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2005-denjiki-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2005-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2005-denjiki-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

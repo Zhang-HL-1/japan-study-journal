@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2005-denjien",
+  "title": "大阪大学 · 2005 入学年度 · 前身科目：电磁能源工学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2005",
+    "school": "大阪大学",
+    "schoolId": "osaka",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2005,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：电磁能源工学）",
+    "originalSubject": "电磁能源工学",
+    "originalName": "电磁能源工学.pdf",
+    "pdf": "assets/past-papers/documents/ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21.pdf",
+    "sha256": "ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21",
+    "pageCount": 9,
+    "note": "「2005 年度入学試験（実施年 2004）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/osaka-ee-2005-denjien/common-01.png",
+      "page": 1,
+      "box": [
+        88.0,
+        378.5,
+        401.5,
+        665.5
+      ],
+      "width": 941,
+      "height": 862,
+      "label": "表紙の注意事項：問題の数は5問、4題を選択して解答、解答用紙の色分け、各問題50点・合計200点、問題用紙は表紙を含めて9枚",
+      "sha256": "209af2731451b962aab53c455651d26dc70c5389d84efa70e3e90e87666df4ef"
+    }
+  ],
+  "questions": [
+    {
+      "id": "osaka-ee-2005-denjien-q1",
+      "number": "問題 1",
+      "title": "問題1：固体表面への粒子入射によるスパッタリング（弾性衝突のエネルギー移行）",
+      "titleKind": "editorial",
+      "topics": [
+        "スパッタリング",
+        "弾性衝突",
+        "エネルギー移行",
+        "散乱角",
+        "表面結合エネルギー"
+      ],
+      "summary": "運動エネルギー Ein の粒子が固体に照射され、運動量交換により固体原子が空間へ放出されるスパッタリングについて、問1 固体表面に垂直に入射した質量 M1 の粒子が質量 M2 の原子と衝突し散乱角 θ, φ で散乱されるとき、衝突直後の固体原子のエネルギー E2 と Ein の比が 4M1M2cos^2φ/(M1+M2)^2 となることを示す。問2 入射粒子が固体原子と180度散乱（θ=π）した後、固体最表面の原子と正面衝突する過程で、スパッタリングが起こりうる入射粒子の最小エネルギー Emin を求める（M1<M2、表面結合エネルギー Es を考慮）。問3 スパッタリング率 n2/n1 の入射粒子エネルギー依存性とその理由。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁1題（問1〜問3）。2つの散乱図（固体表面・固体内部、M1, M2, E2, Ein, θ, φ）を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjien/osaka-ee-2005-denjien-q1-01.png",
+          "page": 2,
+          "box": [
+            82.5,
+            84.0,
+            517.5,
+            719.0
+          ],
+          "width": 1306,
+          "height": 1905,
+          "label": "問題1（解答用紙「白色」）：スパッタリングの定義・問1 の弾性衝突と E2/Ein の式・入射粒子 M1 と固体原子 M2 の散乱図・問2 の180度散乱の図・Emin・問3 のスパッタリング率",
+          "sha256": "f7089b508a9cd82db9381f5abaf8c10c24331b0ada43d95a13970e0b5d39f4a3"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-denjien-q2",
+      "number": "問題 2",
+      "title": "問題2：光共振器内の定在波とモード同期（短パルス電磁波の発生）",
+      "titleKind": "editorial",
+      "topics": [
+        "定在波",
+        "共振器",
+        "モード同期",
+        "周波数帯域",
+        "パルス"
+      ],
+      "summary": "距離 L だけ離れた2枚の鏡が作るキャビティ内で共振する定在波について、空白を埋め図を描く。最も波長の長い定在波の波長 λ1（1)）、n 番目の高調波の波長 λn（2)）、角周波数 ωn（3)）、ωn−ω_{n−1}=Δω（4)）、複素電界 E(t)=ΣEn exp j(ωn t+φn) で φn=0・n=nc を中心に 2N+1 個のモードのみ En=E0 としたときの E(t)（5)）、強度 I(t)=|E(t)|^2（6)）、I(t) の概形（7)）、その周期 T（8)）。等比級数と sin x の関係式をヒントとして与える。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2頁で1題（空欄 1)〜8)）。3頁目の図（鏡・L・λ1・λ2・λ3）を収録。4頁目は式と空欄 5)〜8)。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjien/osaka-ee-2005-denjien-q2-01.png",
+          "page": 3,
+          "box": [
+            78.5,
+            85.5,
+            518.5,
+            720.5
+          ],
+          "width": 1321,
+          "height": 1906,
+          "label": "問題2（解答用紙「赤色」）：キャビティ内定在波の説明・λ1, λn, ωn, Δω の空欄 1)〜4)・2枚の鏡と λ1, λ2, λ3, L の図",
+          "sha256": "c540d9b2eb22502e99784f45e55879b10f8e29a99baac1254264e78ca395be1b"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjien/osaka-ee-2005-denjien-q2-02.png",
+          "page": 4,
+          "box": [
+            85.5,
+            90.0,
+            518.5,
+            738.5
+          ],
+          "width": 1300,
+          "height": 1946,
+          "label": "問題2 続き：E(t) の級数表示と φn=0・2N+1 モードの仮定・等比級数と sin x のヒント・E(t)（5)）・I(t)（6)）・I(t) の概形（7)）・周期 T（8)）・モード同期法の説明",
+          "sha256": "8d73301692a9e5d25e5eb78faac8a084df72a8beef2b6019842363f27945aa6a"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-denjien-q3",
+      "number": "問題 3",
+      "title": "問題3：空洞内の光子気体（黒体放射のエネルギーとエントロピー）",
+      "titleKind": "editorial",
+      "topics": [
+        "光子",
+        "状態密度",
+        "分配関数",
+        "プランクの放射則",
+        "エントロピー"
+      ],
+      "summary": "立方体（一辺 L）内に閉じ込められた光子（振動モード ωn=nπc/L）について、振動モード ω の光子のエネルギー εs（1)）、温度 τ(=kT) の平衡状態での分配関数 Z（2)）、エネルギー εs の状態にある確率 P(S)=exp(−εs/τ)/Z から光子数の熱的平均値（3)）、全エネルギー U（4)）、これを（5)）の放射法則と呼ぶこと、熱力学の恒等式 dσ=（6)）から体積一定条件でのエントロピーと U, τ の関係（7)）、V と τ で書き直した（8)）=const の関係。ヒント ∫_0^∞ x^3/(e^x−1)dx=π^4/15。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "1頁1題。空欄 (1)〜(8) と (5) に人名を入れる指示、ヒントの定積分を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjien/osaka-ee-2005-denjien-q3-01.png",
+          "page": 5,
+          "box": [
+            80.5,
+            84.5,
+            516.5,
+            510.5
+          ],
+          "width": 1309,
+          "height": 1279,
+          "label": "問題3（解答用紙「青色」）：光子のエネルギー・分配関数・熱平均光子数・全エネルギー U（空欄 (1)〜(5)）・エントロピーと放射法則の関係（空欄 (6)〜(8)）・積分のヒント・解答形式の指示",
+          "sha256": "404b34a621dd21a0cd6ef779df0f5418001c15be4f4e46090cc259ded6a6429e"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-denjien-q4",
+      "number": "問題 4",
+      "title": "問題4：原子核の質量公式と核子当たりの結合エネルギー・核融合",
+      "titleKind": "editorial",
+      "topics": [
+        "液滴モデル",
+        "質量公式",
+        "結合エネルギー",
+        "質量欠損",
+        "核融合",
+        "マジックナンバー"
+      ],
+      "summary": "安定な原子核の質量数 A に対する核子当たりの平均結合エネルギー F の図（細実線は液滴模型による質量公式、太実線は測定値、小図は A の小さな領域）について、空欄 (1)〜(15) に候補欄から語句・数字・式・人名を選んで入れる。A が大きいと F がおよそ（2)）MeV になること（3)）、F が A=（4)）付近で最大値をとり最も（5)）であること、ΔM=Z·Mp+(A−Z)·Mn−M(A,Z) を（6)）と呼ぶこと、B=（8)）と表されること、F=（9)）、ピークが再現できない理由（10)(11)(12)(13)）、A が小さい領域で（14)）の倍数の質量数で F が大きいこと（15)）。さらに F の小さな複数の軽核が融合する場合の F の増減（16)(17)）。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2頁で1題。質量数 A に対する結合エネルギー F の図（P, Q のピークと小図の軽核領域）と（候補欄）の一覧を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjien/osaka-ee-2005-denjien-q4-01.png",
+          "page": 6,
+          "box": [
+            79.0,
+            54.5,
+            524.5,
+            752.0
+          ],
+          "width": 1337,
+          "height": 2093,
+          "label": "問題4（解答用紙「黄色」）：候補欄から選ぶ指示・核子当たりの結合エネルギー F と質量数 A の図（小図は軽核）・空欄 (1)〜(15)",
+          "sha256": "f695fb8cd9dc9511f6016ffa2a3ebc3320744667a534bd934856bdebcd83c35e"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjien/osaka-ee-2005-denjien-q4-02.png",
+          "page": 7,
+          "box": [
+            76.0,
+            51.5,
+            520.0,
+            355.5
+          ],
+          "width": 1332,
+          "height": 913,
+          "label": "問題4 続き：核融合反応の説明と空欄 (4)(16)(17)・（候補欄）人名・数値・式・術語の一覧",
+          "sha256": "63af7cb28c09c1e45f0557897bed0013f9283cf701934a9f34c8296405bdd45c"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2005-denjien-q5",
+      "number": "問題 5",
+      "title": "問題5：1次元調和振動子のシュレディンガー方程式と波動関数の期待値",
+      "titleKind": "editorial",
+      "topics": [
+        "調和振動子",
+        "シュレディンガー方程式",
+        "エルミート多項式",
+        "規格化",
+        "期待値"
+      ],
+      "summary": "1次元空間で F=−kx の引力を受ける質量 m の粒子について、ポテンシャル V(x)=kx^2/2 からシュレディンガー方程式（空欄 ①、式(1)）、ω=√(k/m) を用いた式(2)（空欄 ②）、ξ=x√(mω/ħ)、λ=2E/ħω による式(3)（空欄 ③）、エルミート多項式 Hn(ξ) を用いた解 Ψ(ξ)=Hn(ξ)exp(−αξ^2)、n=0 の波動関数 Ψ(x)=c0 exp(−βx^2)（式(3)）と β（④）、固有値 E（⑤）、規格化した Ψ(x)（⑥）、空間平均値 <x>（⑦）、変位の2乗平均 <(x−<x>)^2>（⑧）。必要なら ∫exp(−ξ^2)dξ=√π などの関係式を用いる。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2頁で1題。空欄 ①〜⑧ と、9頁の ∫exp(−ξ^2)dξ=√π および微分公式2式を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjien/osaka-ee-2005-denjien-q5-01.png",
+          "page": 8,
+          "box": [
+            83.5,
+            86.5,
+            515.5,
+            730.5
+          ],
+          "width": 1297,
+          "height": 1933,
+          "label": "問題5（解答用紙「水色」）：調和振動子のシュレディンガー方程式・空欄 ①〜⑦・式(1)〜(4)",
+          "sha256": "54894fd7509e7bb4437bca795cdc8a11d06a5272a9ca6f07c76d0fef01f065ef"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2005-denjien/osaka-ee-2005-denjien-q5-02.png",
+          "page": 9,
+          "box": [
+            81.0,
+            86.0,
+            382.5,
+            294.5
+          ],
+          "width": 905,
+          "height": 626,
+          "label": "問題5 続き：空欄 ⑧ と、必要に応じて用いる積分・微分の関係式3式",
+          "sha256": "0910866b10a90a563220a7e1626a1daa977a723b7fc9049cd234b2481f8102d7"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2005-denjien-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2005-denjien-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2005-denjien-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2005-denjien-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2005-denjien-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2005-denjien-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2005-denjien-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "osaka-ee-2005-denjien-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

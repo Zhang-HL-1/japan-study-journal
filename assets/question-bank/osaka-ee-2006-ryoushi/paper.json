@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-ee-2006-ryoushi",
+  "title": "大阪大学 · 2006 入学年度 · 前身科目：量子电子物性",
+  "source": {
+    "kind": "exam",
+    "catalogId": "osaka-ee-archive-2006",
+    "schoolId": "osaka",
+    "school": "大阪大学",
+    "graduate": "工学研究科",
+    "major": "電気電子情報通信工学専攻／電気工学コース",
+    "originalMajor": "電気電子情報通信・前身（历史试卷）",
+    "year": 2006,
+    "yearBasis": "academic",
+    "subject": "专门科目（前身：量子电子物性）",
+    "originalSubject": "量子电子物性",
+    "originalName": "量子电子物性.pdf",
+    "pdf": "assets/past-papers/documents/da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc.pdf",
+    "sha256": "da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc",
+    "pageCount": 8,
+    "note": "「2006 年度入学試験（実施年 2005）；旧制 7 科目分册，非课程制」"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "osaka-ee-2006-ryoushi-q1",
+      "number": "問題1",
+      "title": "量子力学：粒子性と波動性・交換子と不確定性関係・無限大障壁中の粒子",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "ド・ブロイ波",
+        "光電効果",
+        "交換子",
+        "不確定性関係",
+        "無限大ポテンシャル障壁",
+        "規格化"
+      ],
+      "summary": "問題1（次の問1から問3に答えよ、40 点）。問1 (a) 電子の粒子性と波動性（運動量 p と波数ベクトル k を用いて表す）、(b) 光の粒子性を示す実験結果としての光電効果の説明。問2 2 つの観測量 A, B の演算子の交換子 [Â,B̂]=ÂB̂−B̂Â と不確定性関係について、(a) 演算子 x̂, p̂_x, t̂, ε̂ の具体的表現、(b) [x̂,p̂_x]ψ と [t̂,ε̂]ψ を最簡の式で表し、ψ=C exp{i(k_x x−ωt)} のときの値。問3 3 次元ポテンシャル V(x,y,z) 中の粒子のシュレーディンガー方程式と、無限大の高さのポテンシャル障壁（V=∞）に囲まれた空間（V=0）の 1 次元粒子について、(a) ψ(x) の方程式と境界条件、(b) エネルギー固有値 ε_n と波動関数 ψ_n(x)、(c) 規格化条件と規格化波動関数、(d) 位置の期待値、(e) 運動量の期待値とそこから言えること、(f) 位置と運動量の不確定性関係の成立。障壁の図（V=∞, V=0, 0, L, x）付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2 頁構成（分册首页即题目、无注意事项 → commonRegions=[]）。頁 1 上部の卷頭標題（平成18年度・選択科目・日時）は box 外。問1(a)(b)、問2(a)(b)、問3(a)〜(f) の小問数と障壁図を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q1-01.png",
+          "page": 1,
+          "box": [
+            78.0,
+            176.5,
+            542.5,
+            760.5
+          ],
+          "width": 1394,
+          "height": 1753,
+          "label": "問題1：卷頭の題号・本文（次の問1から問3に答えよ、40 点）、問1 の (a)(b)、問2 の本文と (a)(b)、問3 の本文・(a)、障壁の図",
+          "sha256": "5c1bf9a95b8892271f1fc4bf01b6219e6b95ac99360c4ec6d6f7e375a97da508"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q1-02.png",
+          "page": 2,
+          "box": [
+            85.5,
+            64.0,
+            543.0,
+            248.5
+          ],
+          "width": 1373,
+          "height": 554,
+          "label": "問題1：問3 の (b)〜(f)",
+          "sha256": "c230988006644f003d909135437fbd94706736ea8da27fa999f0db1a83fc45ad"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-ryoushi-q2",
+      "number": "問題2",
+      "title": "金属の電子輸送：ドリフト運動・移動度・複素導電率と超伝導",
+      "titleKind": "editorial",
+      "topics": [
+        "金属",
+        "有効質量",
+        "ブラウン運動",
+        "ドリフト",
+        "移動度",
+        "導電率",
+        "複素導電率",
+        "超伝導"
+      ],
+      "summary": "問題2（40 点）電子密度 n の金属結晶中で有効質量 m*・電荷 −e の電子の運動を考える。外部電界 E によるドリフト運動、平均速度 <v>、散乱時間 τ について m* d<v>/dt = −eE − m*<v>/τ が成り立ち、移動度 μ=(①)、電流密度 J=(−e)n<v>=σE から導電率 σ=(②)。角周波数 ω の交流電界では <v(t)>=<v_0>exp(−iωt) より <v(t)>=−(①)×(③)E、動的導電率 σ(ω)=(②)×(③)、複素導電率の実部 σ_RE と虚部 σ_IM = (②)×(④)、(②)×(⑤)。問1 空欄 (①)〜(⑤) を式で埋める、問2 有効質量・ブラウン運動・ドリフト運動・超伝導状態を簡潔に説明、問3 交流電界を印加したときの比抵抗の実部・虚部と散乱過程・周波数との関係の説明。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2 頁構成。空欄 (①)〜(⑤)、運動方程式 m*d<v>/dt=−eE−m*<v>/τ、σ(ω)/σ_RE/σ_IM の各式、問1〜問3 を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q2-01.png",
+          "page": 2,
+          "box": [
+            80.0,
+            324.5,
+            557.0,
+            742.0
+          ],
+          "width": 1431,
+          "height": 1253,
+          "label": "問題2：見出し（40 点）、本文、空欄 (①)〜(③) と運動方程式・移動度・導電率の式",
+          "sha256": "2dab16767a38fffe728971b92235f0d04fbd4a6e6ae55d54551ee04450b64c76"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q2-02.png",
+          "page": 3,
+          "box": [
+            72.5,
+            63.5,
+            536.5,
+            360
+          ],
+          "width": 1393,
+          "height": 890,
+          "label": "問題2：σ(ω)・σ_RE・σ_IM の式と空欄 (②)〜(⑤)、問1〜問3",
+          "sha256": "d3be026bce8904a11c32d6d245c9a2d93304c6b92d3e2b198cabe607b8415d3f"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-ryoushi-q3",
+      "number": "問題3",
+      "title": "半導体：n 型 Si のフェルミ準位・階段型 pn 接合の空乏層とポアソン方程式",
+      "titleKind": "editorial",
+      "topics": [
+        "半導体",
+        "フェルミ準位",
+        "真性半導体",
+        "pn接合",
+        "空乏層",
+        "拡散電位",
+        "ポアソン方程式",
+        "ダイオード"
+      ],
+      "summary": "問題3（40 点）半導体の電子密度 n・正孔密度 p・真性電子密度 n_i・ドナー密度 N_d・アクセプタ密度 N_a・誘電率 κ・ボルツマン定数 k_B・絶対温度 T・電荷の絶対値 e について、問1 電子が出払い領域にあり縮退していない n 型 Si の真性フェルミエネルギー E_i とフェルミエネルギー E_Fn をエネルギー準位図の a〜f から選ぶ、問2 空欄 (①)〜(④)（n=n_i exp[(①)]、E_Fn−E_i=(②)、E_i−E_Fp=(③)、拡散電位 V_d=(④)）、問3 接合後の E_Fn と E_Fp の差、問4 空欄 (⑤)〜(⑦)（ポアソン方程式、電界最大値）と (a)(b)（電界 E の図示）、問5 電位 V の図示（x=0 で 0、拡散電位 V_d も図示）、問6 N_a=1×10^15・N_d=1×10^16 cm^−3 のときの x_p と x_n の大小と比、問7 pn 接合ダイオードの V-I 関係（飽和電流 I_s を用いた式）とグラフ。エネルギー準位図（伝導帯底 a・b・c・d・e・f、価電子帯頂上）と電界・電位の図付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3 頁構成。エネルギー準位図（a〜f の水準線）、電界 E の図（−x_p, 0, x_n）、電位 V の図、問1〜問7 の小問数を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q3-01.png",
+          "page": 3,
+          "box": [
+            74.5,
+            428.5,
+            538.5,
+            759.0
+          ],
+          "width": 1393,
+          "height": 992,
+          "label": "問題3：見出し（40 点）、本文の前提、問1（エネルギー準位図 a〜f からの選択）",
+          "sha256": "215c1aad9ddfd51c96a21b5be552d86de725f0fb54ad77a700bc02fbc1f1f9b1"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q3-02.png",
+          "page": 4,
+          "box": [
+            79.0,
+            65.5,
+            544.0,
+            770.5
+          ],
+          "width": 1395,
+          "height": 2116,
+          "label": "問題3：問2（空欄 (①)〜(④)）、問3、問4（空欄 (⑤)〜(⑦) と電界の図）、(a)(b)",
+          "sha256": "e9d415624abb641ddf438762a83abf727d14a149bef046dcea3e1c4add8f0054"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q3-03.png",
+          "page": 5,
+          "box": [
+            75.5,
+            44,
+            541.5,
+            300
+          ],
+          "width": 1399,
+          "height": 768,
+          "label": "問題3：問5（電位 V の図）、問6（x_p と x_n の比）、問7（ダイオードの V-I 特性とグラフ）",
+          "sha256": "75b2b60db0c08712af24903f3b884458d6f9d7f54905e4339126b0d81e3c28f2"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-ryoushi-q4",
+      "number": "問題4",
+      "title": "誘電体の分極：電子分極・イオン分極・永久双極子分極と誘電率の周波数依存性",
+      "titleKind": "editorial",
+      "topics": [
+        "誘電体",
+        "分極",
+        "電子分極",
+        "イオン分極",
+        "永久双極子",
+        "ランジェバン関数",
+        "誘電率",
+        "周波数依存性"
+      ],
+      "summary": "問題4（40 点）分極に関する文章。[I] 原子核と電子雲からなる原子の変位 x とクーロン力 f=(①)x、電界 E_loc による変位 x=(②)、双極子モーメント μ と比例係数（③）＝分極率 α_1=(④)、この原理で誘起される分極を（⑤）分極と呼ぶ。[II] イオン結晶の相対変位による双極子モーメント（⑥）分極、P_2=(⑦)、イオンの変位 u_+, u_− と分極率 α_+, α_−。[III] 永久双極子モーメント μ_0 と電界の相互作用による（⑧）分極、P_3=N_3μ_0L(t)、L(t)=coth t−1/t の（⑨）関数、t≪1 での α_3=(⑩)。問1 空欄 (①)〜(⑩) に語句・数式、問2（⑧）分極の原理を図で説明、問3（⑤）（⑥）（⑧）分極の温度依存性の説明、問4 交流電界を印加した場合の（⑤）（⑥）（⑧）分極に基づく誘電率の実部 κ′・虚部 κ″ の周波数依存性の概略図。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "2 頁構成。[I]〜[III] の空欄 (①)〜(⑩) と問1〜問4 を確認。L(t)=coth t−1/t、coth t の級数展開、t=μ0E_loc/(k_BT) の定義を収録。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q4-01.png",
+          "page": 5,
+          "box": [
+            77.0,
+            377.0,
+            549.0,
+            760.0
+          ],
+          "width": 1416,
+          "height": 1149,
+          "label": "問題4：見出し（40 点）、[I] の本文と空欄 (①)〜(⑤)",
+          "sha256": "395e2991419805dc61ad6c3cda367b88a6c1fe1590e07db5dd4653e640eddaf9"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q4-02.png",
+          "page": 6,
+          "box": [
+            78.0,
+            65.5,
+            545.0,
+            603.5
+          ],
+          "width": 1401,
+          "height": 1615,
+          "label": "問題4：[II]・[III] の本文と空欄 (⑥)〜(⑩)、問1〜問4",
+          "sha256": "b78d88bfd95c59382e612bb131d71f4686c573570d9473b8c7759ab75920eaf5"
+        }
+      ]
+    },
+    {
+      "id": "osaka-ee-2006-ryoushi-q5",
+      "number": "問題5",
+      "title": "磁性：軌道・スピン磁気モーメントと常磁性・反磁性・ラーメー歳差",
+      "titleKind": "editorial",
+      "topics": [
+        "磁性",
+        "磁気モーメント",
+        "軌道角運動量",
+        "スピン",
+        "フント則",
+        "キュリー常磁性",
+        "ラーメー歳差",
+        "反磁性"
+      ],
+      "summary": "問題5（40 点）静磁界に対する物質の磁性。[本文] 外部静磁界による磁化の向き（①）（②）、電子の円運動による環状電流 I=(③)、軌道磁気モーメント μ_m の大きさ (④)、軌道角運動量 l の大きさ (⑤)、μ_m を l で表す式 (⑥)、軌道磁気モーメント μ_l=−(eℏ/2m)l、スピン磁気モーメント μ_s=−(eℏ/m)s、全角運動量 j=l+s と磁気モーメント μ=(⑧)。問1 空欄 (①)(②) の語句と (③)〜(⑧) の数式、問2 Cr の Cr^3+（3d^3）の基底状態の電子配置と S, L, J（フント則）、問3 強磁性・反強磁性・フェリ磁性の違い、問4 希ガス原子（Ne, 1s^2 2s^2 2p^6）が磁気モーメントを持たない理由と S, L、問5 磁界 B によるラーメー歳差（角速度 ω_L=(e/2m)B）について (a) ループ電流、(b) Z 個の電子を持つ原子の磁気モーメント、(c) 希ガス原子が反磁性を示すことの説明。電子の円運動の図と l のベクトル図付き。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+        "date": "2026-11-03",
+        "notes": "3 頁構成。問1〜問5 の小問数、電子の円運動と l のベクトル図（−e, r, ω, I, l）、問5 の ω_L=(e/2m)B を確認。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q5-01.png",
+          "page": 6,
+          "box": [
+            80.5,
+            679.5,
+            543.0,
+            762.5
+          ],
+          "width": 1388,
+          "height": 250,
+          "label": "問題5：見出し（40 点）と本文冒頭の 2 行",
+          "sha256": "74da76e6f6589842a0f8b9b1dfc3510a3f41d8b3f477161c0e1bcde53d6e4dcc"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q5-02.png",
+          "page": 7,
+          "box": [
+            75.5,
+            64.5,
+            541.0,
+            761.0
+          ],
+          "width": 1397,
+          "height": 2090,
+          "label": "問題5：本文（磁化の向き・環状電流・軌道磁気モーメント・スピン・全角運動量）、電子の円運動の図、問1〜問4",
+          "sha256": "b564a06255e755992ad6657984e1e9d59e1a5c6ff8d30bd5500213b7da8aa89a"
+        },
+        {
+          "src": "assets/question-bank/osaka-ee-2006-ryoushi/osaka-ee-2006-ryoushi-q5-03.png",
+          "page": 8,
+          "box": [
+            74.0,
+            65.5,
+            541.0,
+            227.5
+          ],
+          "width": 1401,
+          "height": 487,
+          "label": "問題5：問4 の続き（S, L の説明）と問5 (a)(b)(c)（ラーメー歳差・反磁性）",
+          "sha256": "c40565bb9db0377eaf943dfcd1a8430c6cb422f3f8f3cc66a7aced29ee634e9f"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "osaka-ee-2006-ryoushi-q1"
+      ],
+      "common": false,
+      "excluded": "裁去卷头标题行（年度・科目・日時）、页脚页码与扫描空白边；题号以降を収録。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "osaka-ee-2006-ryoushi-q1",
+        "osaka-ee-2006-ryoushi-q2"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "osaka-ee-2006-ryoushi-q2",
+        "osaka-ee-2006-ryoushi-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "osaka-ee-2006-ryoushi-q3"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "osaka-ee-2006-ryoushi-q3",
+        "osaka-ee-2006-ryoushi-q4"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "osaka-ee-2006-ryoushi-q4",
+        "osaka-ee-2006-ryoushi-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "osaka-ee-2006-ryoushi-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "osaka-ee-2006-ryoushi-q5"
+      ],
+      "common": false,
+      "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+ "schemaVersion": 1,
+ "id": "osaka-ee-2006-denjien",
+ "title": "大阪大学 · 2006 入学年度 · 前身科目：电磁能源工学",
+ "source": {
+  "kind": "exam",
+  "catalogId": "osaka-ee-archive-2006",
+  "schoolId": "osaka",
+  "school": "大阪大学",
+  "graduate": "工学研究科",
+  "major": "電気電子情報通信工学専攻／電気工学コース",
+  "originalMajor": "電気電子情報通信・前身（历史试卷）",
+  "year": 2006,
+  "yearBasis": "academic",
+  "subject": "专门科目（前身：电磁能源工学）",
+  "originalSubject": "电磁能源工学",
+  "originalName": "电磁能源工学.pdf",
+  "pdf": "assets/past-papers/documents/9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9.pdf",
+  "sha256": "9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9",
+  "pageCount": 11,
+  "note": "「2006 年度入学試験（実施年 2005）；旧制 7 科目分册，非课程制」"
+ },
+ "renderScale": 3,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    89.0,
+    331.0,
+    409.5,
+    619.5
+   ],
+   "label": "【注意事項】問題の数は 5 問、4 問選択して解答、問題 1〜5 を 1〜5 枚目（白・赤・青・黄・水色）の解答用紙に記入、配点は各問題 50 点・合計 200 点、問題用紙は表紙を含めて 11 枚"
+  }
+ ],
+ "questions": [
+  {
+   "id": "osaka-ee-2006-denjien-q1",
+   "number": "問題1",
+   "title": "電気双極子：近接電荷対の電位と電界・双極子トルク",
+   "titleKind": "editorial",
+   "topics": [
+    "電気双極子",
+    "電位",
+    "球座標",
+    "ハミルトン演算子",
+    "電界",
+    "トルク"
+   ],
+   "summary": "真空中の近接した 1 組の点電荷 +q1・−q1（間隔 d1）を考え、中心を球座標の原点、θ=0 を双極子方向とする。問1 +q1・−q1 から点 P までの距離 r+・r− の空欄 (1)(2)、点 P の電位 φ (3)、双極子能率 p1=q1d1 で d1/r→0 の極限 (4)。問2 電位 φ の等電位線と電気力線の概略図（記入枠付き）。問3 中心 P に双極子 p2=q2d2 を置いたときのトルク T について、電界の各成分 E_r, E_θ, E_φ (5)(6)(7)、i_r 方向・i_θ 方向の T (8)(9)、ベクトル表記 (10)。図 1・図 2 付き。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      58.5,
+      53.5,
+      560.0,
+      795.0
+     ],
+     "label": "問題1：問題1 見出し、本文、問1 の空欄 (1)〜(4)、問2（等電位線の記入枠）、図 1（双極子と球座標）"
+    },
+    {
+     "page": 3,
+     "box": [
+      56.0,
+      46.0,
+      541.0,
+      675.5
+     ],
+     "label": "問題1：問3 の本文・空欄 (5)〜(10)、図 2（双極子 p2 と電界 E）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁構成。図 1（θ, r+, r−, p1, +q1, −q1, i_r, i_θ, P(r,θ,φ)）と図 2（p2, i_r, i_θ, E, −q2, +q2, d2）、空欄 (1)〜(10)、問2 の記入枠を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2006-denjien-q2",
+   "number": "問題2",
+   "title": "気体分子運動論：速度分布関数から平均速度・エネルギー分布・壁面圧力",
+   "titleKind": "editorial",
+   "topics": [
+    "速度分布則",
+    "マクスウェル分布",
+    "平均速度",
+    "エネルギー分布",
+    "フラックス",
+    "圧力",
+    "蒸発"
+   ],
+   "summary": "熱平衡状態の気体粒子の速度分布関数 f(v_x,v_y,v_z) から、空欄 (1)〜(9) を埋める。速度の大きさ v の分布 F(v) (2)、平均 <v> (3)(4)、エネルギー分布 G(E) (5)、壁に与える力積 I_x (6)、フラックス Γ（x 方向の積分表示）と Γ=n√(kT/2πm)、圧力 P (7)(8)、液相と気相が混在する平衡状態の蒸気圧 P を蒸発フラックス α_e と温度 T で表す式 (9)。問1 (1)〜(9) の語句・数式、問2 F(v) の概形をグラフで示す、問3 Γ が下部 (b) の様に表されることを示す。積分公式と壁面模式図付き。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      83.0,
+      94.0,
+      521.5,
+      736.0
+     ],
+     "label": "問題2：見出し、本文、空欄 (1)〜(6)、フラックス Γ の積分表示"
+    },
+    {
+     "page": 5,
+     "box": [
+      83.5,
+      92.5,
+      522.0,
+      568.5
+     ],
+     "label": "問題2：空欄 (7)〜(9)、問1〜問3、(a) F(v) のグラフ指示、積分公式、壁面と速度成分の図"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁構成。空欄 (1)〜(9)、問1〜問3、積分公式 ∫x^2e^−ax^2dx、壁と原子の反射を示す図（Vx, Vy）を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2006-denjien-q3",
+   "number": "問題3",
+   "title": "媒質界面の反射・屈折：波長・屈折角・全反射と分散媒質の群速度",
+   "titleKind": "editorial",
+   "topics": [
+    "反射",
+    "屈折",
+    "スネルの法則",
+    "全反射",
+    "分散",
+    "群速度",
+    "位相速度",
+    "白色光"
+   ],
+   "summary": "媒質 1（屈折率 n1=1、光速 c）から媒質 2（n2>1）へ入射角 θ0 で入射する場合について、空欄 (1)〜(24) を埋める。媒質 1・2 の波長と光速 (1)〜(3)、反射角 α (4)、屈折角 β とスネルの法則 (5)、屈折角の大小 (6)、全反射の条件 (7)〜(9)、波数比 k_y/k_x (10)、n2 と比誘電率 ε2 (11)、屈折光の角周波数 ω (12)、波動方程式に代入した ω と k の関係 (13)、位相速度 (14)、包絡線の式 (15)〜(18) と群速度 (19)、ε2=1+χω の分散媒質での ω-k 関係 (20) と群速度 (21)、群速度と位相速度の大小 (22)、分散媒質での短波長側の位相速度と屈折角 (23)(24)。図（入射・反射・屈折、θ0, α, β, x, y）付き。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      70.5,
+      66.5,
+      532.5,
+      771.0
+     ],
+     "label": "問題3：見出し、屈折・反射の図、本文、空欄 (1)〜(9)、波動方程式 (A) と平面波解 (B)"
+    },
+    {
+     "page": 7,
+     "box": [
+      71.5,
+      63.0,
+      532.5,
+      749.5
+     ],
+     "label": "問題3：空欄 (10)〜(24)（群速度・分散・白色光の分散）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁構成。空欄 (1)〜(24) の連番、図の角度記号 α・β・θ0 と座標軸、式 (A)(B) を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2006-denjien-q4",
+   "number": "問題4",
+   "title": "自由粒子の波束：ガウス波束の確率密度と空間的広がりの時間変化",
+   "titleKind": "editorial",
+   "topics": [
+    "波束",
+    "フーリエ振幅",
+    "群速度",
+    "テーラー展開",
+    "確率密度",
+    "不確定性"
+   ],
+   "summary": "運動する質量 m の自由粒子の波束 ψ(x,t)（運動量 p の重ね合わせ (a)）と、ガウス形のフーリエ振幅 f(p−p0) (b) について、空欄 (1)〜(9) を埋める。W(p)=p^2/2m (1)、dW/dp=v_g (2)、d^2W/dp^2=α (3)、W(p) のテーラー展開 (4)〜(6)、ψ(x,t) の書き換え (7)(8)、|ψ(x,t)|^2 の式から自由粒子の空間的広がりが時間とともに変化することを定性的に説明 (9)。",
+   "regions": [
+    {
+     "page": 8,
+     "box": [
+      83.0,
+      94.5,
+      520.5,
+      716
+     ],
+     "label": "問題4：見出し、本文、式 (a)(b)、空欄 (1)〜(8)"
+    },
+    {
+     "page": 9,
+     "box": [
+      86.0,
+      95.0,
+      522.5,
+      370.5
+     ],
+     "label": "問題4：|ψ(x,t)|^2 の式と「説明：(9)」の記入枠"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁構成。空欄 (1)〜(9)、|ψ(x,t)|^2 の式（x−v_g t、Δp を含む）と説明欄の枠を確認。"
+   }
+  },
+  {
+   "id": "osaka-ee-2006-denjien-q5",
+   "number": "問題5",
+   "title": "トンネル効果：矩形障壁の波動関数・境界条件・反射率と透過率",
+   "titleKind": "editorial",
+   "topics": [
+    "シュレーディンガー方程式",
+    "トンネル効果",
+    "矩形障壁",
+    "境界条件",
+    "反射率",
+    "透過率",
+    "α崩壊"
+   ],
+   "summary": "1 次元ポテンシャル V(x) のシュレーディンガー方程式から、高さ V0・幅 L の矩形障壁（左から入射、E<V0）について、問1 時間に依存しないシュレーディンガー方程式 (1)、問2 障壁より小さなエネルギーでも透過する現象・効果の名称 (2)、問3 領域 I・II・III の波動関数 ψ_I, ψ_II, ψ_III（振幅 A, B, C, F, G）(3)〜(5)、問4 x=0 と x=L の境界条件から A,B,C,F,G の 4 つの関係式 (6)〜(9)、問5 F と G を消去した反射率 |B|^2/|A|^2 と透過率 |C|^2/|A|^2（sinh x=(e^x−e^−x)/2）(10)(11)、問6 α 崩壊の半減期が α 粒子のエネルギーに依存することを定性的に説明 (12)。障壁の模式図（V0, E, L, 領域 I〜III）付き。",
+   "regions": [
+    {
+     "page": 10,
+     "box": [
+      75.0,
+      97.5,
+      541.5,
+      734.5
+     ],
+     "label": "問題5：見出し、シュレーディンガー方程式、障壁の模式図、問1〜問3 の空欄 (1)〜(5)"
+    },
+    {
+     "page": 11,
+     "box": [
+      75.0,
+      62.5,
+      541.0,
+      494.0
+     ],
+     "label": "問題5：問4〜問6 の空欄 (6)〜(12)（境界条件・反射率・透過率・α崩壊の説明枠）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against full-page 2x renders of the scanned PDF",
+    "date": "2026-11-03",
+    "notes": "2 頁構成。空欄 (1)〜(12)、障壁図（エネルギー、V0、E、透過、反射、L、I・II・III、x 軸）を確認。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边；本页为封面与注意事项，题目内容自次页起。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q1"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q1"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q2"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q3"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q4"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [
+    "osaka-ee-2006-denjien-q5"
+   ],
+   "common": false,
+   "excluded": "裁去卷头页眉、页脚页码与扫描空白边，不含题目内容。",
+   "reviewed": true
+  }
+ ]
+}
