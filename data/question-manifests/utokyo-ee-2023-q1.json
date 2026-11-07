@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2023-q1",
+  "title": "東京大学 · 2023 实施年 · 問題1",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-fy2023",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2023,
+    "yearBasis": "exam",
+    "subject": "电磁学",
+    "originalSubject": "問題1",
+    "originalName": "fy2023_s_ja_1.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/46820620588ac72b2bac9350a4790f6de18477dda7bc162fd094ab9e5913d7f3.pdf",
+    "sha256": "46820620588ac72b2bac9350a4790f6de18477dda7bc162fd094ab9e5913d7f3",
+    "pageCount": 2,
+    "note": "沿用既有目录 utokyo-ee-fy2023：yearBasis=exam，2023 为文件来源标示的实施会计年度，不推算入学年或实施日。专攻沿用目录官方入口「電気系工学専攻」。本组件仅采用日文原题；重复英文版本不另行制作。Sample 水印原样保留，不清除、不遮挡。全题含 I、II 各部分及全部小问和附图，未拆成独立大题。原卷按 SHA-256 校验后缓存在仓外，主仓不保存原卷。"
+  },
+  "renderScale": 3,
+  "commonRegions": [],
+  "questions": [
+    {
+      "id": "utokyo-ee-2023-q1-q1",
+      "number": "問題 1",
+      "title": "同轴电容、线电流与磁能",
+      "titleKind": "editorial",
+      "topics": [
+        "同轴电容器",
+        "介质边界",
+        "磁矢势",
+        "磁能与电磁力"
+      ],
+      "summary": "中文标题与知识点仅作导航；作答以日文原题裁图为准。I、II 及全部关联小问合为原卷一道完整大题，跨页按原顺序保留。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            47,
+            76,
+            551,
+            730
+          ],
+          "label": "問題1：原卷第1页（I 部分）"
+        },
+        {
+          "page": 2,
+          "box": [
+            47,
+            69,
+            551,
+            723
+          ],
+          "label": "問題1：原卷第2页（II 部分）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review: each full source page compared with every generated preview crop",
+        "date": "2026-11-07",
+        "notes": "第1页問題1、I(1)–(7)、图1–2及图号；第2页II(1)–(5)、磁矢势积分上下限、图3与图4(a)(b)完整。初次预览图1–2图号不足，扩大首图下边到730pt后重新预览核对通过。逐张对照原页和预览核对首行、末行、小问、上下标、积分上下限、图与图号；未混入其他大题。水印原样保留，中文标题仅导航；答案未制作。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2023-q1-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2023-q1-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true
+    }
+  ]
+}

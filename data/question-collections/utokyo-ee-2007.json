@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2007",
+  "title": "東京大学 · 2007 年实施 · 電気系工学専攻",
+  "catalogId": "utokyo-ee-2007-08-28",
+  "components": [
+    {
+      "paperId": "utokyo-ee-2007-math",
+      "subject": "数学"
+    },
+    {
+      "paperId": "utokyo-ee-2007-phys",
+      "subject": "物理"
+    }
+  ],
+  "note": "同一目录组的分科原卷按既有多PDF合卷流程呈现；各题保持原文件的题号、物理页码、选答说明和来源链接，原题ID不改。专攻沿用目录「電気系工学専攻」，历史名称只在原卷来源说明保留；yearBasis=exam，不推断入学年度。数学取日文，物理只有英文正本，保留英文题面。水印保持原样，答案不做。"
+}

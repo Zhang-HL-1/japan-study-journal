@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2011-math",
+  "title": "东京大学 · 2011 年实施 · 数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-2011",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2011,
+    "yearBasis": "exam",
+    "subject": "数学",
+    "originalSubject": "数学",
+    "originalName": "057fedf3654d1e76bbe940809f76aecdede8b8a3adee0c10336c563b8aef3fb3_c920.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8f19df0dc59827eef33a04ade5ab94ec752954398236e7b00f741cda73687363.pdf",
+    "sha256": "8f19df0dc59827eef33a04ade5ab94ec752954398236e7b00f741cda73687363",
+    "pageCount": 9,
+    "note": "用户提供的东京大学电气系过去问原卷，PDF字节原样保存。封面印「平成24年度」「大学院入学試験問題」「数学」「午後1：00～3：30」，并写明6问中任选3问。封面未印公历实施日，也未印大学名与専攻名。实施年2011由用户确认，卷面未印该公历年。paperYear 与 examYear 用用户确认的实施年 2011，yearBasis 为 exam，yearEvidence 为 user-confirmed。不把封面的平成24年度写成实施日，不编 examDates，不写 admissionYears。不并入 open_inshi 的 fy2012 样本组。目录 department 按用户指定为「電気系工学専攻」。从第1页封面打开。无解答。 本逐题批次按完整大题保留全部小问与跨页配图。日英重复只收日文，只有英文原件的2007物理采用英文；水印及原页标注原样保留，不做清理或重绘。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/utokyo-ee-2011-math/common-01.png",
+      "page": 1,
+      "box": [
+        74,
+        67,
+        529,
+        790
+      ],
+      "width": 1365,
+      "height": 2169,
+      "label": "原卷封面、考试时间与选题作答说明",
+      "sha256": "bcbabc1ff52bfef82e1797abe9f9a5ec8db10648cc16d1015200c3498a4bc3c5"
+    }
+  ],
+  "questions": [
+    {
+      "id": "utokyo-ee-2011-math-q1",
+      "number": "第1問",
+      "title": "微分方程与变分法",
+      "titleKind": "editorial",
+      "topics": [
+        "微分方程"
+      ],
+      "summary": "保留原卷 第1問 的全部小问、条件和配图；PDF物理页为 2。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：2。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2011-math/utokyo-ee-2011-math-q1-01.png",
+          "page": 2,
+          "box": [
+            77,
+            66,
+            517,
+            572
+          ],
+          "width": 1320,
+          "height": 1518,
+          "label": "第1問 · PDF 第 2 页",
+          "sha256": "f48240a0fa91f2b48480139b260606040b643ab37c45dd52c3270d59535b0652"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2011-math-q2",
+      "number": "第2問",
+      "title": "矩阵特征值与幂",
+      "titleKind": "editorial",
+      "topics": [
+        "矩阵特征值"
+      ],
+      "summary": "保留原卷 第2問 的全部小问、条件和配图；PDF物理页为 3。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2011-math/utokyo-ee-2011-math-q2-01.png",
+          "page": 3,
+          "box": [
+            77,
+            66,
+            516,
+            518
+          ],
+          "width": 1317,
+          "height": 1356,
+          "label": "第2問 · PDF 第 3 页",
+          "sha256": "4aaa29e63c523457a1f0dd08e005f73de3206b807777550074b33d51bebba1f2"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2011-math-q3",
+      "number": "第3問",
+      "title": "复变映射与积分表示",
+      "titleKind": "editorial",
+      "topics": [
+        "复变映射"
+      ],
+      "summary": "保留原卷 第3問 的全部小问、条件和配图；PDF物理页为 4、5。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：4,5。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2011-math/utokyo-ee-2011-math-q3-01.png",
+          "page": 4,
+          "box": [
+            77,
+            66,
+            528,
+            641
+          ],
+          "width": 1353,
+          "height": 1725,
+          "label": "第3問 · PDF 第 4 页",
+          "sha256": "ecb8883f3490c8d2ed6e77e5d9c65642c12625685c8acd5d07533c03b49e5215"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2011-math/utokyo-ee-2011-math-q3-02.png",
+          "page": 5,
+          "box": [
+            77,
+            66,
+            502,
+            186
+          ],
+          "width": 1275,
+          "height": 360,
+          "label": "第3問 · PDF 第 5 页（续页／附图）",
+          "sha256": "f4f0ef755af4734943fb83b5d88ae188b8526f8658f05a8dbe5e3d771ca1b9cf"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2011-math-q4",
+      "number": "第4問",
+      "title": "圆柱交集的体积与表面积",
+      "titleKind": "editorial",
+      "topics": [
+        "圆柱交集的体积"
+      ],
+      "summary": "保留原卷 第4問 的全部小问、条件和配图；PDF物理页为 6。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：6。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2011-math/utokyo-ee-2011-math-q4-01.png",
+          "page": 6,
+          "box": [
+            77,
+            83,
+            517,
+            428
+          ],
+          "width": 1320,
+          "height": 1035,
+          "label": "第4問 · PDF 第 6 页",
+          "sha256": "f16b28929c5da1a776949e9c4372f0f78b99fca0e88bf47c1eba84a0d442cebf"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2011-math-q5",
+      "number": "第5問",
+      "title": "傅里叶变换与频域积分",
+      "titleKind": "editorial",
+      "topics": [
+        "傅里叶变换"
+      ],
+      "summary": "保留原卷 第5問 的全部小问、条件和配图；PDF物理页为 7。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：7。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2011-math/utokyo-ee-2011-math-q5-01.png",
+          "page": 7,
+          "box": [
+            77,
+            65,
+            517,
+            686
+          ],
+          "width": 1320,
+          "height": 1863,
+          "label": "第5問 · PDF 第 7 页",
+          "sha256": "e5cb340ea3caee4d2c7c1d7616c1cc4478c2dd7ceea7ba3517b855cf1d1f4bfd"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2011-math-q6",
+      "number": "第6問",
+      "title": "随机游走与完全图",
+      "titleKind": "editorial",
+      "topics": [
+        "随机游走"
+      ],
+      "summary": "保留原卷 第6問 的全部小问、条件和配图；PDF物理页为 8、9。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：8,9。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2011-math/utokyo-ee-2011-math-q6-01.png",
+          "page": 8,
+          "box": [
+            77,
+            66,
+            522,
+            670
+          ],
+          "width": 1335,
+          "height": 1812,
+          "label": "第6問 · PDF 第 8 页",
+          "sha256": "0862937d7846d77aef7a0a891a37a2f0bc60bc420dc4024564aed2a14ace4748"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2011-math/utokyo-ee-2011-math-q6-02.png",
+          "page": 9,
+          "box": [
+            112,
+            67,
+            517,
+            345
+          ],
+          "width": 1215,
+          "height": 834,
+          "label": "第6問 · PDF 第 9 页（续页／附图）",
+          "sha256": "a47b0f911e63628cdd66d52f7c524a8cf4b168365585a2fbd691450167657c6f"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面及公共作答说明，不计为大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2011-math-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2011-math-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "utokyo-ee-2011-math-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "utokyo-ee-2011-math-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "utokyo-ee-2011-math-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "utokyo-ee-2011-math-q5"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "utokyo-ee-2011-math-q6"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "utokyo-ee-2011-math-q6"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 2,
+  "id": "utokyo-ee-2021",
+  "title": "東京大学 · 2021 实施年 · 電気系工学専攻",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-fy2021",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2021,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "Problem 1・Problem 2・Problem 3・Problem 4・Problem 5・Problem 6",
+    "note": "同次考试六道完整大题按既有多PDF合卷流程接入，题图仍来自各自原PDF；专攻沿用目录「電気系工学専攻」，年度沿用yearBasis=exam，不推算入学年。英文为完整正本，另两页参考和译只是部分句子与术语，非完整日文试题，不重复收录。水印保持原样；不提供语言切换或答案。",
+    "subjects": [
+      "电磁学",
+      "电路",
+      "信息与信号",
+      "信息与逻辑电路",
+      "物理",
+      "控制"
+    ],
+    "files": [
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2021",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2021,
+        "yearBasis": "exam",
+        "subject": "电磁学",
+        "originalSubject": "Problem 1",
+        "originalName": "fy2021_s_en_1.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/6236b840c4c30bb37522073619542187e2ebbd0b8ca8866649e5b2e29bf4f06c.pdf",
+        "sha256": "6236b840c4c30bb37522073619542187e2ebbd0b8ca8866649e5b2e29bf4f06c",
+        "pageCount": 3,
+        "note": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2021 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2021，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。英文 Problem 1至 Problem 6 分页为正规问题，各从该 PDF 第1页打开。和文 PDF 页眉为 Japanese translations（参考和訳），并印「英文版を正規とする。本資料は受験者のための参考資料」。它不是完整日文试题，也不是解答。fy2020 没有对应文件，不补。 本逐题卷使用完整英文正本；另附两页参考和译仅为片段及术语释义，不是完整日文题面，不作为重复题收录。Sample水印原样保留。",
+        "id": "utokyo-ee-2021-q1",
+        "displaySubject": "电磁学"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2021",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2021,
+        "yearBasis": "exam",
+        "subject": "电路",
+        "originalSubject": "Problem 2",
+        "originalName": "fy2021_s_en_2.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/b057780323fd49d3ed7de938e17463acd72d3df4794bc06668b770b0d0055b5d.pdf",
+        "sha256": "b057780323fd49d3ed7de938e17463acd72d3df4794bc06668b770b0d0055b5d",
+        "pageCount": 3,
+        "note": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2021 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2021，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。英文 Problem 1至 Problem 6 分页为正规问题，各从该 PDF 第1页打开。和文 PDF 页眉为 Japanese translations（参考和訳），并印「英文版を正規とする。本資料は受験者のための参考資料」。它不是完整日文试题，也不是解答。fy2020 没有对应文件，不补。 本逐题卷使用完整英文正本；另附两页参考和译仅为片段及术语释义，不是完整日文题面，不作为重复题收录。Sample水印原样保留。",
+        "id": "utokyo-ee-2021-q2",
+        "displaySubject": "电路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2021",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2021,
+        "yearBasis": "exam",
+        "subject": "信息与信号",
+        "originalSubject": "Problem 3",
+        "originalName": "fy2021_s_en_3.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/f8738acb914633b856aab0d4532181ee3f309e700b0d284cea23b0bfaf6014f3.pdf",
+        "sha256": "f8738acb914633b856aab0d4532181ee3f309e700b0d284cea23b0bfaf6014f3",
+        "pageCount": 2,
+        "note": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2021 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2021，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。英文 Problem 1至 Problem 6 分页为正规问题，各从该 PDF 第1页打开。和文 PDF 页眉为 Japanese translations（参考和訳），并印「英文版を正規とする。本資料は受験者のための参考資料」。它不是完整日文试题，也不是解答。fy2020 没有对应文件，不补。 本逐题卷使用完整英文正本；另附两页参考和译仅为片段及术语释义，不是完整日文题面，不作为重复题收录。Sample水印原样保留。",
+        "id": "utokyo-ee-2021-q3",
+        "displaySubject": "信息与信号"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2021",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2021,
+        "yearBasis": "exam",
+        "subject": "信息与逻辑电路",
+        "originalSubject": "Problem 4",
+        "originalName": "fy2021_s_en_4.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419.pdf",
+        "sha256": "8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419",
+        "pageCount": 2,
+        "note": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2021 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2021，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。英文 Problem 1至 Problem 6 分页为正规问题，各从该 PDF 第1页打开。和文 PDF 页眉为 Japanese translations（参考和訳），并印「英文版を正規とする。本資料は受験者のための参考資料」。它不是完整日文试题，也不是解答。fy2020 没有对应文件，不补。 本逐题卷使用完整英文正本；另附两页参考和译仅为片段及术语释义，不是完整日文题面，不作为重复题收录。Sample水印原样保留。",
+        "id": "utokyo-ee-2021-q4",
+        "displaySubject": "信息与逻辑电路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2021",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2021,
+        "yearBasis": "exam",
+        "subject": "物理",
+        "originalSubject": "Problem 5",
+        "originalName": "fy2021_s_en_5.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/5ba8b79a68e348ca66f2b3ed1c925d0ecffa5636bbac969db14d4a8050b8161a.pdf",
+        "sha256": "5ba8b79a68e348ca66f2b3ed1c925d0ecffa5636bbac969db14d4a8050b8161a",
+        "pageCount": 2,
+        "note": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2021 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2021，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。英文 Problem 1至 Problem 6 分页为正规问题，各从该 PDF 第1页打开。和文 PDF 页眉为 Japanese translations（参考和訳），并印「英文版を正規とする。本資料は受験者のための参考資料」。它不是完整日文试题，也不是解答。fy2020 没有对应文件，不补。 本逐题卷使用完整英文正本；另附两页参考和译仅为片段及术语释义，不是完整日文题面，不作为重复题收录。Sample水印原样保留。",
+        "id": "utokyo-ee-2021-q5",
+        "displaySubject": "物理"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2021",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2021,
+        "yearBasis": "exam",
+        "subject": "控制",
+        "originalSubject": "Problem 6",
+        "originalName": "fy2021_s_en_6.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/bcd2862e37f43adf80c503093fae7b1adb1d572b765bfd741f3be7087deb0c6a.pdf",
+        "sha256": "bcd2862e37f43adf80c503093fae7b1adb1d572b765bfd741f3be7087deb0c6a",
+        "pageCount": 2,
+        "note": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2021 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2021，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。英文 Problem 1至 Problem 6 分页为正规问题，各从该 PDF 第1页打开。和文 PDF 页眉为 Japanese translations（参考和訳），并印「英文版を正規とする。本資料は受験者のための参考資料」。它不是完整日文试题，也不是解答。fy2020 没有对应文件，不补。 本逐题卷使用完整英文正本；另附两页参考和译仅为片段及术语释义，不是完整日文题面，不作为重复题收录。Sample水印原样保留。",
+        "id": "utokyo-ee-2021-q6",
+        "displaySubject": "控制"
+      }
+    ]
+  },
+  "components": [
+    {
+      "paperId": "utokyo-ee-2021-q1",
+      "subject": "电磁学"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q2",
+      "subject": "电路"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q3",
+      "subject": "信息与信号"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q4",
+      "subject": "信息与逻辑电路"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q5",
+      "subject": "物理"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q6",
+      "subject": "控制"
+    }
+  ],
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "utokyo-ee-2021-q1-problem-1",
+      "number": "Problem 1",
+      "title": "电磁学：介质电容与平面电磁波",
+      "titleKind": "editorial",
+      "topics": [
+        "介质",
+        "电容",
+        "电磁波"
+      ],
+      "summary": "I、II及所有小问、公式与附图合为原卷一道完整大题；中文标题仅供导航，作答以英文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q1/utokyo-ee-2021-q1-problem-1-01.png",
+          "page": 1,
+          "box": [
+            45,
+            40,
+            550,
+            730
+          ],
+          "width": 1515,
+          "height": 2070,
+          "label": "Problem 1：原卷第1页",
+          "sha256": "d6c2ade3af059c29d41354b4fdf14bbdbad986e04476a94e461bd3d88dc8adac",
+          "fileId": "utokyo-ee-2021-q1"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q1/utokyo-ee-2021-q1-problem-1-02.png",
+          "page": 2,
+          "box": [
+            45,
+            40,
+            550,
+            710
+          ],
+          "width": 1515,
+          "height": 2010,
+          "label": "Problem 1：原卷第2页（含续页及附图）",
+          "sha256": "88ae54706b1d6f2d7e6be3f0ad34c3b97404cfe716e64a86b5f1b1bad0dbb038",
+          "fileId": "utokyo-ee-2021-q1"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q1/utokyo-ee-2021-q1-problem-1-03.png",
+          "page": 3,
+          "box": [
+            45,
+            40,
+            550,
+            380
+          ],
+          "width": 1515,
+          "height": 1020,
+          "label": "Problem 1：原卷第3页（含续页及附图）",
+          "sha256": "f0ab4ad2c87bd77c77bf668af2158a81396c263c04c9dc341ae810af01c5fcdd",
+          "fileId": "utokyo-ee-2021-q1"
+        }
+      ],
+      "subject": "电磁学",
+      "sourceFileId": "utokyo-ee-2021-q1"
+    },
+    {
+      "id": "utokyo-ee-2021-q2-problem-2",
+      "number": "Problem 2",
+      "title": "电路：线性电路与场效应晶体管",
+      "titleKind": "editorial",
+      "topics": [
+        "线性电路",
+        "场效应晶体管"
+      ],
+      "summary": "I、II及所有小问、公式与附图合为原卷一道完整大题；中文标题仅供导航，作答以英文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q2/utokyo-ee-2021-q2-problem-2-01.png",
+          "page": 1,
+          "box": [
+            45,
+            40,
+            550,
+            730
+          ],
+          "width": 1515,
+          "height": 2070,
+          "label": "Problem 2：原卷第1页",
+          "sha256": "545519fb32b40659cbb69f2007e39b8072b2c3bd060863b840884dca24f696f2",
+          "fileId": "utokyo-ee-2021-q2"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q2/utokyo-ee-2021-q2-problem-2-02.png",
+          "page": 2,
+          "box": [
+            45,
+            40,
+            550,
+            740
+          ],
+          "width": 1515,
+          "height": 2100,
+          "label": "Problem 2：原卷第2页（含续页及附图）",
+          "sha256": "065e7e829b0077da740662496c1329371cb7d1ec27690283f1f36b15051ffaca",
+          "fileId": "utokyo-ee-2021-q2"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q2/utokyo-ee-2021-q2-problem-2-03.png",
+          "page": 3,
+          "box": [
+            45,
+            40,
+            550,
+            730
+          ],
+          "width": 1515,
+          "height": 2070,
+          "label": "Problem 2：原卷第3页（含续页及附图）",
+          "sha256": "b05f31f4ee0eeab8b2c836036a197dfdec83fcdcf8ef113bbafae0bf5461184a",
+          "fileId": "utokyo-ee-2021-q2"
+        }
+      ],
+      "subject": "电路",
+      "sourceFileId": "utokyo-ee-2021-q2"
+    },
+    {
+      "id": "utokyo-ee-2021-q3-problem-3",
+      "number": "Problem 3",
+      "title": "信息与信号：信息论与离散时间系统",
+      "titleKind": "editorial",
+      "topics": [
+        "信息论",
+        "信号处理"
+      ],
+      "summary": "I、II及所有小问、公式与附图合为原卷一道完整大题；中文标题仅供导航，作答以英文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q3/utokyo-ee-2021-q3-problem-3-01.png",
+          "page": 1,
+          "box": [
+            45,
+            40,
+            550,
+            565
+          ],
+          "width": 1515,
+          "height": 1575,
+          "label": "Problem 3：原卷第1页",
+          "sha256": "72fb1d87d1c07a33e081f433439a3dc3e680d25fd56426292b9d9ae5f16106b0",
+          "fileId": "utokyo-ee-2021-q3"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q3/utokyo-ee-2021-q3-problem-3-02.png",
+          "page": 2,
+          "box": [
+            45,
+            40,
+            550,
+            615
+          ],
+          "width": 1515,
+          "height": 1725,
+          "label": "Problem 3：原卷第2页（含续页及附图）",
+          "sha256": "c41c6a828678624ca09e2330694eed56642f1ff20bb79b32fe5baf25396587c0",
+          "fileId": "utokyo-ee-2021-q3"
+        }
+      ],
+      "subject": "信息与信号",
+      "sourceFileId": "utokyo-ee-2021-q3"
+    },
+    {
+      "id": "utokyo-ee-2021-q4-problem-4",
+      "number": "Problem 4",
+      "title": "信息与逻辑电路：时序电路与堆排序",
+      "titleKind": "editorial",
+      "topics": [
+        "时序电路",
+        "堆排序"
+      ],
+      "summary": "I、II及所有小问、公式与附图合为原卷一道完整大题；中文标题仅供导航，作答以英文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q4/utokyo-ee-2021-q4-problem-4-01.png",
+          "page": 1,
+          "box": [
+            45,
+            40,
+            550,
+            740
+          ],
+          "width": 1515,
+          "height": 2100,
+          "label": "Problem 4：原卷第1页",
+          "sha256": "948b492c4424044dbd739152e0d87216204eabab2cc314670a54deab03266e8d",
+          "fileId": "utokyo-ee-2021-q4"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q4/utokyo-ee-2021-q4-problem-4-02.png",
+          "page": 2,
+          "box": [
+            45,
+            40,
+            550,
+            755
+          ],
+          "width": 1515,
+          "height": 2145,
+          "label": "Problem 4：原卷第2页（含续页及附图）",
+          "sha256": "2a6ba16166934209c9188fc4123fdbabbe116939050ddec07ef94d5fca3f27bb",
+          "fileId": "utokyo-ee-2021-q4"
+        }
+      ],
+      "subject": "信息与逻辑电路",
+      "sourceFileId": "utokyo-ee-2021-q4"
+    },
+    {
+      "id": "utokyo-ee-2021-q5-problem-5",
+      "number": "Problem 5",
+      "title": "物理：量子势阶与半导体",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "半导体"
+      ],
+      "summary": "I、II及所有小问、公式与附图合为原卷一道完整大题；中文标题仅供导航，作答以英文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q5/utokyo-ee-2021-q5-problem-5-01.png",
+          "page": 1,
+          "box": [
+            45,
+            40,
+            550,
+            720
+          ],
+          "width": 1515,
+          "height": 2040,
+          "label": "Problem 5：原卷第1页",
+          "sha256": "785e71b9047ae78370e4e02d117a913f5b5ee5bc0e829bc317aad695023a20b0",
+          "fileId": "utokyo-ee-2021-q5"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q5/utokyo-ee-2021-q5-problem-5-02.png",
+          "page": 2,
+          "box": [
+            45,
+            40,
+            550,
+            720
+          ],
+          "width": 1515,
+          "height": 2040,
+          "label": "Problem 5：原卷第2页（含续页及附图）",
+          "sha256": "484cc3a373c600351d5d429ed2acdd2b5b8ae7cd0ef63a6ae10bb35b58b088e1",
+          "fileId": "utokyo-ee-2021-q5"
+        }
+      ],
+      "subject": "物理",
+      "sourceFileId": "utokyo-ee-2021-q5"
+    },
+    {
+      "id": "utokyo-ee-2021-q6-problem-6",
+      "number": "Problem 6",
+      "title": "控制：反馈控制与直流电机",
+      "titleKind": "editorial",
+      "topics": [
+        "反馈控制",
+        "直流电机"
+      ],
+      "summary": "I、II及所有小问、公式与附图合为原卷一道完整大题；中文标题仅供导航，作答以英文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q6/utokyo-ee-2021-q6-problem-6-01.png",
+          "page": 1,
+          "box": [
+            45,
+            40,
+            550,
+            635
+          ],
+          "width": 1515,
+          "height": 1785,
+          "label": "Problem 6：原卷第1页",
+          "sha256": "2115f3d82b6851aaf5172fbf441efebc76286a0f807ae5b3aa87d3f5dc7021e1",
+          "fileId": "utokyo-ee-2021-q6"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q6/utokyo-ee-2021-q6-problem-6-02.png",
+          "page": 2,
+          "box": [
+            45,
+            40,
+            550,
+            615
+          ],
+          "width": 1515,
+          "height": 1725,
+          "label": "Problem 6：原卷第2页（含续页及附图）",
+          "sha256": "420bf9f50ad1c7e30da32b295fa3ff26c8bb06175dda719c275a41aad9962270",
+          "fileId": "utokyo-ee-2021-q6"
+        }
+      ],
+      "subject": "控制",
+      "sourceFileId": "utokyo-ee-2021-q6"
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2021-q1-problem-1"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q1"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2021-q1-problem-1"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q1"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2021-q1-problem-1"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q1"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2021-q2-problem-2"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q2"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2021-q2-problem-2"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q2"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2021-q2-problem-2"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q2"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2021-q3-problem-3"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q3"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2021-q3-problem-3"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q3"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2021-q4-problem-4"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q4"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2021-q4-problem-4"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q4"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2021-q5-problem-5"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q5"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2021-q5-problem-5"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q5"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2021-q6-problem-6"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q6"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2021-q6-problem-6"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2021-q6"
+    }
+  ]
+}

@@ -282,7 +282,7 @@
       $('practice-paper-location').textContent = `${i+1} / ${files.length} 份原卷 · PDF ${f.pages} 页 · 从第 ${f.startPage || 1} 页打开${f.endPage ? '，至第 ' + f.endPage + ' 页' : ''}`;
       $('practice-paper-note').textContent = `${core.sourceLabel(q)}\n${f.originalName || f.label}\n原件可能含其他科目或年份，请按目录页码练习。\n目录科目：${q.paper.originalSubjects.join(' / ') || '未细分'}\n${q.paper.examDates.length ? '考试日期：' + q.paper.examDates.join(' / ') + '\n' : ''}${q.paper.sourceNote || '出处以原卷及过去问目录为准。'}`;
       $('practice-paper-actions').replaceChildren(link(f, '新窗口打开原卷 ↗'));
-      const download = link(f, '下载原卷 ↓'); download.download = f.originalName || 'past-paper.pdf'; $('practice-paper-actions').append(download);
+      const download = link(f, '下载原卷 ↓'); download.download = f.originalName || 'past-paper.pdf'; window.PastPapersCore.attachDownload(download, download.download); $('practice-paper-actions').append(download);
       const back = document.createElement('a'); back.href = 'past-papers.html?' + new URLSearchParams({school:q.paper.schoolId,paper:q.paper.catalogId}); back.textContent = '查看过去问目录 ↗'; back.className = 'plain-button'; $('practice-paper-actions').append(back);
       const frame = document.createElement('iframe'); frame.src = window.PastPapersCore.fileURL(f); frame.title = q.title + ' · ' + f.label;
       $('practice-paper-reader').replaceChildren(frame);

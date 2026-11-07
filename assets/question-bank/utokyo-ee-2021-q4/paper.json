@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2021-q4",
+  "title": "東京大学 · 2021 实施年 · Problem 4",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-fy2021",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2021,
+    "yearBasis": "exam",
+    "subject": "信息与逻辑电路",
+    "originalSubject": "Problem 4",
+    "originalName": "fy2021_s_en_4.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419.pdf",
+    "sha256": "8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419",
+    "pageCount": 2,
+    "note": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2021 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2021，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。英文 Problem 1至 Problem 6 分页为正规问题，各从该 PDF 第1页打开。和文 PDF 页眉为 Japanese translations（参考和訳），并印「英文版を正規とする。本資料は受験者のための参考資料」。它不是完整日文试题，也不是解答。fy2020 没有对应文件，不补。 本逐题卷使用完整英文正本；另附两页参考和译仅为片段及术语释义，不是完整日文题面，不作为重复题收录。Sample水印原样保留。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "utokyo-ee-2021-q4-problem-4",
+      "number": "Problem 4",
+      "title": "时序电路与堆排序",
+      "titleKind": "editorial",
+      "topics": [
+        "时序电路",
+        "堆排序"
+      ],
+      "summary": "I、II及所有小问、公式与附图合为原卷一道完整大题；中文标题仅供导航，作答以英文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q4/utokyo-ee-2021-q4-problem-4-01.png",
+          "page": 1,
+          "box": [
+            45,
+            40,
+            550,
+            740
+          ],
+          "width": 1515,
+          "height": 2100,
+          "label": "Problem 4：原卷第1页",
+          "sha256": "948b492c4424044dbd739152e0d87216204eabab2cc314670a54deab03266e8d"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2021-q4/utokyo-ee-2021-q4-problem-4-02.png",
+          "page": 2,
+          "box": [
+            45,
+            40,
+            550,
+            755
+          ],
+          "width": 1515,
+          "height": 2145,
+          "label": "Problem 4：原卷第2页（含续页及附图）",
+          "sha256": "2a6ba16166934209c9188fc4123fdbabbe116939050ddec07ef94d5fca3f27bb"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2021-q4-problem-4"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2021-q4-problem-4"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘；题面、公式、小问与附图全部保留，未处理水印。",
+      "reviewed": true
+    }
+  ]
+}

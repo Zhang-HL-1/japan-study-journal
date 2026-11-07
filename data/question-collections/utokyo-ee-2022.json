@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2022",
+  "title": "東京大学 · 2022 实施年 · 電気系工学専攻",
+  "catalogId": "utokyo-ee-fy2022",
+  "components": [
+    {
+      "paperId": "utokyo-ee-2022-q1",
+      "subject": "电磁学"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q2",
+      "subject": "电路与电子回路"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q3",
+      "subject": "信息论与信号处理"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q4",
+      "subject": "逻辑电路与程序设计"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q5",
+      "subject": "量子力学与半导体"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q6",
+      "subject": "控制与电力"
+    }
+  ],
+  "note": "同次考试六道完整大题按既有多PDF合卷流程接入，题图仍来自各自原PDF；专攻沿用目录「電気系工学専攻」，年度沿用yearBasis=exam，不推算入学年。日英重复题按用户要求仅收录日文版本。水印保持原样；不提供语言切换或答案。"
+}

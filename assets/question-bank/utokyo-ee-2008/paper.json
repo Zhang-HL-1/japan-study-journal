@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 2,
+  "id": "utokyo-ee-2008",
+  "title": "東京大学 · 2008 年实施 · 電気系工学専攻",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-2008",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2008,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "物理・情報・数学",
+    "note": "同一目录组的分科原卷按既有多PDF合卷流程呈现；各题保持原文件的题号、物理页码、选答说明和来源链接，原题ID不改。专攻沿用目录「電気系工学専攻」，历史名称只在原卷来源说明保留；yearBasis=exam，不推断入学年度。两份原卷均采用现有日文题面。水印保持原样，答案不做。",
+    "subjects": [
+      "物理・情報",
+      "数学"
+    ],
+    "files": [
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-2008",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2008,
+        "yearBasis": "exam",
+        "subject": "物理・情報",
+        "originalSubject": "物理・情報",
+        "originalName": "0ba048ebeaa24ae15d9e4c7da7fe086eb1c9f4251042812b2d2c924c037cb049_2126.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/f2680ead0593f4fea3e334872c0976283687faa1ed5767a085badaff95a1f0b7.pdf",
+        "sha256": "f2680ead0593f4fea3e334872c0976283687faa1ed5767a085badaff95a1f0b7",
+        "pageCount": 18,
+        "note": "用户提供的东京大学电气系过去问原卷，PDF字节原样保存。两册封面都印「東京大学大学院工学系研究科 電気系工学専攻 入試」。物理・情報封面印「平成２０年９月１日（月）１３時００分～１６時００分 実施」，12题中选4题。数学封面印「平成２０年９月２日（火）９時００分～１１時００分 実施」，5题中选2题。paperYear 与 examYear 用封面实施年 2008，yearBasis 为 exam，yearEvidence 为 cover，examDates 记 2008-09-01 与 2008-09-02。不写 admissionYears。同一年两场合成一组。目录 department 为「電気系工学専攻」。无解答。 本逐题批次按完整大题保留全部小问与跨页配图。日英重复只收日文，只有英文原件的2007物理采用英文；水印及原页标注原样保留，不做清理或重绘。",
+        "id": "utokyo-ee-2008-phys-info",
+        "displaySubject": "物理・情報"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-2008",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2008,
+        "yearBasis": "exam",
+        "subject": "数学",
+        "originalSubject": "数学",
+        "originalName": "29e9856b3e70311cf273a8f25e9def7663f1f90470b176272fa5b334b6f9651d_381e.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/d02bacda8e9116f2c9d502f0aac8ab66451b549c94595e000c1d8d99d7aa1058.pdf",
+        "sha256": "d02bacda8e9116f2c9d502f0aac8ab66451b549c94595e000c1d8d99d7aa1058",
+        "pageCount": 8,
+        "note": "用户提供的东京大学电气系过去问原卷，PDF字节原样保存。两册封面都印「東京大学大学院工学系研究科 電気系工学専攻 入試」。物理・情報封面印「平成２０年９月１日（月）１３時００分～１６時００分 実施」，12题中选4题。数学封面印「平成２０年９月２日（火）９時００分～１１時００分 実施」，5题中选2题。paperYear 与 examYear 用封面实施年 2008，yearBasis 为 exam，yearEvidence 为 cover，examDates 记 2008-09-01 与 2008-09-02。不写 admissionYears。同一年两场合成一组。目录 department 为「電気系工学専攻」。无解答。 本逐题批次按完整大题保留全部小问与跨页配图。日英重复只收日文，只有英文原件的2007物理采用英文；水印及原页标注原样保留，不做清理或重绘。",
+        "id": "utokyo-ee-2008-math",
+        "displaySubject": "数学"
+      }
+    ]
+  },
+  "components": [
+    {
+      "paperId": "utokyo-ee-2008-phys-info",
+      "subject": "物理・情報"
+    },
+    {
+      "paperId": "utokyo-ee-2008-math",
+      "subject": "数学"
+    }
+  ],
+  "commonParts": [
+    {
+      "src": "assets/question-bank/utokyo-ee-2008-phys-info/common-01.png",
+      "page": 1,
+      "box": [
+        55,
+        74,
+        539,
+        750
+      ],
+      "width": 1452,
+      "height": 2028,
+      "label": "原卷封面、考试时间与选题作答说明",
+      "sha256": "f1b26077bc9b493dd27c2e7b536fcc83228ceefaef9f258ca8892db62071ab51",
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "src": "assets/question-bank/utokyo-ee-2008-math/common-01.png",
+      "page": 1,
+      "box": [
+        55,
+        74,
+        539,
+        750
+      ],
+      "width": 1452,
+      "height": 2028,
+      "label": "原卷封面、考试时间与选题作答说明",
+      "sha256": "fff19978e7564a3067bfe2b959c4c3f9284559720b8b3b85c72e4e81144ac8bb",
+      "fileId": "utokyo-ee-2008-math"
+    }
+  ],
+  "questions": [
+    {
+      "id": "utokyo-ee-2008-phys-info-q1",
+      "number": "第1問",
+      "title": "物理・情報：杆与小球碰撞及转动",
+      "titleKind": "editorial",
+      "topics": [
+        "杆"
+      ],
+      "summary": "保留原卷 第1問 的全部小问、条件和配图；PDF物理页为 2。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：2。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q1-01.png",
+          "page": 2,
+          "box": [
+            64,
+            47,
+            537,
+            736
+          ],
+          "width": 1419,
+          "height": 2067,
+          "label": "第1問 · PDF 第 2 页",
+          "sha256": "4efad7e82b05eeb3f3093daa3bc70b55de542c3125b27b0d8349bd5a305d0c6e",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q2",
+      "number": "第2問",
+      "title": "物理・情報：介质板与电容器",
+      "titleKind": "editorial",
+      "topics": [
+        "介质板"
+      ],
+      "summary": "保留原卷 第2問 的全部小问、条件和配图；PDF物理页为 3。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q2-01.png",
+          "page": 3,
+          "box": [
+            77,
+            95,
+            518,
+            747
+          ],
+          "width": 1323,
+          "height": 1956,
+          "label": "第2問 · PDF 第 3 页",
+          "sha256": "43cbe6dfdca894d9c0523c3e71bb862d66c876e2f7deeedf9103c5df7013930b",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q3",
+      "number": "第3問",
+      "title": "物理・情報：旋转磁场与涡电流",
+      "titleKind": "editorial",
+      "topics": [
+        "旋转磁场"
+      ],
+      "summary": "保留原卷 第3問 的全部小问、条件和配图；PDF物理页为 4。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：4。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q3-01.png",
+          "page": 4,
+          "box": [
+            49,
+            53,
+            550,
+            680
+          ],
+          "width": 1503,
+          "height": 1881,
+          "label": "第3問 · PDF 第 4 页",
+          "sha256": "d333ca1c0e369ba6c12b49d30e623a769b5340b2ce28f9e554997cb7ce8d8060",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q4",
+      "number": "第4問",
+      "title": "物理・情報：双折射介质与偏振",
+      "titleKind": "editorial",
+      "topics": [
+        "双折射介质"
+      ],
+      "summary": "保留原卷 第4問 的全部小问、条件和配图；PDF物理页为 5、6。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：5,6。原件题号紧贴物理页顶，最终上边界设至物理页顶，题号完整保留。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q4-01.png",
+          "page": 5,
+          "box": [
+            64,
+            0,
+            536,
+            641
+          ],
+          "width": 1416,
+          "height": 1923,
+          "label": "第4問 · PDF 第 5 页",
+          "sha256": "8532ffafbad09f4fc3ad5ad043906d490c04535aa0e2874030cbf6ee4f6a15d6",
+          "fileId": "utokyo-ee-2008-phys-info"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q4-02.png",
+          "page": 6,
+          "box": [
+            166,
+            20,
+            427,
+            684
+          ],
+          "width": 783,
+          "height": 1992,
+          "label": "第4問 · PDF 第 6 页（续页／附图）",
+          "sha256": "bec07eb35181c0030f06016ae9a8fe426488a847e646a85e21abb19526dc9330",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q5",
+      "number": "第5問",
+      "title": "物理・情報：电容阻抗与交流电桥",
+      "titleKind": "editorial",
+      "topics": [
+        "电容阻抗"
+      ],
+      "summary": "保留原卷 第5問 的全部小问、条件和配图；PDF物理页为 7。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：7。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q5-01.png",
+          "page": 7,
+          "box": [
+            64,
+            47,
+            534,
+            729
+          ],
+          "width": 1410,
+          "height": 2046,
+          "label": "第5問 · PDF 第 7 页",
+          "sha256": "e6a9843a463a81fd68925fcd1326c86c5327926bc72fa0e921d4674d4aaac923",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q6",
+      "number": "第6問",
+      "title": "物理・情報：运算放大器与差分电路",
+      "titleKind": "editorial",
+      "topics": [
+        "运算放大器"
+      ],
+      "summary": "保留原卷 第6問 的全部小问、条件和配图；PDF物理页为 8、9。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：8,9。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q6-01.png",
+          "page": 8,
+          "box": [
+            77,
+            96,
+            518,
+            537
+          ],
+          "width": 1323,
+          "height": 1323,
+          "label": "第6問 · PDF 第 8 页",
+          "sha256": "17761cde04cace5516009ecc42daaf875ec7cff7f7367e5da2f803195760da5c",
+          "fileId": "utokyo-ee-2008-phys-info"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q6-02.png",
+          "page": 9,
+          "box": [
+            97,
+            118,
+            497,
+            626
+          ],
+          "width": 1200,
+          "height": 1524,
+          "label": "第6問 · PDF 第 9 页（续页／附图）",
+          "sha256": "88c526b95511d5bb1fd661907a27d1b6bcf97efc477d631f0759d6b41e2dbfbb",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q7",
+      "number": "第7問",
+      "title": "物理・情報：橡胶细绳与热力学",
+      "titleKind": "editorial",
+      "topics": [
+        "橡胶细绳"
+      ],
+      "summary": "保留原卷 第7問 的全部小问、条件和配图；PDF物理页为 10。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：10。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q7-01.png",
+          "page": 10,
+          "box": [
+            64,
+            47,
+            537,
+            755
+          ],
+          "width": 1419,
+          "height": 2124,
+          "label": "第7問 · PDF 第 10 页",
+          "sha256": "0af719d646bd468c9a97de1cc3dab86c45c1741c03c38a1dc38fe08b83fb6ef6",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q8",
+      "number": "第8問",
+      "title": "物理・情報：自由电子与介电响应",
+      "titleKind": "editorial",
+      "topics": [
+        "自由电子"
+      ],
+      "summary": "保留原卷 第8問 的全部小问、条件和配图；PDF物理页为 11。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：11。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q8-01.png",
+          "page": 11,
+          "box": [
+            77,
+            96,
+            518,
+            428
+          ],
+          "width": 1323,
+          "height": 996,
+          "label": "第8問 · PDF 第 11 页",
+          "sha256": "5669fc3cf226cad3677978c3fb51d4ea7e25bc8936071053508b8547e615a453",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q9",
+      "number": "第9問",
+      "title": "物理・情報：信息熵、编码与通信",
+      "titleKind": "editorial",
+      "topics": [
+        "信息熵、编码"
+      ],
+      "summary": "保留原卷 第9問 的全部小问、条件和配图；PDF物理页为 12。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：12。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q9-01.png",
+          "page": 12,
+          "box": [
+            64,
+            47,
+            533,
+            450
+          ],
+          "width": 1407,
+          "height": 1209,
+          "label": "第9問 · PDF 第 12 页",
+          "sha256": "c6ff842fcb6c4f1296e6f9f4f27c00c4a32e7a4d9691e1e30504aedb52ce3c78",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q10",
+      "number": "第10問",
+      "title": "物理・情報：CPU 结构与汇编程序",
+      "titleKind": "editorial",
+      "topics": [
+        "CPU 结构"
+      ],
+      "summary": "保留原卷 第10問 的全部小问、条件和配图；PDF物理页为 13、14。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：13,14。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q10-01.png",
+          "page": 13,
+          "box": [
+            64,
+            47,
+            533,
+            740
+          ],
+          "width": 1407,
+          "height": 2079,
+          "label": "第10問 · PDF 第 13 页",
+          "sha256": "6f0b627b0e061776de5ebc82427fce2975c36e0da6265d152fd64787715ea42e",
+          "fileId": "utokyo-ee-2008-phys-info"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q10-02.png",
+          "page": 14,
+          "box": [
+            73,
+            46,
+            534,
+            712
+          ],
+          "width": 1383,
+          "height": 1998,
+          "label": "第10問 · PDF 第 14 页（续页／附图）",
+          "sha256": "24917fccabe2cf3307532a504e8ee411e24a16c6b1eb70931395a278376a3dac",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q11",
+      "number": "第11問",
+      "title": "物理・情報：牛顿迭代与数值求根",
+      "titleKind": "editorial",
+      "topics": [
+        "牛顿迭代"
+      ],
+      "summary": "保留原卷 第11問 的全部小问、条件和配图；PDF物理页为 15、16。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：15,16。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q11-01.png",
+          "page": 15,
+          "box": [
+            64,
+            46,
+            534,
+            746
+          ],
+          "width": 1410,
+          "height": 2100,
+          "label": "第11問 · PDF 第 15 页",
+          "sha256": "58f94aa1e584df52ed6385ade1756470cc80be6be9009300a2e984eb374e39f1",
+          "fileId": "utokyo-ee-2008-phys-info"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q11-02.png",
+          "page": 16,
+          "box": [
+            73,
+            46,
+            534,
+            290
+          ],
+          "width": 1383,
+          "height": 732,
+          "label": "第11問 · PDF 第 16 页（续页／附图）",
+          "sha256": "a77bb54a5cb53c487649420e2c000b11707be2c581fa64adb42224e81cabb4c6",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-phys-info-q12",
+      "number": "第12問",
+      "title": "物理・情報：采样、傅里叶变换与窗函数",
+      "titleKind": "editorial",
+      "topics": [
+        "采样、傅里叶变换"
+      ],
+      "summary": "保留原卷 第12問 的全部小问、条件和配图；PDF物理页为 17、18。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：17,18。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q12-01.png",
+          "page": 17,
+          "box": [
+            64,
+            46,
+            533,
+            717
+          ],
+          "width": 1407,
+          "height": 2013,
+          "label": "第12問 · PDF 第 17 页",
+          "sha256": "6aa530ecdd8eda8ae0b0e7ec9f0cafc5ce782d39f75d65e930cc7a376814a645",
+          "fileId": "utokyo-ee-2008-phys-info"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-phys-info/utokyo-ee-2008-phys-info-q12-02.png",
+          "page": 18,
+          "box": [
+            64,
+            54,
+            534,
+            619
+          ],
+          "width": 1410,
+          "height": 1695,
+          "label": "第12問 · PDF 第 18 页（续页／附图）",
+          "sha256": "7d531dc73b9cae26d859cfaba55780bdb6ae31b316bde08645d03effad74f277",
+          "fileId": "utokyo-ee-2008-phys-info"
+        }
+      ],
+      "subject": "物理・情報",
+      "sourceFileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "id": "utokyo-ee-2008-math-q1",
+      "number": "第1問",
+      "title": "数学：二阶微分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "二阶微分方程"
+      ],
+      "summary": "保留原卷 第1問 的全部小问、条件和配图；PDF物理页为 2。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：2。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-math/utokyo-ee-2008-math-q1-01.png",
+          "page": 2,
+          "box": [
+            77,
+            103,
+            518,
+            548
+          ],
+          "width": 1323,
+          "height": 1335,
+          "label": "第1問 · PDF 第 2 页",
+          "sha256": "8f9e9aeb1a2337f327e60f585545e2d7a86cb6207bd5d67bcba0447b1546bce0",
+          "fileId": "utokyo-ee-2008-math"
+        }
+      ],
+      "subject": "数学",
+      "sourceFileId": "utokyo-ee-2008-math"
+    },
+    {
+      "id": "utokyo-ee-2008-math-q2",
+      "number": "第2問",
+      "title": "数学：二次曲线与矩阵变换",
+      "titleKind": "editorial",
+      "topics": [
+        "二次曲线"
+      ],
+      "summary": "保留原卷 第2問 的全部小问、条件和配图；PDF物理页为 3。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-math/utokyo-ee-2008-math-q2-01.png",
+          "page": 3,
+          "box": [
+            77,
+            121,
+            518,
+            607
+          ],
+          "width": 1323,
+          "height": 1458,
+          "label": "第2問 · PDF 第 3 页",
+          "sha256": "9d1bbafcfcb0685d0a3ca523a8965ea93b481828fa9892c75b053279976978c4",
+          "fileId": "utokyo-ee-2008-math"
+        }
+      ],
+      "subject": "数学",
+      "sourceFileId": "utokyo-ee-2008-math"
+    },
+    {
+      "id": "utokyo-ee-2008-math-q3",
+      "number": "第3問",
+      "title": "数学：复积分与高斯型积分",
+      "titleKind": "editorial",
+      "topics": [
+        "复积分"
+      ],
+      "summary": "保留原卷 第3問 的全部小问、条件和配图；PDF物理页为 4。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：4。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-math/utokyo-ee-2008-math-q3-01.png",
+          "page": 4,
+          "box": [
+            77,
+            103,
+            483,
+            639
+          ],
+          "width": 1218,
+          "height": 1608,
+          "label": "第3問 · PDF 第 4 页",
+          "sha256": "27ccd1469828b3758f1f7b5215025f48080fe5abe894538f09dc8c3003d50ed4",
+          "fileId": "utokyo-ee-2008-math"
+        }
+      ],
+      "subject": "数学",
+      "sourceFileId": "utokyo-ee-2008-math"
+    },
+    {
+      "id": "utokyo-ee-2008-math-q4",
+      "number": "第4問",
+      "title": "数学：集合关系与关系矩阵",
+      "titleKind": "editorial",
+      "topics": [
+        "集合关系"
+      ],
+      "summary": "保留原卷 第4問 的全部小问、条件和配图；PDF物理页为 5、6。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：5,6。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-math/utokyo-ee-2008-math-q4-01.png",
+          "page": 5,
+          "box": [
+            77,
+            103,
+            515,
+            752
+          ],
+          "width": 1314,
+          "height": 1947,
+          "label": "第4問 · PDF 第 5 页",
+          "sha256": "c6c41f3df4c63ce5d52dbbd35dca40b0a665eee7e7ec1c5e38bffa5b2f65b071",
+          "fileId": "utokyo-ee-2008-math"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-math/utokyo-ee-2008-math-q4-02.png",
+          "page": 6,
+          "box": [
+            79,
+            95,
+            513,
+            265
+          ],
+          "width": 1302,
+          "height": 510,
+          "label": "第4問 · PDF 第 6 页（续页／附图）",
+          "sha256": "25fa230be1fa74bf52ea56ce9d59c8ca6ca6b0ff84f41903d8ffd9d572bd0f36",
+          "fileId": "utokyo-ee-2008-math"
+        }
+      ],
+      "subject": "数学",
+      "sourceFileId": "utokyo-ee-2008-math"
+    },
+    {
+      "id": "utokyo-ee-2008-math-q5",
+      "number": "第5問",
+      "title": "数学：拓扑排序与关键路径",
+      "titleKind": "editorial",
+      "topics": [
+        "拓扑排序"
+      ],
+      "summary": "保留原卷 第5問 的全部小问、条件和配图；PDF物理页为 7、8。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：7,8。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-math/utokyo-ee-2008-math-q5-01.png",
+          "page": 7,
+          "box": [
+            68,
+            77,
+            538,
+            753
+          ],
+          "width": 1410,
+          "height": 2028,
+          "label": "第5問 · PDF 第 7 页",
+          "sha256": "841c46e249a4fd9e14b1b6347775b52484c18e77e12b615b41503a54ff6b24e2",
+          "fileId": "utokyo-ee-2008-math"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2008-math/utokyo-ee-2008-math-q5-02.png",
+          "page": 8,
+          "box": [
+            77,
+            84,
+            520,
+            706
+          ],
+          "width": 1329,
+          "height": 1866,
+          "label": "第5問 · PDF 第 8 页（续页／附图）",
+          "sha256": "a3724fcd8153b243f995a0b9b1b5d83b3b1bfd478b977aa3b25e6a5678f53ce6",
+          "fileId": "utokyo-ee-2008-math"
+        }
+      ],
+      "subject": "数学",
+      "sourceFileId": "utokyo-ee-2008-math"
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面及公共作答说明，不计为大题。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q5"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q6"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q6"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q7"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q8"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q9"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q10"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q10"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q11"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 16,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q11"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 17,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q12"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 18,
+      "questionIds": [
+        "utokyo-ee-2008-phys-info-q12"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-phys-info"
+    },
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面及公共作答说明，不计为大题。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-math"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2008-math-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-math"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2008-math-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-math"
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "utokyo-ee-2008-math-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-math"
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "utokyo-ee-2008-math-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-math"
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "utokyo-ee-2008-math-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-math"
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "utokyo-ee-2008-math-q5"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-math"
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "utokyo-ee-2008-math-q5"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2008-math"
+    }
+  ]
+}

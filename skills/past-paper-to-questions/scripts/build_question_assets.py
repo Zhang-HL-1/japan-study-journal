@@ -4,9 +4,12 @@ import argparse
 import hashlib
 import json
 import math
+import os
 from pathlib import Path
 import re
 import sys
+import tempfile
+from urllib.request import urlopen
 import fitz
 
 
@@ -15,6 +18,60 @@ def inside(root, relative):
     if not path.is_relative_to(root):
         raise ValueError('Path escapes repository: ' + str(relative))
     return path
+
+
+
+PDF_URL = re.compile(r'https://zhang-hl-1\.github\.io/japan-study-journal-papers-[12]/(?:tohoku|tus|science-tokyo|kyushu|hokkaido|keio|uec|sophia|osaka|utokyo|nagoya|kobe|waseda)/([a-f0-9]{64})\.pdf')
+
+
+def source_pdf(root, source):
+    """Resolve legacy local sources or fetch immutable hosted originals outside the repo."""
+    location, expected = source['pdf'], source['sha256']
+    if not isinstance(expected, str) or not re.fullmatch(r'[a-f0-9]{64}', expected):
+        raise ValueError('Invalid source SHA-256')
+    if not isinstance(location, str):
+        raise ValueError('Invalid source PDF location')
+    if '://' not in location:
+        path = inside(root, location)
+        if hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+            raise ValueError('Source SHA-256 mismatch; re-review before rebuilding')
+        return path
+    match = PDF_URL.fullmatch(location)
+    if not match or match.group(1) != expected:
+        raise ValueError('Source URL must be an approved papers-1/2 PDF matching SHA-256')
+    cache = Path(os.environ.get('QUESTION_PDF_CACHE', str(Path(tempfile.gettempdir()) / 'japan-study-journal-pdfs'))).expanduser().resolve()
+    if cache == root or cache.is_relative_to(root):
+        raise ValueError('PDF cache must be outside the repository')
+    cache.mkdir(parents=True, exist_ok=True)
+    path = cache / (expected + '.pdf')
+    if path.is_symlink():
+        raise ValueError('PDF cache entry must not be a symlink')
+    if path.exists():
+        if hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+            raise ValueError('Cached source SHA-256 mismatch; remove the corrupt cache entry')
+        return path
+    temporary = None
+    try:
+        with urlopen(location, timeout=60) as response:
+            if response.geturl() != location:
+                raise ValueError('Unexpected source PDF redirect')
+            digest = hashlib.sha256()
+            with tempfile.NamedTemporaryFile(dir=cache, prefix=expected + '.', suffix='.tmp', delete=False) as output:
+                temporary = Path(output.name)
+                while True:
+                    chunk = response.read(1024 * 1024)
+                    if not chunk:
+                        break
+                    digest.update(chunk)
+                    output.write(chunk)
+        if digest.hexdigest() != expected:
+            raise ValueError('Downloaded source SHA-256 mismatch')
+        temporary.replace(path)
+        temporary = None
+        return path
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
 def box_of(rect):
@@ -26,7 +83,7 @@ def nearly(rect, recorded, tolerance=0.2):
     return len(recorded) == 4 and all(abs(values[i] - float(recorded[i])) <= tolerance for i in range(4))
 
 
-def open_render_document(root, source, original):
+def open_render_document(root, source, original, referenced_pages=None):
     """Crop from an upright page. Rotated sources must name a derived PDF whose pixels match."""
     rotations = [page.rotation for page in original]
     normalization = source.get('normalization')
@@ -35,6 +92,11 @@ def open_render_document(root, source, original):
             raise ValueError('Normalization recorded for an unrotated source')
         return original
     if not normalization:
+        # Excluded pages remain covered by the source hash/page-count audit, but
+        # do not need a derived PDF when none of their pixels are being cropped.
+        used_pages = referenced_pages if referenced_pages is not None else range(1, len(original) + 1)
+        if not any(original[page - 1].rotation for page in used_pages):
+            return original
         raise ValueError('Rotated page: normalize a derived copy and re-review coordinates first')
     derived_path = inside(root, normalization['derivedPdf'])
     if hashlib.sha256(derived_path.read_bytes()).hexdigest() != normalization['derivedSha256']:
@@ -72,13 +134,13 @@ def build(root, manifest, check=False, preview_dir=None):
     if not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,100}', paper_id):
         raise ValueError('Invalid paper id')
     source = data['source']
-    pdf = inside(root, source['pdf'])
-    if hashlib.sha256(pdf.read_bytes()).hexdigest() != source['sha256']:
-        raise ValueError('Source SHA-256 mismatch; re-review before rebuilding')
+    pdf = source_pdf(root, source)
     original = fitz.open(pdf)
     if len(original) != source['pageCount']:
         raise ValueError('Source page count mismatch')
-    doc = open_render_document(root, source, original)
+    regions = list(data.get('commonRegions', [])) + [r for q in data['questions'] for r in q.get('regions', [])]
+    referenced_pages = {r.get('page') for r in regions if type(r.get('page')) is int and 1 <= r['page'] <= len(original)}
+    doc = open_render_document(root, source, original, referenced_pages)
     questions = data['questions']
     ids = [q['id'] for q in questions]
     if not ids or len(set(ids)) != len(ids):

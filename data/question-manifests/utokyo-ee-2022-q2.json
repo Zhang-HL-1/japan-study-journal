@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2022-q2",
+  "title": "東京大学 · 2022 实施年 · 問題2",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-fy2022",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2022,
+    "yearBasis": "exam",
+    "subject": "电路与电子回路",
+    "originalSubject": "問題2",
+    "originalName": "fy2022_s_ja_2.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be.pdf",
+    "sha256": "2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be",
+    "pageCount": 2,
+    "note": "沿用既有目录 utokyo-ee-fy2022：yearBasis=exam，2022 为文件来源标示的实施会计年度，不推算入学年或实施日。专攻沿用目录官方入口「電気系工学専攻」。本组件仅采用日文原题；重复英文版本不另行制作。Sample 水印原样保留，不清除、不遮挡。全题含 I、II 各部分及全部小问和附图，未拆成独立大题。原卷按 SHA-256 校验后缓存在仓外，主仓不保存原卷。"
+  },
+  "renderScale": 3,
+  "commonRegions": [],
+  "questions": [
+    {
+      "id": "utokyo-ee-2022-q2-q1",
+      "number": "問題 2",
+      "title": "传输线与 MOS 放大回路",
+      "titleKind": "editorial",
+      "topics": [
+        "传输线",
+        "特性阻抗",
+        "MOS 晶体管",
+        "频率响应"
+      ],
+      "summary": "中文标题与知识点仅作导航；作答以日文原题裁图为准。I、II 及全部关联小问合为原卷一道完整大题，跨页按原顺序保留。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            47,
+            76,
+            551,
+            700
+          ],
+          "label": "問題2：原卷第1页（I 部分）"
+        },
+        {
+          "page": 2,
+          "box": [
+            47,
+            69,
+            551,
+            754
+          ],
+          "label": "問題2：原卷第2页（II 部分）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review: each full source page compared with every generated preview crop",
+        "date": "2026-11-07",
+        "notes": "第1页問題2、I(1-i)–(1-iv)、(2-i)–(2-ii)、式(i)(ii)及图1–2；第2页II(1)–(6)、图3–5及完整凡例均在裁图中。逐张对照原页和预览核对首行、末行、小问、上下标、积分上下限、图与图号；未混入其他大题。水印原样保留，中文标题仅导航；答案未制作。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2022-q2-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2022-q2-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true
+    }
+  ]
+}

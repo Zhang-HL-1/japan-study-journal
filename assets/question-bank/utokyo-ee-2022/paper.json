@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 2,
+  "id": "utokyo-ee-2022",
+  "title": "東京大学 · 2022 实施年 · 電気系工学専攻",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-fy2022",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2022,
+    "yearBasis": "exam",
+    "subject": "专业科目合卷",
+    "originalSubject": "問題1・問題2・問題3・問題4・問題5・問題6",
+    "note": "同次考试六道完整大题按既有多PDF合卷流程接入，题图仍来自各自原PDF；专攻沿用目录「電気系工学専攻」，年度沿用yearBasis=exam，不推算入学年。日英重复题按用户要求仅收录日文版本。水印保持原样；不提供语言切换或答案。",
+    "subjects": [
+      "电磁学",
+      "电路与电子回路",
+      "信息论与信号处理",
+      "逻辑电路与程序设计",
+      "量子力学与半导体",
+      "控制与电力"
+    ],
+    "files": [
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2022",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2022,
+        "yearBasis": "exam",
+        "subject": "电磁学",
+        "originalSubject": "問題1",
+        "originalName": "fy2022_s_ja_1.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/715de229df55f0dcef9e7a07f82b2571a1abe530c9da0da22bd732b8f3f26a88.pdf",
+        "sha256": "715de229df55f0dcef9e7a07f82b2571a1abe530c9da0da22bd732b8f3f26a88",
+        "pageCount": 2,
+        "note": "沿用既有目录 utokyo-ee-fy2022：yearBasis=exam，2022 为文件来源标示的实施会计年度，不推算入学年或实施日。专攻沿用目录官方入口「電気系工学専攻」。本组件仅采用日文原题；重复英文版本不另行制作。Sample 水印原样保留，不清除、不遮挡。全题含 I、II 各部分及全部小问和附图，未拆成独立大题。原卷按 SHA-256 校验后缓存在仓外，主仓不保存原卷。",
+        "id": "utokyo-ee-2022-q1",
+        "displaySubject": "电磁学"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2022",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2022,
+        "yearBasis": "exam",
+        "subject": "电路与电子回路",
+        "originalSubject": "問題2",
+        "originalName": "fy2022_s_ja_2.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be.pdf",
+        "sha256": "2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be",
+        "pageCount": 2,
+        "note": "沿用既有目录 utokyo-ee-fy2022：yearBasis=exam，2022 为文件来源标示的实施会计年度，不推算入学年或实施日。专攻沿用目录官方入口「電気系工学専攻」。本组件仅采用日文原题；重复英文版本不另行制作。Sample 水印原样保留，不清除、不遮挡。全题含 I、II 各部分及全部小问和附图，未拆成独立大题。原卷按 SHA-256 校验后缓存在仓外，主仓不保存原卷。",
+        "id": "utokyo-ee-2022-q2",
+        "displaySubject": "电路与电子回路"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2022",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2022,
+        "yearBasis": "exam",
+        "subject": "信息论与信号处理",
+        "originalSubject": "問題3",
+        "originalName": "fy2022_s_ja_3.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/293b0a1547494237746e51290181b2600c1b84d7c2ec8eddcdbdaed087d0b575.pdf",
+        "sha256": "293b0a1547494237746e51290181b2600c1b84d7c2ec8eddcdbdaed087d0b575",
+        "pageCount": 2,
+        "note": "沿用既有目录 utokyo-ee-fy2022：yearBasis=exam，2022 为文件来源标示的实施会计年度，不推算入学年或实施日。专攻沿用目录官方入口「電気系工学専攻」。本组件仅采用日文原题；重复英文版本不另行制作。Sample 水印原样保留，不清除、不遮挡。全题含 I、II 各部分及全部小问和附图，未拆成独立大题。原卷按 SHA-256 校验后缓存在仓外，主仓不保存原卷。",
+        "id": "utokyo-ee-2022-q3",
+        "displaySubject": "信息论与信号处理"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2022",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2022,
+        "yearBasis": "exam",
+        "subject": "逻辑电路与程序设计",
+        "originalSubject": "問題4",
+        "originalName": "fy2022_s_ja_4.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871.pdf",
+        "sha256": "8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871",
+        "pageCount": 2,
+        "note": "沿用既有目录 utokyo-ee-fy2022：yearBasis=exam，2022 为文件来源标示的实施会计年度，不推算入学年或实施日。专攻沿用目录官方入口「電気系工学専攻」。本组件仅采用日文原题；重复英文版本不另行制作。Sample 水印原样保留，不清除、不遮挡。全题含 I、II 各部分及全部小问和附图，未拆成独立大题。原卷按 SHA-256 校验后缓存在仓外，主仓不保存原卷。",
+        "id": "utokyo-ee-2022-q4",
+        "displaySubject": "逻辑电路与程序设计"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2022",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2022,
+        "yearBasis": "exam",
+        "subject": "量子力学与半导体",
+        "originalSubject": "問題5",
+        "originalName": "fy2022_s_ja_5.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/3ac62a2a2280b3c38a4d37c3eea387b1146c21228f9c30488032f5f51881f348.pdf",
+        "sha256": "3ac62a2a2280b3c38a4d37c3eea387b1146c21228f9c30488032f5f51881f348",
+        "pageCount": 3,
+        "note": "沿用既有目录 utokyo-ee-fy2022：yearBasis=exam，2022 为文件来源标示的实施会计年度，不推算入学年或实施日。专攻沿用目录官方入口「電気系工学専攻」。本组件仅采用日文原题；重复英文版本不另行制作。Sample 水印原样保留，不清除、不遮挡。全题含 I、II 各部分及全部小问和附图，未拆成独立大题。原卷按 SHA-256 校验后缓存在仓外，主仓不保存原卷。",
+        "id": "utokyo-ee-2022-q5",
+        "displaySubject": "量子力学与半导体"
+      },
+      {
+        "kind": "exam",
+        "catalogId": "utokyo-ee-fy2022",
+        "schoolId": "utokyo",
+        "school": "東京大学",
+        "graduate": "工学系研究科",
+        "major": "電気系工学専攻",
+        "year": 2022,
+        "yearBasis": "exam",
+        "subject": "控制与电力",
+        "originalSubject": "問題6",
+        "originalName": "fy2022_s_ja_6.pdf",
+        "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/040c757b4171e015f76d66f586e7209c467e7f68f5f3733bf1315e0463fcb324.pdf",
+        "sha256": "040c757b4171e015f76d66f586e7209c467e7f68f5f3733bf1315e0463fcb324",
+        "pageCount": 2,
+        "note": "沿用既有目录 utokyo-ee-fy2022：yearBasis=exam，2022 为文件来源标示的实施会计年度，不推算入学年或实施日。专攻沿用目录官方入口「電気系工学専攻」。本组件仅采用日文原题；重复英文版本不另行制作。Sample 水印原样保留，不清除、不遮挡。全题含 I、II 各部分及全部小问和附图，未拆成独立大题。原卷按 SHA-256 校验后缓存在仓外，主仓不保存原卷。",
+        "id": "utokyo-ee-2022-q6",
+        "displaySubject": "控制与电力"
+      }
+    ]
+  },
+  "components": [
+    {
+      "paperId": "utokyo-ee-2022-q1",
+      "subject": "电磁学"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q2",
+      "subject": "电路与电子回路"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q3",
+      "subject": "信息论与信号处理"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q4",
+      "subject": "逻辑电路与程序设计"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q5",
+      "subject": "量子力学与半导体"
+    },
+    {
+      "paperId": "utokyo-ee-2022-q6",
+      "subject": "控制与电力"
+    }
+  ],
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "utokyo-ee-2022-q1-q1",
+      "number": "問題 1",
+      "title": "电磁学：点线电荷、导体电流与电磁能量",
+      "titleKind": "editorial",
+      "topics": [
+        "电场与电位",
+        "带电粒子运动",
+        "磁场",
+        "坡印廷矢量"
+      ],
+      "summary": "中文标题与知识点仅作导航；作答以日文原题裁图为准。I、II 及全部关联小问合为原卷一道完整大题，跨页按原顺序保留。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review: each full source page compared with every generated preview crop",
+        "date": "2026-11-07",
+        "notes": "第1页問題1、I(1)–(4)、式(i)与图1–3；第2页II(1)–(6)、坡印廷矢量与图4–5均完整。逐张对照原页和预览核对首行、末行、小问、上下标、积分上下限、图与图号；未混入其他大题。水印原样保留，中文标题仅导航；答案未制作。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q1/utokyo-ee-2022-q1-q1-01.png",
+          "page": 1,
+          "box": [
+            47,
+            76,
+            551,
+            635
+          ],
+          "width": 1512,
+          "height": 1677,
+          "label": "問題1：原卷第1页（I 部分）",
+          "sha256": "668deb798ac0043edbae87350eba8fb8fad42ab71ad1d045a2ccee7dc044cc2c",
+          "fileId": "utokyo-ee-2022-q1"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q1/utokyo-ee-2022-q1-q1-02.png",
+          "page": 2,
+          "box": [
+            47,
+            69,
+            551,
+            651
+          ],
+          "width": 1512,
+          "height": 1746,
+          "label": "問題1：原卷第2页（II 部分）",
+          "sha256": "50236d6ca8e9613e4c9e42b79369d5cee59be46f78f4f001c6347cbf5cc93419",
+          "fileId": "utokyo-ee-2022-q1"
+        }
+      ],
+      "subject": "电磁学",
+      "sourceFileId": "utokyo-ee-2022-q1"
+    },
+    {
+      "id": "utokyo-ee-2022-q2-q1",
+      "number": "問題 2",
+      "title": "电路与电子回路：传输线与 MOS 放大回路",
+      "titleKind": "editorial",
+      "topics": [
+        "传输线",
+        "特性阻抗",
+        "MOS 晶体管",
+        "频率响应"
+      ],
+      "summary": "中文标题与知识点仅作导航；作答以日文原题裁图为准。I、II 及全部关联小问合为原卷一道完整大题，跨页按原顺序保留。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review: each full source page compared with every generated preview crop",
+        "date": "2026-11-07",
+        "notes": "第1页問題2、I(1-i)–(1-iv)、(2-i)–(2-ii)、式(i)(ii)及图1–2；第2页II(1)–(6)、图3–5及完整凡例均在裁图中。逐张对照原页和预览核对首行、末行、小问、上下标、积分上下限、图与图号；未混入其他大题。水印原样保留，中文标题仅导航；答案未制作。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q2/utokyo-ee-2022-q2-q1-01.png",
+          "page": 1,
+          "box": [
+            47,
+            76,
+            551,
+            700
+          ],
+          "width": 1512,
+          "height": 1872,
+          "label": "問題2：原卷第1页（I 部分）",
+          "sha256": "e600033fb3e407994e9a49775b96383c6029c855a6f81676ff5c367a8955d841",
+          "fileId": "utokyo-ee-2022-q2"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q2/utokyo-ee-2022-q2-q1-02.png",
+          "page": 2,
+          "box": [
+            47,
+            69,
+            551,
+            754
+          ],
+          "width": 1512,
+          "height": 2055,
+          "label": "問題2：原卷第2页（II 部分）",
+          "sha256": "b28a4f50aaaa7015ecd67d467e19c7c81b371b4e1f9310fa0fc711ef60651ae1",
+          "fileId": "utokyo-ee-2022-q2"
+        }
+      ],
+      "subject": "电路与电子回路",
+      "sourceFileId": "utokyo-ee-2022-q2"
+    },
+    {
+      "id": "utokyo-ee-2022-q3-q1",
+      "number": "問題 3",
+      "title": "信息论与信号处理：信息量、信道与傅里叶变换",
+      "titleKind": "editorial",
+      "topics": [
+        "熵",
+        "编码",
+        "互信息",
+        "傅里叶变换"
+      ],
+      "summary": "中文标题与知识点仅作导航；作答以日文原题裁图为准。I、II 及全部关联小问合为原卷一道完整大题，跨页按原顺序保留。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review: each full source page compared with every generated preview crop",
+        "date": "2026-11-07",
+        "notes": "第1页問題3、I(1)–(4)及信息源、信道全部条件；第2页II(1)–(7)、傅里叶变换与逆变换积分上下限、频带约束及末行说明均保留。逐张对照原页和预览核对首行、末行、小问、上下标、积分上下限、图与图号；未混入其他大题。水印原样保留，中文标题仅导航；答案未制作。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q3/utokyo-ee-2022-q3-q1-01.png",
+          "page": 1,
+          "box": [
+            47,
+            76,
+            551,
+            561
+          ],
+          "width": 1512,
+          "height": 1455,
+          "label": "問題3：原卷第1页（I 部分）",
+          "sha256": "eda1d31d486081ca75e81a96f596bd09736684b4b0cd52f0af8dc67afa9dc8bf",
+          "fileId": "utokyo-ee-2022-q3"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q3/utokyo-ee-2022-q3-q1-02.png",
+          "page": 2,
+          "box": [
+            47,
+            69,
+            551,
+            635
+          ],
+          "width": 1512,
+          "height": 1698,
+          "label": "問題3：原卷第2页（II 部分）",
+          "sha256": "1c666aaaf991771045c2be5769e147acc2a26baeb426cd93b9fab4ec7949706c",
+          "fileId": "utokyo-ee-2022-q3"
+        }
+      ],
+      "subject": "信息论与信号处理",
+      "sourceFileId": "utokyo-ee-2022-q3"
+    },
+    {
+      "id": "utokyo-ee-2022-q4-q1",
+      "number": "問題 4",
+      "title": "逻辑电路与程序设计：加法乘法逻辑与二叉搜索树",
+      "titleKind": "editorial",
+      "topics": [
+        "组合逻辑",
+        "加法器",
+        "二叉搜索树",
+        "算法复杂度"
+      ],
+      "summary": "中文标题与知识点仅作导航；作答以日文原题裁图为准。I、II 及全部关联小问合为原卷一道完整大题，跨页按原顺序保留。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review: each full source page compared with every generated preview crop",
+        "date": "2026-11-07",
+        "notes": "第1页問題4、I(1-i)–(1-iii)、(2)、(3-i)–(3-ii)及图1–4；第2页II(1)–(6)、程序1–3全部代码框及图5二叉树均保留。逐张对照原页和预览核对首行、末行、小问、上下标、积分上下限、图与图号；未混入其他大题。水印原样保留，中文标题仅导航；答案未制作。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q4/utokyo-ee-2022-q4-q1-01.png",
+          "page": 1,
+          "box": [
+            47,
+            76,
+            551,
+            738
+          ],
+          "width": 1512,
+          "height": 1986,
+          "label": "問題4：原卷第1页（I 部分）",
+          "sha256": "a4bab24bd7837a9e7db18b484a4d0f53a1e2f5d773045afab2d0b9c7405a538b",
+          "fileId": "utokyo-ee-2022-q4"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q4/utokyo-ee-2022-q4-q1-02.png",
+          "page": 2,
+          "box": [
+            47,
+            69,
+            551,
+            770
+          ],
+          "width": 1512,
+          "height": 2103,
+          "label": "問題4：原卷第2页（II 部分）",
+          "sha256": "277c1c4edabff2e7c7760626486f761667aaadde251e0a5e7d47bc616b576759",
+          "fileId": "utokyo-ee-2022-q4"
+        }
+      ],
+      "subject": "逻辑电路与程序设计",
+      "sourceFileId": "utokyo-ee-2022-q4"
+    },
+    {
+      "id": "utokyo-ee-2022-q5-q1",
+      "number": "問題 5",
+      "title": "量子力学与半导体：势阱、波函数与半导体载流子",
+      "titleKind": "editorial",
+      "topics": [
+        "薛定谔方程",
+        "有限势阱",
+        "态密度",
+        "费米能级"
+      ],
+      "summary": "中文标题与知识点仅作导航；作答以日文原题裁图为准。I、II 及全部关联小问合为原卷一道完整大题，跨页按原顺序保留。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review: each full source page compared with every generated preview crop",
+        "date": "2026-11-07",
+        "notes": "第1页問題5、I(1)、(2-i)–(2-iii)及图1；第2页I(3-i)–(3-iv)与分段波函数；第3页II(1)–(5)、态密度与积分上下限均保留。I续页不拆题。逐张对照原页和预览核对首行、末行、小问、上下标、积分上下限、图与图号；未混入其他大题。水印原样保留，中文标题仅导航；答案未制作。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q5/utokyo-ee-2022-q5-q1-01.png",
+          "page": 1,
+          "box": [
+            47,
+            69,
+            551,
+            643
+          ],
+          "width": 1512,
+          "height": 1722,
+          "label": "問題5：原卷第1页（I 部分）",
+          "sha256": "2f5a526c19b0345a825780d9e6060a2b933f00d12697e8943fc44fdf1410f7ba",
+          "fileId": "utokyo-ee-2022-q5"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q5/utokyo-ee-2022-q5-q1-02.png",
+          "page": 2,
+          "box": [
+            47,
+            84,
+            551,
+            560
+          ],
+          "width": 1512,
+          "height": 1428,
+          "label": "問題5：I 部分第(3)问续页",
+          "sha256": "0b4f1af63c66aa1ec20afdf202fccd3b56ea7a6072f47a16527ad638851e02b1",
+          "fileId": "utokyo-ee-2022-q5"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q5/utokyo-ee-2022-q5-q1-03.png",
+          "page": 3,
+          "box": [
+            47,
+            80,
+            551,
+            560
+          ],
+          "width": 1512,
+          "height": 1440,
+          "label": "問題5：II 部分（半导体）",
+          "sha256": "196f6f0d2197f0fc0f56235c7383ef26d4275bc4aa15c31882517964c6c34f33",
+          "fileId": "utokyo-ee-2022-q5"
+        }
+      ],
+      "subject": "量子力学与半导体",
+      "sourceFileId": "utokyo-ee-2022-q5"
+    },
+    {
+      "id": "utokyo-ee-2022-q6-q1",
+      "number": "問題 6",
+      "title": "控制与电力：反馈控制与交流功率传输",
+      "titleKind": "editorial",
+      "topics": [
+        "反馈控制",
+        "传递函数",
+        "交流功率",
+        "功角特性"
+      ],
+      "summary": "中文标题与知识点仅作导航；作答以日文原题裁图为准。I、II 及全部关联小问合为原卷一道完整大题，跨页按原顺序保留。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review: each full source page compared with every generated preview crop",
+        "date": "2026-11-07",
+        "notes": "第1页問題6、I(1)–(6)、微分方程及图1–2反馈框图；第2页II(1)–(4)及图3电压源与电抗完整，末行完整。逐张对照原页和预览核对首行、末行、小问、上下标、积分上下限、图与图号；未混入其他大题。水印原样保留，中文标题仅导航；答案未制作。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q6/utokyo-ee-2022-q6-q1-01.png",
+          "page": 1,
+          "box": [
+            47,
+            76,
+            551,
+            743
+          ],
+          "width": 1512,
+          "height": 2001,
+          "label": "問題6：原卷第1页（I 部分）",
+          "sha256": "d3878729bd2056dad1bda0b0dd51ab2662590bd052a50c456cc9b4d8e94c3031",
+          "fileId": "utokyo-ee-2022-q6"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2022-q6/utokyo-ee-2022-q6-q1-02.png",
+          "page": 2,
+          "box": [
+            47,
+            69,
+            551,
+            560
+          ],
+          "width": 1512,
+          "height": 1473,
+          "label": "問題6：原卷第2页（II 部分）",
+          "sha256": "c4d7266a547d07a9fe69ce091ecb31c206a7f7bff87652cc1497d614d8cbbd63",
+          "fileId": "utokyo-ee-2022-q6"
+        }
+      ],
+      "subject": "控制与电力",
+      "sourceFileId": "utokyo-ee-2022-q6"
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2022-q1-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q1"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2022-q1-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q1"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2022-q2-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q2"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2022-q2-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q2"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2022-q3-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q3"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2022-q3-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q3"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2022-q4-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q4"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2022-q4-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q4"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2022-q5-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q5"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2022-q5-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q5"
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2022-q5-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q5"
+    },
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2022-q6-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q6"
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2022-q6-q1"
+      ],
+      "common": false,
+      "excluded": "仅排除空白页边及独立印刷页码；题干、公式、小问、图、图号与原样水印保留。",
+      "reviewed": true,
+      "fileId": "utokyo-ee-2022-q6"
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2016",
+  "title": "東京大学 · 2016 年实施 · 電気系工学専攻",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-fy2016",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2016,
+    "yearBasis": "exam",
+    "subject": "物理・情報",
+    "originalSubject": "問題1–4・A–F",
+    "originalName": "fy2016_s.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/01d992000f03dac3ab5fd2bb321310ff908f0122342bf8c46e99d87c9397789d.pdf",
+    "sha256": "01d992000f03dac3ab5fd2bb321310ff908f0122342bf8c46e99d87c9397789d",
+    "pageCount": 37,
+    "note": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2016 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2016，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为問題1至問題4以及問題A至問題F，每题后附英文 Problem。fy2020 没有对应文件，不补。 本次依用户要求仅纳入各大题日文版本，英文重复页明确排除；原有水印不做去除或修补，原件字节不改。顶部「2020年度以前の問題」是样例适用范围说明，不据此改写目录实施年。10道大题的题号1–4及A–F按原卷保留，小问不拆。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/utokyo-ee-2016/common-01.png",
+      "page": 1,
+      "box": [
+        65,
+        15,
+        560,
+        45
+      ],
+      "width": 1485,
+      "height": 90,
+      "label": "原卷样例提示：2020年度以前的问题与当前形式、分量、范围及难度不同",
+      "sha256": "66eb70ea86e66a4565ad4dacf89495200864413dccd54a01e5879fb2811ef28c"
+    }
+  ],
+  "questions": [
+    {
+      "id": "utokyo-ee-2016-q1",
+      "number": "問題 1",
+      "title": "圆形线圈、螺线管与互感",
+      "titleKind": "editorial",
+      "topics": [
+        "电磁学",
+        "互感"
+      ],
+      "summary": "完整保留原卷問題 1 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-q1-01.png",
+          "page": 1,
+          "box": [
+            55,
+            78,
+            570,
+            761
+          ],
+          "width": 1545,
+          "height": 2049,
+          "label": "問題 1：原卷第 1 页（按原顺序）",
+          "sha256": "352f505f09da501bea8163bd0c870b1719b8783447ad6a6289b020b0504107e7"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-q1-02.png",
+          "page": 2,
+          "box": [
+            55,
+            60,
+            570,
+            813
+          ],
+          "width": 1545,
+          "height": 2259,
+          "label": "問題 1：原卷第 2 页（按原顺序）",
+          "sha256": "952cbac45294b270e6c51ce23796c91ade5b5c297ae6038c24bef5122306d776"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2016-q2",
+      "number": "問題 2",
+      "title": "交流相量、功率因数与理想变压器",
+      "titleKind": "editorial",
+      "topics": [
+        "电路",
+        "交流功率"
+      ],
+      "summary": "完整保留原卷問題 2 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-q2-01.png",
+          "page": 5,
+          "box": [
+            55,
+            80,
+            570,
+            714
+          ],
+          "width": 1545,
+          "height": 1902,
+          "label": "問題 2：原卷第 5 页（按原顺序）",
+          "sha256": "492eed3d0a322744270e5297d12fcc68f4a40e876a507bbc0692e35a0a3542c6"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-q2-02.png",
+          "page": 6,
+          "box": [
+            55,
+            81,
+            570,
+            732
+          ],
+          "width": 1545,
+          "height": 1953,
+          "label": "問題 2：原卷第 6 页（按原顺序）",
+          "sha256": "ada54662c883bfe315d6298708fef03e3e0cf417c78084311df7b8ab7fd19c96"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2016-q3",
+      "number": "問題 3",
+      "title": "硬币试验的信息熵与相互信息",
+      "titleKind": "editorial",
+      "topics": [
+        "信息论",
+        "熵"
+      ],
+      "summary": "完整保留原卷問題 3 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-q3-01.png",
+          "page": 9,
+          "box": [
+            55,
+            76,
+            570,
+            794
+          ],
+          "width": 1545,
+          "height": 2154,
+          "label": "問題 3：原卷第 9 页（按原顺序）",
+          "sha256": "8c0b42acb4cb98aa68437880b3e3b2379e6433ed45be1bf542e1d7bc00b10150"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-q3-02.png",
+          "page": 10,
+          "box": [
+            55,
+            67,
+            570,
+            197
+          ],
+          "width": 1545,
+          "height": 390,
+          "label": "問題 3：原卷第 10 页（按原顺序）",
+          "sha256": "5e1e3246568d0bba424132f98a2315b52e4dc8024ee73293e7364136e32b08f1"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2016-q4",
+      "number": "問題 4",
+      "title": "背包问题与分支限界程序",
+      "titleKind": "editorial",
+      "topics": [
+        "算法",
+        "背包问题"
+      ],
+      "summary": "完整保留原卷問題 4 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-q4-01.png",
+          "page": 13,
+          "box": [
+            55,
+            78,
+            570,
+            770
+          ],
+          "width": 1545,
+          "height": 2076,
+          "label": "問題 4：原卷第 13 页（按原顺序）",
+          "sha256": "2b36b6a62f01a11c879c6e8de95d537d73c02c1882fcc8491a670f921ce96636"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-q4-02.png",
+          "page": 14,
+          "box": [
+            55,
+            81,
+            570,
+            400
+          ],
+          "width": 1545,
+          "height": 957,
+          "label": "問題 4：原卷第 14 页（按原顺序）",
+          "sha256": "d9ee181d3ce8a7ac7d71e75d601217654604609fae4b569f5bafe9256ed05ca5"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2016-qa",
+      "number": "問題 A",
+      "title": "组合逻辑函数的识别",
+      "titleKind": "editorial",
+      "topics": [
+        "数字电路",
+        "逻辑函数"
+      ],
+      "summary": "完整保留原卷問題 A 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qa-01.png",
+          "page": 17,
+          "box": [
+            55,
+            78,
+            570,
+            787
+          ],
+          "width": 1545,
+          "height": 2127,
+          "label": "問題 A：原卷第 17 页（按原顺序）",
+          "sha256": "af8084cc6da5f1abce12bf8aa1c7fd55a68c0537b196b4a4b43020558e6becfb"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qa-02.png",
+          "page": 18,
+          "box": [
+            55,
+            68,
+            570,
+            617
+          ],
+          "width": 1545,
+          "height": 1647,
+          "label": "問題 A：原卷第 18 页（按原顺序）",
+          "sha256": "59986cac813df06d9f4012174f4806193232bb5b9ab923c577bd30a89918714c"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2016-qb",
+      "number": "問題 B",
+      "title": "TCP 通信与拥塞检测",
+      "titleKind": "editorial",
+      "topics": [
+        "计算机网络",
+        "TCP"
+      ],
+      "summary": "完整保留原卷問題 B 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qb-01.png",
+          "page": 21,
+          "box": [
+            55,
+            81,
+            570,
+            784
+          ],
+          "width": 1545,
+          "height": 2109,
+          "label": "問題 B：原卷第 21 页（按原顺序）",
+          "sha256": "9c472c55d29f8ee79d87ee4c8645246ebf98a75c6376d798042a09f16738efbd"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qb-02.png",
+          "page": 22,
+          "box": [
+            55,
+            68,
+            570,
+            743
+          ],
+          "width": 1545,
+          "height": 2025,
+          "label": "問題 B：原卷第 22 页（按原顺序）",
+          "sha256": "12e010bdab0e8528cc1a47fd7573b0624965372cf5161548f4ec696639304ada"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2016-qc",
+      "number": "問題 C",
+      "title": "GaAs 晶体结构与表面能级",
+      "titleKind": "editorial",
+      "topics": [
+        "固体物理",
+        "晶体结构"
+      ],
+      "summary": "完整保留原卷問題 C 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qc-01.png",
+          "page": 25,
+          "box": [
+            55,
+            77,
+            570,
+            727
+          ],
+          "width": 1545,
+          "height": 1950,
+          "label": "問題 C：原卷第 25 页（按原顺序）",
+          "sha256": "36d429c820340e33294fccd7a5e8d42c591fb9a7b9127a58b9e899c8e1966179"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qc-02.png",
+          "page": 26,
+          "box": [
+            55,
+            78,
+            570,
+            478
+          ],
+          "width": 1545,
+          "height": 1200,
+          "label": "問題 C：原卷第 26 页（按原顺序）",
+          "sha256": "0a6970b1fcb113cc3055d85de016f55180d00a308626a97e34aa2df7959e5ff7"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2016-qd",
+      "number": "問題 D",
+      "title": "双极晶体管特性与开关暂态",
+      "titleKind": "editorial",
+      "topics": [
+        "半导体",
+        "双极晶体管"
+      ],
+      "summary": "完整保留原卷問題 D 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qd-01.png",
+          "page": 29,
+          "box": [
+            55,
+            74,
+            570,
+            789
+          ],
+          "width": 1545,
+          "height": 2145,
+          "label": "問題 D：原卷第 29 页（按原顺序）",
+          "sha256": "c651a1e7a4e133c79bb7ccce5e077be6899bb6c589411486d3e3d85ab348cc01"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qd-02.png",
+          "page": 30,
+          "box": [
+            55,
+            69,
+            570,
+            760
+          ],
+          "width": 1545,
+          "height": 2073,
+          "label": "問題 D：原卷第 30 页（按原顺序）",
+          "sha256": "22c8139d8b64901b7c882512fca519499824642e98877168b41e9e016ecb0a46"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2016-qe",
+      "number": "問題 E",
+      "title": "RC／RLC 电路的传递函数与阶跃响应",
+      "titleKind": "editorial",
+      "topics": [
+        "控制",
+        "电路"
+      ],
+      "summary": "完整保留原卷問題 E 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qe-01.png",
+          "page": 33,
+          "box": [
+            55,
+            80,
+            570,
+            785
+          ],
+          "width": 1545,
+          "height": 2115,
+          "label": "問題 E：题干、小问及附图",
+          "sha256": "546f85092a5e2b79b516053718398a5700a7b1c7ca3ec445dfb08b1be866c673"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2016-qf",
+      "number": "問題 F",
+      "title": "送电系统的无功补偿与电压",
+      "titleKind": "editorial",
+      "topics": [
+        "电力",
+        "无功补偿"
+      ],
+      "summary": "完整保留原卷問題 F 的全部小问、条件、公式及附图，跨页按原顺序合并。中文标题与知识点仅用于导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷及对应英文重复页，并逐张对照最终预览裁图：题号、首行、末行、全部小问、上下标、公式编号、图例、图号及跨页连续性完整；没有混入其他大题。初次预览发现扫描图号与凡例偏浅，已扩大裁边重新预览并核对全部裁图。原有水印保持，中文标题仅作编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2016/utokyo-ee-2016-qf-01.png",
+          "page": 35,
+          "box": [
+            55,
+            78,
+            570,
+            782
+          ],
+          "width": 1545,
+          "height": 2112,
+          "label": "問題 F：题干、小问及附图",
+          "sha256": "7cb8d2d18b3589181b7a217ce43b86940f65eb6e2dc491f1e603a37d08aab5a0"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2016-q1"
+      ],
+      "common": true,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2016-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "utokyo-ee-2016-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "utokyo-ee-2016-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "utokyo-ee-2016-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "utokyo-ee-2016-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [
+        "utokyo-ee-2016-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [
+        "utokyo-ee-2016-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [
+        "utokyo-ee-2016-qa"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [
+        "utokyo-ee-2016-qa"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [
+        "utokyo-ee-2016-qb"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 22,
+      "questionIds": [
+        "utokyo-ee-2016-qb"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 23,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 24,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 25,
+      "questionIds": [
+        "utokyo-ee-2016-qc"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 26,
+      "questionIds": [
+        "utokyo-ee-2016-qc"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 27,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 28,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 29,
+      "questionIds": [
+        "utokyo-ee-2016-qd"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 30,
+      "questionIds": [
+        "utokyo-ee-2016-qd"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 31,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 32,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 33,
+      "questionIds": [
+        "utokyo-ee-2016-qe"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 34,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 35,
+      "questionIds": [
+        "utokyo-ee-2016-qf"
+      ],
+      "common": false,
+      "excluded": "页边空白及重复的顶部样例提示；样例提示已从第1页收入公共说明。题内原有水印保持原样。",
+      "reviewed": true
+    },
+    {
+      "page": 36,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 37,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同题英文重复版本，按用户要求已有日文原题时仅收录日文；本页不重复计题。",
+      "reviewed": true
+    }
+  ]
+}

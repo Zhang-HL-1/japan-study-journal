@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2013",
+  "title": "东京大学 · 2013 年实施 · 综合试题",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-fy2013",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2013,
+    "yearBasis": "exam",
+    "subject": "综合试题",
+    "originalSubject": "問題1–4・A–F",
+    "originalName": "fy2013_s.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/82528975daea8d045c9786b621a40d5dfbd3f063e560dc202c72c9d8521c560e.pdf",
+    "sha256": "82528975daea8d045c9786b621a40d5dfbd3f063e560dc202c72c9d8521c560e",
+    "pageCount": 30,
+    "note": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2013 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2013，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为問題1至問題4以及問題A至問題F，每题后附英文 Problem。fy2020 没有对应文件，不补。 本逐题批次按完整大题保留全部小问与跨页配图。日英重复只收日文，只有英文原件的2007物理采用英文；水印及原页标注原样保留，不做清理或重绘。「综合试题」为编辑导航名；原卷仅标问题号，未印统一科目名称，不冒称官方科目。"
+  },
+  "renderScale": 3,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        65,
+        15,
+        545,
+        42
+      ],
+      "label": "原册样本说明：2020年度以前的题目与现行形式可能不同"
+    }
+  ],
+  "questions": [
+    {
+      "id": "utokyo-ee-2013-q1",
+      "number": "問題 1",
+      "title": "电子在电磁场中的运动",
+      "titleKind": "editorial",
+      "topics": [
+        "电子在电磁场中的运动"
+      ],
+      "summary": "保留原卷 問題 1 的全部小问、条件和配图；PDF物理页为 1。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            49,
+            111,
+            593,
+            723
+          ],
+          "label": "問題 1 · PDF 第 1 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：1。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2013-q2",
+      "number": "問題 2",
+      "title": "MOS 小信号与差分放大电路",
+      "titleKind": "editorial",
+      "topics": [
+        "MOS 小信号"
+      ],
+      "summary": "保留原卷 問題 2 的全部小问、条件和配图；PDF物理页为 3、4。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            44,
+            113,
+            578,
+            662
+          ],
+          "label": "問題 2 · PDF 第 3 页"
+        },
+        {
+          "page": 4,
+          "box": [
+            16,
+            77,
+            551,
+            799
+          ],
+          "label": "問題 2 · PDF 第 4 页（续页／附图）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：3,4。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2013-q3",
+      "number": "問題 3",
+      "title": "信息熵与通信容量",
+      "titleKind": "editorial",
+      "topics": [
+        "信息熵"
+      ],
+      "summary": "保留原卷 問題 3 的全部小问、条件和配图；PDF物理页为 7、8。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 7,
+          "box": [
+            0,
+            116,
+            584,
+            771
+          ],
+          "label": "問題 3 · PDF 第 7 页"
+        },
+        {
+          "page": 8,
+          "box": [
+            0,
+            105,
+            562,
+            765
+          ],
+          "label": "問題 3 · PDF 第 8 页（续页／附图）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：7,8。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2013-q4",
+      "number": "問題 4",
+      "title": "字符串匹配与程序复杂度",
+      "titleKind": "editorial",
+      "topics": [
+        "字符串匹配"
+      ],
+      "summary": "保留原卷 問題 4 的全部小问、条件和配图；PDF物理页为 11、12。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 11,
+          "box": [
+            0,
+            115,
+            554,
+            767
+          ],
+          "label": "問題 4 · PDF 第 11 页"
+        },
+        {
+          "page": 12,
+          "box": [
+            0,
+            101,
+            583,
+            662
+          ],
+          "label": "問題 4 · PDF 第 12 页（续页／附图）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：11,12。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2013-qa",
+      "number": "問題 A",
+      "title": "加法器与进位逻辑",
+      "titleKind": "editorial",
+      "topics": [
+        "加法器"
+      ],
+      "summary": "保留原卷 問題 A 的全部小问、条件和配图；PDF物理页为 15。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 15,
+          "box": [
+            0,
+            107,
+            573,
+            752
+          ],
+          "label": "問題 A · PDF 第 15 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：15。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2013-qb",
+      "number": "問題 B",
+      "title": "TCP 连接建立",
+      "titleKind": "editorial",
+      "topics": [
+        "TCP 连接建立"
+      ],
+      "summary": "保留原卷 問題 B 的全部小问、条件和配图；PDF物理页为 17。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 17,
+          "box": [
+            0,
+            106,
+            594,
+            764
+          ],
+          "label": "問題 B · PDF 第 17 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：17。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2013-qc",
+      "number": "問題 C",
+      "title": "晶格振动与色散关系",
+      "titleKind": "editorial",
+      "topics": [
+        "晶格振动"
+      ],
+      "summary": "保留原卷 問題 C 的全部小问、条件和配图；PDF物理页为 19、20。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 19,
+          "box": [
+            0,
+            110,
+            575,
+            661
+          ],
+          "label": "問題 C · PDF 第 19 页"
+        },
+        {
+          "page": 20,
+          "box": [
+            0,
+            127,
+            551,
+            661
+          ],
+          "label": "問題 C · PDF 第 20 页（续页／附图）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：19,20。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2013-qd",
+      "number": "問題 D",
+      "title": "光照 p-n 结与能带",
+      "titleKind": "editorial",
+      "topics": [
+        "光照 p-n 结"
+      ],
+      "summary": "保留原卷 問題 D 的全部小问、条件和配图；PDF物理页为 23。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 23,
+          "box": [
+            0,
+            114,
+            575,
+            661
+          ],
+          "label": "問題 D · PDF 第 23 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：23。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2013-qe",
+      "number": "問題 E",
+      "title": "反馈控制与根轨迹",
+      "titleKind": "editorial",
+      "topics": [
+        "反馈控制"
+      ],
+      "summary": "保留原卷 問題 E 的全部小问、条件和配图；PDF物理页为 25。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 25,
+          "box": [
+            0,
+            113,
+            590,
+            661
+          ],
+          "label": "問題 E · PDF 第 25 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：25。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2013-qf",
+      "number": "問題 F",
+      "title": "电子雪崩与气体放电",
+      "titleKind": "editorial",
+      "topics": [
+        "电子雪崩"
+      ],
+      "summary": "保留原卷 問題 F 的全部小问、条件和配图；PDF物理页为 27、28。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 27,
+          "box": [
+            0,
+            109,
+            594,
+            728
+          ],
+          "label": "問題 F · PDF 第 27 页"
+        },
+        {
+          "page": 28,
+          "box": [
+            0,
+            97,
+            524,
+            661
+          ],
+          "label": "問題 F · PDF 第 28 页（续页／附图）"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：27,28。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2013-q1"
+      ],
+      "common": true,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem 1；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2013-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "utokyo-ee-2013-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem 2；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem 2的续页／配图；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "utokyo-ee-2013-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "utokyo-ee-2013-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem 3；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem 3的续页／配图；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "utokyo-ee-2013-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "utokyo-ee-2013-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem 4；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem 4的续页／配图；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [
+        "utokyo-ee-2013-qa"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem A；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [
+        "utokyo-ee-2013-qb"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem B；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [
+        "utokyo-ee-2013-qc"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [
+        "utokyo-ee-2013-qc"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem C；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 22,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem C的续页／配图；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 23,
+      "questionIds": [
+        "utokyo-ee-2013-qd"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 24,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem D；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 25,
+      "questionIds": [
+        "utokyo-ee-2013-qe"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 26,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem E；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 27,
+      "questionIds": [
+        "utokyo-ee-2013-qf"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 28,
+      "questionIds": [
+        "utokyo-ee-2013-qf"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 29,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem F；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 30,
+      "questionIds": [],
+      "common": false,
+      "excluded": "英文重复版本 Problem F的续页／配图；已核对其日文对应大题，按用户要求仅收入日文，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}
