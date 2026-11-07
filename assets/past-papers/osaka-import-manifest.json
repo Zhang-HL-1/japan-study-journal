@@ -12,7 +12,7 @@
   "coverageNote": "本校154组／227个PDF、1539页，无随卷解答。2026-10-15已上线的57组／95个PDF、720页保持不变：电气电子信息通信2022—2025仅基礎科目，2026为3课程数学・専門科目；精密2022—2026；知能系统2021—2026；电子光科学2022—2026；机械科学2014—2026；生体系统／旧生物工学2009—2013、2015—2025，其中2013、2015仅Ⅰ，2019仅Ⅱ，2014缺卷；信息工学2021—2025五专攻共通卷。知能R2文件实际为2021年度。情报数理目录的2022文件是信息工学重复卷，不新增数理试卷。2026-10-18补录原先排除的理学数学、理学物理、基础工学数理科学、物性物理科学和情报基础数学，新增97组、132个唯一PDF、819页。理学数学按封面入学年度，8月的数学問題A／B合成一组；封面印「第2次募集」的2022、2023另组；其余11月或2月场封面未印二次，不按文件名写成二次募集。本目录没有2021年度数学册。理学物理封面只印实施年月，paperYear用入学年度（8月或9月实施对应次年4月入学），2012—2021各页未印日期，不补实施日。数理科学与物性物理科学按封面入学年度，科目名加「専門科目」，不虚构专攻。情報基礎数学専攻2005—2025按封面平成／令和年度。環境工学コース小論文5份和口述試問サンプル不建真题入口。年度按卷面入学年度。基礎工学既有科目仍按「専門科目」分组。不声明全校或所有年份齐全。 2026-11-03补入实施年2004—2025的电气电子信息通信及前身资料：110份中7份与已有文件同字节，新增103个PDF；按入学年度与既有记录对齐。来源目录年份为实施年；部分扫描卷年份仍待逐卷核对。",
   "files": [
     {
-      "path": "assets/past-papers/documents/fb422705a21013b5afdd930b9b8f81ddf3492740bd7cad1c00654d1c8a2046c8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fb422705a21013b5afdd930b9b8f81ddf3492740bd7cad1c00654d1c8a2046c8.pdf",
       "originalName": "数学・専門科目試験問題（量子情報エレクトロニクスコース）.pdf",
       "sha256": "fb422705a21013b5afdd930b9b8f81ddf3492740bd7cad1c00654d1c8a2046c8",
       "byteSize": 2098667,
@@ -25,7 +25,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a.pdf",
       "originalName": "数学・専門科目試験問題（電気工学コース）.pdf",
       "sha256": "c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a",
       "byteSize": 2091823,
@@ -38,7 +38,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/b5e75b0f6bcfd67250b847d91950fc6e22b3681a190dd169ee0e9853d33e28ae.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b5e75b0f6bcfd67250b847d91950fc6e22b3681a190dd169ee0e9853d33e28ae.pdf",
       "originalName": "数学・専門科目試験問題（情報通信工学コース）.pdf",
       "sha256": "b5e75b0f6bcfd67250b847d91950fc6e22b3681a190dd169ee0e9853d33e28ae",
       "byteSize": 9576426,
@@ -51,7 +51,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/4451d8fbdb4035756ed0091a44b204dc2854463afbe265ad61035870abe0a260.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4451d8fbdb4035756ed0091a44b204dc2854463afbe265ad61035870abe0a260.pdf",
       "originalName": "2021 basic.pdf",
       "sha256": "4451d8fbdb4035756ed0091a44b204dc2854463afbe265ad61035870abe0a260",
       "byteSize": 2046089,
@@ -64,7 +64,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505.pdf",
       "originalName": "2022 basic.pdf",
       "sha256": "6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505",
       "byteSize": 12541113,
@@ -77,7 +77,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6.pdf",
       "originalName": "2024basic.pdf",
       "sha256": "fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6",
       "byteSize": 1624645,
@@ -90,7 +90,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1.pdf",
       "originalName": "基礎科目.pdf",
       "sha256": "4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1",
       "byteSize": 3672237,
@@ -103,7 +103,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/1daa70581d75afd2da32be31b685539559607b81010ec949fea872489cb774ff.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1daa70581d75afd2da32be31b685539559607b81010ec949fea872489cb774ff.pdf",
       "originalName": "2022擭搙丂夁嫀栤戣.pdf",
       "sha256": "1daa70581d75afd2da32be31b685539559607b81010ec949fea872489cb774ff",
       "byteSize": 345191,
@@ -115,7 +115,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/305efd04845ef5948de09338b83acc6ebf3c10d06f6a4b1502f57a99313b241f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/305efd04845ef5948de09338b83acc6ebf3c10d06f6a4b1502f57a99313b241f.pdf",
       "originalName": "2023擭搙丂夁嫀栤戣.pdf",
       "sha256": "305efd04845ef5948de09338b83acc6ebf3c10d06f6a4b1502f57a99313b241f",
       "byteSize": 474481,
@@ -127,7 +127,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/bc9399f1fb133811bdcaabc3c9b46043f711edf2ebd6ab52a2275cd2239a4821.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bc9399f1fb133811bdcaabc3c9b46043f711edf2ebd6ab52a2275cd2239a4821.pdf",
       "originalName": "2024擭搙丂夁嫀栤戣.pdf",
       "sha256": "bc9399f1fb133811bdcaabc3c9b46043f711edf2ebd6ab52a2275cd2239a4821",
       "byteSize": 410090,
@@ -139,7 +139,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/1293c41ad387eb7c2861e5183f1a4c3f31c42a8df06ce082fc5378ec107222e8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1293c41ad387eb7c2861e5183f1a4c3f31c42a8df06ce082fc5378ec107222e8.pdf",
       "originalName": "2025擭搙丂夁嫀栤戣.pdf",
       "sha256": "1293c41ad387eb7c2861e5183f1a4c3f31c42a8df06ce082fc5378ec107222e8",
       "byteSize": 407696,
@@ -151,7 +151,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/e94e58042881f2b636f77ef4c8b10ac4015396fd66b638774fd7291c5cacdd2a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e94e58042881f2b636f77ef4c8b10ac4015396fd66b638774fd7291c5cacdd2a.pdf",
       "originalName": "2026擭搙丂壢栚昞.pdf",
       "sha256": "e94e58042881f2b636f77ef4c8b10ac4015396fd66b638774fd7291c5cacdd2a",
       "byteSize": 29328,
@@ -163,7 +163,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c9c0c7c47f94e769da3004cca88069a5d57bbf8822ff0efeb172d414e562392c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c9c0c7c47f94e769da3004cca88069a5d57bbf8822ff0efeb172d414e562392c.pdf",
       "originalName": "2026擭搙丂夁嫀栤戣.pdf",
       "sha256": "c9c0c7c47f94e769da3004cca88069a5d57bbf8822ff0efeb172d414e562392c",
       "byteSize": 357577,
@@ -175,7 +175,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f861745c462eaec6c2f2d1245da5285672cf8b3de8d0e949c5ac957e2e20de2a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f861745c462eaec6c2f2d1245da5285672cf8b3de8d0e949c5ac957e2e20de2a.pdf",
       "originalName": "R2-2.pdf",
       "sha256": "f861745c462eaec6c2f2d1245da5285672cf8b3de8d0e949c5ac957e2e20de2a",
       "byteSize": 251530,
@@ -187,7 +187,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/92575879a1a58920c18aa4543dd72274a40ff2e14244a9b87cd90e4dae39d1cd.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/92575879a1a58920c18aa4543dd72274a40ff2e14244a9b87cd90e4dae39d1cd.pdf",
       "originalName": "R2-1.pdf",
       "sha256": "92575879a1a58920c18aa4543dd72274a40ff2e14244a9b87cd90e4dae39d1cd",
       "byteSize": 113168,
@@ -199,7 +199,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/90c5bbf356a727ef61d987eaf01fbf77cef1921181ed53d11f11a1cd254a40ef.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/90c5bbf356a727ef61d987eaf01fbf77cef1921181ed53d11f11a1cd254a40ef.pdf",
       "originalName": "R3-2.pdf",
       "sha256": "90c5bbf356a727ef61d987eaf01fbf77cef1921181ed53d11f11a1cd254a40ef",
       "byteSize": 3009156,
@@ -211,7 +211,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c1a6531e124f2e139d7649e9df58d40d15eabf95242569b18c89e8a05f8af6ab.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c1a6531e124f2e139d7649e9df58d40d15eabf95242569b18c89e8a05f8af6ab.pdf",
       "originalName": "R3-1.pdf",
       "sha256": "c1a6531e124f2e139d7649e9df58d40d15eabf95242569b18c89e8a05f8af6ab",
       "byteSize": 1676360,
@@ -223,7 +223,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/e22ba3f8102eb5270547139299877050cc79863e73e00aacb8cfb393dc0571c0.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e22ba3f8102eb5270547139299877050cc79863e73e00aacb8cfb393dc0571c0.pdf",
       "originalName": "R4-2.pdf",
       "sha256": "e22ba3f8102eb5270547139299877050cc79863e73e00aacb8cfb393dc0571c0",
       "byteSize": 257175,
@@ -235,7 +235,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/36825cc31cafe67dfa804453aef1cc5753fca79ab114ef9b3e78be1507e3b974.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/36825cc31cafe67dfa804453aef1cc5753fca79ab114ef9b3e78be1507e3b974.pdf",
       "originalName": "R4-1.pdf",
       "sha256": "36825cc31cafe67dfa804453aef1cc5753fca79ab114ef9b3e78be1507e3b974",
       "byteSize": 140054,
@@ -247,7 +247,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a4fcb47522396857fa769f35dc664fbe472b9042cfce2ad54ba3eacced704943.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a4fcb47522396857fa769f35dc664fbe472b9042cfce2ad54ba3eacced704943.pdf",
       "originalName": "R5-2.pdf",
       "sha256": "a4fcb47522396857fa769f35dc664fbe472b9042cfce2ad54ba3eacced704943",
       "byteSize": 222568,
@@ -259,7 +259,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/2bf788327adb7dc8edc6af712e49986f5a1c54a3e1bf4d908f41debe4a870c6e.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2bf788327adb7dc8edc6af712e49986f5a1c54a3e1bf4d908f41debe4a870c6e.pdf",
       "originalName": "R5-1.pdf",
       "sha256": "2bf788327adb7dc8edc6af712e49986f5a1c54a3e1bf4d908f41debe4a870c6e",
       "byteSize": 106011,
@@ -271,7 +271,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/06a2eab9ed0d924ac8d790aab6e52e21c0c791529434cda15c443909e00fc651.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/06a2eab9ed0d924ac8d790aab6e52e21c0c791529434cda15c443909e00fc651.pdf",
       "originalName": "R6-2.pdf",
       "sha256": "06a2eab9ed0d924ac8d790aab6e52e21c0c791529434cda15c443909e00fc651",
       "byteSize": 1422410,
@@ -283,7 +283,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/10f24b73587a9a2868db8a1a3328e7d0eae8435f476b1d8e40981d1ee05d9dac.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/10f24b73587a9a2868db8a1a3328e7d0eae8435f476b1d8e40981d1ee05d9dac.pdf",
       "originalName": "R6-1.pdf",
       "sha256": "10f24b73587a9a2868db8a1a3328e7d0eae8435f476b1d8e40981d1ee05d9dac",
       "byteSize": 288980,
@@ -295,7 +295,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/5950201e1ea68747fe5488d0e619e9fa0ae9d167cd5d75626168c2e104f1ed9a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5950201e1ea68747fe5488d0e619e9fa0ae9d167cd5d75626168c2e104f1ed9a.pdf",
       "originalName": "R7-2.pdf",
       "sha256": "5950201e1ea68747fe5488d0e619e9fa0ae9d167cd5d75626168c2e104f1ed9a",
       "byteSize": 4133839,
@@ -307,7 +307,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f908149bbdc43f693954b51130893e663dfb28c4a98bd6bf7252e9d693258864.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f908149bbdc43f693954b51130893e663dfb28c4a98bd6bf7252e9d693258864.pdf",
       "originalName": "R7-1.pdf",
       "sha256": "f908149bbdc43f693954b51130893e663dfb28c4a98bd6bf7252e9d693258864",
       "byteSize": 2597304,
@@ -319,7 +319,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/58f17cdf14b970501c6634c42625eaf739d2c622eb041ebaa146799e57c51ecc.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/58f17cdf14b970501c6634c42625eaf739d2c622eb041ebaa146799e57c51ecc.pdf",
       "originalName": "2022-II.pdf",
       "sha256": "58f17cdf14b970501c6634c42625eaf739d2c622eb041ebaa146799e57c51ecc",
       "byteSize": 954790,
@@ -331,7 +331,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/d82cab3b764f50f55cff77352a99625b60fdc6c20da956194c3651b853fc2193.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d82cab3b764f50f55cff77352a99625b60fdc6c20da956194c3651b853fc2193.pdf",
       "originalName": "2022-I.pdf",
       "sha256": "d82cab3b764f50f55cff77352a99625b60fdc6c20da956194c3651b853fc2193",
       "byteSize": 612335,
@@ -343,7 +343,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/cb8fce44018bd4859ad41717f7aaa3bee52ee6fbb79baeccce4f61bbd7c7739e.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cb8fce44018bd4859ad41717f7aaa3bee52ee6fbb79baeccce4f61bbd7c7739e.pdf",
       "originalName": "2023-II.pdf",
       "sha256": "cb8fce44018bd4859ad41717f7aaa3bee52ee6fbb79baeccce4f61bbd7c7739e",
       "byteSize": 630073,
@@ -355,7 +355,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a8e79f807d1d7f21fbde8a7312ba7db793fcc07535050c7a2d476eb88d375a0f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a8e79f807d1d7f21fbde8a7312ba7db793fcc07535050c7a2d476eb88d375a0f.pdf",
       "originalName": "2023-I.pdf",
       "sha256": "a8e79f807d1d7f21fbde8a7312ba7db793fcc07535050c7a2d476eb88d375a0f",
       "byteSize": 1465183,
@@ -367,7 +367,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/27df795377e03e4d80e2d1e96ead9b0c418966b74c248116c3038c449c188237.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/27df795377e03e4d80e2d1e96ead9b0c418966b74c248116c3038c449c188237.pdf",
       "originalName": "2024-II.pdf",
       "sha256": "27df795377e03e4d80e2d1e96ead9b0c418966b74c248116c3038c449c188237",
       "byteSize": 988753,
@@ -379,7 +379,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/246225a02325dc8491f5d6c6582ee399ef970d8302033a7f6bd3a7ccf03cd7b9.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/246225a02325dc8491f5d6c6582ee399ef970d8302033a7f6bd3a7ccf03cd7b9.pdf",
       "originalName": "2024-I.pdf",
       "sha256": "246225a02325dc8491f5d6c6582ee399ef970d8302033a7f6bd3a7ccf03cd7b9",
       "byteSize": 796061,
@@ -391,7 +391,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f765ca2db8fc7b94d54f819ec8acb22e31875c4d2b79b611a441fbdafbfb3a1f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f765ca2db8fc7b94d54f819ec8acb22e31875c4d2b79b611a441fbdafbfb3a1f.pdf",
       "originalName": "2025-II.pdf",
       "sha256": "f765ca2db8fc7b94d54f819ec8acb22e31875c4d2b79b611a441fbdafbfb3a1f",
       "byteSize": 1078418,
@@ -403,7 +403,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/d0d9354538c9d03d52dbe03a549246bd99f063b6f7eb5a24ca12ec8c8e00214d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d0d9354538c9d03d52dbe03a549246bd99f063b6f7eb5a24ca12ec8c8e00214d.pdf",
       "originalName": "2025-I.pdf",
       "sha256": "d0d9354538c9d03d52dbe03a549246bd99f063b6f7eb5a24ca12ec8c8e00214d",
       "byteSize": 777990,
@@ -415,7 +415,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/ac91ae53c9d80177d8bf557486929debd72d60f2a11c493d7d5d06578af51073.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ac91ae53c9d80177d8bf557486929debd72d60f2a11c493d7d5d06578af51073.pdf",
       "originalName": "2026-II.pdf",
       "sha256": "ac91ae53c9d80177d8bf557486929debd72d60f2a11c493d7d5d06578af51073",
       "byteSize": 3258995,
@@ -427,7 +427,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/37ffa4a97d1753d6eed4eeff60ac77a884de567056c417d38d196ea459a3d7b2.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/37ffa4a97d1753d6eed4eeff60ac77a884de567056c417d38d196ea459a3d7b2.pdf",
       "originalName": "2026-I.pdf",
       "sha256": "37ffa4a97d1753d6eed4eeff60ac77a884de567056c417d38d196ea459a3d7b2",
       "byteSize": 2299644,
@@ -439,7 +439,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/aaa38da8d739bfd2effeb38bcb04d04794bd3aa2ac77495b0872345edb915e60.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/aaa38da8d739bfd2effeb38bcb04d04794bd3aa2ac77495b0872345edb915e60.pdf",
       "originalName": "h26_2.pdf",
       "sha256": "aaa38da8d739bfd2effeb38bcb04d04794bd3aa2ac77495b0872345edb915e60",
       "byteSize": 178921,
@@ -451,7 +451,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/003a8a34e4903cec8acc67d5f026ecf3bcb70dd33f5781664f9ae9bacfb2c93c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/003a8a34e4903cec8acc67d5f026ecf3bcb70dd33f5781664f9ae9bacfb2c93c.pdf",
       "originalName": "h26_1.pdf",
       "sha256": "003a8a34e4903cec8acc67d5f026ecf3bcb70dd33f5781664f9ae9bacfb2c93c",
       "byteSize": 141541,
@@ -463,7 +463,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/98f59821dd2f04d12b8e3f2d52a0257db115636d5c28c80a521bf63dbd699131.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/98f59821dd2f04d12b8e3f2d52a0257db115636d5c28c80a521bf63dbd699131.pdf",
       "originalName": "h27_2.pdf",
       "sha256": "98f59821dd2f04d12b8e3f2d52a0257db115636d5c28c80a521bf63dbd699131",
       "byteSize": 117597,
@@ -475,7 +475,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a67c3e2e9740b3b79e186f6ad89225956d6ab7b7dd8679cca362bb5004f18afb.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a67c3e2e9740b3b79e186f6ad89225956d6ab7b7dd8679cca362bb5004f18afb.pdf",
       "originalName": "h27_1.pdf",
       "sha256": "a67c3e2e9740b3b79e186f6ad89225956d6ab7b7dd8679cca362bb5004f18afb",
       "byteSize": 166311,
@@ -487,7 +487,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/1c562f074b362328fa93c73347f7e04d59321b3ae16dff32c105a1fba0954254.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1c562f074b362328fa93c73347f7e04d59321b3ae16dff32c105a1fba0954254.pdf",
       "originalName": "h28_2.pdf",
       "sha256": "1c562f074b362328fa93c73347f7e04d59321b3ae16dff32c105a1fba0954254",
       "byteSize": 132757,
@@ -499,7 +499,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/6ba720f05c8b60613c51421a9df59fe24e3680eadeb1d1575c5415f51dc017a0.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6ba720f05c8b60613c51421a9df59fe24e3680eadeb1d1575c5415f51dc017a0.pdf",
       "originalName": "h28_1.pdf",
       "sha256": "6ba720f05c8b60613c51421a9df59fe24e3680eadeb1d1575c5415f51dc017a0",
       "byteSize": 245028,
@@ -511,7 +511,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/0c6dea9f5f1b5a8621a1863b86e75ef1e31d17a82d9df878a024ff3e49071b50.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0c6dea9f5f1b5a8621a1863b86e75ef1e31d17a82d9df878a024ff3e49071b50.pdf",
       "originalName": "h29_2.pdf",
       "sha256": "0c6dea9f5f1b5a8621a1863b86e75ef1e31d17a82d9df878a024ff3e49071b50",
       "byteSize": 1027158,
@@ -523,7 +523,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/65691afe71aaf0cc9d229fc95a42f729e1d3c35ad7db1f0ffcfe25c7daf713e0.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/65691afe71aaf0cc9d229fc95a42f729e1d3c35ad7db1f0ffcfe25c7daf713e0.pdf",
       "originalName": "h29_1.pdf",
       "sha256": "65691afe71aaf0cc9d229fc95a42f729e1d3c35ad7db1f0ffcfe25c7daf713e0",
       "byteSize": 1658443,
@@ -535,7 +535,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/bd06361b24878289e5d58c23eff527ba99ec9a78dbdacc183f03d86251949ca5.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bd06361b24878289e5d58c23eff527ba99ec9a78dbdacc183f03d86251949ca5.pdf",
       "originalName": "h30_2.pdf",
       "sha256": "bd06361b24878289e5d58c23eff527ba99ec9a78dbdacc183f03d86251949ca5",
       "byteSize": 263226,
@@ -547,7 +547,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a76a24d96164595f0f41652bbe6c0449e688fdc536e0f00e1b550da20434cb23.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a76a24d96164595f0f41652bbe6c0449e688fdc536e0f00e1b550da20434cb23.pdf",
       "originalName": "h30_1.pdf",
       "sha256": "a76a24d96164595f0f41652bbe6c0449e688fdc536e0f00e1b550da20434cb23",
       "byteSize": 220166,
@@ -559,7 +559,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c5b92d318892599002fe70dd8edfe8b68230699ad12516ed9ea6aa6473e56d25.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c5b92d318892599002fe70dd8edfe8b68230699ad12516ed9ea6aa6473e56d25.pdf",
       "originalName": "h31_2.pdf",
       "sha256": "c5b92d318892599002fe70dd8edfe8b68230699ad12516ed9ea6aa6473e56d25",
       "byteSize": 170190,
@@ -571,7 +571,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a6156ead2e48b58e320c46ed939b5d5de568da748041ed3f37ec01cfeab2e762.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a6156ead2e48b58e320c46ed939b5d5de568da748041ed3f37ec01cfeab2e762.pdf",
       "originalName": "h31_1.pdf",
       "sha256": "a6156ead2e48b58e320c46ed939b5d5de568da748041ed3f37ec01cfeab2e762",
       "byteSize": 188594,
@@ -583,7 +583,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/2f9333ddba9e0999f7de91d2e35ae450f5e863f1ee45bd357dfafc6e01156573.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2f9333ddba9e0999f7de91d2e35ae450f5e863f1ee45bd357dfafc6e01156573.pdf",
       "originalName": "r2_2.pdf",
       "sha256": "2f9333ddba9e0999f7de91d2e35ae450f5e863f1ee45bd357dfafc6e01156573",
       "byteSize": 179130,
@@ -595,7 +595,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/567088f80a3fcee632ee07270d6a4404b71f1a815b01aa9464bec83451dc8608.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/567088f80a3fcee632ee07270d6a4404b71f1a815b01aa9464bec83451dc8608.pdf",
       "originalName": "r2_1.pdf",
       "sha256": "567088f80a3fcee632ee07270d6a4404b71f1a815b01aa9464bec83451dc8608",
       "byteSize": 109957,
@@ -607,7 +607,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/0b329cdc6eac7544d49a4ca803d01cbaf587717920be6df04fcb1af0d6297bd4.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0b329cdc6eac7544d49a4ca803d01cbaf587717920be6df04fcb1af0d6297bd4.pdf",
       "originalName": "r3_2.pdf",
       "sha256": "0b329cdc6eac7544d49a4ca803d01cbaf587717920be6df04fcb1af0d6297bd4",
       "byteSize": 794121,
@@ -619,7 +619,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/3fe96c0a87095ba95d432d8b40f93adf644b9107c4ed83ade53750fd9215d905.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3fe96c0a87095ba95d432d8b40f93adf644b9107c4ed83ade53750fd9215d905.pdf",
       "originalName": "r3_1.pdf",
       "sha256": "3fe96c0a87095ba95d432d8b40f93adf644b9107c4ed83ade53750fd9215d905",
       "byteSize": 557747,
@@ -631,7 +631,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a852727892ea7b5a24416ef1e19ff915ee858944da6f35ad9ceef10e41dcfbf2.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a852727892ea7b5a24416ef1e19ff915ee858944da6f35ad9ceef10e41dcfbf2.pdf",
       "originalName": "r4_2.pdf",
       "sha256": "a852727892ea7b5a24416ef1e19ff915ee858944da6f35ad9ceef10e41dcfbf2",
       "byteSize": 258595,
@@ -643,7 +643,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/1b73437e4446d61c2e8a95838049f22afad73cbde6ec29f589c955f7c011b8b1.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1b73437e4446d61c2e8a95838049f22afad73cbde6ec29f589c955f7c011b8b1.pdf",
       "originalName": "r4_1.pdf",
       "sha256": "1b73437e4446d61c2e8a95838049f22afad73cbde6ec29f589c955f7c011b8b1",
       "byteSize": 252923,
@@ -655,7 +655,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/ce96d18d3053df685e177e0bc351fe4aac2958c8004a8627b3dea6b8187c0083.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ce96d18d3053df685e177e0bc351fe4aac2958c8004a8627b3dea6b8187c0083.pdf",
       "originalName": "r5_2.pdf",
       "sha256": "ce96d18d3053df685e177e0bc351fe4aac2958c8004a8627b3dea6b8187c0083",
       "byteSize": 146459,
@@ -667,7 +667,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/dce23348e4441af74223b4b0d4f7d50cbd3575eb803aca74b7cc33972066222f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dce23348e4441af74223b4b0d4f7d50cbd3575eb803aca74b7cc33972066222f.pdf",
       "originalName": "r5_1.pdf",
       "sha256": "dce23348e4441af74223b4b0d4f7d50cbd3575eb803aca74b7cc33972066222f",
       "byteSize": 148444,
@@ -679,7 +679,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/18d9517acf4d01cdf949617d406cb9993b275024df9ad2cad329c526fb8726e8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/18d9517acf4d01cdf949617d406cb9993b275024df9ad2cad329c526fb8726e8.pdf",
       "originalName": "r6_2.pdf",
       "sha256": "18d9517acf4d01cdf949617d406cb9993b275024df9ad2cad329c526fb8726e8",
       "byteSize": 777717,
@@ -691,7 +691,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/dbec75fd4f7bfa1f66a2e85d26fc3f12c99834dfde3955923bbdb65ff7944156.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dbec75fd4f7bfa1f66a2e85d26fc3f12c99834dfde3955923bbdb65ff7944156.pdf",
       "originalName": "r6_1.pdf",
       "sha256": "dbec75fd4f7bfa1f66a2e85d26fc3f12c99834dfde3955923bbdb65ff7944156",
       "byteSize": 731275,
@@ -703,7 +703,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/b34bdbcae83f12ccda0ae783cd22070e2eff1c473e4b3dac14e1b9c82aa4f8dc.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b34bdbcae83f12ccda0ae783cd22070e2eff1c473e4b3dac14e1b9c82aa4f8dc.pdf",
       "originalName": "r7_2.pdf",
       "sha256": "b34bdbcae83f12ccda0ae783cd22070e2eff1c473e4b3dac14e1b9c82aa4f8dc",
       "byteSize": 1016719,
@@ -715,7 +715,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/6059e5bfa5f5700722810e2e881f21d7d687c211ad53082dee2e8d8c9be05f1a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6059e5bfa5f5700722810e2e881f21d7d687c211ad53082dee2e8d8c9be05f1a.pdf",
       "originalName": "r7_1.pdf",
       "sha256": "6059e5bfa5f5700722810e2e881f21d7d687c211ad53082dee2e8d8c9be05f1a",
       "byteSize": 500228,
@@ -727,7 +727,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/94fbf5f0e4f2f76c4a42a920d926cc2b40d7733150e2e4f9e7ee4c9492af38fd.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/94fbf5f0e4f2f76c4a42a920d926cc2b40d7733150e2e4f9e7ee4c9492af38fd.pdf",
       "originalName": "r8_2.pdf",
       "sha256": "94fbf5f0e4f2f76c4a42a920d926cc2b40d7733150e2e4f9e7ee4c9492af38fd",
       "byteSize": 186625,
@@ -739,7 +739,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/5dd31c3b429d5bfdddab73329b80bc92b5746f55131f5f69b3016dabcddc4200.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5dd31c3b429d5bfdddab73329b80bc92b5746f55131f5f69b3016dabcddc4200.pdf",
       "originalName": "r8_1.pdf",
       "sha256": "5dd31c3b429d5bfdddab73329b80bc92b5746f55131f5f69b3016dabcddc4200",
       "byteSize": 231018,
@@ -751,7 +751,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/fe46516a0444e89b7be9e9f83edfb80766e27e9a262a8d4221c1b56ed3548aae.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fe46516a0444e89b7be9e9f83edfb80766e27e9a262a8d4221c1b56ed3548aae.pdf",
       "originalName": "21_2.pdf",
       "sha256": "fe46516a0444e89b7be9e9f83edfb80766e27e9a262a8d4221c1b56ed3548aae",
       "byteSize": 376585,
@@ -763,7 +763,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/4df5ff3b59f0afa5f9fb3c0840e32a449e2db841ae2275f171e027211025fe4f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4df5ff3b59f0afa5f9fb3c0840e32a449e2db841ae2275f171e027211025fe4f.pdf",
       "originalName": "21_1.pdf",
       "sha256": "4df5ff3b59f0afa5f9fb3c0840e32a449e2db841ae2275f171e027211025fe4f",
       "byteSize": 179123,
@@ -775,7 +775,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/410f74024cf492ed743a84d0f39d8a5ce4e547465b6a1d5ec9fc15d178a9aee1.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/410f74024cf492ed743a84d0f39d8a5ce4e547465b6a1d5ec9fc15d178a9aee1.pdf",
       "originalName": "22_2.pdf",
       "sha256": "410f74024cf492ed743a84d0f39d8a5ce4e547465b6a1d5ec9fc15d178a9aee1",
       "byteSize": 291114,
@@ -787,7 +787,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/fdf184e85eeb00b995f0628ba8f7f158ef2cfd6801d563d11932f963f7f41383.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fdf184e85eeb00b995f0628ba8f7f158ef2cfd6801d563d11932f963f7f41383.pdf",
       "originalName": "22_1.pdf",
       "sha256": "fdf184e85eeb00b995f0628ba8f7f158ef2cfd6801d563d11932f963f7f41383",
       "byteSize": 278695,
@@ -799,7 +799,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/30fc5ad55408f929f2c93ac851076a6159e6a53372492a33df42cc7e08559699.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/30fc5ad55408f929f2c93ac851076a6159e6a53372492a33df42cc7e08559699.pdf",
       "originalName": "23_2.pdf",
       "sha256": "30fc5ad55408f929f2c93ac851076a6159e6a53372492a33df42cc7e08559699",
       "byteSize": 394945,
@@ -811,7 +811,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/52bdbf4c9acf4e4fc054cd7fb4df0861cc164e1ae97d427c73cc91a39edf8e31.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/52bdbf4c9acf4e4fc054cd7fb4df0861cc164e1ae97d427c73cc91a39edf8e31.pdf",
       "originalName": "23_1.pdf",
       "sha256": "52bdbf4c9acf4e4fc054cd7fb4df0861cc164e1ae97d427c73cc91a39edf8e31",
       "byteSize": 355571,
@@ -823,7 +823,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/2b2acb31f9a4c5cd3cba12210a373bfb89254941a71bff31e47160db30e1bad3.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2b2acb31f9a4c5cd3cba12210a373bfb89254941a71bff31e47160db30e1bad3.pdf",
       "originalName": "24_2.pdf",
       "sha256": "2b2acb31f9a4c5cd3cba12210a373bfb89254941a71bff31e47160db30e1bad3",
       "byteSize": 380433,
@@ -835,7 +835,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/50919674f81c1795d43d1194b0d772c235162fc4751ce38bee2d7bbb53c10419.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/50919674f81c1795d43d1194b0d772c235162fc4751ce38bee2d7bbb53c10419.pdf",
       "originalName": "24_1.pdf",
       "sha256": "50919674f81c1795d43d1194b0d772c235162fc4751ce38bee2d7bbb53c10419",
       "byteSize": 301414,
@@ -847,7 +847,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/1ef7d8f4ee7704340fbd9e7c125a88418e4078acca261f72b918ab3e026abdd6.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1ef7d8f4ee7704340fbd9e7c125a88418e4078acca261f72b918ab3e026abdd6.pdf",
       "originalName": "25_1.pdf",
       "sha256": "1ef7d8f4ee7704340fbd9e7c125a88418e4078acca261f72b918ab3e026abdd6",
       "byteSize": 204808,
@@ -859,7 +859,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/961f84eb5dfea08584b9c13d2d0b479f9f0f463189d5e6b279c90cc15a9bca42.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/961f84eb5dfea08584b9c13d2d0b479f9f0f463189d5e6b279c90cc15a9bca42.pdf",
       "originalName": "27_1.pdf",
       "sha256": "961f84eb5dfea08584b9c13d2d0b479f9f0f463189d5e6b279c90cc15a9bca42",
       "byteSize": 484638,
@@ -871,7 +871,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/8c2057d5913e2db73f69ad474f0d6235b10fdeef074365e4bc14ec7f0e9ac253.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8c2057d5913e2db73f69ad474f0d6235b10fdeef074365e4bc14ec7f0e9ac253.pdf",
       "originalName": "28_2.pdf",
       "sha256": "8c2057d5913e2db73f69ad474f0d6235b10fdeef074365e4bc14ec7f0e9ac253",
       "byteSize": 465216,
@@ -883,7 +883,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/3407371d4ff40f92a4da2855708d678b1001b1f46ae2f05edbc89fbe654c9ffd.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3407371d4ff40f92a4da2855708d678b1001b1f46ae2f05edbc89fbe654c9ffd.pdf",
       "originalName": "28_1.pdf",
       "sha256": "3407371d4ff40f92a4da2855708d678b1001b1f46ae2f05edbc89fbe654c9ffd",
       "byteSize": 358848,
@@ -895,7 +895,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/3c6473111b3e2421903ff4341c8ad8cc9b0606aa02638e90b9bfe02b75c5785d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3c6473111b3e2421903ff4341c8ad8cc9b0606aa02638e90b9bfe02b75c5785d.pdf",
       "originalName": "29_2.pdf",
       "sha256": "3c6473111b3e2421903ff4341c8ad8cc9b0606aa02638e90b9bfe02b75c5785d",
       "byteSize": 1113598,
@@ -907,7 +907,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/62676e23d6e0b20cedbcfb7951f970a610e002eced5e49ddb8bfaa8d70070562.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/62676e23d6e0b20cedbcfb7951f970a610e002eced5e49ddb8bfaa8d70070562.pdf",
       "originalName": "29_1.pdf",
       "sha256": "62676e23d6e0b20cedbcfb7951f970a610e002eced5e49ddb8bfaa8d70070562",
       "byteSize": 841061,
@@ -919,7 +919,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/8656ed9f09267b8df3152a77abcd943a7cb3ab6d1643e5eb8a10b0a923abb99e.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8656ed9f09267b8df3152a77abcd943a7cb3ab6d1643e5eb8a10b0a923abb99e.pdf",
       "originalName": "30_2.pdf",
       "sha256": "8656ed9f09267b8df3152a77abcd943a7cb3ab6d1643e5eb8a10b0a923abb99e",
       "byteSize": 531924,
@@ -931,7 +931,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/d305cf58649b61e4cf84820a367f048fe0b3f9c3edb0251976ea310ea426d7b3.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d305cf58649b61e4cf84820a367f048fe0b3f9c3edb0251976ea310ea426d7b3.pdf",
       "originalName": "30_1.pdf",
       "sha256": "d305cf58649b61e4cf84820a367f048fe0b3f9c3edb0251976ea310ea426d7b3",
       "byteSize": 508585,
@@ -943,7 +943,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/de3d671c7f5305c3db0786265b43ffb7b3389659aad3c73d090163d3a9c2d757.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/de3d671c7f5305c3db0786265b43ffb7b3389659aad3c73d090163d3a9c2d757.pdf",
       "originalName": "31_2.pdf",
       "sha256": "de3d671c7f5305c3db0786265b43ffb7b3389659aad3c73d090163d3a9c2d757",
       "byteSize": 192758,
@@ -955,7 +955,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/0605d029dd87258decff5cac1a8814808c6c8029d4dd28f28f541b9b35775a34.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0605d029dd87258decff5cac1a8814808c6c8029d4dd28f28f541b9b35775a34.pdf",
       "originalName": "R2_II.pdf",
       "sha256": "0605d029dd87258decff5cac1a8814808c6c8029d4dd28f28f541b9b35775a34",
       "byteSize": 298621,
@@ -967,7 +967,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/3e43f18be0ae94608847eda89ccf8f3e7cb5d1759cbeb33a3a7aeb9dc320acf4.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3e43f18be0ae94608847eda89ccf8f3e7cb5d1759cbeb33a3a7aeb9dc320acf4.pdf",
       "originalName": "R2_I.pdf",
       "sha256": "3e43f18be0ae94608847eda89ccf8f3e7cb5d1759cbeb33a3a7aeb9dc320acf4",
       "byteSize": 273814,
@@ -979,7 +979,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/4b8e1024d7a9d3b4fa092c59592e708e7345654f737df7b391f14ed9bd42dd7e.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4b8e1024d7a9d3b4fa092c59592e708e7345654f737df7b391f14ed9bd42dd7e.pdf",
       "originalName": "r3_2.pdf",
       "sha256": "4b8e1024d7a9d3b4fa092c59592e708e7345654f737df7b391f14ed9bd42dd7e",
       "byteSize": 89349,
@@ -991,7 +991,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/7980a992bc3105ad49f2187c1caa3d35f46849956b4c7c156f68d18af77d9593.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7980a992bc3105ad49f2187c1caa3d35f46849956b4c7c156f68d18af77d9593.pdf",
       "originalName": "r3_1.pdf",
       "sha256": "7980a992bc3105ad49f2187c1caa3d35f46849956b4c7c156f68d18af77d9593",
       "byteSize": 206764,
@@ -1003,7 +1003,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/26b606bd132eaa72e2d83d47760ca294013ec3402e6f9465b62526ea350a7595.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/26b606bd132eaa72e2d83d47760ca294013ec3402e6f9465b62526ea350a7595.pdf",
       "originalName": "r4_2.pdf",
       "sha256": "26b606bd132eaa72e2d83d47760ca294013ec3402e6f9465b62526ea350a7595",
       "byteSize": 757077,
@@ -1015,7 +1015,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c168fd01c5ad41a25da4f2803e036c4ba29e1742b5c1d067bac0f1ce7d649dda.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c168fd01c5ad41a25da4f2803e036c4ba29e1742b5c1d067bac0f1ce7d649dda.pdf",
       "originalName": "r4_1.pdf",
       "sha256": "c168fd01c5ad41a25da4f2803e036c4ba29e1742b5c1d067bac0f1ce7d649dda",
       "byteSize": 407938,
@@ -1027,7 +1027,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a9be7b3fc9da50eb44243f7f83126eac6fcf4f5c9140efa5a79551c4c6cbd875.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a9be7b3fc9da50eb44243f7f83126eac6fcf4f5c9140efa5a79551c4c6cbd875.pdf",
       "originalName": "r5_2.pdf",
       "sha256": "a9be7b3fc9da50eb44243f7f83126eac6fcf4f5c9140efa5a79551c4c6cbd875",
       "byteSize": 197739,
@@ -1039,7 +1039,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/086f840f1d36e9e9e4f24e90dd88e53c936173aeff20b32de81c0d5b130f39de.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/086f840f1d36e9e9e4f24e90dd88e53c936173aeff20b32de81c0d5b130f39de.pdf",
       "originalName": "r5_1.pdf",
       "sha256": "086f840f1d36e9e9e4f24e90dd88e53c936173aeff20b32de81c0d5b130f39de",
       "byteSize": 192139,
@@ -1051,7 +1051,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/240d68604f6c98870c08f704f04ffb5a6ca5971bacb3526f4f8482fd87d4576c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/240d68604f6c98870c08f704f04ffb5a6ca5971bacb3526f4f8482fd87d4576c.pdf",
       "originalName": "r6_2.pdf",
       "sha256": "240d68604f6c98870c08f704f04ffb5a6ca5971bacb3526f4f8482fd87d4576c",
       "byteSize": 481211,
@@ -1063,7 +1063,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f1d36463529da37dabbb29b8eac4749f091e6bcd9c37824828c84c90b6a45025.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f1d36463529da37dabbb29b8eac4749f091e6bcd9c37824828c84c90b6a45025.pdf",
       "originalName": "r6_1.pdf",
       "sha256": "f1d36463529da37dabbb29b8eac4749f091e6bcd9c37824828c84c90b6a45025",
       "byteSize": 275206,
@@ -1075,7 +1075,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/7ff72356cb3c1be2cfbc44f19c2edc8f34239ef98b7e1a453e3985e073bc9a3b.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7ff72356cb3c1be2cfbc44f19c2edc8f34239ef98b7e1a453e3985e073bc9a3b.pdf",
       "originalName": "r7_2.pdf",
       "sha256": "7ff72356cb3c1be2cfbc44f19c2edc8f34239ef98b7e1a453e3985e073bc9a3b",
       "byteSize": 900691,
@@ -1087,7 +1087,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/d96752f810cc193ba1aa3002504e136aeebd58f61847d535a61cfa59c2e88276.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d96752f810cc193ba1aa3002504e136aeebd58f61847d535a61cfa59c2e88276.pdf",
       "originalName": "r7_1.pdf",
       "sha256": "d96752f810cc193ba1aa3002504e136aeebd58f61847d535a61cfa59c2e88276",
       "byteSize": 429883,
@@ -1099,7 +1099,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a59e552c402e5ce16a341f2bfd913e58b098202a5db6f6114d90da32b8b112f3.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a59e552c402e5ce16a341f2bfd913e58b098202a5db6f6114d90da32b8b112f3.pdf",
       "originalName": "5_Information engineering_2021_JA.pdf",
       "sha256": "a59e552c402e5ce16a341f2bfd913e58b098202a5db6f6114d90da32b8b112f3",
       "byteSize": 9824372,
@@ -1111,7 +1111,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/0a027cba822ec8f263a8e5f60c157abf70765f2d460cccf17a81cd9eaddddc01.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0a027cba822ec8f263a8e5f60c157abf70765f2d460cccf17a81cd9eaddddc01.pdf",
       "originalName": "5_Information engineering_2022_JA.pdf",
       "sha256": "0a027cba822ec8f263a8e5f60c157abf70765f2d460cccf17a81cd9eaddddc01",
       "byteSize": 1767175,
@@ -1124,7 +1124,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a4e17c0bddbf08251010278863404a2694744fdf522922fb29322584e459e646.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a4e17c0bddbf08251010278863404a2694744fdf522922fb29322584e459e646.pdf",
       "originalName": "5_Information_engineering_2023_JA.pdf",
       "sha256": "a4e17c0bddbf08251010278863404a2694744fdf522922fb29322584e459e646",
       "byteSize": 1589715,
@@ -1136,7 +1136,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10.pdf",
       "originalName": "5_Information engineering_2024_JA.pdf",
       "sha256": "813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10",
       "byteSize": 13866460,
@@ -1148,7 +1148,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/89e91ff6e66e3eb2f9ce648201cc873de0b4bf13bd8c3c2b2e1a1ca9bf016d52.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/89e91ff6e66e3eb2f9ce648201cc873de0b4bf13bd8c3c2b2e1a1ca9bf016d52.pdf",
       "originalName": "5_Information engineering_2025_JA.pdf",
       "sha256": "89e91ff6e66e3eb2f9ce648201cc873de0b4bf13bd8c3c2b2e1a1ca9bf016d52",
       "byteSize": 1749345,
@@ -1160,7 +1160,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a.pdf",
       "originalName": "mondaiA03.pdf",
       "sha256": "1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a",
       "byteSize": 52523,
@@ -1172,7 +1172,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312.pdf",
       "originalName": "mondaiB03.pdf",
       "sha256": "5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312",
       "byteSize": 50260,
@@ -1184,7 +1184,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9.pdf",
       "originalName": "mondaiA05.pdf",
       "sha256": "dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9",
       "byteSize": 89372,
@@ -1196,7 +1196,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401.pdf",
       "originalName": "mondaiB05.pdf",
       "sha256": "f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401",
       "byteSize": 109637,
@@ -1208,7 +1208,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2.pdf",
       "originalName": "H17MathA.pdf",
       "sha256": "940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2",
       "byteSize": 403673,
@@ -1220,7 +1220,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173.pdf",
       "originalName": "H17MathB.pdf",
       "sha256": "20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173",
       "byteSize": 677945,
@@ -1232,7 +1232,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac.pdf",
       "originalName": "H18mathA.pdf",
       "sha256": "ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac",
       "byteSize": 73583,
@@ -1244,7 +1244,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb.pdf",
       "originalName": "H18mathB.pdf",
       "sha256": "65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb",
       "byteSize": 54533,
@@ -1256,7 +1256,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45.pdf",
       "originalName": "H19mathA.pdf",
       "sha256": "cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45",
       "byteSize": 28662,
@@ -1268,7 +1268,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748.pdf",
       "originalName": "H19mathB.pdf",
       "sha256": "cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748",
       "byteSize": 24382,
@@ -1280,7 +1280,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7.pdf",
       "originalName": "matha-08.pdf",
       "sha256": "456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7",
       "byteSize": 37032,
@@ -1292,7 +1292,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540.pdf",
       "originalName": "mathb-08.pdf",
       "sha256": "a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540",
       "byteSize": 32423,
@@ -1304,7 +1304,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde.pdf",
       "originalName": "A1.pdf",
       "sha256": "a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde",
       "byteSize": 33912,
@@ -1316,7 +1316,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4.pdf",
       "originalName": "B1.pdf",
       "sha256": "878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4",
       "byteSize": 31999,
@@ -1328,7 +1328,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23.pdf",
       "originalName": "A.pdf",
       "sha256": "c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23",
       "byteSize": 34778,
@@ -1340,7 +1340,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6.pdf",
       "originalName": "B.pdf",
       "sha256": "e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6",
       "byteSize": 29059,
@@ -1352,7 +1352,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297.pdf",
       "originalName": "2011A.pdf",
       "sha256": "ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297",
       "byteSize": 29040,
@@ -1364,7 +1364,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a.pdf",
       "originalName": "2011B.pdf",
       "sha256": "bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a",
       "byteSize": 30587,
@@ -1376,7 +1376,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216.pdf",
       "originalName": "2012A.pdf",
       "sha256": "48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216",
       "byteSize": 31151,
@@ -1388,7 +1388,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558.pdf",
       "originalName": "2012B.pdf",
       "sha256": "67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558",
       "byteSize": 33887,
@@ -1400,7 +1400,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe.pdf",
       "originalName": "2013A.pdf",
       "sha256": "c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe",
       "byteSize": 64912,
@@ -1412,7 +1412,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136.pdf",
       "originalName": "2013B.pdf",
       "sha256": "973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136",
       "byteSize": 45307,
@@ -1424,7 +1424,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec.pdf",
       "originalName": "2014A.pdf",
       "sha256": "57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec",
       "byteSize": 65089,
@@ -1436,7 +1436,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c.pdf",
       "originalName": "2014B.pdf",
       "sha256": "0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c",
       "byteSize": 58899,
@@ -1448,7 +1448,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040.pdf",
       "originalName": "2015A.pdf",
       "sha256": "384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040",
       "byteSize": 24964,
@@ -1460,7 +1460,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27.pdf",
       "originalName": "2015B.pdf",
       "sha256": "a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27",
       "byteSize": 24538,
@@ -1472,7 +1472,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033.pdf",
       "originalName": "2016A.pdf",
       "sha256": "902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033",
       "byteSize": 77922,
@@ -1484,7 +1484,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26.pdf",
       "originalName": "2016B.pdf",
       "sha256": "448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26",
       "byteSize": 95269,
@@ -1496,7 +1496,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0.pdf",
       "originalName": "2017A.pdf",
       "sha256": "fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0",
       "byteSize": 21684,
@@ -1508,7 +1508,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632.pdf",
       "originalName": "2017B.pdf",
       "sha256": "9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632",
       "byteSize": 34774,
@@ -1520,7 +1520,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462.pdf",
       "originalName": "2018A.pdf",
       "sha256": "b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462",
       "byteSize": 81752,
@@ -1532,7 +1532,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8.pdf",
       "originalName": "2018B.pdf",
       "sha256": "243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8",
       "byteSize": 158359,
@@ -1544,7 +1544,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf.pdf",
       "originalName": "2019A.pdf",
       "sha256": "e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf",
       "byteSize": 262372,
@@ -1556,7 +1556,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7.pdf",
       "originalName": "2019B.pdf",
       "sha256": "6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7",
       "byteSize": 432829,
@@ -1568,7 +1568,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254.pdf",
       "originalName": "2020A.pdf",
       "sha256": "7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254",
       "byteSize": 49078,
@@ -1580,7 +1580,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c.pdf",
       "originalName": "2020B.pdf",
       "sha256": "c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c",
       "byteSize": 83172,
@@ -1592,7 +1592,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507.pdf",
       "originalName": "2022A.pdf",
       "sha256": "c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507",
       "byteSize": 92676,
@@ -1604,7 +1604,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f.pdf",
       "originalName": "2022B.pdf",
       "sha256": "fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f",
       "byteSize": 161373,
@@ -1616,7 +1616,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2.pdf",
       "originalName": "2023A.pdf",
       "sha256": "061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2",
       "byteSize": 64975,
@@ -1628,7 +1628,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9.pdf",
       "originalName": "2023B.pdf",
       "sha256": "609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9",
       "byteSize": 95862,
@@ -1640,7 +1640,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9.pdf",
       "originalName": "2024A.pdf",
       "sha256": "5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9",
       "byteSize": 80445,
@@ -1652,7 +1652,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364.pdf",
       "originalName": "2024B.pdf",
       "sha256": "b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364",
       "byteSize": 103725,
@@ -1664,7 +1664,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e.pdf",
       "originalName": "2025A.pdf",
       "sha256": "8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e",
       "byteSize": 69885,
@@ -1676,7 +1676,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec.pdf",
       "originalName": "2025B.pdf",
       "sha256": "04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec",
       "byteSize": 74309,
@@ -1688,7 +1688,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380.pdf",
       "originalName": "2026A.pdf",
       "sha256": "25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380",
       "byteSize": 74710,
@@ -1700,7 +1700,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594.pdf",
       "originalName": "2026B.pdf",
       "sha256": "a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594",
       "byteSize": 83941,
@@ -1712,7 +1712,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa.pdf",
       "originalName": "H17nijiboshu.pdf",
       "sha256": "7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa",
       "byteSize": 48984,
@@ -1724,7 +1724,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8.pdf",
       "originalName": "H18nijiboshu.pdf",
       "sha256": "a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8",
       "byteSize": 21111,
@@ -1736,7 +1736,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813.pdf",
       "originalName": "H19nijiboshu.pdf",
       "sha256": "b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813",
       "byteSize": 43059,
@@ -1748,7 +1748,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a.pdf",
       "originalName": "nijiboshu-08.pdf",
       "sha256": "b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a",
       "byteSize": 34791,
@@ -1760,7 +1760,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c.pdf",
       "originalName": "nijiboshu.pdf",
       "sha256": "925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c",
       "byteSize": 190102,
@@ -1772,7 +1772,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796.pdf",
       "originalName": "2ji.pdf",
       "sha256": "fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796",
       "byteSize": 26173,
@@ -1784,7 +1784,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035.pdf",
       "originalName": "2011niji.pdf",
       "sha256": "156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035",
       "byteSize": 17797,
@@ -1796,7 +1796,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62.pdf",
       "originalName": "2012niji.pdf",
       "sha256": "809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62",
       "byteSize": 145604,
@@ -1808,7 +1808,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb.pdf",
       "originalName": "2013niji.pdf",
       "sha256": "83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb",
       "byteSize": 44603,
@@ -1820,7 +1820,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc.pdf",
       "originalName": "2014niji.pdf",
       "sha256": "f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc",
       "byteSize": 61365,
@@ -1832,7 +1832,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a.pdf",
       "originalName": "2015niji.pdf",
       "sha256": "abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a",
       "byteSize": 22626,
@@ -1844,7 +1844,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a.pdf",
       "originalName": "2022-2.pdf",
       "sha256": "cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a",
       "byteSize": 90678,
@@ -1856,7 +1856,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5.pdf",
       "originalName": "2023-2.pdf",
       "sha256": "648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5",
       "byteSize": 83530,
@@ -1868,7 +1868,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54.pdf",
       "originalName": "2025-2.pdf",
       "sha256": "22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54",
       "byteSize": 46796,
@@ -1880,7 +1880,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548.pdf",
       "originalName": "2026-2.pdf",
       "sha256": "0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548",
       "byteSize": 62776,
@@ -1892,7 +1892,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37.pdf",
       "originalName": "physics1998A1.pdf",
       "sha256": "bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37",
       "byteSize": 80008,
@@ -1904,7 +1904,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d.pdf",
       "originalName": "physics1998A2.pdf",
       "sha256": "96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d",
       "byteSize": 71314,
@@ -1916,7 +1916,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca.pdf",
       "originalName": "physics1998B.pdf",
       "sha256": "2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca",
       "byteSize": 418246,
@@ -1928,7 +1928,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653.pdf",
       "originalName": "physics1999A1.pdf",
       "sha256": "a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653",
       "byteSize": 86034,
@@ -1940,7 +1940,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da.pdf",
       "originalName": "physics1999A2.pdf",
       "sha256": "c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da",
       "byteSize": 70706,
@@ -1952,7 +1952,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b.pdf",
       "originalName": "physics1999B.pdf",
       "sha256": "d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b",
       "byteSize": 294894,
@@ -1964,7 +1964,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03.pdf",
       "originalName": "physics2000A.pdf",
       "sha256": "584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03",
       "byteSize": 46670,
@@ -1976,7 +1976,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd.pdf",
       "originalName": "physics2000B.pdf",
       "sha256": "8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd",
       "byteSize": 86246,
@@ -1988,7 +1988,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f.pdf",
       "originalName": "physics2001A.pdf",
       "sha256": "922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f",
       "byteSize": 66891,
@@ -2000,7 +2000,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16.pdf",
       "originalName": "physics2001B.pdf",
       "sha256": "5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16",
       "byteSize": 352459,
@@ -2012,7 +2012,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880.pdf",
       "originalName": "physics2002A.pdf",
       "sha256": "70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880",
       "byteSize": 78854,
@@ -2024,7 +2024,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a.pdf",
       "originalName": "physics2002B.pdf",
       "sha256": "8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a",
       "byteSize": 565226,
@@ -2036,7 +2036,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68.pdf",
       "originalName": "physics2003.pdf",
       "sha256": "d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68",
       "byteSize": 114024,
@@ -2048,7 +2048,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041.pdf",
       "originalName": "physics2004.pdf",
       "sha256": "98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041",
       "byteSize": 46839,
@@ -2060,7 +2060,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1.pdf",
       "originalName": "physics2005.pdf",
       "sha256": "b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1",
       "byteSize": 296417,
@@ -2072,7 +2072,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24.pdf",
       "originalName": "physics2006.pdf",
       "sha256": "e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24",
       "byteSize": 138938,
@@ -2084,7 +2084,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990.pdf",
       "originalName": "physics2007.pdf",
       "sha256": "91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990",
       "byteSize": 191442,
@@ -2096,7 +2096,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7.pdf",
       "originalName": "physics2008.pdf",
       "sha256": "cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7",
       "byteSize": 124067,
@@ -2108,7 +2108,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38.pdf",
       "originalName": "physics2009.pdf",
       "sha256": "c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38",
       "byteSize": 646991,
@@ -2120,7 +2120,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750.pdf",
       "originalName": "physics2010.pdf",
       "sha256": "0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750",
       "byteSize": 213028,
@@ -2132,7 +2132,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81.pdf",
       "originalName": "physics2011.pdf",
       "sha256": "770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81",
       "byteSize": 79643,
@@ -2144,7 +2144,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d.pdf",
       "originalName": "physics2012.pdf",
       "sha256": "34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d",
       "byteSize": 385504,
@@ -2156,7 +2156,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86.pdf",
       "originalName": "physics2013.pdf",
       "sha256": "97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86",
       "byteSize": 1177714,
@@ -2168,7 +2168,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f.pdf",
       "originalName": "physics2014.pdf",
       "sha256": "e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f",
       "byteSize": 552961,
@@ -2180,7 +2180,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476.pdf",
       "originalName": "physics2015.pdf",
       "sha256": "dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476",
       "byteSize": 927454,
@@ -2192,7 +2192,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0.pdf",
       "originalName": "physics2016.pdf",
       "sha256": "8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0",
       "byteSize": 97923,
@@ -2204,7 +2204,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278.pdf",
       "originalName": "physics2017.pdf",
       "sha256": "2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278",
       "byteSize": 134880,
@@ -2216,7 +2216,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072.pdf",
       "originalName": "physics2018.pdf",
       "sha256": "2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072",
       "byteSize": 479161,
@@ -2228,7 +2228,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180.pdf",
       "originalName": "physics2019.pdf",
       "sha256": "1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180",
       "byteSize": 374006,
@@ -2240,7 +2240,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8.pdf",
       "originalName": "physics2020.pdf",
       "sha256": "00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8",
       "byteSize": 686345,
@@ -2252,7 +2252,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c.pdf",
       "originalName": "physics2021.pdf",
       "sha256": "70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c",
       "byteSize": 1199427,
@@ -2264,7 +2264,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c.pdf",
       "originalName": "physics2022.pdf",
       "sha256": "fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c",
       "byteSize": 910900,
@@ -2276,7 +2276,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536.pdf",
       "originalName": "physics2023.pdf",
       "sha256": "ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536",
       "byteSize": 468080,
@@ -2288,7 +2288,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd.pdf",
       "originalName": "physics2024.pdf",
       "sha256": "f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd",
       "byteSize": 675583,
@@ -2300,7 +2300,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73.pdf",
       "originalName": "physics2025.pdf",
       "sha256": "03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73",
       "byteSize": 538946,
@@ -2312,7 +2312,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36.pdf",
       "originalName": "r04.pdf",
       "sha256": "e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36",
       "byteSize": 131935,
@@ -2324,7 +2324,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94.pdf",
       "originalName": "r05.pdf",
       "sha256": "eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94",
       "byteSize": 114951,
@@ -2336,7 +2336,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c.pdf",
       "originalName": "r06.pdf",
       "sha256": "ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c",
       "byteSize": 147071,
@@ -2348,7 +2348,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823.pdf",
       "originalName": "r07.pdf",
       "sha256": "7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823",
       "byteSize": 176701,
@@ -2360,7 +2360,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a.pdf",
       "originalName": "r08.pdf",
       "sha256": "f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a",
       "byteSize": 140951,
@@ -2372,7 +2372,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895.pdf",
       "originalName": "R04_1.pdf",
       "sha256": "0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895",
       "byteSize": 514883,
@@ -2384,7 +2384,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083.pdf",
       "originalName": "R04_2.pdf",
       "sha256": "e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083",
       "byteSize": 956091,
@@ -2396,7 +2396,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7.pdf",
       "originalName": "R05_1.pdf",
       "sha256": "522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7",
       "byteSize": 1571550,
@@ -2408,7 +2408,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497.pdf",
       "originalName": "R05_2.pdf",
       "sha256": "7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497",
       "byteSize": 364050,
@@ -2420,7 +2420,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d.pdf",
       "originalName": "R06_1.pdf",
       "sha256": "76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d",
       "byteSize": 295552,
@@ -2432,7 +2432,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a.pdf",
       "originalName": "R06_2.pdf",
       "sha256": "583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a",
       "byteSize": 214878,
@@ -2444,7 +2444,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e.pdf",
       "originalName": "R07_1.pdf",
       "sha256": "f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e",
       "byteSize": 283346,
@@ -2456,7 +2456,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac.pdf",
       "originalName": "R07_2.pdf",
       "sha256": "2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac",
       "byteSize": 1066391,
@@ -2468,7 +2468,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb.pdf",
       "originalName": "R08_1.pdf",
       "sha256": "6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb",
       "byteSize": 270099,
@@ -2480,7 +2480,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c.pdf",
       "originalName": "R08_2.pdf",
       "sha256": "dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c",
       "byteSize": 319156,
@@ -2492,7 +2492,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7.pdf",
       "originalName": "MA_nyushi_2005_JA.pdf",
       "sha256": "5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7",
       "byteSize": 32619,
@@ -2504,7 +2504,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819.pdf",
       "originalName": "MA_nyushi_2006_JA.pdf",
       "sha256": "047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819",
       "byteSize": 22505,
@@ -2516,7 +2516,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c.pdf",
       "originalName": "MA_nyushi_2007_JA.pdf",
       "sha256": "2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c",
       "byteSize": 99520,
@@ -2528,7 +2528,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756.pdf",
       "originalName": "MA_nyushi_2008_JA.pdf",
       "sha256": "f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756",
       "byteSize": 105447,
@@ -2540,7 +2540,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200.pdf",
       "originalName": "MA_nyushi_2009_JA.pdf",
       "sha256": "aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200",
       "byteSize": 18600,
@@ -2552,7 +2552,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8.pdf",
       "originalName": "MA_nyushi_2010_JA.pdf",
       "sha256": "df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8",
       "byteSize": 27796,
@@ -2564,7 +2564,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6.pdf",
       "originalName": "MA_nyushi_2011_JA.pdf",
       "sha256": "a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6",
       "byteSize": 48443,
@@ -2576,7 +2576,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af.pdf",
       "originalName": "MA_nyushi_2012_JA.pdf",
       "sha256": "c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af",
       "byteSize": 55755,
@@ -2588,7 +2588,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf.pdf",
       "originalName": "MA_nyushi_2013_JA.pdf",
       "sha256": "d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf",
       "byteSize": 43062,
@@ -2600,7 +2600,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31.pdf",
       "originalName": "MA_nyushi_2014_JA.pdf",
       "sha256": "af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31",
       "byteSize": 89826,
@@ -2612,7 +2612,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021.pdf",
       "originalName": "MA_nyushi_2015_JA.pdf",
       "sha256": "199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021",
       "byteSize": 75395,
@@ -2624,7 +2624,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d.pdf",
       "originalName": "MA_nyushi_2016_JA.pdf",
       "sha256": "f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d",
       "byteSize": 82195,
@@ -2636,7 +2636,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6.pdf",
       "originalName": "MA_nyushi_2017_JA.pdf",
       "sha256": "9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6",
       "byteSize": 490666,
@@ -2648,7 +2648,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33.pdf",
       "originalName": "MA_nyushi_2018_JA.pdf",
       "sha256": "ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33",
       "byteSize": 41037,
@@ -2660,7 +2660,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6.pdf",
       "originalName": "MA_nyushi_2019_JA.pdf",
       "sha256": "5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6",
       "byteSize": 36413,
@@ -2672,7 +2672,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257.pdf",
       "originalName": "MA_nyushi_2020_JA.pdf",
       "sha256": "859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257",
       "byteSize": 37442,
@@ -2684,7 +2684,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca.pdf",
       "originalName": "MA_nyushi_2021_JA.pdf",
       "sha256": "b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca",
       "byteSize": 161999,
@@ -2696,7 +2696,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4.pdf",
       "originalName": "MA_nyushi_2022_JA.pdf",
       "sha256": "70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4",
       "byteSize": 47141,
@@ -2708,7 +2708,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572.pdf",
       "originalName": "MA_nyushi_2023_JA.pdf",
       "sha256": "884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572",
       "byteSize": 211264,
@@ -2720,7 +2720,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39.pdf",
       "originalName": "MA_nyushi_2024_JA.pdf",
       "sha256": "8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39",
       "byteSize": 1285755,
@@ -2732,7 +2732,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa.pdf",
       "originalName": "MA_nyushi_2025_JA.pdf",
       "sha256": "a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa",
       "byteSize": 195968,
@@ -2744,7 +2744,7 @@
       "sourceType": "用户Google Drive原件；核对卷面年度、科目及实际PDF页码"
     },
     {
-      "path": "assets/past-papers/documents/ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148.pdf",
       "originalName": "信息通信工学.pdf",
       "sha256": "ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148",
       "byteSize": 335632,
@@ -2756,7 +2756,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3.pdf",
       "originalName": "回路理论.pdf",
       "sha256": "c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3",
       "byteSize": 134590,
@@ -2768,7 +2768,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1.pdf",
       "originalName": "数学.pdf",
       "sha256": "04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1",
       "byteSize": 113873,
@@ -2780,7 +2780,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684.pdf",
       "originalName": "电磁理论.pdf",
       "sha256": "bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684",
       "byteSize": 292440,
@@ -2792,7 +2792,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21.pdf",
       "originalName": "电磁能源工学.pdf",
       "sha256": "ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21",
       "byteSize": 325461,
@@ -2804,7 +2804,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b.pdf",
       "originalName": "系统控制.pdf",
       "sha256": "1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b",
       "byteSize": 375010,
@@ -2816,7 +2816,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/9c9bbb25b82d941df363fcfb615c7af52bd3d840d82ffc04566c6ce822ddeb7d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9c9bbb25b82d941df363fcfb615c7af52bd3d840d82ffc04566c6ce822ddeb7d.pdf",
       "originalName": "量子电子物性.pdf",
       "sha256": "9c9bbb25b82d941df363fcfb615c7af52bd3d840d82ffc04566c6ce822ddeb7d",
       "byteSize": 391726,
@@ -2828,7 +2828,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f.pdf",
       "originalName": "信息通信工学.pdf",
       "sha256": "d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f",
       "byteSize": 575114,
@@ -2840,7 +2840,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09.pdf",
       "originalName": "回路理论.pdf",
       "sha256": "f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09",
       "byteSize": 112024,
@@ -2852,7 +2852,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/095ebb51059c84f3c0776a0e94a885e1d423d790dd7b1f8486983c1b120b7a8d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/095ebb51059c84f3c0776a0e94a885e1d423d790dd7b1f8486983c1b120b7a8d.pdf",
       "originalName": "数学.pdf",
       "sha256": "095ebb51059c84f3c0776a0e94a885e1d423d790dd7b1f8486983c1b120b7a8d",
       "byteSize": 137958,
@@ -2864,7 +2864,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13.pdf",
       "originalName": "电磁理论.pdf",
       "sha256": "483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13",
       "byteSize": 426322,
@@ -2876,7 +2876,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9.pdf",
       "originalName": "电磁能源工学.pdf",
       "sha256": "9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9",
       "byteSize": 441527,
@@ -2888,7 +2888,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178.pdf",
       "originalName": "系统控制.pdf",
       "sha256": "3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178",
       "byteSize": 517128,
@@ -2900,7 +2900,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc.pdf",
       "originalName": "量子电子物性.pdf",
       "sha256": "da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc",
       "byteSize": 447420,
@@ -2912,7 +2912,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4.pdf",
       "originalName": "信息通信工学.pdf",
       "sha256": "c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4",
       "byteSize": 334485,
@@ -2924,7 +2924,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df.pdf",
       "originalName": "回路理论.pdf",
       "sha256": "f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df",
       "byteSize": 322694,
@@ -2936,7 +2936,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06.pdf",
       "originalName": "数学.pdf",
       "sha256": "c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06",
       "byteSize": 74079,
@@ -2948,7 +2948,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355.pdf",
       "originalName": "电磁理论.pdf",
       "sha256": "e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355",
       "byteSize": 510720,
@@ -2960,7 +2960,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5.pdf",
       "originalName": "电磁能源工学.pdf",
       "sha256": "946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5",
       "byteSize": 494696,
@@ -2972,7 +2972,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/9fa8c85d1dd1dc5a77d6a4ed0de9bcb7d76092f92b9fb68f9d587eec3053c4cf.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9fa8c85d1dd1dc5a77d6a4ed0de9bcb7d76092f92b9fb68f9d587eec3053c4cf.pdf",
       "originalName": "系统控制.pdf",
       "sha256": "9fa8c85d1dd1dc5a77d6a4ed0de9bcb7d76092f92b9fb68f9d587eec3053c4cf",
       "byteSize": 319843,
@@ -2984,7 +2984,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3.pdf",
       "originalName": "量子电子物性.pdf",
       "sha256": "0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3",
       "byteSize": 445114,
@@ -2996,7 +2996,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/3ec39739b5f1d3e8eb27a4cc9d720f2040d75c0be1d23273aa80aab75be877f2.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3ec39739b5f1d3e8eb27a4cc9d720f2040d75c0be1d23273aa80aab75be877f2.pdf",
       "originalName": "信息通信工学.pdf",
       "sha256": "3ec39739b5f1d3e8eb27a4cc9d720f2040d75c0be1d23273aa80aab75be877f2",
       "byteSize": 915105,
@@ -3008,7 +3008,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7.pdf",
       "originalName": "回路理论.pdf",
       "sha256": "59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7",
       "byteSize": 367071,
@@ -3020,7 +3020,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a.pdf",
       "originalName": "数学.pdf",
       "sha256": "b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a",
       "byteSize": 293640,
@@ -3032,7 +3032,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2.pdf",
       "originalName": "电磁理论.pdf",
       "sha256": "2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2",
       "byteSize": 773328,
@@ -3044,7 +3044,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356.pdf",
       "originalName": "电磁能源工学.pdf",
       "sha256": "167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356",
       "byteSize": 1027059,
@@ -3056,7 +3056,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/6512ea340446d9a5c32a1f218e125d161170320d03b40af2ee5089813ed3d012.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6512ea340446d9a5c32a1f218e125d161170320d03b40af2ee5089813ed3d012.pdf",
       "originalName": "系统控制.pdf",
       "sha256": "6512ea340446d9a5c32a1f218e125d161170320d03b40af2ee5089813ed3d012",
       "byteSize": 960155,
@@ -3068,7 +3068,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68.pdf",
       "originalName": "量子电子物性.pdf",
       "sha256": "cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68",
       "byteSize": 996201,
@@ -3080,7 +3080,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46.pdf",
       "originalName": "信息通信工学.pdf",
       "sha256": "80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46",
       "byteSize": 568199,
@@ -3092,7 +3092,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f.pdf",
       "originalName": "回路理论.pdf",
       "sha256": "b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f",
       "byteSize": 280118,
@@ -3104,7 +3104,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca.pdf",
       "originalName": "数学.pdf",
       "sha256": "f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca",
       "byteSize": 151215,
@@ -3116,7 +3116,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d.pdf",
       "originalName": "电磁理论.pdf",
       "sha256": "a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d",
       "byteSize": 517790,
@@ -3128,7 +3128,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742.pdf",
       "originalName": "电磁能源工学.pdf",
       "sha256": "79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742",
       "byteSize": 793162,
@@ -3140,7 +3140,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950.pdf",
       "originalName": "系统控制.pdf",
       "sha256": "211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950",
       "byteSize": 581886,
@@ -3152,7 +3152,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0.pdf",
       "originalName": "量子电子物性.pdf",
       "sha256": "d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0",
       "byteSize": 280864,
@@ -3164,7 +3164,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47.pdf",
       "originalName": "信息通信工学.pdf",
       "sha256": "3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47",
       "byteSize": 451866,
@@ -3176,7 +3176,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b.pdf",
       "originalName": "回路理论.pdf",
       "sha256": "cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b",
       "byteSize": 1450315,
@@ -3188,7 +3188,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19.pdf",
       "originalName": "数学.pdf",
       "sha256": "4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19",
       "byteSize": 425849,
@@ -3200,7 +3200,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535.pdf",
       "originalName": "电磁理论.pdf",
       "sha256": "9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535",
       "byteSize": 599013,
@@ -3212,7 +3212,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4.pdf",
       "originalName": "电磁能源工学.pdf",
       "sha256": "0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4",
       "byteSize": 1484656,
@@ -3224,7 +3224,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe.pdf",
       "originalName": "系统控制.pdf",
       "sha256": "89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe",
       "byteSize": 352772,
@@ -3236,7 +3236,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6.pdf",
       "originalName": "量子电子物性.pdf",
       "sha256": "1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6",
       "byteSize": 340874,
@@ -3248,7 +3248,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/391b5d90f6ac7fe9df1de97337f7669356cc6005c613e672841f009f5f97caf1.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/391b5d90f6ac7fe9df1de97337f7669356cc6005c613e672841f009f5f97caf1.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "391b5d90f6ac7fe9df1de97337f7669356cc6005c613e672841f009f5f97caf1",
       "byteSize": 723090,
@@ -3260,7 +3260,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/600241f2db36eded524bebe6d53eb05cfa3dc7e031a112b273b9474d6d92a2e5.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/600241f2db36eded524bebe6d53eb05cfa3dc7e031a112b273b9474d6d92a2e5.pdf",
       "originalName": "专业_先进电磁能源工学.pdf",
       "sha256": "600241f2db36eded524bebe6d53eb05cfa3dc7e031a112b273b9474d6d92a2e5",
       "byteSize": 1140552,
@@ -3272,7 +3272,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/ad3438631da8b33b4587936fbe35486f00fcb49e2c24718df4e61e375453f784.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ad3438631da8b33b4587936fbe35486f00fcb49e2c24718df4e61e375453f784.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "ad3438631da8b33b4587936fbe35486f00fcb49e2c24718df4e61e375453f784",
       "byteSize": 633035,
@@ -3284,7 +3284,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010",
       "byteSize": 546759,
@@ -3296,7 +3296,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406",
       "byteSize": 536958,
@@ -3308,7 +3308,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/cdfbb747807371721178e6f2481d2380ba0fc482d9d49d22f5852456c6c5ea2d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cdfbb747807371721178e6f2481d2380ba0fc482d9d49d22f5852456c6c5ea2d.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "cdfbb747807371721178e6f2481d2380ba0fc482d9d49d22f5852456c6c5ea2d",
       "byteSize": 1316189,
@@ -3320,7 +3320,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/d7c825f765d6cd23331076ef325d85e994af239404ab266424f6fa087d043141.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d7c825f765d6cd23331076ef325d85e994af239404ab266424f6fa087d043141.pdf",
       "originalName": "专业_先进电磁能源工学.pdf",
       "sha256": "d7c825f765d6cd23331076ef325d85e994af239404ab266424f6fa087d043141",
       "byteSize": 801606,
@@ -3332,7 +3332,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/0593d0427af6d3475ee17f9dfff7b73d827137f812be4be6979a7450f612e9e9.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0593d0427af6d3475ee17f9dfff7b73d827137f812be4be6979a7450f612e9e9.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "0593d0427af6d3475ee17f9dfff7b73d827137f812be4be6979a7450f612e9e9",
       "byteSize": 650708,
@@ -3344,7 +3344,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01",
       "byteSize": 617611,
@@ -3356,7 +3356,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba",
       "byteSize": 364089,
@@ -3368,7 +3368,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/4be24b86b79424b11ca02566eeb3adec4f9c4d1d4fd0f318b330132cf66f1116.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4be24b86b79424b11ca02566eeb3adec4f9c4d1d4fd0f318b330132cf66f1116.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "4be24b86b79424b11ca02566eeb3adec4f9c4d1d4fd0f318b330132cf66f1116",
       "byteSize": 820393,
@@ -3380,7 +3380,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/7b33c0748c2a22fb8e43eb6c34aad129600f40cdbbf516f53f474116993ec904.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7b33c0748c2a22fb8e43eb6c34aad129600f40cdbbf516f53f474116993ec904.pdf",
       "originalName": "专业_先进电磁能源工学.pdf",
       "sha256": "7b33c0748c2a22fb8e43eb6c34aad129600f40cdbbf516f53f474116993ec904",
       "byteSize": 1146655,
@@ -3392,7 +3392,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/9ad343855a66543e4c3862810c57e71e8830d616d774aa2a222a39c187187b81.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9ad343855a66543e4c3862810c57e71e8830d616d774aa2a222a39c187187b81.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "9ad343855a66543e4c3862810c57e71e8830d616d774aa2a222a39c187187b81",
       "byteSize": 665019,
@@ -3404,7 +3404,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486",
       "byteSize": 736776,
@@ -3416,7 +3416,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c",
       "byteSize": 1380549,
@@ -3428,7 +3428,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/17db00b128c05a099d080656a515c59548209137777abd6d271d5db9a3538493.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/17db00b128c05a099d080656a515c59548209137777abd6d271d5db9a3538493.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "17db00b128c05a099d080656a515c59548209137777abd6d271d5db9a3538493",
       "byteSize": 2221684,
@@ -3440,7 +3440,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/6514f1198da2ee4c43204d24c3b6d3ae7c23b472feed3625c9fb4ade96603d39.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6514f1198da2ee4c43204d24c3b6d3ae7c23b472feed3625c9fb4ade96603d39.pdf",
       "originalName": "专业_先进电磁能源工学.pdf",
       "sha256": "6514f1198da2ee4c43204d24c3b6d3ae7c23b472feed3625c9fb4ade96603d39",
       "byteSize": 3154119,
@@ -3452,7 +3452,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/397c13434ac6d74fbe4ec0cf6c42d0ec41e5928118971702e68255c2f760dd5c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/397c13434ac6d74fbe4ec0cf6c42d0ec41e5928118971702e68255c2f760dd5c.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "397c13434ac6d74fbe4ec0cf6c42d0ec41e5928118971702e68255c2f760dd5c",
       "byteSize": 2563557,
@@ -3464,7 +3464,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508",
       "byteSize": 1813649,
@@ -3476,7 +3476,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d",
       "byteSize": 1338951,
@@ -3488,7 +3488,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/5412fc3b0bd2650b4e2fff63b5c500cbefe38923ffa01c951d2dfb86242edfd8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5412fc3b0bd2650b4e2fff63b5c500cbefe38923ffa01c951d2dfb86242edfd8.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "5412fc3b0bd2650b4e2fff63b5c500cbefe38923ffa01c951d2dfb86242edfd8",
       "byteSize": 1884068,
@@ -3500,7 +3500,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/a3c07583d5a0a8ea14def98b03ac6b375c34304955cc0cefe5e24cdb748b8c53.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a3c07583d5a0a8ea14def98b03ac6b375c34304955cc0cefe5e24cdb748b8c53.pdf",
       "originalName": "专业_先进电磁能源工学.pdf",
       "sha256": "a3c07583d5a0a8ea14def98b03ac6b375c34304955cc0cefe5e24cdb748b8c53",
       "byteSize": 1914075,
@@ -3512,7 +3512,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/e116c71b05fa89e4bb91768389e4e65d9d412e872db02a1409ec2a7d985964a8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e116c71b05fa89e4bb91768389e4e65d9d412e872db02a1409ec2a7d985964a8.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "e116c71b05fa89e4bb91768389e4e65d9d412e872db02a1409ec2a7d985964a8",
       "byteSize": 810456,
@@ -3524,7 +3524,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b",
       "byteSize": 957002,
@@ -3536,7 +3536,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb",
       "byteSize": 1305236,
@@ -3548,7 +3548,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/bfe03a0093e8767ae83830913a43258362ea13897c3df68c2b55ae9e794346bb.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bfe03a0093e8767ae83830913a43258362ea13897c3df68c2b55ae9e794346bb.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "bfe03a0093e8767ae83830913a43258362ea13897c3df68c2b55ae9e794346bb",
       "byteSize": 1100784,
@@ -3560,7 +3560,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/08c49555cd2cda068604b39d84adef9f2517bdbce2026198b8b9fd66cb7e5561.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/08c49555cd2cda068604b39d84adef9f2517bdbce2026198b8b9fd66cb7e5561.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "08c49555cd2cda068604b39d84adef9f2517bdbce2026198b8b9fd66cb7e5561",
       "byteSize": 1116585,
@@ -3572,7 +3572,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69",
       "byteSize": 6621000,
@@ -3584,7 +3584,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954",
       "byteSize": 942372,
@@ -3596,7 +3596,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/a986ec94e65061af909a675ed75b03eddfcb7ec84caa8dd2a3b49c099c6c37af.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a986ec94e65061af909a675ed75b03eddfcb7ec84caa8dd2a3b49c099c6c37af.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "a986ec94e65061af909a675ed75b03eddfcb7ec84caa8dd2a3b49c099c6c37af",
       "byteSize": 2242626,
@@ -3608,7 +3608,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/28369ed0788afc0e868a7a7e971ad5d79790b625b43493e7c71be087031329c9.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/28369ed0788afc0e868a7a7e971ad5d79790b625b43493e7c71be087031329c9.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "28369ed0788afc0e868a7a7e971ad5d79790b625b43493e7c71be087031329c9",
       "byteSize": 3832861,
@@ -3620,7 +3620,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3",
       "byteSize": 6390836,
@@ -3632,7 +3632,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf",
       "byteSize": 3162780,
@@ -3644,7 +3644,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/bad987c79b30196b979b5b0281dbeacde4b74fae4c0d30bdcbdeff7e1beea3c9.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bad987c79b30196b979b5b0281dbeacde4b74fae4c0d30bdcbdeff7e1beea3c9.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "bad987c79b30196b979b5b0281dbeacde4b74fae4c0d30bdcbdeff7e1beea3c9",
       "byteSize": 1886816,
@@ -3656,7 +3656,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/0ca9904e876148e061ee9aa93e33d53c7a9257353740feb50089bbfe5d5c94d2.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0ca9904e876148e061ee9aa93e33d53c7a9257353740feb50089bbfe5d5c94d2.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "0ca9904e876148e061ee9aa93e33d53c7a9257353740feb50089bbfe5d5c94d2",
       "byteSize": 1870706,
@@ -3668,7 +3668,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/decd1d8fa66d63cd3a1b441ddd7ede3dca3b1b5acf9b90a32ee61642f42b6391.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/decd1d8fa66d63cd3a1b441ddd7ede3dca3b1b5acf9b90a32ee61642f42b6391.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "decd1d8fa66d63cd3a1b441ddd7ede3dca3b1b5acf9b90a32ee61642f42b6391",
       "byteSize": 2638855,
@@ -3680,7 +3680,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9",
       "byteSize": 1181310,
@@ -3692,7 +3692,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/498967c62cf6f84009aa35d2381aa1e49b256b42db81a00f039738f542951cba.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/498967c62cf6f84009aa35d2381aa1e49b256b42db81a00f039738f542951cba.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "498967c62cf6f84009aa35d2381aa1e49b256b42db81a00f039738f542951cba",
       "byteSize": 389751,
@@ -3704,7 +3704,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/9d0338ad35e950dc822f0e3520468979bccf4e1c04ba66e2b73d7d38059eb9df.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9d0338ad35e950dc822f0e3520468979bccf4e1c04ba66e2b73d7d38059eb9df.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "9d0338ad35e950dc822f0e3520468979bccf4e1c04ba66e2b73d7d38059eb9df",
       "byteSize": 594819,
@@ -3716,7 +3716,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10",
       "byteSize": 765959,
@@ -3728,7 +3728,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce",
       "byteSize": 329590,
@@ -3740,7 +3740,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/343fb44c8110fedfcca19e83dcf865df01c46fa8e3608d5df5a6713cf2d002eb.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/343fb44c8110fedfcca19e83dcf865df01c46fa8e3608d5df5a6713cf2d002eb.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "343fb44c8110fedfcca19e83dcf865df01c46fa8e3608d5df5a6713cf2d002eb",
       "byteSize": 2806797,
@@ -3752,7 +3752,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/6080dbb3e63d48828ef37eefda84de2072144eca4aae345d661d6b057a77096a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6080dbb3e63d48828ef37eefda84de2072144eca4aae345d661d6b057a77096a.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "6080dbb3e63d48828ef37eefda84de2072144eca4aae345d661d6b057a77096a",
       "byteSize": 678812,
@@ -3764,7 +3764,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/92d24baf9389add5abcd28f1513709841c73b5aab9ff1c4eaee7eb20497838d4.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/92d24baf9389add5abcd28f1513709841c73b5aab9ff1c4eaee7eb20497838d4.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "92d24baf9389add5abcd28f1513709841c73b5aab9ff1c4eaee7eb20497838d4",
       "byteSize": 2218846,
@@ -3776,7 +3776,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605",
       "byteSize": 2068285,
@@ -3788,7 +3788,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/504be097a505f667d63fed11c0602656ee8fae8c2adc66c2e9d3ab5a2c7aa4b8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/504be097a505f667d63fed11c0602656ee8fae8c2adc66c2e9d3ab5a2c7aa4b8.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "504be097a505f667d63fed11c0602656ee8fae8c2adc66c2e9d3ab5a2c7aa4b8",
       "byteSize": 2031042,
@@ -3800,7 +3800,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/645f10e783d07126694f3c093123ba2061cabbb6cc87ff91230c34e34ef94281.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/645f10e783d07126694f3c093123ba2061cabbb6cc87ff91230c34e34ef94281.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "645f10e783d07126694f3c093123ba2061cabbb6cc87ff91230c34e34ef94281",
       "byteSize": 1214353,
@@ -3812,7 +3812,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929",
       "byteSize": 1622734,
@@ -3824,7 +3824,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385.pdf",
       "originalName": "共通基础科目.pdf",
       "sha256": "609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385",
       "byteSize": 1307245,
@@ -3836,7 +3836,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/b02e63e35c9914383cdf28c907e583c73c742333fef7749118c48406a097ad96.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b02e63e35c9914383cdf28c907e583c73c742333fef7749118c48406a097ad96.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "b02e63e35c9914383cdf28c907e583c73c742333fef7749118c48406a097ad96",
       "byteSize": 952842,
@@ -3848,7 +3848,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/4ca5334aa7e73c3e4c54c82319999a44b77c0fd3fe9802398e35b64701fa7570.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4ca5334aa7e73c3e4c54c82319999a44b77c0fd3fe9802398e35b64701fa7570.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "4ca5334aa7e73c3e4c54c82319999a44b77c0fd3fe9802398e35b64701fa7570",
       "byteSize": 1291724,
@@ -3860,7 +3860,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/af717f13c1258569bb53bc462d348f6286e78ceb56f1cca76eb1130c2a3f7ca2.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/af717f13c1258569bb53bc462d348f6286e78ceb56f1cca76eb1130c2a3f7ca2.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "af717f13c1258569bb53bc462d348f6286e78ceb56f1cca76eb1130c2a3f7ca2",
       "byteSize": 1414214,
@@ -3872,7 +3872,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/66d68b2f23628b89995373f48e38ddec6700b55486116077cd69baa903245806.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/66d68b2f23628b89995373f48e38ddec6700b55486116077cd69baa903245806.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "66d68b2f23628b89995373f48e38ddec6700b55486116077cd69baa903245806",
       "byteSize": 10823279,
@@ -3884,7 +3884,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/88750b29b86c3dd0da721689cb903b640f933ddebbf25237b834491fa9c00295.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/88750b29b86c3dd0da721689cb903b640f933ddebbf25237b834491fa9c00295.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "88750b29b86c3dd0da721689cb903b640f933ddebbf25237b834491fa9c00295",
       "byteSize": 16398038,
@@ -3896,7 +3896,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/c4d56831b10aa2cc082b2a18a87a5ee8e021c46721f5dcb58f3e51c1f7b6d067.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c4d56831b10aa2cc082b2a18a87a5ee8e021c46721f5dcb58f3e51c1f7b6d067.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "c4d56831b10aa2cc082b2a18a87a5ee8e021c46721f5dcb58f3e51c1f7b6d067",
       "byteSize": 18581081,
@@ -3908,7 +3908,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/5134a4e9de9f3bf04ed78d1a37029178abe0aea832bb1995ef067a608a4350f3.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5134a4e9de9f3bf04ed78d1a37029178abe0aea832bb1995ef067a608a4350f3.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "5134a4e9de9f3bf04ed78d1a37029178abe0aea832bb1995ef067a608a4350f3",
       "byteSize": 3855702,
@@ -3920,7 +3920,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/30dbdf51e274681ac249c55500d9bcff1fb9390836a183b3508df03dbb51e6be.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/30dbdf51e274681ac249c55500d9bcff1fb9390836a183b3508df03dbb51e6be.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "30dbdf51e274681ac249c55500d9bcff1fb9390836a183b3508df03dbb51e6be",
       "byteSize": 4417485,
@@ -3932,7 +3932,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/07f51b1eeed4544ce8182a486616b6387c40b3d4be596e8cdbdb6970046753b0.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/07f51b1eeed4544ce8182a486616b6387c40b3d4be596e8cdbdb6970046753b0.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "07f51b1eeed4544ce8182a486616b6387c40b3d4be596e8cdbdb6970046753b0",
       "byteSize": 5178263,
@@ -3944,7 +3944,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/a81bc58a92447f647ab795bd5e8ab575247d6331f4da4c0b529d9db76874d16a.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a81bc58a92447f647ab795bd5e8ab575247d6331f4da4c0b529d9db76874d16a.pdf",
       "originalName": "专业_信息通信工学.pdf",
       "sha256": "a81bc58a92447f647ab795bd5e8ab575247d6331f4da4c0b529d9db76874d16a",
       "byteSize": 1729267,
@@ -3956,7 +3956,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/d04fd8d2c290ce208543ee40d123ee33006d4d6e87e373977270be8c9fce6bc3.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d04fd8d2c290ce208543ee40d123ee33006d4d6e87e373977270be8c9fce6bc3.pdf",
       "originalName": "专业_电子与量子信息电子学.pdf",
       "sha256": "d04fd8d2c290ce208543ee40d123ee33006d4d6e87e373977270be8c9fce6bc3",
       "byteSize": 1831561,
@@ -3968,7 +3968,7 @@
       "sourceType": "用户提供的按实施年整理的原卷"
     },
     {
-      "path": "assets/past-papers/documents/389836765e569c7ab35b6cbec8bc799291db98d7e8c29af4fdbc0a897d094d00.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/389836765e569c7ab35b6cbec8bc799291db98d7e8c29af4fdbc0a897d094d00.pdf",
       "originalName": "专业_电气工学.pdf",
       "sha256": "389836765e569c7ab35b6cbec8bc799291db98d7e8c29af4fdbc0a897d094d00",
       "byteSize": 2066044,

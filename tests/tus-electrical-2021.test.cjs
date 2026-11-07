@@ -1,6 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const root=path.join(__dirname,'..'),catalog=require('../past-papers-data.js'),index=require('../question-bank-index.json'),api=require('../question-bank.js'),builder=require('../scripts/build-question-collections.cjs');
-const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8')),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8')),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(path.join(root,p)));
 const id='tus-electrical-2021-general',paper=read(`assets/question-bank/${id}/paper.json`),config=read(`data/question-collections/${id}.json`);
 test('2021 groups three subjects from two physical PDFs into one 11-question exam, without relabeling missing 2022',()=>{
  const scope=catalog.papers.filter(p=>p.universityId==='tus'&&p.graduateSchool==='工学研究科'&&p.department==='電気工学専攻');assert.equal(scope.some(p=>p.paperYear===2022),false);

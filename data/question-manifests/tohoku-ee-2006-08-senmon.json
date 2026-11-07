@@ -15,7 +15,7 @@
     "originalSubject": "専門科目",
     "originalMajor": "電気・通信工学専攻／電子工学専攻",
     "originalName": "200608senmon.pdf",
-    "pdf": "assets/past-papers/documents/279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af.pdf",
     "sha256": "279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af",
     "pageCount": 17,
     "note": "目录 yearBasis=exam，year 为实施年 2006，不改写成入学年。封面印「平成18年8月29日 9:30—11:30」。封面専攻为大学院工学研究科 電気・通信工学専攻／電子工学専攻。并列大学院情報科学研究科情報・生命系群（物理・情報系）。信息・生命系群不是专攻名，不另建入口。站点专攻沿用目录「電気エネルギーシステム専攻／通信工学専攻／電子工学専攻」，这不是封面原文；封面原文记在 originalMajor 与本 note。学校为目录東北大学，研究科为目录工学研究科。科目为封面与目录「専門科目」（200608senmon.pdf）。封面注意写明 7 设问中选 2 题，和文与英文并记。封面放入 commonRegions，不计大题。大题按页眉「問題」号与分野名，以及「N頁目／M頁中」；同一大题的续页并入该题，小问不拆。和文与英文属于同一大题。题页页眉印「2006年8月実施」。封面另有「平成18年度」。原 PDF 无 /Rotate，未做派生规范化。答案 PDF 不在本目录组。本目录组没有单独的外国人入试 question PDF。未做 2003–2004，未重做 2008–2026。"

@@ -1,6 +1,8 @@
 (function(root){
   'use strict';
   const domains=['u-tokyo.ac.jp','kyoto-u.ac.jp','isct.ac.jp','titech.ac.jp','waseda.jp','tus.ac.jp','osaka-u.ac.jp','tohoku.ac.jp','kyushu-u.ac.jp','hokudai.ac.jp','keio.ac.jp','sophia.ac.jp','kobe-u.ac.jp','nagoya-u.ac.jp','uec.ac.jp','tsukuba.ac.jp','hit-u.ac.jp','ynu.ac.jp','meiji.ac.jp','aoyama.ac.jp','rikkyo.ac.jp','chuo-u.ac.jp','hosei.ac.jp','chiba-u.jp','chiba-u.ac.jp'];
+  const pagesHosts=new Set(['zhang-hl-1.github.io']);
+  const pagesPath=/^\/japan-study-journal-papers-[12]\/(?:tohoku|tus|science-tokyo|kyushu|hokkaido|keio|uec|sophia|osaka|utokyo|nagoya|kobe|waseda)\/[a-f0-9]{64}\.pdf$/;
   const normalize=v=>String(v||'').normalize('NFKC').toLocaleLowerCase().replace(/\s+/g,' ').trim();
   const yearOf=p=>p.paperYear===undefined?p.examYear:p.paperYear;
   function fileURL(file){
@@ -11,7 +13,10 @@
       const url=new URL(raw,'https://study-journal.invalid/');
       if(url.username||url.password)return null;
       if(raw.startsWith('https://')){
-        if(url.protocol!=='https:'||!domains.some(d=>url.hostname===d||url.hostname.endsWith('.'+d)))return null;
+        const university=domains.some(d=>url.hostname===d||url.hostname.endsWith('.'+d));
+        const pages=pagesHosts.has(url.hostname);
+        if(url.protocol!=='https:'||!(university||pages))return null;
+        if(pages&&!pagesPath.test(url.pathname))return null;
       }else{
         const decoded=decodeURIComponent(raw.split(/[?#]/)[0]);
         if(!decoded.startsWith('assets/past-papers/')||decoded.split('/').some(p=>p==='.'||p==='..'||!p)||/[\\\u0000-\u001f]/.test(decoded)||!decoded.toLowerCase().endsWith('.pdf')||url.origin!=='https://study-journal.invalid')return null;

@@ -1,6 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const root=path.join(__dirname,'..'),index=require('../question-bank-index.json'),catalog=require('../past-papers-data.js'),api=require('../question-bank.js'),core=require('../practice-core.js');
-const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8')),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8')),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(path.join(root,p)));
 const id='tus-electrical-2016-general',paper=read(`assets/question-bank/${id}/paper.json`);
 test('2016 groups all three subjects of the single compilation into one eight-question exam',()=>{
  assert.deepEqual(index.papers.filter(e=>e.id.startsWith('tus-electrical-2016-')).map(e=>e.id),[id]);

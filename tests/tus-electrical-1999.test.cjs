@@ -1,5 +1,5 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
-const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(p));
 test('1999 preserves four complete question units at scale 4 and excludes handwritten answers',()=>{
  const p=read('assets/question-bank/tus-electrical-1999-general/paper.json');assert.equal(p.questions.length,4);assert.equal(p.source.year,1999);assert.equal(p.source.yearBasis,'academic');assert.match(p.source.note,/1998-08-03/);assert.match(p.title,/电磁原题缺失/);assert.deepEqual(p.source.subjects,['电子回路','电气回路']);assert.equal(new Set(p.source.files.map(f=>f.pdf)).size,1);assert.deepEqual(p.questions.map(q=>q.number),['1','2','1','2']);assert.deepEqual(p.questions.map(q=>q.parts[0].page),[2,2,1,1]);
  for(const f of p.source.files){assert.equal(hash(f.pdf),f.sha256);assert.equal(f.pageCount,6);const m=read(`data/question-manifests/${f.id}.json`);assert.equal(m.renderScale,4);assert.equal(m.source.yearEvidence,'cover');assert.equal(m.coverage.length,6);assert.ok(m.coverage.every(c=>c.reviewed));assert.ok(m.coverage.slice(2).every(c=>!c.questionIds.length&&/手写参考解答/.test(c.excluded)));}

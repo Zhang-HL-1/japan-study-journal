@@ -62,7 +62,7 @@
 
 共 13 组／43 个唯一 PDF、383 页，无解答。2007年8月28日一场：数学日文、数学英文、物理英文。封面实施日是平成19年8月28日，`yearBasis` 为 exam；文件名 `200709` 和随包说明里的「2007年9月」与封面不一致，以封面为准。日文物理未取得。2012–2019 各一册日英对译：2012 为第1–10问，2013–2019 为問題1–4与問題A–F。2021 英文 Problem 1–6 为正规问题，和文是参考和訳，不是完整日文试题，也不是解答。2022、2023 为問題1–6 的日文与英文分册。2024 日文在第1–14页、英文在第15–28页。这些年度的卷面没有印实施日。open_inshi 文件名 `fyYYYY` 是考试实施会计年度，`yearEvidence` 为 source-directory，不写 `admissionYears`，也不编 `examDates`。页上 Sample 或「2020年度以前」红字是样本说明，不改试题。
 
-**fy2020 没有文件，不补。** `unofficial-solutions/` 四份民间解答（h17–h20）不入库。`sources.json` 里下载失败的 2005、2006 以及 2007 日文物理没有字节，不补。未做逐题拆分。PDF 字节原样存在 `assets/past-papers/documents/<sha256>.pdf`。清单见 `assets/past-papers/utokyo-ee-import-manifest.json`。
+**fy2020 没有文件，不补。** `unofficial-solutions/` 四份民间解答（h17–h20）不入库。`sources.json` 里下载失败的 2005、2006 以及 2007 日文物理没有字节，不补。未做逐题拆分。PDF 字节原样存在 GitHub Pages：`https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/<sha256>.pdf`。清单见 `assets/past-papers/utokyo-ee-import-manifest.json`。
 
 同日补录 4 个唯一 PDF、60 页，新增 2008、2011、2025 三组，不并入已有年份，也不做逐题或解答。2008 年两册封面已印電気系工学専攻：9月1日物理・情報（日文，18页）、9月2日数学（日文，8页），`yearEvidence` 为 cover。2011 年数学（日文，9页）封面印「平成24年度」「大学院入学試験問題」「数学」，未印公历实施日、大学名和専攻名；实施年 2011 由用户确认，卷面未印该公历年，`yearEvidence` 为 user-confirmed，不把平成24年度写成实施日，也不并入 fy2012。2025 年扫描卷 25 页，用户确认年份；卷面未见实施日、年度、大学名或専攻名，不编 `examDates`。日文問題1–6在第1–12页，英文 Problem 1–6在第13–20页和第22–25页，第21页只有 Sample 水印。内容不是单独的数学或物理。补录后目录合计 16 组／47 个唯一 PDF、443 页。
 

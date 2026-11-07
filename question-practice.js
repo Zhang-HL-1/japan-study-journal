@@ -4,7 +4,7 @@
   let paper, index = 0, records = {}, recordState = { writable: true, keepFormal: false, keepLegacy: false }, storageWritable = true, focused = false, zoom = 100;
   const idPattern = /^[a-z0-9][a-z0-9-]{0,120}$/;
   const assetPattern = /^assets\/question-bank\/[a-z0-9-]+\/[a-z0-9-]+\.png$/;
-  const pdfPattern = /^assets\/past-papers\/documents\/[a-f0-9]{64}\.pdf$/;
+  const pdfPattern = /^https:\/\/zhang-hl-1\.github\.io\/japan-study-journal-papers-[12]\/(?:tohoku|tus|science-tokyo|kyushu|hokkaido|keio|uec|sophia|osaka|utokyo|nagoya|kobe|waseda)\/[a-f0-9]{64}\.pdf$/;
   const params = new URLSearchParams(location.search);
   let requested = params.get('paper');
   let aliasQuestion;

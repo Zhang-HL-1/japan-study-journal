@@ -1,5 +1,5 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
-const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(p));
 test('TUS 2004 preserves four non-English subjects and all eight complete question units',()=>{
  const id='tus-electrical-2004-general',p=read(`assets/question-bank/${id}/paper.json`),catalog=require('../past-papers-data.js').papers.find(c=>c.id===p.source.catalogId);
  assert.equal(catalog.paperYear,2004);assert.equal(catalog.yearBasis,'academic');assert.equal(catalog.department,'電気工学専攻');assert.equal(p.source.year,2004);assert.match(p.source.note,/2003-08-01/);assert.match(p.title,/英语未收录/);

@@ -23,7 +23,7 @@
   "files": [
     {
       "originalName": "FILE3207_20180416035623.pdf",
-      "path": "assets/past-papers/documents/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
       "sha256": "fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385",
       "byteSize": 2025785,
       "pages": 66,
@@ -36,7 +36,7 @@
     },
     {
       "originalName": "FILE3141_20180412062417.pdf",
-      "path": "assets/past-papers/documents/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
       "sha256": "9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00",
       "byteSize": 1970726,
       "pages": 65,
@@ -49,7 +49,7 @@
     },
     {
       "originalName": "FILE3094_20180412044349.pdf",
-      "path": "assets/past-papers/documents/abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8.pdf",
       "sha256": "abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8",
       "byteSize": 1713496,
       "pages": 53,
@@ -62,7 +62,7 @@
     },
     {
       "originalName": "2026_scitectest_sep.pdf",
-      "path": "assets/past-papers/documents/efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad.pdf",
       "sha256": "efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad",
       "byteSize": 3377903,
       "pages": 51,
@@ -76,7 +76,7 @@
     },
     {
       "originalName": "re2026_scitectest_sep_kaitorei.pdf",
-      "path": "assets/past-papers/documents/b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6.pdf",
       "sha256": "b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6",
       "byteSize": 1417911,
       "pages": 44,
@@ -91,7 +91,7 @@
     },
     {
       "originalName": "2026_scitectest_feb.pdf",
-      "path": "assets/past-papers/documents/b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493.pdf",
       "sha256": "b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493",
       "byteSize": 1651265,
       "pages": 52,
@@ -105,7 +105,7 @@
     },
     {
       "originalName": "re2026_scitectest_feb_kaitorei.pdf",
-      "path": "assets/past-papers/documents/e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e.pdf",
       "sha256": "e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e",
       "byteSize": 2048001,
       "pages": 53,
@@ -141,7 +141,7 @@
       "subject": "電気・電子工学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
           "kind": "question",
           "startPage": 48,
           "endPage": 55
@@ -154,7 +154,7 @@
       "subject": "電気・電子工学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
           "kind": "question",
           "startPage": 42,
           "endPage": 49
@@ -167,7 +167,7 @@
       "subject": "電気・電子工学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8.pdf",
           "kind": "question",
           "startPage": 35,
           "endPage": 42
@@ -180,13 +180,13 @@
       "subject": "電気・電子工学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad.pdf",
           "kind": "question",
           "startPage": 11,
           "endPage": 17
         },
         {
-          "path": "assets/past-papers/documents/b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6.pdf",
           "kind": "answer",
           "startPage": 12,
           "endPage": 13
@@ -199,13 +199,13 @@
       "subject": "電気・電子工学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493.pdf",
           "kind": "question",
           "startPage": 11,
           "endPage": 17
         },
         {
-          "path": "assets/past-papers/documents/e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e.pdf",
           "kind": "answer",
           "startPage": 18,
           "endPage": 18

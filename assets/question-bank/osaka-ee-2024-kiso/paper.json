@@ -15,12 +15,12 @@
     "subject": "共通基础科目",
     "originalSubject": "基礎科目試験問題",
     "originalName": "基礎科目.pdf",
-    "pdf": "assets/past-papers/documents/4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1.pdf",
     "sha256": "4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1",
     "pageCount": 14,
     "note": "2024 年度（令和 6 年度）入試の共通基礎科目（原卷封面文字は「基礎科目試験問題」）。封面标「実施時間 9:30〜12:30」、全 9 題（数学1〜5・電磁理論1・2・電気電子回路1・2）から 5 題選択、電気工学コースは「数学1〜5 の 5 題から 3 題、及び電磁理論1・2／電気電子回路1・2 の 4 題から 2 題、合計 5 題を選択」。問題用紙は表紙や白紙を除いて 13 ページ。封面未标实施日期，不推断具体考试日。全専攻共通の原卷。原卷 /Rotate 270；本文件为逐页复原的直立副本（内嵌 JPEG 未重新压缩），坐标与页序同原卷。",
     "normalization": {
-      "derivedPdf": "assets/past-papers/documents/e7924db83984f045aba682e4a331adcf5ba7c268af71aae0c40737ca4ff14ef1.pdf",
+      "derivedPdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e7924db83984f045aba682e4a331adcf5ba7c268af71aae0c40737ca4ff14ef1.pdf",
       "derivedSha256": "e7924db83984f045aba682e4a331adcf5ba7c268af71aae0c40737ca4ff14ef1",
       "pages": [
         {

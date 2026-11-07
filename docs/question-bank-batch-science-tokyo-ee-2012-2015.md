@@ -38,18 +38,18 @@ AI visual review，2026-10-23。答案和解析未做。草稿，未合并。mai
 
 | 卷 id | year | yearBasis | catalogId | 原文件名 | PDF | 页 | 大题 | blocked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `science-tokyo-ee-2012-sugaku` | 2012 | exam | `science-tokyo-ee-2012` | `H25-amP.pdf` | `assets/past-papers/documents/400165399d4f0ed5f6b756e4fce4c572ca672e26dd48ac5fe54f107a0df11d83.pdf` | 4 | 3 | 0 |
-| `science-tokyo-ee-2012-kairo` | 2012 | exam | `science-tokyo-ee-2012` | `H25-pmP1.pdf` | `assets/past-papers/documents/ae0024f5b185db733fab6d7033b3cfb4278361b05b4d9f4bcc290e98690de058.pdf` | 5 | 4 | 0 |
-| `science-tokyo-ee-2012-denjiki` | 2012 | exam | `science-tokyo-ee-2012` | `H25-pmP2.pdf` | `assets/past-papers/documents/7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3.pdf` | 3 | 2 | 0 |
-| `science-tokyo-ee-2013-sugaku` | 2013 | exam | `science-tokyo-ee-2013` | `H26-amP.pdf` | `assets/past-papers/documents/35af31c311bee20777e24e47adb516296d8cdcd3af6a7f7ebeb876dd14960b01.pdf` | 5 | 4 | 0 |
-| `science-tokyo-ee-2013-kairo` | 2013 | exam | `science-tokyo-ee-2013` | `H26-pmP1.pdf` | `assets/past-papers/documents/17df41570186215669fca8f9f6828f3839b502370c1120b2dc7ff160270785da.pdf` | 5 | 4 | 0 |
-| `science-tokyo-ee-2013-denjiki` | 2013 | exam | `science-tokyo-ee-2013` | `H26-pmP2.pdf` | `assets/past-papers/documents/0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea.pdf` | 6 | 2 | 0 |
-| `science-tokyo-ee-2014-sugaku` | 2014 | exam | `science-tokyo-ee-2014` | `H27-amP.pdf` | `assets/past-papers/documents/e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80.pdf` | 4 | 3 | 0 |
-| `science-tokyo-ee-2014-kairo` | 2014 | exam | `science-tokyo-ee-2014` | `H27-pmP1.pdf` | `assets/past-papers/documents/47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291.pdf` | 4 | 3 | 0 |
-| `science-tokyo-ee-2014-denjiki` | 2014 | exam | `science-tokyo-ee-2014` | `H27-pmP2.pdf` | `assets/past-papers/documents/3d4e19f0cce396e016cf2aab197694e78b932c44b87f0afce1b23b8d764aa3cd.pdf` | 4 | 3 | 0 |
-| `science-tokyo-ee-2015-sugaku` | 2015 | exam | `science-tokyo-ee-2015` | `H28数学.pdf` | `assets/past-papers/documents/75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9.pdf` | 4 | 3 | 0 |
-| `science-tokyo-ee-2015-kairo` | 2015 | exam | `science-tokyo-ee-2015` | `H28回路.pdf` | `assets/past-papers/documents/a94332beb49297f04b84d48a4f30fadce2d9db308d56e5de2dee5e0e875b27a4.pdf` | 4 | 3 | 0 |
-| `science-tokyo-ee-2015-denjiki` | 2015 | exam | `science-tokyo-ee-2015` | `H28電磁気.pdf` | `assets/past-papers/documents/59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e.pdf` | 4 | 3 | 0 |
+| `science-tokyo-ee-2012-sugaku` | 2012 | exam | `science-tokyo-ee-2012` | `H25-amP.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/400165399d4f0ed5f6b756e4fce4c572ca672e26dd48ac5fe54f107a0df11d83.pdf` | 4 | 3 | 0 |
+| `science-tokyo-ee-2012-kairo` | 2012 | exam | `science-tokyo-ee-2012` | `H25-pmP1.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/ae0024f5b185db733fab6d7033b3cfb4278361b05b4d9f4bcc290e98690de058.pdf` | 5 | 4 | 0 |
+| `science-tokyo-ee-2012-denjiki` | 2012 | exam | `science-tokyo-ee-2012` | `H25-pmP2.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3.pdf` | 3 | 2 | 0 |
+| `science-tokyo-ee-2013-sugaku` | 2013 | exam | `science-tokyo-ee-2013` | `H26-amP.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/35af31c311bee20777e24e47adb516296d8cdcd3af6a7f7ebeb876dd14960b01.pdf` | 5 | 4 | 0 |
+| `science-tokyo-ee-2013-kairo` | 2013 | exam | `science-tokyo-ee-2013` | `H26-pmP1.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/17df41570186215669fca8f9f6828f3839b502370c1120b2dc7ff160270785da.pdf` | 5 | 4 | 0 |
+| `science-tokyo-ee-2013-denjiki` | 2013 | exam | `science-tokyo-ee-2013` | `H26-pmP2.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea.pdf` | 6 | 2 | 0 |
+| `science-tokyo-ee-2014-sugaku` | 2014 | exam | `science-tokyo-ee-2014` | `H27-amP.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80.pdf` | 4 | 3 | 0 |
+| `science-tokyo-ee-2014-kairo` | 2014 | exam | `science-tokyo-ee-2014` | `H27-pmP1.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291.pdf` | 4 | 3 | 0 |
+| `science-tokyo-ee-2014-denjiki` | 2014 | exam | `science-tokyo-ee-2014` | `H27-pmP2.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/3d4e19f0cce396e016cf2aab197694e78b932c44b87f0afce1b23b8d764aa3cd.pdf` | 4 | 3 | 0 |
+| `science-tokyo-ee-2015-sugaku` | 2015 | exam | `science-tokyo-ee-2015` | `H28数学.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9.pdf` | 4 | 3 | 0 |
+| `science-tokyo-ee-2015-kairo` | 2015 | exam | `science-tokyo-ee-2015` | `H28回路.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/a94332beb49297f04b84d48a4f30fadce2d9db308d56e5de2dee5e0e875b27a4.pdf` | 4 | 3 | 0 |
+| `science-tokyo-ee-2015-denjiki` | 2015 | exam | `science-tokyo-ee-2015` | `H28電磁気.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e.pdf` | 4 | 3 | 0 |
 
 封面计入共用说明，不计题。中文标题是导航，不是原题译文。
 

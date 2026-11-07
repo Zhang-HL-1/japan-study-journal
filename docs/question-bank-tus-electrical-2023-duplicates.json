@@ -5,9 +5,9 @@
   "method": "Compare every question region rendered from canonical and supplemental PDFs; preserve different covers.",
   "duplicates": [
     {
-      "canonicalPdf": "assets/past-papers/documents/89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286.pdf",
+      "canonicalPdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286.pdf",
       "canonicalSha256": "89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286",
-      "duplicatePdf": "assets/past-papers/documents/5a80437d21c857c0b4fc433eff12fa7e2783e26a3aeeb8d568125165a5db850e.pdf",
+      "duplicatePdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5a80437d21c857c0b4fc433eff12fa7e2783e26a3aeeb8d568125165a5db850e.pdf",
       "duplicateSha256": "5a80437d21c857c0b4fc433eff12fa7e2783e26a3aeeb8d568125165a5db850e",
       "paperId": "tus-electrical-2023-general-denshi",
       "collectionId": "tus-electrical-2023-general",
@@ -58,9 +58,9 @@
       ]
     },
     {
-      "canonicalPdf": "assets/past-papers/documents/bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e.pdf",
+      "canonicalPdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e.pdf",
       "canonicalSha256": "bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e",
-      "duplicatePdf": "assets/past-papers/documents/8d8281c7f8ef4039a2d5d0bc784524b7899c4a7828ed6172af236bb58f5a2859.pdf",
+      "duplicatePdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/8d8281c7f8ef4039a2d5d0bc784524b7899c4a7828ed6172af236bb58f5a2859.pdf",
       "duplicateSha256": "8d8281c7f8ef4039a2d5d0bc784524b7899c4a7828ed6172af236bb58f5a2859",
       "paperId": "tus-electrical-2023-general-kairo",
       "collectionId": "tus-electrical-2023-general",
@@ -111,9 +111,9 @@
       ]
     },
     {
-      "canonicalPdf": "assets/past-papers/documents/9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8.pdf",
+      "canonicalPdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8.pdf",
       "canonicalSha256": "9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8",
-      "duplicatePdf": "assets/past-papers/documents/5263d69b04de99da0443c6176ad7ec82f170ba7c51f7adbb7a17632a0b47883d.pdf",
+      "duplicatePdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5263d69b04de99da0443c6176ad7ec82f170ba7c51f7adbb7a17632a0b47883d.pdf",
       "duplicateSha256": "5263d69b04de99da0443c6176ad7ec82f170ba7c51f7adbb7a17632a0b47883d",
       "paperId": "tus-electrical-2023-general-denjiki",
       "collectionId": "tus-electrical-2023-general",

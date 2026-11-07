@@ -14,7 +14,7 @@
     "subject": "専門科目",
     "originalSubject": "専門科目",
     "originalName": "201403senmon.pdf",
-    "pdf": "assets/past-papers/documents/fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55.pdf",
     "sha256": "fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55",
     "pageCount": 13,
     "note": "目录 yearBasis=exam，year 为实施年 2014，不改写成入学年。页眉印「2014年3月実施」，未印専攻名；专攻沿用目录「電気エネルギーシステム専攻／通信工学専攻／電子工学専攻」，这不是页眉原文。学校为目录東北大学，研究科为目录工学研究科。科目为目录与文件名「専門科目」（201403senmon.pdf）。本册没有单独封面，也没有另一研究科的题页。大题按页眉「問題」号；同一大题的和文页与英文页合并，小问不拆。原 PDF 每页 /Rotate 为 270。原件字节未改。派生副本 assets/question-bank/tohoku-ee-2014-03-senmon/normalized.pdf 用 PyMuPDF Page.remove_rotation() 转成直立页，裁框用派生页 page.rect，并与原页旋转后的外观逐像素一致。答案 PDF 不在本目录组。未做 2003–2013，未重做 2023–2026。",

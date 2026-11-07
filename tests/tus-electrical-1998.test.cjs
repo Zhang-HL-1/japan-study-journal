@@ -1,5 +1,5 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
-const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(p));
 const id='tus-electrical-1998-general';
 test('1998 publishes only the complete original question at scale 4 and records all missing content',()=>{
  const p=read(`assets/question-bank/${id}/paper.json`),m=read(`data/question-manifests/${id}-denshi.json`),a=read('docs/question-bank-tus-electrical-1998-blocked.json');

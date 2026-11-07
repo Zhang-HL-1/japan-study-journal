@@ -14,7 +14,7 @@
     "subject": "数学・専門 I・専門 II",
     "originalSubject": "修士課程入学試験問題",
     "originalName": "2019_h31ee.pdf",
-    "pdf": "assets/past-papers/documents/3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e.pdf",
     "sha256": "3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e",
     "pageCount": 34,
     "note": "封面印「平成31年度入学試験問題」「【平成30年8月23日（木）、24日（金）】」：即 2019 年度入学、考试实施 2018-08-23/24；year 按入学年度记 2019（yearBasis=academic），实施年 2018 只记入本 note。全 34 页 = 封面 1 页 + 数学冊子 7 页（第 2–8 页：6 分野から 3 分野選択、各分野 1 大問，日英同页排版，共 6 问）+ 専門 I 冊子 9 页（第 9–17 页：A 電気回路 4 問・B 電子回路 3 問・C 制御工学 3 問，3 分野から 1 分野選択，日文页后附英文译文页）+ 専門 II 冊子 17 页（第 18–34 页：D 電磁気学 3 問・E 半導体デバイス 3 問・F 計算機工学 2 問，3 分野から 1 分野選択，日文页后附英文译文页）。正本只取日文原件页，英文翻译页（第 11、13、16、17、22–24、28–30、33、34 页）列入 coverage.excluded。第 1–8 页有可抽取文字层（数学页为日英同页），第 9–34 页为纯扫描图（文字层为空），题号、边界与图号全部依 2.5 倍渲染图目视判定。"

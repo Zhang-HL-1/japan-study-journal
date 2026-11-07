@@ -15,7 +15,7 @@
     "originalSubject": "基礎科目",
     "originalMajor": "電気系・物理情報系群",
     "originalName": "200502kiso.pdf",
-    "pdf": "assets/past-papers/documents/820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd.pdf",
     "sha256": "820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd",
     "pageCount": 12,
     "note": "目录 yearBasis=exam，year 为实施年 2005，不改写成入学年。封面印「2005年2月28日」。封面为平成17年度電気系・物理情報系群大学院入学試験問題用紙，科目基礎科目。封面未印工学研究科，也未印電気・通信工学専攻或電子工学専攻。站点专攻沿用目录「電気エネルギーシステム専攻／通信工学専攻／電子工学専攻」，这不是封面原文；封面原文记在 originalMajor 与本 note。学校为目录東北大学，研究科为目录工学研究科。同组专门科目封面日期是 2005年3月1日，仍属目录组 tohoku-ee-2005-02。封面注意写明 6 设问中选 2 题，和文与英文并记。封面放入 commonRegions，不计大题。本题页页眉只印「問題」号与「N頁目／M頁中」，未印分野名，也未印実施年月。大题按该题号合并，续页并入同一大题，小问不拆。和文与英文属于同一大题。中文标题按题面可见内容作导航，不是分野译文。原 PDF 无 /Rotate，未做派生规范化。答案 PDF 不在本目录组。本目录组没有单独的外国人入试 question PDF。未做 2003–2004，未重做 2008–2026。"

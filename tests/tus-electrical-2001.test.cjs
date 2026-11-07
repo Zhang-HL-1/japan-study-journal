@@ -1,5 +1,5 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
-const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(p));
 const id='tus-electrical-2001-general';
 test('2001 keeps two true source PDFs, eleven complete questions, and exact original pages',()=>{
  const p=read(`assets/question-bank/${id}/paper.json`),catalog=require('../past-papers-data.js').papers.find(c=>c.id===p.source.catalogId);

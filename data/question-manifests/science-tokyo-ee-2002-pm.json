@@ -14,7 +14,7 @@
     "subject": "下午专业领域",
     "originalSubject": "専門科目（午後）",
     "originalName": "H15-pm.pdf",
-    "pdf": "assets/past-papers/documents/7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906.pdf",
     "sha256": "7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906",
     "pageCount": 11,
     "note": "目录 science-tokyo-ee-2002，yearBasis=exam，目录 year/paperYear/examYear=2002，originalYear=2003年度入学，admissionYears=[2003]。封面文字层印「専門科目（午後）」「１５ 大修」「時間 13時30分～15時00分」，以及从 4 题中选 1 题。封面写明问题 4 的设问 2）使用指定解答用纸。该页是空白作图用纸，不是解答。15 大修对应目录里的 2003 年度入学。目录文件标签是下午专业领域。原 PDF 第 7 页 /Rotate 为 90，MediaBox 为横向；派生副本用 Page.remove_rotation() 转成直立页，裁框用派生页坐标。其余页旋转为 0。原 PDF 字节未改。封面没有印出大学名，也没有印出「理工学研究科」。学校名用目录 schoolId science-tokyo 对应的東京科学大学；研究科用目录的理工学研究科。专攻用目录写法「電気電子工学専攻・電子物理工学専攻」。封面印「電気電子工学」「電子物理工学」。原 PDF 没有把入学年度印成实施年。没有订正页。封面注意事项不是大题。同一页出现新的大题号时按题号切开；只有下一页没有新的大题号时才跨页合并。小问不拆题。",

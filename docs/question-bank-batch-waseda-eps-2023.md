@@ -3,7 +3,7 @@
 AI visual review，2026-10-26。1 份 question PDF、1 个目录引用、14 页、10 道完整大题；12 张 288 DPI 无损 PNG（2 张公共材料＋10 张题图），生成物 4,010,814 字节。答案、解析未制作。属于 2023–2025 三年批次，由主执行者统一登记索引、检查页面并按用户授权提交 PR 合并。
 
 - 卷 id：`waseda-eps-2023`；catalogId：`waseda-948a170556f11253`。
-- 来源：`assets/past-papers/documents/d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f.pdf`，哈希 `d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f`。
+- 来源：`https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f.pdf`，哈希 `d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f`。
 - `yearBasis=academic`，按目录 9 月入学年 2023 索引，同时保留 2024 年 4 月入学；不以封面修订日期推测考试日。
 - 基幹理工学研究科・電子物理システム学専攻一般入试。该年份目录无独立外国人卷。
 - 正文 6 页按「問」拆为力学 5 题、电磁气学 3 题、回路理论 2 题；页眉「問題番号」对应解答纸编号，不用作正文大题数。全部小问保持在原大题。

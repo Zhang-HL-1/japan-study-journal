@@ -25,7 +25,7 @@ AI visual review，2026-10-25。将同一份四页原卷合册的三科整理为
 
 电子第2题(1)明确要求填写“解答用纸上的JK激励表”。现有四页PDF仅有题目页，未附解答用纸。保留全部现有题干，并在来源说明与该题导航摘要注明；没有推测表格行列、补写缺页或生成答案。该缺件以 `blocked` 记录其补录工作，不声称解答用纸已齐全；已验证状态只确认现有原题裁图忠实。
 
-- pdf: assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf
+- pdf: https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf
 - catalogIds: [tus-686d39d7ea4967d7]
 - page: 4，电子回路第2题(1)
 - issue: 题面引用的解答用纸未包含在来源PDF内

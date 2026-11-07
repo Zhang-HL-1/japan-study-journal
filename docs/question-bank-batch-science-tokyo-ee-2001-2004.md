@@ -31,14 +31,14 @@ AI visual review，2026-10-23。答案和解析未做。草稿，未合并。mai
 
 | 卷 id | year | yearBasis | catalogId | 原文件名 | PDF | 页 | 大题 | blocked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `science-tokyo-ee-2001-am` | 2001 | exam | `science-tokyo-ee-2001` | `H14-am.pdf` | `assets/past-papers/documents/751984e2ca47d4e821133fb4ee8c3ddf9d81ce2253afa70c68060dab32ec5ad3.pdf` | 7 | 3 | 0 |
-| `science-tokyo-ee-2001-pm` | 2001 | exam | `science-tokyo-ee-2001` | `H14-pm.pdf` | `assets/past-papers/documents/356b40c2da4d19ca002a1176fe1cd031444e1098c5217bf688d8f6ed999a6304.pdf` | 10 | 4 | 0 |
-| `science-tokyo-ee-2002-am` | 2002 | exam | `science-tokyo-ee-2002` | `H15-am.pdf` | `assets/past-papers/documents/d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805.pdf` | 6 | 3 | 0 |
-| `science-tokyo-ee-2002-pm` | 2002 | exam | `science-tokyo-ee-2002` | `H15-pm.pdf` | `assets/past-papers/documents/7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906.pdf` | 11 | 4 | 0 |
-| `science-tokyo-ee-2003-am` | 2003 | exam | `science-tokyo-ee-2003` | `H16-am.pdf` | `assets/past-papers/documents/0a2de6d034c9934d6bdf532600ca708fbb8919a98e109d9bce9c9cce8413c6df.pdf` | 7 | 5 | 0 |
-| `science-tokyo-ee-2003-pm` | 2003 | exam | `science-tokyo-ee-2003` | `H16-pm.pdf` | `assets/past-papers/documents/612e2efdf52bb5204ec2d7d74e6089321d6d1549b1dbbdae6d899997fd856047.pdf` | 10 | 9 | 0 |
-| `science-tokyo-ee-2004-am` | 2004 | exam | `science-tokyo-ee-2004` | `H17-am.pdf` | `assets/past-papers/documents/9a9e5a662df3a2937e32045adb5388a1389f431c08d598685a2b906babaf7f94.pdf` | 8 | 8 | 0 |
-| `science-tokyo-ee-2004-pm` | 2004 | exam | `science-tokyo-ee-2004` | `H17-pm.pdf` | `assets/past-papers/documents/955b338886b37f3d09bf67c41227fe5c7799340978699012755093a4885cd9f0.pdf` | 10 | 9 | 0 |
+| `science-tokyo-ee-2001-am` | 2001 | exam | `science-tokyo-ee-2001` | `H14-am.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/751984e2ca47d4e821133fb4ee8c3ddf9d81ce2253afa70c68060dab32ec5ad3.pdf` | 7 | 3 | 0 |
+| `science-tokyo-ee-2001-pm` | 2001 | exam | `science-tokyo-ee-2001` | `H14-pm.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/356b40c2da4d19ca002a1176fe1cd031444e1098c5217bf688d8f6ed999a6304.pdf` | 10 | 4 | 0 |
+| `science-tokyo-ee-2002-am` | 2002 | exam | `science-tokyo-ee-2002` | `H15-am.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805.pdf` | 6 | 3 | 0 |
+| `science-tokyo-ee-2002-pm` | 2002 | exam | `science-tokyo-ee-2002` | `H15-pm.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906.pdf` | 11 | 4 | 0 |
+| `science-tokyo-ee-2003-am` | 2003 | exam | `science-tokyo-ee-2003` | `H16-am.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/0a2de6d034c9934d6bdf532600ca708fbb8919a98e109d9bce9c9cce8413c6df.pdf` | 7 | 5 | 0 |
+| `science-tokyo-ee-2003-pm` | 2003 | exam | `science-tokyo-ee-2003` | `H16-pm.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/612e2efdf52bb5204ec2d7d74e6089321d6d1549b1dbbdae6d899997fd856047.pdf` | 10 | 9 | 0 |
+| `science-tokyo-ee-2004-am` | 2004 | exam | `science-tokyo-ee-2004` | `H17-am.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/9a9e5a662df3a2937e32045adb5388a1389f431c08d598685a2b906babaf7f94.pdf` | 8 | 8 | 0 |
+| `science-tokyo-ee-2004-pm` | 2004 | exam | `science-tokyo-ee-2004` | `H17-pm.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/955b338886b37f3d09bf67c41227fe5c7799340978699012755093a4885cd9f0.pdf` | 10 | 9 | 0 |
 
 封面计入共用说明，不计题。中文标题是导航，不是原题译文。
 

@@ -14,7 +14,7 @@
     "subject": "数学・専門科目",
     "originalSubject": "修士課程入学試験問題",
     "originalName": "R06ee.pdf",
-    "pdf": "assets/past-papers/documents/c3d064f803cfbbe64e005c6f08dffc59938f8c93c5fd30f779da76045b2426b9.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/c3d064f803cfbbe64e005c6f08dffc59938f8c93c5fd30f779da76045b2426b9.pdf",
     "sha256": "c3d064f803cfbbe64e005c6f08dffc59938f8c93c5fd30f779da76045b2426b9",
     "pageCount": 33,
     "note": "封面印「令和 6 年度入学試験問題」「令和 5 年 8 月 29 日（火）、30 日（水）」：即 2024 年度入学、考试实施 2023-08-29/30；year 按入学年度记 2024（yearBasis=academic），实施年 2023 只记入本 note。全 33 页 = 封面 1 页 + 数学冊子 7 页（第 2–8 页：線形代数、解析学・微分積分 2 分野必答，另从 ベクトル解析/確率・統計 选 1 分野，共 4 问）+ 専門科目冊子 25 页（第 9–33 页：A 電気回路・B 電子回路・C 制御工学・D 電磁気学・E 半導体デバイス 5 分野中选 2 分野，共 12 问）。数学第 1、2 题的英文译文各占一页（第 4、6 页），第 3、4 题为日英同页（第 7、8 页）；専門科目为日文页后附英文译文页。正本只取日文原件页，英文翻译页列入 coverage.excluded。第 2–8、14–17、24–26、28–33 页文字层 CID 映射损坏（抽取为乱码字符），题号、边界与图号全部依渲染图目视判定。"

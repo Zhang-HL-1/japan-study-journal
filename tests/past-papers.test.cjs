@@ -7,7 +7,7 @@ test('production publishes thirteen university archives and all question sets en
 test('Sophia shares original combined PDFs with correct exam dates and question/answer offsets',()=>{
  const crypto=require('node:crypto'),manifest=require('../assets/past-papers/sophia-import-manifest.json'),papers=production.papers.filter(p=>p.universityId==='sophia'&&p.sourceBatch!=='sophia-ee-archive-20261101');
  assert.equal(papers.length,6);assert.equal(manifest.files.length,4);assert.equal(manifest.sourceFiles,4);assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,4);
- for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);if(f.kind==='answer'){assert.equal(f.officialByteMatch,true);assert.match(f.officialURL,/^https:\/\/adm\.sophia\.ac\.jp\//);}}
+ for(const f of manifest.files){require('./hosted-pdf.cjs').assertRecord(assert,f);if(f.kind==='answer'){assert.equal(f.officialByteMatch,true);assert.match(f.officialURL,/^https:\/\/adm\.sophia\.ac\.jp\//);}}
  for(const p of papers){assert.equal(p.paperYear,2025);assert.equal(p.yearBasis,'academic');assert.deepEqual(p.admissionYears,[2025]);assert.equal(p.department,'理工学専攻');assert.equal(p.examYear,Number(p.examDates[0].slice(0,4)));assert.equal(p.files[1].answerProvenance,'official-published');for(const f of p.files){assert.ok(f.startPage<=f.endPage&&f.endPage<=f.pages);assert.match(core.fileURL(f),new RegExp('#page='+f.startPage+'$'));}}
  for(const [key,date,questionStarts,answerStarts] of [['september','2024-09-11',[1,11,43],[1,11,34]],['february','2025-02-16',[1,11,38],[1,11,29]]]){
   ['mechanical','electrical','information'].forEach((subject,i)=>{const p=papers.find(p=>p.id===`sophia-scitec-2025-${key}-${subject}`);assert.deepEqual(p.examDates,[date]);assert.equal(p.files[0].startPage,questionStarts[i]);assert.equal(p.files[1].startPage,answerStarts[i]);});
@@ -17,7 +17,7 @@ test('Sophia shares original combined PDFs with correct exam dates and question/
  assert.equal(core.filter(papers,catalog.universities,{...all,school:'sophia',query:'2024-09-11'}).length,3);
  assert.match(production.schoolNotes.sophia.text,/共享4个完整原合册/);assert.match(production.schoolNotes.sophia.text,/11组／11个唯一PDF、553页/);
  // Protect all previously published records against changes during the next school import.
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(production.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&['waseda','tus','science-tokyo'].includes(p.universityId)&&!p.id.startsWith('tus-bf-')&&p.universityId!=='utokyo'))).digest('hex'),'aa12b7cd8d71563d6b841d3f6fa056b20df69a5d854f1f6858887addfc13977c');
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(production.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&['waseda','tus','science-tokyo'].includes(p.universityId)&&!p.id.startsWith('tus-bf-')&&p.universityId!=='utokyo'))).digest('hex'),'d0c76b6e5abc997d5dfa27d739a10da1e17840e1182b597b6af044e28cff4fd8');
 });
 test('Sophia EE archive adds five electrical groups without rewriting 2025 or cropping questions',()=>{
  const crypto=require('node:crypto'),fs=require('node:fs'),path=require('node:path');
@@ -26,8 +26,8 @@ test('Sophia EE archive adds five electrical groups without rewriting 2025 or cr
  const prior=production.papers.filter(p=>p.universityId==='sophia'&&p.sourceBatch!=='sophia-ee-archive-20261101');
  assert.equal(added.length,5);assert.equal(archive.addedGroups,5);assert.equal(archive.addedUniquePDFs,7);assert.equal(archive.addedPages,384);assert.equal(archive.groupsAfter,11);assert.equal(archive.uniquePDFsAfter,11);assert.equal(archive.pagesAfter,553);
  assert.equal(new Set(added.flatMap(p=>p.files.map(f=>f.sha256))).size,7);
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'5240ac95b70c4dcbc0a07138619cda338c676fe278ca235f9ff8d526b91132b3');
- for(const f of archive.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.equal(f.path,`assets/past-papers/documents/${f.sha256}.pdf`);if(f.kind==='answer'){assert.equal(f.officialByteMatch,true);assert.equal(f.answerProvenance,'official-published');assert.match(f.officialURL,/^https:\/\/adm\.sophia\.ac\.jp\//);}}
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'8b91b40e38aa685f393ff61d717eed2d43abd41df4335f4e8d6a0216d8551966');
+ for(const f of archive.files){require('./hosted-pdf.cjs').assertRecord(assert,f);if(f.kind==='answer'){assert.equal(f.officialByteMatch,true);assert.equal(f.answerProvenance,'official-published');assert.match(f.officialURL,/^https:\/\/adm\.sophia\.ac\.jp\//);}}
  assert.deepEqual(added.map(p=>p.id),['sophia-scitec-2016-september-electrical','sophia-scitec-2017-september-electrical','sophia-scitec-2018-september-electrical','sophia-scitec-2026-september-electrical','sophia-scitec-2026-february-electrical']);
  assert.deepEqual(added.map(p=>p.examDates[0]),['2015-09-16','2016-09-14','2017-09-13','2025-09-10','2026-02-15']);
  assert.deepEqual(added.map(p=>p.files[0].startPage),[48,42,35,11,11]);assert.deepEqual(added.map(p=>p.files[0].endPage),[55,49,42,17,17]);
@@ -53,7 +53,7 @@ test('Kobe preserves originals, partial mechanical coverage and three distinct s
  assert.equal(papers.length,48);assert.equal(manifest.sourceFiles,158);assert.equal(manifest.files.length,157);assert.equal(manifest.uniquePDFs,157);assert.equal(manifest.groups,48);assert.equal(manifest.totalPages,404);assert.equal(manifest.duplicateByteCopies,0);assert.equal(manifest.excluded.length,1);assert.equal(manifest.excludedFolders.length,0);
  assert.equal(manifest.backfill.addedGroups,22);assert.equal(manifest.backfill.addedUniquePDFs,32);assert.equal(manifest.backfill.addedPages,159);assert.equal(manifest.files.reduce((n,f)=>n+f.pages,0),404);
  assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,157);
- for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);}
+ for(const f of manifest.files)require('./hosted-pdf.cjs').assertRecord(assert,f);
  for(const p of papers){assert.equal(p.yearBasis,'academic');assert.deepEqual(p.admissionYears,[p.paperYear]);for(const f of p.files){assert.equal(f.kind,'question');assert.ok(f.startPage<=f.pages);}}
  const mechanical=papers.filter(p=>p.department==='機械工学専攻');assert.deepEqual(mechanical.map(p=>p.paperYear),[2019,2020,2021,2023,2024,2025]);
  for(const p of mechanical){assert.equal(p.completeness,'partial');assert.match(p.title,/部分科目/);assert.equal(p.files.length,2);assert.deepEqual(p.files.map(f=>f.startPage),[2,1]);assert.equal(p.examYear,undefined);assert.equal(p.examDates,undefined);}
@@ -66,8 +66,8 @@ test('Kobe preserves originals, partial mechanical coverage and three distinct s
  assert.deepEqual(systems.map(p=>p.files[1].originalName),['2025_expert.pdf','2025_2_expert.pdf','2025_3_expert.pdf']);
  assert.equal(core.filter(papers,catalog.universities,{...all,school:'kobe',year:'2025',query:'2024-11-27'}).length,1);
  assert.match(manifest.excluded[0].reason,/学部.*修士ではない/);assert.ok(!fs.existsSync(path.join(__dirname,'..','assets/past-papers/documents/'+manifest.excluded[0].sha256+'.pdf')));
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(production.papers.filter(p=>p.sourceBatch!=='sophia-ee-archive-20261101'&&p.sourceBatch!=='science-tokyo-drive-20261018'&&['waseda','tus','science-tokyo','sophia'].includes(p.universityId)&&!p.id.startsWith('tus-bf-')&&p.universityId!=='utokyo'))).digest('hex'),'f77bd2804d3876fc1517100c7e61fea5abf4fb13847e08e6491673d1a3483d93');
- const prior=papers.filter(p=>!p.id.startsWith('kobe-sci-')&&p.sourceBatch!=='kobe-ee-backfill-20261101');assert.equal(prior.length,12);assert.equal(crypto.createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'0581d1451d0d4cd8873076c36668a73f594adbb8e3ed7b49dbd3436ca653f2ee');
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(production.papers.filter(p=>p.sourceBatch!=='sophia-ee-archive-20261101'&&p.sourceBatch!=='science-tokyo-drive-20261018'&&['waseda','tus','science-tokyo','sophia'].includes(p.universityId)&&!p.id.startsWith('tus-bf-')&&p.universityId!=='utokyo'))).digest('hex'),'9bafd4306a19eef34147cc08c24a0d8fddb10297f53d3de4e23b63dfb26777d0');
+ const prior=papers.filter(p=>!p.id.startsWith('kobe-sci-')&&p.sourceBatch!=='kobe-ee-backfill-20261101');assert.equal(prior.length,12);assert.equal(crypto.createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'62c700ee3e93ac45cd6de500b73aa1f5f4d82e57fafcf9d6481b374614ddd0c8');
 });
 test('Kobe backfill adds science math and physics as separate departments',()=>{
  const core=require('../past-papers-core.js'),catalog=require('../campus-map-data.js'),production=require('../past-papers-data.js');
@@ -104,7 +104,7 @@ test('Kobe EE backfill adds pre-2024 subject PDFs and Heisei natural-science yea
  assert.equal(manifest.eeBackfill.alreadyPresent.filter(f=>f.originalName==='denjiki-2024.pdf').length,1);
  assert.equal(papers.filter(p=>p.files.some(f=>f.originalName==='denjiki-2024.pdf')).length,1);
  for(const s of manifest.eeBackfill.skipped){assert.ok(!papers.some(p=>p.files.some(f=>f.originalName===s.originalName)));if(s.sha256)assert.ok(!fs.existsSync(path.join(__dirname,'..','assets/past-papers/documents/'+s.sha256+'.pdf')));}
- for(const f of manifest.files.filter(f=>f.groupId&&String(f.groupId).startsWith('kobe-ee-')&&f.paperYear<2024)){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);}
+ for(const f of manifest.files.filter(f=>f.groupId&&String(f.groupId).startsWith('kobe-ee-')&&f.paperYear<2024))require('./hosted-pdf.cjs').assertRecord(assert,f);
  assert.match(manifest.coverageNote,/平成14年度=2002/);assert.match(manifest.eeBackfill.heiseiMap,/平成17年度=2005/);
  assert.equal(core.filter(papers,catalog.universities,{school:'kobe',graduate:'自然科学研究科',department:'電気電子工学専攻',year:'2002',query:''}).length,1);
  assert.equal(core.filter(papers,catalog.universities,{school:'kobe',graduate:'工学研究科',department:'電気電子工学専攻',year:'2014',query:'電力工学'}).length,1);
@@ -116,7 +116,7 @@ test('Science Tokyo preserves bytes and separates complete years, fragments and 
  assert.equal(papers.length,33);assert.equal(manifest.files.length,50);assert.equal(manifest.questionPDFs,48);
  assert.deepEqual(papers.filter(p=>p.completeness==='complete').map(p=>p.examYear),[...Array.from({length:19},(_,i)=>2001+i),2021,2022,2023,2024,2025]);
  assert.deepEqual(papers.filter(p=>p.completeness==='partial').map(p=>p.examYear),[1990,1993,1994,1995,1996,1997,1998,1999,2000]);
- for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.repositoryPath));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.bytes);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.ok(f.source_url.startsWith('https://'));}
+ for(const f of manifest.files){require('./hosted-pdf.cjs').assertRecord(assert,f,'repositoryPath');assert.ok(f.source_url.startsWith('https://'));}
  for(const p of papers){assert.equal(p.paperYear,p.examYear);assert.equal(p.yearBasis,'exam');assert.deepEqual(p.admissionYears,[p.examYear+1]);for(const f of p.files)assert.ok(f.startPage<=f.pages);}
  for(const [year,start] of [[1990,1],[1993,6],[1994,13],[1995,18],[1996,22],[1997,29],[1998,34]])assert.equal(papers.find(p=>p.examYear===year).files[0].startPage,start);
  assert.equal(new Set(papers.filter(p=>p.examYear<=1998).map(p=>p.files[0].url)).size,1);
@@ -134,12 +134,12 @@ test('Science Tokyo supplement publishes the remaining 29 groups and keeps the 2
  const added=['science-tokyo-drive-cs-academic-2020','science-tokyo-drive-cv-academic-2024','science-tokyo-drive-cv-academic-2026','science-tokyo-drive-ict-academic-2020','science-tokyo-drive-ict-academic-2024','science-tokyo-drive-is-academic-2022','science-tokyo-drive-is-academic-2023','science-tokyo-drive-is-academic-2024','science-tokyo-drive-is-academic-2025','science-tokyo-drive-is-academic-2026','science-tokyo-drive-mat-academic-2026','science-tokyo-drive-math-academic-2006','science-tokyo-drive-math-academic-2011','science-tokyo-drive-math-academic-2012','science-tokyo-drive-math-academic-2015','science-tokyo-drive-math-academic-2018','science-tokyo-drive-math-academic-2021','science-tokyo-drive-math-academic-2022','science-tokyo-drive-math-academic-2024','science-tokyo-drive-math-academic-2025','science-tokyo-drive-phys-academic-2020','science-tokyo-drive-phys-academic-2022','science-tokyo-drive-phys-academic-2024','science-tokyo-drive-sc-academic-2022','science-tokyo-drive-sc-academic-2023','science-tokyo-drive-sc-academic-2024','science-tokyo-drive-sc-academic-2025','science-tokyo-drive-sc-academic-2026','science-tokyo-drive-tse-academic-2026'];
  assert.equal(all.length,105);assert.equal(original.length,33);assert.equal(batch.length,72);assert.equal(added.length,29);assert.equal(new Set(all.map(p=>p.id)).size,105);
  assert.equal(manifest.publicationStatus,'complete');assert.equal(manifest.addedGroups,72);assert.equal(manifest.publishedGroups,72);assert.equal(manifest.pendingGroups,0);assert.equal(manifest.addedPDFs,82);assert.equal(manifest.publishedPDFs,82);
- assert.equal(hash(original),'8c46eec3fda9b11b64108df52c1b2a571fe3ec866ae4e56da7bc741ca5015685');
- assert.equal(hash(batch.filter(p=>p.id!=='science-tokyo-drive-math-academic-2020'&&!added.includes(p.id))),'15bf23e988dfd93b687e690f341c54e42e96b2163bb58a65a2349579a433757d');
+ assert.equal(hash(original),'ec96a2968be2b4a858384e714a4bd0192e0bf4a7c6d2582feccfaf7191ec842d');
+ assert.equal(hash(batch.filter(p=>p.id!=='science-tokyo-drive-math-academic-2020'&&!added.includes(p.id))),'ecf231436e2b1f320d2488f625c6d7fe4c037e495afab3eaed6cb3f16c00eb8f');
  assert.equal(new Set(batch.flatMap(p=>p.files.map(f=>f.sha256))).size,82);
- for(const p of batch){assert.equal(p.universityId,'science-tokyo');assert.equal(p.yearBasis,'academic');assert.deepEqual(p.admissionYears,[p.paperYear]);assert.equal(p.sourceBatch,'science-tokyo-drive-20261018');for(const f of p.files){const b=fs.readFileSync(path.join(__dirname,'..',f.url));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);assert.equal(f.startPage,1);}}
+ for(const p of batch){assert.equal(p.universityId,'science-tokyo');assert.equal(p.yearBasis,'academic');assert.deepEqual(p.admissionYears,[p.paperYear]);assert.equal(p.sourceBatch,'science-tokyo-drive-20261018');for(const f of p.files){require('./hosted-pdf.cjs').assertRecord(assert,f,'url');assert.equal(f.startPage,1);}}
  const math=batch.find(p=>p.id==='science-tokyo-drive-math-academic-2020');
- assert.equal(hash({...math,files:[math.files[0]]}),'c906054bd27866f981e063ef1b23e909bf36d9aeb07c0852c50b3ed99f36f647');
+ assert.equal(hash({...math,files:[math.files[0]]}),'68cb9c072da0b4dddf99dd4f842dd88e4ce51396536604cb020cb996805ab122');
  assert.equal(math.paperYear,2020);assert.deepEqual(math.files.map(f=>f.originalName),['2020innsi.pdf','exam_math_20208.pdf']);assert.equal(batch.filter(p=>p.files.some(f=>f.originalName==='exam_math_20208.pdf')).length,1);
  assert.equal(batch.find(p=>p.id==='science-tokyo-drive-math-academic-2006').originalYear,'平成18年度（2006年度）');assert.equal(batch.find(p=>p.id==='science-tokyo-drive-math-academic-2006').paperYear,2006);
  assert.deepEqual(batch.find(p=>p.id==='science-tokyo-drive-math-academic-2022').files.map(f=>f.originalName),['2022innsi.pdf','exam_math_20218.pdf']);assert.equal(batch.find(p=>p.id==='science-tokyo-drive-math-academic-2022').paperYear,2022);
@@ -163,8 +163,8 @@ test('TUS preserves source PDFs and distinguishes academic years, actual dates a
  assert.equal(manifest.backfill.skippedHennyu,4);assert.equal(manifest.backfill.skippedShakaijin,2);assert.equal(manifest.backfill.skippedEssay,16);assert.equal(manifest.backfill.yearBasis,'academic');
  assert.equal(manifest.excluded.filter(e=>/编入/.test(e.reason)).length,4);assert.equal(manifest.excluded.filter(e=>/社会人/.test(e.reason)).length,2);assert.equal(manifest.excluded.filter(e=>/小論文/.test(e.reason)).length,16);
  assert.equal(new Set(prior.map(p=>p.department)).size,11);assert.equal(new Set(production.papers.map(p=>p.id)).size,production.papers.length);
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'5e41f1b92a347716ffc09cf9a9e50c6922bbca82146a681607c0aae720906ce3');
- for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);}
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'974c865812900569cda820251c236c7eba9eff92ca3021779a971103a781c567');
+ for(const f of manifest.files)require('./hosted-pdf.cjs').assertRecord(assert,f);
  for(const p of prior){assert.equal(p.yearBasis,'academic');assert.ok(p.examDates.length);for(const date of p.examDates){assert.match(date,/^\d{4}-\d{2}-\d{2}$/);assert.equal(p.examYear,Number(date.slice(0,4)));}for(const f of p.files){assert.ok(f.startPage<=f.pages);if(f.kind==='answer'){assert.equal(f.answerProvenance,'unofficial-handwritten');assert.match(f.label,/非官方/);}}}
  for(const p of added){assert.equal(p.yearBasis,'academic');assert.equal(p.yearEvidence==='source-directory'?p.department:'薬科学専攻','薬科学専攻');if(p.examDates){assert.equal(p.examDates.length,1);assert.match(p.examDates[0],/^\d{4}-\d{2}-\d{2}$/);assert.equal(p.examYear,Number(p.examDates[0].slice(0,4)));}else assert.equal(p.examYear,undefined);for(const f of p.files){assert.ok(f.startPage<=f.pages);assert.notEqual(f.kind,'answer');}}
  assert.equal(added.filter(p=>p.yearEvidence==='source-directory').length,2);
@@ -195,7 +195,9 @@ test('TUS preserves source PDFs and distinguishes academic years, actual dates a
 test('PDF links accept official university hosts and contained local files, preserving page anchors',()=>{
  assert.equal(core.fileURL({url:'assets/past-papers/2025/電気回路.pdf',startPage:3}),'assets/past-papers/2025/%E9%9B%BB%E6%B0%97%E5%9B%9E%E8%B7%AF.pdf#page=3');
  assert.equal(core.fileURL({url:'https://www.t.u-tokyo.ac.jp/test.pdf',startPage:4}),'https://www.t.u-tokyo.ac.jp/test.pdf#page=4');
- assert.equal(core.fileURL({url:'https://www.kyoto-u.ac.jp/download.php?id=123'}),'https://www.kyoto-u.ac.jp/download.php?id=123');
+  assert.equal(core.fileURL({url:'https://www.kyoto-u.ac.jp/download.php?id=123'}),'https://www.kyoto-u.ac.jp/download.php?id=123');
+  assert.equal(core.fileURL({url:'https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/'+'a'.repeat(64)+'.pdf',startPage:2}),'https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/'+'a'.repeat(64)+'.pdf#page=2');
+  assert.equal(core.fileURL({url:'https://zhang-hl-1.github.io/not-papers/a.pdf'}),null);
  for(const url of ['http://www.u-tokyo.ac.jp/test.pdf','https://u-tokyo.ac.jp.evil.com/a.pdf','https://user:pass@www.u-tokyo.ac.jp/a.pdf','//www.u-tokyo.ac.jp/a.pdf','javascript:alert(1)','data:application/pdf,foo','assets/past-papers/../../script.js','assets/past-papers/%2e%2e/secret.pdf','assets/past-papers/%252e%252e/test.pdf','assets/past-papers/fake.html','assets/past-papers/a\\b.pdf','/assets/past-papers/a.pdf'])assert.equal(core.fileURL({url}),null,url);
 });
 test('school index resolves Chinese aliases and composes AND searches',()=>{
@@ -221,8 +223,8 @@ test('room provides three peer entry cards, an independent PDF library, and exis
 
 
 test('Waseda preserves PDF bytes, original years and historical department names',()=>{
- const papers=production.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId==='waseda');const crypto=require('node:crypto'),manifest=require('../assets/past-papers/waseda-import-manifest.json');const prior=papers.filter(p=>!p.id.startsWith('waseda-math-app-')&&!p.id.startsWith('waseda-phys-app-'));assert.equal(manifest.files.length,47);assert.equal(manifest.excluded.length,2);assert.equal(papers.length,41);assert.equal(prior.length,35);assert.equal(crypto.createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'b30cc064bcffd216c4bea1ec55e082e3b07d6fc47865f1fa6ac3d055b2d45adc');
- for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.equal(b.length,f.byteSize);assert.equal(crypto.createHash('sha256').update(b).digest('hex'),f.sha256);}
+ const papers=production.papers.filter(p=>p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId==='waseda');const crypto=require('node:crypto'),manifest=require('../assets/past-papers/waseda-import-manifest.json');const prior=papers.filter(p=>!p.id.startsWith('waseda-math-app-')&&!p.id.startsWith('waseda-phys-app-'));assert.equal(manifest.files.length,47);assert.equal(manifest.excluded.length,2);assert.equal(papers.length,41);assert.equal(prior.length,35);assert.equal(crypto.createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'e672b1bc586865c353004548be8af9141827d2d7b68fd02a6f3186d786978b98');
+ for(const f of manifest.files)require('./hosted-pdf.cjs').assertRecord(assert,f);
  for(const p of papers){assert.equal(p.yearBasis,'academic');assert.equal(p.examYear,undefined);assert.deepEqual(p.admissionYears,[p.paperYear,p.paperYear+1]);for(const f of p.files)assert.ok(f.startPage<=f.pages);}
  const ep=papers.filter(p=>p.department==='電子物理システム学専攻');assert.equal(ep.length,11);assert.ok(ep.some(p=>p.paperYear===2014));assert.ok(ep.some(p=>p.paperYear===2015));assert.ok(papers.some(p=>p.department==='経営デザイン専攻'&&p.paperYear===2023));
  const all={school:'all',graduate:'all',department:'all',year:'all',query:''};assert.equal(core.filter(papers,catalog.universities,{...all,department:'電子物理システム学専攻',year:'2014'}).length,1);

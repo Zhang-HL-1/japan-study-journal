@@ -1,5 +1,5 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
-const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(p));
 test('2005 has six complete questions, with answer pages excluded and source hashes intact',()=>{
  const index=read('question-bank-index.json'),entries=index.papers.filter(p=>p.id.startsWith('tus-electrical-2005-'));assert.equal(entries.length,1);
  const p=read(entries[0].data);assert.equal(p.questions.length,6);assert.equal(p.source.year,2005);assert.equal(p.source.yearBasis,'academic');assert.match(p.source.note,/2004-08-02/);
