@@ -5,14 +5,14 @@
   "department": "電気系工学専攻",
   "sourceFolder": "用户提供的 utokyo-eeis 官方 PDF（open_inshi eeis）",
   "sourceBatch": "utokyo-ee-archive-20261107",
-  "inventoryPDFs": 43,
-  "sourceFiles": 43,
-  "uniquePDFs": 43,
+  "inventoryPDFs": 47,
+  "sourceFiles": 47,
+  "uniquePDFs": 47,
   "duplicateByteCopies": 0,
-  "groups": 13,
-  "questionPDFs": 43,
+  "groups": 16,
+  "questionPDFs": 47,
   "answerPDFs": 0,
-  "totalPages": 383,
+  "totalPages": 443,
   "yearBasis": "exam",
   "yearGap": [
     "fy2020"
@@ -86,7 +86,7 @@
     }
   ],
   "sharedWithExistingSchools": [],
-  "coverageNote": "东京大学工学系研究科電気系工学専攻 13组／43个唯一PDF、383页，无解答。2007年8月28日数学日文、数学英文、物理英文以封面为准；日文物理未取得。2012–2019、2021–2024 按 open_inshi fyYYYY（实施会计年度）收录，卷面未印实施日。fy2020 不存在。unofficial-solutions 四份民间解答不入库。目录 department 全部为電気系工学専攻。",
+  "coverageNote": "东京大学工学系研究科電気系工学専攻 16组／47个唯一PDF、443页，无解答。2007年8月28日数学日文、数学英文、物理英文以封面为准；日文物理未取得。2008年9月1日物理・情報日文、9月2日数学日文以封面实施日为准，合成一组。2011年数学日文封面印平成24年度，未印公历实施日，实施年由用户确认，不并入 fy2012。2012–2019、2021–2024 按 open_inshi fyYYYY（实施会计年度）收录，卷面未印实施日。2025年問題1–6日英扫描卷由用户确认年份，卷面未见实施日，不猜日期。fy2020 不存在。unofficial-solutions 四份民间解答不入库。目录 department 全部为電気系工学専攻。",
   "files": [
     {
       "path": "assets/past-papers/documents/df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611.pdf",
@@ -122,6 +122,42 @@
       "groupId": "utokyo-ee-2007-08-28",
       "sourcePaths": [
         "东京大学/工学系研究科/電気系工学専攻/eeis-2005-2011/official/phys200709e.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/f2680ead0593f4fea3e334872c0976283687faa1ed5767a085badaff95a1f0b7.pdf",
+      "originalName": "0ba048ebeaa24ae15d9e4c7da7fe086eb1c9f4251042812b2d2c924c037cb049_2126.pdf",
+      "sha256": "f2680ead0593f4fea3e334872c0976283687faa1ed5767a085badaff95a1f0b7",
+      "byteSize": 2076270,
+      "pages": 18,
+      "kind": "question",
+      "groupId": "utokyo-ee-2008",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/uploads/0ba048ebeaa24ae15d9e4c7da7fe086eb1c9f4251042812b2d2c924c037cb049_2126.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/d02bacda8e9116f2c9d502f0aac8ab66451b549c94595e000c1d8d99d7aa1058.pdf",
+      "originalName": "29e9856b3e70311cf273a8f25e9def7663f1f90470b176272fa5b334b6f9651d_381e.pdf",
+      "sha256": "d02bacda8e9116f2c9d502f0aac8ab66451b549c94595e000c1d8d99d7aa1058",
+      "byteSize": 514504,
+      "pages": 8,
+      "kind": "question",
+      "groupId": "utokyo-ee-2008",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/uploads/29e9856b3e70311cf273a8f25e9def7663f1f90470b176272fa5b334b6f9651d_381e.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/8f19df0dc59827eef33a04ade5ab94ec752954398236e7b00f741cda73687363.pdf",
+      "originalName": "057fedf3654d1e76bbe940809f76aecdede8b8a3adee0c10336c563b8aef3fb3_c920.pdf",
+      "sha256": "8f19df0dc59827eef33a04ade5ab94ec752954398236e7b00f741cda73687363",
+      "byteSize": 1485619,
+      "pages": 9,
+      "kind": "question",
+      "groupId": "utokyo-ee-2011",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/uploads/057fedf3654d1e76bbe940809f76aecdede8b8a3adee0c10336c563b8aef3fb3_c920.pdf"
       ]
     },
     {
@@ -602,6 +638,18 @@
       "groupId": "utokyo-ee-fy2024",
       "sourcePaths": [
         "东京大学/工学系研究科/電気系工学専攻/eeis/fy2024_s.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98.pdf",
+      "originalName": "530de2aa2d710916814de4f1dbff0582658d634d7d3429f37c3383baffbb96fe_003c.pdf",
+      "sha256": "898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98",
+      "byteSize": 8519867,
+      "pages": 25,
+      "kind": "question",
+      "groupId": "utokyo-ee-2025",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/uploads/530de2aa2d710916814de4f1dbff0582658d634d7d3429f37c3383baffbb96fe_003c.pdf"
       ]
     }
   ]

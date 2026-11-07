@@ -42,6 +42,6 @@ test('published question papers preserve catalog sources, unique IDs and complet
 test('inventory counts PDFs independently from questions and excludes ancillary files',()=>{
  const result=require('../skills/past-paper-to-questions/scripts/inventory.cjs').inventory(root);
  assert.equal(result.summary.uniqueQuestionPdfs,new Set(catalog.papers.flatMap(p=>p.files.filter(f=>f.kind==='question').map(f=>f.url))).size);
- assert.equal(result.summary.catalogGroups,917);assert.equal(result.summary.uniqueQuestionPdfs,1415);
+ assert.equal(result.summary.catalogGroups,920);assert.equal(result.summary.uniqueQuestionPdfs,1419);
  const demo=result.sources.find(s=>s.manifests.some(m=>m.id==='kobe-ee-2026-denjiki'));assert.ok(demo);assert.equal(demo.manifests[0].questions,2);assert.ok(demo.references.some(r=>r.catalogId==='kobe-ee-2026'));assert.equal(demo.status,'manifest-present');
 });

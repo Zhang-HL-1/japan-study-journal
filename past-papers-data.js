@@ -42074,6 +42074,89 @@
       "sourceNote": "用户提供的东京大学电气系过去问原卷，PDF字节原样保存。日文数学封面印「東京大学大学院工学系研究科 電気工学・電子工学専攻 入試」「数学」「平成19年8月28日（火）9時00分～11時00分 実施」。英文数学封面印 Department of Electrical and Electronic Engineering, Graduate School of Engineering, University of Tokyo，Mathematics，9:00–11:00, Tuesday, August 28, 2007。英文物理封面为同一日 12:30–15:30，Physics。paperYear 与 examYear 用封面实施年 2007，yearBasis 为 exam，yearEvidence 为 cover，examDates 只记 2007-08-28。不写 admissionYears。文件名 math200709／phys200709 和随包说明里的「2007年9月」与封面 8月28日不一致，以封面实施日为准。日文物理卷未取得，不补。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。unofficial-solutions 不入库。未做逐题拆分。"
     },
     {
+      "id": "utokyo-ee-2008",
+      "universityId": "utokyo",
+      "title": "2008年9月1日・9月2日実施 · 物理・情報／数学",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2008,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2008,
+      "examDates": [
+        "2008-09-01",
+        "2008-09-02"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "物理・情報",
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "物理・情報（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f2680ead0593f4fea3e334872c0976283687faa1ed5767a085badaff95a1f0b7.pdf",
+          "originalName": "0ba048ebeaa24ae15d9e4c7da7fe086eb1c9f4251042812b2d2c924c037cb049_2126.pdf",
+          "sha256": "f2680ead0593f4fea3e334872c0976283687faa1ed5767a085badaff95a1f0b7",
+          "byteSize": 2076270,
+          "pages": 18,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/uploads/0ba048ebeaa24ae15d9e4c7da7fe086eb1c9f4251042812b2d2c924c037cb049_2126.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d02bacda8e9116f2c9d502f0aac8ab66451b549c94595e000c1d8d99d7aa1058.pdf",
+          "originalName": "29e9856b3e70311cf273a8f25e9def7663f1f90470b176272fa5b334b6f9651d_381e.pdf",
+          "sha256": "d02bacda8e9116f2c9d502f0aac8ab66451b549c94595e000c1d8d99d7aa1058",
+          "byteSize": 514504,
+          "pages": 8,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/uploads/29e9856b3e70311cf273a8f25e9def7663f1f90470b176272fa5b334b6f9651d_381e.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问原卷，PDF字节原样保存。两册封面都印「東京大学大学院工学系研究科 電気系工学専攻 入試」。物理・情報封面印「平成２０年９月１日（月）１３時００分～１６時００分 実施」，12题中选4题。数学封面印「平成２０年９月２日（火）９時００分～１１時００分 実施」，5题中选2题。paperYear 与 examYear 用封面实施年 2008，yearBasis 为 exam，yearEvidence 为 cover，examDates 记 2008-09-01 与 2008-09-02。不写 admissionYears。同一年两场合成一组。目录 department 为「電気系工学専攻」。未做逐题拆分。无解答。"
+    },
+    {
+      "id": "utokyo-ee-2011",
+      "universityId": "utokyo",
+      "title": "2011年 · 数学（日文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2011,
+      "yearBasis": "exam",
+      "yearEvidence": "user-confirmed",
+      "examYear": 2011,
+      "subjects": [
+        "数学"
+      ],
+      "files": [
+        {
+          "label": "数学（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8f19df0dc59827eef33a04ade5ab94ec752954398236e7b00f741cda73687363.pdf",
+          "originalName": "057fedf3654d1e76bbe940809f76aecdede8b8a3adee0c10336c563b8aef3fb3_c920.pdf",
+          "sha256": "8f19df0dc59827eef33a04ade5ab94ec752954398236e7b00f741cda73687363",
+          "byteSize": 1485619,
+          "pages": 9,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/uploads/057fedf3654d1e76bbe940809f76aecdede8b8a3adee0c10336c563b8aef3fb3_c920.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问原卷，PDF字节原样保存。封面印「平成24年度」「大学院入学試験問題」「数学」「午後1：00～3：30」，并写明6问中任选3问。封面未印公历实施日，也未印大学名与専攻名。实施年2011由用户确认，卷面未印该公历年。paperYear 与 examYear 用用户确认的实施年 2011，yearBasis 为 exam，yearEvidence 为 user-confirmed。不把封面的平成24年度写成实施日，不编 examDates，不写 admissionYears。不并入 open_inshi 的 fy2012 样本组。目录 department 按用户指定为「電気系工学専攻」。从第1页封面打开。未做逐题拆分。无解答。"
+    },
+    {
       "id": "utokyo-ee-fy2012",
       "universityId": "utokyo",
       "title": "2012年度 · 第1–10問（日文・英文）",
@@ -42811,6 +42894,50 @@
       ],
       "sourceBatch": "utokyo-ee-archive-20261107",
       "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2024 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2024，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。同一 PDF：日文問題1至問題6在第1–14页，英文 Problem 1至 Problem 6在第15–28页。两个入口共用原件，不拆文件。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-2025",
+      "universityId": "utokyo",
+      "title": "2025年 · 問題1–6（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2025,
+      "yearBasis": "exam",
+      "yearEvidence": "user-confirmed",
+      "examYear": 2025,
+      "files": [
+        {
+          "label": "問題1–6（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98.pdf",
+          "originalName": "530de2aa2d710916814de4f1dbff0582658d634d7d3429f37c3383baffbb96fe_003c.pdf",
+          "sha256": "898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98",
+          "byteSize": 8519867,
+          "pages": 25,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/uploads/530de2aa2d710916814de4f1dbff0582658d634d7d3429f37c3383baffbb96fe_003c.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 12
+        },
+        {
+          "label": "Problem 1–6（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98.pdf",
+          "originalName": "530de2aa2d710916814de4f1dbff0582658d634d7d3429f37c3383baffbb96fe_003c.pdf",
+          "sha256": "898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98",
+          "byteSize": 8519867,
+          "pages": 25,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/uploads/530de2aa2d710916814de4f1dbff0582658d634d7d3429f37c3383baffbb96fe_003c.pdf"
+          ],
+          "startPage": 13,
+          "endPage": 25
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问扫描卷，PDF字节原样保存。用户确认是2025年。抽查页面未见实施日、未见年度、未见大学名或専攻名，不猜测实施日，不编 examDates。paperYear 与 examYear 用用户确认的 2025，yearBasis 为 exam，yearEvidence 为 user-confirmed。不写 admissionYears。页上有 Sample 水印，不把水印当成考试年度。同一 PDF：日文問題1至問題6在第1–12页，英文 Problem 1至 Problem 6在第13–20页和第22–25页；第21页只有 Sample 水印、没有试题。两个入口共用原件，不拆文件。科目不能收成单独的数学或物理：日文页眉是問題1–6，英文页眉是 Problem 1–6，可见内容包括导体板电磁、电路与MOS、信息与信号、逻辑电路与程序、量子与MOS、控制与直流电机。目录 department 按用户指定为「電気系工学専攻」。未做逐题拆分。无解答。"
     }
   ],
   "schoolNotes": {
@@ -42948,7 +43075,7 @@
       "text": "本校117组／219个唯一PDF、1187页。2026-10-11已上线的61组／121个唯一PDF、643页保持不变。2026-10-18全量补录原先排除的数学、物理、建筑、火灾、经营、药学、生命、化学生物及其他工程范围外专攻，新增56组、98个唯一PDF、544页。yearBasis一律academic。封面印有「YYYY年度」的，paperYear用该年度，yearEvidence=cover；药科学2023、2024封面未印年度，按23东理／24东理目录年度，yearEvidence=source-directory，实施日另列。夏期／冬期、一般／留学生分不同组；国际火災科学専攻夏期封面为一般・外国人留学生共用，不拆组。同专攻同年度多科目合成一组。问题订正页整册保留，从第2页封面打开。学部编入4份、社会人特别选拔2份、小論文16份不建入口、不入库。不声明其他年度或全校齐全。"
     },
     "utokyo": {
-      "text": "本校13组／43个唯一PDF、383页，无解答。全部归入工学系研究科電気系工学専攻，目录 department 只有这一专攻。2007年8月28日实施的数学日文、数学英文、物理英文以封面日期为准；文件名200709和随包说明里的「2007年9月」与封面8月28日不一致。封面旧称是電気工学・電子工学専攻／Department of Electrical and Electronic Engineering，只写在原卷说明里，不另建筛选。日文物理未取得。2012–2019、2021–2024按 open_inshi 的 fyYYYY（考试实施会计年度）收录，卷面未印实施日，yearBasis 为 exam，yearEvidence 为 source-directory，不写 admissionYears，也不编 examDates。2012年为第1–10问日英对译合册；2013–2019年为問題1–4与問題A–F日英对译合册。2021年英文 Problem 1–6 为正规问题，和文是参考和訳，不是完整日文试题，也不是解答。2022、2023年为問題1–6的日文与英文分册。2024年日文在第1–14页、英文在第15–28页。页上 Sample 或「2020年度以前」红字是样本说明，不改试题。fy2020 没有文件，不补。unofficial-solutions 四份民间解答不入库。未做逐题拆分。不声明其他专攻或缺失年份已经补齐。"
+      "text": "本校16组／47个唯一PDF、443页，无解答。全部归入工学系研究科電気系工学専攻，目录 department 只有这一专攻。2007年8月28日实施的数学日文、数学英文、物理英文以封面日期为准；文件名200709和随包说明里的「2007年9月」与封面8月28日不一致。封面旧称是電気工学・電子工学専攻／Department of Electrical and Electronic Engineering，只写在原卷说明里，不另建筛选。日文物理未取得。2012–2019、2021–2024按 open_inshi 的 fyYYYY（考试实施会计年度）收录，卷面未印实施日，yearBasis 为 exam，yearEvidence 为 source-directory，不写 admissionYears，也不编 examDates。2012年为第1–10问日英对译合册；2013–2019年为問題1–4与問題A–F日英对译合册。2021年英文 Problem 1–6 为正规问题，和文是参考和訳，不是完整日文试题，也不是解答。2022、2023年为問題1–6的日文与英文分册。2024年日文在第1–14页、英文在第15–28页。页上 Sample 或「2020年度以前」红字是样本说明，不改试题。fy2020 没有文件，不补。unofficial-solutions 四份民间解答不入库。未做逐题拆分。不声明其他专攻或缺失年份已经补齐。2026-11-07补录4个唯一PDF、60页，新增2008、2011、2025三组，不并入已有年份。2008年9月1日物理・情報（日文）与9月2日数学（日文）以封面实施日为准，合成一组，封面已印電気系工学専攻。2011年数学（日文）封面印「平成24年度」「大学院入学試験問題」「数学」，未印公历实施日、大学名和専攻名；实施年2011由用户确认，卷面未印该公历年，yearEvidence 为 user-confirmed，不把平成24年度当成实施日，也不并入 fy2012。2025年扫描卷25页，用户确认年份；卷面未见实施日、年度、大学名或専攻名，不编 examDates。同一PDF中日文問題1–6在第1–12页，英文 Problem 1–6在第13–20页和第22–25页，第21页只有 Sample 水印。内容不是单独的数学或物理。目录 department 仍只有電気系工学専攻。"
     }
   }
 };if(typeof module!=='undefined'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);
