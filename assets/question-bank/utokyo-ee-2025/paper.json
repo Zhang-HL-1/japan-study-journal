@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2025",
+  "title": "東京大学 · 2025 实施年 · 電気系工学専攻",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-2025",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2025,
+    "yearBasis": "exam",
+    "subject": "专业科目",
+    "originalSubject": "問題1–6",
+    "originalName": "530de2aa2d710916814de4f1dbff0582658d634d7d3429f37c3383baffbb96fe_003c.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98.pdf",
+    "sha256": "898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98",
+    "pageCount": 25,
+    "note": "用户提供的东京大学电气系过去问扫描卷，PDF字节原样保存。用户确认是2025年。抽查页面未见实施日、未见年度、未见大学名或専攻名，不猜测实施日，不编 examDates。paperYear 与 examYear 用用户确认的 2025，yearBasis 为 exam，yearEvidence 为 user-confirmed。不写 admissionYears。页上有 Sample 水印，不把水印当成考试年度。同一 PDF：日文問題1至問題6在第1–12页，英文 Problem 1至 Problem 6在第13–20页和第22–25页；第21页只有 Sample 水印、没有试题。两个入口共用原件，不拆文件。科目不能收成单独的数学或物理：日文页眉是問題1–6，英文页眉是 Problem 1–6，可见内容包括导体板电磁、电路与MOS、信息与信号、逻辑电路与程序、量子与MOS、控制与直流电机。目录 department 按用户指定为「電気系工学専攻」。无解答。 本逐题卷按用户要求仅收录日文問題1–6，英文重复题面不再收录；Sample水印保持原样。"
+  },
+  "commonParts": [],
+  "questions": [
+    {
+      "id": "utokyo-ee-2025-q1",
+      "number": "問題 1",
+      "title": "静电场与磁场",
+      "titleKind": "editorial",
+      "topics": [
+        "静电场",
+        "磁场"
+      ],
+      "summary": "I、II及全部小问、公式和附图保留为同一道完整大题；中文标题仅供导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q1-01.png",
+          "page": 1,
+          "box": [
+            40,
+            65,
+            555,
+            765
+          ],
+          "width": 1545,
+          "height": 2100,
+          "label": "問題 1：原卷第1页（含原题及续页附图）",
+          "sha256": "4358e67f6a37582fdab506581f84acc61c24485150fd08f33a5f687db69bdced"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q1-02.png",
+          "page": 2,
+          "box": [
+            40,
+            65,
+            555,
+            775
+          ],
+          "width": 1545,
+          "height": 2130,
+          "label": "問題 1：原卷第2页（含原题及续页附图）",
+          "sha256": "b4024e43b9a5b1150f65ab9ae25a5e33d9001e31731c80649fbc01026ec101e5"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2025-q2",
+      "number": "問題 2",
+      "title": "电气回路与MOS晶体管",
+      "titleKind": "editorial",
+      "topics": [
+        "电路",
+        "MOS晶体管"
+      ],
+      "summary": "I、II及全部小问、公式和附图保留为同一道完整大题；中文标题仅供导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q2-01.png",
+          "page": 3,
+          "box": [
+            40,
+            65,
+            555,
+            775
+          ],
+          "width": 1545,
+          "height": 2130,
+          "label": "問題 2：原卷第3页（含原题及续页附图）",
+          "sha256": "b3a861c3c9176040709c5c8891d9dff45059078e57ff6eb8310e6a874366804a"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q2-02.png",
+          "page": 4,
+          "box": [
+            40,
+            65,
+            555,
+            680
+          ],
+          "width": 1545,
+          "height": 1845,
+          "label": "問題 2：原卷第4页（含原题及续页附图）",
+          "sha256": "5999d08d6917be639e65a59adb83f10d38e73ef15f7f7b6b5e63139a63bbfa89"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2025-q3",
+      "number": "問題 3",
+      "title": "信息论与信号处理",
+      "titleKind": "editorial",
+      "topics": [
+        "信息论",
+        "信号处理"
+      ],
+      "summary": "I、II及全部小问、公式和附图保留为同一道完整大题；中文标题仅供导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q3-01.png",
+          "page": 5,
+          "box": [
+            40,
+            65,
+            555,
+            510
+          ],
+          "width": 1545,
+          "height": 1335,
+          "label": "問題 3：原卷第5页（含原题及续页附图）",
+          "sha256": "f4750546924d43e9d214f6c2fc0c64ba3431e5129400e61aa0adc4b96f68e208"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q3-02.png",
+          "page": 6,
+          "box": [
+            40,
+            65,
+            555,
+            640
+          ],
+          "width": 1545,
+          "height": 1725,
+          "label": "問題 3：原卷第6页（含原题及续页附图）",
+          "sha256": "9ce04bcc52930f91b445180b5569ddf65f6c51cdae42489cf2a742f889ce0d75"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2025-q4",
+      "number": "問題 4",
+      "title": "逻辑电路与程序",
+      "titleKind": "editorial",
+      "topics": [
+        "逻辑电路",
+        "算法"
+      ],
+      "summary": "I、II及全部小问、公式和附图保留为同一道完整大题；中文标题仅供导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q4-01.png",
+          "page": 7,
+          "box": [
+            40,
+            65,
+            555,
+            780
+          ],
+          "width": 1545,
+          "height": 2145,
+          "label": "問題 4：原卷第7页（含原题及续页附图）",
+          "sha256": "7f9080ffdab1a73018a01865a9a99b21d28a102c0fb03efa1a6b8271f449bfc9"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q4-02.png",
+          "page": 8,
+          "box": [
+            40,
+            65,
+            555,
+            765
+          ],
+          "width": 1545,
+          "height": 2100,
+          "label": "問題 4：原卷第8页（含原题及续页附图）",
+          "sha256": "f9a94937235ec38cb42c9de68bf471c64f31e3eb9ad51e3de17418ed6b7b746e"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2025-q5",
+      "number": "問題 5",
+      "title": "量子态与MOS结构",
+      "titleKind": "editorial",
+      "topics": [
+        "量子力学",
+        "MOS结构"
+      ],
+      "summary": "I、II及全部小问、公式和附图保留为同一道完整大题；中文标题仅供导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q5-01.png",
+          "page": 9,
+          "box": [
+            40,
+            65,
+            555,
+            775
+          ],
+          "width": 1545,
+          "height": 2130,
+          "label": "問題 5：原卷第9页（含原题及续页附图）",
+          "sha256": "a7b64ffedf386d5a63ee8bc2b22aac3b38141625161261e914a44112f9d2d790"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q5-02.png",
+          "page": 10,
+          "box": [
+            40,
+            65,
+            555,
+            660
+          ],
+          "width": 1545,
+          "height": 1785,
+          "label": "問題 5：原卷第10页（含原题及续页附图）",
+          "sha256": "6b75a56a18968c926c3060594cdcd631bb8be322415f76710699b218b5241e03"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2025-q6",
+      "number": "問題 6",
+      "title": "反馈控制与直流电机",
+      "titleKind": "editorial",
+      "topics": [
+        "反馈控制",
+        "直流电机"
+      ],
+      "summary": "I、II及全部小问、公式和附图保留为同一道完整大题；中文标题仅供导航，作答以日文原题为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "逐页查看完整原卷，再逐张核对预览：题号、首末行、I/II及全部小问、公式上下标、图与图号、图例和续页顺序完整；未混入其他大题。Sample水印不处理。中文标题仅为编辑导航。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q6-01.png",
+          "page": 11,
+          "box": [
+            40,
+            65,
+            555,
+            725
+          ],
+          "width": 1545,
+          "height": 1980,
+          "label": "問題 6：原卷第11页（含原题及续页附图）",
+          "sha256": "aa03bf52b3aa4c4c4db0ea846f8df2ada68b2f4a9e931436bd24113805d55b64"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2025/utokyo-ee-2025-q6-02.png",
+          "page": 12,
+          "box": [
+            40,
+            65,
+            555,
+            765
+          ],
+          "width": 1545,
+          "height": 2100,
+          "label": "問題 6：原卷第12页（含原题及续页附图）",
+          "sha256": "b1e0d58e8baddd1c1c112ed949276d9f2d6ad1705fb2b8ca2501fd301a12d7d3"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-2025-q1"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2025-q1"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2025-q2"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "utokyo-ee-2025-q2"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "utokyo-ee-2025-q3"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "utokyo-ee-2025-q3"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "utokyo-ee-2025-q4"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "utokyo-ee-2025-q4"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "utokyo-ee-2025-q5"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "utokyo-ee-2025-q5"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 11,
+      "questionIds": [
+        "utokyo-ee-2025-q6"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 12,
+      "questionIds": [
+        "utokyo-ee-2025-q6"
+      ],
+      "common": false,
+      "excluded": "页外空白边缘及印刷页码；全部日文题面、小问、公式、图和图号均保留。",
+      "reviewed": true
+    },
+    {
+      "page": 13,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 14,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 15,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 16,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 17,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 18,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 19,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 20,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 21,
+      "questionIds": [],
+      "common": false,
+      "excluded": "只有Sample水印，无题目内容。",
+      "reviewed": true
+    },
+    {
+      "page": 22,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 23,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 24,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    },
+    {
+      "page": 25,
+      "questionIds": [],
+      "common": false,
+      "excluded": "同卷日文题的英文重复版本；按用户要求只纳入日语版，不重复计题。",
+      "reviewed": true
+    }
+  ]
+}

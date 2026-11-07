@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2021",
+  "title": "東京大学 · 2021 实施年 · 電気系工学専攻",
+  "catalogId": "utokyo-ee-fy2021",
+  "components": [
+    {
+      "paperId": "utokyo-ee-2021-q1",
+      "subject": "电磁学"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q2",
+      "subject": "电路"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q3",
+      "subject": "信息与信号"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q4",
+      "subject": "信息与逻辑电路"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q5",
+      "subject": "物理"
+    },
+    {
+      "paperId": "utokyo-ee-2021-q6",
+      "subject": "控制"
+    }
+  ],
+  "note": "同次考试六道完整大题按既有多PDF合卷流程接入，题图仍来自各自原PDF；专攻沿用目录「電気系工学専攻」，年度沿用yearBasis=exam，不推算入学年。英文为完整正本，另两页参考和译只是部分句子与术语，非完整日文试题，不重复收录。水印保持原样；不提供语言切换或答案。"
+}

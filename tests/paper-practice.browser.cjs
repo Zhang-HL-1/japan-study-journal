@@ -23,7 +23,7 @@ const all=bank.concat(sets);
    const kobe=matches.filter(q=>q.provenance.school==='神戸大学'&&q.paper.year===2026);assert.equal(await page.locator('#question-grid button').count(),kobe.length);
    assert.match(await page.locator('#question-source').textContent(),/神戸大学/);assert.match(await page.locator('#practice-paper-files button[aria-pressed=true]').textContent(),/電磁/);
    const buttons=page.locator('#practice-paper-files button');if(await buttons.count()>1){await buttons.last().click();assert.equal(await buttons.last().getAttribute('aria-pressed'),'true');}
-   const pdfURL=await page.locator('#practice-paper-reader iframe').getAttribute('src');const pdf=await page.request.get(origin+'/'+pdfURL.split('#')[0]);assert.equal(pdf.status(),200);assert.ok((await pdf.body()).subarray(0,5).equals(Buffer.from('%PDF-')));
+   const pdfURL=await page.locator('#practice-paper-reader iframe').getAttribute('src');const pdf=await page.request.get(new URL(pdfURL.split('#')[0],origin+'/').href);assert.equal(pdf.status(),200);assert.ok((await pdf.body()).subarray(0,5).equals(Buffer.from('%PDF-')));
    if(await page.locator('.note-details').getAttribute('open')===null)await page.locator('.note-details summary').click();await page.fill('#question-note','原卷练习笔记');await page.locator('#complete-paper').click();assert.equal(await page.locator('#stat-accuracy').textContent(),'—');
    await page.reload();assert.equal(await page.locator('#question-note').inputValue(),'原卷练习笔记');assert.match(await page.locator('#paper-completion').textContent(),/本套已练习/);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);await shot('paper-practice-'+width);

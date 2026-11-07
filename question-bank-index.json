@@ -364,7 +364,23 @@
     {"id": "osaka-ee-2024-kiso", "title": "大阪大学 · 2024 入学年度 · 共通基础科目", "catalogId": "osaka-ee-basic-2024", "questionCount": 9, "data": "assets/question-bank/osaka-ee-2024-kiso/paper.json"},
     {"id": "osaka-ee-2025-electrical", "title": "大阪大学 · 2025 入学年度 · 专门科目（电气工学课程）", "catalogId": "osaka-ee-basic-2025", "questionCount": 6, "data": "assets/question-bank/osaka-ee-2025-electrical/paper.json"},
     {"id": "osaka-ee-2025-kiso", "title": "大阪大学 · 2025 入学年度 · 共通基础科目", "catalogId": "osaka-ee-basic-2025", "questionCount": 9, "data": "assets/question-bank/osaka-ee-2025-kiso/paper.json"},
-    {"id": "osaka-ee-2026-electrical", "title": "大阪大学 · 2026 入学年度 · 专门科目（电气工学课程）", "catalogId": "osaka-ee-electrical-2026", "questionCount": 7, "data": "assets/question-bank/osaka-ee-2026-electrical/paper.json"}
+    {"id": "osaka-ee-2026-electrical", "title": "大阪大学 · 2026 入学年度 · 专门科目（电气工学课程）", "catalogId": "osaka-ee-electrical-2026", "questionCount": 7, "data": "assets/question-bank/osaka-ee-2026-electrical/paper.json"},
+    {"id":"utokyo-ee-2007","title":"東京大学 · 2007 年实施 · 電気系工学専攻","catalogId":"utokyo-ee-2007-08-28","questionCount":12,"data":"assets/question-bank/utokyo-ee-2007/paper.json"},
+    {"id":"utokyo-ee-2008","title":"東京大学 · 2008 年实施 · 電気系工学専攻","catalogId":"utokyo-ee-2008","questionCount":17,"data":"assets/question-bank/utokyo-ee-2008/paper.json"},
+    {"id":"utokyo-ee-2011-math","title":"东京大学 · 2011 年实施 · 数学","catalogId":"utokyo-ee-2011","questionCount":6,"data":"assets/question-bank/utokyo-ee-2011-math/paper.json"},
+    {"id":"utokyo-ee-2012","title":"东京大学 · 2012 年实施 · 综合试题","catalogId":"utokyo-ee-fy2012","questionCount":10,"data":"assets/question-bank/utokyo-ee-2012/paper.json"},
+    {"id":"utokyo-ee-2013","title":"东京大学 · 2013 年实施 · 综合试题","catalogId":"utokyo-ee-fy2013","questionCount":10,"data":"assets/question-bank/utokyo-ee-2013/paper.json"},
+    {"id":"utokyo-ee-2014","title":"东京大学 · 2014 年实施 · 综合试题","catalogId":"utokyo-ee-fy2014","questionCount":10,"data":"assets/question-bank/utokyo-ee-2014/paper.json"},
+    {"id":"utokyo-ee-2015","title":"東京大学 · 2015 年实施 · 電気系工学専攻","catalogId":"utokyo-ee-fy2015","questionCount":10,"data":"assets/question-bank/utokyo-ee-2015/paper.json"},
+    {"id":"utokyo-ee-2016","title":"東京大学 · 2016 年实施 · 電気系工学専攻","catalogId":"utokyo-ee-fy2016","questionCount":10,"data":"assets/question-bank/utokyo-ee-2016/paper.json"},
+    {"id":"utokyo-ee-2017","title":"東京大学 · 2017 年实施 · 電気系工学専攻","catalogId":"utokyo-ee-fy2017","questionCount":10,"data":"assets/question-bank/utokyo-ee-2017/paper.json"},
+    {"id":"utokyo-ee-2018","title":"東京大学 · 2018 年实施 · 電気系工学専攻","catalogId":"utokyo-ee-fy2018","questionCount":10,"data":"assets/question-bank/utokyo-ee-2018/paper.json"},
+    {"id":"utokyo-ee-2019","title":"東京大学 · 2019 年实施 · 電気系工学専攻","catalogId":"utokyo-ee-fy2019","questionCount":10,"data":"assets/question-bank/utokyo-ee-2019/paper.json"},
+    {"id":"utokyo-ee-2021","title":"東京大学 · 2021 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-fy2021","questionCount":6,"data":"assets/question-bank/utokyo-ee-2021/paper.json"},
+    {"id":"utokyo-ee-2022","title":"東京大学 · 2022 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-fy2022","questionCount":6,"data":"assets/question-bank/utokyo-ee-2022/paper.json"},
+    {"id":"utokyo-ee-2023","title":"東京大学 · 2023 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-fy2023","questionCount":6,"data":"assets/question-bank/utokyo-ee-2023/paper.json"},
+    {"id":"utokyo-ee-2024","title":"東京大学 · 2024 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-fy2024","questionCount":6,"data":"assets/question-bank/utokyo-ee-2024/paper.json"},
+    {"id":"utokyo-ee-2025","title":"東京大学 · 2025 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-2025","questionCount":6,"data":"assets/question-bank/utokyo-ee-2025/paper.json"}
   ],
   "aliases": [
   {

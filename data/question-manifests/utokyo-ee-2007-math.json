@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2007-math",
+  "title": "东京大学 · 2007 年实施 · 数学",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-2007-08-28",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2007,
+    "yearBasis": "exam",
+    "subject": "数学",
+    "originalSubject": "数学",
+    "originalName": "math200709j.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611.pdf",
+    "sha256": "df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611",
+    "pageCount": 5,
+    "note": "用户提供的东京大学电气系过去问原卷，PDF字节原样保存。日文数学封面印「東京大学大学院工学系研究科 電気工学・電子工学専攻 入試」「数学」「平成19年8月28日（火）9時00分～11時00分 実施」。英文数学封面印 Department of Electrical and Electronic Engineering, Graduate School of Engineering, University of Tokyo，Mathematics，9:00–11:00, Tuesday, August 28, 2007。英文物理封面为同一日 12:30–15:30，Physics。paperYear 与 examYear 用封面实施年 2007，yearBasis 为 exam，yearEvidence 为 cover，examDates 只记 2007-08-28。不写 admissionYears。文件名 math200709／phys200709 和随包说明里的「2007年9月」与封面 8月28日不一致，以封面实施日为准。日文物理卷未取得，不补。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。unofficial-solutions 不入库。 本逐题批次按完整大题保留全部小问与跨页配图。日英重复只收日文，只有英文原件的2007物理采用英文；水印及原页标注原样保留，不做清理或重绘。"
+  },
+  "renderScale": 3,
+  "commonRegions": [
+    {
+      "page": 1,
+      "box": [
+        62,
+        74,
+        532,
+        750
+      ],
+      "label": "原卷封面、考试时间与选题作答说明"
+    }
+  ],
+  "questions": [
+    {
+      "id": "utokyo-ee-2007-math-q1",
+      "number": "第1問",
+      "title": "伯努利微分方程",
+      "titleKind": "editorial",
+      "topics": [
+        "伯努利微分方程"
+      ],
+      "summary": "保留原卷 第1問 的全部小问、条件和配图；PDF物理页为 2。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 2,
+          "box": [
+            76,
+            103,
+            503,
+            301
+          ],
+          "label": "第1問 · PDF 第 2 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：2。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2007-math-q2",
+      "number": "第2問",
+      "title": "矩阵对角化与微分方程组",
+      "titleKind": "editorial",
+      "topics": [
+        "矩阵对角化"
+      ],
+      "summary": "保留原卷 第2問 的全部小问、条件和配图；PDF物理页为 3。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 3,
+          "box": [
+            63,
+            80,
+            532,
+            587
+          ],
+          "label": "第2問 · PDF 第 3 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：3。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2007-math-q3",
+      "number": "第3問",
+      "title": "复变映射与势函数",
+      "titleKind": "editorial",
+      "topics": [
+        "复变映射"
+      ],
+      "summary": "保留原卷 第3問 的全部小问、条件和配图；PDF物理页为 4。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 4,
+          "box": [
+            63,
+            81,
+            532,
+            731
+          ],
+          "label": "第3問 · PDF 第 4 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：4。"
+      }
+    },
+    {
+      "id": "utokyo-ee-2007-math-q4",
+      "number": "第4問",
+      "title": "阶梯计数与二项式系数",
+      "titleKind": "editorial",
+      "topics": [
+        "阶梯计数"
+      ],
+      "summary": "保留原卷 第4問 的全部小问、条件和配图；PDF物理页为 5。中文标题仅作导航，作答以原题裁图为准。",
+      "regions": [
+        {
+          "page": 5,
+          "box": [
+            32,
+            77,
+            562,
+            772
+          ],
+          "label": "第4問 · PDF 第 5 页"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：5。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面及公共作答说明，不计为大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2007-math-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2007-math-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "utokyo-ee-2007-math-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "utokyo-ee-2007-math-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    }
+  ]
+}

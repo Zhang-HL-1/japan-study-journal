@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-2007-phys",
+  "title": "东京大学 · 2007 年实施 · 物理",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-2007-08-28",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2007,
+    "yearBasis": "exam",
+    "subject": "物理",
+    "originalSubject": "物理",
+    "originalName": "phys200709e.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/1b513066744a75ef9f6c9c44eced205f56cca0007c176d754858407c2a7c7870.pdf",
+    "sha256": "1b513066744a75ef9f6c9c44eced205f56cca0007c176d754858407c2a7c7870",
+    "pageCount": 10,
+    "note": "用户提供的东京大学电气系过去问原卷，PDF字节原样保存。日文数学封面印「東京大学大学院工学系研究科 電気工学・電子工学専攻 入試」「数学」「平成19年8月28日（火）9時00分～11時00分 実施」。英文数学封面印 Department of Electrical and Electronic Engineering, Graduate School of Engineering, University of Tokyo，Mathematics，9:00–11:00, Tuesday, August 28, 2007。英文物理封面为同一日 12:30–15:30，Physics。paperYear 与 examYear 用封面实施年 2007，yearBasis 为 exam，yearEvidence 为 cover，examDates 只记 2007-08-28。不写 admissionYears。文件名 math200709／phys200709 和随包说明里的「2007年9月」与封面 8月28日不一致，以封面实施日为准。日文物理卷未取得，不补。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。unofficial-solutions 不入库。 本逐题批次按完整大题保留全部小问与跨页配图。日英重复只收日文，只有英文原件的2007物理采用英文；水印及原页标注原样保留，不做清理或重绘。"
+  },
+  "commonParts": [
+    {
+      "src": "assets/question-bank/utokyo-ee-2007-phys/common-01.png",
+      "page": 1,
+      "box": [
+        62,
+        66,
+        533,
+        754
+      ],
+      "width": 1413,
+      "height": 2064,
+      "label": "原卷封面、考试时间与选题作答说明",
+      "sha256": "7a3edfb0600d56419c151f00c5adc97487b1f99b98b06ae5488a60496577ebbc"
+    }
+  ],
+  "questions": [
+    {
+      "id": "utokyo-ee-2007-phys-q1",
+      "number": "Problem 1",
+      "title": "同轴电容器与静电力",
+      "titleKind": "editorial",
+      "topics": [
+        "同轴电容器"
+      ],
+      "summary": "保留原卷 Problem 1 的全部小问、条件和配图；PDF物理页为 2。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：2。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2007-phys/utokyo-ee-2007-phys-q1-01.png",
+          "page": 2,
+          "box": [
+            63,
+            70,
+            534,
+            689
+          ],
+          "width": 1413,
+          "height": 1857,
+          "label": "Problem 1 · PDF 第 2 页",
+          "sha256": "fc534d4eb3d00318806b8caf5e9d1be23ca422308d2c653c52d9794cfbfc8dc1"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2007-phys-q2",
+      "number": "Problem 2",
+      "title": "传导电流、位移电流与集肤效应",
+      "titleKind": "editorial",
+      "topics": [
+        "传导电流、位移电流"
+      ],
+      "summary": "保留原卷 Problem 2 的全部小问、条件和配图；PDF物理页为 3。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：3。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2007-phys/utokyo-ee-2007-phys-q2-01.png",
+          "page": 3,
+          "box": [
+            63,
+            80,
+            533,
+            690
+          ],
+          "width": 1410,
+          "height": 1830,
+          "label": "Problem 2 · PDF 第 3 页",
+          "sha256": "768280e3c812bbb1db1eced90818238c2ddd39672709c0484e672cdb2bfb3855"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2007-phys-q3",
+      "number": "Problem 3",
+      "title": "响度电路与频率响应",
+      "titleKind": "editorial",
+      "topics": [
+        "响度电路"
+      ],
+      "summary": "保留原卷 Problem 3 的全部小问、条件和配图；PDF物理页为 4。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：4。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2007-phys/utokyo-ee-2007-phys-q3-01.png",
+          "page": 4,
+          "box": [
+            77,
+            95,
+            519,
+            757
+          ],
+          "width": 1326,
+          "height": 1986,
+          "label": "Problem 3 · PDF 第 4 页",
+          "sha256": "f5a9a52437c2c44f828266890e9d4a668f3685dcc5997f89d479efa7ccab4a08"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2007-phys-q4",
+      "number": "Problem 4",
+      "title": "FET 小信号模型与差分放大",
+      "titleKind": "editorial",
+      "topics": [
+        "FET 小信号模型"
+      ],
+      "summary": "保留原卷 Problem 4 的全部小问、条件和配图；PDF物理页为 5。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：5。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2007-phys/utokyo-ee-2007-phys-q4-01.png",
+          "page": 5,
+          "box": [
+            63,
+            79,
+            533,
+            741
+          ],
+          "width": 1410,
+          "height": 1986,
+          "label": "Problem 4 · PDF 第 5 页",
+          "sha256": "b016f19f860584d826730dc4a2fcd5d2f57034d209785947818a3d0d970d2b73"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2007-phys-q5",
+      "number": "Problem 5",
+      "title": "圆盘转动与角动量",
+      "titleKind": "editorial",
+      "topics": [
+        "圆盘转动"
+      ],
+      "summary": "保留原卷 Problem 5 的全部小问、条件和配图；PDF物理页为 6。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：6。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2007-phys/utokyo-ee-2007-phys-q5-01.png",
+          "page": 6,
+          "box": [
+            63,
+            79,
+            568,
+            751
+          ],
+          "width": 1515,
+          "height": 2016,
+          "label": "Problem 5 · PDF 第 6 页",
+          "sha256": "8175835f308ebe4e6b4742dd5265aff31fa87f85c8a0a6bb1e1607d4d9ca6330"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2007-phys-q6",
+      "number": "Problem 6",
+      "title": "气体分子动理论",
+      "titleKind": "editorial",
+      "topics": [
+        "气体分子动理论"
+      ],
+      "summary": "保留原卷 Problem 6 的全部小问、条件和配图；PDF物理页为 7。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：7。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2007-phys/utokyo-ee-2007-phys-q6-01.png",
+          "page": 7,
+          "box": [
+            62,
+            79,
+            533,
+            596
+          ],
+          "width": 1413,
+          "height": 1551,
+          "label": "Problem 6 · PDF 第 7 页",
+          "sha256": "2ec6add8e64cdd52961c46820a3defa148c576e400939719d71462eb89d9afed"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2007-phys-q7",
+      "number": "Problem 7",
+      "title": "介质波导与导模",
+      "titleKind": "editorial",
+      "topics": [
+        "介质波导"
+      ],
+      "summary": "保留原卷 Problem 7 的全部小问、条件和配图；PDF物理页为 8、9。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：8,9。第二张附图已扩大边界，保留波导的浅灰立体外形及完整坐标。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2007-phys/utokyo-ee-2007-phys-q7-01.png",
+          "page": 8,
+          "box": [
+            63,
+            79,
+            533,
+            629
+          ],
+          "width": 1410,
+          "height": 1650,
+          "label": "Problem 7 · PDF 第 8 页",
+          "sha256": "64619555f3006c79ac44b89e6c44592325dcc0b2ad0927782a059f545d81f873"
+        },
+        {
+          "src": "assets/question-bank/utokyo-ee-2007-phys/utokyo-ee-2007-phys-q7-02.png",
+          "page": 9,
+          "box": [
+            128,
+            95,
+            476,
+            251
+          ],
+          "width": 1044,
+          "height": 468,
+          "label": "Problem 7 · PDF 第 9 页（续页／附图）",
+          "sha256": "56305af704fdfe43c0109448e464c778b9edd0e4d8a84985c54f33022684e97d"
+        }
+      ]
+    },
+    {
+      "id": "utokyo-ee-2007-phys-q8",
+      "number": "Problem 8",
+      "title": "量子谐振子与热平衡",
+      "titleKind": "editorial",
+      "topics": [
+        "量子谐振子"
+      ],
+      "summary": "保留原卷 Problem 8 的全部小问、条件和配图；PDF物理页为 10。中文标题仅作导航，作答以原题裁图为准。",
+      "review": {
+        "status": "verified",
+        "method": "AI visual review",
+        "date": "2026-11-07",
+        "notes": "对照完整原页及最终逐张预览裁图，核对原题号、首行、末行、全部小问、上下标／积分界限／单位、配图与图号，跨页与附图顺序正确；未混入其他大题。水印不清理不重绘；中文标题仅作编辑导航。PDF物理页：10。"
+      },
+      "parts": [
+        {
+          "src": "assets/question-bank/utokyo-ee-2007-phys/utokyo-ee-2007-phys-q8-01.png",
+          "page": 10,
+          "box": [
+            76,
+            94,
+            519,
+            603
+          ],
+          "width": 1329,
+          "height": 1527,
+          "label": "Problem 8 · PDF 第 10 页",
+          "sha256": "ebfaf4e812556f765e55780e520725bf81c5ff12538398ebb9fe7225860d7377"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [],
+      "common": true,
+      "excluded": "封面及公共作答说明，不计为大题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-2007-phys-q1"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "questionIds": [
+        "utokyo-ee-2007-phys-q2"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "questionIds": [
+        "utokyo-ee-2007-phys-q3"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "questionIds": [
+        "utokyo-ee-2007-phys-q4"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 6,
+      "questionIds": [
+        "utokyo-ee-2007-phys-q5"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 7,
+      "questionIds": [
+        "utokyo-ee-2007-phys-q6"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 8,
+      "questionIds": [
+        "utokyo-ee-2007-phys-q7"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 9,
+      "questionIds": [
+        "utokyo-ee-2007-phys-q7"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    },
+    {
+      "page": 10,
+      "questionIds": [
+        "utokyo-ee-2007-phys-q8"
+      ],
+      "common": false,
+      "excluded": "页边空白、扫描边缘及重复页眉；正文与配图已完整收入所列大题，水印保留。",
+      "reviewed": true
+    }
+  ]
+}
