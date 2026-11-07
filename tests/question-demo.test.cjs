@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const root=path.join(__dirname,'..'),catalog=require('../past-papers-data.js');
 const index=require('../question-bank-index.json');
-const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(path.join(root,p)));
 test('published question papers preserve catalog sources, unique IDs and complete page accounting',()=>{
  const ids=new Set(),papers=new Set();assert.equal(index.schemaVersion,1);
  for(const entry of index.papers){

@@ -14,7 +14,7 @@
     "subject": "基礎科目",
     "originalSubject": "基礎科目",
     "originalName": "201403kiso.pdf",
-    "pdf": "assets/past-papers/documents/a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233.pdf",
     "sha256": "a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233",
     "pageCount": 10,
     "note": "目录 yearBasis=exam，year 为实施年 2014，不改写成入学年。页眉印「2014年3月実施」，未印専攻名；专攻沿用目录「電気エネルギーシステム専攻／通信工学専攻／電子工学専攻」，这不是页眉原文。学校为目录東北大学，研究科为目录工学研究科。科目为目录与文件名「基礎科目」（201403kiso.pdf）。本册没有单独封面，也没有另一研究科的题页。大题按页眉「問題」号；同一大题的和文页与英文页合并，小问不拆。原 PDF 每页 /Rotate 为 270。原件字节未改。派生副本 assets/question-bank/tohoku-ee-2014-03-kiso/normalized.pdf 用 PyMuPDF Page.remove_rotation() 转成直立页，裁框用派生页 page.rect，并与原页旋转后的外观逐像素一致。答案 PDF 不在本目录组。未做 2003–2013，未重做 2023–2026。",

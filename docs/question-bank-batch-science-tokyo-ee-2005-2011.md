@@ -32,20 +32,20 @@ AI visual review，2026-10-23。答案和解析未做。草稿，未合并。mai
 
 | 卷 id | year | yearBasis | catalogId | 原文件名 | PDF | 页 | 大题 | blocked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `science-tokyo-ee-2005-kairo` | 2005 | exam | `science-tokyo-ee-2005` | `H18-am.pdf` | `assets/past-papers/documents/6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436.pdf` | 3 | 2 | 0 |
-| `science-tokyo-ee-2005-denjiki` | 2005 | exam | `science-tokyo-ee-2005` | `H18-pm.pdf` | `assets/past-papers/documents/ca39480dd2dd28f1b0cf460e843b88d4e12323456dbb4640f041a452dc575b0d.pdf` | 4 | 3 | 0 |
-| `science-tokyo-ee-2006-kairo` | 2006 | exam | `science-tokyo-ee-2006` | `H19-am.pdf` | `assets/past-papers/documents/cb5ed8d897b969eb4b73016e34ae3e59b5ae0e269414628cb37b2185da3d816f.pdf` | 4 | 4 | 0 |
-| `science-tokyo-ee-2006-denjiki` | 2006 | exam | `science-tokyo-ee-2006` | `H19-pm.pdf` | `assets/past-papers/documents/577818b2453313a6decd40f19711bd3e354994ee134c909e0a319224f616f959.pdf` | 3 | 2 | 0 |
-| `science-tokyo-ee-2007-kairo` | 2007 | exam | `science-tokyo-ee-2007` | `H20-am.pdf` | `assets/past-papers/documents/296dec213d8501997c1cc3b6ee413b1dda72cf40ffa6373f6fbb90d220cb6b75.pdf` | 5 | 3 | 0 |
-| `science-tokyo-ee-2007-denjiki` | 2007 | exam | `science-tokyo-ee-2007` | `H20-pm.pdf` | `assets/past-papers/documents/dece792d9731211ff9db765a57dc1b883c0a16122be2bbe4b88fe1405d977d81.pdf` | 4 | 2 | 0 |
-| `science-tokyo-ee-2008-kairo` | 2008 | exam | `science-tokyo-ee-2008` | `H21-am.pdf` | `assets/past-papers/documents/d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd.pdf` | 5 | 3 | 0 |
-| `science-tokyo-ee-2008-denjiki` | 2008 | exam | `science-tokyo-ee-2008` | `H21-pm.pdf` | `assets/past-papers/documents/da6832a8567f30c986c7af7649f3b7d5b8bfc6d3512036634cb1374e765dfc63.pdf` | 3 | 2 | 0 |
-| `science-tokyo-ee-2009-kairo` | 2009 | exam | `science-tokyo-ee-2009` | `H22-am.pdf` | `assets/past-papers/documents/dac5afe7b2d24a5c7169d2aaec9991ede0574b5e9fc4e3f3862658cace8f0078.pdf` | 5 | 2 | 0 |
-| `science-tokyo-ee-2009-denjiki` | 2009 | exam | `science-tokyo-ee-2009` | `H22-pm.pdf` | `assets/past-papers/documents/b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c.pdf` | 5 | 2 | 0 |
-| `science-tokyo-ee-2010-kairo` | 2010 | exam | `science-tokyo-ee-2010` | `H23-amP.pdf` | `assets/past-papers/documents/3d75940be17d0a48f13cb610a21c972da7851205b95ebd6b994071cab4258671.pdf` | 5 | 4 | 0 |
-| `science-tokyo-ee-2010-denjiki` | 2010 | exam | `science-tokyo-ee-2010` | `H23-pmP.pdf` | `assets/past-papers/documents/369287650eb32981265e973381b86349e89ce6fdc7e7ab41ea7574412080dfa1.pdf` | 4 | 3 | 0 |
-| `science-tokyo-ee-2011-kairo` | 2011 | exam | `science-tokyo-ee-2011` | `H24-amP.pdf` | `assets/past-papers/documents/240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269.pdf` | 4 | 2 | 0 |
-| `science-tokyo-ee-2011-denjiki` | 2011 | exam | `science-tokyo-ee-2011` | `H24-pmP.pdf` | `assets/past-papers/documents/d5eb0179c8567543a5c96722e61f9c5d09129c3fa07e06d78c574c2e5ce77068.pdf` | 3 | 2 | 0 |
+| `science-tokyo-ee-2005-kairo` | 2005 | exam | `science-tokyo-ee-2005` | `H18-am.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436.pdf` | 3 | 2 | 0 |
+| `science-tokyo-ee-2005-denjiki` | 2005 | exam | `science-tokyo-ee-2005` | `H18-pm.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/ca39480dd2dd28f1b0cf460e843b88d4e12323456dbb4640f041a452dc575b0d.pdf` | 4 | 3 | 0 |
+| `science-tokyo-ee-2006-kairo` | 2006 | exam | `science-tokyo-ee-2006` | `H19-am.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/cb5ed8d897b969eb4b73016e34ae3e59b5ae0e269414628cb37b2185da3d816f.pdf` | 4 | 4 | 0 |
+| `science-tokyo-ee-2006-denjiki` | 2006 | exam | `science-tokyo-ee-2006` | `H19-pm.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/577818b2453313a6decd40f19711bd3e354994ee134c909e0a319224f616f959.pdf` | 3 | 2 | 0 |
+| `science-tokyo-ee-2007-kairo` | 2007 | exam | `science-tokyo-ee-2007` | `H20-am.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/296dec213d8501997c1cc3b6ee413b1dda72cf40ffa6373f6fbb90d220cb6b75.pdf` | 5 | 3 | 0 |
+| `science-tokyo-ee-2007-denjiki` | 2007 | exam | `science-tokyo-ee-2007` | `H20-pm.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/dece792d9731211ff9db765a57dc1b883c0a16122be2bbe4b88fe1405d977d81.pdf` | 4 | 2 | 0 |
+| `science-tokyo-ee-2008-kairo` | 2008 | exam | `science-tokyo-ee-2008` | `H21-am.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd.pdf` | 5 | 3 | 0 |
+| `science-tokyo-ee-2008-denjiki` | 2008 | exam | `science-tokyo-ee-2008` | `H21-pm.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/da6832a8567f30c986c7af7649f3b7d5b8bfc6d3512036634cb1374e765dfc63.pdf` | 3 | 2 | 0 |
+| `science-tokyo-ee-2009-kairo` | 2009 | exam | `science-tokyo-ee-2009` | `H22-am.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/dac5afe7b2d24a5c7169d2aaec9991ede0574b5e9fc4e3f3862658cace8f0078.pdf` | 5 | 2 | 0 |
+| `science-tokyo-ee-2009-denjiki` | 2009 | exam | `science-tokyo-ee-2009` | `H22-pm.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c.pdf` | 5 | 2 | 0 |
+| `science-tokyo-ee-2010-kairo` | 2010 | exam | `science-tokyo-ee-2010` | `H23-amP.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/3d75940be17d0a48f13cb610a21c972da7851205b95ebd6b994071cab4258671.pdf` | 5 | 4 | 0 |
+| `science-tokyo-ee-2010-denjiki` | 2010 | exam | `science-tokyo-ee-2010` | `H23-pmP.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/369287650eb32981265e973381b86349e89ce6fdc7e7ab41ea7574412080dfa1.pdf` | 4 | 3 | 0 |
+| `science-tokyo-ee-2011-kairo` | 2011 | exam | `science-tokyo-ee-2011` | `H24-amP.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269.pdf` | 4 | 2 | 0 |
+| `science-tokyo-ee-2011-denjiki` | 2011 | exam | `science-tokyo-ee-2011` | `H24-pmP.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d5eb0179c8567543a5c96722e61f9c5d09129c3fa07e06d78c574c2e5ce77068.pdf` | 3 | 2 | 0 |
 
 封面计入共用说明，不计题。中文标题是导航，不是原题译文。
 

@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const root=path.join(__dirname,'..'),index=require('../question-bank-index.json'),catalog=require('../past-papers-data.js'),api=require('../question-bank.js'),core=require('../practice-core.js');
 const read=rel=>JSON.parse(fs.readFileSync(path.join(root,rel),'utf8'));
-const hash=rel=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,rel))).digest('hex');
+const hash=rel=>require('./hosted-pdf.cjs').hash(rel,()=>fs.readFileSync(path.join(root,rel)));
 const ids=['tus-electrical-2024-general','tus-electrical-2024-intl'];
 const papers=ids.map(id=>read(`assets/question-bank/${id}/paper.json`));
 test('2024 engineering electrical exposes two exams with three subjects each and complete numbered questions',()=>{

@@ -14,7 +14,7 @@
     "subject": "数学・専門科目",
     "originalSubject": "修士課程入学試験問題",
     "originalName": "2026_R08_ee.pdf",
-    "pdf": "assets/past-papers/documents/4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d.pdf",
     "sha256": "4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d",
     "pageCount": 36,
     "note": "令和８年度入学試験（令和７年８月２６日実施）。2026 为入学年度（表紙「令和８年度入学試験問題」），不是实施年 2025，故 yearBasis=academic。全 36 页 = 数学 6 页（第 1–7 页，其中第 1 页为封面）+ 専門科目 29 页（第 8–36 页）。两科均日英并记：日文为题面正本，英文为同一题的翻译（数学的英文与日文同页或次页，専門科目按分野各占一页组），英文页不另立题，全部记入 coverage.excluded。専門科目 A–E 五分野中选两分野作答；本卷按原卷顺序收录全部五分野共 13 道大题，不含答案。"

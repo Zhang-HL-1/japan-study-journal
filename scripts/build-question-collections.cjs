@@ -1,6 +1,11 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const root=path.join(__dirname,'..');
+const hosts=require('../data/full-paper-pdf-hosts.json');
 const hash=relative=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,relative))).digest('hex');
+function sourcePdfOk(source){
+  const entry=hosts.files[source.sha256];
+  return !!(entry&&entry.url===source.pdf&&entry.url.endsWith('/'+source.sha256+'.pdf'));
+}
 function build(config){
  const sources=[],questions=[],commonParts=[],coverage=[],ids=new Set();let first;
  if(!/^[a-z0-9-]+$/.test(config.id)||config.schemaVersion!==1)throw Error('Invalid collection');
@@ -11,7 +16,7 @@ function build(config){
   const s=paper.source;
   if(paper.schemaVersion!==1||s.catalogId!==config.catalogId||!paper.questions.length)throw Error('Components must belong to the same catalog exam');
   if(first&&['schoolId','graduate','major','year','yearBasis'].some(k=>s[k]!==first[k]))throw Error('Different exams cannot share a collection');
-  if(!/^assets\/past-papers\/documents\/[a-f0-9]{64}\.pdf$/.test(s.pdf)||hash(s.pdf)!==s.sha256)throw Error('Source hash mismatch');
+  if(!sourcePdfOk(s))throw Error('Source hash mismatch');
   first ||= s;
   sources.push({...s,id:paper.id,displaySubject:component.subject});
   for(const q of paper.questions){

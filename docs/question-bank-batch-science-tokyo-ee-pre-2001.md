@@ -40,17 +40,17 @@ AI visual review，2026-10-23。答案和解析未做。草稿，未合并。mai
 
 | 卷 id | year | yearBasis | catalogId | 原文件名 | PDF | 目录页段 | 大题 | blocked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `science-tokyo-ee-1990` | 1990 | exam | `science-tokyo-ee-1990` | `H03-11一部.pdf` | `assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf` | 1–3 | 3 | 0 |
+| `science-tokyo-ee-1990` | 1990 | exam | `science-tokyo-ee-1990` | `H03-11一部.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf` | 1–3 | 3 | 0 |
 | `science-tokyo-ee-1993` | 1993 | exam | `science-tokyo-ee-1993` | `H03-11一部.pdf` | 同上 | 6–12 | 5 | 0 |
 | `science-tokyo-ee-1994` | 1994 | exam | `science-tokyo-ee-1994` | `H03-11一部.pdf` | 同上 | 13–17 | 3 | 0 |
 | `science-tokyo-ee-1995` | 1995 | exam | `science-tokyo-ee-1995` | `H03-11一部.pdf` | 同上 | 18–21 | 3 | 0 |
 | `science-tokyo-ee-1996` | 1996 | exam | `science-tokyo-ee-1996` | `H03-11一部.pdf` | 同上 | 22–28 | 4 | 0 |
 | `science-tokyo-ee-1997` | 1997 | exam | `science-tokyo-ee-1997` | `H03-11一部.pdf` | 同上 | 29–33 | 4 | 0 |
 | `science-tokyo-ee-1998` | 1998 | exam | `science-tokyo-ee-1998` | `H03-11一部.pdf` | 同上 | 34–37 | 3 | 0 |
-| `science-tokyo-ee-1999-kairo` | 1999 | exam | `science-tokyo-ee-1999` | `H12 電気回路.pdf` | `assets/past-papers/documents/a53f7dc866d3c6f3eadb1d1f77344501d6bec3e95055c734c54b50c688c0519c.pdf` | 1 | 1 | 0 |
-| `science-tokyo-ee-1999-denjiki` | 1999 | exam | `science-tokyo-ee-1999` | `H12 電磁気.pdf` | `assets/past-papers/documents/c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e.pdf` | 1 | 1 | 0 |
-| `science-tokyo-ee-2000-kairo` | 2000 | exam | `science-tokyo-ee-2000` | `H13 電気回路.pdf` | `assets/past-papers/documents/27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919.pdf` | 1 | 1 | 0 |
-| `science-tokyo-ee-2000-denjiki` | 2000 | exam | `science-tokyo-ee-2000` | `H13 電磁気.pdf` | `assets/past-papers/documents/1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe.pdf` | 1 | 1 | 0 |
+| `science-tokyo-ee-1999-kairo` | 1999 | exam | `science-tokyo-ee-1999` | `H12 電気回路.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/a53f7dc866d3c6f3eadb1d1f77344501d6bec3e95055c734c54b50c688c0519c.pdf` | 1 | 1 | 0 |
+| `science-tokyo-ee-1999-denjiki` | 1999 | exam | `science-tokyo-ee-1999` | `H12 電磁気.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e.pdf` | 1 | 1 | 0 |
+| `science-tokyo-ee-2000-kairo` | 2000 | exam | `science-tokyo-ee-2000` | `H13 電気回路.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919.pdf` | 1 | 1 | 0 |
+| `science-tokyo-ee-2000-denjiki` | 2000 | exam | `science-tokyo-ee-2000` | `H13 電磁気.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe.pdf` | 1 | 1 | 0 |
 
 七个合订年共用同一个 PDF。每卷的 coverage 仍覆盖该 PDF 全部 37 页：本年页段记入本题，其他年的页段标为不属于本卷。中文标题是导航，不是原题译文。
 

@@ -1,5 +1,5 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
-const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(p));
 test('2002 retains independent major questions and excludes different years and handwritten answers',()=>{
  const p=read('assets/question-bank/tus-electrical-2002-general/paper.json');assert.equal(p.questions.length,9);assert.equal(p.source.year,2002);assert.equal(p.source.yearBasis,'academic');assert.match(p.source.note,/2001-08-02/);assert.match(p.title,/英语未收录/);
  assert.deepEqual(p.source.subjects,['电子回路','电气回路','电磁回路']);assert.equal(new Set(p.source.files.map(f=>f.pdf)).size,1);

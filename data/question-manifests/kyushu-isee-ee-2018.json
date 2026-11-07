@@ -14,7 +14,7 @@
     "subject": "数学・専門Ⅰ・専門Ⅱ",
     "originalSubject": "修士課程入学試験問題",
     "originalName": "2018_h30ee-1.pdf",
-    "pdf": "assets/past-papers/documents/0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6.pdf",
     "sha256": "0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6",
     "pageCount": 34,
     "note": "封面印「平成３０年度入学試験問題」「平成２９年８月１７日（木）、１８日（金）」：即 2018 年度入学、考试实施 2017-08-17/18；year 按入学年度记 2018（yearBasis=academic），实施日 2017-08-17（木）・18（金）记入本 note（考试日期以封面与各册子页眉「平成２９年８月１７日」为准）。全 34 页 = 表紙 1 页 + 数学冊子 7 页（第 2–8 页：線形代数／微分方程式／ベクトル解析／複素関数論／確率・統計／記号論理学 6 分野中选 3，共 6 问）+ 専門Ⅰ冊子 7 页（第 9–15 页：A 電気回路／B 電子回路／C 制御工学 3 分野中选 1，共 10 问）+ 専門Ⅱ冊子 19 页（第 16–34 页：D 電磁気学／E 半導体デバイス／F 計算機工学 3 分野中选 1，共 9 问）。数学 6 页为日英同页（每页上半日文、下半英文）；専門Ⅰ・Ⅱ 为日文页后附英文译文页。正本只取日文原件页，英文翻译页列入 coverage.excluded。第 31–34 页（計算機工学）为扫描页，文字层 CID 映射损坏（抽取为乱码），题号、边界与图号全部依渲染图目视判定。"

@@ -1,6 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
 const index=require('../question-bank-index.json'),catalog=require('../past-papers-data.js');
-const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(p));
 test('2009 is one six-page source, eight complete numbered questions and four subjects',()=>{
  const id='tus-electrical-2009-general',entry=index.papers.filter(p=>p.id.startsWith('tus-electrical-2009-'));assert.equal(entry.length,1);
  const p=read(entry[0].data),c=catalog.papers.find(c=>c.id===p.source.catalogId);assert.equal(c.paperYear,2009);assert.equal(c.yearBasis,'academic');assert.equal(c.department,'電気工学専攻');

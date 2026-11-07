@@ -3,9 +3,9 @@ const data=require('../past-papers-data.js'),manifest=require('../assets/past-pa
 const papers=data.papers.filter(p=>p.universityId==='osaka'),hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 test('Osaka preserves original files, deduplicates one copy, and keeps all previously published records',()=>{
  assert.equal(papers.length,171);assert.equal(manifest.sourceFiles,338);assert.equal(manifest.files.length,330);assert.equal(manifest.duplicateByteCopies,8);assert.equal(manifest.questionPDFs,329);assert.equal(manifest.otherPDFs,1);assert.equal(manifest.totalPages,3005);assert.equal(manifest.backfillGroups,97);assert.equal(manifest.backfillUniquePDFs,132);assert.equal(manifest.backfillPages,819);assert.equal(manifest.skippedNotExam.length,6);
- for(const f of manifest.files){const b=fs.readFileSync(path.join(__dirname,'..',f.path));assert.ok(b.subarray(0,5).equals(Buffer.from('%PDF-')));assert.equal(b.length,f.byteSize);assert.equal(hash(b),f.sha256);}
+ for(const f of manifest.files)require('./hosted-pdf.cjs').assertRecord(assert,f);
  for(const p of papers){assert.ok(core.validPaper(p,catalog.universities));assert.equal(p.yearBasis,'academic');assert.deepEqual(p.admissionYears,[p.paperYear]);for(const f of p.files){assert.ok(f.startPage<=f.pages);assert.notEqual(f.kind,'answer');}}
- assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,330);assert.equal(papers.filter(p=>!p.id.startsWith('osaka-science-')&&!p.id.startsWith('osaka-es-')&&!p.id.startsWith('osaka-ist-math-')).length,74);assert.equal(hash(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='kobe-ee-backfill-20261101'&&p.sourceBatch!=='sophia-ee-archive-20261101'&&p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='osaka'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'&&!p.id.startsWith('tus-bf-')&&p.universityId!=='utokyo'))),'36b7a4dc7cbcb533d05368b68d095cd06a8c370ca90394a95060b355873659db');
+ assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.url))).size,330);assert.equal(papers.filter(p=>!p.id.startsWith('osaka-science-')&&!p.id.startsWith('osaka-es-')&&!p.id.startsWith('osaka-ist-math-')).length,74);assert.equal(hash(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='kobe-ee-backfill-20261101'&&p.sourceBatch!=='sophia-ee-archive-20261101'&&p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='osaka'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'&&!p.id.startsWith('tus-bf-')&&p.universityId!=='utokyo'))),'c92f82ac3c3f10b4e0e8e137050b96cc6aeec4a03fc7d2d3f3c4d0a3f345b063');
 });
 test('Osaka uses cover years rather than filenames and distinguishes common basics from course papers',()=>{
  for(const [name,year] of [['2021 basic.pdf',2022],['2022 basic.pdf',2023],['基礎科目.pdf',2024],['2024basic.pdf',2025]]){const p=papers.find(p=>p.files.some(f=>f.originalName===name));assert.equal(p.paperYear,year);assert.equal(p.files.length,4);assert.equal(p.files[0].startPage,2);assert.equal(p.examYear,undefined);}
@@ -39,7 +39,7 @@ test('Osaka backfill adds the previously excluded written exams and skips essays
 test('Osaka electrical archive retains all supplied files and distinguishes folder and admission years',()=>{
  const batch=manifest.electricalBackfill20261103;assert.equal(batch.sourceFiles,110);assert.equal(batch.uniqueAdded,103);assert.equal(batch.reusedExisting,7);assert.equal(batch.newPages,1466);
  const years=papers.filter(p=>p.sourceBatch==='osaka-ee-archive-20261103');assert.deepEqual(years.map(p=>p.paperYear),Array.from({length:17},(_,i)=>2005+i));
- for(const p of years){assert.match(p.sourceNote,/推定|待复核/);assert.ok(p.files.every(f=>fs.existsSync(path.join(__dirname,'..',f.url))));}
+ for(const p of years){assert.match(p.sourceNote,/推定|待复核/);assert.ok(p.files.every(f=>f.url===require('./hosted-pdf.cjs').hosts.files[f.sha256].url));}
 });
 test('Osaka electrical courses stay separate and predecessor papers appear under each course',()=>{
  const courses=['電気工学','量子情報エレクトロニクス','情報通信工学'];

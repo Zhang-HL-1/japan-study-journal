@@ -4,7 +4,7 @@
 
 ## 来源与年度
 
-目录 `tus-fdaa56de6771681f`；一份5页合册 `assets/past-papers/documents/f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c.pdf`，原名 `2013(H25).pdf`。三科来源分区共用同一实际PDF，只登记一套考试。
+目录 `tus-fdaa56de6771681f`；一份5页合册 `https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c.pdf`，原名 `2013(H25).pdf`。三科来源分区共用同一实际PDF，只登记一套考试。
 
 2013入学年度（平成25年度）依据既有目录及文件名，保留 `yearBasis=academic`、`yearEvidence=source-directory`；合册没有科目封面，不声称有封面年度证据。卷头实施日为平成24年8月3日（2012-08-03），单独保留。
 

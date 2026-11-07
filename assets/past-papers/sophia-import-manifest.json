@@ -21,7 +21,7 @@
   "files": [
     {
       "originalName": "2025_scitectest_feb.pdf",
-      "path": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
       "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
       "byteSize": 2640749,
       "pages": 45,
@@ -33,7 +33,7 @@
     },
     {
       "originalName": "2025_scitectest_sep.pdf",
-      "path": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
       "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
       "byteSize": 4570287,
       "pages": 50,
@@ -45,7 +45,7 @@
     },
     {
       "originalName": "scitec_kaitourei_25feb.pdf",
-      "path": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
       "sha256": "0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d",
       "byteSize": 1343146,
       "pages": 34,
@@ -60,7 +60,7 @@
     },
     {
       "originalName": "scitec_kaitourei_25sep.pdf",
-      "path": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
       "sha256": "14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91",
       "byteSize": 1648295,
       "pages": 40,
@@ -81,13 +81,13 @@
       "subject": "機械工学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
           "kind": "question",
           "startPage": 1,
           "endPage": 10
         },
         {
-          "path": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
           "kind": "answer",
           "startPage": 1,
           "endPage": 10
@@ -100,13 +100,13 @@
       "subject": "電気・電子工学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
           "kind": "question",
           "startPage": 11,
           "endPage": 17
         },
         {
-          "path": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
           "kind": "answer",
           "startPage": 11,
           "endPage": 12
@@ -119,13 +119,13 @@
       "subject": "情報学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
           "kind": "question",
           "startPage": 43,
           "endPage": 50
         },
         {
-          "path": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
           "kind": "answer",
           "startPage": 34,
           "endPage": 40
@@ -138,13 +138,13 @@
       "subject": "機械工学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
           "kind": "question",
           "startPage": 1,
           "endPage": 10
         },
         {
-          "path": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
           "kind": "answer",
           "startPage": 1,
           "endPage": 10
@@ -157,13 +157,13 @@
       "subject": "電気・電子工学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
           "kind": "question",
           "startPage": 11,
           "endPage": 17
         },
         {
-          "path": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
           "kind": "answer",
           "startPage": 11,
           "endPage": 11
@@ -176,13 +176,13 @@
       "subject": "情報学基礎",
       "documents": [
         {
-          "path": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
           "kind": "question",
           "startPage": 38,
           "endPage": 45
         },
         {
-          "path": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
           "kind": "answer",
           "startPage": 29,
           "endPage": 34

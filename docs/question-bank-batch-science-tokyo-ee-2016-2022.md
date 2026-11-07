@@ -10,12 +10,12 @@ AI visual review，2026-10-23。答案和解析未做。草稿，未合并。202
 
 | 卷 id | 目录 year | yearBasis | catalogId | 封面 | 原文件名 | PDF | 页 | 大题 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `science-tokyo-ee-2016` | 2016 | exam | `science-tokyo-ee-2016` | 29 大修（2017 年度入学） | `ee_h28.pdf` | `assets/past-papers/documents/961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1.pdf` | 15 | 10 |
-| `science-tokyo-ee-2017` | 2017 | exam | `science-tokyo-ee-2017` | 30 大修（2018 年度入学） | `ee_h29.pdf` | `assets/past-papers/documents/835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba.pdf` | 14 | 10 |
-| `science-tokyo-ee-2018` | 2018 | exam | `science-tokyo-ee-2018` | 31 大修（2019 年度入学） | `ee_h30.pdf` | `assets/past-papers/documents/8e0c507c5c821e492b92cc6bed747799e9d9813418f4a938dd9ea8b9acc9908c.pdf` | 16 | 10 |
-| `science-tokyo-ee-2019` | 2019 | exam | `science-tokyo-ee-2019` | 2020 大修（2020 年度入学） | `82-ee-r1.pdf` | `assets/past-papers/documents/77395e7d54da336c129e8617e3c91d5f39456502e4b4366a1e1c65e4e7a8c2c0.pdf` | 12 | 8 |
-| `science-tokyo-ee-2021` | 2021 | exam | `science-tokyo-ee-2021` | 2022 大修（2022 年度入学） | `exam_ee_20218.pdf` | `assets/past-papers/documents/0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291.pdf` | 11 | 8 |
-| `science-tokyo-ee-2022` | 2022 | exam | `science-tokyo-ee-2022` | 2023 大修（2023 年度入学） | `exam_ee_20228.pdf` | `assets/past-papers/documents/91ca87178337c261e0e46befaf438d1b8455695cbed7961ab0192bcc5417a838.pdf` | 11 | 8 |
+| `science-tokyo-ee-2016` | 2016 | exam | `science-tokyo-ee-2016` | 29 大修（2017 年度入学） | `ee_h28.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1.pdf` | 15 | 10 |
+| `science-tokyo-ee-2017` | 2017 | exam | `science-tokyo-ee-2017` | 30 大修（2018 年度入学） | `ee_h29.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba.pdf` | 14 | 10 |
+| `science-tokyo-ee-2018` | 2018 | exam | `science-tokyo-ee-2018` | 31 大修（2019 年度入学） | `ee_h30.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/8e0c507c5c821e492b92cc6bed747799e9d9813418f4a938dd9ea8b9acc9908c.pdf` | 16 | 10 |
+| `science-tokyo-ee-2019` | 2019 | exam | `science-tokyo-ee-2019` | 2020 大修（2020 年度入学） | `82-ee-r1.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/77395e7d54da336c129e8617e3c91d5f39456502e4b4366a1e1c65e4e7a8c2c0.pdf` | 12 | 8 |
+| `science-tokyo-ee-2021` | 2021 | exam | `science-tokyo-ee-2021` | 2022 大修（2022 年度入学） | `exam_ee_20218.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291.pdf` | 11 | 8 |
+| `science-tokyo-ee-2022` | 2022 | exam | `science-tokyo-ee-2022` | 2023 大修（2023 年度入学） | `exam_ee_20228.pdf` | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/91ca87178337c261e0e46befaf438d1b8455695cbed7961ab0192bcc5417a838.pdf` | 11 | 8 |
 
 唯一 question PDF 6 份，目录引用 6 条，verified 大题 54 道。原 PDF 没有 `/Rotate`，未做派生规范化。生成物合计约 19.5 MB（2016 约 2.8 MB，2017 约 3.7 MB，2018 约 4.9 MB，2019 约 2.7 MB，2021 约 2.9 MB，2022 约 2.5 MB）。
 

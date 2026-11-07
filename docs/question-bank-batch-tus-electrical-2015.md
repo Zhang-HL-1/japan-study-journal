@@ -4,7 +4,7 @@
 
 ## 来源与年度证据
 
-目录 `tus-992dd2f54ca35fc7`；源文件 `2015(H27).pdf`，路径 `assets/past-papers/documents/011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947.pdf`。
+目录 `tus-992dd2f54ca35fc7`；源文件 `2015(H27).pdf`，路径 `https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947.pdf`。
 
 合册未含科目封面，2015入学年度（平成27年度）依据既有目录与源文件名，保留 `yearBasis=academic` 和 `yearEvidence=source-directory`，不声称有封面年度证据。题面实施日为平成26年8月1日（2014-08-01），单独保留，不改作入学年度。
 

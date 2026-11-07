@@ -12,9 +12,9 @@ AI visual review，2026-10-23。答案和解析未做。未合并。
 
 | 卷 id | 目录 year | yearBasis | catalogId | 封面 | 原 PDF | 页 | 大题 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `science-tokyo-ee-2023` | 2023 | exam | `science-tokyo-ee-2023` | 2024 大修 | `assets/past-papers/documents/1657f2c46e336697d407606542f9fd4822d6f3040259fcfc9b59dad3f951ea0e.pdf` | 13 | 8 |
-| `science-tokyo-ee-2024` | 2024 | exam | `science-tokyo-ee-2024` | 2025 大修 | `assets/past-papers/documents/655d886a6ab8a146f8dce78aa4b9290e3a5ab344f1744d0aa05c967720e6fae9.pdf` | 13 | 8 |
-| `science-tokyo-ee-2025` | 2025 | exam | `science-tokyo-ee-2025` | 2026 大修 | `assets/past-papers/documents/f87484a3abc7423c64c609566774d93f4d74d4c6b4c14fae938319922619b272.pdf` | 12 | 8 |
+| `science-tokyo-ee-2023` | 2023 | exam | `science-tokyo-ee-2023` | 2024 大修 | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/1657f2c46e336697d407606542f9fd4822d6f3040259fcfc9b59dad3f951ea0e.pdf` | 13 | 8 |
+| `science-tokyo-ee-2024` | 2024 | exam | `science-tokyo-ee-2024` | 2025 大修 | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/655d886a6ab8a146f8dce78aa4b9290e3a5ab344f1744d0aa05c967720e6fae9.pdf` | 13 | 8 |
+| `science-tokyo-ee-2025` | 2025 | exam | `science-tokyo-ee-2025` | 2026 大修 | `https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/f87484a3abc7423c64c609566774d93f4d74d4c6b4c14fae938319922619b272.pdf` | 12 | 8 |
 
 唯一 question PDF 3 份，目录引用 3 条，verified 大题 24 道。封面计入共用说明，不计题。各科目题号从 1 重新起算；跨页大题合并为一题，小问不拆题。部分题号是矢量字，已与同形文字题号及封面目次对照。
 

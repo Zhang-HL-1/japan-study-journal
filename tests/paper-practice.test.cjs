@@ -12,7 +12,7 @@ test('all catalog question sets and PDFs are covered, ancillary-only entries are
   const p=expected.find(p=>p.id===q.paper.catalogId);assert.equal(q.id,'paper:'+p.id);assert.equal(q.type,'paper');
   assert.equal(q.paper.sourceNote,p.sourceNote);assert.equal(q.provenance.year,p.originalYear||String(papers.yearOf(p)));
   assert.equal(q.paper.files.length,p.files.length);
-  for(let i=0;i<p.files.length;i++){assert.equal(papers.fileURL(q.paper.files[i]),papers.fileURL(p.files[i]));assert.equal(q.paper.files[i].endPage,p.files[i].endPage);assert.ok(fs.existsSync(path.join(__dirname,'..',p.files[i].url)));}
+  for(let i=0;i<p.files.length;i++){assert.equal(papers.fileURL(q.paper.files[i]),papers.fileURL(p.files[i]));assert.equal(q.paper.files[i].endPage,p.files[i].endPage);assert.equal(p.files[i].url,require('./hosted-pdf.cjs').hosts.files[p.files[i].sha256].url);}
  }
 });
 test('generated practice catalog stays in sync and runtime bank has no invented answers',()=>{

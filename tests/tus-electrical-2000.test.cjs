@@ -1,5 +1,5 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
-const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p)),hash=p=>require('./hosted-pdf.cjs').hash(p,()=>fs.readFileSync(p));
 test('TUS 2000 has three verified high-resolution subjects, with linked EM questions kept complete',()=>{
  const id='tus-electrical-2000-general',p=read(`assets/question-bank/${id}/paper.json`),catalog=require('../past-papers-data.js').papers.find(x=>x.id===p.source.catalogId);
  assert.equal(catalog.paperYear,2000);assert.equal(catalog.yearBasis,'academic');assert.equal(p.source.year,2000);assert.match(p.source.note,/1999-08-02/);assert.equal(new Set(p.source.files.map(f=>f.pdf)).size,1);assert.deepEqual(p.source.subjects,['电子回路','电气回路','电磁回路']);assert.equal(p.questions.length,9);

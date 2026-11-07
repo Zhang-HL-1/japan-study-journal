@@ -6,7 +6,7 @@
   "scopeNote": "现有目录没有2022入学年度；本批顺延至现有2021年度资料，不重标年份。",
   "sources": [
     {
-      "pdf": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
+      "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
       "sha256": "c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c",
       "pages": 12,
       "coverPages": {
@@ -36,7 +36,7 @@
       "policy": "裁框只包含印刷题干与附图；第6页整页手写参考完全排除。分块按原坐标排布，未改写或重画题面。"
     },
     {
-      "pdf": "assets/past-papers/documents/a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542.pdf",
+      "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542.pdf",
       "sha256": "a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542",
       "pages": 3,
       "policy": "电磁补充扫描无手写演算；原有划线、擦除痕迹保留。对照合册逐题核对。"

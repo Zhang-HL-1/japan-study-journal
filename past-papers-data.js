@@ -23,7 +23,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e7bfa6d27e6677b39896f6822d9b8e590e3d2eab9f5f8f60354fb35732289715.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/e7bfa6d27e6677b39896f6822d9b8e590e3d2eab9f5f8f60354fb35732289715.pdf",
           "originalName": "53_M_kyodogenshi_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "e7bfa6d27e6677b39896f6822d9b8e590e3d2eab9f5f8f60354fb35732289715",
           "byteSize": 259549,
@@ -57,7 +57,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/5da726b36e2589dbce2dc68d56a545723813842f43102d92402f7e6b6cf35384.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/5da726b36e2589dbce2dc68d56a545723813842f43102d92402f7e6b6cf35384.pdf",
           "originalName": "53_M_butsuri_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "5da726b36e2589dbce2dc68d56a545723813842f43102d92402f7e6b6cf35384",
           "byteSize": 386803,
@@ -91,7 +91,7 @@
         {
           "label": "専門科目（訂正ページ付き）",
           "kind": "question",
-          "url": "assets/past-papers/documents/231c7a43b91e5e1e8583728b96f4847b1d197dfee0fbea52bfaa27ed1f047782.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/231c7a43b91e5e1e8583728b96f4847b1d197dfee0fbea52bfaa27ed1f047782.pdf",
           "originalName": "53_M_denki_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "231c7a43b91e5e1e8583728b96f4847b1d197dfee0fbea52bfaa27ed1f047782",
           "byteSize": 643113,
@@ -104,7 +104,7 @@
         {
           "label": "専門科目・訂正通知",
           "kind": "other",
-          "url": "assets/past-papers/documents/231c7a43b91e5e1e8583728b96f4847b1d197dfee0fbea52bfaa27ed1f047782.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/231c7a43b91e5e1e8583728b96f4847b1d197dfee0fbea52bfaa27ed1f047782.pdf",
           "originalName": "53_M_denki_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "231c7a43b91e5e1e8583728b96f4847b1d197dfee0fbea52bfaa27ed1f047782",
           "byteSize": 643113,
@@ -138,7 +138,7 @@
         {
           "label": "専門科目（訂正ページ付き）",
           "kind": "question",
-          "url": "assets/past-papers/documents/fb78396ef88bad078ba1761bb6cd589be8e3a56f5c0cf50b389fc5126cca8da0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/fb78396ef88bad078ba1761bb6cd589be8e3a56f5c0cf50b389fc5126cca8da0.pdf",
           "originalName": "52_M_keieisystem_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "fb78396ef88bad078ba1761bb6cd589be8e3a56f5c0cf50b389fc5126cca8da0",
           "byteSize": 558615,
@@ -151,7 +151,7 @@
         {
           "label": "専門科目・訂正通知",
           "kind": "other",
-          "url": "assets/past-papers/documents/fb78396ef88bad078ba1761bb6cd589be8e3a56f5c0cf50b389fc5126cca8da0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/fb78396ef88bad078ba1761bb6cd589be8e3a56f5c0cf50b389fc5126cca8da0.pdf",
           "originalName": "52_M_keieisystem_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "fb78396ef88bad078ba1761bb6cd589be8e3a56f5c0cf50b389fc5126cca8da0",
           "byteSize": 558615,
@@ -186,7 +186,7 @@
         {
           "label": "専門共通科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4e56e2a9b95fe4ed63ba0fad8a3da626510777abe13fcb13fc97cc3853666f9d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/4e56e2a9b95fe4ed63ba0fad8a3da626510777abe13fcb13fc97cc3853666f9d.pdf",
           "originalName": "52_M_sogokikai_2025_September2026_April_ippan_senmon-kyotsu.pdf",
           "sha256": "4e56e2a9b95fe4ed63ba0fad8a3da626510777abe13fcb13fc97cc3853666f9d",
           "byteSize": 131105,
@@ -199,7 +199,7 @@
         {
           "label": "専門選択科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/88bba014a78c9ad72395289dadaa97cd7ebb8b89928d032612353b5ff3f209d9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/88bba014a78c9ad72395289dadaa97cd7ebb8b89928d032612353b5ff3f209d9.pdf",
           "originalName": "52_M_sogokikai_2025_September2026_April_ippan_senmon-sentaku.pdf",
           "sha256": "88bba014a78c9ad72395289dadaa97cd7ebb8b89928d032612353b5ff3f209d9",
           "byteSize": 432978,
@@ -233,7 +233,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/23b27b9af5d21a9372e184f893ccb14338dddb2bf0e90ca3752814b4960397f5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/23b27b9af5d21a9372e184f893ccb14338dddb2bf0e90ca3752814b4960397f5.pdf",
           "originalName": "51_M_johoriko_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "23b27b9af5d21a9372e184f893ccb14338dddb2bf0e90ca3752814b4960397f5",
           "byteSize": 370736,
@@ -267,7 +267,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/fca01974bef4b592fadbcbbd577c3e8877e945624198547a18cce325ad5082da.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/fca01974bef4b592fadbcbbd577c3e8877e945624198547a18cce325ad5082da.pdf",
           "originalName": "51_M_sugaku_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "fca01974bef4b592fadbcbbd577c3e8877e945624198547a18cce325ad5082da",
           "byteSize": 315917,
@@ -301,7 +301,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8237d9396070b6f35e8c998496c96c92aa8814610e18b2e352ab8c98c1d0fe21.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/8237d9396070b6f35e8c998496c96c92aa8814610e18b2e352ab8c98c1d0fe21.pdf",
           "originalName": "51_M_zairyokagaku_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "8237d9396070b6f35e8c998496c96c92aa8814610e18b2e352ab8c98c1d0fe21",
           "byteSize": 378112,
@@ -335,7 +335,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e4660b8703dab00cd19b81d7062891594fec9bef215f6add1257f4ce1de12586.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/e4660b8703dab00cd19b81d7062891594fec9bef215f6add1257f4ce1de12586.pdf",
           "originalName": "51_M_kikaikagaku_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "e4660b8703dab00cd19b81d7062891594fec9bef215f6add1257f4ce1de12586",
           "byteSize": 318214,
@@ -370,7 +370,7 @@
         {
           "label": "専門選択科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/661708b996c2f6622c7068f26ca331fc2794c9a3c758dff2878522637be351cf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/661708b996c2f6622c7068f26ca331fc2794c9a3c758dff2878522637be351cf.pdf",
           "originalName": "51_M_hyogenkogaku_2025_September2026_April_ippan_senmon-sentaku.pdf",
           "sha256": "661708b996c2f6622c7068f26ca331fc2794c9a3c758dff2878522637be351cf",
           "byteSize": 315193,
@@ -383,7 +383,7 @@
         {
           "label": "専門共通科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/0d248282e7f59fb458febea56288bc5878708555366e257464521b84f2b89e0e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/0d248282e7f59fb458febea56288bc5878708555366e257464521b84f2b89e0e.pdf",
           "originalName": "51_M_hyogenkogaku_2025_September2026_April_ippan_senmon-kyotsu.pdf",
           "sha256": "0d248282e7f59fb458febea56288bc5878708555366e257464521b84f2b89e0e",
           "byteSize": 44371,
@@ -417,7 +417,7 @@
         {
           "label": "専門科目（訂正ページ付き）",
           "kind": "question",
-          "url": "assets/past-papers/documents/99da00f1ddf484a3834528ce151645cd659ba62a11d193ae79711e18ee9cd615.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/99da00f1ddf484a3834528ce151645cd659ba62a11d193ae79711e18ee9cd615.pdf",
           "originalName": "51_M_denshibutsuri_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "99da00f1ddf484a3834528ce151645cd659ba62a11d193ae79711e18ee9cd615",
           "byteSize": 326442,
@@ -430,7 +430,7 @@
         {
           "label": "専門科目・訂正通知",
           "kind": "other",
-          "url": "assets/past-papers/documents/99da00f1ddf484a3834528ce151645cd659ba62a11d193ae79711e18ee9cd615.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/99da00f1ddf484a3834528ce151645cd659ba62a11d193ae79711e18ee9cd615.pdf",
           "originalName": "51_M_denshibutsuri_2025_September2026_April_ippan_senmon.pdf",
           "sha256": "99da00f1ddf484a3834528ce151645cd659ba62a11d193ae79711e18ee9cd615",
           "byteSize": 326442,
@@ -464,7 +464,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/24c40964b3f77f10ab9e77fe466f8fdfcdd415baf80b25d8c02c08a9d57fde8d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/24c40964b3f77f10ab9e77fe466f8fdfcdd415baf80b25d8c02c08a9d57fde8d.pdf",
           "originalName": "53_M_kyodogenshi_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "24c40964b3f77f10ab9e77fe466f8fdfcdd415baf80b25d8c02c08a9d57fde8d",
           "byteSize": 367966,
@@ -498,7 +498,7 @@
         {
           "label": "専門科目（訂正ページ付き）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0.pdf",
           "originalName": "53_M_butsuri_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0",
           "byteSize": 532480,
@@ -511,7 +511,7 @@
         {
           "label": "専門科目・訂正通知",
           "kind": "other",
-          "url": "assets/past-papers/documents/f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0.pdf",
           "originalName": "53_M_butsuri_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "f0a2f27e6123c010a0ec4a9cc821bc99b47c371ea6341d5cb2f9ec6f8a8642b0",
           "byteSize": 532480,
@@ -545,7 +545,7 @@
         {
           "label": "専門科目（訂正ページ付き）",
           "kind": "question",
-          "url": "assets/past-papers/documents/fa0d4455e4d1cd393d0b96e220eb0497ad364f1d6ceb7e257deae2ba8fabcc2d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/fa0d4455e4d1cd393d0b96e220eb0497ad364f1d6ceb7e257deae2ba8fabcc2d.pdf",
           "originalName": "53_M_denki_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "fa0d4455e4d1cd393d0b96e220eb0497ad364f1d6ceb7e257deae2ba8fabcc2d",
           "byteSize": 881270,
@@ -558,7 +558,7 @@
         {
           "label": "専門科目・訂正通知",
           "kind": "other",
-          "url": "assets/past-papers/documents/fa0d4455e4d1cd393d0b96e220eb0497ad364f1d6ceb7e257deae2ba8fabcc2d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/fa0d4455e4d1cd393d0b96e220eb0497ad364f1d6ceb7e257deae2ba8fabcc2d.pdf",
           "originalName": "53_M_denki_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "fa0d4455e4d1cd393d0b96e220eb0497ad364f1d6ceb7e257deae2ba8fabcc2d",
           "byteSize": 881270,
@@ -592,7 +592,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8101f8ddc7b929ee82c85856c8ff5f3f0a354df1b9878f2a3d298007b7617603.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/8101f8ddc7b929ee82c85856c8ff5f3f0a354df1b9878f2a3d298007b7617603.pdf",
           "originalName": "52_M_keieisystem_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "8101f8ddc7b929ee82c85856c8ff5f3f0a354df1b9878f2a3d298007b7617603",
           "byteSize": 636325,
@@ -627,7 +627,7 @@
         {
           "label": "専門共通科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8683a2edeb2a84be55ed27f9a1e671cf4469c58d0fd7bc281f0d78a84f952933.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/8683a2edeb2a84be55ed27f9a1e671cf4469c58d0fd7bc281f0d78a84f952933.pdf",
           "originalName": "52_M_sogokikai_2024_September2025_April_ippan_senmon-kyotsu.pdf",
           "sha256": "8683a2edeb2a84be55ed27f9a1e671cf4469c58d0fd7bc281f0d78a84f952933",
           "byteSize": 102892,
@@ -640,7 +640,7 @@
         {
           "label": "専門選択科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/0ab5ae6ed854bef6a6ffc9440222f9aec46c8d7a6302a70207e50c298d000625.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/0ab5ae6ed854bef6a6ffc9440222f9aec46c8d7a6302a70207e50c298d000625.pdf",
           "originalName": "52_M_sogokikai_2024_September2025_April_ippan_senmon-sentaku.pdf",
           "sha256": "0ab5ae6ed854bef6a6ffc9440222f9aec46c8d7a6302a70207e50c298d000625",
           "byteSize": 458646,
@@ -674,7 +674,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/3ff7916be3cff22822c7f59a6efd564e1093d41a0de2d0c2617b08cb6c08fdf1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/3ff7916be3cff22822c7f59a6efd564e1093d41a0de2d0c2617b08cb6c08fdf1.pdf",
           "originalName": "51_M_johoriko_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "3ff7916be3cff22822c7f59a6efd564e1093d41a0de2d0c2617b08cb6c08fdf1",
           "byteSize": 514221,
@@ -708,7 +708,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/6b76b6cced0f7d2b71e9e834e42b8f96833ea3ca2b810435ce9d95ceb8609116.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/6b76b6cced0f7d2b71e9e834e42b8f96833ea3ca2b810435ce9d95ceb8609116.pdf",
           "originalName": "51_M_sugaku_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "6b76b6cced0f7d2b71e9e834e42b8f96833ea3ca2b810435ce9d95ceb8609116",
           "byteSize": 382327,
@@ -742,7 +742,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8d88f367de5f765d0496f655546b30df202f0b46e9b2496183b386e140b7c0d1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/8d88f367de5f765d0496f655546b30df202f0b46e9b2496183b386e140b7c0d1.pdf",
           "originalName": "51_M_zairyokagaku_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "8d88f367de5f765d0496f655546b30df202f0b46e9b2496183b386e140b7c0d1",
           "byteSize": 430276,
@@ -776,7 +776,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4c45083c897803600ba7744481ff0a33a67a763c00ceae215fd45d44150ed985.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/4c45083c897803600ba7744481ff0a33a67a763c00ceae215fd45d44150ed985.pdf",
           "originalName": "51_M_kikaikagaku_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "4c45083c897803600ba7744481ff0a33a67a763c00ceae215fd45d44150ed985",
           "byteSize": 405444,
@@ -811,7 +811,7 @@
         {
           "label": "専門選択科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e57a6acacf0e1cbba2172b7bece5e977a8a59f323bf8635bcfafe9ada8cd3297.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/e57a6acacf0e1cbba2172b7bece5e977a8a59f323bf8635bcfafe9ada8cd3297.pdf",
           "originalName": "51_M_hyogenkogaku_2024_September2025_April_ippan_senmon-sentaku.pdf",
           "sha256": "e57a6acacf0e1cbba2172b7bece5e977a8a59f323bf8635bcfafe9ada8cd3297",
           "byteSize": 524000,
@@ -824,7 +824,7 @@
         {
           "label": "専門共通科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/82ff64314e058e232db7e907df7ea757d2ac33fa8c8f4ea9e088f2d6c153cf7d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/82ff64314e058e232db7e907df7ea757d2ac33fa8c8f4ea9e088f2d6c153cf7d.pdf",
           "originalName": "51_M_hyogenkogaku_2024_September2025_April_ippan_senmon-kyotsu.pdf",
           "sha256": "82ff64314e058e232db7e907df7ea757d2ac33fa8c8f4ea9e088f2d6c153cf7d",
           "byteSize": 61478,
@@ -858,7 +858,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/34501f43f1cb08fff80908bee74bcf068a1e6b431159932a3ac05befbaad8f2a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/34501f43f1cb08fff80908bee74bcf068a1e6b431159932a3ac05befbaad8f2a.pdf",
           "originalName": "51_M_denshibutsuri_2024_September2025_April_ippan_senmon.pdf",
           "sha256": "34501f43f1cb08fff80908bee74bcf068a1e6b431159932a3ac05befbaad8f2a",
           "byteSize": 369678,
@@ -892,7 +892,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/ead68a62e00cab894409af6bb1f38beeab2fba76850dd2052c261e9bd334fa14.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/ead68a62e00cab894409af6bb1f38beeab2fba76850dd2052c261e9bd334fa14.pdf",
           "originalName": "53_M_kyodogenshi_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "ead68a62e00cab894409af6bb1f38beeab2fba76850dd2052c261e9bd334fa14",
           "byteSize": 349474,
@@ -926,7 +926,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/40215c5cab5c186a2ef2c5ce723599f11efe77e1dba6e5c20ec08f4cb7b9277c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/40215c5cab5c186a2ef2c5ce723599f11efe77e1dba6e5c20ec08f4cb7b9277c.pdf",
           "originalName": "53_M_butsuri_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "40215c5cab5c186a2ef2c5ce723599f11efe77e1dba6e5c20ec08f4cb7b9277c",
           "byteSize": 393240,
@@ -960,7 +960,7 @@
         {
           "label": "専門科目（訂正ページ付き）",
           "kind": "question",
-          "url": "assets/past-papers/documents/ad37dca1251400deb5e324066ac6341f70bf1894fa7cc5d3f8c2b5c9fe25defe.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/ad37dca1251400deb5e324066ac6341f70bf1894fa7cc5d3f8c2b5c9fe25defe.pdf",
           "originalName": "53_M_denki_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "ad37dca1251400deb5e324066ac6341f70bf1894fa7cc5d3f8c2b5c9fe25defe",
           "byteSize": 631394,
@@ -973,7 +973,7 @@
         {
           "label": "専門科目・訂正通知",
           "kind": "other",
-          "url": "assets/past-papers/documents/ad37dca1251400deb5e324066ac6341f70bf1894fa7cc5d3f8c2b5c9fe25defe.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/ad37dca1251400deb5e324066ac6341f70bf1894fa7cc5d3f8c2b5c9fe25defe.pdf",
           "originalName": "53_M_denki_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "ad37dca1251400deb5e324066ac6341f70bf1894fa7cc5d3f8c2b5c9fe25defe",
           "byteSize": 631394,
@@ -1007,7 +1007,7 @@
         {
           "label": "専門科目（訂正ページ付き）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e84427b21b6ceaa3f4c7b439868945d907637aab09a5d5bf045ef5ef699f8799.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/e84427b21b6ceaa3f4c7b439868945d907637aab09a5d5bf045ef5ef699f8799.pdf",
           "originalName": "52_M_keieidesign_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "e84427b21b6ceaa3f4c7b439868945d907637aab09a5d5bf045ef5ef699f8799",
           "byteSize": 473712,
@@ -1020,7 +1020,7 @@
         {
           "label": "専門科目・訂正通知",
           "kind": "other",
-          "url": "assets/past-papers/documents/e84427b21b6ceaa3f4c7b439868945d907637aab09a5d5bf045ef5ef699f8799.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/e84427b21b6ceaa3f4c7b439868945d907637aab09a5d5bf045ef5ef699f8799.pdf",
           "originalName": "52_M_keieidesign_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "e84427b21b6ceaa3f4c7b439868945d907637aab09a5d5bf045ef5ef699f8799",
           "byteSize": 473712,
@@ -1055,7 +1055,7 @@
         {
           "label": "専門共通科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/cfe960e42a9b46e8973e699695085bd470d475aa1c4342a543622ea08ed32ae0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/cfe960e42a9b46e8973e699695085bd470d475aa1c4342a543622ea08ed32ae0.pdf",
           "originalName": "52_M_sogokikai_2023_September2024_April_ippan_senmon-kyotsu.pdf",
           "sha256": "cfe960e42a9b46e8973e699695085bd470d475aa1c4342a543622ea08ed32ae0",
           "byteSize": 225085,
@@ -1068,7 +1068,7 @@
         {
           "label": "専門選択科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/c5121a542f688d42bbe84f8997c6628fc7dee60598e68a0605b36c52ef8f71dd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/c5121a542f688d42bbe84f8997c6628fc7dee60598e68a0605b36c52ef8f71dd.pdf",
           "originalName": "52_M_sogokikai_2023_September2024_April_ippan_senmon-sentaku.pdf",
           "sha256": "c5121a542f688d42bbe84f8997c6628fc7dee60598e68a0605b36c52ef8f71dd",
           "byteSize": 402236,
@@ -1102,7 +1102,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/f13f6df760e7028170247d060adfed677b130dcd4a3d4b5c07e4db2ba8c0da85.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/f13f6df760e7028170247d060adfed677b130dcd4a3d4b5c07e4db2ba8c0da85.pdf",
           "originalName": "51_M_johoriko_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "f13f6df760e7028170247d060adfed677b130dcd4a3d4b5c07e4db2ba8c0da85",
           "byteSize": 385801,
@@ -1136,7 +1136,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/40dda35842115fc434aedc2b5dfb1c5cc2775b2f559faa9de519e77533042992.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/40dda35842115fc434aedc2b5dfb1c5cc2775b2f559faa9de519e77533042992.pdf",
           "originalName": "51_M_sugaku_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "40dda35842115fc434aedc2b5dfb1c5cc2775b2f559faa9de519e77533042992",
           "byteSize": 335257,
@@ -1170,7 +1170,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/100ef86902858782ec1110b9fe85b906d0685d98afc70350d8c0c6f4c75cea38.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/100ef86902858782ec1110b9fe85b906d0685d98afc70350d8c0c6f4c75cea38.pdf",
           "originalName": "51_M_zairyokagaku_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "100ef86902858782ec1110b9fe85b906d0685d98afc70350d8c0c6f4c75cea38",
           "byteSize": 410835,
@@ -1204,7 +1204,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/f071ede7f4b9578308183dec9a5ad5a67f909128ad2d52cf60c3be65b475da71.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/f071ede7f4b9578308183dec9a5ad5a67f909128ad2d52cf60c3be65b475da71.pdf",
           "originalName": "51_M_kikaikagaku_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "f071ede7f4b9578308183dec9a5ad5a67f909128ad2d52cf60c3be65b475da71",
           "byteSize": 330593,
@@ -1239,7 +1239,7 @@
         {
           "label": "専門共通科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/1b95fa9c739e01c37e46ffc1caa3be1d2a83b563d085a094c66739f33d5fbdb9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/1b95fa9c739e01c37e46ffc1caa3be1d2a83b563d085a094c66739f33d5fbdb9.pdf",
           "originalName": "51_M_hyogenkogaku_2023_September2024_April_ippan_senmon-kyotsu.pdf",
           "sha256": "1b95fa9c739e01c37e46ffc1caa3be1d2a83b563d085a094c66739f33d5fbdb9",
           "byteSize": 1278068,
@@ -1252,7 +1252,7 @@
         {
           "label": "専門選択科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/2b76325899bd4b049bae8aee8b09bbad0e8104394940b63ee9bfbbb7cbcadf41.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/2b76325899bd4b049bae8aee8b09bbad0e8104394940b63ee9bfbbb7cbcadf41.pdf",
           "originalName": "51_M_hyogenkogaku_2023_September2024_April_ippan_senmon-sentaku.pdf",
           "sha256": "2b76325899bd4b049bae8aee8b09bbad0e8104394940b63ee9bfbbb7cbcadf41",
           "byteSize": 335530,
@@ -1286,7 +1286,7 @@
         {
           "label": "専門科目（訂正ページ付き）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f.pdf",
           "originalName": "51_M_denshibutsuri_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f",
           "byteSize": 370877,
@@ -1299,7 +1299,7 @@
         {
           "label": "専門科目・訂正通知",
           "kind": "other",
-          "url": "assets/past-papers/documents/d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f.pdf",
           "originalName": "51_M_denshibutsuri_2023_September2024_April_ippan_senmon.pdf",
           "sha256": "d8eaa37cdee92c97b94fcef5616af0850be89bec31f2509188bdac72ebd2ec5f",
           "byteSize": 370877,
@@ -1333,7 +1333,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a24f6a584725d7d88541a2b88414668cd657ba9906fa40d332c0e2b06e9a9be2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/a24f6a584725d7d88541a2b88414668cd657ba9906fa40d332c0e2b06e9a9be2.pdf",
           "originalName": "51_M_denshibutsuri_2022_September2023_April_ippan_senmon.pdf",
           "sha256": "a24f6a584725d7d88541a2b88414668cd657ba9906fa40d332c0e2b06e9a9be2",
           "byteSize": 875922,
@@ -1367,7 +1367,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/b645e97909d51dc5078be93eb823fb64b70223ce978622fe00c9915f3345f7cf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/b645e97909d51dc5078be93eb823fb64b70223ce978622fe00c9915f3345f7cf.pdf",
           "originalName": "51_M_denshibutsuri_2021_September2022_April_ippan_senmon.pdf",
           "sha256": "b645e97909d51dc5078be93eb823fb64b70223ce978622fe00c9915f3345f7cf",
           "byteSize": 217029,
@@ -1401,7 +1401,7 @@
         {
           "label": "専門科目（訂正ページ付き）",
           "kind": "question",
-          "url": "assets/past-papers/documents/44fe69ef083325326da7c97d0532a72f1c07a59d207f247347d177ca27d28b99.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/44fe69ef083325326da7c97d0532a72f1c07a59d207f247347d177ca27d28b99.pdf",
           "originalName": "51_M_denshibutsuri_2019_September2020_April_ippan_senmon.pdf",
           "sha256": "44fe69ef083325326da7c97d0532a72f1c07a59d207f247347d177ca27d28b99",
           "byteSize": 911968,
@@ -1414,7 +1414,7 @@
         {
           "label": "専門科目・訂正通知",
           "kind": "other",
-          "url": "assets/past-papers/documents/44fe69ef083325326da7c97d0532a72f1c07a59d207f247347d177ca27d28b99.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/44fe69ef083325326da7c97d0532a72f1c07a59d207f247347d177ca27d28b99.pdf",
           "originalName": "51_M_denshibutsuri_2019_September2020_April_ippan_senmon.pdf",
           "sha256": "44fe69ef083325326da7c97d0532a72f1c07a59d207f247347d177ca27d28b99",
           "byteSize": 911968,
@@ -1448,7 +1448,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/684989cdcbb7b157d561dcfc1e0f826342afc0cba48c8c8f380c3db6705e3188.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/684989cdcbb7b157d561dcfc1e0f826342afc0cba48c8c8f380c3db6705e3188.pdf",
           "originalName": "51_M_denshibutsuri_2018_September2019_April_ippan_senmon.pdf",
           "sha256": "684989cdcbb7b157d561dcfc1e0f826342afc0cba48c8c8f380c3db6705e3188",
           "byteSize": 1047671,
@@ -1482,7 +1482,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/aedb4bd36f17e2c1e4c0555dbb801a84d4a787ded2c034b56d0ef56609a50639.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/aedb4bd36f17e2c1e4c0555dbb801a84d4a787ded2c034b56d0ef56609a50639.pdf",
           "originalName": "51_M_denshibutsuri_2017_September2018_April_ippan_senmon.pdf",
           "sha256": "aedb4bd36f17e2c1e4c0555dbb801a84d4a787ded2c034b56d0ef56609a50639",
           "byteSize": 987597,
@@ -1516,7 +1516,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/253c4186e5ca3ad65302cd3433090a31deed1c5ecbf14fec6c2e8bed1357a2e1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/253c4186e5ca3ad65302cd3433090a31deed1c5ecbf14fec6c2e8bed1357a2e1.pdf",
           "originalName": "51_M_denshibutsuri_2016_September2017_April_ippan_senmon.pdf",
           "sha256": "253c4186e5ca3ad65302cd3433090a31deed1c5ecbf14fec6c2e8bed1357a2e1",
           "byteSize": 628574,
@@ -1550,7 +1550,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a34cc0715619e7594c091861740d4507b43eef260edbdeee2e8d42579442f493.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/a34cc0715619e7594c091861740d4507b43eef260edbdeee2e8d42579442f493.pdf",
           "originalName": "080cb5a6297a7cc1864310fadfe4333d.pdf",
           "sha256": "a34cc0715619e7594c091861740d4507b43eef260edbdeee2e8d42579442f493",
           "byteSize": 1645480,
@@ -1584,7 +1584,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/dc3ed93aab6d79afc81170ff0360cd5fc67b3d27796484bed780ff5a0ee1a377.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/waseda/dc3ed93aab6d79afc81170ff0360cd5fc67b3d27796484bed780ff5a0ee1a377.pdf",
           "originalName": "14bc9ed1ceb4d7a3ae61bfea9e003753.pdf",
           "sha256": "dc3ed93aab6d79afc81170ff0360cd5fc67b3d27796484bed780ff5a0ee1a377",
           "byteSize": 466078,
@@ -1618,7 +1618,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/0a708dde843ab67586d435189a162aafa1d22e7c97b0b44b5375d95eecee86e7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0a708dde843ab67586d435189a162aafa1d22e7c97b0b44b5375d95eecee86e7.pdf",
           "originalName": "修士一般＿先進工学研＿マテリアル創成工学専攻＿専門科目（著作権の都合上非公開箇所あり）.pdf",
           "sha256": "0a708dde843ab67586d435189a162aafa1d22e7c97b0b44b5375d95eecee86e7",
           "byteSize": 350060,
@@ -1653,7 +1653,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4193e1f80862b1432a8a37c8a01bc4651443fd5efa1b686047b71f9aa492e405.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4193e1f80862b1432a8a37c8a01bc4651443fd5efa1b686047b71f9aa492e405.pdf",
           "originalName": "修士一般＿先進工学研＿機能デザイン工学専攻＿専門科目.pdf",
           "sha256": "4193e1f80862b1432a8a37c8a01bc4651443fd5efa1b686047b71f9aa492e405",
           "byteSize": 801531,
@@ -1688,7 +1688,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/95e716f7d122ed887249b58fb14557e6b5d49d67e43ecba87c2b913b6beeae8a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/95e716f7d122ed887249b58fb14557e6b5d49d67e43ecba87c2b913b6beeae8a.pdf",
           "originalName": "修士一般＿先進工学研＿生命システム工学専攻＿専門科目.pdf",
           "sha256": "95e716f7d122ed887249b58fb14557e6b5d49d67e43ecba87c2b913b6beeae8a",
           "byteSize": 8099889,
@@ -1724,7 +1724,7 @@
         {
           "label": "応用数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/51ac29fa58405ba7877bf75c995c8ccc42fc31c54e389d48954335efeb61b28d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/51ac29fa58405ba7877bf75c995c8ccc42fc31c54e389d48954335efeb61b28d.pdf",
           "originalName": "修士一般＿先進工学研＿電子システム工学専攻＿応用数学.pdf",
           "sha256": "51ac29fa58405ba7877bf75c995c8ccc42fc31c54e389d48954335efeb61b28d",
           "byteSize": 94442,
@@ -1737,7 +1737,7 @@
         {
           "label": "電気回路・電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/eae4168c1b3253dc53bceae4d17d094cc79528581d25153514d844d4cd5d4288.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/eae4168c1b3253dc53bceae4d17d094cc79528581d25153514d844d4cd5d4288.pdf",
           "originalName": "修士一般＿先進工学研＿電子システム工学専攻＿電気回路・電磁気学.pdf",
           "sha256": "eae4168c1b3253dc53bceae4d17d094cc79528581d25153514d844d4cd5d4288",
           "byteSize": 334549,
@@ -1772,7 +1772,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/0d1f4f5b20ee8cd7dd2fc058fa67376808f9b6229ecbb22268eceb2cecbd5bec.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0d1f4f5b20ee8cd7dd2fc058fa67376808f9b6229ecbb22268eceb2cecbd5bec.pdf",
           "originalName": "修士一般_創域理工研_情報計算科学専攻_専門科目.pdf",
           "sha256": "0d1f4f5b20ee8cd7dd2fc058fa67376808f9b6229ecbb22268eceb2cecbd5bec",
           "byteSize": 613090,
@@ -1810,7 +1810,7 @@
         {
           "label": "専門科目Ⅰ（材料力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0eeaae1b7dc61e1c08f68726678a619e0d359080cbd419926ab114942174fed8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0eeaae1b7dc61e1c08f68726678a619e0d359080cbd419926ab114942174fed8.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅰ.pdf",
           "sha256": "0eeaae1b7dc61e1c08f68726678a619e0d359080cbd419926ab114942174fed8",
           "byteSize": 149037,
@@ -1823,7 +1823,7 @@
         {
           "label": "専門科目Ⅱ（機械力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/4ce8a9b86443073b8b093e2e50c591e56fd9179f692e50df4fc0a5a0d2655c15.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4ce8a9b86443073b8b093e2e50c591e56fd9179f692e50df4fc0a5a0d2655c15.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅱ.pdf",
           "sha256": "4ce8a9b86443073b8b093e2e50c591e56fd9179f692e50df4fc0a5a0d2655c15",
           "byteSize": 194416,
@@ -1836,7 +1836,7 @@
         {
           "label": "専門科目Ⅲ（熱力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/a374ece96792ecfe7d939e1334509e76d530986c4c8fcdd450d3a073f29eb50f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a374ece96792ecfe7d939e1334509e76d530986c4c8fcdd450d3a073f29eb50f.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅲ.pdf",
           "sha256": "a374ece96792ecfe7d939e1334509e76d530986c4c8fcdd450d3a073f29eb50f",
           "byteSize": 253500,
@@ -1849,7 +1849,7 @@
         {
           "label": "専門科目Ⅳ（流体力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/54702c628ca2985cf6624615056c2d68adf3af1d8a29505b83ffcbb4dc9c3b4b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/54702c628ca2985cf6624615056c2d68adf3af1d8a29505b83ffcbb4dc9c3b4b.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅳ.pdf",
           "sha256": "54702c628ca2985cf6624615056c2d68adf3af1d8a29505b83ffcbb4dc9c3b4b",
           "byteSize": 264914,
@@ -1884,7 +1884,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/3ad8621b27709f122abd6307a1ffeb0f09f6b357c4abab1624aabd4f09047d88.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/3ad8621b27709f122abd6307a1ffeb0f09f6b357c4abab1624aabd4f09047d88.pdf",
           "originalName": "外国人留学生_創域理工研_機械航空宇宙工学専攻_専門科目.pdf",
           "sha256": "3ad8621b27709f122abd6307a1ffeb0f09f6b357c4abab1624aabd4f09047d88",
           "byteSize": 949923,
@@ -1922,7 +1922,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/d3fabc2d2898b8928dcc498a08c6b983ef058164f63a489792e0d82b2b1230e5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/d3fabc2d2898b8928dcc498a08c6b983ef058164f63a489792e0d82b2b1230e5.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_専門科目.pdf",
           "sha256": "d3fabc2d2898b8928dcc498a08c6b983ef058164f63a489792e0d82b2b1230e5",
           "byteSize": 535763,
@@ -1935,7 +1935,7 @@
         {
           "label": "微分・積分",
           "kind": "question",
-          "url": "assets/past-papers/documents/c15302b008976925d5d4aaaa4586569069d5178d6a82f9e737634cd78c2cbdee.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c15302b008976925d5d4aaaa4586569069d5178d6a82f9e737634cd78c2cbdee.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_微分・積分.pdf",
           "sha256": "c15302b008976925d5d4aaaa4586569069d5178d6a82f9e737634cd78c2cbdee",
           "byteSize": 170952,
@@ -1948,7 +1948,7 @@
         {
           "label": "確率・統計",
           "kind": "question",
-          "url": "assets/past-papers/documents/09a86a318e45104819d7ccae6007bd8957220cc1a0ab766ccde1e898d471b1d8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/09a86a318e45104819d7ccae6007bd8957220cc1a0ab766ccde1e898d471b1d8.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_確率・統計.pdf",
           "sha256": "09a86a318e45104819d7ccae6007bd8957220cc1a0ab766ccde1e898d471b1d8",
           "byteSize": 211996,
@@ -1961,7 +1961,7 @@
         {
           "label": "線形代数",
           "kind": "question",
-          "url": "assets/past-papers/documents/4d1577290fb00defbbd32b6a467a6f71515fe40751370f1cd892bc31373d9763.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4d1577290fb00defbbd32b6a467a6f71515fe40751370f1cd892bc31373d9763.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_線形代数.pdf",
           "sha256": "4d1577290fb00defbbd32b6a467a6f71515fe40751370f1cd892bc31373d9763",
           "byteSize": 142909,
@@ -1997,7 +1997,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/c9114aef1f302f3d3b228e7984c28f2aa5ed5f6416e31888cd365f00acbb081d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c9114aef1f302f3d3b228e7984c28f2aa5ed5f6416e31888cd365f00acbb081d.pdf",
           "originalName": "外国人留学生_創域理工研_経営システム工学工学専攻_専門科目.pdf",
           "sha256": "c9114aef1f302f3d3b228e7984c28f2aa5ed5f6416e31888cd365f00acbb081d",
           "byteSize": 213747,
@@ -2010,7 +2010,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7a34180e25dfe1c410cda8b7b45421c9e0751509a08cd9925de1b70e5c6f5401.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/7a34180e25dfe1c410cda8b7b45421c9e0751509a08cd9925de1b70e5c6f5401.pdf",
           "originalName": "外国人留学生_創域理工研_経営システム工学工学専攻_数学.pdf",
           "sha256": "7a34180e25dfe1c410cda8b7b45421c9e0751509a08cd9925de1b70e5c6f5401",
           "byteSize": 252004,
@@ -2048,7 +2048,7 @@
         {
           "label": "電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/5a4416bfcc24d95c5c8fab820617b8dc94ced228d799cac47a92904f08ebf4a5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5a4416bfcc24d95c5c8fab820617b8dc94ced228d799cac47a92904f08ebf4a5.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電子回路.pdf",
           "sha256": "5a4416bfcc24d95c5c8fab820617b8dc94ced228d799cac47a92904f08ebf4a5",
           "byteSize": 262778,
@@ -2061,7 +2061,7 @@
         {
           "label": "電気回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/7b9d5e442a5bb57f22207710b0204870a09e5002a9701b570c73c85bd94eba1c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/7b9d5e442a5bb57f22207710b0204870a09e5002a9701b570c73c85bd94eba1c.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電気回路.pdf",
           "sha256": "7b9d5e442a5bb57f22207710b0204870a09e5002a9701b570c73c85bd94eba1c",
           "byteSize": 250849,
@@ -2074,7 +2074,7 @@
         {
           "label": "電気数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/425e306640f6cadd4d65cbd7433ca0f8a681f863e5a9ebb5d51e208a12d96e51.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/425e306640f6cadd4d65cbd7433ca0f8a681f863e5a9ebb5d51e208a12d96e51.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電気数学.pdf",
           "sha256": "425e306640f6cadd4d65cbd7433ca0f8a681f863e5a9ebb5d51e208a12d96e51",
           "byteSize": 240317,
@@ -2087,7 +2087,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/1bd65d362ec98805ba3b90f089f0d33147a0d8be0805fef16a4de44b0c6feb5b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/1bd65d362ec98805ba3b90f089f0d33147a0d8be0805fef16a4de44b0c6feb5b.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電磁気学.pdf",
           "sha256": "1bd65d362ec98805ba3b90f089f0d33147a0d8be0805fef16a4de44b0c6feb5b",
           "byteSize": 213038,
@@ -2122,7 +2122,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a86a6882f76a6a2d64f91df1b05e4ca140a504ea5a702efcf8d4a534bbf184c7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a86a6882f76a6a2d64f91df1b05e4ca140a504ea5a702efcf8d4a534bbf184c7.pdf",
           "originalName": "外国人留学生_創域理工研_電気電子情報工学専攻_専門科目.pdf",
           "sha256": "a86a6882f76a6a2d64f91df1b05e4ca140a504ea5a702efcf8d4a534bbf184c7",
           "byteSize": 134887,
@@ -2158,7 +2158,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/50551d261c55ddfa6dc9b362f44ebb5b71c0fc6b30607aa2348237c8220f69cf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/50551d261c55ddfa6dc9b362f44ebb5b71c0fc6b30607aa2348237c8220f69cf.pdf",
           "originalName": "修士一般_工研_情報工学専攻_専門科目.pdf",
           "sha256": "50551d261c55ddfa6dc9b362f44ebb5b71c0fc6b30607aa2348237c8220f69cf",
           "byteSize": 705270,
@@ -2171,7 +2171,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/3f6d1766fa4dc367556c72cbda34293a866c02b2eea7cb6020e79c2f9b281e82.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/3f6d1766fa4dc367556c72cbda34293a866c02b2eea7cb6020e79c2f9b281e82.pdf",
           "originalName": "修士一般_工研_情報工学専攻_数学.pdf",
           "sha256": "3f6d1766fa4dc367556c72cbda34293a866c02b2eea7cb6020e79c2f9b281e82",
           "byteSize": 157700,
@@ -2207,7 +2207,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/05a9a25e4d7d9ec77be1f569eaf5af5dbc71da125ef6290cf33ee9d5265992e8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/05a9a25e4d7d9ec77be1f569eaf5af5dbc71da125ef6290cf33ee9d5265992e8.pdf",
           "originalName": "修士留学生_工研_情報工学専攻_専門科目.pdf",
           "sha256": "05a9a25e4d7d9ec77be1f569eaf5af5dbc71da125ef6290cf33ee9d5265992e8",
           "byteSize": 247671,
@@ -2220,7 +2220,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c2d945ad3d84f0c99dda5d2c35210d4f2d42bbd16e37a1355c830b92b1088823.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c2d945ad3d84f0c99dda5d2c35210d4f2d42bbd16e37a1355c830b92b1088823.pdf",
           "originalName": "修士留学生_工研_情報工学専攻_数学.pdf",
           "sha256": "c2d945ad3d84f0c99dda5d2c35210d4f2d42bbd16e37a1355c830b92b1088823",
           "byteSize": 65178,
@@ -2256,7 +2256,7 @@
         {
           "label": "専門科目（材料力学・熱力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/58f7dbcae4766fb731c62bff50bd51bb0ceca12e1e7f6338649546f059231ab8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/58f7dbcae4766fb731c62bff50bd51bb0ceca12e1e7f6338649546f059231ab8.pdf",
           "originalName": "修士一般_工研_機械工学専攻（材料力学・熱力学）.pdf",
           "sha256": "58f7dbcae4766fb731c62bff50bd51bb0ceca12e1e7f6338649546f059231ab8",
           "byteSize": 913973,
@@ -2269,7 +2269,7 @@
         {
           "label": "専門科目（機械力学・流体力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/03fc66c657ca13d8d95adb4c551ecbfc18b02921b75a4d6b714257a363e9265d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/03fc66c657ca13d8d95adb4c551ecbfc18b02921b75a4d6b714257a363e9265d.pdf",
           "originalName": "修士一般_工研_機械工学専攻（機械力学・流体力学）.pdf",
           "sha256": "03fc66c657ca13d8d95adb4c551ecbfc18b02921b75a4d6b714257a363e9265d",
           "byteSize": 437152,
@@ -2306,7 +2306,7 @@
         {
           "label": "電子回路（ee补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/080f7d3e63eb8715157958c2f039868396a23669ebb0ac4143a0e81d1c2f935c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/080f7d3e63eb8715157958c2f039868396a23669ebb0ac4143a0e81d1c2f935c.pdf",
           "originalName": "修士一般_工研_電気工学専攻_電子回路.pdf",
           "sha256": "080f7d3e63eb8715157958c2f039868396a23669ebb0ac4143a0e81d1c2f935c",
           "byteSize": 287362,
@@ -2320,7 +2320,7 @@
         {
           "label": "電気回路（ee补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0dc5cfb835a0010f2664ea54437f53db7048564d8cd00ff35b15dd8fc8508d40.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0dc5cfb835a0010f2664ea54437f53db7048564d8cd00ff35b15dd8fc8508d40.pdf",
           "originalName": "修士一般_工研_電気工学専攻_電気回路.pdf",
           "sha256": "0dc5cfb835a0010f2664ea54437f53db7048564d8cd00ff35b15dd8fc8508d40",
           "byteSize": 215477,
@@ -2334,7 +2334,7 @@
         {
           "label": "電磁気学（ee补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/ba0b7284655a8ca9d9a49cf8a483d911aa5a5b7360c123720c4e446cc2b1f83a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ba0b7284655a8ca9d9a49cf8a483d911aa5a5b7360c123720c4e446cc2b1f83a.pdf",
           "originalName": "修士一般_工研_電気工学専攻_電磁気学.pdf",
           "sha256": "ba0b7284655a8ca9d9a49cf8a483d911aa5a5b7360c123720c4e446cc2b1f83a",
           "byteSize": 429289,
@@ -2372,7 +2372,7 @@
         {
           "label": "電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/ead3d9d637608650f6e512fabc26eb237ece2c3a0675be34cca2c658d6190138.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ead3d9d637608650f6e512fabc26eb237ece2c3a0675be34cca2c658d6190138.pdf",
           "originalName": "修士留学生_工研_電気工学専攻_電子回路.pdf",
           "sha256": "ead3d9d637608650f6e512fabc26eb237ece2c3a0675be34cca2c658d6190138",
           "byteSize": 210447,
@@ -2385,7 +2385,7 @@
         {
           "label": "電気回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/0b892929c3783e5aa4b3bfacf79a2591761602401c4c1734db0daf814b03afa1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0b892929c3783e5aa4b3bfacf79a2591761602401c4c1734db0daf814b03afa1.pdf",
           "originalName": "修士留学生_工研_電気工学専攻_電気回路.pdf",
           "sha256": "0b892929c3783e5aa4b3bfacf79a2591761602401c4c1734db0daf814b03afa1",
           "byteSize": 154699,
@@ -2398,7 +2398,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/903922bdf8c9a194c99ce06402b284879f81cad4216ceea363e123b98557d6a0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/903922bdf8c9a194c99ce06402b284879f81cad4216ceea363e123b98557d6a0.pdf",
           "originalName": "修士留学生_工研_電気工学専攻_電磁気学.pdf",
           "sha256": "903922bdf8c9a194c99ce06402b284879f81cad4216ceea363e123b98557d6a0",
           "byteSize": 235487,
@@ -2433,7 +2433,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8f334f53f2978334fed5a8615a8d1b05d2ccba441ad87fb97b229a7b88d46da1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/8f334f53f2978334fed5a8615a8d1b05d2ccba441ad87fb97b229a7b88d46da1.pdf",
           "originalName": "修士一般＿先進工学＿マテリアル創成工学専攻＿専門科目.pdf",
           "sha256": "8f334f53f2978334fed5a8615a8d1b05d2ccba441ad87fb97b229a7b88d46da1",
           "byteSize": 505181,
@@ -2469,7 +2469,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/39829250b31184db8068f68bef7bee9c2f16e2bec9ee787c5e7abf36be9b0988.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/39829250b31184db8068f68bef7bee9c2f16e2bec9ee787c5e7abf36be9b0988.pdf",
           "originalName": "修士一般＿先進工学＿生命システム工学専攻＿専門科目.pdf",
           "sha256": "39829250b31184db8068f68bef7bee9c2f16e2bec9ee787c5e7abf36be9b0988",
           "byteSize": 662556,
@@ -2506,7 +2506,7 @@
         {
           "label": "応用数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/dd6704f3d02fea1037cf5685217d20031d46c75153c0b217b55143272f9d4432.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/dd6704f3d02fea1037cf5685217d20031d46c75153c0b217b55143272f9d4432.pdf",
           "originalName": "修士一般＿先進工学＿電子システム工学専攻＿応用数学.pdf",
           "sha256": "dd6704f3d02fea1037cf5685217d20031d46c75153c0b217b55143272f9d4432",
           "byteSize": 115563,
@@ -2520,7 +2520,7 @@
         {
           "label": "電気回路・電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/165360dc3cefa3383b0d3459652d4c672dd1c150c5d860b117353b9dd95272be.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/165360dc3cefa3383b0d3459652d4c672dd1c150c5d860b117353b9dd95272be.pdf",
           "originalName": "修士一般＿先進工学＿電子システム工学専攻＿電気回路・電磁気学.pdf",
           "sha256": "165360dc3cefa3383b0d3459652d4c672dd1c150c5d860b117353b9dd95272be",
           "byteSize": 255101,
@@ -2556,7 +2556,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/ef9ac1eb3da3f783baa35643a05aef7083072cddc2c931fa268c91f1140ff458.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ef9ac1eb3da3f783baa35643a05aef7083072cddc2c931fa268c91f1140ff458.pdf",
           "originalName": "修士一般_創域理工研_情報計算科学専攻_専門科目_問題訂正あり.pdf",
           "sha256": "ef9ac1eb3da3f783baa35643a05aef7083072cddc2c931fa268c91f1140ff458",
           "byteSize": 553780,
@@ -2570,7 +2570,7 @@
         {
           "label": "問題訂正",
           "kind": "other",
-          "url": "assets/past-papers/documents/ef9ac1eb3da3f783baa35643a05aef7083072cddc2c931fa268c91f1140ff458.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ef9ac1eb3da3f783baa35643a05aef7083072cddc2c931fa268c91f1140ff458.pdf",
           "originalName": "修士一般_創域理工研_情報計算科学専攻_専門科目_問題訂正あり.pdf",
           "sha256": "ef9ac1eb3da3f783baa35643a05aef7083072cddc2c931fa268c91f1140ff458",
           "byteSize": 553780,
@@ -2606,7 +2606,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/9642bc6bcb2dccec8fb09052febf6567abeb2ff266417ae399bc322f8c68fb49.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/9642bc6bcb2dccec8fb09052febf6567abeb2ff266417ae399bc322f8c68fb49.pdf",
           "originalName": "修士留学生_創域理工研_情報計算科学専攻_専門科目.pdf",
           "sha256": "9642bc6bcb2dccec8fb09052febf6567abeb2ff266417ae399bc322f8c68fb49",
           "byteSize": 89145,
@@ -2644,7 +2644,7 @@
         {
           "label": "専門科目Ⅰ（材料力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/db59094d8ade0bea8335d4035c2a0a597367d77785f20e82581fc315b76f24c2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/db59094d8ade0bea8335d4035c2a0a597367d77785f20e82581fc315b76f24c2.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅰ.pdf",
           "sha256": "db59094d8ade0bea8335d4035c2a0a597367d77785f20e82581fc315b76f24c2",
           "byteSize": 166189,
@@ -2658,7 +2658,7 @@
         {
           "label": "専門科目Ⅱ（機械力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c3ff4e89820fad54f745e4570f763b43eb84a1843e8878b99aed8abf0a793ec0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c3ff4e89820fad54f745e4570f763b43eb84a1843e8878b99aed8abf0a793ec0.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅱ.pdf",
           "sha256": "c3ff4e89820fad54f745e4570f763b43eb84a1843e8878b99aed8abf0a793ec0",
           "byteSize": 152311,
@@ -2672,7 +2672,7 @@
         {
           "label": "専門科目Ⅲ（熱力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e87f3a866f386adc79da92438b37aa83c6b044f49321b4fce0a4fcd029ea60e1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/e87f3a866f386adc79da92438b37aa83c6b044f49321b4fce0a4fcd029ea60e1.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅲ.pdf",
           "sha256": "e87f3a866f386adc79da92438b37aa83c6b044f49321b4fce0a4fcd029ea60e1",
           "byteSize": 815842,
@@ -2686,7 +2686,7 @@
         {
           "label": "専門科目Ⅳ（流体力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/770bc4693c147eb100036d52322e4c4d96a6b77e433da663c73ac6c88c852910.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/770bc4693c147eb100036d52322e4c4d96a6b77e433da663c73ac6c88c852910.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅳ.pdf",
           "sha256": "770bc4693c147eb100036d52322e4c4d96a6b77e433da663c73ac6c88c852910",
           "byteSize": 218130,
@@ -2722,7 +2722,7 @@
         {
           "label": "材料力学・熱力学・機械力学",
           "kind": "question",
-          "url": "assets/past-papers/documents/657f0aa623949fb04a7e187cf89654bb01a8ed65dd4031a69c2271c66d9110df.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/657f0aa623949fb04a7e187cf89654bb01a8ed65dd4031a69c2271c66d9110df.pdf",
           "originalName": "修士留学生_創域理工研_機械航空宇宙工学専攻_材料力学・熱力学・機械力学.pdf",
           "sha256": "657f0aa623949fb04a7e187cf89654bb01a8ed65dd4031a69c2271c66d9110df",
           "byteSize": 1024441,
@@ -2760,7 +2760,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/d33a5715931054ad1d0713ddf4efa10d9b2e8b300ecce0e846efb7d0087f1bb2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/d33a5715931054ad1d0713ddf4efa10d9b2e8b300ecce0e846efb7d0087f1bb2.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_専門科目.pdf",
           "sha256": "d33a5715931054ad1d0713ddf4efa10d9b2e8b300ecce0e846efb7d0087f1bb2",
           "byteSize": 911813,
@@ -2774,7 +2774,7 @@
         {
           "label": "微分・積分",
           "kind": "question",
-          "url": "assets/past-papers/documents/77cf2b5e63dfee74715f8f56b7481896a5e75ad59081479f0f1c3b4a93129146.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/77cf2b5e63dfee74715f8f56b7481896a5e75ad59081479f0f1c3b4a93129146.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_微分・積分.pdf",
           "sha256": "77cf2b5e63dfee74715f8f56b7481896a5e75ad59081479f0f1c3b4a93129146",
           "byteSize": 138535,
@@ -2788,7 +2788,7 @@
         {
           "label": "確率・統計",
           "kind": "question",
-          "url": "assets/past-papers/documents/ec24c36a1f139940ddd80ccc3f209cc925311e9ea442f3d2f8dddda1290d3472.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ec24c36a1f139940ddd80ccc3f209cc925311e9ea442f3d2f8dddda1290d3472.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_確率・統計.pdf",
           "sha256": "ec24c36a1f139940ddd80ccc3f209cc925311e9ea442f3d2f8dddda1290d3472",
           "byteSize": 164161,
@@ -2802,7 +2802,7 @@
         {
           "label": "線形代数",
           "kind": "question",
-          "url": "assets/past-papers/documents/8efdf81ea1dfae2547c9b8b4b9300801259592e6ca3eea3fbcc271390c605157.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/8efdf81ea1dfae2547c9b8b4b9300801259592e6ca3eea3fbcc271390c605157.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_線形代数.pdf",
           "sha256": "8efdf81ea1dfae2547c9b8b4b9300801259592e6ca3eea3fbcc271390c605157",
           "byteSize": 116148,
@@ -2841,7 +2841,7 @@
         {
           "label": "電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/479d3bcde89179b97e54c899c1c09b6d229c603a1c4c0de03bfddaff2f3a4fc0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/479d3bcde89179b97e54c899c1c09b6d229c603a1c4c0de03bfddaff2f3a4fc0.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電子回路.pdf",
           "sha256": "479d3bcde89179b97e54c899c1c09b6d229c603a1c4c0de03bfddaff2f3a4fc0",
           "byteSize": 254414,
@@ -2855,7 +2855,7 @@
         {
           "label": "電気回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/0dcf79b239afc527fa8c97d7857bc15749da2802d333194483c5d246246ec90b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0dcf79b239afc527fa8c97d7857bc15749da2802d333194483c5d246246ec90b.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電気回路.pdf",
           "sha256": "0dcf79b239afc527fa8c97d7857bc15749da2802d333194483c5d246246ec90b",
           "byteSize": 227712,
@@ -2869,7 +2869,7 @@
         {
           "label": "電気数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/aa7b3fbae61f82cd2bb5530c852cb24bf00ffbe058a49a58c3471a0f5a9ef6de.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/aa7b3fbae61f82cd2bb5530c852cb24bf00ffbe058a49a58c3471a0f5a9ef6de.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電気数学.pdf",
           "sha256": "aa7b3fbae61f82cd2bb5530c852cb24bf00ffbe058a49a58c3471a0f5a9ef6de",
           "byteSize": 206303,
@@ -2883,7 +2883,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4a54f56be4dfcd9a86d0dfab49da9d53851fd0e171d4bfa91f6475701cb12e71.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4a54f56be4dfcd9a86d0dfab49da9d53851fd0e171d4bfa91f6475701cb12e71.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電磁気学.pdf",
           "sha256": "4a54f56be4dfcd9a86d0dfab49da9d53851fd0e171d4bfa91f6475701cb12e71",
           "byteSize": 325385,
@@ -2919,7 +2919,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/c23643b3c4bcba82df5819f08935859581d798fcde69f39c9e3446d186eb6d40.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c23643b3c4bcba82df5819f08935859581d798fcde69f39c9e3446d186eb6d40.pdf",
           "originalName": "修士留学生_創域理工研_電気電子情報工学専攻_専門科目.pdf",
           "sha256": "c23643b3c4bcba82df5819f08935859581d798fcde69f39c9e3446d186eb6d40",
           "byteSize": 126757,
@@ -2955,7 +2955,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/58568b9e53c09411221c81d8ded740bd5febe04d320611f435064600a62e1783.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/58568b9e53c09411221c81d8ded740bd5febe04d320611f435064600a62e1783.pdf",
           "originalName": "修士一般_工研_情報工学専攻_専門科目.pdf",
           "sha256": "58568b9e53c09411221c81d8ded740bd5febe04d320611f435064600a62e1783",
           "byteSize": 230780,
@@ -2969,7 +2969,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0460db7e6af2b61c08129e726032521a91ee38375cd3872a4001674fb1a398fb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0460db7e6af2b61c08129e726032521a91ee38375cd3872a4001674fb1a398fb.pdf",
           "originalName": "修士一般_工研_情報工学専攻_数学.pdf",
           "sha256": "0460db7e6af2b61c08129e726032521a91ee38375cd3872a4001674fb1a398fb",
           "byteSize": 79749,
@@ -3006,7 +3006,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/d4799a9bb21952a25556219e34aa904d270bb1a246d9148458b80d7d1e1c27e2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/d4799a9bb21952a25556219e34aa904d270bb1a246d9148458b80d7d1e1c27e2.pdf",
           "originalName": "修士留学生_工研_情報工学専攻_専門科目.pdf",
           "sha256": "d4799a9bb21952a25556219e34aa904d270bb1a246d9148458b80d7d1e1c27e2",
           "byteSize": 251651,
@@ -3019,7 +3019,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/fcbf39e113d7b239f7a62c25c5cc521fa9bb0c3dee181a909c4ad8d6c4cf3339.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/fcbf39e113d7b239f7a62c25c5cc521fa9bb0c3dee181a909c4ad8d6c4cf3339.pdf",
           "originalName": "修士留学生_工研_情報工学専攻_数学.pdf",
           "sha256": "fcbf39e113d7b239f7a62c25c5cc521fa9bb0c3dee181a909c4ad8d6c4cf3339",
           "byteSize": 69608,
@@ -3055,7 +3055,7 @@
         {
           "label": "専門科目（材料力学・熱力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/57dcbfc4dbb34ce01dac30e4f4e624b7fa188f46c4aa65c4b4834e8e9c86b747.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/57dcbfc4dbb34ce01dac30e4f4e624b7fa188f46c4aa65c4b4834e8e9c86b747.pdf",
           "originalName": "修士一般_工研_機械工学専攻_専門科目（材料力学・熱力学）.pdf",
           "sha256": "57dcbfc4dbb34ce01dac30e4f4e624b7fa188f46c4aa65c4b4834e8e9c86b747",
           "byteSize": 104364,
@@ -3069,7 +3069,7 @@
         {
           "label": "専門科目（機械力学・流体力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b1b07e588ffeb4ca2f7f77406a7f4f1a40bf7be82f40648c6ac78a3ef69683e2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/b1b07e588ffeb4ca2f7f77406a7f4f1a40bf7be82f40648c6ac78a3ef69683e2.pdf",
           "originalName": "修士一般_工研_機械工学専攻_専門科目（機械力学・流体力学）.pdf",
           "sha256": "b1b07e588ffeb4ca2f7f77406a7f4f1a40bf7be82f40648c6ac78a3ef69683e2",
           "byteSize": 129697,
@@ -3108,7 +3108,7 @@
         {
           "label": "力学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b8d357c7e78e8f86e0b5577e5562c4167fd6896b72d88bf621edec8f0192ccdd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/b8d357c7e78e8f86e0b5577e5562c4167fd6896b72d88bf621edec8f0192ccdd.pdf",
           "originalName": "修士留学生_工研_機械工学専攻_力学.pdf",
           "sha256": "b8d357c7e78e8f86e0b5577e5562c4167fd6896b72d88bf621edec8f0192ccdd",
           "byteSize": 82804,
@@ -3121,7 +3121,7 @@
         {
           "label": "専門科目（材料力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/8e8d175bbffc4a58eb26c7db1378d101e21203a1c9e4c77c708822cba1617d30.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/8e8d175bbffc4a58eb26c7db1378d101e21203a1c9e4c77c708822cba1617d30.pdf",
           "originalName": "修士留学生_工研_機械工学専攻_専門科目（材料力学）.pdf",
           "sha256": "8e8d175bbffc4a58eb26c7db1378d101e21203a1c9e4c77c708822cba1617d30",
           "byteSize": 67000,
@@ -3134,7 +3134,7 @@
         {
           "label": "専門科目（機械力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/4e7be70e72c1022980dce86ff17832c3a95bd484c75d471976b1265551f377fa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4e7be70e72c1022980dce86ff17832c3a95bd484c75d471976b1265551f377fa.pdf",
           "originalName": "修士留学生_工研_機械工学専攻_専門科目（機械力学）.pdf",
           "sha256": "4e7be70e72c1022980dce86ff17832c3a95bd484c75d471976b1265551f377fa",
           "byteSize": 76441,
@@ -3147,7 +3147,7 @@
         {
           "label": "専門科目（流体力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f5af09f441f6eca93614039e17ef9dc17a809b1e2b648d0a438beb6534c643e5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f5af09f441f6eca93614039e17ef9dc17a809b1e2b648d0a438beb6534c643e5.pdf",
           "originalName": "修士留学生_工研_機械工学専攻_専門科目（流体力学）.pdf",
           "sha256": "f5af09f441f6eca93614039e17ef9dc17a809b1e2b648d0a438beb6534c643e5",
           "byteSize": 113700,
@@ -3184,7 +3184,7 @@
         {
           "label": "電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/a9482ab377afe0868df209505adc3fa7c8587fa74c6aa5cd71b153663a9f2ce6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a9482ab377afe0868df209505adc3fa7c8587fa74c6aa5cd71b153663a9f2ce6.pdf",
           "originalName": "修士一般_工研_電気工学専攻_電子回路.pdf",
           "sha256": "a9482ab377afe0868df209505adc3fa7c8587fa74c6aa5cd71b153663a9f2ce6",
           "byteSize": 111895,
@@ -3198,7 +3198,7 @@
         {
           "label": "電気回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906.pdf",
           "originalName": "修士一般_工研_電気工学専攻_電気回路.pdf",
           "sha256": "772000b0fc2dc1676985822539ac2c5f3fcbbe95d4b7afdd6166f13031a33906",
           "byteSize": 152088,
@@ -3212,7 +3212,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1.pdf",
           "originalName": "修士一般_工研_電気工学専攻_電磁気学.pdf",
           "sha256": "3e48a3c3aa7e6706063377e71f7282e5286cba7005340e9283beaf9538e792d1",
           "byteSize": 102084,
@@ -3226,7 +3226,7 @@
         {
           "label": "電子回路（ee补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e298ed622013a993947a0e93acf363ec24a00eab54179993013a2601a561c423.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/e298ed622013a993947a0e93acf363ec24a00eab54179993013a2601a561c423.pdf",
           "originalName": "修士一般_工研_電気工学専攻_電子回路.pdf",
           "sha256": "e298ed622013a993947a0e93acf363ec24a00eab54179993013a2601a561c423",
           "byteSize": 425323,
@@ -3239,7 +3239,7 @@
         {
           "label": "電気回路（ee补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b40914f10ebe2046bd69d1adaa42c7bc24a50d8e85f004a96b9306f901efda5f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/b40914f10ebe2046bd69d1adaa42c7bc24a50d8e85f004a96b9306f901efda5f.pdf",
           "originalName": "修士一般_工研_電気工学専攻_電気回路.pdf",
           "sha256": "b40914f10ebe2046bd69d1adaa42c7bc24a50d8e85f004a96b9306f901efda5f",
           "byteSize": 480444,
@@ -3252,7 +3252,7 @@
         {
           "label": "電磁気学（ee补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f34e760405cb50033157f850143a77ac2b1dcc07027c008460d7d2daf4e12884.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f34e760405cb50033157f850143a77ac2b1dcc07027c008460d7d2daf4e12884.pdf",
           "originalName": "修士一般_工研_電気工学専攻_電磁気学.pdf",
           "sha256": "f34e760405cb50033157f850143a77ac2b1dcc07027c008460d7d2daf4e12884",
           "byteSize": 429034,
@@ -3289,7 +3289,7 @@
         {
           "label": "電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/811ef3e9c5771d210a9b42a7c00f3e04003231f4551f281d4c2be296257b70c9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/811ef3e9c5771d210a9b42a7c00f3e04003231f4551f281d4c2be296257b70c9.pdf",
           "originalName": "修士留学生_工研_電気工学専攻_電子回路.pdf",
           "sha256": "811ef3e9c5771d210a9b42a7c00f3e04003231f4551f281d4c2be296257b70c9",
           "byteSize": 98893,
@@ -3302,7 +3302,7 @@
         {
           "label": "電気回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde.pdf",
           "originalName": "修士留学生_工研_電気工学専攻_電気回路.pdf",
           "sha256": "f2221712f87b6906a615d5ad09268444b667c981cf1fef104fefb2c490dbfdde",
           "byteSize": 116504,
@@ -3315,7 +3315,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c.pdf",
           "originalName": "修士留学生_工研_電気工学専攻_電磁気学.pdf",
           "sha256": "040632df333938fa86cfe489bbe31bf56e5df926f1f4f62c3aa021d6358ffa4c",
           "byteSize": 120735,
@@ -3350,7 +3350,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/2cf8d07119d2259a56f0fcd593e5b994f949f6f75ba01b93f39629542a2237d1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/2cf8d07119d2259a56f0fcd593e5b994f949f6f75ba01b93f39629542a2237d1.pdf",
           "originalName": "修士一般_先研_マテリアル創成工学専攻_専門科目.pdf",
           "sha256": "2cf8d07119d2259a56f0fcd593e5b994f949f6f75ba01b93f39629542a2237d1",
           "byteSize": 1606817,
@@ -3385,7 +3385,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/6a0179ffa0be293512785be6d89a009327ff48367b0bd900d533c61d66b9487c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/6a0179ffa0be293512785be6d89a009327ff48367b0bd900d533c61d66b9487c.pdf",
           "originalName": "修士一般_先研_生命システム工学専攻_専門科目.pdf",
           "sha256": "6a0179ffa0be293512785be6d89a009327ff48367b0bd900d533c61d66b9487c",
           "byteSize": 820450,
@@ -3421,7 +3421,7 @@
         {
           "label": "応用数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0c8207d4bfbd76b9586bd96e6fd1520e01899574bc97a81ff9dbd4b8739703fd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0c8207d4bfbd76b9586bd96e6fd1520e01899574bc97a81ff9dbd4b8739703fd.pdf",
           "originalName": "修士一般_先研_電子システム工学専攻_応用数学.pdf",
           "sha256": "0c8207d4bfbd76b9586bd96e6fd1520e01899574bc97a81ff9dbd4b8739703fd",
           "byteSize": 137817,
@@ -3434,7 +3434,7 @@
         {
           "label": "電気回路・電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e4490d4cd20977b63bc4bd2cbe12dac6cc47f363d56b8a9a148f63034b38ece6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/e4490d4cd20977b63bc4bd2cbe12dac6cc47f363d56b8a9a148f63034b38ece6.pdf",
           "originalName": "修士一般_先研_電子システム工学専攻_電気回路・電磁気学.pdf",
           "sha256": "e4490d4cd20977b63bc4bd2cbe12dac6cc47f363d56b8a9a148f63034b38ece6",
           "byteSize": 383498,
@@ -3469,7 +3469,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a3540c5df8e0f6901f8a323db4c455dacce61cd23f6061fdabae310e23414bf2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a3540c5df8e0f6901f8a323db4c455dacce61cd23f6061fdabae310e23414bf2.pdf",
           "originalName": "修士一般_創域理工研_情報計算科学専攻_専門科目.pdf",
           "sha256": "a3540c5df8e0f6901f8a323db4c455dacce61cd23f6061fdabae310e23414bf2",
           "byteSize": 424715,
@@ -3507,7 +3507,7 @@
         {
           "label": "専門科目Ⅰ（材料力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/2455b0df91c6a6d92567a0626c0b66e8d1e9c0cf01814c7f9f9bbdcc253928d6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/2455b0df91c6a6d92567a0626c0b66e8d1e9c0cf01814c7f9f9bbdcc253928d6.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅰ.pdf",
           "sha256": "2455b0df91c6a6d92567a0626c0b66e8d1e9c0cf01814c7f9f9bbdcc253928d6",
           "byteSize": 119696,
@@ -3520,7 +3520,7 @@
         {
           "label": "専門科目Ⅱ（機械力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/a508adbc138abacd4ab110b2ef7003721d2335646861f06dc4e4a55b5fda9351.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a508adbc138abacd4ab110b2ef7003721d2335646861f06dc4e4a55b5fda9351.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅱ.pdf",
           "sha256": "a508adbc138abacd4ab110b2ef7003721d2335646861f06dc4e4a55b5fda9351",
           "byteSize": 118054,
@@ -3533,7 +3533,7 @@
         {
           "label": "専門科目Ⅲ（熱力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e372358861989ed2f9f83cbdc187a44f0c8ee7bc95a4d63d6364c7307b0b56a1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/e372358861989ed2f9f83cbdc187a44f0c8ee7bc95a4d63d6364c7307b0b56a1.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅲ.pdf",
           "sha256": "e372358861989ed2f9f83cbdc187a44f0c8ee7bc95a4d63d6364c7307b0b56a1",
           "byteSize": 153460,
@@ -3546,7 +3546,7 @@
         {
           "label": "専門科目Ⅳ（流体力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6e7e25c95a8d834013b6faf958b688c4c4eab4aff639f81e29f053a069d59932.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/6e7e25c95a8d834013b6faf958b688c4c4eab4aff639f81e29f053a069d59932.pdf",
           "originalName": "修士一般_創域理工研_機械航空宇宙工学専攻_専門科目Ⅳ.pdf",
           "sha256": "6e7e25c95a8d834013b6faf958b688c4c4eab4aff639f81e29f053a069d59932",
           "byteSize": 493709,
@@ -3584,7 +3584,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/9c297ad9c9f952d4f99071e3d66bab506f3796d7a3f2072e37c5fa72a2a59d3e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/9c297ad9c9f952d4f99071e3d66bab506f3796d7a3f2072e37c5fa72a2a59d3e.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_専門科目.pdf",
           "sha256": "9c297ad9c9f952d4f99071e3d66bab506f3796d7a3f2072e37c5fa72a2a59d3e",
           "byteSize": 818859,
@@ -3597,7 +3597,7 @@
         {
           "label": "微分・積分",
           "kind": "question",
-          "url": "assets/past-papers/documents/cdfa634177aeaffb2ae7ce76d16d8f9cfafccd7cefdf87a277ec1eefddf0112c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/cdfa634177aeaffb2ae7ce76d16d8f9cfafccd7cefdf87a277ec1eefddf0112c.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_微分・積分.pdf",
           "sha256": "cdfa634177aeaffb2ae7ce76d16d8f9cfafccd7cefdf87a277ec1eefddf0112c",
           "byteSize": 98734,
@@ -3610,7 +3610,7 @@
         {
           "label": "確率・統計",
           "kind": "question",
-          "url": "assets/past-papers/documents/561d4bac6cd2d2ec79d7a8e581637e8ee09492ccbcf457bcca6f04c0fc96a335.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/561d4bac6cd2d2ec79d7a8e581637e8ee09492ccbcf457bcca6f04c0fc96a335.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_確率・統計.pdf",
           "sha256": "561d4bac6cd2d2ec79d7a8e581637e8ee09492ccbcf457bcca6f04c0fc96a335",
           "byteSize": 127954,
@@ -3623,7 +3623,7 @@
         {
           "label": "線形代数",
           "kind": "question",
-          "url": "assets/past-papers/documents/6065517b9de37a2a92535c7c27f8bd810beefafc647c948da03e09ac459eb6d5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/6065517b9de37a2a92535c7c27f8bd810beefafc647c948da03e09ac459eb6d5.pdf",
           "originalName": "修士一般_創域理工研_経営システム工学専攻_線形代数.pdf",
           "sha256": "6065517b9de37a2a92535c7c27f8bd810beefafc647c948da03e09ac459eb6d5",
           "byteSize": 113049,
@@ -3661,7 +3661,7 @@
         {
           "label": "電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/73c950109ed6566d31d8abd22e9c40ec62624d623c83f5f733cae90e0bf3249a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/73c950109ed6566d31d8abd22e9c40ec62624d623c83f5f733cae90e0bf3249a.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電子回路.pdf",
           "sha256": "73c950109ed6566d31d8abd22e9c40ec62624d623c83f5f733cae90e0bf3249a",
           "byteSize": 204074,
@@ -3674,7 +3674,7 @@
         {
           "label": "電気回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/0f42bd7a1e862b5575b833ca09f0a188482a816ce75f35583d82ea152b70aeda.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0f42bd7a1e862b5575b833ca09f0a188482a816ce75f35583d82ea152b70aeda.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電気回路.pdf",
           "sha256": "0f42bd7a1e862b5575b833ca09f0a188482a816ce75f35583d82ea152b70aeda",
           "byteSize": 176506,
@@ -3687,7 +3687,7 @@
         {
           "label": "電気数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/fbe1612a4ea8249a144914029bbaa0b858a79e21c705ebdd79e0663a319f1da4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/fbe1612a4ea8249a144914029bbaa0b858a79e21c705ebdd79e0663a319f1da4.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電気数学.pdf",
           "sha256": "fbe1612a4ea8249a144914029bbaa0b858a79e21c705ebdd79e0663a319f1da4",
           "byteSize": 137014,
@@ -3700,7 +3700,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4f2c52aca31858a0072223dba4db1709994d1c5cc3e1cd0a9115fdbf35deb7ce.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4f2c52aca31858a0072223dba4db1709994d1c5cc3e1cd0a9115fdbf35deb7ce.pdf",
           "originalName": "修士一般_創域理工研_電気電子情報工学専攻_電磁気学.pdf",
           "sha256": "4f2c52aca31858a0072223dba4db1709994d1c5cc3e1cd0a9115fdbf35deb7ce",
           "byteSize": 186689,
@@ -3736,7 +3736,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/dc2989361f4a81832c1cab8badebb1192208cede97527c60f1632795b6bb6a4b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/dc2989361f4a81832c1cab8badebb1192208cede97527c60f1632795b6bb6a4b.pdf",
           "originalName": "修士一般_工学研究科_情報_専門科目.pdf",
           "sha256": "dc2989361f4a81832c1cab8badebb1192208cede97527c60f1632795b6bb6a4b",
           "byteSize": 595749,
@@ -3749,7 +3749,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7e937f33be5e40e7b753dd9c2e79dfc8b3aa5616e358eb5aff24efdfaa891c47.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/7e937f33be5e40e7b753dd9c2e79dfc8b3aa5616e358eb5aff24efdfaa891c47.pdf",
           "originalName": "修士一般_工学研究科_情報_数学.pdf",
           "sha256": "7e937f33be5e40e7b753dd9c2e79dfc8b3aa5616e358eb5aff24efdfaa891c47",
           "byteSize": 123117,
@@ -3785,7 +3785,7 @@
         {
           "label": "専門科目（材料力学・熱力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/2520f6b86a369ca891815fb5fe948df303b87a20a68e8a89dfeb7f87f77fc5c6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/2520f6b86a369ca891815fb5fe948df303b87a20a68e8a89dfeb7f87f77fc5c6.pdf",
           "originalName": "修士一般_工学研究科_機械_専門_材料力学熱力学.pdf",
           "sha256": "2520f6b86a369ca891815fb5fe948df303b87a20a68e8a89dfeb7f87f77fc5c6",
           "byteSize": 287521,
@@ -3798,7 +3798,7 @@
         {
           "label": "専門科目（機械力学・流体力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/7289b9cf8097446c19a9695f71645822a05296d26d56a198c8e720dda946e7bb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/7289b9cf8097446c19a9695f71645822a05296d26d56a198c8e720dda946e7bb.pdf",
           "originalName": "修士一般_工学研究科_機械_専門_機械力学流体力学.pdf",
           "sha256": "7289b9cf8097446c19a9695f71645822a05296d26d56a198c8e720dda946e7bb",
           "byteSize": 1196590,
@@ -3835,7 +3835,7 @@
         {
           "label": "電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286.pdf",
           "originalName": "修士一般_工学研究科_電気_電子回路.pdf",
           "sha256": "89f55123b6f3372e484aa88ab910bc46b78c52debe6a467b3599e92dca556286",
           "byteSize": 176077,
@@ -3848,7 +3848,7 @@
         {
           "label": "電気回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e.pdf",
           "originalName": "修士一般_工学研究科_電気_電気回路.pdf",
           "sha256": "bec225716ac8f09b63180f165a85c8f861e44b300eaf57d2fe710ee15134d19e",
           "byteSize": 801143,
@@ -3861,7 +3861,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8.pdf",
           "originalName": "修士一般_工学研究科_電気_電磁気学.pdf",
           "sha256": "9c512b0e09b92431fd494c6fbd0e1910a49fb1ca7eba6c686261eada4924edc8",
           "byteSize": 262650,
@@ -3874,7 +3874,7 @@
         {
           "label": "電子回路（ee补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/5a80437d21c857c0b4fc433eff12fa7e2783e26a3aeeb8d568125165a5db850e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5a80437d21c857c0b4fc433eff12fa7e2783e26a3aeeb8d568125165a5db850e.pdf",
           "originalName": "修士一般_工学研究科_電気_電子回路.pdf",
           "sha256": "5a80437d21c857c0b4fc433eff12fa7e2783e26a3aeeb8d568125165a5db850e",
           "byteSize": 188370,
@@ -3887,7 +3887,7 @@
         {
           "label": "電気回路（ee补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/8d8281c7f8ef4039a2d5d0bc784524b7899c4a7828ed6172af236bb58f5a2859.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/8d8281c7f8ef4039a2d5d0bc784524b7899c4a7828ed6172af236bb58f5a2859.pdf",
           "originalName": "修士一般_工学研究科_電気_電気回路.pdf",
           "sha256": "8d8281c7f8ef4039a2d5d0bc784524b7899c4a7828ed6172af236bb58f5a2859",
           "byteSize": 815432,
@@ -3900,7 +3900,7 @@
         {
           "label": "電磁気学（ee补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/5263d69b04de99da0443c6176ad7ec82f170ba7c51f7adbb7a17632a0b47883d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5263d69b04de99da0443c6176ad7ec82f170ba7c51f7adbb7a17632a0b47883d.pdf",
           "originalName": "修士一般_工学研究科_電気_電磁気学.pdf",
           "sha256": "5263d69b04de99da0443c6176ad7ec82f170ba7c51f7adbb7a17632a0b47883d",
           "byteSize": 277640,
@@ -3937,7 +3937,7 @@
         {
           "label": "原卷合册（含手写参考）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
           "originalName": "2021.pdf",
           "sha256": "c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c",
           "byteSize": 9359651,
@@ -3950,7 +3950,7 @@
         {
           "label": "電磁気学（补充原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542.pdf",
           "originalName": "2020年夏入.pdf",
           "sha256": "a9d52c2d808579241874941b9e3f4edb27f1196e6701505f559ff34d36f86542",
           "byteSize": 434073,
@@ -3963,7 +3963,7 @@
         {
           "label": "手写参考解答（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c.pdf",
           "originalName": "2021.pdf",
           "sha256": "c0eded989cb8e631e825c338637518671e4c9dcd55584259af74bbf73235896c",
           "byteSize": 9359651,
@@ -4001,7 +4001,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc.pdf",
           "originalName": "2016(H28).pdf",
           "sha256": "14d336343503fccf2ef5f60c66bfa5c45cd68e49e6a85b2d10a8bb7646fdf1bc",
           "byteSize": 846969,
@@ -4038,7 +4038,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947.pdf",
           "originalName": "2015(H27).pdf",
           "sha256": "011f8f83957cc84e0249f1bc2f88fa7d268e096f273200403789862458d41947",
           "byteSize": 456444,
@@ -4075,7 +4075,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d.pdf",
           "originalName": "2014(H26).pdf",
           "sha256": "e3fef47bfb3216b1b6677eff5fd27f6af24195ce99ec2cf31ed4ce794442f78d",
           "byteSize": 985783,
@@ -4112,7 +4112,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c.pdf",
           "originalName": "2013(H25).pdf",
           "sha256": "f62a203807871deca20a60b4dfb28423a65568105ab2dfc45e6d4f7c0f0fd93c",
           "byteSize": 1537411,
@@ -4149,7 +4149,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/84003fc8176ce3fa24a656f0564366a25faac1252c2aedfd1d76da1b6fc66c7d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/84003fc8176ce3fa24a656f0564366a25faac1252c2aedfd1d76da1b6fc66c7d.pdf",
           "originalName": "2012(H24).pdf",
           "sha256": "84003fc8176ce3fa24a656f0564366a25faac1252c2aedfd1d76da1b6fc66c7d",
           "byteSize": 1083167,
@@ -4186,7 +4186,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/9ffd436e289eec31df7481dac1fada37d21d5f9ef37ad5493cd37870ee289997.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/9ffd436e289eec31df7481dac1fada37d21d5f9ef37ad5493cd37870ee289997.pdf",
           "originalName": "2011(H23).pdf",
           "sha256": "9ffd436e289eec31df7481dac1fada37d21d5f9ef37ad5493cd37870ee289997",
           "byteSize": 1248372,
@@ -4224,7 +4224,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/b9c1a343c41b2f07ea9fd9cbe71bc2d23ea2c7b90fa00da18ab9e0214faa399e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/b9c1a343c41b2f07ea9fd9cbe71bc2d23ea2c7b90fa00da18ab9e0214faa399e.pdf",
           "originalName": "2010(H22).pdf",
           "sha256": "b9c1a343c41b2f07ea9fd9cbe71bc2d23ea2c7b90fa00da18ab9e0214faa399e",
           "byteSize": 1323877,
@@ -4262,7 +4262,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07.pdf",
           "originalName": "2009(H21).pdf",
           "sha256": "2a5bbcc384de536048ce79e86121ffbbb2c69b7b75a85aa93edc5bb16fd17d07",
           "byteSize": 1643005,
@@ -4300,7 +4300,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2.pdf",
           "originalName": "2008(H20).pdf",
           "sha256": "4aa7013912744a1e88ba0646c26566523ad4fb3f5ba3fab150c0cd698ad1e9d2",
           "byteSize": 1433680,
@@ -4338,7 +4338,7 @@
         {
           "label": "原卷合册",
           "kind": "question",
-          "url": "assets/past-papers/documents/068b00332a52eddb3adc5082ad6f158dc82a42422b6ebd9b90e094dac5a6a9b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/068b00332a52eddb3adc5082ad6f158dc82a42422b6ebd9b90e094dac5a6a9b5.pdf",
           "originalName": "2007(H19).pdf",
           "sha256": "068b00332a52eddb3adc5082ad6f158dc82a42422b6ebd9b90e094dac5a6a9b5",
           "byteSize": 4588681,
@@ -4375,7 +4375,7 @@
         {
           "label": "原卷合册（含手写参考）",
           "kind": "question",
-          "url": "assets/past-papers/documents/bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0.pdf",
           "originalName": "2005(H17).pdf",
           "sha256": "bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0",
           "byteSize": 2703028,
@@ -4388,7 +4388,7 @@
         {
           "label": "手写参考解答（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0.pdf",
           "originalName": "2005(H17).pdf",
           "sha256": "bceaf14a084e9a3d9feec670e5b99b5b102161feb266fdbfa72d9c911445e7e0",
           "byteSize": 2703028,
@@ -4402,7 +4402,7 @@
         {
           "label": "電磁気学 2005年度手写参考（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
           "originalName": "2004(H16)-2(含答案).pdf",
           "sha256": "5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5",
           "byteSize": 6671443,
@@ -4442,7 +4442,7 @@
         {
           "label": "原卷合册（含手写参考）",
           "kind": "question",
-          "url": "assets/past-papers/documents/be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c.pdf",
           "originalName": "2004(H16)-1(含答案).pdf",
           "sha256": "be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c",
           "byteSize": 4707892,
@@ -4455,7 +4455,7 @@
         {
           "label": "手写参考解答（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c.pdf",
           "originalName": "2004(H16)-1(含答案).pdf",
           "sha256": "be0534c13df74038e808b32934cfb740895b4c42bbd7eba490ca1f233593e36c",
           "byteSize": 4707892,
@@ -4469,7 +4469,7 @@
         {
           "label": "電磁気学 2004年度手写参考（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
           "originalName": "2004(H16)-2(含答案).pdf",
           "sha256": "5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5",
           "byteSize": 6671443,
@@ -4508,7 +4508,7 @@
         {
           "label": "原卷合册（含手写参考）",
           "kind": "question",
-          "url": "assets/past-papers/documents/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
           "originalName": "2002(H14).pdf",
           "sha256": "210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922",
           "byteSize": 5151824,
@@ -4521,7 +4521,7 @@
         {
           "label": "手写参考解答（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
           "originalName": "2002(H14).pdf",
           "sha256": "210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922",
           "byteSize": 5151824,
@@ -4535,7 +4535,7 @@
         {
           "label": "電磁気学 2002年度手写参考（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
           "originalName": "2004(H16)-2(含答案).pdf",
           "sha256": "5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5",
           "byteSize": 6671443,
@@ -4575,7 +4575,7 @@
         {
           "label": "2001年度 電磁気学（合册补充）",
           "kind": "question",
-          "url": "assets/past-papers/documents/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922.pdf",
           "originalName": "2002(H14).pdf",
           "sha256": "210bcaad151b4db32c3f9425e1db7655bdc4b30cd3af0cce92277d956db02922",
           "byteSize": 5151824,
@@ -4588,7 +4588,7 @@
         {
           "label": "原卷合册（含手写参考）",
           "kind": "question",
-          "url": "assets/past-papers/documents/a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644.pdf",
           "originalName": "2001(H13).pdf",
           "sha256": "a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644",
           "byteSize": 5500206,
@@ -4601,7 +4601,7 @@
         {
           "label": "手写参考解答（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644.pdf",
           "originalName": "2001(H13).pdf",
           "sha256": "a9bcd4801f67d58fbf524c0e72fd0a3fa70c094bb005a73af7de6d4a26cd0644",
           "byteSize": 5500206,
@@ -4615,7 +4615,7 @@
         {
           "label": "電磁気学 2001年度手写参考（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
           "originalName": "2004(H16)-2(含答案).pdf",
           "sha256": "5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5",
           "byteSize": 6671443,
@@ -4653,7 +4653,7 @@
         {
           "label": "原卷合册（含手写参考）",
           "kind": "question",
-          "url": "assets/past-papers/documents/68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263.pdf",
           "originalName": "2000(H12).pdf",
           "sha256": "68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263",
           "byteSize": 3885272,
@@ -4666,7 +4666,7 @@
         {
           "label": "手写参考解答（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263.pdf",
           "originalName": "2000(H12).pdf",
           "sha256": "68f947cb372d0be5c2831848a9faa6366f7bd6e67955a07f61d2ec685b531263",
           "byteSize": 3885272,
@@ -4680,7 +4680,7 @@
         {
           "label": "電磁気学 2000年度手写参考（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
           "originalName": "2004(H16)-2(含答案).pdf",
           "sha256": "5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5",
           "byteSize": 6671443,
@@ -4717,7 +4717,7 @@
         {
           "label": "原卷合册（含手写参考）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c.pdf",
           "originalName": "1999(H11).pdf",
           "sha256": "c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c",
           "byteSize": 1923255,
@@ -4730,7 +4730,7 @@
         {
           "label": "手写参考解答（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c.pdf",
           "originalName": "1999(H11).pdf",
           "sha256": "c1f80b27fabc729895777fcda09fc31af60a405961eb3191cb903a6edc24557c",
           "byteSize": 1923255,
@@ -4744,7 +4744,7 @@
         {
           "label": "電磁気学 1999年度手写参考（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
           "originalName": "2004(H16)-2(含答案).pdf",
           "sha256": "5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5",
           "byteSize": 6671443,
@@ -4780,7 +4780,7 @@
         {
           "label": "原卷合册（含手写参考）",
           "kind": "question",
-          "url": "assets/past-papers/documents/1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec.pdf",
           "originalName": "1998(H10).pdf",
           "sha256": "1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec",
           "byteSize": 1503683,
@@ -4793,7 +4793,7 @@
         {
           "label": "手写参考解答（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec.pdf",
           "originalName": "1998(H10).pdf",
           "sha256": "1a47f94b5c55ec8edb0733e480080c0749e02d86ccf8c38b904e1480c44155ec",
           "byteSize": 1503683,
@@ -4807,7 +4807,7 @@
         {
           "label": "電磁気学 1998年度手写参考（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5.pdf",
           "originalName": "2004(H16)-2(含答案).pdf",
           "sha256": "5b9bb06b09b935cc584a1119e2985ea306569c131ed0e8053f7ea72bd754a5b5",
           "byteSize": 6671443,
@@ -4843,7 +4843,7 @@
         {
           "label": "原卷合册（含手写参考）",
           "kind": "question",
-          "url": "assets/past-papers/documents/53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c.pdf",
           "originalName": "1997(H09).pdf",
           "sha256": "53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c",
           "byteSize": 963283,
@@ -4856,7 +4856,7 @@
         {
           "label": "手写参考解答（非官方）",
           "kind": "answer",
-          "url": "assets/past-papers/documents/53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c.pdf",
           "originalName": "1997(H09).pdf",
           "sha256": "53bfcdb6145994ca2974dbb010ef8cd1c8f9bb4e68e37308b07cacd8f0aea64c",
           "byteSize": 963283,
@@ -4892,7 +4892,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/6df4b53710cce76460b3e68fa37b3b31c1c59af162fa7135ef1af7a288aaf48a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/6df4b53710cce76460b3e68fa37b3b31c1c59af162fa7135ef1af7a288aaf48a.pdf",
           "originalName": "修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf",
           "sha256": "6df4b53710cce76460b3e68fa37b3b31c1c59af162fa7135ef1af7a288aaf48a",
           "byteSize": 162913,
@@ -4927,7 +4927,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b0afe5ed3ef8fe2e77428e1d6a5460b744209f86e83e2839a9836440a124b5cd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/b0afe5ed3ef8fe2e77428e1d6a5460b744209f86e83e2839a9836440a124b5cd.pdf",
           "originalName": "修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学.pdf",
           "sha256": "b0afe5ed3ef8fe2e77428e1d6a5460b744209f86e83e2839a9836440a124b5cd",
           "byteSize": 132460,
@@ -4959,7 +4959,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/110b1b032b950fed6f004a451bdc2fa236c12bbb509f198261b7365125c7a266.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/110b1b032b950fed6f004a451bdc2fa236c12bbb509f198261b7365125c7a266.pdf",
           "originalName": "外国人留学生_創域理工研_建築学専攻_専門科目.pdf",
           "sha256": "110b1b032b950fed6f004a451bdc2fa236c12bbb509f198261b7365125c7a266",
           "byteSize": 307169,
@@ -4990,7 +4990,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/60d506ef0977d8790cf0f05de830f96ed3e6d53a5012d56f19b46721bc2ecc84.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/60d506ef0977d8790cf0f05de830f96ed3e6d53a5012d56f19b46721bc2ecc84.pdf",
           "originalName": "外国人留学生_創域理工研_生命生物科学専攻_専門科目.pdf",
           "sha256": "60d506ef0977d8790cf0f05de830f96ed3e6d53a5012d56f19b46721bc2ecc84",
           "byteSize": 385955,
@@ -5022,7 +5022,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/dc1324ce5d8fadde3cd5f84df944ecea813f224dcf0496c7811671b7930b4dbd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/dc1324ce5d8fadde3cd5f84df944ecea813f224dcf0496c7811671b7930b4dbd.pdf",
           "originalName": "修士一般_創域理工研_社会基盤工学専攻_専門科目.pdf",
           "sha256": "dc1324ce5d8fadde3cd5f84df944ecea813f224dcf0496c7811671b7930b4dbd",
           "byteSize": 595588,
@@ -5035,7 +5035,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/93dd5de051cd0c9715dafd651aa8625084b0ccefbd0d68415640fd96b17c4973.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/93dd5de051cd0c9715dafd651aa8625084b0ccefbd0d68415640fd96b17c4973.pdf",
           "originalName": "修士一般_創域理工研_社会基盤工学専攻_数学.pdf",
           "sha256": "93dd5de051cd0c9715dafd651aa8625084b0ccefbd0d68415640fd96b17c4973",
           "byteSize": 95063,
@@ -5066,7 +5066,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/98762facc33fc7e30aa958c7a10135fe086a80a261269724609014a27bcb55c9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/98762facc33fc7e30aa958c7a10135fe086a80a261269724609014a27bcb55c9.pdf",
           "originalName": "外国人留学生_創域理工研_社会基盤工学専攻_専門科目.pdf",
           "sha256": "98762facc33fc7e30aa958c7a10135fe086a80a261269724609014a27bcb55c9",
           "byteSize": 195988,
@@ -5098,7 +5098,7 @@
         {
           "label": "一般化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/247d074d0f4553e8c9b2ed622d5164f8d5741c097887a2330e3cefd9e4a85526.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/247d074d0f4553e8c9b2ed622d5164f8d5741c097887a2330e3cefd9e4a85526.pdf",
           "originalName": "修士留学生_工研_工業化学専攻_一般化学.pdf",
           "sha256": "247d074d0f4553e8c9b2ed622d5164f8d5741c097887a2330e3cefd9e4a85526",
           "byteSize": 442259,
@@ -5111,7 +5111,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/d4c1039eaf132301579f2c689da0ee7fa3bbabd4be7c1f3cf568b6c4a1a70d0b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/d4c1039eaf132301579f2c689da0ee7fa3bbabd4be7c1f3cf568b6c4a1a70d0b.pdf",
           "originalName": "修士留学生_工研_工業化学専攻_専門科目.pdf",
           "sha256": "d4c1039eaf132301579f2c689da0ee7fa3bbabd4be7c1f3cf568b6c4a1a70d0b",
           "byteSize": 373139,
@@ -5147,7 +5147,7 @@
         {
           "label": "建築構造",
           "kind": "question",
-          "url": "assets/past-papers/documents/f84c438bbf39db7a921571df40645eae520ecb22621f9aaa98025dc0e7f9ffcd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f84c438bbf39db7a921571df40645eae520ecb22621f9aaa98025dc0e7f9ffcd.pdf",
           "originalName": "修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf",
           "sha256": "f84c438bbf39db7a921571df40645eae520ecb22621f9aaa98025dc0e7f9ffcd",
           "byteSize": 80581,
@@ -5160,7 +5160,7 @@
         {
           "label": "建築環境",
           "kind": "question",
-          "url": "assets/past-papers/documents/22b50f942bdca3894fa00c9fed0defe210890a54455c5a2d0cc10d4f95f1732a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/22b50f942bdca3894fa00c9fed0defe210890a54455c5a2d0cc10d4f95f1732a.pdf",
           "originalName": "修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf",
           "sha256": "22b50f942bdca3894fa00c9fed0defe210890a54455c5a2d0cc10d4f95f1732a",
           "byteSize": 159097,
@@ -5173,7 +5173,7 @@
         {
           "label": "建築計画・建築製図",
           "kind": "question",
-          "url": "assets/past-papers/documents/b984aa0142842951fa7cca676dfd10e649c3d9ffd102721b0ca454fb5817e6d0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/b984aa0142842951fa7cca676dfd10e649c3d9ffd102721b0ca454fb5817e6d0.pdf",
           "originalName": "修士留学生_工研_建築学専攻_専門科目（建築計画・建築製図）.pdf",
           "sha256": "b984aa0142842951fa7cca676dfd10e649c3d9ffd102721b0ca454fb5817e6d0",
           "byteSize": 59719,
@@ -5205,7 +5205,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/04d60437e74d0c04ffda133ec21cca66b7d03107c3c180deeadd4dd4b5367fd8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/04d60437e74d0c04ffda133ec21cca66b7d03107c3c180deeadd4dd4b5367fd8.pdf",
           "originalName": "修士一般_理研_化学専攻_専門科目.pdf",
           "sha256": "04d60437e74d0c04ffda133ec21cca66b7d03107c3c180deeadd4dd4b5367fd8",
           "byteSize": 771989,
@@ -5237,7 +5237,7 @@
         {
           "label": "専門基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/483162dd2e05e37a87f73c44bad97016b6426118ea5ecfe7853b6150f091819c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/483162dd2e05e37a87f73c44bad97016b6426118ea5ecfe7853b6150f091819c.pdf",
           "originalName": "修士一般_理研_応用数学専攻_専門基礎科目.pdf",
           "sha256": "483162dd2e05e37a87f73c44bad97016b6426118ea5ecfe7853b6150f091819c",
           "byteSize": 79907,
@@ -5250,7 +5250,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/ff922481b5f22bd2644b9f07b67062dddf4219737ffa2e97903492c6b182273e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ff922481b5f22bd2644b9f07b67062dddf4219737ffa2e97903492c6b182273e.pdf",
           "originalName": "修士一般_理研_応用数学専攻_専門科目.pdf",
           "sha256": "ff922481b5f22bd2644b9f07b67062dddf4219737ffa2e97903492c6b182273e",
           "byteSize": 124985,
@@ -5282,7 +5282,7 @@
         {
           "label": "専門基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/25fb5b216c219cb63501228486a2d61a0f11b6144ae2aadd357423085decc696.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/25fb5b216c219cb63501228486a2d61a0f11b6144ae2aadd357423085decc696.pdf",
           "originalName": "修士一般_理研_数学専攻_専門基礎科目.pdf",
           "sha256": "25fb5b216c219cb63501228486a2d61a0f11b6144ae2aadd357423085decc696",
           "byteSize": 96681,
@@ -5295,7 +5295,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4daa3396b1e7a4c92f62d1e5fda664692c2ec9123763f4f162b9f16ea6408fac.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4daa3396b1e7a4c92f62d1e5fda664692c2ec9123763f4f162b9f16ea6408fac.pdf",
           "originalName": "修士一般_理研_数学専攻_専門科目.pdf",
           "sha256": "4daa3396b1e7a4c92f62d1e5fda664692c2ec9123763f4f162b9f16ea6408fac",
           "byteSize": 177032,
@@ -5327,7 +5327,7 @@
         {
           "label": "専門科目（熱・統計力学、量子力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/398a5c8b9daf62ca59418babd6334ff19d18c996b2021aac6b65b50546d71f7e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/398a5c8b9daf62ca59418babd6334ff19d18c996b2021aac6b65b50546d71f7e.pdf",
           "originalName": "修士一般_理研_物理学専攻_専門科目（熱・統計力学、量子力学）.pdf",
           "sha256": "398a5c8b9daf62ca59418babd6334ff19d18c996b2021aac6b65b50546d71f7e",
           "byteSize": 126669,
@@ -5340,7 +5340,7 @@
         {
           "label": "専門科目（物理数学、力学、電磁気学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/9bafa08d09ea346fe34a3bd1562bf70496896bc2c3a218017be45fff106fd861.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/9bafa08d09ea346fe34a3bd1562bf70496896bc2c3a218017be45fff106fd861.pdf",
           "originalName": "修士一般_理研_物理学専攻_専門科目（物理数学、力学、電磁気学）.pdf",
           "sha256": "9bafa08d09ea346fe34a3bd1562bf70496896bc2c3a218017be45fff106fd861",
           "byteSize": 197425,
@@ -5371,7 +5371,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d.pdf",
           "originalName": "修士一般（冬期）_生命研_生命科学専攻_専門科目.pdf",
           "sha256": "cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d",
           "byteSize": 2328951,
@@ -5384,7 +5384,7 @@
         {
           "label": "問題訂正",
           "kind": "other",
-          "url": "assets/past-papers/documents/cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d.pdf",
           "originalName": "修士一般（冬期）_生命研_生命科学専攻_専門科目.pdf",
           "sha256": "cb70735684901a71d3f8556b7cf0220b0daf06ef5c0676073fd4470b407ac92d",
           "byteSize": 2328951,
@@ -5415,7 +5415,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/3b0212a48da320eeebf6bbca5b223a1b962caf6831adbbb713db987d56a9f0b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/3b0212a48da320eeebf6bbca5b223a1b962caf6831adbbb713db987d56a9f0b9.pdf",
           "originalName": "修士一般（夏期）_生命研_生命科学専攻_専門科目.pdf",
           "sha256": "3b0212a48da320eeebf6bbca5b223a1b962caf6831adbbb713db987d56a9f0b9",
           "byteSize": 899771,
@@ -5447,7 +5447,7 @@
         {
           "label": "マーケティング",
           "kind": "question",
-          "url": "assets/past-papers/documents/556d5df72d9d93077d219715735fcef6b155ecbe881c94517bb7b6565289d5ed.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/556d5df72d9d93077d219715735fcef6b155ecbe881c94517bb7b6565289d5ed.pdf",
           "originalName": "修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf",
           "sha256": "556d5df72d9d93077d219715735fcef6b155ecbe881c94517bb7b6565289d5ed",
           "byteSize": 96582,
@@ -5460,7 +5460,7 @@
         {
           "label": "経営学",
           "kind": "question",
-          "url": "assets/past-papers/documents/8b5f4f24c6b1a0310be4facce4d5dc1f425f55af6e470916de5834db6260c5fb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/8b5f4f24c6b1a0310be4facce4d5dc1f425f55af6e470916de5834db6260c5fb.pdf",
           "originalName": "修士一般（冬期）_経営研_経営学専攻_経営学.pdf",
           "sha256": "8b5f4f24c6b1a0310be4facce4d5dc1f425f55af6e470916de5834db6260c5fb",
           "byteSize": 91165,
@@ -5492,7 +5492,7 @@
         {
           "label": "マーケティング",
           "kind": "question",
-          "url": "assets/past-papers/documents/db4749fb4be37cf84fe91d70ae98371b9e6e54be7948e7da43b3572f80d59860.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/db4749fb4be37cf84fe91d70ae98371b9e6e54be7948e7da43b3572f80d59860.pdf",
           "originalName": "修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf",
           "sha256": "db4749fb4be37cf84fe91d70ae98371b9e6e54be7948e7da43b3572f80d59860",
           "byteSize": 74249,
@@ -5505,7 +5505,7 @@
         {
           "label": "経営学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f780ce69d4d0b2ca6cc7773492f06606f6c6f58445a017809eb2fbf6b44e9e48.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f780ce69d4d0b2ca6cc7773492f06606f6c6f58445a017809eb2fbf6b44e9e48.pdf",
           "originalName": "修士一般（夏期）_経営研_経営学専攻_経営学.pdf",
           "sha256": "f780ce69d4d0b2ca6cc7773492f06606f6c6f58445a017809eb2fbf6b44e9e48",
           "byteSize": 82150,
@@ -5541,7 +5541,7 @@
         {
           "label": "有機化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5073cedb737c3b333cc87a4b6c8d6dbfa1d11f5ebb69ff806444023263737c46.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5073cedb737c3b333cc87a4b6c8d6dbfa1d11f5ebb69ff806444023263737c46.pdf",
           "originalName": "修士一般_薬研‗薬科学専攻‗有機化学.pdf",
           "sha256": "5073cedb737c3b333cc87a4b6c8d6dbfa1d11f5ebb69ff806444023263737c46",
           "byteSize": 125650,
@@ -5554,7 +5554,7 @@
         {
           "label": "物理化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/d7b5b60d4392dc2b876a46169ecc6a85ff7eeaf31e3beb0bee6e2d273d74a3c3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/d7b5b60d4392dc2b876a46169ecc6a85ff7eeaf31e3beb0bee6e2d273d74a3c3.pdf",
           "originalName": "修士一般_薬研‗薬科学専攻‗物理化学.pdf",
           "sha256": "d7b5b60d4392dc2b876a46169ecc6a85ff7eeaf31e3beb0bee6e2d273d74a3c3",
           "byteSize": 156616,
@@ -5567,7 +5567,7 @@
         {
           "label": "生物科学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b79d30dd793936f40257535507e2bb2facf32e82f555fe3d88f0cd1daf95607b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/b79d30dd793936f40257535507e2bb2facf32e82f555fe3d88f0cd1daf95607b.pdf",
           "originalName": "修士一般_薬研‗薬科学専攻‗生物科学.pdf",
           "sha256": "b79d30dd793936f40257535507e2bb2facf32e82f555fe3d88f0cd1daf95607b",
           "byteSize": 228999,
@@ -5599,7 +5599,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a5b2908a2c52895b74c4cbf3136614f3a2f072b218b9673989625668a4c15c32.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a5b2908a2c52895b74c4cbf3136614f3a2f072b218b9673989625668a4c15c32.pdf",
           "originalName": "修士一般_創域理工研_先端化学専攻_専門科目.pdf",
           "sha256": "a5b2908a2c52895b74c4cbf3136614f3a2f072b218b9673989625668a4c15c32",
           "byteSize": 750235,
@@ -5631,7 +5631,7 @@
         {
           "label": "物理学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/7b3dfc4b8602f24b31b06ea9f8225a4022b297b7da3c56b76115c9a822cdc9fc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/7b3dfc4b8602f24b31b06ea9f8225a4022b297b7da3c56b76115c9a822cdc9fc.pdf",
           "originalName": "修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
           "sha256": "7b3dfc4b8602f24b31b06ea9f8225a4022b297b7da3c56b76115c9a822cdc9fc",
           "byteSize": 390451,
@@ -5644,7 +5644,7 @@
         {
           "label": "物理学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/835f98d3f353b9f919b4405ef52cd30e2107b48910fff638098af0d958ada98d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/835f98d3f353b9f919b4405ef52cd30e2107b48910fff638098af0d958ada98d.pdf",
           "originalName": "修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
           "sha256": "835f98d3f353b9f919b4405ef52cd30e2107b48910fff638098af0d958ada98d",
           "byteSize": 446272,
@@ -5678,7 +5678,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/15195275ce16e9234763b2e606f1e6564420a8878777aff2542d4a8184eb2d89.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/15195275ce16e9234763b2e606f1e6564420a8878777aff2542d4a8184eb2d89.pdf",
           "originalName": "修士一般（夏期日程）_創域理工研_国際火災科学専攻_数学.pdf",
           "sha256": "15195275ce16e9234763b2e606f1e6564420a8878777aff2542d4a8184eb2d89",
           "byteSize": 113425,
@@ -5714,7 +5714,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686.pdf",
           "originalName": "修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf",
           "sha256": "c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686",
           "byteSize": 154400,
@@ -5728,7 +5728,7 @@
         {
           "label": "問題訂正",
           "kind": "other",
-          "url": "assets/past-papers/documents/c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686.pdf",
           "originalName": "修士一般（冬期日程）_創域理工研_国際火災科学専攻_数学_問題訂正あり.pdf",
           "sha256": "c469620b9cf2cc73dd2ef17b8a6ad78c261642a19fba93dec59fdc3efe846686",
           "byteSize": 154400,
@@ -5762,7 +5762,7 @@
         {
           "label": "専門科目（必須）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0e238d0a81066a2dd0dfc53d68a0a809ec2d9f5d1d02b15fcc3e2a27b66c46b6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0e238d0a81066a2dd0dfc53d68a0a809ec2d9f5d1d02b15fcc3e2a27b66c46b6.pdf",
           "originalName": "修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
           "sha256": "0e238d0a81066a2dd0dfc53d68a0a809ec2d9f5d1d02b15fcc3e2a27b66c46b6",
           "byteSize": 830351,
@@ -5776,7 +5776,7 @@
         {
           "label": "専門科目（選択）",
           "kind": "question",
-          "url": "assets/past-papers/documents/37a9f5df4d9449ea9fdd3de4ace834ad799236622d7b4d91ef393ecf469a64b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/37a9f5df4d9449ea9fdd3de4ace834ad799236622d7b4d91ef393ecf469a64b9.pdf",
           "originalName": "修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
           "sha256": "37a9f5df4d9449ea9fdd3de4ace834ad799236622d7b4d91ef393ecf469a64b9",
           "byteSize": 557300,
@@ -5812,7 +5812,7 @@
         {
           "label": "数学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/6e1d104c828d99e72112391cc2482eb426ab57f0b0936b19272c3e7084fa9ca4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/6e1d104c828d99e72112391cc2482eb426ab57f0b0936b19272c3e7084fa9ca4.pdf",
           "originalName": "修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
           "sha256": "6e1d104c828d99e72112391cc2482eb426ab57f0b0936b19272c3e7084fa9ca4",
           "byteSize": 126570,
@@ -5825,7 +5825,7 @@
         {
           "label": "数学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/94809ed76b4fc6cde9733009c4d1b64f4bfca2cfb35f7926f75833cec1f845ca.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/94809ed76b4fc6cde9733009c4d1b64f4bfca2cfb35f7926f75833cec1f845ca.pdf",
           "originalName": "修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
           "sha256": "94809ed76b4fc6cde9733009c4d1b64f4bfca2cfb35f7926f75833cec1f845ca",
           "byteSize": 184523,
@@ -5857,7 +5857,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/1ab2b564721e9bba0e9d209a1438464c5dc28bb685bfea3ddd123199975ca39e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/1ab2b564721e9bba0e9d209a1438464c5dc28bb685bfea3ddd123199975ca39e.pdf",
           "originalName": "修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
           "sha256": "1ab2b564721e9bba0e9d209a1438464c5dc28bb685bfea3ddd123199975ca39e",
           "byteSize": 1496522,
@@ -5889,7 +5889,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/fc2ee757c6ce159e5ae3ea5915ce8f69ca63df3e425c94bb62a170f16cc75449.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/fc2ee757c6ce159e5ae3ea5915ce8f69ca63df3e425c94bb62a170f16cc75449.pdf",
           "originalName": "修士一般_工研_工業化学専攻_専門科目.pdf",
           "sha256": "fc2ee757c6ce159e5ae3ea5915ce8f69ca63df3e425c94bb62a170f16cc75449",
           "byteSize": 440865,
@@ -5926,7 +5926,7 @@
         {
           "label": "一般化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b34e7e242188820f2a69c5d4b88970a3aa007ebb02ed60fcc5654182c98aaef0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/b34e7e242188820f2a69c5d4b88970a3aa007ebb02ed60fcc5654182c98aaef0.pdf",
           "originalName": "修士留学生_工研_工業化学専攻_一般化学.pdf",
           "sha256": "b34e7e242188820f2a69c5d4b88970a3aa007ebb02ed60fcc5654182c98aaef0",
           "byteSize": 171542,
@@ -5939,7 +5939,7 @@
         {
           "label": "専門科目（有機化学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/1e4f970230b6348855d20b32d9dad38ecec33de47cc5f1e84a36e4bc5914a9e7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/1e4f970230b6348855d20b32d9dad38ecec33de47cc5f1e84a36e4bc5914a9e7.pdf",
           "originalName": "修士留学生_工研_工業化学専攻_専門科目（有機化学）.pdf",
           "sha256": "1e4f970230b6348855d20b32d9dad38ecec33de47cc5f1e84a36e4bc5914a9e7",
           "byteSize": 155219,
@@ -5973,7 +5973,7 @@
         {
           "label": "即日設計",
           "kind": "question",
-          "url": "assets/past-papers/documents/061eaf27614141b2e80b4b01b8bc1f7462ea35919338b3b2780afd44502b85f8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/061eaf27614141b2e80b4b01b8bc1f7462ea35919338b3b2780afd44502b85f8.pdf",
           "originalName": "修士一般_工研_建築学専攻_専門科目B（即日設計）.pdf",
           "sha256": "061eaf27614141b2e80b4b01b8bc1f7462ea35919338b3b2780afd44502b85f8",
           "byteSize": 60787,
@@ -5988,7 +5988,7 @@
         {
           "label": "専門科目A",
           "kind": "question",
-          "url": "assets/past-papers/documents/8047362fe803c9501c67804e5cd333e2c30e32a95708fdeabe7403db25d49604.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/8047362fe803c9501c67804e5cd333e2c30e32a95708fdeabe7403db25d49604.pdf",
           "originalName": "修士一般_工研_建築学専攻_専門科目A.pdf",
           "sha256": "8047362fe803c9501c67804e5cd333e2c30e32a95708fdeabe7403db25d49604",
           "byteSize": 363881,
@@ -6003,7 +6003,7 @@
         {
           "label": "専門科目B",
           "kind": "question",
-          "url": "assets/past-papers/documents/ff1d43adde912bdbb5816955acc1e87f39820b3c59d070569f8ff10d94c360f9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ff1d43adde912bdbb5816955acc1e87f39820b3c59d070569f8ff10d94c360f9.pdf",
           "originalName": "修士一般_工研_建築学専攻_専門科目B.pdf",
           "sha256": "ff1d43adde912bdbb5816955acc1e87f39820b3c59d070569f8ff10d94c360f9",
           "byteSize": 353337,
@@ -6041,7 +6041,7 @@
         {
           "label": "建築構造",
           "kind": "question",
-          "url": "assets/past-papers/documents/339c94ee2b50cd849e00bc02f4ed5dbae00cd954228b3671180e755c7726ad05.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/339c94ee2b50cd849e00bc02f4ed5dbae00cd954228b3671180e755c7726ad05.pdf",
           "originalName": "修士留学生_工研_建築学専攻_専門科目（建築構造）.pdf",
           "sha256": "339c94ee2b50cd849e00bc02f4ed5dbae00cd954228b3671180e755c7726ad05",
           "byteSize": 90061,
@@ -6054,7 +6054,7 @@
         {
           "label": "建築環境",
           "kind": "question",
-          "url": "assets/past-papers/documents/a3199b73d65436e05323cec694002d574679a48daa4e098689084a3167ac84fd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a3199b73d65436e05323cec694002d574679a48daa4e098689084a3167ac84fd.pdf",
           "originalName": "修士留学生_工研_建築学専攻_専門科目（建築環境）.pdf",
           "sha256": "a3199b73d65436e05323cec694002d574679a48daa4e098689084a3167ac84fd",
           "byteSize": 116933,
@@ -6067,7 +6067,7 @@
         {
           "label": "建築計画・設計製図",
           "kind": "question",
-          "url": "assets/past-papers/documents/da46ae3a1bf96c94559642490d545d3280b08c4711c67542f8cfb2c75ad026b7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/da46ae3a1bf96c94559642490d545d3280b08c4711c67542f8cfb2c75ad026b7.pdf",
           "originalName": "修士留学生_工研_建築学専攻_専門科目（建築計画・設計製図）.pdf",
           "sha256": "da46ae3a1bf96c94559642490d545d3280b08c4711c67542f8cfb2c75ad026b7",
           "byteSize": 66588,
@@ -6099,7 +6099,7 @@
         {
           "label": "専門科目（物理化学・無機及び分析化学・有機化学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c29168e4b84010522aa072eca58a14cfd42105088cdd540f6cc200e4bc1dbb10.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c29168e4b84010522aa072eca58a14cfd42105088cdd540f6cc200e4bc1dbb10.pdf",
           "originalName": "修士一般_理研_化学専攻_専門科目(物理化学・無機及び分析化学・有機化学).pdf",
           "sha256": "c29168e4b84010522aa072eca58a14cfd42105088cdd540f6cc200e4bc1dbb10",
           "byteSize": 634872,
@@ -6132,7 +6132,7 @@
         {
           "label": "専門基礎科目（線形代数・微積分）",
           "kind": "question",
-          "url": "assets/past-papers/documents/092b98dc9ab4741f023c20b33772c14c078a04ee7262749324e94248eac19183.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/092b98dc9ab4741f023c20b33772c14c078a04ee7262749324e94248eac19183.pdf",
           "originalName": "修士一般_理研_応用数学専攻_専門基礎科目(線形代数・微積分).pdf",
           "sha256": "092b98dc9ab4741f023c20b33772c14c078a04ee7262749324e94248eac19183",
           "byteSize": 125292,
@@ -6146,7 +6146,7 @@
         {
           "label": "専門科目（応用数学1~4）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d8625049505b78af49b6f46c7a611fda310a04f30d6ffcdd4d02ab24816cbbac.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/d8625049505b78af49b6f46c7a611fda310a04f30d6ffcdd4d02ab24816cbbac.pdf",
           "originalName": "修士一般_理研_応用数学専攻_専門科目（応用数学1~4）.pdf",
           "sha256": "d8625049505b78af49b6f46c7a611fda310a04f30d6ffcdd4d02ab24816cbbac",
           "byteSize": 142216,
@@ -6179,7 +6179,7 @@
         {
           "label": "専門基礎科目（線形代数・微分積分・集合と位相）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b77e515561097550ad04b288a9ac1a2f0c4b2219f629b41f7d200dac70bb95c1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/b77e515561097550ad04b288a9ac1a2f0c4b2219f629b41f7d200dac70bb95c1.pdf",
           "originalName": "修士一般_理研_数学専攻_専門基礎科目（線形代数・微分積分・集合と位相）.pdf",
           "sha256": "b77e515561097550ad04b288a9ac1a2f0c4b2219f629b41f7d200dac70bb95c1",
           "byteSize": 102005,
@@ -6193,7 +6193,7 @@
         {
           "label": "専門科目（代数・解析・幾何系）",
           "kind": "question",
-          "url": "assets/past-papers/documents/16f560ceaf086ca7bbccee2445563d25562e8c4bcc737f9dc057c31fa8d3c512.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/16f560ceaf086ca7bbccee2445563d25562e8c4bcc737f9dc057c31fa8d3c512.pdf",
           "originalName": "修士一般_理研_数学専攻_専門科目（代数・解析・幾何系）.pdf",
           "sha256": "16f560ceaf086ca7bbccee2445563d25562e8c4bcc737f9dc057c31fa8d3c512",
           "byteSize": 170516,
@@ -6226,7 +6226,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/ce97e8195909db9082aba0882742c101306f7e23fd40693da0e04f10ac54ec36.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ce97e8195909db9082aba0882742c101306f7e23fd40693da0e04f10ac54ec36.pdf",
           "originalName": "修士外国人留学生_理研_応用数学専攻_専門科目.pdf",
           "sha256": "ce97e8195909db9082aba0882742c101306f7e23fd40693da0e04f10ac54ec36",
           "byteSize": 55706,
@@ -6239,7 +6239,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/49567c73a7038947a98f137718ad01e9cecfcb1940327a9a5b61375b6b93f20a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/49567c73a7038947a98f137718ad01e9cecfcb1940327a9a5b61375b6b93f20a.pdf",
           "originalName": "修士留学生_理研_数学専攻_専門科目.pdf",
           "sha256": "49567c73a7038947a98f137718ad01e9cecfcb1940327a9a5b61375b6b93f20a",
           "byteSize": 53742,
@@ -6271,7 +6271,7 @@
         {
           "label": "専門科目（熱・統計力学／量子力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0159ae62f64003ea200a2fd68ec62bd1b9ef7640a90671460b5e0dbeb8696776.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0159ae62f64003ea200a2fd68ec62bd1b9ef7640a90671460b5e0dbeb8696776.pdf",
           "originalName": "修士一般_理研_物理学専攻_専門科目_（熱・統計力学／量子力学）.pdf",
           "sha256": "0159ae62f64003ea200a2fd68ec62bd1b9ef7640a90671460b5e0dbeb8696776",
           "byteSize": 193864,
@@ -6285,7 +6285,7 @@
         {
           "label": "専門科目（物理数学・力学・電磁気学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f0c82e0067b4ae2069bde6c04d600ca2845d2c9b6dd471c9e0a6cf158954c349.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f0c82e0067b4ae2069bde6c04d600ca2845d2c9b6dd471c9e0a6cf158954c349.pdf",
           "originalName": "修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf",
           "sha256": "f0c82e0067b4ae2069bde6c04d600ca2845d2c9b6dd471c9e0a6cf158954c349",
           "byteSize": 281681,
@@ -6316,7 +6316,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a14e61b127c7b44a95e25a21cb1e779e72484d39907b3cf066131173d7f55f76.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a14e61b127c7b44a95e25a21cb1e779e72484d39907b3cf066131173d7f55f76.pdf",
           "originalName": "修士一般（冬期）_生命研_専門.pdf",
           "sha256": "a14e61b127c7b44a95e25a21cb1e779e72484d39907b3cf066131173d7f55f76",
           "byteSize": 420439,
@@ -6348,7 +6348,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/44835bec1c4ef5a8de6dfb95b455a1c3fb71576f188db1c28a8b965cde587938.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/44835bec1c4ef5a8de6dfb95b455a1c3fb71576f188db1c28a8b965cde587938.pdf",
           "originalName": "修士一般（夏期）_生命研_専門.pdf",
           "sha256": "44835bec1c4ef5a8de6dfb95b455a1c3fb71576f188db1c28a8b965cde587938",
           "byteSize": 265473,
@@ -6383,7 +6383,7 @@
         {
           "label": "マーケティング",
           "kind": "question",
-          "url": "assets/past-papers/documents/ba9b73d33887883e1a8dedd9291466ef48dd21885216e5246386221b1ee1598a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ba9b73d33887883e1a8dedd9291466ef48dd21885216e5246386221b1ee1598a.pdf",
           "originalName": "修士一般（冬期）_経営研_経営学専攻_マーケティング.pdf",
           "sha256": "ba9b73d33887883e1a8dedd9291466ef48dd21885216e5246386221b1ee1598a",
           "byteSize": 285696,
@@ -6397,7 +6397,7 @@
         {
           "label": "会計ファイナンス",
           "kind": "question",
-          "url": "assets/past-papers/documents/7279fcc19c9a0a42d20b47853c826c579a3b042a257dd028fb945234cbb104f1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/7279fcc19c9a0a42d20b47853c826c579a3b042a257dd028fb945234cbb104f1.pdf",
           "originalName": "修士一般（冬期）_経営研_経営学専攻_会計ファイナンス.pdf",
           "sha256": "7279fcc19c9a0a42d20b47853c826c579a3b042a257dd028fb945234cbb104f1",
           "byteSize": 270808,
@@ -6411,7 +6411,7 @@
         {
           "label": "情報（経営情報を含む）",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e4ca91c4a2368bdcad447e32f93d91ac489a860ef6b0887a70385ba1dce4e6c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/5e4ca91c4a2368bdcad447e32f93d91ac489a860ef6b0887a70385ba1dce4e6c.pdf",
           "originalName": "修士一般（冬期）_経営研_経営学専攻_情報(経営情報を含む).pdf",
           "sha256": "5e4ca91c4a2368bdcad447e32f93d91ac489a860ef6b0887a70385ba1dce4e6c",
           "byteSize": 276893,
@@ -6425,7 +6425,7 @@
         {
           "label": "経営学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f295c42a80dfcad401286af54a436d72654855ad3b8ae1b3b804c4ca6d851b00.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f295c42a80dfcad401286af54a436d72654855ad3b8ae1b3b804c4ca6d851b00.pdf",
           "originalName": "修士一般（冬期）_経営研_経営学専攻_経営学.pdf",
           "sha256": "f295c42a80dfcad401286af54a436d72654855ad3b8ae1b3b804c4ca6d851b00",
           "byteSize": 196260,
@@ -6459,7 +6459,7 @@
         {
           "label": "マーケティング",
           "kind": "question",
-          "url": "assets/past-papers/documents/12a7eb615f27390a37fa6a65565e559ab22d9c16457e0ec4de0b51d293f04b7d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/12a7eb615f27390a37fa6a65565e559ab22d9c16457e0ec4de0b51d293f04b7d.pdf",
           "originalName": "修士一般（夏期）_経営研_経営学専攻_マーケティング.pdf",
           "sha256": "12a7eb615f27390a37fa6a65565e559ab22d9c16457e0ec4de0b51d293f04b7d",
           "byteSize": 159220,
@@ -6473,7 +6473,7 @@
         {
           "label": "経営学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4301bc71c52a589c21797b005253ba6ade5d7e56bfb5828c793c15d4ba802e05.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4301bc71c52a589c21797b005253ba6ade5d7e56bfb5828c793c15d4ba802e05.pdf",
           "originalName": "修士一般（夏期）_経営研_経営学専攻_経営学.pdf",
           "sha256": "4301bc71c52a589c21797b005253ba6ade5d7e56bfb5828c793c15d4ba802e05",
           "byteSize": 117681,
@@ -6487,7 +6487,7 @@
         {
           "label": "経営科学",
           "kind": "question",
-          "url": "assets/past-papers/documents/11aff1ad4e0414ebf2308ccef6e63008b2fadccb7bb715a4c28e94be0fde29cd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/11aff1ad4e0414ebf2308ccef6e63008b2fadccb7bb715a4c28e94be0fde29cd.pdf",
           "originalName": "修士一般（夏期）_経営研_経営学専攻_経営科学.pdf",
           "sha256": "11aff1ad4e0414ebf2308ccef6e63008b2fadccb7bb715a4c28e94be0fde29cd",
           "byteSize": 329958,
@@ -6524,7 +6524,7 @@
         {
           "label": "有機化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4b60c4e02065b8a918c100aad3231aa6567e2b3df627caf7f7e4d6eb371ef5e1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4b60c4e02065b8a918c100aad3231aa6567e2b3df627caf7f7e4d6eb371ef5e1.pdf",
           "originalName": "修士一般_薬研‗薬科学専攻‗有機化学.pdf",
           "sha256": "4b60c4e02065b8a918c100aad3231aa6567e2b3df627caf7f7e4d6eb371ef5e1",
           "byteSize": 92518,
@@ -6538,7 +6538,7 @@
         {
           "label": "物理化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/cd4e402ce38ad935ddb87bf9abadc5b383e00780a7d0075c3e265c1f46b006c9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/cd4e402ce38ad935ddb87bf9abadc5b383e00780a7d0075c3e265c1f46b006c9.pdf",
           "originalName": "修士一般_薬研‗薬科学専攻‗物理化学.pdf",
           "sha256": "cd4e402ce38ad935ddb87bf9abadc5b383e00780a7d0075c3e265c1f46b006c9",
           "byteSize": 137928,
@@ -6552,7 +6552,7 @@
         {
           "label": "生物科学",
           "kind": "question",
-          "url": "assets/past-papers/documents/55413ff0cfb63d9a3bcc26a1408baf5ce36b5057cdbf9b796231d91997a38741.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/55413ff0cfb63d9a3bcc26a1408baf5ce36b5057cdbf9b796231d91997a38741.pdf",
           "originalName": "修士一般_薬研‗薬科学専攻‗生物科学.pdf",
           "sha256": "55413ff0cfb63d9a3bcc26a1408baf5ce36b5057cdbf9b796231d91997a38741",
           "byteSize": 164476,
@@ -6585,7 +6585,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/f6ab93e15f69687f9ba718ef4423b63d7296e033501e0f9cc0cbf2b0a11a9aa8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/f6ab93e15f69687f9ba718ef4423b63d7296e033501e0f9cc0cbf2b0a11a9aa8.pdf",
           "originalName": "修士一般_創域理工研_先端化学専攻_専門科目.pdf",
           "sha256": "f6ab93e15f69687f9ba718ef4423b63d7296e033501e0f9cc0cbf2b0a11a9aa8",
           "byteSize": 520544,
@@ -6619,7 +6619,7 @@
         {
           "label": "物理学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/05d9c2521b3d02851e379c7ac6404d28a267174232ca87fe5f628bcd631cfbcc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/05d9c2521b3d02851e379c7ac6404d28a267174232ca87fe5f628bcd631cfbcc.pdf",
           "originalName": "修士一般_創域理工研_先端物理学専攻_物理学Ⅰ.pdf",
           "sha256": "05d9c2521b3d02851e379c7ac6404d28a267174232ca87fe5f628bcd631cfbcc",
           "byteSize": 306940,
@@ -6634,7 +6634,7 @@
         {
           "label": "物理学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/561ff3b5e659a2964276819e835a4db92fd61bfcebca9295e7e84f49dda71673.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/561ff3b5e659a2964276819e835a4db92fd61bfcebca9295e7e84f49dda71673.pdf",
           "originalName": "修士一般_創域理工研_先端物理学専攻_物理学Ⅱ.pdf",
           "sha256": "561ff3b5e659a2964276819e835a4db92fd61bfcebca9295e7e84f49dda71673",
           "byteSize": 313876,
@@ -6667,7 +6667,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/24ac19793aa1e4b5d4448e0fc39aed308acc2d3a12786d6979d92f686243068a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/24ac19793aa1e4b5d4448e0fc39aed308acc2d3a12786d6979d92f686243068a.pdf",
           "originalName": "修士一般_創域理工研_国際火災科学専攻_夏期日程_数学.pdf",
           "sha256": "24ac19793aa1e4b5d4448e0fc39aed308acc2d3a12786d6979d92f686243068a",
           "byteSize": 114762,
@@ -6701,7 +6701,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/60613f3a13103a73da9e33b5ec77ff1c4ff21356570d83097c8c659adc35f84d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/60613f3a13103a73da9e33b5ec77ff1c4ff21356570d83097c8c659adc35f84d.pdf",
           "originalName": "修士一般_創域理工研_国際火災科学専攻_冬期日程_数学.pdf",
           "sha256": "60613f3a13103a73da9e33b5ec77ff1c4ff21356570d83097c8c659adc35f84d",
           "byteSize": 121314,
@@ -6737,7 +6737,7 @@
         {
           "label": "専門科目（必須）",
           "kind": "question",
-          "url": "assets/past-papers/documents/ce15d1b475e8b2fa8a76c293307c7ad9d66bab53522c14b7c78b11e3a2674923.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ce15d1b475e8b2fa8a76c293307c7ad9d66bab53522c14b7c78b11e3a2674923.pdf",
           "originalName": "修士一般_創域理工研_建築学専攻_専門科目（必須）.pdf",
           "sha256": "ce15d1b475e8b2fa8a76c293307c7ad9d66bab53522c14b7c78b11e3a2674923",
           "byteSize": 885048,
@@ -6751,7 +6751,7 @@
         {
           "label": "専門科目（選択）",
           "kind": "question",
-          "url": "assets/past-papers/documents/3b18d357a0fe2ac2d6abf6eb23c2cd7386cb16e366a59ba421faa803ce4e32f2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/3b18d357a0fe2ac2d6abf6eb23c2cd7386cb16e366a59ba421faa803ce4e32f2.pdf",
           "originalName": "修士一般_創域理工研_建築学専攻_専門科目（選択）.pdf",
           "sha256": "3b18d357a0fe2ac2d6abf6eb23c2cd7386cb16e366a59ba421faa803ce4e32f2",
           "byteSize": 339565,
@@ -6785,7 +6785,7 @@
         {
           "label": "数学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/611a219023859dd8b8d393f9cccd0f147047a79cd373a1733d18db54b98db0b0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/611a219023859dd8b8d393f9cccd0f147047a79cd373a1733d18db54b98db0b0.pdf",
           "originalName": "修士一般_創域理工研_数理科学専攻_数学Ⅰ.pdf",
           "sha256": "611a219023859dd8b8d393f9cccd0f147047a79cd373a1733d18db54b98db0b0",
           "byteSize": 87853,
@@ -6800,7 +6800,7 @@
         {
           "label": "数学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/ebdd013e4a88b6f34b8caf1018e7dd0da427a18724688478fa1c240519bb5a2d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/ebdd013e4a88b6f34b8caf1018e7dd0da427a18724688478fa1c240519bb5a2d.pdf",
           "originalName": "修士一般_創域理工研_数理科学専攻_数学Ⅱ.pdf",
           "sha256": "ebdd013e4a88b6f34b8caf1018e7dd0da427a18724688478fa1c240519bb5a2d",
           "byteSize": 134248,
@@ -6833,7 +6833,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/1adc7f5e4db4272ab1d1d95b14c393f9db1d5969246b4277b0c8d3c25c8e09d3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/1adc7f5e4db4272ab1d1d95b14c393f9db1d5969246b4277b0c8d3c25c8e09d3.pdf",
           "originalName": "修士一般_創域理工研_生命生物科学専攻_専門科目.pdf",
           "sha256": "1adc7f5e4db4272ab1d1d95b14c393f9db1d5969246b4277b0c8d3c25c8e09d3",
           "byteSize": 629297,
@@ -6868,7 +6868,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/13cf3660b2b729447adf746f07f9214aae6ad51c2c3958b358bbe798fa94b925.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/13cf3660b2b729447adf746f07f9214aae6ad51c2c3958b358bbe798fa94b925.pdf",
           "originalName": "修士一般_工学研究科_工業化学_専門科目.pdf",
           "sha256": "13cf3660b2b729447adf746f07f9214aae6ad51c2c3958b358bbe798fa94b925",
           "byteSize": 927215,
@@ -6905,7 +6905,7 @@
         {
           "label": "即日設計",
           "kind": "question",
-          "url": "assets/past-papers/documents/2ecd9f5feefc67bc52b3df09d8de2edf7281499e2386b3b18f22eab953ec5f7b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/2ecd9f5feefc67bc52b3df09d8de2edf7281499e2386b3b18f22eab953ec5f7b.pdf",
           "originalName": "修士一般_工学研究科_建築_専門B_即日設計.pdf",
           "sha256": "2ecd9f5feefc67bc52b3df09d8de2edf7281499e2386b3b18f22eab953ec5f7b",
           "byteSize": 131859,
@@ -6918,7 +6918,7 @@
         {
           "label": "専門科目A",
           "kind": "question",
-          "url": "assets/past-papers/documents/fc37173ef7df8b7d61a91111954ef248b583a55b04622afe4f908bb8e95c083d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/fc37173ef7df8b7d61a91111954ef248b583a55b04622afe4f908bb8e95c083d.pdf",
           "originalName": "修士一般_工学研究科_建築_専門A.pdf",
           "sha256": "fc37173ef7df8b7d61a91111954ef248b583a55b04622afe4f908bb8e95c083d",
           "byteSize": 663890,
@@ -6931,7 +6931,7 @@
         {
           "label": "専門科目B",
           "kind": "question",
-          "url": "assets/past-papers/documents/a150fdd0b6f25095f4ce12220a9b72b5340f06a2fdcec76e81d244628f0de285.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/a150fdd0b6f25095f4ce12220a9b72b5340f06a2fdcec76e81d244628f0de285.pdf",
           "originalName": "修士一般_工学研究科_建築_専門B.pdf",
           "sha256": "a150fdd0b6f25095f4ce12220a9b72b5340f06a2fdcec76e81d244628f0de285",
           "byteSize": 670998,
@@ -6966,7 +6966,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/d5bdd0c1b086213620fb18a4e46d881e9f4c36e46eb2a248f58a6c3316023c2d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/d5bdd0c1b086213620fb18a4e46d881e9f4c36e46eb2a248f58a6c3316023c2d.pdf",
           "originalName": "修士一般_理研_化学専攻_専門科目.pdf",
           "sha256": "d5bdd0c1b086213620fb18a4e46d881e9f4c36e46eb2a248f58a6c3316023c2d",
           "byteSize": 1023974,
@@ -7002,7 +7002,7 @@
         {
           "label": "専門基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/2e0981527d4bbb1d48d0310ee9fe61f784ffbfa5d46caf3783971e1a2405c184.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/2e0981527d4bbb1d48d0310ee9fe61f784ffbfa5d46caf3783971e1a2405c184.pdf",
           "originalName": "修士一般_理研_応用数学専攻_専門基礎科目.pdf",
           "sha256": "2e0981527d4bbb1d48d0310ee9fe61f784ffbfa5d46caf3783971e1a2405c184",
           "byteSize": 171010,
@@ -7015,7 +7015,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/3b54d2308ef89dbae28808a648288ece9a40c429476fe1b5a73a4dfd618d2fc2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/3b54d2308ef89dbae28808a648288ece9a40c429476fe1b5a73a4dfd618d2fc2.pdf",
           "originalName": "修士一般_理研_応用数学専攻_専門科目.pdf",
           "sha256": "3b54d2308ef89dbae28808a648288ece9a40c429476fe1b5a73a4dfd618d2fc2",
           "byteSize": 241393,
@@ -7051,7 +7051,7 @@
         {
           "label": "専門基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/d62a7c59380a34366df8231ef3a10297ac8eb2a7278a78333a4605cc090338b2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/d62a7c59380a34366df8231ef3a10297ac8eb2a7278a78333a4605cc090338b2.pdf",
           "originalName": "修士一般_理研_数学専攻_専門基礎科目.pdf",
           "sha256": "d62a7c59380a34366df8231ef3a10297ac8eb2a7278a78333a4605cc090338b2",
           "byteSize": 176515,
@@ -7064,7 +7064,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/c02bc8a410fc63041cf2d021be1d0fbda04ac4c7f9859b7cce54b5ed0a9d9cbb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/c02bc8a410fc63041cf2d021be1d0fbda04ac4c7f9859b7cce54b5ed0a9d9cbb.pdf",
           "originalName": "修士一般_理研_数学専攻_専門科目.pdf",
           "sha256": "c02bc8a410fc63041cf2d021be1d0fbda04ac4c7f9859b7cce54b5ed0a9d9cbb",
           "byteSize": 263921,
@@ -7100,7 +7100,7 @@
         {
           "label": "専門科目（熱・統計力学・量子力学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/81cb47105c39d77f196d253eda8c2f755ea8450ec0ba5376539899edd2df51d9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/81cb47105c39d77f196d253eda8c2f755ea8450ec0ba5376539899edd2df51d9.pdf",
           "originalName": "修士一般_理研_物理学専攻_専門科目（熱・統計力学・量子力学）.pdf",
           "sha256": "81cb47105c39d77f196d253eda8c2f755ea8450ec0ba5376539899edd2df51d9",
           "byteSize": 156292,
@@ -7113,7 +7113,7 @@
         {
           "label": "専門科目（物理数学・力学・電磁気学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/9edbd1f8879beaea9bb213001904f95f4334b06bfde4d988df9f06f21cec7094.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/9edbd1f8879beaea9bb213001904f95f4334b06bfde4d988df9f06f21cec7094.pdf",
           "originalName": "修士一般_理研_物理学専攻_専門科目（物理数学・力学・電磁気学）.pdf",
           "sha256": "9edbd1f8879beaea9bb213001904f95f4334b06bfde4d988df9f06f21cec7094",
           "byteSize": 188232,
@@ -7146,7 +7146,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/568ff3555313525c441448d12b5990e8370f829d360ac883c23ab0c88fcd7d97.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/568ff3555313525c441448d12b5990e8370f829d360ac883c23ab0c88fcd7d97.pdf",
           "originalName": "修士一般（冬期）_生命科学研究科_生命科学専攻_専門.pdf",
           "sha256": "568ff3555313525c441448d12b5990e8370f829d360ac883c23ab0c88fcd7d97",
           "byteSize": 428181,
@@ -7177,7 +7177,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/1b7f9383e7cb0d93de881523be2439bcc4e66f339ce3109426f03494d5e096ee.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/1b7f9383e7cb0d93de881523be2439bcc4e66f339ce3109426f03494d5e096ee.pdf",
           "originalName": "修士一般（夏期）_生命科学研究科_生命科学専攻_専門.pdf",
           "sha256": "1b7f9383e7cb0d93de881523be2439bcc4e66f339ce3109426f03494d5e096ee",
           "byteSize": 318646,
@@ -7208,7 +7208,7 @@
         {
           "label": "経済学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4c8944fc41a23be72c1b26be5e031d26e404803165264ce019959580c47a559c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/4c8944fc41a23be72c1b26be5e031d26e404803165264ce019959580c47a559c.pdf",
           "originalName": "修士一般_経営研_経営学専攻_冬期日程_経済学.pdf",
           "sha256": "4c8944fc41a23be72c1b26be5e031d26e404803165264ce019959580c47a559c",
           "byteSize": 123655,
@@ -7241,7 +7241,7 @@
         {
           "label": "情報",
           "kind": "question",
-          "url": "assets/past-papers/documents/77e18aaa8e08de44db9af0c6e8663308926c600165e7f239aa5cec954efd15c9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/77e18aaa8e08de44db9af0c6e8663308926c600165e7f239aa5cec954efd15c9.pdf",
           "originalName": "修士一般_経営研_経営学専攻_夏期日程_情報.pdf",
           "sha256": "77e18aaa8e08de44db9af0c6e8663308926c600165e7f239aa5cec954efd15c9",
           "byteSize": 157937,
@@ -7254,7 +7254,7 @@
         {
           "label": "経営科学",
           "kind": "question",
-          "url": "assets/past-papers/documents/26c9532e67fcafc63451e6ec7d500e54e701f7e822e763451c0a58ce19a60c37.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/26c9532e67fcafc63451e6ec7d500e54e701f7e822e763451c0a58ce19a60c37.pdf",
           "originalName": "修士一般_経営研_経営学専攻_夏期日程_経営科学.pdf",
           "sha256": "26c9532e67fcafc63451e6ec7d500e54e701f7e822e763451c0a58ce19a60c37",
           "byteSize": 93740,
@@ -7267,7 +7267,7 @@
         {
           "label": "統計",
           "kind": "question",
-          "url": "assets/past-papers/documents/0e348acd81998ace071a5e88fb0f4087228e045a2be60ab3fcdf9e5903eccfb8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/0e348acd81998ace071a5e88fb0f4087228e045a2be60ab3fcdf9e5903eccfb8.pdf",
           "originalName": "修士一般_経営研_経営学専攻_夏期日程_統計.pdf",
           "sha256": "0e348acd81998ace071a5e88fb0f4087228e045a2be60ab3fcdf9e5903eccfb8",
           "byteSize": 53863,
@@ -7303,7 +7303,7 @@
         {
           "label": "有機化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/36835e10f7f21edcbe8d6828436490e074993d494ad822dd05144e2a4a918520.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/36835e10f7f21edcbe8d6828436490e074993d494ad822dd05144e2a4a918520.pdf",
           "originalName": "修士一般_薬研 薬科学専攻 有機化学.pdf",
           "sha256": "36835e10f7f21edcbe8d6828436490e074993d494ad822dd05144e2a4a918520",
           "byteSize": 389368,
@@ -7316,7 +7316,7 @@
         {
           "label": "物理化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/3997dc87a77cc1b6fb76685d4890a87428bfc79b344d85bdb821cf4170a1db4f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/3997dc87a77cc1b6fb76685d4890a87428bfc79b344d85bdb821cf4170a1db4f.pdf",
           "originalName": "修士一般_薬研 薬科学専攻 物理化学.pdf",
           "sha256": "3997dc87a77cc1b6fb76685d4890a87428bfc79b344d85bdb821cf4170a1db4f",
           "byteSize": 564723,
@@ -7329,7 +7329,7 @@
         {
           "label": "生物科学",
           "kind": "question",
-          "url": "assets/past-papers/documents/048ee61f7cd14ae47a9145998d9fdd0cf2bcd2e15920683a3b84d9322ae1f4c4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tus/048ee61f7cd14ae47a9145998d9fdd0cf2bcd2e15920683a3b84d9322ae1f4c4.pdf",
           "originalName": "修士一般_薬研 薬科学専攻 生物科学.pdf",
           "sha256": "048ee61f7cd14ae47a9145998d9fdd0cf2bcd2e15920683a3b84d9322ae1f4c4",
           "byteSize": 342490,
@@ -7365,7 +7365,7 @@
         {
           "label": "部分上午卷／试题片段 · PDF第1—3页",
           "kind": "question",
-          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
           "originalName": "H03-11一部.pdf",
           "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
           "byteSize": 815153,
@@ -7401,7 +7401,7 @@
         {
           "label": "部分上午卷／试题片段 · PDF第6—12页",
           "kind": "question",
-          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
           "originalName": "H03-11一部.pdf",
           "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
           "byteSize": 815153,
@@ -7437,7 +7437,7 @@
         {
           "label": "部分上午卷／试题片段 · PDF第13—17页",
           "kind": "question",
-          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
           "originalName": "H03-11一部.pdf",
           "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
           "byteSize": 815153,
@@ -7473,7 +7473,7 @@
         {
           "label": "部分上午卷／试题片段 · PDF第18—21页",
           "kind": "question",
-          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
           "originalName": "H03-11一部.pdf",
           "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
           "byteSize": 815153,
@@ -7509,7 +7509,7 @@
         {
           "label": "部分上午卷／试题片段 · PDF第22—28页",
           "kind": "question",
-          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
           "originalName": "H03-11一部.pdf",
           "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
           "byteSize": 815153,
@@ -7545,7 +7545,7 @@
         {
           "label": "部分上午卷／试题片段 · PDF第29—33页",
           "kind": "question",
-          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
           "originalName": "H03-11一部.pdf",
           "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
           "byteSize": 815153,
@@ -7581,7 +7581,7 @@
         {
           "label": "部分上午卷／试题片段 · PDF第34—37页",
           "kind": "question",
-          "url": "assets/past-papers/documents/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262.pdf",
           "originalName": "H03-11一部.pdf",
           "sha256": "bcbe155364b109972eebdcd34a1c8fe618647d557606c962e438025d499e8262",
           "byteSize": 815153,
@@ -7618,7 +7618,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/a53f7dc866d3c6f3eadb1d1f77344501d6bec3e95055c734c54b50c688c0519c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/a53f7dc866d3c6f3eadb1d1f77344501d6bec3e95055c734c54b50c688c0519c.pdf",
           "originalName": "H12 電気回路.pdf",
           "sha256": "a53f7dc866d3c6f3eadb1d1f77344501d6bec3e95055c734c54b50c688c0519c",
           "byteSize": 166156,
@@ -7631,7 +7631,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e.pdf",
           "originalName": "H12 電磁気.pdf",
           "sha256": "c78f2f2cd204ddb2e92feeb5f66f1063674002a9f2a0bc7799c5e1f0800b075e",
           "byteSize": 586293,
@@ -7669,7 +7669,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919.pdf",
           "originalName": "H13 電気回路.pdf",
           "sha256": "27d1cfee1eb6fb8f728c9b2a91060befd0a60de5e6ec309d114b039a74f2f919",
           "byteSize": 328426,
@@ -7682,7 +7682,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe.pdf",
           "originalName": "H13 電磁気.pdf",
           "sha256": "1461fdf1f06fb26e6e4fc982bc5ff43901de0e196f13b9bf73a22b204e9f50fe",
           "byteSize": 388082,
@@ -7720,7 +7720,7 @@
         {
           "label": "上午基础领域",
           "kind": "question",
-          "url": "assets/past-papers/documents/751984e2ca47d4e821133fb4ee8c3ddf9d81ce2253afa70c68060dab32ec5ad3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/751984e2ca47d4e821133fb4ee8c3ddf9d81ce2253afa70c68060dab32ec5ad3.pdf",
           "originalName": "H14-am.pdf",
           "sha256": "751984e2ca47d4e821133fb4ee8c3ddf9d81ce2253afa70c68060dab32ec5ad3",
           "byteSize": 470451,
@@ -7733,7 +7733,7 @@
         {
           "label": "下午专业领域",
           "kind": "question",
-          "url": "assets/past-papers/documents/356b40c2da4d19ca002a1176fe1cd031444e1098c5217bf688d8f6ed999a6304.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/356b40c2da4d19ca002a1176fe1cd031444e1098c5217bf688d8f6ed999a6304.pdf",
           "originalName": "H14-pm.pdf",
           "sha256": "356b40c2da4d19ca002a1176fe1cd031444e1098c5217bf688d8f6ed999a6304",
           "byteSize": 1086484,
@@ -7770,7 +7770,7 @@
         {
           "label": "上午基础领域",
           "kind": "question",
-          "url": "assets/past-papers/documents/d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805.pdf",
           "originalName": "H15-am.pdf",
           "sha256": "d7d806590c3966cf74d7c97e4be22e95ca32ffea3899b51eb24d3e4401f6f805",
           "byteSize": 308663,
@@ -7783,7 +7783,7 @@
         {
           "label": "下午专业领域",
           "kind": "question",
-          "url": "assets/past-papers/documents/7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906.pdf",
           "originalName": "H15-pm.pdf",
           "sha256": "7d131f301410d957e4f68d52de6128af7d4021e2b151e807fe0ee2b8065df906",
           "byteSize": 675375,
@@ -7820,7 +7820,7 @@
         {
           "label": "上午基础领域",
           "kind": "question",
-          "url": "assets/past-papers/documents/0a2de6d034c9934d6bdf532600ca708fbb8919a98e109d9bce9c9cce8413c6df.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/0a2de6d034c9934d6bdf532600ca708fbb8919a98e109d9bce9c9cce8413c6df.pdf",
           "originalName": "H16-am.pdf",
           "sha256": "0a2de6d034c9934d6bdf532600ca708fbb8919a98e109d9bce9c9cce8413c6df",
           "byteSize": 635838,
@@ -7833,7 +7833,7 @@
         {
           "label": "下午专业领域",
           "kind": "question",
-          "url": "assets/past-papers/documents/612e2efdf52bb5204ec2d7d74e6089321d6d1549b1dbbdae6d899997fd856047.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/612e2efdf52bb5204ec2d7d74e6089321d6d1549b1dbbdae6d899997fd856047.pdf",
           "originalName": "H16-pm.pdf",
           "sha256": "612e2efdf52bb5204ec2d7d74e6089321d6d1549b1dbbdae6d899997fd856047",
           "byteSize": 1080670,
@@ -7870,7 +7870,7 @@
         {
           "label": "上午：基础领域",
           "kind": "question",
-          "url": "assets/past-papers/documents/9a9e5a662df3a2937e32045adb5388a1389f431c08d598685a2b906babaf7f94.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/9a9e5a662df3a2937e32045adb5388a1389f431c08d598685a2b906babaf7f94.pdf",
           "originalName": "H17-am.pdf",
           "sha256": "9a9e5a662df3a2937e32045adb5388a1389f431c08d598685a2b906babaf7f94",
           "byteSize": 395539,
@@ -7883,7 +7883,7 @@
         {
           "label": "下午：专业领域",
           "kind": "question",
-          "url": "assets/past-papers/documents/955b338886b37f3d09bf67c41227fe5c7799340978699012755093a4885cd9f0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/955b338886b37f3d09bf67c41227fe5c7799340978699012755093a4885cd9f0.pdf",
           "originalName": "H17-pm.pdf",
           "sha256": "955b338886b37f3d09bf67c41227fe5c7799340978699012755093a4885cd9f0",
           "byteSize": 486328,
@@ -7920,7 +7920,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436.pdf",
           "originalName": "H18-am.pdf",
           "sha256": "6af60adc48215ee5ba762df230ecbcabe5f07cffc4b3bbf7237c321cb7181436",
           "byteSize": 244972,
@@ -7933,7 +7933,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/ca39480dd2dd28f1b0cf460e843b88d4e12323456dbb4640f041a452dc575b0d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/ca39480dd2dd28f1b0cf460e843b88d4e12323456dbb4640f041a452dc575b0d.pdf",
           "originalName": "H18-pm.pdf",
           "sha256": "ca39480dd2dd28f1b0cf460e843b88d4e12323456dbb4640f041a452dc575b0d",
           "byteSize": 339014,
@@ -7970,7 +7970,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/cb5ed8d897b969eb4b73016e34ae3e59b5ae0e269414628cb37b2185da3d816f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/cb5ed8d897b969eb4b73016e34ae3e59b5ae0e269414628cb37b2185da3d816f.pdf",
           "originalName": "H19-am.pdf",
           "sha256": "cb5ed8d897b969eb4b73016e34ae3e59b5ae0e269414628cb37b2185da3d816f",
           "byteSize": 159667,
@@ -7983,7 +7983,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/577818b2453313a6decd40f19711bd3e354994ee134c909e0a319224f616f959.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/577818b2453313a6decd40f19711bd3e354994ee134c909e0a319224f616f959.pdf",
           "originalName": "H19-pm.pdf",
           "sha256": "577818b2453313a6decd40f19711bd3e354994ee134c909e0a319224f616f959",
           "byteSize": 138606,
@@ -8020,7 +8020,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/296dec213d8501997c1cc3b6ee413b1dda72cf40ffa6373f6fbb90d220cb6b75.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/296dec213d8501997c1cc3b6ee413b1dda72cf40ffa6373f6fbb90d220cb6b75.pdf",
           "originalName": "H20-am.pdf",
           "sha256": "296dec213d8501997c1cc3b6ee413b1dda72cf40ffa6373f6fbb90d220cb6b75",
           "byteSize": 188615,
@@ -8033,7 +8033,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/dece792d9731211ff9db765a57dc1b883c0a16122be2bbe4b88fe1405d977d81.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/dece792d9731211ff9db765a57dc1b883c0a16122be2bbe4b88fe1405d977d81.pdf",
           "originalName": "H20-pm.pdf",
           "sha256": "dece792d9731211ff9db765a57dc1b883c0a16122be2bbe4b88fe1405d977d81",
           "byteSize": 195314,
@@ -8070,7 +8070,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd.pdf",
           "originalName": "H21-am.pdf",
           "sha256": "d60eb6c014c0d7f37959709324b6c50c2b80f4021d3591af466e9a65b80ea2dd",
           "byteSize": 157590,
@@ -8083,7 +8083,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/da6832a8567f30c986c7af7649f3b7d5b8bfc6d3512036634cb1374e765dfc63.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/da6832a8567f30c986c7af7649f3b7d5b8bfc6d3512036634cb1374e765dfc63.pdf",
           "originalName": "H21-pm.pdf",
           "sha256": "da6832a8567f30c986c7af7649f3b7d5b8bfc6d3512036634cb1374e765dfc63",
           "byteSize": 180985,
@@ -8120,7 +8120,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/dac5afe7b2d24a5c7169d2aaec9991ede0574b5e9fc4e3f3862658cace8f0078.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/dac5afe7b2d24a5c7169d2aaec9991ede0574b5e9fc4e3f3862658cace8f0078.pdf",
           "originalName": "H22-am.pdf",
           "sha256": "dac5afe7b2d24a5c7169d2aaec9991ede0574b5e9fc4e3f3862658cace8f0078",
           "byteSize": 220361,
@@ -8133,7 +8133,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c.pdf",
           "originalName": "H22-pm.pdf",
           "sha256": "b631f0c8b83d19d80d8d041b581fe0a4119a6e1afdb91cc7eeeb1fa047e49f3c",
           "byteSize": 309717,
@@ -8171,7 +8171,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/3d75940be17d0a48f13cb610a21c972da7851205b95ebd6b994071cab4258671.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/3d75940be17d0a48f13cb610a21c972da7851205b95ebd6b994071cab4258671.pdf",
           "originalName": "H23-amP.pdf",
           "sha256": "3d75940be17d0a48f13cb610a21c972da7851205b95ebd6b994071cab4258671",
           "byteSize": 1136874,
@@ -8184,7 +8184,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/369287650eb32981265e973381b86349e89ce6fdc7e7ab41ea7574412080dfa1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/369287650eb32981265e973381b86349e89ce6fdc7e7ab41ea7574412080dfa1.pdf",
           "originalName": "H23-pmP.pdf",
           "sha256": "369287650eb32981265e973381b86349e89ce6fdc7e7ab41ea7574412080dfa1",
           "byteSize": 1336633,
@@ -8221,7 +8221,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269.pdf",
           "originalName": "H24-amP.pdf",
           "sha256": "240b8ad5e341821748d93812d5745b6a8f7724dd9c464f8a81e5e078197a2269",
           "byteSize": 220682,
@@ -8234,7 +8234,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/d5eb0179c8567543a5c96722e61f9c5d09129c3fa07e06d78c574c2e5ce77068.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d5eb0179c8567543a5c96722e61f9c5d09129c3fa07e06d78c574c2e5ce77068.pdf",
           "originalName": "H24-pmP.pdf",
           "sha256": "d5eb0179c8567543a5c96722e61f9c5d09129c3fa07e06d78c574c2e5ce77068",
           "byteSize": 259797,
@@ -8272,7 +8272,7 @@
         {
           "label": "电气数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/400165399d4f0ed5f6b756e4fce4c572ca672e26dd48ac5fe54f107a0df11d83.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/400165399d4f0ed5f6b756e4fce4c572ca672e26dd48ac5fe54f107a0df11d83.pdf",
           "originalName": "H25-amP.pdf",
           "sha256": "400165399d4f0ed5f6b756e4fce4c572ca672e26dd48ac5fe54f107a0df11d83",
           "byteSize": 246066,
@@ -8285,7 +8285,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/ae0024f5b185db733fab6d7033b3cfb4278361b05b4d9f4bcc290e98690de058.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/ae0024f5b185db733fab6d7033b3cfb4278361b05b4d9f4bcc290e98690de058.pdf",
           "originalName": "H25-pmP1.pdf",
           "sha256": "ae0024f5b185db733fab6d7033b3cfb4278361b05b4d9f4bcc290e98690de058",
           "byteSize": 380197,
@@ -8298,7 +8298,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3.pdf",
           "originalName": "H25-pmP2.pdf",
           "sha256": "7c4bcabd875b95f46ac10d700a692ed752559a42177abbbc9352d405fecb7bb3",
           "byteSize": 339112,
@@ -8336,7 +8336,7 @@
         {
           "label": "电气数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/35af31c311bee20777e24e47adb516296d8cdcd3af6a7f7ebeb876dd14960b01.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/35af31c311bee20777e24e47adb516296d8cdcd3af6a7f7ebeb876dd14960b01.pdf",
           "originalName": "H26-amP.pdf",
           "sha256": "35af31c311bee20777e24e47adb516296d8cdcd3af6a7f7ebeb876dd14960b01",
           "byteSize": 362325,
@@ -8349,7 +8349,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/17df41570186215669fca8f9f6828f3839b502370c1120b2dc7ff160270785da.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/17df41570186215669fca8f9f6828f3839b502370c1120b2dc7ff160270785da.pdf",
           "originalName": "H26-pmP1.pdf",
           "sha256": "17df41570186215669fca8f9f6828f3839b502370c1120b2dc7ff160270785da",
           "byteSize": 333606,
@@ -8362,7 +8362,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea.pdf",
           "originalName": "H26-pmP2.pdf",
           "sha256": "0bd082ddf1ceb9db1c65a3a2f405cd1d744dd61da994b3efecb9969be6e6beea",
           "byteSize": 820490,
@@ -8400,7 +8400,7 @@
         {
           "label": "电气数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80.pdf",
           "originalName": "H27-amP.pdf",
           "sha256": "e59a403b433e3a1f1357053a3ba7766a51fb3a9be1b1450b9e756b477af9aa80",
           "byteSize": 224419,
@@ -8413,7 +8413,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291.pdf",
           "originalName": "H27-pmP1.pdf",
           "sha256": "47b971167bdf1e3076a1b133ec42ce3a2642949fbc7e1ecacbb630751e3ae291",
           "byteSize": 315226,
@@ -8426,7 +8426,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/3d4e19f0cce396e016cf2aab197694e78b932c44b87f0afce1b23b8d764aa3cd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/3d4e19f0cce396e016cf2aab197694e78b932c44b87f0afce1b23b8d764aa3cd.pdf",
           "originalName": "H27-pmP2.pdf",
           "sha256": "3d4e19f0cce396e016cf2aab197694e78b932c44b87f0afce1b23b8d764aa3cd",
           "byteSize": 276824,
@@ -8464,7 +8464,7 @@
         {
           "label": "电气回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/a94332beb49297f04b84d48a4f30fadce2d9db308d56e5de2dee5e0e875b27a4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/a94332beb49297f04b84d48a4f30fadce2d9db308d56e5de2dee5e0e875b27a4.pdf",
           "originalName": "H28回路.pdf",
           "sha256": "a94332beb49297f04b84d48a4f30fadce2d9db308d56e5de2dee5e0e875b27a4",
           "byteSize": 203118,
@@ -8477,7 +8477,7 @@
         {
           "label": "电气数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9.pdf",
           "originalName": "H28数学.pdf",
           "sha256": "75cf82e65f63baa41d8cb5be6bf78bb88dd97a562d6148ef2beec41e5c4a4ac9",
           "byteSize": 347226,
@@ -8490,7 +8490,7 @@
         {
           "label": "电磁气学",
           "kind": "question",
-          "url": "assets/past-papers/documents/59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e.pdf",
           "originalName": "H28電磁気.pdf",
           "sha256": "59575a93dc0feffac7af6f474c46e4acff7945e5479dd5bb75b57dcbcf22c50e",
           "byteSize": 213006,
@@ -8526,7 +8526,7 @@
         {
           "label": "专业科目合卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1.pdf",
           "originalName": "ee_h28.pdf",
           "sha256": "961b175780fb2a441d50d64b02ac60371f4dbc98ed14e42171d1e9f5e2c807c1",
           "byteSize": 1695609,
@@ -8562,7 +8562,7 @@
         {
           "label": "专业科目合卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba.pdf",
           "originalName": "ee_h29.pdf",
           "sha256": "835358e85de7c2968ee22248bcae76f71f945d2cede0f03bbf5d3301ed803cba",
           "byteSize": 722907,
@@ -8598,7 +8598,7 @@
         {
           "label": "专业科目合卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/8e0c507c5c821e492b92cc6bed747799e9d9813418f4a938dd9ea8b9acc9908c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/8e0c507c5c821e492b92cc6bed747799e9d9813418f4a938dd9ea8b9acc9908c.pdf",
           "originalName": "ee_h30.pdf",
           "sha256": "8e0c507c5c821e492b92cc6bed747799e9d9813418f4a938dd9ea8b9acc9908c",
           "byteSize": 804598,
@@ -8634,7 +8634,7 @@
         {
           "label": "专业科目合卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/77395e7d54da336c129e8617e3c91d5f39456502e4b4366a1e1c65e4e7a8c2c0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/77395e7d54da336c129e8617e3c91d5f39456502e4b4366a1e1c65e4e7a8c2c0.pdf",
           "originalName": "82-ee-r1.pdf",
           "sha256": "77395e7d54da336c129e8617e3c91d5f39456502e4b4366a1e1c65e4e7a8c2c0",
           "byteSize": 2258735,
@@ -8670,7 +8670,7 @@
         {
           "label": "专业科目合卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291.pdf",
           "originalName": "exam_ee_20218.pdf",
           "sha256": "0e352893691bfa2c2ef3e3e77ac2cf429bdbef1e9fea69f596de40cb7c813291",
           "byteSize": 1254451,
@@ -8706,7 +8706,7 @@
         {
           "label": "专业科目合卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/91ca87178337c261e0e46befaf438d1b8455695cbed7961ab0192bcc5417a838.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/91ca87178337c261e0e46befaf438d1b8455695cbed7961ab0192bcc5417a838.pdf",
           "originalName": "exam_ee_20228.pdf",
           "sha256": "91ca87178337c261e0e46befaf438d1b8455695cbed7961ab0192bcc5417a838",
           "byteSize": 708559,
@@ -8742,7 +8742,7 @@
         {
           "label": "专业科目合卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/1657f2c46e336697d407606542f9fd4822d6f3040259fcfc9b59dad3f951ea0e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/1657f2c46e336697d407606542f9fd4822d6f3040259fcfc9b59dad3f951ea0e.pdf",
           "originalName": "exam_ee_20238.pdf",
           "sha256": "1657f2c46e336697d407606542f9fd4822d6f3040259fcfc9b59dad3f951ea0e",
           "byteSize": 1681301,
@@ -8778,7 +8778,7 @@
         {
           "label": "专业科目合卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/655d886a6ab8a146f8dce78aa4b9290e3a5ab344f1744d0aa05c967720e6fae9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/655d886a6ab8a146f8dce78aa4b9290e3a5ab344f1744d0aa05c967720e6fae9.pdf",
           "originalName": "exam_ee_20248.pdf",
           "sha256": "655d886a6ab8a146f8dce78aa4b9290e3a5ab344f1744d0aa05c967720e6fae9",
           "byteSize": 2516193,
@@ -8814,7 +8814,7 @@
         {
           "label": "专业科目合卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/f87484a3abc7423c64c609566774d93f4d74d4c6b4c14fae938319922619b272.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/f87484a3abc7423c64c609566774d93f4d74d4c6b4c14fae938319922619b272.pdf",
           "originalName": "exam_ee_20258.pdf",
           "sha256": "f87484a3abc7423c64c609566774d93f4d74d4c6b4c14fae938319922619b272",
           "byteSize": 1549374,
@@ -8827,7 +8827,7 @@
         {
           "label": "2025年官方出题意图（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/ac464f094bc782eb68f51f9115044566f4a20fef5c00593b4d1f85b68e4806b6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/ac464f094bc782eb68f51f9115044566f4a20fef5c00593b4d1f85b68e4806b6.pdf",
           "originalName": "POQ_ee_20258.pdf",
           "sha256": "ac464f094bc782eb68f51f9115044566f4a20fef5c00593b4d1f85b68e4806b6",
           "byteSize": 536739,
@@ -8867,7 +8867,7 @@
         {
           "label": "問題原合册 · 機械工学基礎 · PDF第1—10页",
           "kind": "question",
-          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
           "originalName": "2025_scitectest_sep.pdf",
           "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
           "byteSize": 4570287,
@@ -8881,7 +8881,7 @@
         {
           "label": "解答／解答例原合册 · 機械工学基礎 · PDF第1—10页",
           "kind": "answer",
-          "url": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
           "originalName": "scitec_kaitourei_25sep.pdf",
           "sha256": "14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91",
           "byteSize": 1648295,
@@ -8923,7 +8923,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11—17页",
           "kind": "question",
-          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
           "originalName": "2025_scitectest_sep.pdf",
           "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
           "byteSize": 4570287,
@@ -8937,7 +8937,7 @@
         {
           "label": "解答／解答例原合册 · 電気・電子工学基礎 · PDF第11—12页",
           "kind": "answer",
-          "url": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
           "originalName": "scitec_kaitourei_25sep.pdf",
           "sha256": "14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91",
           "byteSize": 1648295,
@@ -8979,7 +8979,7 @@
         {
           "label": "問題原合册 · 情報学基礎 · PDF第43—50页",
           "kind": "question",
-          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
           "originalName": "2025_scitectest_sep.pdf",
           "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
           "byteSize": 4570287,
@@ -8993,7 +8993,7 @@
         {
           "label": "解答／解答例原合册 · 情報学基礎 · PDF第34—40页",
           "kind": "answer",
-          "url": "assets/past-papers/documents/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91.pdf",
           "originalName": "scitec_kaitourei_25sep.pdf",
           "sha256": "14f8f6467952deaa2e75afc8c14ed578e561d345eb1e33181d3ca0ce121a2a91",
           "byteSize": 1648295,
@@ -9035,7 +9035,7 @@
         {
           "label": "問題原合册 · 機械工学基礎 · PDF第1—10页",
           "kind": "question",
-          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
           "originalName": "2025_scitectest_feb.pdf",
           "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
           "byteSize": 2640749,
@@ -9049,7 +9049,7 @@
         {
           "label": "解答／解答例原合册 · 機械工学基礎 · PDF第1—10页",
           "kind": "answer",
-          "url": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
           "originalName": "scitec_kaitourei_25feb.pdf",
           "sha256": "0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d",
           "byteSize": 1343146,
@@ -9091,7 +9091,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11—17页",
           "kind": "question",
-          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
           "originalName": "2025_scitectest_feb.pdf",
           "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
           "byteSize": 2640749,
@@ -9105,7 +9105,7 @@
         {
           "label": "解答／解答例原合册 · 電気・電子工学基礎 · PDF第11—11页",
           "kind": "answer",
-          "url": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
           "originalName": "scitec_kaitourei_25feb.pdf",
           "sha256": "0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d",
           "byteSize": 1343146,
@@ -9147,7 +9147,7 @@
         {
           "label": "問題原合册 · 情報学基礎 · PDF第38—45页",
           "kind": "question",
-          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
           "originalName": "2025_scitectest_feb.pdf",
           "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
           "byteSize": 2640749,
@@ -9161,7 +9161,7 @@
         {
           "label": "解答／解答例原合册 · 情報学基礎 · PDF第29—34页",
           "kind": "answer",
-          "url": "assets/past-papers/documents/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d.pdf",
           "originalName": "scitec_kaitourei_25feb.pdf",
           "sha256": "0cf4c2163d85f278d2ff10976e8e1891896d0d40e8aa020fcefbecfffc3a0b5d",
           "byteSize": 1343146,
@@ -9203,7 +9203,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第48—55页",
           "kind": "question",
-          "url": "assets/past-papers/documents/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385.pdf",
           "originalName": "FILE3207_20180416035623.pdf",
           "sha256": "fc1b7cba159506f7abb83002476e9ad57e101c68fb383e61a97b429f709ae385",
           "byteSize": 2025785,
@@ -9244,7 +9244,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第42—49页",
           "kind": "question",
-          "url": "assets/past-papers/documents/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00.pdf",
           "originalName": "FILE3141_20180412062417.pdf",
           "sha256": "9c80bdc3f00bc0f07d8c78bbb331e5ceeb7b88cdd301c61a0c0562e33ebfbb00",
           "byteSize": 1970726,
@@ -9285,7 +9285,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第35—42页",
           "kind": "question",
-          "url": "assets/past-papers/documents/abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8.pdf",
           "originalName": "FILE3094_20180412044349.pdf",
           "sha256": "abf31bb2bbf6db5170c4a67df3139a26b3aa452596d440a5c7fd46d0b88b22d8",
           "byteSize": 1713496,
@@ -9326,7 +9326,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11—17页",
           "kind": "question",
-          "url": "assets/past-papers/documents/efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad.pdf",
           "originalName": "2026_scitectest_sep.pdf",
           "sha256": "efb13ef9869099f085b097a25e10b71bbbd6a53839d6089e9747db63cdbc14ad",
           "byteSize": 3377903,
@@ -9340,7 +9340,7 @@
         {
           "label": "解答／解答例原合册 · 電気・電子工学基礎 · PDF第12—13页",
           "kind": "answer",
-          "url": "assets/past-papers/documents/b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6.pdf",
           "originalName": "re2026_scitectest_sep_kaitorei.pdf",
           "sha256": "b07cd4a3ef08cf5482f0f84bccec6a7f3d3d67267b31f95111258968b4f36da6",
           "byteSize": 1417911,
@@ -9383,7 +9383,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11—17页",
           "kind": "question",
-          "url": "assets/past-papers/documents/b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493.pdf",
           "originalName": "2026_scitectest_feb.pdf",
           "sha256": "b4dd017d7237a02ab7ea39890108a40a36b4b9aee99dedaaa8f177fc11f3c493",
           "byteSize": 1651265,
@@ -9397,7 +9397,7 @@
         {
           "label": "解答／解答例原合册 · 電気・電子工学基礎 · PDF第18—18页",
           "kind": "answer",
-          "url": "assets/past-papers/documents/e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/sophia/e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e.pdf",
           "originalName": "re2026_scitectest_feb_kaitorei.pdf",
           "sha256": "e21a8325492f92b573b61a6d07606b5dcb67e3b39bbd15a87e6f63fe6739063e",
           "byteSize": 2048001,
@@ -9440,7 +9440,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/ff127ebb2af92bbd3bbe2d562bc23d2c15f47aed9683dc6defc7551511dc5b89.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/ff127ebb2af92bbd3bbe2d562bc23d2c15f47aed9683dc6defc7551511dc5b89.pdf",
           "originalName": "denjiki.pdf",
           "sha256": "ff127ebb2af92bbd3bbe2d562bc23d2c15f47aed9683dc6defc7551511dc5b89",
           "byteSize": 1141607,
@@ -9487,7 +9487,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c3c043b05e5132b619d18df532a4c42dcb8c10ee3643b57f1ed74fc716ea8ccb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/c3c043b05e5132b619d18df532a4c42dcb8c10ee3643b57f1ed74fc716ea8ccb.pdf",
           "originalName": "denjikigaku.pdf",
           "sha256": "c3c043b05e5132b619d18df532a4c42dcb8c10ee3643b57f1ed74fc716ea8ccb",
           "byteSize": 27177,
@@ -9500,7 +9500,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/bb93f3e98d826729f0b8d34b5408123737b18f37258d30641e78f12c1413bdce.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/bb93f3e98d826729f0b8d34b5408123737b18f37258d30641e78f12c1413bdce.pdf",
           "originalName": "busseikougaku.pdf",
           "sha256": "bb93f3e98d826729f0b8d34b5408123737b18f37258d30641e78f12c1413bdce",
           "byteSize": 171828,
@@ -9513,7 +9513,7 @@
         {
           "label": "電子デバイス",
           "kind": "question",
-          "url": "assets/past-papers/documents/38b437b0ec5f0b30f3211f77d845d5152205e75dd7c65840c56570b757f634a6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/38b437b0ec5f0b30f3211f77d845d5152205e75dd7c65840c56570b757f634a6.pdf",
           "originalName": "denshidebaisu.pdf",
           "sha256": "38b437b0ec5f0b30f3211f77d845d5152205e75dd7c65840c56570b757f634a6",
           "byteSize": 21262,
@@ -9526,7 +9526,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/9ceae9b4ac69b11293e1a0d0999f42d0335d81aa9f43138bbb4fff51618d4a4a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/9ceae9b4ac69b11293e1a0d0999f42d0335d81aa9f43138bbb4fff51618d4a4a.pdf",
           "originalName": "jidouseigyo.pdf",
           "sha256": "9ceae9b4ac69b11293e1a0d0999f42d0335d81aa9f43138bbb4fff51618d4a4a",
           "byteSize": 16397,
@@ -9539,7 +9539,7 @@
         {
           "label": "電子演算",
           "kind": "question",
-          "url": "assets/past-papers/documents/a3bae9d6175027740ef86781e3156339c32c78a7ba89fdc8619bb682d4f040f6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/a3bae9d6175027740ef86781e3156339c32c78a7ba89fdc8619bb682d4f040f6.pdf",
           "originalName": "denshi_enzan.pdf",
           "sha256": "a3bae9d6175027740ef86781e3156339c32c78a7ba89fdc8619bb682d4f040f6",
           "byteSize": 105800,
@@ -9552,7 +9552,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/d7c981d9510b65e9626942c3a5c7d2c5efddc8308c091c682ab929712f0015b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/d7c981d9510b65e9626942c3a5c7d2c5efddc8308c091c682ab929712f0015b5.pdf",
           "originalName": "jyouhouriron.pdf",
           "sha256": "d7c981d9510b65e9626942c3a5c7d2c5efddc8308c091c682ab929712f0015b5",
           "byteSize": 80825,
@@ -9601,7 +9601,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b3114f89d98d6e90bea5a58204e9664c052f12bca0e6beb3d920a61c99de5f19.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/b3114f89d98d6e90bea5a58204e9664c052f12bca0e6beb3d920a61c99de5f19.pdf",
           "originalName": "suugaku.pdf",
           "sha256": "b3114f89d98d6e90bea5a58204e9664c052f12bca0e6beb3d920a61c99de5f19",
           "byteSize": 23133,
@@ -9614,7 +9614,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/67897b1f40b46c3b88600b06769a8184c073afcfa23b0ba50da296f9948f43c1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/67897b1f40b46c3b88600b06769a8184c073afcfa23b0ba50da296f9948f43c1.pdf",
           "originalName": "denjiki.pdf",
           "sha256": "67897b1f40b46c3b88600b06769a8184c073afcfa23b0ba50da296f9948f43c1",
           "byteSize": 28899,
@@ -9627,7 +9627,7 @@
         {
           "label": "電子デバイス",
           "kind": "question",
-          "url": "assets/past-papers/documents/a2b40ed3ccf21ffb4107b1868f52bb483c3ff94e9eb15e293bb8c0a7f392b469.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/a2b40ed3ccf21ffb4107b1868f52bb483c3ff94e9eb15e293bb8c0a7f392b469.pdf",
           "originalName": "denshi-device.pdf",
           "sha256": "a2b40ed3ccf21ffb4107b1868f52bb483c3ff94e9eb15e293bb8c0a7f392b469",
           "byteSize": 24489,
@@ -9640,7 +9640,7 @@
         {
           "label": "電力・機器（その1）",
           "kind": "question",
-          "url": "assets/past-papers/documents/768f9f73f715186d1ebd9cfb0b1081799281aeca852170b567352eea4485f9ff.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/768f9f73f715186d1ebd9cfb0b1081799281aeca852170b567352eea4485f9ff.pdf",
           "originalName": "denryoku-kiki1.pdf",
           "sha256": "768f9f73f715186d1ebd9cfb0b1081799281aeca852170b567352eea4485f9ff",
           "byteSize": 29203,
@@ -9653,7 +9653,7 @@
         {
           "label": "電力・機器（その2）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d35e3b80dd22849558adb8e3c75aec6261cf51c5ac1012124defcd4d2eaf5d37.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/d35e3b80dd22849558adb8e3c75aec6261cf51c5ac1012124defcd4d2eaf5d37.pdf",
           "originalName": "denryoku-kiki2.pdf",
           "sha256": "d35e3b80dd22849558adb8e3c75aec6261cf51c5ac1012124defcd4d2eaf5d37",
           "byteSize": 25985,
@@ -9666,7 +9666,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/bbd2ae5ca72f4624c36d542289154a6b8eb6418ae888592487e8f84350c7361f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/bbd2ae5ca72f4624c36d542289154a6b8eb6418ae888592487e8f84350c7361f.pdf",
           "originalName": "jidou-seigyo.pdf",
           "sha256": "bbd2ae5ca72f4624c36d542289154a6b8eb6418ae888592487e8f84350c7361f",
           "byteSize": 27205,
@@ -9679,7 +9679,7 @@
         {
           "label": "電子演算",
           "kind": "question",
-          "url": "assets/past-papers/documents/4f8ed6812531fd3ba6266eaf6a5518fa2660abc2c67921288f4564ef0d496e21.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/4f8ed6812531fd3ba6266eaf6a5518fa2660abc2c67921288f4564ef0d496e21.pdf",
           "originalName": "denshi-enzan.pdf",
           "sha256": "4f8ed6812531fd3ba6266eaf6a5518fa2660abc2c67921288f4564ef0d496e21",
           "byteSize": 118542,
@@ -9692,7 +9692,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/1ee12ca8226d45441005f65813c7ae605802a586026dbad4c0814e91802631fc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/1ee12ca8226d45441005f65813c7ae605802a586026dbad4c0814e91802631fc.pdf",
           "originalName": "jouhou-riron.pdf",
           "sha256": "1ee12ca8226d45441005f65813c7ae605802a586026dbad4c0814e91802631fc",
           "byteSize": 100129,
@@ -9739,7 +9739,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4e77b8b2196daee9ed32c745439cadfd29eb94be4d2b702ed8b687ae3b8b890d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/4e77b8b2196daee9ed32c745439cadfd29eb94be4d2b702ed8b687ae3b8b890d.pdf",
           "originalName": "suugaku.pdf",
           "sha256": "4e77b8b2196daee9ed32c745439cadfd29eb94be4d2b702ed8b687ae3b8b890d",
           "byteSize": 35858,
@@ -9752,7 +9752,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e56bf27d359a7b1410a6b77dec1c4dc7bcc8f52ad5a2688bcd9fe2295f304557.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/e56bf27d359a7b1410a6b77dec1c4dc7bcc8f52ad5a2688bcd9fe2295f304557.pdf",
           "originalName": "denjiki.pdf",
           "sha256": "e56bf27d359a7b1410a6b77dec1c4dc7bcc8f52ad5a2688bcd9fe2295f304557",
           "byteSize": 27330,
@@ -9765,7 +9765,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7b58ae9fdfdc044f6e9373e7a9680408593d6233d20fcf0dc0ca6245cb32852d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/7b58ae9fdfdc044f6e9373e7a9680408593d6233d20fcf0dc0ca6245cb32852d.pdf",
           "originalName": "bussei.pdf",
           "sha256": "7b58ae9fdfdc044f6e9373e7a9680408593d6233d20fcf0dc0ca6245cb32852d",
           "byteSize": 143178,
@@ -9778,7 +9778,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/1a4ee86811aae687dcdafa58a94e60da8481361f8d5b94868ba2999203b6d2f3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/1a4ee86811aae687dcdafa58a94e60da8481361f8d5b94868ba2999203b6d2f3.pdf",
           "originalName": "jidou-seigyo.pdf",
           "sha256": "1a4ee86811aae687dcdafa58a94e60da8481361f8d5b94868ba2999203b6d2f3",
           "byteSize": 28829,
@@ -9791,7 +9791,7 @@
         {
           "label": "論理回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/1f6423646b8f911af197c7b756b5c2199ee2ce311b9bd285ec4fdd422402863c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/1f6423646b8f911af197c7b756b5c2199ee2ce311b9bd285ec4fdd422402863c.pdf",
           "originalName": "ronri-kairo.pdf",
           "sha256": "1f6423646b8f911af197c7b756b5c2199ee2ce311b9bd285ec4fdd422402863c",
           "byteSize": 48660,
@@ -9804,7 +9804,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/8a83e1ce016ffb3c13a838911f4b14769b8348b43f5ba4668e486741fac7f920.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/8a83e1ce016ffb3c13a838911f4b14769b8348b43f5ba4668e486741fac7f920.pdf",
           "originalName": "jouhou-riron.pdf",
           "sha256": "8a83e1ce016ffb3c13a838911f4b14769b8348b43f5ba4668e486741fac7f920",
           "byteSize": 25123,
@@ -9840,7 +9840,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0ccc7d737648abb75d189ad3e14c7b3fc2d3fc7ba2d8b6d268beaec1bbb74daf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/0ccc7d737648abb75d189ad3e14c7b3fc2d3fc7ba2d8b6d268beaec1bbb74daf.pdf",
           "originalName": "bussei-19.pdf",
           "sha256": "0ccc7d737648abb75d189ad3e14c7b3fc2d3fc7ba2d8b6d268beaec1bbb74daf",
           "byteSize": 32018,
@@ -9882,7 +9882,7 @@
         {
           "label": "量子物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/cd97015f9585f25a6b1dc24d8dcb98bef6852c3e017f73ff7a74e23796dbb7b7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/cd97015f9585f25a6b1dc24d8dcb98bef6852c3e017f73ff7a74e23796dbb7b7.pdf",
           "originalName": "ryoushi-20.pdf",
           "sha256": "cd97015f9585f25a6b1dc24d8dcb98bef6852c3e017f73ff7a74e23796dbb7b7",
           "byteSize": 34662,
@@ -9895,7 +9895,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/89fe6d1b58bda9a1937460bfe009a38984d3dbd02f0e62c5e2ed380c12a0baab.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/89fe6d1b58bda9a1937460bfe009a38984d3dbd02f0e62c5e2ed380c12a0baab.pdf",
           "originalName": "bussei-20.pdf",
           "sha256": "89fe6d1b58bda9a1937460bfe009a38984d3dbd02f0e62c5e2ed380c12a0baab",
           "byteSize": 36551,
@@ -9939,7 +9939,7 @@
         {
           "label": "電気回路・電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/4c600c6dc9080a8b9dc4e271edabf5085f8c1db4a6d65cba79b41e3d02a507c4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/4c600c6dc9080a8b9dc4e271edabf5085f8c1db4a6d65cba79b41e3d02a507c4.pdf",
           "originalName": "kairo-21.pdf",
           "sha256": "4c600c6dc9080a8b9dc4e271edabf5085f8c1db4a6d65cba79b41e3d02a507c4",
           "byteSize": 94535,
@@ -9952,7 +9952,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f73449adae689625212a0fa27f0d810498ca2760c2c2d02b86e38cc8951f6d8f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/f73449adae689625212a0fa27f0d810498ca2760c2c2d02b86e38cc8951f6d8f.pdf",
           "originalName": "denjiki-21.pdf",
           "sha256": "f73449adae689625212a0fa27f0d810498ca2760c2c2d02b86e38cc8951f6d8f",
           "byteSize": 130804,
@@ -9965,7 +9965,7 @@
         {
           "label": "量子物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/bdc4411688efb6c678c9fabef029f79923289dba7dea5861d161b18003959a29.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/bdc4411688efb6c678c9fabef029f79923289dba7dea5861d161b18003959a29.pdf",
           "originalName": "ryoushi-21.pdf",
           "sha256": "bdc4411688efb6c678c9fabef029f79923289dba7dea5861d161b18003959a29",
           "byteSize": 92058,
@@ -9978,7 +9978,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0a690ffba7969dcc6a7ef512ebc25622d33662ff43cf0456632baed4eb52674e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/0a690ffba7969dcc6a7ef512ebc25622d33662ff43cf0456632baed4eb52674e.pdf",
           "originalName": "bussei-21.pdf",
           "sha256": "0a690ffba7969dcc6a7ef512ebc25622d33662ff43cf0456632baed4eb52674e",
           "byteSize": 47371,
@@ -10021,7 +10021,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/6e0dbe6e2618d18e5e69abfa5b80170df45c8e5ecddd16b1ed2a008263ecd0de.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/6e0dbe6e2618d18e5e69abfa5b80170df45c8e5ecddd16b1ed2a008263ecd0de.pdf",
           "originalName": "math-25.pdf",
           "sha256": "6e0dbe6e2618d18e5e69abfa5b80170df45c8e5ecddd16b1ed2a008263ecd0de",
           "byteSize": 93927,
@@ -10034,7 +10034,7 @@
         {
           "label": "電気回路・電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/7e760be312a5e0e8ed788ae2fc3c97e511bffac14a652f345f571418ba61bfc1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/7e760be312a5e0e8ed788ae2fc3c97e511bffac14a652f345f571418ba61bfc1.pdf",
           "originalName": "kairo-25.pdf",
           "sha256": "7e760be312a5e0e8ed788ae2fc3c97e511bffac14a652f345f571418ba61bfc1",
           "byteSize": 170219,
@@ -10047,7 +10047,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/534f22191a98d085ffec6029da39eef7073640b95e64ecadb842433aa0d8241c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/534f22191a98d085ffec6029da39eef7073640b95e64ecadb842433aa0d8241c.pdf",
           "originalName": "denjiki-25.pdf",
           "sha256": "534f22191a98d085ffec6029da39eef7073640b95e64ecadb842433aa0d8241c",
           "byteSize": 121670,
@@ -10060,7 +10060,7 @@
         {
           "label": "量子物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/8a1c2f3240ad66f5cb15e004a4970870901a8e9b231bc4a58936199c991e2152.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/8a1c2f3240ad66f5cb15e004a4970870901a8e9b231bc4a58936199c991e2152.pdf",
           "originalName": "ryoushi-25.pdf",
           "sha256": "8a1c2f3240ad66f5cb15e004a4970870901a8e9b231bc4a58936199c991e2152",
           "byteSize": 175918,
@@ -10073,7 +10073,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a67393a8bb1d4afbcbe1d49e6acbe81bda0c0bde7f53c7ee62fa7b9605c72a5b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/a67393a8bb1d4afbcbe1d49e6acbe81bda0c0bde7f53c7ee62fa7b9605c72a5b.pdf",
           "originalName": "bussei-25.pdf",
           "sha256": "a67393a8bb1d4afbcbe1d49e6acbe81bda0c0bde7f53c7ee62fa7b9605c72a5b",
           "byteSize": 169937,
@@ -10086,7 +10086,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/5611fe5ad4cec949a15920b699862db5867fc7b9235863f44a9164c8e6d177b8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/5611fe5ad4cec949a15920b699862db5867fc7b9235863f44a9164c8e6d177b8.pdf",
           "originalName": "seigyo-25.pdf",
           "sha256": "5611fe5ad4cec949a15920b699862db5867fc7b9235863f44a9164c8e6d177b8",
           "byteSize": 70458,
@@ -10099,7 +10099,7 @@
         {
           "label": "論理回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/d37f949adb279558b3739ff983c3d8c6d53e4988f6cba209405689c70c1d623f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/d37f949adb279558b3739ff983c3d8c6d53e4988f6cba209405689c70c1d623f.pdf",
           "originalName": "ronri-25.pdf",
           "sha256": "d37f949adb279558b3739ff983c3d8c6d53e4988f6cba209405689c70c1d623f",
           "byteSize": 79404,
@@ -10112,7 +10112,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/2697e753b88d384db25b6d9c8a8e58f52a0feb53d757357218040a4a2057cbd0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/2697e753b88d384db25b6d9c8a8e58f52a0feb53d757357218040a4a2057cbd0.pdf",
           "originalName": "it-25.pdf",
           "sha256": "2697e753b88d384db25b6d9c8a8e58f52a0feb53d757357218040a4a2057cbd0",
           "byteSize": 59736,
@@ -10156,7 +10156,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b7ff6a2d78323cf2c1df75730e4189b14403622ad971f780632b1a3c86c1aa07.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/b7ff6a2d78323cf2c1df75730e4189b14403622ad971f780632b1a3c86c1aa07.pdf",
           "originalName": "math-26.pdf",
           "sha256": "b7ff6a2d78323cf2c1df75730e4189b14403622ad971f780632b1a3c86c1aa07",
           "byteSize": 973525,
@@ -10169,7 +10169,7 @@
         {
           "label": "電気回路・電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/9c3c537d177e59286da84d286a5b20c4b04dc62458fcdb99aceeabdb01d93280.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/9c3c537d177e59286da84d286a5b20c4b04dc62458fcdb99aceeabdb01d93280.pdf",
           "originalName": "kairo-26.pdf",
           "sha256": "9c3c537d177e59286da84d286a5b20c4b04dc62458fcdb99aceeabdb01d93280",
           "byteSize": 91540,
@@ -10182,7 +10182,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2f60722acf1897d082d58e317286716aa9a701bb472a66ee54ab48c41083f161.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/2f60722acf1897d082d58e317286716aa9a701bb472a66ee54ab48c41083f161.pdf",
           "originalName": "denjiki-26.pdf",
           "sha256": "2f60722acf1897d082d58e317286716aa9a701bb472a66ee54ab48c41083f161",
           "byteSize": 73740,
@@ -10195,7 +10195,7 @@
         {
           "label": "量子物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/3aa123b00e2f6b89edd0a853433a56d29f239ca46ef790ea32f1fc4bd7c9ec6e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/3aa123b00e2f6b89edd0a853433a56d29f239ca46ef790ea32f1fc4bd7c9ec6e.pdf",
           "originalName": "ryoushi-26.pdf",
           "sha256": "3aa123b00e2f6b89edd0a853433a56d29f239ca46ef790ea32f1fc4bd7c9ec6e",
           "byteSize": 90883,
@@ -10208,7 +10208,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/6cf57c9afaf3f7db40fb3d785d1477a68b047f743114eb4a26bbd74f107c0a0c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/6cf57c9afaf3f7db40fb3d785d1477a68b047f743114eb4a26bbd74f107c0a0c.pdf",
           "originalName": "bussei-26.pdf",
           "sha256": "6cf57c9afaf3f7db40fb3d785d1477a68b047f743114eb4a26bbd74f107c0a0c",
           "byteSize": 92952,
@@ -10221,7 +10221,7 @@
         {
           "label": "電力工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/65f997d5e00d9fb235ebf07c8ec066254051012154783d225fd539c00598768b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/65f997d5e00d9fb235ebf07c8ec066254051012154783d225fd539c00598768b.pdf",
           "originalName": "denryoku-26.pdf",
           "sha256": "65f997d5e00d9fb235ebf07c8ec066254051012154783d225fd539c00598768b",
           "byteSize": 113349,
@@ -10234,7 +10234,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/6e3897ade5e6da83ab22034ee0eb5c212da40c6a691f6d37d5cb31a7a69f17b4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/6e3897ade5e6da83ab22034ee0eb5c212da40c6a691f6d37d5cb31a7a69f17b4.pdf",
           "originalName": "seigyo-26.pdf",
           "sha256": "6e3897ade5e6da83ab22034ee0eb5c212da40c6a691f6d37d5cb31a7a69f17b4",
           "byteSize": 42034,
@@ -10247,7 +10247,7 @@
         {
           "label": "論理回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/fcbbf9fbb52652065fb75d55f2c7d04d54d6e2a4d478a017137c241bebc1206c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/fcbbf9fbb52652065fb75d55f2c7d04d54d6e2a4d478a017137c241bebc1206c.pdf",
           "originalName": "ronri-26.pdf",
           "sha256": "fcbbf9fbb52652065fb75d55f2c7d04d54d6e2a4d478a017137c241bebc1206c",
           "byteSize": 79032,
@@ -10260,7 +10260,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/e642a534d6bbd249f564fa3ef90cd2c44af6505486a674b0f2b8bb59485c47b6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/e642a534d6bbd249f564fa3ef90cd2c44af6505486a674b0f2b8bb59485c47b6.pdf",
           "originalName": "it-26.pdf",
           "sha256": "e642a534d6bbd249f564fa3ef90cd2c44af6505486a674b0f2b8bb59485c47b6",
           "byteSize": 21580,
@@ -10299,7 +10299,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/bc511bd8d48b127ea594d82ca6f31f56fed797d0e8ed09261ae2bc6a57df7776.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/bc511bd8d48b127ea594d82ca6f31f56fed797d0e8ed09261ae2bc6a57df7776.pdf",
           "originalName": "denjiki-27.pdf",
           "sha256": "bc511bd8d48b127ea594d82ca6f31f56fed797d0e8ed09261ae2bc6a57df7776",
           "byteSize": 67785,
@@ -10312,7 +10312,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/20f7e0a8f2e0ba652c44d9f4142744a22ceac05e46a03179d8e45df8c0cfb514.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/20f7e0a8f2e0ba652c44d9f4142744a22ceac05e46a03179d8e45df8c0cfb514.pdf",
           "originalName": "bussei-27.pdf",
           "sha256": "20f7e0a8f2e0ba652c44d9f4142744a22ceac05e46a03179d8e45df8c0cfb514",
           "byteSize": 57647,
@@ -10325,7 +10325,7 @@
         {
           "label": "電力工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/56f1b729fd36ae4456f5ccf34c3b29b806acc06ae73ecc971f28f84beed8634d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/56f1b729fd36ae4456f5ccf34c3b29b806acc06ae73ecc971f28f84beed8634d.pdf",
           "originalName": "denryoku-27.pdf",
           "sha256": "56f1b729fd36ae4456f5ccf34c3b29b806acc06ae73ecc971f28f84beed8634d",
           "byteSize": 100292,
@@ -10338,7 +10338,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/e8cbcc5a236e984a39539eda3fbe922c3f21cc17535416eaaeac4ed7d901a944.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/e8cbcc5a236e984a39539eda3fbe922c3f21cc17535416eaaeac4ed7d901a944.pdf",
           "originalName": "seigyo-27.pdf",
           "sha256": "e8cbcc5a236e984a39539eda3fbe922c3f21cc17535416eaaeac4ed7d901a944",
           "byteSize": 31096,
@@ -10351,7 +10351,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/270a1336d494961c52c2632cef3ec6946a7bc62f7fc81c158af5d5e6d7132bff.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/270a1336d494961c52c2632cef3ec6946a7bc62f7fc81c158af5d5e6d7132bff.pdf",
           "originalName": "it-27.pdf",
           "sha256": "270a1336d494961c52c2632cef3ec6946a7bc62f7fc81c158af5d5e6d7132bff",
           "byteSize": 31266,
@@ -10392,7 +10392,7 @@
         {
           "label": "電気回路・電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/c85af6e01e268f9c544b07706a516645b9b7e45cae87ddd40be65e2b1f04c633.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/c85af6e01e268f9c544b07706a516645b9b7e45cae87ddd40be65e2b1f04c633.pdf",
           "originalName": "kairo-31.pdf",
           "sha256": "c85af6e01e268f9c544b07706a516645b9b7e45cae87ddd40be65e2b1f04c633",
           "byteSize": 356364,
@@ -10405,7 +10405,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/09dc1df13404622fe4b8054569cf43348bf790685ff9a01ed3e08488948569ef.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/09dc1df13404622fe4b8054569cf43348bf790685ff9a01ed3e08488948569ef.pdf",
           "originalName": "denjiki-31.pdf",
           "sha256": "09dc1df13404622fe4b8054569cf43348bf790685ff9a01ed3e08488948569ef",
           "byteSize": 94214,
@@ -10418,7 +10418,7 @@
         {
           "label": "量子物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/ae4b57819c059d99f2debc25e931b543e899604a993a2c474f0de4dbac2d1a6d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/ae4b57819c059d99f2debc25e931b543e899604a993a2c474f0de4dbac2d1a6d.pdf",
           "originalName": "ryoushi-31.pdf",
           "sha256": "ae4b57819c059d99f2debc25e931b543e899604a993a2c474f0de4dbac2d1a6d",
           "byteSize": 527737,
@@ -10431,7 +10431,7 @@
         {
           "label": "電力工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0f56e5fd3772f96c098da1577e2c45a60083a5a6e7f1dd6a9aeb93a2ac77cb80.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/0f56e5fd3772f96c098da1577e2c45a60083a5a6e7f1dd6a9aeb93a2ac77cb80.pdf",
           "originalName": "denryoku-31.pdf",
           "sha256": "0f56e5fd3772f96c098da1577e2c45a60083a5a6e7f1dd6a9aeb93a2ac77cb80",
           "byteSize": 393001,
@@ -10444,7 +10444,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/d2240e44ef2a18094b67e8a02e56a0f0499b87daef822258df7111d335870292.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/d2240e44ef2a18094b67e8a02e56a0f0499b87daef822258df7111d335870292.pdf",
           "originalName": "seigyo-31.pdf",
           "sha256": "d2240e44ef2a18094b67e8a02e56a0f0499b87daef822258df7111d335870292",
           "byteSize": 235612,
@@ -10457,7 +10457,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/2ea13f5312859b68080e2d49fee759e7d8805b9559e064a1403f01aec64ec4ff.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/2ea13f5312859b68080e2d49fee759e7d8805b9559e064a1403f01aec64ec4ff.pdf",
           "originalName": "it-31.pdf",
           "sha256": "2ea13f5312859b68080e2d49fee759e7d8805b9559e064a1403f01aec64ec4ff",
           "byteSize": 249576,
@@ -10498,7 +10498,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/bb6c9bae489bffa6007431c2cfd2009cc10ae4ef81059fe4c7d64a07bd6f328f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/bb6c9bae489bffa6007431c2cfd2009cc10ae4ef81059fe4c7d64a07bd6f328f.pdf",
           "originalName": "denjiki-2020.pdf",
           "sha256": "bb6c9bae489bffa6007431c2cfd2009cc10ae4ef81059fe4c7d64a07bd6f328f",
           "byteSize": 55524,
@@ -10511,7 +10511,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/8bb3ef5659eb9254f05f18841f4ebd944907d5af290b726b744e334b993f9c0a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/8bb3ef5659eb9254f05f18841f4ebd944907d5af290b726b744e334b993f9c0a.pdf",
           "originalName": "bussei-2020.pdf",
           "sha256": "8bb3ef5659eb9254f05f18841f4ebd944907d5af290b726b744e334b993f9c0a",
           "byteSize": 75652,
@@ -10524,7 +10524,7 @@
         {
           "label": "電力工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f79b9af81a965427dbdb6e6fa7c2f2c88e4ad7a56c26f90b79b67763bb383dd7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/f79b9af81a965427dbdb6e6fa7c2f2c88e4ad7a56c26f90b79b67763bb383dd7.pdf",
           "originalName": "denryoku-2020.pdf",
           "sha256": "f79b9af81a965427dbdb6e6fa7c2f2c88e4ad7a56c26f90b79b67763bb383dd7",
           "byteSize": 65415,
@@ -10537,7 +10537,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/7368858675b8c5a3c8bd477c415c1789558200ec7cffde88fe2adcdb947cd16c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/7368858675b8c5a3c8bd477c415c1789558200ec7cffde88fe2adcdb947cd16c.pdf",
           "originalName": "seigyo-2020.pdf",
           "sha256": "7368858675b8c5a3c8bd477c415c1789558200ec7cffde88fe2adcdb947cd16c",
           "byteSize": 34664,
@@ -10550,7 +10550,7 @@
         {
           "label": "論理回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/2e11dab9b6cedf7f39bcea84e8d967fa2e22e44c1af57ef1c153a5507bb53e53.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/2e11dab9b6cedf7f39bcea84e8d967fa2e22e44c1af57ef1c153a5507bb53e53.pdf",
           "originalName": "ronri-2020.pdf",
           "sha256": "2e11dab9b6cedf7f39bcea84e8d967fa2e22e44c1af57ef1c153a5507bb53e53",
           "byteSize": 48869,
@@ -10563,7 +10563,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/0bb8de136047031d871d81ad17c7c6e2a4eba6a1740f2db2ebf7d9af09f7be85.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/0bb8de136047031d871d81ad17c7c6e2a4eba6a1740f2db2ebf7d9af09f7be85.pdf",
           "originalName": "it-2020.pdf",
           "sha256": "0bb8de136047031d871d81ad17c7c6e2a4eba6a1740f2db2ebf7d9af09f7be85",
           "byteSize": 26129,
@@ -10607,7 +10607,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/39633f6c6d375c55d2d8a2a6733c1bc7703c0f59e7f5de2a13152687f8b01657.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/39633f6c6d375c55d2d8a2a6733c1bc7703c0f59e7f5de2a13152687f8b01657.pdf",
           "originalName": "math-2021.pdf",
           "sha256": "39633f6c6d375c55d2d8a2a6733c1bc7703c0f59e7f5de2a13152687f8b01657",
           "byteSize": 44365,
@@ -10620,7 +10620,7 @@
         {
           "label": "電気回路・電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/619cbb1b2823d901981954902d6c38e2ad07eb32a2b69bdbf4f53740baf03a9c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/619cbb1b2823d901981954902d6c38e2ad07eb32a2b69bdbf4f53740baf03a9c.pdf",
           "originalName": "kairo-2021.pdf",
           "sha256": "619cbb1b2823d901981954902d6c38e2ad07eb32a2b69bdbf4f53740baf03a9c",
           "byteSize": 65687,
@@ -10633,7 +10633,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a873a48202b4c7e54015f4471302c7752275bbc55293309b5d7f314b14fef55c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/a873a48202b4c7e54015f4471302c7752275bbc55293309b5d7f314b14fef55c.pdf",
           "originalName": "denjiki-2021.pdf",
           "sha256": "a873a48202b4c7e54015f4471302c7752275bbc55293309b5d7f314b14fef55c",
           "byteSize": 53533,
@@ -10646,7 +10646,7 @@
         {
           "label": "量子物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/ca81f4facd3a2e471740320cee9c4b9cd42376f775e36fcad996035691a6aafa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/ca81f4facd3a2e471740320cee9c4b9cd42376f775e36fcad996035691a6aafa.pdf",
           "originalName": "ryoushi-2021.pdf",
           "sha256": "ca81f4facd3a2e471740320cee9c4b9cd42376f775e36fcad996035691a6aafa",
           "byteSize": 77295,
@@ -10659,7 +10659,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7e34a74e5fd3ed958b97b2d906cf8b748624fb59928065ac67908421dadb4a24.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/7e34a74e5fd3ed958b97b2d906cf8b748624fb59928065ac67908421dadb4a24.pdf",
           "originalName": "bussei-2021.pdf",
           "sha256": "7e34a74e5fd3ed958b97b2d906cf8b748624fb59928065ac67908421dadb4a24",
           "byteSize": 58182,
@@ -10672,7 +10672,7 @@
         {
           "label": "電力工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7a15779be6fa134f308b7b2a6139e348312f76fe610f323f8e600c88014ff71a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/7a15779be6fa134f308b7b2a6139e348312f76fe610f323f8e600c88014ff71a.pdf",
           "originalName": "denryoku-2021.pdf",
           "sha256": "7a15779be6fa134f308b7b2a6139e348312f76fe610f323f8e600c88014ff71a",
           "byteSize": 64366,
@@ -10685,7 +10685,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/ea1af715cf38ca0d0f0c1bb6c7887716f23ac5bff95a72e260bc340dc3f04cd2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/ea1af715cf38ca0d0f0c1bb6c7887716f23ac5bff95a72e260bc340dc3f04cd2.pdf",
           "originalName": "seigyo-2021.pdf",
           "sha256": "ea1af715cf38ca0d0f0c1bb6c7887716f23ac5bff95a72e260bc340dc3f04cd2",
           "byteSize": 28919,
@@ -10698,7 +10698,7 @@
         {
           "label": "論理回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/81a774c9bcced49067982761154f20b7677a0c9a7cfd1a12a605428d3e5cb415.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/81a774c9bcced49067982761154f20b7677a0c9a7cfd1a12a605428d3e5cb415.pdf",
           "originalName": "ronri-2021.pdf",
           "sha256": "81a774c9bcced49067982761154f20b7677a0c9a7cfd1a12a605428d3e5cb415",
           "byteSize": 45728,
@@ -10711,7 +10711,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/8503063812df8484c4ca422f41c46d4e58cdfbe866d0c9852320ba658c2aa93c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/8503063812df8484c4ca422f41c46d4e58cdfbe866d0c9852320ba658c2aa93c.pdf",
           "originalName": "it-2021.pdf",
           "sha256": "8503063812df8484c4ca422f41c46d4e58cdfbe866d0c9852320ba658c2aa93c",
           "byteSize": 20221,
@@ -10754,7 +10754,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/1437b2ef6f53daad6b5f10eeb8e0b751b38e74fcfad8c41fb55419172d357faa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/1437b2ef6f53daad6b5f10eeb8e0b751b38e74fcfad8c41fb55419172d357faa.pdf",
           "originalName": "math-2022.pdf",
           "sha256": "1437b2ef6f53daad6b5f10eeb8e0b751b38e74fcfad8c41fb55419172d357faa",
           "byteSize": 44311,
@@ -10767,7 +10767,7 @@
         {
           "label": "電気回路・電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/a52477572dd6752d52d33f92d26afe41db8bafddab8c60dcedac37bf29696940.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/a52477572dd6752d52d33f92d26afe41db8bafddab8c60dcedac37bf29696940.pdf",
           "originalName": "kairo-2022.pdf",
           "sha256": "a52477572dd6752d52d33f92d26afe41db8bafddab8c60dcedac37bf29696940",
           "byteSize": 44968,
@@ -10780,7 +10780,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/214fbc8832de3307e402604e3775776a95219fe4c983ba99f68843bff0c0bd81.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/214fbc8832de3307e402604e3775776a95219fe4c983ba99f68843bff0c0bd81.pdf",
           "originalName": "denjiki-2022.pdf",
           "sha256": "214fbc8832de3307e402604e3775776a95219fe4c983ba99f68843bff0c0bd81",
           "byteSize": 50139,
@@ -10793,7 +10793,7 @@
         {
           "label": "量子物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f043d15f462ec95f805b2f0f31c4bc65d4db64182dfc36acf08756ca224bc211.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/f043d15f462ec95f805b2f0f31c4bc65d4db64182dfc36acf08756ca224bc211.pdf",
           "originalName": "ryoushi-2022.pdf",
           "sha256": "f043d15f462ec95f805b2f0f31c4bc65d4db64182dfc36acf08756ca224bc211",
           "byteSize": 43600,
@@ -10806,7 +10806,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e42e74beef834f38d200efe09c412313e943353b16becf033db1039f4fabac39.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/e42e74beef834f38d200efe09c412313e943353b16becf033db1039f4fabac39.pdf",
           "originalName": "bussei-2022.pdf",
           "sha256": "e42e74beef834f38d200efe09c412313e943353b16becf033db1039f4fabac39",
           "byteSize": 69582,
@@ -10819,7 +10819,7 @@
         {
           "label": "電力工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/26ca4a94c9ab855970b0a7d7a682fb10438453fe95ab664d1212dfd2c2751493.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/26ca4a94c9ab855970b0a7d7a682fb10438453fe95ab664d1212dfd2c2751493.pdf",
           "originalName": "denryoku-2022.pdf",
           "sha256": "26ca4a94c9ab855970b0a7d7a682fb10438453fe95ab664d1212dfd2c2751493",
           "byteSize": 58457,
@@ -10832,7 +10832,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/425b228595ec8511338e498787884d6de969668da1c0616b9835317900b05bb3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/425b228595ec8511338e498787884d6de969668da1c0616b9835317900b05bb3.pdf",
           "originalName": "seigyo-2022.pdf",
           "sha256": "425b228595ec8511338e498787884d6de969668da1c0616b9835317900b05bb3",
           "byteSize": 30336,
@@ -10845,7 +10845,7 @@
         {
           "label": "論理回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/bf29aee403595c632069c9b182b559354bf21fe894aacde8f370497645972dec.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/bf29aee403595c632069c9b182b559354bf21fe894aacde8f370497645972dec.pdf",
           "originalName": "ronri-2022.pdf",
           "sha256": "bf29aee403595c632069c9b182b559354bf21fe894aacde8f370497645972dec",
           "byteSize": 37125,
@@ -10858,7 +10858,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/003265aea36cc16e1b34dab9cf7fa1a15f8350788a0061e32971e1f891ef9afc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/003265aea36cc16e1b34dab9cf7fa1a15f8350788a0061e32971e1f891ef9afc.pdf",
           "originalName": "it-2022.pdf",
           "sha256": "003265aea36cc16e1b34dab9cf7fa1a15f8350788a0061e32971e1f891ef9afc",
           "byteSize": 20615,
@@ -10901,7 +10901,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2d95085f421b8906ef067024ec0d971e3efcf8913893e8b6fd47b9424913bd42.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/2d95085f421b8906ef067024ec0d971e3efcf8913893e8b6fd47b9424913bd42.pdf",
           "originalName": "math-2024.pdf",
           "sha256": "2d95085f421b8906ef067024ec0d971e3efcf8913893e8b6fd47b9424913bd42",
           "byteSize": 41446,
@@ -10914,7 +10914,7 @@
         {
           "label": "電気回路・電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/c7afa4197178df94a9c422201421825923f9b12b3d439764b3350b466012b010.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/c7afa4197178df94a9c422201421825923f9b12b3d439764b3350b466012b010.pdf",
           "originalName": "kairo-2024.pdf",
           "sha256": "c7afa4197178df94a9c422201421825923f9b12b3d439764b3350b466012b010",
           "byteSize": 62400,
@@ -10927,7 +10927,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2594fda5a648e379cdd9dbc551e1667bb2e2bba5f4af5ca1a24a97486c3d2797.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/2594fda5a648e379cdd9dbc551e1667bb2e2bba5f4af5ca1a24a97486c3d2797.pdf",
           "originalName": "denjiki-2024.pdf",
           "sha256": "2594fda5a648e379cdd9dbc551e1667bb2e2bba5f4af5ca1a24a97486c3d2797",
           "byteSize": 55804,
@@ -10940,7 +10940,7 @@
         {
           "label": "量子物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/1b8a2484f56e08fffcaf04198dedb0de2f7fef41a331c3cd0afd0db40b9a8b64.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/1b8a2484f56e08fffcaf04198dedb0de2f7fef41a331c3cd0afd0db40b9a8b64.pdf",
           "originalName": "ryoushi-2024.pdf",
           "sha256": "1b8a2484f56e08fffcaf04198dedb0de2f7fef41a331c3cd0afd0db40b9a8b64",
           "byteSize": 71157,
@@ -10953,7 +10953,7 @@
         {
           "label": "物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/24f0b6fa87f16c908f175ebd1925b1bf5065d3795110c96b7f3ea4e599df73e9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/24f0b6fa87f16c908f175ebd1925b1bf5065d3795110c96b7f3ea4e599df73e9.pdf",
           "originalName": "bussei-2024.pdf",
           "sha256": "24f0b6fa87f16c908f175ebd1925b1bf5065d3795110c96b7f3ea4e599df73e9",
           "byteSize": 58310,
@@ -10966,7 +10966,7 @@
         {
           "label": "電力工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0a9ff22f0e27f29382689a6e36613b092623719ae7ac03c374aee361fc74c1c1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/0a9ff22f0e27f29382689a6e36613b092623719ae7ac03c374aee361fc74c1c1.pdf",
           "originalName": "denryoku-2024.pdf",
           "sha256": "0a9ff22f0e27f29382689a6e36613b092623719ae7ac03c374aee361fc74c1c1",
           "byteSize": 69954,
@@ -10979,7 +10979,7 @@
         {
           "label": "自動制御",
           "kind": "question",
-          "url": "assets/past-papers/documents/da37e87ca51f5a938c19cbd501f5f38a5251dcba0fa2f4bde610fee6de43971e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/da37e87ca51f5a938c19cbd501f5f38a5251dcba0fa2f4bde610fee6de43971e.pdf",
           "originalName": "seigyo-2024.pdf",
           "sha256": "da37e87ca51f5a938c19cbd501f5f38a5251dcba0fa2f4bde610fee6de43971e",
           "byteSize": 34117,
@@ -10992,7 +10992,7 @@
         {
           "label": "論理回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/208b919e0cdf210989636a4de429041607d07458705174817310442ecdc19960.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/208b919e0cdf210989636a4de429041607d07458705174817310442ecdc19960.pdf",
           "originalName": "ronri-2024.pdf",
           "sha256": "208b919e0cdf210989636a4de429041607d07458705174817310442ecdc19960",
           "byteSize": 40280,
@@ -11005,7 +11005,7 @@
         {
           "label": "情報理論",
           "kind": "question",
-          "url": "assets/past-papers/documents/58a9aa5686559bc9516c5b5156c34f3a5a72592b4b30b79cdb01ea2f2d784832.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/58a9aa5686559bc9516c5b5156c34f3a5a72592b4b30b79cdb01ea2f2d784832.pdf",
           "originalName": "it-2024.pdf",
           "sha256": "58a9aa5686559bc9516c5b5156c34f3a5a72592b4b30b79cdb01ea2f2d784832",
           "byteSize": 39462,
@@ -11047,7 +11047,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b39892093d35637cab7a91e425085e0c292e72325594d83b1d2a5bd9dafeec45.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/b39892093d35637cab7a91e425085e0c292e72325594d83b1d2a5bd9dafeec45.pdf",
           "originalName": "math-2025.pdf",
           "sha256": "b39892093d35637cab7a91e425085e0c292e72325594d83b1d2a5bd9dafeec45",
           "byteSize": 205329,
@@ -11060,7 +11060,7 @@
         {
           "label": "電気回路・電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/ce6cdfd0e1c0eb1099d2623fed801c12146219f8761d2f1f210cf37741bcc37c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/ce6cdfd0e1c0eb1099d2623fed801c12146219f8761d2f1f210cf37741bcc37c.pdf",
           "originalName": "kairo-2025.pdf",
           "sha256": "ce6cdfd0e1c0eb1099d2623fed801c12146219f8761d2f1f210cf37741bcc37c",
           "byteSize": 199778,
@@ -11073,7 +11073,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/780b6fba2891e4c30572d4579a9d2947ba31ac3be406724333f03568413ca730.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/780b6fba2891e4c30572d4579a9d2947ba31ac3be406724333f03568413ca730.pdf",
           "originalName": "denjiki-2025.pdf",
           "sha256": "780b6fba2891e4c30572d4579a9d2947ba31ac3be406724333f03568413ca730",
           "byteSize": 231391,
@@ -11086,7 +11086,7 @@
         {
           "label": "量子物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a6341e85a3ad7f55f683b7dd225e7a31c9751f28360447cf17a6af56709db9bb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/a6341e85a3ad7f55f683b7dd225e7a31c9751f28360447cf17a6af56709db9bb.pdf",
           "originalName": "ryoushibussei-2025.pdf",
           "sha256": "a6341e85a3ad7f55f683b7dd225e7a31c9751f28360447cf17a6af56709db9bb",
           "byteSize": 266147,
@@ -11099,7 +11099,7 @@
         {
           "label": "半導体デバイス工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a03d3f91feb13d8e94e66c63280c6be774c7526d32b77808fb8421cdecc51aff.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/a03d3f91feb13d8e94e66c63280c6be774c7526d32b77808fb8421cdecc51aff.pdf",
           "originalName": "device-2025.pdf",
           "sha256": "a03d3f91feb13d8e94e66c63280c6be774c7526d32b77808fb8421cdecc51aff",
           "byteSize": 94920,
@@ -11112,7 +11112,7 @@
         {
           "label": "論理回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/57d5353f3d41555fdc262fbbaa0e506df29ae860b258f4a0766a0160bf2c49ab.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/57d5353f3d41555fdc262fbbaa0e506df29ae860b258f4a0766a0160bf2c49ab.pdf",
           "originalName": "ronri-2025.pdf",
           "sha256": "57d5353f3d41555fdc262fbbaa0e506df29ae860b258f4a0766a0160bf2c49ab",
           "byteSize": 107933,
@@ -11125,7 +11125,7 @@
         {
           "label": "情報通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/1cca79a1462b4a42ea467d9dfe81199fa3cecba4b0cf2c32f01b58bb5d9cc5ea.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/1cca79a1462b4a42ea467d9dfe81199fa3cecba4b0cf2c32f01b58bb5d9cc5ea.pdf",
           "originalName": "joho-2025.pdf",
           "sha256": "1cca79a1462b4a42ea467d9dfe81199fa3cecba4b0cf2c32f01b58bb5d9cc5ea",
           "byteSize": 121876,
@@ -11138,7 +11138,7 @@
         {
           "label": "データ構造とアルゴリズム",
           "kind": "question",
-          "url": "assets/past-papers/documents/e5fe9deddf4f6daac31f484b08d2db0bfb6664a8c4ef67cdd787af16ac8bd48a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/e5fe9deddf4f6daac31f484b08d2db0bfb6664a8c4ef67cdd787af16ac8bd48a.pdf",
           "originalName": "datakozo-2025.pdf",
           "sha256": "e5fe9deddf4f6daac31f484b08d2db0bfb6664a8c4ef67cdd787af16ac8bd48a",
           "byteSize": 272018,
@@ -11151,7 +11151,7 @@
         {
           "label": "データサイエンス",
           "kind": "question",
-          "url": "assets/past-papers/documents/bfb22b199e594486d3f6998effacaac1f034c5cadb54e9e9d7a9cc3b80d6737b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/bfb22b199e594486d3f6998effacaac1f034c5cadb54e9e9d7a9cc3b80d6737b.pdf",
           "originalName": "data-2025.pdf",
           "sha256": "bfb22b199e594486d3f6998effacaac1f034c5cadb54e9e9d7a9cc3b80d6737b",
           "byteSize": 113086,
@@ -11193,7 +11193,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0959f48dbc8b6a03bf5088aeb2d3e2dea86a52afdd67045b2711b9e0d7e07c29.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/0959f48dbc8b6a03bf5088aeb2d3e2dea86a52afdd67045b2711b9e0d7e07c29.pdf",
           "originalName": "math-2026.pdf",
           "sha256": "0959f48dbc8b6a03bf5088aeb2d3e2dea86a52afdd67045b2711b9e0d7e07c29",
           "byteSize": 46623,
@@ -11206,7 +11206,7 @@
         {
           "label": "電気回路・電子回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/1ae624e60c1097e45d64f7c4a99308caa65ffef0865734935ba684460cdcd9a6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/1ae624e60c1097e45d64f7c4a99308caa65ffef0865734935ba684460cdcd9a6.pdf",
           "originalName": "kairo-2026.pdf",
           "sha256": "1ae624e60c1097e45d64f7c4a99308caa65ffef0865734935ba684460cdcd9a6",
           "byteSize": 78056,
@@ -11219,7 +11219,7 @@
         {
           "label": "電磁気学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7e05a469fa6dcf58a99cc8d5ae31f2910663e3bcc455a64130103c6d409025e9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/7e05a469fa6dcf58a99cc8d5ae31f2910663e3bcc455a64130103c6d409025e9.pdf",
           "originalName": "denjiki-2026.pdf",
           "sha256": "7e05a469fa6dcf58a99cc8d5ae31f2910663e3bcc455a64130103c6d409025e9",
           "byteSize": 68279,
@@ -11232,7 +11232,7 @@
         {
           "label": "量子物性工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e92213fbfe15e82c6e5ffd2ca17b73bf93da1809c1b1721c5224de00a7bd8ad.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/5e92213fbfe15e82c6e5ffd2ca17b73bf93da1809c1b1721c5224de00a7bd8ad.pdf",
           "originalName": "ryoushibussei-2026.pdf",
           "sha256": "5e92213fbfe15e82c6e5ffd2ca17b73bf93da1809c1b1721c5224de00a7bd8ad",
           "byteSize": 109966,
@@ -11245,7 +11245,7 @@
         {
           "label": "半導体デバイス工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/17e4d5edacc66b0dfff0f50afc9ac8c0df0c673ed40ce391ca2388fdd75c58d5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/17e4d5edacc66b0dfff0f50afc9ac8c0df0c673ed40ce391ca2388fdd75c58d5.pdf",
           "originalName": "device-2026.pdf",
           "sha256": "17e4d5edacc66b0dfff0f50afc9ac8c0df0c673ed40ce391ca2388fdd75c58d5",
           "byteSize": 44848,
@@ -11258,7 +11258,7 @@
         {
           "label": "論理回路",
           "kind": "question",
-          "url": "assets/past-papers/documents/957f3d7cf7d1298d74e1818c3ae6cd2fc3dfa4df304268968a5bae1cee9657e1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/957f3d7cf7d1298d74e1818c3ae6cd2fc3dfa4df304268968a5bae1cee9657e1.pdf",
           "originalName": "ronri-2026.pdf",
           "sha256": "957f3d7cf7d1298d74e1818c3ae6cd2fc3dfa4df304268968a5bae1cee9657e1",
           "byteSize": 33786,
@@ -11271,7 +11271,7 @@
         {
           "label": "情報通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/def408a7a8910ec97d328271a87f8c340af4c69d8ed3487597bea9bd5ca82286.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/def408a7a8910ec97d328271a87f8c340af4c69d8ed3487597bea9bd5ca82286.pdf",
           "originalName": "joho-2026.pdf",
           "sha256": "def408a7a8910ec97d328271a87f8c340af4c69d8ed3487597bea9bd5ca82286",
           "byteSize": 49894,
@@ -11284,7 +11284,7 @@
         {
           "label": "データ構造とアルゴリズム",
           "kind": "question",
-          "url": "assets/past-papers/documents/afe4d20174ccef3063efd9426f04427e3f852054e27aab312b648487eab5c8fe.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/afe4d20174ccef3063efd9426f04427e3f852054e27aab312b648487eab5c8fe.pdf",
           "originalName": "datakozo-2026.pdf",
           "sha256": "afe4d20174ccef3063efd9426f04427e3f852054e27aab312b648487eab5c8fe",
           "byteSize": 62664,
@@ -11297,7 +11297,7 @@
         {
           "label": "電子情報（データサイエンス）",
           "kind": "question",
-          "url": "assets/past-papers/documents/06092fbc0d68e9ba50e71ec097ccdb6acf1087e28f360b651314fba0b11adf15.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/06092fbc0d68e9ba50e71ec097ccdb6acf1087e28f360b651314fba0b11adf15.pdf",
           "originalName": "data-2026.pdf",
           "sha256": "06092fbc0d68e9ba50e71ec097ccdb6acf1087e28f360b651314fba0b11adf15",
           "byteSize": 55650,
@@ -11332,7 +11332,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0fe19a2b0bba9b30c4ef73de46c35176143b0b22cc25b0a8894c82afa9d5f538.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/0fe19a2b0bba9b30c4ef73de46c35176143b0b22cc25b0a8894c82afa9d5f538.pdf",
           "originalName": "1_H31_Math.pdf",
           "sha256": "0fe19a2b0bba9b30c4ef73de46c35176143b0b22cc25b0a8894c82afa9d5f538",
           "byteSize": 37504,
@@ -11345,7 +11345,7 @@
         {
           "label": "生産工学・制御工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7fef9cd310a2dba8c9a3133653676cb158a9c6dbd652dcd6b6224eb9b0b193ed.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/7fef9cd310a2dba8c9a3133653676cb158a9c6dbd652dcd6b6224eb9b0b193ed.pdf",
           "originalName": "6_H31_Manufacture.pdf",
           "sha256": "7fef9cd310a2dba8c9a3133653676cb158a9c6dbd652dcd6b6224eb9b0b193ed",
           "byteSize": 90129,
@@ -11381,7 +11381,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e7652f308b1b7f770baedb554364fde247958f9688b04fdc9bbd6fc7f7c9cb8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/5e7652f308b1b7f770baedb554364fde247958f9688b04fdc9bbd6fc7f7c9cb8.pdf",
           "originalName": "1_2020_Math.pdf",
           "sha256": "5e7652f308b1b7f770baedb554364fde247958f9688b04fdc9bbd6fc7f7c9cb8",
           "byteSize": 79044,
@@ -11394,7 +11394,7 @@
         {
           "label": "生産工学・制御工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/74733bcde7cb38f87b7a79565605886e8f4e64a308bc070409609196baee68e2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/74733bcde7cb38f87b7a79565605886e8f4e64a308bc070409609196baee68e2.pdf",
           "originalName": "6_2020_Manufacture.pdf",
           "sha256": "74733bcde7cb38f87b7a79565605886e8f4e64a308bc070409609196baee68e2",
           "byteSize": 244056,
@@ -11430,7 +11430,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/40942b81cb355b54d43fa26e85b9a25402c8348ed18457ba457608f94d610a1a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/40942b81cb355b54d43fa26e85b9a25402c8348ed18457ba457608f94d610a1a.pdf",
           "originalName": "1_2021_Math.pdf",
           "sha256": "40942b81cb355b54d43fa26e85b9a25402c8348ed18457ba457608f94d610a1a",
           "byteSize": 48769,
@@ -11443,7 +11443,7 @@
         {
           "label": "生産工学・制御工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c4bef2a9a55f8d563a7a759536959e9705862e75cb036e309df1e2c725e4b28c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/c4bef2a9a55f8d563a7a759536959e9705862e75cb036e309df1e2c725e4b28c.pdf",
           "originalName": "6_2021_Manufacture.pdf",
           "sha256": "c4bef2a9a55f8d563a7a759536959e9705862e75cb036e309df1e2c725e4b28c",
           "byteSize": 99091,
@@ -11479,7 +11479,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2fbc5a768a5f330cf0e496c89bc804ed256803343dbead7de6f307058b89f3e4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/2fbc5a768a5f330cf0e496c89bc804ed256803343dbead7de6f307058b89f3e4.pdf",
           "originalName": "1_2023_Math.pdf",
           "sha256": "2fbc5a768a5f330cf0e496c89bc804ed256803343dbead7de6f307058b89f3e4",
           "byteSize": 2730383,
@@ -11492,7 +11492,7 @@
         {
           "label": "生産工学・制御工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2e7e8da76b3ec45adae5f746083e4bc4b7f260da6e9666c103b0432fca4cd20f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/2e7e8da76b3ec45adae5f746083e4bc4b7f260da6e9666c103b0432fca4cd20f.pdf",
           "originalName": "6_2023_Manufacture.pdf",
           "sha256": "2e7e8da76b3ec45adae5f746083e4bc4b7f260da6e9666c103b0432fca4cd20f",
           "byteSize": 5418085,
@@ -11528,7 +11528,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/01cf95a617e14cbe9abf4401168a177874ba117d8cea6e0a37822fb8e2f44211.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/01cf95a617e14cbe9abf4401168a177874ba117d8cea6e0a37822fb8e2f44211.pdf",
           "originalName": "1_2024_Math.pdf",
           "sha256": "01cf95a617e14cbe9abf4401168a177874ba117d8cea6e0a37822fb8e2f44211",
           "byteSize": 84747,
@@ -11541,7 +11541,7 @@
         {
           "label": "生産工学・制御工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a5cffc30c3b8426a62f54eeca4b743d89799f486d829308376ba2e21e47bcef0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/a5cffc30c3b8426a62f54eeca4b743d89799f486d829308376ba2e21e47bcef0.pdf",
           "originalName": "6_2024_Manufacture.pdf",
           "sha256": "a5cffc30c3b8426a62f54eeca4b743d89799f486d829308376ba2e21e47bcef0",
           "byteSize": 233319,
@@ -11577,7 +11577,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2a82238ec44b16667e4510b19c6826ce8692928e688dace10730e25ed5c4de59.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/2a82238ec44b16667e4510b19c6826ce8692928e688dace10730e25ed5c4de59.pdf",
           "originalName": "1_2025_Math.pdf",
           "sha256": "2a82238ec44b16667e4510b19c6826ce8692928e688dace10730e25ed5c4de59",
           "byteSize": 627534,
@@ -11590,7 +11590,7 @@
         {
           "label": "生産工学・制御工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/36b279253c5ce30a1b64249ddcf81c87a3a3643868a9a8cb86f12938078dc735.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/36b279253c5ce30a1b64249ddcf81c87a3a3643868a9a8cb86f12938078dc735.pdf",
           "originalName": "6_2025_Manufacture.pdf",
           "sha256": "36b279253c5ce30a1b64249ddcf81c87a3a3643868a9a8cb86f12938078dc735",
           "byteSize": 596606,
@@ -11630,7 +11630,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c4c1e64c1c80fc92d9658edc26805e36ec237bcb96c8e32bab54b4c59a2a99f8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/c4c1e64c1c80fc92d9658edc26805e36ec237bcb96c8e32bab54b4c59a2a99f8.pdf",
           "originalName": "2025_math.pdf",
           "sha256": "c4c1e64c1c80fc92d9658edc26805e36ec237bcb96c8e32bab54b4c59a2a99f8",
           "byteSize": 85839,
@@ -11643,7 +11643,7 @@
         {
           "label": "専門科目（4分野）",
           "kind": "question",
-          "url": "assets/past-papers/documents/3afc0e9a13d2fa303b5810643c418b257958dbe9195de2f589bb40260fedad16.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/3afc0e9a13d2fa303b5810643c418b257958dbe9195de2f589bb40260fedad16.pdf",
           "originalName": "2025_expert.pdf",
           "sha256": "3afc0e9a13d2fa303b5810643c418b257958dbe9195de2f589bb40260fedad16",
           "byteSize": 379140,
@@ -11688,7 +11688,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/9f3f221bb66e958807e48d6d479b8374cda1b43eed4c5858c7aa0d3fd64c67b4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/9f3f221bb66e958807e48d6d479b8374cda1b43eed4c5858c7aa0d3fd64c67b4.pdf",
           "originalName": "2025_2_math.pdf",
           "sha256": "9f3f221bb66e958807e48d6d479b8374cda1b43eed4c5858c7aa0d3fd64c67b4",
           "byteSize": 67484,
@@ -11701,7 +11701,7 @@
         {
           "label": "専門科目（4分野）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6e5e2a05010814402bbabfe66cb6dddde02d27c7acd10eb229422f8bfd02c002.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/6e5e2a05010814402bbabfe66cb6dddde02d27c7acd10eb229422f8bfd02c002.pdf",
           "originalName": "2025_2_expert.pdf",
           "sha256": "6e5e2a05010814402bbabfe66cb6dddde02d27c7acd10eb229422f8bfd02c002",
           "byteSize": 365378,
@@ -11745,7 +11745,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/06e71703870545a4418737c455d85665f8d0d4bde693bbab6cf7b9da2bd0a34f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/06e71703870545a4418737c455d85665f8d0d4bde693bbab6cf7b9da2bd0a34f.pdf",
           "originalName": "2025_3_math.pdf",
           "sha256": "06e71703870545a4418737c455d85665f8d0d4bde693bbab6cf7b9da2bd0a34f",
           "byteSize": 69383,
@@ -11758,7 +11758,7 @@
         {
           "label": "専門科目（4分野）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b6fe4f70ccffd90ffe90a9304ee6ff9cc23a5641ba32dd7950c22f36adc2c152.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/b6fe4f70ccffd90ffe90a9304ee6ff9cc23a5641ba32dd7950c22f36adc2c152.pdf",
           "originalName": "2025_3_expert.pdf",
           "sha256": "b6fe4f70ccffd90ffe90a9304ee6ff9cc23a5641ba32dd7950c22f36adc2c152",
           "byteSize": 280914,
@@ -11798,7 +11798,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/4f6f8c383854dbd87b9269a50529116d0bacca198b847216c942d5ec7d3cb8a2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/4f6f8c383854dbd87b9269a50529116d0bacca198b847216c942d5ec7d3cb8a2.pdf",
           "originalName": "h27.pdf",
           "sha256": "4f6f8c383854dbd87b9269a50529116d0bacca198b847216c942d5ec7d3cb8a2",
           "byteSize": 315544,
@@ -11837,7 +11837,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/1fad96e4f8e130b40d2b39dbe95fed8f46869a570946cbc8323754d736b4cf07.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/1fad96e4f8e130b40d2b39dbe95fed8f46869a570946cbc8323754d736b4cf07.pdf",
           "originalName": "h28.pdf",
           "sha256": "1fad96e4f8e130b40d2b39dbe95fed8f46869a570946cbc8323754d736b4cf07",
           "byteSize": 245560,
@@ -11876,7 +11876,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/051fbd6e3bb729669c00ef2a7c5f3a21dddfa8ced67e985b22cfec8702c3128f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/051fbd6e3bb729669c00ef2a7c5f3a21dddfa8ced67e985b22cfec8702c3128f.pdf",
           "originalName": "h29.pdf",
           "sha256": "051fbd6e3bb729669c00ef2a7c5f3a21dddfa8ced67e985b22cfec8702c3128f",
           "byteSize": 283782,
@@ -11915,7 +11915,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/fd3fef57a823ff3a4cfb7298f007d39f11bbc38633d93b95825444fef6b68f7a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/fd3fef57a823ff3a4cfb7298f007d39f11bbc38633d93b95825444fef6b68f7a.pdf",
           "originalName": "h30.pdf",
           "sha256": "fd3fef57a823ff3a4cfb7298f007d39f11bbc38633d93b95825444fef6b68f7a",
           "byteSize": 146370,
@@ -11954,7 +11954,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/bd3296cb451cfb3a8dc6d99af5ec5def5de45bafa2ea2e4680ad1b715378be3b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/bd3296cb451cfb3a8dc6d99af5ec5def5de45bafa2ea2e4680ad1b715378be3b.pdf",
           "originalName": "h31.pdf",
           "sha256": "bd3296cb451cfb3a8dc6d99af5ec5def5de45bafa2ea2e4680ad1b715378be3b",
           "byteSize": 120951,
@@ -11993,7 +11993,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/04dd7228427c09cadb024c48fc3f9fddf14cbf22a1459ea425b884a3e6594ce2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/04dd7228427c09cadb024c48fc3f9fddf14cbf22a1459ea425b884a3e6594ce2.pdf",
           "originalName": "i2020.pdf",
           "sha256": "04dd7228427c09cadb024c48fc3f9fddf14cbf22a1459ea425b884a3e6594ce2",
           "byteSize": 85752,
@@ -12032,7 +12032,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/56bc9bf3200e629b216616509a042053169e3ba8075277c17e3084c1d44727de.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/56bc9bf3200e629b216616509a042053169e3ba8075277c17e3084c1d44727de.pdf",
           "originalName": "r03.pdf",
           "sha256": "56bc9bf3200e629b216616509a042053169e3ba8075277c17e3084c1d44727de",
           "byteSize": 91137,
@@ -12071,7 +12071,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/77478021c4386999591c2715a395c46ba648b97fe71dce82c0408dc8cd1ac7d5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/77478021c4386999591c2715a395c46ba648b97fe71dce82c0408dc8cd1ac7d5.pdf",
           "originalName": "r04.pdf",
           "sha256": "77478021c4386999591c2715a395c46ba648b97fe71dce82c0408dc8cd1ac7d5",
           "byteSize": 87408,
@@ -12110,7 +12110,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/42ae9f33a7b6116463c56d82442ba94a457074021bb55ebb7198a8e4e58e46a0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/42ae9f33a7b6116463c56d82442ba94a457074021bb55ebb7198a8e4e58e46a0.pdf",
           "originalName": "r05.pdf",
           "sha256": "42ae9f33a7b6116463c56d82442ba94a457074021bb55ebb7198a8e4e58e46a0",
           "byteSize": 132673,
@@ -12149,7 +12149,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/c061f2044f871cf983fb9786e05fca6b4bcbec3e7a05c1535e8ad5bd97b5b817.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/c061f2044f871cf983fb9786e05fca6b4bcbec3e7a05c1535e8ad5bd97b5b817.pdf",
           "originalName": "r06.pdf",
           "sha256": "c061f2044f871cf983fb9786e05fca6b4bcbec3e7a05c1535e8ad5bd97b5b817",
           "byteSize": 134940,
@@ -12188,7 +12188,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/01e24d0df1d9fe2426b7a062cf3dde600fb106cd3f1b844b036dd931ce021f29.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/01e24d0df1d9fe2426b7a062cf3dde600fb106cd3f1b844b036dd931ce021f29.pdf",
           "originalName": "r07.pdf",
           "sha256": "01e24d0df1d9fe2426b7a062cf3dde600fb106cd3f1b844b036dd931ce021f29",
           "byteSize": 135547,
@@ -12227,7 +12227,7 @@
         {
           "label": "数学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/6b59e0374fc13e39f9b0cafa2d0c7f138d4e57b4fa550eb080a7b76ef0665e98.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/6b59e0374fc13e39f9b0cafa2d0c7f138d4e57b4fa550eb080a7b76ef0665e98.pdf",
           "originalName": "r08.pdf",
           "sha256": "6b59e0374fc13e39f9b0cafa2d0c7f138d4e57b4fa550eb080a7b76ef0665e98",
           "byteSize": 126280,
@@ -12267,7 +12267,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/3f81f11dffb6c19cba2982be60676972974110a098353aa44ffc6769e2680b4d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/3f81f11dffb6c19cba2982be60676972974110a098353aa44ffc6769e2680b4d.pdf",
           "originalName": "PH2016a.pdf",
           "sha256": "3f81f11dffb6c19cba2982be60676972974110a098353aa44ffc6769e2680b4d",
           "byteSize": 139707,
@@ -12280,7 +12280,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/ced72273cef72b963e5262a0450deaf0cd0da28770fa75a8eb849ae8a7a30dfb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/ced72273cef72b963e5262a0450deaf0cd0da28770fa75a8eb849ae8a7a30dfb.pdf",
           "originalName": "PH2016b.pdf",
           "sha256": "ced72273cef72b963e5262a0450deaf0cd0da28770fa75a8eb849ae8a7a30dfb",
           "byteSize": 108908,
@@ -12320,7 +12320,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/1a84b84154409c189dade3923638db8b86da017cd598ee6b8a721df795605c22.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/1a84b84154409c189dade3923638db8b86da017cd598ee6b8a721df795605c22.pdf",
           "originalName": "PH2017a.pdf",
           "sha256": "1a84b84154409c189dade3923638db8b86da017cd598ee6b8a721df795605c22",
           "byteSize": 99894,
@@ -12333,7 +12333,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/f4a6b86b3df237942f8759da1814975eb32e36fa99457aecd84992dd8fc3618e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/f4a6b86b3df237942f8759da1814975eb32e36fa99457aecd84992dd8fc3618e.pdf",
           "originalName": "PH2017b.pdf",
           "sha256": "f4a6b86b3df237942f8759da1814975eb32e36fa99457aecd84992dd8fc3618e",
           "byteSize": 69102,
@@ -12373,7 +12373,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/f5c144c3c2d2844ee9d0ff30cd69d9f0c7e91c8ea2df4ab77fa17b876961ba53.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/f5c144c3c2d2844ee9d0ff30cd69d9f0c7e91c8ea2df4ab77fa17b876961ba53.pdf",
           "originalName": "PH2018a.pdf",
           "sha256": "f5c144c3c2d2844ee9d0ff30cd69d9f0c7e91c8ea2df4ab77fa17b876961ba53",
           "byteSize": 875028,
@@ -12386,7 +12386,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/335ad53b3b3e5f35c94e9a93db636b60b1db91026c2c86e1271be7578b207d97.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/335ad53b3b3e5f35c94e9a93db636b60b1db91026c2c86e1271be7578b207d97.pdf",
           "originalName": "PH2018b.pdf",
           "sha256": "335ad53b3b3e5f35c94e9a93db636b60b1db91026c2c86e1271be7578b207d97",
           "byteSize": 808811,
@@ -12426,7 +12426,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/cd9252b64bf3300a5a57dab76fcb4e9d1b23ec44f711bad5fadb2f5743fdc8f4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/cd9252b64bf3300a5a57dab76fcb4e9d1b23ec44f711bad5fadb2f5743fdc8f4.pdf",
           "originalName": "PH2019a.pdf",
           "sha256": "cd9252b64bf3300a5a57dab76fcb4e9d1b23ec44f711bad5fadb2f5743fdc8f4",
           "byteSize": 386032,
@@ -12439,7 +12439,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/978bc0ef1aad367891883ad69cf58a28e5362fd80c759492bd436f06b49e078c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/978bc0ef1aad367891883ad69cf58a28e5362fd80c759492bd436f06b49e078c.pdf",
           "originalName": "PH2019b.pdf",
           "sha256": "978bc0ef1aad367891883ad69cf58a28e5362fd80c759492bd436f06b49e078c",
           "byteSize": 288945,
@@ -12479,7 +12479,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/65ec1f88aead5ee0396dbcf16e0042d8e42239dc4ff007ae31cfd31c0a6e62dd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/65ec1f88aead5ee0396dbcf16e0042d8e42239dc4ff007ae31cfd31c0a6e62dd.pdf",
           "originalName": "PH2020a.pdf",
           "sha256": "65ec1f88aead5ee0396dbcf16e0042d8e42239dc4ff007ae31cfd31c0a6e62dd",
           "byteSize": 129767,
@@ -12492,7 +12492,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/07955cce1f7c2ddb1f9873a487d5f76aa024165ac04907fc8a38e8bd8625cfa0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/07955cce1f7c2ddb1f9873a487d5f76aa024165ac04907fc8a38e8bd8625cfa0.pdf",
           "originalName": "PH2020b.pdf",
           "sha256": "07955cce1f7c2ddb1f9873a487d5f76aa024165ac04907fc8a38e8bd8625cfa0",
           "byteSize": 18387,
@@ -12532,7 +12532,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/69dd4b9e72e04d31f2f3ccae4e10661860c3eaca141097652ae1579cb18bd412.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/69dd4b9e72e04d31f2f3ccae4e10661860c3eaca141097652ae1579cb18bd412.pdf",
           "originalName": "PH2021a.pdf",
           "sha256": "69dd4b9e72e04d31f2f3ccae4e10661860c3eaca141097652ae1579cb18bd412",
           "byteSize": 245688,
@@ -12545,7 +12545,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/cfe5847d3b379da2a4ab1ded6422676deb448f9625ff7ec72c63a366664a1df1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/cfe5847d3b379da2a4ab1ded6422676deb448f9625ff7ec72c63a366664a1df1.pdf",
           "originalName": "PH2021b.pdf",
           "sha256": "cfe5847d3b379da2a4ab1ded6422676deb448f9625ff7ec72c63a366664a1df1",
           "byteSize": 467128,
@@ -12585,7 +12585,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/18952e6ff7a2aec6b82e82f68cadfa59357c2ab7ed15234d25386fa0aa38b2b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/18952e6ff7a2aec6b82e82f68cadfa59357c2ab7ed15234d25386fa0aa38b2b9.pdf",
           "originalName": "PH2022a.pdf",
           "sha256": "18952e6ff7a2aec6b82e82f68cadfa59357c2ab7ed15234d25386fa0aa38b2b9",
           "byteSize": 134467,
@@ -12598,7 +12598,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/5a1b96bdf2ecd3396b587b6f6d8c6eb87feadb559b475991eb5c0bbf03d9d979.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/5a1b96bdf2ecd3396b587b6f6d8c6eb87feadb559b475991eb5c0bbf03d9d979.pdf",
           "originalName": "PH2022b.pdf",
           "sha256": "5a1b96bdf2ecd3396b587b6f6d8c6eb87feadb559b475991eb5c0bbf03d9d979",
           "byteSize": 296949,
@@ -12638,7 +12638,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/e241a602552bca2be8d30b4bb695d7b7a5bbcc6af0e9d41b34de6e9e6ca14ba2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/e241a602552bca2be8d30b4bb695d7b7a5bbcc6af0e9d41b34de6e9e6ca14ba2.pdf",
           "originalName": "PH2023a.pdf",
           "sha256": "e241a602552bca2be8d30b4bb695d7b7a5bbcc6af0e9d41b34de6e9e6ca14ba2",
           "byteSize": 1844266,
@@ -12651,7 +12651,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/d9c4c0a4b0fdcc3733faf9b25a5c28d71df4f685c2158e86a554680f2edb68b0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/d9c4c0a4b0fdcc3733faf9b25a5c28d71df4f685c2158e86a554680f2edb68b0.pdf",
           "originalName": "PH2023b.pdf",
           "sha256": "d9c4c0a4b0fdcc3733faf9b25a5c28d71df4f685c2158e86a554680f2edb68b0",
           "byteSize": 1204857,
@@ -12691,7 +12691,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/07f346f5bf6e0c2d18f15e4f4ef0a3af457aadfc80c4dbea247617f97fbfb5ff.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/07f346f5bf6e0c2d18f15e4f4ef0a3af457aadfc80c4dbea247617f97fbfb5ff.pdf",
           "originalName": "PH2024a.pdf",
           "sha256": "07f346f5bf6e0c2d18f15e4f4ef0a3af457aadfc80c4dbea247617f97fbfb5ff",
           "byteSize": 1580758,
@@ -12704,7 +12704,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/6177cb08a7a2c9720f16a992e1b0b9adf5abdde6c4dcbec0aeaac7da6edc0f2e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/6177cb08a7a2c9720f16a992e1b0b9adf5abdde6c4dcbec0aeaac7da6edc0f2e.pdf",
           "originalName": "PH2024b.pdf",
           "sha256": "6177cb08a7a2c9720f16a992e1b0b9adf5abdde6c4dcbec0aeaac7da6edc0f2e",
           "byteSize": 1317426,
@@ -12744,7 +12744,7 @@
         {
           "label": "物理 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/4c056c4971e76af1797df29a5874081dbb6f7bfb8d209b80de9f49500f73f44c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/4c056c4971e76af1797df29a5874081dbb6f7bfb8d209b80de9f49500f73f44c.pdf",
           "originalName": "PH2025a.pdf",
           "sha256": "4c056c4971e76af1797df29a5874081dbb6f7bfb8d209b80de9f49500f73f44c",
           "byteSize": 4409331,
@@ -12757,7 +12757,7 @@
         {
           "label": "物理 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/b19504a58be19e234cf9629803bfe1fdf786280c752b1b99f92f100fe5a61ba7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/kobe/b19504a58be19e234cf9629803bfe1fdf786280c752b1b99f92f100fe5a61ba7.pdf",
           "originalName": "PH2025b.pdf",
           "sha256": "b19504a58be19e234cf9629803bfe1fdf786280c752b1b99f92f100fe5a61ba7",
           "byteSize": 3516264,
@@ -12802,7 +12802,7 @@
         {
           "label": "試験問題（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0fb9a6af1003425c27d5d2ab040d110a6afd9d97eeebf696992951ea797422c6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/0fb9a6af1003425c27d5d2ab040d110a6afd9d97eeebf696992951ea797422c6.pdf",
           "originalName": "exam2025a.pdf",
           "sha256": "0fb9a6af1003425c27d5d2ab040d110a6afd9d97eeebf696992951ea797422c6",
           "byteSize": 327317,
@@ -12844,7 +12844,7 @@
         {
           "label": "試験問題（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/1610fc64a13a012f8f640f98c03b53f7a1870854cc6323f71f31e8a5b901c98d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/1610fc64a13a012f8f640f98c03b53f7a1870854cc6323f71f31e8a5b901c98d.pdf",
           "originalName": "exam2025c1.pdf",
           "sha256": "1610fc64a13a012f8f640f98c03b53f7a1870854cc6323f71f31e8a5b901c98d",
           "byteSize": 468007,
@@ -12887,7 +12887,7 @@
         {
           "label": "試験問題（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/17386a06c151f31c8088543857333cb9a503d5ad35e36202ab4cb75c4b98cbff.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/17386a06c151f31c8088543857333cb9a503d5ad35e36202ab4cb75c4b98cbff.pdf",
           "originalName": "exam2025c2.pdf",
           "sha256": "17386a06c151f31c8088543857333cb9a503d5ad35e36202ab4cb75c4b98cbff",
           "byteSize": 668904,
@@ -12932,7 +12932,7 @@
         {
           "label": "試験問題（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/21f41c94132b3bb1c0b2d645baddf4d226cbe4f161c5739e4de59b7df9f21c78.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/21f41c94132b3bb1c0b2d645baddf4d226cbe4f161c5739e4de59b7df9f21c78.pdf",
           "originalName": "exam2026a_1.pdf",
           "sha256": "21f41c94132b3bb1c0b2d645baddf4d226cbe4f161c5739e4de59b7df9f21c78",
           "byteSize": 467879,
@@ -12945,7 +12945,7 @@
         {
           "label": "出题意图／出題の意図（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/fe7bcd64bb17138a2a651e5c27214d9c8729870774f41151e18fe8a63387e297.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/fe7bcd64bb17138a2a651e5c27214d9c8729870774f41151e18fe8a63387e297.pdf",
           "originalName": "exam2026a_2.pdf",
           "sha256": "fe7bcd64bb17138a2a651e5c27214d9c8729870774f41151e18fe8a63387e297",
           "byteSize": 154109,
@@ -12987,7 +12987,7 @@
         {
           "label": "試験問題（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/062f1bd2675880d33e0baa3da1a3eba862c0876bf02c367bda63cc573b6dacc2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/062f1bd2675880d33e0baa3da1a3eba862c0876bf02c367bda63cc573b6dacc2.pdf",
           "originalName": "exam2026c1_1.pdf",
           "sha256": "062f1bd2675880d33e0baa3da1a3eba862c0876bf02c367bda63cc573b6dacc2",
           "byteSize": 492378,
@@ -13000,7 +13000,7 @@
         {
           "label": "出题意图／出題の意図（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/1c9ac2cd973eeee099ba1028da2b6420e561257b34c2862488bc91d224c1b781.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/1c9ac2cd973eeee099ba1028da2b6420e561257b34c2862488bc91d224c1b781.pdf",
           "originalName": "exam2026c1_2.pdf",
           "sha256": "1c9ac2cd973eeee099ba1028da2b6420e561257b34c2862488bc91d224c1b781",
           "byteSize": 154390,
@@ -13043,7 +13043,7 @@
         {
           "label": "試験問題（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6db8e6735ae60ef4d56378e39a09d3f1da5cbadde185fc8079bc2da5817d9f34.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/6db8e6735ae60ef4d56378e39a09d3f1da5cbadde185fc8079bc2da5817d9f34.pdf",
           "originalName": "exam2026c2_1.pdf",
           "sha256": "6db8e6735ae60ef4d56378e39a09d3f1da5cbadde185fc8079bc2da5817d9f34",
           "byteSize": 517604,
@@ -13056,7 +13056,7 @@
         {
           "label": "出题意图／出題の意図（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/8d1365d0170f8628bd97e716d50706bd8161ea8f5ae075b15b20c643991c476a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/8d1365d0170f8628bd97e716d50706bd8161ea8f5ae075b15b20c643991c476a.pdf",
           "originalName": "exam2026c2_2.pdf",
           "sha256": "8d1365d0170f8628bd97e716d50706bd8161ea8f5ae075b15b20c643991c476a",
           "byteSize": 154564,
@@ -13098,7 +13098,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/c7faa8408bd738a8a6e3641ac950cfe111cd17e74d021491d177043551ac3ccc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/c7faa8408bd738a8a6e3641ac950cfe111cd17e74d021491d177043551ac3ccc.pdf",
           "originalName": "csit01_2024.pdf",
           "sha256": "c7faa8408bd738a8a6e3641ac950cfe111cd17e74d021491d177043551ac3ccc",
           "byteSize": 1156205,
@@ -13111,7 +13111,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/85c1f252539b5fa058bead40bda9e32017474f5ea6ad281a45a7824c8d5ea805.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/85c1f252539b5fa058bead40bda9e32017474f5ea6ad281a45a7824c8d5ea805.pdf",
           "originalName": "csit02_2024.pdf",
           "sha256": "85c1f252539b5fa058bead40bda9e32017474f5ea6ad281a45a7824c8d5ea805",
           "byteSize": 1827315,
@@ -13150,7 +13150,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/8a9a35e29847ac6245edb1679206d9a38815e5ce8b3f1bda1b4f561c0ac0ed5d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/8a9a35e29847ac6245edb1679206d9a38815e5ce8b3f1bda1b4f561c0ac0ed5d.pdf",
           "originalName": "joele01_2024.pdf",
           "sha256": "8a9a35e29847ac6245edb1679206d9a38815e5ce8b3f1bda1b4f561c0ac0ed5d",
           "byteSize": 222253,
@@ -13163,7 +13163,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/b1b4bfe11da537caf1af0e8e589e01112548d73160a9b6fbcca727e8fbc7ca36.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/b1b4bfe11da537caf1af0e8e589e01112548d73160a9b6fbcca727e8fbc7ca36.pdf",
           "originalName": "joele02_2024.pdf",
           "sha256": "b1b4bfe11da537caf1af0e8e589e01112548d73160a9b6fbcca727e8fbc7ca36",
           "byteSize": 232006,
@@ -13205,7 +13205,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/e1ddb9e1098c9f4a53f1b37a0932ee26b0c170fbc521a2a7f2cbc8b35d87dc04.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/e1ddb9e1098c9f4a53f1b37a0932ee26b0c170fbc521a2a7f2cbc8b35d87dc04.pdf",
           "originalName": "seitai01_2024.pdf",
           "sha256": "e1ddb9e1098c9f4a53f1b37a0932ee26b0c170fbc521a2a7f2cbc8b35d87dc04",
           "byteSize": 973288,
@@ -13218,7 +13218,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/5f18eb74f62e9be5a0307cef68e752286aa8b72e7ae854d219d0d6f5165c0355.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/5f18eb74f62e9be5a0307cef68e752286aa8b72e7ae854d219d0d6f5165c0355.pdf",
           "originalName": "seitai02_2024.pdf",
           "sha256": "5f18eb74f62e9be5a0307cef68e752286aa8b72e7ae854d219d0d6f5165c0355",
           "byteSize": 1152425,
@@ -13261,7 +13261,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/d49555c8ddc678370d821945587bfbbfdecb506d44853ef2c71cbede343f9722.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/d49555c8ddc678370d821945587bfbbfdecb506d44853ef2c71cbede343f9722.pdf",
           "originalName": "mn01_2024.pdf",
           "sha256": "d49555c8ddc678370d821945587bfbbfdecb506d44853ef2c71cbede343f9722",
           "byteSize": 465106,
@@ -13274,7 +13274,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/ef1e755390e6b5237f097f5defc2ce4e9206ec54a50a6209ee5d6846a794d8d3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/ef1e755390e6b5237f097f5defc2ce4e9206ec54a50a6209ee5d6846a794d8d3.pdf",
           "originalName": "mn02_2024.pdf",
           "sha256": "ef1e755390e6b5237f097f5defc2ce4e9206ec54a50a6209ee5d6846a794d8d3",
           "byteSize": 805460,
@@ -13316,7 +13316,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/2923827d2ec61ea7244796db28f1baa2279b6716957e853ee450b14614d6322f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/2923827d2ec61ea7244796db28f1baa2279b6716957e853ee450b14614d6322f.pdf",
           "originalName": "sys01_2024.pdf",
           "sha256": "2923827d2ec61ea7244796db28f1baa2279b6716957e853ee450b14614d6322f",
           "byteSize": 758905,
@@ -13329,7 +13329,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/df8251a00499435ef85576afefafe4e2be54e6c564d2408abe8520c528df0aca.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/df8251a00499435ef85576afefafe4e2be54e6c564d2408abe8520c528df0aca.pdf",
           "originalName": "sys02_2024.pdf",
           "sha256": "df8251a00499435ef85576afefafe4e2be54e6c564d2408abe8520c528df0aca",
           "byteSize": 931283,
@@ -13371,7 +13371,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/09c7ccf47b4086c0f9dcc7e1eedfcaa6d942b1e78bdcd29d00d110f8f342c986.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/09c7ccf47b4086c0f9dcc7e1eedfcaa6d942b1e78bdcd29d00d110f8f342c986.pdf",
           "originalName": "csit01_2025.pdf",
           "sha256": "09c7ccf47b4086c0f9dcc7e1eedfcaa6d942b1e78bdcd29d00d110f8f342c986",
           "byteSize": 208954,
@@ -13384,7 +13384,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/f94d81f5ef9489382a28651927c0fbc8eacba262a3e855a7d54e448410d991a1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/f94d81f5ef9489382a28651927c0fbc8eacba262a3e855a7d54e448410d991a1.pdf",
           "originalName": "csit02_2025.pdf",
           "sha256": "f94d81f5ef9489382a28651927c0fbc8eacba262a3e855a7d54e448410d991a1",
           "byteSize": 500419,
@@ -13423,7 +13423,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/08a48e4bb928d30a188332f6d673b55d793901d927ac90127b87b5c7d3ca9873.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/08a48e4bb928d30a188332f6d673b55d793901d927ac90127b87b5c7d3ca9873.pdf",
           "originalName": "joele01_2025.pdf",
           "sha256": "08a48e4bb928d30a188332f6d673b55d793901d927ac90127b87b5c7d3ca9873",
           "byteSize": 637789,
@@ -13436,7 +13436,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/a87442185ce3b39407ad1125eacbf77a64dd92eb186e302827886ec19be222ba.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/a87442185ce3b39407ad1125eacbf77a64dd92eb186e302827886ec19be222ba.pdf",
           "originalName": "joele02_2025.pdf",
           "sha256": "a87442185ce3b39407ad1125eacbf77a64dd92eb186e302827886ec19be222ba",
           "byteSize": 720709,
@@ -13478,7 +13478,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/7079b692be7bf26f1d158b85724c4c963cdc3a26013e26b5e9c8ad27143cf49e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/7079b692be7bf26f1d158b85724c4c963cdc3a26013e26b5e9c8ad27143cf49e.pdf",
           "originalName": "seitai01_2025.pdf",
           "sha256": "7079b692be7bf26f1d158b85724c4c963cdc3a26013e26b5e9c8ad27143cf49e",
           "byteSize": 252447,
@@ -13491,7 +13491,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/40a04d6c41e667a23e3836a76f277b18e1fc4c73381464fa9bd2acb4ef028cf6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/40a04d6c41e667a23e3836a76f277b18e1fc4c73381464fa9bd2acb4ef028cf6.pdf",
           "originalName": "seitai02_2025.pdf",
           "sha256": "40a04d6c41e667a23e3836a76f277b18e1fc4c73381464fa9bd2acb4ef028cf6",
           "byteSize": 303370,
@@ -13534,7 +13534,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/4d074e0340b6dc9182eb27d6ada314f9d3a8045dcab2d9e850cbfddfbd7679c1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/4d074e0340b6dc9182eb27d6ada314f9d3a8045dcab2d9e850cbfddfbd7679c1.pdf",
           "originalName": "mn01_2025.pdf",
           "sha256": "4d074e0340b6dc9182eb27d6ada314f9d3a8045dcab2d9e850cbfddfbd7679c1",
           "byteSize": 450909,
@@ -13547,7 +13547,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/265808a6b3c1f978969d9a1c9ed17c2795732e7ecedb691c2a8602c69abdfb95.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/265808a6b3c1f978969d9a1c9ed17c2795732e7ecedb691c2a8602c69abdfb95.pdf",
           "originalName": "mn02_2025.pdf",
           "sha256": "265808a6b3c1f978969d9a1c9ed17c2795732e7ecedb691c2a8602c69abdfb95",
           "byteSize": 323643,
@@ -13589,7 +13589,7 @@
         {
           "label": "専門科目1",
           "kind": "question",
-          "url": "assets/past-papers/documents/94010174d693a1637b68f2ae9355f073a553f8157e59fd334fd9f8fe33504ab3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/94010174d693a1637b68f2ae9355f073a553f8157e59fd334fd9f8fe33504ab3.pdf",
           "originalName": "sys01_2025.pdf",
           "sha256": "94010174d693a1637b68f2ae9355f073a553f8157e59fd334fd9f8fe33504ab3",
           "byteSize": 174974,
@@ -13602,7 +13602,7 @@
         {
           "label": "専門科目2",
           "kind": "question",
-          "url": "assets/past-papers/documents/39330abe02b6f6c679b734d3a6b13dbba99b847adb05f1b5a1308dbe10107f66.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/39330abe02b6f6c679b734d3a6b13dbba99b847adb05f1b5a1308dbe10107f66.pdf",
           "originalName": "sys02_2025.pdf",
           "sha256": "39330abe02b6f6c679b734d3a6b13dbba99b847adb05f1b5a1308dbe10107f66",
           "byteSize": 224064,
@@ -13649,7 +13649,7 @@
         {
           "label": "試験問題（専門0 問題冊子・原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/deb54235b6149b73fbe9ad29d532c8e1bf9685c74b17df3a7bce06025d44e39f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/deb54235b6149b73fbe9ad29d532c8e1bf9685c74b17df3a7bce06025d44e39f.pdf",
           "originalName": "exam2025d.pdf",
           "sha256": "deb54235b6149b73fbe9ad29d532c8e1bf9685c74b17df3a7bce06025d44e39f",
           "byteSize": 702016,
@@ -13693,7 +13693,7 @@
         {
           "label": "試験問題（専門0 問題冊子・原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/63c76927ee2299cc76945c77b24c47cab0feab2fab45fa0bf372cafca934edf4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/63c76927ee2299cc76945c77b24c47cab0feab2fab45fa0bf372cafca934edf4.pdf",
           "originalName": "exam2026d_1.pdf",
           "sha256": "63c76927ee2299cc76945c77b24c47cab0feab2fab45fa0bf372cafca934edf4",
           "byteSize": 579401,
@@ -13706,7 +13706,7 @@
         {
           "label": "出题意图／出題の意図（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/fb212c1ba2284a10f4a01944063399e27a7cf5d5b23413a05d5b3eac319ef752.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/fb212c1ba2284a10f4a01944063399e27a7cf5d5b23413a05d5b3eac319ef752.pdf",
           "originalName": "exam2026d_2.pdf",
           "sha256": "fb212c1ba2284a10f4a01944063399e27a7cf5d5b23413a05d5b3eac319ef752",
           "byteSize": 135688,
@@ -13747,7 +13747,7 @@
         {
           "label": "専門科目試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/d8aaf82cc4cbdfacf5c0bec1fcdf5a7c26802ec2b0ae8408e310a72cb87b6cfa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/d8aaf82cc4cbdfacf5c0bec1fcdf5a7c26802ec2b0ae8408e310a72cb87b6cfa.pdf",
           "originalName": "2023_01_sci.pdf",
           "sha256": "d8aaf82cc4cbdfacf5c0bec1fcdf5a7c26802ec2b0ae8408e310a72cb87b6cfa",
           "byteSize": 1292851,
@@ -13789,7 +13789,7 @@
         {
           "label": "専門科目試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f3fd1f86f43de915f004567251a7ab5a562bd85b046d20d35c65079b67a0e9cb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/f3fd1f86f43de915f004567251a7ab5a562bd85b046d20d35c65079b67a0e9cb.pdf",
           "originalName": "2023_02_sci.pdf",
           "sha256": "f3fd1f86f43de915f004567251a7ab5a562bd85b046d20d35c65079b67a0e9cb",
           "byteSize": 821732,
@@ -13832,7 +13832,7 @@
         {
           "label": "専門科目試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/c7d77d84c9ad993c6269964d573422f9f09b44b35c90e1adbf641fe226d2bca4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/c7d77d84c9ad993c6269964d573422f9f09b44b35c90e1adbf641fe226d2bca4.pdf",
           "originalName": "2024_01_sci.pdf",
           "sha256": "c7d77d84c9ad993c6269964d573422f9f09b44b35c90e1adbf641fe226d2bca4",
           "byteSize": 2572705,
@@ -13874,7 +13874,7 @@
         {
           "label": "専門科目試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/c9a197dddaff5273da7adda8292252e0e91b263921b72bbb8b23cf1ff69f9c3a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/c9a197dddaff5273da7adda8292252e0e91b263921b72bbb8b23cf1ff69f9c3a.pdf",
           "originalName": "2024_02_sci.pdf",
           "sha256": "c9a197dddaff5273da7adda8292252e0e91b263921b72bbb8b23cf1ff69f9c3a",
           "byteSize": 1277634,
@@ -13916,7 +13916,7 @@
         {
           "label": "専門科目試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/a6489a3818e014fddac3b5a2694167acda72ae7e44e1eff70d0c5e231136165d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/a6489a3818e014fddac3b5a2694167acda72ae7e44e1eff70d0c5e231136165d.pdf",
           "originalName": "2025_01_sci.pdf",
           "sha256": "a6489a3818e014fddac3b5a2694167acda72ae7e44e1eff70d0c5e231136165d",
           "byteSize": 3325167,
@@ -13951,7 +13951,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/c02ea578bc7509e2ff76b0372e3a2c89cc82bd2d596f5e4b6965453cafafec2b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/c02ea578bc7509e2ff76b0372e3a2c89cc82bd2d596f5e4b6965453cafafec2b.pdf",
           "originalName": "grad_H18_2.pdf",
           "sha256": "c02ea578bc7509e2ff76b0372e3a2c89cc82bd2d596f5e4b6965453cafafec2b",
           "byteSize": 362075,
@@ -13982,7 +13982,7 @@
         {
           "label": "専門科目（午前・午後 合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d13663953a1ad653bc42b58c49c9257021bc5a306bb60af3fe8efc25755eb685.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/d13663953a1ad653bc42b58c49c9257021bc5a306bb60af3fe8efc25755eb685.pdf",
           "originalName": "grad_H19_1.pdf",
           "sha256": "d13663953a1ad653bc42b58c49c9257021bc5a306bb60af3fe8efc25755eb685",
           "byteSize": 421514,
@@ -14017,7 +14017,7 @@
         {
           "label": "専門科目（第二次募集）",
           "kind": "question",
-          "url": "assets/past-papers/documents/4b97ebbb62e0a124e142a11cdb835b8e1bfdb2c325db7c17aebfd87ade7698e3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/4b97ebbb62e0a124e142a11cdb835b8e1bfdb2c325db7c17aebfd87ade7698e3.pdf",
           "originalName": "grad_H19_2.pdf",
           "sha256": "4b97ebbb62e0a124e142a11cdb835b8e1bfdb2c325db7c17aebfd87ade7698e3",
           "byteSize": 336290,
@@ -14052,7 +14052,7 @@
         {
           "label": "専門科目（午前・午後 合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/52aa9506cde0aa1203e093c2b6324a1f9c10322d2cf878714c88e56a5cb7c47f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/52aa9506cde0aa1203e093c2b6324a1f9c10322d2cf878714c88e56a5cb7c47f.pdf",
           "originalName": "grad_H20_1.pdf",
           "sha256": "52aa9506cde0aa1203e093c2b6324a1f9c10322d2cf878714c88e56a5cb7c47f",
           "byteSize": 460054,
@@ -14087,7 +14087,7 @@
         {
           "label": "専門科目（第二次募集）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d21eeafafa5dfbcebdba8bd4e9db6e4d65bb42393fc63572b3ab37df3aafe7db.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/d21eeafafa5dfbcebdba8bd4e9db6e4d65bb42393fc63572b3ab37df3aafe7db.pdf",
           "originalName": "grad_H20_2.pdf",
           "sha256": "d21eeafafa5dfbcebdba8bd4e9db6e4d65bb42393fc63572b3ab37df3aafe7db",
           "byteSize": 282468,
@@ -14122,7 +14122,7 @@
         {
           "label": "専門科目（午前・午後 合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b86bfac98a94bddad990392405fa069f4273c9b6ba5842e74e36cc1380cb420e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/b86bfac98a94bddad990392405fa069f4273c9b6ba5842e74e36cc1380cb420e.pdf",
           "originalName": "grad_H22_1.pdf",
           "sha256": "b86bfac98a94bddad990392405fa069f4273c9b6ba5842e74e36cc1380cb420e",
           "byteSize": 1478448,
@@ -14157,7 +14157,7 @@
         {
           "label": "専門科目（午前・午後 合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b6c3a5e5da67a20e6179dc57fdec03245201ec4cc6f2408b997b963cbcceefe9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/b6c3a5e5da67a20e6179dc57fdec03245201ec4cc6f2408b997b963cbcceefe9.pdf",
           "originalName": "grad_H23_1.pdf",
           "sha256": "b6c3a5e5da67a20e6179dc57fdec03245201ec4cc6f2408b997b963cbcceefe9",
           "byteSize": 213887,
@@ -14192,7 +14192,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/9a01c3cf1811ce2c38657703e61d2ec842a03256d1677d49baf5d298d3b6909b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/9a01c3cf1811ce2c38657703e61d2ec842a03256d1677d49baf5d298d3b6909b.pdf",
           "originalName": "grad_H24_1_am.pdf",
           "sha256": "9a01c3cf1811ce2c38657703e61d2ec842a03256d1677d49baf5d298d3b6909b",
           "byteSize": 430331,
@@ -14205,7 +14205,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/1df09ecee0efa5809810e06351a504b21befec2dc39ca80d1e508fc3a703c910.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/1df09ecee0efa5809810e06351a504b21befec2dc39ca80d1e508fc3a703c910.pdf",
           "originalName": "grad_H24_1_pm.pdf",
           "sha256": "1df09ecee0efa5809810e06351a504b21befec2dc39ca80d1e508fc3a703c910",
           "byteSize": 814029,
@@ -14240,7 +14240,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f855ed399fe14ea0c3e35780a2f009092807c5f83d525df259d03ee0323d564d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/f855ed399fe14ea0c3e35780a2f009092807c5f83d525df259d03ee0323d564d.pdf",
           "originalName": "grad_H25_1.pdf",
           "sha256": "f855ed399fe14ea0c3e35780a2f009092807c5f83d525df259d03ee0323d564d",
           "byteSize": 322096,
@@ -14253,7 +14253,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/072e21ca2e911857db9ca4594031fb9c14d2b0b6c0397b30a4cf34f8851ecd9c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/072e21ca2e911857db9ca4594031fb9c14d2b0b6c0397b30a4cf34f8851ecd9c.pdf",
           "originalName": "grad_H25_2.pdf",
           "sha256": "072e21ca2e911857db9ca4594031fb9c14d2b0b6c0397b30a4cf34f8851ecd9c",
           "byteSize": 912370,
@@ -14288,7 +14288,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c3d580b5d65ceda998d4f29b37a94dcb08680f34492a63a323982c457bcce274.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/c3d580b5d65ceda998d4f29b37a94dcb08680f34492a63a323982c457bcce274.pdf",
           "originalName": "grad_H26_1.pdf",
           "sha256": "c3d580b5d65ceda998d4f29b37a94dcb08680f34492a63a323982c457bcce274",
           "byteSize": 532418,
@@ -14301,7 +14301,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/4b54d7f561ce46c0705473099a9d8729ca6a760eb8557652824a1180e201a544.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/4b54d7f561ce46c0705473099a9d8729ca6a760eb8557652824a1180e201a544.pdf",
           "originalName": "grad_H26_2.pdf",
           "sha256": "4b54d7f561ce46c0705473099a9d8729ca6a760eb8557652824a1180e201a544",
           "byteSize": 3775561,
@@ -14336,7 +14336,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c28e7e7486bd92ff5c68b93e989b21ac7609ff9a2b4e9172b0ba544b74dd3e0c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/c28e7e7486bd92ff5c68b93e989b21ac7609ff9a2b4e9172b0ba544b74dd3e0c.pdf",
           "originalName": "Exam14_am.pdf",
           "sha256": "c28e7e7486bd92ff5c68b93e989b21ac7609ff9a2b4e9172b0ba544b74dd3e0c",
           "byteSize": 273400,
@@ -14349,7 +14349,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0cfda3003beaca94e8f81cf7e113e8b7285f4d7f8ace65433e9d92f7e5ec595a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/0cfda3003beaca94e8f81cf7e113e8b7285f4d7f8ace65433e9d92f7e5ec595a.pdf",
           "originalName": "Exam14_pm.pdf",
           "sha256": "0cfda3003beaca94e8f81cf7e113e8b7285f4d7f8ace65433e9d92f7e5ec595a",
           "byteSize": 549744,
@@ -14384,7 +14384,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6c1b9587f708137a4fca555431b5d06396060e293ab2c686c0a43daf0123bfca.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/6c1b9587f708137a4fca555431b5d06396060e293ab2c686c0a43daf0123bfca.pdf",
           "originalName": "Exam15_am.pdf",
           "sha256": "6c1b9587f708137a4fca555431b5d06396060e293ab2c686c0a43daf0123bfca",
           "byteSize": 297785,
@@ -14397,7 +14397,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/515d643bd709e66aed92f63ffd66db0182ee921f3328081e4c7caf079357c293.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/515d643bd709e66aed92f63ffd66db0182ee921f3328081e4c7caf079357c293.pdf",
           "originalName": "Exam15_pm.pdf",
           "sha256": "515d643bd709e66aed92f63ffd66db0182ee921f3328081e4c7caf079357c293",
           "byteSize": 166861,
@@ -14432,7 +14432,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/59b75e17e769062609cd7df6fb972576f253f56652b4187be4fe775e8a042664.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/59b75e17e769062609cd7df6fb972576f253f56652b4187be4fe775e8a042664.pdf",
           "originalName": "午前問題.pdf",
           "sha256": "59b75e17e769062609cd7df6fb972576f253f56652b4187be4fe775e8a042664",
           "byteSize": 338079,
@@ -14445,7 +14445,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/efa27b2211712bcc3afaad94b019c5c24e72be4e64c7ccf7936685d705d380cf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/efa27b2211712bcc3afaad94b019c5c24e72be4e64c7ccf7936685d705d380cf.pdf",
           "originalName": "午後問題.pdf",
           "sha256": "efa27b2211712bcc3afaad94b019c5c24e72be4e64c7ccf7936685d705d380cf",
           "byteSize": 275464,
@@ -14480,7 +14480,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/a519b6f04c38c68e429ecbac78fca815b1c1e5231891194bb795993e95c7002f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/a519b6f04c38c68e429ecbac78fca815b1c1e5231891194bb795993e95c7002f.pdf",
           "originalName": "examH30_1.pdf",
           "sha256": "a519b6f04c38c68e429ecbac78fca815b1c1e5231891194bb795993e95c7002f",
           "byteSize": 159306,
@@ -14493,7 +14493,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f7a2ce4cb221655014327d49d1d19c5cf433bc24ccc86d0716789dd81f2515c5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/f7a2ce4cb221655014327d49d1d19c5cf433bc24ccc86d0716789dd81f2515c5.pdf",
           "originalName": "examH30_2.pdf",
           "sha256": "f7a2ce4cb221655014327d49d1d19c5cf433bc24ccc86d0716789dd81f2515c5",
           "byteSize": 161664,
@@ -14528,7 +14528,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/8ddff01838837288f88f1c950d4c4f645ec32eb35f5ee73225a731d53338dbbf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/8ddff01838837288f88f1c950d4c4f645ec32eb35f5ee73225a731d53338dbbf.pdf",
           "originalName": "masterH31_1st_specialty1.pdf",
           "sha256": "8ddff01838837288f88f1c950d4c4f645ec32eb35f5ee73225a731d53338dbbf",
           "byteSize": 265671,
@@ -14541,7 +14541,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/048820506789a2a621920fda196d17a675baf01136189690ff4ad0bc66be283a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/048820506789a2a621920fda196d17a675baf01136189690ff4ad0bc66be283a.pdf",
           "originalName": "masterH31_1st_specialty2.pdf",
           "sha256": "048820506789a2a621920fda196d17a675baf01136189690ff4ad0bc66be283a",
           "byteSize": 248597,
@@ -14576,7 +14576,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b105fab2ef52c6bee44c31654cdf55978064b44f30303e9c65c9e3666e78bdaf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/b105fab2ef52c6bee44c31654cdf55978064b44f30303e9c65c9e3666e78bdaf.pdf",
           "originalName": "masterR2_1st_specialty1.pdf",
           "sha256": "b105fab2ef52c6bee44c31654cdf55978064b44f30303e9c65c9e3666e78bdaf",
           "byteSize": 1441215,
@@ -14589,7 +14589,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/53d7b169545866a90f9ba32a90057040b77b9a346f5fa1047c5d436e00c6134a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/53d7b169545866a90f9ba32a90057040b77b9a346f5fa1047c5d436e00c6134a.pdf",
           "originalName": "masterR2_1st_specialty2.pdf",
           "sha256": "53d7b169545866a90f9ba32a90057040b77b9a346f5fa1047c5d436e00c6134a",
           "byteSize": 377473,
@@ -14626,7 +14626,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/8a2ae7bf8a8ae6994e4f21e5c1cd457ce84b9d5639ee6df561d39038f3a47345.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/8a2ae7bf8a8ae6994e4f21e5c1cd457ce84b9d5639ee6df561d39038f3a47345.pdf",
           "originalName": "masterR3_am.pdf",
           "sha256": "8a2ae7bf8a8ae6994e4f21e5c1cd457ce84b9d5639ee6df561d39038f3a47345",
           "byteSize": 420337,
@@ -14661,7 +14661,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/93f3f37b631d44a0d0b5b6f46501c2ec49017caf278fd4b3bd14b7cbba70c399.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/93f3f37b631d44a0d0b5b6f46501c2ec49017caf278fd4b3bd14b7cbba70c399.pdf",
           "originalName": "R4_AllAm.pdf",
           "sha256": "93f3f37b631d44a0d0b5b6f46501c2ec49017caf278fd4b3bd14b7cbba70c399",
           "byteSize": 530661,
@@ -14674,7 +14674,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/081dfedcf7e9c3ec83a4e90b6b8dd553d10b6eeb00a7014d85babb4133379727.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/081dfedcf7e9c3ec83a4e90b6b8dd553d10b6eeb00a7014d85babb4133379727.pdf",
           "originalName": "R4_AllPm.pdf",
           "sha256": "081dfedcf7e9c3ec83a4e90b6b8dd553d10b6eeb00a7014d85babb4133379727",
           "byteSize": 221419,
@@ -14709,7 +14709,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/866d91202077af3c472b3d094e65bfa7463189afa62141b75cbc13d7672951ed.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/866d91202077af3c472b3d094e65bfa7463189afa62141b75cbc13d7672951ed.pdf",
           "originalName": "R5_enroll_Q_Phys_AM.pdf",
           "sha256": "866d91202077af3c472b3d094e65bfa7463189afa62141b75cbc13d7672951ed",
           "byteSize": 451299,
@@ -14722,7 +14722,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b14d27e045f3d8b09eb09b11c49bcfcad47d4fe371842afa18ff90fd7aa341fc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/b14d27e045f3d8b09eb09b11c49bcfcad47d4fe371842afa18ff90fd7aa341fc.pdf",
           "originalName": "R5_enroll_Q_Phys_PM.pdf",
           "sha256": "b14d27e045f3d8b09eb09b11c49bcfcad47d4fe371842afa18ff90fd7aa341fc",
           "byteSize": 319597,
@@ -14757,7 +14757,7 @@
         {
           "label": "専門科目（午前）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b21978a65630e51ec6c53293bc6e67a844c3223ebe9bb77c5d2ad47957f67ba4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/b21978a65630e51ec6c53293bc6e67a844c3223ebe9bb77c5d2ad47957f67ba4.pdf",
           "originalName": "R6_enroll_Q_Phys_AM.pdf",
           "sha256": "b21978a65630e51ec6c53293bc6e67a844c3223ebe9bb77c5d2ad47957f67ba4",
           "byteSize": 595422,
@@ -14770,7 +14770,7 @@
         {
           "label": "専門科目（午後）",
           "kind": "question",
-          "url": "assets/past-papers/documents/beb86c184d5dcc283e5e94681d3c4636c2e0cd2ff9a0835a1d37d2c4beb9e82e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/beb86c184d5dcc283e5e94681d3c4636c2e0cd2ff9a0835a1d37d2c4beb9e82e.pdf",
           "originalName": "R6_enroll_Q_Phys_PM.pdf",
           "sha256": "beb86c184d5dcc283e5e94681d3c4636c2e0cd2ff9a0835a1d37d2c4beb9e82e",
           "byteSize": 296134,
@@ -14810,7 +14810,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/baaed7405c39dd64ec97fc48d8bf3b517844c41cbd469aa62309257e06b022ab.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/baaed7405c39dd64ec97fc48d8bf3b517844c41cbd469aa62309257e06b022ab.pdf",
           "originalName": "kako_1_j_mandatory202408.pdf",
           "sha256": "baaed7405c39dd64ec97fc48d8bf3b517844c41cbd469aa62309257e06b022ab",
           "byteSize": 74669,
@@ -14823,7 +14823,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/82e75e851d7c4418bfbe90270d70fde6f598a3fad1ea117e0c82fa12fbc8af19.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/82e75e851d7c4418bfbe90270d70fde6f598a3fad1ea117e0c82fa12fbc8af19.pdf",
           "originalName": "kako_2_j_choice202408.pdf",
           "sha256": "82e75e851d7c4418bfbe90270d70fde6f598a3fad1ea117e0c82fa12fbc8af19",
           "byteSize": 659017,
@@ -14868,7 +14868,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/a7b2b662d4e4aa95b0014ca8d879b33bfb6829f089764199975fd7ab00b3b93c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/a7b2b662d4e4aa95b0014ca8d879b33bfb6829f089764199975fd7ab00b3b93c.pdf",
           "originalName": "kako_3_i_mandatory202408.pdf",
           "sha256": "a7b2b662d4e4aa95b0014ca8d879b33bfb6829f089764199975fd7ab00b3b93c",
           "byteSize": 76991,
@@ -14881,7 +14881,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/e3b3c75992aa419865e3203dda0ba87acebaf7c5fc6f9564760f0c1ac93e4b23.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/e3b3c75992aa419865e3203dda0ba87acebaf7c5fc6f9564760f0c1ac93e4b23.pdf",
           "originalName": "kako_4_i_choice202408.pdf",
           "sha256": "e3b3c75992aa419865e3203dda0ba87acebaf7c5fc6f9564760f0c1ac93e4b23",
           "byteSize": 971048,
@@ -14926,7 +14926,7 @@
         {
           "label": "必須問題（数学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/11ffe3cff61ab77a0024aa90cbe549e66c6288e3aeaeeb0264d586c97150d9df.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/11ffe3cff61ab77a0024aa90cbe549e66c6288e3aeaeeb0264d586c97150d9df.pdf",
           "originalName": "kako_5_m_mandatory202408.pdf",
           "sha256": "11ffe3cff61ab77a0024aa90cbe549e66c6288e3aeaeeb0264d586c97150d9df",
           "byteSize": 93728,
@@ -14939,7 +14939,7 @@
         {
           "label": "必須問題（物理学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/98322cfb5ad26775289da86daf8caf515f4528568d0bf6eb4dd5ee3bc1eb71be.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/98322cfb5ad26775289da86daf8caf515f4528568d0bf6eb4dd5ee3bc1eb71be.pdf",
           "originalName": "kako_6_m_mandatory_buturi202408.pdf",
           "sha256": "98322cfb5ad26775289da86daf8caf515f4528568d0bf6eb4dd5ee3bc1eb71be",
           "byteSize": 661898,
@@ -14952,7 +14952,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/1d0f22a3e12d71065ddbef0455c6cd5d55882ed2d4a80d724f61d367f49e75d6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/1d0f22a3e12d71065ddbef0455c6cd5d55882ed2d4a80d724f61d367f49e75d6.pdf",
           "originalName": "kako_7_m_choice202408.pdf",
           "sha256": "1d0f22a3e12d71065ddbef0455c6cd5d55882ed2d4a80d724f61d367f49e75d6",
           "byteSize": 604593,
@@ -14998,7 +14998,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/f0de9c248bf11cf049d3172fea97810cedfe94a72f7700875a27754e8e5c239f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/f0de9c248bf11cf049d3172fea97810cedfe94a72f7700875a27754e8e5c239f.pdf",
           "originalName": "kako_8_s_choice202408.pdf",
           "sha256": "f0de9c248bf11cf049d3172fea97810cedfe94a72f7700875a27754e8e5c239f",
           "byteSize": 1522194,
@@ -15039,7 +15039,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f9636fd311eaa99bffa76cd5daa46641393b1fdd483a71519b9f8b821f4aa741.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/f9636fd311eaa99bffa76cd5daa46641393b1fdd483a71519b9f8b821f4aa741.pdf",
           "originalName": "kako_j_mandatory202308.pdf",
           "sha256": "f9636fd311eaa99bffa76cd5daa46641393b1fdd483a71519b9f8b821f4aa741",
           "byteSize": 65304,
@@ -15052,7 +15052,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/71f61333c83fd54c71a8f5ef230ea3ca0befe732867e113fc81fa3b781fdc74e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/71f61333c83fd54c71a8f5ef230ea3ca0befe732867e113fc81fa3b781fdc74e.pdf",
           "originalName": "kako_j_choice202308.pdf",
           "sha256": "71f61333c83fd54c71a8f5ef230ea3ca0befe732867e113fc81fa3b781fdc74e",
           "byteSize": 512774,
@@ -15097,7 +15097,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/6b18ed4704469eb2ecd7592f6dc2fa4427074688c19b8465cf1012013784f64e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/6b18ed4704469eb2ecd7592f6dc2fa4427074688c19b8465cf1012013784f64e.pdf",
           "originalName": "kako_i_mandatory202308.pdf",
           "sha256": "6b18ed4704469eb2ecd7592f6dc2fa4427074688c19b8465cf1012013784f64e",
           "byteSize": 78651,
@@ -15110,7 +15110,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/60fb5bb24f2b960b4fb61a6827e603d594a693ed9dde305ce53710e9d52eeb0e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/60fb5bb24f2b960b4fb61a6827e603d594a693ed9dde305ce53710e9d52eeb0e.pdf",
           "originalName": "kako_i_choice202308.pdf",
           "sha256": "60fb5bb24f2b960b4fb61a6827e603d594a693ed9dde305ce53710e9d52eeb0e",
           "byteSize": 518018,
@@ -15155,7 +15155,7 @@
         {
           "label": "必須問題（数学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0bad6afba899ac9f4e2ae5324057366031a80cef0acdfde5da5c7bf7b25fce10.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/0bad6afba899ac9f4e2ae5324057366031a80cef0acdfde5da5c7bf7b25fce10.pdf",
           "originalName": "kako_m_mandatory202308.pdf",
           "sha256": "0bad6afba899ac9f4e2ae5324057366031a80cef0acdfde5da5c7bf7b25fce10",
           "byteSize": 82794,
@@ -15168,7 +15168,7 @@
         {
           "label": "必須問題（物理学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/ef1f3f3b6c3ef3195b61e80253ddf6f7bd94f61b768182fb240b2b6ee1330f7f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/ef1f3f3b6c3ef3195b61e80253ddf6f7bd94f61b768182fb240b2b6ee1330f7f.pdf",
           "originalName": "kako_m_mandatory_buturi202308.pdf",
           "sha256": "ef1f3f3b6c3ef3195b61e80253ddf6f7bd94f61b768182fb240b2b6ee1330f7f",
           "byteSize": 487320,
@@ -15181,7 +15181,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/57a6ed823e7939d5df7533b3fe6271df9ee21ffd68fcb8b44bf1b3069fe6cbfd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/57a6ed823e7939d5df7533b3fe6271df9ee21ffd68fcb8b44bf1b3069fe6cbfd.pdf",
           "originalName": "kako_m_choice202308.pdf",
           "sha256": "57a6ed823e7939d5df7533b3fe6271df9ee21ffd68fcb8b44bf1b3069fe6cbfd",
           "byteSize": 627685,
@@ -15227,7 +15227,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4ad3f6b96f7fd8685aad7895a62df2a49d35aad8381fcf6f0b04b5acf5cc8d2d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/4ad3f6b96f7fd8685aad7895a62df2a49d35aad8381fcf6f0b04b5acf5cc8d2d.pdf",
           "originalName": "kako_s_choice202308.pdf",
           "sha256": "4ad3f6b96f7fd8685aad7895a62df2a49d35aad8381fcf6f0b04b5acf5cc8d2d",
           "byteSize": 2077119,
@@ -15268,7 +15268,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/05c2a3514d4d23d4e9b44b43410b45a8e1a1a5661c593dcf45a78edb83ba30f3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/05c2a3514d4d23d4e9b44b43410b45a8e1a1a5661c593dcf45a78edb83ba30f3.pdf",
           "originalName": "kako_j_mandatory202208.pdf",
           "sha256": "05c2a3514d4d23d4e9b44b43410b45a8e1a1a5661c593dcf45a78edb83ba30f3",
           "byteSize": 66276,
@@ -15281,7 +15281,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/d407703069b2f46c45c9d36835d453c9571f356fe03650aefa3552828d63bf66.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/d407703069b2f46c45c9d36835d453c9571f356fe03650aefa3552828d63bf66.pdf",
           "originalName": "kako_j_choice202208.pdf",
           "sha256": "d407703069b2f46c45c9d36835d453c9571f356fe03650aefa3552828d63bf66",
           "byteSize": 577328,
@@ -15326,7 +15326,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/a1b268be808be0a4cc89ecfabd5d3a8c2bf1e92dc0645a75eac2b5634bf43d9f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/a1b268be808be0a4cc89ecfabd5d3a8c2bf1e92dc0645a75eac2b5634bf43d9f.pdf",
           "originalName": "kako_i_mandatory202208.pdf",
           "sha256": "a1b268be808be0a4cc89ecfabd5d3a8c2bf1e92dc0645a75eac2b5634bf43d9f",
           "byteSize": 71863,
@@ -15339,7 +15339,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/a6f1adca611272ff2b723de4cd8ebd47899172af15b858826f7354cc6f113363.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/a6f1adca611272ff2b723de4cd8ebd47899172af15b858826f7354cc6f113363.pdf",
           "originalName": "kako_i_choice202208.pdf",
           "sha256": "a6f1adca611272ff2b723de4cd8ebd47899172af15b858826f7354cc6f113363",
           "byteSize": 497159,
@@ -15384,7 +15384,7 @@
         {
           "label": "必須問題（数学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/a4ea4aa54ae9c5b3c04b5f8328e5461e25fd49f3ceedef10d1fc2e81450ed5d9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/a4ea4aa54ae9c5b3c04b5f8328e5461e25fd49f3ceedef10d1fc2e81450ed5d9.pdf",
           "originalName": "kako_m_mandatory202208.pdf",
           "sha256": "a4ea4aa54ae9c5b3c04b5f8328e5461e25fd49f3ceedef10d1fc2e81450ed5d9",
           "byteSize": 104830,
@@ -15397,7 +15397,7 @@
         {
           "label": "必須問題（物理学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/2a3f707ea7132930ac94670e4075d9b0c721812376b1e95c97dbf6fa4a2054ed.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/2a3f707ea7132930ac94670e4075d9b0c721812376b1e95c97dbf6fa4a2054ed.pdf",
           "originalName": "kako_m_mandatory_buturi202208.pdf",
           "sha256": "2a3f707ea7132930ac94670e4075d9b0c721812376b1e95c97dbf6fa4a2054ed",
           "byteSize": 176318,
@@ -15410,7 +15410,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/bb1eeb50b20866b11a09db0be5b3cfcffd01e717e786088ed990374d7d30e9dc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/bb1eeb50b20866b11a09db0be5b3cfcffd01e717e786088ed990374d7d30e9dc.pdf",
           "originalName": "kako_m_choice202208.pdf",
           "sha256": "bb1eeb50b20866b11a09db0be5b3cfcffd01e717e786088ed990374d7d30e9dc",
           "byteSize": 599869,
@@ -15456,7 +15456,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/614640bc9e8782a289fc0a1a3468751870e6a706a54c292b98588028179721ea.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/614640bc9e8782a289fc0a1a3468751870e6a706a54c292b98588028179721ea.pdf",
           "originalName": "kako_s_choice202208.pdf",
           "sha256": "614640bc9e8782a289fc0a1a3468751870e6a706a54c292b98588028179721ea",
           "byteSize": 1020232,
@@ -15497,7 +15497,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/9bd7e2f46d5db345f6aeb122e92997e64c303f861d69195fe5c225bb535f887a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/9bd7e2f46d5db345f6aeb122e92997e64c303f861d69195fe5c225bb535f887a.pdf",
           "originalName": "kako_j_mandatory202108.pdf",
           "sha256": "9bd7e2f46d5db345f6aeb122e92997e64c303f861d69195fe5c225bb535f887a",
           "byteSize": 68817,
@@ -15510,7 +15510,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/ca64bc68c904dd7d612571ddaa8ae95d49c18130a0cbde7c13c06e7452e3b4b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/ca64bc68c904dd7d612571ddaa8ae95d49c18130a0cbde7c13c06e7452e3b4b9.pdf",
           "originalName": "kako_j_choice202108.pdf",
           "sha256": "ca64bc68c904dd7d612571ddaa8ae95d49c18130a0cbde7c13c06e7452e3b4b9",
           "byteSize": 454979,
@@ -15555,7 +15555,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/ee36e3037483d0aa3740bd9505d44bca3f67e0a3c3a9c98b28c8c1649a77e587.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/ee36e3037483d0aa3740bd9505d44bca3f67e0a3c3a9c98b28c8c1649a77e587.pdf",
           "originalName": "kako_i_mandatory202108.pdf",
           "sha256": "ee36e3037483d0aa3740bd9505d44bca3f67e0a3c3a9c98b28c8c1649a77e587",
           "byteSize": 74048,
@@ -15568,7 +15568,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/36055e92b1a706045d276edb489842589ca81aaed79c68f9eb486a36d41d39cf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/36055e92b1a706045d276edb489842589ca81aaed79c68f9eb486a36d41d39cf.pdf",
           "originalName": "kako_i_choice202108.pdf",
           "sha256": "36055e92b1a706045d276edb489842589ca81aaed79c68f9eb486a36d41d39cf",
           "byteSize": 501608,
@@ -15613,7 +15613,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/18a10525b1d49f611f7e9c405665686053b327896a4bd3edef5810ba1499504e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/18a10525b1d49f611f7e9c405665686053b327896a4bd3edef5810ba1499504e.pdf",
           "originalName": "kako_m_mandatory202108.pdf",
           "sha256": "18a10525b1d49f611f7e9c405665686053b327896a4bd3edef5810ba1499504e",
           "byteSize": 200144,
@@ -15626,7 +15626,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/81d8cd8a158320d8d4c212298e340b9f7be7414b882e41945ac8666f525c25b8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/81d8cd8a158320d8d4c212298e340b9f7be7414b882e41945ac8666f525c25b8.pdf",
           "originalName": "kako_m_choice202108.pdf",
           "sha256": "81d8cd8a158320d8d4c212298e340b9f7be7414b882e41945ac8666f525c25b8",
           "byteSize": 672457,
@@ -15672,7 +15672,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/2c436344af044664602654492e3c5f18128cd0d50ef9b58d2e82ba328f3daf55.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/2c436344af044664602654492e3c5f18128cd0d50ef9b58d2e82ba328f3daf55.pdf",
           "originalName": "kako_s_choice202108.pdf",
           "sha256": "2c436344af044664602654492e3c5f18128cd0d50ef9b58d2e82ba328f3daf55",
           "byteSize": 1555117,
@@ -15713,7 +15713,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f9fa67f11c620689149864f5bde967b728ed74330c24e1b91b2997d74ec106dc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/f9fa67f11c620689149864f5bde967b728ed74330c24e1b91b2997d74ec106dc.pdf",
           "originalName": "kako_j_mandatory202008.pdf",
           "sha256": "f9fa67f11c620689149864f5bde967b728ed74330c24e1b91b2997d74ec106dc",
           "byteSize": 85009,
@@ -15726,7 +15726,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/71b700df15cc9fe651a346f88dbe2b08ac8c9a4bd1374c77856faf46818e848a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/71b700df15cc9fe651a346f88dbe2b08ac8c9a4bd1374c77856faf46818e848a.pdf",
           "originalName": "kako_j_choice202008.pdf",
           "sha256": "71b700df15cc9fe651a346f88dbe2b08ac8c9a4bd1374c77856faf46818e848a",
           "byteSize": 594446,
@@ -15771,7 +15771,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/9afdfbb8339723c25d2268d24de5534e820bd363862785986cbefa4d94efb833.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/9afdfbb8339723c25d2268d24de5534e820bd363862785986cbefa4d94efb833.pdf",
           "originalName": "kako_i_mandatory202008.pdf",
           "sha256": "9afdfbb8339723c25d2268d24de5534e820bd363862785986cbefa4d94efb833",
           "byteSize": 93947,
@@ -15784,7 +15784,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/3a9f63dc9bc5215c8682a812ecc5d43e9b304ab7ca3fc1ba38aa8cb0aada7ced.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/3a9f63dc9bc5215c8682a812ecc5d43e9b304ab7ca3fc1ba38aa8cb0aada7ced.pdf",
           "originalName": "kako_i_choice202008.pdf",
           "sha256": "3a9f63dc9bc5215c8682a812ecc5d43e9b304ab7ca3fc1ba38aa8cb0aada7ced",
           "byteSize": 612332,
@@ -15829,7 +15829,7 @@
         {
           "label": "必須問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/76460b18d28bad54a33344fd86bcf34b92b7931f559cd4ffcdb3a7962d176e88.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/76460b18d28bad54a33344fd86bcf34b92b7931f559cd4ffcdb3a7962d176e88.pdf",
           "originalName": "kako_m_mandatory202008.pdf",
           "sha256": "76460b18d28bad54a33344fd86bcf34b92b7931f559cd4ffcdb3a7962d176e88",
           "byteSize": 352872,
@@ -15842,7 +15842,7 @@
         {
           "label": "選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e156a4ffd4fcbbacb0b1a74b537625e5652714a05a5fa6ddf5901e118ebf7aa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/5e156a4ffd4fcbbacb0b1a74b537625e5652714a05a5fa6ddf5901e118ebf7aa.pdf",
           "originalName": "kako_m_choice202008.pdf",
           "sha256": "5e156a4ffd4fcbbacb0b1a74b537625e5652714a05a5fa6ddf5901e118ebf7aa",
           "byteSize": 809197,
@@ -15888,7 +15888,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/f0bfee7990662ac5b51acada41ae7e577bc7632645df7c10ff2bea718f075c0d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/uec/f0bfee7990662ac5b51acada41ae7e577bc7632645df7c10ff2bea718f075c0d.pdf",
           "originalName": "kako_s_choice202008.pdf",
           "sha256": "f0bfee7990662ac5b51acada41ae7e577bc7632645df7c10ff2bea718f075c0d",
           "byteSize": 1350804,
@@ -15951,7 +15951,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/b96bc5537ac7952bf51e770925bdaddb4a616e5744a1ff067ce6e3319e2ad8fa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/b96bc5537ac7952bf51e770925bdaddb4a616e5744a1ff067ce6e3319e2ad8fa.pdf",
           "originalName": "ae71f02839037f5b598d671555ed309b.pdf",
           "sha256": "b96bc5537ac7952bf51e770925bdaddb4a616e5744a1ff067ce6e3319e2ad8fa",
           "byteSize": 819475,
@@ -16009,7 +16009,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/77dd3b43b9fcd9d7c6a40ba3c2dc0c5c3dfd725a1ecc25270a8b53a923d41874.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/77dd3b43b9fcd9d7c6a40ba3c2dc0c5c3dfd725a1ecc25270a8b53a923d41874.pdf",
           "originalName": "e430ba234e241d162a59ab76f6efe083.pdf",
           "sha256": "77dd3b43b9fcd9d7c6a40ba3c2dc0c5c3dfd725a1ecc25270a8b53a923d41874",
           "byteSize": 861857,
@@ -16068,7 +16068,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/e475353f4bb807041422a0ecd440ed359c36776a1b0760fa14cc3e8c61b2eb07.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e475353f4bb807041422a0ecd440ed359c36776a1b0760fa14cc3e8c61b2eb07.pdf",
           "originalName": "153686fd38b76aec8fe63b4c47663818 (1).pdf",
           "sha256": "e475353f4bb807041422a0ecd440ed359c36776a1b0760fa14cc3e8c61b2eb07",
           "byteSize": 557574,
@@ -16128,7 +16128,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/9eeef8aaeb46c1e14ecd93ddd6cb8eb8f9474745aee818e710aec5cd2b11e486.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/9eeef8aaeb46c1e14ecd93ddd6cb8eb8f9474745aee818e710aec5cd2b11e486.pdf",
           "originalName": "340fb55945f15626c7a3a89358d8992d.pdf",
           "sha256": "9eeef8aaeb46c1e14ecd93ddd6cb8eb8f9474745aee818e710aec5cd2b11e486",
           "byteSize": 657217,
@@ -16167,7 +16167,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/3c9c30947fdfbd1a19df29672f4188dd330aecaae33a39a9fec3448061b81adb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/3c9c30947fdfbd1a19df29672f4188dd330aecaae33a39a9fec3448061b81adb.pdf",
           "originalName": "9452bf5c52a4e504caf5a437910d3930.pdf",
           "sha256": "3c9c30947fdfbd1a19df29672f4188dd330aecaae33a39a9fec3448061b81adb",
           "byteSize": 401276,
@@ -16206,7 +16206,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/479a2c0580640ca1ac82cec103f7f2a266aa7440c07eeb6ff26d0b636e66a954.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/479a2c0580640ca1ac82cec103f7f2a266aa7440c07eeb6ff26d0b636e66a954.pdf",
           "originalName": "ebaa513ac4d89108fe34bc3220cd6ad3.pdf",
           "sha256": "479a2c0580640ca1ac82cec103f7f2a266aa7440c07eeb6ff26d0b636e66a954",
           "byteSize": 592092,
@@ -16245,7 +16245,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/0dc2adcd4ff1ae7539c3c4ce703a33231258c1ccaa91fb91533f49a7d2c54955.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0dc2adcd4ff1ae7539c3c4ce703a33231258c1ccaa91fb91533f49a7d2c54955.pdf",
           "originalName": "02e75abcc32acb88cd7505bad377f983.pdf",
           "sha256": "0dc2adcd4ff1ae7539c3c4ce703a33231258c1ccaa91fb91533f49a7d2c54955",
           "byteSize": 380157,
@@ -16284,7 +16284,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/f4e8cbe495fc06d23633721b3f648e21f07f5a055093e8426716b0deb8cf1954.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/f4e8cbe495fc06d23633721b3f648e21f07f5a055093e8426716b0deb8cf1954.pdf",
           "originalName": "69a578144b87a3810226b785c22e0a85.pdf",
           "sha256": "f4e8cbe495fc06d23633721b3f648e21f07f5a055093e8426716b0deb8cf1954",
           "byteSize": 392102,
@@ -16325,7 +16325,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/07b67ee7c25d0a60d28d9576a763ee8a5408dab8235303294c424e0bf345f6b2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/07b67ee7c25d0a60d28d9576a763ee8a5408dab8235303294c424e0bf345f6b2.pdf",
           "originalName": "22603be6c5f792ba497a10d9f551bd22.pdf",
           "sha256": "07b67ee7c25d0a60d28d9576a763ee8a5408dab8235303294c424e0bf345f6b2",
           "byteSize": 208160,
@@ -16366,7 +16366,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/9ef52108844f132b4984d61141ca5d9ddc2d3a4a0be5404a1ebf56b2e8a02b61.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/9ef52108844f132b4984d61141ca5d9ddc2d3a4a0be5404a1ebf56b2e8a02b61.pdf",
           "originalName": "17b639d81a91ac5dca245f353c6a2378.pdf",
           "sha256": "9ef52108844f132b4984d61141ca5d9ddc2d3a4a0be5404a1ebf56b2e8a02b61",
           "byteSize": 210567,
@@ -16407,7 +16407,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/929f99c4d1e1266240696d76cd41ba24a17f009485b31a228f0d5294778dd86b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/929f99c4d1e1266240696d76cd41ba24a17f009485b31a228f0d5294778dd86b.pdf",
           "originalName": "f74a837b8149f26fcb14a129d9e92fe2.pdf",
           "sha256": "929f99c4d1e1266240696d76cd41ba24a17f009485b31a228f0d5294778dd86b",
           "byteSize": 203103,
@@ -16447,7 +16447,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/2c9ff62cf45521adb114a77641c202e0ac8df7020850acc1034d0a8c75483c9f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/2c9ff62cf45521adb114a77641c202e0ac8df7020850acc1034d0a8c75483c9f.pdf",
           "originalName": "28d2a398533d93636c3b15ef7f63681e.pdf",
           "sha256": "2c9ff62cf45521adb114a77641c202e0ac8df7020850acc1034d0a8c75483c9f",
           "byteSize": 225309,
@@ -16491,7 +16491,7 @@
         {
           "label": "オンライン筆記試験",
           "kind": "question",
-          "url": "assets/past-papers/documents/f03bb96f7af8190f8db21ff876dd5bfce2868d4116ef4b0bae4a75ad8a33825a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/f03bb96f7af8190f8db21ff876dd5bfce2868d4116ef4b0bae4a75ad8a33825a.pdf",
           "originalName": "d967b794ab1b301941a0d27365512524.pdf",
           "sha256": "f03bb96f7af8190f8db21ff876dd5bfce2868d4116ef4b0bae4a75ad8a33825a",
           "byteSize": 676243,
@@ -16535,7 +16535,7 @@
         {
           "label": "オンライン筆記試験",
           "kind": "question",
-          "url": "assets/past-papers/documents/af30dacc74e247f2f46f5cf649a34354432cf788a214ee37fc0509f72e047c4c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/af30dacc74e247f2f46f5cf649a34354432cf788a214ee37fc0509f72e047c4c.pdf",
           "originalName": "e941e57b4dedbc7733954c79d527ed91.pdf",
           "sha256": "af30dacc74e247f2f46f5cf649a34354432cf788a214ee37fc0509f72e047c4c",
           "byteSize": 610661,
@@ -16581,7 +16581,7 @@
         {
           "label": "オンライン筆記試験 第1科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/c40ef6fd325db989970edc58c629967a563847870ca56376e45a18d1206637bf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/c40ef6fd325db989970edc58c629967a563847870ca56376e45a18d1206637bf.pdf",
           "originalName": "da3830e64e26208fd6d638e1e1e40a7b.pdf",
           "sha256": "c40ef6fd325db989970edc58c629967a563847870ca56376e45a18d1206637bf",
           "byteSize": 290953,
@@ -16620,7 +16620,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/321b30a191b819f3fa1815a322f659616ad805e5d304a7fef655ee6592d70ab4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/321b30a191b819f3fa1815a322f659616ad805e5d304a7fef655ee6592d70ab4.pdf",
           "originalName": "2020_02_mi.pdf",
           "sha256": "321b30a191b819f3fa1815a322f659616ad805e5d304a7fef655ee6592d70ab4",
           "byteSize": 186234,
@@ -16663,7 +16663,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
           "originalName": "2025_MC夏入試 (1).pdf",
           "sha256": "621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9",
           "byteSize": 747520,
@@ -16678,7 +16678,7 @@
         {
           "label": "専門解答例・出題意図",
           "kind": "answer",
-          "url": "assets/past-papers/documents/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
           "originalName": "2025_MC夏入試_専門-2.pdf",
           "sha256": "68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56",
           "byteSize": 228478,
@@ -16723,7 +16723,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
           "originalName": "2025_MC夏入試 (1).pdf",
           "sha256": "621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9",
           "byteSize": 747520,
@@ -16738,7 +16738,7 @@
         {
           "label": "専門解答例・出題意図",
           "kind": "answer",
-          "url": "assets/past-papers/documents/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
           "originalName": "2025_MC夏入試_専門-2.pdf",
           "sha256": "68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56",
           "byteSize": 228478,
@@ -16783,7 +16783,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9.pdf",
           "originalName": "2025_MC夏入試 (1).pdf",
           "sha256": "621da173fd7acb601d2f799ae8351218f26ee9544309d1b129e76b01ee837fd9",
           "byteSize": 747520,
@@ -16798,7 +16798,7 @@
         {
           "label": "専門解答例・出題意図",
           "kind": "answer",
-          "url": "assets/past-papers/documents/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56.pdf",
           "originalName": "2025_MC夏入試_専門-2.pdf",
           "sha256": "68ac40e002a925764cc06acc372e825f2e289b6b68dd10986a07c55ae28ace56",
           "byteSize": 228478,
@@ -16843,7 +16843,7 @@
         {
           "label": "基礎部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
           "originalName": "2024b.pdf",
           "sha256": "d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502",
           "byteSize": 318178,
@@ -16856,7 +16856,7 @@
         {
           "label": "問題訂正",
           "kind": "other",
-          "url": "assets/past-papers/documents/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
           "originalName": "2024b_teisei.pdf",
           "sha256": "0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05",
           "byteSize": 16668,
@@ -16869,7 +16869,7 @@
         {
           "label": "専門部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
           "originalName": "2024s.pdf",
           "sha256": "712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000",
           "byteSize": 1219660,
@@ -16882,7 +16882,7 @@
         {
           "label": "合冊（訂正・出題意図を含む）",
           "kind": "question",
-          "url": "assets/past-papers/documents/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
           "originalName": "12.pdf",
           "sha256": "305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d",
           "byteSize": 1578567,
@@ -16925,7 +16925,7 @@
         {
           "label": "基礎部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
           "originalName": "2024b.pdf",
           "sha256": "d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502",
           "byteSize": 318178,
@@ -16938,7 +16938,7 @@
         {
           "label": "問題訂正",
           "kind": "other",
-          "url": "assets/past-papers/documents/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
           "originalName": "2024b_teisei.pdf",
           "sha256": "0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05",
           "byteSize": 16668,
@@ -16951,7 +16951,7 @@
         {
           "label": "専門部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
           "originalName": "2024s.pdf",
           "sha256": "712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000",
           "byteSize": 1219660,
@@ -16964,7 +16964,7 @@
         {
           "label": "合冊（訂正・出題意図を含む）",
           "kind": "question",
-          "url": "assets/past-papers/documents/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
           "originalName": "12.pdf",
           "sha256": "305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d",
           "byteSize": 1578567,
@@ -17007,7 +17007,7 @@
         {
           "label": "基礎部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502.pdf",
           "originalName": "2024b.pdf",
           "sha256": "d137fa463c2aaa6a5187f2ce594987a97891450d78161d4f5b09dbcf3f322502",
           "byteSize": 318178,
@@ -17020,7 +17020,7 @@
         {
           "label": "問題訂正",
           "kind": "other",
-          "url": "assets/past-papers/documents/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05.pdf",
           "originalName": "2024b_teisei.pdf",
           "sha256": "0bb30640c49dedd0595ca4d577b0f89c78e428652135ac83b1313b897e2dac05",
           "byteSize": 16668,
@@ -17033,7 +17033,7 @@
         {
           "label": "専門部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000.pdf",
           "originalName": "2024s.pdf",
           "sha256": "712fe36002f9570e6e6d625fdc9a8219c83de32c64c95f33153faadc05e23000",
           "byteSize": 1219660,
@@ -17046,7 +17046,7 @@
         {
           "label": "合冊（訂正・出題意図を含む）",
           "kind": "question",
-          "url": "assets/past-papers/documents/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d.pdf",
           "originalName": "12.pdf",
           "sha256": "305db2014e248f7787fe1f879ee13da2b9be417117a23f885ef1fe0cef64a95d",
           "byteSize": 1578567,
@@ -17089,7 +17089,7 @@
         {
           "label": "基礎部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
           "originalName": "2023.pdf",
           "sha256": "b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1",
           "byteSize": 9945349,
@@ -17102,7 +17102,7 @@
         {
           "label": "専門部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
           "originalName": "2023 (1).pdf",
           "sha256": "19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891",
           "byteSize": 16173325,
@@ -17145,7 +17145,7 @@
         {
           "label": "基礎部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
           "originalName": "2023.pdf",
           "sha256": "b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1",
           "byteSize": 9945349,
@@ -17158,7 +17158,7 @@
         {
           "label": "専門部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
           "originalName": "2023 (1).pdf",
           "sha256": "19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891",
           "byteSize": 16173325,
@@ -17201,7 +17201,7 @@
         {
           "label": "基礎部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1.pdf",
           "originalName": "2023.pdf",
           "sha256": "b74cce092166706025afc9c9386c2c2b30b5296cfcba3cd9dbfc6e8219ccece1",
           "byteSize": 9945349,
@@ -17214,7 +17214,7 @@
         {
           "label": "専門部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891.pdf",
           "originalName": "2023 (1).pdf",
           "sha256": "19a533b8918985a03421f2e78448829a740cc500def679fad943c91b007e4891",
           "byteSize": 16173325,
@@ -17257,7 +17257,7 @@
         {
           "label": "基礎部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
           "originalName": "2022_kiso.pdf",
           "sha256": "932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9",
           "byteSize": 1215473,
@@ -17270,7 +17270,7 @@
         {
           "label": "専門部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
           "originalName": "2022_senmon.pdf",
           "sha256": "62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f",
           "byteSize": 1883143,
@@ -17313,7 +17313,7 @@
         {
           "label": "基礎部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
           "originalName": "2022_kiso.pdf",
           "sha256": "932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9",
           "byteSize": 1215473,
@@ -17326,7 +17326,7 @@
         {
           "label": "専門部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
           "originalName": "2022_senmon.pdf",
           "sha256": "62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f",
           "byteSize": 1883143,
@@ -17369,7 +17369,7 @@
         {
           "label": "基礎部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9.pdf",
           "originalName": "2022_kiso.pdf",
           "sha256": "932ca1d5e3fc6459c3120b0276af0705d1614ac9c725106c5d207e829859ecc9",
           "byteSize": 1215473,
@@ -17382,7 +17382,7 @@
         {
           "label": "専門部門",
           "kind": "question",
-          "url": "assets/past-papers/documents/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f.pdf",
           "originalName": "2022_senmon.pdf",
           "sha256": "62a1676837598852bf23b6aa12dd8b8e6e59c3967830415845074e910dc08e8f",
           "byteSize": 1883143,
@@ -17421,7 +17421,7 @@
         {
           "label": "語学・専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
           "originalName": "2025_MC留学生入試f.pdf",
           "sha256": "6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5",
           "byteSize": 1990078,
@@ -17460,7 +17460,7 @@
         {
           "label": "語学・専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
           "originalName": "2025_MC留学生入試f.pdf",
           "sha256": "6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5",
           "byteSize": 1990078,
@@ -17499,7 +17499,7 @@
         {
           "label": "語学・専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5.pdf",
           "originalName": "2025_MC留学生入試f.pdf",
           "sha256": "6d17cb79064891920238a6e12a414c2e79061f40f94fa2e7ba054d083f6de1c5",
           "byteSize": 1990078,
@@ -17544,7 +17544,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
           "originalName": "0_問題冊子-1.pdf",
           "sha256": "5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816",
           "byteSize": 995392,
@@ -17591,7 +17591,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
           "originalName": "0_問題冊子-1.pdf",
           "sha256": "5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816",
           "byteSize": 995392,
@@ -17638,7 +17638,7 @@
         {
           "label": "専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816.pdf",
           "originalName": "0_問題冊子-1.pdf",
           "sha256": "5c381767ef3dc3494cd136358f0e9c29798db55886586e7446700cdfe294d816",
           "byteSize": 995392,
@@ -17686,7 +17686,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
           "originalName": "11.pdf",
           "sha256": "ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88",
           "byteSize": 1202221,
@@ -17701,7 +17701,7 @@
         {
           "label": "正解・解答例",
           "kind": "answer",
-          "url": "assets/past-papers/documents/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
           "originalName": "正解・解答例-1 (1).pdf",
           "sha256": "52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee",
           "byteSize": 390272,
@@ -17749,7 +17749,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
           "originalName": "11.pdf",
           "sha256": "ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88",
           "byteSize": 1202221,
@@ -17764,7 +17764,7 @@
         {
           "label": "正解・解答例",
           "kind": "answer",
-          "url": "assets/past-papers/documents/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
           "originalName": "正解・解答例-1 (1).pdf",
           "sha256": "52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee",
           "byteSize": 390272,
@@ -17812,7 +17812,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88.pdf",
           "originalName": "11.pdf",
           "sha256": "ba38e6d69170d3232e902c9c0034b390a334cfffd0e0b732eb3dcb4691bf1a88",
           "byteSize": 1202221,
@@ -17827,7 +17827,7 @@
         {
           "label": "正解・解答例",
           "kind": "answer",
-          "url": "assets/past-papers/documents/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee.pdf",
           "originalName": "正解・解答例-1 (1).pdf",
           "sha256": "52576ce51a32bf673fa6156e4c174c39131fe1257494debf5a256f9431936fee",
           "byteSize": 390272,
@@ -17869,7 +17869,7 @@
         {
           "label": "基礎（数学・物理学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
           "originalName": "09f.pdf",
           "sha256": "16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f",
           "byteSize": 564340,
@@ -17909,7 +17909,7 @@
         {
           "label": "基礎（数学・物理学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
           "originalName": "09f.pdf",
           "sha256": "16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f",
           "byteSize": 564340,
@@ -17949,7 +17949,7 @@
         {
           "label": "基礎（数学・物理学）",
           "kind": "question",
-          "url": "assets/past-papers/documents/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f.pdf",
           "originalName": "09f.pdf",
           "sha256": "16818632d5e54aa85c284d8928ed606a0b89c0932b95fa048f4d94cd1bfeb19f",
           "byteSize": 564340,
@@ -17993,7 +17993,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/a831ebe02836b8f51fbc994bf0b4abeb1324c31a9c505b7dbab7444932a8f15a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/a831ebe02836b8f51fbc994bf0b4abeb1324c31a9c505b7dbab7444932a8f15a.pdf",
           "originalName": "04.pdf",
           "sha256": "a831ebe02836b8f51fbc994bf0b4abeb1324c31a9c505b7dbab7444932a8f15a",
           "byteSize": 699272,
@@ -18037,7 +18037,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/ae583a57d0b9c934571bec17544bab1af8fcc5a6e2e3238f3565de80211edd21.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/ae583a57d0b9c934571bec17544bab1af8fcc5a6e2e3238f3565de80211edd21.pdf",
           "originalName": "05.pdf",
           "sha256": "ae583a57d0b9c934571bec17544bab1af8fcc5a6e2e3238f3565de80211edd21",
           "byteSize": 700499,
@@ -18081,7 +18081,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95.pdf",
           "originalName": "R8筆記試験-問題.pdf",
           "sha256": "3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95",
           "byteSize": 1480581,
@@ -18095,7 +18095,7 @@
         {
           "label": "基礎・専門解答",
           "kind": "answer",
-          "url": "assets/past-papers/documents/5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2.pdf",
           "originalName": "R8筆記試験-解答_公開用.pdf",
           "sha256": "5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2",
           "byteSize": 1051683,
@@ -18140,7 +18140,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95.pdf",
           "originalName": "R8筆記試験-問題.pdf",
           "sha256": "3c2880ed409763ec14d79fd841c83688822a8086c8003ff4c001c6aab593ad95",
           "byteSize": 1480581,
@@ -18154,7 +18154,7 @@
         {
           "label": "基礎・専門解答",
           "kind": "answer",
-          "url": "assets/past-papers/documents/5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2.pdf",
           "originalName": "R8筆記試験-解答_公開用.pdf",
           "sha256": "5ed11e06a479d50d54b6d4affcf14e411a24c5b4a6d24aed607c2a9e5c14a1e2",
           "byteSize": 1051683,
@@ -18195,7 +18195,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
           "originalName": "06.pdf",
           "sha256": "6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e",
           "byteSize": 659060,
@@ -18237,7 +18237,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
           "originalName": "06.pdf",
           "sha256": "6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e",
           "byteSize": 659060,
@@ -18276,7 +18276,7 @@
         {
           "label": "英語・数学・物理学・化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
           "originalName": "06f.pdf",
           "sha256": "e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d",
           "byteSize": 994430,
@@ -18315,7 +18315,7 @@
         {
           "label": "英語・数学・物理学・化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
           "originalName": "06f.pdf",
           "sha256": "e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d",
           "byteSize": 994430,
@@ -18357,7 +18357,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e.pdf",
           "originalName": "06.pdf",
           "sha256": "6b21dcb547d556a759dc98d3c2d837dfe2886b3bc12626bf0ef14a4ee5f41a9e",
           "byteSize": 659060,
@@ -18396,7 +18396,7 @@
         {
           "label": "英語・数学・物理学・化学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d.pdf",
           "originalName": "06f.pdf",
           "sha256": "e531dfedce2785ecd1d73cb186df3568db296c44a555357c66d9f1bc3457d81d",
           "byteSize": 994430,
@@ -18437,7 +18437,7 @@
         {
           "label": "基礎V後半・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75.pdf",
           "originalName": "問題＿エネ.pdf",
           "sha256": "8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75",
           "byteSize": 2654529,
@@ -18450,7 +18450,7 @@
         {
           "label": "解答例・出題意図",
           "kind": "answer",
-          "url": "assets/past-papers/documents/4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883.pdf",
           "originalName": "解答例・出題の意図＿エネ.pdf",
           "sha256": "4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883",
           "byteSize": 1032606,
@@ -18489,7 +18489,7 @@
         {
           "label": "基礎V後半・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75.pdf",
           "originalName": "問題＿エネ.pdf",
           "sha256": "8bae62d14c396653212e9d235aa8916bf1db1645976477542d7dfd7d1cfadd75",
           "byteSize": 2654529,
@@ -18502,7 +18502,7 @@
         {
           "label": "解答例・出題意図",
           "kind": "answer",
-          "url": "assets/past-papers/documents/4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883.pdf",
           "originalName": "解答例・出題の意図＿エネ.pdf",
           "sha256": "4e2fed739c4d4c11fdff1f33e0b26af3ab8e8871a743925d908ce482185e0883",
           "byteSize": 1032606,
@@ -18540,7 +18540,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233.pdf",
           "originalName": "15.pdf",
           "sha256": "d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233",
           "byteSize": 1605459,
@@ -18578,7 +18578,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233.pdf",
           "originalName": "15.pdf",
           "sha256": "d79a18a633e6d2a15d1c84538b1cbee066cef229983b3c45346ed9c4b6692233",
           "byteSize": 1605459,
@@ -18618,7 +18618,7 @@
         {
           "label": "数学基礎",
           "kind": "question",
-          "url": "assets/past-papers/documents/2ff59bde4672d179ae226075993eabc45fa71fbcd173b078b865f02f036df492.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/2ff59bde4672d179ae226075993eabc45fa71fbcd173b078b865f02f036df492.pdf",
           "originalName": "exam-mc-2001-1_am.pdf",
           "sha256": "2ff59bde4672d179ae226075993eabc45fa71fbcd173b078b865f02f036df492",
           "byteSize": 34311,
@@ -18631,7 +18631,7 @@
         {
           "label": "数学専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/3d16017bb39bd433bab9445d34c3cc5d5c39d55d6c6542eab1f07edddcba06a4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/3d16017bb39bd433bab9445d34c3cc5d5c39d55d6c6542eab1f07edddcba06a4.pdf",
           "originalName": "exam-mc-2001-1_pm.pdf",
           "sha256": "3d16017bb39bd433bab9445d34c3cc5d5c39d55d6c6542eab1f07edddcba06a4",
           "byteSize": 69407,
@@ -18671,7 +18671,7 @@
         {
           "label": "数学基礎",
           "kind": "question",
-          "url": "assets/past-papers/documents/b86572541b3b10df27313f9ffbd3c7d83cb00597f563a6c47c9009c9037f21ac.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/b86572541b3b10df27313f9ffbd3c7d83cb00597f563a6c47c9009c9037f21ac.pdf",
           "originalName": "exam-mc-2001-1d_am.pdf",
           "sha256": "b86572541b3b10df27313f9ffbd3c7d83cb00597f563a6c47c9009c9037f21ac",
           "byteSize": 42181,
@@ -18684,7 +18684,7 @@
         {
           "label": "数学専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/f0910761ac4e2251d8f2399f2dfe98cfb24a7cc88dbfe7af193efa2272118495.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/f0910761ac4e2251d8f2399f2dfe98cfb24a7cc88dbfe7af193efa2272118495.pdf",
           "originalName": "exam-mc-2001-1d_pm.pdf",
           "sha256": "f0910761ac4e2251d8f2399f2dfe98cfb24a7cc88dbfe7af193efa2272118495",
           "byteSize": 45639,
@@ -18724,7 +18724,7 @@
         {
           "label": "数学基礎",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e22f0ca8899a4f029f69df2a5d7c53ec4c534f4fd8a1e460d111472acc57679.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5e22f0ca8899a4f029f69df2a5d7c53ec4c534f4fd8a1e460d111472acc57679.pdf",
           "originalName": "exam-mc-2001-2_am.pdf",
           "sha256": "5e22f0ca8899a4f029f69df2a5d7c53ec4c534f4fd8a1e460d111472acc57679",
           "byteSize": 39621,
@@ -18737,7 +18737,7 @@
         {
           "label": "数学専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/060a4878a4bf60cd5e39e45a49a058da97105154bf195a9401ba549db3df0547.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/060a4878a4bf60cd5e39e45a49a058da97105154bf195a9401ba549db3df0547.pdf",
           "originalName": "exam-mc-2001-2_pm.pdf",
           "sha256": "060a4878a4bf60cd5e39e45a49a058da97105154bf195a9401ba549db3df0547",
           "byteSize": 89802,
@@ -18777,7 +18777,7 @@
         {
           "label": "数学基礎",
           "kind": "question",
-          "url": "assets/past-papers/documents/986d4ef454cd2c37bec733d9bc7d4b91c148739883b386c408ebf622817f202e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/986d4ef454cd2c37bec733d9bc7d4b91c148739883b386c408ebf622817f202e.pdf",
           "originalName": "exam-mc-2001-2d_am.pdf",
           "sha256": "986d4ef454cd2c37bec733d9bc7d4b91c148739883b386c408ebf622817f202e",
           "byteSize": 42976,
@@ -18790,7 +18790,7 @@
         {
           "label": "数学専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/df15ed42347ddbb92f0aecc409a299107c5bd36e09060289cbb4980faec20b40.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/df15ed42347ddbb92f0aecc409a299107c5bd36e09060289cbb4980faec20b40.pdf",
           "originalName": "exam-mc-2001-2d_pm.pdf",
           "sha256": "df15ed42347ddbb92f0aecc409a299107c5bd36e09060289cbb4980faec20b40",
           "byteSize": 69054,
@@ -18830,7 +18830,7 @@
         {
           "label": "数学基礎",
           "kind": "question",
-          "url": "assets/past-papers/documents/250501f747fc377d5f0cab093d9c1f8d4364991ca82dbad6b9c76fb8ff35a99d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/250501f747fc377d5f0cab093d9c1f8d4364991ca82dbad6b9c76fb8ff35a99d.pdf",
           "originalName": "exam-mc-2002-1_am.pdf",
           "sha256": "250501f747fc377d5f0cab093d9c1f8d4364991ca82dbad6b9c76fb8ff35a99d",
           "byteSize": 84582,
@@ -18843,7 +18843,7 @@
         {
           "label": "数学専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/8a41583a87cd17e7a8108da0d316d82c8f7b07761a35ea0dd0419dac8a22c6db.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/8a41583a87cd17e7a8108da0d316d82c8f7b07761a35ea0dd0419dac8a22c6db.pdf",
           "originalName": "exam-mc-2002-1_pm.pdf",
           "sha256": "8a41583a87cd17e7a8108da0d316d82c8f7b07761a35ea0dd0419dac8a22c6db",
           "byteSize": 177832,
@@ -18883,7 +18883,7 @@
         {
           "label": "数学基礎",
           "kind": "question",
-          "url": "assets/past-papers/documents/d506c0e904dfbb0c877f6148e67851982496e4f8233b74c347b4394538de8d52.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d506c0e904dfbb0c877f6148e67851982496e4f8233b74c347b4394538de8d52.pdf",
           "originalName": "exam-mc-2002-1d_am.pdf",
           "sha256": "d506c0e904dfbb0c877f6148e67851982496e4f8233b74c347b4394538de8d52",
           "byteSize": 89045,
@@ -18896,7 +18896,7 @@
         {
           "label": "数学専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/59c8278457d7de28dd2e577b66b073514a7aed65f0aee1d9bf66fcd2a33f979c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/59c8278457d7de28dd2e577b66b073514a7aed65f0aee1d9bf66fcd2a33f979c.pdf",
           "originalName": "exam-mc-2002-1d_pm.pdf",
           "sha256": "59c8278457d7de28dd2e577b66b073514a7aed65f0aee1d9bf66fcd2a33f979c",
           "byteSize": 178929,
@@ -18936,7 +18936,7 @@
         {
           "label": "数学基礎",
           "kind": "question",
-          "url": "assets/past-papers/documents/7a4ee13f57f8e4ed0cc89e47cd27918c9cc947de88aafda7971047438ef083a8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/7a4ee13f57f8e4ed0cc89e47cd27918c9cc947de88aafda7971047438ef083a8.pdf",
           "originalName": "exam-mc-2002-2_am.pdf",
           "sha256": "7a4ee13f57f8e4ed0cc89e47cd27918c9cc947de88aafda7971047438ef083a8",
           "byteSize": 40113,
@@ -18949,7 +18949,7 @@
         {
           "label": "数学専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/4c1f9f2b94cb7860cf6cbec6eabbcd3141389723be2874c693fc1c071aa07572.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/4c1f9f2b94cb7860cf6cbec6eabbcd3141389723be2874c693fc1c071aa07572.pdf",
           "originalName": "exam-mc-2002-2_pm.pdf",
           "sha256": "4c1f9f2b94cb7860cf6cbec6eabbcd3141389723be2874c693fc1c071aa07572",
           "byteSize": 156986,
@@ -18989,7 +18989,7 @@
         {
           "label": "数学基礎",
           "kind": "question",
-          "url": "assets/past-papers/documents/46095314be37d58b8483ed7ea2d8d59b7dbea3c202b289a5e8deab9a9e44dd04.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/46095314be37d58b8483ed7ea2d8d59b7dbea3c202b289a5e8deab9a9e44dd04.pdf",
           "originalName": "exam-mc-2003-1_am.pdf",
           "sha256": "46095314be37d58b8483ed7ea2d8d59b7dbea3c202b289a5e8deab9a9e44dd04",
           "byteSize": 77672,
@@ -19002,7 +19002,7 @@
         {
           "label": "数学発展",
           "kind": "question",
-          "url": "assets/past-papers/documents/71570a767b9b11c22a5196d9c32176d38888e50325f191e135baaa302309fa9b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/71570a767b9b11c22a5196d9c32176d38888e50325f191e135baaa302309fa9b.pdf",
           "originalName": "exam-mc-2003-1_pm.pdf",
           "sha256": "71570a767b9b11c22a5196d9c32176d38888e50325f191e135baaa302309fa9b",
           "byteSize": 80606,
@@ -19041,7 +19041,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/0d2133412d2d6315f5b8fda311841a9e63f3a25fa0956b764d0ae8cae0c03695.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0d2133412d2d6315f5b8fda311841a9e63f3a25fa0956b764d0ae8cae0c03695.pdf",
           "originalName": "exam-mc-2003-2.pdf",
           "sha256": "0d2133412d2d6315f5b8fda311841a9e63f3a25fa0956b764d0ae8cae0c03695",
           "byteSize": 45800,
@@ -19081,7 +19081,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/6f5182b6acaa75488f0e1cd1f608a317a5f9034fce157a552b613d937c5b0da0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6f5182b6acaa75488f0e1cd1f608a317a5f9034fce157a552b613d937c5b0da0.pdf",
           "originalName": "exam-mc-2004_am.pdf",
           "sha256": "6f5182b6acaa75488f0e1cd1f608a317a5f9034fce157a552b613d937c5b0da0",
           "byteSize": 42804,
@@ -19094,7 +19094,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/5babb1a27f79ed67e56bb229079eb45a5a610830512188b875c7b0f1b9de8e1c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5babb1a27f79ed67e56bb229079eb45a5a610830512188b875c7b0f1b9de8e1c.pdf",
           "originalName": "exam-mc-2004_pm.pdf",
           "sha256": "5babb1a27f79ed67e56bb229079eb45a5a610830512188b875c7b0f1b9de8e1c",
           "byteSize": 47667,
@@ -19134,7 +19134,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/9c4c7efe470c94f58d4bbaf6252b77d39ff5ad73110f4fd2f5c2f1ec64ace2ef.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/9c4c7efe470c94f58d4bbaf6252b77d39ff5ad73110f4fd2f5c2f1ec64ace2ef.pdf",
           "originalName": "exam-mc-2005_am.pdf",
           "sha256": "9c4c7efe470c94f58d4bbaf6252b77d39ff5ad73110f4fd2f5c2f1ec64ace2ef",
           "byteSize": 34317,
@@ -19147,7 +19147,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/c99a84f8d5a90095631ea0c8cdc2cb764c98b8025e16581420bd26014ec9fc0a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/c99a84f8d5a90095631ea0c8cdc2cb764c98b8025e16581420bd26014ec9fc0a.pdf",
           "originalName": "exam-mc-2005_pm.pdf",
           "sha256": "c99a84f8d5a90095631ea0c8cdc2cb764c98b8025e16581420bd26014ec9fc0a",
           "byteSize": 34554,
@@ -19187,7 +19187,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/01dee88fae83e8235bda6e6e2cfb15f1f46742c863a92af6b9ea5c3a0e777eec.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/01dee88fae83e8235bda6e6e2cfb15f1f46742c863a92af6b9ea5c3a0e777eec.pdf",
           "originalName": "exam-mc-2006_am.pdf",
           "sha256": "01dee88fae83e8235bda6e6e2cfb15f1f46742c863a92af6b9ea5c3a0e777eec",
           "byteSize": 33769,
@@ -19200,7 +19200,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/68a8ecabfd5530490bf6a656eea2e5f469783e2499e14f31992266978848ec9b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/68a8ecabfd5530490bf6a656eea2e5f469783e2499e14f31992266978848ec9b.pdf",
           "originalName": "exam-mc-2006_pm.pdf",
           "sha256": "68a8ecabfd5530490bf6a656eea2e5f469783e2499e14f31992266978848ec9b",
           "byteSize": 39668,
@@ -19240,7 +19240,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/80f49c42034e7c19fda772ff8ddca99152ec69a014853fe7933c385cfbafa5cc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/80f49c42034e7c19fda772ff8ddca99152ec69a014853fe7933c385cfbafa5cc.pdf",
           "originalName": "exam-mc-2007-1_am.pdf",
           "sha256": "80f49c42034e7c19fda772ff8ddca99152ec69a014853fe7933c385cfbafa5cc",
           "byteSize": 29457,
@@ -19253,7 +19253,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/ccd1126b1e5bf6f4fc8df6179354de264b9a75d8a2a8e8d6b6d569b2e649e11f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/ccd1126b1e5bf6f4fc8df6179354de264b9a75d8a2a8e8d6b6d569b2e649e11f.pdf",
           "originalName": "exam-mc-2007-1_pm.pdf",
           "sha256": "ccd1126b1e5bf6f4fc8df6179354de264b9a75d8a2a8e8d6b6d569b2e649e11f",
           "byteSize": 29930,
@@ -19293,7 +19293,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/eb9fa49cd7fe69dfa6b467a76af11d1f544a0e63e25242f035304a620564a6ea.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/eb9fa49cd7fe69dfa6b467a76af11d1f544a0e63e25242f035304a620564a6ea.pdf",
           "originalName": "exam-mc-2007-2_am.pdf",
           "sha256": "eb9fa49cd7fe69dfa6b467a76af11d1f544a0e63e25242f035304a620564a6ea",
           "byteSize": 31408,
@@ -19306,7 +19306,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/23241cab032bcc0e9fd2f47a31c0400a6b8350e6264b0e2dda390f4378e41cf7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/23241cab032bcc0e9fd2f47a31c0400a6b8350e6264b0e2dda390f4378e41cf7.pdf",
           "originalName": "exam-mc-2007-2_pm.pdf",
           "sha256": "23241cab032bcc0e9fd2f47a31c0400a6b8350e6264b0e2dda390f4378e41cf7",
           "byteSize": 34020,
@@ -19346,7 +19346,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/ee8751283b106a5fe04e80bcce9a5659028600a90ad3a29ba8b37c466c76b512.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/ee8751283b106a5fe04e80bcce9a5659028600a90ad3a29ba8b37c466c76b512.pdf",
           "originalName": "exam-mc-2008-1_am.pdf",
           "sha256": "ee8751283b106a5fe04e80bcce9a5659028600a90ad3a29ba8b37c466c76b512",
           "byteSize": 74747,
@@ -19359,7 +19359,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/61e34dde4f8b2d885e214fdd732dd6ee5dbff9278a27adeaf2137153f408888b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/61e34dde4f8b2d885e214fdd732dd6ee5dbff9278a27adeaf2137153f408888b.pdf",
           "originalName": "exam-mc-2008-1_pm.pdf",
           "sha256": "61e34dde4f8b2d885e214fdd732dd6ee5dbff9278a27adeaf2137153f408888b",
           "byteSize": 98604,
@@ -19399,7 +19399,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/a84251ea7d1310889deec0d8295cb7887d8a962e43c9bc3ffcd4995044aeee07.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/a84251ea7d1310889deec0d8295cb7887d8a962e43c9bc3ffcd4995044aeee07.pdf",
           "originalName": "exam-mc-2008-2_am.pdf",
           "sha256": "a84251ea7d1310889deec0d8295cb7887d8a962e43c9bc3ffcd4995044aeee07",
           "byteSize": 94599,
@@ -19412,7 +19412,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/e07eaf69863d08fa1f88f94cd160dd341033737f1556d21d5d35c0cb1b341059.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e07eaf69863d08fa1f88f94cd160dd341033737f1556d21d5d35c0cb1b341059.pdf",
           "originalName": "exam-mc-2008-2_pm.pdf",
           "sha256": "e07eaf69863d08fa1f88f94cd160dd341033737f1556d21d5d35c0cb1b341059",
           "byteSize": 102287,
@@ -19452,7 +19452,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/bce01c92aeb19de169025deba6f875fcdd546b721bb4eb3d78d9b1d6dcaaf308.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/bce01c92aeb19de169025deba6f875fcdd546b721bb4eb3d78d9b1d6dcaaf308.pdf",
           "originalName": "exam-mc-2009-1_am.pdf",
           "sha256": "bce01c92aeb19de169025deba6f875fcdd546b721bb4eb3d78d9b1d6dcaaf308",
           "byteSize": 52772,
@@ -19465,7 +19465,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/8dace606a031739b00493124b54c277911b59bd9ac9b1ed4ee0a926ea013c939.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/8dace606a031739b00493124b54c277911b59bd9ac9b1ed4ee0a926ea013c939.pdf",
           "originalName": "exam-mc-2009-1_pm.pdf",
           "sha256": "8dace606a031739b00493124b54c277911b59bd9ac9b1ed4ee0a926ea013c939",
           "byteSize": 52173,
@@ -19505,7 +19505,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/5cd85f5ca5721fd751a3108f24dd64177ffeac85b9115be8577a776b00f7929c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5cd85f5ca5721fd751a3108f24dd64177ffeac85b9115be8577a776b00f7929c.pdf",
           "originalName": "exam-mc-2009-2_am.pdf",
           "sha256": "5cd85f5ca5721fd751a3108f24dd64177ffeac85b9115be8577a776b00f7929c",
           "byteSize": 45516,
@@ -19518,7 +19518,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/6c18ec5e35870d257ef18f2ed2c557f161c72319c26eb724b63be5dd2d4f7fc3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6c18ec5e35870d257ef18f2ed2c557f161c72319c26eb724b63be5dd2d4f7fc3.pdf",
           "originalName": "exam-mc-2009-2_pm.pdf",
           "sha256": "6c18ec5e35870d257ef18f2ed2c557f161c72319c26eb724b63be5dd2d4f7fc3",
           "byteSize": 51547,
@@ -19558,7 +19558,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/511bd6cbf97b58d19f28cabec580a020760dce94e6cb53acae9b5929297b58b8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/511bd6cbf97b58d19f28cabec580a020760dce94e6cb53acae9b5929297b58b8.pdf",
           "originalName": "exam-mc-2010-1_am.pdf",
           "sha256": "511bd6cbf97b58d19f28cabec580a020760dce94e6cb53acae9b5929297b58b8",
           "byteSize": 118168,
@@ -19571,7 +19571,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/ec80429ea78bd68e43b4ad3ba1f4f5bc3531d6fc69acded164cc5a5646945572.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/ec80429ea78bd68e43b4ad3ba1f4f5bc3531d6fc69acded164cc5a5646945572.pdf",
           "originalName": "exam-mc-2010-1_pm.pdf",
           "sha256": "ec80429ea78bd68e43b4ad3ba1f4f5bc3531d6fc69acded164cc5a5646945572",
           "byteSize": 127039,
@@ -19611,7 +19611,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/616f347714ef827fef40b03dbe11daaa5b2c02662d0ee0e94863d51105f382ba.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/616f347714ef827fef40b03dbe11daaa5b2c02662d0ee0e94863d51105f382ba.pdf",
           "originalName": "exam-mc-2010-2_am.pdf",
           "sha256": "616f347714ef827fef40b03dbe11daaa5b2c02662d0ee0e94863d51105f382ba",
           "byteSize": 127636,
@@ -19624,7 +19624,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/e70909018102b19deece2ae2d4a338d1ee288a773feec98433b0320992d48b27.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e70909018102b19deece2ae2d4a338d1ee288a773feec98433b0320992d48b27.pdf",
           "originalName": "exam-mc-2010-2_pm.pdf",
           "sha256": "e70909018102b19deece2ae2d4a338d1ee288a773feec98433b0320992d48b27",
           "byteSize": 134191,
@@ -19664,7 +19664,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/f7be6447c104c8e37d5bc99f94951f9c35dbf3d0209840abd1c57315e4219c74.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/f7be6447c104c8e37d5bc99f94951f9c35dbf3d0209840abd1c57315e4219c74.pdf",
           "originalName": "exam-mc-2011-1_am.pdf",
           "sha256": "f7be6447c104c8e37d5bc99f94951f9c35dbf3d0209840abd1c57315e4219c74",
           "byteSize": 134413,
@@ -19677,7 +19677,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/9061ff626b94eedff42c3f24b354fcbb8d5ee5fd6032caea858abf982a5dedd9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/9061ff626b94eedff42c3f24b354fcbb8d5ee5fd6032caea858abf982a5dedd9.pdf",
           "originalName": "exam-mc-2011-1_pm.pdf",
           "sha256": "9061ff626b94eedff42c3f24b354fcbb8d5ee5fd6032caea858abf982a5dedd9",
           "byteSize": 142747,
@@ -19717,7 +19717,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/32db5e467dc2a9260859fe8ab5744ed22cca2827cbd17e687c080a4989f244c1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/32db5e467dc2a9260859fe8ab5744ed22cca2827cbd17e687c080a4989f244c1.pdf",
           "originalName": "exam-mc-2011-2_am.pdf",
           "sha256": "32db5e467dc2a9260859fe8ab5744ed22cca2827cbd17e687c080a4989f244c1",
           "byteSize": 121995,
@@ -19730,7 +19730,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/7f3cfd6818acdb8898e52a1c20725c0d521374905c92f074b3accb46398f8ff4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/7f3cfd6818acdb8898e52a1c20725c0d521374905c92f074b3accb46398f8ff4.pdf",
           "originalName": "exam-mc-2011-2_pm.pdf",
           "sha256": "7f3cfd6818acdb8898e52a1c20725c0d521374905c92f074b3accb46398f8ff4",
           "byteSize": 129397,
@@ -19770,7 +19770,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/c63d99149686eeb30f43cd3625eb4876c80247b4284020a2e4d79c26064f3803.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/c63d99149686eeb30f43cd3625eb4876c80247b4284020a2e4d79c26064f3803.pdf",
           "originalName": "exam-mc-2012-1_am.pdf",
           "sha256": "c63d99149686eeb30f43cd3625eb4876c80247b4284020a2e4d79c26064f3803",
           "byteSize": 45055,
@@ -19783,7 +19783,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/068ee76de4cf21cbf60f199031ce9753f4e0d79571cfb72ccc4ae6e281412628.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/068ee76de4cf21cbf60f199031ce9753f4e0d79571cfb72ccc4ae6e281412628.pdf",
           "originalName": "exam-mc-2012-1_pm.pdf",
           "sha256": "068ee76de4cf21cbf60f199031ce9753f4e0d79571cfb72ccc4ae6e281412628",
           "byteSize": 43938,
@@ -19823,7 +19823,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/84e0f7d781bbf9af6f23ec42b4762999d27864c179522737f1039e179d4f96ec.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/84e0f7d781bbf9af6f23ec42b4762999d27864c179522737f1039e179d4f96ec.pdf",
           "originalName": "exam-mc-2012-2_am.pdf",
           "sha256": "84e0f7d781bbf9af6f23ec42b4762999d27864c179522737f1039e179d4f96ec",
           "byteSize": 35833,
@@ -19836,7 +19836,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/389dbed24c954528f901234fdfe215ea0d748edd3e2f80a990ebec232249bb07.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/389dbed24c954528f901234fdfe215ea0d748edd3e2f80a990ebec232249bb07.pdf",
           "originalName": "exam-mc-2012-2_pm.pdf",
           "sha256": "389dbed24c954528f901234fdfe215ea0d748edd3e2f80a990ebec232249bb07",
           "byteSize": 37572,
@@ -19876,7 +19876,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/825d55342af83bb1c35081cce33d63b32cb44d8bc001b22afa991e1312168951.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/825d55342af83bb1c35081cce33d63b32cb44d8bc001b22afa991e1312168951.pdf",
           "originalName": "exam-mc-2013-1_am.pdf",
           "sha256": "825d55342af83bb1c35081cce33d63b32cb44d8bc001b22afa991e1312168951",
           "byteSize": 131151,
@@ -19889,7 +19889,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/0afdb77aa6d6558c1c12584fa68277dfa8f422e43676f9a5d2943eb10f4d0c3c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0afdb77aa6d6558c1c12584fa68277dfa8f422e43676f9a5d2943eb10f4d0c3c.pdf",
           "originalName": "exam-mc-2013-1_pm.pdf",
           "sha256": "0afdb77aa6d6558c1c12584fa68277dfa8f422e43676f9a5d2943eb10f4d0c3c",
           "byteSize": 143895,
@@ -19929,7 +19929,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/cfb47837f4943b38eefdd08602b628f732408aa102d9dae1837d3a2f374f8412.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/cfb47837f4943b38eefdd08602b628f732408aa102d9dae1837d3a2f374f8412.pdf",
           "originalName": "exam-mc-2013-2_am.pdf",
           "sha256": "cfb47837f4943b38eefdd08602b628f732408aa102d9dae1837d3a2f374f8412",
           "byteSize": 125096,
@@ -19942,7 +19942,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/e28fdf72668fe929d381abc6ee81cada1829fdb23515f33373376143156c01e8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e28fdf72668fe929d381abc6ee81cada1829fdb23515f33373376143156c01e8.pdf",
           "originalName": "exam-mc-2013-2_pm.pdf",
           "sha256": "e28fdf72668fe929d381abc6ee81cada1829fdb23515f33373376143156c01e8",
           "byteSize": 123545,
@@ -19982,7 +19982,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/56944fbd30e930b77ac18b6c9d3f88554a3163e60c79d8cf65e7797a6c3832bb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/56944fbd30e930b77ac18b6c9d3f88554a3163e60c79d8cf65e7797a6c3832bb.pdf",
           "originalName": "exam-mc-2014-1_am.pdf",
           "sha256": "56944fbd30e930b77ac18b6c9d3f88554a3163e60c79d8cf65e7797a6c3832bb",
           "byteSize": 140236,
@@ -19995,7 +19995,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/7e805bd34f838488bda92e1b7d89a0cd2c41e862c8ad180b2f49cc6eff99d38e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/7e805bd34f838488bda92e1b7d89a0cd2c41e862c8ad180b2f49cc6eff99d38e.pdf",
           "originalName": "exam-mc-2014-1_pm.pdf",
           "sha256": "7e805bd34f838488bda92e1b7d89a0cd2c41e862c8ad180b2f49cc6eff99d38e",
           "byteSize": 142735,
@@ -20035,7 +20035,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/a9105ae8de780d4ce33780188435e453948eab2f943ad1350c5c95d1bd102bff.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/a9105ae8de780d4ce33780188435e453948eab2f943ad1350c5c95d1bd102bff.pdf",
           "originalName": "exam-mc-2014-2_am.pdf",
           "sha256": "a9105ae8de780d4ce33780188435e453948eab2f943ad1350c5c95d1bd102bff",
           "byteSize": 129225,
@@ -20048,7 +20048,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/3fad5fa9dee0dcefdf1eee43276a32b3ee310116feffb94ceffdfb8d2c502690.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/3fad5fa9dee0dcefdf1eee43276a32b3ee310116feffb94ceffdfb8d2c502690.pdf",
           "originalName": "exam-mc-2014-2_pm.pdf",
           "sha256": "3fad5fa9dee0dcefdf1eee43276a32b3ee310116feffb94ceffdfb8d2c502690",
           "byteSize": 136299,
@@ -20088,7 +20088,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/7073b8d659be96269bb23f1dca5987588071090354dbe62e47338b819caf5ce6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/7073b8d659be96269bb23f1dca5987588071090354dbe62e47338b819caf5ce6.pdf",
           "originalName": "exam-mc-2015-1_am.pdf",
           "sha256": "7073b8d659be96269bb23f1dca5987588071090354dbe62e47338b819caf5ce6",
           "byteSize": 113482,
@@ -20101,7 +20101,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/7de955a6bbf94f8c4aedba5177c9f889a73ae7a87068c504506ec1a3095aa8d4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/7de955a6bbf94f8c4aedba5177c9f889a73ae7a87068c504506ec1a3095aa8d4.pdf",
           "originalName": "exam-mc-2015-1_pm.pdf",
           "sha256": "7de955a6bbf94f8c4aedba5177c9f889a73ae7a87068c504506ec1a3095aa8d4",
           "byteSize": 128081,
@@ -20141,7 +20141,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/7514170d6bce0be60291acce99d6fac31bda6ed97a1b89e9940c313cf70b2b09.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/7514170d6bce0be60291acce99d6fac31bda6ed97a1b89e9940c313cf70b2b09.pdf",
           "originalName": "exam-mc-2015-2_am.pdf",
           "sha256": "7514170d6bce0be60291acce99d6fac31bda6ed97a1b89e9940c313cf70b2b09",
           "byteSize": 128206,
@@ -20154,7 +20154,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/3972ae977adaf5791611a13cd96d26f419377b5287f1994f85267cc2390a70f6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/3972ae977adaf5791611a13cd96d26f419377b5287f1994f85267cc2390a70f6.pdf",
           "originalName": "exam-mc-2015-2_pm.pdf",
           "sha256": "3972ae977adaf5791611a13cd96d26f419377b5287f1994f85267cc2390a70f6",
           "byteSize": 133259,
@@ -20194,7 +20194,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/584c8cfdfd1e82fa512435e759d543b86f84c7f5e79a3207bcf578e75157d06b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/584c8cfdfd1e82fa512435e759d543b86f84c7f5e79a3207bcf578e75157d06b.pdf",
           "originalName": "exam-mc-2016-1_am.pdf",
           "sha256": "584c8cfdfd1e82fa512435e759d543b86f84c7f5e79a3207bcf578e75157d06b",
           "byteSize": 133508,
@@ -20207,7 +20207,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/5ecef84d5e43ea954f0f7789000b4f4d7b68d3ebbb5524ba404851580095cfd5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5ecef84d5e43ea954f0f7789000b4f4d7b68d3ebbb5524ba404851580095cfd5.pdf",
           "originalName": "exam-mc-2016-1_pm.pdf",
           "sha256": "5ecef84d5e43ea954f0f7789000b4f4d7b68d3ebbb5524ba404851580095cfd5",
           "byteSize": 139172,
@@ -20247,7 +20247,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/1a09fde66b89e9bbd709b5c071b0404a7d29adac89709effb17c616002463a45.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/1a09fde66b89e9bbd709b5c071b0404a7d29adac89709effb17c616002463a45.pdf",
           "originalName": "exam-mc-2016-2_am.pdf",
           "sha256": "1a09fde66b89e9bbd709b5c071b0404a7d29adac89709effb17c616002463a45",
           "byteSize": 124538,
@@ -20260,7 +20260,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/1c32f9dd3136e9562f09e956a29b10d464b7df04df981d1da7a6700b6e179338.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/1c32f9dd3136e9562f09e956a29b10d464b7df04df981d1da7a6700b6e179338.pdf",
           "originalName": "exam-mc-2016-2_pm.pdf",
           "sha256": "1c32f9dd3136e9562f09e956a29b10d464b7df04df981d1da7a6700b6e179338",
           "byteSize": 132117,
@@ -20300,7 +20300,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/09dc817487389fc0e94493b1f7513b8e70d95abf2cbb89a4b4219cf33b90f099.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/09dc817487389fc0e94493b1f7513b8e70d95abf2cbb89a4b4219cf33b90f099.pdf",
           "originalName": "exam-mc-2017-1_am.pdf",
           "sha256": "09dc817487389fc0e94493b1f7513b8e70d95abf2cbb89a4b4219cf33b90f099",
           "byteSize": 128591,
@@ -20313,7 +20313,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/7a6505227a377690355e4a7ff966c1c6bfbd832817828971a76e9d6b633afd10.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/7a6505227a377690355e4a7ff966c1c6bfbd832817828971a76e9d6b633afd10.pdf",
           "originalName": "exam-mc-2017-1_pm.pdf",
           "sha256": "7a6505227a377690355e4a7ff966c1c6bfbd832817828971a76e9d6b633afd10",
           "byteSize": 130972,
@@ -20353,7 +20353,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/c22feb712692c60222e80c91aba7a455412254c23b2959bb5dab24859125638b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/c22feb712692c60222e80c91aba7a455412254c23b2959bb5dab24859125638b.pdf",
           "originalName": "exam-mc-2017-2_am.pdf",
           "sha256": "c22feb712692c60222e80c91aba7a455412254c23b2959bb5dab24859125638b",
           "byteSize": 133365,
@@ -20366,7 +20366,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/72416fcd14616cd3feb2f8f302721c5f06bb0b83f508b1e9f2f1b8aff2b53f5c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/72416fcd14616cd3feb2f8f302721c5f06bb0b83f508b1e9f2f1b8aff2b53f5c.pdf",
           "originalName": "exam-mc-2017-2_pm.pdf",
           "sha256": "72416fcd14616cd3feb2f8f302721c5f06bb0b83f508b1e9f2f1b8aff2b53f5c",
           "byteSize": 130784,
@@ -20406,7 +20406,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/4bf1deeef53d627c52ee156b5823a419763bed2a706b246295e54614fce83898.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/4bf1deeef53d627c52ee156b5823a419763bed2a706b246295e54614fce83898.pdf",
           "originalName": "exam-mc-2018-1_am.pdf",
           "sha256": "4bf1deeef53d627c52ee156b5823a419763bed2a706b246295e54614fce83898",
           "byteSize": 127371,
@@ -20419,7 +20419,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/7b7acd23841780c7f425744dfa91ccfe9873b4d9d050ba311d69b206deea72b7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/7b7acd23841780c7f425744dfa91ccfe9873b4d9d050ba311d69b206deea72b7.pdf",
           "originalName": "exam-mc-2018-1_pm.pdf",
           "sha256": "7b7acd23841780c7f425744dfa91ccfe9873b4d9d050ba311d69b206deea72b7",
           "byteSize": 128518,
@@ -20459,7 +20459,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/15e5b272065884939ac4d0d3ddcb8c5d7f2322538dff022ed7a1a1755a6cc97f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/15e5b272065884939ac4d0d3ddcb8c5d7f2322538dff022ed7a1a1755a6cc97f.pdf",
           "originalName": "exam-mc-2018-2_am.pdf",
           "sha256": "15e5b272065884939ac4d0d3ddcb8c5d7f2322538dff022ed7a1a1755a6cc97f",
           "byteSize": 126317,
@@ -20472,7 +20472,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/16575aad13c4705c800fdd1518a83c87ce4538b4c3a320d4ed0779efd0da8e22.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/16575aad13c4705c800fdd1518a83c87ce4538b4c3a320d4ed0779efd0da8e22.pdf",
           "originalName": "exam-mc-2018-2_pm.pdf",
           "sha256": "16575aad13c4705c800fdd1518a83c87ce4538b4c3a320d4ed0779efd0da8e22",
           "byteSize": 133843,
@@ -20512,7 +20512,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/75c5c7fb181f3d0457b0bdfb668afcd277c200e65becc30f791fa63183b98563.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/75c5c7fb181f3d0457b0bdfb668afcd277c200e65becc30f791fa63183b98563.pdf",
           "originalName": "exam-mc-2019-1_am.pdf",
           "sha256": "75c5c7fb181f3d0457b0bdfb668afcd277c200e65becc30f791fa63183b98563",
           "byteSize": 137278,
@@ -20525,7 +20525,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/12f3f4a5c7a1d376f3ec1ccfb153341c5f7c28c40acb3364b0465ab76a85c647.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/12f3f4a5c7a1d376f3ec1ccfb153341c5f7c28c40acb3364b0465ab76a85c647.pdf",
           "originalName": "exam-mc-2019-1_pm.pdf",
           "sha256": "12f3f4a5c7a1d376f3ec1ccfb153341c5f7c28c40acb3364b0465ab76a85c647",
           "byteSize": 135365,
@@ -20565,7 +20565,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/bcb187390dde6ac496455300afc1fe1172cf13c4b25bc828d062cc8992af4020.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/bcb187390dde6ac496455300afc1fe1172cf13c4b25bc828d062cc8992af4020.pdf",
           "originalName": "exam-mc-2019-2_am.pdf",
           "sha256": "bcb187390dde6ac496455300afc1fe1172cf13c4b25bc828d062cc8992af4020",
           "byteSize": 109989,
@@ -20578,7 +20578,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/d8699b957a1b689911abdd16b5ac09dde6890a430c3f4626008cd6a306b81e00.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d8699b957a1b689911abdd16b5ac09dde6890a430c3f4626008cd6a306b81e00.pdf",
           "originalName": "exam-mc-2019-2_pm.pdf",
           "sha256": "d8699b957a1b689911abdd16b5ac09dde6890a430c3f4626008cd6a306b81e00",
           "byteSize": 125499,
@@ -20618,7 +20618,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/36f4222129b0d438723543a437dbb9a63cc79ebe32cf3acc7eb6cced4bdba370.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/36f4222129b0d438723543a437dbb9a63cc79ebe32cf3acc7eb6cced4bdba370.pdf",
           "originalName": "exam-mc-2020-1_am.pdf",
           "sha256": "36f4222129b0d438723543a437dbb9a63cc79ebe32cf3acc7eb6cced4bdba370",
           "byteSize": 127997,
@@ -20631,7 +20631,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/00cd6c7c66103f43ba482d6da8c18970d7493ae7ceb40140f1b5c8b129a65bf5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/00cd6c7c66103f43ba482d6da8c18970d7493ae7ceb40140f1b5c8b129a65bf5.pdf",
           "originalName": "exam-mc-2020-1_pm.pdf",
           "sha256": "00cd6c7c66103f43ba482d6da8c18970d7493ae7ceb40140f1b5c8b129a65bf5",
           "byteSize": 124065,
@@ -20671,7 +20671,7 @@
         {
           "label": "午前",
           "kind": "question",
-          "url": "assets/past-papers/documents/1049928e75e59101e360568eb262e33b3097fcb85598eae6b85c5cfe6c4b2074.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/1049928e75e59101e360568eb262e33b3097fcb85598eae6b85c5cfe6c4b2074.pdf",
           "originalName": "exam-mc-2020-2_am.pdf",
           "sha256": "1049928e75e59101e360568eb262e33b3097fcb85598eae6b85c5cfe6c4b2074",
           "byteSize": 145557,
@@ -20684,7 +20684,7 @@
         {
           "label": "午後",
           "kind": "question",
-          "url": "assets/past-papers/documents/dbb7ca178661e3029742685c186e5f2d68f83fc3cf2bfeff49958b0b762191b0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/dbb7ca178661e3029742685c186e5f2d68f83fc3cf2bfeff49958b0b762191b0.pdf",
           "originalName": "exam-mc-2020-2_pm.pdf",
           "sha256": "dbb7ca178661e3029742685c186e5f2d68f83fc3cf2bfeff49958b0b762191b0",
           "byteSize": 150273,
@@ -20725,7 +20725,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/9f7bf668568c718cdbb10be308464f1fc19caef62811d526404553c1070d118d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/9f7bf668568c718cdbb10be308464f1fc19caef62811d526404553c1070d118d.pdf",
           "originalName": "exam-mc-2021-2_day1.pdf",
           "sha256": "9f7bf668568c718cdbb10be308464f1fc19caef62811d526404553c1070d118d",
           "byteSize": 129689,
@@ -20738,7 +20738,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/b661e11786638e6570aa0d5085556d473593c945ce1f19bbcb7cd1901fbc3c57.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/b661e11786638e6570aa0d5085556d473593c945ce1f19bbcb7cd1901fbc3c57.pdf",
           "originalName": "exam-mc-2021-2_day2.pdf",
           "sha256": "b661e11786638e6570aa0d5085556d473593c945ce1f19bbcb7cd1901fbc3c57",
           "byteSize": 149798,
@@ -20779,7 +20779,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/61c80b0cd031ab507244e699168b788991a1517c576cc6bdf99f81a58767464b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/61c80b0cd031ab507244e699168b788991a1517c576cc6bdf99f81a58767464b.pdf",
           "originalName": "exam-mc-2022-1_day1.pdf",
           "sha256": "61c80b0cd031ab507244e699168b788991a1517c576cc6bdf99f81a58767464b",
           "byteSize": 149009,
@@ -20792,7 +20792,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/3769a5bddbf50a3c2c90c4381cd62c9e2bc18c0c3b6afb1851a289e448cb5846.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/3769a5bddbf50a3c2c90c4381cd62c9e2bc18c0c3b6afb1851a289e448cb5846.pdf",
           "originalName": "exam-mc-2022-1_day2.pdf",
           "sha256": "3769a5bddbf50a3c2c90c4381cd62c9e2bc18c0c3b6afb1851a289e448cb5846",
           "byteSize": 149081,
@@ -20833,7 +20833,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/3a03ccb7f4433465b98d5e3e9f883997e25d28677c5dcaa98694d1c0a3c3491b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/3a03ccb7f4433465b98d5e3e9f883997e25d28677c5dcaa98694d1c0a3c3491b.pdf",
           "originalName": "exam-mc-2022-2_day1.pdf",
           "sha256": "3a03ccb7f4433465b98d5e3e9f883997e25d28677c5dcaa98694d1c0a3c3491b",
           "byteSize": 128250,
@@ -20846,7 +20846,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/82f9884d184cb5a8134a82933818908c481795ca11aec030c63d4f5f7fd4a95e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/82f9884d184cb5a8134a82933818908c481795ca11aec030c63d4f5f7fd4a95e.pdf",
           "originalName": "exam-mc-2022-2_day2.pdf",
           "sha256": "82f9884d184cb5a8134a82933818908c481795ca11aec030c63d4f5f7fd4a95e",
           "byteSize": 155046,
@@ -20887,7 +20887,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/cebfc09317624527821473f1da7d0e231abb79cb1b58b08dd88d97931ef8ae43.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/cebfc09317624527821473f1da7d0e231abb79cb1b58b08dd88d97931ef8ae43.pdf",
           "originalName": "exam-mc-2023-1_day1.pdf",
           "sha256": "cebfc09317624527821473f1da7d0e231abb79cb1b58b08dd88d97931ef8ae43",
           "byteSize": 281899,
@@ -20900,7 +20900,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/9a2f1d14b48694bb5ee387341c6d175b3e0fdff6b122f3272fe61287c0969de6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/9a2f1d14b48694bb5ee387341c6d175b3e0fdff6b122f3272fe61287c0969de6.pdf",
           "originalName": "exam-mc-2023-1_day2.pdf",
           "sha256": "9a2f1d14b48694bb5ee387341c6d175b3e0fdff6b122f3272fe61287c0969de6",
           "byteSize": 260746,
@@ -20941,7 +20941,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4322d9a76ffc98d50cc3dd88894b2526dce956bfeedeb3a8e93917633d718865.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/4322d9a76ffc98d50cc3dd88894b2526dce956bfeedeb3a8e93917633d718865.pdf",
           "originalName": "exam-mc-2023-2_day1.pdf",
           "sha256": "4322d9a76ffc98d50cc3dd88894b2526dce956bfeedeb3a8e93917633d718865",
           "byteSize": 101199,
@@ -20954,7 +20954,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/09be73474aa383c1c981feb55f022d0055eb92804c6c8c0872bbd15a320eaa22.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/09be73474aa383c1c981feb55f022d0055eb92804c6c8c0872bbd15a320eaa22.pdf",
           "originalName": "exam-mc-2023-2_day2.pdf",
           "sha256": "09be73474aa383c1c981feb55f022d0055eb92804c6c8c0872bbd15a320eaa22",
           "byteSize": 143156,
@@ -20995,7 +20995,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/954341b02d1e3f191b2511ac6d18f9148e8aa64aecfb0ad02163e6db566bdaa5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/954341b02d1e3f191b2511ac6d18f9148e8aa64aecfb0ad02163e6db566bdaa5.pdf",
           "originalName": "exam-mc-2024-1_day1.pdf",
           "sha256": "954341b02d1e3f191b2511ac6d18f9148e8aa64aecfb0ad02163e6db566bdaa5",
           "byteSize": 142200,
@@ -21008,7 +21008,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/ea42dc6158b4e16a8db3eb9224c9c03497be4241d36a4a9d6317ae21f6f31f25.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/ea42dc6158b4e16a8db3eb9224c9c03497be4241d36a4a9d6317ae21f6f31f25.pdf",
           "originalName": "exam-mc-2024-1_day2.pdf",
           "sha256": "ea42dc6158b4e16a8db3eb9224c9c03497be4241d36a4a9d6317ae21f6f31f25",
           "byteSize": 143355,
@@ -21049,7 +21049,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/2b034f96f4d0ead43a0ea9d2790bee820f976c18926aa997ad20f0dad6ff1a0c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/2b034f96f4d0ead43a0ea9d2790bee820f976c18926aa997ad20f0dad6ff1a0c.pdf",
           "originalName": "exam-mc-2024-2_day1.pdf",
           "sha256": "2b034f96f4d0ead43a0ea9d2790bee820f976c18926aa997ad20f0dad6ff1a0c",
           "byteSize": 101454,
@@ -21062,7 +21062,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/6ed3d3306e7d96a90c89119395638386873e762e4da4172af1f2f5a35de10362.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6ed3d3306e7d96a90c89119395638386873e762e4da4172af1f2f5a35de10362.pdf",
           "originalName": "exam-mc-2024-2_day2.pdf",
           "sha256": "6ed3d3306e7d96a90c89119395638386873e762e4da4172af1f2f5a35de10362",
           "byteSize": 111011,
@@ -21103,7 +21103,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/3f0ccdc8afa9daf4fcd0a3f1d22f61e5cc4a2be7721648937d56d95c6e864659.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/3f0ccdc8afa9daf4fcd0a3f1d22f61e5cc4a2be7721648937d56d95c6e864659.pdf",
           "originalName": "exam-mc-2025-1_day1.pdf",
           "sha256": "3f0ccdc8afa9daf4fcd0a3f1d22f61e5cc4a2be7721648937d56d95c6e864659",
           "byteSize": 114212,
@@ -21116,7 +21116,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/903c37234645e888382b05a34c4c9f648fb1793b5121e7e5353228bc64854e10.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/903c37234645e888382b05a34c4c9f648fb1793b5121e7e5353228bc64854e10.pdf",
           "originalName": "exam-mc-2025-1_day2.pdf",
           "sha256": "903c37234645e888382b05a34c4c9f648fb1793b5121e7e5353228bc64854e10",
           "byteSize": 120621,
@@ -21157,7 +21157,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a850ef7c2a06140a668de7a0669d50173e287b4d18a5560c23c8d33e8bdab9bc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/a850ef7c2a06140a668de7a0669d50173e287b4d18a5560c23c8d33e8bdab9bc.pdf",
           "originalName": "exam-mc-2025-2_day1.pdf",
           "sha256": "a850ef7c2a06140a668de7a0669d50173e287b4d18a5560c23c8d33e8bdab9bc",
           "byteSize": 114347,
@@ -21170,7 +21170,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e8f6d2113ef52f0d904de51511da1734c7df535b871a60be40c198332e70509d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e8f6d2113ef52f0d904de51511da1734c7df535b871a60be40c198332e70509d.pdf",
           "originalName": "exam-mc-2025-2_day2.pdf",
           "sha256": "e8f6d2113ef52f0d904de51511da1734c7df535b871a60be40c198332e70509d",
           "byteSize": 122107,
@@ -21211,7 +21211,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/836f73ce90f24a2957989228918c2276ad9b8808ed883e8b9a50725dbaa03b73.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/836f73ce90f24a2957989228918c2276ad9b8808ed883e8b9a50725dbaa03b73.pdf",
           "originalName": "exam-mc-2026-1_day1.pdf",
           "sha256": "836f73ce90f24a2957989228918c2276ad9b8808ed883e8b9a50725dbaa03b73",
           "byteSize": 122243,
@@ -21224,7 +21224,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8a0e45a7f2ca7929858c6fe7e9ea07a27ebc03bd74e0ca43eabf6aa0af87d47b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/8a0e45a7f2ca7929858c6fe7e9ea07a27ebc03bd74e0ca43eabf6aa0af87d47b.pdf",
           "originalName": "exam-mc-2026-1_day2.pdf",
           "sha256": "8a0e45a7f2ca7929858c6fe7e9ea07a27ebc03bd74e0ca43eabf6aa0af87d47b",
           "byteSize": 123970,
@@ -21265,7 +21265,7 @@
         {
           "label": "1日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/22d8c40ae225b75c29ca90f1b0f407a0b7008439c9b53ec1fce16a75e7e2b7af.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/22d8c40ae225b75c29ca90f1b0f407a0b7008439c9b53ec1fce16a75e7e2b7af.pdf",
           "originalName": "exam-mc-2026-2_day1.pdf",
           "sha256": "22d8c40ae225b75c29ca90f1b0f407a0b7008439c9b53ec1fce16a75e7e2b7af",
           "byteSize": 116629,
@@ -21278,7 +21278,7 @@
         {
           "label": "2日目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e3a6dbdfb54631e1a5350c51c0678fe1b08d2a3775d6363d1b440bb035ddf753.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e3a6dbdfb54631e1a5350c51c0678fe1b08d2a3775d6363d1b440bb035ddf753.pdf",
           "originalName": "exam-mc-2026-2_day2.pdf",
           "sha256": "e3a6dbdfb54631e1a5350c51c0678fe1b08d2a3775d6363d1b440bb035ddf753",
           "byteSize": 117049,
@@ -21315,7 +21315,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd.pdf",
           "originalName": "2007.pdf",
           "sha256": "52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd",
           "byteSize": 378040,
@@ -21352,7 +21352,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd.pdf",
           "originalName": "2007.pdf",
           "sha256": "52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd",
           "byteSize": 378040,
@@ -21389,7 +21389,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd.pdf",
           "originalName": "2007.pdf",
           "sha256": "52bf21148e507461e90de799c52bd88447cdcde680c1da7ef35abde1043c29dd",
           "byteSize": 378040,
@@ -21426,7 +21426,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b.pdf",
           "originalName": "2008.pdf",
           "sha256": "664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b",
           "byteSize": 1027010,
@@ -21463,7 +21463,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b.pdf",
           "originalName": "2008.pdf",
           "sha256": "664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b",
           "byteSize": 1027010,
@@ -21500,7 +21500,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b.pdf",
           "originalName": "2008.pdf",
           "sha256": "664ba147f08d7f1c2360c27176bb7a06fd4b6baec2c572a510f75dfbf5e9d93b",
           "byteSize": 1027010,
@@ -21537,7 +21537,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c.pdf",
           "originalName": "2009.pdf",
           "sha256": "0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c",
           "byteSize": 500335,
@@ -21574,7 +21574,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c.pdf",
           "originalName": "2009.pdf",
           "sha256": "0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c",
           "byteSize": 500335,
@@ -21611,7 +21611,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c.pdf",
           "originalName": "2009.pdf",
           "sha256": "0d1092e70c18e86e4ec07ed85144b62e58516f4c30734730ff387ea7f69ee33c",
           "byteSize": 500335,
@@ -21648,7 +21648,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0.pdf",
           "originalName": "2010.pdf",
           "sha256": "2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0",
           "byteSize": 565152,
@@ -21685,7 +21685,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0.pdf",
           "originalName": "2010.pdf",
           "sha256": "2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0",
           "byteSize": 565152,
@@ -21722,7 +21722,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0.pdf",
           "originalName": "2010.pdf",
           "sha256": "2e08e90327fd95d97a2bcf5ed2ca2dbb44a9de3b8e62086b22428e2285ac0ab0",
           "byteSize": 565152,
@@ -21759,7 +21759,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d.pdf",
           "originalName": "2011.pdf",
           "sha256": "d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d",
           "byteSize": 353127,
@@ -21796,7 +21796,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d.pdf",
           "originalName": "2011.pdf",
           "sha256": "d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d",
           "byteSize": 353127,
@@ -21833,7 +21833,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d.pdf",
           "originalName": "2011.pdf",
           "sha256": "d79dc5b6003da1f7415cafeb9976a1655a4bee999afbe58c38b75b6919b2df6d",
           "byteSize": 353127,
@@ -21870,7 +21870,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a.pdf",
           "originalName": "2012.pdf",
           "sha256": "48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a",
           "byteSize": 204641,
@@ -21907,7 +21907,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a.pdf",
           "originalName": "2012.pdf",
           "sha256": "48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a",
           "byteSize": 204641,
@@ -21944,7 +21944,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a.pdf",
           "originalName": "2012.pdf",
           "sha256": "48b66c6953fc52a7e2cf69c527c831e99aa51ea849d3a2434789b5f2e335963a",
           "byteSize": 204641,
@@ -21981,7 +21981,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b.pdf",
           "originalName": "2013.pdf",
           "sha256": "c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b",
           "byteSize": 1259264,
@@ -22018,7 +22018,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b.pdf",
           "originalName": "2013.pdf",
           "sha256": "c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b",
           "byteSize": 1259264,
@@ -22055,7 +22055,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b.pdf",
           "originalName": "2013.pdf",
           "sha256": "c66b42e3c000e7dce69c540e4e803ae1504d10866a0f69b34297d5a4cb28e59b",
           "byteSize": 1259264,
@@ -22092,7 +22092,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef.pdf",
           "originalName": "2014.pdf",
           "sha256": "0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef",
           "byteSize": 656599,
@@ -22129,7 +22129,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef.pdf",
           "originalName": "2014.pdf",
           "sha256": "0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef",
           "byteSize": 656599,
@@ -22166,7 +22166,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef.pdf",
           "originalName": "2014.pdf",
           "sha256": "0fb95e9ce885f630e7889ab25bbc89818aa946d61e31c9870ab376d12e1429ef",
           "byteSize": 656599,
@@ -22203,7 +22203,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab.pdf",
           "originalName": "2015.pdf",
           "sha256": "54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab",
           "byteSize": 213019,
@@ -22240,7 +22240,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab.pdf",
           "originalName": "2015.pdf",
           "sha256": "54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab",
           "byteSize": 213019,
@@ -22277,7 +22277,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab.pdf",
           "originalName": "2015.pdf",
           "sha256": "54069fa7ae8590b2898a9a24d838f0b13833fc6c12e0bb7d4e8f4d7b6d43e2ab",
           "byteSize": 213019,
@@ -22314,7 +22314,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f.pdf",
           "originalName": "2016.pdf",
           "sha256": "5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f",
           "byteSize": 406884,
@@ -22351,7 +22351,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f.pdf",
           "originalName": "2016.pdf",
           "sha256": "5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f",
           "byteSize": 406884,
@@ -22388,7 +22388,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f.pdf",
           "originalName": "2016.pdf",
           "sha256": "5cb7d50a387c5a08ccd2d0a546ad110f8417cfcf5c957fb43c3f2a2d93de442f",
           "byteSize": 406884,
@@ -22425,7 +22425,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc.pdf",
           "originalName": "2017.pdf",
           "sha256": "239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc",
           "byteSize": 283096,
@@ -22462,7 +22462,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc.pdf",
           "originalName": "2017.pdf",
           "sha256": "239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc",
           "byteSize": 283096,
@@ -22499,7 +22499,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc.pdf",
           "originalName": "2017.pdf",
           "sha256": "239dcf33fa0f98e3a4164171a523905467f3ae77db1815e10e41eff6e121c0fc",
           "byteSize": 283096,
@@ -22536,7 +22536,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c.pdf",
           "originalName": "2018.pdf",
           "sha256": "5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c",
           "byteSize": 226355,
@@ -22573,7 +22573,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c.pdf",
           "originalName": "2018.pdf",
           "sha256": "5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c",
           "byteSize": 226355,
@@ -22610,7 +22610,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c.pdf",
           "originalName": "2018.pdf",
           "sha256": "5a93cdb8633db0a9fcd31f4a2c9e89e208eea1f8ee765ee982b622aa27e07f0c",
           "byteSize": 226355,
@@ -22647,7 +22647,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146.pdf",
           "originalName": "2019.pdf",
           "sha256": "122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146",
           "byteSize": 251752,
@@ -22684,7 +22684,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146.pdf",
           "originalName": "2019.pdf",
           "sha256": "122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146",
           "byteSize": 251752,
@@ -22721,7 +22721,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146.pdf",
           "originalName": "2019.pdf",
           "sha256": "122ed9de11c882977bc3b5a376f6a505b56f0f3201b7d1b4e79ee8e2826b8146",
           "byteSize": 251752,
@@ -22758,7 +22758,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/edd0e70cfac0ff4f79b6ab3fb28c0b339ccd5377ce62403c474c53c9c831f60f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/edd0e70cfac0ff4f79b6ab3fb28c0b339ccd5377ce62403c474c53c9c831f60f.pdf",
           "originalName": "2021.pdf",
           "sha256": "edd0e70cfac0ff4f79b6ab3fb28c0b339ccd5377ce62403c474c53c9c831f60f",
           "byteSize": 196702,
@@ -22795,7 +22795,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5040407b1d7aa468435180987b27fe94f8c1d0e2f8a52aabcf18acca5c7c0797.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/5040407b1d7aa468435180987b27fe94f8c1d0e2f8a52aabcf18acca5c7c0797.pdf",
           "originalName": "2022.pdf",
           "sha256": "5040407b1d7aa468435180987b27fe94f8c1d0e2f8a52aabcf18acca5c7c0797",
           "byteSize": 200355,
@@ -22832,7 +22832,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c55a55e760f9253a1bcef8f901186bf1ef5c14ceff54d33418025de2e6058539.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/c55a55e760f9253a1bcef8f901186bf1ef5c14ceff54d33418025de2e6058539.pdf",
           "originalName": "2023.pdf",
           "sha256": "c55a55e760f9253a1bcef8f901186bf1ef5c14ceff54d33418025de2e6058539",
           "byteSize": 540401,
@@ -22869,7 +22869,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4382f74d5bc19974d8ff640a8305d3237e8a125ce80b81449cfe0f6c9c7e598c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/4382f74d5bc19974d8ff640a8305d3237e8a125ce80b81449cfe0f6c9c7e598c.pdf",
           "originalName": "2024.pdf",
           "sha256": "4382f74d5bc19974d8ff640a8305d3237e8a125ce80b81449cfe0f6c9c7e598c",
           "byteSize": 221894,
@@ -22907,7 +22907,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/46a569dfe2db56fe6679692227a2e4099e3d2de42edaddd301c02caea0250b77.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/46a569dfe2db56fe6679692227a2e4099e3d2de42edaddd301c02caea0250b77.pdf",
           "originalName": "2025_test.pdf",
           "sha256": "46a569dfe2db56fe6679692227a2e4099e3d2de42edaddd301c02caea0250b77",
           "byteSize": 310939,
@@ -22920,7 +22920,7 @@
         {
           "label": "出題の意図・解答例",
           "kind": "answer",
-          "url": "assets/past-papers/documents/e6a6892d08605d1104bcbdb97203814fc3ae251b63ebe955bbe1a3d92f71741d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e6a6892d08605d1104bcbdb97203814fc3ae251b63ebe955bbe1a3d92f71741d.pdf",
           "originalName": "2025_answer.pdf",
           "sha256": "e6a6892d08605d1104bcbdb97203814fc3ae251b63ebe955bbe1a3d92f71741d",
           "byteSize": 562705,
@@ -22964,7 +22964,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040.pdf",
           "originalName": "17.pdf",
           "sha256": "777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040",
           "byteSize": 1359220,
@@ -23004,7 +23004,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f.pdf",
           "originalName": "R7実施_MC一般筆記_問題.pdf",
           "sha256": "6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f",
           "byteSize": 1857672,
@@ -23017,7 +23017,7 @@
         {
           "label": "出題の意図・解答例",
           "kind": "answer",
-          "url": "assets/past-papers/documents/9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8.pdf",
           "originalName": "R7実施_MC一般筆記_出題意図・解答例.pdf",
           "sha256": "9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8",
           "byteSize": 826311,
@@ -23061,7 +23061,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040.pdf",
           "originalName": "17.pdf",
           "sha256": "777efc8fc385e7b508e3ac48ff3168f28f07e0cbfe8bcd030270e4a743cce040",
           "byteSize": 1359220,
@@ -23101,7 +23101,7 @@
         {
           "label": "基礎・専門",
           "kind": "question",
-          "url": "assets/past-papers/documents/6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f.pdf",
           "originalName": "R7実施_MC一般筆記_問題.pdf",
           "sha256": "6b9d5ffbcc8c37f394b50f93952bd524cb40b8ce5acc3f6e032f7b81aea5ee2f",
           "byteSize": 1857672,
@@ -23114,7 +23114,7 @@
         {
           "label": "出題の意図・解答例",
           "kind": "answer",
-          "url": "assets/past-papers/documents/9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8.pdf",
           "originalName": "R7実施_MC一般筆記_出題意図・解答例.pdf",
           "sha256": "9a6df16057681258682f7d239206f112fb2c995a2f769366cd2a7d86ae30ebf8",
           "byteSize": 826311,
@@ -23152,7 +23152,7 @@
         {
           "label": "基礎科目（共通原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/4451d8fbdb4035756ed0091a44b204dc2854463afbe265ad61035870abe0a260.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4451d8fbdb4035756ed0091a44b204dc2854463afbe265ad61035870abe0a260.pdf",
           "originalName": "2021 basic.pdf",
           "sha256": "4451d8fbdb4035756ed0091a44b204dc2854463afbe265ad61035870abe0a260",
           "byteSize": 2046089,
@@ -23166,7 +23166,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b02e63e35c9914383cdf28c907e583c73c742333fef7749118c48406a097ad96.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b02e63e35c9914383cdf28c907e583c73c742333fef7749118c48406a097ad96.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "b02e63e35c9914383cdf28c907e583c73c742333fef7749118c48406a097ad96",
           "byteSize": 952842,
@@ -23179,7 +23179,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4ca5334aa7e73c3e4c54c82319999a44b77c0fd3fe9802398e35b64701fa7570.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4ca5334aa7e73c3e4c54c82319999a44b77c0fd3fe9802398e35b64701fa7570.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "4ca5334aa7e73c3e4c54c82319999a44b77c0fd3fe9802398e35b64701fa7570",
           "byteSize": 1291724,
@@ -23192,7 +23192,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/af717f13c1258569bb53bc462d348f6286e78ceb56f1cca76eb1130c2a3f7ca2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/af717f13c1258569bb53bc462d348f6286e78ceb56f1cca76eb1130c2a3f7ca2.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "af717f13c1258569bb53bc462d348f6286e78ceb56f1cca76eb1130c2a3f7ca2",
           "byteSize": 1414214,
@@ -23236,7 +23236,7 @@
         {
           "label": "基礎科目（共通原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505.pdf",
           "originalName": "2022 basic.pdf",
           "sha256": "6453e98b0a988b81234c3339931c8d35d9d6d179e183d67721b1d0a32338f505",
           "byteSize": 12541113,
@@ -23250,7 +23250,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/66d68b2f23628b89995373f48e38ddec6700b55486116077cd69baa903245806.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/66d68b2f23628b89995373f48e38ddec6700b55486116077cd69baa903245806.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "66d68b2f23628b89995373f48e38ddec6700b55486116077cd69baa903245806",
           "byteSize": 10823279,
@@ -23263,7 +23263,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/88750b29b86c3dd0da721689cb903b640f933ddebbf25237b834491fa9c00295.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/88750b29b86c3dd0da721689cb903b640f933ddebbf25237b834491fa9c00295.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "88750b29b86c3dd0da721689cb903b640f933ddebbf25237b834491fa9c00295",
           "byteSize": 16398038,
@@ -23276,7 +23276,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c4d56831b10aa2cc082b2a18a87a5ee8e021c46721f5dcb58f3e51c1f7b6d067.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c4d56831b10aa2cc082b2a18a87a5ee8e021c46721f5dcb58f3e51c1f7b6d067.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "c4d56831b10aa2cc082b2a18a87a5ee8e021c46721f5dcb58f3e51c1f7b6d067",
           "byteSize": 18581081,
@@ -23320,7 +23320,7 @@
         {
           "label": "基礎科目（共通原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1.pdf",
           "originalName": "基礎科目.pdf",
           "sha256": "4c1e48274fc512a5982e33cec997c01ace12e5b7c397a1b7b52305a26dea10c1",
           "byteSize": 3672237,
@@ -23334,7 +23334,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5134a4e9de9f3bf04ed78d1a37029178abe0aea832bb1995ef067a608a4350f3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5134a4e9de9f3bf04ed78d1a37029178abe0aea832bb1995ef067a608a4350f3.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "5134a4e9de9f3bf04ed78d1a37029178abe0aea832bb1995ef067a608a4350f3",
           "byteSize": 3855702,
@@ -23347,7 +23347,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/30dbdf51e274681ac249c55500d9bcff1fb9390836a183b3508df03dbb51e6be.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/30dbdf51e274681ac249c55500d9bcff1fb9390836a183b3508df03dbb51e6be.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "30dbdf51e274681ac249c55500d9bcff1fb9390836a183b3508df03dbb51e6be",
           "byteSize": 4417485,
@@ -23360,7 +23360,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/07f51b1eeed4544ce8182a486616b6387c40b3d4be596e8cdbdb6970046753b0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/07f51b1eeed4544ce8182a486616b6387c40b3d4be596e8cdbdb6970046753b0.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "07f51b1eeed4544ce8182a486616b6387c40b3d4be596e8cdbdb6970046753b0",
           "byteSize": 5178263,
@@ -23404,7 +23404,7 @@
         {
           "label": "基礎科目（共通原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6.pdf",
           "originalName": "2024basic.pdf",
           "sha256": "fc81cee99439614ed4fd3b68b1b5ff78308c81f83f419fbf84e0ddcbd6be60f6",
           "byteSize": 1624645,
@@ -23418,7 +23418,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a81bc58a92447f647ab795bd5e8ab575247d6331f4da4c0b529d9db76874d16a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a81bc58a92447f647ab795bd5e8ab575247d6331f4da4c0b529d9db76874d16a.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "a81bc58a92447f647ab795bd5e8ab575247d6331f4da4c0b529d9db76874d16a",
           "byteSize": 1729267,
@@ -23431,7 +23431,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/d04fd8d2c290ce208543ee40d123ee33006d4d6e87e373977270be8c9fce6bc3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d04fd8d2c290ce208543ee40d123ee33006d4d6e87e373977270be8c9fce6bc3.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "d04fd8d2c290ce208543ee40d123ee33006d4d6e87e373977270be8c9fce6bc3",
           "byteSize": 1831561,
@@ -23444,7 +23444,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/389836765e569c7ab35b6cbec8bc799291db98d7e8c29af4fdbc0a897d094d00.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/389836765e569c7ab35b6cbec8bc799291db98d7e8c29af4fdbc0a897d094d00.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "389836765e569c7ab35b6cbec8bc799291db98d7e8c29af4fdbc0a897d094d00",
           "byteSize": 2066044,
@@ -23485,7 +23485,7 @@
         {
           "label": "数学・専門科目（课程原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/fb422705a21013b5afdd930b9b8f81ddf3492740bd7cad1c00654d1c8a2046c8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fb422705a21013b5afdd930b9b8f81ddf3492740bd7cad1c00654d1c8a2046c8.pdf",
           "originalName": "数学・専門科目試験問題（量子情報エレクトロニクスコース）.pdf",
           "sha256": "fb422705a21013b5afdd930b9b8f81ddf3492740bd7cad1c00654d1c8a2046c8",
           "byteSize": 2098667,
@@ -23522,7 +23522,7 @@
         {
           "label": "数学・専門科目（课程原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a.pdf",
           "originalName": "数学・専門科目試験問題（電気工学コース）.pdf",
           "sha256": "c285da4926063b075bff377bc395bc3497d272ee67e35f8c05dfed8738fde23a",
           "byteSize": 2091823,
@@ -23559,7 +23559,7 @@
         {
           "label": "数学・専門科目（课程原卷）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b5e75b0f6bcfd67250b847d91950fc6e22b3681a190dd169ee0e9853d33e28ae.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b5e75b0f6bcfd67250b847d91950fc6e22b3681a190dd169ee0e9853d33e28ae.pdf",
           "originalName": "数学・専門科目試験問題（情報通信工学コース）.pdf",
           "sha256": "b5e75b0f6bcfd67250b847d91950fc6e22b3681a190dd169ee0e9853d33e28ae",
           "byteSize": 9576426,
@@ -23603,7 +23603,7 @@
         {
           "label": "数学・物理学（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/1daa70581d75afd2da32be31b685539559607b81010ec949fea872489cb774ff.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1daa70581d75afd2da32be31b685539559607b81010ec949fea872489cb774ff.pdf",
           "originalName": "2022擭搙丂夁嫀栤戣.pdf",
           "sha256": "1daa70581d75afd2da32be31b685539559607b81010ec949fea872489cb774ff",
           "byteSize": 345191,
@@ -23646,7 +23646,7 @@
         {
           "label": "数学・物理学（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/305efd04845ef5948de09338b83acc6ebf3c10d06f6a4b1502f57a99313b241f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/305efd04845ef5948de09338b83acc6ebf3c10d06f6a4b1502f57a99313b241f.pdf",
           "originalName": "2023擭搙丂夁嫀栤戣.pdf",
           "sha256": "305efd04845ef5948de09338b83acc6ebf3c10d06f6a4b1502f57a99313b241f",
           "byteSize": 474481,
@@ -23689,7 +23689,7 @@
         {
           "label": "数学・物理学（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/bc9399f1fb133811bdcaabc3c9b46043f711edf2ebd6ab52a2275cd2239a4821.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bc9399f1fb133811bdcaabc3c9b46043f711edf2ebd6ab52a2275cd2239a4821.pdf",
           "originalName": "2024擭搙丂夁嫀栤戣.pdf",
           "sha256": "bc9399f1fb133811bdcaabc3c9b46043f711edf2ebd6ab52a2275cd2239a4821",
           "byteSize": 410090,
@@ -23732,7 +23732,7 @@
         {
           "label": "数学・物理学（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/1293c41ad387eb7c2861e5183f1a4c3f31c42a8df06ce082fc5378ec107222e8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1293c41ad387eb7c2861e5183f1a4c3f31c42a8df06ce082fc5378ec107222e8.pdf",
           "originalName": "2025擭搙丂夁嫀栤戣.pdf",
           "sha256": "1293c41ad387eb7c2861e5183f1a4c3f31c42a8df06ce082fc5378ec107222e8",
           "byteSize": 407696,
@@ -23775,7 +23775,7 @@
         {
           "label": "数学・物理学（原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c9c0c7c47f94e769da3004cca88069a5d57bbf8822ff0efeb172d414e562392c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c9c0c7c47f94e769da3004cca88069a5d57bbf8822ff0efeb172d414e562392c.pdf",
           "originalName": "2026擭搙丂夁嫀栤戣.pdf",
           "sha256": "c9c0c7c47f94e769da3004cca88069a5d57bbf8822ff0efeb172d414e562392c",
           "byteSize": 357577,
@@ -23788,7 +23788,7 @@
         {
           "label": "入试科目・参考书・配点说明（非试题／非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/e94e58042881f2b636f77ef4c8b10ac4015396fd66b638774fd7291c5cacdd2a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e94e58042881f2b636f77ef4c8b10ac4015396fd66b638774fd7291c5cacdd2a.pdf",
           "originalName": "2026擭搙丂壢栚昞.pdf",
           "sha256": "e94e58042881f2b636f77ef4c8b10ac4015396fd66b638774fd7291c5cacdd2a",
           "byteSize": 29328,
@@ -23829,7 +23829,7 @@
         {
           "label": "知能システム学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/92575879a1a58920c18aa4543dd72274a40ff2e14244a9b87cd90e4dae39d1cd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/92575879a1a58920c18aa4543dd72274a40ff2e14244a9b87cd90e4dae39d1cd.pdf",
           "originalName": "R2-1.pdf",
           "sha256": "92575879a1a58920c18aa4543dd72274a40ff2e14244a9b87cd90e4dae39d1cd",
           "byteSize": 113168,
@@ -23842,7 +23842,7 @@
         {
           "label": "知能システム学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/f861745c462eaec6c2f2d1245da5285672cf8b3de8d0e949c5ac957e2e20de2a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f861745c462eaec6c2f2d1245da5285672cf8b3de8d0e949c5ac957e2e20de2a.pdf",
           "originalName": "R2-2.pdf",
           "sha256": "f861745c462eaec6c2f2d1245da5285672cf8b3de8d0e949c5ac957e2e20de2a",
           "byteSize": 251530,
@@ -23883,7 +23883,7 @@
         {
           "label": "知能システム学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/c1a6531e124f2e139d7649e9df58d40d15eabf95242569b18c89e8a05f8af6ab.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c1a6531e124f2e139d7649e9df58d40d15eabf95242569b18c89e8a05f8af6ab.pdf",
           "originalName": "R3-1.pdf",
           "sha256": "c1a6531e124f2e139d7649e9df58d40d15eabf95242569b18c89e8a05f8af6ab",
           "byteSize": 1676360,
@@ -23896,7 +23896,7 @@
         {
           "label": "知能システム学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/90c5bbf356a727ef61d987eaf01fbf77cef1921181ed53d11f11a1cd254a40ef.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/90c5bbf356a727ef61d987eaf01fbf77cef1921181ed53d11f11a1cd254a40ef.pdf",
           "originalName": "R3-2.pdf",
           "sha256": "90c5bbf356a727ef61d987eaf01fbf77cef1921181ed53d11f11a1cd254a40ef",
           "byteSize": 3009156,
@@ -23937,7 +23937,7 @@
         {
           "label": "知能システム学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/36825cc31cafe67dfa804453aef1cc5753fca79ab114ef9b3e78be1507e3b974.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/36825cc31cafe67dfa804453aef1cc5753fca79ab114ef9b3e78be1507e3b974.pdf",
           "originalName": "R4-1.pdf",
           "sha256": "36825cc31cafe67dfa804453aef1cc5753fca79ab114ef9b3e78be1507e3b974",
           "byteSize": 140054,
@@ -23950,7 +23950,7 @@
         {
           "label": "知能システム学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/e22ba3f8102eb5270547139299877050cc79863e73e00aacb8cfb393dc0571c0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e22ba3f8102eb5270547139299877050cc79863e73e00aacb8cfb393dc0571c0.pdf",
           "originalName": "R4-2.pdf",
           "sha256": "e22ba3f8102eb5270547139299877050cc79863e73e00aacb8cfb393dc0571c0",
           "byteSize": 257175,
@@ -23991,7 +23991,7 @@
         {
           "label": "知能システム学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/2bf788327adb7dc8edc6af712e49986f5a1c54a3e1bf4d908f41debe4a870c6e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2bf788327adb7dc8edc6af712e49986f5a1c54a3e1bf4d908f41debe4a870c6e.pdf",
           "originalName": "R5-1.pdf",
           "sha256": "2bf788327adb7dc8edc6af712e49986f5a1c54a3e1bf4d908f41debe4a870c6e",
           "byteSize": 106011,
@@ -24004,7 +24004,7 @@
         {
           "label": "知能システム学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/a4fcb47522396857fa769f35dc664fbe472b9042cfce2ad54ba3eacced704943.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a4fcb47522396857fa769f35dc664fbe472b9042cfce2ad54ba3eacced704943.pdf",
           "originalName": "R5-2.pdf",
           "sha256": "a4fcb47522396857fa769f35dc664fbe472b9042cfce2ad54ba3eacced704943",
           "byteSize": 222568,
@@ -24045,7 +24045,7 @@
         {
           "label": "知能システム学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/10f24b73587a9a2868db8a1a3328e7d0eae8435f476b1d8e40981d1ee05d9dac.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/10f24b73587a9a2868db8a1a3328e7d0eae8435f476b1d8e40981d1ee05d9dac.pdf",
           "originalName": "R6-1.pdf",
           "sha256": "10f24b73587a9a2868db8a1a3328e7d0eae8435f476b1d8e40981d1ee05d9dac",
           "byteSize": 288980,
@@ -24058,7 +24058,7 @@
         {
           "label": "知能システム学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/06a2eab9ed0d924ac8d790aab6e52e21c0c791529434cda15c443909e00fc651.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/06a2eab9ed0d924ac8d790aab6e52e21c0c791529434cda15c443909e00fc651.pdf",
           "originalName": "R6-2.pdf",
           "sha256": "06a2eab9ed0d924ac8d790aab6e52e21c0c791529434cda15c443909e00fc651",
           "byteSize": 1422410,
@@ -24099,7 +24099,7 @@
         {
           "label": "知能システム学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/f908149bbdc43f693954b51130893e663dfb28c4a98bd6bf7252e9d693258864.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f908149bbdc43f693954b51130893e663dfb28c4a98bd6bf7252e9d693258864.pdf",
           "originalName": "R7-1.pdf",
           "sha256": "f908149bbdc43f693954b51130893e663dfb28c4a98bd6bf7252e9d693258864",
           "byteSize": 2597304,
@@ -24112,7 +24112,7 @@
         {
           "label": "知能システム学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/5950201e1ea68747fe5488d0e619e9fa0ae9d167cd5d75626168c2e104f1ed9a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5950201e1ea68747fe5488d0e619e9fa0ae9d167cd5d75626168c2e104f1ed9a.pdf",
           "originalName": "R7-2.pdf",
           "sha256": "5950201e1ea68747fe5488d0e619e9fa0ae9d167cd5d75626168c2e104f1ed9a",
           "byteSize": 4133839,
@@ -24148,7 +24148,7 @@
         {
           "label": "電子光科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/d82cab3b764f50f55cff77352a99625b60fdc6c20da956194c3651b853fc2193.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d82cab3b764f50f55cff77352a99625b60fdc6c20da956194c3651b853fc2193.pdf",
           "originalName": "2022-I.pdf",
           "sha256": "d82cab3b764f50f55cff77352a99625b60fdc6c20da956194c3651b853fc2193",
           "byteSize": 612335,
@@ -24161,7 +24161,7 @@
         {
           "label": "電子光科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/58f17cdf14b970501c6634c42625eaf739d2c622eb041ebaa146799e57c51ecc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/58f17cdf14b970501c6634c42625eaf739d2c622eb041ebaa146799e57c51ecc.pdf",
           "originalName": "2022-II.pdf",
           "sha256": "58f17cdf14b970501c6634c42625eaf739d2c622eb041ebaa146799e57c51ecc",
           "byteSize": 954790,
@@ -24197,7 +24197,7 @@
         {
           "label": "電子光科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/a8e79f807d1d7f21fbde8a7312ba7db793fcc07535050c7a2d476eb88d375a0f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a8e79f807d1d7f21fbde8a7312ba7db793fcc07535050c7a2d476eb88d375a0f.pdf",
           "originalName": "2023-I.pdf",
           "sha256": "a8e79f807d1d7f21fbde8a7312ba7db793fcc07535050c7a2d476eb88d375a0f",
           "byteSize": 1465183,
@@ -24210,7 +24210,7 @@
         {
           "label": "電子光科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/cb8fce44018bd4859ad41717f7aaa3bee52ee6fbb79baeccce4f61bbd7c7739e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cb8fce44018bd4859ad41717f7aaa3bee52ee6fbb79baeccce4f61bbd7c7739e.pdf",
           "originalName": "2023-II.pdf",
           "sha256": "cb8fce44018bd4859ad41717f7aaa3bee52ee6fbb79baeccce4f61bbd7c7739e",
           "byteSize": 630073,
@@ -24246,7 +24246,7 @@
         {
           "label": "電子光科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/246225a02325dc8491f5d6c6582ee399ef970d8302033a7f6bd3a7ccf03cd7b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/246225a02325dc8491f5d6c6582ee399ef970d8302033a7f6bd3a7ccf03cd7b9.pdf",
           "originalName": "2024-I.pdf",
           "sha256": "246225a02325dc8491f5d6c6582ee399ef970d8302033a7f6bd3a7ccf03cd7b9",
           "byteSize": 796061,
@@ -24259,7 +24259,7 @@
         {
           "label": "電子光科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/27df795377e03e4d80e2d1e96ead9b0c418966b74c248116c3038c449c188237.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/27df795377e03e4d80e2d1e96ead9b0c418966b74c248116c3038c449c188237.pdf",
           "originalName": "2024-II.pdf",
           "sha256": "27df795377e03e4d80e2d1e96ead9b0c418966b74c248116c3038c449c188237",
           "byteSize": 988753,
@@ -24295,7 +24295,7 @@
         {
           "label": "電子光科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/d0d9354538c9d03d52dbe03a549246bd99f063b6f7eb5a24ca12ec8c8e00214d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d0d9354538c9d03d52dbe03a549246bd99f063b6f7eb5a24ca12ec8c8e00214d.pdf",
           "originalName": "2025-I.pdf",
           "sha256": "d0d9354538c9d03d52dbe03a549246bd99f063b6f7eb5a24ca12ec8c8e00214d",
           "byteSize": 777990,
@@ -24308,7 +24308,7 @@
         {
           "label": "電子光科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/f765ca2db8fc7b94d54f819ec8acb22e31875c4d2b79b611a441fbdafbfb3a1f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f765ca2db8fc7b94d54f819ec8acb22e31875c4d2b79b611a441fbdafbfb3a1f.pdf",
           "originalName": "2025-II.pdf",
           "sha256": "f765ca2db8fc7b94d54f819ec8acb22e31875c4d2b79b611a441fbdafbfb3a1f",
           "byteSize": 1078418,
@@ -24344,7 +24344,7 @@
         {
           "label": "電子光科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/37ffa4a97d1753d6eed4eeff60ac77a884de567056c417d38d196ea459a3d7b2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/37ffa4a97d1753d6eed4eeff60ac77a884de567056c417d38d196ea459a3d7b2.pdf",
           "originalName": "2026-I.pdf",
           "sha256": "37ffa4a97d1753d6eed4eeff60ac77a884de567056c417d38d196ea459a3d7b2",
           "byteSize": 2299644,
@@ -24357,7 +24357,7 @@
         {
           "label": "電子光科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/ac91ae53c9d80177d8bf557486929debd72d60f2a11c493d7d5d06578af51073.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ac91ae53c9d80177d8bf557486929debd72d60f2a11c493d7d5d06578af51073.pdf",
           "originalName": "2026-II.pdf",
           "sha256": "ac91ae53c9d80177d8bf557486929debd72d60f2a11c493d7d5d06578af51073",
           "byteSize": 3258995,
@@ -24393,7 +24393,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/003a8a34e4903cec8acc67d5f026ecf3bcb70dd33f5781664f9ae9bacfb2c93c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/003a8a34e4903cec8acc67d5f026ecf3bcb70dd33f5781664f9ae9bacfb2c93c.pdf",
           "originalName": "h26_1.pdf",
           "sha256": "003a8a34e4903cec8acc67d5f026ecf3bcb70dd33f5781664f9ae9bacfb2c93c",
           "byteSize": 141541,
@@ -24406,7 +24406,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/aaa38da8d739bfd2effeb38bcb04d04794bd3aa2ac77495b0872345edb915e60.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/aaa38da8d739bfd2effeb38bcb04d04794bd3aa2ac77495b0872345edb915e60.pdf",
           "originalName": "h26_2.pdf",
           "sha256": "aaa38da8d739bfd2effeb38bcb04d04794bd3aa2ac77495b0872345edb915e60",
           "byteSize": 178921,
@@ -24442,7 +24442,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/a67c3e2e9740b3b79e186f6ad89225956d6ab7b7dd8679cca362bb5004f18afb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a67c3e2e9740b3b79e186f6ad89225956d6ab7b7dd8679cca362bb5004f18afb.pdf",
           "originalName": "h27_1.pdf",
           "sha256": "a67c3e2e9740b3b79e186f6ad89225956d6ab7b7dd8679cca362bb5004f18afb",
           "byteSize": 166311,
@@ -24455,7 +24455,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/98f59821dd2f04d12b8e3f2d52a0257db115636d5c28c80a521bf63dbd699131.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/98f59821dd2f04d12b8e3f2d52a0257db115636d5c28c80a521bf63dbd699131.pdf",
           "originalName": "h27_2.pdf",
           "sha256": "98f59821dd2f04d12b8e3f2d52a0257db115636d5c28c80a521bf63dbd699131",
           "byteSize": 117597,
@@ -24491,7 +24491,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/6ba720f05c8b60613c51421a9df59fe24e3680eadeb1d1575c5415f51dc017a0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6ba720f05c8b60613c51421a9df59fe24e3680eadeb1d1575c5415f51dc017a0.pdf",
           "originalName": "h28_1.pdf",
           "sha256": "6ba720f05c8b60613c51421a9df59fe24e3680eadeb1d1575c5415f51dc017a0",
           "byteSize": 245028,
@@ -24504,7 +24504,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/1c562f074b362328fa93c73347f7e04d59321b3ae16dff32c105a1fba0954254.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1c562f074b362328fa93c73347f7e04d59321b3ae16dff32c105a1fba0954254.pdf",
           "originalName": "h28_2.pdf",
           "sha256": "1c562f074b362328fa93c73347f7e04d59321b3ae16dff32c105a1fba0954254",
           "byteSize": 132757,
@@ -24540,7 +24540,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/65691afe71aaf0cc9d229fc95a42f729e1d3c35ad7db1f0ffcfe25c7daf713e0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/65691afe71aaf0cc9d229fc95a42f729e1d3c35ad7db1f0ffcfe25c7daf713e0.pdf",
           "originalName": "h29_1.pdf",
           "sha256": "65691afe71aaf0cc9d229fc95a42f729e1d3c35ad7db1f0ffcfe25c7daf713e0",
           "byteSize": 1658443,
@@ -24553,7 +24553,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/0c6dea9f5f1b5a8621a1863b86e75ef1e31d17a82d9df878a024ff3e49071b50.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0c6dea9f5f1b5a8621a1863b86e75ef1e31d17a82d9df878a024ff3e49071b50.pdf",
           "originalName": "h29_2.pdf",
           "sha256": "0c6dea9f5f1b5a8621a1863b86e75ef1e31d17a82d9df878a024ff3e49071b50",
           "byteSize": 1027158,
@@ -24589,7 +24589,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/a76a24d96164595f0f41652bbe6c0449e688fdc536e0f00e1b550da20434cb23.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a76a24d96164595f0f41652bbe6c0449e688fdc536e0f00e1b550da20434cb23.pdf",
           "originalName": "h30_1.pdf",
           "sha256": "a76a24d96164595f0f41652bbe6c0449e688fdc536e0f00e1b550da20434cb23",
           "byteSize": 220166,
@@ -24602,7 +24602,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/bd06361b24878289e5d58c23eff527ba99ec9a78dbdacc183f03d86251949ca5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bd06361b24878289e5d58c23eff527ba99ec9a78dbdacc183f03d86251949ca5.pdf",
           "originalName": "h30_2.pdf",
           "sha256": "bd06361b24878289e5d58c23eff527ba99ec9a78dbdacc183f03d86251949ca5",
           "byteSize": 263226,
@@ -24638,7 +24638,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/a6156ead2e48b58e320c46ed939b5d5de568da748041ed3f37ec01cfeab2e762.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a6156ead2e48b58e320c46ed939b5d5de568da748041ed3f37ec01cfeab2e762.pdf",
           "originalName": "h31_1.pdf",
           "sha256": "a6156ead2e48b58e320c46ed939b5d5de568da748041ed3f37ec01cfeab2e762",
           "byteSize": 188594,
@@ -24651,7 +24651,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/c5b92d318892599002fe70dd8edfe8b68230699ad12516ed9ea6aa6473e56d25.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c5b92d318892599002fe70dd8edfe8b68230699ad12516ed9ea6aa6473e56d25.pdf",
           "originalName": "h31_2.pdf",
           "sha256": "c5b92d318892599002fe70dd8edfe8b68230699ad12516ed9ea6aa6473e56d25",
           "byteSize": 170190,
@@ -24687,7 +24687,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/567088f80a3fcee632ee07270d6a4404b71f1a815b01aa9464bec83451dc8608.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/567088f80a3fcee632ee07270d6a4404b71f1a815b01aa9464bec83451dc8608.pdf",
           "originalName": "r2_1.pdf",
           "sha256": "567088f80a3fcee632ee07270d6a4404b71f1a815b01aa9464bec83451dc8608",
           "byteSize": 109957,
@@ -24700,7 +24700,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/2f9333ddba9e0999f7de91d2e35ae450f5e863f1ee45bd357dfafc6e01156573.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2f9333ddba9e0999f7de91d2e35ae450f5e863f1ee45bd357dfafc6e01156573.pdf",
           "originalName": "r2_2.pdf",
           "sha256": "2f9333ddba9e0999f7de91d2e35ae450f5e863f1ee45bd357dfafc6e01156573",
           "byteSize": 179130,
@@ -24736,7 +24736,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/3fe96c0a87095ba95d432d8b40f93adf644b9107c4ed83ade53750fd9215d905.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3fe96c0a87095ba95d432d8b40f93adf644b9107c4ed83ade53750fd9215d905.pdf",
           "originalName": "r3_1.pdf",
           "sha256": "3fe96c0a87095ba95d432d8b40f93adf644b9107c4ed83ade53750fd9215d905",
           "byteSize": 557747,
@@ -24749,7 +24749,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/0b329cdc6eac7544d49a4ca803d01cbaf587717920be6df04fcb1af0d6297bd4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0b329cdc6eac7544d49a4ca803d01cbaf587717920be6df04fcb1af0d6297bd4.pdf",
           "originalName": "r3_2.pdf",
           "sha256": "0b329cdc6eac7544d49a4ca803d01cbaf587717920be6df04fcb1af0d6297bd4",
           "byteSize": 794121,
@@ -24785,7 +24785,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/1b73437e4446d61c2e8a95838049f22afad73cbde6ec29f589c955f7c011b8b1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1b73437e4446d61c2e8a95838049f22afad73cbde6ec29f589c955f7c011b8b1.pdf",
           "originalName": "r4_1.pdf",
           "sha256": "1b73437e4446d61c2e8a95838049f22afad73cbde6ec29f589c955f7c011b8b1",
           "byteSize": 252923,
@@ -24798,7 +24798,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/a852727892ea7b5a24416ef1e19ff915ee858944da6f35ad9ceef10e41dcfbf2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a852727892ea7b5a24416ef1e19ff915ee858944da6f35ad9ceef10e41dcfbf2.pdf",
           "originalName": "r4_2.pdf",
           "sha256": "a852727892ea7b5a24416ef1e19ff915ee858944da6f35ad9ceef10e41dcfbf2",
           "byteSize": 258595,
@@ -24834,7 +24834,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/dce23348e4441af74223b4b0d4f7d50cbd3575eb803aca74b7cc33972066222f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dce23348e4441af74223b4b0d4f7d50cbd3575eb803aca74b7cc33972066222f.pdf",
           "originalName": "r5_1.pdf",
           "sha256": "dce23348e4441af74223b4b0d4f7d50cbd3575eb803aca74b7cc33972066222f",
           "byteSize": 148444,
@@ -24847,7 +24847,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/ce96d18d3053df685e177e0bc351fe4aac2958c8004a8627b3dea6b8187c0083.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ce96d18d3053df685e177e0bc351fe4aac2958c8004a8627b3dea6b8187c0083.pdf",
           "originalName": "r5_2.pdf",
           "sha256": "ce96d18d3053df685e177e0bc351fe4aac2958c8004a8627b3dea6b8187c0083",
           "byteSize": 146459,
@@ -24883,7 +24883,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/dbec75fd4f7bfa1f66a2e85d26fc3f12c99834dfde3955923bbdb65ff7944156.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dbec75fd4f7bfa1f66a2e85d26fc3f12c99834dfde3955923bbdb65ff7944156.pdf",
           "originalName": "r6_1.pdf",
           "sha256": "dbec75fd4f7bfa1f66a2e85d26fc3f12c99834dfde3955923bbdb65ff7944156",
           "byteSize": 731275,
@@ -24896,7 +24896,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/18d9517acf4d01cdf949617d406cb9993b275024df9ad2cad329c526fb8726e8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/18d9517acf4d01cdf949617d406cb9993b275024df9ad2cad329c526fb8726e8.pdf",
           "originalName": "r6_2.pdf",
           "sha256": "18d9517acf4d01cdf949617d406cb9993b275024df9ad2cad329c526fb8726e8",
           "byteSize": 777717,
@@ -24932,7 +24932,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/6059e5bfa5f5700722810e2e881f21d7d687c211ad53082dee2e8d8c9be05f1a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6059e5bfa5f5700722810e2e881f21d7d687c211ad53082dee2e8d8c9be05f1a.pdf",
           "originalName": "r7_1.pdf",
           "sha256": "6059e5bfa5f5700722810e2e881f21d7d687c211ad53082dee2e8d8c9be05f1a",
           "byteSize": 500228,
@@ -24945,7 +24945,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/b34bdbcae83f12ccda0ae783cd22070e2eff1c473e4b3dac14e1b9c82aa4f8dc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b34bdbcae83f12ccda0ae783cd22070e2eff1c473e4b3dac14e1b9c82aa4f8dc.pdf",
           "originalName": "r7_2.pdf",
           "sha256": "b34bdbcae83f12ccda0ae783cd22070e2eff1c473e4b3dac14e1b9c82aa4f8dc",
           "byteSize": 1016719,
@@ -24981,7 +24981,7 @@
         {
           "label": "機械科学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/5dd31c3b429d5bfdddab73329b80bc92b5746f55131f5f69b3016dabcddc4200.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5dd31c3b429d5bfdddab73329b80bc92b5746f55131f5f69b3016dabcddc4200.pdf",
           "originalName": "r8_1.pdf",
           "sha256": "5dd31c3b429d5bfdddab73329b80bc92b5746f55131f5f69b3016dabcddc4200",
           "byteSize": 231018,
@@ -24994,7 +24994,7 @@
         {
           "label": "機械科学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/94fbf5f0e4f2f76c4a42a920d926cc2b40d7733150e2e4f9e7ee4c9492af38fd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/94fbf5f0e4f2f76c4a42a920d926cc2b40d7733150e2e4f9e7ee4c9492af38fd.pdf",
           "originalName": "r8_2.pdf",
           "sha256": "94fbf5f0e4f2f76c4a42a920d926cc2b40d7733150e2e4f9e7ee4c9492af38fd",
           "byteSize": 186625,
@@ -25030,7 +25030,7 @@
         {
           "label": "生物工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/4df5ff3b59f0afa5f9fb3c0840e32a449e2db841ae2275f171e027211025fe4f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4df5ff3b59f0afa5f9fb3c0840e32a449e2db841ae2275f171e027211025fe4f.pdf",
           "originalName": "21_1.pdf",
           "sha256": "4df5ff3b59f0afa5f9fb3c0840e32a449e2db841ae2275f171e027211025fe4f",
           "byteSize": 179123,
@@ -25043,7 +25043,7 @@
         {
           "label": "生物工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/fe46516a0444e89b7be9e9f83edfb80766e27e9a262a8d4221c1b56ed3548aae.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fe46516a0444e89b7be9e9f83edfb80766e27e9a262a8d4221c1b56ed3548aae.pdf",
           "originalName": "21_2.pdf",
           "sha256": "fe46516a0444e89b7be9e9f83edfb80766e27e9a262a8d4221c1b56ed3548aae",
           "byteSize": 376585,
@@ -25079,7 +25079,7 @@
         {
           "label": "生物工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/fdf184e85eeb00b995f0628ba8f7f158ef2cfd6801d563d11932f963f7f41383.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fdf184e85eeb00b995f0628ba8f7f158ef2cfd6801d563d11932f963f7f41383.pdf",
           "originalName": "22_1.pdf",
           "sha256": "fdf184e85eeb00b995f0628ba8f7f158ef2cfd6801d563d11932f963f7f41383",
           "byteSize": 278695,
@@ -25092,7 +25092,7 @@
         {
           "label": "生物工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/410f74024cf492ed743a84d0f39d8a5ce4e547465b6a1d5ec9fc15d178a9aee1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/410f74024cf492ed743a84d0f39d8a5ce4e547465b6a1d5ec9fc15d178a9aee1.pdf",
           "originalName": "22_2.pdf",
           "sha256": "410f74024cf492ed743a84d0f39d8a5ce4e547465b6a1d5ec9fc15d178a9aee1",
           "byteSize": 291114,
@@ -25128,7 +25128,7 @@
         {
           "label": "生物工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/52bdbf4c9acf4e4fc054cd7fb4df0861cc164e1ae97d427c73cc91a39edf8e31.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/52bdbf4c9acf4e4fc054cd7fb4df0861cc164e1ae97d427c73cc91a39edf8e31.pdf",
           "originalName": "23_1.pdf",
           "sha256": "52bdbf4c9acf4e4fc054cd7fb4df0861cc164e1ae97d427c73cc91a39edf8e31",
           "byteSize": 355571,
@@ -25141,7 +25141,7 @@
         {
           "label": "生物工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/30fc5ad55408f929f2c93ac851076a6159e6a53372492a33df42cc7e08559699.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/30fc5ad55408f929f2c93ac851076a6159e6a53372492a33df42cc7e08559699.pdf",
           "originalName": "23_2.pdf",
           "sha256": "30fc5ad55408f929f2c93ac851076a6159e6a53372492a33df42cc7e08559699",
           "byteSize": 394945,
@@ -25177,7 +25177,7 @@
         {
           "label": "生物工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/50919674f81c1795d43d1194b0d772c235162fc4751ce38bee2d7bbb53c10419.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/50919674f81c1795d43d1194b0d772c235162fc4751ce38bee2d7bbb53c10419.pdf",
           "originalName": "24_1.pdf",
           "sha256": "50919674f81c1795d43d1194b0d772c235162fc4751ce38bee2d7bbb53c10419",
           "byteSize": 301414,
@@ -25190,7 +25190,7 @@
         {
           "label": "生物工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/2b2acb31f9a4c5cd3cba12210a373bfb89254941a71bff31e47160db30e1bad3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2b2acb31f9a4c5cd3cba12210a373bfb89254941a71bff31e47160db30e1bad3.pdf",
           "originalName": "24_2.pdf",
           "sha256": "2b2acb31f9a4c5cd3cba12210a373bfb89254941a71bff31e47160db30e1bad3",
           "byteSize": 380433,
@@ -25225,7 +25225,7 @@
         {
           "label": "生物工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/1ef7d8f4ee7704340fbd9e7c125a88418e4078acca261f72b918ab3e026abdd6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1ef7d8f4ee7704340fbd9e7c125a88418e4078acca261f72b918ab3e026abdd6.pdf",
           "originalName": "25_1.pdf",
           "sha256": "1ef7d8f4ee7704340fbd9e7c125a88418e4078acca261f72b918ab3e026abdd6",
           "byteSize": 204808,
@@ -25261,7 +25261,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/961f84eb5dfea08584b9c13d2d0b479f9f0f463189d5e6b279c90cc15a9bca42.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/961f84eb5dfea08584b9c13d2d0b479f9f0f463189d5e6b279c90cc15a9bca42.pdf",
           "originalName": "27_1.pdf",
           "sha256": "961f84eb5dfea08584b9c13d2d0b479f9f0f463189d5e6b279c90cc15a9bca42",
           "byteSize": 484638,
@@ -25298,7 +25298,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/3407371d4ff40f92a4da2855708d678b1001b1f46ae2f05edbc89fbe654c9ffd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3407371d4ff40f92a4da2855708d678b1001b1f46ae2f05edbc89fbe654c9ffd.pdf",
           "originalName": "28_1.pdf",
           "sha256": "3407371d4ff40f92a4da2855708d678b1001b1f46ae2f05edbc89fbe654c9ffd",
           "byteSize": 358848,
@@ -25311,7 +25311,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/8c2057d5913e2db73f69ad474f0d6235b10fdeef074365e4bc14ec7f0e9ac253.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8c2057d5913e2db73f69ad474f0d6235b10fdeef074365e4bc14ec7f0e9ac253.pdf",
           "originalName": "28_2.pdf",
           "sha256": "8c2057d5913e2db73f69ad474f0d6235b10fdeef074365e4bc14ec7f0e9ac253",
           "byteSize": 465216,
@@ -25347,7 +25347,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/62676e23d6e0b20cedbcfb7951f970a610e002eced5e49ddb8bfaa8d70070562.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/62676e23d6e0b20cedbcfb7951f970a610e002eced5e49ddb8bfaa8d70070562.pdf",
           "originalName": "29_1.pdf",
           "sha256": "62676e23d6e0b20cedbcfb7951f970a610e002eced5e49ddb8bfaa8d70070562",
           "byteSize": 841061,
@@ -25360,7 +25360,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/3c6473111b3e2421903ff4341c8ad8cc9b0606aa02638e90b9bfe02b75c5785d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3c6473111b3e2421903ff4341c8ad8cc9b0606aa02638e90b9bfe02b75c5785d.pdf",
           "originalName": "29_2.pdf",
           "sha256": "3c6473111b3e2421903ff4341c8ad8cc9b0606aa02638e90b9bfe02b75c5785d",
           "byteSize": 1113598,
@@ -25396,7 +25396,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/d305cf58649b61e4cf84820a367f048fe0b3f9c3edb0251976ea310ea426d7b3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d305cf58649b61e4cf84820a367f048fe0b3f9c3edb0251976ea310ea426d7b3.pdf",
           "originalName": "30_1.pdf",
           "sha256": "d305cf58649b61e4cf84820a367f048fe0b3f9c3edb0251976ea310ea426d7b3",
           "byteSize": 508585,
@@ -25409,7 +25409,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/8656ed9f09267b8df3152a77abcd943a7cb3ab6d1643e5eb8a10b0a923abb99e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8656ed9f09267b8df3152a77abcd943a7cb3ab6d1643e5eb8a10b0a923abb99e.pdf",
           "originalName": "30_2.pdf",
           "sha256": "8656ed9f09267b8df3152a77abcd943a7cb3ab6d1643e5eb8a10b0a923abb99e",
           "byteSize": 531924,
@@ -25444,7 +25444,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/de3d671c7f5305c3db0786265b43ffb7b3389659aad3c73d090163d3a9c2d757.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/de3d671c7f5305c3db0786265b43ffb7b3389659aad3c73d090163d3a9c2d757.pdf",
           "originalName": "31_2.pdf",
           "sha256": "de3d671c7f5305c3db0786265b43ffb7b3389659aad3c73d090163d3a9c2d757",
           "byteSize": 192758,
@@ -25481,7 +25481,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/3e43f18be0ae94608847eda89ccf8f3e7cb5d1759cbeb33a3a7aeb9dc320acf4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3e43f18be0ae94608847eda89ccf8f3e7cb5d1759cbeb33a3a7aeb9dc320acf4.pdf",
           "originalName": "R2_I.pdf",
           "sha256": "3e43f18be0ae94608847eda89ccf8f3e7cb5d1759cbeb33a3a7aeb9dc320acf4",
           "byteSize": 273814,
@@ -25494,7 +25494,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/0605d029dd87258decff5cac1a8814808c6c8029d4dd28f28f541b9b35775a34.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0605d029dd87258decff5cac1a8814808c6c8029d4dd28f28f541b9b35775a34.pdf",
           "originalName": "R2_II.pdf",
           "sha256": "0605d029dd87258decff5cac1a8814808c6c8029d4dd28f28f541b9b35775a34",
           "byteSize": 298621,
@@ -25530,7 +25530,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/7980a992bc3105ad49f2187c1caa3d35f46849956b4c7c156f68d18af77d9593.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7980a992bc3105ad49f2187c1caa3d35f46849956b4c7c156f68d18af77d9593.pdf",
           "originalName": "r3_1.pdf",
           "sha256": "7980a992bc3105ad49f2187c1caa3d35f46849956b4c7c156f68d18af77d9593",
           "byteSize": 206764,
@@ -25543,7 +25543,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/4b8e1024d7a9d3b4fa092c59592e708e7345654f737df7b391f14ed9bd42dd7e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4b8e1024d7a9d3b4fa092c59592e708e7345654f737df7b391f14ed9bd42dd7e.pdf",
           "originalName": "r3_2.pdf",
           "sha256": "4b8e1024d7a9d3b4fa092c59592e708e7345654f737df7b391f14ed9bd42dd7e",
           "byteSize": 89349,
@@ -25579,7 +25579,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/c168fd01c5ad41a25da4f2803e036c4ba29e1742b5c1d067bac0f1ce7d649dda.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c168fd01c5ad41a25da4f2803e036c4ba29e1742b5c1d067bac0f1ce7d649dda.pdf",
           "originalName": "r4_1.pdf",
           "sha256": "c168fd01c5ad41a25da4f2803e036c4ba29e1742b5c1d067bac0f1ce7d649dda",
           "byteSize": 407938,
@@ -25592,7 +25592,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/26b606bd132eaa72e2d83d47760ca294013ec3402e6f9465b62526ea350a7595.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/26b606bd132eaa72e2d83d47760ca294013ec3402e6f9465b62526ea350a7595.pdf",
           "originalName": "r4_2.pdf",
           "sha256": "26b606bd132eaa72e2d83d47760ca294013ec3402e6f9465b62526ea350a7595",
           "byteSize": 757077,
@@ -25628,7 +25628,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/086f840f1d36e9e9e4f24e90dd88e53c936173aeff20b32de81c0d5b130f39de.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/086f840f1d36e9e9e4f24e90dd88e53c936173aeff20b32de81c0d5b130f39de.pdf",
           "originalName": "r5_1.pdf",
           "sha256": "086f840f1d36e9e9e4f24e90dd88e53c936173aeff20b32de81c0d5b130f39de",
           "byteSize": 192139,
@@ -25641,7 +25641,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/a9be7b3fc9da50eb44243f7f83126eac6fcf4f5c9140efa5a79551c4c6cbd875.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a9be7b3fc9da50eb44243f7f83126eac6fcf4f5c9140efa5a79551c4c6cbd875.pdf",
           "originalName": "r5_2.pdf",
           "sha256": "a9be7b3fc9da50eb44243f7f83126eac6fcf4f5c9140efa5a79551c4c6cbd875",
           "byteSize": 197739,
@@ -25677,7 +25677,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/f1d36463529da37dabbb29b8eac4749f091e6bcd9c37824828c84c90b6a45025.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f1d36463529da37dabbb29b8eac4749f091e6bcd9c37824828c84c90b6a45025.pdf",
           "originalName": "r6_1.pdf",
           "sha256": "f1d36463529da37dabbb29b8eac4749f091e6bcd9c37824828c84c90b6a45025",
           "byteSize": 275206,
@@ -25690,7 +25690,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/240d68604f6c98870c08f704f04ffb5a6ca5971bacb3526f4f8482fd87d4576c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/240d68604f6c98870c08f704f04ffb5a6ca5971bacb3526f4f8482fd87d4576c.pdf",
           "originalName": "r6_2.pdf",
           "sha256": "240d68604f6c98870c08f704f04ffb5a6ca5971bacb3526f4f8482fd87d4576c",
           "byteSize": 481211,
@@ -25726,7 +25726,7 @@
         {
           "label": "生体システム工学Ⅰ",
           "kind": "question",
-          "url": "assets/past-papers/documents/d96752f810cc193ba1aa3002504e136aeebd58f61847d535a61cfa59c2e88276.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d96752f810cc193ba1aa3002504e136aeebd58f61847d535a61cfa59c2e88276.pdf",
           "originalName": "r7_1.pdf",
           "sha256": "d96752f810cc193ba1aa3002504e136aeebd58f61847d535a61cfa59c2e88276",
           "byteSize": 429883,
@@ -25739,7 +25739,7 @@
         {
           "label": "生体システム工学Ⅱ",
           "kind": "question",
-          "url": "assets/past-papers/documents/7ff72356cb3c1be2cfbc44f19c2edc8f34239ef98b7e1a453e3985e073bc9a3b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7ff72356cb3c1be2cfbc44f19c2edc8f34239ef98b7e1a453e3985e073bc9a3b.pdf",
           "originalName": "r7_2.pdf",
           "sha256": "7ff72356cb3c1be2cfbc44f19c2edc8f34239ef98b7e1a453e3985e073bc9a3b",
           "byteSize": 900691,
@@ -25775,7 +25775,7 @@
         {
           "label": "情報工学（共通原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/a59e552c402e5ce16a341f2bfd913e58b098202a5db6f6114d90da32b8b112f3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a59e552c402e5ce16a341f2bfd913e58b098202a5db6f6114d90da32b8b112f3.pdf",
           "originalName": "5_Information engineering_2021_JA.pdf",
           "sha256": "a59e552c402e5ce16a341f2bfd913e58b098202a5db6f6114d90da32b8b112f3",
           "byteSize": 9824372,
@@ -25822,7 +25822,7 @@
         {
           "label": "情報工学（共通原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0a027cba822ec8f263a8e5f60c157abf70765f2d460cccf17a81cd9eaddddc01.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0a027cba822ec8f263a8e5f60c157abf70765f2d460cccf17a81cd9eaddddc01.pdf",
           "originalName": "5_Information engineering_2022_JA.pdf",
           "sha256": "0a027cba822ec8f263a8e5f60c157abf70765f2d460cccf17a81cd9eaddddc01",
           "byteSize": 1767175,
@@ -25870,7 +25870,7 @@
         {
           "label": "情報工学（共通原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/a4e17c0bddbf08251010278863404a2694744fdf522922fb29322584e459e646.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a4e17c0bddbf08251010278863404a2694744fdf522922fb29322584e459e646.pdf",
           "originalName": "5_Information_engineering_2023_JA.pdf",
           "sha256": "a4e17c0bddbf08251010278863404a2694744fdf522922fb29322584e459e646",
           "byteSize": 1589715,
@@ -25917,7 +25917,7 @@
         {
           "label": "情報工学（共通原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10.pdf",
           "originalName": "5_Information engineering_2024_JA.pdf",
           "sha256": "813b58dbaa8d898156d5ad6c94efa227f2228d4556f4f7f472755d4652852c10",
           "byteSize": 13866460,
@@ -25964,7 +25964,7 @@
         {
           "label": "情報工学（共通原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/89e91ff6e66e3eb2f9ce648201cc873de0b4bf13bd8c3c2b2e1a1ca9bf016d52.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/89e91ff6e66e3eb2f9ce648201cc873de0b4bf13bd8c3c2b2e1a1ca9bf016d52.pdf",
           "originalName": "5_Information engineering_2025_JA.pdf",
           "sha256": "89e91ff6e66e3eb2f9ce648201cc873de0b4bf13bd8c3c2b2e1a1ca9bf016d52",
           "byteSize": 1749345,
@@ -26011,7 +26011,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a.pdf",
           "originalName": "mondaiA03.pdf",
           "sha256": "1fd5b867530e906a141a43934aac9943033d9c9118c9419281ed5e02dd47600a",
           "byteSize": 52523,
@@ -26024,7 +26024,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312.pdf",
           "originalName": "mondaiB03.pdf",
           "sha256": "5cc903bb8691883518e4724c27cfeeb0efa70459ee7d2882811fc70038970312",
           "byteSize": 50260,
@@ -26064,7 +26064,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9.pdf",
           "originalName": "mondaiA05.pdf",
           "sha256": "dfc10c6fb4f4b1dbe796d43df286280f22117e57a5ea4a3fa078f27510aa60c9",
           "byteSize": 89372,
@@ -26077,7 +26077,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401.pdf",
           "originalName": "mondaiB05.pdf",
           "sha256": "f511de40d4c4bd5e20666fa616f7fc31182080fa1983cd3fcd5c706e14d25401",
           "byteSize": 109637,
@@ -26117,7 +26117,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2.pdf",
           "originalName": "H17MathA.pdf",
           "sha256": "940ec87dee8aabcdcbf84fb41c388bf7ab291f98fb09b78ac8ed570a28ed8ac2",
           "byteSize": 403673,
@@ -26130,7 +26130,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173.pdf",
           "originalName": "H17MathB.pdf",
           "sha256": "20284090ae37608e2bb2b52a1f974310036db9a1c0335dcf695f7a7cc1d3c173",
           "byteSize": 677945,
@@ -26170,7 +26170,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac.pdf",
           "originalName": "H18mathA.pdf",
           "sha256": "ca13bff780034a7b32f87c4422ef66d48855ac6b9c4f2eb2e36108b763c3e7ac",
           "byteSize": 73583,
@@ -26183,7 +26183,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb.pdf",
           "originalName": "H18mathB.pdf",
           "sha256": "65fef2a1b9f52da607d6415b3c35c6cdce608e514d94c81fc3f7e09d549cf4fb",
           "byteSize": 54533,
@@ -26223,7 +26223,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45.pdf",
           "originalName": "H19mathA.pdf",
           "sha256": "cedbd65e8fbb5c183bb9e2c46d4a2c216793f2dacd8765b33813abcad4ec3c45",
           "byteSize": 28662,
@@ -26236,7 +26236,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748.pdf",
           "originalName": "H19mathB.pdf",
           "sha256": "cd741075d2ae20863ab05ddd9ae12fb46cccb19237a1a5c4dcd878214be29748",
           "byteSize": 24382,
@@ -26276,7 +26276,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7.pdf",
           "originalName": "matha-08.pdf",
           "sha256": "456061fecfb5a66aae24a8f39682f875fbb348016b71a0a5180cccc1c7ecaeb7",
           "byteSize": 37032,
@@ -26289,7 +26289,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540.pdf",
           "originalName": "mathb-08.pdf",
           "sha256": "a8ef502dd99db7ce92988ac5245bace5fb0ad2d2e4a3a63b447f1dba7c09b540",
           "byteSize": 32423,
@@ -26329,7 +26329,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde.pdf",
           "originalName": "A1.pdf",
           "sha256": "a1b2a4842a21c008b0f0fc4ec5ff4188ee5492b91dd5abb8497623d7ec950cde",
           "byteSize": 33912,
@@ -26342,7 +26342,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4.pdf",
           "originalName": "B1.pdf",
           "sha256": "878731bacf86c2b46694704369a0fb416467833a9edd7d0cad60dfcfb75da9a4",
           "byteSize": 31999,
@@ -26382,7 +26382,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23.pdf",
           "originalName": "A.pdf",
           "sha256": "c8ca3b8837e054283ebb01d14ad5ae96939ce38d7fb4e4c42fe4805c77b0ed23",
           "byteSize": 34778,
@@ -26395,7 +26395,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6.pdf",
           "originalName": "B.pdf",
           "sha256": "e40f28f46ca0f1a13aa2a3f266ef91163677df267bc74217de3432dd5a80efc6",
           "byteSize": 29059,
@@ -26435,7 +26435,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297.pdf",
           "originalName": "2011A.pdf",
           "sha256": "ab6897cc97691759c3853f3bcd90fa9713ac6c8868fba7377fda15159a005297",
           "byteSize": 29040,
@@ -26448,7 +26448,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a.pdf",
           "originalName": "2011B.pdf",
           "sha256": "bf511b343a2d90330c2132816dedf4942415c3792ce6a9ffea4e0d77075a0b3a",
           "byteSize": 30587,
@@ -26488,7 +26488,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216.pdf",
           "originalName": "2012A.pdf",
           "sha256": "48662df56171dd6c68e3d4d8b9c1186d2728afada87d041019bb086e14ef1216",
           "byteSize": 31151,
@@ -26501,7 +26501,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558.pdf",
           "originalName": "2012B.pdf",
           "sha256": "67f23ed9d49a9952d2296c6ad05cedb4fec2c43d125cec67ebbbc0bb0a84e558",
           "byteSize": 33887,
@@ -26541,7 +26541,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe.pdf",
           "originalName": "2013A.pdf",
           "sha256": "c7f917ccbb95622395f66b47658b97fbd42bd771aaefc7031b82b16b358c70fe",
           "byteSize": 64912,
@@ -26554,7 +26554,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136.pdf",
           "originalName": "2013B.pdf",
           "sha256": "973159a63c9ada14629830efff70dbab77a3814eda37456823a4bd79995ad136",
           "byteSize": 45307,
@@ -26594,7 +26594,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec.pdf",
           "originalName": "2014A.pdf",
           "sha256": "57e4a3861413d551668204f37a27d748d72d5aaa5bd75196fb64178226e042ec",
           "byteSize": 65089,
@@ -26607,7 +26607,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c.pdf",
           "originalName": "2014B.pdf",
           "sha256": "0e24e936dde4f89b344966a3ebdbddc5e6600ccf6f5314e4a31602d5cf210f6c",
           "byteSize": 58899,
@@ -26647,7 +26647,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040.pdf",
           "originalName": "2015A.pdf",
           "sha256": "384ba04182d0043f6beaae435b8ea7dd2a2f3cc40bfd1779c7eafb040604e040",
           "byteSize": 24964,
@@ -26660,7 +26660,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27.pdf",
           "originalName": "2015B.pdf",
           "sha256": "a838b88a9c7e98e9a579f325881bd357e54f127d5925b4610dbaf420576f0e27",
           "byteSize": 24538,
@@ -26700,7 +26700,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033.pdf",
           "originalName": "2016A.pdf",
           "sha256": "902136469ab7f0742c7931f2e47c5476a301bc51c6b16285db5bcd51c1a3f033",
           "byteSize": 77922,
@@ -26713,7 +26713,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26.pdf",
           "originalName": "2016B.pdf",
           "sha256": "448897129c4750b351b7a9edc714c570da7fd338a8a3ac6865c96129cdbaec26",
           "byteSize": 95269,
@@ -26753,7 +26753,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0.pdf",
           "originalName": "2017A.pdf",
           "sha256": "fa0bd1f25745cd6f0d933063e32263bf411043e03e792ffb730ede33fc3640e0",
           "byteSize": 21684,
@@ -26766,7 +26766,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632.pdf",
           "originalName": "2017B.pdf",
           "sha256": "9d25f4674cb5a1cacd132186cf678697b67ea8b090ea18e2010da606116ca632",
           "byteSize": 34774,
@@ -26806,7 +26806,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462.pdf",
           "originalName": "2018A.pdf",
           "sha256": "b290eb6ef6d896b2382e4ea44a80a817751003d2022ad9020160a81409477462",
           "byteSize": 81752,
@@ -26819,7 +26819,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8.pdf",
           "originalName": "2018B.pdf",
           "sha256": "243808015a8e4c58a2769fdd2d56c6d3a09d2bdc12d5fb66ccc2806fbbed99b8",
           "byteSize": 158359,
@@ -26859,7 +26859,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf.pdf",
           "originalName": "2019A.pdf",
           "sha256": "e7261874a22eaf9706b6f4d09092a098ce96788153fd76aa0756cac5be4e0fbf",
           "byteSize": 262372,
@@ -26872,7 +26872,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7.pdf",
           "originalName": "2019B.pdf",
           "sha256": "6dfadc271825a251a854c546283e0e766ae5c5a75ba109f974e3a6f12041aad7",
           "byteSize": 432829,
@@ -26912,7 +26912,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254.pdf",
           "originalName": "2020A.pdf",
           "sha256": "7d241994f3c943c08cf519ef78d68a39075dd551ef844d8b1f0c249e3e10f254",
           "byteSize": 49078,
@@ -26925,7 +26925,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c.pdf",
           "originalName": "2020B.pdf",
           "sha256": "c05b14302793bafda007ff1e9db5d381b41e51533566b71981f494372fc9c02c",
           "byteSize": 83172,
@@ -26965,7 +26965,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507.pdf",
           "originalName": "2022A.pdf",
           "sha256": "c426fbf27304146c2aec91a10bedc43f20d108c0d9211de7efe83c6c6643c507",
           "byteSize": 92676,
@@ -26978,7 +26978,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f.pdf",
           "originalName": "2022B.pdf",
           "sha256": "fc9acc0d33f30eacb781bcceb01dd2990563d3dd34cfd55646c24d2741244f0f",
           "byteSize": 161373,
@@ -27018,7 +27018,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2.pdf",
           "originalName": "2023A.pdf",
           "sha256": "061842c8601dad6beb12c693c3cb210bf550167d9c851720ad8ad8e0adc4e8d2",
           "byteSize": 64975,
@@ -27031,7 +27031,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9.pdf",
           "originalName": "2023B.pdf",
           "sha256": "609adb8e5b56a65123dd79aa56eb078d7f938df679cf98bcd19e846099d406b9",
           "byteSize": 95862,
@@ -27071,7 +27071,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9.pdf",
           "originalName": "2024A.pdf",
           "sha256": "5d0fe74710ddd02c9a7872d6a3fcf56ffaf85ad9d5d3ddbb6862ac6e4627e3f9",
           "byteSize": 80445,
@@ -27084,7 +27084,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364.pdf",
           "originalName": "2024B.pdf",
           "sha256": "b9c3962fa476b6f3752a583bcd930530a04429530e091de503530f4207527364",
           "byteSize": 103725,
@@ -27124,7 +27124,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e.pdf",
           "originalName": "2025A.pdf",
           "sha256": "8c36ce6d87e9abef5af067ed01336dd80b773a3a01193700bffb464ea29a4c9e",
           "byteSize": 69885,
@@ -27137,7 +27137,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec.pdf",
           "originalName": "2025B.pdf",
           "sha256": "04b2023cdcec92c276f0e4a952e2cdbb18f484e5d9612edd73c9aa6a9d63f1ec",
           "byteSize": 74309,
@@ -27177,7 +27177,7 @@
         {
           "label": "数学問題A",
           "kind": "question",
-          "url": "assets/past-papers/documents/25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380.pdf",
           "originalName": "2026A.pdf",
           "sha256": "25e1ae57362ebbb5f46c5e155de688916b5020e4a19c4b607a90d043b79a0380",
           "byteSize": 74710,
@@ -27190,7 +27190,7 @@
         {
           "label": "数学問題B",
           "kind": "question",
-          "url": "assets/past-papers/documents/a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594.pdf",
           "originalName": "2026B.pdf",
           "sha256": "a67274479068381cc0f9556fe06ae5bdb0a7b1d16aff42f197a9200bc2ed2594",
           "byteSize": 83941,
@@ -27229,7 +27229,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa.pdf",
           "originalName": "H17nijiboshu.pdf",
           "sha256": "7125bbff6d586c357d6cadaf814704357420e50a9d24c0cfd3c49dc49f3386aa",
           "byteSize": 48984,
@@ -27264,7 +27264,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8.pdf",
           "originalName": "H18nijiboshu.pdf",
           "sha256": "a021ce6861f12d1645d253bed1ee93651cc241bd5662c0b268cb865de5e152e8",
           "byteSize": 21111,
@@ -27303,7 +27303,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813.pdf",
           "originalName": "H19nijiboshu.pdf",
           "sha256": "b841fa895e5515e659180a11399830200a29f67be6816f3707ef2ea5e5dd1813",
           "byteSize": 43059,
@@ -27342,7 +27342,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a.pdf",
           "originalName": "nijiboshu-08.pdf",
           "sha256": "b1cda424bdd253eb7a453033a3c1064dcfab8e6c42cb7f7ccfde3612351e041a",
           "byteSize": 34791,
@@ -27381,7 +27381,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c.pdf",
           "originalName": "nijiboshu.pdf",
           "sha256": "925707a23d4c8da385c644b70267cea0b673fa59be12e16e161f4e82a5348f1c",
           "byteSize": 190102,
@@ -27420,7 +27420,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796.pdf",
           "originalName": "2ji.pdf",
           "sha256": "fb877c4dbb88f2f1d65a6d4413096709b6014e128be83ec204d0805844531796",
           "byteSize": 26173,
@@ -27459,7 +27459,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035.pdf",
           "originalName": "2011niji.pdf",
           "sha256": "156622efb5d910245c034bed450217b19b051a614b8e2753b78d433dc77bd035",
           "byteSize": 17797,
@@ -27498,7 +27498,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62.pdf",
           "originalName": "2012niji.pdf",
           "sha256": "809d52dff3fd6c792a13f713131e638670f8f09911b0e1af6876f8ca8c280d62",
           "byteSize": 145604,
@@ -27537,7 +27537,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb.pdf",
           "originalName": "2013niji.pdf",
           "sha256": "83f3edbb3c6cada5396b216b980a515440d6bf37da0551255786366ad363a3eb",
           "byteSize": 44603,
@@ -27576,7 +27576,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc.pdf",
           "originalName": "2014niji.pdf",
           "sha256": "f2a42a8802768d4d14a93546c28a71cb003bed4456f509a3e28c6266d8d3cffc",
           "byteSize": 61365,
@@ -27615,7 +27615,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a.pdf",
           "originalName": "2015niji.pdf",
           "sha256": "abd6c76f622b1c795a5b58f34d43706934b77a50d442be4170cac4e3455fb19a",
           "byteSize": 22626,
@@ -27654,7 +27654,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a.pdf",
           "originalName": "2022-2.pdf",
           "sha256": "cee52dd0a8b918a43c1c37f7dba568d3a59d1018ae3d7f646015b36c9295b48a",
           "byteSize": 90678,
@@ -27693,7 +27693,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5.pdf",
           "originalName": "2023-2.pdf",
           "sha256": "648394230b33916eaf13997a0400da97a43eec8bcb3ee16da9b66d53167017e5",
           "byteSize": 83530,
@@ -27732,7 +27732,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54.pdf",
           "originalName": "2025-2.pdf",
           "sha256": "22ae578da5c6c8b67ecf292e3f434d400e6cecd751b1a5d6b761e3d8662fbf54",
           "byteSize": 46796,
@@ -27771,7 +27771,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548.pdf",
           "originalName": "2026-2.pdf",
           "sha256": "0b794cd1e2fabb81bc4c4d0167c60c2822705ec7a61fc1d2a33beba937e1c548",
           "byteSize": 62776,
@@ -27812,7 +27812,7 @@
         {
           "label": "物理学 A1",
           "kind": "question",
-          "url": "assets/past-papers/documents/bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37.pdf",
           "originalName": "physics1998A1.pdf",
           "sha256": "bf33d84af78fc75f5481ed2e85e4e2d823ba9cbc9a1e9644529baaa00d425f37",
           "byteSize": 80008,
@@ -27825,7 +27825,7 @@
         {
           "label": "物理学 A2",
           "kind": "question",
-          "url": "assets/past-papers/documents/96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d.pdf",
           "originalName": "physics1998A2.pdf",
           "sha256": "96563129a3820d1131fadfa01d58e24295d79deb0c16bf290286c2bdd1c73d4d",
           "byteSize": 71314,
@@ -27838,7 +27838,7 @@
         {
           "label": "物理学 B",
           "kind": "question",
-          "url": "assets/past-papers/documents/2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca.pdf",
           "originalName": "physics1998B.pdf",
           "sha256": "2641f09bdd0bfceb6e76fd1a43c51a4c2492f52c1fda4fbdba48fa0ca69ee8ca",
           "byteSize": 418246,
@@ -27876,7 +27876,7 @@
         {
           "label": "物理学 A1",
           "kind": "question",
-          "url": "assets/past-papers/documents/a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653.pdf",
           "originalName": "physics1999A1.pdf",
           "sha256": "a33d42f889a66896aedd46d1b6d6b5e1a556d2706da710cbaa42fc7fd0ca6653",
           "byteSize": 86034,
@@ -27889,7 +27889,7 @@
         {
           "label": "物理学 A2",
           "kind": "question",
-          "url": "assets/past-papers/documents/c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da.pdf",
           "originalName": "physics1999A2.pdf",
           "sha256": "c713d9bc423d2547b7f02b159b9a039e9c2b6537c764106817fbaf7062ed09da",
           "byteSize": 70706,
@@ -27902,7 +27902,7 @@
         {
           "label": "物理学 B",
           "kind": "question",
-          "url": "assets/past-papers/documents/d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b.pdf",
           "originalName": "physics1999B.pdf",
           "sha256": "d518af248b52e704fb27868b75dbcf2fd92486118a5fc11264b436a5793ff63b",
           "byteSize": 294894,
@@ -27939,7 +27939,7 @@
         {
           "label": "物理学 A1",
           "kind": "question",
-          "url": "assets/past-papers/documents/584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03.pdf",
           "originalName": "physics2000A.pdf",
           "sha256": "584173574ba0042a4f91f8b77d352303cfb3da29348f134bf965fa4c2a80de03",
           "byteSize": 46670,
@@ -27952,7 +27952,7 @@
         {
           "label": "物理学 B",
           "kind": "question",
-          "url": "assets/past-papers/documents/8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd.pdf",
           "originalName": "physics2000B.pdf",
           "sha256": "8cf10c07e35a117251ecbb4a418761bc80a1eb79807d0016dd2ed6587e9f1ddd",
           "byteSize": 86246,
@@ -27989,7 +27989,7 @@
         {
           "label": "物理学 A",
           "kind": "question",
-          "url": "assets/past-papers/documents/922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f.pdf",
           "originalName": "physics2001A.pdf",
           "sha256": "922be3645ced1fb8a1d610c924d60ab7a73d2fcc43df5dcc070ca6ac4db0111f",
           "byteSize": 66891,
@@ -28002,7 +28002,7 @@
         {
           "label": "物理学 B",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16.pdf",
           "originalName": "physics2001B.pdf",
           "sha256": "5e6040ca1a697b70e45f61f71744acd140d89971b8a760aaaa6899c2b3c08d16",
           "byteSize": 352459,
@@ -28039,7 +28039,7 @@
         {
           "label": "物理学 A",
           "kind": "question",
-          "url": "assets/past-papers/documents/70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880.pdf",
           "originalName": "physics2002A.pdf",
           "sha256": "70bb3ffe6ca5c7e3c02cecb920f1693713ef130fb0a9740fa90ae957c469f880",
           "byteSize": 78854,
@@ -28052,7 +28052,7 @@
         {
           "label": "物理学 B",
           "kind": "question",
-          "url": "assets/past-papers/documents/8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a.pdf",
           "originalName": "physics2002B.pdf",
           "sha256": "8995ac686be5e90f591b182cd0b2d9e9b40fdbf27c7d8ff31c53ea5ba435a29a",
           "byteSize": 565226,
@@ -28089,7 +28089,7 @@
         {
           "label": "物理学（A・B原合册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68.pdf",
           "originalName": "physics2003.pdf",
           "sha256": "d5dc87421038a306f5ff1665de28e603950a8e841ef62926651afbacf42a0e68",
           "byteSize": 114024,
@@ -28125,7 +28125,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041.pdf",
           "originalName": "physics2004.pdf",
           "sha256": "98d956f19b488dc1e2588ea41ff6cf69f2a7fc113ea883b6624b0812139d1041",
           "byteSize": 46839,
@@ -28161,7 +28161,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1.pdf",
           "originalName": "physics2005.pdf",
           "sha256": "b2bb2918c2e6bcd413d3ea0356cf74b2c334e8e3ac823238814d5359278303f1",
           "byteSize": 296417,
@@ -28200,7 +28200,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24.pdf",
           "originalName": "physics2006.pdf",
           "sha256": "e2087e85b905bcad040043e5092445fa0a2ab11a2dc44026b3bb47caa7100c24",
           "byteSize": 138938,
@@ -28239,7 +28239,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990.pdf",
           "originalName": "physics2007.pdf",
           "sha256": "91e644f14643e3e987d4a06846d953ade815608aad8b52ae510fb6a1b0a4c990",
           "byteSize": 191442,
@@ -28278,7 +28278,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7.pdf",
           "originalName": "physics2008.pdf",
           "sha256": "cb0dd3b4c5818e3c7171f02794082aff3d6c77ee0b9e286500a1984159cc4cc7",
           "byteSize": 124067,
@@ -28317,7 +28317,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38.pdf",
           "originalName": "physics2009.pdf",
           "sha256": "c1c801667d7fe49bca8e203813c183a0d814be81f7584932c008c4c35c254e38",
           "byteSize": 646991,
@@ -28356,7 +28356,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750.pdf",
           "originalName": "physics2010.pdf",
           "sha256": "0e3341574a036c13296723e8b02b5ea596e7fea70ae96ec6e32982b55be8d750",
           "byteSize": 213028,
@@ -28395,7 +28395,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81.pdf",
           "originalName": "physics2011.pdf",
           "sha256": "770d7801ac70e5cc3f2925ab3cc216ad0a8bb1955d8262bbb8635eb1ef9d5f81",
           "byteSize": 79643,
@@ -28434,7 +28434,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d.pdf",
           "originalName": "physics2012.pdf",
           "sha256": "34ccde358c9d134bb3c18f9cb32fb851decf4ae498d5292b3fc29ec2dfa9007d",
           "byteSize": 385504,
@@ -28469,7 +28469,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86.pdf",
           "originalName": "physics2013.pdf",
           "sha256": "97b0bc6f69d416b0f1bd11e320dde1ef1930519a39d4a55a1d806a670c097a86",
           "byteSize": 1177714,
@@ -28504,7 +28504,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f.pdf",
           "originalName": "physics2014.pdf",
           "sha256": "e74268b1bb2855d077f332f9a07e040f7c7c851032d0289fbe06f731b0b7701f",
           "byteSize": 552961,
@@ -28539,7 +28539,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476.pdf",
           "originalName": "physics2015.pdf",
           "sha256": "dbdd5028d852bec8047bc1bccc3d59b23f9c29729483b502d548e794bbcf3476",
           "byteSize": 927454,
@@ -28574,7 +28574,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0.pdf",
           "originalName": "physics2016.pdf",
           "sha256": "8668242d298a1076803ea1dd47ee7f98273d793f8aa6360ad0bd27e1800456f0",
           "byteSize": 97923,
@@ -28609,7 +28609,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278.pdf",
           "originalName": "physics2017.pdf",
           "sha256": "2d39e187629fb79db2257cca25430216c2f6ed5bdec2cffcd78079f222bbe278",
           "byteSize": 134880,
@@ -28644,7 +28644,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072.pdf",
           "originalName": "physics2018.pdf",
           "sha256": "2d6267030071159488d910fd8bda590d0a84ba0df8d9e1669f4a1fd914206072",
           "byteSize": 479161,
@@ -28679,7 +28679,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180.pdf",
           "originalName": "physics2019.pdf",
           "sha256": "1293a449a3be427f8eb551f41c79f68add43ded19802b7c1cabc576d6aef9180",
           "byteSize": 374006,
@@ -28714,7 +28714,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8.pdf",
           "originalName": "physics2020.pdf",
           "sha256": "00ac4204f008b3965f8dda895e4901fdb0751e68c6f3746e735c54954041faa8",
           "byteSize": 686345,
@@ -28749,7 +28749,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c.pdf",
           "originalName": "physics2021.pdf",
           "sha256": "70b1f3b2a9a67cac8714c61d37ffe379d149265a94f4440c51a34d367050105c",
           "byteSize": 1199427,
@@ -28784,7 +28784,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c.pdf",
           "originalName": "physics2022.pdf",
           "sha256": "fdb0ab752e621cfb3ebcd59f973df64863eed746ca50f55248882f0bb565280c",
           "byteSize": 910900,
@@ -28823,7 +28823,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536.pdf",
           "originalName": "physics2023.pdf",
           "sha256": "ab3a69a330b0f3e5cefff39a33047388e125169e865645effc30109b9d698536",
           "byteSize": 468080,
@@ -28862,7 +28862,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd.pdf",
           "originalName": "physics2024.pdf",
           "sha256": "f6b74741d1c631f6d9ab6505e6f9161410cf9d76439c153d66c9aa2d8d878fbd",
           "byteSize": 675583,
@@ -28901,7 +28901,7 @@
         {
           "label": "物理学",
           "kind": "question",
-          "url": "assets/past-papers/documents/03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73.pdf",
           "originalName": "physics2025.pdf",
           "sha256": "03066b8ec87fd0bc8aa4acb2022d4944c7b6af98f117e18f68d8efe173adfa73",
           "byteSize": 538946,
@@ -28941,7 +28941,7 @@
         {
           "label": "数理科学 I・II",
           "kind": "question",
-          "url": "assets/past-papers/documents/e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36.pdf",
           "originalName": "r04.pdf",
           "sha256": "e3c91d1456bdf59ad9f60b7502c0ccc1e075053f8b66135c063b382b5a614b36",
           "byteSize": 131935,
@@ -28977,7 +28977,7 @@
         {
           "label": "数理科学 I・II",
           "kind": "question",
-          "url": "assets/past-papers/documents/eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94.pdf",
           "originalName": "r05.pdf",
           "sha256": "eb0c8ac5632a790b8b892a24cb7e66a67664bec3eb61093569142dd8f0731d94",
           "byteSize": 114951,
@@ -29013,7 +29013,7 @@
         {
           "label": "数理科学 I・II",
           "kind": "question",
-          "url": "assets/past-papers/documents/ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c.pdf",
           "originalName": "r06.pdf",
           "sha256": "ea32933983a5d4a52d42e0a3615ceaf234b1f12895c857367ff71c7637f70d7c",
           "byteSize": 147071,
@@ -29049,7 +29049,7 @@
         {
           "label": "数理科学 I・II",
           "kind": "question",
-          "url": "assets/past-papers/documents/7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823.pdf",
           "originalName": "r07.pdf",
           "sha256": "7be942c8dce708cb973ac965170e4c134b154ed86e3841b2ae13dccb10bdc823",
           "byteSize": 176701,
@@ -29085,7 +29085,7 @@
         {
           "label": "数理科学 I・II",
           "kind": "question",
-          "url": "assets/past-papers/documents/f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a.pdf",
           "originalName": "r08.pdf",
           "sha256": "f898c0a70c49eef0b5ecf473bcccae19b9f666e0f5695cb0865072731ff5180a",
           "byteSize": 140951,
@@ -29121,7 +29121,7 @@
         {
           "label": "物性物理科学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895.pdf",
           "originalName": "R04_1.pdf",
           "sha256": "0eeb4f9f31ac7baa9ce88f2d9db9a4dcc7ef03a0f531c07899db9d0b771ed895",
           "byteSize": 514883,
@@ -29134,7 +29134,7 @@
         {
           "label": "物性物理科学 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083.pdf",
           "originalName": "R04_2.pdf",
           "sha256": "e4a211670add5d1174704a408c696cd7181412ff9d622b983ad0906e4f9bb083",
           "byteSize": 956091,
@@ -29170,7 +29170,7 @@
         {
           "label": "物性物理科学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7.pdf",
           "originalName": "R05_1.pdf",
           "sha256": "522b576f5d20b25bd1ce4aacf7d291a4ac7714d945d86e392360793d221010d7",
           "byteSize": 1571550,
@@ -29183,7 +29183,7 @@
         {
           "label": "物性物理科学 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497.pdf",
           "originalName": "R05_2.pdf",
           "sha256": "7b6619665577b8d6ae8167e6f188dbaf113cef79d89e20ba7ae884f5051ea497",
           "byteSize": 364050,
@@ -29219,7 +29219,7 @@
         {
           "label": "物性物理科学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d.pdf",
           "originalName": "R06_1.pdf",
           "sha256": "76dba38b5fdb0eec729f6f2a58bbe31a05ad051b5df896ed323854189fee1c0d",
           "byteSize": 295552,
@@ -29232,7 +29232,7 @@
         {
           "label": "物性物理科学 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a.pdf",
           "originalName": "R06_2.pdf",
           "sha256": "583dbcfc5c216ef666c4a677ade3a6bc1a4119528e2e0187b2825075da2b9c2a",
           "byteSize": 214878,
@@ -29268,7 +29268,7 @@
         {
           "label": "物性物理科学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e.pdf",
           "originalName": "R07_1.pdf",
           "sha256": "f991cc7b60a9f6a425d1728a9c8d5444c9908bc9ee2a648a5548abc7b249128e",
           "byteSize": 283346,
@@ -29281,7 +29281,7 @@
         {
           "label": "物性物理科学 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac.pdf",
           "originalName": "R07_2.pdf",
           "sha256": "2013de22beeeff4bf797f185df0a00674850c391ae9c053c0ebc6a7914b501ac",
           "byteSize": 1066391,
@@ -29317,7 +29317,7 @@
         {
           "label": "物性物理科学 I",
           "kind": "question",
-          "url": "assets/past-papers/documents/6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb.pdf",
           "originalName": "R08_1.pdf",
           "sha256": "6bae43764d995cb1f63d09a2857b2f9ee50de884eb4b4d6e6014ec1d3637e7cb",
           "byteSize": 270099,
@@ -29330,7 +29330,7 @@
         {
           "label": "物性物理科学 II",
           "kind": "question",
-          "url": "assets/past-papers/documents/dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c.pdf",
           "originalName": "R08_2.pdf",
           "sha256": "dace62d1f751d9f50e3dbb668e1d59234c96b41a839cdd4827b02aa73727858c",
           "byteSize": 319156,
@@ -29365,7 +29365,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7.pdf",
           "originalName": "MA_nyushi_2005_JA.pdf",
           "sha256": "5094d7687d192c2ba0533f643d04161c65858e216a82cddd34e484d08c69e6e7",
           "byteSize": 32619,
@@ -29400,7 +29400,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819.pdf",
           "originalName": "MA_nyushi_2006_JA.pdf",
           "sha256": "047cd4443519648d5da009e1286c8c89e50e72df87fdbad507a47530a2101819",
           "byteSize": 22505,
@@ -29435,7 +29435,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c.pdf",
           "originalName": "MA_nyushi_2007_JA.pdf",
           "sha256": "2a8df1388b770086a1fbe328e63a45245b9b3e799579a559565d3c44b7cb993c",
           "byteSize": 99520,
@@ -29470,7 +29470,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756.pdf",
           "originalName": "MA_nyushi_2008_JA.pdf",
           "sha256": "f14eca277daf20fd36f77e49e890de4d22120f28e02c27c53dd83712edec4756",
           "byteSize": 105447,
@@ -29505,7 +29505,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200.pdf",
           "originalName": "MA_nyushi_2009_JA.pdf",
           "sha256": "aedda56b9d963316204721ef2e023f1b02199ea55bc71a50ff2da7b4ee458200",
           "byteSize": 18600,
@@ -29540,7 +29540,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8.pdf",
           "originalName": "MA_nyushi_2010_JA.pdf",
           "sha256": "df765d168b9c68f606761ba08ab45f2361fad174be7bd617f41cdee5bf4280b8",
           "byteSize": 27796,
@@ -29575,7 +29575,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6.pdf",
           "originalName": "MA_nyushi_2011_JA.pdf",
           "sha256": "a5e0a1fad8b45994bb61e11f50d8f3e13ba0aeb20e075a811a8fe4e4e1ec33b6",
           "byteSize": 48443,
@@ -29610,7 +29610,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af.pdf",
           "originalName": "MA_nyushi_2012_JA.pdf",
           "sha256": "c5b824d88f7ae96649651ebe737f91d7e28afaabfddf6d306e311612029e10af",
           "byteSize": 55755,
@@ -29645,7 +29645,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf.pdf",
           "originalName": "MA_nyushi_2013_JA.pdf",
           "sha256": "d7533f90aaee0857f4f78e6ad60db8ff3c553fdc753484838230abe7d02d5eaf",
           "byteSize": 43062,
@@ -29680,7 +29680,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31.pdf",
           "originalName": "MA_nyushi_2014_JA.pdf",
           "sha256": "af3b69a4eb223a9570e9ac0e9d93b406c66bc8342a61391c486abe5f30c12a31",
           "byteSize": 89826,
@@ -29715,7 +29715,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021.pdf",
           "originalName": "MA_nyushi_2015_JA.pdf",
           "sha256": "199addc79e0b07690f83dfdf59083a600bae6c29181c6d91feec6482ab2ca021",
           "byteSize": 75395,
@@ -29750,7 +29750,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d.pdf",
           "originalName": "MA_nyushi_2016_JA.pdf",
           "sha256": "f59be0c205f8179e76125192a83c2f5facec18aa4756ab6139878fc3743a842d",
           "byteSize": 82195,
@@ -29785,7 +29785,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6.pdf",
           "originalName": "MA_nyushi_2017_JA.pdf",
           "sha256": "9b33620b9475fbb26ff73de82f78cf426304847cefe979efa42c9c52c236dac6",
           "byteSize": 490666,
@@ -29820,7 +29820,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33.pdf",
           "originalName": "MA_nyushi_2018_JA.pdf",
           "sha256": "ec6cf6d203ac17256fd6589c1ab4118fc558184fca61d5c1b55995d868837e33",
           "byteSize": 41037,
@@ -29855,7 +29855,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6.pdf",
           "originalName": "MA_nyushi_2019_JA.pdf",
           "sha256": "5a1091e74a61bddadfcbd1e830e38db3c8e9a9e7f725dbc45ab882a307b166e6",
           "byteSize": 36413,
@@ -29890,7 +29890,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257.pdf",
           "originalName": "MA_nyushi_2020_JA.pdf",
           "sha256": "859e1d12d6b45cc7467b4ef86d233fa0293ad7af76072d8d43341e6b2f344257",
           "byteSize": 37442,
@@ -29925,7 +29925,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca.pdf",
           "originalName": "MA_nyushi_2021_JA.pdf",
           "sha256": "b7562086bc0d660734f67f004c0dcc90176a44e08ba3b3c96db752c77ae560ca",
           "byteSize": 161999,
@@ -29960,7 +29960,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4.pdf",
           "originalName": "MA_nyushi_2022_JA.pdf",
           "sha256": "70545d6b962b81803d67bb8d714b543e142e7e228a854ae49a2adf7d5fc1d7a4",
           "byteSize": 47141,
@@ -29995,7 +29995,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572.pdf",
           "originalName": "MA_nyushi_2023_JA.pdf",
           "sha256": "884dd32941677aeaeba6bf5a705fe6f0ab56cd153c186d92d76d0e0237b43572",
           "byteSize": 211264,
@@ -30030,7 +30030,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39.pdf",
           "originalName": "MA_nyushi_2024_JA.pdf",
           "sha256": "8b3793f15e6ef278c38db57bb336aae2931fb3c89e0e091b3e17286a77e21a39",
           "byteSize": 1285755,
@@ -30065,7 +30065,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa.pdf",
           "originalName": "MA_nyushi_2025_JA.pdf",
           "sha256": "a58c0e95e3657e71add0e8aec2f5d4651a2785dc0b25f62437d3f2599979f5fa",
           "byteSize": 195968,
@@ -30107,7 +30107,7 @@
         {
           "label": "問題 · 専門科目（第8页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/da8978840a193f8c940685e53d35e9717ae362457a8184692f0bcd86eb78ae61.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/da8978840a193f8c940685e53d35e9717ae362457a8184692f0bcd86eb78ae61.pdf",
           "originalName": "R07ist.pdf",
           "sha256": "da8978840a193f8c940685e53d35e9717ae362457a8184692f0bcd86eb78ae61",
           "byteSize": 1251155,
@@ -30149,7 +30149,7 @@
         {
           "label": "問題 · 専門科目（第9页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d69ad22e7d37504fd2a8c60a14fa07c77dea0a4d07492f0f27e4aedd2030c6e7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/d69ad22e7d37504fd2a8c60a14fa07c77dea0a4d07492f0f27e4aedd2030c6e7.pdf",
           "originalName": "R06ist.pdf",
           "sha256": "d69ad22e7d37504fd2a8c60a14fa07c77dea0a4d07492f0f27e4aedd2030c6e7",
           "byteSize": 890857,
@@ -30191,7 +30191,7 @@
         {
           "label": "問題 · 専門科目（第8页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f2765e443bbc626444665c1412d853526723cde8c1f4a6f5699e3fea04cf7fbe.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/f2765e443bbc626444665c1412d853526723cde8c1f4a6f5699e3fea04cf7fbe.pdf",
           "originalName": "R05ist.pdf",
           "sha256": "f2765e443bbc626444665c1412d853526723cde8c1f4a6f5699e3fea04cf7fbe",
           "byteSize": 833823,
@@ -30233,7 +30233,7 @@
         {
           "label": "問題 · 専門科目（第7页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f36b863e0debc809ab25d89393a894c403c6ca87fd1aac1f1e67243085ae7b65.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/f36b863e0debc809ab25d89393a894c403c6ca87fd1aac1f1e67243085ae7b65.pdf",
           "originalName": "R04ist.pdf",
           "sha256": "f36b863e0debc809ab25d89393a894c403c6ca87fd1aac1f1e67243085ae7b65",
           "byteSize": 7584948,
@@ -30275,7 +30275,7 @@
         {
           "label": "問題 · 専門科目（第9页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/3cee9ba2cd99fd1a010de33526fdea73cda7e42b23f392fd25902d4bc8de8b19.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/3cee9ba2cd99fd1a010de33526fdea73cda7e42b23f392fd25902d4bc8de8b19.pdf",
           "originalName": "R03ist.pdf",
           "sha256": "3cee9ba2cd99fd1a010de33526fdea73cda7e42b23f392fd25902d4bc8de8b19",
           "byteSize": 798142,
@@ -30317,7 +30317,7 @@
         {
           "label": "問題 · 専門科目（第8页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/1133238d2b09d17763d4d141e98eadd78259f55af947eeb212e9edf28b88b9cc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/1133238d2b09d17763d4d141e98eadd78259f55af947eeb212e9edf28b88b9cc.pdf",
           "originalName": "R07ee.pdf",
           "sha256": "1133238d2b09d17763d4d141e98eadd78259f55af947eeb212e9edf28b88b9cc",
           "byteSize": 1691807,
@@ -30359,7 +30359,7 @@
         {
           "label": "問題 · 専門科目（第9页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c3d064f803cfbbe64e005c6f08dffc59938f8c93c5fd30f779da76045b2426b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/c3d064f803cfbbe64e005c6f08dffc59938f8c93c5fd30f779da76045b2426b9.pdf",
           "originalName": "R06ee.pdf",
           "sha256": "c3d064f803cfbbe64e005c6f08dffc59938f8c93c5fd30f779da76045b2426b9",
           "byteSize": 1542082,
@@ -30401,7 +30401,7 @@
         {
           "label": "問題 · 専門科目（第8页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b5857ede384cfc8fba20722799a64ae3361e9cb4da34af08ffb76351767055db.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/b5857ede384cfc8fba20722799a64ae3361e9cb4da34af08ffb76351767055db.pdf",
           "originalName": "R05ee.pdf",
           "sha256": "b5857ede384cfc8fba20722799a64ae3361e9cb4da34af08ffb76351767055db",
           "byteSize": 2411638,
@@ -30443,7 +30443,7 @@
         {
           "label": "問題 · 専門科目（第7页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b440f419949f27911c79134c5f2c9d37eb1d695bbf04fdb67a735208c22528af.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/b440f419949f27911c79134c5f2c9d37eb1d695bbf04fdb67a735208c22528af.pdf",
           "originalName": "R04ee.pdf",
           "sha256": "b440f419949f27911c79134c5f2c9d37eb1d695bbf04fdb67a735208c22528af",
           "byteSize": 3298539,
@@ -30486,7 +30486,7 @@
         {
           "label": "問題 · 専門科目（第9页起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/785098f51dc49562fe3303d37c089b5ea6aa72676afbcf51a3d62ecc83c93a39.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/785098f51dc49562fe3303d37c089b5ea6aa72676afbcf51a3d62ecc83c93a39.pdf",
           "originalName": "R03ee.pdf",
           "sha256": "785098f51dc49562fe3303d37c089b5ea6aa72676afbcf51a3d62ecc83c93a39",
           "byteSize": 2171544,
@@ -30526,7 +30526,7 @@
         {
           "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
           "kind": "question",
-          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
           "originalName": "2025年度9月　理工学.pdf",
           "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
           "byteSize": 4570287,
@@ -30566,7 +30566,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–17页",
           "kind": "question",
-          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
           "originalName": "2025年度9月　理工学.pdf",
           "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
           "byteSize": 4570287,
@@ -30606,7 +30606,7 @@
         {
           "label": "問題原合册 · 情報学基礎 · PDF第43–50页",
           "kind": "question",
-          "url": "assets/past-papers/documents/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2.pdf",
           "originalName": "2025年度9月　理工学.pdf",
           "sha256": "2ea40898f2ed5fa2361449aaea347c7ca8c9031f1ab52876587d1ec3ef1bbfd2",
           "byteSize": 4570287,
@@ -30646,7 +30646,7 @@
         {
           "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
           "kind": "question",
-          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
           "originalName": "2025年度2月　理工学.pdf",
           "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
           "byteSize": 2640749,
@@ -30686,7 +30686,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–17页",
           "kind": "question",
-          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
           "originalName": "2025年度2月　理工学.pdf",
           "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
           "byteSize": 2640749,
@@ -30726,7 +30726,7 @@
         {
           "label": "問題原合册 · 情報学基礎 · PDF第38–45页",
           "kind": "question",
-          "url": "assets/past-papers/documents/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c.pdf",
           "originalName": "2025年度2月　理工学.pdf",
           "sha256": "35ce324ac815139bfff8e1cf90699f1f2edeb82fd08576a611fb7fe302195f7c",
           "byteSize": 2640749,
@@ -30766,7 +30766,7 @@
         {
           "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
           "kind": "question",
-          "url": "assets/past-papers/documents/a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a.pdf",
           "originalName": "2024年度9月　理工学.pdf",
           "sha256": "a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a",
           "byteSize": 3265277,
@@ -30806,7 +30806,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–17页",
           "kind": "question",
-          "url": "assets/past-papers/documents/a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a.pdf",
           "originalName": "2024年度9月　理工学.pdf",
           "sha256": "a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a",
           "byteSize": 3265277,
@@ -30846,7 +30846,7 @@
         {
           "label": "問題原合册 · 情報学基礎 · PDF第46–53页",
           "kind": "question",
-          "url": "assets/past-papers/documents/a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a.pdf",
           "originalName": "2024年度9月　理工学.pdf",
           "sha256": "a2fa4d83a655c46c91a0a7b251fd53ede73dc9f31918b8d27c4716af62c25d7a",
           "byteSize": 3265277,
@@ -30886,7 +30886,7 @@
         {
           "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
           "kind": "question",
-          "url": "assets/past-papers/documents/5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0.pdf",
           "originalName": "2024年度2月　理工学.pdf",
           "sha256": "5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0",
           "byteSize": 2592255,
@@ -30926,7 +30926,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–17页",
           "kind": "question",
-          "url": "assets/past-papers/documents/5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0.pdf",
           "originalName": "2024年度2月　理工学.pdf",
           "sha256": "5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0",
           "byteSize": 2592255,
@@ -30966,7 +30966,7 @@
         {
           "label": "問題原合册 · 情報学基礎 · PDF第35–42页",
           "kind": "question",
-          "url": "assets/past-papers/documents/5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0.pdf",
           "originalName": "2024年度2月　理工学.pdf",
           "sha256": "5211c6c4b15bf70e652a87c29eacdd86091ccb1f2f02fa6a6f4f47543035b3a0",
           "byteSize": 2592255,
@@ -31006,7 +31006,7 @@
         {
           "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
           "kind": "question",
-          "url": "assets/past-papers/documents/14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f.pdf",
           "originalName": "2023年度9月　理工学.pdf",
           "sha256": "14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f",
           "byteSize": 1433902,
@@ -31046,7 +31046,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–18页",
           "kind": "question",
-          "url": "assets/past-papers/documents/14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f.pdf",
           "originalName": "2023年度9月　理工学.pdf",
           "sha256": "14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f",
           "byteSize": 1433902,
@@ -31086,7 +31086,7 @@
         {
           "label": "問題原合册 · 情報学基礎 · PDF第44–51页",
           "kind": "question",
-          "url": "assets/past-papers/documents/14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f.pdf",
           "originalName": "2023年度9月　理工学.pdf",
           "sha256": "14930c67b3f56838ab193231b4c9fb0b118800bf3c6f05c1d43b21c9d55ff77f",
           "byteSize": 1433902,
@@ -31126,7 +31126,7 @@
         {
           "label": "問題原合册 · 機械工学基礎 · PDF第1–10页",
           "kind": "question",
-          "url": "assets/past-papers/documents/f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f.pdf",
           "originalName": "2023年度2月　理工学.pdf",
           "sha256": "f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f",
           "byteSize": 1444257,
@@ -31166,7 +31166,7 @@
         {
           "label": "問題原合册 · 電気・電子工学基礎 · PDF第11–18页",
           "kind": "question",
-          "url": "assets/past-papers/documents/f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f.pdf",
           "originalName": "2023年度2月　理工学.pdf",
           "sha256": "f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f",
           "byteSize": 1444257,
@@ -31206,7 +31206,7 @@
         {
           "label": "問題原合册 · 情報学基礎 · PDF第45–52页",
           "kind": "question",
-          "url": "assets/past-papers/documents/f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f.pdf",
           "originalName": "2023年度2月　理工学.pdf",
           "sha256": "f983fc3275b2084bfe9488779a5ae130302bb780b5c0936bf66da6f564b8d14f",
           "byteSize": 1444257,
@@ -31243,7 +31243,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/0f2e622a367569732b3090a6e59e4638cb7db007a771356e4cfc6144d788e7f5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/0f2e622a367569732b3090a6e59e4638cb7db007a771356e4cfc6144d788e7f5.pdf",
           "originalName": "h26.pdf",
           "sha256": "0f2e622a367569732b3090a6e59e4638cb7db007a771356e4cfc6144d788e7f5",
           "byteSize": 5689758,
@@ -31279,7 +31279,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/7ce27de15479374cecbb909080f203290fdd48a24c9c7b237b60529c3356136e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/7ce27de15479374cecbb909080f203290fdd48a24c9c7b237b60529c3356136e.pdf",
           "originalName": "h27.pdf",
           "sha256": "7ce27de15479374cecbb909080f203290fdd48a24c9c7b237b60529c3356136e",
           "byteSize": 1193564,
@@ -31315,7 +31315,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8429112084392141bdcef4ca39f602d1bc3909a4b80889cd2352d4f1a54719b6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/8429112084392141bdcef4ca39f602d1bc3909a4b80889cd2352d4f1a54719b6.pdf",
           "originalName": "h28.pdf",
           "sha256": "8429112084392141bdcef4ca39f602d1bc3909a4b80889cd2352d4f1a54719b6",
           "byteSize": 734848,
@@ -31351,7 +31351,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/521f4961e84c94c3f7eafc4a2e34ddf804bd5efeb7b2f7a4dddd05a572b1aeed.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/521f4961e84c94c3f7eafc4a2e34ddf804bd5efeb7b2f7a4dddd05a572b1aeed.pdf",
           "originalName": "h29.pdf",
           "sha256": "521f4961e84c94c3f7eafc4a2e34ddf804bd5efeb7b2f7a4dddd05a572b1aeed",
           "byteSize": 700337,
@@ -31387,7 +31387,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e3168b37ba429b4722fe047c740992908b7055edac9ac7293dbad168464b83b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/e3168b37ba429b4722fe047c740992908b7055edac9ac7293dbad168464b83b9.pdf",
           "originalName": "h30.pdf",
           "sha256": "e3168b37ba429b4722fe047c740992908b7055edac9ac7293dbad168464b83b9",
           "byteSize": 2764926,
@@ -31423,7 +31423,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a5223fa0a9061895fc40bb27f116085b9aebf0952fb50d24db0a2358aeffeb18.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a5223fa0a9061895fc40bb27f116085b9aebf0952fb50d24db0a2358aeffeb18.pdf",
           "originalName": "R1.pdf",
           "sha256": "a5223fa0a9061895fc40bb27f116085b9aebf0952fb50d24db0a2358aeffeb18",
           "byteSize": 489097,
@@ -31459,7 +31459,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/41bc89c5789707697221cd4c3ec6e2d5c1eac878ad9c2d175f952105c2ee3e7c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/41bc89c5789707697221cd4c3ec6e2d5c1eac878ad9c2d175f952105c2ee3e7c.pdf",
           "originalName": "R2.pdf",
           "sha256": "41bc89c5789707697221cd4c3ec6e2d5c1eac878ad9c2d175f952105c2ee3e7c",
           "byteSize": 4178914,
@@ -31491,7 +31491,7 @@
         {
           "label": "出題意図（非试题／非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/8f1ab4fe38d1cb4c5654e8efacf0f12f9f6c8909cde140b7e991d5b06deb7d44.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/8f1ab4fe38d1cb4c5654e8efacf0f12f9f6c8909cde140b7e991d5b06deb7d44.pdf",
           "originalName": "R6年度応物大学院入試MC_出題意図.pdf",
           "sha256": "8f1ab4fe38d1cb4c5654e8efacf0f12f9f6c8909cde140b7e991d5b06deb7d44",
           "byteSize": 274624,
@@ -31527,7 +31527,7 @@
         {
           "label": "数学A（原册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f7ee4935e400e75cc29024412f43c652735fb54ab555c7b54e2b70bbde95ca00.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f7ee4935e400e75cc29024412f43c652735fb54ab555c7b54e2b70bbde95ca00.pdf",
           "originalName": "Problem_2023_j.pdf",
           "sha256": "f7ee4935e400e75cc29024412f43c652735fb54ab555c7b54e2b70bbde95ca00",
           "byteSize": 620894,
@@ -31563,7 +31563,7 @@
         {
           "label": "数学A（原册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d552b34db91e6dcc96ef57c107b10b12741f6c6ec3544fef955efceff07b4178.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/d552b34db91e6dcc96ef57c107b10b12741f6c6ec3544fef955efceff07b4178.pdf",
           "originalName": "Problem_2024_j.pdf",
           "sha256": "d552b34db91e6dcc96ef57c107b10b12741f6c6ec3544fef955efceff07b4178",
           "byteSize": 751723,
@@ -31599,7 +31599,7 @@
         {
           "label": "数学A（原册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/337ab5bf0c4a46dc9857e3d4559cb7112a349d64fff3e37236f74d64707f6dee.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/337ab5bf0c4a46dc9857e3d4559cb7112a349d64fff3e37236f74d64707f6dee.pdf",
           "originalName": "Problem_2025_J.pdf",
           "sha256": "337ab5bf0c4a46dc9857e3d4559cb7112a349d64fff3e37236f74d64707f6dee",
           "byteSize": 777425,
@@ -31631,7 +31631,7 @@
         {
           "label": "出題範囲（非试题／非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/e368be27e0b1b3ba891cf860db5184c935150d92c802f1ea4fe11369ef5dbe02.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/e368be27e0b1b3ba891cf860db5184c935150d92c802f1ea4fe11369ef5dbe02.pdf",
           "originalName": "2026_february_march_J.pdf",
           "sha256": "e368be27e0b1b3ba891cf860db5184c935150d92c802f1ea4fe11369ef5dbe02",
           "byteSize": 110999,
@@ -31665,7 +31665,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/debfbbf2f48dd3d2a0c95e7197b1868a0ba5acb5f54235facb8f4a0555d6e36e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/debfbbf2f48dd3d2a0c95e7197b1868a0ba5acb5f54235facb8f4a0555d6e36e.pdf",
           "originalName": "200309kiso.pdf",
           "sha256": "debfbbf2f48dd3d2a0c95e7197b1868a0ba5acb5f54235facb8f4a0555d6e36e",
           "byteSize": 305280,
@@ -31678,7 +31678,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/dab6a1087ef95290be65e585babe2c6c5b269de6d66e19113b11ec830b13589c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/dab6a1087ef95290be65e585babe2c6c5b269de6d66e19113b11ec830b13589c.pdf",
           "originalName": "200309senmon.pdf",
           "sha256": "dab6a1087ef95290be65e585babe2c6c5b269de6d66e19113b11ec830b13589c",
           "byteSize": 381516,
@@ -31713,7 +31713,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/9263f49b835da279f092ebe523f8405adb5ee2dfa8160ee01ab4f7bd5a9bbcf8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/9263f49b835da279f092ebe523f8405adb5ee2dfa8160ee01ab4f7bd5a9bbcf8.pdf",
           "originalName": "200409kiso.pdf",
           "sha256": "9263f49b835da279f092ebe523f8405adb5ee2dfa8160ee01ab4f7bd5a9bbcf8",
           "byteSize": 264011,
@@ -31726,7 +31726,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/571150ca1d6bbc962f664346b2a4713f19572759e5461b28658d5e591d417c73.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/571150ca1d6bbc962f664346b2a4713f19572759e5461b28658d5e591d417c73.pdf",
           "originalName": "200409senmon.pdf",
           "sha256": "571150ca1d6bbc962f664346b2a4713f19572759e5461b28658d5e591d417c73",
           "byteSize": 328306,
@@ -31766,7 +31766,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd.pdf",
           "originalName": "200502kiso.pdf",
           "sha256": "820a97a736af25eac4786d2401a0d3d170b5b89e91112db7cd67ecb088851efd",
           "byteSize": 293707,
@@ -31779,7 +31779,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/f98feda7a9db74cc7f77734a5743cd83b428d6756cae26a0fe4f04c8fd667772.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f98feda7a9db74cc7f77734a5743cd83b428d6756cae26a0fe4f04c8fd667772.pdf",
           "originalName": "200502senmon.pdf",
           "sha256": "f98feda7a9db74cc7f77734a5743cd83b428d6756cae26a0fe4f04c8fd667772",
           "byteSize": 381300,
@@ -31819,7 +31819,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/0b8a8d25578489b9aeff9cb490b566c707c2741bde495c122da5a199a15338f5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/0b8a8d25578489b9aeff9cb490b566c707c2741bde495c122da5a199a15338f5.pdf",
           "originalName": "200508kiso.pdf",
           "sha256": "0b8a8d25578489b9aeff9cb490b566c707c2741bde495c122da5a199a15338f5",
           "byteSize": 1072232,
@@ -31832,7 +31832,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/109c90211d5a040ef67cc9345231ec721eb1c0dd404b003d2972451877c882fd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/109c90211d5a040ef67cc9345231ec721eb1c0dd404b003d2972451877c882fd.pdf",
           "originalName": "200508senmon.pdf",
           "sha256": "109c90211d5a040ef67cc9345231ec721eb1c0dd404b003d2972451877c882fd",
           "byteSize": 1259089,
@@ -31872,7 +31872,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/efa805faffd6d13291e30679d5950c45e624b77becac1c4d2949e77e6fe6e719.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/efa805faffd6d13291e30679d5950c45e624b77becac1c4d2949e77e6fe6e719.pdf",
           "originalName": "200602kiso.pdf",
           "sha256": "efa805faffd6d13291e30679d5950c45e624b77becac1c4d2949e77e6fe6e719",
           "byteSize": 656309,
@@ -31885,7 +31885,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8b8df644a953e6a0f3388525687b1ff469b06e4fe089ac5d5319a70d0f7bb9ee.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/8b8df644a953e6a0f3388525687b1ff469b06e4fe089ac5d5319a70d0f7bb9ee.pdf",
           "originalName": "200602senmon.pdf",
           "sha256": "8b8df644a953e6a0f3388525687b1ff469b06e4fe089ac5d5319a70d0f7bb9ee",
           "byteSize": 784691,
@@ -31925,7 +31925,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/01f4052c1c664a0b92b5594e77a11bd1fe44b5d46899d5303964edbf22fae110.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/01f4052c1c664a0b92b5594e77a11bd1fe44b5d46899d5303964edbf22fae110.pdf",
           "originalName": "200608kiso.pdf",
           "sha256": "01f4052c1c664a0b92b5594e77a11bd1fe44b5d46899d5303964edbf22fae110",
           "byteSize": 983744,
@@ -31938,7 +31938,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af.pdf",
           "originalName": "200608senmon.pdf",
           "sha256": "279d8ea5115808f6d8e426c0d57cab9ea14f6458f90994848ad60d82e9fd19af",
           "byteSize": 1163465,
@@ -31978,7 +31978,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/b0e5cc673625073b488e14bcf92b200bb1e4fc4ec5fe601da7959c65818b5de0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/b0e5cc673625073b488e14bcf92b200bb1e4fc4ec5fe601da7959c65818b5de0.pdf",
           "originalName": "200702kiso.pdf",
           "sha256": "b0e5cc673625073b488e14bcf92b200bb1e4fc4ec5fe601da7959c65818b5de0",
           "byteSize": 674507,
@@ -31991,7 +31991,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e17c9081b7c3fc587a734d4e3f0fd4facc49ed7259beeaa4cdf2b6599c2b80b4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/e17c9081b7c3fc587a734d4e3f0fd4facc49ed7259beeaa4cdf2b6599c2b80b4.pdf",
           "originalName": "200702senmon.pdf",
           "sha256": "e17c9081b7c3fc587a734d4e3f0fd4facc49ed7259beeaa4cdf2b6599c2b80b4",
           "byteSize": 843738,
@@ -32031,7 +32031,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/d4578efd0d8813d0bb872df190036fd31d3dffe98745c36614549042c59be621.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/d4578efd0d8813d0bb872df190036fd31d3dffe98745c36614549042c59be621.pdf",
           "originalName": "200708kiso.pdf",
           "sha256": "d4578efd0d8813d0bb872df190036fd31d3dffe98745c36614549042c59be621",
           "byteSize": 409030,
@@ -32044,7 +32044,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a939dfe143e9039d94d219ed655ee3c30f4ff9952fc714fe23c89d7d92e7921e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a939dfe143e9039d94d219ed655ee3c30f4ff9952fc714fe23c89d7d92e7921e.pdf",
           "originalName": "200708senmon.pdf",
           "sha256": "a939dfe143e9039d94d219ed655ee3c30f4ff9952fc714fe23c89d7d92e7921e",
           "byteSize": 507610,
@@ -32084,7 +32084,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4cb954f572b771bb9933db193917f04e813836bf53b147b4de6aba985ef81eb7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/4cb954f572b771bb9933db193917f04e813836bf53b147b4de6aba985ef81eb7.pdf",
           "originalName": "200802kiso.pdf",
           "sha256": "4cb954f572b771bb9933db193917f04e813836bf53b147b4de6aba985ef81eb7",
           "byteSize": 430881,
@@ -32097,7 +32097,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4e634d5ee2d544d64109a2e28650c585ba96e838174a8bfc531af4c73a0c9ac1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/4e634d5ee2d544d64109a2e28650c585ba96e838174a8bfc531af4c73a0c9ac1.pdf",
           "originalName": "200802senmon.pdf",
           "sha256": "4e634d5ee2d544d64109a2e28650c585ba96e838174a8bfc531af4c73a0c9ac1",
           "byteSize": 458060,
@@ -32137,7 +32137,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8659354f4d724a21ad32fbec6b5d42e5292edf5e35ceea5db1ec46481a6ddc03.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/8659354f4d724a21ad32fbec6b5d42e5292edf5e35ceea5db1ec46481a6ddc03.pdf",
           "originalName": "200808kiso.pdf",
           "sha256": "8659354f4d724a21ad32fbec6b5d42e5292edf5e35ceea5db1ec46481a6ddc03",
           "byteSize": 245018,
@@ -32150,7 +32150,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/6a2a4f8ea2c2c1de70cd2503cc44725838cb98f8051dca85d4c0353d2318afec.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/6a2a4f8ea2c2c1de70cd2503cc44725838cb98f8051dca85d4c0353d2318afec.pdf",
           "originalName": "200808senmon.pdf",
           "sha256": "6a2a4f8ea2c2c1de70cd2503cc44725838cb98f8051dca85d4c0353d2318afec",
           "byteSize": 331554,
@@ -32185,7 +32185,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/103ac33f9c9b0e711202dca57b48fa7da02477f37d2dc67bbede04fb56f1c320.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/103ac33f9c9b0e711202dca57b48fa7da02477f37d2dc67bbede04fb56f1c320.pdf",
           "originalName": "200903kiso.pdf",
           "sha256": "103ac33f9c9b0e711202dca57b48fa7da02477f37d2dc67bbede04fb56f1c320",
           "byteSize": 214934,
@@ -32198,7 +32198,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/39d3e536fbfb9f8f0c3feca44b4485fc9e91ebebd654c74deb04bbc81c067a3a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/39d3e536fbfb9f8f0c3feca44b4485fc9e91ebebd654c74deb04bbc81c067a3a.pdf",
           "originalName": "200903senmon.pdf",
           "sha256": "39d3e536fbfb9f8f0c3feca44b4485fc9e91ebebd654c74deb04bbc81c067a3a",
           "byteSize": 263640,
@@ -32233,7 +32233,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a514fb075d90dce3cfe96ba2965ecf9489d04a1aa1cd65703f6dd01645523006.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a514fb075d90dce3cfe96ba2965ecf9489d04a1aa1cd65703f6dd01645523006.pdf",
           "originalName": "200908kiso.pdf",
           "sha256": "a514fb075d90dce3cfe96ba2965ecf9489d04a1aa1cd65703f6dd01645523006",
           "byteSize": 226822,
@@ -32246,7 +32246,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/999e7eb88178b4ae976c27d7b1ea6ed6c6465a88641b17f6678788dfa0ea67f2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/999e7eb88178b4ae976c27d7b1ea6ed6c6465a88641b17f6678788dfa0ea67f2.pdf",
           "originalName": "200908senmon.pdf",
           "sha256": "999e7eb88178b4ae976c27d7b1ea6ed6c6465a88641b17f6678788dfa0ea67f2",
           "byteSize": 292649,
@@ -32281,7 +32281,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/92665029cfe738e397e4d1cfb36aac2509cbcc5897a90ca9150b5a7d11b84bd9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/92665029cfe738e397e4d1cfb36aac2509cbcc5897a90ca9150b5a7d11b84bd9.pdf",
           "originalName": "201003kiso.pdf",
           "sha256": "92665029cfe738e397e4d1cfb36aac2509cbcc5897a90ca9150b5a7d11b84bd9",
           "byteSize": 204419,
@@ -32294,7 +32294,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/9faf41ae91f91f12229773509ffaef9aeec595c17df8bb5e6fbe7f91251a510d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/9faf41ae91f91f12229773509ffaef9aeec595c17df8bb5e6fbe7f91251a510d.pdf",
           "originalName": "201003senmon.pdf",
           "sha256": "9faf41ae91f91f12229773509ffaef9aeec595c17df8bb5e6fbe7f91251a510d",
           "byteSize": 350574,
@@ -32329,7 +32329,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a32efdf7fdd57f450596fc454dc965ca3d389d747d49633330d573ea23f432d1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a32efdf7fdd57f450596fc454dc965ca3d389d747d49633330d573ea23f432d1.pdf",
           "originalName": "201008kiso.pdf",
           "sha256": "a32efdf7fdd57f450596fc454dc965ca3d389d747d49633330d573ea23f432d1",
           "byteSize": 17271705,
@@ -32342,7 +32342,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/83913478ddc0118a6f04163ad294f6e0fe564143a55c6858fbb2dc9e2c5cbb48.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/83913478ddc0118a6f04163ad294f6e0fe564143a55c6858fbb2dc9e2c5cbb48.pdf",
           "originalName": "201008senmon.pdf",
           "sha256": "83913478ddc0118a6f04163ad294f6e0fe564143a55c6858fbb2dc9e2c5cbb48",
           "byteSize": 22002427,
@@ -32377,7 +32377,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/c1ecf4b080768d1269320abe3267e6127512f41732987fc96f6f338fb95ea2f5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/c1ecf4b080768d1269320abe3267e6127512f41732987fc96f6f338fb95ea2f5.pdf",
           "originalName": "201102kiso.pdf",
           "sha256": "c1ecf4b080768d1269320abe3267e6127512f41732987fc96f6f338fb95ea2f5",
           "byteSize": 1113471,
@@ -32390,7 +32390,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/7399619fecf049433d99d266f4189a1ac58231fa7fe0c1e2538c9c750406982a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/7399619fecf049433d99d266f4189a1ac58231fa7fe0c1e2538c9c750406982a.pdf",
           "originalName": "201102senmon.pdf",
           "sha256": "7399619fecf049433d99d266f4189a1ac58231fa7fe0c1e2538c9c750406982a",
           "byteSize": 1004652,
@@ -32425,7 +32425,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e85a05346e69a48a3afd329004d8af1271ae2645a9f455f745ca50aa9c1ab7d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/5e85a05346e69a48a3afd329004d8af1271ae2645a9f455f745ca50aa9c1ab7d.pdf",
           "originalName": "201108kiso.pdf",
           "sha256": "5e85a05346e69a48a3afd329004d8af1271ae2645a9f455f745ca50aa9c1ab7d",
           "byteSize": 6130335,
@@ -32438,7 +32438,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/38aebf07add8ea908ecf79737250d039ff96db91d7445fd125e5cb77bbb36412.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/38aebf07add8ea908ecf79737250d039ff96db91d7445fd125e5cb77bbb36412.pdf",
           "originalName": "201108senmon.pdf",
           "sha256": "38aebf07add8ea908ecf79737250d039ff96db91d7445fd125e5cb77bbb36412",
           "byteSize": 8618951,
@@ -32473,7 +32473,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/56c17a5781491acd3d496d21b8e4ab6b562dcd00763092d49858694387af6c8a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/56c17a5781491acd3d496d21b8e4ab6b562dcd00763092d49858694387af6c8a.pdf",
           "originalName": "201202kiso.pdf",
           "sha256": "56c17a5781491acd3d496d21b8e4ab6b562dcd00763092d49858694387af6c8a",
           "byteSize": 367101,
@@ -32486,7 +32486,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/927421571d8f3459df26b6f18f34a8b10b1c76e52f280ade64b51ec23818d5bf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/927421571d8f3459df26b6f18f34a8b10b1c76e52f280ade64b51ec23818d5bf.pdf",
           "originalName": "201202senmon.pdf",
           "sha256": "927421571d8f3459df26b6f18f34a8b10b1c76e52f280ade64b51ec23818d5bf",
           "byteSize": 488270,
@@ -32521,7 +32521,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/bc59cee7ebdbd7f16101b07530bd28a346a768f8458bc1a9e767148369faea69.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/bc59cee7ebdbd7f16101b07530bd28a346a768f8458bc1a9e767148369faea69.pdf",
           "originalName": "201208kiso.pdf",
           "sha256": "bc59cee7ebdbd7f16101b07530bd28a346a768f8458bc1a9e767148369faea69",
           "byteSize": 5000414,
@@ -32534,7 +32534,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/2451bff85f83b961a7266ec9bfe12b2f2ece31f85dd5e0957c40e5d66f63e22f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/2451bff85f83b961a7266ec9bfe12b2f2ece31f85dd5e0957c40e5d66f63e22f.pdf",
           "originalName": "201208senmon.pdf",
           "sha256": "2451bff85f83b961a7266ec9bfe12b2f2ece31f85dd5e0957c40e5d66f63e22f",
           "byteSize": 7125702,
@@ -32569,7 +32569,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/7aa0c607d14b2681142d796e1175a421476ec05b43d236490e2fdf70d21853c3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/7aa0c607d14b2681142d796e1175a421476ec05b43d236490e2fdf70d21853c3.pdf",
           "originalName": "201303kiso.pdf",
           "sha256": "7aa0c607d14b2681142d796e1175a421476ec05b43d236490e2fdf70d21853c3",
           "byteSize": 1127915,
@@ -32582,7 +32582,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/45c9a114a907873c864241a72123a46bd4a33a2d9c06b3943af39f0d9f5311bc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/45c9a114a907873c864241a72123a46bd4a33a2d9c06b3943af39f0d9f5311bc.pdf",
           "originalName": "201303senmon.pdf",
           "sha256": "45c9a114a907873c864241a72123a46bd4a33a2d9c06b3943af39f0d9f5311bc",
           "byteSize": 1866357,
@@ -32617,7 +32617,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e597f900ff54844e3840c08fa5b0ff2ff45503fdbfce8207c4ee691431db380f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/e597f900ff54844e3840c08fa5b0ff2ff45503fdbfce8207c4ee691431db380f.pdf",
           "originalName": "201308kiso.pdf",
           "sha256": "e597f900ff54844e3840c08fa5b0ff2ff45503fdbfce8207c4ee691431db380f",
           "byteSize": 6752252,
@@ -32630,7 +32630,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/24ffcacada3ad9151fad9dad435b29ba4fbf09e457005b2438d4fffa748a8e72.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/24ffcacada3ad9151fad9dad435b29ba4fbf09e457005b2438d4fffa748a8e72.pdf",
           "originalName": "201308senmon.pdf",
           "sha256": "24ffcacada3ad9151fad9dad435b29ba4fbf09e457005b2438d4fffa748a8e72",
           "byteSize": 1241705,
@@ -32665,7 +32665,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233.pdf",
           "originalName": "201403kiso.pdf",
           "sha256": "a5a9a67032160370ebcd39a35b3c0bad27b64faad39aa65f7830a18071007233",
           "byteSize": 797738,
@@ -32678,7 +32678,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55.pdf",
           "originalName": "201403senmon.pdf",
           "sha256": "fbeb723e8f8d107b21dc19408952bb85f6623d9467f44ab3c8f9664c7d24fa55",
           "byteSize": 2018153,
@@ -32713,7 +32713,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8286e34ea1f156f4ee7a75cc9e1bec53aac2c7281f933b44d87f801bbd9bd666.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/8286e34ea1f156f4ee7a75cc9e1bec53aac2c7281f933b44d87f801bbd9bd666.pdf",
           "originalName": "201408kiso.pdf",
           "sha256": "8286e34ea1f156f4ee7a75cc9e1bec53aac2c7281f933b44d87f801bbd9bd666",
           "byteSize": 562035,
@@ -32726,7 +32726,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/3c42ff1465d49065a8b6b17bee64dff5f20f19e62560d1c58cf2d846fbe5fb49.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/3c42ff1465d49065a8b6b17bee64dff5f20f19e62560d1c58cf2d846fbe5fb49.pdf",
           "originalName": "201408senmon.pdf",
           "sha256": "3c42ff1465d49065a8b6b17bee64dff5f20f19e62560d1c58cf2d846fbe5fb49",
           "byteSize": 590422,
@@ -32761,7 +32761,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/bc7590cbf885346d155b4f9d7702bad5329aada31feb50d5878731dab50f7b51.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/bc7590cbf885346d155b4f9d7702bad5329aada31feb50d5878731dab50f7b51.pdf",
           "originalName": "201503kiso.pdf",
           "sha256": "bc7590cbf885346d155b4f9d7702bad5329aada31feb50d5878731dab50f7b51",
           "byteSize": 202870,
@@ -32774,7 +32774,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/ee57b408fea76d7b401b575fe89d6be0b2016ebae500c7ed2fffc4b00f982457.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/ee57b408fea76d7b401b575fe89d6be0b2016ebae500c7ed2fffc4b00f982457.pdf",
           "originalName": "201503senmon.pdf",
           "sha256": "ee57b408fea76d7b401b575fe89d6be0b2016ebae500c7ed2fffc4b00f982457",
           "byteSize": 250916,
@@ -32809,7 +32809,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a8b9e6bafca7a6ac1c45c079c679e9f22994e37daed22297538b9386cc899118.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a8b9e6bafca7a6ac1c45c079c679e9f22994e37daed22297538b9386cc899118.pdf",
           "originalName": "201508kiso.pdf",
           "sha256": "a8b9e6bafca7a6ac1c45c079c679e9f22994e37daed22297538b9386cc899118",
           "byteSize": 608885,
@@ -32822,7 +32822,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/997c9afd9cbeaec3cd1c32e1ad6ebd4d120d0a31c019d91ee893db588e1ccdd2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/997c9afd9cbeaec3cd1c32e1ad6ebd4d120d0a31c019d91ee893db588e1ccdd2.pdf",
           "originalName": "201508senmon.pdf",
           "sha256": "997c9afd9cbeaec3cd1c32e1ad6ebd4d120d0a31c019d91ee893db588e1ccdd2",
           "byteSize": 767228,
@@ -32857,7 +32857,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/b361ffd8723ad56f00acc18ccbe25c3efc5f2a34085dbbf72850bd94897eb409.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/b361ffd8723ad56f00acc18ccbe25c3efc5f2a34085dbbf72850bd94897eb409.pdf",
           "originalName": "201603kiso.pdf",
           "sha256": "b361ffd8723ad56f00acc18ccbe25c3efc5f2a34085dbbf72850bd94897eb409",
           "byteSize": 489221,
@@ -32870,7 +32870,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/1b5aacce3807d65adb40a468388371f41121e646c29e25c190dadae81c9c7695.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/1b5aacce3807d65adb40a468388371f41121e646c29e25c190dadae81c9c7695.pdf",
           "originalName": "201603senmon.pdf",
           "sha256": "1b5aacce3807d65adb40a468388371f41121e646c29e25c190dadae81c9c7695",
           "byteSize": 556809,
@@ -32905,7 +32905,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/ea92a0d172d1e60c8b88e43d5ac29490fd0783d1d9528a09f0c3f1513f50cde3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/ea92a0d172d1e60c8b88e43d5ac29490fd0783d1d9528a09f0c3f1513f50cde3.pdf",
           "originalName": "201608kiso.pdf",
           "sha256": "ea92a0d172d1e60c8b88e43d5ac29490fd0783d1d9528a09f0c3f1513f50cde3",
           "byteSize": 4928937,
@@ -32918,7 +32918,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/57088127f7e696191a57603146ee93ec12bca79ea2f4b41cb5276fda031c570a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/57088127f7e696191a57603146ee93ec12bca79ea2f4b41cb5276fda031c570a.pdf",
           "originalName": "201608senmon.pdf",
           "sha256": "57088127f7e696191a57603146ee93ec12bca79ea2f4b41cb5276fda031c570a",
           "byteSize": 6584248,
@@ -32957,7 +32957,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a51d81c5d43183790946e82bd7597df39380869469b53ac3bede2de0779142a5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a51d81c5d43183790946e82bd7597df39380869469b53ac3bede2de0779142a5.pdf",
           "originalName": "202308kiso.pdf",
           "sha256": "a51d81c5d43183790946e82bd7597df39380869469b53ac3bede2de0779142a5",
           "byteSize": 656697,
@@ -32970,7 +32970,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4775def7406b16e2f9ac1709d48a36337f09e64a9c080173ff7b4b050fa3f547.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/4775def7406b16e2f9ac1709d48a36337f09e64a9c080173ff7b4b050fa3f547.pdf",
           "originalName": "202308senmon.pdf",
           "sha256": "4775def7406b16e2f9ac1709d48a36337f09e64a9c080173ff7b4b050fa3f547",
           "byteSize": 791782,
@@ -33008,7 +33008,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/f48382d50986904cbd0956a7cc6a6b5a0d78426309af6d7324b6cdf06b426be5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f48382d50986904cbd0956a7cc6a6b5a0d78426309af6d7324b6cdf06b426be5.pdf",
           "originalName": "202403kiso.pdf",
           "sha256": "f48382d50986904cbd0956a7cc6a6b5a0d78426309af6d7324b6cdf06b426be5",
           "byteSize": 605609,
@@ -33021,7 +33021,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/cbf339da693ecab25ef68cfb91d6df7a8715c77d56e4189e7e66303633943d96.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/cbf339da693ecab25ef68cfb91d6df7a8715c77d56e4189e7e66303633943d96.pdf",
           "originalName": "202403senmon.pdf",
           "sha256": "cbf339da693ecab25ef68cfb91d6df7a8715c77d56e4189e7e66303633943d96",
           "byteSize": 810418,
@@ -33057,7 +33057,7 @@
         {
           "label": "基礎専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/9136b1a5988d782684fd621da79a643e26d70a07cf8ac69f7b337f2aa5c321b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/9136b1a5988d782684fd621da79a643e26d70a07cf8ac69f7b337f2aa5c321b9.pdf",
           "originalName": "202408_kisosenmon.pdf",
           "sha256": "9136b1a5988d782684fd621da79a643e26d70a07cf8ac69f7b337f2aa5c321b9",
           "byteSize": 764127,
@@ -33093,7 +33093,7 @@
         {
           "label": "基礎専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/fa736b254a51cffa44e9776e989780bb8fbb78199c4d96654093c81b9a5a7c0d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/fa736b254a51cffa44e9776e989780bb8fbb78199c4d96654093c81b9a5a7c0d.pdf",
           "originalName": "202503_kisosenmon.pdf",
           "sha256": "fa736b254a51cffa44e9776e989780bb8fbb78199c4d96654093c81b9a5a7c0d",
           "byteSize": 828207,
@@ -33129,7 +33129,7 @@
         {
           "label": "基礎専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/d2982164cee0a005e18bebbba1b8a801ab56d6f63a0425e15542f62687a32fa4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/d2982164cee0a005e18bebbba1b8a801ab56d6f63a0425e15542f62687a32fa4.pdf",
           "originalName": "202508_kisosenmon.pdf",
           "sha256": "d2982164cee0a005e18bebbba1b8a801ab56d6f63a0425e15542f62687a32fa4",
           "byteSize": 1136587,
@@ -33165,7 +33165,7 @@
         {
           "label": "基礎専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/78e2fc204c0af9a8d6e225e4ed4c9d5a5ea428799ac148021b9e156a35aff858.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/78e2fc204c0af9a8d6e225e4ed4c9d5a5ea428799ac148021b9e156a35aff858.pdf",
           "originalName": "202603_kisosenmon.pdf",
           "sha256": "78e2fc204c0af9a8d6e225e4ed4c9d5a5ea428799ac148021b9e156a35aff858",
           "byteSize": 837947,
@@ -33204,7 +33204,7 @@
         {
           "label": "数学A（原册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c2c45ac822a2f2a31382d1adaff14ea09f376e335c5808c4a6fb6a700e3b566b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/c2c45ac822a2f2a31382d1adaff14ea09f376e335c5808c4a6fb6a700e3b566b.pdf",
           "originalName": "h30sJ.pdf",
           "sha256": "c2c45ac822a2f2a31382d1adaff14ea09f376e335c5808c4a6fb6a700e3b566b",
           "byteSize": 900823,
@@ -33243,7 +33243,7 @@
         {
           "label": "数学A（原册）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f9a037e77445c1d45433f639a8184b25d10045fd664f31d4159461b738eaeed8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f9a037e77445c1d45433f639a8184b25d10045fd664f31d4159461b738eaeed8.pdf",
           "originalName": "r01sJ.pdf",
           "sha256": "f9a037e77445c1d45433f639a8184b25d10045fd664f31d4159461b738eaeed8",
           "byteSize": 901847,
@@ -33293,7 +33293,7 @@
         {
           "label": "数学A",
           "kind": "question",
-          "url": "assets/past-papers/documents/e8efc401e8da299e17b6a6d195aa274aba1bda74520628bc6606a44752a21402.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/e8efc401e8da299e17b6a6d195aa274aba1bda74520628bc6606a44752a21402.pdf",
           "originalName": "r04Aug_MathA_J.pdf",
           "sha256": "e8efc401e8da299e17b6a6d195aa274aba1bda74520628bc6606a44752a21402",
           "byteSize": 155610,
@@ -33306,7 +33306,7 @@
         {
           "label": "数学B",
           "kind": "question",
-          "url": "assets/past-papers/documents/9339baf36be5666dda6c1c8c03b8ae93a1189478a3bc9450a94da746e25ace73.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/9339baf36be5666dda6c1c8c03b8ae93a1189478a3bc9450a94da746e25ace73.pdf",
           "originalName": "r04Aug_MathB_J.pdf",
           "sha256": "9339baf36be5666dda6c1c8c03b8ae93a1189478a3bc9450a94da746e25ace73",
           "byteSize": 143899,
@@ -33319,7 +33319,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/7a19e3d37837045ddfb77c42e89d147ad046f246eaf82517a88caa329e6f6e8f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/7a19e3d37837045ddfb77c42e89d147ad046f246eaf82517a88caa329e6f6e8f.pdf",
           "originalName": "r04Aug_SS_J.pdf",
           "sha256": "7a19e3d37837045ddfb77c42e89d147ad046f246eaf82517a88caa329e6f6e8f",
           "byteSize": 577120,
@@ -33359,7 +33359,7 @@
         {
           "label": "数学A",
           "kind": "question",
-          "url": "assets/past-papers/documents/c5ec4a17e22386f86d189d51b87b06c598c601d5a3c0f4d7a42a378db60b6730.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/c5ec4a17e22386f86d189d51b87b06c598c601d5a3c0f4d7a42a378db60b6730.pdf",
           "originalName": "r04Feb_MathA_J.pdf",
           "sha256": "c5ec4a17e22386f86d189d51b87b06c598c601d5a3c0f4d7a42a378db60b6730",
           "byteSize": 219499,
@@ -33372,7 +33372,7 @@
         {
           "label": "数学B",
           "kind": "question",
-          "url": "assets/past-papers/documents/f0cc485040241f2cb29be0159994fe3e2482c1afd357e1e70bfd57be29659db7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f0cc485040241f2cb29be0159994fe3e2482c1afd357e1e70bfd57be29659db7.pdf",
           "originalName": "r04Feb_MathB_J.pdf",
           "sha256": "f0cc485040241f2cb29be0159994fe3e2482c1afd357e1e70bfd57be29659db7",
           "byteSize": 149511,
@@ -33411,7 +33411,7 @@
         {
           "label": "数学A",
           "kind": "question",
-          "url": "assets/past-papers/documents/dafbcfea80e059e1c3e802b32747f81c9313d86e6dd485e10dfd25a565855aaa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/dafbcfea80e059e1c3e802b32747f81c9313d86e6dd485e10dfd25a565855aaa.pdf",
           "originalName": "r05Aug_MathA_J.pdf",
           "sha256": "dafbcfea80e059e1c3e802b32747f81c9313d86e6dd485e10dfd25a565855aaa",
           "byteSize": 80244,
@@ -33424,7 +33424,7 @@
         {
           "label": "数学B",
           "kind": "question",
-          "url": "assets/past-papers/documents/fc9f01798b8d0697ae8771c083f9a8e6e09ddc938caaffb6febc5f8c425cc501.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/fc9f01798b8d0697ae8771c083f9a8e6e09ddc938caaffb6febc5f8c425cc501.pdf",
           "originalName": "r05Aug_MathB_J.pdf",
           "sha256": "fc9f01798b8d0697ae8771c083f9a8e6e09ddc938caaffb6febc5f8c425cc501",
           "byteSize": 47183,
@@ -33437,7 +33437,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/54fb1d47c80e6dfacf391df3b9d15cdf23ebb2e216ff588791d8d44c97a3006f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/54fb1d47c80e6dfacf391df3b9d15cdf23ebb2e216ff588791d8d44c97a3006f.pdf",
           "originalName": "r05Aug_SS_J.pdf",
           "sha256": "54fb1d47c80e6dfacf391df3b9d15cdf23ebb2e216ff588791d8d44c97a3006f",
           "byteSize": 371152,
@@ -33474,7 +33474,7 @@
         {
           "label": "数学A",
           "kind": "question",
-          "url": "assets/past-papers/documents/170dbb9a7d7688ecbd33af4dd45cd6550ac457c326bf7c8b51ce86daf945745a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/170dbb9a7d7688ecbd33af4dd45cd6550ac457c326bf7c8b51ce86daf945745a.pdf",
           "originalName": "r05Feb_MathA_J.pdf",
           "sha256": "170dbb9a7d7688ecbd33af4dd45cd6550ac457c326bf7c8b51ce86daf945745a",
           "byteSize": 60421,
@@ -33487,7 +33487,7 @@
         {
           "label": "数学B",
           "kind": "question",
-          "url": "assets/past-papers/documents/e03877e914fbd7e47b5789ab3c9f6efd214fff0b8fe7c0ad3e3864ce15e7f5bf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/e03877e914fbd7e47b5789ab3c9f6efd214fff0b8fe7c0ad3e3864ce15e7f5bf.pdf",
           "originalName": "r05Feb_MathB_J.pdf",
           "sha256": "e03877e914fbd7e47b5789ab3c9f6efd214fff0b8fe7c0ad3e3864ce15e7f5bf",
           "byteSize": 42507,
@@ -33526,7 +33526,7 @@
         {
           "label": "数学A",
           "kind": "question",
-          "url": "assets/past-papers/documents/b96c6369f4e051354ce292fe6a2eb35b2a912b0f56cd34e5846be7209f4c6de5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/b96c6369f4e051354ce292fe6a2eb35b2a912b0f56cd34e5846be7209f4c6de5.pdf",
           "originalName": "r06Aug_MathA_J.pdf",
           "sha256": "b96c6369f4e051354ce292fe6a2eb35b2a912b0f56cd34e5846be7209f4c6de5",
           "byteSize": 104586,
@@ -33539,7 +33539,7 @@
         {
           "label": "数学B",
           "kind": "question",
-          "url": "assets/past-papers/documents/82de0c701559d04e6f19a00a7cc1b9f50702197afdc603449e3e75f2d1a88043.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/82de0c701559d04e6f19a00a7cc1b9f50702197afdc603449e3e75f2d1a88043.pdf",
           "originalName": "r06Aug_MathB_J.pdf",
           "sha256": "82de0c701559d04e6f19a00a7cc1b9f50702197afdc603449e3e75f2d1a88043",
           "byteSize": 68664,
@@ -33552,7 +33552,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/74fe08f7eab9c8aa27cbcae78c2b7d5d42cff8b582c08914ae6ba5cf5901a38b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/74fe08f7eab9c8aa27cbcae78c2b7d5d42cff8b582c08914ae6ba5cf5901a38b.pdf",
           "originalName": "r06Aug_SS_J.pdf",
           "sha256": "74fe08f7eab9c8aa27cbcae78c2b7d5d42cff8b582c08914ae6ba5cf5901a38b",
           "byteSize": 483123,
@@ -33589,7 +33589,7 @@
         {
           "label": "数学A",
           "kind": "question",
-          "url": "assets/past-papers/documents/75dfa828f7a09ba39a268a34641e1a664d65c0a8e19fab9fefd68205bb7be091.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/75dfa828f7a09ba39a268a34641e1a664d65c0a8e19fab9fefd68205bb7be091.pdf",
           "originalName": "2025Mar_MathA_J.pdf",
           "sha256": "75dfa828f7a09ba39a268a34641e1a664d65c0a8e19fab9fefd68205bb7be091",
           "byteSize": 89618,
@@ -33602,7 +33602,7 @@
         {
           "label": "数学B",
           "kind": "question",
-          "url": "assets/past-papers/documents/73b6bd20fec3e43309a6924c87957f5a37c34cff1551f161f6ef5331ed67afe1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/73b6bd20fec3e43309a6924c87957f5a37c34cff1551f161f6ef5331ed67afe1.pdf",
           "originalName": "2025Mar_MathB_J.pdf",
           "sha256": "73b6bd20fec3e43309a6924c87957f5a37c34cff1551f161f6ef5331ed67afe1",
           "byteSize": 64670,
@@ -33645,7 +33645,7 @@
         {
           "label": "数学A",
           "kind": "question",
-          "url": "assets/past-papers/documents/249539826899c55d944fcf965c3ad1649899bdb08b4c54c7f50d3dca4448b83c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/249539826899c55d944fcf965c3ad1649899bdb08b4c54c7f50d3dca4448b83c.pdf",
           "originalName": "2025Aug_MathA_J.pdf",
           "sha256": "249539826899c55d944fcf965c3ad1649899bdb08b4c54c7f50d3dca4448b83c",
           "byteSize": 104998,
@@ -33658,7 +33658,7 @@
         {
           "label": "数学B",
           "kind": "question",
-          "url": "assets/past-papers/documents/0e21dc30733e443a69a7f5e836cd73ddd61a24d27c6c478aff8d935d135d65ab.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/0e21dc30733e443a69a7f5e836cd73ddd61a24d27c6c478aff8d935d135d65ab.pdf",
           "originalName": "2025Aug_MathB_J.pdf",
           "sha256": "0e21dc30733e443a69a7f5e836cd73ddd61a24d27c6c478aff8d935d135d65ab",
           "byteSize": 72140,
@@ -33671,7 +33671,7 @@
         {
           "label": "専門科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8d74e8b0a7851a2a8459359d3c40b4cb0b787f1dada00eccb6839446fc144e49.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/8d74e8b0a7851a2a8459359d3c40b4cb0b787f1dada00eccb6839446fc144e49.pdf",
           "originalName": "2025Aug_SS_J.pdf",
           "sha256": "8d74e8b0a7851a2a8459359d3c40b4cb0b787f1dada00eccb6839446fc144e49",
           "byteSize": 343545,
@@ -33708,7 +33708,7 @@
         {
           "label": "数学A",
           "kind": "question",
-          "url": "assets/past-papers/documents/b2140ceaddf3fd6b31849fb6c841bffab913d8311fb72ded8d041a4260d3a567.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/b2140ceaddf3fd6b31849fb6c841bffab913d8311fb72ded8d041a4260d3a567.pdf",
           "originalName": "2026Mar_MathA_J.pdf",
           "sha256": "b2140ceaddf3fd6b31849fb6c841bffab913d8311fb72ded8d041a4260d3a567",
           "byteSize": 78103,
@@ -33721,7 +33721,7 @@
         {
           "label": "数学B",
           "kind": "question",
-          "url": "assets/past-papers/documents/2799f67b0fc6a992e9ab003928298f5b11d0b456560db13066950b29b7203216.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/2799f67b0fc6a992e9ab003928298f5b11d0b456560db13066950b29b7203216.pdf",
           "originalName": "2026Mar_MathB_J.pdf",
           "sha256": "2799f67b0fc6a992e9ab003928298f5b11d0b456560db13066950b29b7203216",
           "byteSize": 48396,
@@ -33753,7 +33753,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/1980c66d8ea8c2ebac0d01e05be0106fc66cc7d680968406a4653bd2915afe6b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/1980c66d8ea8c2ebac0d01e05be0106fc66cc7d680968406a4653bd2915afe6b.pdf",
           "originalName": "0002.pdf",
           "sha256": "1980c66d8ea8c2ebac0d01e05be0106fc66cc7d680968406a4653bd2915afe6b",
           "byteSize": 80922,
@@ -33785,7 +33785,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/b8cedd6352e955619284fb1ee7352568f2f396b455f9f8d00549fa84939f9715.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/b8cedd6352e955619284fb1ee7352568f2f396b455f9f8d00549fa84939f9715.pdf",
           "originalName": "0009.pdf",
           "sha256": "b8cedd6352e955619284fb1ee7352568f2f396b455f9f8d00549fa84939f9715",
           "byteSize": 75156,
@@ -33817,7 +33817,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f30c743a1d135285161752f94f3ee6f53a660bccc3b462e83bdc77520cf65cc0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f30c743a1d135285161752f94f3ee6f53a660bccc3b462e83bdc77520cf65cc0.pdf",
           "originalName": "0103.pdf",
           "sha256": "f30c743a1d135285161752f94f3ee6f53a660bccc3b462e83bdc77520cf65cc0",
           "byteSize": 88065,
@@ -33849,7 +33849,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/faee68b6888f4af09a130178ee0c52decc60373842da769fba15312de292959a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/faee68b6888f4af09a130178ee0c52decc60373842da769fba15312de292959a.pdf",
           "originalName": "0109.pdf",
           "sha256": "faee68b6888f4af09a130178ee0c52decc60373842da769fba15312de292959a",
           "byteSize": 87407,
@@ -33881,7 +33881,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/87b58f52d78f099374e5a3bd343674994124d1ccbde9f844db4ec9e39b2af117.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/87b58f52d78f099374e5a3bd343674994124d1ccbde9f844db4ec9e39b2af117.pdf",
           "originalName": "0203.pdf",
           "sha256": "87b58f52d78f099374e5a3bd343674994124d1ccbde9f844db4ec9e39b2af117",
           "byteSize": 54339,
@@ -33913,7 +33913,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e507f7b4d3a3d0cd3258bef4aa162030da0d20f2e290c3f0bb9eb21cef033ee.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/5e507f7b4d3a3d0cd3258bef4aa162030da0d20f2e290c3f0bb9eb21cef033ee.pdf",
           "originalName": "0209.pdf",
           "sha256": "5e507f7b4d3a3d0cd3258bef4aa162030da0d20f2e290c3f0bb9eb21cef033ee",
           "byteSize": 63190,
@@ -33945,7 +33945,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f28f931a92a88598333e30bdffeb49f3e9401022fb4630ee481fcf8bcb3c8236.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f28f931a92a88598333e30bdffeb49f3e9401022fb4630ee481fcf8bcb3c8236.pdf",
           "originalName": "0303.pdf",
           "sha256": "f28f931a92a88598333e30bdffeb49f3e9401022fb4630ee481fcf8bcb3c8236",
           "byteSize": 59712,
@@ -33977,7 +33977,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/d2cccebe275b6cbb16d6223c68461c257bf3a724a602806af1459fcc59cc430e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/d2cccebe275b6cbb16d6223c68461c257bf3a724a602806af1459fcc59cc430e.pdf",
           "originalName": "0309.pdf",
           "sha256": "d2cccebe275b6cbb16d6223c68461c257bf3a724a602806af1459fcc59cc430e",
           "byteSize": 65960,
@@ -34009,7 +34009,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/1bf6621e4d3d93828552cba67cd123256ec3449b47fa0cb1fead7ad467f5f8b6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/1bf6621e4d3d93828552cba67cd123256ec3449b47fa0cb1fead7ad467f5f8b6.pdf",
           "originalName": "0409.pdf",
           "sha256": "1bf6621e4d3d93828552cba67cd123256ec3449b47fa0cb1fead7ad467f5f8b6",
           "byteSize": 68298,
@@ -34041,7 +34041,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/07bc1734070f052702887bb6a703cebde280012ec6a10b724508c01c3d61cd58.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/07bc1734070f052702887bb6a703cebde280012ec6a10b724508c01c3d61cd58.pdf",
           "originalName": "0503.pdf",
           "sha256": "07bc1734070f052702887bb6a703cebde280012ec6a10b724508c01c3d61cd58",
           "byteSize": 52506,
@@ -34073,7 +34073,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/bfae3a7d7f2c18cae150d2dca44e11316714d9f03e50f641f1a2a40047550cd5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/bfae3a7d7f2c18cae150d2dca44e11316714d9f03e50f641f1a2a40047550cd5.pdf",
           "originalName": "0508.pdf",
           "sha256": "bfae3a7d7f2c18cae150d2dca44e11316714d9f03e50f641f1a2a40047550cd5",
           "byteSize": 88066,
@@ -34105,7 +34105,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/443fcd47fb38f765fc3ec0082e13d032d2e3214e67cef4e7e75c688b212a03bf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/443fcd47fb38f765fc3ec0082e13d032d2e3214e67cef4e7e75c688b212a03bf.pdf",
           "originalName": "0608.pdf",
           "sha256": "443fcd47fb38f765fc3ec0082e13d032d2e3214e67cef4e7e75c688b212a03bf",
           "byteSize": 50358,
@@ -34137,7 +34137,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/e46be23ba37d6a2b1587b73ef2cc7cd2f6e89d48eae6a57083bf5a38d0996cef.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/e46be23ba37d6a2b1587b73ef2cc7cd2f6e89d48eae6a57083bf5a38d0996cef.pdf",
           "originalName": "0708.pdf",
           "sha256": "e46be23ba37d6a2b1587b73ef2cc7cd2f6e89d48eae6a57083bf5a38d0996cef",
           "byteSize": 36971,
@@ -34169,7 +34169,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/a5d523b426928b585ccfecb504c56970f9e74140477f06d5b03907dea8131ece.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a5d523b426928b585ccfecb504c56970f9e74140477f06d5b03907dea8131ece.pdf",
           "originalName": "0802.pdf",
           "sha256": "a5d523b426928b585ccfecb504c56970f9e74140477f06d5b03907dea8131ece",
           "byteSize": 70760,
@@ -34201,7 +34201,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/2afc92d2e59f935ea16c69453b0df79681c26a2593a76b34a06d6e159ddea076.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/2afc92d2e59f935ea16c69453b0df79681c26a2593a76b34a06d6e159ddea076.pdf",
           "originalName": "0908.pdf",
           "sha256": "2afc92d2e59f935ea16c69453b0df79681c26a2593a76b34a06d6e159ddea076",
           "byteSize": 85671,
@@ -34233,7 +34233,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/9508946141849e61b3cb9bcf48004e2bbf5c942883df3c5657d1bf6ddb323380.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/9508946141849e61b3cb9bcf48004e2bbf5c942883df3c5657d1bf6ddb323380.pdf",
           "originalName": "1003.pdf",
           "sha256": "9508946141849e61b3cb9bcf48004e2bbf5c942883df3c5657d1bf6ddb323380",
           "byteSize": 87951,
@@ -34265,7 +34265,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/53d9b274a67def45388d063fc5bc8c4308a193c4966885301f3405088beccf67.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/53d9b274a67def45388d063fc5bc8c4308a193c4966885301f3405088beccf67.pdf",
           "originalName": "1008.pdf",
           "sha256": "53d9b274a67def45388d063fc5bc8c4308a193c4966885301f3405088beccf67",
           "byteSize": 100270,
@@ -34297,7 +34297,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/31f855064faf64bda1ed370f6aacec7ca15ef9854ad0a5b359c2542291e4ab76.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/31f855064faf64bda1ed370f6aacec7ca15ef9854ad0a5b359c2542291e4ab76.pdf",
           "originalName": "1103.pdf",
           "sha256": "31f855064faf64bda1ed370f6aacec7ca15ef9854ad0a5b359c2542291e4ab76",
           "byteSize": 88922,
@@ -34329,7 +34329,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/09b3b1f8eedc5756935a5b79819429bb942db419c18ed0995f532cb0f87b5350.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/09b3b1f8eedc5756935a5b79819429bb942db419c18ed0995f532cb0f87b5350.pdf",
           "originalName": "1108.pdf",
           "sha256": "09b3b1f8eedc5756935a5b79819429bb942db419c18ed0995f532cb0f87b5350",
           "byteSize": 99923,
@@ -34361,7 +34361,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/54b01a38d62a5a8f4022aacca2df941752c4c1fc299296df3f59320309086e9b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/54b01a38d62a5a8f4022aacca2df941752c4c1fc299296df3f59320309086e9b.pdf",
           "originalName": "1202.pdf",
           "sha256": "54b01a38d62a5a8f4022aacca2df941752c4c1fc299296df3f59320309086e9b",
           "byteSize": 126945,
@@ -34393,7 +34393,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/90be0dbd507436fb4a8aae5f71f37333a05b6c9d86edef47cdabc702c9317ba0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/90be0dbd507436fb4a8aae5f71f37333a05b6c9d86edef47cdabc702c9317ba0.pdf",
           "originalName": "1208.pdf",
           "sha256": "90be0dbd507436fb4a8aae5f71f37333a05b6c9d86edef47cdabc702c9317ba0",
           "byteSize": 99119,
@@ -34425,7 +34425,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/ba74126dea67005124cca3e3325ddbe5a20e381bbc0484f23cc2afe9facb6253.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/ba74126dea67005124cca3e3325ddbe5a20e381bbc0484f23cc2afe9facb6253.pdf",
           "originalName": "1303.pdf",
           "sha256": "ba74126dea67005124cca3e3325ddbe5a20e381bbc0484f23cc2afe9facb6253",
           "byteSize": 85388,
@@ -34457,7 +34457,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/1fa178e28c52a5005877509af49b60a8eec841626f23f7dd33cf0b4fbee80f10.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/1fa178e28c52a5005877509af49b60a8eec841626f23f7dd33cf0b4fbee80f10.pdf",
           "originalName": "1308.pdf",
           "sha256": "1fa178e28c52a5005877509af49b60a8eec841626f23f7dd33cf0b4fbee80f10",
           "byteSize": 129922,
@@ -34489,7 +34489,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/67a284eaf32b5846a83e58971ccd844176f2bce78411f59da50744f1d2b6b010.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/67a284eaf32b5846a83e58971ccd844176f2bce78411f59da50744f1d2b6b010.pdf",
           "originalName": "1403.pdf",
           "sha256": "67a284eaf32b5846a83e58971ccd844176f2bce78411f59da50744f1d2b6b010",
           "byteSize": 32863,
@@ -34521,7 +34521,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/bfe7f6b65bedd4b5b2ae2f7a8860e2fb3655567e595bd45862914d5de870ac19.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/bfe7f6b65bedd4b5b2ae2f7a8860e2fb3655567e595bd45862914d5de870ac19.pdf",
           "originalName": "1408.pdf",
           "sha256": "bfe7f6b65bedd4b5b2ae2f7a8860e2fb3655567e595bd45862914d5de870ac19",
           "byteSize": 122957,
@@ -34553,7 +34553,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/d25fbdc39fa66cfacaa795674ce137c95237baf76ef27db421d0422bb3749d97.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/d25fbdc39fa66cfacaa795674ce137c95237baf76ef27db421d0422bb3749d97.pdf",
           "originalName": "1503.pdf",
           "sha256": "d25fbdc39fa66cfacaa795674ce137c95237baf76ef27db421d0422bb3749d97",
           "byteSize": 29089,
@@ -34585,7 +34585,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/ca81df49082f5fc6028f2f6c761e4380a09a9b31d5a2b69e3165a3f27f2411e0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/ca81df49082f5fc6028f2f6c761e4380a09a9b31d5a2b69e3165a3f27f2411e0.pdf",
           "originalName": "1508.pdf",
           "sha256": "ca81df49082f5fc6028f2f6c761e4380a09a9b31d5a2b69e3165a3f27f2411e0",
           "byteSize": 34130,
@@ -34617,7 +34617,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/dde90486ab57d6a9f754a6bff115282b218846bf44c5526a852d607c2527eaa5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/dde90486ab57d6a9f754a6bff115282b218846bf44c5526a852d607c2527eaa5.pdf",
           "originalName": "1608.pdf",
           "sha256": "dde90486ab57d6a9f754a6bff115282b218846bf44c5526a852d607c2527eaa5",
           "byteSize": 108653,
@@ -34649,7 +34649,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/8040cb1f97e746bb41e128dcbdb14925c1bec1b8905d16ab4695dd921b5b5066.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/8040cb1f97e746bb41e128dcbdb14925c1bec1b8905d16ab4695dd921b5b5066.pdf",
           "originalName": "1708.pdf",
           "sha256": "8040cb1f97e746bb41e128dcbdb14925c1bec1b8905d16ab4695dd921b5b5066",
           "byteSize": 93032,
@@ -34681,7 +34681,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/5cec429b2bd85a92bdcb7bd7dea37e2673273d273531a7f849507377d8e790af.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/5cec429b2bd85a92bdcb7bd7dea37e2673273d273531a7f849507377d8e790af.pdf",
           "originalName": "1808.pdf",
           "sha256": "5cec429b2bd85a92bdcb7bd7dea37e2673273d273531a7f849507377d8e790af",
           "byteSize": 111626,
@@ -34713,7 +34713,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/3d82dbbfbed41d1da219c89c4204cb55748238d05d80ca3899fcca532aab7857.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/3d82dbbfbed41d1da219c89c4204cb55748238d05d80ca3899fcca532aab7857.pdf",
           "originalName": "1908.pdf",
           "sha256": "3d82dbbfbed41d1da219c89c4204cb55748238d05d80ca3899fcca532aab7857",
           "byteSize": 114193,
@@ -34745,7 +34745,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/0d0810a1a02691ba1bbfbc60004102052b97cc6ab6f44e22332cd179b2f5bc5e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/0d0810a1a02691ba1bbfbc60004102052b97cc6ab6f44e22332cd179b2f5bc5e.pdf",
           "originalName": "2008.pdf",
           "sha256": "0d0810a1a02691ba1bbfbc60004102052b97cc6ab6f44e22332cd179b2f5bc5e",
           "byteSize": 84915,
@@ -34777,7 +34777,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/df662c277a1c90945443964beecd231714f11b76e2c69391f0d2b31a90fcc4a5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/df662c277a1c90945443964beecd231714f11b76e2c69391f0d2b31a90fcc4a5.pdf",
           "originalName": "2108.pdf",
           "sha256": "df662c277a1c90945443964beecd231714f11b76e2c69391f0d2b31a90fcc4a5",
           "byteSize": 88695,
@@ -34809,7 +34809,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/c876bec93c7071d1cca295a45268cb3f79b4985bd6182c3c08161196454e1636.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/c876bec93c7071d1cca295a45268cb3f79b4985bd6182c3c08161196454e1636.pdf",
           "originalName": "2208.pdf",
           "sha256": "c876bec93c7071d1cca295a45268cb3f79b4985bd6182c3c08161196454e1636",
           "byteSize": 87947,
@@ -34841,7 +34841,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f7edd396fdfb9ca0a0d0c75f3ab136727564ade4301290b594591ef77294377d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f7edd396fdfb9ca0a0d0c75f3ab136727564ade4301290b594591ef77294377d.pdf",
           "originalName": "2308.pdf",
           "sha256": "f7edd396fdfb9ca0a0d0c75f3ab136727564ade4301290b594591ef77294377d",
           "byteSize": 86926,
@@ -34873,7 +34873,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/2069a84cea42189d66304499161d2e4a1d5bdb8a3276f8fb04548573a437072a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/2069a84cea42189d66304499161d2e4a1d5bdb8a3276f8fb04548573a437072a.pdf",
           "originalName": "2408.pdf",
           "sha256": "2069a84cea42189d66304499161d2e4a1d5bdb8a3276f8fb04548573a437072a",
           "byteSize": 46613,
@@ -34886,7 +34886,7 @@
         {
           "label": "出題意図・解答例",
           "kind": "answer",
-          "url": "assets/past-papers/documents/748f541eebc9b5a6e430906eebaf3bb6ee354bba7e9b09e863ea0ffb3bb2a707.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/748f541eebc9b5a6e430906eebaf3bb6ee354bba7e9b09e863ea0ffb3bb2a707.pdf",
           "originalName": "2408comments.pdf",
           "sha256": "748f541eebc9b5a6e430906eebaf3bb6ee354bba7e9b09e863ea0ffb3bb2a707",
           "byteSize": 69100,
@@ -34918,7 +34918,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/b335ceeaa950d9f75f9f4a476f9e2b3b6a61633632ceae5335b46452d390e010.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/b335ceeaa950d9f75f9f4a476f9e2b3b6a61633632ceae5335b46452d390e010.pdf",
           "originalName": "9903.pdf",
           "sha256": "b335ceeaa950d9f75f9f4a476f9e2b3b6a61633632ceae5335b46452d390e010",
           "byteSize": 72236,
@@ -34950,7 +34950,7 @@
         {
           "label": "問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/29bc7d692f66be62fe72aaccab04e8b48639ca35610eb70578019669de26f19f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/29bc7d692f66be62fe72aaccab04e8b48639ca35610eb70578019669de26f19f.pdf",
           "originalName": "9908.pdf",
           "sha256": "29bc7d692f66be62fe72aaccab04e8b48639ca35610eb70578019669de26f19f",
           "byteSize": 85559,
@@ -34981,7 +34981,7 @@
         {
           "label": "出題意図・解答例",
           "kind": "answer",
-          "url": "assets/past-papers/documents/75639db8404755a6ac7452f4d5b6982bbb077fd6aacb93ea92de8d3ede8dbfe6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/75639db8404755a6ac7452f4d5b6982bbb077fd6aacb93ea92de8d3ede8dbfe6.pdf",
           "originalName": "2508comments (1).pdf",
           "sha256": "75639db8404755a6ac7452f4d5b6982bbb077fd6aacb93ea92de8d3ede8dbfe6",
           "byteSize": 319626,
@@ -35020,7 +35020,7 @@
         {
           "label": "数学共通問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/6110ccabe6011778aebd2b7b2760cae02ff6a050fb05faeed14330c67bddee6d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/6110ccabe6011778aebd2b7b2760cae02ff6a050fb05faeed14330c67bddee6d.pdf",
           "originalName": "2022_R4_kyotsu.pdf",
           "sha256": "6110ccabe6011778aebd2b7b2760cae02ff6a050fb05faeed14330c67bddee6d",
           "byteSize": 109319,
@@ -35033,7 +35033,7 @@
         {
           "label": "数学選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f337b6d1a47d494cd8f448bb4f7c860024fc67959f11c7353e1dbfc786484c24.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f337b6d1a47d494cd8f448bb4f7c860024fc67959f11c7353e1dbfc786484c24.pdf",
           "originalName": "2022_R4_sentaku.pdf",
           "sha256": "f337b6d1a47d494cd8f448bb4f7c860024fc67959f11c7353e1dbfc786484c24",
           "byteSize": 229241,
@@ -35046,7 +35046,7 @@
         {
           "label": "英語",
           "kind": "question",
-          "url": "assets/past-papers/documents/91cff6176ee1457fdc8c093096343f9c7c71ec7cf7c509240b1d2c5fa0b645b6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/91cff6176ee1457fdc8c093096343f9c7c71ec7cf7c509240b1d2c5fa0b645b6.pdf",
           "originalName": "2022_R4_English.pdf",
           "sha256": "91cff6176ee1457fdc8c093096343f9c7c71ec7cf7c509240b1d2c5fa0b645b6",
           "byteSize": 53251,
@@ -35084,7 +35084,7 @@
         {
           "label": "数学共通問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/3f09966ad1c58985ad250af9ac06a6ac1ae5d5f25b7c1cbe377c01cdd163ea26.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/3f09966ad1c58985ad250af9ac06a6ac1ae5d5f25b7c1cbe377c01cdd163ea26.pdf",
           "originalName": "2023_R5_kyotsu.pdf",
           "sha256": "3f09966ad1c58985ad250af9ac06a6ac1ae5d5f25b7c1cbe377c01cdd163ea26",
           "byteSize": 163934,
@@ -35097,7 +35097,7 @@
         {
           "label": "数学選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/ef36de07e8e6a6247f15d82f12579b2453f63a1620c0269a8a770594f7c192df.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/ef36de07e8e6a6247f15d82f12579b2453f63a1620c0269a8a770594f7c192df.pdf",
           "originalName": "2023_R5_sentaku.pdf",
           "sha256": "ef36de07e8e6a6247f15d82f12579b2453f63a1620c0269a8a770594f7c192df",
           "byteSize": 350086,
@@ -35110,7 +35110,7 @@
         {
           "label": "英語",
           "kind": "question",
-          "url": "assets/past-papers/documents/17da683b2de99eb08474703a0a4d6e2241d5993a4b59408392a5e0efd1311f0d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/17da683b2de99eb08474703a0a4d6e2241d5993a4b59408392a5e0efd1311f0d.pdf",
           "originalName": "2023_R5_English.pdf",
           "sha256": "17da683b2de99eb08474703a0a4d6e2241d5993a4b59408392a5e0efd1311f0d",
           "byteSize": 87482,
@@ -35148,7 +35148,7 @@
         {
           "label": "数学共通問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/30614a59b27047ad500f35459d030259b08fe713ca2f440056c53c5fab490f97.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/30614a59b27047ad500f35459d030259b08fe713ca2f440056c53c5fab490f97.pdf",
           "originalName": "2024_R6_kyotsu.pdf",
           "sha256": "30614a59b27047ad500f35459d030259b08fe713ca2f440056c53c5fab490f97",
           "byteSize": 51004,
@@ -35161,7 +35161,7 @@
         {
           "label": "数学選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/bc7ddad7d452f4dd8effe8a01af827e77c430f07d9ae4e22f0060db191bee464.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/bc7ddad7d452f4dd8effe8a01af827e77c430f07d9ae4e22f0060db191bee464.pdf",
           "originalName": "2024_R6_sentaku.pdf",
           "sha256": "bc7ddad7d452f4dd8effe8a01af827e77c430f07d9ae4e22f0060db191bee464",
           "byteSize": 119706,
@@ -35174,7 +35174,7 @@
         {
           "label": "英語",
           "kind": "question",
-          "url": "assets/past-papers/documents/5d2d02c73c3c6810b1ea5d93048111fa13687731b08f7559b3e22b4272b3015b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/5d2d02c73c3c6810b1ea5d93048111fa13687731b08f7559b3e22b4272b3015b.pdf",
           "originalName": "2024_R6_English.pdf",
           "sha256": "5d2d02c73c3c6810b1ea5d93048111fa13687731b08f7559b3e22b4272b3015b",
           "byteSize": 1470249,
@@ -35213,7 +35213,7 @@
         {
           "label": "数学共通問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/5b647c8c1f4d665019d7a8642fd2cc4d1dc7b4c1c69aa4ed7f1259e602f602a3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/5b647c8c1f4d665019d7a8642fd2cc4d1dc7b4c1c69aa4ed7f1259e602f602a3.pdf",
           "originalName": "2025_R7_kyotsu.pdf",
           "sha256": "5b647c8c1f4d665019d7a8642fd2cc4d1dc7b4c1c69aa4ed7f1259e602f602a3",
           "byteSize": 52503,
@@ -35226,7 +35226,7 @@
         {
           "label": "数学選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/8073a96203bfc3c3caa62e3d95bc0b9c1aebdb715a2e11df9db0e8ffe19327f3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/8073a96203bfc3c3caa62e3d95bc0b9c1aebdb715a2e11df9db0e8ffe19327f3.pdf",
           "originalName": "2025_R7_sentaku.pdf",
           "sha256": "8073a96203bfc3c3caa62e3d95bc0b9c1aebdb715a2e11df9db0e8ffe19327f3",
           "byteSize": 85770,
@@ -35239,7 +35239,7 @@
         {
           "label": "英語",
           "kind": "question",
-          "url": "assets/past-papers/documents/32a403bf355fc1c851b1d72e585b5b1399e7bec8b3037d246f00693607e69551.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/32a403bf355fc1c851b1d72e585b5b1399e7bec8b3037d246f00693607e69551.pdf",
           "originalName": "2025_R7_English.pdf",
           "sha256": "32a403bf355fc1c851b1d72e585b5b1399e7bec8b3037d246f00693607e69551",
           "byteSize": 98117,
@@ -35252,7 +35252,7 @@
         {
           "label": "出題意図（非试题／非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/f9e139017115178a3185efddf172a5cec9c42af7b598e205ef390ec9d296d6b6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f9e139017115178a3185efddf172a5cec9c42af7b598e205ef390ec9d296d6b6.pdf",
           "originalName": "2025_R7_purpose.pdf",
           "sha256": "f9e139017115178a3185efddf172a5cec9c42af7b598e205ef390ec9d296d6b6",
           "byteSize": 98749,
@@ -35291,7 +35291,7 @@
         {
           "label": "数学共通問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/a730c45c92954c2d9bb1df59758926e79f5e4e8937077980f9d0a53f5a646963.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a730c45c92954c2d9bb1df59758926e79f5e4e8937077980f9d0a53f5a646963.pdf",
           "originalName": "2026_R8_kyotsu.pdf",
           "sha256": "a730c45c92954c2d9bb1df59758926e79f5e4e8937077980f9d0a53f5a646963",
           "byteSize": 95431,
@@ -35304,7 +35304,7 @@
         {
           "label": "数学選択問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/c9afff7e50ad772ad6a5977d885f43af9a10cb086148e8644acc44ecda66e958.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/c9afff7e50ad772ad6a5977d885f43af9a10cb086148e8644acc44ecda66e958.pdf",
           "originalName": "2026_R8_sentaku.pdf",
           "sha256": "c9afff7e50ad772ad6a5977d885f43af9a10cb086148e8644acc44ecda66e958",
           "byteSize": 125321,
@@ -35317,7 +35317,7 @@
         {
           "label": "英語",
           "kind": "question",
-          "url": "assets/past-papers/documents/1108dced7be6eb3b80068e094c4684627169d1b804e591647868d64701877bc3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/1108dced7be6eb3b80068e094c4684627169d1b804e591647868d64701877bc3.pdf",
           "originalName": "2026_R8_English.pdf",
           "sha256": "1108dced7be6eb3b80068e094c4684627169d1b804e591647868d64701877bc3",
           "byteSize": 143656,
@@ -35330,7 +35330,7 @@
         {
           "label": "出題意図・講評（非试题／非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/4d36ef80511a9f84e0943c6e120add6cfb1ba5891145a050aea58ab0f5e1cd3c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/4d36ef80511a9f84e0943c6e120add6cfb1ba5891145a050aea58ab0f5e1cd3c.pdf",
           "originalName": "2026_R8_purpose.pdf",
           "sha256": "4d36ef80511a9f84e0943c6e120add6cfb1ba5891145a050aea58ab0f5e1cd3c",
           "byteSize": 159012,
@@ -35371,7 +35371,7 @@
         {
           "label": "筆記試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f7ca0612bac2f50abcaaae8fe9019acce518082cb2733bc3ed47d07000599dce.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/f7ca0612bac2f50abcaaae8fe9019acce518082cb2733bc3ed47d07000599dce.pdf",
           "originalName": "exa-r3.pdf",
           "sha256": "f7ca0612bac2f50abcaaae8fe9019acce518082cb2733bc3ed47d07000599dce",
           "byteSize": 545447,
@@ -35411,7 +35411,7 @@
         {
           "label": "筆記試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/211bf79f578947e356920933dfa3a6b9850bd0bf383ea78ba1057a9c27688eb9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/211bf79f578947e356920933dfa3a6b9850bd0bf383ea78ba1057a9c27688eb9.pdf",
           "originalName": "exa-r4.pdf",
           "sha256": "211bf79f578947e356920933dfa3a6b9850bd0bf383ea78ba1057a9c27688eb9",
           "byteSize": 676232,
@@ -35451,7 +35451,7 @@
         {
           "label": "筆記試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/d88b877b20484accc561cf0f7e3da72758c941adebf8877f9821351954e462f6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/d88b877b20484accc561cf0f7e3da72758c941adebf8877f9821351954e462f6.pdf",
           "originalName": "exa-r5.pdf",
           "sha256": "d88b877b20484accc561cf0f7e3da72758c941adebf8877f9821351954e462f6",
           "byteSize": 870684,
@@ -35491,7 +35491,7 @@
         {
           "label": "筆記試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/d81a8236a757b8c03fee11d7fbe4db5c6f3785d1efc12166ebb6a56b0adc28d5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/d81a8236a757b8c03fee11d7fbe4db5c6f3785d1efc12166ebb6a56b0adc28d5.pdf",
           "originalName": "exa-r6.pdf",
           "sha256": "d81a8236a757b8c03fee11d7fbe4db5c6f3785d1efc12166ebb6a56b0adc28d5",
           "byteSize": 739869,
@@ -35532,7 +35532,7 @@
         {
           "label": "筆記試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/57ad9971265bff4ece510a42a1a5146e038fce6d8d6876056487170a4842d683.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/57ad9971265bff4ece510a42a1a5146e038fce6d8d6876056487170a4842d683.pdf",
           "originalName": "exa-r7.pdf",
           "sha256": "57ad9971265bff4ece510a42a1a5146e038fce6d8d6876056487170a4842d683",
           "byteSize": 915138,
@@ -35545,7 +35545,7 @@
         {
           "label": "出題意図（非试题／非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/d77772c0eee176ac3f247cf9d890e77484fb9d2d3aceb4d8de133e46560b5373.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/d77772c0eee176ac3f247cf9d890e77484fb9d2d3aceb4d8de133e46560b5373.pdf",
           "originalName": "exa_obj-r7.pdf",
           "sha256": "d77772c0eee176ac3f247cf9d890e77484fb9d2d3aceb4d8de133e46560b5373",
           "byteSize": 66489,
@@ -35586,7 +35586,7 @@
         {
           "label": "筆記試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/21651beb74074b9e906f601c050e0c1f5a93c7f95e1eea171bde460cad877c95.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/21651beb74074b9e906f601c050e0c1f5a93c7f95e1eea171bde460cad877c95.pdf",
           "originalName": "exa-r8.pdf",
           "sha256": "21651beb74074b9e906f601c050e0c1f5a93c7f95e1eea171bde460cad877c95",
           "byteSize": 1336478,
@@ -35599,7 +35599,7 @@
         {
           "label": "出題意図・講評（非试题／非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/d62e2ff2fd66493fa7e630eb72b96b573ef1b62b85545cc1e90b4545d9446f9b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/d62e2ff2fd66493fa7e630eb72b96b573ef1b62b85545cc1e90b4545d9446f9b.pdf",
           "originalName": "exa_obj-r8.pdf",
           "sha256": "d62e2ff2fd66493fa7e630eb72b96b573ef1b62b85545cc1e90b4545d9446f9b",
           "byteSize": 1758083,
@@ -35635,7 +35635,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a919d6f2e85e3c0d15d6dc0ed9ae070c1914d04da50609f682a08c9864837866.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a919d6f2e85e3c0d15d6dc0ed9ae070c1914d04da50609f682a08c9864837866.pdf",
           "originalName": "2023_autumn_BasicSubjectsJ.pdf",
           "sha256": "a919d6f2e85e3c0d15d6dc0ed9ae070c1914d04da50609f682a08c9864837866",
           "byteSize": 182201,
@@ -35671,7 +35671,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/11e8d6a85c067310b4f26a8ce9f380c3455a4a698f027c7f1b8dac75e434ef0c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/11e8d6a85c067310b4f26a8ce9f380c3455a4a698f027c7f1b8dac75e434ef0c.pdf",
           "originalName": "2024_spring_BasicSubjectsJ.pdf",
           "sha256": "11e8d6a85c067310b4f26a8ce9f380c3455a4a698f027c7f1b8dac75e434ef0c",
           "byteSize": 132263,
@@ -35707,7 +35707,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/a6a41c6ca95b371d90161d78917e60f227b3177d89559cfeb82eda136bbd30ae.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/a6a41c6ca95b371d90161d78917e60f227b3177d89559cfeb82eda136bbd30ae.pdf",
           "originalName": "2024_autumn_BasicSubjectsJ.pdf",
           "sha256": "a6a41c6ca95b371d90161d78917e60f227b3177d89559cfeb82eda136bbd30ae",
           "byteSize": 97837,
@@ -35743,7 +35743,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/39d3a618b1324caca20f9d6add4dcb224f48cdfa39aa7712c2893e4734eaa3f6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/39d3a618b1324caca20f9d6add4dcb224f48cdfa39aa7712c2893e4734eaa3f6.pdf",
           "originalName": "2025_spring_BasicSubjectsJ.pdf",
           "sha256": "39d3a618b1324caca20f9d6add4dcb224f48cdfa39aa7712c2893e4734eaa3f6",
           "byteSize": 88048,
@@ -35779,7 +35779,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/52426d1a7a97e25439779e09614ad4650db8e03736b953c944b5579dd20b8d11.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/52426d1a7a97e25439779e09614ad4650db8e03736b953c944b5579dd20b8d11.pdf",
           "originalName": "2025_autumn_BasicSubjectsJ.pdf",
           "sha256": "52426d1a7a97e25439779e09614ad4650db8e03736b953c944b5579dd20b8d11",
           "byteSize": 114475,
@@ -35815,7 +35815,7 @@
         {
           "label": "基礎科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e0f61ea47abe311ad4ee086325ea56c9948b1c38177bde6531f7af986df6cadd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/e0f61ea47abe311ad4ee086325ea56c9948b1c38177bde6531f7af986df6cadd.pdf",
           "originalName": "2026_spring_BasicSubjectsJ.pdf",
           "sha256": "e0f61ea47abe311ad4ee086325ea56c9948b1c38177bde6531f7af986df6cadd",
           "byteSize": 83626,
@@ -35843,7 +35843,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/e63fb0dc714010e66dbbf9c98e00172bcc953578da840ab04abea34b1fbe48ad.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/e63fb0dc714010e66dbbf9c98e00172bcc953578da840ab04abea34b1fbe48ad.pdf",
           "originalName": "Jマテリアルデザイン科学2021.pdf",
           "sha256": "e63fb0dc714010e66dbbf9c98e00172bcc953578da840ab04abea34b1fbe48ad",
           "byteSize": 1560151,
@@ -35871,7 +35871,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/2694d7984d256002d156f159b059e39f914833be4622cc489c6a168acc5b5a1b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/2694d7984d256002d156f159b059e39f914833be4622cc489c6a168acc5b5a1b.pdf",
           "originalName": "Jマテリアルデザイン科学2022.pdf",
           "sha256": "2694d7984d256002d156f159b059e39f914833be4622cc489c6a168acc5b5a1b",
           "byteSize": 340028,
@@ -35899,7 +35899,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/e0b38107989b8a44ef652c322b392f8788c905a6692193c52d4f040db11b04ac.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/e0b38107989b8a44ef652c322b392f8788c905a6692193c52d4f040db11b04ac.pdf",
           "originalName": "Jマテリアルデザイン科学2023.pdf",
           "sha256": "e0b38107989b8a44ef652c322b392f8788c905a6692193c52d4f040db11b04ac",
           "byteSize": 478327,
@@ -35927,7 +35927,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/5230a5d3ff841862bb89090e8ad789e5a70a9abfad70b8bbf72ab598e799e34c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/5230a5d3ff841862bb89090e8ad789e5a70a9abfad70b8bbf72ab598e799e34c.pdf",
           "originalName": "Jマテリアルデザイン科学2024.pdf",
           "sha256": "5230a5d3ff841862bb89090e8ad789e5a70a9abfad70b8bbf72ab598e799e34c",
           "byteSize": 453366,
@@ -35955,7 +35955,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/b82157b9150638fda4135be8de93105f82d35ccb2cf955c0c35c5b32db936054.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/b82157b9150638fda4135be8de93105f82d35ccb2cf955c0c35c5b32db936054.pdf",
           "originalName": "M応用力学・計算力学2021.pdf",
           "sha256": "b82157b9150638fda4135be8de93105f82d35ccb2cf955c0c35c5b32db936054",
           "byteSize": 1505449,
@@ -35983,7 +35983,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/e4b6402c274370561670a588dadc234ecb4079526c75dc0c1adb840198556706.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/e4b6402c274370561670a588dadc234ecb4079526c75dc0c1adb840198556706.pdf",
           "originalName": "M応用力学・計算力学2022.pdf",
           "sha256": "e4b6402c274370561670a588dadc234ecb4079526c75dc0c1adb840198556706",
           "byteSize": 544485,
@@ -36011,7 +36011,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/8127b544d98204705cb1cfcecb1e111caee1377bacc5373e75d0fd848dd69dda.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/8127b544d98204705cb1cfcecb1e111caee1377bacc5373e75d0fd848dd69dda.pdf",
           "originalName": "M応用力学・計算力学2023.pdf",
           "sha256": "8127b544d98204705cb1cfcecb1e111caee1377bacc5373e75d0fd848dd69dda",
           "byteSize": 726625,
@@ -36039,7 +36039,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/9f97503c8e253a7f6475e523df5779b5775dbb91178faef665c285867d9aa2ee.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/9f97503c8e253a7f6475e523df5779b5775dbb91178faef665c285867d9aa2ee.pdf",
           "originalName": "M応用力学・計算力学2024.pdf",
           "sha256": "9f97503c8e253a7f6475e523df5779b5775dbb91178faef665c285867d9aa2ee",
           "byteSize": 806983,
@@ -36067,7 +36067,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/b462be2e14528991ca9900f2237011230a185dc3c77cfbe3d300ee4fb6797eae.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/b462be2e14528991ca9900f2237011230a185dc3c77cfbe3d300ee4fb6797eae.pdf",
           "originalName": "N情報工学2021.pdf",
           "sha256": "b462be2e14528991ca9900f2237011230a185dc3c77cfbe3d300ee4fb6797eae",
           "byteSize": 1070203,
@@ -36095,7 +36095,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f94fe0971a77787056df84f6538b92b2a458258bca63b5fb38a79e9343ff0837.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/f94fe0971a77787056df84f6538b92b2a458258bca63b5fb38a79e9343ff0837.pdf",
           "originalName": "N情報工学2022.pdf",
           "sha256": "f94fe0971a77787056df84f6538b92b2a458258bca63b5fb38a79e9343ff0837",
           "byteSize": 256251,
@@ -36123,7 +36123,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/98b3db6e9f042ce2c990204d87763917d6964e71bcf07b5744ea5402106e2a1e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/98b3db6e9f042ce2c990204d87763917d6964e71bcf07b5744ea5402106e2a1e.pdf",
           "originalName": "N情報工学2023.pdf",
           "sha256": "98b3db6e9f042ce2c990204d87763917d6964e71bcf07b5744ea5402106e2a1e",
           "byteSize": 422520,
@@ -36151,7 +36151,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/d5bc003a00334bc2f1f1a1339ce1e5452cbbeb44be11e9b1fbadaa2735131823.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/d5bc003a00334bc2f1f1a1339ce1e5452cbbeb44be11e9b1fbadaa2735131823.pdf",
           "originalName": "N情報工学2024.pdf",
           "sha256": "d5bc003a00334bc2f1f1a1339ce1e5452cbbeb44be11e9b1fbadaa2735131823",
           "byteSize": 496883,
@@ -36179,7 +36179,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e1eac6029b96dcc9191830a0d8d2b5c9b9b4da2766192799a47767a51d4f2e6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/5e1eac6029b96dcc9191830a0d8d2b5c9b9b4da2766192799a47767a51d4f2e6.pdf",
           "originalName": "D物理情報2021.pdf",
           "sha256": "5e1eac6029b96dcc9191830a0d8d2b5c9b9b4da2766192799a47767a51d4f2e6",
           "byteSize": 604212,
@@ -36207,7 +36207,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/3bf8cbb1d7a550f1478bc339dee035b6d6ccd397ff99d6e20e0320cddd43dc6d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/3bf8cbb1d7a550f1478bc339dee035b6d6ccd397ff99d6e20e0320cddd43dc6d.pdf",
           "originalName": "D物理情報2022.pdf",
           "sha256": "3bf8cbb1d7a550f1478bc339dee035b6d6ccd397ff99d6e20e0320cddd43dc6d",
           "byteSize": 91011,
@@ -36235,7 +36235,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/61c8c792debc08bf344db3141a8bc5bbd4ea7889d6c850975075b8e10e80bd5f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/61c8c792debc08bf344db3141a8bc5bbd4ea7889d6c850975075b8e10e80bd5f.pdf",
           "originalName": "D物理情報2023.pdf",
           "sha256": "61c8c792debc08bf344db3141a8bc5bbd4ea7889d6c850975075b8e10e80bd5f",
           "byteSize": 95454,
@@ -36263,7 +36263,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/b444d1945ff4a6a5b05e16888b751d446b740b7cf6c72603c08a895c91f14635.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/b444d1945ff4a6a5b05e16888b751d446b740b7cf6c72603c08a895c91f14635.pdf",
           "originalName": "D物理情報2024.pdf",
           "sha256": "b444d1945ff4a6a5b05e16888b751d446b740b7cf6c72603c08a895c91f14635",
           "byteSize": 126864,
@@ -36291,7 +36291,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/c40b06f33ef1500825de2f60a592e469fbbbbdef7bb63f31ccca818bf9deb2fb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/c40b06f33ef1500825de2f60a592e469fbbbbdef7bb63f31ccca818bf9deb2fb.pdf",
           "originalName": "I電気電子工学2021.pdf",
           "sha256": "c40b06f33ef1500825de2f60a592e469fbbbbdef7bb63f31ccca818bf9deb2fb",
           "byteSize": 1231115,
@@ -36319,7 +36319,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/8cb82d8a6a0803b5a2f98531c19070620ef72746dd78ff728a7b229792a2070e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/8cb82d8a6a0803b5a2f98531c19070620ef72746dd78ff728a7b229792a2070e.pdf",
           "originalName": "I電気電子工学2022.pdf",
           "sha256": "8cb82d8a6a0803b5a2f98531c19070620ef72746dd78ff728a7b229792a2070e",
           "byteSize": 427418,
@@ -36347,7 +36347,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/2a1eb63e62a70840b4ed19b7de0c456814c37719412c01ed7c52e0f5fdce8a37.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/2a1eb63e62a70840b4ed19b7de0c456814c37719412c01ed7c52e0f5fdce8a37.pdf",
           "originalName": "I電気電子工学2023.pdf",
           "sha256": "2a1eb63e62a70840b4ed19b7de0c456814c37719412c01ed7c52e0f5fdce8a37",
           "byteSize": 501714,
@@ -36375,7 +36375,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/1ef828593d9f87532b5316b73d1eb077c7ba5f2ca500fdf5bfec98037c9e6946.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/1ef828593d9f87532b5316b73d1eb077c7ba5f2ca500fdf5bfec98037c9e6946.pdf",
           "originalName": "I電気電子工学2024.pdf",
           "sha256": "1ef828593d9f87532b5316b73d1eb077c7ba5f2ca500fdf5bfec98037c9e6946",
           "byteSize": 308743,
@@ -36403,7 +36403,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/35876835304e0b425951c202f49db40876d343299b39f4bfcd7457534a423dba.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/35876835304e0b425951c202f49db40876d343299b39f4bfcd7457534a423dba.pdf",
           "originalName": "C物理情報工学2025.pdf",
           "sha256": "35876835304e0b425951c202f49db40876d343299b39f4bfcd7457534a423dba",
           "byteSize": 104882,
@@ -36431,7 +36431,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/99cdc73319407d875b3388f4c821c22cfa5edc74b48647c97f5f5783f1afcc60.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/99cdc73319407d875b3388f4c821c22cfa5edc74b48647c97f5f5783f1afcc60.pdf",
           "originalName": "G機械工学2025.pdf",
           "sha256": "99cdc73319407d875b3388f4c821c22cfa5edc74b48647c97f5f5783f1afcc60",
           "byteSize": 728174,
@@ -36459,7 +36459,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/7197b090742fc2ef4e087a219633b22792568b99c77db18c999ce6d21ea7a85c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/7197b090742fc2ef4e087a219633b22792568b99c77db18c999ce6d21ea7a85c.pdf",
           "originalName": "H電気情報工学2025.pdf",
           "sha256": "7197b090742fc2ef4e087a219633b22792568b99c77db18c999ce6d21ea7a85c",
           "byteSize": 734973,
@@ -36487,7 +36487,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/91f6169938b612f5861a46f8db64810ff0d305076bf924de7dc2605ccc9e8f31.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/91f6169938b612f5861a46f8db64810ff0d305076bf924de7dc2605ccc9e8f31.pdf",
           "originalName": "Hシステム統合工学2021.pdf",
           "sha256": "91f6169938b612f5861a46f8db64810ff0d305076bf924de7dc2605ccc9e8f31",
           "byteSize": 1505149,
@@ -36515,7 +36515,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/1a7cd9d54b4bbb6ba65c95d82d6fd2bd25c109be5781eb268b6cd083f3fa276e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/1a7cd9d54b4bbb6ba65c95d82d6fd2bd25c109be5781eb268b6cd083f3fa276e.pdf",
           "originalName": "Hシステム統合工学2022.pdf",
           "sha256": "1a7cd9d54b4bbb6ba65c95d82d6fd2bd25c109be5781eb268b6cd083f3fa276e",
           "byteSize": 820516,
@@ -36543,7 +36543,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/600d09c3b268843d92ee87d2e6be0c99091c89abf7a12b87da78c843de8b2ba5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/600d09c3b268843d92ee87d2e6be0c99091c89abf7a12b87da78c843de8b2ba5.pdf",
           "originalName": "Hシステム統合工学2023.pdf",
           "sha256": "600d09c3b268843d92ee87d2e6be0c99091c89abf7a12b87da78c843de8b2ba5",
           "byteSize": 1034755,
@@ -36571,7 +36571,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/2588e5eb37e71d042fe707a4015256672e9e11f487d6d4daa2133341164e52a4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/2588e5eb37e71d042fe707a4015256672e9e11f487d6d4daa2133341164e52a4.pdf",
           "originalName": "Hシステム統合工学2024.pdf",
           "sha256": "2588e5eb37e71d042fe707a4015256672e9e11f487d6d4daa2133341164e52a4",
           "byteSize": 686600,
@@ -36599,7 +36599,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/f5dcf9e671c27025cf9d26b127ed1fa2e7a9d64f3fba5cf445862e6593e79c27.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/f5dcf9e671c27025cf9d26b127ed1fa2e7a9d64f3fba5cf445862e6593e79c27.pdf",
           "originalName": "Gマルチディシプリナリデザイン科学2021.pdf",
           "sha256": "f5dcf9e671c27025cf9d26b127ed1fa2e7a9d64f3fba5cf445862e6593e79c27",
           "byteSize": 162298,
@@ -36627,7 +36627,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/06c9a5f3a52bbab6f23594f22f2d9e64c47771ff6c3a0957d19dc4afd0396f40.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/06c9a5f3a52bbab6f23594f22f2d9e64c47771ff6c3a0957d19dc4afd0396f40.pdf",
           "originalName": "Gマルチディシプリナリデザイン科学2022.pdf",
           "sha256": "06c9a5f3a52bbab6f23594f22f2d9e64c47771ff6c3a0957d19dc4afd0396f40",
           "byteSize": 329517,
@@ -36655,7 +36655,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e919c5edb55a69819f5edbb2535dc39f15afb60dbdb5ac01d454103c25740cf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/5e919c5edb55a69819f5edbb2535dc39f15afb60dbdb5ac01d454103c25740cf.pdf",
           "originalName": "Gマルチディシプリナリデザイン科学2023.pdf",
           "sha256": "5e919c5edb55a69819f5edbb2535dc39f15afb60dbdb5ac01d454103c25740cf",
           "byteSize": 336049,
@@ -36683,7 +36683,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/28b5b7ce44ada68e5dece4ce802641c0d3f1dfe41d2ab8037d3037a33489edd8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/28b5b7ce44ada68e5dece4ce802641c0d3f1dfe41d2ab8037d3037a33489edd8.pdf",
           "originalName": "Gマルチディシプリナリデザイン科学2024.pdf",
           "sha256": "28b5b7ce44ada68e5dece4ce802641c0d3f1dfe41d2ab8037d3037a33489edd8",
           "byteSize": 435051,
@@ -36711,7 +36711,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/8e5952da9bea7ebe6e55b32b495e3e886c3f20e8a20dc475727a63500a9c8859.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/8e5952da9bea7ebe6e55b32b495e3e886c3f20e8a20dc475727a63500a9c8859.pdf",
           "originalName": "Iシステムデザイン工学2025.pdf",
           "sha256": "8e5952da9bea7ebe6e55b32b495e3e886c3f20e8a20dc475727a63500a9c8859",
           "byteSize": 1354789,
@@ -36739,7 +36739,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/05fd8f8e3c47a2c1464fb2c652c99d7390370b12d13174a77218d5964760e3fe.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/05fd8f8e3c47a2c1464fb2c652c99d7390370b12d13174a77218d5964760e3fe.pdf",
           "originalName": "A数理科学2021.pdf",
           "sha256": "05fd8f8e3c47a2c1464fb2c652c99d7390370b12d13174a77218d5964760e3fe",
           "byteSize": 1069915,
@@ -36767,7 +36767,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/ba3e97bde6b8596d4c6310b7ac734635eccfa3601b9e7856cb416572566084c8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/ba3e97bde6b8596d4c6310b7ac734635eccfa3601b9e7856cb416572566084c8.pdf",
           "originalName": "A数理科学2022.pdf",
           "sha256": "ba3e97bde6b8596d4c6310b7ac734635eccfa3601b9e7856cb416572566084c8",
           "byteSize": 167140,
@@ -36795,7 +36795,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/bee8fe81431552e95876f71da48e2577d3b1954ac32adbe5ffce714b7d4c4e60.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/bee8fe81431552e95876f71da48e2577d3b1954ac32adbe5ffce714b7d4c4e60.pdf",
           "originalName": "A数理科学2023.pdf",
           "sha256": "bee8fe81431552e95876f71da48e2577d3b1954ac32adbe5ffce714b7d4c4e60",
           "byteSize": 182138,
@@ -36823,7 +36823,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/c973fcbdd14574031def405aa5515dab446b69ad9f370a773a23a0ffa58be120.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/c973fcbdd14574031def405aa5515dab446b69ad9f370a773a23a0ffa58be120.pdf",
           "originalName": "A数理科学2024.pdf",
           "sha256": "c973fcbdd14574031def405aa5515dab446b69ad9f370a773a23a0ffa58be120",
           "byteSize": 174245,
@@ -36851,7 +36851,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/04daeb6e4d74bae5b95446ed60652472815d0e771400e568bb30db9ce0e417af.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/04daeb6e4d74bae5b95446ed60652472815d0e771400e568bb30db9ce0e417af.pdf",
           "originalName": "A数理科学2025.pdf",
           "sha256": "04daeb6e4d74bae5b95446ed60652472815d0e771400e568bb30db9ce0e417af",
           "byteSize": 145785,
@@ -36879,7 +36879,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/fccee0ba22351d7a9b7a46cfa3f8964afa1380ac5c5a62495c35945602c09647.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/fccee0ba22351d7a9b7a46cfa3f8964afa1380ac5c5a62495c35945602c09647.pdf",
           "originalName": "B物理学2021.pdf",
           "sha256": "fccee0ba22351d7a9b7a46cfa3f8964afa1380ac5c5a62495c35945602c09647",
           "byteSize": 1147964,
@@ -36907,7 +36907,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/35df29b44ad877b5432fa8b9485413976961fbbda8d93707ebcfb4d8846d98c9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/35df29b44ad877b5432fa8b9485413976961fbbda8d93707ebcfb4d8846d98c9.pdf",
           "originalName": "B物理学2022.pdf",
           "sha256": "35df29b44ad877b5432fa8b9485413976961fbbda8d93707ebcfb4d8846d98c9",
           "byteSize": 430414,
@@ -36935,7 +36935,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/12068cd2152d0ff7943d8ad7f33d51a0c0b382927c5f28816c15b4881f4a97f6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/12068cd2152d0ff7943d8ad7f33d51a0c0b382927c5f28816c15b4881f4a97f6.pdf",
           "originalName": "B物理学2023.pdf",
           "sha256": "12068cd2152d0ff7943d8ad7f33d51a0c0b382927c5f28816c15b4881f4a97f6",
           "byteSize": 139876,
@@ -36963,7 +36963,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/b9bbfcadc36f749c228ed7ffcd1d430c68992cc6d46df5ebecd3019107072e75.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/b9bbfcadc36f749c228ed7ffcd1d430c68992cc6d46df5ebecd3019107072e75.pdf",
           "originalName": "B物理学2024.pdf",
           "sha256": "b9bbfcadc36f749c228ed7ffcd1d430c68992cc6d46df5ebecd3019107072e75",
           "byteSize": 132741,
@@ -36991,7 +36991,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/38ae08346e79d6daa20d5003ba96fbde58bbc491f37bc448557f27e3f717a9b8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/38ae08346e79d6daa20d5003ba96fbde58bbc491f37bc448557f27e3f717a9b8.pdf",
           "originalName": "B物理学2025.pdf",
           "sha256": "38ae08346e79d6daa20d5003ba96fbde58bbc491f37bc448557f27e3f717a9b8",
           "byteSize": 316224,
@@ -37020,7 +37020,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/cee3638f7cfe5c2cd14c0170c500b5e9e31110b7db7c0c170a47ace7fd58dcb6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/cee3638f7cfe5c2cd14c0170c500b5e9e31110b7db7c0c170a47ace7fd58dcb6.pdf",
           "originalName": "Oオープンシステムマネジメント2021.pdf",
           "sha256": "cee3638f7cfe5c2cd14c0170c500b5e9e31110b7db7c0c170a47ace7fd58dcb6",
           "byteSize": 1720569,
@@ -37048,7 +37048,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/93b42c020dfcef55887ed0a6a627081c33deda3502d5828f647467b4f415ce74.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/93b42c020dfcef55887ed0a6a627081c33deda3502d5828f647467b4f415ce74.pdf",
           "originalName": "Oオープンシステムマネジメント2022.pdf",
           "sha256": "93b42c020dfcef55887ed0a6a627081c33deda3502d5828f647467b4f415ce74",
           "byteSize": 455657,
@@ -37076,7 +37076,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/00dc1703807c885bea2353875eb110e384e185c3b90a6d53d318099abfff4a93.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/00dc1703807c885bea2353875eb110e384e185c3b90a6d53d318099abfff4a93.pdf",
           "originalName": "Oオープンシステムマネジメント2023.pdf",
           "sha256": "00dc1703807c885bea2353875eb110e384e185c3b90a6d53d318099abfff4a93",
           "byteSize": 521009,
@@ -37104,7 +37104,7 @@
         {
           "label": "入学試験問題",
           "kind": "question",
-          "url": "assets/past-papers/documents/e1b0df761bffe61dda36bd5b81ef1f3c0a654347fc9aa2950ed0656d8ae5739e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/keio/e1b0df761bffe61dda36bd5b81ef1f3c0a654347fc9aa2950ed0656d8ae5739e.pdf",
           "originalName": "Oオープンシステムマネジメント2024.pdf",
           "sha256": "e1b0df761bffe61dda36bd5b81ef1f3c0a654347fc9aa2950ed0656d8ae5739e",
           "byteSize": 781410,
@@ -37134,7 +37134,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/5af759a7ee5ff4ec088b9e91b2252cfa2c91907fa478b597f72ada84832a2738.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/5af759a7ee5ff4ec088b9e91b2252cfa2c91907fa478b597f72ada84832a2738.pdf",
           "originalName": "exam_iee_20218.pdf",
           "sha256": "5af759a7ee5ff4ec088b9e91b2252cfa2c91907fa478b597f72ada84832a2738",
           "byteSize": 537134,
@@ -37168,7 +37168,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/ae621d2ed2db1b07498992e52f7fc87f37ce41a87fd79a1a9b083680150a371b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/ae621d2ed2db1b07498992e52f7fc87f37ce41a87fd79a1a9b083680150a371b.pdf",
           "originalName": "exam_iee_20228.pdf",
           "sha256": "ae621d2ed2db1b07498992e52f7fc87f37ce41a87fd79a1a9b083680150a371b",
           "byteSize": 265132,
@@ -37202,7 +37202,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/401809c7e5797ea9d80fd962a2af98c436000f4e488bd27cd7f3d0a4d2b0a403.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/401809c7e5797ea9d80fd962a2af98c436000f4e488bd27cd7f3d0a4d2b0a403.pdf",
           "originalName": "exam_iee_20248.pdf",
           "sha256": "401809c7e5797ea9d80fd962a2af98c436000f4e488bd27cd7f3d0a4d2b0a403",
           "byteSize": 225792,
@@ -37236,7 +37236,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/1ae31e5b4ea87412de5759ebbb583e1571799d153af023628a5e047774d99201.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/1ae31e5b4ea87412de5759ebbb583e1571799d153af023628a5e047774d99201.pdf",
           "originalName": "exam_iee_20238.pdf",
           "sha256": "1ae31e5b4ea87412de5759ebbb583e1571799d153af023628a5e047774d99201",
           "byteSize": 225749,
@@ -37270,7 +37270,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/39751a0c4fc9a6174b83528f55fd439ea23ab0c6084e912d7fc0a8d388f21501.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/39751a0c4fc9a6174b83528f55fd439ea23ab0c6084e912d7fc0a8d388f21501.pdf",
           "originalName": "exam_iee_20258.pdf",
           "sha256": "39751a0c4fc9a6174b83528f55fd439ea23ab0c6084e912d7fc0a8d388f21501",
           "byteSize": 173052,
@@ -37283,7 +37283,7 @@
         {
           "label": "出题意图（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/a3559783de3d889a7b41e48e3ed21b3d62f172802dd92344262ffdb6346857e2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/a3559783de3d889a7b41e48e3ed21b3d62f172802dd92344262ffdb6346857e2.pdf",
           "originalName": "POQ_iee_20258.pdf",
           "sha256": "a3559783de3d889a7b41e48e3ed21b3d62f172802dd92344262ffdb6346857e2",
           "byteSize": 73051,
@@ -37317,7 +37317,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/c7a8604e27e6899aabf19df19c4542747a75cf219fb5df3809a2b6a81dab76a5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/c7a8604e27e6899aabf19df19c4542747a75cf219fb5df3809a2b6a81dab76a5.pdf",
           "originalName": "exam_ict_20248.pdf",
           "sha256": "c7a8604e27e6899aabf19df19c4542747a75cf219fb5df3809a2b6a81dab76a5",
           "byteSize": 144700,
@@ -37351,7 +37351,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/cf502ac2bfca65abc7f00e5f8d51bd55b80f21a706ee24ca0da268828c73352a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/cf502ac2bfca65abc7f00e5f8d51bd55b80f21a706ee24ca0da268828c73352a.pdf",
           "originalName": "exam_ict_20218.pdf",
           "sha256": "cf502ac2bfca65abc7f00e5f8d51bd55b80f21a706ee24ca0da268828c73352a",
           "byteSize": 2624491,
@@ -37385,7 +37385,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/d54fc163fe63a3dd9a223a4d070ce3bacbec4f832f46bd3d96d85d5540c9549d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d54fc163fe63a3dd9a223a4d070ce3bacbec4f832f46bd3d96d85d5540c9549d.pdf",
           "originalName": "exam_ict_20228.pdf",
           "sha256": "d54fc163fe63a3dd9a223a4d070ce3bacbec4f832f46bd3d96d85d5540c9549d",
           "byteSize": 1651894,
@@ -37419,7 +37419,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/e9babac6277682edd4188df64c20152fba4f3e93677558864a181998bba5cae5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/e9babac6277682edd4188df64c20152fba4f3e93677558864a181998bba5cae5.pdf",
           "originalName": "exam_tse_20218.pdf",
           "sha256": "e9babac6277682edd4188df64c20152fba4f3e93677558864a181998bba5cae5",
           "byteSize": 1075449,
@@ -37453,7 +37453,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/d400dafc342e1124352fd34c6b99143c4f939af1cbbd1943caf695172aa0457c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d400dafc342e1124352fd34c6b99143c4f939af1cbbd1943caf695172aa0457c.pdf",
           "originalName": "exam_tse_20228.pdf",
           "sha256": "d400dafc342e1124352fd34c6b99143c4f939af1cbbd1943caf695172aa0457c",
           "byteSize": 3794311,
@@ -37487,7 +37487,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/17f4787899da2149440f35ac21ece63e2b470f4f9ff7590b86b29bf31d38582c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/17f4787899da2149440f35ac21ece63e2b470f4f9ff7590b86b29bf31d38582c.pdf",
           "originalName": "exam_tse_20238.pdf",
           "sha256": "17f4787899da2149440f35ac21ece63e2b470f4f9ff7590b86b29bf31d38582c",
           "byteSize": 980247,
@@ -37521,7 +37521,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/95458cdb2b723be5b646e0f4d4c0b558f0efe4399f8791a883624d075c6dbd5f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/95458cdb2b723be5b646e0f4d4c0b558f0efe4399f8791a883624d075c6dbd5f.pdf",
           "originalName": "exam_tse_20248.pdf",
           "sha256": "95458cdb2b723be5b646e0f4d4c0b558f0efe4399f8791a883624d075c6dbd5f",
           "byteSize": 1257190,
@@ -37555,7 +37555,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/52c60923150e5607ef62e521c020b8da9c980020b5ee8462de8440108296ed15.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/52c60923150e5607ef62e521c020b8da9c980020b5ee8462de8440108296ed15.pdf",
           "originalName": "exam_cv_20218.pdf",
           "sha256": "52c60923150e5607ef62e521c020b8da9c980020b5ee8462de8440108296ed15",
           "byteSize": 1175674,
@@ -37589,7 +37589,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/1e9d3498059d89dfc1c611d2d942d74a8c646a7fdd4f59711fe7b40884a77134.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/1e9d3498059d89dfc1c611d2d942d74a8c646a7fdd4f59711fe7b40884a77134.pdf",
           "originalName": "exam_cv_20228.pdf",
           "sha256": "1e9d3498059d89dfc1c611d2d942d74a8c646a7fdd4f59711fe7b40884a77134",
           "byteSize": 1196103,
@@ -37623,7 +37623,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/fcd141ca4e544ec788b4d94fa5b80e4a5a7900ce01664bb58e5ae3c9b9c71511.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/fcd141ca4e544ec788b4d94fa5b80e4a5a7900ce01664bb58e5ae3c9b9c71511.pdf",
           "originalName": "exam_cv_20248.pdf",
           "sha256": "fcd141ca4e544ec788b4d94fa5b80e4a5a7900ce01664bb58e5ae3c9b9c71511",
           "byteSize": 1637994,
@@ -37657,7 +37657,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/3da2c8e36f8d69efe2ec99ffb6c716ec237e5996ec2de69678630a70920dbc07.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/3da2c8e36f8d69efe2ec99ffb6c716ec237e5996ec2de69678630a70920dbc07.pdf",
           "originalName": "exam_phys_20248.pdf",
           "sha256": "3da2c8e36f8d69efe2ec99ffb6c716ec237e5996ec2de69678630a70920dbc07",
           "byteSize": 719175,
@@ -37691,7 +37691,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/4b58edae7a2e4dbd4fc2486418584a3d01cda1bbebacf53db772bd54988b665c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/4b58edae7a2e4dbd4fc2486418584a3d01cda1bbebacf53db772bd54988b665c.pdf",
           "originalName": "exam_phys_20228.pdf",
           "sha256": "4b58edae7a2e4dbd4fc2486418584a3d01cda1bbebacf53db772bd54988b665c",
           "byteSize": 630080,
@@ -37725,7 +37725,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/8648cfe0d6a09e9bd38e1b12386ebcdaa6ac59142db4851d964c2d4c5705402e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/8648cfe0d6a09e9bd38e1b12386ebcdaa6ac59142db4851d964c2d4c5705402e.pdf",
           "originalName": "H20innsi.pdf",
           "sha256": "8648cfe0d6a09e9bd38e1b12386ebcdaa6ac59142db4851d964c2d4c5705402e",
           "byteSize": 136347,
@@ -37759,7 +37759,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/0796f2a5b967e2ce873d8cc62f4313559d18745841927dfbef4100da85a97f88.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/0796f2a5b967e2ce873d8cc62f4313559d18745841927dfbef4100da85a97f88.pdf",
           "originalName": "H15innsi.pdf",
           "sha256": "0796f2a5b967e2ce873d8cc62f4313559d18745841927dfbef4100da85a97f88",
           "byteSize": 72734,
@@ -37793,7 +37793,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/4eecbce0831524135013b2699f15f80e9000c08f0a2cb03bab49bde9c5dc84a8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/4eecbce0831524135013b2699f15f80e9000c08f0a2cb03bab49bde9c5dc84a8.pdf",
           "originalName": "exam_math_20228.pdf",
           "sha256": "4eecbce0831524135013b2699f15f80e9000c08f0a2cb03bab49bde9c5dc84a8",
           "byteSize": 122910,
@@ -37828,7 +37828,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/f7833c36961131fdf93075a46dfdfc6afa3dd0f4986f35fca48076d286ed566a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/f7833c36961131fdf93075a46dfdfc6afa3dd0f4986f35fca48076d286ed566a.pdf",
           "originalName": "H21innsi.pdf",
           "sha256": "f7833c36961131fdf93075a46dfdfc6afa3dd0f4986f35fca48076d286ed566a",
           "byteSize": 109969,
@@ -37862,7 +37862,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/4b43baad335059e4c308d10eb166b54e30a85a44a02a82c47eb4780d40695c92.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/4b43baad335059e4c308d10eb166b54e30a85a44a02a82c47eb4780d40695c92.pdf",
           "originalName": "H14innsi.pdf",
           "sha256": "4b43baad335059e4c308d10eb166b54e30a85a44a02a82c47eb4780d40695c92",
           "byteSize": 60708,
@@ -37900,7 +37900,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/13f3567fbd44b2ebef8a9481a94863372cda29b68f0f77b0c42ef6624e00caed.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/13f3567fbd44b2ebef8a9481a94863372cda29b68f0f77b0c42ef6624e00caed.pdf",
           "originalName": "2020innsi.pdf",
           "sha256": "13f3567fbd44b2ebef8a9481a94863372cda29b68f0f77b0c42ef6624e00caed",
           "byteSize": 135470,
@@ -37913,7 +37913,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/e0ca09d80c28129adf8785db908367bf09a3e9be5807e9273d960636bfd23b0f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/e0ca09d80c28129adf8785db908367bf09a3e9be5807e9273d960636bfd23b0f.pdf",
           "originalName": "exam_math_20208.pdf",
           "sha256": "e0ca09d80c28129adf8785db908367bf09a3e9be5807e9273d960636bfd23b0f",
           "byteSize": 286354,
@@ -37947,7 +37947,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/946b1504af0d154109eed7d68b5d4036ce392e2e10d305acdc909cbdf83960c1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/946b1504af0d154109eed7d68b5d4036ce392e2e10d305acdc909cbdf83960c1.pdf",
           "originalName": "H31innsi.pdf",
           "sha256": "946b1504af0d154109eed7d68b5d4036ce392e2e10d305acdc909cbdf83960c1",
           "byteSize": 51337,
@@ -37981,7 +37981,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/7ca1cab21553dd3bf9d05a06c07b208faafc22a75089b9c6f28f955fc4cb0a88.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/7ca1cab21553dd3bf9d05a06c07b208faafc22a75089b9c6f28f955fc4cb0a88.pdf",
           "originalName": "H13innsi.pdf",
           "sha256": "7ca1cab21553dd3bf9d05a06c07b208faafc22a75089b9c6f28f955fc4cb0a88",
           "byteSize": 67670,
@@ -38019,7 +38019,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/a1b1d8dc5a8d2a350700a6963457cda32594e07bfe6c908a35f86f747398a41e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/a1b1d8dc5a8d2a350700a6963457cda32594e07bfe6c908a35f86f747398a41e.pdf",
           "originalName": "H12innsi.pdf",
           "sha256": "a1b1d8dc5a8d2a350700a6963457cda32594e07bfe6c908a35f86f747398a41e",
           "byteSize": 66088,
@@ -38057,7 +38057,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/e482e764366a2de7b6ce3c421ee0309740c5d32cc41b5585b9a69472938bd886.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/e482e764366a2de7b6ce3c421ee0309740c5d32cc41b5585b9a69472938bd886.pdf",
           "originalName": "H17innsi.pdf",
           "sha256": "e482e764366a2de7b6ce3c421ee0309740c5d32cc41b5585b9a69472938bd886",
           "byteSize": 138794,
@@ -38091,7 +38091,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/2dc63b7b3f5a3127416bcb58579b6c5a522a0e4a732aca7efe41de699a2b634a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/2dc63b7b3f5a3127416bcb58579b6c5a522a0e4a732aca7efe41de699a2b634a.pdf",
           "originalName": "H19innsi.pdf",
           "sha256": "2dc63b7b3f5a3127416bcb58579b6c5a522a0e4a732aca7efe41de699a2b634a",
           "byteSize": 129026,
@@ -38125,7 +38125,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/e809f9ae90e29e78876d61fd2c4aa10ad622999054a683fd2f591f52d0ce14b8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/e809f9ae90e29e78876d61fd2c4aa10ad622999054a683fd2f591f52d0ce14b8.pdf",
           "originalName": "H26innsi.pdf",
           "sha256": "e809f9ae90e29e78876d61fd2c4aa10ad622999054a683fd2f591f52d0ce14b8",
           "byteSize": 69837,
@@ -38159,7 +38159,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/dd1280c665120372cc793913363d99c1272a4819412dabe79ebdbd690abf79a1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/dd1280c665120372cc793913363d99c1272a4819412dabe79ebdbd690abf79a1.pdf",
           "originalName": "H22innsi.pdf",
           "sha256": "dd1280c665120372cc793913363d99c1272a4819412dabe79ebdbd690abf79a1",
           "byteSize": 52860,
@@ -38193,7 +38193,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/4458cadaa9a6427cc5d41ece797eb829d06ea528ec69d298eef6c8894c887538.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/4458cadaa9a6427cc5d41ece797eb829d06ea528ec69d298eef6c8894c887538.pdf",
           "originalName": "H16innsi.pdf",
           "sha256": "4458cadaa9a6427cc5d41ece797eb829d06ea528ec69d298eef6c8894c887538",
           "byteSize": 65324,
@@ -38227,7 +38227,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/3237cc9684a972dca92a1766d3e2d2c20951381d0903b0406a477bde94dbd7c6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/3237cc9684a972dca92a1766d3e2d2c20951381d0903b0406a477bde94dbd7c6.pdf",
           "originalName": "H28innsi.pdf",
           "sha256": "3237cc9684a972dca92a1766d3e2d2c20951381d0903b0406a477bde94dbd7c6",
           "byteSize": 55814,
@@ -38261,7 +38261,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/3d86799e6f52c4b42cddd7e92efe4004e8932609f5f48ba134d5aff88c3aea18.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/3d86799e6f52c4b42cddd7e92efe4004e8932609f5f48ba134d5aff88c3aea18.pdf",
           "originalName": "H29innsi.pdf",
           "sha256": "3d86799e6f52c4b42cddd7e92efe4004e8932609f5f48ba134d5aff88c3aea18",
           "byteSize": 51090,
@@ -38295,7 +38295,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/dc67a20c71b135cf5681f3e307b7812f630d1203c070ef7f951ce0856768d78a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/dc67a20c71b135cf5681f3e307b7812f630d1203c070ef7f951ce0856768d78a.pdf",
           "originalName": "H11innsi.pdf",
           "sha256": "dc67a20c71b135cf5681f3e307b7812f630d1203c070ef7f951ce0856768d78a",
           "byteSize": 68908,
@@ -38333,7 +38333,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/5d01280584c1c4779779105229a158fc0888d54940079ece1a6cff4f08914505.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/5d01280584c1c4779779105229a158fc0888d54940079ece1a6cff4f08914505.pdf",
           "originalName": "H25innsi.pdf",
           "sha256": "5d01280584c1c4779779105229a158fc0888d54940079ece1a6cff4f08914505",
           "byteSize": 110265,
@@ -38367,7 +38367,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/3ec9ec6d1bda75e73d668d36f1a5b7de9b0602323251215337424256c7d1b57b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/3ec9ec6d1bda75e73d668d36f1a5b7de9b0602323251215337424256c7d1b57b.pdf",
           "originalName": "exam_cs_20218.pdf",
           "sha256": "3ec9ec6d1bda75e73d668d36f1a5b7de9b0602323251215337424256c7d1b57b",
           "byteSize": 8598237,
@@ -38401,7 +38401,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/cde2672c36ea22e815896c147d52e6cafaf3ffffaf1e9031231cc3a5bbae7364.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/cde2672c36ea22e815896c147d52e6cafaf3ffffaf1e9031231cc3a5bbae7364.pdf",
           "originalName": "exam_cs_20228.pdf",
           "sha256": "cde2672c36ea22e815896c147d52e6cafaf3ffffaf1e9031231cc3a5bbae7364",
           "byteSize": 3078935,
@@ -38435,7 +38435,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/bfd08b1e07f7706ec76d67f4b6ec817b712f0e44b09c25eb1273ed66e665dac1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/bfd08b1e07f7706ec76d67f4b6ec817b712f0e44b09c25eb1273ed66e665dac1.pdf",
           "originalName": "exam_cs_20238.pdf",
           "sha256": "bfd08b1e07f7706ec76d67f4b6ec817b712f0e44b09c25eb1273ed66e665dac1",
           "byteSize": 2139322,
@@ -38469,7 +38469,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/4d64c8bf7b991a1c03a5ccb75329825205722452cc87cf74faf2b9700e1ba669.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/4d64c8bf7b991a1c03a5ccb75329825205722452cc87cf74faf2b9700e1ba669.pdf",
           "originalName": "exam_cs_20248.pdf",
           "sha256": "4d64c8bf7b991a1c03a5ccb75329825205722452cc87cf74faf2b9700e1ba669",
           "byteSize": 1727231,
@@ -38503,7 +38503,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/475f2afec5aeb7ea520df4ee27732eca8e853de1de753b73512467c075ef009e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/475f2afec5aeb7ea520df4ee27732eca8e853de1de753b73512467c075ef009e.pdf",
           "originalName": "exam_mat_20218.pdf",
           "sha256": "475f2afec5aeb7ea520df4ee27732eca8e853de1de753b73512467c075ef009e",
           "byteSize": 1024114,
@@ -38537,7 +38537,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/8d2391958804099a04b4a88e29f2a435cd296cd9840d9672acd94446e149a5ae.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/8d2391958804099a04b4a88e29f2a435cd296cd9840d9672acd94446e149a5ae.pdf",
           "originalName": "exam_mat_20228.pdf",
           "sha256": "8d2391958804099a04b4a88e29f2a435cd296cd9840d9672acd94446e149a5ae",
           "byteSize": 7913759,
@@ -38571,7 +38571,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/613f9bf2fcb33fae2bec8324783902e15fae7b2d2a792ac9cddd13ba72895e43.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/613f9bf2fcb33fae2bec8324783902e15fae7b2d2a792ac9cddd13ba72895e43.pdf",
           "originalName": "exam_mat_20238.pdf",
           "sha256": "613f9bf2fcb33fae2bec8324783902e15fae7b2d2a792ac9cddd13ba72895e43",
           "byteSize": 3097695,
@@ -38605,7 +38605,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/d0351fdabfe7b74d4fafa1190ea2c86e32a86e71db929ec4287c2e8ca949b442.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d0351fdabfe7b74d4fafa1190ea2c86e32a86e71db929ec4287c2e8ca949b442.pdf",
           "originalName": "exam_mat_20248.pdf",
           "sha256": "d0351fdabfe7b74d4fafa1190ea2c86e32a86e71db929ec4287c2e8ca949b442",
           "byteSize": 2032573,
@@ -38639,7 +38639,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/67c4833faeb6f2e23e5d258d363436df599bc31586fadfa99a13cc926a21f9d5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/67c4833faeb6f2e23e5d258d363436df599bc31586fadfa99a13cc926a21f9d5.pdf",
           "originalName": "exam_cs_20198.pdf",
           "sha256": "67c4833faeb6f2e23e5d258d363436df599bc31586fadfa99a13cc926a21f9d5",
           "byteSize": 592267,
@@ -38673,7 +38673,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/0a7eab2fd526e7defe5feef55ec99e36cf1077a5ce2dc5d0833e5849052694b9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/0a7eab2fd526e7defe5feef55ec99e36cf1077a5ce2dc5d0833e5849052694b9.pdf",
           "originalName": "exam_cv_20238.pdf",
           "sha256": "0a7eab2fd526e7defe5feef55ec99e36cf1077a5ce2dc5d0833e5849052694b9",
           "byteSize": 13061883,
@@ -38707,7 +38707,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/8398aab7bc87df748362b4b9f76f51800c2cf8a46db6c107502154853d5eccb5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/8398aab7bc87df748362b4b9f76f51800c2cf8a46db6c107502154853d5eccb5.pdf",
           "originalName": "exam_cv_20258.pdf",
           "sha256": "8398aab7bc87df748362b4b9f76f51800c2cf8a46db6c107502154853d5eccb5",
           "byteSize": 4391037,
@@ -38720,7 +38720,7 @@
         {
           "label": "出题意图（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/41a9c30bfebfe805ecd5ebbbdb0a3c588ca86c18850b8a5c6109b79c00abe274.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/41a9c30bfebfe805ecd5ebbbdb0a3c588ca86c18850b8a5c6109b79c00abe274.pdf",
           "originalName": "POQ_cv_20258.pdf",
           "sha256": "41a9c30bfebfe805ecd5ebbbdb0a3c588ca86c18850b8a5c6109b79c00abe274",
           "byteSize": 248999,
@@ -38754,7 +38754,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/4d21c5632a1d9016fc24c0879815ee681910dd2c6e51ce51b7a1880b71dbfd4a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/4d21c5632a1d9016fc24c0879815ee681910dd2c6e51ce51b7a1880b71dbfd4a.pdf",
           "originalName": "exam_ict_20198.pdf",
           "sha256": "4d21c5632a1d9016fc24c0879815ee681910dd2c6e51ce51b7a1880b71dbfd4a",
           "byteSize": 577092,
@@ -38788,7 +38788,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/e4189418d083afa19c6d2fc51ed408fae5c2006af53d570a4474fa4fd9da3fab.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/e4189418d083afa19c6d2fc51ed408fae5c2006af53d570a4474fa4fd9da3fab.pdf",
           "originalName": "exam_ict_20238.pdf",
           "sha256": "e4189418d083afa19c6d2fc51ed408fae5c2006af53d570a4474fa4fd9da3fab",
           "byteSize": 233396,
@@ -38822,7 +38822,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/72bddca9b5662c512f24cf5af3ed19273f5f00c308292d15197f33365e02b8d3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/72bddca9b5662c512f24cf5af3ed19273f5f00c308292d15197f33365e02b8d3.pdf",
           "originalName": "exam_is_20218.pdf",
           "sha256": "72bddca9b5662c512f24cf5af3ed19273f5f00c308292d15197f33365e02b8d3",
           "byteSize": 218040,
@@ -38856,7 +38856,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/586821a76aeda7ea990b4cdd1291a238309bf8de2e8071ad72f12fa2eda037a1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/586821a76aeda7ea990b4cdd1291a238309bf8de2e8071ad72f12fa2eda037a1.pdf",
           "originalName": "exam_is_20228.pdf",
           "sha256": "586821a76aeda7ea990b4cdd1291a238309bf8de2e8071ad72f12fa2eda037a1",
           "byteSize": 197061,
@@ -38890,7 +38890,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/d8324cbb2743dd23788988a19b4864b2ff9bb3abccdb3ec11a9921c7fdd341e4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d8324cbb2743dd23788988a19b4864b2ff9bb3abccdb3ec11a9921c7fdd341e4.pdf",
           "originalName": "exam_is_20238.pdf",
           "sha256": "d8324cbb2743dd23788988a19b4864b2ff9bb3abccdb3ec11a9921c7fdd341e4",
           "byteSize": 261718,
@@ -38924,7 +38924,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/f2ecad3b7899bf09040228a3114530ac2d14cfac6ce4668fc69dd69b886abc02.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/f2ecad3b7899bf09040228a3114530ac2d14cfac6ce4668fc69dd69b886abc02.pdf",
           "originalName": "exam_is_20248.pdf",
           "sha256": "f2ecad3b7899bf09040228a3114530ac2d14cfac6ce4668fc69dd69b886abc02",
           "byteSize": 215971,
@@ -38958,7 +38958,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/7d675b3dc2116233ff4b32992704ba0b07b6a14f5023f4810b7d4550c19cb9a8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/7d675b3dc2116233ff4b32992704ba0b07b6a14f5023f4810b7d4550c19cb9a8.pdf",
           "originalName": "exam_is_20258.pdf",
           "sha256": "7d675b3dc2116233ff4b32992704ba0b07b6a14f5023f4810b7d4550c19cb9a8",
           "byteSize": 263115,
@@ -38971,7 +38971,7 @@
         {
           "label": "出题意图（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/1b3123128ebfdb3a370715f2e848795bd578a377a6cedb75c7ad284cc21ac18b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/1b3123128ebfdb3a370715f2e848795bd578a377a6cedb75c7ad284cc21ac18b.pdf",
           "originalName": "POQ_is_20258.pdf",
           "sha256": "1b3123128ebfdb3a370715f2e848795bd578a377a6cedb75c7ad284cc21ac18b",
           "byteSize": 76581,
@@ -39005,7 +39005,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/6cc0211e70af1432c10b1bbf628771f821f1eb22188d0712940e4b38a4ef09b7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/6cc0211e70af1432c10b1bbf628771f821f1eb22188d0712940e4b38a4ef09b7.pdf",
           "originalName": "exam_mat_20258.pdf",
           "sha256": "6cc0211e70af1432c10b1bbf628771f821f1eb22188d0712940e4b38a4ef09b7",
           "byteSize": 3544886,
@@ -39018,7 +39018,7 @@
         {
           "label": "出题意图（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/7b6cc89b14107e487ce59d70c47c4dd9f7b5958d4b566c5079ee147d930d8c51.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/7b6cc89b14107e487ce59d70c47c4dd9f7b5958d4b566c5079ee147d930d8c51.pdf",
           "originalName": "POQ_mat_20258.pdf",
           "sha256": "7b6cc89b14107e487ce59d70c47c4dd9f7b5958d4b566c5079ee147d930d8c51",
           "byteSize": 340256,
@@ -39052,7 +39052,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/591f37c7b54a8e8e908735b790da58722181c40bdf1a8bc38aa2c3b0444804fd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/591f37c7b54a8e8e908735b790da58722181c40bdf1a8bc38aa2c3b0444804fd.pdf",
           "originalName": "H18innsi.pdf",
           "sha256": "591f37c7b54a8e8e908735b790da58722181c40bdf1a8bc38aa2c3b0444804fd",
           "byteSize": 315238,
@@ -39086,7 +39086,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/07bfa81c0f23b5d42ba0ad3d91616261e9c2a325d76bd64b1bd2a961a488fc21.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/07bfa81c0f23b5d42ba0ad3d91616261e9c2a325d76bd64b1bd2a961a488fc21.pdf",
           "originalName": "H23innsi.pdf",
           "sha256": "07bfa81c0f23b5d42ba0ad3d91616261e9c2a325d76bd64b1bd2a961a488fc21",
           "byteSize": 222400,
@@ -39120,7 +39120,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/f19e81f68c5b3d2d202aa1a996150a4138c5e0b089a29b1a87f9359b4df80c78.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/f19e81f68c5b3d2d202aa1a996150a4138c5e0b089a29b1a87f9359b4df80c78.pdf",
           "originalName": "H24innsi.pdf",
           "sha256": "f19e81f68c5b3d2d202aa1a996150a4138c5e0b089a29b1a87f9359b4df80c78",
           "byteSize": 370930,
@@ -39154,7 +39154,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/24bb7ba859694b4f95add0e4cb294e6126ae11972761a0020ca8c48b7d4b9633.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/24bb7ba859694b4f95add0e4cb294e6126ae11972761a0020ca8c48b7d4b9633.pdf",
           "originalName": "H27innsi.pdf",
           "sha256": "24bb7ba859694b4f95add0e4cb294e6126ae11972761a0020ca8c48b7d4b9633",
           "byteSize": 274232,
@@ -39188,7 +39188,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/ace53246e1c6ded2ed58a9d3a91372ddceffaf8c47a07da2bda61f57e1e53472.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/ace53246e1c6ded2ed58a9d3a91372ddceffaf8c47a07da2bda61f57e1e53472.pdf",
           "originalName": "H30innsi.pdf",
           "sha256": "ace53246e1c6ded2ed58a9d3a91372ddceffaf8c47a07da2bda61f57e1e53472",
           "byteSize": 171169,
@@ -39222,7 +39222,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/1ab7c94a1fcf77d864c236c8308d8761cb41f8641e56f3ce94fe4e796c271ade.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/1ab7c94a1fcf77d864c236c8308d8761cb41f8641e56f3ce94fe4e796c271ade.pdf",
           "originalName": "2021innsi.pdf",
           "sha256": "1ab7c94a1fcf77d864c236c8308d8761cb41f8641e56f3ce94fe4e796c271ade",
           "byteSize": 271062,
@@ -39256,7 +39256,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/b1fc6a53aa14d40bd015dc93dae3791344633e0b6320f759c603c76132d647eb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/b1fc6a53aa14d40bd015dc93dae3791344633e0b6320f759c603c76132d647eb.pdf",
           "originalName": "2022innsi.pdf",
           "sha256": "b1fc6a53aa14d40bd015dc93dae3791344633e0b6320f759c603c76132d647eb",
           "byteSize": 146206,
@@ -39269,7 +39269,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/77e9c2befba527c4357eaca4dcdfab819493c0502908f8da0856363942aad083.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/77e9c2befba527c4357eaca4dcdfab819493c0502908f8da0856363942aad083.pdf",
           "originalName": "exam_math_20218.pdf",
           "sha256": "77e9c2befba527c4357eaca4dcdfab819493c0502908f8da0856363942aad083",
           "byteSize": 142218,
@@ -39303,7 +39303,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/fc80fcd43a44ab70b6ed22db7128c8e92a5245978ae5371f6545af47bc99d902.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/fc80fcd43a44ab70b6ed22db7128c8e92a5245978ae5371f6545af47bc99d902.pdf",
           "originalName": "2024innsi.pdf",
           "sha256": "fc80fcd43a44ab70b6ed22db7128c8e92a5245978ae5371f6545af47bc99d902",
           "byteSize": 407520,
@@ -39316,7 +39316,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/db649f987396b4b5b87812bd783f1f74efee47174d2bc751cbcb140c7aa4de97.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/db649f987396b4b5b87812bd783f1f74efee47174d2bc751cbcb140c7aa4de97.pdf",
           "originalName": "exam_math_20238.pdf",
           "sha256": "db649f987396b4b5b87812bd783f1f74efee47174d2bc751cbcb140c7aa4de97",
           "byteSize": 114708,
@@ -39350,7 +39350,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/b68317eba11e27e6b9d8fdf1d046fc67415d9d9253828dd2beb6b55739a900b5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/b68317eba11e27e6b9d8fdf1d046fc67415d9d9253828dd2beb6b55739a900b5.pdf",
           "originalName": "exam_math_20248.pdf",
           "sha256": "b68317eba11e27e6b9d8fdf1d046fc67415d9d9253828dd2beb6b55739a900b5",
           "byteSize": 175149,
@@ -39363,7 +39363,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/43085fd7612000d124be469ef2fc693d5893e837dbc71b4337114bb75d447609.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/43085fd7612000d124be469ef2fc693d5893e837dbc71b4337114bb75d447609.pdf",
           "originalName": "2025innsi.pdf",
           "sha256": "43085fd7612000d124be469ef2fc693d5893e837dbc71b4337114bb75d447609",
           "byteSize": 187983,
@@ -39397,7 +39397,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/5e3b863e3eda17f59797dcfa382a9a41b1b9a360f054c51fa22f4a92b367aa79.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/5e3b863e3eda17f59797dcfa382a9a41b1b9a360f054c51fa22f4a92b367aa79.pdf",
           "originalName": "exam_phys_20198.pdf",
           "sha256": "5e3b863e3eda17f59797dcfa382a9a41b1b9a360f054c51fa22f4a92b367aa79",
           "byteSize": 492013,
@@ -39431,7 +39431,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/8efa8e1bc4f2e13e18d3e6cf1a87044d5114b7eed9f355e893afb9d881801cca.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/8efa8e1bc4f2e13e18d3e6cf1a87044d5114b7eed9f355e893afb9d881801cca.pdf",
           "originalName": "exam_phys_20218.pdf",
           "sha256": "8efa8e1bc4f2e13e18d3e6cf1a87044d5114b7eed9f355e893afb9d881801cca",
           "byteSize": 668187,
@@ -39465,7 +39465,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/ff1a2d8e6462295a4ecc39d9c8ba7c98f71b080f0cce763f54cd948e587f9beb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/ff1a2d8e6462295a4ecc39d9c8ba7c98f71b080f0cce763f54cd948e587f9beb.pdf",
           "originalName": "exam_phys_20238.pdf",
           "sha256": "ff1a2d8e6462295a4ecc39d9c8ba7c98f71b080f0cce763f54cd948e587f9beb",
           "byteSize": 539782,
@@ -39499,7 +39499,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/083724ae5a7d01a0f0f393cc8229e47289f6e583ddd250e9955bc23c0b979f7e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/083724ae5a7d01a0f0f393cc8229e47289f6e583ddd250e9955bc23c0b979f7e.pdf",
           "originalName": "exam_sc_20218.pdf",
           "sha256": "083724ae5a7d01a0f0f393cc8229e47289f6e583ddd250e9955bc23c0b979f7e",
           "byteSize": 449788,
@@ -39533,7 +39533,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/4b335c69fbf800494f7f369ed6656a3811e7cdd11b96a6ec2d79b3e0e3dbb4a0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/4b335c69fbf800494f7f369ed6656a3811e7cdd11b96a6ec2d79b3e0e3dbb4a0.pdf",
           "originalName": "exam_sc_20228.pdf",
           "sha256": "4b335c69fbf800494f7f369ed6656a3811e7cdd11b96a6ec2d79b3e0e3dbb4a0",
           "byteSize": 473060,
@@ -39567,7 +39567,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/0d028406340240ccdfb34c400ec3d56edcc7e2c7794da99e7325a3680d2ce516.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/0d028406340240ccdfb34c400ec3d56edcc7e2c7794da99e7325a3680d2ce516.pdf",
           "originalName": "exam_sc_20238.pdf",
           "sha256": "0d028406340240ccdfb34c400ec3d56edcc7e2c7794da99e7325a3680d2ce516",
           "byteSize": 357048,
@@ -39601,7 +39601,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/6d248d609d072c0224b81218d195241803f8c1ac00bc53ca770dff23542b3085.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/6d248d609d072c0224b81218d195241803f8c1ac00bc53ca770dff23542b3085.pdf",
           "originalName": "exam_sc_20248.pdf",
           "sha256": "6d248d609d072c0224b81218d195241803f8c1ac00bc53ca770dff23542b3085",
           "byteSize": 186341,
@@ -39635,7 +39635,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/255c97834ecdf5c0cb6b8db1735adcf02d227485f47fd06eb183c0283bb24134.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/255c97834ecdf5c0cb6b8db1735adcf02d227485f47fd06eb183c0283bb24134.pdf",
           "originalName": "exam_sc_20258.pdf",
           "sha256": "255c97834ecdf5c0cb6b8db1735adcf02d227485f47fd06eb183c0283bb24134",
           "byteSize": 301144,
@@ -39648,7 +39648,7 @@
         {
           "label": "出题意图（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/9d39effa4e8d225a7370745167c76849b6fa620d83ab3d94b19a279dc13e3ad0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/9d39effa4e8d225a7370745167c76849b6fa620d83ab3d94b19a279dc13e3ad0.pdf",
           "originalName": "POQ_sc_20258.pdf",
           "sha256": "9d39effa4e8d225a7370745167c76849b6fa620d83ab3d94b19a279dc13e3ad0",
           "byteSize": 422737,
@@ -39682,7 +39682,7 @@
         {
           "label": "问题原卷",
           "kind": "question",
-          "url": "assets/past-papers/documents/d856e22e5919a66409800df21a45f083b732cb3c0272e0127cd1d76f8746a53b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/d856e22e5919a66409800df21a45f083b732cb3c0272e0127cd1d76f8746a53b.pdf",
           "originalName": "exam_tse_20258.pdf",
           "sha256": "d856e22e5919a66409800df21a45f083b732cb3c0272e0127cd1d76f8746a53b",
           "byteSize": 1270394,
@@ -39695,7 +39695,7 @@
         {
           "label": "出题意图（非解答）",
           "kind": "other",
-          "url": "assets/past-papers/documents/44a02ec80872bd0b6877dc0d9816e669c924f891612e4b6ed96f4ef927421540.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/44a02ec80872bd0b6877dc0d9816e669c924f891612e4b6ed96f4ef927421540.pdf",
           "originalName": "POQ_tse_20258.pdf",
           "sha256": "44a02ec80872bd0b6877dc0d9816e669c924f891612e4b6ed96f4ef927421540",
           "byteSize": 208938,
@@ -39740,7 +39740,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c0ba64e73f9567073879fc92bd81a12e00d2e01738b9e8182bff2d13bef265cd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/c0ba64e73f9567073879fc92bd81a12e00d2e01738b9e8182bff2d13bef265cd.pdf",
           "originalName": "2008_h20eesed.pdf",
           "sha256": "c0ba64e73f9567073879fc92bd81a12e00d2e01738b9e8182bff2d13bef265cd",
           "byteSize": 1968562,
@@ -39782,7 +39782,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38.pdf",
           "originalName": "2009_h21ee.pdf",
           "sha256": "6fba162ac6bde2069db9a5b6c666f7d4e02638d12239e0d72e6e6f796d04fb38",
           "byteSize": 1736224,
@@ -39824,7 +39824,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/fcac3868a455decfaa05ebb6e5002d34a2f1cd3ef198a2bc00331922af1fe2d5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/fcac3868a455decfaa05ebb6e5002d34a2f1cd3ef198a2bc00331922af1fe2d5.pdf",
           "originalName": "2010_h22ee.pdf",
           "sha256": "fcac3868a455decfaa05ebb6e5002d34a2f1cd3ef198a2bc00331922af1fe2d5",
           "byteSize": 2533581,
@@ -39867,7 +39867,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d2877708d0b9bb1b4e76ef04388e8490072e741a05e8cd8a13c3605caac52709.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/d2877708d0b9bb1b4e76ef04388e8490072e741a05e8cd8a13c3605caac52709.pdf",
           "originalName": "2011_h23ee.pdf",
           "sha256": "d2877708d0b9bb1b4e76ef04388e8490072e741a05e8cd8a13c3605caac52709",
           "byteSize": 3274146,
@@ -39910,7 +39910,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6051986dd52ebe1e387582b3e925faebf062d514aff819b8f242c611173e33e6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/6051986dd52ebe1e387582b3e925faebf062d514aff819b8f242c611173e33e6.pdf",
           "originalName": "2012_h24ee.pdf",
           "sha256": "6051986dd52ebe1e387582b3e925faebf062d514aff819b8f242c611173e33e6",
           "byteSize": 1617355,
@@ -39953,7 +39953,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/5cabf39a3d09c9ea76b431de48ebdaf04cab4566e4bf6f9a9da4db0ac93f76b0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/5cabf39a3d09c9ea76b431de48ebdaf04cab4566e4bf6f9a9da4db0ac93f76b0.pdf",
           "originalName": "2013_h25ee.pdf",
           "sha256": "5cabf39a3d09c9ea76b431de48ebdaf04cab4566e4bf6f9a9da4db0ac93f76b0",
           "byteSize": 1180269,
@@ -39996,7 +39996,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55.pdf",
           "originalName": "2014_h26ee.pdf",
           "sha256": "fd29028d113afde247bbb50aba3561a36ff194edd7f58672715f7f5b621ebe55",
           "byteSize": 2378966,
@@ -40039,7 +40039,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/24f7cade531563a3f986ca5b9b830e383ab4bcee62e30d4680c4c17ada4e4ff4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/24f7cade531563a3f986ca5b9b830e383ab4bcee62e30d4680c4c17ada4e4ff4.pdf",
           "originalName": "2015_H27_ee.pdf",
           "sha256": "24f7cade531563a3f986ca5b9b830e383ab4bcee62e30d4680c4c17ada4e4ff4",
           "byteSize": 1471670,
@@ -40082,7 +40082,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/2e0ffaa6e42c6036caeca889093b7ae148e4f8b1a064e3dd6c8712a45bfc8ae5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2e0ffaa6e42c6036caeca889093b7ae148e4f8b1a064e3dd6c8712a45bfc8ae5.pdf",
           "originalName": "2016_H28_ee.pdf",
           "sha256": "2e0ffaa6e42c6036caeca889093b7ae148e4f8b1a064e3dd6c8712a45bfc8ae5",
           "byteSize": 2135046,
@@ -40125,7 +40125,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/2f8728857b7573c2cc110b9a5eeec38fb1eec5f0d8aee83c2070ce04bdb40648.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/2f8728857b7573c2cc110b9a5eeec38fb1eec5f0d8aee83c2070ce04bdb40648.pdf",
           "originalName": "2017_H29ee.pdf",
           "sha256": "2f8728857b7573c2cc110b9a5eeec38fb1eec5f0d8aee83c2070ce04bdb40648",
           "byteSize": 2187921,
@@ -40168,7 +40168,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6.pdf",
           "originalName": "2018_h30ee-1.pdf",
           "sha256": "0cc9d49beda9bbc7a05e493459f861ef0c6f6b215cfe7ac96e1308ff3f7b3bf6",
           "byteSize": 1814286,
@@ -40211,7 +40211,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e.pdf",
           "originalName": "2019_h31ee.pdf",
           "sha256": "3129b6a425576bece2461df3da1130220df945f42cdb3ace99c3bb93a7d0058e",
           "byteSize": 1653308,
@@ -40254,7 +40254,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/3b1b68e9200f0a89b4901536af4fb862be1b9acee34e0bcf6884f28af07d5571.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/3b1b68e9200f0a89b4901536af4fb862be1b9acee34e0bcf6884f28af07d5571.pdf",
           "originalName": "2020_R02ee.pdf",
           "sha256": "3b1b68e9200f0a89b4901536af4fb862be1b9acee34e0bcf6884f28af07d5571",
           "byteSize": 1319502,
@@ -40296,7 +40296,7 @@
         {
           "label": "問題 · 整卷（封面起）",
           "kind": "question",
-          "url": "assets/past-papers/documents/4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/kyushu/4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d.pdf",
           "originalName": "2026_R08_ee.pdf",
           "sha256": "4058b22dc115d559dc66c1bf17c0c3a56d9a9100547c722a89ab10ef5827a50d",
           "byteSize": 3730299,
@@ -40337,7 +40337,7 @@
         {
           "label": "信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148.pdf",
           "originalName": "信息通信工学.pdf",
           "sha256": "ed144d2e0df3d505239928e490d660d21c178f272b86110f34ff72abb3f49148",
           "byteSize": 335632,
@@ -40350,7 +40350,7 @@
         {
           "label": "回路理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3.pdf",
           "originalName": "回路理论.pdf",
           "sha256": "c353b11e655896b1d8913f4ebfc083158aa44643d86c5d19e7736f08b94d6ed3",
           "byteSize": 134590,
@@ -40363,7 +40363,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1.pdf",
           "originalName": "数学.pdf",
           "sha256": "04b49727946c049e842a2efcdda89f4eca9d86b6da45bcc3c6ea5613d2cde0f1",
           "byteSize": 113873,
@@ -40376,7 +40376,7 @@
         {
           "label": "电磁理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684.pdf",
           "originalName": "电磁理论.pdf",
           "sha256": "bf556b292780b0b3a93eb90415f8430a8fa9cb3d96a569dff3b47b812e9e1684",
           "byteSize": 292440,
@@ -40389,7 +40389,7 @@
         {
           "label": "电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21.pdf",
           "originalName": "电磁能源工学.pdf",
           "sha256": "ed4a2c932f9d95589a723bcd1a5d50cde9465ad06bb302004de91e8bd0a1fd21",
           "byteSize": 325461,
@@ -40402,7 +40402,7 @@
         {
           "label": "系统控制",
           "kind": "question",
-          "url": "assets/past-papers/documents/1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b.pdf",
           "originalName": "系统控制.pdf",
           "sha256": "1b333047ac20c463ec36dac416fdeb60bb9ed903292965bd3e5903c09c60877b",
           "byteSize": 375010,
@@ -40415,7 +40415,7 @@
         {
           "label": "量子电子物性",
           "kind": "question",
-          "url": "assets/past-papers/documents/9c9bbb25b82d941df363fcfb615c7af52bd3d840d82ffc04566c6ce822ddeb7d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9c9bbb25b82d941df363fcfb615c7af52bd3d840d82ffc04566c6ce822ddeb7d.pdf",
           "originalName": "量子电子物性.pdf",
           "sha256": "9c9bbb25b82d941df363fcfb615c7af52bd3d840d82ffc04566c6ce822ddeb7d",
           "byteSize": 391726,
@@ -40460,7 +40460,7 @@
         {
           "label": "信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f.pdf",
           "originalName": "信息通信工学.pdf",
           "sha256": "d9c2d84486c3c8c58ef990919171b1749bca7642f4cae0e3bfe69e2f06f0c54f",
           "byteSize": 575114,
@@ -40473,7 +40473,7 @@
         {
           "label": "回路理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09.pdf",
           "originalName": "回路理论.pdf",
           "sha256": "f7e5fd6b7902cbc0ee8b805b7bf391274a899af70876f061f680608d4f2eaf09",
           "byteSize": 112024,
@@ -40486,7 +40486,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/095ebb51059c84f3c0776a0e94a885e1d423d790dd7b1f8486983c1b120b7a8d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/095ebb51059c84f3c0776a0e94a885e1d423d790dd7b1f8486983c1b120b7a8d.pdf",
           "originalName": "数学.pdf",
           "sha256": "095ebb51059c84f3c0776a0e94a885e1d423d790dd7b1f8486983c1b120b7a8d",
           "byteSize": 137958,
@@ -40499,7 +40499,7 @@
         {
           "label": "电磁理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13.pdf",
           "originalName": "电磁理论.pdf",
           "sha256": "483d7e178e89622bcd210e1ca5bab54c27b9f6948aecd0e4e966c979a5c39d13",
           "byteSize": 426322,
@@ -40512,7 +40512,7 @@
         {
           "label": "电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9.pdf",
           "originalName": "电磁能源工学.pdf",
           "sha256": "9bc3354ae2fca15c1308312e48bf1f07df8f9f2cd95125ed14d882c44d3447c9",
           "byteSize": 441527,
@@ -40525,7 +40525,7 @@
         {
           "label": "系统控制",
           "kind": "question",
-          "url": "assets/past-papers/documents/3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178.pdf",
           "originalName": "系统控制.pdf",
           "sha256": "3a2fb5a040f0d974a23a56458e2e425c3de7d9a61ed6d40f4939b779d76ad178",
           "byteSize": 517128,
@@ -40538,7 +40538,7 @@
         {
           "label": "量子电子物性",
           "kind": "question",
-          "url": "assets/past-papers/documents/da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc.pdf",
           "originalName": "量子电子物性.pdf",
           "sha256": "da341c49b7ca0176fe6512ba71e9d1a2a93adbfbe058b0105bfd430bed90fedc",
           "byteSize": 447420,
@@ -40583,7 +40583,7 @@
         {
           "label": "信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4.pdf",
           "originalName": "信息通信工学.pdf",
           "sha256": "c5f8e41aa5dff9a29f92760a4915ca292da443c9129436e0140711fc5ea808c4",
           "byteSize": 334485,
@@ -40596,7 +40596,7 @@
         {
           "label": "回路理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df.pdf",
           "originalName": "回路理论.pdf",
           "sha256": "f97cc345298a93b8e562431570bd71d6fedd4acdb4fc2758bd85e794ceec84df",
           "byteSize": 322694,
@@ -40609,7 +40609,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06.pdf",
           "originalName": "数学.pdf",
           "sha256": "c0232df7a8848e8fb62995e4849861dac510f47202d8d873ff110242fe623f06",
           "byteSize": 74079,
@@ -40622,7 +40622,7 @@
         {
           "label": "电磁理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355.pdf",
           "originalName": "电磁理论.pdf",
           "sha256": "e29be6de097ed34896aa3215f69ad28f32e85603d9b47904f84bc064b2eb9355",
           "byteSize": 510720,
@@ -40635,7 +40635,7 @@
         {
           "label": "电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5.pdf",
           "originalName": "电磁能源工学.pdf",
           "sha256": "946fbc2b7d0271c28b0e6b6a25e112367424350172474c68cdda221c7dffc6a5",
           "byteSize": 494696,
@@ -40648,7 +40648,7 @@
         {
           "label": "系统控制",
           "kind": "question",
-          "url": "assets/past-papers/documents/9fa8c85d1dd1dc5a77d6a4ed0de9bcb7d76092f92b9fb68f9d587eec3053c4cf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9fa8c85d1dd1dc5a77d6a4ed0de9bcb7d76092f92b9fb68f9d587eec3053c4cf.pdf",
           "originalName": "系统控制.pdf",
           "sha256": "9fa8c85d1dd1dc5a77d6a4ed0de9bcb7d76092f92b9fb68f9d587eec3053c4cf",
           "byteSize": 319843,
@@ -40661,7 +40661,7 @@
         {
           "label": "量子电子物性",
           "kind": "question",
-          "url": "assets/past-papers/documents/0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3.pdf",
           "originalName": "量子电子物性.pdf",
           "sha256": "0a9177a194ffff6fd7ff446f9a61a27cd5a45f8a1a9023b9f6b8ee6221d6aec3",
           "byteSize": 445114,
@@ -40706,7 +40706,7 @@
         {
           "label": "信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/3ec39739b5f1d3e8eb27a4cc9d720f2040d75c0be1d23273aa80aab75be877f2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3ec39739b5f1d3e8eb27a4cc9d720f2040d75c0be1d23273aa80aab75be877f2.pdf",
           "originalName": "信息通信工学.pdf",
           "sha256": "3ec39739b5f1d3e8eb27a4cc9d720f2040d75c0be1d23273aa80aab75be877f2",
           "byteSize": 915105,
@@ -40719,7 +40719,7 @@
         {
           "label": "回路理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7.pdf",
           "originalName": "回路理论.pdf",
           "sha256": "59768349a3ed970a686b8edb6b3379083499b1d430f74a911ade73c3f1c146b7",
           "byteSize": 367071,
@@ -40732,7 +40732,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a.pdf",
           "originalName": "数学.pdf",
           "sha256": "b3986e8a09d1ed24709cfa19818888441eada5cbed5651a8f821eddc5673fd8a",
           "byteSize": 293640,
@@ -40745,7 +40745,7 @@
         {
           "label": "电磁理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2.pdf",
           "originalName": "电磁理论.pdf",
           "sha256": "2f47e1350e1856fa1dc621eb394342b17efacb08701d4377599ea125b903e5d2",
           "byteSize": 773328,
@@ -40758,7 +40758,7 @@
         {
           "label": "电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356.pdf",
           "originalName": "电磁能源工学.pdf",
           "sha256": "167ed0cb8f44d9d34ab0504d2fec65109b6dbd4f15b3e029a579bceb4f786356",
           "byteSize": 1027059,
@@ -40771,7 +40771,7 @@
         {
           "label": "系统控制",
           "kind": "question",
-          "url": "assets/past-papers/documents/6512ea340446d9a5c32a1f218e125d161170320d03b40af2ee5089813ed3d012.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6512ea340446d9a5c32a1f218e125d161170320d03b40af2ee5089813ed3d012.pdf",
           "originalName": "系统控制.pdf",
           "sha256": "6512ea340446d9a5c32a1f218e125d161170320d03b40af2ee5089813ed3d012",
           "byteSize": 960155,
@@ -40784,7 +40784,7 @@
         {
           "label": "量子电子物性",
           "kind": "question",
-          "url": "assets/past-papers/documents/cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68.pdf",
           "originalName": "量子电子物性.pdf",
           "sha256": "cd74e3a09db4bf7eb8d631675a88e4438d9727124455399c2c356603359a0b68",
           "byteSize": 996201,
@@ -40829,7 +40829,7 @@
         {
           "label": "信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46.pdf",
           "originalName": "信息通信工学.pdf",
           "sha256": "80a1ea584bcb21175b8d42f4fc169fd0c8f8b63915d865a92dac9c2262122d46",
           "byteSize": 568199,
@@ -40842,7 +40842,7 @@
         {
           "label": "回路理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f.pdf",
           "originalName": "回路理论.pdf",
           "sha256": "b143936c1acafbe8ea9b2f20c2c46dc1d5975ec9ad21a544e9cd3f9106e3932f",
           "byteSize": 280118,
@@ -40855,7 +40855,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca.pdf",
           "originalName": "数学.pdf",
           "sha256": "f145e9f1ba178d90ffc0711460d724992fba5be143f167be70f6a23d356a26ca",
           "byteSize": 151215,
@@ -40868,7 +40868,7 @@
         {
           "label": "电磁理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d.pdf",
           "originalName": "电磁理论.pdf",
           "sha256": "a6ab6896465e47ea2940a41abd499ced2abe5a768186b0fcda9b97d4a0741c5d",
           "byteSize": 517790,
@@ -40881,7 +40881,7 @@
         {
           "label": "电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742.pdf",
           "originalName": "电磁能源工学.pdf",
           "sha256": "79295b33a0e57b533bc23b0261a02b41332296fd054891abbd9f617c3fd47742",
           "byteSize": 793162,
@@ -40894,7 +40894,7 @@
         {
           "label": "系统控制",
           "kind": "question",
-          "url": "assets/past-papers/documents/211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950.pdf",
           "originalName": "系统控制.pdf",
           "sha256": "211dfd8bee0e4e652d13ba177f8c372a833ccadde6fae8822714e12637b34950",
           "byteSize": 581886,
@@ -40907,7 +40907,7 @@
         {
           "label": "量子电子物性",
           "kind": "question",
-          "url": "assets/past-papers/documents/d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0.pdf",
           "originalName": "量子电子物性.pdf",
           "sha256": "d0675463d44f11039ad281578bac96ab306d168cae6f00d14200e09b437e7fe0",
           "byteSize": 280864,
@@ -40952,7 +40952,7 @@
         {
           "label": "信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47.pdf",
           "originalName": "信息通信工学.pdf",
           "sha256": "3b2a49d0491121b8991f1e9bbfd8bbf836479fc0990d7f8b3126529e4306ad47",
           "byteSize": 451866,
@@ -40965,7 +40965,7 @@
         {
           "label": "回路理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b.pdf",
           "originalName": "回路理论.pdf",
           "sha256": "cd574f48ac7c429545b97011d25e244a00d68534771634c533b6d84629f91e6b",
           "byteSize": 1450315,
@@ -40978,7 +40978,7 @@
         {
           "label": "数学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19.pdf",
           "originalName": "数学.pdf",
           "sha256": "4fc6bf872b2804257923a662abe4605f432b7740a663af4c0dc4e24c556c7a19",
           "byteSize": 425849,
@@ -40991,7 +40991,7 @@
         {
           "label": "电磁理论",
           "kind": "question",
-          "url": "assets/past-papers/documents/9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535.pdf",
           "originalName": "电磁理论.pdf",
           "sha256": "9a5ffb041ccef86be9bba6bc47ee9408e6164906fed06877b6ca597f1b653535",
           "byteSize": 599013,
@@ -41004,7 +41004,7 @@
         {
           "label": "电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4.pdf",
           "originalName": "电磁能源工学.pdf",
           "sha256": "0dc38fa125ada4365ce2103cb71a93a2847586bced21e6f7f62d17dbb72ce5b4",
           "byteSize": 1484656,
@@ -41017,7 +41017,7 @@
         {
           "label": "系统控制",
           "kind": "question",
-          "url": "assets/past-papers/documents/89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe.pdf",
           "originalName": "系统控制.pdf",
           "sha256": "89da483d98468d7264fb9975cd9c70789bada2dbeddb7cf8c9f7b05989b0debe",
           "byteSize": 352772,
@@ -41030,7 +41030,7 @@
         {
           "label": "量子电子物性",
           "kind": "question",
-          "url": "assets/past-papers/documents/1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6.pdf",
           "originalName": "量子电子物性.pdf",
           "sha256": "1290174b9207b758a4970349b4ff4df5738926e144bf81024319e9674859a8e6",
           "byteSize": 340874,
@@ -41073,7 +41073,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/391b5d90f6ac7fe9df1de97337f7669356cc6005c613e672841f009f5f97caf1.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/391b5d90f6ac7fe9df1de97337f7669356cc6005c613e672841f009f5f97caf1.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "391b5d90f6ac7fe9df1de97337f7669356cc6005c613e672841f009f5f97caf1",
           "byteSize": 723090,
@@ -41086,7 +41086,7 @@
         {
           "label": "专业：先进电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/600241f2db36eded524bebe6d53eb05cfa3dc7e031a112b273b9474d6d92a2e5.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/600241f2db36eded524bebe6d53eb05cfa3dc7e031a112b273b9474d6d92a2e5.pdf",
           "originalName": "专业_先进电磁能源工学.pdf",
           "sha256": "600241f2db36eded524bebe6d53eb05cfa3dc7e031a112b273b9474d6d92a2e5",
           "byteSize": 1140552,
@@ -41099,7 +41099,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/ad3438631da8b33b4587936fbe35486f00fcb49e2c24718df4e61e375453f784.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/ad3438631da8b33b4587936fbe35486f00fcb49e2c24718df4e61e375453f784.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "ad3438631da8b33b4587936fbe35486f00fcb49e2c24718df4e61e375453f784",
           "byteSize": 633035,
@@ -41112,7 +41112,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "97d27484761c274eadc01cd9a74e835a98bc3877d5cea79d53a7a04be7cba010",
           "byteSize": 546759,
@@ -41125,7 +41125,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "10edf017c5cc88031900d7c5c9cd325bec4ee3040fa0ecd064f99a6ed16f2406",
           "byteSize": 536958,
@@ -41168,7 +41168,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/cdfbb747807371721178e6f2481d2380ba0fc482d9d49d22f5852456c6c5ea2d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/cdfbb747807371721178e6f2481d2380ba0fc482d9d49d22f5852456c6c5ea2d.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "cdfbb747807371721178e6f2481d2380ba0fc482d9d49d22f5852456c6c5ea2d",
           "byteSize": 1316189,
@@ -41181,7 +41181,7 @@
         {
           "label": "专业：先进电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/d7c825f765d6cd23331076ef325d85e994af239404ab266424f6fa087d043141.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d7c825f765d6cd23331076ef325d85e994af239404ab266424f6fa087d043141.pdf",
           "originalName": "专业_先进电磁能源工学.pdf",
           "sha256": "d7c825f765d6cd23331076ef325d85e994af239404ab266424f6fa087d043141",
           "byteSize": 801606,
@@ -41194,7 +41194,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0593d0427af6d3475ee17f9dfff7b73d827137f812be4be6979a7450f612e9e9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0593d0427af6d3475ee17f9dfff7b73d827137f812be4be6979a7450f612e9e9.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "0593d0427af6d3475ee17f9dfff7b73d827137f812be4be6979a7450f612e9e9",
           "byteSize": 650708,
@@ -41207,7 +41207,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "8aee493be9ac5bd915f551890ba8960bdce71899f1347670cb6749e403f83d01",
           "byteSize": 617611,
@@ -41220,7 +41220,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "4c3f49a439b0db8436c05c60c8dd5d4e175f46c89d235cdd0c1bf0802b100fba",
           "byteSize": 364089,
@@ -41263,7 +41263,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/4be24b86b79424b11ca02566eeb3adec4f9c4d1d4fd0f318b330132cf66f1116.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/4be24b86b79424b11ca02566eeb3adec4f9c4d1d4fd0f318b330132cf66f1116.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "4be24b86b79424b11ca02566eeb3adec4f9c4d1d4fd0f318b330132cf66f1116",
           "byteSize": 820393,
@@ -41276,7 +41276,7 @@
         {
           "label": "专业：先进电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/7b33c0748c2a22fb8e43eb6c34aad129600f40cdbbf516f53f474116993ec904.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/7b33c0748c2a22fb8e43eb6c34aad129600f40cdbbf516f53f474116993ec904.pdf",
           "originalName": "专业_先进电磁能源工学.pdf",
           "sha256": "7b33c0748c2a22fb8e43eb6c34aad129600f40cdbbf516f53f474116993ec904",
           "byteSize": 1146655,
@@ -41289,7 +41289,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/9ad343855a66543e4c3862810c57e71e8830d616d774aa2a222a39c187187b81.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9ad343855a66543e4c3862810c57e71e8830d616d774aa2a222a39c187187b81.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "9ad343855a66543e4c3862810c57e71e8830d616d774aa2a222a39c187187b81",
           "byteSize": 665019,
@@ -41302,7 +41302,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "3730a20b2796696a7d48682ca509e246c1d9b3516847a5ee2030551932b35486",
           "byteSize": 736776,
@@ -41315,7 +41315,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "83148edf89ad337484b9752033b0fef8c273c4a149c458440f539967fb66f43c",
           "byteSize": 1380549,
@@ -41358,7 +41358,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/17db00b128c05a099d080656a515c59548209137777abd6d271d5db9a3538493.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/17db00b128c05a099d080656a515c59548209137777abd6d271d5db9a3538493.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "17db00b128c05a099d080656a515c59548209137777abd6d271d5db9a3538493",
           "byteSize": 2221684,
@@ -41371,7 +41371,7 @@
         {
           "label": "专业：先进电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/6514f1198da2ee4c43204d24c3b6d3ae7c23b472feed3625c9fb4ade96603d39.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6514f1198da2ee4c43204d24c3b6d3ae7c23b472feed3625c9fb4ade96603d39.pdf",
           "originalName": "专业_先进电磁能源工学.pdf",
           "sha256": "6514f1198da2ee4c43204d24c3b6d3ae7c23b472feed3625c9fb4ade96603d39",
           "byteSize": 3154119,
@@ -41384,7 +41384,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/397c13434ac6d74fbe4ec0cf6c42d0ec41e5928118971702e68255c2f760dd5c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/397c13434ac6d74fbe4ec0cf6c42d0ec41e5928118971702e68255c2f760dd5c.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "397c13434ac6d74fbe4ec0cf6c42d0ec41e5928118971702e68255c2f760dd5c",
           "byteSize": 2563557,
@@ -41397,7 +41397,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "06f8c12a97f0865d9a31264840b0d736eb24e3512f64afeaefba2ad3009c3508",
           "byteSize": 1813649,
@@ -41410,7 +41410,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "60765f47b77be820fa9713717534d63a5667f937e5adfa0d9cbdeb7e06d47c0d",
           "byteSize": 1338951,
@@ -41453,7 +41453,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/5412fc3b0bd2650b4e2fff63b5c500cbefe38923ffa01c951d2dfb86242edfd8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/5412fc3b0bd2650b4e2fff63b5c500cbefe38923ffa01c951d2dfb86242edfd8.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "5412fc3b0bd2650b4e2fff63b5c500cbefe38923ffa01c951d2dfb86242edfd8",
           "byteSize": 1884068,
@@ -41466,7 +41466,7 @@
         {
           "label": "专业：先进电磁能源工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a3c07583d5a0a8ea14def98b03ac6b375c34304955cc0cefe5e24cdb748b8c53.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a3c07583d5a0a8ea14def98b03ac6b375c34304955cc0cefe5e24cdb748b8c53.pdf",
           "originalName": "专业_先进电磁能源工学.pdf",
           "sha256": "a3c07583d5a0a8ea14def98b03ac6b375c34304955cc0cefe5e24cdb748b8c53",
           "byteSize": 1914075,
@@ -41479,7 +41479,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/e116c71b05fa89e4bb91768389e4e65d9d412e872db02a1409ec2a7d985964a8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e116c71b05fa89e4bb91768389e4e65d9d412e872db02a1409ec2a7d985964a8.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "e116c71b05fa89e4bb91768389e4e65d9d412e872db02a1409ec2a7d985964a8",
           "byteSize": 810456,
@@ -41492,7 +41492,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "0445a3b65ee64fb52d25df61d82dd98094e90c98e8f8b2cad188c6df8278ac1b",
           "byteSize": 957002,
@@ -41505,7 +41505,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "9e29b04325920c20d377bb50d55cc395f9e5abdfe607fefbdeaf8c4e666770bb",
           "byteSize": 1305236,
@@ -41547,7 +41547,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/bfe03a0093e8767ae83830913a43258362ea13897c3df68c2b55ae9e794346bb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bfe03a0093e8767ae83830913a43258362ea13897c3df68c2b55ae9e794346bb.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "bfe03a0093e8767ae83830913a43258362ea13897c3df68c2b55ae9e794346bb",
           "byteSize": 1100784,
@@ -41560,7 +41560,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/08c49555cd2cda068604b39d84adef9f2517bdbce2026198b8b9fd66cb7e5561.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/08c49555cd2cda068604b39d84adef9f2517bdbce2026198b8b9fd66cb7e5561.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "08c49555cd2cda068604b39d84adef9f2517bdbce2026198b8b9fd66cb7e5561",
           "byteSize": 1116585,
@@ -41573,7 +41573,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "0003d82d15641d4ae57659183c4e70946784b53feee0680d9e10a7e15879ba69",
           "byteSize": 6621000,
@@ -41586,7 +41586,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "d104ec240681ed8be03289e5e1ce75c3b35b3671714f7f246d478a37ec102954",
           "byteSize": 942372,
@@ -41628,7 +41628,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a986ec94e65061af909a675ed75b03eddfcb7ec84caa8dd2a3b49c099c6c37af.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a986ec94e65061af909a675ed75b03eddfcb7ec84caa8dd2a3b49c099c6c37af.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "a986ec94e65061af909a675ed75b03eddfcb7ec84caa8dd2a3b49c099c6c37af",
           "byteSize": 2242626,
@@ -41641,7 +41641,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/28369ed0788afc0e868a7a7e971ad5d79790b625b43493e7c71be087031329c9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/28369ed0788afc0e868a7a7e971ad5d79790b625b43493e7c71be087031329c9.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "28369ed0788afc0e868a7a7e971ad5d79790b625b43493e7c71be087031329c9",
           "byteSize": 3832861,
@@ -41654,7 +41654,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "10d398993e3f5ffde5d3e7c586cf2690a59c96f697d5d17234aaa78cff5923b3",
           "byteSize": 6390836,
@@ -41667,7 +41667,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "e8fb420b8a9d58b9d50929675cfc04243dddb5f24d838064eea598df4258bbcf",
           "byteSize": 3162780,
@@ -41709,7 +41709,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/bad987c79b30196b979b5b0281dbeacde4b74fae4c0d30bdcbdeff7e1beea3c9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bad987c79b30196b979b5b0281dbeacde4b74fae4c0d30bdcbdeff7e1beea3c9.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "bad987c79b30196b979b5b0281dbeacde4b74fae4c0d30bdcbdeff7e1beea3c9",
           "byteSize": 1886816,
@@ -41722,7 +41722,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/0ca9904e876148e061ee9aa93e33d53c7a9257353740feb50089bbfe5d5c94d2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0ca9904e876148e061ee9aa93e33d53c7a9257353740feb50089bbfe5d5c94d2.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "0ca9904e876148e061ee9aa93e33d53c7a9257353740feb50089bbfe5d5c94d2",
           "byteSize": 1870706,
@@ -41735,7 +41735,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/decd1d8fa66d63cd3a1b441ddd7ede3dca3b1b5acf9b90a32ee61642f42b6391.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/decd1d8fa66d63cd3a1b441ddd7ede3dca3b1b5acf9b90a32ee61642f42b6391.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "decd1d8fa66d63cd3a1b441ddd7ede3dca3b1b5acf9b90a32ee61642f42b6391",
           "byteSize": 2638855,
@@ -41748,7 +41748,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "0926c510de70313d4555bc59ebc96a4a9fa6103d767075bb709ee1a024177dd9",
           "byteSize": 1181310,
@@ -41790,7 +41790,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/498967c62cf6f84009aa35d2381aa1e49b256b42db81a00f039738f542951cba.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/498967c62cf6f84009aa35d2381aa1e49b256b42db81a00f039738f542951cba.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "498967c62cf6f84009aa35d2381aa1e49b256b42db81a00f039738f542951cba",
           "byteSize": 389751,
@@ -41803,7 +41803,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/9d0338ad35e950dc822f0e3520468979bccf4e1c04ba66e2b73d7d38059eb9df.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/9d0338ad35e950dc822f0e3520468979bccf4e1c04ba66e2b73d7d38059eb9df.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "9d0338ad35e950dc822f0e3520468979bccf4e1c04ba66e2b73d7d38059eb9df",
           "byteSize": 594819,
@@ -41816,7 +41816,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "bd24546b84187e21981c5f707a8ca0eecd9ef2da199b51d6e550a3a835146e10",
           "byteSize": 765959,
@@ -41829,7 +41829,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "b97eb54c6e61084731035fef884bef302ce7c31d60fc33d90ca19e5c7feca9ce",
           "byteSize": 329590,
@@ -41871,7 +41871,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/343fb44c8110fedfcca19e83dcf865df01c46fa8e3608d5df5a6713cf2d002eb.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/343fb44c8110fedfcca19e83dcf865df01c46fa8e3608d5df5a6713cf2d002eb.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "343fb44c8110fedfcca19e83dcf865df01c46fa8e3608d5df5a6713cf2d002eb",
           "byteSize": 2806797,
@@ -41884,7 +41884,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/6080dbb3e63d48828ef37eefda84de2072144eca4aae345d661d6b057a77096a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/6080dbb3e63d48828ef37eefda84de2072144eca4aae345d661d6b057a77096a.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "6080dbb3e63d48828ef37eefda84de2072144eca4aae345d661d6b057a77096a",
           "byteSize": 678812,
@@ -41897,7 +41897,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/92d24baf9389add5abcd28f1513709841c73b5aab9ff1c4eaee7eb20497838d4.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/92d24baf9389add5abcd28f1513709841c73b5aab9ff1c4eaee7eb20497838d4.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "92d24baf9389add5abcd28f1513709841c73b5aab9ff1c4eaee7eb20497838d4",
           "byteSize": 2218846,
@@ -41910,7 +41910,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "8a60a828a3fa30e3c9fec1b37c6fc82ec447913a467803fa8ac65f0f3cefb605",
           "byteSize": 2068285,
@@ -41952,7 +41952,7 @@
         {
           "label": "专业：信息通信工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/504be097a505f667d63fed11c0602656ee8fae8c2adc66c2e9d3ab5a2c7aa4b8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/504be097a505f667d63fed11c0602656ee8fae8c2adc66c2e9d3ab5a2c7aa4b8.pdf",
           "originalName": "专业_信息通信工学.pdf",
           "sha256": "504be097a505f667d63fed11c0602656ee8fae8c2adc66c2e9d3ab5a2c7aa4b8",
           "byteSize": 2031042,
@@ -41965,7 +41965,7 @@
         {
           "label": "专业：电子与量子信息电子学",
           "kind": "question",
-          "url": "assets/past-papers/documents/645f10e783d07126694f3c093123ba2061cabbb6cc87ff91230c34e34ef94281.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/645f10e783d07126694f3c093123ba2061cabbb6cc87ff91230c34e34ef94281.pdf",
           "originalName": "专业_电子与量子信息电子学.pdf",
           "sha256": "645f10e783d07126694f3c093123ba2061cabbb6cc87ff91230c34e34ef94281",
           "byteSize": 1214353,
@@ -41978,7 +41978,7 @@
         {
           "label": "专业：电气工学",
           "kind": "question",
-          "url": "assets/past-papers/documents/a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929.pdf",
           "originalName": "专业_电气工学.pdf",
           "sha256": "a29d1bc6bd070701ef15990f166b04125eec5ed620e7a8f3a655ccec84b92929",
           "byteSize": 1622734,
@@ -41991,7 +41991,7 @@
         {
           "label": "共通基础科目",
           "kind": "question",
-          "url": "assets/past-papers/documents/609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/osaka/609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385.pdf",
           "originalName": "共通基础科目.pdf",
           "sha256": "609ceb45fa1ab36b65294d462b1570bb5e3bf84087a3d1e37c5136c979b4c385",
           "byteSize": 1307245,
@@ -42033,7 +42033,7 @@
         {
           "label": "数学（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611.pdf",
           "originalName": "math200709j.pdf",
           "sha256": "df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611",
           "byteSize": 1432254,
@@ -42046,7 +42046,7 @@
         {
           "label": "数学（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f3e6a3ed35ef247403bff560ed649e2186c971f15bd4e16b935a08e5777c6418.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/f3e6a3ed35ef247403bff560ed649e2186c971f15bd4e16b935a08e5777c6418.pdf",
           "originalName": "math200709e.pdf",
           "sha256": "f3e6a3ed35ef247403bff560ed649e2186c971f15bd4e16b935a08e5777c6418",
           "byteSize": 1119494,
@@ -42059,7 +42059,7 @@
         {
           "label": "物理（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/1b513066744a75ef9f6c9c44eced205f56cca0007c176d754858407c2a7c7870.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/1b513066744a75ef9f6c9c44eced205f56cca0007c176d754858407c2a7c7870.pdf",
           "originalName": "phys200709e.pdf",
           "sha256": "1b513066744a75ef9f6c9c44eced205f56cca0007c176d754858407c2a7c7870",
           "byteSize": 2800035,
@@ -42097,7 +42097,7 @@
         {
           "label": "物理・情報（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f2680ead0593f4fea3e334872c0976283687faa1ed5767a085badaff95a1f0b7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/f2680ead0593f4fea3e334872c0976283687faa1ed5767a085badaff95a1f0b7.pdf",
           "originalName": "0ba048ebeaa24ae15d9e4c7da7fe086eb1c9f4251042812b2d2c924c037cb049_2126.pdf",
           "sha256": "f2680ead0593f4fea3e334872c0976283687faa1ed5767a085badaff95a1f0b7",
           "byteSize": 2076270,
@@ -42110,7 +42110,7 @@
         {
           "label": "数学（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d02bacda8e9116f2c9d502f0aac8ab66451b549c94595e000c1d8d99d7aa1058.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/d02bacda8e9116f2c9d502f0aac8ab66451b549c94595e000c1d8d99d7aa1058.pdf",
           "originalName": "29e9856b3e70311cf273a8f25e9def7663f1f90470b176272fa5b334b6f9651d_381e.pdf",
           "sha256": "d02bacda8e9116f2c9d502f0aac8ab66451b549c94595e000c1d8d99d7aa1058",
           "byteSize": 514504,
@@ -42142,7 +42142,7 @@
         {
           "label": "数学（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/8f19df0dc59827eef33a04ade5ab94ec752954398236e7b00f741cda73687363.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8f19df0dc59827eef33a04ade5ab94ec752954398236e7b00f741cda73687363.pdf",
           "originalName": "057fedf3654d1e76bbe940809f76aecdede8b8a3adee0c10336c563b8aef3fb3_c920.pdf",
           "sha256": "8f19df0dc59827eef33a04ade5ab94ec752954398236e7b00f741cda73687363",
           "byteSize": 1485619,
@@ -42172,7 +42172,7 @@
         {
           "label": "第1–10問（日文・英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6fe9ff8e51054edf822c105b7e95a86a46693ad95786b214360bd315b86cc30d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/6fe9ff8e51054edf822c105b7e95a86a46693ad95786b214360bd315b86cc30d.pdf",
           "originalName": "fy2012_s.pdf",
           "sha256": "6fe9ff8e51054edf822c105b7e95a86a46693ad95786b214360bd315b86cc30d",
           "byteSize": 9540970,
@@ -42202,7 +42202,7 @@
         {
           "label": "問題1–4・A–F（日文・英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/82528975daea8d045c9786b621a40d5dfbd3f063e560dc202c72c9d8521c560e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/82528975daea8d045c9786b621a40d5dfbd3f063e560dc202c72c9d8521c560e.pdf",
           "originalName": "fy2013_s.pdf",
           "sha256": "82528975daea8d045c9786b621a40d5dfbd3f063e560dc202c72c9d8521c560e",
           "byteSize": 4884469,
@@ -42232,7 +42232,7 @@
         {
           "label": "問題1–4・A–F（日文・英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/268c87f286e22ba0ee1376de1202d8de4b3e778a15748da900b41a42653843d0.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/268c87f286e22ba0ee1376de1202d8de4b3e778a15748da900b41a42653843d0.pdf",
           "originalName": "fy2014_s.pdf",
           "sha256": "268c87f286e22ba0ee1376de1202d8de4b3e778a15748da900b41a42653843d0",
           "byteSize": 8933629,
@@ -42262,7 +42262,7 @@
         {
           "label": "問題1–4・A–F（日文・英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/81678d478927553da2f53391c6aed03fcfe6df9cc1b7b78dfd929ddfed1f90dd.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/81678d478927553da2f53391c6aed03fcfe6df9cc1b7b78dfd929ddfed1f90dd.pdf",
           "originalName": "fy2015_s.pdf",
           "sha256": "81678d478927553da2f53391c6aed03fcfe6df9cc1b7b78dfd929ddfed1f90dd",
           "byteSize": 4431862,
@@ -42292,7 +42292,7 @@
         {
           "label": "問題1–4・A–F（日文・英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/01d992000f03dac3ab5fd2bb321310ff908f0122342bf8c46e99d87c9397789d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/01d992000f03dac3ab5fd2bb321310ff908f0122342bf8c46e99d87c9397789d.pdf",
           "originalName": "fy2016_s.pdf",
           "sha256": "01d992000f03dac3ab5fd2bb321310ff908f0122342bf8c46e99d87c9397789d",
           "byteSize": 5602446,
@@ -42322,7 +42322,7 @@
         {
           "label": "問題1–4・A–F（日文・英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/8778ffce8a2bf35a49db903e6624019345eead0431eee6a83e280c7b92f4b0c2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8778ffce8a2bf35a49db903e6624019345eead0431eee6a83e280c7b92f4b0c2.pdf",
           "originalName": "fy2017_s.pdf",
           "sha256": "8778ffce8a2bf35a49db903e6624019345eead0431eee6a83e280c7b92f4b0c2",
           "byteSize": 1538821,
@@ -42352,7 +42352,7 @@
         {
           "label": "問題1–4・A–F（日文・英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/9ad66b6ec17a74de6e39f547dd16eb6a802f3227edf441d615460cabf92ae815.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/9ad66b6ec17a74de6e39f547dd16eb6a802f3227edf441d615460cabf92ae815.pdf",
           "originalName": "fy2018_s.pdf",
           "sha256": "9ad66b6ec17a74de6e39f547dd16eb6a802f3227edf441d615460cabf92ae815",
           "byteSize": 8732580,
@@ -42382,7 +42382,7 @@
         {
           "label": "問題1–4・A–F（日文・英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/30a3addecd3bec5dedfcdde559840dee77725035491fb3c9b6dc3eee512b7356.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/30a3addecd3bec5dedfcdde559840dee77725035491fb3c9b6dc3eee512b7356.pdf",
           "originalName": "fy2019_s.pdf",
           "sha256": "30a3addecd3bec5dedfcdde559840dee77725035491fb3c9b6dc3eee512b7356",
           "byteSize": 2231983,
@@ -42412,7 +42412,7 @@
         {
           "label": "Problem 1（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6236b840c4c30bb37522073619542187e2ebbd0b8ca8866649e5b2e29bf4f06c.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/6236b840c4c30bb37522073619542187e2ebbd0b8ca8866649e5b2e29bf4f06c.pdf",
           "originalName": "fy2021_s_en_1.pdf",
           "sha256": "6236b840c4c30bb37522073619542187e2ebbd0b8ca8866649e5b2e29bf4f06c",
           "byteSize": 131771,
@@ -42425,7 +42425,7 @@
         {
           "label": "Problem 2（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b057780323fd49d3ed7de938e17463acd72d3df4794bc06668b770b0d0055b5d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/b057780323fd49d3ed7de938e17463acd72d3df4794bc06668b770b0d0055b5d.pdf",
           "originalName": "fy2021_s_en_2.pdf",
           "sha256": "b057780323fd49d3ed7de938e17463acd72d3df4794bc06668b770b0d0055b5d",
           "byteSize": 253878,
@@ -42438,7 +42438,7 @@
         {
           "label": "Problem 3（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f8738acb914633b856aab0d4532181ee3f309e700b0d284cea23b0bfaf6014f3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/f8738acb914633b856aab0d4532181ee3f309e700b0d284cea23b0bfaf6014f3.pdf",
           "originalName": "fy2021_s_en_3.pdf",
           "sha256": "f8738acb914633b856aab0d4532181ee3f309e700b0d284cea23b0bfaf6014f3",
           "byteSize": 227170,
@@ -42451,7 +42451,7 @@
         {
           "label": "Problem 4（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419.pdf",
           "originalName": "fy2021_s_en_4.pdf",
           "sha256": "8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419",
           "byteSize": 238702,
@@ -42464,7 +42464,7 @@
         {
           "label": "Problem 5（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/5ba8b79a68e348ca66f2b3ed1c925d0ecffa5636bbac969db14d4a8050b8161a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/5ba8b79a68e348ca66f2b3ed1c925d0ecffa5636bbac969db14d4a8050b8161a.pdf",
           "originalName": "fy2021_s_en_5.pdf",
           "sha256": "5ba8b79a68e348ca66f2b3ed1c925d0ecffa5636bbac969db14d4a8050b8161a",
           "byteSize": 111397,
@@ -42477,7 +42477,7 @@
         {
           "label": "Problem 6（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/bcd2862e37f43adf80c503093fae7b1adb1d572b765bfd741f3be7087deb0c6a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/bcd2862e37f43adf80c503093fae7b1adb1d572b765bfd741f3be7087deb0c6a.pdf",
           "originalName": "fy2021_s_en_6.pdf",
           "sha256": "bcd2862e37f43adf80c503093fae7b1adb1d572b765bfd741f3be7087deb0c6a",
           "byteSize": 191838,
@@ -42490,7 +42490,7 @@
         {
           "label": "参考和訳（英文を正規とする）",
           "kind": "question",
-          "url": "assets/past-papers/documents/9a0c05274df15d5b1f9a8ae3ec60cab810cc5b3009849215e66713c0853b5d98.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/9a0c05274df15d5b1f9a8ae3ec60cab810cc5b3009849215e66713c0853b5d98.pdf",
           "originalName": "fy2021_s_ja.pdf",
           "sha256": "9a0c05274df15d5b1f9a8ae3ec60cab810cc5b3009849215e66713c0853b5d98",
           "byteSize": 418109,
@@ -42520,7 +42520,7 @@
         {
           "label": "問題1（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/715de229df55f0dcef9e7a07f82b2571a1abe530c9da0da22bd732b8f3f26a88.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/715de229df55f0dcef9e7a07f82b2571a1abe530c9da0da22bd732b8f3f26a88.pdf",
           "originalName": "fy2022_s_ja_1.pdf",
           "sha256": "715de229df55f0dcef9e7a07f82b2571a1abe530c9da0da22bd732b8f3f26a88",
           "byteSize": 801842,
@@ -42533,7 +42533,7 @@
         {
           "label": "Problem 1（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/0f35ea13f292ead20dd3e9902e10685e7c4ed532ca6eb3c0f0b9b9322c6ae53d.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/0f35ea13f292ead20dd3e9902e10685e7c4ed532ca6eb3c0f0b9b9322c6ae53d.pdf",
           "originalName": "fy2022_s_en_1.pdf",
           "sha256": "0f35ea13f292ead20dd3e9902e10685e7c4ed532ca6eb3c0f0b9b9322c6ae53d",
           "byteSize": 721088,
@@ -42546,7 +42546,7 @@
         {
           "label": "問題2（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be.pdf",
           "originalName": "fy2022_s_ja_2.pdf",
           "sha256": "2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be",
           "byteSize": 788377,
@@ -42559,7 +42559,7 @@
         {
           "label": "Problem 2（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e63dd0d38cd842e86f25bbf4046ebdb8352d3e09efc756554e435d0a8d288b93.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/e63dd0d38cd842e86f25bbf4046ebdb8352d3e09efc756554e435d0a8d288b93.pdf",
           "originalName": "fy2022_s_en_2.pdf",
           "sha256": "e63dd0d38cd842e86f25bbf4046ebdb8352d3e09efc756554e435d0a8d288b93",
           "byteSize": 716483,
@@ -42572,7 +42572,7 @@
         {
           "label": "問題3（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/293b0a1547494237746e51290181b2600c1b84d7c2ec8eddcdbdaed087d0b575.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/293b0a1547494237746e51290181b2600c1b84d7c2ec8eddcdbdaed087d0b575.pdf",
           "originalName": "fy2022_s_ja_3.pdf",
           "sha256": "293b0a1547494237746e51290181b2600c1b84d7c2ec8eddcdbdaed087d0b575",
           "byteSize": 697812,
@@ -42585,7 +42585,7 @@
         {
           "label": "Problem 3（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c8f420faa531650f14071aeecfc01450d3e3c57f76df89f04fd9a048c619d8aa.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/c8f420faa531650f14071aeecfc01450d3e3c57f76df89f04fd9a048c619d8aa.pdf",
           "originalName": "fy2022_s_en_3.pdf",
           "sha256": "c8f420faa531650f14071aeecfc01450d3e3c57f76df89f04fd9a048c619d8aa",
           "byteSize": 590567,
@@ -42598,7 +42598,7 @@
         {
           "label": "問題4（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871.pdf",
           "originalName": "fy2022_s_ja_4.pdf",
           "sha256": "8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871",
           "byteSize": 699066,
@@ -42611,7 +42611,7 @@
         {
           "label": "Problem 4（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/54e53bb168f4ed145db5fcae67d657ee081a32b5540319d421f8b02d7d12fc2e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/54e53bb168f4ed145db5fcae67d657ee081a32b5540319d421f8b02d7d12fc2e.pdf",
           "originalName": "fy2022_s_en_4.pdf",
           "sha256": "54e53bb168f4ed145db5fcae67d657ee081a32b5540319d421f8b02d7d12fc2e",
           "byteSize": 634403,
@@ -42624,7 +42624,7 @@
         {
           "label": "問題5（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/3ac62a2a2280b3c38a4d37c3eea387b1146c21228f9c30488032f5f51881f348.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/3ac62a2a2280b3c38a4d37c3eea387b1146c21228f9c30488032f5f51881f348.pdf",
           "originalName": "fy2022_s_ja_5.pdf",
           "sha256": "3ac62a2a2280b3c38a4d37c3eea387b1146c21228f9c30488032f5f51881f348",
           "byteSize": 769929,
@@ -42637,7 +42637,7 @@
         {
           "label": "Problem 5（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/2fbfc1f6436e747e6674a574704b1a0283a1850f017aa8b4c56bd83fa2c56e86.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/2fbfc1f6436e747e6674a574704b1a0283a1850f017aa8b4c56bd83fa2c56e86.pdf",
           "originalName": "fy2022_s_en_5.pdf",
           "sha256": "2fbfc1f6436e747e6674a574704b1a0283a1850f017aa8b4c56bd83fa2c56e86",
           "byteSize": 711063,
@@ -42650,7 +42650,7 @@
         {
           "label": "問題6（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/040c757b4171e015f76d66f586e7209c467e7f68f5f3733bf1315e0463fcb324.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/040c757b4171e015f76d66f586e7209c467e7f68f5f3733bf1315e0463fcb324.pdf",
           "originalName": "fy2022_s_ja_6.pdf",
           "sha256": "040c757b4171e015f76d66f586e7209c467e7f68f5f3733bf1315e0463fcb324",
           "byteSize": 695751,
@@ -42663,7 +42663,7 @@
         {
           "label": "Problem 6（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/62c3ae831678bd0dde0a9f4c11f81b4ac4d4aa733bfabf0c18fceb929cc6030e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/62c3ae831678bd0dde0a9f4c11f81b4ac4d4aa733bfabf0c18fceb929cc6030e.pdf",
           "originalName": "fy2022_s_en_6.pdf",
           "sha256": "62c3ae831678bd0dde0a9f4c11f81b4ac4d4aa733bfabf0c18fceb929cc6030e",
           "byteSize": 610531,
@@ -42693,7 +42693,7 @@
         {
           "label": "問題1（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/46820620588ac72b2bac9350a4790f6de18477dda7bc162fd094ab9e5913d7f3.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/46820620588ac72b2bac9350a4790f6de18477dda7bc162fd094ab9e5913d7f3.pdf",
           "originalName": "fy2023_s_ja_1.pdf",
           "sha256": "46820620588ac72b2bac9350a4790f6de18477dda7bc162fd094ab9e5913d7f3",
           "byteSize": 619603,
@@ -42706,7 +42706,7 @@
         {
           "label": "Problem 1（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/f7240425d27ef32175d0b9f653502e86aff655054f6a953a737cb80eca981103.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/f7240425d27ef32175d0b9f653502e86aff655054f6a953a737cb80eca981103.pdf",
           "originalName": "fy2023_s_en_1.pdf",
           "sha256": "f7240425d27ef32175d0b9f653502e86aff655054f6a953a737cb80eca981103",
           "byteSize": 623111,
@@ -42719,7 +42719,7 @@
         {
           "label": "問題2（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/6aa93a5084bab6fcd8a414b2622f0af8e15c23f897731303a70d2db56a672431.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/6aa93a5084bab6fcd8a414b2622f0af8e15c23f897731303a70d2db56a672431.pdf",
           "originalName": "fy2023_s_ja_2.pdf",
           "sha256": "6aa93a5084bab6fcd8a414b2622f0af8e15c23f897731303a70d2db56a672431",
           "byteSize": 702194,
@@ -42732,7 +42732,7 @@
         {
           "label": "Problem 2（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/048f19d0df7958032997fddc50a081e6791df3a9d9af25ae72e00cbbc2c7c023.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/048f19d0df7958032997fddc50a081e6791df3a9d9af25ae72e00cbbc2c7c023.pdf",
           "originalName": "fy2023_s_en_2.pdf",
           "sha256": "048f19d0df7958032997fddc50a081e6791df3a9d9af25ae72e00cbbc2c7c023",
           "byteSize": 660606,
@@ -42745,7 +42745,7 @@
         {
           "label": "問題3（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/c001a001355567be4e7b6d62313c6bc9151cd73aa8e265454fb8bdd8b62f94e8.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/c001a001355567be4e7b6d62313c6bc9151cd73aa8e265454fb8bdd8b62f94e8.pdf",
           "originalName": "fy2023_s_ja_3.pdf",
           "sha256": "c001a001355567be4e7b6d62313c6bc9151cd73aa8e265454fb8bdd8b62f94e8",
           "byteSize": 575042,
@@ -42758,7 +42758,7 @@
         {
           "label": "Problem 3（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e82a31958afcd00fd79defa4bf458a0b5d52487b205216f43fe5316625d80f0a.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/e82a31958afcd00fd79defa4bf458a0b5d52487b205216f43fe5316625d80f0a.pdf",
           "originalName": "fy2023_s_en_3.pdf",
           "sha256": "e82a31958afcd00fd79defa4bf458a0b5d52487b205216f43fe5316625d80f0a",
           "byteSize": 548247,
@@ -42771,7 +42771,7 @@
         {
           "label": "問題4（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/203a9224a90d1db5ff193c35deba6f1fc70e248d827f55351a6a52800887e19f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/203a9224a90d1db5ff193c35deba6f1fc70e248d827f55351a6a52800887e19f.pdf",
           "originalName": "fy2023_s_ja_4.pdf",
           "sha256": "203a9224a90d1db5ff193c35deba6f1fc70e248d827f55351a6a52800887e19f",
           "byteSize": 617676,
@@ -42784,7 +42784,7 @@
         {
           "label": "Problem 4（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e6c16adb468632f76dc0998366a8cedf4da7634dc9acc0fe265773aa064b7e70.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/e6c16adb468632f76dc0998366a8cedf4da7634dc9acc0fe265773aa064b7e70.pdf",
           "originalName": "fy2023_s_en_4.pdf",
           "sha256": "e6c16adb468632f76dc0998366a8cedf4da7634dc9acc0fe265773aa064b7e70",
           "byteSize": 591623,
@@ -42797,7 +42797,7 @@
         {
           "label": "問題5（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/3821091fe7f9e28052c0e7adef22412bd0fa805d3a98351ba7efa3a7dc1f555e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/3821091fe7f9e28052c0e7adef22412bd0fa805d3a98351ba7efa3a7dc1f555e.pdf",
           "originalName": "fy2023_s_ja_5.pdf",
           "sha256": "3821091fe7f9e28052c0e7adef22412bd0fa805d3a98351ba7efa3a7dc1f555e",
           "byteSize": 663211,
@@ -42810,7 +42810,7 @@
         {
           "label": "Problem 5（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/d77395ef24e742ba7299051a0c4c41635b2c0919e59af07b06cb6a32f5c11269.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/d77395ef24e742ba7299051a0c4c41635b2c0919e59af07b06cb6a32f5c11269.pdf",
           "originalName": "fy2023_s_en_5.pdf",
           "sha256": "d77395ef24e742ba7299051a0c4c41635b2c0919e59af07b06cb6a32f5c11269",
           "byteSize": 623260,
@@ -42823,7 +42823,7 @@
         {
           "label": "問題6（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e0fe417ac29740415fcbd59654897b37834e18c3b9b118138d42b76ff432b710.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/e0fe417ac29740415fcbd59654897b37834e18c3b9b118138d42b76ff432b710.pdf",
           "originalName": "fy2023_s_ja_6.pdf",
           "sha256": "e0fe417ac29740415fcbd59654897b37834e18c3b9b118138d42b76ff432b710",
           "byteSize": 586673,
@@ -42836,7 +42836,7 @@
         {
           "label": "Problem 6（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/8ed5cfcab6e2c62ecdbe82c7c5777a0f94fbacef04e63b23f2055e99e468aab2.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8ed5cfcab6e2c62ecdbe82c7c5777a0f94fbacef04e63b23f2055e99e468aab2.pdf",
           "originalName": "fy2023_s_en_6.pdf",
           "sha256": "8ed5cfcab6e2c62ecdbe82c7c5777a0f94fbacef04e63b23f2055e99e468aab2",
           "byteSize": 549768,
@@ -42866,7 +42866,7 @@
         {
           "label": "問題1–6（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351.pdf",
           "originalName": "fy2024_s.pdf",
           "sha256": "ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351",
           "byteSize": 2393191,
@@ -42880,7 +42880,7 @@
         {
           "label": "Problem 1–6（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351.pdf",
           "originalName": "fy2024_s.pdf",
           "sha256": "ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351",
           "byteSize": 2393191,
@@ -42910,7 +42910,7 @@
         {
           "label": "問題1–6（日文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98.pdf",
           "originalName": "530de2aa2d710916814de4f1dbff0582658d634d7d3429f37c3383baffbb96fe_003c.pdf",
           "sha256": "898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98",
           "byteSize": 8519867,
@@ -42924,7 +42924,7 @@
         {
           "label": "Problem 1–6（英文）",
           "kind": "question",
-          "url": "assets/past-papers/documents/898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98.pdf",
           "originalName": "530de2aa2d710916814de4f1dbff0582658d634d7d3429f37c3383baffbb96fe_003c.pdf",
           "sha256": "898046dba06276afba9b50673f158ed4ad4980cd79e8ccf3116430bf925c9d98",
           "byteSize": 8519867,
@@ -42947,7 +42947,7 @@
         {
           "label": "待核验R03照片 · 学校／年份未确认",
           "kind": "other",
-          "url": "assets/past-papers/documents/709ac8d084b1efcbb34daffaa97a113e4bed324cecef6cf0ef950959377b305e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/science-tokyo/709ac8d084b1efcbb34daffaa97a113e4bed324cecef6cf0ef950959377b305e.pdf",
           "originalName": "R03_photos_unverified.pdf",
           "sha256": "709ac8d084b1efcbb34daffaa97a113e4bed324cecef6cf0ef950959377b305e",
           "byteSize": 540077,
@@ -42977,7 +42977,7 @@
         {
           "label": "エネルギー基礎（未印年度）",
           "kind": "question",
-          "url": "assets/past-papers/documents/48e55f932865dcd5339f3ad44837ced2b95f2e3cd4caabfe124ed09624fac326.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/48e55f932865dcd5339f3ad44837ced2b95f2e3cd4caabfe124ed09624fac326.pdf",
           "originalName": "energy-kiso.pdf",
           "sha256": "48e55f932865dcd5339f3ad44837ced2b95f2e3cd4caabfe124ed09624fac326",
           "byteSize": 481791,
@@ -42990,7 +42990,7 @@
         {
           "label": "エネルギー専門（未印年度）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e3fc0db59aafc3411ed17bc67d3a00a08fe6d1946615046e359237a1f56f9235.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/nagoya/e3fc0db59aafc3411ed17bc67d3a00a08fe6d1946615046e359237a1f56f9235.pdf",
           "originalName": "energy-senmon.pdf",
           "sha256": "e3fc0db59aafc3411ed17bc67d3a00a08fe6d1946615046e359237a1f56f9235",
           "byteSize": 1528649,
@@ -43014,7 +43014,7 @@
         {
           "label": "応用物理学（封面无年度，文件名2024秋季大学院入試_応物.pdf）",
           "kind": "question",
-          "url": "assets/past-papers/documents/9091e500f027835330940297af70d7470ffbdf8b9875d04c6fa9aaedcc07b90f.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/9091e500f027835330940297af70d7470ffbdf8b9875d04c6fa9aaedcc07b90f.pdf",
           "originalName": "2024秋季大学院入試_応物.pdf",
           "sha256": "9091e500f027835330940297af70d7470ffbdf8b9875d04c6fa9aaedcc07b90f",
           "byteSize": 927943,
@@ -43027,7 +43027,7 @@
         {
           "label": "応用物理学（封面无年度，文件名R3.pdf）",
           "kind": "question",
-          "url": "assets/past-papers/documents/2275296cc1cce0c2387d767beb0820271c42f83c29ed70bd5fd7df52c73d09ba.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/2275296cc1cce0c2387d767beb0820271c42f83c29ed70bd5fd7df52c73d09ba.pdf",
           "originalName": "R3.pdf",
           "sha256": "2275296cc1cce0c2387d767beb0820271c42f83c29ed70bd5fd7df52c73d09ba",
           "byteSize": 791531,
@@ -43040,7 +43040,7 @@
         {
           "label": "応用物理学（封面无年度，文件名R4.pdf）",
           "kind": "question",
-          "url": "assets/past-papers/documents/e7a8c4dd747bfd8fe9d0ff8c2a16566dcdb083988f3269ec03648d4ee356d34e.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/e7a8c4dd747bfd8fe9d0ff8c2a16566dcdb083988f3269ec03648d4ee356d34e.pdf",
           "originalName": "R4.pdf",
           "sha256": "e7a8c4dd747bfd8fe9d0ff8c2a16566dcdb083988f3269ec03648d4ee356d34e",
           "byteSize": 684070,
@@ -43053,7 +43053,7 @@
         {
           "label": "応用物理学（封面无年度，文件名R5.pdf）",
           "kind": "question",
-          "url": "assets/past-papers/documents/b94754d4d530f829478ee494d6b8c76cde8f005ab6bc287b2da60c2f8e0c1ef7.pdf",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/tohoku/b94754d4d530f829478ee494d6b8c76cde8f005ab6bc287b2da60c2f8e0c1ef7.pdf",
           "originalName": "R5.pdf",
           "sha256": "b94754d4d530f829478ee494d6b8c76cde8f005ab6bc287b2da60c2f8e0c1ef7",
           "byteSize": 605592,
