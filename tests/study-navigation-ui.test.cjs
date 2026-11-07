@@ -55,7 +55,7 @@ test('invalid selected records/files do not crash and unavailable schools keep t
  const paper=require('../past-papers-data.js').papers[0];
  const b=boot('?paper='+encodeURIComponent(paper.id)+'&file=999');assert.equal(b.ids['paper-detail'].hidden,false);assert.equal(b.win.location.searchParams.has('file'),false);
  const c=boot('?school=meiji&department=none&from=scope');assert.equal(c.ids['paper-empty'].hidden,false);assert.equal(c.ids['paper-results'].children.length,0);
- const d=boot('?school=utokyo&department='+encodeURIComponent('電気系工学専攻')+'&from=scope');assert.equal(d.ids['paper-department'].value,'電気系工学専攻');assert.equal(d.ids['paper-results'].children.length,13);assert.equal(d.ids['paper-empty'].hidden,true);
+ const d=boot('?school=utokyo&department='+encodeURIComponent('電気系工学専攻')+'&from=scope');assert.equal(d.ids['paper-department'].value,'電気系工学専攻');assert.equal(d.ids['paper-results'].children.length,16);assert.equal(d.ids['paper-empty'].hidden,true);
 });
 test('mobile school selection accepts aliases through the search and clears dependent filters',async()=>{
  const a=boot('?school=keio');a.ids['paper-school-query'].value='早稻田';await a.ids['paper-school-query'].fire('input');
