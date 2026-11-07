@@ -26,6 +26,23 @@
       return raw.startsWith('https://')?url.href:url.pathname.slice(1)+url.search+url.hash;
     }catch{return null;}
   }
+  function hostedPDF(value){
+    if(typeof value!=='string'||!value.startsWith('https://'))return false;
+    try{const url=new URL(value);return pagesHosts.has(url.hostname)&&pagesPath.test(url.pathname);}catch{return false;}
+  }
+  function attachDownload(anchor,name){
+    const raw=anchor&&typeof anchor.href==='string'?anchor.href:'';
+    if(!hostedPDF(raw))return;
+    const filename=name||anchor.download||'past-paper.pdf';
+    anchor.addEventListener('click',event=>{
+      event.preventDefault();
+      fetch(raw.split('#')[0]).then(response=>{if(!response.ok)throw new Error(String(response.status));return response.blob();}).then(blob=>{
+        const objectURL=URL.createObjectURL(blob),saver=document.createElement('a');
+        saver.href=objectURL;saver.download=filename;document.body.append(saver);saver.click();saver.remove();
+        setTimeout(()=>URL.revokeObjectURL(objectURL),1500);
+      }).catch(()=>window.open(raw.split('#')[0],'_blank','noopener'));
+    });
+  }
   function validPaper(p,universities){
     return !!(p&&typeof p.id==='string'&&p.id.trim()&&universities.some(u=>u.id===p.universityId)&&['title','graduateSchool','selectionName'].every(k=>typeof p[k]==='string'&&p[k].trim())&&Number.isInteger(yearOf(p))&&yearOf(p)>=1900&&yearOf(p)<=2200&&Array.isArray(p.files)&&p.files.length&&p.files.every(f=>f&&typeof f.label==='string'&&f.label.trim()&&['question','answer','other'].includes(f.kind)&&fileURL(f))&&(p.subjects===undefined||Array.isArray(p.subjects)&&p.subjects.every(s=>typeof s==='string'))&&(p.examDates===undefined||Array.isArray(p.examDates)&&p.examDates.every(d=>typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d))));
   }
@@ -39,7 +56,7 @@
       const text=normalize([school?.name,...(school?.aliases||[]),p.title,p.graduateSchool,p.department,p.selectionName,yearOf(p),p.originalYear,...(p.examDates||[]),...(p.subjects||[])].join(' '));return terms.every(t=>text.includes(t));
     }).sort((a,b)=>yearOf(b)-yearOf(a)||a.title.localeCompare(b.title,'ja'));
   }
-  const api={normalize,fileURL,validPaper,schools,filter,yearOf,matchesDepartment};
+  const api={normalize,fileURL,hostedPDF,attachDownload,validPaper,schools,filter,yearOf,matchesDepartment};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PastPapersCore=api;
 })(typeof globalThis!=='undefined'?globalThis:this);
 

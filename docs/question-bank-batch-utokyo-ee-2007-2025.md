@@ -86,16 +86,16 @@ GitHub公布的[Pages站点上限为1 GB](https://docs.github.com/en/pages/getti
 - `node --test --test-reporter=spec tests/*.test.cjs`：361项通过，0失败；包括新增东大官方专攻、年度、日英取舍及完整题号类别回归。
 - `build-paper-practice.cjs --check`、`build-school-index.cjs --check`、`build-question-collections.cjs --check`：通过。
 - 全部145题 × 390/800/1440，435种浏览器组合：题图/公共图加载、无横溢、无PDF内嵌、无答案/语言选择入口、无pageerror、原卷URL及物理页逐题对应；2007/2008及2021–2023切题时切换真实源PDF。
-- 既有浏览器回归：`question-demo.browser.cjs`、`question-year-nav.browser.cjs`、`paper-practice.browser.cjs`均通过。额外的完整`study-room.browser.cjs`未通过，见下方既有问题。
-- `paper-practice.browser.cjs`仅修复绝对/相对PDF URL的解析，真实PDF的200及`%PDF-`断言保留，三宽度复测通过。
-- GitHub Actions运行`42360958743`未启动任何测试步骤：注释为“The job was not started because your account is locked due to a billing issue.”。这是账户侧阻塞，远端CI不能标为通过；需账户侧解除后重新运行。
-- `git diff --check`：通过。未修改过去问目录、旧整卷生成物、业务UI、学习记录或Gist同步；未提交PDF/缓存/预览/浏览器依赖。
+- 既有浏览器回归：`question-demo.browser.cjs`、`question-year-nav.browser.cjs`、`waseda-eps.browser.cjs`、`paper-practice.browser.cjs`、`study-room.browser.cjs`、`navigation.browser.cjs`、`school-hub.browser.cjs`、`study-desk.browser.cjs`、`github-sync.browser.cjs`均通过。
+- `paper-practice.browser.cjs`与`study-room.browser.cjs`用`new URL(src, origin)`解析阅读器地址：绝对的 Pages URL 保持原样，相对路径仍向本地测试服务请求。真实 PDF 的 200 与`%PDF-`断言保留。
+- GitHub Actions运行`42360958743`未启动任何测试步骤：注释为“The job was not started because your account is locked due to a billing issue.”。随后运行`42361321825`已执行并在`study-room.browser.cjs`的东大 PDF 请求处失败（404!==200）；该断言已按上一行修复。远端新运行尚未标为通过。
+- `git diff --check`：通过。未修改过去问目录条目、未把整卷 PDF 放回 main、未压题图、未提交缓存或`__pycache__`。整卷阅读器改为可下载 papers-1/papers-2 上的原卷。
 
 ## 阻塞
 
-题目内容无blocked项。部署容量与GitHub账户账单锁定为明确未解决项，见上节；不表示网站已上线。
+题目内容无blocked项。部署容量仍是合并前的未解决项，见上节；不表示网站已上线。
 
-额外整站回归发现迁仓遗留的下载问题：`tests/study-room.browser.cjs`仍将本地origin拼在完整托管URL前；在临时兼容该URL解析以继续检查后，发现`past-papers.js`创建下载按钮仍只接受`assets/past-papers/`相对路径，托管URL没有下载按钮，原有下载事件断言因此无法通过。问题位于既有整卷模块；本批不改业务UI或削弱下载断言，临时整站测试改动已撤回，留待单独处理。
+迁仓后的整卷回归已处理：测试不再把本地 origin 拼到绝对托管 URL 前。`past-papers.js`对 papers-1/papers-2 的 PDF 显示「下载PDF」，点击后取回原字节并以`originalName`保存；本地`assets/past-papers/`路径仍走原来的同域下载。下载文件名断言未放宽。main 的同一浏览器脚本也会在东大 2007 年原卷请求处得到 404；`46588da`的 Actions 作业因账单锁定没有执行到该断言。
 
 ## 入口
 
