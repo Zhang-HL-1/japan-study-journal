@@ -18,7 +18,7 @@ test('every school and graduate count agrees with the destination filters, inclu
  }
 });
 test('missing data and historical names remain explicit without invented equivalences',()=>{
- const tokyo=data.schools.find(s=>s.id==='utokyo');assert.equal(tokyo.papers,0);assert.equal(tokyo.pdfs,0);
+ const tokyo=data.schools.find(s=>s.id==='utokyo');assert.equal(tokyo.papers,13);assert.equal(tokyo.pdfs,43);assert.equal(tokyo.graduates.find(g=>g.name==='工学系研究科').papers,13);assert.equal(tokyo.graduates.find(g=>g.name==='理学系研究科').papers,0);
  const nagoya=data.schools.find(s=>s.id==='nagoya');for(const name of ['多元数理科学研究科','理学研究科','環境学研究科'])assert.equal(nagoya.graduates.find(g=>g.name===name).campuses,0);
  const historical=data.schools.flatMap(s=>s.graduates).filter(g=>!g.records&&g.papers);assert.ok(historical.length>0);
 });

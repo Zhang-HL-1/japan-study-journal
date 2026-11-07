@@ -42009,6 +42009,808 @@
         "電気電子情報通信工学専攻／電気工学コース",
         "電気電子情報通信工学専攻／情報通信工学コース"
       ]
+    },
+    {
+      "id": "utokyo-ee-2007-08-28",
+      "universityId": "utokyo",
+      "title": "2007年8月28日実施 · 数学／物理",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "大学院入試",
+      "paperYear": 2007,
+      "yearBasis": "exam",
+      "yearEvidence": "cover",
+      "examYear": 2007,
+      "examDates": [
+        "2007-08-28"
+      ],
+      "dateEvidence": "cover",
+      "subjects": [
+        "数学",
+        "物理"
+      ],
+      "files": [
+        {
+          "label": "数学（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611.pdf",
+          "originalName": "math200709j.pdf",
+          "sha256": "df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611",
+          "byteSize": 1432254,
+          "pages": 5,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis-2005-2011/official/math200709j.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "数学（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f3e6a3ed35ef247403bff560ed649e2186c971f15bd4e16b935a08e5777c6418.pdf",
+          "originalName": "math200709e.pdf",
+          "sha256": "f3e6a3ed35ef247403bff560ed649e2186c971f15bd4e16b935a08e5777c6418",
+          "byteSize": 1119494,
+          "pages": 5,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis-2005-2011/official/math200709e.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "物理（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/1b513066744a75ef9f6c9c44eced205f56cca0007c176d754858407c2a7c7870.pdf",
+          "originalName": "phys200709e.pdf",
+          "sha256": "1b513066744a75ef9f6c9c44eced205f56cca0007c176d754858407c2a7c7870",
+          "byteSize": 2800035,
+          "pages": 10,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis-2005-2011/official/phys200709e.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问原卷，PDF字节原样保存。日文数学封面印「東京大学大学院工学系研究科 電気工学・電子工学専攻 入試」「数学」「平成19年8月28日（火）9時00分～11時00分 実施」。英文数学封面印 Department of Electrical and Electronic Engineering, Graduate School of Engineering, University of Tokyo，Mathematics，9:00–11:00, Tuesday, August 28, 2007。英文物理封面为同一日 12:30–15:30，Physics。paperYear 与 examYear 用封面实施年 2007，yearBasis 为 exam，yearEvidence 为 cover，examDates 只记 2007-08-28。不写 admissionYears。文件名 math200709／phys200709 和随包说明里的「2007年9月」与封面 8月28日不一致，以封面实施日为准。日文物理卷未取得，不补。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。unofficial-solutions 不入库。未做逐题拆分。"
+    },
+    {
+      "id": "utokyo-ee-fy2012",
+      "universityId": "utokyo",
+      "title": "2012年度 · 第1–10問（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2012,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2012",
+      "examYear": 2012,
+      "files": [
+        {
+          "label": "第1–10問（日文・英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6fe9ff8e51054edf822c105b7e95a86a46693ad95786b214360bd315b86cc30d.pdf",
+          "originalName": "fy2012_s.pdf",
+          "sha256": "6fe9ff8e51054edf822c105b7e95a86a46693ad95786b214360bd315b86cc30d",
+          "byteSize": 9540970,
+          "pages": 38,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2012_s.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2012 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2012，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为第1问至第10问，每问后附 ENGLISH TRANSLATION。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2013",
+      "universityId": "utokyo",
+      "title": "2013年度 · 問題1–4・A–F（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2013,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2013",
+      "examYear": 2013,
+      "files": [
+        {
+          "label": "問題1–4・A–F（日文・英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/82528975daea8d045c9786b621a40d5dfbd3f063e560dc202c72c9d8521c560e.pdf",
+          "originalName": "fy2013_s.pdf",
+          "sha256": "82528975daea8d045c9786b621a40d5dfbd3f063e560dc202c72c9d8521c560e",
+          "byteSize": 4884469,
+          "pages": 30,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2013_s.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2013 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2013，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为問題1至問題4以及問題A至問題F，每题后附英文 Problem。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2014",
+      "universityId": "utokyo",
+      "title": "2014年度 · 問題1–4・A–F（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2014,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2014",
+      "examYear": 2014,
+      "files": [
+        {
+          "label": "問題1–4・A–F（日文・英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/268c87f286e22ba0ee1376de1202d8de4b3e778a15748da900b41a42653843d0.pdf",
+          "originalName": "fy2014_s.pdf",
+          "sha256": "268c87f286e22ba0ee1376de1202d8de4b3e778a15748da900b41a42653843d0",
+          "byteSize": 8933629,
+          "pages": 28,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2014_s.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2014 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2014，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为問題1至問題4以及問題A至問題F，每题后附英文 Problem。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2015",
+      "universityId": "utokyo",
+      "title": "2015年度 · 問題1–4・A–F（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2015,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2015",
+      "examYear": 2015,
+      "files": [
+        {
+          "label": "問題1–4・A–F（日文・英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/81678d478927553da2f53391c6aed03fcfe6df9cc1b7b78dfd929ddfed1f90dd.pdf",
+          "originalName": "fy2015_s.pdf",
+          "sha256": "81678d478927553da2f53391c6aed03fcfe6df9cc1b7b78dfd929ddfed1f90dd",
+          "byteSize": 4431862,
+          "pages": 30,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2015_s.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2015 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2015，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为問題1至問題4以及問題A至問題F，每题后附英文 Problem。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2016",
+      "universityId": "utokyo",
+      "title": "2016年度 · 問題1–4・A–F（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2016,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2016",
+      "examYear": 2016,
+      "files": [
+        {
+          "label": "問題1–4・A–F（日文・英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/01d992000f03dac3ab5fd2bb321310ff908f0122342bf8c46e99d87c9397789d.pdf",
+          "originalName": "fy2016_s.pdf",
+          "sha256": "01d992000f03dac3ab5fd2bb321310ff908f0122342bf8c46e99d87c9397789d",
+          "byteSize": 5602446,
+          "pages": 37,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2016_s.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2016 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2016，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为問題1至問題4以及問題A至問題F，每题后附英文 Problem。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2017",
+      "universityId": "utokyo",
+      "title": "2017年度 · 問題1–4・A–F（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2017,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2017",
+      "examYear": 2017,
+      "files": [
+        {
+          "label": "問題1–4・A–F（日文・英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8778ffce8a2bf35a49db903e6624019345eead0431eee6a83e280c7b92f4b0c2.pdf",
+          "originalName": "fy2017_s.pdf",
+          "sha256": "8778ffce8a2bf35a49db903e6624019345eead0431eee6a83e280c7b92f4b0c2",
+          "byteSize": 1538821,
+          "pages": 36,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2017_s.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2017 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2017，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为問題1至問題4以及問題A至問題F，每题后附英文 Problem。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2018",
+      "universityId": "utokyo",
+      "title": "2018年度 · 問題1–4・A–F（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2018,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2018",
+      "examYear": 2018,
+      "files": [
+        {
+          "label": "問題1–4・A–F（日文・英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9ad66b6ec17a74de6e39f547dd16eb6a802f3227edf441d615460cabf92ae815.pdf",
+          "originalName": "fy2018_s.pdf",
+          "sha256": "9ad66b6ec17a74de6e39f547dd16eb6a802f3227edf441d615460cabf92ae815",
+          "byteSize": 8732580,
+          "pages": 36,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2018_s.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2018 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2018，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为問題1至問題4以及問題A至問題F，每题后附英文 Problem。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2019",
+      "universityId": "utokyo",
+      "title": "2019年度 · 問題1–4・A–F（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2019,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2019",
+      "examYear": 2019,
+      "files": [
+        {
+          "label": "問題1–4・A–F（日文・英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/30a3addecd3bec5dedfcdde559840dee77725035491fb3c9b6dc3eee512b7356.pdf",
+          "originalName": "fy2019_s.pdf",
+          "sha256": "30a3addecd3bec5dedfcdde559840dee77725035491fb3c9b6dc3eee512b7356",
+          "byteSize": 2231983,
+          "pages": 34,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2019_s.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2019 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2019，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。本册从第1页打开。日文为問題1至問題4以及問題A至問題F，每题后附英文 Problem。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2021",
+      "universityId": "utokyo",
+      "title": "2021年度 · Problem 1–6（英文）／参考和訳",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2021,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2021",
+      "examYear": 2021,
+      "files": [
+        {
+          "label": "Problem 1（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6236b840c4c30bb37522073619542187e2ebbd0b8ca8866649e5b2e29bf4f06c.pdf",
+          "originalName": "fy2021_s_en_1.pdf",
+          "sha256": "6236b840c4c30bb37522073619542187e2ebbd0b8ca8866649e5b2e29bf4f06c",
+          "byteSize": 131771,
+          "pages": 3,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 2（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/b057780323fd49d3ed7de938e17463acd72d3df4794bc06668b770b0d0055b5d.pdf",
+          "originalName": "fy2021_s_en_2.pdf",
+          "sha256": "b057780323fd49d3ed7de938e17463acd72d3df4794bc06668b770b0d0055b5d",
+          "byteSize": 253878,
+          "pages": 3,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_2.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 3（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f8738acb914633b856aab0d4532181ee3f309e700b0d284cea23b0bfaf6014f3.pdf",
+          "originalName": "fy2021_s_en_3.pdf",
+          "sha256": "f8738acb914633b856aab0d4532181ee3f309e700b0d284cea23b0bfaf6014f3",
+          "byteSize": 227170,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_3.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 4（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419.pdf",
+          "originalName": "fy2021_s_en_4.pdf",
+          "sha256": "8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419",
+          "byteSize": 238702,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_4.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 5（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/5ba8b79a68e348ca66f2b3ed1c925d0ecffa5636bbac969db14d4a8050b8161a.pdf",
+          "originalName": "fy2021_s_en_5.pdf",
+          "sha256": "5ba8b79a68e348ca66f2b3ed1c925d0ecffa5636bbac969db14d4a8050b8161a",
+          "byteSize": 111397,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_5.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 6（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/bcd2862e37f43adf80c503093fae7b1adb1d572b765bfd741f3be7087deb0c6a.pdf",
+          "originalName": "fy2021_s_en_6.pdf",
+          "sha256": "bcd2862e37f43adf80c503093fae7b1adb1d572b765bfd741f3be7087deb0c6a",
+          "byteSize": 191838,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_6.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "参考和訳（英文を正規とする）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/9a0c05274df15d5b1f9a8ae3ec60cab810cc5b3009849215e66713c0853b5d98.pdf",
+          "originalName": "fy2021_s_ja.pdf",
+          "sha256": "9a0c05274df15d5b1f9a8ae3ec60cab810cc5b3009849215e66713c0853b5d98",
+          "byteSize": 418109,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_ja.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2021 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2021，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。英文 Problem 1至 Problem 6 分页为正规问题，各从该 PDF 第1页打开。和文 PDF 页眉为 Japanese translations（参考和訳），并印「英文版を正規とする。本資料は受験者のための参考資料」。它不是完整日文试题，也不是解答。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2022",
+      "universityId": "utokyo",
+      "title": "2022年度 · 問題1–6（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2022,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2022",
+      "examYear": 2022,
+      "files": [
+        {
+          "label": "問題1（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/715de229df55f0dcef9e7a07f82b2571a1abe530c9da0da22bd732b8f3f26a88.pdf",
+          "originalName": "fy2022_s_ja_1.pdf",
+          "sha256": "715de229df55f0dcef9e7a07f82b2571a1abe530c9da0da22bd732b8f3f26a88",
+          "byteSize": 801842,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 1（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/0f35ea13f292ead20dd3e9902e10685e7c4ed532ca6eb3c0f0b9b9322c6ae53d.pdf",
+          "originalName": "fy2022_s_en_1.pdf",
+          "sha256": "0f35ea13f292ead20dd3e9902e10685e7c4ed532ca6eb3c0f0b9b9322c6ae53d",
+          "byteSize": 721088,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題2（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be.pdf",
+          "originalName": "fy2022_s_ja_2.pdf",
+          "sha256": "2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be",
+          "byteSize": 788377,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_2.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 2（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e63dd0d38cd842e86f25bbf4046ebdb8352d3e09efc756554e435d0a8d288b93.pdf",
+          "originalName": "fy2022_s_en_2.pdf",
+          "sha256": "e63dd0d38cd842e86f25bbf4046ebdb8352d3e09efc756554e435d0a8d288b93",
+          "byteSize": 716483,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_2.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題3（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/293b0a1547494237746e51290181b2600c1b84d7c2ec8eddcdbdaed087d0b575.pdf",
+          "originalName": "fy2022_s_ja_3.pdf",
+          "sha256": "293b0a1547494237746e51290181b2600c1b84d7c2ec8eddcdbdaed087d0b575",
+          "byteSize": 697812,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_3.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 3（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c8f420faa531650f14071aeecfc01450d3e3c57f76df89f04fd9a048c619d8aa.pdf",
+          "originalName": "fy2022_s_en_3.pdf",
+          "sha256": "c8f420faa531650f14071aeecfc01450d3e3c57f76df89f04fd9a048c619d8aa",
+          "byteSize": 590567,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_3.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題4（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871.pdf",
+          "originalName": "fy2022_s_ja_4.pdf",
+          "sha256": "8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871",
+          "byteSize": 699066,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_4.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 4（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/54e53bb168f4ed145db5fcae67d657ee081a32b5540319d421f8b02d7d12fc2e.pdf",
+          "originalName": "fy2022_s_en_4.pdf",
+          "sha256": "54e53bb168f4ed145db5fcae67d657ee081a32b5540319d421f8b02d7d12fc2e",
+          "byteSize": 634403,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_4.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題5（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3ac62a2a2280b3c38a4d37c3eea387b1146c21228f9c30488032f5f51881f348.pdf",
+          "originalName": "fy2022_s_ja_5.pdf",
+          "sha256": "3ac62a2a2280b3c38a4d37c3eea387b1146c21228f9c30488032f5f51881f348",
+          "byteSize": 769929,
+          "pages": 3,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_5.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 5（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/2fbfc1f6436e747e6674a574704b1a0283a1850f017aa8b4c56bd83fa2c56e86.pdf",
+          "originalName": "fy2022_s_en_5.pdf",
+          "sha256": "2fbfc1f6436e747e6674a574704b1a0283a1850f017aa8b4c56bd83fa2c56e86",
+          "byteSize": 711063,
+          "pages": 3,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_5.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題6（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/040c757b4171e015f76d66f586e7209c467e7f68f5f3733bf1315e0463fcb324.pdf",
+          "originalName": "fy2022_s_ja_6.pdf",
+          "sha256": "040c757b4171e015f76d66f586e7209c467e7f68f5f3733bf1315e0463fcb324",
+          "byteSize": 695751,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_6.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 6（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/62c3ae831678bd0dde0a9f4c11f81b4ac4d4aa733bfabf0c18fceb929cc6030e.pdf",
+          "originalName": "fy2022_s_en_6.pdf",
+          "sha256": "62c3ae831678bd0dde0a9f4c11f81b4ac4d4aa733bfabf0c18fceb929cc6030e",
+          "byteSize": 610531,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_6.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2022 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2022，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。問題1至問題6的日文与英文各自成册，同一场次合成一组。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2023",
+      "universityId": "utokyo",
+      "title": "2023年度 · 問題1–6（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2023,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2023",
+      "examYear": 2023,
+      "files": [
+        {
+          "label": "問題1（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/46820620588ac72b2bac9350a4790f6de18477dda7bc162fd094ab9e5913d7f3.pdf",
+          "originalName": "fy2023_s_ja_1.pdf",
+          "sha256": "46820620588ac72b2bac9350a4790f6de18477dda7bc162fd094ab9e5913d7f3",
+          "byteSize": 619603,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 1（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/f7240425d27ef32175d0b9f653502e86aff655054f6a953a737cb80eca981103.pdf",
+          "originalName": "fy2023_s_en_1.pdf",
+          "sha256": "f7240425d27ef32175d0b9f653502e86aff655054f6a953a737cb80eca981103",
+          "byteSize": 623111,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_1.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題2（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/6aa93a5084bab6fcd8a414b2622f0af8e15c23f897731303a70d2db56a672431.pdf",
+          "originalName": "fy2023_s_ja_2.pdf",
+          "sha256": "6aa93a5084bab6fcd8a414b2622f0af8e15c23f897731303a70d2db56a672431",
+          "byteSize": 702194,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_2.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 2（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/048f19d0df7958032997fddc50a081e6791df3a9d9af25ae72e00cbbc2c7c023.pdf",
+          "originalName": "fy2023_s_en_2.pdf",
+          "sha256": "048f19d0df7958032997fddc50a081e6791df3a9d9af25ae72e00cbbc2c7c023",
+          "byteSize": 660606,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_2.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題3（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/c001a001355567be4e7b6d62313c6bc9151cd73aa8e265454fb8bdd8b62f94e8.pdf",
+          "originalName": "fy2023_s_ja_3.pdf",
+          "sha256": "c001a001355567be4e7b6d62313c6bc9151cd73aa8e265454fb8bdd8b62f94e8",
+          "byteSize": 575042,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_3.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 3（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e82a31958afcd00fd79defa4bf458a0b5d52487b205216f43fe5316625d80f0a.pdf",
+          "originalName": "fy2023_s_en_3.pdf",
+          "sha256": "e82a31958afcd00fd79defa4bf458a0b5d52487b205216f43fe5316625d80f0a",
+          "byteSize": 548247,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_3.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題4（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/203a9224a90d1db5ff193c35deba6f1fc70e248d827f55351a6a52800887e19f.pdf",
+          "originalName": "fy2023_s_ja_4.pdf",
+          "sha256": "203a9224a90d1db5ff193c35deba6f1fc70e248d827f55351a6a52800887e19f",
+          "byteSize": 617676,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_4.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 4（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e6c16adb468632f76dc0998366a8cedf4da7634dc9acc0fe265773aa064b7e70.pdf",
+          "originalName": "fy2023_s_en_4.pdf",
+          "sha256": "e6c16adb468632f76dc0998366a8cedf4da7634dc9acc0fe265773aa064b7e70",
+          "byteSize": 591623,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_4.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題5（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/3821091fe7f9e28052c0e7adef22412bd0fa805d3a98351ba7efa3a7dc1f555e.pdf",
+          "originalName": "fy2023_s_ja_5.pdf",
+          "sha256": "3821091fe7f9e28052c0e7adef22412bd0fa805d3a98351ba7efa3a7dc1f555e",
+          "byteSize": 663211,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_5.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 5（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/d77395ef24e742ba7299051a0c4c41635b2c0919e59af07b06cb6a32f5c11269.pdf",
+          "originalName": "fy2023_s_en_5.pdf",
+          "sha256": "d77395ef24e742ba7299051a0c4c41635b2c0919e59af07b06cb6a32f5c11269",
+          "byteSize": 623260,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_5.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "問題6（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/e0fe417ac29740415fcbd59654897b37834e18c3b9b118138d42b76ff432b710.pdf",
+          "originalName": "fy2023_s_ja_6.pdf",
+          "sha256": "e0fe417ac29740415fcbd59654897b37834e18c3b9b118138d42b76ff432b710",
+          "byteSize": 586673,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_6.pdf"
+          ],
+          "startPage": 1
+        },
+        {
+          "label": "Problem 6（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/8ed5cfcab6e2c62ecdbe82c7c5777a0f94fbacef04e63b23f2055e99e468aab2.pdf",
+          "originalName": "fy2023_s_en_6.pdf",
+          "sha256": "8ed5cfcab6e2c62ecdbe82c7c5777a0f94fbacef04e63b23f2055e99e468aab2",
+          "byteSize": 549768,
+          "pages": 2,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_6.pdf"
+          ],
+          "startPage": 1
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2023 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2023，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。問題1至問題6的日文与英文各自成册，同一场次合成一组。英文分册页眉印有合册页码（Problem 1 印 14），各文件仍从自己的 PDF 第1页打开，不把合册页码当成 startPage。未做逐题拆分。fy2020 没有对应文件，不补。"
+    },
+    {
+      "id": "utokyo-ee-fy2024",
+      "universityId": "utokyo",
+      "title": "2024年度 · 問題1–6（日文・英文）",
+      "graduateSchool": "工学系研究科",
+      "department": "電気系工学専攻",
+      "selectionName": "過去問サンプル",
+      "paperYear": 2024,
+      "yearBasis": "exam",
+      "yearEvidence": "source-directory",
+      "originalYear": "fy2024",
+      "examYear": 2024,
+      "files": [
+        {
+          "label": "問題1–6（日文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351.pdf",
+          "originalName": "fy2024_s.pdf",
+          "sha256": "ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351",
+          "byteSize": 2393191,
+          "pages": 28,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2024_s.pdf"
+          ],
+          "startPage": 1,
+          "endPage": 14
+        },
+        {
+          "label": "Problem 1–6（英文）",
+          "kind": "question",
+          "url": "assets/past-papers/documents/ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351.pdf",
+          "originalName": "fy2024_s.pdf",
+          "sha256": "ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351",
+          "byteSize": 2393191,
+          "pages": 28,
+          "sourcePaths": [
+            "东京大学/工学系研究科/電気系工学専攻/eeis/fy2024_s.pdf"
+          ],
+          "startPage": 15,
+          "endPage": 28
+        }
+      ],
+      "sourceBatch": "utokyo-ee-archive-20261107",
+      "sourceNote": "用户提供的东京大学电气系过去问，PDF字节原样保存。open_inshi 文件名 fy2024 表示考试实施的会计年度，不是入学年度。卷面未印实施日、未印専攻名，不编 examDates，不写 admissionYears。paperYear 与 examYear 用该实施会计年度 2024，yearBasis 为 exam，yearEvidence 为 source-directory。页上的 Sample 水印，或红字「本サンプルは2020年度以前の問題に基づいたものであり、問題形式、分量、出題範囲、難易度において現在のものと異なります。」，是后来加的样本说明，不改写试题，也不当成考试年度。来源目录名为 eeis。2007年封面旧称「電気工学・電子工学専攻」／Department of Electrical and Electronic Engineering 只写在本说明。目录 department 固定为「電気系工学専攻」，不另建旧专攻或 EEIS 筛选。同一 PDF：日文問題1至問題6在第1–14页，英文 Problem 1至 Problem 6在第15–28页。两个入口共用原件，不拆文件。未做逐题拆分。fy2020 没有对应文件，不补。"
     }
   ],
   "schoolNotes": {
@@ -42144,6 +42946,9 @@
     },
     "tus": {
       "text": "本校117组／219个唯一PDF、1187页。2026-10-11已上线的61组／121个唯一PDF、643页保持不变。2026-10-18全量补录原先排除的数学、物理、建筑、火灾、经营、药学、生命、化学生物及其他工程范围外专攻，新增56组、98个唯一PDF、544页。yearBasis一律academic。封面印有「YYYY年度」的，paperYear用该年度，yearEvidence=cover；药科学2023、2024封面未印年度，按23东理／24东理目录年度，yearEvidence=source-directory，实施日另列。夏期／冬期、一般／留学生分不同组；国际火災科学専攻夏期封面为一般・外国人留学生共用，不拆组。同专攻同年度多科目合成一组。问题订正页整册保留，从第2页封面打开。学部编入4份、社会人特别选拔2份、小論文16份不建入口、不入库。不声明其他年度或全校齐全。"
+    },
+    "utokyo": {
+      "text": "本校13组／43个唯一PDF、383页，无解答。全部归入工学系研究科電気系工学専攻，目录 department 只有这一专攻。2007年8月28日实施的数学日文、数学英文、物理英文以封面日期为准；文件名200709和随包说明里的「2007年9月」与封面8月28日不一致。封面旧称是電気工学・電子工学専攻／Department of Electrical and Electronic Engineering，只写在原卷说明里，不另建筛选。日文物理未取得。2012–2019、2021–2024按 open_inshi 的 fyYYYY（考试实施会计年度）收录，卷面未印实施日，yearBasis 为 exam，yearEvidence 为 source-directory，不写 admissionYears，也不编 examDates。2012年为第1–10问日英对译合册；2013–2019年为問題1–4与問題A–F日英对译合册。2021年英文 Problem 1–6 为正规问题，和文是参考和訳，不是完整日文试题，也不是解答。2022、2023年为問題1–6的日文与英文分册。2024年日文在第1–14页、英文在第15–28页。页上 Sample 或「2020年度以前」红字是样本说明，不改试题。fy2020 没有文件，不补。unofficial-solutions 四份民间解答不入库。未做逐题拆分。不声明其他专攻或缺失年份已经补齐。"
     }
   }
 };if(typeof module!=='undefined'&&module.exports)module.exports=data;else root.PAST_PAPERS_DATA=data;})(typeof globalThis!=='undefined'?globalThis:this);
