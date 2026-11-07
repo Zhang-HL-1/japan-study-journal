@@ -86,12 +86,16 @@ GitHub公布的[Pages站点上限为1 GB](https://docs.github.com/en/pages/getti
 - `node --test --test-reporter=spec tests/*.test.cjs`：361项通过，0失败；包括新增东大官方专攻、年度、日英取舍及完整题号类别回归。
 - `build-paper-practice.cjs --check`、`build-school-index.cjs --check`、`build-question-collections.cjs --check`：通过。
 - 全部145题 × 390/800/1440，435种浏览器组合：题图/公共图加载、无横溢、无PDF内嵌、无答案/语言选择入口、无pageerror、原卷URL及物理页逐题对应；2007/2008及2021–2023切题时切换真实源PDF。
-- 既有浏览器回归：待最终日志登记。
+- 既有浏览器回归：`question-demo.browser.cjs`、`question-year-nav.browser.cjs`、`paper-practice.browser.cjs`均通过。额外的完整`study-room.browser.cjs`未通过，见下方既有问题。
+- `paper-practice.browser.cjs`仅修复绝对/相对PDF URL的解析，真实PDF的200及`%PDF-`断言保留，三宽度复测通过。
+- GitHub Actions运行`42360958743`未启动任何测试步骤：注释为“The job was not started because your account is locked due to a billing issue.”。这是账户侧阻塞，远端CI不能标为通过；需账户侧解除后重新运行。
 - `git diff --check`：通过。未修改过去问目录、旧整卷生成物、业务UI、学习记录或Gist同步；未提交PDF/缓存/预览/浏览器依赖。
 
 ## 阻塞
 
-题目内容无blocked项。部署容量为明确未解决项，见上节；不表示网站已上线。
+题目内容无blocked项。部署容量与GitHub账户账单锁定为明确未解决项，见上节；不表示网站已上线。
+
+额外整站回归发现迁仓遗留的下载问题：`tests/study-room.browser.cjs`仍将本地origin拼在完整托管URL前；在临时兼容该URL解析以继续检查后，发现`past-papers.js`创建下载按钮仍只接受`assets/past-papers/`相对路径，托管URL没有下载按钮，原有下载事件断言因此无法通过。问题位于既有整卷模块；本批不改业务UI或削弱下载断言，临时整站测试改动已撤回，留待单独处理。
 
 ## 入口
 
