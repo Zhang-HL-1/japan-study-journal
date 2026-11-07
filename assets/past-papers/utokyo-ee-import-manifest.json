@@ -1,0 +1,608 @@
+{
+  "importedAt": "2026-11-07",
+  "universityId": "utokyo",
+  "graduateSchool": "工学系研究科",
+  "department": "電気系工学専攻",
+  "sourceFolder": "用户提供的 utokyo-eeis 官方 PDF（open_inshi eeis）",
+  "sourceBatch": "utokyo-ee-archive-20261107",
+  "inventoryPDFs": 43,
+  "sourceFiles": 43,
+  "uniquePDFs": 43,
+  "duplicateByteCopies": 0,
+  "groups": 13,
+  "questionPDFs": 43,
+  "answerPDFs": 0,
+  "totalPages": 383,
+  "yearBasis": "exam",
+  "yearGap": [
+    "fy2020"
+  ],
+  "skippedAnswers": [
+    {
+      "originalName": "h17.pdf",
+      "sourcePath": "eeis-2005-2011/unofficial-solutions/h17.pdf",
+      "sha256": "2f71d19b0fd44ff60af3d76b262d8d950d41c8d46630c57e70c9d7ea49b898ad",
+      "byteSize": 176820,
+      "reason": "民间解答，不入库，不建入口"
+    },
+    {
+      "originalName": "h18.pdf",
+      "sourcePath": "eeis-2005-2011/unofficial-solutions/h18.pdf",
+      "sha256": "ce950553a76ffea744b9e3784fd45c0b24e31ab42aa5f95269e630486f7ad1df",
+      "byteSize": 167087,
+      "reason": "民间解答，不入库，不建入口"
+    },
+    {
+      "originalName": "h19.pdf",
+      "sourcePath": "eeis-2005-2011/unofficial-solutions/h19.pdf",
+      "sha256": "057e7a4434a7d89ebfb5648684c7dc8102cb2a3415b14b9442ccf489e9634b98",
+      "byteSize": 170584,
+      "reason": "民间解答，不入库，不建入口"
+    },
+    {
+      "originalName": "h20.pdf",
+      "sourcePath": "eeis-2005-2011/unofficial-solutions/h20.pdf",
+      "sha256": "a208a94b284053ff888e78902095c9bd80e273039137ec50cdddc88d23064062",
+      "byteSize": 204275,
+      "reason": "民间解答，不入库，不建入口"
+    }
+  ],
+  "notDownloaded": [
+    {
+      "name": "official/phys200709j.pdf",
+      "reason": "sources.json 下载失败，包内无此文件，不补"
+    },
+    {
+      "name": "official/math200508j.pdf",
+      "reason": "sources.json 下载超时，包内无此文件，不补"
+    },
+    {
+      "name": "official/math200508e.pdf",
+      "reason": "sources.json 为 404，包内无此文件，不补"
+    },
+    {
+      "name": "official/phys200508j.pdf",
+      "reason": "sources.json 下载超时，包内无此文件，不补"
+    },
+    {
+      "name": "official/phys200508e.pdf",
+      "reason": "sources.json 下载失败，包内无此文件，不补"
+    },
+    {
+      "name": "official/math200608j.pdf",
+      "reason": "sources.json 为 404，包内无此文件，不补"
+    },
+    {
+      "name": "official/math200608e.pdf",
+      "reason": "sources.json 为 404，包内无此文件，不补"
+    },
+    {
+      "name": "official/phys200608j.pdf",
+      "reason": "sources.json 下载超时，包内无此文件，不补"
+    },
+    {
+      "name": "official/phys200608e.pdf",
+      "reason": "sources.json 为 404，包内无此文件，不补"
+    }
+  ],
+  "sharedWithExistingSchools": [],
+  "coverageNote": "东京大学工学系研究科電気系工学専攻 13组／43个唯一PDF、383页，无解答。2007年8月28日数学日文、数学英文、物理英文以封面为准；日文物理未取得。2012–2019、2021–2024 按 open_inshi fyYYYY（实施会计年度）收录，卷面未印实施日。fy2020 不存在。unofficial-solutions 四份民间解答不入库。目录 department 全部为電気系工学専攻。",
+  "files": [
+    {
+      "path": "assets/past-papers/documents/df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611.pdf",
+      "originalName": "math200709j.pdf",
+      "sha256": "df990df452090a90596cf391d6559a2bc9001a10d92acf486abff77dd74f9611",
+      "byteSize": 1432254,
+      "pages": 5,
+      "kind": "question",
+      "groupId": "utokyo-ee-2007-08-28",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis-2005-2011/official/math200709j.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/f3e6a3ed35ef247403bff560ed649e2186c971f15bd4e16b935a08e5777c6418.pdf",
+      "originalName": "math200709e.pdf",
+      "sha256": "f3e6a3ed35ef247403bff560ed649e2186c971f15bd4e16b935a08e5777c6418",
+      "byteSize": 1119494,
+      "pages": 5,
+      "kind": "question",
+      "groupId": "utokyo-ee-2007-08-28",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis-2005-2011/official/math200709e.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/1b513066744a75ef9f6c9c44eced205f56cca0007c176d754858407c2a7c7870.pdf",
+      "originalName": "phys200709e.pdf",
+      "sha256": "1b513066744a75ef9f6c9c44eced205f56cca0007c176d754858407c2a7c7870",
+      "byteSize": 2800035,
+      "pages": 10,
+      "kind": "question",
+      "groupId": "utokyo-ee-2007-08-28",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis-2005-2011/official/phys200709e.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/6fe9ff8e51054edf822c105b7e95a86a46693ad95786b214360bd315b86cc30d.pdf",
+      "originalName": "fy2012_s.pdf",
+      "sha256": "6fe9ff8e51054edf822c105b7e95a86a46693ad95786b214360bd315b86cc30d",
+      "byteSize": 9540970,
+      "pages": 38,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2012",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2012_s.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/82528975daea8d045c9786b621a40d5dfbd3f063e560dc202c72c9d8521c560e.pdf",
+      "originalName": "fy2013_s.pdf",
+      "sha256": "82528975daea8d045c9786b621a40d5dfbd3f063e560dc202c72c9d8521c560e",
+      "byteSize": 4884469,
+      "pages": 30,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2013",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2013_s.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/268c87f286e22ba0ee1376de1202d8de4b3e778a15748da900b41a42653843d0.pdf",
+      "originalName": "fy2014_s.pdf",
+      "sha256": "268c87f286e22ba0ee1376de1202d8de4b3e778a15748da900b41a42653843d0",
+      "byteSize": 8933629,
+      "pages": 28,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2014",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2014_s.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/81678d478927553da2f53391c6aed03fcfe6df9cc1b7b78dfd929ddfed1f90dd.pdf",
+      "originalName": "fy2015_s.pdf",
+      "sha256": "81678d478927553da2f53391c6aed03fcfe6df9cc1b7b78dfd929ddfed1f90dd",
+      "byteSize": 4431862,
+      "pages": 30,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2015",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2015_s.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/01d992000f03dac3ab5fd2bb321310ff908f0122342bf8c46e99d87c9397789d.pdf",
+      "originalName": "fy2016_s.pdf",
+      "sha256": "01d992000f03dac3ab5fd2bb321310ff908f0122342bf8c46e99d87c9397789d",
+      "byteSize": 5602446,
+      "pages": 37,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2016",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2016_s.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/8778ffce8a2bf35a49db903e6624019345eead0431eee6a83e280c7b92f4b0c2.pdf",
+      "originalName": "fy2017_s.pdf",
+      "sha256": "8778ffce8a2bf35a49db903e6624019345eead0431eee6a83e280c7b92f4b0c2",
+      "byteSize": 1538821,
+      "pages": 36,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2017",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2017_s.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/9ad66b6ec17a74de6e39f547dd16eb6a802f3227edf441d615460cabf92ae815.pdf",
+      "originalName": "fy2018_s.pdf",
+      "sha256": "9ad66b6ec17a74de6e39f547dd16eb6a802f3227edf441d615460cabf92ae815",
+      "byteSize": 8732580,
+      "pages": 36,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2018",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2018_s.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/30a3addecd3bec5dedfcdde559840dee77725035491fb3c9b6dc3eee512b7356.pdf",
+      "originalName": "fy2019_s.pdf",
+      "sha256": "30a3addecd3bec5dedfcdde559840dee77725035491fb3c9b6dc3eee512b7356",
+      "byteSize": 2231983,
+      "pages": 34,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2019",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2019_s.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/6236b840c4c30bb37522073619542187e2ebbd0b8ca8866649e5b2e29bf4f06c.pdf",
+      "originalName": "fy2021_s_en_1.pdf",
+      "sha256": "6236b840c4c30bb37522073619542187e2ebbd0b8ca8866649e5b2e29bf4f06c",
+      "byteSize": 131771,
+      "pages": 3,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2021",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_1.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/b057780323fd49d3ed7de938e17463acd72d3df4794bc06668b770b0d0055b5d.pdf",
+      "originalName": "fy2021_s_en_2.pdf",
+      "sha256": "b057780323fd49d3ed7de938e17463acd72d3df4794bc06668b770b0d0055b5d",
+      "byteSize": 253878,
+      "pages": 3,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2021",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_2.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/f8738acb914633b856aab0d4532181ee3f309e700b0d284cea23b0bfaf6014f3.pdf",
+      "originalName": "fy2021_s_en_3.pdf",
+      "sha256": "f8738acb914633b856aab0d4532181ee3f309e700b0d284cea23b0bfaf6014f3",
+      "byteSize": 227170,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2021",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_3.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419.pdf",
+      "originalName": "fy2021_s_en_4.pdf",
+      "sha256": "8730d3c91fce239df507c2515f060c4083fdbe9658775401c93179d658057419",
+      "byteSize": 238702,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2021",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_4.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/5ba8b79a68e348ca66f2b3ed1c925d0ecffa5636bbac969db14d4a8050b8161a.pdf",
+      "originalName": "fy2021_s_en_5.pdf",
+      "sha256": "5ba8b79a68e348ca66f2b3ed1c925d0ecffa5636bbac969db14d4a8050b8161a",
+      "byteSize": 111397,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2021",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_5.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/bcd2862e37f43adf80c503093fae7b1adb1d572b765bfd741f3be7087deb0c6a.pdf",
+      "originalName": "fy2021_s_en_6.pdf",
+      "sha256": "bcd2862e37f43adf80c503093fae7b1adb1d572b765bfd741f3be7087deb0c6a",
+      "byteSize": 191838,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2021",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_en_6.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/9a0c05274df15d5b1f9a8ae3ec60cab810cc5b3009849215e66713c0853b5d98.pdf",
+      "originalName": "fy2021_s_ja.pdf",
+      "sha256": "9a0c05274df15d5b1f9a8ae3ec60cab810cc5b3009849215e66713c0853b5d98",
+      "byteSize": 418109,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2021",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2021_s_ja.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/715de229df55f0dcef9e7a07f82b2571a1abe530c9da0da22bd732b8f3f26a88.pdf",
+      "originalName": "fy2022_s_ja_1.pdf",
+      "sha256": "715de229df55f0dcef9e7a07f82b2571a1abe530c9da0da22bd732b8f3f26a88",
+      "byteSize": 801842,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_1.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/0f35ea13f292ead20dd3e9902e10685e7c4ed532ca6eb3c0f0b9b9322c6ae53d.pdf",
+      "originalName": "fy2022_s_en_1.pdf",
+      "sha256": "0f35ea13f292ead20dd3e9902e10685e7c4ed532ca6eb3c0f0b9b9322c6ae53d",
+      "byteSize": 721088,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_1.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be.pdf",
+      "originalName": "fy2022_s_ja_2.pdf",
+      "sha256": "2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be",
+      "byteSize": 788377,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_2.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/e63dd0d38cd842e86f25bbf4046ebdb8352d3e09efc756554e435d0a8d288b93.pdf",
+      "originalName": "fy2022_s_en_2.pdf",
+      "sha256": "e63dd0d38cd842e86f25bbf4046ebdb8352d3e09efc756554e435d0a8d288b93",
+      "byteSize": 716483,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_2.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/293b0a1547494237746e51290181b2600c1b84d7c2ec8eddcdbdaed087d0b575.pdf",
+      "originalName": "fy2022_s_ja_3.pdf",
+      "sha256": "293b0a1547494237746e51290181b2600c1b84d7c2ec8eddcdbdaed087d0b575",
+      "byteSize": 697812,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_3.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/c8f420faa531650f14071aeecfc01450d3e3c57f76df89f04fd9a048c619d8aa.pdf",
+      "originalName": "fy2022_s_en_3.pdf",
+      "sha256": "c8f420faa531650f14071aeecfc01450d3e3c57f76df89f04fd9a048c619d8aa",
+      "byteSize": 590567,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_3.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871.pdf",
+      "originalName": "fy2022_s_ja_4.pdf",
+      "sha256": "8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871",
+      "byteSize": 699066,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_4.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/54e53bb168f4ed145db5fcae67d657ee081a32b5540319d421f8b02d7d12fc2e.pdf",
+      "originalName": "fy2022_s_en_4.pdf",
+      "sha256": "54e53bb168f4ed145db5fcae67d657ee081a32b5540319d421f8b02d7d12fc2e",
+      "byteSize": 634403,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_4.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/3ac62a2a2280b3c38a4d37c3eea387b1146c21228f9c30488032f5f51881f348.pdf",
+      "originalName": "fy2022_s_ja_5.pdf",
+      "sha256": "3ac62a2a2280b3c38a4d37c3eea387b1146c21228f9c30488032f5f51881f348",
+      "byteSize": 769929,
+      "pages": 3,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_5.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/2fbfc1f6436e747e6674a574704b1a0283a1850f017aa8b4c56bd83fa2c56e86.pdf",
+      "originalName": "fy2022_s_en_5.pdf",
+      "sha256": "2fbfc1f6436e747e6674a574704b1a0283a1850f017aa8b4c56bd83fa2c56e86",
+      "byteSize": 711063,
+      "pages": 3,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_5.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/040c757b4171e015f76d66f586e7209c467e7f68f5f3733bf1315e0463fcb324.pdf",
+      "originalName": "fy2022_s_ja_6.pdf",
+      "sha256": "040c757b4171e015f76d66f586e7209c467e7f68f5f3733bf1315e0463fcb324",
+      "byteSize": 695751,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_ja_6.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/62c3ae831678bd0dde0a9f4c11f81b4ac4d4aa733bfabf0c18fceb929cc6030e.pdf",
+      "originalName": "fy2022_s_en_6.pdf",
+      "sha256": "62c3ae831678bd0dde0a9f4c11f81b4ac4d4aa733bfabf0c18fceb929cc6030e",
+      "byteSize": 610531,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2022",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2022_s_en_6.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/46820620588ac72b2bac9350a4790f6de18477dda7bc162fd094ab9e5913d7f3.pdf",
+      "originalName": "fy2023_s_ja_1.pdf",
+      "sha256": "46820620588ac72b2bac9350a4790f6de18477dda7bc162fd094ab9e5913d7f3",
+      "byteSize": 619603,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_1.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/f7240425d27ef32175d0b9f653502e86aff655054f6a953a737cb80eca981103.pdf",
+      "originalName": "fy2023_s_en_1.pdf",
+      "sha256": "f7240425d27ef32175d0b9f653502e86aff655054f6a953a737cb80eca981103",
+      "byteSize": 623111,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_1.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/6aa93a5084bab6fcd8a414b2622f0af8e15c23f897731303a70d2db56a672431.pdf",
+      "originalName": "fy2023_s_ja_2.pdf",
+      "sha256": "6aa93a5084bab6fcd8a414b2622f0af8e15c23f897731303a70d2db56a672431",
+      "byteSize": 702194,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_2.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/048f19d0df7958032997fddc50a081e6791df3a9d9af25ae72e00cbbc2c7c023.pdf",
+      "originalName": "fy2023_s_en_2.pdf",
+      "sha256": "048f19d0df7958032997fddc50a081e6791df3a9d9af25ae72e00cbbc2c7c023",
+      "byteSize": 660606,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_2.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/c001a001355567be4e7b6d62313c6bc9151cd73aa8e265454fb8bdd8b62f94e8.pdf",
+      "originalName": "fy2023_s_ja_3.pdf",
+      "sha256": "c001a001355567be4e7b6d62313c6bc9151cd73aa8e265454fb8bdd8b62f94e8",
+      "byteSize": 575042,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_3.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/e82a31958afcd00fd79defa4bf458a0b5d52487b205216f43fe5316625d80f0a.pdf",
+      "originalName": "fy2023_s_en_3.pdf",
+      "sha256": "e82a31958afcd00fd79defa4bf458a0b5d52487b205216f43fe5316625d80f0a",
+      "byteSize": 548247,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_3.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/203a9224a90d1db5ff193c35deba6f1fc70e248d827f55351a6a52800887e19f.pdf",
+      "originalName": "fy2023_s_ja_4.pdf",
+      "sha256": "203a9224a90d1db5ff193c35deba6f1fc70e248d827f55351a6a52800887e19f",
+      "byteSize": 617676,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_4.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/e6c16adb468632f76dc0998366a8cedf4da7634dc9acc0fe265773aa064b7e70.pdf",
+      "originalName": "fy2023_s_en_4.pdf",
+      "sha256": "e6c16adb468632f76dc0998366a8cedf4da7634dc9acc0fe265773aa064b7e70",
+      "byteSize": 591623,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_4.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/3821091fe7f9e28052c0e7adef22412bd0fa805d3a98351ba7efa3a7dc1f555e.pdf",
+      "originalName": "fy2023_s_ja_5.pdf",
+      "sha256": "3821091fe7f9e28052c0e7adef22412bd0fa805d3a98351ba7efa3a7dc1f555e",
+      "byteSize": 663211,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_5.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/d77395ef24e742ba7299051a0c4c41635b2c0919e59af07b06cb6a32f5c11269.pdf",
+      "originalName": "fy2023_s_en_5.pdf",
+      "sha256": "d77395ef24e742ba7299051a0c4c41635b2c0919e59af07b06cb6a32f5c11269",
+      "byteSize": 623260,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_5.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/e0fe417ac29740415fcbd59654897b37834e18c3b9b118138d42b76ff432b710.pdf",
+      "originalName": "fy2023_s_ja_6.pdf",
+      "sha256": "e0fe417ac29740415fcbd59654897b37834e18c3b9b118138d42b76ff432b710",
+      "byteSize": 586673,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_ja_6.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/8ed5cfcab6e2c62ecdbe82c7c5777a0f94fbacef04e63b23f2055e99e468aab2.pdf",
+      "originalName": "fy2023_s_en_6.pdf",
+      "sha256": "8ed5cfcab6e2c62ecdbe82c7c5777a0f94fbacef04e63b23f2055e99e468aab2",
+      "byteSize": 549768,
+      "pages": 2,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2023",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2023_s_en_6.pdf"
+      ]
+    },
+    {
+      "path": "assets/past-papers/documents/ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351.pdf",
+      "originalName": "fy2024_s.pdf",
+      "sha256": "ad2858f21a9eee04a0e3f0cbbf234ffeb16329193e68168174b767093f5ad351",
+      "byteSize": 2393191,
+      "pages": 28,
+      "kind": "question",
+      "groupId": "utokyo-ee-fy2024",
+      "sourcePaths": [
+        "东京大学/工学系研究科/電気系工学専攻/eeis/fy2024_s.pdf"
+      ]
+    }
+  ]
+}
