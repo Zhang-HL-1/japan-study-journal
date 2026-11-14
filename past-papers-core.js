@@ -30,6 +30,13 @@
     if(typeof value!=='string'||!value.startsWith('https://'))return false;
     try{const url=new URL(value);return pagesHosts.has(url.hostname)&&pagesPath.test(url.pathname);}catch{return false;}
   }
+  function preparePDFFrame(frame,viewerEnabled){
+    // Without a PDF viewer, loading the iframe becomes a download named from the URL.
+    // Hosted papers are stored as sha256.pdf, so that name races the originalName save.
+    if(viewerEnabled===undefined&&typeof navigator!=='undefined')viewerEnabled=navigator.pdfViewerEnabled;
+    if(frame&&viewerEnabled===false)frame.setAttribute('sandbox','');
+    return frame;
+  }
   function attachDownload(anchor,name){
     const raw=anchor&&typeof anchor.href==='string'?anchor.href:'';
     if(!hostedPDF(raw))return;
@@ -56,7 +63,7 @@
       const text=normalize([school?.name,...(school?.aliases||[]),p.title,p.graduateSchool,p.department,p.selectionName,yearOf(p),p.originalYear,...(p.examDates||[]),...(p.subjects||[])].join(' '));return terms.every(t=>text.includes(t));
     }).sort((a,b)=>yearOf(b)-yearOf(a)||a.title.localeCompare(b.title,'ja'));
   }
-  const api={normalize,fileURL,hostedPDF,attachDownload,validPaper,schools,filter,yearOf,matchesDepartment};
+  const api={normalize,fileURL,hostedPDF,preparePDFFrame,attachDownload,validPaper,schools,filter,yearOf,matchesDepartment};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PastPapersCore=api;
 })(typeof globalThis!=='undefined'?globalThis:this);
 

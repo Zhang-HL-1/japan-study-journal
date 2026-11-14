@@ -201,6 +201,9 @@ test('PDF links accept official university hosts and contained local files, pres
   assert.equal(core.hostedPDF('https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/'+'b'.repeat(64)+'.pdf'),true);
   assert.equal(core.hostedPDF('https://www.t.u-tokyo.ac.jp/test.pdf'),false);
   assert.equal(core.hostedPDF('assets/past-papers/2025/test.pdf'),false);
+  const frame=()=>({sandbox:null,setAttribute(k,v){if(k==='sandbox')this.sandbox=v;}});
+  const blocked=frame();core.preparePDFFrame(blocked,false);assert.equal(blocked.sandbox,'');
+  const shown=frame();core.preparePDFFrame(shown,true);assert.equal(shown.sandbox,null);
   assert.equal(core.fileURL({url:'https://zhang-hl-1.github.io/not-papers/a.pdf'}),null);
  for(const url of ['http://www.u-tokyo.ac.jp/test.pdf','https://u-tokyo.ac.jp.evil.com/a.pdf','https://user:pass@www.u-tokyo.ac.jp/a.pdf','//www.u-tokyo.ac.jp/a.pdf','javascript:alert(1)','data:application/pdf,foo','assets/past-papers/../../script.js','assets/past-papers/%2e%2e/secret.pdf','assets/past-papers/%252e%252e/test.pdf','assets/past-papers/fake.html','assets/past-papers/a\\b.pdf','/assets/past-papers/a.pdf'])assert.equal(core.fileURL({url}),null,url);
 });

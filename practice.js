@@ -284,7 +284,7 @@
       $('practice-paper-actions').replaceChildren(link(f, '新窗口打开原卷 ↗'));
       const download = link(f, '下载原卷 ↓'); download.download = f.originalName || 'past-paper.pdf'; window.PastPapersCore.attachDownload(download, download.download); $('practice-paper-actions').append(download);
       const back = document.createElement('a'); back.href = 'past-papers.html?' + new URLSearchParams({school:q.paper.schoolId,paper:q.paper.catalogId}); back.textContent = '查看过去问目录 ↗'; back.className = 'plain-button'; $('practice-paper-actions').append(back);
-      const frame = document.createElement('iframe'); frame.src = window.PastPapersCore.fileURL(f); frame.title = q.title + ' · ' + f.label;
+      const frame = document.createElement('iframe'); window.PastPapersCore.preparePDFFrame(frame); frame.src = window.PastPapersCore.fileURL(f); frame.title = q.title + ' · ' + f.label;
       $('practice-paper-reader').replaceChildren(frame);
       [...$('practice-paper-files').children].forEach((b, n) => b.setAttribute('aria-pressed', String(n === i)));
     }
