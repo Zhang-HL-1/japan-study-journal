@@ -1,12 +1,12 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const data=require('../past-papers-data.js'),manifest=require('../assets/past-papers/hokkaido-import-manifest.json'),core=require('../past-papers-core.js'),catalog=require('../campus-map-data.js');
-const papers=data.papers.filter(p=>p.universityId==='hokkaido'),root=path.join(__dirname,'..');
+const papers=data.papers.filter(p=>p.universityId==='hokkaido'&&p.sourceBatch!=='hokkaido-joele-archive-20261114'),root=path.join(__dirname,'..');
 const prior=papers.filter(p=>!p.id.startsWith('hokkaido-env-')&&!p.id.startsWith('hokkaido-nat-')&&!p.id.startsWith('hokkaido-sci-cmp-'));
 const added=papers.filter(p=>!prior.includes(p));
 const find=id=>papers.find(p=>p.id===id);
 const quantum='量子理学専攻・宇宙理学専攻',condensed='物性物理学専攻・宇宙理学専攻';
 test('Hokkaido keeps the original 16 groups and adds 40 cover-dated PDFs',()=>{
- assert.equal(papers.length,43);assert.equal(prior.length,16);assert.equal(added.length,27);assert.equal(manifest.files.length,69);assert.equal(manifest.sourceFiles,70);assert.equal(manifest.uniquePDFs,69);assert.equal(manifest.duplicateByteCopies,1);assert.equal(manifest.groups,43);assert.equal(manifest.questionPDFs,65);assert.equal(manifest.intentionPDFs,4);assert.equal(manifest.totalPages,669);assert.equal(manifest.files.reduce((n,f)=>n+f.pages,0),669);assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.sha256))).size,69);
+ assert.equal(papers.length,43);assert.equal(prior.length,16);assert.equal(added.length,27);assert.equal(manifest.files.length,80);assert.equal(manifest.sourceFiles,85);assert.equal(manifest.uniquePDFs,80);assert.equal(manifest.duplicateByteCopies,1);assert.equal(manifest.groups,49);assert.equal(manifest.questionPDFs,76);assert.equal(manifest.intentionPDFs,4);assert.equal(manifest.totalPages,751);assert.equal(manifest.files.reduce((n,f)=>n+f.pages,0),751);assert.equal(new Set(papers.flatMap(p=>p.files.map(f=>f.sha256))).size,69);
  assert.equal(manifest.backfill.addedGroups,27);assert.equal(manifest.backfill.addedUniquePDFs,40);assert.equal(manifest.backfill.addedPages,428);assert.equal(manifest.backfill.envPages,57);assert.equal(manifest.backfill.physicsPages,239);assert.equal(manifest.backfill.naturalHistoryPages,132);assert.equal(manifest.backfill.heldYearUncertain,22);assert.equal(manifest.backfill.priorGroups,16);assert.equal(manifest.backfill.priorPages,241);assert.deepEqual(manifest.excludedFolders,[]);
  assert.equal(crypto.createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'28337dc667945c96b584032a5ae9a1f4e0b2ee11a4ccac898285649841c53ff7');
  for(const f of manifest.files)require('./hosted-pdf.cjs').assertRecord(assert,f);
@@ -17,7 +17,7 @@ test('Hokkaido keeps the original 16 groups and adds 40 cover-dated PDFs',()=>{
  for(const p of added){assert.equal(p.yearEvidence,'cover');assert.ok(!/grad_H21|p200[2-6]/.test(JSON.stringify(p.files)));}
  assert.equal(crypto.createHash('sha256').update(JSON.stringify(data.papers.filter(p=>p.sourceBatch!=='kobe-ee-backfill-20261101'&&p.sourceBatch!=='sophia-ee-archive-20261101'&&p.sourceBatch!=='science-tokyo-drive-20261018'&&p.universityId!=='hokkaido'&&p.universityId!=='osaka'&&p.universityId!=='uec'&&p.universityId!=='nagoya'&&p.universityId!=='kyushu'&&p.universityId!=='tohoku'&&p.universityId!=='keio'&&!p.id.startsWith('tus-bf-')&&p.universityId!=='utokyo'))).digest('hex'),'18f6b79243d595de88f24ca3bc6d86a27e38ebaf286955a8530f365e472c8bb3');
  assert.match(data.schoolNotes.hokkaido.text,/43组／69个唯一PDF、669页/);assert.match(data.schoolNotes.hokkaido.text,/16组／29个PDF、241页/);assert.match(data.schoolNotes.hokkaido.text,/新增27组、40个唯一PDF、428页/);assert.match(data.schoolNotes.hokkaido.text,/量子理学専攻・宇宙理学専攻/);assert.match(data.schoolNotes.hokkaido.text,/不入库/);assert.doesNotMatch(data.schoolNotes.hokkaido.text,/按既定范围排除/);
- assert.match(fs.readFileSync(path.join(root,'past-papers.html'),'utf8'),/past-papers-data\.js\?v=20261103-osaka-major/);
+ assert.match(fs.readFileSync(path.join(root,'past-papers.html'),'utf8'),/past-papers-data\.js\?v=20261114-hokkaido-joele/);
 });
 test('Hokkaido separates academic years from actual dates without inventing dates on undated CSIT covers',()=>{
  for(const p of prior){if(p.graduateSchool==='工学院'){assert.deepEqual(p.examDates,[p.paperYear===2025?'2024-08-20':'2025-08-19']);if(!p.id.includes('mechanical'))assert.deepEqual(p.admissionYears,[p.paperYear-1,p.paperYear]);}else if(p.id.includes('-csit-')){assert.equal(p.examDates,undefined);assert.match(p.sourceNote,/未印具体考试日期/);}else assert.deepEqual(p.examDates,[p.paperYear===2025?'2024-08-27':'2025-08-25']);}
