@@ -2,14 +2,14 @@
   "importedAt": "2026-10-15",
   "universityId": "hokkaido",
   "sourceFolder": "Google Drive／过去问／北海道大学",
-  "sourceFiles": 70,
-  "uniquePDFs": 69,
+  "sourceFiles": 85,
+  "uniquePDFs": 80,
   "duplicateByteCopies": 1,
-  "groups": 43,
-  "questionPDFs": 65,
+  "groups": 49,
+  "questionPDFs": 76,
   "intentionPDFs": 4,
-  "totalPages": 669,
-  "coverageNote": "本校43组／69个唯一PDF、669页。2026-10-15已上线的16组／29个PDF、241页保持不变：26个问题原卷及3个出题意图（非解答），工学院3类卷与情報科学専攻5课程。2026-10-18补录原先排除的环境、物性物理学・宇宙理学（含封面仍写量子理学専攻的平成18–22年度）和自然史科学，新增27组、40个唯一PDF、428页（环境57页、物性物理学・宇宙理学239页、自然史132页）。其中1页为环境2026出题意图。masterR2_1st_specialty2 与带 (1) 的副本同字节，只存一份，两个路径都写入。22份无封面的 grad_H21_1／2 与 p2002–p2006 不入库。云盘没有令和3年度午後、没有理学院物性物理学令和7年度卷、没有环境専門1。不声明其他年度或全校专业齐全。",
+  "totalPages": 751,
+  "coverageNote": "本校43组／69个唯一PDF、669页。2026-10-15已上线的16组／29个PDF、241页保持不变：26个问题原卷及3个出题意图（非解答），工学院3类卷与情報科学専攻5课程。2026-10-18补录原先排除的环境、物性物理学・宇宙理学（含封面仍写量子理学専攻的平成18–22年度）和自然史科学，新增27组、40个唯一PDF、428页（环境57页、物性物理学・宇宙理学239页、自然史132页）。其中1页为环境2026出题意图。masterR2_1st_specialty2 与带 (1) 的副本同字节，只存一份，两个路径都写入。22份无封面的 grad_H21_1／2 与 p2002–p2006 不入库。云盘没有令和3年度午後、没有理学院物性物理学令和7年度卷、没有环境専門1。不声明其他年度或全校专业齐全。 2026-11-14补录情報エレクトロニクスコース整卷：归档15个PDF，其中2024、2025共4个与已入库原件同字节，不重复保存；新增6组、11个唯一PDF、82页。封面均印实施日、未印「○○年度」。8月场paperYear为实施年+1。2015只有専門科目2。2018为11月10日，不是夏季筆答，paperYear为2019。未取得2008、2009、2012、2013、2014、2016、2017、2019、2020、2021年实施的PDF，不补造。未做逐题拆分。补录后目录49组／80个唯一PDF、751页。",
   "files": [
     {
       "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/fe7bcd64bb17138a2a651e5c27214d9c8729870774f41151e18fe8a63387e297.pdf",
@@ -839,6 +839,193 @@
       ],
       "kind": "question",
       "sourceType": "用户Google Drive原件；核对卷面、学院、课程及实际PDF页码"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/99a779fd325d2c1b6103510312e09aa8bea3524f0b62fdaed95e1d8b00a35bee.pdf",
+      "originalName": "2004-08-23-applied-math-informatics-physics.pdf",
+      "sha256": "99a779fd325d2c1b6103510312e09aa8bea3524f0b62fdaed95e1d8b00a35bee",
+      "byteSize": 864923,
+      "pages": 12,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2004/2004-08-23-applied-math-informatics-physics.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2005",
+      "label": "応用数学・情報科学・物理学",
+      "startPage": 2,
+      "sourceURL": "https://web.archive.org/web/20050515021950id_/http://www.ist.hokudai.ac.jp:80/exam/files/2004/joele01.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de.pdf",
+      "originalName": "2004-08-24-applied-math-2-physics-2-electrical-electronic-engineering.pdf",
+      "sha256": "bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de",
+      "byteSize": 872290,
+      "pages": 11,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2004/2004-08-24-applied-math-2-physics-2-electrical-electronic-engineering.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2005",
+      "label": "応用数学Ⅱ・物理学Ⅱ・電気電子工学",
+      "startPage": 2,
+      "sourceURL": "https://web.archive.org/web/20050515023419id_/http://www.ist.hokudai.ac.jp:80/exam/files/2004/joele02.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1.pdf",
+      "originalName": "2011-08-18-specialized-subject-1.pdf",
+      "sha256": "755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1",
+      "byteSize": 1196010,
+      "pages": 7,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2011/2011-08-18-specialized-subject-1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2012",
+      "label": "専門科目1",
+      "startPage": 2,
+      "sourceURL": "https://web.archive.org/web/20111109133858id_/http://www.ist.hokudai.ac.jp/examinfo/files/joele01.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/5bc505dff18b09fc394eeab1180e5cc2beae674278c7a3e254b7ffdd773ccf93.pdf",
+      "originalName": "2011-08-18-specialized-subject-2.pdf",
+      "sha256": "5bc505dff18b09fc394eeab1180e5cc2beae674278c7a3e254b7ffdd773ccf93",
+      "byteSize": 1139504,
+      "pages": 6,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2011/2011-08-18-specialized-subject-2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2012",
+      "label": "専門科目2",
+      "startPage": 2,
+      "sourceURL": "https://web.archive.org/web/20111109134832id_/http://www.ist.hokudai.ac.jp/examinfo/files/joele02.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a.pdf",
+      "originalName": "2015-08-20-specialized-subject-2.pdf",
+      "sha256": "571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a",
+      "byteSize": 669060,
+      "pages": 6,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2015/2015-08-20-specialized-subject-2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2016",
+      "label": "専門科目2",
+      "startPage": 2,
+      "sourceURL": "https://web.archive.org/web/20151013193319id_/http://www.ist.hokudai.ac.jp:80/examinfo/files/joele02.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3.pdf",
+      "originalName": "2018-11-10-specialized-subject-1.pdf",
+      "sha256": "8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3",
+      "byteSize": 2383059,
+      "pages": 7,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2018/2018-11-10-specialized-subject-1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2019",
+      "label": "専門科目1",
+      "startPage": 3,
+      "sourceURL": "https://web.archive.org/web/20200927050415id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele01.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948.pdf",
+      "originalName": "2018-11-10-specialized-subject-2.pdf",
+      "sha256": "0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948",
+      "byteSize": 2584980,
+      "pages": 7,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2018/2018-11-10-specialized-subject-2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2019",
+      "label": "専門科目2",
+      "startPage": 3,
+      "sourceURL": "https://web.archive.org/web/20200927050615id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele02.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356.pdf",
+      "originalName": "2022-08-18-specialized-subject-1.pdf",
+      "sha256": "734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356",
+      "byteSize": 1396901,
+      "pages": 6,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2022/2022-08-18-specialized-subject-1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2023",
+      "label": "専門科目1",
+      "startPage": 2,
+      "sourceURL": "https://web.archive.org/web/20240419142114id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele01_2022.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5.pdf",
+      "originalName": "2022-08-18-specialized-subject-2.pdf",
+      "sha256": "30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5",
+      "byteSize": 1400514,
+      "pages": 6,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2022/2022-08-18-specialized-subject-2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2023",
+      "label": "専門科目2",
+      "startPage": 2,
+      "sourceURL": "https://web.archive.org/web/20240726125911id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele02_2022.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5.pdf",
+      "originalName": "2023-08-24-specialized-subject-1.pdf",
+      "sha256": "275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5",
+      "byteSize": 2388866,
+      "pages": 7,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2023/2023-08-24-specialized-subject-1.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2024",
+      "label": "専門科目1",
+      "startPage": 3,
+      "sourceURL": "https://web.archive.org/web/20250816071339id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele01_2023.pdf"
+    },
+    {
+      "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3.pdf",
+      "originalName": "2023-08-24-specialized-subject-2.pdf",
+      "sha256": "81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3",
+      "byteSize": 2587773,
+      "pages": 7,
+      "sourcePaths": [
+        "hokudai-information-electronics-past-exams-2004-2025/2023/2023-08-24-specialized-subject-2.pdf"
+      ],
+      "kind": "question",
+      "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+      "archiveBatch": "hokkaido-joele-archive-20261114",
+      "paperId": "hokkaido-joele-2024",
+      "label": "専門科目2",
+      "startPage": 3,
+      "sourceURL": "https://web.archive.org/web/20250816072208id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele02_2023.pdf"
     }
   ],
   "excludedFolders": [],
@@ -1053,5 +1240,266 @@
     "priorGroups": 16,
     "priorUniquePDFs": 29,
     "priorPages": 241
+  },
+  "joeleArchive": {
+    "addedAt": "2026-11-14",
+    "sourceBatch": "hokkaido-joele-archive-20261114",
+    "sourceFolder": "hokudai-information-electronics-past-exams-2004-2025",
+    "inventoryPDFs": 15,
+    "newGroups": 6,
+    "newUniquePDFs": 11,
+    "newPages": 82,
+    "reusedPDFs": 4,
+    "blocked": [],
+    "partial": [
+      {
+        "paperId": "hokkaido-joele-2016",
+        "have": "専門科目2",
+        "missing": "専門科目1"
+      }
+    ],
+    "missingExamYearsNotInvented": [
+      2008,
+      2009,
+      2012,
+      2013,
+      2014,
+      2016,
+      2017,
+      2019,
+      2020,
+      2021
+    ],
+    "unconfirmedExamYears": [
+      2005,
+      2006,
+      2007,
+      2010,
+      2026
+    ],
+    "yearNote": "封面印实施日，未印「○○年度」。yearBasis为academic。8月入学试验的paperYear为实施年+1，与hokkaido-joele-2025／2026一致。2018年11月10日不是夏季筆答；封面已印情報科学院，该院于平成31年4月1日设置，paperYear记为2019，不把未印的「平成31年度」写成封面原文。",
+    "files": [
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/99a779fd325d2c1b6103510312e09aa8bea3524f0b62fdaed95e1d8b00a35bee.pdf",
+        "originalName": "2004-08-23-applied-math-informatics-physics.pdf",
+        "sha256": "99a779fd325d2c1b6103510312e09aa8bea3524f0b62fdaed95e1d8b00a35bee",
+        "byteSize": 864923,
+        "pages": 12,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2004/2004-08-23-applied-math-informatics-physics.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2005",
+        "label": "応用数学・情報科学・物理学",
+        "startPage": 2,
+        "sourceURL": "https://web.archive.org/web/20050515021950id_/http://www.ist.hokudai.ac.jp:80/exam/files/2004/joele01.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de.pdf",
+        "originalName": "2004-08-24-applied-math-2-physics-2-electrical-electronic-engineering.pdf",
+        "sha256": "bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de",
+        "byteSize": 872290,
+        "pages": 11,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2004/2004-08-24-applied-math-2-physics-2-electrical-electronic-engineering.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2005",
+        "label": "応用数学Ⅱ・物理学Ⅱ・電気電子工学",
+        "startPage": 2,
+        "sourceURL": "https://web.archive.org/web/20050515023419id_/http://www.ist.hokudai.ac.jp:80/exam/files/2004/joele02.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1.pdf",
+        "originalName": "2011-08-18-specialized-subject-1.pdf",
+        "sha256": "755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1",
+        "byteSize": 1196010,
+        "pages": 7,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2011/2011-08-18-specialized-subject-1.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2012",
+        "label": "専門科目1",
+        "startPage": 2,
+        "sourceURL": "https://web.archive.org/web/20111109133858id_/http://www.ist.hokudai.ac.jp/examinfo/files/joele01.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/5bc505dff18b09fc394eeab1180e5cc2beae674278c7a3e254b7ffdd773ccf93.pdf",
+        "originalName": "2011-08-18-specialized-subject-2.pdf",
+        "sha256": "5bc505dff18b09fc394eeab1180e5cc2beae674278c7a3e254b7ffdd773ccf93",
+        "byteSize": 1139504,
+        "pages": 6,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2011/2011-08-18-specialized-subject-2.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2012",
+        "label": "専門科目2",
+        "startPage": 2,
+        "sourceURL": "https://web.archive.org/web/20111109134832id_/http://www.ist.hokudai.ac.jp/examinfo/files/joele02.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a.pdf",
+        "originalName": "2015-08-20-specialized-subject-2.pdf",
+        "sha256": "571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a",
+        "byteSize": 669060,
+        "pages": 6,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2015/2015-08-20-specialized-subject-2.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2016",
+        "label": "専門科目2",
+        "startPage": 2,
+        "sourceURL": "https://web.archive.org/web/20151013193319id_/http://www.ist.hokudai.ac.jp:80/examinfo/files/joele02.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3.pdf",
+        "originalName": "2018-11-10-specialized-subject-1.pdf",
+        "sha256": "8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3",
+        "byteSize": 2383059,
+        "pages": 7,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2018/2018-11-10-specialized-subject-1.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2019",
+        "label": "専門科目1",
+        "startPage": 3,
+        "sourceURL": "https://web.archive.org/web/20200927050415id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele01.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948.pdf",
+        "originalName": "2018-11-10-specialized-subject-2.pdf",
+        "sha256": "0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948",
+        "byteSize": 2584980,
+        "pages": 7,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2018/2018-11-10-specialized-subject-2.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2019",
+        "label": "専門科目2",
+        "startPage": 3,
+        "sourceURL": "https://web.archive.org/web/20200927050615id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele02.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356.pdf",
+        "originalName": "2022-08-18-specialized-subject-1.pdf",
+        "sha256": "734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356",
+        "byteSize": 1396901,
+        "pages": 6,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2022/2022-08-18-specialized-subject-1.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2023",
+        "label": "専門科目1",
+        "startPage": 2,
+        "sourceURL": "https://web.archive.org/web/20240419142114id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele01_2022.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5.pdf",
+        "originalName": "2022-08-18-specialized-subject-2.pdf",
+        "sha256": "30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5",
+        "byteSize": 1400514,
+        "pages": 6,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2022/2022-08-18-specialized-subject-2.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2023",
+        "label": "専門科目2",
+        "startPage": 2,
+        "sourceURL": "https://web.archive.org/web/20240726125911id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele02_2022.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5.pdf",
+        "originalName": "2023-08-24-specialized-subject-1.pdf",
+        "sha256": "275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5",
+        "byteSize": 2388866,
+        "pages": 7,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2023/2023-08-24-specialized-subject-1.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2024",
+        "label": "専門科目1",
+        "startPage": 3,
+        "sourceURL": "https://web.archive.org/web/20250816071339id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele01_2023.pdf"
+      },
+      {
+        "path": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3.pdf",
+        "originalName": "2023-08-24-specialized-subject-2.pdf",
+        "sha256": "81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3",
+        "byteSize": 2587773,
+        "pages": 7,
+        "sourcePaths": [
+          "hokudai-information-electronics-past-exams-2004-2025/2023/2023-08-24-specialized-subject-2.pdf"
+        ],
+        "kind": "question",
+        "sourceType": "用户提供的学校发布原件；封面已渲染核对。PDF字节未改。",
+        "archiveBatch": "hokkaido-joele-archive-20261114",
+        "paperId": "hokkaido-joele-2024",
+        "label": "専門科目2",
+        "startPage": 3,
+        "sourceURL": "https://web.archive.org/web/20250816072208id_/https://www.ist.hokudai.ac.jp/examinfo/files/joele02_2023.pdf"
+      }
+    ],
+    "reused": [
+      {
+        "sha256": "8a9a35e29847ac6245edb1679206d9a38815e5ce8b3f1bda1b4f561c0ac0ed5d",
+        "pages": 7,
+        "byteSize": 222253,
+        "paperId": "hokkaido-joele-2025",
+        "originalName": "2024-08-27-specialized-subject-1.pdf",
+        "catalogOriginalName": "joele01_2024.pdf"
+      },
+      {
+        "sha256": "b1b4bfe11da537caf1af0e8e589e01112548d73160a9b6fbcca727e8fbc7ca36",
+        "pages": 7,
+        "byteSize": 232006,
+        "paperId": "hokkaido-joele-2025",
+        "originalName": "2024-08-27-specialized-subject-2.pdf",
+        "catalogOriginalName": "joele02_2024.pdf"
+      },
+      {
+        "sha256": "08a48e4bb928d30a188332f6d673b55d793901d927ac90127b87b5c7d3ca9873",
+        "pages": 7,
+        "byteSize": 637789,
+        "paperId": "hokkaido-joele-2026",
+        "originalName": "2025-08-25-specialized-subject-1.pdf",
+        "catalogOriginalName": "joele01_2025.pdf"
+      },
+      {
+        "sha256": "a87442185ce3b39407ad1125eacbf77a64dd92eb186e302827886ec19be222ba",
+        "pages": 7,
+        "byteSize": 720709,
+        "paperId": "hokkaido-joele-2026",
+        "originalName": "2025-08-25-specialized-subject-2.pdf",
+        "catalogOriginalName": "joele02_2025.pdf"
+      }
+    ]
   }
 }

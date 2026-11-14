@@ -13455,6 +13455,366 @@
       ]
     },
     {
+      "id": "hokkaido-joele-2005",
+      "universityId": "hokkaido",
+      "title": "2005年度 · 情報科学専攻／情報エレクトロニクスコース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報エレクトロニクスコース",
+      "selectionName": "情報エレクトロニクス専攻入学試験",
+      "paperYear": 2005,
+      "yearBasis": "academic",
+      "yearEvidence": "cover-exam-date",
+      "admissionYears": [
+        2005
+      ],
+      "originalMajor": "情報科学研究科 情報エレクトロニクス専攻",
+      "subjects": [
+        "応用数学・情報科学・物理学",
+        "応用数学Ⅱ・物理学Ⅱ・電気電子工学",
+        "応用数学",
+        "情報科学",
+        "物理学",
+        "電気電子工学"
+      ],
+      "files": [
+        {
+          "label": "応用数学・情報科学・物理学",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/99a779fd325d2c1b6103510312e09aa8bea3524f0b62fdaed95e1d8b00a35bee.pdf",
+          "originalName": "2004-08-23-applied-math-informatics-physics.pdf",
+          "sha256": "99a779fd325d2c1b6103510312e09aa8bea3524f0b62fdaed95e1d8b00a35bee",
+          "byteSize": 864923,
+          "pages": 12,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2004/2004-08-23-applied-math-informatics-physics.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "応用数学Ⅱ・物理学Ⅱ・電気電子工学",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de.pdf",
+          "originalName": "2004-08-24-applied-math-2-physics-2-electrical-electronic-engineering.pdf",
+          "sha256": "bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de",
+          "byteSize": 872290,
+          "pages": 11,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2004/2004-08-24-applied-math-2-physics-2-electrical-electronic-engineering.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户提供的北海道大学情報エレクトロニクス整卷，PDF字节原样保存，封面已渲染核对，未做逐题拆分。yearBasis为academic。封面印北海道大学大学院情報科学研究科、情報エレクトロニクス専攻入学試験、平成16年8月23日13:00～16:00与8月24日9:00～12:00，未印「○○年度」、未印修士課程、未印夏季筆答。paperYear按与hokkaido-joele-2025／2026相同的规则取实施年的下一学年，为2005。封面研究科与専攻记在originalMajor，目录graduateSchool仍为情報科学院，department仍为情報科学専攻／情報エレクトロニクスコース。8月23日册为応用数学・情報科学・物理学，8月24日册为応用数学Ⅱ・物理学Ⅱ・電気電子工学，两日合成一组。问题从各PDF第2页打开。未随卷提供解答。",
+      "examYear": 2004,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/#pastpaper",
+      "examDates": [
+        "2004-08-23",
+        "2004-08-24"
+      ],
+      "sourceBatch": "hokkaido-joele-archive-20261114"
+    },
+    {
+      "id": "hokkaido-joele-2012",
+      "universityId": "hokkaido",
+      "title": "2012年度 · 情報科学専攻／情報エレクトロニクスコース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報エレクトロニクスコース",
+      "selectionName": "情報エレクトロニクス専攻入学試験",
+      "paperYear": 2012,
+      "yearBasis": "academic",
+      "yearEvidence": "cover-exam-date",
+      "admissionYears": [
+        2012
+      ],
+      "originalMajor": "情報科学研究科 情報エレクトロニクス専攻",
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学Ⅰ",
+        "応用数学Ⅱ",
+        "半導体デバイス工学",
+        "電磁気学",
+        "電気回路",
+        "電子回路",
+        "ディジタル回路",
+        "量子力学",
+        "物性工学",
+        "情報通信ネットワーク",
+        "光エレクトロニクス"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1.pdf",
+          "originalName": "2011-08-18-specialized-subject-1.pdf",
+          "sha256": "755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1",
+          "byteSize": 1196010,
+          "pages": 7,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2011/2011-08-18-specialized-subject-1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/5bc505dff18b09fc394eeab1180e5cc2beae674278c7a3e254b7ffdd773ccf93.pdf",
+          "originalName": "2011-08-18-specialized-subject-2.pdf",
+          "sha256": "5bc505dff18b09fc394eeab1180e5cc2beae674278c7a3e254b7ffdd773ccf93",
+          "byteSize": 1139504,
+          "pages": 6,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2011/2011-08-18-specialized-subject-2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户提供的北海道大学情報エレクトロニクス整卷，PDF字节原样保存，封面已渲染核对，未做逐题拆分。yearBasis为academic。封面印北海道大学大学院情報科学研究科、情報エレクトロニクス専攻入学試験、平成23年8月18日，未印「○○年度」、未印修士課程、未印夏季筆答。専門科目1为13:00～15:00，専門科目2为15:30～17:30。paperYear按与hokkaido-joele-2025／2026相同的规则取实施年的下一学年，为2012。封面研究科与専攻记在originalMajor，目录仍用現行情報科学院／情報科学専攻／情報エレクトロニクスコース。问题从各PDF第2页打开。未随卷提供解答。",
+      "examYear": 2011,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/#pastpaper",
+      "examDates": [
+        "2011-08-18"
+      ],
+      "sourceBatch": "hokkaido-joele-archive-20261114"
+    },
+    {
+      "id": "hokkaido-joele-2016",
+      "universityId": "hokkaido",
+      "title": "2016年度 · 情報科学専攻／情報エレクトロニクスコース（専門科目2のみ）",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報エレクトロニクスコース",
+      "selectionName": "情報エレクトロニクス専攻入学試験",
+      "paperYear": 2016,
+      "yearBasis": "academic",
+      "yearEvidence": "cover-exam-date",
+      "admissionYears": [
+        2016
+      ],
+      "originalMajor": "情報科学研究科 情報エレクトロニクス専攻",
+      "completeness": "partial",
+      "subjects": [
+        "専門科目2",
+        "ディジタル回路",
+        "量子力学",
+        "物性工学",
+        "情報通信ネットワーク",
+        "光エレクトロニクス"
+      ],
+      "files": [
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a.pdf",
+          "originalName": "2015-08-20-specialized-subject-2.pdf",
+          "sha256": "571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a",
+          "byteSize": 669060,
+          "pages": 6,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2015/2015-08-20-specialized-subject-2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户提供的北海道大学情報エレクトロニクス整卷，PDF字节原样保存，封面已渲染核对，未做逐题拆分。yearBasis为academic。封面印北海道大学大学院情報科学研究科、情報エレクトロニクス専攻入学試験、平成27年8月20日13:00～15:00、専門科目2，未印「○○年度」、未印修士課程、未印夏季筆答。paperYear按与hokkaido-joele-2025／2026相同的规则取实施年的下一学年，为2016。本批只有専門科目2，専門科目1未取得，标为部分，不补造缺失册。封面研究科与専攻记在originalMajor。问题从PDF第2页打开。未随卷提供解答。",
+      "examYear": 2015,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/#pastpaper",
+      "examDates": [
+        "2015-08-20"
+      ],
+      "sourceBatch": "hokkaido-joele-archive-20261114"
+    },
+    {
+      "id": "hokkaido-joele-2019",
+      "universityId": "hokkaido",
+      "title": "2019年度 · 情報科学専攻／情報エレクトロニクスコース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報エレクトロニクスコース",
+      "selectionName": "情報エレクトロニクスコース入学試験",
+      "paperYear": 2019,
+      "yearBasis": "academic",
+      "yearEvidence": "cover-exam-date",
+      "admissionYears": [
+        2019
+      ],
+      "originalMajor": "情報エレクトロニクスコース（封面未印情報科学専攻）",
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学",
+        "半導体デバイス工学",
+        "電磁気学",
+        "電気回路",
+        "電子回路",
+        "ディジタル回路",
+        "量子力学",
+        "物性工学",
+        "情報通信工学",
+        "光エレクトロニクス"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3.pdf",
+          "originalName": "2018-11-10-specialized-subject-1.pdf",
+          "sha256": "8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3",
+          "byteSize": 2383059,
+          "pages": 7,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2018/2018-11-10-specialized-subject-1.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948.pdf",
+          "originalName": "2018-11-10-specialized-subject-2.pdf",
+          "sha256": "0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948",
+          "byteSize": 2584980,
+          "pages": 7,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2018/2018-11-10-specialized-subject-2.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户提供的北海道大学情報エレクトロニクス整卷，PDF字节原样保存，封面已渲染核对，未做逐题拆分。yearBasis为academic。封面印北海道大学大学院情報科学院、情報エレクトロニクスコース入学試験、平成30年11月10日，未印専攻名、未印「夏季筆答」、未印「第2次」、未印「○○年度」。専門科目1为10:00～12:00，専門科目2为13:00～15:00。PDF第2页为封面所说的白纸，问题从第3页打开。情報科学院于平成31年4月1日由情報科学研究科改组设置。此次11月考试在设置日之前，paperYear按次年4月入学记为2019，不把未印的「平成31年度」写成封面原文。目录department仍为情報科学専攻／情報エレクトロニクスコース，封面未印的専攻名不写入originalMajor以外的专攻字段。未随卷提供解答。",
+      "examYear": 2018,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/#pastpaper",
+      "examDates": [
+        "2018-11-10"
+      ],
+      "sourceBatch": "hokkaido-joele-archive-20261114"
+    },
+    {
+      "id": "hokkaido-joele-2023",
+      "universityId": "hokkaido",
+      "title": "2023年度 · 情報科学専攻／情報エレクトロニクスコース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報エレクトロニクスコース",
+      "selectionName": "情報エレクトロニクスコース入学試験",
+      "paperYear": 2023,
+      "yearBasis": "academic",
+      "yearEvidence": "cover-exam-date",
+      "admissionYears": [
+        2023
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学",
+        "半導体デバイス工学",
+        "電磁気学",
+        "電気回路",
+        "電子回路",
+        "ディジタル回路",
+        "量子力学",
+        "物性工学",
+        "情報通信工学",
+        "光エレクトロニクス"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356.pdf",
+          "originalName": "2022-08-18-specialized-subject-1.pdf",
+          "sha256": "734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356",
+          "byteSize": 1396901,
+          "pages": 6,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2022/2022-08-18-specialized-subject-1.pdf"
+          ],
+          "startPage": 2
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5.pdf",
+          "originalName": "2022-08-18-specialized-subject-2.pdf",
+          "sha256": "30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5",
+          "byteSize": 1400514,
+          "pages": 6,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2022/2022-08-18-specialized-subject-2.pdf"
+          ],
+          "startPage": 2
+        }
+      ],
+      "sourceNote": "用户提供的北海道大学情報エレクトロニクス整卷，PDF字节原样保存，封面已渲染核对，未做逐题拆分。yearBasis为academic。封面印北海道大学大学院情報科学院、情報科学専攻、情報エレクトロニクスコース入学試験、令和4年8月18日，未印「○○年度」、未印夏季筆答。専門科目1为10:00～12:00，専門科目2为13:00～15:00。paperYear按与hokkaido-joele-2025／2026相同的规则取实施年的下一学年，为2023。封面写问题册含白纸共7枚，本PDF共6页且第2页已是设问，白纸未单独成页，从第2页打开。未随卷提供解答。",
+      "examYear": 2022,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/#pastpaper",
+      "examDates": [
+        "2022-08-18"
+      ],
+      "sourceBatch": "hokkaido-joele-archive-20261114"
+    },
+    {
+      "id": "hokkaido-joele-2024",
+      "universityId": "hokkaido",
+      "title": "2024年度 · 情報科学専攻／情報エレクトロニクスコース",
+      "graduateSchool": "情報科学院",
+      "department": "情報科学専攻／情報エレクトロニクスコース",
+      "selectionName": "情報エレクトロニクスコース入学試験",
+      "paperYear": 2024,
+      "yearBasis": "academic",
+      "yearEvidence": "cover-exam-date",
+      "admissionYears": [
+        2024
+      ],
+      "subjects": [
+        "専門科目1",
+        "専門科目2",
+        "応用数学",
+        "半導体デバイス工学",
+        "電磁気学",
+        "電気回路",
+        "電子回路",
+        "ディジタル回路",
+        "量子力学",
+        "物性工学",
+        "情報通信工学",
+        "光エレクトロニクス"
+      ],
+      "files": [
+        {
+          "label": "専門科目1",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5.pdf",
+          "originalName": "2023-08-24-specialized-subject-1.pdf",
+          "sha256": "275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5",
+          "byteSize": 2388866,
+          "pages": 7,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2023/2023-08-24-specialized-subject-1.pdf"
+          ],
+          "startPage": 3
+        },
+        {
+          "label": "専門科目2",
+          "kind": "question",
+          "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3.pdf",
+          "originalName": "2023-08-24-specialized-subject-2.pdf",
+          "sha256": "81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3",
+          "byteSize": 2587773,
+          "pages": 7,
+          "sourcePaths": [
+            "hokudai-information-electronics-past-exams-2004-2025/2023/2023-08-24-specialized-subject-2.pdf"
+          ],
+          "startPage": 3
+        }
+      ],
+      "sourceNote": "用户提供的北海道大学情報エレクトロニクス整卷，PDF字节原样保存，封面已渲染核对，未做逐题拆分。yearBasis为academic。封面印北海道大学大学院情報科学院、情報科学専攻、情報エレクトロニクスコース入学試験、令和5年8月24日，未印「○○年度」、未印夏季筆答。専門科目1为10:00～12:00，専門科目2为13:00～15:00。paperYear按与hokkaido-joele-2025／2026相同的规则取实施年的下一学年，为2024。PDF为横向A4扫描。第2页为白纸，问题从第3页打开。未随卷提供解答。",
+      "examYear": 2023,
+      "sourceURL": "https://www.ist.hokudai.ac.jp/examinfo/#pastpaper",
+      "examDates": [
+        "2023-08-24"
+      ],
+      "sourceBatch": "hokkaido-joele-archive-20261114"
+    },
+    {
       "id": "hokkaido-seitai-2026",
       "universityId": "hokkaido",
       "title": "2026年度 · 情報科学専攻／生体情報工学コース",
@@ -42966,7 +43326,7 @@
       "text": "本校48组／157个唯一PDF、404页。2026-10-14已上线的12组／45个PDF、111页保持不变：电气电子2024—2026入学年度；机械2019（平成31）、2020、2021、2023—2025年度，仅数学与生産工学・制御工学；系统信息2025年度三期，实际笔试为2024-08-22、2024-11-27、2025-01-22。2026-10-18补录原先排除的理学研究科数学専攻与物理学専攻，新增22组、32个唯一PDF、159页。数学按封面入学年度2015–2026，实施日为上一年8月。物理封面只印实施日，paperYear按入学年度＝实施年+1（2017–2026），与数学専攻封面换算一致；物理I与物理II同年合成一组。2026-11-01补录电气电子更早整卷，新增14组、80个唯一PDF、134页：工学研究科2007（仅物性工学，卷面未印校名与年度）、2008–2009、2013–2015、2019–2022；自然科学研究科电气电子平成14–17年度，封面入学年2002–2005，考试在上一公历年8月。2024–2026共27个科目PDF与已入库原件相同，不重复保存。英语、解答例、出題意図、html/jpg不入库。学部「志」特别选拔仍不入库、不建入口。均保留原件。不声明其他年度或全校齐全。"
     },
     "hokkaido": {
-      "text": "本校43组／69个唯一PDF、669页。2026-10-15已上线的16组／29个PDF、241页保持不变：工学院応用物理学専攻、機械・宇宙航空工学系及応用量子科学系共通卷，情報科学院情報科学専攻5课程；26个问题原卷及3个出题意图。文件后缀2024、2025是实施年。云盘媒体网络内的2024系统信息卷已据封面归回系统信息。机械2026合册订正页完整保留。2026-10-18补录原先排除的工学院环境共通卷、理学院物性物理学専攻・宇宙理学専攻和自然史科学専攻，新增27组、40个唯一PDF、428页。yearBasis为academic，paperYear按封面入学年度。平成18–22年度封面专攻名为量子理学専攻・宇宙理学専攻，平成23年度（2011）起为物性物理学専攻・宇宙理学専攻，照封面分写。环境两卷封面不印实施日，云盘没有専門1。平成18年度2月卷封面只印「2月7日」，未印实施年，不补考试日期。令和3年度只有午前。云盘没有理学院物性物理学令和7年度（2025）卷。22份无封面的grad_H21与p2002–p2006不入库。自然史2024年8月卷首页为订正、封面在第2页，整册保留。未提供解答，不声明其他年度或全校专业齐全。"
+      "text": "本校49组／80个唯一PDF、751页。2026-11-14补录情報科学専攻／情報エレクトロニクスコース整卷，新增6组、11个唯一PDF、82页。归档里2024年8月27日与2025年8月25日两场共4个PDF与已上线 hokkaido-joele-2025、hokkaido-joele-2026 字节相同，不重复保存。封面印实施日、未印「○○年度」；8月场 paperYear 为实施年+1。2015年实施卷本批只有専門科目2。2018年11月10日不是夏季筆答，paperYear 为2019。2004、2011、2015封面专攻为情報科学研究科情報エレクトロニクス専攻，记在 originalMajor。未取得的实施年不补造。未做逐题拆分。此前43组／69个唯一PDF、669页。2026-10-15已上线的16组／29个PDF、241页保持不变：工学院応用物理学専攻、機械・宇宙航空工学系及応用量子科学系共通卷，情報科学院情報科学専攻5课程；26个问题原卷及3个出题意图。文件后缀2024、2025是实施年。云盘媒体网络内的2024系统信息卷已据封面归回系统信息。机械2026合册订正页完整保留。2026-10-18补录原先排除的工学院环境共通卷、理学院物性物理学専攻・宇宙理学専攻和自然史科学専攻，新增27组、40个唯一PDF、428页。yearBasis为academic，paperYear按封面入学年度。平成18–22年度封面专攻名为量子理学専攻・宇宙理学専攻，平成23年度（2011）起为物性物理学専攻・宇宙理学専攻，照封面分写。环境两卷封面不印实施日，云盘没有専門1。平成18年度2月卷封面只印「2月7日」，未印实施年，不补考试日期。令和3年度只有午前。云盘没有理学院物性物理学令和7年度（2025）卷。22份无封面的grad_H21与p2002–p2006不入库。自然史2024年8月卷首页为订正、封面在第2页，整册保留。未提供解答，不声明其他年度或全校专业齐全。"
     },
     "uec": {
       "text": "本校20组／38个问题PDF，按2020—2024年8月实施日索引，无随卷解答。封面为情報理工学研究科博士前期課程一般入試，只印实施日期，不印入学年度，故不推定次年4月入学。情報学、情報・ネットワーク工学每年必須与選択各一册；機械知能2020—2021年数学与物理同册，2022年起分册，另有選択；基盤理工学只有選択群11科目。24.8云盘里情报学与情报网络工学文件夹和文件名代号相反，已按封面归类并保留原路径。各PDF第2页为空白扫描页，设问从第3页打开。2024年机械物理学保留問題訂正页。不声明其他年度或全校齐全。"

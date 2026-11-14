@@ -62,14 +62,14 @@
     "e7924db83984f045aba682e4a331adcf5ba7c268af71aae0c40737ca4ff14ef1"
   ],
   "counts": {
-    "uniquePdfs": 1460,
-    "papers1": 712,
+    "uniquePdfs": 1471,
+    "papers1": 723,
     "papers2": 748,
     "bySchool": {
       "keio": 46,
       "tus": 219,
       "tohoku": 169,
-      "hokkaido": 69,
+      "hokkaido": 80,
       "uec": 38,
       "science-tokyo": 132,
       "kyushu": 30,
@@ -13224,6 +13224,105 @@
       "byteSize": 124985,
       "referencedBy": [
         "tus"
+      ]
+    },
+    "99a779fd325d2c1b6103510312e09aa8bea3524f0b62fdaed95e1d8b00a35bee": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/99a779fd325d2c1b6103510312e09aa8bea3524f0b62fdaed95e1d8b00a35bee.pdf",
+      "byteSize": 864923,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de.pdf",
+      "byteSize": 872290,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1.pdf",
+      "byteSize": 1196010,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "5bc505dff18b09fc394eeab1180e5cc2beae674278c7a3e254b7ffdd773ccf93": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/5bc505dff18b09fc394eeab1180e5cc2beae674278c7a3e254b7ffdd773ccf93.pdf",
+      "byteSize": 1139504,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a.pdf",
+      "byteSize": 669060,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3.pdf",
+      "byteSize": 2383059,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948.pdf",
+      "byteSize": 2584980,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356.pdf",
+      "byteSize": 1396901,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5.pdf",
+      "byteSize": 1400514,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5.pdf",
+      "byteSize": 2388866,
+      "referencedBy": [
+        "hokkaido"
+      ]
+    },
+    "81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3": {
+      "school": "hokkaido",
+      "host": "papers-1",
+      "url": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3.pdf",
+      "byteSize": 2587773,
+      "referencedBy": [
+        "hokkaido"
       ]
     }
   }
