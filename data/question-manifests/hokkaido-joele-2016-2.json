@@ -1,0 +1,271 @@
+{
+ "schemaVersion": 1,
+ "id": "hokkaido-joele-2016-2",
+ "title": "北海道大学 · 2016 入学年度 · 情報エレクトロニクスコース（専門科目2）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "hokkaido-joele-2016",
+  "schoolId": "hokkaido",
+  "school": "北海道大学",
+  "graduate": "情報科学院",
+  "major": "情報科学専攻／情報エレクトロニクスコース",
+  "year": 2016,
+  "yearBasis": "academic",
+  "subject": "専門科目2",
+  "originalSubject": "専門科目2",
+  "originalName": "2015-08-20-specialized-subject-2.pdf",
+  "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a.pdf",
+  "sha256": "571eb6b2f18730817afd36c8c0c71c76bc55e9e299d23982b98bf411edd1cc3a",
+  "pageCount": 6,
+  "note": "来自既有过去问目录 hokkaido-joele-2016；封面印平成27年8月20日 13:00～15:00 専門科目2，year 按目录取入学年度 2016（实施年 2015）。本年度仅存専門科目2 一册，専門科目1 未取得。原卷 6 页：第 1 页封面与受験上の注意，第 2–6 页为 [1]–[5] 五道大题，各占一页；受験上の注意载明 [1]～[5] 五问中选答两问。扫描件无文字层，逐页 2x 目视定位边界。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    78,
+    54,
+    547,
+    219
+   ],
+   "label": "表紙：試験名・日時・科目"
+  },
+  {
+   "page": 1,
+   "box": [
+    78,
+    247,
+    547,
+    752
+   ],
+   "label": "受験上の注意"
+  }
+ ],
+ "questions": [
+  {
+   "id": "hokkaido-joele-2016-2-q1",
+   "number": "[1]",
+   "title": "CMOS 逻辑门设计与时钟同步加减电路",
+   "titleKind": "editorial",
+   "topics": [
+    "真值表",
+    "逻辑式化简",
+    "CMOS 复合门",
+    "传输门",
+    "NAND 门级设计",
+    "同步时序电路",
+    "2 的补数"
+   ],
+   "summary": "原卷 [1] ディジタル回路 一页两问：「1.」由 3 比特二进制数 A 求奇偶位 F 与是否≥5 的 G，含真值表、化简、CMOS 复合门/传输门/NAND 门级电路；「2.」由图 1 的时钟同步加减电路与图 2 波形求内部信号 M、N 与 F_out 波形、加法语义，并设计 4 比特绝对值差电路 P。中文标题与概述仅供导航，作答以日文原题与图为准。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      54,
+      62,
+      546,
+      789
+     ],
+     "label": "[1] ディジタル回路：题号、1.(1)–(4)、2.(1)–(3)、図 1 与図 2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of the rendered 2x page against each crop",
+    "date": "2026-11-14",
+    "notes": "对照第 2 页 2x 渲染核对：[1] 题号与科目名、1.(1)–(4)、2.(1)–(3) 全部小问齐全；右侧図 1（含凡例表）与底部図 2 波形均在图内，図号可见；无页眉页码；框边留 5–7pt。第 1 页「受験上の注意」另作 commonRegions。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2016-2-q2",
+   "number": "[2]",
+   "title": "一维势阱中的电子与自旋 1/2 的时间演化",
+   "titleKind": "editorial",
+   "topics": [
+    "一维无限深势阱",
+    "能量本征值",
+    "波函数",
+    "自旋",
+    "泡利原理",
+    "位置测量",
+    "绝热压缩",
+    "薛定谔方程"
+   ],
+   "summary": "原卷 [2] 量子力学 一页两问：「1.」长度 L 的一维势阱中电子，求单电子本征能量与波函数、双电子自旋平行/反平行下的基态、位置测量后的波函数与测得第一激发态的概率、活塞准静态压缩做功；「2.」自旋 1/2 的算符矩阵，验证 Ṡ² 与 Ŝ_z 对易并求本征值，解磁场中薛定谔方程求 τ 时刻状态与 Ŝ_z 期望值。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      77,
+      57,
+      530,
+      771
+     ],
+     "label": "[2] 量子力学：题号、1.(1)–(4)（含図 1）、2.(1)–(2)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of the rendered 2x page against each crop",
+    "date": "2026-11-14",
+    "notes": "对照第 3 页 2x 渲染核对：[2] 题号、1.(1)–(4)、2.(1)–(2) 全部小问与公式齐全；図 1（势阱示意）与図号在内；右侧扫描噪点（x≈586pt）已在框外；无页眉页码。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2016-2-q3",
+   "number": "[3]",
+   "title": "面心立方晶格、X 射线衍射与自由电子态密度",
+   "titleKind": "editorial",
+   "topics": [
+    "面心立方晶格",
+    "原子填充率",
+    "倒格矢",
+    "晶面间距",
+    "X 射线衍射",
+    "自由电子气体",
+    "态密度",
+    "能带"
+   ],
+   "summary": "原卷 [3] 物性工学 一页三问：「1.」面心立方晶格的原胞原子数、空间占有率、基本逆格矢、倒格矢方向与 (hkl) 面间距式①、由 k′−k=G 导出 2d sinθ=λ（含図 1）；「2.」由薛定谔方程导出 E=ħ²k²/2m ④、状态数 dN ⑤ 与态密度；「3.」100–200 字说明金属/半导体/绝缘体的能带与费米能级差异。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      80,
+      58,
+      534,
+      761
+     ],
+     "label": "[3] 物性工学：题号、1.(1)–(5)（含図 1）、2.(1)–(3)、3."
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of the rendered 2x page against each crop",
+    "date": "2026-11-14",
+    "notes": "对照第 4 页 2x 渲染核对：[3] 题号、1.(1)–(5)、2.(1)–(3)、3. 全部小问齐全；式号①–⑤ 保留；図 1（入射/散射 X 线与 (hkl) 面）与図号完整；无页眉页码。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2016-2-q4",
+   "number": "[4]",
+   "title": "UDP、二维奇偶校验与脉冲符号的频谱",
+   "titleKind": "editorial",
+   "topics": [
+    "UDP",
+    "协议分层",
+    "奇偶校验",
+    "误码检出与纠正",
+    "傅里叶变换",
+    "频谱"
+   ],
+   "summary": "原卷 [4] 情報通信ネットワーク 一页三问：「1.」说明 UDP 所属协议层并用给定术语解释；「2.」ASCII 7 比特 5 字符数据的水平/垂直奇偶校验，对数据系列 1 纠正 1 比特错误、对数据系列 2 判定 2 比特错误位置；「3.」符号 P(t) 的指数函数表示、傅里叶变换、f₀=0 与 f₀>0 的波形与频谱差异、频谱零点条件。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      77,
+      55,
+      536,
+      733
+     ],
+     "label": "[4] 情報通信ネットワーク：题号、1.、2.(1)–(2)（含数据系列 1・2）、3.(1)–(4)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of the rendered 2x page against each crop",
+    "date": "2026-11-14",
+    "notes": "对照第 5 页 2x 渲染核对：[4] 题号、1.、2.(1)–(2) 两串数据系列及下划线、3.(1)–(4) 与 P(t)、F[g(t)] 公式齐全；左侧 x≈10pt 的纵向扫描噪点已在框外；无页眉页码。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2016-2-q5",
+   "number": "[5]",
+   "title": "介质界面折射与波动光学",
+   "titleKind": "editorial",
+   "topics": [
+    "斯涅尔定律",
+    "全反射",
+    "布儒斯特角",
+    "振幅反射率",
+    "法布里-珀罗干涉",
+    "相干性"
+   ],
+   "summary": "原卷 [5] 光エレクトロニクス 一页两问：「1.」折射率 n₁、n₂ 两介质界面 A 上 P 偏振平面波入射，求入射角与折射角关系、全反射条件及折射侧光分布、无反射（布儒斯特）条件、θ₁=0 时的振幅反射率；「2.」200–400 字说明法布里-珀罗干涉仪的原理与透射特性、空间/时间相干性。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      80,
+      62,
+      541,
+      619
+     ],
+     "label": "[5] 光エレクトロニクス：题号、1.(1)–(4)（含図 1）、2.(1)–(2)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of the rendered 2x page against each crop",
+    "date": "2026-11-14",
+    "notes": "对照第 6 页 2x 渲染核对：[5] 题号、1.(1)–(4)、2.(1)–(2) 齐全；図 1（界面 A、n₁/n₂、θ₁/θ₂）与図号完整；下方大面积空白与底部 (298,1502) 处扫描污点已在框外；无页眉页码。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "封面与受験上の注意，无题目正文；已作 commonRegions。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "hokkaido-joele-2016-2-q1"
+   ],
+   "common": false,
+   "excluded": "仅本页题面与図 1・図 2，无页眉页码。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "hokkaido-joele-2016-2-q2"
+   ],
+   "common": false,
+   "excluded": "仅本页题面与図 1，无页眉页码。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "hokkaido-joele-2016-2-q3"
+   ],
+   "common": false,
+   "excluded": "仅本页题面与図 1，无页眉页码。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "hokkaido-joele-2016-2-q4"
+   ],
+   "common": false,
+   "excluded": "仅本页题面，无页眉页码。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "hokkaido-joele-2016-2-q5"
+   ],
+   "common": false,
+   "excluded": "仅本页题面与図 1，无页眉页码。",
+   "reviewed": true
+  }
+ ]
+}

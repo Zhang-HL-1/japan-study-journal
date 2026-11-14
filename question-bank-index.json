@@ -380,7 +380,18 @@
     {"id":"utokyo-ee-2022","title":"東京大学 · 2022 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-fy2022","questionCount":6,"data":"assets/question-bank/utokyo-ee-2022/paper.json"},
     {"id":"utokyo-ee-2023","title":"東京大学 · 2023 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-fy2023","questionCount":6,"data":"assets/question-bank/utokyo-ee-2023/paper.json"},
     {"id":"utokyo-ee-2024","title":"東京大学 · 2024 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-fy2024","questionCount":6,"data":"assets/question-bank/utokyo-ee-2024/paper.json"},
-    {"id":"utokyo-ee-2025","title":"東京大学 · 2025 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-2025","questionCount":6,"data":"assets/question-bank/utokyo-ee-2025/paper.json"}
+    {"id":"utokyo-ee-2025","title":"東京大学 · 2025 实施年 · 電気系工学専攻","catalogId":"utokyo-ee-2025","questionCount":6,"data":"assets/question-bank/utokyo-ee-2025/paper.json"},
+    {"id": "hokkaido-joele-2005-1", "title": "北海道大学 · 2005 入学年度 · 情報エレクトロニクスコース（応用数学・情報科学・物理学）", "catalogId": "hokkaido-joele-2005", "questionCount": 11, "data": "assets/question-bank/hokkaido-joele-2005-1/paper.json"},
+    {"id": "hokkaido-joele-2005-2", "title": "北海道大学 · 2005 入学年度 · 情報エレクトロニクスコース（応用数学Ⅱ・物理学Ⅱ・電気電子工学）", "catalogId": "hokkaido-joele-2005", "questionCount": 10, "data": "assets/question-bank/hokkaido-joele-2005-2/paper.json"},
+    {"id": "hokkaido-joele-2012-1", "title": "北海道大学 · 2012 入学年度 · 情報エレクトロニクスコース（専門科目1）", "catalogId": "hokkaido-joele-2012", "questionCount": 6, "data": "assets/question-bank/hokkaido-joele-2012-1/paper.json"},
+    {"id": "hokkaido-joele-2012-2", "title": "北海道大学 · 2012 入学年度 · 情報エレクトロニクスコース（専門科目2）", "catalogId": "hokkaido-joele-2012", "questionCount": 5, "data": "assets/question-bank/hokkaido-joele-2012-2/paper.json"},
+    {"id": "hokkaido-joele-2016-2", "title": "北海道大学 · 2016 入学年度 · 情報エレクトロニクスコース（専門科目2）", "catalogId": "hokkaido-joele-2016", "questionCount": 5, "data": "assets/question-bank/hokkaido-joele-2016-2/paper.json"},
+    {"id": "hokkaido-joele-2019-1", "title": "北海道大学 · 2019 入学年度 · 情報エレクトロニクスコース（専門科目1）", "catalogId": "hokkaido-joele-2019", "questionCount": 5, "data": "assets/question-bank/hokkaido-joele-2019-1/paper.json"},
+    {"id": "hokkaido-joele-2019-2", "title": "北海道大学 · 2019 入学年度 · 情報エレクトロニクスコース（専門科目2）", "catalogId": "hokkaido-joele-2019", "questionCount": 5, "data": "assets/question-bank/hokkaido-joele-2019-2/paper.json"},
+    {"id": "hokkaido-joele-2023-1", "title": "北海道大学 · 2023 入学年度 · 情報エレクトロニクスコース（専門科目1）", "catalogId": "hokkaido-joele-2023", "questionCount": 5, "data": "assets/question-bank/hokkaido-joele-2023-1/paper.json"},
+    {"id": "hokkaido-joele-2023-2", "title": "北海道大学 · 2023 入学年度 · 情報エレクトロニクスコース（専門科目2）", "catalogId": "hokkaido-joele-2023", "questionCount": 5, "data": "assets/question-bank/hokkaido-joele-2023-2/paper.json"},
+    {"id": "hokkaido-joele-2024-1", "title": "北海道大学 · 2024 入学年度 · 情報エレクトロニクスコース（専門科目1）", "catalogId": "hokkaido-joele-2024", "questionCount": 5, "data": "assets/question-bank/hokkaido-joele-2024-1/paper.json"},
+    {"id": "hokkaido-joele-2024-2", "title": "北海道大学 · 2024 入学年度 · 情報エレクトロニクスコース（専門科目2）", "catalogId": "hokkaido-joele-2024", "questionCount": 5, "data": "assets/question-bank/hokkaido-joele-2024-2/paper.json"}
   ],
   "aliases": [
   {

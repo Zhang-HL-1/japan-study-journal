@@ -110,7 +110,7 @@
       // Recreate share controls so the copied URL always includes the current PDF tab.
       shareActions.replaceChildren(...nav.share(document,window,currentURL()).children,scope);
       files.querySelectorAll('button').forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));
-      const url=core.fileURL(file),actions=el('div',undefined,'paper-reader-actions'),frame=el('iframe');frame.src=url;frame.title=`${p.title} · ${file.label}`;frame.referrerPolicy='no-referrer';
+      const url=core.fileURL(file),actions=el('div',undefined,'paper-reader-actions'),frame=el('iframe');core.preparePDFFrame(frame);frame.src=url;frame.title=`${p.title} · ${file.label}`;frame.referrerPolicy='no-referrer';
       actions.append(link('在新窗口打开原卷 ↗',url));
       if(url.startsWith('assets/past-papers/')||core.hostedPDF(url)){const download=link('下载PDF ↓',url.split('#')[0]);download.download=file.originalName||'';core.attachDownload(download,download.download||'past-paper.pdf');actions.append(download);}
       reader.replaceChildren(actions,frame,el('p','手机或浏览器未显示PDF时，可在新窗口打开原卷。'));

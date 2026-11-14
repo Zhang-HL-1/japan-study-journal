@@ -1,0 +1,267 @@
+{
+ "schemaVersion": 1,
+ "id": "hokkaido-joele-2019-2",
+ "title": "北海道大学 · 2019 入学年度 · 情報エレクトロニクスコース（専門科目2）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "hokkaido-joele-2019",
+  "schoolId": "hokkaido",
+  "school": "北海道大学",
+  "graduate": "情報科学院",
+  "major": "情報科学専攻／情報エレクトロニクスコース",
+  "year": 2019,
+  "yearBasis": "academic",
+  "subject": "専門科目2",
+  "originalSubject": "専門科目2",
+  "originalName": "2018-11-10-specialized-subject-2.pdf",
+  "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948.pdf",
+  "sha256": "0b2a82d49d1523b3445733fdae401a93834c350e6eb041c30bf834cc6edbe948",
+  "pageCount": 7,
+  "note": "catalog hokkaido-joele-2019 的「専門科目2」分册，7 页：封面＋白纸＋[1]–[5] 各 1 页。原卷封面印「平成30年11月10日」实施，paperYear 按 2019 入学年度记，不改成实施年。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    61,
+    44,
+    531,
+    760
+   ],
+   "label": "受験上の注意"
+  }
+ ],
+ "questions": [
+  {
+   "id": "hokkaido-joele-2019-2-q1",
+   "number": "[1]",
+   "title": "ディジタル回路：D-FF 波形・カウンタ・CMOS 論理",
+   "titleKind": "editorial",
+   "topics": [
+    "D フリップフロップ",
+    "立ち上がり／立ち下がりエッジ",
+    "タイミング波形",
+    "カウンタ",
+    "真理値表",
+    "論理式の簡略化",
+    "CMOS トランジスタレベル回路"
+   ],
+   "summary": "1. 给定 D 与 CLK 波形，画正/负沿触发 D-FF 的输出 Q；2. 差分 F1・一致検出 F2・カウンタ更新部 F3 构成的电路，要求给出 F1/F2 内部构成、F3 的真理值表、Z0 的论理式与简化及 10 个晶体管以内的 CMOS 电路。図 1（波形）、図 2（回路与回路記号）含む。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      68,
+      45,
+      544,
+      761
+     ],
+     "label": "[1] ディジタル回路：題号・全小問（1.・2.(1)〜(3)）・図1・図2・回路記号"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号、1. 与 2. 的長文前提、図1 CLK/D/Q 波形、図2 F1/F2/F3 回路、回路記号栏（全加算器・D-FF）与图号全在框内；右下 F3 反馈线、Z̄ 上划线未切；框右边界 544 距図1 右端 8pt。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2019-2-q2",
+   "number": "[2]",
+   "title": "量子力学：波動関数の確率解釈と環状一次元系",
+   "titleKind": "editorial",
+   "topics": [
+    "波動関数の確率解釈",
+    "運動量演算子の固有状態",
+    "期待値の時間保存",
+    "周期的境界条件",
+    "エネルギー固有値",
+    "縮退"
+   ],
+   "summary": "以 h 与 ħ=h/(2π) 作答。1.(1) 兩個区間で観測される確率の比、(2) ψ=e^{ikx} が運動量演算子の固有状態であること、(3) [Â,Ĥ]=0 のとき期待値が保存されること；2. 半径 r の環状一次元系で境界条件・固有関数与能量固有値・規格化、二重縮退の名称与状态含义。図 1 含む。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      70,
+      50,
+      525,
+      777
+     ],
+     "label": "[2] 量子力学：題号・前提・全小問（1.・2.）・図1"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号、ħ 定义句、1.(1)–(3)、2.(1)–(3)、図1（環と座標 x, r）及图号全在框内；⟨Â⟩ 与 |ψ(t)⟩ 记号完整；框底 777 含图号并留 8pt。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2019-2-q3",
+   "number": "[3]",
+   "title": "物性工学：格子振動の分散関係と二次元自由電子ガス",
+   "titleKind": "editorial",
+   "topics": [
+    "一次元格子振動",
+    "運動方程式",
+    "分散関係",
+    "群速度と音速",
+    "自由電子ガスモデル",
+    "状態密度",
+    "フェルミエネルギー"
+   ],
+   "summary": "1. 質量 M・格子間隔 a・ばね定数 C の一次元格子の縦波：運動方程式、U_n=Ae^{i(ωt−kna)} の分散関係、ω の上限与对应 k、长波极限说明；2. 二维自由电子气：能量固有値 E_n、k 空间状态数与 Δn、微小能量范围的状态数、费米能量。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      67,
+      48,
+      523,
+      713
+     ],
+     "label": "[3] 物性工学：題号・全小問（1.・2.）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号、1.(1)–(4)、2. 的 Schrödinger 方程式与 φ(x,y) 定义式、2.(1)–(4) 全在框内；∂²φ/∂x²、ΔS_k≡Δk_xΔk_y、k²=k_x²+k_y² 等上下标与积分式未切；无页码。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2019-2-q4",
+   "number": "[4]",
+   "title": "情報通信工学：階層プロトコル・LAN・ハミング符号・AM 変復調",
+   "titleKind": "editorial",
+   "topics": [
+    "4 階層プロトコル",
+    "OSI 参照モデル",
+    "LAN とパケット転送",
+    "ハミング符号",
+    "誤り訂正",
+    "振幅変調（AM）",
+    "スペクトル"
+   ],
+   "summary": "1. 互联网 4 层协议名称与端到端相关层同 OSI 7 层的对应；2. 1 Gbit/s LAN、25% 传输效率与 4/20/6 字节包头的最大终端数；3. 4 bit 数据加 P1–P3 及扩展 P4 的汉明码，纠正 1011001 的 1 bit 错误并讨论 2 bit 错误检测；4. AM 信号 φ_AM(t) 的波形与频谱概略图、同步检波后的频谱成分。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      69,
+      41,
+      520,
+      727
+     ],
+     "label": "[4] 情報通信工学：題号・全小問（1.〜4.）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号、1.–4. 全部设问与 P1–P4 定义式、φ_AM(t)=A_C(1+m cos ω_p t)cos ω_c t 公式全在框内；⊕ 符号与下标 P_1..P_4、ω_p/ω_c 完整；无页码。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2019-2-q5",
+   "number": "[5]",
+   "title": "光エレクトロニクス：二重スリット干渉とコヒーレンス",
+   "titleKind": "editorial",
+   "topics": [
+    "平面波",
+    "二重スリット",
+    "干渉強度分布",
+    "インコヒーレント光源",
+    "空間的コヒーレンス",
+    "ブリュースター角",
+    "全反射とエバネッセント場"
+   ],
+   "summary": "1. 波数 k、振幅 E0 的平面波照射双缝：单缝在屏幕上的电场、双缝强度分布式推导、扩展光源（宽 D、距 R）的强度分布与全光源积分；2. 100–200 字说明ブリュースター角、全反射与エバネッセント場、空間的/時間的コヒーレンス。図 1・図 2 含む。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      69,
+      48,
+      520,
+      703
+     ],
+     "label": "[5] 光エレクトロニクス：題号・全小問（1.・2.）・図1・図2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号、1.(1)–(4)、强度式 I(x',r)∝2|E0|²(1+cos(kx'd/r))、図1・図2 光路図与图号、2.(1)–(3) 全在框内；x''、Q1/Q2、D≪R 等记号未切；无页码。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "封面：北海道大学大学院情報科学院 情報エレクトロニクスコース入学試験（平成30年11月10日）与「受験上の注意」栏，作 commonRegions；页脚「- 1 -」不入框。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [],
+   "common": false,
+   "excluded": "白纸页（受験上の注意所记「2 枚目は白紙」），无题目内容，不裁图。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "hokkaido-joele-2019-2-q1"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "hokkaido-joele-2019-2-q2"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "hokkaido-joele-2019-2-q3"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "hokkaido-joele-2019-2-q4"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "hokkaido-joele-2019-2-q5"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  }
+ ]
+}

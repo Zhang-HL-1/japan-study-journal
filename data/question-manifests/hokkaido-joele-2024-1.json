@@ -1,0 +1,385 @@
+{
+ "schemaVersion": 1,
+ "id": "hokkaido-joele-2024-1",
+ "title": "北海道大学 · 2024 入学年度 · 情報エレクトロニクスコース（専門科目1）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "hokkaido-joele-2024",
+  "schoolId": "hokkaido",
+  "school": "北海道大学",
+  "graduate": "情報科学院",
+  "major": "情報科学専攻／情報エレクトロニクスコース",
+  "year": 2024,
+  "yearBasis": "academic",
+  "subject": "専門科目1",
+  "originalSubject": "専門科目1",
+  "originalName": "2023-08-24-specialized-subject-1.pdf",
+  "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5.pdf",
+  "sha256": "275941a0949cf72da2e2a43941d91400f2894b9a4446c28fae3630c7a2fa7ff5",
+  "pageCount": 7,
+  "note": "2024 入学年度（2023-08-24 実施、令和 5 年 8 月 24 日）。原 PDF 带 /Rotate 270，按 BRIEF 用内嵌整页 JPEG 无重压缩重建派生直立 PDF（normalization 记录逐页旋转与尺寸，生成器逐页比对 1x 像素一致）。sha256/pageCount 仍指原卷。",
+  "normalization": {
+   "derivedPdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/4b6d4eed0617cf319b9d4ca4c34eb5da1164ad245927f4c8573157b8d491b1b8.pdf",
+   "derivedSha256": "4b6d4eed0617cf319b9d4ca4c34eb5da1164ad245927f4c8573157b8d491b1b8",
+   "pages": [
+    {
+     "page": 1,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 2,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 3,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 4,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 5,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 6,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 7,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    }
+   ],
+   "method": "embedded JPEG re-embedded without recompression"
+  }
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    84,
+    278,
+    545,
+    799
+   ],
+   "label": "受験上の注意"
+  }
+ ],
+ "questions": [
+  {
+   "id": "hokkaido-joele-2024-1-q1",
+   "number": "[1]",
+   "title": "応用数学：直交行列・フーリエ級数・ラプラス変換",
+   "titleKind": "editorial",
+   "topics": [
+    "線形代数",
+    "直交行列",
+    "フーリエ級数",
+    "ラプラス変換",
+    "微分方程式"
+   ],
+   "summary": "三題構成：正規直交列をもつ行列 A の性質と転置の逆行列、周期 2 の関数のフーリエ級数展開、ラプラス変換による微分方程式の求解。中文标题与摘要仅供导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      76,
+      63,
+      521,
+      730
+     ],
+     "label": "[1] 応用数学：題号・冒頭指示・1〜3 の全小問"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [1]、冒頭「以下の問いに答えよ．計算過程を明示すること．」、1.(1)(2)、2.(1)(2)、3.(1)(2)(3) と与式・積分・区分関数・微分方程式を全部含む。下端は 3.(3) の式まで、上端は題号上 5pt。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2024-1-q2",
+   "number": "[2]",
+   "title": "半導体デバイス工学：pn 接合・MOSFET・発光素子",
+   "titleKind": "editorial",
+   "topics": [
+    "半導体",
+    "pn 接合",
+    "太陽電池",
+    "MOSFET",
+    "LED",
+    "レーザー"
+   ],
+   "summary": "提示有効数字 3 桁与物理常量后，三题分别涉及 Si pn 接合能带图与太阳电池、n 沟道 MOSFET 饱和区电流与互导、半导体发光元件的波长与 LED/激光器比较。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      76,
+      59,
+      522,
+      727
+     ],
+     "label": "[2] 半導体デバイス工学：題号・数値と記号の指示・1〜3 の全小問"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [2]、有効数字 3 桁の指示と q・kB・h・c・ε0 の数値、1.(1)〜(3)、2.(1)〜(3)、3.(1)(2) を全部含む。図なし。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2024-1-q3",
+   "number": "[3]",
+   "title": "電磁気学：帯電円環と円弧電流が作る電磁界",
+   "titleKind": "editorial",
+   "topics": [
+    "静電界",
+    "線電荷密度",
+    "電位",
+    "磁束密度",
+    "ビオ・サバール"
+   ],
+   "summary": "两题：原点电荷与半径 a 的带电圆环的线电荷密度、轴线电位与电场渐近行为（図 1）；圆环电流与变形导线在原点产生的磁束密度（図 2 (i)(ii)）。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      75,
+      58,
+      525,
+      773
+     ],
+     "label": "[3] 電磁気学：題号・共通指示・1〜2 の全小問と図 1・図 2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [3]、冒頭の電界・磁界に関する指示、1.(1)〜(4) と図 1（y-z 断面・P(x,0,0)）、2.(1)〜(4) と図 2 (i)(ii)・図号を全部含む。右端は図 1 の x 軸まで。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2024-1-q4",
+   "number": "[4]",
+   "title": "電気回路：2 端子回路のインピーダンス",
+   "titleKind": "editorial",
+   "topics": [
+    "交流回路",
+    "インピーダンス",
+    "直並列合成",
+    "共振条件"
+   ],
+   "summary": "给出两幅二端子回路（図 1、図 2），分别求端子 a-b 间阻抗 Z1、Z2 的表达式、与角频率无关时的定值及元件应满足的关系式。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      84,
+      64,
+      541,
+      774
+     ],
+     "label": "[4] 電気回路：題号・共通条件・1〜2 の全小問と図 1・図 2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [4]、冒頭の共通条件（R, L, C, 角周波数 ω, 虚数単位 j）、1.(1)〜(3)・図 1、2.(1)〜(3)・図 2 と図号を全部含む。右端は図 1・図 2 の端子 b まで。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2024-1-q5",
+   "number": "[5]",
+   "title": "電子回路：差動増幅回路と演算増幅器",
+   "titleKind": "editorial",
+   "topics": [
+    "MOSFET",
+    "差動増幅",
+    "同相利得",
+    "CMRR",
+    "演算増幅器",
+    "反転増幅"
+   ],
+   "summary": "两题：MOS 差動増幅回路的小信号等価回路（図 1）求 I1/I2、输出、差动/同相增益与 CMRR；演算放大器电路 1、2（図 2、図 3）求输出电压、闭环增益与含电容的阻抗及 VOUT/VIN。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      71,
+      57,
+      519,
+      772
+     ],
+     "label": "[5] 電子回路：題号・1〜2 の全小問と図 1〜図 3"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [5]、1.(1)〜(6) と図 1（差動増幅回路）、2.(1)〜(6) と図 2・図 3（演算増幅器回路 1・2）および図号・端子ラベルを全部含む。下端は図 2・図 3 の図号まで。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "巻表紙（試験名・日時・科目名）と受験上の注意。表紙は commonRegions に、本文は無い。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [],
+   "common": false,
+   "excluded": "白紙ページ（受験上の注意に「2 枚目は白紙」と明記）。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "hokkaido-joele-2024-1-q1"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "hokkaido-joele-2024-1-q2"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "hokkaido-joele-2024-1-q3"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "hokkaido-joele-2024-1-q4"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "hokkaido-joele-2024-1-q5"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  }
+ ]
+}

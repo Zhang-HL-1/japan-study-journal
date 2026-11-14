@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "id": "hokkaido-joele-2023-1",
+ "title": "北海道大学 · 2023 入学年度 · 情報エレクトロニクスコース（専門科目1）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "hokkaido-joele-2023",
+  "schoolId": "hokkaido",
+  "school": "北海道大学",
+  "graduate": "情報科学院",
+  "major": "情報科学専攻／情報エレクトロニクスコース",
+  "year": 2023,
+  "yearBasis": "academic",
+  "subject": "専門科目1",
+  "originalSubject": "専門科目1",
+  "originalName": "2022-08-18-specialized-subject-1.pdf",
+  "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356.pdf",
+  "sha256": "734f38e283c350e0b9cac1666a46baa6a1a6fd85e69b1e9c89123079e367e356",
+  "pageCount": 6,
+  "note": "来自既有过去问目录 hokkaido-joele-2023（catalog 的 paperYear=2023，yearBasis=academic）。封面为令和4年8月18日実施・10:00～12:00 の専門科目1。封面写明本册含白纸共7枚，PDF 仅6页且第2页即设问，白纸未单独成页。PDF 第1页为表紙与受験上の注意，[1]～[5] 各占1页。未随卷提供解答。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    128,
+    48,
+    477,
+    249
+   ],
+   "label": "表紙（試験名・日時・科目）"
+  },
+  {
+   "page": 1,
+   "box": [
+    82,
+    268,
+    548,
+    796
+   ],
+   "label": "受験上の注意"
+  }
+ ],
+ "questions": [
+  {
+   "id": "hokkaido-joele-2023-1-q1",
+   "number": "[1]",
+   "title": "応用数学：変数変換による微分方程式・三角関数の直交性とフーリエ級数・線積分",
+   "titleKind": "editorial",
+   "topics": [
+    "常微分方程式",
+    "変数変換",
+    "フーリエ級数",
+    "ベクトル解析",
+    "線積分"
+   ],
+   "summary": "3 問構成。1. は x=-1/u の変数変換で d²y/du²-3dy/du+2y=2u² に帰着させ一般解を求める。2. は ∫sin(mπx)sin(nπx)dx の直交性を示し、区分関数 f(x) のフーリエ係数 A_n を求める。3. は勾配 F=∇f の線積分が積分路に依存しないことを示し、G=yzi+zxj+(xy+1)k の線積分を計算する。中文标题与摘要仅供导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      72,
+      56,
+      524,
+      655
+     ],
+     "label": "[1] 応用数学：見出しと 1.〜3. の全小問（(1)(2) を含む）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "2x 渲染核对：页首「[1] 応用数学」、1. の微分方程式（変数変換と一般解）、2.(1)(2) の積分表示と区分関数のフーリエ展開、3.(1)(2) の線積分（積分記号の下限 C, C1 を含む）まで全て框内。下端留在最終行下約 8pt，無頁眉頁脚、無次頁內容。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2023-1-q2",
+   "number": "[2]",
+   "title": "半導体デバイス工学：Si 結晶のキャリア密度・フェルミ準位・MISFET 特性",
+   "titleKind": "editorial",
+   "topics": [
+    "半導体",
+    "キャリア密度",
+    "フェルミ準位",
+    "pn 接合",
+    "MISFET",
+    "伝達コンダクタンス"
+   ],
+   "summary": "冒頭に物理定数表（q, k_B, h, c, ε0, n_i, ln10）があり、1. は P/B ドープ Si 結晶の少数キャリア密度・フェルミ準位・導電率と抵抗・接合バンド図と内蔵電位、2. は金属／絶縁体／金属構造の比誘電率と MISFET の飽和領域伝達コンダクタンスを問う。定数表は本題の解答に必要なので同一 region に含める。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      74,
+      82,
+      514,
+      759
+     ],
+     "label": "[2] 半導体デバイス工学：定数表・1.(1)〜(4)・2.(1)(2)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "核对页首「[2] 半導体デバイス工学」与記号・数値表（q, k_B, h, c, ε0, n_i, ln(10)）、1.(1)〜(4)、2.(1)(2) 全部在框内；有効数字指定・下線 (a)〜(d) 无切字。框下缘距最後行約 8pt，無頁脚。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2023-1-q3",
+   "number": "[3]",
+   "title": "電磁気学：同心導体球の静電界・回転帯電球の磁束密度・クーロンの法則",
+   "titleKind": "editorial",
+   "topics": [
+    "静電界",
+    "導体",
+    "誘導電荷",
+    "電位",
+    "電流素片",
+    "磁束密度",
+    "クーロンの法則"
+   ],
+   "summary": "冒頭に「解答にいたる理由が分かるように」と真空の ε0, μ0 を用いる指示。1. は同心導体球と球殻の誘導電荷・電界と電位・導線接続後の電荷分布、2. は回転する帯電球の表面電荷密度・電流 dI・磁束密度 dB と全磁束密度 B、3. はクーロンの法則の式と近接作用の立場からの説明。図1・図2 と図号を同一 region に含める。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      44,
+      48,
+      537,
+      774
+     ],
+     "label": "[3] 電磁気学：見出し・1.(1)〜(3)・2.(1)〜(4)・3.・図1・図2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "页首「[3] 電磁気学」位于 x≈53，框左缘留 9pt；1.(1)〜(3)、2.(1)〜(4)（dB の式と sin³θdθ を含む）、3. の記述、下部の図1（同心球）・図2（回転球と dS, dI, dθ）と「図1」「図2」の図号まで全て框内。無切字、無頁脚。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2023-1-q4",
+   "number": "[4]",
+   "title": "電気回路：相互インダクタンス結合回路と理想変圧器・最大電力",
+   "titleKind": "editorial",
+   "topics": [
+    "交流回路",
+    "相互インダクタンス",
+    "変圧器",
+    "等価回路",
+    "最大電力"
+   ],
+   "summary": "図1 の複素振幅 E・角周波数 ω の電源、r, R, L1, L2, M からなる変圧器回路について 1.〜5. を問う。回路方程式、T 形等価回路、巻数比と L1, L2, M の関係、理想変圧器を模擬する L2 の条件、R で消費される平均電力が最大となる R。図1 と図号を同一 region に含める。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      74,
+      58,
+      530,
+      756
+     ],
+     "label": "[4] 電気回路：見出し・導入文・1.〜5.・図1"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "页首「[4] 電気回路」（活字の崩れは原巻スキャン由来）、導入文の記号定義（E, ω, r, R, L1, L2, M, I1, I2）、1.〜5. の全小問、下部の図1 回路図と「図1」の図号まで框内。虚数単位 j の指示も含む。無頁脚。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2023-1-q5",
+   "number": "[5]",
+   "title": "電子回路：nMOSFET ドレイン接地回路と演算増幅器による積分回路",
+   "titleKind": "editorial",
+   "topics": [
+    "MOSFET 小信号等価回路",
+    "電圧利得",
+    "演算増幅器",
+    "積分回路",
+    "周波数特性"
+   ],
+   "summary": "1. は n チャネル MOSFET ドレイン接地回路の小信号等価回路（図1）について Vgs・VOUT・電圧利得 AV とその近似、回路の別称を問う。2. は演算増幅器 A の回路（図2）について仮想短絡・電流・入出力関係・積分回路の名称・周波数特性の減衰率を問う。図1・図2 と図号を同一 region に含める。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      70,
+      51,
+      522,
+      765
+     ],
+     "label": "[5] 電子回路：見出し・1.(1)〜(3)・図1・2.(1)〜(4)・図2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "页首「[5] 電子回路」、1.(1)〜(3) と右側の図1（ドレイン接地回路の小信号等価回路、gmVgs, RO, RL, VOUT）及び図号、2.(1)〜(4) と下部の図2（演算増幅器 A、R, C, 反転／非反転入力の注記）及び「図2 演算増幅器Aによる回路」まで框内。dB/dec の記述も含む。無頁脚。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "表紙（試験名・日時・科目）と受験上の注意のみ。両方を commonRegions に収録し、題目は含まない。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "hokkaido-joele-2023-1-q1"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "hokkaido-joele-2023-1-q2"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "hokkaido-joele-2023-1-q3"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "hokkaido-joele-2023-1-q4"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "hokkaido-joele-2023-1-q5"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  }
+ ]
+}

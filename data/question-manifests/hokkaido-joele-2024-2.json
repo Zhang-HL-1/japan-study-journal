@@ -1,0 +1,386 @@
+{
+ "schemaVersion": 1,
+ "id": "hokkaido-joele-2024-2",
+ "title": "北海道大学 · 2024 入学年度 · 情報エレクトロニクスコース（専門科目2）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "hokkaido-joele-2024",
+  "schoolId": "hokkaido",
+  "school": "北海道大学",
+  "graduate": "情報科学院",
+  "major": "情報科学専攻／情報エレクトロニクスコース",
+  "year": 2024,
+  "yearBasis": "academic",
+  "subject": "専門科目2",
+  "originalSubject": "専門科目2",
+  "originalName": "2023-08-24-specialized-subject-2.pdf",
+  "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3.pdf",
+  "sha256": "81919aad70ab0b9a71be402b01e95115886bc82dbc49dfe789d27301fda12db3",
+  "pageCount": 7,
+  "note": "2024 入学年度（2023-08-24 実施、令和 5 年 8 月 24 日）。原 PDF 带 /Rotate 270，按 BRIEF 用内嵌整页 JPEG 无重压缩重建派生直立 PDF（normalization 记录逐页旋转与尺寸，生成器逐页比对 1x 像素一致）。sha256/pageCount 仍指原卷。",
+  "normalization": {
+   "derivedPdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/ee2377adc9e4a2bc5471dae22f7d8588bc7bf372f09e7643848e214d1ec1af05.pdf",
+   "derivedSha256": "ee2377adc9e4a2bc5471dae22f7d8588bc7bf372f09e7643848e214d1ec1af05",
+   "pages": [
+    {
+     "page": 1,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 2,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 3,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 4,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 5,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 6,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    },
+    {
+     "page": 7,
+     "sourceRotation": 270,
+     "sourceMediaBox": [
+      0.0,
+      0.0,
+      841.92,
+      595.2
+     ],
+     "derivedRotation": 0,
+     "derivedRect": [
+      0.0,
+      0.0,
+      595.2,
+      841.92
+     ]
+    }
+   ],
+   "method": "embedded JPEG re-embedded without recompression"
+  }
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    77,
+    273,
+    538,
+    793
+   ],
+   "label": "受験上の注意"
+  }
+ ],
+ "questions": [
+  {
+   "id": "hokkaido-joele-2024-2-q1",
+   "number": "[1]",
+   "title": "ディジタル回路：素数判定回路と順序回路",
+   "titleKind": "editorial",
+   "topics": [
+    "論理回路",
+    "CMOS",
+    "NAND",
+    "セレクタ",
+    "順序回路",
+    "状態遷移",
+    "D-FF"
+   ],
+   "summary": "两题：3/4 ビット素数判定回路を論理式・CMOS ゲート・NAND・セレクタで構成（図 1）；リセット付き 0→1→0→1 順序回路の状態遷移図・遷移表・論理式・D-FF による回路図（図 2、図 3）。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      65,
+      65,
+      515,
+      766
+     ],
+     "label": "[1] ディジタル回路：題号・1〜2 の全小問と図 1〜図 3"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [1]、1.(1)〜(7) と図 1（セレクタ）、2.(1)〜(4) と図 2（状態遷移）、図 3（D-FF）および図号を全部含む。下端は図 2・図 3 の図号まで。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2024-2-q2",
+   "number": "[2]",
+   "title": "量子力学：波束と一次元ポテンシャル",
+   "titleKind": "editorial",
+   "topics": [
+    "波動関数",
+    "期待値",
+    "不確定性関係",
+    "井戸型ポテンシャル",
+    "トンネル効果"
+   ],
+   "summary": "共通記号（i、ħ=h/2π）の下、1. ガウス型波束の位置・運動量期待値と不確定性、2. 一次元階段状ポテンシャル（図 1）の波動関数・固有条件・トンネル確率と振幅。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      86,
+      65,
+      535,
+      802
+     ],
+     "label": "[2] 量子力学：題号・共通記号・1〜2 の全小問と図 1"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [2]、冒頭の i・ħ の断り、1. の規格化波動関数と (1)(2)、2. の V(x) 式・k/κ 定義・(1)〜(3)、図 1 と図号を全部含む。下端は図 1 の x 軸・図号まで。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2024-2-q3",
+   "number": "[3]",
+   "title": "物性工学：格子振動と自由電子ガス",
+   "titleKind": "editorial",
+   "topics": [
+    "格子振動",
+    "分散関係",
+    "状態密度",
+    "フェルミ・ディラック分布",
+    "比熱"
+   ],
+   "summary": "两题：一次元格子の運動方程式・分散関係・周期的境界条件・振動モード数；自由電子ガスのフェルミ分布・状態密度・熱励起エネルギー増分・格子比熱と電子比熱の温度依存性。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      71,
+      69,
+      516,
+      730
+     ],
+     "label": "[3] 物性工学：題号・1〜2 の全小問"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [3]、1.(1)〜(4)、2.(1)〜(4) を全部含む。図なし。下端は 2.(4) の説明要求まで。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2024-2-q4",
+   "number": "[4]",
+   "title": "情報通信工学：OSI・Web・ハミング符号・線形伝送系",
+   "titleKind": "editorial",
+   "topics": [
+    "OSI 参照モデル",
+    "DNS/URL/HTTP",
+    "ハミング符号",
+    "ラプラス変換",
+    "伝達関数"
+   ],
+   "summary": "四题：OSI 7 層名称与第 3/4 層説明、DNS/URL/HTTP を用いた Web 閲覧の説明、7 ビットハミング符号のパリティ定義と誤り訂正、微分方程式で記述された線形伝送系の伝達関数・発振条件・ステップ応答。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      75,
+      58,
+      525,
+      743
+     ],
+     "label": "[4] 情報通信工学：題号・1〜4 の全小問"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [4]、1.、2.（DNS/URL/HTTP の語句）、3.(1)(2) と条件 1・2 および [例]、4.(1)〜(3) と微分方程式①・ステップ関数を全部含む。図なし。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2024-2-q5",
+   "number": "[5]",
+   "title": "光エレクトロニクス：回折積分と光学系",
+   "titleKind": "editorial",
+   "topics": [
+    "フレネル回折",
+    "フラウンホーファー回折",
+    "フーリエ変換",
+    "収差",
+    "フェルマーの原理"
+   ],
+   "summary": "两题：開口 S による回折の複素振幅積分（図 1）について波長と波数の関係、距離 R、フレネル近似、フラウンホーファー領域のフーリエ変換；球面を含む光学系の収差と光路長・フェルマーの原理を 100〜200 字で説明。中文标题与摘要仅供导航。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      87,
+      71,
+      519,
+      766
+     ],
+     "label": "[5] 光エレクトロニクス：題号・1〜2 の全小問と図 1"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison of 2x upright derived-page renders against each crop",
+    "date": "2026-11-14",
+    "notes": "対照 2x 直立ページ：題号 [5]、1. の積分式・記号説明・(1)〜(4)、図 1（開口面・観測面・図号）、2.(1)(2) を全部含む。下端は 2.(2) の行まで。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "巻表紙（試験名・日時・科目名）と受験上の注意。表紙は commonRegions に、本文は無い。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [],
+   "common": false,
+   "excluded": "白紙ページ（受験上の注意に「2 枚目は白紙」と明記）。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "hokkaido-joele-2024-2-q1"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "hokkaido-joele-2024-2-q2"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "hokkaido-joele-2024-2-q3"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "hokkaido-joele-2024-2-q4"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "hokkaido-joele-2024-2-q5"
+   ],
+   "common": false,
+   "excluded": "ページ余白のみ。",
+   "reviewed": true
+  }
+ ]
+}
