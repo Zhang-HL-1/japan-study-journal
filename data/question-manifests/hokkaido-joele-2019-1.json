@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "id": "hokkaido-joele-2019-1",
+ "title": "北海道大学 · 2019 入学年度 · 情報エレクトロニクスコース（専門科目1）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "hokkaido-joele-2019",
+  "schoolId": "hokkaido",
+  "school": "北海道大学",
+  "graduate": "情報科学院",
+  "major": "情報科学専攻／情報エレクトロニクスコース",
+  "year": 2019,
+  "yearBasis": "academic",
+  "subject": "専門科目1",
+  "originalSubject": "専門科目1",
+  "originalName": "2018-11-10-specialized-subject-1.pdf",
+  "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3.pdf",
+  "sha256": "8a3661e4a029c13f9995453f028ccdc5d81d447b27c8e7f3348bf4f27f6c3fe3",
+  "pageCount": 7,
+  "note": "catalog hokkaido-joele-2019 的「専門科目1」分册，7 页：封面＋白纸＋[1]–[5] 各 1 页。原卷封面印「平成30年11月10日」实施，paperYear 按 2019 入学年度记，不改成实施年。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    67,
+    45,
+    537,
+    760
+   ],
+   "label": "受験上の注意"
+  }
+ ],
+ "questions": [
+  {
+   "id": "hokkaido-joele-2019-1-q1",
+   "number": "[1]",
+   "title": "応用数学：固有値・ベクトル解析・微分方程式・フーリエ級数",
+   "titleKind": "editorial",
+   "topics": [
+    "固有値・固有ベクトル",
+    "ユニタリ行列",
+    "発散と回転",
+    "面積分",
+    "定係数線形微分方程式",
+    "フーリエ級数"
+   ],
+   "summary": "3 道独立小题：行列の対角化とユニタリ行列の行列式、ベクトル場の発散・回転と円柱側面の面積分、定係数 2 階微分方程式の一般解・特解、周期 2π 関数のフーリエ展開と π/4 級数。中文标题与摘要仅作导航，作答以日文原题为准。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      70,
+      50,
+      521,
+      594
+     ],
+     "label": "[1] 応用数学：題号・全小問（1.〜3.）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号 [1] 与 3 道小题（含固有値行列、面積分式、フーリエ級数）全部在框内；框已避开右上扫描噪点；页脚无页码。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2019-1-q2",
+   "number": "[2]",
+   "title": "半導体デバイス工学：pn 接合ダイオードと MOSFET",
+   "titleKind": "editorial",
+   "topics": [
+    "pn 接合",
+    "ダイオードの電流-電圧特性",
+    "内蔵電位",
+    "光吸収と光電流",
+    "MOSFET",
+    "相互コンダクタンス"
+   ],
+   "summary": "含物理常量与对数约定；1. 理想 pn 接合二极管 I-V 特性（线性/对数纵轴）、真性载流子密度与内蔵電位计算、光照射下的光電流；2. N 沟道 MOSFET 的剖面图、阈值电压定义、饱和区条件与漏电流、互导 gm。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      71,
+      44,
+      526,
+      684
+     ],
+     "label": "[2] 半導体デバイス工学：題号・常量约定・全小問（1.・2.）"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号、物理常量栏（q, kB, h, c, log 值）与 1.(1)–(5)、2.(1)–(4) 全在框内；右侧扫描噪点已排除；下标 N_D/N_A/C_ox 未被切边。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2019-1-q3",
+   "number": "[3]",
+   "title": "電磁気学：導体球と誘電体球殻、平行導線間の磁気力",
+   "titleKind": "editorial",
+   "topics": [
+    "導体球の電界",
+    "誘電体の分極",
+    "電位と静電エネルギー",
+    "アンペアの法則",
+    "平行導線間の単位長さあたりの力"
+   ],
+   "summary": "1. 真空中の帯電導体球に球殻状誘電体を貼り付けた系で、電界・分極・電位変化・静電エネルギー変化を求める；2. 逆向き電流を流した 2 本の平行直線導線について、原点の磁界と右側導線に働く単位長さあたりの力を求める。図 1・図 2 含む。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      67,
+      48,
+      520,
+      701
+     ],
+     "label": "[3] 電磁気学：題号・全小問（1.・2.）・図1・図2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号、两道德目、図1（導体球／誘電体）与図2（平行導線）及图号全在框内；ε0・μ0 下标完整；无页码。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2019-1-q4",
+   "number": "[4]",
+   "title": "電気回路：交流平均電力と複素電力・力率改善",
+   "titleKind": "editorial",
+   "topics": [
+    "交流瞬時電力",
+    "平均電力",
+    "複素電力",
+    "アドミタンス",
+    "力率と無効電力",
+    "キャパシタによる力率改善"
+   ],
+   "summary": "给定 v(t)=v_m sin(ωt+φ) 的交流电源与 R・L・C 回路：求电阻平均功率、证明 P=VI*、用 R,L,V,ω 表示複素電力、说明有效/皮相/無効電力与功率因数、解释高频时有效功率下降的原因，并在図2 并接电容后求使电压与电流同相的 C。図 1–図 3 含む。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      66,
+      48,
+      520,
+      768
+     ],
+     "label": "[4] 電気回路：題号・前提式・設問1.〜6.・図1〜図3"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号、v(t) 定义式、设问 1.–6. 及図1/図2/図3 三个电路图与图号全在框内；V*、Im{ } 等记号完整；页面高度 828，框底 768 已含图号并排除底部扫描斜线。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2019-1-q5",
+   "number": "[5]",
+   "title": "電子回路：MOS 差動増幅回路と演算増幅器",
+   "titleKind": "editorial",
+   "topics": [
+    "差動増幅回路",
+    "小信号等価回路",
+    "差動電圧利得",
+    "同相電圧利得",
+    "CMRR",
+    "演算増幅器",
+    "反転増幅回路",
+    "積分回路"
+   ],
+   "summary": "1. 共源极 gm 的 MOS 对管差动放大电路小信号等效电路：求漏电流、输出电压、差动/同相电压增益与 CMRR，并说明提高 CMRR 的方向；2. 有限增益 A 的运放反相放大电路：求 V−、V_OUT，A→∞ 时的增益与电路名称，以及 R1 换成电容 C 后的输出与电路名称。",
+   "regions": [
+    {
+     "page": 7,
+     "box": [
+      63,
+      42,
+      516,
+      752
+     ],
+     "label": "[5] 電子回路：題号・全小問（1.・2.）・図1・図2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review：2x 整页渲染对照裁图逐张核对",
+    "date": "2026-11-14",
+    "notes": "题号、1.(1)–(5)、2.(1)–(4)、図1（小信号等価回路）与図2（理想演算増幅器回路）及图号全在框内；V_OUT1/V_OUT2 下标与 CMRR=A_D/A_C 公式完整；无页码。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "封面：北海道大学大学院情報科学院 情報エレクトロニクスコース入学試験（平成30年11月10日）与「受験上の注意」栏，作 commonRegions；页脚「- 1 -」不入框。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [],
+   "common": false,
+   "excluded": "白纸页（受験上の注意所记「2 枚目は白紙」），无题目内容，不裁图。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "hokkaido-joele-2019-1-q1"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "hokkaido-joele-2019-1-q2"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "hokkaido-joele-2019-1-q3"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "hokkaido-joele-2019-1-q4"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "hokkaido-joele-2019-1-q5"
+   ],
+   "common": false,
+   "excluded": null,
+   "reviewed": true
+  }
+ ]
+}

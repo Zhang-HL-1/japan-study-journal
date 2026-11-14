@@ -1,0 +1,459 @@
+{
+ "schemaVersion": 1,
+ "id": "hokkaido-joele-2005-2",
+ "title": "北海道大学 · 2005 入学年度 · 情報エレクトロニクスコース（応用数学Ⅱ・物理学Ⅱ・電気電子工学）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "hokkaido-joele-2005",
+  "schoolId": "hokkaido",
+  "school": "北海道大学",
+  "graduate": "情報科学院",
+  "major": "情報科学専攻／情報エレクトロニクスコース",
+  "year": 2005,
+  "yearBasis": "academic",
+  "subject": "応用数学Ⅱ・物理学Ⅱ・電気電子工学",
+  "originalSubject": "応用数学Ⅱ・物理学Ⅱ・電気電子工学",
+  "originalName": "2004-08-24-applied-math-2-physics-2-electrical-electronic-engineering.pdf",
+  "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de.pdf",
+  "sha256": "bc2ebcec7021332095b6b89c1bad9d28a9364c6b2228af076a64792e6c2c47de",
+  "pageCount": 11,
+  "note": "来自既有过去问目录；2005 为入学年度（catalog paperYear）。原卷封面印平成16年实施日、未印年度；8月场按实施年+1 计为 2005 入学年度。"
+ },
+ "commonParts": [
+  {
+   "src": "assets/question-bank/hokkaido-joele-2005-2/common-01.png",
+   "page": 1,
+   "box": [
+    61,
+    60,
+    535,
+    762
+   ],
+   "width": 1186,
+   "height": 1755,
+   "label": "受験上の注意",
+   "sha256": "9d31ded148d4da3a71765aafe52e3b2759ebf6f78df2e3abf341311c3feef0f5"
+  }
+ ],
+ "questions": [
+  {
+   "id": "hokkaido-joele-2005-2-q1",
+   "number": "[1]",
+   "title": "複素関数（冪根・ローラン展開・留数）",
+   "titleKind": "editorial",
+   "topics": [
+    "複素関数"
+   ],
+   "summary": "複素数の冪根、cos72°、ローラン展開、留数定理による積分を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第2页整页：題号［1］、小問1.(1)(2)・2.・3. と式(1)、注記をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q1-01.png",
+     "page": 2,
+     "box": [
+      77,
+      47,
+      534,
+      720
+     ],
+     "width": 1143,
+     "height": 1683,
+     "label": "［1］応用数学Ⅱ 複素関数：題干・全小問・図表",
+     "sha256": "ec5287b172c1c02a49bd2ed0d285a1649b9dae7c7a193df88802d552e715881f"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2005-2-q2",
+   "number": "[2]",
+   "title": "数値解析（級数展開と数値積分）",
+   "titleKind": "editorial",
+   "topics": [
+    "数値解析"
+   ],
+   "summary": "指数関数の級数展開と誤差評価、長方形・台形近似を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第3页整页：題号［2］、3つの図(a)(b)(c) と図中記号、小問1.(1)(2)・2.(1)–(3) をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q2-01.png",
+     "page": 3,
+     "box": [
+      75,
+      41,
+      531,
+      732
+     ],
+     "width": 1141,
+     "height": 1728,
+     "label": "［2］応用数学Ⅱ 数値解析：題干・全小問・図表",
+     "sha256": "a7e993fbacb048f3f7f3ebfe5890731f76261accb33eb1ac7fb4bb9267ee4c0d"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2005-2-q3",
+   "number": "[3]",
+   "title": "量子力学（ド・ブロイ波と階段ポテンシャル）",
+   "titleKind": "editorial",
+   "topics": [
+    "量子力学"
+   ],
+   "summary": "ド・ブロイ波長、光の粒子性、階段ポテンシャルの反射率・透過率を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第4页整页：題号［3］、ポテンシャル図と軸、確率流の定義式、小問1.–3. をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q3-01.png",
+     "page": 4,
+     "box": [
+      74,
+      46,
+      531,
+      748
+     ],
+     "width": 1143,
+     "height": 1755,
+     "label": "［3］物理学Ⅱ 量子力学：題干・全小問・図表",
+     "sha256": "df864558322272734ce3513ff6aa58d41a61310b7d2c7ade0369873dfd2b84b1"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2005-2-q4",
+   "number": "[4]",
+   "title": "統計力学（熱力学関係式と調和振動子）",
+   "titleKind": "editorial",
+   "topics": [
+    "統計力学"
+   ],
+   "summary": "熱力学第一法則・Cp−Cv、磁性体の関係式、調和振動子の統計力学を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第5页整页：題号［4］、小問1.(1)(2)・2.(1)–(5) と全式をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q4-01.png",
+     "page": 5,
+     "box": [
+      74,
+      51,
+      529,
+      743
+     ],
+     "width": 1138,
+     "height": 1731,
+     "label": "［4］物理学Ⅱ 統計力学：題干・全小問・図表",
+     "sha256": "b41cf45ffa2e47e2788973677f5490f54029edf15f3495725efde3417e1f3bbc"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2005-2-q5",
+   "number": "[5]",
+   "title": "振動波動（弦の波動と強制振動）",
+   "titleKind": "editorial",
+   "topics": [
+    "振動・波動"
+   ],
+   "summary": "弦の波動方程式・定在波、ばね振り子の強制振動を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第6页整页：題号［5］、図1–図4 と図号、小問1.(1)–(4)・2.(1)–(3) をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q5-01.png",
+     "page": 6,
+     "box": [
+      74,
+      48,
+      533,
+      727
+     ],
+     "width": 1148,
+     "height": 1698,
+     "label": "［5］物理学Ⅱ 振動波動：題干・全小問・図表",
+     "sha256": "757b2b6e6f2d3d4dbeaea5175226be59fa2ee268718c726c43b62475109b0404"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2005-2-q6",
+   "number": "[6]",
+   "title": "制御工学（ブロック線図と安定性）",
+   "titleKind": "editorial",
+   "topics": [
+    "制御工学"
+   ],
+   "summary": "ブロック線図の簡単化・伝達関数、ナイキスト線図・ボード線図、安定性を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第7页整页：題号［6］、ブロック線図全体、小問1.–3. をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q6-01.png",
+     "page": 7,
+     "box": [
+      80,
+      46,
+      533,
+      486
+     ],
+     "width": 1133,
+     "height": 1100,
+     "label": "［6］電気電子工学 制御工学：題干・全小問・図表",
+     "sha256": "81ca61ab0d7c54bfcfb6b96b32d5b53934302eec4cb19745d0ad41fbed7d39b7"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2005-2-q7",
+   "number": "[7]",
+   "title": "物性工学（自由電子モデルとフェルミ球）",
+   "titleKind": "editorial",
+   "topics": [
+    "物性物理学"
+   ],
+   "summary": "自由電子モデル、パウリの排他律、周期的境界条件、フェルミ球を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第8页整页：題号［7］、導入文、小問1.–6. をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q7-01.png",
+     "page": 8,
+     "box": [
+      73,
+      47,
+      535,
+      563
+     ],
+     "width": 1156,
+     "height": 1291,
+     "label": "［7］電気電子工学 物性工学：題干・全小問・図表",
+     "sha256": "ab497b388a634ae3bd68fdc6e7a8c312404c43cc83e25da44f7c6513f76a2488"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2005-2-q8",
+   "number": "[8]",
+   "title": "電子デバイス（pn接合とMOSFET）",
+   "titleKind": "editorial",
+   "topics": [
+    "半導体デバイス"
+   ],
+   "summary": "pn接合の電流電圧特性・バンド図・拡散電位、MOSFET と CMOS を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第9页整页：題号［8］、導入文、小問1.(1)–(3)・2.(1)–(3) をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q8-01.png",
+     "page": 9,
+     "box": [
+      76,
+      45,
+      534,
+      612
+     ],
+     "width": 1145,
+     "height": 1418,
+     "label": "［8］電気電子工学 電子デバイス工学：題干・全小問・図表",
+     "sha256": "78dcc242bee03f83100c1a251da01d26e330a1b7010990b245eb28e25aff8748"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2005-2-q9",
+   "number": "[9]",
+   "title": "電子回路（演算増幅器による演算回路）",
+   "titleKind": "editorial",
+   "topics": [
+    "電子回路"
+   ],
+   "summary": "演算増幅器の特性・記号、加算・加减算・積分回路、微分方程式の回路構成を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第10页整页：題号［9］、演算増幅器の記号図、小問1.–4. と各式をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q9-01.png",
+     "page": 10,
+     "box": [
+      75,
+      64,
+      531,
+      750
+     ],
+     "width": 1141,
+     "height": 1715,
+     "label": "［9］電気電子工学 電子回路：題干・全小問・図表",
+     "sha256": "8688deed50aebb4dace17823622acbf8e4abf51d0f44064738490ff3384a61a1"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2005-2-q10",
+   "number": "[10]",
+   "title": "光エレクトロニクス（レーザーのコヒーレンス）",
+   "titleKind": "editorial",
+   "topics": [
+    "光エレクトロニクス"
+   ],
+   "summary": "レーザー光のコヒーレンス・応用・単一波長と強度を問う。 中文标题与概述仅用于导航，作答以日文原题为准。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual comparison against the full source page",
+    "date": "2026-11-14",
+    "notes": "对照原卷第11页整页：題号［10］、導入文、小問1.–3. をすべて含む。 裁框含题号与全部内容，下缘及左右留 5pt，未含页眉页脚页码。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2005-2/hokkaido-joele-2005-2-q10-01.png",
+     "page": 11,
+     "box": [
+      75,
+      46,
+      531,
+      307
+     ],
+     "width": 1141,
+     "height": 653,
+     "label": "［10］電気電子工学 光エレクトロニクス：題干・全小問・図表",
+     "sha256": "b37c7120f70601bd6e4bbb95297c4b6450d218e86be236f3b07d391d58e1f52e"
+    }
+   ]
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "巻頭表紙・受験上の注意のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q1"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q2"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q3"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q4"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q5"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q6"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  },
+  {
+   "page": 8,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q7"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  },
+  {
+   "page": 9,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q8"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  },
+  {
+   "page": 10,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q9"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  },
+  {
+   "page": 11,
+   "questionIds": [
+    "hokkaido-joele-2005-2-q10"
+   ],
+   "common": false,
+   "excluded": "頁余白のみ。題干・小問・図表はすべて裁図に含めた。",
+   "reviewed": true
+  }
+ ]
+}

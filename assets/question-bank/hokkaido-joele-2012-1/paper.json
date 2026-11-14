@@ -1,0 +1,317 @@
+{
+ "schemaVersion": 1,
+ "id": "hokkaido-joele-2012-1",
+ "title": "北海道大学 · 2012 入学年度 · 情報エレクトロニクスコース（専門科目1）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "hokkaido-joele-2012",
+  "schoolId": "hokkaido",
+  "school": "北海道大学",
+  "graduate": "情報科学院",
+  "major": "情報科学専攻／情報エレクトロニクスコース",
+  "year": 2012,
+  "yearBasis": "academic",
+  "subject": "専門科目1",
+  "originalSubject": "専門科目1",
+  "originalName": "2011-08-18-specialized-subject-1.pdf",
+  "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1.pdf",
+  "sha256": "755633267b65f3223fce0bcaa42829fde1adcf3f2717b8199bf49ce241a1e9b1",
+  "pageCount": 7,
+  "note": "2011-08-18 实施（封面印平成23年8月18日），按 8 月入学试验惯例记为 2012 入学年度；catalog 该 file 的 paperYear 同为 2012。原 PDF 无 /Rotate，未做派生。"
+ },
+ "commonParts": [
+  {
+   "src": "assets/question-bank/hokkaido-joele-2012-1/common-01.png",
+   "page": 1,
+   "box": [
+    80,
+    247,
+    542,
+    705
+   ],
+   "width": 1155,
+   "height": 1146,
+   "label": "受験上の注意",
+   "sha256": "990bd52380a4a4e589dba75c6c8dd103ace51a0b1296e20662338d0c557325f6"
+  }
+ ],
+ "questions": [
+  {
+   "id": "hokkaido-joele-2012-1-q1",
+   "number": "[1]",
+   "title": "応用数学Ⅰ：一次独立性・行列式と勾配・回転",
+   "titleKind": "editorial",
+   "topics": [
+    "線形独立",
+    "行列式",
+    "非正則行列",
+    "等高線",
+    "勾配",
+    "回転"
+   ],
+   "summary": "1. は一次独立・従属の定義に基づき、3×3 行列 S・T の行列式、T が非正則となる a、z の従属性を問う。2. は f(x,y)=x−2y、g(x,y)=x²+y² の等高線・grad・rot を問う。1. と 2. の両方をこの一題に含む。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual review of 2x page renders and every generated crop (read_image)",
+    "date": "2026-11-14",
+    "notes": "第2頁全体を一括裁切。見出し [1]、1.(1)–(5)、2.(1)–(4)、行列 S・T の添字と上付き、vec 記号まで含み、頁番号 - 2 - は除外。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2012-1/hokkaido-joele-2012-1-q1-01.png",
+     "page": 2,
+     "box": [
+      50,
+      56,
+      545,
+      738
+     ],
+     "width": 1238,
+     "height": 1705,
+     "label": "[1] 応用数学Ⅰ：1. 行列式と一次独立性、2. 等高線・勾配・回転",
+     "sha256": "47cfbcdafb4b8d270453c15a260b5d93de8de14c3d6793efc6c9b8d2aafacf1e"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2012-1-q2",
+   "number": "[2]",
+   "title": "応用数学Ⅱ：微分方程式の一般解",
+   "titleKind": "editorial",
+   "topics": [
+    "微分方程式",
+    "一般解",
+    "初期値問題"
+   ],
+   "summary": "1. は 1 階および 2 階の微分方程式 3 題の一般解、2. は y′′−2y′−3y=−10 sin x の一般解と y(0)=1, y′(0)=4 を満たす特解を問う。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual review of 2x page renders and every generated crop (read_image)",
+    "date": "2026-11-14",
+    "notes": "第3頁の見出しから 2. の末尾までを一括裁切。微分方程式のダッシュ記号・sin の引数・境界条件 y(0)=1, y′(0)=4 が欠けないことを確認。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2012-1/hokkaido-joele-2012-1-q2-01.png",
+     "page": 3,
+     "box": [
+      50,
+      56,
+      545,
+      380
+     ],
+     "width": 1238,
+     "height": 810,
+     "label": "[2] 応用数学Ⅱ：1.(1)–(3)、2. 境界条件付き特解",
+     "sha256": "a6549e1db2aeaeba5e96ff4525b9c3239af9c5a4fba6c1f9a28e3be55ac38843"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2012-1-q3",
+   "number": "[3]",
+   "title": "半導体デバイス工学：pn 接合・LED・MOS 構造",
+   "titleKind": "editorial",
+   "topics": [
+    "pn 接合",
+    "内蔵電位",
+    "発光ダイオード",
+    "MOS 容量",
+    "CMOS インバータ"
+   ],
+   "summary": "1. は Si 階段 pn 接合のバンド図・空乏層電荷分布と内蔵電位の導出、2. は直接遷移型 LED の発光原理と発光波長、3. は MOS 構造の酸化膜容量・強反転しきい値・CMOS インバータを問う。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual review of 2x page renders and every generated crop (read_image)",
+    "date": "2026-11-14",
+    "notes": "第4頁は最終行が頁番号 - 4 - の直上まで達するため、裁切下端を 768.0 pt として頁番号のインクを含めない。最終行 VDD/2 まで欠けがないことを確認。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2012-1/hokkaido-joele-2012-1-q3-01.png",
+     "page": 4,
+     "box": [
+      50,
+      56,
+      545,
+      769.5
+     ],
+     "width": 1238,
+     "height": 1784,
+     "label": "[3] 半導体デバイス工学：1.(1)(2)、2.、3.(1)–(3)",
+     "sha256": "17c4eac4c44118f34deda6fac33a0c21cbe9fae73e86f8ff77a37de796b0a4c4"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2012-1-q4",
+   "number": "[4]",
+   "title": "電磁気学：球状電荷分布と接地金属球殻",
+   "titleKind": "editorial",
+   "topics": [
+    "ガウスの法則",
+    "静電界",
+    "金属球殻",
+    "静電誘導",
+    "変位電流"
+   ],
+   "summary": "半径 R0 に一様分布する球状電荷の電界、金属球殻で包んだ場合の各領域の電界と表面電荷密度、接地時の電荷密度、中心振動・電荷密度振動に対する接地導線電流を問う。図1–図5 を含む。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual review of 2x page renders and every generated crop (read_image)",
+    "date": "2026-11-14",
+    "notes": "第5頁の見出しから図5 の図号までを一括裁切。図1–図5、σ1/σ2、D sin ωt、ρ(t)=ρ0 sin ωt、I の正方向の注記を確認。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2012-1/hokkaido-joele-2012-1-q4-01.png",
+     "page": 5,
+     "box": [
+      50,
+      56,
+      545,
+      747
+     ],
+     "width": 1238,
+     "height": 1728,
+     "label": "[4] 電磁気学：設問 (1)–(4) と図1–図5",
+     "sha256": "f3d71fed3e6f80445fc682c97a55194644709bdff4abb5ab694f42b9f7888ee5"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2012-1-q5",
+   "number": "[5]",
+   "title": "電気回路：交流ブリッジとインピーダンス整合",
+   "titleKind": "editorial",
+   "topics": [
+    "交流回路",
+    "ブリッジ平衡",
+    "インピーダンス",
+    "共振"
+   ],
+   "summary": "正弦波交流源・RLC 回路について、Z5 に電流が流れない条件、r2=0 のときの x4 の素子と定数、a-b 間が周波数によらず純抵抗 R となる条件、a-b 間電圧振幅が最大となる ω を問う。回路図を含む。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual review of 2x page renders and every generated crop (read_image)",
+    "date": "2026-11-14",
+    "notes": "第6頁の見出しから回路図下端（C0・E,ω）までを裁切。回路図の素子記号 r1/r3/L3/C2/Z5/Z4 と下端の頁番号 - 6 - が混入しないことを確認。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2012-1/hokkaido-joele-2012-1-q5-01.png",
+     "page": 6,
+     "box": [
+      50,
+      56,
+      545,
+      766.5
+     ],
+     "width": 1238,
+     "height": 1777,
+     "label": "[5] 電気回路：設問 (1)–(4) と回路図",
+     "sha256": "8d5a73318538d3b0af6a3d6536e1eae10e203072639c04fd52be41bb27b6d071"
+    }
+   ]
+  },
+  {
+   "id": "hokkaido-joele-2012-1-q6",
+   "number": "[6]",
+   "title": "電子回路：ドレイン接地増幅器と非反転増幅器",
+   "titleKind": "editorial",
+   "topics": [
+    "MOS FET",
+    "小信号等価回路",
+    "電圧利得",
+    "演算増幅器",
+    "非反転増幅"
+   ],
+   "summary": "1. は nMOS ドレイン接地増幅器の小信号等価回路から vgs、vout、電圧利得 AV と近似式を、2. は理想演算増幅器の非反転増幅回路の Vm、仮想短絡、Vo を問う。図1(a)(b)・図2 を含む。",
+   "review": {
+    "status": "verified",
+    "method": "AI visual review of 2x page renders and every generated crop (read_image)",
+    "date": "2026-11-14",
+    "notes": "第7頁の見出しから図2 の図号までを裁切。図1(a)(b) のラベル、gm vgs の従属電源、R1/R2、図2 の注記を確認。"
+   },
+   "parts": [
+    {
+     "src": "assets/question-bank/hokkaido-joele-2012-1/hokkaido-joele-2012-1-q6-01.png",
+     "page": 7,
+     "box": [
+      50,
+      56,
+      545,
+      747
+     ],
+     "width": 1238,
+     "height": 1728,
+     "label": "[6] 電子回路：1.(1)–(3)、図1、2.(1)–(3)、図2",
+     "sha256": "7e7acea0c03abfac5b6d141226298ff86745256baaae7ae3fc331fbd57929b0f"
+    }
+   ]
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "頁眉「専門1」・頁番号・余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "hokkaido-joele-2012-1-q1"
+   ],
+   "common": false,
+   "excluded": "頁眉「専門1」・頁番号・余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "hokkaido-joele-2012-1-q2"
+   ],
+   "common": false,
+   "excluded": "頁眉「専門1」・頁番号・余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "hokkaido-joele-2012-1-q3"
+   ],
+   "common": false,
+   "excluded": "頁眉「専門1」・頁番号・余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "hokkaido-joele-2012-1-q4"
+   ],
+   "common": false,
+   "excluded": "頁眉「専門1」・頁番号・余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "hokkaido-joele-2012-1-q5"
+   ],
+   "common": false,
+   "excluded": "頁眉「専門1」・頁番号・余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 7,
+   "questionIds": [
+    "hokkaido-joele-2012-1-q6"
+   ],
+   "common": false,
+   "excluded": "頁眉「専門1」・頁番号・余白のみ。",
+   "reviewed": true
+  }
+ ]
+}

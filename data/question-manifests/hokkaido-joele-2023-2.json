@@ -1,0 +1,266 @@
+{
+ "schemaVersion": 1,
+ "id": "hokkaido-joele-2023-2",
+ "title": "北海道大学 · 2023 入学年度 · 情報エレクトロニクスコース（専門科目2）",
+ "source": {
+  "kind": "exam",
+  "catalogId": "hokkaido-joele-2023",
+  "schoolId": "hokkaido",
+  "school": "北海道大学",
+  "graduate": "情報科学院",
+  "major": "情報科学専攻／情報エレクトロニクスコース",
+  "year": 2023,
+  "yearBasis": "academic",
+  "subject": "専門科目2",
+  "originalSubject": "専門科目2",
+  "originalName": "2022-08-18-specialized-subject-2.pdf",
+  "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-1/hokkaido/30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5.pdf",
+  "sha256": "30f3ac38a8ec4fe8c2984e7f330950009ab30c70465c8c81788a8af0ee8e83b5",
+  "pageCount": 6,
+  "note": "来自既有过去问目录 hokkaido-joele-2023（catalog 的 paperYear=2023，yearBasis=academic）。封面为令和4年8月18日実施・13:00～15:00 の専門科目2。封面写明本册含白纸共7枚，PDF 仅6页且第2页即设问，白纸未单独成页。PDF 第1页为表紙与受験上の注意，[1]～[5] 各占1页。未随卷提供解答。"
+ },
+ "renderScale": 2.5,
+ "commonRegions": [
+  {
+   "page": 1,
+   "box": [
+    128,
+    48,
+    477,
+    254
+   ],
+   "label": "表紙（試験名・日時・科目）"
+  },
+  {
+   "page": 1,
+   "box": [
+    82,
+    268,
+    548,
+    800
+   ],
+   "label": "受験上の注意"
+  }
+ ],
+ "questions": [
+  {
+   "id": "hokkaido-joele-2023-2-q1",
+   "number": "[1]",
+   "title": "ディジタル回路：全加算器とリップルキャリー加算器・D-FF 順序回路の状態遷移",
+   "titleKind": "editorial",
+   "topics": [
+    "全加算器",
+    "加算器",
+    "複合ゲート",
+    "順序回路",
+    "D フリップフロップ",
+    "状態遷移"
+   ],
+   "summary": "1. は全加算器の論理式からゲートレベル回路図、4 ビットリップルキャリー加算器、G_i/P_i 表示、桁上げの展開、複合ゲート回路を問う（図1 は全加算器の記号）。2. は非同期リセット付き D-F/F の順序回路（図2 記号、図3 回路、図4 状態遷移図の描き方）について次状態式・状態遷移表・Moore 型状態遷移図・動作説明を問う。全図と図号を同一 region に含める。",
+   "regions": [
+    {
+     "page": 2,
+     "box": [
+      67,
+      57,
+      520,
+      773
+     ],
+     "label": "[1] ディジタル回路：見出し・1.(1)〜(6)・図1・2.(1)〜(4)・図2〜図4"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "页首「[1] ディジタル回路」、1.(1)〜(6) と右側の図1（全加算器の記号、A_i B_i C_{i-1} / FA / S_i C_i）及び図号、2.(1)〜(4) と下部の図2（D-F/F の記号）、図4（状態遷移図の描き方）、図3（順序回路、CLK/CLR/A/Y と 2 個の D-F/F）及び各図号まで全て框内。図3 右端の Y 出力矢印まで入る。無頁脚。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2023-2-q2",
+   "number": "[2]",
+   "title": "量子力学：2 準位系の時間発展と固有状態・1 次元ポテンシャル中の粒子",
+   "titleKind": "editorial",
+   "topics": [
+    "ハミルトニアン",
+    "シュレディンガー方程式",
+    "固有値",
+    "固有状態",
+    "規格化",
+    "期待値"
+   ],
+   "summary": "冒頭に i を虚数単位、ℏ=h/2π とする指示。1. は Ĥ=diag(ε1, ε2) の 2 準位系で c1(t), c2(t) の時間発展、オブザーバブル σ̂ の固有ベクトル、λ1 が得られる確率を問う。2. は V(x)=∞ (x<0), v0 x (0≤x) の 1 次元ポテンシャルについて規格化定数 C とエネルギーの期待値を問う（図1）。",
+   "regions": [
+    {
+     "page": 3,
+     "box": [
+      74,
+      56,
+      533,
+      799
+     ],
+     "label": "[2] 量子力学：見出し・前置き・1.(1)〜(3)・2.(1)(2)・公式・図1"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "页首「[2] 量子力学」と i, ℏ の前置き、1.(1)〜(3)（Ĥ, |φ(t)⟩, c1(t)/c2(t) の指数関数、σ̂ と |λ1⟩, |λ2⟩、確率）、2. のポテンシャル定義・積分公式 ∫x^n e^{-sx}dx、ψ(x) の規格化・期待値、下部の図1（V=v0 x のグラフ）と「図1」の図号まで框内。框下缘距図号約 8pt，仍在頁内。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2023-2-q3",
+   "number": "[3]",
+   "title": "物性工学：自由電子モデルと電気伝導・バンド構造の有効質量・格子振動",
+   "titleKind": "editorial",
+   "topics": [
+    "自由電子モデル",
+    "ドルーデ方程式",
+    "電気伝導率",
+    "有効質量",
+    "群速度",
+    "格子振動",
+    "分散関係"
+   ],
+   "summary": "1. は面心立方の 1 価金属で電子密度、運動方程式 m dv/dt=-qF-ηv の定常速度と移動度、導電率、電場を切ってからの緩和時間を問う。2. は E(k)=E0-E1cos ka の 1 次元結晶で有効質量・群速度とそのグラフ・電場印加時の運動を論述。3. は 2 種類のバネで交互につながれた 1 次元格子（図1）の運動方程式と ω²-k 関係・分散曲線を問う。",
+   "regions": [
+    {
+     "page": 4,
+     "box": [
+      72,
+      55,
+      525,
+      782
+     ],
+     "label": "[3] 物性工学：見出し・1.(1)〜(4)・2.(1)(2)・3.(1)(2)・図1"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "页首「[3] 物性工学」、1.(1)〜(4)（式① と m dv/dt の式）、2.(1)(2)（E(k) の式と 200〜300 字の論述指示）、3.(1)(2)（式② と分散関係）、下部の図1（原子鎖 B1/B2, u_{n-1}, v_n, u_n, v_{n+1}, a）と「図1」の図号まで框内。無切字。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2023-2-q4",
+   "number": "[4]",
+   "title": "情報通信工学：OSI 7 階層・動画伝送の圧縮率・RC 回路のラプラス解析",
+   "titleKind": "editorial",
+   "topics": [
+    "OSI 参照モデル",
+    "データ圧縮率",
+    "ラプラス変換",
+    "過渡応答",
+    "RC 回路"
+   ],
+   "summary": "1. は OSI 7 階層モデルの全階層名とルーター／スイッチングハブの相当階層。2. は 4G ビット/秒の回線・2000×4000 画素・24 ビット/画素・伝送効率 25%・パケット構成から 30 枚/秒の動画のデータ圧縮率を求める。3. は図1 のスイッチ切替 RC 回路について (1)(2) のラプラス変換による v(t)、(3) v(t)=E/2 となる t0、(4) 図2 の切替波形の作図を問う。",
+   "regions": [
+    {
+     "page": 5,
+     "box": [
+      72,
+      49,
+      524,
+      771
+     ],
+     "label": "[4] 情報通信工学：見出し・1.・2.・3.(1)〜(4)・図1・図2"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "页首「[4] 情報通信工学」、1. OSI 階層、2. の数値条件（4G ビット/秒、2000×4000、24 ビット、25%、各パケット長）、3.(1)〜(4) と図1（スイッチ・E・R・C・v(t) の回路）及び図号、図2（0〜7t0 の波形）と図号まで框内。框下缘距図2 の図号約 8pt。"
+   }
+  },
+  {
+   "id": "hokkaido-joele-2023-2-q5",
+   "number": "[5]",
+   "title": "光エレクトロニクス：媒質中の光波・2 平面波の干渉・エアリーパターンとファブリ・ペロー干渉計",
+   "titleKind": "editorial",
+   "topics": [
+    "光波",
+    "屈折率",
+    "干渉",
+    "可視度",
+    "エアリーパターン",
+    "ファブリ・ペロー干渉計"
+   ],
+   "summary": "1. は真空中波長 650 nm のレーザ光について屈折率 1.50 の媒質中の波長・周波数・波数を計算。2. は同一角周波数 ω の 2 平面波の干渉で、z=0 の干渉光強度の表式 (A)、最大値・最小値、可視度 V を問う（図1）。3. はエアリーパターンとファブリ・ペロー干渉計を各 100〜200 字で説明。",
+   "regions": [
+    {
+     "page": 6,
+     "box": [
+      64,
+      60,
+      515,
+      734
+     ],
+     "label": "[5] 光エレクトロニクス：見出し・1.・2.(1)〜(3)・式(A)・図1・3.(1)(2)"
+    }
+   ],
+   "review": {
+    "status": "verified",
+    "method": "AI visual review: 2x page render compared with crop; box from ink projection",
+    "date": "2026-11-14",
+    "notes": "页首「[5] 光エレクトロニクス」、1. の数値条件、2. の平面波定義 u1, u2 と前置き、(1) の式 (A)（I(x) ∝ |U1|²+|U2|²+2|U1||U2|cos{(k1x-k2x)x+φ1-φ2}）、(2)(3) の I_max/I_min と可視度 V、右側の図1（u1, u2, x, z 軸）と図号、3.(1)(2) の記述問題まで框内。框下缘距 (2) の行約 9pt。"
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "page": 1,
+   "questionIds": [],
+   "common": true,
+   "excluded": "表紙（試験名・日時・科目）と受験上の注意のみ。両方を commonRegions に収録し、題目は含まない。",
+   "reviewed": true
+  },
+  {
+   "page": 2,
+   "questionIds": [
+    "hokkaido-joele-2023-2-q1"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 3,
+   "questionIds": [
+    "hokkaido-joele-2023-2-q2"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 4,
+   "questionIds": [
+    "hokkaido-joele-2023-2-q3"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 5,
+   "questionIds": [
+    "hokkaido-joele-2023-2-q4"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  },
+  {
+   "page": 6,
+   "questionIds": [
+    "hokkaido-joele-2023-2-q5"
+   ],
+   "common": false,
+   "excluded": "空白の頁余白のみ。",
+   "reviewed": true
+  }
+ ]
+}

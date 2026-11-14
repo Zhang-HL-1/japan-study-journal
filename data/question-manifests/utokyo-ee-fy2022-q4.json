@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-fy2022-q4",
+  "title": "东京大学 · 2022 年实施 · 電気系工学専攻 · 問題4",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-fy2022",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2022,
+    "yearBasis": "exam",
+    "subject": "逻辑与计算机",
+    "originalSubject": "問題4",
+    "originalName": "fy2022_s_ja_4.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871.pdf",
+    "sha256": "8e0c0df9a3044324027ce521514efe78cddef15493ba7f53e5239a1dbf7ed871",
+    "pageCount": 2,
+    "note": "2022年度（考试实施年度，yearBasis=exam）電気系工学専攻 問題4 的日文版。原 PDF 带 Sample 水印与样本说明，属后来加的样本标注，不改写试题，已在裁图中保留原样。同年度另有英文版（Problem 4），按用户要求只收日文版，英文版不重复收录。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [],
+  "questions": [
+    {
+      "id": "utokyo-ee-fy2022-q4-q1",
+      "number": "問題4",
+      "title": "逻辑与计算机：全加器的临界路径延迟、二分搜索树的 C 语言实现",
+      "titleKind": "editorial",
+      "topics": [
+        "全加器",
+        "临界路径",
+        "传播延迟",
+        "二分搜索树",
+        "C 语言"
+      ],
+      "summary": "含 I、II 两节。I 节：给出 AND/OR 50 ps、NOT 30 ps、XOR 80 ps 的门延迟，(1-i) 半加器 X 的真值表与仅用 AND/OR/NOT 的实现及临界路径；(1-ii) 可用全部门时延迟更小的 X；(1-iii) 由 CI、D、E 求 S、CO 的真值表与最小延迟全加器及整体临界路径；(2) 用全加器构造 3 位无符号加法器等。II 节：以二分搜索树管理学籍号的 C 程序，(1) 补全 add() 的空栏 A–C、(2) 按给定插入顺序画树、(3) 补全 enumerate() 的空栏 D–G、(4) 分 0/1/2 个子节点说明删除步骤、(5) 插入重复 sid 时 add() 的行为与问题、(6) 与有序数组相比的优缺点及复杂度量级。含图 1–5 与程序 1–3。两节同属一题。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            48.0,
+            76.0,
+            547.4,
+            736.9
+          ],
+          "label": "p1"
+        },
+        {
+          "page": 2,
+          "box": [
+            48.0,
+            68.3,
+            547.4,
+            765.0
+          ],
+          "label": "p2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-11-07",
+        "notes": "对照原卷第 1–2 页（日文版 問題4）：第 1 页首行「問題４」、I 节门延迟给定值（AND/OR 50 ps、NOT 30 ps、XOR 80 ps）、 (1-i)–(1-iii)、 (2)、 (3-i)(3-ii) 与图 1–4 及图号完整；第 2 页首行「II.」、 (1)–(6)、程序 1–3 的代码框（含空栏 A–G）与图 5（二分搜索树）完整，末行「…オーダーについて言及せよ．」无截断。文字框右边界与程序框右边界都在裁图内，未被切边。未混入英文版 Problem 4。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-fy2022-q4-q1"
+      ],
+      "common": false,
+      "excluded": "整页即本题；页脚无印刷页码，Sample 水印不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-fy2022-q4-q1"
+      ],
+      "common": false,
+      "excluded": "整页即本题；页脚无印刷页码，Sample 水印不计题。",
+      "reviewed": true
+    }
+  ]
+}

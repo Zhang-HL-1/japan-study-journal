@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "utokyo-ee-fy2022-q2",
+  "title": "东京大学 · 2022 年实施 · 電気系工学専攻 · 問題2",
+  "source": {
+    "kind": "exam",
+    "catalogId": "utokyo-ee-fy2022",
+    "schoolId": "utokyo",
+    "school": "東京大学",
+    "graduate": "工学系研究科",
+    "major": "電気系工学専攻",
+    "year": 2022,
+    "yearBasis": "exam",
+    "subject": "电路",
+    "originalSubject": "問題2",
+    "originalName": "fy2022_s_ja_2.pdf",
+    "pdf": "https://zhang-hl-1.github.io/japan-study-journal-papers-2/utokyo/2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be.pdf",
+    "sha256": "2646ba325876400e70c51e1f60f713c81b20c087b3d3332fb1dcd2a798c496be",
+    "pageCount": 2,
+    "note": "2022年度（考试实施年度，yearBasis=exam）電気系工学専攻 問題2 的日文版。原 PDF 带 Sample 水印与样本说明，属后来加的样本标注，不改写试题，已在裁图中保留原样。同年度另有英文版（Problem 2），按用户要求只收日文版，英文版不重复收录。"
+  },
+  "renderScale": 2.5,
+  "commonRegions": [],
+  "questions": [
+    {
+      "id": "utokyo-ee-fy2022-q2-q1",
+      "number": "問題2",
+      "title": "电路：无损耗传输线方程与终端匹配、MOSFET 电压放大电路",
+      "titleKind": "editorial",
+      "topics": [
+        "传输线",
+        "特性阻抗",
+        "反射",
+        "MOSFET",
+        "传递函数",
+        "波特图"
+      ],
+      "summary": "含 I、II 两节。I 节：单位长度 L、C 的无损耗传输线，等価回路如図1，(1-i) 微小区间的复数阻抗、(1-ii) 由 I、V 的一阶微分方程式（含 ω）、(1-iii) I、V 的二阶微分方程式、(1-iv) 一般解中 γ 与 Z0 的表达式；终端接 ZR 时 (2-i) 无反射的条件、(2-ii) 从输入端看的输入阻抗等。II 节：N 型 MOSFET 的 gm 与饱和区工作条件、小信号等価回路，(1) 用 VGS、ID、VTH 表示 gm、(2) 饱和区所需的负载电阻最大值、(3) 画小信号等価回路、(4) 求传递函数 Vout(s)/Vin(s)、(5) 画波德图、(6) 增益为 1 时的角频率。含图 1–5。两节同属一题。",
+      "regions": [
+        {
+          "page": 1,
+          "box": [
+            47.9,
+            76.2,
+            552.6,
+            701.6
+          ],
+          "label": "p1"
+        },
+        {
+          "page": 2,
+          "box": [
+            48.0,
+            69.1,
+            552.6,
+            753.2
+          ],
+          "label": "p2"
+        }
+      ],
+      "review": {
+        "status": "verified",
+        "method": "AI visual comparison against the full source page",
+        "date": "2026-11-07",
+        "notes": "对照原卷第 1–2 页（日文版 問題2）：第 1 页首行「問題２」、I 节 (1-i)–(1-iv)（含式 (i)(ii) 与 γ、Z0）、(2-i)(2-ii)（含 Zs 的空格式与 tanh 定义）、图 1 与图 2 及图号完整；第 2 页首行「II.」、MOSFET 题面 (1)–(6)、图 3（ID–VDS 特性）、图 4（小信号等価回路）、图 5（放大电路）与凡例完整，末行「…求めた角周波数を求めよ。」无截断。未混入英文版 Problem 2。"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "page": 1,
+      "questionIds": [
+        "utokyo-ee-fy2022-q2-q1"
+      ],
+      "common": false,
+      "excluded": "整页即本题；页脚无印刷页码，Sample 水印不计题。",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "questionIds": [
+        "utokyo-ee-fy2022-q2-q1"
+      ],
+      "common": false,
+      "excluded": "整页即本题；页脚无印刷页码，Sample 水印不计题。",
+      "reviewed": true
+    }
+  ]
+}
