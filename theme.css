@@ -1,0 +1,304 @@
+/*
+ * 留日手记 · 统一主题（象牙白 + 陶土橙）
+ * 最后加载，只覆盖视觉表现：颜色、字体、圆角、间距与状态，不改变布局逻辑与数据。
+ * 回滚：从各页面移除 theme.css 的 <link> 即可恢复原样。
+ */
+:root {
+  /* 纸面 */
+  --paper: #faf9f5;
+  --paper-deep: #f0eee6;
+  --surface: #fffefb;
+  --surface-hover: #ffffff;
+  --panel: #f3f1ea;
+  --clay-wash: #f6ebe3;
+
+  /* 墨色 */
+  --ink: #141413;
+  --ink-body: #3d3d3a;
+  --muted: #6b6a64;
+  --faint: #8c8a82;
+  --line: #e6e3d9;
+  --line-strong: #d3cfc3;
+
+  /* 陶土橙：底色用 --clay，小字用 --clay-ink（对比度足够） */
+  --clay: #d97757;
+  --clay-deep: #c96442;
+  --clay-ink: #b0502f;
+  --accent: var(--clay-ink);
+  --accent-soft: var(--clay);
+  --green: var(--clay-deep);
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --serif: "Study Serif", "Noto Serif SC", "Songti SC", "STSong", "Yu Mincho", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+html { background: var(--paper); }
+body {
+  background: var(--paper);
+  color: var(--ink-body);
+  font-family: var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: #f0d3c4; color: var(--ink); }
+:focus-visible { outline: 2px solid var(--clay); outline-offset: 3px; }
+
+/* ---------- 标题统一用衬线体 ---------- */
+h1, h2,
+.path-copy h2, .tools-heading h2, .scope-section-heading h2,
+.papers-heading h1, .desk-intro h1, .hub-intro h1, .map-heading h1 {
+  font-family: var(--serif);
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: -.02em;
+}
+h1 em, h2 em, .room-hero h1 em, .practice-intro h1 em { font-style: normal; color: var(--clay-deep); }
+
+/* 眉标：统一小号字距 */
+.eyebrow, .scope-kicker, .path-top, .path-japanese, .answer-book-kicker {
+  color: var(--faint);
+  letter-spacing: .12em;
+}
+.eyebrow-line { background: var(--clay); }
+
+/* ---------- 顶部导航 ---------- */
+.site-header, .site-top { border-bottom-color: var(--line); }
+.brand { color: var(--ink); font-weight: 600; }
+.brand-mark, .site-top .brand i { background: var(--clay); }
+.main-nav a, .site-top nav a { color: var(--muted); transition: color .2s; }
+.main-nav a:hover, .site-top nav a:hover { color: var(--ink); text-decoration: none; }
+.main-nav a.is-active { color: var(--ink); }
+.main-nav a::after { background: var(--clay); }
+
+/* ---------- 按钮 ---------- */
+.editorial-button, .primary-button, button.primary, .question-nav .primary {
+  background: var(--clay-deep);
+  border-color: var(--clay-deep);
+  color: #fffdf9;
+  border-radius: 10px;
+  transition: background .2s, border-color .2s, transform .2s var(--ease);
+}
+.editorial-button:hover, .primary-button:hover, button.primary:hover {
+  background: #b5573a;
+  border-color: #b5573a;
+  color: #fffdf9;
+}
+.secondary-button, .plain-button {
+  border-radius: var(--radius-sm);
+}
+.secondary-button {
+  background: var(--surface);
+  border-color: var(--line-strong);
+  color: var(--ink-body);
+}
+.secondary-button:hover { border-color: var(--clay); color: var(--ink); background: var(--surface-hover); }
+.secondary-button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.quiet-link:hover { color: var(--clay-ink); }
+
+/* ---------- 表单 ---------- */
+select, input[type="text"], input[type="search"], input:not([type]), textarea {
+  border-color: var(--line-strong);
+  border-radius: var(--radius-sm);
+  background-color: var(--surface);
+  color: var(--ink);
+  transition: border-color .2s, box-shadow .2s;
+}
+select:hover, input[type="text"]:hover, input[type="search"]:hover, textarea:hover { border-color: #bdb8aa; }
+select:focus, input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--clay);
+  box-shadow: 0 0 0 3px rgba(217, 119, 87, .16);
+}
+
+/* ---------- 大入口卡片（首页 / 练习室） ---------- */
+.room-path, .room-path--drill, .room-path--answers, .desk-card {
+  background: var(--paper-deep);
+  border: 1px solid transparent;
+  border-radius: 16px;
+  transition: transform .35s var(--ease), border-color .3s, background .3s;
+}
+.room-path--drill, .desk-card--practice { background: var(--clay-wash); }
+.room-path:hover, .room-path--drill:hover, .room-path--answers:hover, .desk-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--line-strong);
+  box-shadow: 0 10px 30px -18px rgba(20, 20, 19, .25);
+}
+.path-badge { border-color: var(--line-strong) !important; background: rgba(255, 255, 255, .5); color: var(--muted); }
+.path-bottom, .room-path--drill .path-bottom, .room-path--answers .path-bottom { border-top-color: rgba(20, 20, 19, .1); }
+.path-copy > p:last-child { color: var(--muted); }
+.room-spark { color: var(--clay); }
+
+/* ---------- 列表卡片：过去问 ---------- */
+.paper-results { gap: 12px; }
+.paper-result {
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas: "meta meta" "title go" "sub go";
+  column-gap: 24px;
+  row-gap: 6px;
+  padding: 20px 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  transition: border-color .2s, transform .25s var(--ease), box-shadow .25s;
+}
+.paper-result > small:first-child {
+  grid-area: meta;
+  justify-self: start;
+  font-size: 11.5px;
+  letter-spacing: .04em;
+  color: var(--clay-ink);
+  background: var(--clay-wash);
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 4px;
+}
+.paper-result strong {
+  grid-area: title;
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.paper-result span { grid-area: sub; font-size: 12.5px; color: var(--muted); }
+.paper-result > small:last-child {
+  grid-area: go;
+  align-self: center;
+  font-size: 12.5px;
+  color: var(--muted);
+  white-space: nowrap;
+  transition: color .2s, transform .25s var(--ease);
+}
+.paper-result:hover, .paper-result[aria-pressed="true"] {
+  background: var(--surface-hover);
+  border-color: var(--line-strong);
+  box-shadow: 0 8px 24px -18px rgba(20, 20, 19, .3);
+}
+.paper-result:hover > small:last-child { color: var(--clay-ink); transform: translateX(3px); }
+.paper-result[aria-pressed="true"] { border-color: var(--clay); }
+
+/* ---------- 列表卡片：考试范围 ---------- */
+.scope-result {
+  background: var(--surface);
+  border-color: var(--line);
+  border-radius: var(--radius);
+  transition: border-color .2s, box-shadow .25s;
+}
+.scope-result strong { font-family: var(--serif); font-weight: 500; color: var(--ink); }
+.scope-result:hover { border-color: var(--line-strong); background: var(--surface-hover); }
+.scope-result[aria-pressed="true"] { border-color: var(--clay); background: var(--surface-hover); box-shadow: inset 3px 0 0 var(--clay); }
+.scope-status { background: var(--panel); border-color: transparent; border-radius: var(--radius); }
+.status-dot { background: var(--clay); }
+
+/* ---------- 筛选面板（过去问 / 考试范围 / 刷题） ---------- */
+.paper-filter-panel, .scope-filters, .filter-panel {
+  background: var(--panel);
+  border: 1px solid transparent;
+  border-radius: 14px;
+  font-family: var(--sans);
+}
+.paper-filter-heading h2, .scope-filter-heading h3, .panel-heading h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  color: var(--ink);
+}
+.paper-filter-heading button, .scope-plain, .plain-button { color: var(--clay-ink); }
+.admission-switch button[aria-pressed="true"],
+.papers-shortcuts .paper-school[aria-pressed="true"],
+.school-bar button[aria-pressed="true"],
+.scope-tabs button[aria-pressed='true'] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+.papers-shortcuts .paper-school:hover { background: var(--paper-deep); border-color: var(--line-strong); }
+.papers-shortcuts, .school-shortcuts { border-color: var(--line); }
+
+/* 统计大数字统一衬线 */
+.papers-total strong, .papers-total b, #paper-total, .edition strong, .scope-result-bar strong, .scope-section-heading strong {
+  font-family: var(--serif);
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* ---------- 书桌页：与其他页面左右对齐 ---------- */
+.desk-main { width: min(100% - 5rem, 76rem); }
+.desk-notice { background: var(--panel); border-left-color: var(--clay); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+.desk-empty { border-color: var(--line-strong); border-radius: 16px; background: var(--surface); }
+
+/* ---------- 院校资料 ---------- */
+.hub-card { background: var(--surface); border-color: var(--line); border-radius: var(--radius); transition: border-color .2s, transform .25s var(--ease); }
+.hub-card:hover { border-color: var(--line-strong); transform: translateY(-2px); }
+.hub-card h2, .hub-card h3 { font-family: var(--serif); font-weight: 500; }
+.hub-card-action { color: var(--clay-ink); }
+
+/* ---------- 逐题练习页（独立样式表）对齐全站 ---------- */
+.site-top nav { font-size: 13px; }
+#back-to-practice {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink-body);
+  font-weight: 500;
+}
+#back-to-practice:hover { border-color: var(--clay); color: var(--clay-ink); text-decoration: none; }
+.question-nav button:not(.primary), .workspace-bar button, #bookmark, #enlarge, #export-records {
+  background: var(--surface);
+  border-color: var(--line-strong);
+}
+.question-nav button:not(.primary):hover, .workspace-bar button:hover, #bookmark:hover, #enlarge:hover, #export-records:hover {
+  background: var(--surface-hover);
+  border-color: var(--clay);
+}
+
+/* ---------- 大学院地图：与全站同宽，标记用陶土橙 ---------- */
+.campus-page { width: min(100% - 5rem, 76rem); max-width: none; padding-left: 0; padding-right: 0; }
+.map-layout { border-color: var(--line); border-radius: var(--radius); background: var(--surface); }
+.map-panel { background: var(--paper-deep); }
+.map-marker::before { background: var(--clay); border-color: var(--surface); }
+.map-marker.cluster::before { background: var(--ink); }
+.map-marker.selected::before { box-shadow: 0 0 0 5px rgba(217, 119, 87, .25); }
+.intro .eyebrow { color: var(--faint); }
+.intro .eyebrow span { background: var(--clay-wash); color: var(--clay-ink); }
+.intro h1 { font-family: var(--serif); }
+.intro-note { border-left-color: var(--line); }
+#paper-chooser a {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  transition: border-color .2s, box-shadow .25s;
+}
+#paper-chooser a:hover { text-decoration: none; border-color: var(--line-strong); box-shadow: 0 8px 24px -18px rgba(20, 20, 19, .3); }
+#paper-chooser a strong { font-family: var(--serif); font-weight: 500; color: var(--ink); }
+#paper-chooser a span { color: var(--muted); }
+.sidebar { background: var(--panel); border-color: transparent; }
+.question-card { border-color: var(--line); border-radius: 14px; }
+progress { accent-color: var(--clay); }
+
+/* ---------- 页脚 ---------- */
+.site-footer { border-top-color: var(--line); color: var(--muted); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+  .room-path:hover, .desk-card:hover, .hub-card:hover { transform: none; }
+}
+
+@media (max-width: 760px) {
+  .desk-main { width: min(100% - 2rem, 76rem); }
+  .paper-result {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "meta" "title" "sub" "go";
+    padding: 16px 18px;
+  }
+  .paper-result > small:last-child { justify-self: start; }
+  .campus-page { width: min(100% - 2rem, 76rem); }
+  /* 手机端筛选改两栏，第一屏能看到结果 */
+  .paper-filter-panel { padding: 1rem; }
+  .paper-filter-panel .papers-filters { grid-template-columns: 1fr 1fr; gap: .75rem; }
+  .paper-filter-panel .papers-filters > :is(.paper-keyword-label, .paper-school-hub-link),
+  .paper-filter-panel .papers-filters > :last-child { grid-column: 1 / -1; }
+  .paper-filter-panel .papers-filters :is(select, input) { min-height: 44px; font-size: 14px; }
+}
