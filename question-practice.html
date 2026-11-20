@@ -6,10 +6,10 @@
   <meta name="description" content="按已接入的过去问逐题练习：直接阅读日文原题，保留公式、配图和出处。">
   <meta name="theme-color" content="#faf9f5">
   <link rel="stylesheet" href="question-practice.css?v=20261028-year-nav">
-  <link rel="stylesheet" href="theme.css?v=20261120-motion">
+  <link rel="stylesheet" href="theme.css?v=20261120-keys">
   <script src="question-bank.js?v=20261030-year-direction" defer></script>
   <script src="resume.js?v=20261120-resume" defer></script>
-  <script src="question-practice.js?v=20261120-resume" defer></script>
+  <script src="question-practice.js?v=20261120-keys" defer></script>
 </head>
 <body>
   <a class="skip" href="#question">跳到题目</a>
@@ -28,7 +28,7 @@
         <details class="source-info"><summary>关于这份试卷</summary><p id="source-note"></p><p>中文标题与标签用于导航，不替代原题。题干尚未转为可复制文字；小屏幕可点击题图放大。</p><a id="catalog-link">查看原卷目录 ↗</a></details>
       </aside>
       <section class="workspace" aria-label="逐题练习">
-        <div class="workspace-bar"><span id="position"></span><button id="focus-mode" type="button" aria-pressed="false">专注模式</button></div>
+        <div class="workspace-bar"><span id="position"></span><div class="workspace-actions"><button id="show-shortcuts" class="shortcut-button" type="button" aria-haspopup="dialog" title="键盘快捷键（?）">快捷键 <kbd>?</kbd></button><button id="focus-mode" type="button" aria-pressed="false">专注模式</button></div></div>
         <article id="question" class="question-card" tabindex="-1">
           <div class="question-head"><div><p id="question-number" class="eyebrow"></p><h2 id="question-title"></h2></div><button id="bookmark" type="button" aria-pressed="false">☆ 收藏</button></div>
           <div id="topics" class="topics"></div>
@@ -36,7 +36,7 @@
           <details class="common" open><summary>全卷共用条件</summary><div id="common-content"></div></details>
           <div class="reading-tools"><span>原题正文</span><button id="enlarge" type="button">放大阅读 ↗</button></div>
           <div id="question-content" class="question-content"></div>
-          <p class="image-help">点击任一题图可放大。所有题干、公式和配图均裁自原卷。</p>
+          <p class="image-help">点击任一题图可放大。所有题干、公式和配图均裁自原卷。<span class="swipe-hint">在手机上左右滑动可切换题目。</span></p>
           <details class="notes" id="notes"><summary>我的笔记 <span id="note-status"></span></summary><label for="question-note" class="sr-only">本题笔记</label><textarea id="question-note" rows="4" maxlength="6000" placeholder="记录思路、卡住的位置，或下次要复习的内容……"></textarea></details>
           <div class="completion-row"><button id="complete" class="primary" type="button">标记本题已练习</button><span id="completion-status" role="status"></span></div>
         </article>
@@ -48,6 +48,15 @@
     <noscript><p class="message">请启用 JavaScript，或从过去问页面打开原卷。</p></noscript>
   </main>
   <dialog id="image-dialog" aria-labelledby="zoom-title"><div class="zoom-bar"><h2 id="zoom-title">原题放大阅读</h2><div><button id="zoom-out" type="button" aria-label="缩小题图">−</button><span id="zoom-level"></span><button id="zoom-in" type="button" aria-label="放大题图">＋</button><button id="close-zoom" type="button">关闭 ×</button></div></div><p class="zoom-hint">可横向与纵向滚动查看；Esc 关闭。</p><div id="zoom-scroll" tabindex="0" aria-label="可滚动的放大题图"><div id="zoom-content"></div></div></dialog>
+  <dialog id="shortcut-dialog" class="shortcut-dialog" aria-labelledby="shortcut-title"><h2 id="shortcut-title">键盘快捷键</h2><dl>
+    <div><dt><kbd>←</kbd> <kbd>→</kbd></dt><dd>上一题 / 下一题</dd></div>
+    <div><dt><kbd>Shift</kbd> + <kbd>←</kbd> <kbd>→</kbd></dt><dd>上一卷 / 下一卷（相邻年份）</dd></div>
+    <div><dt><kbd>D</kbd></dt><dd>标记 / 取消本题已练习</dd></div>
+    <div><dt><kbd>F</kbd></dt><dd>收藏 / 取消收藏</dd></div>
+    <div><dt><kbd>N</kbd></dt><dd>打开笔记</dd></div>
+    <div><dt><kbd>Z</kbd></dt><dd>放大阅读题图</dd></div>
+    <div><dt><kbd>?</kbd></dt><dd>显示本说明</dd></div>
+  </dl><p>在笔记框里输入时快捷键不生效；按 <kbd>Esc</kbd> 关闭窗口。</p><button id="close-shortcuts" type="button">知道了</button></dialog>
   <footer>留日手记 <span>从原题出发，把每一步练扎实。</span></footer>
 </body>
 </html>
