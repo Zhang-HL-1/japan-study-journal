@@ -57,3 +57,11 @@ Avoid: photorealism, fine technical line art, stock-vector polish, 3D, gradients
 - 书桌页、大学院地图页与全站同宽对齐；手机端过去问筛选改为两栏。
 - 考试范围页插图另存为 `assets/exam-guide-oat.webp`（薄荷绿底换成燕麦色），原图 `assets/exam-guide.webp` 保留。
 - 回滚：删除各页面中 `theme.css` 的 `<link>`，并把 `exam-scope.html` 的插图改回原文件；改版前备份分支为 `backup/pre-claude-polish-20261120`。
+
+## 2026-11-20 交互第一批
+
+- **继续上次**：`resume.js` 在逐题练习换题时记住位置，存于独立键 `japan-study-journal:last-question:v1`（只含卷 ID、题 ID、标题与时间）。首页与练习室显示「继续上次」卡片；无记录时隐藏。不改逐题／整卷练习记录与 Gist 同步。
+- **已选条件小标签**：过去问列表上方显示学校、研究科、专攻、年份与关键词，点 × 单独移除，两项以上显示「清除全部」。筛选本来就写入网址（`study-navigation.js`），可直接分享与后退。
+- **结果过渡**：筛选变化后前 12 张卡片依次淡入（约 22ms 间隔），首屏加载不播放。
+- **完成反馈**：标记本题已练习时，陶土橙圆圈内描线打勾，进度条轻微发光一次。
+- 所有动画遵守系统「减少动态效果」设置。

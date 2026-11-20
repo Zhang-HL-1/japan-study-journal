@@ -281,12 +281,71 @@ progress { accent-color: var(--clay); }
 /* ---------- 页脚 ---------- */
 .site-footer { border-top-color: var(--line); color: var(--muted); }
 
+/* ---------- 交互第一批：继续上次 / 已选条件 / 列表过渡 / 完成反馈 ---------- */
+.study-resume { margin-top: 1.6rem; max-width: 34rem; }
+.room-hero .study-resume { margin-top: 1.4rem; }
+.resume-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .4rem 1.1rem;
+  padding: .85rem 1.1rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--ink-body);
+  text-decoration: none;
+  transition: border-color .2s, box-shadow .25s, transform .25s var(--ease);
+  animation: rise-in .45s var(--ease) both;
+}
+.resume-card:hover { border-color: var(--clay); box-shadow: 0 8px 24px -18px rgba(20, 20, 19, .3); text-decoration: none; }
+.resume-label { font-size: .72rem; letter-spacing: .06em; color: var(--clay-ink); background: var(--clay-wash); border-radius: 999px; padding: .2rem .65rem; white-space: nowrap; }
+.resume-label small { color: var(--muted); font-size: inherit; letter-spacing: 0; }
+.resume-body { display: grid; min-width: 0; }
+.resume-title { font-family: var(--serif); font-weight: 500; color: var(--ink); font-size: .98rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.resume-meta { font-size: .74rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.resume-arrow { color: var(--muted); transition: transform .25s var(--ease), color .2s; }
+.resume-card:hover .resume-arrow { color: var(--clay-ink); transform: translateX(3px); }
+
+.filter-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.filter-chip, .filter-chip-clear {
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 34px; padding: 4px 8px 4px 12px;
+  border: 1px solid var(--line-strong); border-radius: 999px;
+  background: var(--surface); color: var(--ink-body);
+  font: inherit; font-size: 12.5px; cursor: pointer;
+  animation: chip-in .22s var(--ease) both;
+  transition: border-color .2s, background .2s, color .2s;
+}
+.filter-chip-x { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; color: var(--muted); font-size: 13px; line-height: 1; transition: background .2s, color .2s; }
+.filter-chip:hover { border-color: var(--clay); }
+.filter-chip:hover .filter-chip-x { background: var(--clay); color: #fffdf9; }
+.filter-chip-clear { border-style: dashed; padding-right: 12px; color: var(--muted); background: transparent; }
+.filter-chip-clear:hover { color: var(--clay-ink); border-color: var(--clay); }
+
+.paper-results.is-refreshing > :nth-child(-n+12) { animation: rise-in .32s var(--ease) both; animation-delay: calc(var(--i, 0) * 22ms); }
+
+#completion-status { display: inline-flex; align-items: center; gap: 8px; color: var(--clay-ink); }
+.done-check { width: 20px; height: 20px; flex: none; }
+.done-check circle { fill: var(--clay-wash); stroke: var(--clay); stroke-width: 1.4; }
+.done-check path { fill: none; stroke: var(--clay-deep); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 14; stroke-dashoffset: 0; }
+#completion-status.is-fresh .done-check { animation: pop .38s var(--ease) both; }
+#completion-status.is-fresh .done-check path { animation: draw .42s .12s var(--ease) both; }
+.progress-box.is-fresh progress { animation: pulse-bar .6s var(--ease); }
+
+@keyframes rise-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes chip-in { from { opacity: 0; transform: scale(.94); } to { opacity: 1; transform: none; } }
+@keyframes pop { 0% { transform: scale(.6); opacity: 0; } 70% { transform: scale(1.08); opacity: 1; } 100% { transform: scale(1); } }
+@keyframes draw { from { stroke-dashoffset: 14; } to { stroke-dashoffset: 0; } }
+@keyframes pulse-bar { 0% { filter: none; } 40% { filter: drop-shadow(0 0 6px rgba(217, 119, 87, .55)); } 100% { filter: none; } }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
   .room-path:hover, .desk-card:hover, .hub-card:hover { transform: none; }
 }
 
 @media (max-width: 760px) {
+  .study-resume { max-width: none; }
   .desk-main { width: min(100% - 2rem, 76rem); }
   .paper-result {
     grid-template-columns: minmax(0, 1fr);
