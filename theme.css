@@ -45,6 +45,8 @@ body {
 }
 ::selection { background: #f0d3c4; color: var(--ink); }
 :focus-visible { outline: 2px solid var(--clay); outline-offset: 3px; }
+/* 程序跳转聚焦的区域（tabindex=-1，如题目卡片、详情面板）不显示焦点框 */
+[tabindex="-1"]:focus, [tabindex="-1"]:focus-visible { outline: none; }
 
 /* ---------- 标题统一用衬线体 ---------- */
 h1, h2,
@@ -338,6 +340,48 @@ progress { accent-color: var(--clay); }
 @keyframes pop { 0% { transform: scale(.6); opacity: 0; } 70% { transform: scale(1.08); opacity: 1; } 100% { transform: scale(1); } }
 @keyframes draw { from { stroke-dashoffset: 14; } to { stroke-dashoffset: 0; } }
 @keyframes pulse-bar { 0% { filter: none; } 40% { filter: drop-shadow(0 0 6px rgba(217, 119, 87, .55)); } 100% { filter: none; } }
+
+/* ---------- 交互第二批：快捷键 / 滑动换题 / 长列表 ---------- */
+.workspace-actions { display: flex; align-items: center; gap: 6px; }
+.shortcut-button { display: inline-flex; align-items: center; gap: 6px; }
+kbd {
+  display: inline-block; min-width: 1.6em; padding: 1px 6px;
+  font: 500 11.5px/1.6 var(--sans); text-align: center; color: var(--ink-body);
+  background: var(--surface); border: 1px solid var(--line-strong); border-bottom-width: 2px; border-radius: 6px;
+}
+dialog.shortcut-dialog {
+  width: min(440px, calc(100vw - 32px)); height: fit-content; max-height: 90dvh; overflow: auto;
+  padding: 26px 28px 22px; border: 1px solid var(--line); border-radius: 16px;
+  background: var(--paper); color: var(--ink-body);
+  box-shadow: 0 30px 60px -30px rgba(20, 20, 19, .45);
+}
+dialog.shortcut-dialog[open] { animation: rise-in .25s var(--ease) both; }
+.shortcut-dialog::backdrop { background: rgba(20, 20, 19, .35); }
+.shortcut-dialog h2 { font-size: 20px; margin: 0 0 16px; }
+.shortcut-dialog dl { display: grid; gap: 10px; margin: 0; }
+.shortcut-dialog dl > div { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 12px; align-items: center; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.shortcut-dialog dt { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.shortcut-dialog dd { margin: 0; font-size: 13px; }
+.shortcut-dialog p { font-size: 12px; color: var(--muted); line-height: 1.8; margin: 14px 0 16px; }
+.shortcut-dialog button { width: 100%; background: var(--ink); border-color: var(--ink); color: var(--paper); border-radius: 10px; }
+.shortcut-dialog button:hover { background: #33322f; border-color: #33322f; color: var(--paper); }
+
+.question-content.slide-next { animation: slide-from-right .3s var(--ease) both; }
+.question-content.slide-previous { animation: slide-from-left .3s var(--ease) both; }
+@keyframes slide-from-right { from { opacity: 0; transform: translateX(18px); } to { opacity: 1; transform: none; } }
+@keyframes slide-from-left { from { opacity: 0; transform: translateX(-18px); } to { opacity: 1; transform: none; } }
+
+.swipe-hint { display: none; }
+@media (hover: none) and (pointer: coarse) {
+  .swipe-hint { display: inline; margin-left: .3em; color: var(--clay-ink); }
+  .shortcut-button { display: none; }
+}
+
+/* 长列表：屏幕外的卡片跳过排版与绘制，元素仍在页面中（搜索、无障碍、测试不受影响） */
+.paper-result, .scope-result, .campus-row { content-visibility: auto; contain-intrinsic-size: auto 120px; }
+.scope-result { contain-intrinsic-size: auto 110px; }
+.campus-row { contain-intrinsic-size: auto 98px; }
+
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }

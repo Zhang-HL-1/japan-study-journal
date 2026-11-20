@@ -74,6 +74,52 @@
     const box = document.querySelector('.progress-box');
     if (box) { box.classList.remove('is-fresh'); void box.offsetWidth; box.classList.add('is-fresh'); }
   }
+  // 换题时题目区域从对应方向轻轻滑入；减少动态效果时不播放。
+  function slideIn(direction) {
+    const area = $('question-content');
+    area.classList.remove('slide-next', 'slide-previous');
+    if (!direction || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    void area.offsetWidth; area.classList.add('slide-' + direction);
+  }
+  // 键盘快捷键：输入框内、按住 Ctrl/⌘/Alt 或放大窗口打开时不拦截。
+  function bindShortcuts() {
+    const typing = target => target instanceof HTMLElement && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName));
+    document.addEventListener('keydown', event => {
+      if (event.defaultPrevented || event.ctrlKey || event.metaKey || event.altKey || event.isComposing) return;
+      if (typing(event.target) || document.querySelector('dialog[open]')) return;
+      const key = event.key, act = fn => { event.preventDefault(); fn(); };
+      if (key === 'ArrowLeft' && event.shiftKey) return act(() => { if (!$('previous-paper').disabled) $('previous-paper').click(); });
+      if (key === 'ArrowRight' && event.shiftKey) return act(() => { if (!$('next-paper').disabled) $('next-paper').click(); });
+      if (event.shiftKey && key !== '?') return;
+      if (key === 'ArrowLeft') return act(() => navigate(index - 1));
+      if (key === 'ArrowRight') return act(() => navigate(index + 1));
+      const lower = key.length === 1 ? key.toLowerCase() : key;
+      if (lower === 'f') return act(() => $('bookmark').click());
+      if (lower === 'd') return act(() => $('complete').click());
+      if (lower === 'z') return act(() => $('enlarge').click());
+      if (lower === 'n') return act(() => { $('notes').open = true; $('question-note').focus(); });
+      if (key === '?') return act(() => $('shortcut-dialog').showModal());
+    });
+    $('show-shortcuts').addEventListener('click', () => $('shortcut-dialog').showModal());
+    $('close-shortcuts').addEventListener('click', () => $('shortcut-dialog').close());
+  }
+  // 手机左右滑动换题：水平位移足够大、明显大于垂直位移且动作够快才算。
+  function bindSwipe() {
+    const area = $('question');
+    let start = null;
+    area.addEventListener('touchstart', event => {
+      if (event.touches.length !== 1 || event.target.closest?.('textarea, input, summary, .crop-button[aria-expanded="true"]')) { start = null; return; }
+      const t = event.touches[0]; start = { x: t.clientX, y: t.clientY, at: Date.now() };
+    }, { passive: true });
+    area.addEventListener('touchend', event => {
+      if (!start || document.querySelector('dialog[open]')) { start = null; return; }
+      const t = event.changedTouches[0], dx = t.clientX - start.x, dy = t.clientY - start.y, dt = Date.now() - start.at;
+      start = null;
+      if (dt > 700 || Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 2) return;
+      navigate(dx < 0 ? index + 1 : index - 1);
+    }, { passive: true });
+    area.addEventListener('touchcancel', () => { start = null; }, { passive: true });
+  }
   function render() {
     const q = current(), r = record();
     $('position').textContent = `本卷第 ${index+1} 题 / 共 ${paper.questions.length} 道大题`;
@@ -94,7 +140,9 @@
   }
   function navigate(next, historyMode = 'pushState') {
     if (!Number.isInteger(next) || next < 0 || next >= paper.questions.length) return;
+    const direction = next > index ? 'next' : next < index ? 'previous' : '';
     index = next; render();
+    slideIn(historyMode === 'replaceState' ? '' : direction);
     window.StudyResume?.save({ paper: paper.id, q: current().id, paperTitle: paper.title, number: current().number, title: current().title, position: index + 1, total: paper.questions.length });
     const url = new URL(location.href); url.searchParams.set('paper', paper.id); url.searchParams.set('q', current().id);
     if (historyMode) history[historyMode](null, '', url);
@@ -208,6 +256,7 @@
     $('previous-paper').addEventListener('click', () => openNeighbor('previous'));
     $('next-paper').addEventListener('click', () => openNeighbor('next'));
     loadYearNav(catalog);
+    bindShortcuts(); bindSwipe();
     $('focus-mode').addEventListener('click', () => { focused = !focused; document.body.classList.toggle('is-focused',focused); $('focus-mode').setAttribute('aria-pressed',String(focused)); $('focus-mode').textContent = focused ? '退出专注' : '专注模式'; });
     $('enlarge').addEventListener('click', () => openZoom());
     $('close-zoom').addEventListener('click', () => $('image-dialog').close());
