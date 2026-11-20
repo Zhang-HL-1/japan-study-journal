@@ -126,6 +126,28 @@
     read(p.files[index],index,false);
     if(focus){detail.focus({preventScroll:true});detail.scrollIntoView({block:'start',behavior:'auto'});}
   }
+  // 已选条件小标签：点 × 单独去掉一项。
+  function renderChips(){
+    const box=get('paper-active-filters');if(!box)return;
+    const chips=[];
+    const chip=(label,clear)=>{const n=button('',()=>{clear();closeDetail();render();const next=box.querySelector('button');(next||get('paper-results-title'))?.focus?.({preventScroll:true});},'filter-chip');n.append(el('span',label),el('span','×','filter-chip-x'));n.setAttribute('aria-label',`移除筛选：${label}`);return n;};
+    if(state.school!=='all')chips.push(chip(schoolName(state.school),()=>Object.assign(state,{school:'all',graduate:'all',department:'all',year:'all'})));
+    if(state.graduate!=='all')chips.push(chip(state.graduate,()=>Object.assign(state,{graduate:'all',department:'all'})));
+    if(state.department!=='all')chips.push(chip(state.department,()=>{state.department='all';}));
+    if(state.year!=='all')chips.push(chip(state.year+'年',()=>{state.year='all';}));
+    if(state.query.trim())chips.push(chip(`“${state.query.trim()}”`,()=>{state.query='';get('paper-query').value='';}));
+    if(chips.length>1){const all=button('清除全部',()=>get('paper-reset').click(),'filter-chip-clear');chips.push(all);}
+    box.replaceChildren(...chips);box.hidden=!chips.length;
+  }
+  // 结果变化时前 12 张卡片依次淡入；其余直接显示，避免长列表拖慢。
+  let firstRender=true;
+  function animateResults(results){
+    if(firstRender){firstRender=false;return;}
+    if(window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches)return;
+    if(!results.classList?.add||!results.classList?.remove)return;
+    [...results.children].slice(0,12).forEach((n,i)=>n.style?.setProperty?.('--i',String(i)));
+    results.classList.remove('is-refreshing');void results.offsetWidth;results.classList.add('is-refreshing');
+  }
   function render(){
     if(get('paper-school-link'))get('paper-school-link').href='schools.html'+(state.school==='all'?'':'?'+new URLSearchParams({school:state.school}));
     updateOptions();renderSchools();const matches=core.filter(papers,universities,state);
@@ -135,7 +157,9 @@
     const related=get('paper-related-note');const hasRelated=state.department!=='all'&&matches.some(p=>p.department!==state.department&&core.matchesDepartment(p,state.department));related.hidden=!hasRelated;related.textContent=hasRelated?'包含相关的共通卷与历史资料，部分原卷涵盖其他课程；具体课程和选答范围请核对原卷。':'';
     const heading=state.school==='all'?'全部学校':schoolName(state.school);get('paper-results-title').textContent=heading;
     get('paper-results-count').textContent=`${matches.length} 份真题${papers.length===0?' · 尚未添加真题':''}`;
+    renderChips();
     const results=get('paper-results');results.replaceChildren(...matches.map(p=>{const n=button('',()=>{rememberScroll();openPaper(p);},'paper-result');n.dataset.paper=p.id;n.setAttribute('aria-pressed',String(selected===p.id));n.append(el('small',`${schoolName(p.universityId)} · ${core.yearOf(p)}年`),el('strong',p.title),el('span',[p.graduateSchool,p.department,p.selectionName].filter(Boolean).join(' / ')),el('small','阅读原卷 →'));return n;}));
+    animateResults(results);
     if(!matches.some(p=>p.id===selected))closeDetail();
     get('paper-empty').hidden=matches.length>0;
     if(!papers.length){get('paper-empty-title').textContent=state.school==='all'?'为下一份真题，留一个位置。':`尚未添加${heading}的真题。`;get('paper-empty-copy').textContent='过去问题库已经准备好，真题稍后添加。你可以先选择学校，或去刷题练习与查阅考试范围。';}

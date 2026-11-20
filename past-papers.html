@@ -21,11 +21,11 @@
   <script src="study-desk-controls.js?v=20261022-complete" defer></script>
   <script src="paper-set-completion.js?v=20261022-complete" defer></script>
   <script src="study-navigation.js?v=20261020" defer></script>
-  <script src="past-papers.js?v=20261114-pdf-name" defer></script>
+  <script src="past-papers.js?v=20261120-chips" defer></script>
   <script src="script.js" defer></script>
   <link rel="stylesheet" href="study-navigation.css?v=20261103-osaka-filter" />
   <link rel="stylesheet" href="past-papers-filters.css?v=20261022" />
-  <link rel="stylesheet" href="theme.css?v=20261120-claude">
+  <link rel="stylesheet" href="theme.css?v=20261120-motion">
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -76,6 +76,7 @@
       </aside>
       <section class="papers-workspace" aria-labelledby="paper-results-title">
         <div class="papers-toolbar"><h2 id="paper-results-title">全部学校</h2><p id="paper-results-count" role="status" aria-live="polite">真题尚未添加。</p></div>
+        <div id="paper-active-filters" class="filter-chips" role="group" aria-label="已选筛选条件" hidden></div>
         <p id="paper-related-note" class="papers-footnote" role="status" hidden></p>
         <p id="paper-context-note" class="papers-footnote" role="status" hidden></p>
         <details class="paper-catalog-note" id="paper-school-note-panel" hidden><summary>资料说明与收录情况</summary><div id="paper-school-note" class="papers-footnote" hidden></div></details>

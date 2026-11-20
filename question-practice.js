@@ -62,6 +62,18 @@
     $('complete').textContent = r.completed ? '取消已练习标记' : '标记本题已练习';
     $('completion-status').textContent = r.completed ? '本题已练习 ✓' : '';
   }
+  // 标记已练习时的轻量反馈：描线打勾 + 进度条一次脉冲；减少动态效果时只显示静态勾。
+  function celebrate() {
+    const status = $('completion-status'), ns = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(ns, 'svg'); svg.setAttribute('viewBox', '0 0 20 20'); svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('class', 'done-check');
+    const circle = document.createElementNS(ns, 'circle'); circle.setAttribute('cx', '10'); circle.setAttribute('cy', '10'); circle.setAttribute('r', '9');
+    const path = document.createElementNS(ns, 'path'); path.setAttribute('d', 'M5.8 10.4l2.8 2.8 5.6-6');
+    svg.append(circle, path);
+    status.replaceChildren(svg, document.createTextNode('本题已练习'));
+    status.classList.remove('is-fresh'); void status.offsetWidth; status.classList.add('is-fresh');
+    const box = document.querySelector('.progress-box');
+    if (box) { box.classList.remove('is-fresh'); void box.offsetWidth; box.classList.add('is-fresh'); }
+  }
   function render() {
     const q = current(), r = record();
     $('position').textContent = `本卷第 ${index+1} 题 / 共 ${paper.questions.length} 道大题`;
@@ -83,6 +95,7 @@
   function navigate(next, historyMode = 'pushState') {
     if (!Number.isInteger(next) || next < 0 || next >= paper.questions.length) return;
     index = next; render();
+    window.StudyResume?.save({ paper: paper.id, q: current().id, paperTitle: paper.title, number: current().number, title: current().title, position: index + 1, total: paper.questions.length });
     const url = new URL(location.href); url.searchParams.set('paper', paper.id); url.searchParams.set('q', current().id);
     if (historyMode) history[historyMode](null, '', url);
     if (historyMode === 'pushState') { $('question').focus({preventScroll:true}); $('question').scrollIntoView({ block:'start', behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }
@@ -189,7 +202,7 @@
     const start = paper.questions.findIndex(q => q.id === (params.get('q') || aliasQuestion));
     navigate(Math.max(0,start),'replaceState');
     $('bookmark').addEventListener('click', () => { patch({bookmarked:!record().bookmarked}); refresh(); });
-    $('complete').addEventListener('click', () => { patch({completed:!record().completed}); refresh(); });
+    $('complete').addEventListener('click', () => { patch({completed:!record().completed}); refresh(); if (record().completed) celebrate(); });
     $('question-note').addEventListener('input', () => { patch({note:$('question-note').value}); $('note-status').textContent = storageWritable ? '已保存' : '仅本次保留'; });
     $('previous').addEventListener('click', () => navigate(index-1)); $('next').addEventListener('click', () => navigate(index+1));
     $('previous-paper').addEventListener('click', () => openNeighbor('previous'));
