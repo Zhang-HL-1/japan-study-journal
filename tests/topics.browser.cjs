@@ -65,7 +65,7 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
       const before = page.url();
       await (n % 2 ? page.keyboard.press('ArrowRight') : page.click('#next'));
       await page.waitForFunction(prev => location.href !== prev, before);
-      await page.waitForFunction(k => /^第 (\d+) \//.exec(document.getElementById('topic-bar-position').textContent)?.[1] === String(k), n);
+      await page.waitForFunction(k => /^第 (\d+) \//.exec(document.getElementById('topic-bar-position')?.textContent ?? '')?.[1] === String(k), n);
       if (new URL(page.url()).searchParams.get('paper') !== startPaper) crossed = true;
       assert.equal(new URL(page.url()).searchParams.get('topic'), 'electronic.opamp');
     }
