@@ -1,5 +1,2472 @@
 {
   "schemaVersion": 1,
   "note": "逐题修正自动归类：add 增加、remove 去掉知识点或科目 id，note 写原因。只影响知识点索引，不改原题数据。",
-  "questions": {}
+  "questions": {
+    "tohoku-ee-2003-09-senmon-q1": {
+      "add": [
+        "control.stability",
+        "control.time"
+      ],
+      "note": "求参数使系统稳定、加速度稳态误差小于0.1，并画出根轨迹"
+    },
+    "tohoku-ee-2003-09-senmon-q2": {
+      "add": [
+        "signal.modulation",
+        "signal.systems"
+      ],
+      "note": "求PCM最低比特率、低通冲激响应与带宽，以及DSB-SC频分复用的载波间隔和接收过程"
+    },
+    "tohoku-ee-2004-09-kiso-q1": {
+      "add": [
+        "em.waves",
+        "em.magnetostatics"
+      ],
+      "note": "推导导体中的电流扩散与趋肤深度，并用安培定律求圆柱电流的磁场"
+    },
+    "tohoku-ee-2005-02-kiso-q1": {
+      "add": [
+        "em.waves"
+      ],
+      "note": "写出麦克斯韦方程与位移电流，并求充电圆板间的坡印廷矢量"
+    },
+    "tohoku-ee-2005-02-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.transient",
+        "circuit.coupled",
+        "circuit.line"
+      ],
+      "note": "求交流阻抗轨迹、开关暂态电压、经理想变压器的最大功率，以及无损耗线的特性阻抗和相位常数"
+    },
+    "tohoku-ee-2005-02-kiso-q4": {
+      "add": [
+        "computer.algo",
+        "computer.discrete"
+      ],
+      "note": "把血型制剂分配画成有向容量网络，并求能使最多患者输血的最大流"
+    },
+    "tohoku-ee-2005-02-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.stability",
+        "control.time"
+      ],
+      "note": "求闭环传递函数及其极点，并分析阶跃响应与冲激响应的波形和极值"
+    },
+    "tohoku-ee-2005-08-kiso-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.capacitance",
+        "em.magnetostatics",
+        "em.induction"
+      ],
+      "note": "求平行圆柱的电场与单位长度电容、直流磁场，以及方线圈中的感应电流"
+    },
+    "tohoku-ee-2005-08-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.transient",
+        "circuit.line"
+      ],
+      "note": "求正弦等效阻抗及其轨迹、阶跃与正弦输入下的暂态电压，以及分布参数线路的端电压"
+    },
+    "tohoku-ee-2005-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "用真值表讨论布尔函数是否对称，并证明n元对称函数恰有2的n+1次方个"
+    },
+    "tohoku-ee-2005-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "设计用比较查询确定未知整数的算法，并给出最坏查询次数关于N的阶"
+    },
+    "tohoku-ee-2005-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求平面内弹簧粒子的能量与角动量，并分析径向微扰后的小振动周期"
+    },
+    "tohoku-ee-2005-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "用转置矩阵的特征值求向量被矩阵拉伸的最大倍率",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2005-08-senmon-q1": {
+      "add": [
+        "control.time",
+        "control.stability",
+        "control.freq"
+      ],
+      "note": "求时滞环节的阶跃响应与稳定极限，以及增益交越频率和相位裕度"
+    },
+    "tohoku-ee-2005-08-senmon-q2": {
+      "add": [
+        "signal.modulation",
+        "signal.discrete"
+      ],
+      "note": "分析DSB与SSB频分复用的频谱，并求恢复原信号的抽样周期和ASK表达式"
+    },
+    "tohoku-ee-2005-08-senmon-q3": {
+      "add": [
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "用h参数求达林顿与共射电路的偏置、小信号电压电流和输入输出电阻"
+    },
+    "tohoku-ee-2005-08-senmon-q4": {
+      "add": [
+        "computer.sequential"
+      ],
+      "note": "由串行输入输出关系画状态转移图，并用触发器实现该时序电路"
+    },
+    "tohoku-ee-2005-08-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "跟踪快速幂程序的变量变化，并把结束时的R用初值m和n表示"
+    },
+    "tohoku-ee-2005-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "证明厄米算符性质与对易关系，并用泡利矩阵讨论自旋分量的不确定度"
+    },
+    "tohoku-ee-2005-08-senmon-q7": {
+      "add": [
+        "math.complex",
+        "math.fourier"
+      ],
+      "note": "求孤立奇点的留数和围道积分，并把1/(3+cos x)展成傅里叶级数",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2006-02-kiso-q1": {
+      "add": [
+        "em.magnetostatics",
+        "em.electrostatics",
+        "em.capacitance",
+        "em.waves"
+      ],
+      "note": "求同轴导体的磁场、含介质时的电场与电位差，并用坡印廷矢量求传输能量"
+    },
+    "tohoku-ee-2006-02-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.twoport",
+        "circuit.transient"
+      ],
+      "note": "求端口阻抗、导纳矩阵和电压比轨迹，并计算负载最大功率与阶跃响应"
+    },
+    "tohoku-ee-2006-02-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "写出递归布尔函数的真值表与异或展开，并计数使函数值为1的输入向量"
+    },
+    "tohoku-ee-2006-02-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "设计判断函数是否非减以及查找跨越给定值的自变量的算法，并给出调用次数的阶"
+    },
+    "tohoku-ee-2006-02-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求橡皮绳悬重的平衡长度、阻尼振动位移，以及双点悬挂时的振动周期"
+    },
+    "tohoku-ee-2006-02-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "给出复矩阵方程对任意右端有解的条件，并求存在非平凡特征解时的参数关系",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2006-02-senmon-q1": {
+      "add": [
+        "control.stability",
+        "control.time",
+        "control.freq"
+      ],
+      "note": "求稳定条件、斜坡与阶跃扰动的稳态误差，并画出奈奎斯特图"
+    },
+    "tohoku-ee-2006-02-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "求DSB-SC已调信号及其频谱，并说明理想解调以及载波失谐对输出的影响"
+    },
+    "tohoku-ee-2006-02-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "device.junction",
+        "electronic.fet"
+      ],
+      "note": "画MOS耗尽与反型能带，推导nMOS漏极电流，并在输出特性上作电阻负载线"
+    },
+    "tohoku-ee-2006-02-senmon-q4": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "设计多位二进制比较器的真值表与或与式，并用或非门构成五位比较电路"
+    },
+    "tohoku-ee-2006-02-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "跟踪循环程序求出终止时的S，说明程序必停，并用递推表示一般初值的结果"
+    },
+    "tohoku-ee-2006-02-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "用产生湮灭算符求谐振子能级，并归一化基态与第一激发态波函数"
+    },
+    "tohoku-ee-2006-02-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "用单位圆上的围道积分与级数和，求出给定递推数列的通项",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2006-08-kiso-q1": {
+      "add": [
+        "em.waves",
+        "em.induction"
+      ],
+      "note": "由麦克斯韦方程求平面波的波数、电场和平均能流，并写测量环的感应电流方程"
+    },
+    "tohoku-ee-2006-08-kiso-q2": {
+      "add": [
+        "circuit.twoport",
+        "circuit.line"
+      ],
+      "note": "求二端口的短路与开路输入阻抗，并令其链矩阵与无损耗传输线一致"
+    },
+    "tohoku-ee-2006-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "求三位变换逻辑的最简与或式和门电路，并证明该函数是自对偶的"
+    },
+    "tohoku-ee-2006-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "说明归并步骤及其线性时间，并分析改变分割比例后归并排序的复杂度"
+    },
+    "tohoku-ee-2006-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求无滑动溜溜球的转动惯量、质心速度和动能，并验证拉力做功等于动能增量"
+    },
+    "tohoku-ee-2006-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求循环矩阵的特征值与行列式，并给出矩阵幂极限存在时参数模长的范围",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2006-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.time",
+        "control.freq",
+        "control.stability"
+      ],
+      "note": "反馈系统框图等效、稳态位置与速度误差、奈奎斯特图及使系统稳定的K范围"
+    },
+    "tohoku-ee-2006-08-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "QAM正交载波的DSB-SC调制信号、频谱、解调过程及载波相位误差的影响"
+    },
+    "tohoku-ee-2006-08-senmon-q3": {
+      "add": [
+        "electronic.bjt",
+        "electronic.amp",
+        "device.junction"
+      ],
+      "note": "npn管小信号T模型的re、rc与高频α截止，并说明基区宽度调制的来源"
+    },
+    "tohoku-ee-2006-08-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "用奇偶校验组合电路和D触发器时序电路把格雷码转换成二进制"
+    },
+    "tohoku-ee-2006-08-senmon-q5": {
+      "add": [
+        "computer.algo",
+        "computer.discrete"
+      ],
+      "note": "追踪斐波那契递归程序的返回值，并用数学归纳法证明循环结果相等"
+    },
+    "tohoku-ee-2006-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "一维无限深势阱的能级与波函数，以及双势垒量子阱的隧穿共振条件"
+    },
+    "tohoku-ee-2006-08-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "求复函数在z=π处的洛朗展开、留数以及沿闭曲线的积分",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2007-02-kiso-q1": {
+      "add": [
+        "em.waves"
+      ],
+      "note": "写出各向同性媒质中的麦克斯韦方程，并推导坡印廷定理说明能量守恒"
+    },
+    "tohoku-ee-2007-02-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.line"
+      ],
+      "note": "交流电抗网络的输入阻抗与最大功率，以及无损耗线上的电流和负载功率"
+    },
+    "tohoku-ee-2007-02-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "阈值逻辑函数的最简积和式、单调性，以及能否合成任意逻辑函数"
+    },
+    "tohoku-ee-2007-02-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "用尽量少的区间查询确定未知整数，并给出最坏查询次数关于N的阶"
+    },
+    "tohoku-ee-2007-02-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "等质量粒子弹性碰撞后，求实验室系与质心系中的速度大小和散射角"
+    },
+    "tohoku-ee-2007-02-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求实对称矩阵的特征值、标准正交基和正交对角化，并证明二次型的界",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2007-02-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.freq"
+      ],
+      "note": "求RL梯形电路的传递函数，并画奈奎斯特图、计算增益裕度"
+    },
+    "tohoku-ee-2007-02-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "同一调制信号的调幅频谱、调频最大频偏、带宽及幅度特征"
+    },
+    "tohoku-ee-2007-02-senmon-q3": {
+      "add": [
+        "device.junction"
+      ],
+      "note": "突变pn结反偏时的耗尽层宽度、电位梯度以及偶极层中的储存电荷"
+    },
+    "tohoku-ee-2007-02-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "用组合门电路和D触发器时序电路计算两个等长码字的汉明距离"
+    },
+    "tohoku-ee-2007-02-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "追踪双重循环程序的终值，并证明内层赋值次数与总运行时间的阶"
+    },
+    "tohoku-ee-2007-02-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "有限高势垒势阱中束缚态的薛定谔方程、边界条件、基态波函数及存在条件"
+    },
+    "tohoku-ee-2007-02-senmon-q7": {
+      "add": [
+        "math.fourier",
+        "math.complex"
+      ],
+      "note": "求分段函数及其卷积积分方程的傅里叶变换，并用留数反演原函数",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2007-08-kiso-q1": {
+      "add": [
+        "em.waves"
+      ],
+      "note": "导电媒质中平面波的波动方程、衰减与相位常数，以及传导电流可忽略时的电场"
+    },
+    "tohoku-ee-2007-08-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.coupled",
+        "circuit.line"
+      ],
+      "note": "交流电路的单位功率因数与最大功率，并把互感线圈等效成无损耗传输线"
+    },
+    "tohoku-ee-2007-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "证明自对偶与自反自对偶逻辑函数的性质，以及与异或运算的关系"
+    },
+    "tohoku-ee-2007-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "按到圆心的距离对单位圆内均匀分布的点设计期望线性时间的桶排序"
+    },
+    "tohoku-ee-2007-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "弹簧连接的两质点与第三质点弹性碰撞后的质心运动和简谐振动"
+    },
+    "tohoku-ee-2007-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求矩阵的幂、特征值与酉对角化矩阵，并用多项式关系化简高次矩阵式",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2007-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.stability",
+        "control.time"
+      ],
+      "note": "由微分方程求环节与闭环传递函数、稳定的K范围，以及阶跃扰动的稳态误差"
+    },
+    "tohoku-ee-2007-08-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "带热噪声的DSB-SC接收机在滤波、放大和同步检波各点的信噪比"
+    },
+    "tohoku-ee-2007-08-senmon-q3": {
+      "add": [
+        "device.junction",
+        "electronic.fet",
+        "electronic.amp"
+      ],
+      "note": "n沟道MOSFET的反型层与耗尽层、偏置工作点和小信号电压增益"
+    },
+    "tohoku-ee-2007-08-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "全加器的积和式与门电路实现，以及用D触发器构成的串行加法器"
+    },
+    "tohoku-ee-2007-08-senmon-q5": {
+      "add": [
+        "computer.sequential"
+      ],
+      "note": "上下文无关文法的两棵语法树、最右推导，以及LR(0)特征自动机的状态转移"
+    },
+    "tohoku-ee-2007-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "一维谐振子的升降算符与能级，以及对x平方势的一级微扰能量"
+    },
+    "tohoku-ee-2007-08-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "求e^{iz}/z的实部虚部、原点处洛朗展开以及沿圆弧的复积分",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2008-02-kiso-q1": {
+      "add": [
+        "em.magnetostatics",
+        "em.waves"
+      ],
+      "note": "静磁场与含位移电流的磁场边界条件，以及平面波垂直入射的反射率和透射率"
+    },
+    "tohoku-ee-2008-02-kiso-q2": {
+      "add": [
+        "circuit.line"
+      ],
+      "note": "无损耗传输线的输入阻抗、负载功率，以及由反射系数反求负载的R和X"
+    },
+    "tohoku-ee-2008-02-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "比较二进制阈值的逻辑函数的最简式、单调性，以及能合成任意函数的条件"
+    },
+    "tohoku-ee-2008-02-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "在升序数组上给出对数时间算法，计算不超过给定实数的元素个数"
+    },
+    "tohoku-ee-2008-02-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "平方反比中心力下证明角动量守恒，并求有效势能极小处的圆轨道周期"
+    },
+    "tohoku-ee-2008-02-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求矩阵平方与矩阵指数的迹、行列式、逆矩阵、特征值以及矩阵的幂",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2008-02-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.stability",
+        "control.time",
+        "control.freq"
+      ],
+      "note": "求反馈系统的开环传递函数、稳定增益范围、稳态偏差，并画奈奎斯特图求增益裕度"
+    },
+    "tohoku-ee-2008-02-senmon-q2": {
+      "add": [
+        "signal.modulation",
+        "signal.systems"
+      ],
+      "note": "用周期脉冲调制输入信号，并求脉冲、周期脉冲列和输出信号的傅里叶频谱"
+    },
+    "tohoku-ee-2008-02-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "画共射电路中晶体管的能带并说明基极如何控制集电极电流，再求小信号增益和偏置优点"
+    },
+    "tohoku-ee-2008-02-senmon-q4": {
+      "add": [
+        "computer.arch",
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "求4比特补码，并用组合逻辑和D触发器时序电路实现补码运算"
+    },
+    "tohoku-ee-2008-02-senmon-q5": {
+      "add": [
+        "computer.arch"
+      ],
+      "note": "画出存取款并发进程的状态转移，并用Test-and-Set实现互斥锁"
+    },
+    "tohoku-ee-2008-02-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求三维球形势阱中S态粒子的波函数、归一化条件和最低能量"
+    },
+    "tohoku-ee-2008-02-senmon-q7": {
+      "add": [
+        "math.fourier"
+      ],
+      "note": "求平方与余弦函数的傅里叶级数，并用它计算若干无穷级数的和",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2008-08-kiso-q1": {
+      "add": [
+        "em.waves",
+        "em.induction"
+      ],
+      "note": "由麦克斯韦方程求平面波磁场，并用法拉第定律求静止与运动线圈中的感应电流"
+    },
+    "tohoku-ee-2008-08-kiso-q2": {
+      "add": [
+        "circuit.ac"
+      ],
+      "note": "求含损耗线圈的并联回路导纳、谐振频率以及谐振时的品质因数Q"
+    },
+    "tohoku-ee-2008-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "证明单调布尔函数的充要条件，并列举单调且自双对或自反双对的函数"
+    },
+    "tohoku-ee-2008-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "证明三分递归排序的正确性，并给出最坏运行时间的紧渐近界"
+    },
+    "tohoku-ee-2008-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "分析弹簧与细绳约束下质点圆周运动的张力、角速度、做功和径向小振动"
+    },
+    "tohoku-ee-2008-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求矩阵行列式的最小值、特征值与正交对角化，并讨论矩阵幂级数的收敛",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2008-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.time",
+        "control.freq",
+        "control.stability"
+      ],
+      "note": "求反馈系统的开闭环传递函数、固有频率与阻尼、阶跃响应，并由奈奎斯特图给出稳定条件"
+    },
+    "tohoku-ee-2008-08-senmon-q2": {
+      "add": [
+        "signal.systems",
+        "signal.modulation"
+      ],
+      "note": "求白噪声经带通滤波后的功率谱与自相关，以及与余弦相乘后的功率谱"
+    },
+    "tohoku-ee-2008-08-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "device.junction"
+      ],
+      "note": "画pn结二极管的能带、结电容和微分电阻，并讨论npn管的掺杂设计与输出特性区"
+    },
+    "tohoku-ee-2008-08-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "用半加器与与非门构成乘法组合电路，并用D触发器设计串并行乘法单元"
+    },
+    "tohoku-ee-2008-08-senmon-q5": {
+      "add": [
+        "computer.sequential",
+        "computer.algo"
+      ],
+      "note": "由BNF画出表达式树，给出后序遍历与栈算法，并定义栈式求值指令"
+    },
+    "tohoku-ee-2008-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求解无限与有限方势阱的基态能量，并用变分法证明对称有限阱存在束缚态"
+    },
+    "tohoku-ee-2008-08-senmon-q7": {
+      "add": [
+        "math.laplace"
+      ],
+      "note": "求幂函数和周期函数的拉普拉斯变换，并用它求解积分方程",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2009-03-kiso-q1": {
+      "add": [
+        "em.electrostatics"
+      ],
+      "note": "求点电荷的电场、电位和库仑力，并用镜像法求接地导体板上的面电荷与受力"
+    },
+    "tohoku-ee-2009-03-kiso-q2": {
+      "add": [
+        "circuit.ac"
+      ],
+      "note": "把阻容网络等效为阻抗，并求交流电桥与频率无关的平衡条件"
+    },
+    "tohoku-ee-2009-03-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "写阈值布尔函数的主析取范式，并证明非负权值时单调以及否定后仍是阈值函数"
+    },
+    "tohoku-ee-2009-03-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "给出有界整数的线性时间排序算法，并证明其时间复杂度为O(n)"
+    },
+    "tohoku-ee-2009-03-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求升降箱中弹簧振子在两参考系下的运动方程、共振能量与振幅"
+    },
+    "tohoku-ee-2009-03-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求两个矩阵的特征值与特征向量，并计算矩阵的幂与极限",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2009-03-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.freq",
+        "control.stability",
+        "control.time"
+      ],
+      "note": "求开环传递函数与频率特性，画奈奎斯特图，并求稳定增益、穿越频率和扰动稳态误差"
+    },
+    "tohoku-ee-2009-03-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "写出调频波表达式并解释调制指数，用贝塞尔函数求频谱并讨论窄带近似"
+    },
+    "tohoku-ee-2009-03-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "device.junction",
+        "electronic.fet",
+        "electronic.amp"
+      ],
+      "note": "画增强型MOS的能带与反型层，说明沟道长度调制，并求单管和差动放大的小信号输出"
+    },
+    "tohoku-ee-2009-03-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "把二进制数转换成格雷码，并用组合电路和D触发器时序电路实现该转换"
+    },
+    "tohoku-ee-2009-03-senmon-q5": {
+      "add": [
+        "computer.arch"
+      ],
+      "note": "计算虚拟地址空间与页表大小，并说明地址变换过程和缺页异常处理"
+    },
+    "tohoku-ee-2009-03-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求自由粒子波函数的时间演化和波包传播速度，并讨论位置与动量的不确定关系"
+    },
+    "tohoku-ee-2009-03-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "求复函数的孤立奇点与留数，并计算围道积分和实轴上的余弦积分",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2009-08-kiso-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.capacitance",
+        "em.induction",
+        "em.magnetostatics"
+      ],
+      "note": "求带电圆柱对接地板的受力与电容、表面电流的自感、直流磁场，以及另一圆柱上的感应电压"
+    },
+    "tohoku-ee-2009-08-kiso-q2": {
+      "add": [
+        "circuit.transient",
+        "circuit.ac",
+        "circuit.coupled"
+      ],
+      "note": "求开关闭合后的电流及恒流条件，并求含互感回路的端口阻抗和谐振Q值"
+    },
+    "tohoku-ee-2009-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "用集合表示与、异或等布尔运算，并讨论可交换性以及否定后对应的运算"
+    },
+    "tohoku-ee-2009-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "用取模哈希设计期望常数时间的成员判定结构，并给出棋盘矩阵的编码与内存内判定方案"
+    },
+    "tohoku-ee-2009-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求弹簧连接两质点的约化质量、振动周期与能量，以及绕质心转动的角动量和伸长"
+    },
+    "tohoku-ee-2009-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "判断四维向量是否构成基底并正交化，再把矩阵化为若尔当标准形并求其幂",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2009-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.freq",
+        "control.stability"
+      ],
+      "note": "由框图求闭环传递函数，画奈奎斯特图并求稳定的K范围和伯德渐近线参数"
+    },
+    "tohoku-ee-2009-08-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "求双极性RZ信号及其ASK、BPSK已调波的自相关函数和功率谱"
+    },
+    "tohoku-ee-2009-08-senmon-q3": {
+      "add": [
+        "device.junction",
+        "electronic.fet",
+        "electronic.amp"
+      ],
+      "note": "求n沟道MOS共源放大器的偏置与电压增益，并画工作点处的能带图"
+    },
+    "tohoku-ee-2009-08-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "画同步时序电路的状态图，用与非门实现异或并用D触发器构成电路"
+    },
+    "tohoku-ee-2009-08-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "计算递归函数的值，说明用栈实现递归并估计所需栈空间的阶"
+    },
+    "tohoku-ee-2009-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "由泡利矩阵验证自旋对易关系与不确定度，并求本征态及自旋期望值"
+    },
+    "tohoku-ee-2009-08-senmon-q7": {
+      "add": [
+        "math.complex",
+        "math.fourier"
+      ],
+      "note": "求复函数的孤立奇点与留数，并计算傅里叶变换及逆变换",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2010-03-kiso-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.magnetostatics"
+      ],
+      "note": "求均匀带电与载流无限长圆柱及其偏心空腔内的电场和磁通密度"
+    },
+    "tohoku-ee-2010-03-kiso-q2": {
+      "add": [
+        "circuit.dc",
+        "circuit.ac"
+      ],
+      "note": "在直流与交流源串联的电路中求端口电压波形、负载交直流电流和功率"
+    },
+    "tohoku-ee-2010-03-kiso-q3": {
+      "add": [
+        "computer.logic",
+        "computer.discrete"
+      ],
+      "note": "列举部分布尔函数取值为1的输入，并证明其扩张与对称扩张的个数"
+    },
+    "tohoku-ee-2010-03-kiso-q4": {
+      "add": [
+        "computer.discrete"
+      ],
+      "note": "举例说明图的次数与顶点着色的关系，并证明最大次数不超过K则可K+1着色"
+    },
+    "tohoku-ee-2010-03-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求单摆在支点固定、匀速或加速及水平振动时的运动方程和固有频率"
+    },
+    "tohoku-ee-2010-03-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "把二次曲线写成对称矩阵并正交对角化，化为标准形后画出曲线",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2010-03-senmon-q1": {
+      "add": [
+        "control.freq",
+        "control.time",
+        "control.stability"
+      ],
+      "note": "由增益峰值确定极点区域，并求阶跃响应、稳定时的奈奎斯特图和稳定极限"
+    },
+    "tohoku-ee-2010-03-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "说明FM鉴频器的解调过程，并求相位噪声、噪声功率谱和解调信噪比增益"
+    },
+    "tohoku-ee-2010-03-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "device.junction",
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "选择BJT基区电子浓度分布并说明提高电流增益的掺杂，再求放大器偏置与电压增益"
+    },
+    "tohoku-ee-2010-03-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "用比较器和多路选择器实现三整数的最大、中间和最小值，并用D触发器按时序输出"
+    },
+    "tohoku-ee-2010-03-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "计算递归幂与快速幂的值并证明二者相等，再用循环改写同等复杂度的函数"
+    },
+    "tohoku-ee-2010-03-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "用升降算符求解一维量子谐振子的能级、基态与各激发态波函数"
+    },
+    "tohoku-ee-2010-03-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "求复指数函数的洛朗级数和围道积分，并由此计算实积分",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2010-08-kiso-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.capacitance",
+        "em.magnetostatics",
+        "em.induction"
+      ],
+      "note": "求同轴导体的轴上电位与单位长度静电能、磁通密度分布和自感"
+    },
+    "tohoku-ee-2010-08-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.coupled",
+        "circuit.transient"
+      ],
+      "note": "求含互感交流回路的阻抗与最大功率条件，并在开关后求暂态电流"
+    },
+    "tohoku-ee-2010-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "证明三元布尔函数自对偶且对称，并列举全部自对偶对称的三元函数"
+    },
+    "tohoku-ee-2010-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "推导字符串编辑距离的递推式，并概述动态规划算法及其计算量"
+    },
+    "tohoku-ee-2010-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求圆锥摆与双摆绕竖轴旋转时的角动量、力平衡和角速度条件"
+    },
+    "tohoku-ee-2010-08-kiso-q6": {
+      "add": [
+        "math.linalg",
+        "physics.quantum"
+      ],
+      "note": "证明该组2×2矩阵（泡利矩阵）厄米且酉，并求反对易关系、本征向量和升降算符矩阵"
+    },
+    "tohoku-ee-2010-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.freq",
+        "control.stability",
+        "control.time"
+      ],
+      "note": "求开环传递函数、奈奎斯特图、增益裕度和稳定极限，以及阶跃响应和稳态位置偏差"
+    },
+    "tohoku-ee-2010-08-senmon-q2": {
+      "add": [
+        "signal.systems",
+        "signal.modulation"
+      ],
+      "note": "求矩形脉冲通过滤波器的输出波形、白噪声功率及最大信噪比的判决时刻"
+    },
+    "tohoku-ee-2010-08-senmon-q3": {
+      "add": [
+        "device.junction",
+        "electronic.fet",
+        "electronic.amp"
+      ],
+      "note": "说明MOS缩小、夹断和积累耗尽反型，并求共源与共栅放大器的电压增益"
+    },
+    "tohoku-ee-2010-08-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "用半加器设计三数平均值的组合电路，并用两个D触发器按拍输出"
+    },
+    "tohoku-ee-2010-08-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "比较按值调用与按名调用下的化简列和加法次数，并设计能区分二者的程序"
+    },
+    "tohoku-ee-2010-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "用变分法估算无限深势阱的基态能量，并与严格解比较、画出试探波函数"
+    },
+    "tohoku-ee-2010-08-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "求有理函数的奇点与留数、围道积分和洛朗展开，并计算含余弦的实积分",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2011-02-kiso-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.capacitance"
+      ],
+      "note": "求同心球导体的电位、电场、电荷分布、电容和静电能，并证明中间导体接地可屏蔽"
+    },
+    "tohoku-ee-2011-02-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.transient",
+        "math.laplace"
+      ],
+      "note": "求交流电桥的谐振角频率与平衡条件，并在开关断开后求电压的拉普拉斯变换"
+    },
+    "tohoku-ee-2011-02-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "给出比较二进制数的布尔函数真值表和最简积和式，并证明函数间的蕴含关系"
+    },
+    "tohoku-ee-2011-02-kiso-q4": {
+      "add": [
+        "computer.algo",
+        "computer.discrete"
+      ],
+      "note": "在给定图上执行最小生成树算法，证明其正确性并给出时间复杂度"
+    },
+    "tohoku-ee-2011-02-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求弹簧连接质点的弹性势能、回复力、振动周期和耦合振动的固有角频率"
+    },
+    "tohoku-ee-2011-02-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求四维向量的夹角与正交组，以及两个子空间的标准正交基、交集维数和基",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2011-02-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.freq",
+        "control.stability"
+      ],
+      "note": "求反馈系统的开环传递函数与频率特性，画奈奎斯特图并确定稳定的K范围"
+    },
+    "tohoku-ee-2011-02-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "求DSB信号的频谱与同步检波输出，并计算加性窄带噪声下的信噪比"
+    },
+    "tohoku-ee-2011-02-senmon-q3": {
+      "add": [
+        "device.junction",
+        "electronic.fet",
+        "electronic.amp"
+      ],
+      "note": "辨认JFET与MOSFET结构并比较伏安特性，再求共漏放大电路的小信号增益"
+    },
+    "tohoku-ee-2011-02-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "用与或非门和D触发器设计遇“10”则逆序输出的四拍延迟时序电路"
+    },
+    "tohoku-ee-2011-02-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "分析试除程序的输出与停机性，并用循环不变式证明输出为n的素因数"
+    },
+    "tohoku-ee-2011-02-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "由薛定谔方程求自由粒子与无限深势阱的波函数、能量和动量期望"
+    },
+    "tohoku-ee-2011-02-senmon-q7": {
+      "add": [
+        "math.fourier"
+      ],
+      "note": "求指数函数的傅里叶变换，并用它解积分微分方程得到g(x)",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2011-08-kiso-q1": {
+      "add": [
+        "em.waves",
+        "em.induction"
+      ],
+      "note": "由麦克斯韦方程导出电荷守恒与法拉第定律，并推导真空中电磁场的波动方程"
+    },
+    "tohoku-ee-2011-08-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.coupled",
+        "circuit.transient"
+      ],
+      "note": "分析互感耦合回路的阻抗与谐振电流，并在开关后求电流的暂态响应"
+    },
+    "tohoku-ee-2011-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "判断布尔函数的正负性和包含关系，并证明对偶函数满足的包含关系"
+    },
+    "tohoku-ee-2011-08-kiso-q4": {
+      "add": [
+        "computer.algo",
+        "computer.discrete"
+      ],
+      "note": "给出有向无环图的拓扑标号与判环算法，并证明时间为O(n+m)"
+    },
+    "tohoku-ee-2011-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求滑轮—弹簧—重物系统的转动惯量、平衡伸长和振动位移，并验证能量关系"
+    },
+    "tohoku-ee-2011-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求对称矩阵的特征值与正交对角化，并在单位球面上最小化二次型",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2011-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.freq",
+        "control.stability"
+      ],
+      "note": "求反馈系统的闭环与开环传递函数，并用奈奎斯特图判断稳定范围和相位裕度"
+    },
+    "tohoku-ee-2011-08-senmon-q2": {
+      "add": [
+        "signal.modulation",
+        "signal.systems"
+      ],
+      "note": "求数字调制传输中发收滤波器的冲激响应、零码间干扰带宽及白噪声信噪比"
+    },
+    "tohoku-ee-2011-08-senmon-q3": {
+      "add": [
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "用h参数分析共射RC耦合放大器的中低频电压增益和低频截止频率"
+    },
+    "tohoku-ee-2011-08-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "用门电路判断四位整数是否为素数，再用D触发器构成按模4输出的时序电路"
+    },
+    "tohoku-ee-2011-08-senmon-q5": {
+      "add": [
+        "computer.sequential",
+        "computer.algo"
+      ],
+      "note": "画算术式的语法树并化为逆波兰式，再用栈求值并追踪程序执行结果"
+    },
+    "tohoku-ee-2011-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求角动量与自旋1/2算符的矩阵，并给出磁矩在磁场中的哈密顿量与能级"
+    },
+    "tohoku-ee-2011-08-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "求有理函数在极点附近的洛朗展开，并用留数计算含双曲函数的复积分",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2012-02-kiso-q1": {
+      "add": [
+        "em.magnetostatics",
+        "em.induction"
+      ],
+      "note": "求载流圆柱、同轴线和环状螺线管的磁通密度，并计算螺线管的自感"
+    },
+    "tohoku-ee-2012-02-kiso-q2": {
+      "add": [
+        "circuit.line",
+        "circuit.ac",
+        "circuit.transient"
+      ],
+      "note": "求无损耗传输线上的电压电流，以及交流RL回路在开关前后的稳态与暂态电流"
+    },
+    "tohoku-ee-2012-02-kiso-q3": {
+      "add": [
+        "computer.sequential"
+      ],
+      "note": "求带ε转移自动机的ε闭包，化为DFA并写出所接受语言的正则表达式"
+    },
+    "tohoku-ee-2012-02-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "用链表实现表的基本操作，并编写求长度、删除指定元素和去重的伪代码"
+    },
+    "tohoku-ee-2012-02-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求粗糙面上刚球由滑动进入纯滚动的时刻，以及当时的平动速度和角速度"
+    },
+    "tohoku-ee-2012-02-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求矩阵的幂、行列式和逆，以及分块矩阵的逆矩阵和行列式",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2012-02-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.time",
+        "control.freq",
+        "control.stability"
+      ],
+      "note": "求控制系统稳定的K范围和稳态位置偏差，并用伯德图确定相位裕度对应的K"
+    },
+    "tohoku-ee-2012-02-senmon-q2": {
+      "add": [
+        "signal.modulation",
+        "signal.systems"
+      ],
+      "note": "求DSB-SC系统中低通滤波器的传递函数、已调波、解调输出和信噪比"
+    },
+    "tohoku-ee-2012-02-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "画工作中npn管的能带与电子流，并求射极跟随器的增益和输入输出阻抗"
+    },
+    "tohoku-ee-2012-02-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "画售货机的Mealy状态图与输出真值表，并用JK触发器和门电路实现"
+    },
+    "tohoku-ee-2012-02-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "用循环不变式证明迭代程序计算斐波那契数，并比较它与递归实现的时间阶"
+    },
+    "tohoku-ee-2012-02-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "证明角动量算符的对易关系，并求L平方的本征值"
+    },
+    "tohoku-ee-2012-02-senmon-q7": {
+      "add": [
+        "math.fourier",
+        "math.complex"
+      ],
+      "note": "用傅里叶变换求解微分方程，再通过复围道积分把解还原为g(x)",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2012-08-kiso-q1": {
+      "add": [
+        "em.waves"
+      ],
+      "note": "求介质分界面上平面波的反射与透射场，并由驻波比确定介电常数之比"
+    },
+    "tohoku-ee-2012-08-kiso-q2": {
+      "add": [
+        "circuit.line",
+        "circuit.transient"
+      ],
+      "note": "用传输线链矩阵求无反射时的最短距离，并求两次开关后RC电路的电压"
+    },
+    "tohoku-ee-2012-08-kiso-q3": {
+      "add": [
+        "computer.sequential"
+      ],
+      "note": "由自动机写正则表达式，将NFA化为最小DFA，并证明某语言不能被有限自动机接受"
+    },
+    "tohoku-ee-2012-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "设计用相等、区间或三分提问确定未知整数的算法，并给出提问次数的阶"
+    },
+    "tohoku-ee-2012-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "分析一维势中粒子的受力与允许区间，并求平衡点附近受摩擦时的运动"
+    },
+    "tohoku-ee-2012-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求矩阵的行列式、特征值与特征向量、矩阵幂，以及极限矩阵的秩",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2012-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.time"
+      ],
+      "note": "求反馈系统的闭环与开环传递函数、固有角频率、衰减率及单位阶跃响应，并分析外乱输出"
+    },
+    "tohoku-ee-2012-08-senmon-q2": {
+      "add": [
+        "signal.systems",
+        "signal.modulation"
+      ],
+      "note": "求载波脉冲滤波器的传递函数、接收噪声功率、最佳判决时刻的信号分量及信噪比"
+    },
+    "tohoku-ee-2012-08-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "device.junction",
+        "electronic.fet"
+      ],
+      "note": "求突变pn结的内建电势与耗尽层，并说明MOS能带、反型及MOSFET线性区和饱和区的跨导"
+    },
+    "tohoku-ee-2012-08-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "设计输出除以3余数的时序电路，并求真值表、最简积和式与D触发器实现"
+    },
+    "tohoku-ee-2012-08-senmon-q5": {
+      "add": [
+        "computer.algo",
+        "computer.discrete"
+      ],
+      "note": "计算递归函数的值与调用次数，并用归纳法证明f(x,y)等于f(y,x)"
+    },
+    "tohoku-ee-2012-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求谐振子在海森堡绘景中的运动方程、升降算符对易关系及矩阵元"
+    },
+    "tohoku-ee-2012-08-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "用围道积分、洛朗展开和留数计算复积分，并由此求实积分",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2013-03-kiso-q1": {
+      "add": [
+        "em.waves"
+      ],
+      "note": "求真空平面波的传播方向、角频率、磁场、固有阻抗和坡印廷矢量"
+    },
+    "tohoku-ee-2013-03-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.transient"
+      ],
+      "note": "求交流电路的输入导纳、谐振功率与相量图，以及冲激电流激励下的电压"
+    },
+    "tohoku-ee-2013-03-kiso-q3": {
+      "add": [
+        "computer.sequential"
+      ],
+      "note": "由状态转移图写正则表达式，并构造接受十进制数模3余0的有限自动机"
+    },
+    "tohoku-ee-2013-03-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "设计判断数组中是否存在等于k或两数之和为k的算法，并给出时间复杂度"
+    },
+    "tohoku-ee-2013-03-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求两质点在摩擦与斥力作用下的质心和相对运动，并给出碰撞条件"
+    },
+    "tohoku-ee-2013-03-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求子空间的正规正交基与正交补，并讨论矩阵行列式非零的条件与秩",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2013-03-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.time",
+        "control.stability"
+      ],
+      "note": "求伺服系统传递函数与冲激响应并判别稳定性，再按稳态误差和超调设计参数"
+    },
+    "tohoku-ee-2013-03-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "求DSB已调信号频谱、接收滤波器冲激响应、噪声功率谱及输出信噪比"
+    },
+    "tohoku-ee-2013-03-senmon-q3": {
+      "add": [
+        "device.junction"
+      ],
+      "note": "求反偏下完全耗尽的突变pn结空间电荷、电场、电位和耗尽层宽度"
+    },
+    "tohoku-ee-2013-03-senmon-q4": {
+      "add": [
+        "computer.arch"
+      ],
+      "note": "按单寄存器与内存的指令集执行并编写程序，完成整数求和"
+    },
+    "tohoku-ee-2013-03-senmon-q5": {
+      "add": [
+        "computer.algo",
+        "computer.discrete"
+      ],
+      "note": "计算扩展欧几里得递归求最大公约数的过程，并证明停机与返回值正确"
+    },
+    "tohoku-ee-2013-03-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "由波函数展开写出薛定谔方程的系数方程，并求二能级系统的能量与时间演化"
+    },
+    "tohoku-ee-2013-03-senmon-q7": {
+      "add": [
+        "math.fourier",
+        "math.complex"
+      ],
+      "note": "用傅里叶变换和留数求解积分方程，并求孤立奇点与函数g(x)",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2013-08-kiso-q1": {
+      "add": [
+        "em.waves"
+      ],
+      "note": "由麦克斯韦方程说明低频可忽略位移电流，并求导体中趋肤电流与焦耳热"
+    },
+    "tohoku-ee-2013-08-kiso-q2": {
+      "add": [
+        "circuit.twoport",
+        "circuit.ac"
+      ],
+      "note": "由开路测量确定二端口阻抗参数和T型等效，再求交流侧戴维南电压"
+    },
+    "tohoku-ee-2013-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "把阈值布尔函数写成无非的积和式，并判断阈值函数的大小关系与否定"
+    },
+    "tohoku-ee-2013-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "设计求数组元素与给定值或彼此最小差、以及两元素最大差的算法和复杂度"
+    },
+    "tohoku-ee-2013-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求物理摆绕支点的转动惯量、转动方程、角速度和支点反力"
+    },
+    "tohoku-ee-2013-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "用对称矩阵的特征值与正交对角化，变换二次曲面和平面的交线",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2013-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.freq",
+        "control.time"
+      ],
+      "note": "求开环与闭环传递函数并画伯德图，比较阶跃响应的稳态误差、上升时间和超调"
+    },
+    "tohoku-ee-2013-08-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "分析单边带抑制载波调制信号与带通后功率谱，并求输出信噪比及最佳截止比"
+    },
+    "tohoku-ee-2013-08-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "device.junction",
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "说明掺杂多数载流子与pn结电流，并求共射极放大器的小信号电压增益"
+    },
+    "tohoku-ee-2013-08-senmon-q4": {
+      "add": [
+        "computer.arch"
+      ],
+      "note": "用带栈指针的指令集填空并解释偶数求和与递归函数的机器程序"
+    },
+    "tohoku-ee-2013-08-senmon-q5": {
+      "add": [
+        "computer.algo",
+        "computer.discrete"
+      ],
+      "note": "计算两个递归函数的值与乘法次数，并用归纳法证明有限和等式"
+    },
+    "tohoku-ee-2013-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求有限深势阱中束缚态的薛定谔方程、波函数衔接条件及存在条件"
+    },
+    "tohoku-ee-2013-08-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "求复函数的孤立奇点与留数，并用围道积分导出余割型无穷级数关系",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2014-03-kiso-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.capacitance"
+      ],
+      "note": "求带电导体球、介质球壳与接地导体壳的电场、电位、电容和静电压力"
+    },
+    "tohoku-ee-2014-03-kiso-q2": {
+      "add": [
+        "circuit.coupled",
+        "circuit.ac"
+      ],
+      "note": "求互感耦合回路的端口阻抗、电流相位和电压比，以及二次电流最大时的互感"
+    },
+    "tohoku-ee-2014-03-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "用给定布尔函数复合与、或、非公式，并判断复合后的函数是否自对偶"
+    },
+    "tohoku-ee-2014-03-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "设计从含0到n中缺一个数的数组找出缺失整数的算法，并排序时给出更快做法"
+    },
+    "tohoku-ee-2014-03-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求刚性球壳沿固定球面滑动或纯滚动时的速度、反力和脱离角"
+    },
+    "tohoku-ee-2014-03-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求两矩阵的特征值与归一化特征向量，并把向量及矩阵幂写成特征展开",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2014-03-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.time"
+      ],
+      "note": "求闭环系统的误差传递函数、稳态位置与速度偏差，以及无超调的单位阶跃响应"
+    },
+    "tohoku-ee-2014-03-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "画调幅发射机框图，并求AM信号、功率效率和检波输出信噪比"
+    },
+    "tohoku-ee-2014-03-senmon-q3": {
+      "add": [
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "用h参数分析共射T模型，并求共射共基级联放大器的电压增益"
+    },
+    "tohoku-ee-2014-03-senmon-q4": {
+      "add": [
+        "computer.sequential",
+        "computer.logic"
+      ],
+      "note": "由串行二进制减法的顺序电路列真值表，并化成最简与或式"
+    },
+    "tohoku-ee-2014-03-senmon-q5": {
+      "add": [
+        "computer.sequential",
+        "computer.algo"
+      ],
+      "note": "给出BNF文法的推导树与最左推导，并用栈计算算术式所需空间"
+    },
+    "tohoku-ee-2014-03-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "证明厄米算符的本征值为实数，且不同本征值对应的本征函数正交"
+    },
+    "tohoku-ee-2014-03-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "用扇形围道积分计算菲涅耳积分sin(x²)和cos(x²)",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2014-08-kiso-q1": {
+      "add": [
+        "em.waves"
+      ],
+      "note": "求平面波垂直入射介质界面及夹层时的透射场、反射场和无反射条件"
+    },
+    "tohoku-ee-2014-08-kiso-q2": {
+      "add": [
+        "circuit.ac"
+      ],
+      "note": "按幅频与相频特性设计含电感的积分电路，并说明它作为积分电路时的输入条件"
+    },
+    "tohoku-ee-2014-08-kiso-q3": {
+      "add": [
+        "computer.logic",
+        "computer.discrete"
+      ],
+      "note": "证明自对偶布尔函数的性质，并计数n元自对偶函数的个数"
+    },
+    "tohoku-ee-2014-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "说明堆的删除与插入步骤，并证明建成堆的时间是O(n log n)"
+    },
+    "tohoku-ee-2014-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求桌边滑落绳子在光滑和有摩擦时的运动方程与速度"
+    },
+    "tohoku-ee-2014-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求旋转后矩阵的特征值与特征向量、矩阵幂以及矩阵指数的迹和行列式",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2014-08-senmon-q1": {
+      "add": [
+        "control.freq",
+        "control.time",
+        "control.stability"
+      ],
+      "note": "求含时延系统的增益相位裕度、阶跃稳态偏差，以及不失去稳定的偏差下限"
+    },
+    "tohoku-ee-2014-08-senmon-q2": {
+      "add": [
+        "signal.modulation",
+        "signal.systems"
+      ],
+      "note": "求抑制载波双边带信号、接收带通滤波器的传递函数及其输出信噪比"
+    },
+    "tohoku-ee-2014-08-senmon-q3": {
+      "add": [
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "画npn放大电路的小信号等效电路，求阻抗和增益，并说明反馈偏置为何耐温度变化"
+    },
+    "tohoku-ee-2014-08-senmon-q4": {
+      "add": [
+        "computer.sequential",
+        "computer.logic"
+      ],
+      "note": "设计比较两路串行二进制数的顺序电路，给出状态图、最简式和D触发器图"
+    },
+    "tohoku-ee-2014-08-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "计算辗转相除递归函数的值，并证明调用次数为O(log q)"
+    },
+    "tohoku-ee-2014-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "写有限深势阱各区的定态薛定谔方程，并求透射概率取极大的能量"
+    },
+    "tohoku-ee-2014-08-senmon-q7": {
+      "add": [
+        "math.fourier",
+        "math.complex"
+      ],
+      "note": "用傅里叶变换和留数求解微分方程d²g/dx²−g=f",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2015-03-kiso-q1": {
+      "add": [
+        "em.induction"
+      ],
+      "note": "求矩形线圈在交变磁场中静止或绕轴旋转时两端的感应电动势"
+    },
+    "tohoku-ee-2015-03-kiso-q2": {
+      "add": [
+        "circuit.twoport",
+        "circuit.line"
+      ],
+      "note": "由K矩阵求开短路输入阻抗，并计算同轴电缆的特性阻抗、相速度和长度"
+    },
+    "tohoku-ee-2015-03-kiso-q3": {
+      "add": [
+        "computer.logic",
+        "computer.discrete"
+      ],
+      "note": "判断布尔函数是否对称或自对偶，并证明对称函数的个数"
+    },
+    "tohoku-ee-2015-03-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "向链地址法哈希表插入元素，并比较查找复杂度和两个取模哈希函数"
+    },
+    "tohoku-ee-2015-03-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求偏心圆盘摆的转动惯量、小幅振荡周期以及使周期最小的轴位置"
+    },
+    "tohoku-ee-2015-03-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求矩阵及其多项式的特征值与特征向量，并求单位向量上|Bx|的最大值",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2015-03-senmon-q1": {
+      "add": [
+        "control.freq",
+        "control.stability",
+        "control.time"
+      ],
+      "note": "由伯德图求稳定极限参数、补偿后的相位裕度，以及稳态速度偏差之比"
+    },
+    "tohoku-ee-2015-03-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "求冲激列经抑制载波双边带调制与同步检波后的频谱和信噪比"
+    },
+    "tohoku-ee-2015-03-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "device.junction"
+      ],
+      "note": "由费米能级求本征载流子和电阻率，并计算突变pn结的耗尽层宽度与面电荷"
+    },
+    "tohoku-ee-2015-03-senmon-q4": {
+      "add": [
+        "computer.sequential",
+        "computer.logic"
+      ],
+      "note": "设计检测序列101的顺序电路，画出状态图、最简激励式和D触发器电路"
+    },
+    "tohoku-ee-2015-03-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "分析递归函数的终止性与调用次数的阶，并证明它满足乘上x的递推"
+    },
+    "tohoku-ee-2015-03-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求二能级哈密顿量的能量本征值与本征态，并说明幺正变换后特征值不变"
+    },
+    "tohoku-ee-2015-03-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "用围道积分证明实积分∫x^{a-1}/(x+1)dx等于π/sin(πa)",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2015-08-kiso-q1": {
+      "add": [
+        "em.magnetostatics"
+      ],
+      "note": "用安培环路定律求平行圆柱电流的磁通密度，以及对方形载流线圈的力"
+    },
+    "tohoku-ee-2015-08-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.line"
+      ],
+      "note": "把RLC网络写成阻抗，并将无损传输线等效为T型电路且使终端不产生反射"
+    },
+    "tohoku-ee-2015-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "证明自对偶与自反对偶布尔函数的性质，并列举全部二元自对偶函数"
+    },
+    "tohoku-ee-2015-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "对二叉搜索树做插入和删除，并给出升序枚举全部元素的算法"
+    },
+    "tohoku-ee-2015-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "求中心力势中质点的能量、角动量、最近距离和散射角"
+    },
+    "tohoku-ee-2015-08-kiso-q6": {
+      "add": [
+        "physics.quantum",
+        "math.linalg"
+      ],
+      "note": "求泡利矩阵的本征值与本征向量，并证明自旋转角算符的矩阵指数公式"
+    },
+    "tohoku-ee-2015-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.time",
+        "control.freq",
+        "control.stability"
+      ],
+      "note": "求反馈系统的闭环与开环传递函数、固有频率、稳态速度偏差、奈奎斯特图及稳定增益范围"
+    },
+    "tohoku-ee-2015-08-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "求载波抑制双边带调幅信号的频谱，并说明同步检波、白噪声和相位误差的影响"
+    },
+    "tohoku-ee-2015-08-senmon-q3": {
+      "add": [
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "求双极晶体管放大电路的直流偏置，并用h参数等效电路求输入阻抗和电压增益"
+    },
+    "tohoku-ee-2015-08-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "由状态转移表画状态图，写最简积和激励式，并用两个D触发器构成时序电路"
+    },
+    "tohoku-ee-2015-08-senmon-q5": {
+      "add": [
+        "computer.algo",
+        "computer.discrete"
+      ],
+      "note": "计算递归函数的值，用归纳法证明其与矩阵幂的关系，并写调用次数为O(log n)的递归定义"
+    },
+    "tohoku-ee-2015-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求厄米算符的期望值、不确定度和本征态，并求哈密顿量作用下观测量的时间演化"
+    },
+    "tohoku-ee-2015-08-senmon-q7": {
+      "add": [
+        "math.fourier"
+      ],
+      "note": "求高斯函数及其乘幂的傅里叶变换，并用卷积定理解积分方程",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2016-03-kiso-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.capacitance",
+        "em.waves"
+      ],
+      "note": "求平行圆板电容器的电场、电容和极板受力，并求时变电荷下的位移电流与坡印廷矢量"
+    },
+    "tohoku-ee-2016-03-kiso-q2": {
+      "add": [
+        "circuit.twoport",
+        "circuit.ac",
+        "circuit.line"
+      ],
+      "note": "求T形与π形电路的纵联矩阵及变换关系，画阻抗相量轨迹，并求无损耗短路线的长度"
+    },
+    "tohoku-ee-2016-03-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "判断与非和异或是否为阈值函数，并画四变量阈值函数的卡诺图写出最简积和式"
+    },
+    "tohoku-ee-2016-03-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "给出图的邻接矩阵和邻接表及其存储量，并求最小生成树和相应算法"
+    },
+    "tohoku-ee-2016-03-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "分析斜面上纯滚动刚球的角速度、动能、力矩、支持力和转动惯量"
+    },
+    "tohoku-ee-2016-03-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "求绕[111]轴三分之一转在不同基底下的表示矩阵、正交变换矩阵及其逆",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2016-03-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.stability",
+        "control.freq"
+      ],
+      "note": "求开环传递函数、特征方程、稳定增益和根轨迹，并画奈奎斯特图求相位交越频率与增益裕度"
+    },
+    "tohoku-ee-2016-03-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "求调幅波波形和功率效率，并说明包络检波器工作及输出信噪比"
+    },
+    "tohoku-ee-2016-03-senmon-q3": {
+      "add": [
+        "device.semiconductor"
+      ],
+      "note": "由导带态密度和费米分布求有效态密度、电子平均能量及n型半导体的费米能级"
+    },
+    "tohoku-ee-2016-03-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "设计两路输入汉明距离为4时输出1的时序电路，写最简积和式并用D触发器实现"
+    },
+    "tohoku-ee-2016-03-senmon-q5": {
+      "add": [
+        "computer.algo",
+        "computer.sequential"
+      ],
+      "note": "跟踪栈机器执行表达式的状态，写compile命令，并判断编译后语法树是否指数增大"
+    },
+    "tohoku-ee-2016-03-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求有限高势垒势阱中定态波函数、边界条件，以及存在束缚态所需的阱宽下限"
+    },
+    "tohoku-ee-2016-03-senmon-q7": {
+      "add": [
+        "math.complex",
+        "math.fourier"
+      ],
+      "note": "求有理函数的孤立奇点、留数、洛朗级数和围道积分，并求实函数的傅里叶级数",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2016-08-kiso-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.capacitance"
+      ],
+      "note": "求三块平行导体板间的电场、电位、电容和静电能密度比，并求插入介质的长度"
+    },
+    "tohoku-ee-2016-08-kiso-q2": {
+      "add": [
+        "circuit.coupled",
+        "circuit.ac",
+        "circuit.transient"
+      ],
+      "note": "求互感变压器的电压方程、等效T形电路和电流相位差，并求开关动作后的电感电流"
+    },
+    "tohoku-ee-2016-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "写出多位二进制加法中和位与进位的最简布尔表达式"
+    },
+    "tohoku-ee-2016-08-kiso-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "设计求两个整数数组公共元素的算法，并比较排序和数据结构下的时间复杂度"
+    },
+    "tohoku-ee-2016-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "分析圆柱扇形静电分析器中电子在中心力下的角动量守恒、轨道方程和再聚焦角"
+    },
+    "tohoku-ee-2016-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "计算矩阵对易子和矩阵指数导数，并证明满足对易条件时的指数乘积公式",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2016-08-senmon-q1": {
+      "add": [
+        "control.tf",
+        "control.time",
+        "control.freq",
+        "control.stability"
+      ],
+      "note": "求电路传递函数及其单位阶跃响应，画奈奎斯特图，并求反馈系统稳定的增益范围"
+    },
+    "tohoku-ee-2016-08-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "确定调幅整流检波器的元件，展开开关波形的傅里叶级数，并求低通滤波后的输出"
+    },
+    "tohoku-ee-2016-08-senmon-q3": {
+      "add": [
+        "device.semiconductor",
+        "device.junction",
+        "electronic.fet",
+        "electronic.amp"
+      ],
+      "note": "用断面结构和能带图说明n沟道MOSFET的导通，并求放大电路的小信号电压增益"
+    },
+    "tohoku-ee-2016-08-senmon-q4": {
+      "add": [
+        "computer.arch"
+      ],
+      "note": "按单寄存器指令集执行程序，并编写求整数差和带余除法的汇编程序"
+    },
+    "tohoku-ee-2016-08-senmon-q5": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "比较两种参数求值策略下函数的计算过程，并表示其中执行的加法次数"
+    },
+    "tohoku-ee-2016-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求对称势阱中束缚电子位置与动量的期望值，以及叠加态下它们随时间的变化"
+    },
+    "tohoku-ee-2016-08-senmon-q7": {
+      "add": [
+        "math.complex"
+      ],
+      "note": "求e^{iz}/cosh(z)的孤立奇点，并用矩形围道积分计算对应的实积分",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2023-08-kiso-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.capacitance"
+      ],
+      "note": "用高斯定理求同心球电容器各区域电场和电位，并求两种接地方式下的电容"
+    },
+    "tohoku-ee-2023-08-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.coupled"
+      ],
+      "note": "画交流分流的相量图并求相位条件，再求含互感支路的角频率和合成导纳"
+    },
+    "tohoku-ee-2023-08-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "讨论布尔函数环和标准形中的常数命题，并给出非退化二元函数的充要条件"
+    },
+    "tohoku-ee-2023-08-kiso-q4": {
+      "add": [
+        "computer.discrete"
+      ],
+      "note": "证明映射像与交集的包含关系，以及单射或满射经合成后仍然保持"
+    },
+    "tohoku-ee-2023-08-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "分析半圆筒内纯滚动球的转动惯量、运动方程、摩擦力和微振动周期"
+    },
+    "tohoku-ee-2023-08-kiso-q6": {
+      "add": [
+        "math.linalg"
+      ],
+      "note": "证明四个四维向量构成基底，并求正交向量对、夹角和标准正交基"
+    },
+    "tohoku-ee-2023-08-senmon-q1": {
+      "add": [
+        "em.magnetostatics",
+        "em.induction",
+        "control.tf",
+        "control.time"
+      ],
+      "note": "求电磁铁气隙磁能比和力平衡时的磁通，并求闭环传递函数与单位阶跃后的稳态位置"
+    },
+    "tohoku-ee-2023-08-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "画出半波检波输出，展开其傅里叶级数，并求四次谐波经带通后的功率和热噪声信噪比"
+    },
+    "tohoku-ee-2023-08-senmon-q3": {
+      "add": [
+        "electronic.bjt",
+        "electronic.amp"
+      ],
+      "note": "求npn共射放大器的直流工作点，并画小信号等效电路求端口阻抗和电压增益"
+    },
+    "tohoku-ee-2023-08-senmon-q4": {
+      "add": [
+        "computer.logic",
+        "computer.sequential"
+      ],
+      "note": "区分组合与时序电路，画串行加法器的米利状态图，并用D触发器实现检测“10”的摩尔机"
+    },
+    "tohoku-ee-2023-08-senmon-q5": {
+      "add": [
+        "computer.algo",
+        "computer.arch"
+      ],
+      "note": "证明并计算递归函数的值，再说明如何用寄存器和栈编写其汇编实现"
+    },
+    "tohoku-ee-2023-08-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求有限深势阱中定态薛定谔方程的解、衔接条件、基态波数和概率最大位置"
+    },
+    "tohoku-ee-2024-02-kiso-q1": {
+      "add": [
+        "em.waves",
+        "em.magnetostatics"
+      ],
+      "note": "写出麦克斯韦方程和坡印廷定理，并用安培定律求载流圆筒的磁场、坡印廷矢量和焦耳热"
+    },
+    "tohoku-ee-2024-02-kiso-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.coupled"
+      ],
+      "note": "画交流电路的相量图并求有功无功功率和功率因数，再求互感电路的输入阻抗"
+    },
+    "tohoku-ee-2024-02-kiso-q3": {
+      "add": [
+        "computer.logic"
+      ],
+      "note": "求三变量多数函数的标准形，并用它表示奇偶函数，再讨论中立布尔函数的个数"
+    },
+    "tohoku-ee-2024-02-kiso-q4": {
+      "add": [
+        "computer.discrete"
+      ],
+      "note": "判断笛卡尔积对并、交是否满足三条分配等式并给出理由"
+    },
+    "tohoku-ee-2024-02-kiso-q5": {
+      "add": [
+        "physics.mechanics"
+      ],
+      "note": "一根吊线剪断后，求均匀棒的质心与转角关系、运动方程、张力和随后的运动"
+    },
+    "tohoku-ee-2024-02-kiso-q6": {
+      "add": [
+        "math.laplace"
+      ],
+      "note": "画出延迟幂函数的波形，并求其拉普拉斯变换，再用归纳法写出一般公式"
+    },
+    "tohoku-ee-2024-02-senmon-q1": {
+      "add": [
+        "control.freq",
+        "control.stability",
+        "circuit.coupled"
+      ],
+      "note": "画控制系统的奈奎斯特图并求稳定极限和伯德渐近线参数，再求单相变压器的电压变动率"
+    },
+    "tohoku-ee-2024-02-senmon-q2": {
+      "add": [
+        "signal.modulation"
+      ],
+      "note": "分析超外差调幅接收机的混频范围、中频带宽、本振稳定度和包络检波输出"
+    },
+    "tohoku-ee-2024-02-senmon-q3": {
+      "add": [
+        "electronic.fet",
+        "electronic.amp"
+      ],
+      "note": "求MOSFET单级放大器的偏置和端口阻抗，并求两级放大器的电压增益"
+    },
+    "tohoku-ee-2024-02-senmon-q4": {
+      "add": [
+        "computer.sequential"
+      ],
+      "note": "用JK、RS触发器和门电路构成D触发器，并画含两个D触发器的时序电路波形"
+    },
+    "tohoku-ee-2024-02-senmon-q5": {
+      "add": [
+        "computer.algo",
+        "computer.arch"
+      ],
+      "note": "计算递归函数的值，并补全用寄存器和栈计算该函数的汇编指令"
+    },
+    "tohoku-ee-2024-02-senmon-q6": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求一维势垒散射的定态波函数、衔接条件和透射概率流取极值的势垒宽度"
+    },
+    "tohoku-ee-2024-08-q1": {
+      "add": [
+        "em.electrostatics",
+        "em.capacitance"
+      ],
+      "note": "用高斯定理求同轴圆筒的电场、电容和静电能，并求点电荷对接地线圈的感应电容"
+    },
+    "tohoku-ee-2024-08-q2": {
+      "add": [
+        "circuit.ac",
+        "circuit.coupled",
+        "circuit.transient"
+      ],
+      "note": "求含变压器交流电路的输入阻抗、谐振角频率和耦合系数，以及开关后的电流和电荷"
+    },
+    "tohoku-ee-2024-08-q4": {
+      "add": [
+        "computer.algo"
+      ],
+      "note": "画出插入得到的二叉搜索树，并分别用递归、队列和栈写出遍历序列"
+    },
+    "tohoku-ee-2024-08-q5": {
+      "add": [
+        "device.solid"
+      ],
+      "note": "由金属中自由电子的漂移求电导率，并求磁场下的霍尔电场和横向电压",
+      "remove": [
+        "physics"
+      ]
+    },
+    "tohoku-ee-2024-08-q6": {
+      "add": [
+        "math.complex",
+        "math.linalg"
+      ],
+      "note": "用柯西-黎曼方程证明正弦解析并求解析函数，再求矩阵特征值、对角化和幂"
+    },
+    "tohoku-ee-2025-03-q1": {
+      "add": [
+        "em.magnetostatics",
+        "em.induction",
+        "em.electrostatics",
+        "em.capacitance"
+      ],
+      "note": "求平行圆筒的磁场与单位长度自感、线电荷电场与电容，以及圆筒对接地平板的电容"
+    },
+    "tohoku-ee-2025-03-q2": {
+      "add": [
+        "circuit.line"
+      ],
+      "note": "求无损传输线的特性阻抗、反射系数、驻波电压最大点位置和级联后的透射系数"
+    },
+    "tohoku-ee-2025-03-q4": {
+      "add": [
+        "computer.algo",
+        "computer.discrete"
+      ],
+      "note": "计算两个递归函数的值与运算次数，并用归纳法证明调用次数的界以及二者相等"
+    },
+    "tohoku-ee-2025-03-q5": {
+      "add": [
+        "physics.thermo"
+      ],
+      "note": "求二能级粒子系的配分函数、亥姆霍兹自由能、熵、内能和定容热容量"
+    },
+    "tohoku-ee-2025-03-q6": {
+      "add": [
+        "math.complex",
+        "math.linalg"
+      ],
+      "note": "证明复几何级数并求泰勒展开，再求方阵的转置、乘积和行列式"
+    },
+    "tohoku-ee-2025-08-q1": {
+      "add": [
+        "em.waves"
+      ],
+      "note": "求平面波在理想导体上全反射的边界条件，以及介质界面的折射关系与反射系数"
+    },
+    "tohoku-ee-2025-08-q2": {
+      "add": [
+        "circuit.line",
+        "circuit.ac",
+        "circuit.transient"
+      ],
+      "note": "求无损线端接RLC负载的阻抗、单位功率因数条件和反射系数，以及开关后的振荡电流"
+    },
+    "tohoku-ee-2025-08-q4": {
+      "add": [
+        "computer.sequential"
+      ],
+      "note": "画上下文无关文法的推导树，并按无二义分解求size与eval及字符串长度的形式"
+    },
+    "tohoku-ee-2025-08-q5": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "求电子入射方势垒和倾斜势垒时的波函数系数，并比较两种情况下的隧穿概率"
+    },
+    "tohoku-ee-2025-08-q6": {
+      "add": [
+        "math.laplace",
+        "math.linalg"
+      ],
+      "note": "求脉冲、正弦和周期函数的拉普拉斯变换，并把共线、共圆和三角形面积写成行列式"
+    },
+    "tohoku-ee-2026-03-q1": {
+      "add": [
+        "em.induction",
+        "circuit.coupled",
+        "em.magnetostatics"
+      ],
+      "note": "求直线电流与方环的互感、感应电动势、动生电流、焦耳热和所受的力"
+    },
+    "tohoku-ee-2026-03-q2": {
+      "add": [
+        "circuit.twoport",
+        "circuit.ac"
+      ],
+      "note": "求二端口F矩阵、传递函数和输入阻抗，并画LC梯形电路增益的频率响应"
+    },
+    "tohoku-ee-2026-03-q4": {
+      "add": [
+        "computer.discrete",
+        "computer.algo"
+      ],
+      "note": "举例具有指定自反、对称、传递性的关系，并给出判定算法的数组访问次数和Θ阶"
+    },
+    "tohoku-ee-2026-03-q5": {
+      "add": [
+        "physics.quantum"
+      ],
+      "note": "势阱突然加宽后展开含时波函数，并解释扩展区发现概率出现三个极大的原因"
+    },
+    "tohoku-ee-2026-03-q6": {
+      "add": [
+        "math.linalg",
+        "math.complex",
+        "math.fourier"
+      ],
+      "note": "求矩阵的行列式、逆和特征值，用复围道积分证明狄利克雷积分，并求矩形函数的傅里叶变换"
+    }
+  }
 }
