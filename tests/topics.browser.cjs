@@ -70,6 +70,18 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
       assert.equal(new URL(page.url()).searchParams.get('topic'), 'electronic.opamp');
     }
     assert.ok(crossed, 'next question should move to another paper');
+    // 题目下方的知识点链接：当前知识点高亮，链接指向知识点列表
+    await page.waitForSelector('#topic-links:not([hidden]) a[aria-current="true"]');
+    assert.equal(await page.locator('#topic-links a[aria-current="true"]').textContent(), '运算放大器');
+    assert.equal(await page.locator('#topic-links a[aria-current="true"]').getAttribute('href'), 'topics.html?topic=electronic.opamp');
+    // 首页「继续上次」带回同一个知识点
+    const resumeAt = page.url();
+    await page.goto(origin + '/index.html');
+    await page.waitForSelector('.resume-card');
+    assert.match(await page.locator('.resume-card').textContent(), /按知识点：运算放大器/);
+    await page.locator('.resume-card').click();
+    await page.waitForSelector('#topic-bar:not([hidden])');
+    assert.equal(page.url(), resumeAt);
     await shot(page, 'topics-practice');
 
     // 标记已练习 → 列表出现对勾、继续练习
@@ -94,6 +106,15 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     await page.goto(origin + '/question-practice.html?paper=utokyo-ee-2023');
     await page.waitForSelector('#app:not([hidden])');
     assert.equal(await page.locator('#topic-bar').isHidden(), true);
+    // 普通练习也会补上知识点链接，点了进入对应列表
+    await page.waitForSelector('#topic-links:not([hidden]) a');
+    await page.locator('#topic-links a').first().click();
+    await page.waitForSelector('.topic-row');
+    // 刷题页入口
+    await page.goto(origin + '/drill.html');
+    assert.equal(await page.locator('.room-breadcrumb a[href="topics.html"]').count(), 1);
+    await page.goto(origin + '/question-practice.html?paper=utokyo-ee-2023');
+    await page.waitForSelector('#app:not([hidden])');
     assert.match(await page.locator('#nav-position').textContent(), /^1 \//);
 
     // 科目「全部」与非法参数
@@ -126,7 +147,7 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     await shot(m, 'topics-mobile');
 
     assert.deepEqual(errors, []);
-    console.log('Topic practice checks passed: practice entry, topic tree, school filter and history, newest-first order, cross-paper next, completion marks, status filters, exit to single paper, invalid params and mobile layout.');
+    console.log('Topic practice checks passed: practice entry, topic tree, school filter and history, newest-first order, cross-paper next, topic links, topic-aware resume, completion marks, status filters, exit to single paper, invalid params and mobile layout.');
   } finally {
     if (browser) await browser.close();
     await new Promise(r => server.close(r));

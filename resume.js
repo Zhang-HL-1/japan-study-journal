@@ -3,6 +3,8 @@
   // 「继续上次」：只记住最后打开的逐题练习位置，独立键名，不改动逐题或整卷练习记录。
   const KEY = 'japan-study-journal:last-question:v1';
   const idPattern = /^[A-Za-z0-9][A-Za-z0-9._-]{0,159}$/;
+  // 从「按知识点练」进入时一并记住知识点，继续时回到同一个知识点队列。
+  const topicPattern = /^[a-z]+(?:\.[a-z]+)?$/, schoolPattern = /^[a-z][a-z-]{0,40}$/;
   const clip = (value, max) => typeof value === 'string' ? value.slice(0, max) : '';
 
   function normalize(value) {
@@ -10,6 +12,8 @@
     if (!idPattern.test(value.paper || '') || !idPattern.test(value.q || '')) return null;
     const position = Number.isInteger(value.position) && value.position > 0 ? value.position : 0;
     const total = Number.isInteger(value.total) && value.total >= position ? value.total : 0;
+    const topic = typeof value.topic === 'string' && topicPattern.test(value.topic) ? value.topic : '';
+    const extra = topic ? { topic, school: typeof value.school === 'string' && schoolPattern.test(value.school) ? value.school : '', topicName: clip(value.topicName, 60) } : {};
     return {
       version: 1,
       paper: value.paper,
@@ -20,6 +24,7 @@
       position,
       total,
       at: Number.isFinite(value.at) ? value.at : 0,
+      ...extra,
     };
   }
 
@@ -36,7 +41,9 @@
   }
 
   function url(entry) {
-    return 'question-practice.html?' + new URLSearchParams({ paper: entry.paper, q: entry.q }).toString();
+    const params = new URLSearchParams({ paper: entry.paper, q: entry.q });
+    if (entry.topic) { params.set('topic', entry.topic); if (entry.school) params.set('school', entry.school); }
+    return 'question-practice.html?' + params.toString();
   }
 
   function ago(at, now = Date.now()) {
@@ -63,7 +70,7 @@
     if (when) label.append(make('small', ' · ' + when));
     const body = make('span', '', 'resume-body');
     body.append(make('strong', [entry.number, entry.title].filter(Boolean).join(' '), 'resume-title'));
-    const meta = [entry.paperTitle, entry.position && entry.total ? `第 ${entry.position} / ${entry.total} 题` : ''].filter(Boolean).join(' · ');
+    const meta = [entry.topicName ? '按知识点：' + entry.topicName : '', entry.paperTitle, entry.position && entry.total ? `第 ${entry.position} / ${entry.total} 题` : ''].filter(Boolean).join(' · ');
     if (meta) body.append(make('span', meta, 'resume-meta'));
     link.append(label, body, make('span', '→', 'resume-arrow'));
     link.setAttribute('aria-label', `继续上次练习：${[entry.paperTitle, entry.number, entry.title].filter(Boolean).join(' ')}`);

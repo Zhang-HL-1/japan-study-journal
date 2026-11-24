@@ -1,7 +1,7 @@
 (async function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  let topicMode = null, paper, index = 0, records = {}, recordState = { writable: true, keepFormal: false, keepLegacy: false }, storageWritable = true, focused = false, zoom = 100;
+  let topicMode = null, topicIndexPromise = null, topicIndexData = null, topicRows = null, paper, index = 0, records = {}, recordState = { writable: true, keepFormal: false, keepLegacy: false }, storageWritable = true, focused = false, zoom = 100;
   const idPattern = /^[a-z0-9][a-z0-9-]{0,120}$/;
   const assetPattern = /^assets\/question-bank\/[a-z0-9-]+\/[a-z0-9-]+\.png$/;
   const pdfPattern = /^https:\/\/zhang-hl-1\.github\.io\/japan-study-journal-papers-[12]\/(?:tohoku|tus|science-tokyo|kyushu|hokkaido|keio|uec|sophia|osaka|utokyo|nagoya|kobe|waseda)\/[a-f0-9]{64}\.pdf$/;
@@ -136,6 +136,7 @@
     $('note-status').textContent = r.note ? '已有笔记' : '';
     $('previous').disabled = index === 0; $('next').disabled = index === paper.questions.length-1;
     updateTopicBar();
+    renderTopicLinks();
     refresh();
     document.title = q.number + ' · ' + paper.title + ' · 留日手记';
   }
@@ -144,7 +145,7 @@
     const direction = next > index ? 'next' : next < index ? 'previous' : '';
     index = next; render();
     slideIn(historyMode === 'replaceState' ? '' : direction);
-    window.StudyResume?.save({ paper: paper.id, q: current().id, paperTitle: paper.title, number: current().number, title: current().title, position: index + 1, total: paper.questions.length });
+    saveResume();
     const url = new URL(location.href); url.searchParams.set('paper', paper.id); url.searchParams.set('q', current().id);
     if (historyMode) history[historyMode](null, '', url);
     if (historyMode === 'pushState') { $('question').focus({preventScroll:true}); $('question').scrollIntoView({ block:'start', behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }
@@ -182,17 +183,48 @@
     if (at >= 0) return navigate(at);
     location.href = window.TopicIndex.practiceURL(target, topicMode.opts);
   }
+  // 知识点索引只取一次：知识点模式与题目下方的知识点链接共用。
+  function loadTopicIndex() {
+    if (!window.TopicIndex) return Promise.reject(new Error('no topic index'));
+    if (!topicIndexPromise) topicIndexPromise = fetchJSON(window.TopicIndex.INDEX_PATH).then(data => {
+      topicIndexData = data;
+      topicRows = new Map(data.questions.map(row => [row.q, row]));
+      return data;
+    });
+    return topicIndexPromise;
+  }
+  function renderTopicLinks() {
+    const box = $('topic-links');
+    if (!box) return;
+    const row = topicRows && topicRows.get(current().id);
+    const ids = row ? [...row.k, ...(row.s || [])] : [];
+    if (!ids.length) { box.hidden = true; box.replaceChildren(); return; }
+    const links = ids.map(id => window.TopicIndex.findTopic(topicIndexData, id)).filter(Boolean).map(info => {
+      const a = document.createElement('a');
+      a.href = window.TopicIndex.topicsURL({ topic: info.id });
+      a.textContent = info.kind === 'subject' ? info.name + '（科目）' : info.name;
+      a.title = '查看各校同类题：' + a.textContent;
+      if (topicMode && topicMode.opts.topic === info.id) a.setAttribute('aria-current', 'true');
+      return a;
+    });
+    box.replaceChildren(text('span', '知识点', 'topic-links-label'), ...links);
+    box.hidden = false;
+  }
+  function saveResume() {
+    window.StudyResume?.save({ paper: paper.id, q: current().id, paperTitle: paper.title, number: current().number, title: current().title, position: index + 1, total: paper.questions.length,
+      ...(topicMode && topicNeighbors() ? { topic: topicMode.opts.topic, school: topicMode.opts.school, topicName: topicMode.label } : {}) });
+  }
   async function loadTopicMode() {
     const topic = params.get('topic');
     if (!topic || !window.TopicIndex) return;
     try {
-      const topicIndex = await fetchJSON(window.TopicIndex.INDEX_PATH);
+      const topicIndex = await loadTopicIndex();
       const opts = window.TopicIndex.normalizeOptions(topicIndex, { topic, school: params.get('school') || '', sort: params.get('sort') || '' });
       const info = window.TopicIndex.findTopic(topicIndex, opts.topic);
       if (!info) return;
       topicMode = { index: topicIndex, opts, rows: window.TopicIndex.queue(topicIndex, opts), label: info.kind === 'subject' ? info.name + ' · 全部' : info.name, listURL: window.TopicIndex.topicsURL(opts) };
       $('back-to-practice').href = topicMode.listURL; $('back-to-practice').textContent = '← 返回知识点列表';
-      updateTopicBar();
+      updateTopicBar(); renderTopicLinks(); saveResume();
     } catch { /* 知识点索引读不到时照常按整卷练习 */ }
   }
   function exitTopicMode() {
@@ -201,7 +233,7 @@
     for (const key of ['topic', 'school', 'sort']) url.searchParams.delete(key);
     history.replaceState(null, '', url);
     $('back-to-practice').href = 'drill.html#question-card'; $('back-to-practice').textContent = '← 返回刷题目录';
-    render();
+    render(); saveResume();
   }
   function applyZoom() { $('zoom-content').style.width = Math.round(Math.max(760, Math.min(1100, innerWidth-100))*zoom/100) + 'px'; $('zoom-level').textContent = zoom + '%'; $('zoom-out').disabled = zoom <= 75; $('zoom-in').disabled = zoom >= 200; }
   function openZoom(part) {
@@ -305,6 +337,8 @@
     const start = paper.questions.findIndex(q => q.id === (params.get('q') || aliasQuestion));
     navigate(Math.max(0,start),'replaceState');
     loadTopicMode();
+    // 不在知识点模式时，空闲时再取索引，给题目补上可点的知识点链接。
+    (window.requestIdleCallback || (fn => setTimeout(fn, 400)))(() => loadTopicIndex().then(renderTopicLinks).catch(() => {}));
     $('topic-bar-exit').addEventListener('click', event => { event.preventDefault(); exitTopicMode(); });
     $('bookmark').addEventListener('click', () => { patch({bookmarked:!record().bookmarked}); refresh(); });
     $('complete').addEventListener('click', () => { patch({completed:!record().completed}); refresh(); if (record().completed) celebrate(); });

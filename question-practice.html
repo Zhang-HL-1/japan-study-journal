@@ -5,12 +5,12 @@
   <title>逐题练习 · 留日手记</title>
   <meta name="description" content="按已接入的过去问逐题练习：直接阅读日文原题，保留公式、配图和出处。">
   <meta name="theme-color" content="#faf9f5">
-  <link rel="stylesheet" href="question-practice.css?v=20261124-topics">
+  <link rel="stylesheet" href="question-practice.css?v=20261124-topic-links">
   <link rel="stylesheet" href="theme.css?v=20261120-keys">
   <script src="question-bank.js?v=20261030-year-direction" defer></script>
-  <script src="resume.js?v=20261120-resume" defer></script>
+  <script src="resume.js?v=20261124-topic" defer></script>
   <script src="topics-core.js?v=20261124-topics" defer></script>
-  <script src="question-practice.js?v=20261124-topics" defer></script>
+  <script src="question-practice.js?v=20261124-topic-links" defer></script>
 </head>
 <body>
   <a class="skip" href="#question">跳到题目</a>
@@ -34,6 +34,7 @@
         <article id="question" class="question-card" tabindex="-1">
           <div class="question-head"><div><p id="question-number" class="eyebrow"></p><h2 id="question-title"></h2></div><button id="bookmark" type="button" aria-pressed="false">☆ 收藏</button></div>
           <div id="topics" class="topics"></div>
+          <nav id="topic-links" class="topic-links" aria-label="本题所属知识点" hidden></nav>
           <div class="source-line"><span id="question-source"></span><a id="original-link" target="_blank" rel="noopener">查看原卷 ↗</a></div>
           <details class="common" open><summary>全卷共用条件</summary><div id="common-content"></div></details>
           <div class="reading-tools"><span>原题正文</span><button id="enlarge" type="button">放大阅读 ↗</button></div>
