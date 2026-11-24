@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "note": "逐题修正自动归类：add 增加、remove 去掉知识点或科目 id，note 写原因。只影响知识点索引，不改原题数据。",
+  "questions": {}
+}

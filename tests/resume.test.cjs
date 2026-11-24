@@ -46,3 +46,17 @@ test('relative time stays short and drops very old visits', () => {
   assert.equal(resume.ago(now - 2 * 86400000, now), '2 天前');
   assert.equal(resume.ago(now - 60 * 86400000, now + 60 * 86400000), '');
 });
+
+test('a visit from topic practice keeps its topic and school, and drops unsafe ones', () => {
+  const { values, storage } = memory();
+  resume.save({ paper: 'kobe-ee-2020', q: 'kobe-ee-2020-q2', paperTitle: '神戸大学 2020', number: '問題2', title: '运放', position: 4, total: 82, topic: 'electronic.opamp', school: 'kobe', topicName: '运算放大器' }, storage);
+  const entry = resume.read(storage);
+  assert.equal(entry.topic, 'electronic.opamp');
+  assert.equal(resume.url(entry), 'question-practice.html?paper=kobe-ee-2020&q=kobe-ee-2020-q2&topic=electronic.opamp&school=kobe');
+  values.set(resume.KEY, JSON.stringify({ ...JSON.parse(values.get(resume.KEY)), topic: '../x', school: '<x>' }));
+  const unsafe = resume.read(storage);
+  assert.equal(unsafe.topic, undefined);
+  assert.equal(resume.url(unsafe), 'question-practice.html?paper=kobe-ee-2020&q=kobe-ee-2020-q2');
+  values.set(resume.KEY, JSON.stringify({ ...JSON.parse(values.get(resume.KEY)), topic: 'math.linalg', school: '<x>' }));
+  assert.equal(resume.url(resume.read(storage)), 'question-practice.html?paper=kobe-ee-2020&q=kobe-ee-2020-q2&topic=math.linalg');
+});

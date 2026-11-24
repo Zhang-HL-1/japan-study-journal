@@ -1,7 +1,7 @@
 (async function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  let paper, index = 0, records = {}, recordState = { writable: true, keepFormal: false, keepLegacy: false }, storageWritable = true, focused = false, zoom = 100;
+  let topicMode = null, topicIndexPromise = null, topicIndexData = null, topicRows = null, paper, index = 0, records = {}, recordState = { writable: true, keepFormal: false, keepLegacy: false }, storageWritable = true, focused = false, zoom = 100;
   const idPattern = /^[a-z0-9][a-z0-9-]{0,120}$/;
   const assetPattern = /^assets\/question-bank\/[a-z0-9-]+\/[a-z0-9-]+\.png$/;
   const pdfPattern = /^https:\/\/zhang-hl-1\.github\.io\/japan-study-journal-papers-[12]\/(?:tohoku|tus|science-tokyo|kyushu|hokkaido|keio|uec|sophia|osaka|utokyo|nagoya|kobe|waseda)\/[a-f0-9]{64}\.pdf$/;
@@ -91,8 +91,8 @@
       if (key === 'ArrowLeft' && event.shiftKey) return act(() => { if (!$('previous-paper').disabled) $('previous-paper').click(); });
       if (key === 'ArrowRight' && event.shiftKey) return act(() => { if (!$('next-paper').disabled) $('next-paper').click(); });
       if (event.shiftKey && key !== '?') return;
-      if (key === 'ArrowLeft') return act(() => navigate(index - 1));
-      if (key === 'ArrowRight') return act(() => navigate(index + 1));
+      if (key === 'ArrowLeft') return act(() => step(-1));
+      if (key === 'ArrowRight') return act(() => step(1));
       const lower = key.length === 1 ? key.toLowerCase() : key;
       if (lower === 'f') return act(() => $('bookmark').click());
       if (lower === 'd') return act(() => $('complete').click());
@@ -116,7 +116,7 @@
       const t = event.changedTouches[0], dx = t.clientX - start.x, dy = t.clientY - start.y, dt = Date.now() - start.at;
       start = null;
       if (dt > 700 || Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 2) return;
-      navigate(dx < 0 ? index + 1 : index - 1);
+      step(dx < 0 ? 1 : -1);
     }, { passive: true });
     area.addEventListener('touchcancel', () => { start = null; }, { passive: true });
   }
@@ -135,6 +135,8 @@
     $('question-note').value = r.note || ''; $('notes').open = Boolean(r.note);
     $('note-status').textContent = r.note ? '已有笔记' : '';
     $('previous').disabled = index === 0; $('next').disabled = index === paper.questions.length-1;
+    updateTopicBar();
+    renderTopicLinks();
     refresh();
     document.title = q.number + ' · ' + paper.title + ' · 留日手记';
   }
@@ -143,10 +145,95 @@
     const direction = next > index ? 'next' : next < index ? 'previous' : '';
     index = next; render();
     slideIn(historyMode === 'replaceState' ? '' : direction);
-    window.StudyResume?.save({ paper: paper.id, q: current().id, paperTitle: paper.title, number: current().number, title: current().title, position: index + 1, total: paper.questions.length });
+    saveResume();
     const url = new URL(location.href); url.searchParams.set('paper', paper.id); url.searchParams.set('q', current().id);
     if (historyMode) history[historyMode](null, '', url);
     if (historyMode === 'pushState') { $('question').focus({preventScroll:true}); $('question').scrollIntoView({ block:'start', behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }
+  }
+  // 按知识点练：网址带 topic 时，上一题／下一题在同一知识点里跨卷切换；同卷内仍原地切换。
+  function topicNeighbors() { return topicMode ? window.TopicIndex.neighbors(topicMode.rows, current().id) : null; }
+  function describeRow(row) {
+    const p = topicMode.index.papers[row.p];
+    return `${p.school} ${window.TopicIndex.yearText(p)} · ${row.n}`;
+  }
+  function updateTopicBar() {
+    const bar = $('topic-bar');
+    if (!bar) return;
+    if (!topicMode) { bar.hidden = true; return; }
+    bar.hidden = false;
+    $('topic-bar-name').textContent = topicMode.label;
+    $('topic-bar-name').href = topicMode.listURL;
+    const n = topicNeighbors();
+    if (!n) {
+      $('topic-bar-position').textContent = '本题不在这个知识点里，上一题／下一题按本卷切换';
+      $('topic-bar-next').textContent = '';
+      return;
+    }
+    $('topic-bar-position').textContent = `第 ${n.position} / ${n.total} 题`;
+    $('nav-position').textContent = `知识点 ${n.position} / ${n.total}`;
+    $('previous').disabled = !n.previous; $('next').disabled = !n.next;
+    $('topic-bar-next').textContent = !n.next ? '这是这个知识点的最后一题' : n.next.p === paper.id ? '下一题在本卷' : '下一题：' + describeRow(n.next);
+  }
+  function step(delta) {
+    const n = topicNeighbors();
+    if (!n) return navigate(index + delta);
+    const target = delta < 0 ? n.previous : n.next;
+    if (!target) return;
+    const at = target.p === paper.id ? paper.questions.findIndex(q => q.id === target.q) : -1;
+    if (at >= 0) return navigate(at);
+    location.href = window.TopicIndex.practiceURL(target, topicMode.opts);
+  }
+  // 知识点索引只取一次：知识点模式与题目下方的知识点链接共用。
+  function loadTopicIndex() {
+    if (!window.TopicIndex) return Promise.reject(new Error('no topic index'));
+    if (!topicIndexPromise) topicIndexPromise = fetchJSON(window.TopicIndex.INDEX_PATH).then(data => {
+      topicIndexData = data;
+      topicRows = new Map(data.questions.map(row => [row.q, row]));
+      return data;
+    });
+    return topicIndexPromise;
+  }
+  function renderTopicLinks() {
+    const box = $('topic-links');
+    if (!box) return;
+    const row = topicRows && topicRows.get(current().id);
+    const ids = row ? [...row.k, ...(row.s || [])] : [];
+    if (!ids.length) { box.hidden = true; box.replaceChildren(); return; }
+    const links = ids.map(id => window.TopicIndex.findTopic(topicIndexData, id)).filter(Boolean).map(info => {
+      const a = document.createElement('a');
+      a.href = window.TopicIndex.topicsURL({ topic: info.id });
+      a.textContent = info.kind === 'subject' ? info.name + '（科目）' : info.name;
+      a.title = '查看各校同类题：' + a.textContent;
+      if (topicMode && topicMode.opts.topic === info.id) a.setAttribute('aria-current', 'true');
+      return a;
+    });
+    box.replaceChildren(text('span', '知识点', 'topic-links-label'), ...links);
+    box.hidden = false;
+  }
+  function saveResume() {
+    window.StudyResume?.save({ paper: paper.id, q: current().id, paperTitle: paper.title, number: current().number, title: current().title, position: index + 1, total: paper.questions.length,
+      ...(topicMode && topicNeighbors() ? { topic: topicMode.opts.topic, school: topicMode.opts.school, topicName: topicMode.label } : {}) });
+  }
+  async function loadTopicMode() {
+    const topic = params.get('topic');
+    if (!topic || !window.TopicIndex) return;
+    try {
+      const topicIndex = await loadTopicIndex();
+      const opts = window.TopicIndex.normalizeOptions(topicIndex, { topic, school: params.get('school') || '', sort: params.get('sort') || '' });
+      const info = window.TopicIndex.findTopic(topicIndex, opts.topic);
+      if (!info) return;
+      topicMode = { index: topicIndex, opts, rows: window.TopicIndex.queue(topicIndex, opts), label: info.kind === 'subject' ? info.name + ' · 全部' : info.name, listURL: window.TopicIndex.topicsURL(opts) };
+      $('back-to-practice').href = topicMode.listURL; $('back-to-practice').textContent = '← 返回知识点列表';
+      updateTopicBar(); renderTopicLinks(); saveResume();
+    } catch { /* 知识点索引读不到时照常按整卷练习 */ }
+  }
+  function exitTopicMode() {
+    topicMode = null;
+    const url = new URL(location.href);
+    for (const key of ['topic', 'school', 'sort']) url.searchParams.delete(key);
+    history.replaceState(null, '', url);
+    $('back-to-practice').href = 'drill.html#question-card'; $('back-to-practice').textContent = '← 返回刷题目录';
+    render(); saveResume();
   }
   function applyZoom() { $('zoom-content').style.width = Math.round(Math.max(760, Math.min(1100, innerWidth-100))*zoom/100) + 'px'; $('zoom-level').textContent = zoom + '%'; $('zoom-out').disabled = zoom <= 75; $('zoom-in').disabled = zoom >= 200; }
   function openZoom(part) {
@@ -249,10 +336,14 @@
     $('chooser').hidden = true; $('load-status').hidden = true; $('app').hidden = false;
     const start = paper.questions.findIndex(q => q.id === (params.get('q') || aliasQuestion));
     navigate(Math.max(0,start),'replaceState');
+    loadTopicMode();
+    // 不在知识点模式时，空闲时再取索引，给题目补上可点的知识点链接。
+    (window.requestIdleCallback || (fn => setTimeout(fn, 400)))(() => loadTopicIndex().then(renderTopicLinks).catch(() => {}));
+    $('topic-bar-exit').addEventListener('click', event => { event.preventDefault(); exitTopicMode(); });
     $('bookmark').addEventListener('click', () => { patch({bookmarked:!record().bookmarked}); refresh(); });
     $('complete').addEventListener('click', () => { patch({completed:!record().completed}); refresh(); if (record().completed) celebrate(); });
     $('question-note').addEventListener('input', () => { patch({note:$('question-note').value}); $('note-status').textContent = storageWritable ? '已保存' : '仅本次保留'; });
-    $('previous').addEventListener('click', () => navigate(index-1)); $('next').addEventListener('click', () => navigate(index+1));
+    $('previous').addEventListener('click', () => step(-1)); $('next').addEventListener('click', () => step(1));
     $('previous-paper').addEventListener('click', () => openNeighbor('previous'));
     $('next-paper').addEventListener('click', () => openNeighbor('next'));
     loadYearNav(catalog);

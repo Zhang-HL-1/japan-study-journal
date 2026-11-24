@@ -22,11 +22,16 @@ on:
       - 'campus-map-data.js'
       - 'questions.js'
       - 'question-practice*'
+      - 'topics*'
       - 'question-bank.js'
       - 'question-bank-index.json'
       - 'data/question-manifests/**'
       - 'data/question-collections/**'
       - 'scripts/build-question-collections.cjs'
+      - 'data/topics/**'
+      - 'scripts/build-topic-index.cjs'
+      - 'scripts/topic-classify.cjs'
+      - 'docs/topic-review.md'
       - 'assets/question-bank/**'
       - 'skills/past-paper-to-questions/**'
       - 'paper-practice-data.js'
@@ -59,6 +64,7 @@ jobs:
           node scripts/build-school-index.cjs --check
           node scripts/build-paper-practice.cjs --check
           node scripts/build-question-collections.cjs --check
+          node scripts/build-topic-index.cjs --check
           node --test --test-reporter=dot tests/*.test.cjs
       - name: Install isolated browser test dependencies
         run: |
@@ -78,6 +84,7 @@ jobs:
           node tests/school-hub.browser.cjs
           node tests/study-desk.browser.cjs
           node tests/github-sync.browser.cjs
+          node tests/topics.browser.cjs
       - name: Save desktop and mobile screenshots
         if: always()
         uses: actions/upload-artifact@v4

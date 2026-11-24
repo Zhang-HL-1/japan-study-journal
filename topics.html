@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="按知识点刷日本大学院过去问：把各校各年同一知识点的题放在一起，一题接一题地练。" />
+  <meta name="theme-color" content="#faf9f5" />
+  <title>按知识点练｜练习室 · 留日手记</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="editorial.css?v=20261021-desk" />
+  <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
+  <link rel="stylesheet" href="theme.css?v=20261120-keys">
+  <link rel="stylesheet" href="topics.css?v=20261124-topics">
+  <script src="question-bank.js?v=20261030-year-direction" defer></script>
+  <script src="topics-core.js?v=20261124-topics" defer></script>
+  <script src="topics.js?v=20261124-topics" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
+    <nav class="main-nav" aria-label="主要导航">
+        <a href="index.html">首页</a>
+        <a href="schools.html">院校资料</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="campus-map.html">大学院地图</a>
+        <a class="is-active" aria-current="page" href="practice.html">练习室</a>
+              <a href="desk.html">我的书桌</a>
+</nav>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">打开导航</span><span></span><span></span></button>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
+        <a href="index.html">首页</a>
+        <a href="schools.html">院校资料</a>
+        <a href="exam-scope.html">考试范围</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="campus-map.html">大学院地图</a>
+        <a class="is-active" aria-current="page" href="practice.html">练习室</a>
+            <a href="desk.html">我的书桌</a>
+</nav>
+  <main class="topics-main" id="main">
+    <nav class="topics-return" aria-label="返回上级页面"><a href="practice.html">← 返回练习室</a><a href="drill.html">按学校与年份刷题</a></nav>
+    <section class="topics-hero" aria-labelledby="topics-title">
+      <p class="eyebrow"><span class="eyebrow-line"></span>Practice by topic / 按知识点练</p>
+      <h1 id="topics-title">同一个知识点，<em>一次练透。</em></h1>
+      <p class="topics-intro">把各校各年考过的同类题放在一起。选一个知识点，从最新的年份开始，一题接一题地做；做题记录和逐题练习共用。</p>
+      <p class="topics-summary" id="topics-summary"></p>
+      <p class="topics-storage" id="topics-storage" hidden>浏览器记录暂时无法读取，练习状态不会显示。</p>
+    </section>
+    <div class="topics-layout">
+      <details class="topics-tree" id="topics-tree" open>
+        <summary><span>选择知识点</span><span class="tree-current" id="topics-tree-current"></span></summary>
+        <nav class="tree-list" id="topics-tree-list" aria-label="科目与知识点"></nav>
+      </details>
+      <section class="topics-panel" id="topics-panel" tabindex="-1" aria-label="知识点题目">
+        <p class="topic-empty">正在载入知识点……</p>
+      </section>
+    </div>
+    <p class="topics-note">知识点由题目原有标签自动归类，同一道题可以属于几个知识点。归类依据和逐题修正见仓库里的 <code>docs/topic-review.md</code>；分错的题欢迎指出。</p>
+  </main>
+  <footer class="site-footer"><a class="brand brand--footer" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a><p>一次一点，把理解留住。</p><p class="copyright">© <span id="year">2026</span></p></footer>
+</body>
+</html>
