@@ -14,3 +14,14 @@
 .question-nav.year-nav { margin-top:-6px; max-width:100%; }
 .question-nav.year-nav span { flex:1 1 auto; min-width:0; text-align:center; line-height:1.5; overflow-wrap:anywhere; }
 .question-nav.year-nav button { flex:0 0 auto; white-space:nowrap; }
+
+/* 按知识点练：题目上方的知识点条 */
+.topic-bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .4rem 1.2rem; margin: 0 0 .8rem; padding: .7rem 1rem; border-radius: 10px; background: #f6ebe3; color: #3d3d3a; font-size: .9rem; }
+.topic-bar[hidden] { display: none; }
+.topic-bar p { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .7rem; }
+.topic-bar-label { font-size: .76rem; letter-spacing: .04em; color: #8c8a82; }
+#topic-bar-name { color: #b0502f; font-weight: 600; text-decoration: none; }
+#topic-bar-name:hover { text-decoration: underline; }
+#topic-bar-position { font-variant-numeric: tabular-nums; }
+.topic-bar-side { color: #6b6a64; font-size: .84rem; }
+#topic-bar-exit { color: #6b6a64; }

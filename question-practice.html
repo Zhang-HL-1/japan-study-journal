@@ -5,11 +5,12 @@
   <title>逐题练习 · 留日手记</title>
   <meta name="description" content="按已接入的过去问逐题练习：直接阅读日文原题，保留公式、配图和出处。">
   <meta name="theme-color" content="#faf9f5">
-  <link rel="stylesheet" href="question-practice.css?v=20261028-year-nav">
+  <link rel="stylesheet" href="question-practice.css?v=20261124-topics">
   <link rel="stylesheet" href="theme.css?v=20261120-keys">
   <script src="question-bank.js?v=20261030-year-direction" defer></script>
   <script src="resume.js?v=20261120-resume" defer></script>
-  <script src="question-practice.js?v=20261120-keys" defer></script>
+  <script src="topics-core.js?v=20261124-topics" defer></script>
+  <script src="question-practice.js?v=20261124-topics" defer></script>
 </head>
 <body>
   <a class="skip" href="#question">跳到题目</a>
@@ -28,6 +29,7 @@
         <details class="source-info"><summary>关于这份试卷</summary><p id="source-note"></p><p>中文标题与标签用于导航，不替代原题。题干尚未转为可复制文字；小屏幕可点击题图放大。</p><a id="catalog-link">查看原卷目录 ↗</a></details>
       </aside>
       <section class="workspace" aria-label="逐题练习">
+        <div id="topic-bar" class="topic-bar" hidden><p class="topic-bar-text"><span class="topic-bar-label">按知识点练</span><a id="topic-bar-name" href="topics.html"></a><span id="topic-bar-position"></span></p><p class="topic-bar-side"><span id="topic-bar-next"></span><a id="topic-bar-exit" href="#">只练本卷</a></p></div>
         <div class="workspace-bar"><span id="position"></span><div class="workspace-actions"><button id="show-shortcuts" class="shortcut-button" type="button" aria-haspopup="dialog" title="键盘快捷键（?）">快捷键 <kbd>?</kbd></button><button id="focus-mode" type="button" aria-pressed="false">专注模式</button></div></div>
         <article id="question" class="question-card" tabindex="-1">
           <div class="question-head"><div><p id="question-number" class="eyebrow"></p><h2 id="question-title"></h2></div><button id="bookmark" type="button" aria-pressed="false">☆ 收藏</button></div>
