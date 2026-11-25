@@ -23,6 +23,7 @@ on:
       - 'questions.js'
       - 'question-practice*'
       - 'topics*'
+      - 'targets*'
       - 'question-bank.js'
       - 'question-bank-index.json'
       - 'data/question-manifests/**'
@@ -85,6 +86,7 @@ jobs:
           node tests/study-desk.browser.cjs
           node tests/github-sync.browser.cjs
           node tests/topics.browser.cjs
+          node tests/targets.browser.cjs
       - name: Save desktop and mobile screenshots
         if: always()
         uses: actions/upload-artifact@v4

@@ -4,8 +4,9 @@
 <meta name="description" content="收藏考试资料和历年真题。收藏保存在当前浏览器，可导出备份。" />
 <title>我的书桌｜留日手记</title>
 <link rel="stylesheet" href="styles.css" /><link rel="stylesheet" href="editorial.css?v=20261021-desk" /><link rel="stylesheet" href="study-desk.css?v=20261021-favorites" /><link rel="stylesheet" href="github-sync.css?v=20261022-sync" />
-  <link rel="stylesheet" href="theme.css?v=20261120-keys">
-<script src="study-desk-core.js?v=20261021-favorites" defer></script><script src="progress-sync.js?v=20261022-sync" defer></script><script src="github-sync.js?v=20261022-sync" defer></script><script src="github-sync-ui.js?v=20261022-sync" defer></script><script src="study-desk.js?v=20261022-sync" defer></script><script src="script.js" defer></script>
+  <link rel="stylesheet" href="theme.css?v=20261125-targets">
+  <link rel="stylesheet" href="targets.css?v=20261125-targets">
+<script src="study-desk-core.js?v=20261021-favorites" defer></script><script src="progress-sync.js?v=20261022-sync" defer></script><script src="github-sync.js?v=20261022-sync" defer></script><script src="github-sync-ui.js?v=20261022-sync" defer></script><script src="study-desk.js?v=20261022-sync" defer></script><script src="school-hub-data.js?v=20261114-hokkaido-joele" defer></script><script src="question-bank.js?v=20261030-year-direction" defer></script><script src="targets-core.js?v=20261125-targets" defer></script><script src="targets.js?v=20261125-targets" defer></script><script src="script.js" defer></script>
 </head><body><a class="skip-link" href="#desk-main">跳到我的书桌</a>
 <header class="site-header">
       <a class="brand" href="index.html" aria-label="留日手记首页">
@@ -41,6 +42,20 @@
 <main id="desk-main" class="desk-main">
  <section class="desk-intro"><p class="eyebrow">Your reading desk / 我的书桌</p><h1>把有用的资料，<br />留在这里。</h1><p>收藏考试资料与历年真题，方便下次集中查阅。</p></section>
  <p class="desk-notice">收藏默认只在当前浏览器，最多 200 条，也可导出备份。需要换设备时，用下方的私密 Gist 同步；真题链接指向收藏时选择的原卷文件。</p>
+ <section class="target-panel" id="target-panel" aria-labelledby="target-title">
+  <div class="target-panel-head"><h2 id="target-title">我的目标学校 <span id="target-count" class="target-count">0 / 4</span></h2><p>最多 4 所。出願截止日和考试日请对照官方募集要项自己填写，这里只负责倒计时；练习进度按逐题记录自动统计。</p></div>
+  <p id="target-empty" class="target-empty">还没有目标学校。选一所加进来，书桌和首页会帮你倒数日子。</p>
+  <div id="target-list" class="target-list"></div>
+  <form id="target-form" class="target-form">
+   <label>学校<select id="target-school"></select></label>
+   <label>出願截止<input type="date" id="target-deadline" /></label>
+   <label>考试日<input type="date" id="target-exam" /></label>
+   <label class="target-note-field">备注<input type="text" id="target-note" maxlength="80" placeholder="如：一般入試 夏季日程" /></label>
+   <div class="target-form-actions"><button id="target-submit" type="submit">加入目标</button><button id="target-cancel" class="plain-button" type="button" hidden>取消</button></div>
+  </form>
+  <p id="target-full" class="target-muted" hidden>已经有 4 所目标学校了。要换学校，先移除一所。</p>
+  <p id="target-status" class="target-status" role="status" aria-live="polite"></p>
+ </section>
  <h2 class="desk-collection-heading">我的收藏 <span id="desk-favorites-count">0</span></h2>
  <div class="desk-filters"><label>搜索记录<input type="search" id="desk-query" maxlength="100" placeholder="学校、专攻或资料名称" /></label><label>资料类型<select id="desk-type"><option value="">全部资料</option><option value="scope">考试范围</option><option value="paper">历年真题</option></select></label></div>
  <p id="desk-result-count" tabindex="-1" role="status">正在读取书桌…</p><div id="desk-list" class="desk-list"></div>
