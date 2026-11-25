@@ -285,6 +285,10 @@ progress { accent-color: var(--clay); }
 
 /* ---------- 交互第一批：继续上次 / 已选条件 / 列表过渡 / 完成反馈 ---------- */
 .study-resume { margin-top: 1.6rem; max-width: 34rem; }
+.study-resume:not([hidden]) { display: flex; align-items: stretch; gap: .4rem; }
+.study-resume .resume-card { flex: 1; min-width: 0; }
+.resume-close { flex: none; width: 2.4rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--faint); font: inherit; font-size: 1.15rem; line-height: 1; cursor: pointer; animation: rise-in .45s var(--ease) both; transition: color .2s, border-color .2s; }
+.resume-close:hover, .resume-close:focus-visible { color: var(--clay-ink); border-color: var(--clay); }
 .room-hero .study-resume { margin-top: 1.4rem; }
 .resume-card {
   display: grid;
