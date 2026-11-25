@@ -1,0 +1,30 @@
+/* 同类题对比 */
+.compare-main { width: min(100% - 5rem, 90rem); margin: 0 auto; padding: 1.4rem 0 4rem; }
+.topics-return { display: flex; gap: 1.4rem; font-size: .92rem; margin-bottom: 1.4rem; }
+.topics-return a { color: var(--muted); text-decoration: none; }
+.topics-return a:hover { color: var(--clay-ink); }
+.compare-intro { padding-bottom: 1.4rem; border-bottom: 1px solid var(--line); margin-bottom: 1.6rem; }
+.compare-intro h1 { font-family: var(--serif); font-weight: 500; font-size: clamp(1.8rem, 3.6vw, 2.6rem); margin: .4rem 0 .6rem; color: var(--ink); }
+.compare-lead { margin: 0; color: var(--ink-body); max-width: 44rem; line-height: 1.8; }
+.compare-status { margin: .8rem 0 0; color: var(--clay-ink); }
+.compare-status:empty { display: none; }
+.compare-grid { display: grid; grid-template-columns: repeat(var(--cols, 2), minmax(0, 1fr)); gap: 1.2rem; align-items: start; }
+.compare-col { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.compare-head { position: sticky; top: 0; z-index: 1; display: grid; gap: .35rem; padding: .9rem 1rem .8rem; background: var(--surface); border-bottom: 1px solid var(--line); }
+.compare-meta { margin: 0; display: flex; flex-wrap: wrap; gap: .1rem .5rem; font-size: .78rem; color: var(--faint); }
+.compare-meta > span + span::before { content: "·"; margin-right: .5rem; color: var(--line-strong); }
+.compare-school { color: var(--clay-ink); }
+.compare-title { margin: 0; font-size: 1.02rem; font-weight: 600; color: var(--ink); line-height: 1.5; }
+.compare-number { color: var(--muted); font-weight: 400; font-size: .86rem; margin-right: .5rem; }
+.compare-topics { margin: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+.compare-topics a { font-size: .74rem; padding: .1rem .5rem; border-radius: 99px; border: 1px solid var(--line-strong); color: var(--ink-body); text-decoration: none; }
+.compare-topics a.is-current { background: var(--clay-wash); border-color: transparent; color: var(--clay-ink); font-weight: 600; }
+.compare-practice { justify-self: start; font-size: .86rem; color: var(--clay-ink); text-decoration: none; font-weight: 600; }
+.compare-practice:hover { text-decoration: underline; }
+.compare-body { padding: .8rem; display: grid; gap: .6rem; background: #fff; }
+.compare-body img { display: block; width: 100%; height: auto; }
+@media (max-width: 960px) {
+  .compare-main { width: calc(100% - 2rem); }
+  .compare-grid { grid-template-columns: 1fr; }
+  .compare-head { position: static; }
+}

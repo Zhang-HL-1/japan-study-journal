@@ -4,6 +4,10 @@
   const $ = id => document.getElementById(id);
   let index = null, records = {}, state = {};
   const narrow = matchMedia('(max-width: 860px)');
+  // 同类题对比：最多勾选 3 题，存在本标签页的会话里，换筛选或从对比页返回时保留。
+  const COMPARE_KEY = 'japan-study-journal:compare-pick', COMPARE_MAX = 3;
+  let compare = [];
+  try { compare = JSON.parse(sessionStorage.getItem(COMPARE_KEY) || '[]').filter(id => /^[a-z0-9][a-z0-9-]{0,120}$/.test(id)).slice(0, COMPARE_MAX); } catch { compare = []; }
 
   function el(tag, className, text) {
     const node = document.createElement(tag);
@@ -196,8 +200,37 @@
     if (s.note) badges.append(el('span', 'badge', '笔记'));
     badges.append(el('span', 'row-go', '→'));
     a.append(meta, main, badges);
-    li.append(a);
+    const pick = el('label', 'row-pick');
+    const box = el('input'); box.type = 'checkbox'; box.checked = compare.includes(row.q);
+    box.setAttribute('aria-label', '加入对比：' + paper.school + ' ' + row.n + ' ' + row.t);
+    box.addEventListener('change', () => {
+      if (box.checked && compare.length >= COMPARE_MAX) { box.checked = false; flashCompare(`最多同时对比 ${COMPARE_MAX} 题`); return; }
+      compare = box.checked ? [...compare, row.q] : compare.filter(id => id !== row.q);
+      saveCompare();
+    });
+    pick.append(box, el('span', '', '对比'));
+    li.className = 'topic-item';
+    li.append(pick, a);
     return li;
+  }
+
+  function saveCompare() {
+    try { sessionStorage.setItem(COMPARE_KEY, JSON.stringify(compare)); } catch { /* 只在本页内保留 */ }
+    renderCompareBar();
+  }
+  function flashCompare(text) { $('compare-hint').textContent = text; }
+  function renderCompareBar() {
+    const bar = $('compare-bar');
+    if (!bar) return;
+    bar.hidden = compare.length === 0;
+    $('compare-count').textContent = `已选 ${compare.length} / ${COMPARE_MAX} 题`;
+    $('compare-hint').textContent = compare.length < 2 ? '再选一题就能对比' : '';
+    const go = $('compare-go');
+    const params = new URLSearchParams({ q: compare.join(',') });
+    if (state.topic) params.set('topic', state.topic);
+    if (state.school) params.set('school', state.school);
+    go.href = 'compare.html?' + params.toString();
+    go.setAttribute('aria-disabled', String(compare.length < 2));
   }
 
   function renderTopic(current) {
@@ -268,6 +301,7 @@
 
   function render() {
     renderTree();
+    renderCompareBar();
     const current = T.findTopic(index, state.topic);
     $('topics-panel').replaceChildren(current ? renderTopic(current) : renderOverview());
     // 宽屏时左栏常开；手机上选好知识点后收起，把屏幕留给题目列表。
@@ -289,6 +323,8 @@
     const placed = index.questions.filter(row => row.k.length).length;
     $('topics-summary').textContent = `${index.questionCount} 道题 · ${placed} 道已归入具体知识点`;
     render();
+    $('compare-clear').addEventListener('click', () => { compare = []; saveCompare(); document.querySelectorAll('.row-pick input').forEach(box => { box.checked = false; }); });
+    $('compare-go').addEventListener('click', event => { if (compare.length < 2) { event.preventDefault(); flashCompare('至少选 2 题才能对比'); } });
     narrow.addEventListener('change', () => { if (!narrow.matches) $('topics-tree').open = true; });
     $('topics-tree').addEventListener('toggle', () => { if (!narrow.matches && !$('topics-tree').open) $('topics-tree').open = true; });
     history.replaceState(null, '', T.topicsURL(state));
