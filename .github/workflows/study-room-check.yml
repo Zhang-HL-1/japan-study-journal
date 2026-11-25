@@ -24,6 +24,10 @@ on:
       - 'question-practice*'
       - 'topics*'
       - 'targets*'
+      - 'site-search.js'
+      - 'text-normalize.js'
+      - 'data/search-index.json'
+      - 'scripts/build-search-index.cjs'
       - 'question-bank.js'
       - 'question-bank-index.json'
       - 'data/question-manifests/**'
@@ -66,6 +70,7 @@ jobs:
           node scripts/build-paper-practice.cjs --check
           node scripts/build-question-collections.cjs --check
           node scripts/build-topic-index.cjs --check
+          node scripts/build-search-index.cjs --check
           node --test --test-reporter=dot tests/*.test.cjs
       - name: Install isolated browser test dependencies
         run: |
@@ -87,6 +92,7 @@ jobs:
           node tests/github-sync.browser.cjs
           node tests/topics.browser.cjs
           node tests/targets.browser.cjs
+          node tests/search.browser.cjs
       - name: Save desktop and mobile screenshots
         if: always()
         uses: actions/upload-artifact@v4
