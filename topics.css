@@ -116,3 +116,45 @@ a.button.primary:hover { background: var(--clay-ink); transform: translateY(-1px
 @media (prefers-reduced-motion: reduce) {
   .topic-row, .topic-row:hover, .row-go, .topic-meter > span, a.button.primary:hover { transition: none; transform: none; }
 }
+
+/* 学校出题倾向 */
+.overview-school { margin-bottom: 1.2rem; max-width: 22rem; }
+.trend-panel { margin: 0 0 2rem; padding: 1.2rem 1.3rem 1.1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.trend-head h2 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: 1.45rem; color: var(--ink); }
+.trend-sub { margin: .35rem 0 0; color: var(--muted); font-size: .86rem; line-height: 1.6; }
+.trend-always { margin: .9rem 0 0; padding: .6rem .8rem; border-radius: var(--radius-sm); background: var(--clay-wash); color: var(--ink-body); font-size: .88rem; line-height: 1.7; }
+.trend-always strong { color: var(--clay-ink); margin-right: .2rem; }
+.trend-scroll { margin-top: 1rem; overflow-x: auto; overscroll-behavior-x: contain; border-radius: var(--radius-sm); }
+.trend-scroll:focus-visible { outline: 2px solid var(--clay); outline-offset: 2px; }
+.trend-table { border-collapse: separate; border-spacing: 3px; font-size: .78rem; font-variant-numeric: tabular-nums; }
+.trend-table thead th { color: var(--faint); font-weight: 400; text-align: center; padding: 0 0 .2rem; min-width: 1.9rem; }
+.trend-table th[scope="row"], .trend-topic-head { position: sticky; left: 0; z-index: 1; background: var(--surface); text-align: left; padding-right: .6rem; min-width: 9.5rem; }
+.trend-topic { display: grid; text-decoration: none; color: var(--ink-body); line-height: 1.3; font-size: .84rem; }
+.trend-topic small { color: var(--faint); font-size: .7rem; }
+.trend-topic:hover span { color: var(--clay-ink); text-decoration: underline; }
+.trend-total, .trend-total-head { color: var(--muted); text-align: right; padding-right: .5rem; font-weight: 600; }
+.trend-cell { width: 1.9rem; height: 1.9rem; text-align: center; border-radius: 5px; background: var(--paper-deep); color: transparent; }
+.trend-cell[data-level] { color: var(--ink); }
+.trend-cell[data-level="1"] { background: #f3dccd; }
+.trend-cell[data-level="2"] { background: #eab89c; }
+.trend-cell[data-level="3"] { background: #df8f6b; color: #fff; }
+.trend-cell[data-level="4"] { background: var(--clay-deep); color: #fff; }
+@media (max-width: 860px) {
+  .trend-panel { padding: 1rem .8rem; }
+  .trend-table th[scope="row"], .trend-topic-head { min-width: 7.5rem; }
+  .overview-school { max-width: none; }
+}
+
+/* 题目列表：勾选对比 */
+.topic-item { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: .5rem; align-items: stretch; }
+.row-pick { display: grid; place-items: center; gap: .15rem; width: 3rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); font-size: .7rem; color: var(--faint); cursor: pointer; padding: .4rem 0; }
+.row-pick input { width: 1.05rem; height: 1.05rem; accent-color: var(--clay-deep); margin: 0; cursor: pointer; }
+.row-pick:has(input:checked) { background: var(--clay-wash); border-color: transparent; color: var(--clay-ink); }
+.compare-bar { position: sticky; bottom: 1rem; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin: 1.2rem 0 0; padding: .75rem 1rem; border-radius: var(--radius); background: var(--ink); color: #fffefb; box-shadow: 0 10px 30px rgba(20, 20, 19, .18); font-size: .9rem; }
+.compare-bar[hidden] { display: none; }
+.compare-hint { color: #d3cfc3; font-size: .82rem; flex: 1; }
+.compare-clear { background: none; border: 0; color: #d3cfc3; font: inherit; font-size: .85rem; cursor: pointer; }
+.compare-clear:hover { color: #fff; }
+.compare-go { padding: .45rem 1rem; border-radius: var(--radius-sm); background: var(--clay); color: #fff; text-decoration: none; font-weight: 600; }
+.compare-go[aria-disabled="true"] { opacity: .45; }
+@media (max-width: 860px) { .row-pick { width: 2.6rem; } .compare-bar { bottom: .6rem; } }

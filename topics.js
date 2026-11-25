@@ -4,6 +4,10 @@
   const $ = id => document.getElementById(id);
   let index = null, records = {}, state = {};
   const narrow = matchMedia('(max-width: 860px)');
+  // 同类题对比：最多勾选 3 题，存在本标签页的会话里，换筛选或从对比页返回时保留。
+  const COMPARE_KEY = 'japan-study-journal:compare-pick', COMPARE_MAX = 3;
+  let compare = [];
+  try { compare = JSON.parse(sessionStorage.getItem(COMPARE_KEY) || '[]').filter(id => /^[a-z0-9][a-z0-9-]{0,120}$/.test(id)).slice(0, COMPARE_MAX); } catch { compare = []; }
 
   function el(tag, className, text) {
     const node = document.createElement(tag);
@@ -89,9 +93,71 @@
     $('topics-tree-current').textContent = current ? (current.kind === 'subject' ? current.name + ' · 全部' : current.subject.name + ' › ' + current.name) : '全部科目';
   }
 
+  // 学校出题倾向：知识点 × 年份的热力图，格子越深该年题数越多。
+  function renderTrends() {
+    const data = T.trends(index, state.school);
+    const name = (T.schools(index).find(s => s.id === state.school) || {}).name || state.school;
+    const section = el('section', 'trend-panel');
+    section.setAttribute('aria-labelledby', 'trend-title');
+    const head = el('div', 'trend-head');
+    const h2 = el('h2', '', name + ' · 出题倾向'); h2.id = 'trend-title';
+    head.append(h2, el('p', 'trend-sub', `${data.years.length} 个年份 · ${data.questions} 道题 · ${data.topics.length} 个知识点。格子越深，那一年考的题越多；点知识点名进入题目列表。`));
+    section.append(head);
+    if (!data.topics.length) { section.append(el('p', 'topic-empty', '这所学校还没有拆好的逐题卷。')); return section; }
+    const always = data.topics.filter(t => data.years.length >= 3 && t.years >= Math.ceil(data.years.length * 0.8));
+    if (always.length) {
+      const note = el('p', 'trend-always');
+      note.append(el('strong', '', '几乎年年都考：'), document.createTextNode(always.slice(0, 6).map(t => `${t.name}（${t.years}/${data.years.length} 年）`).join('、')));
+      section.append(note);
+    }
+    const scroll = el('div', 'trend-scroll');
+    scroll.tabIndex = 0;
+    scroll.setAttribute('role', 'region');
+    scroll.setAttribute('aria-label', name + ' 各知识点逐年题数，可左右滚动');
+    const table = el('table', 'trend-table');
+    const thead = el('thead'), hr = el('tr');
+    hr.append(el('th', 'trend-topic-head', '知识点'), el('th', 'trend-total-head', '合计'), ...data.years.map(y => { const th = el('th', '', String(y).slice(2)); th.title = y + ' 年'; th.scope = 'col'; return th; }));
+    thead.append(hr);
+    const tbody = el('tbody');
+    for (const t of data.topics) {
+      const tr = el('tr');
+      const th = el('th'); th.scope = 'row';
+      th.append(link(T.topicsURL({ ...state, topic: t.id }), { topic: t.id }, 'trend-topic', [el('span', '', t.name), el('small', '', t.subject)]));
+      const total = el('td', 'trend-total', String(t.total));
+      tr.append(th, total, ...data.years.map(y => {
+        const n = t.counts[y] || 0;
+        const td = el('td', 'trend-cell');
+        if (n) {
+          td.dataset.level = String(Math.min(4, Math.ceil(n / Math.max(1, data.max) * 4)));
+          td.textContent = String(n);
+          td.title = `${y} 年 · ${t.name} · ${n} 题`;
+        } else td.setAttribute('aria-label', `${y} 年 未考`);
+        return td;
+      }));
+      tbody.append(tr);
+    }
+    table.append(thead, tbody);
+    scroll.append(table);
+    section.append(scroll);
+    return section;
+  }
+
+  function schoolPicker() {
+    const label = el('label', 'filter-field overview-school');
+    const select = el('select');
+    select.id = 'overview-school';
+    select.append(new Option('全部学校', ''), ...T.schools(index).map(s => new Option(s.name, s.id)));
+    select.value = state.school;
+    select.addEventListener('change', () => go({ school: select.value }));
+    label.append(el('span', '', '看一所学校的出题倾向'), select);
+    return label;
+  }
+
   function renderOverview() {
     const wrap = el('div', 'topics-overview');
-    const intro = el('p', 'topics-lead', '先选一个知识点。数字是题数，练过的会显示为「已练 / 总数」。');
+    wrap.append(schoolPicker());
+    if (state.school) wrap.append(renderTrends());
+    const intro = el('p', 'topics-lead', state.school ? '下面的数字只统计这所学校的题。' : '先选一个知识点。数字是题数，练过的会显示为「已练 / 总数」。');
     const grid = el('div', 'subject-grid');
     for (const subject of index.subjects) {
       const all = T.progress(index, subject.id, records, state.school);
@@ -134,8 +200,37 @@
     if (s.note) badges.append(el('span', 'badge', '笔记'));
     badges.append(el('span', 'row-go', '→'));
     a.append(meta, main, badges);
-    li.append(a);
+    const pick = el('label', 'row-pick');
+    const box = el('input'); box.type = 'checkbox'; box.checked = compare.includes(row.q);
+    box.setAttribute('aria-label', '加入对比：' + paper.school + ' ' + row.n + ' ' + row.t);
+    box.addEventListener('change', () => {
+      if (box.checked && compare.length >= COMPARE_MAX) { box.checked = false; flashCompare(`最多同时对比 ${COMPARE_MAX} 题`); return; }
+      compare = box.checked ? [...compare, row.q] : compare.filter(id => id !== row.q);
+      saveCompare();
+    });
+    pick.append(box, el('span', '', '对比'));
+    li.className = 'topic-item';
+    li.append(pick, a);
     return li;
+  }
+
+  function saveCompare() {
+    try { sessionStorage.setItem(COMPARE_KEY, JSON.stringify(compare)); } catch { /* 只在本页内保留 */ }
+    renderCompareBar();
+  }
+  function flashCompare(text) { $('compare-hint').textContent = text; }
+  function renderCompareBar() {
+    const bar = $('compare-bar');
+    if (!bar) return;
+    bar.hidden = compare.length === 0;
+    $('compare-count').textContent = `已选 ${compare.length} / ${COMPARE_MAX} 题`;
+    $('compare-hint').textContent = compare.length < 2 ? '再选一题就能对比' : '';
+    const go = $('compare-go');
+    const params = new URLSearchParams({ q: compare.join(',') });
+    if (state.topic) params.set('topic', state.topic);
+    if (state.school) params.set('school', state.school);
+    go.href = 'compare.html?' + params.toString();
+    go.setAttribute('aria-disabled', String(compare.length < 2));
   }
 
   function renderTopic(current) {
@@ -206,6 +301,7 @@
 
   function render() {
     renderTree();
+    renderCompareBar();
     const current = T.findTopic(index, state.topic);
     $('topics-panel').replaceChildren(current ? renderTopic(current) : renderOverview());
     // 宽屏时左栏常开；手机上选好知识点后收起，把屏幕留给题目列表。
@@ -227,6 +323,8 @@
     const placed = index.questions.filter(row => row.k.length).length;
     $('topics-summary').textContent = `${index.questionCount} 道题 · ${placed} 道已归入具体知识点`;
     render();
+    $('compare-clear').addEventListener('click', () => { compare = []; saveCompare(); document.querySelectorAll('.row-pick input').forEach(box => { box.checked = false; }); });
+    $('compare-go').addEventListener('click', event => { if (compare.length < 2) { event.preventDefault(); flashCompare('至少选 2 题才能对比'); } });
     narrow.addEventListener('change', () => { if (!narrow.matches) $('topics-tree').open = true; });
     $('topics-tree').addEventListener('toggle', () => { if (!narrow.matches && !$('topics-tree').open) $('topics-tree').open = true; });
     history.replaceState(null, '', T.topicsURL(state));

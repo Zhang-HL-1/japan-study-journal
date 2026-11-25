@@ -72,3 +72,17 @@ test('school list is unique and names come from the papers', () => {
   assert.equal(T.yearText({ year: 2024 }), '2024 年');
   assert.equal(T.yearText({ year: null }), '年份未标');
 });
+
+test('school trends count questions per topic and year, most frequent topics first', () => {
+  const data = T.trends(index, 'tohoku');
+  const rows = index.questions.filter(r => index.papers[r.p].schoolId === 'tohoku');
+  assert.equal(data.questions, rows.length);
+  assert.deepEqual(data.years, [...data.years].sort((a, b) => b - a));
+  for (let i = 1; i < data.topics.length; i++) assert.ok(data.topics[i - 1].total >= data.topics[i].total);
+  const top = data.topics[0];
+  assert.equal(top.total, rows.filter(r => r.k.includes(top.id)).length);
+  assert.equal(Object.values(top.counts).reduce((a, b) => a + b, 0), top.total);
+  assert.equal(top.years, Object.keys(top.counts).length);
+  assert.ok(data.max >= Math.max(...Object.values(top.counts)));
+  assert.deepEqual(T.trends(index, 'chiba'), { school: 'chiba', questions: 0, years: [], topics: [], max: 0 });
+});

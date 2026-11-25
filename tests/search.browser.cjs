@@ -21,7 +21,7 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     page.on('request', r => { if (r.url().includes('search-index.json')) indexRequests++; });
 
     // 每个主要页面都有搜索按钮；打开前不下载索引
-    for (const p of ['index.html', 'practice.html', 'topics.html', 'drill.html', 'past-papers.html', 'answers.html', 'exam-scope.html', 'schools.html', 'campus-map.html', 'desk.html', 'question-practice.html?paper=utokyo-ee-2023']) {
+    for (const p of ['index.html', 'practice.html', 'topics.html', 'drill.html', 'past-papers.html', 'answers.html', 'exam-scope.html', 'schools.html', 'campus-map.html', 'desk.html', 'compare.html', 'question-practice.html?paper=utokyo-ee-2023']) {
       await page.goto(origin + '/' + p);
       await page.waitForSelector('.search-trigger', { timeout: 15000 });
     }
@@ -79,7 +79,7 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     if (process.env.STUDY_ROOM_SCREENSHOTS) { fs.mkdirSync(process.env.STUDY_ROOM_SCREENSHOTS, { recursive: true }); await m.screenshot({ path: path.join(process.env.STUDY_ROOM_SCREENSHOTS, 'search-mobile.png') }); }
 
     assert.deepEqual(errors, []);
-    console.log('Site search checks passed: button on 11 pages, lazy index, mixed-script queries, keyboard selection, Enter, / and Ctrl+K, no trigger while typing, practice arrow keys unaffected, empty results and mobile.');
+    console.log('Site search checks passed: button on 12 pages, lazy index, mixed-script queries, keyboard selection, Enter, / and Ctrl+K, no trigger while typing, practice arrow keys unaffected, empty results and mobile.');
   } finally {
     if (browser) await browser.close();
     await new Promise(r => server.close(r));

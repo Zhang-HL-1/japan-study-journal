@@ -117,6 +117,49 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     await page.waitForSelector('#app:not([hidden])');
     assert.match(await page.locator('#nav-position').textContent(), /^1 \//);
 
+    // 同类题对比：最多勾 3 题，打开对比页并排显示，返回后勾选保留
+    await page.goto(origin + '/topics.html?topic=electronic.opamp');
+    await page.waitForSelector('.topic-row');
+    assert.equal(await page.locator('#compare-bar').isHidden(), true);
+    await page.locator('.row-pick input').nth(0).check();
+    assert.match(await page.locator('#compare-hint').textContent(), /再选一题/);
+    await page.click('#compare-go', { force: true });
+    assert.match(page.url(), /topics\.html/, 'cannot compare a single question');
+    for (const i of [2, 4]) await page.locator('.row-pick input').nth(i).check();
+    await page.locator('.row-pick input').nth(6).click();
+    assert.equal(await page.locator('.row-pick input:checked').count(), 3);
+    assert.match(await page.locator('#compare-hint').textContent(), /最多同时对比 3 题/);
+    const picked = await page.locator('.topic-item:has(.row-pick input:checked) .row-title').allTextContents();
+    await page.click('#compare-go');
+    await page.waitForSelector('.compare-col');
+    assert.equal(await page.locator('.compare-col').count(), 3);
+    assert.match(await page.locator('#compare-heading').textContent(), /运算放大器：3 题并排对比/);
+    assert.ok((await page.locator('.compare-title').allTextContents()).every((t, i) => t.endsWith(picked[i])));
+    assert.ok(await page.locator('.compare-body img').count() >= 3);
+    assert.match(await page.locator('.compare-practice').first().getAttribute('href'), /question-practice\.html\?paper=.+&topic=electronic\.opamp/);
+    await shot(page, 'topics-compare');
+    await page.goBack();
+    await page.waitForSelector('.topic-row');
+    assert.equal(await page.locator('.row-pick input:checked').count(), 3);
+    await page.click('#compare-clear');
+    assert.equal(await page.locator('#compare-bar').isHidden(), true);
+    await page.goto(origin + '/compare.html?q=..%2Fx,nope');
+    await page.waitForFunction(() => /至少选 2 题/.test(document.getElementById('compare-status').textContent));
+
+    // 学校出题倾向：选学校后出现热力图，点知识点进入该校题目
+    await page.goto(origin + '/topics.html');
+    await page.selectOption('#overview-school', 'tohoku');
+    await page.waitForSelector('.trend-table');
+    assert.match(page.url(), /topics\.html\?school=tohoku$/);
+    assert.match(await page.locator('.trend-always').textContent(), /几乎年年都考/);
+    const trendRows = await page.locator('.trend-table tbody tr').count();
+    assert.ok(trendRows > 10);
+    await page.locator('.trend-topic').first().click();
+    await page.waitForSelector('.topic-row');
+    assert.match(page.url(), /topic=[a-z.]+&school=tohoku/);
+    assert.ok((await page.locator('.row-school').allTextContents()).every(t => t === '東北大学'));
+    await shot(page, 'topics-trends');
+
     // 科目「全部」与非法参数
     await page.goto(origin + '/topics.html?topic=physics');
     await page.waitForSelector('.topic-row');
@@ -140,6 +183,8 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     await m.waitForSelector('.topic-row');
     assert.equal(await m.locator('#topics-tree').evaluate(d => d.open), false);
     assert.match(await m.locator('.tree-current').textContent(), /传递函数/);
+    await m.goto(origin + '/topics.html?school=kyushu');
+    await m.waitForSelector('.trend-table');
     for (const width of [320, 390, 768]) {
       await m.setViewportSize({ width, height: 800 });
       assert.equal(await m.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, 'no horizontal scroll at ' + width);
@@ -147,7 +192,7 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     await shot(m, 'topics-mobile');
 
     assert.deepEqual(errors, []);
-    console.log('Topic practice checks passed: practice entry, topic tree, school filter and history, newest-first order, cross-paper next, topic links, topic-aware resume, completion marks, status filters, exit to single paper, invalid params and mobile layout.');
+    console.log('Topic practice checks passed: practice entry, topic tree, school filter and history, newest-first order, school trend heatmap, side-by-side compare, cross-paper next, topic links, topic-aware resume, completion marks, status filters, exit to single paper, invalid params and mobile layout.');
   } finally {
     if (browser) await browser.close();
     await new Promise(r => server.close(r));
