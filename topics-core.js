@@ -105,11 +105,32 @@
     return 'topics.html' + (query ? '?' + query : '');
   }
 
+  // 学校出题倾向：该校每个知识点在各年份出现的题数（年份新→旧，知识点按总题数排序）。
+  function trends(index, school) {
+    const rows = index.questions.filter(r => index.papers[r.p] && index.papers[r.p].schoolId === school);
+    const years = [...new Set(rows.map(r => index.papers[r.p].year).filter(Number.isInteger))].sort((a, b) => b - a);
+    const meta = new Map(index.subjects.flatMap(s => s.topics.map(t => [t.id, { name: t.name, subject: s.name }])));
+    const byTopic = new Map();
+    for (const r of rows) {
+      const year = index.papers[r.p].year;
+      for (const k of r.k) {
+        const t = byTopic.get(k) || { id: k, ...(meta.get(k) || { name: k, subject: '' }), total: 0, counts: {} };
+        t.total++;
+        if (Number.isInteger(year)) t.counts[year] = (t.counts[year] || 0) + 1;
+        byTopic.set(k, t);
+      }
+    }
+    const topics = [...byTopic.values()].map(t => ({ ...t, years: Object.keys(t.counts).length }))
+      .sort((a, b) => b.total - a.total || b.years - a.years || a.id.localeCompare(b.id));
+    const max = topics.reduce((m, t) => Math.max(m, ...Object.values(t.counts)), 0);
+    return { school, questions: rows.length, years, topics, max };
+  }
+
   function yearText(paper) {
     return Number.isInteger(paper.year) ? paper.year + ' 年' : '年份未标';
   }
 
-  const api = { INDEX_PATH, SORTS, STATUSES, findTopic, inTopic, normalizeOptions, schools, queue, list, statusOf, progress, neighbors, practiceURL, topicsURL, yearText };
+  const api = { INDEX_PATH, SORTS, STATUSES, findTopic, inTopic, normalizeOptions, schools, queue, list, statusOf, progress, neighbors, practiceURL, topicsURL, yearText, trends };
   root.TopicIndex = api;
   if (typeof module === 'object' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

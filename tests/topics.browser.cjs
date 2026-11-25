@@ -117,6 +117,20 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     await page.waitForSelector('#app:not([hidden])');
     assert.match(await page.locator('#nav-position').textContent(), /^1 \//);
 
+    // 学校出题倾向：选学校后出现热力图，点知识点进入该校题目
+    await page.goto(origin + '/topics.html');
+    await page.selectOption('#overview-school', 'tohoku');
+    await page.waitForSelector('.trend-table');
+    assert.match(page.url(), /topics\.html\?school=tohoku$/);
+    assert.match(await page.locator('.trend-always').textContent(), /几乎年年都考/);
+    const trendRows = await page.locator('.trend-table tbody tr').count();
+    assert.ok(trendRows > 10);
+    await page.locator('.trend-topic').first().click();
+    await page.waitForSelector('.topic-row');
+    assert.match(page.url(), /topic=[a-z.]+&school=tohoku/);
+    assert.ok((await page.locator('.row-school').allTextContents()).every(t => t === '東北大学'));
+    await shot(page, 'topics-trends');
+
     // 科目「全部」与非法参数
     await page.goto(origin + '/topics.html?topic=physics');
     await page.waitForSelector('.topic-row');
@@ -140,6 +154,8 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     await m.waitForSelector('.topic-row');
     assert.equal(await m.locator('#topics-tree').evaluate(d => d.open), false);
     assert.match(await m.locator('.tree-current').textContent(), /传递函数/);
+    await m.goto(origin + '/topics.html?school=kyushu');
+    await m.waitForSelector('.trend-table');
     for (const width of [320, 390, 768]) {
       await m.setViewportSize({ width, height: 800 });
       assert.equal(await m.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, 'no horizontal scroll at ' + width);
@@ -147,7 +163,7 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     await shot(m, 'topics-mobile');
 
     assert.deepEqual(errors, []);
-    console.log('Topic practice checks passed: practice entry, topic tree, school filter and history, newest-first order, cross-paper next, topic links, topic-aware resume, completion marks, status filters, exit to single paper, invalid params and mobile layout.');
+    console.log('Topic practice checks passed: practice entry, topic tree, school filter and history, newest-first order, school trend heatmap, cross-paper next, topic links, topic-aware resume, completion marks, status filters, exit to single paper, invalid params and mobile layout.');
   } finally {
     if (browser) await browser.close();
     await new Promise(r => server.close(r));

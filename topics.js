@@ -89,9 +89,71 @@
     $('topics-tree-current').textContent = current ? (current.kind === 'subject' ? current.name + ' · 全部' : current.subject.name + ' › ' + current.name) : '全部科目';
   }
 
+  // 学校出题倾向：知识点 × 年份的热力图，格子越深该年题数越多。
+  function renderTrends() {
+    const data = T.trends(index, state.school);
+    const name = (T.schools(index).find(s => s.id === state.school) || {}).name || state.school;
+    const section = el('section', 'trend-panel');
+    section.setAttribute('aria-labelledby', 'trend-title');
+    const head = el('div', 'trend-head');
+    const h2 = el('h2', '', name + ' · 出题倾向'); h2.id = 'trend-title';
+    head.append(h2, el('p', 'trend-sub', `${data.years.length} 个年份 · ${data.questions} 道题 · ${data.topics.length} 个知识点。格子越深，那一年考的题越多；点知识点名进入题目列表。`));
+    section.append(head);
+    if (!data.topics.length) { section.append(el('p', 'topic-empty', '这所学校还没有拆好的逐题卷。')); return section; }
+    const always = data.topics.filter(t => data.years.length >= 3 && t.years >= Math.ceil(data.years.length * 0.8));
+    if (always.length) {
+      const note = el('p', 'trend-always');
+      note.append(el('strong', '', '几乎年年都考：'), document.createTextNode(always.slice(0, 6).map(t => `${t.name}（${t.years}/${data.years.length} 年）`).join('、')));
+      section.append(note);
+    }
+    const scroll = el('div', 'trend-scroll');
+    scroll.tabIndex = 0;
+    scroll.setAttribute('role', 'region');
+    scroll.setAttribute('aria-label', name + ' 各知识点逐年题数，可左右滚动');
+    const table = el('table', 'trend-table');
+    const thead = el('thead'), hr = el('tr');
+    hr.append(el('th', 'trend-topic-head', '知识点'), el('th', 'trend-total-head', '合计'), ...data.years.map(y => { const th = el('th', '', String(y).slice(2)); th.title = y + ' 年'; th.scope = 'col'; return th; }));
+    thead.append(hr);
+    const tbody = el('tbody');
+    for (const t of data.topics) {
+      const tr = el('tr');
+      const th = el('th'); th.scope = 'row';
+      th.append(link(T.topicsURL({ ...state, topic: t.id }), { topic: t.id }, 'trend-topic', [el('span', '', t.name), el('small', '', t.subject)]));
+      const total = el('td', 'trend-total', String(t.total));
+      tr.append(th, total, ...data.years.map(y => {
+        const n = t.counts[y] || 0;
+        const td = el('td', 'trend-cell');
+        if (n) {
+          td.dataset.level = String(Math.min(4, Math.ceil(n / Math.max(1, data.max) * 4)));
+          td.textContent = String(n);
+          td.title = `${y} 年 · ${t.name} · ${n} 题`;
+        } else td.setAttribute('aria-label', `${y} 年 未考`);
+        return td;
+      }));
+      tbody.append(tr);
+    }
+    table.append(thead, tbody);
+    scroll.append(table);
+    section.append(scroll);
+    return section;
+  }
+
+  function schoolPicker() {
+    const label = el('label', 'filter-field overview-school');
+    const select = el('select');
+    select.id = 'overview-school';
+    select.append(new Option('全部学校', ''), ...T.schools(index).map(s => new Option(s.name, s.id)));
+    select.value = state.school;
+    select.addEventListener('change', () => go({ school: select.value }));
+    label.append(el('span', '', '看一所学校的出题倾向'), select);
+    return label;
+  }
+
   function renderOverview() {
     const wrap = el('div', 'topics-overview');
-    const intro = el('p', 'topics-lead', '先选一个知识点。数字是题数，练过的会显示为「已练 / 总数」。');
+    wrap.append(schoolPicker());
+    if (state.school) wrap.append(renderTrends());
+    const intro = el('p', 'topics-lead', state.school ? '下面的数字只统计这所学校的题。' : '先选一个知识点。数字是题数，练过的会显示为「已练 / 总数」。');
     const grid = el('div', 'subject-grid');
     for (const subject of index.subjects) {
       const all = T.progress(index, subject.id, records, state.school);
