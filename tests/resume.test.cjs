@@ -60,3 +60,26 @@ test('a visit from topic practice keeps its topic and school, and drops unsafe o
   values.set(resume.KEY, JSON.stringify({ ...JSON.parse(values.get(resume.KEY)), topic: 'math.linalg', school: '<x>' }));
   assert.equal(resume.url(resume.read(storage)), 'question-practice.html?paper=kobe-ee-2020&q=kobe-ee-2020-q2&topic=math.linalg');
 });
+
+test('the card shows for 24 hours after the last practice, and closing hides it until the next practice', () => {
+  const { values, storage } = memory();
+  const hour = 3600 * 1000;
+  resume.save({ paper: 'kobe-ee-2020', q: 'kobe-ee-2020-q2' }, storage);
+  const entry = resume.read(storage);
+  assert.equal(resume.visible(entry, entry.at + 23 * hour), true);
+  assert.equal(resume.visible(entry, entry.at + 25 * hour), false);
+  assert.equal(resume.visible({ ...entry, at: 0 }, entry.at), false);
+  assert.equal(resume.dismiss(storage, entry.at + hour), true);
+  const closed = resume.read(storage);
+  assert.equal(closed.dismissedAt, entry.at + hour);
+  assert.equal(resume.visible(closed, entry.at + 2 * hour), false);
+  // 下一次练习写入新记录，dismissedAt 不再带上，卡片重新出现
+  resume.save({ ...closed, q: 'kobe-ee-2020-q3' }, storage);
+  const again = resume.read(storage);
+  assert.equal(again.dismissedAt, undefined);
+  assert.equal(resume.visible(again, again.at + 1000), true);
+  // 旧格式（没有 dismissedAt）照常读取
+  values.set(resume.KEY, JSON.stringify({ version: 1, paper: 'a1', q: 'b1', at: 5 }));
+  assert.equal(resume.read(storage).dismissedAt, undefined);
+  assert.equal(resume.dismiss({ getItem() { throw new Error('x'); }, setItem() {} }), false);
+});
