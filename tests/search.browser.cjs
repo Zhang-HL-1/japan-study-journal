@@ -72,7 +72,7 @@ const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '
     const m = await (await browser.newContext({ ...devices['iPhone 13'] })).newPage();
     m.on('pageerror', e => errors.push(String(e)));
     await m.goto(origin + '/index.html');
-    await m.click('.search-trigger');
+    await m.click('.tab-bar button');
     await m.fill('.search-input', '早稻田 2024');
     await m.waitForSelector('.search-item');
     assert.equal(await m.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
