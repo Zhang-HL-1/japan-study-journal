@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="editorial.css?v=20261021-desk" />
   <link rel="stylesheet" href="study-room.css?v=20261016-answers" />
   <link rel="stylesheet" href="theme.css?v=20261120-keys">
-  <link rel="stylesheet" href="topics.css?v=20261125-trends">
+  <link rel="stylesheet" href="topics.css?v=20261125-compare">
   <script src="question-bank.js?v=20261030-year-direction" defer></script>
   <script src="topics-core.js?v=20261125-trends" defer></script>
-  <script src="topics.js?v=20261125-trends" defer></script>
+  <script src="topics.js?v=20261125-compare" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -60,6 +60,7 @@
         <p class="topic-empty">正在载入知识点……</p>
       </section>
     </div>
+    <div class="compare-bar" id="compare-bar" hidden><span id="compare-count"></span><span class="compare-hint" id="compare-hint" role="status"></span><button type="button" class="compare-clear" id="compare-clear">清空</button><a class="compare-go" id="compare-go" href="compare.html">对比所选 →</a></div>
     <p class="topics-note">知识点由题目原有标签自动归类，同一道题可以属于几个知识点。归类依据和逐题修正见仓库里的 <code>docs/topic-review.md</code>；分错的题欢迎指出。</p>
   </main>
   <footer class="site-footer"><a class="brand brand--footer" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a><p>一次一点，把理解留住。</p><p class="copyright">© <span id="year">2026</span></p></footer>
