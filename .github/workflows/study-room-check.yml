@@ -25,6 +25,7 @@ on:
       - 'topics*'
       - 'targets*'
       - 'site-search.js'
+      - 'site-nav.js'
       - 'text-normalize.js'
       - 'data/search-index.json'
       - 'scripts/build-search-index.cjs'
@@ -93,6 +94,7 @@ jobs:
           node tests/topics.browser.cjs
           node tests/targets.browser.cjs
           node tests/search.browser.cjs
+          node tests/site-nav.browser.cjs
       - name: Save desktop and mobile screenshots
         if: always()
         uses: actions/upload-artifact@v4

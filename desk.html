@@ -4,10 +4,11 @@
 <meta name="description" content="收藏考试资料和历年真题。收藏保存在当前浏览器，可导出备份。" />
 <title>我的书桌｜留日手记</title>
 <link rel="stylesheet" href="styles.css" /><link rel="stylesheet" href="editorial.css?v=20261021-desk" /><link rel="stylesheet" href="study-desk.css?v=20261021-favorites" /><link rel="stylesheet" href="github-sync.css?v=20261022-sync" />
-  <link rel="stylesheet" href="theme.css?v=20261125-search">
+  <link rel="stylesheet" href="theme.css?v=20261125-nav">
   <link rel="stylesheet" href="targets.css?v=20261125-targets">
 <script src="study-desk-core.js?v=20261021-favorites" defer></script><script src="progress-sync.js?v=20261022-sync" defer></script><script src="github-sync.js?v=20261022-sync" defer></script><script src="github-sync-ui.js?v=20261022-sync" defer></script><script src="study-desk.js?v=20261022-sync" defer></script><script src="school-hub-data.js?v=20261114-hokkaido-joele" defer></script><script src="question-bank.js?v=20261030-year-direction" defer></script><script src="targets-core.js?v=20261125-targets" defer></script><script src="targets.js?v=20261125-targets" defer></script><script src="script.js" defer></script>
   <script src="text-normalize.js?v=20261125-search" defer></script><script src="site-search.js?v=20261125-search" defer></script>
+  <script src="site-nav.js?v=20261125-nav" defer></script>
 </head><body><a class="skip-link" href="#desk-main">跳到我的书桌</a>
 <header class="site-header">
       <a class="brand" href="index.html" aria-label="留日手记首页">
@@ -16,12 +17,24 @@
       </a>
       <nav class="main-nav" aria-label="主要导航">
         <a href="index.html">首页</a>
-        <a href="schools.html">院校资料</a>
-        <a href="exam-scope.html">考试范围</a>
-        <a href="past-papers.html">过去问</a>
-        <a href="answers.html">答案书架</a>
-        <a href="campus-map.html">大学院地图</a>
-        <a href="practice.html">练习室</a>
+        <div class="nav-group">
+          <button class="nav-group-button" type="button" aria-expanded="false" aria-controls="nav-schools">院校<span class="nav-caret" aria-hidden="true"></span></button>
+          <div class="nav-menu" id="nav-schools" hidden>
+            <a href="schools.html"><span>院校资料</span><small>按地区和学校浏览</small></a>
+            <a href="exam-scope.html"><span>考试范围</span><small>募集要项与科目</small></a>
+            <a href="campus-map.html"><span>大学院地图</span><small>校区在哪里</small></a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <button class="nav-group-button" type="button" aria-expanded="false" aria-controls="nav-practice">练习<span class="nav-caret" aria-hidden="true"></span></button>
+          <div class="nav-menu" id="nav-practice" hidden>
+            <a href="practice.html"><span>练习室</span><small>所有练习入口</small></a>
+            <a href="topics.html"><span>按知识点练</span><small>各校同类题一起练</small></a>
+            <a href="drill.html"><span>刷题练习</span><small>按学校和年份刷题</small></a>
+            <a href="past-papers.html"><span>过去问</span><small>历年真题原卷</small></a>
+            <a href="answers.html"><span>答案书架</span><small>练习册答案</small></a>
+          </div>
+        </div>
         <a class="is-active" aria-current="page" href="desk.html">我的书桌</a>
       </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">
@@ -30,16 +43,18 @@
       </button>
     </header>
 
-    <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
         <a href="index.html">首页</a>
         <a href="schools.html">院校资料</a>
         <a href="exam-scope.html">考试范围</a>
-        <a href="past-papers.html">过去问</a>
-        <a href="answers.html">答案书架</a>
         <a href="campus-map.html">大学院地图</a>
         <a href="practice.html">练习室</a>
+        <a href="topics.html">按知识点练</a>
+        <a href="drill.html">刷题练习</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
         <a class="is-active" aria-current="page" href="desk.html">我的书桌</a>
-    </nav>
+</nav>
 <main id="desk-main" class="desk-main">
  <section class="desk-intro"><p class="eyebrow">Your reading desk / 我的书桌</p><h1>把有用的资料，<br />留在这里。</h1><p>收藏考试资料与历年真题，方便下次集中查阅。</p></section>
  <p class="desk-notice">收藏默认只在当前浏览器，最多 200 条，也可导出备份。需要换设备时，用下方的私密 Gist 同步；真题链接指向收藏时选择的原卷文件。</p>

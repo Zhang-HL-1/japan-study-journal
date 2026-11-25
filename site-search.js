@@ -155,6 +155,7 @@
   }
 
   function start() {
+    api.open = open;
     addButton();
     doc.addEventListener('keydown', e => {
       if (e.isComposing || e.defaultPrevented) return;

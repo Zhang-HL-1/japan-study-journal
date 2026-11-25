@@ -9,34 +9,49 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="editorial.css?v=20261021-desk" />
   <link rel="stylesheet" href="campus-map.css?v=20261011" />
-  <link rel="stylesheet" href="theme.css?v=20261125-search">
+  <link rel="stylesheet" href="theme.css?v=20261125-nav">
   <script src="text-normalize.js?v=20261125-search" defer></script><script src="site-search.js?v=20261125-search" defer></script>
+  <script src="site-nav.js?v=20261125-nav" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
   <header class="site-header">
     <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>留日手记</span></a>
-    <nav class="main-nav" aria-label="主要导航">
+      <nav class="main-nav" aria-label="主要导航">
         <a href="index.html">首页</a>
-        <a href="schools.html">院校资料</a>
-        <a href="exam-scope.html">考试范围</a>
-        <a href="past-papers.html">过去问</a>
-        <a href="answers.html">答案书架</a>
-        <a class="is-active" aria-current="page" href="campus-map.html">大学院地图</a>
-        <a href="practice.html">练习室</a>
-              <a href="desk.html">我的书桌</a>
-</nav>
+        <div class="nav-group is-active">
+          <button class="nav-group-button" type="button" aria-expanded="false" aria-controls="nav-schools">院校<span class="nav-caret" aria-hidden="true"></span></button>
+          <div class="nav-menu" id="nav-schools" hidden>
+            <a href="schools.html"><span>院校资料</span><small>按地区和学校浏览</small></a>
+            <a href="exam-scope.html"><span>考试范围</span><small>募集要项与科目</small></a>
+            <a href="campus-map.html" aria-current="page"><span>大学院地图</span><small>校区在哪里</small></a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <button class="nav-group-button" type="button" aria-expanded="false" aria-controls="nav-practice">练习<span class="nav-caret" aria-hidden="true"></span></button>
+          <div class="nav-menu" id="nav-practice" hidden>
+            <a href="practice.html"><span>练习室</span><small>所有练习入口</small></a>
+            <a href="topics.html"><span>按知识点练</span><small>各校同类题一起练</small></a>
+            <a href="drill.html"><span>刷题练习</span><small>按学校和年份刷题</small></a>
+            <a href="past-papers.html"><span>过去问</span><small>历年真题原卷</small></a>
+            <a href="answers.html"><span>答案书架</span><small>练习册答案</small></a>
+          </div>
+        </div>
+        <a href="desk.html">我的书桌</a>
+      </nav>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">打开导航</span><span></span><span></span></button>
   </header>
   <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
         <a href="index.html">首页</a>
         <a href="schools.html">院校资料</a>
         <a href="exam-scope.html">考试范围</a>
-        <a href="past-papers.html">过去问</a>
-        <a href="answers.html">答案书架</a>
         <a class="is-active" aria-current="page" href="campus-map.html">大学院地图</a>
         <a href="practice.html">练习室</a>
-            <a href="desk.html">我的书桌</a>
+        <a href="topics.html">按知识点练</a>
+        <a href="drill.html">刷题练习</a>
+        <a href="past-papers.html">过去问</a>
+        <a href="answers.html">答案书架</a>
+        <a href="desk.html">我的书桌</a>
 </nav>
   <main id="main" class="campus-page">
     <p><a id="map-school-link" href="schools.html">查看院校资料汇总 →</a></p>
