@@ -415,3 +415,10 @@ dialog.shortcut-dialog[open] { animation: rise-in .25s var(--ease) both; }
 .room-topic-go { grid-area: go; font-size: 1.6rem; color: var(--clay-ink); transition: transform .25s var(--ease); }
 .room-topic-link:hover .room-topic-go { transform: translateX(4px); }
 @media (prefers-reduced-motion: reduce) { .room-topic-link, .room-topic-link:hover, .room-topic-go, .room-topic-link:hover .room-topic-go { transition: none; transform: none; } }
+
+/* 首页：目标学校倒计时 */
+.target-countdown { margin: .9rem 0 0; font-size: .92rem; }
+.target-countdown[hidden] { display: none; }
+.target-countdown a { display: inline-flex; align-items: baseline; gap: .1rem; color: var(--ink-body); text-decoration: none; padding: .35rem .8rem; border-radius: 99px; background: var(--clay-wash); }
+.target-countdown a:hover { color: var(--clay-ink); }
+.target-countdown strong { color: var(--clay-ink); font-family: var(--serif); font-weight: 500; font-size: 1.05rem; margin: 0 .1rem; font-variant-numeric: tabular-nums; }
